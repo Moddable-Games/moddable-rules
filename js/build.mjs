@@ -189,8 +189,8 @@ function buildGame(slug) {
 
   // --- Game-specific theme: fix ../theme.css → correct path from dist/ ---
   output = output.replace(
-    /href="\.\.\/theme\.css"/g,
-    `href="${gameRelative}/theme.css"`
+    /href="\.\.\/theme\.css([^"]*)"/g,
+    `href="${gameRelative}/theme.css$1"`
   );
 
   // Add theme.css for old-style templates that don't reference it

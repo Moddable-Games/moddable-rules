@@ -4,7 +4,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "What Is Dungeon Chess?",
     "heading": "What Is Dungeon Chess?",
-    "content": "Dungeon Chess is an asymmetric strategy game built on a chess engine. Four fantasy factions — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies fro",
+    "content": "Dungeon Chess is an asymmetric strategy board game for 2–4 players. Four fantasy factions — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies from ",
     "anchor": "what-is-dungeon-chess"
   },
   {
@@ -148,72 +148,72 @@
     "gameTitle": "Dungeon Chess",
     "section": "Army Drafting",
     "heading": "Army Drafting",
-    "content": "Before each battle, players build their army from an XP budget. Budget: 80 XP Constraints: - Must include exactly 1 King - Must include at least 1 Pawn - No maximum team size — as many units as budget",
+    "content": "Before each game, players secretly build their army from an XP budget. Draft on paper or use the companion app — reveal your army only at deployment. Budget: 80 XP Constraints: - Must include exactly ",
     "anchor": "army-drafting"
   },
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
-    "section": "Battle Rules",
+    "section": "How to Play",
     "heading": "Setup",
-    "content": "1. Choose your faction 2. Draft your army 80 XP 3. Choose turn order: You First, AI First, or Random 4. Deploy units in your spawn zone bottom rows of the map",
+    "content": "1. Agree on a map and lay it out between all players 2. Each player chooses a faction no duplicates 3. Each player secretly drafts their army within the 80 XP budget 4. Determine turn order youngest f",
     "anchor": "setup"
   },
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
-    "section": "Battle Rules",
-    "heading": "Turn Order",
-    "content": "- 2-player: alternating turns - 4-player: cyclic Player → AI 1 → AI 2 → AI 3 - Each turn: move one unit OR attack with one unit",
-    "anchor": "turn-order"
+    "section": "How to Play",
+    "heading": "On Your Turn",
+    "content": "Each turn you perform exactly one action: move or attack with one unit. If a unit's movement brings it onto an enemy-occupied square, that is both a move and a capture in a single action. Play proceed",
+    "anchor": "on-your-turn"
   },
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
-    "section": "Battle Rules",
+    "section": "How to Play",
     "heading": "Check",
-    "content": "- A King is in check if an enemy unit could capture it on the next move. - You CANNOT make a move that leaves your own King in check. - You MUST resolve check on your turn move King, block, or capture",
+    "content": "- A King is in check if an enemy unit could capture it next turn. - You cannot make a move that leaves your own King in check. - You must resolve check on your turn — move your King, block the threat,",
     "anchor": "check"
   },
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
-    "section": "Battle Rules",
-    "heading": "Win Condition",
-    "content": "Capture the enemy King. The game ends immediately when a King is taken. In 4-player games, eliminated players' remaining pieces are removed; the last King standing wins.",
-    "anchor": "win-condition"
-  },
-  {
-    "game": "dungeon-chess",
-    "gameTitle": "Dungeon Chess",
-    "section": "Battle Rules",
-    "heading": "Undo",
-    "content": "Players may undo their last move reverting both their move and the AI's response. Maps",
-    "anchor": "undo"
+    "section": "How to Play",
+    "heading": "Winning the Game",
+    "content": "Capture an enemy King. The game ends immediately when any King is taken. In a 4-player game, an eliminated player removes all their remaining pieces from the board. Play continues among surviving play",
+    "anchor": "winning-the-game"
   },
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
     "section": "Maps",
-    "heading": "Map 1: Compact Skirmish (2-player)",
-    "content": "A 10×10 open arena with a 4×4 water block in the centre rows 3–6, columns 3–6. Spawn zones are the top 2 rows AI and bottom 2 rows Player. Fast, tactical games with water forcing units around the midd",
-    "anchor": "map-1-compact-skirmish-2-player"
+    "heading": "Maps",
+    "content": "Choose one map before the game begins. Each map uses square tiles laid out in the specified pattern. Water tiles are placed face-up; void spaces are simply left empty.",
+    "anchor": "maps"
   },
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
     "section": "Maps",
-    "heading": "Map 2: Two Player Dungeon (2-player)",
-    "content": "A 20×8 cross-shaped dungeon. Three chambers connected by narrow 2-wide corridors: - Top chamber: 8×3 AI spawn - Centre chamber: 8×8 with 4×4 water in the middle - Bottom chamber: 8×3 Player spawn - Co",
-    "anchor": "map-2-two-player-dungeon-2-player"
+    "heading": "Compact Skirmish (2 players)",
+    "content": "A 10×10 open arena with a 4×4 water block in the centre. Each player deploys in the 2 rows nearest their edge. Fast, aggressive games where the water forces armies to split and flank.",
+    "anchor": "compact-skirmish-2-players"
   },
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
     "section": "Maps",
-    "heading": "Map 3: Four Player Dungeon (4-player)",
-    "content": "A 20×20 symmetric cross. Four spawn chambers at the cardinal edges, connected by narrow corridors to a central 8×8 arena with 4×4 water. Each arm has its own connector passage. - Centre: rows 6–13, co",
-    "anchor": "map-3-four-player-dungeon-4-player"
+    "heading": "Two Player Dungeon (2 players)",
+    "content": "A cross-shaped dungeon with three chambers connected by narrow 2-wide corridors: - North & South chambers: 8×2 deployment zones, one per player - Centre chamber: 8×8 with 4×4 water in the middle - Cor",
+    "anchor": "two-player-dungeon-2-players"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Maps",
+    "heading": "Four Player Dungeon (4 players)",
+    "content": "A symmetric cross with four arms. Each player claims one arm as their deployment zone 2 rows at the end of each arm. A central 8×8 arena with 4×4 water connects all four corridors. The largest and mos",
+    "anchor": "four-player-dungeon-4-players"
   },
   {
     "game": "moddable-chess",
