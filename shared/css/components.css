@@ -31,6 +31,11 @@
 .rules li:last-child{border-bottom:none;}
 .rules li::before{content:'◆';position:absolute;left:2px;top:50%;transform:translateY(-50%);font-size:10px;color:var(--accent);line-height:1;}
 .rules li strong{color:var(--text-primary);}
+ol{list-style:none;counter-reset:steps;margin:10px 0 18px;}
+ol li{padding:9px 0 9px 28px;position:relative;font-size:16.5px;color:var(--text-secondary);border-bottom:1px solid rgba(207,192,160,.4);line-height:1.65;counter-increment:steps;}
+ol li:last-child{border-bottom:none;}
+ol li::before{content:counter(steps);position:absolute;left:0;top:50%;transform:translateY(-50%);font-family:var(--sans);font-size:12px;font-weight:700;color:var(--accent);width:20px;text-align:center;}
+ol li strong{color:var(--text-primary);}
 
 /* Tables */
 .t{width:100%;border-collapse:collapse;margin:14px 0 22px;font-size:15.5px;}

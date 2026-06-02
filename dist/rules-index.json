@@ -28,7 +28,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "The Four Factions",
     "heading": "Undead — Phase & Swarm",
-    "content": "1 XP Skeletons let you field massive armies up to 35 Pawns + King, but each dies to any adjacent touch. The Wraith phases through allies, the Reaper walks on water, the Tomb fires through friendly scr",
+    "content": "1 XP Skeletons let you field massive armies, but each dies to any adjacent touch. The Wraith moves with gaps and attacks with full slides, the Tomb phases through allies, and the Vampire moves diagona",
     "anchor": "undead-phase-swarm"
   },
   {
@@ -60,7 +60,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Unit Roster",
     "heading": "Pawns",
-    "content": "Faction Movement Special ------ ------ -------- Human 1 square, any direction 8-way — Skeleton 1 XP Diagonal only 1 square Redskin 1 square 8-way + rook slide to screen — Goblin 5 XP Diagonal 1 sq + C",
+    "content": "Faction Movement Special ------ ------ -------- Human 1 square, any direction 8-way — Skeleton 1 XP Same as movement 8-way Redskin 1 square, any direction 8-way — Goblin 5 XP 8-way 1 sq + Cannon rook ",
     "anchor": "pawns"
   },
   {
@@ -68,7 +68,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Unit Roster",
     "heading": "Castles",
-    "content": "Faction Movement Special ------ ------ -------- Human 1 square orthogonally — Tomb 12 XP Adjacent + Rook slide Redskin 1 sq ortho + rook slide to screen Cannon-proof: cannot be targeted by cannon atta",
+    "content": "Faction Movement Special ------ ------ -------- Human 1 square orthogonally — Tomb 12 XP 1 sq ortho + Phasing rook slide Redskin 1 square orthogonally Cannon-proof: cannot be targeted by cannon attack",
     "anchor": "castles"
   },
   {
@@ -76,7 +76,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Unit Roster",
     "heading": "Knights",
-    "content": "Faction Movement Special ------ ------ -------- Human L-shaped jump 2+1 — Reaper 15 XP Same as movement Redskin L-shaped jump 2+1 Hit-and-run: after capturing, may move 1 additional square in any dire",
+    "content": "Faction Movement Special ------ ------ -------- Human L-shaped jump 2+1 — Reaper 15 XP Same as movement Redskin L-shaped jump 2+1 Retreat: after capturing, must move 1 square to an adjacent empty squa",
     "anchor": "knights"
   },
   {
@@ -84,7 +84,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Unit Roster",
     "heading": "Bishops",
-    "content": "Faction Movement Special ------ ------ -------- Human Diagonal slide Piercing: can attack through one intervening piece Wraith 15 XP Diagonal slide Redskin Diagonal slide Water weakness: water blocks ",
+    "content": "Faction Movement Special ------ ------ -------- Human Diagonal slide Ranged: attacks at distance — must have one empty square gap to target Wraith 15 XP Diagonal slide unlimited Redskin Diagonal slide",
     "anchor": "bishops"
   },
   {
@@ -92,7 +92,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Unit Roster",
     "heading": "Queens",
-    "content": "Faction Movement Special ------ ------ -------- Human Rook lines orthogonal slide Split: moves as Rook, attacks in all directions Vampire 20 XP Rook + Diagonal lines Redskin Full queen all 8 direction",
+    "content": "Faction Movement Special ------ ------ -------- Human Rook slide orthogonal Split: moves orthogonally, attacks diagonally Vampire 20 XP Rook slide orthogonal Redskin Queen slide all 8 directions Volat",
     "anchor": "queens"
   },
   {
@@ -100,7 +100,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Unit Roster",
     "heading": "Kings",
-    "content": "Faction Movement Bonus ------ ------ -------- Human King step 1 sq, 8-way + Bishop slide Mobile: slides diagonally for repositioning no capture via slide Warlock 20 XP King step + Bishop slide attack ",
+    "content": "Faction Movement Bonus ------ ------ -------- Human King step 1 sq, 8-way + Bishop slide Mobile: diagonal slides for repositioning only Warlock 20 XP King step + Bishop slide Redskin King step 1 sq, 8",
     "anchor": "kings"
   },
   {
@@ -132,7 +132,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Terrain",
     "heading": "Water",
-    "content": "- Most units CANNOT step onto water squares. - Knights cannot land on water but can leap over it. - Water blocks diagonal slides for Fire Elemental, Troll, Demonics, and Shaman. - Cannon lines skip ov",
+    "content": "- Most units CANNOT step onto or slide through water squares. - Knights CAN leap over water their jump ignores terrain. - Tomb phasing ignores water slides through it. - Cannon lines skip over water r",
     "anchor": "water"
   },
   {
@@ -148,7 +148,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Army Drafting",
     "heading": "Army Drafting",
-    "content": "Before each battle, players build their army from an XP budget. Budget: 75 XP Constraints: - Must include exactly 1 King - Must include at least 1 Pawn - No maximum team size — as many units as budget",
+    "content": "Before each battle, players build their army from an XP budget. Budget: 80 XP Constraints: - Must include exactly 1 King - Must include at least 1 Pawn - No maximum team size — as many units as budget",
     "anchor": "army-drafting"
   },
   {
@@ -156,7 +156,7 @@
     "gameTitle": "Dungeon Chess",
     "section": "Battle Rules",
     "heading": "Setup",
-    "content": "1. Choose your faction 2. Draft your army 75 XP 3. Choose turn order: You First, AI First, or Random 4. Deploy units in your spawn zone bottom rows of the map",
+    "content": "1. Choose your faction 2. Draft your army 80 XP 3. Choose turn order: You First, AI First, or Random 4. Deploy units in your spawn zone bottom rows of the map",
     "anchor": "setup"
   },
   {
