@@ -5,7 +5,7 @@
       .floor { fill: #d4c4a8; }
       .water { fill: #4a90c8; opacity: 0.5; }
       .void { fill: #1a1a2e; }
-      .spawn-a { stroke: #e8a838; stroke-width: 2; }
+      .spawn-a { fill: #f0d080; stroke: #c08820; stroke-width: 2; }
       .legend-text { font-family: sans-serif; font-size: 10px; fill: #333; }
     </style>
   </defs>
@@ -199,6 +199,6 @@
   <text x="24" y="453" class="legend-text">Floor</text>
   <rect x="65" y="444" width="10" height="10" fill="#4a90c8" opacity="0.5" stroke="#2a2a2a" stroke-width="0.5"/>
   <text x="79" y="453" class="legend-text">Water</text>
-  <rect x="125" y="444" width="10" height="10" fill="#d4c4a8" stroke="#e8a838" stroke-width="2"/>
+  <rect x="125" y="444" width="10" height="10" fill="#f0d080" stroke="#c08820" stroke-width="1"/>
   <text x="139" y="453" class="legend-text">Deploy Zone</text>
 </svg>

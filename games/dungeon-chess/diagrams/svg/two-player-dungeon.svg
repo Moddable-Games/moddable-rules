@@ -5,8 +5,8 @@
       .floor { fill: #d4c4a8; }
       .water { fill: #4a90c8; opacity: 0.5; }
       .void { fill: #1a1a2e; }
-      .spawn-a { stroke: #e8a838; stroke-width: 2; }
-      .spawn-b { stroke: #2255cc; stroke-width: 2; }
+      .spawn-a { fill: #f0d080; stroke: #c08820; stroke-width: 2; }
+      .spawn-b { fill: #a0c0f0; stroke: #3060b0; stroke-width: 2; }
       .legend-text { font-family: sans-serif; font-size: 10px; fill: #333; }
     </style>
   </defs>
@@ -140,8 +140,8 @@
   <text x="24" y="449" class="legend-text">Floor</text>
   <rect x="60" y="440" width="10" height="10" fill="#4a90c8" opacity="0.5" stroke="#2a2a2a" stroke-width="0.5"/>
   <text x="74" y="449" class="legend-text">Water</text>
-  <rect x="10" y="458" width="10" height="10" fill="#d4c4a8" stroke="#e8a838" stroke-width="2"/>
+  <rect x="10" y="458" width="10" height="10" fill="#f0d080" stroke="#c08820" stroke-width="1"/>
   <text x="24" y="467" class="legend-text">P1 Deploy</text>
-  <rect x="80" y="458" width="10" height="10" fill="#d4c4a8" stroke="#2255cc" stroke-width="2"/>
+  <rect x="80" y="458" width="10" height="10" fill="#a0c0f0" stroke="#3060b0" stroke-width="1"/>
   <text x="94" y="467" class="legend-text">P2 Deploy</text>
 </svg>
