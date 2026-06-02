@@ -4,7 +4,7 @@ slug: "grand"
 board: "10×10"
 players: "2"
 parent: "moddable-chess"
-order: 29
+order: 30
 win: "Checkmate"
 special: "Same new pieces as Capablanca, bigger board, pawns start on rank 3."
 ---

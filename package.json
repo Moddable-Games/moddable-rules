@@ -9,7 +9,8 @@
     "index": "node js/build-index.mjs",
     "pdf": "node js/pdf.mjs",
     "pdf:game": "node js/pdf.mjs --game",
-    "sync": "node js/sync.mjs"
+    "sync": "node js/sync.mjs",
+    "og": "python3 build/gen-og.py"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",

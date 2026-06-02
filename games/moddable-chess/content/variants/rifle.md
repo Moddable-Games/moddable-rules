@@ -4,7 +4,7 @@ slug: "rifle"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 55
+order: 60
 win: "Checkmate"
 special: "Capturing pieces stay on their square — they 'shoot' the target."
 ---

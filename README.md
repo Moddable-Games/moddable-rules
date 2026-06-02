@@ -20,7 +20,7 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 | Mod | Base Game | Version | Players | Status |
 |-----|-----------|---------|---------|--------|
-| **Moddable Chess** | Chess | 0.3.0 | 2–6 | Alpha |
+| **Moddable Chess** | Chess | 0.4.0 | 2–6 | Alpha |
 | **Dungeon Chess** | Chess | 0.1.0 | 2–4 | Alpha |
 | **Talisman: Hexed** | Talisman 4e | 1.0.0 | 2–6 | Live |
 | **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 3–6 | Live |
@@ -39,12 +39,14 @@ games/
   talisman-hexed/        Full rulebook (live) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
-  moddable-chess/        Variant library hub + 64 sub-pages (alpha) — platform
+  moddable-chess/        Variant library hub + 70 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
   templates/             Shared fallback shell template
   logos/                 Moddable brand assets
+build/
+  gen-og.py             OG image generator (blueprint aesthetic, Pillow)
 js/
   build.mjs             Multi-game build system (+ variant sub-pages + search index)
   build-index.mjs       Standalone search index generator
@@ -90,6 +92,7 @@ npm run build:game nukes   # Build one game
 npm run index              # Rebuild search index only
 npm run pdf                # Generate all PDFs
 npm run pdf:game nukes     # Generate PDF for one game
+npm run og                 # Generate all OG images (requires Pillow)
 ```
 
 The build reads each game's `content/rulebook.md`, resolves includes and SVGs, renders markdown to HTML, applies the game's theme, and outputs to `dist/{slug}/index.html`. It also generates `dist/rules-index.json` — a structured search index consumed by the Rules Referee widget on moddable.games.
@@ -154,6 +157,19 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-06-02
+- Moddable Chess: added 6 new variant pages (70 total) — Crazyhouse, Immunization, Medusa, Poison, Recruitment, Teleportation
+- All 70 variants renumbered alphabetically with SVG board diagrams
+- Moddable Chess rulebook version bumped to 0.4.0
+- Added `build/gen-og.py` — blueprint-style OG image generator (79 unique images)
+- Per-game OG images with logo overlay, per-variant OG images with chess schematic
+- Type-differentiated blueprints: red (games), blue (mods), purple (platforms), teal (variants)
+- All shell templates updated to reference dedicated 1200×630 OG images
+- Variant shell now uses per-variant OG images (`og-variants/{{slug}}.png`)
+- PDFs regenerated at v0.4.0 (70 individual variants + 211-page combined library)
+- Landing page CSS: added `text-wrap: pretty` for orphan prevention
+- Site version bumped to 1.1.0
 
 #### 2026-05-28
 - Moddable Chess: synced with app v0.6.8 — added 10 new variant pages (64 total)

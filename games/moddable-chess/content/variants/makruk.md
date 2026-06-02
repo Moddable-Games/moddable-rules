@@ -4,7 +4,7 @@ slug: "makruk"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 41
+order: 43
 win: "Checkmate"
 special: "Thai chess. Pawns promote on rank 6 to Met (one-step diagonal). No castling or en passant."
 ---

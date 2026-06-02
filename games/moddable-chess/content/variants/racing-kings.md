@@ -4,7 +4,7 @@ slug: "racing-kings"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 54
+order: 58
 win: "King reaches 8th rank first"
 special: "No checks allowed. Both kings start on 1st rank. Race to the top."
 ---

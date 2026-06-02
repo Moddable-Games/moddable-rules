@@ -4,7 +4,7 @@ slug: "upside-down"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 63
+order: 69
 win: "Checkmate"
 special: "Pieces start on the opponent's back rank. Instant tactical chaos."
 ---

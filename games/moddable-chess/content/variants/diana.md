@@ -4,7 +4,7 @@ slug: "diana"
 board: "6×6"
 players: "2"
 parent: "moddable-chess"
-order: 18
+order: 19
 win: "Checkmate"
 special: "6×6 board. No queens or knights — bishops and rooks only."
 ---

@@ -4,7 +4,7 @@ slug: "extinction"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 24
+order: 25
 win: "Capture all of one piece type"
 special: "Lose all your knights, bishops, rooks, or pawns — you lose the game."
 ---

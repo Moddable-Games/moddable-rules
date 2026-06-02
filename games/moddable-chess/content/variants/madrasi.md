@@ -4,7 +4,7 @@ slug: "madrasi"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 38
+order: 40
 win: "Checkmate"
 special: "Same-type opposing pieces paralyse each other when they attack."
 ---

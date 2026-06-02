@@ -1386,6 +1386,66 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Crazyhouse",
+    "heading": "Crazyhouse",
+    "content": "Captured pieces join the captor's reserve. Instead of moving, you may drop a piece from your hand onto any empty square. The most popular chess variant online.",
+    "anchor": "crazyhouse",
+    "variant": "crazyhouse",
+    "variantUrl": "dist/moddable-chess/variants/crazyhouse/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Crazyhouse",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. Each player begins with an empty hand reserve. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "crazyhouse",
+    "variantUrl": "dist/moddable-chess/variants/crazyhouse/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Crazyhouse",
+    "heading": "Rules",
+    "content": "- When you capture an opponent's piece, it switches colour and enters your hand reserve. - Instead of making a normal move, you may drop a piece from your hand onto any empty square. - Pawns cannot be",
+    "anchor": "rules",
+    "variant": "crazyhouse",
+    "variantUrl": "dist/moddable-chess/variants/crazyhouse/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Crazyhouse",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "crazyhouse",
+    "variantUrl": "dist/moddable-chess/variants/crazyhouse/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Crazyhouse",
+    "heading": "Strategy",
+    "content": "Piece drops create explosive tactical possibilities — no piece is ever truly lost. Material advantage matters less than board control and king safety. Early attacks are common because captured pieces ",
+    "anchor": "strategy",
+    "variant": "crazyhouse",
+    "variantUrl": "dist/moddable-chess/variants/crazyhouse/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Crazyhouse",
+    "heading": "Attribution",
+    "content": "Traditional variant. Derives from Shogi's drop mechanic applied to Western chess. Popularised on Lichess and FICS. Public domain.",
+    "anchor": "attribution",
+    "variant": "crazyhouse",
+    "variantUrl": "dist/moddable-chess/variants/crazyhouse/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Cylinder Chess",
     "heading": "Cylinder Chess",
     "content": "The board wraps horizontally, forming a cylinder. The a-file is adjacent to the h-file.",
@@ -2476,6 +2536,66 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Immunization Chess",
+    "heading": "Immunization Chess",
+    "content": "Captures trigger an immune response in nearby pieces. When a piece is captured, all enemy pieces adjacent to the capture square become immune to capture for 2 turns.",
+    "anchor": "immunization-chess",
+    "variant": "immunization",
+    "variantUrl": "dist/moddable-chess/variants/immunization/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Immunization Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "immunization",
+    "variantUrl": "dist/moddable-chess/variants/immunization/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Immunization Chess",
+    "heading": "Rules",
+    "content": "- When a capture occurs, all enemy defender's pieces on squares adjacent to the capture square become immune for 2 turns. - Immune pieces cannot be captured but can still be blocked, checked, and move",
+    "anchor": "rules",
+    "variant": "immunization",
+    "variantUrl": "dist/moddable-chess/variants/immunization/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Immunization Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "immunization",
+    "variantUrl": "dist/moddable-chess/variants/immunization/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Immunization Chess",
+    "heading": "Strategy",
+    "content": "Captures create a defensive shield around the victim's neighbours — making exchanges near clustered pieces dangerous. Isolated pieces are more vulnerable since they have fewer neighbours to immunize. ",
+    "anchor": "strategy",
+    "variant": "immunization",
+    "variantUrl": "dist/moddable-chess/variants/immunization/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Immunization Chess",
+    "heading": "Attribution",
+    "content": "Modern variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "immunization",
+    "variantUrl": "dist/moddable-chess/variants/immunization/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "King of the Hill",
     "heading": "King of the Hill",
     "content": "Move your King to the centre four squares for an instant win. Transforms the King from a liability into an offensive weapon.",
@@ -3022,6 +3142,66 @@
     "anchor": "attribution",
     "variant": "marseillais",
     "variantUrl": "dist/moddable-chess/variants/marseillais/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Medusa Chess",
+    "heading": "Medusa Chess",
+    "content": "The Queen has the Medusa's gaze. After she moves, all enemy pieces she attacks along her lines of sight become petrified for 2 turns. Petrified pieces cannot move.",
+    "anchor": "medusa-chess",
+    "variant": "medusa",
+    "variantUrl": "dist/moddable-chess/variants/medusa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Medusa Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "medusa",
+    "variantUrl": "dist/moddable-chess/variants/medusa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Medusa Chess",
+    "heading": "Rules",
+    "content": "- After the Queen moves, every enemy piece she attacks becomes petrified for 2 turns. - Petrified pieces cannot move but still block movement and deliver check normally. - Kings cannot be petrified. -",
+    "anchor": "rules",
+    "variant": "medusa",
+    "variantUrl": "dist/moddable-chess/variants/medusa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Medusa Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King petrified pieces count as immovable for escape purposes.",
+    "anchor": "win-condition",
+    "variant": "medusa",
+    "variantUrl": "dist/moddable-chess/variants/medusa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Medusa Chess",
+    "heading": "Strategy",
+    "content": "Queen positioning becomes paramount — move her to lines that freeze the most enemy pieces, then exploit the frozen position. But an exposed Queen is still vulnerable to capture. Petrifying defenders b",
+    "anchor": "strategy",
+    "variant": "medusa",
+    "variantUrl": "dist/moddable-chess/variants/medusa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Medusa Chess",
+    "heading": "Attribution",
+    "content": "Modern variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "medusa",
+    "variantUrl": "dist/moddable-chess/variants/medusa/"
   },
   {
     "game": "moddable-chess",
@@ -3636,6 +3816,66 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Poison Chess",
+    "heading": "Poison Chess",
+    "content": "Captures leave toxic residue. When a piece is captured, that square becomes poisoned for 3 turns. Any non-King piece that lands on a poisoned square is destroyed.",
+    "anchor": "poison-chess",
+    "variant": "poison",
+    "variantUrl": "dist/moddable-chess/variants/poison/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Poison Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "poison",
+    "variantUrl": "dist/moddable-chess/variants/poison/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Poison Chess",
+    "heading": "Rules",
+    "content": "- When a capture occurs, the capture square becomes poisoned for 3 turns. - Any non-King piece that moves onto a poisoned square is immediately destroyed removed from the board. - The capturing piece ",
+    "anchor": "rules",
+    "variant": "poison",
+    "variantUrl": "dist/moddable-chess/variants/poison/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Poison Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "poison",
+    "variantUrl": "dist/moddable-chess/variants/poison/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Poison Chess",
+    "heading": "Strategy",
+    "content": "Poison creates dangerous no-go zones that restrict mobility. Exchange sequences leave clouds of poison that reshape the board. Sacrifice a minor piece to poison a critical square near the enemy King. ",
+    "anchor": "strategy",
+    "variant": "poison",
+    "variantUrl": "dist/moddable-chess/variants/poison/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Poison Chess",
+    "heading": "Attribution",
+    "content": "Modern variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "poison",
+    "variantUrl": "dist/moddable-chess/variants/poison/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Progressive",
     "heading": "Progressive",
     "content": "Each turn, the number of moves you make escalates: 1, 2, 3, 4, 5... Delivering check ends your turn early regardless of how many moves remain.",
@@ -3752,6 +3992,66 @@
     "anchor": "attribution",
     "variant": "racing-kings",
     "variantUrl": "dist/moddable-chess/variants/racing-kings/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Recruitment Chess",
+    "heading": "Recruitment Chess",
+    "content": "Captured pieces switch sides. When you capture, the taken piece flips colour and appears on the square your capturing piece vacated. The board fills with turncoats.",
+    "anchor": "recruitment-chess",
+    "variant": "recruitment",
+    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Recruitment Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "recruitment",
+    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Recruitment Chess",
+    "heading": "Rules",
+    "content": "- When a piece captures, the captured piece switches colour and is placed on the square the capturing piece moved from. - Kings cannot be recruited capturing the King ends the game normally. - En pass",
+    "anchor": "rules",
+    "variant": "recruitment",
+    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Recruitment Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "recruitment",
+    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Recruitment Chess",
+    "heading": "Strategy",
+    "content": "Every capture is a double swing — you gain a piece AND the opponent gains a defector behind your lines. This makes tactical exchanges far more complex. Avoid capturing pieces that would create dangero",
+    "anchor": "strategy",
+    "variant": "recruitment",
+    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Recruitment Chess",
+    "heading": "Attribution",
+    "content": "Modern variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "recruitment",
+    "variantUrl": "dist/moddable-chess/variants/recruitment/"
   },
   {
     "game": "moddable-chess",
@@ -4132,6 +4432,66 @@
     "anchor": "attribution",
     "variant": "suicide-chess",
     "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Teleportation Chess",
+    "heading": "Teleportation Chess",
+    "content": "Each player has 3 teleports per game. Instead of a normal move, any piece can teleport to any empty square on the board. Use them wisely — they don't come back.",
+    "anchor": "teleportation-chess",
+    "variant": "teleportation",
+    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Teleportation Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. Each side begins with 3 teleport charges. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "teleportation",
+    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Teleportation Chess",
+    "heading": "Rules",
+    "content": "- Instead of a normal move, a player may teleport any of their pieces to any empty square on the board. - Teleportation uses one charge. Each side has exactly 3 per game. - Teleportation does not coun",
+    "anchor": "rules",
+    "variant": "teleportation",
+    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Teleportation Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "teleportation",
+    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Teleportation Chess",
+    "heading": "Strategy",
+    "content": "Teleports are powerful but finite — save them for decisive moments. Common uses: teleporting a Knight or Queen into a mating net, escaping a trapped piece, or repositioning the King to safety. Bluffin",
+    "anchor": "strategy",
+    "variant": "teleportation",
+    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Teleportation Chess",
+    "heading": "Attribution",
+    "content": "Modern variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "teleportation",
+    "variantUrl": "dist/moddable-chess/variants/teleportation/"
   },
   {
     "game": "moddable-chess",

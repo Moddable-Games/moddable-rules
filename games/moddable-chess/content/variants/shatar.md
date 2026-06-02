@@ -4,7 +4,7 @@ slug: "shatar"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 56
+order: 61
 win: "Bare king"
 special: "Mongolian chess. No check — win by leaving the opponent with only their King remaining."
 ---

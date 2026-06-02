@@ -4,7 +4,7 @@ slug: "displacement"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 20
+order: 21
 win: "Checkmate"
 special: "Pieces can swap positions with adjacent friendly pieces as an alternative move."
 ---
