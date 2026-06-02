@@ -143,8 +143,11 @@ function buildGame(slug) {
     ? readdirSync(variantsDir).filter(f => f.endsWith('.md')).length
     : 0;
 
+  const projectVersion = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
+
   const templateVars = {
     version: meta.version || '',
+    project_version: projectVersion,
     game_slug: slug,
     game_title: meta.title || slug,
     players: meta.players || '',
@@ -294,7 +297,9 @@ function buildVariants(slug) {
     output = output.replace(/\{\{variant_players\}\}/g, meta.players || '2');
     output = output.replace(/\{\{variant_order\}\}/g, String(meta.order || i + 1));
     output = output.replace(/\{\{variant_total\}\}/g, String(variants.length));
+    const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
     output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
+    output = output.replace(/\{\{project_version\}\}/g, projVer);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
