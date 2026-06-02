@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dungeon Chess — Official Rulebook v0.1.0</title>
+<title>Dungeon Chess — Official Rulebook v0.2.0</title>
 <meta name="description" content="Complete rules for Dungeon Chess, an asymmetric fantasy strategy game on modular dungeon boards for 2–4 players.">
-<meta property="og:title" content="Dungeon Chess — Official Rulebook v0.1.0">
+<meta property="og:title" content="Dungeon Chess — Official Rulebook v0.2.0">
 <meta property="og:description" content="Asymmetric fantasy strategy on modular dungeon boards — draft your warband, deploy in the dungeon, capture the enemy King.">
 <meta property="og:image" content="https://rules.moddable.games/games/dungeon-chess/og-image.png?v=1.1.3">
 <meta property="og:url" content="https://rules.moddable.games/dist/dungeon-chess/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Dungeon Chess — Official Rulebook v0.1.0">
+<meta name="twitter:title" content="Dungeon Chess — Official Rulebook v0.2.0">
 <meta name="twitter:description" content="An asymmetric turn-based strategy game on modular dungeon boards for 2–4 players.">
 <meta name="twitter:image" content="https://rules.moddable.games/games/dungeon-chess/og-image.png?v=1.1.3">
-<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../theme.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.2.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.2.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.2.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.2.0">
+<link rel="stylesheet" href="../theme.css?v=0.2.0">
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
@@ -28,8 +28,8 @@
 <!-- HEADER -->
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/dungeon-chess/pdf/dungeon-chess-rulebook-v0.1.0.pdf" class="hdr-link">PDF</a></div>
-  <span class="hdr-meta">Official Rulebook · v0.1.0 · Playtest</span>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/dungeon-chess/pdf/dungeon-chess-rulebook-v0.2.0.pdf" class="hdr-link">PDF</a></div>
+  <span class="hdr-meta">Official Rulebook · v0.2.0 · Playtest</span>
 </header>
 
 <!-- COVER -->
@@ -44,7 +44,7 @@
     <div class="cover-stat"><span class="cs-num">30–120</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">12+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.1.0 · Playtest 2026</p>
+  <p class="cover-pub">Published by Moddable Games · v0.2.0 · Playtest 2026</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -70,7 +70,7 @@
 <h3>Human — Balanced &amp; Reliable</h3>
 <p>Heroes, knights and archers. No gimmicks, no weaknesses. Cheap Knight (12 XP), premium Archer that pierces through pieces, and a Wizard with asymmetric threat zones. The Princess is the most mobile King. You always know what you’re getting.</p>
 <h3>Undead — Phase &amp; Swarm</h3>
-<p>1 XP Skeletons let you field massive armies (up to 35 Pawns + King), but each dies to any adjacent touch. The Wraith phases through allies, the Reaper walks on water, the Tomb fires through friendly screens. Slippery, numerous, fragile.</p>
+<p>1 XP Skeletons let you field massive armies, but each dies to any adjacent touch. The Wraith moves with gaps and attacks with full slides, the Tomb phases through allies, and the Vampire moves diagonally but attacks orthogonally. Slippery, numerous, fragile.</p>
 <h3>Redskin — Explosive Firepower</h3>
 <p>Every unit hits hard but costs dearly. Cannon-equipped Pawns and Castles, a hit-and-run Salamander, and the Demonics — which explodes on death, taking adjacent enemies with it. Iron Golem is immune to enemy cannons. Fewer units, bigger impact per piece.</p>
 <h3>Greenskin — Attrition &amp; Disruption</h3>
@@ -97,7 +97,7 @@
 <td>Human</td>
 <td>2 XP</td>
 <td>1 square, any direction (8-way)</td>
-<td>Diagonal only (1 square)</td>
+<td>Same as movement (8-way)</td>
 <td>—</td>
 </tr>
 <tr>
@@ -105,28 +105,28 @@
 <td>Undead</td>
 <td>1 XP</td>
 <td>1 square, any direction (8-way)</td>
-<td>Diagonal only (1 square)</td>
+<td>Same as movement (8-way)</td>
 <td><strong>Fragile:</strong> any adjacent enemy can capture it (auto-capture)</td>
 </tr>
 <tr>
 <td>Kobold</td>
 <td>Redskin</td>
 <td>5 XP</td>
-<td>1 square (8-way) + rook slide (to screen)</td>
-<td>Diagonal (1 sq) + Cannon</td>
+<td>1 square, any direction (8-way)</td>
+<td>8-way (1 sq) + Cannon (rook line)</td>
 <td>—</td>
 </tr>
 <tr>
 <td>Goblin</td>
 <td>Greenskin</td>
 <td>5 XP</td>
-<td>1 square (8-way) + rook slide (to screen)</td>
-<td>Diagonal (1 sq) + Cannon</td>
+<td>1 square, any direction (8-way)</td>
+<td>8-way (1 sq) + Cannon (rook line)</td>
 <td>—</td>
 </tr>
 </tbody>
 </table>
-<p>All Pawns cannot step on water. Kobold and Goblin can also slide along rook lines up to the first piece they encounter (the screen), giving them extra mobility. Skeletons cost only 1 XP but are fragile — any enemy adjacent to a Skeleton can capture it regardless of that enemy’s normal attack pattern.</p>
+<p>All Pawns cannot step on water. Kobold and Goblin have an additional cannon attack along rook lines (must jump over exactly one piece to hit an enemy beyond). Skeletons cost only 1 XP but are fragile — any enemy adjacent to a Skeleton can capture it regardless of that enemy’s normal attack pattern.</p>
 <h3>Castles</h3>
 <table class="t">
 <thead>
@@ -145,7 +145,7 @@
 <td>Human</td>
 <td>10 XP</td>
 <td>1 square orthogonally</td>
-<td>Adjacent + Rook slide</td>
+<td>Rook slide (unlimited orthogonal)</td>
 <td>—</td>
 </tr>
 <tr>
@@ -153,28 +153,28 @@
 <td>Undead</td>
 <td>12 XP</td>
 <td>1 square orthogonally</td>
-<td>Adjacent + Rook slide</td>
-<td><strong>Phase fire:</strong> rook-slide attacks pass through one friendly piece</td>
+<td>1 sq ortho + Phasing rook slide</td>
+<td><strong>Phase:</strong> slides through one friendly piece, then attacks beyond it</td>
 </tr>
 <tr>
 <td>Iron Golem</td>
 <td>Redskin</td>
 <td>18 XP</td>
-<td>1 sq ortho + rook slide (to screen)</td>
-<td>Adjacent + Cannon</td>
+<td>1 square orthogonally</td>
+<td>Cannon (rook line)</td>
 <td><strong>Cannon-proof:</strong> cannot be targeted by cannon attacks</td>
 </tr>
 <tr>
 <td>Ogre</td>
 <td>Greenskin</td>
 <td>14 XP</td>
-<td>1 sq ortho + rook slide (to screen)</td>
-<td>Adjacent + Cannon</td>
-<td><strong>Intimidate:</strong> adjacent enemy Pawns cannot attack</td>
+<td>1 square orthogonally</td>
+<td>Cannon (rook line)</td>
+<td><strong>Intimidate:</strong> adjacent enemies cannot attack</td>
 </tr>
 </tbody>
 </table>
-<p>Stronghold is reliable baseline artillery. Tomb can use allies as screens for extended range. Iron Golem is a fortress immune to enemy cannons. Ogre paralyses nearby enemy Pawns.</p>
+<p>Stronghold moves cautiously but attacks along full rook lines. Tomb can phase through a friendly piece and attack beyond it. Iron Golem is a fortress immune to enemy cannons. Ogre paralyses all adjacent enemies — not just Pawns.</p>
 <h3>Knights</h3>
 <table class="t">
 <thead>
@@ -202,7 +202,7 @@
 <td>15 XP</td>
 <td>L-shaped jump (2+1)</td>
 <td>Same as movement</td>
-<td><strong>Water-walk:</strong> can land on water squares</td>
+<td>—</td>
 </tr>
 <tr>
 <td>Salamander</td>
@@ -210,7 +210,7 @@
 <td>18 XP</td>
 <td>L-shaped jump (2+1)</td>
 <td>Same as movement</td>
-<td><strong>Hit-and-run:</strong> after capturing, may move 1 additional square in any direction</td>
+<td><strong>Retreat:</strong> after capturing, must move 1 square to an adjacent empty square</td>
 </tr>
 <tr>
 <td>Orc</td>
@@ -218,11 +218,11 @@
 <td>14 XP</td>
 <td>L-shaped jump (2+1) OR 2 squares orthogonally</td>
 <td>Same as movement</td>
-<td><strong>Flexible:</strong> can also move 2 squares straight (orthogonal)</td>
+<td><strong>Flexible:</strong> can also move/attack 2 squares straight (first square must be empty)</td>
 </tr>
 </tbody>
 </table>
-<p>All Knights leap over pieces and terrain. Human Knight is cheap and reliable. Reaper ignores the primary terrain hazard. Salamander can reposition after striking. Orc has two movement modes for unpredictable positioning.</p>
+<p>All Knights leap over pieces and terrain (including water). Human Knight is cheap and reliable. Salamander must retreat after capturing — it cannot stay on the capture square. Orc has two movement modes for unpredictable positioning.</p>
 <h3>Bishops</h3>
 <table class="t">
 <thead>
@@ -241,16 +241,16 @@
 <td>Human</td>
 <td>18 XP</td>
 <td>Diagonal slide</td>
-<td>Diagonal slide (through 1 piece)</td>
-<td><strong>Piercing:</strong> can attack through one intervening piece</td>
+<td>Gapped diagonal (exactly 1 empty square between)</td>
+<td><strong>Ranged:</strong> attacks at distance — must have one empty square gap to target</td>
 </tr>
 <tr>
 <td>Wraith</td>
 <td>Undead</td>
 <td>15 XP</td>
-<td>Diagonal slide</td>
-<td>Diagonal slide</td>
-<td><strong>Phase:</strong> slides pass through friendly pieces (stops only at enemies/voids)</td>
+<td>Gapped bishop (1 empty square gap to destination)</td>
+<td>Diagonal slide (unlimited)</td>
+<td><strong>Inverted:</strong> moves with gap, attacks without</td>
 </tr>
 <tr>
 <td>Fire Elem.</td>
@@ -258,7 +258,7 @@
 <td>12 XP</td>
 <td>Diagonal slide</td>
 <td>Diagonal slide</td>
-<td><strong>Water weakness:</strong> water blocks slide entirely</td>
+<td>—</td>
 </tr>
 <tr>
 <td>Troll</td>
@@ -266,11 +266,11 @@
 <td>16 XP</td>
 <td>Diagonal slide</td>
 <td>Diagonal slide</td>
-<td><strong>Thick-skinned:</strong> first capture is absorbed (pushed 1 sq backward); second capture kills</td>
+<td><strong>Thick-skinned:</strong> first hit wounds + pushes 1 sq backward; second hit captures</td>
 </tr>
 </tbody>
 </table>
-<p>Archer is premium — piercing attacks make it a diagonal cannon. Wraith phases through allies for surprise angles. Fire Elem. is cheap but crippled on water maps. Troll survives one hit, making it a durable diagonal presence.</p>
+<p>Archer attacks from a distance — exactly one empty square between it and the target. Wraith is inverted: moves gapped, attacks with full slides. Fire Elem. is cheap but water-blocked. Troll survives its first hit, pushed backward and only falling to the second.</p>
 <h3>Queens</h3>
 <table class="t">
 <thead>
@@ -288,37 +288,37 @@
 <td>Wizard</td>
 <td>Human</td>
 <td>20 XP</td>
-<td>Rook lines (orthogonal slide)</td>
-<td>Diagonal + Rook lines</td>
-<td>Split: moves as Rook, attacks in all directions</td>
+<td>Rook slide (orthogonal)</td>
+<td>Bishop slide (diagonal)</td>
+<td><strong>Split:</strong> moves orthogonally, attacks diagonally</td>
 </tr>
 <tr>
 <td>Vampire</td>
 <td>Undead</td>
 <td>20 XP</td>
-<td>Bishop lines (diagonal slide)</td>
-<td>Rook + Diagonal lines</td>
-<td>Split: moves as Bishop, attacks in all directions</td>
+<td>Bishop slide (diagonal)</td>
+<td>Rook slide (orthogonal)</td>
+<td><strong>Split:</strong> moves diagonally, attacks orthogonally</td>
 </tr>
 <tr>
 <td>Demonics</td>
 <td>Redskin</td>
 <td>22 XP</td>
-<td>Full queen (all 8 directions)</td>
-<td>Full queen</td>
+<td>Queen slide (all 8 directions)</td>
+<td>Queen slide</td>
 <td><strong>Volatile:</strong> on death, explodes — destroys all adjacent enemy pieces</td>
 </tr>
 <tr>
 <td>Shaman</td>
 <td>Greenskin</td>
 <td>20 XP</td>
-<td>Full queen (all 8 directions)</td>
-<td>Full queen</td>
-<td><strong>Hex:</strong> once per game, spend a turn to immobilise one visible enemy for 2 turns</td>
+<td>Queen slide (all 8 directions)</td>
+<td>Queen slide</td>
+<td><strong>Hex:</strong> once per game, hex any enemy unit — target cannot move/attack for 2 turns</td>
 </tr>
 </tbody>
 </table>
-<p>Wizard and Vampire have asymmetric threat zones. Demonics is expensive but its death explosion can swing the game. Shaman’s one-time hex can neutralise a key enemy at a critical moment. Both Demonics and Shaman are water-blocked.</p>
+<p>Wizard and Vampire have asymmetric threat zones — the directions they can move and attack are opposite. Demonics is expensive but its death explosion can swing the game. Shaman’s one-time hex can neutralise a key enemy at a critical moment. Both Demonics and Shaman are water-blocked.</p>
 <h3>Kings</h3>
 <table class="t">
 <thead>
@@ -337,23 +337,23 @@
 <td>Human</td>
 <td>15 XP</td>
 <td>King step (1 sq, 8-way) + Bishop slide</td>
-<td>King step only</td>
-<td>Mobile: slides diagonally for repositioning (no capture via slide)</td>
+<td>King step only (1 sq, 8-way)</td>
+<td>Mobile: diagonal slides for repositioning only</td>
 </tr>
 <tr>
 <td>Warlock</td>
 <td>Undead</td>
 <td>20 XP</td>
 <td>King step (1 sq, 8-way)</td>
-<td>King step + Bishop slide attack</td>
-<td>Ranged: attacks at distance via diagonal slide</td>
+<td>King step + Bishop slide</td>
+<td>Ranged: attacks along diagonal lines</td>
 </tr>
 <tr>
 <td>Red Dragon</td>
 <td>Redskin</td>
 <td>20 XP</td>
 <td>King step (1 sq, 8-way)</td>
-<td>King step + Knight jump attack</td>
+<td>King step + Knight jump</td>
 <td>Strikes via L-shaped leap</td>
 </tr>
 <tr>
@@ -361,12 +361,12 @@
 <td>Greenskin</td>
 <td>15 XP</td>
 <td>King step (1 sq, 8-way)</td>
-<td>King step + Knight jump attack</td>
+<td>King step + Knight jump</td>
 <td>Strikes via L-shaped leap</td>
 </tr>
 </tbody>
 </table>
-<p>Every King has a unique bonus ability. Princess has extra mobility; Warlock and Red Dragon have ranged attacks. Kings are royal — lose yours and you lose the game.</p>
+<p>Every King has a unique bonus ability beyond its basic 1-step move. Princess can slide diagonally for repositioning but only captures adjacent. Warlock and Red Dragon/Warlord have extended attack ranges. Kings are royal — lose yours and you lose the game.</p>
 </div>
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Cannon</span><span class="eyebrow-line"></span></div>
 <h2>The Cannon Mechanic</h2>
@@ -389,10 +389,10 @@
 <p>Standard passable squares. No restrictions.</p>
 <h3>Water</h3>
 <ul class="rules">
-<li>Most units CANNOT step onto water squares.</li>
-<li>Knights cannot land on water (but can leap over it).</li>
-<li>Water blocks diagonal slides for Fire Elemental, Troll, Demonics, and Shaman.</li>
-<li>Cannon lines skip over water (water is transparent to ranged attacks).</li>
+<li>Most units CANNOT step onto or slide through water squares.</li>
+<li>Knights CAN leap over water (their jump ignores terrain).</li>
+<li>Tomb phasing ignores water (slides through it).</li>
+<li>Cannon lines skip over water (ranged attacks are not blocked by water).</li>
 <li>Placed as 4×4 blocks in the centre of maps.</li>
 </ul>
 <h3>Void</h3>
@@ -405,7 +405,7 @@
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Drafting</span><span class="eyebrow-line"></span></div>
 <h2>Army Drafting</h2>
 <p>Before each battle, players build their army from an XP budget.</p>
-<p><strong>Budget:</strong> 75 XP</p>
+<p><strong>Budget:</strong> 80 XP</p>
 <p><strong>Constraints:</strong></p>
 <ul class="rules">
 <li>Must include exactly 1 King</li>
@@ -415,10 +415,10 @@
 </ul>
 <p><strong>Strategy notes:</strong></p>
 <ul class="rules">
-<li>Skeleton (1 XP) swarm: Warlock (20) + 55 Skeletons = 75 XP — fragile but overwhelming</li>
-<li>Human balanced: Princess (15) + Wizard (20) + Archer (18) + Knight (12) + 5 Heroes (10) = 75 XP</li>
-<li>Redskin elite: Red Dragon (20) + Demonics (22) + Iron Golem (18) + 3 Kobolds (15) = 75 XP</li>
-<li>Greenskin midrange: Warlord (15) + Shaman (20) + Troll (16) + Orc (14) + 2 Goblins (10) = 75 XP</li>
+<li>Skeleton swarm: Warlock (20) + 60 Skeletons = 80 XP — fragile but overwhelming</li>
+<li>Human balanced: Princess (15) + Wizard (20) + Archer (18) + Knight (12) + 7 Heroes (14) + 1 spare = 80 XP</li>
+<li>Redskin elite: Red Dragon (20) + Demonics (22) + Iron Golem (18) + 4 Kobolds (20) = 80 XP</li>
+<li>Greenskin midrange: Warlord (15) + Shaman (20) + Troll (16) + Orc (14) + 3 Goblins (15) = 80 XP</li>
 </ul>
 </div>
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Battle</span><span class="eyebrow-line"></span></div>
@@ -426,7 +426,7 @@
 <h3>Setup</h3>
 <ol>
 <li>Choose your faction</li>
-<li>Draft your army (75 XP)</li>
+<li>Draft your army (80 XP)</li>
 <li>Choose turn order: You First, AI First, or Random</li>
 <li>Deploy units in your spawn zone (bottom rows of the map)</li>
 </ol>
@@ -966,11 +966,11 @@
 
 <!-- FOOTER -->
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">v0.2.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
   <span class="ftr-copy">moddable.games/tool/dungeon-chess</span>
 </footer>
 
 </div><!-- /page -->
-<script src="../../js/toc.js?v=0.1.0"></script>
+<script src="../../js/toc.js?v=0.2.0"></script>
 </body>
 </html>
