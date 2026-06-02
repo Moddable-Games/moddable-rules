@@ -1,6 +1,6 @@
 ---
 title: "Dungeon Chess — Official Rulebook"
-version: "0.2.0"
+version: "0.2.1"
 slug: "dungeon-chess"
 players: "2–4"
 duration: "30–120 min"
