@@ -17,7 +17,7 @@ published: true
 
 ## What Is Dungeon Chess?
 
-Dungeon Chess is an asymmetric strategy game built on a chess engine. Four fantasy factions — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies from a shared XP budget, then fight to capture the enemy King.
+Dungeon Chess is an asymmetric strategy board game for 2–4 players. Four fantasy factions — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies from a shared XP budget, then fight to capture the enemy King.
 
 **Core differences from standard chess:**
 - **Asymmetric armies** — each faction has unique unit abilities, not just reskinned pieces
@@ -172,50 +172,56 @@ Standard passable squares. No restrictions.
 
 ## Army Drafting
 
-Before each battle, players build their army from an XP budget.
+Before each game, players secretly build their army from an XP budget. Draft on paper or use the companion app — reveal your army only at deployment.
 
 **Budget:** 80 XP
 
 **Constraints:**
 - Must include exactly 1 King
 - Must include at least 1 Pawn
-- No maximum team size — as many units as budget allows
+- Your army must fit within your deployment zone (varies by map)
 - Duplicates are allowed (e.g. 3 Knights is legal)
 
-**Strategy notes:**
-- Skeleton swarm: Warlock (20) + 60 Skeletons = 80 XP — fragile but overwhelming
-- Human balanced: Princess (15) + Wizard (20) + Archer (18) + Knight (12) + 7 Heroes (14) + 1 spare = 80 XP
+**Example armies:**
+- Skeleton swarm: Warlock (20) + 15 Skeletons (15) + Tomb (12) + Reaper (15) + Wraith (15) + 3 Skeletons (3) = 80 XP
+- Human balanced: Princess (15) + Wizard (20) + Archer (18) + Knight (12) + 7 Heroes (14) = 79 XP
 - Redskin elite: Red Dragon (20) + Demonics (22) + Iron Golem (18) + 4 Kobolds (20) = 80 XP
 - Greenskin midrange: Warlord (15) + Shaman (20) + Troll (16) + Orc (14) + 3 Goblins (15) = 80 XP
 
 </div>
 
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Battle</span><span class="eyebrow-line"></span></div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Playing</span><span class="eyebrow-line"></span></div>
 
-## Battle Rules
+## How to Play
 
 ### Setup
-1. Choose your faction
-2. Draft your army (80 XP)
-3. Choose turn order: You First, AI First, or Random
-4. Deploy units in your spawn zone (bottom rows of the map)
 
-### Turn Order
-- 2-player: alternating turns
-- 4-player: cyclic (Player → AI 1 → AI 2 → AI 3)
-- Each turn: move one unit OR attack with one unit
+1. Agree on a map and lay it out between all players
+2. Each player chooses a faction (no duplicates)
+3. Each player secretly drafts their army within the 80 XP budget
+4. Determine turn order (youngest first, or roll a die)
+5. Starting with the first player, each player deploys their army in their spawn zone (the 2 rows nearest their edge of the board)
+
+Deployment is simultaneous if all players agree, or sequential in turn order if preferred.
+
+### On Your Turn
+
+Each turn you perform exactly one action: **move or attack with one unit.** If a unit's movement brings it onto an enemy-occupied square, that is both a move and a capture in a single action.
+
+Play proceeds clockwise. In a 2-player game, turns simply alternate.
 
 ### Check
-- A King is in check if an enemy unit could capture it on the next move.
-- You CANNOT make a move that leaves your own King in check.
-- You MUST resolve check on your turn (move King, block, or capture the attacker).
-- There is no checkmate — the game only ends on actual King capture.
 
-### Win Condition
-**Capture the enemy King.** The game ends immediately when a King is taken. In 4-player games, eliminated players' remaining pieces are removed; the last King standing wins.
+- A King is in check if an enemy unit could capture it next turn.
+- You cannot make a move that leaves your own King in check.
+- You must resolve check on your turn — move your King, block the threat, or capture the attacker.
+- There is no checkmate or stalemate. The game ends only when a King is actually captured.
 
-### Undo
-Players may undo their last move (reverting both their move and the AI's response).
+### Winning the Game
+
+**Capture an enemy King.** The game ends immediately when any King is taken.
+
+In a 4-player game, an eliminated player removes all their remaining pieces from the board. Play continues among surviving players until one King remains.
 
 </div>
 
@@ -223,31 +229,30 @@ Players may undo their last move (reverting both their move and the AI's respons
 
 ## Maps
 
-### Map 1: Compact Skirmish (2-player)
+Choose one map before the game begins. Each map uses square tiles laid out in the specified pattern. Water tiles are placed face-up; void spaces are simply left empty.
 
-{{svg:compact-skirmish.svg "Compact Skirmish — 10×10 arena"}}
+### Compact Skirmish (2 players)
 
-A 10×10 open arena with a 4×4 water block in the centre (rows 3–6, columns 3–6). Spawn zones are the top 2 rows (AI) and bottom 2 rows (Player). Fast, tactical games with water forcing units around the middle.
+{{svg:compact-skirmish.svg "Compact Skirmish — 10×10 arena with central water hazard"}}
 
-### Map 2: Two Player Dungeon (2-player)
+A 10×10 open arena with a 4×4 water block in the centre. Each player deploys in the 2 rows nearest their edge. Fast, aggressive games where the water forces armies to split and flank.
 
-{{svg:two-player-dungeon.svg "Two Player Dungeon — 20×8 cross"}}
+### Two Player Dungeon (2 players)
 
-A 20×8 cross-shaped dungeon. Three chambers connected by narrow 2-wide corridors:
-- **Top chamber:** 8×3 (AI spawn)
+{{svg:two-player-dungeon.svg "Two Player Dungeon — cross-shaped with narrow corridors"}}
+
+A cross-shaped dungeon with three chambers connected by narrow 2-wide corridors:
+- **North & South chambers:** 8×2 (deployment zones, one per player)
 - **Centre chamber:** 8×8 with 4×4 water in the middle
-- **Bottom chamber:** 8×3 (Player spawn)
 - **Corridors:** 2 squares wide, connecting chambers vertically
 
-Chokepoints force careful army composition. Knights and units that leap are valuable for crossing constraints.
+Chokepoints force careful army composition. Knights and leaping units are valuable for bypassing the narrow passages.
 
-### Map 3: Four Player Dungeon (4-player)
+### Four Player Dungeon (4 players)
 
-{{svg:four-player-dungeon.svg "Four Player Dungeon — 20×20 symmetric cross"}}
+{{svg:four-player-dungeon.svg "Four Player Dungeon — symmetric cross with four deployment zones"}}
 
-A 20×20 symmetric cross. Four spawn chambers at the cardinal edges, connected by narrow corridors to a central 8×8 arena with 4×4 water. Each arm has its own connector passage.
-- **Centre:** rows 6–13, cols 6–13 (with water at rows 8–11, cols 8–11)
-- **Spawn zones:** 3-row sections at the end of each arm
+A symmetric cross with four arms. Each player claims one arm as their deployment zone (2 rows at the end of each arm). A central 8×8 arena with 4×4 water connects all four corridors.
 
 The largest and most complex map. Multi-front warfare, temporary alliances, and last-player-standing dynamics.
 
