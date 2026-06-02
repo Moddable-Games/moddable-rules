@@ -1,4 +1,4 @@
-import { readFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
+import { readFileSync, mkdirSync, existsSync, readdirSync, copyFileSync } from 'fs';
 import { resolve } from 'path';
 import { execSync } from 'child_process';
 import puppeteer from 'puppeteer';
@@ -207,6 +207,8 @@ for (const slug of slugs) {
     execSync(`pdfinfo "${outPath}" | grep Pages | awk '{print $2}'`).toString().trim()
   );
   console.log(`  Generated ${slug}/pdf/${slug}-rulebook-v${version}.pdf (${finalPages} pages)`);
+  const stableRulebookPath = resolve(outDir, `${slug}-rulebook.pdf`);
+  copyFileSync(outPath, stableRulebookPath);
 }
 
 // --- Variant PDF generation (for games with variants: true) ---
@@ -331,6 +333,8 @@ for (const slug of slugs) {
       execSync(`pdfinfo "${combinedPath}" | grep Pages | awk '{print $2}'`).toString().trim()
     );
     console.log(`  Generated ${slug}/pdf/${slug}-variant-library-v${version}.pdf (${totalPages} pages)`);
+    const stableLibraryPath = resolve(gameDir, 'pdf', `${slug}-variant-library.pdf`);
+    copyFileSync(combinedPath, stableLibraryPath);
   }
 }
 
