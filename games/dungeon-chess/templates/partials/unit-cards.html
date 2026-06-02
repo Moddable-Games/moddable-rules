@@ -1,111 +1,294 @@
-<div class="unit-grid species-humans">
-  <h3 class="unit-grid-title">Humans (White)</h3>
-  <div class="unit-card">
-    <div class="uc-head uc-head--human"><span class="uc-name">Man-at-Arms</span><span class="uc-size">PAWN · 5 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Shield Wall: +1 defence when adjacent to another Man-at-Arms.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--human"><span class="uc-name">Watchtower</span><span class="uc-size">CASTLE · 15 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Fortify: cannot be displaced by Cannon movement.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--human"><span class="uc-name">Cavalier</span><span class="uc-size">KNIGHT · 12 XP</span></div>
-    <div class="uc-body"><p><strong>Jump</strong> — Charge: first attack each game deals double damage.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--human"><span class="uc-name">Chaplain</span><span class="uc-size">BISHOP · 10 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Heal: restore one captured friendly Pawn to an adjacent space.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--human"><span class="uc-name">Empress</span><span class="uc-size">QUEEN · 20 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Inspire: adjacent friendly units gain +1 movement range.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--human"><span class="uc-name">High King</span><span class="uc-size">KING · 8 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Rally: once per game, all friendly units within 2 spaces gain an extra action.</p></div>
-  </div>
-</div>
+<div class="unit-cards-section">
 
-<div class="unit-grid species-undead">
-  <h3 class="unit-grid-title">Undead (Black)</h3>
-  <div class="unit-card">
-    <div class="uc-head uc-head--undead"><span class="uc-name">Skeleton</span><span class="uc-size">PAWN · 4 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Reassemble: returns to play after 2 turns if not captured by King.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--undead"><span class="uc-name">Crypt</span><span class="uc-size">CASTLE · 14 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Phase: can slide through one occupied square per move.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--undead"><span class="uc-name">Wraith</span><span class="uc-size">KNIGHT · 13 XP</span></div>
-    <div class="uc-body"><p><strong>Jump</strong> — Incorporeal: ignores Gaps when jumping.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--undead"><span class="uc-name">Necromancer</span><span class="uc-size">BISHOP · 12 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Raise Dead: convert one adjacent captured enemy Pawn to a friendly Skeleton.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--undead"><span class="uc-name">Lich Queen</span><span class="uc-size">QUEEN · 18 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Soul Drain: capturing a unit restores one friendly captured Pawn.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--undead"><span class="uc-name">Death King</span><span class="uc-size">KING · 7 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Undying: survives first capture attempt (once per game).</p></div>
-  </div>
-</div>
+  <!-- HUMAN -->
+  <div class="species-group">
+    <h3 class="species-header" style="background-color: #c8c8d0; color: #1a1a2e;">Human</h3>
+    <div class="uc-grid">
 
-<div class="unit-grid species-redskins">
-  <h3 class="unit-grid-title">Redskins (Red)</h3>
-  <div class="unit-card">
-    <div class="uc-head uc-head--redskin"><span class="uc-name">Firebrand</span><span class="uc-size">PAWN · 6 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Ignite: leaves a fire token on vacated square (blocks for 1 turn).</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--redskin"><span class="uc-name">Furnace</span><span class="uc-size">CASTLE · 16 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Bombardment: can attack one target within range 3 without moving.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--redskin"><span class="uc-name">Salamander</span><span class="uc-size">KNIGHT · 14 XP</span></div>
-    <div class="uc-body"><p><strong>Jump</strong> — Fireproof: immune to fire tokens and Cannon knockback.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--redskin"><span class="uc-name">Pyromancer</span><span class="uc-size">BISHOP · 11 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Fireball: Cannon-type attack up to range 2, does not move the attacker.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--redskin"><span class="uc-name">Inferno Queen</span><span class="uc-size">QUEEN · 22 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Blaze Trail: every square moved through becomes a fire token for 1 turn.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--redskin"><span class="uc-name">Ember King</span><span class="uc-size">KING · 9 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Heat Shield: adjacent fire tokens grant +1 defence.</p></div>
-  </div>
-</div>
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c8c8d0; color: #1a1a2e;">
+          <span class="uc-name">Hero</span>
+          <span class="uc-cost">2 XP</span>
+        </div>
+        <div class="uc-role">Pawn</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq any direction</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+      </div>
 
-<div class="unit-grid species-greenskins">
-  <h3 class="unit-grid-title">Greenskins (Green)</h3>
-  <div class="unit-card">
-    <div class="uc-head uc-head--greenskin"><span class="uc-name">Goblin</span><span class="uc-size">PAWN · 3 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Swarm: up to 3 Goblins may occupy the same square.</p></div>
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c8c8d0; color: #1a1a2e;">
+          <span class="uc-name">Stronghold</span>
+          <span class="uc-cost">10 XP</span>
+        </div>
+        <div class="uc-role">Castle</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq orthogonal</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Rook slide</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c8c8d0; color: #1a1a2e;">
+          <span class="uc-name">Knight</span>
+          <span class="uc-cost">12 XP</span>
+        </div>
+        <div class="uc-role">Knight</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">L-shaped jump</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c8c8d0; color: #1a1a2e;">
+          <span class="uc-name">Archer</span>
+          <span class="uc-cost">18 XP</span>
+        </div>
+        <div class="uc-role">Bishop</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Diagonal slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Gapped diagonal (1 empty sq between)</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Ranged</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c8c8d0; color: #1a1a2e;">
+          <span class="uc-name">Wizard</span>
+          <span class="uc-cost">20 XP</span>
+        </div>
+        <div class="uc-role">Queen</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Rook slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Bishop slide</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Split move/attack</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c8c8d0; color: #1a1a2e;">
+          <span class="uc-name">Princess</span>
+          <span class="uc-cost">15 XP</span>
+        </div>
+        <div class="uc-role">King</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq + bishop slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">1 sq only</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Mobile</span></div>
+      </div>
+
+    </div>
   </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--greenskin"><span class="uc-name">Troll Fort</span><span class="uc-size">CASTLE · 13 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Regenerate: if damaged but not captured, restores to full next turn.</p></div>
+
+  <!-- UNDEAD -->
+  <div class="species-group">
+    <h3 class="species-header" style="background-color: #5a4a6a; color: #ffffff;">Undead</h3>
+    <div class="uc-grid">
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #5a4a6a; color: #ffffff;">
+          <span class="uc-name">Skeleton</span>
+          <span class="uc-cost">1 XP</span>
+        </div>
+        <div class="uc-role">Pawn</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq any direction</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Fragile (dies to adjacent touch)</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #5a4a6a; color: #ffffff;">
+          <span class="uc-name">Tomb</span>
+          <span class="uc-cost">12 XP</span>
+        </div>
+        <div class="uc-role">Castle</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq orthogonal</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Phasing rook slide</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Phases through 1 friendly</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #5a4a6a; color: #ffffff;">
+          <span class="uc-name">Reaper</span>
+          <span class="uc-cost">15 XP</span>
+        </div>
+        <div class="uc-role">Knight</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">L-shaped jump</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #5a4a6a; color: #ffffff;">
+          <span class="uc-name">Wraith</span>
+          <span class="uc-cost">15 XP</span>
+        </div>
+        <div class="uc-role">Bishop</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Gapped bishop</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Bishop slide</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Inverted (moves gapped, attacks full)</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #5a4a6a; color: #ffffff;">
+          <span class="uc-name">Vampire</span>
+          <span class="uc-cost">20 XP</span>
+        </div>
+        <div class="uc-role">Queen</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Bishop slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Rook slide</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Split move/attack</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #5a4a6a; color: #ffffff;">
+          <span class="uc-name">Warlock</span>
+          <span class="uc-cost">20 XP</span>
+        </div>
+        <div class="uc-role">King</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq any</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">1 sq + bishop slide</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Ranged attack</span></div>
+      </div>
+
+    </div>
   </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--greenskin"><span class="uc-name">Warg Rider</span><span class="uc-size">KNIGHT · 11 XP</span></div>
-    <div class="uc-body"><p><strong>Jump</strong> — Pounce: may jump a second time if first jump captures a Pawn.</p></div>
+
+  <!-- REDSKIN -->
+  <div class="species-group">
+    <h3 class="species-header" style="background-color: #c83030; color: #ffffff;">Redskin</h3>
+    <div class="uc-grid">
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c83030; color: #ffffff;">
+          <span class="uc-name">Kobold</span>
+          <span class="uc-cost">5 XP</span>
+        </div>
+        <div class="uc-role">Pawn</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq any direction</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">1 sq + Cannon (rook)</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Cannon</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c83030; color: #ffffff;">
+          <span class="uc-name">Iron Golem</span>
+          <span class="uc-cost">18 XP</span>
+        </div>
+        <div class="uc-role">Castle</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq orthogonal</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Cannon (rook)</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Cannon-proof</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c83030; color: #ffffff;">
+          <span class="uc-name">Salamander</span>
+          <span class="uc-cost">18 XP</span>
+        </div>
+        <div class="uc-role">Knight</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">L-shaped jump</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Must retreat 1 sq after capture</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c83030; color: #ffffff;">
+          <span class="uc-name">Fire Elem.</span>
+          <span class="uc-cost">12 XP</span>
+        </div>
+        <div class="uc-role">Bishop</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Diagonal slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c83030; color: #ffffff;">
+          <span class="uc-name">Demonics</span>
+          <span class="uc-cost">22 XP</span>
+        </div>
+        <div class="uc-role">Queen</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Queen slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Explodes on death (destroys adjacent)</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #c83030; color: #ffffff;">
+          <span class="uc-name">Red Dragon</span>
+          <span class="uc-cost">20 XP</span>
+        </div>
+        <div class="uc-role">King</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq any</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">1 sq + knight jump</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Extended attack</span></div>
+      </div>
+
+    </div>
   </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--greenskin"><span class="uc-name">Shaman</span><span class="uc-size">BISHOP · 10 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — War Cry: push all adjacent enemy Pawns one square away.</p></div>
+
+  <!-- GREENSKIN -->
+  <div class="species-group">
+    <h3 class="species-header" style="background-color: #3a8a3a; color: #ffffff;">Greenskin</h3>
+    <div class="uc-grid">
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #3a8a3a; color: #ffffff;">
+          <span class="uc-name">Goblin</span>
+          <span class="uc-cost">5 XP</span>
+        </div>
+        <div class="uc-role">Pawn</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq any direction</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">1 sq + Cannon (rook)</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Cannon</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #3a8a3a; color: #ffffff;">
+          <span class="uc-name">Ogre</span>
+          <span class="uc-cost">14 XP</span>
+        </div>
+        <div class="uc-role">Castle</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq orthogonal</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Cannon (rook)</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Intimidate (adj enemies can't attack)</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #3a8a3a; color: #ffffff;">
+          <span class="uc-name">Orc</span>
+          <span class="uc-cost">14 XP</span>
+        </div>
+        <div class="uc-role">Knight</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">L-jump OR 2 sq ortho</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Flexible movement</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #3a8a3a; color: #ffffff;">
+          <span class="uc-name">Troll</span>
+          <span class="uc-cost">16 XP</span>
+        </div>
+        <div class="uc-role">Bishop</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Diagonal slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Survives first hit (pushed back)</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #3a8a3a; color: #ffffff;">
+          <span class="uc-name">Shaman</span>
+          <span class="uc-cost">20 XP</span>
+        </div>
+        <div class="uc-role">Queen</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">Queen slide</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">Same</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Hex (immobilise enemy 2 turns, once/game)</span></div>
+      </div>
+
+      <div class="uc-card">
+        <div class="uc-head" style="background-color: #3a8a3a; color: #ffffff;">
+          <span class="uc-name">Warlord</span>
+          <span class="uc-cost">15 XP</span>
+        </div>
+        <div class="uc-role">King</div>
+        <div class="uc-row"><span class="uc-label">Move:</span> <span class="uc-value">1 sq any</span></div>
+        <div class="uc-row"><span class="uc-label">Attack:</span> <span class="uc-value">1 sq + knight jump</span></div>
+        <div class="uc-row uc-special"><span class="uc-label">Special:</span> <span class="uc-value">Extended attack</span></div>
+      </div>
+
+    </div>
   </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--greenskin"><span class="uc-name">Warboss</span><span class="uc-size">QUEEN · 18 XP</span></div>
-    <div class="uc-body"><p><strong>Slide</strong> — Rampage: may attack twice per turn but cannot Slide more than 3 squares.</p></div>
-  </div>
-  <div class="unit-card">
-    <div class="uc-head uc-head--greenskin"><span class="uc-name">Great Chief</span><span class="uc-size">KING · 6 XP</span></div>
-    <div class="uc-body"><p><strong>Step</strong> — Thick Hide: requires two attacks in one turn to capture.</p></div>
-  </div>
+
 </div>

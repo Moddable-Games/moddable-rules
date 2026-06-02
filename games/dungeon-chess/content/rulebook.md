@@ -125,6 +125,10 @@ Wizard and Vampire have asymmetric threat zones — the directions they can move
 
 Every King has a unique bonus ability beyond its basic 1-step move. Princess can slide diagonally for repositioning but only captures adjacent. Warlock and Red Dragon/Warlord have extended attack ranges. Kings are royal — lose yours and you lose the game.
 
+
+
+{{include:unit-cards.html}}
+
 </div>
 
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Cannon</span><span class="eyebrow-line"></span></div>

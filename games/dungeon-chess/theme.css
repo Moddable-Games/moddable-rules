@@ -168,11 +168,85 @@ table td {
   border-bottom-color: var(--divider-color);
 }
 
-/* Species colour accents for unit cards */
-.species-humans { --species-color: #c8c8d0; }
-.species-undead { --species-color: #5a4a6a; }
-.species-redskins { --species-color: #c83030; }
-.species-greenskins { --species-color: #3a8a3a; }
+/* Unit cards */
+.unit-cards-section { margin: 24px 0; }
+.species-group { margin-bottom: 28px; }
+.uc-card { break-inside: avoid; }
+.species-header {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 8px 14px;
+  margin: 0 0 12px;
+  border-left: 4px solid rgba(0,0,0,0.3);
+}
+.uc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.uc-card {
+  border: 1px solid var(--divider-color);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  break-inside: avoid;
+}
+.uc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  color: #fff;
+}
+.uc-name {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.uc-cost {
+  font-family: var(--mono, monospace);
+  font-size: 11px;
+  opacity: 0.85;
+}
+.uc-role {
+  font-family: var(--sans);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding: 4px 10px 2px;
+  border-bottom: 1px solid var(--divider-color);
+}
+.uc-body { padding: 6px 10px 8px; }
+.uc-row {
+  display: flex;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+.uc-label {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  min-width: 42px;
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+.uc-value { font-size: 12px; }
+.uc-special .uc-value {
+  color: var(--dungeon-ember);
+  font-weight: 500;
+}
 
 /* Print overrides */
 @media print {
