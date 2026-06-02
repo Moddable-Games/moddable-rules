@@ -1,6 +1,6 @@
 ---
 title: "Nukes — Official Rulebook"
-version: "0.9.3"
+version: "0.9.4"
 slug: "nukes"
 players: "2–3"
 duration: "45+ min"
@@ -223,11 +223,11 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 <div class="diagrams-grid">
 <div class="diagram-box">
 <div class="diagram-title">Same-Biome Flood Fill</div>
-{{svg:infantry_floodfill.svg "Infantry reaches every connected field hex in one move — no distance limit. Adjacent mountains are also reachable as a final step into a different biome. The mountain with a red mark has no adjacent field and cannot be reached."}}
+{{svg:infantry_floodfill_v2.svg "Infantry reaches every connected field hex in one move — no distance limit. Adjacent mountains are also reachable as a final step into a different biome. The mountain with a red mark has no adjacent field and cannot be reached."}}
 </div>
 <div class="diagram-box">
 <div class="diagram-title">Can Enter, Cannot Pass Through</div>
-{{svg:infantry_blocking.svg "Infantry can move into a friendly Artillery region (tokens merge). It cannot move through it. Mountains seal the corridor — the fields beyond the Artillery are unreachable. Six adjacent mountains are reachable as a final step."}}
+{{svg:infantry_blocking_v2.svg "Infantry can move into a friendly Artillery region (tokens merge). It cannot move through it. Mountains seal the corridor — the fields beyond the Artillery are unreachable. Six adjacent mountains are reachable as a final step."}}
 </div>
 </div>
 
@@ -241,11 +241,11 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 <div class="diagrams-grid">
 <div class="diagram-box">
 <div class="diagram-title">Jump Mechanics</div>
-{{svg:artillery_jumpmechanics.svg "Four jump attempts from the same position. Enemy Infantry and own Airborne are valid stepping stones. An empty intermediate prevents any jump. Enemy Airborne blocks the jump despite the hex being occupied."}}
+{{svg:artillery_jumpmechanics_v2.svg "Four jump attempts from the same position. Enemy Infantry and own Airborne are valid stepping stones. An empty intermediate prevents any jump. Enemy Airborne blocks the jump despite the hex being occupied."}}
 </div>
 <div class="diagram-box">
 <div class="diagram-title">Pivot at a Friendly Base</div>
-{{svg:artillery_pivot.svg "Artillery arrives at the friendly Base (gold border). From the Base it can reach 8 destinations: the Base itself, 5 adjacent hexes (excluding where it came from), and 2 hexes beyond the friendly infantry via continued jumps."}}
+{{svg:artillery_pivot_v2.svg "Artillery arrives at the friendly Base (gold border). From the Base it can reach 8 destinations: the Base itself, 5 adjacent hexes (excluding where it came from), and 2 hexes beyond the friendly infantry via continued jumps."}}
 </div>
 </div>
 
@@ -262,11 +262,11 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 <div class="diagrams-grid">
 <div class="diagram-box">
 <div class="diagram-title">Exactly 2 Steps, Not Adjacent</div>
-{{svg:airborne_exactly2.svg "Airborne lands exactly 2 steps away in any direction — the path need not be straight. Adjacent hexes cannot be landed on. Mountains without a friendly Base cannot be passed through or landed in."}}
+{{svg:airborne_exactly2_v2.svg "Airborne lands exactly 2 steps away in any direction — the path need not be straight. Adjacent hexes cannot be landed on. Mountains without a friendly Base cannot be passed through or landed in."}}
 </div>
 <div class="diagram-box">
 <div class="diagram-title">Slingshot Chain</div>
-{{svg:airborne_slingshot.svg "All valid destinations shown across the full slingshot chain — from start directly, or via either Base as a launch point. Each Base may only serve as a launch point once per chain."}}
+{{svg:airborne_slingshot_v2.svg "All valid destinations shown across the full slingshot chain — from start directly, or via either Base as a launch point. Each Base may only serve as a launch point once per chain."}}
 </div>
 </div>
 
@@ -281,11 +281,11 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 <div class="diagrams-grid">
 <div class="diagram-box">
 <div class="diagram-title">Valid Targets</div>
-{{svg:nuke_targets.svg "Nuke hops over the infantry, pivots at the Airborne, then hops again to reach targets. Enemy Airborne blocks one direction. The enemy cluster top-right is the strongest choice — destroying 5 units in one strike."}}
+{{svg:nuke_targets_v2.svg "Nuke hops over the infantry, pivots at the Airborne, then hops again to reach targets. Enemy Airborne blocks one direction. The enemy cluster top-right is the strongest choice — destroying 5 units in one strike."}}
 </div>
 <div class="diagram-box">
 <div class="diagram-title">After the Strike</div>
-{{svg:nuke_afterstrike.svg "The target hex becomes Biohazard. All units in the target and its 6 surrounding hexes are destroyed — the surrounding hexes themselves remain unchanged. Five enemy units eliminated with no friendly casualties."}}
+{{svg:nuke_afterstrike_v2.svg "The target hex becomes Biohazard. All units in the target and its 6 surrounding hexes are destroyed — the surrounding hexes themselves remain unchanged. Five enemy units eliminated with no friendly casualties."}}
 </div>
 </div>
 
