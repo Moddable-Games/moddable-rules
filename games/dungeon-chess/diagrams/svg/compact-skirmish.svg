@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 270" width="240" height="270">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 286" width="240" height="286">
   <defs>
     <style>
       .cell { stroke: #2a2a2a; stroke-width: 1; }
       .floor { fill: #d4c4a8; }
       .water { fill: #4a90c8; opacity: 0.5; }
       .spawn-a { stroke: #e8a838; stroke-width: 2; }
-      .spawn-b { stroke: #c03030; stroke-width: 2; }
+      .spawn-b { stroke: #2255cc; stroke-width: 2; }
       .legend-text { font-family: sans-serif; font-size: 10px; fill: #333; }
     </style>
   </defs>
@@ -124,12 +124,12 @@
   <rect x="180" y="201" width="19" height="19" class="cell floor spawn-a"/>
   <rect x="201" y="201" width="19" height="19" class="cell floor spawn-a"/>
   <!-- Legend -->
-  <rect x="12" y="235" width="10" height="10" fill="#d4c4a8" stroke="#2a2a2a" stroke-width="0.5"/>
-  <text x="26" y="244" class="legend-text">Floor</text>
-  <rect x="62" y="235" width="10" height="10" fill="#4a90c8" opacity="0.5" stroke="#2a2a2a" stroke-width="0.5"/>
-  <text x="76" y="244" class="legend-text">Water</text>
-  <rect x="118" y="235" width="10" height="10" fill="#d4c4a8" stroke="#e8a838" stroke-width="2"/>
-  <text x="132" y="244" class="legend-text">Player 1 Deploy</text>
-  <rect x="196" y="235" width="10" height="10" fill="#d4c4a8" stroke="#c03030" stroke-width="2"/>
-  <text x="210" y="244" class="legend-text">Player 2 Deploy</text>
+  <rect x="12" y="232" width="10" height="10" fill="#d4c4a8" stroke="#2a2a2a" stroke-width="0.5"/>
+  <text x="26" y="241" class="legend-text">Floor</text>
+  <rect x="62" y="232" width="10" height="10" fill="#4a90c8" opacity="0.5" stroke="#2a2a2a" stroke-width="0.5"/>
+  <text x="76" y="241" class="legend-text">Water</text>
+  <rect x="12" y="250" width="10" height="10" fill="#d4c4a8" stroke="#e8a838" stroke-width="2"/>
+  <text x="26" y="259" class="legend-text">Player 1 Deploy</text>
+  <rect x="118" y="250" width="10" height="10" fill="#d4c4a8" stroke="#2255cc" stroke-width="2"/>
+  <text x="132" y="259" class="legend-text">Player 2 Deploy</text>
 </svg>
