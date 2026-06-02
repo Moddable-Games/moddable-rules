@@ -54,9 +54,20 @@ def load_font(size, bold=False):
 
 
 def draw_base_grid(draw, colors):
-    """Fine blueprint grid across the entire image."""
-    grid_color = (*colors['primary'], 12)
-    grid_color_major = (*colors['primary'], 22)
+    """Fine blueprint grid across the entire image — very subtle."""
+    # Blend grid colour toward background for true subtlety
+    pr, pg, pb = colors['primary']
+    br, bg_, bb = BG
+    # Minor lines: 4% of accent mixed with background
+    mr = int(br + (pr - br) * 0.04)
+    mg = int(bg_ + (pg - bg_) * 0.04)
+    mb = int(bb + (pb - bb) * 0.04)
+    grid_color = (mr, mg, mb)
+    # Major lines: 8% of accent
+    Mr = int(br + (pr - br) * 0.08)
+    Mg = int(bg_ + (pg - bg_) * 0.08)
+    Mb = int(bb + (pb - bb) * 0.08)
+    grid_color_major = (Mr, Mg, Mb)
     for x in range(0, WIDTH, 30):
         c = grid_color_major if x % 150 == 0 else grid_color
         draw.line([(x, 0), (x, HEIGHT)], fill=c, width=1)
@@ -108,8 +119,8 @@ def draw_game_schematic(draw, colors, seed=0):
     ox, oy = 750, 120
     cell = 45
     rows, cols = 6, 6
-    outline_color = (*colors['primary'], 40)
-    fill_color = (*colors['primary'], 8)
+    outline_color = (*colors['primary'], 12)
+    fill_color = (*colors['primary'], 3)
     for r in range(rows):
         for c in range(cols):
             x = ox + c * cell
@@ -125,14 +136,14 @@ def draw_game_schematic(draw, colors, seed=0):
         cx = ox + c * cell + cell // 2
         cy = oy + r * cell + cell // 2
         draw.ellipse([(cx - 8, cy - 8), (cx + 8, cy + 8)],
-                     outline=(*colors['primary'], 60), width=2)
+                     outline=(*colors['primary'], 35), width=2)
 
 
 def draw_mod_schematic(draw, colors, seed=0):
     """Mods: modification arrows and delta symbols."""
     random.seed(seed + 20)
     ox, oy = 780, 140
-    arrow_color = (*colors['primary'], 50)
+    arrow_color = (*colors['primary'], 25)
     for i in range(4):
         y = oy + i * 80
         x1 = ox + random.randint(0, 40)
@@ -141,14 +152,14 @@ def draw_mod_schematic(draw, colors, seed=0):
         draw.polygon([(x2, y), (x2 - 10, y - 5), (x2 - 10, y + 5)],
                      fill=arrow_color)
         draw.ellipse([(x1 - 6, y - 6), (x1 + 6, y + 6)],
-                     outline=(*colors['primary'], 40), width=1)
+                     outline=(*colors['primary'], 20), width=1)
     tri_x, tri_y = ox + 60, oy + 340
     size = 25
     draw.polygon([
         (tri_x, tri_y - size),
         (tri_x - size, tri_y + size),
         (tri_x + size, tri_y + size),
-    ], outline=(*colors['primary'], 45), width=2)
+    ], outline=(*colors['primary'], 25), width=2)
     font = load_font(14)
     draw.text((tri_x - 5, tri_y - 5), 'Δ',
               fill=(*colors['primary'], 60), font=font)
@@ -162,8 +173,8 @@ def draw_platform_schematic(draw, colors, seed=0):
         x = random.randint(680, 1100)
         y = random.randint(100, 500)
         nodes.append((x, y))
-    line_color = (*colors['primary'], 30)
-    node_color = (*colors['primary'], 55)
+    line_color = (*colors['primary'], 15)
+    node_color = (*colors['primary'], 30)
     for i in range(len(nodes)):
         for j in range(i + 1, len(nodes)):
             dist = math.hypot(nodes[i][0] - nodes[j][0],
@@ -177,7 +188,7 @@ def draw_platform_schematic(draw, colors, seed=0):
     if len(nodes) > 2:
         cx, cy = nodes[0]
         draw.ellipse([(cx - 14, cy - 14), (cx + 14, cy + 14)],
-                     outline=(*colors['primary'], 70), width=2)
+                     outline=(*colors['primary'], 40), width=2)
 
 
 def draw_variant_schematic(draw, colors, seed=0):
@@ -221,15 +232,16 @@ SCHEMATIC_MAP = {
 }
 
 
-def base_image(content_type='game', seed=0):
+def base_image(content_type='game', seed=0, has_logo=False):
     img = Image.new('RGBA', (WIDTH, HEIGHT), (*BG, 255))
     draw = ImageDraw.Draw(img, 'RGBA')
     colors = ACCENTS[content_type]
     draw_base_grid(draw, colors)
     draw_registration_marks(draw, colors)
     draw_dimension_lines(draw, colors, seed=seed)
-    schematic_fn = SCHEMATIC_MAP.get(content_type, draw_game_schematic)
-    schematic_fn(draw, colors, seed=seed)
+    if not has_logo:
+        schematic_fn = SCHEMATIC_MAP.get(content_type, draw_game_schematic)
+        schematic_fn(draw, colors, seed=seed)
     return img
 
 
@@ -361,7 +373,6 @@ def generate_all():
         if base_game:
             eyebrow = f'Mod of {base_game} · {fm.get("players", "")} players'
         seed = hash(slug) % 10000
-        img = base_image(content_type, seed=seed)
         logo_dir = os.path.join(games_dir, slug, 'logos')
         logo_path = None
         if os.path.isdir(logo_dir):
@@ -374,6 +385,7 @@ def generate_all():
                     if lf.endswith(('.png', '.jpg')) and 'logo' in lf:
                         logo_path = os.path.join(logo_dir, lf)
                         break
+        img = base_image(content_type, seed=seed, has_logo=bool(logo_path))
         if logo_path:
             colors = ACCENTS[content_type]
             img = overlay_logo(img, logo_path, colors)
