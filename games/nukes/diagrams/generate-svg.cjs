@@ -2,9 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const hexmapsDir = '/Applications/MAMP/htdocs/MODDABLE/moddable-hexmaps/js';
-eval(fs.readFileSync(path.join(hexmapsDir, 'hex-math.js'), 'utf8'));
-eval(fs.readFileSync(path.join(hexmapsDir, 'hex-svg.js'), 'utf8'));
+const hexmapsDir = path.resolve(__dirname, '../../../..', 'moddable-hexmaps/js');
+const { HexMath, HexSvg } = require(path.join(hexmapsDir, 'hex-svg-node.js'));
 
 const OUT = path.join(__dirname, 'svg');
 
