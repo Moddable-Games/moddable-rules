@@ -9,6 +9,7 @@ tagline: "Cold-war territory control on a hex map with nuclear brinkmanship"
 type: "game"
 status: "live"
 updated: "2026-05-22"
+first_published: "January 2012"
 ---
 
 <div class="section">

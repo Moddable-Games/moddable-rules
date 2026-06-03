@@ -37,16 +37,19 @@ async function generateSinglePage(browser, htmlPath, sectionSel, opts) {
   await page.emulateMediaType('print');
   await page.setViewport({ width: 794, height: 1123 });
 
-  await page.evaluate((sel, ver, slug) => {
+  await page.evaluate((sel, ver, slug, firstPub) => {
     const target = document.querySelector(sel);
     if (sel === '.back-cover') {
       const now = new Date();
       const printed = now.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      const firstLine = firstPub ? `<p class="back-cover-date">First published ${firstPub}</p>` : '';
       const bc = document.createElement('div');
       bc.className = 'back-cover';
       bc.innerHTML = `
+        <img class="back-cover-logo" src="../../shared/logos/moddable-white.png" alt="Moddable Games">
         <p class="back-cover-version">v${ver}</p>
         <p class="back-cover-pub">Published by Moddable Games</p>
+        ${firstLine}
         <p class="back-cover-date">Printed ${printed}</p>
       `;
       document.body.innerHTML = '';
@@ -55,7 +58,7 @@ async function generateSinglePage(browser, htmlPath, sectionSel, opts) {
       document.body.innerHTML = '';
       document.body.appendChild(target);
     }
-  }, sectionSel, opts.version || '', opts.slug || '');
+  }, sectionSel, opts.version || '', opts.slug || '', opts.firstPublished || '');
 
   await page.addStyleTag({ content: `
     html, body { background: ${opts.bg} !important; margin: 0; padding: 0; }
@@ -176,7 +179,7 @@ for (const slug of slugs) {
   for (let i = 0; i < sections.length; i++) {
     const s = sections[i];
     const sectionPath = resolve(outDir, `_section_${i}.pdf`);
-    const opts = { bg: s.bg, css: s.css || '', outPath: sectionPath, version, slug };
+    const opts = { bg: s.bg, css: s.css || '', outPath: sectionPath, version, slug, firstPublished: meta.first_published || '' };
 
     try {
       if (s.multi) {

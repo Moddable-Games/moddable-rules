@@ -10,6 +10,7 @@ type: "mod"
 base_game: "Chess"
 status: "alpha"
 updated: "2026-06-02"
+first_published: "May 2026"
 published: true
 ---
 
