@@ -47,13 +47,19 @@ async function generateSinglePage(browser, htmlPath, sectionSel, opts) {
       bc.className = 'back-cover';
       bc.innerHTML = `
         <img class="back-cover-logo" src="../../shared/logos/moddable-white.png" alt="Moddable Games">
-        <p class="back-cover-version">v${ver}</p>
-        <p class="back-cover-pub">Published by Moddable Games</p>
         ${firstLine}
         <p class="back-cover-date">Printed ${printed}</p>
+        <p class="back-cover-version">v${ver}</p>
       `;
       document.body.innerHTML = '';
       document.body.appendChild(bc);
+    } else if (sel === '.cover' && target) {
+      const now = new Date();
+      const printed = now.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      const pub = target.querySelector('.cover-pub');
+      if (pub) pub.textContent = pub.textContent + ' · Printed ' + printed;
+      document.body.innerHTML = '';
+      document.body.appendChild(target);
     } else if (target) {
       document.body.innerHTML = '';
       document.body.appendChild(target);

@@ -153,6 +153,7 @@ function buildGame(slug) {
     players: meta.players || '',
     duration: meta.duration || '',
     age: meta.age || '',
+    first_published: meta.first_published || '',
     variant_count: String(variantCount),
   };
 

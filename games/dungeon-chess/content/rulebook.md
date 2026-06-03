@@ -132,7 +132,7 @@ Every King has a unique bonus ability beyond its basic 1-step move. Princess can
 
 </div>
 
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Cannon</span><span class="eyebrow-line"></span></div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Cannon & Terrain</span><span class="eyebrow-line"></span></div>
 
 ## The Cannon Mechanic
 
@@ -147,10 +147,6 @@ Kobolds, Goblins, Iron Golems, and Ogres have cannon attacks — a ranged captur
 - The cannon jumps over the screen and lands on the target's square (same as XiangQi).
 
 **Example:** A Kobold on a1 wants to capture an enemy on a5. There must be exactly one piece on a2, a3, or a4 (the screen). If the line is empty or has two pieces between them, the cannon cannot fire.
-
-</div>
-
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Terrain</span><span class="eyebrow-line"></span></div>
 
 ## Terrain
 

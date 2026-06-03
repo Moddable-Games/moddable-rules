@@ -67,7 +67,7 @@ export function buildPaginateScript(pageHMm, padMm) {
 
   // Paginate with section gaps and smart page breaks
   const SECTION_GAP = 24 * MM_TO_PX;
-  const SUB_GAP = 14 * MM_TO_PX;
+  const SUB_GAP = 10 * MM_TO_PX;
   let pages = [];
   let currentPage = [];
   let currentHeight = 0;
