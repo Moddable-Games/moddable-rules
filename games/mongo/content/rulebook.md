@@ -1,6 +1,6 @@
 ---
 title: "Planet Mongo — Official Rulebook"
-version: "0.9.1"
+version: "0.9.2"
 slug: "mongo"
 players: "2–8"
 duration: "120+ min"

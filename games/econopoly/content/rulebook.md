@@ -1,6 +1,6 @@
 ---
 title: "Econopoly — Official Rulebook"
-version: "0.1.0"
+version: "0.2.0"
 slug: "econopoly"
 players: "2–6"
 duration: "60 min"

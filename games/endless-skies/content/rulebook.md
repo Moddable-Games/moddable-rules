@@ -1,6 +1,6 @@
 ---
 title: "Endless Skies — Official Rulebook"
-version: "0.3.0"
+version: "0.4.0"
 slug: "endless-skies"
 players: "2–8"
 duration: "TBD"

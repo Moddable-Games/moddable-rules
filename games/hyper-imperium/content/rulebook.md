@@ -1,6 +1,6 @@
 ---
 title: "Hyper Imperium — Official Rulebook"
-version: "0.6.0"
+version: "0.7.0"
 slug: "hyper-imperium"
 players: "4–6"
 duration: "4–6 hr"

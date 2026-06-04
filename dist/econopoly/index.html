@@ -3,25 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Econopoly — Official Rulebook v0.1.0</title>
+<title>Econopoly — Official Rulebook v0.2.0</title>
 <meta name="description" content="Monopoly with a working economy. Dynamic pricing, progressive tax, anti-monopoly regulation.">
-<meta property="og:title" content="Econopoly — Official Rulebook v0.1.0">
+<meta property="og:title" content="Econopoly — Official Rulebook v0.2.0">
 <meta property="og:description" content="Monopoly with a working economy. Anti-monopoly rules, dynamic property pricing, and a tax band that actually does something.">
-<meta property="og:image" content="https://rules.moddable.games/games/econopoly/og-image.png?v=1.1.4">
+<meta property="og:image" content="https://rules.moddable.games/games/econopoly/og-image.png?v=1.1.5">
 <meta property="og:url" content="https://rules.moddable.games/dist/econopoly/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Econopoly — Official Rulebook v0.1.0">
+<meta name="twitter:title" content="Econopoly — Official Rulebook v0.2.0">
 <meta name="twitter:description" content="Monopoly with a working economy. Dynamic pricing, progressive tax, anti-monopoly regulation.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/econopoly/og-image.png?v=1.1.4">
+<meta name="twitter:image" content="https://rules.moddable.games/games/econopoly/og-image.png?v=1.1.5">
 <link rel="icon" type="image/png" sizes="32x32" href="../../games/econopoly/logos/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../../games/econopoly/logos/favicon-16.png">
-<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../games/econopoly/theme.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.2.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.2.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.2.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.2.0">
+<link rel="stylesheet" href="../../games/econopoly/theme.css?v=0.2.0">
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
@@ -31,7 +31,7 @@
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
   <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a></div>
-  <span class="hdr-meta">Mod of Monopoly · v0.1.0</span>
+  <span class="hdr-meta">Mod of Monopoly · v0.2.0</span>
 </header>
 
 <!-- COVER -->
@@ -46,7 +46,7 @@
     <div class="cover-stat"><span class="cs-num">60</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.1.0</p>
+  <p class="cover-pub">Published by Moddable Games · v0.2.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -170,15 +170,347 @@
 </ul>
 <p>At this end, the player with the most victory points (VP) wins. In a tie, the most cash wins.</p>
 </div>
+<div class="section">
+<div class="eyebrow">The Event Deck</div>
+<h2>Event Cards</h2>
+<p>54 cards total (standard deck + 2 jokers). Three events are active at any time. Events are replaced when a player lands on Community Chest or a Utility.</p>
+<h3>Financial Events (Diamonds)</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Card</th>
+<th>Type</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2D</td>
+<td>Contract</td>
+<td>1 VP for every mortgaged property owned when passing GO</td>
+</tr>
+<tr>
+<td>3D</td>
+<td>Contract</td>
+<td>1 VP for every largest denomination spent when passing GO</td>
+</tr>
+<tr>
+<td>4D</td>
+<td>Contract</td>
+<td>3 VP for every event someone removes or replaces</td>
+</tr>
+<tr>
+<td>5D</td>
+<td>Contract</td>
+<td>5 VP for going bankrupt</td>
+</tr>
+<tr>
+<td>6D</td>
+<td>Contract</td>
+<td>5 VP for bankrupting someone</td>
+</tr>
+<tr>
+<td>7D</td>
+<td>Contract</td>
+<td>Gain one resource when passing GO</td>
+</tr>
+<tr>
+<td>8D</td>
+<td>Contract</td>
+<td>Gain one resource when other players pass GO</td>
+</tr>
+<tr>
+<td>9D</td>
+<td>Contract</td>
+<td>Gain one resource after anyone builds a hotel</td>
+</tr>
+<tr>
+<td>10D</td>
+<td>CRISIS</td>
+<td>All cash belonging to all players goes back to bank</td>
+</tr>
+<tr>
+<td>JD</td>
+<td>Stock Markets</td>
+<td>Cannot use cash for construction unless markets permit</td>
+</tr>
+<tr>
+<td>QD</td>
+<td>Stock Markets</td>
+<td>Houses are half price but hotels are double price</td>
+</tr>
+<tr>
+<td>KD</td>
+<td>Stock Markets</td>
+<td>Hotels are half price but houses are double price</td>
+</tr>
+<tr>
+<td>AD</td>
+<td>Stock Markets</td>
+<td>Everyone without hotels gets double for passing GO</td>
+</tr>
+</tbody>
+</table>
+<h3>Transportation Events (Clubs)</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Card</th>
+<th>Type</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2C</td>
+<td>Contract</td>
+<td>1 VP for delivering two linked resources</td>
+</tr>
+<tr>
+<td>3C</td>
+<td>Contract</td>
+<td>2 VP for delivering three linked resources</td>
+</tr>
+<tr>
+<td>4C</td>
+<td>Contract</td>
+<td>3 VP for delivering five linked resources</td>
+</tr>
+<tr>
+<td>5C</td>
+<td>Contract</td>
+<td>5 VP for delivering matched groups</td>
+</tr>
+<tr>
+<td>6C</td>
+<td>Contract</td>
+<td>5 VP for delivering organized groups</td>
+</tr>
+<tr>
+<td>7C</td>
+<td>Contract</td>
+<td>3 VP for delivering two sets of two linked resources</td>
+</tr>
+<tr>
+<td>8C</td>
+<td>Contract</td>
+<td>5 VP for delivering three sets of two linked resources</td>
+</tr>
+<tr>
+<td>9C</td>
+<td>Contract</td>
+<td>5 VP for delivering two sets of three linked resources</td>
+</tr>
+<tr>
+<td>10C</td>
+<td>CRISIS</td>
+<td>Each station owner pays x10 passing GO or goes to Jail</td>
+</tr>
+<tr>
+<td>JC</td>
+<td>Transportation</td>
+<td>Stations can only be used to ride if transportation permits</td>
+</tr>
+<tr>
+<td>QC</td>
+<td>Transportation</td>
+<td>Stations cannot be used for deliveries</td>
+</tr>
+<tr>
+<td>KC</td>
+<td>Transportation</td>
+<td>Free parking does not exist</td>
+</tr>
+<tr>
+<td>AC</td>
+<td>Transportation</td>
+<td>Stations can be used freely to ride</td>
+</tr>
+</tbody>
+</table>
+<h3>Residential Events (Hearts)</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Card</th>
+<th>Type</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2H</td>
+<td>Contract</td>
+<td>1 VP for every other player’s hotels when passing GO</td>
+</tr>
+<tr>
+<td>3H</td>
+<td>Contract</td>
+<td>1 VP for every other player’s mortgages when passing GO</td>
+</tr>
+<tr>
+<td>4H</td>
+<td>Contract</td>
+<td>3 VP for landing on GO</td>
+</tr>
+<tr>
+<td>5H</td>
+<td>Contract</td>
+<td>1 VP every time another player goes to jail</td>
+</tr>
+<tr>
+<td>6H</td>
+<td>Contract</td>
+<td>1 VP for every area with one house when passing GO</td>
+</tr>
+<tr>
+<td>7H</td>
+<td>Contract</td>
+<td>3 VP for every area with one house on each land when passing GO</td>
+</tr>
+<tr>
+<td>8H</td>
+<td>Contract</td>
+<td>5 VP for a player with one hotel only when passing GO</td>
+</tr>
+<tr>
+<td>9H</td>
+<td>Contract</td>
+<td>5 VP for a player with one house only when passing GO</td>
+</tr>
+<tr>
+<td>10H</td>
+<td>CRISIS</td>
+<td>All hotels should be returned to the bank</td>
+</tr>
+<tr>
+<td>JH</td>
+<td>Town Hall</td>
+<td>All train stations go back on the market / cannot be owned</td>
+</tr>
+<tr>
+<td>QH</td>
+<td>Town Hall</td>
+<td>Jail costs x10 usual to escape</td>
+</tr>
+<tr>
+<td>KH</td>
+<td>Town Hall</td>
+<td>Free parking costs 2x the price of passing GO to enter, or go to jail</td>
+</tr>
+<tr>
+<td>AH</td>
+<td>Town Hall</td>
+<td>Passing GO costs the price of passing GO, or go to Jail</td>
+</tr>
+</tbody>
+</table>
+<h3>Construction Events (Spades)</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Card</th>
+<th>Type</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2S</td>
+<td>Contract</td>
+<td>1 VP for each house built</td>
+</tr>
+<tr>
+<td>3S</td>
+<td>Contract</td>
+<td>1 VP for each hotel built</td>
+</tr>
+<tr>
+<td>4S</td>
+<td>Contract</td>
+<td>3 VP for each hotel built</td>
+</tr>
+<tr>
+<td>5S</td>
+<td>Contract</td>
+<td>5 VP for each hotel built in areas without houses</td>
+</tr>
+<tr>
+<td>6S</td>
+<td>Contract</td>
+<td>1 VP for every house obtained without using cash</td>
+</tr>
+<tr>
+<td>7S</td>
+<td>Contract</td>
+<td>3 VP for every hotel obtained without using cash</td>
+</tr>
+<tr>
+<td>8S</td>
+<td>Contract</td>
+<td>1 VP for every utility owned when passing GO</td>
+</tr>
+<tr>
+<td>9S</td>
+<td>Contract</td>
+<td>3 VP for owning both utilities when passing GO</td>
+</tr>
+<tr>
+<td>10S</td>
+<td>CRISIS</td>
+<td>All houses should be returned to the bank</td>
+</tr>
+<tr>
+<td>JS</td>
+<td>Planning</td>
+<td>Can build regardless of whether complete set or not</td>
+</tr>
+<tr>
+<td>QS</td>
+<td>Planning</td>
+<td>Housing need not be even</td>
+</tr>
+<tr>
+<td>KS</td>
+<td>Planning</td>
+<td>Can only build hotels if planning permission permits</td>
+</tr>
+<tr>
+<td>AS</td>
+<td>Planning</td>
+<td>Build hotels without needing houses first</td>
+</tr>
+</tbody>
+</table>
+<h3>Jokers</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Card</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Joker 1</td>
+<td>Utilities are worth 10x the usual price when landing on them</td>
+</tr>
+<tr>
+<td>Joker 2</td>
+<td>CRISIS — Return all utilities to the bank</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 </main>
 
 <!-- FOOTER -->
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.1.0 · Published by Moddable Games · © 2024–2026 All Rights Reserved</span>
+  <span class="ftr-copy">v0.2.0 · Published by Moddable Games · © 2024–2026 All Rights Reserved</span>
 </footer>
 
 </div>
-<script src="../../js/toc.js?v=0.1.0"></script>
+<script src="../../js/toc.js?v=0.2.0"></script>
 </body>
 </html>

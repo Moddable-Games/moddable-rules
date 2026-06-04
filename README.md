@@ -11,8 +11,8 @@ The official rulebook system for all games published by [Moddable Games](https:/
 | Game | Version | Players | Status |
 |------|---------|---------|--------|
 | **Nukes** | 0.9.5 | 2–3 | Live |
-| **Mongo** | 0.9.1 | 2–8 | Dev |
-| **Endless Skies** | 0.3.0 | 2–8 | Dev |
+| **Mongo** | 0.9.2 | 2–8 | Dev |
+| **Endless Skies** | 0.4.0 | 2–8 | Dev |
 | **Baristasaurus** | 0.1.0 | 2–5 | Playtest |
 
 ---
@@ -24,8 +24,8 @@ The official rulebook system for all games published by [Moddable Games](https:/
 | **Moddable Chess** | Chess | 0.4.0 | 2–6 | Alpha |
 | **Dungeon Chess** | Chess | 0.2.1 | 2–4 | Alpha |
 | **Talisman Worlds** | Talisman 4e | 0.3.0 | 2–6 | Dev |
-| **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 4–6 | Live |
-| **Econopoly** | Monopoly | 0.9.0 | 2–6 | Live |
+| **Hyper Imperium** | Twilight Imperium 4e | 0.7.0 | 4–6 | Live |
+| **Econopoly** | Monopoly | 0.2.0 | 2–6 | Live |
 
 ---
 
@@ -159,6 +159,12 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-06-05
+- Version bumps: Econopoly 0.2.0, Endless Skies 0.4.0, Hyper Imperium 0.7.0, Mongo 0.9.2
+- Rebuilt dist/ (all 9 games, 70 variant pages, 492 search index entries)
+- Fixed README version table (HI and Econopoly were out of sync with frontmatter)
+- Site version 1.1.5
 
 #### 2026-06-04
 - Added Baristasaurus rulebook (playtest)
