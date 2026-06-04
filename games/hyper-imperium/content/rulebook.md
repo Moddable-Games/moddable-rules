@@ -251,7 +251,161 @@ We have taken inspiration for these from an up-coming game we are developing, wh
 <div class="highlight">
 <div class="box-title">In Development</div>
 
-Full faction sheets for The Remnant and The Wanderers are in development. See the supplementary PDFs (FACTIONS, LEADERS, MECHS, UNITS, FLAGSHIPS) for current faction data and balancing notes.
+Full faction sheets for The Remnant and The Wanderers are in development.
 </div>
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Faction Builder</div>
+
+## Faction Abilities (100 points)
+
+### Combat and Movement
+
+| Ability | Cost |
+|---------|------|
+| Combat +1 | 15 |
+| Move +1 | 15 |
+| Defend +1 | 10 |
+
+### Starting Technologies
+
+| Ability | Cost |
+|---------|------|
+| Yellow Tech | 6 |
+| Green Tech | 6 |
+| Red Tech | 8 |
+| Blue Tech | 8 |
+
+### Starting System
+
+| Ability | Cost |
+|---------|------|
+| 1 Planet | 15 |
+| 2 Planets | 10 |
+| 3 Planets | 5 |
+
+### Commodities
+
+| Ability | Cost |
+|---------|------|
+| Commodities 1 | 3 |
+| Commodities 2 | 6 |
+| Commodities 3 | 9 |
+| Commodities 4 | 12 |
+
+### Resources
+
+| Ability | Cost |
+|---------|------|
+| Resources 1 | 2 |
+| Resources 2 | 4 |
+| Resources 3 | 6 |
+| Resources 4 | 8 |
+
+### Influence
+
+| Ability | Cost |
+|---------|------|
+| Influence 1 | 2 |
+| Influence 2 | 4 |
+| Influence 3 | 6 |
+| Influence 4 | 8 |
+
+### Sustain Damage
+
+| Ability | Cost |
+|---------|------|
+| Infantry Sustain | 6 |
+| Fighter Sustain | 6 |
+| Destroyer Sustain | 8 |
+| Carrier Sustain | 10 |
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Faction Builder</div>
+
+## Flagship Abilities
+
+Base Flagship: Cost 8, Combat 8, Move 1, Capacity 1, Sustain YES
+
+| Ability | Cost |
+|---------|------|
+| Combat +1 (all non-fighters) | 15 |
+| Move +1 (all non-fighters) | 15 |
+| Move through Nebulas | 4 |
+| Move through Asteroids | 6 |
+| Move through Rifts | 8 |
+| Move through Supernovas | 10 |
+| Yamma Wormhole | 20 |
+| Move through Hyperlanes | 20 |
+
+## Mech Abilities
+
+Base Mech: Cost 2, Combat 8, Move 0, Capacity 0, Sustain YES
+
+| Ability | Cost |
+|---------|------|
+| Combat +1 (all infantry) | 15 |
+| Combat +1 | 10 |
+| Cost -1 | 5 |
+
+## Leaders
+
+### Agent (exhaust to use)
+
+| Ability | Cost |
+|---------|------|
+| Gain two extra commodities | 10 |
+| Gain one extra exploration card | 5 |
+| Use as strategy for secondary | 15 |
+
+### Commander
+
+| Ability | Cost |
+|---------|------|
+| Defend +1 from Anomalies | 5 |
+| Attack +1 from Anomalies | 10 |
+| Flagship can move freely through Anomalies | 15 |
+
+### Hero
+
+| Ability | Cost |
+|---------|------|
+| Take all commodities from one player | 5 |
+| Randomly take one action card from each player | 15 |
+| Force all other players to reveal secret agendas | 10 |
+
+## Promissory Note
+
+| Ability | Cost |
+|---------|------|
+| Tech Prerequisite | 15 |
+| Spend from Strategy Pool | 10 |
+| Take from Fleet Pool | 5 |
+
+## Unit Upgrades
+
+Cost to purchase each ability depends on unit type. X = not available for that unit.
+
+| Ability | Cruiser | Carrier | Dreadnaught | Warsun | Flagship |
+|---------|---------|---------|-------------|--------|----------|
+| Cost -1 | 1 | 1 | 1 | 1 | 2 |
+| Cost -2 | X | 2 | 2 | 2 | 3 |
+| Cost -3 | X | X | 3 | 3 | 4 |
+| Cost -4 | X | X | X | 4 | 5 |
+| Combat +1 | 1 | 1 | 1 | 2 | 3 |
+| Combat +2 | 2 | 2 | 2 | 3 | 4 |
+| Combat +3 | 3 | 3 | 3 | 4 | 5 |
+| Combat +4 | 4 | 4 | 4 | 5 | 6 |
+| Move +1 | 1 | 1 | 2 | 3 | 4 |
+| Move +2 | 2 | 2 | 3 | 4 | 5 |
+| Move +3 | 3 | 3 | 4 | 5 | 6 |
+| Capacity +1 | 1 | 1 | 1 | 1 | 1 |
+| Capacity +2 | 2 | 2 | 2 | 2 | 2 |
+| Capacity +3 | 3 | 3 | 3 | 3 | 3 |
+| Sustain | 7 | 7 | X | X | X |
 
 </div>
