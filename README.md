@@ -11,8 +11,9 @@ The official rulebook system for all games published by [Moddable Games](https:/
 | Game | Version | Players | Status |
 |------|---------|---------|--------|
 | **Nukes** | 0.9.5 | 2–3 | Live |
-| **Mongo** | 0.8.2 | 3–6 | Playtest |
-| **Endless Skies** | 1.3.0 | 1–4 | In Development |
+| **Mongo** | 0.9.1 | 2–8 | Dev |
+| **Endless Skies** | 0.3.0 | 2–8 | Dev |
+| **Baristasaurus** | 0.1.0 | 2–5 | Playtest |
 
 ---
 
@@ -22,7 +23,7 @@ The official rulebook system for all games published by [Moddable Games](https:/
 |-----|-----------|---------|---------|--------|
 | **Moddable Chess** | Chess | 0.4.0 | 2–6 | Alpha |
 | **Dungeon Chess** | Chess | 0.2.1 | 2–4 | Alpha |
-| **Talisman: Hexed** | Talisman 4e | 1.0.0 | 2–6 | Live |
+| **Talisman Worlds** | Talisman 4e | 0.3.0 | 2–6 | Dev |
 | **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 3–6 | Live |
 | **Econopoly** | Monopoly | 0.9.0 | 2–6 | Live |
 
@@ -35,6 +36,7 @@ games/
   nukes/                 Full rulebook (live)
   mongo/                 Placeholder (content pending playtest)
   endless-skies/         Placeholder (content in development)
+  baristasaurus/         Rulebook (playtest)
   dungeon-chess/         Full rulebook (alpha) — mod of Chess
   talisman-worlds/       Rulebook (dev) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
@@ -158,7 +160,28 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-06-04
+- Added Baristasaurus rulebook (playtest)
+- Renamed Talisman Hexed to Talisman Worlds
+- Replaced fabricated rulebooks with real source material
+- Mongo: added full tile manifest (127 hexes across 9 biomes) from digitised source data
+- Endless Skies: added full system manifest (104 systems across 8 factions) with setup rules
+- Mongo bumped to v0.9.1, Endless Skies bumped to v0.3.0
+
+#### 2026-06-03
+- PDF covers unified: dynamic print date on front, logo + first published + printed + version on back
+- Fix Nukes meltdown discrepancy in Quick Reference (said surrounding destroyed; actually unaffected)
+- Nukes bumped to v0.9.5
+- Dungeon Chess: merged Cannon + Terrain sections (17→16 pages)
+- Paginator: tighter subheading gaps, print font-size fix for ordered lists
+- Landing page: reordered cards (Dungeon Chess first)
+- Regenerated all PDFs with updated covers and paginator
+- Refactored Nukes diagram generator: replaced eval() with proper require()
+
 #### 2026-06-02
+- Dungeon Chess: unit reference cards for all 24 units with per-species colour headers
+- Dungeon Chess: polished card styling, padding, terrain info, alignment
+- Back cover standardisation: logo, first published date, print date across all games
 - Moddable Chess: added 6 new variant pages (70 total) — Crazyhouse, Immunization, Medusa, Poison, Recruitment, Teleportation
 - All 70 variants renumbered alphabetically with SVG board diagrams
 - Moddable Chess rulebook version bumped to 0.4.0
@@ -192,20 +215,6 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 - Added `dist/rules-index.json` search index API (63 entries across published games)
 - Index built as part of `npm run build` and available standalone via `npm run index`
 - Serves as data source for moddable-website Rules Referee widget
-
-#### 2026-06-03
-- PDF covers unified: dynamic print date on front, logo + first published + printed + version on back
-- Fix Nukes meltdown discrepancy in Quick Reference (said surrounding destroyed; actually unaffected)
-- Nukes bumped to v0.9.5
-- Dungeon Chess: merged Cannon + Terrain sections (17→16 pages)
-- Paginator: tighter subheading gaps, print font-size fix for ordered lists
-- Landing page: reordered cards (Dungeon Chess first)
-- Regenerated all PDFs with updated covers and paginator
-
-#### 2026-06-02
-- Dungeon Chess: unit reference cards for all 24 units with per-species colour headers
-- Dungeon Chess: polished card styling, padding, terrain info, alignment
-- Back cover standardisation: logo, first published date, print date across all games
 
 #### 2026-05-26
 - Moddable Chess: added 19 new variant rulebook pages (39 total), organised into categories

@@ -1,6 +1,6 @@
 ---
 title: "Endless Skies — Official Rulebook"
-version: "0.2.0"
+version: "0.3.0"
 slug: "endless-skies"
 players: "2–8"
 duration: "TBD"
@@ -83,6 +83,160 @@ The galaxy is built from 91 hex system tiles (drawn from 113 total) arranged by 
 - Wormhole connections (types C, M, Y, K with range costs)
 
 Tiles are placed during setup according to faction regions — each faction's home territory is predetermined, with contested border regions placed by mutual agreement or randomly.
+
+### Setup Rules
+
+- 113 tiles total, 91 placed per game
+- Centre = 9th space port (shared)
+- Each faction: starting system + 10 adjacent tiles (excludes asteroid belt + port)
+- Asteroid belts and space ports unlocked during gameplay, not placed at setup
+- Remaining spaces filled randomly from all non-starting systems + 2 empty space hexes
+
+### Republic — Near Earth (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| NE01 | Sol | 0 | 0 | 1 | 9 | 5 | 25 | 0 | 1 | 0 | C1, M2, Y3, K4 |
+| NE02 | Orion (Asteroid Belt) | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| NE03 | Lovelace Labs (Space Port) | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | — |
+| NE04 | Vega | 2 | 0 | 3 | 2 | 2 | 5 | 0 | 1 | 2 | K1, Y2 |
+| NE05 | Sirius | 0 | 3 | 2 | 6 | 1 | 2 | 0 | 2 | 0 | M3 |
+| NE06 | Eteron | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | C4 |
+| NE07 | Denebola | 1 | 2 | 4 | 4 | 4 | 8 | 1 | 3 | 0 | M1 |
+| NE08 | Altair | 0 | 0 | 1 | 1 | 1 | 2 | 0 | 0 | 1 | Y1 |
+| NE09 | Alpha Centauri | 3 | 0 | 0 | 3 | 2 | 15 | 0 | 0 | 0 | C2, M1, Y2 |
+| NE10 | Porrima | 1 | 0 | 2 | 2 | 1 | 3 | 0 | 1 | 1 | — |
+| NE11 | Nocte | 2 | 3 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | — |
+| NE12 | Muphrid | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| NE13 | Regulus | 0 | 5 | 2 | 8 | 2 | 0 | 2 | 0 | 0 | — |
+
+### Alphas — Far North (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| — | Prime | 0 | 0 | 1 | 7 | 2 | 30 | 1 | 0 | 0 | C1, M2, Y3, K1 |
+| — | Rigel (Asteroid Belt) | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Megaparsec Inc (Space Port) | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | — |
+| — | Almaaz | 1 | 0 | 1 | 1 | 2 | 5 | 0 | 0 | 1 | M1, Y2, K3 |
+| — | Danoa | 0 | 0 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | C4 |
+| — | Cardax | 0 | 3 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Canopus | 2 | 0 | 3 | 2 | 1 | 5 | 1 | 2 | 0 | Y1 |
+| — | Alnitak | 1 | 3 | 3 | 3 | 4 | 5 | 2 | 0 | 1 | K2, M4 |
+| — | Elnath | 1 | 0 | 2 | 3 | 4 | 5 | 0 | 0 | 2 | — |
+| — | Mebsuta | 2 | 2 | 1 | 2 | 4 | 5 | 1 | 0 | 0 | C2 |
+| — | Nihal | 1 | 2 | 2 | 5 | 2 | 5 | 2 | 0 | 0 | — |
+| — | Phact | 1 | 5 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | K1 |
+| — | Ultima Thule | 0 | 0 | 2 | 3 | 0 | 0 | 2 | 0 | 0 | — |
+
+### Syndicate — The Core (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| — | Markab (Starting System) | 0 | 0 | 1 | 2 | 2 | 20 | 1 | 0 | 0 | C1, M2 |
+| — | Gamma Cassiopeiae (Asteroid Belt) | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Lionheart Industries (Space Port) | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | — |
+| — | Hamal | 1 | 0 | 3 | 1 | 0 | 0 | 1 | 0 | 2 | Y3 |
+| — | Kugel | 0 | 5 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | K4 |
+| — | Achernar | 2 | 3 | 3 | 2 | 2 | 10 | 1 | 0 | 2 | K1 |
+| — | Matar | 1 | 0 | 0 | 3 | 2 | 2 | 0 | 0 | 0 | Y2, M3 |
+| — | Menkar | 1 | 3 | 0 | 6 | 3 | 6 | 0 | 0 | 0 | — |
+| — | Moktar | 0 | 1 | 1 | 3 | 0 | 0 | 0 | 0 | 1 | M1 |
+| — | Persian | 1 | 0 | 1 | 3 | 0 | 0 | 0 | 0 | 1 | Y2 |
+| — | Polaris | 2 | 3 | 2 | 6 | 4 | 10 | 0 | 2 | 0 | — |
+| — | Sheratan | 0 | 0 | 3 | 2 | 4 | 4 | 1 | 1 | 1 | — |
+| — | Ruchbah | 1 | 0 | 1 | 1 | 1 | 8 | 0 | 1 | 0 | C2, M3, Y1, K2 |
+
+### Free Worlds — Dirt Belt (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| — | Dabih (Starting System) | 0 | 0 | 1 | 5 | 3 | 16 | 0 | 1 | 0 | M1, Y1 |
+| — | Alnasl (Asteroid Belt) | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Wyvern Station (Space Port) | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | — |
+| — | Alpha Arae | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | M2, Y4, K2 |
+| — | Alphecca | 1 | 1 | 3 | 5 | 2 | 10 | 1 | 2 | 0 | C2 |
+| — | Ascella | 2 | 5 | 3 | 2 | 2 | 10 | 0 | 1 | 2 | M4 |
+| — | Cor Caroli | 0 | 0 | 1 | 2 | 2 | 4 | 0 | 1 | 0 | C3 |
+| — | Delta Sagittarii | 2 | 1 | 3 | 4 | 3 | 8 | 1 | 2 | 0 | M2 |
+| — | Eltanin | 0 | 2 | 2 | 5 | 1 | 2 | 1 | 0 | 1 | C4, K4 |
+| — | Delta Velorum | 2 | 1 | 1 | 4 | 3 | 6 | 0 | 1 | 0 | — |
+| — | Gacrux | 2 | 5 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Fala | 0 | 0 | 1 | 3 | 2 | 4 | 0 | 0 | 1 | — |
+| — | Eber | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | — |
+
+### Pirates — The Rim (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| — | Alkaid (Starting System) | 0 | 0 | 1 | 4 | 1 | 2 | 1 | 0 | 0 | M2, Y3 |
+| — | Minkar (Asteroid Belt) | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Tarazed Corporation (Space Port) | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | — |
+| — | Acrux | 0 | 0 | 1 | 3 | 1 | 2 | 0 | 1 | 0 | — |
+| — | Gamma Corvi | 2 | 1 | 2 | 5 | 5 | 15 | 0 | 1 | 1 | K4 |
+| — | Spica | 1 | 2 | 1 | 4 | 3 | 8 | 0 | 0 | 1 | K1 |
+| — | Hadar | 1 | 2 | 2 | 3 | 2 | 7 | 1 | 1 | 0 | — |
+| — | Ildaria | 1 | 2 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | Y2 |
+| — | Kochab | 1 | 0 | 2 | 3 | 1 | 2 | 1 | 1 | 0 | M3 |
+| — | Kraz | 1 | 0 | 2 | 3 | 3 | 8 | 1 | 0 | 1 | C4 |
+| — | Zeta Centauri | 1 | 3 | 0 | 2 | 1 | 8 | 0 | 0 | 0 | — |
+| — | Mimosa | 0 | 0 | 2 | 4 | 2 | 8 | 0 | 2 | 0 | — |
+| — | Zubenelhakrabi | 1 | 5 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | C4, M3, Y2, K1 |
+
+### Remnant — Ember Waste (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| — | Arculus (Starting System) | 0 | 0 | 1 | 9 | 9 | 25 | 1 | 0 | 0 | — |
+| — | Caeculus (Asteroid Belt) | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Ssil Vida (Space Port) | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | C1, M1, Y1, K1 |
+| — | Postverta | 0 | 3 | 1 | 15 | 0 | 0 | 1 | 0 | 0 | C1, M1, Y1, K1 |
+| — | Peragenor | 1 | 1 | 1 | 0 | 1 | 2 | 0 | 1 | 0 | C1, M2 |
+| — | Vaticanus | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | M1, Y2 |
+| — | Statina | 2 | 3 | 1 | 0 | 1 | 3 | 0 | 0 | 1 | C2, Y1 |
+| — | Pantica | 2 | 4 | 3 | 5 | 3 | 15 | 0 | 1 | 2 | — |
+| — | Cinxia | 2 | 2 | 2 | 3 | 3 | 15 | 1 | 1 | 0 | — |
+| — | Convector | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | C2 |
+| — | Edusa | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | M2 |
+| — | Farinus | 0 | 0 | 2 | 0 | 0 | 0 | 2 | 0 | 0 | Y2 |
+| — | Insitor | 1 | 1 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | — |
+
+### Coalition — Paradise Planets (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| — | Talita (Starting System) | 0 | 0 | 1 | 5 | 3 | 15 | 0 | 0 | 1 | C4, M3, Y2, K1 |
+| — | Tejat (Asteroid Belt) | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — |
+| — | Betelgeuse (Space Port) | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | — |
+| — | Phurad | 0 | 3 | 2 | 4 | 3 | 10 | 0 | 1 | 1 | — |
+| — | Castor | 1 | 1 | 2 | 3 | 2 | 5 | 1 | 0 | 1 | M3 |
+| — | Capella | 2 | 1 | 1 | 3 | 1 | 3 | 1 | 0 | 0 | M1 |
+| — | Alphard | 2 | 4 | 2 | 3 | 2 | 5 | 0 | 1 | 1 | C3 |
+| — | Alhena | 1 | 3 | 1 | 7 | 2 | 2 | 1 | 0 | 0 | C1, K4 |
+| — | Aldebaran | 2 | 2 | 1 | 2 | 1 | 8 | 0 | 0 | 1 | M2, Y3 |
+| — | Kursa | 1 | 0 | 0 | 1 | 1 | 5 | 0 | 0 | 0 | C1, M2 |
+| — | Menkalinan | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | Y3 |
+| — | Phurad | 0 | 0 | 2 | 2 | 2 | 2 | 0 | 1 | 1 | K4 |
+| — | Pollux | 0 | 1 | 3 | 3 | 2 | 5 | 0 | 1 | 2 | — |
+
+### Wanderers — Wanderer Space (13 systems)
+
+| Code | Name | Ev | Disc | Val | Pla | Hab | Pop | Haz | Bio | Pre | Wormholes |
+|------|------|----|------|-----|-----|-----|-----|-----|-----|-----|-----------|
+| — | Ka'ch'chrai (Starting System) | 0 | 0 | 1 | 8 | 3 | 28 | 0 | 1 | 0 | M3, Y3 |
+| — | Varu Ek'lai'lai (Asteroid Belt) | 2 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | C2 |
+| — | Starlight (Space Port) | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | M1 |
+| — | Iyech'yek | 1 | 0 | 2 | 2 | 1 | 8 | 1 | 1 | 0 | Y2 |
+| — | Es'sprak'ai | 3 | 1 | 2 | 3 | 3 | 8 | 0 | 2 | 0 | Y1 |
+| — | Ap'arak | 1 | 3 | 2 | 7 | 4 | 6 | 0 | 0 | 2 | C4 |
+| — | Ek'kek'ru | 0 | 5 | 1 | 8 | 2 | 2 | 1 | 0 | 0 | Y4, K3 |
+| — | Prakacha'a | 1 | 3 | 1 | 0 | 1 | 2 | 0 | 0 | 1 | K2 |
+| — | Chy'chra | 1 | 0 | 2 | 1 | 1 | 1 | 2 | 0 | 0 | K1 |
+| — | Ka'pru | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 1 | 0 | — |
+| — | Kiro'ku | 1 | 1 | 1 | 1 | 2 | 2 | 1 | 0 | 0 | — |
+| — | Si'yak'ku | 0 | 1 | 1 | 2 | 1 | 1 | 0 | 0 | 1 | — |
+| — | Sko'karak | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | K4 |
+
+Column key: Ev = Events, Disc = Discoveries, Val = Value, Pla = Planets, Hab = Habitats, Pop = Population, Haz = Hazardous commodities, Bio = Biodegradable, Pre = Precious. Wormholes show type (C/M/Y/K) and range cost.
 
 </div>
 

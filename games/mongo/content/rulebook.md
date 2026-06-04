@@ -1,6 +1,6 @@
 ---
 title: "Planet Mongo — Official Rulebook"
-version: "0.9.0"
+version: "0.9.1"
 slug: "mongo"
 players: "2–8"
 duration: "120+ min"
@@ -557,5 +557,204 @@ The action phase includes the following steps conducted in order:
 
 Full details of the Action Phase steps (Events, Voting, Trade/Market, Rewards, Progress, Regroup) are being finalised during playtesting. The Central Market pricing system, Innovation Card effects, and Victory Conditions will be documented in supplementary materials.
 </div>
+
+</div>
+
+<div class="section">
+<div class="eyebrow">The Map</div>
+
+## Tiles
+
+There are 127 hex tiles across 9 biome types. Each tile has a population value, commodity yields, and some have special abilities. City tiles are faction home territories.
+
+Commodity key: Pop = Population, Ice, Wtr = Water, Fod = Food, Wod = Wood, Stn = Stone, Mtl = Metal, Nrg = Energy, Gem = Gems.
+
+### Central Market
+
+| ID | Name | Biome | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| X01 | Central Market | Market | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | Can always trade with anyone. Add two to initiative whilst in control |
+
+### Mountain (14 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C01 | Ming's Palace ★ | 2 | 1 | 1 | 0 | 3 | 4 | 1 | 2 | 1 | Always has Factory |
+| M01 | Mount Magnet | 8 | 0 | 0 | 0 | 8 | 1 | 1 | 0 | 0 | |
+| M02 | Magnetic Range | 8 | 0 | 0 | 0 | 8 | 1 | 1 | 0 | 0 | |
+| M03 | Glacial Mountains | 8 | 3 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| M04 | Mountain Peaks | 8 | 0 | 1 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| M05 | Mingo Mountains | 8 | 0 | 1 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| M06 | Mount Mingo | 1 | 3 | 1 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| M07 | Radiance City | 15 | 0 | 3 | 0 | 8 | 1 | 0 | 1 | 1 | |
+| M08 | Mingo City | 20 | 0 | 2 | 0 | 8 | 5 | 0 | 1 | 0 | |
+| M09 | Twin Peaks | 8 | 2 | 0 | 0 | 8 | 4 | 0 | 0 | 1 | |
+| M10 | Lagoo | 3 | 0 | 5 | 5 | 1 | 0 | 0 | 1 | 0 | |
+| M11 | Geothermal Caverns | 3 | 0 | 3 | 0 | 8 | 1 | 0 | 1 | 0 | |
+| M12 | Razors Edge | 3 | 0 | 0 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| M13 | The Colossus | 3 | 0 | 3 | 1 | 8 | 5 | 0 | 0 | 0 | Add two to morale whilst in control |
+| M14 | Abandoned Quarry ★ | 5 | 0 | 0 | 0 | 8 | 5 | 0 | 0 | 0 | |
+
+★ = City (Magneticans)
+
+### Submerged (8 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C03 | Undina's Palace ★ | 9 | 0 | 1 | 1 | 8 | 1 | 1 | 3 | 3 | Always has Factory. Not connected to other Submerged Tiles |
+| S01 | Shark City | 5 | 0 | 0 | 5 | 8 | 0 | 5 | 0 | 0 | Draw 2 Event Card (ignore one) when Gaining Control |
+| S02 | Eel Alley | 5 | 0 | 0 | 0 | 8 | 0 | 0 | 5 | 0 | |
+| S03 | Odds City | 5 | 0 | 2 | 1 | 8 | 4 | 8 | 1 | 0 | |
+| S04 | Clam Kingdom | 10 | 0 | 0 | 8 | 8 | 5 | 0 | 0 | 0 | |
+| S05 | Under Trenches | 10 | 0 | 5 | 8 | 8 | 0 | 1 | 1 | 0 | Draw an Innovation Card when gaining Control |
+| S06 | The Deep | 5 | 0 | 0 | 0 | 8 | 0 | 0 | 5 | 0 | |
+| S07 | Kraken Keep | 5 | 0 | 0 | 5 | 8 | 0 | 2 | 1 | 0 | |
+| S08 | Pearl Ruins ★ | 10 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 3 | |
+
+★ = City (Coralians)
+
+### Jungle (6 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C06 | Desira's Palace ★ | 19 | 0 | 2 | 2 | 1 | 0 | 0 | 1 | 0 | Always has Factory |
+| J01 | Beatrix | 22 | 0 | 2 | 6 | 1 | 1 | 1 | 0 | 0 | |
+| J02 | Palace City | 15 | 0 | 5 | 3 | 2 | 1 | 0 | 0 | 1 | |
+| J03 | Waterlog | 13 | 0 | 3 | 5 | 2 | 2 | 1 | 1 | 0 | |
+| J04 | Barin's Fortress | 5 | 0 | 5 | 3 | 2 | 1 | 1 | 1 | 0 | |
+| J05 | Mokoko | 10 | 0 | 5 | 3 | 1 | 1 | 3 | 1 | 0 | |
+| J06 | The Lost Land ★ | 8 | 0 | 0 | 0 | 3 | 1 | 0 | 0 | 0 | |
+
+★ = City (Tropicans)
+
+### Volcanic (7 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C05 | Fortress of Gundar ★ | 8 | 0 | 0 | 1 | 1 | 1 | 2 | 2 | 0 | Always has Factory |
+| V01 | Land of The Dead | 5 | 0 | 3 | 0 | 2 | 0 | 0 | 0 | 0 | |
+| V02 | Fire Caves | 10 | 0 | 18 | 2 | 8 | 5 | 1 | 1 | 1 | |
+| V03 | Boil Lake | 10 | 0 | 8 | 2 | 3 | 1 | 0 | 0 | 0 | |
+| V04 | Volcano | 8 | 0 | 0 | 0 | 8 | 2 | 1 | 1 | 0 | |
+| V05 | Fiesta World | 5 | 0 | 0 | 1 | 1 | 1 | 0 | 1 | 0 | |
+| V06 | Firelands | 5 | 0 | 0 | 1 | 8 | 1 | 0 | 1 | 1 | |
+| V07 | Lava Pits ★ | 3 | 0 | 0 | 0 | 8 | 0 | 5 | 0 | 0 | |
+
+★ = City (Volcanians)
+
+### Woodland (8 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C02 | Barin's Palace ★ | 16 | 0 | 2 | 2 | 2 | 1 | 0 | 1 | 0 | Always has Factory |
+| F01 | Arboria | 10 | 0 | 5 | 3 | 3 | 2 | 0 | 0 | 0 | |
+| F02 | Valor Palace | 5 | 0 | 3 | 3 | 1 | 2 | 1 | 0 | 0 | |
+| F03 | Alvin Palace | 5 | 0 | 3 | 3 | 2 | 1 | 0 | 0 | 0 | |
+| F04 | Vale Valley | 5 | 0 | 3 | 3 | 2 | 3 | 0 | 1 | 0 | |
+| F05 | Bodkins | 10 | 0 | 2 | 1 | 3 | 1 | 0 | 0 | 0 | |
+| F06 | Cascades | 10 | 0 | 2 | 5 | 1 | 1 | 0 | 0 | 0 | |
+| F07 | Oakrand | 5 | 0 | 2 | 1 | 3 | 0 | 0 | 0 | 0 | |
+| F08 | Dense Forest ★ | 5 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | |
+
+★ = City (Arborians)
+
+### Desert (9 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C07 | Jugrid's City ★ | 10 | 0 | 1 | 1 | 1 | 1 | 4 | 0 | 1 | Always has Factory |
+| D01 | Great Mongo Desert | 3 | 0 | 0 | 1 | 8 | 2 | 1 | 0 | 0 | |
+| D02 | Fiery Desert | 3 | 0 | 0 | 1 | 8 | 0 | 1 | 0 | 0 | |
+| D03 | Desert Oasis | 10 | 0 | 18 | 5 | 8 | 0 | 0 | 0 | 0 | |
+| D04 | Ruins of Vitrusio | 3 | 0 | 1 | 0 | 8 | 1 | 0 | 0 | 1 | |
+| D05 | Pocosha | 10 | 0 | 3 | 2 | 2 | 0 | 0 | 0 | 0 | |
+| D06 | Pokenaria | 8 | 0 | 3 | 2 | 1 | 0 | 0 | 0 | 0 | |
+| D07 | Burned Mountain | 3 | 0 | 0 | 0 | 8 | 5 | 1 | 0 | 1 | |
+| D08 | Camellot | 5 | 0 | 8 | 1 | 8 | 1 | 3 | 0 | 1 | |
+| D09 | Desert Glacier ★ | 5 | 0 | 0 | 0 | 8 | 0 | 0 | 2 | 0 | |
+
+★ = City (Lionmen)
+
+### Glacial (24 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C04 | Fria's Palace ★ | 4 | 5 | 7 | 2 | 8 | 1 | 1 | 3 | 2 | Always has Factory |
+| G01 | Prince Naquil's Palace | 10 | 2 | 3 | 1 | 8 | 0 | 0 | 1 | 1 | |
+| G02 | Naquilni Glacier | 8 | 3 | 1 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G03 | Naquilni Flats | 8 | 2 | 1 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G04 | Naquilni Downs | 8 | 2 | 3 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| G05 | Naquilni Plateau | 8 | 3 | 1 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| G06 | Naquilni Hollowridge | 3 | 1 | 1 | 0 | 8 | 0 | 0 | 1 | 0 | |
+| G07 | Naquilni Peaks | 3 | 2 | 1 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G08 | Naquilni Valley | 5 | 2 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | |
+| G09 | Frigian Glacier | 8 | 3 | 1 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G10 | Frigian Falls | 8 | 2 | 7 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G11 | Frigian Caves | 7 | 2 | 3 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| G12 | Frigian Plateau | 8 | 3 | 1 | 0 | 8 | 0 | 0 | 1 | 0 | |
+| G13 | Frigian Hedgerings | 3 | 1 | 1 | 0 | 8 | 0 | 0 | 1 | 0 | |
+| G14 | Frigian Peaks | 8 | 2 | 1 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| G15 | Frigian Valley | 8 | 2 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | |
+| G16 | Frozen Lakes | 8 | 2 | 2 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G17 | Abandoned Caves | 8 | 0 | 1 | 0 | 8 | 3 | 0 | 0 | 0 | |
+| G18 | Sink Hole | 1 | 1 | 5 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G19 | Frost Fork | 8 | 2 | 1 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G20 | Frian Caves | 6 | 2 | 1 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| G21 | Frian Plateau | 8 | 2 | 1 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| G22 | Frian Valley | 5 | 2 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | |
+| G23 | Crystal City | 12 | 0 | 3 | 3 | 1 | 8 | 0 | 2 | 0 | |
+| G24 | Frozen Wastelands ★ | 8 | 5 | 1 | 0 | 8 | 0 | 0 | 0 | 0 | |
+
+★ = City (Frigians)
+
+### Oceanic (43 tiles)
+
+| ID | Name | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Special |
+|----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| W01 | Sea of Mystery | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W02 | The Swirling Sea | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W03 | The Unknown Sea | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W04 | Mongo Ocean | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W05 | Mingo Coves | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W06 | Coral Sea | 8 | 0 | 0 | 1 | 8 | 1 | 0 | 0 | 0 | |
+| W07 | Mysterious Island | 5 | 0 | 3 | 1 | 8 | 0 | 2 | 0 | 0 | |
+| W08 | Isles of Mystery | 2 | 0 | 1 | 1 | 8 | 0 | 2 | 0 | 0 | |
+| W09 | Unknown Island | 3 | 0 | 3 | 1 | 1 | 4 | 0 | 0 | 0 | |
+| W10 | Isles of Unknown | 3 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | |
+| W11 | Mongo Island | 15 | 0 | 5 | 2 | 1 | 0 | 0 | 0 | 0 | |
+| W12 | Isles of Mongo | 10 | 0 | 3 | 1 | 1 | 0 | 0 | 0 | 0 | |
+| W13 | Mingo Island | 10 | 0 | 3 | 3 | 2 | 0 | 0 | 0 | 0 | |
+| W14 | Isles of Mingo | 5 | 0 | 2 | 2 | 1 | 0 | 0 | 0 | 0 | |
+| W15 | Coral Island | 5 | 0 | 1 | 1 | 8 | 1 | 0 | 0 | 0 | |
+| W16 | Isles of Coral | 1 | 0 | 1 | 1 | 8 | 1 | 0 | 0 | 0 | |
+| W17 | Mystery Crags | 8 | 0 | 0 | 1 | 8 | 1 | 0 | 0 | 0 | |
+| W18 | Unknown Crags | 8 | 0 | 0 | 1 | 8 | 1 | 0 | 0 | 0 | |
+| W19 | Coral Crags | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W20 | Pirates Cove | 1 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W21 | Tidal Tip | 8 | 0 | 0 | 2 | 8 | 1 | 1 | 0 | 0 | |
+| W22 | Coral Reef | 8 | 0 | 0 | 0 | 8 | 1 | 0 | 0 | 0 | |
+| W23 | Mystery Straights | 8 | 0 | 0 | 2 | 8 | 1 | 0 | 0 | 0 | |
+| W24 | Swirled Straights | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W25 | Unknown Straights | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W26 | Mongo Straights | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W27 | Mingo Straights | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W28 | Coral Straights | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W29 | Mystery Channel | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W30 | Swirled Channel | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W31 | Unknown Channel | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W32 | Mongo Channel | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W33 | Mingo Channel | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W34 | Coral Channel | 8 | 0 | 0 | 1 | 8 | 0 | 0 | 0 | 0 | |
+| W35 | Atlantica | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W36 | Pacifica | 8 | 0 | 0 | 2 | 8 | 0 | 0 | 0 | 0 | |
+| W37 | Pirate Reef | 8 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | |
+| W38 | Bermudian Bubbles | 8 | 0 | 0 | 0 | 8 | 0 | 1 | 0 | 0 | |
+| W39 | Pirate Cave | 3 | 0 | 3 | 0 | 8 | 0 | 0 | 0 | 0 | |
+| W40 | Pearl Cove | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 1 | |
+| W41 | Pearly Straights | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 2 | |
+| W42 | Oyster Straights ★ | 8 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 3 | |
+| W43 | Vultan's Roost ★ | 5 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 | |
+
+★ = City (Hawkmen)
 
 </div>
