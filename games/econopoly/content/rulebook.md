@@ -165,3 +165,91 @@ When the game is in the final round, it ends when any player passes GO. The game
 At this end, the player with the most victory points (VP) wins. In a tie, the most cash wins.
 
 </div>
+
+<div class="section">
+<div class="eyebrow">The Event Deck</div>
+
+## Event Cards
+
+54 cards total (standard deck + 2 jokers). Three events are active at any time. Events are replaced when a player lands on Community Chest or a Utility.
+
+### Financial Events (Diamonds)
+
+| Card | Type | Effect |
+|------|------|--------|
+| 2D | Contract | 1 VP for every mortgaged property owned when passing GO |
+| 3D | Contract | 1 VP for every largest denomination spent when passing GO |
+| 4D | Contract | 3 VP for every event someone removes or replaces |
+| 5D | Contract | 5 VP for going bankrupt |
+| 6D | Contract | 5 VP for bankrupting someone |
+| 7D | Contract | Gain one resource when passing GO |
+| 8D | Contract | Gain one resource when other players pass GO |
+| 9D | Contract | Gain one resource after anyone builds a hotel |
+| 10D | CRISIS | All cash belonging to all players goes back to bank |
+| JD | Stock Markets | Cannot use cash for construction unless markets permit |
+| QD | Stock Markets | Houses are half price but hotels are double price |
+| KD | Stock Markets | Hotels are half price but houses are double price |
+| AD | Stock Markets | Everyone without hotels gets double for passing GO |
+
+### Transportation Events (Clubs)
+
+| Card | Type | Effect |
+|------|------|--------|
+| 2C | Contract | 1 VP for delivering two linked resources |
+| 3C | Contract | 2 VP for delivering three linked resources |
+| 4C | Contract | 3 VP for delivering five linked resources |
+| 5C | Contract | 5 VP for delivering matched groups |
+| 6C | Contract | 5 VP for delivering organized groups |
+| 7C | Contract | 3 VP for delivering two sets of two linked resources |
+| 8C | Contract | 5 VP for delivering three sets of two linked resources |
+| 9C | Contract | 5 VP for delivering two sets of three linked resources |
+| 10C | CRISIS | Each station owner pays x10 passing GO or goes to Jail |
+| JC | Transportation | Stations can only be used to ride if transportation permits |
+| QC | Transportation | Stations cannot be used for deliveries |
+| KC | Transportation | Free parking does not exist |
+| AC | Transportation | Stations can be used freely to ride |
+
+### Residential Events (Hearts)
+
+| Card | Type | Effect |
+|------|------|--------|
+| 2H | Contract | 1 VP for every other player's hotels when passing GO |
+| 3H | Contract | 1 VP for every other player's mortgages when passing GO |
+| 4H | Contract | 3 VP for landing on GO |
+| 5H | Contract | 1 VP every time another player goes to jail |
+| 6H | Contract | 1 VP for every area with one house when passing GO |
+| 7H | Contract | 3 VP for every area with one house on each land when passing GO |
+| 8H | Contract | 5 VP for a player with one hotel only when passing GO |
+| 9H | Contract | 5 VP for a player with one house only when passing GO |
+| 10H | CRISIS | All hotels should be returned to the bank |
+| JH | Town Hall | All train stations go back on the market / cannot be owned |
+| QH | Town Hall | Jail costs x10 usual to escape |
+| KH | Town Hall | Free parking costs 2x the price of passing GO to enter, or go to jail |
+| AH | Town Hall | Passing GO costs the price of passing GO, or go to Jail |
+
+### Construction Events (Spades)
+
+| Card | Type | Effect |
+|------|------|--------|
+| 2S | Contract | 1 VP for each house built |
+| 3S | Contract | 1 VP for each hotel built |
+| 4S | Contract | 3 VP for each hotel built |
+| 5S | Contract | 5 VP for each hotel built in areas without houses |
+| 6S | Contract | 1 VP for every house obtained without using cash |
+| 7S | Contract | 3 VP for every hotel obtained without using cash |
+| 8S | Contract | 1 VP for every utility owned when passing GO |
+| 9S | Contract | 3 VP for owning both utilities when passing GO |
+| 10S | CRISIS | All houses should be returned to the bank |
+| JS | Planning | Can build regardless of whether complete set or not |
+| QS | Planning | Housing need not be even |
+| KS | Planning | Can only build hotels if planning permission permits |
+| AS | Planning | Build hotels without needing houses first |
+
+### Jokers
+
+| Card | Effect |
+|------|--------|
+| Joker 1 | Utilities are worth 10x the usual price when landing on them |
+| Joker 2 | CRISIS — Return all utilities to the bank |
+
+</div>
