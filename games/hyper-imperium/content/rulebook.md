@@ -248,11 +248,47 @@ We have also developed two of our own factions specifically tailored to Hyper Im
 
 We have taken inspiration for these from an up-coming game we are developing, which is based upon the open source space exploration video game called Endless Sky.
 
-<div class="highlight">
-<div class="box-title">In Development</div>
+### The Wanderers (100 points)
 
-Full faction sheets for The Remnant and The Wanderers are in development.
-</div>
+| Ability | Cost |
+|---------|------|
+| 1 Planet | 15 |
+| Commodities 1 | 3 |
+| Resources 2 | 4 |
+| Influence 3 | 6 |
+| Tech — Antimass Deflectors | 8 |
+| Flagship — Yamma Wormhole | 20 |
+| Fighter — Anti-Fighter 9 | 2 |
+| Fighter — Bombard 8 | 2 |
+| Mech — Cost -1 | 5 |
+| Note — Use tech prerequisite | 15 |
+| Agent — Explore | 5 |
+| Commander — Anomaly Defend | 5 |
+| Hero — Secret Reveals | 10 |
+| **Total** | **100** |
+
+### The Remnant (100 points)
+
+| Ability | Cost |
+|---------|------|
+| 3 Planets | 5 |
+| Commodities 4 | 12 |
+| Resources 2 | 4 |
+| Resources 1 | 2 |
+| Resources 0 | 0 |
+| Influence 1 | 2 |
+| Influence 0 | 0 |
+| Influence 2 | 4 |
+| Tech — Dark Energy Tap | 8 |
+| Flagship — Moves through Hyperlanes | 20 |
+| Infantry — Combat +1 | 1 |
+| Infantry — Cannon 9 | 2 |
+| Mech — Combat +1 | 10 |
+| Note — Take from Fleet | 5 |
+| Agent — Commodities | 10 |
+| Commander — Anomaly Attack | 10 |
+| Hero — Take Commodities | 5 |
+| **Total** | **100** |
 
 </div>
 
