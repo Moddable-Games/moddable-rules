@@ -252,7 +252,7 @@ There are eight asymmetric factions, each with unique starting credits, technolo
 | Republic | Near Earth | Sol | 500K | Human |
 | Alphas | Far North | Prime | 300K/player | Human + Core |
 | Syndicate | The Core | Markab | 2M | Human + Core |
-| Free Worlds | Dirt Belt | Alkaid | 200K/player | Human + Coalition |
+| Free Worlds | Dirt Belt | Dabih | 200K/player | Human + Coalition |
 | Pirates | The Rim | (any) | 100K/player | Any (in play) |
 | Remnant | Ember Wastes | Arculus | 1M | Remnant + Wanderers |
 | Coalition | Paradise | Talita | 1.5M | Coalition + Human |
@@ -286,6 +286,67 @@ Each ship has an individual Ship Sheet tracking:
 
 There are 30 playable ship types across 5 technology trees (Human, Core, Coalition, Remnant, Wanderer).
 
+### Coalition Ships (4)
+
+| Class | Name | Cost | Crew | Bunks | Cargo | Shields | Hull | Outfit Cap | Fuel | Turrets | Guns |
+|-------|------|------|------|-------|-------|---------|------|------------|------|---------|------|
+| Freighter | Arach Courier | 1M | 1 | 1 | 2 | 1 | 1 | 3 | 3 | 0 | 2 |
+| Transport | Kimek Thorn | 1M | 1 | 10 | 1 | 2 | 2 | 4 | 6 | 0 | 2 |
+| Freighter | Arach Hulk | 3M | 5 | 5 | 6 | 5 | 5 | 21 | 5 | 4 | 2 |
+| Transport | Saryd Visitor | 3M | 3 | 10 | 3 | 4 | 4 | 8 | 4 | 1 | 2 |
+
+### Core Ships (6)
+
+| Class | Name | Cost | Crew | Bunks | Cargo | Shields | Hull | Outfit Cap | Fuel | Turrets | Guns |
+|-------|------|------|------|-------|-------|---------|------|------------|------|---------|------|
+| Transport | Shuttle | 0.3M | 1 | 5 | 1 | 5 | 5 | 1 | 4 | 0 | 1 |
+| Freighter | Clipper | 0.6M | 3 | 5 | 2 | 3 | 3 | 6 | 5 | 0 | 4 |
+| Freighter | Container Transporter | 1.5M | 3 | 10 | 5 | 3 | 3 | 18 | 6 | 5 | 2 |
+| Transport | Blackbird | 3M | 3 | 10 | 2 | 4 | 4 | 9 | 7 | 2 | 1 |
+| Warship | Rainmaker | 3M | 3 | 5 | 1 | 4 | 4 | 7 | 5 | 0 | 6 |
+| Warship | Firebird | 5M | 5 | 10 | 1 | 6 | 6 | 16 | 4 | 2 | 4 |
+
+### Human Ships (8)
+
+| Class | Name | Cost | Crew | Bunks | Cargo | Shields | Hull | Outfit Cap | Fuel | Turrets | Guns |
+|-------|------|------|------|-------|-------|---------|------|------------|------|---------|------|
+| Fighter | Finch | 0.2M | 1 | 1 | 0 | 1 | 1 | 2 | 0 | 0 | 2 |
+| Fighter | Dropship | 0.3M | 1 | 5 | 1 | 2 | 2 | 2 | 0 | 0 | 2 |
+| Freighter | Star Barge | 0.4M | 1 | 3 | 2 | 1 | 1 | 2 | 3 | 1 | 0 |
+| Transport | Flivver | 0.4M | 1 | 3 | 1 | 2 | 2 | 2 | 5 | 0 | 2 |
+| Transport | Bounder | 1.5M | 1 | 10 | 1 | 2 | 2 | 5 | 8 | 2 | 1 |
+| Warship | Headhunter | 2M | 3 | 3 | 2 | 4 | 4 | 6 | 4 | 1 | 4 |
+| Freighter | Behemoth | 2.5M | 5 | 10 | 5 | 8 | 8 | 2 | 6 | 6 | 2 |
+| Warship | Dreadnaught | 10M | 5 | 10 | 3 | 18 | 18 | 3 | 6 | 4 | 4 |
+
+### Remnant Ships (8)
+
+| Class | Name | Cost | Crew | Bunks | Cargo | Shields | Hull | Outfit Cap | Fuel | Turrets | Guns |
+|-------|------|------|------|-------|-------|---------|------|------------|------|---------|------|
+| Transport | Puffin | 0.2M | 1 | 1 | 1 | 1 | 1 | 0 | 7 | 0 | 1 |
+| Fighter | Petrel | 0.4M | 1 | 3 | 1 | 1 | 1 | 3 | 1 | 1 | 2 |
+| Fighter | Smew | 0.5M | 1 | 5 | 2 | 2 | 2 | 1 | 1 | 0 | 1 |
+| Transport | Penguin | 0.5M | 1 | 3 | 1 | 3 | 3 | 3 | 8 | 1 | 1 |
+| Freighter | Gull | 1M | 3 | 10 | 3 | 6 | 6 | 8 | 6 | 1 | 3 |
+| Freighter | Pelican | 2M | 5 | 10 | 4 | 10 | 10 | 15 | 6 | 3 | 2 |
+| Warship | Starling | 4M | 3 | 5 | 1 | 10 | 10 | 9 | 9 | 1 | 5 |
+| Warship | Albatross | 12M | 5 | 10 | 3 | 35 | 35 | 23 | 6 | 5 | 7 |
+
+### Wanderer Ships (4)
+
+| Class | Name | Cost | Crew | Bunks | Cargo | Shields | Hull | Outfit Cap | Fuel | Turrets | Guns |
+|-------|------|------|------|-------|-------|---------|------|------------|------|---------|------|
+| Freighter | Earth Shaper | 0.3M | 1 | 1 | 1 | 1 | 1 | 1 | 3 | 0 | 1 |
+| Freighter | Deep River | 5M | 3 | 10 | 10 | 17 | 17 | 17 | 5 | 0 | 6 |
+| Warship | Summer Leaf | 8M | 3 | 10 | 1 | 15 | 15 | 8 | 8 | 0 | 2 |
+| Warship | Derecho | 15M | 5 | 10 | 2 | 50 | 50 | 34 | 8 | 4 | 4 |
+
+### NPC Ships
+
+| Class | Name | Cost | Faction | Crew | Bunks | Cargo | Shields | Outfit Cap | Fuel | Turrets | Guns |
+|-------|------|------|---------|------|-------|-------|---------|------------|------|---------|------|
+| Warship | Maeri | 10M | Kahet | 1 | 1 | 4 | 17 | 30 | 8 | 4 | 2 |
+
 </div>
 
 <div class="section">
@@ -304,20 +365,195 @@ Each ship has rooms where crew meeples are placed to activate abilities:
 
 Placing a meeple in a room activates that ability for the round. Legends (experienced crew) may have enhanced versions of abilities.
 
-## Space Port Rooms
+### Ship Board Layout
 
-Each faction's home space port has 8 rooms where diplomat meeples are placed in initiative order:
+Every ship board has:
+- **Shield/Hull tracks** (0–9, damage values: 10, 20, 30, 40, 50, 50, 40, 30, 20, 10)
+- **Bunk slots** for crew meeples
+- **Cargo slots**
+- **Turret and Gun mount indicators**
+- **Storage slot** (for outfits/cargo overflow)
 
-1. Galley
-2. Marketplace
-3. Guild
-4. Transporter
-5. Lower Decks
-6. Upper Decks
-7. Promenade
-8. Shipyard
+Room allocation depends on ship size:
+- **Fighters/Transports/Freighters (small)**: Bridge + Storage Bay only
+- **Warships/Freighters (large)**: Bridge + Engine Room + Battlestations + Storage Bay
 
-Space port rooms provide faction-wide benefits — recruiting crew, purchasing ships, trading commodities, and gaining intelligence.
+### Ship Board Specs
+
+| Ship | Faction | Rooms | Turrets | Guns | Board Status |
+|------|---------|-------|---------|------|--------------|
+| Finch | Human | Bridge, Storage | 0 | 2 | Defined |
+| Dropship | Human | Bridge, Storage | 0 | 2 | Defined |
+| Star Barge | Human | — | 1 | 0 | Missing |
+| Flivver | Human | — | 0 | 2 | Missing |
+| Bounder | Human | — | 2 | 1 | Missing |
+| Headhunter | Human | — | 1 | 4 | Missing |
+| Behemoth | Human | — | 6 | 2 | Missing |
+| Dreadnaught | Human | — | 4 | 4 | Missing |
+| Petrel | Remnant | Bridge, Storage | 1 | 2 | Defined |
+| Puffin | Remnant | — | 0 | 1 | Missing |
+| Smew | Remnant | — | 0 | 1 | Missing |
+| Penguin | Remnant | — | 1 | 1 | Missing |
+| Gull | Remnant | — | 1 | 3 | Missing |
+| Pelican | Remnant | — | 3 | 2 | Missing |
+| Starling | Remnant | — | 1 | 5 | Missing |
+| Albatross | Remnant | Bridge, Engine, Battlestations, Storage | 5 | 7 | Defined |
+| Shuttle | Core | — | 0 | 1 | Missing |
+| Clipper | Core | — | 0 | 4 | Missing |
+| Container Transporter | Core | — | 5 | 2 | Missing |
+| Blackbird | Core | — | 2 | 1 | Missing |
+| Rainmaker | Core | — | 0 | 6 | Missing |
+| Firebird | Core | — | 2 | 4 | Missing |
+| Arach Courier | Coalition | — | 0 | 2 | Missing |
+| Kimek Thorn | Coalition | — | 0 | 2 | Missing |
+| Arach Hulk | Coalition | — | 4 | 2 | Missing |
+| Saryd Visitor | Coalition | — | 1 | 2 | Missing |
+| Earth Shaper | Wanderers | — | 0 | 1 | Missing |
+| Deep River | Wanderers | — | 0 | 6 | Missing |
+| Summer Leaf | Wanderers | — | 0 | 2 | Missing |
+| Derecho | Wanderers | — | 4 | 4 | Missing |
+| Maeri (NPC) | Kahet | Bridge, Engine, Battlestations, Storage | 4 | 2 | Defined |
+
+4 of 31 ship boards defined. 27 remaining.
+
+## Space Port Boards
+
+There are 9 space ports, each with 8 rooms. Diplomats are placed in initiative order. Each room has a player-count requirement (3/4, 5/6, or 7/8 players needed to unlock), an initiative slot, an action, and an income value. Ports also provide Blueprint purchase slots and Contract/Mission slots.
+
+### Lovelace Labs — Republic (Initiative #1)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Galley | 100K | 300K, 200K, 100K |
+| #2 | Marketplace | 200K | |
+| #3 | Guild | 300K | |
+| #4 | Transporter | 400K | |
+| #5 | Lower Decks | 500K | |
+| #6 | Upper Decks | 600K | |
+| #7 | Promenade | 700K | |
+| #8 | Shipyard | 800K | |
+
+Contracts: 2 Public, 1 Secret Mission (400K)
+
+### Lionheart Industries — Syndicate (Initiative #2)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Construct | 100K | 300K, 200K, 100K |
+| #2 | Trade | 200K | |
+| #3 | Spy | 300K | |
+| #4 | Transport | 400K | |
+| #5 | Sabotage | 500K | |
+| #6 | Upgrade | 600K | |
+| #7 | Promote | 700K | |
+| #8 | Propose | 800K | |
+
+Contracts: 0 Public, 2 Secret Missions (200K each)
+
+### Tarazed Corporation — Pirates (Initiative #3)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Propose | 0 | 200K, 200K, 200K |
+| #2 | Trade | 200K | |
+| #3 | Spy | 400K | |
+| #4 | Transport | 600K | |
+| #5 | Sabotage | 600K | |
+| #6 | Upgrade | 400K | |
+| #7 | Promote | 200K | |
+| #8 | Construct | 0 | |
+
+Contracts: 0 Public, 3 Secret Missions (100K each)
+
+### Megaparsec Inc — Alphas (Initiative #4)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Promote | -1M | FREE, FREE, FREE |
+| #2 | Trade | -900K | |
+| #3 | Spy | -800K | |
+| #4 | Transport | -700K | |
+| #5 | Sabotage | -600K | |
+| #6 | Upgrade | -500K | |
+| #7 | Propose | -400K | |
+| #8 | Construct | -300K | |
+
+Contracts: 2 Public, 1 Secret Mission (FREE)
+
+### Wyvern Station — Free Worlds (Initiative #5)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Promote | -1M | FREE, FREE, FREE |
+| #2 | Trade | -900K | |
+| #3 | Spy | -800K | |
+| #4 | Transport | -700K | |
+| #5 | Sabotage | -600K | |
+| #6 | Upgrade | -500K | |
+| #7 | Propose | -400K | |
+| #8 | Construct | -300K | |
+
+Contracts: 2 Public, 1 Secret Mission (FREE)
+
+### Ssil Vida — Remnant (Initiative #6)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Promote | -1M | FREE, FREE, FREE |
+| #2 | Trade | -900K | |
+| #3 | Spy | -800K | |
+| #4 | Transport | -700K | |
+| #5 | Sabotage | -600K | |
+| #6 | Upgrade | -500K | |
+| #7 | Propose | -400K | |
+| #8 | Construct | -300K | |
+
+Contracts: 2 Public, 1 Secret Mission (FREE)
+
+### Betelgeuse — Coalition (Initiative #7)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Promote | -1M | FREE, FREE, FREE |
+| #2 | Trade | -900K | |
+| #3 | Spy | -800K | |
+| #4 | Transport | -700K | |
+| #5 | Sabotage | -600K | |
+| #6 | Upgrade | -500K | |
+| #7 | Propose | -400K | |
+| #8 | Construct | -300K | |
+
+Contracts: 2 Public, 1 Secret Mission (FREE)
+
+### Starlight — Wanderers (Initiative #8)
+
+| Slot | Action | Income | Blueprint Costs |
+|------|--------|--------|-----------------|
+| #1 | Promote | -1M | FREE, FREE, FREE |
+| #2 | Trade | -900K | |
+| #3 | Spy | -800K | |
+| #4 | Transport | -700K | |
+| #5 | Sabotage | -600K | |
+| #6 | Upgrade | -500K | |
+| #7 | Propose | -400K | |
+| #8 | Construct | -300K | |
+
+Contracts: 2 Public, 1 Secret Mission (FREE)
+
+### Kraken Station — Shared (Initiative #9)
+
+| Slot | Action | Income (2P) | Income (4P) | Income (6P) | Income (8P) | Blueprint Costs |
+|------|--------|-------------|-------------|-------------|-------------|-----------------|
+| #1 | Galley | 100K | -100K | -300K | -500K | 200K, 100K, FREE |
+| #2 | Marketplace | 200K | 0 | -200K | -400K | |
+| #3 | Guild | 300K | 100K | -100K | -300K | |
+| #4 | Transporter | 400K | 200K | 0 | -200K | |
+| #5 | Lower Decks | 500K | 300K | 100K | -100K | |
+| #6 | Upper Decks | 600K | 400K | 200K | 0 | |
+| #7 | Promenade | 700K | 500K | 300K | 100K | |
+| #8 | Shipyard | 800K | 600K | 400K | 200K | |
+
+Contracts: 2 Public, 1 Secret Mission (500K)
 
 </div>
 
@@ -437,13 +673,83 @@ Ships can be upgraded with outfits from Blueprint cards across 5 technology tree
 - **Remnant** — ancient recovered technology
 - **Wanderer** — biological / organic systems
 
-Outfits are installed via the Storage Bay room (Upgrade action). Each ship has limited outfit capacity based on its class and cargo space.
+Outfits are installed via the Storage Bay room (Upgrade action). Each ship has limited outfit capacity based on its class and cargo space. Each outfit has a mass value that counts against the ship's Outfit Capacity.
 
-<div class="highlight">
-<div class="box-title">In Development</div>
+### Human Guns
 
-The full outfittings system is defined in supplementary CSV data files (Human Outfits, Alien Outfits) which are not yet complete. The exact stats and costs are being balanced through playtesting.
-</div>
+| Name | Cost | Mass | Range | Dmg (S) | Dmg (H) | Inaccuracy | Shots |
+|------|------|------|-------|---------|---------|------------|-------|
+| Energy Blaster | 0.1M | 1 | 5 | 1 | 1 | 6 | 1 |
+| Mining Laser | 0.1M | 1 | 1 | 0 | 0 | 4 | 1 |
+| Twin Modified Blaster | 0.2M | 2 | 4 | 2 | 2 | 8 | 1 |
+| Grappler | 0.2M | 1 | 1 | 0 | 0 | 4 | 1 |
+| Flamethrower | 0.3M | 1 | 2 | 0 | 0 | 9 | 1 |
+| Proton Gun | 0.4M | 3 | 6 | 4 | 2 | 8 | 1 |
+| Plasma Cannon | 0.6M | 2 | 4 | 6 | 4 | 4 | 1 |
+
+### Human Missiles and Rockets
+
+| Name | Cost | Mass | Range | Dmg (S) | Dmg (H) | Inaccuracy | Shots |
+|------|------|------|-------|---------|---------|------------|-------|
+| Light Rocket x5 | 0.1M | 0 | 5 | 4 | 2 | 3 | 1 |
+| Heavy Rocket x5 | 0.2M | 0 | 5 | 2 | 4 | 3 | 1 |
+| Sidewinder Missile x5 | 0.5M | 0 | 20 | 2 | 4 | 6 | 1 |
+| Nuclear Missile x5 | 5M | 0 | 10 | 10 | 8 | 6 | 1 |
+
+### Human Turrets
+
+| Name | Cost | Mass | Range | Dmg (S) | Dmg (H) | Inaccuracy | Shots |
+|------|------|------|-------|---------|---------|------------|-------|
+| Mining Laser Turret | 0.2M | 2 | 2 | 0 | 0 | 2 | 2 |
+| Blaster Turret | 0.2M | 2 | 2 | 1 | 1 | 4 | 2 |
+| Anti-Rocket Turret | 0.3M | 2 | 1 | 0 | 0 | 2 | 2 |
+| Anti-Missile Turret | 0.4M | 3 | 2 | 0 | 0 | 2 | 2 |
+| Quad Blaster Turret | 0.4M | 2 | 5 | 4 | 2 | 6 | 2 |
+| Proton Turret | 0.5M | 3 | 6 | 2 | 4 | 6 | 2 |
+| Tractor Beam | 1M | 2 | 3 | 0 | 0 | 2 | 2 |
+| Plasma Turret | 1M | 6 | 4 | 6 | 2 | 2 | 2 |
+
+### Human Launchers
+
+| Name | Cost | Mass | Range | Max Capacity |
+|------|------|------|-------|--------------|
+| Rocket Launcher | 0.5M | 2 | 4 | 10 |
+| Missile Launcher | 1M | 1 | 8 | 20 |
+
+### Remnant Weapons
+
+| Class | Name | Cost | Mass | Range | Dmg (S) | Dmg (H) | Inaccuracy | Shots |
+|-------|------|------|------|-------|---------|---------|------------|-------|
+| Gun | Thraser Cannon | 0.5M | 1 | 3 | 2 | 4 | 9 | 1 |
+| Gun | Inhibitor Cannon | 0.9M | 2 | 8 | 2 | 2 | 2 | 1 |
+| Turret | Thraser Turret | 2M | 5 | 3 | 2 | 4 | 8 | 2 |
+| Turret | Inhibitor Turret | 2.6M | 4 | 8 | 2 | 2 | 1 | 2 |
+| Turret | Point Defense Turret | 2.2M | 3 | 2 | 0 | 0 | 1 | 1 |
+| Torpedo | EMP Torpedo x5 | 1.5M | 0 | 10 | 10 | 0 | 6 | 1 |
+| Launcher | EMP Torpedo Launcher | 1.5M | 2 | 10 | — | — | 6 | 1 |
+
+### Wanderer Weapons
+
+| Class | Name | Cost | Mass | Range | Dmg (S) | Dmg (H) | Inaccuracy | Shots |
+|-------|------|------|------|-------|---------|---------|------------|-------|
+| Gun | Moonbeam | 1.4M | 2 | 4 | 4 | 2 | 4 | 1 |
+| Gun | Sunbeam | 2.6M | 3 | 5 | 4 | 4 | 2 | 1 |
+| Turret | Double Moonbeam Turret | 3.4M | 3 | 4 | 6 | 6 | 3 | 2 |
+| Turret | Double Sunbeam Turret | 4M | 4 | 5 | 8 | 8 | 1 | 2 |
+| Turret | Anti-Projectile Turret | 1.6M | 2 | 3 | 0 | 0 | 1 | 1 |
+| Missile | Thunderhead Missiles x5 | 1M | 0 | 10 | 2 | 6 | 9 | 5 |
+| Launcher | Thunderhead Missile Launcher | 1.5M | 2 | 10 | — | — | 9 | 5 |
+
+### Coalition Weapons
+
+| Class | Name | Cost | Mass | Range | Dmg (S) | Dmg (H) | Inaccuracy | Shots |
+|-------|------|------|------|-------|---------|---------|------------|-------|
+| Gun | MCS Extractor | 0.2M | 2 | 5 | 0 | 0 | 2 | 1 |
+| Gun | Bombardment Cannon | 0.8M | 1 | 9 | 1 | 4 | 4 | 1 |
+| Turret | Bombardment Turret | 1.3M | 4 | 9 | 2 | 4 | 3 | 2 |
+| Turret | Heliarch Attractor | 2M | 5 | 6 | 0 | 0 | 1 | 1 |
+| Torpedo | Finisher Torpedo x5 | 0.5M | 0 | 20 | 2 | 4 | 7 | 7 |
+| Launcher | Finisher Maegrolain | 5M | 7 | 20 | — | — | 6 | 6 |
 
 </div>
 
