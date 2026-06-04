@@ -24,7 +24,7 @@ The official rulebook system for all games published by [Moddable Games](https:/
 | **Moddable Chess** | Chess | 0.4.0 | 2–6 | Alpha |
 | **Dungeon Chess** | Chess | 0.2.1 | 2–4 | Alpha |
 | **Talisman Worlds** | Talisman 4e | 0.3.0 | 2–6 | Dev |
-| **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 3–6 | Live |
+| **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 4–6 | Live |
 | **Econopoly** | Monopoly | 0.9.0 | 2–6 | Live |
 
 ---
