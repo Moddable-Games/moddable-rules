@@ -93,6 +93,8 @@
   background: var(--mongo-parchment-dark);
   border-left: 4px solid var(--mongo-imperial-gold);
 }
+.highlight,.highlight p,.highlight li,.highlight ol,.highlight ul{color:var(--mongo-ink);}
+.highlight strong{color:var(--mongo-rocket-red);}
 
 .highlight .box-title {
   color: var(--mongo-rocket-red);

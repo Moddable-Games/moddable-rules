@@ -93,6 +93,8 @@
   background: var(--skies-cloud-grey);
   border-left: 4px solid var(--skies-sky-blue);
 }
+.highlight,.highlight p,.highlight li,.highlight ol,.highlight ul{color:var(--skies-ink);}
+.highlight strong{color:var(--skies-ocean-blue);}
 
 .highlight .box-title {
   color: var(--skies-sunset-orange);

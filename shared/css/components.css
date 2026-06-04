@@ -15,9 +15,10 @@
 .highlight::before{content:'';position:absolute;top:0;left:0;border-left:20px solid var(--accent);border-bottom:20px solid transparent;}
 .highlight::after{content:'';position:absolute;bottom:0;right:0;border-right:20px solid var(--accent);border-top:20px solid transparent;}
 .highlight .box-title{color:var(--accent);margin-bottom:10px;}
-.highlight p{color:rgba(242,236,224,.88);font-size:16.5px;line-height:1.68;margin:0;}
+.highlight,.highlight p,.highlight li,.highlight ol,.highlight ul{color:rgba(255,253,245,.94);font-size:16.5px;line-height:1.68;}
+.highlight p,.highlight li{margin:0;}
 .highlight p+p{margin-top:10px;}
-.highlight strong{color:var(--accent);}
+.highlight strong{color:var(--accent-light, var(--accent));}
 
 .meltdown-box{background:var(--text-primary);border-radius:var(--radius-md);padding:20px 24px;margin:18px 0;border:1px solid var(--accent-trans);position:relative;overflow:hidden;}
 .meltdown-box::before{content:'';position:absolute;top:0;left:0;border-left:20px solid var(--danger, #a83818);border-bottom:20px solid transparent;}

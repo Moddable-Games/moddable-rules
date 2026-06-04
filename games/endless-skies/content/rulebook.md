@@ -1,27 +1,40 @@
 ---
 title: "Endless Skies — Official Rulebook"
-version: "1.3.0"
+version: "0.2.0"
 slug: "endless-skies"
-players: "1–4"
-duration: "60 min"
-age: "10+"
-tagline: "Cooperative survival in procedurally generated skies"
+players: "2–8"
+duration: "TBD"
+age: "14+"
+tagline: "4X space exploration with worker placement and fleet management"
 type: "game"
 status: "dev"
-updated: "2026-05-18"
+updated: "2026-06-04"
+first_published: "January 2025"
 published: false
 ---
 
 <div class="section">
-<div class="eyebrow">Welcome to the Skies</div>
+<div class="eyebrow">Before You Begin</div>
 
-## Overview
+## How to Play in 5 Minutes
 
-Endless Skies is a cooperative game of exploration and survival set in a vast, procedurally generated skyscape. One to four players work together to build sky-paths through three distinct biomes, manage dwindling resources, and negotiate with twelve unique factions — all before the storm front closes in.
+Endless Skies is a 4X board game (explore, expand, exploit, exterminate) with worker placement, based on the open-source video game Endless Sky. Two to eight players command asymmetric factions across a hex-tile galaxy, managing fleets of ships, placing workers in ship rooms and space ports, and completing contracts for victory points.
 
-The game combines tile-laying (building the world as you explore it) with resource management (fuel, supplies, and morale) in a cooperative framework where every player's decisions affect the group's survival. The sky you traverse is never the same twice: biome tiles are drawn and placed according to adjacency rules that create organic, unpredictable landscapes.
+<div class="highlight">
+<div class="box-title">★ Read This First — The Core Loop</div>
 
-Success requires balancing exploration against conservation. Push too far too fast and you'll exhaust your resources. Play too cautiously and the closing storm will overtake you. The best crews find the rhythm between ambition and prudence, communicating openly about what lies ahead.
+**1. Place diplomats.** In initiative order, place diplomat meeples in space port rooms to gain resources, buy ships, trade, or trigger special actions.
+
+**2. Activate crew.** Move rookie and legend meeples to ship rooms — Bridge, Engine Room, Battlestations, or Storage Bay — to pilot, fight, repair, or upgrade your fleet.
+
+**3. Resolve events.** Move asteroids and wormholes, resolve conflicts between factions, check for destroyed ships, and refresh for the next round.
+
+**4. Complete contracts.** Score victory points by fulfilling public contracts (visible to all) and private missions (secret objectives). First to trigger the endgame condition forces a final scoring round.
+</div>
+
+### Based On
+
+Endless Sky is an open-source space exploration video game (github.com/endless-sky/endless-sky) with public domain imagery. Endless Skies adapts its universe, factions, and ship designs into a tabletop format.
 
 </div>
 
@@ -30,139 +43,266 @@ Success requires balancing exploration against conservation. Push too far too fa
 
 ## Components
 
-*Content in development — rules pending playtest.*
-
 | Item | Qty | Notes |
 |------|-----|-------|
-| **Biome Tiles** | 72 | 24 per biome (Cloudlands, Thermal Peaks, Open Blue). |
-| **Faction Decks** | 12 | One deck per faction, 8 cards each. |
-| **Resource Tokens** | 60 | Fuel (yellow), Supplies (green), Morale (blue). |
-| **Crew Pawns** | 4 | One per player in distinct colours. |
-| **Storm Front Marker** | 1 | Tracks the approaching storm. |
-| **Event Cards** | 30 | Drawn at the start of each round. |
-| **Expedition Board** | 1 | Tracks crew resources and storm progress. |
-| **Compass Die** | 1 | D8 for wind direction during exploration. |
-| **Rulebook** | 1 | This document. |
+| **Hex System Tiles** | 113 | 91 placed during setup per faction regions |
+| **Meeples — Rookies** | 80 | 10 per player in 8 colours |
+| **Meeples — Legends** | 24 | 3 per player |
+| **Meeples — Diplomats** | 28 | variable per player |
+| **Ship Units** | 128 | 16 per player |
+| **NPC Ships** | 16 | Neutral faction ships |
+| **Cards — Public Contracts** | 100 | Visible VP objectives |
+| **Cards — Private Missions** | 60 | Secret VP objectives |
+| **Cards — Blueprints** | 500 | Ship outfits and upgrades |
+| **Cards — Events** | 90 | Round events |
+| **Cards — Discoveries** | 200 | Exploration rewards |
+| **Player Ship Sheets** | 112 | 14 per player |
+| **NPC Ship Sheets** | 16 | |
+| **Space Port Sheets** | 8 | One per faction |
+| **Credit Tokens** | 300 | Currency |
+| **Undiscovered Tokens** | 120 | Face-down exploration markers |
+| **Wormhole Tokens** | 32 | 4 types: C, M, Y, K |
+| **Asteroid Tokens** | 112 | Dynamic obstacles / mining |
+| **Coloured Cubes** | various | Red=hazardous, Green=bio, Blue=precious, Black=shields/hull |
 
 </div>
 
 <div class="section">
-<div class="eyebrow">Preparing to Play</div>
+<div class="eyebrow">The Galaxy</div>
 
-## Setup
+## System Tiles
 
-*Content in development — rules pending playtest.*
+The galaxy is built from 91 hex system tiles (drawn from 113 total) arranged by faction regions. Each tile contains:
 
-1. Place the Expedition Board in view of all players.
-2. Set starting resources on the board: Fuel, Supplies, and Morale at their initial values.
-3. Separate Biome Tiles into three face-down stacks by type.
-4. Place the starting tile (marked with a compass rose) in the centre of the play area.
-5. Each player places their Crew Pawn on the starting tile.
-6. Shuffle the Event Cards and place them face-down near the board.
-7. Place the Storm Front Marker at the beginning of the storm track.
-8. Sort Faction Decks and keep them accessible — they enter play when their biome is revealed.
+- System name and region
+- Faction affiliation
+- Events (triggered on entry or by card)
+- Planets with habitats
+- Population
+- Commodities produced
+- Wormhole connections (types C, M, Y, K with range costs)
 
-</div>
-
-<div class="section">
-<div class="eyebrow">Playing the Game</div>
-
-## Gameplay
-
-### Turn Structure
-
-*Content in development — rules pending playtest.*
-
-Endless Skies is played over a series of rounds. Each round consists of:
-
-1. **Event Phase** — Draw and resolve the top Event Card. This affects all players and may advance the storm.
-2. **Exploration Phase** — The active player draws a Biome Tile and places it adjacent to any existing tile, following adjacency rules.
-3. **Movement Phase** — Each player may move their Crew Pawn along connected tiles, spending Fuel for each tile entered.
-4. **Gather Phase** — Players on resource-producing tiles collect their yields.
-5. **Faction Phase** — If any player is on a tile with an unresolved faction encounter, resolve it now.
-6. **Storm Phase** — Advance the Storm Front Marker. Any tiles behind the storm line are removed from play.
-
-### The Three Biomes
-
-*Content in development — rules pending playtest.*
-
-Each biome has unique properties that affect movement, resources, and faction encounters:
-
-- **Cloudlands** — Dense cloud cover. Low visibility but rich in Supplies. Movement costs are reduced.
-- **Thermal Peaks** — Volcanic updrafts. Dangerous but fuel-rich. Some tiles require Morale checks to enter.
-- **Open Blue** — Clear sky. Fast travel but sparse resources. Ideal for long-distance movement.
-
-### Faction Encounters
-
-*Content in development — rules pending playtest.*
-
-Twelve factions inhabit the skies. When you land on a faction tile, draw from their deck and resolve the encounter. Factions may offer trade, request aid, or present challenges. Building relationships with factions unlocks persistent bonuses for the crew.
-
-### Resource Management
-
-*Content in development — rules pending playtest.*
-
-Resources are shared among all players. Communication about resource levels and planned expenditures is encouraged and essential for survival.
+Tiles are placed during setup according to faction regions — each faction's home territory is predetermined, with contested border regions placed by mutual agreement or randomly.
 
 </div>
 
 <div class="section">
-<div class="eyebrow">Endgame</div>
+<div class="eyebrow">Choose Your Faction</div>
 
-## Winning
+## Factions
 
-*Content in development — rules pending playtest.*
+There are eight asymmetric factions, each with unique starting credits, technology access, and meeple abilities.
 
-The crew wins together or loses together. Victory is achieved by reaching the Horizon Gate — a special tile that only appears once sufficient biome tiles have been placed and at least three faction alliances have been formed.
+| Faction | Region | Starting System | Starting Credits | Tech Access |
+|---------|--------|-----------------|-----------------|-------------|
+| Republic | Near Earth | Sol | 500K | Human |
+| Alphas | Far North | Prime | 300K/player | Human + Core |
+| Syndicate | The Core | Markab | 2M | Human + Core |
+| Free Worlds | Dirt Belt | Alkaid | 200K/player | Human + Coalition |
+| Pirates | The Rim | (any) | 100K/player | Any (in play) |
+| Remnant | Ember Wastes | Arculus | 1M | Remnant + Wanderers |
+| Coalition | Paradise | Talita | 1.5M | Coalition + Human |
+| Wanderers | Wanderer Space | Ka'ch'chrai | 1M | Remnant + Wanderers |
 
-The crew loses if:
-- All resource tracks reach zero simultaneously.
-- The Storm Front overtakes all remaining Crew Pawns.
-- The Biome Tile stacks are exhausted before the Horizon Gate appears.
-
-### Scoring
-
-After a successful expedition, players score based on:
-- Remaining resources
-- Faction alliances formed
-- Tiles explored beyond the minimum
-- Rounds remaining before storm overtakes
+Each faction has unique starting credits that scale differently — some are fixed (Republic: 500K, Syndicate: 2M) while others scale by player count (Alphas: 300K/player, Free Worlds: 200K/player). This creates different strategic pressures at different player counts.
 
 </div>
 
 <div class="section">
-<div class="eyebrow">Optional Complexity</div>
+<div class="eyebrow">Your Fleet</div>
 
-## Advanced Rules
+## Ships
 
-*Content in development — rules pending playtest.*
+Ships are grouped into four classes:
 
-For experienced crews seeking greater challenge:
+### Ship Classes
 
-- **Solo Mode** — One player controls two Crew Pawns with a reduced Event Deck.
-- **Competitive Variant** — Each player has a secret objective that may conflict with the group goal.
-- **Legendary Factions** — Replace two standard faction decks with Legendary variants that have more demanding encounters and greater rewards.
-- **Hurricane Season** — The storm advances at variable speed, determined by a die roll each round.
+| Class | Min Crew | Max Bunks | Cost Range | Role |
+|-------|----------|-----------|------------|------|
+| Fighters | 1 | 1–5 | 0.2–0.5M | Combat, escort |
+| Freighters | 1–5 | 1–10 | varies | Cargo hauling |
+| Transports | 1–3 | 1–10 | varies | Long-range movement |
+| Warships | 3–5 | 3–10 | 2–15M | Heavy combat, capital ships |
+
+Each ship has an individual Ship Sheet tracking:
+- Shields and Hull (black cubes)
+- Cargo capacity
+- Crew bunks (meeple slots)
+- Equipped outfits (from Blueprint cards)
+
+There are 30 playable ship types across 5 technology trees (Human, Core, Coalition, Remnant, Wanderer).
 
 </div>
 
 <div class="section">
-<div class="eyebrow">Common Questions</div>
+<div class="eyebrow">Worker Placement</div>
 
-## FAQ
+## Ship Rooms
 
-*Content in development — rules pending playtest.*
+Each ship has rooms where crew meeples are placed to activate abilities:
 
-**Q: Can we play with just one player?**
-A: Yes. The solo mode is a fully supported way to play, using two Crew Pawns controlled by one player.
+| Room | Slots | Abilities |
+|------|-------|-----------|
+| Bridge | 3 | Pilot, Tactical, Transport |
+| Engine Room | 3 | Pilot, Transport, Repair |
+| Battlestations | 4 | Tactical, Tactical, Pilot, Repair |
+| Storage Bay | 1 | Upgrade |
 
-**Q: How long does a typical game last?**
-A: Approximately 60 minutes. Solo games tend to run shorter (40 minutes), while 4-player games may extend slightly longer.
+Placing a meeple in a room activates that ability for the round. Legends (experienced crew) may have enhanced versions of abilities.
 
-**Q: Is there player elimination?**
-A: No. If a player's Crew Pawn is overtaken by the storm, they are rescued by the nearest ally and continue playing from that position (with a Morale penalty).
+## Space Port Rooms
 
-**Q: How much table space do we need?**
-A: The tile-laying area can expand in any direction. A standard dining table provides sufficient space for most games.
+Each faction's home space port has 8 rooms where diplomat meeples are placed in initiative order:
+
+1. Galley
+2. Marketplace
+3. Guild
+4. Transporter
+5. Lower Decks
+6. Upper Decks
+7. Promenade
+8. Shipyard
+
+Space port rooms provide faction-wide benefits — recruiting crew, purchasing ships, trading commodities, and gaining intelligence.
+
+</div>
+
+<div class="section">
+<div class="eyebrow">The Round</div>
+
+## Order of Play
+
+Each round follows three phases:
+
+### 1. Diplomatic Phase
+
+In initiative order, players place diplomat meeples in space port rooms. Each room has limited slots — early placement secures the best positions.
+
+### 2. Action Phase
+
+Players activate their crew by moving rookie and legend meeples to ship rooms. Ships with activated crew can then:
+
+- Move through systems (Pilot)
+- Engage in combat (Tactical)
+- Carry cargo and passengers (Transport)
+- Repair damage (Repair)
+- Install new outfits (Upgrade)
+
+### 3. Event Phase
+
+- Resolve conflicts (ships in same system from hostile factions)
+- Move asteroids (dynamic map element)
+- Check for destroyed ships/rooms
+- Refresh — return meeples to ready positions
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Combat</div>
+
+## Ship Combat
+
+Combat uses a D10 inaccuracy system. When ships from hostile factions occupy the same system:
+
+- Attacker rolls D10 — higher rolls indicate inaccuracy (misses)
+- Damage is applied to shields first, then hull
+- Ships with destroyed hull are removed from play
+- Crew on destroyed ships are lost unless escape pods are equipped
+
+<div class="highlight">
+<div class="box-title">In Development</div>
+
+Full combat timing and resolution details are being finalised. Some edge cases around multi-faction conflicts and simultaneous engagement are noted as unresolved in the current design.
+</div>
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Contracts & Trade</div>
+
+## Scoring
+
+### Contracts
+
+- **Public Contracts** — visible to all players. Completing one earns VP and may trigger new contracts.
+- **Private Missions** — secret objectives unique to each player. Some factions have "questionable" morality — certain factions can/cannot score certain contract types.
+
+### Victory
+
+The endgame is triggered when either:
+- 5 × PlayerCount public contracts have been discarded, OR
+- All space ports have been destroyed
+
+A penultimate round is announced. After that point, contracts are worth double VP. The player with the most VP wins. Tiebreaker: initiative token holder, then most credits.
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Wormholes & Movement</div>
+
+## Wormhole Network
+
+Four types of wormholes connect distant systems:
+
+| Type | Colour | Range Cost |
+|------|--------|-----------|
+| C | Cyan | Low |
+| M | Magenta | Medium |
+| Y | Yellow | High |
+| K | Black | Very High |
+
+Wormholes allow instantaneous travel between connected systems at the cost of range/energy. The wormhole network is semi-random — some connections are fixed by faction regions, others are placed during setup.
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Dynamic Elements</div>
+
+## Asteroids
+
+112 asteroid tokens move across the map each event phase. Asteroids:
+
+- Block movement through their system
+- Can be mined for Discovery cards (precious minerals, rare tech)
+- May destroy ships that fail to evade (Pilot check)
+
+Asteroid movement patterns are determined by event cards, creating an ever-shifting map.
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Ship Modifications</div>
+
+## Outfits
+
+Ships can be upgraded with outfits from Blueprint cards across 5 technology trees:
+
+- **Human** — balanced weapons and shields
+- **Core** — advanced energy systems
+- **Coalition** — defensive specialisation
+- **Remnant** — ancient recovered technology
+- **Wanderer** — biological / organic systems
+
+Outfits are installed via the Storage Bay room (Upgrade action). Each ship has limited outfit capacity based on its class and cargo space.
+
+<div class="highlight">
+<div class="box-title">In Development</div>
+
+The full outfittings system is defined in supplementary CSV data files (Human Outfits, Alien Outfits) which are not yet complete. The exact stats and costs are being balanced through playtesting.
+</div>
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Advanced Rules</div>
+
+## Diplomatic Voting
+
+Players can negotiate treaties via treaty cards. Voting occurs during certain event triggers and follows the initiative order. Treaties can establish:
+
+- Non-aggression pacts
+- Trade routes (reduced commodity exchange costs)
+- Technology sharing (access to another faction's tech tree)
+- Alliance (shared victory conditions for specific contracts)
 
 </div>

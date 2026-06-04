@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Talisman Worlds — Official Rulebook v0.3.0</title>
+<meta name="description" content="Open-world hex tiles for Talisman — a new map every session. A reskin mod for Talisman 4e.">
+<meta property="og:title" content="Talisman Worlds — Official Rulebook v0.3.0">
+<meta property="og:description" content="Open-world hex tiles for Talisman — a new map every session.">
+<meta property="og:image" content="https://rules.moddable.games/games/talisman-worlds/og-image.png?v=1.1.4">
+<meta property="og:url" content="https://rules.moddable.games/dist/talisman-worlds/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Talisman Worlds — Official Rulebook v0.3.0">
+<meta name="twitter:description" content="Open-world hex tiles for Talisman — a new map every session.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/talisman-worlds/og-image.png?v=1.1.4">
+<link rel="icon" type="image/png" sizes="32x32" href="../../games/talisman-worlds/logos/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../games/talisman-worlds/logos/favicon-16.png">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.3.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.3.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.3.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.3.0">
+<link rel="stylesheet" href="../../games/talisman-worlds/theme.css?v=0.3.0">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<!-- HEADER -->
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a></div>
+  <span class="hdr-meta">Mod of Talisman 4e · v0.3.0</span>
+</header>
+
+<!-- COVER -->
+<div class="cover">
+  <img class="cover-icon" src="../../games/talisman-worlds/logos/talisman-worlds-logo.png" alt="Talisman Worlds">
+  <div class="cover-title">TALISMAN: HEXED</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">Open-world hex tiles for Talisman — a new map every session</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">2–6</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">90</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">13+</span><span class="cs-lbl">Age</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games · v0.3.0</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<div class="section">
+<div class="eyebrow">Before You Begin</div>
+<h2>How to Play in 5 Minutes</h2>
+<p>Talisman Worlds replaces the game boards used by Talisman with individual hexagonal tiles. This ensures that every game of Talisman has a completely different setup, whilst also laying important foundations for more easily introducing new expansions that are not just limited to the four corners as they are in traditional games.</p>
+<div class="highlight">
+<div class="box-title">★ What This Mod Does</div>
+<p><strong>Replaces:</strong> The Talisman board (outer, middle, and inner regions) with 61 hexagonal tiles arranged in four concentric rings around a hidden ending tile.</p>
+<p><strong>Keeps:</strong> All characters, adventure cards, spell decks, purchase cards, stranger cards, warlock quests, and core rules. Your entire encounter library is untouched.</p>
+<p><strong>Result:</strong> A different board every session. Same game, completely different journey.</p>
+</div>
+<p>This mod has been built and tested for Talisman 4th Edition (revised) by Fantasy Flight Games.</p>
+<h3>The Original Board</h3>
+<p>As a reference, the original core board has the following spaces:</p>
+<ul class="rules">
+<li>Outer region = 24 spaces</li>
+<li>Middle region = 16 spaces</li>
+<li>Inner region = 9 spaces</li>
+<li>Crown of Command = central space</li>
+<li><strong>Total of 50 spaces</strong></li>
+</ul>
+<p>Converting spaces to hexagons around a hidden ending tile results in the following four-ringed board, which requires exactly 61 hexagonal tiles to complete:</p>
+<ul class="rules">
+<li>4th ring (24 hexes) — randomly place all 24 <strong>outer region</strong> tiles face-up</li>
+<li>3rd ring (18 hexes) — randomly place 18 <strong>river region</strong> tiles face-up</li>
+<li>2nd ring (12 hexes) — randomly place 12 <strong>middle region</strong> tiles face-up</li>
+<li>1st ring (6 hexes) — randomly place 6 of the 9 available <strong>inner region</strong> tiles face-up</li>
+<li>Middle — randomly place one of the eight available <strong>ending</strong> tiles face down</li>
+</ul>
+<p>An additional 14 tiles must be added to the middle region choices to account for missing hexes, whilst also creating the infamous river that separates the outer and middle regions:</p>
+<ul class="rules">
+<li>10 water tiles (cannot be crossed without a raft)</li>
+<li>4 additional desert tiles (act as desert spaces from original Talisman)</li>
+</ul>
+</div>
+<div class="section">
+<div class="eyebrow">Rule Changes</div>
+<h2>Rules</h2>
+<p>The only required changes to the rules are as follows:</p>
+<ul class="rules">
+<li>Restrictions to movements based upon the region a player starts their turn</li>
+<li>Newly introduced river region (between the outer and middle regions)</li>
+<li>Newly introduced river tile — which players may not end their turn on</li>
+<li>Tweaked desert tile and more of them — which players may not end their turn on</li>
+</ul>
+<p>This modular board system not only results in a different setup every time, but also lays important foundations for more easily introducing new expansions in the future.</p>
+</div>
+<div class="section">
+<div class="eyebrow">Getting Around</div>
+<h2>Movement</h2>
+<p>Some movement rules are consistent, regardless of the region:</p>
+<ul class="rules">
+<li>Players can only cross river tiles by using a raft</li>
+<li>Players can only cross deserts by using a water bottle</li>
+<li>Players cannot end their turn on a river tile</li>
+<li>Players cannot end their turn on a desert tile</li>
+</ul>
+<p>Some movement is restricted based upon the region a player starts their turn.</p>
+<h3>Outer Region</h3>
+<ul class="rules">
+<li>Players roll a D4 for movement</li>
+<li>Players can choose any tile up-to the maximum they rolled</li>
+<li>Players can only freely access the middle region from the sentinel</li>
+<li>Players cannot use the oasis or hidden valley tiles as part of movement</li>
+</ul>
+<h3>River Region</h3>
+<ul class="rules">
+<li>Players roll a D3 for movement</li>
+<li>Players can choose any tile up-to the maximum they rolled</li>
+</ul>
+<h3>Middle Region</h3>
+<ul class="rules">
+<li>Players roll a D3 for movement</li>
+<li>Players can choose any tile up-to the maximum they rolled</li>
+</ul>
+<h3>Inner Region</h3>
+<ul class="rules">
+<li>Players may only move to an adjacent inner region tile</li>
+<li>Can only freely access inner region from portal of power (middle region)</li>
+<li>Can only access ending (middle tile) from valley of fire (by discarding a talisman)</li>
+</ul>
+</div>
+<div class="section">
+<div class="eyebrow">The Board</div>
+<h2>Tiles</h2>
+<h3>Endings</h3>
+<p>Randomly choose one of the ending tiles and place it face down in the middle of the board.</p>
+<ol>
+<li>Crown of Command — unchanged</li>
+<li>Horrible Black Void — unchanged</li>
+<li>Battle Royale — unchanged</li>
+<li>Dragon King — unchanged</li>
+<li>Demon Lord — unchanged</li>
+<li>Eagle King — unchanged</li>
+<li>Hand of Doom — unchanged</li>
+<li>Thieve’s Guild — unchanged</li>
+</ol>
+<h3>Inner Regions</h3>
+<p>The first ring surrounding the ending are the six inner region tiles:</p>
+<ol>
+<li>Valley of Fire — unchanged</li>
+<li>Crypt — unchanged</li>
+<li>Death — unchanged</li>
+<li>Werewolve’s Den — unchanged</li>
+<li>Mines — unchanged</li>
+<li>Vampire’s Tower — unchanged</li>
+</ol>
+<h3>Middle Regions</h3>
+<p>The second ring surrounding the inner regions are the twelve middle region tiles:</p>
+<ul class="rules">
+<li>Portal of Power — unchanged</li>
+<li>Black Knight — unchanged</li>
+<li>Hills — draw 1 card — unchanged</li>
+<li>Cursed Glade — draw 1 card cannot use magic — unchanged</li>
+<li>Runes — draw 1 card enemies get plus 2 X 3 — unchanged</li>
+<li>Chasm — unchanged</li>
+<li>Warlock’s Cave — unchanged</li>
+<li>Temple — unchanged</li>
+<li>Woods — draw 1 card — unchanged</li>
+<li>Castle — unchanged</li>
+</ul>
+<h3>River Regions</h3>
+<p>The third ring surrounding the middle regions are the eighteen river region tiles:</p>
+<ul class="rules">
+<li>River Tiles X 10 — can only cross with raft — cannot end turn here</li>
+<li>Desert Tiles X 6 — can only cross with water bottle — cannot end turn here</li>
+<li>Oasis — draw 2 cards — can only go one way (outward)</li>
+<li>Hidden Valley — draw 3 cards — can only go one way (outward)</li>
+</ul>
+<h3>Outer Region</h3>
+<p>The fourth ring surrounding the river regions are the twenty four outer regions:</p>
+<ul class="rules">
+<li>City — unchanged</li>
+<li>Village — unchanged</li>
+<li>Tavern — unchanged</li>
+<li>Chapel — unchanged</li>
+<li>Ruins — draw 2 cards — unchanged</li>
+<li>Fields — draw 1 card X 6 — unchanged</li>
+<li>Plains — draw 1 card X 4 — unchanged</li>
+<li>Woods — draw 1 card X 3 — unchanged</li>
+<li>Hills — draw 1 card X 2 — unchanged</li>
+<li>Sentinel — if crossing from outer then must win fight — then roll next turn</li>
+<li>Graveyard — unchanged</li>
+<li>Crags — unchanged</li>
+<li>Forest — unchanged</li>
+</ul>
+<p>The graphics used for stickers to be placed on 90mm hexagons can be seen on Moddable.Games. Talisman cards fit in 90mm hexes.</p>
+</div>
+<div class="section">
+<div class="eyebrow">Tile Encounters</div>
+<h2>Special Tiles</h2>
+<p>The following information is difficult to place on the hexagonal tiles so is here as reference, with the hope that future versions of this modification will be able to reduce or remove this section.</p>
+<h3>Outer Regions</h3>
+<p><strong>Forest — Roll D6</strong></p>
+<ol>
+<li>Attacked by a brigand with Strength 4</li>
+<li>Lost; lose your next turn</li>
+<li>Lost; lose your next turn</li>
+<li>Safe</li>
+<li>Safe</li>
+<li>A ranger guides you out; gain 1 Craft</li>
+</ol>
+<p><strong>Graveyard — Based on Alignment</strong></p>
+<ul class="rules">
+<li>Good = Lose one life</li>
+<li>Neutral = Replenish fate up-to starting value for one gold each</li>
+<li>Evil = Either replenish fate up-to starting value for FREE or roll D6:
+<ul class="rules">
+<li>1 to 4 = Ignored</li>
+<li>5 = Gain one fate</li>
+<li>6 = Gain one spell</li>
+</ul>
+</li>
+</ul>
+<p><strong>Crags — Roll D6</strong></p>
+<ol>
+<li>Attacked by a Spirit with Craft 4</li>
+<li>Lost; lose your next turn</li>
+<li>Lost; lose your next turn</li>
+<li>Safe; no effect</li>
+<li>Safe; no effect</li>
+<li>A barbarian leads you out; gain 1 Strength</li>
+</ol>
+<p><strong>City — Visit Enchantress, Doctor or Alchemist</strong></p>
+<p>Enchantress — Roll D6:</p>
+<ol>
+<li>You are turned into a Toad for 3 Turns</li>
+<li>Lose 1 Strength</li>
+<li>Lose 1 Craft</li>
+<li>Gain 1 Craft</li>
+<li>Gain 1 Strength</li>
+<li>Gain 1 Spell</li>
+</ol>
+<p>Doctor — heal up-to two lives at one gold per life</p>
+<p>Alchemist — turn any number of objects into gold — one object equal one gold</p>
+<p><strong>Village — Visit Blacksmith, Healer or Mystic</strong></p>
+<p>Blacksmith — Purchase (if available):</p>
+<ul class="rules">
+<li>Helmet — 2G</li>
+<li>Sword — 2G</li>
+<li>Axe — 3G</li>
+<li>Shield — 3G</li>
+<li>Armour — 4G</li>
+</ul>
+<p>Healer — heal up-to your starting life value at one gold per life</p>
+<p>Mystic — Roll D6:</p>
+<ol>
+<li>Become evil</li>
+<li>Ignored</li>
+<li>Ignored</li>
+<li>Become good</li>
+<li>Gain 1 Craft</li>
+<li>Gain 1 Spell</li>
+</ol>
+<p><strong>Tavern — Roll D6</strong></p>
+<ol>
+<li>You get blind drunk and collapse in a corner. Miss 1 turn.</li>
+<li>You get tipsy and get in a fight with a farmer (STRENGTH 3).</li>
+<li>You gamble and lose 1 Gold Coin.</li>
+<li>You gamble and win 1 Gold Coin.</li>
+<li>A wizard offers to teleport you to an Outer Region of your choice as your next move.</li>
+<li>A boatman offers to ferry you to the Temple as your next move.</li>
+</ol>
+<p><strong>Chapel — Based on Alignment</strong></p>
+<ul class="rules">
+<li>Evil = Lose one life</li>
+<li>Neutral = Heal up-to starting life value for one gold per life</li>
+<li>Good = Either heal up-to starting life value for free or PREY by rolling D6:
+<ul class="rules">
+<li>1 to 4 = Ignored</li>
+<li>5 = Gain 1 life</li>
+<li>6 = Gain 1 Spell</li>
+</ul>
+</li>
+</ul>
+<h3>Middle Region</h3>
+<p><strong>Temple — Roll 2D6</strong></p>
+<ol start="2">
+<li>Lose 2 lives.</li>
+<li>Lose 1 life.</li>
+<li>Lose 1 Follower.</li>
+<li>Enslaved; stay here until you roll a 4, 5, or a 6 for your move.</li>
+<li>Gain 1 Strength.</li>
+<li>Gain 1 Craft.</li>
+<li>Gain 1 Spell.</li>
+<li>Gain 1 Spell.</li>
+<li>Gain a Talisman.</li>
+<li>Gain 2 fate.</li>
+<li>Gain 2 lives.</li>
+</ol>
+<p><strong>Chasm — Roll D6 for Yourself and Each Follower</strong></p>
+<p>If yourself; 1 or 2 results in losing one life.</p>
+<p>If follower; 1 or 2 results in follower being killed.</p>
+<p><strong>Castle — Royal Doctor</strong></p>
+<p>Heal up-to your starting life value at one gold per life.</p>
+<p>If you have the prince or princess, heal up-to two lives for free (each).</p>
+<p><strong>Portal of Power</strong></p>
+<p>Draw one card or try to access plain of perils by choosing strength or craft and rolling 2D6. If the number is equal or lower than your chosen stat you can move to the plain of perils.</p>
+<h3>Inner Region</h3>
+<p><strong>Valley of Fire</strong></p>
+<p>Discard a Talisman in order to access the ending on your next turn.</p>
+<p><strong>Crypt</strong></p>
+<p>Roll 3D6 and subtract your strength:</p>
+<ul class="rules">
+<li>
+<ol start="0">
+<li>Crypt</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Plain of Peril</li>
+</ol>
+</li>
+<li>2-3) Portal of Power</li>
+<li>4-5) Warlock’s Cave</li>
+<li>6+) City</li>
+</ul>
+<p><strong>Death</strong></p>
+<p>Roll two dice for yourself and two dice for Death.
+If the scores are equal: Dice with Death again on your next turn.
+If your score is lower: Lose one life and Dice with Death again on your next turn.
+If your score is higher: You may move on your next turn.</p>
+<p><strong>Werewolves Den</strong></p>
+<p>Roll two dice for the Werewolf’s Strength, then fight it.
+If you lose, lose one life and fight the same Werewolf again on your next turn.
+You cannot move on until you have defeated the Werewolf.</p>
+<p><strong>Mines</strong></p>
+<p>Roll 3D6 and subtract your craft:</p>
+<ul class="rules">
+<li>
+<ol start="0">
+<li>Mines</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Plain of Peril</li>
+</ol>
+</li>
+<li>2-3) Portal of Power</li>
+<li>4-5) Warlock’s Cave</li>
+<li>6+) Tavern</li>
+</ul>
+<p><strong>Pits</strong> (removed to ensure six)</p>
+<p>Roll 1D6 and fight that many pit fiends at strength 4. Cannot move until killing all.</p>
+<p><strong>Vampire’s Tower</strong></p>
+<p>Roll one die to determine how many lives the Vampire takes. You may discard any number of Followers to avoid this loss of life. Each Follower you discard prevents the loss of one life.</p>
+<ol>
+<li>Lose 1 life</li>
+<li>Lose 1 life</li>
+<li>Lose 2 lives</li>
+<li>Lose 2 lives</li>
+<li>Lose 3 lives</li>
+<li>Lose 3 lives</li>
+</ol>
+<h3>Endings</h3>
+<p><strong>Crown of Command</strong></p>
+<p>If a character is on the Crown of Command and no other characters are present, he must cast one Command Spell at the start of each of his turns. If a 1, 2, or 3 is rolled, the Spell has no effect. On a 4, 5, or 6 all other characters lose 1 life. If a character is on the Crown of Command and there is another character present, he must encounter the other character instead of casting the Command Spell.</p>
+<p><strong>Battle Royale</strong></p>
+<p><em>All characters that do not have a Talisman, except for the character who first entered the Crown of Command, lose the game. All characters that have a Talisman are immediately placed on the Crown of Command.</em></p>
+<p>The character who first entered the Crown of Command must choose a character to attack. The winner of the attack must force the loser to lose a life; he cannot choose to take an Object or gold instead. The winner of the attack then chooses any other character to attack (the loser cannot be chosen unless he is the only other character remaining). If the attack is a stand-off, the same characters fight again.</p>
+<p>Characters must continue attacking each other in this manner until only one character remains. The last character remaining wins the game! When a character attacks, he may choose to fight in battle or psychic combat. He may not choose when he is attacked by another character.</p>
+<p><strong>Dragon King</strong></p>
+<p>Strength 12, Craft 12, Life 5 — on your turn, roll one D6:</p>
+<ul class="rules">
+<li>1-2) Discard a Talisman. If you do not have a Talisman to discard, you are killed instead.</li>
+<li>3-4) Clockwise starting with yourself, all characters must attack the Dragon King using Strength or Craft. Each time the Dragon King is defeated, remove one of his lives.</li>
+<li>5-6) Attack the Dragon King using Strength or Craft. Each time you defeat the Dragon King, remove one of his lives and immediately attack him again. If you have a stand-off or are defeated, your turn ends.</li>
+</ul>
+<p><em>If a character removes the Dragon King’s last life, he wins the game!</em></p>
+<p>Characters cannot encounter each other; they must roll one die for the Dragon King instead. If there are no characters, the Dragon King heals all his lives.</p>
+<p><strong>Horrible Black Void</strong></p>
+<p>You and all of your possessions are pulled into the Horrible Black Void, you lose the game! Draw another random ending tile to replace this one.</p>
+<p><strong>Demon Lord</strong></p>
+<p>Craft 12, Life 4 — on your turn attack with craft — if stand-off or lose, return to crags. Player to take last life wins. If no players, Demon Lord heals all life.</p>
+<p><strong>Eagle King</strong></p>
+<p>Strength 12, Craft 12, Life 4 — on your turn attack with strength or craft — if stand-off or lose, return to crags. Player to take last life wins. If no players, Eagle King heals all life.</p>
+<p><strong>Hand of Doom</strong></p>
+<p>Roll one D6 on your turn:</p>
+<ul class="rules">
+<li><strong>1)</strong> All characters are killed — all players lose the game.</li>
+<li><strong>2-3)</strong> Lose 1 life.</li>
+<li><strong>4-5)</strong> Choose one character; that character is killed.</li>
+<li><strong>6)</strong> All other characters are killed — you win the game!</li>
+</ul>
+<p><strong>Thieves Guild</strong></p>
+<p>On your turn roll one D6:</p>
+<ul class="rules">
+<li><strong>1-2)</strong> You must take 1 gold from all other characters</li>
+<li><strong>3-4)</strong> You must take 1 Object from all other characters</li>
+<li><strong>5-6)</strong> You must take 2 Objects from all other characters</li>
+</ul>
+<p>Players on Thieves Guild can hold an unlimited number of objects. When a gold or object must be taken but cannot be given, that player is killed. Characters on Thieves Guild cannot encounter each other and must both roll D6 for their turns. If all players are on Thieves Guild, the player with the most objects and gold wins.</p>
+</div>
+<div class="section">
+<div class="eyebrow">Optional Rules</div>
+<h2>Variations</h2>
+<p>Some of these variations are published elsewhere, others are modified by our team:</p>
+<ul class="rules">
+<li>
+<p><strong>Warlock Quests</strong> — players must complete one quest per player to gain a talisman — all other talismans are removed from the game or replaced by “extra life” if printed.</p>
+</li>
+<li>
+<p><strong>The One Talisman</strong> — remove all but one talisman from the game — add two to both strength and craft whilst holding talisman. Warlock quests result in talisman teleporting.</p>
+</li>
+</ul>
+<h3>Warlock Quests</h3>
+<p>The following D20 collection of quests provides an alternative to both the original warlock cave as well as the warlock quest cards that were introduced in future expansions.</p>
+<ol>
+<li>Kill a dragon</li>
+<li>Deliver a magic item to two different woods</li>
+<li>Deliver five gold coins to the tavern</li>
+<li>Deliver prince or princess to the castle</li>
+<li>Deliver any enemy spirit to graveyard</li>
+<li>Deliver three fate to the chapel</li>
+<li>Meet the ranger (forest)</li>
+<li>Meet the barbarian (crags)</li>
+<li>Get enslaved at the temple</li>
+<li>Deliver two weapons to the alchemist</li>
+<li>Get teleported somewhere</li>
+<li>Deliver three followers to the castle</li>
+<li>Become a toad</li>
+<li>Deliver an axe to the cursed glade</li>
+<li>Change alignment</li>
+<li>Safely guide at least three followers (in one go) across the chasm</li>
+<li>Deliver an axe to the</li>
+<li>Deliver a water bottle to the oasis</li>
+<li>Enter the valley of fire without a talisman</li>
+<li>Lose all your lives — then get replenished to starting lives</li>
+</ol>
+<p>Players may only perform one quest at a time. In order to remove the current quest, players must get drunk in the tavern and miss a go. They may then visit the warlock for a new quest.</p>
+<p>Upon completing a quest, the player must then return to the warlock’s cave to gain their talisman. If playing the one talisman variation, it is at this point that the talisman teleports.</p>
+</div>
+<div class="section">
+<div class="eyebrow">Expansion</div>
+<h2>The Dungeon</h2>
+<p>The following official Talisman 4th edition expansion has worlds support:</p>
+<p>Replace the dungeon board with a new fifth ring of tiles — with the following movement rules:</p>
+<ul class="rules">
+<li>Players roll a D6 for movement</li>
+<li>Players can choose any tile up-to the maximum they rolled</li>
+<li>Players can only enter the dungeon from the entrance or newly discovered portals</li>
+<li>Players can only exit the dungeon from the entrance or treasure chamber</li>
+</ul>
+<h3>Dungeon Region</h3>
+<p>The fifth ring of tiles surrounding the outer regions become the thirty dungeon region tiles:</p>
+<ul class="rules">
+<li>Cavern — draw two cards X 4</li>
+<li>Corridor — draw one card X 6</li>
+<li>Tunnel — draw one card X 6</li>
+<li>Vault — draw three cards X 3</li>
+<li>Cell — leave a follower and take a follower</li>
+<li>Dungeon Entrance — draw one card</li>
+<li>Guard Room — bribe (2G) or fight (5S)</li>
+<li>Hall of Darkness — roll D6</li>
+<li>Kitchen — you may roll a D6</li>
+<li>Library — roll D6</li>
+<li>Monster Pit — roll D6</li>
+<li>Summoning Circle — move closest enemy here or draw card if no enemies</li>
+<li>Torture Chamber — pay 1G or lose 1 strength or 1 craft</li>
+<li>Treasure Chamber — Fight Lord of Darkness (S12/C12)</li>
+<li>Mountains — (<strong>newly added</strong>) cannot access this region (used for reaching 6th ring later). Also used to separate the dungeon entrance and treasure chamber to force players to go all the way around the dungeon in order to reach the end. Dungeon entrances found later in the game lead to spaces beside them, as opposed to the dungeon entrance.</li>
+</ul>
+<h3>Dungeon Special Tiles</h3>
+<p><strong>Hall of Darkness — Roll D6 next turn for movement</strong></p>
+<ol>
+<li>Move back 3 spaces</li>
+<li>Move back 2 spaces</li>
+<li>Move back 1 space</li>
+<li>Move forward 1 space</li>
+<li>Move forward 2 spaces</li>
+<li>Move forward 3 spaces</li>
+</ol>
+<p><strong>Kitchen — you may roll one D6</strong></p>
+<ol>
+<li>Poison: lose 1 life</li>
+<li>Tastes great!</li>
+<li>Tastes great!</li>
+<li>Heal 1 life</li>
+<li>Heal 1 life</li>
+<li>Heal 2 life</li>
+</ol>
+<p><strong>Library — roll one D6</strong></p>
+<ol>
+<li>Have a good read</li>
+<li>Have a good read</li>
+<li>Discover a secret passage — immediately take an extra turn</li>
+<li>Discover a secret passage — immediately take an extra turn</li>
+<li>Gain 1 Spell</li>
+<li>Gain 1 Spell</li>
+</ol>
+<p><strong>Monster Pit — roll one D6</strong></p>
+<ol>
+<li>Draw 1 card</li>
+<li>Draw 2 cards</li>
+<li>Draw 2 cards</li>
+<li>Draw 3 cards</li>
+<li>Draw 3 cards</li>
+<li>Draw 1, 2 or 3 cards (you choose how many)</li>
+</ol>
+<p><strong>Treasure Chamber — Fight Lord of Darkness (Strength 12 | Craft 12)</strong></p>
+<p>Whether you win or lose, subtract the Lord of Darkness’s attack score from your attack score to see where you emerge:</p>
+<ul class="rules">
+<li>
+<ol start="0">
+<li>Crags</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Forest</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Chasm</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>Cursed Glade</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>Warlock’s Cave</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>Temple</li>
+</ol>
+</li>
+<li>
+<ol start="6">
+<li>Portal of Power</li>
+</ol>
+</li>
+<li>
+<ol start="7">
+<li>Plain of Peril</li>
+</ol>
+</li>
+<li>8+) Crown of Command</li>
+</ul>
+</div>
+<div class="section">
+<div class="eyebrow">Tile Encounters</div>
+<h2>Special Tiles</h2>
+<p>The following information is difficult to place on the hexagonal tiles so is here as reference, with the hope that future versions of this modification will be able to reduce or remove this section.</p>
+<h3>Outer Regions</h3>
+<p><strong>Forest — Roll D6</strong></p>
+<ol>
+<li>Attacked by a brigand with Strength 4</li>
+<li>Lost; lose your next turn</li>
+<li>Lost; lose your next turn</li>
+<li>Safe</li>
+<li>Safe</li>
+<li>A ranger guides you out; gain 1 Craft</li>
+</ol>
+<p><strong>Graveyard — Based on Alignment</strong></p>
+<ul class="rules">
+<li>Good = Lose one life</li>
+<li>Neutral = Replenish fate up-to starting value for one gold each</li>
+<li>Evil = Either replenish fate up-to starting value for FREE or roll D6:
+<ul class="rules">
+<li>1 to 4 = Ignored</li>
+<li>5 = Gain one fate</li>
+<li>6 = Gain one spell</li>
+</ul>
+</li>
+</ul>
+<p><strong>Crags — Roll D6</strong></p>
+<ol>
+<li>Attacked by a Spirit with Craft 4</li>
+<li>Lost; lose your next turn</li>
+<li>Lost; lose your next turn</li>
+<li>Safe; no effect</li>
+<li>Safe; no effect</li>
+<li>A barbarian leads you out; gain 1 Strength</li>
+</ol>
+<p><strong>City — Visit Enchantress, Doctor or Alchemist</strong></p>
+<p>Enchantress — Roll D6:</p>
+<ol>
+<li>You are turned into a Toad for 3 Turns</li>
+<li>Lose 1 Strength</li>
+<li>Lose 1 Craft</li>
+<li>Gain 1 Craft</li>
+<li>Gain 1 Strength</li>
+<li>Gain 1 Spell</li>
+</ol>
+<p>Doctor — heal up-to two lives at one gold per life</p>
+<p>Alchemist — turn any number of objects into gold — one object equal one gold</p>
+<p><strong>Village — Visit Blacksmith, Healer or Mystic</strong></p>
+<p>Blacksmith — Purchase (if available):</p>
+<ul class="rules">
+<li>Helmet — 2G</li>
+<li>Sword — 2G</li>
+<li>Axe — 3G</li>
+<li>Shield — 3G</li>
+<li>Armour — 4G</li>
+</ul>
+<p>Healer — heal up-to your starting life value at one gold per life</p>
+<p>Mystic — Roll D6:</p>
+<ol>
+<li>Become evil</li>
+<li>Ignored</li>
+<li>Ignored</li>
+<li>Become good</li>
+<li>Gain 1 Craft</li>
+<li>Gain 1 Spell</li>
+</ol>
+<p><strong>Tavern — Roll D6</strong></p>
+<ol>
+<li>You get blind drunk and collapse in a corner. Miss 1 turn.</li>
+<li>You get tipsy and get in a fight with a farmer (STRENGTH 3).</li>
+<li>You gamble and lose 1 Gold Coin.</li>
+<li>You gamble and win 1 Gold Coin.</li>
+<li>A wizard offers to teleport you to an Outer Region of your choice as your next move.</li>
+<li>A boatman offers to ferry you to the Temple as your next move.</li>
+</ol>
+<p><strong>Chapel — Based on Alignment</strong></p>
+<ul class="rules">
+<li>Evil = Lose one life</li>
+<li>Neutral = Heal up-to starting life value for one gold per life</li>
+<li>Good = Either heal up-to starting life value for free or PREY by rolling D6:
+<ul class="rules">
+<li>1 to 4 = Ignored</li>
+<li>5 = Gain 1 life</li>
+<li>6 = Gain 1 Spell</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">v0.3.0 · Published by Moddable Games · © 2024–2026 All Rights Reserved</span>
+</footer>
+
+</div>
+<script src="../../js/toc.js?v=0.3.0"></script>
+</body>
+</html>

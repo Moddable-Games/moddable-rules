@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baristasaurus — Official Rulebook v0.1.0</title>
+<meta name="description" content="Complete rules for Baristasaurus, a prehistoric card game about fulfilling coffeeshop orders for 2–5 players.">
+<meta property="og:title" content="Baristasaurus — Official Rulebook v0.1.0">
+<meta property="og:description" content="A prehistoric card game about fulfilling coffeeshop orders for 2–5 players.">
+<meta property="og:image" content="https://rules.moddable.games/games/baristasaurus/og-image.png?v=1.1.4">
+<meta property="og:url" content="https://rules.moddable.games/dist/baristasaurus/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Baristasaurus — Official Rulebook v0.1.0">
+<meta name="twitter:description" content="A prehistoric card game about fulfilling coffeeshop orders for 2–5 players.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/baristasaurus/og-image.png?v=1.1.4">
+<link rel="icon" type="image/png" sizes="32x32" href="../../games/baristasaurus/logos/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../games/baristasaurus/logos/favicon-16.png">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=1.1.4">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=1.1.4">
+<link rel="stylesheet" href="../../shared/css/base.css?v=1.1.4">
+<link rel="stylesheet" href="../../shared/css/components.css?v=1.1.4">
+<link rel="stylesheet" href="../../games/baristasaurus/theme.css?v=1.1.4">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<!-- HEADER -->
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/baristasaurus/content/rulebook.md" class="hdr-link">Markdown</a></div>
+  <span class="hdr-meta">Official Rulebook · v0.1.0</span>
+</header>
+
+<!-- COVER -->
+<div class="cover">
+  <img class="cover-icon" src="../../games/baristasaurus/logos/baristasaurus-logo.png" alt="Baristasaurus">
+  <div class="cover-title">BARISTASAURUS</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">A prehistoric card game about fulfilling coffeeshop orders</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">2–5</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">~20</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">8+</span><span class="cs-lbl">Age</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games · v0.1.0</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<div class="section">
+<div class="eyebrow">Before You Begin</div>
+<h2>How to Play in 5 Minutes</h2>
+<p>Baristasaurus is a competitive card game where players are dinosaur baristas racing to fulfil coffeeshop orders. Collect ingredient cards, match them to orders on the table, and earn tips. First to complete 3 orders triggers the end — most tips wins.</p>
+<div class="highlight">
+<div class="box-title">★ Read This First — The Core Loop</div>
+<p><strong>1. Take 2 actions.</strong> Pick up cards, play cards to the table, trade with other players, or fulfil an order.</p>
+<p><strong>2. Watch the table.</strong> Customers and orders are shared — anyone can fulfil them. But your barista determines WHICH customers you can serve (herbivores vs carnivores).</p>
+<p><strong>3. Fulfil orders for tips.</strong> Match ingredient cards in your hand to an order’s recipe. Satisfy the customer’s extra requests for bonus tips. Add special ingredients for even more.</p>
+<p><strong>4. Race to 3.</strong> The moment any player fulfils their 3rd order, the game ends. Count your tips — highest total wins.</p>
+</div>
+</div>
+<div class="section">
+<div class="eyebrow">Getting Started</div>
+<h2>Setup</h2>
+<ol>
+<li>Randomly select 1 Order card and 1 Customer card; place them face-up together on the table.</li>
+<li>Shuffle all remaining cards and deal 5 to each player face-down.</li>
+<li>Players draft their starting hand: each picks 1 card, passes the rest to the next player. Repeat until all 5 are kept.</li>
+<li>Remaining cards form the draw pile (face-down).</li>
+<li>First player: whoever most recently saw a dinosaur. Play proceeds clockwise.</li>
+</ol>
+</div>
+<div class="section">
+<div class="eyebrow">On Your Turn</div>
+<h2>Actions</h2>
+<p>On your turn, perform up to 2 actions. You may repeat the same action or mix different ones.</p>
+<h3>Pickup Card</h3>
+<p>Draw 1 card from the draw pile.</p>
+<p>Restriction: you can only do this if you have fewer than 12 cards at the start of your turn.</p>
+<p>If the draw pile is empty, shuffle the discard pile to form a new draw pile.</p>
+<h3>Play Card</h3>
+<p>Play a Special Action, Barista, Order, or Customer card from your hand.</p>
+<p><strong>Customer placement:</strong></p>
+<ul class="rules">
+<li>Maximum face-up customers on table = number of players minus 1</li>
+<li>If below maximum, new customer goes face-up on table</li>
+<li>If at maximum, new customer must replace an existing one (replaced card goes to discard)</li>
+</ul>
+<p><strong>Order placement:</strong></p>
+<ul class="rules">
+<li>If there are customers without orders, the order must go to one of them</li>
+<li>If all customers already have orders, new order replaces an existing one</li>
+<li>Cannot play an order if there are zero customers on table</li>
+</ul>
+<p><strong>Barista placement:</strong></p>
+<ul class="rules">
+<li>May be played for ANY player (including yourself)</li>
+<li>Goes face-up in front of the target player</li>
+<li>If target already has a barista, the new one replaces the old one (old goes to discard)</li>
+</ul>
+<p><strong>Special Action cards:</strong></p>
+<ul class="rules">
+<li>Played and resolved immediately, then discarded</li>
+</ul>
+<h3>Trade Cards</h3>
+<p>Either:</p>
+<ul class="rules">
+<li>Discard any 4 cards to draw 3 new cards, OR</li>
+<li>Negotiate a free-form trade with any other player</li>
+</ul>
+<h3>Fulfil Order</h3>
+<p>Requirements:</p>
+<ul class="rules">
+<li>You must have a barista face-up in front of you</li>
+<li>You must have all required ingredient cards in hand</li>
+<li>Your barista must be able to serve the customer (type-matching — see Baristas)</li>
+</ul>
+<p>On fulfilment:</p>
+<ul class="rules">
+<li>Take the order card and place it beside you (your score pile)</li>
+<li>Optionally: add 1 special ingredient card beneath the order for bonus tips</li>
+<li>If you also have the additional ingredients the customer requests, take that customer card too</li>
+<li>All other used cards go to the discard pile</li>
+<li>Once fulfilled, the order stays scored regardless of future barista changes</li>
+</ul>
+</div>
+<div class="section">
+<div class="eyebrow">Endgame</div>
+<h2>Winning</h2>
+<p>The game ends the moment any player fulfils their 3rd order.</p>
+<p>Add up tips from all orders, customers, and special ingredients in your score pile. Apply any active barista bonuses at this stage.</p>
+<p><strong>Winner:</strong> Most tips.</p>
+<p><strong>Tiebreaker 1:</strong> Most ingredients remaining in hand.</p>
+<p><strong>Tiebreaker 2:</strong> Best dinosaur impression.</p>
+</div>
+<div class="section">
+<div class="eyebrow">What's in the Box</div>
+<h2>Components</h2>
+<p>108 cards total:</p>
+<table class="t">
+<thead>
+<tr>
+<th>Card Type</th>
+<th>Count</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Orders</td>
+<td>12</td>
+<td>Coffeeshop drink recipes with ingredient requirements</td>
+</tr>
+<tr>
+<td>Customers</td>
+<td>12</td>
+<td>6 carnivore + 6 herbivore, each with extra requests</td>
+</tr>
+<tr>
+<td>Baristas</td>
+<td>12</td>
+<td>6 carnivore + 6 herbivore, each with unique ability</td>
+</tr>
+<tr>
+<td>Ingredients</td>
+<td>60</td>
+<td>10 each of Milk, Coffee, Cocoa, Ice, Cream, Syrup</td>
+</tr>
+<tr>
+<td>Specials</td>
+<td>12</td>
+<td>6 special ingredients + 6 special actions</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section">
+<div class="eyebrow">The Menu</div>
+<h2>Orders</h2>
+<table class="t">
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Milk</th>
+<th>Coffee</th>
+<th>Cocoa</th>
+<th>Ice</th>
+<th>Cream</th>
+<th>Syrup</th>
+<th>Tips</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Flat White</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sweet Flat White</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Hot Latte</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Sweet Latte</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Cappuccino</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Hot Chocolate</td>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Mocha</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Babyccino</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Iced Latte</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Iced Coffee</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Iced Chocolate</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Iced Mocha</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section">
+<div class="eyebrow">The Regulars</div>
+<h2>Customers</h2>
+<h3>Carnivore Customers</h3>
+<table class="t">
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Extra Request</th>
+<th>Tips</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Extra Sweet</td>
+<td>+1 Syrup</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Cocoa Creamy</td>
+<td>+1 Cocoa, +1 Cream</td>
+<td>4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Strong Cocoa</td>
+<td>+1 Coffee, +1 Cocoa</td>
+<td>4</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Creamy Sweet</td>
+<td>+1 Cream, +1 Syrup</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Strong Creamy</td>
+<td>+1 Coffee, +1 Cream</td>
+<td>4</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Strong Sweet</td>
+<td>+1 Coffee, +1 Syrup</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h3>Herbivore Customers</h3>
+<table class="t">
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Extra Request</th>
+<th>Tips</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>Iced Cocoa Syrup</td>
+<td>+1 Cocoa, +1 Ice, +1 Syrup</td>
+<td>6</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Icey Cream</td>
+<td>+1 Ice, +1 Cream</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Extra Icey</td>
+<td>+1 Ice</td>
+<td>2</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Icey Sweet</td>
+<td>+1 Ice, +1 Syrup</td>
+<td>4</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Icey Cocoa Cream</td>
+<td>+1 Cocoa, +1 Ice, +1 Cream</td>
+<td>6</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Sweet Ice Cream</td>
+<td>+1 Ice, +1 Cream, +1 Syrup</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section">
+<div class="eyebrow">The Staff</div>
+<h2>Baristas</h2>
+<h3>Carnivore Baristas</h3>
+<table class="t">
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Ability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>T-Rex</td>
+<td>Cannot serve herbivores; double tips for carnivores</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Spinosaurus</td>
+<td>Cannot serve herbivores</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Velociraptor</td>
+<td>Can take up to 3 actions per turn</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pyroraptor</td>
+<td>Double tips from herbivores</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Ceratosaurus</td>
+<td>1 extra tip for each fulfilled order</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Compsognathus</td>
+<td>Double tips from carnivores</td>
+</tr>
+</tbody>
+</table>
+<h3>Herbivore Baristas</h3>
+<table class="t">
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Ability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>Stegosaurus</td>
+<td>Cannot serve carnivores</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Triceratops</td>
+<td>Can take up to 3 actions per turn</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Ankylosaurus</td>
+<td>Double tips from carnivores</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Brachiosaurus</td>
+<td>Double tips from herbivores</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Diplodocus</td>
+<td>Cannot serve carnivores; double tips for herbivores</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Bajadasaurus</td>
+<td>1 extra tip for each fulfilled order</td>
+</tr>
+</tbody>
+</table>
+<div class="designer-note">
+<p>Type-matching rule: Herbivore baristas cannot serve carnivore customers, and carnivore baristas cannot serve herbivore customers — unless their ability text does not include the "cannot serve" restriction. Baristas without this restriction may serve any customer type.</p>
+</div>
+</div>
+<div class="section">
+<div class="eyebrow">Bonus Cards</div>
+<h2>Specials</h2>
+<h3>Special Ingredients</h3>
+<p>Played at the moment of fulfilment only — added beneath the order for bonus tips.</p>
+<table class="t">
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Choccy Sprinkles</td>
+<td>Double tips if added to a creamy drink</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Rainbow Dust</td>
+<td>Add 3 to tips if added to babyccino</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Twisty Straws</td>
+<td>Add 1 to tips if added to an icy drink</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Marshmallows</td>
+<td>Add 2 to tips if added to a cocoa drink</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Raspberry Syrup</td>
+<td>1 tip if added to milky drink, or 2 tips with chocolate syrup too</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Chocolate Syrup</td>
+<td>1 tip if added to milky drink, or 2 tips with raspberry syrup too</td>
+</tr>
+</tbody>
+</table>
+<h3>Special Actions</h3>
+<p>Played and resolved immediately on your turn, then discarded.</p>
+<table class="t">
+<thead>
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>Recycle</td>
+<td>Pick any 1 card from the discard pile</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Bully</td>
+<td>Pick 1 player, look at their hand and take 1 card</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Slow Poke</td>
+<td>Fulfil someone else’s order and take the tips with it</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Internship</td>
+<td>Fulfil an order with up to 1 missing ingredient</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Delivery</td>
+<td>Draw 3 new cards</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Shakeup</td>
+<td>Switch any active barista with another active barista</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div><!-- /page -->
+<script src="../../js/toc.js?v=1.1.4"></script>
+</body>
+</html>

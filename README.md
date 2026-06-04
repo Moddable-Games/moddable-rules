@@ -36,7 +36,7 @@ games/
   mongo/                 Placeholder (content pending playtest)
   endless-skies/         Placeholder (content in development)
   dungeon-chess/         Full rulebook (alpha) — mod of Chess
-  talisman-hexed/        Full rulebook (live) — mod of Talisman 4e
+  talisman-worlds/       Rulebook (dev) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
   moddable-chess/        Variant library hub + 70 sub-pages (alpha) — platform
