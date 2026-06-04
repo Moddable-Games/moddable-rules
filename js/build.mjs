@@ -120,9 +120,10 @@ function buildGame(slug) {
     return html.replace(/<ul>\n/g, '<ul class="rules">\n');
   }
 
-  // --- Add .t class to tables ---
+  // --- Wrap tables in overflow container and add .t class ---
   function addTableClass(html) {
-    return html.replace(/<table>/g, '<table class="t">');
+    return html.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
+               .replace(/<\/table>/g, '</table></div>');
   }
 
   // --- Render markdown ---
@@ -280,7 +281,8 @@ function buildVariants(slug) {
 
     let rendered = md.render(withSvgs);
     rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
-    rendered = rendered.replace(/<table>/g, '<table class="t">');
+    rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
+                       .replace(/<\/table>/g, '</table></div>');
 
     const prev = variants[i - 1];
     const next = variants[i + 1];

@@ -605,16 +605,19 @@ Commodity key: Pop = Population, Ice, Wtr = Water, Fod = Food, Wod = Wood, Stn =
 
 ### Cities (8 tiles)
 
-| ID | Name | Biome | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Faction | Special |
-|----|------|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|---------|
-| C01 | Ming's Palace | Mountain | 2 | 1 | 1 | 0 | 0 | 4 | 1 | 2 | 1 | Magneticans | Always has Factory |
-| C02 | Barin's Palace | Forest | 16 | 0 | 2 | 2 | 2 | 1 | 0 | 1 | 0 | Arborians | Always has Factory |
-| C03 | Desira's Palace | Jungle | 14 | 0 | 2 | 2 | 1 | 0 | 0 | 1 | 0 | Tropicans | Always has Factory |
-| C04 | Fria's Palace | Glacial | 4 | 5 | 7 | 2 | 0 | 1 | 1 | 3 | 2 | Frigians | Always has Factory |
-| C05 | Skyland City | Mountain | 12 | 3 | 2 | 1 | 1 | 0 | 0 | 1 | 1 | Hawkmen | Always has Factory |
-| C06 | Fortress of Gundar | Volcanic | 6 | 0 | 0 | 1 | 1 | 2 | 2 | 2 | 0 | Volcanians | Always has Factory |
-| C07 | Fortress of Jugrid | Desert | 10 | 0 | 1 | 1 | 1 | 1 | 4 | 0 | 1 | Lionmen | Always has Factory |
-| C08 | Undina's Palace | Submerged | 8 | 0 | 1 | 1 | 0 | 1 | 1 | 3 | 3 | Coralians | Always has Factory. Not connected to other Submerged Tiles |
+| ID | Name | Biome | Pop | Ice | Wtr | Fod | Wod | Stn | Mtl | Nrg | Gem | Faction |
+|----|------|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------|
+| C01 | Ming's Palace | Mountain | 2 | 1 | 1 | 0 | 0 | 4 | 1 | 2 | 1 | Magneticans |
+| C02 | Barin's Palace | Forest | 16 | 0 | 2 | 2 | 2 | 1 | 0 | 1 | 0 | Arborians |
+| C03 | Desira's Palace | Jungle | 14 | 0 | 2 | 2 | 1 | 0 | 0 | 1 | 0 | Tropicans |
+| C04 | Fria's Palace | Glacial | 4 | 5 | 7 | 2 | 0 | 1 | 1 | 3 | 2 | Frigians |
+| C05 | Skyland City | Mountain | 12 | 3 | 2 | 1 | 1 | 0 | 0 | 1 | 1 | Hawkmen |
+| C06 | Fortress of Gundar | Volcanic | 6 | 0 | 0 | 1 | 1 | 2 | 2 | 2 | 0 | Volcanians |
+| C07 | Fortress of Jugrid | Desert | 10 | 0 | 1 | 1 | 1 | 1 | 4 | 0 | 1 | Lionmen |
+| C08 | Undina's Palace | Submerged | 8 | 0 | 1 | 1 | 0 | 1 | 1 | 3 | 3 | Coralians |
+
+- All cities always have a Factory
+- C08 (Undina's Palace) is not connected to other Submerged Tiles
 
 ### Mountain (14 tiles)
 
