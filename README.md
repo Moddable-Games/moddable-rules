@@ -163,8 +163,15 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 #### 2026-06-04
 - Added Baristasaurus rulebook (playtest)
 - Renamed Talisman Hexed to Talisman Worlds
-- Replaced fabricated rulebooks with real source material
-- Mongo: added full tile manifest (127 hexes across 9 biomes) from digitised source data
+- Mongo: rebuilt all 127 tile stats from verified PDF source (previous data was fabricated)
+- Mongo: rebuilt unit stats with correct columns (Buy/Sell/Use/Build/Move/Hold/Attack/Defend/Range)
+- Mongo: added Build/Harvest table and Faction Modifications
+- Mongo: corrected city IDs (C01-C08), tile names, and commodity values
+- Endless Skies: added 30 player ships across 5 factions with full stats
+- Endless Skies: added 51 outfits (Human, Remnant, Wanderer, Coalition weapons)
+- Endless Skies: added 9 space port board specs with room actions and income
+- Endless Skies: added ship board production tracker (4/31 defined)
+- Endless Skies: fixed Free Worlds starting system (Alkaid → Dabih)
 - Endless Skies: added full system manifest (104 systems across 8 factions) with setup rules
 - Mongo bumped to v0.9.1, Endless Skies bumped to v0.3.0
 
