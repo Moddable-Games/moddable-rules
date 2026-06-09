@@ -3,64 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{game_title}} — Official Rulebook 0.1.0</title>
-<meta name="description" content="{{tagline}}">
-<meta property="og:title" content="{{game_title}} — Official Rulebook 0.1.0">
-<meta property="og:description" content="{{tagline}}">
+<title>Phantom Go — Go</title>
+<meta name="description" content="Complete rules for Phantom Go.">
+<meta property="og:title" content="Phantom Go — Go">
+<meta property="og:description" content="Complete rules for Phantom Go.">
 <meta property="og:type" content="website">
-<link rel="icon" type="image/png" sizes="32x32" href="../../shared/logos/favicon-32.png">
-<link rel="stylesheet" href="../../shared/css/fonts.css">
-<link rel="stylesheet" href="../../shared/css/tokens.css">
-<link rel="stylesheet" href="../../shared/css/base.css">
-<link rel="stylesheet" href="../../shared/css/components.css">
-<link rel="stylesheet" href="../../games/{{slug}}/theme.css">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Phantom Go — Go">
+<meta name="twitter:description" content="Complete rules for Phantom Go.">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../games/go/theme.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
 <div class="page">
 
-<!-- HEADER -->
 <header class="doc-header" role="banner">
-  <div class="hdr-brand">
-    <a href="../../index.html">
-      <img src="../../shared/logos/moddable-white.png" alt="Moddable Games">
-    </a>
-  </div>
-  <div class="hdr-links">
-    <a href="../../games/{{slug}}/content/rulebook.md" class="hdr-link">Markdown</a>
-    <a href="../../games/{{slug}}/pdf/{{slug}}-rulebook-0.1.0.pdf" class="hdr-link">PDF</a>
-  </div>
-  <span class="hdr-meta">Official Rulebook &middot; 0.1.0</span>
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a></div>
+  <span class="hdr-meta">Phantom Go · Go</span>
 </header>
 
-<!-- COVER -->
-<div class="cover">
-  <div class="cover-title">{{game_title}}</div>
-  <div class="cover-sub">Official Rulebook</div>
-  <div class="cover-rule"></div>
-  <p class="cover-tagline">{{tagline}}</p>
-  <div class="cover-stats">
-    <div class="cover-stat">
-      <span class="cs-num">{{players}}</span>
-      <span class="cs-lbl">Players</span>
-    </div>
-    <div class="cover-stat">
-      <span class="cs-num">{{duration}}</span>
-      <span class="cs-lbl">Minutes</span>
-    </div>
-    <div class="cover-stat">
-      <span class="cs-num">{{age}}</span>
-      <span class="cs-lbl">Age</span>
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Go · Variant 2 of 2</span>
+    <h1 class="variant-cover-title">Phantom Go</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">9×9 or 13×13</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2 + referee</span><span class="variant-stat-lbl">Players</span></span>
     </div>
   </div>
-  <p class="cover-pub">Published by Moddable Games &middot; 0.1.0</p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<nav class="toc" id="toc" aria-label="Table of contents"></nav>
-
-<!-- MAIN CONTENT -->
 <main id="main-content" class="content">
+<div class="section">
 
 <h2>Phantom Go</h2>
 <p>Fog-of-war Go. Players cannot see opponent stones. A referee mediates all moves and announces captures. Deduction replaces reading. Played on 9x9 or 13x13 boards.</p>
@@ -100,16 +82,19 @@
 <h3>Attribution</h3>
 <p>Variant with active competitive community. Source: Sensei’s Library (OPL 1.0).</p>
 
-
+</div>
 </main>
 
-<!-- FOOTER -->
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../toroidal-go/" class="variant-pager-prev">← Toroidal Go</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <span class="variant-pager-spacer"></span>
+</nav>
+
 <footer class="doc-footer" role="contentinfo">
-  <p>{{game_title}} Rulebook 0.1.0 &mdash; Published by Moddable Games</p>
+  <span class="ftr-copy">Go v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
-
-<script src="../../js/toc.js"></script>
 </body>
 </html>

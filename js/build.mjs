@@ -148,8 +148,10 @@ function buildGame(slug) {
   const templateVars = {
     version: meta.version || '',
     project_version: projectVersion,
+    slug: slug,
     game_slug: slug,
-    game_title: meta.title || slug,
+    game_title: (meta.title || slug).replace(/ — Official Rulebook$/, ''),
+    tagline: meta.tagline || '',
     players: meta.players || '',
     duration: meta.duration || '',
     age: meta.age || '',
@@ -249,7 +251,7 @@ function buildVariants(slug) {
   if (!parentMeta.variants) return;
 
   const variantTemplatePath = resolve(gameDir, 'templates/variant-shell.html');
-  const fallbackTemplatePath = resolve(SHARED_DIR, 'templates/shell.html');
+  const fallbackTemplatePath = resolve(SHARED_DIR, 'templates/variant-shell.html');
   const templatePath = existsSync(variantTemplatePath) ? variantTemplatePath : fallbackTemplatePath;
   const template = readFileSync(templatePath, 'utf8');
 
@@ -302,6 +304,8 @@ function buildVariants(slug) {
     const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
     output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
     output = output.replace(/\{\{project_version\}\}/g, projVer);
+    output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 

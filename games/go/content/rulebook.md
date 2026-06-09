@@ -79,3 +79,12 @@ When both players believe no more profitable moves remain, they pass. Dead stone
 ### Attribution
 
 Traditional game originating in China approximately 4,000 years ago. Known as Weiqi (Chinese), Baduk (Korean), Igo (Japanese). Public domain. Rules standardised by the International Go Federation.
+
+---
+
+## Variants
+
+| Variant | Board | Key Difference |
+|---------|-------|----------------|
+| [Toroidal Go](variants/toroidal-go/) | 11×11 | Edges wrap, no corners or edges exist |
+| [Phantom Go](variants/phantom-go/) | 9×9 / 13×13 | Fog of war, referee mediates |

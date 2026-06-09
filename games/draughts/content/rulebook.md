@@ -67,3 +67,12 @@ The game is a draw when:
 ### Attribution
 
 English Draughts. Public domain. Rules standardised by the World Draughts Federation (FMJD) and the English Draughts Association.
+
+---
+
+## Variants
+
+| Variant | Board | Key Difference |
+|---------|-------|----------------|
+| [Turkish Draughts](variants/turkish-draughts/) | 8×8 | Orthogonal movement, majority capture rule |
+| [Lasca](variants/lasca/) | 7×7 | Column stacking, pieces never leave the game |
