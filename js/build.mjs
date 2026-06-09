@@ -402,6 +402,7 @@ function buildLanding() {
     <button class="filter-pill filter-pill--game" data-filter="game">Games</button>
     <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
     <button class="filter-pill filter-pill--platform" data-filter="platform">Platforms</button>
+    <button class="filter-pill filter-pill--classic" data-filter="classic">Classics</button>
   </div>
 
   <div class="game-grid">

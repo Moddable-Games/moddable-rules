@@ -24,6 +24,7 @@
   --color-mod: #40a0e0;
   --color-expansion: #40c060;
   --color-platform: #a070d0;
+  --color-classic: #d4a040;
 }
 
 body {
@@ -115,6 +116,10 @@ body {
   background: var(--color-platform);
 }
 
+.filter-pill--classic.active {
+  background: var(--color-classic);
+}
+
 /* Game Grid */
 .game-grid {
   display: grid;
@@ -154,6 +159,10 @@ body {
 
 .game-card[data-type="platform"] {
   border-left-color: var(--color-platform);
+}
+
+.game-card[data-type="classic"] {
+  border-left-color: var(--color-classic);
 }
 
 .game-card:hover {

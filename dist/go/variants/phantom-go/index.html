@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{game_title}} — Official Rulebook 0.1.0</title>
+<meta name="description" content="{{tagline}}">
+<meta property="og:title" content="{{game_title}} — Official Rulebook 0.1.0">
+<meta property="og:description" content="{{tagline}}">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" sizes="32x32" href="../../shared/logos/favicon-32.png">
+<link rel="stylesheet" href="../../shared/css/fonts.css">
+<link rel="stylesheet" href="../../shared/css/tokens.css">
+<link rel="stylesheet" href="../../shared/css/base.css">
+<link rel="stylesheet" href="../../shared/css/components.css">
+<link rel="stylesheet" href="../../games/{{slug}}/theme.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<!-- HEADER -->
+<header class="doc-header" role="banner">
+  <div class="hdr-brand">
+    <a href="../../index.html">
+      <img src="../../shared/logos/moddable-white.png" alt="Moddable Games">
+    </a>
+  </div>
+  <div class="hdr-links">
+    <a href="../../games/{{slug}}/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/{{slug}}/pdf/{{slug}}-rulebook-0.1.0.pdf" class="hdr-link">PDF</a>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; 0.1.0</span>
+</header>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-title">{{game_title}}</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">{{tagline}}</p>
+  <div class="cover-stats">
+    <div class="cover-stat">
+      <span class="cs-num">{{players}}</span>
+      <span class="cs-lbl">Players</span>
+    </div>
+    <div class="cover-stat">
+      <span class="cs-num">{{duration}}</span>
+      <span class="cs-lbl">Minutes</span>
+    </div>
+    <div class="cover-stat">
+      <span class="cs-num">{{age}}</span>
+      <span class="cs-lbl">Age</span>
+    </div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games &middot; 0.1.0</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<!-- MAIN CONTENT -->
+<main id="main-content" class="content">
+
+<h2>Phantom Go</h2>
+<p>Fog-of-war Go. Players cannot see opponent stones. A referee mediates all moves and announces captures. Deduction replaces reading. Played on 9x9 or 13x13 boards.</p>
+<h3>Setup</h3>
+<p><strong>Equipment:</strong> Three boards are needed: one for each player and one for the referee. Players sit back-to-back so neither can see the other’s board. The referee stands between them with the master board showing all stones.</p>
+<p><strong>Board size:</strong> Usually 9x9 or 13x13.</p>
+<p><strong>Stones:</strong> Standard Go stones. Black plays first.</p>
+<h3>Rules</h3>
+<p>All standard Go rules apply (placement, capture, ko, no suicide) with the following modifications:</p>
+<ul class="rules">
+<li><strong>Hidden information:</strong> Players can only see their own stones. Opponent stones are invisible.</li>
+<li><strong>Turn structure:</strong> A player places a stone on their own board. The referee checks legality on the master board. If legal, the referee copies it to the master board and announces the result. If illegal, the player tries again (it remains their turn).</li>
+<li><strong>Passing:</strong> A player may pass. The referee announces passes to both players.</li>
+</ul>
+<h3>Announcements (Common Rules)</h3>
+<ul class="rules">
+<li><strong>Illegal moves:</strong> The referee says only “Illegal move” without stating why.</li>
+<li><strong>Captures:</strong> When a capture occurs, the referee announces “Black/White has captured the following stones” and points out exactly which stones were captured to both players.</li>
+<li><strong>Atari:</strong> The referee announces atari only if the stones were not already in atari before the move. The referee says “Black/White puts White/Black into atari” but does NOT say which specific stones are in atari.</li>
+</ul>
+<h3>Announcements (Hamburg Rules)</h3>
+<p>The Hamburg variant differs in two ways:</p>
+<ul class="rules">
+<li>The referee <strong>reveals why</strong> a move is illegal (occupied by own stone, occupied by opponent stone, suicide, or ko) rather than just saying “Illegal move.”</li>
+<li>The referee does <strong>NOT</strong> point out which specific stones were captured (only announces the number).</li>
+</ul>
+<p>This creates different deduction dynamics: you learn more from failed moves but less from opponent captures.</p>
+<h3>Win Condition</h3>
+<p>Standard Go scoring applies. The game ends when both players pass consecutively. Territory or area scoring determines the winner.</p>
+<h3>Strategy</h3>
+<ul class="rules">
+<li>Information is the scarcest resource. Every failed move attempt reveals something about the board state.</li>
+<li>Playing cautiously (avoiding illegal move attempts) preserves secrecy but risks falling behind.</li>
+<li>Captures are the primary source of confirmed information about opponent stone positions.</li>
+<li>On 9x9 boards, the reduced space makes deduction more tractable.</li>
+</ul>
+<h3>Attribution</h3>
+<p>Variant with active competitive community. Source: Sensei’s Library (OPL 1.0).</p>
+
+
+</main>
+
+<!-- FOOTER -->
+<footer class="doc-footer" role="contentinfo">
+  <p>{{game_title}} Rulebook 0.1.0 &mdash; Published by Moddable Games</p>
+</footer>
+
+</div>
+
+<script src="../../js/toc.js"></script>
+</body>
+</html>

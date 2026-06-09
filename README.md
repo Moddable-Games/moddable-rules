@@ -10,10 +10,19 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 | Game | Version | Players | Status |
 |------|---------|---------|--------|
-| **Nukes** | 0.9.5 | 2–3 | Live |
+| **Nukes** | 0.9.6 | 2–3 | Live |
 | **Mongo** | 0.9.2 | 2–8 | Dev |
 | **Endless Skies** | 0.4.0 | 2–8 | Dev |
 | **Baristasaurus** | 0.1.0 | 2–5 | Playtest |
+
+---
+
+## Classics
+
+| Game | Version | Players | Variants | Status |
+|------|---------|---------|----------|--------|
+| **Draughts** | 0.1.0 | 2 | 2 (Turkish, Lasca) | Live |
+| **Go** | 0.1.0 | 2 | 2 (Toroidal, Phantom) | Live |
 
 ---
 
@@ -159,6 +168,15 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-06-09
+- Added Draughts (English standard + Turkish Draughts and Lasca variants)
+- Added Go (standard rules + Toroidal Go and Phantom Go variants)
+- New "Classics" category with gold accent colour and landing page filter pill
+- Nukes v0.9.6: terminology pass (token/unit/platoon), team feedback fixes, 20-page PDF
+- Fixed build system table-wrap regex (broke ref-page/appendix out of page container)
+- Fixed Suicide Chess variant page formatting (issue #50)
+- Site version 1.1.6, search index now 540 entries across 11 games
 
 #### 2026-06-05
 - Version bumps: Econopoly 0.2.0, Endless Skies 0.4.0, Hyper Imperium 0.7.0, Mongo 0.9.2

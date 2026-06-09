@@ -1,5 +1,77 @@
 [
   {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Standard Draughts (English)",
+    "content": "English Draughts is the base game from which all regional variants derive. Known as \"Checkers\" in North America, it is played on the dark squares of a standard 8x8 board.",
+    "anchor": "standard-draughts-english"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Components",
+    "content": "Qty ----- 1 24",
+    "anchor": "components"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Setup",
+    "content": "Place the board so each player has a dark corner square on their left. Each player places their 12 men on the dark squares of the three rows closest to them. The two central rows remain empty. The pla",
+    "anchor": "setup"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Movement",
+    "content": "- Men move diagonally forward only, one square at a time, to an unoccupied dark square. - Men cannot move backwards or sideways.",
+    "anchor": "movement"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Capturing",
+    "content": "- A man captures by jumping diagonally forward over an adjacent opponent piece to the vacant square beyond. The captured piece is removed from the board. - Captures are mandatory: if a capture is avai",
+    "anchor": "capturing"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "King Promotion",
+    "content": "When a man reaches the opponent's back row the row furthest from where it started, it is promoted to a King. A second piece is placed on top to mark it. - Kings move diagonally in any direction forwar",
+    "anchor": "king-promotion"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move available. This occurs either because: - All opponent pieces have been captured, or - All remaining opponent pieces are completely blocked from movi",
+    "anchor": "winning"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Draws",
+    "content": "The game is a draw when: - Both players agree to a draw. - The same position occurs three times with the same player to move. - 40 consecutive moves pass with no capture and no man reaching the King r",
+    "anchor": "draws"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Standard Draughts (English)",
+    "heading": "Attribution",
+    "content": "English Draughts. Public domain. Rules standardised by the World Draughts Federation FMJD and the English Draughts Association.",
+    "anchor": "attribution"
+  },
+  {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
     "section": "What Is Dungeon Chess?",
@@ -214,6 +286,102 @@
     "heading": "Four Player Dungeon (4 players)",
     "content": "A symmetric cross with four arms. Each player claims one arm as their deployment zone 2 rows at the end of each arm. A central 8×8 arena with 4×4 water connects all four corridors. The largest and mos",
     "anchor": "four-player-dungeon-4-players"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Standard Go",
+    "content": "Go is a territorial strategy game for two players. Black and White take turns placing stones on the intersections of a grid, attempting to surround more territory than their opponent. Despite having o",
+    "anchor": "standard-go"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Components",
+    "content": "Qty ----- 1 181 180 2 2",
+    "anchor": "components"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Setup",
+    "content": "The board starts empty. Black plays first. Stones are placed on intersections where lines cross, not inside squares.",
+    "anchor": "setup"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Placement",
+    "content": "On each turn, a player places one stone of their colour on any empty intersection. A player may also pass instead of placing a stone. Stones do not move once placed unless captured.",
+    "anchor": "placement"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Liberties and Capture",
+    "content": "- An empty intersection adjacent to a stone horizontally or vertically, not diagonally is called a liberty. - Adjacent stones of the same colour form a group and share their liberties. - If a group ha",
+    "anchor": "liberties-and-capture"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Ko Rule",
+    "content": "A player may not make a move that returns the board to the immediately previous position. In practice: if one player captures a single stone, the opponent cannot immediately recapture that same stone.",
+    "anchor": "ko-rule"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Suicide",
+    "content": "A move that would leave your own stone or group with zero liberties without capturing any opponent stones is forbidden under Japanese and Chinese rules. The stone simply cannot be placed there.",
+    "anchor": "suicide"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Scoring",
+    "content": "The game ends when both players pass consecutively. Area scoring Chinese rules: Your score equals the number of your stones on the board plus the number of empty intersections surrounded only by your ",
+    "anchor": "scoring"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Komi",
+    "content": "White receives 6.5 points of compensation komi for moving second on a 19x19 board. The half-point prevents draws. Common komi values: 6.5 19x19, 5.5 13x13, 5.5 9x9.",
+    "anchor": "komi"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Endgame",
+    "content": "When both players believe no more profitable moves remain, they pass. Dead stones stones that cannot avoid capture are removed by agreement. If players disagree about which stones are dead, play resum",
+    "anchor": "endgame"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Board Sizes",
+    "content": "Intersections Notes ------ ------------------ 361 Tournament standard 13x13 30–60 min 81 Beginners and quick games |",
+    "anchor": "board-sizes"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go",
+    "heading": "Attribution",
+    "content": "Traditional game originating in China approximately 4,000 years ago. Known as Weiqi Chinese, Baduk Korean, Igo Japanese. Public domain. Rules standardised by the International Go Federation.",
+    "anchor": "attribution"
   },
   {
     "game": "moddable-chess",
@@ -502,6 +670,276 @@
     "heading": "Biomes",
     "content": "Each region belongs to one of seven biome types. Terrain restrictions apply based on the {nowrap unit count.} ✦ \"Needs Support to Pass\" — What This Means A platoon can transit through a restricted ter",
     "anchor": "biomes"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Lasca",
+    "heading": "Lasca",
+    "content": "Emanuel Lasker's 1911 column checkers. Captured pieces stack beneath the captor instead of leaving the board. All 22 pieces stay in play for the entire game. Ownership shifts as columns change hands.",
+    "anchor": "lasca",
+    "variant": "lasca",
+    "variantUrl": "dist/draughts/variants/lasca/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Lasca",
+    "heading": "Setup",
+    "content": "Board: 7x7 board using only the 25 diagonal squares like draughts. Pieces: Each player starts with 11 pieces. White occupies all 11 squares on rows 1, 2, and 3. Black occupies all 11 squares on rows 5",
+    "anchor": "setup",
+    "variant": "lasca",
+    "variantUrl": "dist/draughts/variants/lasca/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Lasca",
+    "heading": "Rules",
+    "content": "- Soldiers: Unpromoted pieces soldiers move and capture diagonally forward only, one square at a time. - Officers: When a soldier reaches the opponent's back row, it is promoted to an officer. Officer",
+    "anchor": "rules",
+    "variant": "lasca",
+    "variantUrl": "dist/draughts/variants/lasca/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Lasca",
+    "heading": "Win Condition",
+    "content": "A player wins when their opponent cannot make any legal move: either all opponent pieces are buried inside columns controlled by the other player, or all opponent-controlled pieces are blocked.",
+    "anchor": "win-condition",
+    "variant": "lasca",
+    "variantUrl": "dist/draughts/variants/lasca/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Lasca",
+    "heading": "Strategy",
+    "content": "Because pieces are never eliminated, the game is about control rather than attrition. Building tall columns creates power but also concentrates risk. Liberating buried officers can swing the game dram",
+    "anchor": "strategy",
+    "variant": "lasca",
+    "variantUrl": "dist/draughts/variants/lasca/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Lasca",
+    "heading": "Attribution",
+    "content": "Invented by Emanuel Lasker World Chess Champion, 1911. Public domain. Source: Wikipedia + Lasker 1911 CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "lasca",
+    "variantUrl": "dist/draughts/variants/lasca/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Turkish Draughts",
+    "heading": "Turkish Draughts",
+    "content": "Orthogonal movement on an 8x8 board replaces the diagonal play of standard draughts. Mandatory captures, majority rule, and immediate removal create sharp tactical puzzles. World Championships held si",
+    "anchor": "turkish-draughts",
+    "variant": "turkish-draughts",
+    "variantUrl": "dist/draughts/variants/turkish-draughts/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Turkish Draughts",
+    "heading": "Setup",
+    "content": "Board: 8x8 mono-coloured board not checkered. All 64 squares are used. Pieces: Each player begins with 16 men arranged in two rows: White on rows 2 and 3, Black on rows 6 and 7. The back rows 1 and 8 ",
+    "anchor": "setup",
+    "variant": "turkish-draughts",
+    "variantUrl": "dist/draughts/variants/turkish-draughts/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Turkish Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move orthogonally straight forwards or sideways by one square. Men cannot move backwards. Men cannot move diagonally. - Capturing: Captures are made by jumping over an adjacent opp",
+    "anchor": "rules",
+    "variant": "turkish-draughts",
+    "variantUrl": "dist/draughts/variants/turkish-draughts/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Turkish Draughts",
+    "heading": "Win Condition",
+    "content": "A player wins when their opponent has no legal move available: either all pieces captured or all pieces blocked.",
+    "anchor": "win-condition",
+    "variant": "turkish-draughts",
+    "variantUrl": "dist/draughts/variants/turkish-draughts/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Turkish Draughts",
+    "heading": "Draws",
+    "content": "A King versus a single man results in a draw.",
+    "anchor": "draws",
+    "variant": "turkish-draughts",
+    "variantUrl": "dist/draughts/variants/turkish-draughts/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Turkish Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "turkish-draughts",
+    "variantUrl": "dist/draughts/variants/turkish-draughts/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Phantom Go",
+    "content": "Fog-of-war Go. Players cannot see opponent stones. A referee mediates all moves and announces captures. Deduction replaces reading. Played on 9x9 or 13x13 boards.",
+    "anchor": "phantom-go",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Setup",
+    "content": "Equipment: Three boards are needed: one for each player and one for the referee. Players sit back-to-back so neither can see the other's board. The referee stands between them with the master board sh",
+    "anchor": "setup",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Rules",
+    "content": "All standard Go rules apply placement, capture, ko, no suicide with the following modifications: - Hidden information: Players can only see their own stones. Opponent stones are invisible. - Turn stru",
+    "anchor": "rules",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Announcements (Common Rules)",
+    "content": "- Illegal moves: The referee says only \"Illegal move\" without stating why. - Captures: When a capture occurs, the referee announces \"Black/White has captured the following stones\" and points out exact",
+    "anchor": "announcements-common-rules",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Announcements (Hamburg Rules)",
+    "content": "The Hamburg variant differs in two ways: - The referee reveals why a move is illegal occupied by own stone, occupied by opponent stone, suicide, or ko rather than just saying \"Illegal move.\" - The ref",
+    "anchor": "announcements-hamburg-rules",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Win Condition",
+    "content": "Standard Go scoring applies. The game ends when both players pass consecutively. Territory or area scoring determines the winner.",
+    "anchor": "win-condition",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Strategy",
+    "content": "- Information is the scarcest resource. Every failed move attempt reveals something about the board state. - Playing cautiously avoiding illegal move attempts preserves secrecy but risks falling behin",
+    "anchor": "strategy",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Phantom Go",
+    "heading": "Attribution",
+    "content": "Variant with active competitive community. Source: Sensei's Library OPL 1.0.",
+    "anchor": "attribution",
+    "variant": "phantom-go",
+    "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Toroidal Go",
+    "heading": "Toroidal Go",
+    "content": "Standard Go played on a board where edges wrap around horizontally and vertically. No corners, no edges, no joseki. Every group floats. Active tournament community since 2012 with 1,400+ recorded game",
+    "anchor": "toroidal-go",
+    "variant": "toroidal-go",
+    "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Toroidal Go",
+    "heading": "Setup",
+    "content": "Board: A grid where the far left connects to the far right, and the top connects to the bottom. Every intersection has exactly four neighbours. The standard size is 11x11, though 9x9 through 25x25 are",
+    "anchor": "setup",
+    "variant": "toroidal-go",
+    "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Toroidal Go",
+    "heading": "Rules",
+    "content": "All standard Go rules apply placement, capture by surrounding, ko rule, no suicide with one modification: - Wraparound adjacency: Each intersection on the far left is adjacent to the corresponding int",
+    "anchor": "rules",
+    "variant": "toroidal-go",
+    "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Toroidal Go",
+    "heading": "Strategy",
+    "content": "- All groups are floating from the opening move. Corner joseki standard sequences do not exist. - Making two eyes to live is harder because there are no natural safe structures at board edges. - Split",
+    "anchor": "strategy",
+    "variant": "toroidal-go",
+    "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Toroidal Go",
+    "heading": "Visualisation",
+    "content": "Most software displays 3-4 extra lines around the main grid as duplicates of the opposite edges shown in a different background colour. On a physical 19x19 board, 11x11 toroidal Go can be played using",
+    "anchor": "visualisation",
+    "variant": "toroidal-go",
+    "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Toroidal Go",
+    "heading": "Tournament History",
+    "content": "On LittleGolem, an ongoing ladder tournament has 21 players. A previous tournament ran from 2012 to 2020: 129 players, 1,497 games, 138 rounds, average 76 moves per game. The European Go Congress has ",
+    "anchor": "tournament-history",
+    "variant": "toroidal-go",
+    "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Toroidal Go",
+    "heading": "Attribution",
+    "content": "Variant with active competitive community. Source: Sensei's Library OPL 1.0.",
+    "anchor": "attribution",
+    "variant": "toroidal-go",
+    "variantUrl": "dist/go/variants/toroidal-go/"
   },
   {
     "game": "moddable-chess",

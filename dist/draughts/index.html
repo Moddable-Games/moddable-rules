@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Draughts — Official Rulebook — Official Rulebook 0.1.0</title>
+<meta name="description" content="{{tagline}}">
+<meta property="og:title" content="Draughts — Official Rulebook — Official Rulebook 0.1.0">
+<meta property="og:description" content="{{tagline}}">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" sizes="32x32" href="../../shared/logos/favicon-32.png">
+<link rel="stylesheet" href="../../shared/css/fonts.css">
+<link rel="stylesheet" href="../../shared/css/tokens.css">
+<link rel="stylesheet" href="../../shared/css/base.css">
+<link rel="stylesheet" href="../../shared/css/components.css">
+<link rel="stylesheet" href="../../games/{{slug}}/theme.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<!-- HEADER -->
+<header class="doc-header" role="banner">
+  <div class="hdr-brand">
+    <a href="../../index.html">
+      <img src="../../shared/logos/moddable-white.png" alt="Moddable Games">
+    </a>
+  </div>
+  <div class="hdr-links">
+    <a href="../../games/{{slug}}/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/{{slug}}/pdf/{{slug}}-rulebook-0.1.0.pdf" class="hdr-link">PDF</a>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; 0.1.0</span>
+</header>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-title">Draughts — Official Rulebook</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">{{tagline}}</p>
+  <div class="cover-stats">
+    <div class="cover-stat">
+      <span class="cs-num">2</span>
+      <span class="cs-lbl">Players</span>
+    </div>
+    <div class="cover-stat">
+      <span class="cs-num">30 min</span>
+      <span class="cs-lbl">Minutes</span>
+    </div>
+    <div class="cover-stat">
+      <span class="cs-num">6+</span>
+      <span class="cs-lbl">Age</span>
+    </div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games &middot; 0.1.0</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<!-- MAIN CONTENT -->
+<main id="main-content" class="content">
+
+<h2>Standard Draughts (English)</h2>
+<p>English Draughts is the base game from which all regional variants derive. Known as “Checkers” in North America, it is played on the dark squares of a standard 8x8 board.</p>
+<h3>Components</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>8x8 checkered board (64 squares, only 32 dark squares used)</td>
+</tr>
+<tr>
+<td><strong>Men</strong></td>
+<td>24</td>
+<td>12 per player in two distinct colours</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Setup</h3>
+<p>Place the board so each player has a dark corner square on their left. Each player places their 12 men on the dark squares of the three rows closest to them. The two central rows remain empty. The player with darker pieces moves first.</p>
+<h3>Movement</h3>
+<ul class="rules">
+<li>Men move diagonally forward only, one square at a time, to an unoccupied dark square.</li>
+<li>Men cannot move backwards or sideways.</li>
+</ul>
+<h3>Capturing</h3>
+<ul class="rules">
+<li>A man captures by jumping diagonally forward over an adjacent opponent piece to the vacant square beyond. The captured piece is removed from the board.</li>
+<li>Captures are <strong>mandatory</strong>: if a capture is available, it must be taken.</li>
+<li><strong>Multiple captures</strong>: if after a jump another capture is immediately available, the same piece must continue jumping. A multi-capture sequence must be completed in full.</li>
+<li>If multiple capture options exist on a turn, the player may freely choose which one to take (no majority rule in English Draughts).</li>
+</ul>
+<h3>King Promotion</h3>
+<p>When a man reaches the opponent’s back row (the row furthest from where it started), it is promoted to a King. A second piece is placed on top to mark it.</p>
+<ul class="rules">
+<li>Kings move diagonally in any direction (forward or backward), one square at a time.</li>
+<li>Kings capture diagonally in any direction by jumping over an adjacent opponent piece.</li>
+<li>If a man reaches the back row during a multi-capture sequence, it is promoted immediately and the sequence ends there (the new King cannot continue capturing on the same turn).</li>
+</ul>
+<h3>Winning</h3>
+<p>A player wins when their opponent has no legal move available. This occurs either because:</p>
+<ul class="rules">
+<li>All opponent pieces have been captured, or</li>
+<li>All remaining opponent pieces are completely blocked from moving.</li>
+</ul>
+<h3>Draws</h3>
+<p>The game is a draw when:</p>
+<ul class="rules">
+<li>Both players agree to a draw.</li>
+<li>The same position occurs three times with the same player to move.</li>
+<li>40 consecutive moves pass with no capture and no man reaching the King row.</li>
+<li>Neither player can force a win (e.g. one King vs one King).</li>
+</ul>
+<h3>Attribution</h3>
+<p>English Draughts. Public domain. Rules standardised by the World Draughts Federation (FMJD) and the English Draughts Association.</p>
+
+
+</main>
+
+<!-- FOOTER -->
+<footer class="doc-footer" role="contentinfo">
+  <p>Draughts — Official Rulebook Rulebook 0.1.0 &mdash; Published by Moddable Games</p>
+</footer>
+
+</div>
+
+<script src="../../js/toc.js"></script>
+</body>
+</html>
