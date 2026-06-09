@@ -122,8 +122,7 @@ function buildGame(slug) {
 
   // --- Wrap tables in overflow container and add .t class ---
   function addTableClass(html) {
-    return html.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
-               .replace(/<\/table>/g, '</table></div>');
+    return html.replace(/<table>([\s\S]*?)<\/table>/g, '<div class="table-wrap"><table class="t">$1</table></div>');
   }
 
   // --- Render markdown ---

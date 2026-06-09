@@ -19,13 +19,13 @@
   </div>
 
   <div class="clar-item">
-    <div class="clar-q">Do infantry block friendly units as well as enemy units?</div>
-    <div class="clar-a"><strong>Yes.</strong> Infantry cannot pass through any region containing any other units — including your own Infantry and Artillery. Only your own Airborne and Bases can be passed through freely. This means the positioning of your own platoons creates movement corridors and dead ends for your own Infantry.</div>
+    <div class="clar-q">What blocks Infantry movement?</div>
+    <div class="clar-a">Infantry cannot pass through regions containing friendly Infantry or Artillery platoons, or any enemy units. Infantry <strong>can</strong> pass through regions containing friendly Airborne, Bases, and Cities. This means the positioning of your own platoons creates movement corridors and dead ends for your own Infantry.</div>
   </div>
 
   <div class="clar-item">
     <div class="clar-q">Can Airborne pass through mountains?</div>
-    <div class="clar-a"><strong>Only with Base support.</strong> Airborne can pass through a mountain region if and only if one of your own Bases is already present in that mountain. Without a Base there, the mountain is completely impassable for Airborne.</div>
+    <div class="clar-a"><strong>Only with Base support.</strong> Airborne cannot pass through or end its turn in a mountain region unless one of your own Bases is also present there. Without a Base, mountains are completely off-limits for Airborne — both as an intermediate step and as a destination.</div>
   </div>
 
   <div class="clar-item">
@@ -44,13 +44,18 @@
   </div>
 
   <div class="clar-item">
+    <div class="clar-q">Can a unit that changed platoon type mid-turn move again as its new type? <span class="clar-new">New</span></div>
+    <div class="clar-a"><strong>No.</strong> If any unit in a region was involved in a move this turn, the entire region is locked. For example: Infantry moves into a region containing another Infantry, forming Artillery (2 units). That Artillery cannot then perform a jump — because the units in that region have already moved. The "no unit moves twice" rule applies to all units in the destination region, not just the arriving unit.</div>
+  </div>
+
+  <div class="clar-item">
     <div class="clar-q">When does terrain destruction trigger, and why does it matter?</div>
-    <div class="clar-a"><strong>At the very end of the turn</strong> — Phase 3 — once all moves and combat are resolved. <span class="nowrap">Only the final resting position matters.</span> A token may transit through restricted terrain regions mid-move and end safely elsewhere — it will not be destroyed. The key question is always: what is the token count in this region at end of turn, and is that platoon type permitted here? Nuke blasts and Meltdowns are the exception: those are immediate.</div>
+    <div class="clar-a"><strong>At the very end of the turn</strong> — Phase 3 — once all moves and combat are resolved. <span class="nowrap">Only the final resting position matters.</span> A platoon may transit through restricted terrain regions mid-move and end safely elsewhere — it will not be destroyed. The key question is always: what is the unit count in this region at end of turn, and is that platoon type permitted here? Nuke blasts and Meltdowns are the exception: those are immediate.</div>
   </div>
 
   <div class="clar-item">
     <div class="clar-q">How do terrain restrictions interact with fluid platoons?</div>
-    <div class="clar-a">Always evaluate the token count at end of turn, not unit origin. If an Infantry token joins a water region containing friendly Artillery tokens, those 3 tokens are now Airborne — which has no water restriction. The restriction disappears because the platoon type changed. A region with 2 tokens in water is Artillery (destroyed). A region with 3 tokens in water is Airborne (safe).</div>
+    <div class="clar-a">Always evaluate the unit count at end of turn. If hostage returns place 3 of your opponent's units into a water region over multiple turns, those 3 units form Airborne — which has no water restriction. The restriction depends on the final platoon type: 1 unit in water (Infantry) = destroyed. 2 units in water (Artillery) = destroyed. 3 units in water (Airborne) = safe. The key question is always: what is the unit count at end of turn, and is that platoon type restricted here?</div>
   </div>
 
   <div class="clar-item">
@@ -76,7 +81,7 @@
   
   <div class="clar-item">
     <div class="clar-q">What can artillery land on after pivoting at a Base? <span class="clar-new">New</span></div>
-    <div class="clar-a">After arriving at the pivot Base, artillery may land on: the <strong>Base itself</strong> (tokens merge); any of the <strong>5 adjacent hexes it did not arrive from</strong> (whether empty or containing friendly units — tokens merge via fluid rules); or <strong>further beyond</strong> any of those adjacent hexes that contain units, by jumping over them exactly as normal. How far artillery can reach in any direction depends entirely on what units are present around the Base — the pivot simply opens up all directions, and the standard jump rules apply from there.</div>
+    <div class="clar-a">After arriving at the pivot Base, artillery may land on: the <strong>Base itself</strong> (units merge); any of the <strong>5 adjacent hexes it did not arrive from</strong> (whether empty or containing friendly units — units merge via fluid rules); or <strong>further beyond</strong> any of those adjacent hexes that contain units, by jumping over them exactly as normal. How far artillery can reach in any direction depends entirely on what units are present around the Base — the pivot simply opens up all directions, and the standard jump rules apply from there.</div>
   </div>
   <div class="clar-item">
     <div class="clar-q">Are there two separate ways to be eliminated?</div>

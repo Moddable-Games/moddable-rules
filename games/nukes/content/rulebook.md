@@ -1,6 +1,6 @@
 ---
 title: "Nukes — Official Rulebook"
-version: "0.9.5"
+version: "0.9.6"
 slug: "nukes"
 players: "2–3"
 duration: "45+ min"
@@ -22,18 +22,18 @@ Nukes is a 2–3 player strategy game played on a board of hexagonal regions. Yo
 <div class="highlight">
 <div class="box-title">★ Read This First — The Two Core Ideas</div>
 
-**1. Units are fluid.** Tokens have no fixed type. The number of tokens in a region determines what they are: 1 = Infantry, 2 = Artillery, 3 = Airborne, 4+ = Base. This changes constantly as tokens move, and it governs movement, combat, and terrain {nowrap|safety.}
+**1. Platoons are fluid.** Tokens have no fixed type. The number of units in a region determines the platoon type: 1 = Infantry, 2 = Artillery, 3 = Airborne, 4+ = Base. This changes constantly as units join or leave regions, and it governs movement, combat, and terrain {nowrap|safety.}
 
 **2. Hostages are your engine.** You hold your opponents' tokens. Each turn you must return 1–3 of them to their owner's forces on the board — this earns you moves, but also reinforces your enemy. Your hostage supply is finite. When it runs out, you {nowrap|lose.}
 </div>
 
 ### The Core Loop
 
-- **Return 1–3 hostages** to regions where their owner already has units — earning one move per token returned.
-- **Move your platoons.** Infantry chains through same-biome terrain. Artillery fires in straight lines over occupied regions. Airborne drops exactly two regions away and can slingshot through friendly Bases.
+- **Return 1–3 hostages** to regions where their owner already has units — earning one move per token returned. You choose which of your units to move.
+- **Move your platoons.** Infantry chains through same-biome terrain. Artillery fires in straight lines over occupied regions. Airborne drops exactly two regions away and can slingshot through friendly Airborne or Bases.
 - **Attack** by moving into an enemy region — but only if you have strictly greater strength than the defender.
 - **Capture enemy units** as hostages instead of destroying them, sacrificing your own units to do so.
-- **Build Bases** (4+ units in one region) to convert units into isotopes and {nowrap|unlock nuclear strikes.}
+- **Build Bases** (4+ units in one region) to convert units into isotopes and {nowrap|unlock additional nuclear strikes.}
 - **Win** by destroying or occupying an opponent's city — or outlasting everyone else.
 
 <div class="designer-note">
@@ -54,18 +54,21 @@ Nukes is a 2–3 player strategy game played on a board of hexagonal regions. Yo
 | **Bookmark Reference Cards** | 3 | One per player — see the Quick Reference section of this rulebook. |
 | **Rulebook** | 1 | This document. |
 
-### Tokens — What They Represent
+### Tokens
 
-There are no separate pieces for different unit types. Token count and location {nowrap|determine everything.}
+There are 25 tokens in 3 different colours for a total of 75 tokens. Depending upon where those tokens are located or how many are placed together, they can represent:
 
-| Token State | Represents |
-|-------------|-----------|
-| **On the board — 1 token** | Infantry |
-| **On the board — 2 tokens** | Artillery |
-| **On the board — 3 tokens** | Airborne |
-| **On the board — 4 to 9 tokens** | Base (does not move) |
-| **Off the board, beside it** | Isotopes — your nuke fuel reserve |
-| **Held by another player** | Hostages — your tokens, in enemy hands |
+- **Hostages** – tokens belonging to you that are owned by someone else
+- **Isotopes** – tokens belonging to you that are not on the board
+- **Units** – tokens belonging to you that are on the board
+- **Bases** – 4 or more units within a single region on the board
+
+A **Platoon** is a unit or group of units that move as one:
+
+- **Infantry** – 1 unit moving from a single region on the board
+- **Artillery** – 2 units moving from a single region on the board
+- **Airborne** – 3 units moving from a single region on the board
+- **Nukes** – 1 unit emerging from a Base that has spent at least 1 isotope
 
 ### Hex Tiles by Biome
 
@@ -121,9 +124,10 @@ The board uses 37 of the 44 tiles and can be built three ways:
 | Deserts | 1 | 3 |
 | Cities | 1 | 3 |
 
-<p class="table-note">★ In 3-player games the central region must not be a City.</p>
 </div>
 </div>
+
+<p class="table-note">★ The central region must not be a City in either format.</p>
 
 ### Starting Positions
 
@@ -174,13 +178,13 @@ Turns proceed clockwise. Each turn has three phases, always in this order.
 <div class="highlight">
 <div class="box-title">✦ Understanding the Hostage Mechanic</div>
 
-You hold tokens belonging to your opponents. Like hostages in the real world, they are under your control until returned home. When you return them, each token goes to a region on the board where **that token's owner already has at least one unit** — physically joining that region and potentially upgrading its platoon type. Returning tokens earns you moves, but directly strengthens your enemy's forces.
+You hold your opponents' tokens as hostages in your supply. When you return a hostage, you take one of your opponent's tokens from your own supply and place it on a region where **that opponent already has at least one unit** — physically joining that region and potentially upgrading its platoon type. Returning hostages earns you moves, but directly strengthens your enemy's forces.
 **This tension is the engine of the game.**
 </div>
 
 - You **must** return between 1 and 3 hostage tokens each turn — at least 1 is mandatory.
 - Each token goes to a region where **that token's owner already has units present**. You cannot return a token to an empty region or to one of your own regions.
-- The returned token **physically joins that region**, increasing the unit count. A 2-token Artillery may become 3-token Airborne. A 3-token Airborne may become a 4-token Base — with all {nowrap|consequences that follow.}
+- The returned token **physically joins that region**, increasing the unit count. A 2-unit Artillery may become a 3-unit Airborne. A 3-unit Airborne may become a 4-unit Base — with all {nowrap|consequences that follow.}
 - You may return **no more than 1 token per region** per turn.
 - The number of tokens returned equals the number of **moves earned** this turn.
 - {warn|If you have no hostages to return}, your city is immediately destroyed and you {nowrap|are eliminated.}
@@ -191,11 +195,11 @@ You hold tokens belonging to your opponents. Like hostages in the real world, th
 - Moves are **optional**. You may use fewer than you earned. Only return as many hostages as moves you actually need — every returned token costs you.
 - You may move a **maximum of 3 units in total** per turn. Valid combinations: 1 Airborne (3 units), 1 Artillery + 1 Infantry, or up to 3 Infantry.
 - Each move is: moving a platoon into any empty region, into a region containing friendly units, or attacking an enemy-occupied region.
-- The **same unit(s) cannot move more than once** per turn — except within {nowrap|an Airborne Slingshot.}
+- The **same unit(s) cannot move more than once** per turn — except within an Airborne Slingshot. This includes units that changed platoon type mid-turn: if Infantry moves into a region and becomes part of an Artillery (2 units), that Artillery cannot then move. None of the units in the destination region may move again {nowrap|that turn.}
 
 ### Phase 3 — End-of-Turn Resolution
 
-After all moves and combat are resolved, any units resting in restricted terrain they cannot safely occupy are destroyed. Only a unit's **final resting position** matters — a token may transit through a restricted terrain region during a move and end safely {nowrap|elsewhere with no penalty.}
+After all moves and combat are resolved, any units resting in restricted terrain they cannot safely occupy are destroyed. Only a platoon's **final resting position** matters — a platoon may transit through a restricted terrain region during a move and end safely {nowrap|elsewhere with no penalty.}
 
 <div class="box teal">
 <div class="box-title">✦ Immediate vs End-of-Turn Destruction</div>
@@ -209,12 +213,12 @@ Nuke blasts and Meltdowns destroy units **immediately** when triggered — not a
 
 ## Units & Platoons
 
-Platoon type is determined solely by the **current token count** in a region. This fluidity is fundamental — tokens become different unit types as they {nowrap|join or leave regions.}
+Platoon type is determined solely by the **current unit count** in a region. This fluidity is fundamental — platoons change type as units {nowrap|join or leave regions.}
 
 <div class="box teal">
 <div class="box-title">✦ The Fluid Platoon Principle</div>
 
-If 1 infantry token moves into a region containing 2 artillery tokens, those 3 tokens are now Airborne — with all of Airborne's permissions and restrictions. At end of turn, a region with 3 tokens in water is Airborne (safe). Two tokens in water is Artillery (destroyed). Always ask: **how many tokens are here, and {nowrap|what does that make them?}**
+If 1 unit (Infantry) moves into a region containing 2 units (Artillery), those 3 units are now Airborne — with all of Airborne's permissions and restrictions. At end of turn, a region with 3 units in water is Airborne (safe). Two units in water is Artillery (destroyed). Always ask: **how many units are here, and {nowrap|what platoon does that make?}**
 </div>
 
 {{include:unit-cards.html}}
@@ -228,13 +232,13 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 </div>
 <div class="diagram-box">
 <div class="diagram-title">Can Enter, Cannot Pass Through</div>
-{{svg:infantry_blocking_v2.svg "Infantry can move into a friendly Artillery region (tokens merge). It cannot move through it. Mountains seal the corridor — the fields beyond the Artillery are unreachable. Six adjacent mountains are reachable as a final step."}}
+{{svg:infantry_blocking_v2.svg "Infantry can move into a friendly Artillery region (tokens merge). It cannot move through it. Mountains seal the corridor — the fields beyond the Artillery are unreachable."}}
 </div>
 </div>
 
 - **Same-biome chaining:** Infantry may travel through any number of connected regions sharing their starting biome in a single move — no distance limit. At the end they may optionally step into one adjacent region of a different biome.
-- **Blocked by ALL units, including friendly ones:** Infantry cannot pass through any region containing any other units — enemy or friendly. Your own Artillery blocks your own Infantry just as firmly as an enemy would. Only your own Airborne and Bases may be passed through freely.
-- **Restricted terrain:** A region ending the turn with 1 token (Infantry) in water or desert is destroyed at Phase 3 {nowrap|resolution.} Infantry cannot transit through water or desert unless your own Airborne or a Base is already stationed in that specific region.
+- **Blocked by friendly Infantry and Artillery:** Infantry cannot pass through any region containing your own Infantry or Artillery — your own Artillery blocks your own Infantry just as firmly as an enemy would. Your own Airborne, Bases, and Cities may be passed through freely. Enemy units of any type block Infantry.
+- **Restricted terrain:** A region ending the turn with 1 unit (Infantry) in water or desert is destroyed at Phase 3 {nowrap|resolution.} Infantry cannot transit through water or desert unless friendly units already in that region will raise the combined count to a safe platoon type.
 - **Combat bonus:** Each friendly Base infantry passes *through* en route to an attack {nowrap|adds +1 to combat strength.} The starting Base {nowrap|does not count.}
 
 ### Artillery — Movement & Rules
@@ -252,10 +256,10 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 
 - **Straight-line jumps:** Artillery moves by jumping to the directly opposing region across a hex axis. Intermediate regions must contain units at the moment of the jump — units placed there earlier in the same {nowrap|turn count.}
 - **Multiple jumps:** Artillery can chain multiple jumps in one move, using each occupied region as a stepping stone.
-- **Direction changes (pivots):** When artillery jumps over your own Airborne or a Base, it may change to any new hex direction and {nowrap|continue from there.} From the pivot point, artillery may: land on the pivot Base or Airborne itself; land on any adjacent empty hex; land on any adjacent friendly region (tokens merge via fluid rules); or jump over any occupied adjacent hex to land beyond it. Multiple pivots are permitted in one move.
+- **Direction changes (pivots):** When artillery jumps over your own Airborne or a Base, it may change to any new hex direction and {nowrap|continue from there.} From the pivot point, artillery may: land on the pivot Base or Airborne itself; land on any hex adjacent to the pivot point (empty or friendly — units merge via fluid rules); or jump over any occupied hex adjacent to the pivot point to land beyond it. Multiple pivots are permitted in one move.
 - **Enemy blockers:** Artillery cannot jump over enemy Airborne or enemy Bases. It can jump over enemy Infantry and enemy Artillery.
 - **Forest:** Artillery starting in a forest cannot attack that turn. It may still move to any unoccupied region or join a friendly platoon.
-- **Water:** A region ending with 2 tokens alone in water is destroyed at Phase 3. Cannot pass through water without your Airborne or Base already in that region.
+- **Water:** A region ending with 2 units (Artillery) alone in water is destroyed at Phase 3. Cannot pass through water unless friendly units already there will raise the count to a safe platoon type.
 - **Combat bonus:** Each friendly Base passed over en route adds +1. The starting Base {nowrap|does not count.}
 
 ### Airborne — Movement & Rules
@@ -272,9 +276,9 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 </div>
 
 - **Exactly two regions:** Airborne moves in two steps, each to an adjacent region. The two steps can go in any direction — there is no requirement to move in a straight line. The only restriction is that the final landing region cannot be directly adjacent to the starting region. Any region that is two steps away via any path, and not adjacent to the start, is a {nowrap|valid landing spot.}
-- **Mountains:** Airborne cannot pass through a mountain region unless one of your own Bases is already present there. Even with Base support, airborne cannot safely end as 1 token alone in a mountain.
+- **Mountains:** Airborne cannot pass through a mountain region unless one of your own Bases is already present there. Airborne cannot safely end its turn in a mountain alone — a Base must also be present in that region.
 - **Enemy blockers:** Airborne cannot pass over regions containing enemy Infantry or enemy Artillery. It can pass over enemy Airborne and enemy Bases freely.
-- **Slingshot:** If Airborne lands on a region containing your own Airborne or a Base, it may immediately launch again. Declare the entire chain at once. Each intermediate Airborne or Base may only serve as a launch point once per chain. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 {nowrap|units toward the turn's maximum.}
+- **Slingshot:** If Airborne lands on a region containing your own Airborne or a Base, it may immediately launch again. Declare the entire chain at once. Each intermediate Airborne or Base may only serve as a launch point once per chain. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 {nowrap|units toward the turn's maximum.} Slingshotting is the only way for Airborne to end its turn on a region adjacent to where {nowrap|it started.}
 - **Combat bonus:** Each friendly Base slingshot over en route {nowrap|adds +1 to combat strength.}
 
 ### Nukes — Movement & Rules
@@ -282,7 +286,7 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 <div class="diagrams-grid">
 <div class="diagram-box">
 <div class="diagram-title">Valid Targets</div>
-{{svg:nuke_targets_v2.svg "Nuke hops over the infantry, pivots at the Airborne, then hops again to reach targets. Enemy Airborne blocks one direction. The enemy cluster top-right is the strongest choice — destroying 5 units in one strike."}}
+{{svg:nuke_targets_v2.svg "Nuke hops over the infantry, pivots at the friendly Airborne, then can reach the green-highlighted regions. Enemy Airborne blocks the path beyond. Targeting the enemy Airborne (strength 3) requires 3 isotopes to exceed its strength — and your own Airborne is in the blast radius."}}
 </div>
 <div class="diagram-box">
 <div class="diagram-title">After the Strike</div>
@@ -293,24 +297,24 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 - **Requires a Base:** A nuke can only be launched from a region containing one of your Bases. The Base remains after launch.
 - **Must jump at least once:** A nuke must cross over at least one occupied intermediate region. It cannot fire into an adjacent hex.
 - **Isotopes:** Before firing, place at least 1 isotope from your supply into the target region. You may place multiple — each adds +1 to nuke strength beyond the {nowrap|base of 2.}
-- **Strength:** Starts at 2 (nuke token + 1 isotope minimum). Add +1 per additional isotope placed in the target. Add +1 per friendly Base passed over en route.
+- **Strength:** Starts at 2 (nuke unit + 1 isotope minimum). Add +1 per additional isotope placed in the target. Add +1 per friendly Base passed over en route.
 - **Movement:** Same jump rules as artillery. Direction changes at your own Airborne or Bases. Can jump over enemy Infantry only — cannot jump over enemy Artillery, Airborne, or Bases. Biohazards are treated as empty and cannot be jumped.
-- **Legal targets:** Any region except an empty water region — including empty regions, biohazards, and your own units.
+- **Legal targets:** Any region except empty water and biohazard regions. Empty land regions and your own units are valid targets.
 - **Enemy targets:** Your nuke strength must strictly exceed the defender's strength to target an enemy-occupied region.
 - **Blast effect (immediate):** Target region → Biohazard permanently. All units on the target region and all units in the 6 surrounding regions are {nowrap|destroyed immediately} — including your own. The surrounding regions do not change biome.
 - **No hostage capture.** A nuke only destroys.
 
 ### Bases — Full Rules
 
-- A Base forms **immediately** when a 4th token joins a region — mid-turn during Phase 2.
+- A Base forms **immediately** when a 4th unit joins a region — mid-turn during Phase 2.
 - **Maximum 9 units.** Voluntarily moving your own platoon into a full Base is illegal. If an opponent returns a hostage to your full Base, the Meltdown rule applies.
-- **Isotope conversion:** Each time *you* add units to your own Base, you may immediately convert 1 unit into an isotope. Triggers once per event — two separate moves adding to bases in one turn means two conversion opportunities. Does not trigger when an opponent returns a token to your Base.
+- **Isotope conversion:** Each time *you* add units to your own Base — including the move that forms it — you may immediately convert 1 unit into an isotope. Triggers once per event — two separate moves adding to bases in one turn means two conversion opportunities. Does not trigger when an opponent returns a token to your Base.
 - Bases provide **+1 combat strength** to your platoons passing through or over them en route to combat. Units starting their move *from within* a Base do not {nowrap|receive this bonus.}
 - A Base cannot move, but **any number of units may leave** — including all of them, leaving the {nowrap|region empty.}
 
 ### Cities — Full Rules
 
-- Cities act as Bases **for movement purposes only** regardless of unit count — Infantry can pass through freely, Artillery and Nukes can change direction when passing over, and Airborne can slingshot from them.
+- Cities act as Bases **for movement purposes only** regardless of unit count — Infantry can pass through freely (Cities count as any biome for infantry chaining), Artillery and Nukes can change direction when passing over, and Airborne can slingshot from them.
 - With **fewer than 4 units**: no combat adjacency bonus.
 - With **4 or more units**: a real Base is present, providing all normal {nowrap|Base combat bonuses.}
 - The pass-through combat bonus (+1 for platoons moving through or over) does not apply to units beginning their move from within that city.
@@ -337,6 +341,7 @@ This is the key distinction from a Nuke, which destroys units in all {nowrap|sur
 - The destruction is **immediate** — not delayed to Phase 3.
 - The return that triggers a Meltdown still counts as one of your 1–3 returns — you still **earn a move** from it.
 - All units on the target hex are {nowrap|destroyed immediately.}
+- If a Meltdown destroys a City, that city's owner is eliminated and the player who triggered the Meltdown wins (city destruction is {nowrap|a victory condition).}
 
 </div>
 
@@ -375,7 +380,7 @@ Attacker strength 5 vs defender strength 2 — 3 points of excess. The attacker 
 
 ## Biomes
 
-Each region belongs to one of seven biome types. Terrain restrictions apply based on the **{nowrap|platoon type the tokens become}** — not how they arrived. A region with 3 tokens in water is Airborne, which has no water restriction — always evaluate the {nowrap|token count.}
+Each region belongs to one of seven biome types. Terrain restrictions apply based on the **{nowrap|platoon type the units form}** — not how they arrived. A region with 3 units in water is Airborne, which has no water restriction — always evaluate the {nowrap|unit count.}
 
 {{include:biome-grid.html}}
 
@@ -384,7 +389,7 @@ Each region belongs to one of seven biome types. Terrain restrictions apply base
 <div class="box teal">
 <div class="box-title">✦ "Needs Support to Pass" — What This Means</div>
 
-A platoon can transit through a restricted terrain region only if **your own Airborne or a Base is already stationed there**. The restriction still applies — but their presence guarantees the total token count will be high enough at end of turn to avoid destruction. The biome remains restricted; the support unit {nowrap|simply ensures a safe count.}
+A platoon can transit through a restricted terrain region if **friendly units already stationed there raise the total unit count above the danger threshold**. For example, Infantry (1 unit) can safely end in desert if friendly Artillery (2 units) is already there — combined they form Airborne (3 units), which has no desert restriction. Any friendly presence that changes the platoon type to a safe one {nowrap|counts as support.}
 </div>
 </div>
 

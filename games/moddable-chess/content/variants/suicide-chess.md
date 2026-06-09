@@ -35,9 +35,9 @@ Nearly identical to Giveaway — forced captures, lose all pieces to win — but
 
 Lose all of your pieces (including the King).
 
-### Difference from Giveaway The only rule difference is the stalemate condition. In Giveaway, being stalemated means you lose. In Suicide Chess, stalemate is a draw. This seemingly small change has significant strategic implications — reaching a position where neither side can force their remaining pieces to be captured is a valid defensive
+### Difference from Giveaway
 
-resource.
+The only rule difference is the stalemate condition. In Giveaway, being stalemated means you lose. In Suicide Chess, stalemate is a draw. This seemingly small change has significant strategic implications: reaching a position where neither side can force their remaining pieces to be captured is a valid defensive resource.
 
 ### Strategy
 
