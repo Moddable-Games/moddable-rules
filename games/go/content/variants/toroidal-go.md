@@ -4,7 +4,7 @@ slug: "toroidal-go"
 board: "11×11"
 players: "2"
 parent: "go"
-order: 1
+order: 10
 win: "Most territory (area or territory scoring)"
 special: "Edges wrap horizontally and vertically. No corners, no edges, no joseki."
 ---
@@ -12,6 +12,8 @@ special: "Edges wrap horizontally and vertically. No corners, no edges, no josek
 ## Toroidal Go
 
 Standard Go played on a board where edges wrap around horizontally and vertically. No corners, no edges, no joseki. Every group floats. Active tournament community since 2012 with 1,400+ recorded games.
+
+{{svg:go-19x19-board.svg "Toroidal Go — edges wrap (shown flat)"}}
 
 ### Setup
 

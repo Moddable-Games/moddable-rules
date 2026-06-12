@@ -258,106 +258,50 @@
   {
     "game": "go",
     "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Standard Go",
-    "content": "Go is a territorial strategy game for two players. Black and White take turns placing stones on the intersections of a grid, attempting to surround more territory than their opponent. Despite having o",
-    "anchor": "standard-go"
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Go Weiqi/Baduk/Igo is a territorial strategy game originating in China approximately 4,000 years ago. Two players take turns placing stones on grid intersections, surrounding territory and capturing o",
+    "anchor": "variant-library"
   },
   {
     "game": "go",
     "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Components",
-    "content": "Qty ----- 1 181 180 2 2",
-    "anchor": "components"
+    "section": "Variant Library",
+    "heading": "Standard Boards",
+    "content": "- Standard Go 19×19variants/standard/ — The full tournament game: 361 intersections, komi 6.5 - 13×13 Govariants/13x13/ — Intermediate board for 30–60 minute games - 9×9 Govariants/9x9/ — Quick games ",
+    "anchor": "standard-boards"
   },
   {
     "game": "go",
     "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Setup",
-    "content": "The board starts empty. Black plays first. Stones are placed on intersections where lines cross, not inside squares.",
-    "anchor": "setup"
+    "section": "Variant Library",
+    "heading": "Hidden Information",
+    "content": "- Phantom Govariants/phantom-go/ — See only your own stones, referee mediates captures - One-Colour Govariants/one-colour/ — Same colour stones for both players, remember which are yours",
+    "anchor": "hidden-information"
   },
   {
     "game": "go",
     "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Placement",
-    "content": "On each turn, a player places one stone of their colour on any empty intersection. A player may also pass instead of placing a stone. Stones do not move once placed unless captured.",
-    "anchor": "placement"
+    "section": "Variant Library",
+    "heading": "Team Play",
+    "content": "- Rengovariants/rengo/ — Team Go 2v2 or 3v3, partners alternate turns, no consultation",
+    "anchor": "team-play"
   },
   {
     "game": "go",
     "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Liberties and Capture",
-    "content": "- An empty intersection adjacent to a stone horizontally or vertically, not diagonally is called a liberty. - Adjacent stones of the same colour form a group and share their liberties. - If a group ha",
-    "anchor": "liberties-and-capture"
+    "section": "Variant Library",
+    "heading": "Historical",
+    "content": "- Tibetan Govariants/tibetan/ — 17×17 board, pre-placed stones, delayed captures - Sunjang Badukvariants/sunjang/ — Korean historical Go with 16 pre-placed stones",
+    "anchor": "historical"
   },
   {
     "game": "go",
     "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Ko Rule",
-    "content": "A player may not make a move that returns the board to the immediately previous position. In practice: if one player captures a single stone, the opponent cannot immediately recapture that same stone.",
-    "anchor": "ko-rule"
-  },
-  {
-    "game": "go",
-    "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Suicide",
-    "content": "A move that would leave your own stone or group with zero liberties without capturing any opponent stones is forbidden under Japanese and Chinese rules. The stone simply cannot be placed there.",
-    "anchor": "suicide"
-  },
-  {
-    "game": "go",
-    "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Scoring",
-    "content": "The game ends when both players pass consecutively. Area scoring Chinese rules: Your score equals the number of your stones on the board plus the number of empty intersections surrounded only by your ",
-    "anchor": "scoring"
-  },
-  {
-    "game": "go",
-    "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Komi",
-    "content": "White receives 6.5 points of compensation komi for moving second on a 19x19 board. The half-point prevents draws. Common komi values: 6.5 19x19, 5.5 13x13, 5.5 9x9.",
-    "anchor": "komi"
-  },
-  {
-    "game": "go",
-    "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Endgame",
-    "content": "When both players believe no more profitable moves remain, they pass. Dead stones stones that cannot avoid capture are removed by agreement. If players disagree about which stones are dead, play resum",
-    "anchor": "endgame"
-  },
-  {
-    "game": "go",
-    "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Board Sizes",
-    "content": "Intersections Notes ------ ------------------ 361 Tournament standard 13x13 30–60 min 81 Beginners and quick games |",
-    "anchor": "board-sizes"
-  },
-  {
-    "game": "go",
-    "gameTitle": "Go",
-    "section": "Standard Go",
-    "heading": "Attribution",
-    "content": "Traditional game originating in China approximately 4,000 years ago. Known as Weiqi Chinese, Baduk Korean, Igo Japanese. Public domain. Rules standardised by the International Go Federation. ---",
-    "anchor": "attribution"
-  },
-  {
-    "game": "go",
-    "gameTitle": "Go",
-    "section": "Variants",
-    "heading": "Variants",
-    "content": "Board ------- 11×11 9×9 / 13×13",
-    "anchor": "variants"
+    "section": "Variant Library",
+    "heading": "Rule Variants",
+    "content": "- Capture Govariants/capture-go/ — First capture wins: the universal teaching variant - Toroidal Govariants/toroidal-go/ — Edges wrap: no corners, no sides, no safe edges - Stoical Govariants/stoical/",
+    "anchor": "rule-variants"
   },
   {
     "game": "moddable-chess",
@@ -1750,6 +1694,226 @@
   {
     "game": "go",
     "gameTitle": "Go",
+    "section": "13×13 Go",
+    "heading": "13×13 Go",
+    "content": "Standard Go rules on a 13×13 grid. The intermediate board bridges the tactical intensity of 9×9 with the strategic depth of 19×19. Games typically last 30–60 minutes. Used in some official tournament ",
+    "anchor": "1313-go",
+    "variant": "13x13",
+    "variantUrl": "dist/go/variants/13x13/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "13×13 Go",
+    "heading": "Setup",
+    "content": "Same as standard Go. Board starts empty. Black plays first. Komi: 5.5 points for White.",
+    "anchor": "setup",
+    "variant": "13x13",
+    "variantUrl": "dist/go/variants/13x13/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "13×13 Go",
+    "heading": "Rules",
+    "content": "All standard Go rules apply without modification. Placement, liberties, capture, ko, and suicide rules are identical.",
+    "anchor": "rules",
+    "variant": "13x13",
+    "variantUrl": "dist/go/variants/13x13/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "13×13 Go",
+    "heading": "Differences from 19×19",
+    "content": "- Fewer intersections 169 vs 361 means influence radiates further relative to board size. - Opening theory is less developed, encouraging creative play. - Corners and sides are proportionally larger r",
+    "anchor": "differences-from-1919",
+    "variant": "13x13",
+    "variantUrl": "dist/go/variants/13x13/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "13×13 Go",
+    "heading": "Attribution",
+    "content": "Standard board size recognised by all major Go federations. Public domain.",
+    "anchor": "attribution",
+    "variant": "13x13",
+    "variantUrl": "dist/go/variants/13x13/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "9×9 Go",
+    "heading": "9×9 Go",
+    "content": "Standard Go rules on a 9×9 grid. The smallest standard board, ideal for beginners learning fundamentals and for quick tactical games between experienced players. Official tournament category in many f",
+    "anchor": "99-go",
+    "variant": "9x9",
+    "variantUrl": "dist/go/variants/9x9/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "9×9 Go",
+    "heading": "Setup",
+    "content": "Same as standard Go. Board starts empty. Black plays first. Komi: 5.5 points for White.",
+    "anchor": "setup",
+    "variant": "9x9",
+    "variantUrl": "dist/go/variants/9x9/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "9×9 Go",
+    "heading": "Rules",
+    "content": "All standard Go rules apply without modification.",
+    "anchor": "rules",
+    "variant": "9x9",
+    "variantUrl": "dist/go/variants/9x9/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "9×9 Go",
+    "heading": "Differences from 19×19",
+    "content": "- Only 81 intersections. Every stone immediately affects the whole board. - No room for large-scale frameworks or moyo. Influence is purely local. - Life-and-death reading is paramount. Groups live or",
+    "anchor": "differences-from-1919",
+    "variant": "9x9",
+    "variantUrl": "dist/go/variants/9x9/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "9×9 Go",
+    "heading": "Attribution",
+    "content": "Standard board size recognised by all major Go federations. Public domain.",
+    "anchor": "attribution",
+    "variant": "9x9",
+    "variantUrl": "dist/go/variants/9x9/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Capture Go",
+    "heading": "Capture Go",
+    "content": "The first player to capture any opponent stone wins immediately. No territory counting, no endgame, no passing. Also known as Atari Go. The universal introduction to Go for beginners, teaching the fun",
+    "anchor": "capture-go",
+    "variant": "capture-go",
+    "variantUrl": "dist/go/variants/capture-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Capture Go",
+    "heading": "Setup",
+    "content": "Board: Any size. 9×9 is standard for Capture Go; 7×7 or 5×5 for absolute beginners. Stones: Standard Go stones. First move: Black plays first. No komi.",
+    "anchor": "setup",
+    "variant": "capture-go",
+    "variantUrl": "dist/go/variants/capture-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Capture Go",
+    "heading": "Rules",
+    "content": "- Placement: Standard — one stone per turn on any empty intersection. - Liberties and groups: Identical to standard Go. - Winning: The first player to capture one or more opponent stones wins immediat",
+    "anchor": "rules",
+    "variant": "capture-go",
+    "variantUrl": "dist/go/variants/capture-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Capture Go",
+    "heading": "Draws",
+    "content": "If the board fills completely with no captures extremely rare on standard sizes, the game is a draw.",
+    "anchor": "draws",
+    "variant": "capture-go",
+    "variantUrl": "dist/go/variants/capture-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Capture Go",
+    "heading": "Strategy",
+    "content": "Capture Go teaches the tactical fundamentals of Go: recognising atari one liberty remaining, defending groups by extending liberties, attacking by reducing enemy liberties, and creating ladder shicho ",
+    "anchor": "strategy",
+    "variant": "capture-go",
+    "variantUrl": "dist/go/variants/capture-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Capture Go",
+    "heading": "Attribution",
+    "content": "Teaching variant used worldwide. Public domain. Recommended by all major Go federations as an introductory format. Source: Sensei's Library.",
+    "anchor": "attribution",
+    "variant": "capture-go",
+    "variantUrl": "dist/go/variants/capture-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "One-Colour Go",
+    "heading": "One-Colour Go",
+    "content": "Both players use stones of the same colour. All other rules are unchanged. Players must remember which stones belong to whom. A referee or agreed record tracks ownership secretly. The ultimate memory ",
+    "anchor": "one-colour-go",
+    "variant": "one-colour",
+    "variantUrl": "dist/go/variants/one-colour/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "One-Colour Go",
+    "heading": "Setup",
+    "content": "Standard board any size. All stones are the same colour traditionally all black or all white. A referee or written record tracks which stones belong to which player. Black plays first as normal.",
+    "anchor": "setup",
+    "variant": "one-colour",
+    "variantUrl": "dist/go/variants/one-colour/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "One-Colour Go",
+    "heading": "Rules",
+    "content": "All standard Go rules apply. The only change is visual: both players' stones look identical on the board. - Captures still work normally — a group with zero liberties is removed regardless of appearan",
+    "anchor": "rules",
+    "variant": "one-colour",
+    "variantUrl": "dist/go/variants/one-colour/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "One-Colour Go",
+    "heading": "Practical Implementation",
+    "content": "- With referee: One person sits between players, marks ownership on a hidden diagram. - Online: Software tracks ownership and displays an undifferentiated board to both players. - Training solo: Play ",
+    "anchor": "practical-implementation",
+    "variant": "one-colour",
+    "variantUrl": "dist/go/variants/one-colour/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "One-Colour Go",
+    "heading": "Strategy",
+    "content": "One-Colour Go rewards players who naturally visualise board positions without relying on colour cues. It exposes whether your reading is truly deep based on understanding group structure or shallow ba",
+    "anchor": "strategy",
+    "variant": "one-colour",
+    "variantUrl": "dist/go/variants/one-colour/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "One-Colour Go",
+    "heading": "Attribution",
+    "content": "Training variant used by professional Go players. Public domain. Source: Sensei's Library.",
+    "anchor": "attribution",
+    "variant": "one-colour",
+    "variantUrl": "dist/go/variants/one-colour/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
     "section": "Phantom Go",
     "heading": "Phantom Go",
     "content": "Fog-of-war Go. Players cannot see opponent stones. A referee mediates all moves and announces captures. Deduction replaces reading. Played on 9x9 or 13x13 boards.",
@@ -1826,6 +1990,316 @@
     "anchor": "attribution",
     "variant": "phantom-go",
     "variantUrl": "dist/go/variants/phantom-go/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Rengo",
+    "heading": "Rengo",
+    "content": "Team Go where two or three players per side alternate turns without consulting each other. Partners must infer each other's strategy purely from the stones played. Creates emergent cooperation and occ",
+    "anchor": "rengo",
+    "variant": "rengo",
+    "variantUrl": "dist/go/variants/rengo/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Rengo",
+    "heading": "Setup",
+    "content": "Teams: Two teams of 2 or 3 players each. Standard 19×19 board or 13×13 for shorter games. Board starts empty. Turn order: Players alternate in a fixed, repeating sequence. In 2v2: Black-1, White-1, Bl",
+    "anchor": "setup",
+    "variant": "rengo",
+    "variantUrl": "dist/go/variants/rengo/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Rengo",
+    "heading": "Rules",
+    "content": "All standard Go rules apply, with one addition: - No consultation: Partners may not discuss strategy, signal, or communicate about the game in any way during play. Each player must independently decid",
+    "anchor": "rules",
+    "variant": "rengo",
+    "variantUrl": "dist/go/variants/rengo/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Rengo",
+    "heading": "Scoring",
+    "content": "Standard scoring applies. The team's combined territory is their score.",
+    "anchor": "scoring",
+    "variant": "rengo",
+    "variantUrl": "dist/go/variants/rengo/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Rengo",
+    "heading": "Strategy",
+    "content": "Rengo rewards consistent, clear positional play over complex, deep reading. Your partner cannot see your 15-move sequence plan, so moves that make structural sense at a glance are more effective than ",
+    "anchor": "strategy",
+    "variant": "rengo",
+    "variantUrl": "dist/go/variants/rengo/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Rengo",
+    "heading": "Attribution",
+    "content": "Traditional team format. Japanese term 連碁. Public domain. Played at the European Go Congress and many club events.",
+    "anchor": "attribution",
+    "variant": "rengo",
+    "variantUrl": "dist/go/variants/rengo/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go (19×19)",
+    "heading": "Standard Go (19×19)",
+    "content": "The full tournament game played on a 19×19 grid with 361 intersections. One fundamental rule — capture by surrounding — produces extraordinary strategic depth. Games last 60–180 minutes at tournament ",
+    "anchor": "standard-go-1919",
+    "variant": "standard",
+    "variantUrl": "dist/go/variants/standard/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go (19×19)",
+    "heading": "Components",
+    "content": "Qty ----- 1 181 180",
+    "anchor": "components",
+    "variant": "standard",
+    "variantUrl": "dist/go/variants/standard/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go (19×19)",
+    "heading": "Setup",
+    "content": "The board starts empty. Black plays first. Stones are placed on intersections where lines cross, not inside squares.",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/go/variants/standard/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go (19×19)",
+    "heading": "Rules",
+    "content": "Placement: On each turn, a player places one stone of their colour on any empty intersection, or passes. Liberties and capture: - An empty intersection adjacent to a stone horizontally or vertically i",
+    "anchor": "rules",
+    "variant": "standard",
+    "variantUrl": "dist/go/variants/standard/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go (19×19)",
+    "heading": "Scoring",
+    "content": "The game ends when both players pass consecutively. Area scoring Chinese: Score = your stones on the board + empty intersections surrounded only by your stones. Territory scoring Japanese: Score = emp",
+    "anchor": "scoring",
+    "variant": "standard",
+    "variantUrl": "dist/go/variants/standard/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go (19×19)",
+    "heading": "Komi",
+    "content": "White receives 6.5 points of compensation for moving second. The half-point prevents draws.",
+    "anchor": "komi",
+    "variant": "standard",
+    "variantUrl": "dist/go/variants/standard/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Standard Go (19×19)",
+    "heading": "Attribution",
+    "content": "Traditional game originating in China approximately 4,000 years ago. Known as Weiqi Chinese, Baduk Korean, Igo Japanese. Public domain. Rules standardised by the International Go Federation.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/go/variants/standard/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Stoical Go",
+    "heading": "Stoical Go",
+    "content": "A single rule addition transforms the game: you cannot capture opponent stones on any turn immediately following a turn where your opponent captured your stones. This forced restraint prevents immedia",
+    "anchor": "stoical-go",
+    "variant": "stoical",
+    "variantUrl": "dist/go/variants/stoical/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Stoical Go",
+    "heading": "Setup",
+    "content": "Standard 19×19 board or any size. Board starts empty. Black plays first. Standard komi.",
+    "anchor": "setup",
+    "variant": "stoical",
+    "variantUrl": "dist/go/variants/stoical/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Stoical Go",
+    "heading": "Rules",
+    "content": "All standard Go rules apply, with one addition: - Stoical restriction: If your opponent captured one or more of your stones on their last turn, you may NOT make a capture on your next turn. You must p",
+    "anchor": "rules",
+    "variant": "stoical",
+    "variantUrl": "dist/go/variants/stoical/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Stoical Go",
+    "heading": "Scoring",
+    "content": "Standard scoring area or territory. Standard komi.",
+    "anchor": "scoring",
+    "variant": "stoical",
+    "variantUrl": "dist/go/variants/stoical/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Stoical Go",
+    "heading": "Strategy",
+    "content": "The stoical restriction eliminates the back-and-forth capture exchanges that define much of standard Go tactics. When your opponent captures, you cannot immediately recapture or launch a counter-captu",
+    "anchor": "strategy",
+    "variant": "stoical",
+    "variantUrl": "dist/go/variants/stoical/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Stoical Go",
+    "heading": "Attribution",
+    "content": "Modern variant. Public domain. Source: Sensei's Library.",
+    "anchor": "attribution",
+    "variant": "stoical",
+    "variantUrl": "dist/go/variants/stoical/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Sunjang Baduk",
+    "heading": "Sunjang Baduk",
+    "content": "Korea's historical form of Go 순장바둑, the dominant version played in Korea before Japanese rules were introduced in the early 20th century. Sixteen stones are pre-placed in a fixed diagonal pattern, pri",
+    "anchor": "sunjang-baduk",
+    "variant": "sunjang",
+    "variantUrl": "dist/go/variants/sunjang/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Sunjang Baduk",
+    "heading": "Setup",
+    "content": "Board: Standard 19×19 grid. Pre-placed stones: 8 black stones and 8 white stones are placed before play begins, in fixed positions on the star points 4-4 intersections and key approach points. The sta",
+    "anchor": "setup",
+    "variant": "sunjang",
+    "variantUrl": "dist/go/variants/sunjang/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Sunjang Baduk",
+    "heading": "Rules",
+    "content": "All standard Go rules apply with these modifications: - Capture scoring: Captured stones are simply removed from the board. They do NOT count as prisoners and are NOT subtracted from the opponent's sc",
+    "anchor": "rules",
+    "variant": "sunjang",
+    "variantUrl": "dist/go/variants/sunjang/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Sunjang Baduk",
+    "heading": "Scoring",
+    "content": "Territory only: Score = empty intersections surrounded by your stones. Captures affect the board position removing stones opens territory but dead stones themselves have no point value.",
+    "anchor": "scoring",
+    "variant": "sunjang",
+    "variantUrl": "dist/go/variants/sunjang/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Sunjang Baduk",
+    "heading": "Strategy",
+    "content": "The pre-placed stones create immediate territorial frameworks. Opening theory revolves around how to exploit or undermine the pre-established positions. The lack of prisoner scoring means capturing st",
+    "anchor": "strategy",
+    "variant": "sunjang",
+    "variantUrl": "dist/go/variants/sunjang/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Sunjang Baduk",
+    "heading": "Attribution",
+    "content": "Traditional Korean variant. Public domain. Historically the dominant form of Go in Korea until approximately 1920. Source: Wikipedia, Korean Baduk Association historical archives.",
+    "anchor": "attribution",
+    "variant": "sunjang",
+    "variantUrl": "dist/go/variants/sunjang/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Tibetan Go",
+    "heading": "Tibetan Go",
+    "content": "Known as Mig Mang མིག་མང, \"many eyes\", this is Tibet's indigenous Go variant with rules significantly different from Chinese Weiqi. Played on a 17×17 board with pre-placed stones, delayed captures, an",
+    "anchor": "tibetan-go",
+    "variant": "tibetan",
+    "variantUrl": "dist/go/variants/tibetan/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Tibetan Go",
+    "heading": "Setup",
+    "content": "Board: 17×17 grid 289 intersections. Pre-placed stones: Before play begins, 6 white stones and 6 black stones are placed in fixed positions on the 4th-line star points similar to handicap placement. T",
+    "anchor": "setup",
+    "variant": "tibetan",
+    "variantUrl": "dist/go/variants/tibetan/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Tibetan Go",
+    "heading": "Rules",
+    "content": "- Placement: Standard — one stone per turn on any empty intersection. - Liberties: Same as standard Go — adjacent empty intersections. - Delayed capture: When a group loses its last liberty, it is NOT",
+    "anchor": "rules",
+    "variant": "tibetan",
+    "variantUrl": "dist/go/variants/tibetan/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Tibetan Go",
+    "heading": "Scoring",
+    "content": "Tibetan Go uses a unique additive scoring system: - Territory: Empty intersections surrounded by your stones. - Prisoners: Each captured stone scores points. - Position bonus: Specific board patterns ",
+    "anchor": "scoring",
+    "variant": "tibetan",
+    "variantUrl": "dist/go/variants/tibetan/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Tibetan Go",
+    "heading": "Strategy",
+    "content": "The delayed capture rule makes attacks less decisive — surrounding a group does not guarantee its death. This encourages peaceful coexistence and territory-building over aggressive fighting. The pre-p",
+    "anchor": "strategy",
+    "variant": "tibetan",
+    "variantUrl": "dist/go/variants/tibetan/"
+  },
+  {
+    "game": "go",
+    "gameTitle": "Go",
+    "section": "Tibetan Go",
+    "heading": "Attribution",
+    "content": "Traditional Tibetan game Mig Mang. Public domain. Source: Wikipedia, academic ethnographic sources.",
+    "anchor": "attribution",
+    "variant": "tibetan",
+    "variantUrl": "dist/go/variants/tibetan/"
   },
   {
     "game": "go",

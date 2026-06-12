@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Toroidal Go — Go</title>
-<meta name="description" content="Complete rules for Toroidal Go.">
-<meta property="og:title" content="Toroidal Go — Go">
-<meta property="og:description" content="Complete rules for Toroidal Go.">
-<meta property="og:image" content="https://rules.moddable.games/games/go/og-variants/toroidal-go.png?v=0.2.0">
+<title>Standard Go (19×19) — Go</title>
+<meta name="description" content="Complete rules for Standard Go (19×19).">
+<meta property="og:title" content="Standard Go (19×19) — Go">
+<meta property="og:description" content="Complete rules for Standard Go (19×19).">
+<meta property="og:image" content="https://rules.moddable.games/games/go/og-variants/standard.png?v=0.2.0">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Toroidal Go — Go">
-<meta name="twitter:description" content="Complete rules for Toroidal Go.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/go/og-variants/toroidal-go.png?v=0.2.0">
+<meta name="twitter:title" content="Standard Go (19×19) — Go">
+<meta name="twitter:description" content="Complete rules for Standard Go (19×19).">
+<meta name="twitter:image" content="https://rules.moddable.games/games/go/og-variants/standard.png?v=0.2.0">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.2.0">
 <link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.2.0">
@@ -31,16 +31,16 @@
 
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/go/content/variants/toroidal-go.md" class="hdr-link">Markdown</a><a href="../../../../games/go/pdf/variants/toroidal-go.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Toroidal Go · Go</span>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/go/content/variants/standard.md" class="hdr-link">Markdown</a><a href="../../../../games/go/pdf/variants/standard.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Standard Go (19×19) · Go</span>
 </header>
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">Go · Variant 10 of 11</span>
-    <h1 class="variant-cover-title">Toroidal Go</h1>
+    <span class="variant-cover-label">Go · Variant 1 of 11</span>
+    <h1 class="variant-cover-title">Standard Go (19×19)</h1>
     <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">11×11</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">19×19</span><span class="variant-stat-lbl">Board</span></span>
       <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
     </div>
   </div>
@@ -49,8 +49,8 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Toroidal Go</h2>
-<p>Standard Go played on a board where edges wrap around horizontally and vertically. No corners, no edges, no joseki. Every group floats. Active tournament community since 2012 with 1,400+ recorded games.</p>
+<h2>Standard Go (19×19)</h2>
+<p>The full tournament game played on a 19×19 grid with 361 intersections. One fundamental rule — capture by surrounding — produces extraordinary strategic depth. Games last 60–180 minutes at tournament level.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440">
   <title>Go — 19×19 board (empty)</title>
   <!-- Wood background -->
@@ -159,38 +159,64 @@
     <text x="11" y="33">19</text>
   </g>
 </svg>
-<p class="diagram-caption">Toroidal Go — edges wrap (shown flat)</p>
+<p class="diagram-caption">Go — 19×19 board</p>
+<h3>Components</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>19×19 grid (361 intersections)</td>
+</tr>
+<tr>
+<td><strong>Black stones</strong></td>
+<td>181</td>
+<td>Enough to cover slightly more than half the board</td>
+</tr>
+<tr>
+<td><strong>White stones</strong></td>
+<td>180</td>
+<td>One fewer than Black (Black plays first)</td>
+</tr>
+</tbody>
+</table></div>
 <h3>Setup</h3>
-<p><strong>Board:</strong> A grid where the far left connects to the far right, and the top connects to the bottom. Every intersection has exactly four neighbours. The standard size is 11x11, though 9x9 through 25x25 are also played.</p>
-<p><strong>Stones:</strong> Standard Go stones. Black plays first.</p>
+<p>The board starts empty. Black plays first. Stones are placed on intersections (where lines cross), not inside squares.</p>
 <h3>Rules</h3>
-<p>All standard Go rules apply (placement, capture by surrounding, ko rule, no suicide) with one modification:</p>
+<p><strong>Placement:</strong> On each turn, a player places one stone of their colour on any empty intersection, or passes.</p>
+<p><strong>Liberties and capture:</strong></p>
 <ul class="rules">
-<li><strong>Wraparound adjacency:</strong> Each intersection on the far left is adjacent to the corresponding intersection on the far right. Each intersection on the top is adjacent to the corresponding intersection on the bottom. The surface is topologically a torus.</li>
-<li><strong>No edges or corners:</strong> Every intersection has exactly four neighbours. There are no edge or corner positions anywhere on the board.</li>
-<li><strong>Scoring:</strong> Standard area (Chinese) or territory (Japanese) scoring applies. White receives 4.5 komi on an 11x11 board.</li>
+<li>An empty intersection adjacent to a stone (horizontally or vertically) is a liberty.</li>
+<li>Adjacent same-colour stones form a group and share liberties.</li>
+<li>A group with zero liberties is captured and removed from the board.</li>
+<li>A stone may be placed on a zero-liberty intersection if doing so captures opponent stones.</li>
 </ul>
-<h3>Strategy</h3>
-<ul class="rules">
-<li>All groups are floating from the opening move. Corner joseki (standard sequences) do not exist.</li>
-<li>Making two eyes to live is harder because there are no natural safe structures at board edges.</li>
-<li>Splitting the opponent into two separate eyeless groups and attacking one is a primary strategy.</li>
-<li>Territorial frameworks must be small on 11x11; forcing the opponent into thin shape is key.</li>
-</ul>
-<h3>Visualisation</h3>
-<p>Most software displays 3-4 extra lines around the main grid as duplicates of the opposite edges (shown in a different background colour). On a physical 19x19 board, 11x11 toroidal Go can be played using the inner 11x11 area with the outer lines serving as wraparound reference.</p>
-<h3>Tournament History</h3>
-<p>On LittleGolem, an ongoing ladder tournament has 21 players. A previous tournament ran from 2012 to 2020: 129 players, 1,497 games, 138 rounds, average 76 moves per game. The European Go Congress has hosted toroidal Go tournaments, most recently in 2023.</p>
+<p><strong>Ko rule:</strong> A move that returns the board to the immediately previous position is forbidden. If one player captures a single stone, the opponent must play elsewhere before recapturing.</p>
+<p><strong>Suicide:</strong> A move that would leave your own group with zero liberties without capturing any opponent stones is forbidden.</p>
+<h3>Scoring</h3>
+<p>The game ends when both players pass consecutively.</p>
+<p><strong>Area scoring (Chinese):</strong> Score = your stones on the board + empty intersections surrounded only by your stones.</p>
+<p><strong>Territory scoring (Japanese):</strong> Score = empty intersections you surround − your captured stones (prisoners).</p>
+<p>Both methods produce the same winner in nearly all cases.</p>
+<h3>Komi</h3>
+<p>White receives 6.5 points of compensation for moving second. The half-point prevents draws.</p>
 <h3>Attribution</h3>
-<p>Variant with active competitive community. Source: Sensei’s Library (OPL 1.0).</p>
+<p>Traditional game originating in China approximately 4,000 years ago. Known as Weiqi (Chinese), Baduk (Korean), Igo (Japanese). Public domain. Rules standardised by the International Go Federation.</p>
 
 </div>
 </main>
 
 <nav class="variant-pager" aria-label="Variant navigation">
-  <a href="../capture-go/" class="variant-pager-prev">← Capture Go</a>
+  <span class="variant-pager-spacer"></span>
   <a href="../../index.html" class="variant-pager-hub">All Variants</a>
-  <a href="../stoical/" class="variant-pager-next">Stoical Go →</a>
+  <a href="../13x13/" class="variant-pager-next">13×13 Go →</a>
 </nav>
 
 <footer class="doc-footer" role="contentinfo">

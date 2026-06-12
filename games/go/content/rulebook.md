@@ -1,90 +1,70 @@
 ---
 title: "Go — Official Rulebook"
-version: "0.1.0"
+version: "0.2.0"
 slug: "go"
 players: "2"
-duration: "30+"
+duration: "15–180 min"
 age: "8+"
 tagline: "Four thousand years of emergent complexity from one rule"
 type: "classic"
 status: "live"
-updated: "2026-06-09"
+updated: "2026-06-12"
 published: true
 variants: true
 ---
 
-## Standard Go
+<div class="section variant-hub">
 
-Go is a territorial strategy game for two players. Black and White take turns placing stones on the intersections of a grid, attempting to surround more territory than their opponent. Despite having only one type of piece and one fundamental rule (capture by surrounding), Go produces extraordinary strategic depth.
+## Variant Library
 
-### Components
+Go (Weiqi/Baduk/Igo) is a territorial strategy game originating in China approximately 4,000 years ago. Two players take turns placing stones on grid intersections, surrounding territory and capturing opponent groups by filling their liberties. From one fundamental rule emerges extraordinary strategic depth.
 
-| Item | Qty | Notes |
-|------|-----|-------|
-| **Board** | 1 | 19x19 grid (361 intersections). 13x13 and 9x9 also standard for shorter games. |
-| **Black stones** | 181 | Enough to cover slightly more than half the board |
-| **White stones** | 180 | One fewer than Black (Black plays first) |
-| **Bowls** | 2 | One per player to hold unplayed stones |
-| **Lids** | 2 | Used to hold captured stones (prisoners) |
+This library includes {{variant_count}} playable variants spanning different board sizes, information models, team formats, and rule modifications.
 
-### Setup
+### Standard Boards
 
-The board starts empty. Black plays first. Stones are placed on intersections (where lines cross), not inside squares.
+<div class="variant-grid">
 
-### Placement
+- [Standard Go (19×19)](variants/standard/) — The full tournament game: 361 intersections, komi 6.5
+- [13×13 Go](variants/13x13/) — Intermediate board for 30–60 minute games
+- [9×9 Go](variants/9x9/) — Quick games and beginners, tactical focus
 
-On each turn, a player places one stone of their colour on any empty intersection. A player may also pass instead of placing a stone. Stones do not move once placed unless captured.
+</div>
 
-### Liberties and Capture
+### Hidden Information
 
-- An empty intersection adjacent to a stone (horizontally or vertically, not diagonally) is called a **liberty**.
-- Adjacent stones of the same colour form a **group** and share their liberties.
-- If a group has zero liberties remaining (all adjacent intersections occupied by the opponent), it is **captured** and removed from the board.
-- A stone may be placed on an intersection with no liberties if doing so captures opponent stones, restoring liberties after removal.
+<div class="variant-grid">
 
-### Ko Rule
+- [Phantom Go](variants/phantom-go/) — See only your own stones, referee mediates captures
+- [One-Colour Go](variants/one-colour/) — Same colour stones for both players, remember which are yours
 
-A player may not make a move that returns the board to the immediately previous position. In practice: if one player captures a single stone, the opponent cannot immediately recapture that same stone. They must play elsewhere first. This prevents infinite loops.
+</div>
 
-### Suicide
+### Team Play
 
-A move that would leave your own stone or group with zero liberties without capturing any opponent stones is **forbidden** (under Japanese and Chinese rules). The stone simply cannot be placed there.
+<div class="variant-grid">
 
-### Scoring
+- [Rengo](variants/rengo/) — Team Go (2v2 or 3v3), partners alternate turns, no consultation
 
-The game ends when both players pass consecutively.
+</div>
 
-**Area scoring (Chinese rules):** Your score equals the number of your stones on the board plus the number of empty intersections surrounded only by your stones.
+### Historical
 
-**Territory scoring (Japanese rules):** Your score equals the empty intersections you surround minus your captured stones (prisoners).
+<div class="variant-grid">
 
-Both methods produce the same winner in nearly all cases.
+- [Tibetan Go](variants/tibetan/) — 17×17 board, pre-placed stones, delayed captures
+- [Sunjang Baduk](variants/sunjang/) — Korean historical Go with 16 pre-placed stones
 
-### Komi
+</div>
 
-White receives **6.5 points** of compensation (komi) for moving second on a 19x19 board. The half-point prevents draws. Common komi values: 6.5 (19x19), 5.5 (13x13), 5.5 (9x9).
+### Rule Variants
 
-### Endgame
+<div class="variant-grid">
 
-When both players believe no more profitable moves remain, they pass. Dead stones (stones that cannot avoid capture) are removed by agreement. If players disagree about which stones are dead, play resumes to demonstrate.
+- [Capture Go](variants/capture-go/) — First capture wins: the universal teaching variant
+- [Toroidal Go](variants/toroidal-go/) — Edges wrap: no corners, no sides, no safe edges
+- [Stoical Go](variants/stoical/) — Cannot capture if opponent captured last turn
 
-### Board Sizes
+</div>
 
-| Size | Intersections | Typical Duration | Notes |
-|------|---------------|------------------|-------|
-| 19x19 | 361 | 60–180 min | Tournament standard |
-| 13x13 | 169 | 30–60 min | Intermediate games |
-| 9x9 | 81 | 15–30 min | Beginners and quick games |
-
-### Attribution
-
-Traditional game originating in China approximately 4,000 years ago. Known as Weiqi (Chinese), Baduk (Korean), Igo (Japanese). Public domain. Rules standardised by the International Go Federation.
-
----
-
-## Variants
-
-| Variant | Board | Key Difference |
-|---------|-------|----------------|
-| [Toroidal Go](variants/toroidal-go/) | 11×11 | Edges wrap, no corners or edges exist |
-| [Phantom Go](variants/phantom-go/) | 9×9 / 13×13 | Fog of war, referee mediates |
+</div>

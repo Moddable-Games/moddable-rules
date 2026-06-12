@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Toroidal Go — Go</title>
-<meta name="description" content="Complete rules for Toroidal Go.">
-<meta property="og:title" content="Toroidal Go — Go">
-<meta property="og:description" content="Complete rules for Toroidal Go.">
-<meta property="og:image" content="https://rules.moddable.games/games/go/og-variants/toroidal-go.png?v=0.2.0">
+<title>One-Colour Go — Go</title>
+<meta name="description" content="Complete rules for One-Colour Go.">
+<meta property="og:title" content="One-Colour Go — Go">
+<meta property="og:description" content="Complete rules for One-Colour Go.">
+<meta property="og:image" content="https://rules.moddable.games/games/go/og-variants/one-colour.png?v=0.2.0">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Toroidal Go — Go">
-<meta name="twitter:description" content="Complete rules for Toroidal Go.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/go/og-variants/toroidal-go.png?v=0.2.0">
+<meta name="twitter:title" content="One-Colour Go — Go">
+<meta name="twitter:description" content="Complete rules for One-Colour Go.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/go/og-variants/one-colour.png?v=0.2.0">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.2.0">
 <link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.2.0">
@@ -31,16 +31,16 @@
 
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/go/content/variants/toroidal-go.md" class="hdr-link">Markdown</a><a href="../../../../games/go/pdf/variants/toroidal-go.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Toroidal Go · Go</span>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/go/content/variants/one-colour.md" class="hdr-link">Markdown</a><a href="../../../../games/go/pdf/variants/one-colour.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">One-Colour Go · Go</span>
 </header>
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">Go · Variant 10 of 11</span>
-    <h1 class="variant-cover-title">Toroidal Go</h1>
+    <span class="variant-cover-label">Go · Variant 5 of 11</span>
+    <h1 class="variant-cover-title">One-Colour Go</h1>
     <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">11×11</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">19×19</span><span class="variant-stat-lbl">Board</span></span>
       <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
     </div>
   </div>
@@ -49,8 +49,8 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Toroidal Go</h2>
-<p>Standard Go played on a board where edges wrap around horizontally and vertically. No corners, no edges, no joseki. Every group floats. Active tournament community since 2012 with 1,400+ recorded games.</p>
+<h2>One-Colour Go</h2>
+<p>Both players use stones of the same colour. All other rules are unchanged. Players must remember which stones belong to whom. A referee (or agreed record) tracks ownership secretly. The ultimate memory and visualisation challenge.</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440">
   <title>Go — 19×19 board (empty)</title>
   <!-- Wood background -->
@@ -159,38 +159,34 @@
     <text x="11" y="33">19</text>
   </g>
 </svg>
-<p class="diagram-caption">Toroidal Go — edges wrap (shown flat)</p>
+<p class="diagram-caption">One-Colour Go — standard board</p>
 <h3>Setup</h3>
-<p><strong>Board:</strong> A grid where the far left connects to the far right, and the top connects to the bottom. Every intersection has exactly four neighbours. The standard size is 11x11, though 9x9 through 25x25 are also played.</p>
-<p><strong>Stones:</strong> Standard Go stones. Black plays first.</p>
+<p>Standard board (any size). All stones are the same colour (traditionally all black or all white). A referee or written record tracks which stones belong to which player. Black plays first as normal.</p>
 <h3>Rules</h3>
-<p>All standard Go rules apply (placement, capture by surrounding, ko rule, no suicide) with one modification:</p>
+<p>All standard Go rules apply. The only change is visual: both players’ stones look identical on the board.</p>
 <ul class="rules">
-<li><strong>Wraparound adjacency:</strong> Each intersection on the far left is adjacent to the corresponding intersection on the far right. Each intersection on the top is adjacent to the corresponding intersection on the bottom. The surface is topologically a torus.</li>
-<li><strong>No edges or corners:</strong> Every intersection has exactly four neighbours. There are no edge or corner positions anywhere on the board.</li>
-<li><strong>Scoring:</strong> Standard area (Chinese) or territory (Japanese) scoring applies. White receives 4.5 komi on an 11x11 board.</li>
+<li>Captures still work normally — a group with zero liberties is removed regardless of appearance.</li>
+<li>Ko applies normally — the referee tracks the position.</li>
+<li>If a player attempts an illegal move (placing on an occupied intersection, violating ko, or suicide), the referee informs them and they must choose a different move.</li>
+</ul>
+<h3>Practical Implementation</h3>
+<ul class="rules">
+<li><strong>With referee:</strong> One person sits between players, marks ownership on a hidden diagram.</li>
+<li><strong>Online:</strong> Software tracks ownership and displays an undifferentiated board to both players.</li>
+<li><strong>Training solo:</strong> Play both sides using one colour. Strong professionals use this as a reading exercise.</li>
 </ul>
 <h3>Strategy</h3>
-<ul class="rules">
-<li>All groups are floating from the opening move. Corner joseki (standard sequences) do not exist.</li>
-<li>Making two eyes to live is harder because there are no natural safe structures at board edges.</li>
-<li>Splitting the opponent into two separate eyeless groups and attacking one is a primary strategy.</li>
-<li>Territorial frameworks must be small on 11x11; forcing the opponent into thin shape is key.</li>
-</ul>
-<h3>Visualisation</h3>
-<p>Most software displays 3-4 extra lines around the main grid as duplicates of the opposite edges (shown in a different background colour). On a physical 19x19 board, 11x11 toroidal Go can be played using the inner 11x11 area with the outer lines serving as wraparound reference.</p>
-<h3>Tournament History</h3>
-<p>On LittleGolem, an ongoing ladder tournament has 21 players. A previous tournament ran from 2012 to 2020: 129 players, 1,497 games, 138 rounds, average 76 moves per game. The European Go Congress has hosted toroidal Go tournaments, most recently in 2023.</p>
+<p>One-Colour Go rewards players who naturally visualise board positions without relying on colour cues. It exposes whether your reading is truly deep (based on understanding group structure) or shallow (based on pattern-matching colours). Strong professionals can play full 19×19 games this way. For most players, 9×9 is a challenging starting point.</p>
 <h3>Attribution</h3>
-<p>Variant with active competitive community. Source: Sensei’s Library (OPL 1.0).</p>
+<p>Training variant used by professional Go players. Public domain. Source: Sensei’s Library.</p>
 
 </div>
 </main>
 
 <nav class="variant-pager" aria-label="Variant navigation">
-  <a href="../capture-go/" class="variant-pager-prev">← Capture Go</a>
+  <a href="../phantom-go/" class="variant-pager-prev">← Phantom Go</a>
   <a href="../../index.html" class="variant-pager-hub">All Variants</a>
-  <a href="../stoical/" class="variant-pager-next">Stoical Go →</a>
+  <a href="../rengo/" class="variant-pager-next">Rengo →</a>
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
