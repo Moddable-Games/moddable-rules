@@ -7,11 +7,15 @@
 <meta name="description" content="Complete rules for English Draughts.">
 <meta property="og:title" content="English Draughts — Draughts">
 <meta property="og:description" content="Complete rules for English Draughts.">
+<meta property="og:image" content="https://rules.moddable.games/games/draughts/og-variants/english.png?v=0.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="English Draughts — Draughts">
 <meta name="twitter:description" content="Complete rules for English Draughts.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/draughts/og-variants/english.png?v=0.2.0">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.2.0">
 <link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.2.0">
@@ -59,7 +63,9 @@
       <circle cx="18" cy="18" r="9" fill="none" stroke="#ccc" stroke-width="1"/>
     </symbol>
   </defs>
+  <!-- 8x8 board: a1 (bottom-left) is dark, h1 (bottom-right) is light -->
   <g id="board">
+    <!-- Row 8 (top) -->
     <rect x="20" y="20" width="40" height="40" fill="#f0d9b5"/>
     <rect x="60" y="20" width="40" height="40" fill="#b58863"/>
     <rect x="100" y="20" width="40" height="40" fill="#f0d9b5"/>
@@ -68,6 +74,7 @@
     <rect x="220" y="20" width="40" height="40" fill="#b58863"/>
     <rect x="260" y="20" width="40" height="40" fill="#f0d9b5"/>
     <rect x="300" y="20" width="40" height="40" fill="#b58863"/>
+    <!-- Row 7 -->
     <rect x="20" y="60" width="40" height="40" fill="#b58863"/>
     <rect x="60" y="60" width="40" height="40" fill="#f0d9b5"/>
     <rect x="100" y="60" width="40" height="40" fill="#b58863"/>
@@ -76,6 +83,7 @@
     <rect x="220" y="60" width="40" height="40" fill="#f0d9b5"/>
     <rect x="260" y="60" width="40" height="40" fill="#b58863"/>
     <rect x="300" y="60" width="40" height="40" fill="#f0d9b5"/>
+    <!-- Row 6 -->
     <rect x="20" y="100" width="40" height="40" fill="#f0d9b5"/>
     <rect x="60" y="100" width="40" height="40" fill="#b58863"/>
     <rect x="100" y="100" width="40" height="40" fill="#f0d9b5"/>
@@ -84,6 +92,7 @@
     <rect x="220" y="100" width="40" height="40" fill="#b58863"/>
     <rect x="260" y="100" width="40" height="40" fill="#f0d9b5"/>
     <rect x="300" y="100" width="40" height="40" fill="#b58863"/>
+    <!-- Row 5 -->
     <rect x="20" y="140" width="40" height="40" fill="#b58863"/>
     <rect x="60" y="140" width="40" height="40" fill="#f0d9b5"/>
     <rect x="100" y="140" width="40" height="40" fill="#b58863"/>
@@ -92,6 +101,7 @@
     <rect x="220" y="140" width="40" height="40" fill="#f0d9b5"/>
     <rect x="260" y="140" width="40" height="40" fill="#b58863"/>
     <rect x="300" y="140" width="40" height="40" fill="#f0d9b5"/>
+    <!-- Row 4 -->
     <rect x="20" y="180" width="40" height="40" fill="#f0d9b5"/>
     <rect x="60" y="180" width="40" height="40" fill="#b58863"/>
     <rect x="100" y="180" width="40" height="40" fill="#f0d9b5"/>
@@ -100,6 +110,7 @@
     <rect x="220" y="180" width="40" height="40" fill="#b58863"/>
     <rect x="260" y="180" width="40" height="40" fill="#f0d9b5"/>
     <rect x="300" y="180" width="40" height="40" fill="#b58863"/>
+    <!-- Row 3 -->
     <rect x="20" y="220" width="40" height="40" fill="#b58863"/>
     <rect x="60" y="220" width="40" height="40" fill="#f0d9b5"/>
     <rect x="100" y="220" width="40" height="40" fill="#b58863"/>
@@ -108,6 +119,7 @@
     <rect x="220" y="220" width="40" height="40" fill="#f0d9b5"/>
     <rect x="260" y="220" width="40" height="40" fill="#b58863"/>
     <rect x="300" y="220" width="40" height="40" fill="#f0d9b5"/>
+    <!-- Row 2 -->
     <rect x="20" y="260" width="40" height="40" fill="#f0d9b5"/>
     <rect x="60" y="260" width="40" height="40" fill="#b58863"/>
     <rect x="100" y="260" width="40" height="40" fill="#f0d9b5"/>
@@ -116,6 +128,7 @@
     <rect x="220" y="260" width="40" height="40" fill="#b58863"/>
     <rect x="260" y="260" width="40" height="40" fill="#f0d9b5"/>
     <rect x="300" y="260" width="40" height="40" fill="#b58863"/>
+    <!-- Row 1 (bottom) -->
     <rect x="20" y="300" width="40" height="40" fill="#b58863"/>
     <rect x="60" y="300" width="40" height="40" fill="#f0d9b5"/>
     <rect x="100" y="300" width="40" height="40" fill="#b58863"/>
@@ -125,37 +138,37 @@
     <rect x="260" y="300" width="40" height="40" fill="#b58863"/>
     <rect x="300" y="300" width="40" height="40" fill="#f0d9b5"/>
   </g>
-  <!-- Dark pieces: rows 1-3 (top), on dark squares -->
+  <!-- Dark pieces: rows 6-8 (top 3 rows), on dark (brown) squares -->
   <g id="dark-pieces">
-    <!-- Row 1 (y=20): dark squares at cols 2,4,6,8 -->
+    <!-- Row 8 (y=20): dark squares at b8,d8,f8,h8 -->
     <use href="#man-dark" x="62" y="22" width="36" height="36"/>
     <use href="#man-dark" x="142" y="22" width="36" height="36"/>
     <use href="#man-dark" x="222" y="22" width="36" height="36"/>
     <use href="#man-dark" x="302" y="22" width="36" height="36"/>
-    <!-- Row 2 (y=60): dark squares at cols 1,3,5,7 -->
+    <!-- Row 7 (y=60): dark squares at a7,c7,e7,g7 -->
     <use href="#man-dark" x="22" y="62" width="36" height="36"/>
     <use href="#man-dark" x="102" y="62" width="36" height="36"/>
     <use href="#man-dark" x="182" y="62" width="36" height="36"/>
     <use href="#man-dark" x="262" y="62" width="36" height="36"/>
-    <!-- Row 3 (y=100): dark squares at cols 2,4,6,8 -->
+    <!-- Row 6 (y=100): dark squares at b6,d6,f6,h6 -->
     <use href="#man-dark" x="62" y="102" width="36" height="36"/>
     <use href="#man-dark" x="142" y="102" width="36" height="36"/>
     <use href="#man-dark" x="222" y="102" width="36" height="36"/>
     <use href="#man-dark" x="302" y="102" width="36" height="36"/>
   </g>
-  <!-- Light pieces: rows 6-8 (bottom), on dark squares -->
+  <!-- Light pieces: rows 1-3 (bottom 3 rows), on dark (brown) squares -->
   <g id="light-pieces">
-    <!-- Row 6 (y=220): dark squares at cols 1,3,5,7 -->
+    <!-- Row 3 (y=220): dark squares at a3,c3,e3,g3 -->
     <use href="#man-light" x="22" y="222" width="36" height="36"/>
     <use href="#man-light" x="102" y="222" width="36" height="36"/>
     <use href="#man-light" x="182" y="222" width="36" height="36"/>
     <use href="#man-light" x="262" y="222" width="36" height="36"/>
-    <!-- Row 7 (y=260): dark squares at cols 2,4,6,8 -->
+    <!-- Row 2 (y=260): dark squares at b2,d2,f2,h2 -->
     <use href="#man-light" x="62" y="262" width="36" height="36"/>
     <use href="#man-light" x="142" y="262" width="36" height="36"/>
     <use href="#man-light" x="222" y="262" width="36" height="36"/>
     <use href="#man-light" x="302" y="262" width="36" height="36"/>
-    <!-- Row 8 (y=300): dark squares at cols 1,3,5,7 -->
+    <!-- Row 1 (y=300): dark squares at a1,c1,e1,g1 -->
     <use href="#man-light" x="22" y="302" width="36" height="36"/>
     <use href="#man-light" x="102" y="302" width="36" height="36"/>
     <use href="#man-light" x="182" y="302" width="36" height="36"/>

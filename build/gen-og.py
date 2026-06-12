@@ -25,6 +25,7 @@ ACCENTS = {
     'mod': {'primary': (64, 160, 224), 'secondary': (40, 120, 180)},
     'platform': {'primary': (160, 112, 208), 'secondary': (120, 80, 180)},
     'expansion': {'primary': (64, 192, 96), 'secondary': (40, 150, 70)},
+    'classic': {'primary': (194, 158, 96), 'secondary': (150, 120, 70)},
     'variant': {'primary': (45, 212, 191), 'secondary': (20, 160, 150)},
     'landing': {'primary': (232, 228, 223), 'secondary': (138, 133, 126)},
 }
@@ -227,6 +228,7 @@ SCHEMATIC_MAP = {
     'mod': draw_mod_schematic,
     'platform': draw_platform_schematic,
     'expansion': draw_mod_schematic,
+    'classic': draw_game_schematic,
     'variant': draw_variant_schematic,
     'landing': draw_platform_schematic,
 }
@@ -393,25 +395,35 @@ def generate_all():
         save(img, os.path.join(games_dir, slug, 'og-image.png'))
         count += 1
 
-    # 3. Per-variant OG images
-    variants_dir = os.path.join(games_dir, 'moddable-chess', 'content', 'variants')
-    variants_og_dir = os.path.join(games_dir, 'moddable-chess', 'og-variants')
-    os.makedirs(variants_og_dir, exist_ok=True)
-    for vfile in sorted(os.listdir(variants_dir)):
-        if not vfile.endswith('.md'):
+    # 3. Per-variant OG images (for all games with variants)
+    for slug in sorted(os.listdir(games_dir)):
+        rulebook = os.path.join(games_dir, slug, 'content', 'rulebook.md')
+        if not os.path.exists(rulebook):
             continue
-        fm = parse_frontmatter(os.path.join(variants_dir, vfile))
-        v_title = fm.get('title', vfile.replace('.md', '').replace('-', ' ').title())
-        v_slug = fm.get('slug', vfile.replace('.md', ''))
-        v_special = fm.get('special', '')
-        v_board = fm.get('board', '8×8')
-        v_win = fm.get('win', 'Checkmate')
-        eyebrow = f'Chess Variant · {v_board} · Win: {v_win}'
-        seed = hash(v_slug) % 10000
-        img = base_image('variant', seed=seed)
-        add_text(img, eyebrow, v_title, v_special, 'variant')
-        save(img, os.path.join(variants_og_dir, f'{v_slug}.png'))
-        count += 1
+        game_fm = parse_frontmatter(rulebook)
+        if game_fm.get('variants') != 'true':
+            continue
+        game_title = game_fm.get('title', slug).split('—')[0].strip()
+        variants_dir = os.path.join(games_dir, slug, 'content', 'variants')
+        if not os.path.isdir(variants_dir):
+            continue
+        variants_og_dir = os.path.join(games_dir, slug, 'og-variants')
+        os.makedirs(variants_og_dir, exist_ok=True)
+        for vfile in sorted(os.listdir(variants_dir)):
+            if not vfile.endswith('.md'):
+                continue
+            fm = parse_frontmatter(os.path.join(variants_dir, vfile))
+            v_title = fm.get('title', vfile.replace('.md', '').replace('-', ' ').title())
+            v_slug = fm.get('slug', vfile.replace('.md', ''))
+            v_special = fm.get('special', '')
+            v_board = fm.get('board', '8×8')
+            v_win = fm.get('win', '')
+            eyebrow = f'{game_title} Variant · {v_board} · Win: {v_win}'
+            seed = hash(v_slug) % 10000
+            img = base_image('variant', seed=seed)
+            add_text(img, eyebrow, v_title, v_special, 'variant')
+            save(img, os.path.join(variants_og_dir, f'{v_slug}.png'))
+            count += 1
 
     print(f'\nDone. Generated {count} OG images.')
 
