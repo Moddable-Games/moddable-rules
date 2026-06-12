@@ -1,6 +1,6 @@
 ---
 title: "Dungeon Chess — Official Rulebook"
-version: "0.2.1"
+version: "0.2.2"
 slug: "dungeon-chess"
 players: "2–4"
 duration: "30–120 min"
@@ -9,7 +9,7 @@ tagline: "Asymmetric fantasy strategy on modular dungeon boards"
 type: "mod"
 base_game: "Chess"
 status: "alpha"
-updated: "2026-06-02"
+updated: "2026-06-12"
 first_published: "May 2026"
 published: true
 ---

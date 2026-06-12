@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dungeon Chess — Official Rulebook v0.2.1</title>
+<title>Dungeon Chess — Official Rulebook v0.2.2</title>
 <meta name="description" content="Complete rules for Dungeon Chess, an asymmetric fantasy strategy game on modular dungeon boards for 2–4 players.">
-<meta property="og:title" content="Dungeon Chess — Official Rulebook v0.2.1">
+<meta property="og:title" content="Dungeon Chess — Official Rulebook v0.2.2">
 <meta property="og:description" content="Asymmetric fantasy strategy on modular dungeon boards — draft your warband, deploy in the dungeon, capture the enemy King.">
 <meta property="og:image" content="https://rules.moddable.games/games/dungeon-chess/og-image.png?v=1.1.7">
 <meta property="og:url" content="https://rules.moddable.games/dist/dungeon-chess/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Dungeon Chess — Official Rulebook v0.2.1">
+<meta name="twitter:title" content="Dungeon Chess — Official Rulebook v0.2.2">
 <meta name="twitter:description" content="An asymmetric turn-based strategy game on modular dungeon boards for 2–4 players.">
 <meta name="twitter:image" content="https://rules.moddable.games/games/dungeon-chess/og-image.png?v=1.1.7">
-<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.2.1">
-<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.2.1">
-<link rel="stylesheet" href="../../shared/css/base.css?v=0.2.1">
-<link rel="stylesheet" href="../../shared/css/components.css?v=0.2.1">
-<link rel="stylesheet" href="../../games/dungeon-chess/theme.css?v=0.2.1">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.2.2">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.2.2">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.2.2">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.2.2">
+<link rel="stylesheet" href="../../games/dungeon-chess/theme.css?v=0.2.2">
 <script src="../../shared/js/analytics.js" defer></script>
 </head>
 <body>
@@ -30,7 +30,7 @@
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
   <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/dungeon-chess/pdf/dungeon-chess-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Official Rulebook · v0.2.1 · Playtest</span>
+  <span class="hdr-meta">Official Rulebook · v0.2.2 · Playtest</span>
 </header>
 
 <!-- COVER -->
@@ -45,7 +45,7 @@
     <div class="cover-stat"><span class="cs-num">30–120</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">12+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.2.1</p>
+  <p class="cover-pub">Published by Moddable Games · v0.2.2</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -369,11 +369,11 @@
 </table></div>
 <p>Every King has a unique bonus ability beyond its basic 1-step move. Princess can slide diagonally for repositioning but only captures adjacent. Warlock and Red Dragon/Warlord have extended attack ranges. Kings are royal — lose yours and you lose the game.</p>
 <div class="unit-cards-section">
-<div class="species-group">
-<h3 class="species-header" style="background:#8a7a50">Human</h3>
+<div class="species-group" data-species="human">
+<h3 class="species-header">Human</h3>
 <div class="uc-grid">
 <div class="uc-card">
-<div class="uc-head" style="background:#8a7a50"><span class="uc-name">Hero</span><span class="uc-cost">2 XP</span></div>
+<div class="uc-head"><span class="uc-name">Hero</span><span class="uc-cost">2 XP</span></div>
 <div class="uc-role">Pawn</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq, any direction</span></div>
@@ -382,7 +382,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#8a7a50"><span class="uc-name">Stronghold</span><span class="uc-cost">10 XP</span></div>
+<div class="uc-head"><span class="uc-name">Stronghold</span><span class="uc-cost">10 XP</span></div>
 <div class="uc-role">Castle</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq orthogonal</span></div>
@@ -391,7 +391,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#8a7a50"><span class="uc-name">Knight</span><span class="uc-cost">12 XP</span></div>
+<div class="uc-head"><span class="uc-name">Knight</span><span class="uc-cost">12 XP</span></div>
 <div class="uc-role">Knight</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">L-shaped jump (2+1)</span></div>
@@ -400,7 +400,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#8a7a50"><span class="uc-name">Archer</span><span class="uc-cost">18 XP</span></div>
+<div class="uc-head"><span class="uc-name">Archer</span><span class="uc-cost">18 XP</span></div>
 <div class="uc-role">Bishop</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Diagonal slide</span></div>
@@ -409,7 +409,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#8a7a50"><span class="uc-name">Wizard</span><span class="uc-cost">20 XP</span></div>
+<div class="uc-head"><span class="uc-name">Wizard</span><span class="uc-cost">20 XP</span></div>
 <div class="uc-role">Queen</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Rook slide (orthogonal)</span></div>
@@ -418,7 +418,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#8a7a50"><span class="uc-name">Princess</span><span class="uc-cost">15 XP</span></div>
+<div class="uc-head"><span class="uc-name">Princess</span><span class="uc-cost">15 XP</span></div>
 <div class="uc-role">King</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq any + bishop slide</span></div>
@@ -428,11 +428,11 @@
 </div>
 </div>
 </div>
-<div class="species-group">
-<h3 class="species-header" style="background:#5a4a6a">Undead</h3>
+<div class="species-group" data-species="undead">
+<h3 class="species-header">Undead</h3>
 <div class="uc-grid">
 <div class="uc-card">
-<div class="uc-head" style="background:#5a4a6a"><span class="uc-name">Skeleton</span><span class="uc-cost">1 XP</span></div>
+<div class="uc-head"><span class="uc-name">Skeleton</span><span class="uc-cost">1 XP</span></div>
 <div class="uc-role">Pawn</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq, any direction</span></div>
@@ -441,7 +441,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#5a4a6a"><span class="uc-name">Tomb</span><span class="uc-cost">12 XP</span></div>
+<div class="uc-head"><span class="uc-name">Tomb</span><span class="uc-cost">12 XP</span></div>
 <div class="uc-role">Castle</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq orthogonal</span></div>
@@ -450,7 +450,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#5a4a6a"><span class="uc-name">Reaper</span><span class="uc-cost">15 XP</span></div>
+<div class="uc-head"><span class="uc-name">Reaper</span><span class="uc-cost">15 XP</span></div>
 <div class="uc-role">Knight</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">L-shaped jump (2+1)</span></div>
@@ -459,7 +459,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#5a4a6a"><span class="uc-name">Wraith</span><span class="uc-cost">15 XP</span></div>
+<div class="uc-head"><span class="uc-name">Wraith</span><span class="uc-cost">15 XP</span></div>
 <div class="uc-role">Bishop</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Gapped bishop (1 sq gap)</span></div>
@@ -468,7 +468,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#5a4a6a"><span class="uc-name">Vampire</span><span class="uc-cost">20 XP</span></div>
+<div class="uc-head"><span class="uc-name">Vampire</span><span class="uc-cost">20 XP</span></div>
 <div class="uc-role">Queen</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Bishop slide (diagonal)</span></div>
@@ -477,7 +477,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#5a4a6a"><span class="uc-name">Warlock</span><span class="uc-cost">20 XP</span></div>
+<div class="uc-head"><span class="uc-name">Warlock</span><span class="uc-cost">20 XP</span></div>
 <div class="uc-role">King</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq any direction</span></div>
@@ -487,11 +487,11 @@
 </div>
 </div>
 </div>
-<div class="species-group">
-<h3 class="species-header" style="background:#c83030">Redskin</h3>
+<div class="species-group" data-species="redskin">
+<h3 class="species-header">Redskin</h3>
 <div class="uc-grid">
 <div class="uc-card">
-<div class="uc-head" style="background:#c83030"><span class="uc-name">Kobold</span><span class="uc-cost">5 XP</span></div>
+<div class="uc-head"><span class="uc-name">Kobold</span><span class="uc-cost">5 XP</span></div>
 <div class="uc-role">Pawn</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq, any direction</span></div>
@@ -500,7 +500,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#c83030"><span class="uc-name">Iron Golem</span><span class="uc-cost">18 XP</span></div>
+<div class="uc-head"><span class="uc-name">Iron Golem</span><span class="uc-cost">18 XP</span></div>
 <div class="uc-role">Castle</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq orthogonal</span></div>
@@ -509,7 +509,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#c83030"><span class="uc-name">Salamander</span><span class="uc-cost">18 XP</span></div>
+<div class="uc-head"><span class="uc-name">Salamander</span><span class="uc-cost">18 XP</span></div>
 <div class="uc-role">Knight</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">L-shaped jump (2+1)</span></div>
@@ -518,7 +518,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#c83030"><span class="uc-name">Fire Elem.</span><span class="uc-cost">12 XP</span></div>
+<div class="uc-head"><span class="uc-name">Fire Elem.</span><span class="uc-cost">12 XP</span></div>
 <div class="uc-role">Bishop</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Diagonal slide</span></div>
@@ -527,7 +527,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#c83030"><span class="uc-name">Demonics</span><span class="uc-cost">22 XP</span></div>
+<div class="uc-head"><span class="uc-name">Demonics</span><span class="uc-cost">22 XP</span></div>
 <div class="uc-role">Queen</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Queen slide (all 8 dirs)</span></div>
@@ -536,7 +536,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#c83030"><span class="uc-name">Red Dragon</span><span class="uc-cost">20 XP</span></div>
+<div class="uc-head"><span class="uc-name">Red Dragon</span><span class="uc-cost">20 XP</span></div>
 <div class="uc-role">King</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq any direction</span></div>
@@ -546,11 +546,11 @@
 </div>
 </div>
 </div>
-<div class="species-group">
-<h3 class="species-header" style="background:#3a8a3a">Greenskin</h3>
+<div class="species-group" data-species="greenskin">
+<h3 class="species-header">Greenskin</h3>
 <div class="uc-grid">
 <div class="uc-card">
-<div class="uc-head" style="background:#3a8a3a"><span class="uc-name">Goblin</span><span class="uc-cost">5 XP</span></div>
+<div class="uc-head"><span class="uc-name">Goblin</span><span class="uc-cost">5 XP</span></div>
 <div class="uc-role">Pawn</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq, any direction</span></div>
@@ -559,7 +559,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#3a8a3a"><span class="uc-name">Ogre</span><span class="uc-cost">14 XP</span></div>
+<div class="uc-head"><span class="uc-name">Ogre</span><span class="uc-cost">14 XP</span></div>
 <div class="uc-role">Castle</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq orthogonal</span></div>
@@ -568,7 +568,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#3a8a3a"><span class="uc-name">Orc</span><span class="uc-cost">14 XP</span></div>
+<div class="uc-head"><span class="uc-name">Orc</span><span class="uc-cost">14 XP</span></div>
 <div class="uc-role">Knight</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">L-jump OR 2 sq orthogonal</span></div>
@@ -577,7 +577,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#3a8a3a"><span class="uc-name">Troll</span><span class="uc-cost">16 XP</span></div>
+<div class="uc-head"><span class="uc-name">Troll</span><span class="uc-cost">16 XP</span></div>
 <div class="uc-role">Bishop</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Diagonal slide</span></div>
@@ -586,7 +586,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#3a8a3a"><span class="uc-name">Shaman</span><span class="uc-cost">20 XP</span></div>
+<div class="uc-head"><span class="uc-name">Shaman</span><span class="uc-cost">20 XP</span></div>
 <div class="uc-role">Queen</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">Queen slide (all 8 dirs)</span></div>
@@ -595,7 +595,7 @@
 </div>
 </div>
 <div class="uc-card">
-<div class="uc-head" style="background:#3a8a3a"><span class="uc-name">Warlord</span><span class="uc-cost">15 XP</span></div>
+<div class="uc-head"><span class="uc-name">Warlord</span><span class="uc-cost">15 XP</span></div>
 <div class="uc-role">King</div>
 <div class="uc-body">
 <div class="uc-row"><span class="uc-label">Move</span><span class="uc-value">1 sq any direction</span></div>
@@ -1194,11 +1194,11 @@
 
 <!-- FOOTER -->
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.2.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">v0.2.2 · Published by Moddable Games · © 2026 All Rights Reserved</span>
   <span class="ftr-copy">moddable.games/tool/dungeon-chess</span>
 </footer>
 
 </div><!-- /page -->
-<script src="../../js/toc.js?v=0.2.1"></script>
+<script src="../../js/toc.js?v=0.2.2"></script>
 </body>
 </html>

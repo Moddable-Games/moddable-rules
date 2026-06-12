@@ -182,6 +182,14 @@ table td {
   margin: 0 0 14px;
   border-radius: 4px;
 }
+.species-group[data-species="human"] .species-header,
+.species-group[data-species="human"] .uc-head { background: #8a7a50; }
+.species-group[data-species="undead"] .species-header,
+.species-group[data-species="undead"] .uc-head { background: #5a4a6a; }
+.species-group[data-species="redskin"] .species-header,
+.species-group[data-species="redskin"] .uc-head { background: #c83030; }
+.species-group[data-species="greenskin"] .species-header,
+.species-group[data-species="greenskin"] .uc-head { background: #3a8a3a; }
 .uc-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
