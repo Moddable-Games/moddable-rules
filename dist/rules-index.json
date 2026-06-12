@@ -27,6 +27,14 @@
     "game": "draughts",
     "gameTitle": "Draughts",
     "section": "Variant Library",
+    "heading": "Large Board (12×12)",
+    "content": "- Canadian Draughtsvariants/canadian/ — International rules on the largest standard board, 30 pieces per side",
+    "anchor": "large-board-1212"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Variant Library",
     "heading": "Alternative Boards",
     "content": "- Lascavariants/lasca/ — 7×7 board, column stacking, pieces never leave the game - Alquerquevariants/alquerque/ — The common ancestor: 5×5 grid with diagonal connections",
     "anchor": "alternative-boards"
@@ -712,6 +720,306 @@
   {
     "game": "draughts",
     "gameTitle": "Draughts",
+    "section": "Bashni",
+    "heading": "Bashni",
+    "content": "Russian column draughts, the predecessor to Lasca. Captured pieces stack beneath the captor instead of leaving the board. Uses Russian Draughts movement rules men capture backwards, mid-jump promotion",
+    "anchor": "bashni",
+    "variant": "bashni",
+    "variantUrl": "dist/draughts/variants/bashni/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Bashni",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. Same as English/Russian Draughts. Pieces: 12 men per player on dark squares of the three nearest rows. First move: White moves first.",
+    "anchor": "setup",
+    "variant": "bashni",
+    "variantUrl": "dist/draughts/variants/bashni/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Bashni",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture by jumping diagonally over an adjacent opponent piece. Men can capture both forwards and backwards Ru",
+    "anchor": "rules",
+    "variant": "bashni",
+    "variantUrl": "dist/draughts/variants/bashni/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Bashni",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings and king-led columns move any number of squares diagonally in any direction. - King capture: Kings jump at distance along diagonals, landing on any open square beyond.",
+    "anchor": "king-promotion",
+    "variant": "bashni",
+    "variantUrl": "dist/draughts/variants/bashni/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Bashni",
+    "heading": "Winning",
+    "content": "A player wins when their opponent controls no columns and has no individual pieces remaining all are buried beneath the winner's columns or when all opponent-controlled pieces are blocked.",
+    "anchor": "winning",
+    "variant": "bashni",
+    "variantUrl": "dist/draughts/variants/bashni/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Bashni",
+    "heading": "Strategy",
+    "content": "Unlike standard draughts where captured material is permanently lost, in Bashni every capture creates a potential future liability. Tall towers are powerful but a single capture strips the commander a",
+    "anchor": "strategy",
+    "variant": "bashni",
+    "variantUrl": "dist/draughts/variants/bashni/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Bashni",
+    "heading": "Attribution",
+    "content": "Traditional Russian variant. Public domain. Pre-dates Lasca 1911. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "bashni",
+    "variantUrl": "dist/draughts/variants/bashni/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "Brazilian Draughts",
+    "content": "International Draughts rules applied to an 8×8 board. Combines the smaller board's faster gameplay with the tactical depth of flying kings, mandatory longest-chain capture, and delayed removal. The st",
+    "anchor": "brazilian-draughts",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. Same layout as English Draughts. Pieces: 12 men per player on dark squares of the three nearest rows. First move: White moves first.",
+    "anchor": "setup",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture by jumping diagonally over an adjacent opponent piece. Men can capture both forwards and backwards. -",
+    "anchor": "rules",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: Kings capture by jumping over a single opponent piece at any distance along a diagonal, landing",
+    "anchor": "king-promotion",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "Draws",
+    "content": "Same conditions as International Draughts.",
+    "anchor": "draws",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "Strategy",
+    "content": "The majority rule on a smaller board makes combinations more immediately available than in 10×10 International. Flying kings dominate the endgame decisively. The delayed removal rule creates situation",
+    "anchor": "strategy",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Brazilian Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Governed by the Confederação Brasileira de Jogo de Damas. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "brazilian",
+    "variantUrl": "dist/draughts/variants/brazilian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "Canadian Draughts",
+    "content": "International Draughts on the largest standard board: 12×12 with 30 pieces per side. The expanded board creates longer games with more complex middle-game positions and endgames that can stretch acros",
+    "anchor": "canadian-draughts",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "Setup",
+    "content": "Board: 12×12 checkered board. Only the 72 dark squares are used. Pieces: 30 men per player. Place all 30 on the dark squares of your five nearest rows. The two central rows remain empty. First move: W",
+    "anchor": "setup",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "Rules",
+    "content": "All International Draughts rules apply: - Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture diagonally both forwards and backwards by jumping. - Mandator",
+    "anchor": "rules",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: Kings jump at distance, landing on any open square beyond the captured piece.",
+    "anchor": "king-promotion",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "Draws",
+    "content": "Same conditions as International Draughts. Due to the larger board, drawn endgames are more common.",
+    "anchor": "draws",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "Strategy",
+    "content": "The 12×12 board makes early development slower and the middlegame broader. Long diagonals up to 12 squares give flying kings enormous range. With 30 pieces per side, sacrificial combinations require d",
+    "anchor": "strategy",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Canadian Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "canadian",
+    "variantUrl": "dist/draughts/variants/canadian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Czech Draughts",
+    "heading": "Czech Draughts",
+    "content": "The Czech and Slovak national variant with a distinctive rule: if a king can capture, it must — even if a man has a longer available chain. This creates a unique dynamic where king positioning is both",
+    "anchor": "czech-draughts",
+    "variant": "czech",
+    "variantUrl": "dist/draughts/variants/czech/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Czech Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. Same layout as English Draughts. Pieces: 12 men per player on dark squares of the three nearest rows. First move: White moves first.",
+    "anchor": "setup",
+    "variant": "czech",
+    "variantUrl": "dist/draughts/variants/czech/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Czech Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture diagonally forward only by jumping. Men cannot capture backwards. - Mandatory capture: Captures are c",
+    "anchor": "rules",
+    "variant": "czech",
+    "variantUrl": "dist/draughts/variants/czech/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Czech Draughts",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: Kings capture by jumping over a single opponent piece at any distance along a diagonal, landing",
+    "anchor": "king-promotion",
+    "variant": "czech",
+    "variantUrl": "dist/draughts/variants/czech/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Czech Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "czech",
+    "variantUrl": "dist/draughts/variants/czech/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Czech Draughts",
+    "heading": "Strategy",
+    "content": "The king priority rule cuts both ways. Your king dominates the board but can be lured into captures that leave it exposed. Opponents can sacrifice pieces along your king's diagonal, forcing it to capt",
+    "anchor": "strategy",
+    "variant": "czech",
+    "variantUrl": "dist/draughts/variants/czech/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Czech Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "czech",
+    "variantUrl": "dist/draughts/variants/czech/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
     "section": "English Draughts",
     "heading": "English Draughts",
     "content": "The most widely known form of draughts, and the simplest to learn. Known as \"Checkers\" in North America. Developed in Europe around 1100 CE, probably in southern France, by adapting the older game of ",
@@ -942,6 +1250,76 @@
   {
     "game": "draughts",
     "gameTitle": "Draughts",
+    "section": "Italian Draughts",
+    "heading": "Italian Draughts",
+    "content": "Italy's national draughts variant with unique restrictions that protect kings and create a strict capture hierarchy. Men cannot capture kings at all, and when multiple captures are available, a comple",
+    "anchor": "italian-draughts",
+    "variant": "italian",
+    "variantUrl": "dist/draughts/variants/italian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Italian Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. The board is oriented with a double corner two dark squares on each player's right side. Pieces: 12 men per player on dark squares of the three nearest r",
+    "anchor": "setup",
+    "variant": "italian",
+    "variantUrl": "dist/draughts/variants/italian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Italian Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture diagonally forward only by jumping. Men CANNOT capture backwards. Men CANNOT capture kings only kings",
+    "anchor": "rules",
+    "variant": "italian",
+    "variantUrl": "dist/draughts/variants/italian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Italian Draughts",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: Kings capture by jumping over a single opponent piece at any distance along a diagonal, landing",
+    "anchor": "king-promotion",
+    "variant": "italian",
+    "variantUrl": "dist/draughts/variants/italian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Italian Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "italian",
+    "variantUrl": "dist/draughts/variants/italian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Italian Draughts",
+    "heading": "Strategy",
+    "content": "The \"men cannot capture kings\" rule makes kings enormously powerful in Italian Draughts. Promoting first is even more decisive here than in other variants. The strict capture priority can be exploited",
+    "anchor": "strategy",
+    "variant": "italian",
+    "variantUrl": "dist/draughts/variants/italian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Italian Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Governed by the Federazione Italiana Dama FID. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "italian",
+    "variantUrl": "dist/draughts/variants/italian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
     "section": "Lasca",
     "heading": "Lasca",
     "content": "Emanuel Lasker's 1911 column checkers. Captured pieces stack beneath the captor instead of leaving the board. All 22 pieces stay in play for the entire game. Ownership shifts as columns change hands.",
@@ -998,6 +1376,316 @@
     "anchor": "attribution",
     "variant": "lasca",
     "variantUrl": "dist/draughts/variants/lasca/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "Pool Checkers",
+    "content": "The American tournament variant, governed by the American Pool Checkers Association since 1966. Combines backward captures for men, flying kings, and mid-jump promotion with free choice between captur",
+    "anchor": "pool-checkers",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. Same layout as English Draughts. Pieces: 12 men per player on dark squares of the three nearest rows. First move: Black moves first note: opposite conven",
+    "anchor": "setup",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture diagonally by jumping over an adjacent opponent piece. Men can capture both forwards AND backwards. -",
+    "anchor": "rules",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: Kings capture by jumping over a single opponent piece at any distance along a diagonal, landing",
+    "anchor": "king-promotion",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "Draws",
+    "content": "The game is a draw when: - Both players agree. - The same position repeats. - Neither player can force a win.",
+    "anchor": "draws",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "Strategy",
+    "content": "Backward captures for men make every piece a threat in both directions, reducing the safety of the back row. Mid-jump promotion combined with free choice allows creative sacrifice sequences: you can c",
+    "anchor": "strategy",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Pool Checkers",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Governed by the American Pool Checkers Association est. 1966. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "pool",
+    "variantUrl": "dist/draughts/variants/pool/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "Russian Draughts",
+    "content": "The dominant form of draughts across Russia and the former Soviet states. Distinguished by three features that create a more tactical game than English Draughts: men can capture backwards, promotion h",
+    "anchor": "russian-draughts",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. Same as English Draughts. Pieces: 12 men per player on dark squares of the three nearest rows. First move: White moves first.",
+    "anchor": "setup",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture diagonally by jumping over an adjacent opponent piece. Men can capture both forwards AND backwards. -",
+    "anchor": "rules",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: Kings capture by jumping over a single opponent piece that is any distance away along a diagona",
+    "anchor": "king-promotion",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "Draws",
+    "content": "The game is a draw when: - Both players agree. - The same position occurs three times. - A player with three or more kings cannot win against a lone king within 15 moves.",
+    "anchor": "draws",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "Strategy",
+    "content": "Mid-jump promotion is the defining tactical element. Sacrifice sequences that push a man to the back row mid-capture create devastating king attacks. The lack of a majority rule means you can choose c",
+    "anchor": "strategy",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Russian Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Governed by the Russian Draughts Federation. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "russian",
+    "variantUrl": "dist/draughts/variants/russian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "Spanish Draughts",
+    "content": "Spain's national variant combining flying kings with the majority capture rule and a preference for capturing kings over men when chains are equal. Notable for its board orientation: the white square ",
+    "anchor": "spanish-draughts",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. Oriented with a white light square at each player's bottom-right corner. Pieces: 12 men per player on dark squares of the three nearest rows. First move:",
+    "anchor": "setup",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture diagonally forward only by jumping. Men CANNOT capture backwards. - Mandatory capture: Captures are c",
+    "anchor": "rules",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: Kings capture by jumping over a single opponent piece at any distance along a diagonal, landing",
+    "anchor": "king-promotion",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "Draws",
+    "content": "The game is a draw when: - Both players agree. - The same position occurs three times. - 20 consecutive king moves pass with no capture.",
+    "anchor": "draws",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "Strategy",
+    "content": "The king preference in the majority rule creates forced-capture traps: arrange a position where your opponent must capture your king because it makes the chain \"higher value\" while this opens a devast",
+    "anchor": "strategy",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spanish Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Governed by the Federación Española de Damas. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "spanish",
+    "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Thai Draughts",
+    "heading": "Thai Draughts",
+    "content": "Known locally as Makhos หมากฮอส, this is Thailand's national draughts variant. Distinguished by fewer starting pieces 8 instead of 12 and a unique king capture restriction: flying kings must land on t",
+    "anchor": "thai-draughts",
+    "variant": "thai",
+    "variantUrl": "dist/draughts/variants/thai/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Thai Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board, dark squares only. Pieces: 8 men per player. Place on the dark squares of the two nearest rows only not three. Four empty rows separate the armies. First move: White moves ",
+    "anchor": "setup",
+    "variant": "thai",
+    "variantUrl": "dist/draughts/variants/thai/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Thai Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time. - Men capture: Men capture diagonally forward only by jumping. Men cannot capture backwards. - Mandatory capture: Captures are c",
+    "anchor": "rules",
+    "variant": "thai",
+    "variantUrl": "dist/draughts/variants/thai/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Thai Draughts",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture restriction: When a king captures, it MUST stop on the square immediately behind the captured pi",
+    "anchor": "king-promotion",
+    "variant": "thai",
+    "variantUrl": "dist/draughts/variants/thai/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Thai Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "thai",
+    "variantUrl": "dist/draughts/variants/thai/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Thai Draughts",
+    "heading": "Strategy",
+    "content": "The reduced piece count 8 vs 12 means the opening is less congested and tactical play begins immediately. The king capture restriction is the key strategic element: flying kings cannot leap over a pie",
+    "anchor": "strategy",
+    "variant": "thai",
+    "variantUrl": "dist/draughts/variants/thai/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Thai Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant Makhos / หมากฮอส. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "thai",
+    "variantUrl": "dist/draughts/variants/thai/"
   },
   {
     "game": "draughts",

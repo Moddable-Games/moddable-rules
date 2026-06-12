@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" width="520" height="520">
+  <title>Canadian Draughts — starting position</title>
+
+  <defs>
+    <symbol id="man-dark" viewBox="0 0 36 36">
+      <circle cx="18" cy="18" r="14" fill="#333" stroke="#111" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="9" fill="none" stroke="#555" stroke-width="1"/>
+    </symbol>
+    <symbol id="man-light" viewBox="0 0 36 36">
+      <circle cx="18" cy="18" r="14" fill="#fff" stroke="#333" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="9" fill="none" stroke="#ccc" stroke-width="1"/>
+    </symbol>
+  </defs>
+
+  <!-- 12x12 board: a1 (bottom-left) is dark -->
+  <g id="board">
+    <rect x="20" y="20" width="480" height="480" fill="#f0d9b5"/>
+    <g fill="#b58863">
+      <!-- Generate dark squares programmatically: row+col odd sum = dark -->
+      <!-- Row 12 (y=20): cols b,d,f,h,j,l -->
+      <rect x="60" y="20" width="40" height="40"/><rect x="140" y="20" width="40" height="40"/><rect x="220" y="20" width="40" height="40"/><rect x="300" y="20" width="40" height="40"/><rect x="380" y="20" width="40" height="40"/><rect x="460" y="20" width="40" height="40"/>
+      <!-- Row 11 (y=60): cols a,c,e,g,i,k -->
+      <rect x="20" y="60" width="40" height="40"/><rect x="100" y="60" width="40" height="40"/><rect x="180" y="60" width="40" height="40"/><rect x="260" y="60" width="40" height="40"/><rect x="340" y="60" width="40" height="40"/><rect x="420" y="60" width="40" height="40"/>
+      <!-- Row 10 (y=100): cols b,d,f,h,j,l -->
+      <rect x="60" y="100" width="40" height="40"/><rect x="140" y="100" width="40" height="40"/><rect x="220" y="100" width="40" height="40"/><rect x="300" y="100" width="40" height="40"/><rect x="380" y="100" width="40" height="40"/><rect x="460" y="100" width="40" height="40"/>
+      <!-- Row 9 (y=140): cols a,c,e,g,i,k -->
+      <rect x="20" y="140" width="40" height="40"/><rect x="100" y="140" width="40" height="40"/><rect x="180" y="140" width="40" height="40"/><rect x="260" y="140" width="40" height="40"/><rect x="340" y="140" width="40" height="40"/><rect x="420" y="140" width="40" height="40"/>
+      <!-- Row 8 (y=180): cols b,d,f,h,j,l -->
+      <rect x="60" y="180" width="40" height="40"/><rect x="140" y="180" width="40" height="40"/><rect x="220" y="180" width="40" height="40"/><rect x="300" y="180" width="40" height="40"/><rect x="380" y="180" width="40" height="40"/><rect x="460" y="180" width="40" height="40"/>
+      <!-- Row 7 (y=220): cols a,c,e,g,i,k -->
+      <rect x="20" y="220" width="40" height="40"/><rect x="100" y="220" width="40" height="40"/><rect x="180" y="220" width="40" height="40"/><rect x="260" y="220" width="40" height="40"/><rect x="340" y="220" width="40" height="40"/><rect x="420" y="220" width="40" height="40"/>
+      <!-- Row 6 (y=260): cols b,d,f,h,j,l -->
+      <rect x="60" y="260" width="40" height="40"/><rect x="140" y="260" width="40" height="40"/><rect x="220" y="260" width="40" height="40"/><rect x="300" y="260" width="40" height="40"/><rect x="380" y="260" width="40" height="40"/><rect x="460" y="260" width="40" height="40"/>
+      <!-- Row 5 (y=300): cols a,c,e,g,i,k -->
+      <rect x="20" y="300" width="40" height="40"/><rect x="100" y="300" width="40" height="40"/><rect x="180" y="300" width="40" height="40"/><rect x="260" y="300" width="40" height="40"/><rect x="340" y="300" width="40" height="40"/><rect x="420" y="300" width="40" height="40"/>
+      <!-- Row 4 (y=340): cols b,d,f,h,j,l -->
+      <rect x="60" y="340" width="40" height="40"/><rect x="140" y="340" width="40" height="40"/><rect x="220" y="340" width="40" height="40"/><rect x="300" y="340" width="40" height="40"/><rect x="380" y="340" width="40" height="40"/><rect x="460" y="340" width="40" height="40"/>
+      <!-- Row 3 (y=380): cols a,c,e,g,i,k -->
+      <rect x="20" y="380" width="40" height="40"/><rect x="100" y="380" width="40" height="40"/><rect x="180" y="380" width="40" height="40"/><rect x="260" y="380" width="40" height="40"/><rect x="340" y="380" width="40" height="40"/><rect x="420" y="380" width="40" height="40"/>
+      <!-- Row 2 (y=420): cols b,d,f,h,j,l -->
+      <rect x="60" y="420" width="40" height="40"/><rect x="140" y="420" width="40" height="40"/><rect x="220" y="420" width="40" height="40"/><rect x="300" y="420" width="40" height="40"/><rect x="380" y="420" width="40" height="40"/><rect x="460" y="420" width="40" height="40"/>
+      <!-- Row 1 (y=460): cols a,c,e,g,i,k -->
+      <rect x="20" y="460" width="40" height="40"/><rect x="100" y="460" width="40" height="40"/><rect x="180" y="460" width="40" height="40"/><rect x="260" y="460" width="40" height="40"/><rect x="340" y="460" width="40" height="40"/><rect x="420" y="460" width="40" height="40"/>
+    </g>
+  </g>
+
+  <!-- Dark pieces: rows 8-12 (top 5 rows), on dark squares, 6 per row = 30 -->
+  <g id="dark-pieces">
+    <!-- Row 12 (y=20): b,d,f,h,j,l -->
+    <use href="#man-dark" x="62" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="142" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="222" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="302" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="382" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="462" y="22" width="36" height="36"/>
+    <!-- Row 11 (y=60): a,c,e,g,i,k -->
+    <use href="#man-dark" x="22" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="102" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="182" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="262" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="342" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="422" y="62" width="36" height="36"/>
+    <!-- Row 10 (y=100): b,d,f,h,j,l -->
+    <use href="#man-dark" x="62" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="142" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="222" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="302" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="382" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="462" y="102" width="36" height="36"/>
+    <!-- Row 9 (y=140): a,c,e,g,i,k -->
+    <use href="#man-dark" x="22" y="142" width="36" height="36"/>
+    <use href="#man-dark" x="102" y="142" width="36" height="36"/>
+    <use href="#man-dark" x="182" y="142" width="36" height="36"/>
+    <use href="#man-dark" x="262" y="142" width="36" height="36"/>
+    <use href="#man-dark" x="342" y="142" width="36" height="36"/>
+    <use href="#man-dark" x="422" y="142" width="36" height="36"/>
+    <!-- Row 8 (y=180): b,d,f,h,j,l -->
+    <use href="#man-dark" x="62" y="182" width="36" height="36"/>
+    <use href="#man-dark" x="142" y="182" width="36" height="36"/>
+    <use href="#man-dark" x="222" y="182" width="36" height="36"/>
+    <use href="#man-dark" x="302" y="182" width="36" height="36"/>
+    <use href="#man-dark" x="382" y="182" width="36" height="36"/>
+    <use href="#man-dark" x="462" y="182" width="36" height="36"/>
+  </g>
+
+  <!-- Light pieces: rows 1-5 (bottom 5 rows), on dark squares, 6 per row = 30 -->
+  <g id="light-pieces">
+    <!-- Row 5 (y=300): a,c,e,g,i,k -->
+    <use href="#man-light" x="22" y="302" width="36" height="36"/>
+    <use href="#man-light" x="102" y="302" width="36" height="36"/>
+    <use href="#man-light" x="182" y="302" width="36" height="36"/>
+    <use href="#man-light" x="262" y="302" width="36" height="36"/>
+    <use href="#man-light" x="342" y="302" width="36" height="36"/>
+    <use href="#man-light" x="422" y="302" width="36" height="36"/>
+    <!-- Row 4 (y=340): b,d,f,h,j,l -->
+    <use href="#man-light" x="62" y="342" width="36" height="36"/>
+    <use href="#man-light" x="142" y="342" width="36" height="36"/>
+    <use href="#man-light" x="222" y="342" width="36" height="36"/>
+    <use href="#man-light" x="302" y="342" width="36" height="36"/>
+    <use href="#man-light" x="382" y="342" width="36" height="36"/>
+    <use href="#man-light" x="462" y="342" width="36" height="36"/>
+    <!-- Row 3 (y=380): a,c,e,g,i,k -->
+    <use href="#man-light" x="22" y="382" width="36" height="36"/>
+    <use href="#man-light" x="102" y="382" width="36" height="36"/>
+    <use href="#man-light" x="182" y="382" width="36" height="36"/>
+    <use href="#man-light" x="262" y="382" width="36" height="36"/>
+    <use href="#man-light" x="342" y="382" width="36" height="36"/>
+    <use href="#man-light" x="422" y="382" width="36" height="36"/>
+    <!-- Row 2 (y=420): b,d,f,h,j,l -->
+    <use href="#man-light" x="62" y="422" width="36" height="36"/>
+    <use href="#man-light" x="142" y="422" width="36" height="36"/>
+    <use href="#man-light" x="222" y="422" width="36" height="36"/>
+    <use href="#man-light" x="302" y="422" width="36" height="36"/>
+    <use href="#man-light" x="382" y="422" width="36" height="36"/>
+    <use href="#man-light" x="462" y="422" width="36" height="36"/>
+    <!-- Row 1 (y=460): a,c,e,g,i,k -->
+    <use href="#man-light" x="22" y="462" width="36" height="36"/>
+    <use href="#man-light" x="102" y="462" width="36" height="36"/>
+    <use href="#man-light" x="182" y="462" width="36" height="36"/>
+    <use href="#man-light" x="262" y="462" width="36" height="36"/>
+    <use href="#man-light" x="342" y="462" width="36" height="36"/>
+    <use href="#man-light" x="422" y="462" width="36" height="36"/>
+  </g>
+
+  <g font-family="sans-serif" font-size="10" text-anchor="middle" fill="#555">
+    <text x="40" y="515">a</text>
+    <text x="80" y="515">b</text>
+    <text x="120" y="515">c</text>
+    <text x="160" y="515">d</text>
+    <text x="200" y="515">e</text>
+    <text x="240" y="515">f</text>
+    <text x="280" y="515">g</text>
+    <text x="320" y="515">h</text>
+    <text x="360" y="515">i</text>
+    <text x="400" y="515">j</text>
+    <text x="440" y="515">k</text>
+    <text x="480" y="515">l</text>
+  </g>
+
+  <g font-family="sans-serif" font-size="10" text-anchor="middle" fill="#555">
+    <text x="10" y="44">12</text>
+    <text x="10" y="84">11</text>
+    <text x="10" y="124">10</text>
+    <text x="10" y="164">9</text>
+    <text x="10" y="204">8</text>
+    <text x="10" y="244">7</text>
+    <text x="10" y="284">6</text>
+    <text x="10" y="324">5</text>
+    <text x="10" y="364">4</text>
+    <text x="10" y="404">3</text>
+    <text x="10" y="444">2</text>
+    <text x="10" y="484">1</text>
+  </g>
+</svg>

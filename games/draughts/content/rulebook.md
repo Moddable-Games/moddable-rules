@@ -1,6 +1,6 @@
 ---
 title: "Draughts — Official Rulebook"
-version: "0.2.0"
+version: "0.3.0"
 slug: "draughts"
 players: "2"
 duration: "15–60 min"
@@ -27,6 +27,14 @@ This library includes {{variant_count}} playable variants spanning multiple boar
 
 - [English Draughts](variants/english/) — The most widely known form: diagonal movement, no flying kings
 - [Turkish Draughts](variants/turkish-draughts/) — Orthogonal movement on all 64 squares, majority capture rule
+- [Russian Draughts](variants/russian/) — Men capture backwards, mid-jump promotion, free choice
+- [Brazilian Draughts](variants/brazilian/) — International rules on 8×8: flying kings, majority capture, delayed removal
+- [Pool Checkers](variants/pool/) — Men capture both directions, flying kings, mid-jump promotion, US tournament standard
+- [Italian Draughts](variants/italian/) — Men cannot capture kings, strict capture priority hierarchy
+- [Spanish Draughts](variants/spanish/) — Flying kings, men forward-only, majority rule with king preference
+- [Czech Draughts](variants/czech/) — King captures take priority over man captures, mid-jump promotion
+- [Thai Draughts](variants/thai/) — 8 pieces per side, flying kings must stop immediately behind captured piece
+- [Bashni](variants/bashni/) — Column stacking on 8×8 with Russian movement rules
 
 </div>
 
@@ -36,6 +44,14 @@ This library includes {{variant_count}} playable variants spanning multiple boar
 
 - [International Draughts](variants/international/) — Flying kings, mandatory longest chain, the competitive standard
 - [Frisian Draughts](variants/frisian/) — International rules plus orthogonal captures, 3-move king limit
+
+</div>
+
+### Large Board (12×12)
+
+<div class="variant-grid">
+
+- [Canadian Draughts](variants/canadian/) — International rules on the largest standard board, 30 pieces per side
 
 </div>
 

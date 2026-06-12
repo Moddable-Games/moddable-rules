@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bashni — Draughts</title>
+<meta name="description" content="Complete rules for Bashni.">
+<meta property="og:title" content="Bashni — Draughts">
+<meta property="og:description" content="Complete rules for Bashni.">
+<meta property="og:image" content="https://rules.moddable.games/games/draughts/og-variants/bashni.png?v=0.3.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bashni — Draughts">
+<meta name="twitter:description" content="Complete rules for Bashni.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/draughts/og-variants/bashni.png?v=0.3.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.3.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.3.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.3.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.3.0">
+<link rel="stylesheet" href="../../../../games/draughts/theme.css?v=0.3.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.3.0">
+<script src="../../../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/draughts/content/variants/bashni.md" class="hdr-link">Markdown</a><a href="../../../../games/draughts/pdf/variants/bashni.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Bashni · Draughts</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Draughts · Variant 15 of 15</span>
+    <h1 class="variant-cover-title">Bashni</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Bashni</h2>
+<p>Russian column draughts, the predecessor to Lasca. Captured pieces stack beneath the captor instead of leaving the board. Uses Russian Draughts movement rules (men capture backwards, mid-jump promotion) on a standard 8×8 board with 12 pieces per side. The name means “towers” in Russian.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
+  <title>English Draughts — starting position</title>
+  <defs>
+    <symbol id="man-dark" viewBox="0 0 36 36">
+      <circle cx="18" cy="18" r="14" fill="#333" stroke="#111" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="9" fill="none" stroke="#555" stroke-width="1"/>
+    </symbol>
+    <symbol id="man-light" viewBox="0 0 36 36">
+      <circle cx="18" cy="18" r="14" fill="#fff" stroke="#333" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="9" fill="none" stroke="#ccc" stroke-width="1"/>
+    </symbol>
+  </defs>
+  <!-- 8x8 board: a1 (bottom-left) is dark, h1 (bottom-right) is light -->
+  <g id="board">
+    <!-- Row 8 (top) -->
+    <rect x="20" y="20" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="60" y="20" width="40" height="40" fill="#b58863"/>
+    <rect x="100" y="20" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="140" y="20" width="40" height="40" fill="#b58863"/>
+    <rect x="180" y="20" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="220" y="20" width="40" height="40" fill="#b58863"/>
+    <rect x="260" y="20" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="300" y="20" width="40" height="40" fill="#b58863"/>
+    <!-- Row 7 -->
+    <rect x="20" y="60" width="40" height="40" fill="#b58863"/>
+    <rect x="60" y="60" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="100" y="60" width="40" height="40" fill="#b58863"/>
+    <rect x="140" y="60" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="180" y="60" width="40" height="40" fill="#b58863"/>
+    <rect x="220" y="60" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="260" y="60" width="40" height="40" fill="#b58863"/>
+    <rect x="300" y="60" width="40" height="40" fill="#f0d9b5"/>
+    <!-- Row 6 -->
+    <rect x="20" y="100" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="60" y="100" width="40" height="40" fill="#b58863"/>
+    <rect x="100" y="100" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="140" y="100" width="40" height="40" fill="#b58863"/>
+    <rect x="180" y="100" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="220" y="100" width="40" height="40" fill="#b58863"/>
+    <rect x="260" y="100" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="300" y="100" width="40" height="40" fill="#b58863"/>
+    <!-- Row 5 -->
+    <rect x="20" y="140" width="40" height="40" fill="#b58863"/>
+    <rect x="60" y="140" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="100" y="140" width="40" height="40" fill="#b58863"/>
+    <rect x="140" y="140" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="180" y="140" width="40" height="40" fill="#b58863"/>
+    <rect x="220" y="140" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="260" y="140" width="40" height="40" fill="#b58863"/>
+    <rect x="300" y="140" width="40" height="40" fill="#f0d9b5"/>
+    <!-- Row 4 -->
+    <rect x="20" y="180" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="60" y="180" width="40" height="40" fill="#b58863"/>
+    <rect x="100" y="180" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="140" y="180" width="40" height="40" fill="#b58863"/>
+    <rect x="180" y="180" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="220" y="180" width="40" height="40" fill="#b58863"/>
+    <rect x="260" y="180" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="300" y="180" width="40" height="40" fill="#b58863"/>
+    <!-- Row 3 -->
+    <rect x="20" y="220" width="40" height="40" fill="#b58863"/>
+    <rect x="60" y="220" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="100" y="220" width="40" height="40" fill="#b58863"/>
+    <rect x="140" y="220" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="180" y="220" width="40" height="40" fill="#b58863"/>
+    <rect x="220" y="220" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="260" y="220" width="40" height="40" fill="#b58863"/>
+    <rect x="300" y="220" width="40" height="40" fill="#f0d9b5"/>
+    <!-- Row 2 -->
+    <rect x="20" y="260" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="60" y="260" width="40" height="40" fill="#b58863"/>
+    <rect x="100" y="260" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="140" y="260" width="40" height="40" fill="#b58863"/>
+    <rect x="180" y="260" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="220" y="260" width="40" height="40" fill="#b58863"/>
+    <rect x="260" y="260" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="300" y="260" width="40" height="40" fill="#b58863"/>
+    <!-- Row 1 (bottom) -->
+    <rect x="20" y="300" width="40" height="40" fill="#b58863"/>
+    <rect x="60" y="300" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="100" y="300" width="40" height="40" fill="#b58863"/>
+    <rect x="140" y="300" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="180" y="300" width="40" height="40" fill="#b58863"/>
+    <rect x="220" y="300" width="40" height="40" fill="#f0d9b5"/>
+    <rect x="260" y="300" width="40" height="40" fill="#b58863"/>
+    <rect x="300" y="300" width="40" height="40" fill="#f0d9b5"/>
+  </g>
+  <!-- Dark pieces: rows 6-8 (top 3 rows), on dark (brown) squares -->
+  <g id="dark-pieces">
+    <!-- Row 8 (y=20): dark squares at b8,d8,f8,h8 -->
+    <use href="#man-dark" x="62" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="142" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="222" y="22" width="36" height="36"/>
+    <use href="#man-dark" x="302" y="22" width="36" height="36"/>
+    <!-- Row 7 (y=60): dark squares at a7,c7,e7,g7 -->
+    <use href="#man-dark" x="22" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="102" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="182" y="62" width="36" height="36"/>
+    <use href="#man-dark" x="262" y="62" width="36" height="36"/>
+    <!-- Row 6 (y=100): dark squares at b6,d6,f6,h6 -->
+    <use href="#man-dark" x="62" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="142" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="222" y="102" width="36" height="36"/>
+    <use href="#man-dark" x="302" y="102" width="36" height="36"/>
+  </g>
+  <!-- Light pieces: rows 1-3 (bottom 3 rows), on dark (brown) squares -->
+  <g id="light-pieces">
+    <!-- Row 3 (y=220): dark squares at a3,c3,e3,g3 -->
+    <use href="#man-light" x="22" y="222" width="36" height="36"/>
+    <use href="#man-light" x="102" y="222" width="36" height="36"/>
+    <use href="#man-light" x="182" y="222" width="36" height="36"/>
+    <use href="#man-light" x="262" y="222" width="36" height="36"/>
+    <!-- Row 2 (y=260): dark squares at b2,d2,f2,h2 -->
+    <use href="#man-light" x="62" y="262" width="36" height="36"/>
+    <use href="#man-light" x="142" y="262" width="36" height="36"/>
+    <use href="#man-light" x="222" y="262" width="36" height="36"/>
+    <use href="#man-light" x="302" y="262" width="36" height="36"/>
+    <!-- Row 1 (y=300): dark squares at a1,c1,e1,g1 -->
+    <use href="#man-light" x="22" y="302" width="36" height="36"/>
+    <use href="#man-light" x="102" y="302" width="36" height="36"/>
+    <use href="#man-light" x="182" y="302" width="36" height="36"/>
+    <use href="#man-light" x="262" y="302" width="36" height="36"/>
+  </g>
+  <g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    <text x="40" y="355">a</text>
+    <text x="80" y="355">b</text>
+    <text x="120" y="355">c</text>
+    <text x="160" y="355">d</text>
+    <text x="200" y="355">e</text>
+    <text x="240" y="355">f</text>
+    <text x="280" y="355">g</text>
+    <text x="320" y="355">h</text>
+  </g>
+  <g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    <text x="10" y="44">8</text>
+    <text x="10" y="84">7</text>
+    <text x="10" y="124">6</text>
+    <text x="10" y="164">5</text>
+    <text x="10" y="204">4</text>
+    <text x="10" y="244">3</text>
+    <text x="10" y="284">2</text>
+    <text x="10" y="324">1</text>
+  </g>
+</svg>
+<p class="diagram-caption">Bashni — starting position</p>
+<h3>Setup</h3>
+<p><strong>Board:</strong> 8×8 checkered board, dark squares only. Same as English/Russian Draughts.</p>
+<p><strong>Pieces:</strong> 12 men per player on dark squares of the three nearest rows.</p>
+<p><strong>First move:</strong> White moves first.</p>
+<h3>Rules</h3>
+<ul class="rules">
+<li><strong>Men movement:</strong> Men move diagonally forward only, one square at a time.</li>
+<li><strong>Men capture:</strong> Men capture by jumping diagonally over an adjacent opponent piece. Men can capture both forwards and backwards (Russian rules).</li>
+<li><strong>Column formation:</strong> When a piece jumps an opponent, the captured piece is placed underneath the capturing piece, forming a column (tower). A column is controlled by whoever’s piece is on top (the “commander”).</li>
+<li><strong>Column movement:</strong> A column moves as a single unit according to its commander: a man-led column moves forward only; a king-led column moves in any direction.</li>
+<li><strong>Capturing a column:</strong> When you jump a column, you take only the top piece (the commander). That piece goes under your jumping piece/column. The remaining stack stays in place, now controlled by the next piece down.</li>
+<li><strong>Liberating buried pieces:</strong> Capturing an opponent’s column can free your own buried pieces. When the enemy commander is taken, your piece (if next from top) regains control.</li>
+<li><strong>Mandatory capture:</strong> Captures are compulsory.</li>
+<li><strong>Free choice:</strong> No majority rule. Player freely chooses between available captures.</li>
+<li><strong>Mid-jump promotion:</strong> If a man (or man-led column) reaches the back row during a multi-jump, it is promoted immediately and continues as a king.</li>
+<li><strong>No re-jumping:</strong> A piece/column cannot be jumped twice in the same sequence.</li>
+</ul>
+<h3>King Promotion</h3>
+<ul class="rules">
+<li><strong>Flying kings:</strong> Kings (and king-led columns) move any number of squares diagonally in any direction.</li>
+<li><strong>King capture:</strong> Kings jump at distance along diagonals, landing on any open square beyond.</li>
+</ul>
+<h3>Winning</h3>
+<p>A player wins when their opponent controls no columns and has no individual pieces remaining (all are buried beneath the winner’s columns) or when all opponent-controlled pieces are blocked.</p>
+<h3>Strategy</h3>
+<p>Unlike standard draughts where captured material is permanently lost, in Bashni every capture creates a potential future liability. Tall towers are powerful but a single capture strips the commander and potentially frees multiple enemy pieces at once. The decision between building tall columns (concentrated power) versus maintaining multiple independent pieces (distributed control) is the central strategic tension.</p>
+<h3>Attribution</h3>
+<p>Traditional Russian variant. Public domain. Pre-dates Lasca (1911). Source: Wikipedia (CC-BY-SA).</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../thai/" class="variant-pager-prev">← Thai Draughts</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <span class="variant-pager-spacer"></span>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Draughts v0.3.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>

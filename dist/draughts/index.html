@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Draughts — Variant Library v0.2.0</title>
+<title>Draughts — Variant Library v0.3.0</title>
 <meta name="description" content="Complete rules for all draughts and checkers variants.">
-<meta property="og:title" content="Draughts — Variant Library v0.2.0">
-<meta property="og:description" content="The world's oldest family of capture games. Complete rules for 6 variants.">
+<meta property="og:title" content="Draughts — Variant Library v0.3.0">
+<meta property="og:description" content="The world's oldest family of capture games. Complete rules for 15 variants.">
 <meta property="og:image" content="https://rules.moddable.games/games/draughts/og-image.png?v=1.1.7">
 <meta property="og:url" content="https://rules.moddable.games/dist/draughts/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Draughts — Variant Library v0.2.0">
-<meta name="twitter:description" content="The world's oldest family of capture games. Complete rules for 6 variants.">
+<meta name="twitter:title" content="Draughts — Variant Library v0.3.0">
+<meta name="twitter:description" content="The world's oldest family of capture games. Complete rules for 15 variants.">
 <meta name="twitter:image" content="https://rules.moddable.games/games/draughts/og-image.png?v=1.1.7">
-<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.2.0">
-<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.2.0">
-<link rel="stylesheet" href="../../shared/css/base.css?v=0.2.0">
-<link rel="stylesheet" href="../../shared/css/components.css?v=0.2.0">
-<link rel="stylesheet" href="../../games/draughts/theme.css?v=0.2.0">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.3.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.3.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.3.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.3.0">
+<link rel="stylesheet" href="../../games/draughts/theme.css?v=0.3.0">
 <script src="../../shared/js/analytics.js" defer></script>
 </head>
 <body>
@@ -29,7 +29,7 @@
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
   <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/draughts/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/draughts/pdf/draughts-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Variant Library · v0.2.0</span>
+  <span class="hdr-meta">Variant Library · v0.3.0</span>
 </header>
 
 <div class="cover">
@@ -38,11 +38,11 @@
   <div class="cover-rule"></div>
   <p class="cover-tagline">The world's oldest family of capture games</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">6</span><span class="cs-lbl">Variants</span></div>
+    <div class="cover-stat"><span class="cs-num">15</span><span class="cs-lbl">Variants</span></div>
     <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">6+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.2.0</p>
+  <p class="cover-pub">Published by Moddable Games · v0.3.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -52,12 +52,20 @@
 <div class="section variant-hub">
 <h2>Variant Library</h2>
 <p>Draughts (Checkers) is a family of abstract strategy games with a shared core mechanic: diagonal or orthogonal movement with mandatory captures by jumping. The family traces back to Alquerque, documented in the 10th century, with regional variants evolving independently across Europe and the Middle East over the following millennium.</p>
-<p>This library includes 6 playable variants spanning multiple board sizes, movement systems, and capture mechanics.</p>
+<p>This library includes 15 playable variants spanning multiple board sizes, movement systems, and capture mechanics.</p>
 <h3>Standard Board (8×8)</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/english/">English Draughts</a> — The most widely known form: diagonal movement, no flying kings</li>
 <li><a href="variants/turkish-draughts/">Turkish Draughts</a> — Orthogonal movement on all 64 squares, majority capture rule</li>
+<li><a href="variants/russian/">Russian Draughts</a> — Men capture backwards, mid-jump promotion, free choice</li>
+<li><a href="variants/brazilian/">Brazilian Draughts</a> — International rules on 8×8: flying kings, majority capture, delayed removal</li>
+<li><a href="variants/pool/">Pool Checkers</a> — Men capture both directions, flying kings, mid-jump promotion, US tournament standard</li>
+<li><a href="variants/italian/">Italian Draughts</a> — Men cannot capture kings, strict capture priority hierarchy</li>
+<li><a href="variants/spanish/">Spanish Draughts</a> — Flying kings, men forward-only, majority rule with king preference</li>
+<li><a href="variants/czech/">Czech Draughts</a> — King captures take priority over man captures, mid-jump promotion</li>
+<li><a href="variants/thai/">Thai Draughts</a> — 8 pieces per side, flying kings must stop immediately behind captured piece</li>
+<li><a href="variants/bashni/">Bashni</a> — Column stacking on 8×8 with Russian movement rules</li>
 </ul>
 </div>
 <h3>Large Board (10×10)</h3>
@@ -65,6 +73,12 @@
 <ul class="rules">
 <li><a href="variants/international/">International Draughts</a> — Flying kings, mandatory longest chain, the competitive standard</li>
 <li><a href="variants/frisian/">Frisian Draughts</a> — International rules plus orthogonal captures, 3-move king limit</li>
+</ul>
+</div>
+<h3>Large Board (12×12)</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/canadian/">Canadian Draughts</a> — International rules on the largest standard board, 30 pieces per side</li>
 </ul>
 </div>
 <h3>Alternative Boards</h3>
@@ -79,10 +93,10 @@
 </main>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Draughts Variant Library v0.2.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Draughts Variant Library v0.3.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
-<script src="../../js/toc.js?v=0.2.0"></script>
+<script src="../../js/toc.js?v=0.3.0"></script>
 </body>
 </html>
