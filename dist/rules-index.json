@@ -2,82 +2,34 @@
   {
     "game": "draughts",
     "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Standard Draughts (English)",
-    "content": "English Draughts is the base game from which all regional variants derive. Known as \"Checkers\" in North America, it is played on the dark squares of a standard 8x8 board.",
-    "anchor": "standard-draughts-english"
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Draughts Checkers is a family of abstract strategy games with a shared core mechanic: diagonal or orthogonal movement with mandatory captures by jumping. The family traces back to Alquerque, documente",
+    "anchor": "variant-library"
   },
   {
     "game": "draughts",
     "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Components",
-    "content": "Qty ----- 1 24",
-    "anchor": "components"
+    "section": "Variant Library",
+    "heading": "Standard Board (8×8)",
+    "content": "- English Draughtsvariants/english/ — The most widely known form: diagonal movement, no flying kings - Turkish Draughtsvariants/turkish-draughts/ — Orthogonal movement on all 64 squares, majority capt",
+    "anchor": "standard-board-88"
   },
   {
     "game": "draughts",
     "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Setup",
-    "content": "Place the board so each player has a dark corner square on their left. Each player places their 12 men on the dark squares of the three rows closest to them. The two central rows remain empty. The pla",
-    "anchor": "setup"
+    "section": "Variant Library",
+    "heading": "Large Board (10×10)",
+    "content": "- International Draughtsvariants/international/ — Flying kings, mandatory longest chain, the competitive standard - Frisian Draughtsvariants/frisian/ — International rules plus orthogonal captures, 3-",
+    "anchor": "large-board-1010"
   },
   {
     "game": "draughts",
     "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Movement",
-    "content": "- Men move diagonally forward only, one square at a time, to an unoccupied dark square. - Men cannot move backwards or sideways.",
-    "anchor": "movement"
-  },
-  {
-    "game": "draughts",
-    "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Capturing",
-    "content": "- A man captures by jumping diagonally forward over an adjacent opponent piece to the vacant square beyond. The captured piece is removed from the board. - Captures are mandatory: if a capture is avai",
-    "anchor": "capturing"
-  },
-  {
-    "game": "draughts",
-    "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "King Promotion",
-    "content": "When a man reaches the opponent's back row the row furthest from where it started, it is promoted to a King. A second piece is placed on top to mark it. - Kings move diagonally in any direction forwar",
-    "anchor": "king-promotion"
-  },
-  {
-    "game": "draughts",
-    "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Winning",
-    "content": "A player wins when their opponent has no legal move available. This occurs either because: - All opponent pieces have been captured, or - All remaining opponent pieces are completely blocked from movi",
-    "anchor": "winning"
-  },
-  {
-    "game": "draughts",
-    "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Draws",
-    "content": "The game is a draw when: - Both players agree to a draw. - The same position occurs three times with the same player to move. - 40 consecutive moves pass with no capture and no man reaching the King r",
-    "anchor": "draws"
-  },
-  {
-    "game": "draughts",
-    "gameTitle": "Draughts",
-    "section": "Standard Draughts (English)",
-    "heading": "Attribution",
-    "content": "English Draughts. Public domain. Rules standardised by the World Draughts Federation FMJD and the English Draughts Association. ---",
-    "anchor": "attribution"
-  },
-  {
-    "game": "draughts",
-    "gameTitle": "Draughts",
-    "section": "Variants",
-    "heading": "Variants",
-    "content": "Board ------- 8×8 7×7",
-    "anchor": "variants"
+    "section": "Variant Library",
+    "heading": "Alternative Boards",
+    "content": "- Lascavariants/lasca/ — 7×7 board, column stacking, pieces never leave the game - Alquerquevariants/alquerque/ — The common ancestor: 5×5 grid with diagonal connections",
+    "anchor": "alternative-boards"
   },
   {
     "game": "dungeon-chess",
@@ -686,6 +638,306 @@
     "heading": "Biomes",
     "content": "Each region belongs to one of seven biome types. Terrain restrictions apply based on the {nowrap unit count.} ✦ \"Needs Support to Pass\" — What This Means A platoon can transit through a restricted ter",
     "anchor": "biomes"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Alquerque",
+    "heading": "Alquerque",
+    "content": "The common ancestor of all draughts variants. First documented by Abu al-Faraj al-Isfahani in the 10th century, with detailed rules recorded in Alfonso X's Libro de los Juegos 1283, Spain. Played on a",
+    "anchor": "alquerque",
+    "variant": "alquerque",
+    "variantUrl": "dist/draughts/variants/alquerque/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Alquerque",
+    "heading": "Setup",
+    "content": "Board: 5×5 grid of 25 intersection points, connected by orthogonal lines horizontal and vertical and diagonal lines on alternating 2×2 squares. Not all points have diagonal connections: some intersect",
+    "anchor": "setup",
+    "variant": "alquerque",
+    "variantUrl": "dist/draughts/variants/alquerque/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Alquerque",
+    "heading": "Rules",
+    "content": "- Movement: Pieces move one point along any connected line orthogonal or diagonal to an adjacent empty point. Movement is allowed in any direction, including backwards. - Capture: A piece captures by ",
+    "anchor": "rules",
+    "variant": "alquerque",
+    "variantUrl": "dist/draughts/variants/alquerque/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Alquerque",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all remaining pieces blocked.",
+    "anchor": "winning",
+    "variant": "alquerque",
+    "variantUrl": "dist/draughts/variants/alquerque/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Alquerque",
+    "heading": "Historical Note",
+    "content": "The rules above follow the Alfonso X source 1283. R.C. Bell's widely cited modern reconstruction 1960s adds restrictions: no backward movement for men, and no revisiting a previously occupied point in",
+    "anchor": "historical-note",
+    "variant": "alquerque",
+    "variantUrl": "dist/draughts/variants/alquerque/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Alquerque",
+    "heading": "Strategy",
+    "content": "With no promotion and symmetric piece capabilities, position is everything. The centre point controls the most lines and is the strongest position on the board. Force your opponent into corners where ",
+    "anchor": "strategy",
+    "variant": "alquerque",
+    "variantUrl": "dist/draughts/variants/alquerque/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Alquerque",
+    "heading": "Attribution",
+    "content": "Traditional game. Public domain. Documented in Libro de los Juegos Alfonso X, 1283. Source: Wikipedia CC-BY-SA, Murray's A History of Board Games Other Than Chess 1952.",
+    "anchor": "attribution",
+    "variant": "alquerque",
+    "variantUrl": "dist/draughts/variants/alquerque/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "English Draughts",
+    "content": "The most widely known form of draughts, and the simplest to learn. Known as \"Checkers\" in North America. Developed in Europe around 1100 CE, probably in southern France, by adapting the older game of ",
+    "anchor": "english-draughts",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board 64 squares, only 32 dark squares used. Orient the board so each player has a dark corner square on their left. Pieces: 12 men per player in two distinct colours. Place all 1",
+    "anchor": "setup",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time, to an unoccupied dark square. Men cannot move backwards or sideways. - Capturing: A man captures by jumping diagonally forward o",
+    "anchor": "rules",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "King Promotion",
+    "content": "When a man reaches the opponent's back row the row furthest from where it started, it is promoted to a King. A second piece is placed on top to mark it. - Kings move diagonally in any direction forwar",
+    "anchor": "king-promotion",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move available: - All opponent pieces have been captured, or - All remaining opponent pieces are completely blocked from moving.",
+    "anchor": "winning",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "Draws",
+    "content": "The game is a draw when: - Both players agree to a draw. - The same position occurs three times with the same player to move. - 40 consecutive moves pass with no capture and no man reaching the King r",
+    "anchor": "draws",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "Strategy",
+    "content": "Control the centre early. Keep a solid back row as long as possible to deny your opponent king promotions. In the endgame, a king has enormous advantage over trapped men. Sacrifice pieces to force you",
+    "anchor": "strategy",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "English Draughts",
+    "heading": "Attribution",
+    "content": "English Draughts. Public domain. Rules standardised by the World Draughts Federation FMJD and the English Draughts Association.",
+    "anchor": "attribution",
+    "variant": "english",
+    "variantUrl": "dist/draughts/variants/english/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Frisian Draughts",
+    "heading": "Frisian Draughts",
+    "content": "International Draughts with one radical addition: pieces can capture orthogonally horizontally and vertically as well as diagonally. This expands capture directions from 4 to 8, creating far more tact",
+    "anchor": "frisian-draughts",
+    "variant": "frisian",
+    "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Frisian Draughts",
+    "heading": "Setup",
+    "content": "Identical to International Draughts. 10×10 checkered board, 20 men per player on the dark squares of their four nearest rows. First move: White moves first.",
+    "anchor": "setup",
+    "variant": "frisian",
+    "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Frisian Draughts",
+    "heading": "Rules",
+    "content": "All International Draughts rules apply, with the following changes: - 8-direction capture: Both men and kings can capture in all 8 directions: diagonal forward and backward plus orthogonal up, down, l",
+    "anchor": "rules",
+    "variant": "frisian",
+    "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Frisian Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move available: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "frisian",
+    "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Frisian Draughts",
+    "heading": "Draws",
+    "content": "Same draw conditions as International Draughts.",
+    "anchor": "draws",
+    "variant": "frisian",
+    "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Frisian Draughts",
+    "heading": "Strategy",
+    "content": "The orthogonal capture dimension creates combinations invisible in standard International play. Pieces that would be safe on the diagonal are now vulnerable to horizontal and vertical jumps. The 3-mov",
+    "anchor": "strategy",
+    "variant": "frisian",
+    "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Frisian Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant from Friesland, Netherlands. Public domain. Recognised by the World Draughts Federation FMJD. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "frisian",
+    "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "International Draughts",
+    "content": "The competitive standard for tournament play worldwide. Evolved independently from Alquerque in the Netherlands around 1550, expanding to a 10x10 board with flying kings and strict capture priority ru",
+    "anchor": "international-draughts",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "Setup",
+    "content": "Board: 10×10 checkered board. Only the 50 dark squares are used. Orient the board so the long diagonal runs from each player's lower-left to upper-right. Pieces: 20 men per player. Place all 20 on the",
+    "anchor": "setup",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time, to an unoccupied dark square. - Men capture: Men capture by jumping diagonally over an adjacent opponent piece to the vacant squ",
+    "anchor": "rules",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "King Promotion",
+    "content": "When a man ends its turn on the opponent's back row, it is promoted to a King flying king. - Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King capture: King",
+    "anchor": "king-promotion",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move available: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "Draws",
+    "content": "The game is a draw when: - Both players agree. - The same position occurs three times with the same player to move. - 25 consecutive king moves pass with no capture and no man movement. - Neither play",
+    "anchor": "draws",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "Strategy",
+    "content": "The 10x10 board rewards long-range planning. Flying kings dominate the endgame, so preventing your opponent's promotion while securing your own is critical. The majority capture rule creates combinati",
+    "anchor": "strategy",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "International Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Rules standardised by the World Draughts Federation FMJD. Source: FMJD Official Rules, Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "international",
+    "variantUrl": "dist/draughts/variants/international/"
   },
   {
     "game": "draughts",

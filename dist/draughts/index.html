@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Draughts — Official Rulebook 0.1.0</title>
-<meta name="description" content="The world's oldest strategy game of diagonal capture">
-<meta property="og:title" content="Draughts — Official Rulebook 0.1.0">
-<meta property="og:description" content="The world's oldest strategy game of diagonal capture">
+<title>Draughts — Official Rulebook 0.2.0</title>
+<meta name="description" content="The world's oldest family of capture games">
+<meta property="og:title" content="Draughts — Official Rulebook 0.2.0">
+<meta property="og:description" content="The world's oldest family of capture games">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/png" sizes="32x32" href="../../shared/logos/favicon-32.png">
 <link rel="stylesheet" href="../../shared/css/fonts.css">
@@ -30,9 +30,9 @@
   <div class="hdr-links">
     <a href="../../index.html" class="hdr-link">All Rules</a>
     <a href="../../games/draughts/content/rulebook.md" class="hdr-link">Markdown</a>
-    <a href="../../games/draughts/pdf/draughts-rulebook-v0.1.0.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <a href="../../games/draughts/pdf/draughts-rulebook-v0.2.0.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
   </div>
-  <span class="hdr-meta">Official Rulebook &middot; 0.1.0</span>
+  <span class="hdr-meta">Official Rulebook &middot; 0.2.0</span>
 </header>
 
 <!-- COVER -->
@@ -40,14 +40,14 @@
   <div class="cover-title">Draughts</div>
   <div class="cover-sub">Official Rulebook</div>
   <div class="cover-rule"></div>
-  <p class="cover-tagline">The world's oldest strategy game of diagonal capture</p>
+  <p class="cover-tagline">The world's oldest family of capture games</p>
   <div class="cover-stats">
     <div class="cover-stat">
       <span class="cs-num">2</span>
       <span class="cs-lbl">Players</span>
     </div>
     <div class="cover-stat">
-      <span class="cs-num">30 min</span>
+      <span class="cs-num">15–60 min</span>
       <span class="cs-lbl">Minutes</span>
     </div>
     <div class="cover-stat">
@@ -55,7 +55,7 @@
       <span class="cs-lbl">Age</span>
     </div>
   </div>
-  <p class="cover-pub">Published by Moddable Games &middot; 0.1.0</p>
+  <p class="cover-pub">Published by Moddable Games &middot; 0.2.0</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -64,97 +64,39 @@
 <!-- MAIN CONTENT -->
 <main id="main-content" class="content">
 
-<h2>Standard Draughts (English)</h2>
-<p>English Draughts is the base game from which all regional variants derive. Known as “Checkers” in North America, it is played on the dark squares of a standard 8x8 board.</p>
-<h3>Components</h3>
-<div class="table-wrap"><table class="t">
-<thead>
-<tr>
-<th>Item</th>
-<th>Qty</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Board</strong></td>
-<td>1</td>
-<td>8x8 checkered board (64 squares, only 32 dark squares used)</td>
-</tr>
-<tr>
-<td><strong>Men</strong></td>
-<td>24</td>
-<td>12 per player in two distinct colours</td>
-</tr>
-</tbody>
-</table></div>
-<h3>Setup</h3>
-<p>Place the board so each player has a dark corner square on their left. Each player places their 12 men on the dark squares of the three rows closest to them. The two central rows remain empty. The player with darker pieces moves first.</p>
-<h3>Movement</h3>
+<div class="section variant-hub">
+<h2>Variant Library</h2>
+<p>Draughts (Checkers) is a family of abstract strategy games with a shared core mechanic: diagonal or orthogonal movement with mandatory captures by jumping. The family traces back to Alquerque, documented in the 10th century, with regional variants evolving independently across Europe and the Middle East over the following millennium.</p>
+<p>This library includes 6 playable variants spanning multiple board sizes, movement systems, and capture mechanics.</p>
+<h3>Standard Board (8×8)</h3>
+<div class="variant-grid">
 <ul class="rules">
-<li>Men move diagonally forward only, one square at a time, to an unoccupied dark square.</li>
-<li>Men cannot move backwards or sideways.</li>
+<li><a href="variants/english/">English Draughts</a> — The most widely known form: diagonal movement, no flying kings</li>
+<li><a href="variants/turkish-draughts/">Turkish Draughts</a> — Orthogonal movement on all 64 squares, majority capture rule</li>
 </ul>
-<h3>Capturing</h3>
+</div>
+<h3>Large Board (10×10)</h3>
+<div class="variant-grid">
 <ul class="rules">
-<li>A man captures by jumping diagonally forward over an adjacent opponent piece to the vacant square beyond. The captured piece is removed from the board.</li>
-<li>Captures are <strong>mandatory</strong>: if a capture is available, it must be taken.</li>
-<li><strong>Multiple captures</strong>: if after a jump another capture is immediately available, the same piece must continue jumping. A multi-capture sequence must be completed in full.</li>
-<li>If multiple capture options exist on a turn, the player may freely choose which one to take (no majority rule in English Draughts).</li>
+<li><a href="variants/international/">International Draughts</a> — Flying kings, mandatory longest chain, the competitive standard</li>
+<li><a href="variants/frisian/">Frisian Draughts</a> — International rules plus orthogonal captures, 3-move king limit</li>
 </ul>
-<h3>King Promotion</h3>
-<p>When a man reaches the opponent’s back row (the row furthest from where it started), it is promoted to a King. A second piece is placed on top to mark it.</p>
+</div>
+<h3>Alternative Boards</h3>
+<div class="variant-grid">
 <ul class="rules">
-<li>Kings move diagonally in any direction (forward or backward), one square at a time.</li>
-<li>Kings capture diagonally in any direction by jumping over an adjacent opponent piece.</li>
-<li>If a man reaches the back row during a multi-capture sequence, it is promoted immediately and the sequence ends there (the new King cannot continue capturing on the same turn).</li>
+<li><a href="variants/lasca/">Lasca</a> — 7×7 board, column stacking, pieces never leave the game</li>
+<li><a href="variants/alquerque/">Alquerque</a> — The common ancestor: 5×5 grid with diagonal connections</li>
 </ul>
-<h3>Winning</h3>
-<p>A player wins when their opponent has no legal move available. This occurs either because:</p>
-<ul class="rules">
-<li>All opponent pieces have been captured, or</li>
-<li>All remaining opponent pieces are completely blocked from moving.</li>
-</ul>
-<h3>Draws</h3>
-<p>The game is a draw when:</p>
-<ul class="rules">
-<li>Both players agree to a draw.</li>
-<li>The same position occurs three times with the same player to move.</li>
-<li>40 consecutive moves pass with no capture and no man reaching the King row.</li>
-<li>Neither player can force a win (e.g. one King vs one King).</li>
-</ul>
-<h3>Attribution</h3>
-<p>English Draughts. Public domain. Rules standardised by the World Draughts Federation (FMJD) and the English Draughts Association.</p>
-<hr>
-<h2>Variants</h2>
-<div class="table-wrap"><table class="t">
-<thead>
-<tr>
-<th>Variant</th>
-<th>Board</th>
-<th>Key Difference</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="variants/turkish-draughts/">Turkish Draughts</a></td>
-<td>8×8</td>
-<td>Orthogonal movement, majority capture rule</td>
-</tr>
-<tr>
-<td><a href="variants/lasca/">Lasca</a></td>
-<td>7×7</td>
-<td>Column stacking, pieces never leave the game</td>
-</tr>
-</tbody>
-</table></div>
+</div>
+</div>
 
 
 </main>
 
 <!-- FOOTER -->
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Draughts Rulebook v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Draughts Rulebook v0.2.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>

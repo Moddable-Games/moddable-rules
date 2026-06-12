@@ -1,78 +1,51 @@
 ---
 title: "Draughts — Official Rulebook"
-version: "0.1.0"
+version: "0.2.0"
 slug: "draughts"
 players: "2"
-duration: "30 min"
+duration: "15–60 min"
 age: "6+"
-tagline: "The world's oldest strategy game of diagonal capture"
+tagline: "The world's oldest family of capture games"
 type: "classic"
 status: "live"
-updated: "2026-06-09"
+updated: "2026-06-12"
 published: true
 variants: true
 ---
 
-## Standard Draughts (English)
+<div class="section variant-hub">
 
-English Draughts is the base game from which all regional variants derive. Known as "Checkers" in North America, it is played on the dark squares of a standard 8x8 board.
+## Variant Library
 
-### Components
+Draughts (Checkers) is a family of abstract strategy games with a shared core mechanic: diagonal or orthogonal movement with mandatory captures by jumping. The family traces back to Alquerque, documented in the 10th century, with regional variants evolving independently across Europe and the Middle East over the following millennium.
 
-| Item | Qty | Notes |
-|------|-----|-------|
-| **Board** | 1 | 8x8 checkered board (64 squares, only 32 dark squares used) |
-| **Men** | 24 | 12 per player in two distinct colours |
+This library includes {{variant_count}} playable variants spanning multiple board sizes, movement systems, and capture mechanics.
 
-### Setup
+### Standard Board (8×8)
 
-Place the board so each player has a dark corner square on their left. Each player places their 12 men on the dark squares of the three rows closest to them. The two central rows remain empty. The player with darker pieces moves first.
+<div class="variant-grid">
 
-### Movement
+- [English Draughts](variants/english/) — The most widely known form: diagonal movement, no flying kings
+- [Turkish Draughts](variants/turkish-draughts/) — Orthogonal movement on all 64 squares, majority capture rule
 
-- Men move diagonally forward only, one square at a time, to an unoccupied dark square.
-- Men cannot move backwards or sideways.
+</div>
 
-### Capturing
+### Large Board (10×10)
 
-- A man captures by jumping diagonally forward over an adjacent opponent piece to the vacant square beyond. The captured piece is removed from the board.
-- Captures are **mandatory**: if a capture is available, it must be taken.
-- **Multiple captures**: if after a jump another capture is immediately available, the same piece must continue jumping. A multi-capture sequence must be completed in full.
-- If multiple capture options exist on a turn, the player may freely choose which one to take (no majority rule in English Draughts).
+<div class="variant-grid">
 
-### King Promotion
+- [International Draughts](variants/international/) — Flying kings, mandatory longest chain, the competitive standard
+- [Frisian Draughts](variants/frisian/) — International rules plus orthogonal captures, 3-move king limit
 
-When a man reaches the opponent's back row (the row furthest from where it started), it is promoted to a King. A second piece is placed on top to mark it.
+</div>
 
-- Kings move diagonally in any direction (forward or backward), one square at a time.
-- Kings capture diagonally in any direction by jumping over an adjacent opponent piece.
-- If a man reaches the back row during a multi-capture sequence, it is promoted immediately and the sequence ends there (the new King cannot continue capturing on the same turn).
+### Alternative Boards
 
-### Winning
+<div class="variant-grid">
 
-A player wins when their opponent has no legal move available. This occurs either because:
+- [Lasca](variants/lasca/) — 7×7 board, column stacking, pieces never leave the game
+- [Alquerque](variants/alquerque/) — The common ancestor: 5×5 grid with diagonal connections
 
-- All opponent pieces have been captured, or
-- All remaining opponent pieces are completely blocked from moving.
+</div>
 
-### Draws
-
-The game is a draw when:
-
-- Both players agree to a draw.
-- The same position occurs three times with the same player to move.
-- 40 consecutive moves pass with no capture and no man reaching the King row.
-- Neither player can force a win (e.g. one King vs one King).
-
-### Attribution
-
-English Draughts. Public domain. Rules standardised by the World Draughts Federation (FMJD) and the English Draughts Association.
-
----
-
-## Variants
-
-| Variant | Board | Key Difference |
-|---------|-------|----------------|
-| [Turkish Draughts](variants/turkish-draughts/) | 8×8 | Orthogonal movement, majority capture rule |
-| [Lasca](variants/lasca/) | 7×7 | Column stacking, pieces never leave the game |
+</div>

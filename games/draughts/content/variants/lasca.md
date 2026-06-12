@@ -4,7 +4,7 @@ slug: "lasca"
 board: "7×7"
 players: "2"
 parent: "draughts"
-order: 2
+order: 5
 win: "Block or bury all opponent pieces"
 special: "Column stacking. Captured pieces go underneath the captor. All 22 pieces stay in play forever."
 ---
@@ -12,6 +12,8 @@ special: "Column stacking. Captured pieces go underneath the captor. All 22 piec
 ## Lasca
 
 Emanuel Lasker's 1911 column checkers. Captured pieces stack beneath the captor instead of leaving the board. All 22 pieces stay in play for the entire game. Ownership shifts as columns change hands.
+
+{{svg:lasca-board.svg "Lasca — starting position"}}
 
 ### Setup
 

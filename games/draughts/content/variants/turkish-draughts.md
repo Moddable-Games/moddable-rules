@@ -4,7 +4,7 @@ slug: "turkish-draughts"
 board: "8×8"
 players: "2"
 parent: "draughts"
-order: 1
+order: 2
 win: "Capture or block all opponent pieces"
 special: "Orthogonal movement replaces diagonal. Majority capture rule. Immediate removal."
 ---
@@ -12,6 +12,8 @@ special: "Orthogonal movement replaces diagonal. Majority capture rule. Immediat
 ## Turkish Draughts
 
 Orthogonal movement on an 8x8 board replaces the diagonal play of standard draughts. Mandatory captures, majority rule, and immediate removal create sharp tactical puzzles. World Championships held since 2014.
+
+{{svg:turkish-board.svg "Turkish Draughts — starting position"}}
 
 ### Setup
 
