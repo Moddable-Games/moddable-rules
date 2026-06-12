@@ -29,7 +29,7 @@ On each turn, you MUST move the weakest piece type that has a legal move. Pawns 
 - Standard chess movement applies, with a move obligation:
 - On each turn, a player MUST move the weakest piece type that has at least one legal move.
 - Piece strength hierarchy (weakest to strongest): Pawn < Knight < Bishop < Rook < Queen < King.
-- If any Pawn has a legal move, you must move a Pawn. Only if no Pawn can move may you move a Knight. And so on up the hierarchy.
+- If any Pawn has a legal move, you must move a Pawn. Only if no Pawn can move may you move a Knight. This continues up the hierarchy.
 - The King can only be moved if no other piece type has a legal move.
 - When in check, the weakest piece type that can resolve the check must be used.
 - Castling is only possible when the King is the weakest available piece (extremely rare in practice).

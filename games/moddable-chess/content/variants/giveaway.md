@@ -38,7 +38,7 @@ Lose all of your pieces (including the King).
 
 ### Strategy
 
-You want to GIVE pieces away, not protect them. But forced captures mean your opponent can force you to capture their pieces too — creating bizarre tactical lines. The ideal position has your pieces offering themselves while your opponent's pieces have no captures available. Pawns are hard to lose (they only capture diagonally) and become liabilities in the endgame. Underpromotion to Bishop is sometimes correct to limit your own capture options.
+You want to GIVE pieces away, not protect them. However, forced captures means your opponent can force you to capture their pieces too — creating bizarre tactical lines. The ideal position has your pieces offering themselves while your opponent's pieces have no captures available. Pawns are hard to lose (they only capture diagonally) and become liabilities in the endgame. Underpromotion to Bishop is sometimes correct to limit your own capture options.
 
 ### Attribution
 

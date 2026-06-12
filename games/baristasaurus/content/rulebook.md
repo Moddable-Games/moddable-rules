@@ -25,7 +25,7 @@ Baristasaurus is a competitive card game where players are dinosaur baristas rac
 
 **1. Take 2 actions.** Pick up cards, play cards to the table, trade with other players, or fulfil an order.
 
-**2. Watch the table.** Customers and orders are shared — anyone can fulfil them. But your barista determines WHICH customers you can serve (herbivores vs carnivores).
+**2. Watch the table.** Customers and orders are shared — anyone can fulfil them. However, your barista determines WHICH customers you can serve (herbivores vs carnivores).
 
 **3. Fulfil orders for tips.** Match ingredient cards in your hand to an order's recipe. Satisfy the customer's extra requests for bonus tips. Add special ingredients for even more.
 

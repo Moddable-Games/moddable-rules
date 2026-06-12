@@ -40,7 +40,7 @@ Checkmate the opponent's King (petrified pieces count as immovable for escape pu
 
 ### Strategy
 
-Queen positioning becomes paramount — move her to lines that freeze the most enemy pieces, then exploit the frozen position. But an exposed Queen is still vulnerable to capture. Petrifying defenders before launching an attack is the key pattern. Trade Queens early if you're losing the petrification war.
+Queen positioning becomes paramount — move her to lines that freeze the most enemy pieces, then exploit the frozen position. An exposed Queen, however, is still vulnerable to capture. Petrifying defenders before launching an attack is the key pattern. Trade Queens early if you're losing the petrification war.
 
 ### Attribution
 

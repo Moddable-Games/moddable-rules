@@ -25,7 +25,7 @@ Each turn, the number of moves you make escalates: 1, 2, 3, 4, 5... Delivering c
 **FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
 ### Rules
 
-- White's first turn: 1 move. Black's first turn: 2 moves. White's second turn: 3 moves. And so on.
+- White's first turn: 1 move. Black's first turn: 2 moves. White's second turn: 3 moves. This pattern continues.
 - If you deliver check at any point during your turn, your turn ends immediately. You cannot continue moving after giving check.
 - You may not move into or through check on any individual move.
 - Captures are normal — you can capture multiple pieces in a single turn.
