@@ -1,6 +1,6 @@
 ---
 title: "Baristasaurus — Official Rulebook"
-version: "0.1.0"
+version: "0.1.1"
 slug: "baristasaurus"
 players: "2–5"
 duration: "~20 min"
@@ -8,7 +8,7 @@ age: "8+"
 tagline: "A prehistoric card game about fulfilling coffeeshop orders"
 type: "game"
 status: "playtest"
-updated: "2026-06-04"
+updated: "2026-06-12"
 first_published: "April 2026"
 published: false
 ---
