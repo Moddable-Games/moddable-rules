@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for Congkak.">
 <meta property="og:title" content="Congkak — Mancala">
 <meta property="og:description" content="Complete rules for Congkak.">
-<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/congkak.png?v=0.1.0">
+<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/congkak.png?v=0.1.1">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/mancala/variants/congkak/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Congkak — Mancala">
 <meta name="twitter:description" content="Complete rules for Congkak.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/congkak.png?v=0.1.0">
+<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/congkak.png?v=0.1.1">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.1">
 <script src="../../../../shared/js/analytics.js" defer></script>
 </head>
 <body>
@@ -52,96 +52,81 @@
 
 <h2>Congkak</h2>
 <p>The traditional Mancala game of the Malay Archipelago, widely played in Malaysia, Indonesia, Singapore, and Brunei. The word comes from the Malay <em>congkak</em> (to count). Congkak uses a boat-shaped wooden board with seven playing pits per side and one large <em>rumah</em> (house) at each end. The game is played by women and children during festive seasons and is recognised as a traditional Malay cultural game.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" width="540" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" width="560" height="180">
   <title>Congkak — starting position (2x7 pits + 2 stores, 7 seeds per pit)</title>
-  <!-- Wooden board background (elongated/boat shape) -->
-  <ellipse cx="270" cy="90" rx="260" ry="75" fill="#8B6B3D"/>
-  <ellipse cx="270" cy="90" rx="256" ry="71" fill="#A0803B"/>
-  <!-- Left store (Player 2's storehouse) -->
-  <ellipse cx="42" cy="90" rx="20" ry="38" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-  <!-- Right store (Player 1's storehouse) -->
-  <ellipse cx="498" cy="90" rx="20" ry="38" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-  <!-- Top row pits (Player 2, 7 pits) -->
+  <!-- Boat-shaped board (traditional Malay congkak shape) -->
+  <ellipse cx="280" cy="90" rx="268" ry="76" fill="#7A5A32"/>
+  <ellipse cx="280" cy="90" rx="260" ry="68" fill="#9B7740"/>
+  <!-- Left store -->
+  <ellipse cx="80" cy="90" rx="20" ry="38" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+  <!-- Right store -->
+  <ellipse cx="480" cy="90" rx="20" ry="38" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+  <!-- Top row pits (7, symmetrically centred) -->
   <g id="top-row">
-    <circle cx="108" cy="58" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="168" cy="58" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="228" cy="58" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="288" cy="58" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="348" cy="58" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="408" cy="58" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="468" cy="58" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+    <circle cx="120" cy="58" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="173" cy="56" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="227" cy="55" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="280" cy="54" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="333" cy="55" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="387" cy="56" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="440" cy="58" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
   </g>
-  <!-- Bottom row pits (Player 1, 7 pits) -->
+  <!-- Bottom row pits (7, symmetrically centred) -->
   <g id="bottom-row">
-    <circle cx="108" cy="122" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="168" cy="122" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="228" cy="122" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="288" cy="122" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="348" cy="122" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="408" cy="122" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="468" cy="122" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+    <circle cx="120" cy="122" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="173" cy="124" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="227" cy="125" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="280" cy="126" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="333" cy="125" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="387" cy="124" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="440" cy="122" r="18" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
   </g>
-  <!-- Seeds in top row (7 per pit, arranged in cluster) -->
-  <g id="seeds-top" fill="#444" stroke="#333" stroke-width="0.5">
-    <!-- Pit 1 -->
-    <circle cx="101" cy="52" r="3"/><circle cx="108" cy="49" r="3"/><circle cx="115" cy="52" r="3"/>
-    <circle cx="104" cy="60" r="3"/><circle cx="112" cy="60" r="3"/>
-    <circle cx="101" cy="67" r="3"/><circle cx="115" cy="67" r="3"/>
-    <!-- Pit 2 -->
-    <circle cx="161" cy="52" r="3"/><circle cx="168" cy="49" r="3"/><circle cx="175" cy="52" r="3"/>
-    <circle cx="164" cy="60" r="3"/><circle cx="172" cy="60" r="3"/>
-    <circle cx="161" cy="67" r="3"/><circle cx="175" cy="67" r="3"/>
-    <!-- Pit 3 -->
-    <circle cx="221" cy="52" r="3"/><circle cx="228" cy="49" r="3"/><circle cx="235" cy="52" r="3"/>
-    <circle cx="224" cy="60" r="3"/><circle cx="232" cy="60" r="3"/>
-    <circle cx="221" cy="67" r="3"/><circle cx="235" cy="67" r="3"/>
-    <!-- Pit 4 -->
-    <circle cx="281" cy="52" r="3"/><circle cx="288" cy="49" r="3"/><circle cx="295" cy="52" r="3"/>
-    <circle cx="284" cy="60" r="3"/><circle cx="292" cy="60" r="3"/>
-    <circle cx="281" cy="67" r="3"/><circle cx="295" cy="67" r="3"/>
-    <!-- Pit 5 -->
-    <circle cx="341" cy="52" r="3"/><circle cx="348" cy="49" r="3"/><circle cx="355" cy="52" r="3"/>
-    <circle cx="344" cy="60" r="3"/><circle cx="352" cy="60" r="3"/>
-    <circle cx="341" cy="67" r="3"/><circle cx="355" cy="67" r="3"/>
-    <!-- Pit 6 -->
-    <circle cx="401" cy="52" r="3"/><circle cx="408" cy="49" r="3"/><circle cx="415" cy="52" r="3"/>
-    <circle cx="404" cy="60" r="3"/><circle cx="412" cy="60" r="3"/>
-    <circle cx="401" cy="67" r="3"/><circle cx="415" cy="67" r="3"/>
-    <!-- Pit 7 -->
-    <circle cx="461" cy="52" r="3"/><circle cx="468" cy="49" r="3"/><circle cx="475" cy="52" r="3"/>
-    <circle cx="464" cy="60" r="3"/><circle cx="472" cy="60" r="3"/>
-    <circle cx="461" cy="67" r="3"/><circle cx="475" cy="67" r="3"/>
-  </g>
-  <!-- Seeds in bottom row (7 per pit) -->
-  <g id="seeds-bottom" fill="#444" stroke="#333" stroke-width="0.5">
-    <!-- Pit 1 -->
-    <circle cx="101" cy="116" r="3"/><circle cx="108" cy="113" r="3"/><circle cx="115" cy="116" r="3"/>
-    <circle cx="104" cy="124" r="3"/><circle cx="112" cy="124" r="3"/>
-    <circle cx="101" cy="131" r="3"/><circle cx="115" cy="131" r="3"/>
-    <!-- Pit 2 -->
-    <circle cx="161" cy="116" r="3"/><circle cx="168" cy="113" r="3"/><circle cx="175" cy="116" r="3"/>
-    <circle cx="164" cy="124" r="3"/><circle cx="172" cy="124" r="3"/>
-    <circle cx="161" cy="131" r="3"/><circle cx="175" cy="131" r="3"/>
-    <!-- Pit 3 -->
-    <circle cx="221" cy="116" r="3"/><circle cx="228" cy="113" r="3"/><circle cx="235" cy="116" r="3"/>
-    <circle cx="224" cy="124" r="3"/><circle cx="232" cy="124" r="3"/>
-    <circle cx="221" cy="131" r="3"/><circle cx="235" cy="131" r="3"/>
-    <!-- Pit 4 -->
-    <circle cx="281" cy="116" r="3"/><circle cx="288" cy="113" r="3"/><circle cx="295" cy="116" r="3"/>
-    <circle cx="284" cy="124" r="3"/><circle cx="292" cy="124" r="3"/>
-    <circle cx="281" cy="131" r="3"/><circle cx="295" cy="131" r="3"/>
-    <!-- Pit 5 -->
-    <circle cx="341" cy="116" r="3"/><circle cx="348" cy="113" r="3"/><circle cx="355" cy="116" r="3"/>
-    <circle cx="344" cy="124" r="3"/><circle cx="352" cy="124" r="3"/>
-    <circle cx="341" cy="131" r="3"/><circle cx="355" cy="131" r="3"/>
-    <!-- Pit 6 -->
-    <circle cx="401" cy="116" r="3"/><circle cx="408" cy="113" r="3"/><circle cx="415" cy="116" r="3"/>
-    <circle cx="404" cy="124" r="3"/><circle cx="412" cy="124" r="3"/>
-    <circle cx="401" cy="131" r="3"/><circle cx="415" cy="131" r="3"/>
-    <!-- Pit 7 -->
-    <circle cx="461" cy="116" r="3"/><circle cx="468" cy="113" r="3"/><circle cx="475" cy="116" r="3"/>
-    <circle cx="464" cy="124" r="3"/><circle cx="472" cy="124" r="3"/>
-    <circle cx="461" cy="131" r="3"/><circle cx="475" cy="131" r="3"/>
+  <!-- Seeds (7 per pit, 3-2-2 arrangement) -->
+  <g fill="#C8B898" stroke="#8A7A5A" stroke-width="0.4">
+    <!-- Top row -->
+    <circle cx="113" cy="52" r="3.5"/><circle cx="120" cy="50" r="3.5"/><circle cx="127" cy="52" r="3.5"/>
+    <circle cx="116" cy="59" r="3.5"/><circle cx="124" cy="59" r="3.5"/>
+    <circle cx="116" cy="66" r="3.5"/><circle cx="124" cy="66" r="3.5"/>
+    <circle cx="166" cy="50" r="3.5"/><circle cx="173" cy="48" r="3.5"/><circle cx="180" cy="50" r="3.5"/>
+    <circle cx="169" cy="57" r="3.5"/><circle cx="177" cy="57" r="3.5"/>
+    <circle cx="169" cy="64" r="3.5"/><circle cx="177" cy="64" r="3.5"/>
+    <circle cx="220" cy="49" r="3.5"/><circle cx="227" cy="47" r="3.5"/><circle cx="234" cy="49" r="3.5"/>
+    <circle cx="223" cy="56" r="3.5"/><circle cx="231" cy="56" r="3.5"/>
+    <circle cx="223" cy="63" r="3.5"/><circle cx="231" cy="63" r="3.5"/>
+    <circle cx="273" cy="48" r="3.5"/><circle cx="280" cy="46" r="3.5"/><circle cx="287" cy="48" r="3.5"/>
+    <circle cx="276" cy="55" r="3.5"/><circle cx="284" cy="55" r="3.5"/>
+    <circle cx="276" cy="62" r="3.5"/><circle cx="284" cy="62" r="3.5"/>
+    <circle cx="326" cy="49" r="3.5"/><circle cx="333" cy="47" r="3.5"/><circle cx="340" cy="49" r="3.5"/>
+    <circle cx="329" cy="56" r="3.5"/><circle cx="337" cy="56" r="3.5"/>
+    <circle cx="329" cy="63" r="3.5"/><circle cx="337" cy="63" r="3.5"/>
+    <circle cx="380" cy="50" r="3.5"/><circle cx="387" cy="48" r="3.5"/><circle cx="394" cy="50" r="3.5"/>
+    <circle cx="383" cy="57" r="3.5"/><circle cx="391" cy="57" r="3.5"/>
+    <circle cx="383" cy="64" r="3.5"/><circle cx="391" cy="64" r="3.5"/>
+    <circle cx="433" cy="52" r="3.5"/><circle cx="440" cy="50" r="3.5"/><circle cx="447" cy="52" r="3.5"/>
+    <circle cx="436" cy="59" r="3.5"/><circle cx="444" cy="59" r="3.5"/>
+    <circle cx="436" cy="66" r="3.5"/><circle cx="444" cy="66" r="3.5"/>
+    <!-- Bottom row -->
+    <circle cx="113" cy="116" r="3.5"/><circle cx="120" cy="114" r="3.5"/><circle cx="127" cy="116" r="3.5"/>
+    <circle cx="116" cy="123" r="3.5"/><circle cx="124" cy="123" r="3.5"/>
+    <circle cx="116" cy="130" r="3.5"/><circle cx="124" cy="130" r="3.5"/>
+    <circle cx="166" cy="118" r="3.5"/><circle cx="173" cy="116" r="3.5"/><circle cx="180" cy="118" r="3.5"/>
+    <circle cx="169" cy="125" r="3.5"/><circle cx="177" cy="125" r="3.5"/>
+    <circle cx="169" cy="132" r="3.5"/><circle cx="177" cy="132" r="3.5"/>
+    <circle cx="220" cy="119" r="3.5"/><circle cx="227" cy="117" r="3.5"/><circle cx="234" cy="119" r="3.5"/>
+    <circle cx="223" cy="126" r="3.5"/><circle cx="231" cy="126" r="3.5"/>
+    <circle cx="223" cy="133" r="3.5"/><circle cx="231" cy="133" r="3.5"/>
+    <circle cx="273" cy="120" r="3.5"/><circle cx="280" cy="118" r="3.5"/><circle cx="287" cy="120" r="3.5"/>
+    <circle cx="276" cy="127" r="3.5"/><circle cx="284" cy="127" r="3.5"/>
+    <circle cx="276" cy="134" r="3.5"/><circle cx="284" cy="134" r="3.5"/>
+    <circle cx="326" cy="119" r="3.5"/><circle cx="333" cy="117" r="3.5"/><circle cx="340" cy="119" r="3.5"/>
+    <circle cx="329" cy="126" r="3.5"/><circle cx="337" cy="126" r="3.5"/>
+    <circle cx="329" cy="133" r="3.5"/><circle cx="337" cy="133" r="3.5"/>
+    <circle cx="380" cy="118" r="3.5"/><circle cx="387" cy="116" r="3.5"/><circle cx="394" cy="118" r="3.5"/>
+    <circle cx="383" cy="125" r="3.5"/><circle cx="391" cy="125" r="3.5"/>
+    <circle cx="383" cy="132" r="3.5"/><circle cx="391" cy="132" r="3.5"/>
+    <circle cx="433" cy="116" r="3.5"/><circle cx="440" cy="114" r="3.5"/><circle cx="447" cy="116" r="3.5"/>
+    <circle cx="436" cy="123" r="3.5"/><circle cx="444" cy="123" r="3.5"/>
+    <circle cx="436" cy="130" r="3.5"/><circle cx="444" cy="130" r="3.5"/>
   </g>
 </svg>
 <p class="diagram-caption">Congkak — starting position</p>
@@ -196,7 +181,7 @@
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Mancala v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Mancala v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Mancala — Official Rulebook"
-version: "0.1.0"
+version: "0.1.1"
 slug: "mancala"
 players: "2"
 duration: "5–30 min"

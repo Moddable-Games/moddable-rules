@@ -1,6 +1,6 @@
 ---
 title: "Royal Game of Ur — Official Rulebook"
-version: "0.1.0"
+version: "0.1.1"
 slug: "royal-ur"
 players: "2"
 duration: "10–20 min"

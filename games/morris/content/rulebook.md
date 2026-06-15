@@ -1,6 +1,6 @@
 ---
 title: "Nine Men's Morris — Official Rulebook"
-version: "0.1.0"
+version: "0.1.1"
 slug: "morris"
 players: "2"
 duration: "15–45 min"

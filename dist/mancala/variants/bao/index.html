@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for Bao.">
 <meta property="og:title" content="Bao — Mancala">
 <meta property="og:description" content="Complete rules for Bao.">
-<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/bao.png?v=0.1.0">
+<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/bao.png?v=0.1.1">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/mancala/variants/bao/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Bao — Mancala">
 <meta name="twitter:description" content="Complete rules for Bao.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/bao.png?v=0.1.0">
+<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/bao.png?v=0.1.1">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.1">
 <script src="../../../../shared/js/analytics.js" defer></script>
 </head>
 <body>
@@ -52,83 +52,81 @@
 
 <h2>Bao</h2>
 <p>The most strategically complex Mancala game in the world, played in Tanzania, Kenya, and across East Africa, particularly among the Swahili-speaking peoples. Bao uses a unique four-row board and a two-phase structure that gives it a depth comparable to Chess. The game has been described by game theorists as the most complex traditional African game.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="480" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" width="560" height="250">
   <title>Bao — 4x8 board (four rows of eight pits)</title>
   <!-- Wooden board background -->
-  <rect x="10" y="15" width="460" height="210" rx="18" ry="18" fill="#8B6B3D"/>
-  <rect x="14" y="19" width="452" height="202" rx="16" ry="16" fill="#A0803B"/>
-  <!-- Row 1 (Player 2 back row - nyumba) -->
-  <g id="row-1-back">
-    <circle cx="68" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="122" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="176" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="230" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="284" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="338" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="392" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="446" cy="52" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+  <rect x="10" y="10" width="540" height="230" rx="18" ry="18" fill="#6B4C28"/>
+  <rect x="16" y="16" width="528" height="218" rx="14" ry="14" fill="#8A6538"/>
+  <!-- Row 1: Player 2 back row (8 pits, spacing 66px, centred) -->
+  <g id="row1">
+    <circle cx="49" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="115" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="181" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="247" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="313" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="379" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="445" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="511" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
   </g>
-  <!-- Row 2 (Player 2 front row) -->
-  <g id="row-2-front">
-    <circle cx="68" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="122" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="176" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="230" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="284" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="338" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="392" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="446" cy="102" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+  <!-- Row 2: Player 2 front row -->
+  <g id="row2">
+    <circle cx="49" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="115" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="181" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="247" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="313" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="379" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="445" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="511" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
   </g>
-  <!-- Dividing line between players -->
-  <line x1="30" y1="120" x2="460" y2="120" stroke="#6B4B2D" stroke-width="2" stroke-dasharray="4,3"/>
-  <!-- Row 3 (Player 1 front row) -->
-  <g id="row-3-front">
-    <circle cx="68" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="122" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="176" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="230" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="284" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="338" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="392" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="446" cy="138" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+  <!-- Divider between players -->
+  <line x1="30" y1="125" x2="544" y2="125" stroke="#554020" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- Row 3: Player 1 front row -->
+  <g id="row3">
+    <circle cx="49" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="115" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="181" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="247" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="313" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="379" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="445" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="511" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
   </g>
-  <!-- Row 4 (Player 1 back row - nyumba) -->
-  <g id="row-4-back">
-    <circle cx="68" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="122" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="176" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="230" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="284" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="338" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="392" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="446" cy="188" r="20" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+  <!-- Row 4: Player 1 back row -->
+  <g id="row4">
+    <circle cx="49" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="115" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="181" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="247" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="313" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="379" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="445" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="511" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
   </g>
-  <!-- Seeds in front rows (2 seeds per pit to show starting state) -->
-  <g id="seeds" fill="#444" stroke="#333" stroke-width="0.5">
-    <!-- Row 2 seeds (Player 2 front) -->
-    <circle cx="63" cy="99" r="3.5"/><circle cx="73" cy="105" r="3.5"/>
-    <circle cx="117" cy="99" r="3.5"/><circle cx="127" cy="105" r="3.5"/>
-    <circle cx="171" cy="99" r="3.5"/><circle cx="181" cy="105" r="3.5"/>
-    <circle cx="225" cy="99" r="3.5"/><circle cx="235" cy="105" r="3.5"/>
-    <circle cx="279" cy="99" r="3.5"/><circle cx="289" cy="105" r="3.5"/>
-    <circle cx="333" cy="99" r="3.5"/><circle cx="343" cy="105" r="3.5"/>
-    <circle cx="387" cy="99" r="3.5"/><circle cx="397" cy="105" r="3.5"/>
-    <circle cx="441" cy="99" r="3.5"/><circle cx="451" cy="105" r="3.5"/>
-    <!-- Row 3 seeds (Player 1 front) -->
-    <circle cx="63" cy="135" r="3.5"/><circle cx="73" cy="141" r="3.5"/>
-    <circle cx="117" cy="135" r="3.5"/><circle cx="127" cy="141" r="3.5"/>
-    <circle cx="171" cy="135" r="3.5"/><circle cx="181" cy="141" r="3.5"/>
-    <circle cx="225" cy="135" r="3.5"/><circle cx="235" cy="141" r="3.5"/>
-    <circle cx="279" cy="135" r="3.5"/><circle cx="289" cy="141" r="3.5"/>
-    <circle cx="333" cy="135" r="3.5"/><circle cx="343" cy="141" r="3.5"/>
-    <circle cx="387" cy="135" r="3.5"/><circle cx="397" cy="141" r="3.5"/>
-    <circle cx="441" cy="135" r="3.5"/><circle cx="451" cy="141" r="3.5"/>
+  <!-- Seeds in front rows (2 per pit) -->
+  <g fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5">
+    <!-- Row 2 -->
+    <circle cx="44" cy="95" r="4"/><circle cx="54" cy="101" r="4"/>
+    <circle cx="110" cy="95" r="4"/><circle cx="120" cy="101" r="4"/>
+    <circle cx="176" cy="95" r="4"/><circle cx="186" cy="101" r="4"/>
+    <circle cx="242" cy="95" r="4"/><circle cx="252" cy="101" r="4"/>
+    <circle cx="308" cy="95" r="4"/><circle cx="318" cy="101" r="4"/>
+    <circle cx="374" cy="95" r="4"/><circle cx="384" cy="101" r="4"/>
+    <circle cx="440" cy="95" r="4"/><circle cx="450" cy="101" r="4"/>
+    <circle cx="506" cy="95" r="4"/><circle cx="516" cy="101" r="4"/>
+    <!-- Row 3 -->
+    <circle cx="44" cy="149" r="4"/><circle cx="54" cy="155" r="4"/>
+    <circle cx="110" cy="149" r="4"/><circle cx="120" cy="155" r="4"/>
+    <circle cx="176" cy="149" r="4"/><circle cx="186" cy="155" r="4"/>
+    <circle cx="242" cy="149" r="4"/><circle cx="252" cy="155" r="4"/>
+    <circle cx="308" cy="149" r="4"/><circle cx="318" cy="155" r="4"/>
+    <circle cx="374" cy="149" r="4"/><circle cx="384" cy="155" r="4"/>
+    <circle cx="440" cy="149" r="4"/><circle cx="450" cy="155" r="4"/>
+    <circle cx="506" cy="149" r="4"/><circle cx="516" cy="155" r="4"/>
   </g>
-  <!-- Nyumba markers (special squares in back rows) -->
-  <g id="nyumba-markers" fill="none" stroke="#C4944A" stroke-width="1.5" stroke-dasharray="3,2">
-    <circle cx="230" cy="52" r="16"/>
-    <circle cx="230" cy="188" r="16"/>
-  </g>
+  <!-- Nyumba markers (special pits — 4th from left in each back row) -->
+  <circle cx="247" cy="50" r="14" fill="none" stroke="#C49040" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="247" cy="200" r="14" fill="none" stroke="#C49040" stroke-width="2" stroke-dasharray="4,3"/>
 </svg>
 <p class="diagram-caption">Bao — starting position</p>
 ### Components
@@ -182,7 +180,7 @@
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Mancala v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Mancala v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>

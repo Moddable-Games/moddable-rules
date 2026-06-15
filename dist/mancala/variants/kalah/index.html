@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for Kalah.">
 <meta property="og:title" content="Kalah — Mancala">
 <meta property="og:description" content="Complete rules for Kalah.">
-<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/kalah.png?v=0.1.0">
+<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/kalah.png?v=0.1.1">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/mancala/variants/kalah/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Kalah — Mancala">
 <meta name="twitter:description" content="Complete rules for Kalah.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/kalah.png?v=0.1.0">
+<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/kalah.png?v=0.1.1">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.1">
 <script src="../../../../shared/js/analytics.js" defer></script>
 </head>
 <body>
@@ -52,62 +52,61 @@
 
 <h2>Kalah</h2>
 <p>The standard Western form of Mancala, designed in the United States by William Julius Champion Jr. in the 1940s and marketed as a commercial game. Widely available and the most commonly taught variant outside Africa and Asia.</p>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" width="480" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" width="520" height="180">
   <title>Kalah — starting position (2x6 pits + 2 stores, 4 seeds per pit)</title>
   <!-- Wooden board background -->
-  <rect x="10" y="20" width="460" height="140" rx="20" ry="20" fill="#8B6B3D"/>
-  <rect x="14" y="24" width="452" height="132" rx="18" ry="18" fill="#A0803B"/>
+  <rect x="10" y="15" width="500" height="150" rx="22" ry="22" fill="#7A5A32"/>
+  <rect x="16" y="21" width="488" height="138" rx="18" ry="18" fill="#9B7740"/>
   <!-- Left store (Player 2's mancala) -->
-  <ellipse cx="50" cy="90" rx="22" ry="42" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+  <ellipse cx="52" cy="90" rx="24" ry="50" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
   <!-- Right store (Player 1's mancala) -->
-  <ellipse cx="430" cy="90" rx="22" ry="42" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-  <!-- Top row pits (Player 2) -->
+  <ellipse cx="468" cy="90" rx="24" ry="50" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+  <!-- Top row pits (Player 2) — centred between stores -->
   <g id="top-row">
-    <circle cx="120" cy="62" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="176" cy="62" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="232" cy="62" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="288" cy="62" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="344" cy="62" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="400" cy="62" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+    <circle cx="115" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="173" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="231" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="289" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="347" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="405" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
   </g>
   <!-- Bottom row pits (Player 1) -->
   <g id="bottom-row">
-    <circle cx="120" cy="118" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="176" cy="118" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="232" cy="118" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="288" cy="118" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="344" cy="118" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
-    <circle cx="400" cy="118" r="22" fill="#5a3e28" stroke="#4a2e18" stroke-width="1.5"/>
+    <circle cx="115" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="173" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="231" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="289" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="347" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="405" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
   </g>
-  <!-- Seeds in top row (4 per pit) -->
-  <g id="seeds-top" fill="#444" stroke="#333" stroke-width="0.5">
-    <circle cx="113" cy="56" r="4"/><circle cx="127" cy="56" r="4"/>
-    <circle cx="113" cy="68" r="4"/><circle cx="127" cy="68" r="4"/>
-    <circle cx="169" cy="56" r="4"/><circle cx="183" cy="56" r="4"/>
-    <circle cx="169" cy="68" r="4"/><circle cx="183" cy="68" r="4"/>
-    <circle cx="225" cy="56" r="4"/><circle cx="239" cy="56" r="4"/>
-    <circle cx="225" cy="68" r="4"/><circle cx="239" cy="68" r="4"/>
-    <circle cx="281" cy="56" r="4"/><circle cx="295" cy="56" r="4"/>
-    <circle cx="281" cy="68" r="4"/><circle cx="295" cy="68" r="4"/>
-    <circle cx="337" cy="56" r="4"/><circle cx="351" cy="56" r="4"/>
-    <circle cx="337" cy="68" r="4"/><circle cx="351" cy="68" r="4"/>
-    <circle cx="393" cy="56" r="4"/><circle cx="407" cy="56" r="4"/>
-    <circle cx="393" cy="68" r="4"/><circle cx="407" cy="68" r="4"/>
-  </g>
-  <!-- Seeds in bottom row (4 per pit) -->
-  <g id="seeds-bottom" fill="#444" stroke="#333" stroke-width="0.5">
-    <circle cx="113" cy="112" r="4"/><circle cx="127" cy="112" r="4"/>
-    <circle cx="113" cy="124" r="4"/><circle cx="127" cy="124" r="4"/>
-    <circle cx="169" cy="112" r="4"/><circle cx="183" cy="112" r="4"/>
-    <circle cx="169" cy="124" r="4"/><circle cx="183" cy="124" r="4"/>
-    <circle cx="225" cy="112" r="4"/><circle cx="239" cy="112" r="4"/>
-    <circle cx="225" cy="124" r="4"/><circle cx="239" cy="124" r="4"/>
-    <circle cx="281" cy="112" r="4"/><circle cx="295" cy="112" r="4"/>
-    <circle cx="281" cy="124" r="4"/><circle cx="295" cy="124" r="4"/>
-    <circle cx="337" cy="112" r="4"/><circle cx="351" cy="112" r="4"/>
-    <circle cx="337" cy="124" r="4"/><circle cx="351" cy="124" r="4"/>
-    <circle cx="393" cy="112" r="4"/><circle cx="407" cy="112" r="4"/>
-    <circle cx="393" cy="124" r="4"/><circle cx="407" cy="124" r="4"/>
+  <!-- Seeds (4 per pit) -->
+  <g fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5">
+    <!-- Top row -->
+    <circle cx="108" cy="54" r="4.5"/><circle cx="122" cy="54" r="4.5"/>
+    <circle cx="108" cy="66" r="4.5"/><circle cx="122" cy="66" r="4.5"/>
+    <circle cx="166" cy="54" r="4.5"/><circle cx="180" cy="54" r="4.5"/>
+    <circle cx="166" cy="66" r="4.5"/><circle cx="180" cy="66" r="4.5"/>
+    <circle cx="224" cy="54" r="4.5"/><circle cx="238" cy="54" r="4.5"/>
+    <circle cx="224" cy="66" r="4.5"/><circle cx="238" cy="66" r="4.5"/>
+    <circle cx="282" cy="54" r="4.5"/><circle cx="296" cy="54" r="4.5"/>
+    <circle cx="282" cy="66" r="4.5"/><circle cx="296" cy="66" r="4.5"/>
+    <circle cx="340" cy="54" r="4.5"/><circle cx="354" cy="54" r="4.5"/>
+    <circle cx="340" cy="66" r="4.5"/><circle cx="354" cy="66" r="4.5"/>
+    <circle cx="398" cy="54" r="4.5"/><circle cx="412" cy="54" r="4.5"/>
+    <circle cx="398" cy="66" r="4.5"/><circle cx="412" cy="66" r="4.5"/>
+    <!-- Bottom row -->
+    <circle cx="108" cy="114" r="4.5"/><circle cx="122" cy="114" r="4.5"/>
+    <circle cx="108" cy="126" r="4.5"/><circle cx="122" cy="126" r="4.5"/>
+    <circle cx="166" cy="114" r="4.5"/><circle cx="180" cy="114" r="4.5"/>
+    <circle cx="166" cy="126" r="4.5"/><circle cx="180" cy="126" r="4.5"/>
+    <circle cx="224" cy="114" r="4.5"/><circle cx="238" cy="114" r="4.5"/>
+    <circle cx="224" cy="126" r="4.5"/><circle cx="238" cy="126" r="4.5"/>
+    <circle cx="282" cy="114" r="4.5"/><circle cx="296" cy="114" r="4.5"/>
+    <circle cx="282" cy="126" r="4.5"/><circle cx="296" cy="126" r="4.5"/>
+    <circle cx="340" cy="114" r="4.5"/><circle cx="354" cy="114" r="4.5"/>
+    <circle cx="340" cy="126" r="4.5"/><circle cx="354" cy="126" r="4.5"/>
+    <circle cx="398" cy="114" r="4.5"/><circle cx="412" cy="114" r="4.5"/>
+    <circle cx="398" cy="126" r="4.5"/><circle cx="412" cy="126" r="4.5"/>
   </g>
 </svg>
 <p class="diagram-caption">Kalah — starting position</p>
@@ -158,7 +157,7 @@
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Mancala v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Mancala v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
