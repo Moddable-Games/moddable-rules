@@ -7,14 +7,14 @@
 <meta name="description" content="Complete rules for the Royal Game of Ur, reconstructed from 4,500-year-old clay tablets by Irving Finkel of the British Museum.">
 <meta property="og:title" content="Royal Game of Ur — Official Rulebook v0.1.0">
 <meta property="og:description" content="The oldest known board game: reconstructed from 4,500-year-old clay tablets.">
-<meta property="og:image" content="https://rules.moddable.games/games/royal-ur/og-image.png?v=1.1.7">
+<meta property="og:image" content="https://rules.moddable.games/games/royal-ur/og-image.png?v=1.1.8">
 <meta property="og:url" content="https://rules.moddable.games/dist/royal-ur/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Royal Game of Ur — Official Rulebook v0.1.0">
 <meta name="twitter:description" content="The oldest known board game: reconstructed from 4,500-year-old clay tablets.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/royal-ur/og-image.png?v=1.1.7">
+<meta name="twitter:image" content="https://rules.moddable.games/games/royal-ur/og-image.png?v=1.1.8">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
@@ -57,6 +57,107 @@
 <div class="section">
 <h2>The Board</h2>
 <p>The board consists of <strong>20 squares</strong> arranged in a distinctive L-shape:</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <title>Royal Game of Ur — board layout</title>
+  <defs>
+    <!-- Rosette pattern: five-dot flower -->
+    <symbol id="rosette" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="5" fill="#8b3a3a"/>
+      <circle cx="20" cy="10" r="3" fill="#8b3a3a"/>
+      <circle cx="20" cy="30" r="3" fill="#8b3a3a"/>
+      <circle cx="10" cy="20" r="3" fill="#8b3a3a"/>
+      <circle cx="30" cy="20" r="3" fill="#8b3a3a"/>
+      <!-- Diagonal dots -->
+      <circle cx="12" cy="12" r="2" fill="#a04848"/>
+      <circle cx="28" cy="12" r="2" fill="#a04848"/>
+      <circle cx="12" cy="28" r="2" fill="#a04848"/>
+      <circle cx="28" cy="28" r="2" fill="#a04848"/>
+    </symbol>
+  </defs>
+  <!-- Board cells: 40x40 each, starting at (20, 30) -->
+  <!-- Layout: 3 rows x 8 columns, but top/bottom rows have gaps at cols 5-6 -->
+  <!-- Row 1 (top): columns 1-4, skip 5-6, columns 7-8 -->
+  <g id="row-1">
+    <rect x="20" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="60" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="100" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="140" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <!-- gap at columns 5-6 -->
+    <rect x="260" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="300" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+  </g>
+  <!-- Row 2 (middle): all 8 columns continuous -->
+  <g id="row-2">
+    <rect x="20" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="60" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="100" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="140" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="180" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="220" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="260" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="300" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+  </g>
+  <!-- Row 3 (bottom): columns 1-4, skip 5-6, columns 7-8 -->
+  <g id="row-3">
+    <rect x="20" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="60" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="100" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="140" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <!-- gap at columns 5-6 -->
+    <rect x="260" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="300" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+  </g>
+  <!-- Rosettes: decorative star/flower markers on 5 special squares -->
+  <!-- Rosette at row 1, col 1 (x=20, y=30) -->
+  <use href="#rosette" x="20" y="30" width="40" height="40"/>
+  <!-- Rosette at row 1, col 7 (x=260, y=30) -->
+  <use href="#rosette" x="260" y="30" width="40" height="40"/>
+  <!-- Rosette at row 2, col 4 (x=140, y=70) — the central safe square -->
+  <use href="#rosette" x="140" y="70" width="40" height="40"/>
+  <!-- Rosette at row 3, col 1 (x=20, y=110) -->
+  <use href="#rosette" x="20" y="110" width="40" height="40"/>
+  <!-- Rosette at row 3, col 7 (x=260, y=110) -->
+  <use href="#rosette" x="260" y="110" width="40" height="40"/>
+  <!-- Subtle inner detail lines on non-rosette cells (diagonal cross pattern) -->
+  <g stroke="#c4a882" stroke-width="0.5" opacity="0.6">
+    <!-- Row 1 non-rosette cells: cols 2,3,4 and col 8 -->
+    <line x1="60" y1="30" x2="100" y2="70"/><line x1="100" y1="30" x2="60" y2="70"/>
+    <line x1="100" y1="30" x2="140" y2="70"/><line x1="140" y1="30" x2="100" y2="70"/>
+    <line x1="140" y1="30" x2="180" y2="70"/><line x1="180" y1="30" x2="140" y2="70"/>
+    <line x1="300" y1="30" x2="340" y2="70"/><line x1="340" y1="30" x2="300" y2="70"/>
+    <!-- Row 2 non-rosette cells: cols 1,2,3,5,6,7,8 -->
+    <line x1="20" y1="70" x2="60" y2="110"/><line x1="60" y1="70" x2="20" y2="110"/>
+    <line x1="60" y1="70" x2="100" y2="110"/><line x1="100" y1="70" x2="60" y2="110"/>
+    <line x1="100" y1="70" x2="140" y2="110"/><line x1="140" y1="70" x2="100" y2="110"/>
+    <line x1="180" y1="70" x2="220" y2="110"/><line x1="220" y1="70" x2="180" y2="110"/>
+    <line x1="220" y1="70" x2="260" y2="110"/><line x1="260" y1="70" x2="220" y2="110"/>
+    <line x1="260" y1="70" x2="300" y2="110"/><line x1="300" y1="70" x2="260" y2="110"/>
+    <line x1="300" y1="70" x2="340" y2="110"/><line x1="340" y1="70" x2="300" y2="110"/>
+    <!-- Row 3 non-rosette cells: cols 2,3,4 and col 8 -->
+    <line x1="60" y1="110" x2="100" y2="150"/><line x1="100" y1="110" x2="60" y2="150"/>
+    <line x1="100" y1="110" x2="140" y2="150"/><line x1="140" y1="110" x2="100" y2="150"/>
+    <line x1="140" y1="110" x2="180" y2="150"/><line x1="180" y1="110" x2="140" y2="150"/>
+    <line x1="300" y1="110" x2="340" y2="150"/><line x1="340" y1="110" x2="300" y2="150"/>
+  </g>
+  <!-- Board outer border: single continuous path tracing the distinctive cross shape -->
+  <path fill="none" stroke="#5a4020" stroke-width="2" stroke-linejoin="round"
+        d="M 20,30 L 180,30 L 180,70 L 260,70 L 260,30 L 340,30
+           L 340,150 L 260,150 L 260,110 L 180,110 L 180,150 L 20,150 Z"/>
+  <!-- Labels -->
+  <g font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5a4020">
+    <text x="40" y="172">1</text>
+    <text x="80" y="172">2</text>
+    <text x="120" y="172">3</text>
+    <text x="160" y="172">4</text>
+    <text x="200" y="172">5</text>
+    <text x="240" y="172">6</text>
+    <text x="280" y="172">7</text>
+    <text x="320" y="172">8</text>
+  </g>
+  <!-- Title label -->
+  <text x="200" y="192" font-family="sans-serif" font-size="10" text-anchor="middle" fill="#5a4020">Royal Game of Ur</text>
+</svg>
+<p class="diagram-caption">Royal Game of Ur — board layout with rosette positions</p>
 <ul class="rules">
 <li>A 4×2 rectangle at one end (8 squares) — each player’s starting zone</li>
 <li>A 2×2 bridge in the middle (4 squares) — shared central path</li>

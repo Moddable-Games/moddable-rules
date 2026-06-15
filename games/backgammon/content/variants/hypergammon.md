@@ -13,6 +13,8 @@ special: "3 pieces per side placed on the last three points. Games last 10–15 
 
 A short-form Backgammon variant using only 3 pieces per side, placed on the last three points of the home board. Games are dramatically faster than standard Backgammon — often finishing in under 15 minutes — while retaining the full rules including hitting, the bar, and bearing off. Hypergammon is fully solved computationally: perfect play has been calculated for all positions. Used in speed tournaments and for teaching probability concepts.
 
+
+{{svg:hypergammon-board.svg "Hypergammon — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

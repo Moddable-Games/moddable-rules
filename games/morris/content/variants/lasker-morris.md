@@ -13,6 +13,8 @@ special: "Each turn: either place a new piece OR move an existing piece. No sequ
 
 A variant of Nine Men's Morris designed by Emanuel Lasker, World Chess Champion from 1894 to 1921. Lasker modified the game to eliminate the sequential two-phase structure: instead of a placement phase followed by a movement phase, each player may on any turn either place a new piece from reserve or move an existing piece already on the board. With 10 pieces per side (one more than standard), the game creates richer interaction as both options remain available throughout most of the game.
 
+
+{{svg:lasker-morris-board.svg "Lasker Morris — board layout"}}
 ### Components
 
 | Item | Qty | Notes |

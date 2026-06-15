@@ -13,6 +13,8 @@ special: "The tuzduk rule: landing the 3rd seed in an opponent's odd-numbered pi
 
 The national game of Kyrgyzstan, played across Central Asia from Kyrgyzstan to Kazakhstan. The name means "nine balls" in Kyrgyz. Toguz Korgool is one of the few Mancala games to feature a permanent lock mechanic (the tuzduk), which creates long-term strategic planning entirely absent from simpler Mancala forms. The game has been played at the World Nomad Games since 2016.
 
+
+{{svg:toguz-korgool-board.svg "Toguz Korgool — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

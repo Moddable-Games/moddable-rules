@@ -13,6 +13,8 @@ special: "Grand slam rule prevents a player from clearing all opponent seeds in 
 
 The most internationally recognised Mancala variant, originating in Ghana and widely played across West Africa, the Caribbean, and the Ghanaian diaspora. Known under many regional names including Awale (Côte d'Ivoire), Wari (Senegal), and Ayo (Yoruba, Nigeria). The game is a national sport in several West African countries.
 
+
+{{svg:oware-board.svg "Oware — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

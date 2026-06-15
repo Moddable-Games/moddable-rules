@@ -13,6 +13,8 @@ special: "Sow into your own house but skip the opponent's house. Dead pits must 
 
 The traditional Mancala game of the Malay Archipelago, widely played in Malaysia, Indonesia, Singapore, and Brunei. The word comes from the Malay *congkak* (to count). Congkak uses a boat-shaped wooden board with seven playing pits per side and one large *rumah* (house) at each end. The game is played by women and children during festive seasons and is recognised as a traditional Malay cultural game.
 
+
+{{svg:congkak-board.svg "Congkak — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

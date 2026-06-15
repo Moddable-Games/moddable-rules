@@ -13,6 +13,8 @@ special: "Multiplayer format: one player (the box) faces a team. The box rotates
 
 A Backgammon format for three or more players in which one player (the box) plays against a team of opponents. All team members consult and vote on moves, while the box plays alone. After the game, positions rotate. Chouette is the standard multiplayer format for casual and social Backgammon sessions, and the standard format at many clubs.
 
+
+{{svg:chouette-board.svg "Chouette — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

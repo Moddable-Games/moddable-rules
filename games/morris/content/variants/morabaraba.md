@@ -13,6 +13,8 @@ special: "South African national game. Cows instead of men. Special rules for th
 
 The national board game of South Africa, played across the country and particularly popular among Zulu, Sotho, and Ndebele communities. The game is a direct descendent of Nine Men's Morris brought to southern Africa during colonial trade contact, but it has developed distinct rules and a rich local tradition. It is played as a recognised sport with national championships. Pieces are called *cows* (*inkomo*) rather than men.
 
+
+{{svg:morabaraba-board.svg "Morabaraba — board layout"}}
 ### Components
 
 | Item | Qty | Notes |

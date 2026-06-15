@@ -13,6 +13,8 @@ special: "No blots allowed: a point with one of your pieces is immediately block
 
 A Greek Backgammon variant in which a point occupied by even a single piece is closed to the opponent — there is no such thing as a blot in Fevga. The result is a pure blocking and racing game. Fevga is the third game in the Greek Tavli set, played after Portes (standard Backgammon) and Plakoto.
 
+
+{{svg:fevga-board.svg "Fevga — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

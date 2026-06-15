@@ -13,6 +13,8 @@ special: "No movement phase; pieces jump to any empty square. Smallest member of
 
 The smallest and oldest member of the Mill game family, played on a 3×3 grid with three pieces per side. Unlike the larger Morris games, Three Men's Morris has no sequential placement phase — pieces are placed and can immediately jump to any empty square on subsequent turns. The game is essentially Tic-Tac-Toe with mobile pieces, preventing draws through the ability to rearrange your position.
 
+
+{{svg:three-mens-morris-board.svg "Three Men's Morris — board layout"}}
 ### Components
 
 | Item | Qty | Notes |

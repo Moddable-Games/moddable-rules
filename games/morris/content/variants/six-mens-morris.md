@@ -13,6 +13,8 @@ special: "Two concentric squares with connecting lines. The medieval European st
 
 The medieval standard form of the Mill game family, widely played across Europe from the 12th to 15th centuries before Nine Men's Morris became dominant. Six Men's Morris uses two concentric squares joined at the midpoints of each side. With 6 pieces per side and 16 intersection points, the game is faster and more tactical than Nine Men's Morris, with less room for the extended blocking structures the larger game allows.
 
+
+{{svg:six-mens-morris-board.svg "Six Men's Morris — board layout"}}
 ### Components
 
 | Item | Qty | Notes |

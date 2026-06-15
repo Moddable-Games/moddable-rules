@@ -13,6 +13,8 @@ special: "Pin instead of hit: landing on a blot traps it under your piece. Trapp
 
 A Greek Backgammon variant in which landing on a lone opponent piece does not send it to the bar — instead, it pins it. A pinned piece cannot move until the piece pinning it moves away. Plakoto is one of the three Greek games (with Fevga and Portes) played together as Tavli, a set of three consecutive games scored together.
 
+
+{{svg:plakoto-board.svg "Plakoto — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

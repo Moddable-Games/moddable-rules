@@ -13,6 +13,8 @@ special: "Identical board to Nine Men's Morris but with corner diagonal connecti
 
 An extension of Nine Men's Morris using the same three concentric square board but with additional diagonal connections at every corner. The diagonals give each corner piece two possible mill directions (along the square side and along the diagonal), creating more opportunities to form mills. With 12 pieces per side (instead of 9), the game is denser and the placement phase longer. The flying rule is omitted because 12 pieces rarely reduce to 3 in normal play.
 
+
+{{svg:twelve-mens-morris-board.svg "Twelve Men's Morris — board layout"}}
 ### Components
 
 | Item | Qty | Notes |

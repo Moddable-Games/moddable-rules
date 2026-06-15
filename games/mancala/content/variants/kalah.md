@@ -13,6 +13,8 @@ special: "Landing in your own store grants a bonus turn. Opponent's store is ski
 
 The standard Western form of Mancala, designed in the United States by William Julius Champion Jr. in the 1940s and marketed as a commercial game. Widely available and the most commonly taught variant outside Africa and Asia.
 
+
+{{svg:kalah-board.svg "Kalah — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

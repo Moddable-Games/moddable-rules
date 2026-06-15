@@ -13,6 +13,8 @@ special: "2 extra checkers placed on the 23-point create a slower, more complex 
 
 A standard Backgammon variant designed by Nick Ballard in the 1990s. Two additional checkers are placed on each player's 23-point (2-point from the opponent's perspective), creating a starting position with more contact and a longer middlegame. The opening is significantly slower than standard Backgammon, producing richer strategic positions. Popular among experienced players who find the standard opening too tactical and too dependent on early dice.
 
+
+{{svg:nackgammon-board.svg "Nackgammon — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

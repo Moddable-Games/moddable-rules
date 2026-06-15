@@ -13,6 +13,8 @@ special: "Multi-lap sowing: the last seed always triggers pickup of the next pit
 
 A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: *pallam* (pit) and *kuzhi* (hole). Pallanguzhi uses 14 seeds per pit — significantly more than other Mancala variants — and features a continuous relay mechanic that creates long, unbroken sowing chains.
 
+
+{{svg:pallanguzhi-board.svg "Pallanguzhi — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

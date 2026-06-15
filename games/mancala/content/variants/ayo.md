@@ -13,6 +13,8 @@ special: "Functionally identical to Oware; grand slam rule applies. Culturally d
 
 The Yoruba name for the Oware family of Mancala games, played in Nigeria and among Yoruba communities worldwide. The game is culturally significant in Yoruba tradition — historically associated with philosophy, divination, and social ritual — though the rules are functionally identical to Oware. The cultural framing and terminology are distinct: seeds are called *ayo* beads, and the board (*opon ayo*) is carved with traditional motifs.
 
+
+{{svg:ayo-board.svg "Ayo — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

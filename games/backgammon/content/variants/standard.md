@@ -13,6 +13,8 @@ special: "Doubling cube allows stakes to be raised during play. Hit pieces are s
 
 The internationally recognised form of Backgammon, governed by the rules of the US Backgammon Federation and the World Backgammon Federation. Pieces race around a 24-point board in opposite directions. Hitting blots sends them to the bar; the doubling cube creates strategic depth around risk and commitment.
 
+
+{{svg:standard-board.svg "Standard Backgammon — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

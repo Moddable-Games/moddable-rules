@@ -13,6 +13,8 @@ special: "Three concentric squares joined at midpoints. Flying allowed when redu
 
 The definitive and most widely played form of the Mill game family. Nine Men's Morris uses three concentric squares joined at the midpoints of each side, creating 24 intersection points. The game has been found scratched into Roman stone at Cursor Hill and carved into medieval cathedral pews — it was ubiquitous across Europe for over 1,000 years. Today it remains popular as a pub and family game, particularly in Germany (Mühle) and Eastern Europe.
 
+{{svg:nine-mens-morris-board.svg "Nine Men's Morris — board layout"}}
+
 ### Components
 
 | Item | Qty | Notes |

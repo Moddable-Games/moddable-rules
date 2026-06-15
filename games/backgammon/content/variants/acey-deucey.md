@@ -13,6 +13,8 @@ special: "Rolling 1-2 grants any doublet of your choice plus another roll. Piece
 
 A variant of Backgammon with roots in the United States military, popular in the Navy and Marines from the early 20th century. Acey-Deucey starts with all pieces off the board; each piece must enter individually. The defining rule is that rolling a 1-2 (acey-deucey) rewards the roller with any doublet of their choice played for free, plus an additional roll.
 
+
+{{svg:acey-deucey-board.svg "Acey-Deucey — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

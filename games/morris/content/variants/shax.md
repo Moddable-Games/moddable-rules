@@ -13,6 +13,8 @@ special: "Somali variant: during placement, mills do not remove opponent pieces 
 
 The traditional board game of Somalia, played widely across the country and among the Somali diaspora. Shax uses the same three concentric square board as Nine Men's Morris but fundamentally changes the capture rule during the placement phase. In Shax, forming a mill during placement does not immediately remove an opponent piece — placement is completed peacefully by both players before any captures occur. Captures happen only during the subsequent movement phase.
 
+
+{{svg:shax-board.svg "Shax — board layout"}}
 ### Components
 
 | Item | Qty | Notes |

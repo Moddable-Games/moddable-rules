@@ -13,6 +13,8 @@ special: "Two-phase game: namua (seeding phase) then mtaji (capture phase). Mult
 
 The most strategically complex Mancala game in the world, played in Tanzania, Kenya, and across East Africa, particularly among the Swahili-speaking peoples. Bao uses a unique four-row board and a two-phase structure that gives it a depth comparable to Chess. The game has been described by game theorists as the most complex traditional African game.
 
+
+{{svg:bao-board.svg "Bao — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

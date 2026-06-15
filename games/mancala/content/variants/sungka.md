@@ -13,6 +13,8 @@ special: "Simultaneous start; sow only into your own head, never the opponent's.
 
 The traditional Mancala game of the Philippines, played across the archipelago for centuries. The board (*sungkaan*) is traditionally carved from a single piece of wood in a boat shape, with seven playing pits per side and a large pit at each end called the *ulo* (head). Sungka is considered a national cultural game and is played at social gatherings, particularly among women.
 
+
+{{svg:sungka-board.svg "Sungka — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

@@ -13,6 +13,8 @@ special: "No hitting. Both players move in the same direction. No doubling cube.
 
 The dominant Backgammon variant in Georgia, Armenia, Azerbaijan, and Russia. Also called Long Nardi to distinguish it from Short Nardi (which is closer to standard Backgammon). Without hitting, the game emphasises blocking and efficient racing over tactical aggression. Widely played in cafés and parks across the Caucasus.
 
+
+{{svg:nardi-board.svg "Nardi — starting position"}}
 ### Components
 
 | Item | Qty | Notes |

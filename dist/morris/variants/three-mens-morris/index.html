@@ -10,6 +10,7 @@
 <meta property="og:image" content="https://rules.moddable.games/games/morris/og-variants/three-mens-morris.png?v=0.1.0">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/morris/variants/three-mens-morris/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
@@ -51,7 +52,40 @@
 
 <h2>Three Men’s Morris</h2>
 <p>The smallest and oldest member of the Mill game family, played on a 3×3 grid with three pieces per side. Unlike the larger Morris games, Three Men’s Morris has no sequential placement phase — pieces are placed and can immediately jump to any empty square on subsequent turns. The game is essentially Tic-Tac-Toe with mobile pieces, preventing draws through the ability to rearrange your position.</p>
-<h3>Components</h3>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <title>Three Men's Morris board</title>
+  <!-- Background -->
+  <rect x="0" y="0" width="320" height="320" fill="#f5e6c8" rx="4"/>
+  <!-- 3x3 grid -->
+  <g fill="none" stroke="#4a3520" stroke-width="2.5" stroke-linecap="square">
+    <!-- Outer border -->
+    <rect x="40" y="40" width="240" height="240"/>
+    <!-- Vertical lines -->
+    <line x1="160" y1="40" x2="160" y2="280"/>
+    <!-- Horizontal lines -->
+    <line x1="40" y1="160" x2="280" y2="160"/>
+    <!-- Diagonals -->
+    <line x1="40" y1="40" x2="280" y2="280"/>
+    <line x1="280" y1="40" x2="40" y2="280"/>
+  </g>
+  <!-- Intersection points (9 total) -->
+  <g fill="#4a3520">
+    <!-- Top row -->
+    <circle cx="40" cy="40" r="7"/>
+    <circle cx="160" cy="40" r="7"/>
+    <circle cx="280" cy="40" r="7"/>
+    <!-- Middle row -->
+    <circle cx="40" cy="160" r="7"/>
+    <circle cx="160" cy="160" r="7"/>
+    <circle cx="280" cy="160" r="7"/>
+    <!-- Bottom row -->
+    <circle cx="40" cy="280" r="7"/>
+    <circle cx="160" cy="280" r="7"/>
+    <circle cx="280" cy="280" r="7"/>
+  </g>
+</svg>
+<p class="diagram-caption">Three Men's Morris — board layout</p>
+### Components
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
