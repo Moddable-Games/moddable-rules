@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayo — Mancala</title>
+<meta name="description" content="Complete rules for Ayo.">
+<meta property="og:title" content="Ayo — Mancala">
+<meta property="og:description" content="Complete rules for Ayo.">
+<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/ayo.png?v=0.1.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/mancala/variants/ayo/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ayo — Mancala">
+<meta name="twitter:description" content="Complete rules for Ayo.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/ayo.png?v=0.1.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.1">
+<script src="../../../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/mancala/content/variants/ayo.md" class="hdr-link">Markdown</a><a href="../../../../games/mancala/pdf/variants/ayo.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Ayo · Mancala</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Mancala · Variant 7 of 8</span>
+    <h1 class="variant-cover-title">Ayo</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">2×6 pits</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Ayo</h2>
+<p>The Yoruba name for the Oware family of Mancala games, played in Nigeria and among Yoruba communities worldwide. The game is culturally significant in Yoruba tradition — historically associated with philosophy, divination, and social ritual — though the rules are functionally identical to Oware. The cultural framing and terminology are distinct: seeds are called <em>ayo</em> beads, and the board (<em>opon ayo</em>) is carved with traditional motifs.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 180" width="470" height="180">
+  <title>Ayo — starting position (2x6, 4 seeds per pit, no stores)</title>
+  <!-- Wooden board background (darker Nigerian hardwood) -->
+  <rect x="10" y="15" width="450" height="150" rx="22" ry="22" fill="#5C3D1E"/>
+  <rect x="16" y="21" width="438" height="138" rx="18" ry="18" fill="#7B5530"/>
+  <!-- Carved groove border -->
+  <rect x="22" y="27" width="426" height="126" rx="14" ry="14" fill="none" stroke="#4A3018" stroke-width="2"/>
+  <!-- Top row pits (Player 2) -->
+  <g id="top-row">
+    <circle cx="70" cy="60" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="136" cy="60" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="202" cy="60" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="268" cy="60" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="334" cy="60" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="400" cy="60" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+  </g>
+  <!-- Bottom row pits (Player 1) -->
+  <g id="bottom-row">
+    <circle cx="70" cy="120" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="136" cy="120" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="202" cy="120" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="268" cy="120" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="334" cy="120" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+    <circle cx="400" cy="120" r="24" fill="#3A2210" stroke="#2A1808" stroke-width="1.5"/>
+  </g>
+  <!-- Seeds (4 per pit, reddish-brown Ayo seeds) -->
+  <g fill="#D4A060" stroke="#A07030" stroke-width="0.5">
+    <!-- Top row -->
+    <circle cx="63" cy="54" r="5"/><circle cx="77" cy="54" r="5"/>
+    <circle cx="63" cy="66" r="5"/><circle cx="77" cy="66" r="5"/>
+    <circle cx="129" cy="54" r="5"/><circle cx="143" cy="54" r="5"/>
+    <circle cx="129" cy="66" r="5"/><circle cx="143" cy="66" r="5"/>
+    <circle cx="195" cy="54" r="5"/><circle cx="209" cy="54" r="5"/>
+    <circle cx="195" cy="66" r="5"/><circle cx="209" cy="66" r="5"/>
+    <circle cx="261" cy="54" r="5"/><circle cx="275" cy="54" r="5"/>
+    <circle cx="261" cy="66" r="5"/><circle cx="275" cy="66" r="5"/>
+    <circle cx="327" cy="54" r="5"/><circle cx="341" cy="54" r="5"/>
+    <circle cx="327" cy="66" r="5"/><circle cx="341" cy="66" r="5"/>
+    <circle cx="393" cy="54" r="5"/><circle cx="407" cy="54" r="5"/>
+    <circle cx="393" cy="66" r="5"/><circle cx="407" cy="66" r="5"/>
+    <!-- Bottom row -->
+    <circle cx="63" cy="114" r="5"/><circle cx="77" cy="114" r="5"/>
+    <circle cx="63" cy="126" r="5"/><circle cx="77" cy="126" r="5"/>
+    <circle cx="129" cy="114" r="5"/><circle cx="143" cy="114" r="5"/>
+    <circle cx="129" cy="126" r="5"/><circle cx="143" cy="126" r="5"/>
+    <circle cx="195" cy="114" r="5"/><circle cx="209" cy="114" r="5"/>
+    <circle cx="195" cy="126" r="5"/><circle cx="209" cy="126" r="5"/>
+    <circle cx="261" cy="114" r="5"/><circle cx="275" cy="114" r="5"/>
+    <circle cx="261" cy="126" r="5"/><circle cx="275" cy="126" r="5"/>
+    <circle cx="327" cy="114" r="5"/><circle cx="341" cy="114" r="5"/>
+    <circle cx="327" cy="126" r="5"/><circle cx="341" cy="126" r="5"/>
+    <circle cx="393" cy="114" r="5"/><circle cx="407" cy="114" r="5"/>
+    <circle cx="393" cy="126" r="5"/><circle cx="407" cy="126" r="5"/>
+  </g>
+</svg>
+<p class="diagram-caption">Ayo — starting position</p>
+### Components
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>2 rows of 6 pits</td>
+</tr>
+<tr>
+<td><strong>Seeds</strong></td>
+<td>48</td>
+<td>4 seeds (<em>ayo</em> beads) per pit at start</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Setup</h3>
+<p>48 seeds distributed equally, 4 per pit. No stores — captured seeds are held separately. Each player owns the 6 pits on their side.</p>
+<h3>Rules</h3>
+<p><strong>Sowing:</strong> Pick up all seeds from any one of your six pits. Sow counter-clockwise, one seed per pit, skipping the original pit if the circuit returns to it.</p>
+<p><strong>Capture:</strong> If the last seed lands in an opponent’s pit and that pit now contains exactly 2 or 3 seeds, capture those seeds. Continue capturing backwards through consecutive pits that also contain exactly 2 or 3 seeds.</p>
+<p><strong>Grand slam:</strong> If sowing would capture every seed on the opponent’s side, the move is illegal. You must choose a different pit. If no legal move avoids a grand slam, all opponent seeds remain and your turn ends.</p>
+<p><strong>Feeding obligation:</strong> If the opponent has no seeds, you must play a pit that gives them seeds. If no such move exists, the game ends and you take all remaining seeds.</p>
+<h3>End of Game</h3>
+<p>The game ends when one player has more than 24 seeds, when fewer than 4 seeds remain on the board and both players agree, or when a position repeats. Remaining seeds go to the player who owns those pits.</p>
+<h3>Winning</h3>
+<p>The player with more captured seeds wins. 25 or more seeds wins outright.</p>
+<h3>Attribution</h3>
+<p>Ayo. Traditional game, Yoruba people, Nigeria. Public domain. Source: Wikipedia (CC-BY-SA); Russ, Laurence — <em>The Complete Mancala Games Book</em> (1984).</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../pallanguzhi/" class="variant-pager-prev">← Pallanguzhi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../sungka/" class="variant-pager-next">Sungka →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Mancala v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>

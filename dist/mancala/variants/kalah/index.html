@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalah — Mancala</title>
+<meta name="description" content="Complete rules for Kalah.">
+<meta property="og:title" content="Kalah — Mancala">
+<meta property="og:description" content="Complete rules for Kalah.">
+<meta property="og:image" content="https://rules.moddable.games/games/mancala/og-variants/kalah.png?v=0.1.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/mancala/variants/kalah/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalah — Mancala">
+<meta name="twitter:description" content="Complete rules for Kalah.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/mancala/og-variants/kalah.png?v=0.1.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../games/mancala/theme.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.1">
+<script src="../../../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/mancala/content/variants/kalah.md" class="hdr-link">Markdown</a><a href="../../../../games/mancala/pdf/variants/kalah.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Kalah · Mancala</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Mancala · Variant 1 of 8</span>
+    <h1 class="variant-cover-title">Kalah</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">2×6 pits + 2 stores</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Kalah</h2>
+<p>The standard Western form of Mancala, designed in the United States by William Julius Champion Jr. in the 1940s and marketed as a commercial game. Widely available and the most commonly taught variant outside Africa and Asia.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" width="520" height="180">
+  <title>Kalah — starting position (2x6 pits + 2 stores, 4 seeds per pit)</title>
+  <!-- Wooden board background -->
+  <rect x="10" y="15" width="500" height="150" rx="22" ry="22" fill="#7A5A32"/>
+  <rect x="16" y="21" width="488" height="138" rx="18" ry="18" fill="#9B7740"/>
+  <!-- Left store (Player 2's mancala) -->
+  <ellipse cx="52" cy="90" rx="24" ry="50" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+  <!-- Right store (Player 1's mancala) -->
+  <ellipse cx="468" cy="90" rx="24" ry="50" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+  <!-- Top row pits (Player 2) — centred between stores -->
+  <g id="top-row">
+    <circle cx="115" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="173" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="231" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="289" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="347" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="405" cy="60" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+  </g>
+  <!-- Bottom row pits (Player 1) -->
+  <g id="bottom-row">
+    <circle cx="115" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="173" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="231" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="289" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="347" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+    <circle cx="405" cy="120" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+  </g>
+  <!-- Seeds (4 per pit) -->
+  <g fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5">
+    <!-- Top row -->
+    <circle cx="108" cy="54" r="4.5"/><circle cx="122" cy="54" r="4.5"/>
+    <circle cx="108" cy="66" r="4.5"/><circle cx="122" cy="66" r="4.5"/>
+    <circle cx="166" cy="54" r="4.5"/><circle cx="180" cy="54" r="4.5"/>
+    <circle cx="166" cy="66" r="4.5"/><circle cx="180" cy="66" r="4.5"/>
+    <circle cx="224" cy="54" r="4.5"/><circle cx="238" cy="54" r="4.5"/>
+    <circle cx="224" cy="66" r="4.5"/><circle cx="238" cy="66" r="4.5"/>
+    <circle cx="282" cy="54" r="4.5"/><circle cx="296" cy="54" r="4.5"/>
+    <circle cx="282" cy="66" r="4.5"/><circle cx="296" cy="66" r="4.5"/>
+    <circle cx="340" cy="54" r="4.5"/><circle cx="354" cy="54" r="4.5"/>
+    <circle cx="340" cy="66" r="4.5"/><circle cx="354" cy="66" r="4.5"/>
+    <circle cx="398" cy="54" r="4.5"/><circle cx="412" cy="54" r="4.5"/>
+    <circle cx="398" cy="66" r="4.5"/><circle cx="412" cy="66" r="4.5"/>
+    <!-- Bottom row -->
+    <circle cx="108" cy="114" r="4.5"/><circle cx="122" cy="114" r="4.5"/>
+    <circle cx="108" cy="126" r="4.5"/><circle cx="122" cy="126" r="4.5"/>
+    <circle cx="166" cy="114" r="4.5"/><circle cx="180" cy="114" r="4.5"/>
+    <circle cx="166" cy="126" r="4.5"/><circle cx="180" cy="126" r="4.5"/>
+    <circle cx="224" cy="114" r="4.5"/><circle cx="238" cy="114" r="4.5"/>
+    <circle cx="224" cy="126" r="4.5"/><circle cx="238" cy="126" r="4.5"/>
+    <circle cx="282" cy="114" r="4.5"/><circle cx="296" cy="114" r="4.5"/>
+    <circle cx="282" cy="126" r="4.5"/><circle cx="296" cy="126" r="4.5"/>
+    <circle cx="340" cy="114" r="4.5"/><circle cx="354" cy="114" r="4.5"/>
+    <circle cx="340" cy="126" r="4.5"/><circle cx="354" cy="126" r="4.5"/>
+    <circle cx="398" cy="114" r="4.5"/><circle cx="412" cy="114" r="4.5"/>
+    <circle cx="398" cy="126" r="4.5"/><circle cx="412" cy="126" r="4.5"/>
+  </g>
+</svg>
+<p class="diagram-caption">Kalah — starting position</p>
+### Components
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>2 rows of 6 pits + 1 store at each end</td>
+</tr>
+<tr>
+<td><strong>Seeds</strong></td>
+<td>72</td>
+<td>Stones, beads, or counters</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Setup</h3>
+<p>Each of the 12 pits begins with 6 seeds. The two stores (also called Kalahs) begin empty. Each player owns the store to their right and the 6 pits on their side of the board.</p>
+<h3>Rules</h3>
+<p><strong>Sowing:</strong> On your turn, pick up all seeds from any one of your six pits. Sow them one at a time into consecutive pits, moving counter-clockwise (to the right along your row, then through your store, then along the opponent’s row).</p>
+<p><strong>Your store:</strong> When you reach your own store, deposit one seed into it. Skip the opponent’s store during sowing.</p>
+<p><strong>Bonus turn:</strong> If the last seed you sow lands in your own store, you take another turn immediately.</p>
+<p><strong>Capture:</strong> If the last seed lands in an empty pit on your side, and the opposite pit (on the opponent’s side) contains seeds, capture all seeds from the opposite pit and your sowing seed, placing them in your store.</p>
+<p><strong>Empty pits:</strong> You must choose a pit that contains at least one seed.</p>
+<h3>End of Game</h3>
+<p>When one player’s six pits are all empty at the start of their turn, the game ends. The opposing player sweeps all remaining seeds on their side into their own store.</p>
+<h3>Winning</h3>
+<p>The player with more seeds in their store wins. With 72 seeds total, 37 wins.</p>
+<h3>Attribution</h3>
+<p>Kalah. Designed by William Julius Champion Jr., USA, 1940s. Public domain rules. Source: Wikipedia (CC-BY-SA).</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <span class="variant-pager-spacer"></span>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../oware/" class="variant-pager-next">Oware →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Mancala v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>

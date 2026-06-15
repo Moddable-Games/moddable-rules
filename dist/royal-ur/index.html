@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Game of Ur — Official Rulebook v0.1.1</title>
+<meta name="description" content="Complete rules for the Royal Game of Ur, reconstructed from 4,500-year-old clay tablets by Irving Finkel of the British Museum.">
+<meta property="og:title" content="Royal Game of Ur — Official Rulebook v0.1.1">
+<meta property="og:description" content="The oldest known board game: reconstructed from 4,500-year-old clay tablets.">
+<meta property="og:image" content="https://rules.moddable.games/games/royal-ur/og-image.png?v=1.1.8">
+<meta property="og:url" content="https://rules.moddable.games/dist/royal-ur/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Royal Game of Ur — Official Rulebook v0.1.1">
+<meta name="twitter:description" content="The oldest known board game: reconstructed from 4,500-year-old clay tablets.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/royal-ur/og-image.png?v=1.1.8">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.1">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.1">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.1.1">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.1.1">
+<link rel="stylesheet" href="../../games/royal-ur/theme.css?v=0.1.1">
+<script src="../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/royal-ur/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/royal-ur/pdf/royal-ur-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Official Rulebook · v0.1.1</span>
+</header>
+
+<div class="cover">
+  <div class="cover-title">ROYAL GAME OF UR</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">The oldest known board game: reconstructed from 4,500-year-old clay tablets</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">4,500</span><span class="cs-lbl">Years Old</span></div>
+    <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">6+</span><span class="cs-lbl">Age</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games · v0.1.1</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<div class="section">
+<h2>History</h2>
+<p>The Royal Game of Ur is the oldest known board game for which we have both physical boards and a written ruleset. The game originates in ancient Mesopotamia approximately 4,500 years ago — boards and pieces have been excavated from the Royal Cemetery of Ur (modern-day Iraq) by archaeologist Sir Leonard Woolley in the 1920s and 1930s. Several boards are now held in the British Museum, London.</p>
+<p>The rules remained a mystery until 1980, when British Museum curator Irving Finkel identified and translated a Babylonian cuneiform tablet (catalogue number MS 33333B) describing the game, dated to approximately 177–176 BCE. This makes the Game of Ur one of only a small number of ancient games where we can recover not just the board but the intent of the rules.</p>
+</div>
+<div class="section">
+<h2>The Board</h2>
+<p>The board consists of <strong>20 squares</strong> arranged in a distinctive L-shape:</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <title>Royal Game of Ur — board layout</title>
+  <defs>
+    <!-- Rosette pattern: five-dot flower -->
+    <symbol id="rosette" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="5" fill="#8b3a3a"/>
+      <circle cx="20" cy="10" r="3" fill="#8b3a3a"/>
+      <circle cx="20" cy="30" r="3" fill="#8b3a3a"/>
+      <circle cx="10" cy="20" r="3" fill="#8b3a3a"/>
+      <circle cx="30" cy="20" r="3" fill="#8b3a3a"/>
+      <!-- Diagonal dots -->
+      <circle cx="12" cy="12" r="2" fill="#a04848"/>
+      <circle cx="28" cy="12" r="2" fill="#a04848"/>
+      <circle cx="12" cy="28" r="2" fill="#a04848"/>
+      <circle cx="28" cy="28" r="2" fill="#a04848"/>
+    </symbol>
+  </defs>
+  <!-- Board cells: 40x40 each, starting at (20, 30) -->
+  <!-- Layout: 3 rows x 8 columns, but top/bottom rows have gaps at cols 5-6 -->
+  <!-- Row 1 (top): columns 1-4, skip 5-6, columns 7-8 -->
+  <g id="row-1">
+    <rect x="20" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="60" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="100" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="140" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <!-- gap at columns 5-6 -->
+    <rect x="260" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="300" y="30" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+  </g>
+  <!-- Row 2 (middle): all 8 columns continuous -->
+  <g id="row-2">
+    <rect x="20" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="60" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="100" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="140" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="180" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="220" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="260" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="300" y="70" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+  </g>
+  <!-- Row 3 (bottom): columns 1-4, skip 5-6, columns 7-8 -->
+  <g id="row-3">
+    <rect x="20" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="60" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="100" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="140" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <!-- gap at columns 5-6 -->
+    <rect x="260" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="300" y="110" width="40" height="40" fill="#d4b896" stroke="#8b7355" stroke-width="1.5"/>
+  </g>
+  <!-- Rosettes: decorative star/flower markers on 5 special squares -->
+  <!-- Rosette at row 1, col 1 (x=20, y=30) -->
+  <use href="#rosette" x="20" y="30" width="40" height="40"/>
+  <!-- Rosette at row 1, col 7 (x=260, y=30) -->
+  <use href="#rosette" x="260" y="30" width="40" height="40"/>
+  <!-- Rosette at row 2, col 4 (x=140, y=70) — the central safe square -->
+  <use href="#rosette" x="140" y="70" width="40" height="40"/>
+  <!-- Rosette at row 3, col 1 (x=20, y=110) -->
+  <use href="#rosette" x="20" y="110" width="40" height="40"/>
+  <!-- Rosette at row 3, col 7 (x=260, y=110) -->
+  <use href="#rosette" x="260" y="110" width="40" height="40"/>
+  <!-- Subtle inner detail lines on non-rosette cells (diagonal cross pattern) -->
+  <g stroke="#c4a882" stroke-width="0.5" opacity="0.6">
+    <!-- Row 1 non-rosette cells: cols 2,3,4 and col 8 -->
+    <line x1="60" y1="30" x2="100" y2="70"/><line x1="100" y1="30" x2="60" y2="70"/>
+    <line x1="100" y1="30" x2="140" y2="70"/><line x1="140" y1="30" x2="100" y2="70"/>
+    <line x1="140" y1="30" x2="180" y2="70"/><line x1="180" y1="30" x2="140" y2="70"/>
+    <line x1="300" y1="30" x2="340" y2="70"/><line x1="340" y1="30" x2="300" y2="70"/>
+    <!-- Row 2 non-rosette cells: cols 1,2,3,5,6,7,8 -->
+    <line x1="20" y1="70" x2="60" y2="110"/><line x1="60" y1="70" x2="20" y2="110"/>
+    <line x1="60" y1="70" x2="100" y2="110"/><line x1="100" y1="70" x2="60" y2="110"/>
+    <line x1="100" y1="70" x2="140" y2="110"/><line x1="140" y1="70" x2="100" y2="110"/>
+    <line x1="180" y1="70" x2="220" y2="110"/><line x1="220" y1="70" x2="180" y2="110"/>
+    <line x1="220" y1="70" x2="260" y2="110"/><line x1="260" y1="70" x2="220" y2="110"/>
+    <line x1="260" y1="70" x2="300" y2="110"/><line x1="300" y1="70" x2="260" y2="110"/>
+    <line x1="300" y1="70" x2="340" y2="110"/><line x1="340" y1="70" x2="300" y2="110"/>
+    <!-- Row 3 non-rosette cells: cols 2,3,4 and col 8 -->
+    <line x1="60" y1="110" x2="100" y2="150"/><line x1="100" y1="110" x2="60" y2="150"/>
+    <line x1="100" y1="110" x2="140" y2="150"/><line x1="140" y1="110" x2="100" y2="150"/>
+    <line x1="140" y1="110" x2="180" y2="150"/><line x1="180" y1="110" x2="140" y2="150"/>
+    <line x1="300" y1="110" x2="340" y2="150"/><line x1="340" y1="110" x2="300" y2="150"/>
+  </g>
+  <!-- Board outer border: single continuous path tracing the distinctive cross shape -->
+  <path fill="none" stroke="#5a4020" stroke-width="2" stroke-linejoin="round"
+        d="M 20,30 L 180,30 L 180,70 L 260,70 L 260,30 L 340,30
+           L 340,150 L 260,150 L 260,110 L 180,110 L 180,150 L 20,150 Z"/>
+  <!-- Labels -->
+  <g font-family="sans-serif" font-size="9" text-anchor="middle" fill="#5a4020">
+    <text x="40" y="172">1</text>
+    <text x="80" y="172">2</text>
+    <text x="120" y="172">3</text>
+    <text x="160" y="172">4</text>
+    <text x="200" y="172">5</text>
+    <text x="240" y="172">6</text>
+    <text x="280" y="172">7</text>
+    <text x="320" y="172">8</text>
+  </g>
+  <!-- Title label -->
+  <text x="200" y="192" font-family="sans-serif" font-size="10" text-anchor="middle" fill="#5a4020">Royal Game of Ur</text>
+</svg>
+<p class="diagram-caption">Royal Game of Ur — board layout with rosette positions</p>
+<ul class="rules">
+<li>A 4×2 rectangle at one end (8 squares) — each player’s starting zone</li>
+<li>A 2×2 bridge in the middle (4 squares) — shared central path</li>
+<li>A 4×2 rectangle at the other end (8 squares) — each player’s finishing zone</li>
+</ul>
+<p>Both players begin their pieces in their own starting zone and race them through the shared bridge and into the finishing zone, eventually bearing them off the board.</p>
+<h3>Rosette Squares</h3>
+<p>Five squares are marked with a rosette pattern. In Finkel’s reconstruction, these are safe squares:</p>
+<ul class="rules">
+<li>A piece resting on a rosette cannot be captured.</li>
+<li>Landing on a rosette grants an extra roll.</li>
+</ul>
+<p>The rosette positions (in Finkel’s reconstruction) are: square 4 of each player’s starting zone, the central rosette in the bridge, and square 4 of each player’s finishing zone.</p>
+</div>
+<div class="section">
+<h2>Equipment</h2>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>20 squares in L-shape; 5 rosette squares</td>
+</tr>
+<tr>
+<td><strong>Pieces</strong></td>
+<td>14</td>
+<td>7 per player in contrasting colours</td>
+</tr>
+<tr>
+<td><strong>Tetrahedral dice</strong></td>
+<td>4</td>
+<td>Binary: each die rolls 0 or 1; total 0–4</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Tetrahedral dice:</strong> Traditionally, four-sided pyramid dice with two marked corners and two unmarked. Roll all four; count the number of marked corners that land face-up. Possible values: 0, 1, 2, 3, or 4. In the absence of tetrahedral dice, four coins may be used (heads = 1, tails = 0).</p>
+</div>
+<div class="section">
+<h2>Setup</h2>
+<p>All 7 pieces per player begin off the board, in reserve. The board starts empty.</p>
+<p>Players sit opposite each other, each at their own starting zone.</p>
+</div>
+<div class="section">
+<h2>Movement</h2>
+<p>On each turn, a player rolls all four tetrahedral dice and counts the result (0–4). A result of 0 means the player passes with no movement.</p>
+<p><strong>Entry:</strong> A piece enters the board from reserve by placing it on the first square of the player’s starting zone.</p>
+<p><strong>Movement path:</strong> Pieces travel along a fixed path — through the player’s starting zone, across the shared bridge, through the player’s finishing zone — and then off the board when they pass the final square.</p>
+<p>The exact path for each player’s pieces:</p>
+<ol>
+<li>Starting zone: squares 1–4 along the outer column, then squares 5–6 across (or the equivalent for their side)</li>
+<li>Bridge: the shared central 4 squares, both players pass through the same squares in the same direction</li>
+<li>Finishing zone: mirror of the starting zone; squares run back along the outer column</li>
+</ol>
+<h3>Capturing</h3>
+<p>If a piece lands on an occupied square that is <strong>not a rosette</strong>, the opponent’s piece is sent back to reserve and must re-enter.</p>
+<p>Two pieces of the same player may not share a square.</p>
+<h3>Rosette Benefits</h3>
+<ul class="rules">
+<li><strong>Safe:</strong> A piece on a rosette cannot be captured.</li>
+<li><strong>Extra roll:</strong> Landing on a rosette grants an additional turn immediately.</li>
+</ul>
+</div>
+<div class="section">
+<h2>Bearing Off</h2>
+<p>When a piece has moved through the full path and reaches the exit point (one square beyond the finishing zone), it is borne off. The die result must be exactly sufficient to bear off a piece — no overshooting. A piece on the final square of the finishing zone requires a roll of 1 to bear off.</p>
+</div>
+<div class="section">
+<h2>Winning</h2>
+<p>The first player to bear off all 7 pieces wins.</p>
+</div>
+<div class="section">
+<h2>Historical Variants and Scholarly Notes</h2>
+<p>Finkel’s 1980 reconstruction from tablet MS 33333B is the most widely accepted ruleset, but the tablet dates to the Seleucid period (c. 177–176 BCE) — over 2,000 years after the earliest boards were made. Whether the tablet’s rules match the original Royal Cemetery game is not known.</p>
+<p><strong>Twenty Squares:</strong> A related game board of 20 squares has been found across the ancient Middle East and Egypt, differing slightly in layout from the Ur boards. Some scholars believe it is an earlier form; others argue it is a parallel tradition. Rules overlap with the Ur tablet reconstruction.</p>
+<p><strong>Senet:</strong> The Egyptian board game Senet (c. 3500 BCE) may be related in concept — a race game using binary dice — but the relationship between Senet and the Royal Game of Ur is debated among game historians.</p>
+<p>For a direct discussion of the reconstruction, see Finkel’s 2007 presentation at the British Museum, available on the British Museum’s YouTube channel.</p>
+</div>
+<div class="section">
+<h2>Attribution</h2>
+<p>Royal Game of Ur. Original game: Mesopotamia, c. 2500 BCE. Rules reconstruction: Irving Finkel, British Museum, 1980. Public domain. Sources: Finkel, Irving — British Museum cuneiform tablet MS 33333B transcription and notes (public); British Museum Object description (public); Wikipedia (CC-BY-SA); Finkel, Irving — British Museum YouTube reconstruction video (2017).</p>
+</div>
+
+</main>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Royal Game of Ur v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+<script src="../../js/toc.js?v=0.1.1"></script>
+</body>
+</html>

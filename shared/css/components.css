@@ -106,6 +106,10 @@ ol li strong{color:var(--text-primary);}
 .diagram-title{font-family:var(--sans);font-weight:600;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--heading-color);margin-bottom:14px;}
 .diagram-caption{font-size:14px;color:var(--text-secondary);font-style:italic;margin-top:12px;line-height:1.58;text-align:left;}
 
+/* Inline board diagrams (full-width) */
+.content .section > svg{display:block;width:100%;height:auto;margin:24px 0;padding:24px;background:#fff;border:1px solid var(--divider-color,#ddd);border-radius:var(--radius-sm,4px);box-shadow:0 2px 8px rgba(0,0,0,.06);}
+.content .section .diagram-caption{text-align:center;font-family:var(--sans);font-size:12px;color:var(--text-secondary,#777);margin-top:-16px;margin-bottom:24px;padding-top:0;}
+
 /* Reference page */
 .ref-page{margin:0;background:var(--bg-dark);background-image:repeating-linear-gradient(90deg,transparent,transparent 6px,rgba(255,255,255,.018) 6px,rgba(255,255,255,.018) 7px);padding:44px 52px 56px;border-top:3px solid var(--accent);}
 .ref-page h2{color:var(--accent);border-bottom-color:rgba(201,168,76,.2);}
