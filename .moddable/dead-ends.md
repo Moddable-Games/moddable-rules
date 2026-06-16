@@ -36,6 +36,8 @@ These games have been investigated and cannot be included in moddable-rules unde
 | Custom World Risk | Not a real published mod — no verifiable source. | 2026-06 |
 | Gloomhaven fan content | Cephalofair custom fan content policy — not standard CC. Redistribution terms unclear. Not open-licensed per our criteria. | 2026-06 |
 | Carcassonne fan expansions (via Wikicarpedia) | Site is 403 to bots. Licence suspected CC BY-NC-SA — NC clause incompatible with moddable.games redistribution. Requires Desktop verification before reconsidering. | 2026-06 |
+| Ultimate Monopoly (jonizaak) | Fan compilation of proprietary rulebooks (Hasbro / Winning Moves / RAD Games). Creator disclaims authorship of the text — not an original open-licensed work. Monopoly is a modern commercial game family (Hasbro trademark, active since 1935) — excluded from moddable-rules scope entirely. DeviantArt, BGG, and direct PDF CDN all 403 to bots; rules PDF unreadable as binary. Open alternative identified: The Landlord's Game (see moddable-rules#65). | 2026-06 |
+| Monopoly (all editions) | Modern commercial game family. Hasbro trademark active since 1935. Categorically excluded from moddable-rules scope regardless of fan licence claims. Note: the website mod library may list Monopoly mods as externally-linked community content without hosting rules — that is acceptable. Only moddable-rules is restricted. | 2026-06 |
 
 ---
 
