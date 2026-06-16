@@ -1,5 +1,53 @@
 [
   {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Backgammon is one of the oldest board games in the world, with origins traced to ancient Mesopotamia approximately 5,000 years ago. The family — known historically as Tables games — combines racing, b",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Variant Library",
+    "heading": "Standard Rules",
+    "content": "- Standard Backgammonvariants/standard/ — Classic rules: 15 pieces per side, hit and bar, doubling cube, bear-off to win",
+    "anchor": "standard-rules"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Variant Library",
+    "heading": "Regional Forms",
+    "content": "- Nardivariants/nardi/ — Caucasian and Russian variant: no hitting, pieces travel the same direction, no doubling cube - Plakotovariants/plakoto/ — Greek: pin instead of hit — one piece traps an oppon",
+    "anchor": "regional-forms"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Variant Library",
+    "heading": "American Forms",
+    "content": "- Acey-Deuceyvariants/acey-deucey/ — US military tradition: rolling 1-2 grants any doublet free; pieces enter one at a time",
+    "anchor": "american-forms"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Variant Library",
+    "heading": "Short Forms",
+    "content": "- Hypergammonvariants/hypergammon/ — 3 pieces per side on the last three points; fast tactical game used in tournaments - Nackgammonvariants/nackgammon/ — 2 extra blots on the 23-point; slower opening",
+    "anchor": "short-forms"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Variant Library",
+    "heading": "Multiplayer",
+    "content": "- Chouettevariants/chouette/ — One player versus a consulting team; the box rotates on a win; doubling cube dynamics multiply",
+    "anchor": "multiplayer"
+  },
+  {
     "game": "draughts",
     "gameTitle": "Draughts",
     "section": "Variant Library",
@@ -304,6 +352,62 @@
     "anchor": "rule-variants"
   },
   {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Mancala is a family of count-and-capture games originating in Africa and the Middle East, with a history spanning at least 3,000 years. Players sow seeds or stones around a board of pits, capturing wh",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Variant Library",
+    "heading": "West Africa",
+    "content": "- Owarevariants/oware/ — The most widely known Mancala game: 2×6 pits, single-lap sowing, grand slam rule - Ayovariants/ayo/ — Yoruba Nigerian form of Oware with identical rules and deep cultural trad",
+    "anchor": "west-africa"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Variant Library",
+    "heading": "East Africa",
+    "content": "- Baovariants/bao/ — The most complex Mancala: 4-row board, multi-lap sowing, relay captures",
+    "anchor": "east-africa"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Variant Library",
+    "heading": "Southeast Asia",
+    "content": "- Congkakvariants/congkak/ — Malaysian 2×7 board with two houses; sow into own store, skip opponent's - Sungkavariants/sungka/ — Philippine 2×7 board; simultaneous start, sow into own head only",
+    "anchor": "southeast-asia"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Variant Library",
+    "heading": "South Asia",
+    "content": "- Pallanguzhivariants/pallanguzhi/ — Tamil Nadu: 2×7 pits, 12 seeds per pit, multi-lap sowing with relay capture",
+    "anchor": "south-asia"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Variant Library",
+    "heading": "Central Asia",
+    "content": "- Toguz Korgoolvariants/toguz-korgool/ — Kyrgyz national game: 2×9 pits, tuzduk rule locks one opponent pit",
+    "anchor": "central-asia"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Variant Library",
+    "heading": "Western Standard",
+    "content": "- Kalahvariants/kalah/ — The 1940s Western standardisation: 2×6 pits plus two stores, accessible and fast",
+    "anchor": "western-standard"
+  },
+  {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
@@ -374,6 +478,38 @@
     "heading": "Small Boards",
     "content": "- Breakthroughvariants/breakthrough/ — 7×7, pawns only, first to far rank wins - Diana Chessvariants/diana/ — 6×6, no queens or knights - Half Chessvariants/half-chess/ — 8×4, armies start adjacent - ",
     "anchor": "small-boards"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Nine Men's Morris — also called Mills or Mühle — is one of the oldest known strategy games, with boards scratched into Roman stone floors, Egyptian temple rooftops, and medieval wooden cathedral furni",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Variant Library",
+    "heading": "Classic Sizes",
+    "content": "- Three Men's Morrisvariants/three-mens-morris/ — The 3×3 ancestor: 3 pieces per side, no movement phase, pieces teleport - Six Men's Morrisvariants/six-mens-morris/ — Two concentric squares; the medi",
+    "anchor": "classic-sizes"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Variant Library",
+    "heading": "Modern Variants",
+    "content": "- Lasker Morrisvariants/lasker-morris/ — Move or place on each turn not sequential phases; designed by World Chess Champion Emanuel Lasker",
+    "anchor": "modern-variants"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Variant Library",
+    "heading": "African Forms",
+    "content": "- Morabarabavariants/morabaraba/ — South African national game: cows instead of men, additional three-piece ending rules - Shaxvariants/shax/ — Somali: capture instead of forming a mill during the pla",
+    "anchor": "african-forms"
   },
   {
     "game": "nukes",
@@ -590,6 +726,792 @@
     "heading": "Biomes",
     "content": "Each region belongs to one of seven biome types. Terrain restrictions apply based on the {nowrap unit count.} ✦ \"Needs Support to Pass\" — What This Means A platoon can transit through a restricted ter",
     "anchor": "biomes"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "History",
+    "heading": "History",
+    "content": "The Royal Game of Ur is the oldest known board game for which we have both physical boards and a written ruleset. The game originates in ancient Mesopotamia approximately 4,500 years ago — boards and ",
+    "anchor": "history"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "The Board",
+    "heading": "The Board",
+    "content": "The board consists of 20 squares arranged in a distinctive L-shape: - A 4×2 rectangle at one end 8 squares — each player's starting zone - A 2×2 bridge in the middle 4 squares — shared central path - ",
+    "anchor": "the-board"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "The Board",
+    "heading": "Rosette Squares",
+    "content": "Five squares are marked with a rosette pattern. In Finkel's reconstruction, these are safe squares: - A piece resting on a rosette cannot be captured. - Landing on a rosette grants an extra roll. The ",
+    "anchor": "rosette-squares"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Equipment",
+    "heading": "Equipment",
+    "content": "Qty ----- 1 14 4 Tetrahedral dice: Traditionally, four-sided pyramid dice with two marked corners and two unmarked. Roll all four; count the number of marked corners that land face-up. Possible values",
+    "anchor": "equipment"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Setup",
+    "heading": "Setup",
+    "content": "All 7 pieces per player begin off the board, in reserve. The board starts empty. Players sit opposite each other, each at their own starting zone.",
+    "anchor": "setup"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Movement",
+    "heading": "Movement",
+    "content": "On each turn, a player rolls all four tetrahedral dice and counts the result 0–4. A result of 0 means the player passes with no movement. Entry: A piece enters the board from reserve by placing it on ",
+    "anchor": "movement"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Movement",
+    "heading": "Capturing",
+    "content": "If a piece lands on an occupied square that is not a rosette, the opponent's piece is sent back to reserve and must re-enter. Two pieces of the same player may not share a square.",
+    "anchor": "capturing"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Movement",
+    "heading": "Rosette Benefits",
+    "content": "- Safe: A piece on a rosette cannot be captured. - Extra roll: Landing on a rosette grants an additional turn immediately.",
+    "anchor": "rosette-benefits"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Bearing Off",
+    "heading": "Bearing Off",
+    "content": "When a piece has moved through the full path and reaches the exit point one square beyond the finishing zone, it is borne off. The die result must be exactly sufficient to bear off a piece — no oversh",
+    "anchor": "bearing-off"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Winning",
+    "heading": "Winning",
+    "content": "The first player to bear off all 7 pieces wins.",
+    "anchor": "winning"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Historical Variants and Scholarly Notes",
+    "heading": "Historical Variants and Scholarly Notes",
+    "content": "Finkel's 1980 reconstruction from tablet MS 33333B is the most widely accepted ruleset, but the tablet dates to the Seleucid period c. 177–176 BCE — over 2,000 years after the earliest boards were mad",
+    "anchor": "historical-variants-and-scholarly-notes"
+  },
+  {
+    "game": "royal-ur",
+    "gameTitle": "Royal Game of Ur",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "Royal Game of Ur. Original game: Mesopotamia, c. 2500 BCE. Rules reconstruction: Irving Finkel, British Museum, 1980. Public domain. Sources: Finkel, Irving — British Museum cuneiform tablet MS 33333B",
+    "anchor": "attribution"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Acey-Deucey",
+    "content": "A variant of Backgammon with roots in the United States military, popular in the Navy and Marines from the early 20th century. Acey-Deucey starts with all pieces off the board; each piece must enter i",
+    "anchor": "acey-deucey",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Components",
+    "content": "Qty ----- 1 30 4",
+    "anchor": "components",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Setup",
+    "content": "All pieces begin off the board. Players must enter all pieces before they can move them around the board. Unlike standard Backgammon, no pieces start on the board.",
+    "anchor": "setup",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Entry",
+    "content": "On each turn, roll both dice. You must use the numbers rolled to enter pieces from off the board into the opponent's home board points 19–24 from your perspective. You may enter one piece per die if b",
+    "anchor": "entry",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Movement",
+    "content": "Once a piece has entered, it moves around the board in standard fashion toward your home board points 1–6. Hitting blots is allowed — hit pieces return to off-board and must re-enter.",
+    "anchor": "movement",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Acey-Deucey Roll",
+    "content": "If you roll a 1 and a 2: 1. Play the 1-2 normally move one piece 1, another piece 2, or one piece 3. 2. Announce any doublet 1-1 through 6-6 and play four moves of that number. 3. Take an additional r",
+    "anchor": "acey-deucey-roll",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Doublets",
+    "content": "Doublets are played as four moves as in standard Backgammon. Doublets do not grant an extra roll only the acey-deucey roll does.",
+    "anchor": "doublets",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Bearing Off",
+    "content": "Once all 15 of your pieces are in your home board, bear off normally.",
+    "anchor": "bearing-off",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Winning",
+    "content": "First player to bear off all 15 pieces wins.",
+    "anchor": "winning",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Acey-Deucey",
+    "heading": "Attribution",
+    "content": "Acey-Deucey. US military tradition, early 20th century. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "acey-deucey",
+    "variantUrl": "dist/backgammon/variants/acey-deucey/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Chouette",
+    "content": "A Backgammon format for three or more players in which one player the box plays against a team of opponents. All team members consult and vote on moves, while the box plays alone. After the game, posi",
+    "anchor": "chouette",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Components",
+    "content": "Qty ----- 1 30 4 + extra 1",
+    "anchor": "components",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Player Roles",
+    "content": "The box: One player who plays alone against the entire team. The box moves their own pieces and makes all decisions independently. The captain: The team member at the top of the queue. The captain has",
+    "anchor": "player-roles",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Setup",
+    "content": "All players roll one die. Highest roll becomes the first box. Second highest becomes the first captain. Remaining players queue in descending roll order.",
+    "anchor": "setup",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Play",
+    "content": "The game is played as standard Backgammon between the box and the team the team shares one set of pieces. The captain rolls for the team, moves team pieces according to team discussion, and makes fina",
+    "anchor": "play",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Consultation Rules (standard)",
+    "content": "The team may discuss moves openly. The captain has final say on moves, but may be overruled by a majority of the team on any given move. If the team cannot agree, the captain decides. Alternatively, m",
+    "anchor": "consultation-rules-standard",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Doubling Cube",
+    "content": "The box owns the initial cube. The box may double the entire team simultaneously. Each team member independently decides whether to accept or drop. Players who drop are out of the current game. Team m",
+    "anchor": "doubling-cube",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Rotation",
+    "content": "When the box loses a game, they go to the bottom of the queue. The captain becomes the new box. The next player in queue becomes the new captain. When the box wins, everyone rotates one position in th",
+    "anchor": "rotation",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Scoring",
+    "content": "Each player tracks their individual result against the box wins and losses at the current cube value. A separate ledger is kept for each player pair, or a running score is tracked per player.",
+    "anchor": "scoring",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Chouette",
+    "heading": "Attribution",
+    "content": "Chouette. Traditional multiplayer Backgammon format. Public domain. Source: Wikipedia CC-BY-SA; Bray, Chris — Backgammon to Win rules sections.",
+    "anchor": "attribution",
+    "variant": "chouette",
+    "variantUrl": "dist/backgammon/variants/chouette/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Fevga",
+    "heading": "Fevga",
+    "content": "A Greek Backgammon variant in which a point occupied by even a single piece is closed to the opponent — there is no such thing as a blot in Fevga. The result is a pure blocking and racing game. Fevga ",
+    "anchor": "fevga",
+    "variant": "fevga",
+    "variantUrl": "dist/backgammon/variants/fevga/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Fevga",
+    "heading": "Components",
+    "content": "Qty ----- 1 30 4",
+    "anchor": "components",
+    "variant": "fevga",
+    "variantUrl": "dist/backgammon/variants/fevga/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Fevga",
+    "heading": "Setup",
+    "content": "Both players start with all 15 checkers on their own 24-point opposite starting positions, same as standard Backgammon. Players move in opposite directions.",
+    "anchor": "setup",
+    "variant": "fevga",
+    "variantUrl": "dist/backgammon/variants/fevga/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Fevga",
+    "heading": "Movement",
+    "content": "Roll two dice each turn and move forward toward your 1-point. No blots: Every point occupied by one or more of your pieces is immediately closed to the opponent. There is no concept of a blot — you ca",
+    "anchor": "movement",
+    "variant": "fevga",
+    "variantUrl": "dist/backgammon/variants/fevga/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Fevga",
+    "heading": "Bearing Off",
+    "content": "Once all 15 of your pieces are in your home board points 1–6, bear off normally.",
+    "anchor": "bearing-off",
+    "variant": "fevga",
+    "variantUrl": "dist/backgammon/variants/fevga/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Fevga",
+    "heading": "Winning",
+    "content": "First to bear off all 15 pieces wins.",
+    "anchor": "winning",
+    "variant": "fevga",
+    "variantUrl": "dist/backgammon/variants/fevga/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Fevga",
+    "heading": "Attribution",
+    "content": "Fevga. Traditional game, Greece. Part of the Tavli family. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "fevga",
+    "variantUrl": "dist/backgammon/variants/fevga/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Hypergammon",
+    "content": "A short-form Backgammon variant using only 3 pieces per side, placed on the last three points of the home board. Games are dramatically faster than standard Backgammon — often finishing in under 15 mi",
+    "anchor": "hypergammon",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Components",
+    "content": "Qty ----- 1 6 4 1",
+    "anchor": "components",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Setup",
+    "content": "Each player places 3 checkers on their final three home board points: - 1 checker on the 1-point - 1 checker on the 2-point - 1 checker on the 3-point These pieces are already in the home board but mu",
+    "anchor": "setup",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Rules",
+    "content": "All standard Backgammon rules apply: - Roll two dice each turn and move pieces forward. - Hitting a blot sends it to the bar; must re-enter in opponent's home board before any other move. - Doubles gi",
+    "anchor": "rules",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Bearing Off",
+    "content": "Since all pieces start in the home board, bearing off begins immediately. Roll and remove a piece from the matching point. If no piece is on the rolled point, move a piece from a higher point toward a",
+    "anchor": "bearing-off",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Strategic Note",
+    "content": "With only 3 pieces, single games are heavily influenced by dice, but across a match the skill gap is significant. The key decision points are when to hit, when to run, and when to double.",
+    "anchor": "strategic-note",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Winning",
+    "content": "First player to bear off all 3 pieces wins. Gammon and backgammon scores apply as in standard play.",
+    "anchor": "winning",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Hypergammon",
+    "heading": "Attribution",
+    "content": "Hypergammon. Modern tournament variant, origin unknown popularised in the 1990s. Public domain rules. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "hypergammon",
+    "variantUrl": "dist/backgammon/variants/hypergammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nackgammon",
+    "heading": "Nackgammon",
+    "content": "A standard Backgammon variant designed by Nick Ballard in the 1990s. Two additional checkers are placed on each player's 23-point 2-point from the opponent's perspective, creating a starting position ",
+    "anchor": "nackgammon",
+    "variant": "nackgammon",
+    "variantUrl": "dist/backgammon/variants/nackgammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nackgammon",
+    "heading": "Components",
+    "content": "Qty ----- 1 30 4 1",
+    "anchor": "components",
+    "variant": "nackgammon",
+    "variantUrl": "dist/backgammon/variants/nackgammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nackgammon",
+    "heading": "Setup",
+    "content": "Modified starting position: - 2 checkers on each player's 24-point same as standard - 2 checkers on each player's 23-point new — replaces 2 checkers from the 13-point - 3 checkers on each player's 8-p",
+    "anchor": "setup",
+    "variant": "nackgammon",
+    "variantUrl": "dist/backgammon/variants/nackgammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nackgammon",
+    "heading": "Rules",
+    "content": "All standard Backgammon rules apply. The only difference is the starting position. Hitting, the bar, re-entry, bearing off, and the doubling cube all function identically.",
+    "anchor": "rules",
+    "variant": "nackgammon",
+    "variantUrl": "dist/backgammon/variants/nackgammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nackgammon",
+    "heading": "Differences in Play",
+    "content": "The 23-point blots are immediately vulnerable to being hit by any opponent 1-die roll from the 24-point. Protecting these checkers or sacrificing them for tempo is the first strategic decision of the ",
+    "anchor": "differences-in-play",
+    "variant": "nackgammon",
+    "variantUrl": "dist/backgammon/variants/nackgammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nackgammon",
+    "heading": "Winning",
+    "content": "First player to bear off all 15 checkers wins. Gammon and backgammon scoring apply.",
+    "anchor": "winning",
+    "variant": "nackgammon",
+    "variantUrl": "dist/backgammon/variants/nackgammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nackgammon",
+    "heading": "Attribution",
+    "content": "Nackgammon. Designed by Nick Ballard, USA, 1990s. Public domain rules. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "nackgammon",
+    "variantUrl": "dist/backgammon/variants/nackgammon/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Nardi",
+    "content": "The dominant Backgammon variant in Georgia, Armenia, Azerbaijan, and Russia. Also called Long Nardi to distinguish it from Short Nardi which is closer to standard Backgammon. Without hitting, the game",
+    "anchor": "nardi",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Components",
+    "content": "Qty ----- 1 30 4",
+    "anchor": "components",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Setup",
+    "content": "Both players start with all 15 checkers on point 24 from each player's perspective. Checkers move in the same direction: counter-clockwise, from point 24 to point 1 for both players. This means both p",
+    "anchor": "setup",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Movement",
+    "content": "Both players roll one die to determine first player; higher roll goes first. On each turn, roll two dice and move forward by those amounts one checker each, or one checker twice. Key differences from ",
+    "anchor": "movement",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Prime Strategy",
+    "content": "Building a contiguous block of 6 points a prime is the primary strategic concept. A prime traps opponent checkers behind it — they cannot advance until the prime is broken.",
+    "anchor": "prime-strategy",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Bearing Off",
+    "content": "Once all 15 of your checkers are in your home board points 1–6 from your perspective, bear off as in standard Backgammon. If both dice can be used, you must use both.",
+    "anchor": "bearing-off",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Winning",
+    "content": "First player to bear off all 15 checkers wins. No doubling cube in standard Nardi.",
+    "anchor": "winning",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Nardi",
+    "heading": "Attribution",
+    "content": "Nardi Long Nardi. Traditional game, Caucasus and Russia. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "nardi",
+    "variantUrl": "dist/backgammon/variants/nardi/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Plakoto",
+    "content": "A Greek Backgammon variant in which landing on a lone opponent piece does not send it to the bar — instead, it pins it. A pinned piece cannot move until the piece pinning it moves away. Plakoto is one",
+    "anchor": "plakoto",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Components",
+    "content": "Qty ----- 1 30 4",
+    "anchor": "components",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Setup",
+    "content": "Both players start with all 15 checkers on point 24 from each player's perspective. Both players move in the same direction: counter-clockwise, from point 24 to point 1.",
+    "anchor": "setup",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Movement",
+    "content": "Movement is the same as standard Backgammon except for the pinning rule below. Roll two dice each turn and move forward.",
+    "anchor": "movement",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Pinning",
+    "content": "If you land on a point occupied by exactly one opponent checker, that checker is pinned beneath yours. The pinned piece cannot move for as long as your piece remains on that point. - A pinned piece is",
+    "anchor": "pinning",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Winning Immediately",
+    "content": "If you pin the opponent's last piece on their starting point their 24-point, you win immediately without completing bear-off.",
+    "anchor": "winning-immediately",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Blocking",
+    "content": "A point with 2 or more of your checkers is closed. Opponent pieces cannot land on it. Pinning is only possible on points with exactly 1 opponent piece.",
+    "anchor": "blocking",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Bearing Off",
+    "content": "Once all 15 of your pieces are in your home board points 1–6, bear off normally.",
+    "anchor": "bearing-off",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Winning",
+    "content": "First to bear off all 15 pieces wins. Winning while the opponent's last piece is pinned on their starting point is also a win.",
+    "anchor": "winning",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Plakoto",
+    "heading": "Attribution",
+    "content": "Plakoto. Traditional game, Greece. Part of the Tavli family. Public domain. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "plakoto",
+    "variantUrl": "dist/backgammon/variants/plakoto/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Standard Backgammon",
+    "content": "The internationally recognised form of Backgammon, governed by the rules of the US Backgammon Federation and the World Backgammon Federation. Pieces race around a 24-point board in opposite directions",
+    "anchor": "standard-backgammon",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Components",
+    "content": "Qty ----- 1 30 4 1",
+    "anchor": "components",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Setup",
+    "content": "Starting position: - 2 checkers on each player's 24-point - 5 checkers on each player's 13-point - 3 checkers on each player's 8-point - 5 checkers on each player's 6-point Points are numbered 1–24 fr",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Movement",
+    "content": "Both players roll one die each to determine who moves first; higher roll goes first reroll on ties. The first player uses the two dice already rolled as their opening move. On each turn, roll both dic",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Hitting",
+    "content": "Landing on a blot sends the opponent's checker to the bar. A player with checkers on the bar must re-enter them before any other move. Re-entry is onto the opponent's home board points 19–24 from the ",
+    "anchor": "hitting",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Bearing Off",
+    "content": "Once all 15 of your checkers are in your home board points 1–6, you may bear them off. Roll and remove a checker from the matching point, or move a checker forward. If no checker is on the exact point",
+    "anchor": "bearing-off",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Doubling Cube",
+    "content": "At the start of a turn, before rolling, a player may offer to double the current stake. The opponent may accept taking ownership of the cube or refuse conceding the game at the current stake. The cube",
+    "anchor": "doubling-cube",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Winning",
+    "content": "The first player to bear off all 15 checkers wins. If the opponent has not yet borne off any checkers, the winner scores a gammon worth double. If the opponent still has checkers on the bar or in the ",
+    "anchor": "winning",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "backgammon",
+    "gameTitle": "Backgammon",
+    "section": "Standard Backgammon",
+    "heading": "Attribution",
+    "content": "Standard Backgammon. Public domain rules. Source: US Backgammon Federation official rules; Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/backgammon/variants/standard/"
   },
   {
     "game": "draughts",
@@ -2370,6 +3292,576 @@
     "anchor": "attribution",
     "variant": "toroidal-go",
     "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Ayo",
+    "heading": "Ayo",
+    "content": "The Yoruba name for the Oware family of Mancala games, played in Nigeria and among Yoruba communities worldwide. The game is culturally significant in Yoruba tradition — historically associated with p",
+    "anchor": "ayo",
+    "variant": "ayo",
+    "variantUrl": "dist/mancala/variants/ayo/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Ayo",
+    "heading": "Components",
+    "content": "Qty ----- 1 48",
+    "anchor": "components",
+    "variant": "ayo",
+    "variantUrl": "dist/mancala/variants/ayo/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Ayo",
+    "heading": "Setup",
+    "content": "48 seeds distributed equally, 4 per pit. No stores — captured seeds are held separately. Each player owns the 6 pits on their side.",
+    "anchor": "setup",
+    "variant": "ayo",
+    "variantUrl": "dist/mancala/variants/ayo/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Ayo",
+    "heading": "Rules",
+    "content": "Sowing: Pick up all seeds from any one of your six pits. Sow counter-clockwise, one seed per pit, skipping the original pit if the circuit returns to it. Capture: If the last seed lands in an opponent",
+    "anchor": "rules",
+    "variant": "ayo",
+    "variantUrl": "dist/mancala/variants/ayo/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Ayo",
+    "heading": "End of Game",
+    "content": "The game ends when one player has more than 24 seeds, when fewer than 4 seeds remain on the board and both players agree, or when a position repeats. Remaining seeds go to the player who owns those pi",
+    "anchor": "end-of-game",
+    "variant": "ayo",
+    "variantUrl": "dist/mancala/variants/ayo/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Ayo",
+    "heading": "Winning",
+    "content": "The player with more captured seeds wins. 25 or more seeds wins outright.",
+    "anchor": "winning",
+    "variant": "ayo",
+    "variantUrl": "dist/mancala/variants/ayo/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Ayo",
+    "heading": "Attribution",
+    "content": "Ayo. Traditional game, Yoruba people, Nigeria. Public domain. Source: Wikipedia CC-BY-SA; Russ, Laurence — The Complete Mancala Games Book 1984.",
+    "anchor": "attribution",
+    "variant": "ayo",
+    "variantUrl": "dist/mancala/variants/ayo/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Bao",
+    "heading": "Bao",
+    "content": "The most strategically complex Mancala game in the world, played in Tanzania, Kenya, and across East Africa, particularly among the Swahili-speaking peoples. Bao uses a unique four-row board and a two",
+    "anchor": "bao",
+    "variant": "bao",
+    "variantUrl": "dist/mancala/variants/bao/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Bao",
+    "heading": "Components",
+    "content": "Qty ----- 1 64",
+    "anchor": "components",
+    "variant": "bao",
+    "variantUrl": "dist/mancala/variants/bao/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Bao",
+    "heading": "Setup",
+    "content": "The board is oriented with both players' inner rows facing each other. Each pit starts with 2 seeds. The four centre pits of each inner row positions 4 and 5 from each end are called kimbi — they will",
+    "anchor": "setup",
+    "variant": "bao",
+    "variantUrl": "dist/mancala/variants/bao/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Bao",
+    "heading": "Phase 1 — Namua (Seeding Phase)",
+    "content": "Players take turns introducing seeds from a reserve of seeds outside the board. On each turn, a player places one seed from reserve into any pit in their inner row that already contains seeds. That pi",
+    "anchor": "phase-1-namua-seeding-phase",
+    "variant": "bao",
+    "variantUrl": "dist/mancala/variants/bao/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Bao",
+    "heading": "Phase 2 — Mtaji (Capture Phase)",
+    "content": "Players alternate turns. On each turn, you must make a capturing move if one is available. Capture move: Pick up seeds from any inner-row pit that, when sown, will land opposite a non-empty opponent i",
+    "anchor": "phase-2-mtaji-capture-phase",
+    "variant": "bao",
+    "variantUrl": "dist/mancala/variants/bao/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Bao",
+    "heading": "Winning",
+    "content": "You win when your opponent's inner row has no seeds, or when your opponent has no legal move.",
+    "anchor": "winning",
+    "variant": "bao",
+    "variantUrl": "dist/mancala/variants/bao/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Bao",
+    "heading": "Attribution",
+    "content": "Bao. Traditional game, Tanzania and East Africa. Public domain. Sources: de Voogt, Alex — Mancala Board Games 1997; Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "bao",
+    "variantUrl": "dist/mancala/variants/bao/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "Congkak",
+    "content": "The traditional Mancala game of the Malay Archipelago, widely played in Malaysia, Indonesia, Singapore, and Brunei. The word comes from the Malay congkak to count. Congkak uses a boat-shaped wooden bo",
+    "anchor": "congkak",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "Components",
+    "content": "Qty ----- 1 98",
+    "anchor": "components",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "Setup",
+    "content": "7 seeds in each of the 14 playing pits. Both houses start empty. Each player owns the 7 pits on their side and the house to their right.",
+    "anchor": "setup",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "Rules",
+    "content": "Simultaneous start: Both players start sowing simultaneously from any pit of their choice. The first player whose hand meets the other's hand they collide in sowing must stop and wait for the other pl",
+    "anchor": "rules",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "Dead Pits",
+    "content": "Empty pits on your side that you have triggered last seed landed there, no capture become dead pits. They cannot be played from on future turns. At the start of your next round, you may buy back a dea",
+    "anchor": "dead-pits",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "End of Game",
+    "content": "The game ends when one player has no seeds on their side and cannot buy back any dead pits. Count seeds in each house.",
+    "anchor": "end-of-game",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "Winning",
+    "content": "The player with more seeds in their house wins. With 98 seeds total, 50 or more wins.",
+    "anchor": "winning",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Congkak",
+    "heading": "Attribution",
+    "content": "Congkak. Traditional game, Malay Archipelago. Public domain. Source: Wikipedia CC-BY-SA; Russ, Laurence — The Complete Mancala Games Book 1984.",
+    "anchor": "attribution",
+    "variant": "congkak",
+    "variantUrl": "dist/mancala/variants/congkak/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Kalah",
+    "heading": "Kalah",
+    "content": "The standard Western form of Mancala, designed in the United States by William Julius Champion Jr. in the 1940s and marketed as a commercial game. Widely available and the most commonly taught variant",
+    "anchor": "kalah",
+    "variant": "kalah",
+    "variantUrl": "dist/mancala/variants/kalah/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Kalah",
+    "heading": "Components",
+    "content": "Qty ----- 1 72",
+    "anchor": "components",
+    "variant": "kalah",
+    "variantUrl": "dist/mancala/variants/kalah/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Kalah",
+    "heading": "Setup",
+    "content": "Each of the 12 pits begins with 6 seeds. The two stores also called Kalahs begin empty. Each player owns the store to their right and the 6 pits on their side of the board.",
+    "anchor": "setup",
+    "variant": "kalah",
+    "variantUrl": "dist/mancala/variants/kalah/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Kalah",
+    "heading": "Rules",
+    "content": "Sowing: On your turn, pick up all seeds from any one of your six pits. Sow them one at a time into consecutive pits, moving counter-clockwise to the right along your row, then through your store, then",
+    "anchor": "rules",
+    "variant": "kalah",
+    "variantUrl": "dist/mancala/variants/kalah/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Kalah",
+    "heading": "End of Game",
+    "content": "When one player's six pits are all empty at the start of their turn, the game ends. The opposing player sweeps all remaining seeds on their side into their own store.",
+    "anchor": "end-of-game",
+    "variant": "kalah",
+    "variantUrl": "dist/mancala/variants/kalah/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Kalah",
+    "heading": "Winning",
+    "content": "The player with more seeds in their store wins. With 72 seeds total, 37 wins.",
+    "anchor": "winning",
+    "variant": "kalah",
+    "variantUrl": "dist/mancala/variants/kalah/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Kalah",
+    "heading": "Attribution",
+    "content": "Kalah. Designed by William Julius Champion Jr., USA, 1940s. Public domain rules. Source: Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "kalah",
+    "variantUrl": "dist/mancala/variants/kalah/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Oware",
+    "heading": "Oware",
+    "content": "The most internationally recognised Mancala variant, originating in Ghana and widely played across West Africa, the Caribbean, and the Ghanaian diaspora. Known under many regional names including Awal",
+    "anchor": "oware",
+    "variant": "oware",
+    "variantUrl": "dist/mancala/variants/oware/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Oware",
+    "heading": "Components",
+    "content": "Qty ----- 1 48",
+    "anchor": "components",
+    "variant": "oware",
+    "variantUrl": "dist/mancala/variants/oware/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Oware",
+    "heading": "Setup",
+    "content": "48 seeds distributed equally, 4 per pit. No stores on the board; captured seeds are held separately by each player. Each player owns the 6 pits on their side.",
+    "anchor": "setup",
+    "variant": "oware",
+    "variantUrl": "dist/mancala/variants/oware/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Oware",
+    "heading": "Rules",
+    "content": "Sowing: Pick up all seeds from any one of your six pits. Sow counter-clockwise, one seed per pit, skipping the pit you lifted from if the circuit returns to it only relevant with large counts. Capture",
+    "anchor": "rules",
+    "variant": "oware",
+    "variantUrl": "dist/mancala/variants/oware/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Oware",
+    "heading": "End of Game",
+    "content": "The game ends when one player captures more than 24 seeds majority of 48, when both players agree to end with fewer than 4 seeds remaining on the board, or when the same board position repeats. Remain",
+    "anchor": "end-of-game",
+    "variant": "oware",
+    "variantUrl": "dist/mancala/variants/oware/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Oware",
+    "heading": "Winning",
+    "content": "The player with more captured seeds wins. 25 or more seeds wins outright.",
+    "anchor": "winning",
+    "variant": "oware",
+    "variantUrl": "dist/mancala/variants/oware/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Oware",
+    "heading": "Attribution",
+    "content": "Oware. Traditional game, Ghana and West Africa. Public domain. Source: Wikipedia CC-BY-SA; Russ, Laurence — The Complete Mancala Games Book 1984.",
+    "anchor": "attribution",
+    "variant": "oware",
+    "variantUrl": "dist/mancala/variants/oware/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Pallanguzhi",
+    "heading": "Pallanguzhi",
+    "content": "A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: pal",
+    "anchor": "pallanguzhi",
+    "variant": "pallanguzhi",
+    "variantUrl": "dist/mancala/variants/pallanguzhi/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Pallanguzhi",
+    "heading": "Components",
+    "content": "Qty ----- 1 146",
+    "anchor": "components",
+    "variant": "pallanguzhi",
+    "variantUrl": "dist/mancala/variants/pallanguzhi/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Pallanguzhi",
+    "heading": "Setup",
+    "content": "Place 12 seeds in each of the 14 pits 168 seeds total. No stores on the board — captured seeds are held separately.",
+    "anchor": "setup",
+    "variant": "pallanguzhi",
+    "variantUrl": "dist/mancala/variants/pallanguzhi/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Pallanguzhi",
+    "heading": "Rules",
+    "content": "Sowing: Pick up all seeds from any pit on your side. Sow one seed per pit, moving counter-clockwise right along your row, then into the opponent's row. Relay: After sowing, pick up all seeds from the ",
+    "anchor": "rules",
+    "variant": "pallanguzhi",
+    "variantUrl": "dist/mancala/variants/pallanguzhi/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Pallanguzhi",
+    "heading": "End of Game",
+    "content": "The game ends when a player cannot fill seven pits to begin their turn. Seeds are returned from the store at a cost of 12 seeds per pit to fill pits from store. When a player cannot afford to fill any",
+    "anchor": "end-of-game",
+    "variant": "pallanguzhi",
+    "variantUrl": "dist/mancala/variants/pallanguzhi/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Pallanguzhi",
+    "heading": "Winning",
+    "content": "The player who captures all 168 seeds wins the opponent cannot refill any pit to continue playing.",
+    "anchor": "winning",
+    "variant": "pallanguzhi",
+    "variantUrl": "dist/mancala/variants/pallanguzhi/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Pallanguzhi",
+    "heading": "Attribution",
+    "content": "Pallanguzhi. Traditional game, Tamil Nadu, India. Public domain. Source: Wikipedia CC-BY-SA; Russ, Laurence — The Complete Mancala Games Book 1984.",
+    "anchor": "attribution",
+    "variant": "pallanguzhi",
+    "variantUrl": "dist/mancala/variants/pallanguzhi/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Sungka",
+    "heading": "Sungka",
+    "content": "The traditional Mancala game of the Philippines, played across the archipelago for centuries. The board sungkaan is traditionally carved from a single piece of wood in a boat shape, with seven playing",
+    "anchor": "sungka",
+    "variant": "sungka",
+    "variantUrl": "dist/mancala/variants/sungka/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Sungka",
+    "heading": "Components",
+    "content": "Qty ----- 1 98",
+    "anchor": "components",
+    "variant": "sungka",
+    "variantUrl": "dist/mancala/variants/sungka/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Sungka",
+    "heading": "Setup",
+    "content": "7 seeds in each of the 14 playing pits. Both heads start empty. Each player owns the 7 pits on their side and the head to their left.",
+    "anchor": "setup",
+    "variant": "sungka",
+    "variantUrl": "dist/mancala/variants/sungka/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Sungka",
+    "heading": "Rules",
+    "content": "Simultaneous start: Both players simultaneously pick up all seeds from any one of their seven pits and begin sowing. Continue until one player's hand meets the other's, at which point the player whose",
+    "anchor": "rules",
+    "variant": "sungka",
+    "variantUrl": "dist/mancala/variants/sungka/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Sungka",
+    "heading": "End of Game",
+    "content": "The game ends when one player's seven pits are all empty and they cannot continue. The opposing player sweeps all remaining seeds into their own head.",
+    "anchor": "end-of-game",
+    "variant": "sungka",
+    "variantUrl": "dist/mancala/variants/sungka/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Sungka",
+    "heading": "Winning",
+    "content": "The player with more seeds in their head wins.",
+    "anchor": "winning",
+    "variant": "sungka",
+    "variantUrl": "dist/mancala/variants/sungka/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Sungka",
+    "heading": "Attribution",
+    "content": "Sungka. Traditional game, Philippines. Public domain. Source: Wikipedia CC-BY-SA; Russ, Laurence — The Complete Mancala Games Book 1984.",
+    "anchor": "attribution",
+    "variant": "sungka",
+    "variantUrl": "dist/mancala/variants/sungka/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Toguz Korgool",
+    "heading": "Toguz Korgool",
+    "content": "The national game of Kyrgyzstan, played across Central Asia from Kyrgyzstan to Kazakhstan. The name means \"nine balls\" in Kyrgyz. Toguz Korgool is one of the few Mancala games to feature a permanent l",
+    "anchor": "toguz-korgool",
+    "variant": "toguz-korgool",
+    "variantUrl": "dist/mancala/variants/toguz-korgool/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Toguz Korgool",
+    "heading": "Components",
+    "content": "Qty ----- 1 162",
+    "anchor": "components",
+    "variant": "toguz-korgool",
+    "variantUrl": "dist/mancala/variants/toguz-korgool/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Toguz Korgool",
+    "heading": "Setup",
+    "content": "9 seeds in each of the 18 pits. Both kazans start empty. Each player owns the 9 pits on their side and the kazan to their left when facing the board.",
+    "anchor": "setup",
+    "variant": "toguz-korgool",
+    "variantUrl": "dist/mancala/variants/toguz-korgool/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Toguz Korgool",
+    "heading": "Rules",
+    "content": "Sowing: Pick up all seeds from any of your nine pits. Sow one seed per pit, moving right along your row, then continuing into the opponent's row. Do not sow into either kazan. Capture scoring: If the ",
+    "anchor": "rules",
+    "variant": "toguz-korgool",
+    "variantUrl": "dist/mancala/variants/toguz-korgool/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Toguz Korgool",
+    "heading": "End of Game",
+    "content": "The game ends when one player cannot move all pits empty. The opponent captures all remaining seeds on their side into their own kazan.",
+    "anchor": "end-of-game",
+    "variant": "toguz-korgool",
+    "variantUrl": "dist/mancala/variants/toguz-korgool/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Toguz Korgool",
+    "heading": "Winning",
+    "content": "The player with 82 or more seeds in their kazan wins. If both finish on exactly 81, the game is a draw.",
+    "anchor": "winning",
+    "variant": "toguz-korgool",
+    "variantUrl": "dist/mancala/variants/toguz-korgool/"
+  },
+  {
+    "game": "mancala",
+    "gameTitle": "Mancala",
+    "section": "Toguz Korgool",
+    "heading": "Attribution",
+    "content": "Toguz Korgool. Traditional game, Kyrgyzstan and Central Asia. Public domain. Source: Wikipedia CC-BY-SA; World Intellectual Board Games Federation rules.",
+    "anchor": "attribution",
+    "variant": "toguz-korgool",
+    "variantUrl": "dist/mancala/variants/toguz-korgool/"
   },
   {
     "game": "moddable-chess",
@@ -6660,5 +8152,585 @@
     "anchor": "attribution",
     "variant": "weak",
     "variantUrl": "dist/moddable-chess/variants/weak/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Lasker Morris",
+    "content": "A variant of Nine Men's Morris designed by Emanuel Lasker, World Chess Champion from 1894 to 1921. Lasker modified the game to eliminate the sequential two-phase structure: instead of a placement phas",
+    "anchor": "lasker-morris",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Components",
+    "content": "Qty ----- 1 20",
+    "anchor": "components",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Setup",
+    "content": "All 20 pieces begin off the board in each player's reserve. The board starts empty.",
+    "anchor": "setup",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Turns",
+    "content": "On each turn, a player must either: Option A — Place: Place one piece from reserve onto any empty intersection on the board. Option B — Move: Move one piece already on the board to an adjacent empty i",
+    "anchor": "turns",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Mill Formation",
+    "content": "Completing a mill three in a row along a board line on any turn — whether by placing or moving — lets you remove one opponent piece not in a mill. The same mill protection and reopening rules as Nine ",
+    "anchor": "mill-formation",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Flying",
+    "content": "When a player is reduced to exactly 3 pieces, they may move any piece to any empty intersection same as Nine Men's Morris.",
+    "anchor": "flying",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Winning",
+    "content": "A player wins when the opponent is reduced to 2 pieces or has no legal move.",
+    "anchor": "winning",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Strategic Note",
+    "content": "The key difference from standard Nine Men's Morris is that early placements and early movements are interleaved. A player can begin positional movement before all pieces are placed, opening more compl",
+    "anchor": "strategic-note",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Lasker Morris",
+    "heading": "Attribution",
+    "content": "Lasker Morris. Designed by Emanuel Lasker, World Chess Champion. Public domain rules. Source: Wikipedia CC-BY-SA; Murray, H.J.R. — A History of Board-Games Other Than Chess 1952, Oxford University Pre",
+    "anchor": "attribution",
+    "variant": "lasker-morris",
+    "variantUrl": "dist/morris/variants/lasker-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "Morabaraba",
+    "content": "The national board game of South Africa, played across the country and particularly popular among Zulu, Sotho, and Ndebele communities. The game is a direct descendent of Nine Men's Morris brought to ",
+    "anchor": "morabaraba",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "Components",
+    "content": "Qty ----- 1 24",
+    "anchor": "components",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "Phase 1 — Placement",
+    "content": "Players alternate placing one cow per turn onto any empty intersection until each has placed all 12 cows. Completing a mill three cows in a row along a board line during placement lets you remove any ",
+    "anchor": "phase-1-placement",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "Phase 2 — Movement",
+    "content": "Players alternate moving one cow to an adjacent empty intersection along a connecting line. Mill and removal: Completing a mill during movement triggers removal of one opponent cow same rules as place",
+    "anchor": "phase-2-movement",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "The Three-Cow Endgame (Flying)",
+    "content": "When a player is reduced to exactly 3 cows, they may move any cow to any empty intersection on the board — not just adjacent ones. This mirrors Nine Men's Morris flying. Special three-cow rule: When b",
+    "anchor": "the-three-cow-endgame-flying",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "Winning",
+    "content": "A player wins when the opponent is reduced to 2 cows cannot form a mill or cannot move.",
+    "anchor": "winning",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "Draws",
+    "content": "The game is a draw when a position repeats five times more lenient than international chess draw rules, or when both players agree.",
+    "anchor": "draws",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Morabaraba",
+    "heading": "Attribution",
+    "content": "Morabaraba. South African national game. Public domain. Source: Mind Sports South Africa official rules; Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "morabaraba",
+    "variantUrl": "dist/morris/variants/morabaraba/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Nine Men's Morris",
+    "content": "The definitive and most widely played form of the Mill game family. Nine Men's Morris uses three concentric squares joined at the midpoints of each side, creating 24 intersection points. The game has ",
+    "anchor": "nine-mens-morris",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Components",
+    "content": "Qty ----- 1 18",
+    "anchor": "components",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Board",
+    "content": "Three squares — outer, middle, inner — each with 8 intersection points 4 corners + 4 midpoints. The midpoint of each side of each square is connected to the adjacent squares' midpoints. Total: 24 poin",
+    "anchor": "board",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Phase 1 — Placement",
+    "content": "Players alternate placing one piece per turn onto any empty intersection until each has placed all 9 pieces. Higher skill level: Black places first. Mill formation during placement: Completing a mill ",
+    "anchor": "phase-1-placement",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Phase 2 — Movement",
+    "content": "Players alternate moving one piece to an adjacent empty intersection along a line. No jumping or diagonal movement. Mill and removal: Completing a mill during a move triggers removal of one opponent p",
+    "anchor": "phase-2-movement",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Flying",
+    "content": "When a player is reduced to exactly 3 pieces, they may move any piece to any empty intersection on the board — not just adjacent ones. This \"flying\" rule gives the weaker player a chance to escape los",
+    "anchor": "flying",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Winning",
+    "content": "A player wins when the opponent is reduced to 2 pieces too few to form a mill or when the opponent has no legal move.",
+    "anchor": "winning",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Draws",
+    "content": "The game is a draw when both players agree, or when a position repeats three times with the same player to move.",
+    "anchor": "draws",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Nine Men's Morris",
+    "heading": "Attribution",
+    "content": "Nine Men's Morris. Traditional game, Roman origin, medieval Europe. Public domain. Source: Murray, H.J.R. — A History of Board-Games Other Than Chess 1952, Oxford University Press; Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "nine-mens-morris",
+    "variantUrl": "dist/morris/variants/nine-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Shax",
+    "content": "The traditional board game of Somalia, played widely across the country and among the Somali diaspora. Shax uses the same three concentric square board as Nine Men's Morris but fundamentally changes t",
+    "anchor": "shax",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Components",
+    "content": "Qty ----- 1 24",
+    "anchor": "components",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Phase 1 — Placement (Dhig)",
+    "content": "Players alternate placing one piece per turn onto any empty intersection until each has placed all 12 pieces. Key rule: Forming a mill during the placement phase does not trigger a removal. No pieces ",
+    "anchor": "phase-1-placement-dhig",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Phase 2 — Movement (Dhaqaajin) and Capture",
+    "content": "Players alternate moving one piece to an adjacent empty intersection. Mill formation: Completing a mill during movement lets you remove any one opponent piece, including one in a mill unlike standard ",
+    "anchor": "phase-2-movement-dhaqaajin-and-capture",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Flying",
+    "content": "When reduced to 3 pieces, a player may move to any empty intersection.",
+    "anchor": "flying",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Winning",
+    "content": "A player wins when the opponent is reduced to 2 pieces or has no legal move.",
+    "anchor": "winning",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Strategic Note",
+    "content": "Because no captures occur during placement, both players can plan their opening positions without the immediate tactical pressure of Nine Men's Morris. The movement phase, when captures begin, is corr",
+    "anchor": "strategic-note",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Shax",
+    "heading": "Attribution",
+    "content": "Shax. Traditional game, Somalia. Public domain. Source: Wikipedia CC-BY-SA; academic literature on East African board games.",
+    "anchor": "attribution",
+    "variant": "shax",
+    "variantUrl": "dist/morris/variants/shax/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Six Men's Morris",
+    "heading": "Six Men's Morris",
+    "content": "The medieval standard form of the Mill game family, widely played across Europe from the 12th to 15th centuries before Nine Men's Morris became dominant. Six Men's Morris uses two concentric squares j",
+    "anchor": "six-mens-morris",
+    "variant": "six-mens-morris",
+    "variantUrl": "dist/morris/variants/six-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Six Men's Morris",
+    "heading": "Components",
+    "content": "Qty ----- 1 12",
+    "anchor": "components",
+    "variant": "six-mens-morris",
+    "variantUrl": "dist/morris/variants/six-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Six Men's Morris",
+    "heading": "Board",
+    "content": "The board consists of two squares — one outer, one inner — each with 8 intersection points 4 corners + 4 midpoints. The midpoint of each side of the outer square is connected to the midpoint of the co",
+    "anchor": "board",
+    "variant": "six-mens-morris",
+    "variantUrl": "dist/morris/variants/six-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Six Men's Morris",
+    "heading": "Phase 1 — Placement",
+    "content": "Players alternate placing one piece per turn onto any empty intersection until each has placed all 6 pieces. Mill formation during placement: If a player places a piece to complete a mill three in a r",
+    "anchor": "phase-1-placement",
+    "variant": "six-mens-morris",
+    "variantUrl": "dist/morris/variants/six-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Six Men's Morris",
+    "heading": "Phase 2 — Movement",
+    "content": "Players alternate moving one piece per turn to an adjacent empty intersection along a connecting line on the board. Diagonal movement is not allowed. Mill formation during movement: Completing a mill ",
+    "anchor": "phase-2-movement",
+    "variant": "six-mens-morris",
+    "variantUrl": "dist/morris/variants/six-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Six Men's Morris",
+    "heading": "Winning",
+    "content": "A player wins when the opponent is reduced to 2 pieces unable to form any mill or when the opponent has no legal move.",
+    "anchor": "winning",
+    "variant": "six-mens-morris",
+    "variantUrl": "dist/morris/variants/six-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Six Men's Morris",
+    "heading": "Attribution",
+    "content": "Six Men's Morris. Traditional game, medieval Europe. Public domain. Source: Murray, H.J.R. — A History of Board-Games Other Than Chess 1952, Oxford University Press; Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "six-mens-morris",
+    "variantUrl": "dist/morris/variants/six-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Three Men's Morris",
+    "content": "The smallest and oldest member of the Mill game family, played on a 3×3 grid with three pieces per side. Unlike the larger Morris games, Three Men's Morris has no sequential placement phase — pieces a",
+    "anchor": "three-mens-morris",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Components",
+    "content": "Qty ----- 1 6",
+    "anchor": "components",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Setup",
+    "content": "The board is a 3×3 grid of points, connected horizontally, vertically, and in most versions diagonally. The board begins empty.",
+    "anchor": "setup",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Phase 1 — Placement",
+    "content": "Players alternate placing one piece per turn onto any empty intersection until each player has placed all 3 pieces. If a player forms a three-in-a-row during placement, they win immediately.",
+    "anchor": "phase-1-placement",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Phase 2 — Movement",
+    "content": "Players alternate moving one piece per turn. A piece may move to any empty intersection on the board — not just adjacent ones. This teleportation distinguishes Three Men's Morris from all larger varia",
+    "anchor": "phase-2-movement",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Winning",
+    "content": "The first player to have all three pieces in a straight line row, column, or diagonal wins.",
+    "anchor": "winning",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Draw Prevention",
+    "content": "The free movement jump anywhere mechanic means that — unlike Tic-Tac-Toe — Three Men's Morris very rarely draws, because positions can always be rearranged. A draw occurs only if the same position rep",
+    "anchor": "draw-prevention",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Three Men's Morris",
+    "heading": "Attribution",
+    "content": "Three Men's Morris. Traditional game, Roman and medieval European origin. Public domain. Source: Murray, H.J.R. — A History of Board-Games Other Than Chess 1952, Oxford University Press; Wikipedia CC-",
+    "anchor": "attribution",
+    "variant": "three-mens-morris",
+    "variantUrl": "dist/morris/variants/three-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Twelve Men's Morris",
+    "content": "An extension of Nine Men's Morris using the same three concentric square board but with additional diagonal connections at every corner. The diagonals give each corner piece two possible mill directio",
+    "anchor": "twelve-mens-morris",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Components",
+    "content": "Qty ----- 1 24",
+    "anchor": "components",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Board",
+    "content": "Same structure as Nine Men's Morris three concentric squares, midpoints connected with additional diagonal lines connecting the corners of adjacent squares. Each corner point now has three connections",
+    "anchor": "board",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Phase 1 — Placement",
+    "content": "Players alternate placing one piece per turn until each has placed all 12 pieces. Mill formation: Completing a mill three in a row along any connected line, including diagonals lets you remove one opp",
+    "anchor": "phase-1-placement",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Phase 2 — Movement",
+    "content": "Players alternate moving one piece to an adjacent empty intersection along any connection line, including diagonals. Mill formation: Completing a mill triggers removal of one opponent piece same rules",
+    "anchor": "phase-2-movement",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Key Difference from Nine Men's Morris",
+    "content": "The diagonal connections mean that corner pieces participate in diagonal mills as well as orthogonal ones. A piece at the outer corner connects to the corresponding middle square corner, and that to t",
+    "anchor": "key-difference-from-nine-mens-morris",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "No Flying Rule",
+    "content": "With 12 pieces per side, the endgame rarely reaches 3 pieces. Flying is not used. A player reduced to 2 pieces loses immediately cannot form a mill.",
+    "anchor": "no-flying-rule",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Winning",
+    "content": "A player wins when the opponent is reduced to 2 pieces or cannot move.",
+    "anchor": "winning",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "morris",
+    "gameTitle": "Nine Men's Morris",
+    "section": "Twelve Men's Morris",
+    "heading": "Attribution",
+    "content": "Twelve Men's Morris. Traditional game. Public domain. Source: Murray, H.J.R. — A History of Board-Games Other Than Chess 1952, Oxford University Press; Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "twelve-mens-morris",
+    "variantUrl": "dist/morris/variants/twelve-mens-morris/"
   }
 ]

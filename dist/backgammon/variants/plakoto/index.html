@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plakoto — Backgammon</title>
+<meta name="description" content="Complete rules for Plakoto.">
+<meta property="og:title" content="Plakoto — Backgammon">
+<meta property="og:description" content="Complete rules for Plakoto.">
+<meta property="og:image" content="https://rules.moddable.games/games/backgammon/og-variants/plakoto.png?v=0.1.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/backgammon/variants/plakoto/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Plakoto — Backgammon">
+<meta name="twitter:description" content="Complete rules for Plakoto.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/backgammon/og-variants/plakoto.png?v=0.1.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../games/backgammon/theme.css?v=0.1.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.1">
+<script src="../../../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/backgammon/content/variants/plakoto.md" class="hdr-link">Markdown</a><a href="../../../../games/backgammon/pdf/variants/plakoto.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Plakoto · Backgammon</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Backgammon · Variant 4 of 8</span>
+    <h1 class="variant-cover-title">Plakoto</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">24-point board</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Plakoto</h2>
+<p>A Greek Backgammon variant in which landing on a lone opponent piece does not send it to the bar — instead, it pins it. A pinned piece cannot move until the piece pinning it moves away. Plakoto is one of the three Greek games (with Fevga and Portes) played together as Tavli, a set of three consecutive games scored together.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" width="440" height="320">
+  <title>Plakoto — starting position (all 15 pieces on point 1)</title>
+  <defs>
+    <symbol id="piece-dark" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" fill="#333" stroke="#111" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="6" fill="none" stroke="#555" stroke-width="0.8"/>
+    </symbol>
+    <symbol id="piece-light" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" fill="#eee" stroke="#999" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="6" fill="none" stroke="#ccc" stroke-width="0.8"/>
+    </symbol>
+  </defs>
+  <!-- Outer board frame (wood) -->
+  <rect x="0" y="0" width="440" height="320" rx="6" ry="6" fill="#3d2b1f"/>
+  <!-- Playing surface left half -->
+  <rect x="16" y="16" width="192" height="288" fill="#1a5c3a"/>
+  <!-- Playing surface right half -->
+  <rect x="232" y="16" width="192" height="288" fill="#1a5c3a"/>
+  <!-- Bar (centre divider) -->
+  <rect x="208" y="0" width="24" height="320" fill="#3d2b1f"/>
+  <!-- Bottom points (1-12, right to left) -->
+  <g id="bottom-right-points">
+    <polygon points="392,304 424,304 408,184" fill="#c47e3b"/>
+    <polygon points="360,304 392,304 376,184" fill="#8b2500"/>
+    <polygon points="328,304 360,304 344,184" fill="#c47e3b"/>
+    <polygon points="296,304 328,304 312,184" fill="#8b2500"/>
+    <polygon points="264,304 296,304 280,184" fill="#c47e3b"/>
+    <polygon points="232,304 264,304 248,184" fill="#8b2500"/>
+  </g>
+  <g id="bottom-left-points">
+    <polygon points="176,304 208,304 192,184" fill="#c47e3b"/>
+    <polygon points="144,304 176,304 160,184" fill="#8b2500"/>
+    <polygon points="112,304 144,304 128,184" fill="#c47e3b"/>
+    <polygon points="80,304 112,304 96,184" fill="#8b2500"/>
+    <polygon points="48,304 80,304 64,184" fill="#c47e3b"/>
+    <polygon points="16,304 48,304 32,184" fill="#8b2500"/>
+  </g>
+  <!-- Top points (13-24, left to right) -->
+  <g id="top-left-points">
+    <polygon points="16,16 48,16 32,136" fill="#8b2500"/>
+    <polygon points="48,16 80,16 64,136" fill="#c47e3b"/>
+    <polygon points="80,16 112,16 96,136" fill="#8b2500"/>
+    <polygon points="112,16 144,16 128,136" fill="#c47e3b"/>
+    <polygon points="144,16 176,16 160,136" fill="#8b2500"/>
+    <polygon points="176,16 208,16 192,136" fill="#c47e3b"/>
+  </g>
+  <g id="top-right-points">
+    <polygon points="232,16 264,16 248,136" fill="#8b2500"/>
+    <polygon points="264,16 296,16 280,136" fill="#c47e3b"/>
+    <polygon points="296,16 328,16 312,136" fill="#8b2500"/>
+    <polygon points="328,16 360,16 344,136" fill="#c47e3b"/>
+    <polygon points="360,16 392,16 376,136" fill="#8b2500"/>
+    <polygon points="392,16 424,16 408,136" fill="#c47e3b"/>
+  </g>
+  <!-- Dark pieces: all 15 on point 1 (bottom-right, rightmost) -->
+  <g id="dark-pieces">
+    <use href="#piece-dark" x="396" y="278" width="24" height="24"/>
+    <use href="#piece-dark" x="396" y="256" width="24" height="24"/>
+    <use href="#piece-dark" x="396" y="234" width="24" height="24"/>
+    <use href="#piece-dark" x="396" y="212" width="24" height="24"/>
+    <use href="#piece-dark" x="396" y="190" width="24" height="24"/>
+    <!-- Count indicator -->
+    <rect x="402" y="170" width="12" height="14" rx="2" fill="#333" stroke="#555" stroke-width="0.5"/>
+    <text x="408" y="181" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#fff">15</text>
+  </g>
+  <!-- Light pieces: all 15 on light's point 1 (which is dark's point 24, top-right rightmost) -->
+  <!-- In Plakoto, both players start on their own point 1 -->
+  <g id="light-pieces">
+    <use href="#piece-light" x="396" y="18" width="24" height="24"/>
+    <use href="#piece-light" x="396" y="40" width="24" height="24"/>
+    <use href="#piece-light" x="396" y="62" width="24" height="24"/>
+    <use href="#piece-light" x="396" y="84" width="24" height="24"/>
+    <use href="#piece-light" x="396" y="106" width="24" height="24"/>
+    <!-- Count indicator -->
+    <rect x="402" y="128" width="12" height="14" rx="2" fill="#eee" stroke="#999" stroke-width="0.5"/>
+    <text x="408" y="139" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#333">15</text>
+  </g>
+  <!-- Direction labels -->
+  <g font-family="sans-serif" font-size="7" fill="#a08060" opacity="0.8">
+    <text x="350" y="296" text-anchor="middle">Dark home</text>
+    <text x="350" y="28" text-anchor="middle">Light home</text>
+  </g>
+  <!-- Point numbers -->
+  <g font-family="sans-serif" font-size="8" text-anchor="middle" fill="#a08060">
+    <text x="408" y="314">1</text>
+    <text x="376" y="314">2</text>
+    <text x="344" y="314">3</text>
+    <text x="312" y="314">4</text>
+    <text x="280" y="314">5</text>
+    <text x="248" y="314">6</text>
+    <text x="192" y="314">7</text>
+    <text x="160" y="314">8</text>
+    <text x="128" y="314">9</text>
+    <text x="96" y="314">10</text>
+    <text x="64" y="314">11</text>
+    <text x="32" y="314">12</text>
+    <text x="32" y="12">13</text>
+    <text x="64" y="12">14</text>
+    <text x="96" y="12">15</text>
+    <text x="128" y="12">16</text>
+    <text x="160" y="12">17</text>
+    <text x="192" y="12">18</text>
+    <text x="248" y="12">19</text>
+    <text x="280" y="12">20</text>
+    <text x="312" y="12">21</text>
+    <text x="344" y="12">22</text>
+    <text x="376" y="12">23</text>
+    <text x="408" y="12">24</text>
+  </g>
+</svg>
+<p class="diagram-caption">Plakoto — starting position</p>
+### Components
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>24-point board</td>
+</tr>
+<tr>
+<td><strong>Checkers</strong></td>
+<td>30</td>
+<td>15 per player</td>
+</tr>
+<tr>
+<td><strong>Dice</strong></td>
+<td>4</td>
+<td>2 per player</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Setup</h3>
+<p>Both players start with all 15 checkers on point 24 (from each player’s perspective). Both players move in the same direction: counter-clockwise, from point 24 to point 1.</p>
+<h3>Movement</h3>
+<p>Movement is the same as standard Backgammon except for the pinning rule below. Roll two dice each turn and move forward.</p>
+<h3>Pinning</h3>
+<p>If you land on a point occupied by exactly one opponent checker, that checker is pinned beneath yours. The pinned piece cannot move for as long as your piece remains on that point.</p>
+<ul class="rules">
+<li>A pinned piece is still on the board but immobile.</li>
+<li>You may stack additional pieces on a pinned piece. The opponent’s piece remains pinned until all of your pieces leave that point.</li>
+<li>You cannot pin a piece that is already occupied by two or more opponent pieces (that point is closed to you).</li>
+</ul>
+<h3>Winning Immediately</h3>
+<p>If you pin the opponent’s last piece on their starting point (their 24-point), you win immediately without completing bear-off.</p>
+<h3>Blocking</h3>
+<p>A point with 2 or more of your checkers is closed. Opponent pieces cannot land on it. Pinning is only possible on points with exactly 1 opponent piece.</p>
+<h3>Bearing Off</h3>
+<p>Once all 15 of your pieces are in your home board (points 1–6), bear off normally.</p>
+<h3>Winning</h3>
+<p>First to bear off all 15 pieces wins. Winning while the opponent’s last piece is pinned on their starting point is also a win.</p>
+<h3>Attribution</h3>
+<p>Plakoto. Traditional game, Greece. Part of the Tavli family. Public domain. Source: Wikipedia (CC-BY-SA).</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../acey-deucey/" class="variant-pager-prev">← Acey-Deucey</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../fevga/" class="variant-pager-next">Fevga →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Backgammon v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>
