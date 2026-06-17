@@ -92,6 +92,18 @@ Sources are listed by game family with reliability notes.
 
 ---
 
+## The Landlord's Game
+
+| Source | Tier | URL | Notes |
+|---|---|---|---|
+| landlordsgame.info — 1904 patent rules | ⚠️ Intermittent | landlordsgame.info/rules/lg-1904p_patent.html | Dedicated fan site; transcription of patent text. Test before relying. |
+| landlordsgame.info — 1906 rulebook | ⚠️ Intermittent | landlordsgame.info/rules/lg-1906_rulebook.html | 1906 published edition rules. |
+| US Patent 748,626 (Google Patents) | ⚠️ Intermittent | patents.google.com/patent/US748626 | Full patent text including all 40 board space names in the claims. |
+| Wikipedia: The Landlord's Game | ⚠️ Intermittent | en.wikipedia.org/wiki/The_Landlord%27s_Game | History, both rulesets, edition differences. |
+| GitHub hoelzl/L3 patent transcription | ✅ Reliable | github.com/hoelzl/L3/blob/main/doc/patent-1904.md | Markdown transcription of patent text, taken from landlordsgame.info. Public repo. |
+
+---
+
 ## Royal Game of Ur
 
 | Source | Tier | URL | Notes |
