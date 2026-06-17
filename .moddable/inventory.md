@@ -70,8 +70,8 @@ This file is the single source of truth for what exists, what's queued, and what
 | Variant | File |
 |---|---|
 | Standard Go | `variants/standard.md` |
-| 9×9 Go | `variants/9x9.md` |
-| 13×13 Go | `variants/13x13.md` |
+| 9&times;9 Go | `variants/9x9.md` |
+| 13&times;13 Go | `variants/13x13.md` |
 | Capture Go | `variants/capture-go.md` |
 | One Colour Go | `variants/one-colour.md` |
 | Phantom Go | `variants/phantom-go.md` |
@@ -93,7 +93,7 @@ This file is the single source of truth for what exists, what's queued, and what
 
 ## Mancala family
 
-**Family status:** Live at `games/mancala/` (partial &mdash; needs audit)
+**Family status:** Live at `games/mancala/` (partial — needs audit)
 
 > Audit required: list live variants and identify gaps.
 
@@ -101,7 +101,7 @@ This file is the single source of truth for what exists, what's queued, and what
 
 ## Morris family
 
-**Family status:** Live at `games/morris/` (partial &mdash; needs audit)
+**Family status:** Live at `games/morris/` (partial — needs audit)
 
 > Audit required: list live variants and identify gaps.
 
@@ -109,15 +109,13 @@ This file is the single source of truth for what exists, what's queued, and what
 
 ## Backgammon family
 
-**Family status:** Live at `games/backgammon/` (partial &mdash; needs audit)
-
-> Audit required: list live variants and identify gaps.
+**Family status:** Live at `games/backgammon/` (partial — needs audit)
 
 ---
 
 ## Royal Game of Ur
 
-**Family status:** Live at `games/royal-ur/` (partial &mdash; needs audit)
+**Family status:** Live at `games/royal-ur/` (partial — needs audit)
 
 ---
 
@@ -126,7 +124,6 @@ This file is the single source of truth for what exists, what's queued, and what
 | Game | Issue | Notes |
 |---|---|---|
 | The Landlord's Game | #65 | Public domain 1904 patent; Monopoly precursor |
-| Colony | #64 | Open-licensed hex resource game; Catan alternative |
 | Pachisi | #66 | Ancestor of Ludo, Sorry, Trouble |
 | Halma / Stern-Halma | #67 | Ancestor of Chinese Checkers |
 | Reversi | #68 | Public domain basis of Othello |
@@ -157,9 +154,10 @@ See `.moddable/dead-ends.md` for full details.
 | Ultimate Monopoly (jonizaak) | Fan compilation of proprietary text |
 | Anti-Monopoly | Commercially published (University Games) |
 | Catan | Commercial, Kosmos/Asmodee |
+| Colony | No open rulebook — Colony is a Catan-style map generator, not a game with redistributable rules |
 
 ---
 
 ## Last updated
 
-2026-06-17 &mdash; triage run. No new game entries; all research issues already reflected.
+2026-06-17 — Triage: Colony moved to dead end.
