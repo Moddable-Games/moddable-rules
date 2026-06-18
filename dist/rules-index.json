@@ -48,6 +48,94 @@
     "anchor": "multiplayer"
   },
   {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "History",
+    "heading": "History",
+    "content": "Chaupar also spelled Chaupad, Chopad, or Caupar; IAST: caupaṛ is an ancient Indian cross-and-circle board game closely related to Pachisi, played across India and Pakistan. It is generally considered",
+    "anchor": "history"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "The Board",
+    "heading": "The Board",
+    "content": "The board is identical to the Pachisi board: a cross-shaped cloth board, each arm divided into three columns of eight squares, with the Charkoni the large central square in the centre. The Charkoni fu",
+    "anchor": "the-board"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Equipment",
+    "heading": "Equipment",
+    "content": "Quantity ---------- 1 16 3 Long dice: Each die is oblong rectangular prism with four playing faces. The faces typically show values 1 and 6 on opposing long faces, and 2 and 5 or 3 and 4 on the other ",
+    "anchor": "equipment"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Setup",
+    "heading": "Setup",
+    "content": "Players: Four players in two teams. Black and Yellow form one team; Red and Green form the other. Starting positions: Pieces do not start in the Charkoni. Before play begins, each player places their ",
+    "anchor": "setup"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Throwing the Dice",
+    "heading": "Throwing the Dice",
+    "content": "All three long dice are thrown together each turn. The total of the three dice is the move value. There is no pre-defined table: any sum is valid. Range: 3 minimum, 1+1+1 to 18 maximum, 6+6+6. No grac",
+    "anchor": "throwing-the-dice"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Movement",
+    "heading": "Movement",
+    "content": "Pieces move along the same counter-clockwise path as in Pachisi: down the middle column of the player’s own arm, then around the outer columns of the other three arms, and finally back up the home arm",
+    "anchor": "movement"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Super-Pieces (Conglomerate Pieces)",
+    "heading": "Super-Pieces (Conglomerate Pieces)",
+    "content": "This mechanic is unique to Chaupar and absent from Pachisi. If two pieces of the same colour land on the same square, they combine into a single double piece. Triple and quadruple pieces form in the s",
+    "anchor": "super-pieces-conglomerate-pieces"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Capture",
+    "heading": "Capture",
+    "content": "Landing on a square occupied by an opponent piece or conglomerate of equal or lesser size, per the super-piece immunity rules above captures it. Captured pieces return to the Charkoni and must re-ente",
+    "anchor": "capture"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Team Home Order",
+    "heading": "Team Home Order",
+    "content": "Within a team, pieces must finish in a fixed sequence: - All Black pieces must reach the Charkoni before any Yellow piece may finish. - All Red pieces must reach the Charkoni before any Green piece ma",
+    "anchor": "team-home-order"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Winning",
+    "heading": "Winning",
+    "content": "The first team to return all eight of their combined pieces to the Charkoni wins. Individual players finish their own pieces; the team wins when both players have finished all their pieces.",
+    "anchor": "winning"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "Chaupar. Public domain ancient Indian origin, Mughal court documentation c. 1590. Sources: Wikipedia CC-BY-SA, Chaupar article; mastersofgames.com, Chaupar rules; trackawesomelist Chaupar entry; labfo",
+    "anchor": "attribution"
+  },
+  {
     "game": "draughts",
     "gameTitle": "Draughts",
     "section": "Variant Library",
@@ -782,6 +870,22 @@
     "heading": "Biomes",
     "content": "Each region belongs to one of seven biome types. Terrain restrictions apply based on the {nowrap unit count.} ✦ \"Needs Support to Pass\" — What This Means A platoon can transit through a restricted ter",
     "anchor": "biomes"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Pachisi is an ancient Indian cross-and-circle race game documented from approximately 500 CE, with precursor forms identified in the Painted Grey Ware period c. 1100–800 BCE. The name derives from the",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Variant Library",
+    "heading": "Variants",
+    "content": "- Standard Pachisivariants/standard/ — 4 players, six cowrie shells, the foundational form - 2-Player Pachisivariants/two-player/ — 2-player adaptation with teams on the standard board - Seven-Shell P",
+    "anchor": "variants"
   },
   {
     "game": "royal-ur",
@@ -1568,6 +1672,106 @@
     "anchor": "attribution",
     "variant": "standard",
     "variantUrl": "dist/backgammon/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Chaupar (Standard)",
+    "content": "The standard four-player form of Chaupar, played on a cross-shaped cloth board with three four-sided long dice. The game was played in the court of Mughal Emperor Akbar and is the game of dice describ",
+    "anchor": "chaupar-standard",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Equipment",
+    "content": "Quantity ---------- 1 16 3",
+    "anchor": "equipment",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Setup",
+    "content": "Starting positions: Pieces start on specific squares, not in the Charkoni. Count from the Charkoni exit along each player’s middle column: place two pieces on squares 6 and 7 of the middle column. The",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Throwing",
+    "content": "Throw all three long dice together. The total is the move value. There are no grace rolls. The throw may be split across multiple pieces in any way the player chooses. Example: A roll of 1, 2, 6 total",
+    "anchor": "throwing",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Movement",
+    "content": "Pieces travel counter-clockwise around the board: down the middle column of the player’s own arm, around the outer columns of the other three arms, and back up the home arm’s middle column to the Char",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Super-Pieces",
+    "content": "Two or more same-colour pieces on the same square combine into a conglomerate piece and move as one. Capture immunity applies by size: Vulnerable to ------------ Any size Double Triple or quadruple Qu",
+    "anchor": "super-pieces",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Capture",
+    "content": "Landing on a square occupied by a capturable opponent group removes that group to the Charkoni. Pieces return to the Charkoni and re-enter the board from their starting path. Tohd must capture before ",
+    "anchor": "capture",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Team Home Order",
+    "content": "All Black pieces must finish before any Yellow piece may finish. All Red pieces must finish before any Green piece may finish.",
+    "anchor": "team-home-order",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Winning",
+    "content": "The first team to return all eight of their combined pieces to the Charkoni wins.",
+    "anchor": "winning",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
+  },
+  {
+    "game": "chaupar",
+    "gameTitle": "Chaupar",
+    "section": "Chaupar (Standard)",
+    "heading": "Attribution",
+    "content": "Chaupar. Public domain. Sources: Wikipedia CC-BY-SA; mastersofgames.com Chaupar rules starting positions, super-pieces, split throws, tohd, home order; trackawesomelist Chaupar entry; labforadvancedst",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/chaupar/variants/standard/"
   },
   {
     "game": "draughts",
@@ -9098,5 +9302,195 @@
     "anchor": "attribution",
     "variant": "twelve-mens-morris",
     "variantUrl": "dist/morris/variants/twelve-mens-morris/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Seven-Shell Pachisi",
+    "heading": "Seven-Shell Pachisi",
+    "content": "A documented variant of Pachisi played with seven cowrie shells rather than six. Each throw value carries a traditional Hindi name. The seven-shell system produces a different probability distribution",
+    "anchor": "seven-shell-pachisi",
+    "variant": "seven-shell",
+    "variantUrl": "dist/pachisi/variants/seven-shell/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Seven-Shell Pachisi",
+    "heading": "Seven-Shell Throw Table",
+    "content": "Seven cowrie shells are thrown together. The number of shells landing with the mouth opening facing up determines the move value: Traditional name Grace extra throw? ----------- ------------ Sat Yes 1",
+    "anchor": "seven-shell-throw-table",
+    "variant": "seven-shell",
+    "variantUrl": "dist/pachisi/variants/seven-shell/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Seven-Shell Pachisi",
+    "heading": "Rules",
+    "content": "All other rules are identical to Standard Pachisistandard/: the board layout, castle squares, Charkoni, movement path, capture mechanics, and winning condition are unchanged. Only the randomisation sy",
+    "anchor": "rules",
+    "variant": "seven-shell",
+    "variantUrl": "dist/pachisi/variants/seven-shell/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Seven-Shell Pachisi",
+    "heading": "Attribution",
+    "content": "Seven-Shell Pachisi. Public domain. Throw table from Wikipedia CC-BY-SA, Pachisi article, seven-cowrie variant section.",
+    "anchor": "attribution",
+    "variant": "seven-shell",
+    "variantUrl": "dist/pachisi/variants/seven-shell/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Pachisi (Standard)",
+    "content": "The foundational four-player form of Pachisi, played since at least 500 CE and associated with the Mughal court of Emperor Akbar, who is said to have had a life-sized Pachisi court at Fatehpur Sikri w",
+    "anchor": "pachisi-standard",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Equipment",
+    "content": "Quantity ---------- 1 16 6",
+    "anchor": "equipment",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Setup",
+    "content": "Players: Four players: Black, Red, Green, Yellow traditional turn order. Starting position: All four pieces per player begin in the Charkoni the large central square. One piece per player starts activ",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Cowrie Shell System",
+    "content": "Six cowrie shells are thrown together at the start of each turn. The number of shells landing with the opening mouth facing up determines the move value: Move value ------------ 25 10 2 3 4 5 6 Grace:",
+    "anchor": "cowrie-shell-system",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Board Layout",
+    "content": "The board is cross-shaped. The Charkoni centre 3&times;3 area is the starting and finishing position for all pieces. Each of the four arms consists of three columns of eight squares, giving 24 squares",
+    "anchor": "board-layout",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Movement",
+    "content": "Entering play: The first piece per player enters the board immediately starts active. The remaining three pieces require a grace throw 0, 1, or 6 mouths up to activate and enter. Path: Each player's p",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Capture",
+    "content": "Landing on a square other than a castle square occupied by an opponent's piece or pieces captures all of the opponent's pieces on that square. Captured pieces return to the Charkoni and may only re-en",
+    "anchor": "capture",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Teams",
+    "content": "Pachisi is commonly played in two teams: Yellow and Black form one team, Red and Green the other. The first team to return all eight of their combined pieces to the Charkoni wins.",
+    "anchor": "teams",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Winning",
+    "content": "The first player or team to return all four pieces to the Charkoni wins.",
+    "anchor": "winning",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "Pachisi (Standard)",
+    "heading": "Attribution",
+    "content": "Pachisi. Public domain origin c. 500 CE, precursors to c. 1100 BCE. Sources: Wikipedia CC-BY-SA; jkc33/senior-project, MIT licence; edm00se/awesome-board-games public domain listing; labforadvancedstu",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/pachisi/variants/standard/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "2-Player Pachisi",
+    "heading": "2-Player Pachisi",
+    "content": "The two-player form of Pachisi, played with the same board, cowrie shells, and rules as the standard four-player game. Each player controls two sets of pieces, managing the arms on opposite sides of t",
+    "anchor": "2-player-pachisi",
+    "variant": "two-player",
+    "variantUrl": "dist/pachisi/variants/two-player/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "2-Player Pachisi",
+    "heading": "Setup",
+    "content": "Players: Two players. Piece allocation: One player controls Yellow and Black pieces; the other controls Red and Green. Each player therefore manages eight pieces in total. All eight pieces per player ",
+    "anchor": "setup",
+    "variant": "two-player",
+    "variantUrl": "dist/pachisi/variants/two-player/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "2-Player Pachisi",
+    "heading": "Movement",
+    "content": "Each player may move pieces of either of their two colours on each turn. The movement path, castle squares, capture rules, and grace rules are identical to the standard four-player game. Capture: A pl",
+    "anchor": "movement",
+    "variant": "two-player",
+    "variantUrl": "dist/pachisi/variants/two-player/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "2-Player Pachisi",
+    "heading": "Winning",
+    "content": "The first player to return all eight of their pieces four of each colour to the Charkoni wins.",
+    "anchor": "winning",
+    "variant": "two-player",
+    "variantUrl": "dist/pachisi/variants/two-player/"
+  },
+  {
+    "game": "pachisi",
+    "gameTitle": "Pachisi",
+    "section": "2-Player Pachisi",
+    "heading": "Attribution",
+    "content": "Pachisi. Public domain. Two-player rules from Wikipedia CC-BY-SA.",
+    "anchor": "attribution",
+    "variant": "two-player",
+    "variantUrl": "dist/pachisi/variants/two-player/"
   }
 ]
