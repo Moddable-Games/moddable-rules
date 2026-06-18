@@ -352,6 +352,62 @@
     "anchor": "rule-variants"
   },
   {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "History",
+    "heading": "History",
+    "content": "The Landlord's Game was designed by Elizabeth J. Magie May 9, 1866 — March 2, 1948 as, in her own words, \"a practical demonstration of the present system of land grabbing with all its usual outcomes a",
+    "anchor": "history"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "The Board",
+    "heading": "The Board",
+    "content": "The Landlord's Game uses a continuous circular track of 40 spaces. Unlike Monopoly's colour-grouped properties, the board is not divided into sections by colour — instead, spaces alternate between lot",
+    "anchor": "the-board"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "The Board",
+    "heading": "1906 edition differences",
+    "content": "The 1906 Economic Game Company edition introduced several changes from the 1904 patent: - Property names changed from 1904 patent versions - Houses added, with a rent table land rent doubles per house",
+    "anchor": "1906-edition-differences"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Equipment",
+    "heading": "1904 Patent edition",
+    "content": "Notes --- 40-space circular track Dice Four checkers, one per player Lot tickets $500 starting cash per player Deeds Bank mortgage instruments $100 increments; $5 interest per wages receipt Individual",
+    "anchor": "1904-patent-edition"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Equipment",
+    "heading": "1906 Commercial edition additions",
+    "content": "- Houses up to 3 per lot; $10 rent per house per player stopping there - Chance cards red pack - Starting cash varies by player count: $600 2 players, $500 3 players, $400 4 players",
+    "anchor": "1906-commercial-edition-additions"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "The Landlord's Game spans over a century of editions, from Elizabeth Magie's 1904 patent to the Quaker Atlantic City adaptations that became the direct ancestor of Monopoly. This library documents six",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "The Landlord's Game. Designed by Elizabeth J. Magie. Original patent: US748626, granted 5 January 1904, expired 1921. Public domain. Sources: US Patent 748,626 public domain; Wikipedia: The Landlord's",
+    "anchor": "attribution"
+  },
+  {
     "game": "mancala",
     "gameTitle": "Mancala",
     "section": "Variant Library",
@@ -3292,6 +3348,316 @@
     "anchor": "attribution",
     "variant": "toroidal-go",
     "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1904 Original",
+    "heading": "1904 Original",
+    "content": "This is the ruleset as described in US Patent 748,626, granted January 5, 1904. It predates houses, Chance cards, and auctions. Players begin by drawing lot tickets rather than purchasing lots as they",
+    "anchor": "1904-original",
+    "variant": "1904-original",
+    "variantUrl": "dist/landlords-game/variants/1904-original/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1904 Original",
+    "heading": "Setup",
+    "content": "- Each player begins with $500. - Shuffle the 22 lot tickets. Players draw one at a time, taking turns, until 12 tickets in total have been taken. Remaining tickets are returned to the Wages box. - Al",
+    "anchor": "setup",
+    "variant": "1904-original",
+    "variantUrl": "dist/landlords-game/variants/1904-original/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1904 Original",
+    "heading": "Rules",
+    "content": "Movement: On each turn, throw both dice and move forward the combined number of spaces. Follow the rule for the space landed on. MOTHER EARTH: Receive $100 wages from the Wages box each time this spac",
+    "anchor": "rules",
+    "variant": "1904-original",
+    "variantUrl": "dist/landlords-game/variants/1904-original/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1904 Original",
+    "heading": "Winning",
+    "content": "The game ends when the last player passes MOTHER EARTH for the fifth time. Each player counts their total wealth: - Lot card values face value of each lot ticket held - Cash on hand - Luxury tickets e",
+    "anchor": "winning",
+    "variant": "1904-original",
+    "variantUrl": "dist/landlords-game/variants/1904-original/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1904 Original",
+    "heading": "Attribution",
+    "content": "1904 Original. Rules from US Patent 748,626, granted January 5, 1904. Designed by Elizabeth J. Magie. Public domain patent expired 1921. Sources: US Patent 748,626 public domain; hoelzl/L3 GitHub repo",
+    "anchor": "attribution",
+    "variant": "1904-original",
+    "variantUrl": "dist/landlords-game/variants/1904-original/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1906 Commercial Edition",
+    "heading": "1906 Commercial Edition",
+    "content": "Published by the Economic Game Company of New York in 1906, this edition introduced the rules that most subsequent versions of The Landlord's Game would follow: Title Deed cards purchased by auction, ",
+    "anchor": "1906-commercial-edition",
+    "variant": "1906-commercial",
+    "variantUrl": "dist/landlords-game/variants/1906-commercial/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1906 Commercial Edition",
+    "heading": "Setup",
+    "content": "- Starting cash: $600 per player 2 players, $500 per player 3 players, $400 per player 4 players. - Shuffle the green Title Deed cards and deal 24 cards one at a time to the left. Each player may purc",
+    "anchor": "setup",
+    "variant": "1906-commercial",
+    "variantUrl": "dist/landlords-game/variants/1906-commercial/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1906 Commercial Edition",
+    "heading": "Rules",
+    "content": "Movement: On each turn, throw the dice and move forward that many spaces. Follow the rule for the space landed on. MOTHER EARTH: Receive $100 wages from MISCELLANEOUS each time this space is reached o",
+    "anchor": "rules",
+    "variant": "1906-commercial",
+    "variantUrl": "dist/landlords-game/variants/1906-commercial/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1906 Commercial Edition",
+    "heading": "Houses",
+    "content": "Players may erect up to 3 houses per lot. House rent of $10 per house is paid by any player stopping on that lot, in addition to land rent. Land rent table base / 1 house / 2 houses / 3 houses: 1 hous",
+    "anchor": "houses",
+    "variant": "1906-commercial",
+    "variantUrl": "dist/landlords-game/variants/1906-commercial/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1906 Commercial Edition",
+    "heading": "Winning",
+    "content": "The game ends by agreement or when play cannot continue. The player with the most total wealth wins. Scoring: every Title Deed card counts 100; every house counts 100; add cash on hand.",
+    "anchor": "winning",
+    "variant": "1906-commercial",
+    "variantUrl": "dist/landlords-game/variants/1906-commercial/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "1906 Commercial Edition",
+    "heading": "Attribution",
+    "content": "1906 Commercial Edition. Rules from the Economic Game Company edition, New York, 1906. Designed by Elizabeth J. Magie. Public domain. Source: landlordsgame.info/rules/lg-1906rulebook.html transcriptio",
+    "anchor": "attribution",
+    "variant": "1906-commercial",
+    "variantUrl": "dist/landlords-game/variants/1906-commercial/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Atlantic City",
+    "heading": "Atlantic City",
+    "content": "The Atlantic City variant uses the rules of the 1906 Commercial Edition with one difference: the property names are replaced with the names of Atlantic City streets. The version was created by Jesse a",
+    "anchor": "atlantic-city",
+    "variant": "atlantic-city",
+    "variantUrl": "dist/landlords-game/variants/atlantic-city/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Atlantic City",
+    "heading": "Setup",
+    "content": "As per the 1906 Commercial Edition.",
+    "anchor": "setup",
+    "variant": "atlantic-city",
+    "variantUrl": "dist/landlords-game/variants/atlantic-city/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Atlantic City",
+    "heading": "Rules",
+    "content": "As per the 1906 Commercial Edition. All rules apply unchanged. The sole difference from the 1906 edition is the property names, which use Atlantic City street names in place of the original lot names.",
+    "anchor": "rules",
+    "variant": "atlantic-city",
+    "variantUrl": "dist/landlords-game/variants/atlantic-city/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Atlantic City",
+    "heading": "Winning",
+    "content": "As per the 1906 Commercial Edition: most wealth at end of game, counting Title Deed cards + houses + cash on hand.",
+    "anchor": "winning",
+    "variant": "atlantic-city",
+    "variantUrl": "dist/landlords-game/variants/atlantic-city/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Atlantic City",
+    "heading": "Attribution",
+    "content": "Atlantic City. Community variant created by Jesse and Eugene Raiford, Atlantic City, New Jersey, c. 1910s–1920s. Rules derived from the 1906 Economic Game Company edition. Designed by Elizabeth J. Mag",
+    "anchor": "attribution",
+    "variant": "atlantic-city",
+    "variantUrl": "dist/landlords-game/variants/atlantic-city/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Monarch of the World",
+    "heading": "Monarch of the World",
+    "content": "Monarch of the World is a pedagogical demonstration from the 1906 Economic Game Company edition, not a competitive game. One player takes the role of the Landlord and holds all land from the start; th",
+    "anchor": "monarch-of-the-world",
+    "variant": "monarch-of-the-world",
+    "variantUrl": "dist/landlords-game/variants/monarch-of-the-world/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Monarch of the World",
+    "heading": "Setup",
+    "content": "- One player takes the role of the Landlord and holds all 22 Title Deed cards from the start of the game. - All remaining players take all other advantages — houses, utilities, railroads, and Chance c",
+    "anchor": "setup",
+    "variant": "monarch-of-the-world",
+    "variantUrl": "dist/landlords-game/variants/monarch-of-the-world/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Monarch of the World",
+    "heading": "Rules",
+    "content": "Play proceeds under 1906 Commercial Edition rules with the starting positions above. The Landlord charges rent on every lot space, since they own all lots from the beginning. Other players control all",
+    "anchor": "rules",
+    "variant": "monarch-of-the-world",
+    "variantUrl": "dist/landlords-game/variants/monarch-of-the-world/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Monarch of the World",
+    "heading": "Winning",
+    "content": "The demonstration is designed to reach a predetermined conclusion. Despite holding no wages and no starting cash, the Landlord collects rent every time another player lands on any lot space — which is",
+    "anchor": "winning",
+    "variant": "monarch-of-the-world",
+    "variantUrl": "dist/landlords-game/variants/monarch-of-the-world/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Monarch of the World",
+    "heading": "Attribution",
+    "content": "Monarch of the World. Rules from the Economic Game Company edition, New York, 1906. Designed by Elizabeth J. Magie. Public domain. Source: landlordsgame.info/rules/lg-1906rulebook.html transcription v",
+    "anchor": "attribution",
+    "variant": "monarch-of-the-world",
+    "variantUrl": "dist/landlords-game/variants/monarch-of-the-world/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Prosperity",
+    "content": "The Prosperity variant is the named, discrete-win-condition version of Elizabeth Magie's Anti-Monopolist gameplay. It first appeared under this name in the 1932 Adgame Company edition \"Landlord's Game",
+    "anchor": "prosperity",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Setup",
+    "content": "As per the 1906 Commercial Edition.",
+    "anchor": "setup",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Rules",
+    "content": "As per the 1906 Commercial Edition, with the following change: the win condition is collective rather than individual. No player may be forced into bankruptcy during play. Players may freely assist ea",
+    "anchor": "rules",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Winning",
+    "content": "The game ends when the player with the least money has doubled their original starting stake. All players win collectively at that point. Example: in a 3-player game with $500 starting cash each, the ",
+    "anchor": "winning",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Attribution",
+    "content": "Prosperity. Named in the Adgame Company edition, 1932, published under US Patent 1,509,312. Designed by Elizabeth J. Magie. Public domain. Sources: Wikipedia: The Landlord's Game CC-BY-SA for win cond",
+    "anchor": "attribution",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Single Tax",
+    "heading": "Single Tax",
+    "content": "The Single Tax rules appear in the 1906 Economic Game Company edition as a variant that can be entered mid-game by majority vote. They enact Henry George's single-tax philosophy through play: land ren",
+    "anchor": "single-tax",
+    "variant": "single-tax",
+    "variantUrl": "dist/landlords-game/variants/single-tax/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Single Tax",
+    "heading": "Setup",
+    "content": "As per the 1906 Commercial Edition. Single Tax mode may be entered at any point during a 1906 Commercial Edition game when at least 2 players vote to switch. Players keep all current holdings when swi",
+    "anchor": "setup",
+    "variant": "single-tax",
+    "variantUrl": "dist/landlords-game/variants/single-tax/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Single Tax",
+    "heading": "Rules",
+    "content": "Rule 1: No taxes on Absolute Necessities. Blue spaces Food, Fuel, Shelter, Clothing are free under Single Tax. Rule 2: All land rent is paid into the Public Treasury for public improvements, not to in",
+    "anchor": "rules",
+    "variant": "single-tax",
+    "variantUrl": "dist/landlords-game/variants/single-tax/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Single Tax",
+    "heading": "Winning",
+    "content": "The Single Tax mode has no individual winner. The game demonstrates Henry George's single-tax principle through play: as the Public Treasury accumulates and acquires utilities, railroads, and colleges",
+    "anchor": "winning",
+    "variant": "single-tax",
+    "variantUrl": "dist/landlords-game/variants/single-tax/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Single Tax",
+    "heading": "Attribution",
+    "content": "Single Tax. Rules from the Economic Game Company edition, New York, 1906. Designed by Elizabeth J. Magie. Public domain. Sources: landlordsgame.info/rules/lg-1906rulebook.html transcription via hoelzl",
+    "anchor": "attribution",
+    "variant": "single-tax",
+    "variantUrl": "dist/landlords-game/variants/single-tax/"
   },
   {
     "game": "mancala",

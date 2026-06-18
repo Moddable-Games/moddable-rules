@@ -13,6 +13,8 @@ special: "The pure patent ruleset — no houses, no Chance cards, lot tickets dr
 
 This is the ruleset as described in US Patent 748,626, granted January 5, 1904. It predates houses, Chance cards, and auctions. Players begin by drawing lot tickets rather than purchasing lots as they land, and the game ends after all players complete five circuits of the board.
 
+{{svg:1904-original-board.svg "1904 Patent — board layout"}}
+
 ### Setup
 
 - Each player begins with $500.

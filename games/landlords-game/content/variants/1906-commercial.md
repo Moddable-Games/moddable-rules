@@ -13,6 +13,8 @@ special: "The first published edition. Adds houses, Chance cards, auctions, Spec
 
 Published by the Economic Game Company of New York in 1906, this edition introduced the rules that most subsequent versions of The Landlord's Game would follow: Title Deed cards purchased by auction, houses that multiply rent, Chance cards with quotations from political philosophers, a Speculation space, and railroad monopoly pricing. It is also the edition that first included the Single Tax variant rules (see the Single Tax variant).
 
+{{svg:1906-commercial-board.svg "1906 Commercial Edition — board layout"}}
+
 ### Setup
 
 - Starting cash: $600 per player (2 players), $500 per player (3 players), $400 per player (4 players).
