@@ -1320,6 +1320,22 @@
     "anchor": "variants"
   },
   {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Reversi",
+    "heading": "Reversi",
+    "content": "Reversi is a two-player abstract strategy game played on a grid board with double-sided discs. Players take turns placing discs to flank and flip their opponent's pieces. The player with the most disc",
+    "anchor": "reversi"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Reversi",
+    "heading": "Variants",
+    "content": "- Standardvariants/standard/ — The original 8×8 game as played in international competition - 6×6variants/six-by-six/ — Smaller board for quicker games; same rules throughout - Anti-Reversivariants/an",
+    "anchor": "variants"
+  },
+  {
     "game": "royal-ur",
     "gameTitle": "Royal Game of Ur",
     "section": "History",
@@ -10512,6 +10528,156 @@
     "anchor": "attribution",
     "variant": "two-player",
     "variantUrl": "dist/pachisi/variants/two-player/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Anti-Reversi",
+    "heading": "Anti-Reversi",
+    "content": "Anti-Reversi, also known as Reversed Reversi, is a variant where the player wins who has fewer own-coloured discs at the end of the game. To put a disc on the board, the same rules apply as in normal ",
+    "anchor": "anti-reversi",
+    "variant": "anti-reversi",
+    "variantUrl": "dist/reversi/variants/anti-reversi/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Anti-Reversi",
+    "heading": "Setup",
+    "content": "Identical to Standard Reversi: Board: 8×8 grid 64 squares. Starting position: 2 discs of each colour in the central four squares in a diagonal arrangement. First move: The player with the dark pieces ",
+    "anchor": "setup",
+    "variant": "anti-reversi",
+    "variantUrl": "dist/reversi/variants/anti-reversi/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Anti-Reversi",
+    "heading": "Rules",
+    "content": "Placement and flipping rules are identical to Standard Reversi: - Placement: Place a disc so it flanks one or more opponent discs in a straight line horizontal, vertical, or diagonal, with your disc a",
+    "anchor": "rules",
+    "variant": "anti-reversi",
+    "variantUrl": "dist/reversi/variants/anti-reversi/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Anti-Reversi",
+    "heading": "Winning",
+    "content": "When no one can move, the player with the fewest discs of their colour wins. Draw is possible if both players end with equal disc counts. This completely inverts the strategy: instead of capturing as ",
+    "anchor": "winning",
+    "variant": "anti-reversi",
+    "variantUrl": "dist/reversi/variants/anti-reversi/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Anti-Reversi",
+    "heading": "Attribution",
+    "content": "Anti-Reversi Reversed Reversi. Public domain variant of Reversi c. 1883.",
+    "anchor": "attribution",
+    "variant": "anti-reversi",
+    "variantUrl": "dist/reversi/variants/anti-reversi/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Six-by-Six Reversi",
+    "heading": "Six-by-Six",
+    "content": "Boards of other sizes are used for simplified games; in particular, a 6×6 board is a common simplification for beginners or for solving the game by computer. All placement, flipping, passing, and winn",
+    "anchor": "six-by-six",
+    "variant": "six-by-six",
+    "variantUrl": "dist/reversi/variants/six-by-six/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Six-by-Six Reversi",
+    "heading": "Setup",
+    "content": "Board: 6×6 grid 36 squares. Pieces: A supply of double-sided discs — one side dark, one side light. Starting position: Place 2 discs of each colour in the central four squares in a diagonal arrangemen",
+    "anchor": "setup",
+    "variant": "six-by-six",
+    "variantUrl": "dist/reversi/variants/six-by-six/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Six-by-Six Reversi",
+    "heading": "Rules",
+    "content": "All rules are identical to Standard Reversi: - Placement: Place a disc so it flanks one or more opponent discs in a straight line horizontal, vertical, or diagonal, with your disc at one end and an ex",
+    "anchor": "rules",
+    "variant": "six-by-six",
+    "variantUrl": "dist/reversi/variants/six-by-six/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Six-by-Six Reversi",
+    "heading": "Winning",
+    "content": "Play continues until the board is full or neither player can make a legal move. The player with the most discs of their colour wins. With 36 squares and only 4 starting discs, the game resolves quickl",
+    "anchor": "winning",
+    "variant": "six-by-six",
+    "variantUrl": "dist/reversi/variants/six-by-six/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Six-by-Six Reversi",
+    "heading": "Attribution",
+    "content": "Six-by-Six Reversi. Public domain variant. Rules identical to Reversi c. 1883.",
+    "anchor": "attribution",
+    "variant": "six-by-six",
+    "variantUrl": "dist/reversi/variants/six-by-six/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Standard Reversi",
+    "heading": "Standard",
+    "content": "Reversi is a game purportedly invented in the early nineteenth century by either Lewis Waterman or John W. Mollett, but may actually be an older game. It is played on an 8×8 board with double-sided pi",
+    "anchor": "standard",
+    "variant": "standard",
+    "variantUrl": "dist/reversi/variants/standard/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Standard Reversi",
+    "heading": "Setup",
+    "content": "Board: 8×8 grid 64 squares. Pieces: A supply of double-sided discs — one side dark, one side light. Each player claims one colour. Starting position: Place 2 discs of each colour in the central four s",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/reversi/variants/standard/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Standard Reversi",
+    "heading": "Rules",
+    "content": "- Placement: On your turn, place a disc so it flanks one or more of your opponent's discs in a straight line horizontal, vertical, or diagonal — with your newly placed disc at one end and an existing ",
+    "anchor": "rules",
+    "variant": "standard",
+    "variantUrl": "dist/reversi/variants/standard/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Standard Reversi",
+    "heading": "Winning",
+    "content": "Play continues until the board is full or neither player can make a legal move. The player with the most discs of their colour on the board wins.",
+    "anchor": "winning",
+    "variant": "standard",
+    "variantUrl": "dist/reversi/variants/standard/"
+  },
+  {
+    "game": "reversi",
+    "gameTitle": "Reversi",
+    "section": "Standard Reversi",
+    "heading": "Attribution",
+    "content": "Reversi. Public domain. Invented by Lewis Waterman and John Mollett, England, c. 1883.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/reversi/variants/standard/"
   },
   {
     "game": "stern-halma",
