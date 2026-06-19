@@ -8,8 +8,9 @@ age: "12+"
 tagline: "Cold-war territory control on a hex map with nuclear brinkmanship"
 type: "game"
 status: "live"
-updated: "2026-06-03"
+updated: "2026-06-19"
 first_published: "January 2012"
+variants: true
 ---
 
 <div class="section">

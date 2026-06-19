@@ -9920,6 +9920,256 @@
     "variantUrl": "dist/morris/variants/twelve-mens-morris/"
   },
   {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Nukes: Asymmetric Powers",
+    "content": "A rebalance mod that adds one unique Power Card per player at setup. Standard Nukes underneath, explicit asymmetry on top.",
+    "anchor": "nukes-asymmetric-powers",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Overview",
+    "content": "Before setup, each player draws one Power Card from a deck of three. Powers are revealed simultaneously and remain public for the entire game. No two players hold the same card. All other rules, inclu",
+    "anchor": "overview",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Setup Changes",
+    "content": "- Shuffle the three Power Cards face-down. - Each player draws one card. In a 2-player game, one card is removed from the game unseen. - Reveal all drawn cards simultaneously. Powers are public from t",
+    "anchor": "setup-changes",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Covert Network",
+    "content": "Effect: Once per turn, after completing your moves, you may swap the positions of any two of your opponent's platoons on the board. Both platoons must be in regions adjacent to at least one of your un",
+    "anchor": "covert-network",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Arms Industry",
+    "content": "Effect: When you build a Base 4+ units in a region, immediately gain one free isotope. You still gain isotopes through the standard conversion action. Strategic impact: Enables faster nuclear escalati",
+    "anchor": "arms-industry",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Airborne Corps",
+    "content": "Effect: Your Airborne platoons 3 units may drop exactly three hexes away instead of two. Slingshot range through friendly Bases is also extended by one hex. Strategic impact: Enables longer slingshot ",
+    "anchor": "airborne-corps",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Reading Your Opponents",
+    "content": "Knowing their power changes how you play: - An Arms Industry opponent needs to be pressured before their isotope count grows. Prevent Base formation or destroy Bases early. - A Covert Network opponent",
+    "anchor": "reading-your-opponents",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "No Stacking",
+    "content": "Powers do not combine. Each player has exactly one Power Card for the entire game. Powers cannot be traded, discarded, or hidden.",
+    "anchor": "no-stacking",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Design Notes",
+    "content": "Asymmetric Powers is designed to layer on top of standard Nukes with zero rule changes to the core systems. The power cards create different strategic pressures from the first turn without requiring p",
+    "anchor": "design-notes",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Nukes: Fallout",
+    "content": "A reskin that adds persistent, spreading Biohazard contamination to the board. Every nuclear strike or Meltdown now has long-term territorial consequences as the map degrades around the blast sites.",
+    "anchor": "nukes-fallout",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Overview",
+    "content": "In standard Nukes, Biohazard tiles are created by nuclear strikes but remain static. In Fallout, Biohazard tiles spread outward each round, converting adjacent terrain into contaminated wasteland. Cit",
+    "anchor": "overview",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Setup Changes",
+    "content": "No setup changes. Use standard Nukes setup for all players, board draft, and token distribution.",
+    "anchor": "setup-changes",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Biohazard Spread Phase",
+    "content": "At the end of each round after all players have taken their turns, every existing Biohazard tile converts one adjacent non-city tile into Biohazard: 1. The first player determined by turn order choose",
+    "anchor": "biohazard-spread-phase",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "City Immunity",
+    "content": "City tiles cannot be converted by Biohazard spread. They can still be: - Destroyed by a direct nuclear strike target hex. - Destroyed by a Meltdown. - Adjacent to Biohazard without being affected. Thi",
+    "anchor": "city-immunity",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Movement Through Biohazard",
+    "content": "Biohazard tiles follow standard Nukes rules for hazardous terrain: - Infantry cannot remain in Biohazard alone destroyed at end of turn. - Artillery can pass through but not stop. - Airborne can land ",
+    "anchor": "movement-through-biohazard",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Strategic Implications",
+    "content": "Early nukes poison the centre. Launching nuclear strikes on contested central territory in mid-game may cut off your own movement corridors by late game. Every strike is a territorial sacrifice as wel",
+    "anchor": "strategic-implications",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Design Notes",
+    "content": "Fallout adds a clock to the game without changing any core mechanics. The hostage economy, fluid platoons, and nuclear strikes all work identically. The spread mechanic simply punishes nuclear usage o",
+    "anchor": "design-notes",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Nukes: Siege",
+    "content": "A total conversion of the hostage mechanic. You start with your own tokens in reserve and deploy them to build your forces. The only way to acquire enemy hostages is through combat.",
+    "anchor": "nukes-siege",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Overview",
+    "content": "Standard Nukes gives each player a supply of their opponents' tokens from the start. Siege removes this entirely. You begin with 21 of your own tokens off-board. Return them to regions you control to ",
+    "anchor": "overview",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Setup Changes",
+    "content": "- Each player starts with 4 units on their city standard and 21 of their own tokens off-board in a personal supply. - No tokens are distributed to opponents at setup. - All other setup board draft, bi",
+    "anchor": "setup-changes",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Deploy from Reserve",
+    "content": "On your turn, return 1–3 of your own tokens from your off-board supply onto regions where you already have units. Each return earns one move. This replaces the standard hostage-return mechanic for the",
+    "anchor": "deploy-from-reserve",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Build Through Combat",
+    "content": "The only way to get enemy hostages is to capture them mid-game. When you win combat with excess strength attacking units minus defending units, take the excess as hostages into your off-board supply. ",
+    "anchor": "build-through-combat",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Two Economies",
+    "content": "Your own supply tokens fuel early expansion. Enemy hostages, once captured, fuel rapid strikes in the mid-to-late game. Both follow the same return-to-move mechanic but come from different sources.",
+    "anchor": "two-economies",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Endgame",
+    "content": "Bases, isotopes, nuclear strikes, and Meltdowns all work identically to standard Nukes. Siege changes how you build momentum, not what you're fighting over. You still lose if your supply runs out enti",
+    "anchor": "endgame",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Design Notes",
+    "content": "Siege creates a slower, more positional early game. Without free hostages at setup, players must commit to combat earlier to unlock the faster pacing of the hostage economy. The 2-player restriction e",
+    "anchor": "design-notes",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
     "game": "pachisi",
     "gameTitle": "Pachisi",
     "section": "Seven-Shell Pachisi",
