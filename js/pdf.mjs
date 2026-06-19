@@ -89,9 +89,20 @@ async function generateMultiPage(browser, htmlPath, sectionSel, opts) {
   await page.emulateMediaType('print');
   await page.setViewport({ width: 794, height: 1123 });
 
-  await page.evaluate((sel) => {
+  await page.evaluate((sel, stripSelectors) => {
     const target = document.querySelector(sel);
     if (!target) return;
+
+    if (stripSelectors && stripSelectors.length) {
+      for (const ss of stripSelectors) {
+        target.querySelectorAll(ss).forEach(el => {
+          const section = el.closest('.section');
+          if (section) section.remove();
+          else el.remove();
+        });
+      }
+    }
+
     document.body.innerHTML = '';
     const wrapper = document.createElement('div');
     wrapper.id = 'pdf-source';
@@ -110,7 +121,7 @@ async function generateMultiPage(browser, htmlPath, sectionSel, opts) {
     }
     flatten(target);
     document.body.appendChild(wrapper);
-  }, sectionSel);
+  }, sectionSel, opts.stripSelectors || []);
 
   await page.addStyleTag({ content: `
     html, body { background: ${opts.bg} !important; margin: 0; padding: 0; }
@@ -141,7 +152,7 @@ function getSections(slug, meta, gameDir) {
     const TEAL_CSS = `.clar-q{color:#c9a84c!important}.clar-a{color:#f2ece0!important}.clar-a strong{color:#fff!important}.clar-new{color:#fff!important;background:#c9a84c!important;border-color:#c9a84c!important}.eyebrow{color:#f2ece0!important}h2{color:#f2ece0!important}hr{border-color:rgba(242,236,224,.25)!important}p{color:#f2ece0!important}`;
     return [
       { sel: '.cover', bg: '#0e0a06', multi: false },
-      { sel: '.content', bg: '#f2ece0', multi: true },
+      { sel: '.content', bg: '#f2ece0', multi: true, stripSelectors: ['.variant-grid'] },
       { sel: '.ref-page', bg: '#2a4a4b', multi: true, css: TEAL_CSS },
       { sel: '.appendix', bg: '#2a4a4b', multi: true, css: TEAL_CSS },
       { sel: '.back-cover', bg: '#0e0a06', multi: false },
@@ -185,7 +196,7 @@ for (const slug of slugs) {
   for (let i = 0; i < sections.length; i++) {
     const s = sections[i];
     const sectionPath = resolve(outDir, `_section_${i}.pdf`);
-    const opts = { bg: s.bg, css: s.css || '', outPath: sectionPath, version, slug, firstPublished: meta.first_published || '' };
+    const opts = { bg: s.bg, css: s.css || '', outPath: sectionPath, version, slug, firstPublished: meta.first_published || '', stripSelectors: s.stripSelectors || [] };
 
     try {
       if (s.multi) {
@@ -334,8 +345,9 @@ for (const slug of slugs) {
 
   console.log(`  Generated ${allVariantPdfs.length} individual variant PDFs`);
 
-  // Combined library PDF
-  if (allVariantPdfs.length > 0) {
+  // Combined library PDF (skip for games with standalone variant PDFs only)
+  const skipLibrary = ['nukes'];
+  if (allVariantPdfs.length > 0 && !skipLibrary.includes(slug)) {
     const combinedPath = resolve(gameDir, 'pdf', `${slug}-variant-library-v${version}.pdf`);
     execSync(`pdfunite ${allVariantPdfs.map(p => `"${p}"`).join(' ')} "${combinedPath}"`);
     const totalPages = parseInt(
