@@ -20,7 +20,7 @@ Stern-Halma originated in Germany in 1892 as a variation of the older American g
 The board is in the shape of a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes:
 
 - **6 triangular arms**, each with 10 holes arranged in four rows of 4, 3, 2, 1 holes (outermost to innermost)
-- **Central hexagonal play area** with 61 holes, the interior of a hexagon with each side five holes long
+- **Central hexagonal play area** with 61 holes; the interior of a hexagon with each side five holes long
 
 The six triangular arms point to the six compass directions: N, NE, SE, S, SW, NW. Each arm serves as a starting camp for one player in a 6-player game.
 
@@ -59,8 +59,8 @@ The first player to move all 10 of their marbles into the triangular arm diagona
 
 ### Camp rule
 
-Once a marble enters the destination arm, it is strongly recommended that it remain there. The exact treatment of marbles that have reached the goal &mdash; whether they may be moved back out to assist chain hops &mdash; is left to player agreement before the game begins. The traditional rule is that a marble in the destination arm should not be voluntarily moved out.
+Once a marble enters the destination arm, it is strongly recommended that it remain there. The treatment of marbles that have reached the goal &mdash; whether they may be moved back out to assist chain hops &mdash; is left to player agreement before the game begins. The traditional rule is that a marble in the destination arm should not be voluntarily moved out.
 
 ### Attribution
 
-Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from ezekeal/bgg-get (BGG entry for Sternhalma/Chinese Checkers) and Lehi-Innovation/boardgame-rules (independent jump-rule audit confirming chain hops, no forced jump, no capture). Board dimensions (121 holes, 6 &times; 10-hole arms, 61-hole centre) confirmed from mastersofgames.com and Wikipedia.
+Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from ezekeal/bgg-get (BGG entry for Sternhalma) and Lehi-Innovation/boardgame-rules (independent jump-rule audit confirming chain hops, no forced jump, no capture). Board dimensions (121 holes, 6 &times; 10-hole arms, 61-hole centre) confirmed from mastersofgames.com and Wikipedia.

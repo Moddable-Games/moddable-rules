@@ -17,7 +17,7 @@ variants: true
 
 ## Variant Library
 
-Stern-Halma is a German abstract strategy race game first published in 1892, derived from the American game Halma. It is played on a six-pointed star board of 121 holes, with two to six players each occupying one triangular arm of the star. Players race all their pieces to the diagonally opposite arm. Stern-Halma is historically accurate to its German origin; the name Chinese Checkers, applied to the same game by American manufacturers from 1928, is a later commercial rebranding.
+Stern-Halma is a German abstract strategy race game first published in 1892, derived from the American game Halma. It is played on a six-pointed star board of 121 holes, with two to six players each occupying one triangular arm of the star. Players race all their pieces to the diagonally opposite arm.
 
 This library includes {{variant_count}} playable variant.
 
