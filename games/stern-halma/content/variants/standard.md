@@ -13,7 +13,7 @@ special: "Chain hops in any direction, own or opponent marbles. Hops are never f
 
 Stern-Halma originated in Germany in 1892 as a variation of the older American game Halma. It supports two to six players and is played on a six-pointed star board.
 
-{{svg:diagrams/svg/stern-halma-board.svg "Stern-Halma — six-pointed star board, 121 holes"}}
+{{svg:stern-halma-board.svg "Stern-Halma — six-pointed star board, 121 holes"}}
 
 ### Board
 
