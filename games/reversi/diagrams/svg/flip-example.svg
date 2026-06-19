@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 210">
+  <title>Reversi Flanking and Flipping</title>
+  <rect width="420" height="210" fill="#f5f4ef"/>
+  <text x="210" y="22" font-family="sans-serif" font-size="13" fill="#0c4f8d" text-anchor="middle" font-weight="700" letter-spacing="1">FLANKING AND FLIPPING</text>
+  <!-- 5 cells across, each 72x72, starting x=20, y=35 -->
+  <!-- Cell 1 (Black existing anchor) -->
+  <rect x="20" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="56" cy="71" r="27" fill="#14161c"/>
+  <!-- Cell 2 (White - will flip) -->
+  <rect x="94" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="130" cy="71" r="27" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- Cell 3 (White - will flip) -->
+  <rect x="168" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="204" cy="71" r="27" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- Cell 4 (White - will flip) -->
+  <rect x="242" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="278" cy="71" r="27" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- Cell 5 (Black placed here - thicker blue border) -->
+  <rect x="316" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="3"/>
+  <circle cx="352" cy="71" r="27" fill="#14161c"/>
+  <!-- Labels below each cell -->
+  <text x="56" y="124" font-family="sans-serif" font-size="11" fill="#14161c" text-anchor="middle">Black</text>
+  <text x="204" y="124" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">3 White discs</text>
+  <text x="352" y="124" font-family="sans-serif" font-size="11" fill="#0c4f8d" text-anchor="middle">Black (placed)</text>
+  <!-- Bracket under the 3 white cells with flip arrow -->
+  <line x1="94" y1="135" x2="365" y2="135" stroke="#0c4f8d" stroke-width="1.5"/>
+  <line x1="94" y1="135" x2="94" y2="143" stroke="#0c4f8d" stroke-width="1.5"/>
+  <line x1="365" y1="135" x2="365" y2="143" stroke="#0c4f8d" stroke-width="1.5"/>
+  <text x="229" y="158" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle" font-weight="600">all 3 flip to Black</text>
+  <!-- Caption -->
+  <text x="210" y="186" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">Flanked discs are any opponent discs lying in a straight line between two of your discs.</text>
+</svg>
