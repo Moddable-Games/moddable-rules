@@ -13,7 +13,7 @@ special: "Pieces may step or chain-hop in any direction. No capture. Once in the
 
 Halma was invented in 1883 by George Howard Monks in Boston, and inspired other games such as Chinese Checkers.
 
-{{svg:diagrams/svg/halma-board.svg "Halma — 2-player starting position"}}
+{{svg:halma-board.svg "Halma — 2-player starting position"}}
 
 ### Setup
 

@@ -52,7 +52,61 @@
 
 <h2>Standard Stern-Halma</h2>
 <p>Stern-Halma originated in Germany in 1892 as a variation of the older American game Halma. It supports two to six players and is played on a six-pointed star board.</p>
-<!-- missing: diagrams/svg/stern-halma-board.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" aria-label="Stern-Halma six-pointed star board, 121 holes">
+  <defs>
+    <g id="n-arm-holes">
+      <circle cx="200" cy="34" r="4" fill="#1c2d4a"/>
+      <circle cx="182" cy="54" r="4" fill="#1c2d4a"/>
+      <circle cx="218" cy="54" r="4" fill="#1c2d4a"/>
+      <circle cx="172" cy="74" r="4" fill="#1c2d4a"/>
+      <circle cx="200" cy="74" r="4" fill="#1c2d4a"/>
+      <circle cx="228" cy="74" r="4" fill="#1c2d4a"/>
+      <circle cx="162" cy="94" r="4" fill="#1c2d4a"/>
+      <circle cx="187" cy="94" r="4" fill="#1c2d4a"/>
+      <circle cx="213" cy="94" r="4" fill="#1c2d4a"/>
+      <circle cx="238" cy="94" r="4" fill="#1c2d4a"/>
+    </g>
+    <pattern id="hex-dots" x="200" y="200" width="18" height="31.2" patternUnits="userSpaceOnUse">
+      <circle cx="0" cy="0" r="3" fill="#4a6fa5"/>
+      <circle cx="18" cy="0" r="3" fill="#4a6fa5"/>
+      <circle cx="9" cy="15.6" r="3" fill="#4a6fa5"/>
+      <circle cx="0" cy="31.2" r="3" fill="#4a6fa5"/>
+      <circle cx="18" cy="31.2" r="3" fill="#4a6fa5"/>
+    </pattern>
+    <clipPath id="hex-clip">
+      <polygon points="252,111 303,200 252,289 148,289 97,200 148,111"/>
+    </clipPath>
+  </defs>
+  <rect width="400" height="400" fill="#f5f6fa"/>
+  <polygon points="148,111 200,22 252,111" fill="#f0e0c8"/>
+  <polygon points="252,111 354,111 303,200" fill="#c8e8d0"/>
+  <polygon points="303,200 354,289 252,289" fill="#c8d8f0"/>
+  <polygon points="252,289 200,378 148,289" fill="#f0e0c8"/>
+  <polygon points="148,289 46,289 97,200" fill="#c8e8d0"/>
+  <polygon points="97,200 46,111 148,111" fill="#c8d8f0"/>
+  <polygon points="252,111 303,200 252,289 148,289 97,200 148,111" fill="#e8edf7"/>
+  <rect x="0" y="0" width="400" height="400" fill="url(#hex-dots)" clip-path="url(#hex-clip)"/>
+  <polygon points="148,111 200,22 252,111" fill="none" stroke="#4a6fa5" stroke-width="1.5"/>
+  <polygon points="252,111 354,111 303,200" fill="none" stroke="#4a6fa5" stroke-width="1.5"/>
+  <polygon points="303,200 354,289 252,289" fill="none" stroke="#4a6fa5" stroke-width="1.5"/>
+  <polygon points="252,289 200,378 148,289" fill="none" stroke="#4a6fa5" stroke-width="1.5"/>
+  <polygon points="148,289 46,289 97,200" fill="none" stroke="#4a6fa5" stroke-width="1.5"/>
+  <polygon points="97,200 46,111 148,111" fill="none" stroke="#4a6fa5" stroke-width="1.5"/>
+  <polygon points="252,111 303,200 252,289 148,289 97,200 148,111" fill="none" stroke="#4a6fa5" stroke-width="1.5"/>
+  <use href="#n-arm-holes"/>
+  <use href="#n-arm-holes" transform="rotate(60, 200, 200)"/>
+  <use href="#n-arm-holes" transform="rotate(120, 200, 200)"/>
+  <use href="#n-arm-holes" transform="rotate(180, 200, 200)"/>
+  <use href="#n-arm-holes" transform="rotate(240, 200, 200)"/>
+  <use href="#n-arm-holes" transform="rotate(300, 200, 200)"/>
+  <text x="192" y="16" font-family="sans-serif" font-size="11" fill="#1c2d4a" font-weight="600">N</text>
+  <text x="357" y="115" font-family="sans-serif" font-size="11" fill="#1c2d4a" font-weight="600">NE</text>
+  <text x="357" y="295" font-family="sans-serif" font-size="11" fill="#1c2d4a" font-weight="600">SE</text>
+  <text x="192" y="396" font-family="sans-serif" font-size="11" fill="#1c2d4a" font-weight="600">S</text>
+  <text x="26" y="295" font-family="sans-serif" font-size="11" fill="#1c2d4a" font-weight="600">SW</text>
+  <text x="28" y="115" font-family="sans-serif" font-size="11" fill="#1c2d4a" font-weight="600">NW</text>
+</svg>
+<p class="diagram-caption">Stern-Halma — six-pointed star board, 121 holes</p>
 <h3>Board</h3>
 <p>The board is in the shape of a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes:</p>
 <ul class="rules">

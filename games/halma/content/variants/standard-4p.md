@@ -13,7 +13,7 @@ special: "Four players with 13 pieces each. Optional 2v2 team play with diagonal
 
 The four-player form of Halma uses all four corner camps on the same 16&times;16 board, with 13 pieces per player.
 
-{{svg:diagrams/svg/halma-board.svg "Halma — 4-player camp positions"}}
+{{svg:halma-board.svg "Halma — 4-player camp positions"}}
 
 ### Setup
 
