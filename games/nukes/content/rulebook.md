@@ -1,6 +1,6 @@
 ---
 title: "Nukes — Official Rulebook"
-version: "0.9.6"
+version: "0.9.7"
 slug: "nukes"
 players: "2–3"
 duration: "45+ min"
@@ -391,6 +391,22 @@ Each region belongs to one of seven biome types. Terrain restrictions apply base
 <div class="box-title">✦ "Needs Support to Pass" — What This Means</div>
 
 A platoon can transit through a restricted terrain region if **friendly units already stationed there raise the total unit count above the danger threshold**. For example, Infantry (1 unit) can safely end in desert if friendly Artillery (2 units) is already there — combined they form Airborne (3 units), which has no desert restriction. Any friendly presence that changes the platoon type to a safe one {nowrap|counts as support.}
+</div>
+</div>
+
+<div class="section">
+<div class="eyebrow">Mods by The House</div>
+
+## Variants
+
+Each variant modifies one aspect of the base game. All other rules remain identical to standard Nukes.
+
+<div class="variant-grid">
+
+- [Siege](variants/siege/) — Own-supply recruiting replaces the hostage economy
+- [Asymmetric Powers](variants/asymmetric-powers/) — Per-player Power Cards drawn at setup
+- [Fallout](variants/fallout/) — Spreading Biohazard tiles shrink the board over time
+
 </div>
 </div>
 
