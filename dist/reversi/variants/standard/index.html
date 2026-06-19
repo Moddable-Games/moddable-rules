@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Standard Reversi — Reversi</title>
+<meta name="description" content="Complete rules for Standard Reversi.">
+<meta property="og:title" content="Standard Reversi — Reversi">
+<meta property="og:description" content="Complete rules for Standard Reversi.">
+<meta property="og:image" content="https://rules.moddable.games/games/reversi/og-variants/standard.png?v=0.1.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/reversi/variants/standard/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Standard Reversi — Reversi">
+<meta name="twitter:description" content="Complete rules for Standard Reversi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/reversi/og-variants/standard.png?v=0.1.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../games/reversi/theme.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<script src="../../../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/reversi/content/variants/standard.md" class="hdr-link">Markdown</a><a href="../../../../games/reversi/pdf/variants/standard.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Standard Reversi · Reversi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Reversi · Variant 1 of 3</span>
+    <h1 class="variant-cover-title">Standard Reversi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Standard</h2>
+<p>Reversi is a game purportedly invented in the early nineteenth century by either Lewis Waterman or John W. Mollett, but may actually be an older game. It is played on an 8×8 board with double-sided pieces — discs with each side distinct in some way from the other, each side designating ownership to a certain player when face-up.</p>
+<p>Reversi was invented by Lewis Waterman and John Mollett in England around 1883. World Reversi Championships have been held annually since 1977.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 460">
+  <title>Reversi Starting Position 8x8</title>
+  <rect width="410" height="460" fill="#f5f4ef"/>
+  <!-- Board -->
+  <rect x="35" y="30" width="360" height="360" fill="#dce8f5" stroke="#0c4f8d" stroke-width="2"/>
+  <!-- Vertical grid lines -->
+  <line x1="80" y1="30" x2="80" y2="390" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="125" y1="30" x2="125" y2="390" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="170" y1="30" x2="170" y2="390" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="215" y1="30" x2="215" y2="390" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="260" y1="30" x2="260" y2="390" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="305" y1="30" x2="305" y2="390" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="350" y1="30" x2="350" y2="390" stroke="#0c4f8d" stroke-width="1"/>
+  <!-- Horizontal grid lines -->
+  <line x1="35" y1="75" x2="395" y2="75" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="35" y1="120" x2="395" y2="120" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="35" y1="165" x2="395" y2="165" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="35" y1="210" x2="395" y2="210" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="35" y1="255" x2="395" y2="255" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="35" y1="300" x2="395" y2="300" stroke="#0c4f8d" stroke-width="1"/>
+  <line x1="35" y1="345" x2="395" y2="345" stroke="#0c4f8d" stroke-width="1"/>
+  <!-- Column labels a-h -->
+  <text x="57" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">a</text>
+  <text x="102" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">b</text>
+  <text x="147" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">c</text>
+  <text x="192" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">d</text>
+  <text x="237" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">e</text>
+  <text x="282" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">f</text>
+  <text x="327" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">g</text>
+  <text x="372" y="414" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">h</text>
+  <!-- Row labels 8-1 (8 at top) -->
+  <text x="22" y="56" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">8</text>
+  <text x="22" y="101" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">7</text>
+  <text x="22" y="146" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">6</text>
+  <text x="22" y="191" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">5</text>
+  <text x="22" y="236" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">4</text>
+  <text x="22" y="281" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">3</text>
+  <text x="22" y="326" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">2</text>
+  <text x="22" y="371" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle">1</text>
+  <!-- White disc at d4 (col d=index3, row4=4th from bottom=5th from top=index4) -->
+  <!-- x = 35 + 3*45 + 22.5 = 192.5, y = 30 + 4*45 + 22.5 = 232.5 -->
+  <circle cx="192.5" cy="232.5" r="19" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- White disc at e5 (col e=index4, row5=5th from bottom=4th from top=index3) -->
+  <!-- x = 35 + 4*45 + 22.5 = 237.5, y = 30 + 3*45 + 22.5 = 187.5 -->
+  <circle cx="237.5" cy="187.5" r="19" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- Black disc at d5 (col d=index3, row5=4th from top=index3) -->
+  <circle cx="192.5" cy="187.5" r="19" fill="#14161c" stroke="#14161c" stroke-width="1"/>
+  <!-- Black disc at e4 (col e=index4, row4=5th from top=index4) -->
+  <circle cx="237.5" cy="232.5" r="19" fill="#14161c" stroke="#14161c" stroke-width="1"/>
+  <!-- Legend (centred on viewBox midpoint 205) -->
+  <circle cx="155" cy="440" r="8" fill="#14161c"/>
+  <text x="169" y="444" font-family="sans-serif" font-size="12" fill="#14161c">Dark</text>
+  <circle cx="230" cy="440" r="8" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+  <text x="244" y="444" font-family="sans-serif" font-size="12" fill="#14161c">Light</text>
+</svg>
+<p class="diagram-caption">Reversi — starting position</p>
+<h3>Setup</h3>
+<p><strong>Board:</strong> 8×8 grid (64 squares).</p>
+<p><strong>Pieces:</strong> A supply of double-sided discs — one side dark, one side light. Each player claims one colour.</p>
+<p><strong>Starting position:</strong> Place 2 discs of each colour in the central four squares in a diagonal arrangement: one colour at d4 and e5, the other at d5 and e4.</p>
+<p><strong>First move:</strong> The player with the dark pieces moves first.</p>
+<h3>Rules</h3>
+<ul class="rules">
+<li><strong>Placement:</strong> On your turn, place a disc so it flanks one or more of your opponent’s discs in a straight line (horizontal, vertical, or diagonal) — with your newly placed disc at one end and an existing disc of yours at the other end, with the opponent’s discs between them.</li>
+<li><strong>Flipping:</strong> All flanked discs flip to your colour immediately.</li>
+<li><strong>Multiple lines:</strong> A single placement may flank opponent discs in more than one direction simultaneously. All flanked discs in all directions flip.</li>
+<li><strong>Passing:</strong> If you cannot make any legal placement — no position on the board would flank at least one opponent disc — you must pass your turn.</li>
+<li><strong>No voluntary pass:</strong> You are forced to move if you have any legal placement available.</li>
+</ul>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 210">
+  <title>Reversi Flanking and Flipping</title>
+  <rect width="420" height="210" fill="#f5f4ef"/>
+  <text x="210" y="22" font-family="sans-serif" font-size="13" fill="#0c4f8d" text-anchor="middle" font-weight="700" letter-spacing="1">FLANKING AND FLIPPING</text>
+  <!-- 5 cells across, each 72x72, starting x=20, y=35 -->
+  <!-- Cell 1 (Black existing anchor) -->
+  <rect x="20" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="56" cy="71" r="27" fill="#14161c"/>
+  <!-- Cell 2 (White - will flip) -->
+  <rect x="94" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="130" cy="71" r="27" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- Cell 3 (White - will flip) -->
+  <rect x="168" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="204" cy="71" r="27" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- Cell 4 (White - will flip) -->
+  <rect x="242" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="1.5"/>
+  <circle cx="278" cy="71" r="27" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- Cell 5 (Black placed here - thicker blue border) -->
+  <rect x="316" y="35" width="72" height="72" fill="#dce8f5" stroke="#0c4f8d" stroke-width="3"/>
+  <circle cx="352" cy="71" r="27" fill="#14161c"/>
+  <!-- Labels below each cell -->
+  <text x="56" y="124" font-family="sans-serif" font-size="11" fill="#14161c" text-anchor="middle">Black</text>
+  <text x="204" y="124" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">3 White discs</text>
+  <text x="352" y="124" font-family="sans-serif" font-size="11" fill="#0c4f8d" text-anchor="middle">Black (placed)</text>
+  <!-- Bracket under the 3 white cells with flip arrow -->
+  <line x1="94" y1="135" x2="365" y2="135" stroke="#0c4f8d" stroke-width="1.5"/>
+  <line x1="94" y1="135" x2="94" y2="143" stroke="#0c4f8d" stroke-width="1.5"/>
+  <line x1="365" y1="135" x2="365" y2="143" stroke="#0c4f8d" stroke-width="1.5"/>
+  <text x="229" y="158" font-family="sans-serif" font-size="12" fill="#0c4f8d" text-anchor="middle" font-weight="600">all 3 flip to Black</text>
+  <!-- Caption -->
+  <text x="210" y="186" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">Flanked discs are any opponent discs lying in a straight line between two of your discs.</text>
+</svg>
+<p class="diagram-caption">Reversi — flanking and flipping</p>
+<h3>Winning</h3>
+<p>Play continues until the board is full or neither player can make a legal move. The player with the most discs of their colour on the board wins.</p>
+<h3>Attribution</h3>
+<p>Reversi. Public domain. Invented by Lewis Waterman and John Mollett, England, c. 1883.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <span class="variant-pager-spacer"></span>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../six-by-six/" class="variant-pager-next">Six-by-Six Reversi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Reversi v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>

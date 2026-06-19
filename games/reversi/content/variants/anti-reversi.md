@@ -4,7 +4,7 @@ slug: "anti-reversi"
 board: "8×8"
 players: "2"
 parent: "reversi"
-order: 2
+order: 3
 win: "Fewest discs on the board when no moves remain"
 special: "Misère variant. Win condition inverted — giving up discs is the goal. Draw is possible."
 ---
@@ -13,7 +13,7 @@ special: "Misère variant. Win condition inverted — giving up discs is the goa
 
 Anti-Reversi, also known as Reversed Reversi, is a variant where the player wins who has fewer own-coloured discs at the end of the game. To put a disc on the board, the same rules apply as in normal Reversi. Draw is also a possible result.
 
-{{svg:diagrams/svg/starting-position-8x8.svg "Anti-Reversi — starting position"}}
+{{svg:starting-position-8x8.svg "Anti-Reversi — starting position"}}
 
 ### Setup
 

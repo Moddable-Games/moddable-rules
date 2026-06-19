@@ -4,7 +4,7 @@ slug: "six-by-six"
 board: "6×6"
 players: "2"
 parent: "reversi"
-order: 1
+order: 2
 win: "Most discs on the board when no moves remain"
 special: "Smaller board for shorter games or competitive solving. Identical rules to standard Reversi."
 ---
@@ -13,7 +13,7 @@ special: "Smaller board for shorter games or competitive solving. Identical rule
 
 Boards of other sizes are used for simplified games; in particular, a 6×6 board is a common simplification for beginners or for solving the game by computer. All placement, flipping, passing, and winning rules are identical to the standard 8×8 game.
 
-{{svg:diagrams/svg/starting-position-6x6.svg "Reversi — 6×6 starting position"}}
+{{svg:starting-position-6x6.svg "Reversi — 6×6 starting position"}}
 
 ### Setup
 
