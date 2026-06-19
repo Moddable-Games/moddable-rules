@@ -1,0 +1,20 @@
+:root {
+  --accent: #0c4f8d;
+  --accent-trans: rgba(12, 79, 141, .3);
+  --bg-primary: #f5f4ef;
+  --bg-dark: #091a2e;
+  --heading-color: #091a2e;
+  --text-primary: #0a0d1a;
+  --divider-color: rgba(12, 79, 141, .2);
+}
+
+.cover-title {
+  display: block;
+  font-family: var(--sans);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
