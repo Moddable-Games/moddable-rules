@@ -348,24 +348,32 @@ function buildLanding() {
     return `games/${slug}/logos/${logo}`;
   }
 
+  // Count total variants across all games
+  let totalVariants = 0;
+  for (const slug of allSlugs) {
+    const varDir = resolve(GAMES_DIR, slug, 'content/variants');
+    if (existsSync(varDir)) {
+      totalVariants += readdirSync(varDir).filter(f => f.endsWith('.md')).length;
+    }
+  }
+
   const cards = visible.map(g => {
     const logo = logoPath(g.slug);
     const logoImg = logo ? `<img class="card-logo" src="${logo}" alt="">` : '';
     const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>` : '';
     const badge = statusLabels[g.status] || g.status || '';
     const badgeClass = statusClasses[g.status] || 'badge--dev';
+    const title = g.title ? g.title.replace(/\s*[—–-]\s*Official Rulebook$/i, '') : g.slug;
     return `    <a href="dist/${g.slug}/index.html" class="game-card" data-type="${g.type || 'game'}">
-      ${logoImg}
-      <div class="card-body">
-        <div class="card-header">
-          <span class="card-title">${g.title ? g.title.replace(/\s*[—–-]\s*Official Rulebook$/i, '') : g.slug}</span>
-          <span class="card-version">v${g.version || '0.0.0'}</span>
-        </div>
-        ${metaType}
-        <div class="card-meta">
-          <span>${g.players || ''} players</span><span class="sep">/</span><span>${g.duration || ''}</span><span class="sep">/</span><span class="badge ${badgeClass}">${badge}</span>
-        </div>
+      <span class="badge ${badgeClass}">${badge}</span>
+      <div class="card-logo-wrap">
+        ${logoImg}
         <p class="card-desc">${g.tagline || ''}</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">${title}</span><span class="card-version">v${g.version || '0.0.0'}</span></div>
+        ${metaType}
+        <div class="card-meta"><span>${g.players || ''} players</span><span class="sep">/</span><span>${g.duration || ''}</span></div>
       </div>
     </a>`;
   }).join('\n\n');
@@ -399,15 +407,29 @@ function buildLanding() {
 
   <header class="landing-header">
     <a href="https://moddable.games" target="_blank" rel="noopener"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
-    <p class="landing-subtitle">Game Rulebooks</p>
   </header>
 
-  <div class="filter-bar">
-    <button class="filter-pill filter-pill--all active" data-filter="all">All</button>
-    <button class="filter-pill filter-pill--game" data-filter="game">Games</button>
-    <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
-    <button class="filter-pill filter-pill--platform" data-filter="platform">Platforms</button>
-    <button class="filter-pill filter-pill--classic" data-filter="classic">Classics</button>
+  <section class="hero">
+    <h1 class="hero-title">Game Rulebooks</h1>
+    <p class="hero-desc">Open rulebooks for original games, creative mods of published titles, and encyclopaedic coverage of public domain classics. Every rule documented, every variant preserved.</p>
+    <div class="hero-stats">
+      <span class="hero-stat"><strong>${visible.length}</strong> games</span>
+      <span class="hero-stat"><strong>${totalVariants}</strong> variants</span>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="filter-bar">
+      <button class="filter-pill filter-pill--all active" data-filter="all">All</button>
+      <button class="filter-pill filter-pill--game" data-filter="game">Games</button>
+      <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
+      <button class="filter-pill filter-pill--platform" data-filter="platform">Platforms</button>
+      <button class="filter-pill filter-pill--classic" data-filter="classic">Classics</button>
+    </div>
+    <div class="search-bar">
+      <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd"/></svg>
+      <input type="search" class="search-input" placeholder="Search games..." aria-label="Search games">
+    </div>
   </div>
 
   <div class="game-grid">
@@ -417,8 +439,30 @@ ${cards}
   </div>
 
   <footer class="landing-footer">
-    <a href="https://moddable.games" target="_blank" rel="noopener" class="landing-footer-link">Moddable Games</a> &middot; &copy; 2012&ndash;2026 All Rights Reserved
-    <span class="footer-version">v${version}</span>
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4 class="footer-heading">Moddable Games</h4>
+        <a href="https://moddable.games" target="_blank" rel="noopener">Homepage</a>
+        <a href="https://moddable.games/about" target="_blank" rel="noopener">About</a>
+        <a href="https://moddable.games/blog" target="_blank" rel="noopener">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Play</h4>
+        <a href="https://chess.moddable.games" target="_blank" rel="noopener">Moddable Chess</a>
+        <a href="https://draughts.moddable.games" target="_blank" rel="noopener">Moddable Draughts</a>
+        <a href="https://nukes.moddable.games" target="_blank" rel="noopener">Nukes</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Community</h4>
+        <a href="https://github.com/Moddable-Games" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://discord.gg/moddable" target="_blank" rel="noopener">Discord</a>
+        <a href="https://moddable.games/contribute" target="_blank" rel="noopener">Contribute</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2012&ndash;2026 Moddable Games. All Rights Reserved.</span>
+      <span class="footer-version">v${version}</span>
+    </div>
   </footer>
 
 </div>
