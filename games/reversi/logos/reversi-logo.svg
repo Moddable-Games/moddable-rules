@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Reversi</title>
+  <defs>
+    <clipPath id="rev-upper">
+      <polygon points="0,0 100,0 100,100"/>
+    </clipPath>
+    <clipPath id="rev-lower">
+      <polygon points="0,0 0,100 100,100"/>
+    </clipPath>
+  </defs>
+  <circle cx="50" cy="50" r="44" fill="#ffffff" clip-path="url(#rev-upper)"/>
+  <circle cx="50" cy="50" r="44" fill="#14161c" clip-path="url(#rev-lower)"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#0c4f8d" stroke-width="5"/>
+  <line x1="6" y1="94" x2="94" y2="6" stroke="#0c4f8d" stroke-width="3"/>
+</svg>
