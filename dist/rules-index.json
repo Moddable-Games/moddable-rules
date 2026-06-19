@@ -592,6 +592,14 @@
     "anchor": "rule-variants"
   },
   {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Halma is an abstract strategy race game invented in 1883 by George Howard Monks, an American surgeon in Boston. Played on a 16&times;16 checkered board, each player occupies a triangular corner camp a",
+    "anchor": "variant-library"
+  },
+  {
     "game": "hyper-imperium",
     "gameTitle": "Hyper Imperium",
     "section": "How to Play in 5 Minutes",
@@ -1398,6 +1406,14 @@
     "heading": "Attribution",
     "content": "Royal Game of Ur. Original game: Mesopotamia, c. 2500 BCE. Rules reconstruction: Irving Finkel, British Museum, 1980. Public domain. Sources: Finkel, Irving — British Museum cuneiform tablet MS 33333B",
     "anchor": "attribution"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Stern-Halma is a German abstract strategy race game first published in 1892, derived from the American game Halma. It is played on a six-pointed star board of 121 holes, with two to six players each o",
+    "anchor": "variant-library"
   },
   {
     "game": "talisman-worlds",
@@ -4168,6 +4184,136 @@
     "anchor": "attribution",
     "variant": "toroidal-go",
     "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Standard 2-Player Halma",
+    "content": "Halma was invented in 1883 by George Howard Monks in Boston, and inspired other games such as Chinese Checkers.",
+    "anchor": "standard-2-player-halma",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Setup",
+    "content": "Board: 16&times;16 checkered board, columns A&ndash;P left to right, rows 1&ndash;16 bottom to top. Pieces: 19 pieces per player in two distinct colours. Camps: Each player begins with all pieces fill",
+    "anchor": "setup",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Movement",
+    "content": "On each turn a player moves one piece. A piece may: - Step: Move to any adjacent square in any of the eight directions orthogonal or diagonal, provided the destination is unoccupied. - Hop: Jump over ",
+    "anchor": "movement",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece has entered the opponent's camp, it may not leave. A piece that would move out of the opponent's camp is not permitted to do so.",
+    "anchor": "camp-rule",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Winning",
+    "content": "The first player to fill the opponent's corner camp entirely with their own pieces wins. If the opponent's camp is partially occupied by the opponent's own pieces that have not moved, those squares ar",
+    "anchor": "winning",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Attribution",
+    "content": "Halma. Invented 1883, George Howard Monks, Boston. Public domain. Rules confirmed from Ludeme/Ludii Maastricht University game research library and Atvriders/cards-and-such halma-quiz independent rule",
+    "anchor": "attribution",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Standard 4-Player Halma",
+    "content": "The four-player form of Halma uses all four corner camps on the same 16&times;16 board, with 13 pieces per player.",
+    "anchor": "standard-4-player-halma",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Setup",
+    "content": "Board: 16&times;16 checkered board. Pieces: 13 pieces per player in four distinct colours. Camps: Each of the four corners holds one camp. The 13-piece camp occupies a smaller staircase shape than the",
+    "anchor": "setup",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Movement",
+    "content": "Movement rules are identical to 2-player Halma: - Step: Move to any adjacent unoccupied square in any of the eight directions. - Hop: Jump over any adjacent piece &mdash; own or any opponent's &mdash;",
+    "anchor": "movement",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece has entered the destination diagonally opposite camp, it may not leave.",
+    "anchor": "camp-rule",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Winning",
+    "content": "The first player to fill the diagonally opposite corner camp entirely with their own 13 pieces wins.",
+    "anchor": "winning",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Team play (optional)",
+    "content": "With four players, two teams of two may be formed: players at diagonally opposite corners form a team. Each player moves their own pieces only. The team wins when both players have each filled their r",
+    "anchor": "team-play-optional",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Attribution",
+    "content": "Halma. Invented 1883, George Howard Monks, Boston. Public domain. Rules confirmed from Ludeme/Ludii Maastricht University game research library and jeromydarling/heritage-parlor independent rules and ",
+    "anchor": "attribution",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
   },
   {
     "game": "landlords-game",
@@ -10358,5 +10504,75 @@
     "anchor": "attribution",
     "variant": "two-player",
     "variantUrl": "dist/pachisi/variants/two-player/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Standard Stern-Halma",
+    "content": "Stern-Halma originated in Germany in 1892 as a variation of the older American game Halma. It supports two to six players and is played on a six-pointed star board.",
+    "anchor": "standard-stern-halma",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Board",
+    "content": "The board is in the shape of a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes: - 6 triangular arms, each with 10 holes arranged in four rows of 4, 3, 2, 1 hole",
+    "anchor": "board",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Setup",
+    "content": "Pieces: Each player has 10 pieces in a distinct colour, filling one triangular arm. Camp assignment by player count: Arms used --- N and S N, SE, and SW NE, SE, SW, and NW All six arms Note: 5-player ",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Movement",
+    "content": "On each turn a player moves one marble. A marble may: - Step: Move to any adjacent hole, provided it is empty. A marble may step in any of the six directions of the triangular grid. - Hop: Jump over a",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Winning",
+    "content": "The first player to move all 10 of their marbles into the triangular arm diagonally opposite their starting arm wins.",
+    "anchor": "winning",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Camp rule",
+    "content": "Once a marble enters the destination arm, it is strongly recommended that it remain there. The treatment of marbles that have reached the goal &mdash; whether they may be moved back out to assist chai",
+    "anchor": "camp-rule",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Attribution",
+    "content": "Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from ezekeal/bgg-get BGG entry for Sternhalma and Lehi-Innovation/boardgame-rules independent jump-rule audit confirming chain ",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
   }
 ]
