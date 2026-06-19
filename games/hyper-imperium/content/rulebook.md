@@ -8,10 +8,10 @@ age: "14+"
 tagline: "3D exploration and mercenary factions for Twilight Imperium"
 type: "mod"
 base_game: "Twilight Imperium 4e"
-status: "dev"
-updated: "2026-06-04"
+status: "playtest"
+updated: "2026-06-19"
 first_published: "January 2025"
-published: false
+published: true
 ---
 
 <div class="section">
