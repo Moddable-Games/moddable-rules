@@ -10,7 +10,7 @@ type: "game"
 status: "alpha"
 updated: "2026-06-19"
 first_published: "April 2026"
-published: true
+published: false
 ---
 
 <div class="section">
