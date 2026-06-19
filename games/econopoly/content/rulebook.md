@@ -8,10 +8,10 @@ age: "10+"
 tagline: "Euro-style resource management meets Monopoly"
 type: "mod"
 base_game: "Monopoly"
-status: "dev"
-updated: "2026-06-04"
+status: "playtest"
+updated: "2026-06-19"
 first_published: "January 2025"
-published: false
+published: true
 ---
 
 <div class="section">

@@ -7,8 +7,8 @@ duration: "~20 min"
 age: "8+"
 tagline: "A prehistoric card game about fulfilling coffeeshop orders"
 type: "game"
-status: "playtest"
-updated: "2026-06-12"
+status: "alpha"
+updated: "2026-06-19"
 first_published: "April 2026"
 published: false
 ---

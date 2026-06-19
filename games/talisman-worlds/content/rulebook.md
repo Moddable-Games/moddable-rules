@@ -8,10 +8,10 @@ age: "13+"
 tagline: "A new hex board every game of Talisman"
 type: "mod"
 base_game: "Talisman 4e"
-status: "dev"
-updated: "2026-06-04"
+status: "playtest"
+updated: "2026-06-19"
 first_published: "January 2024"
-published: false
+published: true
 ---
 
 <div class="section">
