@@ -592,6 +592,14 @@
     "anchor": "rule-variants"
   },
   {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Halma is an abstract strategy race game invented in 1883 by George Howard Monks, an American surgeon in Boston. Played on a 16&times;16 checkered board, each player occupies a triangular corner camp a",
+    "anchor": "variant-library"
+  },
+  {
     "game": "hyper-imperium",
     "gameTitle": "Hyper Imperium",
     "section": "How to Play in 5 Minutes",
@@ -1288,6 +1296,14 @@
     "anchor": "biomes"
   },
   {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Variants",
+    "heading": "Variants",
+    "content": "Each variant modifies one aspect of the base game. All other rules remain identical to standard Nukes. - Siegevariants/siege/ — Own-supply recruiting replaces the hostage economy - Asymmetric Powersva",
+    "anchor": "variants"
+  },
+  {
     "game": "pachisi",
     "gameTitle": "Pachisi",
     "section": "Variant Library",
@@ -1398,6 +1414,14 @@
     "heading": "Attribution",
     "content": "Royal Game of Ur. Original game: Mesopotamia, c. 2500 BCE. Rules reconstruction: Irving Finkel, British Museum, 1980. Public domain. Sources: Finkel, Irving — British Museum cuneiform tablet MS 33333B",
     "anchor": "attribution"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Stern-Halma is a German abstract strategy race game first published in 1892, derived from the American game Halma. It is played on a six-pointed star board of 121 holes, with two to six players each o",
+    "anchor": "variant-library"
   },
   {
     "game": "talisman-worlds",
@@ -4168,6 +4192,136 @@
     "anchor": "attribution",
     "variant": "toroidal-go",
     "variantUrl": "dist/go/variants/toroidal-go/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Standard 2-Player Halma",
+    "content": "Halma was invented in 1883 by George Howard Monks in Boston, and inspired other games such as Chinese Checkers.",
+    "anchor": "standard-2-player-halma",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Setup",
+    "content": "Board: 16&times;16 checkered board, columns A&ndash;P left to right, rows 1&ndash;16 bottom to top. Pieces: 19 pieces per player in two distinct colours. Camps: Each player begins with all pieces fill",
+    "anchor": "setup",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Movement",
+    "content": "On each turn a player moves one piece. A piece may: - Step: Move to any adjacent square in any of the eight directions orthogonal or diagonal, provided the destination is unoccupied. - Hop: Jump over ",
+    "anchor": "movement",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece has entered the opponent's camp, it may not leave. A piece that would move out of the opponent's camp is not permitted to do so.",
+    "anchor": "camp-rule",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Winning",
+    "content": "The first player to fill the opponent's corner camp entirely with their own pieces wins. If the opponent's camp is partially occupied by the opponent's own pieces that have not moved, those squares ar",
+    "anchor": "winning",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 2-Player Halma",
+    "heading": "Attribution",
+    "content": "Halma. Invented 1883, George Howard Monks, Boston. Public domain. Rules confirmed from Ludeme/Ludii Maastricht University game research library and Atvriders/cards-and-such halma-quiz independent rule",
+    "anchor": "attribution",
+    "variant": "standard-2p",
+    "variantUrl": "dist/halma/variants/standard-2p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Standard 4-Player Halma",
+    "content": "The four-player form of Halma uses all four corner camps on the same 16&times;16 board, with 13 pieces per player.",
+    "anchor": "standard-4-player-halma",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Setup",
+    "content": "Board: 16&times;16 checkered board. Pieces: 13 pieces per player in four distinct colours. Camps: Each of the four corners holds one camp. The 13-piece camp occupies a smaller staircase shape than the",
+    "anchor": "setup",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Movement",
+    "content": "Movement rules are identical to 2-player Halma: - Step: Move to any adjacent unoccupied square in any of the eight directions. - Hop: Jump over any adjacent piece &mdash; own or any opponent's &mdash;",
+    "anchor": "movement",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece has entered the destination diagonally opposite camp, it may not leave.",
+    "anchor": "camp-rule",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Winning",
+    "content": "The first player to fill the diagonally opposite corner camp entirely with their own 13 pieces wins.",
+    "anchor": "winning",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Team play (optional)",
+    "content": "With four players, two teams of two may be formed: players at diagonally opposite corners form a team. Each player moves their own pieces only. The team wins when both players have each filled their r",
+    "anchor": "team-play-optional",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
+  },
+  {
+    "game": "halma",
+    "gameTitle": "Halma",
+    "section": "Standard 4-Player Halma",
+    "heading": "Attribution",
+    "content": "Halma. Invented 1883, George Howard Monks, Boston. Public domain. Rules confirmed from Ludeme/Ludii Maastricht University game research library and jeromydarling/heritage-parlor independent rules and ",
+    "anchor": "attribution",
+    "variant": "standard-4p",
+    "variantUrl": "dist/halma/variants/standard-4p/"
   },
   {
     "game": "landlords-game",
@@ -9920,6 +10074,256 @@
     "variantUrl": "dist/morris/variants/twelve-mens-morris/"
   },
   {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Nukes: Asymmetric Powers",
+    "content": "A rebalance mod that adds one unique Power Card per player at setup. Standard Nukes underneath, explicit asymmetry on top.",
+    "anchor": "nukes-asymmetric-powers",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Overview",
+    "content": "Before setup, each player draws one Power Card from a deck of three. Powers are revealed simultaneously and remain public for the entire game. No two players hold the same card. All other rules, inclu",
+    "anchor": "overview",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Setup Changes",
+    "content": "- Shuffle the three Power Cards face-down. - Each player draws one card. In a 2-player game, one card is removed from the game unseen. - Reveal all drawn cards simultaneously. Powers are public from t",
+    "anchor": "setup-changes",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Covert Network",
+    "content": "Effect: Once per turn, after completing your moves, you may swap the positions of any two of your opponent's platoons on the board. Both platoons must be in regions adjacent to at least one of your un",
+    "anchor": "covert-network",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Arms Industry",
+    "content": "Effect: When you build a Base 4+ units in a region, immediately gain one free isotope. You still gain isotopes through the standard conversion action. Strategic impact: Enables faster nuclear escalati",
+    "anchor": "arms-industry",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Airborne Corps",
+    "content": "Effect: Your Airborne platoons 3 units may drop exactly three hexes away instead of two. Slingshot range through friendly Bases is also extended by one hex. Strategic impact: Enables longer slingshot ",
+    "anchor": "airborne-corps",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Reading Your Opponents",
+    "content": "Knowing their power changes how you play: - An Arms Industry opponent needs to be pressured before their isotope count grows. Prevent Base formation or destroy Bases early. - A Covert Network opponent",
+    "anchor": "reading-your-opponents",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "No Stacking",
+    "content": "Powers do not combine. Each player has exactly one Power Card for the entire game. Powers cannot be traded, discarded, or hidden.",
+    "anchor": "no-stacking",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Design Notes",
+    "content": "Asymmetric Powers is designed to layer on top of standard Nukes with zero rule changes to the core systems. The power cards create different strategic pressures from the first turn without requiring p",
+    "anchor": "design-notes",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Nukes: Fallout",
+    "content": "A reskin that adds persistent, spreading Biohazard contamination to the board. Every nuclear strike or Meltdown now has long-term territorial consequences as the map degrades around the blast sites.",
+    "anchor": "nukes-fallout",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Overview",
+    "content": "In standard Nukes, Biohazard tiles are created by nuclear strikes but remain static. In Fallout, Biohazard tiles spread outward each round, converting adjacent terrain into contaminated wasteland. Cit",
+    "anchor": "overview",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Setup Changes",
+    "content": "No setup changes. Use standard Nukes setup for all players, board draft, and token distribution.",
+    "anchor": "setup-changes",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Biohazard Spread Phase",
+    "content": "At the end of each round after all players have taken their turns, every existing Biohazard tile converts one adjacent non-city tile into Biohazard: 1. The first player determined by turn order choose",
+    "anchor": "biohazard-spread-phase",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "City Immunity",
+    "content": "City tiles cannot be converted by Biohazard spread. They can still be: - Destroyed by a direct nuclear strike target hex. - Destroyed by a Meltdown. - Adjacent to Biohazard without being affected. Thi",
+    "anchor": "city-immunity",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Movement Through Biohazard",
+    "content": "Biohazard tiles follow standard Nukes rules for hazardous terrain: - Infantry cannot remain in Biohazard alone destroyed at end of turn. - Artillery can pass through but not stop. - Airborne can land ",
+    "anchor": "movement-through-biohazard",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Strategic Implications",
+    "content": "Early nukes poison the centre. Launching nuclear strikes on contested central territory in mid-game may cut off your own movement corridors by late game. Every strike is a territorial sacrifice as wel",
+    "anchor": "strategic-implications",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Fallout",
+    "heading": "Design Notes",
+    "content": "Fallout adds a clock to the game without changing any core mechanics. The hostage economy, fluid platoons, and nuclear strikes all work identically. The spread mechanic simply punishes nuclear usage o",
+    "anchor": "design-notes",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Nukes: Siege",
+    "content": "A total conversion of the hostage mechanic. You start with your own tokens in reserve and deploy them to build your forces. The only way to acquire enemy hostages is through combat.",
+    "anchor": "nukes-siege",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Overview",
+    "content": "Standard Nukes gives each player a supply of their opponents' tokens from the start. Siege removes this entirely. You begin with 21 of your own tokens off-board. Return them to regions you control to ",
+    "anchor": "overview",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Setup Changes",
+    "content": "- Each player starts with 4 units on their city standard and 21 of their own tokens off-board in a personal supply. - No tokens are distributed to opponents at setup. - All other setup board draft, bi",
+    "anchor": "setup-changes",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Deploy from Reserve",
+    "content": "On your turn, return 1–3 of your own tokens from your off-board supply onto regions where you already have units. Each return earns one move. This replaces the standard hostage-return mechanic for the",
+    "anchor": "deploy-from-reserve",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Build Through Combat",
+    "content": "The only way to get enemy hostages is to capture them mid-game. When you win combat with excess strength attacking units minus defending units, take the excess as hostages into your off-board supply. ",
+    "anchor": "build-through-combat",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Two Economies",
+    "content": "Your own supply tokens fuel early expansion. Enemy hostages, once captured, fuel rapid strikes in the mid-to-late game. Both follow the same return-to-move mechanic but come from different sources.",
+    "anchor": "two-economies",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Endgame",
+    "content": "Bases, isotopes, nuclear strikes, and Meltdowns all work identically to standard Nukes. Siege changes how you build momentum, not what you're fighting over. You still lose if your supply runs out enti",
+    "anchor": "endgame",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Nukes: Siege",
+    "heading": "Design Notes",
+    "content": "Siege creates a slower, more positional early game. Without free hostages at setup, players must commit to combat earlier to unlock the faster pacing of the hostage economy. The 2-player restriction e",
+    "anchor": "design-notes",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
     "game": "pachisi",
     "gameTitle": "Pachisi",
     "section": "Seven-Shell Pachisi",
@@ -10108,5 +10512,75 @@
     "anchor": "attribution",
     "variant": "two-player",
     "variantUrl": "dist/pachisi/variants/two-player/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Standard Stern-Halma",
+    "content": "Stern-Halma originated in Germany in 1892 as a variation of the older American game Halma. It supports two to six players and is played on a six-pointed star board.",
+    "anchor": "standard-stern-halma",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Board",
+    "content": "The board is in the shape of a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes: - 6 triangular arms, each with 10 holes arranged in four rows of 4, 3, 2, 1 hole",
+    "anchor": "board",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Setup",
+    "content": "Pieces: Each player has 10 pieces in a distinct colour, filling one triangular arm. Camp assignment by player count: Arms used --- N and S N, SE, and SW NE, SE, SW, and NW All six arms Note: 5-player ",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Movement",
+    "content": "On each turn a player moves one marble. A marble may: - Step: Move to any adjacent hole, provided it is empty. A marble may step in any of the six directions of the triangular grid. - Hop: Jump over a",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Winning",
+    "content": "The first player to move all 10 of their marbles into the triangular arm diagonally opposite their starting arm wins.",
+    "anchor": "winning",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Camp rule",
+    "content": "Once a marble enters the destination arm, it is strongly recommended that it remain there. The treatment of marbles that have reached the goal &mdash; whether they may be moved back out to assist chai",
+    "anchor": "camp-rule",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard Stern-Halma",
+    "heading": "Attribution",
+    "content": "Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from ezekeal/bgg-get BGG entry for Sternhalma and Lehi-Innovation/boardgame-rules independent jump-rule audit confirming chain ",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/stern-halma/variants/standard/"
   }
 ]
