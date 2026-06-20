@@ -8,7 +8,7 @@ age: "6+"
 tagline: "The world's oldest family of capture games"
 type: "classic"
 status: "live"
-updated: "2026-06-12"
+updated: "2026-06-20"
 published: true
 variants: true
 ---
@@ -35,6 +35,8 @@ This library includes {{variant_count}} playable variants spanning multiple boar
 - [Czech Draughts](variants/czech/) — King captures take priority over man captures, mid-jump promotion
 - [Thai Draughts](variants/thai/) — 8 pieces per side, flying kings must stop immediately behind captured piece
 - [Bashni](variants/bashni/) — Column stacking on 8×8 with Russian movement rules
+- [German Draughts](variants/german/) — Men capture in all directions, flying kings, no majority rule
+- [Dameo](variants/dameo/) — Linear movement by rows of pieces, orthogonal captures on all 64 squares
 
 </div>
 
@@ -44,6 +46,16 @@ This library includes {{variant_count}} playable variants spanning multiple boar
 
 - [International Draughts](variants/international/) — Flying kings, mandatory longest chain, the competitive standard
 - [Frisian Draughts](variants/frisian/) — International rules plus orthogonal captures, 3-move king limit
+- [Diagonal Draughts](variants/diagonal/) — Pieces start beside the playing anti-diagonal; majority capture rule
+- [Ghanaian Draughts](variants/ghanaian/) — Men capture forwards only; reduced to one piece is a loss
+
+</div>
+
+### Extended Board (10×8)
+
+<div class="variant-grid">
+
+- [Spantsiretti](variants/spantsiretti/) — Russian Draughts rules on a wider 10×8 board, 20 pieces per side
 
 </div>
 
