@@ -163,6 +163,14 @@
     "game": "draughts",
     "gameTitle": "Draughts",
     "section": "Variant Library",
+    "heading": "Extended Board (10×8)",
+    "content": "- Spantsirettivariants/spantsiretti/ — Russian Draughts rules on a wider 10×8 board, 20 pieces per side",
+    "anchor": "extended-board-108"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Variant Library",
     "heading": "Large Board (12×12)",
     "content": "- Canadian Draughtsvariants/canadian/ — International rules on the largest standard board, 30 pieces per side",
     "anchor": "large-board-1212"
@@ -2802,6 +2810,146 @@
   {
     "game": "draughts",
     "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "Dameo",
+    "content": "Invented by Christian Freeling in 2000. Dameo introduces two innovations to the draughts family: the phalanx, which lets a line of friendly pieces slide forward together as a unit, and a purely orthog",
+    "anchor": "dameo",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "Setup",
+    "content": "Board: 8×8 board. Unlike most draughts variants, Dameo is played on all 64 squares, not just the dark ones. Pieces: 18 men per player, arranged in a trapezoidal formation: - Row 1 closest row: all 8 s",
+    "anchor": "setup",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "Rules",
+    "content": "Men movement: Men move forward only, either straight ahead orthogonally or diagonally forward. They cannot move sideways or backward. In addition to single-step moves, a man may perform a linear move:",
+    "anchor": "rules",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "Capture",
+    "content": "All captures in Dameo are orthogonal only, along ranks and files, never diagonally. - A man or king captures an adjacent opponent piece by jumping over it to the empty square directly beyond, along a ",
+    "anchor": "capture",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "King Promotion",
+    "content": "When a man reaches the opponent's back row row 8 for White, row 1 for Black, it is promoted to a king at the end of its turn. - If a man reaches the back row during a multi-capture sequence without st",
+    "anchor": "king-promotion",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: either all pieces have been captured, or all remaining pieces are blocked.",
+    "anchor": "winning",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "Draws",
+    "content": "The game is drawn when: - Both players agree. - The same position occurs three times with the same player to move not necessarily consecutive. - Neither player can force a win.",
+    "anchor": "draws",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Dameo",
+    "heading": "Attribution",
+    "content": "Dameo. Invented by Christian Freeling 2000. Rules in the public domain; game rules are not subject to copyright. Source: Wikipedia — Dameo article CC-BY-SA 4.0.",
+    "anchor": "attribution",
+    "variant": "dameo",
+    "variantUrl": "dist/draughts/variants/dameo/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Diagonal Draughts",
+    "heading": "Diagonal Draughts",
+    "content": "A 19th-century variant of International Draughts in which the starting position is rotated: instead of filling the first four rows, players arrange their pieces along the sides of the board's main dia",
+    "anchor": "diagonal-draughts",
+    "variant": "diagonal",
+    "variantUrl": "dist/draughts/variants/diagonal/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Diagonal Draughts",
+    "heading": "Setup",
+    "content": "Board: 10×10 checkered board. Only the 50 dark squares are used. Orient the board so the long diagonal runs from each player's lower-left to upper-right corner. Pieces: 20 men per player. Instead of f",
+    "anchor": "setup",
+    "variant": "diagonal",
+    "variantUrl": "dist/draughts/variants/diagonal/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Diagonal Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward one square at a time, following the same movement rules as International Draughts. - Men capture: A man captures by jumping diagonally over an adjacent oppo",
+    "anchor": "rules",
+    "variant": "diagonal",
+    "variantUrl": "dist/draughts/variants/diagonal/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Diagonal Draughts",
+    "heading": "King Promotion",
+    "content": "When a man ends its turn on the opponent's back row the far edge of the board, it is promoted to a king. - Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - King",
+    "anchor": "king-promotion",
+    "variant": "diagonal",
+    "variantUrl": "dist/draughts/variants/diagonal/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Diagonal Draughts",
+    "heading": "Winning",
+    "content": "A player wins by capturing all opponent pieces or blocking all remaining opponent pieces from moving.",
+    "anchor": "winning",
+    "variant": "diagonal",
+    "variantUrl": "dist/draughts/variants/diagonal/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Diagonal Draughts",
+    "heading": "Attribution",
+    "content": "Historical variant, documented from at least the 19th century. Public domain. Sources: Ludeme/Ludii — Diagonal Draughts.lud SHA 9405c8a7, Maastricht University Ludii Project; J.P. Neto, World Abstract",
+    "anchor": "attribution",
+    "variant": "diagonal",
+    "variantUrl": "dist/draughts/variants/diagonal/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
     "section": "English Draughts",
     "heading": "English Draughts",
     "content": "The most widely known form of draughts, and the simplest to learn. Known as \"Checkers\" in North America. Developed in Europe around 1100 CE, probably in southern France, by adapting the older game of ",
@@ -2948,6 +3096,166 @@
     "anchor": "attribution",
     "variant": "frisian",
     "variantUrl": "dist/draughts/variants/frisian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "German Draughts",
+    "content": "Also known as Damenspiel \"lady's game\", German Draughts is the traditional form of draughts played across Germany. It sits between English and International Draughts in complexity: men capture in all ",
+    "anchor": "german-draughts",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "Setup",
+    "content": "Board: 8×8 checkered board. Orient the board so each player has a dark corner square on their lower left. Pieces: 12 men per player in two distinct colours, placed on the dark squares of the three row",
+    "anchor": "setup",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time, to an unoccupied dark square. - Men capture: Men capture by jumping diagonally over an adjacent opponent piece to the vacant squ",
+    "anchor": "rules",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "King Promotion",
+    "content": "When a man reaches the opponent's back row, it stops immediately and is promoted to a Dame queen/flying king. A second piece is placed on top to mark it. - Promotion ends the turn: If a man reaches th",
+    "anchor": "king-promotion",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: - All opponent pieces have been captured, or - All remaining opponent pieces are completely blocked from moving.",
+    "anchor": "winning",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "Draws",
+    "content": "The game is drawn when: - Both players agree to a draw. - The same position occurs three times with the same player to move. - Neither player can force a win.",
+    "anchor": "draws",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "How it differs from other 8×8 variants",
+    "content": "English Russian --- --- No Yes Flying kings Yes No No Mid-sequence promotion continues No German Draughts occupies a distinctive position: its flying kings give it more endgame depth than English, whi",
+    "anchor": "how-it-differs-from-other-88-variants",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "German Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Rules documented in Parlett, D. 1999 The Oxford History of Board Games, p. 252. Sources: Ludeme/Ludii — Damenspiel.lud SHA 47b7ccc6, Maastricht University Ludii Pro",
+    "anchor": "attribution",
+    "variant": "german",
+    "variantUrl": "dist/draughts/variants/german/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "Ghanaian Draughts",
+    "content": "Also known as Damii or Dame, Ghanaian Draughts is the traditional form of draughts played in Ghana and parts of West Africa. It uses the same 10×10 board and 20-piece setup as International Draughts b",
+    "anchor": "ghanaian-draughts",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "Setup",
+    "content": "Board: 10×10 checkered board. Only the 50 dark squares are used. Orient the board so each player has a dark corner square on their lower left. Pieces: 20 men mma per player in two distinct colours, pl",
+    "anchor": "setup",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time, to an unoccupied dark square. - Men capture: Men capture by jumping diagonally over an adjacent opponent piece to the vacant squ",
+    "anchor": "rules",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "King Promotion",
+    "content": "When a man reaches the opponent's back row at the end of its turn, it is promoted to a Dame flying king. - Flying kings: Dames move any number of unoccupied squares diagonally in any direction. - King",
+    "anchor": "king-promotion",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "The Singleton Rule",
+    "content": "A player who is reduced to a single piece whether a man or a king loses immediately, regardless of whether that piece still has legal moves. This rule is unique to Ghanaian Draughts and is not found i",
+    "anchor": "the-singleton-rule",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "Winning",
+    "content": "A player wins when: - All opponent pieces have been captured, or - The opponent is reduced to a single piece singleton rule, or - All remaining opponent pieces are blocked from moving.",
+    "anchor": "winning",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "Draws",
+    "content": "The game is drawn when both players agree, or when neither player can force a win.",
+    "anchor": "draws",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Ghanaian Draughts",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Sources: Damii Ghana Draughts History &amp; Rules gamesfromeverywhere.com, archived via docslide.us; apkpure.com — X Ghanaian Draughts app description mkisly.bcheck",
+    "anchor": "attribution",
+    "variant": "ghanaian",
+    "variantUrl": "dist/draughts/variants/ghanaian/"
   },
   {
     "game": "draughts",
@@ -3398,6 +3706,76 @@
     "anchor": "attribution",
     "variant": "spanish",
     "variantUrl": "dist/draughts/variants/spanish/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spantsiretti",
+    "heading": "Spantsiretti",
+    "content": "Spantsiretti is Russian Draughts played on a wider 10×8 board rather than the standard 8×8. The rules are identical to Russian Draughts backward capture for men, mid-jump promotion, flying kings, no m",
+    "anchor": "spantsiretti",
+    "variant": "spantsiretti",
+    "variantUrl": "dist/draughts/variants/spantsiretti/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spantsiretti",
+    "heading": "Setup",
+    "content": "Board: 10×8 checkered board 10 columns, 8 rows. Only the dark squares are used. Orient the board so each player has a dark corner square on their lower left. Pieces: 20 men per player five per row, fo",
+    "anchor": "setup",
+    "variant": "spantsiretti",
+    "variantUrl": "dist/draughts/variants/spantsiretti/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spantsiretti",
+    "heading": "Rules",
+    "content": "- Men movement: Men move diagonally forward only, one square at a time, to an unoccupied dark square. - Men capture: Men capture by jumping diagonally over an adjacent opponent piece to the vacant squ",
+    "anchor": "rules",
+    "variant": "spantsiretti",
+    "variantUrl": "dist/draughts/variants/spantsiretti/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spantsiretti",
+    "heading": "King Promotion",
+    "content": "- Flying kings: Kings move any number of unoccupied squares diagonally in any direction. - Mid-jump promotion: If a man reaches the opponent's back row during a multi-capture sequence, it is promoted ",
+    "anchor": "king-promotion",
+    "variant": "spantsiretti",
+    "variantUrl": "dist/draughts/variants/spantsiretti/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spantsiretti",
+    "heading": "Winning",
+    "content": "A player wins when their opponent has no legal move: all pieces captured or all pieces blocked.",
+    "anchor": "winning",
+    "variant": "spantsiretti",
+    "variantUrl": "dist/draughts/variants/spantsiretti/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spantsiretti",
+    "heading": "Draws",
+    "content": "The game is drawn when: - Both players agree. - The same position occurs three times. - A player with three or more kings cannot win against a lone opposing king within 15 moves.",
+    "anchor": "draws",
+    "variant": "spantsiretti",
+    "variantUrl": "dist/draughts/variants/spantsiretti/"
+  },
+  {
+    "game": "draughts",
+    "gameTitle": "Draughts",
+    "section": "Spantsiretti",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain. Sources: Checkers &amp; Draughts Wiki — Portable Draughts Notation article GameType 41: Spantsiretti, Russian draughts 10×8; mlwi.magix.net — international/Polish c",
+    "anchor": "attribution",
+    "variant": "spantsiretti",
+    "variantUrl": "dist/draughts/variants/spantsiretti/"
   },
   {
     "game": "draughts",
@@ -5606,8 +5984,8 @@
     "heading": "Berolina Chess",
     "content": "Pawns are inverted: they advance diagonally and capture straight ahead. Named after Berlin, where it was invented in 1926.",
     "anchor": "berolina-chess",
-    "variant": "berolina",
-    "variantUrl": "dist/moddable-chess/variants/berolina/"
+    "variant": "berolina-chess",
+    "variantUrl": "dist/moddable-chess/variants/berolina-chess/"
   },
   {
     "game": "moddable-chess",
@@ -5616,8 +5994,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup pawns use Berolina movement rules. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "berolina",
-    "variantUrl": "dist/moddable-chess/variants/berolina/"
+    "variant": "berolina-chess",
+    "variantUrl": "dist/moddable-chess/variants/berolina-chess/"
   },
   {
     "game": "moddable-chess",
@@ -5626,8 +6004,8 @@
     "heading": "Rules",
     "content": "- Pawns move one or two squares diagonally forward instead of straight forward. - Pawns capture one square straight forward instead of diagonally. - En passant applies to Berolina pawn double-moves. -",
     "anchor": "rules",
-    "variant": "berolina",
-    "variantUrl": "dist/moddable-chess/variants/berolina/"
+    "variant": "berolina-chess",
+    "variantUrl": "dist/moddable-chess/variants/berolina-chess/"
   },
   {
     "game": "moddable-chess",
@@ -5636,8 +6014,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "berolina",
-    "variantUrl": "dist/moddable-chess/variants/berolina/"
+    "variant": "berolina-chess",
+    "variantUrl": "dist/moddable-chess/variants/berolina-chess/"
   },
   {
     "game": "moddable-chess",
@@ -5646,8 +6024,8 @@
     "heading": "Strategy",
     "content": "Berolina pawns control different squares than normal pawns. A pawn on e2 can advance to d3 or f3 and double-move to c4 or g4, but captures on e3. This makes pawn chains behave very differently — adjac",
     "anchor": "strategy",
-    "variant": "berolina",
-    "variantUrl": "dist/moddable-chess/variants/berolina/"
+    "variant": "berolina-chess",
+    "variantUrl": "dist/moddable-chess/variants/berolina-chess/"
   },
   {
     "game": "moddable-chess",
@@ -5656,8 +6034,8 @@
     "heading": "Attribution",
     "content": "Invented by Edmund Hebermann in Berlin, 1926. Public domain.",
     "anchor": "attribution",
-    "variant": "berolina",
-    "variantUrl": "dist/moddable-chess/variants/berolina/"
+    "variant": "berolina-chess",
+    "variantUrl": "dist/moddable-chess/variants/berolina-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6166,8 +6544,8 @@
     "heading": "Cylinder Chess",
     "content": "The board wraps horizontally, forming a cylinder. The a-file is adjacent to the h-file.",
     "anchor": "cylinder-chess",
-    "variant": "cylinder",
-    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+    "variant": "cylinder-chess",
+    "variantUrl": "dist/moddable-chess/variants/cylinder-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6176,8 +6554,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8 files wrap. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "cylinder",
-    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+    "variant": "cylinder-chess",
+    "variantUrl": "dist/moddable-chess/variants/cylinder-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6186,8 +6564,8 @@
     "heading": "Rules",
     "content": "- The a-file connects to the h-file. Moving left from a1 reaches h1; moving right from h1 reaches a1. - Rooks can slide across the wrap e.g. Ra1 can move to h1 via the wrap, or slide all the way aroun",
     "anchor": "rules",
-    "variant": "cylinder",
-    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+    "variant": "cylinder-chess",
+    "variantUrl": "dist/moddable-chess/variants/cylinder-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6196,8 +6574,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "cylinder",
-    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+    "variant": "cylinder-chess",
+    "variantUrl": "dist/moddable-chess/variants/cylinder-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6206,8 +6584,8 @@
     "heading": "Strategy",
     "content": "Bishops become much more powerful on a cylinder — they can reach every square of their colour. Rook files are no longer safe flanks since attacks can come from behind via the wrap. Flank pawns gain ad",
     "anchor": "strategy",
-    "variant": "cylinder",
-    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+    "variant": "cylinder-chess",
+    "variantUrl": "dist/moddable-chess/variants/cylinder-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6216,8 +6594,8 @@
     "heading": "Attribution",
     "content": "Traditional variant with roots in 19th-century chess composition. Public domain.",
     "anchor": "attribution",
-    "variant": "cylinder",
-    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+    "variant": "cylinder-chess",
+    "variantUrl": "dist/moddable-chess/variants/cylinder-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6406,8 +6784,8 @@
     "heading": "Displacement Chess",
     "content": "Any piece can swap positions with an adjacent friendly piece instead of making a normal move.",
     "anchor": "displacement-chess",
-    "variant": "displacement",
-    "variantUrl": "dist/moddable-chess/variants/displacement/"
+    "variant": "displacement-chess",
+    "variantUrl": "dist/moddable-chess/variants/displacement-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6416,8 +6794,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "displacement",
-    "variantUrl": "dist/moddable-chess/variants/displacement/"
+    "variant": "displacement-chess",
+    "variantUrl": "dist/moddable-chess/variants/displacement-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6426,8 +6804,8 @@
     "heading": "Rules",
     "content": "- On your turn, instead of a normal move, you may swap any of your pieces with an adjacent friendly piece horizontally, vertically, or diagonally adjacent. - The King may not swap into a square where ",
     "anchor": "rules",
-    "variant": "displacement",
-    "variantUrl": "dist/moddable-chess/variants/displacement/"
+    "variant": "displacement-chess",
+    "variantUrl": "dist/moddable-chess/variants/displacement-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6436,8 +6814,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "displacement",
-    "variantUrl": "dist/moddable-chess/variants/displacement/"
+    "variant": "displacement-chess",
+    "variantUrl": "dist/moddable-chess/variants/displacement-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6446,8 +6824,8 @@
     "heading": "Strategy",
     "content": "Swaps enable rapid piece coordination — a trapped rook can swap with an adjacent pawn to escape. The King can dodge threats by swapping with a defender. Development becomes faster since pieces can be ",
     "anchor": "strategy",
-    "variant": "displacement",
-    "variantUrl": "dist/moddable-chess/variants/displacement/"
+    "variant": "displacement-chess",
+    "variantUrl": "dist/moddable-chess/variants/displacement-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6456,8 +6834,8 @@
     "heading": "Attribution",
     "content": "Modern variant. Public domain.",
     "anchor": "attribution",
-    "variant": "displacement",
-    "variantUrl": "dist/moddable-chess/variants/displacement/"
+    "variant": "displacement-chess",
+    "variantUrl": "dist/moddable-chess/variants/displacement-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6526,8 +6904,8 @@
     "heading": "Einstein Chess",
     "content": "Pieces transform after every move. Captures promote, non-captures demote — cycling through the piece hierarchy.",
     "anchor": "einstein-chess",
-    "variant": "einstein",
-    "variantUrl": "dist/moddable-chess/variants/einstein/"
+    "variant": "einstein-chess",
+    "variantUrl": "dist/moddable-chess/variants/einstein-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6536,8 +6914,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "einstein",
-    "variantUrl": "dist/moddable-chess/variants/einstein/"
+    "variant": "einstein-chess",
+    "variantUrl": "dist/moddable-chess/variants/einstein-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6546,8 +6924,8 @@
     "heading": "Rules",
     "content": "- After a piece makes a non-capturing move, it demotes one step: Q→R→B→N→P. - After a piece makes a capture, it promotes one step: P→N→B→R→Q. - Kings are exempt — they never transform. - Pawns that de",
     "anchor": "rules",
-    "variant": "einstein",
-    "variantUrl": "dist/moddable-chess/variants/einstein/"
+    "variant": "einstein-chess",
+    "variantUrl": "dist/moddable-chess/variants/einstein-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6556,8 +6934,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "einstein",
-    "variantUrl": "dist/moddable-chess/variants/einstein/"
+    "variant": "einstein-chess",
+    "variantUrl": "dist/moddable-chess/variants/einstein-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6566,8 +6944,8 @@
     "heading": "Strategy",
     "content": "Every move changes your piece composition. Aggressive play captures builds stronger pieces, but quiet manoeuvring weakens them. Knights and Bishops are unstable — one capture turns them into Rooks, bu",
     "anchor": "strategy",
-    "variant": "einstein",
-    "variantUrl": "dist/moddable-chess/variants/einstein/"
+    "variant": "einstein-chess",
+    "variantUrl": "dist/moddable-chess/variants/einstein-chess/"
   },
   {
     "game": "moddable-chess",
@@ -6576,8 +6954,8 @@
     "heading": "Attribution",
     "content": "Invented by B. Iqbal, 2005. Public domain.",
     "anchor": "attribution",
-    "variant": "einstein",
-    "variantUrl": "dist/moddable-chess/variants/einstein/"
+    "variant": "einstein-chess",
+    "variantUrl": "dist/moddable-chess/variants/einstein-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7256,8 +7634,8 @@
     "heading": "Immunization Chess",
     "content": "Captures trigger an immune response in nearby pieces. When a piece is captured, all enemy pieces adjacent to the capture square become immune to capture for 2 turns.",
     "anchor": "immunization-chess",
-    "variant": "immunization",
-    "variantUrl": "dist/moddable-chess/variants/immunization/"
+    "variant": "immunization-chess",
+    "variantUrl": "dist/moddable-chess/variants/immunization-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7266,8 +7644,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "immunization",
-    "variantUrl": "dist/moddable-chess/variants/immunization/"
+    "variant": "immunization-chess",
+    "variantUrl": "dist/moddable-chess/variants/immunization-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7276,8 +7654,8 @@
     "heading": "Rules",
     "content": "- When a capture occurs, all enemy defender's pieces on squares adjacent to the capture square become immune for 2 turns. - Immune pieces cannot be captured but can still be blocked, checked, and move",
     "anchor": "rules",
-    "variant": "immunization",
-    "variantUrl": "dist/moddable-chess/variants/immunization/"
+    "variant": "immunization-chess",
+    "variantUrl": "dist/moddable-chess/variants/immunization-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7286,8 +7664,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "immunization",
-    "variantUrl": "dist/moddable-chess/variants/immunization/"
+    "variant": "immunization-chess",
+    "variantUrl": "dist/moddable-chess/variants/immunization-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7296,8 +7674,8 @@
     "heading": "Strategy",
     "content": "Captures create a defensive shield around the victim's neighbours — making exchanges near clustered pieces dangerous. Isolated pieces are more vulnerable since they have fewer neighbours to immunize. ",
     "anchor": "strategy",
-    "variant": "immunization",
-    "variantUrl": "dist/moddable-chess/variants/immunization/"
+    "variant": "immunization-chess",
+    "variantUrl": "dist/moddable-chess/variants/immunization-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7306,8 +7684,8 @@
     "heading": "Attribution",
     "content": "Modern variant. Public domain.",
     "anchor": "attribution",
-    "variant": "immunization",
-    "variantUrl": "dist/moddable-chess/variants/immunization/"
+    "variant": "immunization-chess",
+    "variantUrl": "dist/moddable-chess/variants/immunization-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7446,8 +7824,8 @@
     "heading": "Legan Chess",
     "content": "Combines Berolina pawn movement with swapped King/Queen positions. No castling or en passant.",
     "anchor": "legan-chess",
-    "variant": "legan",
-    "variantUrl": "dist/moddable-chess/variants/legan/"
+    "variant": "legan-chess",
+    "variantUrl": "dist/moddable-chess/variants/legan-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7456,8 +7834,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Like standard chess but the King starts on d1/d8 and the Queen on e1/e8 swapped positions. FEN: rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR w - - 0 1",
     "anchor": "setup",
-    "variant": "legan",
-    "variantUrl": "dist/moddable-chess/variants/legan/"
+    "variant": "legan-chess",
+    "variantUrl": "dist/moddable-chess/variants/legan-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7466,8 +7844,8 @@
     "heading": "Rules",
     "content": "- Pawns move diagonally forward one or two squares from their starting rank and capture straight forward — Berolina movement. - No castling. - No en passant. - All other pieces move and capture as sta",
     "anchor": "rules",
-    "variant": "legan",
-    "variantUrl": "dist/moddable-chess/variants/legan/"
+    "variant": "legan-chess",
+    "variantUrl": "dist/moddable-chess/variants/legan-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7476,8 +7854,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "legan",
-    "variantUrl": "dist/moddable-chess/variants/legan/"
+    "variant": "legan-chess",
+    "variantUrl": "dist/moddable-chess/variants/legan-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7486,8 +7864,8 @@
     "heading": "Strategy",
     "content": "The King on d-file is more exposed than in standard chess since the Queen is no longer shielding it. Berolina pawns create unusual pawn structures — they cannot protect each other the way normal pawns",
     "anchor": "strategy",
-    "variant": "legan",
-    "variantUrl": "dist/moddable-chess/variants/legan/"
+    "variant": "legan-chess",
+    "variantUrl": "dist/moddable-chess/variants/legan-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7496,8 +7874,8 @@
     "heading": "Attribution",
     "content": "Named after Vladimír Legan. Public domain.",
     "anchor": "attribution",
-    "variant": "legan",
-    "variantUrl": "dist/moddable-chess/variants/legan/"
+    "variant": "legan-chess",
+    "variantUrl": "dist/moddable-chess/variants/legan-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7866,8 +8244,8 @@
     "heading": "Medusa Chess",
     "content": "The Queen has the Medusa's gaze. After she moves, all enemy pieces she attacks along her lines of sight become petrified for 2 turns. Petrified pieces cannot move.",
     "anchor": "medusa-chess",
-    "variant": "medusa",
-    "variantUrl": "dist/moddable-chess/variants/medusa/"
+    "variant": "medusa-chess",
+    "variantUrl": "dist/moddable-chess/variants/medusa-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7876,8 +8254,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "medusa",
-    "variantUrl": "dist/moddable-chess/variants/medusa/"
+    "variant": "medusa-chess",
+    "variantUrl": "dist/moddable-chess/variants/medusa-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7886,8 +8264,8 @@
     "heading": "Rules",
     "content": "- After the Queen moves, every enemy piece she attacks becomes petrified for 2 turns. - Petrified pieces cannot move but still block movement and deliver check normally. - Kings cannot be petrified. -",
     "anchor": "rules",
-    "variant": "medusa",
-    "variantUrl": "dist/moddable-chess/variants/medusa/"
+    "variant": "medusa-chess",
+    "variantUrl": "dist/moddable-chess/variants/medusa-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7896,8 +8274,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King petrified pieces count as immovable for escape purposes.",
     "anchor": "win-condition",
-    "variant": "medusa",
-    "variantUrl": "dist/moddable-chess/variants/medusa/"
+    "variant": "medusa-chess",
+    "variantUrl": "dist/moddable-chess/variants/medusa-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7906,8 +8284,8 @@
     "heading": "Strategy",
     "content": "Queen positioning becomes paramount — move her to lines that freeze the most enemy pieces, then exploit the frozen position. An exposed Queen, however, is still vulnerable to capture. Petrifying defen",
     "anchor": "strategy",
-    "variant": "medusa",
-    "variantUrl": "dist/moddable-chess/variants/medusa/"
+    "variant": "medusa-chess",
+    "variantUrl": "dist/moddable-chess/variants/medusa-chess/"
   },
   {
     "game": "moddable-chess",
@@ -7916,8 +8294,8 @@
     "heading": "Attribution",
     "content": "Modern variant. Public domain.",
     "anchor": "attribution",
-    "variant": "medusa",
-    "variantUrl": "dist/moddable-chess/variants/medusa/"
+    "variant": "medusa-chess",
+    "variantUrl": "dist/moddable-chess/variants/medusa-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8226,8 +8604,8 @@
     "heading": "Orda Chess",
     "content": "An asymmetric variant where White plays standard chess and Black commands the Mongol Horde — pieces that move differently from how they capture.",
     "anchor": "orda-chess",
-    "variant": "orda",
-    "variantUrl": "dist/moddable-chess/variants/orda/"
+    "variant": "orda-chess",
+    "variantUrl": "dist/moddable-chess/variants/orda-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8236,8 +8614,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. White standard: Standard chess setup. Black Horde: Pawns on rank 7. Back rank: Lancer, Archer, Kheshig, Khan, Yurt, Kheshig, Archer, Lancer. FEN: lhaykahl/8/pppppppp/8/8/PPPPPPPP/",
     "anchor": "setup",
-    "variant": "orda",
-    "variantUrl": "dist/moddable-chess/variants/orda/"
+    "variant": "orda-chess",
+    "variantUrl": "dist/moddable-chess/variants/orda-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8246,8 +8624,8 @@
     "heading": "Rules",
     "content": "Yurt y — Moves one square diagonally. Captures one square orthogonally. Replaces the Queen. Lancer l — Moves like a Rook slides orthogonally. Captures like a Knight L-shaped jump. Cannot slide to capt",
     "anchor": "rules",
-    "variant": "orda",
-    "variantUrl": "dist/moddable-chess/variants/orda/"
+    "variant": "orda-chess",
+    "variantUrl": "dist/moddable-chess/variants/orda-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8256,8 +8634,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King/Khan.",
     "anchor": "win-condition",
-    "variant": "orda",
-    "variantUrl": "dist/moddable-chess/variants/orda/"
+    "variant": "orda-chess",
+    "variantUrl": "dist/moddable-chess/variants/orda-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8266,8 +8644,8 @@
     "heading": "Strategy",
     "content": "Black's Lancers and Archers are powerful positional pieces full rook/bishop mobility but limited attackers knight-range capture only. White must exploit the Horde's short capture range while avoiding ",
     "anchor": "strategy",
-    "variant": "orda",
-    "variantUrl": "dist/moddable-chess/variants/orda/"
+    "variant": "orda-chess",
+    "variantUrl": "dist/moddable-chess/variants/orda-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8276,8 +8654,8 @@
     "heading": "Attribution",
     "content": "Designed by Couch Tomato 2020. Popularised on Pychess. Public domain.",
     "anchor": "attribution",
-    "variant": "orda",
-    "variantUrl": "dist/moddable-chess/variants/orda/"
+    "variant": "orda-chess",
+    "variantUrl": "dist/moddable-chess/variants/orda-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8536,8 +8914,8 @@
     "heading": "Poison Chess",
     "content": "Captures leave toxic residue. When a piece is captured, that square becomes poisoned for 3 turns. Any non-King piece that lands on a poisoned square is destroyed.",
     "anchor": "poison-chess",
-    "variant": "poison",
-    "variantUrl": "dist/moddable-chess/variants/poison/"
+    "variant": "poison-chess",
+    "variantUrl": "dist/moddable-chess/variants/poison-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8546,8 +8924,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "poison",
-    "variantUrl": "dist/moddable-chess/variants/poison/"
+    "variant": "poison-chess",
+    "variantUrl": "dist/moddable-chess/variants/poison-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8556,8 +8934,8 @@
     "heading": "Rules",
     "content": "- When a capture occurs, the capture square becomes poisoned for 3 turns. - Any non-King piece that moves onto a poisoned square is immediately destroyed removed from the board. - The capturing piece ",
     "anchor": "rules",
-    "variant": "poison",
-    "variantUrl": "dist/moddable-chess/variants/poison/"
+    "variant": "poison-chess",
+    "variantUrl": "dist/moddable-chess/variants/poison-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8566,8 +8944,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "poison",
-    "variantUrl": "dist/moddable-chess/variants/poison/"
+    "variant": "poison-chess",
+    "variantUrl": "dist/moddable-chess/variants/poison-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8576,8 +8954,8 @@
     "heading": "Strategy",
     "content": "Poison creates dangerous no-go zones that restrict mobility. Exchange sequences leave clouds of poison that reshape the board. Sacrifice a minor piece to poison a critical square near the enemy King. ",
     "anchor": "strategy",
-    "variant": "poison",
-    "variantUrl": "dist/moddable-chess/variants/poison/"
+    "variant": "poison-chess",
+    "variantUrl": "dist/moddable-chess/variants/poison-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8586,8 +8964,8 @@
     "heading": "Attribution",
     "content": "Modern variant. Public domain.",
     "anchor": "attribution",
-    "variant": "poison",
-    "variantUrl": "dist/moddable-chess/variants/poison/"
+    "variant": "poison-chess",
+    "variantUrl": "dist/moddable-chess/variants/poison-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8716,8 +9094,8 @@
     "heading": "Recruitment Chess",
     "content": "Captured pieces switch sides. When you capture, the taken piece flips colour and appears on the square your capturing piece vacated. The board fills with turncoats.",
     "anchor": "recruitment-chess",
-    "variant": "recruitment",
-    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+    "variant": "recruitment-chess",
+    "variantUrl": "dist/moddable-chess/variants/recruitment-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8726,8 +9104,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "recruitment",
-    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+    "variant": "recruitment-chess",
+    "variantUrl": "dist/moddable-chess/variants/recruitment-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8736,8 +9114,8 @@
     "heading": "Rules",
     "content": "- When a piece captures, the captured piece switches colour and is placed on the square the capturing piece moved from. - Kings cannot be recruited capturing the King ends the game normally. - En pass",
     "anchor": "rules",
-    "variant": "recruitment",
-    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+    "variant": "recruitment-chess",
+    "variantUrl": "dist/moddable-chess/variants/recruitment-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8746,8 +9124,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "recruitment",
-    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+    "variant": "recruitment-chess",
+    "variantUrl": "dist/moddable-chess/variants/recruitment-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8756,8 +9134,8 @@
     "heading": "Strategy",
     "content": "Every capture is a double swing — you gain a piece AND the opponent gains a defector behind your lines. This makes tactical exchanges far more complex. Avoid capturing pieces that would create dangero",
     "anchor": "strategy",
-    "variant": "recruitment",
-    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+    "variant": "recruitment-chess",
+    "variantUrl": "dist/moddable-chess/variants/recruitment-chess/"
   },
   {
     "game": "moddable-chess",
@@ -8766,8 +9144,8 @@
     "heading": "Attribution",
     "content": "Modern variant. Public domain.",
     "anchor": "attribution",
-    "variant": "recruitment",
-    "variantUrl": "dist/moddable-chess/variants/recruitment/"
+    "variant": "recruitment-chess",
+    "variantUrl": "dist/moddable-chess/variants/recruitment-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9156,8 +9534,8 @@
     "heading": "Teleportation Chess",
     "content": "Each player has 3 teleports per game. Instead of a normal move, any piece can teleport to any empty square on the board. Use them wisely — they don't come back.",
     "anchor": "teleportation-chess",
-    "variant": "teleportation",
-    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+    "variant": "teleport-chess",
+    "variantUrl": "dist/moddable-chess/variants/teleport-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9166,8 +9544,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8. Setup: Standard chess setup. Each side begins with 3 teleport charges. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
     "anchor": "setup",
-    "variant": "teleportation",
-    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+    "variant": "teleport-chess",
+    "variantUrl": "dist/moddable-chess/variants/teleport-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9176,8 +9554,8 @@
     "heading": "Rules",
     "content": "- Instead of a normal move, a player may teleport any of their pieces to any empty square on the board. - Teleportation uses one charge. Each side has exactly 3 per game. - Teleportation does not coun",
     "anchor": "rules",
-    "variant": "teleportation",
-    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+    "variant": "teleport-chess",
+    "variantUrl": "dist/moddable-chess/variants/teleport-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9186,8 +9564,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "teleportation",
-    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+    "variant": "teleport-chess",
+    "variantUrl": "dist/moddable-chess/variants/teleport-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9196,8 +9574,8 @@
     "heading": "Strategy",
     "content": "Teleports are powerful but finite — save them for decisive moments. Common uses: teleporting a Knight or Queen into a mating net, escaping a trapped piece, or repositioning the King to safety. Bluffin",
     "anchor": "strategy",
-    "variant": "teleportation",
-    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+    "variant": "teleport-chess",
+    "variantUrl": "dist/moddable-chess/variants/teleport-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9206,8 +9584,8 @@
     "heading": "Attribution",
     "content": "Modern variant. Public domain.",
     "anchor": "attribution",
-    "variant": "teleportation",
-    "variantUrl": "dist/moddable-chess/variants/teleportation/"
+    "variant": "teleport-chess",
+    "variantUrl": "dist/moddable-chess/variants/teleport-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9276,8 +9654,8 @@
     "heading": "Toroidal Chess",
     "content": "The board wraps in both directions — files connect left-to-right AND ranks connect top-to-bottom, forming a torus. There are no edges.",
     "anchor": "toroidal-chess",
-    "variant": "toroidal",
-    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+    "variant": "toroidal-chess",
+    "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9286,8 +9664,8 @@
     "heading": "Setup",
     "content": "Board: Standard 8×8 wraps both axes. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1",
     "anchor": "setup",
-    "variant": "toroidal",
-    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+    "variant": "toroidal-chess",
+    "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9296,8 +9674,8 @@
     "heading": "Rules",
     "content": "- The a-file connects to the h-file horizontal wrap. - Rank 1 connects to rank 8 vertical wrap. - Rooks can slide in any direction and wrap around indefinitely until blocked. - Bishops slide diagonall",
     "anchor": "rules",
-    "variant": "toroidal",
-    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+    "variant": "toroidal-chess",
+    "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9306,8 +9684,8 @@
     "heading": "Win Condition",
     "content": "Checkmate the opponent's King.",
     "anchor": "win-condition",
-    "variant": "toroidal",
-    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+    "variant": "toroidal-chess",
+    "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9316,8 +9694,8 @@
     "heading": "Strategy",
     "content": "On a torus, there are no safe corners or edges — every square is equally central. Bishops can reach every square of their colour not just 7 diagonals but infinitely wrapping ones. Rooks threaten ranks",
     "anchor": "strategy",
-    "variant": "toroidal",
-    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+    "variant": "toroidal-chess",
+    "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
   },
   {
     "game": "moddable-chess",
@@ -9326,8 +9704,8 @@
     "heading": "Attribution",
     "content": "Mathematical chess variant based on toroidal geometry. Public domain.",
     "anchor": "attribution",
-    "variant": "toroidal",
-    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+    "variant": "toroidal-chess",
+    "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
   },
   {
     "game": "moddable-chess",
