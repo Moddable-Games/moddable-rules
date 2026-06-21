@@ -1,6 +1,6 @@
 ---
 title: "The Landlord's Game — Official Rulebook"
-version: "0.1.0"
+version: "0.1.1"
 slug: "landlords-game"
 players: "2–6"
 duration: "60–120 min"
