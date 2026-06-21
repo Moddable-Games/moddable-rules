@@ -4,14 +4,14 @@ slug: "ghanaian"
 board: "10×10"
 players: "2"
 parent: "draughts"
-order: 20
+order: 19
 win: "Capture or block all opponent pieces"
 special: "Men do not capture backwards. No majority rule. A player reduced to one piece loses."
 ---
 
 ## Ghanaian Draughts
 
-Also known as Damii or Dame, Ghanaian Draughts is the traditional form of draughts played in Ghana and parts of West Africa. It uses the same 10×10 board and 20-piece setup as International Draughts but differs in three significant ways: men cannot capture backwards, there is no majority capture rule (any available capture satisfies the obligation), and a player who is reduced to a single piece — whether man or king — loses immediately.
+Also known as Damii or Dame, Ghanaian Draughts is the traditional form of draughts played in Ghana and parts of West Africa. It uses the same 10×10 board and 20-piece setup as International Draughts but differs in three significant ways: men cannot capture backwards, there is no majority capture rule (any available capture satisfies the obligation), and a player who is reduced to a single piece (whether man or king) loses immediately.
 
 {{svg:ghanaian-board.svg "Ghanaian Draughts — starting position"}}
 
@@ -26,7 +26,7 @@ Also known as Damii or Dame, Ghanaian Draughts is the traditional form of draugh
 ### Rules
 
 - **Men movement:** Men move diagonally forward only, one square at a time, to an unoccupied dark square.
-- **Men capture:** Men capture by jumping diagonally over an adjacent opponent piece to the vacant square beyond. Men can only capture **forwards** — backward capture is not permitted for men.
+- **Men capture:** Men capture by jumping diagonally over an adjacent opponent piece to the vacant square beyond. Men can only capture **forwards**; backward capture is not permitted for men.
 - **Mandatory capture:** If a capture is available, it must be taken.
 - **No majority rule:** When multiple capture sequences are available, the player may freely choose which to take. The longest chain is not required.
 - **Multi-capture:** After each jump, if another forward capture is immediately available, the sequence continues. A man cannot reverse direction to capture backwards during a multi-jump.
@@ -42,7 +42,7 @@ When a man reaches the opponent's back row at the end of its turn, it is promote
 
 ### The Singleton Rule
 
-A player who is reduced to a **single piece** (whether a man or a king) loses immediately — regardless of whether that piece still has legal moves. This rule is unique to Ghanaian Draughts and is not found in International Draughts.
+A player who is reduced to a **single piece** (whether a man or a king) loses immediately, regardless of whether that piece still has legal moves. This rule is unique to Ghanaian Draughts and is not found in International Draughts.
 
 ### Winning
 
