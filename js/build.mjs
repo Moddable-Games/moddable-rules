@@ -344,7 +344,8 @@ function buildLanding() {
     if (!existsSync(dir)) return '';
     const files = readdirSync(dir).filter(f => /\.(png|jpg|svg|webp)$/.test(f) && f !== '.gitkeep');
     if (!files.length) return '';
-    const logo = files.find(f => /logo/i.test(f)) || files[0];
+    const logos = files.filter(f => /logo/i.test(f));
+    const logo = logos.find(f => f.endsWith('.svg')) || logos[0] || files[0];
     return `games/${slug}/logos/${logo}`;
   }
 
