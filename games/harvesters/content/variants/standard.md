@@ -5,13 +5,13 @@ board: "Hex tile board (standard Catan layout)"
 players: "3–6"
 parent: "harvesters"
 order: 1
-win: "First to 10 Victory Points — but if the Hunger Check fails, everyone loses"
+win: "First to 10 Victory Points, but if the Hunger Check fails, everyone loses"
 special: "Personal dice pool allocation replaces random resource generation. Seasonal weather events replace the robber. Season Event cards replace development cards."
 ---
 
 ## Harvesters
 
-Harvesters is a hex farming strategy game for 3 to 6 players, playable with the components from any standard Catan box. Players build farmsteads, establish farms, and trade crops with their neighbours across a shared landscape that changes with the seasons. The first farmer to reach 10 Victory Points wins — but only if the community can survive the winter together.
+Harvesters is a hex farming strategy game for 3 to 6 players, playable with the components from any standard Catan box. Players build farmsteads, establish farms, and trade crops with their neighbours across a shared landscape that changes with the seasons. The first farmer to reach 10 Victory Points wins, but only if the community can survive the winter together.
 
 ### Setup
 
@@ -25,7 +25,7 @@ Place a yield token (Catan number token) on each non-common-land hex following t
 Take all 25 development cards, shuffle them face-down, and place them in a stack face-down. This is the Season Event deck. Do not deal any cards to players at this stage.
 
 **4. Set the season.**
-The game begins in Spring. Set the season clock to 3 × the number of players. Place a marker on Spring on the season track (use any spare token). Draw the top card of the Season Event deck and read it aloud — its effect applies for all of Spring.
+The game begins in Spring. Set the season clock to 3 × the number of players. Place a marker on Spring on the season track (use any spare token). Draw the top card of the Season Event deck and read it aloud. Its effect applies for all of Spring.
 
 **5. Place the weather token.**
 Place the weather token (robber) on the common land hex. It starts there and has no effect.
@@ -76,14 +76,14 @@ Roll all the dice in your personal pool at once.
 | 4 farmsteads or 2 established farms | 4 dice |
 | 5+ farmsteads or 3+ established farms | 5 dice (maximum) |
 
-Count your current farmsteads and established farms after each build action — your pool size may increase mid-game.
+Count your current farmsteads and established farms after each build action. Your pool size may increase mid-game.
 
 #### Step 3: Weather check
 
 Before allocating, check for a weather event:
 
 - If your pool is 2 dice and the sum equals 7, a weather event occurs.
-- If your pool is 3 or more dice and any single die shows a 7 (use a d12 if available, otherwise treat a 6 as a 7 on a d6 by re-rolling 6s until you get a 6 or non-6 — or agree with your group to use the sum = 7 rule throughout): a weather event occurs.
+- If your pool is 3 or more dice and any single die shows a 7 (use a d12 if available, otherwise treat a 6 as a 7 on a d6 by re-rolling 6s until you get a 6 or non-6, or agree with your group to use the sum = 7 rule throughout): a weather event occurs.
 
 **Practical note for standard Catan dice (two d6):** Use the sum-equals-7 rule for all pool sizes. This is the simplest approach and preserves the same probability as Catan's 7.
 
@@ -91,7 +91,7 @@ If a weather event occurs, resolve the current season's event now (see Weather E
 
 #### Step 4: Allocate
 
-Place each die on one of your adjacent terrain hexes — a hex that has a corner touching one of your farmsteads or established farms.
+Place each die on one of your adjacent terrain hexes (a hex that has a corner touching one of your farmsteads or established farms).
 
 Rules for allocation:
 - Each hex may receive at most one die.
@@ -107,12 +107,12 @@ Rules for allocation:
 
 #### Step 5: Reroll (optional)
 
-After allocating, you may reroll any dice that produced nothing — either because the die value was below the hex's yield threshold, or because you had more dice than hexes.
+After allocating, you may reroll any dice that produced nothing, whether because the die value was below the hex's yield threshold or because you had more dice than hexes.
 
 - Each die you choose to reroll costs 1 crop card discarded to the supply.
 - You may reroll any number of dice, paying 1 card per die.
 - Each die may be rerolled only once per turn.
-- After rerolling, reallocate the rerolled dice following the same rules as Step 4. You may place them on any of your adjacent hexes, including hexes already occupied by a previously placed die only if you have vacant adjacent hexes remaining — otherwise you may swap a rerolled die for a placed die (the displaced die is then wasted).
+- After rerolling, reallocate the rerolled dice following the same rules as Step 4. You may place them on any of your adjacent hexes, including hexes already occupied by a previously placed die only if you have vacant adjacent hexes remaining. Otherwise you may swap a rerolled die for a placed die (the displaced die is then wasted).
 - Collect crops from rerolled dice using the same yield threshold rules.
 
 #### Step 6: Trade (optional)
@@ -123,7 +123,7 @@ You may trade crops in any order and any number of times:
 
 **Open trade (3:1):** Any player, any time on your turn, may trade 3 crop cards of any one type for 1 crop card of any other type from the supply. No port required.
 
-**Player trade:** You may negotiate freely with any other player and trade any number of crop cards for any number of their crop cards. Trades must be crop-for-crop and take effect immediately. No promises about future turns are binding. Only you may trade on your turn — other players may not trade with each other during your turn.
+**Player trade:** You may negotiate freely with any other player and trade any number of crop cards for any number of their crop cards. Trades must be crop-for-crop and take effect immediately. No promises about future turns are binding. Only you may trade on your turn. Other players may not trade with each other during your turn.
 
 #### Step 7: Build (optional)
 
@@ -133,7 +133,7 @@ Spend crop cards to build. You may build any number of things in any order.
 |---|---|---|
 | Field boundary | 1 timber + 1 grain | Must connect to an existing farmstead or field boundary you own |
 | Farmstead | 1 timber + 1 grain + 1 livestock + 1 fruit | Must be placed on an unoccupied intersection connected to your field boundaries, at least 2 edges from any other farmstead |
-| Established farm | 2 grain + 3 livestock | Replace one of your existing farmsteads. Return the farmstead piece to your supply. Place an established farm piece. Your dice pool may increase — check immediately. |
+| Established farm | 2 grain + 3 livestock | Replace one of your existing farmsteads. Return the farmstead piece to your supply. Place an established farm piece. Your dice pool may increase; check immediately. |
 
 Building an established farm entitles you to draw 1 Season Event card at the end of your turn (Step 9).
 
@@ -154,7 +154,7 @@ If you have reached 10 VP, announce it. The current round continues until every 
 
 #### Step 9: Draw Season Event card (conditional)
 
-If you built an established farm this turn, draw 1 Season Event card from the deck and keep it face-down in your hand. Some Season Event cards grant VP when held — these are revealed and scored immediately when drawn. Others are played on a future turn as described on the card.
+If you built an established farm this turn, draw 1 Season Event card from the deck and keep it face-down in your hand. Some Season Event cards grant VP when held. These are revealed and scored immediately when drawn. Others are played on a future turn as described on the card.
 
 ---
 
@@ -201,7 +201,7 @@ The player currently holding the Largest Herd card must discard 2 livestock card
 If the total crop cards held by all players combined is equal to or greater than 6 × the number of players when this card is drawn, each player scores 1 VP immediately.
 
 **Great Frost (1 card)**
-If this card is drawn in Winter, the Winter Frost weather event fires immediately on all arable and orchard hexes simultaneously — no die roll required, no token placement. Every arable and orchard hex on the board produces nothing this turn. Pastoral adjacency provides no protection. If this card is drawn in any other season, discard it and draw again.
+If this card is drawn in Winter, the Winter Frost weather event fires immediately on all arable and orchard hexes simultaneously. No die roll required, no token placement. Every arable and orchard hex on the board produces nothing this turn. Pastoral adjacency provides no protection. If this card is drawn in any other season, discard it and draw again.
 
 ---
 
@@ -213,7 +213,7 @@ In a tie, the player with more established farms wins. If still tied, the player
 
 ### Shared loss
 
-If the Hunger Check fails at the start of Winter, the game ends immediately and no player wins. This outcome is not a draw — it is a shared loss. Record it separately if you are tracking games.
+If the Hunger Check fails at the start of Winter, the game ends immediately and no player wins. This outcome is not a draw. It is a shared loss. Record it separately if you are tracking games.
 
 ### Other endings
 
@@ -223,9 +223,9 @@ If the crop supply is exhausted (all cards of a type have been taken), trades an
 
 ### Strategy notes
 
-**Dice pool is everything.** Your pool grows from 2 to a maximum of 5 dice as you develop. A larger pool means more allocation choices and more chances to meet yield thresholds. Building established farms early — even at the cost of short-term crop income — pays off across a long game.
+**Dice pool is everything.** Your pool grows from 2 to a maximum of 5 dice as you develop. A larger pool means more allocation choices and more chances to meet yield thresholds. Building established farms early, even at the cost of short-term crop income, pays off across a long game.
 
-**Specialise, then trade.** The terrain you settle near determines what you produce. Settle near arable and orchard hexes for high-threshold, high-reward crops in Summer and Autumn. Settle near pasture for consistent low-threshold livestock year-round. Neither specialisation is self-sufficient — trading is the primary path to the mixed crop portfolio you need to build.
+**Specialise, then trade.** The terrain you settle near determines what you produce. Settle near arable and orchard hexes for high-threshold, high-reward crops in Summer and Autumn. Settle near pasture for consistent low-threshold livestock year-round. Neither specialisation is self-sufficient. Trading is the primary path to the mixed crop portfolio you need to build.
 
 **Watch the Hunger Check.** It is easy to spend Winter racing toward 10 VP while your community collectively holds 8 crop cards. If you see the total dropping below the threshold, produce livestock and resist the urge to spend everything on building. A shared loss means everyone loses, including the player who was winning.
 

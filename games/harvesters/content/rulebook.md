@@ -17,7 +17,7 @@ variants: false
 
 ## What is Harvesters?
 
-Harvesters is an original Moddable Games board game for 3 to 6 players. You are farmers on a shared landscape, building farmsteads, establishing farms, drawing crops from the land, and trading with your neighbours. The game ends when one farmer reaches 10 Victory Points — but if the community cannot feed itself through a hard winter, everyone loses together.
+Harvesters is an original Moddable Games board game for 3 to 6 players. You are farmers on a shared landscape, building farmsteads, establishing farms, drawing crops from the land, and trading with your neighbours. The game ends when one farmer reaches 10 Victory Points. If the community cannot feed itself through a hard winter, everyone loses together.
 
 Harvesters is designed to be played with the components from any standard Catan box. No additional components are required. The rules replace Catan's game entirely.
 
@@ -29,7 +29,7 @@ Harvesters is published under CC-BY-SA 4.0. It is free to play, free to modify, 
 
 ## Why Harvesters exists
 
-Catan is the most widely played modern board game in the world, with over 45 million copies sold. It has no openly licensed alternative. Every digital implementation, fan adaptation, and open-source project built around its concepts operates on a legally uncertain foundation — the rules are commercially locked.
+Catan is the most widely played modern board game in the world, with over 45 million copies sold. It has no openly licensed alternative. Every digital implementation, fan adaptation, and open-source project built around its concepts operates on a legally uncertain foundation: the rules are commercially locked.
 
 Harvesters solves the problem Catan was never designed to solve: dice dominance. In Catan, a bad roll means nothing you can do. The dice decide your turn before it starts. Harvesters replaces this with a personal dice pool you allocate yourself. Every roll is a decision. Strategy, not luck, determines who wins.
 
@@ -93,10 +93,10 @@ A **season clock** tracks how many player turns remain in the current season. Th
 
 | Season | Clock duration | Season Event drawn? | Weather event |
 |---|---|---|---|
-| Spring | 3 turns per player | Yes — at season start | The Flood |
-| Summer | 4 turns per player | Yes — at season start | The Drought |
-| Autumn | 3 turns per player | Yes — at season start | The Blight |
-| Winter | 2 turns per player | Yes — at season start | The Frost |
+| Spring | 3 turns per player | Yes (at season start) | The Flood |
+| Summer | 4 turns per player | Yes (at season start) | The Drought |
+| Autumn | 3 turns per player | Yes (at season start) | The Blight |
+| Winter | 2 turns per player | Yes (at season start) | The Frost |
 
 The game begins in Spring. The starting season clock is 3 × player count.
 
@@ -119,14 +119,12 @@ When a weather event occurs:
 | Season | Weather event | Effect |
 |---|---|---|
 | Spring | The Flood | Move the weather token to any water-adjacent hex of your choice. |
-| Summer | The Drought | Move the weather token to any arable or orchard hex of your choice. Pasture hexes are immune — the weather token may not be placed there. |
+| Summer | The Drought | Move the weather token to any arable or orchard hex of your choice. Pasture hexes are immune; the weather token may not be placed there. |
 | Autumn | The Blight | Move the weather token to any arable or orchard hex of your choice. Pasture hexes are immune. |
 | Winter | The Frost | Move the weather token to any arable or orchard hex of your choice. Pasture hexes are only mildly affected: players with a farmstead or established farm adjacent exclusively to pasture hexes (no arable or orchard adjacency) collect 1 livestock regardless of dice result this turn only. |
 
 The player whose roll triggered the event moves the weather token. They may not place it on a hex adjacent to their own farmstead or established farm unless no other hex is available.
 
-The weather token remains on its hex until another weather event occurs. It is then moved to the new location. The token does not stack — only one hex is suppressed at a time.
-
-</div>
+The weather token remains on its hex until another weather event occurs. It is then moved to the new location. The token does not stack; only one hex is suppressed at a time.
 
 </div>
