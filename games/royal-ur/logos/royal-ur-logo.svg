@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Royal Game of Ur logo">
+  <rect width="100" height="100" fill="#faf8f2" rx="8"/>
+  <rect x="10" y="10" width="80" height="80" rx="4" fill="#e8d9b8" stroke="#7A5C28" stroke-width="2.5"/>
+  <g transform="translate(50,50)">
+    <ellipse rx="9" ry="24" fill="#7A5C28" transform="rotate(0)"/>
+    <ellipse rx="9" ry="24" fill="#7A5C28" transform="rotate(45)"/>
+    <ellipse rx="9" ry="24" fill="#7A5C28" transform="rotate(90)"/>
+    <ellipse rx="9" ry="24" fill="#7A5C28" transform="rotate(135)"/>
+    <circle r="11" fill="#7A5C28"/>
+  </g>
+</svg>
