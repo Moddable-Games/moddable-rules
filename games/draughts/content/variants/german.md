@@ -4,7 +4,7 @@ slug: "german"
 board: "8×8"
 players: "2"
 parent: "draughts"
-order: 16
+order: 18
 win: "Capture or block all opponent pieces"
 special: "Men capture both forwards and backwards. Flying kings. No majority capture rule."
 ---
@@ -28,7 +28,7 @@ Also known as Damenspiel ("lady's game"), German Draughts is the traditional for
 - **Men movement:** Men move diagonally forward only, one square at a time, to an unoccupied dark square.
 - **Men capture:** Men capture by jumping diagonally over an adjacent opponent piece to the vacant square beyond. Unlike English Draughts, men can capture both **forwards and backwards**.
 - **Mandatory capture:** If a capture is available, it must be taken.
-- **Free choice:** When multiple capture sequences are available, the player may freely choose which to take. There is no majority rule — the longest chain is not required.
+- **Free choice:** When multiple capture sequences are available, the player may freely choose which to take. There is no majority rule; the longest chain is not required.
 - **Multi-capture:** After completing a jump, if another capture is immediately available with the same piece, the sequence must continue until no further capture is possible.
 
 ### King Promotion

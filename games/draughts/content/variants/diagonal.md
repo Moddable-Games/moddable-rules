@@ -19,13 +19,13 @@ A 19th-century variant of International Draughts in which the starting position 
 
 **Board:** 10×10 checkered board. Only the 50 dark squares are used. Orient the board so the long diagonal runs from each player's lower-left to upper-right corner.
 
-**Pieces:** 20 men per player. Instead of filling rows, pieces are placed on all dark squares **except** those on the long diagonal (the diagonal running from corner a1 to corner j10). Each player's pieces occupy the dark squares on their own side of that diagonal — one player on the lower-right triangle, the other on the upper-left triangle.
+**Pieces:** 20 men per player. Instead of filling rows, pieces are placed on all dark squares **except** those on the long diagonal (the diagonal running from corner a1 to corner j10). Each player's pieces occupy the dark squares on their own side of that diagonal: one player on the lower-right triangle, the other on the upper-left triangle.
 
 **First move:** White (lower-right) moves first.
 
 ### Rules
 
-- **Men movement:** Men move diagonally one square in any direction — both forwards and backwards. (Unlike standard International Draughts, men are not restricted to forward movement.)
+- **Men movement:** Men move diagonally forward one square at a time, following the same movement rules as International Draughts.
 - **Men capture:** A man captures by jumping diagonally over an adjacent opponent piece to the vacant square beyond. Captures may be made in any diagonal direction.
 - **Mandatory capture:** If a capture is available, it must be taken.
 - **Majority rule:** When multiple capture sequences are available, the player must take the sequence that captures the maximum number of pieces. If sequences are tied in length, the player may freely choose.

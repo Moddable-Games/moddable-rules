@@ -4,14 +4,14 @@ slug: "spantsiretti"
 board: "10×8"
 players: "2"
 parent: "draughts"
-order: 19
+order: 20
 win: "Capture or block all opponent pieces"
 special: "Russian Draughts rules on a wider 10×8 board. 20 pieces per side."
 ---
 
 ## Spantsiretti
 
-Spantsiretti is Russian Draughts played on a wider 10×8 board rather than the standard 8×8. The rules are identical to Russian Draughts — backward capture for men, mid-jump promotion, flying kings, no majority rule — but the extra two columns and the resulting 20 pieces per side create a more open game with greater room for long-range tactics.
+Spantsiretti is Russian Draughts played on a wider 10×8 board rather than the standard 8×8. The rules are identical to Russian Draughts (backward capture for men, mid-jump promotion, flying kings, no majority rule) but the extra two columns and the resulting 20 pieces per side create a more open game with greater room for long-range tactics.
 
 {{svg:spantsiretti-board.svg "Spantsiretti — starting position"}}
 
