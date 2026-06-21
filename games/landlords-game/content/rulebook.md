@@ -5,10 +5,10 @@ slug: "landlords-game"
 players: "2–6"
 duration: "60–120 min"
 age: "10+"
-tagline: "Elizabeth Magie's 1904 economic satire — six variants spanning the game's full history from patent to Prosperity"
+tagline: "Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity"
 type: "classic"
 status: "live"
-updated: "2026-06-17"
+updated: "2026-06-21"
 published: true
 variants: true
 ---
@@ -25,7 +25,7 @@ In 1906, Magie and fellow Georgists formed the Economic Game Company in New York
 
 The 1904 patent expired in 1921. Magie applied for a second patent in 1923; it was granted on September 23, 1924 (US Patent 1,509,312). In 1932, the Adgame Company published "Landlord's Game and Prosperity" under this patent — the first confirmed publication naming the Prosperity rules as a distinct variant with an explicit win condition.
 
-Jesse and Eugene Raiford, Quakers in Atlantic City, created a hand-copied version replacing property names with Atlantic City street names. This was the version Charles Darrow encountered around 1933. Darrow sold the game to Parker Brothers in 1935 as his own invention. Parker Brothers subsequently acquired Magie's 1924 patent for $500, with no royalties, to secure their rights. They printed a small run of The Landlord's Game to assert the purchase, then sidelined it for Darrow's version by 1936. Magie gave two newspaper interviews — in the Washington Post and the Evening Star — displaying her original boards and documenting that Darrow was not the inventor.
+Ruth Hoskins brought a hand-copied version of the game to Atlantic City in 1929, renaming properties after local streets. Jesse Raiford grouped them by colour and assigned prices. This Atlantic City folk version was the game Charles Darrow encountered around 1933 and sold to Parker Brothers in 1935 as his own invention. Parker Brothers subsequently acquired Magie's 1924 patent for $500, with no royalties, to secure their rights. They printed a small run of The Landlord's Game to assert the purchase, then sidelined it for Darrow's version by 1936. Magie gave two newspaper interviews — in the Washington Post and the Evening Star — displaying her original boards and documenting that Darrow was not the inventor.
 
 </div>
 
@@ -123,7 +123,7 @@ Four boxes in the centre: **Bank**, **Wages**, **Public Treasury**, **Railroad**
 
 ## Variant Library
 
-The Landlord's Game spans over a century of editions, from Elizabeth Magie's 1904 patent to the Quaker Atlantic City adaptations that became the direct ancestor of Monopoly. This library documents six historically significant rulesets — from the austere patent original to Magie's intended Prosperity mode to the pedagogical Monarch of the World demonstration.
+The Landlord's Game spans over a century of editions, from Elizabeth Magie's 1904 patent to the Quaker community versions that became the direct ancestor of Monopoly. This library documents five historically significant rulesets — from the austere patent original to Magie's intended Prosperity mode to the pedagogical Monarch of the World demonstration.
 
 This library includes {{variant_count}} variants.
 
@@ -134,7 +134,6 @@ This library includes {{variant_count}} variants.
 - [Single Tax](variants/single-tax/) — Mid-game voting switch; land rents fund progressive public ownership of utilities and railroads
 - [Prosperity](variants/prosperity/) — Collective win: the poorest player must double their starting wealth while no player goes bankrupt
 - [Monarch of the World](variants/monarch-of-the-world/) — Demonstration proving Magie's thesis: one player holds all land; they win despite holding no wages
-- [Atlantic City](variants/atlantic-city/) — The Raiford community version Darrow copied; Atlantic City street names; the direct ancestor of Monopoly
 
 </div>
 
