@@ -4,7 +4,7 @@ slug: "phantom-go"
 board: "9×9 or 13×13"
 players: "2 + referee"
 parent: "go"
-order: 4
+order: 8
 win: "Most territory (standard scoring)"
 special: "Fog of war. Players cannot see opponent stones. A referee mediates all moves."
 ---

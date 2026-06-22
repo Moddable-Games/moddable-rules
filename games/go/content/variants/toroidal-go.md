@@ -4,7 +4,7 @@ slug: "toroidal-go"
 board: "11×11"
 players: "2"
 parent: "go"
-order: 10
+order: 14
 win: "Most territory (area or territory scoring)"
 special: "Edges wrap horizontally and vertically. No corners, no edges, no joseki."
 ---
