@@ -1,6 +1,6 @@
 ---
 title: "Go — Official Rulebook"
-version: "0.2.0"
+version: "0.3.0"
 slug: "go"
 players: "2"
 duration: "15–180 min"

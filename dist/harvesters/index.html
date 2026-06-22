@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harvesters — Rules v0.1.0</title>
+<meta name="description" content="Harvesters: an open-licensed hex farming strategy game for 3–6 players. Playable with a standard Catan box.">
+<meta property="og:title" content="Harvesters — Rules v0.1.0">
+<meta property="og:description" content="The open alternative to Catan. Playable with a standard Catan box. Published under CC-BY-SA.">
+<meta property="og:image" content="https://rules.moddable.games/games/harvesters/og-image.png?v=1.1.14">
+<meta property="og:url" content="https://rules.moddable.games/dist/harvesters/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Harvesters — Rules v0.1.0">
+<meta name="twitter:description" content="The open alternative to Catan. Playable with a standard Catan box. Published under CC-BY-SA.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/harvesters/og-image.png?v=1.1.14">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.1.0">
+<link rel="stylesheet" href="../../games/harvesters/theme.css?v=0.1.0">
+<script src="../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/harvesters/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/harvesters/pdf/harvesters.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Rules · v0.1.0</span>
+</header>
+
+<div class="cover">
+  <div class="cover-title">HARVESTERS</div>
+  <div class="cover-sub">Rules</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">A hex farming strategy game for 3–6 players</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">3–6</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">75–90</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">12+</span><span class="cs-lbl">Age</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games · v0.1.0 · CC-BY-SA 4.0</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<div class="section">
+<h2>What is Harvesters?</h2>
+<p>Harvesters is an original Moddable Games board game for 3 to 6 players. You are farmers on a shared landscape, building farmsteads, establishing farms, drawing crops from the land, and trading with your neighbours. The game ends when one farmer reaches 10 Victory Points. If the community cannot feed itself through a hard winter, everyone loses together.</p>
+<p>Harvesters is designed to be played with the components from any standard Catan box. No additional components are required. The rules replace Catan’s game entirely.</p>
+<p>Harvesters is published under CC-BY-SA 4.0. It is free to play, free to modify, and free to redistribute with attribution. It was designed in public, built by an automated pipeline, and the full design process is documented openly at github.com/Moddable-Games/moddable-rules. If you think a rule is wrong, the issue tracker is open.</p>
+</div>
+<div class="section">
+<h2>Why Harvesters exists</h2>
+<p>Catan is the most widely played modern board game in the world, with over 45 million copies sold. It has no openly licensed alternative. Every digital implementation, fan adaptation, and open-source project built around its concepts operates on a legally uncertain foundation: the rules are commercially locked.</p>
+<p>Harvesters solves the problem Catan was never designed to solve: dice dominance. In Catan, a bad roll means nothing you can do. The dice decide your turn before it starts. Harvesters replaces this with a personal dice pool you allocate yourself. Every roll is a decision. Strategy, not luck, determines who wins.</p>
+<p>This is the game Moddable Games was built to make possible.</p>
+</div>
+<div class="section">
+<h2>Components from the Catan box</h2>
+<p>Harvesters uses these Catan components with new names and meanings. Set aside the Catan rulebook.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Catan component</th>
+<th>Harvesters name</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hex terrain tiles</td>
+<td>Terrain hexes</td>
+<td>Arable, pasture, orchard, woodland, water, common land</td>
+</tr>
+<tr>
+<td>Number tokens (2–12)</td>
+<td>Yield tokens</td>
+<td>Set minimum yield threshold for each hex</td>
+</tr>
+<tr>
+<td>Resource cards</td>
+<td>Crop cards</td>
+<td>Grain, livestock, fruit, timber, water</td>
+</tr>
+<tr>
+<td>Road pieces</td>
+<td>Field boundaries</td>
+<td>Connect farmsteads, score Longest Boundary</td>
+</tr>
+<tr>
+<td>Settlement pieces</td>
+<td>Farmsteads</td>
+<td>1 VP each; your presence on the land</td>
+</tr>
+<tr>
+<td>City pieces</td>
+<td>Established farms</td>
+<td>2 VP each (replaces farmstead); upgraded farm</td>
+</tr>
+<tr>
+<td>Robber token</td>
+<td>Weather token</td>
+<td>Moves to a hex when a weather event occurs</td>
+</tr>
+<tr>
+<td>Dice</td>
+<td>Personal dice pool</td>
+<td>You roll and allocate your own dice each turn</td>
+</tr>
+<tr>
+<td>Development cards</td>
+<td>Season Event cards</td>
+<td>Drawn when a season turns; affect all players</td>
+</tr>
+<tr>
+<td>Longest Road card</td>
+<td>Longest Boundary card</td>
+<td>2 VP for most connected field boundary segments</td>
+</tr>
+<tr>
+<td>Largest Army card</td>
+<td>Largest Herd card</td>
+<td>2 VP for most livestock cards held</td>
+</tr>
+<tr>
+<td>Harbour tokens</td>
+<td>Port tokens</td>
+<td>Enable 2:1 and 3:1 trades with the bank</td>
+</tr>
+</tbody>
+</table></div>
+<p>Shuffle the 25 development cards face-down. This becomes the Season Event deck. Do not look at them during setup.</p>
+</div>
+<div class="section">
+<h2>The terrain</h2>
+<p>The six hex terrain types and their crop outputs:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Terrain</th>
+<th>Harvesters name</th>
+<th>Crop produced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fields (yellow)</td>
+<td>Arable land</td>
+<td>Grain</td>
+</tr>
+<tr>
+<td>Pasture (light green)</td>
+<td>Pasture</td>
+<td>Livestock</td>
+</tr>
+<tr>
+<td>Forest (dark green)</td>
+<td>Woodland</td>
+<td>Timber</td>
+</tr>
+<tr>
+<td>Hills (orange/red)</td>
+<td>Orchard</td>
+<td>Fruit</td>
+</tr>
+<tr>
+<td>Mountains (grey)</td>
+<td>Water source</td>
+<td>Water</td>
+</tr>
+<tr>
+<td>Desert (tan)</td>
+<td>Common land</td>
+<td>No crop</td>
+</tr>
+</tbody>
+</table></div>
+<p>The sea frame, port tokens, and number tokens are placed as normal per the standard Catan setup.</p>
+<p><strong>Yield tokens:</strong> Each non-common terrain hex receives a yield token (the Catan number tokens) during setup. The number on the token is the yield threshold for that hex. When you allocate a die to a hex, you collect crops only if the die value meets or exceeds the threshold. You always collect at least 1 crop when the threshold is met.</p>
+</div>
+<div class="section">
+<h2>The seasons</h2>
+<p>The game is divided into four seasons that cycle repeatedly: Spring, Summer, Autumn, Winter.</p>
+<p>A <strong>season clock</strong> tracks how many player turns remain in the current season. The season clock starts at its full value when the season begins and counts down by 1 at the end of each player’s turn. When it reaches 0, the season turns.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Season</th>
+<th>Clock duration</th>
+<th>Season Event drawn?</th>
+<th>Weather event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spring</td>
+<td>3 turns per player</td>
+<td>Yes (at season start)</td>
+<td>The Flood</td>
+</tr>
+<tr>
+<td>Summer</td>
+<td>4 turns per player</td>
+<td>Yes (at season start)</td>
+<td>The Drought</td>
+</tr>
+<tr>
+<td>Autumn</td>
+<td>3 turns per player</td>
+<td>Yes (at season start)</td>
+<td>The Blight</td>
+</tr>
+<tr>
+<td>Winter</td>
+<td>2 turns per player</td>
+<td>Yes (at season start)</td>
+<td>The Frost</td>
+</tr>
+</tbody>
+</table></div>
+<p>The game begins in Spring. The starting season clock is 3 × player count.</p>
+<p>When a new season begins, the first player draws the top card of the Season Event deck and reads it aloud. Its effect applies for the entire season unless otherwise stated.</p>
+</div>
+<div class="section">
+<h2>Weather events</h2>
+<p>A weather event occurs whenever any die in a player’s roll shows a result of 7. On a standard two-dice start, this means when the sum of the two dice equals 7.</p>
+<p>When a weather event occurs:</p>
+<ol>
+<li>Resolve the current season’s weather event (see below).</li>
+<li>Move the weather token to the affected hex.</li>
+<li>That hex produces no crops while the weather token occupies it, regardless of dice allocation.</li>
+</ol>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Season</th>
+<th>Weather event</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spring</td>
+<td>The Flood</td>
+<td>Move the weather token to any water-adjacent hex of your choice.</td>
+</tr>
+<tr>
+<td>Summer</td>
+<td>The Drought</td>
+<td>Move the weather token to any arable or orchard hex of your choice. Pasture hexes are immune; the weather token may not be placed there.</td>
+</tr>
+<tr>
+<td>Autumn</td>
+<td>The Blight</td>
+<td>Move the weather token to any arable or orchard hex of your choice. Pasture hexes are immune.</td>
+</tr>
+<tr>
+<td>Winter</td>
+<td>The Frost</td>
+<td>Move the weather token to any arable or orchard hex of your choice. Pasture hexes are only mildly affected: players with a farmstead or established farm adjacent exclusively to pasture hexes (no arable or orchard adjacency) collect 1 livestock regardless of dice result this turn only.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The player whose roll triggered the event moves the weather token. They may not place it on a hex adjacent to their own farmstead or established farm unless no other hex is available.</p>
+<p>The weather token remains on its hex until another weather event occurs. It is then moved to the new location. The token does not stack; only one hex is suppressed at a time.</p>
+</div>
+<div class="section">
+<h2>Setup</h2>
+<p><strong>1. Lay the board.</strong>
+Assemble the hex terrain tiles into the standard Catan island layout. Use the beginner layout printed in the Catan rulebook for your first game. Surround the island with the sea frame tiles and place the port tokens on the harbours as normal.</p>
+<p><strong>2. Place yield tokens.</strong>
+Place a yield token (Catan number token) on each non-common-land hex following the standard Catan placement rules (letter grid or random placement). Common land hexes receive no token.</p>
+<p><strong>3. Prepare the Season Event deck.</strong>
+Take all 25 development cards, shuffle them face-down, and place them in a stack face-down. This is the Season Event deck. Do not deal any cards to players at this stage.</p>
+<p><strong>4. Set the season.</strong>
+The game begins in Spring. Set the season clock to 3 x the number of players. Place a marker on Spring on the season track (use any spare token). Draw the top card of the Season Event deck and read it aloud. Its effect applies for all of Spring.</p>
+<p><strong>5. Place the weather token.</strong>
+Place the weather token (robber) on the common land hex. It starts there and has no effect.</p>
+<p><strong>6. Starting positions: first round of placement.</strong>
+Determine the starting player randomly. In clockwise order, each player places one farmstead on any unoccupied land intersection (a corner where three hexes meet) and one field boundary (road) extending from that farmstead along any adjacent edge. Farmsteads may not be placed adjacent to another farmstead (the standard Catan distance rule applies).</p>
+<p><strong>7. Starting positions: second round of placement.</strong>
+In reverse order (the last player goes first), each player places a second farmstead and a second field boundary from that farmstead. After placing their second farmstead, each player collects one crop card for each terrain hex adjacent to that second farmstead. Common land hexes and hexes with the weather token produce no starting crops.</p>
+<p><strong>8. Starting dice pool.</strong>
+Each player starts with a dice pool of 2 dice. Take 2 dice from the Catan dice set.</p>
+<p><strong>9. Starting hand.</strong>
+Players begin with the crops collected in step 7 only. No other starting resources.</p>
+<p><strong>10. Longest Boundary and Largest Herd.</strong>
+Place the Longest Boundary card (Longest Road) and Largest Herd card (Largest Army) face-up beside the board. Neither is held by any player at the start.</p>
+</div>
+<div class="section">
+<h2>Turn structure</h2>
+<p>On your turn, follow these steps in order.</p>
+<h3>Step 1: Season check</h3>
+<p>Reduce the season clock by 1. If the clock has just reached 0, the season turns:</p>
+<ul class="rules">
+<li>Advance the season marker to the next season (Spring, Summer, Autumn, Winter, Spring).</li>
+<li>Set the season clock to the new season’s starting value (Spring: 3 x players, Summer: 4 x players, Autumn: 3 x players, Winter: 2 x players).</li>
+<li>Draw the top card of the Season Event deck and read it aloud. Its effect applies for the entire new season.</li>
+<li>If the new season is Winter, conduct the Hunger Check after reading the Season Event card (see Hunger Check below) before continuing your turn.</li>
+<li>If the Season Event deck is empty, shuffle all discarded Season Event cards to form a new deck.</li>
+</ul>
+<p>If the clock has not reached 0, continue to Step 2.</p>
+<h3>Step 2: Roll</h3>
+<p>Roll all the dice in your personal pool at once.</p>
+<p><strong>Dice pool size</strong> is determined by your level of farm development:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Farm development</th>
+<th>Dice pool size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Starting position (2 farmsteads)</td>
+<td>2 dice</td>
+</tr>
+<tr>
+<td>3 farmsteads or 1 established farm</td>
+<td>3 dice</td>
+</tr>
+<tr>
+<td>4 farmsteads or 2 established farms</td>
+<td>4 dice</td>
+</tr>
+<tr>
+<td>5+ farmsteads or 3+ established farms</td>
+<td>5 dice (maximum)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Count your current farmsteads and established farms after each build action. Your pool size may increase mid-game.</p>
+<h3>Step 3: Weather check</h3>
+<p>Before allocating, check for a weather event. If your pool is 2 dice and the sum equals 7, a weather event occurs. For pools of 3 or more dice, use the same sum-equals-7 rule for simplicity.</p>
+<p>If a weather event occurs, resolve the current season’s event now (see Weather Events above), move the weather token, then continue to Step 4. You still allocate all your dice.</p>
+<h3>Step 4: Allocate</h3>
+<p>Place each die on one of your adjacent terrain hexes (a hex that has a corner touching one of your farmsteads or established farms).</p>
+<p>Rules for allocation:</p>
+<ul class="rules">
+<li>Each hex may receive at most one die.</li>
+<li>You must allocate every die in your pool. If you have more dice than adjacent hexes, unallocated dice are wasted (they produce nothing).</li>
+<li>A hex with the weather token on it produces nothing regardless of the die placed there.</li>
+<li>Common land hexes produce nothing regardless of the die placed there.</li>
+</ul>
+<p><strong>Collecting crops:</strong> For each die you allocate to a hex, check the die value against the hex’s yield token:</p>
+<ul class="rules">
+<li>If the die value is equal to or greater than the yield token number, collect 1 crop card of that hex’s type.</li>
+<li>If the die value is less than the yield token number, collect nothing from that hex this turn.</li>
+</ul>
+<p><strong>Example:</strong> You have 3 dice and roll a 4, a 6, and a 2. Your farmsteads touch an arable hex (yield token 5), a pasture hex (yield token 3), and an orchard hex (yield token 4). You place the 6 on the arable hex (6 &gt;= 5: collect 1 grain), the 4 on the orchard (4 &gt;= 4: collect 1 fruit), and the 2 on the pasture (2 &lt; 3: no livestock). You collect 1 grain and 1 fruit this turn.</p>
+<h3>Step 5: Reroll (optional)</h3>
+<p>After allocating, you may reroll any dice that produced nothing, whether because the die value was below the hex’s yield threshold or because you had more dice than hexes.</p>
+<ul class="rules">
+<li>Each die you choose to reroll costs 1 crop card discarded to the supply.</li>
+<li>You may reroll any number of dice, paying 1 card per die.</li>
+<li>Each die may be rerolled only once per turn.</li>
+<li>After rerolling, reallocate the rerolled dice following the same rules as Step 4. You may place them on any of your adjacent hexes, including hexes already occupied by a previously placed die only if you have vacant adjacent hexes remaining. Otherwise you may swap a rerolled die for a placed die (the displaced die is then wasted).</li>
+<li>Collect crops from rerolled dice using the same yield threshold rules.</li>
+</ul>
+</div>
+<div class="section">
+<h2>Trading</h2>
+<p>You may trade crops in any order and any number of times on your turn:</p>
+<p><strong>Port trade (2:1):</strong> If you have a farmstead or established farm adjacent to a port hex, you may trade 2 crop cards of that port’s listed type for 1 crop card of any type from the supply. Each port enables unlimited trades of its type on your turn.</p>
+<p><strong>Open trade (3:1):</strong> Any player, any time on your turn, may trade 3 crop cards of any one type for 1 crop card of any other type from the supply. No port required.</p>
+<p><strong>Player trade:</strong> You may negotiate freely with any other player and trade any number of crop cards for any number of their crop cards. Trades must be crop-for-crop and take effect immediately. No promises about future turns are binding. Only you may trade on your turn. Other players may not trade with each other during your turn.</p>
+</div>
+<div class="section">
+<h2>Building</h2>
+<p>Spend crop cards to build. You may build any number of things in any order.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Build</th>
+<th>Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Field boundary</td>
+<td>1 timber + 1 grain</td>
+<td>Must connect to an existing farmstead or field boundary you own</td>
+</tr>
+<tr>
+<td>Farmstead</td>
+<td>1 timber + 1 grain + 1 livestock + 1 fruit</td>
+<td>Must be placed on an unoccupied intersection connected to your field boundaries, at least 2 edges from any other farmstead</td>
+</tr>
+<tr>
+<td>Established farm</td>
+<td>2 grain + 3 livestock</td>
+<td>Replace one of your existing farmsteads. Return the farmstead piece to your supply. Place an established farm piece. Your dice pool may increase; check immediately.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Building an established farm entitles you to draw 1 Season Event card at the end of your turn.</p>
+<p><strong>Longest Boundary:</strong> After building, count your total connected field boundary segments. If you have strictly more than the current holder of the Longest Boundary card, take the card. If no one holds it, you need at least 5 segments to claim it. 2 VP while you hold it.</p>
+<p><strong>Largest Herd:</strong> After trading and building, count the livestock cards in your hand. If you have strictly more than the current holder of the Largest Herd card, take the card. If no one holds it, you need at least 3 livestock to claim it. 2 VP while you hold it.</p>
+</div>
+<div class="section">
+<h2>Winning</h2>
+<p>Count your Victory Points:</p>
+<ul class="rules">
+<li>1 VP per farmstead</li>
+<li>2 VP per established farm</li>
+<li>2 VP for Longest Boundary card (if held)</li>
+<li>2 VP for Largest Herd card (if held)</li>
+<li>VP from Season Event cards (if any in hand grant VP)</li>
+</ul>
+<p>The first player to reach 10 VP at the end of their turn triggers the final round. Every other player completes their current turn. The player with the most VP at the end of the final round wins.</p>
+<p>In a tie, the player with more established farms wins. If still tied, the player with more farmsteads wins. If still tied, the player who reached the tied score first wins.</p>
+<h3>Shared loss</h3>
+<p>If the Hunger Check fails at the start of Winter, the game ends immediately and no player wins. This is a shared loss. Record it separately if you are tracking games.</p>
+</div>
+<div class="section">
+<h2>The Hunger Check</h2>
+<p>At the start of every Winter season (immediately after the Season Event card is drawn), conduct a Hunger Check.</p>
+<ol>
+<li>Count the total crop cards held by all players combined.</li>
+<li>If the total is less than 4 x the number of players, the community cannot survive the winter.</li>
+<li>If the community cannot survive: the game ends immediately. No player wins. This is a shared loss.</li>
+<li>If the community can survive: continue normally.</li>
+</ol>
+<p><strong>Example (5 players):</strong> The threshold is 4 x 5 = 20 crop cards. If all players together hold fewer than 20 crop cards when Winter begins, the Hunger Check fails and everyone loses.</p>
+<p>The Hunger Check creates genuine tension throughout the game. Hoarding crops for personal Victory Points risks triggering a collective loss. Players must balance personal optimisation against community resilience.</p>
+</div>
+<div class="section">
+<h2>Season Event cards</h2>
+<p>The 25 Season Event cards replace Catan’s development cards. They are drawn from a shuffled deck, never purchased. One card is drawn when each season begins. Additional cards may be drawn when an established farm is built.</p>
+<p>The deck contains the following cards. When the deck is exhausted, shuffle all discarded cards to form a new deck.</p>
+<p><strong>Bumper Harvest (5 cards):</strong>
+Name one terrain type when this card is drawn. All players with farmsteads or established farms adjacent to that terrain type collect 2 additional crop cards of that type immediately.</p>
+<p><strong>Poor Conditions (5 cards):</strong>
+Name one terrain type when this card is drawn. That terrain type produces no crops this season (dice allocated to those hexes produce nothing, regardless of yield threshold). Effect lasts until the next Season Event card is drawn.</p>
+<p><strong>Common Grazing (4 cards):</strong>
+All players may trade livestock cards at 2:1 with the bank this season, regardless of port adjacency.</p>
+<p><strong>Market Day (3 cards):</strong>
+Each player may immediately make one free 2:1 trade with the bank. This happens now, not on their turn. Any crop type, any port or not.</p>
+<p><strong>Land Grant (3 cards):</strong>
+The first player to build a new farmstead this season scores 1 additional VP when they build it.</p>
+<p><strong>Plague (2 cards):</strong>
+The player currently holding the Largest Herd card must discard 2 livestock cards to the supply immediately. If no one holds the Largest Herd card, no effect.</p>
+<p><strong>Cooperative Harvest (2 cards):</strong>
+If the total crop cards held by all players combined is equal to or greater than 6 x the number of players when this card is drawn, each player scores 1 VP immediately.</p>
+<p><strong>Great Frost (1 card):</strong>
+If this card is drawn in Winter, the Winter Frost weather event fires immediately on all arable and orchard hexes simultaneously. No die roll required, no token placement. Every arable and orchard hex on the board produces nothing this turn. Pastoral adjacency provides no protection. If this card is drawn in any other season, discard it and draw again.</p>
+</div>
+<div class="section">
+<h2>Strategy notes</h2>
+<p><strong>Dice pool is everything.</strong> Your pool grows from 2 to a maximum of 5 dice as you develop. A larger pool means more allocation choices and more chances to meet yield thresholds. Building established farms early, even at the cost of short-term crop income, pays off across a long game.</p>
+<p><strong>Specialise, then trade.</strong> The terrain you settle near determines what you produce. Settle near arable and orchard hexes for high-threshold, high-reward crops in Summer and Autumn. Settle near pasture for consistent low-threshold livestock year-round. Neither specialisation is self-sufficient. Trading is the primary path to the mixed crop portfolio you need to build.</p>
+<p><strong>Watch the Hunger Check.</strong> It is easy to spend Winter racing toward 10 VP while your community collectively holds 8 crop cards. If you see the total dropping below the threshold, produce livestock and resist the urge to spend everything on building. A shared loss means everyone loses, including the player who was winning.</p>
+<p><strong>The weather token is a tool.</strong> You choose where to place it when your roll triggers a weather event. Placing it on a hex that threatens no one is wasted. Placing it on the hex your most productive rival relies on is pressure.</p>
+</div>
+<div class="section">
+<h2>Attribution</h2>
+<p>Harvesters. Designed by Moddable Games, 2026. Published under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0). You are free to play, adapt, and redistribute this game with attribution. Derivative works must be published under the same licence.</p>
+<p>Playable with components from Catan (Klaus Teuber, 1995, Kosmos/Asmodee). Harvesters is an independent original work. It is not affiliated with, endorsed by, or derived from Catan or its publishers.</p>
+</div>
+
+</main>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Harvesters v0.1.0 · Published by Moddable Games · Licensed CC-BY-SA 4.0 · Rules and design © 2026 Moddable Games</span>
+</footer>
+
+</div>
+<script src="../../js/toc.js?v=0.1.0"></script>
+</body>
+</html>
