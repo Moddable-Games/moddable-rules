@@ -22,6 +22,7 @@ BG = (12, 14, 18)
 
 ACCENTS = {
     'game': {'primary': (224, 64, 64), 'secondary': (180, 40, 40)},
+    'original': {'primary': (74, 124, 63), 'secondary': (50, 90, 40)},
     'mod': {'primary': (64, 160, 224), 'secondary': (40, 120, 180)},
     'platform': {'primary': (160, 112, 208), 'secondary': (120, 80, 180)},
     'expansion': {'primary': (64, 192, 96), 'secondary': (40, 150, 70)},
