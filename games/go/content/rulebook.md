@@ -8,7 +8,7 @@ age: "8+"
 tagline: "Four thousand years of emergent complexity from one rule"
 type: "classic"
 status: "live"
-updated: "2026-06-12"
+updated: "2026-06-22"
 published: true
 variants: true
 ---
@@ -64,6 +64,17 @@ This library includes {{variant_count}} playable variants spanning different boa
 - [Capture Go](variants/capture-go/) — First capture wins: the universal teaching variant
 - [Toroidal Go](variants/toroidal-go/) — Edges wrap: no corners, no sides, no safe edges
 - [Stoical Go](variants/stoical/) — Cannot capture if opponent captured last turn
+
+</div>
+
+### Placement Games
+
+Five-in-a-row games played on the Go board without capture.
+
+<div class="variant-grid">
+
+- [Gomoku](variants/gomoku/) — Ancient placement game: five in a row wins
+- [Renju](variants/renju/) — Competitive Gomoku with forbidden moves for Black
 
 </div>
 
