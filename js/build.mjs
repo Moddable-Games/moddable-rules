@@ -292,6 +292,12 @@ function buildGame(slug) {
     cover_title_class: meta.logo_has_title ? 'cover-title--hidden' : '',
     PDF_LINK: pdfLink,
     COVER_STATS: coverStats,
+    POST_CONTENT: (meta.post_content || []).map(f => {
+      const gamPath = resolve(gameDir, 'templates/partials', f);
+      const shrPath = resolve(SHARED_DIR, 'templates/partials', f);
+      const p = existsSync(gamPath) ? gamPath : shrPath;
+      return existsSync(p) ? readFileSync(p, 'utf8') : '';
+    }).join('\n'),
   };
 
   for (const [key, value] of Object.entries(templateVars)) {

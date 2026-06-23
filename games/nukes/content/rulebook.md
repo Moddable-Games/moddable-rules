@@ -13,6 +13,9 @@ first_published: "January 2012"
 variants: true
 variant_hub: false
 logo_has_title: true
+post_content:
+  - ref-page.html
+  - appendix.html
 theme:
   surface: light
   tint: warm
