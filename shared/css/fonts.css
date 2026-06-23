@@ -62,3 +62,102 @@
   font-display: swap;
   src: url(../fonts/special-elite-400.woff2) format('woff2');
 }
+
+/* Barlow - Regular 400 */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/barlow-400.woff2) format('woff2');
+}
+
+/* Barlow - Medium 500 */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/barlow-500.woff2) format('woff2');
+}
+
+/* Barlow - SemiBold 600 */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/barlow-600.woff2) format('woff2');
+}
+
+/* Barlow - Bold 700 */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/barlow-700.woff2) format('woff2');
+}
+
+/* Rajdhani - Regular 400 */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/rajdhani-400.woff2) format('woff2');
+}
+
+/* Rajdhani - Medium 500 */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/rajdhani-500.woff2) format('woff2');
+}
+
+/* Rajdhani - SemiBold 600 */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/rajdhani-600.woff2) format('woff2');
+}
+
+/* Rajdhani - Bold 700 */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/rajdhani-700.woff2) format('woff2');
+}
+
+/* JetBrains Mono - Regular 400 */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/jetbrains-mono-400.woff2) format('woff2');
+}
+
+/* JetBrains Mono - Medium 500 */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/jetbrains-mono-500.woff2) format('woff2');
+}
+
+/* JetBrains Mono - SemiBold 600 */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/jetbrains-mono-600.woff2) format('woff2');
+}
