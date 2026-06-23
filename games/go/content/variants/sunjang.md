@@ -4,7 +4,7 @@ slug: "sunjang"
 board: "19×19"
 players: "2"
 parent: "go"
-order: 8
+order: 12
 win: "Most territory at game end"
 special: "Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi."
 ---

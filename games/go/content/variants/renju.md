@@ -4,7 +4,7 @@ slug: "renju"
 board: "15×15"
 players: "2"
 parent: "go"
-order: 13
+order: 10
 win: "Five in an unbroken row (exactly five for Black)"
 special: "Competitive Gomoku with forbidden moves for Black. Governed by the Renju International Federation."
 ---

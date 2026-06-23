@@ -4,7 +4,7 @@ slug: "one-colour"
 board: "19×19"
 players: "2"
 parent: "go"
-order: 5
+order: 7
 win: "Most territory at game end"
 special: "Both players use identical stones. Must remember which are yours. Extreme memory challenge."
 ---
@@ -23,8 +23,8 @@ Standard board (any size). All stones are the same colour (traditionally all bla
 
 All standard Go rules apply. The only change is visual: both players' stones look identical on the board.
 
-- Captures still work normally — a group with zero liberties is removed regardless of appearance.
-- Ko applies normally — the referee tracks the position.
+- Captures still work normally: a group with zero liberties is removed regardless of appearance.
+- Ko applies normally: the referee tracks the position.
 - If a player attempts an illegal move (placing on an occupied intersection, violating ko, or suicide), the referee informs them and they must choose a different move.
 
 ### Practical Implementation

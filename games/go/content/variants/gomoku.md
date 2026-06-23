@@ -4,7 +4,7 @@ slug: "gomoku"
 board: "15×15"
 players: "2"
 parent: "go"
-order: 12
+order: 5
 win: "Five in an unbroken row"
 special: "Black plays first. Stones are placed, never moved. No captures."
 ---

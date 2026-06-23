@@ -4,7 +4,7 @@ slug: "rengo"
 board: "19×19"
 players: "4–6"
 parent: "go"
-order: 6
+order: 9
 win: "Most territory at game end (team)"
 special: "Team Go. Partners alternate turns. No consultation. 2v2 or 3v3."
 ---
