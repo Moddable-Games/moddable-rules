@@ -16,7 +16,7 @@ theme:
   tint: cool
   texture: none
   cover: cosmic
-  typography: classical
+  typography: modern
   accent: blue
   section-divider: "♞"
 ---

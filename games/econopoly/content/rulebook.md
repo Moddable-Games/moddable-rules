@@ -18,7 +18,7 @@ theme:
   tint: neutral
   texture: none
   cover: gradient
-  typography: classical
+  typography: modern
   accent: green
   section-divider: "$"
 ---

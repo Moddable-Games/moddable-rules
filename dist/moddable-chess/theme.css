@@ -1,5 +1,5 @@
 /* Generated theme: moddable-chess */
-/* surface:light tint:cool accent:blue texture:none cover:cosmic typography:classical */
+/* surface:light tint:cool accent:blue texture:none cover:cosmic typography:modern */
 
 /* Surface: Light — default reading surface */
 [data-surface="light"] {
@@ -74,14 +74,14 @@
   border-bottom-color: var(--accent-trans, rgba(100, 140, 200, .3));
 }
 
-/* Typography: Classical — traditional serif-led reading experience */
+/* Typography: Modern — clean sans-led, matches moddable-website */
 :root {
-  --serif: 'Crimson Pro', Georgia, serif;
-  --sans: 'Oswald', sans-serif;
-  --mono: 'Special Elite', serif;
-  --fs-body: 18px;
-  --fs-body-sm: 16px;
-  --lh-body: 1.75;
+  --serif: 'Barlow', system-ui, sans-serif;
+  --sans: 'Rajdhani', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --fs-body: 17px;
+  --fs-body-sm: 15px;
+  --lh-body: 1.7;
 }
 
 

@@ -18,7 +18,7 @@ theme:
   tint: cool
   texture: starfield
   cover: cosmic
-  typography: classical
+  typography: modern
   accent: slate
   section-divider: "✦"
 ---
