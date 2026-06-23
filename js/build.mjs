@@ -130,6 +130,15 @@ function generateThemeCSS(meta, slug) {
     css += readFileSync(overridePath, 'utf8') + '\n';
   }
 
+  // Print: lock to authored surface regardless of user toggle
+  const printSurface = resolve(THEMES_DIR, 'surfaces', `${theme.surface}.css`);
+  if (existsSync(printSurface)) {
+    const printVars = readFileSync(printSurface, 'utf8')
+      .replace(/\[data-surface="[^"]+"\]/, ':root');
+    css += `\n/* Print: force authored surface (${theme.surface}) */\n`;
+    css += `@media print {\n${printVars}\n}\n`;
+  }
+
   return css;
 }
 

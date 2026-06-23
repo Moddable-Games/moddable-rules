@@ -87,3 +87,24 @@
 
 /* Section divider */
 .section+.section::before{content:'♞';display:block;text-align:center;font-size:14px;color:var(--accent);opacity:.35;margin:-10px 0 0;line-height:1;}
+
+/* Print: force authored surface (light) */
+@media print {
+/* Surface: Light — default reading surface */
+:root {
+  --surface-mode: light;
+  --bg-primary: #f4f0e8;
+  --bg-dark: #1a1a2e;
+  --bg-darker: #0e0a06;
+  --bg-page-outer: #e8e4dc;
+  --text-primary: #1a1208;
+  --text-secondary: #4a3a28;
+  --heading-color: var(--accent-dark, #1a1208);
+  --divider-color: rgba(0, 0, 0, .12);
+  --border-subtle: rgba(0, 0, 0, .08);
+  --stripe-even: rgba(0, 0, 0, .035);
+  --box-bg: rgba(0, 0, 0, .04);
+  --box-border: rgba(0, 0, 0, .08);
+}
+
+}
