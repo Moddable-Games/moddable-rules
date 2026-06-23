@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242 70">
+  <title>Surakarta</title>
+  <!-- Corner arc icon centred in 70×70 area at (35,35) -->
+  <!-- Outer arc: r=27, red, from (62,35) to (35,62), CCW (270° exterior arc) -->
+  <path d="M 62,35 A 27,27 0 1,0 35,62" fill="none" stroke="#d11a1a" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Inner arc: r=15, blue, from (50,35) to (35,50), CCW -->
+  <path d="M 50,35 A 15,15 0 1,0 35,50" fill="none" stroke="#0c4f8d" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="82" y="46" font-family="'Inter Tight',Inter,sans-serif" font-size="26" font-weight="700" letter-spacing="1" fill="#14161c">SURAKARTA</text>
+</svg>
