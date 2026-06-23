@@ -82,7 +82,7 @@ Two types of capture exist: approach and withdrawal. Both types capture not just
 
 **Withdrawal capture:** Move a piece away from an adjacent enemy piece, so that the enemy piece lies on the intersection just vacated in the direction of travel. That enemy piece and all successive enemy pieces in an unbroken line behind it are captured simultaneously.
 
-{{svg:fanorona-capture.svg "Approach capture (left): W moves right, placing B pieces directly ahead in the line of movement — all are captured. Withdrawal capture (right): W moves right away from adjacent B pieces — all B pieces in the line behind are captured."}}
+{{svg:fanorona-capture.svg "Approach capture (left): W moves right, placing B pieces directly ahead in the line of movement; all are captured. Withdrawal capture (right): W moves right away from adjacent B pieces; all B pieces in the line behind are captured."}}
 
 If both an approach capture and a withdrawal capture are possible in the same direction at the same moment, the player must choose one or the other.
 
