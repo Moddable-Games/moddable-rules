@@ -1,0 +1,17 @@
+/* Tint: Cool — shifts background toward blue-grey */
+:root {
+  --tint-hue: 220;
+  --tint-sat: 20%;
+}
+[data-surface="light"] {
+  --bg-primary: #f0f4fa;
+  --bg-dark: #0a1628;
+  --bg-darker: #050c18;
+  --bg-page-outer: #dce4f0;
+}
+[data-surface="dark"] {
+  --bg-primary: #0e1218;
+  --bg-dark: #060a10;
+  --bg-darker: #030508;
+  --bg-page-outer: #020304;
+}

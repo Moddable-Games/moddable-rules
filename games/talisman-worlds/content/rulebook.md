@@ -12,6 +12,16 @@ status: "playtest"
 updated: "2026-06-19"
 first_published: "January 2024"
 published: true
+logo_has_title: true
+theme:
+  surface: light
+  tint: warm
+  texture: grain
+  cover: gradient
+  typography: classical
+  accent: gold
+  accent-secondary: purple
+  section-divider: "⬡"
 ---
 
 <div class="section">

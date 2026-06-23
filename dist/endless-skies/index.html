@@ -1,54 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Endless Skies — Official Rulebook v0.4.0</title>
-<meta name="description" content="Complete rules for Endless Skies, a cooperative survival game of tile-laying and resource management in procedurally generated skies for 1–4 players.">
+<meta name="description" content="4X space exploration with worker placement and fleet management">
 <meta property="og:title" content="Endless Skies — Official Rulebook v0.4.0">
-<meta property="og:description" content="Cooperative survival in procedurally generated skies — tile-laying meets resource management across three biomes.">
+<meta property="og:description" content="4X space exploration with worker placement and fleet management">
 <meta property="og:image" content="https://rules.moddable.games/games/endless-skies/og-image.png?v=1.1.17">
 <meta property="og:url" content="https://rules.moddable.games/dist/endless-skies/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Endless Skies — Official Rulebook v0.4.0">
-<meta name="twitter:description" content="A cooperative survival game of tile-laying and resource management for 1–4 players.">
+<meta name="twitter:description" content="4X space exploration with worker placement and fleet management">
 <meta name="twitter:image" content="https://rules.moddable.games/games/endless-skies/og-image.png?v=1.1.17">
-<link rel="icon" type="image/png" sizes="32x32" href="../../games/endless-skies/logos/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../games/endless-skies/logos/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../../games/endless-skies/logos/apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.4.0">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.4.0">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.4.0">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.4.0">
-<link rel="stylesheet" href="../../games/endless-skies/theme.css?v=0.4.0">
+<link rel="stylesheet" href="./theme.css?v=0.4.0">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
 <div class="page">
 
-<!-- HEADER -->
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/endless-skies/pdf/endless-skies-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Official Rulebook · v0.4.0</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/endless-skies/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/endless-skies/pdf/endless-skies-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.4.0</span>
 </header>
 
-<!-- COVER -->
 <div class="cover">
   <img class="cover-icon" src="../../games/endless-skies/logos/endless-skies-logo.png" alt="Endless Skies">
-  <div class="cover-title">ENDLESS SKIES</div>
+  <div class="cover-title cover-title--hidden">Endless Skies</div>
   <div class="cover-sub">Official Rulebook</div>
   <div class="cover-rule"></div>
-  <p class="cover-tagline">Cooperative survival in procedurally generated skies — tile-laying meets resource management</p>
+  <p class="cover-tagline">4X space exploration with worker placement and fleet management</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">1–4</span><span class="cs-lbl">Players</span></div>
-    <div class="cover-stat"><span class="cs-num">60</span><span class="cs-lbl">Minutes</span></div>
-    <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
+    <div class="cover-stat"><span class="cs-num">2–8</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">TBD</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">14+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.4.0</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.4.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -4088,15 +4089,16 @@
 <li>Alliance (shared victory conditions for specific contracts)</li>
 </ul>
 </div>
+
 </main>
 
-<!-- FOOTER -->
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.4.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
-  <span class="ftr-copy">moddable.games/tool/endless-skies</span>
+  <span class="ftr-copy">Endless Skies v0.4.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
-</div><!-- /page -->
+</div>
+
 <script type="module" src="../../js/toc.js?v=0.4.0"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Backgammon — Variant Library v0.1.1</title>
-<meta name="description" content="Complete rules for all Backgammon variants.">
+<meta name="description" content="Five thousand years of race, risk, and probability">
 <meta property="og:title" content="Backgammon — Variant Library v0.1.1">
-<meta property="og:description" content="Five thousand years of race, risk, and probability. Complete rules for 8 variants.">
+<meta property="og:description" content="Five thousand years of race, risk, and probability">
 <meta property="og:image" content="https://rules.moddable.games/games/backgammon/og-image.png?v=1.1.17">
 <meta property="og:url" content="https://rules.moddable.games/dist/backgammon/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Backgammon — Variant Library v0.1.1">
-<meta name="twitter:description" content="Five thousand years of race, risk, and probability. Complete rules for 8 variants.">
+<meta name="twitter:description" content="Five thousand years of race, risk, and probability">
 <meta name="twitter:image" content="https://rules.moddable.games/games/backgammon/og-image.png?v=1.1.17">
 <link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.1">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.1">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.1.1">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.1.1">
-<link rel="stylesheet" href="../../games/backgammon/theme.css?v=0.1.1">
+<link rel="stylesheet" href="./theme.css?v=0.1.1">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -29,12 +29,18 @@
 
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/backgammon/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/backgammon/pdf/backgammon-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Variant Library · v0.1.1</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/backgammon/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/backgammon/pdf/backgammon-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Variant Library &middot; v0.1.1</span>
 </header>
 
 <div class="cover">
-  <div class="cover-title">BACKGAMMON</div>
+  <img class="cover-icon" src="../../games/backgammon/logos/backgammon-logo.svg" alt="Backgammon">
+  <div class="cover-title ">Backgammon</div>
   <div class="cover-sub">Variant Library</div>
   <div class="cover-rule"></div>
   <p class="cover-tagline">Five thousand years of race, risk, and probability</p>
@@ -43,7 +49,7 @@
     <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">8+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.1.1</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.1.1</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -89,13 +95,16 @@
 </div>
 </div>
 
+
 </main>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Backgammon Variant Library v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Backgammon v0.1.1 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
+
 <script type="module" src="../../js/toc.js?v=0.1.1"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

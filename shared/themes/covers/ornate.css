@@ -1,0 +1,14 @@
+/* Cover: Ornate — decorative corners with rich dark background */
+.cover {
+  background: linear-gradient(160deg, #0a0806 0%, var(--accent-dark, #2a1a0a) 60%, #1a1008 100%);
+}
+
+.cover::before {
+  border-width: 3px;
+  border-color: var(--accent-trans, rgba(201, 168, 76, .4));
+}
+
+.cover::after {
+  border-width: 3px;
+  border-color: var(--accent-trans, rgba(201, 168, 76, .4));
+}

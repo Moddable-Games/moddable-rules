@@ -1,0 +1,9 @@
+/* Accent: Slate — cool neutral grey-blue */
+:root {
+  --accent: #4a6fa5;
+  --accent-dark: #2a4a70;
+  --accent-light: #7a9fd0;
+  --accent-trans: rgba(74, 111, 165, .3);
+  --accent-on-dark: #7a9fd0;
+  --accent-on-light: #2a4a70;
+}

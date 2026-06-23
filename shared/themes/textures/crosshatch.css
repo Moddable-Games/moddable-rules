@@ -1,0 +1,36 @@
+/* Texture: Crosshatch — ornamental cross pattern */
+.page {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 6px,
+      rgba(128, 100, 60, .018) 6px,
+      rgba(128, 100, 60, .018) 7px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 6px,
+      rgba(128, 100, 60, .018) 6px,
+      rgba(128, 100, 60, .018) 7px
+    );
+}
+
+[data-surface="dark"] .page {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 6px,
+      rgba(200, 180, 140, .012) 6px,
+      rgba(200, 180, 140, .012) 7px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 6px,
+      rgba(200, 180, 140, .012) 6px,
+      rgba(200, 180, 140, .012) 7px
+    );
+}

@@ -12,6 +12,15 @@ status: "playtest"
 updated: "2026-06-19"
 first_published: "January 2025"
 published: true
+logo_has_title: true
+theme:
+  surface: light
+  tint: neutral
+  texture: none
+  cover: gradient
+  typography: classical
+  accent: green
+  section-divider: "$"
 ---
 
 <div class="section">

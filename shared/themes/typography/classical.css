@@ -1,0 +1,9 @@
+/* Typography: Classical — traditional serif-led reading experience */
+:root {
+  --serif: 'Crimson Pro', Georgia, serif;
+  --sans: 'Oswald', sans-serif;
+  --mono: 'Special Elite', serif;
+  --fs-body: 18px;
+  --fs-body-sm: 16px;
+  --lh-body: 1.75;
+}

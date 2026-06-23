@@ -1,0 +1,4 @@
+/* Cover: Gradient — accent-derived dark gradient */
+.cover {
+  background: linear-gradient(160deg, #0a0a10 0%, var(--accent-dark, #1a1a2e) 50%, var(--accent, #3a3a5e) 100%);
+}

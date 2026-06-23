@@ -11,6 +11,13 @@ status: "draft"
 updated: "2026-06-21"
 published: false
 variants: false
+theme:
+  surface: light
+  tint: neutral
+  texture: none
+  cover: solid
+  typography: classical
+  accent: green
 ---
 
 <div class="section">

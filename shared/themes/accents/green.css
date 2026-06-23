@@ -1,0 +1,9 @@
+/* Accent: Green — natural green */
+:root {
+  --accent: #4a7c59;
+  --accent-dark: #2a5a38;
+  --accent-light: #7ab89c;
+  --accent-trans: rgba(74, 124, 89, .3);
+  --accent-on-dark: #7ab89c;
+  --accent-on-light: #2a5a38;
+}

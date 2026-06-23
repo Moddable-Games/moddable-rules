@@ -11,6 +11,13 @@ status: "live"
 updated: "2026-06-23"
 published: false
 variants: false
+theme:
+  surface: light
+  tint: neutral
+  texture: none
+  cover: minimal
+  typography: classical
+  accent: blue
 ---
 
 <div class="section">

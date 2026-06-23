@@ -11,6 +11,17 @@ status: "live"
 updated: "2026-06-19"
 first_published: "January 2012"
 variants: true
+variant_hub: false
+logo_has_title: true
+theme:
+  surface: light
+  tint: warm
+  texture: grain
+  cover: gradient
+  typography: classical
+  accent: amber
+  accent-secondary: teal
+  section-divider: "☢"
 ---
 
 <div class="section">

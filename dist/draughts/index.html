@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Draughts — Variant Library v0.3.0</title>
-<meta name="description" content="Complete rules for all draughts and checkers variants.">
+<meta name="description" content="The world's oldest family of capture games">
 <meta property="og:title" content="Draughts — Variant Library v0.3.0">
-<meta property="og:description" content="The world's oldest family of capture games. Complete rules for 20 variants.">
+<meta property="og:description" content="The world's oldest family of capture games">
 <meta property="og:image" content="https://rules.moddable.games/games/draughts/og-image.png?v=1.1.17">
 <meta property="og:url" content="https://rules.moddable.games/dist/draughts/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Draughts — Variant Library v0.3.0">
-<meta name="twitter:description" content="The world's oldest family of capture games. Complete rules for 20 variants.">
+<meta name="twitter:description" content="The world's oldest family of capture games">
 <meta name="twitter:image" content="https://rules.moddable.games/games/draughts/og-image.png?v=1.1.17">
 <link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.3.0">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.3.0">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.3.0">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.3.0">
-<link rel="stylesheet" href="../../games/draughts/theme.css?v=0.3.0">
+<link rel="stylesheet" href="./theme.css?v=0.3.0">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -29,12 +29,18 @@
 
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/draughts/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/draughts/pdf/draughts-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Variant Library · v0.3.0</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/draughts/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/draughts/pdf/draughts-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Variant Library &middot; v0.3.0</span>
 </header>
 
 <div class="cover">
-  <div class="cover-title">DRAUGHTS</div>
+  <img class="cover-icon" src="../../games/draughts/logos/draughts-logo.svg" alt="Draughts">
+  <div class="cover-title ">Draughts</div>
   <div class="cover-sub">Variant Library</div>
   <div class="cover-rule"></div>
   <p class="cover-tagline">The world's oldest family of capture games</p>
@@ -43,7 +49,7 @@
     <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">6+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.3.0</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.3.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -101,13 +107,16 @@
 </div>
 </div>
 
+
 </main>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Draughts Variant Library v0.3.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Draughts v0.3.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
+
 <script type="module" src="../../js/toc.js?v=0.3.0"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

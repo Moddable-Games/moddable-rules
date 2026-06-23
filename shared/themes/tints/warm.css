@@ -1,0 +1,17 @@
+/* Tint: Warm — shifts background toward cream/amber */
+:root {
+  --tint-hue: 35;
+  --tint-sat: 30%;
+}
+[data-surface="light"] {
+  --bg-primary: #f4f0e8;
+  --bg-dark: #1e1408;
+  --bg-darker: #0e0a06;
+  --bg-page-outer: #e8e0d4;
+}
+[data-surface="dark"] {
+  --bg-primary: #18140e;
+  --bg-dark: #0e0a06;
+  --bg-darker: #080602;
+  --bg-page-outer: #040200;
+}

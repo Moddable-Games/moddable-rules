@@ -1,0 +1,9 @@
+/* Accent: Red — bold primary red */
+:root {
+  --accent: #d42b2b;
+  --accent-dark: #a01e1e;
+  --accent-light: #f06060;
+  --accent-trans: rgba(212, 43, 43, .3);
+  --accent-on-dark: #f06060;
+  --accent-on-light: #a01e1e;
+}

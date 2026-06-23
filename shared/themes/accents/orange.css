@@ -1,0 +1,9 @@
+/* Accent: Orange — warm sunset orange */
+:root {
+  --accent: #e87040;
+  --accent-dark: #c45830;
+  --accent-light: #f09060;
+  --accent-trans: rgba(232, 112, 64, .3);
+  --accent-on-dark: #f09060;
+  --accent-on-light: #c45830;
+}

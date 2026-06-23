@@ -1,54 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NUKES — Official Rulebook v0.9.7</title>
-<meta name="description" content="Complete rules for NUKES, a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
-<meta property="og:title" content="NUKES — Official Rulebook v0.9.7">
-<meta property="og:description" content="Complete rules for NUKES, a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<title>Nukes — Official Rulebook v0.9.7</title>
+<meta name="description" content="Cold-war territory control on a hex map with nuclear brinkmanship">
+<meta property="og:title" content="Nukes — Official Rulebook v0.9.7">
+<meta property="og:description" content="Cold-war territory control on a hex map with nuclear brinkmanship">
 <meta property="og:image" content="https://rules.moddable.games/games/nukes/og-image.png?v=1.1.17">
 <meta property="og:url" content="https://rules.moddable.games/dist/nukes/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="NUKES — Official Rulebook v0.9.7">
-<meta name="twitter:description" content="A tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<meta name="twitter:title" content="Nukes — Official Rulebook v0.9.7">
+<meta name="twitter:description" content="Cold-war territory control on a hex map with nuclear brinkmanship">
 <meta name="twitter:image" content="https://rules.moddable.games/games/nukes/og-image.png?v=1.1.17">
-<link rel="icon" type="image/png" sizes="32x32" href="../../games/nukes/logos/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../games/nukes/logos/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../../games/nukes/logos/apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.9.7">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.9.7">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.9.7">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.9.7">
-<link rel="stylesheet" href="../../games/nukes/theme.css?v=0.9.7">
+<link rel="stylesheet" href="./theme.css?v=0.9.7">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
 <div class="page">
 
-<!-- HEADER -->
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/nukes/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/nukes/pdf/nukes-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Official Rulebook · v0.9.7</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/nukes/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/nukes/pdf/nukes-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.9.7</span>
 </header>
 
-<!-- COVER -->
 <div class="cover">
-  <img class="cover-icon" src="../../games/nukes/logos/nukes-logo.jpg" alt="Nukes">
-  <div class="cover-title">NUKES</div>
+  <img class="cover-icon" src="../../games/nukes/logos/nukes-logo.png" alt="Nukes">
+  <div class="cover-title cover-title--hidden">Nukes</div>
   <div class="cover-sub">Official Rulebook</div>
   <div class="cover-rule"></div>
-  <p class="cover-tagline">A strategic hex-tile board game of territory, attrition, and nuclear brinkmanship</p>
+  <p class="cover-tagline">Cold-war territory control on a hex map with nuclear brinkmanship</p>
   <div class="cover-stats">
     <div class="cover-stat"><span class="cs-num">2–3</span><span class="cs-lbl">Players</span></div>
-    <div class="cover-stat"><span class="cs-num">45+</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">45+ min</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">12+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.9.7</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.9.7</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -1144,252 +1145,16 @@
 </div>
 </div>
 
+
 </main>
 
-<div class="ref-page">
-<div class="eyebrow eyebrow--ref">Quick Reference — Bookmark Card</div>
-<h2>Rules at a Glance</h2>
-
-<!-- UNIT BOOKMARK CARDS -->
-<div class="bookmark-wrap">
-
-<div class="bm-card">
-<div class="bm-card-title">Infantry</div>
-<span class="bm-unit-icon">🪖</span>
-<div class="bm-count">1 unit</div>
-<div class="bm-restrict">
-<div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass own Infantry</div>
-<div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass own Artillery</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases/Cities</div>
-<div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass enemy units</div>
-</div>
-<div class="bm-biomes">
-<div class="bm-label">Biomes</div>
-<div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
-<div class="bm-row"><div class="bm-dot dot-desert"></div>✗ Desert alone</div>
-</div>
-</div>
-
-<div class="bm-card">
-<div class="bm-card-title">Artillery</div>
-<span class="bm-unit-icon">🎯</span>
-<div class="bm-count">2 units</div>
-<div class="bm-restrict">
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy infantry</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy artillery</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases</div>
-<div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy Airborne/Base</div>
-</div>
-<div class="bm-biomes">
-<div class="bm-label">Biomes</div>
-<div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
-<div class="bm-row"><div class="bm-dot dot-forest"></div>? Cannot attack from</div>
-</div>
-</div>
-
-<div class="bm-card">
-<div class="bm-card-title">Airborne</div>
-<span class="bm-unit-icon">✈️</span>
-<div class="bm-count">3 units</div>
-<div class="bm-restrict">
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own infantry</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own artillery</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Airborne</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Bases</div>
-<div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy infantry/artillery</div>
-</div>
-<div class="bm-biomes">
-<div class="bm-label">Biomes</div>
-<div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Mountain alone</div>
-<div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Cannot pass w/o Base</div>
-</div>
-</div>
-
-<div class="bm-card">
-<div class="bm-card-title">Nuke</div>
-<span class="bm-unit-icon">☢️</span>
-<div class="bm-count">1 unit + isotope</div>
-<div class="bm-restrict">
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy infantry</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own artillery</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Airborne</div>
-<div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Bases</div>
-<div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy artillery/airborne/base</div>
-</div>
-<div class="bm-biomes">
-<div class="bm-label">Biomes</div>
-<div class="bm-row"><div class="bm-dot dot-water"></div>? Cannot target empty</div>
-</div>
-</div>
-
-<div class="bm-card">
-<div class="bm-card-title">Bases</div>
-<span class="bm-unit-icon">🏰</span>
-<div class="bm-count">4–9 units</div>
-<div class="bm-restrict">
-<div class="bm-row"><div class="bm-dot dot-grey"></div>Does not move</div>
-<div class="bm-row"><div class="bm-dot dot-grey"></div>Max 9 units</div>
-<div class="bm-row"><div class="bm-dot dot-grey"></div>+1 strength to passing platoons</div>
-<div class="bm-row"><div class="bm-dot dot-grey"></div>Convert 1 unit → isotope when you add units</div>
-</div>
-<div class="bm-biomes">
-<div class="bm-label">Meltdown</div>
-<div class="bm-row"><div class="bm-dot dot-r"></div>Returning hostage to full Base → Biohazard</div>
-</div>
-</div>
-
-</div>
-
-<!-- BIOME CHIPS -->
-<div class="biome-key">
-<div class="biome-key-title">Biome Key</div>
-<div class="biome-ref-row">
-<span class="biome-chip chip-fields">Fields — No restrictions</span>
-<span class="biome-chip chip-forest">Forest — Artillery can't attack</span>
-<span class="biome-chip chip-mountain">Mountain — Airborne needs Base</span>
-<span class="biome-chip chip-desert">Desert — Infantry dies alone</span>
-<span class="biome-chip chip-water">Water — Infantry &amp; Artillery die alone</span>
-<span class="biome-chip chip-hazard">Biohazard — Nothing may rest here</span>
-<span class="biome-chip chip-city">City — Base for movement only</span>
-</div>
-</div>
-
-<!-- REF GRID -->
-<div class="ref-grid">
-<div class="ref-card">
-<div class="ref-card-title">Turn Structure</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Phase 1: Return 1–3 to owner's regions (max 1 per region)</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Phase 2: 1 move per hostage returned (optional)</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Max 3 units moved total per turn</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Same unit can't move twice (except slingshot)</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Phase 3: terrain destruction at end of full turn</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>No hostages OR no units = eliminated</div>
-</div>
-<div class="ref-card">
-<div class="ref-card-title">Combat Strength</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Attacker needs strictly MORE than defender</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Attacker: +1 per unit adjacent to target hex</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Attacker: +1 per Base passed through en route</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Defender: +1 per adjacent Base only (not plain units)</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Capture: sacrifice 1 own unit per 1 captured</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Attacker chooses which enemy units to take</div>
-</div>
-<div class="ref-card">
-<div class="ref-card-title">Victory &amp; Nukes</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Destroy an opponent's city</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Base on opponent's city (4+ units)</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Last player with hostages + units</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Nuke: target + 6 surrounding units destroyed immediately</div>
-<div class="ref-rule"><span class="ref-dot">◆</span><strong>Meltdown:</strong> 9-unit overflow — target hex→Biohazard, surrounding hexes unaffected</div>
-<div class="ref-rule"><span class="ref-dot">◆</span>Win is immediate — no further turns</div>
-</div>
-</div>
-</div>
-
-<!-- ══════════════════════════════ APPENDIX A -->
-
-
-<div class="appendix">
-<div class="eyebrow">Appendix A</div>
-<h2>Rules Clarifications</h2>
-<p>All clarifications below have been confirmed by the game's designer. Items marked <span class="clar-new">New</span> are rules not explicitly stated in previous versions of the rulebook.</p>
-
-<div class="clar-item">
-<div class="clar-q">How exactly does the hostage return mechanic work?</div>
-<div class="clar-a">When you return a hostage, you take one of your opponent's tokens and place it into a region on the board where <strong>that opponent already has at least one unit present</strong>. The token physically joins that region, increasing the unit count — potentially upgrading the platoon type (e.g. turning Artillery into Airborne, or forming a Base). You are not returning tokens to your own regions. You are reinforcing your enemy's forces on the board in exchange for earning a move. This tension — moves cost you enemy strength — is the engine of the game.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Does returning a hostage token trigger Base formation and isotope conversion? <span class="clar-new">New</span></div>
-<div class="clar-a">If a returned token brings a region to 4+ units, a Base forms immediately. However, <strong>isotope conversion does not trigger</strong> — it only triggers when a player adds units to their own Base through their own movement on their own turn. The opponent whose Base was bolstered cannot convert an isotope at that moment.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">What is a Meltdown and is it intentional? <span class="clar-new">New</span></div>
-<div class="clar-a">A Meltdown occurs when a hostage token is returned to a region already at 9 units. The target region is immediately converted to Biohazard and all units on it are destroyed. The 6 surrounding regions are completely unaffected — this is the key distinction from a Nuke. A Meltdown is a <strong>legal and intentional offensive tactic</strong>: you may deliberately return a token to a full enemy Base to trigger this effect, earning a move in the process.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">What blocks Infantry movement?</div>
-<div class="clar-a">Infantry cannot pass through regions containing friendly Infantry or Artillery platoons, or any enemy units. Infantry <strong>can</strong> pass through regions containing friendly Airborne, Bases, and Cities. This means the positioning of your own platoons creates movement corridors and dead ends for your own Infantry.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Can Airborne pass through mountains?</div>
-<div class="clar-a"><strong>Only with Base support.</strong> Airborne cannot pass through or end its turn in a mountain region unless one of your own Bases is also present there. Without a Base, mountains are completely off-limits for Airborne — both as an intermediate step and as a destination.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">How many direction changes can artillery or a nuke make in one move?</div>
-<div class="clar-a"><strong>As many as it passes over friendly Airborne or Bases.</strong> Each friendly Airborne or Base it passes over may pivot it to any new hex direction. There is <span class="nowrap">no limit per move.</span></div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Can a nuke fire into an adjacent hex?</div>
-<div class="clar-a"><strong>No.</strong> A nuke must jump over at least one occupied intermediate region. It cannot be fired into a hex directly adjacent to its launching Base.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">How does the Airborne Slingshot work — and can Airborne return to its starting region?</div>
-<div class="clar-a">Declare the entire slingshot chain at once. Each intermediate Airborne unit or Base may only serve as a launch point <em>once</em> per chain — this prevents a Base being used repeatedly, but does not prevent the airborne from landing back at its starting region if it arrives there via a legal final 2-region leg. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 <span class="nowrap">units toward the turn's maximum.</span></div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Can a unit that changed platoon type mid-turn move again as its new type? <span class="clar-new">New</span></div>
-<div class="clar-a"><strong>No.</strong> If any unit in a region was involved in a move this turn, the entire region is locked. For example: Infantry moves into a region containing another Infantry, forming Artillery (2 units). That Artillery cannot then perform a jump — because the units in that region have already moved. The "no unit moves twice" rule applies to all units in the destination region, not just the arriving unit.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">When does terrain destruction trigger, and why does it matter?</div>
-<div class="clar-a"><strong>At the very end of the turn</strong> — Phase 3 — once all moves and combat are resolved. <span class="nowrap">Only the final resting position matters.</span> A platoon may transit through restricted terrain regions mid-move and end safely elsewhere — it will not be destroyed. The key question is always: what is the unit count in this region at end of turn, and is that platoon type permitted here? Nuke blasts and Meltdowns are the exception: those are immediate.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">How do terrain restrictions interact with fluid platoons?</div>
-<div class="clar-a">Always evaluate the unit count at end of turn. If hostage returns place 3 of your opponent's units into a water region over multiple turns, those 3 units form Airborne — which has no water restriction. The restriction depends on the final platoon type: 1 unit in water (Infantry) = destroyed. 2 units in water (Artillery) = destroyed. 3 units in water (Airborne) = safe. The key question is always: what is the unit count at end of turn, and is that platoon type restricted here?</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Does the attacker's origin region count toward the surrounding bonus?</div>
-<div class="clar-a"><strong>Yes</strong>, if the origin region is adjacent to the target and still has units in it after the attacking platoon departed. The surrounding bonus is calculated based on the 6 hexes adjacent to the <em>target region</em>.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Why do defenders only benefit from adjacent Bases — not plain units?</div>
-<div class="clar-a">This asymmetry is <strong>intentional design</strong>. Attackers gain +1 per any adjacent unit; defenders gain +1 per adjacent Base only. This makes Bases uniquely valuable for defence and rewards building Bases near contested territory rather than massing plain units. It also means offence is generally easier than defence — encouraging dynamic, aggressive play.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Do cities provide combat strength bonuses? <span class="clar-new">New</span></div>
-<div class="clar-a">Cities with <strong>fewer than 4 units</strong> provide no combat adjacency bonus — movement only. Cities with <strong>4 or more units</strong> contain a real Base, which provides the normal +1 combat adjacency bonus. Cities also provide a pass-through combat bonus (+1) to platoons moving through or over them en route to an attack — but not to units starting their move from within that city.</div>
-</div>
-
-<div class="clar-item">
-<div class="clar-q">Can multiple isotopes be placed in a nuke target? <span class="clar-new">New</span></div>
-<div class="clar-a"><strong>Yes.</strong> You may place as many isotopes as you choose into the target region before firing. Each one adds +1 to the nuke's strength beyond the base of 2. All placed isotopes are consumed regardless of outcome.</div>
-</div>
-
-
-<div class="clar-item">
-<div class="clar-q">What can artillery land on after pivoting at a Base? <span class="clar-new">New</span></div>
-<div class="clar-a">After arriving at the pivot Base, artillery may land on: the <strong>Base itself</strong> (units merge); any of the <strong>5 adjacent hexes it did not arrive from</strong> (whether empty or containing friendly units — units merge via fluid rules); or <strong>further beyond</strong> any of those adjacent hexes that contain units, by jumping over them exactly as normal. How far artillery can reach in any direction depends entirely on what units are present around the Base — the pivot simply opens up all directions, and the standard jump rules apply from there.</div>
-</div>
-<div class="clar-item">
-<div class="clar-q">Are there two separate ways to be eliminated?</div>
-<div class="clar-a"><strong>Yes — two independent triggers.</strong> Hostage Attrition (no hostages to return at start of your turn) or Total Annihilation (no units on the board at any point). Either condition alone is sufficient. When eliminated, all your tokens everywhere are removed from the game immediately — including those held as hostages by others.</div>
-</div>
-</div>
-
-
-<!-- FOOTER -->
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.9.7 · Published by Moddable Games · © 2012–2026 All Rights Reserved</span>
-  <span class="ftr-copy">moddable.games/tool/nukes</span>
+  <span class="ftr-copy">Nukes v0.9.7 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
-</div><!-- /page -->
+</div>
+
 <script type="module" src="../../js/toc.js?v=0.9.7"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

@@ -11,6 +11,16 @@ status: "dev"
 updated: "2026-06-04"
 first_published: "January 2025"
 published: false
+logo_has_title: true
+theme:
+  surface: light
+  tint: warm
+  texture: grain
+  cover: gradient
+  typography: classical
+  accent: red
+  accent-secondary: purple
+  section-divider: "⚡"
 ---
 
 <div class="section">

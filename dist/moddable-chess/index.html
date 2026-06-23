@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moddable Chess — Complete Variant Library v0.4.4</title>
-<meta name="description" content="Rules for every chess variant supported by the Moddable Chess engine.">
+<title>Moddable Chess — Variant Library v0.4.4</title>
+<meta name="description" content="Every chess variant, one engine">
 <meta property="og:title" content="Moddable Chess — Variant Library v0.4.4">
-<meta property="og:description" content="Every chess variant, one engine. Complete rules for 73 variants.">
+<meta property="og:description" content="Every chess variant, one engine">
 <meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.1.17">
 <meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Moddable Chess — Variant Library v0.4.4">
-<meta name="twitter:description" content="Every chess variant, one engine. Complete rules for 73 variants.">
+<meta name="twitter:description" content="Every chess variant, one engine">
 <meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.1.17">
 <link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.4.4">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.4.4">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.4.4">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.4.4">
-<link rel="stylesheet" href="../../games/moddable-chess/theme.css?v=0.4.4">
+<link rel="stylesheet" href="./theme.css?v=0.4.4">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -29,13 +29,19 @@
 
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/moddable-chess/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/moddable-chess/pdf/moddable-chess-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Variant Library · v0.4.4</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/moddable-chess/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/moddable-chess/pdf/moddable-chess-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Variant Library &middot; v0.4.4</span>
 </header>
 
 <div class="cover">
-  <div class="cover-title">MODDABLE CHESS</div>
-  <div class="cover-sub">Complete Variant Library</div>
+  <img class="cover-icon" src="../../games/moddable-chess/logos/moddable-chess-logo.svg" alt="Moddable Chess">
+  <div class="cover-title ">Moddable Chess</div>
+  <div class="cover-sub">Variant Library</div>
   <div class="cover-rule"></div>
   <p class="cover-tagline">Every chess variant, one engine</p>
   <div class="cover-stats">
@@ -43,7 +49,7 @@
     <div class="cover-stat"><span class="cs-num">2–6</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.4.4</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.4.4</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -168,13 +174,16 @@
 </div>
 </div>
 
+
 </main>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.4.4 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Moddable Chess v0.4.4 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
+
 <script type="module" src="../../js/toc.js?v=0.4.4"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

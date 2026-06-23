@@ -1,53 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Talisman Worlds — Official Rulebook v0.3.0</title>
-<meta name="description" content="Open-world hex tiles for Talisman — a new map every session. A reskin mod for Talisman 4e.">
+<meta name="description" content="A new hex board every game of Talisman">
 <meta property="og:title" content="Talisman Worlds — Official Rulebook v0.3.0">
-<meta property="og:description" content="Open-world hex tiles for Talisman — a new map every session.">
+<meta property="og:description" content="A new hex board every game of Talisman">
 <meta property="og:image" content="https://rules.moddable.games/games/talisman-worlds/og-image.png?v=1.1.17">
 <meta property="og:url" content="https://rules.moddable.games/dist/talisman-worlds/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Talisman Worlds — Official Rulebook v0.3.0">
-<meta name="twitter:description" content="Open-world hex tiles for Talisman — a new map every session.">
+<meta name="twitter:description" content="A new hex board every game of Talisman">
 <meta name="twitter:image" content="https://rules.moddable.games/games/talisman-worlds/og-image.png?v=1.1.17">
-<link rel="icon" type="image/png" sizes="32x32" href="../../games/talisman-worlds/logos/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../games/talisman-worlds/logos/favicon-16.png">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.3.0">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.3.0">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.3.0">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.3.0">
-<link rel="stylesheet" href="../../games/talisman-worlds/theme.css?v=0.3.0">
+<link rel="stylesheet" href="./theme.css?v=0.3.0">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
 <div class="page">
 
-<!-- HEADER -->
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/talisman-worlds/pdf/talisman-worlds-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Mod of Talisman 4e · v0.3.0</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/talisman-worlds/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/talisman-worlds/pdf/talisman-worlds-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.3.0</span>
 </header>
 
-<!-- COVER -->
 <div class="cover">
   <img class="cover-icon" src="../../games/talisman-worlds/logos/talisman-worlds-logo.png" alt="Talisman Worlds">
-  <div class="cover-title">TALISMAN: HEXED</div>
+  <div class="cover-title cover-title--hidden">Talisman Worlds</div>
   <div class="cover-sub">Official Rulebook</div>
   <div class="cover-rule"></div>
-  <p class="cover-tagline">Open-world hex tiles for Talisman — a new map every session</p>
+  <p class="cover-tagline">A new hex board every game of Talisman</p>
   <div class="cover-stats">
     <div class="cover-stat"><span class="cs-num">2–6</span><span class="cs-lbl">Players</span></div>
-    <div class="cover-stat"><span class="cs-num">90</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">90 min</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">13+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.3.0</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.3.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -649,14 +651,16 @@ You cannot move on until you have defeated the Werewolf.</p>
 </ul>
 </div>
 
+
 </main>
 
-<!-- FOOTER -->
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.3.0 · Published by Moddable Games · © 2024–2026 All Rights Reserved</span>
+  <span class="ftr-copy">Talisman Worlds v0.3.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
+
 <script type="module" src="../../js/toc.js?v=0.3.0"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

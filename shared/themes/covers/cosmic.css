@@ -1,0 +1,5 @@
+/* Cover: Cosmic — deep space gradient with no hard boundary */
+.cover {
+  background: linear-gradient(160deg, #020610 0%, #0a1628 40%, var(--accent-dark, #0c2e5a) 100%);
+  border-bottom-color: var(--accent-trans, rgba(100, 140, 200, .3));
+}

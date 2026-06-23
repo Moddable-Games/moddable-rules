@@ -11,6 +11,14 @@ status: "alpha"
 updated: "2026-06-23"
 published: true
 variants: true
+theme:
+  surface: light
+  tint: cool
+  texture: none
+  cover: cosmic
+  typography: classical
+  accent: blue
+  section-divider: "♞"
 ---
 
 <div class="section variant-hub">

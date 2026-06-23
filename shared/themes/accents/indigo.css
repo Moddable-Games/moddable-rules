@@ -1,0 +1,9 @@
+/* Accent: Indigo — deep blue-violet */
+:root {
+  --accent: #2d3a8c;
+  --accent-dark: #1a2460;
+  --accent-light: #6070c8;
+  --accent-trans: rgba(45, 58, 140, .3);
+  --accent-on-dark: #6070c8;
+  --accent-on-light: #1a2460;
+}

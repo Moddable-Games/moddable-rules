@@ -57,10 +57,43 @@ body {
   padding: 40px 48px 80px;
 }
 
+/* Surface toggle */
+.surface-toggle {
+  position: absolute;
+  top: 0;
+  right: 48px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 16px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+.surface-toggle:hover {
+  border-color: var(--border-hover);
+  color: var(--text);
+}
+
+/* Light surface override */
+[data-surface="light"] {
+  --bg: #f5f4ef;
+  --surface: #ffffff;
+  --surface-hover: #f0ede8;
+  --surface-active: #e8e4dc;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(0, 0, 0, 0.15);
+  --text: #14161c;
+  --text-secondary: #4a4540;
+  --text-dim: #8a8580;
+}
+
 /* Header — minimal nav bar */
 .landing-header {
   margin-bottom: 48px;
   text-align: center;
+  position: relative;
 }
 
 .landing-logo {
@@ -645,3 +678,11 @@ body {
     opacity: 1;
   }
 }
+
+/* Light surface overrides for elements with hardcoded rgba values */
+[data-surface="light"] .filter-pill--all.active { background: rgba(0, 0, 0, 0.08); }
+[data-surface="light"] .game-card { box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+[data-surface="light"] .game-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+[data-surface="light"] .badge { background: rgba(0, 0, 0, 0.06); }
+[data-surface="light"] .card-desc { background: linear-gradient(to top, var(--surface) 0%, var(--surface) 60%, transparent 100%); }
+[data-surface="light"] .landing-logo { filter: invert(1); }
