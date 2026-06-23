@@ -37,7 +37,7 @@ Checkmate.
 
 ### Strategy
 
-Passed pawns become much more dangerous because they can sprint two squares at a time. Pawn endgames are sharply different — a pawn on the 5th rank can reach promotion in two moves instead of three. Blockading passed pawns is more difficult. Connected pawns rolling forward together are extremely powerful.
+Passed pawns become much more dangerous because they can sprint two squares at a time. Pawn endgames are sharply different: a pawn on the 5th rank can reach promotion in two moves instead of three. Blockading passed pawns is more difficult. Connected pawns rolling forward together are extremely powerful.
 
 ### Attribution
 

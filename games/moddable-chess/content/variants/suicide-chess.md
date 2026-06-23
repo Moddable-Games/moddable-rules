@@ -26,7 +26,7 @@ Nearly identical to Giveaway (forced captures, lose all pieces to win), with one
 ### Rules
 
 - If you can capture, you MUST capture. If multiple captures are available, you choose which one.
-- The King is not royal — there is no check or checkmate. The King can be captured like any other piece.
+- The King is not royal; there is no check or checkmate. The King can be captured like any other piece.
 - No castling.
 - Pawns promote normally.
 - Stalemate = draw (unlike Giveaway where stalemate is a loss).
