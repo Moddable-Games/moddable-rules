@@ -4,14 +4,13 @@ slug: "weak"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 70
 win: "Checkmate"
 special: "Weakest piece type with a legal move must move first."
 ---
 
 ## Weak!
 
-On each turn, you MUST move the weakest piece type that has a legal move. Pawns first, then Knights, Bishops, Rooks, Queen, King — in order of weakness.
+On each turn, you MUST move the weakest piece type that has a legal move. Pawns first, then Knights, Bishops, Rooks, Queen, King, in order of weakness.
 
 
 {{svg:weak-board.svg "Weak! — starting position"}}
@@ -40,7 +39,7 @@ Checkmate.
 
 ### Strategy
 
-The opening is entirely pawn play since pawns must move first. Once pawns are blocked or captured, knights activate, then bishops, and so on. Lock your opponent's pawns to force them into using pieces prematurely. Pawn structure is paramount. Sacrifice pawns strategically to "unlock" stronger pieces earlier. Endgames are wild — losing your last pawn frees your pieces entirely.
+The opening is entirely pawn play since pawns must move first. Once pawns are blocked or captured, knights activate, then bishops, and so on. Lock your opponent's pawns to force them into using pieces prematurely. Pawn structure is paramount. Sacrifice pawns strategically to "unlock" stronger pieces earlier. Endgames are wild: losing your last pawn frees your pieces entirely.
 
 ### Attribution
 

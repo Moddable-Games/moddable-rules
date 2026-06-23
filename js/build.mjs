@@ -237,6 +237,17 @@ function buildGame(slug) {
   mkdirSync(outDir, { recursive: true });
   writeFileSync(resolve(outDir, 'index.html'), output);
 
+  // Safety net: warn if shell template is missing PDF link
+  const shellContent = readFileSync(templatePath, 'utf8');
+  if (!shellContent.includes('.pdf')) {
+    console.warn(`  ⚠ ${slug}: shell template has no PDF link`);
+  }
+  // Safety net: warn if rulebook PDF doesn't exist on disk
+  const pdfPath = resolve(gameDir, 'pdf', `${slug}-rulebook.pdf`);
+  if (!existsSync(pdfPath)) {
+    console.warn(`  ⚠ ${slug}: no PDF found at games/${slug}/pdf/${slug}-rulebook.pdf`);
+  }
+
   console.log(`  Built dist/${slug}/index.html`);
 }
 
@@ -265,7 +276,12 @@ function buildVariants(slug) {
     return { file, meta, content, slug: meta.slug || file.replace('.md', '') };
   });
 
-  variants.sort((a, b) => (a.meta.order || 999) - (b.meta.order || 999));
+  variants.sort((a, b) => {
+    const ao = a.meta.order ?? Infinity;
+    const bo = b.meta.order ?? Infinity;
+    if (ao !== bo) return ao - bo;
+    return (a.meta.title || a.slug).localeCompare(b.meta.title || b.slug);
+  });
 
   for (let i = 0; i < variants.length; i++) {
     const { meta, content, slug: variantSlug } = variants[i];
@@ -315,6 +331,15 @@ function buildVariants(slug) {
   }
 
   console.log(`  Built ${variants.length} variant pages for ${slug}`);
+
+  // Safety net: warn if any variant files are not linked from the hub rulebook
+  const parentContent = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const linkedSlugs = new Set([...parentContent.matchAll(/variants\/([^/)"]+)/g)].map(m => m[1]));
+  const unlisted = variants.filter(v => v.slug !== 'standard' && !linkedSlugs.has(v.slug));
+  if (unlisted.length > 0) {
+    console.warn(`  ⚠ ${unlisted.length} variant(s) not linked from hub page:`);
+    unlisted.forEach(v => console.warn(`    - ${v.slug}`));
+  }
 }
 
 // --- Generate landing page from frontmatter ---

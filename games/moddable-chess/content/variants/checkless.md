@@ -4,7 +4,6 @@ slug: "checkless"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 12
 win: "Checkmate"
 special: "Cannot give check unless it is checkmate. King becomes aggressive."
 ---

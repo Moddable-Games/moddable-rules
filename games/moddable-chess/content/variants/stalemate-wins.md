@@ -4,7 +4,6 @@ slug: "stalemate-wins"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 63
 win: "Checkmate or stalemate"
 special: "Standard chess but stalemate is a win, not a draw."
 ---
@@ -36,7 +35,7 @@ Checkmate OR stalemate your opponent.
 
 ### Strategy
 
-This variant makes King and Pawn endgames far more decisive. In standard chess, many K+P vs K positions are drawn because the defending King reaches a stalemate square. Here, those are all wins. The Queen becomes even more dominant — her ability to restrict the enemy King's squares creates stalemate threats. Trading down when ahead in material is even stronger because stalemate is now a winning technique, not something to avoid.
+This variant makes King and Pawn endgames far more decisive. In standard chess, many K+P vs K positions are drawn because the defending King reaches a stalemate square. Here, those are all wins. The Queen becomes even more dominant: her ability to restrict the enemy King's squares creates stalemate threats. Trading down when ahead in material is even stronger because stalemate is now a winning technique, not something to avoid.
 
 ### Attribution
 

@@ -4,7 +4,6 @@ slug: "crazyhouse"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 16
 win: "Checkmate"
 special: "Captured pieces switch sides and can be dropped back onto the board."
 ---

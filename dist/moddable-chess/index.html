@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moddable Chess — Complete Variant Library v0.4.3</title>
+<title>Moddable Chess — Complete Variant Library v0.4.4</title>
 <meta name="description" content="Rules for every chess variant supported by the Moddable Chess engine.">
-<meta property="og:title" content="Moddable Chess — Variant Library v0.4.3">
-<meta property="og:description" content="Every chess variant, one engine. Complete rules for 70 variants.">
-<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.1.16">
+<meta property="og:title" content="Moddable Chess — Variant Library v0.4.4">
+<meta property="og:description" content="Every chess variant, one engine. Complete rules for 73 variants.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.1.17">
 <meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Moddable Chess — Variant Library v0.4.3">
-<meta name="twitter:description" content="Every chess variant, one engine. Complete rules for 70 variants.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.1.16">
+<meta name="twitter:title" content="Moddable Chess — Variant Library v0.4.4">
+<meta name="twitter:description" content="Every chess variant, one engine. Complete rules for 73 variants.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.1.17">
 <link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.4.3">
-<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.4.3">
-<link rel="stylesheet" href="../../shared/css/base.css?v=0.4.3">
-<link rel="stylesheet" href="../../shared/css/components.css?v=0.4.3">
-<link rel="stylesheet" href="../../games/moddable-chess/theme.css?v=0.4.3">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.4.4">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.4.4">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.4.4">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.4.4">
+<link rel="stylesheet" href="../../games/moddable-chess/theme.css?v=0.4.4">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -30,7 +30,7 @@
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
   <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/moddable-chess/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/moddable-chess/pdf/moddable-chess-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Variant Library · v0.4.3</span>
+  <span class="hdr-meta">Variant Library · v0.4.4</span>
 </header>
 
 <div class="cover">
@@ -39,11 +39,11 @@
   <div class="cover-rule"></div>
   <p class="cover-tagline">Every chess variant, one engine</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">70</span><span class="cs-lbl">Variants</span></div>
+    <div class="cover-stat"><span class="cs-num">73</span><span class="cs-lbl">Variants</span></div>
     <div class="cover-stat"><span class="cs-num">2–6</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.4.3</p>
+  <p class="cover-pub">Published by Moddable Games · v0.4.4</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -52,34 +52,46 @@
 
 <div class="section variant-hub">
 <h2>Variant Library</h2>
-<p>Moddable Chess includes 70 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.</p>
+<p>Moddable Chess includes 73 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.</p>
 <h3>Standard Board (8×8)</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/standard/">Standard Chess</a> — Classic FIDE rules</li>
+<li><a href="variants/absorption/">Absorption Chess</a> — Capturing piece gains the victim’s movement permanently</li>
 <li><a href="variants/andernach/">Andernach Chess</a> — Capturing piece changes colour</li>
 <li><a href="variants/atomic/">Atomic</a> — Captures explode adjacent pieces</li>
 <li><a href="variants/benedict/">Benedict Chess</a> — Attacked enemies convert colour</li>
 <li><a href="variants/berserk/">Berserk Chess</a> — Check grants a bonus move</li>
 <li><a href="variants/checkless/">Checkless Chess</a> — No check unless it is checkmate</li>
+<li><a href="variants/crazyhouse/">Crazyhouse</a> — Captured pieces switch sides and drop back onto the board</li>
+<li><a href="variants/cylinder-chess/">Cylinder Chess</a> — Files wrap, a-file connects to h-file</li>
 <li><a href="variants/dark-chess/">Dark Chess</a> — Only see squares your pieces occupy</li>
 <li><a href="variants/dice-chess/">Dice Chess</a> — Die roll constrains piece type</li>
+<li><a href="variants/displacement-chess/">Displacement Chess</a> — Swap positions with adjacent friendly pieces</li>
 <li><a href="variants/duck-chess/">Duck Chess</a> — Place a blocker duck after each move</li>
+<li><a href="variants/einstein-chess/">Einstein Chess</a> — Captures promote pieces, non-captures demote them</li>
 <li><a href="variants/extinction/">Extinction Chess</a> — Lose when any piece type is eliminated</li>
 <li><a href="variants/fischer-random/">Fischer Random</a> — 960 randomised starting positions</li>
 <li><a href="variants/fog-of-war/">Fog of War</a> — Only see squares your pieces attack</li>
 <li><a href="variants/grid-chess/">Grid Chess</a> — Moves must cross a 2×2 grid line</li>
+<li><a href="variants/hoppel-poppel/">Hoppel-Poppel</a> — Knights capture like bishops, bishops capture like knights</li>
 <li><a href="variants/horde/">Horde Chess</a> — 36 pawns vs a normal army</li>
+<li><a href="variants/immunization-chess/">Immunization Chess</a> — Captures make adjacent enemies immune for 2 turns</li>
 <li><a href="variants/king-of-the-hill/">King of the Hill</a> — King reaches centre = instant win</li>
 <li><a href="variants/madrasi/">Madrasi Chess</a> — Same-type opposing pieces paralyse each other</li>
 <li><a href="variants/maharaja/">Maharaja &amp; Sepoys</a> — One super-piece vs a full army</li>
 <li><a href="variants/marseillais/">Marseillais</a> — Two moves per turn</li>
+<li><a href="variants/medusa-chess/">Medusa Chess</a> — Queen petrifies enemy pieces she attacks</li>
 <li><a href="variants/no-castling/">No Castling</a> — Standard chess, castling disabled</li>
 <li><a href="variants/no-retreat/">No Retreat</a> — Pieces cannot move backward</li>
 <li><a href="variants/patrol/">Patrol Chess</a> — Capture only when defended by a friendly piece</li>
+<li><a href="variants/poison-chess/">Poison Chess</a> — Capture squares become poisoned for 3 turns</li>
 <li><a href="variants/racing-kings/">Racing Kings</a> — No checks allowed, race King to rank 8</li>
+<li><a href="variants/recruitment-chess/">Recruitment Chess</a> — Captured pieces defect to the captor</li>
 <li><a href="variants/rifle/">Rifle Chess</a> — Capturing pieces stay on their square</li>
+<li><a href="variants/teleport-chess/">Teleport Chess</a> — 3 teleports per game to any empty square</li>
 <li><a href="variants/torpedo/">Torpedo Chess</a> — Pawns can always double-move</li>
+<li><a href="variants/toroidal-chess/">Toroidal Chess</a> — Board wraps in both directions forming a torus</li>
 <li><a href="variants/weak/">Weak!</a> — Weakest piece type must move first</li>
 </ul>
 </div>
@@ -104,28 +116,35 @@
 <li><a href="variants/three-check/">Three-Check</a> — Deliver three checks to win</li>
 </ul>
 </div>
-<h3>Piece Replacement Variants</h3>
+<h3>Piece Replacement &amp; Movement Variants</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/almost-chess/">Almost Chess</a> — One queen replaced by Chancellor (R+N)</li>
 <li><a href="variants/amazon-chess/">Amazon Chess</a> — Queens replaced by Amazons (Q+N)</li>
+<li><a href="variants/berolina-chess/">Berolina Chess</a> — Pawns move diagonally and capture straight (inverted)</li>
 <li><a href="variants/chigorin/">Chigorin</a> — White has 4 knights instead of bishops</li>
 <li><a href="variants/knightmate/">Knightmate</a> — Knight is royal, King moves like a knight</li>
+<li><a href="variants/orda-chess/">Orda Chess</a> — Asymmetric: White standard vs Black divergent movers</li>
 </ul>
 </div>
 <h3>Starting Position Variants</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/endgame-chess/">Endgame Chess</a> — Only pawns and Kings from the start</li>
+<li><a href="variants/legan-chess/">Legan Chess</a> — Berolina pawns, King and Queen swap starting squares</li>
 <li><a href="variants/pawns-only/">Pawns Only</a> — Only pawns, first promotion wins</li>
 <li><a href="variants/peasants-revolt/">Peasants’ Revolt</a> — King + pawns vs King + knights</li>
 <li><a href="variants/upside-down/">Upside-Down</a> — Pieces start on opponent’s rank</li>
 </ul>
 </div>
-<h3>Regional Variant</h3>
+<h3>Regional &amp; Historical Variants</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/makpong/">Makpong</a> — Thai variant, King cannot move out of check</li>
+<li><a href="variants/makruk/">Makruk</a> — Thai chess, pawns promote on rank 6 to Met</li>
+<li><a href="variants/shatar/">Shatar</a> — Mongolian chess, win by baring the opponent’s King</li>
+<li><a href="variants/shatranj/">Shatranj</a> — Medieval Islamic chess, ancestor of modern chess</li>
+<li><a href="variants/sittuyin/">Sittuyin</a> — Burmese chess, placement opening phase</li>
 </ul>
 </div>
 <h3>Expanded Boards</h3>
@@ -152,10 +171,10 @@
 </main>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.4.3 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">v0.4.4 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
-<script type="module" src="../../js/toc.js?v=0.4.3"></script>
+<script type="module" src="../../js/toc.js?v=0.4.4"></script>
 </body>
 </html>

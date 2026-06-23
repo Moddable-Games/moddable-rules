@@ -4,7 +4,6 @@ slug: "andernach"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 4
 win: "Checkmate"
 special: "Capturing piece changes colour (becomes opponent's). Kings exempt."
 ---

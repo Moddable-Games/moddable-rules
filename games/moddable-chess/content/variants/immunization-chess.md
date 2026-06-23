@@ -4,7 +4,6 @@ slug: "immunization-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 35
 win: "Checkmate"
 special: "When a capture occurs, adjacent enemy pieces become immune to capture for 2 turns."
 ---

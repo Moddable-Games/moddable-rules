@@ -4,7 +4,6 @@ slug: "cylinder-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 17
 win: "Checkmate"
 special: "Files wrap — the a-file connects to the h-file. Pieces slide around the cylinder."
 ---

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Surakarta logo">
+  <rect width="100" height="100" fill="#f5f4ef" rx="8"/>
+  <rect x="14" y="14" width="72" height="72" rx="3" fill="#e8e3d8" stroke="#14161c" stroke-width="1.2"/>
+  <!-- Simple 3×3 grid -->
+  <line x1="26" y1="26" x2="74" y2="26" stroke="#14161c" stroke-width="1.2"/>
+  <line x1="26" y1="50" x2="74" y2="50" stroke="#14161c" stroke-width="1.2"/>
+  <line x1="26" y1="74" x2="74" y2="74" stroke="#14161c" stroke-width="1.2"/>
+  <line x1="26" y1="26" x2="26" y2="74" stroke="#14161c" stroke-width="1.2"/>
+  <line x1="50" y1="26" x2="50" y2="74" stroke="#14161c" stroke-width="1.2"/>
+  <line x1="74" y1="26" x2="74" y2="74" stroke="#14161c" stroke-width="1.2"/>
+  <!-- Corner loop arcs — the signature feature -->
+  <!-- Top-left: red outer -->
+  <path d="M 50,26 A 24,24 0 1,0 26,50" fill="none" stroke="#d11a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bottom-right: red outer -->
+  <path d="M 50,74 A 24,24 0 1,0 74,50" fill="none" stroke="#d11a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Top-right: blue inner -->
+  <path d="M 74,50 A 24,24 0 1,0 50,26" fill="none" stroke="#0c4f8d" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bottom-left: blue inner -->
+  <path d="M 26,50 A 24,24 0 1,0 50,74" fill="none" stroke="#0c4f8d" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -247,7 +247,12 @@ for (const slug of slugs) {
     const vsrc = readFileSync(resolve(variantsDir, f), 'utf8');
     const { data: vmeta } = matter(vsrc);
     return { file: f, slug: vmeta.slug || f.replace('.md', ''), meta: vmeta };
-  }).sort((a, b) => (a.meta.order || 999) - (b.meta.order || 999));
+  }).sort((a, b) => {
+    const ao = a.meta.order ?? Infinity;
+    const bo = b.meta.order ?? Infinity;
+    if (ao !== bo) return ao - bo;
+    return (a.meta.title || a.slug).localeCompare(b.meta.title || b.slug);
+  });
 
   const variantPdfDir = resolve(gameDir, 'pdf/variants');
   mkdirSync(variantPdfDir, { recursive: true });

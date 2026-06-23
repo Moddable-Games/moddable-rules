@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fanorona &mdash; Official Rulebook v0.1.0</title>
+<meta name="description" content="Complete rules for Fanorona, the national game of Madagascar, featuring a unique capture system of approach and withdrawal.">
+<meta property="og:title" content="Fanorona &mdash; Official Rulebook v0.1.0">
+<meta property="og:description" content="The national game of Madagascar: capture by approach and withdrawal.">
+<meta property="og:image" content="https://rules.moddable.games/games/fanorona/og-image.png?v=1.1.17">
+<meta property="og:url" content="https://rules.moddable.games/dist/fanorona/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fanorona &mdash; Official Rulebook v0.1.0">
+<meta name="twitter:description" content="The national game of Madagascar: capture by approach and withdrawal.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/fanorona/og-image.png?v=1.1.17">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.1.0">
+<link rel="stylesheet" href="../../games/fanorona/theme.css?v=0.1.0">
+<script src="../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/fanorona/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/fanorona/pdf/fanorona-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.1.0</span>
+</header>
+
+<div class="cover">
+  <div class="cover-title">FANORONA</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">The national game of Madagascar: capture by approach and withdrawal</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">8+</span><span class="cs-lbl">Age</span></div>
+    <div class="cover-stat"><span class="cs-num">9&times;5</span><span class="cs-lbl">Board</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.1.0</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<div class="section">
+<h2>History</h2>
+<p>Fanorona is the national game of Madagascar, believed to have descended from Alquerque, a medieval strategy game that spread through Africa and Asia along historic trade routes. Three standard board sizes exist: Fanoron-Telo (3×3), Fanoron-Dimy (5×5), and Fanoron-Tsivy (9×5). The 9×5 version is the standard form; these rules describe it exclusively.</p>
+<p>The game is distinguished by a capture mechanic found in few other traditional games. Pieces do not jump over opponents. Instead, they capture by moving toward an enemy line (approach capture) or by moving away from one (withdrawal capture), taking all pieces in the unbroken line. The rules are public domain.</p>
+</div>
+<div class="section">
+<h2>The Board</h2>
+<p>The Fanorona board is a 9×5 grid of 45 intersection points, connected by horizontal, vertical, and diagonal lines. Intersections are of two types:</p>
+<ul class="rules">
+<li><strong>Strong:</strong> diagonal lines pass through the intersection, allowing movement in up to eight directions.</li>
+<li><strong>Weak:</strong> only horizontal and vertical lines pass through the intersection, allowing movement in up to four orthogonal directions.</li>
+</ul>
+<p>Strong and weak intersections alternate in a checkerboard pattern across the board.</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="298" viewBox="0 0 460 298">
+<title>Fanorona: starting position, 9x5 board</title>
+<rect width="460" height="298" fill="#fdf5e4"/>
+<rect x="18" y="10" width="424" height="236" fill="#d4a96a" rx="4"/>
+<!-- Horizontal lines -->
+<line x1="38" y1="30" x2="422" y2="30" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="38" y1="78" x2="422" y2="78" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="38" y1="126" x2="422" y2="126" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="38" y1="174" x2="422" y2="174" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="38" y1="222" x2="422" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<!-- Vertical lines -->
+<line x1="38" y1="30" x2="38" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="86" y1="30" x2="86" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="134" y1="30" x2="134" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="182" y1="30" x2="182" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="230" y1="30" x2="230" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="278" y1="30" x2="278" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="326" y1="30" x2="326" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="374" y1="30" x2="374" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="422" y1="30" x2="422" y2="222" stroke="#7a4510" stroke-width="1.5"/>
+<!-- Diagonals row 0 to row 1 -->
+<line x1="38" y1="30" x2="86" y2="78" stroke="#7a4510" stroke-width="1"/>
+<line x1="134" y1="30" x2="182" y2="78" stroke="#7a4510" stroke-width="1"/>
+<line x1="134" y1="30" x2="86" y2="78" stroke="#7a4510" stroke-width="1"/>
+<line x1="230" y1="30" x2="278" y2="78" stroke="#7a4510" stroke-width="1"/>
+<line x1="230" y1="30" x2="182" y2="78" stroke="#7a4510" stroke-width="1"/>
+<line x1="326" y1="30" x2="374" y2="78" stroke="#7a4510" stroke-width="1"/>
+<line x1="326" y1="30" x2="278" y2="78" stroke="#7a4510" stroke-width="1"/>
+<line x1="422" y1="30" x2="374" y2="78" stroke="#7a4510" stroke-width="1"/>
+<!-- Diagonals row 1 to row 2 -->
+<line x1="86" y1="78" x2="134" y2="126" stroke="#7a4510" stroke-width="1"/>
+<line x1="86" y1="78" x2="38" y2="126" stroke="#7a4510" stroke-width="1"/>
+<line x1="182" y1="78" x2="230" y2="126" stroke="#7a4510" stroke-width="1"/>
+<line x1="182" y1="78" x2="134" y2="126" stroke="#7a4510" stroke-width="1"/>
+<line x1="278" y1="78" x2="326" y2="126" stroke="#7a4510" stroke-width="1"/>
+<line x1="278" y1="78" x2="230" y2="126" stroke="#7a4510" stroke-width="1"/>
+<line x1="374" y1="78" x2="422" y2="126" stroke="#7a4510" stroke-width="1"/>
+<line x1="374" y1="78" x2="326" y2="126" stroke="#7a4510" stroke-width="1"/>
+<!-- Diagonals row 2 to row 3 -->
+<line x1="38" y1="126" x2="86" y2="174" stroke="#7a4510" stroke-width="1"/>
+<line x1="134" y1="126" x2="182" y2="174" stroke="#7a4510" stroke-width="1"/>
+<line x1="134" y1="126" x2="86" y2="174" stroke="#7a4510" stroke-width="1"/>
+<line x1="230" y1="126" x2="278" y2="174" stroke="#7a4510" stroke-width="1"/>
+<line x1="230" y1="126" x2="182" y2="174" stroke="#7a4510" stroke-width="1"/>
+<line x1="326" y1="126" x2="374" y2="174" stroke="#7a4510" stroke-width="1"/>
+<line x1="326" y1="126" x2="278" y2="174" stroke="#7a4510" stroke-width="1"/>
+<line x1="422" y1="126" x2="374" y2="174" stroke="#7a4510" stroke-width="1"/>
+<!-- Diagonals row 3 to row 4 -->
+<line x1="86" y1="174" x2="134" y2="222" stroke="#7a4510" stroke-width="1"/>
+<line x1="86" y1="174" x2="38" y2="222" stroke="#7a4510" stroke-width="1"/>
+<line x1="182" y1="174" x2="230" y2="222" stroke="#7a4510" stroke-width="1"/>
+<line x1="182" y1="174" x2="134" y2="222" stroke="#7a4510" stroke-width="1"/>
+<line x1="278" y1="174" x2="326" y2="222" stroke="#7a4510" stroke-width="1"/>
+<line x1="278" y1="174" x2="230" y2="222" stroke="#7a4510" stroke-width="1"/>
+<line x1="374" y1="174" x2="422" y2="222" stroke="#7a4510" stroke-width="1"/>
+<line x1="374" y1="174" x2="326" y2="222" stroke="#7a4510" stroke-width="1"/>
+<!-- Intersection dots -->
+<circle cx="38" cy="30" r="3" fill="#5a3610"/><circle cx="86" cy="30" r="3" fill="#5a3610"/><circle cx="134" cy="30" r="3" fill="#5a3610"/><circle cx="182" cy="30" r="3" fill="#5a3610"/><circle cx="230" cy="30" r="3" fill="#5a3610"/><circle cx="278" cy="30" r="3" fill="#5a3610"/><circle cx="326" cy="30" r="3" fill="#5a3610"/><circle cx="374" cy="30" r="3" fill="#5a3610"/><circle cx="422" cy="30" r="3" fill="#5a3610"/>
+<circle cx="38" cy="78" r="3" fill="#5a3610"/><circle cx="86" cy="78" r="3" fill="#5a3610"/><circle cx="134" cy="78" r="3" fill="#5a3610"/><circle cx="182" cy="78" r="3" fill="#5a3610"/><circle cx="230" cy="78" r="3" fill="#5a3610"/><circle cx="278" cy="78" r="3" fill="#5a3610"/><circle cx="326" cy="78" r="3" fill="#5a3610"/><circle cx="374" cy="78" r="3" fill="#5a3610"/><circle cx="422" cy="78" r="3" fill="#5a3610"/>
+<circle cx="38" cy="126" r="3" fill="#5a3610"/><circle cx="86" cy="126" r="3" fill="#5a3610"/><circle cx="134" cy="126" r="3" fill="#5a3610"/><circle cx="182" cy="126" r="3" fill="#5a3610"/><circle cx="230" cy="126" r="3" fill="#5a3610"/><circle cx="278" cy="126" r="3" fill="#5a3610"/><circle cx="326" cy="126" r="3" fill="#5a3610"/><circle cx="374" cy="126" r="3" fill="#5a3610"/><circle cx="422" cy="126" r="3" fill="#5a3610"/>
+<circle cx="38" cy="174" r="3" fill="#5a3610"/><circle cx="86" cy="174" r="3" fill="#5a3610"/><circle cx="134" cy="174" r="3" fill="#5a3610"/><circle cx="182" cy="174" r="3" fill="#5a3610"/><circle cx="230" cy="174" r="3" fill="#5a3610"/><circle cx="278" cy="174" r="3" fill="#5a3610"/><circle cx="326" cy="174" r="3" fill="#5a3610"/><circle cx="374" cy="174" r="3" fill="#5a3610"/><circle cx="422" cy="174" r="3" fill="#5a3610"/>
+<circle cx="38" cy="222" r="3" fill="#5a3610"/><circle cx="86" cy="222" r="3" fill="#5a3610"/><circle cx="134" cy="222" r="3" fill="#5a3610"/><circle cx="182" cy="222" r="3" fill="#5a3610"/><circle cx="230" cy="222" r="3" fill="#5a3610"/><circle cx="278" cy="222" r="3" fill="#5a3610"/><circle cx="326" cy="222" r="3" fill="#5a3610"/><circle cx="374" cy="222" r="3" fill="#5a3610"/><circle cx="422" cy="222" r="3" fill="#5a3610"/>
+<!-- White pieces row 0 -->
+<circle cx="38" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="86" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="134" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="182" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="230" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="278" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="326" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="374" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="422" cy="30" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/>
+<!-- White pieces row 1 -->
+<circle cx="38" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="86" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="134" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="182" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="230" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="278" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="326" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="374" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="422" cy="78" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/>
+<!-- White pieces row 2 cols 0-3 -->
+<circle cx="38" cy="126" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="86" cy="126" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="134" cy="126" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/><circle cx="182" cy="126" r="18" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/>
+<!-- Black pieces row 2 cols 5-8 -->
+<circle cx="278" cy="126" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="326" cy="126" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="374" cy="126" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="422" cy="126" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/>
+<!-- Black pieces row 3 -->
+<circle cx="38" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="86" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="134" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="182" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="230" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="278" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="326" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="374" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="422" cy="174" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/>
+<!-- Black pieces row 4 -->
+<circle cx="38" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="86" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="134" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="182" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="230" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="278" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="326" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="374" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/><circle cx="422" cy="222" r="18" fill="#1e1000" stroke="#c8963c" stroke-width="1"/>
+<!-- Legend -->
+<rect x="14" y="250" width="432" height="44" fill="#f5eed8" rx="3" stroke="#c4a050" stroke-width="1"/>
+<line x1="24" y1="262" x2="44" y2="262" stroke="#7a4510" stroke-width="1.5"/><line x1="34" y1="252" x2="34" y2="272" stroke="#7a4510" stroke-width="1.5"/><line x1="26" y1="254" x2="42" y2="270" stroke="#7a4510" stroke-width="1"/><line x1="42" y1="254" x2="26" y2="270" stroke="#7a4510" stroke-width="1"/><circle cx="34" cy="262" r="3" fill="#5a3610"/>
+<text x="50" y="267" fill="#1a0c00" font-family="sans-serif" font-size="11">Strong intersection: 8 directions</text>
+<line x1="244" y1="262" x2="264" y2="262" stroke="#7a4510" stroke-width="1.5"/><line x1="254" y1="252" x2="254" y2="272" stroke="#7a4510" stroke-width="1.5"/><circle cx="254" cy="262" r="3" fill="#5a3610"/>
+<text x="270" y="267" fill="#1a0c00" font-family="sans-serif" font-size="11">Weak intersection: 4 directions</text>
+<circle cx="34" cy="282" r="9" fill="#f0e8d0" stroke="#7a4510" stroke-width="1.5"/>
+<text x="50" y="287" fill="#1a0c00" font-family="sans-serif" font-size="11">White: 22 pieces, moves first</text>
+<circle cx="254" cy="282" r="9" fill="#1e1000" stroke="#c8963c" stroke-width="1"/>
+<text x="270" y="287" fill="#1a0c00" font-family="sans-serif" font-size="11">Black: 22 pieces</text>
+</svg>
+<p class="diagram-caption">Fanorona — starting position. White fills rows 1 and 2, plus the four left-of-centre squares in the middle row. Black fills rows 4 and 5, plus the four right-of-centre squares in the middle row. The centre intersection is empty.</p>
+</div>
+<div class="section">
+<h2>Equipment</h2>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>9×5 grid; 45 intersections</td>
+</tr>
+<tr>
+<td><strong>White pieces</strong></td>
+<td>22</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Black pieces</strong></td>
+<td>22</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<p>No dice or randomisers are used.</p>
+</div>
+<div class="section">
+<h2>Setup</h2>
+<p>All 45 intersections are occupied except the centre point. White fills the two rows at one end of the board and the four left-of-centre intersections in the middle row. Black fills the two rows at the other end and the four right-of-centre intersections in the middle row. The centre intersection is the only empty point.</p>
+<p>White moves first.</p>
+</div>
+<div class="section">
+<h2>Movement</h2>
+<p>On each turn a player makes exactly one move: either a paika (non-capturing) move, or a capturing move. Capturing is mandatory: if any capture is available anywhere on the board, the player must make one.</p>
+<p><strong>Paika move:</strong> Move one piece along any drawn line to an adjacent, unoccupied intersection. A paika move is only legal when no capturing move is available.</p>
+</div>
+<div class="section">
+<h2>Capturing</h2>
+<p>Two types of capture exist: approach and withdrawal. Both types capture not just the first piece contacted, but every successive enemy piece in an unbroken line behind it.</p>
+<p><strong>Approach capture:</strong> Move a piece to an adjacent intersection such that an enemy piece occupies the next intersection in the same direction of movement. That enemy piece and all successive enemy pieces in an unbroken line beyond it are captured simultaneously.</p>
+<p><strong>Withdrawal capture:</strong> Move a piece away from an adjacent enemy piece, so that the enemy piece lies on the intersection just vacated in the direction of travel. That enemy piece and all successive enemy pieces in an unbroken line behind it are captured simultaneously.</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="185" viewBox="0 0 420 185">
+<title>Fanorona: approach and withdrawal capture</title>
+<defs>
+  <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0,0 8,3 0,6" fill="#2a8020"/>
+  </marker>
+</defs>
+<rect width="420" height="185" fill="#fdf5e4"/>
+<!-- Panel titles -->
+<text x="87" y="20" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2a1200">Approach Capture</text>
+<text x="323" y="20" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2a1200">Withdrawal Capture</text>
+<!-- Left panel board background -->
+<rect x="10" y="28" width="154" height="108" fill="#d4a96a" rx="3"/>
+<!-- Right panel board background -->
+<rect x="250" y="28" width="154" height="108" fill="#d4a96a" rx="3"/>
+<!-- Left panel grid: 4 cols x 3 rows, cell=46, x0=18, y0=36 -->
+<line x1="18" y1="36" x2="156" y2="36" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="18" y1="82" x2="156" y2="82" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="18" y1="128" x2="156" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="18" y1="36" x2="18" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="64" y1="36" x2="64" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="110" y1="36" x2="110" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="156" y1="36" x2="156" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<!-- Left panel diagonals -->
+<line x1="18" y1="36" x2="64" y2="82" stroke="#7a4510" stroke-width="1"/>
+<line x1="110" y1="36" x2="156" y2="82" stroke="#7a4510" stroke-width="1"/>
+<line x1="110" y1="36" x2="64" y2="82" stroke="#7a4510" stroke-width="1"/>
+<line x1="64" y1="82" x2="110" y2="128" stroke="#7a4510" stroke-width="1"/>
+<line x1="64" y1="82" x2="18" y2="128" stroke="#7a4510" stroke-width="1"/>
+<line x1="156" y1="82" x2="110" y2="128" stroke="#7a4510" stroke-width="1"/>
+<!-- Left panel intersection dots -->
+<circle cx="18" cy="36" r="2.5" fill="#5a3610"/><circle cx="64" cy="36" r="2.5" fill="#5a3610"/><circle cx="110" cy="36" r="2.5" fill="#5a3610"/><circle cx="156" cy="36" r="2.5" fill="#5a3610"/>
+<circle cx="18" cy="82" r="2.5" fill="#5a3610"/><circle cx="64" cy="82" r="2.5" fill="#5a3610"/><circle cx="110" cy="82" r="2.5" fill="#5a3610"/><circle cx="156" cy="82" r="2.5" fill="#5a3610"/>
+<circle cx="18" cy="128" r="2.5" fill="#5a3610"/><circle cx="64" cy="128" r="2.5" fill="#5a3610"/><circle cx="110" cy="128" r="2.5" fill="#5a3610"/><circle cx="156" cy="128" r="2.5" fill="#5a3610"/>
+<!-- Left panel: White piece at (18,82) -->
+<circle cx="18" cy="82" r="16" fill="#f0e8d0" stroke="#7a4510" stroke-width="2"/>
+<!-- Left panel: Arrow -->
+<line x1="35" y1="82" x2="48" y2="82" stroke="#2a8020" stroke-width="2" marker-end="url(#arr)"/>
+<!-- Left panel: Destination (dashed circle) at (64,82) -->
+<circle cx="64" cy="82" r="16" fill="none" stroke="#2a8020" stroke-width="1.5" stroke-dasharray="4,3"/>
+<!-- Left panel: Black piece B1 at (110,82) with X -->
+<circle cx="110" cy="82" r="16" fill="#1e1000" stroke="#c8963c" stroke-width="1.5"/>
+<line x1="98" y1="70" x2="122" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<line x1="122" y1="70" x2="98" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<!-- Left panel: Black piece B2 at (156,82) with X -->
+<circle cx="156" cy="82" r="16" fill="#1e1000" stroke="#c8963c" stroke-width="1.5"/>
+<line x1="144" y1="70" x2="168" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<line x1="168" y1="70" x2="144" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<!-- Right panel grid: x0=258, y0=36 -->
+<line x1="258" y1="36" x2="396" y2="36" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="258" y1="82" x2="396" y2="82" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="258" y1="128" x2="396" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="258" y1="36" x2="258" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="304" y1="36" x2="304" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="350" y1="36" x2="350" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<line x1="396" y1="36" x2="396" y2="128" stroke="#7a4510" stroke-width="1.5"/>
+<!-- Right panel diagonals -->
+<line x1="258" y1="36" x2="304" y2="82" stroke="#7a4510" stroke-width="1"/>
+<line x1="350" y1="36" x2="396" y2="82" stroke="#7a4510" stroke-width="1"/>
+<line x1="350" y1="36" x2="304" y2="82" stroke="#7a4510" stroke-width="1"/>
+<line x1="304" y1="82" x2="350" y2="128" stroke="#7a4510" stroke-width="1"/>
+<line x1="304" y1="82" x2="258" y2="128" stroke="#7a4510" stroke-width="1"/>
+<line x1="396" y1="82" x2="350" y2="128" stroke="#7a4510" stroke-width="1"/>
+<!-- Right panel intersection dots -->
+<circle cx="258" cy="36" r="2.5" fill="#5a3610"/><circle cx="304" cy="36" r="2.5" fill="#5a3610"/><circle cx="350" cy="36" r="2.5" fill="#5a3610"/><circle cx="396" cy="36" r="2.5" fill="#5a3610"/>
+<circle cx="258" cy="82" r="2.5" fill="#5a3610"/><circle cx="304" cy="82" r="2.5" fill="#5a3610"/><circle cx="350" cy="82" r="2.5" fill="#5a3610"/><circle cx="396" cy="82" r="2.5" fill="#5a3610"/>
+<circle cx="258" cy="128" r="2.5" fill="#5a3610"/><circle cx="304" cy="128" r="2.5" fill="#5a3610"/><circle cx="350" cy="128" r="2.5" fill="#5a3610"/><circle cx="396" cy="128" r="2.5" fill="#5a3610"/>
+<!-- Right panel: Black piece B1 at (258,82) with X -->
+<circle cx="258" cy="82" r="16" fill="#1e1000" stroke="#c8963c" stroke-width="1.5"/>
+<line x1="246" y1="70" x2="270" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<line x1="270" y1="70" x2="246" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<!-- Right panel: Black piece B2 at (304,82) with X -->
+<circle cx="304" cy="82" r="16" fill="#1e1000" stroke="#c8963c" stroke-width="1.5"/>
+<line x1="292" y1="70" x2="316" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<line x1="316" y1="70" x2="292" y2="94" stroke="#cc3030" stroke-width="2.5"/>
+<!-- Right panel: White piece at (350,82) -->
+<circle cx="350" cy="82" r="16" fill="#f0e8d0" stroke="#7a4510" stroke-width="2"/>
+<!-- Right panel: Arrow -->
+<line x1="367" y1="82" x2="380" y2="82" stroke="#2a8020" stroke-width="2" marker-end="url(#arr)"/>
+<!-- Right panel: Destination (dashed circle) at (396,82) -->
+<circle cx="396" cy="82" r="16" fill="none" stroke="#2a8020" stroke-width="1.5" stroke-dasharray="4,3"/>
+<!-- Captions -->
+<text x="87" y="152" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2a1200">Approach: W moves right toward B.</text>
+<text x="87" y="168" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2a1200">B pieces ahead are captured.</text>
+<text x="323" y="152" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2a1200">Withdrawal: W moves right, away from B.</text>
+<text x="323" y="168" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2a1200">B pieces behind are captured.</text>
+</svg>
+<p class="diagram-caption">Approach capture (left): W moves right, placing B pieces directly ahead in the line of movement; all are captured. Withdrawal capture (right): W moves right away from adjacent B pieces; all B pieces in the line behind are captured.</p>
+<p>If both an approach capture and a withdrawal capture are possible in the same direction at the same moment, the player must choose one or the other.</p>
+</div>
+<div class="section">
+<h2>Continuation Captures</h2>
+<p>After completing a capture, the same piece may make further capturing moves in successive steps. Continuation is optional: the player may stop after any capture. Two restrictions govern continuation:</p>
+<ol>
+<li>The piece may not land on an intersection it has already visited during the same turn.</li>
+<li>The piece may not move in the same direction as its immediately preceding step.</li>
+</ol>
+</div>
+<div class="section">
+<h2>Winning</h2>
+<p>The player who captures all of their opponent’s pieces wins. If neither player can achieve this, the game is a draw. In 2007, Schadd and Winands demonstrated that perfect play from both sides leads to a draw.</p>
+</div>
+<div class="section">
+<h2>Attribution</h2>
+<p>Fanorona. Indigenous game of Madagascar. Public domain. Sources: ICGA (International Computer Games Association) Fanorona entry; Masters Traditional Games, Fanorona Rules (2019); UltraBoardGames, Fanorona game rules; MindSports Fanorona entry.</p>
+</div>
+
+</main>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Fanorona v0.1.0 &middot; Published by Moddable Games &middot; &copy; 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+<script src="../../js/toc.js?v=0.1.0"></script>
+</body>
+</html>

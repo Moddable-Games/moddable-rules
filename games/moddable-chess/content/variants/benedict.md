@@ -4,7 +4,6 @@ slug: "benedict"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 7
 win: "Convert opponent king"
 special: "No captures. Attacked enemies convert to your colour instead."
 ---

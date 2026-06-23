@@ -4,7 +4,6 @@ slug: "breakthrough"
 board: "7×7"
 players: "2"
 parent: "moddable-chess"
-order: 10
 win: "Reach opposite rank"
 special: "Pawns only — first to reach the far side wins. No captures backward."
 ---

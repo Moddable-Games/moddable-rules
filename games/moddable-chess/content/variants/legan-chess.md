@@ -4,7 +4,6 @@ slug: "legan-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 38
 win: "Checkmate"
 special: "Berolina pawns (move diagonal, capture straight). King and Queen swap starting squares."
 ---

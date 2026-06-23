@@ -4,7 +4,6 @@ slug: "peasants-revolt"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 54
 win: "Checkmate"
 special: "White has King + 8 pawns vs Black's King + 2 Knights + 8 pawns."
 ---

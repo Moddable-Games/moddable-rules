@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surakarta &mdash; Official Rulebook v0.1.0</title>
+<meta name="description" content="Complete rules for Surakarta (Roundabouts), the Indonesian loop-capture board game.">
+<meta property="og:title" content="Surakarta &mdash; Official Rulebook v0.1.0">
+<meta property="og:description" content="The loop-capture game of Java: capture through the corner arcs.">
+<meta property="og:image" content="https://rules.moddable.games/games/surakarta/og-image.png?v=1.1.17">
+<meta property="og:url" content="https://rules.moddable.games/dist/surakarta/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Surakarta &mdash; Official Rulebook v0.1.0">
+<meta name="twitter:description" content="The loop-capture game of Java: capture through the corner arcs.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/surakarta/og-image.png?v=1.1.17">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.1.0">
+<link rel="stylesheet" href="../../games/surakarta/theme.css?v=0.1.0">
+<script src="../../shared/js/analytics.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/surakarta/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/surakarta/pdf/surakarta-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.1.0</span>
+</header>
+
+<div class="cover">
+  <div class="cover-title">SURAKARTA</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">The loop-capture game of Java: capture through the corner arcs</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">20</span><span class="cs-lbl">Min</span></div>
+    <div class="cover-stat"><span class="cs-num">8+</span><span class="cs-lbl">Age</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.1.0</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<div class="section">
+<h2>History</h2>
+<p>Surakarta is a two-player abstract strategy game named after the royal city of Surakarta (also called Solo) in Central Java, Indonesia. The game was introduced to European audiences by Ravensberger (Germany, 1971) and published in France in 1970. Games historian R.C. Bell provided the first English-language description of the game. In Sid Sackson’s <em>The Book of Classic Board Games</em>, the game appears under the name Roundabouts. In Java it is sometimes called <em>dam-daman</em>.</p>
+<p>The Ludii Project at Maastricht University notes that the claim of Indonesian origins “may have been a marketing ploy by Ravensberger.” Regardless of its origins, the game mechanics are entirely public domain.</p>
+<p>The game is notable for its capture mechanic. Wikipedia describes it as “possibly unique” among all recorded board games: pieces can only capture by routing their path through one or more of the circular loop arcs at the corners of the board.</p>
+</div>
+<div class="section">
+<h2>The Board</h2>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860" width="900" height="860">
+  <title>Surakarta board — 6×6 grid with 8 corner loop arcs</title>
+  <rect width="900" height="860" fill="#f5f4ef"/>
+  <!-- Title -->
+  <text x="450" y="38" font-family="'Inter Tight',Inter,sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#14161c" letter-spacing="2">SURAKARTA</text>
+  <text x="450" y="60" font-family="Inter,sans-serif" font-size="12" text-anchor="middle" fill="#55534f">Starting position · 6×6 grid with corner loop arcs</text>
+  <!-- Grid origin: centred at (450, 430). Grid spans 400px (5 gaps × 80px). x: 250–650, y: 230–630 -->
+  <!-- Column labels A–F -->
+  <text x="250" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">A</text>
+  <text x="330" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">B</text>
+  <text x="410" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">C</text>
+  <text x="490" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">D</text>
+  <text x="570" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">E</text>
+  <text x="650" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">F</text>
+  <!-- Row labels 1–6 -->
+  <text x="218" y="235" text-anchor="middle" dominant-baseline="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">1</text>
+  <text x="218" y="315" text-anchor="middle" dominant-baseline="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">2</text>
+  <text x="218" y="395" text-anchor="middle" dominant-baseline="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">3</text>
+  <text x="218" y="475" text-anchor="middle" dominant-baseline="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">4</text>
+  <text x="218" y="555" text-anchor="middle" dominant-baseline="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">5</text>
+  <text x="218" y="635" text-anchor="middle" dominant-baseline="middle" font-family="Inter,sans-serif" font-size="14" fill="#888">6</text>
+  <!-- Grid horizontal lines -->
+  <line x1="250" y1="230" x2="650" y2="230" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="250" y1="310" x2="650" y2="310" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="250" y1="390" x2="650" y2="390" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="250" y1="470" x2="650" y2="470" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="250" y1="550" x2="650" y2="550" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="250" y1="630" x2="650" y2="630" stroke="#14161c" stroke-width="1.5"/>
+  <!-- Grid vertical lines -->
+  <line x1="250" y1="230" x2="250" y2="630" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="330" y1="230" x2="330" y2="630" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="410" y1="230" x2="410" y2="630" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="490" y1="230" x2="490" y2="630" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="570" y1="230" x2="570" y2="630" stroke="#14161c" stroke-width="1.5"/>
+  <line x1="650" y1="230" x2="650" y2="630" stroke="#14161c" stroke-width="1.5"/>
+  <!-- Inner loop arcs (blue, r=80) connecting 2nd intersections from each corner -->
+  <path d="M 330,230 A 80,80 0 1,0 250,310" fill="none" stroke="#0c4f8d" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 570,230 A 80,80 0 1,1 650,310" fill="none" stroke="#0c4f8d" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 250,550 A 80,80 0 1,0 330,630" fill="none" stroke="#0c4f8d" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 650,550 A 80,80 0 1,1 570,630" fill="none" stroke="#0c4f8d" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Outer loop arcs (red, r=160) connecting 3rd intersections from each corner -->
+  <path d="M 410,230 A 160,160 0 1,0 250,390" fill="none" stroke="#d11a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 490,230 A 160,160 0 1,1 650,390" fill="none" stroke="#d11a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 250,470 A 160,160 0 1,0 410,630" fill="none" stroke="#d11a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 650,470 A 160,160 0 1,1 490,630" fill="none" stroke="#d11a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Dark pieces: rows 1–2 -->
+  <circle cx="250" cy="230" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="330" cy="230" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="410" cy="230" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="490" cy="230" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="570" cy="230" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="650" cy="230" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="250" cy="310" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="330" cy="310" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="410" cy="310" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="490" cy="310" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="570" cy="310" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <circle cx="650" cy="310" r="20" fill="#14161c" stroke="#f5f4ef" stroke-width="1.5"/>
+  <!-- Empty intersection dots: rows 3–4 -->
+  <circle cx="250" cy="390" r="4" fill="#14161c"/>
+  <circle cx="330" cy="390" r="4" fill="#14161c"/>
+  <circle cx="410" cy="390" r="4" fill="#14161c"/>
+  <circle cx="490" cy="390" r="4" fill="#14161c"/>
+  <circle cx="570" cy="390" r="4" fill="#14161c"/>
+  <circle cx="650" cy="390" r="4" fill="#14161c"/>
+  <circle cx="250" cy="470" r="4" fill="#14161c"/>
+  <circle cx="330" cy="470" r="4" fill="#14161c"/>
+  <circle cx="410" cy="470" r="4" fill="#14161c"/>
+  <circle cx="490" cy="470" r="4" fill="#14161c"/>
+  <circle cx="570" cy="470" r="4" fill="#14161c"/>
+  <circle cx="650" cy="470" r="4" fill="#14161c"/>
+  <!-- Light pieces: rows 5–6 -->
+  <circle cx="250" cy="550" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="330" cy="550" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="410" cy="550" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="490" cy="550" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="570" cy="550" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="650" cy="550" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="250" cy="630" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="330" cy="630" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="410" cy="630" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="490" cy="630" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="570" cy="630" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <circle cx="650" cy="630" r="20" fill="#e8e5d8" stroke="#14161c" stroke-width="1.5"/>
+  <!-- Legend (single line, centred) -->
+  <line x1="310" y1="810" x2="350" y2="810" stroke="#0c4f8d" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="358" y="815" font-family="Inter,sans-serif" font-size="14" fill="#14161c">Inner loop</text>
+  <line x1="470" y1="810" x2="510" y2="810" stroke="#d11a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="518" y="815" font-family="Inter,sans-serif" font-size="14" fill="#14161c">Outer loop</text>
+</svg>
+<p class="diagram-caption">Surakarta board: 6×6 grid with 8 corner loop arcs and starting position</p>
+<p>The board is a 6×6 grid of <strong>36 intersection points</strong>, connected by horizontal and vertical lines. Pieces are placed on intersections, not inside squares.</p>
+<p>At each of the four corners of the board, two concentric <strong>three-quarter-circle arcs</strong> extend outside the grid boundary:</p>
+<ul class="rules">
+<li><strong>Inner loop</strong> (blue): connects the 2nd intersection from the corner along each adjacent edge</li>
+<li><strong>Outer loop</strong> (red): connects the 3rd intersection from the corner along each adjacent edge</li>
+</ul>
+<p>The board has eight loop arcs in total: four inner and four outer, one pair at each corner.</p>
+</div>
+<div class="section">
+<h2>Equipment</h2>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Board</strong></td>
+<td>1</td>
+<td>6×6 grid of 36 intersections with 8 corner loop arcs</td>
+</tr>
+<tr>
+<td><strong>Pieces</strong></td>
+<td>24</td>
+<td>12 per player, in contrasting colours (dark and light)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Traditional pieces are shells (light) versus pebbles or stones (dark).</p>
+</div>
+<div class="section">
+<h2>Setup</h2>
+<p>Each player takes 12 pieces of one colour. Place all 12 dark pieces on the 12 intersections of rows 1 and 2 (the two rows closest to the dark player’s side). Place all 12 light pieces on the 12 intersections of rows 5 and 6 (the two rows closest to the light player’s side). Rows 3 and 4 start empty. Players sit on opposite sides of the board, each nearest their own pieces.</p>
+</div>
+<div class="section">
+<h2>Movement</h2>
+<p>Players alternate turns. On each turn, a player moves exactly one piece.</p>
+<h3>Non-Capturing Move</h3>
+<p>Move one piece one step to any adjacent empty intersection. Movement is permitted in all eight directions: horizontally, vertically, and diagonally. A piece cannot move onto an occupied intersection.</p>
+<h3>Capturing Move</h3>
+<p>A capturing move must pass through at least one corner loop arc. Captures are optional: a player is never forced to capture even when a capturing move is available.</p>
+<p>The path of a capturing move:</p>
+<ol>
+<li>The piece travels along a grid line (horizontally or vertically) away from its starting intersection.</li>
+<li>When it reaches an intersection where a loop arc begins, it follows the arc around the corner.</li>
+<li>After exiting the arc, the piece continues along the perpendicular grid line.</li>
+<li>A single move may pass through more than one loop arc in sequence.</li>
+<li>The piece lands on the first opponent piece it reaches, capturing it by displacement. The captured piece is removed from the board.</li>
+<li>Every intersection along the path, except the destination, must be empty. The capturing piece cannot pass through or jump over any piece.</li>
+</ol>
+<p>The four corner intersection points cannot serve as the starting point of a capturing move.</p>
+</div>
+<div class="section">
+<h2>Winning</h2>
+<p>The player who captures all 12 of the opponent’s pieces wins.</p>
+<p><strong>Stalemate:</strong> If no further progress can be made, the game ends by mutual agreement. The player with more pieces remaining wins. If both players have equal pieces, the game is a draw.</p>
+</div>
+<div class="section">
+<h2>Attribution</h2>
+<p>Surakarta. Traditional game attributed to Surakarta (Solo), Central Java, Indonesia. European publication by Ravensberger, Germany, 1971. Public domain. Sources: Ludii Project, Maastricht University (ludii.games, academic game corpus); rubysash/site.hollowedstone implementation reference (MIT licence); Wikipedia, Surakarta (game) (CC-BY-SA 4.0); Masters of Games (mastersofgames.com).</p>
+</div>
+
+</main>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Surakarta v0.1.0 &middot; Published by Moddable Games &middot; &copy; 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+<script src="../../js/toc.js?v=0.1.0"></script>
+</body>
+</html>

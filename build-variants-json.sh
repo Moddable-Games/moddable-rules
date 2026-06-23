@@ -17,6 +17,7 @@ for f in "$VARIANTS_DIR"/*.md; do
   board=$(sed -n 's/^board: *"\(.*\)"/\1/p' "$f")
   players=$(sed -n 's/^players: *"\(.*\)"/\1/p' "$f")
   order=$(sed -n 's/^order: *\(.*\)/\1/p' "$f")
+  [ -z "$order" ] && order="null"
   win=$(sed -n 's/^win: *"\(.*\)"/\1/p' "$f")
   special=$(sed -n 's/^special: *"\(.*\)"/\1/p' "$f")
   playable=$(sed -n 's/^playable: *\(.*\)/\1/p' "$f")

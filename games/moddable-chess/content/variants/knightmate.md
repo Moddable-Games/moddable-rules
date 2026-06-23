@@ -4,7 +4,6 @@ slug: "knightmate"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 37
 win: "Checkmate the royal Knight"
 special: "Knight and King swap roles. The Knight is royal; Kings move as knights."
 ---

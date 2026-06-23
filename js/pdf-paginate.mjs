@@ -59,6 +59,18 @@ export function buildPaginateScript(pageHMm, padMm) {
         groups.push({ els: [el], newPage: false });
       }
       i++;
+    } else if (/^svg$/i.test(el.tagName) || (el.tagName === 'DIV' && el.querySelector && el.querySelector('svg'))) {
+      // SVG diagram: keep with following caption paragraph
+      let grp = [el];
+      if (i + 1 < children.length) {
+        const next = children[i + 1];
+        const nextCls = (typeof next.className === 'string') ? next.className : (next.getAttribute && next.getAttribute('class')) || '';
+        if (next.tagName === 'P' && /diagram-caption/.test(nextCls)) {
+          grp.push(next);
+        }
+      }
+      groups.push({ els: grp, newPage: false });
+      i += grp.length;
     } else {
       groups.push({ els: [el], newPage: false });
       i++;
@@ -103,6 +115,16 @@ export function buildPaginateScript(pageHMm, padMm) {
     const gap = (isSubhead && currentPage.length > 0) ? SUB_GAP : 0;
 
     if (currentHeight + gap + groupH <= CONTENT_H) {
+      // Check: if this is a heading group near the bottom, ensure enough room for content after it
+      if (/^H[2]$/.test(group.els[0].tagName)) {
+        const remaining = CONTENT_H - (currentHeight + gap + groupH);
+        if (remaining < MIN_AFTER_HEADING && g + 1 < groups.length) {
+          commitPage();
+          for (const el of group.els) currentPage.push(el);
+          currentHeight = groupH;
+          continue;
+        }
+      }
       if (gap > 0) group.els[0].style.marginTop = gap + 'px';
       for (const el of group.els) currentPage.push(el);
       currentHeight += gap + groupH;
