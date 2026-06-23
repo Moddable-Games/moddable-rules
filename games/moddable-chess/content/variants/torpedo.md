@@ -4,7 +4,7 @@ slug: "torpedo"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 68
+order: 69
 win: "Checkmate"
 special: "Pawns can move two squares forward from any rank, not just the starting rank."
 ---
@@ -37,7 +37,7 @@ Checkmate.
 
 ### Strategy
 
-Passed pawns become much more dangerous because they can sprint two squares at a time. Pawn endgames are sharply different — a pawn on the 5th rank can reach promotion in two moves instead of three. Blockading passed pawns is more difficult. Connected pawns rolling forward together are extremely powerful.
+Passed pawns become much more dangerous because they can sprint two squares at a time. Pawn endgames are sharply different: a pawn on the 5th rank can reach promotion in two moves instead of three. Blockading passed pawns is more difficult. Connected pawns rolling forward together are extremely powerful.
 
 ### Attribution
 

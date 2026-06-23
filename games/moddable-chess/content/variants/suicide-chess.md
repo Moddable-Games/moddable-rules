@@ -4,14 +4,14 @@ slug: "suicide-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 64
+order: 65
 win: "Lose all pieces"
 special: "Forced captures like Giveaway, but stalemate is a draw, not a loss."
 ---
 
 ## Suicide Chess
 
-Nearly identical to Giveaway — forced captures, lose all pieces to win — but with one critical difference: stalemate is a draw, not a loss.
+Nearly identical to Giveaway (forced captures, lose all pieces to win), with one critical difference: stalemate is a draw, not a loss.
 
 
 {{svg:suicide-chess-board.svg "Suicide Chess — starting position"}}
@@ -26,7 +26,7 @@ Nearly identical to Giveaway — forced captures, lose all pieces to win — but
 ### Rules
 
 - If you can capture, you MUST capture. If multiple captures are available, you choose which one.
-- The King is not royal — there is no check or checkmate. The King can be captured like any other piece.
+- The King is not royal; there is no check or checkmate. The King can be captured like any other piece.
 - No castling.
 - Pawns promote normally.
 - Stalemate = draw (unlike Giveaway where stalemate is a loss).
