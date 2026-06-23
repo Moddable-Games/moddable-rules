@@ -169,6 +169,18 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-06-23
+- Converted Stern-Halma from variant hub to standalone single-page rulebook
+- Added Ninuki-Renju variant to Go hub (14 variants total, all reordered alphabetically)
+- Fixed Makruk FEN characters to match engine (m→f, s→g)
+- Migrated all browser JS from IIFE/globals to native ESM (`<script type="module">`)
+- Generated missing PDFs for Harvesters (10pp) and Baristasaurus (10pp)
+- Fixed Harvesters PDF link (pointed to wrong filename)
+- Removed stale dist pages (Stern-Halma variant, Atlantic City)
+- Regenerated all OG images and Go variant library PDF (41pp)
+- Synced rules-index.json to moddable-website MCP worker
+- Site version 1.1.16, 22 games, 144 variants, 1164 search index entries
+
 #### 2026-06-09
 - Added Draughts (English standard + Turkish Draughts and Lasca variants)
 - Added Go (standard rules + Toroidal Go and Phantom Go variants)
