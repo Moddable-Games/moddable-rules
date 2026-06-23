@@ -4,7 +4,6 @@ slug: "poison-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 56
 win: "Checkmate"
 special: "Capture squares become poisoned for 3 turns — non-king pieces landing there are destroyed."
 ---

@@ -4,7 +4,6 @@ slug: "almost-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 2
 win: "Checkmate"
 special: "White's Queen is replaced by a Chancellor (Rook + Knight compound)."
 ---

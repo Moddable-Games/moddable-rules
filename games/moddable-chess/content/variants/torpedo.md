@@ -4,7 +4,6 @@ slug: "torpedo"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 69
 win: "Checkmate"
 special: "Pawns can move two squares forward from any rank, not just the starting rank."
 ---

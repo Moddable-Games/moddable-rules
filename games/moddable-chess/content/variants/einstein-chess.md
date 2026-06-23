@@ -4,7 +4,6 @@ slug: "einstein-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 23
 win: "Checkmate"
 special: "Non-capturing moves demote pieces; captures promote them (Q→R→B→N→P / P→N→B→R→Q)."
 ---

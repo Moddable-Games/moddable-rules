@@ -4,7 +4,6 @@ slug: "omnicide"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 50
 win: "Lose all pieces"
 special: "Lose all your pieces to win. Captures NOT forced (unlike Antichess)."
 ---

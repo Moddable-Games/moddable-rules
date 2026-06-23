@@ -4,7 +4,6 @@ slug: "recruitment-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 59
 win: "Checkmate"
 special: "Captured pieces defect to the captor and appear on the vacated square."
 ---

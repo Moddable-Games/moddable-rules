@@ -4,7 +4,6 @@ slug: "orda-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 51
 win: "Checkmate"
 special: "Asymmetric: White plays standard. Black commands the Horde — divergent movers that move one way and capture another."
 ---

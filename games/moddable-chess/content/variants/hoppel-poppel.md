@@ -4,7 +4,6 @@ slug: "hoppel-poppel"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 33
 win: "Checkmate"
 special: "Knights capture like bishops (sliding diagonal); bishops capture like knights (L-jump)."
 ---

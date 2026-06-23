@@ -4,7 +4,6 @@ slug: "medusa-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 45
 win: "Checkmate"
 special: "After the queen moves, all enemy pieces she attacks become petrified for 2 turns."
 ---

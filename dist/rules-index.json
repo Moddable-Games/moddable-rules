@@ -552,6 +552,78 @@
     "anchor": "jokers"
   },
   {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "History",
+    "heading": "History",
+    "content": "Fanorona is the national game of Madagascar, believed to have descended from Alquerque, a medieval strategy game that spread through Africa and Asia along historic trade routes. Three standard board s",
+    "anchor": "history"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "The Board",
+    "heading": "The Board",
+    "content": "The Fanorona board is a 9&times;5 grid of 45 intersection points, connected by horizontal, vertical, and diagonal lines. Intersections are of two types: - Strong: diagonal lines pass through the inter",
+    "anchor": "the-board"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "Equipment",
+    "heading": "Equipment",
+    "content": "Qty ----- 1 22 22 No dice or randomisers are used.",
+    "anchor": "equipment"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "Setup",
+    "heading": "Setup",
+    "content": "All 45 intersections are occupied except the centre point. White fills the two rows at one end of the board and the four left-of-centre intersections in the middle row. Black fills the two rows at the",
+    "anchor": "setup"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "Movement",
+    "heading": "Movement",
+    "content": "On each turn a player makes exactly one move: either a paika non-capturing move, or a capturing move. Capturing is mandatory: if any capture is available anywhere on the board, the player must make on",
+    "anchor": "movement"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "Capturing",
+    "heading": "Capturing",
+    "content": "Two types of capture exist: approach and withdrawal. Both types capture not just the first piece contacted, but every successive enemy piece in an unbroken line behind it. Approach capture: Move a pie",
+    "anchor": "capturing"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "Continuation Captures",
+    "heading": "Continuation Captures",
+    "content": "After completing a capture, the same piece may make further capturing moves in successive steps. Continuation is optional: the player may stop after any capture. Two restrictions govern continuation: ",
+    "anchor": "continuation-captures"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "Winning",
+    "heading": "Winning",
+    "content": "The player who captures all of their opponent's pieces wins. If neither player can achieve this, the game is a draw. In 2007, Schadd and Winands demonstrated that perfect play from both sides leads to",
+    "anchor": "winning"
+  },
+  {
+    "game": "fanorona",
+    "gameTitle": "Fanorona",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "Fanorona. Indigenous game of Madagascar. Public domain. Sources: ICGA International Computer Games Association Fanorona entry; Masters Traditional Games, Fanorona Rules 2019; UltraBoardGames, Fanorona",
+    "anchor": "attribution"
+  },
+  {
     "game": "go",
     "gameTitle": "Go",
     "section": "Variant Library",
@@ -1004,7 +1076,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Standard Board (8×8)",
-    "content": "- Standard Chessvariants/standard/ — Classic FIDE rules - Andernach Chessvariants/andernach/ — Capturing piece changes colour - Atomicvariants/atomic/ — Captures explode adjacent pieces - Benedict Che",
+    "content": "- Standard Chessvariants/standard/ — Classic FIDE rules - Absorption Chessvariants/absorption/ — Capturing piece gains the victim's movement permanently - Andernach Chessvariants/andernach/ — Capturin",
     "anchor": "standard-board-88"
   },
   {
@@ -1027,25 +1099,25 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
-    "heading": "Piece Replacement Variants",
-    "content": "- Almost Chessvariants/almost-chess/ — One queen replaced by Chancellor R+N - Amazon Chessvariants/amazon-chess/ — Queens replaced by Amazons Q+N - Chigorinvariants/chigorin/ — White has 4 knights ins",
-    "anchor": "piece-replacement-variants"
+    "heading": "Piece Replacement & Movement Variants",
+    "content": "- Almost Chessvariants/almost-chess/ — One queen replaced by Chancellor R+N - Amazon Chessvariants/amazon-chess/ — Queens replaced by Amazons Q+N - Berolina Chessvariants/berolina-chess/ — Pawns move ",
+    "anchor": "piece-replacement-movement-variants"
   },
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Starting Position Variants",
-    "content": "- Endgame Chessvariants/endgame-chess/ — Only pawns and Kings from the start - Pawns Onlyvariants/pawns-only/ — Only pawns, first promotion wins - Peasants' Revoltvariants/peasants-revolt/ — King + pa",
+    "content": "- Endgame Chessvariants/endgame-chess/ — Only pawns and Kings from the start - Legan Chessvariants/legan-chess/ — Berolina pawns, King and Queen swap starting squares - Pawns Onlyvariants/pawns-only/ ",
     "anchor": "starting-position-variants"
   },
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
-    "heading": "Regional Variant",
-    "content": "- Makpongvariants/makpong/ — Thai variant, King cannot move out of check",
-    "anchor": "regional-variant"
+    "heading": "Regional & Historical Variants",
+    "content": "- Makpongvariants/makpong/ — Thai variant, King cannot move out of check - Makrukvariants/makruk/ — Thai chess, pawns promote on rank 6 to Met - Shatarvariants/shatar/ — Mongolian chess, win by baring",
+    "anchor": "regional-historical-variants"
   },
   {
     "game": "moddable-chess",
@@ -5756,6 +5828,66 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Absorption Chess",
+    "heading": "Absorption Chess",
+    "content": "When a piece captures, it permanently gains the victim's movement abilities in addition to its own. Multiple absorptions stack, creating increasingly powerful compound pieces as the game progresses.",
+    "anchor": "absorption-chess",
+    "variant": "absorption",
+    "variantUrl": "dist/moddable-chess/variants/absorption/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Absorption Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Pieces: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "absorption",
+    "variantUrl": "dist/moddable-chess/variants/absorption/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Absorption Chess",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, with the following additions: - When a piece captures an enemy piece, the capturing piece permanently gains the movement abilities of the captured piece. - Absorbed abi",
+    "anchor": "rules",
+    "variant": "absorption",
+    "variantUrl": "dist/moddable-chess/variants/absorption/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Absorption Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King. Because the king gains abilities through captures, checkmate becomes progressively harder to achieve as the game develops. Early aggression against the king is generally",
+    "anchor": "win-condition",
+    "variant": "absorption",
+    "variantUrl": "dist/moddable-chess/variants/absorption/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Absorption Chess",
+    "heading": "Strategy",
+    "content": "Material trades require careful calculation. Capturing a piece grants you its power, but your opponent loses a piece. The net effect depends on what abilities each side accumulates. Queens are dangero",
+    "anchor": "strategy",
+    "variant": "absorption",
+    "variantUrl": "dist/moddable-chess/variants/absorption/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Absorption Chess",
+    "heading": "Attribution",
+    "content": "Described in The Encyclopedia of Chess Variants by David Pritchard 1994. Also known as Cannibal Chess though that name more properly refers to the replacement variant where capturing substitutes movem",
+    "anchor": "attribution",
+    "variant": "absorption",
+    "variantUrl": "dist/moddable-chess/variants/absorption/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Almost Chess",
     "heading": "Almost Chess",
     "content": "One Queen is replaced by a Chancellor Rook + Knight compound. \"Almost\" standard chess — one piece different, but the implications ripple through the entire game.",
@@ -9426,9 +9558,79 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Shatranj",
+    "heading": "Shatranj",
+    "content": "The medieval Islamic form of chess, played across the Islamic world from approximately the 7th century AD. Derived from the Indian game Chaturanga and the direct ancestor of modern Western chess. Docu",
+    "anchor": "shatranj",
+    "variant": "shatranj",
+    "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatranj",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Starting position: The Shah occupies the d-file and the Ferz occupies the e-file, reversed from modern chess. - White: Rukh a1, Faras b1, Alfil c1, Shah d1, Ferz e1, Alfil f1, Far",
+    "anchor": "setup",
+    "variant": "shatranj",
+    "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatranj",
+    "heading": "Pieces",
+    "content": "Each side has 16 pieces: 1 Shah, 1 Ferz, 2 Alfil, 2 Faras, 2 Rukh, and 8 Baidaq. Shah King — moves one square in any direction, orthogonally or diagonally. May not move into, remain in, or pass throug",
+    "anchor": "pieces",
+    "variant": "shatranj",
+    "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatranj",
+    "heading": "Rules",
+    "content": "White moves first. Players alternate one move per turn. A piece may not move to a square occupied by a friendly piece. Moving to a square occupied by an opponent's piece captures it and removes it fro",
+    "anchor": "rules",
+    "variant": "shatranj",
+    "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatranj",
+    "heading": "Win Conditions",
+    "content": "Checkmate: The Shah is in check with no legal escape. The opponent wins. Bare King: Capturing all of the opponent's pieces except the Shah wins the game. If the opponent can bare your Shah on the very",
+    "anchor": "win-conditions",
+    "variant": "shatranj",
+    "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatranj",
+    "heading": "Draw Conditions",
+    "content": "Draws occur by mutual agreement, threefold repetition of position, or the 70-move rule no pawn move or capture in 70 consecutive moves. A simultaneous counter-bare is also a draw.",
+    "anchor": "draw-conditions",
+    "variant": "shatranj",
+    "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatranj",
+    "heading": "Attribution",
+    "content": "Rules documented in medieval Arabic manuscripts and in H.J.R. Murray, A History of Chess Oxford University Press, 1913. Public domain.",
+    "anchor": "attribution",
+    "variant": "shatranj",
+    "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Single-Check",
     "heading": "Single-Check",
-    "content": "One check wins. No checkmate needed — just deliver a single check and the game is over. Every move is life or death.",
+    "content": "One check wins. No checkmate needed: just deliver a single check and the game is over. Every move is life or death.",
     "anchor": "single-check",
     "variant": "single-check",
     "variantUrl": "dist/moddable-chess/variants/single-check/"
@@ -9448,7 +9650,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Single-Check",
     "heading": "Rules",
-    "content": "All standard chess rules apply, except: - The game ends immediately when a player delivers check. - Checkmate is not required — any check wins, even if it could be blocked or evaded. - Stalemate is st",
+    "content": "All standard chess rules apply, except: - The game ends immediately when a player delivers check. - Checkmate is not required; any check wins, even if it could be blocked or evaded. - Stalemate is sti",
     "anchor": "rules",
     "variant": "single-check",
     "variantUrl": "dist/moddable-chess/variants/single-check/"
@@ -9482,6 +9684,96 @@
     "anchor": "attribution",
     "variant": "single-check",
     "variantUrl": "dist/moddable-chess/variants/single-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Sittuyin (Burmese Chess)",
+    "content": "The traditional chess of Myanmar Burma, distinguished by its placement opening phase where players freely position pieces on their own half of the board before play begins.",
+    "anchor": "sittuyin-burmese-chess",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Traditionally played on a monochromatic board with two diagonal lines running corner-to-corner forming an X the sit-ke-myin, or general's lines. These diagonals mark the promotion",
+    "anchor": "setup",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Pieces",
+    "content": "Role --- King General Elephant Horse Chariot Pawn All piece movements are identical to Makruk Thai Chess. The General is a weak piece one diagonal step only. The Elephant moves one step diagonally in ",
+    "anchor": "pieces",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Rules",
+    "content": "- No double-step pawn move. Pawns always move one square forward. - No castling. - No en passant. - Stalemate is a draw. - 50-move rule applies 50 moves without capture or pawn advance.",
+    "anchor": "rules",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Promotion",
+    "content": "Pawns promote on specific diagonal squares forming a V-shape across the board: - White promotes on: a8, b7, c6, d5, e5, f6, g7, h8 - Black promotes on: a1, b2, c3, d4, e4, f3, g2, h1 Promotion rules: ",
+    "anchor": "promotion",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Counting Rules",
+    "content": "When one player has only a bare King remaining, the opponent must deliver checkmate within a limited number of moves based on remaining material: - 16 moves with a Chariot Rook - 44 moves with an Elep",
+    "anchor": "counting-rules",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Strategy",
+    "content": "The placement phase is the defining strategic feature. Experienced players position pieces to control key diagonals and prepare attacks from the opening. Since all pieces start in custom positions, th",
+    "anchor": "strategy",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Sittuyin",
+    "heading": "Attribution",
+    "content": "Traditional Burmese chess, played for centuries in Myanmar. Public domain.",
+    "anchor": "attribution",
+    "variant": "sittuyin",
+    "variantUrl": "dist/moddable-chess/variants/sittuyin/"
   },
   {
     "game": "moddable-chess",
@@ -9618,7 +9910,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Suicide Chess",
     "heading": "Suicide Chess",
-    "content": "Nearly identical to Giveaway — forced captures, lose all pieces to win — but with one critical difference: stalemate is a draw, not a loss.",
+    "content": "Nearly identical to Giveaway forced captures, lose all pieces to win, with one critical difference: stalemate is a draw, not a loss.",
     "anchor": "suicide-chess",
     "variant": "suicide-chess",
     "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
@@ -9638,7 +9930,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Suicide Chess",
     "heading": "Rules",
-    "content": "- If you can capture, you MUST capture. If multiple captures are available, you choose which one. - The King is not royal — there is no check or checkmate. The King can be captured like any other piec",
+    "content": "- If you can capture, you MUST capture. If multiple captures are available, you choose which one. - The King is not royal; there is no check or checkmate. The King can be captured like any other piece",
     "anchor": "rules",
     "variant": "suicide-chess",
     "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
@@ -9728,7 +10020,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Teleportation Chess",
     "heading": "Strategy",
-    "content": "Teleports are powerful but finite — save them for decisive moments. Common uses: teleporting a Knight or Queen into a mating net, escaping a trapped piece, or repositioning the King to safety. Bluffin",
+    "content": "Teleports are powerful but finite; save them for decisive moments. Common uses: teleporting a Knight or Queen into a mating net, escaping a trapped piece, or repositioning the King to safety. Bluffing",
     "anchor": "strategy",
     "variant": "teleport-chess",
     "variantUrl": "dist/moddable-chess/variants/teleport-chess/"
@@ -9808,7 +10100,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Toroidal Chess",
     "heading": "Toroidal Chess",
-    "content": "The board wraps in both directions — files connect left-to-right AND ranks connect top-to-bottom, forming a torus. There are no edges.",
+    "content": "The board wraps in both directions: files connect left-to-right and ranks connect top-to-bottom, forming a torus. There are no edges.",
     "anchor": "toroidal-chess",
     "variant": "toroidal-chess",
     "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
@@ -9848,7 +10140,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Toroidal Chess",
     "heading": "Strategy",
-    "content": "On a torus, there are no safe corners or edges — every square is equally central. Bishops can reach every square of their colour not just 7 diagonals but infinitely wrapping ones. Rooks threaten ranks",
+    "content": "On a torus, there are no safe corners or edges; every square is equally central. Bishops can reach every square of their colour not just 7 diagonals but infinitely wrapping ones. Rooks threaten ranks ",
     "anchor": "strategy",
     "variant": "toroidal-chess",
     "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
@@ -9908,7 +10200,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Torpedo Chess",
     "heading": "Strategy",
-    "content": "Passed pawns become much more dangerous because they can sprint two squares at a time. Pawn endgames are sharply different — a pawn on the 5th rank can reach promotion in two moves instead of three. B",
+    "content": "Passed pawns become much more dangerous because they can sprint two squares at a time. Pawn endgames are sharply different: a pawn on the 5th rank can reach promotion in two moves instead of three. Bl",
     "anchor": "strategy",
     "variant": "torpedo",
     "variantUrl": "dist/moddable-chess/variants/torpedo/"
@@ -9968,7 +10260,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Upside-Down",
     "heading": "Strategy",
-    "content": "Pieces are already developed — there's no opening phase of moving pieces out. Pawns are immediately adjacent to enemy pieces, creating instant tactical tension. The game is sharp from move 1. Pawn str",
+    "content": "Pieces are already developed, with no opening phase of moving pieces out. Pawns are immediately adjacent to enemy pieces, creating instant tactical tension. The game is sharp from move 1. Pawn structu",
     "anchor": "strategy",
     "variant": "upside-down",
     "variantUrl": "dist/moddable-chess/variants/upside-down/"
@@ -9988,7 +10280,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Weak!",
     "heading": "Weak!",
-    "content": "On each turn, you MUST move the weakest piece type that has a legal move. Pawns first, then Knights, Bishops, Rooks, Queen, King — in order of weakness.",
+    "content": "On each turn, you MUST move the weakest piece type that has a legal move. Pawns first, then Knights, Bishops, Rooks, Queen, King, in order of weakness.",
     "anchor": "weak",
     "variant": "weak",
     "variantUrl": "dist/moddable-chess/variants/weak/"

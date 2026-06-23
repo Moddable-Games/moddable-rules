@@ -4,7 +4,6 @@ slug: "shatranj"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 62
 win: "Checkmate, bare king, or stalemate"
 special: "Medieval Islamic chess. Bare king and stalemate are both wins. Ancestor of modern chess."
 ---
