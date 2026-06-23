@@ -4,14 +4,14 @@ slug: "suicide-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 64
+order: 65
 win: "Lose all pieces"
 special: "Forced captures like Giveaway, but stalemate is a draw, not a loss."
 ---
 
 ## Suicide Chess
 
-Nearly identical to Giveaway — forced captures, lose all pieces to win — but with one critical difference: stalemate is a draw, not a loss.
+Nearly identical to Giveaway (forced captures, lose all pieces to win), with one critical difference: stalemate is a draw, not a loss.
 
 
 {{svg:suicide-chess-board.svg "Suicide Chess — starting position"}}

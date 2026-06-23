@@ -4,7 +4,7 @@ slug: "upside-down"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 69
+order: 70
 win: "Checkmate"
 special: "Pieces start on the opponent's back rank. Instant tactical chaos."
 ---
@@ -38,7 +38,7 @@ Checkmate, same as standard chess.
 
 ### Strategy
 
-Pieces are already developed — there's no opening phase of moving pieces out. Pawns are immediately adjacent to enemy pieces, creating instant tactical tension. The game is sharp from move 1. Pawn structure becomes strange because pawns are "behind" the pieces they're supposed to shield.
+Pieces are already developed, with no opening phase of moving pieces out. Pawns are immediately adjacent to enemy pieces, creating instant tactical tension. The game is sharp from move 1. Pawn structure becomes strange because pawns are "behind" the pieces they're supposed to shield.
 
 ### Attribution
 

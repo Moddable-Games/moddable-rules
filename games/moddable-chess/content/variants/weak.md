@@ -4,7 +4,7 @@ slug: "weak"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 70
+order: 71
 win: "Checkmate"
 special: "Weakest piece type with a legal move must move first."
 ---

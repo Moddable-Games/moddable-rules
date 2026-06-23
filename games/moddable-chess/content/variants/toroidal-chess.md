@@ -4,7 +4,7 @@ slug: "toroidal-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 67
+order: 68
 win: "Checkmate"
 special: "Board wraps in both directions (files and ranks) forming a torus. No edges exist."
 ---

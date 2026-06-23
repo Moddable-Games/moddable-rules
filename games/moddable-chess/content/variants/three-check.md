@@ -4,7 +4,7 @@ slug: "three-check"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 66
+order: 67
 win: "Checkmate or deliver 3 checks"
 special: "First to check the opponent three times wins."
 ---

@@ -4,7 +4,7 @@ slug: "teleport-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 65
+order: 66
 win: "Checkmate"
 special: "Each side has 3 teleports per game — move any piece to any empty square."
 ---
