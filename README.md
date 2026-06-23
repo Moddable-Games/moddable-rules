@@ -169,6 +169,21 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-06-23 (session 2)
+- Added Sittuyin (Burmese Chess) and Absorption Chess variants to moddable-chess hub (73 total)
+- Merged Fanorona, Surakarta, and Shatranj PRs into production
+- Auto-alphabetical variant ordering: removed all manual order: numbers, build sorts by title
+- Fixed hub index page: now lists all 73 variants (was only showing 54)
+- PDF pagination engine: SVG+caption grouping, H2 orphan prevention
+- Build safety nets: warns on missing variants from hub, missing PDFs, missing template links
+- Added PDF links to 5 game templates that were missing them
+- Fixed Surakarta board SVG (arc clipping, legend centering) and logo (symmetric loop-arc icon)
+- Generated board SVGs via moddable-chess engine renderer (correct piece placement)
+- Regenerated all 227 PDFs (1,190 pages total); Nukes unchanged at 20pp
+- Fixed variants.json: order defaults to null when frontmatter omitted
+- Created Phase 1 variant pipeline design issue (#112) with cross-project links
+- Site version 1.1.17, 24 games, 147 variants, 1195 search index entries
+
 #### 2026-06-23
 - Converted Stern-Halma from variant hub to standalone single-page rulebook
 - Added Ninuki-Renju variant to Go hub (14 variants total, all reordered alphabetically)
