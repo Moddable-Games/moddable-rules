@@ -400,7 +400,7 @@ function buildLanding() {
 <meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=${version}">
 <link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
 <link rel="stylesheet" href="css/landing.css?v=${version}">
-<script src="shared/js/analytics.js" defer></script>
+<script type="module" src="shared/js/analytics.js"></script>
 </head>
 <body>
 
@@ -471,7 +471,7 @@ ${cards}
 
 </div>
 
-<script src="js/landing.js?v=${version}"></script>
+<script type="module" src="js/landing.js?v=${version}"></script>
 </body>
 </html>
 `;

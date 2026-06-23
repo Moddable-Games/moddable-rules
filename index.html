@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=1.1.16">
 <link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
 <link rel="stylesheet" href="css/landing.css?v=1.1.16">
-<script src="shared/js/analytics.js" defer></script>
+<script type="module" src="shared/js/analytics.js"></script>
 </head>
 <body>
 
@@ -53,6 +53,19 @@
   </div>
 
   <div class="game-grid">
+
+    <a href="dist/moddable-chess/index.html" class="game-card" data-type="platform">
+      <span class="badge badge--alpha">Alpha</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/moddable-chess/logos/moddable-chess-logo.svg" alt="">
+        <p class="card-desc">Every chess variant, one engine</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Moddable Chess</span><span class="card-version">v0.4.3</span></div>
+        
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>10–120 min</span></div>
+      </div>
+    </a>
 
     <a href="dist/go/index.html" class="game-card" data-type="classic">
       <span class="badge badge--live">Live</span>
@@ -103,19 +116,6 @@
         <div class="card-header"><span class="card-title">The Landlord's Game</span><span class="card-version">v0.1.1</span></div>
         
         <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>60–120 min</span></div>
-      </div>
-    </a>
-
-    <a href="dist/moddable-chess/index.html" class="game-card" data-type="platform">
-      <span class="badge badge--alpha">Alpha</span>
-      <div class="card-logo-wrap">
-        <img class="card-logo" src="games/moddable-chess/logos/moddable-chess-logo.svg" alt="">
-        <p class="card-desc">Every chess variant, one engine</p>
-      </div>
-      <div class="card-body">
-        <div class="card-header"><span class="card-title">Moddable Chess</span><span class="card-version">v0.4.2</span></div>
-        
-        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>10–120 min</span></div>
       </div>
     </a>
 
@@ -374,6 +374,6 @@
 
 </div>
 
-<script src="js/landing.js?v=1.1.16"></script>
+<script type="module" src="js/landing.js?v=1.1.16"></script>
 </body>
 </html>
