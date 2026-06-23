@@ -69,11 +69,12 @@ This library includes {{variant_count}} playable variants spanning different boa
 
 ### Placement Games
 
-Five-in-a-row games played on the Go board without capture.
+Five-in-a-row placement games played on the Go board.
 
 <div class="variant-grid">
 
 - [Gomoku](variants/gomoku/) — Ancient placement game: five in a row wins
+- [Ninuki-Renju](variants/ninuki-renju/) — Custodial captures added to Gomoku; historical precursor to Pente
 - [Renju](variants/renju/) — Competitive Gomoku with forbidden moves for Black
 
 </div>

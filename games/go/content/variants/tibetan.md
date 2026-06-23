@@ -4,7 +4,7 @@ slug: "tibetan"
 board: "17×17"
 players: "2"
 parent: "go"
-order: 7
+order: 13
 win: "Cosmological scoring (territory + captures + bonus)"
 special: "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system."
 ---
@@ -43,7 +43,7 @@ The exact scoring weights vary by regional tradition. White receives compensatio
 
 ### Strategy
 
-The delayed capture rule makes attacks less decisive — surrounding a group does not guarantee its death. This encourages peaceful coexistence and territory-building over aggressive fighting. The pre-placed stones shape the opening, creating a more symmetrical start than standard Go.
+The delayed capture rule makes attacks less decisive: surrounding a group does not guarantee its death. This encourages peaceful coexistence and territory-building over aggressive fighting. The pre-placed stones shape the opening, creating a more symmetrical start than standard Go.
 
 ### Attribution
 
