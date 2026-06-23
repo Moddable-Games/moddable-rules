@@ -11,6 +11,15 @@ status: "alpha"
 updated: "2026-06-19"
 first_published: "April 2026"
 published: false
+logo_has_title: true
+theme:
+  surface: light
+  tint: warm
+  texture: grain
+  cover: gradient
+  typography: classical
+  accent: brown
+  section-divider: "☕"
 ---
 
 <div class="section">

@@ -1,0 +1,9 @@
+/* Accent: Brown — earthy warm brown */
+:root {
+  --accent: #8b5e3c;
+  --accent-dark: #5c3a20;
+  --accent-light: #b88860;
+  --accent-trans: rgba(139, 94, 60, .3);
+  --accent-on-dark: #b88860;
+  --accent-on-light: #5c3a20;
+}

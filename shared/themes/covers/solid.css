@@ -1,0 +1,4 @@
+/* Cover: Solid — flat dark panel with accent border */
+.cover {
+  background: var(--accent-dark, #1a1a2e);
+}

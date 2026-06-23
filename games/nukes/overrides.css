@@ -1,0 +1,32 @@
+/* Nukes — game-specific component overrides */
+
+/* Unit card head variants */
+.uc-head--infantry{background:var(--accent-secondary, #1c6a6a);}
+.uc-head--artillery{background:#456030;}
+.uc-head--airborne{background:#384070;}
+.uc-head--nuke{background:var(--text-primary);}
+.uc-head--base{background:var(--accent);}
+
+/* Biome colours */
+.biome.fields{background:#eaf4e0;border-color:#b0d494;}
+.biome.forest{background:#d4ecd2;border-color:#82b47a;}
+.biome.mountain{background:#eae6e0;border-color:#bcb4aa;}
+.biome.desert{background:#f8f0ce;border-color:#d8bc78;}
+.biome.water{background:#d8eaf8;border-color:#86bade;}
+.biome.hazard{background:#eddff5;border-color:#b07ece;}
+.biome.city{background:#fde8e8;border-color:#dc9898;}
+
+/* Biome chips */
+.chip-fields{background:#b4e090;}
+.chip-forest{background:#7aba70;}
+.chip-mountain{background:#bcb4aa;}
+.chip-desert{background:#e0c878;}
+.chip-water{background:#86bade;}
+.chip-hazard{background:#c090e0;color:white;}
+.chip-city{background:#e08888;}
+
+/* Bookmark biome dots */
+.dot-water{background:#86bade;}
+.dot-desert{background:#e0c878;}
+.dot-forest{background:#82b47a;}
+.dot-mountain{background:#bcb4aa;}

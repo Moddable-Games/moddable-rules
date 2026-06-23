@@ -1,0 +1,9 @@
+/* Accent: Purple — rich violet/purple */
+:root {
+  --accent: #6a40b0;
+  --accent-dark: #4a2880;
+  --accent-light: #9a70e0;
+  --accent-trans: rgba(106, 64, 176, .3);
+  --accent-on-dark: #9a70e0;
+  --accent-on-light: #4a2880;
+}

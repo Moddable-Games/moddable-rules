@@ -1,0 +1,9 @@
+/* Typography: Modern — clean sans-led, matches moddable-website */
+:root {
+  --serif: 'Barlow', system-ui, sans-serif;
+  --sans: 'Rajdhani', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --fs-body: 17px;
+  --fs-body-sm: 15px;
+  --lh-body: 1.7;
+}

@@ -11,6 +11,13 @@ status: "live"
 updated: "2026-06-18"
 published: true
 variants: false
+theme:
+  surface: light
+  tint: cool
+  texture: crosshatch
+  cover: ornate
+  typography: classical
+  accent: indigo
 ---
 
 <div class="section">

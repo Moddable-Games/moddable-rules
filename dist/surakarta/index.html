@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Surakarta &mdash; Official Rulebook v0.1.0</title>
-<meta name="description" content="Complete rules for Surakarta (Roundabouts), the Indonesian loop-capture board game.">
-<meta property="og:title" content="Surakarta &mdash; Official Rulebook v0.1.0">
-<meta property="og:description" content="The loop-capture game of Java: capture through the corner arcs.">
-<meta property="og:image" content="https://rules.moddable.games/games/surakarta/og-image.png?v=1.1.17">
+<title>Surakarta — Official Rulebook v0.1.0</title>
+<meta name="description" content="The loop-capture game of Java: capture through the corner arcs">
+<meta property="og:title" content="Surakarta — Official Rulebook v0.1.0">
+<meta property="og:description" content="The loop-capture game of Java: capture through the corner arcs">
+<meta property="og:image" content="https://rules.moddable.games/games/surakarta/og-image.png?v=1.2.0">
 <meta property="og:url" content="https://rules.moddable.games/dist/surakarta/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Surakarta &mdash; Official Rulebook v0.1.0">
-<meta name="twitter:description" content="The loop-capture game of Java: capture through the corner arcs.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/surakarta/og-image.png?v=1.1.17">
+<meta name="twitter:title" content="Surakarta — Official Rulebook v0.1.0">
+<meta name="twitter:description" content="The loop-capture game of Java: capture through the corner arcs">
+<meta name="twitter:image" content="https://rules.moddable.games/games/surakarta/og-image.png?v=1.2.0">
 <link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../games/surakarta/theme.css?v=0.1.0">
-<script src="../../shared/js/analytics.js" defer></script>
+<link rel="stylesheet" href="./theme.css?v=0.1.0">
+<script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
@@ -29,18 +29,24 @@
 
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../../games/surakarta/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/surakarta/pdf/surakarta-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/surakarta/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/surakarta/pdf/surakarta-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
   <span class="hdr-meta">Official Rulebook &middot; v0.1.0</span>
 </header>
 
 <div class="cover">
-  <div class="cover-title">SURAKARTA</div>
+  <img class="cover-icon" src="../../games/surakarta/logos/surakarta-logo.svg" alt="Surakarta">
+  <div class="cover-title ">Surakarta</div>
   <div class="cover-sub">Official Rulebook</div>
   <div class="cover-rule"></div>
   <p class="cover-tagline">The loop-capture game of Java: capture through the corner arcs</p>
   <div class="cover-stats">
     <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
-    <div class="cover-stat"><span class="cs-num">20</span><span class="cs-lbl">Min</span></div>
+    <div class="cover-stat"><span class="cs-num">10–30 min</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">8+</span><span class="cs-lbl">Age</span></div>
   </div>
   <p class="cover-pub">Published by Moddable Games &middot; v0.1.0</p>
@@ -214,13 +220,18 @@
 <p>Surakarta. Traditional game attributed to Surakarta (Solo), Central Java, Indonesia. European publication by Ravensberger, Germany, 1971. Public domain. Sources: Ludii Project, Maastricht University (ludii.games, academic game corpus); rubysash/site.hollowedstone implementation reference (MIT licence); Wikipedia, Surakarta (game) (CC-BY-SA 4.0); Masters of Games (mastersofgames.com).</p>
 </div>
 
+
 </main>
 
+
+
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Surakarta v0.1.0 &middot; Published by Moddable Games &middot; &copy; 2026 All Rights Reserved</span>
+  <span class="ftr-copy">Surakarta v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
-<script src="../../js/toc.js?v=0.1.0"></script>
+
+<script type="module" src="../../js/toc.js?v=0.1.0"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

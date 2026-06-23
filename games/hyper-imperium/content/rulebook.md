@@ -12,6 +12,15 @@ status: "playtest"
 updated: "2026-06-19"
 first_published: "January 2025"
 published: true
+logo_has_title: true
+theme:
+  surface: dark
+  tint: cool
+  texture: starfield
+  cover: cosmic
+  typography: modern
+  accent: slate
+  section-divider: "✦"
 ---
 
 <div class="section">

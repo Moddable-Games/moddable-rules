@@ -1,0 +1,9 @@
+/* Accent: Rose — deep wine/rose */
+:root {
+  --accent: #8B1A3B;
+  --accent-dark: #601028;
+  --accent-light: #c84060;
+  --accent-trans: rgba(139, 26, 59, .3);
+  --accent-on-dark: #c84060;
+  --accent-on-light: #601028;
+}

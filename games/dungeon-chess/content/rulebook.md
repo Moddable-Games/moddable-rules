@@ -12,6 +12,15 @@ status: "alpha"
 updated: "2026-06-12"
 first_published: "May 2026"
 published: true
+logo_has_title: true
+theme:
+  surface: dark
+  tint: warm
+  texture: grain
+  cover: ornate
+  typography: classical
+  accent: amber
+  section-divider: "⚔"
 ---
 
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Overview</span><span class="eyebrow-line"></span></div>

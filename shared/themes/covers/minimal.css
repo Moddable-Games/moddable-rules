@@ -1,0 +1,11 @@
+/* Cover: Minimal — thin accent bar, restrained */
+.cover {
+  background: var(--accent-dark, #1a1a2e);
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.cover::before,
+.cover::after {
+  display: none;
+}

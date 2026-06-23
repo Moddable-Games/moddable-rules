@@ -1,0 +1,9 @@
+/* Typography: Technical — monospace-led for engine/developer docs */
+:root {
+  --serif: 'JetBrains Mono', monospace;
+  --sans: 'Rajdhani', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --fs-body: 15px;
+  --fs-body-sm: 14px;
+  --lh-body: 1.65;
+}

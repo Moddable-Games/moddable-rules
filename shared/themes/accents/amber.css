@@ -1,0 +1,9 @@
+/* Accent: Amber — muted warm gold, softer than gold */
+:root {
+  --accent: #c9a84c;
+  --accent-dark: #8b6914;
+  --accent-light: #e8d5a0;
+  --accent-trans: rgba(201, 168, 76, .3);
+  --accent-on-dark: #e8d5a0;
+  --accent-on-light: #8b6914;
+}

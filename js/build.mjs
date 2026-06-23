@@ -7,6 +7,7 @@ const ROOT = resolve(import.meta.dirname, '..');
 const GAMES_DIR = resolve(ROOT, 'games');
 const SHARED_DIR = resolve(ROOT, 'shared');
 const DIST_DIR = resolve(ROOT, 'dist');
+const THEMES_DIR = resolve(SHARED_DIR, 'themes');
 
 // --- Parse CLI arguments ---
 const args = process.argv.slice(2);
@@ -62,6 +63,83 @@ function createMarkdownRenderer() {
   });
 
   return md;
+}
+
+// --- Theme layer defaults ---
+const THEME_DEFAULTS = {
+  surface: 'light',
+  tint: 'warm',
+  texture: 'grain',
+  cover: 'solid',
+  typography: 'classical',
+  accent: 'gold',
+  'accent-secondary': null,
+  'section-divider': null,
+};
+
+// --- Generate composed theme CSS from frontmatter ---
+function generateThemeCSS(meta, slug) {
+  const theme = { ...THEME_DEFAULTS };
+  if (meta.theme) {
+    for (const key of Object.keys(THEME_DEFAULTS)) {
+      if (meta.theme[key] !== undefined) theme[key] = meta.theme[key];
+    }
+  }
+
+  const layers = [
+    resolve(THEMES_DIR, 'surfaces', 'light.css'),
+    resolve(THEMES_DIR, 'surfaces', 'dark.css'),
+    resolve(THEMES_DIR, 'tints', `${theme.tint}.css`),
+    resolve(THEMES_DIR, 'accents', `${theme.accent}.css`),
+    resolve(THEMES_DIR, 'textures', `${theme.texture}.css`),
+    resolve(THEMES_DIR, 'covers', `${theme.cover}.css`),
+    resolve(THEMES_DIR, 'typography', `${theme.typography}.css`),
+  ];
+
+  let css = `/* Generated theme: ${slug} */\n`;
+  css += `/* surface:${theme.surface} tint:${theme.tint} accent:${theme.accent} texture:${theme.texture} cover:${theme.cover} typography:${theme.typography} */\n\n`;
+
+  for (const layerPath of layers) {
+    if (existsSync(layerPath)) {
+      css += readFileSync(layerPath, 'utf8') + '\n';
+    } else {
+      css += `/* WARNING: missing layer ${layerPath} */\n`;
+    }
+  }
+
+  // Secondary accent (optional)
+  if (theme['accent-secondary']) {
+    const secPath = resolve(THEMES_DIR, 'accents', `${theme['accent-secondary']}.css`);
+    if (existsSync(secPath)) {
+      const secCSS = readFileSync(secPath, 'utf8')
+        .replace(/--accent/g, '--accent-secondary');
+      css += `\n/* Secondary accent: ${theme['accent-secondary']} */\n${secCSS}\n`;
+    }
+  }
+
+  // Section divider (optional)
+  if (theme['section-divider']) {
+    css += `\n/* Section divider */\n`;
+    css += `.section+.section::before{content:'${theme['section-divider']}';display:block;text-align:center;font-size:14px;color:var(--accent);opacity:.35;margin:-10px 0 0;line-height:1;}\n`;
+  }
+
+  // Game-specific overrides (if file exists)
+  const overridePath = resolve(GAMES_DIR, slug, 'overrides.css');
+  if (existsSync(overridePath)) {
+    css += `\n/* Game-specific overrides */\n`;
+    css += readFileSync(overridePath, 'utf8') + '\n';
+  }
+
+  // Print: lock to authored surface regardless of user toggle
+  const printSurface = resolve(THEMES_DIR, 'surfaces', `${theme.surface}.css`);
+  if (existsSync(printSurface)) {
+    const printVars = readFileSync(printSurface, 'utf8')
+      .replace(/\[data-surface="[^"]+"\]/, ':root');
+    css += `\n/* Print: force authored surface (${theme.surface}) */\n`;
+    css += `@media print {\n${printVars}\n}\n`;
+  }
+
+  return css;
 }
 
 // --- Build a single game ---
@@ -137,6 +215,38 @@ function buildGame(slug) {
   let output = template.replace('{{CONTENT}}', rendered);
   output = processIncludes(output);
 
+  // --- Resolve cover logo (inject if template has placeholder OR no cover-icon yet) ---
+  const logosDir = resolve(gameDir, 'logos');
+  let coverLogoHtml = '';
+  if (existsSync(logosDir)) {
+    const logoFiles = readdirSync(logosDir).filter(f => /logo/i.test(f) && /\.(svg|png|webp)$/.test(f));
+    const logoFile = logoFiles.find(f => f.endsWith('.svg')) || logoFiles.find(f => f.endsWith('.png')) || logoFiles[0];
+    if (logoFile) {
+      coverLogoHtml = `<img class="cover-icon" src="logos/${logoFile}" alt="${(meta.title || slug).replace(/ — Official Rulebook$/, '')}">`;
+    }
+  }
+  if (output.includes('{{COVER_LOGO}}')) {
+    output = output.replace('{{COVER_LOGO}}', coverLogoHtml);
+  } else if (coverLogoHtml && !output.includes('cover-icon')) {
+    output = output.replace('<div class="cover">', `<div class="cover">\n  ${coverLogoHtml}`);
+  }
+
+  // --- Inject surface toggle if not present ---
+  if (!output.includes('surface-toggle')) {
+    output = output.replace(
+      /<\/div>\s*\n\s*<span class="hdr-meta"/,
+      `<button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>\n  </div>\n  <span class="hdr-meta"`
+    );
+  }
+
+  // --- Inject surface-toggle script if not present ---
+  if (!output.includes('surface-toggle.js')) {
+    output = output.replace(
+      '</body>',
+      '<script type="module" src="../../shared/js/surface-toggle.js"></script>\n</body>'
+    );
+  }
+
   // --- Replace template variables from frontmatter ---
   const variantsDir = resolve(gameDir, 'content/variants');
   const variantCount = existsSync(variantsDir)
@@ -144,6 +254,27 @@ function buildGame(slug) {
     : 0;
 
   const projectVersion = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
+
+  const isVariantHub = meta.variant_hub !== false && !!meta.variants;
+  const coverSub = isVariantHub ? 'Variant Library' : 'Official Rulebook';
+
+  // Resolve PDF link (prefer variant-library for hubs, fall back to rulebook)
+  const pdfCandidates = isVariantHub
+    ? [`${slug}-variant-library.pdf`, `${slug}-rulebook.pdf`]
+    : [`${slug}-rulebook.pdf`];
+  const pdfName = pdfCandidates.find(f => existsSync(resolve(gameDir, 'pdf', f))) || '';
+  const pdfLink = pdfName
+    ? `<a href="../../games/${slug}/pdf/${pdfName}" class="hdr-link" target="_blank" rel="noopener">PDF</a>`
+    : '';
+
+  // Cover stats: variant hubs show Variants/Players/Age, rulebooks show Players/Duration/Age
+  const coverStats = isVariantHub
+    ? `<div class="cover-stat"><span class="cs-num">${variantCount}</span><span class="cs-lbl">Variants</span></div>
+    <div class="cover-stat"><span class="cs-num">${meta.players || ''}</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">${meta.age || ''}</span><span class="cs-lbl">Age</span></div>`
+    : `<div class="cover-stat"><span class="cs-num">${meta.players || ''}</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">${meta.duration || ''}</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">${meta.age || ''}</span><span class="cs-lbl">Age</span></div>`;
 
   const templateVars = {
     version: meta.version || '',
@@ -157,6 +288,16 @@ function buildGame(slug) {
     age: meta.age || '',
     first_published: meta.first_published || '',
     variant_count: String(variantCount),
+    cover_sub: coverSub,
+    cover_title_class: meta.logo_has_title ? 'cover-title--hidden' : '',
+    PDF_LINK: pdfLink,
+    COVER_STATS: coverStats,
+    POST_CONTENT: (meta.post_content || []).map(f => {
+      const gamPath = resolve(gameDir, 'templates/partials', f);
+      const shrPath = resolve(SHARED_DIR, 'templates/partials', f);
+      const p = existsSync(gamPath) ? gamPath : shrPath;
+      return existsSync(p) ? readFileSync(p, 'utf8') : '';
+    }).join('\n'),
   };
 
   for (const [key, value] of Object.entries(templateVars)) {
@@ -190,20 +331,39 @@ function buildGame(slug) {
     'href="../../shared/css/style.css"'
   );
 
-  // --- Game-specific theme: fix ../theme.css → correct path from dist/ ---
-  output = output.replace(
-    /href="\.\.\/theme\.css([^"]*)"/g,
-    `href="${gameRelative}/theme.css$1"`
-  );
-
-  // Add theme.css for old-style templates that don't reference it
-  const themeExists = existsSync(resolve(gameDir, 'theme.css'));
-  const hasThemeLink = output.includes('theme.css');
-  if (themeExists && !hasThemeLink) {
+  // --- Theme CSS linking ---
+  if (meta.theme) {
+    // New system: link to generated theme.css in dist/{slug}/
     output = output.replace(
-      /href="\.\.\/\.\.\/shared\/css\/style\.css"/,
-      `href="../../shared/css/style.css">\n<link rel="stylesheet" href="${gameRelative}/theme.css"`
+      /href="\.\.\/theme\.css([^"]*)"/g,
+      `href="./theme.css$1"`
     );
+    output = output.replace(
+      /href="\.\.\/\.\.\/games\/[^/]+\/theme\.css([^"]*)"/g,
+      `href="./theme.css$1"`
+    );
+    // Ensure theme link exists
+    if (!output.includes('theme.css')) {
+      output = output.replace(
+        /href="\.\.\/\.\.\/shared\/css\/components\.css[^"]*"/,
+        `$&>\n<link rel="stylesheet" href="./theme.css?v=${meta.version || ''}"`
+      );
+    }
+  } else {
+    // Legacy: fix ../theme.css → correct path from dist/
+    output = output.replace(
+      /href="\.\.\/theme\.css([^"]*)"/g,
+      `href="${gameRelative}/theme.css$1"`
+    );
+    // Add theme.css for old-style templates that don't reference it
+    const themeExists = existsSync(resolve(gameDir, 'theme.css'));
+    const hasThemeLink = output.includes('theme.css');
+    if (themeExists && !hasThemeLink) {
+      output = output.replace(
+        /href="\.\.\/\.\.\/shared\/css\/style\.css"/,
+        `href="../../shared/css/style.css">\n<link rel="stylesheet" href="${gameRelative}/theme.css"`
+      );
+    }
   }
 
   // --- Flat logo/image paths (old-style: logos/foo.png) ---
@@ -232,20 +392,26 @@ function buildGame(slug) {
     'src="../../js/'
   );
 
+  // --- Generate theme CSS from frontmatter layers ---
+  if (meta.theme) {
+    const themeCSS = generateThemeCSS(meta, slug);
+    const outDir2 = resolve(DIST_DIR, slug);
+    mkdirSync(outDir2, { recursive: true });
+    writeFileSync(resolve(outDir2, 'theme.css'), themeCSS);
+
+    // Add data-surface attribute to <html> for CSS targeting
+    const surface = meta.theme.surface || THEME_DEFAULTS.surface;
+    output = output.replace('<html lang="en">', `<html lang="en" data-surface="${surface}">`);
+  }
+
   // --- Write output ---
   const outDir = resolve(DIST_DIR, slug);
   mkdirSync(outDir, { recursive: true });
   writeFileSync(resolve(outDir, 'index.html'), output);
 
-  // Safety net: warn if shell template is missing PDF link
-  const shellContent = readFileSync(templatePath, 'utf8');
-  if (!shellContent.includes('.pdf')) {
-    console.warn(`  ⚠ ${slug}: shell template has no PDF link`);
-  }
-  // Safety net: warn if rulebook PDF doesn't exist on disk
-  const pdfPath = resolve(gameDir, 'pdf', `${slug}-rulebook.pdf`);
-  if (!existsSync(pdfPath)) {
-    console.warn(`  ⚠ ${slug}: no PDF found at games/${slug}/pdf/${slug}-rulebook.pdf`);
+  // Safety net: warn if no PDF exists at all
+  if (!pdfName) {
+    console.warn(`  ⚠ ${slug}: no PDF found in games/${slug}/pdf/`);
   }
 
   console.log(`  Built dist/${slug}/index.html`);
@@ -324,6 +490,17 @@ function buildVariants(slug) {
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
+
+    // Theme handling for variant pages
+    if (parentMeta.theme) {
+      const surface = parentMeta.theme.surface || THEME_DEFAULTS.surface;
+      output = output.replace('<html lang="en">', `<html lang="en" data-surface="${surface}">`);
+      // Fix theme.css path to point to generated file at dist/{slug}/theme.css
+      output = output.replace(
+        /href="[^"]*theme\.css([^"]*)"/g,
+        `href="../../theme.css$1"`
+      );
+    }
 
     const outDir = resolve(DIST_DIR, slug, 'variants', variantSlug);
     mkdirSync(outDir, { recursive: true });
@@ -405,7 +582,7 @@ function buildLanding() {
   }).join('\n\n');
 
   const html = `<!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -433,6 +610,7 @@ function buildLanding() {
 
   <header class="landing-header">
     <a href="https://moddable.games" target="_blank" rel="noopener"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
+    <button class="surface-toggle" aria-label="Toggle light/dark mode" type="button">◐</button>
   </header>
 
   <section class="hero">
@@ -497,6 +675,7 @@ ${cards}
 </div>
 
 <script type="module" src="js/landing.js?v=${version}"></script>
+<script type="module" src="shared/js/surface-toggle.js"></script>
 </body>
 </html>
 `;

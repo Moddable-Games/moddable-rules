@@ -11,6 +11,13 @@ status: "live"
 updated: "2026-06-15"
 published: true
 variants: true
+theme:
+  surface: light
+  tint: warm
+  texture: grain
+  cover: solid
+  typography: classical
+  accent: orange
 ---
 
 <div class="section variant-hub">

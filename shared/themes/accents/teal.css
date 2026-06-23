@@ -1,0 +1,9 @@
+/* Accent: Teal — deep cyan/teal */
+:root {
+  --accent: #1c6a6a;
+  --accent-dark: #0e4a4a;
+  --accent-light: #3a9090;
+  --accent-trans: rgba(28, 106, 106, .3);
+  --accent-on-dark: #3a9090;
+  --accent-on-light: #0e4a4a;
+}

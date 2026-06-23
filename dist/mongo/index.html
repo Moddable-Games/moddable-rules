@@ -1,54 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mongo — Official Rulebook v0.9.2</title>
-<meta name="description" content="Complete rules for Mongo, a trick-taking card game of planetary conquest in the Flash Gordon universe for 3–6 players.">
-<meta property="og:title" content="Mongo — Official Rulebook v0.9.2">
-<meta property="og:description" content="Global conquest in the Flash Gordon universe — a trick-taking card game where every hand changes the rules for the next one.">
-<meta property="og:image" content="https://rules.moddable.games/games/mongo/og-image.png?v=1.1.17">
+<title>Planet Mongo — Official Rulebook v0.9.2</title>
+<meta name="description" content="Hex-based territory control in the Flash Gordon universe">
+<meta property="og:title" content="Planet Mongo — Official Rulebook v0.9.2">
+<meta property="og:description" content="Hex-based territory control in the Flash Gordon universe">
+<meta property="og:image" content="https://rules.moddable.games/games/mongo/og-image.png?v=1.2.0">
 <meta property="og:url" content="https://rules.moddable.games/dist/mongo/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Mongo — Official Rulebook v0.9.2">
-<meta name="twitter:description" content="A trick-taking card game of planetary conquest for 3–6 players.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/mongo/og-image.png?v=1.1.17">
-<link rel="icon" type="image/png" sizes="32x32" href="../../games/mongo/logos/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../games/mongo/logos/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../../games/mongo/logos/apple-touch-icon.png">
+<meta name="twitter:title" content="Planet Mongo — Official Rulebook v0.9.2">
+<meta name="twitter:description" content="Hex-based territory control in the Flash Gordon universe">
+<meta name="twitter:image" content="https://rules.moddable.games/games/mongo/og-image.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.9.2">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.9.2">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.9.2">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.9.2">
-<link rel="stylesheet" href="../../games/mongo/theme.css?v=0.9.2">
+<link rel="stylesheet" href="./theme.css?v=0.9.2">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
 <div class="page">
 
-<!-- HEADER -->
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/mongo/pdf/mongo-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Official Rulebook · v0.9.2 · Playtest</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/mongo/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/mongo/pdf/mongo-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.9.2</span>
 </header>
 
-<!-- COVER -->
 <div class="cover">
-  <img class="cover-icon" src="../../games/mongo/logos/mongo-logo.png" alt="Mongo">
-  <div class="cover-title">MONGO</div>
+  <img class="cover-icon" src="../../games/mongo/logos/mongo-logo.png" alt="Planet Mongo">
+  <div class="cover-title cover-title--hidden">Planet Mongo</div>
   <div class="cover-sub">Official Rulebook</div>
   <div class="cover-rule"></div>
-  <p class="cover-tagline">Global conquest in the Flash Gordon universe — a trick-taking card game where every hand changes the rules</p>
+  <p class="cover-tagline">Hex-based territory control in the Flash Gordon universe</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">3–6</span><span class="cs-lbl">Players</span></div>
-    <div class="cover-stat"><span class="cs-num">90</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">2–8</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">120+ min</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">14+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.9.2 · Playtest Q3 2026</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.9.2</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -3298,15 +3299,18 @@
 <p>★ = City (Hawkmen)</p>
 </div>
 
+
 </main>
 
-<!-- FOOTER -->
+
+
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.9.2 · Published by Moddable Games · © 2026 All Rights Reserved</span>
-  <span class="ftr-copy">moddable.games/tool/mongo</span>
+  <span class="ftr-copy">Planet Mongo v0.9.2 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
-</div><!-- /page -->
+</div>
+
 <script type="module" src="../../js/toc.js?v=0.9.2"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

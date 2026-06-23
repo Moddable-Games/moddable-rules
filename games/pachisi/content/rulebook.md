@@ -11,6 +11,13 @@ status: "live"
 updated: "2026-06-18"
 published: true
 variants: true
+theme:
+  surface: light
+  tint: warm
+  texture: crosshatch
+  cover: ornate
+  typography: classical
+  accent: orange
 ---
 
 <div class="section variant-hub">

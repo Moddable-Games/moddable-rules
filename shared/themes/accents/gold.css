@@ -1,0 +1,9 @@
+/* Accent: Gold — deep saturated gold (DarkGoldenrod) */
+:root {
+  --accent: #b8860b;
+  --accent-dark: #8b6508;
+  --accent-light: #daa520;
+  --accent-trans: rgba(184, 134, 11, .3);
+  --accent-on-dark: #daa520;
+  --accent-on-light: #8b6508;
+}

@@ -11,6 +11,15 @@ status: "dev"
 updated: "2026-06-04"
 first_published: "January 2025"
 published: false
+logo_has_title: true
+theme:
+  surface: light
+  tint: cool
+  texture: none
+  cover: gradient
+  typography: classical
+  accent: orange
+  section-divider: "☁"
 ---
 
 <div class="section">

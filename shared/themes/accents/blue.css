@@ -1,0 +1,9 @@
+/* Accent: Blue — clean technical blue */
+:root {
+  --accent: #1a6dc4;
+  --accent-dark: #0c4f8d;
+  --accent-light: #6fb5ff;
+  --accent-trans: rgba(26, 109, 196, .3);
+  --accent-on-dark: #6fb5ff;
+  --accent-on-light: #0c4f8d;
+}

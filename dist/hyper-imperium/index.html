@@ -1,53 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hyper Imperium — Official Rulebook v0.7.0</title>
-<meta name="description" content="A faster, more political Twilight Imperium. Hyper Movement, Hyper Trades, Hyper Objectives.">
+<meta name="description" content="3D exploration and mercenary factions for Twilight Imperium">
 <meta property="og:title" content="Hyper Imperium — Official Rulebook v0.7.0">
-<meta property="og:description" content="A faster, more political Twilight Imperium — five rule changes that accelerate without gutting depth.">
-<meta property="og:image" content="https://rules.moddable.games/games/hyper-imperium/og-image.png?v=1.1.17">
+<meta property="og:description" content="3D exploration and mercenary factions for Twilight Imperium">
+<meta property="og:image" content="https://rules.moddable.games/games/hyper-imperium/og-image.png?v=1.2.0">
 <meta property="og:url" content="https://rules.moddable.games/dist/hyper-imperium/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Hyper Imperium — Official Rulebook v0.7.0">
-<meta name="twitter:description" content="A faster, more political Twilight Imperium — five rule changes that accelerate without gutting depth.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/hyper-imperium/og-image.png?v=1.1.17">
-<link rel="icon" type="image/png" sizes="32x32" href="../../games/hyper-imperium/logos/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../games/hyper-imperium/logos/favicon-16.png">
+<meta name="twitter:description" content="3D exploration and mercenary factions for Twilight Imperium">
+<meta name="twitter:image" content="https://rules.moddable.games/games/hyper-imperium/og-image.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
 <link rel="stylesheet" href="../../shared/css/fonts.css?v=0.7.0">
 <link rel="stylesheet" href="../../shared/css/tokens.css?v=0.7.0">
 <link rel="stylesheet" href="../../shared/css/base.css?v=0.7.0">
 <link rel="stylesheet" href="../../shared/css/components.css?v=0.7.0">
-<link rel="stylesheet" href="../../games/hyper-imperium/theme.css?v=0.7.0">
+<link rel="stylesheet" href="./theme.css?v=0.7.0">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
 <div class="page">
 
-<!-- HEADER -->
 <header class="doc-header" role="banner">
   <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/hyper-imperium/pdf/hyper-imperium-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
-  <span class="hdr-meta">Mod of TI4 · v0.7.0</span>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/hyper-imperium/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/hyper-imperium/pdf/hyper-imperium-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.7.0</span>
 </header>
 
-<!-- COVER -->
 <div class="cover">
   <img class="cover-icon" src="../../games/hyper-imperium/logos/hyper-imperium-logo.png" alt="Hyper Imperium">
-  <div class="cover-title">HYPER IMPERIUM</div>
+  <div class="cover-title cover-title--hidden">Hyper Imperium</div>
   <div class="cover-sub">Official Rulebook</div>
   <div class="cover-rule"></div>
-  <p class="cover-tagline">A faster, more political Twilight Imperium</p>
+  <p class="cover-tagline">3D exploration and mercenary factions for Twilight Imperium</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">3–6</span><span class="cs-lbl">Players</span></div>
-    <div class="cover-stat"><span class="cs-num">4–6</span><span class="cs-lbl">Hours</span></div>
+    <div class="cover-stat"><span class="cs-num">4–6</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">4–6 hr</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">14+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.7.0</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.7.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -856,14 +858,18 @@
 </table></div>
 </div>
 
+
 </main>
 
-<!-- FOOTER -->
+
+
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.7.0 · Published by Moddable Games · © 2024–2026 All Rights Reserved</span>
+  <span class="ftr-copy">Hyper Imperium v0.7.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
+
 <script type="module" src="../../js/toc.js?v=0.7.0"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>
