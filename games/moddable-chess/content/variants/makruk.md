@@ -22,7 +22,7 @@ The traditional chess of Thailand, played since the 16th century. Features a wea
 
 **Setup:** Pawns start on the 3rd rank (not 2nd). Back rank: Rook, Knight, Silver General (Met), King, Queen (Met equivalent), Silver General, Knight, Rook.
 
-**FEN:** `rnsmksnr/8/pppppppp/8/8/PPPPPPPP/8/RNSMKSNR w - - 0 1`
+**FEN:** `rngfkgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGFKGNR w - - 0 1`
 
 ### Rules
 
