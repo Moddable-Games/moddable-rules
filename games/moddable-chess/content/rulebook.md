@@ -133,6 +133,14 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 </div>
 
+### Ancient & Historical
+
+<div class="variant-grid">
+
+- [Chaturanga](variants/chaturanga/) — Indian ancestor of chess, c. 600 CE. Weak counsellor and leaping elephant.
+
+</div>
+
 ### Expanded Boards
 
 <div class="variant-grid">
