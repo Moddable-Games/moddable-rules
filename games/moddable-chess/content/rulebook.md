@@ -1,6 +1,6 @@
 ---
 title: "Moddable Chess — Official Rulebook"
-version: "0.4.4"
+version: "0.4.5"
 slug: "moddable-chess"
 players: "2–6"
 duration: "10–120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Every chess variant, one engine"
 type: "platform"
 status: "alpha"
-updated: "2026-06-23"
+updated: "2026-06-24"
 published: true
 variants: true
 theme:
@@ -125,6 +125,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 <div class="variant-grid">
 
+- [Chaturanga](variants/chaturanga/) — Indian ancestor of chess, c. 600 CE. Weak counsellor and leaping elephant.
 - [Makpong](variants/makpong/) — Thai variant, King cannot move out of check
 - [Makruk](variants/makruk/) — Thai chess, pawns promote on rank 6 to Met
 - [Shatar](variants/shatar/) — Mongolian chess, win by baring the opponent's King

@@ -200,6 +200,7 @@ const variants = [
   { slug: 'makruk', title: 'Makruk — starting position', fen: 'rnsmksnr/8/pppppppp/8/8/PPPPPPPP/8/RNSMKSNR w - - 0 1', rows: 8, cols: 8 },
   { slug: 'orda', title: 'Orda Chess — starting position', fen: 'lhaykahl/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR w KQ - 0 1', rows: 8, cols: 8 },
   { slug: 'shatar', title: 'Shatar — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'chaturanga', title: 'Chaturanga — starting position (Manasollasa)', fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1', rows: 8, cols: 8 },
   { slug: 'toroidal', title: 'Toroidal Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
 ];
 
