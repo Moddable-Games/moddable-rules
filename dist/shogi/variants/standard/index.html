@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Standard Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Standard Shogi.">
+<meta property="og:title" content="Standard Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Standard Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/standard.png?v=1.0.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/standard/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Standard Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Standard Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/standard.png?v=1.0.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.0.0">
+<link rel="stylesheet" href="../../theme.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.0.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/standard.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/standard.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Standard Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 1 of 4</span>
+    <h1 class="variant-cover-title">Standard Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">9×9</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Standard Shogi</h2>
+<p>The full form of Japan’s classic strategy game, played since at least the 10th century. The board is 9×9 and each player commands 20 pieces. The drop mechanic (re-entering captured pieces as your own) defines every decision from opening to endgame.</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+<title>Standard Shogi — starting position</title>
+<defs><symbol id="piece-l" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">香</text></g></symbol><symbol id="piece-n" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">桂</text></g></symbol><symbol id="piece-s" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">銀</text></g></symbol><symbol id="piece-g" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">金</text></g></symbol><symbol id="piece-k" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">玉</text></g></symbol><symbol id="piece-r" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">飛</text></g></symbol><symbol id="piece-b" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">角</text></g></symbol><symbol id="piece-p" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">歩</text></g></symbol><symbol id="piece-P" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">歩</text></g></symbol><symbol id="piece-B" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">角</text></g></symbol><symbol id="piece-R" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">飛</text></g></symbol><symbol id="piece-L" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">香</text></g></symbol><symbol id="piece-N" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">桂</text></g></symbol><symbol id="piece-S" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">銀</text></g></symbol><symbol id="piece-G" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">金</text></g></symbol><symbol id="piece-K" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">王</text></g></symbol></defs>
+<rect x="0" y="0" width="360" height="360" fill="#e8c97a"/><rect x="0" y="0" width="360" height="360" fill="none" stroke="#8b6914" stroke-width="2"/><rect x="20" y="20" width="320" height="80" fill="rgba(180, 60, 40, 0.08)"/><rect x="20" y="260" width="320" height="80" fill="rgba(180, 60, 40, 0.08)"/><g stroke="#6b4e1a" stroke-width="0.8"><line x1="20" y1="20" x2="340" y2="20"/><line x1="20" y1="60" x2="340" y2="60"/><line x1="20" y1="100" x2="340" y2="100"/><line x1="20" y1="140" x2="340" y2="140"/><line x1="20" y1="180" x2="340" y2="180"/><line x1="20" y1="220" x2="340" y2="220"/><line x1="20" y1="260" x2="340" y2="260"/><line x1="20" y1="300" x2="340" y2="300"/><line x1="20" y1="340" x2="340" y2="340"/><line x1="20" y1="20" x2="20" y2="340"/><line x1="60" y1="20" x2="60" y2="340"/><line x1="100" y1="20" x2="100" y2="340"/><line x1="140" y1="20" x2="140" y2="340"/><line x1="180" y1="20" x2="180" y2="340"/><line x1="220" y1="20" x2="220" y2="340"/><line x1="260" y1="20" x2="260" y2="340"/><line x1="300" y1="20" x2="300" y2="340"/><line x1="340" y1="20" x2="340" y2="340"/></g><g fill="#6b4e1a"><circle cx="100" cy="100" r="3"/><circle cx="260" cy="100" r="3"/><circle cx="100" cy="260" r="3"/><circle cx="260" cy="260" r="3"/></g>
+<use href="#piece-l" x="0" y="0" width="40" height="40"/><use href="#piece-n" x="40" y="0" width="40" height="40"/><use href="#piece-s" x="80" y="0" width="40" height="40"/><use href="#piece-g" x="120" y="0" width="40" height="40"/><use href="#piece-k" x="160" y="0" width="40" height="40"/><use href="#piece-g" x="200" y="0" width="40" height="40"/><use href="#piece-s" x="240" y="0" width="40" height="40"/><use href="#piece-n" x="280" y="0" width="40" height="40"/><use href="#piece-l" x="320" y="0" width="40" height="40"/><use href="#piece-r" x="40" y="40" width="40" height="40"/><use href="#piece-b" x="280" y="40" width="40" height="40"/><use href="#piece-p" x="0" y="80" width="40" height="40"/><use href="#piece-p" x="40" y="80" width="40" height="40"/><use href="#piece-p" x="80" y="80" width="40" height="40"/><use href="#piece-p" x="120" y="80" width="40" height="40"/><use href="#piece-p" x="160" y="80" width="40" height="40"/><use href="#piece-p" x="200" y="80" width="40" height="40"/><use href="#piece-p" x="240" y="80" width="40" height="40"/><use href="#piece-p" x="280" y="80" width="40" height="40"/><use href="#piece-p" x="320" y="80" width="40" height="40"/><use href="#piece-P" x="0" y="240" width="40" height="40"/><use href="#piece-P" x="40" y="240" width="40" height="40"/><use href="#piece-P" x="80" y="240" width="40" height="40"/><use href="#piece-P" x="120" y="240" width="40" height="40"/><use href="#piece-P" x="160" y="240" width="40" height="40"/><use href="#piece-P" x="200" y="240" width="40" height="40"/><use href="#piece-P" x="240" y="240" width="40" height="40"/><use href="#piece-P" x="280" y="240" width="40" height="40"/><use href="#piece-P" x="320" y="240" width="40" height="40"/><use href="#piece-B" x="40" y="280" width="40" height="40"/><use href="#piece-R" x="280" y="280" width="40" height="40"/><use href="#piece-L" x="0" y="320" width="40" height="40"/><use href="#piece-N" x="40" y="320" width="40" height="40"/><use href="#piece-S" x="80" y="320" width="40" height="40"/><use href="#piece-G" x="120" y="320" width="40" height="40"/><use href="#piece-K" x="160" y="320" width="40" height="40"/><use href="#piece-G" x="200" y="320" width="40" height="40"/><use href="#piece-S" x="240" y="320" width="40" height="40"/><use href="#piece-N" x="280" y="320" width="40" height="40"/><use href="#piece-L" x="320" y="320" width="40" height="40"/>
+</svg>
+<p class="diagram-caption">Standard Shogi — starting position</p>
+<h3>Setup</h3>
+<p><strong>Board:</strong> 9×9 grid, 81 squares. Traditional boards use natural wood throughout, with no alternating square colours.</p>
+<p><strong>Pieces per player:</strong> 20, in eight types.</p>
+<p><strong>Starting position:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Files 9–1 (left to right)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rank 1 — White back</td>
+<td>Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance</td>
+</tr>
+<tr>
+<td>Rank 2 — White</td>
+<td>Rook (file 8) · · · · · · · Bishop (file 2)</td>
+</tr>
+<tr>
+<td>Rank 3 — White pawns</td>
+<td>Pawn × 9</td>
+</tr>
+<tr>
+<td>Ranks 4–6</td>
+<td>Empty</td>
+</tr>
+<tr>
+<td>Rank 7 — Black pawns</td>
+<td>Pawn × 9</td>
+</tr>
+<tr>
+<td>Rank 8 — Black</td>
+<td>Bishop (file 8) · · · · · · · Rook (file 2)</td>
+</tr>
+<tr>
+<td>Rank 9 — Black back</td>
+<td>Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance</td>
+</tr>
+</tbody>
+</table></div>
+<p>Black (Sente) moves first.</p>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Abbreviation</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King (玉将 / 王将)</td>
+<td>K</td>
+<td>One square in any of the 8 directions. Cannot move into check.</td>
+</tr>
+<tr>
+<td>Rook (飛車)</td>
+<td>R</td>
+<td>Any number of squares orthogonally.</td>
+</tr>
+<tr>
+<td>Bishop (角行)</td>
+<td>B</td>
+<td>Any number of squares diagonally.</td>
+</tr>
+<tr>
+<td>Gold General (金将)</td>
+<td>G</td>
+<td>One square orthogonally, or one square diagonally forward. Six directions total. Cannot move diagonally backward.</td>
+</tr>
+<tr>
+<td>Silver General (銀将)</td>
+<td>S</td>
+<td>One square diagonally in any direction, or one square directly forward. Five directions total.</td>
+</tr>
+<tr>
+<td>Knight (桂馬)</td>
+<td>N</td>
+<td>Jumps exactly two squares forward and one square sideways. The only piece that leaps over others. Cannot retreat.</td>
+</tr>
+<tr>
+<td>Lance (香車)</td>
+<td>L</td>
+<td>Any number of squares directly forward. Cannot move sideways or backward.</td>
+</tr>
+<tr>
+<td>Pawn (歩兵)</td>
+<td>P</td>
+<td>One square directly forward. Captures the same way it moves.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Promotion</h3>
+<p>The promotion zone is the three ranks farthest from each player (the opponent’s back three ranks). A piece may promote when it moves into, out of, or entirely within the promotion zone. Promotion is optional unless the piece would be stranded with no legal move: Pawns and Lances must promote at the final rank; Knights must promote at either of the final two ranks.</p>
+<p><strong>Promoted pieces:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Base piece</th>
+<th>Promoted name</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rook</td>
+<td>Dragon King (龍王)</td>
+<td>Rook moves, plus one square diagonally</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Dragon Horse (龍馬)</td>
+<td>Bishop moves, plus one square orthogonally</td>
+</tr>
+<tr>
+<td>Silver</td>
+<td>Promoted Silver (成銀)</td>
+<td>Moves exactly as Gold General</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>Promoted Knight (成桂)</td>
+<td>Moves exactly as Gold General</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>Promoted Lance (成香)</td>
+<td>Moves exactly as Gold General</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>Tokin (と金)</td>
+<td>Moves exactly as Gold General</td>
+</tr>
+</tbody>
+</table></div>
+<p>Kings and Gold Generals do not promote.</p>
+<h3>The Drop Mechanic</h3>
+<p>When a player captures an opponent’s piece, that piece is held in hand. On any turn, instead of moving a piece on the board, the player may drop a piece from hand onto any empty square. Three restrictions apply:</p>
+<ol>
+<li><strong>Nifu (二歩):</strong> A Pawn may not be dropped on a file that already contains an unpromoted friendly Pawn.</li>
+<li><strong>Uchifuzume (打ち詰め):</strong> A Pawn may not be dropped to deliver immediate checkmate. Dropping to give check is legal.</li>
+<li><strong>No dead-end drops:</strong> Pawns and Lances cannot be dropped on the final rank. Knights cannot be dropped on the final two ranks. No legal move would exist from those squares.</li>
+</ol>
+<p>Pieces always drop unpromoted, even if they were promoted when captured.</p>
+<h3>Win Condition</h3>
+<p>Checkmate the opponent’s King: attack the King such that no legal move can escape check. There is no stalemate rule in Shogi. A player with no legal move loses.</p>
+<h3>Draws</h3>
+<p><strong>Sennichite (千日手):</strong> The same position (including pieces in hand) occurs four times with the same player to move. The game is a draw. If the repetition is caused by perpetual check, the checking side loses.</p>
+<p><strong>Impasse (入玉 / 持将棋):</strong> Both Kings advance into the opponent’s promotion zone and neither can be mated. Count material value: Rooks and Bishops score 5 points each; all other pieces score 1 point each (Kings excluded). A player with fewer than 24 points loses. If both players reach 24 or more points, the game is a draw.</p>
+<h3>Attribution</h3>
+<p>Standard Shogi. Ancient origin; public domain. Sources: GNU Shogi Manual (GNU Project, public domain); mastersofgames.com rules reference; pychess.org variants documentation.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <span class="variant-pager-spacer"></span>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../hasami-shogi/" class="variant-pager-next">Hasami Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi v1.0.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>
