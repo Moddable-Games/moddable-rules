@@ -18,25 +18,27 @@ Kyoto Shogi was invented by Tamiya Katsuya around 1976. It is played on a 5×5 b
 
 **Board:** 5×5 grid, 25 squares.
 
-**Pieces per player:** 5.
+**Pieces per player:** 5 (King + 4 dual-sided pieces).
 
 **Starting position:**
 
 | Player | Rank | Pieces (files 5–1, left to right) |
 |---|---|---|
-| White (top) | Rank 5 | Lance · Bishop · King · Gold · Silver |
-| Black (bottom) | Rank 1 | Silver · Gold · King · Bishop · Lance |
+| White (top) | Rank 5 | Pawn · Gold · King · Silver · Tokin |
+| Black (bottom) | Rank 1 | Tokin · Silver · King · Gold · Pawn |
+
+Black (Sente) moves first. The position is point-symmetric (180-degree rotation).
 
 ### Piece Pairs
 
 Each non-King piece has two faces. The piece flips to its alternate face after every move, mandatory.
 
-| Starting face | Alternate face after first move |
+| Face A | Face B |
 |---|---|
-| Tokin | Lance |
-| Silver General | Bishop |
-| Gold General | Knight |
-| Pawn | Rook |
+| Tokin (と) | Lance (香) |
+| Silver General (銀) | Bishop (角) |
+| Gold General (金) | Knight (桂) |
+| Pawn (歩) | Rook (飛) |
 
 **Piece movements:**
 
