@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minishogi — Shogi</title>
+<meta name="description" content="Complete rules for Minishogi.">
+<meta property="og:title" content="Minishogi — Shogi">
+<meta property="og:description" content="Complete rules for Minishogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/minishogi.png?v=1.0.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/minishogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Minishogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Minishogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/minishogi.png?v=1.0.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.0.0">
+<link rel="stylesheet" href="../../theme.css?v=1.0.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.0.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/minishogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/minishogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Minishogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 4 of 4</span>
+    <h1 class="variant-cover-title">Minishogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">5×5</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Minishogi</h2>
+<p>Minishogi was invented (or rediscovered) around 1970 by Shigenobu Kusumoto of Osaka, Japan. It applies Standard Shogi rules to a 5×5 board, reducing each player’s force to five pieces and the promotion zone to the single back rank. Game mechanics are not copyrightable; the rules have been freely published for over 50 years.</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+<title>Minishogi — starting position</title>
+<defs><symbol id="piece-r" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">飛</text></g></symbol><symbol id="piece-b" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">角</text></g></symbol><symbol id="piece-s" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">銀</text></g></symbol><symbol id="piece-g" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">金</text></g></symbol><symbol id="piece-k" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">玉</text></g></symbol><symbol id="piece-p" viewBox="0 0 100 100"><g><polygon points="50,92 85,65 75,10 25,10 15,65" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">歩</text></g></symbol><symbol id="piece-P" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">歩</text></g></symbol><symbol id="piece-K" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">王</text></g></symbol><symbol id="piece-G" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">金</text></g></symbol><symbol id="piece-S" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">銀</text></g></symbol><symbol id="piece-B" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">角</text></g></symbol><symbol id="piece-R" viewBox="0 0 100 100"><g><polygon points="50,8 85,35 75,90 25,90 15,35" fill="#f5deb3" stroke="#4a3520" stroke-width="2.5"/><text x="50" y="62" text-anchor="middle" font-size="32" font-family="serif" font-weight="bold" fill="#1a1a1a">飛</text></g></symbol></defs>
+<rect x="0" y="0" width="200" height="200" fill="#e8c97a"/><rect x="0" y="0" width="200" height="200" fill="none" stroke="#8b6914" stroke-width="2"/><g stroke="#6b4e1a" stroke-width="0.8"><line x1="20" y1="20" x2="180" y2="20"/><line x1="20" y1="60" x2="180" y2="60"/><line x1="20" y1="100" x2="180" y2="100"/><line x1="20" y1="140" x2="180" y2="140"/><line x1="20" y1="180" x2="180" y2="180"/><line x1="20" y1="20" x2="20" y2="180"/><line x1="60" y1="20" x2="60" y2="180"/><line x1="100" y1="20" x2="100" y2="180"/><line x1="140" y1="20" x2="140" y2="180"/><line x1="180" y1="20" x2="180" y2="180"/></g>
+<use href="#piece-r" x="0" y="0" width="40" height="40"/><use href="#piece-b" x="40" y="0" width="40" height="40"/><use href="#piece-s" x="80" y="0" width="40" height="40"/><use href="#piece-g" x="120" y="0" width="40" height="40"/><use href="#piece-k" x="160" y="0" width="40" height="40"/><use href="#piece-p" x="160" y="40" width="40" height="40"/><use href="#piece-P" x="0" y="120" width="40" height="40"/><use href="#piece-K" x="0" y="160" width="40" height="40"/><use href="#piece-G" x="40" y="160" width="40" height="40"/><use href="#piece-S" x="80" y="160" width="40" height="40"/><use href="#piece-B" x="120" y="160" width="40" height="40"/><use href="#piece-R" x="160" y="160" width="40" height="40"/>
+</svg>
+<p class="diagram-caption">Minishogi — starting position</p>
+<h3>Setup</h3>
+<p><strong>Board:</strong> 5×5 grid, 25 squares.</p>
+<p><strong>Pieces per player:</strong> 6 (King, Rook, Bishop, Gold General, Silver General, one Pawn). No Knights or Lances: the board is too small for their jump.</p>
+<p><strong>Starting position:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Player</th>
+<th>Rank</th>
+<th>Pieces (files 5–1, left to right)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>White (top)</td>
+<td>Rank 5</td>
+<td>Rook · Bishop · Silver · Gold · King</td>
+</tr>
+<tr>
+<td>White</td>
+<td>Rank 4</td>
+<td>Pawn at file 1 only</td>
+</tr>
+<tr>
+<td>Black (bottom)</td>
+<td>Rank 1</td>
+<td>King · Gold · Silver · Bishop · Rook</td>
+</tr>
+<tr>
+<td>Black</td>
+<td>Rank 2</td>
+<td>Pawn at file 5 only</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>One square in any direction. Cannot move into check.</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>Any number of squares orthogonally.</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Any number of squares diagonally.</td>
+</tr>
+<tr>
+<td>Gold General</td>
+<td>One step orthogonally or diagonally forward. Six directions.</td>
+</tr>
+<tr>
+<td>Silver General</td>
+<td>One step diagonally, or one step forward. Five directions.</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>One step directly forward.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Promotion</h3>
+<p>The promotion zone is the final rank only (rank 5 for Black, rank 1 for White). A piece may promote when it moves into or within the promotion zone. Promotion is mandatory when the Pawn reaches the final rank with no other legal move.</p>
+<p><strong>Promoted pieces:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Base piece</th>
+<th>Movement when promoted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rook</td>
+<td>Dragon King: Rook moves plus one square diagonally</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Dragon Horse: Bishop moves plus one square orthogonally</td>
+</tr>
+<tr>
+<td>Silver General</td>
+<td>Moves as Gold General</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>Tokin: moves as Gold General</td>
+</tr>
+</tbody>
+</table></div>
+<p>Kings and Gold Generals do not promote.</p>
+<h3>Drops</h3>
+<p>The drop mechanic applies as in Standard Shogi. Captured pieces are held in hand and may be dropped onto any empty square on a later turn, unpromoted. Restrictions: no Pawn drop on a file already containing a friendly unpromoted Pawn; no Pawn drop for immediate checkmate; no drop where the piece would have no legal move.</p>
+<h3>Win Condition</h3>
+<p>Checkmate the opponent’s King. A player with no legal moves loses.</p>
+<h3>Draws</h3>
+<p><strong>Sennichite:</strong> The same position (including pieces in hand) occurs four times with the same player to move. Draw. If caused by perpetual check, the checking side loses.</p>
+<p><strong>Impasse:</strong> Both Kings enter the promotion zone and neither can be mated. Count material: Rooks and Bishops score 5 points each; all others score 1 point each. A player with fewer than 24 points loses. If both reach 24 or more, the game is a draw.</p>
+<h3>Attribution</h3>
+<p>Minishogi. Invented (or rediscovered) c. 1970 by Shigenobu Kusumoto of Osaka. Rules freely published since then; game mechanics are not copyrightable. Sources: pychess.org/variants/minishogi; Fairy-Stockfish variants.ini engine definition.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../kyoto-shogi/" class="variant-pager-prev">← Kyoto Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <span class="variant-pager-spacer"></span>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi v1.0.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>
