@@ -1116,7 +1116,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Regional & Historical Variants",
-    "content": "- Makpongvariants/makpong/ — Thai variant, King cannot move out of check - Makrukvariants/makruk/ — Thai chess, pawns promote on rank 6 to Met - Shatarvariants/shatar/ — Mongolian chess, win by baring",
+    "content": "- Chaturangavariants/chaturanga/ — Indian ancestor of chess, c. 600 CE. Weak counsellor and leaping elephant. - Makpongvariants/makpong/ — Thai variant, King cannot move out of check - Makrukvariants/",
     "anchor": "regional-historical-variants"
   },
   {
@@ -6524,6 +6524,86 @@
     "anchor": "attribution",
     "variant": "capablanca",
     "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Chaturanga",
+    "content": "Chaturanga Sanskrit: चतुरङ्ग, \"four divisions\" is the ancient Indian predecessor of chess, Shogi, Xiangqi, and all related replacement-capture games. First attested in Sanskrit texts c. 600 CE, it is ",
+    "anchor": "chaturanga",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. The original ashtapada board was plain and uncheckered; the alternating square colouring shown here is a modern convention. Starting position Manasollasa, Bock-Raming 1996: Back r",
+    "anchor": "setup",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Pieces",
+    "content": "English Movement --- --- King One step in any direction orthogonal or diagonal. No castling. Mantri 1 Elephant Leaps exactly two squares diagonally, jumping over any intervening piece. Colour-bound: r",
+    "anchor": "pieces",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Rules",
+    "content": "White moves first. Players alternate one move per turn. A piece may move to an empty square or capture an opponent's piece by occupying its square, removing it from the board. A piece may not move to ",
+    "anchor": "rules",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Win Conditions",
+    "content": "Checkmate: The Raja is in check with no legal escape. The opponent wins. Bare king: Capturing all of the opponent's pieces except the Raja wins the game. Exception: if the opponent can bare your own R",
+    "anchor": "win-conditions",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Differences from Modern Chess",
+    "content": "- No castling - No en passant - No double pawn advance on the first move - Pawns promote to Mantri only - Stalemate is a win for the stalemated player, not a draw - Bare king wins: reducing the oppone",
+    "anchor": "differences-from-modern-chess",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Historical Context",
+    "content": "Chaturanga was transmitted from India to Persia around the 7th century CE, where it became Shatranj. Key changes during this transition: the dice were abandoned entirely, and explicit check and checkm",
+    "anchor": "historical-context",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chaturanga",
+    "heading": "Attribution",
+    "content": "Rules transcribed from two sources via the Ludii Game Corpus, Maastricht University: - Manasollasa ruleset, citing Bock-Raming 1996 Sanskrit scholarship on the 12th-century Manasollasa text - al-Adli ",
+    "anchor": "attribution",
+    "variant": "chaturanga",
+    "variantUrl": "dist/moddable-chess/variants/chaturanga/"
   },
   {
     "game": "moddable-chess",

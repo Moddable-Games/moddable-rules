@@ -155,7 +155,7 @@ const variants = [
   { slug: 'maharaja', title: 'Maharaja & Sepoys — starting position', fen: 'rnbqkbnr/pppppppp/8/8/8/8/8/4M3 w kq - 0 1', rows: 8, cols: 8 },
   { slug: 'capablanca', title: 'Capablanca Chess — starting position (10×8)', fen: 'rnabqkbcnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNABQKBCNR w KQkq - 0 1', rows: 8, cols: 10 },
   { slug: 'grand', title: 'Grand Chess — starting position (10×10)', fen: 'r8r/1nbqkcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKCBN1/R8R w - - 0 1', rows: 10, cols: 10 },
-  { slug: 'courier', title: 'Courier Chess — starting position (12×8)', fen: 'rnbbqsksbbnr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNBBQSKSBBNR w - - 0 1', rows: 8, cols: 12 },
+  { slug: 'courier', title: 'Courier Chess — starting position (12×8)', fen: 'rnebfsksbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBFSKSBENR w - - 0 1', rows: 8, cols: 12 },
   { slug: 'breakthrough', title: 'Breakthrough — starting position (7×7)', fen: 'ppppppp/ppppppp/7/7/7/PPPPPPP/PPPPPPP w - - 0 1', rows: 7, cols: 7 },
   { slug: 'knightmate', title: 'Knightmate — starting position', fen: 'rkbqnbkr/pppppppp/8/8/8/8/PPPPPPPP/RKBQNBKR w KQkq - 0 1', rows: 8, cols: 8 },
   { slug: 'monster-chess', title: 'Monster Chess — starting position', fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R w KQkq - 0 1', rows: 8, cols: 8 },
@@ -200,6 +200,7 @@ const variants = [
   { slug: 'makruk', title: 'Makruk — starting position', fen: 'rnsmksnr/8/pppppppp/8/8/PPPPPPPP/8/RNSMKSNR w - - 0 1', rows: 8, cols: 8 },
   { slug: 'orda', title: 'Orda Chess — starting position', fen: 'lhaykahl/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR w KQ - 0 1', rows: 8, cols: 8 },
   { slug: 'shatar', title: 'Shatar — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'chaturanga', title: 'Chaturanga — starting position (Manasollasa)', fen: 'rnefkenr/pppppppp/8/8/8/8/PPPPPPPP/RNEFKENR w - - 0 1', rows: 8, cols: 8 },
   { slug: 'toroidal', title: 'Toroidal Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
 ];
 
