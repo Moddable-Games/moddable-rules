@@ -12,7 +12,7 @@ special: "Custodial sandwich capture. No drops, no promotion. All pieces are ide
 
 Hasami Shogi (はさみ将棋, "sandwiching chess") is a distinct branch of the Shogi family with a single piece type, no drops, and no promotion. Capture is by sandwiching: a piece is removed when flanked on two opposite sides by the opponent. Ancient origin; public domain.
 
-{{svg:board-hasami.svg "Hasami Shogi — starting position"}}
+{{svg:hasami-board.svg "Hasami Shogi — starting position"}}
 
 ### Setup
 

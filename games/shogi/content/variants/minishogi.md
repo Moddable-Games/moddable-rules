@@ -12,7 +12,7 @@ special: "Standard Shogi on a 5×5 board. Single-rank promotion zone. No Knights
 
 Minishogi was invented (or rediscovered) around 1970 by Shigenobu Kusumoto of Osaka, Japan. It applies Standard Shogi rules to a 5×5 board, reducing each player's force to five pieces and the promotion zone to the single back rank. Game mechanics are not copyrightable; the rules have been freely published for over 50 years.
 
-{{svg:board-minishogi.svg "Minishogi — starting position"}}
+{{svg:minishogi-board.svg "Minishogi — starting position"}}
 
 ### Setup
 

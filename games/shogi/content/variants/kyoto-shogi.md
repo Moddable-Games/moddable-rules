@@ -12,7 +12,7 @@ special: "Every piece except the King flips to its alternate face after each mov
 
 Kyoto Shogi was invented by Tamiya Katsuya around 1976. It is played on a 5×5 board, and every piece except the King represents a pair: after each move, the moved piece must flip to show its other face. The game name plays on the pairing of the Japanese pronunciation of Kyoto (京都, Kyō-to) with piece name components. Public domain.
 
-{{svg:board-kyoto.svg "Kyoto Shogi — starting position"}}
+{{svg:kyoto-board.svg "Kyoto Shogi — starting position"}}
 
 ### Setup
 

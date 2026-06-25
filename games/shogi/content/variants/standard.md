@@ -13,7 +13,7 @@ special: "Captured pieces become your own and can be dropped back onto the board
 
 The full form of Japan's classic strategy game, played since at least the 10th century. The board is 9×9 and each player commands 20 pieces. The drop mechanic (re-entering captured pieces as your own) defines every decision from opening to endgame.
 
-{{svg:board.svg "Standard Shogi — starting position"}}
+{{svg:standard-board.svg "Standard Shogi — starting position"}}
 
 ### Setup
 
