@@ -16,7 +16,7 @@ This entry documents the 2-player, no-dice form: the standard scholarly reconstr
 
 {{svg:chaturanga-board.svg "Chaturanga: starting position (Manasollasa)"}}
 
-*Piece note: Gaja (Elephant) is shown using a Bishop icon; Mantri (Counsellor) using a Queen icon. These are visual substitutes. The pieces move differently from their modern counterparts.*
+*Piece note: Gaja (Elephant) uses the E letter in FEN; Mantri (Counsellor) uses F (Fers). These reflect their actual movement rather than modern chess equivalents.*
 
 ### Setup
 
@@ -27,8 +27,8 @@ This entry documents the 2-player, no-dice form: the standard scholarly reconstr
 - White: Ratha a1, Ashva b1, Gaja c1, Mantri d1, Raja e1, Gaja f1, Ashva g1, Ratha h1; Padati a2–h2.
 - Black: Ratha a8, Ashva b8, Gaja c8, Mantri d8, Raja e8, Gaja f8, Ashva g8, Ratha h8; Padati a7–h7.
 
-**FEN (piece substitutes):** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1`
-(R/r = Ratha, N/n = Ashva, B/b = Gaja, Q/q = Mantri, K/k = Raja, P/p = Padati)
+**FEN:** `rnefkenr/pppppppp/8/8/8/8/PPPPPPPP/RNEFKENR w - - 0 1`
+(R/r = Ratha, N/n = Ashva, E/e = Gaja, F/f = Mantri, K/k = Raja, P/p = Padati)
 
 **Alternative starting position (al-Adli, Murray 1913):** Back rank left to right: Gaja–Ratha–Ashva–Mantri–Raja–Ashva–Ratha–Gaja. This places the Gaja on the corner files.
 

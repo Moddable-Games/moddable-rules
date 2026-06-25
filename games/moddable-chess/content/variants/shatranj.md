@@ -23,7 +23,7 @@ The medieval Islamic form of chess, played across the Islamic world from approxi
 - White: Rukh a1, Faras b1, Alfil c1, Shah d1, Ferz e1, Alfil f1, Faras g1, Rukh h1; Baidaqs a2-h2.
 - Black: Rukh a8, Faras b8, Alfil c8, Shah d8, Ferz e8, Alfil f8, Faras g8, Rukh h8; Baidaqs a7-h7.
 
-**FEN:** `rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR w - - 0 1`
+**FEN:** `rnekfenr/pppppppp/8/8/8/8/PPPPPPPP/RNEKFENR w - - 0 1`
 
 *Alternative setup:* The Shah may begin on e1 (White) or e8 (Black), with the Ferz on the adjoining d-file, provided both Shahs occupy the same file. This must be declared before play begins.
 
