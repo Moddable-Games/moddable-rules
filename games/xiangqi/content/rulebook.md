@@ -1,11 +1,11 @@
 ---
 title: "Xiangqi — Official Rulebook"
-version: "1.2.2"
+version: "1.0.0"
 slug: "xiangqi"
 players: "2"
-duration: "30–90 min"
+duration: "15–45 min"
 age: "8+"
-tagline: "Ancient Chinese chess with cannon warfare and river crossings"
+tagline: "Ancient Chinese chess: cannon fire, palace tactics, and the river divide"
 type: "classic"
 status: "live"
 updated: "2026-06-26"
@@ -24,16 +24,16 @@ theme:
 
 ## Variant Library
 
-Xiangqi (象棋), known in English as Chinese Chess, is one of the world’s most widely played strategy board games, with origins in China no later than the 7th century. The game is played on the intersection points of a 9×10 grid, with a river dividing the board and a palace restricting the General and Advisors. The Cannon, which must jump over exactly one piece to capture, is the game’s most distinctive mechanic.
+Xiangqi (象棋, "Elephant Chess") is one of the world's most played strategy board games, tracing its origins to China no later than the 7th century. Played on the intersection points of a 9×10 grid, it features a river dividing the board, a palace restricting the General and Advisors, and the Cannon: a piece that can only capture by jumping over exactly one other piece.
 
-This library includes {{variant_count}} variants from the Xiangqi family tree.
+This library includes {{variant_count}} playable variants spanning the Chinese and Korean branches of the family.
 
-### Variants
+### Chinese Chess
 
 <div class="variant-grid">
 
-- [Standard Xiangqi](variants/standard/) — The classical Chinese form: river crossings, palace confinement, Flying General, and the screen-jumping Cannon
-- [Janggi](variants/janggi/) — Korean Chess: no river, different Elephant movement, and the bikjang laughing-generals rule
+- [Standard Xiangqi](variants/standard/) — The classic form: 9×10 board, river divide, Flying General rule, and the screen-jumping Cannon
+- [Janggi](variants/janggi/) — Korean Chess: no river, a longer Elephant movement, Cannon restricted from jumping other Cannons, and the bikjang facing-Generals rule
 
 </div>
 
