@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 530" width="480" height="530">
+  <!-- Background -->
+  <rect width="480" height="530" fill="#f5e6c4"/>
+  <!-- Horizontal grid lines (ranks 10 to 1) -->
+  <line x1="50" y1="50" x2="402" y2="50" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="94" x2="402" y2="94" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="138" x2="402" y2="138" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="182" x2="402" y2="182" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="226" x2="402" y2="226" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="270" x2="402" y2="270" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="314" x2="402" y2="314" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="358" x2="402" y2="358" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="402" x2="402" y2="402" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="50" y1="446" x2="402" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <!-- Vertical lines (all full height, no river break) -->
+  <line x1="50" y1="50" x2="50" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="94" y1="50" x2="94" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="138" y1="50" x2="138" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="182" y1="50" x2="182" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="226" y1="50" x2="226" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="270" y1="50" x2="270" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="314" y1="50" x2="314" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="358" y1="50" x2="358" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <line x1="402" y1="50" x2="402" y2="446" stroke="#7c5a2e" stroke-width="1"/>
+  <!-- Board border -->
+  <rect x="50" y="50" width="352" height="396" fill="none" stroke="#7c5a2e" stroke-width="2.5"/>
+  <!-- Palace diagonals top (d-f, ranks 8-10: x=182-270, y=50-138) -->
+  <line x1="182" y1="50" x2="270" y2="138" stroke="#7c5a2e" stroke-width="1.5"/>
+  <line x1="270" y1="50" x2="182" y2="138" stroke="#7c5a2e" stroke-width="1.5"/>
+  <!-- Palace diagonals bottom (d-f, ranks 1-3: x=182-270, y=358-446) -->
+  <line x1="182" y1="358" x2="270" y2="446" stroke="#7c5a2e" stroke-width="1.5"/>
+  <line x1="270" y1="358" x2="182" y2="446" stroke="#7c5a2e" stroke-width="1.5"/>
+  <!-- HAN pieces (top, Red) -->
+  <!-- Rank 10 (y=50): inner elephant = Chariot,Horse,Elephant,Advisor,General,Advisor,Elephant,Horse,Chariot -->
+  <circle cx="50" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="50" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">車</text>
+  <circle cx="94" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="94" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">馬</text>
+  <circle cx="138" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="138" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">象</text>
+  <circle cx="182" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="182" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">士</text>
+  <circle cx="226" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="226" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">將</text>
+  <circle cx="270" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="270" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">士</text>
+  <circle cx="314" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="314" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">象</text>
+  <circle cx="358" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="358" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">馬</text>
+  <circle cx="402" cy="50" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="402" y="50" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">車</text>
+  <!-- Rank 9 (y=94): Cannons at b9, h9 -->
+  <circle cx="94" cy="94" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="94" y="94" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">砲</text>
+  <circle cx="358" cy="94" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="358" y="94" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">砲</text>
+  <!-- Rank 8 (y=138): Soldiers at a8,c8,e8,g8,i8 -->
+  <circle cx="50" cy="138" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="50" y="138" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">卒</text>
+  <circle cx="138" cy="138" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="138" y="138" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">卒</text>
+  <circle cx="226" cy="138" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="226" y="138" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">卒</text>
+  <circle cx="314" cy="138" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="314" y="138" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">卒</text>
+  <circle cx="402" cy="138" r="17" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/><text x="402" y="138" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">卒</text>
+  <!-- CHO pieces (bottom, Blue) -->
+  <!-- Rank 3 (y=358): Soldiers at a3,c3,e3,g3,i3 -->
+  <circle cx="50" cy="358" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="50" y="358" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">兵</text>
+  <circle cx="138" cy="358" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="138" y="358" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">兵</text>
+  <circle cx="226" cy="358" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="226" y="358" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">兵</text>
+  <circle cx="314" cy="358" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="314" y="358" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">兵</text>
+  <circle cx="402" cy="358" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="402" y="358" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">兵</text>
+  <!-- Rank 2 (y=402): Cannons at b2, h2 -->
+  <circle cx="94" cy="402" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="94" y="402" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">砲</text>
+  <circle cx="358" cy="402" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="358" y="402" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">砲</text>
+  <!-- Rank 1 (y=446): inner elephant = Chariot,Horse,Elephant,Advisor,General,Advisor,Elephant,Horse,Chariot -->
+  <circle cx="50" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="50" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">車</text>
+  <circle cx="94" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="94" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">馬</text>
+  <circle cx="138" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="138" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">象</text>
+  <circle cx="182" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="182" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">士</text>
+  <circle cx="226" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="226" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">帥</text>
+  <circle cx="270" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="270" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">士</text>
+  <circle cx="314" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="314" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">象</text>
+  <circle cx="358" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="358" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">馬</text>
+  <circle cx="402" cy="446" r="17" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><text x="402" y="446" font-family="serif" font-size="13" fill="#fef9ee" text-anchor="middle" dominant-baseline="middle">車</text>
+  <!-- File labels -->
+  <text x="50" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">a</text>
+  <text x="94" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">b</text>
+  <text x="138" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">c</text>
+  <text x="182" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">d</text>
+  <text x="226" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">e</text>
+  <text x="270" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">f</text>
+  <text x="314" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">g</text>
+  <text x="358" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">h</text>
+  <text x="402" y="468" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">i</text>
+  <!-- Rank labels -->
+  <text x="30" y="446" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">1</text>
+  <text x="30" y="50" font-family="sans-serif" font-size="11" fill="#57401e" text-anchor="middle">10</text>
+  <!-- Legend -->
+  <circle cx="100" cy="496" r="7" fill="#b91c1c"/>
+  <text x="113" y="500" font-family="sans-serif" font-size="11" fill="#57401e">Han (top, Red)</text>
+  <circle cx="240" cy="496" r="7" fill="#1e40af"/>
+  <text x="253" y="500" font-family="sans-serif" font-size="11" fill="#57401e">Cho (bottom, Blue)</text>
+  <!-- Title -->
+  <text x="226" y="520" font-family="serif" font-size="13" fill="#57401e" text-anchor="middle">Janggi: Starting Position (inner elephant)</text>
+</svg>
