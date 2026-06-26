@@ -109,4 +109,4 @@ Checkmate the opponent’s General: place it under attack with no legal escape. 
 
 ### Attribution
 
-Janggi. Ancient Korean origin, public domain. Sources: Atvriders/cards-and-such janggi/index.ts (MIT), gbtami/pychess-variants janggi.md, Desktop gap-fill 2026-06-25 — all embedded in ops#18.
+Janggi. Ancient Korean origin, public domain. Sources: Atvriders/cards-and-such janggi/index.ts (MIT), gbtami/pychess-variants janggi.md, Desktop gap-fill 2026-06-25; all embedded in ops#18.

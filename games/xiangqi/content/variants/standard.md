@@ -66,4 +66,4 @@ Checkmate the opponent’s General: place it under attack with no legal escape. 
 
 ### Attribution
 
-Standard Xiangqi. Ancient origin, public domain. Sources: xiangqi.ca (en/rules/), pychess.org/variants/xiangqi, Wikipedia “Xiangqi” — all embedded in ops#18.
+Standard Xiangqi. Ancient origin, public domain. Sources: xiangqi.ca (en/rules/), pychess.org/variants/xiangqi, Wikipedia “Xiangqi”; all embedded in ops#18.
