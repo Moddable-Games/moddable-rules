@@ -60,6 +60,7 @@ ol li strong{color:var(--text-primary);}
 .uc-name{font-family:var(--sans);font-size:14px;font-weight:600;color:white;letter-spacing:.1em;text-transform:uppercase;}
 .uc-size{margin-left:auto;font-family:var(--sans);font-size:9px;color:rgba(255,255,255,.5);letter-spacing:.08em;}
 .uc-body{padding:13px 16px;background:rgba(255,255,255,.55);}
+[data-surface="dark"] .uc-body{background:rgba(255,255,255,.08);}
 .uc-body p{font-size:15px;line-height:1.58;margin:0;}
 
 /* Designer note — PDF only */

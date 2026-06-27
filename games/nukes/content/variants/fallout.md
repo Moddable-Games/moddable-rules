@@ -43,11 +43,13 @@ This creates safe corridors around cities in the late game.
 
 #### Movement Through Biohazard
 
-Biohazard tiles follow standard Nukes rules for hazardous terrain:
-- Infantry cannot remain in Biohazard alone (destroyed at end of turn).
-- Artillery can pass through but not stop.
-- Airborne can land but must move out next turn.
-- Bases cannot form in Biohazard.
+In standard Nukes, Biohazard tiles are rare (only created by nuclear strikes) and treated as empty for movement purposes: no unit can stop there, and jump-based movement cannot use them as stepping stones. In Fallout, Biohazard tiles become common enough to dominate the board. The following rules **override** standard Biohazard behaviour to keep the game playable:
+
+- **Infantry** cannot remain in Biohazard alone (destroyed at Phase 3). Can chain through Biohazard as part of a same-biome move if starting from a Biohazard region.
+- **Artillery** can jump over Biohazard regions that contain units (standard jump rules apply). Cannot end its turn in Biohazard (destroyed at Phase 3).
+- **Airborne** can pass over Biohazard as an intermediate step and can land in Biohazard, but is destroyed at Phase 3 if still there at end of turn.
+- **Bases** cannot form in Biohazard. If a region containing a Base becomes Biohazard (via spread), all units in that region are destroyed immediately.
+- **Nukes** follow standard jump rules: Biohazard regions without units still cannot be used as stepping stones.
 
 #### Strategic Implications
 

@@ -23,6 +23,7 @@ Enemy hostages enter your supply only when you win combat with excess strength. 
 ### Setup Changes
 
 - Each player starts with **4 units on their city** (standard) and **21 of their own tokens** off-board in a personal supply.
+- **No starting isotope.** You do not begin with any isotopes. Isotopes are earned exclusively through Base conversion during play.
 - No tokens are distributed to opponents at setup.
 - All other setup (board draft, biome placement, city placement) is identical to standard Nukes.
 

@@ -140,6 +140,15 @@
 .biome.hazard{background:#eddff5;border-color:#b07ece;}
 .biome.city{background:#fde8e8;border-color:#dc9898;}
 
+/* Biome colours — dark surface */
+[data-surface="dark"] .biome.fields{background:rgba(176,212,148,.12);border-color:rgba(176,212,148,.3);}
+[data-surface="dark"] .biome.forest{background:rgba(130,180,122,.12);border-color:rgba(130,180,122,.3);}
+[data-surface="dark"] .biome.mountain{background:rgba(188,180,170,.12);border-color:rgba(188,180,170,.3);}
+[data-surface="dark"] .biome.desert{background:rgba(216,188,120,.12);border-color:rgba(216,188,120,.3);}
+[data-surface="dark"] .biome.water{background:rgba(134,186,222,.12);border-color:rgba(134,186,222,.3);}
+[data-surface="dark"] .biome.hazard{background:rgba(176,126,206,.12);border-color:rgba(176,126,206,.3);}
+[data-surface="dark"] .biome.city{background:rgba(220,152,152,.12);border-color:rgba(220,152,152,.3);}
+
 /* Biome chips */
 .chip-fields{background:#b4e090;}
 .chip-forest{background:#7aba70;}
