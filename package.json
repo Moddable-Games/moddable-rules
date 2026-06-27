@@ -12,10 +12,7 @@
     "sync": "node js/sync.mjs",
     "og": "python3 build/gen-og.py"
   },
-  "dependencies": {
-    "@moddable/chess-engine": "file:../moddable-chess",
-    "moddable-hexmaps": "file:../moddable-hexmaps"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gray-matter": "^4.0.3",
     "markdown-it": "^14.1.0",
