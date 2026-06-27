@@ -9,7 +9,7 @@ tagline: "Ancient Chinese chess: cannon fire, palace tactics, and the river divi
 type: "classic"
 status: "live"
 updated: "2026-06-26"
-published: false
+published: true
 variants: true
 theme:
   surface: light

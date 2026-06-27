@@ -9,7 +9,7 @@ tagline: "Japan's classic strategy game where captured pieces change sides"
 type: "classic"
 status: "live"
 updated: "2026-06-25"
-published: false
+published: true
 variants: true
 theme:
   surface: light

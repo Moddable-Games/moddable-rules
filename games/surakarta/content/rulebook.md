@@ -9,7 +9,7 @@ tagline: "The loop-capture game of Java: capture through the corner arcs"
 type: "classic"
 status: "live"
 updated: "2026-06-23"
-published: false
+published: true
 variants: false
 theme:
   surface: light
