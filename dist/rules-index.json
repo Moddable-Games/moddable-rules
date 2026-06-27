@@ -1520,6 +1520,38 @@
     "anchor": "attribution"
   },
   {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Shogi 将棋 is Japan's classic strategy board game, descended from the same chess lineage that spread across Asia before 1000 CE. The defining rule is the drop mechanic: captured pieces change allegiance",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Variant Library",
+    "heading": "Standard Form",
+    "content": "- Standard Shogivariants/standard/ — The full 9×9 game with drops, promotion, and the complete piece set",
+    "anchor": "standard-form"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Variant Library",
+    "heading": "Smaller Board Variants",
+    "content": "- Kyoto Shogivariants/kyoto-shogi/ — 5×5 game where every piece flips to its alternate face after each move - Minishogivariants/minishogi/ — Standard Shogi condensed to a 5×5 board with five pieces pe",
+    "anchor": "smaller-board-variants"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Variant Library",
+    "heading": "Distinctive Mechanics",
+    "content": "- Hasami Shogivariants/hasami-shogi/ — 9×9 custodial-capture game with no drops, no promotion, and one piece type",
+    "anchor": "distinctive-mechanics"
+  },
+  {
     "game": "stern-halma",
     "gameTitle": "Stern-Halma",
     "section": "Overview",
@@ -1573,6 +1605,78 @@
     "section": "Attribution",
     "heading": "Attribution",
     "content": "Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from ezekeal/bgg-get BGG entry for Sternhalma and Lehi-Innovation/boardgame-rules independent jump-rule audit confirming chain ",
+    "anchor": "attribution"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "History",
+    "heading": "History",
+    "content": "Surakarta is a two-player abstract strategy game named after the royal city of Surakarta also called Solo in Central Java, Indonesia. The game was introduced to European audiences by Ravensberger Germ",
+    "anchor": "history"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "The Board",
+    "heading": "The Board",
+    "content": "The board is a 6×6 grid of 36 intersection points, connected by horizontal and vertical lines. Pieces are placed on intersections, not inside squares. At each of the four corners of the board, two con",
+    "anchor": "the-board"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "Equipment",
+    "heading": "Equipment",
+    "content": "Qty ----- 1 24 Traditional pieces are shells light versus pebbles or stones dark.",
+    "anchor": "equipment"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "Setup",
+    "heading": "Setup",
+    "content": "Each player takes 12 pieces of one colour. Place all 12 dark pieces on the 12 intersections of rows 1 and 2 the two rows closest to the dark player's side. Place all 12 light pieces on the 12 intersec",
+    "anchor": "setup"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "Movement",
+    "heading": "Movement",
+    "content": "Players alternate turns. On each turn, a player moves exactly one piece.",
+    "anchor": "movement"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "Movement",
+    "heading": "Non-Capturing Move",
+    "content": "Move one piece one step to any adjacent empty intersection. Movement is permitted in all eight directions: horizontally, vertically, and diagonally. A piece cannot move onto an occupied intersection.",
+    "anchor": "non-capturing-move"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "Movement",
+    "heading": "Capturing Move",
+    "content": "A capturing move must pass through at least one corner loop arc. Captures are optional: a player is never forced to capture even when a capturing move is available. The path of a capturing move: 1. Th",
+    "anchor": "capturing-move"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "Winning",
+    "heading": "Winning",
+    "content": "The player who captures all 12 of the opponent's pieces wins. Stalemate: If no further progress can be made, the game ends by mutual agreement. The player with more pieces remaining wins. If both play",
+    "anchor": "winning"
+  },
+  {
+    "game": "surakarta",
+    "gameTitle": "Surakarta",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "Surakarta. Traditional game attributed to Surakarta Solo, Central Java, Indonesia. European publication by Ravensberger, Germany, 1971. Public domain. Sources: Ludii Project, Maastricht University lud",
     "anchor": "attribution"
   },
   {
@@ -1774,6 +1878,22 @@
     "heading": "Outer Regions",
     "content": "Forest — Roll D6 1. Attacked by a brigand with Strength 4 2. Lost; lose your next turn 3. Lost; lose your next turn 4. Safe 5. Safe 6. A ranger guides you out; gain 1 Craft Graveyard — Based on Alignm",
     "anchor": "outer-regions"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Xiangqi 象棋, \"Elephant Chess\" is one of the world's most played strategy board games, tracing its origins to China no later than the 7th century. Played on the intersection points of a 9×10 grid, it fe",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Variant Library",
+    "heading": "Chinese Chess",
+    "content": "- Standard Xiangqivariants/standard/ — The classic form: 9×10 board, river divide, Flying General rule, and the screen-jumping Cannon - Janggivariants/janggi/ — Korean Chess: no river, a longer Elepha",
+    "anchor": "chinese-chess"
   },
   {
     "game": "backgammon",
@@ -11584,5 +11704,455 @@
     "anchor": "attribution",
     "variant": "standard",
     "variantUrl": "dist/reversi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Hasami Shogi",
+    "heading": "Hasami Shogi",
+    "content": "Hasami Shogi はさみ将棋, \"sandwiching chess\" is a distinct branch of the Shogi family with a single piece type, no drops, and no promotion. Capture is by sandwiching: a piece is removed when flanked on two",
+    "anchor": "hasami-shogi",
+    "variant": "hasami-shogi",
+    "variantUrl": "dist/shogi/variants/hasami-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Hasami Shogi",
+    "heading": "Setup",
+    "content": "Board: 9×9 grid, 81 squares. Pieces: 9 per player, all identical. Player 1 places 9 pieces on the nearest rank; Player 2 places 9 pieces on the far rank.",
+    "anchor": "setup",
+    "variant": "hasami-shogi",
+    "variantUrl": "dist/shogi/variants/hasami-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Hasami Shogi",
+    "heading": "Rules",
+    "content": "Movement: Pieces move orthogonally any number of empty squares, in any direction. This is the same range as a Rook in chess. A piece cannot jump over another piece. Capture custodial sandwich: A piece",
+    "anchor": "rules",
+    "variant": "hasami-shogi",
+    "variantUrl": "dist/shogi/variants/hasami-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Hasami Shogi",
+    "heading": "Win Condition",
+    "content": "The player whose pieces are reduced to one remaining piece loses.",
+    "anchor": "win-condition",
+    "variant": "hasami-shogi",
+    "variantUrl": "dist/shogi/variants/hasami-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Hasami Shogi",
+    "heading": "Attribution",
+    "content": "Hasami Shogi Variant 1. Public domain. Sources: steventran619/Hasami-Shogi implementation documentation; ryan-gallagher-atx/Hasami-Shogi-Game OSU CS162 final project; OlliePoole/Hasami-Shogi iOS imple",
+    "anchor": "attribution",
+    "variant": "hasami-shogi",
+    "variantUrl": "dist/shogi/variants/hasami-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "Kyoto Shogi",
+    "content": "Kyoto Shogi was invented by Tamiya Katsuya around 1976. It is played on a 5×5 board, and every piece except the King represents a pair: after each move, the moved piece must flip to show its other fac",
+    "anchor": "kyoto-shogi",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "Setup",
+    "content": "Board: 5×5 grid, 25 squares. Pieces per player: 5 King + 4 dual-sided pieces. Starting position: Rank --- Rank 5 Rank 1 Black Sente moves first. The position is point-symmetric 180-degree rotation.",
+    "anchor": "setup",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "Piece Pairs",
+    "content": "Each non-King piece has two faces. The piece flips to its alternate face after every move, mandatory. Face B --- Lance 香 Silver General 銀 Knight 桂 Pawn 歩 Piece movements: Movement --- One square in an",
+    "anchor": "piece-pairs",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "The Flip Rule",
+    "content": "After every move, the moved piece must flip to its alternate face. A piece may be moved to a square from which it would immediately have no legal move for example, a Lance on the final rank that will ",
+    "anchor": "the-flip-rule",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "Drops",
+    "content": "Captured pieces may be dropped back onto any empty square. When dropping, the player chooses which face of the pair to place face-up.",
+    "anchor": "drops",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "Draws",
+    "content": "The same position occurring three times with the same player to move is a draw.",
+    "anchor": "draws",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Kyoto Shogi",
+    "heading": "Attribution",
+    "content": "Kyoto Shogi. Invented by Tamiya Katsuya, c. 1976. Rules published freely since at least the 1980s; game mechanics are not copyrightable. Sources: pychess.org/variants/kyotoshogi; Fairy-Stockfish varia",
+    "anchor": "attribution",
+    "variant": "kyoto-shogi",
+    "variantUrl": "dist/shogi/variants/kyoto-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Minishogi",
+    "content": "Minishogi was invented or rediscovered around 1970 by Shigenobu Kusumoto of Osaka, Japan. It applies Standard Shogi rules to a 5×5 board, reducing each player's force to five pieces and the promotion ",
+    "anchor": "minishogi",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Setup",
+    "content": "Board: 5×5 grid, 25 squares. Pieces per player: 6 King, Rook, Bishop, Gold General, Silver General, one Pawn. No Knights or Lances: the board is too small for their jump. Starting position: Rank --- R",
+    "anchor": "setup",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Pieces",
+    "content": "Movement --- One square in any direction. Cannot move into check. Rook Any number of squares diagonally. Gold General One step diagonally, or one step forward. Five directions. Pawn",
+    "anchor": "pieces",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Promotion",
+    "content": "The promotion zone is the final rank only rank 5 for Black, rank 1 for White. A piece may promote when it moves into or within the promotion zone. Promotion is mandatory when the Pawn reaches the fina",
+    "anchor": "promotion",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Drops",
+    "content": "The drop mechanic applies as in Standard Shogi. Captured pieces are held in hand and may be dropped onto any empty square on a later turn, unpromoted. Restrictions: no Pawn drop on a file already cont",
+    "anchor": "drops",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King. A player with no legal moves loses.",
+    "anchor": "win-condition",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Draws",
+    "content": "Sennichite: The same position including pieces in hand occurs four times with the same player to move. Draw. If caused by perpetual check, the checking side loses. Impasse: Both Kings enter the promot",
+    "anchor": "draws",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Minishogi",
+    "heading": "Attribution",
+    "content": "Minishogi. Invented or rediscovered c. 1970 by Shigenobu Kusumoto of Osaka. Rules freely published since then; game mechanics are not copyrightable. Sources: pychess.org/variants/minishogi; Fairy-Stoc",
+    "anchor": "attribution",
+    "variant": "minishogi",
+    "variantUrl": "dist/shogi/variants/minishogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "Standard Shogi",
+    "content": "The full form of Japan's classic strategy game, played since at least the 10th century. The board is 9×9 and each player commands 20 pieces. The drop mechanic re-entering captured pieces as your own d",
+    "anchor": "standard-shogi",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "Setup",
+    "content": "Board: 9×9 grid, 81 squares. Traditional boards use natural wood throughout, with no alternating square colours. Pieces per player: 20, in eight types. Starting position: Files 9–1 left to right --- L",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "Pieces",
+    "content": "Abbreviation --- K R B G S N L P",
+    "anchor": "pieces",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "Promotion",
+    "content": "The promotion zone is the three ranks farthest from each player the opponent's back three ranks. A piece may promote when it moves into, out of, or entirely within the promotion zone. Promotion is opt",
+    "anchor": "promotion",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "The Drop Mechanic",
+    "content": "When a player captures an opponent's piece, that piece is held in hand. On any turn, instead of moving a piece on the board, the player may drop a piece from hand onto any empty square. Three restrict",
+    "anchor": "the-drop-mechanic",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King: attack the King such that no legal move can escape check. There is no stalemate rule in Shogi. A player with no legal move loses.",
+    "anchor": "win-condition",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "Draws",
+    "content": "Sennichite 千日手: The same position including pieces in hand occurs four times with the same player to move. The game is a draw. If the repetition is caused by perpetual check, the checking side loses. ",
+    "anchor": "draws",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "section": "Standard Shogi",
+    "heading": "Attribution",
+    "content": "Standard Shogi. Ancient origin; public domain. Sources: GNU Shogi Manual GNU Project, public domain; mastersofgames.com rules reference; pychess.org variants documentation.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "Janggi (Korean Chess)",
+    "content": "Janggi 장기 is the Korean form of chess, descended from the same historical lineage as Xiangqi but evolved independently into a distinct game. Key differences include no river, a different Elephant move",
+    "anchor": "janggi-korean-chess",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "The Board",
+    "content": "The board is a 9×10 grid. Pieces are placed on the 90 intersection points. There is no river. Each side has a palace: a 3×3 area marked with diagonal lines files d–f, ranks 1–3 for the bottom player; ",
+    "anchor": "the-board",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "Pieces",
+    "content": "Each side has 16 pieces. Korean/Chinese Movement --- --- 將/帥 One step orthogonally or diagonally within the 3×3 palace Advisor 2 象 One step orthogonally, then two steps diagonally outward. Blocked if ",
+    "anchor": "pieces",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "Byunsu: Choosing the Starting Position",
+    "content": "Before play begins, each player independently chooses the arrangement of their Horses and Elephants. Four configurations exist per side: Right side --- Horse, Elephant Horse, Elephant Elephant, Horse ",
+    "anchor": "byunsu-choosing-the-starting-position",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "Special Rules",
+    "content": "Bikjang laughing generals: when both Generals face each other on the same open file with no intervening piece, the player to move has two choices: make a move that breaks bikjang move the General or i",
+    "anchor": "special-rules",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "Tournament Material Counting",
+    "content": "In tournaments that do not permit draws, when bikjang is reached the remaining pieces are counted by value to determine the winner: Value jeom --- 13 Cannon 5 Elephant 3 Soldier not counted | Han Red ",
+    "anchor": "tournament-material-counting",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "Winning",
+    "content": "Checkmate the opponent's General: place it under threat with no legal move to escape.",
+    "anchor": "winning",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Janggi",
+    "heading": "Attribution",
+    "content": "Janggi 장기. Public domain. Traditional Korean origin, ancient derivation from Xiangqi. Rules consistent with the Korean Janggi Association standard.",
+    "anchor": "attribution",
+    "variant": "janggi",
+    "variantUrl": "dist/xiangqi/variants/janggi/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "Standard Xiangqi",
+    "content": "Xiangqi 象棋, \"Elephant Chess\" is the classical Chinese form of chess, played in China since at least the 7th century. It is the most widely played board game in China and among the most popular strateg",
+    "anchor": "standard-xiangqi",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "The Board",
+    "content": "The board is a 9×10 grid. Pieces are placed on the 90 intersection points, not inside squares. A river separates the two halves of the board between ranks 5 and 6. Each side has a palace: a 3×3 area m",
+    "anchor": "the-board",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "Pieces",
+    "content": "Each side has 16 pieces. Chinese Movement --- --- 帥/將 One step horizontally or vertically within the palace only. Cannot face the enemy General on an open file Flying General rule Advisor 2 相/象 Exactl",
+    "anchor": "pieces",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "Starting Position",
+    "content": "- Chariots: a1, i1 opponent: a10, i10 - Horses: b1, h1 opponent: b10, h10 - Elephants: c1, g1 opponent: c10, g10 - Advisors: d1, f1 opponent: d10, f10 - General: e1 opponent: e10 - Cannons: b3, h3 opp",
+    "anchor": "starting-position",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "Special Rules",
+    "content": "Flying General: the two Generals may never face each other on an open file with no intervening piece. A move that creates this position is illegal, even if the moving piece is not the General. Stalema",
+    "anchor": "special-rules",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "Winning",
+    "content": "Checkmate the opponent's General: place it under threat with no legal move to escape.",
+    "anchor": "winning",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "Strategy",
+    "content": "Control the cannon mounts carefully: a Cannon without a screen to jump over loses its capturing ability. The Flying General rule creates tactical opportunities to threaten the opponent's General by cl",
+    "anchor": "strategy",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Standard Xiangqi",
+    "heading": "Attribution",
+    "content": "Xiangqi. Public domain. Ancient Chinese origin, no copyright concern. Rules in accordance with the World Xiangqi Federation WXF standard.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/xiangqi/variants/standard/"
   }
 ]
