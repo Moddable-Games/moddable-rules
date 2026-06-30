@@ -1,11 +1,17 @@
 ---
-title: "Upside-Down"
-slug: "upside-down"
+title: Upside-Down
+slug: upside-down
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Pieces start on the opponent's back rank. Instant tactical chaos."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Upside-Down

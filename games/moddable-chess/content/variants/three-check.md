@@ -1,11 +1,17 @@
 ---
-title: "Three-Check"
-slug: "three-check"
+title: Three-Check
+slug: three-check
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate or deliver 3 checks"
-special: "First to check the opponent three times wins."
+parent: moddable-chess
+win: Checkmate or deliver 3 checks
+special: First to check the opponent three times wins.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Three-Check

@@ -1,12 +1,18 @@
 ---
-title: "One-Colour Go"
-slug: "one-colour"
+title: One-Colour Go
+slug: one-colour
 board: "19×19"
 players: "2"
-parent: "go"
+parent: go
 order: 7
-win: "Most territory at game end"
-special: "Both players use identical stones. Must remember which are yours. Extreme memory challenge."
+win: Most territory at game end
+special: Both players use identical stones. Must remember which are yours. Extreme memory challenge.
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+  players: [black, white]
 ---
 
 ## One-Colour Go

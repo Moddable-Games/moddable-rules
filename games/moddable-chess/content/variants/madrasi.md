@@ -1,11 +1,17 @@
 ---
-title: "Madrasi Chess"
-slug: "madrasi"
+title: Madrasi Chess
+slug: madrasi
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Same-type opposing pieces paralyse each other when they attack."
+parent: moddable-chess
+win: Checkmate
+special: Same-type opposing pieces paralyse each other when they attack.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Madrasi Chess

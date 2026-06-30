@@ -1,11 +1,17 @@
 ---
-title: "Torpedo Chess"
-slug: "torpedo"
+title: Torpedo Chess
+slug: torpedo
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Pawns can move two squares forward from any rank, not just the starting rank."
+parent: moddable-chess
+win: Checkmate
+special: Pawns can move two squares forward from any rank, not just the starting rank.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Torpedo Chess

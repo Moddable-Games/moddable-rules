@@ -1,12 +1,17 @@
 ---
-title: "Nackgammon"
-slug: "nackgammon"
+title: Nackgammon
+slug: nackgammon
 board: "24-point board"
 players: "2"
-parent: "backgammon"
+parent: backgammon
 order: 7
-win: "Bear off all 15 pieces before your opponent"
+win: Bear off all 15 pieces before your opponent
 special: "2 extra checkers placed on the 23-point create a slower, more complex opening than standard Backgammon."
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [white, black]
 ---
 
 ## Nackgammon

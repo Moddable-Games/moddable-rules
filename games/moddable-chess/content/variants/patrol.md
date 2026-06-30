@@ -1,11 +1,17 @@
 ---
-title: "Patrol Chess"
-slug: "patrol"
+title: Patrol Chess
+slug: patrol
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Pieces can only capture or give check when defended by a friendly piece."
+parent: moddable-chess
+win: Checkmate
+special: Pieces can only capture or give check when defended by a friendly piece.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Patrol Chess

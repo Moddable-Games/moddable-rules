@@ -1,12 +1,17 @@
 ---
 title: "2-Player Pachisi"
-slug: "two-player"
-board: "Cross-shaped cloth board"
+slug: two-player
+board: Cross-shaped cloth board
 players: "2"
-parent: "pachisi"
+parent: pachisi
 order: 2
-win: "Move all eight pieces (two colours) home before your opponent"
-special: "Each player controls two opposite arms. Rules otherwise identical to standard."
+win: Move all eight pieces (two colours) home before your opponent
+special: Each player controls two opposite arms. Rules otherwise identical to standard.
+engine:
+  topology:
+    type: track
+    positions: 68
+  players: [red, yellow]
 ---
 
 ## 2-Player Pachisi

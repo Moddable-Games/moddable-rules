@@ -1,12 +1,17 @@
 ---
-title: "Congkak"
-slug: "congkak"
+title: Congkak
+slug: congkak
 board: "2×7 pits + 2 houses"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 4
-win: "Have more seeds in your house than the opponent at game end"
+win: Have more seeds in your house than the opponent at game end
 special: "Sow into your own house but skip the opponent's house. Dead pits must be bought back."
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 7
+  players: [south, north]
 ---
 
 ## Congkak

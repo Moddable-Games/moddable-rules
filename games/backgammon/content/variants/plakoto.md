@@ -1,12 +1,17 @@
 ---
-title: "Plakoto"
-slug: "plakoto"
+title: Plakoto
+slug: plakoto
 board: "24-point board"
 players: "2"
-parent: "backgammon"
+parent: backgammon
 order: 4
-win: "Bear off all 15 pieces before your opponent"
+win: Bear off all 15 pieces before your opponent
 special: "Pin instead of hit: landing on a blot traps it under your piece. Trapped pieces cannot move until released."
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [white, black]
 ---
 
 ## Plakoto

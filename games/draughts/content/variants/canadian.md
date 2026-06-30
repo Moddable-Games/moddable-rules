@@ -1,12 +1,18 @@
 ---
-title: "Canadian Draughts"
-slug: "canadian"
+title: Canadian Draughts
+slug: canadian
 board: "12×12"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 9
-win: "Capture or block all opponent pieces"
-special: "Largest standard board (12×12). 30 pieces per side. International rules. Longest games."
+win: Capture or block all opponent pieces
+special: Largest standard board (12×12). 30 pieces per side. International rules. Longest games.
+engine:
+  topology:
+    type: grid
+    rows: 12
+    cols: 12
+  players: [white, black]
 ---
 
 ## Canadian Draughts

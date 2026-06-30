@@ -1,11 +1,17 @@
 ---
-title: "Shatranj"
-slug: "shatranj"
+title: Shatranj
+slug: shatranj
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate, bare king, or stalemate"
-special: "Medieval Islamic chess. Bare king and stalemate are both wins. Ancestor of modern chess."
+parent: moddable-chess
+win: Checkmate, bare king, or stalemate
+special: Medieval Islamic chess. Bare king and stalemate are both wins. Ancestor of modern chess.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Shatranj

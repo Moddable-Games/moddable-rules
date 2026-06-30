@@ -1,11 +1,17 @@
 ---
-title: "Teleportation Chess"
-slug: "teleport-chess"
+title: Teleportation Chess
+slug: teleport-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Each side has 3 teleports per game — move any piece to any empty square."
+parent: moddable-chess
+win: Checkmate
+special: Each side has 3 teleports per game — move any piece to any empty square.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Teleportation Chess

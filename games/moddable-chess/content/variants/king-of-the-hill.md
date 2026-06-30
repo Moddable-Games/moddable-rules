@@ -1,11 +1,17 @@
 ---
-title: "King of the Hill"
-slug: "king-of-the-hill"
+title: King of the Hill
+slug: king-of-the-hill
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate or king reaches centre 4 squares"
-special: "Moving your king to d4/d5/e4/e5 is an instant win."
+parent: moddable-chess
+win: Checkmate or king reaches centre 4 squares
+special: Moving your king to d4/d5/e4/e5 is an instant win.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## King of the Hill

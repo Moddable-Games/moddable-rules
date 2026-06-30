@@ -1,12 +1,18 @@
 ---
-title: "Italian Draughts"
-slug: "italian"
+title: Italian Draughts
+slug: italian
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 11
-win: "Capture or block all opponent pieces"
+win: Capture or block all opponent pieces
 special: "Men cannot capture kings. Strict capture priority: king captures first, then most pieces, then most kings."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Italian Draughts

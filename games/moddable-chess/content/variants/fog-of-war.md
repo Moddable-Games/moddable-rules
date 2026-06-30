@@ -1,11 +1,17 @@
 ---
-title: "Fog of War Chess"
-slug: "fog-of-war"
+title: Fog of War Chess
+slug: fog-of-war
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Capture opponent king"
-special: "You only see squares your pieces can move to. No check warnings."
+parent: moddable-chess
+win: Capture opponent king
+special: You only see squares your pieces can move to. No check warnings.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Fog of War Chess

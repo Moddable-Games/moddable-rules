@@ -1,11 +1,17 @@
 ---
-title: "Progressive"
-slug: "progressive"
+title: Progressive
+slug: progressive
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Moves per turn escalate: 1, 2, 3, 4... Check ends your turn early."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Progressive

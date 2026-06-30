@@ -1,11 +1,17 @@
 ---
-title: "Antichess"
-slug: "antichess"
+title: Antichess
+slug: antichess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Lose all pieces or get stalemated"
-special: "Captures are mandatory. First to lose all pieces wins."
+parent: moddable-chess
+win: Lose all pieces or get stalemated
+special: Captures are mandatory. First to lose all pieces wins.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Antichess

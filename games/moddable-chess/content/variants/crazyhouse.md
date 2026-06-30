@@ -1,11 +1,17 @@
 ---
-title: "Crazyhouse"
-slug: "crazyhouse"
+title: Crazyhouse
+slug: crazyhouse
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Captured pieces switch sides and can be dropped back onto the board."
+parent: moddable-chess
+win: Checkmate
+special: Captured pieces switch sides and can be dropped back onto the board.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Crazyhouse

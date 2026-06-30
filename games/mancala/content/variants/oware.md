@@ -1,12 +1,17 @@
 ---
-title: "Oware"
-slug: "oware"
+title: Oware
+slug: oware
 board: "2×6 pits"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 2
-win: "Capture more than 24 seeds"
-special: "Grand slam rule prevents a player from clearing all opponent seeds in a single turn."
+win: Capture more than 24 seeds
+special: Grand slam rule prevents a player from clearing all opponent seeds in a single turn.
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 6
+  players: [south, north]
 ---
 
 ## Oware

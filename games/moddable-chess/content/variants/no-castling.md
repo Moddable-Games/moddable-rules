@@ -1,11 +1,17 @@
 ---
-title: "No Castling Chess"
-slug: "no-castling"
+title: No Castling Chess
+slug: no-castling
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Standard chess with castling removed. Kings must develop naturally."
+parent: moddable-chess
+win: Checkmate
+special: Standard chess with castling removed. Kings must develop naturally.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## No Castling Chess

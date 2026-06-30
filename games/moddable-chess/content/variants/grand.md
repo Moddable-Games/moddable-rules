@@ -1,11 +1,17 @@
 ---
-title: "Grand Chess"
-slug: "grand"
+title: Grand Chess
+slug: grand
 board: "10×10"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Same new pieces as Capablanca, bigger board, pawns start on rank 3."
+parent: moddable-chess
+win: Checkmate
+special: Same new pieces as Capablanca, bigger board, pawns start on rank 3.
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+  players: [white, black]
 ---
 
 ## Grand Chess

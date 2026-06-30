@@ -1,11 +1,17 @@
 ---
-title: "Berserk Chess"
-slug: "berserk"
+title: Berserk Chess
+slug: berserk
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Delivering check grants one bonus move with a different piece."
+parent: moddable-chess
+win: Checkmate
+special: Delivering check grants one bonus move with a different piece.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Berserk Chess

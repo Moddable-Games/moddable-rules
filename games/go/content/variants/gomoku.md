@@ -1,12 +1,18 @@
 ---
-title: "Gomoku"
-slug: "gomoku"
+title: Gomoku
+slug: gomoku
 board: "15×15"
 players: "2"
-parent: "go"
+parent: go
 order: 5
-win: "Five in an unbroken row"
-special: "Black plays first. Stones are placed, never moved. No captures."
+win: Five in an unbroken row
+special: Black plays first. Stones are placed, never moved. No captures.
+engine:
+  topology:
+    type: grid
+    rows: 15
+    cols: 15
+  players: [black, white]
 ---
 
 ## Gomoku

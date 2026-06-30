@@ -1,11 +1,17 @@
 ---
-title: "Sittuyin"
-slug: "sittuyin"
+title: Sittuyin
+slug: sittuyin
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Burmese chess. Placement opening phase. Pawns promote on the diagonal. No castling or en passant."
+parent: moddable-chess
+win: Checkmate
+special: Burmese chess. Placement opening phase. Pawns promote on the diagonal. No castling or en passant.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Sittuyin (Burmese Chess)

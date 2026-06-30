@@ -1,11 +1,17 @@
 ---
-title: "Los Alamos"
-slug: "los-alamos"
+title: Los Alamos
+slug: los-alamos
 board: "6×6"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "First computer chess (1956). 6x6 board, no Bishops, no castling."
+parent: moddable-chess
+win: Checkmate
+special: First computer chess (1956). 6x6 board, no Bishops, no castling.
+engine:
+  topology:
+    type: grid
+    rows: 6
+    cols: 6
+  players: [white, black]
 ---
 
 ## Los Alamos

@@ -1,11 +1,17 @@
 ---
-title: "Pawns Only"
-slug: "pawns-only"
+title: Pawns Only
+slug: pawns-only
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Promote a pawn"
-special: "Kings and pawns only. First to promote wins instantly."
+parent: moddable-chess
+win: Promote a pawn
+special: Kings and pawns only. First to promote wins instantly.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Pawns Only

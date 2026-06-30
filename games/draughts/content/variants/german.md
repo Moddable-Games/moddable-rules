@@ -1,12 +1,18 @@
 ---
-title: "German Draughts"
-slug: "german"
+title: German Draughts
+slug: german
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 18
-win: "Capture or block all opponent pieces"
-special: "Men capture both forwards and backwards. Flying kings. No majority capture rule."
+win: Capture or block all opponent pieces
+special: Men capture both forwards and backwards. Flying kings. No majority capture rule.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## German Draughts

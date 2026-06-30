@@ -1,11 +1,17 @@
 ---
-title: "No Retreat"
-slug: "no-retreat"
+title: No Retreat
+slug: no-retreat
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Pieces cannot move backward toward their own starting rank."
+parent: moddable-chess
+win: Checkmate
+special: Pieces cannot move backward toward their own starting rank.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## No Retreat

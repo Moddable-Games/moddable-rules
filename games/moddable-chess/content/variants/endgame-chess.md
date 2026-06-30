@@ -1,11 +1,17 @@
 ---
-title: "Endgame Chess"
-slug: "endgame-chess"
+title: Endgame Chess
+slug: endgame-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Only Kings and pawns. Pure endgame technique from move one."
+parent: moddable-chess
+win: Checkmate
+special: Only Kings and pawns. Pure endgame technique from move one.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Endgame Chess

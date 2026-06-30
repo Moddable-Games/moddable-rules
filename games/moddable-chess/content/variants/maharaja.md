@@ -1,11 +1,17 @@
 ---
-title: "Maharaja & Sepoys"
-slug: "maharaja"
+title: Maharaja & Sepoys
+slug: maharaja
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "One player has a full army. The other has one piece that moves as queen + knight."
+parent: moddable-chess
+win: Checkmate
+special: One player has a full army. The other has one piece that moves as queen + knight.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Maharaja & Sepoys

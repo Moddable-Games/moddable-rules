@@ -1,12 +1,18 @@
 ---
-title: "Capture Go"
-slug: "capture-go"
+title: Capture Go
+slug: capture-go
 board: "9×9"
 players: "2"
-parent: "go"
+parent: go
 order: 9
-win: "First capture wins"
-special: "First player to capture any stone wins. No territory scoring. The universal teaching variant."
+win: First capture wins
+special: First player to capture any stone wins. No territory scoring. The universal teaching variant.
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  players: [black, white]
 ---
 
 ## Capture Go

@@ -1,12 +1,18 @@
 ---
-title: "International Draughts"
-slug: "international"
+title: International Draughts
+slug: international
 board: "10×10"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 3
-win: "Capture or block all opponent pieces"
-special: "Flying kings. Mandatory longest chain. Men capture backwards. Delayed removal."
+win: Capture or block all opponent pieces
+special: Flying kings. Mandatory longest chain. Men capture backwards. Delayed removal.
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+  players: [white, black]
 ---
 
 ## International Draughts

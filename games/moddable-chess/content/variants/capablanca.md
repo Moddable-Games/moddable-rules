@@ -1,11 +1,17 @@
 ---
-title: "Capablanca Chess"
-slug: "capablanca"
+title: Capablanca Chess
+slug: capablanca
 board: "10×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Two extra pieces: Archbishop (B+N) and Chancellor (R+N). Wider board."
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 8
+  players: [white, black]
 ---
 
 ## Capablanca Chess

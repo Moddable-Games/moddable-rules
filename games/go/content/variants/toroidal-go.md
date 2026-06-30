@@ -1,12 +1,18 @@
 ---
-title: "Toroidal Go"
-slug: "toroidal-go"
+title: Toroidal Go
+slug: toroidal-go
 board: "11×11"
 players: "2"
-parent: "go"
+parent: go
 order: 14
-win: "Most territory (area or territory scoring)"
-special: "Edges wrap horizontally and vertically. No corners, no edges, no joseki."
+win: Most territory (area or territory scoring)
+special: Edges wrap horizontally and vertically. No corners, no edges, no joseki.
+engine:
+  topology:
+    type: grid
+    rows: 11
+    cols: 11
+  players: [black, white]
 ---
 
 ## Toroidal Go

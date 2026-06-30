@@ -1,12 +1,18 @@
 ---
-title: "Pool Checkers"
-slug: "pool"
+title: Pool Checkers
+slug: pool
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 10
-win: "Capture or block all opponent pieces"
-special: "Men capture both directions. Flying kings. Mid-jump promotion. Free choice. US federation since 1966."
+win: Capture or block all opponent pieces
+special: Men capture both directions. Flying kings. Mid-jump promotion. Free choice. US federation since 1966.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Pool Checkers

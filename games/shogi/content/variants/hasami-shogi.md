@@ -1,11 +1,17 @@
 ---
-title: "Hasami Shogi"
-slug: "hasami-shogi"
+title: Hasami Shogi
+slug: hasami-shogi
 board: "9×9"
 players: "2"
-parent: "shogi"
-win: "Reduce opponent to one remaining piece"
-special: "Custodial sandwich capture. No drops, no promotion. All pieces are identical."
+parent: shogi
+win: Reduce opponent to one remaining piece
+special: Custodial sandwich capture. No drops, no promotion. All pieces are identical.
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  players: [player1, player2]
 ---
 
 ## Hasami Shogi

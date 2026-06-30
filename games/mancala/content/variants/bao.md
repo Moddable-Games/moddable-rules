@@ -1,12 +1,17 @@
 ---
-title: "Bao"
-slug: "bao"
+title: Bao
+slug: bao
 board: "4×8 pits (2 rows per player)"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 3
-win: "Reduce opponent to no seeds in their inner row, or leave them with no legal move"
+win: Reduce opponent to no seeds in their inner row, or leave them with no legal move
 special: "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing."
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 8
+  players: [south, north]
 ---
 
 ## Bao

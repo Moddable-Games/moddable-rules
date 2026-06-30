@@ -1,13 +1,18 @@
 ---
 title: "Nukes: Siege"
-slug: "siege"
+slug: siege
 players: "2"
-parent: "nukes"
+parent: nukes
 order: 1
-category: "Total conversion"
-designer: "The House"
+category: Total conversion
+designer: The House
 version: "1.0.0"
-special: "Hostage mechanic replaced with own-supply recruiting. Enemy hostages only arrive through combat."
+special: Hostage mechanic replaced with own-supply recruiting. Enemy hostages only arrive through combat.
+engine:
+  topology:
+    type: hex
+    radius: 3
+  players: [player1, player2]
 ---
 
 ## Nukes: Siege

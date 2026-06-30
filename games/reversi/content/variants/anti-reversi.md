@@ -1,12 +1,18 @@
 ---
-title: "Anti-Reversi"
-slug: "anti-reversi"
+title: Anti-Reversi
+slug: anti-reversi
 board: "8×8"
 players: "2"
-parent: "reversi"
+parent: reversi
 order: 3
-win: "Fewest discs on the board when no moves remain"
-special: "Misère variant. Win condition inverted — giving up discs is the goal. Draw is possible."
+win: Fewest discs on the board when no moves remain
+special: Misère variant. Win condition inverted — giving up discs is the goal. Draw is possible.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [black, white]
 ---
 
 ## Anti-Reversi

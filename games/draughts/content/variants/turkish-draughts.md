@@ -1,12 +1,18 @@
 ---
-title: "Turkish Draughts"
-slug: "turkish-draughts"
+title: Turkish Draughts
+slug: turkish-draughts
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 2
-win: "Capture or block all opponent pieces"
-special: "Orthogonal movement replaces diagonal. Majority capture rule. Immediate removal."
+win: Capture or block all opponent pieces
+special: Orthogonal movement replaces diagonal. Majority capture rule. Immediate removal.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Turkish Draughts

@@ -1,11 +1,17 @@
 ---
-title: "Dice Chess"
-slug: "dice-chess"
+title: Dice Chess
+slug: dice-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Die roll constrains which piece type must move."
+parent: moddable-chess
+win: Checkmate
+special: Die roll constrains which piece type must move.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Dice Chess

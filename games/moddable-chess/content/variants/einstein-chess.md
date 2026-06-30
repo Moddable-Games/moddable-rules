@@ -1,11 +1,17 @@
 ---
-title: "Einstein Chess"
-slug: "einstein-chess"
+title: Einstein Chess
+slug: einstein-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Non-capturing moves demote pieces; captures promote them (Q→R→B→N→P / P→N→B→R→Q)."
+parent: moddable-chess
+win: Checkmate
+special: Non-capturing moves demote pieces; captures promote them (Q→R→B→N→P / P→N→B→R→Q).
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Einstein Chess

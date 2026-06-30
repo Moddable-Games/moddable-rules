@@ -1,11 +1,17 @@
 ---
-title: "Omnicide"
-slug: "omnicide"
+title: Omnicide
+slug: omnicide
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Lose all pieces"
-special: "Lose all your pieces to win. Captures NOT forced (unlike Antichess)."
+parent: moddable-chess
+win: Lose all pieces
+special: Lose all your pieces to win. Captures NOT forced (unlike Antichess).
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Omnicide

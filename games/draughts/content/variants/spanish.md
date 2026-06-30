@@ -1,12 +1,18 @@
 ---
-title: "Spanish Draughts"
-slug: "spanish"
+title: Spanish Draughts
+slug: spanish
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 12
-win: "Capture or block all opponent pieces"
-special: "Flying kings. Men cannot capture backwards. Majority rule with king preference."
+win: Capture or block all opponent pieces
+special: Flying kings. Men cannot capture backwards. Majority rule with king preference.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Spanish Draughts

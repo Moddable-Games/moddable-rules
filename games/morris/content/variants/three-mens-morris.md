@@ -1,12 +1,34 @@
 ---
 title: "Three Men's Morris"
-slug: "three-mens-morris"
+slug: three-mens-morris
 board: "3×3 grid (9 intersections)"
 players: "2"
-parent: "morris"
+parent: morris
 order: 1
-win: "Form a three-in-a-row with all three of your pieces"
-special: "No movement phase; pieces jump to any empty square. Smallest member of the Mill family."
+win: Form a three-in-a-row with all three of your pieces
+special: No movement phase; pieces jump to any empty square. Smallest member of the Mill family.
+engine:
+  topology:
+    type: graph
+    nodes: [a1, a2, a3, b1, b2, b3, c1, c2, c3]
+    edges:
+      - [a1, a2]
+      - [a2, a3]
+      - [b1, b2]
+      - [b2, b3]
+      - [c1, c2]
+      - [c2, c3]
+      - [a1, b1]
+      - [b1, c1]
+      - [a2, b2]
+      - [b2, c2]
+      - [a3, b3]
+      - [b3, c3]
+      - [a1, b2]
+      - [b2, c3]
+      - [a3, b2]
+      - [b2, c1]
+  players: [white, black]
 ---
 
 ## Three Men's Morris

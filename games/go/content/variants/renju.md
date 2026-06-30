@@ -1,12 +1,18 @@
 ---
-title: "Renju"
-slug: "renju"
+title: Renju
+slug: renju
 board: "15×15"
 players: "2"
-parent: "go"
+parent: go
 order: 10
-win: "Five in an unbroken row (exactly five for Black)"
-special: "Competitive Gomoku with forbidden moves for Black. Governed by the Renju International Federation."
+win: Five in an unbroken row (exactly five for Black)
+special: Competitive Gomoku with forbidden moves for Black. Governed by the Renju International Federation.
+engine:
+  topology:
+    type: grid
+    rows: 15
+    cols: 15
+  players: [black, white]
 ---
 
 ## Renju

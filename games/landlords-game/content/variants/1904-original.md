@@ -1,12 +1,17 @@
 ---
 title: "1904 Original"
 slug: "1904-original"
-board: "Circular 40-space track"
+board: Circular 40-space track
 players: "2–6"
-parent: "landlords-game"
+parent: landlords-game
 order: 1
-win: "Complete 5 circuits with the highest total wealth (lots + cash + luxuries)"
-special: "The pure patent ruleset — no houses, no Chance cards, lot tickets drawn at start. The ur-game."
+win: Complete 5 circuits with the highest total wealth (lots + cash + luxuries)
+special: The pure patent ruleset — no houses, no Chance cards, lot tickets drawn at start. The ur-game.
+engine:
+  topology:
+    type: track
+    positions: 40
+  players: [player1, player2]
 ---
 
 ## 1904 Original

@@ -1,12 +1,17 @@
 ---
-title: "Pallanguzhi"
-slug: "pallanguzhi"
+title: Pallanguzhi
+slug: pallanguzhi
 board: "2×7 pits"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 6
-win: "Capture all 168 seeds (opponent cannot fill pits to play)"
+win: Capture all 168 seeds (opponent cannot fill pits to play)
 special: "Multi-lap sowing: the last seed always triggers pickup of the next pit, creating long relay chains."
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 7
+  players: [south, north]
 ---
 
 ## Pallanguzhi

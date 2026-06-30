@@ -1,12 +1,18 @@
 ---
-title: "Brazilian Draughts"
-slug: "brazilian"
+title: Brazilian Draughts
+slug: brazilian
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 8
-win: "Capture or block all opponent pieces"
-special: "International rules on 8×8 board. Flying kings. Majority capture. Delayed removal."
+win: Capture or block all opponent pieces
+special: International rules on 8×8 board. Flying kings. Majority capture. Delayed removal.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Brazilian Draughts

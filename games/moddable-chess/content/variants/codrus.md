@@ -1,11 +1,17 @@
 ---
-title: "Codrus"
-slug: "codrus"
+title: Codrus
+slug: codrus
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Lose your King"
-special: "No check exists. You win by getting your own King captured."
+parent: moddable-chess
+win: Lose your King
+special: No check exists. You win by getting your own King captured.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Codrus

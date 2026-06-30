@@ -1,12 +1,18 @@
 ---
-title: "Spantsiretti"
-slug: "spantsiretti"
+title: Spantsiretti
+slug: spantsiretti
 board: "10×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 20
-win: "Capture or block all opponent pieces"
-special: "Russian Draughts rules on a wider 10×8 board. 20 pieces per side."
+win: Capture or block all opponent pieces
+special: Russian Draughts rules on a wider 10×8 board. 20 pieces per side.
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 8
+  players: [white, black]
 ---
 
 ## Spantsiretti

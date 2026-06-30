@@ -1,11 +1,17 @@
 ---
-title: "Giveaway"
-slug: "giveaway"
+title: Giveaway
+slug: giveaway
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Lose all pieces"
-special: "Forced captures. King is not royal. Stalemate is a loss."
+parent: moddable-chess
+win: Lose all pieces
+special: Forced captures. King is not royal. Stalemate is a loss.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Giveaway

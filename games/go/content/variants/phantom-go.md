@@ -1,12 +1,18 @@
 ---
-title: "Phantom Go"
-slug: "phantom-go"
+title: Phantom Go
+slug: phantom-go
 board: "9×9 or 13×13"
 players: "2 + referee"
-parent: "go"
+parent: go
 order: 8
-win: "Most territory (standard scoring)"
-special: "Fog of war. Players cannot see opponent stones. A referee mediates all moves."
+win: Most territory (standard scoring)
+special: Fog of war. Players cannot see opponent stones. A referee mediates all moves.
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  players: [black, white]
 ---
 
 ## Phantom Go

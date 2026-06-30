@@ -1,11 +1,17 @@
 ---
-title: "Shatar"
-slug: "shatar"
+title: Shatar
+slug: shatar
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Bare king"
-special: "Mongolian chess. No check — win by leaving the opponent with only their King remaining."
+parent: moddable-chess
+win: Bare king
+special: Mongolian chess. No check — win by leaving the opponent with only their King remaining.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Shatar (Mongolian Chess)

@@ -1,13 +1,18 @@
 ---
 title: "Nukes: Asymmetric Powers"
-slug: "asymmetric-powers"
+slug: asymmetric-powers
 players: "2–3"
-parent: "nukes"
+parent: nukes
 order: 2
-category: "Rebalance"
-designer: "The House"
+category: Rebalance
+designer: The House
 version: "1.0.0"
-special: "Each player draws one Power Card at setup. No two players hold the same card."
+special: Each player draws one Power Card at setup. No two players hold the same card.
+engine:
+  topology:
+    type: hex
+    radius: 3
+  players: [player1, player2]
 ---
 
 ## Nukes: Asymmetric Powers

@@ -1,12 +1,18 @@
 ---
-title: "English Draughts"
-slug: "english"
+title: English Draughts
+slug: english
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 1
-win: "Capture or block all opponent pieces"
-special: "Diagonal movement only. No flying kings. Free choice between captures."
+win: Capture or block all opponent pieces
+special: Diagonal movement only. No flying kings. Free choice between captures.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## English Draughts

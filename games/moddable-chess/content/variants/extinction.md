@@ -1,11 +1,17 @@
 ---
-title: "Extinction Chess"
-slug: "extinction"
+title: Extinction Chess
+slug: extinction
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Capture all of one piece type"
-special: "Lose all your knights, bishops, rooks, or pawns — you lose the game."
+parent: moddable-chess
+win: Capture all of one piece type
+special: Lose all your knights, bishops, rooks, or pawns — you lose the game.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Extinction Chess

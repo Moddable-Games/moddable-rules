@@ -1,11 +1,17 @@
 ---
-title: "Minichess"
-slug: "minichess"
+title: Minichess
+slug: minichess
 board: "5×5"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Gardner's 5x5 board. All piece types, fast tactical games."
+engine:
+  topology:
+    type: grid
+    rows: 5
+    cols: 5
+  players: [white, black]
 ---
 
 ## Minichess

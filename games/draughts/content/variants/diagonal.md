@@ -1,12 +1,18 @@
 ---
-title: "Diagonal Draughts"
-slug: "diagonal"
+title: Diagonal Draughts
+slug: diagonal
 board: "10×10"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 17
-win: "Capture or block all opponent pieces"
-special: "Pieces start along the diagonal. The long diagonal of the board is empty at setup."
+win: Capture or block all opponent pieces
+special: Pieces start along the diagonal. The long diagonal of the board is empty at setup.
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+  players: [white, black]
 ---
 
 ## Diagonal Draughts

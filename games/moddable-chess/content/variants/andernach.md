@@ -1,11 +1,17 @@
 ---
-title: "Andernach Chess"
-slug: "andernach"
+title: Andernach Chess
+slug: andernach
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Capturing piece changes colour (becomes opponent's). Kings exempt."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Andernach Chess

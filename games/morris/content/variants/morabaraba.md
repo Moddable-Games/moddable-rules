@@ -1,12 +1,50 @@
 ---
-title: "Morabaraba"
-slug: "morabaraba"
-board: "Three concentric squares (24 intersections)"
+title: Morabaraba
+slug: morabaraba
+board: Three concentric squares (24 intersections)
 players: "2"
-parent: "morris"
+parent: morris
 order: 6
-win: "Reduce opponent to 2 cows or block all their moves"
-special: "South African national game. Cows instead of men. Special rules for the three-cow endgame."
+win: Reduce opponent to 2 cows or block all their moves
+special: South African national game. Cows instead of men. Special rules for the three-cow endgame.
+engine:
+  topology:
+    type: graph
+    nodes: [a1, a4, a7, d7, g7, g4, g1, d1, b2, b4, b6, d6, f6, f4, f2, d2, c3, c4, c5, d5, e5, e4, e3, d3]
+    edges:
+      - [a1, d1]
+      - [d1, g1]
+      - [g1, g4]
+      - [g4, g7]
+      - [g7, d7]
+      - [d7, a7]
+      - [a7, a4]
+      - [a4, a1]
+      - [b2, d2]
+      - [d2, f2]
+      - [f2, f4]
+      - [f4, f6]
+      - [f6, d6]
+      - [d6, b6]
+      - [b6, b4]
+      - [b4, b2]
+      - [c3, d3]
+      - [d3, e3]
+      - [e3, e4]
+      - [e4, e5]
+      - [e5, d5]
+      - [d5, c5]
+      - [c5, c4]
+      - [c4, c3]
+      - [d1, d2]
+      - [d2, d3]
+      - [g4, f4]
+      - [f4, e4]
+      - [d7, d6]
+      - [d6, d5]
+      - [a4, b4]
+      - [b4, c4]
+  players: [white, black]
 ---
 
 ## Morabaraba

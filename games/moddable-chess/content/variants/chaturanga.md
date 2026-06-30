@@ -1,11 +1,17 @@
 ---
-title: "Chaturanga"
-slug: "chaturanga"
+title: Chaturanga
+slug: chaturanga
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate or bare king"
-special: "Ancient Indian ancestor of all chess variants, c. 600 CE. Weak counsellor and leaping elephant."
+parent: moddable-chess
+win: Checkmate or bare king
+special: Ancient Indian ancestor of all chess variants, c. 600 CE. Weak counsellor and leaping elephant.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Chaturanga

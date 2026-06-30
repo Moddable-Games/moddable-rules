@@ -1,12 +1,18 @@
 ---
-title: "Alquerque"
-slug: "alquerque"
+title: Alquerque
+slug: alquerque
 board: "5×5"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 6
-win: "Capture or block all opponent pieces"
-special: "The common ancestor. Movement along lines (orthogonal and diagonal). No promotion."
+win: Capture or block all opponent pieces
+special: The common ancestor. Movement along lines (orthogonal and diagonal). No promotion.
+engine:
+  topology:
+    type: grid
+    rows: 5
+    cols: 5
+  players: [white, black]
 ---
 
 ## Alquerque

@@ -1,12 +1,17 @@
 ---
-title: "Single Tax"
-slug: "single-tax"
-board: "Circular 40-space track"
+title: Single Tax
+slug: single-tax
+board: Circular 40-space track
 players: "2–4"
-parent: "landlords-game"
+parent: landlords-game
 order: 3
-win: "Collective — all players win when public ownership is complete and wages are maximised"
+win: Collective — all players win when public ownership is complete and wages are maximised
 special: "Magie's intended lesson: play mid-game by vote. Land rents fund public acquisition of utilities, railroads, and colleges. Wages rise progressively."
+engine:
+  topology:
+    type: track
+    positions: 40
+  players: [player1, player2]
 ---
 
 ## Single Tax

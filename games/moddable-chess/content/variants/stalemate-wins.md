@@ -1,11 +1,17 @@
 ---
-title: "Stalemate Wins"
-slug: "stalemate-wins"
+title: Stalemate Wins
+slug: stalemate-wins
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate or stalemate"
-special: "Standard chess but stalemate is a win, not a draw."
+parent: moddable-chess
+win: Checkmate or stalemate
+special: Standard chess but stalemate is a win, not a draw.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Stalemate Wins

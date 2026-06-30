@@ -1,12 +1,17 @@
 ---
-title: "Kalah"
-slug: "kalah"
+title: Kalah
+slug: kalah
 board: "2×6 pits + 2 stores"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 1
-win: "Capture more than 36 seeds (majority of 72)"
+win: Capture more than 36 seeds (majority of 72)
 special: "Landing in your own store grants a bonus turn. Opponent's store is skipped during sowing."
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 6
+  players: [south, north]
 ---
 
 ## Kalah

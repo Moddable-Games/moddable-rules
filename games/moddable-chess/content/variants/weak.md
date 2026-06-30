@@ -1,11 +1,17 @@
 ---
-title: "Weak!"
-slug: "weak"
+title: Weak!
+slug: weak
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Weakest piece type with a legal move must move first."
+parent: moddable-chess
+win: Checkmate
+special: Weakest piece type with a legal move must move first.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Weak!

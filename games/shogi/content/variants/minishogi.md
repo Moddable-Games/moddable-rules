@@ -1,11 +1,17 @@
 ---
-title: "Minishogi"
-slug: "minishogi"
+title: Minishogi
+slug: minishogi
 board: "5×5"
 players: "2"
-parent: "shogi"
+parent: shogi
 win: "Checkmate the opponent's King"
-special: "Standard Shogi on a 5×5 board. Single-rank promotion zone. No Knights or Lances."
+special: Standard Shogi on a 5×5 board. Single-rank promotion zone. No Knights or Lances.
+engine:
+  topology:
+    type: grid
+    rows: 5
+    cols: 5
+  players: [player1, player2]
 ---
 
 ## Minishogi

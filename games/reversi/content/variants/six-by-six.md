@@ -1,12 +1,18 @@
 ---
-title: "Six-by-Six Reversi"
-slug: "six-by-six"
+title: Six-by-Six Reversi
+slug: six-by-six
 board: "6×6"
 players: "2"
-parent: "reversi"
+parent: reversi
 order: 2
-win: "Most discs on the board when no moves remain"
-special: "Smaller board for shorter games or competitive solving. Identical rules to standard Reversi."
+win: Most discs on the board when no moves remain
+special: Smaller board for shorter games or competitive solving. Identical rules to standard Reversi.
+engine:
+  topology:
+    type: grid
+    rows: 6
+    cols: 6
+  players: [black, white]
 ---
 
 ## Six-by-Six

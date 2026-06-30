@@ -1,13 +1,18 @@
 ---
 title: "Nukes: Fallout"
-slug: "fallout"
+slug: fallout
 players: "2–3"
-parent: "nukes"
+parent: nukes
 order: 3
-category: "Reskin"
-designer: "The House"
+category: Reskin
+designer: The House
 version: "1.0.0"
-special: "Biohazard tiles spread one tile per round. City tiles are immune. The board shrinks over time."
+special: Biohazard tiles spread one tile per round. City tiles are immune. The board shrinks over time.
+engine:
+  topology:
+    type: hex
+    radius: 3
+  players: [player1, player2]
 ---
 
 ## Nukes: Fallout

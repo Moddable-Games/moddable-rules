@@ -1,11 +1,17 @@
 ---
-title: "Courier Chess"
-slug: "courier"
+title: Courier Chess
+slug: courier
 board: "12×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Medieval German variant from the 1200s. Extra bishops and sage pieces."
+parent: moddable-chess
+win: Checkmate
+special: Medieval German variant from the 1200s. Extra bishops and sage pieces.
+engine:
+  topology:
+    type: grid
+    rows: 12
+    cols: 8
+  players: [white, black]
 ---
 
 ## Courier Chess

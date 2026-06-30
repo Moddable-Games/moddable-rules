@@ -1,11 +1,17 @@
 ---
-title: "Single-Check"
-slug: "single-check"
+title: Single-Check
+slug: single-check
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Deliver check"
-special: "One check wins. No checkmate needed — any single check ends the game."
+parent: moddable-chess
+win: Deliver check
+special: One check wins. No checkmate needed — any single check ends the game.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Single-Check

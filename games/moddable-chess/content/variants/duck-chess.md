@@ -1,11 +1,17 @@
 ---
-title: "Duck Chess"
-slug: "duck-chess"
+title: Duck Chess
+slug: duck-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Capture opponent king"
-special: "After each move, place the duck (blocker) on any empty square."
+parent: moddable-chess
+win: Capture opponent king
+special: After each move, place the duck (blocker) on any empty square.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Duck Chess

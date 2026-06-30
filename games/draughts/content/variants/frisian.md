@@ -1,12 +1,18 @@
 ---
-title: "Frisian Draughts"
-slug: "frisian"
+title: Frisian Draughts
+slug: frisian
 board: "10×10"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 4
-win: "Capture or block all opponent pieces"
-special: "Captures in all 8 directions. 3-move king limit. King preference on equal chains."
+win: Capture or block all opponent pieces
+special: Captures in all 8 directions. 3-move king limit. King preference on equal chains.
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+  players: [white, black]
 ---
 
 ## Frisian Draughts

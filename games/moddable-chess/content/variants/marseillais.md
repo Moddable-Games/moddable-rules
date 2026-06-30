@@ -1,11 +1,17 @@
 ---
-title: "Marseillais Chess"
-slug: "marseillais"
+title: Marseillais Chess
+slug: marseillais
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Each player makes TWO moves per turn (except White's first turn)."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Marseillais Chess

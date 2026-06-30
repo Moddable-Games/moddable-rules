@@ -1,12 +1,18 @@
 ---
-title: "Dameo"
-slug: "dameo"
+title: Dameo
+slug: dameo
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 16
-win: "Opponent has no legal move"
+win: Opponent has no legal move
 special: "Phalanx movement: lines of men slide together. Orthogonal captures only. 18 pieces per side."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Dameo

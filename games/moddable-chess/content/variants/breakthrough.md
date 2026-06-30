@@ -1,11 +1,17 @@
 ---
-title: "Breakthrough"
-slug: "breakthrough"
+title: Breakthrough
+slug: breakthrough
 board: "7×7"
 players: "2"
-parent: "moddable-chess"
-win: "Reach opposite rank"
-special: "Pawns only — first to reach the far side wins. No captures backward."
+parent: moddable-chess
+win: Reach opposite rank
+special: Pawns only — first to reach the far side wins. No captures backward.
+engine:
+  topology:
+    type: grid
+    rows: 7
+    cols: 7
+  players: [white, black]
 ---
 
 ## Breakthrough

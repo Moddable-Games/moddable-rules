@@ -1,11 +1,17 @@
 ---
-title: "Knightmate"
-slug: "knightmate"
+title: Knightmate
+slug: knightmate
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate the royal Knight"
-special: "Knight and King swap roles. The Knight is royal; Kings move as knights."
+parent: moddable-chess
+win: Checkmate the royal Knight
+special: Knight and King swap roles. The Knight is royal; Kings move as knights.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Knightmate

@@ -1,12 +1,17 @@
 ---
-title: "Sungka"
-slug: "sungka"
+title: Sungka
+slug: sungka
 board: "2×7 pits + 2 heads"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 8
-win: "Have more seeds in your head at game end"
+win: Have more seeds in your head at game end
 special: "Simultaneous start; sow only into your own head, never the opponent's."
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 7
+  players: [south, north]
 ---
 
 ## Sungka

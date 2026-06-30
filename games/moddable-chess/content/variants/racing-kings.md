@@ -1,11 +1,17 @@
 ---
-title: "Racing Kings"
-slug: "racing-kings"
+title: Racing Kings
+slug: racing-kings
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "King reaches 8th rank first"
-special: "No checks allowed. Both kings start on 1st rank. Race to the top."
+parent: moddable-chess
+win: King reaches 8th rank first
+special: No checks allowed. Both kings start on 1st rank. Race to the top.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Racing Kings

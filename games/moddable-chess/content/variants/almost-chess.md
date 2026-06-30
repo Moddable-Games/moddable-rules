@@ -1,11 +1,17 @@
 ---
-title: "Almost Chess"
-slug: "almost-chess"
+title: Almost Chess
+slug: almost-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "White's Queen is replaced by a Chancellor (Rook + Knight compound)."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Almost Chess

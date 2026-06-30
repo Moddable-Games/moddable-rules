@@ -1,12 +1,17 @@
 ---
-title: "Monarch of the World"
-slug: "monarch-of-the-world"
-board: "Circular 40-space track"
+title: Monarch of the World
+slug: monarch-of-the-world
+board: Circular 40-space track
 players: "2–6"
-parent: "landlords-game"
+parent: landlords-game
 order: 5
-win: "Demonstration only — the landlord inevitably wins"
+win: Demonstration only — the landlord inevitably wins
 special: "One player gets all land, others get all other advantages and $100 each. The landlord receives no wages. Proves Magie's thesis: the land monopolist is monarch of the world."
+engine:
+  topology:
+    type: track
+    positions: 40
+  players: [player1, player2]
 ---
 
 ## Monarch of the World

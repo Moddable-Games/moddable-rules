@@ -1,11 +1,17 @@
 ---
-title: "Petty Chess"
-slug: "petty"
+title: Petty Chess
+slug: petty
 board: "5×6"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "All piece types on a compact 5×6 board. Single copies of each."
+parent: moddable-chess
+win: Checkmate
+special: All piece types on a compact 5×6 board. Single copies of each.
+engine:
+  topology:
+    type: grid
+    rows: 5
+    cols: 6
+  players: [white, black]
 ---
 
 ## Petty Chess

@@ -1,12 +1,17 @@
 ---
-title: "Seven-Shell Pachisi"
-slug: "seven-shell"
-board: "Cross-shaped cloth board"
+title: Seven-Shell Pachisi
+slug: seven-shell
+board: Cross-shaped cloth board
 players: "2–4"
-parent: "pachisi"
+parent: pachisi
 order: 3
-win: "Move all pieces home before your opponents"
-special: "Uses seven cowrie shells with named throw values. Higher potential scores than the standard six-shell form."
+win: Move all pieces home before your opponents
+special: Uses seven cowrie shells with named throw values. Higher potential scores than the standard six-shell form.
+engine:
+  topology:
+    type: track
+    positions: 68
+  players: [red, yellow, green, blue]
 ---
 
 ## Seven-Shell Pachisi

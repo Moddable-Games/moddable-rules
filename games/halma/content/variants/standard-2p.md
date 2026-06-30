@@ -1,12 +1,18 @@
 ---
-title: "Standard 2-Player Halma"
-slug: "standard-2p"
+title: Standard 2-Player Halma
+slug: standard-2p
 board: "16×16"
 players: "2"
-parent: "halma"
+parent: halma
 order: 1
 win: "Move all your pieces into the opponent's corner camp"
 special: "Pieces may step or chain-hop in any direction. No capture. Once in the opponent's camp, pieces cannot leave."
+engine:
+  topology:
+    type: grid
+    rows: 16
+    cols: 16
+  players: [player1, player2]
 ---
 
 ## Standard 2-Player Halma

@@ -1,12 +1,18 @@
 ---
-title: "Standard Xiangqi"
-slug: "standard"
+title: Standard Xiangqi
+slug: standard
 board: "9×10"
 players: "2"
-parent: "xiangqi"
+parent: xiangqi
 order: 1
 win: "Checkmate the opponent's General"
-special: "Cannon captures by jumping a screen piece. Flying General rule. Stalemate is a loss."
+special: Cannon captures by jumping a screen piece. Flying General rule. Stalemate is a loss.
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 10
+  players: [player1, player2]
 ---
 
 ## Standard Xiangqi

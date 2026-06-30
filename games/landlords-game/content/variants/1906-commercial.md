@@ -1,12 +1,17 @@
 ---
 title: "1906 Commercial Edition"
 slug: "1906-commercial"
-board: "Circular 40-space track"
+board: Circular 40-space track
 players: "2–4"
-parent: "landlords-game"
+parent: landlords-game
 order: 2
-win: "Most wealth at end of game — every Title Deed card and every house counts 100"
-special: "The first published edition. Adds houses, Chance cards, auctions, Speculation space, railroad monopoly pricing, and section rent doubling."
+win: Most wealth at end of game — every Title Deed card and every house counts 100
+special: The first published edition. Adds houses, Chance cards, auctions, Speculation space, railroad monopoly pricing, and section rent doubling.
+engine:
+  topology:
+    type: track
+    positions: 40
+  players: [player1, player2]
 ---
 
 ## 1906 Commercial Edition

@@ -1,12 +1,17 @@
 ---
-title: "Chouette"
-slug: "chouette"
+title: Chouette
+slug: chouette
 board: "24-point board"
 players: "3–6"
-parent: "backgammon"
+parent: backgammon
 order: 8
-win: "Accumulate the most points across multiple games as the box, or advance to become the box"
+win: Accumulate the most points across multiple games as the box, or advance to become the box
 special: "Multiplayer format: one player (the box) faces a team. The box rotates when they lose. Consultation rules vary."
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [player1, player2, player3]
 ---
 
 ## Chouette

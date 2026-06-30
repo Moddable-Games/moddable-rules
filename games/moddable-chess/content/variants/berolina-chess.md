@@ -1,11 +1,17 @@
 ---
-title: "Berolina Chess"
-slug: "berolina-chess"
+title: Berolina Chess
+slug: berolina-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Pawns move diagonally forward and capture straight forward — the inverse of normal."
+parent: moddable-chess
+win: Checkmate
+special: Pawns move diagonally forward and capture straight forward — the inverse of normal.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Berolina Chess

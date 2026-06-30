@@ -1,11 +1,17 @@
 ---
-title: "Toroidal Chess"
-slug: "toroidal-chess"
+title: Toroidal Chess
+slug: toroidal-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Board wraps in both directions (files and ranks) forming a torus. No edges exist."
+parent: moddable-chess
+win: Checkmate
+special: Board wraps in both directions (files and ranks) forming a torus. No edges exist.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Toroidal Chess

@@ -1,11 +1,17 @@
 ---
 title: "Peasants' Revolt"
-slug: "peasants-revolt"
+slug: peasants-revolt
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "White has King + 8 pawns vs Black's King + 2 Knights + 8 pawns."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Peasants' Revolt

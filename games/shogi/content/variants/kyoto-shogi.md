@@ -1,11 +1,17 @@
 ---
-title: "Kyoto Shogi"
-slug: "kyoto-shogi"
+title: Kyoto Shogi
+slug: kyoto-shogi
 board: "5×5"
 players: "2"
-parent: "shogi"
+parent: shogi
 win: "Checkmate the opponent's King"
-special: "Every piece except the King flips to its alternate face after each move"
+special: Every piece except the King flips to its alternate face after each move
+engine:
+  topology:
+    type: grid
+    rows: 5
+    cols: 5
+  players: [player1, player2]
 ---
 
 ## Kyoto Shogi

@@ -1,12 +1,17 @@
 ---
-title: "Nardi"
-slug: "nardi"
+title: Nardi
+slug: nardi
 board: "24-point board"
 players: "2"
-parent: "backgammon"
+parent: backgammon
 order: 2
-win: "Bear off all 15 pieces before your opponent"
-special: "No hitting. Both players move in the same direction. No doubling cube."
+win: Bear off all 15 pieces before your opponent
+special: No hitting. Both players move in the same direction. No doubling cube.
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [white, black]
 ---
 
 ## Nardi

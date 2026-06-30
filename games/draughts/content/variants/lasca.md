@@ -1,12 +1,18 @@
 ---
-title: "Lasca"
-slug: "lasca"
+title: Lasca
+slug: lasca
 board: "7×7"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 5
-win: "Block or bury all opponent pieces"
-special: "Column stacking. Captured pieces go underneath the captor. All 22 pieces stay in play forever."
+win: Block or bury all opponent pieces
+special: Column stacking. Captured pieces go underneath the captor. All 22 pieces stay in play forever.
+engine:
+  topology:
+    type: grid
+    rows: 7
+    cols: 7
+  players: [white, black]
 ---
 
 ## Lasca

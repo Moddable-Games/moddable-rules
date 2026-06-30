@@ -1,12 +1,18 @@
 ---
-title: "Rengo"
-slug: "rengo"
+title: Rengo
+slug: rengo
 board: "19×19"
 players: "4–6"
-parent: "go"
+parent: go
 order: 9
-win: "Most territory at game end (team)"
-special: "Team Go. Partners alternate turns. No consultation. 2v2 or 3v3."
+win: Most territory at game end (team)
+special: Team Go. Partners alternate turns. No consultation. 2v2 or 3v3.
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+  players: [player1, player2, player3, player4]
 ---
 
 ## Rengo

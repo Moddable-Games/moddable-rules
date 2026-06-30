@@ -1,12 +1,18 @@
 ---
-title: "Czech Draughts"
-slug: "czech"
+title: Czech Draughts
+slug: czech
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 13
-win: "Capture or block all opponent pieces"
-special: "King captures take priority over man captures. Mid-jump promotion. No majority rule for men."
+win: Capture or block all opponent pieces
+special: King captures take priority over man captures. Mid-jump promotion. No majority rule for men.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Czech Draughts

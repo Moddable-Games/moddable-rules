@@ -1,11 +1,17 @@
 ---
-title: "Monster Chess"
-slug: "monster-chess"
+title: Monster Chess
+slug: monster-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "White moves twice per turn but starts with only King, Rooks, and pawns."
+parent: moddable-chess
+win: Checkmate
+special: White moves twice per turn but starts with only King, Rooks, and pawns.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Monster Chess

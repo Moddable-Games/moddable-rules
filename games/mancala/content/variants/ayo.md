@@ -1,12 +1,17 @@
 ---
-title: "Ayo"
-slug: "ayo"
+title: Ayo
+slug: ayo
 board: "2×6 pits"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 7
-win: "Capture more than 24 seeds"
-special: "Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition."
+win: Capture more than 24 seeds
+special: Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition.
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 6
+  players: [south, north]
 ---
 
 ## Ayo

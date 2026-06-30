@@ -1,12 +1,17 @@
 ---
-title: "Acey-Deucey"
-slug: "acey-deucey"
+title: Acey-Deucey
+slug: acey-deucey
 board: "24-point board"
 players: "2"
-parent: "backgammon"
+parent: backgammon
 order: 3
-win: "Bear off all 15 pieces before your opponent"
-special: "Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time."
+win: Bear off all 15 pieces before your opponent
+special: Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time.
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [white, black]
 ---
 
 ## Acey-Deucey

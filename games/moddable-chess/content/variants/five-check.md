@@ -1,11 +1,17 @@
 ---
-title: "Five-Check"
-slug: "five-check"
+title: Five-Check
+slug: five-check
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate or deliver 5 checks"
-special: "Extended Three-Check — five checks wins instead of three."
+parent: moddable-chess
+win: Checkmate or deliver 5 checks
+special: Extended Three-Check — five checks wins instead of three.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Five-Check

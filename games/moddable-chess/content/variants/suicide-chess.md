@@ -1,11 +1,17 @@
 ---
-title: "Suicide Chess"
-slug: "suicide-chess"
+title: Suicide Chess
+slug: suicide-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Lose all pieces"
-special: "Forced captures like Giveaway, but stalemate is a draw, not a loss."
+parent: moddable-chess
+win: Lose all pieces
+special: Forced captures like Giveaway, but stalemate is a draw, not a loss.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Suicide Chess

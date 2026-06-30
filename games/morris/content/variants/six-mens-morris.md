@@ -1,12 +1,38 @@
 ---
 title: "Six Men's Morris"
-slug: "six-mens-morris"
-board: "Two concentric squares (16 intersections)"
+slug: six-mens-morris
+board: Two concentric squares (16 intersections)
 players: "2"
-parent: "morris"
+parent: morris
 order: 2
-win: "Reduce opponent to 2 pieces or block all their moves"
+win: Reduce opponent to 2 pieces or block all their moves
 special: "Two concentric squares with connecting lines. The medieval European standard form before Nine Men's Morris predominated."
+engine:
+  topology:
+    type: graph
+    nodes: [a1, a4, a7, d7, g7, g4, g1, d1, b2, b4, b6, d6, f6, f4, f2, d2]
+    edges:
+      - [a1, d1]
+      - [d1, g1]
+      - [g1, g4]
+      - [g4, g7]
+      - [g7, d7]
+      - [d7, a7]
+      - [a7, a4]
+      - [a4, a1]
+      - [b2, d2]
+      - [d2, f2]
+      - [f2, f4]
+      - [f4, f6]
+      - [f6, d6]
+      - [d6, b6]
+      - [b6, b4]
+      - [b4, b2]
+      - [d1, d2]
+      - [g4, f4]
+      - [d7, d6]
+      - [a4, b4]
+  players: [white, black]
 ---
 
 ## Six Men's Morris

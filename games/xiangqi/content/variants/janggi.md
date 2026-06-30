@@ -1,11 +1,17 @@
 ---
-title: "Janggi"
-slug: "janggi"
+title: Janggi
+slug: janggi
 board: "9×10"
 players: "2"
-parent: "xiangqi"
+parent: xiangqi
 win: "Checkmate the opponent's General"
-special: "Cannon must jump to both move and capture. No river. Bikjang draw rule. Passing always legal."
+special: Cannon must jump to both move and capture. No river. Bikjang draw rule. Passing always legal.
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 10
+  players: [player1, player2]
 ---
 
 ## Janggi (Korean Chess)

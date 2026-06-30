@@ -1,12 +1,18 @@
 ---
-title: "Ninuki-Renju"
-slug: "ninuki-renju"
+title: Ninuki-Renju
+slug: ninuki-renju
 board: "15×15"
 players: "2"
-parent: "go"
+parent: go
 order: 6
-win: "Five in an unbroken row (exactly five) or five pairs captured"
-special: "Japanese precursor to Pente. Custodial captures. Two win conditions. Active 1923-1940."
+win: Five in an unbroken row (exactly five) or five pairs captured
+special: Japanese precursor to Pente. Custodial captures. Two win conditions. Active 1923-1940.
+engine:
+  topology:
+    type: grid
+    rows: 15
+    cols: 15
+  players: [black, white]
 ---
 
 ## Ninuki-Renju

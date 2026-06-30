@@ -1,11 +1,17 @@
 ---
-title: "Legan Chess"
-slug: "legan-chess"
+title: Legan Chess
+slug: legan-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Berolina pawns (move diagonal, capture straight). King and Queen swap starting squares."
+parent: moddable-chess
+win: Checkmate
+special: Berolina pawns (move diagonal, capture straight). King and Queen swap starting squares.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Legan Chess

@@ -1,12 +1,18 @@
 ---
-title: "Ghanaian Draughts"
-slug: "ghanaian"
+title: Ghanaian Draughts
+slug: ghanaian
 board: "10×10"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 19
-win: "Capture or block all opponent pieces"
-special: "Men do not capture backwards. No majority rule. A player reduced to one piece loses."
+win: Capture or block all opponent pieces
+special: Men do not capture backwards. No majority rule. A player reduced to one piece loses.
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+  players: [white, black]
 ---
 
 ## Ghanaian Draughts

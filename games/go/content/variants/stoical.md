@@ -1,12 +1,18 @@
 ---
-title: "Stoical Go"
-slug: "stoical"
+title: Stoical Go
+slug: stoical
 board: "19×19"
 players: "2"
-parent: "go"
+parent: go
 order: 11
-win: "Most territory at game end"
-special: "Cannot capture if opponent captured last turn. Forces restraint and patience."
+win: Most territory at game end
+special: Cannot capture if opponent captured last turn. Forces restraint and patience.
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+  players: [black, white]
 ---
 
 ## Stoical Go

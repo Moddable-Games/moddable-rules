@@ -1,12 +1,18 @@
 ---
-title: "Tibetan Go"
-slug: "tibetan"
+title: Tibetan Go
+slug: tibetan
 board: "17×17"
 players: "2"
-parent: "go"
+parent: go
 order: 13
-win: "Cosmological scoring (territory + captures + bonus)"
+win: Cosmological scoring (territory + captures + bonus)
 special: "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system."
+engine:
+  topology:
+    type: grid
+    rows: 17
+    cols: 17
+  players: [black, white]
 ---
 
 ## Tibetan Go

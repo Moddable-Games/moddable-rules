@@ -1,12 +1,17 @@
 ---
-title: "Fevga"
-slug: "fevga"
+title: Fevga
+slug: fevga
 board: "24-point board"
 players: "2"
-parent: "backgammon"
+parent: backgammon
 order: 5
-win: "Bear off all 15 pieces before your opponent"
+win: Bear off all 15 pieces before your opponent
 special: "No blots allowed: a point with one of your pieces is immediately blocked to the opponent. No hitting."
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [white, black]
 ---
 
 ## Fevga

@@ -1,11 +1,17 @@
 ---
-title: "Medusa Chess"
-slug: "medusa-chess"
+title: Medusa Chess
+slug: medusa-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "After the queen moves, all enemy pieces she attacks become petrified for 2 turns."
+parent: moddable-chess
+win: Checkmate
+special: After the queen moves, all enemy pieces she attacks become petrified for 2 turns.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Medusa Chess

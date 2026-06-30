@@ -1,11 +1,17 @@
 ---
-title: "Poison Chess"
-slug: "poison-chess"
+title: Poison Chess
+slug: poison-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Capture squares become poisoned for 3 turns — non-king pieces landing there are destroyed."
+parent: moddable-chess
+win: Checkmate
+special: Capture squares become poisoned for 3 turns — non-king pieces landing there are destroyed.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Poison Chess

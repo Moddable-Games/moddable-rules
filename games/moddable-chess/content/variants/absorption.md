@@ -1,11 +1,17 @@
 ---
-title: "Absorption Chess"
-slug: "absorption"
+title: Absorption Chess
+slug: absorption
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Capturing piece permanently gains the victim's movement abilities. Absorptions stack."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Absorption Chess

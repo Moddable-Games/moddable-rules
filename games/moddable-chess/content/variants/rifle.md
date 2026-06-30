@@ -1,11 +1,17 @@
 ---
-title: "Rifle Chess"
-slug: "rifle"
+title: Rifle Chess
+slug: rifle
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Capturing pieces stay on their square — they 'shoot' the target."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Rifle Chess

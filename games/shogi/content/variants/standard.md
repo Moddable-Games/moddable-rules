@@ -1,12 +1,18 @@
 ---
-title: "Standard Shogi"
-slug: "standard"
+title: Standard Shogi
+slug: standard
 board: "9×9"
 players: "2"
-parent: "shogi"
+parent: shogi
 order: 1
 win: "Checkmate the opponent's King"
-special: "Captured pieces become your own and can be dropped back onto the board"
+special: Captured pieces become your own and can be dropped back onto the board
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  players: [player1, player2]
 ---
 
 ## Standard Shogi

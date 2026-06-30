@@ -1,11 +1,17 @@
 ---
-title: "Orda Chess"
-slug: "orda-chess"
+title: Orda Chess
+slug: orda-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "Asymmetric: White plays standard. Black commands the Horde — divergent movers that move one way and capture another."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Orda Chess

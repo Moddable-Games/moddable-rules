@@ -1,12 +1,18 @@
 ---
-title: "Standard 4-Player Halma"
-slug: "standard-4p"
+title: Standard 4-Player Halma
+slug: standard-4p
 board: "16×16"
 players: "4"
-parent: "halma"
+parent: halma
 order: 2
-win: "Move all your pieces into the diagonally opposite corner camp"
-special: "Four players with 13 pieces each. Optional 2v2 team play with diagonal partners."
+win: Move all your pieces into the diagonally opposite corner camp
+special: Four players with 13 pieces each. Optional 2v2 team play with diagonal partners.
+engine:
+  topology:
+    type: grid
+    rows: 16
+    cols: 16
+  players: [player1, player2, player3, player4]
 ---
 
 ## Standard 4-Player Halma

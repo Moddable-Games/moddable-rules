@@ -1,11 +1,17 @@
 ---
-title: "Atomic Chess"
-slug: "atomic"
+title: Atomic Chess
+slug: atomic
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Explode opponent king"
-special: "Captures cause explosions destroying all pieces on adjacent squares."
+parent: moddable-chess
+win: Explode opponent king
+special: Captures cause explosions destroying all pieces on adjacent squares.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Atomic Chess

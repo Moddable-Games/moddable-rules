@@ -1,12 +1,18 @@
 ---
-title: "Bashni"
-slug: "bashni"
+title: Bashni
+slug: bashni
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 15
-win: "Capture or block all opponent commanders"
-special: "Column stacking on 8×8. Russian movement rules. Captured pieces form towers. Predecessor to Lasca."
+win: Capture or block all opponent commanders
+special: Column stacking on 8×8. Russian movement rules. Captured pieces form towers. Predecessor to Lasca.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Bashni

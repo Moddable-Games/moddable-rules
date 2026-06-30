@@ -1,11 +1,17 @@
 ---
-title: "Dark Chess"
-slug: "dark-chess"
+title: Dark Chess
+slug: dark-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Capture opponent king"
-special: "Total fog — only see squares occupied by your own pieces."
+parent: moddable-chess
+win: Capture opponent king
+special: Total fog — only see squares occupied by your own pieces.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Dark Chess

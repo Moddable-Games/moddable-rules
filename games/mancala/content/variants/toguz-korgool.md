@@ -1,12 +1,17 @@
 ---
-title: "Toguz Korgool"
-slug: "toguz-korgool"
+title: Toguz Korgool
+slug: toguz-korgool
 board: "2×9 pits + 2 kazans"
 players: "2"
-parent: "mancala"
+parent: mancala
 order: 5
-win: "Capture 82 or more seeds (majority of 162)"
+win: Capture 82 or more seeds (majority of 162)
 special: "The tuzduk rule: landing the 3rd seed in an opponent's odd-numbered pit locks it as your permanent scoring pit."
+engine:
+  topology:
+    type: pit
+    pitsPerSide: 9
+  players: [south, north]
 ---
 
 ## Toguz Korgool

@@ -1,12 +1,17 @@
 ---
-title: "Chaupar (Standard)"
-slug: "standard"
-board: "Cross-shaped cloth board"
+title: Chaupar (Standard)
+slug: standard
+board: Cross-shaped cloth board
 players: "4"
-parent: "chaupar"
+parent: chaupar
 order: 1
-win: "Both teammates return all their pieces to the Charkoni first, after capturing at least one opponent piece"
-special: "Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups."
+win: Both teammates return all their pieces to the Charkoni first, after capturing at least one opponent piece
+special: Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups.
+engine:
+  topology:
+    type: track
+    positions: 68
+  players: [red, yellow, green, blue]
 ---
 
 ## Chaupar (Standard)

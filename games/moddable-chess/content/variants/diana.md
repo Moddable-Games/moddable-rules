@@ -1,11 +1,17 @@
 ---
-title: "Diana Chess"
-slug: "diana"
+title: Diana Chess
+slug: diana
 board: "6×6"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "6×6 board. No queens or knights — bishops and rooks only."
+engine:
+  topology:
+    type: grid
+    rows: 6
+    cols: 6
+  players: [white, black]
 ---
 
 ## Diana Chess

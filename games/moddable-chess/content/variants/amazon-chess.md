@@ -1,11 +1,17 @@
 ---
-title: "Amazon Chess"
-slug: "amazon-chess"
+title: Amazon Chess
+slug: amazon-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Queens replaced by Amazons (Queen + Knight). The most powerful piece possible."
+parent: moddable-chess
+win: Checkmate
+special: Queens replaced by Amazons (Queen + Knight). The most powerful piece possible.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Amazon Chess

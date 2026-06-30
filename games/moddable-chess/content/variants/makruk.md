@@ -1,11 +1,17 @@
 ---
-title: "Makruk"
-slug: "makruk"
+title: Makruk
+slug: makruk
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Thai chess. Pawns promote on rank 6 to Met (one-step diagonal). No castling or en passant."
+parent: moddable-chess
+win: Checkmate
+special: Thai chess. Pawns promote on rank 6 to Met (one-step diagonal). No castling or en passant.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Makruk (Thai Chess)

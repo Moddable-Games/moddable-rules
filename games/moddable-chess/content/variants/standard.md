@@ -1,12 +1,18 @@
 ---
-title: "Standard Chess"
-slug: "standard"
+title: Standard Chess
+slug: standard
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
+parent: moddable-chess
 order: 1
-win: "Checkmate"
-special: "Standard FIDE rules"
+win: Checkmate
+special: Standard FIDE rules
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Standard Chess

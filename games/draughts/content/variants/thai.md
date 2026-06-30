@@ -1,12 +1,18 @@
 ---
-title: "Thai Draughts"
-slug: "thai"
+title: Thai Draughts
+slug: thai
 board: "8×8"
 players: "2"
-parent: "draughts"
+parent: draughts
 order: 14
-win: "Capture or block all opponent pieces"
-special: "Only 8 pieces per side. Flying kings must stop immediately behind captured piece. Forward-only men."
+win: Capture or block all opponent pieces
+special: Only 8 pieces per side. Flying kings must stop immediately behind captured piece. Forward-only men.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Thai Draughts

@@ -1,11 +1,17 @@
 ---
-title: "Immunization Chess"
-slug: "immunization-chess"
+title: Immunization Chess
+slug: immunization-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "When a capture occurs, adjacent enemy pieces become immune to capture for 2 turns."
+parent: moddable-chess
+win: Checkmate
+special: When a capture occurs, adjacent enemy pieces become immune to capture for 2 turns.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Immunization Chess

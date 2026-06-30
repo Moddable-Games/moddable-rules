@@ -1,12 +1,17 @@
 ---
-title: "Prosperity"
-slug: "prosperity"
-board: "Circular 40-space track"
+title: Prosperity
+slug: prosperity
+board: Circular 40-space track
 players: "2–4"
-parent: "landlords-game"
+parent: landlords-game
 order: 4
-win: "The poorest player doubles their starting wealth while no player is bankrupt"
+win: The poorest player doubles their starting wealth while no player is bankrupt
 special: "Magie's original intent made explicit — named Prosperity in the 1932 Adgame edition. The win condition reframes every decision: richer players must lift the poorest."
+engine:
+  topology:
+    type: track
+    positions: 40
+  players: [player1, player2]
 ---
 
 ## Prosperity

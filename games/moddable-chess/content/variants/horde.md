@@ -1,11 +1,17 @@
 ---
-title: "Horde Chess"
-slug: "horde"
+title: Horde Chess
+slug: horde
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "White checkmates or Black destroys horde"
-special: "White has a full army. Black has 36 pawns. Asymmetric survival."
+parent: moddable-chess
+win: White checkmates or Black destroys horde
+special: White has a full army. Black has 36 pawns. Asymmetric survival.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Horde Chess

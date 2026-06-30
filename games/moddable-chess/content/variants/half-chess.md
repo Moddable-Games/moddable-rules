@@ -1,11 +1,17 @@
 ---
-title: "Half Chess"
-slug: "half-chess"
+title: Half Chess
+slug: half-chess
 board: "8×4"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
+parent: moddable-chess
+win: Checkmate
 special: "4-rank board, armies start adjacent. Immediate contact."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 4
+  players: [white, black]
 ---
 
 ## Half Chess

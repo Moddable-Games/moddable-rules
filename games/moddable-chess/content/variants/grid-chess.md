@@ -1,11 +1,17 @@
 ---
-title: "Grid Chess"
-slug: "grid-chess"
+title: Grid Chess
+slug: grid-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Moves must cross at least one 2×2 grid line."
+parent: moddable-chess
+win: Checkmate
+special: Moves must cross at least one 2×2 grid line.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Grid Chess

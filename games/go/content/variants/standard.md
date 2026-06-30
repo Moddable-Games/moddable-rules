@@ -1,12 +1,18 @@
 ---
-title: "Standard Go (19×19)"
-slug: "standard"
+title: Standard Go (19×19)
+slug: standard
 board: "19×19"
 players: "2"
-parent: "go"
+parent: go
 order: 1
-win: "Most territory at game end"
-special: "Full tournament game. 361 intersections. Komi 6.5. Area or territory scoring."
+win: Most territory at game end
+special: Full tournament game. 361 intersections. Komi 6.5. Area or territory scoring.
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+  players: [black, white]
 ---
 
 ## Standard Go (19×19)

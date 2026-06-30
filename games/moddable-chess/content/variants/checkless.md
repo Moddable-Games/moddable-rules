@@ -1,11 +1,17 @@
 ---
-title: "Checkless Chess"
-slug: "checkless"
+title: Checkless Chess
+slug: checkless
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Cannot give check unless it is checkmate. King becomes aggressive."
+parent: moddable-chess
+win: Checkmate
+special: Cannot give check unless it is checkmate. King becomes aggressive.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Checkless Chess

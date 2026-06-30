@@ -1,11 +1,17 @@
 ---
-title: "Benedict Chess"
-slug: "benedict"
+title: Benedict Chess
+slug: benedict
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Convert opponent king"
-special: "No captures. Attacked enemies convert to your colour instead."
+parent: moddable-chess
+win: Convert opponent king
+special: No captures. Attacked enemies convert to your colour instead.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Benedict Chess

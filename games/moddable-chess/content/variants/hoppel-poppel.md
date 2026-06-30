@@ -1,11 +1,17 @@
 ---
-title: "Hoppel-Poppel"
-slug: "hoppel-poppel"
+title: Hoppel-Poppel
+slug: hoppel-poppel
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Knights capture like bishops (sliding diagonal); bishops capture like knights (L-jump)."
+parent: moddable-chess
+win: Checkmate
+special: Knights capture like bishops (sliding diagonal); bishops capture like knights (L-jump).
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Hoppel-Poppel

@@ -1,12 +1,17 @@
 ---
-title: "Standard Backgammon"
-slug: "standard"
+title: Standard Backgammon
+slug: standard
 board: "24-point board"
 players: "2"
-parent: "backgammon"
+parent: backgammon
 order: 1
-win: "Bear off all 15 pieces before your opponent"
-special: "Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar."
+win: Bear off all 15 pieces before your opponent
+special: Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar.
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [white, black]
 ---
 
 ## Standard Backgammon

@@ -1,12 +1,17 @@
 ---
-title: "Hypergammon"
-slug: "hypergammon"
+title: Hypergammon
+slug: hypergammon
 board: "24-point board"
 players: "2"
-parent: "backgammon"
+parent: backgammon
 order: 6
-win: "Bear off all 3 pieces before your opponent"
+win: Bear off all 3 pieces before your opponent
 special: "3 pieces per side placed on the last three points. Games last 10–15 minutes. Fully solved by computer."
+engine:
+  topology:
+    type: track
+    positions: 24
+  players: [white, black]
 ---
 
 ## Hypergammon

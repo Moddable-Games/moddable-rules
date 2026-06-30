@@ -1,12 +1,18 @@
 ---
-title: "Sunjang Baduk"
-slug: "sunjang"
+title: Sunjang Baduk
+slug: sunjang
 board: "19×19"
 players: "2"
-parent: "go"
+parent: go
 order: 12
-win: "Most territory at game end"
-special: "Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi."
+win: Most territory at game end
+special: Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi.
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+  players: [black, white]
 ---
 
 ## Sunjang Baduk

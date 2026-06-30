@@ -1,12 +1,17 @@
 ---
-title: "Pachisi (Standard)"
-slug: "standard"
-board: "Cross-shaped cloth board"
+title: Pachisi (Standard)
+slug: standard
+board: Cross-shaped cloth board
 players: "4"
-parent: "pachisi"
+parent: pachisi
 order: 1
-win: "Move all four pieces from the Charkoni, around the board, and back home first"
-special: "Cowrie shell randomisation. Grace rolls on 0, 1, or 6 mouths up."
+win: Move all four pieces from the Charkoni, around the board, and back home first
+special: Cowrie shell randomisation. Grace rolls on 0, 1, or 6 mouths up.
+engine:
+  topology:
+    type: track
+    positions: 68
+  players: [red, yellow, green, blue]
 ---
 
 ## Pachisi (Standard)

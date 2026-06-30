@@ -1,11 +1,17 @@
 ---
-title: "Displacement Chess"
-slug: "displacement-chess"
+title: Displacement Chess
+slug: displacement-chess
 board: "8×8"
 players: "2"
-parent: "moddable-chess"
-win: "Checkmate"
-special: "Pieces can swap positions with adjacent friendly pieces as an alternative move."
+parent: moddable-chess
+win: Checkmate
+special: Pieces can swap positions with adjacent friendly pieces as an alternative move.
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, black]
 ---
 
 ## Displacement Chess
