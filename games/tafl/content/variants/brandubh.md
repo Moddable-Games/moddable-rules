@@ -5,7 +5,7 @@ variant_of: "tafl"
 published: false
 ---
 
-{{svg:board-brandubh.svg "Brandubh starting position — 7×7 board. Throne at d4, corner goal squares marked (dark green). King (white), 4 defenders (amber), 8 attackers (red)."}}
+{{svg:board-brandubh.svg "Brandubh — starting position"}}
 
 ## Overview
 

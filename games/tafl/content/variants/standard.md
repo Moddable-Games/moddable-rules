@@ -6,7 +6,7 @@ order: 1
 published: false
 ---
 
-{{svg:board.svg "Tablut starting position — 9×9 board. Throne at e5. King (white), 8 defenders (amber), 16 attackers (red)."}}
+{{svg:board.svg "Tablut — starting position"}}
 
 ## Overview
 

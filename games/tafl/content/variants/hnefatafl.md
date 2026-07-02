@@ -5,7 +5,7 @@ variant_of: "tafl"
 published: false
 ---
 
-{{svg:board-hnefatafl.svg "Hnefatafl starting position — 11×11 board. Throne at f6, corner goal squares marked. King (white), 12 defenders (amber), 24 attackers (red)."}}
+{{svg:board-hnefatafl.svg "Hnefatafl — starting position"}}
 
 ## Overview
 

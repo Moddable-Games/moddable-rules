@@ -5,7 +5,7 @@ variant_of: "tafl"
 published: false
 ---
 
-{{svg:board-tawlbwrdd.svg "Tawlbwrdd starting position — 11×11 board. Throne at f6. King (white), 12 defenders (amber), 24 attackers (red). Amber border: all edge squares are the King's win zone."}}
+{{svg:board-tawlbwrdd.svg "Tawlbwrdd — starting position"}}
 
 ## Overview
 
