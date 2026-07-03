@@ -203,6 +203,6 @@ A player may also move their Shah into their own citadel square; the Shah cannot
 
 ## Attribution
 
-Tamerlane Chess. Origin: Central Asia, 14th century, attributed to Timur (Tamerlane). Rules documented in medieval manuscripts, now in the public domain. Sources: Murray, H.J.R. — A History of Chess (1913), pp. 344–345; Maastricht University and the Ludii Project — Shatranj al-Kabir.lud (Apache 2.0, citing Murray 1913); Wikipedia — Tamerlane Chess (CC-BY-SA).
+Tamerlane Chess. Origin: Central Asia, 14th century, attributed to Timur (Tamerlane). Rules documented in medieval manuscripts, now in the public domain. Sources: Murray, H.J.R., A History of Chess (1913), pp. 344–345; Maastricht University and the Ludii Project, Shatranj al-Kabir.lud (Apache 2.0, citing Murray 1913); Wikipedia, Tamerlane Chess (CC-BY-SA).
 
 </div>
