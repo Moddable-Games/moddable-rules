@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ironsworn Oracle File",
+  "description": "Schema for Ironsworn oracle table JSON files. Each file may contain one or more related tables.",
+  "type": "object",
+  "required": ["name", "game", "licence", "attribution", "tables"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for this oracle file",
+      "example": "Action Oracle"
+    },
+    "game": {
+      "type": "string",
+      "const": "ironsworn"
+    },
+    "licence": {
+      "type": "string",
+      "const": "CC BY 4.0"
+    },
+    "attribution": {
+      "type": "string",
+      "description": "Full attribution string",
+      "example": "Ironsworn System Reference Document, copyright Shawn Tomkin. Licensed under CC BY 4.0."
+    },
+    "tables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "roll_type", "entries"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "URL-safe identifier for this table",
+            "example": "action"
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name for this table",
+            "example": "Action"
+          },
+          "roll_type": {
+            "type": "string",
+            "enum": ["d6", "d10", "d100"],
+            "description": "Die type to roll"
+          },
+          "usage_note": {
+            "type": "string",
+            "description": "Optional note on when or how to use this table"
+          },
+          "entries": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["min", "max", "result"],
+              "properties": {
+                "min": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "max": {
+                  "type": "integer"
+                },
+                "result": {
+                  "type": "string",
+                  "description": "The oracle result text"
+                },
+                "suggestions": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "Optional elaboration prompts for this result"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

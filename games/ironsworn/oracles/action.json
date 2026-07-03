@@ -1,0 +1,27 @@
+{
+  "name": "Action Oracle",
+  "game": "ironsworn",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn System Reference Document, copyright Shawn Tomkin. Licensed under CC BY 4.0.",
+  "tables": [
+    {
+      "id": "action",
+      "name": "Action",
+      "roll_type": "d100",
+      "usage_note": "Roll when you need a verb or action to inspire the next narrative beat. Combine with the Theme oracle for richer results.",
+      "entries": [
+        { "min": 1, "max": 1, "result": "Advance" },
+        { "min": 2, "max": 2, "result": "Attack" },
+        { "min": 3, "max": 3, "result": "Avoid" },
+        { "min": 4, "max": 4, "result": "Await" },
+        { "min": 5, "max": 5, "result": "Begin" },
+        { "min": 6, "max": 6, "result": "Betray" },
+        { "min": 7, "max": 7, "result": "Bolster" },
+        { "min": 8, "max": 8, "result": "Breach" },
+        { "min": 9, "max": 9, "result": "Burn" },
+        { "min": 10, "max": 10, "result": "Capture" },
+        { "min": 11, "max": 100, "result": "[Builder: extract remaining 90 entries from Ironsworn SRD.md, Action Oracle table, entries 11–100]" }
+      ]
+    }
+  ]
+}
