@@ -441,7 +441,48 @@ for (const slug of slugs) {
 
   if (totalGenerated > 0) {
     console.log(`  Generated ${totalGenerated} sub-page PDFs for ${slug}`);
+
+    // Generate consolidated library PDF from all sub-page PDFs
+    const allSubPdfs = [];
+    for (const subdir of subdirs) {
+      const sectionPdfDir = resolve(gameDir, 'pdf', subdir.name);
+      if (!existsSync(sectionPdfDir)) continue;
+      const pdfs = readdirSync(sectionPdfDir).filter(f => f.endsWith('.pdf')).sort();
+      for (const p of pdfs) allSubPdfs.push(resolve(sectionPdfDir, p));
+    }
+    if (allSubPdfs.length > 1) {
+      const version = meta.version || '0.0.0';
+      const libraryPath = resolve(gameDir, 'pdf', `${slug}-complete-v${version}.pdf`);
+      execSync(`pdfunite ${allSubPdfs.map(p => `"${p}"`).join(' ')} "${libraryPath}"`);
+      const stablePath = resolve(gameDir, 'pdf', `${slug}-complete.pdf`);
+      copyFileSync(libraryPath, stablePath);
+      const pages = parseInt(execSync(`pdfinfo "${libraryPath}" | grep Pages | awk '{print $2}'`).toString().trim());
+      console.log(`  Generated ${slug}/pdf/${slug}-complete-v${version}.pdf (${pages} pages)`);
+    }
   }
+}
+
+// --- Consolidated library PDFs for component hubs ---
+for (const slug of slugs) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const src = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: meta } = matter(src);
+  if (meta.hub_type !== 'component') continue;
+
+  const gamePdfDir = resolve(gameDir, 'pdf/games');
+  if (!existsSync(gamePdfDir)) continue;
+
+  const gamePdfs = readdirSync(gamePdfDir).filter(f => f.endsWith('.pdf')).sort();
+  if (gamePdfs.length < 2) continue;
+
+  const version = meta.version || '0.0.0';
+  const allPaths = gamePdfs.map(f => resolve(gamePdfDir, f));
+  const libraryPath = resolve(gameDir, 'pdf', `${slug}-complete-v${version}.pdf`);
+  execSync(`pdfunite ${allPaths.map(p => `"${p}"`).join(' ')} "${libraryPath}"`);
+  const stablePath = resolve(gameDir, 'pdf', `${slug}-complete.pdf`);
+  copyFileSync(libraryPath, stablePath);
+  const pages = parseInt(execSync(`pdfinfo "${libraryPath}" | grep Pages | awk '{print $2}'`).toString().trim());
+  console.log(`  Generated ${slug}/pdf/${slug}-complete-v${version}.pdf (${pages} pages)`);
 }
 
 await browser.close();
