@@ -88,3 +88,11 @@ The Systems Reference Document 5.1 (SRD 5.1) contains the open core rules for D&
 - [M–O](magic-items/m-o/) · [P–R](magic-items/p-r/) · [S–U](magic-items/s-u/) · [V–Z](magic-items/v-z/)
 
 </div>
+
+<div class="section">
+
+### Machine-Readable Data
+
+Structured JSON for all SRD entities, sourced from `5e-bits/5e-database` (CC BY 4.0). Nine files covering ability scores, classes, conditions, equipment, features, magic items, monsters, races, and spells.
+
+</div>
