@@ -1,5 +1,5 @@
 ---
-title: "Tafl Family"
+title: "Tafl"
 version: "1.0.0"
 slug: "tafl"
 players: "2"
