@@ -65,7 +65,7 @@ body{background:var(--bg-page-outer);font-family:var(--serif);color:var(--text-p
 .cover-pub{margin-top:36px;font-family:var(--mono);font-size:13px;color:rgba(255,255,255,.45);letter-spacing:.04em;}
 
 /* Content area */
-.content{padding:var(--space-xl) var(--space-xl) 0;}
+.content{padding:var(--space-xl) var(--space-xl) var(--space-xl);}
 
 /* Sections */
 .section{padding:var(--space-lg) 0 8px;}
