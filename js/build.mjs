@@ -551,19 +551,25 @@ function buildLanding() {
     return `games/${slug}/logos/${logo}`;
   }
 
-  // Count total variants across all games
+  // Count total variants and component games across all games
   let totalVariants = 0;
   for (const slug of allSlugs) {
     const varDir = resolve(GAMES_DIR, slug, 'content/variants');
     if (existsSync(varDir)) {
       totalVariants += readdirSync(varDir).filter(f => f.endsWith('.md')).length;
     }
+    const compDir = resolve(GAMES_DIR, slug, 'content/games');
+    if (existsSync(compDir)) {
+      totalVariants += readdirSync(compDir, { withFileTypes: true })
+        .filter(d => d.isDirectory()).length;
+    }
   }
 
   const cards = visible.map(g => {
     const logo = logoPath(g.slug);
     const logoImg = logo ? `<img class="card-logo" src="${logo}" alt="">` : '';
-    const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>` : '';
+    const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>`
+      : g.type === 'component' ? `<span class="card-base">Component Hub</span>` : '';
     const badge = statusLabels[g.status] || g.status || '';
     const badgeClass = statusClasses[g.status] || 'badge--dev';
     const title = g.title ? g.title.replace(/\s*[—–-]\s*Official Rulebook$/i, '') : g.slug;
@@ -682,6 +688,102 @@ ${cards}
 
   writeFileSync(resolve(ROOT, 'index.html'), html);
   console.log('  Built index.html (landing page)');
+}
+
+// --- Build component hub game sub-pages (content/games/{game}/) ---
+function buildComponentGames(slug) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const gamesDir = resolve(gameDir, 'content/games');
+  if (!existsSync(gamesDir)) return;
+
+  const parentSrc = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: parentMeta } = matter(parentSrc);
+  if (parentMeta.hub_type !== 'component') return;
+
+  const variantTemplatePath = resolve(gameDir, 'templates/variant-shell.html');
+  const fallbackTemplatePath = resolve(SHARED_DIR, 'templates/variant-shell.html');
+  const templatePath = existsSync(variantTemplatePath) ? variantTemplatePath : fallbackTemplatePath;
+  const template = readFileSync(templatePath, 'utf8');
+
+  const md = createMarkdownRenderer();
+
+  const gameDirs = readdirSync(gamesDir, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name);
+
+  const games = [];
+  for (const gameSlug of gameDirs) {
+    const standardPath = resolve(gamesDir, gameSlug, 'standard.md');
+    if (!existsSync(standardPath)) continue;
+    const src = readFileSync(standardPath, 'utf8');
+    const { data: meta, content } = matter(src);
+    games.push({ meta, content, slug: meta.slug || gameSlug });
+  }
+
+  games.sort((a, b) => {
+    const ao = a.meta.order ?? Infinity;
+    const bo = b.meta.order ?? Infinity;
+    if (ao !== bo) return ao - bo;
+    return (a.meta.title || a.slug).localeCompare(b.meta.title || b.slug);
+  });
+
+  for (let i = 0; i < games.length; i++) {
+    const { meta, content, slug: gameSlug } = games[i];
+
+    const withSvgs = content.replace(
+      /\{\{svg:([^\s"]+)\s*"([^"]*)"\}\}/g,
+      (_, file, caption) => {
+        const svgPath = resolve(gameDir, 'diagrams/svg', file);
+        if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
+        const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
+        return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
+      }
+    );
+
+    let rendered = md.render(withSvgs);
+    rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
+    rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
+                       .replace(/<\/table>/g, '</table></div>');
+
+    const prev = games[i - 1];
+    const next = games[i + 1];
+    const prevLink = prev
+      ? `<a href="../${prev.slug}/" class="variant-pager-prev">← ${prev.meta.title}</a>`
+      : '<span class="variant-pager-spacer"></span>';
+    const nextLink = next
+      ? `<a href="../${next.slug}/" class="variant-pager-next">${next.meta.title} →</a>`
+      : '<span class="variant-pager-spacer"></span>';
+
+    let output = template.replace('{{CONTENT}}', rendered);
+    output = output.replace(/\{\{variant_title\}\}/g, meta.title || gameSlug);
+    output = output.replace(/\{\{variant_slug\}\}/g, gameSlug);
+    output = output.replace(/\{\{variant_board\}\}/g, meta.board || '');
+    output = output.replace(/\{\{variant_players\}\}/g, meta.players || '');
+    output = output.replace(/\{\{variant_order\}\}/g, String(i + 1));
+    output = output.replace(/\{\{variant_total\}\}/g, String(games.length));
+    const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
+    output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
+    output = output.replace(/\{\{project_version\}\}/g, projVer);
+    output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{slug\}\}/g, slug);
+    output = output.replace('{{PREV_LINK}}', prevLink);
+    output = output.replace('{{NEXT_LINK}}', nextLink);
+
+    if (parentMeta.theme) {
+      const surface = parentMeta.theme.surface || THEME_DEFAULTS.surface;
+      output = output.replace('<html lang="en">', `<html lang="en" data-surface="${surface}">`);
+      output = output.replace(
+        /href="[^"]*theme\.css([^"]*)"/g,
+        `href="../../theme.css$1"`
+      );
+    }
+
+    const outDir = resolve(DIST_DIR, slug, 'games', gameSlug);
+    mkdirSync(outDir, { recursive: true });
+    writeFileSync(resolve(outDir, 'index.html'), output);
+  }
+
+  console.log(`  Built ${games.length} game pages for component hub ${slug}`);
 }
 
 // --- Build search index for cross-site API ---
@@ -851,6 +953,7 @@ console.log(`Building ${gameSlugs.length} game(s): ${gameSlugs.join(', ')}`);
 for (const slug of gameSlugs) {
   buildGame(slug);
   buildVariants(slug);
+  buildComponentGames(slug);
 }
 
 buildLanding();

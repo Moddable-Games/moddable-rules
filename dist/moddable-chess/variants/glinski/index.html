@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glinski's Hexagonal Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Glinski's Hexagonal Chess.">
+<meta property="og:title" content="Glinski's Hexagonal Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Glinski's Hexagonal Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/glinski.png?v=0.4.5">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/glinski/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Glinski's Hexagonal Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Glinski's Hexagonal Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/glinski.png?v=0.4.5">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.5">
+<link rel="stylesheet" href="../../theme.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.5">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/glinski.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/glinski.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Glinski's Hexagonal Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 39 of 85</span>
+    <h1 class="variant-cover-title">Glinski's Hexagonal Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">hex radius 5</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Glinski’s Hexagonal Chess</h2>
+<p>Created by Wladyslaw Glinski in 1936, this is the most popular hexagonal chess variant. Played on a 91-cell hexagonal board (radius 5 in axial coordinates), it adapts all standard chess pieces to hex geometry.</p>
+<h3>Board</h3>
+<p>A regular hexagon composed of 91 hexagonal cells arranged in concentric rings. Cells come in three colours (light, medium, dark) following the hex-alternation pattern — each bishop is bound to one colour.</p>
+<h3>Setup</h3>
+<p><strong>White pieces (starting from the bottom):</strong></p>
+<ul class="rules">
+<li>King on f1</li>
+<li>Queen on e1</li>
+<li>Bishops on d1, f2, g2 (one per colour)</li>
+<li>Knights on c1, g1</li>
+<li>Rooks on b1, h1</li>
+<li>Pawns on b2, c2, d2, e2, f3, g3, h3, i2, j2 (9 pawns)</li>
+</ul>
+<p><strong>Black pieces (mirrored at the top):</strong></p>
+<ul class="rules">
+<li>King on f11</li>
+<li>Queen on g11</li>
+<li>Bishops on h11, f10, e10 (one per colour)</li>
+<li>Knights on i11, e11</li>
+<li>Rooks on j11, d11</li>
+<li>Pawns on j10, i10, h10, g10, f9, e9, d9, c10, b10 (9 pawns)</li>
+</ul>
+<h3>Pieces</h3>
+<p><strong>Rook</strong> — slides along any of 6 orthogonal hex edges (the 6 directions adjacent cells touch). Equivalent to a rook on a square board but with 6 directions instead of 4.</p>
+<p><strong>Bishop</strong> — slides along any of 6 diagonal hex directions (vertex-to-vertex, skipping the adjacent cell). Colour-bound — never leaves its starting cell colour.</p>
+<p><strong>Queen</strong> — combines rook and bishop movement (all 12 hex directions).</p>
+<p><strong>King</strong> — moves one step in any of the 12 directions (6 edges + 6 vertices).</p>
+<p><strong>Knight</strong> — leaps to any cell exactly 2 orthogonal steps and 1 turn away. From a centre cell, a knight threatens 12 cells (compared to 8 on a square board). Offsets in axial coordinates: (2,-1), (1,-2), (-1,-1), (-2,1), (-1,2), (1,1) and their reflections.</p>
+<p><strong>Pawn</strong> — advances toward the opponent’s edge of the board. Can move one hex forward (toward far edge) or capture one hex diagonally-forward. No double-step and no en passant in Glinski’s original rules. Promotion occurs when a pawn reaches any cell on the far edge of the board.</p>
+<h3>Rules</h3>
+<ul class="rules">
+<li>Standard chess rules apply for check, checkmate, and stalemate</li>
+<li>No castling (king starts centrally, no rook-corner relationship)</li>
+<li>No en passant (no double pawn step)</li>
+<li>Pawns promote on the far edge (the opposite rim of the hexagon from their starting position)</li>
+<li>Three bishops per side — one for each hex cell colour</li>
+<li>Stalemate is a draw</li>
+</ul>
+<h3>Key Differences from Square Chess</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Concept</th>
+<th>Square board</th>
+<th>Hex board</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rook directions</td>
+<td>4 (orthogonal)</td>
+<td>6 (hex edges)</td>
+</tr>
+<tr>
+<td>Bishop directions</td>
+<td>4 (diagonal)</td>
+<td>6 (hex vertices)</td>
+</tr>
+<tr>
+<td>Knight targets</td>
+<td>8</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Bishop colours</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Pawns per side</td>
+<td>8</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Board cells</td>
+<td>64</td>
+<td>91</td>
+</tr>
+</tbody>
+</table></div>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../giveaway/" class="variant-pager-prev">← Giveaway</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../grand/" class="variant-pager-next">Grand Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess v0.4.5 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>

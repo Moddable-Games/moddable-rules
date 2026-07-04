@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Standard Wildebeest Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Standard Wildebeest Chess.">
+<meta property="og:title" content="Standard Wildebeest Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Standard Wildebeest Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/wildebeest.png?v=0.4.5">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/wildebeest/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Standard Wildebeest Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Standard Wildebeest Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/wildebeest.png?v=0.4.5">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.5">
+<link rel="stylesheet" href="../../theme.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.5">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/wildebeest.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/wildebeest.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Standard Wildebeest Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 1 of 85</span>
+    <h1 class="variant-cover-title">Standard Wildebeest Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">11x10</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Standard Wildebeest Chess</h2>
+<p>Played on an <strong>11×10 board</strong> (files a–k, ranks 1–10). Each side has 11 pawns and an expanded back rank including two new fairy pieces.</p>
+<h3>Starting Position</h3>
+<pre><code>r n c w q k w c n r  (rank 10 — Black)
+p p p p p p p p p p p  (rank 9)
+. . . . . . . . . . .  (ranks 8–3)
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+. . . . . . . . . . .
+P P P P P P P P P P P  (rank 2)
+R N C W Q K W C N R  (rank 1 — White)
+</code></pre>
+<p><strong>Back rank (a–k):</strong> Rook, Knight, Camel, Wildebeest, Queen, King, Wildebeest, Camel, Knight, Rook (11 squares, no bishop slot — Camels fill that role).</p>
+<h3>Pieces</h3>
+<h4>Camel ©</h4>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Property</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leap</td>
+<td>(3,1) — 3 squares in one direction, 1 perpendicular</td>
+</tr>
+<tr>
+<td>Jumping</td>
+<td>Yes — cannot be blocked</td>
+</tr>
+<tr>
+<td>Colour-binding</td>
+<td>Yes — always lands on same colour</td>
+</tr>
+<tr>
+<td>Capture</td>
+<td>Lands on target square</td>
+</tr>
+</tbody>
+</table></div>
+<p>The Camel is the (3,1) analogue of the Knight (2,1). With two Camels per side (one on each colour binding), both colours of Camel square are covered.</p>
+<h4>Wildebeest (W)</h4>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Property</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Move</td>
+<td>Any Knight leap (2,1) OR any Camel leap (3,1)</td>
+</tr>
+<tr>
+<td>Jumping</td>
+<td>Yes — leaps</td>
+</tr>
+<tr>
+<td>Colour-binding</td>
+<td>No — alternates colours on knight moves, maintains colour on camel moves</td>
+</tr>
+<tr>
+<td>Capture</td>
+<td>Lands on target square</td>
+</tr>
+</tbody>
+</table></div>
+<p>The Wildebeest is roughly equivalent in value to a rook.</p>
+<h3>Standard Pieces</h3>
+<p>Rooks, Knights, Queen, and King move and capture as in standard chess.</p>
+<h3>Pawns</h3>
+<ul class="rules">
+<li><strong>11 pawns per side</strong> (one per file, a–k)</li>
+<li>May advance one or two squares from starting position (rank 2 / rank 9)</li>
+<li>Capture diagonally forward</li>
+<li><strong>En passant</strong> applies</li>
+<li><strong>Promotion</strong> on ranks 10 (Black) / 1 (White) to: Queen, Rook, Camel, Knight, or Wildebeest</li>
+</ul>
+<h3>Castling</h3>
+<p>Castling is <strong>not available</strong> in the standard Wildebeest Chess setup (the King is not adjacent to a corner Rook in the same way; no castling rule has been defined by Schmittberger for this layout).</p>
+<h3>Win Condition</h3>
+<p>Checkmate the opponent’s King. Stalemate = draw.</p>
+<h3>Engine Notes</h3>
+<p>Implemented in: Jocly (open source, JavaScript), zrflib (Zillions of Games), chess-programming wiki examples. FEN: standard coordinate system extended to 11 files (<code>a</code>–<code>k</code>). The board is 11 × 10; rank and file notation follows the same conventions as standard chess.</p>
+<h3>Attribution</h3>
+<p>Wildebeest Chess designed by R. Wayne Schmittberger. Published in <em>New Rules for Classic Games</em> (Wiley, 1992). Rules described as public domain by multiple open-source implementations (Jocly, zrflib). Primary sources: Wikipedia <em>(Wildebeest chess)</em>; Jocly source (<code>wildebeest.js</code>).</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../nightrider/" class="variant-pager-prev">← Standard Nightrider Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../absorption/" class="variant-pager-next">Absorption Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess v0.4.5 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+</body>
+</html>

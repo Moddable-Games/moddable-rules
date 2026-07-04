@@ -1,0 +1,126 @@
+/* Generated theme: tafl */
+/* surface:light tint:warm accent:amber texture:grain cover:solid typography:classical */
+
+/* Surface: Light — default reading surface */
+[data-surface="light"] {
+  --surface-mode: light;
+  --bg-primary: #f4f0e8;
+  --bg-dark: #1a1a2e;
+  --bg-darker: #0e0a06;
+  --bg-page-outer: #e8e4dc;
+  --text-primary: #1a1208;
+  --text-secondary: #4a3a28;
+  --heading-color: var(--accent-dark, #1a1208);
+  --divider-color: rgba(0, 0, 0, .12);
+  --border-subtle: rgba(0, 0, 0, .08);
+  --stripe-even: rgba(0, 0, 0, .035);
+  --box-bg: rgba(0, 0, 0, .04);
+  --box-border: rgba(0, 0, 0, .08);
+}
+
+/* Surface: Dark — dark reading surface */
+[data-surface="dark"] {
+  --surface-mode: dark;
+  --bg-primary: #141418;
+  --bg-dark: #0a0a0e;
+  --bg-darker: #060608;
+  --bg-page-outer: #08080a;
+  --text-primary: #f0ece4;
+  --text-secondary: #d8d0c8;
+  --heading-color: var(--accent-light, #f0ece4);
+  --divider-color: rgba(255, 255, 255, .12);
+  --border-subtle: rgba(255, 255, 255, .1);
+  --stripe-even: rgba(255, 255, 255, .05);
+  --box-bg: rgba(255, 255, 255, .06);
+  --box-border: rgba(255, 255, 255, .1);
+}
+
+/* Tint: Warm — shifts background toward cream/amber */
+:root {
+  --tint-hue: 35;
+  --tint-sat: 30%;
+}
+[data-surface="light"] {
+  --bg-primary: #f4f0e8;
+  --bg-dark: #1e1408;
+  --bg-darker: #0e0a06;
+  --bg-page-outer: #e8e0d4;
+}
+[data-surface="dark"] {
+  --bg-primary: #18140e;
+  --bg-dark: #0e0a06;
+  --bg-darker: #080602;
+  --bg-page-outer: #040200;
+}
+
+/* Accent: Amber — muted warm gold, softer than gold */
+:root {
+  --accent: #c9a84c;
+  --accent-dark: #8b6914;
+  --accent-light: #e8d5a0;
+  --accent-trans: rgba(201, 168, 76, .3);
+  --accent-on-dark: #e8d5a0;
+  --accent-on-light: #8b6914;
+}
+
+/* Texture: Grain — subtle paper noise */
+.page {
+  background-image:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 4px,
+      rgba(128, 100, 60, .022) 4px,
+      rgba(128, 100, 60, .022) 5px
+    ),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.032'/%3E%3C/svg%3E");
+}
+
+[data-surface="dark"] .page {
+  background-image:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 4px,
+      rgba(200, 180, 140, .015) 4px,
+      rgba(200, 180, 140, .015) 5px
+    ),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.025'/%3E%3C/svg%3E");
+}
+
+/* Cover: Solid — flat dark panel with accent border */
+.cover {
+  background: var(--accent-dark, #1a1a2e);
+}
+
+/* Typography: Classical — traditional serif-led reading experience */
+:root {
+  --serif: 'Crimson Pro', Georgia, serif;
+  --sans: 'Oswald', sans-serif;
+  --mono: 'Special Elite', serif;
+  --fs-body: 18px;
+  --fs-body-sm: 16px;
+  --lh-body: 1.75;
+}
+
+
+/* Print: force authored surface (light) */
+@media print {
+/* Surface: Light — default reading surface */
+:root {
+  --surface-mode: light;
+  --bg-primary: #f4f0e8;
+  --bg-dark: #1a1a2e;
+  --bg-darker: #0e0a06;
+  --bg-page-outer: #e8e4dc;
+  --text-primary: #1a1208;
+  --text-secondary: #4a3a28;
+  --heading-color: var(--accent-dark, #1a1208);
+  --divider-color: rgba(0, 0, 0, .12);
+  --border-subtle: rgba(0, 0, 0, .08);
+  --stripe-even: rgba(0, 0, 0, .035);
+  --box-bg: rgba(0, 0, 0, .04);
+  --box-border: rgba(0, 0, 0, .08);
+}
+
+}
