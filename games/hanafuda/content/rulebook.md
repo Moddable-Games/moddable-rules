@@ -1,16 +1,16 @@
 ---
-title: "Hanafuda"
+title: "Hanafuda (48-Card Flower Deck) — Component Hub"
 version: "0.1.0"
 slug: "hanafuda"
 players: "2–4"
 duration: "15–60 min"
 age: "10+"
 tagline: "Japanese flower cards: match the months, score the patterns"
-type: "classic"
-status: "alpha"
-updated: "2026-07-03"
+type: "component"
+status: "live"
+updated: "2026-07-04"
 published: true
-variants: true
+hub_type: component
 theme:
   surface: light
   tint: warm
@@ -21,20 +21,18 @@ theme:
   section-divider: "♥"
 ---
 
-<div class="section variant-hub">
+<div class="section">
 
 ## Hanafuda
 
-A Japanese playing card game using a deck of 48 cards divided into 12 suits, one for each month of the year. Each suit depicts a seasonal flower or plant. Players match cards by suit and collect them to score points through named patterns called yaku.
-
-The deck is also the foundation for Oicho-Kabu, a betting game using the cards' month values rather than their imagery.
+A Japanese 48-card deck divided into 12 suits, one for each month of the year. Each suit depicts a seasonal flower or plant. Multiple completely different games are played with this deck.
 
 ### The 48-Card Deck
 
-The deck has 12 suits of 4 cards each. Within each suit, cards are ranked by type: Bright → Animal → Ribbon → Plain.
+12 suits of 4 cards each. Within each suit, cards are ranked by type: Bright, Animal, Ribbon, Plain.
 
 | Month | Suit (Flower) | Bright | Animal | Ribbon | Plains |
-|-------|--------------|--------|--------|--------|--------|
+|---|---|---|---|---|---|
 | January | Pine | Crane + Sun | — | Red Poetry | 2 |
 | February | Plum Blossom | — | Bush Warbler | Red Poetry | 2 |
 | March | Cherry Blossom | Cherry Curtain | — | Red Poetry | 2 |
@@ -51,21 +49,31 @@ The deck has 12 suits of 4 cards each. Within each suit, cards are ranked by typ
 **Totals:** 5 Brights, 9 Animals, 10 Ribbons, 24 Plains = 48 cards.
 
 **Ribbon types:**
-- **Red Poetry (Akatan):** Pine, Plum, Cherry — marked with *shi-ku-ku* calligraphy
+- **Red Poetry (Akatan):** Pine, Plum, Cherry — marked with calligraphy
 - **Plain Red:** Wisteria, Iris, Bush Clover
-- **Blue (Aotan):** Peony, Chrysanthemum, Maple — marked with *ki-ri-su* calligraphy
+- **Blue (Aotan):** Peony, Chrysanthemum, Maple
 - **Lightning (special):** Willow (November)
-
-**Card identifier system:** Each card is identified as `{Month}-{Type}`, e.g. `Jan-Bright`, `Jun-Animal`, `Sep-Animal` (the Sake Cup), `Nov-Bright` (the Rain Man). Plains are numbered: `Aug-Plain-1`, `Aug-Plain-2`.
-
-<div class="variant-grid">
-
-- [Koi-Koi](variants/koi-koi/) — The most popular two-player game. Complete a yaku, then choose to continue or declare your win.
-- [Hana-Awase](variants/hana-awase/) — The base matching game. Collect cards, highest value wins.
-- [Oicho-Kabu](variants/oicho-kabu/) — Betting game using the cards’ month values. Closest to 9 wins.
 
 </div>
 
-**Not in scope:** Go-Stop (Hwatu) — the Korean variant played with Hwatu cards uses significantly different yaku and multi-winner mechanics. Separate hub required.
+<div class="section">
+
+## Games
+
+- [Koi-Koi](games/koi-koi/) — Two-player matching game. Complete a yaku (scoring pattern), then choose: stop and score, or call "koi-koi" to continue for higher stakes.
+- [Hana-Awase](games/hana-awase/) — The base matching game. Collect cards by suit, highest point value wins.
+- [Oicho-Kabu](games/oicho-kabu/) — Betting game using month values (mod 10). Closest to 9 wins. Origin of the word "Yakuza."
+
+</div>
+
+<div class="section">
+
+## Not in Scope
+
+Go-Stop (Hwatu) uses Korean Hwatu cards (same imagery, plastic, different yaku and multi-winner mechanics). Separate hub required.
+
+## Attribution
+
+Hanafuda. Traditional Japanese playing cards, origins in the 17th century. Public domain. Rules confirmed from Pagat.com and Wikipedia.
 
 </div>

@@ -777,19 +777,43 @@
   },
   {
     "game": "hanafuda",
-    "gameTitle": "Hanafuda",
+    "gameTitle": "Hanafuda (48-Card Flower Deck) — Component Hub",
     "section": "Hanafuda",
     "heading": "Hanafuda",
-    "content": "A Japanese playing card game using a deck of 48 cards divided into 12 suits, one for each month of the year. Each suit depicts a seasonal flower or plant. Players match cards by suit and collect them ",
+    "content": "A Japanese 48-card deck divided into 12 suits, one for each month of the year. Each suit depicts a seasonal flower or plant. Multiple completely different games are played with this deck.",
     "anchor": "hanafuda"
   },
   {
     "game": "hanafuda",
-    "gameTitle": "Hanafuda",
+    "gameTitle": "Hanafuda (48-Card Flower Deck) — Component Hub",
     "section": "Hanafuda",
     "heading": "The 48-Card Deck",
-    "content": "The deck has 12 suits of 4 cards each. Within each suit, cards are ranked by type: Bright → Animal → Ribbon → Plain. Suit Flower Animal Plains ------- -------- -------- Pine — 2 February — Red Poetry ",
+    "content": "12 suits of 4 cards each. Within each suit, cards are ranked by type: Bright, Animal, Ribbon, Plain. Suit Flower Animal Plains --- --- --- Pine — 2 February — Red Poetry Cherry Blossom — 2 April — Red",
     "anchor": "the-48-card-deck"
+  },
+  {
+    "game": "hanafuda",
+    "gameTitle": "Hanafuda (48-Card Flower Deck) — Component Hub",
+    "section": "Games",
+    "heading": "Games",
+    "content": "- Koi-Koigames/koi-koi/ — Two-player matching game. Complete a yaku scoring pattern, then choose: stop and score, or call \"koi-koi\" to continue for higher stakes. - Hana-Awasegames/hana-awase/ — The b",
+    "anchor": "games"
+  },
+  {
+    "game": "hanafuda",
+    "gameTitle": "Hanafuda (48-Card Flower Deck) — Component Hub",
+    "section": "Not in Scope",
+    "heading": "Not in Scope",
+    "content": "Go-Stop Hwatu uses Korean Hwatu cards same imagery, plastic, different yaku and multi-winner mechanics. Separate hub required.",
+    "anchor": "not-in-scope"
+  },
+  {
+    "game": "hanafuda",
+    "gameTitle": "Hanafuda (48-Card Flower Deck) — Component Hub",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "Hanafuda. Traditional Japanese playing cards, origins in the 17th century. Public domain. Rules confirmed from Pagat.com and Wikipedia.",
+    "anchor": "attribution"
   },
   {
     "game": "hex",
@@ -1161,7 +1185,7 @@
   },
   {
     "game": "mahjong",
-    "gameTitle": "Mahjong",
+    "gameTitle": "Mahjong (144-Tile Set) — Component Hub",
     "section": "Mahjong",
     "heading": "Mahjong",
     "content": "A tile game originating in China and played worldwide in many regional forms. Players draw and discard tiles from a shared wall to complete a winning hand of melds and a pair. The 136-tile core, three",
@@ -5476,236 +5500,6 @@
     "variantUrl": "dist/halma/variants/standard-4p/"
   },
   {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Hana-Awase",
-    "heading": "Hana-Awase",
-    "content": "The foundational Hanafuda card-matching game from which Koi-Koi and other variants are derived. Players match cards by suit month and collect them; the player with the highest captured value at the en",
-    "anchor": "hana-awase",
-    "variant": "hana-awase",
-    "variantUrl": "dist/hanafuda/variants/hana-awase/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Hana-Awase",
-    "heading": "Setup",
-    "content": "2 players: deal 8 cards to each player, 8 to the field, 24 as draw pile. 3 players: deal 7 cards to each player, 6 to the field, 27 as draw pile. 4 players partnership: deal 5 cards to each, 8 to the ",
-    "anchor": "setup",
-    "variant": "hana-awase",
-    "variantUrl": "dist/hanafuda/variants/hana-awase/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Hana-Awase",
-    "heading": "Turn Structure",
-    "content": "Identical to Koi-Koi without the yaku declaration step: 1. Play a card from hand to the field. If it matches a field card by suit, capture both. 2. Flip the top draw card. If it matches a field card, ",
-    "anchor": "turn-structure",
-    "variant": "hana-awase",
-    "variantUrl": "dist/hanafuda/variants/hana-awase/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Hana-Awase",
-    "heading": "Card Values",
-    "content": "Points ------ 20 Animal 5 Plain Sum all captured card values. Highest total wins the round. Scoring benchmark: the full deck totals 264 points 5×20 + 9×10 + 10×5 + 24×1. In a two-player game, each pla",
-    "anchor": "card-values",
-    "variant": "hana-awase",
-    "variantUrl": "dist/hanafuda/variants/hana-awase/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Hana-Awase",
-    "heading": "Attribution",
-    "content": "Hana-Awase ・花合わせ. Traditional Japanese card game. Rules in the public domain. Source: Pagat.com Hanafuda.",
-    "anchor": "attribution",
-    "variant": "hana-awase",
-    "variantUrl": "dist/hanafuda/variants/hana-awase/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Koi-Koi",
-    "content": "The most widely played Hanafuda game. Two players compete over 12 rounds one per month. Each round, players match cards from their hand to the table by suit, building a captured pile. When a player co",
-    "anchor": "koi-koi",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Setup",
-    "content": "Shuffle the 48-card deck. Deal: - 8 cards face-down to each player hand - 8 cards face-up to the centre field/table - Remaining 24 cards face-down as the draw pile If either player is dealt a dealt ya",
-    "anchor": "setup",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Turn Structure",
-    "content": "Players alternate. On your turn: 1. Play from hand: choose one card from your hand and place it face-up. - If it matches a field card by suit month, take both and add to your capture pile. - If two fi",
-    "anchor": "turn-structure",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Bright Yaku",
-    "content": "Cards Required --------------- All 5 Brights Any 4 Brights, excluding Rain Man Any 4 Brights, including Rain Man Any 3 Brights, excluding Rain Man",
-    "anchor": "bright-yaku",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Viewing Yaku",
-    "content": "Cards Required --------------- Full Moon Aug + Sake Cup Sep Cherry Curtain Mar + Sake Cup Sep Note: Viewing yaku may be disabled by house rules in competitive play.",
-    "anchor": "viewing-yaku",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Animal Yaku",
-    "content": "Cards Required --------------- Boar Jul + Deer Oct + Butterflies Jun Any 5 Animals",
-    "anchor": "animal-yaku",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Ribbon Yaku",
-    "content": "Cards Required --------------- All 3 Red Poetry + all 3 Blue ribbons Pine + Plum + Cherry Poetry ribbons Peony + Chrysanthemum + Maple ribbons Any 5 Ribbons",
-    "anchor": "ribbon-yaku",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Plain Yaku",
-    "content": "Cards Required --------------- Any 10 Plains The Sake Cup Sep-Animal counts as both an Animal and a Plain in some house rules.",
-    "anchor": "plain-yaku",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Dealt Yaku",
-    "content": "Declared before play begins if dealt in the initial hand: Condition ----------- Four cards of the same month dealt to one player Four pairs 8 cards, 4 matched suits dealt to one player If a dealt yaku",
-    "anchor": "dealt-yaku",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Scoring and Rounds",
-    "content": "A standard game is 12 rounds, one for each month. The player who dealt first in round 1 switches each round, or the previous round’s winner deals. If you declared Koi-Koi and won the round, your score",
-    "anchor": "scoring-and-rounds",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Koi-Koi",
-    "heading": "Attribution",
-    "content": "Koi-Koi ・こいこい. Traditional Japanese card game. Rules in the public domain. Primary source: Wikipedia Koi-Koi; secondary: Pagat.com Hanafuda.",
-    "anchor": "attribution",
-    "variant": "koi-koi",
-    "variantUrl": "dist/hanafuda/variants/koi-koi/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Oicho-Kabu",
-    "heading": "Oicho-Kabu",
-    "content": "A Japanese betting and gambling card game played with Hanafuda or dedicated Kabufuda cards. Unlike the matching games, Oicho-Kabu uses the cards’ month numbers as numeric values, not their suit imager",
-    "anchor": "oicho-kabu",
-    "variant": "oicho-kabu",
-    "variantUrl": "dist/hanafuda/variants/oicho-kabu/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Oicho-Kabu",
-    "heading": "Card Values",
-    "content": "Each card’s value is the numeric value of its month: Value ------- 1 February 3 April 5 June 7 August 9 October 11 → 0 December All four cards in a suit share the same value. October, November, and De",
-    "anchor": "card-values",
-    "variant": "oicho-kabu",
-    "variantUrl": "dist/hanafuda/variants/oicho-kabu/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Oicho-Kabu",
-    "heading": "Setup",
-    "content": "One player is the banker parent / oya. All other players are punters ko. Players place bets against the banker before cards are dealt. Shuffle all 48 cards. Deal two cards face-down to each player and",
-    "anchor": "setup",
-    "variant": "oicho-kabu",
-    "variantUrl": "dist/hanafuda/variants/oicho-kabu/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Oicho-Kabu",
-    "heading": "Play",
-    "content": "1. Players look at their two cards privately and calculate their hand value sum mod 10. 2. Each player may request a third card face-up to improve their hand, or stand. 3. The banker also has the opti",
-    "anchor": "play",
-    "variant": "oicho-kabu",
-    "variantUrl": "dist/hanafuda/variants/oicho-kabu/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Oicho-Kabu",
-    "heading": "Special Hands (Yaku)",
-    "content": "Certain hand combinations pay out at a bonus multiplier: Condition ----------- Hand = 9 two cards Hand = 8 two cards Two cards totaling 7 and 3 i.e. one 7-value + one 3-value Three cards of the same v",
-    "anchor": "special-hands-yaku",
-    "variant": "oicho-kabu",
-    "variantUrl": "dist/hanafuda/variants/oicho-kabu/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Oicho-Kabu",
-    "heading": "Settlement",
-    "content": "All players who beat the banker receive their bet back plus an equal amount from the banker. Players who tie or lose pay their bet to the banker. Special hands pay at the applicable multiplier.",
-    "anchor": "settlement",
-    "variant": "oicho-kabu",
-    "variantUrl": "dist/hanafuda/variants/oicho-kabu/"
-  },
-  {
-    "game": "hanafuda",
-    "gameTitle": "Hanafuda",
-    "section": "Oicho-Kabu",
-    "heading": "Attribution",
-    "content": "Oicho-Kabu ・おいちょかぶ. Traditional Japanese card game. Public domain. Sources: Wikipedia Oicho-Kabu; Pagat.com Hanafuda. Note: detailed payout tables and regional yaku variations require a Japan-specific",
-    "anchor": "attribution",
-    "variant": "oicho-kabu",
-    "variantUrl": "dist/hanafuda/variants/oicho-kabu/"
-  },
-  {
     "game": "hex",
     "gameTitle": "Hex",
     "section": "Y",
@@ -6064,356 +5858,6 @@
     "anchor": "attribution",
     "variant": "single-tax",
     "variantUrl": "dist/landlords-game/variants/single-tax/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Hong Kong Mahjong",
-    "content": "The most widely played Mahjong ruleset, originating in Guangdong Cantonese China. Four players compete to assemble a winning hand of melds and a pair from a shared pool of 144 tiles.",
-    "anchor": "hong-kong-mahjong",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "The Tiles",
-    "content": "Suited tiles 108: Three suits of nine values each, four copies per value. Name ------ Also called Man or Crack Also called Bam Also called Dot Honour tiles 28: Four copies of each. Tiles ------ East, ",
-    "anchor": "the-tiles",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Seating and Round Wind",
-    "content": "Seats are East, South, West, and North. East is the dealer and moves first. The round wind East, South, West, or North rotates after all four players have been dealer. The game covers at least one Eas",
-    "anchor": "seating-and-round-wind",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Dealing",
-    "content": "Shuffle all 144 tiles face down and build a wall of four sides, two tiles high and 18 tiles wide per side. East rolls dice to determine the break point. Each player draws 13 tiles clockwise from the w",
-    "anchor": "dealing",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Turn Structure",
-    "content": "On your turn: 1. Draw one tile from the wall or claim a discarded tile, see Claiming below. 2. Bonus tile: if the drawn tile is a flower or season, set it aside and draw a replacement. 3. Declare a wi",
-    "anchor": "turn-structure",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Claiming Discards",
-    "content": "After any discard, other players may claim it in priority order highest to lowest: 1. Win any player: claim the discard to complete a valid winning hand. 2. Kong any player: claim four identical tiles",
-    "anchor": "claiming-discards",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Melds",
-    "content": "Description ------------- Sequence of 3 consecutive tiles of the same suit 3 identical tiles 4 identical tiles ConcealedPongs and Kongs formed from drawn tiles, never claimed from a discard score high",
-    "anchor": "melds",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Winning Hand",
-    "content": "A standard winning hand consists of 4 melds + 1 pair = 14 tiles. Alternate winning hands: Seven Pairs 7 different pairs, and certain limit hands defined by the scoring table. To declare a win, the han",
-    "anchor": "winning-hand",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Bonus Tiles (Flowers and Seasons)",
-    "content": "Bonus tiles are set aside when drawn and are not part of the winning hand structure. They provide bonus faan: Faan ----------- 1 All four flowers 5 All eight bonus tiles",
-    "anchor": "bonus-tiles-flowers-and-seasons",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Faan Scoring",
-    "content": "Each winning hand is valued by adding up the faan from completed patterns. Common patterns: Faan --------- 1 Fully concealed hand 3 Half Flush one suit + honours 6 Mixed Terminals and Honours 5 Seven ",
-    "anchor": "faan-scoring",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Limit Hands",
-    "content": "Certain exceptional hands pay the maximum regardless of calculated faan. Examples: Thirteen Orphans, Four Concealed Pongs, All Kongs. When a limit hand is declared, each opponent pays the maximum limi",
-    "anchor": "limit-hands",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Payment",
-    "content": "Payment is in points chips or tallies. The East player dealer pays and receives double. - Win on discard: discarder pays full hand value; others pay nothing. - Win on wall: all three opponents each pa",
-    "anchor": "payment",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Hong Kong Mahjong",
-    "heading": "Attribution",
-    "content": "Hong Kong / Cantonese Mahjong. Traditional game originating in China. Rules in the public domain. Primary source: Wikipedia Mahjong, Hong Kong ruleset section.",
-    "anchor": "attribution",
-    "variant": "hong-kong",
-    "variantUrl": "dist/mahjong/variants/hong-kong/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Riichi Mahjong",
-    "content": "The Japanese national form of Mahjong. Played with 136 tiles no flower or season bonus tiles. Introduces the Riichi declaration, the Furiten rule, yaku requirements, and a precise han-plus-fu scoring ",
-    "anchor": "riichi-mahjong",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Key Differences from Hong Kong",
-    "content": "Hong Kong ----------- 144 with flowers/seasons 3 faan minimum None No Faan table None",
-    "anchor": "key-differences-from-hong-kong",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Yaku",
-    "content": "A yaku is a scoring pattern. A hand must contain at least one yaku to win. Common yaku include: Han open / closed --------------------- — / 1 1 / 1 — / 1 — / 1 1 / 1 — / 2 2 / 3 5 / 6",
-    "anchor": "yaku",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Riichi",
-    "content": "A player with a closed no open melds tenpai hand one tile from winning may declare Riichi by placing a 1,000-point stake in the centre. After declaring: - The hand is locked; no tile swaps are permitt",
-    "anchor": "riichi",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Dora",
-    "content": "Dora tiles are bonus tiles that add one han each. The dora indicator is revealed at the start of the hand; the dora is the next tile in sequence e.g., indicator = 3 Bamboo means dora = 4 Bamboo; indic",
-    "anchor": "dora",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Furiten",
-    "content": "A player is in Furiten if any of their winning tiles appears in their own discard pile. A player in Furiten: - Cannot win on another player's discard. - Can still win by self-draw Tsumo. Furiten clear",
-    "anchor": "furiten",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Scoring",
-    "content": "Hand value is determined by han from yaku and dora and fu from hand structure: meld types, wait type, pairs. The han-fu table produces a point value. Named limits apply at high han counts: Han thresho",
-    "anchor": "scoring",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Abortive Draws",
-    "content": "A hand may end in an abortive draw no winner under these conditions: nine unique terminals and honours dealt to one player on the first draw by declaration, four Kongs declared without the same player",
-    "anchor": "abortive-draws",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Riichi Mahjong",
-    "heading": "Attribution",
-    "content": "Riichi Mahjong. Traditional game with Japanese rules codified in the 20th century. Source: Wikipedia Japanese Mahjong. Public domain rules.",
-    "anchor": "attribution",
-    "variant": "riichi",
-    "variantUrl": "dist/mahjong/variants/riichi/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Taiwanese 16-Tile Mahjong",
-    "content": "The dominant Mahjong form in Taiwan. Played with 144 tiles. Each player holds 16 tiles and forms five melds plus one pair, rather than the four melds plus one pair of Hong Kong Mahjong.",
-    "anchor": "taiwanese-16-tile-mahjong",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Key Differences from Hong Kong",
-    "content": "Hong Kong ----------- 13 14 to win 4 melds + 1 pair No 5+5 faan 13 tiles each + dealer draws first",
-    "anchor": "key-differences-from-hong-kong",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Dealing",
-    "content": "Each player draws 16 tiles at the start. Bonus tiles are set aside immediately and replacements drawn. East begins with 17 tiles effectively or draws first to reach 17.",
-    "anchor": "dealing",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Hand Structure",
-    "content": "A winning hand consists of 5 melds + 1 pair = 17 tiles 16 in hand + the winning tile.",
-    "anchor": "hand-structure",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Multiple Winners",
-    "content": "When a tile is discarded, multiple players may declare a win on that tile simultaneously. All winning declarations are honoured; the discarder pays each winner. Turn order does not restrict who can wi",
-    "anchor": "multiple-winners",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Bonus Tiles",
-    "content": "All 8 bonus tiles in hand is an automatic win. Seat-matching bonus tiles and partial sets score faan per Hong Kong rules.",
-    "anchor": "bonus-tiles",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Scoring",
-    "content": "Faan-based scoring, similar to Hong Kong Mahjong but calibrated for five-meld hands. Full scoring tables are specific to the regional variant; the content builder should source from a Taiwanese-specif",
-    "anchor": "scoring",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Taiwanese 16-Tile Mahjong",
-    "heading": "Attribution",
-    "content": "Taiwanese 16-Tile Mahjong. Traditional game. Source: Wikipedia Mahjong, Taiwanese variant section. Note: full scoring tables for this variant require a dedicated Taiwanese-specific source for complete",
-    "anchor": "attribution",
-    "variant": "taiwanese",
-    "variantUrl": "dist/mahjong/variants/taiwanese/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Zung Jung",
-    "heading": "Zung Jung",
-    "content": "Designed by Alan Kwan, a statistician. Used as the official ruleset for the World Series of Mahjong. Zung Jung replaces multiplicative faan scoring with a flat additive point system across 44 named pa",
-    "anchor": "zung-jung",
-    "variant": "zung-jung",
-    "variantUrl": "dist/mahjong/variants/zung-jung/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Zung Jung",
-    "heading": "Key Differences from Hong Kong",
-    "content": "Hong Kong ----------- 144 with flowers/seasons Multiplicative faan None / implicit Varies Limit hands 3 faan",
-    "anchor": "key-differences-from-hong-kong",
-    "variant": "zung-jung",
-    "variantUrl": "dist/mahjong/variants/zung-jung/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Zung Jung",
-    "heading": "Scoring System",
-    "content": "Each winning hand is valued by identifying which of the 44 named patterns apply. Each pattern has a fixed point value. Values are additive, not multiplicative. The winner's income from each opponent i",
-    "anchor": "scoring-system",
-    "variant": "zung-jung",
-    "variantUrl": "dist/mahjong/variants/zung-jung/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Zung Jung",
-    "heading": "Same-Round Immunity",
-    "content": "Zung Jung includes a same-round immunity rule preventing unfair double-payment in specific edge cases. Consult the official rulebook at zj-mahjong.info for the precise definition.",
-    "anchor": "same-round-immunity",
-    "variant": "zung-jung",
-    "variantUrl": "dist/mahjong/variants/zung-jung/"
-  },
-  {
-    "game": "mahjong",
-    "gameTitle": "Mahjong",
-    "section": "Zung Jung",
-    "heading": "Attribution",
-    "content": "Zung Jung Mahjong, designed by Alan Kwan. Official rules at zj-mahjong.info, version 3.3. Licensed Creative Commons BY-NC-SA 3.0 Hong Kong. Used with attribution for non-commercial game reference.",
-    "anchor": "attribution",
-    "variant": "zung-jung",
-    "variantUrl": "dist/mahjong/variants/zung-jung/"
   },
   {
     "game": "mancala",
