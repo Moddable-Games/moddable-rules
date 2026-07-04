@@ -546,8 +546,12 @@ function buildLanding() {
     if (!existsSync(dir)) return '';
     const files = readdirSync(dir).filter(f => /\.(png|jpg|svg|webp)$/.test(f) && f !== '.gitkeep');
     if (!files.length) return '';
-    const logos = files.filter(f => /logo/i.test(f));
-    const logo = logos.find(f => f.endsWith('.svg')) || logos[0] || files[0];
+    const named = files.filter(f => f.startsWith(slug));
+    const pool = named.length > 0 ? named : files.filter(f => /logo/i.test(f));
+    const logo = pool.find(f => f.endsWith('.svg'))
+      || pool.find(f => f.endsWith('.png'))
+      || pool.find(f => f.endsWith('.jpg') || f.endsWith('.jpeg'))
+      || pool[0] || files[0];
     return `games/${slug}/logos/${logo}`;
   }
 
