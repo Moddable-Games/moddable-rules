@@ -140,16 +140,48 @@
     "gameTitle": "Dungeons & Dragons 5th Edition SRD",
     "section": "Dungeons & Dragons 5th Edition SRD",
     "heading": "Dungeons & Dragons 5th Edition SRD",
-    "content": "The Systems Reference Document 5.1 SRD 5.1 contains the open core rules for D&D 5th Edition, released by Wizards of the Coast under Creative Commons Attribution 4.0 International CC BY 4.0. This hub w",
+    "content": "The Systems Reference Document 5.1 SRD 5.1 contains the open core rules for D&D 5th Edition, released by Wizards of the Coast under Creative Commons Attribution 4.0 International CC BY 4.0. Licence: C",
     "anchor": "dungeons-dragons-5th-edition-srd"
   },
   {
     "game": "dnd-5e",
     "gameTitle": "Dungeons & Dragons 5th Edition SRD",
-    "section": "Planned Content",
-    "heading": "Planned Content",
-    "content": "Rules: Using Ability Scores, Adventuring, Combat, Equipment, The Environment, Conditions. Character Classes: Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock, W",
-    "anchor": "planned-content"
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Rules",
+    "content": "- Using Ability Scoresrules/ability-scores/ — The six abilities, saving throws, skills, and ability checks - Racesrules/races/ — SRD racial traits - Equipmentrules/equipment/ — Armour, weapons, and ad",
+    "anchor": "rules"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Character Classes",
+    "content": "- Barbarianclasses/barbarian/ · Bardclasses/bard/ · Clericclasses/cleric/ · Druidclasses/druid/ - Fighterclasses/fighter/ · Monkclasses/monk/ · Paladinclasses/paladin/ · Rangerclasses/ranger/ - Roguec",
+    "anchor": "character-classes"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Spells",
+    "content": "- Spellcasting Rulesspells/spellcasting/ · Spell Lists by Classspells/spell-list/ - Cantripsspells/cantrips/ · 1st Levelspells/level-1/ · 2nd Levelspells/level-2/ · 3rd Levelspells/level-3/ - 4th Leve",
+    "anchor": "spells"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Monsters",
+    "content": "- A–Cmonsters/a-c/ · D–Fmonsters/d-f/ · G–Imonsters/g-i/ · J–Lmonsters/j-l/ - M–Omonsters/m-o/ · P–Rmonsters/p-r/ · S–Umonsters/s-u/ · V–Zmonsters/v-z/",
+    "anchor": "monsters"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Magic Items",
+    "content": "- A–Cmagic-items/a-c/ · D–Fmagic-items/d-f/ · G–Imagic-items/g-i/ · J–Lmagic-items/j-l/ - M–Omagic-items/m-o/ · P–Rmagic-items/p-r/ · S–Umagic-items/s-u/ · V–Zmagic-items/v-z/",
+    "anchor": "magic-items"
   },
   {
     "game": "double-six-dominoes",
@@ -1074,10 +1106,18 @@
   {
     "game": "ironsworn",
     "gameTitle": "Ironsworn",
-    "section": "Planned Content",
-    "heading": "Planned Content",
-    "content": "Core Mechanics: Moves, Stats and Tracks, Vows, Combat, Journeys, Delving, The World, Assets. Oracle Tables: 13 tables for randomised narrative inspiration Action, Theme, Region, Location, Coastal Wate",
-    "anchor": "planned-content"
+    "section": "Ironsworn",
+    "heading": "Core Rules",
+    "content": "- Stats and Tracksrules/stats/ — The Basics: stats, action rolls, momentum, progress tracks, harm, stress, assets, oracles, bonds - Your Characterrules/vows/ — Vows, bonds, debilities, experience, cha",
+    "anchor": "core-rules"
+  },
+  {
+    "game": "ironsworn",
+    "gameTitle": "Ironsworn",
+    "section": "Ironsworn",
+    "heading": "Oracle Tables",
+    "content": "Roll dice and consult for narrative inspiration. Machine-readable JSON in oracles/ directory. Action, Theme, Combat Action, Major Plot Twist, Challenge Rank, Pay the Price.",
+    "anchor": "oracle-tables"
   },
   {
     "game": "landlords-game",

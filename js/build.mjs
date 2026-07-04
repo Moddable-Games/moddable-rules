@@ -281,7 +281,7 @@ function buildGame(slug) {
     project_version: projectVersion,
     slug: slug,
     game_slug: slug,
-    game_title: (meta.title || slug).replace(/ — Official Rulebook$/, ''),
+    game_title: meta.display_title || (meta.title || slug).replace(/ — Official Rulebook$/, ''),
     tagline: meta.tagline || '',
     players: meta.players || '',
     duration: meta.duration || '',
