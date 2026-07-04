@@ -282,6 +282,7 @@ function buildGame(slug) {
     slug: slug,
     game_slug: slug,
     game_title: meta.display_title || (meta.title || slug).replace(/ — Official Rulebook$/, ''),
+    game_nav_title: meta.short_title || (meta.title || slug).replace(/ — Official Rulebook$/, '').replace(/ — Component Hub$/, ''),
     tagline: meta.tagline || '',
     players: meta.players || '',
     duration: meta.duration || '',
@@ -487,6 +488,7 @@ function buildVariants(slug) {
     output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
     output = output.replace(/\{\{project_version\}\}/g, projVer);
     output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
@@ -770,6 +772,7 @@ function buildComponentGames(slug) {
     output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
     output = output.replace(/\{\{project_version\}\}/g, projVer);
     output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
@@ -839,6 +842,7 @@ function buildPages(slug) {
       output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
       output = output.replace(/\{\{project_version\}\}/g, projVer);
       output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+      output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
       output = output.replace(/\{\{slug\}\}/g, slug);
       output = output.replace('{{PREV_LINK}}', '<span class="variant-pager-spacer"></span>');
       output = output.replace('{{NEXT_LINK}}', '<span class="variant-pager-spacer"></span>');
