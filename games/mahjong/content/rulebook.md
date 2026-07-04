@@ -1,5 +1,5 @@
 ---
-title: "Mahjong (144-Tile Set) — Component Hub"
+title: "Mahjong"
 version: "0.1.0"
 slug: "mahjong"
 players: "4"

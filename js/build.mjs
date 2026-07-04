@@ -568,11 +568,10 @@ function buildLanding() {
   const cards = visible.map(g => {
     const logo = logoPath(g.slug);
     const logoImg = logo ? `<img class="card-logo" src="${logo}" alt="">` : '';
-    const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>`
-      : g.type === 'component' ? `<span class="card-base">Component Hub</span>` : '';
+    const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>` : '';
     const badge = statusLabels[g.status] || g.status || '';
     const badgeClass = statusClasses[g.status] || 'badge--dev';
-    const title = g.title ? g.title.replace(/\s*[—–-]\s*Official Rulebook$/i, '') : g.slug;
+    const title = g.title ? g.title.replace(/\s*[—–:]\s*Official Rulebook$/i, '').replace(/\s*[—–]\s*Component Hub$/i, '') : g.slug;
     return `    <a href="dist/${g.slug}/index.html" class="game-card" data-type="${g.type || 'game'}">
       <span class="badge ${badgeClass}">${badge}</span>
       <div class="card-logo-wrap">

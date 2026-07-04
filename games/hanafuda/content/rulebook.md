@@ -1,5 +1,5 @@
 ---
-title: "Hanafuda (48-Card Flower Deck) — Component Hub"
+title: "Hanafuda"
 version: "0.1.0"
 slug: "hanafuda"
 players: "2–4"

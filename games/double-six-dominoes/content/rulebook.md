@@ -1,5 +1,5 @@
 ---
-title: "Double-Six Dominoes — Component Hub"
+title: "Double-Six Dominoes"
 version: "0.1.0"
 slug: "double-six-dominoes"
 players: "2–8"

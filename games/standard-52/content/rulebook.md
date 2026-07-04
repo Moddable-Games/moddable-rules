@@ -1,5 +1,5 @@
 ---
-title: "Standard 52-Card Deck — Component Hub"
+title: "Standard 52-Card Deck"
 version: "0.1.0"
 slug: "standard-52"
 players: "1–8"

@@ -1,5 +1,5 @@
 ---
-title: "Standard Dice — Component Hub"
+title: "Standard Dice"
 version: "0.1.0"
 slug: "standard-dice"
 players: "1–8"
