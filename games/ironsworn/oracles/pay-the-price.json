@@ -1,0 +1,32 @@
+{
+  "name": "Pay the Price Oracle",
+  "game": "ironsworn",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn System Reference Document, copyright Shawn Tomkin. Licensed under CC BY 4.0.",
+  "tables": [
+    {
+      "id": "pay-the-price",
+      "name": "Pay the Price",
+      "roll_type": "d100",
+      "usage_note": "Roll when you must Pay the Price as a result of a miss or a narrative cost, and want to let fate decide the outcome.",
+      "entries": [
+        { "min": 1, "max": 2, "result": "Roll again and apply that result but make it worse. If you roll this result yet again, think of something dreadful that changes the course of your quest (Ask the Oracle if unsure) and make it happen." },
+        { "min": 3, "max": 5, "result": "A person or community you trusted loses faith in you, or acts against you." },
+        { "min": 6, "max": 9, "result": "A person or community you care about is exposed to danger." },
+        { "min": 10, "max": 16, "result": "You are separated from something or someone." },
+        { "min": 17, "max": 23, "result": "Your action has an unintended effect." },
+        { "min": 24, "max": 32, "result": "Something of value is lost or destroyed." },
+        { "min": 33, "max": 41, "result": "The current situation worsens." },
+        { "min": 42, "max": 50, "result": "A new danger or foe is revealed." },
+        { "min": 51, "max": 59, "result": "It causes a delay or puts you at a disadvantage." },
+        { "min": 60, "max": 68, "result": "It is harmful." },
+        { "min": 69, "max": 77, "result": "It is stressful." },
+        { "min": 78, "max": 85, "result": "A surprising development complicates your quest." },
+        { "min": 86, "max": 90, "result": "It wastes resources." },
+        { "min": 91, "max": 94, "result": "It forces you to act against your best intentions." },
+        { "min": 95, "max": 98, "result": "A friend, companion, or ally is put in harm's way (or you are, if alone)." },
+        { "min": 99, "max": 100, "result": "Roll twice more on this table. Both results occur. If they are the same result, make it worse." }
+      ]
+    }
+  ]
+}

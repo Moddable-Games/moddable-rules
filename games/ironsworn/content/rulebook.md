@@ -7,7 +7,7 @@ duration: "60–240 min"
 age: "14+"
 tagline: "A perilous quest through the Ironlands, guided by vows and oracle tables"
 type: "rpg"
-status: "alpha"
+status: "live"
 updated: "2026-07-04"
 published: true
 variants: false
@@ -28,17 +28,28 @@ theme:
 A tabletop roleplaying game by Shawn Tomkin set in the mythic dark fantasy world of the Ironlands. Players take on the role of Ironsworn, heroes bound to sworn vows who face peril, make allies, and explore a dangerous frontier. Ironsworn plays solo, cooperatively, or with a guide (GM).
 
 **Licence:** Creative Commons Attribution 4.0 International (CC BY 4.0).
-**Attribution:** Ironsworn System Reference Document, copyright Shawn Tomkin. Licensed under CC BY 4.0.
-**SRD source:** [`TedTschopp/Ironsworn-SRD`](https://github.com/TedTschopp/Ironsworn-SRD), `Ironsworn SRD.md`.
+**Attribution:** Ironsworn is created by Shawn Tomkin and licensed under the Creative Commons Attribution 4.0 International License.
 
 </div>
 
 <div class="section">
 
-## Planned Content
+### Core Rules
 
-**Core Mechanics:** Moves, Stats and Tracks, Vows, Combat, Journeys, Delving, The World, Assets.
+- [Stats and Tracks](rules/stats/) — The Basics: stats, action rolls, momentum, progress tracks, harm, stress, assets, oracles, bonds
+- [Your Character](rules/vows/) — Vows, bonds, debilities, experience, character creation
+- [Moves](rules/moves/) — All moves: Adventure, Relationship, Combat, Suffer, Quest, Fate
+- [Combat](rules/combat/) — Enter the Fray, Strike, Clash, Turn the Tide, End the Fight, Battle
+- [Foes and Encounters](rules/foes/) — NPC components, packs, creating encounters
 
-**Oracle Tables:** 13 tables for randomised narrative inspiration (Action, Theme, Region, Location, Coastal Waters, Name, Character, Combat Action, Plot Twist, Mystic Backlash, Settlement, Quick NPC, Trap). Machine-readable JSON schema defined in `oracles/schema.json`.
+</div>
+
+<div class="section">
+
+### Oracle Tables
+
+Roll dice and consult for narrative inspiration. Machine-readable JSON in `oracles/` directory.
+
+Action, Theme, Combat Action, Major Plot Twist, Challenge Rank, Pay the Price.
 
 </div>

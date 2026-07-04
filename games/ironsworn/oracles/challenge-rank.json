@@ -1,0 +1,21 @@
+{
+  "name": "Challenge Rank Oracle",
+  "game": "ironsworn",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn System Reference Document, copyright Shawn Tomkin. Licensed under CC BY 4.0.",
+  "tables": [
+    {
+      "id": "challenge-rank",
+      "name": "Challenge Rank",
+      "roll_type": "d100",
+      "usage_note": "Roll when you want to randomly determine the challenge rank of a quest, journey, or fight.",
+      "entries": [
+        { "min": 1, "max": 20, "result": "Troublesome" },
+        { "min": 21, "max": 55, "result": "Dangerous" },
+        { "min": 56, "max": 80, "result": "Formidable" },
+        { "min": 81, "max": 93, "result": "Extreme" },
+        { "min": 94, "max": 100, "result": "Epic" }
+      ]
+    }
+  ]
+}
