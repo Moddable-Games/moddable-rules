@@ -20,6 +20,7 @@ published: true
 You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.
 
 This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+
 ---
 
 ### Chill Touch
@@ -39,6 +40,7 @@ You create a ghostly, skeletal hand in the space of a creature within range. Mak
 If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.
 
 This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
 ---
 
 ### Dancing Lights
@@ -56,6 +58,7 @@ This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level 
 You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.
 
 As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.
+
 ---
 
 ### Druidcraft
@@ -76,6 +79,7 @@ Whispering to the spirits of nature, you create one of the following effects wit
 - You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.
 - You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.
 - You instantly light or snuff out a candle, a torch, or a small campfire.
+
 ---
 
 ### Eldritch Blast
@@ -93,6 +97,7 @@ Whispering to the spirits of nature, you create one of the following effects wit
 A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.
 
 The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.
+
 ---
 
 ### Fire Bolt
@@ -110,6 +115,7 @@ The spell creates more than one beam when you reach higher levels: two beams at 
 You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried. 
 
 This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
+
 ---
 
 ### Guidance
@@ -125,6 +131,7 @@ This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th leve
 **Duration:** Concentration, up to 1 minute
 
 You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.
+
 ---
 
 ### Light
@@ -142,6 +149,7 @@ You touch one willing creature. Once before the spell ends, the target can roll 
 You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.
 
 If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.
+
 ---
 
 ### Mage Hand
@@ -161,6 +169,7 @@ A spectral, floating hand appears at a point you choose within range. The hand l
 You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.
 
 The hand can't attack, activate magic items, or carry more than 10 pounds.
+
 ---
 
 ### Mending
@@ -178,6 +187,7 @@ The hand can't attack, activate magic items, or carry more than 10 pounds.
 This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
 
 This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.
+
 ---
 
 ### Message
@@ -195,6 +205,7 @@ This spell can physically repair a magic item or construct, but the spell can't 
 You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.
 
 You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings.
+
 ---
 
 ### Minor Illusion
@@ -216,6 +227,7 @@ If you create a sound, its volume can range from a whisper to a scream. It can b
 If you create an image of an object-such as a chair, muddy footprints, or a small chest-it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.
 
 If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
+
 ---
 
 ### Poison Spray
@@ -233,6 +245,7 @@ If a creature uses its action to examine the sound or image, the creature can de
 You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage. 
 
 This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
+
 ---
 
 ### Prestidigitation
@@ -257,6 +270,7 @@ This spell is a minor magical trick that novice spellcasters use for practice. Y
 - You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.
 
 If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
+
 ---
 
 ### Produce Flame
@@ -276,6 +290,7 @@ A flickering flame appears in your hand. The flame remains there for the duratio
 You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.
 
 This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
 ---
 
 ### Ray of Frost
@@ -293,6 +308,7 @@ This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level 
 A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.
 
 The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
 ---
 
 ### Resistance
@@ -308,6 +324,7 @@ The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (
 **Duration:** Concentration, up to 1 minute
 
 You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.
+
 ---
 
 ### Sacred Flame
@@ -325,6 +342,7 @@ You touch one willing creature. Once before the spell ends, the target can roll 
 Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.
 
 The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
 ---
 
 ### Shillelagh
@@ -340,6 +358,7 @@ The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (
 **Duration:** 1 minute
 
 The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.
+
 ---
 
 ### Shocking Grasp
@@ -357,6 +376,7 @@ The wood of a club or quarterstaff you are holding is imbued with nature's power
 Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.
 
 The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
 ---
 
 ### Spare the Dying
@@ -372,6 +392,7 @@ The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (
 **Duration:** Instantaneous
 
 You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.
+
 ---
 
 ### Thaumaturgy
@@ -394,6 +415,7 @@ You manifest a minor wonder, a sign of supernatural power, within range. You cre
 - You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.
 - You instantaneously cause an unlocked door or window to fly open or slam shut.
 - You alter the appearance of your eyes for 1 minute. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.
+
 ---
 
 ### True Strike
@@ -409,6 +431,7 @@ You manifest a minor wonder, a sign of supernatural power, within range. You cre
 **Duration:** Concentration, up to 1 round
 
 You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.
+
 ---
 
 ### Vicious Mockery

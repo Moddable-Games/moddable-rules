@@ -28,6 +28,7 @@ The spell ends for you and your companions when you use your action to dismiss i
 The spell might also end early for you or one of your companions. A successful *dispel magic* spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.
 
 If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points.
+
 ---
 
 ### Foresight
@@ -45,6 +46,7 @@ If you are returned to your body prematurely, your companions remain in their as
 You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
 
 This spell immediately ends if you cast it again before its duration ends.
+
 ---
 
 ### Gate
@@ -66,6 +68,7 @@ The portal has a front and a back on each plane where it appears. Travel through
 Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.
 
 When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens in the named creature's immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the GM deems appropriate. It might leave, attack you, or help you.
+
 ---
 
 ### Imprisonment
@@ -107,6 +110,7 @@ The special component for this version of the spell is a large, transparent gems
 A *dispel magic* spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.
 
 You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding.
+
 ---
 
 ### Mass Heal
@@ -122,6 +126,7 @@ You can use a particular special component to create only one prison at a time. 
 **Duration:** Instantaneous
 
 A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on undead or constructs.
+
 ---
 
 ### Meteor Swarm
@@ -139,6 +144,7 @@ A flood of healing energy flows from you into injured creatures around you. You 
 Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes 20d6 fire damage and 20d6 bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
 
 The spell damages objects in the area and ignites flammable objects that aren't being worn or carried.
+
 ---
 
 ### Power Word Kill
@@ -154,6 +160,7 @@ The spell damages objects in the area and ignites flammable objects that aren't 
 **Duration:** Instantaneous
 
 You utter a word of power that can compel one creature you can see within range to die instantly. If the creature you choose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.
+
 ---
 
 ### Prismatic Wall
@@ -185,6 +192,7 @@ The wall can be destroyed, also one layer at a time, in order from red to violet
 - ***Blue***. The creature takes 10d6 cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it.
 - ***Indigo***. On a failed save, the creature is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind. While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a *daylight* spell or a similar spell of equal or higher level.
 - ***Violet***. On a failed save, the creature is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a *dispel magic* spell or a similar spell of equal or higher level that can end spells and magical effects.
+
 ---
 
 ### Shapechange
@@ -210,6 +218,7 @@ You retain the benefit of any features from your class, race, or other source an
 When you transform, you choose whether your equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions as normal. The GM determines whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change shape or size to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge into your new form. Equipment that merges has no effect in that state.
 
 During this spell's duration, you can use your action to assume a different form following the same restrictions and rules for the original form, with one exception: if your new form has more hit points than your current one, your hit points remain at their current value.
+
 ---
 
 ### Storm of Vengeance
@@ -235,6 +244,7 @@ Each round you maintain concentration on this spell, the storm produces differen
 ***Round 4***. Hailstones rain down from the cloud. Each creature under the cloud takes 2d6 bludgeoning damage.
 
 ***Round 5-10***. Gusts and freezing rain assail the area under the cloud. The area becomes difficult terrain and is heavily obscured. Each creature there takes 1d6 cold damage. Ranged weapon attacks in the area are impossible. The wind and rain count as a severe distraction for the purposes of maintaining concentration on spells. Finally, gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical.
+
 ---
 
 ### Time Stop
@@ -252,6 +262,7 @@ Each round you maintain concentration on this spell, the storm produces differen
 You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.
 
 This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.
+
 ---
 
 ### True Polymorph
@@ -283,6 +294,7 @@ The target's gear melds into the new form. The creature can't activate, use, wie
 If the spell becomes permanent, you no longer control the creature. It might remain friendly to you, depending on how you have treated it.
 
 ***Creature into Object***. If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object's size is no larger than the creature's size. The creature's statistics become those of the object, and the creature has no memory of time spent in this form, after the spell ends and it returns to its normal form.
+
 ---
 
 ### True Resurrection
@@ -302,6 +314,7 @@ You touch a creature that has been dead for no longer than 200 years and that di
 This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was undead, it is restored to its non-undead form.
 
 The spell can even provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.
+
 ---
 
 ### Weird
@@ -317,6 +330,7 @@ The spell can even provide a new body if the original no longer exists, in which
 **Duration:** Concentration, up to one minute
 
 Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature.
+
 ---
 
 ### Wish

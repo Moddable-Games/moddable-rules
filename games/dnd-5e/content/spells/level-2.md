@@ -20,6 +20,7 @@ published: true
 A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.
+
 ---
 
 ### Aid
@@ -37,6 +38,7 @@ A shimmering green arrow streaks toward a target within range and bursts in a sp
 Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.
+
 ---
 
 ### Alter Self
@@ -58,6 +60,7 @@ You assume a different form. When you cast the spell, choose one of the followin
 ***Change Appearance***. You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.
 
 ***Natural Weapons***. You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.
+
 ---
 
 ### Animal Messenger
@@ -77,6 +80,7 @@ By means of this spell, you use an animal to deliver a message. Choose a Tiny be
 When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.
 
 ***At Higher Levels***. If you cast this spell using a spell slot of 3nd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.
+
 ---
 
 ### Arcane Lock
@@ -94,6 +98,7 @@ When the messenger arrives, it delivers your message to the creature that you de
 You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting *knock* on the object suppresses *arcane lock* for 10 minutes.
 
 While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.
+
 ---
 
 ### Arcanist's Magic Aura
@@ -115,6 +120,7 @@ When you cast the spell, choose one or both of the following effects. The effect
 ***False Aura***. You change the way the target appears to spells and magical effects, such as *detect magic*, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.
 
 ***Mask***. You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's Divine Sense or the trigger of a *symbol* spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
+
 ---
 
 ### Augury
@@ -139,6 +145,7 @@ By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or 
 The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.
 
 If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.
+
 ---
 
 ### Barkskin
@@ -154,6 +161,7 @@ If you cast the spell two or more times before completing your next long rest, t
 **Duration:** Concentration, up to 1 hour
 
 You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.
+
 ---
 
 ### Blindness/Deafness
@@ -171,6 +179,7 @@ You touch a willing creature. Until the spell ends, the target's skin has a roug
 You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+
 ---
 
 ### Blur
@@ -186,6 +195,7 @@ You can blind or deafen a foe. Choose one creature that you can see within range
 **Duration:** Concentration, up to 1 minute
 
 Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.
+
 ---
 
 ### Branding Smite
@@ -203,6 +213,7 @@ Your body becomes blurred, shifting and wavering to all who can see you. For the
 The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends. 
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.
+
 ---
 
 ### Calm Emotions
@@ -222,6 +233,7 @@ You attempt to suppress strong emotions in a group of people. Each humanoid in a
 You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.
 
 Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.
+
 ---
 
 ### Continual Flame
@@ -237,6 +249,7 @@ Alternatively, you can make a target indifferent about creatures of your choice 
 **Duration:** Until dispelled
 
 A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A *continual flame* can be covered or hidden but not smothered or quenched.
+
 ---
 
 ### Darkness
@@ -256,6 +269,7 @@ Magical darkness spreads from a point you choose within range to fill a 15-foot 
 If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.
 
 If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.
+
 ---
 
 ### Darkvision
@@ -271,6 +285,7 @@ If any of this spell's area overlaps with an area of light created by a spell of
 **Duration:** 8 hours
 
 You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.
+
 ---
 
 ### Detect Thoughts
@@ -294,6 +309,7 @@ Questions verbally directed at the target creature naturally shape the course of
 You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.
 
 Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.
+
 ---
 
 ### Enhance Ability
@@ -323,6 +339,7 @@ You touch a creature and bestow upon it a magical enhancement. Choose one of the
 ***Owl's Wisdom***. The target has advantage on Wisdom checks.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+
 ---
 
 ### Enlarge/Reduce
@@ -344,6 +361,7 @@ If the target is a creature, everything it is wearing and carrying changes size 
 ***Enlarge***. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category- from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.
 
 ***Reduce***. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category-from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).
+
 ---
 
 ### Enthrall
@@ -359,6 +377,7 @@ If the target is a creature, everything it is wearing and carrying changes size 
 **Duration:** 1 minute
 
 You weave a distracting string of words, causing creatures of your choice that you can see within range and that can hear you to make a Wisdom saving throw. Any creature that can't be charmed succeeds on this saving throw automatically, and if you or your companions are fighting a creature, it has advantage on the save. On a failed save, the target has disadvantage on Wisdom (Perception) checks made to perceive any creature other than you until the spell ends or until the target can no longer hear you. The spell ends if you are incapacitated or can no longer speak.
+
 ---
 
 ### Find Steed
@@ -382,6 +401,7 @@ When the steed drops to 0 hit points, it disappears, leaving behind no physical 
 While your steed is within 1 mile of you, you can communicate with each other telepathically.
 
 You can't have more than one steed bonded by this spell at a time. As an action, you can release the steed from its bond at any time, causing it to disappear.
+
 ---
 
 ### Find Traps
@@ -401,6 +421,7 @@ You sense the presence of any trap within range that is within line of sight. A 
 This spell merely reveals that a trap is present.
 
 You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.
+
 ---
 
 ### Flame Blade
@@ -422,6 +443,7 @@ You can use your action to make a melee spell attack with the fiery blade. On a 
 The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.
+
 ---
 
 ### Flaming Sphere
@@ -443,6 +465,7 @@ As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere 
 When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
+
 ---
 
 ### Gentle Repose
@@ -460,6 +483,7 @@ When you move the sphere, you can direct it over barriers up to 5 feet tall and 
 You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.
 
 The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as *raise dead*.
+
 ---
 
 ### Gust of Wind
@@ -481,6 +505,7 @@ Any creature in the line must spend 2 feet of movement for every 1 foot it moves
 The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.
 
 As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.
+
 ---
 
 ### Heat Metal
@@ -500,6 +525,7 @@ Choose a manufactured metal object, such as a metal weapon or a suit of heavy or
 If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+
 ---
 
 ### Hold Person
@@ -517,6 +543,7 @@ If a creature is holding or wearing the object and takes the damage from it, the
 Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.
+
 ---
 
 ### Invisibility
@@ -534,6 +561,7 @@ Choose a humanoid that you can see within range. The target must succeed on a Wi
 A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+
 ---
 
 ### Knock
@@ -555,6 +583,7 @@ A target that is held shut by a mundane lock or that is stuck or barred becomes 
 If you choose a target that is held shut with *arcane lock*, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.
 
 When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.
+
 ---
 
 ### Lesser Restoration
@@ -570,6 +599,7 @@ When you cast the spell, a loud knock, audible from as far away as 300 feet, ema
 **Duration:** Instantaneous
 
 You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.
+
 ---
 
 ### Levitate
@@ -589,6 +619,7 @@ One creature or loose object of your choice that you can see within range rises 
 The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.
 
 When the spell ends, the target floats gently to the ground if it is still aloft.
+
 ---
 
 ### Locate Animals or Plants
@@ -604,6 +635,7 @@ When the spell ends, the target floats gently to the ground if it is still aloft
 **Duration:** Instantaneous
 
 Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.
+
 ---
 
 ### Locate Object
@@ -623,6 +655,7 @@ Describe or name an object that is familiar to you. You sense the direction to t
 The spell can locate a specific object known to you, as long as you have seen it up close-within 30 feet-at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
 
 This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.
+
 ---
 
 ### Magic Mouth
@@ -642,6 +675,7 @@ You implant a message within an object in range, a message that is uttered when 
 When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that the words appear to come from the object's mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.
 
 The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.
+
 ---
 
 ### Magic Weapon
@@ -659,6 +693,7 @@ The triggering circumstance can be as general or as detailed as you like, though
 You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.
+
 ---
 
 ### Mirror Image
@@ -682,6 +717,7 @@ If you have three duplicates, you must roll a 6 or higher to change the attack's
 A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 
 A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.
+
 ---
 
 ### Misty Step
@@ -697,6 +733,7 @@ A creature is unaffected by this spell if it can't see, if it relies on senses o
 **Duration:** Instantaneous
 
 Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.
+
 ---
 
 ### Moonbeam
@@ -720,6 +757,7 @@ A shapechanger makes its saving throw with disadvantage. If it fails, it also in
 On each of your turns after you cast this spell, you can use an action to move the beam up to 60 feet in any direction.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
+
 ---
 
 ### Pass without Trace
@@ -735,6 +773,7 @@ On each of your turns after you cast this spell, you can use an action to move t
 **Duration:** Concentration, up to 1 hour
 
 A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.
+
 ---
 
 ### Prayer of Healing
@@ -752,6 +791,7 @@ A veil of shadows and silence radiates from you, masking you and your companions
 Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.
+
 ---
 
 ### Protection from Poison
@@ -769,6 +809,7 @@ Up to six creatures of your choice that you can see within range each regain hit
 You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.
 
 For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.
+
 ---
 
 ### Ray of Enfeeblement
@@ -786,6 +827,7 @@ For the duration, the target has advantage on saving throws against being poison
 A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.
 
 At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.
+
 ---
 
 ### Rope Trick
@@ -807,6 +849,7 @@ The extradimensional space can be reached by climbing to the top of the rope. Th
 Attacks and spells can't cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope.
 
 Anything inside the extradimensional space drops out when the spell ends.
+
 ---
 
 ### Scorching Ray
@@ -826,6 +869,7 @@ You create three rays of fire and hurl them at targets within range. You can hur
 Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.
+
 ---
 
 ### See Invisibility
@@ -841,6 +885,7 @@ Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire dam
 **Duration:** 1 hour
 
 For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.
+
 ---
 
 ### Shatter
@@ -860,6 +905,7 @@ A sudden loud ringing noise, painfully intense, erupts from a point of your choi
 A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+
 ---
 
 ### Silence
@@ -875,6 +921,7 @@ A nonmagical object that isn't being worn or carried also takes the damage if it
 **Duration:** Concentration, up to 10 minutes
 
 For the duration, no sound can be created within or pass through a 20-foot radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.
+
 ---
 
 ### Spider Climb
@@ -890,6 +937,7 @@ For the duration, no sound can be created within or pass through a 20-foot radiu
 **Duration:** Concentration, up to 1 hour
 
 Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed.
+
 ---
 
 ### Spike Growth
@@ -907,6 +955,7 @@ Until the spell ends, one willing creature you touch gains the ability to move u
 The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.
 
 The transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.
+
 ---
 
 ### Spiritual Weapon
@@ -928,6 +977,7 @@ As a bonus action on your turn, you can move the weapon up to 20 feet and repeat
 The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
+
 ---
 
 ### Suggestion
@@ -949,6 +999,7 @@ The target must make a Wisdom saving throw. On a failed save, it pursues the cou
 You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.
 
 If you or any of your companions damage the target, the spell ends.
+
 ---
 
 ### Warding Bond
@@ -966,6 +1017,7 @@ If you or any of your companions damage the target, the spell ends.
 This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.
 
 The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.
+
 ---
 
 ### Web
@@ -991,6 +1043,7 @@ Dexterity saving throw. On a failed save, the creature is restrained as long as 
 A creature restrained by the webs can use its action to make a Strength check against your spell save DC. If it succeeds, it is no longer restrained.
 
 The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.
+
 ---
 
 ### Zone of Truth

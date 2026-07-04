@@ -20,6 +20,7 @@ published: true
 You create a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within range and lasts for the duration. You can make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides three-quarters cover to creatures behind it, and its space is difficult terrain.
 
 When a creature enters the wall's area for the first time on a turn or starts its turn there, the creature must make a Dexterity saving throw. On a failed save, the creature takes 6d10 slashing damage. On a successful save, the creature takes half as much damage.
+
 ---
 
 ### Chain Lightning
@@ -39,6 +40,7 @@ You create a bolt of lightning that arcs toward a target of your choice that you
 A target must make a Dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th.
+
 ---
 
 ### Circle of Death
@@ -56,6 +58,7 @@ A target must make a Dexterity saving throw. The target takes 10d8 lightning dam
 A sphere of negative energy ripples out in a 60-foot radius sphere from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.
+
 ---
 
 ### Conjure Fey
@@ -79,6 +82,7 @@ If your concentration is broken, the fey creature doesn't disappear. Instead, yo
 The GM has the fey creature's statistics.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th.
+
 ---
 
 ### Contingency
@@ -98,6 +102,7 @@ Choose a spell of 5th level or lower that you can cast, that has a casting time 
 The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then *contingency* ends.
 
 The contingent spell takes effect only on you, even if it can normally target others. You can use only one *contingency* spell at a time. If you cast this spell again, the effect of another *contingency* spell on you ends. Also, *contingency* ends on you if its material component is ever not on your person.
+
 ---
 
 ### Create Undead
@@ -119,6 +124,7 @@ As a bonus action on each of your turns, you can mentally command any creature y
 The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell, rather than animating new ones.
 
 ***At Higher Levels***. When you cast this spell using a 7th-level spell slot, you can animate or reassert control over four ghouls. When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five ghouls or two ghasts or wights. When you cast this spell using a 9th-level spell slot, you can animate or reassert control over six ghouls, three ghasts or wights, or two mummies.
+
 ---
 
 ### Disintegrate
@@ -142,6 +148,7 @@ A disintegrated creature and everything it is wearing and carrying, except magic
 This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot cube portion of it. A magic item is unaffected by this spell.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th.
+
 ---
 
 ### Eyebite
@@ -163,6 +170,7 @@ For the spell's duration, your eyes become an inky void imbued with dread power.
 ***Panicked***. The target is frightened of you. On each of its turns, the frightened creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.
 
 ***Sickened***. The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Wisdom saving throw. If it succeeds, the effect ends.
+
 ---
 
 ### Find the Path
@@ -180,6 +188,7 @@ For the spell's duration, your eyes become an inky void imbued with dread power.
 This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plane of existence, a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as "a green dragon's lair"), the spell fails.
 
 For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.
+
 ---
 
 ### Flesh to Stone
@@ -201,6 +210,7 @@ A creature restrained by this spell must make another Constitution saving throw 
 If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state.
 
 If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.
+
 ---
 
 ### Forbiddance
@@ -222,6 +232,7 @@ In addition, the spell damages types of creatures that you choose when you cast 
 When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.
 
 The spell's area can't overlap with the area of another *forbiddance* spell. If you cast *forbiddance* every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting.
+
 ---
 
 ### Freezing Sphere
@@ -243,6 +254,7 @@ If the globe strikes a body of water or a liquid that is principally water (not 
 You can refrain from firing the globe after completing the spell, if you wish. A small globe about the size of a sling stone, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling's normal range). It shatters on impact, with the same effect as the normal casting of the spell. You can also set the globe down without shattering it. After 1 minute, if the globe hasn't already shattered, it explodes.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
+
 ---
 
 ### Globe of Invulnerability
@@ -262,6 +274,7 @@ An immobile, faintly shimmering barrier springs into existence in a 10-foot radi
 Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.
+
 ---
 
 ### Guards and Wards
@@ -299,6 +312,7 @@ When you cast this spell, you can specify individuals that are unaffected by any
 The whole warded area radiates magic. A *dispel magic* cast on a specific effect, if successful, removes only that effect.
 
 You can create a permanently guarded and warded structure by casting this spell there every day for one year.
+
 ---
 
 ### Harm
@@ -314,6 +328,7 @@ You can create a permanently guarded and warded structure by casting this spell 
 **Duration:** Instantaneous
 
 You unleash a virulent disease on a creature that you can see within range. The target must make a Constitution saving throw. On a failed save, it takes 14d6 necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.
+
 ---
 
 ### Heal
@@ -331,6 +346,7 @@ You unleash a virulent disease on a creature that you can see within range. The 
 Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.
+
 ---
 
 ### Heroes' Feast
@@ -348,6 +364,7 @@ Choose a creature that you can see within range. A surge of positive energy wash
 You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.
 
 A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.
+
 ---
 
 ### Instant Summons
@@ -369,6 +386,7 @@ At any time thereafter, you can use your action to speak the item's name and cru
 If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.
 
 *Dispel magic* or a similar effect successfully applied to the sapphire ends this spell's effect.
+
 ---
 
 ### Irresistible Dance
@@ -386,6 +404,7 @@ If another creature is holding or carrying the item, crushing the sapphire doesn
 Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can't be charmed are immune to this spell.
 
 A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends.
+
 ---
 
 ### Magic Jar
@@ -413,6 +432,7 @@ While possessing a body, you can use your action to return from the host body to
 If the container is destroyed or the spell ends, your soul immediately returns to your body. If your body is more than 100 feet away from you or if your body is dead when you attempt to return to it, you die. If another creature's soul is in the container when it is destroyed, the creature's soul returns to its body if the body is alive and within 100 feet. Otherwise, that creature dies.
 
 When the spell ends, the container is destroyed.
+
 ---
 
 ### Mass Suggestion
@@ -436,6 +456,7 @@ You can also specify conditions that will trigger a special activity during the 
 If you or any of your companions damage a creature affected by this spell, the spell ends for that creature.
 
 ***At Higher Levels***. When you cast this spell using a 7th-level spell slot, the duration is 10 days. When you use an 8th-level spell slot, the duration is 30 days. When you use a 9th-level spell slot, the duration is a year and a day.
+
 ---
 
 ### Move Earth
@@ -459,6 +480,7 @@ Because the terrain's transformation occurs slowly, creatures in the area can't 
 This spell can't manipulate natural stone or stone construction. Rocks and structures shift to accommodate the new terrain. If the way you shape the terrain would make a structure unstable, it might collapse.
 
 Similarly, this spell doesn't directly affect plant growth. The moved earth carries any plants along with it.
+
 ---
 
 ### Planar Ally
@@ -484,6 +506,7 @@ As a rule of thumb, a task that can be measured in minutes requires a payment wo
 After the creature completes the task, or when the agreed-upon duration of service expires, the creature returns to its home plane after reporting back to you, if appropriate to the task and if possible. If you are unable to agree on a price for the creature's service, the creature immediately returns to its home plane.
 
 A creature enlisted to join your group counts as a member of it, receiving a full share of experience points awarded.
+
 ---
 
 ### Programmed Illusion
@@ -505,6 +528,7 @@ When the condition you specify occurs, the illusion springs into existence and p
 The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.
 
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+
 ---
 
 ### Sunbeam
@@ -524,6 +548,7 @@ A beam of brilliant light flashes out from your hand in a 5-foot wide, 60-foot l
 You can create a new line of radiance as your action on any turn until the spell ends.
 
 For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.
+
 ---
 
 ### Transport via Plants
@@ -539,6 +564,7 @@ For the duration, a mote of brilliant radiance shines in your hand. It sheds bri
 **Duration:** 1 round
 
 This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.
+
 ---
 
 ### True Seeing
@@ -554,6 +580,7 @@ This spell creates a magical link between a Large or larger inanimate plant with
 **Duration:** 1 hour
 
 This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.
+
 ---
 
 ### Wall of Ice
@@ -575,6 +602,7 @@ If the wall cuts through a creature's space when it appears, the creature within
 The wall is an object that can be damaged and thus breached. It has AC 12 and 30 hit points per 10-foot section, and it is vulnerable to fire damage. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the wall occupied. A creature moving through the sheet of frigid air for the first time on a turn must make a Constitution saving throw. That creature takes 5d6 cold damage on a failed save, or half as much damage on a successful one.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, the damage the wall deals when it appears increases by 2d6, and the damage from passing through the sheet of frigid air increases by 1d6, for each slot level above 6th.
+
 ---
 
 ### Wall of Thorns
@@ -596,6 +624,7 @@ When the wall appears, each creature within its area must make a Dexterity savin
 A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters the wall on a turn or ends its turn there, the creature must make a Dexterity saving throw. It takes 7d8 slashing damage on a failed save, or half as much damage on a successful one.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th level or higher, both types of damage increase by 1d8 for each slot level above 6th.
+
 ---
 
 ### Wind Walk
@@ -613,6 +642,7 @@ A creature can move through the wall, albeit slowly and painfully. For every 1 f
 You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash action or to revert to its normal form. Reverting takes 1 minute, during which time a creature is incapacitated and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.
 
 If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, the creature falls the remaining distance.
+
 ---
 
 ### Word of Recall

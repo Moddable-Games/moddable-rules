@@ -22,6 +22,7 @@ You create an invisible, magical eye within range that hovers in the air for the
 You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.
 
 As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.
+
 ---
 
 ### Banishment
@@ -43,6 +44,7 @@ If the target is native to the plane of existence you're on, you banish the targ
 If the target is native to a different plane of existence than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.
+
 ---
 
 ### Black Tentacles
@@ -62,6 +64,7 @@ Squirming, ebony tentacles fill a 20-foot square on ground that you can see with
 When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage.
 
 A creature restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.
+
 ---
 
 ### Blight
@@ -83,6 +86,7 @@ If you target a plant creature or a magical plant, it makes the saving throw wit
 If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
+
 ---
 
 ### Compulsion
@@ -100,6 +104,7 @@ If you target a nonmagical plant that isn't a creature, such as a tree or shrub,
 Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving to try to end the effect. 
 
 A target isn't compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction.
+
 ---
 
 ### Confusion
@@ -131,6 +136,7 @@ An affected target can't take reactions and must roll a d10 at the start of each
 At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.
+
 ---
 
 ### Conjure Minor Elementals
@@ -159,6 +165,7 @@ The summoned creatures are friendly to you and your companions. Roll initiative 
 The GM has the creatures' statistics.
 
 ***At Higher Levels***. When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.
+
 ---
 
 ### Conjure Woodland Beings
@@ -187,6 +194,7 @@ The summoned creatures are friendly to you and your companions. Roll initiative 
 The GM has the creatures' statistics.
 
 ***At Higher Levels***. When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.
+
 ---
 
 ### Control Water
@@ -218,6 +226,7 @@ The water level remains elevated until the spell ends or you choose a different 
 When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.
 
 The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex.
+
 ---
 
 ### Death Ward
@@ -237,6 +246,7 @@ You touch a creature and grant it a measure of protection from death.
 The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.
 
 If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.
+
 ---
 
 ### Dimension Door
@@ -256,6 +266,7 @@ You teleport yourself from your current location to any other spot within range.
 You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.
 
 If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take 4d6 force damage, and the spell fails to teleport you.
+
 ---
 
 ### Divination
@@ -275,6 +286,7 @@ Your magic and an offering put you in contact with a god or a god's servants. Yo
 The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.
 
 If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.
+
 ---
 
 ### Dominate Beast
@@ -298,6 +310,7 @@ You can use your action to take total and precise control of the target. Until t
 Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.
 
 ***At Higher Levels***. When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.
+
 ---
 
 ### Fabricate
@@ -317,6 +330,7 @@ You convert raw materials into products of the same material. For example, you c
 Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the spell is commensurate with the quality of the raw materials.
 
 Creatures or magic items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such objects.
+
 ---
 
 ### Faithful Hound
@@ -336,6 +350,7 @@ You conjure a phantom watchdog in an unoccupied space that you can see within ra
 The hound is invisible to all creatures except you and can't be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees invisible creatures and can see into the Ethereal Plane. It ignores illusions.
 
 At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage.
+
 ---
 
 ### Fire Shield
@@ -355,6 +370,7 @@ Thin and wispy flames wreathe your body for the duration, shedding bright light 
 The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.
 
 In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.
+
 ---
 
 ### Freedom of Movement
@@ -372,6 +388,7 @@ In addition, whenever a creature within 5 feet of you hits you with a melee atta
 You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.
 
 The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.
+
 ---
 
 ### Giant Insect
@@ -393,6 +410,7 @@ Each creature obeys your verbal commands, and in combat, they act on your turn e
 A creature remains in its giant size for the duration, until it drops to 0 hit points, or until you use an action to dismiss the effect on it.
 
 The GM might allow you to choose different targets. For example, if you transform a bee, its giant version might have the same statistics as a giant wasp.
+
 ---
 
 ### Greater Invisibility
@@ -408,6 +426,7 @@ The GM might allow you to choose different targets. For example, if you transfor
 **Duration:** Concentration, up to 1 minute
 
 You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.
+
 ---
 
 ### Guardian of Faith
@@ -425,6 +444,7 @@ You or a creature you touch becomes invisible until the spell ends. Anything the
 A large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.
 
 Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has delat a total of 60 damage.
+
 ---
 
 ### Hallucinatory Terrain
@@ -442,6 +462,7 @@ Any creature hostile to you that moves to a space within 10 feet of the guardian
 You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.
 
 The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.
+
 ---
 
 ### Ice Storm
@@ -461,6 +482,7 @@ A hail of rock-hard ice pounds to the ground in a 20-foot radius, 40-foot high c
 Hailstones turn the storm's area of effect into difficult terrain until the end of your next turn.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.
+
 ---
 
 ### Locate Creature
@@ -480,6 +502,7 @@ Describe or name a creature that is familiar to you. You sense the direction to 
 The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close-within 30 feet-at least once. If the creature you described or named is in a different form, such as being under the effects of a *polymorph* spell, this spell doesn't locate the creature.
 
 This spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.
+
 ---
 
 ### Phantasmal Killer
@@ -497,6 +520,7 @@ This spell can't locate a creature if running water at least 10 feet wide blocks
 You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.
+
 ---
 
 ### Polymorph
@@ -520,6 +544,7 @@ The target assumes the hit points of its new form. When it reverts to its normal
 The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech.
 
 The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.
+
 ---
 
 ### Private Sanctum
@@ -546,6 +571,7 @@ When you cast the spell, you decide what sort of security the spell provides, ch
 - Planar travel is blocked within the warded area. Casting this spell on the same spot every day for a year makes this effect permanent.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.
+
 ---
 
 ### Resilient Sphere
@@ -567,6 +593,7 @@ Nothing-not physical objects, energy, or other spell effects-can pass through th
 The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.
 
 A *disintegrate* spell targeting the globe destroys it without harming anything inside it.
+
 ---
 
 ### Secret Chest
@@ -586,6 +613,7 @@ You hide a chest, and all its contents, on the Ethereal Plane. You must touch th
 While the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by using an action and touching both the chest and the replica.
 
 After 60 days, there is a cumulative 5 percent chance per day that the spell's effect ends. This effect ends if you cast this spell again, if the smaller replica chest is destroyed, or if you choose to end the spell as an action. If the spell ends and the larger chest is on the Ethereal Plane, it is irretrievably lost.
+
 ---
 
 ### Stone Shape
@@ -601,6 +629,7 @@ After 60 days, there is a cumulative 5 percent chance per day that the spell's e
 **Duration:** Instantaneous
 
 You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.
+
 ---
 
 ### Stoneskin
@@ -616,6 +645,7 @@ You touch a stone object of Medium size or smaller or a section of stone no more
 **Duration:** Concentration, up to 1 hour
 
 This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.
+
 ---
 
 ### Wall of Fire

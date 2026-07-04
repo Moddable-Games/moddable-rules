@@ -39,6 +39,7 @@ An animated object is a construct with AC, hit points, attacks, Strength, and De
 If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The GM might rule that a specific object inflicts slashing or piercing damage based on its form.
 
 ***At Higher Levels***. If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.
+
 ---
 
 ### Antilife Shell
@@ -58,6 +59,7 @@ A shimmering barrier extends out from you in a 10-foot radius and moves with you
 The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.
 
 If you move so that an affected creature is forced to pass through the barrier, the spell ends.
+
 ---
 
 ### Arcane Hand
@@ -89,6 +91,7 @@ Make a check with the hand's Strength contested by the Strength (Athletics) chec
 ***Interposing Hand***. The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.
+
 ---
 
 ### Awaken
@@ -106,6 +109,7 @@ Make a check with the hand's Strength contested by the Strength (Athletics) chec
 After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. Your GM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.
 
 The awakened beast or plant is charmed by you for 30 days or until you or your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.
+
 ---
 
 ### Cloudkill
@@ -127,6 +131,7 @@ When a creature enters the spell's area for the first time on a turn or starts i
 The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.
+
 ---
 
 ### Commune
@@ -146,6 +151,7 @@ You contact your deity or a divine proxy and ask up to three questions that can 
 Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.
 
 If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.
+
 ---
 
 ### Commune with Nature
@@ -171,6 +177,7 @@ You instantly gain knowledge of up to three facts of your choice about any of th
 - buildings
 
 For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.
+
 ---
 
 ### Cone of Cold
@@ -190,6 +197,7 @@ A blast of cold air erupts from your hands. Each creature in a 60-foot cone must
 A creature killed by this spell becomes a frozen statue until it thaws.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.
+
 ---
 
 ### Conjure Elemental
@@ -213,6 +221,7 @@ If your concentration is broken, the elemental doesn't disappear. Instead, you l
 The GM has the elemental's statistics.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.
+
 ---
 
 ### Contact Other Plane
@@ -230,6 +239,7 @@ The GM has the elemental's statistics.
 You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A *greater restoration* spell cast on you ends this effect.
 
 On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as "yes," "no," "maybe," "never," "irrelevant," or "unclear" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.
+
 ---
 
 ### Contagion
@@ -260,6 +270,7 @@ Since this spell induces a natural disease in its target, any effect that remove
 ***Seizure***. The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.
 
 ***Slimy Doom***. The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn.
+
 ---
 
 ### Creation
@@ -293,6 +304,7 @@ The duration depends on the object's material. If the object is composed of mult
 Using any material created by this spell as another spell's material component causes that spell to fail.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.
+
 ---
 
 ### Dispel Evil and Good
@@ -314,6 +326,7 @@ You can end the spell early by using either of the following special functions.
 ***Break Enchantment***. As your action, you touch a creature you can reach that is charmed, frightened, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer charmed, frightened, or possessed by such creatures.
 
 ***Dismissal***. As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.
+
 ---
 
 ### Dominate Person
@@ -337,6 +350,7 @@ You can use your action to take total and precise control of the target. Until t
 Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.
 
 ***At Higher Levels***. When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.
+
 ---
 
 ### Dream
@@ -358,6 +372,7 @@ If the target is asleep, the messenger appears in the target's dreams and can co
 You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target's sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage.
 
 If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage.
+
 ---
 
 ### Flame Strike
@@ -375,6 +390,7 @@ If you have a body part, lock of hair, clipping from a nail, or similar portion 
 A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by 1d6 for each slot level above 5th.
+
 ---
 
 ### Geas
@@ -396,6 +412,7 @@ You can issue any command you choose, short of an activity that would result in 
 You can end the spell early by using an action to dismiss it. A *remove curse*, *greater restoration*, or *wish* spell also ends it.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above.
+
 ---
 
 ### Greater Restoration
@@ -416,6 +433,7 @@ You imbue a creature you touch with positive energy to undo a debilitating effec
 - One curse, including the target's attunement to a cursed magic item
 - Any reduction to one of the target's ability scores
 - One effect reducing the target's hit point maximum
+
 ---
 
 ### Hallow
@@ -455,6 +473,7 @@ Second, you can bind an extra effect to the area. Choose the effect from the fol
 ***Silence***. No sound can emanate from within the area, and no sound can reach into it.
 
 ***Tongues***. Affected creatures can communicate with any other creature in the area, even if they don't share a common language.
+
 ---
 
 ### Hold Monster
@@ -472,6 +491,7 @@ Second, you can bind an extra effect to the area. Choose the effect from the fol
 Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.
+
 ---
 
 ### Insect Plague
@@ -491,6 +511,7 @@ Swarming, biting locusts fill a 20-foot radius sphere centered on a point you ch
 When the area appears, each creature in it must make a Constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.
+
 ---
 
 ### Legend Lore
@@ -508,6 +529,7 @@ When the area appears, each creature in it must make a Constitution saving throw
 Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.
 
 The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: "Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word *Rudnogg* on the lips."
+
 ---
 
 ### Mass Cure Wounds
@@ -525,6 +547,7 @@ The information you learn is accurate but might be couched in figurative languag
 A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.
+
 ---
 
 ### Mislead
@@ -544,6 +567,7 @@ You become invisible at the same time that an illusory double of you appears whe
 You can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.
 
 You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
+
 ---
 
 ### Modify Memory
@@ -569,6 +593,7 @@ A modified memory doesn't necessarily affect how a creature behaves, particularl
 A *remove curse* or *greater restoration* spell cast on the target restores the creature's true memory.
 
 ***At Higher Levels***. If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level).
+
 ---
 
 ### Passwall
@@ -586,6 +611,7 @@ A *remove curse* or *greater restoration* spell cast on the target restores the 
 A passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.
 
 When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.
+
 ---
 
 ### Planar Binding
@@ -605,6 +631,7 @@ With this spell, you attempt to bind a celestial, an elemental, a fey, or a fien
 A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of a higher level, the duration increases to 10 days with a 6th-level slot, to 30 days with a 7th-level slot, to 180 days with an 8th-level slot, and to a year and a day with a 9th-level spell slot.
+
 ---
 
 ### Raise Dead
@@ -626,6 +653,7 @@ This spell also neutralizes any poisons and cures nonmagical diseases that affec
 This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival-its head, for instance-the spell automatically fails.
 
 Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
+
 ---
 
 ### Reincarnate
@@ -667,6 +695,7 @@ The magic fashions a new body for the creature to inhabit, which likely causes t
 |       |                     |
 
 The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.
+
 ---
 
 ### Scrying
@@ -701,6 +730,7 @@ On a successful save, the target isn't affected, and you can't use this spell ag
 On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.
 
 Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move.
+
 ---
 
 ### Seeming
@@ -722,6 +752,7 @@ The spell disguises physical appearance as well as clothing, armor, weapons, and
 The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature's outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel the creature's head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.
 
 A creature can use its action to inspect a target and make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
+
 ---
 
 ### Telekinesis
@@ -747,6 +778,7 @@ On subsequent rounds, you can use your action to attempt to maintain your teleki
 If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.
 
 You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.
+
 ---
 
 ### Telepathic Bond
@@ -764,6 +796,7 @@ You can exert fine control on objects with your telekinetic grip, such as manipu
 You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.
 
 Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.
+
 ---
 
 ### Teleportation Circle
@@ -783,6 +816,7 @@ As you cast the spell, you draw a 10-foot diameter circle on the ground inscribe
 Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence-a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the GM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.
 
 You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way.
+
 ---
 
 ### Tree Stride
@@ -800,6 +834,7 @@ You can create a permanent teleportation circle by casting this spell in the sam
 You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.
 
 You can use this transportation ability once per round for the duration. You must end each turn outside a tree.
+
 ---
 
 ### Wall of Force
@@ -817,6 +852,7 @@ You can use this transportation ability once per round for the duration. You mus
 An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).
 
 Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by *dispel magic*. A *disintegrate* spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.
+
 ---
 
 ### Wall of Stone

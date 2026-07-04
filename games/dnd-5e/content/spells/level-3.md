@@ -24,6 +24,7 @@ On each of your turns, you can use a bonus action to mentally command any creatu
 The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.
+
 ---
 
 ### Beacon of Hope
@@ -39,6 +40,7 @@ The creature is under your control for 24 hours, after which it stops obeying an
 **Duration:** Concentration, up to 1 minute
 
 This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.
+
 ---
 
 ### Bestow Curse
@@ -63,6 +65,7 @@ You touch a creature, and that creature must succeed on a Wisdom saving throw or
 A *remove curse* spell ends this effect. At the GM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.
 
 ***At Higher Levels***. If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.
+
 ---
 
 ### Blink
@@ -80,6 +83,7 @@ A *remove curse* spell ends this effect. At the GM's option, you may choose an a
 Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.
 
 While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren't there can't perceive you or interact with you, unless they have the ability to do so.
+
 ---
 
 ### Call Lightning
@@ -101,6 +105,7 @@ When you cast the spell, choose a point you can see under the cloud. A bolt of l
 If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell's damage increases by 1d10.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd.
+
 ---
 
 ### Clairvoyance
@@ -120,6 +125,7 @@ You create an invisible sensor within range in a location familiar to you (a pla
 When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.
 
 A creature that can see the sensor (such as a creature benefiting from *see invisibility* or truesight) sees a luminous, intangible orb about the size of your fist.
+
 ---
 
 ### Conjure Animals
@@ -148,6 +154,7 @@ The summoned creatures are friendly to you and your companions. Roll initiative 
 The GM has the creatures' statistics.
 
 ***At Higher Levels***. When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.
+
 ---
 
 ### Counterspell
@@ -165,6 +172,7 @@ The GM has the creatures' statistics.
 You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.
+
 ---
 
 ### Create Food and Water
@@ -180,6 +188,7 @@ You attempt to interrupt a creature in the process of casting a spell. If the cr
 **Duration:** Instantaneous
 
 You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad.
+
 ---
 
 ### Daylight
@@ -199,6 +208,7 @@ A 60-foot radius sphere of light spreads out from a point you choose within rang
 If you chose a point on an object you are holding or one that isn't being worn or carried, the light shines from the object and moves with it. Completely covering the affected object with an opaque object, such as a bowl or a helm, blocks the light.
 
 If any of this spell's area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.
+
 ---
 
 ### Dispel Magic
@@ -216,6 +226,7 @@ If any of this spell's area overlaps with an area of darkness created by a spell
 Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.
+
 ---
 
 ### Fear
@@ -233,6 +244,7 @@ Choose one creature, object, or magical effect within range. Any spell of 3rd le
 You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration.
 
 While frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.
+
 ---
 
 ### Fireball
@@ -252,6 +264,7 @@ A bright streak flashes from your pointing finger to a point you choose within r
 The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+
 ---
 
 ### Fly
@@ -269,6 +282,7 @@ The fire spreads around corners. It ignites flammable objects in the area that a
 You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
+
 ---
 
 ### Gaseous Form
@@ -288,6 +302,7 @@ You transform a willing creature you touch, along with everything it's wearing a
 While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.
 
 While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.
+
 ---
 
 ### Glyph of Warding
@@ -317,6 +332,7 @@ When you inscribe the glyph, choose *explosive runes* or a *spell glyph*.
 ***Spell Glyph***. You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the damage of an *explosive runes* glyph increases by 1d8 for each slot level above 3rd. If you create a *spell glyph*, you can store any spell of up to the same level as the slot you use for the *glyph of warding*.
+
 ---
 
 ### Haste
@@ -334,6 +350,7 @@ When you inscribe the glyph, choose *explosive runes* or a *spell glyph*.
 Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
 
 When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.
+
 ---
 
 ### Hypnotic Pattern
@@ -351,6 +368,7 @@ When the spell ends, the target can't move or take actions until after its next 
 You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.
 
 The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
+
 ---
 
 ### Lightning Bolt
@@ -370,6 +388,7 @@ A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out fr
 The lightning ignites flammable objects in the area that aren't being worn or carried.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+
 ---
 
 ### Magic Circle
@@ -395,6 +414,7 @@ Choose one or more of the following types of creatures: celestials, elementals, 
 When you cast this spell, you can elect to cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 hour for each slot level above 3rd.
+
 ---
 
 ### Major Image
@@ -416,6 +436,7 @@ As long as you are within range of the illusion, you can use your action to caus
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.
+
 ---
 
 ### Mass Healing Word
@@ -433,6 +454,7 @@ Physical interaction with the image reveals it to be an illusion, because things
 As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.
+
 ---
 
 ### Meld into Stone
@@ -452,6 +474,7 @@ You step into a stone object or surface large enough to fully contain your body,
 While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.
 
 Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.
+
 ---
 
 ### Nondetection
@@ -467,6 +490,7 @@ Minor physical damage to the stone doesn't harm you, but its partial destruction
 **Duration:** 8 hours
 
 For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors.
+
 ---
 
 ### Phantom Steed
@@ -484,6 +508,7 @@ For the duration, you hide a target that you touch from divination magic. The ta
 A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.
 
 For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the steed takes any damage.
+
 ---
 
 ### Plant Growth
@@ -505,6 +530,7 @@ If you cast this spell using 1 action, choose a point within range. All normal p
 You can exclude one or more areas of any size within the spell's area from being affected.
 
 If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.
+
 ---
 
 ### Protection from Energy
@@ -520,6 +546,7 @@ If you cast this spell over 8 hours, you enrich the land. All plants in a half-m
 **Duration:** Concentration, up to 1 hour
 
 For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.
+
 ---
 
 ### Remove Curse
@@ -535,6 +562,7 @@ For the duration, the willing creature you touch has resistance to one damage ty
 **Duration:** Instantaneous
 
 At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.
+
 ---
 
 ### Revivify
@@ -550,6 +578,7 @@ At your touch, all curses affecting one creature or object end. If the object is
 **Duration:** Instantaneous
 
 You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.
+
 ---
 
 ### Sending
@@ -567,6 +596,7 @@ You touch a creature that has died within the last minute. That creature returns
 You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.
 
 You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.
+
 ---
 
 ### Sleet Storm
@@ -586,6 +616,7 @@ Until the spell ends, freezing rain and sleet fall in a 20-foot tall cylinder wi
 The ground in the area is covered with slick ice, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls prone.
 
 If a creature starts its turn in the spell's area and is concentrating on a spell, the creature must make a successful Constitution saving throw against your spell save DC or lose concentration.
+
 ---
 
 ### Slow
@@ -607,6 +638,7 @@ An affected target's speed is halved, it takes a -2 penalty to AC and Dexterity 
 If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.
 
 A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.
+
 ---
 
 ### Speak with Dead
@@ -624,6 +656,7 @@ A creature affected by this spell makes another Wisdom saving throw at the end o
 You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.
 
 Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.
+
 ---
 
 ### Speak with Plants
@@ -647,6 +680,7 @@ Plants might be able to perform other tasks on your behalf, at the GM's discreti
 If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.
 
 This spell can cause the plants created by the *entangle* spell to release a restrained creature.
+
 ---
 
 ### Spirit Guardians
@@ -666,6 +700,7 @@ You call forth spirits to protect you. They flit around you to a distance of 15 
 When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.
+
 ---
 
 ### Stinking Cloud
@@ -685,6 +720,7 @@ You create a 20-foot radius sphere of yellow, nauseating gas centered on a point
 Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.
 
 A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.
+
 ---
 
 ### Tiny Hut
@@ -704,6 +740,7 @@ A 10-foot radius immobile dome of force springs into existence around and above 
 Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.
 
 Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside.
+
 ---
 
 ### Tongues
@@ -719,6 +756,7 @@ Until the spell ends, you can command the interior to become dimly lit or dark. 
 **Duration:** 1 hour
 
 This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.
+
 ---
 
 ### Vampiric Touch
@@ -736,6 +774,7 @@ This spell grants the creature you touch the ability to understand any spoken la
 The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+
 ---
 
 ### Water Breathing
@@ -751,6 +790,7 @@ The touch of your shadow-wreathed hand can siphon life force from others to heal
 **Duration:** 24 hours
 
 This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
+
 ---
 
 ### Water Walk
@@ -768,6 +808,7 @@ This spell grants up to ten willing creatures you can see within range the abili
 This spell grants the ability to move across any liquid surface-such as water, acid, mud, snow, quicksand, or lava-as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.
 
 If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.
+
 ---
 
 ### Wind Wall

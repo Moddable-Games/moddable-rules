@@ -22,6 +22,7 @@ Your magic turns others into beasts. Choose any number of willing creatures that
 The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak or cast spells.
 
 The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment.
+
 ---
 
 ### Antimagic Field
@@ -55,6 +56,7 @@ A magic weapon's properties and powers are suppressed if it is used against a ta
 ***Creatures and Objects***. A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere.
 
 ***Dispel Magic***. Spells and magical effects such as *dispel magic* have no effect on the sphere. Likewise, the spheres created by different *antimagic field* spells don't nullify each other.
+
 ---
 
 ### Antipathy/Sympathy
@@ -80,6 +82,7 @@ If the target damages or otherwise harms an affected creature, the affected crea
 ***Ending the Effect***. If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists.
 
 A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again.
+
 ---
 
 ### Clone
@@ -99,6 +102,7 @@ This spell grows an inert duplicate of a living creature as a safeguard against 
 At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return.
 
 The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The original creature's physical remains, if they still exist, become inert and can't thereafter be restored to life, since the creature's soul is elsewhere.
+
 ---
 
 ### Control Weather
@@ -152,6 +156,7 @@ When you change the weather conditions, find a current condition on the followin
 | 4     | Gale          |
 | 5     | Storm         |
 |       |               |
+
 ---
 
 ### Demiplane
@@ -169,6 +174,7 @@ When you change the weather conditions, find a current condition on the followin
 You create a shadowy door on a flat solid surface that you can see within range. The door is large enough to allow Medium creatures to pass through unhindered. When opened, the door leads to a demiplane that appears to be an empty room 30 feet in each dimension, made of wood or stone. When the spell ends, the door disappears, and any creatures or objects inside the demiplane remain trapped there, as the door also disappears from the other side.
 
 Each time you cast this spell, you can create a new demiplane, or have the shadowy door connect to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can have the shadowy door connect to its demiplane instead.
+
 ---
 
 ### Dominate Monster
@@ -192,6 +198,7 @@ You can use your action to take total and precise control of the target. Until t
 Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.
 
 ***At Higher Levels***. When you cast this spell with a 9th-level spell slot, the duration is concentration, up to 8 hours.
+
 ---
 
 ### Earthquake
@@ -221,6 +228,7 @@ This spell can have additional effects depending on the terrain in the area, as 
 A fissure that opens beneath a structure causes it to automatically collapse (see below).
 
 ***Structures***. The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The GM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried.
+
 ---
 
 ### Feeblemind
@@ -242,6 +250,7 @@ On a failed save, the creature's Intelligence and Charisma scores become 1. The 
 At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.
 
 The spell can also be ended by *greater restoration*, *heal*, or *wish*.
+
 ---
 
 ### Glibness
@@ -257,6 +266,7 @@ The spell can also be ended by *greater restoration*, *heal*, or *wish*.
 **Duration:** 1 hour
 
 Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.
+
 ---
 
 ### Holy Aura
@@ -272,6 +282,7 @@ Until the spell ends, when you make a Charisma check, you can replace the number
 **Duration:** Concentration, up to 1 minute
 
 Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.
+
 ---
 
 ### Incendiary Cloud
@@ -291,6 +302,7 @@ A swirling cloud of smoke shot through with white-hot embers appears in a 20-foo
 When the cloud appears, each creature in it must make a Dexterity saving throw. A creature takes 10d8 fire damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.
 
 The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.
+
 ---
 
 ### Maze
@@ -310,6 +322,7 @@ You banish a creature that you can see within range into a labyrinthine demiplan
 The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).
 
 When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.
+
 ---
 
 ### Mind Blank
@@ -325,6 +338,7 @@ When the spell ends, the target reappears in the space it left or, if that space
 **Duration:** 24 hours
 
 Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils *wish* spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.
+
 ---
 
 ### Power Word Stun
@@ -342,6 +356,7 @@ Until the spell ends, one willing creature you touch is immune to psychic damage
 You speak a word of power that can overwhelm the mind of one creature you can see within range, leaving it dumbfounded. If the target has 150 hit points or fewer, it is stunned. Otherwise, the spell has no effect.
 
 The stunned target must make a Constitution saving throw at the end of each of its turns. On a successful save, this stunning effect ends.
+
 ---
 
 ### Sunburst

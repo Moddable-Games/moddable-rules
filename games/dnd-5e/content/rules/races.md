@@ -4,7 +4,6 @@ slug: races
 parent: dnd-5e
 published: true
 ---
-
 ## Racial Traits
 
 The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.
@@ -36,6 +35,7 @@ By virtue of your race, your character can speak, read, and write certain langua
 ## Subraces
 
 Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world.
+
 ---
 
 ## Dragonborn
@@ -81,6 +81,7 @@ After you use your breath weapon, you can't use it again until you complete a sh
 ***Damage Resistance***. You have resistance to the damage type associated with your draconic ancestry.
 
 ***Languages***. You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+
 ---
 
 ## Dwarf
@@ -118,6 +119,7 @@ As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience
 ***Ability Score Increase***. Your Wisdom score increases by 1.
 
 ***Dwarven Toughness***. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+
 ---
 
 ## Elf
@@ -159,6 +161,7 @@ As a high elf, you have a keen mind and a mastery of at least the basics of magi
 ***Cantrip***. You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
 
 ***Extra Language***. You can speak, read, and write one extra language of your choice.
+
 ---
 
 ## Gnome
@@ -200,6 +203,7 @@ When you create a device, choose one of the following options:
 ***Fire Starter***. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
 
 ***Music Box***. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
+
 ---
 
 ## Half-Elf
@@ -225,6 +229,7 @@ Your half-elf character has some qualities in common with elves and some that ar
 ***Skill Versatility***. You gain proficiency in two skills of your choice.
 
 ***Languages***. You can speak, read, and write Common, Elvish, and one extra language of your choice.
+
 ---
 
 ## Half-Orc
@@ -252,6 +257,7 @@ Your half-orc character has certain traits deriving from your orc ancestry.
 ***Savage Attacks***. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.
 
 ***Languages***. You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.
+
 ---
 
 ## Halfling
@@ -287,6 +293,7 @@ Lightfoots are more prone to wanderlust than other halflings, and often dwell al
 ***Ability Score Increase***. Your Charisma score increases by 1.
 
 ***Naturally Stealthy***. You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
+
 ---
 
 ## Human
@@ -306,6 +313,7 @@ It's hard to make generalizations about humans, but your human character has the
 ***Speed***. Your base walking speed is 30 feet.
 
 ***Languages***. You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.
+
 ---
 
 ## Tiefling

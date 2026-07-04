@@ -20,6 +20,7 @@ published: true
 You create a sword-shaped plane of force that hovers within range. It lasts for the duration.
 
 When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.
+
 ---
 
 ### Conjure Celestial
@@ -41,6 +42,7 @@ The celestial is friendly to you and your companions for the duration. Roll init
 The GM has the celestial's statistics.
 
 ***At Higher Levels***. When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower.
+
 ---
 
 ### Delayed Blast Fireball
@@ -64,6 +66,7 @@ If the glowing bead is touched before the interval has expired, the creature tou
 The fire damages objects in the area and ignites flammable objects that aren't being worn or carried.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 8th level or higher, the base damage increases by 1d6 for each slot level above 7th.
+
 ---
 
 ### Divine Word
@@ -84,6 +87,7 @@ You utter a divine word, imbued with the power that shaped the world at the dawn
 - 40 hit points or fewer: deafened and blinded for 10 minutes
 - 30 hit points or fewer: blinded, deafened, and stunned for 1 hour
 - 20 hit points or fewer: killed instantly Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a *wish* spell.
+
 ---
 
 ### Etherealness
@@ -109,6 +113,7 @@ When the spell ends, you immediately return to the plane you originated from in 
 This spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.
 
 ***At Higher Levels***. When you cast this spell using a spell slot of 8th level or higher, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell.
+
 ---
 
 ### Finger of Death
@@ -126,6 +131,7 @@ This spell has no effect if you cast it while you are on the Ethereal Plane or a
 You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.
 
 A humanoid killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability.
+
 ---
 
 ### Fire Storm
@@ -143,6 +149,7 @@ A humanoid killed by this spell rises at the start of your next turn as a zombie
 A storm made up of sheets of roaring flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a Dexterity saving throw. It takes 7d10 fire damage on a failed save, or half as much damage on a successful one.
 
 The fire damages objects in the area and ignites flammable objects that aren't being worn or carried. If you choose, plant life in the area is unaffected by this spell.
+
 ---
 
 ### Forcecage
@@ -168,6 +175,7 @@ When you cast the spell, any creature that is completely inside the cage's area 
 A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave the cage, it must first make a Charisma saving throw. On a success, the creature can use that magic to exit the cage. On a failure, the creature can't exit the cage and wastes the use of the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.
 
 This spell can't be dispelled by *dispel magic*.
+
 ---
 
 ### Magnificent Mansion
@@ -187,6 +195,7 @@ You conjure an extradimensional dwelling in range that lasts for the duration. Y
 Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.
 
 You can create any floor plan you like, but the space can't exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can't leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.
+
 ---
 
 ### Mirage Arcane
@@ -208,6 +217,7 @@ Similarly, you can alter the appearance of structures, or add them where none ar
 The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into difficult terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell's area disappears immediately.
 
 Creatures with truesight can see through the illusion to the terrain's true form; however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion.
+
 ---
 
 ### Plane Shift
@@ -227,6 +237,7 @@ You and up to eight willing creatures who link hands in a circle are transported
 Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.
 
 You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails this save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.
+
 ---
 
 ### Prismatic Spray
@@ -251,6 +262,7 @@ Eight multicolored rays of light flash from your hand. Each ray is a different c
 - ***Indigo***. On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.
 - ***Violet***. On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)
 - ***Special***. The target is struck by two rays. Roll twice more, rerolling any 8.
+
 ---
 
 ### Project Image
@@ -274,6 +286,7 @@ You can see through its eyes and hear through its ears as if you were in its spa
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A
 
 creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+
 ---
 
 ### Regenerate
@@ -291,6 +304,7 @@ creature that uses its action to examine the image can determine that it is an i
 You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).
 
 The target's severed body members (fingers, legs, tails, and so on), if any, are restored after 2 minutes. If you have the severed part and hold it to the stump, the spell instantaneously causes the limb to knit to the stump.
+
 ---
 
 ### Resurrection
@@ -314,6 +328,7 @@ This spell closes all mortal wounds and restores any missing body parts.
 Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
 
 Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws.
+
 ---
 
 ### Reverse Gravity
@@ -333,6 +348,7 @@ This spell reverses gravity in a 50-foot radius, 100-foot high cylinder centered
 If some solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.
 
 At the end of the duration, affected objects and creatures fall back down.
+
 ---
 
 ### Sequester
@@ -352,6 +368,7 @@ By means of this spell, a willing creature or an object can be hidden away, safe
 If the target is a creature, it falls into a state of suspended animation. Time ceases to flow for it, and it doesn't grow older.
 
 You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include "after 1,000 years" or "when the tarrasque awakens." This spell also ends if the target takes any damage.
+
 ---
 
 ### Simulacrum
@@ -373,6 +390,7 @@ The simulacrum is friendly to you and creatures you designate. It obeys your spo
 If the simulacrum is damaged, you can repair it in an alchemical laboratory, using rare herbs and minerals worth 100 gp per hit point it regains. The simulacrum lasts until it drops to 0 hit points, at which point it reverts to snow and melts instantly.
 
 If you cast this spell again, any currently active duplicates you created with this spell are instantly destroyed.
+
 ---
 
 ### Symbol
@@ -412,6 +430,7 @@ When you inscribe the glyph, choose one of the options below for its effect. Onc
 ***Sleep***. Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.
 
 ***Stunning***. Each target must make a Wisdom saving throw and becomes stunned for 1 minute on a failed save.
+
 ---
 
 ### Teleport
