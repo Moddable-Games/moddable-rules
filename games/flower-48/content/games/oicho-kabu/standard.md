@@ -3,7 +3,7 @@ title: Oicho-Kabu
 slug: oicho-kabu
 board: "none"
 players: "2–8"
-parent: hanafuda
+parent: flower-48
 win: "Closest hand value to 9 beats the banker"
 special: "A betting game using Hanafuda’s month numbers, not suit imagery. Closest to 9 wins. Similar to Baccarat."
 engine:

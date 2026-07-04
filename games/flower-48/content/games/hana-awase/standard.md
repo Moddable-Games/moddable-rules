@@ -3,7 +3,7 @@ title: Hana-Awase
 slug: hana-awase
 board: "none"
 players: "2–4"
-parent: hanafuda
+parent: flower-48
 win: "Highest captured value after all cards are played"
 special: "The base Hanafuda matching game. No yaku — card values only. Simplest entry point to the deck."
 engine:

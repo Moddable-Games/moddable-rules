@@ -3,7 +3,7 @@ title: Koi-Koi
 slug: koi-koi
 board: "none"
 players: "2"
-parent: hanafuda
+parent: flower-48
 win: "First to reach target score across 12 rounds, or highest score"
 order: 1
 special: "The most popular Hanafuda game. Complete a yaku and declare win, or say ‘Koi-Koi’ to keep playing for more — at the risk of losing the bonus."
