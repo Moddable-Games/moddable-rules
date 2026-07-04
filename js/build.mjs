@@ -791,6 +791,79 @@ function buildComponentGames(slug) {
   console.log(`  Built ${games.length} game pages for component hub ${slug}`);
 }
 
+// --- Build sub-pages from content subdirectories (rules/, classes/, spells/, etc.) ---
+function buildPages(slug) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const contentDir = resolve(gameDir, 'content');
+  if (!existsSync(contentDir)) return;
+
+  const parentSrc = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: parentMeta } = matter(parentSrc);
+
+  const skipDirs = new Set(['variants', 'games']);
+  const subdirs = readdirSync(contentDir, { withFileTypes: true })
+    .filter(d => d.isDirectory() && !skipDirs.has(d.name));
+
+  if (subdirs.length === 0) return;
+
+  const variantTemplatePath = resolve(gameDir, 'templates/variant-shell.html');
+  const fallbackTemplatePath = resolve(SHARED_DIR, 'templates/variant-shell.html');
+  const templatePath = existsSync(variantTemplatePath) ? variantTemplatePath : fallbackTemplatePath;
+  const template = readFileSync(templatePath, 'utf8');
+
+  const md = createMarkdownRenderer();
+  let totalPages = 0;
+
+  for (const subdir of subdirs) {
+    const dirPath = resolve(contentDir, subdir.name);
+    const files = readdirSync(dirPath).filter(f => f.endsWith('.md'));
+
+    for (const file of files) {
+      const src = readFileSync(resolve(dirPath, file), 'utf8');
+      const { data: meta, content } = matter(src);
+      const pageSlug = meta.slug || file.replace('.md', '');
+
+      let rendered = md.render(content);
+      rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
+      rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
+                         .replace(/<\/table>/g, '</table></div>');
+
+      let output = template.replace('{{CONTENT}}', rendered);
+      output = output.replace(/\{\{variant_title\}\}/g, meta.title || pageSlug);
+      output = output.replace(/\{\{variant_slug\}\}/g, pageSlug);
+      output = output.replace(/\{\{variant_board\}\}/g, '');
+      output = output.replace(/\{\{variant_players\}\}/g, '');
+      output = output.replace(/\{\{variant_order\}\}/g, '');
+      output = output.replace(/\{\{variant_total\}\}/g, '');
+      const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
+      output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
+      output = output.replace(/\{\{project_version\}\}/g, projVer);
+      output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+      output = output.replace(/\{\{slug\}\}/g, slug);
+      output = output.replace('{{PREV_LINK}}', '<span class="variant-pager-spacer"></span>');
+      output = output.replace('{{NEXT_LINK}}', '<span class="variant-pager-spacer"></span>');
+
+      if (parentMeta.theme) {
+        const surface = parentMeta.theme.surface || THEME_DEFAULTS.surface;
+        output = output.replace('<html lang="en">', `<html lang="en" data-surface="${surface}">`);
+        output = output.replace(
+          /href="[^"]*theme\.css([^"]*)"/g,
+          `href="../../theme.css$1"`
+        );
+      }
+
+      const outDir = resolve(DIST_DIR, slug, subdir.name, pageSlug);
+      mkdirSync(outDir, { recursive: true });
+      writeFileSync(resolve(outDir, 'index.html'), output);
+      totalPages++;
+    }
+  }
+
+  if (totalPages > 0) {
+    console.log(`  Built ${totalPages} sub-pages for ${slug}`);
+  }
+}
+
 // --- Build search index for cross-site API ---
 function buildSearchIndex() {
   const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
@@ -959,6 +1032,7 @@ for (const slug of gameSlugs) {
   buildGame(slug);
   buildVariants(slug);
   buildComponentGames(slug);
+  buildPages(slug);
 }
 
 buildLanding();

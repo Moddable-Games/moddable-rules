@@ -8,7 +8,7 @@ duration: "varies"
 age: "13+"
 tagline: "The open core rules for the world's most popular roleplaying game"
 type: "rpg"
-status: "alpha"
+status: "live"
 updated: "2026-07-04"
 published: true
 variants: false
@@ -26,27 +26,63 @@ theme:
 
 ## Dungeons & Dragons 5th Edition SRD
 
-The Systems Reference Document 5.1 (SRD 5.1) contains the open core rules for D&D 5th Edition, released by Wizards of the Coast under Creative Commons Attribution 4.0 International (CC BY 4.0). This hub will provide the full SRD in browsable, searchable form alongside machine-readable data files.
+The Systems Reference Document 5.1 (SRD 5.1) contains the open core rules for D&D 5th Edition, released by Wizards of the Coast under Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 **Licence:** Creative Commons Attribution 4.0 International (CC BY 4.0).
-**Attribution:** Dungeons & Dragons 5th Edition System Reference Document 5.1, copyright 2016 Wizards of the Coast LLC. Licensed under CC BY 4.0.
+**Attribution:** Dungeons & Dragons 5th Edition System Reference Document 5.1, copyright 2016 Wizards of the Coast LLC.
 
 </div>
 
 <div class="section">
 
-## Planned Content
+### Rules
 
-**Rules:** Using Ability Scores, Adventuring, Combat, Equipment, The Environment, Conditions.
+- [Using Ability Scores](rules/ability-scores/) — The six abilities, saving throws, skills, and ability checks
+- [Races](rules/races/) — SRD racial traits
+- [Equipment](rules/equipment/) — Armour, weapons, and adventuring gear
+- [Combat](rules/combat/) — Initiative, actions, attacks, damage, and conditions
+- [Adventuring](rules/adventuring/) — Travel, rest, environment, and exploration
+- [Conditions](rules/conditions/) — All status condition definitions
+- [Feats](rules/feats/) — SRD feat options
+- [Gamemastering](rules/gamemastering/) — Traps, diseases, madness, poisons, and objects
 
-**Character Classes:** Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock, Wizard.
+</div>
 
-**Spells:** Full spell index by level (Cantrips through 9th level).
+<div class="section">
 
-**Monsters:** Complete SRD bestiary with stat blocks.
+### Character Classes
 
-**Magic Items:** Full index with rarity, attunement, and descriptions.
+- [Barbarian](classes/barbarian/) · [Bard](classes/bard/) · [Cleric](classes/cleric/) · [Druid](classes/druid/)
+- [Fighter](classes/fighter/) · [Monk](classes/monk/) · [Paladin](classes/paladin/) · [Ranger](classes/ranger/)
+- [Rogue](classes/rogue/) · [Sorcerer](classes/sorcerer/) · [Warlock](classes/warlock/) · [Wizard](classes/wizard/)
 
-**Data:** Machine-readable JSON for all entities (see `data/` directory for schema).
+</div>
+
+<div class="section">
+
+### Spells
+
+- [Spellcasting Rules](spells/spellcasting/) · [Spell Lists by Class](spells/spell-list/)
+- [Cantrips](spells/cantrips/) · [1st Level](spells/level-1/) · [2nd Level](spells/level-2/) · [3rd Level](spells/level-3/)
+- [4th Level](spells/level-4/) · [5th Level](spells/level-5/) · [6th Level](spells/level-6/) · [7th Level](spells/level-7/)
+- [8th Level](spells/level-8/) · [9th Level](spells/level-9/)
+
+</div>
+
+<div class="section">
+
+### Monsters
+
+- [A–C](monsters/a-c/) · [D–F](monsters/d-f/) · [G–I](monsters/g-i/) · [J–L](monsters/j-l/)
+- [M–O](monsters/m-o/) · [P–R](monsters/p-r/) · [S–U](monsters/s-u/) · [V–Z](monsters/v-z/)
+
+</div>
+
+<div class="section">
+
+### Magic Items
+
+- [A–C](magic-items/a-c/) · [D–F](magic-items/d-f/) · [G–I](magic-items/g-i/) · [J–L](magic-items/j-l/)
+- [M–O](magic-items/m-o/) · [P–R](magic-items/p-r/) · [S–U](magic-items/s-u/) · [V–Z](magic-items/v-z/)
 
 </div>
