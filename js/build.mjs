@@ -490,6 +490,9 @@ function buildVariants(slug) {
     output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
     output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
     output = output.replace(/\{\{slug\}\}/g, slug);
+    output = output.replace(/\{\{hub_label\}\}/g, 'All Variants');
+    output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/variants/${variantSlug}.md`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/variants/${variantSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
@@ -774,6 +777,9 @@ function buildComponentGames(slug) {
     output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
     output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
     output = output.replace(/\{\{slug\}\}/g, slug);
+    output = output.replace(/\{\{hub_label\}\}/g, 'All Games');
+    output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/games/${gameSlug}/standard.md`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/games/${gameSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
@@ -844,6 +850,9 @@ function buildPages(slug) {
       output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
       output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
       output = output.replace(/\{\{slug\}\}/g, slug);
+      output = output.replace(/\{\{hub_label\}\}/g, 'Contents');
+      output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/${subdir.name}/${file}`);
+      output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/${subdir.name}/${pageSlug}.pdf`);
       output = output.replace('{{PREV_LINK}}', '<span class="variant-pager-spacer"></span>');
       output = output.replace('{{NEXT_LINK}}', '<span class="variant-pager-spacer"></span>');
 
