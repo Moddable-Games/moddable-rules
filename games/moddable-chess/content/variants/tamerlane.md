@@ -1,23 +1,19 @@
 ---
 title: "Tamerlane Chess"
-version: "0.1.0"
-slug: "tamerlane"
+slug: tamerlane
+board: "11×10 + 2 citadels"
 players: "2"
-duration: "60–120 min"
-age: "14+"
-tagline: "The 14th-century chess of Timur: 28 pieces per side, a larger board, and citadel squares where a cornered king may force a draw"
-type: "classic"
-status: "live"
-updated: "2026-06-30"
+parent: moddable-chess
+win: "Checkmate (or bare king with citadel draw)"
+special: "Medieval 14th-century chess of Timur. 28 pieces per side, 12 piece types, three-stage promoting pawn, citadel draw rule."
 published: true
-variants: false
-theme:
-  surface: light
-  tint: warm
-  texture: grain
-  cover: solid
-  typography: classical
-  accent: blue
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 11
+    citadels: 2
+  players: [white, black]
 ---
 
 <div class="section">
