@@ -7,7 +7,7 @@
 <meta name="description" content="Official rulebooks for games published by Moddable Games.">
 <meta property="og:title" content="Moddable Rules — Game Rulebooks">
 <meta property="og:description" content="Official rulebooks for games published by Moddable Games.">
-<meta property="og:image" content="https://rules.moddable.games/shared/og-image.png?v=1.2.2">
+<meta property="og:image" content="https://rules.moddable.games/shared/og-image.png?v=1.2.4">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/">
@@ -16,9 +16,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Moddable Rules — Game Rulebooks">
 <meta name="twitter:description" content="Official rulebooks for games published by Moddable Games.">
-<meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=1.2.2">
+<meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=1.2.4">
 <link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
-<link rel="stylesheet" href="css/landing.css?v=1.2.2">
+<link rel="stylesheet" href="css/landing.css?v=1.2.4">
 <script type="module" src="shared/js/analytics.js"></script>
 </head>
 <body>
@@ -34,8 +34,8 @@
     <h1 class="hero-title">Game Rulebooks</h1>
     <p class="hero-desc">Open rulebooks for original games, creative mods of published titles, and encyclopaedic coverage of public domain classics. Every rule documented, every variant preserved.</p>
     <div class="hero-stats">
-      <span class="hero-stat"><strong>26</strong> games</span>
-      <span class="hero-stat"><strong>154</strong> variants</span>
+      <span class="hero-stat"><strong>35</strong> games</span>
+      <span class="hero-stat"><strong>191</strong> variants</span>
     </div>
   </section>
 
@@ -46,6 +46,8 @@
       <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
       <button class="filter-pill filter-pill--platform" data-filter="platform">Platforms</button>
       <button class="filter-pill filter-pill--classic" data-filter="classic">Classics</button>
+      <button class="filter-pill filter-pill--component" data-filter="component">Components</button>
+      <button class="filter-pill filter-pill--rpg" data-filter="rpg">RPGs</button>
     </div>
     <div class="search-bar">
       <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd"/></svg>
@@ -55,16 +57,159 @@
 
   <div class="game-grid">
 
+    <a href="dist/dnd-5e/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/dnd-5e/logos/dnd-5e-logo.svg" alt="">
+        <p class="card-desc">The open core rules for the world's most popular roleplaying game</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">D&D</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–8 players</span><span class="sep">/</span><span>varies</span></div>
+      </div>
+    </a>
+
+    <a href="dist/double-six-dominoes/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/double-six-dominoes/logos/double-six-dominoes-logo.svg" alt="">
+        <p class="card-desc">Match the pips, build the chain, score the ends</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">D6 Dominoes</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–8 players</span><span class="sep">/</span><span>15–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/flower-48/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/flower-48/logos/flower-48-logo.svg" alt="">
+        <p class="card-desc">Japanese flower cards: 12 monthly suits, 48 cards</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">48 Flowers</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–4 players</span><span class="sep">/</span><span>15–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/hex/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/hex/logos/hex-logo.svg" alt="">
+        <p class="card-desc">Connect your two edges across a diamond of hexagons</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Hex</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–45 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/ironsworn/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/ironsworn/logos/ironsworn-logo.svg" alt="">
+        <p class="card-desc">A perilous quest through the Ironlands, guided by vows and oracle tables</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Ironsworn</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>1–4 players</span><span class="sep">/</span><span>60–240 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/landlords-game/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/landlords-game/logos/landlords-game-logo.svg" alt="">
+        <p class="card-desc">Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">The Landlord's Game</span><span class="card-version">v0.2.0</span></div>
+        
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>60–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/mahjong/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/mahjong/logos/mahjong-logo.svg" alt="">
+        <p class="card-desc">A tile-matching game of skill, strategy, and fortune</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Mahjong</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>4 players</span><span class="sep">/</span><span>30–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/standard-52/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/standard-52/logos/standard-52-logo.svg" alt="">
+        <p class="card-desc">Every game a standard deck of cards can play</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">52 Cards</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>1–8 players</span><span class="sep">/</span><span>10–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/standard-dice/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/standard-dice/logos/standard-dice-logo.svg" alt="">
+        <p class="card-desc">Games built on standard six-sided dice</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Standard Dice</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>1–8 players</span><span class="sep">/</span><span>10–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/stern-halma/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/stern-halma/logos/stern-halma-logo.svg" alt="">
+        <p class="card-desc">Race across the star board to claim the opposite point</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Stern-Halma</span><span class="card-version">v0.2.0</span></div>
+        
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>20–45 min</span></div>
+      </div>
+    </a>
+
     <a href="dist/nukes/index.html" class="game-card" data-type="game">
       <span class="badge badge--live">Live</span>
       <div class="card-logo-wrap">
-        <img class="card-logo" src="games/nukes/logos/nukes-logo.jpg" alt="">
+        <img class="card-logo" src="games/nukes/logos/nukes-logo.png" alt="">
         <p class="card-desc">Cold-war territory control on a hex map with nuclear brinkmanship</p>
       </div>
       <div class="card-body">
-        <div class="card-header"><span class="card-title">Nukes: Official Rulebook</span><span class="card-version">v0.9.8</span></div>
+        <div class="card-header"><span class="card-title">Nukes</span><span class="card-version">v0.9.8</span></div>
         
         <div class="card-meta"><span>2–3 players</span><span class="sep">/</span><span>45+ min</span></div>
+      </div>
+    </a>
+
+    <a href="dist/tafl/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/tafl/logos/tafl-logo.svg" alt="">
+        <p class="card-desc">King against the horde: asymmetric Norse strategy games of the Viking Age</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Tafl</span><span class="card-version">v1.0.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>10–45 min</span></div>
       </div>
     </a>
 
@@ -146,19 +291,6 @@
       </div>
     </a>
 
-    <a href="dist/stern-halma/index.html" class="game-card" data-type="classic">
-      <span class="badge badge--live">Live</span>
-      <div class="card-logo-wrap">
-        <img class="card-logo" src="games/stern-halma/logos/stern-halma-logo.svg" alt="">
-        <p class="card-desc">Race across the star board to claim the opposite point</p>
-      </div>
-      <div class="card-body">
-        <div class="card-header"><span class="card-title">Stern-Halma</span><span class="card-version">v0.1.0</span></div>
-        
-        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>20–45 min</span></div>
-      </div>
-    </a>
-
     <a href="dist/harvesters/index.html" class="game-card" data-type="original">
       <span class="badge badge--dev">draft</span>
       <div class="card-logo-wrap">
@@ -169,19 +301,6 @@
         <div class="card-header"><span class="card-title">Harvesters</span><span class="card-version">v0.1.0</span></div>
         
         <div class="card-meta"><span>3–6 players</span><span class="sep">/</span><span>75–90 min</span></div>
-      </div>
-    </a>
-
-    <a href="dist/landlords-game/index.html" class="game-card" data-type="classic">
-      <span class="badge badge--live">Live</span>
-      <div class="card-logo-wrap">
-        <img class="card-logo" src="games/landlords-game/logos/landlords-game-logo.svg" alt="">
-        <p class="card-desc">Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity</p>
-      </div>
-      <div class="card-body">
-        <div class="card-header"><span class="card-title">The Landlord's Game</span><span class="card-version">v0.1.1</span></div>
-        
-        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>60–120 min</span></div>
       </div>
     </a>
 
@@ -421,13 +540,13 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; 2012&ndash;2026 Moddable Games. All Rights Reserved.</span>
-      <span class="footer-version">v1.2.2</span>
+      <span class="footer-version">v1.2.4</span>
     </div>
   </footer>
 
 </div>
 
-<script type="module" src="js/landing.js?v=1.2.2"></script>
+<script type="module" src="js/landing.js?v=1.2.4"></script>
 <script type="module" src="shared/js/surface-toggle.js"></script>
 </body>
 </html>

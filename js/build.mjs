@@ -281,7 +281,8 @@ function buildGame(slug) {
     project_version: projectVersion,
     slug: slug,
     game_slug: slug,
-    game_title: (meta.title || slug).replace(/ — Official Rulebook$/, ''),
+    game_title: meta.display_title || (meta.title || slug).replace(/ — Official Rulebook$/, ''),
+    game_nav_title: meta.short_title || (meta.title || slug).replace(/ — Official Rulebook$/, '').replace(/ — Component Hub$/, ''),
     tagline: meta.tagline || '',
     players: meta.players || '',
     duration: meta.duration || '',
@@ -487,7 +488,11 @@ function buildVariants(slug) {
     output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
     output = output.replace(/\{\{project_version\}\}/g, projVer);
     output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
     output = output.replace(/\{\{slug\}\}/g, slug);
+    output = output.replace(/\{\{hub_label\}\}/g, 'All Variants');
+    output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/variants/${variantSlug}.md`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/variants/${variantSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
@@ -546,17 +551,26 @@ function buildLanding() {
     if (!existsSync(dir)) return '';
     const files = readdirSync(dir).filter(f => /\.(png|jpg|svg|webp)$/.test(f) && f !== '.gitkeep');
     if (!files.length) return '';
-    const logos = files.filter(f => /logo/i.test(f));
-    const logo = logos.find(f => f.endsWith('.svg')) || logos[0] || files[0];
+    const named = files.filter(f => f.startsWith(slug));
+    const pool = named.length > 0 ? named : files.filter(f => /logo/i.test(f));
+    const logo = pool.find(f => f.endsWith('.svg'))
+      || pool.find(f => f.endsWith('.png'))
+      || pool.find(f => f.endsWith('.jpg') || f.endsWith('.jpeg'))
+      || pool[0] || files[0];
     return `games/${slug}/logos/${logo}`;
   }
 
-  // Count total variants across all games
+  // Count total variants and component games across all games
   let totalVariants = 0;
   for (const slug of allSlugs) {
     const varDir = resolve(GAMES_DIR, slug, 'content/variants');
     if (existsSync(varDir)) {
       totalVariants += readdirSync(varDir).filter(f => f.endsWith('.md')).length;
+    }
+    const compDir = resolve(GAMES_DIR, slug, 'content/games');
+    if (existsSync(compDir)) {
+      totalVariants += readdirSync(compDir, { withFileTypes: true })
+        .filter(d => d.isDirectory()).length;
     }
   }
 
@@ -566,7 +580,7 @@ function buildLanding() {
     const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>` : '';
     const badge = statusLabels[g.status] || g.status || '';
     const badgeClass = statusClasses[g.status] || 'badge--dev';
-    const title = g.title ? g.title.replace(/\s*[—–-]\s*Official Rulebook$/i, '') : g.slug;
+    const title = g.short_title || (g.title ? g.title.replace(/\s*[—–:]\s*Official Rulebook$/i, '').replace(/\s*[—–]\s*Component Hub$/i, '') : g.slug);
     return `    <a href="dist/${g.slug}/index.html" class="game-card" data-type="${g.type || 'game'}">
       <span class="badge ${badgeClass}">${badge}</span>
       <div class="card-logo-wrap">
@@ -629,6 +643,8 @@ function buildLanding() {
       <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
       <button class="filter-pill filter-pill--platform" data-filter="platform">Platforms</button>
       <button class="filter-pill filter-pill--classic" data-filter="classic">Classics</button>
+      <button class="filter-pill filter-pill--component" data-filter="component">Components</button>
+      <button class="filter-pill filter-pill--rpg" data-filter="rpg">RPGs</button>
     </div>
     <div class="search-bar">
       <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd"/></svg>
@@ -682,6 +698,183 @@ ${cards}
 
   writeFileSync(resolve(ROOT, 'index.html'), html);
   console.log('  Built index.html (landing page)');
+}
+
+// --- Build component hub game sub-pages (content/games/{game}/) ---
+function buildComponentGames(slug) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const gamesDir = resolve(gameDir, 'content/games');
+  if (!existsSync(gamesDir)) return;
+
+  const parentSrc = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: parentMeta } = matter(parentSrc);
+  if (parentMeta.hub_type !== 'component') return;
+
+  const variantTemplatePath = resolve(gameDir, 'templates/variant-shell.html');
+  const fallbackTemplatePath = resolve(SHARED_DIR, 'templates/variant-shell.html');
+  const templatePath = existsSync(variantTemplatePath) ? variantTemplatePath : fallbackTemplatePath;
+  const template = readFileSync(templatePath, 'utf8');
+
+  const md = createMarkdownRenderer();
+
+  const gameDirs = readdirSync(gamesDir, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name);
+
+  const games = [];
+  for (const gameSlug of gameDirs) {
+    const standardPath = resolve(gamesDir, gameSlug, 'standard.md');
+    if (!existsSync(standardPath)) continue;
+    const src = readFileSync(standardPath, 'utf8');
+    const { data: meta, content } = matter(src);
+    games.push({ meta, content, slug: meta.slug || gameSlug });
+  }
+
+  games.sort((a, b) => {
+    const ao = a.meta.order ?? Infinity;
+    const bo = b.meta.order ?? Infinity;
+    if (ao !== bo) return ao - bo;
+    return (a.meta.title || a.slug).localeCompare(b.meta.title || b.slug);
+  });
+
+  for (let i = 0; i < games.length; i++) {
+    const { meta, content, slug: gameSlug } = games[i];
+
+    const withSvgs = content.replace(
+      /\{\{svg:([^\s"]+)\s*"([^"]*)"\}\}/g,
+      (_, file, caption) => {
+        const svgPath = resolve(gameDir, 'diagrams/svg', file);
+        if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
+        const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
+        return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
+      }
+    );
+
+    let rendered = md.render(withSvgs);
+    rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
+    rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
+                       .replace(/<\/table>/g, '</table></div>');
+
+    const prev = games[i - 1];
+    const next = games[i + 1];
+    const prevLink = prev
+      ? `<a href="../${prev.slug}/" class="variant-pager-prev">← ${prev.meta.title}</a>`
+      : '<span class="variant-pager-spacer"></span>';
+    const nextLink = next
+      ? `<a href="../${next.slug}/" class="variant-pager-next">${next.meta.title} →</a>`
+      : '<span class="variant-pager-spacer"></span>';
+
+    let output = template.replace('{{CONTENT}}', rendered);
+    output = output.replace(/\{\{variant_title\}\}/g, meta.title || gameSlug);
+    output = output.replace(/\{\{variant_slug\}\}/g, gameSlug);
+    output = output.replace(/\{\{variant_board\}\}/g, meta.board || '');
+    output = output.replace(/\{\{variant_players\}\}/g, meta.players || '');
+    output = output.replace(/\{\{variant_order\}\}/g, String(i + 1));
+    output = output.replace(/\{\{variant_total\}\}/g, String(games.length));
+    const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
+    output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
+    output = output.replace(/\{\{project_version\}\}/g, projVer);
+    output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{slug\}\}/g, slug);
+    output = output.replace(/\{\{hub_label\}\}/g, 'All Games');
+    output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/games/${gameSlug}/standard.md`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/games/${gameSlug}.pdf`);
+    output = output.replace('{{PREV_LINK}}', prevLink);
+    output = output.replace('{{NEXT_LINK}}', nextLink);
+
+    if (parentMeta.theme) {
+      const surface = parentMeta.theme.surface || THEME_DEFAULTS.surface;
+      output = output.replace('<html lang="en">', `<html lang="en" data-surface="${surface}">`);
+      output = output.replace(
+        /href="[^"]*theme\.css([^"]*)"/g,
+        `href="../../theme.css$1"`
+      );
+    }
+
+    const outDir = resolve(DIST_DIR, slug, 'games', gameSlug);
+    mkdirSync(outDir, { recursive: true });
+    writeFileSync(resolve(outDir, 'index.html'), output);
+  }
+
+  console.log(`  Built ${games.length} game pages for component hub ${slug}`);
+}
+
+// --- Build sub-pages from content subdirectories (rules/, classes/, spells/, etc.) ---
+function buildPages(slug) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const contentDir = resolve(gameDir, 'content');
+  if (!existsSync(contentDir)) return;
+
+  const parentSrc = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: parentMeta } = matter(parentSrc);
+
+  const skipDirs = new Set(['variants', 'games']);
+  const subdirs = readdirSync(contentDir, { withFileTypes: true })
+    .filter(d => d.isDirectory() && !skipDirs.has(d.name));
+
+  if (subdirs.length === 0) return;
+
+  const variantTemplatePath = resolve(gameDir, 'templates/variant-shell.html');
+  const fallbackTemplatePath = resolve(SHARED_DIR, 'templates/variant-shell.html');
+  const templatePath = existsSync(variantTemplatePath) ? variantTemplatePath : fallbackTemplatePath;
+  const template = readFileSync(templatePath, 'utf8');
+
+  const md = createMarkdownRenderer();
+  let totalPages = 0;
+
+  for (const subdir of subdirs) {
+    const dirPath = resolve(contentDir, subdir.name);
+    const files = readdirSync(dirPath).filter(f => f.endsWith('.md'));
+
+    for (const file of files) {
+      const src = readFileSync(resolve(dirPath, file), 'utf8');
+      const { data: meta, content } = matter(src);
+      const pageSlug = meta.slug || file.replace('.md', '');
+
+      let rendered = md.render(content);
+      rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
+      rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
+                         .replace(/<\/table>/g, '</table></div>');
+
+      let output = template.replace('{{CONTENT}}', rendered);
+      output = output.replace(/\{\{variant_title\}\}/g, meta.title || pageSlug);
+      output = output.replace(/\{\{variant_slug\}\}/g, pageSlug);
+      output = output.replace(/\{\{variant_board\}\}/g, '');
+      output = output.replace(/\{\{variant_players\}\}/g, '');
+      output = output.replace(/\{\{variant_order\}\}/g, '');
+      output = output.replace(/\{\{variant_total\}\}/g, '');
+      const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
+      output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
+      output = output.replace(/\{\{project_version\}\}/g, projVer);
+      output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+      output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+      output = output.replace(/\{\{slug\}\}/g, slug);
+      output = output.replace(/\{\{hub_label\}\}/g, 'Contents');
+      output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/${subdir.name}/${file}`);
+      output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/${subdir.name}/${pageSlug}.pdf`);
+      output = output.replace('{{PREV_LINK}}', '<span class="variant-pager-spacer"></span>');
+      output = output.replace('{{NEXT_LINK}}', '<span class="variant-pager-spacer"></span>');
+
+      if (parentMeta.theme) {
+        const surface = parentMeta.theme.surface || THEME_DEFAULTS.surface;
+        output = output.replace('<html lang="en">', `<html lang="en" data-surface="${surface}">`);
+        output = output.replace(
+          /href="[^"]*theme\.css([^"]*)"/g,
+          `href="../../theme.css$1"`
+        );
+      }
+
+      const outDir = resolve(DIST_DIR, slug, subdir.name, pageSlug);
+      mkdirSync(outDir, { recursive: true });
+      writeFileSync(resolve(outDir, 'index.html'), output);
+      totalPages++;
+    }
+  }
+
+  if (totalPages > 0) {
+    console.log(`  Built ${totalPages} sub-pages for ${slug}`);
+  }
 }
 
 // --- Build search index for cross-site API ---
@@ -851,6 +1044,8 @@ console.log(`Building ${gameSlugs.length} game(s): ${gameSlugs.join(', ')}`);
 for (const slug of gameSlugs) {
   buildGame(slug);
   buildVariants(slug);
+  buildComponentGames(slug);
+  buildPages(slug);
 }
 
 buildLanding();

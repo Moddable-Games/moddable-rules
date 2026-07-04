@@ -1,0 +1,345 @@
+---
+title: "Magic Items G-I"
+slug: g-i
+parent: dnd-5e
+published: true
+---
+
+### Gauntlets of Ogre Power
+
+*Wondrous item, uncommon (requires attunement)*
+
+Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher.
+
+---
+
+### Gem of Brightness
+
+*Wondrous item, uncommon*
+
+This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:
+
+- The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.
+- The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+- The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.
+
+When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 gp.
+
+---
+
+### Gem of Seeing
+
+*Wondrous item, rare (requires attunement)*
+
+This gem has 3 charges. As an action, you can speak the gem's command word and expend 1 charge. For the next 10 minutes, you have truesight out to 120 feet when you peer through the gem.
+
+The gem regains 1d3 expended charges daily at dawn.
+
+---
+
+### Giant Slayer
+
+*Weapon (any axe or sword), rare*
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.
+
+---
+
+### Glamoured Studded Leather
+
+*Armor (studded leather), rare*
+
+While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.
+
+---
+
+### Gloves of Missile Snaring
+
+*Wondrous item, uncommon (requires attunement)*
+
+These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10+your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.
+
+---
+
+### Gloves of Swimming and Climbing
+
+*Wondrous item, uncommon (requires attunement)*
+
+While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.
+
+---
+
+### Goggles of Night
+
+*Wondrous item, uncommon*
+
+While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.
+
+---
+
+### Hammer of Thunderbolts
+
+*Weapon (maul), legendary*
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+***Giant's Bane (Requires Attunement)***. You must be wearing a *belt of giant strength* (any variety) and *gauntlets of ogre power* to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30. When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die.
+
+The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be stunned until the end of your next turn. The hammer regains 1d4+1 expended charges daily at dawn.
+
+---
+
+### Handy Haversack
+
+*Wondrous item, rare*
+
+This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.
+
+Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.
+
+The haversack has a few limitations. If it is overloaded, or if a sharp object pierces it or tears it, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth, unharmed, and the haversack must be put right before it can be used again. If a breathing creature is placed within the haversack, the creature can survive for up to 10 minutes, after which time it begins to suffocate.
+
+Placing the haversack inside an extradimensional space created by a *bag of holding*, *portable hole*, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.
+
+---
+
+### Hat of Disguise
+
+*Wondrous item, uncommon (requires attunement)*
+
+While wearing this hat, you can use an action to cast the *disguise self* spell from it at will. The spell ends if the hat is removed.
+
+---
+
+### Headband of Intellect
+
+*Wondrous item, uncommon (requires attunement)*
+
+Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher.
+
+---
+
+### Helm of Brilliance
+
+*Wondrous item, very rare (requires attunement)*
+
+This dazzling helm is set with 1d10 diamonds, 2d10 rubies, 3d10 fire opals, and 4d10 opals. Any gem pried from the helm crumbles to dust. When all the gems are removed or destroyed, the helm loses its magic.
+
+You gain the following benefits while wearing it:
+
+- You can use an action to cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: *daylight* (opal), *fireball* (fire opal), *prismatic spray* (diamond), or *wall of fire* (ruby). The gem is destroyed when the spell is cast and disappears from the helm.
+- As long as it has at least one diamond, the helm emits dim light in a 30-foot radius when at least one undead is within that area. Any undead that starts its turn in that area takes 1d6 radiant damage.
+- As long as the helm has at least one ruby, you have resistance to fire damage.
+- As long as the helm has at least one fire opal, you can use an action and speak a command word to cause one weapon you are holding to burst into flames. The flames emit bright light in a 10-foot radius and dim light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 fire damage. The flames last until you use a bonus action to speak the command word again or until you drop or stow the weapon.
+
+Roll a d20 if you are wearing the helm and take fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems. Each creature within 60 feet of the helm other than you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking radiant damage equal to the number of gems in the helm. The helm and its gems are then destroyed.
+
+---
+
+### Helm of Comprehending Languages
+
+*Wondrous item, uncommon*
+
+While wearing this helm, you can use an action to cast the *comprehend languages* spell from it at will.
+
+---
+
+### Helm of Telepathy
+
+*Wondrous item, uncommon (requires attunement)*
+
+While wearing this helm, you can use an action to cast the *detect thoughts* spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply-using a bonus action to do so-while your focus on it continues.
+
+While focusing on a creature with *detect thoughts*, you can use an action to cast the *suggestion* spell (save DC 13) from the helm on that creature. Once used, the *suggestion* property can't be used again until the next dawn.
+
+---
+
+### Helm of Teleportation
+
+*Wondrous item, rare (requires attunement)*
+
+This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the *teleport* spell from it. The helm regains 1d3 expended charges daily at dawn.
+
+---
+
+### Holy Avenger
+
+*Weapon (any sword), legendary (requires attunement by a paladin)*
+
+You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
+
+While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.
+
+---
+
+### Horn of Blasting
+
+*Wondrous item, rare*
+
+You can use an action to speak the horn's command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6 thunder damage and is deafened for 1 minute. On a successful save, a creature takes half as much damage and isn't deafened. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6 thunder damage instead of 5d6.
+
+Each use of the horn's magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn.
+
+---
+
+### Horn of Valhalla
+
+*Wondrous item, rare (silver or brass), very rare (bronze), or legendary (iron)*
+
+You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.
+
+Four types of *horn of Valhalla* are known to exist, each made of a different metal. The horn's type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn's type or determines it randomly.
+
+**Table- Horn of Valhalla**
+
+| d100  | Horn Type | Berserkers Summoned | Requirement                          |
+|-------|-----------|---------------------|--------------------------------------|
+| 01-40 | Silver    | 2d4+2               | None                                 |
+| 41-75 | Brass     | 3d4+3               | Proficiency with all simple weapons  |
+| 76-90 | Bronze    | 4d4+4               | Proficiency with all medium armor    |
+| 91-00 | Iron      | 5d4+5               | Proficiency with all martial weapons |
+|       |           |                     |                                      |
+
+If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.
+
+---
+
+### Horseshoes of a Zephyr
+
+*Wondrous item, very rare*
+
+These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores difficult terrain. In addition, the creature can move at normal speed for up to 12 hours a day without suffering exhaustion from a forced march.
+
+---
+
+### Horseshoes of Speed
+
+*Wondrous item, rare*
+
+These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creature's walking speed by 30 feet.
+
+---
+
+### Immovable Rod
+
+*Rod, uncommon*
+
+This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.
+
+---
+
+### Instant Fortress
+
+*Wondrous item, rare*
+
+You can use an action to place this 1-inch metal cube on the ground and speak its command word. The cube rapidly grows into a fortress that remains until you use an action to speak the command word that dismisses it, which works only if the fortress is empty.
+
+The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the *knock* spell and similar magic, such as that of a *chime of opening*.
+
+Each creature in the area where the fortress appears must make a DC 15 Dexterity saving throw, taking 10d10 bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.
+
+The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points,
+
+immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a *wish* spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of *wish* causes the roof, the door, or one wall to regain 50 hit points.
+
+---
+
+### Ioun Stone
+
+*Wondrous item, rarity varies (requires attunement)*
+
+An *Ioun stone* is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of *Ioun stone* exist, each type a distinct combination of shape and color.
+
+When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+
+A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.
+
+***Absorption (Very Rare)***. While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.
+
+Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.
+
+***Agility (Very Rare)***. Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.
+
+***Awareness (Rare)***. You can't be surprised while this dark blue rhomboid orbits your head.
+
+***Fortitude (Very Rare)***. Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.
+
+***Greater Absorption (Legendary)***. While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you.
+
+Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.
+
+***Insight (Very Rare)***. Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.
+
+***Intellect (Very Rare)***. Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.
+
+***Leadership (Very Rare)***. Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.
+
+***Mastery (Legendary)***. Your proficiency bonus increases by 1 while this pale green prism orbits your head.
+
+***Protection (Rare)***. You gain a +1 bonus to AC while this dusty rose prism orbits your head.
+
+***Regeneration (Legendary)***. You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point.
+
+***Reserve (Rare)***. This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 3 levels worth of spells at a time. When found, it contains 1d4-1 levels of stored spells chosen by the GM.
+
+Any creature can cast a spell of 1st through 3rd level into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
+
+While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.
+
+***Strength (Very Rare)***. Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.
+
+***Sustenance (Rare)***. You don't need to eat or drink while this clear spindle orbits your head.
+
+---
+
+### Iron Bands of Binding
+
+*Wondrous item, rare*
+
+This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Huge or smaller creature you can see within 60 feet of you. As the sphere moves through the air, it opens into a tangle of metal bands.
+
+Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is restrained until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.
+
+A creature, including the one restrained, can use an action to make a DC 20 Strength check to break the iron bands. On a success, the item is destroyed, and the restrained creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.
+
+Once the bands are used, they can't be used again until the next dawn.
+
+---
+
+### Iron Flask
+
+*Wondrous item, legendary*
+
+This iron bottle has a brass stopper. You can use an action to speak the flask's command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't need to breathe, eat, or drink and doesn't age.
+
+You can use an action to remove the flask's stopper and release the creature the flask contains. The creature is friendly to you and your companions for 1 hour and obeys your commands for that duration. If you give no commands or give it a command that is likely to result in its death, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.
+
+An *identify* spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the GM or determined randomly.
+
+**Table- Iron Flask**
+
+| d100  | Contents          |
+|-------|-------------------|
+| 1‒50  | Empty             |
+| 51‒54 | Demon (type 1)    |
+| 55‒58 | Demon (type 2)    |
+| 59‒62 | Demon (type 3)    |
+| 63‒64 | Demon (type 4)    |
+| 65    | Demon (type 5)    |
+| 66    | Demon (type 6)    |
+| 67    | Deva              |
+| 68‒69 | Devil (greater)   |
+| 70‒73 | Devil (lesser)    |
+| 74‒75 | Djinni            |
+| 76‒77 | Efreeti           |
+| 78‒83 | Elemental (any)   |
+| 84‒86 | Invisible stalker |
+| 87‒90 | Night hag         |
+| 91    | Planetar          |
+| 92‒95 | Salamander        |
+| 96    | Solar             |
+| 97‒99 | Succubus/incubus  |
+| 100   | Xorn              |
+|       |                   |

@@ -10,6 +10,7 @@ type: "game"
 status: "live"
 updated: "2026-06-27"
 first_published: "January 2012"
+published: true
 variants: true
 variant_hub: false
 logo_has_title: true

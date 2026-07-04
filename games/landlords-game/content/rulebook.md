@@ -1,6 +1,6 @@
 ---
 title: "The Landlord's Game — Official Rulebook"
-version: "0.1.1"
+version: "0.2.0"
 slug: "landlords-game"
 players: "2–6"
 duration: "60–120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity"
 type: "classic"
 status: "live"
-updated: "2026-06-21"
+updated: "2026-07-04"
 published: true
 variants: true
 theme:
@@ -143,6 +143,16 @@ This library includes {{variant_count}} variants.
 - [Monarch of the World](variants/monarch-of-the-world/) — Demonstration proving Magie's thesis: one player holds all land; they win despite holding no wages
 
 </div>
+
+</div>
+
+<div class="section">
+
+## Board Data
+
+Machine-readable JSON containing the complete board layout for all three editions (1904, 1906, 1932). Every space with its position, name, type, price, and rent. Used for diagram generation by moddable-engine.
+
+- [boards.json](../../games/landlords-game/data/boards.json)
 
 </div>
 

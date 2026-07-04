@@ -136,6 +136,94 @@
     "anchor": "attribution"
   },
   {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Dungeons & Dragons 5th Edition SRD",
+    "content": "The Systems Reference Document 5.1 SRD 5.1 contains the open core rules for D&D 5th Edition, released by Wizards of the Coast under Creative Commons Attribution 4.0 International CC BY 4.0. Licence: C",
+    "anchor": "dungeons-dragons-5th-edition-srd"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Rules",
+    "content": "- Using Ability Scoresrules/ability-scores/ — The six abilities, saving throws, skills, and ability checks - Racesrules/races/ — SRD racial traits Dragonborn, Dwarf, Elf, Gnome, Half-Elf, Half-Orc, Ha",
+    "anchor": "rules"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Character Classes",
+    "content": "- Barbarianclasses/barbarian/ · Bardclasses/bard/ · Clericclasses/cleric/ · Druidclasses/druid/ - Fighterclasses/fighter/ · Monkclasses/monk/ · Paladinclasses/paladin/ · Rangerclasses/ranger/ - Roguec",
+    "anchor": "character-classes"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Spells",
+    "content": "- Spellcasting Rulesspells/spellcasting/ · Spell Lists by Classspells/spell-list/ - Cantripsspells/cantrips/ · 1st Levelspells/level-1/ · 2nd Levelspells/level-2/ · 3rd Levelspells/level-3/ - 4th Leve",
+    "anchor": "spells"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Monsters",
+    "content": "- A–Cmonsters/a-c/ · D–Fmonsters/d-f/ · G–Imonsters/g-i/ · J–Lmonsters/j-l/ - M–Omonsters/m-o/ · P–Rmonsters/p-r/ · S–Umonsters/s-u/ · V–Zmonsters/v-z/",
+    "anchor": "monsters"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Magic Items",
+    "content": "- A–Cmagic-items/a-c/ · D–Fmagic-items/d-f/ · G–Imagic-items/g-i/ · J–Lmagic-items/j-l/ - M–Omagic-items/m-o/ · P–Rmagic-items/p-r/ · S–Umagic-items/s-u/ · V–Zmagic-items/v-z/",
+    "anchor": "magic-items"
+  },
+  {
+    "game": "dnd-5e",
+    "gameTitle": "Dungeons & Dragons 5th Edition SRD",
+    "section": "Dungeons & Dragons 5th Edition SRD",
+    "heading": "Machine-Readable Data",
+    "content": "Structured JSON for all SRD entities, sourced from 5e-bits/5e-database CC BY 4.0. - ability-scores.json../../games/dnd-5e/data/ability-scores.json · classes.json../../games/dnd-5e/data/classes.json · ",
+    "anchor": "machine-readable-data"
+  },
+  {
+    "game": "double-six-dominoes",
+    "gameTitle": "Double-Six Dominoes",
+    "section": "Double-Six Dominoes",
+    "heading": "Double-Six Dominoes",
+    "content": "Games using the standard Western double-6 domino set. Dominoes are tile-matching games: players extend a chain by playing tiles whose pip values match the open ends of the layout.",
+    "anchor": "double-six-dominoes"
+  },
+  {
+    "game": "double-six-dominoes",
+    "gameTitle": "Double-Six Dominoes",
+    "section": "Double-Six Dominoes",
+    "heading": "The Double-6 Set (28 tiles)",
+    "content": "28 tiles covering every combination of two values from 0 to 6 including doubles. Each tile is called a bone. Tiles with the same pip on both halves are doubles. Detail --- 28 0-0 through 6-6 Pip range",
+    "anchor": "the-double-6-set-28-tiles"
+  },
+  {
+    "game": "double-six-dominoes",
+    "gameTitle": "Double-Six Dominoes",
+    "section": "Games",
+    "heading": "Games",
+    "content": "- Blockgames/block/ — The foundation game. Match ends, no drawing from the boneyard. First to empty hand or block opponent wins. - All Fivesgames/all-fives/ — Block with scoring. Score when open ends ",
+    "anchor": "games"
+  },
+  {
+    "game": "double-six-dominoes",
+    "gameTitle": "Double-Six Dominoes",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "All games in this hub are public domain. Individual attribution in each game entry.",
+    "anchor": "attribution"
+  },
+  {
     "game": "draughts",
     "gameTitle": "Draughts",
     "section": "Variant Library",
@@ -624,6 +712,46 @@
     "anchor": "attribution"
   },
   {
+    "game": "flower-48",
+    "gameTitle": "Flower 48",
+    "section": "Hanafuda",
+    "heading": "Hanafuda",
+    "content": "A Japanese 48-card deck divided into 12 suits, one for each month of the year. Each suit depicts a seasonal flower or plant. Multiple completely different games are played with this deck.",
+    "anchor": "hanafuda"
+  },
+  {
+    "game": "flower-48",
+    "gameTitle": "Flower 48",
+    "section": "Hanafuda",
+    "heading": "The 48-Card Deck",
+    "content": "12 suits of 4 cards each. Within each suit, cards are ranked by type: Bright, Animal, Ribbon, Plain. Suit Flower Animal Plains --- --- --- Pine — 2 February — Red Poetry Cherry Blossom — 2 April — Red",
+    "anchor": "the-48-card-deck"
+  },
+  {
+    "game": "flower-48",
+    "gameTitle": "Flower 48",
+    "section": "Games",
+    "heading": "Games",
+    "content": "- Koi-Koigames/koi-koi/ — Two-player matching game. Complete a yaku scoring pattern, then choose: stop and score, or call \"koi-koi\" to continue for higher stakes. - Hana-Awasegames/hana-awase/ — The b",
+    "anchor": "games"
+  },
+  {
+    "game": "flower-48",
+    "gameTitle": "Flower 48",
+    "section": "Not in Scope",
+    "heading": "Not in Scope",
+    "content": "Go-Stop Hwatu uses Korean Hwatu cards same imagery, plastic, different yaku and multi-winner mechanics. Separate hub required.",
+    "anchor": "not-in-scope"
+  },
+  {
+    "game": "flower-48",
+    "gameTitle": "Flower 48",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "Hanafuda. Traditional Japanese playing cards, origins in the 17th century. Public domain. Rules confirmed from Pagat.com and Wikipedia.",
+    "anchor": "attribution"
+  },
+  {
     "game": "go",
     "gameTitle": "Go",
     "section": "Variant Library",
@@ -686,6 +814,30 @@
     "heading": "Variant Library",
     "content": "Halma is an abstract strategy race game invented in 1883 by George Howard Monks, an American surgeon in Boston. Played on a 16&times;16 checkered board, each player occupies a triangular corner camp a",
     "anchor": "variant-library"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Overview",
+    "heading": "Overview",
+    "content": "Hex is a two-player connection game played on a rhombus-shaped board of hexagonal cells. Each player is assigned two opposite edges of the board and takes turns placing a stone of their colour on any ",
+    "anchor": "overview"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Variants",
+    "heading": "Variants",
+    "content": "- Yvariants/y-game/ — Triangular hex board. Win by connecting all three edges with a single chain.",
+    "anchor": "variants"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "Hex. Invented independently by Piet Hein 1942, Denmark and John Nash 1948, Princeton. Public domain. Rules confirmed from Wikipedia and BGG.",
+    "anchor": "attribution"
   },
   {
     "game": "hyper-imperium",
@@ -952,6 +1104,30 @@
     "anchor": "unit-upgrades"
   },
   {
+    "game": "ironsworn",
+    "gameTitle": "Ironsworn",
+    "section": "Ironsworn",
+    "heading": "Ironsworn",
+    "content": "A tabletop roleplaying game by Shawn Tomkin set in the mythic dark fantasy world of the Ironlands. Players take on the role of Ironsworn, heroes bound to sworn vows who face peril, make allies, and ex",
+    "anchor": "ironsworn"
+  },
+  {
+    "game": "ironsworn",
+    "gameTitle": "Ironsworn",
+    "section": "Ironsworn",
+    "heading": "Core Rules",
+    "content": "- Stats and Tracksrules/stats/ — The Basics: stats, action rolls, momentum, progress tracks, harm, stress, assets, oracles, bonds - Your Characterrules/vows/ — Vows, bonds, debilities, experience, cha",
+    "anchor": "core-rules"
+  },
+  {
+    "game": "ironsworn",
+    "gameTitle": "Ironsworn",
+    "section": "Ironsworn",
+    "heading": "Oracle Tables",
+    "content": "Roll dice and consult for narrative inspiration. Machine-readable JSON: - action.json../../games/ironsworn/oracles/action.json · theme.json../../games/ironsworn/oracles/theme.json · combat-action.json",
+    "anchor": "oracle-tables"
+  },
+  {
     "game": "landlords-game",
     "gameTitle": "The Landlord's Game",
     "section": "History",
@@ -1002,10 +1178,26 @@
   {
     "game": "landlords-game",
     "gameTitle": "The Landlord's Game",
+    "section": "Board Data",
+    "heading": "Board Data",
+    "content": "Machine-readable JSON containing the complete board layout for all three editions 1904, 1906, 1932. Every space with its position, name, type, price, and rent. Used for diagram generation by moddable-",
+    "anchor": "board-data"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
     "section": "Attribution",
     "heading": "Attribution",
     "content": "The Landlord's Game. Designed by Elizabeth J. Magie. Original patent: US748626, granted 5 January 1904, expired 1921. Public domain. Sources: US Patent 748,626 public domain; Wikipedia: The Landlord's",
     "anchor": "attribution"
+  },
+  {
+    "game": "mahjong",
+    "gameTitle": "Mahjong",
+    "section": "Mahjong",
+    "heading": "Mahjong",
+    "content": "A tile game originating in China and played worldwide in many regional forms. Players draw and discard tiles from a shared wall to complete a winning hand of melds and a pair. The 136-tile core, three",
+    "anchor": "mahjong"
   },
   {
     "game": "mancala",
@@ -1552,11 +1744,67 @@
     "anchor": "distinctive-mechanics"
   },
   {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Standard 52-Card Deck",
+    "heading": "Standard 52-Card Deck",
+    "content": "Games played with the standard French-suited 52-card deck. Four suits Spades, Hearts, Diamonds, Clubs, thirteen ranks per suit A, 2-10, J, Q, K. Some games add 1-2 jokers.",
+    "anchor": "standard-52-card-deck"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Standard 52-Card Deck",
+    "heading": "The Deck",
+    "content": "Detail --- 52 + optional jokers Suits 13 per suit A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K Colours",
+    "anchor": "the-deck"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Games",
+    "content": "- Big 2games/big2/ — Climbing card game where 2 is highest. Play singles, pairs, or poker hands to empty your hand first. - Presidentgames/president/ — Multi-round climbing game with role-based card t",
+    "anchor": "games"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "All games in this hub use public domain mechanics. Individual attribution in each game entry.",
+    "anchor": "attribution"
+  },
+  {
+    "game": "standard-dice",
+    "gameTitle": "Standard Dice",
+    "section": "Standard Dice",
+    "heading": "Standard Dice",
+    "content": "Games whose primary component is one or more standard six-sided dice d6, pips 1-6. The shared component set: Description --- Standard d6, pips 1-6 Cup Paper tracking some games Chips/tokens",
+    "anchor": "standard-dice"
+  },
+  {
+    "game": "standard-dice",
+    "gameTitle": "Standard Dice",
+    "section": "Games",
+    "heading": "Games",
+    "content": "- Yahtzeegames/yahtzee/ — 5 dice, 13 scoring categories, three rolls per turn. Fill every box. Highest total wins. - Liar's Dicegames/liars-dice/ — Hidden dice under cups. Bid on total faces across al",
+    "anchor": "games"
+  },
+  {
+    "game": "standard-dice",
+    "gameTitle": "Standard Dice",
+    "section": "Attribution",
+    "heading": "Attribution",
+    "content": "All games in this hub are public domain or use mechanics in the public domain. Individual attribution in each game entry.",
+    "anchor": "attribution"
+  },
+  {
     "game": "stern-halma",
     "gameTitle": "Stern-Halma",
     "section": "Overview",
     "heading": "Overview",
-    "content": "Stern-Halma originated in Germany in 1892 as a variation of the older American game Halma. It supports two to six players and is played on a six-pointed star board.",
+    "content": "Stern-Halma originated in Germany in 1892 as a variation of the older American game Halma. It supports two to six players and is played on a six-pointed star board with 121 holes. Each player fills on",
     "anchor": "overview"
   },
   {
@@ -1564,40 +1812,16 @@
     "gameTitle": "Stern-Halma",
     "section": "The Board",
     "heading": "The Board",
-    "content": "The board is in the shape of a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes: - 6 triangular arms, each with 10 holes arranged in four rows of 4, 3, 2, 1 hole",
+    "content": "The board is a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes: - 6 triangular arms, each with 10 holes arranged in four rows of 4, 3, 2, 1 outermost to innermo",
     "anchor": "the-board"
   },
   {
     "game": "stern-halma",
     "gameTitle": "Stern-Halma",
-    "section": "Setup",
-    "heading": "Setup",
-    "content": "Pieces: Each player has 10 pieces in a distinct colour, filling one triangular arm. Camp assignment by player count: Arms used --- N and S N, SE, and SW NE, SE, SW, and NW All six arms Note: 5-player ",
-    "anchor": "setup"
-  },
-  {
-    "game": "stern-halma",
-    "gameTitle": "Stern-Halma",
-    "section": "Movement",
-    "heading": "Movement",
-    "content": "On each turn a player moves one marble. A marble may: - Step: Move to any adjacent hole, provided it is empty. A marble may step in any of the six directions of the triangular grid. - Hop: Jump over a",
-    "anchor": "movement"
-  },
-  {
-    "game": "stern-halma",
-    "gameTitle": "Stern-Halma",
-    "section": "Winning",
-    "heading": "Winning",
-    "content": "The first player to move all 10 of their marbles into the triangular arm diagonally opposite their starting arm wins.",
-    "anchor": "winning"
-  },
-  {
-    "game": "stern-halma",
-    "gameTitle": "Stern-Halma",
-    "section": "Camp Rule",
-    "heading": "Camp Rule",
-    "content": "Once a marble enters the destination arm, it is strongly recommended that it remain there. The treatment of marbles that have reached the goal whether they may be moved back out to assist chain hops i",
-    "anchor": "camp-rule"
+    "section": "Variants",
+    "heading": "Variants",
+    "content": "- Standard 2-Playervariants/standard-2p/ — N vs S arms, 10 pieces each. The foundational form. - Standard 3-Playervariants/standard-3p/ — N, SE, SW arms alternating. Each player crosses to the opposit",
+    "anchor": "variants"
   },
   {
     "game": "stern-halma",
@@ -1678,6 +1902,14 @@
     "heading": "Attribution",
     "content": "Surakarta. Traditional game attributed to Surakarta Solo, Central Java, Indonesia. European publication by Ravensberger, Germany, 1971. Public domain. Sources: Ludii Project, Maastricht University lud",
     "anchor": "attribution"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Tafl Old Norse: \"table\" is a family of asymmetric board games played across Norse and Celtic Northern Europe from around 400 AD until chess displaced them in the 11th and 12th century. One player comm",
+    "anchor": "variant-library"
   },
   {
     "game": "talisman-worlds",
@@ -5116,6 +5348,66 @@
     "variantUrl": "dist/halma/variants/standard-4p/"
   },
   {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y",
+    "heading": "Y",
+    "content": "Invented by Claude Shannon and Craige Schensted in the 1950s. Played on a triangular board of hexagonal cells. Two players alternate placing stones. The first player to form a connected group touching",
+    "anchor": "y",
+    "variant": "y-game",
+    "variantUrl": "dist/hex/variants/y-game/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y",
+    "heading": "Board",
+    "content": "A triangular grid of hexagonal cells. Standard sizes range from side-length 9 to 15. Each edge of the triangle is one \"side\" — there are three sides total. Corner cells touch two edges simultaneously.",
+    "anchor": "board",
+    "variant": "y-game",
+    "variantUrl": "dist/hex/variants/y-game/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y",
+    "heading": "Setup",
+    "content": "The board starts empty. Black plays first.",
+    "anchor": "setup",
+    "variant": "y-game",
+    "variantUrl": "dist/hex/variants/y-game/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y",
+    "heading": "Rules",
+    "content": "1. Players alternate placing one stone of their colour on any empty cell 2. Stones never move or are captured once placed 3. The first player to form a single connected group of their stones that touc",
+    "anchor": "rules",
+    "variant": "y-game",
+    "variantUrl": "dist/hex/variants/y-game/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y",
+    "heading": "Key Differences from Hex",
+    "content": "Hex ----- Rhombus/parallelogram 4 2 per player Connect YOUR 2 opposite edges Corners belong to one player's edges Impossible Hex property",
+    "anchor": "key-differences-from-hex",
+    "variant": "y-game",
+    "variantUrl": "dist/hex/variants/y-game/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y",
+    "heading": "Why This Tests the Engine",
+    "content": "Y generalises the connection-win mechanic from \"2 edges, each owned by a player\" to \"3 edges, first to touch all three\". The engine's hasPath traversal needs to detect multi-target connectivity — not ",
+    "anchor": "why-this-tests-the-engine",
+    "variant": "y-game",
+    "variantUrl": "dist/hex/variants/y-game/"
+  },
+  {
     "game": "landlords-game",
     "gameTitle": "The Landlord's Game",
     "section": "1904 Original",
@@ -5280,7 +5572,7 @@
     "gameTitle": "The Landlord's Game",
     "section": "Prosperity",
     "heading": "Prosperity",
-    "content": "The Prosperity variant is the named, discrete-win-condition version of Elizabeth Magie's Anti-Monopolist gameplay. It first appeared under this name in the 1932 Adgame Company edition \"Landlord's Game",
+    "content": "Published under US Patent 1,509,312 by the Adgame Company of Washington, D.C. in 1932, this is Elizabeth Magie Phillips' final design. Despite sharing a board with \"The Landlord's Game\" printed on the",
     "anchor": "prosperity",
     "variant": "prosperity",
     "variantUrl": "dist/landlords-game/variants/prosperity/"
@@ -5289,8 +5581,18 @@
     "game": "landlords-game",
     "gameTitle": "The Landlord's Game",
     "section": "Prosperity",
+    "heading": "Components",
+    "content": "Quantity --- 1 20 3 3 16 40 4 1 4 1 2 $6,600 total",
+    "anchor": "components",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
     "heading": "Setup",
-    "content": "As per the 1906 Commercial Edition.",
+    "content": "- 4 players. Each receives $500 starting cash, 1 checker, 1 improvement tag, and 1 No Trespassing sign tag matches checker colour. - Shuffle all 42 cards and deal one at a time until each player has 8",
     "anchor": "setup",
     "variant": "prosperity",
     "variantUrl": "dist/landlords-game/variants/prosperity/"
@@ -5299,9 +5601,39 @@
     "game": "landlords-game",
     "gameTitle": "The Landlord's Game",
     "section": "Prosperity",
-    "heading": "Rules",
-    "content": "As per the 1906 Commercial Edition, with the following change: the win condition is collective rather than individual. No player may be forced into bankruptcy during play. Players may freely assist ea",
-    "anchor": "rules",
+    "heading": "Movement",
+    "content": "Direction: Clockwise to the left from the Wages corner. Dice: Roll 2d6 and move forward that many spaces. Count the Jail space as 1, Wayback as 2, etc. Follow the rule for the space landed on. Doubles",
+    "anchor": "movement",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Chance Cube",
+    "content": "Thrown only after rolling doubles, after completing the normal move. Six faces: Effect --- Caught robbing a hen-roost. Go to Jail. 10 Draw a card from the board For Sale pile. 20 Loss by fire. Return ",
+    "anchor": "chance-cube",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Space Rules",
+    "content": "Land In Use green spaces: Pay land rent to the owner. If you own the space, take rent from the board. If the card is still on the For Sale pile, highest bidder takes the card; the landing player has f",
+    "anchor": "space-rules",
+    "variant": "prosperity",
+    "variantUrl": "dist/landlords-game/variants/prosperity/"
+  },
+  {
+    "game": "landlords-game",
+    "gameTitle": "The Landlord's Game",
+    "section": "Prosperity",
+    "heading": "Property Rules",
+    "content": "No Trespassing signs: Place on any green Land In Use space you own. Any other player who lands there is sent to Jail. When 4 or more signs are placed on one side of the board, land rent on that entire",
+    "anchor": "property-rules",
     "variant": "prosperity",
     "variantUrl": "dist/landlords-game/variants/prosperity/"
   },
@@ -5310,7 +5642,7 @@
     "gameTitle": "The Landlord's Game",
     "section": "Prosperity",
     "heading": "Winning",
-    "content": "The game ends when the player with the least money has doubled their original starting stake. All players win collectively at that point. Example: in a 3-player game with $500 starting cash each, the ",
+    "content": "The first player to accumulate $3,000 in cash wins. Players may agree to raise this limit before play begins.",
     "anchor": "winning",
     "variant": "prosperity",
     "variantUrl": "dist/landlords-game/variants/prosperity/"
@@ -5320,7 +5652,7 @@
     "gameTitle": "The Landlord's Game",
     "section": "Prosperity",
     "heading": "Attribution",
-    "content": "Prosperity. Named in the Adgame Company edition, 1932, published under US Patent 1,509,312. Designed by Elizabeth J. Magie. Public domain. Sources: Wikipedia: The Landlord's Game CC-BY-SA for win cond",
+    "content": "Prosperity. Published by the Adgame Company Inc., Washington, D.C., 1932. Designed by Elizabeth Magie Phillips. US Patent 1,509,312 filed 1923, granted 1924. Public domain patent expired 1941. Sources",
     "anchor": "attribution",
     "variant": "prosperity",
     "variantUrl": "dist/landlords-game/variants/prosperity/"
@@ -6008,6 +6340,136 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Alice Chess",
+    "content": "Invented by V. R. Parton in 1953. Named after Lewis Carroll's Through the Looking-Glass — pieces step through the mirror and emerge on the other side. Alice Chess uses two standard 8×8 chessboards pla",
+    "anchor": "alice-chess",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "The Two Boards",
+    "content": "Board A begins with the standard chess starting position. Board B begins empty. Boards share the same square coordinates. A piece on Board A at e4 and a piece on Board B at e4 occupy the same coordina",
+    "anchor": "the-two-boards",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "The Transfer Rule",
+    "content": "After every move including captures, the piece that moved transfers to the corresponding square on the other board. - A piece on Board A at e4 transfers to Board B e4 after moving. - A piece on Board ",
+    "anchor": "the-transfer-rule",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Setup",
+    "content": "Board A: standard chess starting position. Board B: empty. All White and Black pieces begin on Board A.",
+    "anchor": "setup",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Physical Representation",
+    "content": "Alice Chess is commonly played on a single physical board with a distinguishing marker — traditionally a checker piece placed underneath — to indicate which squares are Board B. An unmarked piece occu",
+    "anchor": "physical-representation",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Piece Movement",
+    "content": "All pieces move exactly as in standard chess on their current board. The movement rules for each piece are unchanged; only the legality check is the transfer square empty? is added. Moves as in standa",
+    "anchor": "piece-movement",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Check and Checkmate",
+    "content": "A King is in check when it is on a square that would be attacked by an opponent's piece after that piece completes its transfer. In other words: a piece threatens the King's square on the board the pi",
+    "anchor": "check-and-checkmate",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Castling",
+    "content": "Castling is permitted under the standard chess conditions, with the transfer rule applied to both pieces: - The King castles on its current board, then transfers to the other board. - The Rook also mo",
+    "anchor": "castling",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "En Passant",
+    "content": "En passant is not legal in Alice Chess. The complexities introduced by transfer make the en passant capture undefined in Parton's original rules.",
+    "anchor": "en-passant",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Pawn Promotion",
+    "content": "A pawn promotes upon reaching the opponent's back rank on whichever board it is currently on. Standard promotion rules apply Queen, Rook, Bishop, or Knight. The promoted piece transfers to the other b",
+    "anchor": "pawn-promotion",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Notation",
+    "content": "Standard algebraic notation with a suffix indicating the destination board after transfer: - /A — piece transfers to Board A after moving - /B — piece transfers to Board B after moving Example: 1.e4/B",
+    "anchor": "notation",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Strategy Notes",
+    "content": "- The transfer rule creates a constantly shifting layer of blocked squares. Squares that appear open may be unreachable because their mirror is occupied. - Pieces on Board B are often harder to coordi",
+    "anchor": "strategy-notes",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Alice Chess",
+    "heading": "Attribution",
+    "content": "Alice Chess, invented by V. R. Parton, 1953. Published in Alices Abenteuer im Schachland and referenced in Hooper &amp; Whyld, The Oxford Companion to Chess 1987, p. 10 and Pritchard, Encyclopedia of ",
+    "anchor": "attribution",
+    "variant": "alice",
+    "variantUrl": "dist/moddable-chess/variants/alice/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Almost Chess",
     "heading": "Almost Chess",
     "content": "One Queen is replaced by a Chancellor Rook + Knight compound. \"Almost\" standard chess — one piece different, but the implications ripple through the entire game.",
@@ -6578,6 +7040,76 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Brusky's Hexagonal Chess",
+    "heading": "Brusky's Hexagonal Chess",
+    "content": "Invented by Yakov Brusky. Played on an 84-hex horizontal board with 10 files and 10 pawns per side. Introduces an expanded pawn capture option for unmoved pawns.",
+    "anchor": "bruskys-hexagonal-chess",
+    "variant": "brusky",
+    "variantUrl": "dist/moddable-chess/variants/brusky/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Brusky's Hexagonal Chess",
+    "heading": "Setup",
+    "content": "Board: 84-hex horizontally-oriented grid, 10 files. Pieces per side: King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.",
+    "anchor": "setup",
+    "variant": "brusky",
+    "variantUrl": "dist/moddable-chess/variants/brusky/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Brusky's Hexagonal Chess",
+    "heading": "Castling",
+    "content": "Castling is permitted. The King slides two cells toward the Rook short or three cells long.",
+    "anchor": "castling",
+    "variant": "brusky",
+    "variantUrl": "dist/moddable-chess/variants/brusky/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Brusky's Hexagonal Chess",
+    "heading": "Pawns",
+    "content": "Pawns move one cell straight forward. They capture one cell diagonally forward. An unmoved pawn has a third option: it may capture one cell straight forward the direction of its non-capturing move. Th",
+    "anchor": "pawns",
+    "variant": "brusky",
+    "variantUrl": "dist/moddable-chess/variants/brusky/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Brusky's Hexagonal Chess",
+    "heading": "Rules",
+    "content": "Identical to standard chess adapted for the hex grid except as noted.",
+    "anchor": "rules",
+    "variant": "brusky",
+    "variantUrl": "dist/moddable-chess/variants/brusky/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Brusky's Hexagonal Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "brusky",
+    "variantUrl": "dist/moddable-chess/variants/brusky/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Brusky's Hexagonal Chess",
+    "heading": "Attribution",
+    "content": "Yakov Brusky. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "brusky",
+    "variantUrl": "dist/moddable-chess/variants/brusky/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Capablanca Chess",
     "heading": "Capablanca Chess",
     "content": "Invented by World Champion José Raúl Capablanca in the 1920s to address what he saw as the \"draw death\" of standard chess. A larger board with two new compound pieces creates richer tactical possibili",
@@ -7144,6 +7676,76 @@
     "anchor": "attribution",
     "variant": "dark-chess",
     "variantUrl": "dist/moddable-chess/variants/dark-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "De Vasa's Hexagonal Chess",
+    "heading": "De Vasa's Hexagonal Chess",
+    "content": "Invented by Helge E. de Vasa. Played on an 81-hex rhombus board oriented horizontally, which changes the shape and feel of the game compared to the standard upright hexagonal boards.",
+    "anchor": "de-vasas-hexagonal-chess",
+    "variant": "de-vasa",
+    "variantUrl": "dist/moddable-chess/variants/de-vasa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "De Vasa's Hexagonal Chess",
+    "heading": "Setup",
+    "content": "Board: 81-hex rhombus grid, horizontally oriented. Pawns start on the 3rd rank not the 2nd.",
+    "anchor": "setup",
+    "variant": "de-vasa",
+    "variantUrl": "dist/moddable-chess/variants/de-vasa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "De Vasa's Hexagonal Chess",
+    "heading": "Pawns",
+    "content": "Pawns move straight forward. They capture diagonally forward to a cell of the same colour. Pawns begin on the 3rd rank and may make an initial double step from their starting position.",
+    "anchor": "pawns",
+    "variant": "de-vasa",
+    "variantUrl": "dist/moddable-chess/variants/de-vasa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "De Vasa's Hexagonal Chess",
+    "heading": "Castling",
+    "content": "Castling is permitted. The King slides two cells toward the Rook short castling or three cells long castling.",
+    "anchor": "castling",
+    "variant": "de-vasa",
+    "variantUrl": "dist/moddable-chess/variants/de-vasa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "De Vasa's Hexagonal Chess",
+    "heading": "Rules",
+    "content": "Identical to standard chess adapted for the hex grid except as noted. Stalemate is a draw.",
+    "anchor": "rules",
+    "variant": "de-vasa",
+    "variantUrl": "dist/moddable-chess/variants/de-vasa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "De Vasa's Hexagonal Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "de-vasa",
+    "variantUrl": "dist/moddable-chess/variants/de-vasa/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "De Vasa's Hexagonal Chess",
+    "heading": "Attribution",
+    "content": "Helge E. de Vasa. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "de-vasa",
+    "variantUrl": "dist/moddable-chess/variants/de-vasa/"
   },
   {
     "game": "moddable-chess",
@@ -7808,6 +8410,66 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Glinski's Hexagonal Chess",
+    "heading": "Glinski's Hexagonal Chess",
+    "content": "Created by Wladyslaw Glinski in 1936, this is the most popular hexagonal chess variant. Played on a 91-cell hexagonal board radius 5 in axial coordinates, it adapts all standard chess pieces to hex ge",
+    "anchor": "glinskis-hexagonal-chess",
+    "variant": "glinski",
+    "variantUrl": "dist/moddable-chess/variants/glinski/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Glinski's Hexagonal Chess",
+    "heading": "Board",
+    "content": "A regular hexagon composed of 91 hexagonal cells arranged in concentric rings. Cells come in three colours light, medium, dark following the hex-alternation pattern — each bishop is bound to one colou",
+    "anchor": "board",
+    "variant": "glinski",
+    "variantUrl": "dist/moddable-chess/variants/glinski/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Glinski's Hexagonal Chess",
+    "heading": "Setup",
+    "content": "White pieces starting from the bottom: - King on f1 - Queen on e1 - Bishops on d1, f2, g2 one per colour - Knights on c1, g1 - Rooks on b1, h1 - Pawns on b2, c2, d2, e2, f3, g3, h3, i2, j2 9 pawns Bla",
+    "anchor": "setup",
+    "variant": "glinski",
+    "variantUrl": "dist/moddable-chess/variants/glinski/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Glinski's Hexagonal Chess",
+    "heading": "Pieces",
+    "content": "Rook — slides along any of 6 orthogonal hex edges the 6 directions adjacent cells touch. Equivalent to a rook on a square board but with 6 directions instead of 4. Bishop — slides along any of 6 diago",
+    "anchor": "pieces",
+    "variant": "glinski",
+    "variantUrl": "dist/moddable-chess/variants/glinski/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Glinski's Hexagonal Chess",
+    "heading": "Rules",
+    "content": "- Standard chess rules apply for check, checkmate, and stalemate - No castling king starts centrally, no rook-corner relationship - No en passant no double pawn step - Pawns promote on the far edge th",
+    "anchor": "rules",
+    "variant": "glinski",
+    "variantUrl": "dist/moddable-chess/variants/glinski/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Glinski's Hexagonal Chess",
+    "heading": "Key Differences from Square Chess",
+    "content": "Square board ------------- 4 orthogonal 4 diagonal 8 2 8 64",
+    "anchor": "key-differences-from-square-chess",
+    "variant": "glinski",
+    "variantUrl": "dist/moddable-chess/variants/glinski/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Grand Chess",
     "heading": "Grand Chess",
     "content": "A 10×10 variant that adds the Archbishop and Chancellor without changing any existing piece rules. Considered one of the cleanest large-board variants — no special rules, just a bigger stage.",
@@ -7878,6 +8540,66 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Standard Grasshopper Chess",
+    "heading": "Standard Grasshopper Chess",
+    "content": "Played on an 8×8 board with all standard chess rules, except: both queens are replaced by Grasshoppers. All other pieces and rules are unchanged.",
+    "anchor": "standard-grasshopper-chess",
+    "variant": "grasshopper",
+    "variantUrl": "dist/moddable-chess/variants/grasshopper/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Grasshopper Chess",
+    "heading": "Starting Position",
+    "content": "rnbgkbnr pppppppp ........ ........ ........ ........ PPPPPPPP RNBGKBNR Where G/g = Grasshopper d1/d8.",
+    "anchor": "starting-position",
+    "variant": "grasshopper",
+    "variantUrl": "dist/moddable-chess/variants/grasshopper/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Grasshopper Chess",
+    "heading": "The Grasshopper",
+    "content": "Rule ---------- Queen lines rank, file, diagonal Requirement Any piece of either colour Landing Landing on an enemy piece captures it Blocked landing If no piece exists in a direction, the Grasshopper",
+    "anchor": "the-grasshopper",
+    "variant": "grasshopper",
+    "variantUrl": "dist/moddable-chess/variants/grasshopper/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Grasshopper Chess",
+    "heading": "Promotion",
+    "content": "Pawns promote to: Queen, Rook, Bishop, Knight, or Grasshopper.",
+    "anchor": "promotion",
+    "variant": "grasshopper",
+    "variantUrl": "dist/moddable-chess/variants/grasshopper/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Grasshopper Chess",
+    "heading": "All Other Rules",
+    "content": "Castling, en passant, stalemate, and draw rules apply without modification.",
+    "anchor": "all-other-rules",
+    "variant": "grasshopper",
+    "variantUrl": "dist/moddable-chess/variants/grasshopper/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Grasshopper Chess",
+    "heading": "Attribution",
+    "content": "Grasshopper invented by T. R. Dawson, Fairy Chess Review 1913, problem no. 1. Public domain. Implemented in Fairy-Stockfish and Zillions of Games.",
+    "anchor": "attribution",
+    "variant": "grasshopper",
+    "variantUrl": "dist/moddable-chess/variants/grasshopper/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Grid Chess",
     "heading": "Grid Chess",
     "content": "The board is overlaid with a grid dividing it into sixteen 2×2 sections. A move is only legal if the piece crosses at least one grid line.",
@@ -7934,6 +8656,236 @@
     "anchor": "attribution",
     "variant": "grid-chess",
     "variantUrl": "dist/moddable-chess/variants/grid-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Gygax Chess",
+    "content": "Designed by Gary Gygax and published in Dragon Magazine No. 100 TSR Inc., August 1985. Two players command 42 pieces across three stacked 12×8 boards. Gold moves first.",
+    "anchor": "gygax-chess",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "The Three Boards",
+    "content": "The boards are stacked vertically and share the same 12 files a through l and 8 ranks. Gold occupies ranks 1 and 2 on each board; Scarlet occupies ranks 7 and 8. Name Piece types ------- ------- Air S",
+    "anchor": "the-three-boards",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Notation",
+    "content": "Each square is identified by its level number, file letter, and rank number. Level 3 is the Air board upper, Level 2 is Land middle, Level 1 is Subterranean lower. Examples: 3g1 is Gold's Dragon start",
+    "anchor": "notation",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Starting Positions",
+    "content": "Level 3 — Air 2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1 Gold rank 1: Griffons at 3c1 and 3k1; Dragon at 3g1. Gold rank 2: Sylphs at 3a2, 3c2, 3e2, 3g2, 3i2, 3k2. Level 2 — Land OUHTCMKPTHU",
+    "anchor": "starting-positions",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Objective and Turn Structure",
+    "content": "Win by checkmating the opponent's King. No castling. A player who cannot make any legal move loses. Each turn consists of exactly one move on any of the three boards, including cross-level moves where",
+    "anchor": "objective-and-turn-structure",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Piece Values",
+    "content": "Relative values from Gygax's original notes, useful for evaluating exchanges. Value Value ------- ------- 11 4.5 Paladin Thief 9 4 Dragon Basilisk 5 2.5 Oliphant Dwarf 1 Warrior ---",
+    "anchor": "piece-values",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Sylph (S)",
+    "content": "The Sylph is the Air board's pawn and uses Berolina movement: it moves diagonally forward without capturing, and captures one square straight forward the inverse of a standard pawn. No double initial ",
+    "anchor": "sylph-s",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Griffon (G)",
+    "content": "On Level 3, the Griffon makes an unblockable 3,2 leap: three squares in one orthogonal direction and two squares perpendicularly, or two squares in one direction and three perpendicularly. The Griffon",
+    "anchor": "griffon-g",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Dragon (R)",
+    "content": "The Dragon never leaves Level 3. On its own board it moves and captures as a dragon horse: any number of squares diagonally like a bishop, or exactly one square orthogonally. Remote capture: without m",
+    "anchor": "dragon-r",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Level 2 Pieces — Land",
+    "content": "Level 2 is the primary battleground. The King begins here and is most commonly found here. Pieces with no cross-level move listed below are restricted to Level 2.",
+    "anchor": "level-2-pieces-land",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Warrior (W)",
+    "content": "Standard pawn on Level 2. Moves one square straight forward without capturing; captures one square diagonally forward. No double initial step, no en passant. Promotes to Hero on reaching the furthest ",
+    "anchor": "warrior-w",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Oliphant (O)",
+    "content": "Moves and captures as a chess Rook: any number of squares orthogonally. Restricted to Level 2.",
+    "anchor": "oliphant-o",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Unicorn (U)",
+    "content": "Moves and captures as a chess Knight: an unblockable 1,2 leap. Restricted to Level 2.",
+    "anchor": "unicorn-u",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Hero (H)",
+    "content": "On Level 2, the Hero moves or captures one or two squares diagonally, leaping over any intervening piece unblockable. It may also cross to Level 1 or Level 3 via a space diagonal: one diagonal step on",
+    "anchor": "hero-h",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Thief (T)",
+    "content": "Moves and captures as a chess Bishop: any number of squares diagonally. Restricted to Level 2.",
+    "anchor": "thief-t",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Cleric (C)",
+    "content": "Moves and captures exactly one square in any direction orthogonally or diagonally on whichever board it occupies. It may also move or capture to the square directly above or below it on the adjacent l",
+    "anchor": "cleric-c",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Mage (M)",
+    "content": "On Level 2, the Mage moves and captures as a chess Queen: any number of squares orthogonally or diagonally. It may also step directly to the square above it Level 3 or below it Level 1. On Level 1 or ",
+    "anchor": "mage-m",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "King (K)",
+    "content": "On Level 2, the King moves and captures one square in any direction and may also step to the square directly above it Level 3 or directly below it Level 1. The King is in check whenever it could be ca",
+    "anchor": "king-k",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Paladin (P)",
+    "content": "On Level 2, the Paladin moves and captures as a chess King one step in any direction or a chess Knight an unblockable 1,2 leap. On Level 1 or Level 3, the Paladin moves and captures as a chess King on",
+    "anchor": "paladin-p",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Dwarf (D)",
+    "content": "On Level 1 or Level 2, the Dwarf moves without capturing one square straight forward or one square sideways. It captures one square diagonally forward. It cannot move backward. Cross-level: the Dwarf ",
+    "anchor": "dwarf-d",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Basilisk (B)",
+    "content": "Restricted to Level 1. The Basilisk moves or captures one square diagonally forward or one square straight forward. It may move but not capture one square straight backward. Freeze: any enemy piece oc",
+    "anchor": "basilisk-b",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Elemental (E)",
+    "content": "On Level 1, the Elemental moves or captures one or two squares orthogonally. It cannot leap over an occupied square when moving two squares. It may also move one square diagonally without capturing. C",
+    "anchor": "elemental-e",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Gygax Chess",
+    "heading": "Attribution",
+    "content": "Designed by Gary Gygax. Published in Dragon Magazine No. 100 TSR Inc., August 1985, pages 34–40. Game rules are not subject to copyright. Authoritative secondary source: Edward Jackman with Hans Bodla",
+    "anchor": "attribution",
+    "variant": "gygax",
+    "variantUrl": "dist/moddable-chess/variants/gygax/"
   },
   {
     "game": "moddable-chess",
@@ -8728,6 +9680,76 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "McCooey's Hexagonal Chess",
+    "heading": "McCooey's Hexagonal Chess",
+    "content": "Invented by Dave McCooey and published on chessvariants.com. Played on the same 91-hex board as Gliński but with different pawn rules and 7 pawns per side.",
+    "anchor": "mccooeys-hexagonal-chess",
+    "variant": "mccooey",
+    "variantUrl": "dist/moddable-chess/variants/mccooey/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "McCooey's Hexagonal Chess",
+    "heading": "Setup",
+    "content": "Board: 91-hex hexagonal grid, same as Gliński. Pieces per side: King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 7 Pawns 15 pieces total.",
+    "anchor": "setup",
+    "variant": "mccooey",
+    "variantUrl": "dist/moddable-chess/variants/mccooey/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "McCooey's Hexagonal Chess",
+    "heading": "Key Differences from Gliński",
+    "content": "Gliński --------- 9 Orthogonal rook, 60° Allowed 3/4 to 1/4 split",
+    "anchor": "key-differences-from-gliski",
+    "variant": "mccooey",
+    "variantUrl": "dist/moddable-chess/variants/mccooey/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "McCooey's Hexagonal Chess",
+    "heading": "Pawns",
+    "content": "Pawns move one cell straight forward. They capture one cell diagonally forward through a shared corner, bishop direction. The f-file pawn center pawn may not make an initial double step. All other paw",
+    "anchor": "pawns",
+    "variant": "mccooey",
+    "variantUrl": "dist/moddable-chess/variants/mccooey/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "McCooey's Hexagonal Chess",
+    "heading": "Rules",
+    "content": "Identical to standard chess and Gliński except as noted above. Stalemate is a draw. No castling.",
+    "anchor": "rules",
+    "variant": "mccooey",
+    "variantUrl": "dist/moddable-chess/variants/mccooey/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "McCooey's Hexagonal Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "mccooey",
+    "variantUrl": "dist/moddable-chess/variants/mccooey/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "McCooey's Hexagonal Chess",
+    "heading": "Attribution",
+    "content": "Dave McCooey. Published on chessvariants.com. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "mccooey",
+    "variantUrl": "dist/moddable-chess/variants/mccooey/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Medusa Chess",
     "heading": "Medusa Chess",
     "content": "The Queen has the Medusa's gaze. After she moves, all enemy pieces she attacks along her lines of sight become petrified for 2 turns. Petrified pieces cannot move.",
@@ -8784,6 +9806,76 @@
     "anchor": "attribution",
     "variant": "medusa-chess",
     "variantUrl": "dist/moddable-chess/variants/medusa-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mini Hexchess",
+    "heading": "Mini Hexchess",
+    "content": "Invented by Dave McCooey in 1997. A compact hexagonal chess on a 37-hex board with 7 files a through g. The Queen is not used. Otherwise follows McCooey's hexagonal chess rules.",
+    "anchor": "mini-hexchess",
+    "variant": "mini-hexchess",
+    "variantUrl": "dist/moddable-chess/variants/mini-hexchess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mini Hexchess",
+    "heading": "Setup",
+    "content": "Board: 37-hex grid, 7 files a–g. Pieces per side: King, 2 Rooks, 2 Bishops, 2 Knights, and Pawns. No Queen.",
+    "anchor": "setup",
+    "variant": "mini-hexchess",
+    "variantUrl": "dist/moddable-chess/variants/mini-hexchess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mini Hexchess",
+    "heading": "Key Differences from McCooey",
+    "content": "McCooey --------- 91 hexes 11 a–k Yes Allowed Yes Q, R, B, N Furthest rank per file",
+    "anchor": "key-differences-from-mccooey",
+    "variant": "mini-hexchess",
+    "variantUrl": "dist/moddable-chess/variants/mini-hexchess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mini Hexchess",
+    "heading": "Promotion",
+    "content": "All 7 hexes on the opponent's side of the board are promotion squares. A pawn reaching any of these hexes promotes immediately to Rook, Bishop, or Knight. Promotion to Queen is not permitted as the Qu",
+    "anchor": "promotion",
+    "variant": "mini-hexchess",
+    "variantUrl": "dist/moddable-chess/variants/mini-hexchess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mini Hexchess",
+    "heading": "Rules",
+    "content": "All other rules follow McCooey's Hexagonal Chess. No castling. Stalemate is a draw.",
+    "anchor": "rules",
+    "variant": "mini-hexchess",
+    "variantUrl": "dist/moddable-chess/variants/mini-hexchess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mini Hexchess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "mini-hexchess",
+    "variantUrl": "dist/moddable-chess/variants/mini-hexchess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mini Hexchess",
+    "heading": "Attribution",
+    "content": "Dave McCooey, 1997. Published on chessvariants.com. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "mini-hexchess",
+    "variantUrl": "dist/moddable-chess/variants/mini-hexchess/"
   },
   {
     "game": "moddable-chess",
@@ -8904,6 +9996,76 @@
     "anchor": "attribution",
     "variant": "monster-chess",
     "variantUrl": "dist/moddable-chess/variants/monster-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Nightrider Chess",
+    "heading": "Standard Nightrider Chess",
+    "content": "Played on a standard 8×8 board with all standard chess rules, except: both knights on each side are replaced by Nightriders. All other pieces and rules are unchanged.",
+    "anchor": "standard-nightrider-chess",
+    "variant": "nightrider",
+    "variantUrl": "dist/moddable-chess/variants/nightrider/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Nightrider Chess",
+    "heading": "Starting Position",
+    "content": "Identical to standard chess: rnbqkbnr pppppppp ........ ........ ........ ........ PPPPPPPP RNBQKBNR Where N/n = Nightrider.",
+    "anchor": "starting-position",
+    "variant": "nightrider",
+    "variantUrl": "dist/moddable-chess/variants/nightrider/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Nightrider Chess",
+    "heading": "The Nightrider",
+    "content": "Rule ---------- Repeated knight-steps 1,2 in a fixed direction Directions Unlimited up to board edge Blocking Lands on occupied enemy square cannot jump over to continue Check/mate Nightrider directio",
+    "anchor": "the-nightrider",
+    "variant": "nightrider",
+    "variantUrl": "dist/moddable-chess/variants/nightrider/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Nightrider Chess",
+    "heading": "Promotion",
+    "content": "Pawns may promote to: Queen, Rook, Bishop, or Nightrider. Promotion to Nightrider is legal and encouraged — it is generally stronger than a rook in open positions.",
+    "anchor": "promotion",
+    "variant": "nightrider",
+    "variantUrl": "dist/moddable-chess/variants/nightrider/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Nightrider Chess",
+    "heading": "All Other Rules",
+    "content": "Castling, en passant, stalemate, and the fifty-move rule all apply without modification.",
+    "anchor": "all-other-rules",
+    "variant": "nightrider",
+    "variantUrl": "dist/moddable-chess/variants/nightrider/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Nightrider Chess",
+    "heading": "Engine Notes",
+    "content": "The Nightrider is implemented in Fairy-Stockfish -piece nightrider, GNU Chess fairy extensions, and Green Chess. FEN notation: N/n throughout same glyph as standard knight — disambiguate via variant f",
+    "anchor": "engine-notes",
+    "variant": "nightrider",
+    "variantUrl": "dist/moddable-chess/variants/nightrider/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Nightrider Chess",
+    "heading": "Attribution",
+    "content": "Nightrider piece invented by T. R. Dawson, 1925. Public domain. Rules in the public domain. Implemented in Fairy-Stockfish, Green Chess, and Zillions of Games.",
+    "anchor": "attribution",
+    "variant": "nightrider",
+    "variantUrl": "dist/moddable-chess/variants/nightrider/"
   },
   {
     "game": "moddable-chess",
@@ -9698,6 +10860,76 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Shafran's Hexagonal Chess",
+    "heading": "Shafran's Hexagonal Chess",
+    "content": "Invented by Boris Shafran. Played on a smaller 70-hex board with 9 files a through i. Castling is permitted and the pawn initial step varies by file.",
+    "anchor": "shafrans-hexagonal-chess",
+    "variant": "shafran",
+    "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shafran's Hexagonal Chess",
+    "heading": "Setup",
+    "content": "Board: 70-hex hexagonal grid, 9 files a–i.",
+    "anchor": "setup",
+    "variant": "shafran",
+    "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shafran's Hexagonal Chess",
+    "heading": "Pawns",
+    "content": "Pawns capture diagonally bishop direction, through shared corners. The initial step from the starting rank depends on the pawn's file: Initial step ------- 1, 2, or 3 cells forward b, c, g, h 1 cell o",
+    "anchor": "pawns",
+    "variant": "shafran",
+    "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shafran's Hexagonal Chess",
+    "heading": "Castling",
+    "content": "Castling is permitted on both the Queen-side and King-side. The King moves two cells toward the Rook; the Rook moves to the other side of the King.",
+    "anchor": "castling",
+    "variant": "shafran",
+    "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shafran's Hexagonal Chess",
+    "heading": "Rules",
+    "content": "Identical to standard chess adapted for the hex grid except as noted. Stalemate is a draw.",
+    "anchor": "rules",
+    "variant": "shafran",
+    "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shafran's Hexagonal Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "shafran",
+    "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shafran's Hexagonal Chess",
+    "heading": "Attribution",
+    "content": "Boris Shafran. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "shafran",
+    "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Shatar",
     "heading": "Shatar (Mongolian Chess)",
     "content": "The traditional chess of Mongolia. There is no concept of check — you win by stripping the opponent of all pieces except their King.",
@@ -10178,6 +11410,206 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "History",
+    "content": "Tamerlane Chess Arabic: Shatranj al-Kabir, or Great Chess is a medieval chess variant attributed to Timur, ruler of the Timurid Empire, and documented in manuscripts from 14th-century Central Asia. It",
+    "anchor": "history",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "The Board",
+    "content": "The board is 11 columns files a–k by 10 rows ranks 1–10, giving 110 squares. Each side has one additional citadel square extending from the right of its second rank: - White's citadel adjoins column k",
+    "anchor": "the-board",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Equipment",
+    "content": "Count --- 1 1 per side 1 per side 1 per side 2 per side 2 per side 2 per side 2 per side 2 per side 2 per side 2 per side 10 per side 1 per side 28 pieces per side, 56 total.",
+    "anchor": "equipment",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Setup",
+    "content": "All pieces are placed in ranks 1–3 White and ranks 8–10 Black. Citadel squares begin empty. Black mirrors White with rotation symmetry. Rank 1 back rank, files a–k: b d f h j --- --- --- --- --- empty",
+    "anchor": "setup",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Shah (King)",
+    "content": "Moves one square in any of the eight directions. The Shah cannot move into check. See Special Rules for the Shah exchange.",
+    "anchor": "shah-king",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Firzan (General)",
+    "content": "Moves exactly one square diagonally. A short-range piece, as in Shatranj.",
+    "anchor": "firzan-general",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Wazir (Vizier)",
+    "content": "Moves exactly one square orthogonally: forward, backward, or sideways.",
+    "anchor": "wazir-vizier",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Zurafa (Giraffe)",
+    "content": "A compound slider. Moves exactly one square diagonally, then continues in an orthogonal direction aligned with that diagonal step, landing on the fourth or further square of the orthogonal leg. Both l",
+    "anchor": "zurafa-giraffe",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Tali'a (Scout)",
+    "content": "Slides diagonally, with a minimum of two squares per move. The Tali'a cannot move to an adjacent diagonal square, cannot jump, and has no upper distance limit beyond the board edge.",
+    "anchor": "talia-scout",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Asb (Horse)",
+    "content": "Moves as the modern chess knight: one square in one direction and then one square at right angles, jumping over any piece in the way.",
+    "anchor": "asb-horse",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Rukh (Rook)",
+    "content": "Slides any number of squares orthogonally. Cannot jump.",
+    "anchor": "rukh-rook",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Pil (Elephant)",
+    "content": "Jumps exactly two squares diagonally, leaping over any piece on the intervening square. Equivalent to the Alfil of Shatranj.",
+    "anchor": "pil-elephant",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Jamal (Camel)",
+    "content": "Jumps in a 3×1 L-shape: one square diagonally and then two squares orthogonally in the same direction. May leap over any intervening piece.",
+    "anchor": "jamal-camel",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Dabbaba (War Engine)",
+    "content": "Jumps exactly two squares orthogonally. May leap over the intervening square.",
+    "anchor": "dabbaba-war-engine",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Baidaq (standard pawn)",
+    "content": "A Baidaq moves one square forward orthogonally and captures one square forward diagonally. There is no two-square first move and no en passant. Each Baidaq is assigned to one piece type before the gam",
+    "anchor": "baidaq-standard-pawn",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Baidaq al-Bayadiq",
+    "content": "The Baidaq al-Bayadiq starts on file a and moves as a standard Baidaq, but does not promote immediately upon reaching the opposite back rank. Instead, it remains on that square, immune to capture. Whe",
+    "anchor": "baidaq-al-bayadiq",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Check, Checkmate, and Stalemate",
+    "content": "Check: If the Shah could be captured on the opponent's next turn, it is in check. A player must resolve check on their turn. Checkmate: The Shah is in check with no legal move available to resolve it.",
+    "anchor": "check-checkmate-and-stalemate",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Shah Exchange",
+    "content": "Once per game, when a player's Shah is in check or stalemate, that player may swap the Shah with any other friendly piece on the board. The swap constitutes the player's entire move for that turn.",
+    "anchor": "shah-exchange",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Citadel Draw",
+    "content": "If a player moves their Shah into the citadel square on the opponent's side of the board, the game is immediately a draw. The Shah cannot enter the opponent's citadel if the opponent's Shah Masnu'a al",
+    "anchor": "citadel-draw",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Tamerlane Chess",
+    "heading": "Attribution",
+    "content": "Tamerlane Chess. Origin: Central Asia, 14th century, attributed to Timur Tamerlane. Rules documented in medieval manuscripts, now in the public domain. Sources: Murray, H.J.R., A History of Chess 1913",
+    "anchor": "attribution",
+    "variant": "tamerlane",
+    "variantUrl": "dist/moddable-chess/variants/tamerlane/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Teleportation Chess",
     "heading": "Teleportation Chess",
     "content": "Each player has 3 teleports per game. Instead of a normal move, any piece can teleport to any empty square on the board. Use them wisely — they don't come back.",
@@ -10534,6 +11966,106 @@
     "anchor": "attribution",
     "variant": "weak",
     "variantUrl": "dist/moddable-chess/variants/weak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Standard Wildebeest Chess",
+    "content": "Played on an 11×10 board files a–k, ranks 1–10. Each side has 11 pawns and an expanded back rank including two new fairy pieces.",
+    "anchor": "standard-wildebeest-chess",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Starting Position",
+    "content": "r n c w q k w c n r rank 10 — Black p p p p p p p p p p p rank 9 . . . . . . . . . . . ranks 8–3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "anchor": "starting-position",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Camel (C)",
+    "content": "Rule ---------- 3,1 — 3 squares in one direction, 1 perpendicular Jumping Yes — always lands on same colour Capture The Camel is the 3,1 analogue of the Knight 2,1. With two Camels per side one on eac",
+    "anchor": "camel-c",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Wildebeest (W)",
+    "content": "Rule ---------- Any Knight leap 2,1 OR any Camel leap 3,1 Jumping No — alternates colours on knight moves, maintains colour on camel moves Capture The Wildebeest is roughly equivalent in value to a ro",
+    "anchor": "wildebeest-w",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Standard Pieces",
+    "content": "Rooks, Knights, Queen, and King move and capture as in standard chess.",
+    "anchor": "standard-pieces",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Pawns",
+    "content": "- 11 pawns per side one per file, a–k - May advance one or two squares from starting position rank 2 / rank 9 - Capture diagonally forward - En passant applies - Promotion on ranks 10 Black / 1 White ",
+    "anchor": "pawns",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Castling",
+    "content": "Castling is not available in the standard Wildebeest Chess setup the King is not adjacent to a corner Rook in the same way; no castling rule has been defined by Schmittberger for this layout.",
+    "anchor": "castling",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King. Stalemate = draw.",
+    "anchor": "win-condition",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Engine Notes",
+    "content": "Implemented in: Jocly open source, JavaScript, zrflib Zillions of Games, chess-programming wiki examples. FEN: standard coordinate system extended to 11 files a–k. The board is 11 × 10; rank and file ",
+    "anchor": "engine-notes",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Wildebeest Chess",
+    "heading": "Attribution",
+    "content": "Wildebeest Chess designed by R. Wayne Schmittberger. Published in New Rules for Classic Games Wiley, 1992. Rules described as public domain by multiple open-source implementations Jocly, zrflib. Prima",
+    "anchor": "attribution",
+    "variant": "wildebeest",
+    "variantUrl": "dist/moddable-chess/variants/wildebeest/"
   },
   {
     "game": "morris",
@@ -11994,6 +13526,646 @@
     "anchor": "attribution",
     "variant": "standard",
     "variantUrl": "dist/shogi/variants/standard/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 2-Player Stern-Halma",
+    "heading": "Standard 2-Player Stern-Halma",
+    "content": "The classic two-player configuration. Each player occupies one triangular arm and races to fill the opposite arm.",
+    "anchor": "standard-2-player-stern-halma",
+    "variant": "standard-2p",
+    "variantUrl": "dist/stern-halma/variants/standard-2p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 2-Player Stern-Halma",
+    "heading": "Setup",
+    "content": "Board: Six-pointed star, 121 holes total. Six triangular arms 10 holes each surrounding a central hexagonal area 61 holes. Pieces: 10 per player in distinct colours. Camp assignment: Starting arm --- ",
+    "anchor": "setup",
+    "variant": "standard-2p",
+    "variantUrl": "dist/stern-halma/variants/standard-2p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 2-Player Stern-Halma",
+    "heading": "Movement",
+    "content": "On each turn a player moves one piece. A piece may: - Step: Move to any adjacent hole in any of the six grid directions, provided it is empty. - Hop: Jump over any adjacent piece own or opponent to th",
+    "anchor": "movement",
+    "variant": "standard-2p",
+    "variantUrl": "dist/stern-halma/variants/standard-2p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 2-Player Stern-Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece enters the destination arm, it should remain there. By traditional agreement, a piece in the goal arm may not be voluntarily moved out.",
+    "anchor": "camp-rule",
+    "variant": "standard-2p",
+    "variantUrl": "dist/stern-halma/variants/standard-2p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 2-Player Stern-Halma",
+    "heading": "Winning",
+    "content": "The first player to place all 10 pieces in the opposite arm wins.",
+    "anchor": "winning",
+    "variant": "standard-2p",
+    "variantUrl": "dist/stern-halma/variants/standard-2p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 2-Player Stern-Halma",
+    "heading": "Attribution",
+    "content": "Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from mastersofgames.com, Wikipedia, and BGG.",
+    "anchor": "attribution",
+    "variant": "standard-2p",
+    "variantUrl": "dist/stern-halma/variants/standard-2p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 3-Player Stern-Halma",
+    "heading": "Standard 3-Player Stern-Halma",
+    "content": "Three players occupy alternating arms of the star, leaving three arms empty.",
+    "anchor": "standard-3-player-stern-halma",
+    "variant": "standard-3p",
+    "variantUrl": "dist/stern-halma/variants/standard-3p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 3-Player Stern-Halma",
+    "heading": "Setup",
+    "content": "Pieces: 10 per player in distinct colours. Camp assignment: Starting arm --- N SE SW Arms NE, S, and NW begin empty. First move: Decide by mutual agreement or lot. Play proceeds clockwise.",
+    "anchor": "setup",
+    "variant": "standard-3p",
+    "variantUrl": "dist/stern-halma/variants/standard-3p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 3-Player Stern-Halma",
+    "heading": "Movement",
+    "content": "Identical to 2-player rules: step, hop, or chain-hop in any of the six grid directions. Jumped pieces are never removed.",
+    "anchor": "movement",
+    "variant": "standard-3p",
+    "variantUrl": "dist/stern-halma/variants/standard-3p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 3-Player Stern-Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece enters the destination arm, it should remain there by traditional agreement.",
+    "anchor": "camp-rule",
+    "variant": "standard-3p",
+    "variantUrl": "dist/stern-halma/variants/standard-3p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 3-Player Stern-Halma",
+    "heading": "Winning",
+    "content": "The first player to place all 10 pieces in the opposite arm wins.",
+    "anchor": "winning",
+    "variant": "standard-3p",
+    "variantUrl": "dist/stern-halma/variants/standard-3p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 3-Player Stern-Halma",
+    "heading": "Attribution",
+    "content": "Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from mastersofgames.com, Wikipedia, and BGG.",
+    "anchor": "attribution",
+    "variant": "standard-3p",
+    "variantUrl": "dist/stern-halma/variants/standard-3p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 4-Player Stern-Halma",
+    "heading": "Standard 4-Player Stern-Halma",
+    "content": "Four players occupy the diagonal arms, leaving the N and S arms empty.",
+    "anchor": "standard-4-player-stern-halma",
+    "variant": "standard-4p",
+    "variantUrl": "dist/stern-halma/variants/standard-4p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 4-Player Stern-Halma",
+    "heading": "Setup",
+    "content": "Pieces: 10 per player in distinct colours. Camp assignment: Starting arm --- NE SE SW NW Arms N and S begin empty. First move: Decide by mutual agreement or lot. Play proceeds clockwise.",
+    "anchor": "setup",
+    "variant": "standard-4p",
+    "variantUrl": "dist/stern-halma/variants/standard-4p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 4-Player Stern-Halma",
+    "heading": "Movement",
+    "content": "Identical to 2-player rules: step, hop, or chain-hop in any of the six grid directions. Jumped pieces are never removed.",
+    "anchor": "movement",
+    "variant": "standard-4p",
+    "variantUrl": "dist/stern-halma/variants/standard-4p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 4-Player Stern-Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece enters the destination arm, it should remain there by traditional agreement.",
+    "anchor": "camp-rule",
+    "variant": "standard-4p",
+    "variantUrl": "dist/stern-halma/variants/standard-4p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 4-Player Stern-Halma",
+    "heading": "Winning",
+    "content": "The first player to place all 10 pieces in the opposite arm wins.",
+    "anchor": "winning",
+    "variant": "standard-4p",
+    "variantUrl": "dist/stern-halma/variants/standard-4p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 4-Player Stern-Halma",
+    "heading": "Attribution",
+    "content": "Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from mastersofgames.com, Wikipedia, and BGG.",
+    "anchor": "attribution",
+    "variant": "standard-4p",
+    "variantUrl": "dist/stern-halma/variants/standard-4p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 6-Player Stern-Halma",
+    "heading": "Standard 6-Player Stern-Halma",
+    "content": "The full six-player game uses every arm on the board.",
+    "anchor": "standard-6-player-stern-halma",
+    "variant": "standard-6p",
+    "variantUrl": "dist/stern-halma/variants/standard-6p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 6-Player Stern-Halma",
+    "heading": "Setup",
+    "content": "Pieces: 10 per player in distinct colours 60 pieces total on the board. Camp assignment: Starting arm --- N NE SE S SW NW All 60 arm positions are occupied at the start. Only the 61 central hexagonal ",
+    "anchor": "setup",
+    "variant": "standard-6p",
+    "variantUrl": "dist/stern-halma/variants/standard-6p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 6-Player Stern-Halma",
+    "heading": "Movement",
+    "content": "Identical to 2-player rules: step, hop, or chain-hop in any of the six grid directions. Jumped pieces are never removed.",
+    "anchor": "movement",
+    "variant": "standard-6p",
+    "variantUrl": "dist/stern-halma/variants/standard-6p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 6-Player Stern-Halma",
+    "heading": "Camp rule",
+    "content": "Once a piece enters the destination arm, it should remain there by traditional agreement.",
+    "anchor": "camp-rule",
+    "variant": "standard-6p",
+    "variantUrl": "dist/stern-halma/variants/standard-6p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 6-Player Stern-Halma",
+    "heading": "Winning",
+    "content": "The first player to place all 10 pieces in the opposite arm wins. The game may continue to determine second, third place, etc.",
+    "anchor": "winning",
+    "variant": "standard-6p",
+    "variantUrl": "dist/stern-halma/variants/standard-6p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Standard 6-Player Stern-Halma",
+    "heading": "Attribution",
+    "content": "Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from mastersofgames.com, Wikipedia, and BGG.",
+    "anchor": "attribution",
+    "variant": "standard-6p",
+    "variantUrl": "dist/stern-halma/variants/standard-6p/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Super Chinese Checkers",
+    "heading": "Super Chinese Checkers",
+    "content": "A faster variant using the same star board but with an extended hopping rule that allows pieces to travel much further in a single move.",
+    "anchor": "super-chinese-checkers",
+    "variant": "super-chinese-checkers",
+    "variantUrl": "dist/stern-halma/variants/super-chinese-checkers/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Super Chinese Checkers",
+    "heading": "Setup",
+    "content": "Same board and camp assignments as standard Stern-Halma for any player count 2, 3, 4, or 6. Each player has 10 pieces.",
+    "anchor": "setup",
+    "variant": "super-chinese-checkers",
+    "variantUrl": "dist/stern-halma/variants/super-chinese-checkers/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Super Chinese Checkers",
+    "heading": "Movement",
+    "content": "On each turn a player moves one piece. A piece may: - Step: Move to any adjacent empty hole same as standard. - Super hop: A piece may jump over exactly one other piece own or opponent in a straight l",
+    "anchor": "movement",
+    "variant": "super-chinese-checkers",
+    "variantUrl": "dist/stern-halma/variants/super-chinese-checkers/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Super Chinese Checkers",
+    "heading": "Camp rule",
+    "content": "Same as standard: once in the destination arm, a piece should remain there.",
+    "anchor": "camp-rule",
+    "variant": "super-chinese-checkers",
+    "variantUrl": "dist/stern-halma/variants/super-chinese-checkers/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Super Chinese Checkers",
+    "heading": "Winning",
+    "content": "First player to place all 10 pieces in the opposite arm wins.",
+    "anchor": "winning",
+    "variant": "super-chinese-checkers",
+    "variantUrl": "dist/stern-halma/variants/super-chinese-checkers/"
+  },
+  {
+    "game": "stern-halma",
+    "gameTitle": "Stern-Halma",
+    "section": "Super Chinese Checkers",
+    "heading": "Attribution",
+    "content": "Super Chinese Checkers. Variant of Stern-Halma with extended hop rule. Public domain. Rules confirmed from BGG BoardGameGeek Sternhalma variants discussion.",
+    "anchor": "attribution",
+    "variant": "super-chinese-checkers",
+    "variantUrl": "dist/stern-halma/variants/super-chinese-checkers/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "Overview",
+    "content": "Brandubh Irish: \"black raven\" is the Irish form of tafl, played on a 7×7 board. The game is mentioned in several medieval Irish texts. The rules here follow the reconstruction by H.J.R. Murray A Histo",
+    "anchor": "overview",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "Components",
+    "content": "Board: 7×7 squares. The central square d4 is restricted: no piece may land on it. The four corner squares a1, a7, g1, g7 are restricted: only the King may enter them. Both the central square and all c",
+    "anchor": "components",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "Starting Position",
+    "content": "Attackers move first. - King: d4 centre - Defenders 4: c4, e4 horizontal; d3, d5 vertical - Attackers 8: a4, b4 west arm; f4, g4 east arm; d1, d2 south arm; d6, d7 north arm",
+    "anchor": "starting-position",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "Movement",
+    "content": "All pieces move any distance orthogonally. No piece may land on the central square. Only the King may enter corner squares.",
+    "anchor": "movement",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "Capture",
+    "content": "A piece is captured when surrounded orthogonally on two sides by opposing pieces. Pieces may also be captured between the central square and an opposing piece, or between a corner square and an opposi",
+    "anchor": "capture",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "King Capture",
+    "content": "- King on the central square: must be surrounded on all four orthogonal sides. - King adjacent to the central square: surrounded on three sides the central square counts as the fourth. - King elsewher",
+    "anchor": "king-capture",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "Win Conditions",
+    "content": "- Defenders win if the King reaches any corner square. - Attackers win if the King is captured.",
+    "anchor": "win-conditions",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Brandubh",
+    "heading": "Historical Note",
+    "content": "\"Brandubh\" appears in several medieval Irish texts in connection with kingship and conflict. The precise historical form of the game is uncertain. This implementation follows the Murray reconstruction",
+    "anchor": "historical-note",
+    "variant": "brandubh",
+    "variantUrl": "dist/tafl/variants/brandubh/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Overview",
+    "content": "Hnefatafl Old Norse: \"king's table\" is the primary form of the tafl family, played across Norse and Celtic Northern Europe from around 400 AD. No original written rules survive. All rules are reconstr",
+    "anchor": "overview",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Components",
+    "content": "Board: 11×11 squares. The central square f6 is the throne: restricted to all except the King, though all pieces may pass through it when empty. The four corner squares a1, k1, a11, k11 are restricted:",
+    "anchor": "components",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Starting Position",
+    "content": "Attackers move first. - King: f6 centre - Defenders 12: d6, e6, g6, h6 horizontal arm; f4, f5, f7, f8 vertical arm; e5, g5, e7, g7 flanking squares - Attackers 24: d1, e1, f1, g1, h1, f2 south; d11, e",
+    "anchor": "starting-position",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Movement",
+    "content": "All pieces move any number of empty squares orthogonally. No jumping. Only the King may occupy the throne or corner squares; all pieces may pass through the empty throne.",
+    "anchor": "movement",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Restricted Squares",
+    "content": "The throne is always hostile to attackers. The throne is hostile to defenders only when empty. Corner squares are always hostile to both sides. A hostile square counts as an enemy piece for capture pu",
+    "anchor": "restricted-squares",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Capture",
+    "content": "A piece is captured when sandwiched orthogonally between two enemy pieces, or between one enemy piece and a hostile square.",
+    "anchor": "capture",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "King Capture",
+    "content": "- King on the throne: surrounded on all four sides by attackers. - King adjacent to the throne: surrounded on three sides the throne counts as the fourth. - King elsewhere: sandwiched between two enem",
+    "anchor": "king-capture",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Win Conditions",
+    "content": "- Defenders win if the King reaches any corner square. - Attackers win if the King is captured. - Draw by perpetual repetition, or if neither side can achieve their objective.",
+    "anchor": "win-conditions",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Hnefatafl",
+    "heading": "Historical Note",
+    "content": "No original written rules for Hnefatafl survive. The game is known from archaeological finds, saga references in Old Norse literature, and extrapolation of the Tablut rules recorded by Linnaeus in 173",
+    "anchor": "historical-note",
+    "variant": "hnefatafl",
+    "variantUrl": "dist/tafl/variants/hnefatafl/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Overview",
+    "content": "Tablut is the most reliably sourced variant in the tafl family, recorded by Swedish naturalist Carl Linnaeus during his 1732 Lapland expedition among the Sami people and published in Lachesis Lapponic",
+    "anchor": "overview",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Components",
+    "content": "Board: 9×9 squares. The central square e5 is the castle, also called the throne konakis in Sami. No piece may land on the throne once vacated, including the King. Pieces: - Swedish defenders: 1 King +",
+    "anchor": "components",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Starting Position",
+    "content": "- King: e5 centre - Defenders 8: c5, d5, f5, g5 horizontal arm; e3, e4, e6, e7 vertical arm - Attackers 16: d1, e1, f1, e2 south; d9, e9, f9, e8 north; a4, a5, a6, b5 west; i4, i5, i6, h5 east Muscovi",
+    "anchor": "starting-position",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Movement",
+    "content": "All pieces move any number of empty squares orthogonally, in the manner of a rook in chess. No piece may jump another. No diagonal movement.",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Throne Square",
+    "content": "The throne counts as a hostile square for custodial captures against any piece. No piece may land on the throne once the King has vacated it, including the King himself.",
+    "anchor": "throne-square",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Capture",
+    "content": "A piece is captured by custodial capture: sandwiched orthogonally between two enemy pieces, or between one enemy piece and the empty throne square. A piece that moves voluntarily between two enemies i",
+    "anchor": "capture",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "King Capture",
+    "content": "The King is captured when surrounded on all four orthogonal sides by attackers. If the King is adjacent to the empty throne, three attackers suffice the throne counts as the fourth side.",
+    "anchor": "king-capture",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Win Conditions",
+    "content": "- Defenders win if the King reaches any square on the board edge. - Attackers win if the King is captured. - Draw if neither player can achieve their objective.",
+    "anchor": "win-conditions",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Special Terms",
+    "content": "When the King has one escape route to the board edge, the defending player announces raichi. When the King has two such routes, the call is tuichu. These are modern additions, likely borrowed from che",
+    "anchor": "special-terms",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tablut",
+    "heading": "Historical Note",
+    "content": "Linnaeus witnessed Tablut being played by Sami people in Lapland in 1732. The original diary entry was first translated to English in 1811 Lachesis Lapponica. The Salmi corrected translation 2013, upd",
+    "anchor": "historical-note",
+    "variant": "standard",
+    "variantUrl": "dist/tafl/variants/standard/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tawlbwrdd",
+    "heading": "Overview",
+    "content": "Tawlbwrdd is the Welsh form of tafl, documented in Peniarth Manuscript 158, a 1587 Welsh manuscript. The manuscript specifies piece counts and describes some aspects of movement and capture, but leave",
+    "anchor": "overview",
+    "variant": "tawlbwrdd",
+    "variantUrl": "dist/tafl/variants/tawlbwrdd/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tawlbwrdd",
+    "heading": "Components",
+    "content": "Board: 11×11 squares. The central square f6 is the throne. The King wins by reaching any edge square in contrast to Hnefatafl, where only corner squares win. Pieces: - Defenders: 1 King + 12 defenders",
+    "anchor": "components",
+    "variant": "tawlbwrdd",
+    "variantUrl": "dist/tafl/variants/tawlbwrdd/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tawlbwrdd",
+    "heading": "Starting Position",
+    "content": "Attackers move first. - King: f6 centre - Defenders 12: d6, e6, g6, h6 horizontal; f4, f5, f7, f8 vertical; e5, g5, e7, g7 flanking - Attackers 24: six per edge, central five squares of each outer edg",
+    "anchor": "starting-position",
+    "variant": "tawlbwrdd",
+    "variantUrl": "dist/tafl/variants/tawlbwrdd/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tawlbwrdd",
+    "heading": "Movement",
+    "content": "All pieces move orthogonally any number of spaces. No jumping. Attackers move first.",
+    "anchor": "movement",
+    "variant": "tawlbwrdd",
+    "variantUrl": "dist/tafl/variants/tawlbwrdd/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tawlbwrdd",
+    "heading": "Capture",
+    "content": "A piece is captured by surrounding it on two opposite sides by an opponent's piece. Two or three pieces in a line may be captured at once by surrounding them in this way. An entire row of pieces canno",
+    "anchor": "capture",
+    "variant": "tawlbwrdd",
+    "variantUrl": "dist/tafl/variants/tawlbwrdd/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tawlbwrdd",
+    "heading": "Win Conditions",
+    "content": "- Defenders win if the King reaches any square on the board edge. - Attackers win if the King is captured.",
+    "anchor": "win-conditions",
+    "variant": "tawlbwrdd",
+    "variantUrl": "dist/tafl/variants/tawlbwrdd/"
+  },
+  {
+    "game": "tafl",
+    "gameTitle": "Tafl",
+    "section": "Tawlbwrdd",
+    "heading": "Historical Note",
+    "content": "Tawlbwrdd is documented in Peniarth Manuscript 158 1587. The manuscript names the game and states that one side plays with a king and twelve men, the other with twenty-four. Movement and win condition",
+    "anchor": "historical-note",
+    "variant": "tawlbwrdd",
+    "variantUrl": "dist/tafl/variants/tawlbwrdd/"
   },
   {
     "game": "xiangqi",

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alice Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Alice Chess.">
+<meta property="og:title" content="Alice Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Alice Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/alice.png?v=0.4.5">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/alice/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alice Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Alice Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/alice.png?v=0.4.5">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.5">
+<link rel="stylesheet" href="../../theme.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.5">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/alice.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/alice.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Alice Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 1 of 86</span>
+    <h1 class="variant-cover-title">Alice Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">Two 8×8 boards (Board A and Board B)</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Alice Chess</h2>
+<p>Invented by V. R. Parton in 1953. Named after Lewis Carroll’s <em>Through the Looking-Glass</em> — pieces step through the mirror and emerge on the other side. Alice Chess uses two standard 8×8 chessboards played simultaneously.</p>
+<h3>The Two Boards</h3>
+<p><strong>Board A</strong> begins with the standard chess starting position. <strong>Board B</strong> begins empty.</p>
+<p>Boards share the same square coordinates. A piece on Board A at e4 and a piece on Board B at e4 occupy the same coordinate but are on different boards and do not interact directly.</p>
+<h3>The Transfer Rule</h3>
+<p>After every move (including captures), the piece that moved transfers to the <strong>corresponding square on the other board</strong>.</p>
+<ul class="rules">
+<li>A piece on Board A at e4 transfers to Board B e4 after moving.</li>
+<li>A piece on Board B at f6 transfers to Board A f6 after moving.</li>
+</ul>
+<p><strong>A move is legal only if the transfer square is vacant.</strong> If the transfer square is occupied (by any piece of either colour), the move is illegal and cannot be made. This applies to all moves, including captures: capturing an opponent’s piece does not free the transfer square if that square is occupied.</p>
+<p>A piece cannot move at all if every otherwise-legal destination would place it on a square whose mirror is occupied.</p>
+<h3>Setup</h3>
+<p>Board A: standard chess starting position.
+Board B: empty.</p>
+<p>All White and Black pieces begin on Board A.</p>
+<h3>Physical Representation</h3>
+<p>Alice Chess is commonly played on a single physical board with a distinguishing marker — traditionally a checker piece placed underneath — to indicate which squares are Board B. An unmarked piece occupies Board A; a piece with a checker underneath occupies Board B.</p>
+<p>This one-board representation is fully equivalent to the two-board game and does not require a second physical set.</p>
+<h3>Piece Movement</h3>
+<p>All pieces move exactly as in standard chess <strong>on their current board</strong>. The movement rules for each piece are unchanged; only the legality check (is the transfer square empty?) is added.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Moves as in standard chess</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>One step in any direction</td>
+</tr>
+<tr>
+<td>Queen</td>
+<td>Any distance, any direction</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>Any distance, orthogonally</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Any distance, diagonally</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>(2,1) jump, unblockable</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>Forward one (or two from start); captures diagonally</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Check and Checkmate</h3>
+<p>A King is in <strong>check</strong> when it is on a square that would be attacked by an opponent’s piece <strong>after that piece completes its transfer</strong>. In other words: a piece threatens the King’s square on the board the piece will land on after moving through the looking-glass.</p>
+<p>Consequences:</p>
+<ul class="rules">
+<li>A King on Board A can only be in check from pieces that, after moving and transferring, land on Board B — specifically, a piece currently on Board B whose move would place it on the King’s Board-A square (since it would then transfer to Board A).</li>
+<li>A piece that cannot transfer after moving cannot deliver check with that move.</li>
+</ul>
+<p>You may not make any move that leaves your King in check after the full move (including transfer) resolves.</p>
+<p><strong>Checkmate:</strong> the King is in check and no legal move (including transfer) can remove it.</p>
+<h3>Castling</h3>
+<p>Castling is permitted under the standard chess conditions, with the transfer rule applied to both pieces:</p>
+<ul class="rules">
+<li>The King castles on its current board, then transfers to the other board.</li>
+<li>The Rook also moves on its current board, then transfers to the other board.</li>
+<li>All transfer squares (for both King and Rook) must be vacant on the other board.</li>
+<li>No square the King passes through or lands on may be under attack (on the board where the King would be after transfer).</li>
+<li>Neither King nor Rook may have previously moved.</li>
+</ul>
+<h3>En Passant</h3>
+<p>En passant is not legal in Alice Chess. The complexities introduced by transfer make the en passant capture undefined in Parton’s original rules.</p>
+<h3>Pawn Promotion</h3>
+<p>A pawn promotes upon reaching the opponent’s back rank <strong>on whichever board it is currently on</strong>. Standard promotion rules apply (Queen, Rook, Bishop, or Knight). The promoted piece transfers to the other board on the promotion move.</p>
+<h3>Notation</h3>
+<p>Standard algebraic notation with a suffix indicating the destination board after transfer:</p>
+<ul class="rules">
+<li><code>/A</code> — piece transfers to Board A after moving</li>
+<li><code>/B</code> — piece transfers to Board B after moving</li>
+</ul>
+<p>Example: <code>1.e4/B</code> — pawn moves to e4 on Board A and transfers to Board B e4.</p>
+<p>The <code>/A</code> or <code>/B</code> suffix is determined by which board the piece <strong>lands on</strong> after transfer (i.e., the opposite of the board it started on).</p>
+<h3>Strategy Notes</h3>
+<ul class="rules">
+<li>The transfer rule creates a constantly shifting layer of blocked squares. Squares that appear open may be unreachable because their mirror is occupied.</li>
+<li>Pieces on Board B are often harder to coordinate in the opening, when Board A is crowded and most mirror squares are occupied.</li>
+<li>The King’s safety must be evaluated across both boards: threats exist from pieces on either board whose transfer would land them on the King’s square.</li>
+<li>Knights are particularly powerful because their (2,1) jump ignores blocking pieces; whether the knight can transfer is the only additional check needed.</li>
+</ul>
+<h3>Attribution</h3>
+<p>Alice Chess, invented by V. R. Parton, 1953. Published in <em>Alices Abenteuer im Schachland</em> and referenced in Hooper &amp; Whyld, <em>The Oxford Companion to Chess</em> (1987, p. 10) and Pritchard, <em>Encyclopedia of Chess Variants</em> (1994, pp. 3–5). Public domain. Fairy-Stockfish implements Alice Chess under the same rules.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <span class="variant-pager-spacer"></span>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../gygax/" class="variant-pager-next">Gygax Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess v0.4.5 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.2.4"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

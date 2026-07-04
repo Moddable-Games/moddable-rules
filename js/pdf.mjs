@@ -364,5 +364,85 @@ for (const slug of slugs) {
   }
 }
 
+// --- Component hub game PDF generation (content/games/{game}/) ---
+for (const slug of slugs) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const src = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: meta } = matter(src);
+  if (meta.hub_type !== 'component') continue;
+
+  const gamesDir = resolve(gameDir, 'content/games');
+  if (!existsSync(gamesDir)) continue;
+
+  const gameDirs = readdirSync(gamesDir, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name);
+
+  const gamePdfDir = resolve(gameDir, 'pdf/games');
+  mkdirSync(gamePdfDir, { recursive: true });
+
+  console.log(`  Generating ${gameDirs.length} game PDFs for component hub ${slug}...`);
+
+  for (const gameSlug of gameDirs) {
+    const htmlPath = resolve(DIST_DIR, slug, 'games', gameSlug, 'index.html');
+    if (!existsSync(htmlPath)) {
+      console.warn(`    Skipping game ${gameSlug} — no built HTML`);
+      continue;
+    }
+
+    const gamePdfPath = resolve(gamePdfDir, `${gameSlug}.pdf`);
+    const opts = { bg: '#f8f4ef', css: '', outPath: gamePdfPath, version: meta.version || '0.0.0', slug, firstPublished: '', stripSelectors: [] };
+    try {
+      await generateMultiPage(browser, htmlPath, '.content', opts);
+    } catch (e) {
+      console.warn(`    Failed to generate PDF for ${gameSlug}: ${e.message}`);
+    }
+  }
+
+  console.log(`  Generated game PDFs for ${slug}`);
+}
+
+// --- Sub-page PDF generation (content/{section}/*.md — RPGs etc.) ---
+for (const slug of slugs) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const contentDir = resolve(gameDir, 'content');
+  const src = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: meta } = matter(src);
+
+  const skipDirs = new Set(['variants', 'games']);
+  const subdirs = readdirSync(contentDir, { withFileTypes: true })
+    .filter(d => d.isDirectory() && !skipDirs.has(d.name));
+  if (subdirs.length === 0) continue;
+
+  let totalGenerated = 0;
+
+  for (const subdir of subdirs) {
+    const sectionPdfDir = resolve(gameDir, 'pdf', subdir.name);
+    mkdirSync(sectionPdfDir, { recursive: true });
+
+    const dirPath = resolve(contentDir, subdir.name);
+    const files = readdirSync(dirPath).filter(f => f.endsWith('.md'));
+
+    for (const file of files) {
+      const pageSlug = file.replace('.md', '');
+      const htmlPath = resolve(DIST_DIR, slug, subdir.name, pageSlug, 'index.html');
+      if (!existsSync(htmlPath)) continue;
+
+      const pdfPath = resolve(sectionPdfDir, `${pageSlug}.pdf`);
+      const opts = { bg: '#f8f4ef', css: '', outPath: pdfPath, version: meta.version || '0.0.0', slug, firstPublished: '', stripSelectors: [] };
+      try {
+        await generateMultiPage(browser, htmlPath, '.content', opts);
+        totalGenerated++;
+      } catch (e) {
+        console.warn(`    Failed: ${subdir.name}/${pageSlug}: ${e.message}`);
+      }
+    }
+  }
+
+  if (totalGenerated > 0) {
+    console.log(`  Generated ${totalGenerated} sub-page PDFs for ${slug}`);
+  }
+}
+
 await browser.close();
 console.log('PDF generation complete.');

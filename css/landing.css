@@ -203,6 +203,8 @@ body {
 .filter-pill--expansion.active { background: var(--color-expansion); }
 .filter-pill--platform.active { background: var(--color-platform); }
 .filter-pill--classic.active { background: var(--color-classic); }
+.filter-pill--component.active { background: #10b981; }
+.filter-pill--rpg.active { background: #6366f1; }
 
 /* Search Bar */
 .search-bar {
@@ -680,7 +682,10 @@ body {
 }
 
 /* Light surface overrides for elements with hardcoded rgba values */
-[data-surface="light"] .filter-pill--all.active { background: rgba(0, 0, 0, 0.08); }
+[data-surface="light"] .filter-pill.active { color: #fff; }
+[data-surface="light"] .filter-pill--all.active { background: rgba(0, 0, 0, 0.75); }
+[data-surface="light"] .filter-pill--classic.active { color: #1a1a1a; }
+[data-surface="light"] .filter-pill--component.active { color: #fff; }
 [data-surface="light"] .game-card { box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 [data-surface="light"] .game-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
 [data-surface="light"] .badge { background: rgba(0, 0, 0, 0.06); }

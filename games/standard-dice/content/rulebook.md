@@ -1,0 +1,55 @@
+---
+title: "Standard Dice"
+version: "0.1.0"
+slug: "standard-dice"
+players: "1–8"
+duration: "10–60 min"
+age: "6+"
+tagline: "Games built on standard six-sided dice"
+type: "component"
+status: "live"
+updated: "2026-07-04"
+published: true
+hub_type: component
+theme:
+  surface: light
+  tint: warm
+  texture: none
+  cover: cosmic
+  typography: modern
+  accent: red
+  section-divider: "⚄"
+---
+
+<div class="section">
+
+## Standard Dice
+
+Games whose primary component is one or more standard six-sided dice (d6, pips 1-6). The shared component set:
+
+| Component | Description |
+|---|---|
+| Dice | Standard d6, pips 1-6 |
+| Cup | For shaking and concealing (some games) |
+| Scorecard | Paper tracking (some games) |
+| Chips/tokens | For betting (some games) |
+
+</div>
+
+<div class="section">
+
+## Games
+
+- [Yahtzee](games/yahtzee/) — 5 dice, 13 scoring categories, three rolls per turn. Fill every box. Highest total wins.
+- [Liar's Dice](games/liars-dice/) — Hidden dice under cups. Bid on total faces across all players. Challenge or be challenged.
+- [Farkle](games/farkle/) — 6 dice, press-your-luck scoring. Set aside combinations, keep rolling, or bank. Bust and lose it all.
+
+</div>
+
+<div class="section">
+
+## Attribution
+
+All games in this hub are public domain or use mechanics in the public domain. Individual attribution in each game entry.
+
+</div>
