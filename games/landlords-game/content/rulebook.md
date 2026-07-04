@@ -148,6 +148,14 @@ This library includes {{variant_count}} variants.
 
 <div class="section">
 
+## Board Data
+
+Machine-readable JSON containing the complete board layout for all three editions (1904, 1906, 1932). Every space with its position, name, type, price, and rent. Used for diagram generation by moddable-engine.
+
+</div>
+
+<div class="section">
+
 ## Attribution
 
 The Landlord's Game. Designed by Elizabeth J. Magie. Original patent: US748626, granted 5 January 1904, expired 1921. Public domain. Sources: US Patent 748,626 (public domain); Wikipedia: The Landlord's Game (CC-BY-SA); landlordsgame.info (transcriptions of original patent and 1906 rulebook).
