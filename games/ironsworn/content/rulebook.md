@@ -8,7 +8,7 @@ age: "14+"
 tagline: "A perilous quest through the Ironlands, guided by vows and oracle tables"
 type: "rpg"
 status: "alpha"
-updated: "2026-07-03"
+updated: "2026-07-04"
 published: true
 variants: false
 theme:
@@ -31,22 +31,14 @@ A tabletop roleplaying game by Shawn Tomkin set in the mythic dark fantasy world
 **Attribution:** Ironsworn System Reference Document, copyright Shawn Tomkin. Licensed under CC BY 4.0.
 **SRD source:** [`TedTschopp/Ironsworn-SRD`](https://github.com/TedTschopp/Ironsworn-SRD), `Ironsworn SRD.md`.
 
-### Core Mechanics
+</div>
 
-- [Moves](rules/moves/) — How to resolve actions using Action Dice vs Challenge Dice
-- [Stats and Tracks](rules/stats/) — Edge, Heart, Iron, Shadow, Wits; Health, Spirit, Supply, Momentum
-- [Vows](rules/vows/) — Swearing iron vows, progress tracks, reaching your vow
-- [Combat](rules/combat/) — Enter the Fray, Strike, Clash, End the Fight
-- [Journeys](rules/journeys/) — Undertake a Journey, Make Camp, Reach Your Destination
-- [Delving](rules/delving/) — Enter the Darkness, Delve the Depths, Find an Opportunity
-- [The World](rules/world/) — The Ironlands, regions, threats, and lore
-- [Assets](rules/assets/) — Companions, paths, combat talents, rituals
-- [Oracles](rules/oracles/) — How to use oracle tables for inspiration and randomness
+<div class="section">
 
-### Oracle Tables
+## Planned Content
 
-Oracle tables provide randomised narrative inspiration. Roll dice and consult the relevant table for an unexpected result that drives the story. Machine-readable oracle tables are in the [`oracles/`](../oracles/) directory.
+**Core Mechanics:** Moves, Stats and Tracks, Vows, Combat, Journeys, Delving, The World, Assets.
 
-- [Oracle Index](../oracles/) — All 13 oracle tables with usage notes
+**Oracle Tables:** 13 tables for randomised narrative inspiration (Action, Theme, Region, Location, Coastal Waters, Name, Character, Combat Action, Plot Twist, Mystic Backlash, Settlement, Quick NPC, Trap). Machine-readable JSON schema defined in `oracles/schema.json`.
 
 </div>
