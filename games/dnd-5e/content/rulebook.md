@@ -1,5 +1,6 @@
 ---
 title: "Dungeons & Dragons 5th Edition SRD"
+short_title: "D&D"
 version: "0.1.0"
 slug: "dnd-5e"
 players: "2–8"
