@@ -9,7 +9,7 @@ tagline: "A rider that must jump — the Grasshopper can only land by hopping ov
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light

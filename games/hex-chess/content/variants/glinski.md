@@ -14,7 +14,7 @@ engine:
     files: 11
     file_labels: ["a","b","c","d","e","f","g","h","i","j","k"]
   players: [white, black]
-published: false
+published: true
 ---
 
 ## Gliński's Hexagonal Chess

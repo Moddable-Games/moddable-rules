@@ -9,7 +9,7 @@ tagline: "An 11×10 board with two new compound leapers — the Camel and the Wi
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light

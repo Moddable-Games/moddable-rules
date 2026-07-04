@@ -9,7 +9,7 @@ tagline: "Three-dimensional chess across Air, Land, and Subterranean realms"
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light

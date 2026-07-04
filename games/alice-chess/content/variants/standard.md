@@ -17,7 +17,7 @@ engine:
     physical_representation: one-board
   players: [white, black]
   notation: alice-algebraic
-published: false
+published: true
 ---
 
 ## Alice Chess

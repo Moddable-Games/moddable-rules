@@ -12,7 +12,7 @@ engine:
   components:
     cards:
       deck: hanafuda-48
-published: false
+published: true
 ---
 
 ## Koi-Koi

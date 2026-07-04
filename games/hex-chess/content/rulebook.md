@@ -9,7 +9,7 @@ tagline: "Chess on hexagonal boards — six directions instead of eight"
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light

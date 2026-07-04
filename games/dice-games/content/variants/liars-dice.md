@@ -11,7 +11,7 @@ engine:
     dice_per_player: 5
     die_type: d6
     cup_per_player: true
-published: false
+published: true
 ---
 
 ## Liar’s Dice

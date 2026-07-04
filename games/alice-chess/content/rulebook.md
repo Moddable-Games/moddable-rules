@@ -9,7 +9,7 @@ tagline: "Through the looking-glass: pieces vanish from one board and appear on 
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light

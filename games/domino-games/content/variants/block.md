@@ -11,7 +11,7 @@ engine:
   components:
     tiles: double6
     boneyard: false
-published: false
+published: true
 ---
 
 ## Block Dominoes

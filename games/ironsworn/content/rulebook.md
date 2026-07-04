@@ -9,7 +9,7 @@ tagline: "A perilous quest through the Ironlands, guided by vows and oracle tabl
 type: "rpg"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: false
 theme:
   surface: light

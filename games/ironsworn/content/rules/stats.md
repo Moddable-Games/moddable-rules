@@ -2,7 +2,7 @@
 title: Stats and Tracks
 slug: stats
 parent: ironsworn
-published: false
+published: true
 ---
 
 ## Stats and Tracks

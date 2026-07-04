@@ -12,7 +12,7 @@ engine:
     die_type: d6
     score_track: true
     target_score: 10000
-published: false
+published: true
 ---
 
 ## Farkle

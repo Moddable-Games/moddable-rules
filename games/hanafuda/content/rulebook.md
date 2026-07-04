@@ -9,7 +9,7 @@ tagline: "Japanese flower cards: match the months, score the patterns"
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light

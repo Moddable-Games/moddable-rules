@@ -21,7 +21,7 @@ engine:
       notation: G
   setup: "rnbgkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBGKBNR"
   notes: "G/g = Grasshopper. Queens replaced 1-for-1."
-published: false
+published: true
 ---
 
 ## Standard Grasshopper Chess

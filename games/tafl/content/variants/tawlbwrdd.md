@@ -2,7 +2,7 @@
 title: "Tawlbwrdd"
 slug: "tawlbwrdd"
 variant_of: "tafl"
-published: false
+published: true
 ---
 
 {{svg:board-tawlbwrdd.svg "Tawlbwrdd — starting position"}}

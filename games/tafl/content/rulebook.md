@@ -9,7 +9,7 @@ tagline: "King against the horde: asymmetric Norse strategy games of the Viking 
 type: "classic"
 status: "live"
 updated: "2026-06-26"
-published: false
+published: true
 variants: true
 theme:
   surface: light

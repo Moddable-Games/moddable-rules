@@ -13,7 +13,7 @@ engine:
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       total: 136
-published: false
+published: true
 ---
 
 ## Riichi Mahjong

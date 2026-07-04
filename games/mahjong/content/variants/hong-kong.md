@@ -15,7 +15,7 @@ engine:
       honours: [winds, dragons]
       bonus: [flowers, seasons]
       total: 144
-published: false
+published: true
 ---
 
 ## Hong Kong Mahjong

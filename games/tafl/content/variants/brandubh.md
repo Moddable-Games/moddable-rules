@@ -2,7 +2,7 @@
 title: "Brandubh"
 slug: "brandubh"
 variant_of: "tafl"
-published: false
+published: true
 ---
 
 {{svg:board-brandubh.svg "Brandubh — starting position"}}

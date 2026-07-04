@@ -3,7 +3,7 @@ title: "Tablut"
 slug: "standard"
 variant_of: "tafl"
 order: 1
-published: false
+published: true
 ---
 
 {{svg:board.svg "Tablut — starting position"}}

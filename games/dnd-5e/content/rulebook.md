@@ -9,7 +9,7 @@ tagline: "The open core rules for the world's most popular roleplaying game"
 type: "rpg"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: false
 theme:
   surface: light

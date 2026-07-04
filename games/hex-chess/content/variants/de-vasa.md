@@ -12,7 +12,7 @@ engine:
     cells: 81
     orientation: horizontal
   players: [white, black]
-published: false
+published: true
 ---
 
 ## De Vasa's Hexagonal Chess

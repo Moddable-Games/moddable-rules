@@ -23,7 +23,7 @@ engine:
       notation: W
   setup: "rncwqkwcnr/ppppppppppp/11/11/11/11/11/11/PPPPPPPPPPP/RNCWQKWCNR"
   notes: "C = Camel, W = Wildebeest. Board is 11 files (a–k) × 10 ranks."
-published: false
+published: true
 ---
 
 ## Standard Wildebeest Chess

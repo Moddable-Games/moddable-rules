@@ -11,7 +11,7 @@ engine:
     tiles: double6
     boneyard: true
     score_target: 61
-published: false
+published: true
 ---
 
 ## All Fives

@@ -12,7 +12,7 @@ engine:
     dice: 5
     die_type: d6
     scorecard: true
-published: false
+published: true
 ---
 
 ## Yahtzee

@@ -2,7 +2,7 @@
 title: "Ironsworn Oracle Tables"
 slug: oracles
 parent: ironsworn
-published: false
+published: true
 ---
 
 ## Ironsworn Oracle Tables

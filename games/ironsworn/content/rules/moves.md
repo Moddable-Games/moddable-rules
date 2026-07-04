@@ -2,7 +2,7 @@
 title: Moves
 slug: moves
 parent: ironsworn
-published: false
+published: true
 ---
 
 ## Moves

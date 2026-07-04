@@ -9,7 +9,7 @@ tagline: "The knight that never stops — a leaper that rides in a straight line
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light

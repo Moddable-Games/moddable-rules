@@ -13,7 +13,7 @@ engine:
     orientation: horizontal
     files: 10
   players: [white, black]
-published: false
+published: true
 ---
 
 ## Brusky's Hexagonal Chess

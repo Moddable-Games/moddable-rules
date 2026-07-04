@@ -13,7 +13,7 @@ engine:
     files: 7
     file_labels: ["a","b","c","d","e","f","g"]
   players: [white, black]
-published: false
+published: true
 ---
 
 ## Mini Hexchess

@@ -12,7 +12,7 @@ engine:
     cards:
       deck: hanafuda-48
       values: month-numeric
-published: false
+published: true
 ---
 
 ## Oicho-Kabu

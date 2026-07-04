@@ -9,7 +9,7 @@ tagline: "The 14th-century chess of Timur: 28 pieces per side, a larger board, a
 type: "classic"
 status: "live"
 updated: "2026-06-30"
-published: false
+published: true
 variants: false
 theme:
   surface: light

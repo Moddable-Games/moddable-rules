@@ -2,7 +2,7 @@
 title: "Hnefatafl"
 slug: "hnefatafl"
 variant_of: "tafl"
-published: false
+published: true
 ---
 
 {{svg:board-hnefatafl.svg "Hnefatafl — starting position"}}

@@ -13,7 +13,7 @@ engine:
     files: 9
     file_labels: ["a","b","c","d","e","f","g","h","i"]
   players: [white, black]
-published: false
+published: true
 ---
 
 ## Shafran's Hexagonal Chess

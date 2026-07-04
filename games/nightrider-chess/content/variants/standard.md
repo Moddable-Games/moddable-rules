@@ -20,7 +20,7 @@ engine:
       notation: N
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notes: "N in FEN = Nightrider throughout. Standard knights replaced 1-for-1."
-published: false
+published: true
 ---
 
 ## Standard Nightrider Chess

@@ -9,7 +9,7 @@ tagline: "Roll, press your luck, bluff — three games built on six-sided dice"
 type: "game"
 status: "alpha"
 updated: "2026-07-03"
-published: false
+published: true
 variants: true
 theme:
   surface: light
