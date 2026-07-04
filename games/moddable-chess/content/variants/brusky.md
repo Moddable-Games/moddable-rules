@@ -3,7 +3,7 @@ title: Brusky's Hexagonal Chess
 slug: brusky
 board: "84 hexes (horizontal, 10 files)"
 players: "2"
-parent: hex-chess
+parent: moddable-chess
 win: Checkmate
 special: "Horizontal 84-hex board. 10 pawns per side. Unmoved pawns may also capture straight forward. Blockage rule applies. Invented Yakov Brusky."
 engine:

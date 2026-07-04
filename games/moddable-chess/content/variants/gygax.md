@@ -1,9 +1,9 @@
 ---
 title: Gygax Chess
-slug: standard
+slug: gygax
 board: "12×8 (three levels)"
 players: "2"
-parent: gygax-chess
+parent: moddable-chess
 win: Checkmate
 order: 1
 special: "Three stacked 12×8 boards. 42 pieces per side across 15 piece types. Air, Land, and Subterranean realms. Gary Gygax, Dragon Magazine No. 100, 1985."

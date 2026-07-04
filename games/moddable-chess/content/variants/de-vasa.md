@@ -3,7 +3,7 @@ title: De Vasa's Hexagonal Chess
 slug: de-vasa
 board: "81 hexes (rhombus, horizontal)"
 players: "2"
-parent: hex-chess
+parent: moddable-chess
 win: Checkmate
 special: "Horizontally-oriented rhombus board of 81 hexes. Pawns start on rank 3. Castling permitted. Invented Helge E. de Vasa."
 engine:

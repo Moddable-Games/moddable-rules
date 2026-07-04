@@ -1,9 +1,9 @@
 ---
 title: Standard Grasshopper Chess
-slug: standard
+slug: grasshopper
 board: "8x8"
 players: "2"
-parent: grasshopper-chess
+parent: moddable-chess
 win: "Checkmate the opponent's king"
 order: 1
 special: "Each queen is replaced by a Grasshopper — a piece that must hop over a hurdle to move."

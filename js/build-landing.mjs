@@ -11,8 +11,13 @@ function findLogo(slug) {
   if (!existsSync(logosDir)) return null;
   const files = readdirSync(logosDir).filter(f => /\.(svg|png|jpg|jpeg|webp)$/i.test(f));
   if (files.length === 0) return null;
-  const svg = files.find(f => f.endsWith('.svg'));
-  return `games/${slug}/logos/${svg || files[0]}`;
+  const named = files.filter(f => f.startsWith(slug));
+  const pool = named.length > 0 ? named : files.filter(f => f.includes('logo'));
+  const pick = pool.find(f => f.endsWith('.svg'))
+    || pool.find(f => f.endsWith('.png'))
+    || pool.find(f => f.endsWith('.jpg') || f.endsWith('.jpeg'))
+    || pool[0] || files[0];
+  return `games/${slug}/logos/${pick}`;
 }
 
 function countVariants(slug) {
@@ -46,6 +51,7 @@ function typeCategory(type) {
   if (type === 'mod') return 'mod';
   if (type === 'platform') return 'platform';
   if (type === 'classic') return 'classic';
+  if (type === 'rpg') return 'classic';
   return 'game';
 }
 

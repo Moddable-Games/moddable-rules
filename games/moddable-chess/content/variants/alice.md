@@ -1,9 +1,9 @@
 ---
 title: Alice Chess
-slug: standard
+slug: alice
 board: "Two 8×8 boards (Board A and Board B)"
 players: "2"
-parent: alice-chess
+parent: moddable-chess
 win: Checkmate
 order: 1
 special: "After every move, the moving piece transfers to the corresponding square on the other board. A move is only legal if the transfer square is vacant. Invented V. R. Parton, 1953."

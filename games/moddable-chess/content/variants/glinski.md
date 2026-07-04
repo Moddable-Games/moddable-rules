@@ -35,6 +35,7 @@ engine:
           movement: pawn
       castling: false
       enPassant: false
+published: true
 ---
 
 ## Glinski's Hexagonal Chess

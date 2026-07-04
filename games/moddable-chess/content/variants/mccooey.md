@@ -3,7 +3,7 @@ title: McCooey's Hexagonal Chess
 slug: mccooey
 board: "91 hexes (11 files a–k)"
 players: "2"
-parent: hex-chess
+parent: moddable-chess
 win: Checkmate
 special: "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per side, and stalemate is a draw. Invented Dave McCooey."
 engine:

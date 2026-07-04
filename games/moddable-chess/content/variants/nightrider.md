@@ -1,9 +1,9 @@
 ---
 title: Standard Nightrider Chess
-slug: standard
+slug: nightrider
 board: "8x8"
 players: "2"
-parent: nightrider-chess
+parent: moddable-chess
 win: "Checkmate the opponent's king"
 order: 1
 special: "Knights are replaced by Nightriders — riders that chain knight-leaps in a single direction."

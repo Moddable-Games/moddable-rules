@@ -1,9 +1,9 @@
 ---
 title: Standard Wildebeest Chess
-slug: standard
+slug: wildebeest
 board: "11x10"
 players: "2"
-parent: wildebeest-chess
+parent: moddable-chess
 win: "Checkmate the opponent's king"
 order: 1
 special: "An 11×10 board. Camels replace bishops; Wildebeests (Knight+Camel compound) flank the queen."

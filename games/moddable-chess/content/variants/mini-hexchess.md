@@ -3,7 +3,7 @@ title: Mini Hexchess
 slug: mini-hexchess
 board: "37 hexes (7 files a–g)"
 players: "2"
-parent: hex-chess
+parent: moddable-chess
 win: Checkmate
 special: "37-hex board, 7 files, no Queen piece. All 7 opponent-side hexes are promotion squares. Promotes to R/B/N only. Invented Dave McCooey, 1997."
 engine:

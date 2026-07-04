@@ -3,7 +3,7 @@ title: Shafran's Hexagonal Chess
 slug: shafran
 board: "70 hexes (9 files a–i)"
 players: "2"
-parent: hex-chess
+parent: moddable-chess
 win: Checkmate
 special: "Smaller 70-hex board with 9 files. Castling permitted. Variable pawn initial step by file. Invented Boris Shafran."
 engine:
