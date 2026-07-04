@@ -1,5 +1,6 @@
 ---
 title: "Standard 52-Card Deck"
+short_title: "52 Cards"
 version: "0.1.0"
 slug: "standard-52"
 players: "1–8"

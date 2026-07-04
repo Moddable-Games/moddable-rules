@@ -571,7 +571,7 @@ function buildLanding() {
     const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>` : '';
     const badge = statusLabels[g.status] || g.status || '';
     const badgeClass = statusClasses[g.status] || 'badge--dev';
-    const title = g.title ? g.title.replace(/\s*[—–:]\s*Official Rulebook$/i, '').replace(/\s*[—–]\s*Component Hub$/i, '') : g.slug;
+    const title = g.short_title || (g.title ? g.title.replace(/\s*[—–:]\s*Official Rulebook$/i, '').replace(/\s*[—–]\s*Component Hub$/i, '') : g.slug);
     return `    <a href="dist/${g.slug}/index.html" class="game-card" data-type="${g.type || 'game'}">
       <span class="badge ${badgeClass}">${badge}</span>
       <div class="card-logo-wrap">

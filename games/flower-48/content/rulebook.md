@@ -1,5 +1,6 @@
 ---
 title: "Flower 48"
+short_title: "48 Flowers"
 version: "0.1.0"
 slug: "flower-48"
 players: "2–4"
