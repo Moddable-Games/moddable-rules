@@ -93,6 +93,10 @@ The Systems Reference Document 5.1 (SRD 5.1) contains the open core rules for D&
 
 ### Machine-Readable Data
 
-Structured JSON for all SRD entities, sourced from `5e-bits/5e-database` (CC BY 4.0). Nine files covering ability scores, classes, conditions, equipment, features, magic items, monsters, races, and spells.
+Structured JSON for all SRD entities, sourced from `5e-bits/5e-database` (CC BY 4.0).
+
+- [ability-scores.json](../../games/dnd-5e/data/ability-scores.json) · [classes.json](../../games/dnd-5e/data/classes.json) · [conditions.json](../../games/dnd-5e/data/conditions.json)
+- [equipment.json](../../games/dnd-5e/data/equipment.json) · [features.json](../../games/dnd-5e/data/features.json) · [magic-items.json](../../games/dnd-5e/data/magic-items.json)
+- [monsters.json](../../games/dnd-5e/data/monsters.json) · [races.json](../../games/dnd-5e/data/races.json) · [spells.json](../../games/dnd-5e/data/spells.json)
 
 </div>

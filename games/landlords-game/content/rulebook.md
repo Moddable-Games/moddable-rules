@@ -152,6 +152,8 @@ This library includes {{variant_count}} variants.
 
 Machine-readable JSON containing the complete board layout for all three editions (1904, 1906, 1932). Every space with its position, name, type, price, and rent. Used for diagram generation by moddable-engine.
 
+- [boards.json](../../games/landlords-game/data/boards.json)
+
 </div>
 
 <div class="section">

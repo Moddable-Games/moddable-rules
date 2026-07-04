@@ -48,8 +48,10 @@ A tabletop roleplaying game by Shawn Tomkin set in the mythic dark fantasy world
 
 ### Oracle Tables
 
-Roll dice and consult for narrative inspiration. Machine-readable JSON in `oracles/` directory.
+Roll dice and consult for narrative inspiration. Machine-readable JSON:
 
-Action, Theme, Combat Action, Major Plot Twist, Challenge Rank, Pay the Price.
+- [action.json](../../games/ironsworn/oracles/action.json) · [theme.json](../../games/ironsworn/oracles/theme.json) · [combat-action.json](../../games/ironsworn/oracles/combat-action.json)
+- [major-plot-twist.json](../../games/ironsworn/oracles/major-plot-twist.json) · [challenge-rank.json](../../games/ironsworn/oracles/challenge-rank.json) · [pay-the-price.json](../../games/ironsworn/oracles/pay-the-price.json)
+- [schema.json](../../games/ironsworn/oracles/schema.json)
 
 </div>

@@ -188,7 +188,7 @@
     "gameTitle": "Dungeons & Dragons 5th Edition SRD",
     "section": "Dungeons & Dragons 5th Edition SRD",
     "heading": "Machine-Readable Data",
-    "content": "Structured JSON for all SRD entities, sourced from 5e-bits/5e-database CC BY 4.0. Nine files covering ability scores, classes, conditions, equipment, features, magic items, monsters, races, and spells",
+    "content": "Structured JSON for all SRD entities, sourced from 5e-bits/5e-database CC BY 4.0. - ability-scores.json../../games/dnd-5e/data/ability-scores.json · classes.json../../games/dnd-5e/data/classes.json · ",
     "anchor": "machine-readable-data"
   },
   {
@@ -1124,7 +1124,7 @@
     "gameTitle": "Ironsworn",
     "section": "Ironsworn",
     "heading": "Oracle Tables",
-    "content": "Roll dice and consult for narrative inspiration. Machine-readable JSON in oracles/ directory. Action, Theme, Combat Action, Major Plot Twist, Challenge Rank, Pay the Price.",
+    "content": "Roll dice and consult for narrative inspiration. Machine-readable JSON: - action.json../../games/ironsworn/oracles/action.json · theme.json../../games/ironsworn/oracles/theme.json · combat-action.json",
     "anchor": "oracle-tables"
   },
   {
