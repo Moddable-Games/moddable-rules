@@ -6,7 +6,7 @@ players: "2"
 duration: "20–60 min"
 age: "10+"
 tagline: "The knight that never stops — a leaper that rides in a straight line"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

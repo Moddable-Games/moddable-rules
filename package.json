@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node js/build.mjs --all",
+    "build": "node js/build.mjs --all && node js/build-landing.mjs",
     "build:game": "node js/build.mjs --game",
+    "landing": "node js/build-landing.mjs",
     "index": "node js/build-index.mjs",
     "pdf": "node js/pdf.mjs",
     "pdf:game": "node js/pdf.mjs --game",

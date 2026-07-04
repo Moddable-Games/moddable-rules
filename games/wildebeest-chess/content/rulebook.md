@@ -6,7 +6,7 @@ players: "2"
 duration: "30–90 min"
 age: "12+"
 tagline: "An 11×10 board with two new compound leapers — the Camel and the Wildebeest"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

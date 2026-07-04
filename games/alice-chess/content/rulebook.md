@@ -6,7 +6,7 @@ players: "2"
 duration: "30–90 min"
 age: "12+"
 tagline: "Through the looking-glass: pieces vanish from one board and appear on another"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

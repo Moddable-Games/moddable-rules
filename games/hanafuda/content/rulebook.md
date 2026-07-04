@@ -6,7 +6,7 @@ players: "2–4"
 duration: "15–60 min"
 age: "10+"
 tagline: "Japanese flower cards: match the months, score the patterns"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

@@ -6,7 +6,7 @@ players: "2–4"
 duration: "20–60 min"
 age: "7+"
 tagline: "Match the pips, build the chain, score the ends"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

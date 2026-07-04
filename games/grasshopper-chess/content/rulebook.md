@@ -6,7 +6,7 @@ players: "2"
 duration: "20–60 min"
 age: "10+"
 tagline: "A rider that must jump — the Grasshopper can only land by hopping over another piece"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

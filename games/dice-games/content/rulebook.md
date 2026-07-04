@@ -6,7 +6,7 @@ players: "1–6"
 duration: "15–60 min"
 age: "8+"
 tagline: "Roll, press your luck, bluff — three games built on six-sided dice"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

@@ -6,7 +6,7 @@ players: "4"
 duration: "30–120 min"
 age: "10+"
 tagline: "A tile-matching game of skill, strategy, and fortune"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

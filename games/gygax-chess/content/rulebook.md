@@ -6,7 +6,7 @@ players: "2"
 duration: "60–180 min"
 age: "12+"
 tagline: "Three-dimensional chess across Air, Land, and Subterranean realms"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true

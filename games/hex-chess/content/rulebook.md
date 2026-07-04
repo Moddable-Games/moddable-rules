@@ -6,7 +6,7 @@ players: "2"
 duration: "15–60 min"
 age: "10+"
 tagline: "Chess on hexagonal boards — six directions instead of eight"
-type: "game"
+type: "classic"
 status: "alpha"
 updated: "2026-07-03"
 published: true
