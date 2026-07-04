@@ -1,5 +1,6 @@
 ---
 title: "Double-Six Dominoes"
+short_title: "D6 Dominoes"
 version: "0.1.0"
 slug: "double-six-dominoes"
 players: "2–8"
