@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# Sorcerer
+## Sorcerer
 
-### Class Features
+#### Class Features
 
 As a sorcerer, you gain the following class features.
 
@@ -66,7 +66,7 @@ You start with the following equipment, in addition to the equipment granted by 
 | 20th  | +6                | 20             | Sorcerous Restoration          | 6              | 15           | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 |       |                   |                |                                |                |              |     |     |     |     |     |     |     |     |     |
 
-### Spellcasting
+#### Spellcasting
 
 An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.
 
@@ -100,13 +100,13 @@ Charisma is your spellcasting ability for your sorcerer spells, since the power 
 
 You can use an arcane focus as a spellcasting focus for your sorcerer spells.
 
-### Sorcerous Origin
+#### Sorcerous Origin
 
 Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.
 
 Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
 
-### Font of Magic
+#### Font of Magic
 
 At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.
 
@@ -135,7 +135,7 @@ Any spell slot you create with this feature vanishes when you finish a long rest
 
 ***Converting a Spell Slot to Sorcery Points***. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
 
-### Metamagic
+#### Metamagic
 
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
 
@@ -179,19 +179,19 @@ When you cast a spell that targets only one creature and doesn't have a range of
 
 To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, *magic missile* and *scorching ray* aren't eligible, but *ray of frost* and *chromatic orb* are.
 
-### Ability Score Improvement
+#### Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-### Sorcerous Restoration
+#### Sorcerous Restoration
 
 At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.
 
-## Sorcerous Origins
+### Sorcerous Origins
 
 Different sorcerers claim different origins for their innate magic. Although many variations exist, most of these origins fall into two categories: a draconic bloodline and wild magic.
 
-### Draconic Bloodline
+#### Draconic Bloodline
 
 Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.
 

@@ -5,7 +5,7 @@ parent: dnd-5e
 published: true
 ---
 
-# Racial Traits
+## Racial Traits
 
 The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.
 
@@ -38,7 +38,7 @@ By virtue of your race, your character can speak, read, and write certain langua
 Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world.
 ---
 
-# Dragonborn
+## Dragonborn
 
 ### Dragonborn Traits
 
@@ -83,7 +83,7 @@ After you use your breath weapon, you can't use it again until you complete a sh
 ***Languages***. You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
 ---
 
-# Dwarf
+## Dwarf
 
 ### Dwarf Traits
 
@@ -120,7 +120,7 @@ As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience
 ***Dwarven Toughness***. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
 ---
 
-# Elf
+## Elf
 
 ### Elf Traits
 
@@ -161,7 +161,7 @@ As a high elf, you have a keen mind and a mastery of at least the basics of magi
 ***Extra Language***. You can speak, read, and write one extra language of your choice.
 ---
 
-# Gnome
+## Gnome
 
 ### Gnome Traits
 
@@ -202,7 +202,7 @@ When you create a device, choose one of the following options:
 ***Music Box***. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
 ---
 
-# Half-Elf
+## Half-Elf
 
 ### Half-Elf Traits
 
@@ -227,7 +227,7 @@ Your half-elf character has some qualities in common with elves and some that ar
 ***Languages***. You can speak, read, and write Common, Elvish, and one extra language of your choice.
 ---
 
-# Half-Orc
+## Half-Orc
 
 ### Half-Orc Traits
 
@@ -254,7 +254,7 @@ Your half-orc character has certain traits deriving from your orc ancestry.
 ***Languages***. You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.
 ---
 
-# Halfling
+## Halfling
 
 ### Halfling Traits
 
@@ -289,7 +289,7 @@ Lightfoots are more prone to wanderlust than other halflings, and often dwell al
 ***Naturally Stealthy***. You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
 ---
 
-# Human
+## Human
 
 ### Human Traits
 
@@ -308,7 +308,7 @@ It's hard to make generalizations about humans, but your human character has the
 ***Languages***. You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.
 ---
 
-# Tiefling
+## Tiefling
 
 ### Tiefling Traits
 

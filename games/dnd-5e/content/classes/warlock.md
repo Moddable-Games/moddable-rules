@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# Warlock
+## Warlock
 
-### Class Features
+#### Class Features
 
 As a warlock, you gain the following class features.
 
@@ -66,11 +66,11 @@ You start with the following equipment, in addition to the equipment granted by 
 | 20th  | +6                | Eldritch Master                 | 4              | 15           | 4           | 5th        | 8                 |
 |       |                   |                                 |                |              |             |            |                   |
 
-### Otherworldly Patron
+#### Otherworldly Patron
 
 At 1st level, you have struck a bargain with an otherworldly being of your choice: the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.
 
-### Pact Magic
+#### Pact Magic
 
 Your arcane research and the magic bestowed on you by your patron have given you facility with spells.
 
@@ -104,7 +104,7 @@ Charisma is your spellcasting ability for your warlock spells, so you use your C
 
 You can use an arcane focus as a spellcasting focus for your warlock spells.
 
-### Eldritch Invocations
+#### Eldritch Invocations
 
 In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.
 
@@ -112,7 +112,7 @@ At 2nd level, you gain two eldritch invocations of your choice. Your invocation 
 
 Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.
 
-### Pact Boon
+#### Pact Boon
 
 At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.
 
@@ -138,11 +138,11 @@ Your patron gives you a grimoire called a Book of Shadows. When you gain this fe
 
 If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.
 
-### Ability Score Improvement
+#### Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-### Mystic Arcanum
+#### Mystic Arcanum
 
 At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th- level spell from the warlock spell list as this arcanum.
 
@@ -150,11 +150,11 @@ You can cast your arcanum spell once without expending a spell slot. You must fi
 
 At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th- level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.
 
-### Eldritch Master
+#### Eldritch Master
 
 At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.
 
-### Eldritch Invocations
+#### Eldritch Invocations
 
 If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class.
 
@@ -330,13 +330,13 @@ You can cast *speak with dead* at will, without expending a spell slot.
 
 You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.
 
-## Otherworldly Patrons
+### Otherworldly Patrons
 
 The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence-not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.
 
 Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
 
-### The Fiend
+#### The Fiend
 
 You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
 

@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# Ranger
+## Ranger
 
-### Class Features
+#### Class Features
 
 As a ranger, you gain the following class features.
 
@@ -66,7 +66,7 @@ You start with the following equipment, in addition to the equipment granted by 
 | 20th  | +6                | Foe Slayer                                        | 11           | 4   | 3   | 3   | 3   | 2   |
 |       |                   |                                                   |              |     |     |     |     |     |
 
-### Favored Enemy
+#### Favored Enemy
 
 Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
 
@@ -78,7 +78,7 @@ When you gain this feature, you also learn one language of your choice that is s
 
 You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.
 
-### Natural Explorer
+#### Natural Explorer
 
 You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.
 
@@ -93,7 +93,7 @@ While traveling for an hour or more in your favored terrain, you gain the follow
 
 You choose additional favored terrain types at 6th and 10th level.
 
-### Fighting Style
+#### Fighting Style
 
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
@@ -113,7 +113,7 @@ When you are wielding a melee weapon in one hand and no other weapons, you gain 
 
 When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 
-### Spellcasting
+#### Spellcasting
 
 By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See the general rules for spellcasting and the ranger spell list.
 
@@ -139,53 +139,53 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
-### Ranger Archetype
+#### Ranger Archetype
 
 At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
 
-### Primeval Awareness
+#### Primeval Awareness
 
 Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.
 
-### Ability Score Improvement
+#### Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-### Extra Attack
+#### Extra Attack
 
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
 
-### Land's Stride
+#### Land's Stride
 
 Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
 In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the *entangle* spell.
 
-### Hide in Plain Sight
+#### Hide in Plain Sight
 
 Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
 
 Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.
 
-### Vanish
+#### Vanish
 
 Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.
 
-### Feral Senses
+#### Feral Senses
 
 At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.
 
 You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.
 
-### Foe Slayer
+#### Foe Slayer
 
 At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.
 
-## Ranger Archetypes
+### Ranger Archetypes
 
 The ideal of the ranger has two classic expressions: the Hunter and the Beast Master.
 
-### Hunter
+#### Hunter
 
 Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
 

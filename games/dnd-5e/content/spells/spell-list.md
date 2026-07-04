@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# SPELL LISTS
+## SPELL LISTS
 
-## Bard Spells
+### Bard Spells
 
 #### Cantrips (0 Level)
 
@@ -151,7 +151,7 @@ published: true
 - Power Word Kill
 - True Polymorph
 
-## Cleric Spells
+### Cleric Spells
 
 #### Cantrips (0 Level)
 
@@ -288,7 +288,7 @@ published: true
 - Mass Heal
 - True Resurrection
 
-## Druid Spells
+### Druid Spells
 
 #### Cantrips (0 Level)
 
@@ -425,7 +425,7 @@ published: true
 - Storm of Vengeance
 - True Resurrection
 
-## Paladin Spells
+### Paladin Spells
 
 #### 1st Level
 
@@ -473,7 +473,7 @@ published: true
 - Geas
 - Raise Dead
 
-## Ranger Spells
+### Ranger Spells
 
 #### 1st Level
 
@@ -527,7 +527,7 @@ published: true
 - Commune with Nature
 - Tree Stride
 
-## Sorcerer Spells
+### Sorcerer Spells
 
 #### Cantrips (0 Level)
 
@@ -679,7 +679,7 @@ published: true
 - Time Stop
 - Wish
 
-## Warlock Spells
+### Warlock Spells
 
 #### Cantrips (0 Level)
 
@@ -774,7 +774,7 @@ published: true
 - Power Word Kill
 - True Polymorph
 
-## Wizard Spells
+### Wizard Spells
 
 #### Cantrips (0 Level)
 

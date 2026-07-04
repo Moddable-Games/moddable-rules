@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# Wizard
+## Wizard
 
-### Class Features
+#### Class Features
 
 As a wizard, you gain the following class features.
 
@@ -66,7 +66,7 @@ You start with the following equipment, in addition to the equipment granted by 
 | 20th  | +6                | Signature Spell               | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 |       |                   |                               |                |     |     |     |     |     |     |     |     |     |
 
-### Spellcasting
+#### Spellcasting
 
 As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.
 
@@ -108,41 +108,41 @@ You can use an arcane focus as a spellcasting focus for your wizard spells.
 
 Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook.
 
-### Arcane Recovery
+#### Arcane Recovery
 
 You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
 
 For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.
 
-### Arcane Tradition
+#### Arcane Tradition
 
 When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.
 
 Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
-### Ability Score Improvement
+#### Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-### Spell Mastery
+#### Spell Mastery
 
 At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
 By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.
 
-### Signature Spells
+#### Signature Spells
 
 When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.
 
 If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
-## Arcane Traditions
+### Arcane Traditions
 
 The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in fantasy gaming worlds, with various traditions dedicated to its complex study.
 
 The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called schools. In some places, these traditions are literally schools; a wizard might study at the School of Illusion while another studies across town at the School of Enchantment. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.
 
-### School of Evocation
+#### School of Evocation
 
 You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.
 

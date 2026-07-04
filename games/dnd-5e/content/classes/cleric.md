@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# Cleric
+## Cleric
 
-### Class Features
+#### Class Features
 
 As a cleric, you gain the following class features.
 
@@ -67,7 +67,7 @@ You start with the following equipment, in addition to the equipment granted by 
 | 20th  | +6                | Divine Intervention improvement                                         | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 |       |                   |                                                                         |                |     |     |     |     |     |     |     |     |     |
 
-### Spellcasting
+#### Spellcasting
 
 As a conduit for divine power, you can cast cleric spells.
 
@@ -101,7 +101,7 @@ You can cast a cleric spell as a ritual if that spell has the ritual tag and you
 
 You can use a holy symbol as a spellcasting focus for your cleric spells.
 
-### Divine Domain
+#### Divine Domain
 
 Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
 
@@ -111,7 +111,7 @@ Each domain has a list of spells - its domain spells - that you gain at the cler
 
 If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.
 
-### Channel Divinity
+#### Channel Divinity
 
 At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.
 
@@ -127,11 +127,11 @@ As an action, you present your holy symbol and speak a prayer censuring the unde
 
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
-### Ability Score Improvement
+#### Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-### Destroy Undead
+#### Destroy Undead
 
 Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.
 
@@ -146,7 +146,7 @@ Starting at 5th level, when an undead fails its saving throw against your Turn U
 | 17th         | 4 or lower                |
 |              |                           |
 
-### Divine Intervention
+#### Divine Intervention
 
 Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.
 
@@ -156,9 +156,9 @@ If your deity intervenes, you can't use this feature again for 7 days. Otherwise
 
 At 20th level, your call for intervention succeeds automatically, no roll required.
 
-## Cleric Domains
+### Cleric Domains
 
-### Life Domain
+#### Life Domain
 
 The Life domain focuses on the vibrant positive energy-one of the fundamental forces of the universe-that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).
 

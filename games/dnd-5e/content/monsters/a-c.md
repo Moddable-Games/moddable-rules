@@ -5,7 +5,7 @@ parent: dnd-5e
 published: true
 ---
 
-## Aboleth
+### Aboleth
 
 *Large aberration, lawful evil*
 
@@ -59,7 +59,7 @@ The aboleth can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Acolyte
+#### Acolyte
 
 *Medium humanoid (any race), any alignment*
 
@@ -94,7 +94,7 @@ Cantrips (at will): *light*, *sacred flame*, *thaumaturgy*
 
 ---
 
-# Adult Black Dragon (Chromatic)
+## Adult Black Dragon (Chromatic)
 
 *Huge dragon, chaotic evil*
 
@@ -150,7 +150,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Blue Dragon (Chromatic)
+## Adult Blue Dragon (Chromatic)
 
 *Huge dragon, lawful evil*
 
@@ -204,7 +204,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Brass Dragon (Metallic)
+## Adult Brass Dragon (Metallic)
 
 *Huge dragon, chaotic good*
 
@@ -262,7 +262,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Bronze Dragon (Metallic)
+## Adult Bronze Dragon (Metallic)
 
 *Huge dragon, lawful good*
 
@@ -326,7 +326,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Copper Dragon (Metallic)
+## Adult Copper Dragon (Metallic)
 
 *Huge dragon, chaotic good*
 
@@ -384,7 +384,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Gold Dragon (Metallic)
+## Adult Gold Dragon (Metallic)
 
 *Huge dragon, lawful good*
 
@@ -448,7 +448,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Green Dragon (Chromatic)
+## Adult Green Dragon (Chromatic)
 
 *Huge dragon, lawful evil*
 
@@ -506,7 +506,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Red Dragon (Chromatic)
+## Adult Red Dragon (Chromatic)
 
 *Huge dragon, chaotic evil*
 
@@ -560,7 +560,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult Silver Dragon (Metallic)
+## Adult Silver Dragon (Metallic)
 
 *Huge dragon, lawful good*
 
@@ -622,7 +622,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Adult White Dragon (Chromatic)
+## Adult White Dragon (Chromatic)
 
 *Huge dragon, chaotic evil*
 
@@ -678,7 +678,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-### Air Elemental
+#### Air Elemental
 
 *Large elemental, neutral*
 
@@ -718,7 +718,7 @@ If the saving throw is successful, the target takes half the bludgeoning damage 
 
 ---
 
-# Ancient Black Dragon (Chromatic)
+## Ancient Black Dragon (Chromatic)
 
 *Gargantuan dragon, chaotic evil*
 
@@ -774,7 +774,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Blue Dragon (Chromatic)
+## Ancient Blue Dragon (Chromatic)
 
 *Gargantuan dragon, lawful evil*
 
@@ -828,7 +828,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Brass Dragon (Metallic)
+## Ancient Brass Dragon (Metallic)
 
 *Gargantuan dragon, chaotic good*
 
@@ -890,7 +890,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Bronze Dragon (Metallic)
+## Ancient Bronze Dragon (Metallic)
 
 *Gargantuan dragon, lawful good*
 
@@ -954,7 +954,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Copper Dragon (Metallic)
+## Ancient Copper Dragon (Metallic)
 
 *Gargantuan dragon, chaotic good*
 
@@ -1016,7 +1016,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Gold Dragon (Metallic)
+## Ancient Gold Dragon (Metallic)
 
 *Gargantuan dragon, lawful good*
 
@@ -1080,7 +1080,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Green Dragon (Chromatic)
+## Ancient Green Dragon (Chromatic)
 
 *Gargantuan dragon, lawful evil*
 
@@ -1136,7 +1136,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Red Dragon (Chromatic)
+## Ancient Red Dragon (Chromatic)
 
 *Gargantuan dragon, chaotic evil*
 
@@ -1190,7 +1190,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient Silver Dragon (Metallic)
+## Ancient Silver Dragon (Metallic)
 
 *Gargantuan dragon, lawful good*
 
@@ -1252,7 +1252,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-# Ancient White Dragon (Chromatic)
+## Ancient White Dragon (Chromatic)
 
 *Gargantuan dragon, chaotic evil*
 
@@ -1308,7 +1308,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-### Androsphinx (Sphinx)
+#### Androsphinx (Sphinx)
 
 *Large monstrosity, lawful neutral*
 
@@ -1376,7 +1376,7 @@ The sphinx can take 3 legendary actions, choosing from the options below. Only o
 
 ---
 
-### Animated Armor (Animated Object)
+#### Animated Armor (Animated Object)
 
 *Medium construct, unaligned*
 
@@ -1414,7 +1414,7 @@ Constitution saving throw against the caster's spell save DC or fall unconscious
 
 ---
 
-## Ankheg
+### Ankheg
 
 *Large monstrosity, unaligned*
 
@@ -1442,7 +1442,7 @@ Constitution saving throw against the caster's spell save DC or fall unconscious
 
 ---
 
-### Ape
+#### Ape
 
 *Medium beast, unaligned*
 
@@ -1474,7 +1474,7 @@ Constitution saving throw against the caster's spell save DC or fall unconscious
 
 ---
 
-### Archmage
+#### Archmage
 
 *Medium humanoid (any race), any alignment*
 
@@ -1526,7 +1526,7 @@ An archmage typically has one or more apprentice mages, and an archmage's abode 
 
 ---
 
-### Assassin
+#### Assassin
 
 *Medium humanoid (any race), any non-good alignment*
 
@@ -1570,7 +1570,7 @@ Trained in the use of poison, **assassins** are remorseless killers who work for
 
 ---
 
-### Awakened Shrub
+#### Awakened Shrub
 
 *Small plant, unaligned*
 
@@ -1604,7 +1604,7 @@ An **awakened shrub** is an ordinary shrub given sentience and mobility by the *
 
 ---
 
-### Awakened Tree
+#### Awakened Tree
 
 *Huge plant, unaligned*
 
@@ -1638,7 +1638,7 @@ An **awakened tree** is an ordinary tree given sentience and mobility by the *aw
 
 ---
 
-### Axe Beak
+#### Axe Beak
 
 *Large beast, unaligned*
 
@@ -1666,7 +1666,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 ---
 
-## Azer
+### Azer
 
 *Medium elemental, lawful neutral*
 
@@ -1704,7 +1704,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 ---
 
-### Baboon
+#### Baboon
 
 *Small beast, unaligned*
 
@@ -1732,7 +1732,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 ---
 
-### Badger
+#### Badger
 
 *Tiny beast, unaligned*
 
@@ -1760,7 +1760,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 ---
 
-### Balor (Demon)
+#### Balor (Demon)
 
 *Huge fiend (demon), chaotic evil*
 
@@ -1808,7 +1808,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 ---
 
-### Bandit
+#### Bandit
 
 *Medium humanoid (any race), any non-lawful alignment*
 
@@ -1840,7 +1840,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 ---
 
-### Bandit Captain
+#### Bandit Captain
 
 *Medium humanoid (any race), any non-lawful alignment*
 
@@ -1884,7 +1884,7 @@ More than treasure, a bandit captain or pirate captain craves infamy. A prisoner
 
 ---
 
-### Barbed Devil
+#### Barbed Devil
 
 *Medium fiend (devil), lawful evil*
 
@@ -1932,7 +1932,7 @@ More than treasure, a bandit captain or pirate captain craves infamy. A prisoner
 
 ---
 
-## Basilisk
+### Basilisk
 
 *Medium monstrosity, unaligned*
 
@@ -1964,7 +1964,7 @@ If the basilisk sees its reflection within 30 feet of it in bright light, it mis
 
 ---
 
-### Bat
+#### Bat
 
 *Tiny beast, unaligned*
 
@@ -1994,7 +1994,7 @@ If the basilisk sees its reflection within 30 feet of it in bright light, it mis
 
 ---
 
-### Bearded Devil
+#### Bearded Devil
 
 *Medium fiend (devil), lawful evil*
 
@@ -2038,7 +2038,7 @@ If the basilisk sees its reflection within 30 feet of it in bright light, it mis
 
 ---
 
-## Behir
+### Behir
 
 *Huge monstrosity, neutral evil*
 
@@ -2078,7 +2078,7 @@ If the behir takes 30 damage or more on a single turn from the swallowed creatur
 
 ---
 
-### Berserker
+#### Berserker
 
 *Medium humanoid (any race), any chaotic alignment*
 
@@ -2108,7 +2108,7 @@ Hailing from uncivilized lands, unpredictable **berserkers** come together in wa
 
 ---
 
-### Black Bear
+#### Black Bear
 
 *Medium beast, unaligned*
 
@@ -2142,7 +2142,7 @@ Hailing from uncivilized lands, unpredictable **berserkers** come together in wa
 
 ---
 
-### Black Pudding (Ooze)
+#### Black Pudding (Ooze)
 
 *Large ooze, unaligned*
 
@@ -2184,7 +2184,7 @@ The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round.
 
 ---
 
-### Blink Dog
+#### Blink Dog
 
 *Medium fey, lawful good*
 
@@ -2218,7 +2218,7 @@ A **blink dog** takes its name from its ability to blink in and out of existence
 
 ---
 
-### Blood Hawk
+#### Blood Hawk
 
 *Small beast, unaligned*
 
@@ -2252,7 +2252,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-### Boar
+#### Boar
 
 *Medium beast, unaligned*
 
@@ -2282,7 +2282,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-### Bone Devil
+#### Bone Devil
 
 *Large fiend (devil), lawful evil*
 
@@ -2326,7 +2326,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-### Brown Bear
+#### Brown Bear
 
 *Large beast, unaligned*
 
@@ -2360,7 +2360,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-## Bugbear
+### Bugbear
 
 *Medium humanoid (goblinoid), chaotic evil*
 
@@ -2394,7 +2394,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-## Bulette
+### Bulette
 
 *Large monstrosity, unaligned*
 
@@ -2426,7 +2426,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-### Camel
+#### Camel
 
 *Large beast, unaligned*
 
@@ -2452,7 +2452,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-### Cat
+#### Cat
 
 *Tiny beast, unaligned*
 
@@ -2482,7 +2482,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-## Centaur
+### Centaur
 
 *Large monstrosity, neutral good*
 
@@ -2518,7 +2518,7 @@ Taking its name from its crimson feathers and aggressive nature, the **blood haw
 
 ---
 
-### Chain Devil
+#### Chain Devil
 
 *Medium fiend (devil), lawful evil*
 
@@ -2566,7 +2566,7 @@ Each animated chain is an object with AC 20, 20 hit points, resistance to pierci
 
 ---
 
-## Chimera
+### Chimera
 
 *Large monstrosity, chaotic evil*
 
@@ -2602,7 +2602,7 @@ Each animated chain is an object with AC 20, 20 hit points, resistance to pierci
 
 ---
 
-## Chuul
+### Chuul
 
 *Large aberration, chaotic evil*
 
@@ -2642,7 +2642,7 @@ Each animated chain is an object with AC 20, 20 hit points, resistance to pierci
 
 ---
 
-### Clay Golem
+#### Clay Golem
 
 *Large construct, unaligned*
 
@@ -2686,7 +2686,7 @@ Each animated chain is an object with AC 20, 20 hit points, resistance to pierci
 
 ---
 
-## Cloaker
+### Cloaker
 
 *Large aberration, chaotic neutral*
 
@@ -2732,7 +2732,7 @@ A duplicate has the cloaker's AC and uses its saving throws. If an attack hits a
 
 ---
 
-### Cloud Giant
+#### Cloud Giant
 
 *Huge giant, neutral good (50%) or neutral evil (50%)*
 
@@ -2776,7 +2776,7 @@ At will: *detect magic*, *fog cloud*, *light*
 
 ---
 
-## Cockatrice
+### Cockatrice
 
 *Small monstrosity, unaligned*
 
@@ -2802,7 +2802,7 @@ At will: *detect magic*, *fog cloud*, *light*
 
 ---
 
-### Commoner
+#### Commoner
 
 *Medium humanoid (any race), any alignment*
 
@@ -2830,7 +2830,7 @@ At will: *detect magic*, *fog cloud*, *light*
 
 ---
 
-### Constrictor Snake
+#### Constrictor Snake
 
 *Large beast, unaligned*
 
@@ -2858,7 +2858,7 @@ At will: *detect magic*, *fog cloud*, *light*
 
 ---
 
-## Couatl
+### Couatl
 
 *Medium celestial, lawful good*
 
@@ -2908,7 +2908,7 @@ In a new form, the couatl retains its game statistics and ability to speak, but 
 
 ---
 
-### Crab
+#### Crab
 
 *Tiny beast, unaligned*
 
@@ -2938,7 +2938,7 @@ In a new form, the couatl retains its game statistics and ability to speak, but 
 
 ---
 
-### Crocodile
+#### Crocodile
 
 *Large beast, unaligned*
 
@@ -2968,7 +2968,7 @@ In a new form, the couatl retains its game statistics and ability to speak, but 
 
 ---
 
-### Cult Fanatic
+#### Cult Fanatic
 
 *Medium humanoid (any race), any non-good alignment*
 
@@ -3008,7 +3008,7 @@ Cantrips (at will): *light*, *sacred flame*, *thaumaturgy*
 
 ---
 
-### Cultist
+#### Cultist
 
 *Medium humanoid (any race), any non-good alignment*
 
@@ -3040,7 +3040,7 @@ Cantrips (at will): *light*, *sacred flame*, *thaumaturgy*
 
 ---
 
-### Customizing NPCs
+#### Customizing NPCs
 
 There are many easy ways to customize the NPCs in this appendix for your home campaign.
 

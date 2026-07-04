@@ -39,8 +39,9 @@ The Systems Reference Document 5.1 (SRD 5.1) contains the open core rules for D&
 ### Rules
 
 - [Using Ability Scores](rules/ability-scores/) — The six abilities, saving throws, skills, and ability checks
-- [Races](rules/races/) — SRD racial traits
-- [Equipment](rules/equipment/) — Armour, weapons, and adventuring gear
+- [Races](rules/races/) — SRD racial traits (Dragonborn, Dwarf, Elf, Gnome, Half-Elf, Half-Orc, Halfling, Human, Tiefling)
+- [Characterization](rules/characterization/) — Backgrounds, alignment, languages, multiclassing, beyond 1st level
+- [Equipment](rules/equipment/) — Armour, weapons, adventuring gear, tools, trade goods, transportation
 - [Combat](rules/combat/) — Initiative, actions, attacks, damage, and conditions
 - [Adventuring](rules/adventuring/) — Travel, rest, environment, and exploration
 - [Conditions](rules/conditions/) — All status condition definitions

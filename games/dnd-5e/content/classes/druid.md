@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# Druid
+## Druid
 
-### Class Features
+#### Class Features
 
 As a druid, you gain the following class features.
 
@@ -65,11 +65,11 @@ You start with the following equipment, in addition to the equipment granted by 
 | 20th  | +6                | Archdruid                                         | 4              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 |       |                   |                                                   |                |     |     |     |     |     |     |     |     |     |
 
-### Druidic
+#### Druidic
 
 You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.
 
-### Spellcasting
+#### Spellcasting
 
 Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.
 
@@ -87,7 +87,7 @@ For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-l
 
 You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
-### Spellcasting Ability
+#### Spellcasting Ability
 
 Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
 
@@ -95,7 +95,7 @@ Wisdom is your spellcasting ability for your druid spells, since your magic draw
 
 **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
-### Ritual Casting
+#### Ritual Casting
 
 You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 
@@ -103,7 +103,7 @@ You can cast a druid spell as a ritual if that spell has the ritual tag and you 
 
 You can use a druidic focus as a spellcasting focus for your druid spells.
 
-### Wild Shape
+#### Wild Shape
 
 Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
 
@@ -128,31 +128,31 @@ While you are transformed, the following rules apply:
 - You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
 - You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
 
-### Druid Circle
+#### Druid Circle
 
 At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
-### Ability Score Improvement
+#### Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-### Timeless Body
+#### Timeless Body
 
 Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.
 
-### Beast Spells
+#### Beast Spells
 
 Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.
 
-### Archdruid
+#### Archdruid
 
 At 20th level, you can use your Wild Shape an unlimited number of times.
 
 Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.
 
-## Druid Circles
+### Druid Circles
 
-### Circle of the Land
+#### Circle of the Land
 
 The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.
 

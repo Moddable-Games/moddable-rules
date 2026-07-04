@@ -5,7 +5,7 @@ parent: dnd-5e
 published: true
 ---
 
-# Armor
+## Armor
 
 Fantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging from leather armor to chain mail to costly plate armor, with several other kinds of armor in between. The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: light armor, medium armor, and heavy armor. Many warriors supplement their armor with a shield.
 
@@ -21,7 +21,7 @@ The Armor table shows the cost, weight, and other properties of the common types
 
 ***Shields***. A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
 
-## Light Armor
+### Light Armor
 
 Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.
 
@@ -31,7 +31,7 @@ Made from supple and thin materials, light armor favors agile adventurers since 
 
 ***Studded Leather***. Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
 
-## Medium Armor
+### Medium Armor
 
 Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.
 
@@ -45,7 +45,7 @@ Medium armor offers more protection than light armor, but it also impairs moveme
 
 ***Half Plate***. Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.
 
-## Heavy Armor
+### Heavy Armor
 
 Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.
 
@@ -82,7 +82,7 @@ Heavy armor doesn't let you add your Dexterity modifier to your Armor Class, but
 | Shield           | 10 gp    | +2                        | -        | -            | 6 lb.  |
 |                  |          |                           |          |              |        |
 
-## Getting Into and Out of Armor
+### Getting Into and Out of Armor
 
 The time it takes to don or doff armor depends on the armor's category.
 
@@ -100,19 +100,19 @@ The time it takes to don or doff armor depends on the armor's category.
 | Shield       | 1 action   | 1 action  |
 |              |            |           |
 
-# Weapons
+## Weapons
 
 Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield it effectively can mean the difference between life and death while adventuring.
 
 The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A **melee weapon** is used to attack a target within 5 feet of you, whereas a **ranged weapon** is used to attack a target at a distance.
 
-## Weapon Proficiency
+### Weapon Proficiency
 
 Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are **simple** and **martial**. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use.
 
 Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
 
-## Weapon Properties
+### Weapon Properties
 
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
@@ -140,7 +140,7 @@ If you use a weapon that has the ammunition property to make a melee attack, you
 
 ***Versatile***. This weapon can be used with one or two hands. A damage value in parentheses appears with the property-the damage when the weapon is used with two hands to make a melee attack.
 
-### Improvised Weapons
+#### Improvised Weapons
 
 Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.
 
@@ -210,7 +210,7 @@ When you use an action, bonus action, or reaction to attack with a net, you can 
 |                            |       |                 |         |                                                        |
 
 
-# Adventuring Gear
+## Adventuring Gear
 
 This section describes items that have special rules or require further explanation.
 
@@ -435,3 +435,309 @@ The starting equipment you get from your class includes a collection of useful a
 |                  |                                        |
 
 \* You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.
+
+## Coinage
+
+Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a bedroll, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The old piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for half a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+**Table- Standard Exchange Rates**
+
+| Coin          | CP    | SP   | EP   | GP    | PP      |
+|---------------|-------|------|------|-------|---------|
+| Copper (cp)   | 1     | 1/10 | 1/50 | 1/100 | 1/1,000 |
+| Silver (sp)   | 10    | 1    | 1/5  | 1/10  | 1/100   |
+| Electrum (ep) | 50    | 5    | 1    | 1/2   | 1/20    |
+| Gold (gp)     | 100   | 10   | 2    | 1     | 1/10    |
+| Platinum (pp) | 1,000 | 100  | 20   | 10    | 1       |
+|               |       |      |      |       |         |
+
+## Expenses
+
+When not descending into the depths of the earth, exploring ruins for lost treasures, or waging war against the encroaching darkness, adventurers face more mundane realities. Even in a fantastical world, people require basic necessities such as shelter, sustenance, and clothing. These things cost money, although some lifestyles cost more than others.
+
+### Lifestyle Expenses
+
+Lifestyle expenses provide you with a simple way to account for the cost of living in a fantasy world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when adventure next calls.
+
+At the start of each week or month (your choice), choose a lifestyle from the Expenses table and pay the price to sustain that lifestyle. The prices listed are per day, so if you wish to calculate the cost of your chosen lifestyle over a thirty-day period, multiply the listed price by 30. Your lifestyle might change from one period to the next, based on the funds you have at your disposal, or you might maintain the same lifestyle throughout your character's career.
+
+Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle might help you make contacts with the rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid criminals, but you are unlikely to make powerful connections.
+
+**Table- Lifestyle Expenses**
+
+| Lifestyle    | Price/Day     |
+|--------------|---------------|
+| Wretched     | -             |
+| Squalid      | 1 sp          |
+| Poor         | 2 sp          |
+| Modest       | 1 gp          |
+| Comfortable  | 2 gp          |
+| Wealthy      | 4 gp          |
+| Aristocratic | 10 gp minimum |
+|              |               |
+
+***Wretched***. You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into barns, huddling in old crates, and relying on the good graces of people better off than you. A wretched lifestyle presents abundant dangers. Violence, disease, and hunger follow you wherever you go. Other wretched people covet your armor, weapons, and adventuring gear, which represent a fortune by their standards. You are beneath the notice of most people.
+
+***Squalid***. You live in a leaky stable, a mud-floored hut just outside town, or a vermin-infested boarding house in the worst part of town. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and misfortune. You are beneath the notice of most people, and you have few legal protections. Most people at this lifestyle level have suffered some terrible setback. They might be disturbed, marked as exiles, or suffer from disease.
+
+***Poor***. A poor lifestyle means going without the comforts available in a stable community. Simple food and lodgings, threadbare clothing, and unpredictable conditions result in a sufficient, though probably unpleasant, experience. Your accommodations might be a room in a flophouse or in the common room above a tavern. You benefit from some legal protections, but you still have to contend with violence, crime, and disease. People at this lifestyle level tend to be unskilled laborers, costermongers, peddlers, thieves, mercenaries, and other disreputable types.
+
+***Modest***. A modest lifestyle keeps you out of the slums and ensures that you can maintain your equipment. You live in an older part of town, renting a room in a boarding house, inn, or temple. You don't go hungry or thirsty, and your living conditions are clean, if simple. Ordinary people living modest lifestyles include soldiers with families, laborers, students, priests, hedge wizards, and the like.
+
+***Comfortable***. Choosing a comfortable lifestyle means that you can afford nicer clothing and can easily maintain your equipment. You live in a small cottage in a middle-class neighborhood or in a private room at a fine inn. You associate with merchants, skilled tradespeople, and military officers.
+
+***Wealthy***. Choosing a wealthy lifestyle means living a life of luxury, though you might not have achieved the social status associated with the old money of nobility or royalty. You live a lifestyle comparable to that of a highly successful merchant, a favored servant of the royalty, or the owner of a few small businesses. You have respectable lodgings, usually a spacious home in a good part of town or a comfortable suite at a fine inn. You likely have a small staff of servants.
+
+***Aristocratic***. You live a life of plenty and comfort. You move in circles populated by the most powerful people in the community. You have excellent lodgings, perhaps a townhouse in the nicest part of town or rooms in the finest inn. You dine at the best restaurants, retain the most skilled and fashionable tailor, and have servants attending to your every need. You receive invitations to the social gatherings of the rich and powerful, and spend evenings in the company of politicians, guild leaders, high priests, and nobility. You must also contend with the highest levels of deceit and treachery. The wealthier you are, the greater the chance you will be drawn into political intrigue as a pawn or participant.
+
+### Food, Drink, and Lodging
+
+The Food, Drink, and Lodging table gives prices for individual food items and a single night's lodging. These prices are included in your total lifestyle expenses.
+
+**Table- Food, Drink, and Lodging**
+
+| Item                   | Cost  |
+|------------------------|-------|
+| *Ale*                  |       |
+| ~ Gallon               | 2 sp  |
+| ~ Mug                  | 4 cp  |
+| Banquet (per person)   | 10 gp |
+| Bread, loaf            | 2 cp  |
+| Cheese, hunk           | 1 sp  |
+| *Inn stay (per day)*   |       |
+| ~ Squalid              | 7 cp  |
+| ~ Poor                 | 1 sp  |
+| ~ Modest               | 5 sp  |
+| ~ Comfortable          | 8 sp  |
+| ~ Wealthy              | 2 gp  |
+| ~ Aristocratic         | 4 gp  |
+| *Meals (per day)*      |       |
+| ~ Squalid              | 3 cp  |
+| ~ Poor                 | 6 cp  |
+| ~ Modest               | 3 sp  |
+| ~ Comfortable          | 5 sp  |
+| ~ Wealthy              | 8 sp  |
+| ~ Aristocratic         | 2 gp  |
+| Meat, chunk            | 3 sp  |
+| *Wine*                 |       |
+| ~ Common (pitcher)     | 2 sp  |
+| ~ Fine (bottle)        | 10 gp |
+|                        |       |
+
+> **Self-Sufficiency**
+>
+>The expenses and lifestyles described here assume that you are spending your time between adventures in town, availing yourself of whatever services you can afford-paying for food and shelter, paying townspeople to sharpen your sword and repair your armor, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear.
+>
+>Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, you can eke out the equivalent of a poor lifestyle. Proficiency in the Survival skill lets you live at the equivalent of a comfortable lifestyle.
+
+### Services
+
+Adventurers can pay nonplayer characters to assist them or act on their behalf in a variety of circumstances. Most such hirelings have fairly ordinary skills, while others are masters of a craft or art, and a few are experts with specialized adventuring skills.
+
+Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the *secret chest* spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.
+
+Other hirelings provide more expert or dangerous services. Mercenary soldiers paid to help the adventurers take on a hobgoblin army are hirelings, as are sages hired to research ancient or esoteric lore. If a high-level adventurer establishes a stronghold of some kind, he or she might hire a whole staff of servants and agents to run the place, from a castellan or steward to menial laborers to keep the stables clean. These hirelings often enjoy a long-term contract that includes a place to live within the stronghold as part of the offered compensation.
+
+Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, artisan, scribe, and so on. The pay shown is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for menial work that requires no particular skill and can include laborers, porters, maids, and similar workers.
+
+**Table- Services**
+
+| Service Pay       | Pay           |
+|-------------------|---------------|
+| *Coach cab*       |               |
+| ~ Between towns   | 3 cp per mile |
+| ~ Within a city   | 1 cp          |
+| *Hireling*        |               |
+| ~ Skilled         | 2 gp per day  |
+| ~ Untrained       | 2 sp per day  |
+| Messenger         | 2 cp per mile |
+| Road or gate toll | 1 cp          |
+| Ship's passage    | 1 sp per mile |
+|                   |               |
+
+### Spellcasting Services
+
+People who are able to cast spells don't fall into the category of ordinary hirelings. It might be possible to find someone willing to cast a spell in exchange for coin or favors, but it is rarely easy and no established pay rates exist. As a rule, the higher the level of the desired spell, the harder it is to find someone who can cast it and the more it costs.
+
+Hiring someone to cast a relatively common spell of 1st or 2nd level, such as *cure wounds* or *identify*, is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment-the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster-infested wilderness to deliver something important to a distant settlement.
+
+
+## Tools
+
+A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the GM might ask you to make a Dexterity check to carve a fine detail with your woodcarver's tools, or a Strength check to make something out of particularly hard wood.
+
+**Table- Tools**
+
+| Item                      | Cost  | Weight |
+|---------------------------|-------|--------|
+| *Artisan's tools*         |       |        |
+| ~ Alchemist's supplies    | 50 gp | 8 lb.  |
+| ~ Brewer's supplies       | 20 gp | 9 lb.  |
+| ~ Calligrapher's supplies | 10 gp | 5 lb.  |
+| ~ Carpenter's tools       | 8 gp  | 6 lb.  |
+| ~ Cartographer's tools    | 15 gp | 6 lb.  |
+| ~ Cobbler's tools         | 5 gp  | 5 lb.  |
+| ~ Cook's utensils         | 1 gp  | 8 lb.  |
+| ~ Glassblower's tools     | 30 gp | 5 lb.  |
+| ~ Jeweler's tools         | 25 gp | 2 lb.  |
+| ~ Leatherworker's tools   | 5 gp  | 5 lb.  |
+| ~ Mason's tools           | 10 gp | 8 lb.  |
+| ~ Painter's supplies      | 10 gp | 5 lb.  |
+| ~ Potter's tools          | 10 gp | 3 lb.  |
+| ~ Smith's tools           | 20 gp | 8 lb.  |
+| ~ Tinker's tools          | 50 gp | 10 lb. |
+| ~ Weaver's tools          | 1 gp  | 5 lb.  |
+| ~ Woodcarver's tools      | 1 gp  | 5 lb.  |
+| Disguise kit              | 25 gp | 3 lb.  |
+| Forgery kit               | 15 gp | 5 lb.  |
+| *Gaming set*              |       |        |
+| ~ Dice set                | 1 sp  | -      |
+| ~ Playing card set        | 5 sp  | -      |
+| Herbalism kit             | 5 gp  | 3 lb.  |
+| *Musical instrument*      |       |        |
+| ~ Bagpipes                | 30 gp | 6 lb.  |
+| ~ Drum                    | 6 gp  | 3 lb.  |
+| ~ Dulcimer                | 25 gp | 10 lb. |
+| ~ Flute                   | 2 gp  | 1 lb.  |
+| ~ Lute                    | 35 gp | 2 lb.  |
+| ~ Lyre                    | 30 gp | 2 lb.  |
+| ~ Horn                    | 3 gp  | 2 lb.  |
+| ~ Pan flute               | 12 gp | 2 lb.  |
+| ~ Shawm                   | 2 gp  | 1 lb.  |
+| ~ Viol                    | 30 gp | 1 lb.  |
+| Navigator's tools         | 25 gp | 2 lb.  |
+| Poisoner's kit            | 50 gp | 2 lb.  |
+| Thieves' tools            | 25 gp | 1 lb.  |
+| Vehicles (land or water)  | *     | *      |
+|                           |       |        |
+
+\* See the "Mounts and Vehicles" section.
+
+***Artisan's Tools***. These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
+
+***Disguise Kit***. This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.
+
+***Forgery Kit***. This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.
+
+***Gaming Set***. This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.
+
+***Herbalism Kit***. This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.
+
+***Musical Instrument***. Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency.
+
+***Navigator's Tools***. This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.
+
+***Poisoner's Kit***. A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.
+
+***Thieves' Tools***. This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.
+
+## Trade Goods
+
+Most wealth is not in coins. It is measured in livestock, grain, land, rights to collect taxes, or rights to resources (such as a mine or a forest).
+
+Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange trade goods without using currency. The Trade Goods table shows the value of commonly exchanged goods.
+
+**Table- Cost of Trade Goods**
+
+| Cost   | Goods                                        |
+|--------|----------------------------------------------|
+| 1 cp   | 1 lb. of wheat                               |
+| 2 cp   | 1 lb. of flour or one chicken                |
+| 5 cp   | 1 lb. of salt                                |
+| 1 sp   | 1 lb. of iron or 1 sq. yd. of canvas         |
+| 5 sp   | 1 lb. of copper or 1 sq. yd. of cotton cloth |
+| 1 gp   | 1 lb. of ginger or one goat                  |
+| 2 gp   | 1 lb. of cinnamon or pepper, or one sheep    |
+| 3 gp   | 1 lb. of cloves or one pig                   |
+| 5 gp   | 1 lb. of silver or 1 sq. yd. of linen        |
+| 10 gp  | 1 sq. yd. of silk or one cow                 |
+| 15 gp  | 1 lb. of saffron or one ox                   |
+| 50 gp  | 1 lb. of gold                                |
+| 500 gp | 1 lb. of platinum                            |
+|        |                                              |
+
+## Mounts and Vehicles
+
+A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down. The Mounts and Other Animals table shows each animal's speed and base carrying capacity.
+
+An animal pulling a carriage, cart, chariot, sled, or wagon can move weight up to five times its base carrying capacity, including the weight of the vehicle. If multiple animals pull the same vehicle, they can add their carrying capacity together.
+
+Mounts other than those listed here are available in fantasy gaming worlds, but they are rare and not normally available for purchase. These include flying mounts (pegasi, griffons, hippogriffs, and similar animals) and even aquatic mounts (giant sea horses, for example). Acquiring such a mount often means securing an egg and raising the creature yourself, making a bargain with a powerful entity, or negotiating with the mount itself.
+
+***Barding***. Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.
+
+***Saddles***. A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount.
+
+***Vehicle Proficiency***. If you have proficiency with a certain kind of vehicle (land or water), you can add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.
+
+***Rowed Vessels***. Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land.
+
+**Table- Mounts and Other Animals**
+
+| Item           | Cost   | Speed  | Carrying Capacity |
+|----------------|--------|--------|-------------------|
+| Camel          | 50 gp  | 50 ft. | 480 lb.           |
+| Donkey or mule | 8 gp   | 40 ft. | 420 lb.           |
+| Elephant       | 200 gp | 40 ft. | 1,320 lb.         |
+| Horse, draft   | 50 gp  | 40 ft. | 540 lb.           |
+| Horse, riding  | 75 gp  | 60 ft. | 480 lb.           |
+| Mastiff        | 25 gp  | 40 ft. | 195 lb.           |
+| Pony           | 30 gp  | 40 ft. | 225 lb.           |
+| Warhorse       | 400 gp | 60 ft. | 540 lb.           |
+|                |        |        |                   |
+
+**Table- Tack, Harness, and Drawn Vehicles**
+
+| Item               | Cost   | Weight  |
+|--------------------|--------|---------|
+| Barding            | ×4     | ×2      |
+| Bit and bridle     | 2 gp   | 1 lb.   |
+| Carriage           | 100 gp | 600 lb. |
+| Cart               | 15 gp  | 200 lb. |
+| Chariot            | 250 gp | 100 lb. |
+| Feed (per day)     | 5 cp   | 10 lb.  |
+| *Saddle*           |        |         |
+| ~ Exotic           | 60 gp  | 40 lb.  |
+| ~ Military         | 20 gp  | 30 lb.  |
+| ~ Pack             | 5 gp   | 15 lb.  |
+| ~ Riding           | 10 gp  | 25 lb.  |
+| Saddlebags         | 4 gp   | 8 lb.   |
+| Sled               | 20 gp  | 300 lb. |
+| Stabling (per day) | 5 sp   | -       |
+| Wagon              | 35 gp  | 400 lb. |
+|                    |        |         |
+
+**Table- Waterborne Vehicles**
+
+| Item         | Cost      | Speed  |
+|--------------|-----------|--------|
+| Galley       | 30,000 gp | 4 mph  |
+| Keelboat     | 3,000 gp  | 1 mph  |
+| Longship     | 10,000 gp | 3 mph  |
+| Rowboat      | 50 gp     | 1½ mph |
+| Sailing ship | 10,000 gp | 2 mph  |
+| Warship      | 25,000 gp | 2½ mph |
+|              |           |        |
+
+## Selling Treasure
+
+Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot.
+
+***Arms, Armor, and Other Equipment***. As a general rule, undamaged weapons, armor, and other equipment fetch half their cost when sold in a market. Weapons and armor used by monsters are rarely in good enough condition to sell.
+
+***Magic Items***. Selling magic items is problematic. Finding someone to buy a potion or a scroll isn't too hard, but other items are out of the realm of most but the wealthiest nobles. Likewise, aside from a few common magic items, you won't normally come across magic items or spells to purchase. The value of magic is far beyond simple gold and should always be treated as such.
+
+***Gems, Jewelry, and Art Objects***. These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the GM might require you to find a buyer in a large town or larger community first.
+
+***Trade Goods***. On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods-bars of iron, bags of salt, livestock, and so on-retain their full value in the market and can be used as currency.
+

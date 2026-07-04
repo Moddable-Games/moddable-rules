@@ -5,7 +5,7 @@ parent: dnd-5e
 published: true
 ---
 
-### Vampire
+#### Vampire
 
 *Medium undead (shapechanger), lawful evil*
 
@@ -83,7 +83,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Vampire Spawn
+#### Vampire Spawn
 
 *Medium undead, neutral evil*
 
@@ -133,7 +133,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Veteran
+#### Veteran
 
 *Medium humanoid (any race), any alignment*
 
@@ -169,7 +169,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Violet Fungus (Fungi)
+#### Violet Fungus (Fungi)
 
 *Medium plant, unaligned*
 
@@ -201,7 +201,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Vrock (Demon)
+#### Vrock (Demon)
 
 *Large fiend (demon), chaotic evil*
 
@@ -245,7 +245,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Vulture
+#### Vulture
 
 *Medium beast, unaligned*
 
@@ -277,7 +277,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Warhorse
+#### Warhorse
 
 *Large beast, unaligned*
 
@@ -305,7 +305,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Warhorse Skeleton
+#### Warhorse Skeleton
 
 *Large undead, lawful evil*
 
@@ -337,7 +337,7 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ---
 
-### Water Elemental
+#### Water Elemental
 
 *Large elemental, neutral*
 
@@ -379,7 +379,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 
 ---
 
-### Weasel
+#### Weasel
 
 *Tiny beast, unaligned*
 
@@ -409,7 +409,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 
 ---
 
-### Werebear (Lycanthrope)
+#### Werebear (Lycanthrope)
 
 *Medium humanoid (human, shapechanger), neutral good*
 
@@ -449,7 +449,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 
 ---
 
-### Wereboar (Lycanthrope)
+#### Wereboar (Lycanthrope)
 
 *Medium humanoid (human, shapechanger), neutral evil*
 
@@ -489,7 +489,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 
 ---
 
-### Wererat (Lycanthrope)
+#### Wererat (Lycanthrope)
 
 *Medium humanoid (human, shapechanger), lawful evil*
 
@@ -529,7 +529,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 
 ---
 
-### Weretiger (Lycanthrope)
+#### Weretiger (Lycanthrope)
 
 *Medium humanoid (human, shapechanger), neutral*
 
@@ -573,7 +573,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 
 ---
 
-### Werewolf (Lycanthrope)
+#### Werewolf (Lycanthrope)
 
 *Medium humanoid (human, shapechanger), chaotic evil*
 
@@ -613,7 +613,7 @@ The elemental can grapple one Large creature or up to two Medium or smaller crea
 
 ---
 
-## Wight
+### Wight
 
 *Medium undead, neutral evil*
 
@@ -657,7 +657,7 @@ A humanoid slain by this attack rises 24 hours later as a zombie under the wight
 
 ---
 
-## Will-o'-Wisp
+### Will-o'-Wisp
 
 *Tiny undead, chaotic evil*
 
@@ -699,7 +699,7 @@ A humanoid slain by this attack rises 24 hours later as a zombie under the wight
 
 ---
 
-### Winter Wolf
+#### Winter Wolf
 
 *Large monstrosity, neutral evil*
 
@@ -739,7 +739,7 @@ The arctic-dwelling **winter wolf** is as large as a dire wolf but has snow-whit
 
 ---
 
-### Wolf
+#### Wolf
 
 *Medium beast, unaligned*
 
@@ -771,7 +771,7 @@ The arctic-dwelling **winter wolf** is as large as a dire wolf but has snow-whit
 
 ---
 
-### Worg
+#### Worg
 
 *Large monstrosity, neutral evil*
 
@@ -803,7 +803,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-## Wraith
+### Wraith
 
 *Medium undead, neutral evil*
 
@@ -841,7 +841,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Black Dragon Wyrmling (Chromatic)
+## Black Dragon Wyrmling (Chromatic)
 
 *Medium dragon, chaotic evil*
 
@@ -877,7 +877,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Blue Dragon Wyrmling (Chromatic)
+## Blue Dragon Wyrmling (Chromatic)
 
 *Medium dragon, lawful evil*
 
@@ -911,7 +911,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Brass Dragon Wyrmling (Metallic)
+## Brass Dragon Wyrmling (Metallic)
 
 *Medium dragon, chaotic good*
 
@@ -949,7 +949,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Bronze Dragon Wyrmling (Metallic)
+## Bronze Dragon Wyrmling (Metallic)
 
 *Medium dragon, lawful good*
 
@@ -989,7 +989,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Copper Dragon Wyrmling (Metallic)
+## Copper Dragon Wyrmling (Metallic)
 
 *Medium dragon, chaotic good*
 
@@ -1027,7 +1027,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Gold Dragon Wyrmling (Metallic)
+## Gold Dragon Wyrmling (Metallic)
 
 *Medium dragon, lawful good*
 
@@ -1067,7 +1067,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Green Dragon Wyrmling (Chromatic)
+## Green Dragon Wyrmling (Chromatic)
 
 *Medium dragon, lawful evil*
 
@@ -1105,7 +1105,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Red Dragon Wyrmling (Chromatic)
+## Red Dragon Wyrmling (Chromatic)
 
 *Medium dragon, chaotic evil*
 
@@ -1139,7 +1139,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Silver Dragon Wyrmling (Metallic)
+## Silver Dragon Wyrmling (Metallic)
 
 *Medium dragon, lawful good*
 
@@ -1177,7 +1177,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# White Dragon Wyrmling (Chromatic)
+## White Dragon Wyrmling (Chromatic)
 
 *Medium dragon, chaotic evil*
 
@@ -1211,7 +1211,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-## Wyvern
+### Wyvern
 
 *Large dragon, unaligned*
 
@@ -1245,7 +1245,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-## Xorn
+### Xorn
 
 *Medium elemental, neutral*
 
@@ -1285,7 +1285,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Black Dragon (Chromatic)
+## Young Black Dragon (Chromatic)
 
 *Large dragon, chaotic evil*
 
@@ -1325,7 +1325,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Blue Dragon (Chromatic)
+## Young Blue Dragon (Chromatic)
 
 *Large dragon, lawful evil*
 
@@ -1363,7 +1363,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Brass Dragon (Metallic)
+## Young Brass Dragon (Metallic)
 
 *Large dragon, chaotic good*
 
@@ -1405,7 +1405,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Bronze Dragon (Metallic)
+## Young Bronze Dragon (Metallic)
 
 *Large dragon, lawful good*
 
@@ -1449,7 +1449,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Copper Dragon (Metallic)
+## Young Copper Dragon (Metallic)
 
 *Large dragon, chaotic good*
 
@@ -1491,7 +1491,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Gold Dragon (Metallic)
+## Young Gold Dragon (Metallic)
 
 *Large dragon, lawful good*
 
@@ -1535,7 +1535,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Green Dragon (Chromatic)
+## Young Green Dragon (Chromatic)
 
 *Large dragon, lawful evil*
 
@@ -1577,7 +1577,7 @@ A **worg** is an evil predator that delights in hunting and devouring creatures 
 
 ---
 
-# Young Red Dragon (Chromatic)
+## Young Red Dragon (Chromatic)
 
 Large dragon, chaotic evil
 
@@ -1615,7 +1615,7 @@ Large dragon, chaotic evil
 
 ---
 
-# Young Silver Dragon (Metallic)
+## Young Silver Dragon (Metallic)
 
 *Large dragon, lawful good*
 
@@ -1657,7 +1657,7 @@ Large dragon, chaotic evil
 
 ---
 
-# Young White Dragon (Chromatic)
+## Young White Dragon (Chromatic)
 
 *Large dragon, chaotic evil*
 
@@ -1697,7 +1697,7 @@ Large dragon, chaotic evil
 
 ---
 
-### Zombie
+#### Zombie
 
 *Medium undead, neutral evil*
 

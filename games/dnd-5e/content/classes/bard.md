@@ -5,9 +5,9 @@ parent: dnd-5e
 published: true
 ---
 
-# Bard
+## Bard
 
-### Class Features
+#### Class Features
 
 As a bard, you gain the following class features.
 
@@ -66,7 +66,7 @@ You start with the following equipment, in addition to the equipment granted by 
 | 20th  | +6                | Superior Inspiration                                 | 4              | 22           | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 |       |                   |                                                      |                |              |     |     |     |     |     |     |     |     |     |
 
-### Spellcasting
+#### Spellcasting
 
 You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music.
 
@@ -106,7 +106,7 @@ You can cast any bard spell you know as a ritual if that spell has the ritual ta
 
 You can use a musical instrument as a spellcasting focus for your bard spells.
 
-### Bardic Inspiration
+#### Bardic Inspiration
 
 You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
 
@@ -116,39 +116,39 @@ You can use this feature a number of times equal to your Charisma modifier (a mi
 
 Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
-### Jack of All Trades
+#### Jack of All Trades
 
 Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.
 
-### Song of Rest
+#### Song of Rest
 
 Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.
 
 The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.
 
-### Bard College
+#### Bard College
 
 At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore or the College of Valor, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th and 14th level.
 
-### Expertise
+#### Expertise
 
 At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
 
 At 10th level, you can choose another two skill proficiencies to gain this benefit.
 
-### Ability Score Improvement
+#### Ability Score Improvement
 
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
-### Font of Inspiration
+#### Font of Inspiration
 
 Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.
 
-### Countercharm
+#### Countercharm
 
 At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).
 
-### Magical Secrets
+#### Magical Secrets
 
 By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
 
@@ -156,13 +156,13 @@ The chosen spells count as bard spells for you and are included in the number in
 
 You learn two additional spells from any classes at 14th level and again at 18th level.
 
-### Superior Inspiration
+#### Superior Inspiration
 
 At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.
 
-## Bard Colleges
+### Bard Colleges
 
-### College of Lore
+#### College of Lore
 
 Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.
 
