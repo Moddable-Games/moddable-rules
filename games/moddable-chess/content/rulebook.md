@@ -1,6 +1,6 @@
 ---
 title: "Moddable Chess — Official Rulebook"
-version: "0.4.5"
+version: "0.4.6"
 slug: "moddable-chess"
 players: "2–6"
 duration: "10–120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Every chess variant, one engine"
 type: "platform"
 status: "alpha"
-updated: "2026-06-24"
+updated: "2026-07-05"
 published: true
 variants: true
 theme:
@@ -33,6 +33,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 - [Standard Chess](variants/standard/) — Classic FIDE rules
 - [Absorption Chess](variants/absorption/) — Capturing piece gains the victim's movement permanently
+- [Alice Chess](variants/alice/) — Pieces transfer to a parallel board after every move
 - [Andernach Chess](variants/andernach/) — Capturing piece changes colour
 - [Atomic](variants/atomic/) — Captures explode adjacent pieces
 - [Benedict Chess](variants/benedict/) — Attacked enemies convert colour
@@ -54,7 +55,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Immunization Chess](variants/immunization-chess/) — Captures make adjacent enemies immune for 2 turns
 - [King of the Hill](variants/king-of-the-hill/) — King reaches centre = instant win
 - [Madrasi Chess](variants/madrasi/) — Same-type opposing pieces paralyse each other
-- [Maharaja & Sepoys](variants/maharaja/) — One super-piece vs a full army
+- [Maharaja &amp; Sepoys](variants/maharaja/) — One super-piece vs a full army
 - [Marseillais](variants/marseillais/) — Two moves per turn
 - [Medusa Chess](variants/medusa-chess/) — Queen petrifies enemy pieces she attacks
 - [No Castling](variants/no-castling/) — Standard chess, castling disabled
@@ -96,7 +97,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 </div>
 
-### Piece Replacement & Movement Variants
+### Piece Replacement &amp; Movement Variants
 
 <div class="variant-grid">
 
@@ -104,8 +105,12 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Amazon Chess](variants/amazon-chess/) — Queens replaced by Amazons (Q+N)
 - [Berolina Chess](variants/berolina-chess/) — Pawns move diagonally and capture straight (inverted)
 - [Chigorin](variants/chigorin/) — White has 4 knights instead of bishops
+- [Grasshopper Chess](variants/grasshopper/) — Grasshoppers must jump over a hurdle piece to land
+- [Gygax Chess](variants/gygax/) — D&amp;D-inspired pieces: Heroes, Paladins, Rangers, Wizards
 - [Knightmate](variants/knightmate/) — Knight is royal, King moves like a knight
-- [Orda Chess](variants/orda-chess/) — Asymmetric: White standard vs Black divergent movers
+- [Nightrider Chess](variants/nightrider/) — Knights extend their leap into unlimited multi-hop lines
+- [Orda Chess](variants/orda-chess/) — Asymmetric: standard army vs. divergent-mover Mongol Horde
+- [Wildebeest Chess](variants/wildebeest/) — 11×10 board, Camel and Wildebeest added to each side
 
 </div>
 
@@ -121,7 +126,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 </div>
 
-### Regional & Historical Variants
+### Regional &amp; Historical
 
 <div class="variant-grid">
 
@@ -131,6 +136,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Shatar](variants/shatar/) — Mongolian chess, win by baring the opponent's King
 - [Shatranj](variants/shatranj/) — Medieval Islamic chess, ancestor of modern chess
 - [Sittuyin](variants/sittuyin/) — Burmese chess, placement opening phase
+- [Tamerlane Chess](variants/tamerlane/) — Central Asian chess, c. 1400. 11×10 board with citadel squares and extended piece roster.
 
 </div>
 
@@ -154,6 +160,19 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Los Alamos](variants/los-alamos/) — 6×6, no bishops, first computer chess (1956)
 - [Minichess](variants/minichess/) — 5×5, full piece types on tiny board
 - [Petty Chess](variants/petty/) — 5×6, all piece types, single copies
+
+</div>
+
+### Hexagonal Board
+
+<div class="variant-grid">
+
+- [Brusky's Hexagonal Chess](variants/brusky/) — 6 players on a hexagonal board with 3-player variant support
+- [De Vasa's Hexagonal Chess](variants/de-vasa/) — 2-player hex chess on a 91-cell board, Swedish origin
+- [Gliński's Hexagonal Chess](variants/glinski/) — Most widely played hex chess; 91-cell board, 6-direction movement
+- [McCooey's Hexagonal Chess](variants/mccooey/) — Simplified hex chess rules emphasising pawn structure
+- [Mini Hexchess](variants/mini-hexchess/) — Compact 37-cell hex board, fast games
+- [Shafran's Hexagonal Chess](variants/shafran/) — 70-cell hex board with unique piece movement adaptations
 
 </div>
 
