@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultima (Baroque Chess) — Moddable Chess</title>
+<meta name="description" content="Complete rules for Ultima (Baroque Chess).">
+<meta property="og:title" content="Ultima (Baroque Chess) — Moddable Chess">
+<meta property="og:description" content="Complete rules for Ultima (Baroque Chess).">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/ultima.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/ultima/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ultima (Baroque Chess) — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Ultima (Baroque Chess).">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/ultima.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/ultima.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/ultima.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Ultima (Baroque Chess) · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 100 of 102</span>
+    <h1 class="variant-cover-title">Ultima (Baroque Chess)</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Ultima (Baroque Chess)</h2>
+<p>Designed by Robert Abbott and published in 1962 as Ultima (later popularized as Baroque Chess). Ultima is built on one radical premise: every piece has a unique capture method. No two pieces share the same way of taking. The King is won by capturing it outright — there is no check, no checkmate, no stalemate.</p>
+<h3>Piece Movement and Capture</h3>
+<p>All pieces except the King slide like the Queen — any number of squares in any of the eight directions — to reach their destination. (They slide without capturing en route; the capture occurs as a result of where they land or what they leave behind.) The King moves one step in any direction. Capture methods are entirely independent of movement methods.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Starting Squares</th>
+<th>Movement</th>
+<th>Capture Method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>King</strong></td>
+<td>e1 / e8</td>
+<td>1 step, any direction</td>
+<td>Displacement: physically move onto the opponent King’s square. Win by capturing the opponent King.</td>
+</tr>
+<tr>
+<td><strong>Withdrawer</strong></td>
+<td>d1 / d8</td>
+<td>Queen slide</td>
+<td><strong>Withdrawal:</strong> if the Withdrawer moves directly away from an adjacent opponent piece (along the same line it occupied when adjacent), that piece is captured. Moving toward an adjacent piece, or along any other line, captures nothing.</td>
+</tr>
+<tr>
+<td><strong>Coordinator</strong></td>
+<td>a1, h1 / a8, h8</td>
+<td>Queen slide</td>
+<td><strong>Coordinate capture:</strong> when the Coordinator moves to square X, any opponent piece that occupies the same rank as your King and the same file as X is captured; and any opponent piece that occupies the same file as your King and the same rank as X is also captured. Multiple captures possible per move.</td>
+</tr>
+<tr>
+<td><strong>Long Leaper</strong></td>
+<td>c1, f1 / c8, f8</td>
+<td>Queen slide</td>
+<td><strong>Leap capture:</strong> the Long Leaper may jump over one opponent piece along a rank, file, or diagonal, landing on the next empty square beyond it; the jumped piece is captured. Multiple leaps in one move are permitted, each over a separate opponent piece on the same or different lines.</td>
+</tr>
+<tr>
+<td><strong>Immobilizer</strong></td>
+<td>g1 / g8</td>
+<td>Queen slide</td>
+<td><strong>Immobilization:</strong> the Immobilizer does not capture. Instead, any opponent piece that is orthogonally or diagonally adjacent to the Immobilizer at the end of its move is frozen and may not move until the Immobilizer moves away. An Immobilizer adjacent to an opponent Immobilizer is itself immobilized.</td>
+</tr>
+<tr>
+<td><strong>Chameleon</strong></td>
+<td>b1 / b8</td>
+<td>Queen slide</td>
+<td><strong>Mimicry:</strong> the Chameleon captures using the capture method of whichever type of piece it is targeting. To capture a Withdrawer, it withdraws from it. To capture a Long Leaper, it leaps over it. To capture a Coordinator, it coordinates with your King against it. To capture an Immobilizer, it immobilizes it (both are immobilized). To capture a Pincer Pawn, it flanks it. Cannot capture a King by displacement (Chameleon has no displacement method).</td>
+</tr>
+<tr>
+<td><strong>Pincer Pawn</strong></td>
+<td>a2–h2 / a7–h7</td>
+<td>Queen slide</td>
+<td><strong>Custodian (flank) capture:</strong> when the Pincer Pawn moves, any opponent piece now sandwiched between the Pincer and another friendly piece along the same rank or file is captured. Multiple custodian captures are possible from one move.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Starting Position</h3>
+<p>The formation mirrors standard FIDE, with pieces assigned as follows:</p>
+<pre><code>8 Co Ch Lp Wd Kg Lp Im Co
+7 Pp Pp Pp Pp Pp Pp Pp Pp
+6 . . . . . . . .
+5 . . . . . . . .
+4 . . . . . . . .
+3 . . . . . . . .
+2 Pp Pp Pp Pp Pp Pp Pp Pp
+1 Co Im Lp Wd Kg Lp Ch Co
+  a  b  c  d  e  f  g  h
+</code></pre>
+<p>Key: Co=Coordinator, Ch=Chameleon, Lp=Long Leaper, Wd=Withdrawer, Kg=King, Im=Immobilizer, Pp=Pincer Pawn.</p>
+<h3>Win Condition</h3>
+<p>Win by capturing the opponent’s King on your turn. There is no check or checkmate. A player who faces an opponent King threatening to land on their King’s square should move their King away, but the game does not require this — if the opponent can execute the capture, they win.</p>
+<h3>No Stalemate as Draw</h3>
+<p>If a player has no legal move, that player loses.</p>
+<h3>Immobilizer Interactions</h3>
+<ul class="rules">
+<li>A piece adjacent to a friendly Immobilizer is not affected; only opponent pieces are immobilized.</li>
+<li>An immobilized piece that is also capturable by other means can still be captured normally.</li>
+<li>The Chameleon adjacent to an opponent Immobilizer becomes immobilized itself (both are frozen). The Chameleon adjacent to a friendly Immobilizer is unaffected.</li>
+<li>Coordinator captures are not blocked by immobilized pieces — immobilized pieces can still be captured by the Coordinator.</li>
+</ul>
+<h3>Notation</h3>
+<p>Standard algebraic notation suffices for most moves. Captures may be annotated by listing captured piece coordinates in parentheses. Because multiple captures can occur from one move, annotation can become complex; many players record only the moving piece’s origin and destination.</p>
+<h3>Attribution</h3>
+<p>Designed by Robert Abbott. Published in 1962 in Abbott’s New Card Games. Public domain.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../torpedo/" class="variant-pager-prev">← Torpedo Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../upside-down/" class="variant-pager-next">Upside-Down →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

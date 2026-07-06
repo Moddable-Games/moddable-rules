@@ -1,5 +1,101 @@
 [
   {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Agon",
+    "content": "Amon is one of the oldest abstract strategy games with fully recorded rules, documented in France in 1842. It is played on a hexagonal board of 91 hexagons and won by being the first player to maneuve",
+    "anchor": "agon"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Board",
+    "content": "The board is a regular hexagon composed of 91 smaller hexagons, arranged in 6 concentric rings around a single center hexagon. - Center hex: 1 - Ring 1: 6 hexes - Ring 2: 12 hexes - Ring 3: 18 hexes -",
+    "anchor": "board"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Pieces",
+    "content": "Each player has: - 1 Queen distinct color and shape - 6 Guards Pieces are differentiated by color e.g., White and Black.",
+    "anchor": "pieces"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Starting Position",
+    "content": "Both players’ Queens start on the outer ring, on opposite sides of the board. The 6 Guards of each player occupy 6 of the remaining outer-ring positions near their Queen, spread symmetrically. The cen",
+    "anchor": "starting-position"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Movement",
+    "content": "On each turn, a player moves one of their pieces to an adjacent hex. A piece may move to any of the up to 6 hexes surrounding its current position, provided that hex is either empty or occupied by an ",
+    "anchor": "movement"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Capture",
+    "content": "Capture in Agon is by custodianship: a piece is captured when, as a result of the moving player’s move, it is flanked on two opposite sides along one of the three hex axes by two enemy pieces. - The c",
+    "anchor": "capture"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Returning to Play",
+    "content": "A captured piece does not leave the game permanently. On the capturing player’s subsequent turn, instead of moving a piece already on the board, the capturing player must return the captured piece to ",
+    "anchor": "returning-to-play"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Win Condition",
+    "content": "A player wins by achieving the following position simultaneously: - Their Queen is on the center hex, AND - All six Guards occupy the six hexes adjacent to the center ring 1. The center hex and its si",
+    "anchor": "win-condition"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Draw",
+    "content": "If neither player can achieve the winning position and the game has been going on for a very long time without progress, players may agree to a draw. No mandatory draw rule exists in the classic rules",
+    "anchor": "draw"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Strategy Notes",
+    "content": "Achieving the win requires coordinating the Queen’s journey to the center with positioning all six Guards around the center simultaneously. Because Guards that are captured are returned to the outer r",
+    "anchor": "strategy-notes"
+  },
+  {
+    "game": "agon",
+    "gameTitle": "Agon",
+    "section": "Agon",
+    "heading": "Attribution",
+    "content": "Agon. Documented in France, 1842; described in British and American game books from the 1870s onward. Public domain. Rules confirmed from historical game literature and Sid Sackson’s A Gamut of Games ",
+    "anchor": "attribution"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Variants in this Hub",
+    "heading": "Variants in this Hub",
+    "content": "Officers Description --- --- 2 Classic Victorian rules; Officers must eliminate enough Soldiers to prevent being surrounded; Soldiers win by immobilizing Officers. Royal Garrisonvariants/royal-garriso",
+    "anchor": "variants-in-this-hub"
+  },
+  {
     "game": "backgammon",
     "gameTitle": "Backgammon",
     "section": "Variant Library",
@@ -46,6 +142,30 @@
     "heading": "Multiplayer",
     "content": "- Chouettevariants/chouette/ — One player versus a consulting team; the box rotates on a win; doubling cube dynamics multiply",
     "anchor": "multiplayer"
+  },
+  {
+    "game": "bavarian-32",
+    "gameTitle": "Bavarian 32-Card Games",
+    "section": "The Deck",
+    "heading": "The Deck",
+    "content": "Value --- 32 Suits 7, 8, 9, 10, Jack, Queen, King, Ace Jokers Card point values vary by game. In Skat, the highest-value cards are Ace 11, Ten 10, King 4, Queen 3, Jack 2, with 7–9 worth zero points.",
+    "anchor": "the-deck"
+  },
+  {
+    "game": "bavarian-32",
+    "gameTitle": "Bavarian 32-Card Games",
+    "section": "Games",
+    "heading": "Games",
+    "content": "Players --- 3",
+    "anchor": "games"
+  },
+  {
+    "game": "bavarian-32",
+    "gameTitle": "Bavarian 32-Card Games",
+    "section": "Hub Notes",
+    "heading": "Hub Notes",
+    "content": "Future additions to this hub may include Doppelkopf 4 players, 48-card double deck, Schafkopf Bavarian national game, 4 players, and Sheepshead American variant of Schafkopf.",
+    "anchor": "hub-notes"
   },
   {
     "game": "chaupar",
@@ -190,6 +310,86 @@
     "heading": "Machine-Readable Data",
     "content": "Structured JSON for all SRD entities, sourced from 5e-bits/5e-database CC BY 4.0. - ability-scores.json../../games/dnd-5e/data/ability-scores.json · classes.json../../games/dnd-5e/data/classes.json · ",
     "anchor": "machine-readable-data"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "content": "Dou Shou Qi also called Jungle, Animal Chess, or The Jungle Game is a traditional Chinese two-player strategy game. Each player commands 8 animal pieces ranked 1–8; higher rank defeats lower rank, wit",
+    "anchor": "dou-shou-qi-jungle"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Board",
+    "content": "7 columns a–g × 9 rows 1–9. Special squares: - White’s Den White’s home: d1 center of White’s back rank - Black’s Den: d9 center of Black’s back rank - Traps: Three squares adjacent to each Den: - Whi",
+    "anchor": "board"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Animals (Piece Rankings)",
+    "content": "Animal Special Abilities --- --- Elephant 象 Cannot enter rivers. 7 Shī Tiger 虎 May leap across rivers. 5 Bào Wolf 狼 Standard movement. 3 Gǒu Cat 猫 Standard movement. 1 Shǔ",
+    "anchor": "animals-piece-rankings"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Starting Position",
+    "content": "White controls rows 1–3 bottom; Black controls rows 7–9 top. Each player’s animals are placed as follows: White bottom: - a1: Lion, g1: Tiger - b2: Rat, f2: Elephant - c3: Dog, d3: Leopard sometimes W",
+    "anchor": "starting-position"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Movement",
+    "content": "- All animals move 1 step orthogonally up, down, left, right per turn. - Animals may not move diagonally. - Animals may not enter their own Den. - Elephant may not enter river squares. - Rat is the on",
+    "anchor": "movement"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "River Leaping (Tiger and Lion)",
+    "content": "Tigers and Lions may leap over an entire river in one move: - A Tiger or Lion on a land square adjacent to a river may leap in the direction of the river, crossing all river squares in that direction,",
+    "anchor": "river-leaping-tiger-and-lion"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Capture",
+    "content": "A piece captures by moving onto an opponent’s piece’s square: - Higher rank captures lower rank. A rank 5 Leopard can capture ranks 1–4 but not 6–8. - Rat vs. Elephant rank 1 vs. rank 8: Rat captures ",
+    "anchor": "capture"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Traps",
+    "content": "When an animal enters an opponent’s trap square, it loses all rank advantages: - A trapped piece may be captured by any opponent’s piece, regardless of rank. - A trapped piece regains its rank if it m",
+    "anchor": "traps"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Win Conditions",
+    "content": "- A player wins by moving one of their animals into the opponent’s Den. - A player also wins if the opponent has no legal moves all their animals are captured. Den entry: A player’s animal may not ent",
+    "anchor": "win-conditions"
+  },
+  {
+    "game": "dou-shou-qi",
+    "gameTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "section": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "heading": "Attribution",
+    "content": "Dou Shou Qi 斗兽棋. Traditional Chinese game, commercially produced circa 1900–1920. Also known as Jungle or The Jungle Game. Public domain rule set confirmed from Pagat.com and multiple commercial editi",
+    "anchor": "attribution"
   },
   {
     "game": "double-six-dominoes",
@@ -1192,6 +1392,14 @@
     "anchor": "attribution"
   },
   {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Variants in this Hub",
+    "heading": "Variants in this Hub",
+    "content": "Players Description --- --- 2 Original 1909 rules; 30 pieces per side on a 10×9 board with lake squares. Dover Patrolvariants/dover-patrol/ Naval warfare 2 Combines land, sea, and air units. Extended ",
+    "anchor": "variants-in-this-hub"
+  },
+  {
     "game": "mahjong",
     "gameTitle": "Mahjong",
     "section": "Mahjong",
@@ -1267,16 +1475,16 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
-    "heading": "Standard Board (8×8)",
-    "content": "- Standard Chessvariants/standard/ — Classic FIDE rules - Absorption Chessvariants/absorption/ — Capturing piece gains the victim's movement permanently - Andernach Chessvariants/andernach/ — Capturin",
-    "anchor": "standard-board-88"
+    "heading": "Standard Board (8x8)",
+    "content": "- Standard Chessvariants/standard/ -- Classic FIDE rules - Absorption Chessvariants/absorption/ -- Capturing piece gains the victim's movement permanently - Andernach Chessvariants/andernach/ -- Captu",
+    "anchor": "standard-board-8x8"
   },
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Multi-Move Variants",
-    "content": "- Monster Chessvariants/monster-chess/ — White gets 2 moves, Black gets 1 - Progressivevariants/progressive/ — Escalating moves per turn 1, 2, 3, 4...",
+    "content": "- Monster Chessvariants/monster-chess/ -- White gets 2 moves, Black gets 1 - Progressivevariants/progressive/ -- Escalating moves per turn 1, 2, 3, 4...",
     "anchor": "multi-move-variants"
   },
   {
@@ -1284,15 +1492,31 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Alternative Win Conditions",
-    "content": "- Antichessvariants/antichess/ — Forced captures, lose all pieces to win - Codrusvariants/codrus/ — Lose your King to win, no check concept - Five-Checkvariants/five-check/ — Five checks to win - Give",
+    "content": "- Antichessvariants/antichess/ -- Forced captures, lose all pieces to win - Chakvariants/chak/ -- 9x9 Mesoamerican chess; move your Warrior Ajaw to the opponent's temple and survive - Chennisvariants/",
     "anchor": "alternative-win-conditions"
   },
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
+    "heading": "Asymmetric Armies",
+    "content": "- Empire Chessvariants/empire/ -- FIDE Kingdom vs Empire; Empire pieces all move as Queen but capture piece-specifically; faceoff rule - Khan's Chessvariants/khans-chess/ -- FIDE Kingdom vs Mongol Hor",
+    "anchor": "asymmetric-armies"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Gating & Drop Mechanics",
+    "content": "- Mansindamvariants/mansindam/ -- 8x9 board; compound pieces Cardinal, Marshal, Angel; Shogi-style drops + mandatory promotion; campmate; no draws - S-Chessvariants/s-chess/ -- Hawk and Elephant held ",
+    "anchor": "gating-drop-mechanics"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
     "heading": "Piece Replacement & Movement Variants",
-    "content": "- Almost Chessvariants/almost-chess/ — One queen replaced by Chancellor R+N - Amazon Chessvariants/amazon-chess/ — Queens replaced by Amazons Q+N - Berolina Chessvariants/berolina-chess/ — Pawns move ",
+    "content": "- Alice Chessvariants/alice/ -- Two boards; pieces transfer between boards after each move - Almost Chessvariants/almost-chess/ -- One queen replaced by Chancellor R+N - Amazon Chessvariants/amazon-ch",
     "anchor": "piece-replacement-movement-variants"
   },
   {
@@ -1300,7 +1524,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Starting Position Variants",
-    "content": "- Endgame Chessvariants/endgame-chess/ — Only pawns and Kings from the start - Legan Chessvariants/legan-chess/ — Berolina pawns, King and Queen swap starting squares - Pawns Onlyvariants/pawns-only/ ",
+    "content": "- Endgame Chessvariants/endgame-chess/ -- Only pawns and Kings from the start - Legan Chessvariants/legan-chess/ -- Berolina pawns, King and Queen swap starting squares - Pawns Onlyvariants/pawns-only",
     "anchor": "starting-position-variants"
   },
   {
@@ -1308,7 +1532,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Regional & Historical Variants",
-    "content": "- Chaturangavariants/chaturanga/ — Indian ancestor of chess, c. 600 CE. Weak counsellor and leaping elephant. - Makpongvariants/makpong/ — Thai variant, King cannot move out of check - Makrukvariants/",
+    "content": "- ASEAN Chessvariants/asean/ -- Standardised Makruk; pawns on rank 2, streamlined counting rules - Chaturangavariants/chaturanga/ -- Indian ancestor of chess, c. 600 CE. Weak counsellor and leaping el",
     "anchor": "regional-historical-variants"
   },
   {
@@ -1316,7 +1540,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Expanded Boards",
-    "content": "- Capablanca Chessvariants/capablanca/ — 10×8 with Archbishop + Chancellor - Courier Chessvariants/courier/ — 12×8, medieval variant from 1202 - Grand Chessvariants/grand/ — 10×10, same new pieces, bi",
+    "content": "- Capablanca Chessvariants/capablanca/ -- 10x8 with Archbishop + Chancellor - Courier Chessvariants/courier/ -- 12x8, medieval variant from 1202 - Grand Chessvariants/grand/ -- 10x10, same new pieces,",
     "anchor": "expanded-boards"
   },
   {
@@ -1324,8 +1548,16 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Small Boards",
-    "content": "- Breakthroughvariants/breakthrough/ — 7×7, pawns only, first to far rank wins - Diana Chessvariants/diana/ — 6×6, no queens or knights - Half Chessvariants/half-chess/ — 8×4, armies start adjacent - ",
+    "content": "- Breakthroughvariants/breakthrough/ -- 7x7, pawns only, first to far rank wins - Diana Chessvariants/diana/ -- 6x6, no queens or knights - Half Chessvariants/half-chess/ -- 8x4, armies start adjacent",
     "anchor": "small-boards"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Hexagonal Board",
+    "content": "- Brusky's Hexagonal Chessvariants/brusky/ -- 84-hex irregular board, 10 files - De Vasa's Hexagonal Chessvariants/de-vasa/ -- 81-hex rhombus 9x9, pawns start on rank 3 - Gliński's Hexagonal Chessvari",
+    "anchor": "hexagonal-board"
   },
   {
     "game": "morris",
@@ -1584,6 +1816,86 @@
     "anchor": "variants"
   },
   {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Nyout (Yut Nori / 유놓이)",
+    "content": "Nyout also called Yut Nori is Korea’s most beloved traditional board game, played especially during the Lunar New Year Seollal and Korean New Year celebrations. The game uses four flat throwing sticks",
+    "anchor": "nyout-yut-nori-"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Equipment",
+    "content": "- 4 yut sticks traditional: flat on one side, rounded on the other; each stick is half flat and half rounded when cast. One side is marked the flat/light side; the other is unmarked the rounded/dark s",
+    "anchor": "equipment"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "The Board",
+    "content": "The nyout board has 29 positions arranged in a circular outer track plus shortcut paths through the center: - Outer track: 20 positions around the perimeter. The Start/End position is shared. - Center",
+    "anchor": "the-board"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "The Throw",
+    "content": "On each turn, a player throws all 4 yut sticks simultaneously. The result is determined by how many sticks land flat-side up: Name Meaning Bonus throw? --- --- --- Do Pig No 2 개 2 Guel Sheep/Goat No 4",
+    "anchor": "the-throw"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Movement",
+    "content": "- Tokens move clockwise around the outer track from Start, proceeding around. - A player may move any of their tokens by the result of a throw. If multiple throws resulted from bonus throws, each thro",
+    "anchor": "movement"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Capturing",
+    "content": "If a player’s token lands on a space occupied by an opponent’s token, the opponent’s token is captured and returned to the start. The capturing player earns one bonus throw.",
+    "anchor": "capturing"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Stacking (Horses)",
+    "content": "If a player’s token lands on a space already occupied by one or more of their own team’s tokens, the tokens form a horse combined piece. All stacked tokens move together as one unit with the speed of ",
+    "anchor": "stacking-horses"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Winning",
+    "content": "A token completes the circuit when it passes through the Start/End position or the equivalent exit point after a shortcut path. A token that passes or lands on Start exits the board. The first team or",
+    "anchor": "winning"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Teams and Players",
+    "content": "2 players: Each player has 4 tokens. Players take turns throwing. 4 players 2 teams of 2: Partners sit opposite each other. Team members share tokens — either player on the team may move any of the te",
+    "anchor": "teams-and-players"
+  },
+  {
+    "game": "nyout",
+    "gameTitle": "Nyout (유놓이 / Yut Nori)",
+    "section": "Nyout (Yut Nori / 유놓이)",
+    "heading": "Attribution",
+    "content": "Nyout Yut Nori / 유놓이. Traditional Korean game with history spanning over 1,500 years. Associated with Lunar New Year celebrations. Public domain. Rules confirmed from Korean Cultural Heritage Foundati",
+    "anchor": "attribution"
+  },
+  {
     "game": "pachisi",
     "gameTitle": "Pachisi",
     "section": "Variant Library",
@@ -1748,7 +2060,7 @@
     "gameTitle": "Standard 52-Card Deck",
     "section": "Standard 52-Card Deck",
     "heading": "Standard 52-Card Deck",
-    "content": "Games played with the standard French-suited 52-card deck. Four suits Spades, Hearts, Diamonds, Clubs, thirteen ranks per suit A, 2-10, J, Q, K. Some games add 1-2 jokers.",
+    "content": "Games played with the standard French-suited 52-card deck. Four suits Spades, Hearts, Diamonds, Clubs, thirteen ranks per suit A, 2-10, J, Q, K. Some games add 1-2 jokers or use multiple decks.",
     "anchor": "standard-52-card-deck"
   },
   {
@@ -1763,9 +2075,65 @@
     "game": "standard-52",
     "gameTitle": "Standard 52-Card Deck",
     "section": "Games",
-    "heading": "Games",
-    "content": "- Big 2games/big2/ — Climbing card game where 2 is highest. Play singles, pairs, or poker hands to empty your hand first. - Presidentgames/president/ — Multi-round climbing game with role-based card t",
-    "anchor": "games"
+    "heading": "Climbing / Shedding",
+    "content": "- Big 2games/big2/ — Climbing card game where 2 is highest. Play singles, pairs, or poker hands to empty your hand first. 4 players. - Presidentgames/president/ — Multi-round climbing game with role-b",
+    "anchor": "climbing-shedding"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Partnership Trick-Taking",
+    "content": "- Bridge — Rubbergames/bridge/ — Contract bridge for 4 players 2 partnerships. Bidding, declarer, dummy, and rubber scoring. Casting for a rubber requires winning 2 games. - Euchregames/euchre/ — 24-c",
+    "anchor": "partnership-trick-taking"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Individual Trick-Taking",
+    "content": "- Heartsgames/hearts/ — Trick-avoidance game; Hearts and Queen of Spades score penalty points. Shoot the Moon to score zero and penalise opponents. First to 100 loses. 4 players.",
+    "anchor": "individual-trick-taking"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Draw-and-Discard / Melding",
+    "content": "- Canastagames/canasta/ — Partnership melding game using 2 decks + 4 jokers 108 cards. Build Canastas of 7+ cards. Wild cards may substitute. First to 5000 points wins. 4 players. - Gin Rummygames/gin",
+    "anchor": "draw-and-discard-melding"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Poker",
+    "content": "- Texas Hold'emgames/poker/ — Community card poker. Two private hole cards + five shared community cards; four betting rounds preflop, flop, turn, river. Best 5-card hand wins. 2–10 players.",
+    "anchor": "poker"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Pegging / Counting",
+    "content": "- Cribbagegames/cribbage/ — Two-player pegging game scored on a cribbage board. Features the crib, pegging phase, and the show. First to peg 121 points wins.",
+    "anchor": "pegging-counting"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Banking / Casino",
+    "content": "- Blackjackgames/blackjack/ — Beat the dealer: get closer to 21 without busting. Blackjack natural 21 pays 3:2. Multiple decks; player options include double down, split, and surrender. 1–6 players vs",
+    "anchor": "banking-casino"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "section": "Games",
+    "heading": "Patience / Solitaire",
+    "content": "- Klondikegames/klondike/ — Classic one-player patience game. Build four foundations by suit from Ace to King. Seven tableau columns; draw 1 or draw 3 from stock.",
+    "anchor": "patience-solitaire"
   },
   {
     "game": "standard-52",
@@ -2126,6 +2494,126 @@
     "heading": "Chinese Chess",
     "content": "- Standard Xiangqivariants/standard/ — The classic form: 9×10 board, river divide, Flying General rule, and the screen-jumping Cannon - Janggivariants/janggi/ — Korean Chess: no river, a longer Elepha",
     "anchor": "chinese-chess"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Royal Garrison",
+    "heading": "Royal Garrison",
+    "content": "Royal Garrison is the large-scale variant of Asalto, using a larger fortress, three Officers, and fifty Soldiers. All rules are mechanically identical to Standard Asalto — see that variant for full ru",
+    "anchor": "royal-garrison",
+    "variant": "royal-garrison",
+    "variantUrl": "dist/asalto/variants/royal-garrison/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Royal Garrison",
+    "heading": "Differences from Standard Asalto",
+    "content": "Standard --- 2 24 33 positions 9 positions",
+    "anchor": "differences-from-standard-asalto",
+    "variant": "royal-garrison",
+    "variantUrl": "dist/asalto/variants/royal-garrison/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Royal Garrison",
+    "heading": "Win Conditions",
+    "content": "Officers win when the Soldier force is reduced sufficiently that they cannot immobilize all three Officers simultaneously. Soldiers win when all three Officers are simultaneously immobilized — no lega",
+    "anchor": "win-conditions",
+    "variant": "royal-garrison",
+    "variantUrl": "dist/asalto/variants/royal-garrison/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Royal Garrison",
+    "heading": "Rules",
+    "content": "All movement and capture rules are identical to Standard Asalto: - Officers: move 1 step or capture by jumping; multi-jump allowed; move in any direction. - Soldiers: move forward or sideways only; no",
+    "anchor": "rules",
+    "variant": "royal-garrison",
+    "variantUrl": "dist/asalto/variants/royal-garrison/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Royal Garrison",
+    "heading": "Attribution",
+    "content": "Royal Garrison. Extended variant of Asalto. Victorian board game. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "royal-garrison",
+    "variantUrl": "dist/asalto/variants/royal-garrison/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Asalto (Standard)",
+    "heading": "Asalto (Standard)",
+    "content": "Published widely from the 1870s in Britain and Europe. Asalto is a heavily asymmetric game: 2 powerful Officers defend a small fortress against 24 Soldiers. The Officers capture by jumping; the Soldie",
+    "anchor": "asalto-standard",
+    "variant": "standard",
+    "variantUrl": "dist/asalto/variants/standard/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Asalto (Standard)",
+    "heading": "Board",
+    "content": "The standard Asalto board has two sections connected at a junction line: The Fortress upper section: A cross-shaped grid with 9 main positions, connected to the plain below via 3 entry points along th",
+    "anchor": "board",
+    "variant": "standard",
+    "variantUrl": "dist/asalto/variants/standard/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Asalto (Standard)",
+    "heading": "Pieces",
+    "content": "- 2 Officers White: Start inside the fortress. - 24 Soldiers Black/Red: Start on the plain, filling all or most plain positions.",
+    "anchor": "pieces",
+    "variant": "standard",
+    "variantUrl": "dist/asalto/variants/standard/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Asalto (Standard)",
+    "heading": "Movement",
+    "content": "Officers: - Move 1 step along any line orthogonal or diagonal where connections exist to an adjacent empty position. - May capture by jumping over an adjacent Soldier to the next empty position along ",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/asalto/variants/standard/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Asalto (Standard)",
+    "heading": "Win Conditions",
+    "content": "Officers win when they have captured enough Soldiers that the remaining Soldiers cannot simultaneously surround and immobilize both Officers. In practice, this is when fewer than 16 Soldiers remain th",
+    "anchor": "win-conditions",
+    "variant": "standard",
+    "variantUrl": "dist/asalto/variants/standard/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Asalto (Standard)",
+    "heading": "Strategy",
+    "content": "The Officers’ key challenge: jump-capture as many Soldiers as possible early while avoiding being cornered. Multiple consecutive jumps are powerful. Officers must not let both Officers become trapped ",
+    "anchor": "strategy",
+    "variant": "standard",
+    "variantUrl": "dist/asalto/variants/standard/"
+  },
+  {
+    "game": "asalto",
+    "gameTitle": "Asalto",
+    "section": "Asalto (Standard)",
+    "heading": "Attribution",
+    "content": "Asalto Officers and Sepoys. Traditional Victorian board game, published widely from the 1870s. Predecessor: Fox and Geese. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/asalto/variants/standard/"
   },
   {
     "game": "backgammon",
@@ -5708,6 +6196,196 @@
     "variantUrl": "dist/landlords-game/variants/single-tax/"
   },
   {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Dover Patrol",
+    "heading": "Dover Patrol",
+    "content": "Published by H.P. Gibson & Sons, Britain, circa 1930. Dover Patrol transposes the L’Attaque system to a naval warfare setting. Piece names reference Royal Navy vessels; the board represents a section ",
+    "anchor": "dover-patrol",
+    "variant": "dover-patrol",
+    "variantUrl": "dist/lattaque/variants/dover-patrol/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Dover Patrol",
+    "heading": "Board",
+    "content": "10 × 9 board. Minefield squares corresponding to L’Attaque’s lakes are impassable, located in the same central positions. Sea lane squares along the outer edges have no special movement rules in the s",
+    "anchor": "board",
+    "variant": "dover-patrol",
+    "variantUrl": "dist/lattaque/variants/dover-patrol/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Dover Patrol",
+    "heading": "Piece Set",
+    "content": "All movement and capture rules are identical to Standard L’Attaque. Piece correspondence: L’Attaque Equivalent Special Ability --- --- Flag Immovable; capturing it wins Mine B Spy Defeats Battleship o",
+    "anchor": "piece-set",
+    "variant": "dover-patrol",
+    "variantUrl": "dist/lattaque/variants/dover-patrol/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Dover Patrol",
+    "heading": "Rules",
+    "content": "All rules setup, movement, attack, hidden information, win conditions are identical to Standard L’Attaque. Refer to the Standard L’Attaque rules for full details. The only differences are piece names ",
+    "anchor": "rules",
+    "variant": "dover-patrol",
+    "variantUrl": "dist/lattaque/variants/dover-patrol/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Dover Patrol",
+    "heading": "Attribution",
+    "content": "Dover Patrol. Published by H.P. Gibson & Sons, Britain, approximately 1930. Naval adaptation of L’Attaque. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "dover-patrol",
+    "variantUrl": "dist/lattaque/variants/dover-patrol/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "L'Attaque (Standard)",
+    "content": "Designed by Hermance Edan, France, circa 1908. Published in Britain by H.P. Gibson & Sons from 1909. The first mass-market hidden-information rank game; direct ancestor of Stratego.",
+    "anchor": "lattaque-standard",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Board",
+    "content": "10 columns × 9 rows. Two lake areas in the center of the board rows 4–5, approximately columns 3–4 and 7–8 are impassable — no piece may enter a lake square. The exact lake layout: columns c–d on rows",
+    "anchor": "board",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Piece Set (30 per player)",
+    "content": "Piece Movement --- --- Flag Immovable Bomb Immovable Spy 1 step ortho Scout Slides unlimited orthogonally Miner 1 step ortho Sergeant 1 step ortho Lieutenant 1 step ortho Captain 1 step ortho Major 1 ",
+    "anchor": "piece-set-30-per-player",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Setup",
+    "content": "Each player positions all their pieces face-down on their own half of the board rows 1–4 for White; rows 6–9 for Red/Black, in any arrangement they choose. The opponent cannot see piece ranks. Lake sq",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Movement",
+    "content": "Players alternate turns. On each turn, a player moves one piece: - Most pieces: 1 step orthogonally up, down, left, right. Not diagonally. Not into lake squares. Not off the board. - Scout: Slides any",
+    "anchor": "movement",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Attack and Capture",
+    "content": "When a piece moves onto a square occupied by an opponent’s piece: 1. Both pieces are flipped face-up and ranks are revealed. 2. The lower-ranked piece is permanently removed from the board. 3. Equal r",
+    "anchor": "attack-and-capture",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Hidden Information",
+    "content": "Piece ranks remain hidden from the opponent until revealed in combat. A piece that has been involved in at least one combat may be known to the opponent; players should not deliberately obscure a reve",
+    "anchor": "hidden-information",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Win Conditions",
+    "content": "- Capture the opponent’s Flag: immediate win. - Leave the opponent with no movable pieces all remaining pieces are Bombs and Flag: win.",
+    "anchor": "win-conditions",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "L'Attaque (Standard)",
+    "heading": "Attribution",
+    "content": "L’Attaque. Designed by Hermance Edan, patented France 1908. Published by H.P. Gibson & Sons, London. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/lattaque/variants/standard/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Tri-Tactics",
+    "heading": "Tri-Tactics",
+    "content": "Published by H.P. Gibson & Sons, Britain, circa 1937. Tri-Tactics extends the L’Attaque system to a combined-forces game. Each player commands units from three military branches: Army land, Navy sea, ",
+    "anchor": "tri-tactics",
+    "variant": "tri-tactics",
+    "variantUrl": "dist/lattaque/variants/tri-tactics/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Tri-Tactics",
+    "heading": "Board",
+    "content": "10 × 10 board with lake squares impassable to land units and sea squares impassable to land and air units without modification; sea units move freely on them. The board features distinct land and wate",
+    "anchor": "board",
+    "variant": "tri-tactics",
+    "variantUrl": "dist/lattaque/variants/tri-tactics/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Tri-Tactics",
+    "heading": "Piece Overview",
+    "content": "Three branches, each with a ranked hierarchy: Army Land units: Move 1 step orthogonally on land squares. Cannot enter sea squares. Navy Sea units: Move 1 step orthogonally on sea squares. Can move on ",
+    "anchor": "piece-overview",
+    "variant": "tri-tactics",
+    "variantUrl": "dist/lattaque/variants/tri-tactics/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Tri-Tactics",
+    "heading": "Win Conditions",
+    "content": "Capture the opponent’s Headquarters, or reduce them to only immovable pieces.",
+    "anchor": "win-conditions",
+    "variant": "tri-tactics",
+    "variantUrl": "dist/lattaque/variants/tri-tactics/"
+  },
+  {
+    "game": "lattaque",
+    "gameTitle": "L'Attaque",
+    "section": "Tri-Tactics",
+    "heading": "Attribution",
+    "content": "Tri-Tactics. Published by H.P. Gibson & Sons, Britain, approximately 1937. Combined-forces adaptation of L’Attaque. Public domain rule set. Full original piece hierarchy and cross-branch combat chart ",
+    "anchor": "attribution",
+    "variant": "tri-tactics",
+    "variantUrl": "dist/lattaque/variants/tri-tactics/"
+  },
+  {
     "game": "mancala",
     "gameTitle": "Mancala",
     "section": "Ayo",
@@ -6730,6 +7408,106 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "ASEAN Chess",
+    "content": "ASEAN Chess was codified by the ASEAN Chess Federation as a standardized form of traditional Southeast Asian chess intended to serve as a regional competitive standard and a bridge between FIDE chess ",
+    "anchor": "asean-chess",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Pieces",
+    "content": "Local Name --- Khun Met Khon Ma Ruea Bia",
+    "anchor": "pieces",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Starting Position",
+    "content": "Pawns start on rank 2 White and rank 7 Black — unlike Makruk, where Pawns begin on ranks 3 and 6. 8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 7 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 6 . . . . . . . . 5 . . . . . . . . 4 . . . . . . . . 3 . . . . . ",
+    "anchor": "starting-position",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Pawn Promotion",
+    "content": "A Pawn that reaches rank 6 for White or rank 3 for Black promotes immediately and automatically to a Ferz. There is no other promotion option. A promoted Ferz moves 1 square diagonally, like all Ferz ",
+    "anchor": "pawn-promotion",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Ferz and Bishop Movement",
+    "content": "Both the Ferz and the Bishop move exactly 1 square diagonally. They differ only in role and number: - Each player has 1 Ferz starting next to the King. - Each player has 2 Bishops. - All three pieces ",
+    "anchor": "ferz-and-bishop-movement",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Check and Checkmate",
+    "content": "Standard rules. The King is in check when attacked by any opponent piece; the owner must resolve it. Checkmate check with no legal escape ends the game; the checkmated player loses.",
+    "anchor": "check-and-checkmate",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Stalemate",
+    "content": "Stalemate a player has no legal move but is not in check is a draw in ASEAN Chess — unlike in Makruk, where stalemate is a loss for the stalemated player.",
+    "anchor": "stalemate",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Counting Rules (Draw Mechanism)",
+    "content": "When one side has no more Pawns, the opposing side must deliver checkmate before a move count is reached or the game is drawn. The count begins from the moment the last Pawn is captured. Moves to mate",
+    "anchor": "counting-rules-draw-mechanism",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Differences from Makruk",
+    "content": "Makruk Thai --- Rank 3/6 Loss for stalemated player Makruk counting system 1-step diagonal only",
+    "anchor": "differences-from-makruk",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "ASEAN Chess",
+    "heading": "Attribution",
+    "content": "Codified by the ASEAN Chess Federation for regional competitive play. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "asean",
+    "variantUrl": "dist/moddable-chess/variants/asean/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Atomic Chess",
     "heading": "Atomic Chess",
     "content": "Captures explode, destroying all non-pawn pieces in a one-square radius around the capture square. Including the capturing piece.",
@@ -7052,7 +7830,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Brusky's Hexagonal Chess",
     "heading": "Setup",
-    "content": "Board: 84-hex horizontally-oriented grid, 10 files. Pieces per side: King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.",
+    "content": "Board: 84-hex irregular hexagonal grid, horizontally oriented. 8 ranks with widths 9, 10, 11, 12, 12, 11, 10, 9 bottom to top. Files a–i on the back ranks, expanding to a–l in the middle ranks. White ",
     "anchor": "setup",
     "variant": "brusky",
     "variantUrl": "dist/moddable-chess/variants/brusky/"
@@ -7176,6 +7954,96 @@
     "anchor": "attribution",
     "variant": "capablanca",
     "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Chak",
+    "content": "Designed by Corey Clark 2020. Chak is played on a 9×9 board with a Mesoamerican theme inspired by the Maya. The river divides the board at rank 5; pieces gain power by crossing it. Victory is achieved",
+    "anchor": "chak",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Board Layout",
+    "content": "The board is 9×9 files a–i, ranks 1–9. The river runs between ranks 5 and 6, dividing the board into two halves. Each player’s temple is the center square of their back rank: e1 White’s temple and e9 ",
+    "anchor": "board-layout",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Pieces",
+    "content": "Count Promotion --- --- 1 Becomes Warrior Ajaw on crossing the river. Warrior Ajaw Promoted form: 1 step any direction OR 1 step diagonally same as Ajaw, but also wins by temple. 2 Shaman+ Vulture Sli",
+    "anchor": "pieces",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "The River",
+    "content": "The river is the boundary between ranks 5 and 6. When a piece crosses the river moves from rank 5 to rank 6, or rank 6 to rank 5 for Black, it immediately promotes to its “+” form. Promotion is automa",
+    "anchor": "the-river",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Temple Victory",
+    "content": "A player’s Warrior Ajaw promoted Ajaw may land on the opponent’s temple square e9 for White, e1 for Black to trigger a temple victory, subject to these conditions: 1. The Warrior Ajaw must land on the",
+    "anchor": "temple-victory",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Checkmate Victory",
+    "content": "A player also wins by checkmating the opponent’s Ajaw whether base or Warrior form. The Ajaw is in check when attacked; the owner must resolve it. Checkmate check with no legal escape wins immediately",
+    "anchor": "checkmate-victory",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Stalemate",
+    "content": "If a player has no legal move but is not in check, the game is a draw.",
+    "anchor": "stalemate",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Starting Position",
+    "content": "White ranks 1–2: 2 Pa Pa Pa Pa Pa Pa Pa Pa Pa 1 Se Vu Sh Aj Sh Vu Se Rank 1 from a to i: Serpenta, Jaguarb, Vulturec, Shamand, Ajawe, Shamanf, Vultureg, Jaguarh, Serpenti. Rank 2: 7 Pawns on b2–h2; a2",
+    "anchor": "starting-position",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chak",
+    "heading": "Attribution",
+    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "chak",
+    "variantUrl": "dist/moddable-chess/variants/chak/"
   },
   {
     "game": "moddable-chess",
@@ -7316,6 +8184,96 @@
     "anchor": "attribution",
     "variant": "checkless",
     "variantUrl": "dist/moddable-chess/variants/checkless/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Chennis",
+    "content": "Designed by Corey Clark. Chennis adapts chess to a tennis-themed format on a 7×7 board. The net divides the board between ranks 4 and 5. Victory is achieved by getting a Pawn to the opponent’s back ra",
+    "anchor": "chennis",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Board Layout",
+    "content": "The board is 7×7 files a–g, ranks 1–7. A net runs across the middle of the board, forming a barrier between ranks 4 and 5. This net restricts most pieces to their own half unless they can jump Knights",
+    "anchor": "board-layout",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Win Condition",
+    "content": "The game is won by advancing any Pawn to the opponent’s back rank: - White wins by placing a Pawn on rank 7. - Black wins by placing a Pawn on rank 1. Checkmate is NOT a win condition in Chennis. Howe",
+    "anchor": "win-condition",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Pieces",
+    "content": "Count Net Rule --- --- 1 Cannot cross the net. Queen Any distance, any direction 2 Cannot cross the net. Bishop Diagonal slide, unlimited 2 May cross the net freely. A Knight can land on either side o",
+    "anchor": "pieces",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "The Net Rule",
+    "content": "All pieces except the Knight and Pawn are confined to their half of the board and may not slide, step, or capture across the net boundary: - White’s pieces except Knight and Pawn are confined to ranks",
+    "anchor": "the-net-rule",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Check and the King",
+    "content": "The King may be placed in check by opponent pieces, including Knights that have crossed the net. The owner must resolve any check on their turn, even though checkmate is not the win condition. If the ",
+    "anchor": "check-and-the-king",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Pawn Rules",
+    "content": "- No double first move. - No en passant. - A Pawn reaching rank 7 White or rank 1 Black wins the game immediately — it does not promote. - A Pawn at rank 4 may advance to rank 5 on its normal forward ",
+    "anchor": "pawn-rules",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Starting Position",
+    "content": "White ranks 1–2: 2 Pa Pa Pa Pa Pa Pa Pa 1 R N B K Q B N R Rank 1 from a to g: Rook, Knight, Bishop, King, Queen, Bishop, Knight, Rook. Rank 2: 7 Pawns. Black mirrors on ranks 6–7.",
+    "anchor": "starting-position",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chennis",
+    "heading": "Attribution",
+    "content": "Designed by Corey Clark. Published via Shogun of Games. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "chennis",
+    "variantUrl": "dist/moddable-chess/variants/chennis/"
   },
   {
     "game": "moddable-chess",
@@ -7692,7 +8650,7 @@
     "gameTitle": "Moddable Chess",
     "section": "De Vasa's Hexagonal Chess",
     "heading": "Setup",
-    "content": "Board: 81-hex rhombus grid, horizontally oriented. Pawns start on the 3rd rank not the 2nd.",
+    "content": "Board: 81-hex rhombus grid 9×9, horizontally oriented. Files a–i, ranks 1–9. Every file has 9 cells. White pieces rank 1, bottom: - King on f1 - Queen on d1 - Bishops on c1, e1, g1 one per colour - Kn",
     "anchor": "setup",
     "variant": "de-vasa",
     "variantUrl": "dist/moddable-chess/variants/de-vasa/"
@@ -8046,6 +9004,96 @@
     "anchor": "attribution",
     "variant": "einstein-chess",
     "variantUrl": "dist/moddable-chess/variants/einstein-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "Empire Chess",
+    "content": "Designed by Corey Clark 2019. Empire Chess is an asymmetric variant in which White commands a standard FIDE Kingdom and Black commands the Empire — an army where every piece moves like a Queen but cap",
+    "anchor": "empire-chess",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "The Two Armies",
+    "content": "Kingdom White: Standard FIDE. King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns. Empire Black: Emperor plus four piece types that each combine Queen-range movement with restricted captures.",
+    "anchor": "the-two-armies",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "Empire Pieces",
+    "content": "All Empire pieces except the Emperor and Soldier move like the Queen any direction, unlimited distance. Their capture methods are piece-specific and limited. Count Capture --- --- 1 1 step in any dire",
+    "anchor": "empire-pieces",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "Starting Position",
+    "content": "Kingdom White: 2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ 1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ Empire Black: 8 Tw Ca Du Si Em Si Du Ca Tw 7 So So So So So So So So Rank 8 from a to h: Tower, Cardinal, Duke, Siege Tower, Emperor, Siege Tower, Du",
+    "anchor": "starting-position",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "The Faceoff Rule",
+    "content": "If the Kingdom King and the Empire Emperor are on the same file with no pieces between them, the player who created that open confrontation — i.e., the player who just moved to bring it about — loses ",
+    "anchor": "the-faceoff-rule",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "Win Conditions",
+    "content": "- Checkmate the opponent’s royal piece Kingdom King or Empire Emperor. - Faceoff: creating an open-file confrontation between the two royal pieces immediately loses for the player who caused it.",
+    "anchor": "win-conditions",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "Empire-Specific Rules",
+    "content": "- Soldiers promote on rank 1 reaching White’s back rank. Promotion options: Tower, Duke, Cardinal, or Siege Tower not Emperor. - No castling for the Empire. - The Kingdom may castle, en passant, and p",
+    "anchor": "empire-specific-rules",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "Strategic Character",
+    "content": "The Empire’s strength lies in the Queen-slide movement: every piece can reach any square in one move. Its weakness is restricted captures — a Tower sitting in the center can slide to threaten anything",
+    "anchor": "strategic-character",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Empire Chess",
+    "heading": "Attribution",
+    "content": "Designed by Corey Clark. Published 2019. Rules available via Shogun of Games and Lichess. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "empire",
+    "variantUrl": "dist/moddable-chess/variants/empire/"
   },
   {
     "game": "moddable-chess",
@@ -9130,6 +10178,156 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "History",
+    "content": "Couch Tomato created Khan's Chess to address two shortcomings identified in Orda Chess through high-level NNUE neural network analysis under Fairy-Stockfish: the original game proved less balanced tha",
+    "anchor": "history",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "The Two Armies",
+    "content": "Khan's Chess is played on a standard 8×8 board. White controls the Kingdom standard FIDE pieces. Gold controls the Horde Khan's cavalry army.",
+    "anchor": "the-two-armies",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Kingdom (White) Starting Position",
+    "content": "Rank 1: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook Rank 2: eight Pawns",
+    "anchor": "kingdom-white-starting-position",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Horde (Gold) Starting Position",
+    "content": "Rank 8: Lancer, Kheshig, Horse Archer, Khatun, Khan, Horse Archer, Kheshig, Lancer Rank 7: eight Scouts The Horde back rank mirrors the Kingdom's layout: Lancers occupy the Rook squares, Kheshigs occu",
+    "anchor": "horde-gold-starting-position",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "General Rules",
+    "content": "1. White Kingdom moves first. 2. The Horde cannot castle. The Khan has no castling right. 3. Stalemate is a loss for the player who cannot move not a draw as in standard chess. 4. Campmate: a player w",
+    "anchor": "general-rules",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Horde Pieces",
+    "content": "All Horde pieces except the Khan and Kheshig are divergent: their movement squares differ from their capture squares. The Horde is a cavalry force, so the Lancer, Horse Archer, and Khatun all move lik",
+    "anchor": "horde-pieces",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Khan",
+    "content": "The Khan is the Horde's royal piece. It moves and captures exactly as a King in standard chess. The Khan cannot castle. Checkmate of the Khan ends the game. The piece is visually distinct but function",
+    "anchor": "khan",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Kheshig (H)",
+    "content": "The Kheshig moves and captures as a Knight + King combined also called a centaur or mann+knight. It is the strongest piece in the Horde army and is non-royal. The Kheshig is placed on the Knight squar",
+    "anchor": "kheshig-h",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Khatun (T)",
+    "content": "The Khatun moves as a Knight but captures as a King one step in any direction. It is non-royal. Despite its modest capture range, the Khatun is a useful defensive piece and is the piece that Scouts pr",
+    "anchor": "khatun-t",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Horse Archer (A)",
+    "content": "The Horse Archer moves as a Knight but captures as a Bishop diagonally, any number of squares. Because it moves as a Knight rather than sliding diagonally, it is not colour-bound, making it more valua",
+    "anchor": "horse-archer-a",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Lancer (L)",
+    "content": "The Lancer moves as a Knight but captures as a Rook orthogonally, any number of squares. Its value is generally below that of a Rook because it cannot slide across the board in a single move. However,",
+    "anchor": "lancer-l",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Scout (S)",
+    "content": "The Scout replaces the pawn in the Horde army. It moves as a forward-only Knight—specifically, the four Knight-jump destinations that move the piece toward the opponent's side of the board two squares",
+    "anchor": "scout-s",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Strategy Notes",
+    "content": "For the Horde: Develop Kheshigs carefully—their value in the endgame is enormous and losing one makes mating the Kingdom King much harder. Use the Scouts' speed to threaten early promotion; even the t",
+    "anchor": "strategy-notes",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Comparison with Orda Chess",
+    "content": "Khan's Chess replaces two pieces from Orda Chess: - The pawn standard chess pawn used by both sides in Orda is replaced by the Scout for the Horde, themed around Mongol cavalry. - The Yurt which moved",
+    "anchor": "comparison-with-orda-chess",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Khan's Chess",
+    "heading": "Attribution",
+    "content": "Khan's Chess was designed by Couch Tomato 2023–24. Rules documented from the PyChess variant guide at pychess.org/variants/khans.",
+    "anchor": "attribution",
+    "variant": "khans-chess",
+    "variantUrl": "dist/moddable-chess/variants/khans-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "King of the Hill",
     "heading": "King of the Hill",
     "content": "Move your King to the centre four squares for an instant win. Transforms the King from a liability into an offensive weapon.",
@@ -9616,6 +10814,246 @@
     "anchor": "attribution",
     "variant": "makruk",
     "variantUrl": "dist/moddable-chess/variants/makruk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "The Board",
+    "content": "Mansindam is played on an 8x9 board 8 files x 9 ranks. Ranks are numbered 1-9 from White's side. Files are lettered a-h.",
+    "anchor": "the-board",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Starting Position",
+    "content": "White Yang: - Rank 1: Rooka, Knightb, Cardinalc, Angeld, Kinge, Queenf, Bishopg, Marshalh - Rank 2: 8 Pawns a2-h2 Black Eum: - Rank 9: Rooka, Knightb, Cardinalc, Angeld, Kinge, Queenf, Bishopg, Marsha",
+    "anchor": "starting-position",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Promotion Zone",
+    "content": "Ranks 7, 8, and 9 are the enemy camp for White. Ranks 1, 2, and 3 are the enemy camp for Black. A piece promotes when it moves to, moves from, or moves within the enemy camp. Promotion is mandatory --",
+    "anchor": "promotion-zone",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Pieces",
+    "content": "Every promoted piece gains the additional ability to move as a non-royal King one square in any direction on top of its base movement.",
+    "anchor": "pieces",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Pawn (P) / Bo -- promotes to Guard",
+    "content": "Moves one square orthogonally forward only. No two-square advance. No en passant. Promoted form -- Guard G / Cho: Moves one square orthogonally or diagonally same as a standard King, but not royal.",
+    "anchor": "pawn-p-bo----promotes-to-guard",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Knight (N) / Gi -- promotes to Centaur",
+    "content": "Moves as a standard chess Knight leaps to nearest squares not on the same file, rank, or diagonal. Can jump over intervening pieces. Promoted form -- Centaur E / Wi: Moves as Knight + King Knight leap",
+    "anchor": "knight-n-gi----promotes-to-centaur",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Bishop (B) / Gak -- promotes to Archer",
+    "content": "Moves any number of squares diagonally. Cannot jump over pieces. Promoted form -- Archer H / Ma: Moves as Bishop or King diagonals any distance, or one step orthogonally or diagonally.",
+    "anchor": "bishop-b-gak----promotes-to-archer",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Rook (R) / Bang -- promotes to Tiger",
+    "content": "Moves any number of squares orthogonally. Cannot jump over pieces. Promoted form -- Tiger T / Yong: Moves as Rook or King orthogonals any distance, or one step in any direction.",
+    "anchor": "rook-r-bang----promotes-to-tiger",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Cardinal (C) / Ye -- promotes to Rhino",
+    "content": "Moves as a Bishop or Knight. Cannot jump over pieces for the Bishop component; can jump for the Knight component. Promoted form -- Rhino I / Seong: Moves as Cardinal Bishop + Knight plus one step orth",
+    "anchor": "cardinal-c-ye----promotes-to-rhino",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Marshal (M) / Su -- promotes to Ship",
+    "content": "Moves as a Rook or Knight. Cannot jump over pieces for the Rook component; can jump for the Knight component. Promoted form -- Ship S / Myeong: Moves as Marshal Rook + Knight plus one step diagonally ",
+    "anchor": "marshal-m-su----promotes-to-ship",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Queen (Q) / Bun -- does not promote",
+    "content": "Moves any number of squares orthogonally or diagonally. Cannot jump over pieces. Equivalent to a standard chess Queen.",
+    "anchor": "queen-q-bun----does-not-promote",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Angel (A) / Cheon -- does not promote",
+    "content": "Moves as a Queen or Knight orthogonals any distance, diagonals any distance, or Knight leap. The most powerful piece in the game.",
+    "anchor": "angel-a-cheon----does-not-promote",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "King (K) / Ok",
+    "content": "Moves one square orthogonally or diagonally. Royal piece -- if checkmated, the game is lost. White's King is called Yang; Black's King is called Eum. In notation both are written as K.",
+    "anchor": "king-k-ok",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Piece Summary Table",
+    "content": "Korean Moves as --- --- Bo One step forward ortho Cho King non-royal Gi Knight leap Wi Knight + King Gak Bishop diagonals Ma Bishop + King Bang Rook orthogonals Yong Rook + King Ye Bishop + Knight Seo",
+    "anchor": "piece-summary-table",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Basic Movement",
+    "content": "- A piece cannot move to a square occupied by a friendly piece. - A piece that moves to a square occupied by an enemy piece captures that enemy piece. - All pieces except the Knight cannot jump over i",
+    "anchor": "basic-movement",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "The King and Check",
+    "content": "The state in which the King is attacked by an opponent's piece is check. A player in check must resolve it immediately. The King may never move to or remain on a square attacked by an opponent's piece",
+    "anchor": "the-king-and-check",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Drops",
+    "content": "Any piece a player captures is a hand piece, held in reserve. On any turn, instead of moving a piece on the board, a player may drop a hand piece onto any empty square. Drop rules: - Only one piece ma",
+    "anchor": "drops",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Pawn Drop Restrictions",
+    "content": "- Two or more of a player's unpromoted Pawns may not occupy the same file. Prohibition of Two Pawns - Pawns cannot be dropped on the last rank rank 9 for White; rank 1 for Black, as a Pawn dropped the",
+    "anchor": "pawn-drop-restrictions",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Stalemate -- Loss",
+    "content": "A player who has no legal move and no legal drop loses. Stalemate is not a draw.",
+    "anchor": "stalemate----loss",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Campmate -- Win",
+    "content": "A player who successfully moves their King to the opponent's last rank without landing on a square attacked by an opponent's piece wins by campmate. For White: reach rank 9. For Black: reach rank 1.",
+    "anchor": "campmate----win",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Prohibition of Threefold Repetition",
+    "content": "Neither player may cause the same position including hand pieces and side to move to occur three times. If a position has occurred twice, the player whose move would create the third occurrence is for",
+    "anchor": "prohibition-of-threefold-repetition",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "No Draws",
+    "content": "Because stalemate is a loss, the 50-move rule does not exist, and threefold repetition is prohibited rather than drawn, Mansindam has no drawing mechanism. Every game ends in victory for one player.",
+    "anchor": "no-draws",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Defeat Conditions",
+    "content": "A player loses when: 1. Their King is checkmated. 2. The opponent's King reaches their last rank campmate. 3. They cannot move or drop any piece stalemate. 4. They declare resignation by placing their",
+    "anchor": "defeat-conditions",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Mansindam (Pantheon Tale)",
+    "heading": "Attribution",
+    "content": "Mansindam Pantheon Tale was designed by Couch Tomato. Rules documented from the PyChess variant guide at pychess.org/variants/mansindam. Piece names use both the English labels and Korean/Chinese char",
+    "anchor": "attribution",
+    "variant": "mansindam",
+    "variantUrl": "dist/moddable-chess/variants/mansindam/"
   },
   {
     "game": "moddable-chess",
@@ -10310,6 +11748,196 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "Orda Mirror",
+    "content": "Designed by Corey Clark 2020. Where Orda Chess pits the standard FIDE Kingdom against the Mongol Horde, Orda Mirror gives both players an identical Horde army. The defining characteristic of all Horde",
+    "anchor": "orda-mirror",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "The Horde Army",
+    "content": "Both players command the same pieces: Count Captures As --- --- 1 1 step in any direction King Yurt Knight jump 2+1 leap 2 Orthogonal slide, unlimited distance Rook Falcon Knight jump 2+1 leap 2 1 ste",
+    "anchor": "the-horde-army",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "Move vs. Capture Distinction",
+    "content": "To capture, the piece must be able to reach the target’s square via a Knight jump 2+1 in any orientation. The piece then removes the target using its designated capture method as a targeting filter: -",
+    "anchor": "move-vs-capture-distinction",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "Starting Position",
+    "content": "Both players use the following arrangement White on ranks 1–2, Black on ranks 7–8: 8 La Ke Fa Yu Kg Yu Fa Ke La 7 Pa Pa Pa Pa Pa Pa Pa Pa . . . . . . . . . . . . . . . . . . 2 Pa Pa Pa Pa Pa Pa Pa Pa ",
+    "anchor": "starting-position",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "Check and Checkmate",
+    "content": "The Khagan is the royal piece. Standard check and checkmate rules apply: a player whose Khagan is under attack must resolve it; inability to do so is checkmate, and that player loses. A Khagan may not",
+    "anchor": "check-and-checkmate",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "Pawn Rules",
+    "content": "- Pawns advance 1 square or 2 from starting rank. - Pawns capture diagonally forward as normal. - En passant applies. - Pawns reaching the final rank promote to any Horde piece Yurt, Lancer, Falcon, o",
+    "anchor": "pawn-rules",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "Stalemate",
+    "content": "Standard: stalemate is a draw.",
+    "anchor": "stalemate",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Mirror",
+    "heading": "Attribution",
+    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "orda-mirror",
+    "variantUrl": "dist/moddable-chess/variants/orda-mirror/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Ouk Chaktrang (Cambodian Chess)",
+    "content": "Ouk Chaktrang is the traditional chess of Cambodia. It belongs to the Makruk family — the Southeast Asian branch of chess descended from Indian Chaturanga — and is the closest living relative of the m",
+    "anchor": "ouk-chaktrang-cambodian-chess",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Pieces",
+    "content": "Piece --- King Queen Bishop Knight Rook Pawn",
+    "anchor": "pieces",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Starting Position",
+    "content": "Identical to Makruk. Pawns begin on ranks 3 White and 6 Black, not rank 2/7. 8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 7 . . . . . . . . 6 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 5 . . . . . . . . 4 . . . . . . . . 3 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ 2 . . . . . . .",
+    "anchor": "starting-position",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Pawn Promotion",
+    "content": "A Trey reaching rank 6 for White or rank 3 for Black promotes immediately to a Neang. There is no choice — promotion to Neang is the only option.",
+    "anchor": "pawn-promotion",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "King's First Move",
+    "content": "On the Sdech's very first move of the game, if it has not previously moved, the player may instead move the King as a Knight the standard L-shape jump. This privilege is lost permanently after the Kin",
+    "anchor": "kings-first-move",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Koul Movement Detail",
+    "content": "The Koul Bishop may move either: - 1 square diagonally standard ferz-style step, OR - Exactly 2 squares diagonally, leaping over any piece on the intermediate square. It cannot slide any further — it ",
+    "anchor": "koul-movement-detail",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Check and Checkmate",
+    "content": "A player whose King is in check must resolve the check on the next move. Checkmate — where the King is in check and no legal move resolves it — ends the game; the checkmated player loses.",
+    "anchor": "check-and-checkmate",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Stalemate",
+    "content": "Stalemate player has no legal move but is not in check is a loss for the stalemated player, not a draw.",
+    "anchor": "stalemate",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Counting Rules (Draw Mechanism)",
+    "content": "When one player has no remaining Pawns, the opponent must deliver checkmate within a set number of moves or the game is drawn: Moves allowed --- 8 moves Bishops and/or Knights only 22 moves | The coun",
+    "anchor": "counting-rules-draw-mechanism",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Differences from Makruk",
+    "content": "Makruk Thai --- 1 step diagonally only No special rule Makruk counting system",
+    "anchor": "differences-from-makruk",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ouk Chaktrang (Cambodian Chess)",
+    "heading": "Attribution",
+    "content": "Traditional Cambodian game. Modern competitive rules codified by the Asian Chess Federation. Fully public domain.",
+    "anchor": "attribution",
+    "variant": "ouk-chaktrang",
+    "variantUrl": "dist/moddable-chess/variants/ouk-chaktrang/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Patrol Chess",
     "heading": "Patrol Chess",
     "content": "A piece may only capture or give check if it is \"patrolled\" — defended by at least one friendly piece. Isolated pieces are toothless.",
@@ -10556,6 +12184,106 @@
     "anchor": "attribution",
     "variant": "petty",
     "variantUrl": "dist/moddable-chess/variants/petty/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Placement Chess",
+    "content": "Placement Chess also called Bronstein Chess, Back Rank Randomization, or Pre-Game Placement addresses opening theory by giving players freedom in where they arrange their own back-rank pieces. The boa",
+    "anchor": "placement-chess",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Bronstein Version",
+    "content": "Designed by David Bronstein.",
+    "anchor": "bronstein-version",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Setup Phase",
+    "content": "1. Pawns begin on their standard starting squares rank 2 for White, rank 7 for Black. 2. All eight back-rank pieces for each player are held off the board. 3. White places one piece on any empty squar",
+    "anchor": "setup-phase",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Placement Constraints",
+    "content": "- Bishops: Each player’s two Bishops must be placed on opposite-colored squares. A Bishop may not be placed such that both friendly Bishops end up on the same color. If one Bishop has already been pla",
+    "anchor": "placement-constraints",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Game Phase",
+    "content": "Once setup is complete, the game proceeds as standard FIDE chess from the resulting position. White moves first. - Castling is available if King and Rooks are on standard squares and neither has moved",
+    "anchor": "game-phase",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Setup Phase",
+    "content": "Both players simultaneously and secretly arrange their own 8 back-rank pieces in any order they choose on their back rank. There is no alternating; each player writes down or otherwise commits to thei",
+    "anchor": "setup-phase",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Placement Constraints",
+    "content": "- Bishops must be on opposite-colored squares. - King must be placed between the two Rooks required for potential castling legality — if King is not between Rooks, castling is unavailable. - No other ",
+    "anchor": "placement-constraints",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Reveal and Game",
+    "content": "Once both players have finalized their arrangements, both back ranks are revealed simultaneously and the game begins. White moves first. ---",
+    "anchor": "reveal-and-game",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Strategy Notes",
+    "content": "The central question of Placement Chess is the trade-off between customizing the position for your preferred middlegame structure and retaining the flexibility of castling. Placing the King and Rooks ",
+    "anchor": "strategy-notes",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Placement Chess",
+    "heading": "Attribution",
+    "content": "Bronstein version attributed to David Bronstein, Soviet-era grandmaster and chess theorist. CVP version published on the Chess Variant Pages chessvariants.com. Public domain rule sets.",
+    "anchor": "attribution",
+    "variant": "placement-chess",
+    "variantUrl": "dist/moddable-chess/variants/placement-chess/"
   },
   {
     "game": "moddable-chess",
@@ -10860,6 +12588,96 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "S-Chess (Seirawan Chess)",
+    "content": "Designed by Yasser Seirawan and Jonathan Tisdall 2007. S-Chess enriches orthodox chess with two powerful new fairy pieces — the Hawk and the Elephant — without changing the starting position. Instead,",
+    "anchor": "s-chess-seirawan-chess",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "New Pieces",
+    "content": "Symbol --- H E Both pieces leap over intervening pieces for all their moves.",
+    "anchor": "new-pieces",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "Starting Position and the Hand",
+    "content": "The board begins in the standard FIDE position. Each player holds one Hawk and one Elephant in reserve — they do not appear on the board at game start. 8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 7 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 6 . . . . . ",
+    "anchor": "starting-position-and-the-hand",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "The Gate",
+    "content": "Whenever a back-rank piece moves off its starting square for the first time, the moving player may optionally place one piece from their hand onto the square just vacated. This simultaneous placement ",
+    "anchor": "the-gate",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "Piece Movement Reference",
+    "content": "All standard FIDE pieces move as in orthodox chess. Movement --- 1 square any direction; castling as in FIDE Queen Any distance, orthogonally Bishop 2,1 jump; leaps over other pieces Pawn Leap 1 or 2 ",
+    "anchor": "piece-movement-reference",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "Check, Checkmate, and Stalemate",
+    "content": "Standard FIDE rules. Gating a piece that puts the opponent's King in check is legal. A player may not gate a piece that leaves their own King in check.",
+    "anchor": "check-checkmate-and-stalemate",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "Notation",
+    "content": "Standard algebraic notation with a gating suffix. After the moving piece's destination square, add a slash and the gated piece symbol followed by the square gated to. Example: 1. e4/He1 — pawn moves e",
+    "anchor": "notation",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "Strategy Notes",
+    "content": "The Hawk and Elephant are among the most powerful pieces possible on an 8×8 board — each substantially stronger than a Rook. Their arrival through gating means the opening resembles standard chess, bu",
+    "anchor": "strategy-notes",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "S-Chess (Seirawan Chess)",
+    "heading": "Attribution",
+    "content": "Designed by Yasser Seirawan and Jonathan Tisdall. Publicly released 2007. Open rules available at seirawanchess.com. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "s-chess",
+    "variantUrl": "dist/moddable-chess/variants/s-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
     "section": "Shafran's Hexagonal Chess",
     "heading": "Shafran's Hexagonal Chess",
     "content": "Invented by Boris Shafran. Played on a smaller 70-hex board with 9 files a through i. Castling is permitted and the pawn initial step varies by file.",
@@ -10872,7 +12690,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Shafran's Hexagonal Chess",
     "heading": "Setup",
-    "content": "Board: 70-hex hexagonal grid, 9 files a–i.",
+    "content": "Board: 70-hex irregular hexagonal grid, 9 files a–i, 10 ranks. File lengths: a6, b7, c8, d9, e10, f9, g8, h7, i6. Files a–e share the bottom edge; files e–i share the top edge. White pieces back rank,",
     "anchor": "setup",
     "variant": "shafran",
     "variantUrl": "dist/moddable-chess/variants/shafran/"
@@ -10926,6 +12744,76 @@
     "anchor": "attribution",
     "variant": "shafran",
     "variantUrl": "dist/moddable-chess/variants/shafran/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shako",
+    "heading": "Shako",
+    "content": "Designed by Jean-Louis Cazaux 2000. Shako extends standard chess to a 10×10 board and introduces two new pieces — the Cannon borrowed from Chinese Chess and the Elephant — while retaining all standard",
+    "anchor": "shako",
+    "variant": "shako",
+    "variantUrl": "dist/moddable-chess/variants/shako/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shako",
+    "heading": "New Pieces",
+    "content": "Movement --- Slides orthogonally any distance like a Rook to move to an empty square. Leaps exactly 2 squares diagonally in any diagonal direction. The intervening square is irrelevant the Elephant ju",
+    "anchor": "new-pieces",
+    "variant": "shako",
+    "variantUrl": "dist/moddable-chess/variants/shako/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shako",
+    "heading": "Starting Position",
+    "content": "The board uses files a–j 10 files and ranks 1–10. White rank 1: 1 R Ca El B Q K B El Ca R a b c d e f g h i j From a to j: Rook, Cannon, Elephant, Bishop, Queen, King, Bishop, Elephant, Cannon, Rook. ",
+    "anchor": "starting-position",
+    "variant": "shako",
+    "variantUrl": "dist/moddable-chess/variants/shako/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shako",
+    "heading": "Cannon — Detailed Rules",
+    "content": "The Cannon’s movement and capture are separated: To move non-capture: The Cannon slides to any empty square along a rank or file, exactly as a Rook would, provided no piece is between the Cannon and t",
+    "anchor": "cannon-detailed-rules",
+    "variant": "shako",
+    "variantUrl": "dist/moddable-chess/variants/shako/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shako",
+    "heading": "Elephant — Detailed Rules",
+    "content": "The Elephant leaps exactly 2 squares diagonally — landing on a square 2 diagonal steps away in any of the four diagonal directions. The Elephant always jumps: the square it passes through is irrelevan",
+    "anchor": "elephant-detailed-rules",
+    "variant": "shako",
+    "variantUrl": "dist/moddable-chess/variants/shako/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shako",
+    "heading": "Standard Rules",
+    "content": "All standard FIDE rules apply with these adaptations for 10×10: - Pawns: Move 1 or 2 squares forward from starting position. En passant applies if a Pawn advances 2 squares and an opposing Pawn could ",
+    "anchor": "standard-rules",
+    "variant": "shako",
+    "variantUrl": "dist/moddable-chess/variants/shako/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shako",
+    "heading": "Attribution",
+    "content": "Designed by Jean-Louis Cazaux. Published 2000. Cazaux, J.L. and Schmittberger, R., “A World of Chess,” McFarland, 2017. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "shako",
+    "variantUrl": "dist/moddable-chess/variants/shako/"
   },
   {
     "game": "moddable-chess",
@@ -11056,6 +12944,186 @@
     "anchor": "attribution",
     "variant": "shatranj",
     "variantUrl": "dist/moddable-chess/variants/shatranj/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Shinobi Chess",
+    "content": "Designed by Corey Clark 2021. Shinobi Chess is asymmetric: White commands a standard FIDE Kingdom; Black commands a Shinobi Clan that begins with fewer pieces on the board but holds a hand of addition",
+    "anchor": "shinobi-chess",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "The Two Armies",
+    "content": "Kingdom White: Standard FIDE. King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns. Shinobi Clan Black: Starts with fewer pieces on the board; holds additional pieces in hand for dropping. Shinobi piec",
+    "anchor": "the-two-armies",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Shinobi Pieces",
+    "content": "Count on Board Movement Promoted Movement --- --- --- 1 1 step any direction King — Chunin Lance 0 Ninja 2 Jumps as Knight. Slides diagonally unlimited Bishop. Ninja 2 Jonin 1 Slides diagonally unlimi",
+    "anchor": "shinobi-pieces",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Shinobi Starting Position (Black)",
+    "content": "8 . Mn Cn Jn Cn Mn . 7 . . Pa Pa Pa Pa . . Rank 8 from a to h: empty, Monkb, Chuninc, Jonind... exact arrangement: Chunina, Monkb, emptyc, Jonind, emptye, Monkf, Chuning, emptyh — 7 pieces for 8 squar",
+    "anchor": "shinobi-starting-position-black",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Kingdom Starting Position (White)",
+    "content": "Standard FIDE: 1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙",
+    "anchor": "kingdom-starting-position-white",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Drop Rules",
+    "content": "On any turn, instead of moving a board piece, the Shinobi player may drop one piece from hand onto any empty square subject to: - Drops may not be made onto the promotion zone ranks 6–8. - Pawns may n",
+    "anchor": "drop-rules",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Promotion",
+    "content": "Shinobi pieces promote automatically on entering or moving within ranks 6, 7, or 8. Promotion is mandatory and immediate. Captured promoted pieces revert to base form and are not added to the hand onl",
+    "anchor": "promotion",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Check, Checkmate, Stalemate",
+    "content": "The Jonin is the royal piece — check, checkmate, and stalemate rules apply to the Jonin as they would to a King. The FIDE King is subject to standard rules. Stalemate is a draw.",
+    "anchor": "check-checkmate-stalemate",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shinobi Chess",
+    "heading": "Attribution",
+    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "shinobi",
+    "variantUrl": "dist/moddable-chess/variants/shinobi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Shogun Chess",
+    "content": "Designed by Corey Clark 2020. Shogun Chess grafts the drop mechanic from Shogi onto a standard chess board: captured pieces switch sides and can be returned to play, and pieces automatically promote w",
+    "anchor": "shogun-chess",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Promotion Zone",
+    "content": "Ranks 6, 7, and 8 for White — the opponent's half of the board — form the promotion zone. Any piece that enters a promotion-zone square, or that starts a turn already in the zone, promotes immediately",
+    "anchor": "promotion-zone",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Piece Promotions",
+    "content": "Promoted Name --- Pawn+ Gold General Monk Ninja Fortress Shogun Does not promote",
+    "anchor": "piece-promotions",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Drop Mechanic",
+    "content": "When a player captures an opponent's piece, that piece is added to the capturing player's hand in its base unpromoted form. On any turn, instead of moving a piece already on the board, the player may ",
+    "anchor": "drop-mechanic",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Starting Position",
+    "content": "Standard FIDE starting position. Both hands begin empty. 8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 7 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 6 . . . . . . . . 5 . . . . . . . . 4 . . . . . . . . 3 . . . . . . . . 2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ 1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖",
+    "anchor": "starting-position",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Standard Rules",
+    "content": "Castling applies under standard FIDE conditions neither King nor Rook has previously moved; squares between them are empty; King does not pass through check. En passant applies. Pawn promotion on reac",
+    "anchor": "standard-rules",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Check and Checkmate",
+    "content": "Standard rules. A player in check must resolve it immediately. Dropping a piece to interpose between the attacking piece and the King is legal. Checkmate ends the game; the checkmated player loses.",
+    "anchor": "check-and-checkmate",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Stalemate",
+    "content": "Standard: stalemate is a draw.",
+    "anchor": "stalemate",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shogun Chess",
+    "heading": "Attribution",
+    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.",
+    "anchor": "attribution",
+    "variant": "shogun",
+    "variantUrl": "dist/moddable-chess/variants/shogun/"
   },
   {
     "game": "moddable-chess",
@@ -11206,6 +13274,116 @@
     "anchor": "attribution",
     "variant": "sittuyin",
     "variantUrl": "dist/moddable-chess/variants/sittuyin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Spartan Chess",
+    "content": "Designed by Steven Streetman 2010. Spartan Chess is asymmetric: White commands a standard FIDE Persian army; Black commands a Spartan army with two Kings and a unique roster of pieces. The armies diff",
+    "anchor": "spartan-chess",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "The Two Armies",
+    "content": "Persian Army White: Standard FIDE. One King; standard checkmate and stalemate rules apply. Spartan Army Black: Two Kings; unique pieces; no standard Queen, Rook, Bishop, or Knight.",
+    "anchor": "the-two-armies",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Spartan Pieces",
+    "content": "Count --- 2 1 2 2 2 8",
+    "anchor": "spartan-pieces",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Starting Positions",
+    "content": "White Persian — standard FIDE: 1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ Black Spartan: 8 Lt Wr Gn Kg Kg Gn Wr Lt 7 Ho Ho Ho Ho Ho Ho Ho Ho Rank 8 from a to h: Lieutenant, Warlord, General, King, King, Gene",
+    "anchor": "starting-positions",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Check Rules — The Dual-King Mechanic",
+    "content": "The Spartan check system differs completely from standard chess: - Both Spartan Kings must be simultaneously in check before Black is considered to be in check. A single Spartan King under attack does",
+    "anchor": "check-rules-the-dual-king-mechanic",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Persian Win Condition",
+    "content": "White wins by: 1. Checkmating Black both Kings simultaneously in check with no legal escape, OR 2. Capturing one Spartan King after which the remaining King is under standard check rules and must be c",
+    "anchor": "persian-win-condition",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Spartan Win Condition",
+    "content": "Black wins by checkmating the single Persian King under standard chess rules.",
+    "anchor": "spartan-win-condition",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Stalemate",
+    "content": "- Persian stalemate White has no legal move: White loses. - Spartan stalemate Black has no legal move but not in check: Draw.",
+    "anchor": "stalemate",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Hoplite Promotion",
+    "content": "A Hoplite reaching rank 8 promotes to any Spartan piece Warlord, General, Lieutenant, or Captain — not to a King.",
+    "anchor": "hoplite-promotion",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Castling and En Passant",
+    "content": "White may castle under standard FIDE conditions. Black has no castling privilege. En passant applies to Hoplites in the same way as standard Pawns a Hoplite that moved two squares forward may be captu",
+    "anchor": "castling-and-en-passant",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Spartan Chess",
+    "heading": "Attribution",
+    "content": "Designed by Steven Streetman. Published 2010. Official rules at spartanchess.com. Public domain rule set.",
+    "anchor": "attribution",
+    "variant": "spartan",
+    "variantUrl": "dist/moddable-chess/variants/spartan/"
   },
   {
     "game": "moddable-chess",
@@ -11406,6 +13584,106 @@
     "anchor": "attribution",
     "variant": "suicide-chess",
     "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Synochess",
+    "content": "Designed by Corey Clark 2020. Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi Chinese Chess. The two armies differ completely in piece movement, and the Easter",
+    "anchor": "synochess",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "The Two Armies",
+    "content": "Western Army White: Standard FIDE. King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns. All standard chess rules apply to the Western army. Eastern Army Black: Xiangqi-derived pieces. No Pawns on the ",
+    "anchor": "the-two-armies",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Eastern Pieces",
+    "content": "Symbol --- C R H N E A",
+    "anchor": "eastern-pieces",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Eastern Starting Position",
+    "content": "Black's starting position on ranks 7–8: 8 Ch H E A C A E H Ch Chariot-Horse-Elephant-Advisor-Chancellor-Advisor-Elephant-Horse-Chariot, 9 pieces on 8 squares Actual rank 8 from a to h: Chariota, Horse",
+    "anchor": "eastern-starting-position",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Soldier Drops",
+    "content": "The Eastern player's primary pawn-substitute is the Soldier, held in hand. Drop rules: - On any turn, instead of moving a piece, Black may drop one Soldier onto any empty square on rank 5 only. - Sold",
+    "anchor": "soldier-drops",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "The Faceoff Rule",
+    "content": "If the Western King and the Eastern Chancellor are on the same file with no pieces between them — facing each other directly along an open file — the player who created that open-file confrontation i.",
+    "anchor": "the-faceoff-rule",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Win Conditions",
+    "content": "- Checkmate the opponent's royal piece Western King or Eastern Chancellor. - Faceoff — creating an open-file confrontation between the two royal pieces immediately loses for the player who caused it.",
+    "anchor": "win-conditions",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Stalemate",
+    "content": "Standard: if a player has no legal move and is not in check, the game is a draw.",
+    "anchor": "stalemate",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Western Army Rules",
+    "content": "All standard FIDE rules apply: castling, en passant, pawn promotion. The Western King may not move into a faceoff position.",
+    "anchor": "western-army-rules",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Synochess",
+    "heading": "Attribution",
+    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.",
+    "anchor": "attribution",
+    "variant": "synochess",
+    "variantUrl": "dist/moddable-chess/variants/synochess/"
   },
   {
     "game": "moddable-chess",
@@ -11846,6 +14124,86 @@
     "anchor": "attribution",
     "variant": "torpedo",
     "variantUrl": "dist/moddable-chess/variants/torpedo/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "Ultima (Baroque Chess)",
+    "content": "Designed by Robert Abbott and published in 1962 as Ultima later popularized as Baroque Chess. Ultima is built on one radical premise: every piece has a unique capture method. No two pieces share the s",
+    "anchor": "ultima-baroque-chess",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "Piece Movement and Capture",
+    "content": "All pieces except the King slide like the Queen — any number of squares in any of the eight directions — to reach their destination. They slide without capturing en route; the capture occurs as a resu",
+    "anchor": "piece-movement-and-capture",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "Starting Position",
+    "content": "The formation mirrors standard FIDE, with pieces assigned as follows: 8 Co Ch Lp Wd Kg Lp Im Co 7 Pp Pp Pp Pp Pp Pp Pp Pp 6 . . . . . . . . 5 . . . . . . . . 4 . . . . . . . . 3 . . . . . . . . 2 Pp P",
+    "anchor": "starting-position",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "Win Condition",
+    "content": "Win by capturing the opponent’s King on your turn. There is no check or checkmate. A player who faces an opponent King threatening to land on their King’s square should move their King away, but the g",
+    "anchor": "win-condition",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "No Stalemate as Draw",
+    "content": "If a player has no legal move, that player loses.",
+    "anchor": "no-stalemate-as-draw",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "Immobilizer Interactions",
+    "content": "- A piece adjacent to a friendly Immobilizer is not affected; only opponent pieces are immobilized. - An immobilized piece that is also capturable by other means can still be captured normally. - The ",
+    "anchor": "immobilizer-interactions",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "Notation",
+    "content": "Standard algebraic notation suffices for most moves. Captures may be annotated by listing captured piece coordinates in parentheses. Because multiple captures can occur from one move, annotation can b",
+    "anchor": "notation",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Ultima (Baroque Chess)",
+    "heading": "Attribution",
+    "content": "Designed by Robert Abbott. Published in 1962 in Abbott’s New Card Games. Public domain.",
+    "anchor": "attribution",
+    "variant": "ultima",
+    "variantUrl": "dist/moddable-chess/variants/ultima/"
   },
   {
     "game": "moddable-chess",

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Synochess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Synochess.">
+<meta property="og:title" content="Synochess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Synochess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/synochess.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/synochess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Synochess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Synochess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/synochess.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/synochess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/synochess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Synochess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 94 of 102</span>
+    <h1 class="variant-cover-title">Synochess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Synochess</h2>
+<p>Designed by Corey Clark (2020). Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi (Chinese Chess). The two armies differ completely in piece movement, and the Eastern side begins with Soldiers held in hand rather than Pawns on the board.</p>
+<h3>The Two Armies</h3>
+<p><strong>Western Army (White):</strong> Standard FIDE. King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns. All standard chess rules apply to the Western army.</p>
+<p><strong>Eastern Army (Black):</strong> Xiangqi-derived pieces. No Pawns on the board at game start — Soldiers are held in hand and dropped during play.</p>
+<h3>Eastern Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Symbol</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chancellor</td>
+<td>C</td>
+<td>1 square in any direction (the Eastern royal piece).</td>
+</tr>
+<tr>
+<td>Chariot</td>
+<td>R</td>
+<td>Slides orthogonally any distance (identical to Rook).</td>
+</tr>
+<tr>
+<td>Horse</td>
+<td>H</td>
+<td>1 square orthogonally then 1 square diagonally outward. Can be blocked: if the orthogonal square is occupied, the Horse cannot move in that direction.</td>
+</tr>
+<tr>
+<td>Cannon</td>
+<td>N</td>
+<td>Slides orthogonally any distance to move. To capture, must jump over exactly one intervening piece (the “platform”) and remove the first piece beyond it.</td>
+</tr>
+<tr>
+<td>Elephant</td>
+<td>E</td>
+<td>Leaps exactly 2 squares diagonally. Can be blocked if the intermediate diagonal square is occupied. Cannot cross rank 5 (the river).</td>
+</tr>
+<tr>
+<td>Advisor</td>
+<td>A</td>
+<td>1 square diagonally. Confined to the palace (the 2×3 region d7–f8 for Black).</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Eastern Starting Position</h3>
+<p>Black’s starting position on ranks 7–8:</p>
+<pre><code>8 Ch H E A C A E H Ch   (Chariot-Horse-Elephant-Advisor-Chancellor-Advisor-Elephant-Horse-Chariot, 9 pieces on 8 squares)
+</code></pre>
+<p>Actual rank 8 from a to h: Chariot(a), Horse(b), Elephant©, Advisor(d), Chancellor(e), Advisor(f), Horse(g), Chariot(h).
+Rank 7: Cannons on c7 and f7. No other pieces on rank 7.</p>
+<p>Black begins with 6 Soldiers in hand (off the board).</p>
+<h3>Soldier Drops</h3>
+<p>The Eastern player’s primary pawn-substitute is the Soldier, held in hand.</p>
+<p><strong>Drop rules:</strong></p>
+<ul class="rules">
+<li>On any turn, instead of moving a piece, Black may drop one Soldier onto any empty square on rank 5 only.</li>
+<li>Soldiers move 1 square forward or 1 square sideways (not diagonally, not backward).</li>
+<li>Soldiers promote on reaching rank 1 to any Eastern piece except Chancellor.</li>
+<li>All 6 Soldiers must be dropped before Black’s hand is empty; pieces cannot be dropped on ranks other than 5.</li>
+</ul>
+<h3>The Faceoff Rule</h3>
+<p>If the Western King and the Eastern Chancellor are on the same file with no pieces between them — facing each other directly along an open file — the player who created that open-file confrontation (i.e., the player who just moved to create the faceoff) loses immediately. Both players must avoid creating or allowing this position.</p>
+<p>This mirrors the Flying General rule in Xiangqi.</p>
+<h3>Win Conditions</h3>
+<ul class="rules">
+<li><strong>Checkmate</strong> the opponent’s royal piece (Western King or Eastern Chancellor).</li>
+<li><strong>Faceoff</strong> — creating an open-file confrontation between the two royal pieces immediately loses for the player who caused it.</li>
+</ul>
+<h3>Stalemate</h3>
+<p>Standard: if a player has no legal move and is not in check, the game is a draw.</p>
+<h3>Western Army Rules</h3>
+<p>All standard FIDE rules apply: castling, en passant, pawn promotion. The Western King may not move into a faceoff position.</p>
+<h3>Attribution</h3>
+<p>Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../suicide-chess/" class="variant-pager-prev">← Suicide Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../tamerlane/" class="variant-pager-next">Tamerlane Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

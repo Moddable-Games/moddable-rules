@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empire Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Empire Chess.">
+<meta property="og:title" content="Empire Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Empire Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/empire.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/empire/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Empire Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Empire Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/empire.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/empire.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/empire.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Empire Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 36 of 102</span>
+    <h1 class="variant-cover-title">Empire Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Empire Chess</h2>
+<p>Designed by Corey Clark (2019). Empire Chess is an asymmetric variant in which White commands a standard FIDE Kingdom and Black commands the Empire — an army where every piece moves like a Queen but captures in ways unique to its role. The Faceoff rule adds a strategic constraint: if the two royal pieces face each other on an open file, the player who created that confrontation loses.</p>
+<h3>The Two Armies</h3>
+<p><strong>Kingdom (White):</strong> Standard FIDE. King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns.</p>
+<p><strong>Empire (Black):</strong> Emperor plus four piece types that each combine Queen-range movement with restricted captures.</p>
+<h3>Empire Pieces</h3>
+<p>All Empire pieces except the Emperor and Soldier <strong>move</strong> like the Queen (any direction, unlimited distance). Their <strong>capture</strong> methods are piece-specific and limited.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Count</th>
+<th>Move</th>
+<th>Capture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Emperor</strong></td>
+<td>1</td>
+<td>1 step in any direction</td>
+<td>1 step in any direction (standard King)</td>
+</tr>
+<tr>
+<td><strong>Tower</strong></td>
+<td>2</td>
+<td>Queen slide</td>
+<td>Captures only by sliding orthogonally (Rook-style). Cannot capture diagonally.</td>
+</tr>
+<tr>
+<td><strong>Duke</strong></td>
+<td>2</td>
+<td>Queen slide</td>
+<td>Captures only by sliding diagonally (Bishop-style). Cannot capture orthogonally.</td>
+</tr>
+<tr>
+<td><strong>Cardinal</strong></td>
+<td>2</td>
+<td>Queen slide</td>
+<td>Captures only by jumping as a Knight (2+1 leap). Cannot capture by sliding.</td>
+</tr>
+<tr>
+<td><strong>Siege Tower</strong></td>
+<td>1</td>
+<td>Queen slide</td>
+<td>Captures only by sliding to an orthogonally adjacent square (1 step ortho). Functionally: moves anywhere, but can only take pieces exactly 1 step away orthogonally.</td>
+</tr>
+<tr>
+<td><strong>Soldier</strong></td>
+<td>8</td>
+<td>1 square forward, 2 from start</td>
+<td>Captures 1 square diagonally forward (standard Pawn capture). Promotes on rank 1.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Starting Position</h3>
+<p><strong>Kingdom (White):</strong></p>
+<pre><code>2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+</code></pre>
+<p><strong>Empire (Black):</strong></p>
+<pre><code>8 Tw Ca Du Si Em Si Du Ca Tw
+7 So So So So So So So So
+</code></pre>
+<p>Rank 8 from a to h: Tower, Cardinal, Duke, Siege Tower, Emperor, Siege Tower, Duke, Cardinal, Tower.</p>
+<p>Wait — with 2 Towers, 2 Cardinals, 2 Dukes, 1 Siege Tower, 1 Emperor that is 9 pieces on 8 squares. Correction: Empire has 1 Tower on d8, 1 Siege Tower on each of a8 and h8, 2 Dukes on c8 and f8, 2 Cardinals on b8 and g8, 1 Emperor on e8.</p>
+<p>Rank 8 from a to h: Siege Tower(a), Cardinal(b), Duke©, Tower(d), Emperor(e), Duke(f), Cardinal(g), Siege Tower(h).</p>
+<h3>The Faceoff Rule</h3>
+<p>If the Kingdom King and the Empire Emperor are on the same file with no pieces between them, the player who created that open confrontation — i.e., the player who just moved to bring it about — loses immediately.</p>
+<p>Neither player may make a move that results in a Faceoff; it is not a threat to be defended, it is an immediate loss condition. Both players must actively avoid creating an open file between the two royal pieces.</p>
+<h3>Win Conditions</h3>
+<ul class="rules">
+<li><strong>Checkmate</strong> the opponent’s royal piece (Kingdom King or Empire Emperor).</li>
+<li><strong>Faceoff:</strong> creating an open-file confrontation between the two royal pieces immediately loses for the player who caused it.</li>
+</ul>
+<h3>Empire-Specific Rules</h3>
+<ul class="rules">
+<li><strong>Soldiers promote on rank 1</strong> (reaching White’s back rank). Promotion options: Tower, Duke, Cardinal, or Siege Tower (not Emperor).</li>
+<li><strong>No castling</strong> for the Empire.</li>
+<li>The Kingdom may castle, en passant, and promotes Pawns on rank 8 normally.</li>
+<li>A move that puts the moving player’s own royal piece into check (Kingdom) or leaves Emperor under attack is illegal regardless of the capture mechanic used.</li>
+</ul>
+<h3>Strategic Character</h3>
+<p>The Empire’s strength lies in the Queen-slide movement: every piece can reach any square in one move. Its weakness is restricted captures — a Tower sitting in the center can slide to threaten anything, but can only execute the capture with an orthogonal landing. Cardinals are particularly unusual: they can reposition freely but only take pieces via Knight-jump, creating long-range positional threats. The Faceoff rule strongly influences file strategy for both sides throughout the game.</p>
+<h3>Attribution</h3>
+<p>Designed by Corey Clark. Published 2019. Rules available via Shogun of Games and Lichess. Public domain rule set.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../einstein-chess/" class="variant-pager-prev">← Einstein Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../endgame-chess/" class="variant-pager-next">Endgame Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

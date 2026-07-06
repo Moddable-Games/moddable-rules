@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chennis — Moddable Chess</title>
+<meta name="description" content="Complete rules for Chennis.">
+<meta property="og:title" content="Chennis — Moddable Chess">
+<meta property="og:description" content="Complete rules for Chennis.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/chennis.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/chennis/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chennis — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Chennis.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/chennis.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/chennis.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/chennis.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Chennis · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 23 of 102</span>
+    <h1 class="variant-cover-title">Chennis</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">7×7</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Chennis</h2>
+<p>Designed by Corey Clark. Chennis adapts chess to a tennis-themed format on a 7×7 board. The net divides the board between ranks 4 and 5. Victory is achieved by getting a Pawn to the opponent’s back rank, not by checkmate — though check and piece capture remain mechanically active.</p>
+<h3>Board Layout</h3>
+<p>The board is 7×7 (files a–g, ranks 1–7). A net runs across the middle of the board, forming a barrier between ranks 4 and 5. This net restricts most pieces to their own half unless they can jump (Knights) or the rules explicitly permit crossing.</p>
+<h3>Win Condition</h3>
+<p>The game is won by advancing any Pawn to the opponent’s back rank:</p>
+<ul class="rules">
+<li>White wins by placing a Pawn on rank 7.</li>
+<li>Black wins by placing a Pawn on rank 1.</li>
+</ul>
+<p>Checkmate is NOT a win condition in Chennis. However, check and piece capture are legal actions — they affect material balance and legal moves.</p>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Count</th>
+<th>Movement</th>
+<th>Net Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>King</strong></td>
+<td>1</td>
+<td>1 step any direction</td>
+<td>Cannot cross the net.</td>
+</tr>
+<tr>
+<td><strong>Queen</strong></td>
+<td>1</td>
+<td>Any distance, any direction</td>
+<td>Cannot cross the net.</td>
+</tr>
+<tr>
+<td><strong>Rook</strong></td>
+<td>2</td>
+<td>Orthogonal slide, unlimited</td>
+<td>Cannot cross the net.</td>
+</tr>
+<tr>
+<td><strong>Bishop</strong></td>
+<td>2</td>
+<td>Diagonal slide, unlimited</td>
+<td>Cannot cross the net.</td>
+</tr>
+<tr>
+<td><strong>Knight</strong></td>
+<td>2</td>
+<td>(2+1) jump; leaps over pieces</td>
+<td><strong>May cross the net freely.</strong> A Knight can land on either side of the net at will.</td>
+</tr>
+<tr>
+<td><strong>Pawn</strong></td>
+<td>7</td>
+<td>1 square forward; captures 1 diagonal forward</td>
+<td><strong>Must cross the net to win.</strong> Pawns cross the net by advancing from rank 4 to rank 5, or rank 5 to rank 4 (for Black).</td>
+</tr>
+</tbody>
+</table></div>
+<h3>The Net Rule</h3>
+<p>All pieces except the Knight and Pawn are confined to their half of the board and may not slide, step, or capture across the net boundary:</p>
+<ul class="rules">
+<li>White’s pieces (except Knight and Pawn) are confined to ranks 1–4.</li>
+<li>Black’s pieces (except Knight and Pawn) are confined to ranks 4–7.</li>
+<li>A piece at rank 4 cannot slide to rank 5, and vice versa, except for Knights (which jump) and Pawns (which advance).</li>
+<li>A piece cannot capture across the net unless it is a Knight.</li>
+</ul>
+<p>Note: rank 4 is accessible to both sides. The net prevents crossing rank 4 → rank 5 (or 5 → 4 for sliding pieces).</p>
+<h3>Check and the King</h3>
+<p>The King may be placed in check by opponent pieces, including Knights that have crossed the net. The owner must resolve any check on their turn, even though checkmate is not the win condition. If the King cannot escape check and has no legal moves, it is checkmated — this does NOT end the game in the standard sense. The game ends only when a Pawn reaches the opponent’s back rank.</p>
+<p>(If a player is checkmated and cannot resolve it, they have no legal move; the convention is that the game continues with the checkmated state as a loss for that player in most implementations, but the primary win condition remains the Pawn race.)</p>
+<h3>Pawn Rules</h3>
+<ul class="rules">
+<li>No double first move.</li>
+<li>No en passant.</li>
+<li>A Pawn reaching rank 7 (White) or rank 1 (Black) wins the game immediately — it does not promote.</li>
+<li>A Pawn at rank 4 may advance to rank 5 on its normal forward move; this constitutes crossing the net.</li>
+</ul>
+<h3>Starting Position</h3>
+<p>White (ranks 1–2):</p>
+<pre><code>2 Pa Pa Pa Pa Pa Pa Pa
+1  R  N  B  K  Q  B  N  R
+</code></pre>
+<p>Rank 1 from a to g: Rook, Knight, Bishop, King, Queen, Bishop, Knight, Rook.
+Rank 2: 7 Pawns.</p>
+<p>Black mirrors on ranks 6–7.</p>
+<h3>Attribution</h3>
+<p>Designed by Corey Clark. Published via Shogun of Games. Public domain rule set.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../checkless/" class="variant-pager-prev">← Checkless Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../chigorin/" class="variant-pager-next">Chigorin →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

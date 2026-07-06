@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ouk Chaktrang (Cambodian Chess) — Moddable Chess</title>
+<meta name="description" content="Complete rules for Ouk Chaktrang (Cambodian Chess).">
+<meta property="og:title" content="Ouk Chaktrang (Cambodian Chess) — Moddable Chess">
+<meta property="og:description" content="Complete rules for Ouk Chaktrang (Cambodian Chess).">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/ouk-chaktrang.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/ouk-chaktrang/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ouk Chaktrang (Cambodian Chess) — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Ouk Chaktrang (Cambodian Chess).">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/ouk-chaktrang.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/ouk-chaktrang.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/ouk-chaktrang.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Ouk Chaktrang (Cambodian Chess) · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 71 of 102</span>
+    <h1 class="variant-cover-title">Ouk Chaktrang (Cambodian Chess)</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Ouk Chaktrang (Cambodian Chess)</h2>
+<p>Ouk Chaktrang is the traditional chess of Cambodia. It belongs to the Makruk family — the Southeast Asian branch of chess descended from Indian Chaturanga — and is the closest living relative of the medieval game that spread from India across Asia. Modern rules are codified by the Asian Chess Federation and the Cambodian Chess Federation.</p>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Khmer name</th>
+<th>Piece</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sdech (ស្តេច)</td>
+<td>King</td>
+<td>1 square in any direction. Special first move: if the King has not yet moved, it may instead jump as a Knight (once only, provided the King is not in check).</td>
+</tr>
+<tr>
+<td>Neang/Met (នាង)</td>
+<td>Queen</td>
+<td>1 square diagonally, OR 1 square straight forward.</td>
+</tr>
+<tr>
+<td>Koul (គោល)</td>
+<td>Bishop</td>
+<td>1 square diagonally, OR leaps exactly 2 squares diagonally (can jump over an intervening piece).</td>
+</tr>
+<tr>
+<td>Ses (សេះ)</td>
+<td>Knight</td>
+<td>Standard L-shape: 2 squares orthogonally then 1 square perpendicularly. Jumps over intervening pieces.</td>
+</tr>
+<tr>
+<td>Touk (តឺក)</td>
+<td>Rook</td>
+<td>Slides any number of squares orthogonally.</td>
+</tr>
+<tr>
+<td>Trey (ត្រី)</td>
+<td>Pawn</td>
+<td>Moves 1 square straight forward. Captures 1 square diagonally forward. No double first move. Promotes on reaching rank 6.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Starting Position</h3>
+<p>Identical to Makruk. Pawns begin on ranks 3 (White) and 6 (Black), not rank 2/7.</p>
+<pre><code>8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+7 . . . . . . . .
+6 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+5 . . . . . . . .
+4 . . . . . . . .
+3 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+2 . . . . . . . .
+1 ♖ ♘ ♗ ♛ ♔ ♗ ♘ ♖
+  a b c d e f g h
+</code></pre>
+<p>Neang (Queen) begins beside the Sdech (King): White’s Neang on d1 (to King’s left from White’s perspective), Black’s Neang on e8.</p>
+<h3>Pawn Promotion</h3>
+<p>A Trey reaching rank 6 (for White) or rank 3 (for Black) promotes immediately to a Neang. There is no choice — promotion to Neang is the only option.</p>
+<h3>King’s First Move</h3>
+<p>On the Sdech’s very first move of the game, if it has not previously moved, the player may instead move the King as a Knight (the standard L-shape jump). This privilege is lost permanently after the King moves or after the King is in check.</p>
+<h3>Koul Movement Detail</h3>
+<p>The Koul (Bishop) may move either:</p>
+<ul class="rules">
+<li>1 square diagonally (standard ferz-style step), OR</li>
+<li>Exactly 2 squares diagonally, leaping over any piece on the intermediate square.</li>
+</ul>
+<p>It cannot slide any further — it is not a long-range diagonal slider like the FIDE Bishop.</p>
+<h3>Check and Checkmate</h3>
+<p>A player whose King is in check must resolve the check on the next move. Checkmate — where the King is in check and no legal move resolves it — ends the game; the checkmated player loses.</p>
+<h3>Stalemate</h3>
+<p>Stalemate (player has no legal move but is not in check) is a loss for the stalemated player, not a draw.</p>
+<h3>Counting Rules (Draw Mechanism)</h3>
+<p>When one player has no remaining Pawns, the opponent must deliver checkmate within a set number of moves or the game is drawn:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Opponent’s dominant piece</th>
+<th>Moves allowed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rooks only</td>
+<td>8 moves</td>
+</tr>
+<tr>
+<td>Bishops and/or Knights only</td>
+<td>16 moves</td>
+</tr>
+<tr>
+<td>Neang only</td>
+<td>22 moves</td>
+</tr>
+</tbody>
+</table></div>
+<p>The count begins the moment the last Pawn is captured. If the count expires without checkmate, the game is drawn. The count resets if a piece is captured during the countdown.</p>
+<h3>Differences from Makruk</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Makruk (Thai)</th>
+<th>Ouk Chaktrang (Cambodian)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Koul/Bishop</td>
+<td>1 step diagonally only</td>
+<td>1 step or 2-square diagonal leap</td>
+</tr>
+<tr>
+<td>King’s first move</td>
+<td>No special rule</td>
+<td>May jump as Knight once</td>
+</tr>
+<tr>
+<td>Counting rules</td>
+<td>Makruk counting system</td>
+<td>Streamlined system above</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Attribution</h3>
+<p>Traditional Cambodian game. Modern competitive rules codified by the Asian Chess Federation. Fully public domain.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../orda-mirror/" class="variant-pager-prev">← Orda Mirror</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../patrol/" class="variant-pager-next">Patrol Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

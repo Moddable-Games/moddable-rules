@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khan's Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Khan's Chess.">
+<meta property="og:title" content="Khan's Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Khan's Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/khans-chess.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/khans-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Khan's Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Khan's Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/khans-chess.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/khans-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/khans-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Khan's Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 50 of 102</span>
+    <h1 class="variant-cover-title">Khan's Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Khan’s Chess</h1>
+<p>Khan’s Chess is an asymmetric chess variant designed in 2023–24 by Couch Tomato. It is a refined successor to Orda Chess, pitting the standard Kingdom army against a Mongol-themed Horde cavalry force. Like Orda Chess, all Horde pieces (except the Khan and Kheshig) use divergent movement—they move differently from how they capture. Unlike Orda Chess, the Horde’s pawns are replaced by Scouts, faster-moving forward-only cavalry units, and the Yurt is replaced by the Khatun.</p>
+<h2>History</h2>
+<p>Couch Tomato created Khan’s Chess to address two shortcomings identified in Orda Chess through high-level NNUE (neural network) analysis under Fairy-Stockfish: the original game proved less balanced than intended at high levels of play, and the standard pawn poorly represented the Mongols’ historically cavalry-dominated armies. Taking advantage of expanded Fairy-Stockfish piece-definition capabilities, the designer replaced the pawn and yurt with two new pieces—the Scout and the Khatun—and moved Scouts to the second rank, giving the Horde a faster, more thematically coherent force. Thorough NNUE testing confirmed improved balance in the final design.</p>
+<h2>The Two Armies</h2>
+<p>Khan’s Chess is played on a standard 8×8 board. White controls the <strong>Kingdom</strong> (standard FIDE pieces). Gold controls the <strong>Horde</strong> (Khan’s cavalry army).</p>
+<h3>Kingdom (White) Starting Position</h3>
+<p>Rank 1: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook<br>
+Rank 2: eight Pawns</p>
+<h3>Horde (Gold) Starting Position</h3>
+<p>Rank 8: Lancer, Kheshig, Horse Archer, Khatun, Khan, Horse Archer, Kheshig, Lancer<br>
+Rank 7: eight Scouts</p>
+<p>The Horde back rank mirrors the Kingdom’s layout: Lancers occupy the Rook squares, Kheshigs occupy the Knight squares, Horse Archers occupy the Bishop squares, Khatun occupies the Queen square, and the Khan occupies the King square.</p>
+<h2>General Rules</h2>
+<ol>
+<li><strong>White (Kingdom) moves first.</strong></li>
+<li>The <strong>Horde cannot castle.</strong> The Khan has no castling right.</li>
+<li><strong>Stalemate is a loss</strong> for the player who cannot move (not a draw as in standard chess).</li>
+<li><strong>Campmate:</strong> a player wins by moving their King to the opponent’s back rank without moving into check.</li>
+<li>Kingdom Pawns promote normally (Queen, Rook, Bishop, or Knight). <strong>Scouts promote only to Khatun.</strong></li>
+<li>All other rules (en passant, repetition, check and checkmate) follow standard chess.</li>
+</ol>
+<h2>Horde Pieces</h2>
+<p>All Horde pieces except the Khan and Kheshig are <strong>divergent</strong>: their movement squares differ from their capture squares. The Horde is a cavalry force, so the Lancer, Horse Archer, and Khatun all <em>move</em> like a Knight but <em>capture</em> differently.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Kingdom Counterpart</th>
+<th>Moves as</th>
+<th>Captures as</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khan</td>
+<td>King</td>
+<td>King</td>
+<td>King</td>
+<td>Royal; cannot castle</td>
+</tr>
+<tr>
+<td>Kheshig</td>
+<td>Knight</td>
+<td>Knight + King</td>
+<td>Knight + King</td>
+<td>Strongest Horde piece; not royal</td>
+</tr>
+<tr>
+<td>Khatun</td>
+<td>Queen</td>
+<td>Knight</td>
+<td>King</td>
+<td>Not royal; promotes Scouts</td>
+</tr>
+<tr>
+<td>Horse Archer</td>
+<td>Bishop</td>
+<td>Knight</td>
+<td>Bishop</td>
+<td>Not colour-bound</td>
+</tr>
+<tr>
+<td>Lancer</td>
+<td>Rook</td>
+<td>Knight</td>
+<td>Rook</td>
+<td>Weaker than Rook in endgame</td>
+</tr>
+<tr>
+<td>Scout</td>
+<td>Pawn</td>
+<td>Knight (forward only—four squares)</td>
+<td>One square forward</td>
+<td>Promotes to Khatun only</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Khan</h3>
+<p>The Khan is the Horde’s royal piece. It moves and captures exactly as a King in standard chess. The Khan cannot castle. Checkmate of the Khan ends the game. The piece is visually distinct but functionally identical to the Kingdom’s King.</p>
+<h3>Kheshig (H)</h3>
+<p>The Kheshig moves and captures as a <strong>Knight + King</strong> combined (also called a centaur or mann+knight). It is the strongest piece in the Horde army and is non-royal. The Kheshig is placed on the Knight squares at the start of the game but far exceeds a Knight in value. It is extremely difficult for the Kingdom to force checkmate without eliminating at least one Kheshig. The Kheshigs represent the elite imperial guard of Mongol royalty.</p>
+<h3>Khatun (T)</h3>
+<p>The Khatun <strong>moves as a Knight</strong> but <strong>captures as a King</strong> (one step in any direction). It is non-royal. Despite its modest capture range, the Khatun is a useful defensive piece and is the piece that Scouts promote to. Thematically, the Khatun is the Khan’s consort—an analogue to the Kingdom’s Queen, but considerably less powerful.</p>
+<h3>Horse Archer (A)</h3>
+<p>The Horse Archer <strong>moves as a Knight</strong> but <strong>captures as a Bishop</strong> (diagonally, any number of squares). Because it moves as a Knight rather than sliding diagonally, it is not colour-bound, making it more valuable than a standard Bishop. Horse Archers represent the Mongol light cavalry, renowned for hit-and-run archery tactics. Their ability to quickly reposition for forks and skewers makes them a persistent tactical threat.</p>
+<h3>Lancer (L)</h3>
+<p>The Lancer <strong>moves as a Knight</strong> but <strong>captures as a Rook</strong> (orthogonally, any number of squares). Its value is generally below that of a Rook because it cannot slide across the board in a single move. However, Lancers enter play quickly compared to Rooks and can threaten long-range captures from an early stage. Lancers represent the Mongol heavy cavalry.</p>
+<h3>Scout (S)</h3>
+<p>The Scout replaces the pawn in the Horde army. It <strong>moves as a forward-only Knight</strong>—specifically, the four Knight-jump destinations that move the piece toward the opponent’s side of the board (two squares forward + one to the side, or one square forward + two to the side, in either lateral direction). It does <strong>not</strong> jump to the two backward Knight squares.</p>
+<p>The Scout <strong>captures one square directly forward</strong>, like a pawn’s standard attack but without the diagonal component.</p>
+<p>Key properties:</p>
+<ul class="rules">
+<li>Scouts cannot capture sideways or diagonally; their attack is a single forward step.</li>
+<li>Because of their limited attack, Scouts create weaker defensive structures than Pawns.</li>
+<li>Because of their Knight-based movement, Scouts reach the promotion rank far faster than Pawns.</li>
+<li>Scouts promote on the last rank (<strong>rank 1 for Gold</strong>) and can <strong>only promote to a Khatun</strong>.</li>
+<li>Scouts do not have an initial two-square advance, and en passant does not apply to them.</li>
+</ul>
+<h2>Strategy Notes</h2>
+<p><strong>For the Horde:</strong> Develop Kheshigs carefully—their value in the endgame is enormous and losing one makes mating the Kingdom King much harder. Use the Scouts’ speed to threaten early promotion; even the threat of creating a new Khatun forces Kingdom defensive resources. Horse Archers and Lancers can open threats from the flanks much earlier than Bishops and Rooks in standard chess, due to their Knight movement.</p>
+<p><strong>For the Kingdom:</strong> The Horde lacks the Queen’s long-range sliding power and cannot castle, making early central pressure effective. Target Kheshigs as priority pieces—once both are eliminated, the Kingdom’s mating chances improve dramatically. Be alert to campmate: the Khan’s ability to march to rank 8 for a positional win is a real endgame threat.</p>
+<h2>Comparison with Orda Chess</h2>
+<p>Khan’s Chess replaces two pieces from Orda Chess:</p>
+<ul class="rules">
+<li>The <strong>pawn</strong> (standard chess pawn used by both sides in Orda) is replaced by the <strong>Scout</strong> for the Horde, themed around Mongol cavalry.</li>
+<li>The <strong>Yurt</strong> (which moved and captured as a Queen but only one or two squares) is replaced by the <strong>Khatun</strong> (Knight movement, King capture).</li>
+</ul>
+<p>All other Horde pieces—Lancer, Horse Archer, Kheshig—carry over from Orda Chess with the same movement and capture rules.</p>
+<h2>Attribution</h2>
+<p>Khan’s Chess was designed by Couch Tomato (2023–24). Rules documented from the PyChess variant guide at pychess.org/variants/khans.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../immunization-chess/" class="variant-pager-prev">← Immunization Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../king-of-the-hill/" class="variant-pager-next">King of the Hill →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

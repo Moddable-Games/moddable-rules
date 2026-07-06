@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASEAN Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for ASEAN Chess.">
+<meta property="og:title" content="ASEAN Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for ASEAN Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/asean.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/asean/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ASEAN Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for ASEAN Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/asean.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/asean.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/asean.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">ASEAN Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 12 of 102</span>
+    <h1 class="variant-cover-title">ASEAN Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>ASEAN Chess</h2>
+<p>ASEAN Chess was codified by the ASEAN Chess Federation as a standardized form of traditional Southeast Asian chess intended to serve as a regional competitive standard and a bridge between FIDE chess and local traditions such as Makruk (Thai Chess) and Sittuyin (Burmese Chess). It uses the same piece roster as Makruk but with two key adjustments: Pawns start on rank 2 (as in FIDE chess, not rank 3 as in Makruk) and the counting rules are streamlined.</p>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>English Name</th>
+<th>Local Name</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>Khun</td>
+<td>1 square in any direction.</td>
+</tr>
+<tr>
+<td>Ferz (Queen)</td>
+<td>Met</td>
+<td>1 square diagonally in any direction. (Not the unlimited-range FIDE Queen.)</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Khon</td>
+<td>1 square diagonally in any direction. (Identical movement to the Ferz.)</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>Ma</td>
+<td>Standard (2+1) L-shape jump; leaps over intervening pieces.</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>Ruea</td>
+<td>Slides any distance orthogonally.</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>Bia</td>
+<td>1 square straight forward; captures 1 square diagonally forward. No double first move.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Starting Position</h3>
+<p>Pawns start on rank 2 (White) and rank 7 (Black) — unlike Makruk, where Pawns begin on ranks 3 and 6.</p>
+<pre><code>8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+7 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+6 . . . . . . . .
+5 . . . . . . . .
+4 . . . . . . . .
+3 . . . . . . . .
+2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+1 ♖ ♘ ♗ ♛ ♔ ♗ ♘ ♖
+  a b c d e f g h
+</code></pre>
+<p>Note: The Ferz (met) is placed at d1 for White and e8 for Black, beside the King. The Bishop occupies f1/c8 (and c1/f8), flanking the Ferz and Knight.</p>
+<h3>Pawn Promotion</h3>
+<p>A Pawn that reaches rank 6 (for White) or rank 3 (for Black) promotes immediately and automatically to a Ferz. There is no other promotion option. A promoted Ferz moves 1 square diagonally, like all Ferz pieces.</p>
+<p>Note: Promotion occurs at rank 6/3, not at the final rank. Once promoted, the Ferz can advance further into the opponent’s territory.</p>
+<h3>Ferz and Bishop Movement</h3>
+<p>Both the Ferz and the Bishop move exactly 1 square diagonally. They differ only in role and number:</p>
+<ul class="rules">
+<li>Each player has 1 Ferz (starting next to the King).</li>
+<li>Each player has 2 Bishops.</li>
+<li>All three pieces have identical movement.</li>
+</ul>
+<p>This means each player effectively has three pieces of the same movement type, giving the Ferz its value through the central position it starts from and through promotion.</p>
+<h3>Check and Checkmate</h3>
+<p>Standard rules. The King is in check when attacked by any opponent piece; the owner must resolve it. Checkmate (check with no legal escape) ends the game; the checkmated player loses.</p>
+<h3>Stalemate</h3>
+<p>Stalemate (a player has no legal move but is not in check) is a draw in ASEAN Chess — unlike in Makruk, where stalemate is a loss for the stalemated player.</p>
+<h3>Counting Rules (Draw Mechanism)</h3>
+<p>When one side has no more Pawns, the opposing side must deliver checkmate before a move count is reached or the game is drawn. The count begins from the moment the last Pawn is captured.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Remaining attacker force</th>
+<th>Moves to mate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rook(s) only</td>
+<td>16 moves</td>
+</tr>
+<tr>
+<td>Bishops and/or Knights</td>
+<td>44 moves</td>
+</tr>
+<tr>
+<td>Ferz only</td>
+<td>64 moves</td>
+</tr>
+</tbody>
+</table></div>
+<p>If the count expires without checkmate, the game is declared a draw. The count resets if any piece is captured during the count.</p>
+<h3>Differences from Makruk</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Makruk (Thai)</th>
+<th>ASEAN Chess</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pawn starting rank</td>
+<td>Rank 3/6</td>
+<td>Rank 2/7</td>
+</tr>
+<tr>
+<td>Stalemate</td>
+<td>Loss for stalemated player</td>
+<td>Draw</td>
+</tr>
+<tr>
+<td>Counting rules</td>
+<td>Makruk counting system</td>
+<td>Streamlined table above</td>
+</tr>
+<tr>
+<td>Koul/Bishop move</td>
+<td>1-step diagonal only</td>
+<td>1-step diagonal only (same)</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Attribution</h3>
+<p>Codified by the ASEAN Chess Federation for regional competitive play. Public domain rule set.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../antichess/" class="variant-pager-prev">← Antichess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../atomic/" class="variant-pager-next">Atomic Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

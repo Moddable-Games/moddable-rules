@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shinobi Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Shinobi Chess.">
+<meta property="og:title" content="Shinobi Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Shinobi Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/shinobi.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/shinobi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shinobi Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Shinobi Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/shinobi.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/shinobi.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/shinobi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Shinobi Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 87 of 102</span>
+    <h1 class="variant-cover-title">Shinobi Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Shinobi Chess</h2>
+<p>Designed by Corey Clark (2021). Shinobi Chess is asymmetric: White commands a standard FIDE Kingdom; Black commands a Shinobi Clan that begins with fewer pieces on the board but holds a hand of additional clan members that can be dropped during play, Shogi-style.</p>
+<h3>The Two Armies</h3>
+<p><strong>Kingdom (White):</strong> Standard FIDE. King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns.</p>
+<p><strong>Shinobi Clan (Black):</strong> Starts with fewer pieces on the board; holds additional pieces in hand for dropping. Shinobi pieces promote automatically on entering ranks 6, 7, or 8.</p>
+<h3>Shinobi Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Base Piece</th>
+<th>Count on Board</th>
+<th>In Hand (drops)</th>
+<th>Movement</th>
+<th>Promoted Form</th>
+<th>Promoted Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Jonin</strong> (Captain, royal)</td>
+<td>1</td>
+<td>—</td>
+<td>1 step any direction (King)</td>
+<td>— (does not promote)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Chunin</strong> (Lance)</td>
+<td>2</td>
+<td>0</td>
+<td>Slides forward any distance; cannot move sideways or backward.</td>
+<td>Ninja</td>
+<td>1 step diag or 1 step forward (Gold General)</td>
+</tr>
+<tr>
+<td><strong>Monk</strong></td>
+<td>2</td>
+<td>2</td>
+<td>Jumps as Knight.</td>
+<td>Sacred Horse</td>
+<td>Slides diagonally unlimited (Bishop).</td>
+</tr>
+<tr>
+<td><strong>Ninja</strong></td>
+<td>0</td>
+<td>2</td>
+<td>1 step diagonally, OR jumps as Knight (combined ferz + Knight).</td>
+<td>Jonin</td>
+<td>Promotes to Jonin form on reaching zone.</td>
+</tr>
+<tr>
+<td><strong>Kunoichi</strong></td>
+<td>1</td>
+<td>1</td>
+<td>Slides diagonally unlimited (Bishop).</td>
+<td>Kunoichi+</td>
+<td>Adds 1-step orthogonal moves.</td>
+</tr>
+<tr>
+<td><strong>Pawn</strong></td>
+<td>4</td>
+<td>4</td>
+<td>1 square forward; captures 1 diagonal forward. No double step. Promotes on rank 8.</td>
+<td>Pawn+</td>
+<td>1 step ortho forward or backward, 1 step diag forward (Gold Pawn).</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Shinobi Starting Position (Black)</h3>
+<pre><code>8  .  Mn  Cn  Jn  Cn  Mn  .
+7  .  .   Pa  Pa  Pa  Pa  .  .
+</code></pre>
+<p>Rank 8 from a to h: empty, Monk(b), Chunin©, Jonin(d)… (exact arrangement: Chunin(a), Monk(b), empty©, Jonin(d), empty(e), Monk(f), Chunin(g), empty(h) — 7 pieces for 8 squares with one gap.)</p>
+<p>Actual Shinobi back rank (rank 8): Chunin(a), Monk(b), Kunoichi©, Jonin(d), Kunoichi(e), Monk(f), Chunin(g) — with h8 empty.
+Rank 7: Pawns on c7, d7, e7, f7; a7, b7, g7, h7 are empty.</p>
+<p>Hand at game start: 2 Ninjas, 2 Monks, 4 Pawns.</p>
+<h3>Kingdom Starting Position (White)</h3>
+<p>Standard FIDE:</p>
+<pre><code>1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+</code></pre>
+<h3>Drop Rules</h3>
+<p>On any turn, instead of moving a board piece, the Shinobi player may drop one piece from hand onto any empty square subject to:</p>
+<ul class="rules">
+<li>Drops may not be made onto the promotion zone (ranks 6–8).</li>
+<li>Pawns may not be dropped onto a file already containing a friendly Pawn.</li>
+<li>A Pawn drop cannot deliver immediate checkmate (check without checkmate is permitted).</li>
+<li>Dropped pieces enter at their base (unpromoted) form and do not promote until they move into the zone.</li>
+</ul>
+<h3>Promotion</h3>
+<p>Shinobi pieces promote automatically on entering or moving within ranks 6, 7, or 8. Promotion is mandatory and immediate. Captured promoted pieces revert to base form and are not added to the hand (only base Shinobi pieces are captured and held).</p>
+<h3>Check, Checkmate, Stalemate</h3>
+<p>The Jonin is the royal piece — check, checkmate, and stalemate rules apply to the Jonin as they would to a King. The FIDE King is subject to standard rules. Stalemate is a draw.</p>
+<h3>Attribution</h3>
+<p>Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../shatranj/" class="variant-pager-prev">← Shatranj</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../shogun/" class="variant-pager-next">Shogun Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>
