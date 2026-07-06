@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agon — Official Rulebook v0.1.0</title>
+<meta name="description" content="Guide your Queen to the centre of a 91-hex board">
+<meta property="og:title" content="Agon — Official Rulebook v0.1.0">
+<meta property="og:description" content="Guide your Queen to the centre of a 91-hex board">
+<meta property="og:image" content="https://rules.moddable.games/games/agon/og-image.png?v=1.3.0">
+<meta property="og:url" content="https://rules.moddable.games/dist/agon/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Agon — Official Rulebook v0.1.0">
+<meta name="twitter:description" content="Guide your Queen to the centre of a 91-hex board">
+<meta name="twitter:image" content="https://rules.moddable.games/games/agon/og-image.png?v=1.3.0">
+<link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.1.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.1.0">
+<link rel="stylesheet" href="./theme.css?v=0.1.0">
+<script type="module" src="../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links">
+    <a href="../../index.html" class="hdr-link">All Rules</a>
+    <a href="../../games/agon/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/agon/pdf/agon-rulebook.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
+    <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; v0.1.0</span>
+</header>
+
+<div class="cover">
+  <img class="cover-icon" src="../../games/agon/logos/agon-logo.svg" alt="Agon">
+  <div class="cover-title ">Agon</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">Guide your Queen to the centre of a 91-hex board</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">2</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">20–40 min</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.1.0</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<h2>Agon</h2>
+<p>Amon is one of the oldest abstract strategy games with fully recorded rules, documented in France in 1842. It is played on a hexagonal board of 91 hexagons and won by being the first player to maneuver their Queen into the center hexagon surrounded by all six Guards.</p>
+<h3>Board</h3>
+<p>The board is a regular hexagon composed of 91 smaller hexagons, arranged in 6 concentric rings around a single center hexagon.</p>
+<ul class="rules">
+<li>Center hex: 1</li>
+<li>Ring 1: 6 hexes</li>
+<li>Ring 2: 12 hexes</li>
+<li>Ring 3: 18 hexes</li>
+<li>Ring 4: 24 hexes</li>
+<li>Ring 5: 30 hexes</li>
+</ul>
+<p>Total: 91 hexes.</p>
+<p>The <strong>center hex</strong> (ring 0) is the goal. The <strong>outer ring</strong> (ring 5) is the perimeter — it is where pieces enter play and where captured pieces return.</p>
+<h3>Pieces</h3>
+<p>Each player has:</p>
+<ul class="rules">
+<li>1 <strong>Queen</strong> (distinct color and shape)</li>
+<li>6 <strong>Guards</strong></li>
+</ul>
+<p>Pieces are differentiated by color (e.g., White and Black).</p>
+<h3>Starting Position</h3>
+<p>Both players’ Queens start on the outer ring, on opposite sides of the board. The 6 Guards of each player occupy 6 of the remaining outer-ring positions near their Queen, spread symmetrically. The center hexes begin empty.</p>
+<p><em>In some editions, pieces are placed during the first moves of the game rather than from a fixed starting position. Either method is acceptable; fix one method before play begins.</em></p>
+<h3>Movement</h3>
+<p>On each turn, a player moves one of their pieces to an adjacent hex. A piece may move to any of the up to 6 hexes surrounding its current position, provided that hex is either empty or occupied by an opponent’s piece (to capture).</p>
+<p>There is no jumping, no sliding beyond 1 hex. Both Queens and Guards move identically: 1 step to any adjacent hex.</p>
+<p><strong>Restriction:</strong> A player’s own pieces may not move onto a hex occupied by another of their own pieces.</p>
+<h3>Capture</h3>
+<p>Capture in Agon is by <strong>custodianship</strong>: a piece is captured when, as a result of the moving player’s move, it is flanked on two opposite sides along one of the three hex axes by two enemy pieces.</p>
+<ul class="rules">
+<li>The captured piece must be between two enemy pieces along a straight hex line (one of the six straight-line directions of the hex grid).</li>
+<li>The capture is triggered by the flanking player moving one of their pieces into position — an already-flanked piece is not captured until an enemy actively completes the flank.</li>
+<li>A player may move a piece between two enemy pieces without being captured — custodian capture only occurs when an enemy piece moves to create the flank, not when the surrounded piece moves into the flank.</li>
+</ul>
+<p><strong>Multiple captures:</strong> If one move simultaneously creates custodian captures on multiple opponent pieces (across different axes), all captured pieces are removed.</p>
+<h3>Returning to Play</h3>
+<p>A captured piece does not leave the game permanently. On the capturing player’s subsequent turn, instead of moving a piece already on the board, the capturing player must <strong>return the captured piece to any empty square on the outer ring</strong> (ring 5). (If multiple pieces have been captured and not yet returned, one is returned per turn in place of a normal move.)</p>
+<p>The returning piece is under the control of its original owner from the moment it re-enters the board.</p>
+<h3>Win Condition</h3>
+<p>A player wins by achieving the following position simultaneously:</p>
+<ul class="rules">
+<li>Their <strong>Queen</strong> is on the center hex, AND</li>
+<li>All <strong>six Guards</strong> occupy the six hexes adjacent to the center (ring 1).</li>
+</ul>
+<p>The center hex and its six neighbors must be entirely occupied by one player’s pieces: Queen in center, Guards surrounding.</p>
+<p>This position must be achieved at the end of the winning player’s turn.</p>
+<h3>Draw</h3>
+<p>If neither player can achieve the winning position and the game has been going on for a very long time without progress, players may agree to a draw. No mandatory draw rule exists in the classic rules.</p>
+<h3>Strategy Notes</h3>
+<p>Achieving the win requires coordinating the Queen’s journey to the center with positioning all six Guards around the center simultaneously. Because Guards that are captured are returned to the outer ring (not permanently lost), the opponent can persistently disrupt the approach by capturing Guards and forcing the player to spend turns returning them rather than advancing.</p>
+<p>The key strategic challenge: advance Guards toward the center while protecting them from custodian captures, and time the Queen’s arrival at the center with the Guards’ positioning.</p>
+<h3>Attribution</h3>
+<p>Agon. Documented in France, 1842; described in British and American game books from the 1870s onward. Public domain. Rules confirmed from historical game literature and Sid Sackson’s <em>A Gamut of Games</em> (1969).</p>
+
+
+</main>
+
+
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Agon · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../js/toc.js?v=0.1.0"></script>
+<script type="module" src="../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

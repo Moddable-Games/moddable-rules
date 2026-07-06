@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orda Mirror — Moddable Chess</title>
+<meta name="description" content="Complete rules for Orda Mirror.">
+<meta property="og:title" content="Orda Mirror — Moddable Chess">
+<meta property="og:description" content="Complete rules for Orda Mirror.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/orda-mirror.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/orda-mirror/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Orda Mirror — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Orda Mirror.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/orda-mirror.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/orda-mirror.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/orda-mirror.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Orda Mirror · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 70 of 102</span>
+    <h1 class="variant-cover-title">Orda Mirror</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Orda Mirror</h2>
+<p>Designed by Corey Clark (2020). Where Orda Chess pits the standard FIDE Kingdom against the Mongol Horde, Orda Mirror gives both players an identical Horde army. The defining characteristic of all Horde pieces is move–capture asymmetry: every non-royal piece <strong>moves</strong> as a Knight but <strong>captures</strong> using a different method specific to that piece type.</p>
+<h3>The Horde Army</h3>
+<p>Both players command the same pieces:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Count</th>
+<th>Moves As</th>
+<th>Captures As</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Khagan</strong> (royal)</td>
+<td>1</td>
+<td>1 step in any direction (King)</td>
+<td>1 step in any direction (King)</td>
+</tr>
+<tr>
+<td><strong>Yurt</strong></td>
+<td>1</td>
+<td>Knight jump (2+1 leap)</td>
+<td>Any direction, unlimited distance (Queen)</td>
+</tr>
+<tr>
+<td><strong>Lancer</strong></td>
+<td>2</td>
+<td>Knight jump (2+1 leap)</td>
+<td>Orthogonal slide, unlimited distance (Rook)</td>
+</tr>
+<tr>
+<td><strong>Falcon</strong></td>
+<td>2</td>
+<td>Knight jump (2+1 leap)</td>
+<td>Diagonal slide, unlimited distance (Bishop)</td>
+</tr>
+<tr>
+<td><strong>Keshig</strong></td>
+<td>2</td>
+<td>Knight jump (2+1 leap)</td>
+<td>1 step in any direction (King)</td>
+</tr>
+<tr>
+<td><strong>Pawn</strong></td>
+<td>8</td>
+<td>1 square forward; 2 from start</td>
+<td>1 square diagonally forward</td>
+</tr>
+</tbody>
+</table></div>
+<p>All non-royal pieces (Yurt, Lancer, Falcon, Keshig) make the same Knight jump to reach their destination. What distinguishes them is how they capture upon arrival: only pieces on a square reachable by the Knight jump can be captured, but the specific piece type determines the capture.</p>
+<h3>Move vs. Capture Distinction</h3>
+<p>To capture, the piece must be able to reach the target’s square via a Knight jump (2+1 in any orientation). The piece then removes the target using its designated capture method as a targeting filter:</p>
+<ul class="rules">
+<li><strong>Lancer:</strong> Can only capture pieces on squares reachable by a Knight jump where the line from the Lancer to the target is orthogonal — i.e., the capture must be on the same rank or file. In practice, among all squares a Knight can jump to, the Lancer only captures those on the same rank or file as the Lancer’s current position.</li>
+<li><strong>Falcon:</strong> Among Knight-reachable squares, only captures pieces on the same diagonal as the Falcon.</li>
+<li><strong>Keshig:</strong> Among Knight-reachable squares, only captures pieces within 1 step (i.e., the standard King-move destinations). From the Knight’s 8 possible destinations, the Keshig targets only those that are also adjacent to it.</li>
+<li><strong>Yurt:</strong> Among Knight-reachable squares, captures pieces reachable in any direction without restriction — effectively can capture any piece on a Knight-jump square.</li>
+</ul>
+<p><em>Practical result:</em> Pieces always move like a Knight. Their capture subset restricts which of the 8 Knight-jump destinations they can actually take a piece from.</p>
+<h3>Starting Position</h3>
+<p>Both players use the following arrangement (White on ranks 1–2, Black on ranks 7–8):</p>
+<pre><code>8 La Ke Fa Yu Kg Yu Fa Ke La
+7 Pa Pa Pa Pa Pa Pa Pa Pa
+. . . . . . . . .
+. . . . . . . . .
+2 Pa Pa Pa Pa Pa Pa Pa Pa
+1 La Ke Fa Yu Kg Yu Fa Ke La
+  a  b  c  d  e  f  g  h
+</code></pre>
+<p>Key: La=Lancer, Ke=Keshig, Fa=Falcon, Yu=Yurt, Kg=Khagan, Pa=Pawn.</p>
+<p>Rank 1 from a to h: Lancer, Keshig, Falcon, Yurt, Khagan, Yurt, Falcon, Keshig, Lancer — wait, that is 9 pieces. Corrected:</p>
+<p>Rank 1 from a to h (8 pieces): Lancer(a), Keshig(b), Falcon©, Yurt(d), Khagan(e), Falcon(f), Keshig(g), Lancer(h).</p>
+<p>The two Yurts are actually only 1 — the Yurt is singular (the most powerful piece, Queen equivalent). The correct back rank: Lancer, Keshig, Falcon, Yurt, Khagan, Falcon, Keshig, Lancer.</p>
+<h3>Check and Checkmate</h3>
+<p>The Khagan is the royal piece. Standard check and checkmate rules apply: a player whose Khagan is under attack must resolve it; inability to do so is checkmate, and that player loses.</p>
+<p>A Khagan may not move into a square attacked by any opponent piece. Because Horde pieces attack differently from how they move (Falcons attack diagonals, Lancers attack orthogonals), calculating attacked squares requires knowing each piece’s capture method rather than its movement.</p>
+<h3>Pawn Rules</h3>
+<ul class="rules">
+<li>Pawns advance 1 square (or 2 from starting rank).</li>
+<li>Pawns capture diagonally forward as normal.</li>
+<li>En passant applies.</li>
+<li>Pawns reaching the final rank promote to any Horde piece (Yurt, Lancer, Falcon, or Keshig).</li>
+</ul>
+<h3>Stalemate</h3>
+<p>Standard: stalemate is a draw.</p>
+<h3>Attribution</h3>
+<p>Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../orda-chess/" class="variant-pager-prev">← Orda Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../ouk-chaktrang/" class="variant-pager-next">Ouk Chaktrang (Cambodian Chess) →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

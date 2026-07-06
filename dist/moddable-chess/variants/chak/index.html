@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chak — Moddable Chess</title>
+<meta name="description" content="Complete rules for Chak.">
+<meta property="og:title" content="Chak — Moddable Chess">
+<meta property="og:description" content="Complete rules for Chak.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/chak.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/chak/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chak — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Chak.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/chak.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/chak.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/chak.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Chak · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 20 of 102</span>
+    <h1 class="variant-cover-title">Chak</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">9×9</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Chak</h2>
+<p>Designed by Corey Clark (2020). Chak is played on a 9×9 board with a Mesoamerican theme inspired by the Maya. The river divides the board at rank 5; pieces gain power by crossing it. Victory is achieved by either mating the opponent’s Ajaw or landing your own promoted Ajaw on the opponent’s sacred temple square and holding it for one full round.</p>
+<h3>Board Layout</h3>
+<p>The board is 9×9 (files a–i, ranks 1–9). The river runs between ranks 5 and 6, dividing the board into two halves. Each player’s temple is the center square of their back rank: e1 (White’s temple) and e9 (Black’s temple).</p>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Count</th>
+<th>Movement</th>
+<th>Promotion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ajaw</strong> (Royal)</td>
+<td>1</td>
+<td>1 step in any direction (King-move).</td>
+<td>Becomes Warrior Ajaw on crossing the river.</td>
+</tr>
+<tr>
+<td><strong>Warrior Ajaw</strong></td>
+<td>—</td>
+<td>Promoted form: 1 step any direction OR 1 step diagonally (same as Ajaw, but also wins by temple).</td>
+<td>Already promoted.</td>
+</tr>
+<tr>
+<td><strong>Shaman</strong></td>
+<td>2</td>
+<td>1 step diagonally, OR 1 step straight forward. After crossing the river: promotes to Shaman+, adding the ability to also move 1 step straight backward.</td>
+<td>Shaman+</td>
+</tr>
+<tr>
+<td><strong>Vulture</strong></td>
+<td>2</td>
+<td>Slides any number of squares diagonally (Bishop). After crossing the river: promotes to Vulture+, also adding 1-step orthogonal moves.</td>
+<td>Vulture+</td>
+</tr>
+<tr>
+<td><strong>Serpent</strong></td>
+<td>2</td>
+<td>Slides any number of squares orthogonally (Rook). After crossing the river: promotes to Serpent+, also adding 1-step diagonal moves.</td>
+<td>Serpent+</td>
+</tr>
+<tr>
+<td><strong>Jaguar</strong></td>
+<td>2</td>
+<td>Slides orthogonally any distance OR moves 1 step diagonally. After crossing the river: promotes to Jaguar+, adding unlimited diagonal slides.</td>
+<td>Jaguar+</td>
+</tr>
+<tr>
+<td><strong>Pawn</strong></td>
+<td>7</td>
+<td>1 square forward; captures 1 square diagonally forward. No double first move. Promotes on reaching the last rank to any non-royal piece.</td>
+<td>Choice of piece</td>
+</tr>
+</tbody>
+</table></div>
+<h3>The River</h3>
+<p>The river is the boundary between ranks 5 and 6. When a piece crosses the river (moves from rank 5 to rank 6, or rank 6 to rank 5 for Black), it immediately promotes to its “+” form. Promotion is automatic and permanent — crossing the river never allows a choice. Captured promoted pieces revert to their base form.</p>
+<p>The Ajaw becomes the Warrior Ajaw upon crossing the river.</p>
+<h3>Temple Victory</h3>
+<p>A player’s Warrior Ajaw (promoted Ajaw) may land on the opponent’s temple square (e9 for White, e1 for Black) to trigger a temple victory, subject to these conditions:</p>
+<ol>
+<li>The Warrior Ajaw must land on the temple square.</li>
+<li>The opponent must then take their turn.</li>
+<li>If, after the opponent’s turn, the Warrior Ajaw is still on the temple square (i.e., the opponent could not or did not capture it), the player with the Warrior Ajaw on the temple wins.</li>
+</ol>
+<p>If the opponent captures the Warrior Ajaw on the temple square, no temple victory occurs and play continues.</p>
+<h3>Checkmate Victory</h3>
+<p>A player also wins by checkmating the opponent’s Ajaw (whether base or Warrior form). The Ajaw is in check when attacked; the owner must resolve it. Checkmate (check with no legal escape) wins immediately.</p>
+<h3>Stalemate</h3>
+<p>If a player has no legal move but is not in check, the game is a draw.</p>
+<h3>Starting Position</h3>
+<p>White (ranks 1–2):</p>
+<pre><code>2 Pa Pa Pa Pa Pa Pa Pa Pa Pa
+1 Se Vu Sh Aj Sh Vu Se
+</code></pre>
+<p>Rank 1 from a to i: Serpent(a), Jaguar(b), Vulture©, Shaman(d), Ajaw(e), Shaman(f), Vulture(g), Jaguar(h), Serpent(i).
+Rank 2: 7 Pawns on b2–h2; a2 and i2 are empty.</p>
+<p>Black mirrors on ranks 8–9.</p>
+<h3>Attribution</h3>
+<p>Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../capablanca/" class="variant-pager-prev">← Capablanca Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../chaturanga/" class="variant-pager-next">Chaturanga →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

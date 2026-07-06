@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S-Chess (Seirawan Chess) — Moddable Chess</title>
+<meta name="description" content="Complete rules for S-Chess (Seirawan Chess).">
+<meta property="og:title" content="S-Chess (Seirawan Chess) — Moddable Chess">
+<meta property="og:description" content="Complete rules for S-Chess (Seirawan Chess).">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/s-chess.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/s-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="S-Chess (Seirawan Chess) — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for S-Chess (Seirawan Chess).">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/s-chess.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/s-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/s-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">S-Chess (Seirawan Chess) · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 82 of 102</span>
+    <h1 class="variant-cover-title">S-Chess (Seirawan Chess)</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>S-Chess (Seirawan Chess)</h2>
+<p>Designed by Yasser Seirawan and Jonathan Tisdall (2007). S-Chess enriches orthodox chess with two powerful new fairy pieces — the Hawk and the Elephant — without changing the starting position. Instead, these pieces enter play through a gating mechanic: when any back-rank piece leaves its home square for the first time, the owner may simultaneously place one reserve piece onto the vacated square.</p>
+<h3>New Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Symbol</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hawk</td>
+<td>H</td>
+<td>Leaps 1 or 2 squares in any diagonal direction, AND jumps as a Knight. Combines Bishop-leap-1-or-2 with Knight.</td>
+</tr>
+<tr>
+<td>Elephant</td>
+<td>E</td>
+<td>Slides orthogonally as a Rook (unlimited), AND jumps as a Knight. Combines Rook with Knight (the Chancellor compound).</td>
+</tr>
+</tbody>
+</table></div>
+<p>Both pieces leap over intervening pieces for all their moves.</p>
+<h3>Starting Position and the Hand</h3>
+<p>The board begins in the standard FIDE position. Each player holds one Hawk and one Elephant in reserve — they do not appear on the board at game start.</p>
+<pre><code>8 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+7 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+6 . . . . . . . .
+5 . . . . . . . .
+4 . . . . . . . .
+3 . . . . . . . .
+2 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+1 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+  a b c d e f g h
+White hand: Hawk (H), Elephant (E)
+Black hand: Hawk (H), Elephant (E)
+</code></pre>
+<h3>The Gate</h3>
+<p>Whenever a back-rank piece moves off its starting square for the first time, the moving player may optionally place one piece from their hand onto the square just vacated. This simultaneous placement is the gate.</p>
+<p><strong>Gate rules:</strong></p>
+<ul class="rules">
+<li>Gating is optional. The player may choose not to gate and keep the piece in hand.</li>
+<li>The gated piece must go onto the square the moving piece just left — not any other square.</li>
+<li>Pawns cannot trigger a gate. Only pieces that began the game on rank 1 (White) or rank 8 (Black) can gate.</li>
+<li>On castling, the player may gate one piece: either onto the King’s starting square or onto the Rook’s starting square — not both.</li>
+<li>A player may gate even if the gated piece would give check.</li>
+<li>Hand pieces are never lost from the hand except by gating. They may be held indefinitely.</li>
+<li>Once a piece has been gated it is in normal play on the board.</li>
+</ul>
+<h3>Piece Movement Reference</h3>
+<p>All standard FIDE pieces move as in orthodox chess.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>1 square any direction; castling as in FIDE</td>
+</tr>
+<tr>
+<td>Queen</td>
+<td>Any distance, any direction</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>Any distance, orthogonally</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Any distance, diagonally</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>(2,1) jump; leaps over other pieces</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>1 forward (2 from start); diagonal capture; en passant; promotes on rank 8</td>
+</tr>
+<tr>
+<td>Hawk</td>
+<td>Leap 1 or 2 diagonally in any direction, or jump as Knight</td>
+</tr>
+<tr>
+<td>Elephant</td>
+<td>Slide orthogonally unlimited, or jump as Knight</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Check, Checkmate, and Stalemate</h3>
+<p>Standard FIDE rules. Gating a piece that puts the opponent’s King in check is legal. A player may not gate a piece that leaves their own King in check.</p>
+<h3>Notation</h3>
+<p>Standard algebraic notation with a gating suffix. After the moving piece’s destination square, add a slash and the gated piece symbol followed by the square gated to.</p>
+<p>Example: <code>1. e4/He1</code> — pawn moves e2–e4, Hawk gated onto e1.</p>
+<p>If no gate occurs: standard notation with no suffix.</p>
+<h3>Strategy Notes</h3>
+<p>The Hawk and Elephant are among the most powerful pieces possible on an 8×8 board — each substantially stronger than a Rook. Their arrival through gating means the opening resembles standard chess, but mid-game character shifts sharply when they enter behind an advancing front line. Key decisions: when to gate (too early risks the piece to early attack; too late wastes development tempo), and where (which home square to vacate first determines which piece can be gated and at what tempo).</p>
+<p>The Hawk’s combined diagonal-leap-and-knight threat creates forks across long ranges. The Elephant’s Rook-plus-Knight compound threatens simultaneously along ranks and files and from Knight-jump distance, making it devastatingly effective in open positions.</p>
+<h3>Attribution</h3>
+<p>Designed by Yasser Seirawan and Jonathan Tisdall. Publicly released 2007. Open rules available at seirawanchess.com. Public domain rule set.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../rifle/" class="variant-pager-prev">← Rifle Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../shafran/" class="variant-pager-next">Shafran's Hexagonal Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

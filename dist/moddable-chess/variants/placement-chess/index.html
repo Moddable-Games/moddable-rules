@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placement Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Placement Chess.">
+<meta property="og:title" content="Placement Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Placement Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/placement-chess.png?v=0.5.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/placement-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Placement Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Placement Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/placement-chess.png?v=0.5.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/placement-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/placement-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Placement Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 76 of 102</span>
+    <h1 class="variant-cover-title">Placement Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Placement Chess</h2>
+<p>Placement Chess (also called Bronstein Chess, Back Rank Randomization, or Pre-Game Placement) addresses opening theory by giving players freedom in where they arrange their own back-rank pieces. The board starts with only Pawns in place; players alternate placing one piece per turn onto their own back rank until all pieces are set, then the game begins as standard chess.</p>
+<p>Two main versions exist: the <strong>Bronstein version</strong> (alternating placement, strict bishop constraint) and the <strong>CVP version</strong> (simultaneous self-placement, free arrangement).</p>
+<hr>
+<h2>Bronstein Version</h2>
+<p>Designed by David Bronstein.</p>
+<h3>Setup Phase</h3>
+<ol>
+<li>Pawns begin on their standard starting squares (rank 2 for White, rank 7 for Black).</li>
+<li>All eight back-rank pieces for each player are held off the board.</li>
+<li>White places one piece on any empty square on rank 1. Then Black places one piece on any empty square on rank 8. They alternate until all 16 back-rank pieces (8 per player) are placed.</li>
+<li>White places first on each turn.</li>
+</ol>
+<h3>Placement Constraints</h3>
+<ul class="rules">
+<li><strong>Bishops:</strong> Each player’s two Bishops must be placed on opposite-colored squares. A Bishop may not be placed such that both friendly Bishops end up on the same color. If one Bishop has already been placed on a light square, the next Bishop must go on a dark square (and vice versa).</li>
+<li><strong>King and Rooks (Castling):</strong> Castling is legal after the game begins if and only if the King and the castling Rook are on their FIDE standard squares (e1/a1, e1/h1 for White; e8/a8, e8/h8 for Black). Players who want to preserve castling rights must place the King and Rooks in their standard positions during setup.</li>
+<li><strong>No piece may be placed on a square already occupied.</strong></li>
+<li>All pieces must be placed before any Pawn moves. Once all 16 back-rank pieces are placed, play proceeds.</li>
+</ul>
+<h3>Game Phase</h3>
+<p>Once setup is complete, the game proceeds as standard FIDE chess from the resulting position. White moves first.</p>
+<ul class="rules">
+<li><strong>Castling</strong> is available if King and Rooks are on standard squares and neither has moved.</li>
+<li><strong>Check during setup:</strong> If a player’s placement would put their own King in check, that placement is illegal. The player must place their King on a square where it is not in check.</li>
+<li>Standard FIDE rules apply: en passant, promotion, stalemate (draw), checkmate (loss).</li>
+</ul>
+<hr>
+<h2>CVP (Chess Variant Pages) Version</h2>
+<h3>Setup Phase</h3>
+<p>Both players simultaneously and secretly arrange their own 8 back-rank pieces in any order they choose on their back rank. There is no alternating; each player writes down or otherwise commits to their arrangement before revealing it.</p>
+<h3>Placement Constraints</h3>
+<ul class="rules">
+<li><strong>Bishops</strong> must be on opposite-colored squares.</li>
+<li><strong>King</strong> must be placed between the two Rooks (required for potential castling legality — if King is not between Rooks, castling is unavailable).</li>
+<li>No other placement restrictions.</li>
+</ul>
+<h3>Reveal and Game</h3>
+<p>Once both players have finalized their arrangements, both back ranks are revealed simultaneously and the game begins. White moves first.</p>
+<hr>
+<h2>Strategy Notes</h2>
+<p>The central question of Placement Chess is the trade-off between customizing the position for your preferred middlegame structure and retaining the flexibility of castling. Placing the King and Rooks in standard formation allows castling but surrenders setup creativity. Moving the King off e1 can create unusual attacking setups but eliminates castling.</p>
+<p>Common setups concentrate piece power in the center: placing the Queen near the center, activating Bishops on open diagonals from the first move, or deploying Knights closer to the center files. Because both players choose simultaneously (CVP) or see each other’s choices unfold (Bronstein), scouting and adaptation are strategic elements unique to Placement Chess.</p>
+<h3>Attribution</h3>
+<p>Bronstein version attributed to David Bronstein, Soviet-era grandmaster and chess theorist. CVP version published on the Chess Variant Pages (chessvariants.com). Public domain rule sets.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../petty/" class="variant-pager-prev">← Petty Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../poison-chess/" class="variant-pager-next">Poison Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

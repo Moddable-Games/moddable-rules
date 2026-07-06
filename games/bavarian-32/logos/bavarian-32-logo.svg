@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <title>Bavarian 32</title>
+  <!-- Stacked cards (same layout as standard-52) -->
+  <rect x="12" y="10" width="40" height="56" rx="4" fill="#1a1a2e" stroke="#2a6a2a" stroke-width="2"/>
+  <rect x="20" y="16" width="40" height="56" rx="4" fill="#f1faee" stroke="#5a3a1a" stroke-width="2"/>
+  <rect x="28" y="22" width="40" height="56" rx="4" fill="#fefae0" stroke="#264653" stroke-width="2"/>
+  <!-- Front card: acorn (Eichel) suit icon + rank -->
+  <ellipse cx="48" cy="44" rx="5" ry="7" fill="#5a3a1a"/>
+  <rect x="46" y="35" width="4" height="5" rx="2" fill="#2a6a2a"/>
+  <text x="48" y="62" font-family="serif" font-size="14" font-weight="bold" fill="#5a3a1a" text-anchor="middle">U</text>
+</svg>

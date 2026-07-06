@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for Shafran's Hexagonal Chess.">
 <meta property="og:title" content="Shafran's Hexagonal Chess — Moddable Chess">
 <meta property="og:description" content="Complete rules for Shafran's Hexagonal Chess.">
-<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/shafran.png?v=0.4.5">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/shafran.png?v=0.5.1">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/shafran/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Shafran's Hexagonal Chess — Moddable Chess">
 <meta name="twitter:description" content="Complete rules for Shafran's Hexagonal Chess.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/shafran.png?v=0.4.5">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/shafran.png?v=0.5.1">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.5">
-<link rel="stylesheet" href="../../theme.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
 <script type="module" src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -38,7 +38,7 @@
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">Moddable Chess · Variant 73 of 86</span>
+    <span class="variant-cover-label">Moddable Chess · Variant 83 of 102</span>
     <h1 class="variant-cover-title">Shafran's Hexagonal Chess</h1>
     <div class="variant-cover-stats">
       <span class="variant-stat"><span class="variant-stat-val">70 hexes (9 files a–i)</span><span class="variant-stat-lbl">Board</span></span>
@@ -55,7 +55,25 @@
 <h2>Shafran’s Hexagonal Chess</h2>
 <p>Invented by Boris Shafran. Played on a smaller 70-hex board with 9 files (a through i). Castling is permitted and the pawn initial step varies by file.</p>
 <h3>Setup</h3>
-<p><strong>Board:</strong> 70-hex hexagonal grid, 9 files (a–i).</p>
+<p><strong>Board:</strong> 70-hex irregular hexagonal grid, 9 files (a–i), 10 ranks. File lengths: a(6), b(7), c(8), d(9), e(10), f(9), g(8), h(7), i(6). Files a–e share the bottom edge; files e–i share the top edge.</p>
+<p><strong>White pieces (back rank, bottom edge):</strong></p>
+<ul class="rules">
+<li>King on e1</li>
+<li>Queen on d1</li>
+<li>Bishops on c1, f2, h4 (one per colour)</li>
+<li>Knights on b1, g3</li>
+<li>Rooks on a1, i5</li>
+<li>Pawns on a2, b2, c2, d2, e2, f3, g4, h5, i6 (9 pawns)</li>
+</ul>
+<p><strong>Black pieces (back rank, top edge — 180° rotation):</strong></p>
+<ul class="rules">
+<li>King on e10</li>
+<li>Queen on f10</li>
+<li>Bishops on g10, d9, b7 (one per colour)</li>
+<li>Knights on h10, c8</li>
+<li>Rooks on i10, a6</li>
+<li>Pawns on i9, h9, g9, f9, e9, d8, c7, b6, a5 (9 pawns)</li>
+</ul>
 <!-- missing: shafran-board.svg -->
 <h3>Pawns</h3>
 <p>Pawns capture diagonally (bishop direction, through shared corners). The initial step from the starting rank depends on the pawn’s file:</p>
@@ -94,9 +112,9 @@
 </main>
 
 <nav class="variant-pager" aria-label="Variant navigation">
-  <a href="../rifle/" class="variant-pager-prev">← Rifle Chess</a>
+  <a href="../s-chess/" class="variant-pager-prev">← S-Chess (Seirawan Chess)</a>
   <a href="../../index.html" class="variant-pager-hub">All Variants</a>
-  <a href="../shatar/" class="variant-pager-next">Shatar →</a>
+  <a href="../shako/" class="variant-pager-next">Shako →</a>
 </nav>
 
 <footer class="doc-footer" role="contentinfo">

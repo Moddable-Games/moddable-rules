@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for De Vasa's Hexagonal Chess.">
 <meta property="og:title" content="De Vasa's Hexagonal Chess — Moddable Chess">
 <meta property="og:description" content="Complete rules for De Vasa's Hexagonal Chess.">
-<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/de-vasa.png?v=0.4.5">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/de-vasa.png?v=0.5.1">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/de-vasa/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="De Vasa's Hexagonal Chess — Moddable Chess">
 <meta name="twitter:description" content="Complete rules for De Vasa's Hexagonal Chess.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/de-vasa.png?v=0.4.5">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/de-vasa.png?v=0.5.1">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.5">
-<link rel="stylesheet" href="../../theme.css?v=0.4.5">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.5">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.5.1">
+<link rel="stylesheet" href="../../theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.5.1">
 <script type="module" src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -38,7 +38,7 @@
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">Moddable Chess · Variant 27 of 86</span>
+    <span class="variant-cover-label">Moddable Chess · Variant 30 of 102</span>
     <h1 class="variant-cover-title">De Vasa's Hexagonal Chess</h1>
     <div class="variant-cover-stats">
       <span class="variant-stat"><span class="variant-stat-val">81 hexes (rhombus, horizontal)</span><span class="variant-stat-lbl">Board</span></span>
@@ -55,8 +55,25 @@
 <h2>De Vasa’s Hexagonal Chess</h2>
 <p>Invented by Helge E. de Vasa. Played on an 81-hex rhombus board oriented horizontally, which changes the shape and feel of the game compared to the standard upright hexagonal boards.</p>
 <h3>Setup</h3>
-<p><strong>Board:</strong> 81-hex rhombus grid, horizontally oriented.</p>
-<p>Pawns start on the 3rd rank (not the 2nd).</p>
+<p><strong>Board:</strong> 81-hex rhombus grid (9×9), horizontally oriented. Files a–i, ranks 1–9. Every file has 9 cells.</p>
+<p><strong>White pieces (rank 1, bottom):</strong></p>
+<ul class="rules">
+<li>King on f1</li>
+<li>Queen on d1</li>
+<li>Bishops on c1, e1, g1 (one per colour)</li>
+<li>Knights on b1, h1</li>
+<li>Rooks on a1, i1</li>
+<li>Pawns on a3, b3, c3, d3, e3, f3, g3, h3, i3 (9 pawns on rank 3)</li>
+</ul>
+<p><strong>Black pieces (rank 9, top — mirrored):</strong></p>
+<ul class="rules">
+<li>King on d9</li>
+<li>Queen on f9</li>
+<li>Bishops on c9, e9, g9 (one per colour)</li>
+<li>Knights on b9, h9</li>
+<li>Rooks on a9, i9</li>
+<li>Pawns on a7, b7, c7, d7, e7, f7, g7, h7, i7 (9 pawns on rank 7)</li>
+</ul>
 <!-- missing: de-vasa-board.svg -->
 <h3>Pawns</h3>
 <p>Pawns move straight forward. They capture diagonally forward to a cell of the same colour.</p>
