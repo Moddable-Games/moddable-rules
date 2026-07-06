@@ -1,5 +1,5 @@
 ---
-title: "Moddable Chess -- Official Rulebook"
+title: "Moddable Chess — Official Rulebook"
 version: "0.5.1"
 slug: "moddable-chess"
 players: "2-6"

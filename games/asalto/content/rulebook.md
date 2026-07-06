@@ -3,7 +3,7 @@ title: Asalto
 slug: asalto
 type: hub
 description: "Victorian asymmetric siege game. A small garrison of Officers defends a fortress against a mass of Soldiers (Sepoys). Officers capture by jumping; Soldiers advance to surround. Two main variants: Standard and Royal Garrison."
-published: false
+published: true
 ---
 
 # Asalto

@@ -6,7 +6,7 @@ board: "7x9"
 players: "2"
 win: "Enter the opponent's Den, or capture all opponent pieces"
 special: "Animal-ranked strategy game. Higher rank captures lower; Rat alone defeats Elephant. Tiger and Lion may leap across rivers. Pieces entering traps lose rank advantages. Traditional Chinese game, circa 1900."
-published: false
+published: true
 ---
 
 ## Dou Shou Qi (斗兽棋 / Jungle)

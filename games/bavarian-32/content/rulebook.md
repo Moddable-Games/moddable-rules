@@ -4,7 +4,7 @@ slug: bavarian-32
 type: hub
 deckType: bavarian-32
 description: "Card games using the 32-card German/Skat deck: seven through Ace in four suits (Clubs, Spades, Hearts, Diamonds). Primarily 3-player trick-taking games where Jacks are permanent trump."
-published: false
+published: true
 ---
 
 # Bavarian 32-Card Games

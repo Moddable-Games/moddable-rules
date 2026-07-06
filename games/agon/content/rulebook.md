@@ -6,7 +6,7 @@ board: "hexagonal-91"
 players: "2"
 win: "Queen reaches center with all six Guards on adjacent hexes"
 special: "Abstract strategy game on a 91-hex board. Both players have 1 Queen and 6 Guards. Custodian capture on hex axes. One of the oldest abstract games with fully recorded rules (1842). Pieces return to the outer ring after capture."
-published: false
+published: true
 ---
 
 ## Agon

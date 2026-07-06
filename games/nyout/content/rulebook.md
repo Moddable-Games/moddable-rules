@@ -6,7 +6,7 @@ board: "nyout-track"
 players: "2-4"
 win: "First team to move all tokens off the board"
 special: "Traditional Korean racing game played with 4 throwing sticks (yut sticks). Throw results determine how many spaces to advance. Mo (horse, 5 spaces) and Yut (cow, 4 spaces) grant bonus throws. Tokens may combine into a horse (team piece) for faster movement."
-published: false
+published: true
 ---
 
 ## Nyout (Yut Nori / 유놓이)

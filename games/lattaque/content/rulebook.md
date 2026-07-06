@@ -3,7 +3,7 @@ title: L'Attaque
 slug: lattaque
 type: hub
 description: "Hidden-information strategy game family. Each player arranges a personal army of ranked pieces; opponents cannot see your pieces until they interact. Higher rank defeats lower rank, with specific exceptions. The original precursor to Stratego."
-published: false
+published: true
 ---
 
 # L'Attaque
