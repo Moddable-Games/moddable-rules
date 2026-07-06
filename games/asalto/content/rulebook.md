@@ -30,5 +30,5 @@ The board consists of a fortress in the upper portion (a 3×3 grid with specific
 
 | Variant | Officers | Soldiers | Description |
 |---|---|---|---|
-| [Standard Asalto](variants/standard.md) | 2 | 24 | Classic Victorian rules; Officers must eliminate enough Soldiers to prevent being surrounded; Soldiers win by immobilizing Officers. |
-| [Royal Garrison](variants/royal-garrison.md) | 3 | 50 | Larger board; three Officers defend against a greater force. |
+| [Standard Asalto](variants/standard/) | 2 | 24 | Classic Victorian rules; Officers must eliminate enough Soldiers to prevent being surrounded; Soldiers win by immobilizing Officers. |
+| [Royal Garrison](variants/royal-garrison/) | 3 | 50 | Larger board; three Officers defend against a greater force. |

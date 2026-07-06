@@ -40,7 +40,7 @@ Card point values vary by game. In Skat, the highest-value cards are Ace (11), T
 
 | Game | Players | Description |
 |---|---|---|
-| [Skat](games/skat/standard.md) | 3 | Germany’s national card game. Solo declarer bids to win against two defenders. Jacks are always top trumps. |
+| [Skat](games/skat/) | 3 | Germany’s national card game. Solo declarer bids to win against two defenders. Jacks are always top trumps. |
 
 ## Hub Notes
 

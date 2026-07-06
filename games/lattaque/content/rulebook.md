@@ -30,6 +30,6 @@ Both players lay out an army of pieces face-down. The ranks of pieces are secret
 
 | Variant | Players | Theme | Description |
 |---|---|---|---|
-| [Standard L’Attaque](variants/standard.md) | 2 | Land warfare | Original 1909 rules; 30 pieces per side on a 10×9 board with lake squares. |
-| [Dover Patrol](variants/dover-patrol.md) | 2 | Naval warfare | Sea warfare adaptation; pieces are ships. Board includes sea lanes and mine squares. |
-| [Tri-Tactics](variants/tri-tactics.md) | 2 | Combined forces | Combines land, sea, and air units. Extended piece hierarchy. |
+| [Standard L’Attaque](variants/standard/) | 2 | Land warfare | Original 1909 rules; 30 pieces per side on a 10×9 board with lake squares. |
+| [Dover Patrol](variants/dover-patrol/) | 2 | Naval warfare | Sea warfare adaptation; pieces are ships. Board includes sea lanes and mine squares. |
+| [Tri-Tactics](variants/tri-tactics/) | 2 | Combined forces | Combines land, sea, and air units. Extended piece hierarchy. |
