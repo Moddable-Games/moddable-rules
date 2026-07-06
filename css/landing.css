@@ -689,5 +689,5 @@ body {
 [data-surface="light"] .game-card { box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 [data-surface="light"] .game-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
 [data-surface="light"] .badge { background: rgba(0, 0, 0, 0.06); }
-[data-surface="light"] .card-desc { background: linear-gradient(to top, var(--surface) 0%, var(--surface) 60%, transparent 100%); }
+[data-surface="light"] .card-desc { background: linear-gradient(to top, var(--surface) 0%, var(--surface) 60%, transparent 100%); color: var(--text); }
 [data-surface="light"] .landing-logo { filter: invert(1); }
