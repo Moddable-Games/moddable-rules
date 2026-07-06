@@ -126,12 +126,12 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 <div class="variant-grid">
 
-- [Alice Chess](variants/alice-chess/) -- Two boards; pieces transfer between boards after each move
+- [Alice Chess](variants/alice/) -- Two boards; pieces transfer between boards after each move
 - [Almost Chess](variants/almost-chess/) -- One queen replaced by Chancellor (R+N)
 - [Amazon Chess](variants/amazon-chess/) -- Queens replaced by Amazons (Q+N)
 - [Berolina Chess](variants/berolina-chess/) -- Pawns move diagonally and capture straight (inverted)
 - [Chigorin](variants/chigorin/) -- White has 4 knights instead of bishops
-- [Grasshopper Chess](variants/grasshopper-chess/) -- Hoppers replace Queens; must jump over a hurdle to land
+- [Grasshopper Chess](variants/grasshopper/) -- Hoppers replace Queens; must jump over a hurdle to land
 - [Knightmate](variants/knightmate/) -- Knight is royal, King moves like a knight
 - [Nightrider Chess](variants/nightrider/) -- Knights replaced by Nightriders; repeat Knight-moves in one direction
 - [Orda Mirror](variants/orda-mirror/) -- Both sides Horde army; all pieces move as Knight, capture as FIDE counterpart
@@ -175,6 +175,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Capablanca Chess](variants/capablanca/) -- 10x8 with Archbishop + Chancellor
 - [Courier Chess](variants/courier/) -- 12x8, medieval variant from 1202
 - [Grand Chess](variants/grand/) -- 10x10, same new pieces, bigger stage
+- [Gygax Chess](variants/gygax/) -- Three stacked 12x8 boards; 42 pieces per side across 15 piece types
 - [Shako](variants/shako/) -- 10x10; adds Cannon (platform capture) and Elephant (2-diagonal leap)
 
 </div>
@@ -194,6 +195,15 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 ### Hexagonal Board
 
-For hexagonal chess variants see the [Hex Chess hub](../hex-chess/).
+<div class="variant-grid">
+
+- [Brusky's Hexagonal Chess](variants/brusky/) -- 84-hex irregular board, 10 files
+- [De Vasa's Hexagonal Chess](variants/de-vasa/) -- 81-hex rhombus (9x9), pawns start on rank 3
+- [Gliński's Hexagonal Chess](variants/glinski/) -- 91-hex board, the most widely played hex chess variant
+- [McCooey's Hexagonal Chess](variants/mccooey/) -- 91-hex board, bishops start on same colour
+- [Mini Hexchess](variants/mini-hexchess/) -- Compact 37-hex board, one of each piece type
+- [Shafran's Hexagonal Chess](variants/shafran/) -- 70-hex board, 9 files (a-i)
+
+</div>
 
 </div>
