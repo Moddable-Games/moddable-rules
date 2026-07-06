@@ -5,6 +5,11 @@
   <!-- Cross paths (shortcuts) -->
   <line x1="50" y1="18" x2="50" y2="82" stroke="#d4a96a" stroke-width="2.5"/>
   <line x1="18" y1="50" x2="82" y2="50" stroke="#d4a96a" stroke-width="2.5"/>
+  <!-- Diagonal shortcuts -->
+  <line x1="27" y1="27" x2="50" y2="50" stroke="#d4a96a" stroke-width="1.5" opacity="0.6"/>
+  <line x1="73" y1="27" x2="50" y2="50" stroke="#d4a96a" stroke-width="1.5" opacity="0.6"/>
+  <line x1="27" y1="73" x2="50" y2="50" stroke="#d4a96a" stroke-width="1.5" opacity="0.6"/>
+  <line x1="73" y1="73" x2="50" y2="50" stroke="#d4a96a" stroke-width="1.5" opacity="0.6"/>
   <!-- Station dots at cardinal points -->
   <circle cx="50" cy="18" r="5" fill="#f0e8d0"/>
   <circle cx="82" cy="50" r="5" fill="#f0e8d0"/>
@@ -12,8 +17,4 @@
   <circle cx="18" cy="50" r="5" fill="#f0e8d0"/>
   <!-- Centre node -->
   <circle cx="50" cy="50" r="6" fill="#c8422a"/>
-  <!-- Yut sticks (bottom corner) -->
-  <rect x="68" y="72" width="4" height="18" rx="2" fill="#d4a96a" transform="rotate(-10 70 81)"/>
-  <rect x="74" y="71" width="4" height="18" rx="2" fill="#d4a96a" transform="rotate(5 76 80)"/>
-  <rect x="80" y="72" width="4" height="18" rx="2" fill="#d4a96a" transform="rotate(15 82 81)"/>
 </svg>

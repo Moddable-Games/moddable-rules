@@ -1,11 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Agon logo">
   <rect width="100" height="100" fill="#1a1a2e" rx="8"/>
-  <!-- Hexagonal board outline -->
-  <polygon points="50,12 82,24 82,56 50,88 18,56 18,24" fill="none" stroke="#6c63ff" stroke-width="3"/>
-  <!-- Inner hex ring -->
-  <polygon points="50,28 66,36 66,52 50,72 34,52 34,36" fill="none" stroke="#6c63ff" stroke-width="2" opacity="0.6"/>
-  <!-- Centre hex (goal) -->
-  <polygon points="50,42 58,46 58,54 50,58 42,54 42,46" fill="#6c63ff" stroke="none"/>
-  <!-- Queen piece (crown shape) -->
-  <polygon points="44,48 47,43 50,46 53,43 56,48 53,52 47,52" fill="#f0e8d0" stroke="none"/>
+  <!-- Flat-top hexagons (rotated 30° from pointy-top) -->
+  <!-- Outer ring -->
+  <polygon points="50,14 78,28 78,58 50,86 22,58 22,28" fill="none" stroke="#6c63ff" stroke-width="2.5" transform="rotate(30 50 50)"/>
+  <!-- Middle ring -->
+  <polygon points="50,26 68,36 68,56 50,74 32,56 32,36" fill="none" stroke="#6c63ff" stroke-width="2" transform="rotate(30 50 50)" opacity="0.6"/>
+  <!-- Inner ring -->
+  <polygon points="50,38 58,44 58,54 50,64 42,54 42,44" fill="none" stroke="#6c63ff" stroke-width="1.5" transform="rotate(30 50 50)" opacity="0.4"/>
+  <!-- Centre goal hex (filled) -->
+  <polygon points="50,44 54,47 54,53 50,56 46,53 46,47" fill="#6c63ff" transform="rotate(30 50 50)"/>
+  <!-- Queen crown marker at centre -->
+  <polygon points="46,48 48,44 50,47 52,44 54,48 52,50 48,50" fill="#f0e8d0"/>
 </svg>

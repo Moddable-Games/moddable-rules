@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="L'Attaque logo">
   <rect width="100" height="100" fill="#1c1c2e" rx="8"/>
-  <!-- Two face-down pieces (hidden information) -->
-  <rect x="18" y="28" width="26" height="34" rx="3" fill="#2a4a7a" stroke="#6a9aca" stroke-width="2"/>
-  <rect x="56" y="28" width="26" height="34" rx="3" fill="#7a2a2a" stroke="#ca6a6a" stroke-width="2"/>
+  <!-- Two face-down pieces with gap between -->
+  <rect x="14" y="24" width="30" height="40" rx="3" fill="#2a4a7a" stroke="#6a9aca" stroke-width="2"/>
+  <rect x="56" y="24" width="30" height="40" rx="3" fill="#7a2a2a" stroke="#ca6a6a" stroke-width="2"/>
   <!-- Question marks (hidden ranks) -->
-  <text x="31" y="52" font-family="serif" font-size="22" font-weight="bold" fill="#6a9aca" text-anchor="middle">?</text>
-  <text x="69" y="52" font-family="serif" font-size="22" font-weight="bold" fill="#ca6a6a" text-anchor="middle">?</text>
-  <!-- Crossed swords (combat) -->
-  <line x1="38" y1="72" x2="62" y2="72" stroke="#d4a96a" stroke-width="3" stroke-linecap="round"/>
-  <line x1="42" y1="66" x2="42" y2="78" stroke="#d4a96a" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="58" y1="66" x2="58" y2="78" stroke="#d4a96a" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="29" y="51" font-family="serif" font-size="22" font-weight="bold" fill="#6a9aca" text-anchor="middle">?</text>
+  <text x="71" y="51" font-family="serif" font-size="22" font-weight="bold" fill="#ca6a6a" text-anchor="middle">?</text>
+  <!-- Clash line between them -->
+  <line x1="50" y1="30" x2="50" y2="58" stroke="#d4a96a" stroke-width="2" stroke-dasharray="4 3" opacity="0.7"/>
 </svg>
