@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Asalto logo">
+  <rect width="100" height="100" fill="#2d1b0e" rx="8"/>
+  <!-- Fortress (upper cross) -->
+  <rect x="32" y="14" width="36" height="36" rx="2" fill="none" stroke="#d4a96a" stroke-width="2.5"/>
+  <!-- Plain (lower grid) -->
+  <rect x="14" y="50" width="72" height="36" rx="2" fill="none" stroke="#d4a96a" stroke-width="2"/>
+  <!-- Grid lines in plain -->
+  <line x1="32" y1="50" x2="32" y2="86" stroke="#d4a96a" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="50" y2="86" stroke="#d4a96a" stroke-width="1.5"/>
+  <line x1="68" y1="50" x2="68" y2="86" stroke="#d4a96a" stroke-width="1.5"/>
+  <line x1="14" y1="68" x2="86" y2="68" stroke="#d4a96a" stroke-width="1.5"/>
+  <!-- Officers (defenders) -->
+  <circle cx="42" cy="26" r="5" fill="#c8422a"/>
+  <circle cx="58" cy="26" r="5" fill="#c8422a"/>
+  <!-- Soldiers (attackers) -->
+  <circle cx="32" cy="60" r="4" fill="#f0e8d0"/>
+  <circle cx="50" cy="60" r="4" fill="#f0e8d0"/>
+  <circle cx="68" cy="60" r="4" fill="#f0e8d0"/>
+  <circle cx="32" cy="78" r="4" fill="#f0e8d0"/>
+  <circle cx="50" cy="78" r="4" fill="#f0e8d0"/>
+  <circle cx="68" cy="78" r="4" fill="#f0e8d0"/>
+</svg>

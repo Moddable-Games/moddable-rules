@@ -1,12 +1,23 @@
 ---
-title: Nyout (유놓이 / Yut Nori)
-slug: nyout
-type: standalone
-board: "nyout-track"
-players: "2-4"
-win: "First team to move all tokens off the board"
-special: "Traditional Korean racing game played with 4 throwing sticks (yut sticks). Throw results determine how many spaces to advance. Mo (horse, 5 spaces) and Yut (cow, 4 spaces) grant bonus throws. Tokens may combine into a horse (team piece) for faster movement."
+title: "Nyout (유놓이 / Yut Nori)"
+short_title: "Nyout"
+version: "0.1.0"
+slug: "nyout"
+players: "2–4"
+duration: "20–40 min"
+age: "6+"
+tagline: "Korean stick-throwing race across a circular track"
+type: "standalone"
+status: "live"
+updated: "2026-07-06"
 published: true
+theme:
+  surface: light
+  tint: warm
+  texture: none
+  cover: minimal
+  typography: modern
+  accent: red
 ---
 
 ## Nyout (Yut Nori / 유놓이)

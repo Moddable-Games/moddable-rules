@@ -1,9 +1,23 @@
 ---
-title: L'Attaque
-slug: lattaque
-type: hub
-description: "Hidden-information strategy game family. Each player arranges a personal army of ranked pieces; opponents cannot see your pieces until they interact. Higher rank defeats lower rank, with specific exceptions. The original precursor to Stratego."
+title: "L'Attaque"
+version: "0.1.0"
+slug: "lattaque"
+players: "2"
+duration: "30–60 min"
+age: "10+"
+tagline: "Hidden-rank warfare, the original precursor to Stratego"
+type: "hub"
+status: "live"
+updated: "2026-07-06"
 published: true
+variants: true
+theme:
+  surface: light
+  tint: cool
+  texture: none
+  cover: minimal
+  typography: classical
+  accent: navy
 ---
 
 # L'Attaque

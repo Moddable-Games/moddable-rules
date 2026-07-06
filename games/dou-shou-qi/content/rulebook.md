@@ -1,12 +1,23 @@
 ---
-title: Dou Shou Qi (斗兽棋 / Jungle)
-slug: dou-shou-qi
-type: standalone
-board: "7x9"
+title: "Dou Shou Qi (斗兽棋 / Jungle)"
+short_title: "Jungle"
+version: "0.1.0"
+slug: "dou-shou-qi"
 players: "2"
-win: "Enter the opponent's Den, or capture all opponent pieces"
-special: "Animal-ranked strategy game. Higher rank captures lower; Rat alone defeats Elephant. Tiger and Lion may leap across rivers. Pieces entering traps lose rank advantages. Traditional Chinese game, circa 1900."
+duration: "20–40 min"
+age: "8+"
+tagline: "Animals battle across rivers and traps to reach the enemy den"
+type: "standalone"
+status: "live"
+updated: "2026-07-06"
 published: true
+theme:
+  surface: light
+  tint: warm
+  texture: none
+  cover: minimal
+  typography: modern
+  accent: green
 ---
 
 ## Dou Shou Qi (斗兽棋 / Jungle)

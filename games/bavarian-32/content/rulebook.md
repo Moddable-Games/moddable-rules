@@ -1,10 +1,24 @@
 ---
-title: Bavarian 32-Card Games
-slug: bavarian-32
-type: hub
-deckType: bavarian-32
-description: "Card games using the 32-card German/Skat deck: seven through Ace in four suits (Clubs, Spades, Hearts, Diamonds). Primarily 3-player trick-taking games where Jacks are permanent trump."
+title: "Bavarian 32-Card Games"
+short_title: "Bavarian 32"
+version: "0.1.0"
+slug: "bavarian-32"
+players: "3"
+duration: "30–60 min"
+age: "12+"
+tagline: "Trick-taking games for the 32-card Skat deck"
+type: "component"
+status: "live"
+updated: "2026-07-06"
 published: true
+hub_type: component
+theme:
+  surface: light
+  tint: neutral
+  texture: none
+  cover: minimal
+  typography: classical
+  accent: green
 ---
 
 # Bavarian 32-Card Games

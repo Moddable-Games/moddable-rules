@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Dou Shou Qi logo">
+  <rect width="100" height="100" fill="#1a3a2a" rx="8"/>
+  <!-- Grid (simplified 3x4) -->
+  <rect x="20" y="16" width="60" height="68" rx="3" fill="none" stroke="#4a9a6a" stroke-width="2"/>
+  <line x1="40" y1="16" x2="40" y2="84" stroke="#4a9a6a" stroke-width="1.5"/>
+  <line x1="60" y1="16" x2="60" y2="84" stroke="#4a9a6a" stroke-width="1.5"/>
+  <line x1="20" y1="38" x2="80" y2="38" stroke="#4a9a6a" stroke-width="1.5"/>
+  <line x1="20" y1="62" x2="80" y2="62" stroke="#4a9a6a" stroke-width="1.5"/>
+  <!-- River (central band) -->
+  <rect x="20" y="44" width="60" height="12" fill="#1a5a8a" opacity="0.5"/>
+  <!-- Elephant piece (top) -->
+  <circle cx="50" cy="27" r="8" fill="#d4a96a" stroke="#7a4510" stroke-width="2"/>
+  <!-- Rat piece (bottom, small) -->
+  <circle cx="50" cy="73" r="5" fill="#e8e3d8" stroke="#7a4510" stroke-width="2"/>
+  <!-- Den marker -->
+  <polygon points="50,49 54,53 50,57 46,53" fill="#c8422a" stroke="none"/>
+</svg>

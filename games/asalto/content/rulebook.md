@@ -1,9 +1,23 @@
 ---
-title: Asalto
-slug: asalto
-type: hub
-description: "Victorian asymmetric siege game. A small garrison of Officers defends a fortress against a mass of Soldiers (Sepoys). Officers capture by jumping; Soldiers advance to surround. Two main variants: Standard and Royal Garrison."
+title: "Asalto"
+version: "0.1.0"
+slug: "asalto"
+players: "2"
+duration: "15–30 min"
+age: "8+"
+tagline: "Officers defend a fortress against a siege of soldiers"
+type: "hub"
+status: "live"
+updated: "2026-07-06"
 published: true
+variants: true
+theme:
+  surface: light
+  tint: warm
+  texture: none
+  cover: minimal
+  typography: classical
+  accent: orange
 ---
 
 # Asalto

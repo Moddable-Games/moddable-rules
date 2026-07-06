@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Bavarian 32 logo">
+  <rect width="100" height="100" fill="#0d3b1e" rx="8"/>
+  <!-- Card shape -->
+  <rect x="22" y="16" width="56" height="68" rx="6" fill="#f5f4ef" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- Suit symbols arranged in diamond -->
+  <!-- Spade (top) -->
+  <path d="M50,28 C50,28 44,34 44,37 C44,40 47,41 50,38 C53,41 56,40 56,37 C56,34 50,28 50,28 Z" fill="#1a1a1a"/>
+  <line x1="50" y1="38" x2="50" y2="44" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- Heart (bottom) -->
+  <path d="M50,72 C50,72 42,64 42,60 C42,56 46,56 50,60 C54,56 58,56 58,60 C58,64 50,72 50,72 Z" fill="#c8222a"/>
+  <!-- Diamond (left) -->
+  <polygon points="32,50 38,44 44,50 38,56" fill="#c8222a"/>
+  <!-- Club (right) -->
+  <circle cx="62" cy="47" r="4" fill="#1a1a1a"/>
+  <circle cx="58" cy="52" r="4" fill="#1a1a1a"/>
+  <circle cx="66" cy="52" r="4" fill="#1a1a1a"/>
+  <line x1="62" y1="53" x2="62" y2="58" stroke="#1a1a1a" stroke-width="2"/>
+</svg>

@@ -1,12 +1,22 @@
 ---
-title: Agon
-slug: agon
-type: standalone
-board: "hexagonal-91"
+title: "Agon"
+version: "0.1.0"
+slug: "agon"
 players: "2"
-win: "Queen reaches center with all six Guards on adjacent hexes"
-special: "Abstract strategy game on a 91-hex board. Both players have 1 Queen and 6 Guards. Custodian capture on hex axes. One of the oldest abstract games with fully recorded rules (1842). Pieces return to the outer ring after capture."
+duration: "20–40 min"
+age: "10+"
+tagline: "Guide your Queen to the centre of a 91-hex board"
+type: "standalone"
+status: "live"
+updated: "2026-07-06"
 published: true
+theme:
+  surface: light
+  tint: cool
+  texture: none
+  cover: minimal
+  typography: modern
+  accent: purple
 ---
 
 ## Agon
