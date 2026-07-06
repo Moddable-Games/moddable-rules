@@ -22,9 +22,23 @@ Invented by Yakov Brusky. Played on an 84-hex horizontal board with 10 files and
 
 ### Setup
 
-**Board:** 84-hex horizontally-oriented grid, 10 files.
+**Board:** 84-hex irregular hexagonal grid, horizontally oriented. 8 ranks with widths 9, 10, 11, 12, 12, 11, 10, 9 (bottom to top). Files a–i on the back ranks, expanding to a–l in the middle ranks.
 
-**Pieces per side:** King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.
+**White pieces (rank 1, bottom):**
+- King on f1
+- Queen on d1
+- Bishops on c1, e1, g1 (one per colour)
+- Knights on b1, h1
+- Rooks on a1, i1
+- Pawns on a2, b2, c2, d2, e2, f2, g2, h2, i2, j2 (10 pawns on rank 2)
+
+**Black pieces (rank 8, top — mirrored):**
+- King on d8
+- Queen on f8
+- Bishops on c8, e8, g8 (one per colour)
+- Knights on b8, h8
+- Rooks on a8, i8
+- Pawns on a7, b7, c7, d7, e7, f7, g7, h7, i7, j7 (10 pawns on rank 7)
 
 {{svg:brusky-board.svg "Brusky's Hexagonal Chess — starting position"}}
 

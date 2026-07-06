@@ -21,9 +21,23 @@ Invented by Helge E. de Vasa. Played on an 81-hex rhombus board oriented horizon
 
 ### Setup
 
-**Board:** 81-hex rhombus grid, horizontally oriented.
+**Board:** 81-hex rhombus grid (9×9), horizontally oriented. Files a–i, ranks 1–9. Every file has 9 cells.
 
-Pawns start on the 3rd rank (not the 2nd).
+**White pieces (rank 1, bottom):**
+- King on f1
+- Queen on d1
+- Bishops on c1, e1, g1 (one per colour)
+- Knights on b1, h1
+- Rooks on a1, i1
+- Pawns on a3, b3, c3, d3, e3, f3, g3, h3, i3 (9 pawns on rank 3)
+
+**Black pieces (rank 9, top — mirrored):**
+- King on d9
+- Queen on f9
+- Bishops on c9, e9, g9 (one per colour)
+- Knights on b9, h9
+- Rooks on a9, i9
+- Pawns on a7, b7, c7, d7, e7, f7, g7, h7, i7 (9 pawns on rank 7)
 
 {{svg:de-vasa-board.svg "De Vasa's Hexagonal Chess — starting position"}}
 

@@ -1,6 +1,6 @@
 ---
 title: "Moddable Chess — Official Rulebook"
-version: "0.4.5"
+version: "0.4.6"
 slug: "moddable-chess"
 players: "2–6"
 duration: "10–120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Every chess variant, one engine"
 type: "platform"
 status: "alpha"
-updated: "2026-06-24"
+updated: "2026-07-06"
 published: true
 variants: true
 theme:
