@@ -16,7 +16,7 @@ engine:
     board:
       type: cribbage
       holes: 121
-published: false
+published: true
 ---
 
 ## Cribbage

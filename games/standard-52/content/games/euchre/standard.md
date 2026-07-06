@@ -15,7 +15,7 @@ engine:
       jokers: 0
       subset: [9, 10, J, Q, K, A]
   partnerships: [[player1, player3], [player2, player4]]
-published: false
+published: true
 ---
 
 ## Euchre

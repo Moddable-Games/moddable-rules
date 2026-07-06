@@ -1,7 +1,7 @@
 ---
 title: "Mansindam (Pantheon Tale)"
 slug: mansindam
-published: false
+published: true
 status: draft
 updated: 2026-07-06
 category: drop-mechanics

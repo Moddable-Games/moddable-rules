@@ -14,7 +14,7 @@ engine:
       count: 6
       jokers: 0
       shuffle: continuous
-published: false
+published: true
 ---
 
 ## Blackjack (Twenty-One)

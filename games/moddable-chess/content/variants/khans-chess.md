@@ -1,7 +1,7 @@
 ---
 title: "Khan's Chess"
 slug: khans-chess
-published: false
+published: true
 status: draft
 updated: 2026-07-06
 category: asymmetric-armies

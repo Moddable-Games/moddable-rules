@@ -15,7 +15,7 @@ engine:
   notation: algebraic
   asymmetric: true
   faceoff: true
-published: false
+published: true
 ---
 
 ## Empire Chess

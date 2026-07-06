@@ -15,7 +15,7 @@ engine:
   notation: algebraic
   hand: true
   gating: true
-published: false
+published: true
 ---
 
 ## S-Chess (Seirawan Chess)

@@ -14,7 +14,7 @@ engine:
   players: [white, black]
   notation: algebraic
   setup_phase: true
-published: false
+published: true
 ---
 
 ## Placement Chess

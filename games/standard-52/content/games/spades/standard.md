@@ -14,7 +14,7 @@ engine:
       count: 1
       jokers: 0
   partnerships: [[north, south], [east, west]]
-published: false
+published: true
 ---
 
 ## Spades

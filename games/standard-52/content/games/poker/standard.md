@@ -1,6 +1,6 @@
 ---
 title: Texas Hold'em Poker
-slug: texas-holdem
+slug: poker
 board: "none"
 players: "2-10"
 parent: standard-52
@@ -13,7 +13,7 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
-published: false
+published: true
 ---
 
 ## Texas Hold'em Poker

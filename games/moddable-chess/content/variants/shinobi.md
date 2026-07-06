@@ -17,7 +17,7 @@ engine:
   hand: true
   drops: true
   promotion_zone: [6, 7, 8]
-published: false
+published: true
 ---
 
 ## Shinobi Chess

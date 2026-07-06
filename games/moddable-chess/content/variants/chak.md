@@ -15,7 +15,7 @@ engine:
   notation: algebraic
   promotion_zone: [6, 7, 8, 9]
   temple: true
-published: false
+published: true
 ---
 
 ## Chak

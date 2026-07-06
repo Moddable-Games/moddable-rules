@@ -17,7 +17,7 @@ engine:
   hand: true
   drops: true
   faceoff: true
-published: false
+published: true
 ---
 
 ## Synochess

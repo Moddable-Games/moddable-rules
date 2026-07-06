@@ -14,7 +14,7 @@ engine:
       count: 2
       jokers: 4
   partnerships: [[player1, player3], [player2, player4]]
-published: false
+published: true
 ---
 
 ## Canasta (Classic)

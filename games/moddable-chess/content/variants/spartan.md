@@ -15,7 +15,7 @@ engine:
   notation: algebraic
   asymmetric: true
   dual_king: true
-published: false
+published: true
 ---
 
 ## Spartan Chess

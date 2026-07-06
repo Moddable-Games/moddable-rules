@@ -1,6 +1,6 @@
 ---
 title: Rubber Bridge
-slug: rubber-bridge
+slug: bridge
 board: "none"
 players: "4"
 parent: standard-52
@@ -14,7 +14,7 @@ engine:
       count: 1
       jokers: 0
   partnerships: [[north, south], [east, west]]
-published: false
+published: true
 ---
 
 ## Rubber Bridge

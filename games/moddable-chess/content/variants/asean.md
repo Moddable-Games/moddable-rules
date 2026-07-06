@@ -13,7 +13,7 @@ engine:
     cols: 8
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## ASEAN Chess

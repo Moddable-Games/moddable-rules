@@ -14,7 +14,7 @@ engine:
   players: [white, black]
   notation: algebraic
   asymmetric: false
-published: false
+published: true
 ---
 
 ## Orda Mirror

@@ -14,7 +14,7 @@ engine:
   players: [white, black]
   notation: algebraic
   net: 4
-published: false
+published: true
 ---
 
 ## Chennis

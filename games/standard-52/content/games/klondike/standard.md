@@ -13,7 +13,7 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
-published: false
+published: true
 ---
 
 ## Klondike Solitaire
