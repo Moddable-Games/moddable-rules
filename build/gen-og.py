@@ -30,6 +30,8 @@ ACCENTS = {
     'variant': {'primary': (45, 212, 191), 'secondary': (20, 160, 150)},
     'component': {'primary': (16, 185, 129), 'secondary': (10, 140, 100)},
     'rpg': {'primary': (99, 102, 241), 'secondary': (70, 72, 190)},
+    'standalone': {'primary': (194, 158, 96), 'secondary': (150, 120, 70)},
+    'hub': {'primary': (194, 158, 96), 'secondary': (150, 120, 70)},
     'landing': {'primary': (232, 228, 223), 'secondary': (138, 133, 126)},
 }
 
