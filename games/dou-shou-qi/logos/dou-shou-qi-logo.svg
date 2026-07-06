@@ -1,17 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Dou Shou Qi logo">
   <rect width="100" height="100" fill="#1a3a2a" rx="8"/>
-  <!-- Grid (simplified 3x4) -->
-  <rect x="20" y="16" width="60" height="68" rx="3" fill="none" stroke="#4a9a6a" stroke-width="2"/>
-  <line x1="40" y1="16" x2="40" y2="84" stroke="#4a9a6a" stroke-width="1.5"/>
-  <line x1="60" y1="16" x2="60" y2="84" stroke="#4a9a6a" stroke-width="1.5"/>
-  <line x1="20" y1="38" x2="80" y2="38" stroke="#4a9a6a" stroke-width="1.5"/>
-  <line x1="20" y1="62" x2="80" y2="62" stroke="#4a9a6a" stroke-width="1.5"/>
-  <!-- River (central band) -->
-  <rect x="20" y="44" width="60" height="12" fill="#1a5a8a" opacity="0.5"/>
-  <!-- Elephant piece (top) -->
-  <circle cx="50" cy="27" r="8" fill="#d4a96a" stroke="#7a4510" stroke-width="2"/>
-  <!-- Rat piece (bottom, small) -->
-  <circle cx="50" cy="73" r="5" fill="#e8e3d8" stroke="#7a4510" stroke-width="2"/>
-  <!-- Den marker -->
-  <polygon points="50,49 54,53 50,57 46,53" fill="#c8422a" stroke="none"/>
+  <!-- River divider -->
+  <rect x="14" y="46" width="72" height="8" fill="#1a5a8a" opacity="0.6" rx="2"/>
+  <!-- Elephant (top, large) — simplified side profile -->
+  <path d="M38,20 C32,20 28,24 28,30 L28,38 C28,40 30,42 32,42 L34,42 L34,36 C34,34 36,32 38,32 L58,32 C62,32 66,28 66,24 C66,20 62,18 58,18 L48,18 L48,20 Z" fill="#d4a96a"/>
+  <!-- Elephant ear -->
+  <ellipse cx="36" cy="26" rx="4" ry="6" fill="#c8922a"/>
+  <!-- Elephant trunk -->
+  <path d="M60,24 C64,24 68,28 68,32 C68,34 66,36 64,36" fill="none" stroke="#d4a96a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Elephant eye -->
+  <circle cx="44" cy="24" r="2" fill="#1a3a2a"/>
+  <!-- Rat (bottom, small) — simplified side profile -->
+  <ellipse cx="50" cy="68" rx="10" ry="6" fill="#e8e3d8"/>
+  <!-- Rat head -->
+  <ellipse cx="62" cy="66" rx="5" ry="4" fill="#e8e3d8"/>
+  <!-- Rat ear -->
+  <circle cx="60" cy="63" r="2.5" fill="#d0c8c0"/>
+  <!-- Rat eye -->
+  <circle cx="64" cy="65" r="1.2" fill="#1a3a2a"/>
+  <!-- Rat tail -->
+  <path d="M40,68 C36,68 32,72 30,74" fill="none" stroke="#d0c8c0" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- VS arrow (rat defeats elephant) -->
+  <path d="M50,60 L50,56" stroke="#c8422a" stroke-width="2" stroke-linecap="round" marker-end="none"/>
+  <polygon points="46,56 50,52 54,56" fill="#c8422a"/>
 </svg>
