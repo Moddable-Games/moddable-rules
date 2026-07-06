@@ -1,6 +1,6 @@
 ---
 title: "Moddable Chess — Official Rulebook"
-version: "0.4.6"
+version: "0.5.0"
 slug: "moddable-chess"
 players: "2–6"
 duration: "10–120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Every chess variant, one engine"
 type: "platform"
 status: "alpha"
-updated: "2026-07-05"
+updated: "2026-07-06"
 published: true
 variants: true
 theme:
@@ -33,7 +33,6 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 - [Standard Chess](variants/standard/) — Classic FIDE rules
 - [Absorption Chess](variants/absorption/) — Capturing piece gains the victim's movement permanently
-- [Alice Chess](variants/alice/) — Pieces transfer to a parallel board after every move
 - [Andernach Chess](variants/andernach/) — Capturing piece changes colour
 - [Atomic](variants/atomic/) — Captures explode adjacent pieces
 - [Benedict Chess](variants/benedict/) — Attacked enemies convert colour
@@ -55,7 +54,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Immunization Chess](variants/immunization-chess/) — Captures make adjacent enemies immune for 2 turns
 - [King of the Hill](variants/king-of-the-hill/) — King reaches centre = instant win
 - [Madrasi Chess](variants/madrasi/) — Same-type opposing pieces paralyse each other
-- [Maharaja &amp; Sepoys](variants/maharaja/) — One super-piece vs a full army
+- [Maharaja & Sepoys](variants/maharaja/) — One super-piece vs a full army
 - [Marseillais](variants/marseillais/) — Two moves per turn
 - [Medusa Chess](variants/medusa-chess/) — Queen petrifies enemy pieces she attacks
 - [No Castling](variants/no-castling/) — Standard chess, castling disabled
@@ -86,6 +85,8 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 <div class="variant-grid">
 
 - [Antichess](variants/antichess/) — Forced captures, lose all pieces to win
+- [Chak](variants/chak/) — 9×9 Mesoamerican chess; win by checkmate or landing promoted Ajaw on the opponent’s temple square
+- [Chennis](variants/chennis/) — 7×7 tennis chess; net divides the board; win by racing a Pawn to the opponent’s back rank
 - [Codrus](variants/codrus/) — Lose your King to win, no check concept
 - [Five-Check](variants/five-check/) — Five checks to win
 - [Giveaway](variants/giveaway/) — Forced captures, lose all pieces to win (stalemate = loss)
@@ -94,23 +95,25 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Stalemate Wins](variants/stalemate-wins/) — Stalemating your opponent wins
 - [Suicide Chess](variants/suicide-chess/) — Forced captures, lose all pieces to win (stalemate = draw)
 - [Three-Check](variants/three-check/) — Deliver three checks to win
+- [Ultima](variants/ultima/) — Seven unique capture methods, one per piece type; win by capturing the opponent’s King. Designed by Robert Abbott, 1962
 
 </div>
 
-### Piece Replacement &amp; Movement Variants
+### Piece Replacement & Movement Variants
 
 <div class="variant-grid">
 
+- [Alice Chess](variants/alice/) — Pieces shift between two linked boards after each move; only pieces on the same board interact
 - [Almost Chess](variants/almost-chess/) — One queen replaced by Chancellor (R+N)
 - [Amazon Chess](variants/amazon-chess/) — Queens replaced by Amazons (Q+N)
 - [Berolina Chess](variants/berolina-chess/) — Pawns move diagonally and capture straight (inverted)
 - [Chigorin](variants/chigorin/) — White has 4 knights instead of bishops
-- [Grasshopper Chess](variants/grasshopper/) — Grasshoppers must jump over a hurdle piece to land
-- [Gygax Chess](variants/gygax/) — D&amp;D-inspired pieces: Heroes, Paladins, Rangers, Wizards
+- [Grasshopper Chess](variants/grasshopper/) — Adds the Grasshopper: must hop over exactly one piece and land immediately beyond it
 - [Knightmate](variants/knightmate/) — Knight is royal, King moves like a knight
-- [Nightrider Chess](variants/nightrider/) — Knights extend their leap into unlimited multi-hop lines
-- [Orda Chess](variants/orda-chess/) — Asymmetric: standard army vs. divergent-mover Mongol Horde
-- [Wildebeest Chess](variants/wildebeest/) — 11×10 board, Camel and Wildebeest added to each side
+- [Nightrider Chess](variants/nightrider/) — Adds the Nightrider: makes consecutive Knight jumps in a single direction without stopping
+- [Orda Chess](variants/orda-chess/) — Asymmetric: FIDE Kingdom vs Horde army with move≠capture pieces
+- [Orda Mirror](variants/orda-mirror/) — Both sides command the Horde army; all non-royal pieces move as Knight, capture as FIDE counterpart. Designed by Corey Clark, 2020
+- [Wildebeest Chess](variants/wildebeest/) — 11×10 board; adds the Wildebeest (Camel+Knight compound) and replaces Queens with Chancellors
 
 </div>
 
@@ -122,21 +125,24 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Legan Chess](variants/legan-chess/) — Berolina pawns, King and Queen swap starting squares
 - [Pawns Only](variants/pawns-only/) — Only pawns, first promotion wins
 - [Peasants' Revolt](variants/peasants-revolt/) — King + pawns vs King + knights
+- [Placement Chess](variants/placement-chess/) — Players alternate placing back-rank pieces before the game begins; Bishops must be on opposite-coloured squares. Bronstein version included
 - [Upside-Down](variants/upside-down/) — Pieces start on opponent's rank
 
 </div>
 
-### Regional &amp; Historical
+### Regional & Historical Variants
 
 <div class="variant-grid">
 
-- [Chaturanga](variants/chaturanga/) — Indian ancestor of chess, c. 600 CE. Weak counsellor and leaping elephant.
+- [ASEAN Chess](variants/asean/) — Standardized Southeast Asian chess; Makruk-family; Pawns start rank 2, promote rank 6 to Ferz; streamlined counting draw rules
+- [Chaturanga](variants/chaturanga/) — Indian ancestor of chess, c. 600 CE. Weak counsellor and leaping elephant
 - [Makpong](variants/makpong/) — Thai variant, King cannot move out of check
 - [Makruk](variants/makruk/) — Thai chess, pawns promote on rank 6 to Met
-- [Shatar](variants/shatar/) — Mongolian chess, win by baring the opponent's King
+- [Ouk Chaktrang](variants/ouk-chaktrang/) — Cambodian chess; King may jump as Knight on first move; Koul leaps 1 or 2 diagonally; counting draw rules
+- [Shatar](variants/shatar/) — Mongolian chess, win by baring the opponent’s King
 - [Shatranj](variants/shatranj/) — Medieval Islamic chess, ancestor of modern chess
 - [Sittuyin](variants/sittuyin/) — Burmese chess, placement opening phase
-- [Tamerlane Chess](variants/tamerlane/) — Central Asian chess, c. 1400. 11×10 board with citadel squares and extended piece roster.
+- [Tamerlane Chess](variants/tamerlane/) — 11×10 medieval Islamic variant attributed to Timur; Pawns promote to the piece on their starting file
 
 </div>
 
@@ -147,6 +153,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Capablanca Chess](variants/capablanca/) — 10×8 with Archbishop + Chancellor
 - [Courier Chess](variants/courier/) — 12×8, medieval variant from 1202
 - [Grand Chess](variants/grand/) — 10×10, same new pieces, bigger stage
+- [Shako](variants/shako/) — 10×10; adds Cannon (Xiangqi-style platform capture) and Elephant (2-diagonal leap). Designed by Jean-Louis Cazaux, 2000
 
 </div>
 
@@ -163,16 +170,31 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 </div>
 
+### Asymmetric Armies
+
+<div class="variant-grid">
+
+- [Empire Chess](variants/empire/) — FIDE Kingdom vs Empire dynasty: all Empire pieces move as Queen, capture piece-specifically; Faceoff rule eliminates the player who creates an open-file confrontation. Designed by Corey Clark, 2019
+- [Shinobi Chess](variants/shinobi/) — FIDE Kingdom vs Shinobi Clan; Clan holds pieces in hand and drops them during play; automatic promotion on entering opponent’s half. Designed by Corey Clark, 2021
+- [Spartan Chess](variants/spartan/) — FIDE Persians vs Spartan army with two Kings; both Kings must be simultaneously in check for Black to be in check. Designed by Steven Streetman, 2010
+- [Synochess](variants/synochess/) — FIDE Kingdom vs Xiangqi-derived Eastern dynasty; Cannon, Chariot, Horse, and Soldier drops; Faceoff rule. Designed by Corey Clark, 2020
+
+</div>
+
+### Gating & Drop Mechanics
+
+<div class="variant-grid">
+
+- [S-Chess](variants/s-chess/) — Adds Hawk (diagonal leaps + Knight) and Elephant (Rook + Knight) to hand; pieces gate onto vacated home squares when back-rank pieces make their first move. Designed by Yasser Seirawan and Jonathan Tisdall, 2007
+- [Shogun Chess](variants/shogun/) — Captured pieces switch sides and can be dropped back into play; automatic promotion on entering opponent’s half. Designed by Corey Clark, 2020
+
+</div>
+
 ### Hexagonal Board
 
 <div class="variant-grid">
 
-- [Brusky's Hexagonal Chess](variants/brusky/) — 6 players on a hexagonal board with 3-player variant support
-- [De Vasa's Hexagonal Chess](variants/de-vasa/) — 2-player hex chess on a 91-cell board, Swedish origin
-- [Gliński's Hexagonal Chess](variants/glinski/) — Most widely played hex chess; 91-cell board, 6-direction movement
-- [McCooey's Hexagonal Chess](variants/mccooey/) — Simplified hex chess rules emphasising pawn structure
-- [Mini Hexchess](variants/mini-hexchess/) — Compact 37-cell hex board, fast games
-- [Shafran's Hexagonal Chess](variants/shafran/) — 70-cell hex board with unique piece movement adaptations
+- [Hex Chess Hub](../../hex-chess/content/rulebook/) — Dedicated hub for hexagonal chess variants: Glinśki (most-played hex chess), McCooey, De Vasa, Brusky, Shafran, Mini Hexchess. Pieces move on triangular hex adjacency
 
 </div>
 
