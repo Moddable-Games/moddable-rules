@@ -1,71 +1,82 @@
 ---
-title: Senterej
+title: "Senterej"
 slug: senterej
 board: "8×8"
 players: "2"
 parent: moddable-chess
-win: Checkmate, or bare the King (capture all other opponent pieces)
-special: "Ethiopian chess. Shatranj-derived with an extended opening deployment phase. Pieces begin on the back four ranks and are moved into position before the first capture is allowed. Played historically in Ethiopia."
+win: "Checkmate"
+special: "Ethiopian Shatranj variant with a unique mobilization phase: before the first capture, both players move simultaneously without turns. Shatranj-style pieces (Fil leaps diagonally 2, Ferz moves 1 diagonal). No castling, no en passant."
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
-  notation: algebraic
-published: true
 ---
 
-## Senterej
+# Senterej
 
-Senterej (also spelled Senterej or Senturge) is the traditional chess game of Ethiopia. It descends from **Shatranj** (medieval Islamic chess) and retains Shatranj's weaker piece movements, but adds a distinctive **opening deployment phase** in which pieces are maneuvered into position before the first capture is permitted.
+**Senterej (Amharic: ሰንጣረሥ) — Ethiopian and Eritrean chess. The last popular survival of Shatranj; became extinct after the Italian invasion of Ethiopia in the 1930s.**
 
-### Setup
+## Overview
 
-Pieces start on the back four ranks for each side.
+Senterej is the traditional chess of Ethiopia and Eritrea, descended directly from Shatranj. Its most distinctive feature is the **werera** (mobilization) phase: before the first capture, both players move simultaneously and freely, watching each other and adjusting their positions. Turn-based play begins only after a piece is first captured.
 
-**White (ranks 1–4) and Black (ranks 5–8):** All 16 pieces per side are placed within their respective half of the board. The exact starting arrangement follows a set opening convention.
+## Setup
 
-**Standard starting position:**
+Each King stands just to the right of the centerline from its player's point of view; the Ferz stands to the King's left.
 
-| Rank | White |
-|---|---|
-| 1 | Rook · Knight · Fil · Ferz · King · Fil · Knight · Rook |
-| 2 | empty |
-| 3 | empty |
-| 4 | 8 Soldiers (Pawns) |
+```
+FEN: rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1
+(Piece legend: Q/q = Ferz, B/b = Fil, N/n = Feresenya)
+```
 
-*(Black mirrors on ranks 8, 7, 6, 5 respectively.)*
+**White (rank 1):** Rook(a1), Feresenya(b1), Fil(c1), Ferz(d1), King(e1), Fil(f1), Feresenya(g1), Rook(h1)
+**White (rank 2):** Pawns a2–h2
 
-**FEN (Shatranj piece notation):** `rnfqkfnr/8/8/pppppppp/PPPPPPPP/8/8/RNFQKFNR w - - 0 1`
+**Black (rank 8):** Rook(a8), Feresenya(b8), Fil(c8), King(d8), Ferz(e8), Fil(f8), Feresenya(g8), Rook(h8)
+**Black (rank 7):** Pawns a7–h7
 
-*(F/f = Fil (Bishop-like), Q/q = Ferz (weak Queen). Note: standard FEN letters B/Q used in systems that substitute modern names: `rnbqkbnr/8/8/pppppppp/PPPPPPPP/8/8/RNBQKBNR w - - 0 1`)*
+*Note: Black’s King (d8) and Ferz (e8) are swapped compared to standard chess, as each King is to the right of its Ferz from that player’s perspective.*
 
-### The Opening Phase (Werar)
+## Pieces
 
-Before the first capture takes place, both players are in the **Werar** (mobilisation) phase. During Werar:
+**King (Negus)**: moves one step in any direction, as in standard chess.
 
-- Players move their pieces freely within the constraints of legal piece movement.
-- **No captures** are permitted during Werar.
-- Werar ends the moment either player makes the **first capture** of the game. From that point, all captures are legal.
+**Ferz**: moves exactly one square diagonally. (Regional variation: some sources say it moves one step in any direction but can only *capture* diagonally.)
 
-### Pieces (Shatranj movements)
+**Fil / Alfil (Saba)**: leaps exactly two squares diagonally (the Alfil leap). Jumps over intervening pieces. Colour-bound.
 
-| Piece | Ethiopian Name | Movement |
-|---|---|---|
-| King (K) | Negus | One square any direction |
-| Ferz (F) | Wazir | One square diagonally only |
-| Fil (B) | Fil | Two squares diagonally, leaping |
-| Knight (N) | Ferese | Standard L-shape leap |
-| Rook (R) | Dabbaba | Slides orthogonally |
-| Soldier (P) | Medeq | Advances one square forward; captures diagonally forward |
+**Feresenya (Horseman)**: moves as a standard chess Knight (L-shape leap).
 
-**Promotion:** Soldiers promote upon reaching the last rank. They promote to **Ferz** (one-square diagonal mover) only.
+**Der (Rook)**: slides any distance orthogonally, as in standard chess.
 
-### Win Conditions
+**Medeq (Pawn)**: advances one square forward; captures one square diagonally forward. No double first move, no en passant. Promotes to Ferz upon reaching the farthest rank. (Some sources: promotes to the rank of any piece already captured.)
 
-**Checkmate:** standard win. **Baring the King:** if you capture all of the opponent's pieces except the King, you win (if the opponent cannot bare your King in their next move — simultaneous baring is a draw).
+## Rules
 
-### Attribution
+### Werera — Mobilization Phase
 
-Senterej is a traditional Ethiopian chess game, historical origins via Shatranj (~1000+ CE). Rules documented from chessvariants.com/historic.dir/senterej.html.
+Before the first capture, **both players move simultaneously and freely**. There are no turns: each player may move any of their pieces as many times as they wish, watching the opponent’s moves and adjusting their own accordingly. Moves may be retracted and substituted at will during this phase. The werera ends the moment any piece is captured; from that point on, players alternate turns as in standard chess.
+
+### Turn-Based Play
+
+After the werera ends, all remaining rules are standard Shatranj-style:
+- Players alternate turns; each turn one piece moves.
+- No castling.
+- No en passant.
+- No pawn double push.
+
+### Win and Draw Conditions
+
+**Win**: Checkmate the opponent’s King.
+
+**Draw — Bare King**: A King that has been stripped of all pieces (excluding Pawns) cannot be mated; the game is drawn. (Only Pawns remaining — does not count as sufficient support.)
+
+**Draw — Lone Support**: A King with only a single supporting piece (excluding Pawns) can only be mated before that piece has made **seven moves**. If seven moves elapse and no mate is delivered, the game is drawn.
+
+## Customs
+
+Traditionally the board is an uncheckered red cloth marked with black or blue strips. Play is sociable: bystanders (including historically even slaves) may call out suggestions and demonstrate moves on the board. Checkmate etiquette is specific: mating with a Rook or Knight is considered inartistic; mating with a Ferz or Fil is respectable; mating with a combination of Pawns is the most praiseworthy finish.
+
+*Sources: en.wikipedia.org/wiki/Senterej; Murray, A History of Chess (1913), pp. 362–64; Pritchard, Encyclopedia of Chess Variants, p. 104*
