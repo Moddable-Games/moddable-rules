@@ -13,35 +13,29 @@ engine:
     positions_per_ring: 16
   players: [white, black]
   notation: circular
-published: true
+published: false
+status: stub
+updated: 2026-07-07
 ---
 
 ## Circular Chess
 
 Circular Chess is played on a **circular board of 4 concentric rings**, each containing 16 squares, for 64 squares total. It revives a medieval variant depicted in the 13th-century Alfonsine manuscript *Libro de los juegos*. The board has no corners, no edges, and movement wraps fully around the outermost ring.
 
+*This file is a stub. The exact starting position (sequential vs. alternating layout across the ring) requires verification from chessvariants.com/other.dir/circular.html (JavaScript-rendered; use Claude in Chrome). Do not publish until complete.*
+
 ### The Board
 
-Four rings labeled 1 (innermost) to 4 (outermost). Each ring has 16 positions labeled A–P. Movement is along rings (tangentially) or between adjacent rings (radially).
+Four rings labeled 1 (innermost) to 4 (outermost). Each ring has 16 positions labeled A–P.
 
 - **Orthogonal** movement: along a ring (tangential) or between adjacent rings (radial).
 - **Diagonal** movement: simultaneously tangential and radial — one step tangentially and one step radially inward or outward.
-- Pieces slide as many squares as possible in a direction (for sliders), wrapping around the ring on the outermost ring.
-- The innermost ring wraps; pieces moving inward from ring 1 cannot go further (no inner ring exists).
+- Pieces slide along their movement directions, wrapping around the ring on the outermost ring.
+- The innermost ring wraps; pieces moving inward from ring 1 cannot go further.
 
-### Starting Position
+### Starting Layout
 
-Each player occupies two rings. White starts on rings 1–2, Black on rings 3–4.
-
-**White:**
-- Ring 1 (inner): Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook (positions A, C, E, G, I, K, M, O — every other position)
-- Ring 2: 8 Pawns on positions B, D, F, H, J, L, N, P (alternating positions)
-
-**Black (mirrored, outer):**
-- Ring 4 (outer): Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook
-- Ring 3: 8 Pawns
-
-> **Verification note:** Confirm exact position assignments from chessvariants.com/other.dir/circular.html. The alternating vs. sequential starting layout varies in sources.
+Each player occupies two rings. White starts on rings 1–2, Black on rings 3–4. Each player has the standard 16 FIDE pieces: 8 back-rank pieces on their inner ring, 8 Pawns on their outer ring. Exact position assignments within each ring require verification.
 
 ### Rules
 
@@ -53,4 +47,4 @@ Each player occupies two rings. White starts on rings 1–2, Black on rings 3–
 
 ### Attribution
 
-Circular Chess historical origins: medieval Islamic chess (~13th century, Alfonsine manuscript). Modern revival rules documented from chessvariants.com/other.dir/circular.html.
+Circular Chess historical origins: medieval Islamic chess (~13th century, Alfonsine manuscript). Source: chessvariants.com/other.dir/circular.html.

@@ -13,28 +13,20 @@ engine:
     cols: 12
   players: [white, black]
   notation: algebraic
-published: true
+published: false
+status: stub
+updated: 2026-07-07
 ---
 
 ## Metamachy
 
-Metamachy was designed by Jean-Louis Cazaux and published in 2001. It is played on a **12×12 board** and features **ten distinct piece types**, including historical fairy pieces from Tamerlane Chess and large-board variants. The goal is to combine the most interesting piece types from the chess tradition into a single playable game.
+Metamachy was designed by Jean-Louis Cazaux and published in 2001. It is played on a **12×12 board** and features **ten distinct piece types**, including historical fairy pieces from Tamerlane Chess and large-board variants.
 
-### Setup
+*This file is a stub. The rank 2 starting layout (Lion, Eagle, Lancer file positions) and exact movement rules for Eagle and Lancer require verification from chessvariants.com/large.dir/metamachy.html (JavaScript-rendered; use Claude in Chrome). Do not publish until complete.*
 
-**White (ranks 1–3):**
+### Confirmed Pieces
 
-- Rank 1: Rook(a) · Knight(b) · Bishop(c) · Gryphon(d) · Aanca(e) · Queen(f) · King(g) · Aanca(h) · Gryphon(i) · Bishop(j) · Knight(k) · Rook(l)
-- Rank 2: Lion(a) · Eagle(b) · Lancer(c–j, 8 Lancers) · Eagle(k) · Lion(l)
-- Rank 3: 12 Pawns (a3–l3)
-
-> **Verification note:** Confirm exact starting positions from chessvariants.com/large.dir/metamachy.html. The rank 2 layout with Lion, Eagle, and Lancers is commonly cited but verify exact file positions.
-
-**FEN (ranks 1–3):** `rnbgaqkaqbnr/lexxxxxxxxel/PPPPPPPPPPPP/...` (x = Lancer)
-
-*(G/g = Gryphon, A/a = Aanca, L/l = Lion, E/e = Eagle, X/x = Lancer — confirm letter assignments.)*
-
-### Pieces
+The following pieces and movements are well-established in fairy chess literature:
 
 | Piece | Movement |
 |---|---|
@@ -43,21 +35,21 @@ Metamachy was designed by Jean-Louis Cazaux and published in 2001. It is played 
 | **Rook** | Slides any distance orthogonally |
 | **Bishop** | Slides any distance diagonally |
 | **Knight** | Standard L-shape leap |
-| **Gryphon** | One step diagonally, then any number of squares orthogonally outward (a bending slider) |
-| **Aanca** | One step orthogonally, then any number of squares diagonally outward (bending slider, diagonal version) |
-| **Lion** | Moves to any square within two King-steps (as in Chu Shogi); may capture one or two pieces in one move |
-| **Eagle** | Moves 1–2 squares orthogonally, or 1–2 squares diagonally — a short-range version of the Queen |
-| **Lancer** | Slides any distance in one specific direction determined at game start (Lance equivalent) |
+| **Gryphon** | One step diagonally outward, then slides any distance orthogonally |
+| **Aanca** | One step orthogonally outward, then slides any distance diagonally |
+| **Lion** | Moves to any square within two King-steps; may capture one or two pieces in a single move (as in Chu Shogi) |
 | **Pawn** | One or two squares forward on first move, one square thereafter; promotes on rank 12 |
 
-> **Verification note:** Exact movement rules for Gryphon, Aanca, Eagle, and Lancer should be confirmed from chessvariants.com/large.dir/metamachy.html.
+Eagle and Lancer movement rules require confirmation from the source before publication.
 
-### Rules
+### Known Starting Layout
 
-- **Promotion:** Pawns promote on rank 12 (White) or rank 1 (Black). Any captured piece type may be chosen.
-- **Castling** may apply — verify from source.
-- **Stalemate**, **repetition**, and standard end conditions apply.
+**White ranks 1 and 3:**
+- Rank 1: Rook(a) · Knight(b) · Bishop(c) · Gryphon(d) · Aanca(e) · Queen(f) · King(g) · Aanca(h) · Gryphon(i) · Bishop(j) · Knight(k) · Rook(l)
+- Rank 3: 12 Pawns (a3–l3)
+
+Rank 2 (Lion, Eagle, Lancer layout) requires verification.
 
 ### Attribution
 
-Metamachy was designed by Jean-Louis Cazaux (2001). Rules documented from chessvariants.com/large.dir/metamachy.html.
+Metamachy was designed by Jean-Louis Cazaux (2001). Source: chessvariants.com/large.dir/metamachy.html.
