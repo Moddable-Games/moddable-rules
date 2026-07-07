@@ -1,6 +1,6 @@
 ---
 title: "Moddable Chess — Official Rulebook"
-version: "0.5.1"
+version: "0.6.0"
 slug: "moddable-chess"
 players: "2-6"
 duration: "10-120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Every chess variant, one engine"
 type: "platform"
 status: "alpha"
-updated: "2026-07-06"
+updated: "2026-07-07"
 published: true
 variants: true
 theme:
@@ -96,6 +96,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Suicide Chess](variants/suicide-chess/) -- Forced captures, lose all pieces to win (stalemate = draw)
 - [Three-Check](variants/three-check/) -- Deliver three checks to win
 - [Ultima](variants/ultima/) -- Seven unique capture methods; win by capturing the opponent's King
+- [Xiang Fu](variants/xiang-fu/) -- 9x9 Xiangqi/chess hybrid; dual Champions (royal); Duple Checkmate or capture one Champion then checkmate the survivor; piece drops; Crossbow (diagonal Cannon)
 
 </div>
 
@@ -107,6 +108,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [Khan's Chess](variants/khans-chess/) -- FIDE Kingdom vs Mongol Horde with Scout and Khatun; divergent pieces; campmate and stalemate-loss
 - [Orda Chess](variants/orda-chess/) -- FIDE vs divergent Horde army; all Horde pieces move as Knight
 - [Shinobi Chess](variants/shinobi/) -- FIDE vs Shinobi Clan; hand drops; automatic zone promotion
+- [Shinobi+](variants/shinobiplus/) -- Rebalanced Shinobi; Clan moves first; Fox piece added; Kingdom Pawns promote at rank 6; perpetual check is a loss
 - [Spartan Chess](variants/spartan/) -- FIDE vs Spartan army with two Kings; dual-check rule
 - [Synochess](variants/synochess/) -- FIDE Kingdom vs Xiangqi-derived Eastern dynasty; Cannon, Chariot, Horse; faceoff rule
 
@@ -116,6 +118,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 <div class="variant-grid">
 
+- [Dragon Chess](variants/dragon-chess/) -- Standard chess; each side holds 2 Dragons (Archbishop = B+N) in reserve; gate one onto any empty home-rank square instead of a move
 - [Mansindam](variants/mansindam/) -- 8x9 board; compound pieces (Cardinal, Marshal, Angel); Shogi-style drops + mandatory promotion; campmate; no draws
 - [S-Chess](variants/s-chess/) -- Hawk and Elephant held in hand; gate onto vacated home squares when back-rank pieces move
 - [Shogun Chess](variants/shogun/) -- Shogi-style drops; captured pieces switch sides; promotion on ranks 6-8
@@ -172,10 +175,15 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 <div class="variant-grid">
 
+- [Bird's Chess](variants/birds-chess/) -- 10x8; Archbishop added to both inner corners; otherwise standard FIDE pieces
 - [Capablanca Chess](variants/capablanca/) -- 10x8 with Archbishop + Chancellor
+- [Carrera's Chess](variants/carreras-chess/) -- 10x8; Champion (R+N) and Centaur (B+N) added; 1617
 - [Courier Chess](variants/courier/) -- 12x8, medieval variant from 1202
 - [Grand Chess](variants/grand/) -- 10x10, same new pieces, bigger stage
 - [Gygax Chess](variants/gygax/) -- Three stacked 12x8 boards; 42 pieces per side across 15 piece types
+- [Janus Chess](variants/janus-chess/) -- 10x8; Janus (Archbishop = B+N) added to each side's flanks
+- [Omega Chess](variants/omega-chess/) -- 10x10 + wizard-corner cells; Champion (R+N leap hybrid) and Wizard (B+camel)
+- [Metamachy](variants/metamachy/) -- 12x12; 10 piece types including Gryphon, Aanca, Lion, Lancer
 - [Shako](variants/shako/) -- 10x10; adds Cannon (platform capture) and Elephant (2-diagonal leap)
 
 </div>
@@ -203,6 +211,34 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [McCooey's Hexagonal Chess](variants/mccooey/) -- 91-hex board, bishops start on same colour
 - [Mini Hexchess](variants/mini-hexchess/) -- Compact 37-hex board, one of each piece type
 - [Shafran's Hexagonal Chess](variants/shafran/) -- 70-hex board, 9 files (a-i)
+
+</div>
+
+### Alternative Boards & Geometry
+
+<div class="variant-grid">
+
+- [Byzantine Chess](variants/byzantine-chess/) -- Circular board of 4 rings × 16 squares; corners don't exist; movement wraps around
+- [Circular Chess](variants/circular-chess/) -- 4 concentric rings of 16 squares each; movement follows the rings
+- [Cylindrical Chess](variants/cylindrical-chess/) -- 8x8 with a-file and h-file joined; wrap-around play
+- [Raumschach](variants/raumschach/) -- 5x5x5 three-dimensional chess; Unicorn piece moves through cube corners
+
+</div>
+
+### Hidden Information
+
+<div class="variant-grid">
+
+- [Hostage Chess](variants/hostage-chess/) -- Captured pieces become hostages; return them to your own side by dropping a matching piece
+- [Kriegspiel](variants/kriegspiel/) -- Each player sees only their own pieces; umpire announces captures and legal-move categories only
+
+</div>
+
+### Historical & Regional (Non-Asian)
+
+<div class="variant-grid">
+
+- [Senterej](variants/senterej/) -- Ethiopian chess; Shatranj-derived; Wazir and Fil; pieces deploy from the back four ranks during an opening phase
 
 </div>
 
