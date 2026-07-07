@@ -1,47 +1,68 @@
 ---
-title: Anti-King Chess II
+title: "Anti-King Chess II"
 slug: anti-king-chess-2
 board: "8×8"
 players: "2"
 parent: moddable-chess
-win: Checkmate the King, or move the Anti-King out of check
-special: "Each player has a normal King (must stay out of check) and an Anti-King (must stay in check). Developed by Robert Price. Anti-King must be in check at all times — moving it out of attack is the loss condition."
+win: "Checkmate the opponent's King or Anti-King"
+special: "Each player adds an Anti-King — a royal piece in check whenever it is NOT attacked by enemy pieces. Win by checkmating either the King or the Anti-King. Anti-Kings cannot capture enemy pieces."
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
-  notation: algebraic
-published: false
-status: stub
-updated: 2026-07-07
 ---
 
-## Anti-King Chess II
+# Anti-King Chess II
 
-Anti-King Chess II was developed by Robert Price. Each player commands a **standard King** (which must stay out of check) and an **Anti-King** (which must remain *in* check — attacked by at least one opponent piece — at all times).
+**Invented by Peter Aronson, 2002.**
 
-*This file is a stub. The exact Anti-King starting squares require verification from chessvariants.com (JavaScript-rendered; use Claude in Chrome). Do not publish until complete.*
+## Overview
 
-### The Two Kings
+Anti-King Chess II adds an Anti-King to each side's standard FIDE army. The Anti-King is a royal piece with inverted check: it is in check when it is *not* attacked by any enemy piece. A player who ends their turn with their Anti-King unattacked is checkmated and loses. Win by checkmating either the opponent's King or the opponent's Anti-King.
 
-**Normal King (K):** Must not be in check. Standard checkmate ends the game if the normal King cannot escape check.
+## Setup
 
-**Anti-King (AK):** Must *always* be in check — it must be attacked by at least one opponent piece. If the Anti-King is **not** in check at the start of a player's turn, that player must move the Anti-King (or another piece) to place it back in check. If that is impossible, it is a loss.
+Standard 8×8 board. Each side begins with the normal FIDE complement plus an Anti-King placed in the center files.
 
-### Win Conditions
+```
+FEN: rnbqkbnr/pppppppp/3A4/8/8/3a4/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+```
 
-- **Checkmate** the opponent's normal King (standard win).
-- The opponent's Anti-King is **not in check** at the start of their turn and cannot be placed back in check — that player loses.
-- Moving the Anti-King to a square where it is not attacked is a losing move if no recovery is possible.
+- **White**: King e1, Anti-King d6, Queen d1, Rooks a1/h1, Bishops c1/f1, Knights b1/g1, Pawns a2–h2
+- **Black**: King e8, Anti-King d3, Queen d8, Rooks a8/h8, Bishops c8/f8, Knights b8/g8, Pawns a7–h7
 
-### General Rules
+*FEN notation: A = White Anti-King, a = Black Anti-King.*
 
-- A move is **legal** only if: (1) your normal King is not left in check, AND (2) your Anti-King remains in check after the move.
-- Capturing a piece that was the only attacker of your Anti-King is illegal if no other piece still attacks the Anti-King.
-- All other standard chess rules apply (en passant, pawn promotion, stalemate).
+## Pieces
 
-### Attribution
+All FIDE pieces move and capture as normal. The Anti-King is a special royal piece:
 
-Anti-King Chess II was developed by Robert Price. Source: chessvariants.com.
+### Anti-King
+- Moves one square in any direction (like a King).
+- **Is in check when it is NOT attacked by any enemy piece.**
+- Cannot capture enemy pieces; may only capture friendly pieces.
+- Cannot be captured — it can only be mated.
+- Does not give check to the friendly King.
+- A hostile King adjacent to the Anti-King does not count as attacking it (Kings do not attack Anti-Kings).
+
+## Rules
+
+All standard FIDE rules apply with these modifications:
+
+**Check and checkmate apply to both royal pieces.** A player is in check if their King is attacked by an enemy piece, or if their Anti-King is not attacked by any enemy piece. A player must escape check on their turn; if they cannot, they are checkmated and lose.
+
+**Winning**: Checkmate the opponent's King (King attacked and unable to escape) or checkmate the opponent's Anti-King (Anti-King unattacked and unable to reach an attacked square).
+
+**Pawns** follow standard FIDE rules: double push from the starting rank, en passant, and promotion to Queen, Rook, Bishop, or Knight.
+
+**Castling** is permitted under standard conditions.
+
+**Stalemate**: a player with no legal moves but not in check is stalemated (drawn, as in standard chess).
+
+## Notes
+
+The Anti-Kings start on d6 and d3 — directly in the path of development — so they tend to be well-covered early by natural piece deployment. This makes the opening phase more conservative than Anti-King Chess I (which uses Berolina Pawns and a scattered setup). Players must maintain coverage of their Anti-King while simultaneously pressing for mate on either of the opponent's royal pieces.
+
+*Source: chessvariants.com/diffobjective.dir/anti-king-chess.html*
