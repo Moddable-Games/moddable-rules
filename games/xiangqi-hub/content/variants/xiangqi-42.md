@@ -1,60 +1,60 @@
 ---
 title: Xiangqi 42
 slug: xiangqi-42
-board: "7×6"
-players: "2"
+board: 7×6
+players: 2
 parent: xiangqi-hub
-win: Checkmate the General
-special: "Compact Xiangqi variant on a 7×6 board (7 files × 6 ranks = 42 intersections, hence the name). Designed as an accessible introduction to Xiangqi using a reduced piece set and no river. Suitable for short games and Xiangqi instruction."
+win: Checkmate the General (standard Xiangqi win conditions)
+special:
+  - intersections
+  - no-river
+  - no-elephant
 engine:
-  topology:
-    type: grid
-    rows: 6
-    cols: 7
-    intersections: true
-  players: [red, black]
-  notation: xiangqi
-published: true
+  type: grid
+  rows: 6
+  cols: 7
+  intersections: true
 ---
 
-## Xiangqi 42
+## Overview
 
-Xiangqi 42 is a compact Xiangqi variant played on a **7×6 board** (7 files × 6 ranks = **42 intersections**, hence the name). It uses a reduced piece set and eliminates the river, making it a fast, accessible introduction to Xiangqi strategy.
+Xiangqi 42 is a compact Xiangqi variant designed by Robert Price and entered in the Chess Variant Pages 42-Squares Contest (2001). The board has exactly 42 occupiable positions — 7 files × 6 ranks = 42 intersections — giving the game its name.
 
-### The Board
+All standard Xiangqi rules apply with the modifications listed below.
 
-7 files × 6 ranks = 42 intersections. Pieces occupy intersections as in standard Xiangqi. **No river** — the board is too small. Each player has a **Palace** (3×2) in the center of their back two ranks.
+## Board and Setup
 
-### Starting Position
+Played on a 7-line × 6-line grid (files a–g, ranks 1–6). Pieces are placed on intersections. There is no river (the board is too small to include one). Each player controls 3 ranks of home territory.
 
-**Red (bottom):**
-- Rank 1: Chariot(a) · Horse(b) · General(c) · Horse(d) · Chariot(e) [files a–e; f–g empty]
-- Wait — on a 7-file board the Palace should be centered. Palace files: c, d, e (3 files).
-- Rank 1: Chariot(a) · Horse(b) · Advisor(c) · General(d) · Advisor(e) · Horse(f) · Chariot(g)
-- Rank 2: empty(a–b) · Cannon(c) · empty(d) · Cannon(e) · empty(f–g)
-- Rank 3: Soldier(a) · Soldier(b) · Soldier(c) · Soldier(d) · Soldier(e) · Soldier(f) · Soldier(g)
+**White (ranks 1–3):**
+- Rank 1: Chariot(a1) Horse(b1) Guard(c1) General(d1) Guard(e1) Horse(f1) Chariot(g1)
+- Rank 2: Cannon(b2) Cannon(f2)
+- Rank 3: Soldier(a3) Soldier(d3) Soldier(g3)
 
-**Black (top, mirrored):**
-- Rank 6: Chariot · Horse · Advisor · General · Advisor · Horse · Chariot
-- Rank 5: Cannon · empty ··· Cannon
-- Rank 4: 7 Soldiers
+**Black (ranks 4–6):**
+- Rank 6: Chariot(a6) Horse(b6) Guard(c6) General(d6) Guard(e6) Horse(f6) Chariot(g6)
+- Rank 5: Cannon(b5) Cannon(f5)
+- Rank 4: Soldier(a4) Soldier(d4) Soldier(g4)
 
-**FEN:** `rhakahar/2c1c2/ppppppp/PPPPPPP/2C1C2/RHAKAHAR w - - 0 1`
+**Elephants (Ministers) are not used.** The back rank is Chariot–Horse–Guard–General–Guard–Horse–Chariot across all 7 files. Cannons are placed directly in front of the Horses. Soldiers occupy the leftmost, rightmost, and center files.
 
-*(R = Chariot, H = Horse, A = Advisor, K = General, C = Cannon, P = Soldier. Confirm from chessvariants.com.)*
+## Rules
 
-> **Verification note:** Exact piece set (whether Elephants are included, exact Soldier count, exact Cannon placement) should be confirmed from chessvariants.com before building.
+All standard Xiangqi rules apply:
 
-### Rules
+- **Piece movement:** Chariot, Horse, Cannon, Soldier, Guard, and General all move exactly as in standard Xiangqi.
+- **Palace:** The General and Guards are confined to the 3×2 palace — files c–e, ranks 1–2 for White; files c–e, ranks 5–6 for Black.
+- **Flying General rule:** Generals may not face each other along an open file with no intervening piece.
+- **No river:** All river-based restrictions are removed. Soldiers may move sideways from rank 1 (their starting rank); Horses and Chariots have no river-crossing restrictions; Cannons work identically regardless of position on the board.
+- **No Elephant:** Elephants (Ministers) are absent from the game.
+- **Stalemate:** The stalemated player loses (standard Xiangqi rule).
 
-Standard Xiangqi rules adapted for the smaller board:
+**Special opening rule:** Red (White) may not capture Black's central Soldier (d4) on the first move.
 
-- **No river:** Elephant and Soldier cross-river restrictions do not apply (no river exists). Elephants range freely. Soldiers may move sideways from the start.
-- **Palace:** General and Advisors are confined to the 3×2 Palace centered in the top/bottom of the board.
-- **Facing Generals rule:** Generals may not face each other across an open file (Flying General rule applies as in standard Xiangqi).
-- **No Elephant:** Some Xiangqi 42 implementations omit the Elephant entirely given the board size — confirm from source.
-- **Win:** Checkmate the opponent's General. Stalemate = loss as in standard Xiangqi.
+## Win Condition
 
-### Attribution
+Checkmate the opponent's General. Standard Xiangqi win and draw conditions apply.
 
-Xiangqi 42 rules documented from chessvariants.com.
+## Attribution
+
+Xiangqi 42 was invented by Robert Price as an entry in the Chess Variant Pages 42-squares contest. WWW page created October 17, 2001. Rules documented from chessvariants.com/42.dir/xiangqi42.html.
