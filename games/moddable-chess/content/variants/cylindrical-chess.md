@@ -1,47 +1,78 @@
 ---
-title: Cylindrical Chess
+title: "Cylindrical Chess"
 slug: cylindrical-chess
 board: "8×8 (cylindrical)"
 players: "2"
 parent: moddable-chess
-win: Checkmate
-special: "Standard 8×8 chess where the board is treated as a cylinder: the a-file and h-file are adjacent. Pieces can move off one side and appear on the other. No other rule changes."
+win: "Checkmate"
+special: "The board is treated as a cylinder: file a connects directly to file h. Pieces can move and attack across the edge. Bishops and queens are significantly stronger than in standard chess."
 engine:
   topology:
-    type: grid
+    type: cylinder
     rows: 8
     cols: 8
-    wrap_horizontal: true
   players: [white, black]
-  notation: algebraic
-published: true
 ---
 
-## Cylindrical Chess
+# Cylindrical Chess
 
-Cylindrical Chess is standard chess played on an 8×8 board that is conceptually rolled into a cylinder: **the a-file and h-file are treated as adjacent**. A piece moving off the h-file reappears on the a-file (and vice versa). Ranks 1 and 8 are not joined — only the files wrap.
+## Overview
 
-### Setup
+Cylindrical Chess is played on a standard 8×8 board, but the board is treated as a cylinder: the left and right edges are connected. File a is adjacent to file h. A piece that moves off one edge of the board reappears from the other side.
 
-Standard 8×8 chess starting position. White moves first.
+## Setup
 
-**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+Standard FIDE starting position.
 
-*(The FEN is identical to standard chess. The cylindrical topology is a board property, not reflected in the position string.)*
+```
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+```
 
-### Cylindrical Topology
+## Rules
 
-- **Files wrap:** a-file and h-file are adjacent. A piece on a1 attacks/moves to h1 as if h-file were adjacent to a-file. Similarly b8 is adjacent to a8 and so forth across any rank.
-- **Ranks do not wrap:** rank 1 and rank 8 are independent edges.
-- **All piece movement** extends naturally through the wrap: a Rook on a1 can slide to h1, g1, f1, etc. by wrapping; a Bishop on a1 attacks b2 and h2 (because h-file wraps to be adjacent to a-file).
+All standard FIDE rules apply with the following modifications for the cylindrical board:
 
-### Key Differences from Standard Chess
+### Cylindrical Movement
 
-- **Bishops:** No longer colourbound — by wrapping, a Bishop can eventually reach any colour square.
-- **Rooks and Queens** have extended attack ranges along ranks (can threaten from both directions of a wrap).
-- **Castling:** Standard castling is legal. Because files wrap, a Queen-side castling works normally (King moves to c1, Rook to d1).
-- **En passant**, **stalemate**, **pawn promotion** all apply as in standard chess.
+All pieces may move and attack across the board edge. File a and file h are adjacent:
 
-### Attribution
+- A **Rook** on a3 may slide left (away from the board edge) to h3, g3, f3, etc. — provided those squares are not blocked.
+- A **Bishop** on c1 may move diagonally through a3 and continue to h4 (wrapping around the edge).
+- A **Knight** on h2 may jump to squares on the a-file side of the board.
+- A **Queen** combines Rook and Bishop cylindrical movement.
 
-Cylindrical Chess rules documented from chessvariants.com/other.dir/cylindrical.html and pychess.org/variants/cylindrical.
+### En Passant
+
+En passant works normally across the cylinder. For example: if White has a pawn on a5 and Black plays h7–h5, White may capture en passant with a5×h6.
+
+### Castling
+
+Castling is permitted under standard FIDE conditions. The Rook does not cross the board edge during castling — only standard castling (not over the edge) is allowed.
+
+### Null Moves
+
+A piece may not make a null move — it cannot travel all the way around the board to return to its starting square. (Such moves are only allowed in some problem contexts.)
+
+### Stalemate
+
+Stalemate is a draw, as in standard chess.
+
+## Strategy Notes
+
+**Piece values** are significantly different from standard chess:
+
+| Piece | Approx. value |
+|-------|---------------|
+| Pawn | 1 |
+| Knight | 3.25 |
+| Bishop | 4 |
+| Rook | 5 |
+| Queen | 11 |
+
+Bishops are considerably stronger than in standard chess because they can reach more squares via the wrap. Queens gain even more. Knights and Rooks benefit only modestly.
+
+Center control is less important — advancing a central pawn exposes the position to diagonal attacks via the edges.
+
+**Endgame**: King and Rook alone cannot force checkmate against a lone King (the defending King can always escape around the cylinder). Two Rooks can deliver a ladder mate along the ranks (but not along the files).
+
+*Sources: en.wikipedia.org/wiki/Cylinder_chess; Pritchard, The Encyclopedia of Chess Variants, p. 79*
