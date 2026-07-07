@@ -17,6 +17,8 @@ engine:
   drops: true
   promotion_zone: [5, 6]
 published: true
+status: draft
+updated: 2026-07-07
 ---
 
 ## Judkin's Shogi
@@ -35,7 +37,7 @@ Judkin's Shogi is a compact Shogi variant played on a 6×6 board, devised by Pet
 
 **SFEN:** `1kgsbr/p5/6/6/5P/RBSGK1 b - 1`
 
-*(K = King, R = Rook, B = Bishop, G = Gold, S = Silver, P = Pawn. Confirm exact layout from chessvariants.com/shogi.dir/judkins.html.)*
+*(K = King, R = Rook, B = Bishop, G = Gold, S = Silver, P = Pawn.)*
 
 ### Pieces
 

@@ -17,6 +17,8 @@ engine:
   drops: true
   promotion_zone: [7, 8, 9]
 published: true
+status: draft
+updated: 2026-07-07
 ---
 
 ## Yari Shogi
@@ -45,7 +47,7 @@ Every piece in Yari Shogi can, in addition to its normal moves, **slide any numb
 
 Captured pieces go to hand and may be dropped as in standard Shogi. Standard drop restrictions apply.
 
-Pieces promote in the promotion zone (last 3 ranks). Promoted pieces' movement is based on their promoted type in standard Shogi, plus the Yari move. Verify exact promoted movements from source.
+Pieces promote in the promotion zone (last 3 ranks). Promoted pieces use their standard Shogi promoted movement (Dragon King, Dragon Horse, Gold General, etc.) and retain the Yari forward slide in addition to that promoted movement.
 
 ### Attribution
 
