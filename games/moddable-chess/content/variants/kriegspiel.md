@@ -1,61 +1,82 @@
 ---
-title: Kriegspiel
+title: "Kriegspiel"
 slug: kriegspiel
 board: "8×8"
-players: "2"
+players: "2 + referee"
 parent: moddable-chess
-win: Checkmate
-special: "Hidden information chess: each player sees only their own pieces and squares their pieces attack. An umpire announces captures, pawn captures available, checks, and the type of checking piece — nothing more. Invented by Henry Michael Temple (1899)."
+win: "Checkmate"
+special: "Fog-of-war chess. Each player sees only their own pieces. A referee manages a master board and announces partial information: legality of attempted moves, check direction, capture location, and pawn-capture availability."
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
-  notation: algebraic
-  hidden_information: true
-published: true
 ---
 
-## Kriegspiel
+# Kriegspiel
 
-Kriegspiel (German: "War Game") was invented by Henry Michael Temple in 1899. It is chess played with **incomplete information**: each player can see only their own pieces. A neutral **umpire** (or referee, or the game engine) manages the hidden state and announces only a limited set of information.
+**Invented by Henry Michael Temple, 1899, South Africa. Played by several famous players including Emanuel Lasker.**
 
-### Setup
+## Overview
 
-Standard 8×8 chess starting position. An umpire maintains the true position (known to neither player in full). Each player sees their own pieces and can infer the opponent's pieces from announcements.
+Kriegspiel is chess with incomplete information. Each player can see only their own pieces — not the opponent's position or moves. A referee maintains a third "master" board with all pieces visible and arbitrates all play. Players must deduce the opponent's position from the referee's announcements.
 
-**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+## Equipment
 
-### What Each Player Sees
+Three chess boards are needed:
+- One board for White (only White pieces visible)
+- One board for Black (only Black pieces visible)
+- One master board for the referee (all pieces visible)
 
-- **Their own pieces** and which squares those pieces could move to (as if the board were otherwise empty).
-- **Squares their own pieces attack** — but they do not know if those squares are empty or occupied until a capture is announced.
+## Setup
 
-### The Umpire's Announcements
+Standard FIDE starting position on all three boards.
 
-The umpire announces (only):
+```
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+```
 
-1. **Illegal move attempted:** if the player tries to move to an occupied square (blocked by own piece or an invalid direction), the umpire says "illegal" and the player must try again.
-2. **Pawn capture available:** if a player's Pawn has a legal diagonal capture (an opponent piece is diagonally in front of it), the umpire announces this. The player is not told which file or how many pawns have captures.
-3. **A capture occurred:** when a piece is actually captured, the umpire announces the square where the capture took place.
-4. **Check:** when the opponent's King is in check, the umpire announces the check and specifies the **direction** of the checking piece: "check by rank" (Rook or Queen on same rank), "check by file" (Rook or Queen on same file), "check by long diagonal," "check by short diagonal" (Bishop or Queen), or "check by Knight."
-5. **Checkmate or stalemate:** announced when reached.
+## Rules
 
-The umpire does **not** announce: positions of opponent pieces, what the opponent's last move was (other than capture location), or how many pieces are in any area.
+All standard FIDE rules apply to the actual position (as tracked by the referee). The difference is in what players can perceive:
 
-### Rules
+### Turn Sequence
 
-- **Illegal moves:** a player attempting an illegal move (any kind) is told it is illegal and must try again — they may keep trying until a legal move is found.
-- **Stalemate** is possible even though a player may not realise it — the umpire announces stalemate.
-- **Castling:** the umpire announces if the King is in check, blocking castling, but does not announce why. A player may attempt castling; if illegal (path is attacked), the umpire says so.
-- **En passant:** a player may attempt an en passant capture; the umpire confirms if legal.
-- **Threefold repetition and 50-move rule** apply based on the true position, tracked by the umpire.
+On their turn, a player **attempts a move**:
+- If the move is **legal**, the referee announces that the player has moved, and the turn passes to the opponent.
+- If the move is **illegal**, the referee announces an illegal attempt. The player must keep trying until a legal move is made.
 
-### Strategy Notes
+All referee announcements are heard by both players.
 
-Kriegspiel requires inference from negative information ("what hasn't the umpire announced?") and probabilistic reasoning about opponent piece locations. Players typically develop opening theory that aggressively probes for opponent positions through sacrificial attempts.
+### Announcements
 
-### Attribution
+**Check**: When a move gives check, the referee announces check and specifies the **direction**:
+- Along a rank (row)
+- Along a file (column)
+- Along the "small diagonal" (a1–h8 direction)
+- Along the "large diagonal" (h1–a8 direction)
+- By a Knight
 
-Kriegspiel was invented by Henry Michael Temple (1899). Standard rules documented from chessvariants.com/infor.dir/kriegspiel.html.
+The exact location of the checking piece is not revealed.
+
+**Capture**: When a piece is captured, the referee announces the **square where the capture occurred** (e.g., "White has captured on d3"). The type of piece doing the capturing and the type of piece captured are not revealed.
+
+**En passant**: En passant captures are specifically announced as such (e.g., "Black has taken en passant on f3").
+
+### Pawn Capture Query
+
+Before attempting a move, a player may ask: **"Any?"** ("Are there any pawn captures?").
+- The referee answers **"No"** if the player has no available pawn captures.
+- The referee answers **"Try!"** if at least one pawn capture is available.
+  - After a "Try!", the player must attempt at least one pawn capture before being allowed to try other moves. If the capture attempt is illegal (wrong square), they may try further captures or any other legal move.
+
+### Etiquette
+
+If a player deliberately attempts a move they know to be illegal (e.g., asking "Any?" with no pawns, or trying moves purely to confuse the opponent), the referee says **"Impossible"** so the opponent is not misled. This is considered bad manners.
+
+## Strategy Notes
+
+Kriegspiel rewards probabilistic reasoning and deduction. Each referee announcement narrows the possible enemy positions. Players must balance information-gathering moves (probing pawn captures, checking to reveal enemy positions) against normal strategic play. The game involves less luck and more deductive skill than the rules might initially suggest.
+
+*Source: chessvariants.com/incinf.dir/kriegspiel.html; based on Gollon and Pritchard*
