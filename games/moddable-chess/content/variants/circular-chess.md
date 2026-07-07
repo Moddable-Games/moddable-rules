@@ -1,50 +1,83 @@
 ---
-title: Circular Chess
+title: "Circular Chess"
 slug: circular-chess
-board: "4-ring circular"
+board: "Circular (4 rings × 16 files)"
 players: "2"
 parent: moddable-chess
-win: Checkmate
-special: "Chess played on a circular board of 4 concentric rings, each with 16 squares (64 total). Pieces move along the rings or radially. The board has no corners and wraps fully around. Revival of a historical medieval variant."
+win: "Checkmate (snaffling permitted)"
+special: "Played on a circular board of 64 squares arranged in 4 concentric rings of 16 files. No castling, no en passant. Pawns promote after travelling 6 squares. Null moves (moving a piece all the way around a ring back to its start) are illegal."
 engine:
   topology:
-    type: circular
-    rings: 4
-    positions_per_ring: 16
+    type: cylinder
+    rows: 4
+    cols: 16
   players: [white, black]
-  notation: circular
-published: false
-status: stub
-updated: 2026-07-07
 ---
 
-## Circular Chess
+# Circular Chess
 
-Circular Chess is played on a **circular board of 4 concentric rings**, each containing 16 squares, for 64 squares total. It revives a medieval variant depicted in the 13th-century Alfonsine manuscript *Libro de los juegos*. The board has no corners, no edges, and movement wraps fully around the outermost ring.
+**Invented by David Reynolds (Lincoln, England), 1983. Circular Chess Society founded 1996.**
 
-*This file is a stub. The exact starting position (sequential vs. alternating layout across the ring) requires verification from chessvariants.com/other.dir/circular.html (JavaScript-rendered; use Claude in Chrome). Do not publish until complete.*
+## Overview
 
-### The Board
+Circular Chess is a modern variant inspired by the ancient Byzantine (round) chess boards depicted in historical sources. It is played on a circular board of 4 concentric rings, each containing 16 squares (64 squares total). The topology is equivalent to a cylinder: the 16 files wrap around, so file 16 is adjacent to file 1. White and Black set up on opposite sides of the circle.
 
-Four rings labeled 1 (innermost) to 4 (outermost). Each ring has 16 positions labeled A–P.
+The Circular Chess Society has held an annual World Championship since 1996.
 
-- **Orthogonal** movement: along a ring (tangential) or between adjacent rings (radial).
-- **Diagonal** movement: simultaneously tangential and radial — one step tangentially and one step radially inward or outward.
-- Pieces slide along their movement directions, wrapping around the ring on the outermost ring.
-- The innermost ring wraps; pieces moving inward from ring 1 cannot go further.
+## Board
 
-### Starting Layout
+The board has:
+- **4 rings** (ranks): ring 1 = innermost, ring 4 = outermost
+- **16 files**: numbered 1–16 going around the circumference; file 16 is adjacent to file 1
+- No corners, no edges — every ring is a full loop
 
-Each player occupies two rings. White starts on rings 1–2, Black on rings 3–4. Each player has the standard 16 FIDE pieces: 8 back-rank pieces on their inner ring, 8 Pawns on their outer ring. Exact position assignments within each ring require verification.
+## Setup
 
-### Rules
+The starting position is derived from orthodox chess by "folding" the FIDE board into a circle. White and Black occupy opposite sides of the ring. Each player's pieces are arranged by ring:
 
-- **Pawns** advance radially outward (White) or inward (Black). They capture diagonally (one step radial + one step tangential).
-- **Promotion:** When a Pawn reaches the outermost ring (for White) or innermost ring (for Black), it promotes.
-- **Castling** is not available.
-- **Check and checkmate** apply normally.
-- **Stalemate** is a draw.
+| Ring | White | Black |
+|------|-------|-------|
+| 1 (innermost) | Queen, King | Queen, King |
+| 2 | Bishop, Bishop | Bishop, Bishop |
+| 3 | Knight, Knight | Knight, Knight |
+| 4 (outermost) | Rook, Rook | Rook, Rook |
 
-### Attribution
+The Queen begins on a square of the same colour as the King (as in FIDE chess). Each player's 8 Pawns are placed in the files immediately in front of their back pieces, between the two sides.
 
-Circular Chess historical origins: medieval Islamic chess (~13th century, Alfonsine manuscript). Source: chessvariants.com/other.dir/circular.html.
+## Pieces
+
+All pieces move as in standard FIDE chess, with adaptations for the circular board:
+
+**Queen and Rook** may slide any number of squares along a ring or between rings, but may not make a "null move" — they cannot travel all the way around a ring to end up on the starting square.
+
+**Bishop** slides diagonally as normal, tracing paths that change both ring and file with each step.
+
+**Knight** leaps in the standard L-shape (2+1 squares).
+
+**King** moves one square in any direction.
+
+**Pawn** advances one square per move around the circumference toward the opponent's side. Pawns have no double-step move and there is no en passant. A Pawn promotes upon reaching the 6th square from its starting position (the file immediately before the opponent's back-rank pieces).
+
+## Rules
+
+All standard FIDE rules apply with the following changes:
+
+**No castling.**
+
+**No en passant.**
+
+**Null moves are illegal.** A Rook or Queen cannot move all the way around a ring and return to its starting square.
+
+**Announcing check is not obligatory.** If a player moves their King into check, or fails to move out of check, the opponent may immediately **snaffle** — capture the King on their next move to win the game instantly. This has decided World Championship games.
+
+**Stalemate** is a draw, as in standard chess.
+
+## Strategy Notes
+
+On the circular board, the Rook and Queen have significantly enhanced range (they can sweep an entire ring), while Bishops and Knights are weaker than in FIDE chess (each can reach fewer squares). Basic checkmates that rely on cornering the opponent (King + two Bishops; King + Bishop + Knight) are impossible because there are no corners. The most reliable basic mates are King + Queen and King + Rook + minor piece.
+
+Pawns cannot be stalemated in King-and-Pawn endings since there is no board edge to trap against; King-and-Pawn vs. King is almost always a win for the stronger side.
+
+Opening theory is essentially nonexistent — unlike standard chess, players are largely improvising from move one.
+
+*Sources: chessvariants.com/shape.dir/circular.html; en.wikipedia.org/wiki/Circular_chess*
