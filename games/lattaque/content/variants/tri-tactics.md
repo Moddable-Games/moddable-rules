@@ -1,43 +1,52 @@
 ---
 title: Tri-Tactics
 slug: tri-tactics
-board: "10×10"
+board: "unverified"
 players: "2"
 parent: lattaque
-win: "Capture the opponent's Headquarters or eliminate all mobile units"
-special: "Three-service variant of L'Attaque: Army, Navy, and Air Force units each with unique movement rules. Air units may overfly land and sea impassable squares. Larger board than standard L'Attaque."
+win: "Capture the opponent's Naval Base or Headquarters, or eliminate all mobile units"
+special: "Combined-forces adaptation of L'Attaque published by H.P. Gibson & Sons (1932). Combines the Land (L'Attaque), Sea (Dover Patrol), and Air (Aviation) systems. Units from all three branches interact via a cross-branch combat chart."
 published: false
 ---
 
 ## Tri-Tactics
 
-Published by H.P. Gibson & Sons, Britain, circa 1937. Tri-Tactics extends the L’Attaque system to a combined-forces game. Each player commands units from three military branches: Army (land), Navy (sea), and Air Force. Air units introduce a new movement type — overflying obstacles — that breaks from the standard L’Attaque movement rules.
+Published by H.P. Gibson & Sons, Britain, 1932. Tri-Tactics is a combined-forces game that merges three H.P. Gibson wargames into one: **L'Attaque** (land), **Dover Patrol** (naval), and **Aviation** (air). Each player commands units from all three branches. The game introduces cross-branch combat resolution and Air units with unique movement capabilities.
+
+### Status
+
+This file documents what is publicly known about Tri-Tactics from secondary sources. The full piece hierarchy, board layout, and cross-branch combat chart require verification from an original H.P. Gibson 1932 edition. **Do not publish until verified.**
 
 ### Board
 
-10 × 10 board with lake squares (impassable to land units) and sea squares (impassable to land and air units without modification; sea units move freely on them). The board features distinct land and water regions.
+Board dimensions and layout are not confirmed from primary sources. Tri-Tactics uses a larger board than Standard L'Attaque to accommodate three branches of units. The board features distinct land and sea regions.
+
+> **Source needed:** Confirm board dimensions, obstacle/minefield positions, and land/sea region layout from original H.P. Gibson edition before updating this file.
 
 ### Piece Overview
 
-Three branches, each with a ranked hierarchy:
+Three branches, each with its own ranked hierarchy:
 
-**Army (Land units):** Move 1 step orthogonally on land squares. Cannot enter sea squares.
+**Land branch (Army):** Corresponds to L'Attaque piece set. Move 1 step orthogonally on land squares.
 
-**Navy (Sea units):** Move 1 step orthogonally on sea squares. Can move on sea and the edges of land squares adjacent to sea in some rule variants.
+**Sea branch (Navy):** Corresponds to Dover Patrol piece set. Move on sea squares.
 
-**Air Force (Air units):** Move 1 step orthogonally. Unique ability: Air units may overfly lake and sea squares — they may cross any square type but must land on a land square at the end of each move.
-
-Capture rules: Higher rank within the same branch defeats lower rank. Cross-branch combat is resolved by a chart (Air units generally hold an advantage over surface units unless specific counters are present).
+**Air branch (Air Force):** Unique movement: Air units may cross any square type (land, sea, obstacles) but must end their move on a valid square. Exact movement rules require verification.
 
 **Special pieces:**
-- **Headquarters (Flag equivalent):** Immovable, hidden. Capturing it wins.
-- **Minefield/Fortification (Bomb equivalent):** Immovable. Defeated only by specialist sappers/mine sweepers.
-- Branch-specific scouts: slide unlimited within their movement type.
+- **Headquarters / Naval Base (Flag equivalents):** Immovable. Capturing one wins the game.
+- Branch-specific immovable obstacle pieces (Mines, Fortifications): defeated only by specialist units (Sappers, Mine Sweepers).
+
+### Cross-Branch Combat
+
+When units from different branches attack each other, the outcome is determined by a **cross-branch combat chart** included in the original H.P. Gibson edition. Air units generally hold an advantage over surface units; specific counters exist.
+
+> **Source needed:** Transcribe the full cross-branch combat chart from an original edition. The chart is the core of Tri-Tactics and cannot be accurately documented without it.
 
 ### Win Conditions
 
-Capture the opponent’s Headquarters, or reduce them to only immovable pieces.
+Capture the opponent's Headquarters or Naval Base, or reduce them to only immovable pieces.
 
 ### Attribution
 
-Tri-Tactics. Published by H.P. Gibson & Sons, Britain, approximately 1937. Combined-forces adaptation of L’Attaque. Public domain rule set. Full original piece hierarchy and cross-branch combat chart should be sourced from the original H.P. Gibson edition before publishing.
+Tri-Tactics. Published by H.P. Gibson & Sons, Britain, 1932. Combined L'Attaque, Dover Patrol, and Aviation systems. Public domain.
