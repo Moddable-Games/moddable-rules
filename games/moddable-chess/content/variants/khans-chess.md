@@ -45,7 +45,7 @@ Khan's Chess is an asymmetric chess variant designed in 2023–24 by Couch Tomat
 - Rank 8: Lancer(a) · Kheshig(b) · Horse Archer(c) · Khatun(d) · Khan(e) · Horse Archer(f) · Kheshig(g) · Lancer(h)
 - Rank 7: 8 Scouts
 
-**FEN:** `lhakahl1/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR w KQ - 0 1`
+**FEN:** `lhatkahl/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR w KQ - 0 1`
 
 *(L/l = Lancer, H/h = Kheshig, A/a = Horse Archer, K = Khan (Horde royal) / King (Kingdom royal), T/t = Khatun, S/s = Scout. White (Kingdom) moves first.)*
 

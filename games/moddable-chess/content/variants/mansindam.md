@@ -1,16 +1,16 @@
 ---
 title: "Mansindam (Pantheon Tale)"
 slug: mansindam
-board: "8×9"
+board: "9×9"
 players: "2"
 parent: moddable-chess
 win: "Checkmate, campmate (King reaches opponent's last rank), or stalemate-loss"
-special: "8×9 board with powerful compound pieces (Cardinal, Marshal, Angel), Shogi-style drops, mandatory promotion, campmate, and no draws. Designed by Couch Tomato."
+special: "9×9 board with powerful compound pieces (Cardinal, Marshal, Angel), Shogi-style drops, mandatory promotion, campmate, and no draws. Designed by Couch Tomato."
 engine:
   topology:
     type: grid
     rows: 9
-    cols: 8
+    cols: 9
   players: [white, black]
   notation: algebraic
   drops: true
@@ -35,23 +35,23 @@ Mansindam is a chess variant designed by Couch Tomato. It takes two of Shogi's m
 
 ### The Board
 
-Mansindam is played on an **8×9 board** (8 files × 9 ranks). Ranks are numbered 1–9 from White's side. Files are lettered a–h.
+Mansindam is played on a **9×9 board** (9 files × 9 ranks). Ranks are numbered 1–9 from White's side. Files are lettered a–i.
 
 ### Starting Position
 
 **White (Yang):**
-- Rank 1: Rook(a), Knight(b), Cardinal(c), Angel(d), King(e), Queen(f), Bishop(g), Marshal(h)
-- Rank 2: 8 Pawns (a2–h2)
+- Rank 1: Marshal(a) · Knight(b) · Cardinal(c) · Queen(d) · King(e) · Angel(f) · Bishop(g) · Knight(h) · Rook(i)
+- Rank 2: empty
+- Rank 3: 9 Pawns (a3–i3)
 
 **Black (Eum):**
-- Rank 9: Rook(a), Knight(b), Cardinal(c), Angel(d), King(e), Queen(f), Bishop(g), Marshal(h)
-- Rank 8: 8 Pawns (a8–h8)
+- Rank 9: Rook(a) · Knight(b) · Bishop(c) · Angel(d) · King(e) · Queen(f) · Cardinal(g) · Knight(h) · Marshal(i)
+- Rank 8: empty
+- Rank 7: 9 Pawns (a7–i7)
 
-**FEN:** `rnceqbmr/pppppppp/9/9/9/9/9/PPPPPPPP/RNCEQBMR w - - 0 1`
+**FEN:** `rnbakqcnm/9/ppppppppp/9/9/9/PPPPPPPPP/9/MNCQKABNR[] w - - 0 1`
 
-*(R = Rook, N = Knight, C = Cardinal, E = Angel, Q = Queen, B = Bishop, M = Marshal, K = King.)*
-
-Each side has exactly one of each piece type in the back rank. White (Yang) moves first.
+*(R/r = Rook, N/n = Knight, B/b = Bishop, A/a = Angel, K/k = King, Q/q = Queen, C/c = Cardinal, M/m = Marshal, P/p = Pawn. [] denotes empty drop pocket. White (Yang) moves first.)*
 
 ### Promotion Zone
 
@@ -76,7 +76,7 @@ Every promoted piece gains the ability to move as a non-royal King (one square a
 | Cardinal | C | Bishop + Knight | Rhino (Bishop + Knight + orthogonal step) |
 | Marshal | M | Rook + Knight | Ship (Rook + Knight + diagonal step) |
 | Queen | Q | Rook + Bishop | Does not promote |
-| Angel | E | Rook + Bishop + Knight | Does not promote |
+| Angel | A | Rook + Bishop + Knight | Does not promote |
 | King | K | One square any direction (royal) | Does not promote |
 
 ### The Drop Mechanic
