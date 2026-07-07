@@ -4,48 +4,70 @@ slug: birds-chess
 board: "10×8"
 players: "2"
 parent: moddable-chess
-win: Checkmate
-special: "10×8 variant invented by Henry Bird (1874). Adds the Archbishop (Bishop+Knight) to each player's inner corners. Standard FIDE pieces otherwise. Predates Capablanca Chess."
+win: "Checkmate"
+special: "1874 variant on a 10×8 board. Adds Guard (Rook+Knight) and Equerry (Bishop+Knight). A predecessor to Capablanca’s Chess. Castling: King moves three squares, Rook jumps over to the adjacent square."
 engine:
   topology:
     type: grid
     rows: 8
     cols: 10
   players: [white, black]
-  notation: algebraic
-published: true
 ---
 
-## Bird's Chess
+# Bird's Chess
 
-Bird's Chess was invented by the English chess master Henry Bird and published in 1874. It extends the standard board to **10×8** and places an **Archbishop** (Bishop + Knight) in each player's inner corner positions, flanking the standard FIDE back rank.
+**Invented by Henry Bird, 1874. Published in the City of London Chess Magazine. A predecessor to Capablanca’s Chess.**
 
-### The Archbishop
+## Overview
 
-The **Archbishop (A)** moves as a **Bishop combined with a Knight** — it can slide any number of squares diagonally and also jump to any of the 8 Knight-move destinations. It is not colourbound. Known in other variants as the Cardinal, Janus, or Princess.
+Bird’s Chess extends standard chess to a 10×8 board by adding two compound pieces per side: the Guard (Rook + Knight) and the Equerry (Bishop + Knight). Capablanca likely drew inspiration from this game when designing Capablanca’s Chess.
 
-### Setup
+## Setup
 
-10×8 board. Files are a–j.
+10-file board (files a–j), 8 ranks.
 
-**White (rank 1):** Archbishop(a) · Rook(b) · Knight(c) · Bishop(d) · Queen(e) · King(f) · Bishop(g) · Knight(h) · Rook(i) · Archbishop(j)
+```
+FEN: rnbgqkebnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBGQKEBNR w - - 0 1
+(G/g = Guard, E/e = Equerry)
+```
 
-**White pawns (rank 2):** a2–j2 (10 pawns)
+**White (rank 1, a–j):** Rook(a1), Knight(b1), Bishop(c1), Guard(d1), Queen(e1), King(f1), Equerry(g1), Bishop(h1), Knight(i1), Rook(j1)
+**White Pawns (rank 2):** a2–j2
 
-**Black (rank 8, mirrored):** Archbishop(a) · Rook(b) · Knight(c) · Bishop(d) · Queen(e) · King(f) · Bishop(g) · Knight(h) · Rook(i) · Archbishop(j)
+**Black (rank 8, a–j):** Rook(a8), Knight(b8), Bishop(c8), Guard(d8), Queen(e8), King(f8), Equerry(g8), Bishop(h8), Knight(i8), Rook(j8)
+**Black Pawns (rank 7):** a7–j7
 
-**FEN:** `arbnqkbnra/pppppppppp/10/10/10/10/PPPPPPPPPP/ARBNQKBNRA w KQkq - 0 1`
+*Alternative: Black’s back rank may mirror White’s (with Black’s Queen on the same file as White’s Queen). Either setup is playable.*
 
-*(A/a = Archbishop, otherwise standard FIDE letters.)*
+## Pieces
 
-### Rules
+All standard FIDE pieces move as usual. Two additional pieces:
 
-All standard chess rules apply:
+### Guard
+Moves as a **Rook** (slides orthogonally any distance) **or** a **Knight** (L-shape leap). Equivalent to the Chancellor.
 
-- **Castling:** the King moves 3 squares toward the Rook. The Archbishop is not a castling piece.
-- **Pawns** promote on rank 8 (White) or rank 1 (Black). Promotion to Archbishop is permitted.
-- **Stalemate**, **repetition**, and **50-move** rules as standard.
+### Equerry
+Moves as a **Bishop** (slides diagonally any distance) **or** a **Knight** (L-shape leap). Equivalent to the Archbishop. Not colour-bound.
 
-### Attribution
+## Rules
 
-Bird's Chess was invented by Henry Bird (1874). Rules documented from chessvariants.com/historic.dir/bird.html.
+All standard FIDE rules apply with the following modifications:
+
+### Castling
+
+Castling uses a modified rule. The King moves **three squares** toward the Rook; the Rook then jumps over the King to land on the square immediately adjacent to the King on the side toward center:
+
+- **Queenside castling** (toward a1): King moves f1→c1 (three squares left); Rook moves a1→d1.
+- **Kingside castling** (toward j1): King moves f1→i1 (three squares right); Rook moves j1→h1.
+
+The same applies symmetrically for Black. Standard castling conditions apply: neither King nor Rook may have moved previously; no pieces between them; King not in check; King does not pass through check.
+
+### Pawn Promotion
+
+Pawns reaching the far rank may promote to: Queen, Guard, Equerry, Bishop, Rook, or Knight.
+
+### All Other Rules
+
+En passant, stalemate (draw), and all other FIDE rules apply normally.
+
+*Source: chessvariants.com/large.dir/bird.html; based on Gollon manuscript sent to Greenwood, 1976*
