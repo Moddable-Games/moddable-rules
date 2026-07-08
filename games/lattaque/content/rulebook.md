@@ -1,6 +1,6 @@
 ---
 title: "L'Attaque"
-version: "0.3.0"
+version: "0.4.0"
 slug: "lattaque"
 players: "2"
 duration: "20–60 min"
@@ -26,9 +26,9 @@ L'Attaque is a hidden-information strategy game designed by Hermance Edan, paten
 
 ## Variants in this Hub
 
-| Variant | Players | Theme | Description |
+| Variant | Players | Win Condition | Description |
 |---|---|---|---|
-| [Standard L'Attaque](variants/standard/) | 2 | Land warfare | Original 1909 rules; 36 pieces per side on a 9×10 board with three 1×2 lake areas. |
-| [Dover Patrol](variants/dover-patrol/) | 2 | Naval warfare | Named Royal Navy ships; same rules as Standard. Win by capturing the Flagship. |
-| [Aviation](variants/aviation/) | 2 | Aerial warfare | 42 pieces including Searchlights, AAA Guns, and Observation Balloons. Win by landing a Troop Carrier on the opponent's Aerodrome. |
-| [Tri-Tactics](variants/tri-tactics/) | 2 | Combined forces | 1932 combination of L'Attaque, Dover Patrol, and Aviation on a single board. |
+| [Standard L'Attaque](variants/standard/) | 2 | Capture the opponent's Flag | Original 1909 rules; 36 pieces per side on a 9×10 board with three 1×2 lake areas. |
+| [Dover Patrol](variants/dover-patrol/) | 2 | Get both Flags to your own Base | Naval CTF game; 40 pieces per side. Flying Boat crosses the Harbour Wall; Mine Layers are movable mines; Submarines sink all except Motor Torpedo Boats. |
+| [Aviation](variants/aviation/) | 2 | Land a Troop Carrier on opponent's Aerodrome | 42 pieces including Searchlights, AAA Guns, and Observation Balloons. Searchlight + Gun ranging system. |
+| [Tri-Tactics](variants/tri-tactics/) | 2 | Any of three service win conditions | 1932 combination of L'Attaque, Dover Patrol, and Aviation on a single board. |
