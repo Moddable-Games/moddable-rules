@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Möbius Strip Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Möbius Strip Chess.">
+<meta property="og:title" content="Möbius Strip Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Möbius Strip Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/mobius-strip-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/mobius-strip-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Möbius Strip Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Möbius Strip Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/mobius-strip-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/mobius-strip-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/mobius-strip-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Möbius Strip Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 98 of 155</span>
+    <h1 class="variant-cover-title">Möbius Strip Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8 Möbius strip</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Möbius Strip Chess</h2>
+<p>Möbius Strip Chess is chess played on a <strong>Möbius strip</strong> — a surface with a single side and a single boundary edge, created by joining one pair of opposite edges with a half-twist.</p>
+<h3>The Topology</h3>
+<p><strong>Free edges:</strong> The a-file and h-file are genuine boundaries. Pieces cannot move beyond these files — there is no horizontal wrapping. These form the single boundary edge of the Möbius strip.</p>
+<p><strong>Twisted seam:</strong> Rank 1 and rank 8 connect with a half-twist. The file mapping is identical to Klein Bottle Chess:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>File leaving at rank 8</th>
+<th>File arriving at rank 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>h</td>
+</tr>
+<tr>
+<td>b</td>
+<td>g</td>
+</tr>
+<tr>
+<td>c</td>
+<td>f</td>
+</tr>
+<tr>
+<td>d</td>
+<td>e</td>
+</tr>
+<tr>
+<td>e</td>
+<td>d</td>
+</tr>
+<tr>
+<td>f</td>
+<td>c</td>
+</tr>
+<tr>
+<td>g</td>
+<td>b</td>
+</tr>
+<tr>
+<td>h</td>
+<td>a</td>
+</tr>
+</tbody>
+</table></div>
+<p>A piece moving off rank 8 on file d arrives on rank 1 on file e. Movement direction is preserved; file position is mirrored.</p>
+<p><strong>One side:</strong> A piece that crosses the seam once is on the “other side” of the strip. Crossing the seam a second time returns it to the original side. A full circuit of the board (two seam crossings) returns the piece to its starting square.</p>
+<h3>Consequences for Pieces</h3>
+<ul class="rules">
+<li><strong>Rooks:</strong> Can slide off rank 8 and continue from rank 1 on a mirrored file. A Rook that slides forward and crosses the seam is now moving towards its starting side</li>
+<li><strong>Bishops:</strong> Change colour when crossing the seam (non-orientability reverses the diagonal colouring). A bishop on a light square that crosses the seam lands on a dark square</li>
+<li><strong>Queens:</strong> Combined horizontal (blocked at a/h-file) and vertical (twisted seam) movement</li>
+<li><strong>Sliders crossing the boundary:</strong> Cannot slide beyond the a-file or h-file — those are genuine walls</li>
+<li><strong>Knights:</strong> Leaps that would land beyond the a/h boundary are illegal. Leaps across the rank seam land on the mirrored file</li>
+</ul>
+<h3>Starting Position and Rules</h3>
+<p>Standard FIDE starting position. All FIDE rules apply; movements respect the free edges and twisted rank seam.</p>
+<p>Win: Checkmate the opponent’s King.</p>
+<h3>Attribution</h3>
+<p>Möbius Strip Chess is a documented chess variant applying non-orientable surface topology to FIDE chess. Source: chessvariants.com</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../minichess/" class="variant-pager-prev">← Minichess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../monster-chess/" class="variant-pager-next">Monster Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moddable Chess — Variant Library v0.5.1</title>
+<title>Moddable Chess — Variant Library v0.6.0</title>
 <meta name="description" content="Every chess variant, one engine">
-<meta property="og:title" content="Moddable Chess — Variant Library v0.5.1">
+<meta property="og:title" content="Moddable Chess — Variant Library v0.6.0">
 <meta property="og:description" content="Every chess variant, one engine">
 <meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.3.0">
 <meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Moddable Rules">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Moddable Chess — Variant Library v0.5.1">
+<meta name="twitter:title" content="Moddable Chess — Variant Library v0.6.0">
 <meta name="twitter:description" content="Every chess variant, one engine">
 <meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-image.png?v=1.3.0">
 <link rel="icon" type="image/svg+xml" href="../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.5.1">
-<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.5.1">
-<link rel="stylesheet" href="../../shared/css/base.css?v=0.5.1">
-<link rel="stylesheet" href="../../shared/css/components.css?v=0.5.1">
-<link rel="stylesheet" href="./theme.css?v=0.5.1">
+<link rel="stylesheet" href="../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="./theme.css?v=0.6.0">
 <script type="module" src="../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -35,7 +35,7 @@
     <a href="../../games/moddable-chess/pdf/moddable-chess-variant-library.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a>
     <button class="surface-toggle hdr-link" aria-label="Toggle light/dark mode" type="button">◐</button>
   </div>
-  <span class="hdr-meta">Variant Library &middot; v0.5.1</span>
+  <span class="hdr-meta">Variant Library &middot; v0.6.0</span>
 </header>
 
 <div class="cover">
@@ -45,11 +45,11 @@
   <div class="cover-rule"></div>
   <p class="cover-tagline">Every chess variant, one engine</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">102</span><span class="cs-lbl">Variants</span></div>
+    <div class="cover-stat"><span class="cs-num">155</span><span class="cs-lbl">Variants</span></div>
     <div class="cover-stat"><span class="cs-num">2-6</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games &middot; v0.5.1</p>
+  <p class="cover-pub">Published by Moddable Games &middot; v0.6.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
@@ -58,14 +58,16 @@
 
 <div class="section variant-hub">
 <h2>Variant Library</h2>
-<p>Moddable Chess includes 102 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.</p>
+<p>Moddable Chess includes 155 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.</p>
 <h3>Standard Board (8x8)</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/standard/">Standard Chess</a> – Classic FIDE rules</li>
 <li><a href="variants/absorption/">Absorption Chess</a> – Capturing piece gains the victim’s movement permanently</li>
 <li><a href="variants/andernach/">Andernach Chess</a> – Capturing piece changes colour</li>
+<li><a href="variants/anti-king-chess-2/">Anti-King Chess II</a> – Each player adds a royal Anti-King that is in check when NOT attacked</li>
 <li><a href="variants/atomic/">Atomic</a> – Captures explode adjacent pieces</li>
+<li><a href="variants/avalanche/">Avalanche Chess</a> – After each move, push one of the opponent’s pawns one square forward</li>
 <li><a href="variants/benedict/">Benedict Chess</a> – Attacked enemies convert colour</li>
 <li><a href="variants/berserk/">Berserk Chess</a> – Check grants a bonus move</li>
 <li><a href="variants/checkless/">Checkless Chess</a> – No check unless it is checkmate</li>
@@ -132,6 +134,7 @@
 <li><a href="variants/khans-chess/">Khan’s Chess</a> – FIDE Kingdom vs Mongol Horde with Scout and Khatun; divergent pieces; campmate and stalemate-loss</li>
 <li><a href="variants/orda-chess/">Orda Chess</a> – FIDE vs divergent Horde army; all Horde pieces move as Knight</li>
 <li><a href="variants/shinobi/">Shinobi Chess</a> – FIDE vs Shinobi Clan; hand drops; automatic zone promotion</li>
+<li><a href="variants/shinobiplus/">Shinobi+</a> – Rebalanced Shinobi with Fox piece; Clan moves first; perpetual check is a loss</li>
 <li><a href="variants/spartan/">Spartan Chess</a> – FIDE vs Spartan army with two Kings; dual-check rule</li>
 <li><a href="variants/synochess/">Synochess</a> – FIDE Kingdom vs Xiangqi-derived Eastern dynasty; Cannon, Chariot, Horse; faceoff rule</li>
 </ul>
@@ -139,9 +142,13 @@
 <h3>Gating &amp; Drop Mechanics</h3>
 <div class="variant-grid">
 <ul class="rules">
-<li><a href="variants/mansindam/">Mansindam</a> – 8x9 board; compound pieces (Cardinal, Marshal, Angel); Shogi-style drops + mandatory promotion; campmate; no draws</li>
+<li><a href="variants/dragon-chess/">Dragon Chess</a> – Two Archbishops held in reserve; gate onto any empty first-rank square instead of moving</li>
+<li><a href="variants/hostage-chess/">Hostage Chess</a> – Captured pieces become hostages; rescue yours by releasing one of theirs</li>
+<li><a href="variants/mansindam/">Mansindam</a> – 9×9 board; compound pieces (Cardinal, Marshal, Angel); Shogi-style drops + mandatory promotion; campmate; no draws</li>
+<li><a href="variants/pocket-knight/">Pocket Knight Chess</a> – One extra Knight in reserve; drop it onto any empty square once per game</li>
 <li><a href="variants/s-chess/">S-Chess</a> – Hawk and Elephant held in hand; gate onto vacated home squares when back-rank pieces move</li>
 <li><a href="variants/shogun/">Shogun Chess</a> – Shogi-style drops; captured pieces switch sides; promotion on ranks 6-8</li>
+<li><a href="variants/xiang-fu/">Xiang Fu</a> – Xiangqi/chess hybrid; dual royal Champions, Crossbow piece, drops within first two ranks</li>
 </ul>
 </div>
 <h3>Piece Replacement &amp; Movement Variants</h3>
@@ -152,6 +159,7 @@
 <li><a href="variants/amazon-chess/">Amazon Chess</a> – Queens replaced by Amazons (Q+N)</li>
 <li><a href="variants/berolina-chess/">Berolina Chess</a> – Pawns move diagonally and capture straight (inverted)</li>
 <li><a href="variants/chigorin/">Chigorin</a> – White has 4 knights instead of bishops</li>
+<li><a href="variants/fanorona-chess/">Fanorona Chess</a> – Captures by approach and withdrawal on a 5x9 Alquerque board</li>
 <li><a href="variants/grasshopper/">Grasshopper Chess</a> – Hoppers replace Queens; must jump over a hurdle to land</li>
 <li><a href="variants/knightmate/">Knightmate</a> – Knight is royal, King moves like a knight</li>
 <li><a href="variants/nightrider/">Nightrider Chess</a> – Knights replaced by Nightriders; repeat Knight-moves in one direction</li>
@@ -178,6 +186,7 @@
 <li><a href="variants/makpong/">Makpong</a> – Thai variant, King cannot move out of check</li>
 <li><a href="variants/makruk/">Makruk</a> – Thai chess, pawns promote on rank 6 to Met</li>
 <li><a href="variants/ouk-chaktrang/">Ouk Chaktrang</a> – Cambodian chess; Koul leaps 1-2 diagonally; King may jump as Knight on first move</li>
+<li><a href="variants/senterej/">Senterej</a> – Ethiopian Shatranj; simultaneous mobilization phase before the first capture</li>
 <li><a href="variants/shatar/">Shatar</a> – Mongolian chess, win by baring the opponent’s King</li>
 <li><a href="variants/shatranj/">Shatranj</a> – Medieval Islamic chess, ancestor of modern chess</li>
 <li><a href="variants/sittuyin/">Sittuyin</a> – Burmese chess, placement opening phase</li>
@@ -187,10 +196,17 @@
 <h3>Expanded Boards</h3>
 <div class="variant-grid">
 <ul class="rules">
+<li><a href="variants/archchess/">Archchess</a> – 10x10 variant (1683); adds Centurion and Decurion pieces</li>
+<li><a href="variants/birds-chess/">Bird’s Chess</a> – 10x8 board (1874); adds Guard (R+N) and Equerry (B+N)</li>
 <li><a href="variants/capablanca/">Capablanca Chess</a> – 10x8 with Archbishop + Chancellor</li>
+<li><a href="variants/carrera/">Carrera’s Chess</a> – 10x8 board (1617); adds Champion (R+N) and Centaur (B+N)</li>
+<li><a href="variants/chancellor-chess/">Chancellor Chess</a> – 9x9 board (1889); adds one Chancellor (R+N) per side</li>
 <li><a href="variants/courier/">Courier Chess</a> – 12x8, medieval variant from 1202</li>
 <li><a href="variants/grand/">Grand Chess</a> – 10x10, same new pieces, bigger stage</li>
+<li><a href="variants/gustav-iii-chess/">Gustav III’s Chess</a> – 8x8 + 4 corner squares; adds 2 Amazons (Q+N) per side</li>
 <li><a href="variants/gygax/">Gygax Chess</a> – Three stacked 12x8 boards; 42 pieces per side across 15 piece types</li>
+<li><a href="variants/janus/">Janus Chess</a> – 10x8 with two Januses (Archbishop: B+N) per side</li>
+<li><a href="variants/omega-chess/">Omega Chess</a> – 10x10 + 4 wizard squares; adds Champion and Wizard</li>
 <li><a href="variants/shako/">Shako</a> – 10x10; adds Cannon (platform capture) and Elephant (2-diagonal leap)</li>
 </ul>
 </div>
@@ -198,11 +214,17 @@
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/breakthrough/">Breakthrough</a> – 7x7, pawns only, first to far rank wins</li>
+<li><a href="variants/congo/">Congo</a> – 7x7 with river; six animal piece types; capture the Lion to win</li>
+<li><a href="variants/crazy-38s/">Crazy 38’s</a> – 38-square loop board; Shogi-style drops; checkmate or reach opponent’s Home Square</li>
 <li><a href="variants/diana/">Diana Chess</a> – 6x6, no queens or knights</li>
+<li><a href="variants/flip-chess/">Flip Chess</a> – 38-square board; bare King loses immediately</li>
 <li><a href="variants/half-chess/">Half Chess</a> – 8x4, armies start adjacent</li>
+<li><a href="variants/hexapawn/">Hexapawn</a> – 3x3 pawn-only game (Gardner, 1962); solved: Black wins with perfect play</li>
+<li><a href="variants/hole-chess/">Hole Chess</a> – 44-square board with permanent holes that suck in enemy pieces</li>
 <li><a href="variants/los-alamos/">Los Alamos</a> – 6x6, no bishops, first computer chess (1956)</li>
 <li><a href="variants/minichess/">Minichess</a> – 5x5, full piece types on tiny board</li>
 <li><a href="variants/petty/">Petty Chess</a> – 5x6, all piece types, single copies</li>
+<li><a href="variants/rollerball/">Rollerball</a> – 40-square ring board; clockwise-dominant movement; King race wins</li>
 </ul>
 </div>
 <h3>Hexagonal Board</h3>
@@ -214,6 +236,67 @@
 <li><a href="variants/mccooey/">McCooey’s Hexagonal Chess</a> – 91-hex board, bishops start on same colour</li>
 <li><a href="variants/mini-hexchess/">Mini Hexchess</a> – Compact 37-hex board, one of each piece type</li>
 <li><a href="variants/shafran/">Shafran’s Hexagonal Chess</a> – 70-hex board, 9 files (a-i)</li>
+</ul>
+</div>
+<h3>Topology Variants</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/byzantine-chess/">Byzantine Chess</a> – Circular 4-ring board (64 squares); Shatranj-era pieces; stalemate wins</li>
+<li><a href="variants/chess-in-the-round/">Chess in the Round</a> – Circular 4-ring board; standard pieces with optional ring-sliding rules</li>
+<li><a href="variants/circular-chess/">Circular Chess</a> – 4 rings x 16 files; pawns promote after 6 squares; no null moves</li>
+<li><a href="variants/cylindrical-chess/">Cylindrical Chess</a> – Files wrap (a connects to h); bishops and queens gain power</li>
+<li><a href="variants/klein-bottle-chess/">Klein Bottle Chess</a> – Non-orientable surface; ranks wrap with a half-twist mirroring files</li>
+<li><a href="variants/mobius-strip-chess/">Möbius Strip Chess</a> – Non-orientable strip; rank seam twists; bishops change colour at seam</li>
+<li><a href="variants/spherical-chess/">Spherical Chess</a> – Ranks wrap horizontally; files meet at polar singularities</li>
+<li><a href="variants/toroidal-byzantine/">Toroidal Byzantine Chess</a> – 4-ring circular board with radial wrap forming a torus</li>
+</ul>
+</div>
+<h3>Large Historical</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/balbos-chess/">Balbo’s Chess</a> – Diamond-shaped 70-square board (1974); location-dependent promotion</li>
+<li><a href="variants/centennial-chess/">Centennial Chess</a> – 10x10 with 4 new pieces; two moves per turn until first capture</li>
+<li><a href="variants/citadel-chess/">Citadel Chess</a> – 10x10 + 4 citadels; Shatranj al-Husun; King in citadel forces a draw</li>
+<li><a href="variants/grande-acedrex/">Grande Acedrex</a> – 12x12 medieval Spanish variant (Alfonso X, 1283); six unique piece types</li>
+<li><a href="variants/metamachy/">Metamachy</a> – 12x12 with 12 piece types; variable starting position for royals</li>
+<li><a href="variants/oblong-chess/">Oblong Chess</a> – 4x16 historical Shatranj variant; extreme board shifts piece values</li>
+<li><a href="variants/romanchenkos-chess/">Romanchenko’s Chess</a> – Modified 8x8 with broken columns; pedagogical tool against memorization</li>
+<li><a href="variants/shatranj-kamil/">Shatranj Kamil</a> – 10x10 ‘Complete Chess’; adds War Machines immune to check</li>
+<li><a href="variants/turkish-great-chess-ii/">Turkish Great Chess II</a> – 10x10; Prince (R+B+N), Kotwal (B+N), and Urdabegini pieces</li>
+<li><a href="variants/turkish-great-chess-iii/">Turkish Great Chess III</a> – 12x12; expanded Shatranj with Chariot and Dahja pieces</li>
+<li><a href="variants/turkish-great-chess-iv/">Turkish Great Chess IV</a> – 14x14; mixed Indian-Persian origin; weak Queen may be left en prise</li>
+</ul>
+</div>
+<h3>3D Chess</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/raumschach/">Raumschach</a> – 5x5x5 three-dimensional chess; adds Unicorn (triagonal slider)</li>
+</ul>
+</div>
+<h3>Multiplayer (3-4 Players)</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/djambi/">Djambi</a> – 9x9 four-player; corpses block movement; Maze centre grants power</li>
+<li><a href="variants/four-handed-chess/">Four-Handed Chess (Chaturaji)</a> – 8x8 four-player dice chess; points-based scoring, no checkmate</li>
+<li><a href="variants/los-alamos-vierschach/">Los Alamos Vierschach</a> – 84-square cross board; 4-player Los Alamos format with allied teams</li>
+<li><a href="variants/san-kwo-ki/">San-kwo-k’i</a> – Three-player Chinese chess representing the Three Kingdoms (220-280 CE)</li>
+<li><a href="variants/tandem-chess/">Tandem Chess</a> – Two boards, 4 players; captured pieces passed to partner for drops</li>
+<li><a href="variants/vierschach/">Vierschach</a> – German 4-player chess (Lutze); 160-square cross board; allied teams</li>
+<li><a href="variants/yalta-chess/">Yalta Chess</a> – 3-player on a circular Y-trisection board; captured armies absorbed</li>
+</ul>
+</div>
+<h3>Hidden Information</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/blind-chess/">Blind Chess (Banqi)</a> – Chinese hidden-piece game on 4x8 board; all pieces start face-down</li>
+<li><a href="variants/kriegspiel/">Kriegspiel</a> – Fog-of-war chess; referee announces partial information about moves</li>
+</ul>
+</div>
+<h3>Bughouse &amp; Team</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/delirious-bughouse/">Delirious Bughouse</a> – Bughouse with dice, worst-move mechanic, and fairy pieces</li>
+<li><a href="variants/stupidhouse/">Stupidhouse</a> – Bughouse where dropped pieces land on random squares</li>
 </ul>
 </div>
 </div>
@@ -229,7 +312,7 @@
 
 </div>
 
-<script type="module" src="../../js/toc.js?v=0.5.1"></script>
+<script type="module" src="../../js/toc.js?v=0.6.0"></script>
 <script type="module" src="../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

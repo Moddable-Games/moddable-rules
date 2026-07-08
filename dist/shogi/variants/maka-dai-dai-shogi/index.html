@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maka-Dai-Dai Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Maka-Dai-Dai Shogi.">
+<meta property="og:title" content="Maka-Dai-Dai Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Maka-Dai-Dai Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/maka-dai-dai-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/maka-dai-dai-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Maka-Dai-Dai Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Maka-Dai-Dai Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/maka-dai-dai-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/maka-dai-dai-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/maka-dai-dai-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Maka-Dai-Dai Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 16 of 24</span>
+    <h1 class="variant-cover-title">Maka-Dai-Dai Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">19×19</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Maka-Dai-Dai Shogi</h2>
+<p>Maka-Dai-Dai Shogi (摩訶大大将棋, <em>Great Dai-Dai Chess</em>) is a historical Japanese Shogi variant played on a 19×19 board — the same dimensions as a Go board. Each side starts with 96 pieces of 50 different types (192 pieces total), making it double the size of Chu Shogi. No drops; captured pieces are permanently removed.</p>
+<h3>The Board</h3>
+<p>19×19 grid. Standard Shogi orientation (sente at bottom). Files are labelled a–s (19 files); ranks 1–19. Pieces start on ranks 1–7 (Sente) and 13–19 (Gote); ranks 8–12 are empty at the start.</p>
+<h3>Royals</h3>
+<p>Three piece types are royal (their capture wins or advances the win condition):</p>
+<ul class="rules">
+<li><strong>King</strong> (j1) — standard King; promotes to <strong>Emperor</strong> (universal leaper)</li>
+<li><strong>Drunk Elephant</strong> (j2) — promotes to <strong>Crown Prince</strong> (royal King) on capture</li>
+<li><strong>Emperor</strong> (promoted King) — cannot be captured if protected</li>
+</ul>
+<p>Win: capture the opponent’s last royal. If the opponent has both a King and a Crown Prince (promoted Drunk Elephant), both must be captured.</p>
+<hr>
+<h3>Starting Setup</h3>
+<p>Only Sente’s side is given; Gote’s setup is Sente’s rotated 180°.</p>
+<p><strong>Rank 1 (back rank):</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Position</th>
+<th>Piece</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a1, s1</td>
+<td>Lance</td>
+<td>Slides forward orthogonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>b1, r1</td>
+<td>Earth General</td>
+<td>Steps 1 backward or forward orthogonally</td>
+<td>Free (slider in each step direction)</td>
+</tr>
+<tr>
+<td>c1, q1</td>
+<td>Stone General</td>
+<td>Steps 1 forward diagonally</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>d1, p1</td>
+<td>Tile General</td>
+<td>Steps 1 forward diagonally or 1 backward orthogonally</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>e1, o1</td>
+<td>Iron General</td>
+<td>Steps 1 forward orthogonally or forward diagonally</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>f1, n1</td>
+<td>Copper General</td>
+<td>Steps 1 forward diagonally or 1 vertical</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>g1, m1</td>
+<td>Silver General</td>
+<td>Steps 1 diagonally or 1 forward orthogonally</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>h1, l1</td>
+<td>Gold General</td>
+<td>Steps 1 orthogonally or 1 forward diagonally</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>i1</td>
+<td>Deva</td>
+<td>Steps 1 forward diagonally or 1 left or right or 1 forward left;</td>
+<td>Teaching King</td>
+</tr>
+<tr>
+<td>j1</td>
+<td>King</td>
+<td>Steps 1 in any direction</td>
+<td>Emperor</td>
+</tr>
+<tr>
+<td>k1</td>
+<td>Dark Spirit</td>
+<td>Steps 1 forward diagonally or 1 right or 1 left back</td>
+<td>Buddhist Spirit</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rank 2:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Position</th>
+<th>Piece</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a2, s2</td>
+<td>Reverse Chariot</td>
+<td>Slides forward or backward orthogonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>c2, q2</td>
+<td>Cat Sword</td>
+<td>Steps 1 diagonally</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>e2</td>
+<td>Chinese Cock</td>
+<td>Steps 1 forward diagonally or 1 backward sideways</td>
+<td>Wizard Stork (fRbWB)</td>
+</tr>
+<tr>
+<td>g2</td>
+<td>Coiled Serpent</td>
+<td>Steps 1 backward diagonally or 1 vertical</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>h2, l2</td>
+<td>Ferocious Leopard</td>
+<td>Steps 1 diagonally or 1 vertically</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>i2, k2</td>
+<td>Blind Tiger</td>
+<td>Steps 1 diagonally or 1 backward sideways</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>j2</td>
+<td>Drunk Elephant</td>
+<td>Steps 1 forward ortho/sideways or diagonal</td>
+<td>Crown Prince (royal King)</td>
+</tr>
+<tr>
+<td>m2</td>
+<td>Reclining Dragon</td>
+<td>Steps 1 orthogonally or 1 backward diagonally</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>o2</td>
+<td>Blind Monkey</td>
+<td>Steps 1 diagonally or 1 backward orthogonally</td>
+<td>Mountain Witch (bRfWB)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rank 3:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Position</th>
+<th>Piece</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>b3, r3</td>
+<td>Old Rat</td>
+<td>Leaps 2 forward diagonally or 2 backward orthogonally</td>
+<td>Bat (fRbB)</td>
+</tr>
+<tr>
+<td>d3, p3</td>
+<td>Angry Boar</td>
+<td>Steps 1 sideways</td>
+<td>Free Boar (BsR)</td>
+</tr>
+<tr>
+<td>f3, n3</td>
+<td>Blind Bear</td>
+<td>Steps 1 diagonally; slides backward orthogonally</td>
+<td>Free Bear</td>
+</tr>
+<tr>
+<td>h3, l3</td>
+<td>Evil Wolf</td>
+<td>Steps 1 forward diagonally or 1 forward orthogonally sideways</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>i3</td>
+<td>Kirin</td>
+<td>Steps 1 diagonally; leaps 2 orthogonally</td>
+<td>Great Dragon (sRvW²F³)</td>
+</tr>
+<tr>
+<td>j3</td>
+<td>Lion</td>
+<td>Lion power (up to 2 King moves per turn; may capture twice; may pass)</td>
+<td>Furious Fiend (Lion + Lion Dog)</td>
+</tr>
+<tr>
+<td>k3</td>
+<td>Phoenix</td>
+<td>Steps 1 orthogonally; leaps 2 diagonally</td>
+<td>Golden Bird (vRsW²F³)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rank 4:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Position</th>
+<th>Piece</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a4, s4</td>
+<td>Donkey</td>
+<td>Leaps 2 orthogonally; steps 1 sideways</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>c4, r4</td>
+<td>Knight</td>
+<td>Leaps 2 forward then 1 side (Shogi knight)</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>e4, p4</td>
+<td>Violent Ox</td>
+<td>Steps 2 orthogonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>g4, n4</td>
+<td>Flying Dragon</td>
+<td>Leaps 2 diagonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>h4</td>
+<td>Buddhist Devil</td>
+<td>Steps 3 forward diagonally; steps 1 backward sideways</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>i4</td>
+<td>Wrestler</td>
+<td>Steps 3 diagonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>j4</td>
+<td>Lion Dog</td>
+<td>Up to 3 steps along any ray; may hop; may capture adjacent without moving</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>k4</td>
+<td>Guardian of the Gods</td>
+<td>Steps 3 orthogonally; steps 1 forward diagonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>l4</td>
+<td>She-Devil</td>
+<td>Steps 5 orthogonally; leaps 2 diagonally</td>
+<td>Gold General</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rank 5:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Position</th>
+<th>Piece</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a5, s5</td>
+<td>Rook</td>
+<td>Slides orthogonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>b5</td>
+<td>Left Chariot</td>
+<td>Slides forward ortho; steps 1 backward; slides left-forward and right-backward diagonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>c5, q5</td>
+<td>Side Mover</td>
+<td>Slides sideways; steps 1 vertically</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>d5, p5</td>
+<td>Side Flyer</td>
+<td>Leaps diagonally; slides sideways</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>e5, o5</td>
+<td>Vertical Mover</td>
+<td>Slides vertically; steps 1 sideways</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>f5, n5</td>
+<td>Bishop</td>
+<td>Slides diagonally</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>g5, m5</td>
+<td>Dragon Horse</td>
+<td>Steps 1 orthogonally; slides diagonally</td>
+<td>Does not promote</td>
+</tr>
+<tr>
+<td>h5, l5</td>
+<td>Dragon King</td>
+<td>Steps 1 diagonally; slides orthogonally</td>
+<td>Does not promote</td>
+</tr>
+<tr>
+<td>i5</td>
+<td>Capricorn</td>
+<td>Bishop that may make one 90° turn in its path</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>j5</td>
+<td>Queen</td>
+<td>Slides orthogonally or diagonally</td>
+<td>Does not promote</td>
+</tr>
+<tr>
+<td>k5</td>
+<td>Hook Mover</td>
+<td>Rook that may make one 90° turn in its path</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>r5</td>
+<td>Right Chariot</td>
+<td>Slides forward ortho; steps 1 backward; slides right-forward and left-backward diagonally</td>
+<td>Gold General</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Ranks 6–7:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Position</th>
+<th>Piece</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a6–s6</td>
+<td>Pawn (steps 1 forward orthogonally)</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td>f7, n7</td>
+<td>Go-Between (steps 1 forward or backward orthogonally)</td>
+<td>Free (slider version)</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h3>Key Piece Descriptions</h3>
+<p><strong>Lion:</strong> Moves up to twice per turn in independent directions. The second move may be a capture, pass, or hop. Can capture two pieces in one turn or pass its turn by moving to an adjacent empty square and back. The strongest piece in Chu Shogi; in Maka-Dai-Dai there are no restrictions on capturing Lions.</p>
+<p><strong>Lion Dog:</strong> Takes up to three steps along any ray through its position. Each step may be a move, capture, or hop. Can return to the starting square but cannot overshoot it. Effectively attacks up to 3 squares in any direction with line-of-sight modification.</p>
+<p><strong>Teaching King (promoted Deva):</strong> Moves as Lion Dog or Queen. Contagious: any piece that captures the Teaching King promotes to Teaching King (except royals, which promote to their own promoted form).</p>
+<p><strong>Buddhist Spirit (promoted Dark Spirit):</strong> Moves as Lion or Queen. Same contagious promotion rule as Teaching King.</p>
+<p><strong>Furious Fiend (promoted Lion):</strong> Moves as Lion Dog or Lion.</p>
+<p><strong>Emperor (promoted King):</strong> Universal Leaper — can move to any square on the board. Cannot capture a protected piece (any piece the opponent could recapture if play continued). Both Emperors can only capture each other if unprotected.</p>
+<p><strong>Hook Mover:</strong> A Rook that may make one 90° turn anywhere in its path (but is not required to turn). Like a Rook, it stops at the point of capture.</p>
+<p><strong>Capricorn:</strong> A Bishop that may make one 90° turn anywhere in its path.</p>
+<hr>
+<h3>Promotion</h3>
+<ul class="rules">
+<li>Promotion may occur <strong>anywhere on the board</strong>, triggered by <strong>making a capture</strong> (not by entering a zone)</li>
+<li>Each piece has a fixed promoted form — there is no choice</li>
+<li>Promoted condition is <strong>contagious for Teaching King and Buddhist Spirit</strong>: any piece that captures TK or BS promotes to that piece (royals are immune, promoting to their own form instead)</li>
+<li>When capturing a promoted piece, you <strong>must</strong> promote</li>
+<li>When capturing an unpromoted piece, promotion is optional</li>
+<li>Promotion is irreversible</li>
+<li>The Deva and Dark Spirit (unpromoted) also trigger contagious promotion on capture</li>
+</ul>
+<h3>Repetition</h3>
+<p>Repetition is forbidden. The convention (following Asian chess traditions) is that the player giving perpetual check or perpetually chasing must be the one to deviate.</p>
+<h3>Attribution</h3>
+<p>Maka-Dai-Dai Shogi is a historical Japanese chess variant of unknown precise origin. Rules documented from chessvariants.com/rules/maka-dai-dai-shogi, authored by H. G. Muller.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../kyoto-shogi/" class="variant-pager-prev">← Kyoto Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../minishogi/" class="variant-pager-next">Minishogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kriegspiel — Moddable Chess</title>
+<meta name="description" content="Complete rules for Kriegspiel.">
+<meta property="og:title" content="Kriegspiel — Moddable Chess">
+<meta property="og:description" content="Complete rules for Kriegspiel.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/kriegspiel.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/kriegspiel/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kriegspiel — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Kriegspiel.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/kriegspiel.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/kriegspiel.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/kriegspiel.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Kriegspiel · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 83 of 155</span>
+    <h1 class="variant-cover-title">Kriegspiel</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2 + referee</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Kriegspiel</h1>
+<p><strong>Invented by Henry Michael Temple, 1899, South Africa. Played by several famous players including Emanuel Lasker.</strong></p>
+<h2>Overview</h2>
+<p>Kriegspiel is chess with incomplete information. Each player can see only their own pieces — not the opponent’s position or moves. A referee maintains a third “master” board with all pieces visible and arbitrates all play. Players must deduce the opponent’s position from the referee’s announcements.</p>
+<h2>Equipment</h2>
+<p>Three chess boards are needed:</p>
+<ul class="rules">
+<li>One board for White (only White pieces visible)</li>
+<li>One board for Black (only Black pieces visible)</li>
+<li>One master board for the referee (all pieces visible)</li>
+</ul>
+<h2>Setup</h2>
+<p>Standard FIDE starting position on all three boards.</p>
+<pre><code>FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+</code></pre>
+<h2>Rules</h2>
+<p>All standard FIDE rules apply to the actual position (as tracked by the referee). The difference is in what players can perceive:</p>
+<h3>Turn Sequence</h3>
+<p>On their turn, a player <strong>attempts a move</strong>:</p>
+<ul class="rules">
+<li>If the move is <strong>legal</strong>, the referee announces that the player has moved, and the turn passes to the opponent.</li>
+<li>If the move is <strong>illegal</strong>, the referee announces an illegal attempt. The player must keep trying until a legal move is made.</li>
+</ul>
+<p>All referee announcements are heard by both players.</p>
+<h3>Announcements</h3>
+<p><strong>Check</strong>: When a move gives check, the referee announces check and specifies the <strong>direction</strong>:</p>
+<ul class="rules">
+<li>Along a rank (row)</li>
+<li>Along a file (column)</li>
+<li>Along the “small diagonal” (a1–h8 direction)</li>
+<li>Along the “large diagonal” (h1–a8 direction)</li>
+<li>By a Knight</li>
+</ul>
+<p>The exact location of the checking piece is not revealed.</p>
+<p><strong>Capture</strong>: When a piece is captured, the referee announces the <strong>square where the capture occurred</strong> (e.g., “White has captured on d3”). The type of piece doing the capturing and the type of piece captured are not revealed.</p>
+<p><strong>En passant</strong>: En passant captures are specifically announced as such (e.g., “Black has taken en passant on f3”).</p>
+<h3>Pawn Capture Query</h3>
+<p>Before attempting a move, a player may ask: <strong>“Any?”</strong> (“Are there any pawn captures?”).</p>
+<ul class="rules">
+<li>The referee answers <strong>“No”</strong> if the player has no available pawn captures.</li>
+<li>The referee answers <strong>“Try!”</strong> if at least one pawn capture is available.
+<ul class="rules">
+<li>After a “Try!”, the player must attempt at least one pawn capture before being allowed to try other moves. If the capture attempt is illegal (wrong square), they may try further captures or any other legal move.</li>
+</ul>
+</li>
+</ul>
+<h3>Etiquette</h3>
+<p>If a player deliberately attempts a move they know to be illegal (e.g., asking “Any?” with no pawns, or trying moves purely to confuse the opponent), the referee says <strong>“Impossible”</strong> so the opponent is not misled. This is considered bad manners.</p>
+<h2>Strategy Notes</h2>
+<p>Kriegspiel rewards probabilistic reasoning and deduction. Each referee announcement narrows the possible enemy positions. Players must balance information-gathering moves (probing pawn captures, checking to reveal enemy positions) against normal strategic play. The game involves less luck and more deductive skill than the rules might initially suggest.</p>
+<p><em>Source: chessvariants.com/incinf.dir/kriegspiel.html; based on Gollon and Pritchard</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../knightmate/" class="variant-pager-prev">← Knightmate</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../legan-chess/" class="variant-pager-next">Legan Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bird's Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Bird's Chess.">
+<meta property="og:title" content="Bird's Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Bird's Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/birds-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/birds-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bird's Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Bird's Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/birds-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/birds-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/birds-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Bird's Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 21 of 155</span>
+    <h1 class="variant-cover-title">Bird's Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">10×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Bird’s Chess</h1>
+<p><strong>Invented by Henry Bird, 1874. Published in the City of London Chess Magazine. A predecessor to Capablanca’s Chess.</strong></p>
+<h2>Overview</h2>
+<p>Bird’s Chess extends standard chess to a 10×8 board by adding two compound pieces per side: the Guard (Rook + Knight) and the Equerry (Bishop + Knight). Capablanca likely drew inspiration from this game when designing Capablanca’s Chess.</p>
+<h2>Setup</h2>
+<p>10-file board (files a–j), 8 ranks.</p>
+<pre><code>FEN: rnbgqkebnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBGQKEBNR w - - 0 1
+(G/g = Guard, E/e = Equerry)
+</code></pre>
+<p><strong>White (rank 1, a–j):</strong> Rook(a1), Knight(b1), Bishop(c1), Guard(d1), Queen(e1), King(f1), Equerry(g1), Bishop(h1), Knight(i1), Rook(j1)
+<strong>White Pawns (rank 2):</strong> a2–j2</p>
+<p><strong>Black (rank 8, a–j):</strong> Rook(a8), Knight(b8), Bishop(c8), Guard(d8), Queen(e8), King(f8), Equerry(g8), Bishop(h8), Knight(i8), Rook(j8)
+<strong>Black Pawns (rank 7):</strong> a7–j7</p>
+<p><em>Alternative: Black’s back rank may mirror White’s (with Black’s Queen on the same file as White’s Queen). Either setup is playable.</em></p>
+<h2>Pieces</h2>
+<p>All standard FIDE pieces move as usual. Two additional pieces:</p>
+<h3>Guard</h3>
+<p>Moves as a <strong>Rook</strong> (slides orthogonally any distance) <strong>or</strong> a <strong>Knight</strong> (L-shape leap). Equivalent to the Chancellor.</p>
+<h3>Equerry</h3>
+<p>Moves as a <strong>Bishop</strong> (slides diagonally any distance) <strong>or</strong> a <strong>Knight</strong> (L-shape leap). Equivalent to the Archbishop. Not colour-bound.</p>
+<h2>Rules</h2>
+<p>All standard FIDE rules apply with the following modifications:</p>
+<h3>Castling</h3>
+<p>Castling uses a modified rule. The King moves <strong>three squares</strong> toward the Rook; the Rook then jumps over the King to land on the square immediately adjacent to the King on the side toward center:</p>
+<ul class="rules">
+<li><strong>Queenside castling</strong> (toward a1): King moves f1→c1 (three squares left); Rook moves a1→d1.</li>
+<li><strong>Kingside castling</strong> (toward j1): King moves f1→i1 (three squares right); Rook moves j1→h1.</li>
+</ul>
+<p>The same applies symmetrically for Black. Standard castling conditions apply: neither King nor Rook may have moved previously; no pieces between them; King not in check; King does not pass through check.</p>
+<h3>Pawn Promotion</h3>
+<p>Pawns reaching the far rank may promote to: Queen, Guard, Equerry, Bishop, Rook, or Knight.</p>
+<h3>All Other Rules</h3>
+<p>En passant, stalemate (draw), and all other FIDE rules apply normally.</p>
+<p><em>Source: chessvariants.com/large.dir/bird.html; based on Gollon manuscript sent to Greenwood, 1976</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../berserk/" class="variant-pager-prev">← Berserk Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../blind-chess/" class="variant-pager-next">Blind Chess (Banqi) →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

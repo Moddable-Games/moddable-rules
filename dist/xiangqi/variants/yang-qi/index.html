@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yáng Qí — Xiangqi</title>
+<meta name="description" content="Complete rules for Yáng Qí.">
+<meta property="og:title" content="Yáng Qí — Xiangqi">
+<meta property="og:description" content="Complete rules for Yáng Qí.">
+<meta property="og:image" content="https://rules.moddable.games/games/xiangqi/og-variants/yang-qi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/xiangqi/variants/yang-qi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yáng Qí — Xiangqi">
+<meta name="twitter:description" content="Complete rules for Yáng Qí.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/xiangqi/og-variants/yang-qi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/xiangqi/content/variants/yang-qi.md" class="hdr-link">Markdown</a><a href="../../../../games/xiangqi/pdf/variants/yang-qi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Yáng Qí · Xiangqi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Xiangqi · Variant 8 of 8</span>
+    <h1 class="variant-cover-title">Yáng Qí</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">9×10</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Overview</h2>
+<p>Yáng Qí (also spelled Yang Qi, Yangqi, or Yang Chi) was designed by Fergus Duniho in 2001 as a Western-influenced redesign of Chinese Chess. While classified under the Xiangqi family, Yáng Qí plays closer to orthodox FIDE chess: it replaces most Xiangqi-specific pieces with Western equivalents, removes river and fortress restrictions, and extends the Cannon’s screen-capture mechanic to both orthogonal and diagonal pieces.</p>
+<p>The name uses the Chinese cosmological concept of Yáng (active, strong, masculine), indicating pieces are generally stronger than in Xiàng Qí. The game may also be called Yankee — the creator is a Yankee, and the transliteration is a happy coincidence.</p>
+<h2>Board and Setup</h2>
+<p>Played on a checkered 9×10 board (files a–i, ranks 1–10). White occupies the bottom (ranks 1–4), Black the top (ranks 7–10). Pieces occupy squares, not intersections.</p>
+<p>White starting position:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>a</th>
+<th>b</th>
+<th>c</th>
+<th>d</th>
+<th>e</th>
+<th>f</th>
+<th>g</th>
+<th>h</th>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>—</td>
+<td>P</td>
+<td>—</td>
+<td>P</td>
+<td>—</td>
+<td>P</td>
+<td>—</td>
+<td>P</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>P</td>
+<td>—</td>
+<td>P</td>
+<td>—</td>
+<td>P</td>
+<td>—</td>
+<td>P</td>
+<td>—</td>
+<td>P</td>
+</tr>
+<tr>
+<td>2</td>
+<td>—</td>
+<td>C</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>C</td>
+<td>—</td>
+</tr>
+<tr>
+<td>1</td>
+<td>R</td>
+<td>N</td>
+<td>B</td>
+<td>V</td>
+<td>K</td>
+<td>V</td>
+<td>B</td>
+<td>N</td>
+<td>R</td>
+</tr>
+</tbody>
+</table></div>
+<p>Black mirrors on ranks 10 (back rank), 9 (Cannons), 8 (odd-file Pawns), 7 (even-file Pawns).</p>
+<p><strong>Piece key:</strong> R = Rook, N = Knight, B = Bishop, V = Canon/Vao, K = King, C = Cannon, P = Pawn</p>
+<p>Setup notes:</p>
+<ul class="rules">
+<li>Rank 1 (White): R(a1) N(b1) B(c1) V(d1) K(e1) V(f1) B(g1) N(h1) R(i1)</li>
+<li>Rank 2 (White Cannons): C(b2), C(h2)</li>
+<li>Rank 3 (White Pawns on odd files): P(a3) P(c3) P(e3) P(g3) P(i3)</li>
+<li>Rank 4 (White Pawns on even files): P(b4) P(d4) P(f4) P(h4)</li>
+</ul>
+<p>Each player has 9 Pawns arranged in a staggered two-rank pattern. Pawns on rank 3 may double-advance; Pawns on rank 4 may not.</p>
+<h2>Pieces</h2>
+<p><strong>King (K)</strong> — moves one square in any direction. Cannot move into check. No castling. Has a special swap move (see below).</p>
+<p><strong>Canon / Vao / Arrow (V)</strong> — slides any number of squares diagonally (like a FIDE Bishop) when not capturing. To capture, must jump over exactly one intervening piece (the screen) and land on the first enemy piece beyond it along the same diagonal. Cannot capture without a screen.</p>
+<p><strong>Bishop / Sage (B)</strong> — slides any number of squares diagonally. Captures normally by moving to the target square. No screen mechanic — this is the standard FIDE Bishop.</p>
+<p><strong>Knight / Horse (N)</strong> — jumps in an L-shape (two squares in one direction, one square perpendicular), leaping over intervening pieces. This is the leaping FIDE Knight, not the blockable Xiangqi Horse.</p>
+<p><strong>Rook / Chariot ®</strong> — slides any number of squares orthogonally. Captures normally.</p>
+<p><strong>Cannon / Pao ©</strong> — slides any number of squares orthogonally (like a Rook) when not capturing. To capture, must jump over exactly one intervening piece (the screen) and land on the first enemy piece beyond it along the same rank or file. Cannot capture without a screen.</p>
+<p><strong>Pawn (P)</strong> — moves one square forward. Captures one square diagonally forward (not straight, unlike Xiangqi). Pawns starting on rank 3 may advance two squares on their first move; Pawns starting on rank 4 do not get a double advance. En passant applies when a rank-3 Pawn double-advances past a square adjacent to an enemy Pawn on rank 5. Promotes on reaching the last rank.</p>
+<h2>Special Rules</h2>
+<p><strong>King Swap:</strong> When the King is not in check, it may swap places with any adjacent friendly piece except a Pawn. This counts as the entire turn. The swap may be used any number of times throughout the game. Its primary purpose is to allow Bishops and Canons to change the color of squares they control, and to give flexible defensive options.</p>
+<p><strong>Pawn Promotion:</strong> A Pawn reaching the opponent’s last rank (rank 10 for White, rank 1 for Black) promotes to any one of the player’s currently captured pieces. If no captured pieces are available, the Pawn cannot advance to the last rank.</p>
+<p><strong>No castling.</strong></p>
+<p><strong>Stalemate:</strong> draw (standard FIDE convention applies for cases not otherwise specified).</p>
+<h2>Notation</h2>
+<p>Algebraic notation as in FIDE Chess. Per the Fairy Alphabet (Anthony Dickins, <em>A Guide to Fairy Chess</em>): P denotes the Cannon/Pao, V denotes the Canon/Vao. Pawn moves are recorded without a piece letter. A King swap may be recorded as a King move with a semicolon and the other piece’s move to the King’s former square for fuller notation.</p>
+<h2>Attribution</h2>
+<p>Yáng Qí was designed by Fergus Duniho. WWW page created June 9, 2001; last modified June 21, 2001. Rules documented from chessvariants.com/xiangqivariants.dir/yangqi.html.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../xiangqi-42/" class="variant-pager-prev">← Xiangqi 42</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <span class="variant-pager-spacer"></span>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Xiangqi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

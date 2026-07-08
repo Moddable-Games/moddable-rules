@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hexapawn — Moddable Chess</title>
+<meta name="description" content="Complete rules for Hexapawn.">
+<meta property="og:title" content="Hexapawn — Moddable Chess">
+<meta property="og:description" content="Complete rules for Hexapawn.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/hexapawn.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/hexapawn/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hexapawn — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Hexapawn.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/hexapawn.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/hexapawn.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/hexapawn.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Hexapawn · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 72 of 155</span>
+    <h1 class="variant-cover-title">Hexapawn</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">3×3</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Hexapawn</h2>
+<p>Hexapawn is a minimal chess variant invented by Martin Gardner and published in his <em>Mathematical Games</em> column in <em>Scientific American</em>, March 1962. It is played on a 3×3 board using only Pawns — three per side. Gardner designed it as an educational tool: the game tree is small enough that a child (or an assembly of matchboxes, each representing one board position) can learn to play perfectly through reinforcement.</p>
+<h3>The Board</h3>
+<p>3 files (a–c) × 3 ranks = 9 squares.</p>
+<h3>Starting Position</h3>
+<p><strong>White:</strong> Pawns on a1, b1, c1 (rank 1)</p>
+<p><strong>Black:</strong> Pawns on a3, b3, c3 (rank 3)</p>
+<h3>Pieces</h3>
+<p>Only Pawns. Pawns move as in standard chess:</p>
+<ul class="rules">
+<li>One square forward (toward the opponent’s back rank).</li>
+<li>Capture one square diagonally forward.</li>
+<li><strong>No double first step</strong> (the board is too small for it to matter).</li>
+<li><strong>No promotion</strong> (reaching the far rank is already a win condition).</li>
+</ul>
+<h3>Win Conditions</h3>
+<p>A player wins by:</p>
+<ol>
+<li>Advancing one Pawn to the opponent’s back rank (rank 3 for White, rank 1 for Black).</li>
+<li>Leaving the opponent with no legal moves on their turn.</li>
+</ol>
+<p>A player with no legal moves on their turn loses.</p>
+<h3>Game Theory</h3>
+<p>Hexapawn is a solved game. With perfect play, <strong>Black always wins</strong>. The total game tree is small enough to analyze completely by hand. Gardner famously used it to demonstrate machine learning: a set of matchboxes (one per board position) filled with beads (one per legal move) could “learn” to play perfectly by removing beads from losing positions after each defeat.</p>
+<p>The perfect strategy for Black: if White advances a side Pawn, Black captures; if White advances the centre Pawn, Black captures with either adjacent Pawn and can force a stalemate or promotion.</p>
+<p>Variants on larger boards (3×4, 4×4, and up to 8×8) have been analyzed. On a 3×4 board, Black still wins; on a 4×4 board, White wins. See chessvariants.com/small.dir/hexapawn.html for a complete table of winners by board size and pawn type.</p>
+<h3>Attribution</h3>
+<p>Hexapawn was invented by Martin Gardner, published in <em>Scientific American</em>, March 1962 (reprinted in <em>The Unexpected Hanging and Other Mathematical Diversions</em>). Chessvariants.com page written by Robert Price.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../half-chess/" class="variant-pager-prev">← Half Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../hole-chess/" class="variant-pager-next">Hole Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

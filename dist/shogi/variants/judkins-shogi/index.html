@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Judkins' Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Judkins' Shogi.">
+<meta property="og:title" content="Judkins' Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Judkins' Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/judkins-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/judkins-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Judkins' Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Judkins' Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/judkins-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/judkins-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/judkins-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Judkins' Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 14 of 24</span>
+    <h1 class="variant-cover-title">Judkins' Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">6×6</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Judkins’ Shogi</h1>
+<p><strong>Modern miniature Shogi variant on a 6×6 board. Named after its inventor.</strong></p>
+<h2>Overview</h2>
+<p>Judkins’ Shogi compresses modern Shogi onto a 6×6 board with 7 pieces per side, retaining drops. It plays very similarly to standard Shogi but in a much faster format.</p>
+<h2>Setup</h2>
+<p>Each player has 7 pieces: King, Gold, Silver, Knight, Bishop, Rook, and one Pawn.</p>
+<pre><code>FEN: rbsgkn/5p/6/6/P5/NKGSBR w - - 0 1
+(Approximate; pawn is on the square directly in front of the King)
+</code></pre>
+<p><strong>White (rank 1, left to right):</strong> Rook(a1), Bishop(b1), Silver(c1), Gold(d1), King(e1), Knight(f1)
+<strong>White (rank 2):</strong> Pawn at e2 (directly in front of the King)</p>
+<p>Black mirrors White on the opposite side of the board.</p>
+<h2>Pieces</h2>
+<p>All pieces move exactly as in standard Shogi:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Movement</th>
+<th>Promotes To</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>King</strong></td>
+<td>One step any direction</td>
+<td>Does not promote</td>
+</tr>
+<tr>
+<td><strong>Gold General</strong></td>
+<td>One step ortho. or diagonally forward</td>
+<td>Does not promote</td>
+</tr>
+<tr>
+<td><strong>Rook</strong></td>
+<td>Slides ortho. any distance</td>
+<td>Dragon (Rook + diagonal step)</td>
+</tr>
+<tr>
+<td><strong>Bishop</strong></td>
+<td>Slides diagonally any distance</td>
+<td>Horse (Bishop + ortho. step)</td>
+</tr>
+<tr>
+<td><strong>Silver General</strong></td>
+<td>One step diagonally or straight forward</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td><strong>Knight</strong></td>
+<td>Forward L-shape only (1+2 forward, jumps over)</td>
+<td>Gold General</td>
+</tr>
+<tr>
+<td><strong>Pawn</strong></td>
+<td>One step straight forward</td>
+<td>Gold General</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Promotion</h2>
+<p>The <strong>promotion zone</strong> is the <strong>last 2 ranks</strong> (ranks 5–6 for White). Promotion is optional at the end of a turn when the move enters, moves within, or leaves the promotion zone, except:</p>
+<ul class="rules">
+<li>A Pawn must promote upon reaching rank 6 (the last rank), as it could not otherwise move.</li>
+<li>A Knight must promote upon reaching rank 5, as it could not otherwise move forward.</li>
+</ul>
+<h2>Drops</h2>
+<p>Captured pieces are held in hand and may be dropped on any empty square on the player’s turn, with these restrictions:</p>
+<ul class="rules">
+<li>A piece may not be dropped on a square from which it has no legal moves (Pawns cannot be dropped on the last rank).</li>
+<li>A Pawn may not be dropped into a file already containing an unpromoted friendly Pawn.</li>
+<li>A Pawn may not be dropped to give immediate checkmate.</li>
+<li>A piece dropped inside the promotion zone does <strong>not</strong> promote immediately; it may promote on a subsequent move.</li>
+</ul>
+<p>All promoted pieces revert to their unpromoted form when captured and returned to hand.</p>
+<p><em>Source: chessvariants.com/shogivariants.dir/judkin.html</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../hex-shogi-91/" class="variant-pager-prev">← Hex Shogi 91</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../kyoto-shogi/" class="variant-pager-next">Kyoto Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

@@ -1,11 +1,23 @@
 ---
 title: "Khan's Chess"
 slug: khans-chess
+board: "8×8"
+players: "2"
+parent: moddable-chess
+win: "Checkmate or Campmate"
+special: "Asymmetric: White plays FIDE chess, Gold commands the Mongol Horde — all Horde pieces except Khan and Kheshig are divergent (move ≠ capture). Stalemate is a loss. Campmate wins (King to opponent's back rank)."
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  players: [white, gold]
+  asymmetric: true
 published: true
 status: draft
-updated: 2026-07-06
+updated: 2026-07-07
 category: asymmetric-armies
-order: 
+order:
 tags:
   - asymmetric
   - divergent-pieces
@@ -27,15 +39,19 @@ Khan's Chess is played on a standard 8×8 board. White controls the **Kingdom** 
 
 ### Kingdom (White) Starting Position
 
-Rank 1: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook  
+Rank 1: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook
 Rank 2: eight Pawns
 
 ### Horde (Gold) Starting Position
 
-Rank 8: Lancer, Kheshig, Horse Archer, Khatun, Khan, Horse Archer, Kheshig, Lancer  
+Rank 8: Lancer, Kheshig, Horse Archer, Khatun, Khan, Horse Archer, Kheshig, Lancer
 Rank 7: eight Scouts
 
 The Horde back rank mirrors the Kingdom's layout: Lancers occupy the Rook squares, Kheshigs occupy the Knight squares, Horse Archers occupy the Bishop squares, Khatun occupies the Queen square, and the Khan occupies the King square.
+
+**FEN:** `lhatkahl/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR w KQ - 0 1`
+
+*(Piece letters — Gold: l=Lancer, h=Kheshig, a=Horse Archer, t=Khatun, k=Khan, s=Scout)*
 
 ## General Rules
 

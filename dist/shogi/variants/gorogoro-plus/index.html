@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gorogoro+ — Shogi</title>
+<meta name="description" content="Complete rules for Gorogoro+.">
+<meta property="og:title" content="Gorogoro+ — Shogi">
+<meta property="og:description" content="Complete rules for Gorogoro+.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/gorogoro-plus.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/gorogoro-plus/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gorogoro+ — Shogi">
+<meta name="twitter:description" content="Complete rules for Gorogoro+.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/gorogoro-plus.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/gorogoro-plus.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/gorogoro-plus.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Gorogoro+ · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 30 of 24</span>
+    <h1 class="variant-cover-title">Gorogoro+</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">5×6</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Gorogoro+</h2>
+<p>Gorogoro+ is a compact Shogi variant played on a 5×6 board. It follows standard Shogi rules but with a reduced piece set — the Bishop and Rook are removed entirely. Each player begins with one Knight and one Lance in hand (available for drops from the first move). Promotion occurs only in the last two ranks.</p>
+<h3>Setup</h3>
+<p><strong>Board:</strong> 5 files (a–e) × 6 ranks.</p>
+<p><strong>Pieces per player on board:</strong> 9 — King, 2 Gold Generals, 2 Silver Generals, 2 Knights, 2 Lances. No Rook, no Bishop, no Pawns on board at start.</p>
+<p><strong>Pieces per player in hand at start:</strong> 1 Knight (N), 1 Lance (L).</p>
+<p><strong>Starting position:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rank 1 — Gote back</td>
+<td>Silver · Gold · King · Gold · Silver</td>
+</tr>
+<tr>
+<td>Rank 2 — Gote</td>
+<td>(empty)</td>
+</tr>
+<tr>
+<td>Rank 3 — Gote pawns</td>
+<td>· Pawn · Pawn · Pawn · (files b, c, d)</td>
+</tr>
+<tr>
+<td>Rank 4 — Sente pawns</td>
+<td>· Pawn · Pawn · Pawn · (files b, c, d)</td>
+</tr>
+<tr>
+<td>Rank 5 — Sente</td>
+<td>(empty)</td>
+</tr>
+<tr>
+<td>Rank 6 — Sente back</td>
+<td>Silver · Gold · King · Gold · Silver</td>
+</tr>
+</tbody>
+</table></div>
+<p>Gote starts with Knight (n) and Lance (l) in hand. Sente starts with Knight (N) and Lance (L) in hand. Gote moves first.</p>
+<p><strong>SFEN:</strong> <code>sgkgs/5/1ppp1/1PPP1/5/SGKGS[LNln] w 0 1</code></p>
+<p><em>(S/s = Silver General, G/g = Gold General, K/k = King, P/p = Pawn, L/l = Lance, N/n = Knight. [LNln] = Sente hand: Lance + Knight; Gote hand: lance + knight.)</em></p>
+<h3>Pieces</h3>
+<p>All standard Shogi pieces except the Rook and Bishop are used. Movement is identical to standard Shogi.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Abbreviation</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>K</td>
+<td>One square any direction</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Gold General</td>
+<td>G</td>
+<td>One square orthogonally or diagonally forward</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Silver General</td>
+<td>S</td>
+<td>One square diagonally or directly forward</td>
+<td>Promoted Silver (moves as Gold)</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>N</td>
+<td>Two squares forward, one sideways; jumps</td>
+<td>Promoted Knight (moves as Gold)</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>L</td>
+<td>Any number of squares directly forward</td>
+<td>Promoted Lance (moves as Gold)</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>P</td>
+<td>One square directly forward</td>
+<td>Tokin (moves as Gold)</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Rules</h3>
+<p>All standard Shogi drop rules apply:</p>
+<ul class="rules">
+<li>No two Pawns of the same player may occupy the same file (Nifu).</li>
+<li>A Pawn may not be dropped to deliver immediate checkmate.</li>
+<li>Pawns and Lances cannot be dropped on the final rank; Knights cannot be dropped on the final two ranks.</li>
+</ul>
+<p><strong>Promotion zone:</strong> the last <strong>two ranks</strong> (ranks 5–6 for Sente, ranks 1–2 for Gote). Pieces may promote when moving into, out of, or within the promotion zone.</p>
+<p><strong>Starting hand:</strong> Both players begin with a Knight and Lance in hand. These may be dropped on any eligible empty square from the first move.</p>
+<h3>Win Conditions</h3>
+<p>Checkmate the opponent’s King. Stalemate is a loss for the player who cannot move.</p>
+<h3>Attribution</h3>
+<p>Gorogoro+ is a Shogi family variant. Rules documented from pychess.org/variants/gorogoroplus.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../dobutsu/" class="variant-pager-prev">← Dobutsu Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../tori-shogi/" class="variant-pager-next">Tori Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

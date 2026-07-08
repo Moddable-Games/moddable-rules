@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tori Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Tori Shogi.">
+<meta property="og:title" content="Tori Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Tori Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/tori-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/tori-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tori Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Tori Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/tori-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/tori-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/tori-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Tori Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 40 of 24</span>
+    <h1 class="variant-cover-title">Tori Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">7×7</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Tori Shogi</h2>
+<p>Tori Shogi (禽将棋, “Bird Shogi”) is a Shogi variant invented by Toyota Genryu in 1799, traditionally attributed to his master Ohashi Soei. Played on a 7×7 board with a bird-themed piece set, Tori Shogi has sustained popularity, English-language books, and active tournaments. It is one of the oldest Shogi variants to use the drop rule. The goal is to checkmate the opposing <strong>Phoenix</strong> (the royal piece).</p>
+<h3>Setup</h3>
+<p><strong>Board:</strong> 7 files (a–g) × 7 ranks.</p>
+<p><strong>Pieces per player:</strong> 16 — 1 Phoenix, 1 Left Quail, 1 Right Quail, 2 Cranes, 2 Pheasants, 1 Falcon, 8 Swallows.</p>
+<p><strong>Starting position:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rank 1 — Gote back</td>
+<td>Right Quail(a) · Pheasant(b) · Crane© · Phoenix(d) · Crane(e) · Pheasant(f) · Left Quail(g)</td>
+</tr>
+<tr>
+<td>Rank 2 — Gote</td>
+<td>· · · Falcon(d) · · ·</td>
+</tr>
+<tr>
+<td>Rank 3 — Gote Swallows</td>
+<td>Swallow × 7 (all files)</td>
+</tr>
+<tr>
+<td>Rank 4 — Advanced</td>
+<td>Gote Swallow© · · · Sente Swallow(e)</td>
+</tr>
+<tr>
+<td>Rank 5 — Sente Swallows</td>
+<td>Swallow × 7 (all files)</td>
+</tr>
+<tr>
+<td>Rank 6 — Sente</td>
+<td>· · · Falcon(d) · · ·</td>
+</tr>
+<tr>
+<td>Rank 7 — Sente back</td>
+<td>Left Quail(a) · Pheasant(b) · Crane© · Phoenix(d) · Crane(e) · Pheasant(f) · Right Quail(g)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Each side’s 8 Swallows: 7 on their home Swallow rank + 1 advanced to rank 4. Gote moves first.</p>
+<p><strong>SFEN:</strong> <code>rpckcpl/3f3/sssssss/2s1S2/SSSSSSS/3F3/LPCKCPR[-] w 0 1</code></p>
+<p><em>(Piece letter assignments — r/R = Right Quail, l/L = Left Quail, p/P = Pheasant, c/C = Crane, k/K = Phoenix (royal), f/F = Falcon, s/S = Swallow. Empty hand at start: [-].)</em></p>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Symbol</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Phoenix</strong></td>
+<td>K</td>
+<td>One step in any of the 8 directions. Royal piece.</td>
+</tr>
+<tr>
+<td><strong>Crane</strong></td>
+<td>C</td>
+<td>One step in any direction <strong>except</strong> left or right (six directions: forward, backward, four diagonals).</td>
+</tr>
+<tr>
+<td><strong>Pheasant</strong></td>
+<td>P</td>
+<td>One step diagonally <strong>backward</strong> (two diagonal directions), OR jumps <strong>two squares straight forward</strong> (cannot be blocked).</td>
+</tr>
+<tr>
+<td><strong>Left Quail</strong></td>
+<td>L</td>
+<td>Slides any number of squares straight forward; slides any number of squares diagonally right-backward; one step diagonally left-backward.</td>
+</tr>
+<tr>
+<td><strong>Right Quail</strong></td>
+<td>R</td>
+<td>Mirror of Left Quail: slides forward; slides diagonally left-backward; one step diagonally right-backward.</td>
+</tr>
+<tr>
+<td><strong>Falcon</strong></td>
+<td>F</td>
+<td>One step in any of the 8 directions <strong>except</strong> straight backward (seven directions). Promotes to <strong>Eagle</strong>.</td>
+</tr>
+<tr>
+<td><strong>Swallow</strong></td>
+<td>S</td>
+<td>One step directly forward. Promotes to <strong>Goose</strong>.</td>
+</tr>
+<tr>
+<td><strong>Goose</strong> (+S)</td>
+<td>+S</td>
+<td>Jumps exactly two squares diagonally forward (either direction), OR exactly two squares straight backward. Cannot be blocked.</td>
+</tr>
+<tr>
+<td><strong>Eagle</strong> (+F)</td>
+<td>+F</td>
+<td>Slides any number of squares diagonally forward or straight backward; one step in any direction; up to two squares diagonally backward (not a jump; can be blocked). Strongest piece in the game.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Only the Swallow and Falcon promote.</strong> Phoenix, Cranes, Pheasants, and Quails never promote.</p>
+<h3>Rules</h3>
+<p><strong>Drops:</strong> Captured pieces go to the capturing player’s hand and may be dropped on any empty square on a later turn, with the following restrictions specific to Swallows:</p>
+<ul class="rules">
+<li>A Swallow may not be dropped to give immediate checkmate.</li>
+<li>A Swallow may not be dropped on a file that already contains <strong>two</strong> friendly Swallows.</li>
+<li>A Swallow may not be dropped on the last rank (rank 1 for Gote, rank 7 for Sente).</li>
+</ul>
+<p><strong>Promotion zone:</strong> the last two ranks (ranks 6–7 for Sente). Promotion is compulsory when a Swallow or Falcon reaches the promotion zone.</p>
+<p><strong>Repetition:</strong> If the same position occurs three times with the same player to move and the same pieces in hand, the player who <strong>caused</strong> the repetition loses. This is the reverse of the standard Shogi draw rule.</p>
+<p><strong>Perpetual check</strong> is likewise a loss for the player causing it.</p>
+<p><strong>Stalemate:</strong> A player with no legal move loses.</p>
+<h3>Win Conditions</h3>
+<p>Checkmate the opponent’s Phoenix — attack it such that no legal move can escape. A player with no legal move loses.</p>
+<h3>Attribution</h3>
+<p>Tori Shogi was invented by Toyota Genryu (1799). Public domain. Rules documented from pychess.org/variants/torishogi.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../gorogoro-plus/" class="variant-pager-prev">← Gorogoro+</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../cannon-shogi/" class="variant-pager-next">Cannon Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crazy 38's — Moddable Chess</title>
+<meta name="description" content="Complete rules for Crazy 38's.">
+<meta property="og:title" content="Crazy 38's — Moddable Chess">
+<meta property="og:description" content="Complete rules for Crazy 38's.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/crazy-38s.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/crazy-38s/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Crazy 38's — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Crazy 38's.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/crazy-38s.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/crazy-38s.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/crazy-38s.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Crazy 38's · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 41 of 155</span>
+    <h1 class="variant-cover-title">Crazy 38's</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">38-square loop board</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Crazy 38’s</h2>
+<p>Crazy 38’s is a chess variant by Ben Good, invented as an entry for Hans Bodlaender’s 38 Squares Contest (submission deadline January 31, 1998). It plays on a 38-square board with a built-in loop connection and uses Shogi-style drops.</p>
+<h3>The Board</h3>
+<p>A 38-square checkered board. Notation uses letters a–h for rows (running down one side) and numbers 1–8 for columns (running up the other side); not every letter–number combination corresponds to an existing square. The board has a <strong>loop-effect</strong>: one edge of the board connects to another, enabling pieces (especially the Rook) to travel continuously around the loop.</p>
+<p><strong>Home Square:</strong> The square a King occupies at the start of the game is that player’s <strong>Home Square</strong>. Home Squares are permanent reference points for pawn promotion and the alternative win condition.</p>
+<h3>Starting Position</h3>
+<p>Each player begins with the following pieces:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Silver General</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Gold General</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>4</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Piece Movements</h3>
+<p><strong>King</strong> — moves to any adjacent square (orthogonal or diagonal).</p>
+<p><strong>Rook</strong> — slides any number of squares orthogonally as long as the path is unblocked. Can exploit the board’s loop connection to travel around the board.</p>
+<p><strong>Bishop</strong> — slides any number of squares diagonally as long as the path is unblocked. Additionally, may step one square orthogonally, provided: (a) the Bishop is adjacent to a friendly piece, and (b) the orthogonal step would not capture an enemy piece.</p>
+<p><strong>Knight</strong> — moves to any square reached by first stepping one square diagonally, then one square orthogonally outward from the starting square. The move is unblockable (leaps over intervening pieces).</p>
+<p><strong>Silver General</strong> — moves to any adjacent square <strong>except</strong> the squares diagonally ahead (forward diagonals) and diagonally behind (backward diagonals). Effectively moves to the four orthogonal squares plus the two lateral diagonal squares.</p>
+<p><strong>Gold General</strong> — moves to any adjacent square <strong>except</strong> the squares diagonally to either side. Note: Gold and Silver Generals have movements distinct from their Shogi counterparts.</p>
+<p><strong>Pawn</strong> — moves exactly one square in any orthogonal direction <strong>away from the player’s own side</strong> of the board (forward and/or lateral, but not backward toward the player’s own starting edge). A Pawn promotes to <strong>Queen</strong> only when it moves to the <strong>opponent’s Home Square</strong> specifically. The Queen has the combined movement of Rook and Bishop. A Queen that is captured is demoted back to a Pawn before being added to the capturing player’s hand for future drops.</p>
+<h3>Drops</h3>
+<p>Crazy 38’s uses Shogi-style drops: instead of making a normal move, a player may drop any piece from their hand onto any vacant square, with the following restrictions:</p>
+<ul class="rules">
+<li>A Pawn may not be dropped onto the opponent’s Home Square.</li>
+<li>A Pawn may not be dropped in a position that immediately checkmates the opponent’s King.</li>
+</ul>
+<h3>Win Condition</h3>
+<p>A player wins by either:</p>
+<ol>
+<li><strong>Checkmating</strong> the opponent’s King, <strong>or</strong></li>
+<li><strong>Moving their own King</strong> onto the opponent’s Home Square.</li>
+</ol>
+<h3>Attribution</h3>
+<p>Crazy 38’s was designed by Ben Good. Entry submitted to the 38 Squares Contest, January 1998. Source: chessvariants.com/38.dir/crazy/crazy38s.html</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../courier/" class="variant-pager-prev">← Courier Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../crazyhouse/" class="variant-pager-next">Crazyhouse →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

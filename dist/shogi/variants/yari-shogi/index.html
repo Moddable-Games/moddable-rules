@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yari Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Yari Shogi.">
+<meta property="og:title" content="Yari Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Yari Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/yari-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/yari-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yari Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Yari Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/yari-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/yari-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/yari-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Yari Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 24 of 24</span>
+    <h1 class="variant-cover-title">Yari Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">9×7</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Yari Shogi</h1>
+<p><strong>Invented by Christian Freeling (Netherlands), 1981. “Yari” means lance in Japanese.</strong></p>
+<h2>Overview</h2>
+<p>Yari Shogi takes Shogi’s characteristic forward orientation to an extreme: every unpromoted piece (except the General) includes a forward-Lance component in its movement. Captures happen the same way as regular moves. Drops are included; the only rule difference from standard Shogi drops is that Pawn drops that immediately deliver checkmate are <strong>allowed</strong>.</p>
+<h2>Setup</h2>
+<p>9-row × 7-column board.</p>
+<p><strong>White</strong></p>
+<ul class="rules">
+<li>Rank 1: Forward Rook(a1), Bishop(b1), Bishop(c1), General(d1), Knight(e1), Knight(f1), Forward Rook(g1)</li>
+<li>Rank 3: Pawns a3–g3</li>
+</ul>
+<p><strong>Black</strong></p>
+<ul class="rules">
+<li>Rank 9: Forward Rook(a9), Knight(b9), Knight(c9), General(d9), Bishop(e9), Bishop(f9), Forward Rook(g9)</li>
+<li>Rank 7: Pawns a7–g7</li>
+</ul>
+<h2>Pieces</h2>
+<h3>General</h3>
+<p>Moves one square in any direction (as a King). Does not promote.</p>
+<h3>Forward Rook</h3>
+<p>Slides along the rank (sideways) or forward along the file — but <strong>not backward</strong>. Effectively a Rook without the backward move.</p>
+<p><strong>Promotes to</strong>: Full Rook (slides orthogonally in all four directions).</p>
+<h3>Bishop (Yari)</h3>
+<p>Slides forward along the file (fR component), <strong>or</strong> steps one square diagonally forward (fF component). Cannot move backward or sideways.</p>
+<p><strong>Promotes to</strong>: Gold.</p>
+<h3>Knight (Yari)</h3>
+<p>Slides forward along the file (fR component), <strong>or</strong> makes a forward L-shape leap — two squares forward then one square sideways (the standard Shogi knight leap, forward only, jumps over pieces).</p>
+<p><strong>Promotes to</strong>: Gold.</p>
+<h3>Pawn</h3>
+<p>Moves one square straight forward. Captures by the same move.</p>
+<p><strong>Promotes to</strong>: Silver.</p>
+<h3>Gold (promoted Bishop or Knight)</h3>
+<p>Moves one square forward, diagonally forward, or sideways <strong>or</strong> slides backward along the file (backward Lance). Combined: any Shogi-Gold step plus a backward file slide.</p>
+<h3>Silver (promoted Pawn)</h3>
+<p>Moves one square straight forward or diagonally forward <strong>or</strong> slides backward along the file (backward Lance). Cannot move sideways or step backward.</p>
+<h2>Promotion</h2>
+<p>The <strong>promotion zone</strong> is the three ranks furthest from each player (White: ranks 7–9). Promotion is optional unless it would leave the piece immobile:</p>
+<ul class="rules">
+<li>Bishop, Knight, and Pawn <strong>must</strong> promote if moved to the last rank (rank 9 for White).</li>
+</ul>
+<p>Pieces are dropped unpromoted and do not promote upon being dropped even inside the promotion zone.</p>
+<h2>Drops</h2>
+<p>Captured pieces change sides and may be dropped on a vacant square as a turn, with these restrictions:</p>
+<ul class="rules">
+<li>A piece may not be dropped where it would have no legal moves. (Bishop, Knight, and Pawn cannot be dropped on the last rank.)</li>
+<li>A Pawn may not be dropped in a file already containing an unpromoted friendly Pawn.</li>
+<li><strong>Pawns may drop to give checkmate</strong> (unlike in standard Shogi).</li>
+</ul>
+<p><em>Source: chessvariants.com/ms.dir/yarishogi.html; rules by Christian Freeling</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../wa-shogi/" class="variant-pager-prev">← Wa Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <span class="variant-pager-spacer"></span>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

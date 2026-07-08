@@ -6,7 +6,7 @@ players: "2"
 parent: asalto
 win: "Officers: capture enough Soldiers that the remaining force cannot surround both Officers. Soldiers: immobilize both Officers."
 special: "Asymmetric siege game. Officers jump to capture (like draughts); Soldiers advance forward or sideways without jumping. Soldiers win by immobilizing; Officers win by reducing the Soldier force below the critical threshold."
-published: false
+published: true
 ---
 
 ## Asalto (Standard)

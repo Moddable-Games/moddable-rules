@@ -1,9 +1,24 @@
 ---
 title: "Mansindam (Pantheon Tale)"
 slug: mansindam
+board: "9×9"
+players: "2"
+parent: moddable-chess
+win: "Checkmate, Campmate, or Stalemate loss"
+special: "9×9 board with Shogi-style drops and mandatory promotion in the enemy camp. Compound pieces: Cardinal (B+N), Marshal (R+N), Angel (Q+N). Campmate wins. Stalemate is a loss; no draws possible."
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  players: [white, black]
+  drops: true
+  promotion_zone:
+    white: [7, 8, 9]
+    black: [1, 2, 3]
 published: true
 status: draft
-updated: 2026-07-06
+updated: 2026-07-07
 category: drop-mechanics
 order:
 tags:
@@ -22,19 +37,23 @@ Mansindam is a chess variant designed by Couch Tomato. It takes two of Shogi's m
 
 ## The Board
 
-Mansindam is played on an **8x9 board** (8 files x 9 ranks). Ranks are numbered 1-9 from White's side. Files are lettered a-h.
+Mansindam is played on a **9×9 board** (9 files × 9 ranks). Ranks are numbered 1-9 from White's side. Files are lettered a-i.
 
 ## Starting Position
 
 **White (Yang):**
-- Rank 1: Rook(a), Knight(b), Cardinal(c), Angel(d), King(e), Queen(f), Bishop(g), Marshal(h)
-- Rank 2: 8 Pawns (a2-h2)
+- Rank 1: Marshal(a), Knight(b), Cardinal(c), Queen(d), King(e), Angel(f), Bishop(g), Knight(h), Rook(i)
+- Rank 2: empty
+- Rank 3: 9 Pawns (a3-i3)
 
 **Black (Eum):**
-- Rank 9: Rook(a), Knight(b), Cardinal(c), Angel(d), King(e), Queen(f), Bishop(g), Marshal(h) [facing White]
-- Rank 8: 8 Pawns (a8-h8)
+- Rank 7: 9 Pawns (a7-i7)
+- Rank 8: empty
+- Rank 9: Rook(a), Knight(b), Bishop(c), Angel(d), King(e), Queen(f), Cardinal(g), Knight(h), Marshal(i)
 
-Each side has exactly one of each piece type in the back rank. White (Yang) moves first.
+Each side has exactly one of each major piece type in the back rank. White (Yang) moves first.
+
+**FEN:** `rnbakqcnm/9/ppppppppp/9/9/9/PPPPPPPPP/9/MNCQKABNR[] w - - 0 1`
 
 ## Promotion Zone
 

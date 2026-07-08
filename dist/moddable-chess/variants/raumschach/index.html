@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raumschach — Moddable Chess</title>
+<meta name="description" content="Complete rules for Raumschach.">
+<meta property="og:title" content="Raumschach — Moddable Chess">
+<meta property="og:description" content="Complete rules for Raumschach.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/raumschach.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/raumschach/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Raumschach — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Raumschach.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/raumschach.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/raumschach.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/raumschach.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Raumschach · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 117 of 155</span>
+    <h1 class="variant-cover-title">Raumschach</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">5×5×5 (3D)</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Raumschach</h1>
+<p>Raumschach (“Space Chess” in German) is a three-dimensional chess variant invented by Ferdinand Maack in 1907. It is played on five stacked 5×5 boards, each called a <strong>level</strong>, giving a total space of 5×5×5 = 125 squares. Raumschach adds one new piece to the standard set: the <strong>Unicorn</strong>, which slides along the triagonal axes of the three-dimensional board.</p>
+<h2>The Board</h2>
+<p>The board consists of five levels, labelled <strong>A</strong> through <strong>E</strong> from bottom (White’s side) to top (Black’s side). Each level is a 5×5 grid with files <strong>a–e</strong> and ranks <strong>1–5</strong>.</p>
+<p>Squares are written as <strong>Level + file + rank</strong>. For example, <strong>Bc3</strong> means Level B, file c, rank 3. <strong>Aa1</strong> is the bottom-left corner of the lowest level.</p>
+<p>White’s pieces occupy levels A and B at the start; Black’s occupy levels D and E. Level C is empty.</p>
+<h2>Starting Position</h2>
+<h3>White (ranks 1–2 of levels A and B)</h3>
+<p><strong>Level A, Rank 1:</strong> Rook(a), Knight(b), King©, Knight(d), Rook(e)
+<strong>Level A, Rank 2:</strong> five Pawns (Aa2–Ae2)</p>
+<p><strong>Level B, Rank 1:</strong> Bishop(a), Unicorn(b), Queen©, Bishop(d), Unicorn(e)
+<strong>Level B, Rank 2:</strong> five Pawns (Ba2–Be2)</p>
+<h3>Black (ranks 4–5 of levels D and E)</h3>
+<p><strong>Level D, Rank 5:</strong> Bishop(a), Unicorn(b), Queen©, Bishop(d), Unicorn(e)
+<strong>Level D, Rank 4:</strong> five Pawns (Da4–De4)</p>
+<p><strong>Level E, Rank 5:</strong> Rook(a), Knight(b), King©, Knight(d), Rook(e)
+<strong>Level E, Rank 4:</strong> five Pawns (Ea4–Ee4)</p>
+<p>Each side begins with 20 pieces: 2 Rooks, 2 Knights, 2 Bishops, 2 Unicorns, 1 Queen, 1 King, and 10 Pawns.</p>
+<h2>Piece Movement</h2>
+<p>In three-dimensional chess, movement is defined by how many of the three axes (rank, file, level) change simultaneously:</p>
+<ul class="rules">
+<li><strong>Orthogonal (1 axis):</strong> only rank, only file, or only level changes</li>
+<li><strong>Diagonal (2 axes):</strong> any two axes change simultaneously</li>
+<li><strong>Triagonal (3 axes):</strong> all three axes change simultaneously, one step each</li>
+</ul>
+<h3>Rook</h3>
+<p>Slides any number of squares along a <strong>single axis</strong> (rank, file, or level). Cannot jump over pieces. In 3D space the Rook has 6 orthogonal sliding directions (±rank, ±file, ±level).</p>
+<h3>Bishop</h3>
+<p>Slides any number of squares along a <strong>two-axis diagonal</strong> (rank+file, rank+level, or file+level, in any combination of signs). Cannot jump over pieces. In 3D space the Bishop has 12 diagonal sliding directions.</p>
+<h3>Unicorn (U)</h3>
+<p>The Unicorn slides any number of squares along a <strong>triagonal</strong> — moving simultaneously one step in all three axes with each step. Cannot jump over pieces. In 3D space the Unicorn has 8 triagonal directions (all 8 combinations of ±rank, ±file, ±level).</p>
+<p>The Unicorn is colour-bound within the 3D lattice: on a 5×5×5 board, triagonals partition squares into two disjoint sets. A Unicorn can never change its triagonal colour.</p>
+<h3>Queen</h3>
+<p>Combines the Rook and Bishop (orthogonal and two-axis diagonal slides). Does <strong>not</strong> include the Unicorn’s triagonal move. Cannot jump over pieces.</p>
+<h3>Knight</h3>
+<p>Leaps to any square exactly <strong>2 steps in one axis and 1 step in another</strong> (the standard chess knight jump, extended to 3D). This gives up to 24 destinations from a central square. Always jumps over intervening pieces.</p>
+<h3>King</h3>
+<p>Moves one step in any direction — orthogonal, two-axis diagonal, or triagonal — giving up to 26 possible destinations from an interior square. Cannot move into check.</p>
+<h3>Pawn</h3>
+<p>White Pawns move toward Black’s starting area (increasing rank and/or increasing level).</p>
+<p><strong>Non-capturing moves (White):</strong></p>
+<ul class="rules">
+<li><strong>Straight-forward:</strong> advance one rank on the same level (e.g., Aa2 → Aa3)</li>
+<li><strong>Straight-upward:</strong> advance one level at the same file and rank (e.g., Aa2 → Ba2)</li>
+</ul>
+<p><strong>Capturing moves (White):</strong></p>
+<ul class="rules">
+<li><strong>Diagonally-forward:</strong> advance one rank while also moving one step in file (same level, e.g., Aa2 → Ab3)</li>
+<li><strong>Diagonally-forward-upward:</strong> advance one rank and one level simultaneously (e.g., Aa2 → Bb3)</li>
+</ul>
+<p>Black Pawns move in the opposite direction (decreasing rank and/or decreasing level), with equivalent capture directions.</p>
+<p><strong>Pawn rules:</strong></p>
+<ul class="rules">
+<li>No initial two-square advance. All Pawn moves are one step.</li>
+<li>No en passant.</li>
+<li>White Pawns promote on <strong>rank 5 of level A or B</strong>. Black Pawns promote on <strong>rank 1 of level D or E</strong>. Pawns that move into levels C, D, or E without reaching rank 5 of a qualifying level do not promote there.</li>
+</ul>
+<h2>Special Rules</h2>
+<ul class="rules">
+<li><strong>No castling.</strong></li>
+<li><strong>No en passant.</strong></li>
+<li><strong>No double pawn push.</strong></li>
+<li>Stalemate is a draw.</li>
+</ul>
+<h2>Notation</h2>
+<p>Squares are written as Level (A–E), file (a–e), rank (1–5). Examples:</p>
+<ul class="rules">
+<li><strong>Aa1</strong> — Level A, file a, rank 1 (White’s back-left corner)</li>
+<li><strong>Bc3</strong> — Level B, file c, rank 3 (centre of level B)</li>
+<li><strong>Ec5</strong> — Level E, file c, rank 5 (Black’s back-centre)</li>
+</ul>
+<p>Moves: piece letter, origin square, hyphen, destination. Example: <strong>R Aa1–Aa4</strong> (Rook from Aa1 to Aa4).</p>
+<h2>Attribution</h2>
+<p>Raumschach was invented by Ferdinand Maack (Germany, 1907). Rules sourced from The Chess Variant Pages at chessvariants.com/3d.dir/3d5.html.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../racing-kings/" class="variant-pager-prev">← Racing Kings</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../recruitment-chess/" class="variant-pager-next">Recruitment Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

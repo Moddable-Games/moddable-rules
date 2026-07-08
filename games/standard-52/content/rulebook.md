@@ -9,7 +9,7 @@ age: "6+"
 tagline: "Every game a standard deck of cards can play"
 type: "component"
 status: "live"
-updated: "2026-07-06"
+updated: "2026-07-08"
 published: true
 hub_type: component
 theme:
@@ -74,9 +74,27 @@ Games played with the standard French-suited 52-card deck. Four suits (Spades, H
 
 - [Blackjack](games/blackjack/) — Beat the dealer: get closer to 21 without busting. Blackjack (natural 21) pays 3:2. Multiple decks; player options include double down, split, and surrender. 1–6 players vs dealer.
 
+### Shedding
+
+- [Crazy Eights](games/crazy-eights/) — Match the discard by suit or rank; Eights are wild. Direct ancestor of Uno. 2–5 players.
+
+### Partnership Trick-Taking (Classic)
+
+- [Whist](games/whist/) — Classic trick-taking game and ancestor of Bridge. No bidding; trump set by last card dealt. Dominant 1750–1900. 4 players.
+
+### Draw-and-Discard / Melding
+
+- [Rummy](games/rummy/) — Classic draw-and-discard melding game. Lay melds during play; opponents may extend them. Going Rummy doubles penalties. 2–6 players.
+
 ### Patience / Solitaire
 
+- [FreeCell](games/freecell/) — Open solitaire (all 52 cards visible). Four free cells for temporary storage. Nearly all deals solvable with correct play. 1 player.
 - [Klondike](games/klondike/) — Classic one-player patience game. Build four foundations by suit from Ace to King. Seven tableau columns; draw 1 or draw 3 from stock.
+- [Spider Solitaire](games/spider-solitaire/) — Two-deck solitaire with 10 tableau columns. Complete in-suit King-to-Ace sequences. 1, 2, or 4-suit difficulty. 1 player.
+
+### Children's / Simple
+
+- [War](games/war/) — Pure-chance game for 2 players. Higher card wins both; ties trigger War. No decisions required.
 
 </div>
 

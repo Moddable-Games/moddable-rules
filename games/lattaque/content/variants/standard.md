@@ -1,74 +1,75 @@
 ---
 title: L'Attaque (Standard)
 slug: standard
-board: "10×9"
+board: "9×10"
 players: "2"
 parent: lattaque
 win: "Capture the opponent's Flag, or leave them with no movable pieces"
-special: "Hidden-information land warfare game. 30 pieces per player; higher rank defeats lower. Bombs are immovable and defeat all attackers except Miners. Scouts slide unlimited. Spy defeats Marshal on attack."
-published: false
+special: "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 1×2 lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks."
+published: true
 ---
 
 ## L'Attaque (Standard)
 
-Designed by Hermance Edan, France, circa 1908. Published in Britain by H.P. Gibson & Sons from 1909. The first mass-market hidden-information rank game; direct ancestor of Stratego.
+Designed by Hermance Edan. Patent filed France 26 November 1908; game first sold 1910 by Au Jeu Retrouvé. Rights acquired 1925 by H.P. Gibson & Sons, London, who published it in Britain until at least the 1970s. The first mass-market hidden-information rank game; direct ancestor of Stratego.
 
 ### Board
 
-10 columns × 9 rows. Two lake areas in the center of the board (rows 4–5, approximately columns 3–4 and 7–8) are impassable — no piece may enter a lake square. The exact lake layout: columns c–d on rows 4–5, and columns g–h on rows 4–5 (four 2×2 lake sections total in most editions).
+9 columns × 10 rows. Three lake areas in the centre of the board are impassable — no piece may enter or pass through a lake square. Each lake occupies 1 column × 2 rows. The three lakes are positioned in the two middle rows (rows 5–6), spaced across the board at columns 3, 5, and 7, with two clear columns on each outer edge and one clear column between each lake. This layout is distinct from the 2×2 lake blocks of Stratego (1946).
 
-### Piece Set (30 per player)
+### Piece Set (36 per player)
 
 | Rank | Piece | Count | Movement | Special Ability |
 |---|---|---|---|---|
-| 0 | **Flag** | 1 | Immovable | Cannot attack or defend. Capturing it wins the game. |
-| B | **Bomb** | 6 | Immovable | Defeats all attackers except Miners. |
-| 1 | **Spy** | 1 | 1 step ortho | Defeats the Marshal when the Spy attacks (moves onto Marshal’s square). Loses to all other pieces and to Marshal if Marshal attacks the Spy. |
-| 2 | **Scout** | 5 | Slides unlimited orthogonally | Cannot attack on a sliding move across multiple squares; must stop adjacent to attack. (Regional variant: may attack on the slide.) |
-| 3 | **Miner** | 5 | 1 step ortho | Only piece that can defuse Bombs (capture them). |
-| 4 | **Sergeant** | 4 | 1 step ortho | Standard capture. |
-| 5 | **Lieutenant** | 4 | 1 step ortho | Standard capture. |
-| 6 | **Captain** | 4 | 1 step ortho | Standard capture. |
-| 7 | **Major** | 3 | 1 step ortho | Standard capture. |
+| 10 | **Commander-in-chief** | 1 | 1 step ortho | Defeated only by Mine or by an attacking Spy. Beats Spy if Commander-in-chief attacks first. |
+| 9 | **Brigadier General** | 1 | 1 step ortho | Standard capture. |
 | 8 | **Colonel** | 2 | 1 step ortho | Standard capture. |
-| 9 | **General** | 1 | 1 step ortho | Standard capture. |
-| 10 | **Marshal** | 1 | 1 step ortho | Highest-ranked movable piece; defeated only by the Spy when Spy attacks. |
+| 7 | **Commandant** | 2 | 1 step ortho | Standard capture. |
+| 6 | **Captain** | 4 | 1 step ortho | Standard capture. |
+| 5 | **Lieutenant** | 4 | 1 step ortho | Standard capture. |
+| 4 | **Sergeant** | 4 | 1 step ortho | Standard capture. |
+| 3 | **Sapper** | 4 | 1 step ortho | Only piece that can capture a Mine without being removed. |
+| 2 | **Scout** | 8 | Slides unlimited ortho | May not leap over pieces or lake squares. |
+| 1 | **Spy** | 1 | 1 step ortho | Defeats the Commander-in-chief when the Spy attacks. Loses to the Commander-in-chief if Commander-in-chief attacks first; loses to all other pieces. |
+|  | **Flag** | 1 | Immovable | Capturing the opponent's Flag wins the game. |
+|  | **Mine** | 4 | Immovable | Any piece attacking a Mine is removed — except a Sapper, which captures the Mine safely. |
 
-Total: 1+6+1+5+5+4+4+4+3+2+1+1 = 37? Let me recount: Flag 1, Bomb 6, Spy 1, Scout 5, Miner 5, Sergeant 4, Lieutenant 4, Captain 4, Major 3, Colonel 2, General 1, Marshal 1 = 37. Some editions use 30 total with smaller counts. The exact piece set varied across L’Attaque editions; the table above reflects a representative mid-century British edition.
+**Total: 36 per player.** (Commander-in-chief 1 + Brigadier General 1 + Colonel 2 + Commandant 2 + Captain 4 + Lieutenant 4 + Sergeant 4 + Sapper 4 + Scout 8 + Spy 1 + Flag 1 + Mine 4 = 36)
 
 ### Setup
 
-Each player positions all their pieces face-down on their own half of the board (rows 1–4 for White; rows 6–9 for Red/Black), in any arrangement they choose. The opponent cannot see piece ranks. Lake squares remain empty.
+Each player positions all 36 pieces face-down on their own half of the board (the four rows nearest their side), in any arrangement they choose. The opponent cannot see piece ranks. Lake squares remain empty.
 
 ### Movement
 
 Players alternate turns. On each turn, a player moves one piece:
-- Most pieces: 1 step orthogonally (up, down, left, right). Not diagonally. Not into lake squares. Not off the board.
-- **Scout:** Slides any number of squares orthogonally in one direction, stopping before any occupied square or lake.
-- **Bombs and Flag:** May not move.
+- **Most pieces:** 1 step orthogonally (up, down, left, right). Cannot enter a lake square or a square occupied by any piece.
+- **Scout:** Slides any number of squares orthogonally in one direction. Cannot leap over other pieces or lake squares; must stop before any occupied square or lake.
+- **Mines and Flag:** May not move.
 
-### Attack and Capture
+### Combat
 
-When a piece moves onto a square occupied by an opponent’s piece:
+Pieces cannot move into a square occupied by another piece. Instead, when a player moves a piece adjacent to an enemy piece (back to back), the active player may **choose to attack**.
+
+If the player chooses to attack:
 1. Both pieces are flipped face-up and ranks are revealed.
 2. The lower-ranked piece is permanently removed from the board.
 3. Equal rank: both pieces are removed.
-4. The attacker’s piece (if it wins) takes the defender’s square.
 
-**Special capture rules:**
-- **Spy vs. Marshal:** If the Spy attacks the Marshal (Spy moves onto Marshal’s square), the Spy wins. If the Marshal attacks the Spy, the Marshal wins.
-- **Miner vs. Bomb:** Only a Miner can capture a Bomb. Any other piece attacking a Bomb is removed; the Bomb remains.
-- No piece can capture a Flag outright through standard movement — capturing the Flag (rank 0) immediately wins the game.
+**Special combat rules:**
+- **Spy vs. Commander-in-chief:** If the Spy attacks the Commander-in-chief, the Spy wins. If the Commander-in-chief attacks the Spy, the Commander-in-chief wins.
+- **Any piece vs. Mine:** Any piece (except Sapper) that attacks a Mine is removed; the Mine remains in place. A Sapper attacking a Mine captures the Mine safely.
+- Capturing the Flag immediately wins the game.
 
 ### Hidden Information
 
-Piece ranks remain hidden from the opponent until revealed in combat. A piece that has been involved in at least one combat may be known to the opponent; players should not deliberately obscure a revealed piece’s identity.
+Piece ranks remain hidden from the opponent until revealed in combat. Once a piece has been revealed in combat, its identity is known to both players.
 
 ### Win Conditions
 
-- Capture the opponent’s Flag: immediate win.
-- Leave the opponent with no movable pieces (all remaining pieces are Bombs and Flag): win.
+- Capture the opponent's Flag: immediate win.
+- Leave the opponent with no movable pieces (all remaining pieces are Mines and Flag): win.
 
 ### Attribution
 
-L’Attaque. Designed by Hermance Edan, patented France 1908. Published by H.P. Gibson & Sons, London. Public domain rule set.
+L'Attaque. Designed by Hermance Edan. French patent No. 396,795 filed 26 November 1908. First published 1910 by Au Jeu Retrouvé, France. Rights acquired 1925 by H.P. Gibson & Sons, London. Public domain rule set. Sources: Wikipedia (L'Attaque); Solomon, Eric, *Games & Puzzles* No. 24 (May 1974); V&A Museum collection; patent diagram (lake positions confirmed from original patent No. 396,795).
