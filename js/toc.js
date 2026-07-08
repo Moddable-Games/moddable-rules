@@ -1,21 +1,41 @@
 const toc = document.getElementById('toc');
 if (toc) {
-  const headings = document.querySelectorAll('.content h2');
+  const h2s = document.querySelectorAll('.content h2');
+  const hasH2s = h2s.length > 0;
+  const headings = hasH2s
+    ? document.querySelectorAll('.content h2, .content h3')
+    : document.querySelectorAll('.content h3');
+
   if (headings.length > 0) {
     const list = document.createElement('ul');
     const links = [];
+    let currentH2Li = null;
+    let currentSubList = null;
 
     headings.forEach((h, i) => {
       const id = h.id || 'section-' + i;
       h.id = id;
 
-      const li = document.createElement('li');
       const a = document.createElement('a');
       a.href = '#' + id;
       a.textContent = h.textContent;
-      li.appendChild(a);
-      list.appendChild(li);
       links.push({ a, id });
+
+      if (!hasH2s || h.tagName === 'H2') {
+        const li = document.createElement('li');
+        li.appendChild(a);
+        list.appendChild(li);
+        currentH2Li = li;
+        currentSubList = null;
+      } else {
+        if (!currentSubList) {
+          currentSubList = document.createElement('ul');
+          (currentH2Li || list).appendChild(currentSubList);
+        }
+        const li = document.createElement('li');
+        li.appendChild(a);
+        currentSubList.appendChild(li);
+      }
     });
 
     const title = document.createElement('div');

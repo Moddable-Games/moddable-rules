@@ -52,12 +52,12 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Alice Chess</h2>
+<h2 id="alice-chess">Alice Chess</h2>
 <p>Invented by V. R. Parton in 1953. Named after Lewis Carroll’s <em>Through the Looking-Glass</em> — pieces step through the mirror and emerge on the other side. Alice Chess uses two standard 8×8 chessboards played simultaneously.</p>
-<h3>The Two Boards</h3>
+<h3 id="the-two-boards">The Two Boards</h3>
 <p><strong>Board A</strong> begins with the standard chess starting position. <strong>Board B</strong> begins empty.</p>
 <p>Boards share the same square coordinates. A piece on Board A at e4 and a piece on Board B at e4 occupy the same coordinate but are on different boards and do not interact directly.</p>
-<h3>The Transfer Rule</h3>
+<h3 id="the-transfer-rule">The Transfer Rule</h3>
 <p>After every move (including captures), the piece that moved transfers to the <strong>corresponding square on the other board</strong>.</p>
 <ul class="rules">
 <li>A piece on Board A at e4 transfers to Board B e4 after moving.</li>
@@ -65,14 +65,14 @@
 </ul>
 <p><strong>A move is legal only if the transfer square is vacant.</strong> If the transfer square is occupied (by any piece of either colour), the move is illegal and cannot be made. This applies to all moves, including captures: capturing an opponent’s piece does not free the transfer square if that square is occupied.</p>
 <p>A piece cannot move at all if every otherwise-legal destination would place it on a square whose mirror is occupied.</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p>Board A: standard chess starting position.
 Board B: empty.</p>
 <p>All White and Black pieces begin on Board A.</p>
-<h3>Physical Representation</h3>
+<h3 id="physical-representation">Physical Representation</h3>
 <p>Alice Chess is commonly played on a single physical board with a distinguishing marker — traditionally a checker piece placed underneath — to indicate which squares are Board B. An unmarked piece occupies Board A; a piece with a checker underneath occupies Board B.</p>
 <p>This one-board representation is fully equivalent to the two-board game and does not require a second physical set.</p>
-<h3>Piece Movement</h3>
+<h3 id="piece-movement">Piece Movement</h3>
 <p>All pieces move exactly as in standard chess <strong>on their current board</strong>. The movement rules for each piece are unchanged; only the legality check (is the transfer square empty?) is added.</p>
 <div class="table-wrap"><table class="t">
 <thead>
@@ -108,7 +108,7 @@ Board B: empty.</p>
 </tr>
 </tbody>
 </table></div>
-<h3>Check and Checkmate</h3>
+<h3 id="check-and-checkmate">Check and Checkmate</h3>
 <p>A King is in <strong>check</strong> when it is on a square that would be attacked by an opponent’s piece <strong>after that piece completes its transfer</strong>. In other words: a piece threatens the King’s square on the board the piece will land on after moving through the looking-glass.</p>
 <p>Consequences:</p>
 <ul class="rules">
@@ -117,7 +117,7 @@ Board B: empty.</p>
 </ul>
 <p>You may not make any move that leaves your King in check after the full move (including transfer) resolves.</p>
 <p><strong>Checkmate:</strong> the King is in check and no legal move (including transfer) can remove it.</p>
-<h3>Castling</h3>
+<h3 id="castling">Castling</h3>
 <p>Castling is permitted under the standard chess conditions, with the transfer rule applied to both pieces:</p>
 <ul class="rules">
 <li>The King castles on its current board, then transfers to the other board.</li>
@@ -126,11 +126,11 @@ Board B: empty.</p>
 <li>No square the King passes through or lands on may be under attack (on the board where the King would be after transfer).</li>
 <li>Neither King nor Rook may have previously moved.</li>
 </ul>
-<h3>En Passant</h3>
+<h3 id="en-passant">En Passant</h3>
 <p>En passant is not legal in Alice Chess. The complexities introduced by transfer make the en passant capture undefined in Parton’s original rules.</p>
-<h3>Pawn Promotion</h3>
+<h3 id="pawn-promotion">Pawn Promotion</h3>
 <p>A pawn promotes upon reaching the opponent’s back rank <strong>on whichever board it is currently on</strong>. Standard promotion rules apply (Queen, Rook, Bishop, or Knight). The promoted piece transfers to the other board on the promotion move.</p>
-<h3>Notation</h3>
+<h3 id="notation">Notation</h3>
 <p>Standard algebraic notation with a suffix indicating the destination board after transfer:</p>
 <ul class="rules">
 <li><code>/A</code> — piece transfers to Board A after moving</li>
@@ -138,14 +138,14 @@ Board B: empty.</p>
 </ul>
 <p>Example: <code>1.e4/B</code> — pawn moves to e4 on Board A and transfers to Board B e4.</p>
 <p>The <code>/A</code> or <code>/B</code> suffix is determined by which board the piece <strong>lands on</strong> after transfer (i.e., the opposite of the board it started on).</p>
-<h3>Strategy Notes</h3>
+<h3 id="strategy-notes">Strategy Notes</h3>
 <ul class="rules">
 <li>The transfer rule creates a constantly shifting layer of blocked squares. Squares that appear open may be unreachable because their mirror is occupied.</li>
 <li>Pieces on Board B are often harder to coordinate in the opening, when Board A is crowded and most mirror squares are occupied.</li>
 <li>The King’s safety must be evaluated across both boards: threats exist from pieces on either board whose transfer would land them on the King’s square.</li>
 <li>Knights are particularly powerful because their (2,1) jump ignores blocking pieces; whether the knight can transfer is the only additional check needed.</li>
 </ul>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Alice Chess, invented by V. R. Parton, 1953. Published in <em>Alices Abenteuer im Schachland</em> and referenced in Hooper &amp; Whyld, <em>The Oxford Companion to Chess</em> (1987, p. 10) and Pritchard, <em>Encyclopedia of Chess Variants</em> (1994, pp. 3–5). Public domain. Fairy-Stockfish implements Alice Chess under the same rules.</p>
 
 </div>

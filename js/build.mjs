@@ -32,9 +32,34 @@ if (gameSlugs.length === 0) {
   process.exit(0);
 }
 
+// --- Slugify heading text into a stable anchor ID ---
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 // --- Markdown-it instance with custom rules ---
 function createMarkdownRenderer() {
   const md = markdownIt({ html: true, typographer: true });
+
+  // Heading anchor IDs: generate stable id from heading text, dedup per page
+  let slugCounts = new Map();
+  md.resetAnchors = () => { slugCounts = new Map(); };
+  md.renderer.rules.heading_open = (tokens, idx) => {
+    const tag = tokens[idx].tag;
+    const contentToken = tokens[idx + 1];
+    const text = contentToken?.children?.reduce((acc, t) => acc + (t.content || ''), '') || '';
+    let slug = slugify(text);
+    if (!slug) slug = 'heading';
+    const count = slugCounts.get(slug) || 0;
+    slugCounts.set(slug, count + 1);
+    const id = count === 0 ? slug : `${slug}-${count + 1}`;
+    return `<${tag} id="${id}">`;
+  };
 
   // Custom inline rule: {nowrap|text}
   md.inline.ruler.before('emphasis', 'nowrap', (state, silent) => {
@@ -207,6 +232,7 @@ function buildGame(slug) {
   const md = createMarkdownRenderer();
   const withIncludes = processIncludes(content);
   const withSvgs = processSvgIncludes(withIncludes);
+  md.resetAnchors();
   let rendered = md.render(withSvgs);
   rendered = addRulesClass(rendered);
   rendered = addTableClass(rendered);
@@ -463,6 +489,7 @@ function buildVariants(slug) {
       }
     );
 
+    md.resetAnchors();
     let rendered = md.render(withSvgs);
     rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
     rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
@@ -750,6 +777,7 @@ function buildComponentGames(slug) {
       }
     );
 
+    md.resetAnchors();
     let rendered = md.render(withSvgs);
     rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
     rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
@@ -832,6 +860,7 @@ function buildPages(slug) {
       const { data: meta, content } = matter(src);
       const pageSlug = meta.slug || file.replace('.md', '');
 
+      md.resetAnchors();
       let rendered = md.render(content);
       rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
       rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')

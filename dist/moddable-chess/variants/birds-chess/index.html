@@ -52,11 +52,11 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h1>Bird’s Chess</h1>
+<h1 id="birds-chess">Bird’s Chess</h1>
 <p><strong>Invented by Henry Bird, 1874. Published in the City of London Chess Magazine. A predecessor to Capablanca’s Chess.</strong></p>
-<h2>Overview</h2>
+<h2 id="overview">Overview</h2>
 <p>Bird’s Chess extends standard chess to a 10×8 board by adding two compound pieces per side: the Guard (Rook + Knight) and the Equerry (Bishop + Knight). Capablanca likely drew inspiration from this game when designing Capablanca’s Chess.</p>
-<h2>Setup</h2>
+<h2 id="setup">Setup</h2>
 <p>10-file board (files a–j), 8 ranks.</p>
 <pre><code>FEN: rnbgqkebnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBGQKEBNR w - - 0 1
 (G/g = Guard, E/e = Equerry)
@@ -66,24 +66,24 @@
 <p><strong>Black (rank 8, a–j):</strong> Rook(a8), Knight(b8), Bishop(c8), Guard(d8), Queen(e8), King(f8), Equerry(g8), Bishop(h8), Knight(i8), Rook(j8)
 <strong>Black Pawns (rank 7):</strong> a7–j7</p>
 <p><em>Alternative: Black’s back rank may mirror White’s (with Black’s Queen on the same file as White’s Queen). Either setup is playable.</em></p>
-<h2>Pieces</h2>
+<h2 id="pieces">Pieces</h2>
 <p>All standard FIDE pieces move as usual. Two additional pieces:</p>
-<h3>Guard</h3>
+<h3 id="guard">Guard</h3>
 <p>Moves as a <strong>Rook</strong> (slides orthogonally any distance) <strong>or</strong> a <strong>Knight</strong> (L-shape leap). Equivalent to the Chancellor.</p>
-<h3>Equerry</h3>
+<h3 id="equerry">Equerry</h3>
 <p>Moves as a <strong>Bishop</strong> (slides diagonally any distance) <strong>or</strong> a <strong>Knight</strong> (L-shape leap). Equivalent to the Archbishop. Not colour-bound.</p>
-<h2>Rules</h2>
+<h2 id="rules">Rules</h2>
 <p>All standard FIDE rules apply with the following modifications:</p>
-<h3>Castling</h3>
+<h3 id="castling">Castling</h3>
 <p>Castling uses a modified rule. The King moves <strong>three squares</strong> toward the Rook; the Rook then jumps over the King to land on the square immediately adjacent to the King on the side toward center:</p>
 <ul class="rules">
 <li><strong>Queenside castling</strong> (toward a1): King moves f1→c1 (three squares left); Rook moves a1→d1.</li>
 <li><strong>Kingside castling</strong> (toward j1): King moves f1→i1 (three squares right); Rook moves j1→h1.</li>
 </ul>
 <p>The same applies symmetrically for Black. Standard castling conditions apply: neither King nor Rook may have moved previously; no pieces between them; King not in check; King does not pass through check.</p>
-<h3>Pawn Promotion</h3>
+<h3 id="pawn-promotion">Pawn Promotion</h3>
 <p>Pawns reaching the far rank may promote to: Queen, Guard, Equerry, Bishop, Rook, or Knight.</p>
-<h3>All Other Rules</h3>
+<h3 id="all-other-rules">All Other Rules</h3>
 <p>En passant, stalemate (draw), and all other FIDE rules apply normally.</p>
 <p><em>Source: chessvariants.com/large.dir/bird.html; based on Gollon manuscript sent to Greenwood, 1976</em></p>
 

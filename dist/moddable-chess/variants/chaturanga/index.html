@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Chaturanga</h2>
+<h2 id="chaturanga">Chaturanga</h2>
 <p>Chaturanga (Sanskrit: चतुरङ्ग, “four divisions”) is the ancient Indian predecessor of chess, Shogi, Xiangqi, and all related replacement-capture games. First attested in Sanskrit texts c. 600 CE, it is named for the four arms of the Indian army: infantry (pawns), cavalry (horses), elephants, and chariots, who protect the counsellor and the king. It is the direct ancestor of Shatranj, which became modern Western chess.</p>
 <p>This entry documents the 2-player, no-dice form: the standard scholarly reconstruction. The older 4-player form (sometimes called Chaturaji) used a die to determine which piece type to move each turn and is a distinct game not covered here.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="368" height="368" viewBox="0 0 368 368">
@@ -64,7 +64,7 @@
 </svg>
 <p class="diagram-caption">Chaturanga: starting position (Manasollasa)</p>
 <p><em>Piece note: Gaja (Elephant) uses the E letter in FEN; Mantri (Counsellor) uses F (Fers). These reflect their actual movement rather than modern chess equivalents.</em></p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> Standard 8×8. The original ashtapada board was plain and uncheckered; the alternating square colouring shown here is a modern convention.</p>
 <p><strong>Starting position (Manasollasa, Bock-Raming 1996):</strong> Back rank left to right: Ratha–Ashva–Gaja–Mantri–Raja–Gaja–Ashva–Ratha. Eight Padati fill the second rank.</p>
 <ul class="rules">
@@ -74,7 +74,7 @@
 <p><strong>FEN:</strong> <code>rnefkenr/pppppppp/8/8/8/8/PPPPPPPP/RNEFKENR w - - 0 1</code>
 (R/r = Ratha, N/n = Ashva, E/e = Gaja, F/f = Mantri, K/k = Raja, P/p = Padati)</p>
 <p><strong>Alternative starting position (al-Adli, Murray 1913):</strong> Back rank left to right: Gaja–Ratha–Ashva–Mantri–Raja–Ashva–Ratha–Gaja. This places the Gaja on the corner files.</p>
-<h3>Pieces</h3>
+<h3 id="pieces">Pieces</h3>
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
@@ -124,17 +124,17 @@
 </tbody>
 </table></div>
 <p><strong>Note on Gaja movement:</strong> Three interpretations appear in ancient sources. The diagonal leap recorded here is the most widely attested and the form that became the Alfil in Shatranj and the Bishop in modern chess. An orthogonal leap (two squares along a rank or file) also appears in the Ludii Manasollasa ruleset (Bock-Raming 1996). A third interpretation, one step forward or diagonally, appears in sources related to Shogi’s Silver General.</p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <p>White moves first. Players alternate one move per turn. A piece may move to an empty square or capture an opponent’s piece by occupying its square, removing it from the board. A piece may not move to a square occupied by a friendly piece.</p>
 <p>There is no castling, no en passant, and no initial double pawn advance.</p>
 <p>When the Raja can be captured on the next turn, it is in check. A player must not end their turn with the Raja in check.</p>
-<h3>Win Conditions</h3>
+<h3 id="win-conditions">Win Conditions</h3>
 <p><strong>Checkmate:</strong> The Raja is in check with no legal escape. The opponent wins.</p>
 <p><strong>Bare king:</strong> Capturing all of the opponent’s pieces except the Raja wins the game. Exception: if the opponent can bare your own Raja on the very next move in response, the result is a draw.</p>
 <p><strong>Stalemate:</strong> A Raja with no legal moves but not in check is stalemated; the stalemated player wins. This is the reverse of modern chess.</p>
 <p><em>These win conditions follow the al-Adli reconstruction (Murray 1913), the fully specified form used as standard for modern play.</em></p>
 <p>The Manasollasa text (Bock-Raming 1996) describes a simpler condition: play continues until one player’s king cannot move without being captured, with no explicit distinction between check, checkmate, and stalemate. The al-Adli form is recommended for practical implementation.</p>
-<h3>Differences from Modern Chess</h3>
+<h3 id="differences-from-modern-chess">Differences from Modern Chess</h3>
 <ul class="rules">
 <li>No castling</li>
 <li>No en passant</li>
@@ -145,9 +145,9 @@
 <li>Mantri (Counsellor) is weak: one step diagonally only, not the modern Queen’s full range</li>
 <li>Gaja (Elephant) is colour-bound: leaps exactly two squares diagonally, reaching only 8 of 64 squares</li>
 </ul>
-<h3>Historical Context</h3>
+<h3 id="historical-context">Historical Context</h3>
 <p>Chaturanga was transmitted from India to Persia around the 7th century CE, where it became Shatranj. Key changes during this transition: the dice were abandoned entirely, and explicit check and checkmate rules were formalised. European chess inherited Shatranj through the Islamic world around the 10th century. In 15th-century Europe, the Mantri became the modern Queen (gaining full diagonal and orthogonal range) and the Alfil became the diagonal Bishop.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Rules transcribed from two sources via the Ludii Game Corpus, Maastricht University:</p>
 <ul class="rules">
 <li>Manasollasa ruleset, citing Bock-Raming 1996 (Sanskrit scholarship on the 12th-century Manasollasa text)</li>

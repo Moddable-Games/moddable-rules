@@ -52,10 +52,10 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Overview</h2>
+<h2 id="overview">Overview</h2>
 <p>Djambi (also called Blocus) is a 4-player abstract strategy game designed by Jean Anesto and published in France in 1975. It is a chess-adjacent game: each player has a royal piece (the Chief), pieces with defined movement types, and a grid board. Its defining mechanic is that <strong>killed pieces remain on the board as corpses</strong> — immovable blocks that obstruct movement and become strategic terrain.</p>
 <p>A second distinctive element is the <strong>Maze</strong> (the center square), which grants special powers to the player whose Chief occupies it.</p>
-<h2>Board and Setup</h2>
+<h2 id="board-and-setup">Board and Setup</h2>
 <p>Played on a 9×9 grid. The center square (e5) is the Maze. Each player begins with 9 pieces arranged in one corner.</p>
 <p>The four players occupy the four corners. Each army’s pieces fill a roughly L-shaped zone in the corner:</p>
 <div class="table-wrap"><table class="t">
@@ -96,13 +96,13 @@
 </tr>
 </tbody>
 </table></div>
-<h2>Movement</h2>
+<h2 id="movement">Movement</h2>
 <ul class="rules">
 <li><strong>Chief, Assassin, Reporter, Troublemaker, Necromobile</strong> — move like a Queen: any number of squares orthogonally or diagonally.</li>
 <li><strong>Militants</strong> — move like a Queen but at most 2 squares per move.</li>
 </ul>
 <p>No piece may enter or jump over a square containing a dead piece (corpse/block).</p>
-<h2>Capture and Corpses</h2>
+<h2 id="capture-and-corpses">Capture and Corpses</h2>
 <p>When a piece is killed, it becomes a <strong>corpse</strong> — it remains on the board as an impassable block. No piece may enter or jump over a corpse. The capturing player chooses where to place the corpse (on any free square), except where noted by piece type.</p>
 <p><strong>Chief</strong> — moves to the target’s square (queen-style). The dead piece is then moved by the capturing player to any empty square on the board as a corpse.</p>
 <p><strong>Militant</strong> — same as Chief but limited to ≤2 squares. The dead piece is moved to any empty square as a corpse.</p>
@@ -110,10 +110,10 @@
 <p><strong>Assassin</strong> — moves to the target’s square (queen-style). The dead piece is placed as a corpse on the square the Assassin started from (not the square of the kill).</p>
 <p><strong>Troublemaker</strong> — does not kill. When the Troublemaker moves to a square containing any live piece (friend or enemy), it moves that piece to any other free square on the board. The displaced piece remains alive.</p>
 <p><strong>Necromobile</strong> — does not kill. When the Necromobile moves to a square containing a corpse (block), it moves that block to any other free square on the board.</p>
-<h2>Eliminating a Player</h2>
+<h2 id="eliminating-a-player">Eliminating a Player</h2>
 <p>When a player’s Chief is captured, that player is eliminated. The player who captured the Chief <strong>immediately takes control of all surviving pieces</strong> of the eliminated player, adding them to their own army.</p>
 <p>A player is also eliminated if their Chief is surrounded on all sides by corpses and they have no Necromobile — <strong>unless</strong> the Chief is in the Maze (see below).</p>
-<h2>The Maze</h2>
+<h2 id="the-maze">The Maze</h2>
 <p>The Maze is the center square (e5). Rules:</p>
 <ul class="rules">
 <li>All pieces may <strong>pass through</strong> the Maze during a move, provided it is unoccupied at that moment.</li>
@@ -128,11 +128,11 @@
 </li>
 </ul>
 <p><strong>Leaving the Maze:</strong> An Assassin or Troublemaker that moves the Chief out of the Maze must immediately make a second move to leave the Maze themselves. A Necromobile that enters the Maze to move a block must also immediately leave the Maze.</p>
-<h2>Three-Player Variant</h2>
+<h2 id="three-player-variant">Three-Player Variant</h2>
 <p>With three players, the standard four-player starting setup is used. The fourth army has no controlling player. Its pieces can be moved and captured by any of the three active players following standard rules. Any player may take control of that army’s surviving pieces as they would in a standard elimination.</p>
-<h2>Win Condition</h2>
+<h2 id="win-condition">Win Condition</h2>
 <p>The last player with a Chief on the board wins.</p>
-<h2>Attribution</h2>
+<h2 id="attribution">Attribution</h2>
 <p>Djambi was designed by Jean Anesto (1975). Rules documented from chessvariants.com/multiplayer.dir/djambi.html (Hans Bodlaender, January 11, 2012).</p>
 
 </div>

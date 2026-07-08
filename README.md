@@ -8,33 +8,76 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 ## Games
 
-| Game | Version | Players | Status |
-|------|---------|---------|--------|
-| **Nukes** | 0.9.6 | 2–3 | Live |
-| **Mongo** | 0.9.2 | 2–8 | Dev |
-| **Endless Skies** | 0.4.0 | 2–8 | Dev |
-| **Baristasaurus** | 0.1.0 | 2–5 | Playtest |
+| Game | Version | Players | Variants | Status |
+|------|---------|---------|----------|--------|
+| **Nukes** | 0.9.8 | 2–3 | 3 | Live |
+| **Mongo** | 0.9.2 | 2–8 | — | Dev |
+| **Endless Skies** | 0.4.0 | 2–8 | — | Dev |
+| **Baristasaurus** | 0.1.0 | 2–5 | — | Playtest |
 
 ---
 
-## Classics
+## Classics (23 games, 122 variants)
 
-| Game | Version | Players | Variants | Status |
-|------|---------|---------|----------|--------|
-| **Draughts** | 0.1.0 | 2 | 2 (Turkish, Lasca) | Live |
-| **Go** | 0.1.0 | 2 | 2 (Toroidal, Phantom) | Live |
+| Game | Variants | Status |
+|------|----------|--------|
+| **Draughts** | 20 | Live |
+| **Go** | 14 | Live |
+| **The Landlord's Game** | 5 | Live |
+| **Pachisi** | 3 | Live |
+| **Chaupar** | 1 | Live |
+| **Halma** | 2 | Live |
+| **Stern-Halma** | 5 | Live |
+| **Reversi** | 3 | Live |
+| **Mancala** | 8 | Live |
+| **Backgammon** | 8 | Live |
+| **Nine Men's Morris** | 7 | Live |
+| **Shogi** | 24 | Live |
+| **Xiangqi** | 8 | Live |
+| **Tafl** | 4 | Live |
+| **Hex** | 1 | Live |
+| **Asalto** | 2 | Live |
+| **L'Attaque** | 4 | Live |
+| **Royal Game of Ur** | — | Live |
+| **Fanorona** | — | Live |
+| **Surakarta** | — | Live |
+| **Agon** | — | Live |
+| **Dou Shou Qi** | — | Live |
+| **Nyout** | — | Live |
+
+---
+
+## Component Hubs (6 hubs, 38 games)
+
+| Hub | Games | Status |
+|-----|-------|--------|
+| **Standard 52-Card Deck** | 18 | Live |
+| **Standard Dice** | 5 | Live |
+| **Double-Six Dominoes** | 4 | Live |
+| **Flower 48** | 4 | Live |
+| **Mahjong** | 5 | Live |
+| **Bavarian 32** | 2 | Live |
+
+---
+
+## RPGs (2 games, 54 pages)
+
+| Game | Pages | Status |
+|------|-------|--------|
+| **D&D 5e** | 49 | Live |
+| **Ironsworn** | 5 | Live |
 
 ---
 
 ## Mods
 
-| Mod | Base Game | Version | Players | Status |
-|-----|-----------|---------|---------|--------|
-| **Moddable Chess** | Chess | 0.4.0 | 2–6 | Alpha |
-| **Dungeon Chess** | Chess | 0.2.1 | 2–4 | Alpha |
-| **Talisman Worlds** | Talisman 4e | 0.3.0 | 2–6 | Dev |
-| **Hyper Imperium** | Twilight Imperium 4e | 0.7.0 | 4–6 | Live |
-| **Econopoly** | Monopoly | 0.2.0 | 2–6 | Live |
+| Mod | Base Game | Version | Variants | Status |
+|-----|-----------|---------|----------|--------|
+| **Moddable Chess** | Chess | 0.6.0 | 155 | Alpha |
+| **Dungeon Chess** | Chess | 0.2.1 | — | Alpha |
+| **Talisman Worlds** | Talisman 4e | 0.3.0 | — | Dev |
+| **Hyper Imperium** | Twilight Imperium 4e | 0.7.0 | — | Live |
+| **Econopoly** | Monopoly | 0.2.0 | — | Live |
 
 ---
 
@@ -50,7 +93,7 @@ games/
   talisman-worlds/       Rulebook (dev) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
-  moddable-chess/        Variant library hub + 70 sub-pages (alpha) — platform
+  moddable-chess/        Variant library hub + 155 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
@@ -168,6 +211,16 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-07-08
+- Moddable Chess: 155 variants (was 102), added 53 new variants across multiple batches
+- Shogi: expanded from 4 to 24 variants (Chu, Dai, Tenjiku, Maka-Dai-Dai, Taikyoku, Wa, and more)
+- Xiangqi: expanded from 2 to 8 variants (Janggi, Jieqi, Manchu+, Minixiangqi, Yang Qi, others)
+- L'Attaque: expanded from 3 to 4 variants (added Aviation); rewrote Dover Patrol and Tri-Tactics from original sources
+- Component hubs expanded: Standard 52 (12→18 games), Standard Dice (3→5), D6 Dominoes (3→4), Flower 48 (3→4), Mahjong (4→5), Bavarian 32 (1→2)
+- Added American Mahjong Classic, Go-Stop, Chickenfoot, Schafkopf, Bunco, Craps, and 12 more card games
+- Generated OG images, PDFs, and rebuilt dist for all new content
+- Site version 1.3.0, 41 games, 315+ variants/games total
 
 #### 2026-06-23 (session 2)
 - Added Sittuyin (Burmese Chess) and Absorption Chess variants to moddable-chess hub (73 total)

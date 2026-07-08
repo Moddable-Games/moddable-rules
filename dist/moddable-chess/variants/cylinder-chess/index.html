@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Cylinder Chess</h2>
+<h2 id="cylinder-chess">Cylinder Chess</h2>
 <p>The board wraps horizontally, forming a cylinder. The a-file is adjacent to the h-file.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="368" height="368" viewBox="0 0 368 368">
 <title>Cylinder Chess — starting position</title>
@@ -62,11 +62,11 @@
 <text x="44" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">a</text><text x="84" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">b</text><text x="124" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">c</text><text x="164" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">d</text><text x="204" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">e</text><text x="244" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">f</text><text x="284" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">g</text><text x="324" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">h</text><text x="12" y="48.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">8</text><text x="12" y="88.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">7</text><text x="12" y="128.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">6</text><text x="12" y="168.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">5</text><text x="12" y="208.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">4</text><text x="12" y="248.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">3</text><text x="12" y="288.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">2</text><text x="12" y="328.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">1</text>
 </svg>
 <p class="diagram-caption">Cylinder Chess — starting position</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> Standard 8×8 (files wrap).</p>
 <p><strong>Setup:</strong> Standard chess setup.</p>
 <p><strong>FEN:</strong> <code>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1</code></p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <ul class="rules">
 <li>The a-file connects to the h-file. Moving left from a1 reaches h1; moving right from h1 reaches a1.</li>
 <li>Rooks can slide across the wrap (e.g. Ra1 can move to h1 via the wrap, or slide all the way around).</li>
@@ -76,11 +76,11 @@
 <li>Knights jump normally — the wrap does not affect knight movement beyond providing connectivity between a/h files.</li>
 <li>Castling follows standard rules (no wrapping castling).</li>
 </ul>
-<h3>Win Condition</h3>
+<h3 id="win-condition">Win Condition</h3>
 <p>Checkmate the opponent’s King.</p>
-<h3>Strategy</h3>
+<h3 id="strategy">Strategy</h3>
 <p>Bishops become much more powerful on a cylinder — they can reach every square of their colour. Rook files are no longer safe flanks since attacks can come from behind via the wrap. Flank pawns gain additional capture options. The lack of board edges eliminates many standard endgame techniques.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Traditional variant with roots in 19th-century chess composition. Public domain.</p>
 
 </div>

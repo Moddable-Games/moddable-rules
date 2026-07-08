@@ -52,22 +52,22 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h1>Khan’s Chess</h1>
+<h1 id="khans-chess">Khan’s Chess</h1>
 <p>Khan’s Chess is an asymmetric chess variant designed in 2023–24 by Couch Tomato. It is a refined successor to Orda Chess, pitting the standard Kingdom army against a Mongol-themed Horde cavalry force. Like Orda Chess, all Horde pieces (except the Khan and Kheshig) use divergent movement—they move differently from how they capture. Unlike Orda Chess, the Horde’s pawns are replaced by Scouts, faster-moving forward-only cavalry units, and the Yurt is replaced by the Khatun.</p>
-<h2>History</h2>
+<h2 id="history">History</h2>
 <p>Couch Tomato created Khan’s Chess to address two shortcomings identified in Orda Chess through high-level NNUE (neural network) analysis under Fairy-Stockfish: the original game proved less balanced than intended at high levels of play, and the standard pawn poorly represented the Mongols’ historically cavalry-dominated armies. Taking advantage of expanded Fairy-Stockfish piece-definition capabilities, the designer replaced the pawn and yurt with two new pieces—the Scout and the Khatun—and moved Scouts to the second rank, giving the Horde a faster, more thematically coherent force. Thorough NNUE testing confirmed improved balance in the final design.</p>
-<h2>The Two Armies</h2>
+<h2 id="the-two-armies">The Two Armies</h2>
 <p>Khan’s Chess is played on a standard 8×8 board. White controls the <strong>Kingdom</strong> (standard FIDE pieces). Gold controls the <strong>Horde</strong> (Khan’s cavalry army).</p>
-<h3>Kingdom (White) Starting Position</h3>
+<h3 id="kingdom-white-starting-position">Kingdom (White) Starting Position</h3>
 <p>Rank 1: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook
 Rank 2: eight Pawns</p>
-<h3>Horde (Gold) Starting Position</h3>
+<h3 id="horde-gold-starting-position">Horde (Gold) Starting Position</h3>
 <p>Rank 8: Lancer, Kheshig, Horse Archer, Khatun, Khan, Horse Archer, Kheshig, Lancer
 Rank 7: eight Scouts</p>
 <p>The Horde back rank mirrors the Kingdom’s layout: Lancers occupy the Rook squares, Kheshigs occupy the Knight squares, Horse Archers occupy the Bishop squares, Khatun occupies the Queen square, and the Khan occupies the King square.</p>
 <p><strong>FEN:</strong> <code>lhatkahl/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR w KQ - 0 1</code></p>
 <p><em>(Piece letters — Gold: l=Lancer, h=Kheshig, a=Horse Archer, t=Khatun, k=Khan, s=Scout)</em></p>
-<h2>General Rules</h2>
+<h2 id="general-rules">General Rules</h2>
 <ol>
 <li><strong>White (Kingdom) moves first.</strong></li>
 <li>The <strong>Horde cannot castle.</strong> The Khan has no castling right.</li>
@@ -76,7 +76,7 @@ Rank 7: eight Scouts</p>
 <li>Kingdom Pawns promote normally (Queen, Rook, Bishop, or Knight). <strong>Scouts promote only to Khatun.</strong></li>
 <li>All other rules (en passant, repetition, check and checkmate) follow standard chess.</li>
 </ol>
-<h2>Horde Pieces</h2>
+<h2 id="horde-pieces">Horde Pieces</h2>
 <p>All Horde pieces except the Khan and Kheshig are <strong>divergent</strong>: their movement squares differ from their capture squares. The Horde is a cavalry force, so the Lancer, Horse Archer, and Khatun all <em>move</em> like a Knight but <em>capture</em> differently.</p>
 <div class="table-wrap"><table class="t">
 <thead>
@@ -133,17 +133,17 @@ Rank 7: eight Scouts</p>
 </tr>
 </tbody>
 </table></div>
-<h3>Khan</h3>
+<h3 id="khan">Khan</h3>
 <p>The Khan is the Horde’s royal piece. It moves and captures exactly as a King in standard chess. The Khan cannot castle. Checkmate of the Khan ends the game. The piece is visually distinct but functionally identical to the Kingdom’s King.</p>
-<h3>Kheshig (H)</h3>
+<h3 id="kheshig-h">Kheshig (H)</h3>
 <p>The Kheshig moves and captures as a <strong>Knight + King</strong> combined (also called a centaur or mann+knight). It is the strongest piece in the Horde army and is non-royal. The Kheshig is placed on the Knight squares at the start of the game but far exceeds a Knight in value. It is extremely difficult for the Kingdom to force checkmate without eliminating at least one Kheshig. The Kheshigs represent the elite imperial guard of Mongol royalty.</p>
-<h3>Khatun (T)</h3>
+<h3 id="khatun-t">Khatun (T)</h3>
 <p>The Khatun <strong>moves as a Knight</strong> but <strong>captures as a King</strong> (one step in any direction). It is non-royal. Despite its modest capture range, the Khatun is a useful defensive piece and is the piece that Scouts promote to. Thematically, the Khatun is the Khan’s consort—an analogue to the Kingdom’s Queen, but considerably less powerful.</p>
-<h3>Horse Archer (A)</h3>
+<h3 id="horse-archer-a">Horse Archer (A)</h3>
 <p>The Horse Archer <strong>moves as a Knight</strong> but <strong>captures as a Bishop</strong> (diagonally, any number of squares). Because it moves as a Knight rather than sliding diagonally, it is not colour-bound, making it more valuable than a standard Bishop. Horse Archers represent the Mongol light cavalry, renowned for hit-and-run archery tactics. Their ability to quickly reposition for forks and skewers makes them a persistent tactical threat.</p>
-<h3>Lancer (L)</h3>
+<h3 id="lancer-l">Lancer (L)</h3>
 <p>The Lancer <strong>moves as a Knight</strong> but <strong>captures as a Rook</strong> (orthogonally, any number of squares). Its value is generally below that of a Rook because it cannot slide across the board in a single move. However, Lancers enter play quickly compared to Rooks and can threaten long-range captures from an early stage. Lancers represent the Mongol heavy cavalry.</p>
-<h3>Scout (S)</h3>
+<h3 id="scout-s">Scout (S)</h3>
 <p>The Scout replaces the pawn in the Horde army. It <strong>moves as a forward-only Knight</strong>—specifically, the four Knight-jump destinations that move the piece toward the opponent’s side of the board (two squares forward + one to the side, or one square forward + two to the side, in either lateral direction). It does <strong>not</strong> jump to the two backward Knight squares.</p>
 <p>The Scout <strong>captures one square directly forward</strong>, like a pawn’s standard attack but without the diagonal component.</p>
 <p>Key properties:</p>
@@ -154,17 +154,17 @@ Rank 7: eight Scouts</p>
 <li>Scouts promote on the last rank (<strong>rank 1 for Gold</strong>) and can <strong>only promote to a Khatun</strong>.</li>
 <li>Scouts do not have an initial two-square advance, and en passant does not apply to them.</li>
 </ul>
-<h2>Strategy Notes</h2>
+<h2 id="strategy-notes">Strategy Notes</h2>
 <p><strong>For the Horde:</strong> Develop Kheshigs carefully—their value in the endgame is enormous and losing one makes mating the Kingdom King much harder. Use the Scouts’ speed to threaten early promotion; even the threat of creating a new Khatun forces Kingdom defensive resources. Horse Archers and Lancers can open threats from the flanks much earlier than Bishops and Rooks in standard chess, due to their Knight movement.</p>
 <p><strong>For the Kingdom:</strong> The Horde lacks the Queen’s long-range sliding power and cannot castle, making early central pressure effective. Target Kheshigs as priority pieces—once both are eliminated, the Kingdom’s mating chances improve dramatically. Be alert to campmate: the Khan’s ability to march to rank 8 for a positional win is a real endgame threat.</p>
-<h2>Comparison with Orda Chess</h2>
+<h2 id="comparison-with-orda-chess">Comparison with Orda Chess</h2>
 <p>Khan’s Chess replaces two pieces from Orda Chess:</p>
 <ul class="rules">
 <li>The <strong>pawn</strong> (standard chess pawn used by both sides in Orda) is replaced by the <strong>Scout</strong> for the Horde, themed around Mongol cavalry.</li>
 <li>The <strong>Yurt</strong> (which moved and captured as a Queen but only one or two squares) is replaced by the <strong>Khatun</strong> (Knight movement, King capture).</li>
 </ul>
 <p>All other Horde pieces—Lancer, Horse Archer, Kheshig—carry over from Orda Chess with the same movement and capture rules.</p>
-<h2>Attribution</h2>
+<h2 id="attribution">Attribution</h2>
 <p>Khan’s Chess was designed by Couch Tomato (2023–24). Rules documented from the PyChess variant guide at pychess.org/variants/khans.</p>
 
 </div>

@@ -52,12 +52,12 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Mortal Shogi</h2>
+<h2 id="mortal-shogi">Mortal Shogi</h2>
 <p>Mortal Shogi is a modern Shogi variant created collaboratively by Roberto Lavieri and Fergus Duniho. It introduces <strong>mortality</strong> to Shogi pieces: instead of reverting to their original form when captured, pieces demote one rank down a fixed chain and change sides. When a Pawn is captured, it is removed from the game entirely.</p>
-<h3>Starting Position</h3>
+<h3 id="starting-position">Starting Position</h3>
 <p>Identical to standard Shogi.</p>
 <p><strong>SFEN:</strong> <code>lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1</code></p>
-<h3>Piece Ranking and Demotion</h3>
+<h3 id="piece-ranking-and-demotion">Piece Ranking and Demotion</h3>
 <p>Pieces are ranked high to low. When a piece is captured, it demotes one step:</p>
 <ol>
 <li>Dragon King → demotes to Dragon Horse</li>
@@ -71,7 +71,7 @@
 <li>Pawn → <strong>removed from the game permanently</strong></li>
 </ol>
 <p>After demotion, the piece changes sides and goes to the capturing player’s hand for dropping. This replaces the standard Shogi rule of promoted pieces reverting to their unpromoted form.</p>
-<h3>Piece Movement</h3>
+<h3 id="piece-movement">Piece Movement</h3>
 <p>All pieces move as in standard Shogi. The standard Shogi promoted forms for Pawn, Knight, Lance, and Silver (Tokin, etc.) are not used.</p>
 <ul class="rules">
 <li><strong>Dragon King:</strong> Rook + one diagonal step (as standard Shogi).</li>
@@ -84,7 +84,7 @@
 <li><strong>Knight:</strong> Leaps to either of the two forward-most Knight squares (two forward, one sideways). Promotes to Lance, Silver General, or Gold General.</li>
 <li><strong>Pawn:</strong> Steps and captures one square straight forward. Promotes to Knight, Lance, Silver General, or Gold General.</li>
 </ul>
-<h3>Promotion</h3>
+<h3 id="promotion">Promotion</h3>
 <p>Promotion zone is the last 3 ranks (ranks 7–9 for Sente). A piece may optionally promote when it enters, exits, or moves within the zone. A piece <strong>must promote</strong> if it would otherwise have no legal moves from that square.</p>
 <p>Rooks promote to Dragon King and Bishops to Dragon Horse, as in standard Shogi.</p>
 <p>For all pieces below Gold General, promotion is <strong>flexible</strong>: the piece may promote to any higher-ranked piece up to and including Gold General, provided the promoted form has at least one legal move from that square. This means a Knight may promote to Lance, Silver General, or Gold General (not Dragon Horse or higher).</p>
@@ -94,7 +94,7 @@
 <li>Knight must promote upon reaching rank 8 or 9.</li>
 <li>Pawn must promote upon reaching rank 9.</li>
 </ul>
-<h3>Drops</h3>
+<h3 id="drops">Drops</h3>
 <p>Drop rules follow standard Shogi:</p>
 <ul class="rules">
 <li>Any piece in hand may be dropped on any empty square, subject to restrictions.</li>
@@ -103,10 +103,10 @@
 <li>Knights: not on rank 8 or 9.</li>
 <li>Any drop must leave the dropped piece with at least one legal move from that square.</li>
 </ul>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <p><strong>Win:</strong> Checkmate the opponent’s King. All standard Shogi check rules apply.</p>
 <p>Black (Sente) moves first.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Designed by Roberto Lavieri and Fergus Duniho. Rules documented from chessvariants.com/shogivariants.dir/mortalshogi.html.</p>
 
 </div>

@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Diagonal Draughts</h2>
+<h2 id="diagonal-draughts">Diagonal Draughts</h2>
 <p>A 19th-century variant of International Draughts in which the starting position is rotated: instead of filling the first four rows, players arrange their pieces along the sides of the board’s main diagonal, leaving the long diagonal itself empty. The result is an unusual opening geometry that dissolves into standard International play once the first captures are made.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="448" height="448" viewBox="0 0 448 448">
 <title>Diagonal Draughts — starting position</title>
@@ -61,11 +61,11 @@
 <text x="44" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">a</text><text x="84" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">b</text><text x="124" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">c</text><text x="164" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">d</text><text x="204" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">e</text><text x="244" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">f</text><text x="284" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">g</text><text x="324" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">h</text><text x="364" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">i</text><text x="404" y="439.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">j</text><text x="12" y="48.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">10</text><text x="12" y="88.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">9</text><text x="12" y="128.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">8</text><text x="12" y="168.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">7</text><text x="12" y="208.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">6</text><text x="12" y="248.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">5</text><text x="12" y="288.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">4</text><text x="12" y="328.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">3</text><text x="12" y="368.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">2</text><text x="12" y="408.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">1</text>
 </svg>
 <p class="diagram-caption">Diagonal Draughts — starting position</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> 10×10 checkered board. Only the 50 dark squares are used. Orient the board so the long diagonal runs from each player’s lower-left to upper-right corner.</p>
 <p><strong>Pieces:</strong> 20 men per player. Instead of filling rows, pieces are placed on all dark squares <strong>except</strong> those on the long diagonal (the diagonal running from corner a1 to corner j10). Each player’s pieces occupy the dark squares on their own side of that diagonal: one player on the lower-right triangle, the other on the upper-left triangle.</p>
 <p><strong>First move:</strong> White (lower-right) moves first.</p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <ul class="rules">
 <li><strong>Men movement:</strong> Men move diagonally forward one square at a time, following the same movement rules as International Draughts.</li>
 <li><strong>Men capture:</strong> A man captures by jumping diagonally over an adjacent opponent piece to the vacant square beyond. Captures may be made in any diagonal direction.</li>
@@ -73,16 +73,16 @@
 <li><strong>Majority rule:</strong> When multiple capture sequences are available, the player must take the sequence that captures the maximum number of pieces. If sequences are tied in length, the player may freely choose.</li>
 <li><strong>Multi-capture:</strong> After each jump, if another capture is immediately available, the sequence continues.</li>
 </ul>
-<h3>King Promotion</h3>
+<h3 id="king-promotion">King Promotion</h3>
 <p>When a man ends its turn on the opponent’s back row (the far edge of the board), it is promoted to a king.</p>
 <ul class="rules">
 <li><strong>Flying kings:</strong> Kings move any number of unoccupied squares diagonally in any direction.</li>
 <li><strong>King capture:</strong> Kings capture by jumping over a single opponent piece at any distance along a diagonal, landing on any empty square beyond.</li>
 <li><strong>No mid-sequence promotion:</strong> A man passing through the back row during a multi-jump sequence is not promoted unless it stops there.</li>
 </ul>
-<h3>Winning</h3>
+<h3 id="winning">Winning</h3>
 <p>A player wins by capturing all opponent pieces or blocking all remaining opponent pieces from moving.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Historical variant, documented from at least the 19th century. Public domain. Sources: Ludeme/Ludii — Diagonal Draughts.lud (SHA 9405c8a7, Maastricht University Ludii Project); J.P. Neto, <em>World Abstract Games</em> — Checkers page (jpneto.github.io).</p>
 
 </div>
