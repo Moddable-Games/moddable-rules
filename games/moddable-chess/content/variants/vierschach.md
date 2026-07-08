@@ -14,7 +14,7 @@ engine:
     shape: cross
   players: [south, north, west, east]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Vierschach

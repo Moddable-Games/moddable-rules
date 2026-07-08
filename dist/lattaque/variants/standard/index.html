@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for L'Attaque (Standard).">
 <meta property="og:title" content="L'Attaque (Standard) — L'Attaque">
 <meta property="og:description" content="Complete rules for L'Attaque (Standard).">
-<meta property="og:image" content="https://rules.moddable.games/games/lattaque/og-variants/standard.png?v=0.1.0">
+<meta property="og:image" content="https://rules.moddable.games/games/lattaque/og-variants/standard.png?v=0.4.0">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/lattaque/variants/standard/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="L'Attaque (Standard) — L'Attaque">
 <meta name="twitter:description" content="Complete rules for L'Attaque (Standard).">
-<meta name="twitter:image" content="https://rules.moddable.games/games/lattaque/og-variants/standard.png?v=0.1.0">
+<meta name="twitter:image" content="https://rules.moddable.games/games/lattaque/og-variants/standard.png?v=0.4.0">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../theme.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.0">
+<link rel="stylesheet" href="../../theme.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.0">
 <script type="module" src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -38,10 +38,10 @@
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">L'Attaque · Variant 2 of 3</span>
+    <span class="variant-cover-label">L'Attaque · Variant 3 of 4</span>
     <h1 class="variant-cover-title">L'Attaque (Standard)</h1>
     <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">10×9</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">9×10</span><span class="variant-stat-lbl">Board</span></span>
       <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
     </div>
   </div>
@@ -53,10 +53,10 @@
 <div class="section">
 
 <h2>L’Attaque (Standard)</h2>
-<p>Designed by Hermance Edan, France, circa 1908. Published in Britain by H.P. Gibson &amp; Sons from 1909. The first mass-market hidden-information rank game; direct ancestor of Stratego.</p>
+<p>Designed by Hermance Edan. Patent filed France 26 November 1908; game first sold 1910 by Au Jeu Retrouvé. Rights acquired 1925 by H.P. Gibson &amp; Sons, London, who published it in Britain until at least the 1970s. The first mass-market hidden-information rank game; direct ancestor of Stratego.</p>
 <h3>Board</h3>
-<p>10 columns × 9 rows. Two lake areas in the center of the board (rows 4–5, approximately columns 3–4 and 7–8) are impassable — no piece may enter a lake square. The exact lake layout: columns c–d on rows 4–5, and columns g–h on rows 4–5 (four 2×2 lake sections total in most editions).</p>
-<h3>Piece Set (30 per player)</h3>
+<p>9 columns × 10 rows. Three lake areas in the centre of the board are impassable — no piece may enter or pass through a lake square. Each lake occupies 1 column × 2 rows. The three lakes are positioned in the two middle rows (rows 5–6), spaced across the board at columns 3, 5, and 7, with two clear columns on each outer edge and one clear column between each lake. This layout is distinct from the 2×2 lake blocks of Stratego (1946).</p>
+<h3>Piece Set (36 per player)</h3>
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
@@ -69,43 +69,36 @@
 </thead>
 <tbody>
 <tr>
-<td>0</td>
-<td><strong>Flag</strong></td>
-<td>1</td>
-<td>Immovable</td>
-<td>Cannot attack or defend. Capturing it wins the game.</td>
-</tr>
-<tr>
-<td>B</td>
-<td><strong>Bomb</strong></td>
-<td>6</td>
-<td>Immovable</td>
-<td>Defeats all attackers except Miners.</td>
-</tr>
-<tr>
-<td>1</td>
-<td><strong>Spy</strong></td>
+<td>10</td>
+<td><strong>Commander-in-chief</strong></td>
 <td>1</td>
 <td>1 step ortho</td>
-<td>Defeats the Marshal when the Spy attacks (moves onto Marshal’s square). Loses to all other pieces and to Marshal if Marshal attacks the Spy.</td>
+<td>Defeated only by Mine or by an attacking Spy. Beats Spy if Commander-in-chief attacks first.</td>
 </tr>
 <tr>
+<td>9</td>
+<td><strong>Brigadier General</strong></td>
+<td>1</td>
+<td>1 step ortho</td>
+<td>Standard capture.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Colonel</strong></td>
 <td>2</td>
-<td><strong>Scout</strong></td>
-<td>5</td>
-<td>Slides unlimited orthogonally</td>
-<td>Cannot attack on a sliding move across multiple squares; must stop adjacent to attack. (Regional variant: may attack on the slide.)</td>
-</tr>
-<tr>
-<td>3</td>
-<td><strong>Miner</strong></td>
-<td>5</td>
 <td>1 step ortho</td>
-<td>Only piece that can defuse Bombs (capture them).</td>
+<td>Standard capture.</td>
 </tr>
 <tr>
-<td>4</td>
-<td><strong>Sergeant</strong></td>
+<td>7</td>
+<td><strong>Commandant</strong></td>
+<td>2</td>
+<td>1 step ortho</td>
+<td>Standard capture.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Captain</strong></td>
 <td>4</td>
 <td>1 step ortho</td>
 <td>Standard capture.</td>
@@ -118,75 +111,82 @@
 <td>Standard capture.</td>
 </tr>
 <tr>
-<td>6</td>
-<td><strong>Captain</strong></td>
+<td>4</td>
+<td><strong>Sergeant</strong></td>
 <td>4</td>
 <td>1 step ortho</td>
 <td>Standard capture.</td>
 </tr>
 <tr>
-<td>7</td>
-<td><strong>Major</strong></td>
 <td>3</td>
+<td><strong>Sapper</strong></td>
+<td>4</td>
 <td>1 step ortho</td>
-<td>Standard capture.</td>
+<td>Only piece that can capture a Mine without being removed.</td>
 </tr>
 <tr>
-<td>8</td>
-<td><strong>Colonel</strong></td>
 <td>2</td>
-<td>1 step ortho</td>
-<td>Standard capture.</td>
+<td><strong>Scout</strong></td>
+<td>8</td>
+<td>Slides unlimited ortho</td>
+<td>May not leap over pieces or lake squares.</td>
 </tr>
 <tr>
-<td>9</td>
-<td><strong>General</strong></td>
+<td>1</td>
+<td><strong>Spy</strong></td>
 <td>1</td>
 <td>1 step ortho</td>
-<td>Standard capture.</td>
+<td>Defeats the Commander-in-chief when the Spy attacks. Loses to the Commander-in-chief if Commander-in-chief attacks first; loses to all other pieces.</td>
 </tr>
 <tr>
-<td>10</td>
-<td><strong>Marshal</strong></td>
+<td></td>
+<td><strong>Flag</strong></td>
 <td>1</td>
-<td>1 step ortho</td>
-<td>Highest-ranked movable piece; defeated only by the Spy when Spy attacks.</td>
+<td>Immovable</td>
+<td>Capturing the opponent’s Flag wins the game.</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Mine</strong></td>
+<td>4</td>
+<td>Immovable</td>
+<td>Any piece attacking a Mine is removed — except a Sapper, which captures the Mine safely.</td>
 </tr>
 </tbody>
 </table></div>
-<p>Total: 1+6+1+5+5+4+4+4+3+2+1+1 = 37? Let me recount: Flag 1, Bomb 6, Spy 1, Scout 5, Miner 5, Sergeant 4, Lieutenant 4, Captain 4, Major 3, Colonel 2, General 1, Marshal 1 = 37. Some editions use 30 total with smaller counts. The exact piece set varied across L’Attaque editions; the table above reflects a representative mid-century British edition.</p>
+<p><strong>Total: 36 per player.</strong> (Commander-in-chief 1 + Brigadier General 1 + Colonel 2 + Commandant 2 + Captain 4 + Lieutenant 4 + Sergeant 4 + Sapper 4 + Scout 8 + Spy 1 + Flag 1 + Mine 4 = 36)</p>
 <h3>Setup</h3>
-<p>Each player positions all their pieces face-down on their own half of the board (rows 1–4 for White; rows 6–9 for Red/Black), in any arrangement they choose. The opponent cannot see piece ranks. Lake squares remain empty.</p>
+<p>Each player positions all 36 pieces face-down on their own half of the board (the four rows nearest their side), in any arrangement they choose. The opponent cannot see piece ranks. Lake squares remain empty.</p>
 <h3>Movement</h3>
 <p>Players alternate turns. On each turn, a player moves one piece:</p>
 <ul class="rules">
-<li>Most pieces: 1 step orthogonally (up, down, left, right). Not diagonally. Not into lake squares. Not off the board.</li>
-<li><strong>Scout:</strong> Slides any number of squares orthogonally in one direction, stopping before any occupied square or lake.</li>
-<li><strong>Bombs and Flag:</strong> May not move.</li>
+<li><strong>Most pieces:</strong> 1 step orthogonally (up, down, left, right). Cannot enter a lake square or a square occupied by any piece.</li>
+<li><strong>Scout:</strong> Slides any number of squares orthogonally in one direction. Cannot leap over other pieces or lake squares; must stop before any occupied square or lake.</li>
+<li><strong>Mines and Flag:</strong> May not move.</li>
 </ul>
-<h3>Attack and Capture</h3>
-<p>When a piece moves onto a square occupied by an opponent’s piece:</p>
+<h3>Combat</h3>
+<p>Pieces cannot move into a square occupied by another piece. Instead, when a player moves a piece adjacent to an enemy piece (back to back), the active player may <strong>choose to attack</strong>.</p>
+<p>If the player chooses to attack:</p>
 <ol>
 <li>Both pieces are flipped face-up and ranks are revealed.</li>
 <li>The lower-ranked piece is permanently removed from the board.</li>
 <li>Equal rank: both pieces are removed.</li>
-<li>The attacker’s piece (if it wins) takes the defender’s square.</li>
 </ol>
-<p><strong>Special capture rules:</strong></p>
+<p><strong>Special combat rules:</strong></p>
 <ul class="rules">
-<li><strong>Spy vs. Marshal:</strong> If the Spy attacks the Marshal (Spy moves onto Marshal’s square), the Spy wins. If the Marshal attacks the Spy, the Marshal wins.</li>
-<li><strong>Miner vs. Bomb:</strong> Only a Miner can capture a Bomb. Any other piece attacking a Bomb is removed; the Bomb remains.</li>
-<li>No piece can capture a Flag outright through standard movement — capturing the Flag (rank 0) immediately wins the game.</li>
+<li><strong>Spy vs. Commander-in-chief:</strong> If the Spy attacks the Commander-in-chief, the Spy wins. If the Commander-in-chief attacks the Spy, the Commander-in-chief wins.</li>
+<li><strong>Any piece vs. Mine:</strong> Any piece (except Sapper) that attacks a Mine is removed; the Mine remains in place. A Sapper attacking a Mine captures the Mine safely.</li>
+<li>Capturing the Flag immediately wins the game.</li>
 </ul>
 <h3>Hidden Information</h3>
-<p>Piece ranks remain hidden from the opponent until revealed in combat. A piece that has been involved in at least one combat may be known to the opponent; players should not deliberately obscure a revealed piece’s identity.</p>
+<p>Piece ranks remain hidden from the opponent until revealed in combat. Once a piece has been revealed in combat, its identity is known to both players.</p>
 <h3>Win Conditions</h3>
 <ul class="rules">
 <li>Capture the opponent’s Flag: immediate win.</li>
-<li>Leave the opponent with no movable pieces (all remaining pieces are Bombs and Flag): win.</li>
+<li>Leave the opponent with no movable pieces (all remaining pieces are Mines and Flag): win.</li>
 </ul>
 <h3>Attribution</h3>
-<p>L’Attaque. Designed by Hermance Edan, patented France 1908. Published by H.P. Gibson &amp; Sons, London. Public domain rule set.</p>
+<p>L’Attaque. Designed by Hermance Edan. French patent No. 396,795 filed 26 November 1908. First published 1910 by Au Jeu Retrouvé, France. Rights acquired 1925 by H.P. Gibson &amp; Sons, London. Public domain rule set. Sources: Wikipedia (L’Attaque); Solomon, Eric, <em>Games &amp; Puzzles</em> No. 24 (May 1974); V&amp;A Museum collection; patent diagram (lake positions confirmed from original patent No. 396,795).</p>
 
 </div>
 </main>

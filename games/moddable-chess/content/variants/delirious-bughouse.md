@@ -14,7 +14,7 @@ engine:
     boards: 2
   players: [white1, black2, white3, black4]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Delirious Bughouse

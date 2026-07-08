@@ -6,7 +6,7 @@ players: "2"
 parent: asalto
 win: "Officers: reduce Soldiers below immobilizing threshold. Soldiers: immobilize all three Officers."
 special: "Extended Asalto variant. Three Officers defend a larger fortress against 50 Soldiers. Mechanics identical to Standard Asalto; scale increases strategic complexity."
-published: false
+published: true
 ---
 
 ## Royal Garrison

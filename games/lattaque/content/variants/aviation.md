@@ -6,7 +6,7 @@ players: "2"
 parent: lattaque
 win: "Land a Troop Carrier on the opponent's Aerodrome. Draw if both sides lose all Troop Carriers."
 special: "Hidden-information aerial warfare game by H.P. Gibson & Sons. 42 pieces per player: 32 numbered flying units plus 10 unnumbered Auxiliaries (Searchlights, Observation Balloons, Anti-Aircraft Guns). The Searchlight + Gun ranging system is unique: Searchlights reveal hidden pieces and enable AAA Guns to engage at range. Troop Carriers move only diagonally; are driven back (not removed) when attacked by a piece of value 5 or higher; win by reaching the opponent's Aerodrome."
-published: false
+published: true
 ---
 
 ## Aviation

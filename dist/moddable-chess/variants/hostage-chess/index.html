@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hostage Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Hostage Chess.">
+<meta property="og:title" content="Hostage Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Hostage Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/hostage-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/hostage-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hostage Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Hostage Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/hostage-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/hostage-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/hostage-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Hostage Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 76 of 155</span>
+    <h1 class="variant-cover-title">Hostage Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Hostage Chess</h1>
+<p><strong>Invented by John Leslie. Named “chess variant of the decade” by David Pritchard in Variant Chess, Summer 1999.</strong></p>
+<h2>Overview</h2>
+<p>Hostage Chess introduces Shogi-style dropping using a single standard chess set. Captured pieces do not change sides (unlike Chessgi/Bughouse); instead they are held as <strong>hostages</strong> in the captor’s prison. An exchange mechanism lets players rescue their hostages by releasing enemy hostages in return, then immediately deploy the rescued piece.</p>
+<h2>Setup</h2>
+<p>Standard FIDE starting position. Each player also has two off-board areas:</p>
+<ul class="rules">
+<li><strong>Prison</strong> (player’s right): holds captured enemy pieces as hostages</li>
+<li><strong>Airfield</strong> (player’s left): holds rescued pieces waiting to be dropped</li>
+</ul>
+<pre><code>FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+(Prisons and airfields start empty)
+</code></pre>
+<h2>Piece Values (for exchanges)</h2>
+<p>In ascending order: <strong>Pawn</strong> &lt; <strong>Knight = Bishop</strong> &lt; <strong>Rook</strong> &lt; <strong>Queen</strong></p>
+<h2>Rules</h2>
+<p>All standard FIDE rules apply with the following additions:</p>
+<h3>Hostage Exchange</h3>
+<p>At the <strong>start of your turn</strong> (before making any move), you may choose to rescue one of your pieces from your opponent’s prison. To do so:</p>
+<ol>
+<li>Choose which of your pieces to rescue from the opponent’s prison.</li>
+<li>Select a piece from your own prison of <strong>equal or greater value</strong> to release in exchange.</li>
+<li>Place your released piece in the <strong>opponent’s airfield</strong> (they may drop it later).</li>
+<li><strong>Immediately drop</strong> your rescued piece onto any legal vacant square.</li>
+<li>This drop ends your turn. You make no other move.</li>
+</ol>
+<p>Your opponent cannot prevent the exchange.</p>
+<p>If you do not perform an exchange, your turn proceeds with a normal move or a drop from your airfield.</p>
+<h3>Dropping (Parachuting)</h3>
+<p>Instead of making a regular move, you may <strong>drop</strong> one piece from your <strong>airfield</strong> onto any vacant square. Restrictions:</p>
+<ul class="rules">
+<li>A Pawn may <strong>not</strong> be dropped on rank 1 or rank 8.</li>
+<li>No other restrictions on drop squares (e.g., two Bishops may end up on the same colour).</li>
+<li>Dropped pieces are subject to normal castling and en-passant rules as if they had always been part of the game.</li>
+</ul>
+<h3>Pawn Promotion</h3>
+<p>Promotion works differently:</p>
+<ul class="rules">
+<li>A seventh-rank pawn <strong>may only advance</strong> to rank 8 if the <strong>opponent’s prison contains at least one Queen, Rook, Bishop, or Knight</strong>.</li>
+<li>When it does: the pawn leaves the board and enters <strong>your own prison</strong>. You immediately fill the promotion square with one piece of your choice from the opponent’s prison.</li>
+<li><strong>If no promotable pieces are in the opponent’s prison</strong>: the pawn is blocked and cannot advance to rank 8. It also cannot capture diagonally forward (since it cannot land there), so a king on a diagonally adjacent rank-8 square is not in check from such a pawn.</li>
+</ul>
+<h3>Castling and En Passant</h3>
+<p>Both are permitted under normal conditions and apply to dropped pieces as if they were part of the original setup.</p>
+<h2>Notation</h2>
+<ul class="rules">
+<li><code>N*c7</code>: a Knight from the airfield drops onto c7</li>
+<li><code>(B–N)N*c7</code>: a Bishop is released from prison, a Knight is rescued, the Knight drops onto c7</li>
+<li><code>(R–P)*c7</code>: a Rook is released, a Pawn is rescued, the Pawn drops onto c7</li>
+</ul>
+<p><em>Source: chessvariants.com/difftaking.dir/hostage.html</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../horde/" class="variant-pager-prev">← Horde Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../immunization-chess/" class="variant-pager-next">Immunization Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

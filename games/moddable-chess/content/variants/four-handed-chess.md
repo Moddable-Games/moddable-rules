@@ -5,11 +5,7 @@ board: 8×8
 players: 4
 parent: moddable-chess
 win: Accumulate the most points from captures; 54 points for capturing all three enemy Kings
-special:
-  - four-player
-  - dice
-  - no-checkmate
-  - points-scoring
+special: "Ancient Indian 4-player dice chess (c. 1030 CE). No checkmate — Kings are captured for points. Dice determine which piece type moves."
 engine:
   type: grid
   rows: 8

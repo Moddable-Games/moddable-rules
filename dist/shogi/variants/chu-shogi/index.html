@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chu Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Chu Shogi.">
+<meta property="og:title" content="Chu Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Chu Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/chu-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/chu-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chu Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Chu Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/chu-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/chu-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/chu-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Chu Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 8 of 24</span>
+    <h1 class="variant-cover-title">Chu Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">12×12</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Chu Shogi</h1>
+<p><strong>Chu Shogi (中将棋, Middle Shogi). First documented ~1350 AD. The dominant form of chess in Japan for centuries until modern Shogi replaced it.</strong></p>
+<h2>Overview</h2>
+<p>Chu Shogi is played on a 12×12 board with 46 pieces of 21 different types per side. Unlike modern Shogi, there are no drops. The defining piece is the <strong>Lion</strong>, a double-move piece so powerful that special rules govern its capture to prevent quick trades.</p>
+<p><strong>Win condition</strong>: Capture all of the opponent’s royal pieces. There is no check or checkmate — the game continues until the last royal is captured. Stalemate is assumed to be a win for the side delivering it.</p>
+<h2>Starting Setup</h2>
+<p>Pieces are listed by file (a–l = left to right from White’s perspective) and rank. White occupies ranks 1–5, Black mirrors on ranks 8–12.</p>
+<h3>Rank 1 (back rank)</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Square</th>
+<th>Piece</th>
+<th>Movement (Betza)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a1, l1</td>
+<td>Lance</td>
+<td>fR (forward slide only)</td>
+</tr>
+<tr>
+<td>b1, k1</td>
+<td>Ferocious Leopard</td>
+<td>FvW (diagonal step + vert. step)</td>
+</tr>
+<tr>
+<td>c1, j1</td>
+<td>Copper General</td>
+<td>fFvW (fwd diagonal + vert. step)</td>
+</tr>
+<tr>
+<td>d1, i1</td>
+<td>Silver General</td>
+<td>FfW (diagonal + fwd step)</td>
+</tr>
+<tr>
+<td>e1, h1</td>
+<td>Gold General</td>
+<td>WfF (orthogonal + fwd diagonal)</td>
+</tr>
+<tr>
+<td>f1</td>
+<td>King</td>
+<td>K (one step any direction)</td>
+</tr>
+<tr>
+<td>g1</td>
+<td>Drunk Elephant</td>
+<td>FfsW (diagonal + fwd/side step)</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Rank 2</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Square</th>
+<th>Piece</th>
+<th>Movement (Betza)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a2, l2</td>
+<td>Reverse Chariot</td>
+<td>vR (vertical slide only)</td>
+</tr>
+<tr>
+<td>c2, j2</td>
+<td>Bishop</td>
+<td>B (diagonal slider)</td>
+</tr>
+<tr>
+<td>e2, h2</td>
+<td>Blind Tiger</td>
+<td>FbsW (diagonal + back/side step)</td>
+</tr>
+<tr>
+<td>f2</td>
+<td>Kirin</td>
+<td>FD (diagonal step + Dabbaba leap)</td>
+</tr>
+<tr>
+<td>g2</td>
+<td>Phoenix</td>
+<td>WA (orthogonal step + Alfil leap)</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Rank 3</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Square</th>
+<th>Piece</th>
+<th>Movement (Betza)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a3, l3</td>
+<td>Side Mover</td>
+<td>sRvW (sideways slide + vert. step)</td>
+</tr>
+<tr>
+<td>b3, k3</td>
+<td>Vertical Mover</td>
+<td>vRsW (vert. slide + side step)</td>
+</tr>
+<tr>
+<td>c3, j3</td>
+<td>Rook</td>
+<td>R (orthogonal slider)</td>
+</tr>
+<tr>
+<td>d3, i3</td>
+<td>Dragon Horse</td>
+<td>BW (Bishop + ortho. step)</td>
+</tr>
+<tr>
+<td>e3, h3</td>
+<td>Dragon King</td>
+<td>RF (Rook + diagonal step)</td>
+</tr>
+<tr>
+<td>f3</td>
+<td><strong>Lion</strong></td>
+<td>KNAD (see below)</td>
+</tr>
+<tr>
+<td>g3</td>
+<td>Queen</td>
+<td>Q (Rook + Bishop)</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Ranks 4–5</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Square</th>
+<th>Piece</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a4–l4</td>
+<td>Pawn</td>
+<td>fW (forward single step)</td>
+</tr>
+<tr>
+<td>d5, i5</td>
+<td>Go Between</td>
+<td>vW (vertical step, either direction)</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Key Pieces</h2>
+<h3>Lion</h3>
+<p>The Lion makes up to <strong>two moves per turn</strong>, independently in any direction (even changing direction after the first). It may:</p>
+<ul class="rules">
+<li>Move or capture to any square within a 5×5 area around it</li>
+<li>Capture a piece, then move or capture again as a King</li>
+<li>Move to an adjacent empty square and return (passing the turn)</li>
+<li>Hop over a square (if moving to the same destination in one leap, with the middle square occupied)</li>
+</ul>
+<h3>Kirin</h3>
+<p>Leaps diagonally one square (Ferz) OR leaps exactly two squares orthogonally (Dabbaba). Promotes to <strong>Lion</strong>.</p>
+<h3>Phoenix</h3>
+<p>Moves one square orthogonally (Wazir) OR leaps exactly two squares diagonally (Alfil). Promotes to <strong>Queen</strong>.</p>
+<h3>Drunk Elephant</h3>
+<p>Moves one step diagonally in any direction, or one step forward/sideways orthogonally (cannot step backward). Promotes to <strong>Prince</strong> (a second King).</p>
+<h2>Promotion</h2>
+<p>Promotion is <strong>optional</strong> and occurs when a piece <strong>enters</strong> the promotion zone (the four ranks farthest from the player: ranks 9–12 for White). A piece can also promote when it <strong>captures</strong> inside the zone. Each piece may promote <strong>at most once</strong> regardless of its position.</p>
+<p>Pawns may promote even without a capture upon reaching the last rank.</p>
+<p>King, Lion, and Queen do not promote.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Promotes To</th>
+<th>Promoted Move</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pawn</td>
+<td>Gold General</td>
+<td>WfF</td>
+</tr>
+<tr>
+<td>Gold General</td>
+<td>Rook</td>
+<td>R</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>Dragon King</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>Dragon King</td>
+<td>Soaring Eagle</td>
+<td>RbBfFfA + limited Lion power fwd</td>
+</tr>
+<tr>
+<td>Silver General</td>
+<td>Vertical Mover</td>
+<td>vRsW</td>
+</tr>
+<tr>
+<td>Vertical Mover</td>
+<td>Flying Ox</td>
+<td>BvR</td>
+</tr>
+<tr>
+<td>Copper General</td>
+<td>Side Mover</td>
+<td>sRvW</td>
+</tr>
+<tr>
+<td>Side Mover</td>
+<td>Free Boar</td>
+<td>BsR</td>
+</tr>
+<tr>
+<td>Ferocious Leopard</td>
+<td>Bishop</td>
+<td>B</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Dragon Horse</td>
+<td>BW</td>
+</tr>
+<tr>
+<td>Dragon Horse</td>
+<td>Horned Falcon</td>
+<td>BbsRfWfD + limited Lion power fwd</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>White Horse</td>
+<td>vRfB</td>
+</tr>
+<tr>
+<td>Reverse Chariot</td>
+<td>Whale</td>
+<td>vRbB</td>
+</tr>
+<tr>
+<td>Blind Tiger</td>
+<td>Flying Stag</td>
+<td>FbWfsW</td>
+</tr>
+<tr>
+<td>Drunk Elephant</td>
+<td><strong>Prince</strong> (royal)</td>
+<td>K</td>
+</tr>
+<tr>
+<td>Go Between</td>
+<td>Elephant (= Drunk Elephant)</td>
+<td>FfsW</td>
+</tr>
+<tr>
+<td>Phoenix</td>
+<td>Queen</td>
+<td>Q</td>
+</tr>
+<tr>
+<td>Kirin</td>
+<td><strong>Lion</strong></td>
+<td>KNAD</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Horned Falcon</strong> and <strong>Soaring Eagle</strong> have limited Lion power in one/two directions respectively: they may make two consecutive steps along the same ray, continuing after a capture.</p>
+<h2>Prince (Two Royal Pieces)</h2>
+<p>A Drunk Elephant that promotes becomes a <strong>Prince</strong> — a second royal King. When a player has two royals, losing one is non-fatal; only losing the <strong>last</strong> royal loses the game.</p>
+<h2>Lion Capture Restrictions</h2>
+<p>To prevent quick Lion trades, two rules apply:</p>
+<ol>
+<li><strong>No protected trade</strong>: A Lion may not capture a protected enemy Lion if doing so exposes it to recapture (as if it were an absolute royal for one move).</li>
+</ol>
+<ul class="rules">
+<li>Exception: A Lion may always capture an adjacent enemy Lion (which could take it “in passing” regardless).</li>
+<li>Exception: A Lion capturing the enemy Lion together with at least one other non-trivial piece (not a Pawn or Go Between) may do so even if exposed to recapture.</li>
+</ul>
+<ol start="2">
+<li><strong>Counter-strike rule</strong>: A non-Lion may not capture the enemy Lion if on the immediately preceding turn the enemy captured a friendly Lion using a non-Lion.</li>
+</ol>
+<ul class="rules">
+<li>Exception: Promotion to Lion during such a capture allows the fresh Lion to be recaptured.</li>
+</ul>
+<h2>Repetition Rules</h2>
+<p>Repeating a position (same side to move) is forbidden. Per the Japanese Chu Shogi Association:</p>
+<ul class="rules">
+<li>Perpetual check: the checking side must vary.</li>
+<li>If only one side is attacking with all moves since the prior occurrence, the attacker must vary.</li>
+<li>If both sides are only passing, the side that began passing must vary.</li>
+<li>If neither side attacks anything, a draw may be claimed.</li>
+<li>Otherwise, the side whose move caused the repetition loses.</li>
+</ul>
+<p>(Rules trigger on the 4th repetition, as in modern Shogi.)</p>
+<h2>Baring Rule</h2>
+<p>King + any piece vs. lone King is a win, by convention, for the stronger side. Some interpretations extend this to a full bare-king rule (any pieces remaining = win), but this is disputed.</p>
+<p><em>Source: chessvariants.com/rules/chu-shogi (H.G. Muller)</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../annan-shogi/" class="variant-pager-prev">← Annan Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../dai-shogi/" class="variant-pager-next">Dai Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

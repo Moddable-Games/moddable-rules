@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cannon Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Cannon Shogi.">
+<meta property="og:title" content="Cannon Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Cannon Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/cannon-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/cannon-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cannon Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Cannon Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/cannon-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/cannon-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/cannon-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Cannon Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 50 of 24</span>
+    <h1 class="variant-cover-title">Cannon Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">9×9</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Cannon Shogi</h2>
+<p>Cannon Shogi is a Shogi variant invented by Peter Michaelsen in February 1998. The starting setup is the same as standard Shogi with two modifications: the nine Pawns on rank 3 are replaced by <strong>five Soldiers</strong> (in the Janggi style), and four Cannons of different types are placed in rank 2 between the Bishop and Rook positions.</p>
+<h3>Setup</h3>
+<p><strong>Board:</strong> Standard 9×9 grid.</p>
+<p><strong>Starting position:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rank 1 — Gote back</td>
+<td>Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance</td>
+</tr>
+<tr>
+<td>Rank 2 — Gote</td>
+<td>Rook(b) · Copper Cannon© · Iron Cannon(d) · · Gold Cannon(f) · Silver Cannon(g) · Bishop(h)</td>
+</tr>
+<tr>
+<td>Rank 3 — Gote Soldiers</td>
+<td>Soldier(a) · · Soldier© · · Soldier(e) · · Soldier(g) · · Soldier(i)</td>
+</tr>
+<tr>
+<td>Ranks 4–6</td>
+<td>Empty</td>
+</tr>
+<tr>
+<td>Rank 7 — Sente Soldiers</td>
+<td>Soldier(a) · · Soldier© · · Soldier(e) · · Soldier(g) · · Soldier(i)</td>
+</tr>
+<tr>
+<td>Rank 8 — Sente</td>
+<td>Bishop(b) · Silver Cannon© · Gold Cannon(d) · · Iron Cannon(f) · Copper Cannon(g) · Rook(h)</td>
+</tr>
+<tr>
+<td>Rank 9 — Sente back</td>
+<td>Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance</td>
+</tr>
+</tbody>
+</table></div>
+<p>Sente (Black) moves first.</p>
+<p><strong>SFEN:</strong> <code>lnsgkgsnl/1rci1uab1/p1p1p1p1p/9/9/9/P1P1P1P1P/1BAU1ICR1/LNSGKGSNL[-] b - 1</code></p>
+<p><em>(Cannon letter assignments: A/a = Silver Cannon, U/u = Gold Cannon, I/i = Iron Cannon, C/c = Copper Cannon. P/p here denotes Soldier, not Pawn. Standard pieces: B/b = Bishop, R/r = Rook, L/l = Lance, N/n = Knight, S/s = Silver General, G/g = Gold General, K/k = King.)</em></p>
+<h3>Pieces</h3>
+<p><strong>Soldier (S/P):</strong> Moves and captures one square <strong>forward or sideways</strong> (left/right). Cannot move diagonally or backward. This is the Janggi Soldier movement. Drop rules from standard Shogi do not apply to Soldiers: two Soldiers may occupy the same file, Soldier-drop checkmate is legal, Soldiers may be dropped on the last rank. Soldiers promote to <strong>Tokin</strong> (Gold General movement) on reaching the promotion zone.</p>
+<p><strong>Gold Cannon (GC/U):</strong> Slides any number of squares orthogonally. To <strong>capture</strong>, must jump over exactly one intervening piece (the screen), landing on the target. Movement without capturing is free — no screen needed. This is the Xiangqi Cannon.</p>
+<p><strong>Silver Cannon (SC/A):</strong> Moves orthogonally, but <strong>both movement and capture</strong> require jumping over exactly one intervening piece. It cannot slide to an empty square without a screen; it always jumps. Note: unlike in Janggi, Silver Cannons may jump over and capture other Cannons. This is the Janggi Cannon.</p>
+<p><strong>Copper Cannon (CC/C):</strong> Diagonal version of the Gold Cannon. Slides any number of squares diagonally. To capture, must jump over exactly one piece on the diagonal. Movement without capturing is free.</p>
+<p><strong>Iron Cannon (IC/I):</strong> Diagonal version of the Silver Cannon. Both movement and capture require jumping over exactly one piece diagonally. Cannot move diagonally to an empty square without a screen.</p>
+<p>All four Cannons promote to <strong>Flying</strong> versions in the promotion zone:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Base</th>
+<th>Promoted</th>
+<th>Added movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gold Cannon</td>
+<td>Flying Gold Cannon</td>
+<td>Also: Gold Cannon + Silver Cannon powers combined orthogonally; one step diagonally, jumping over any adjacent diagonal piece</td>
+</tr>
+<tr>
+<td>Silver Cannon</td>
+<td>Flying Silver Cannon</td>
+<td>Same as Flying Gold Cannon</td>
+</tr>
+<tr>
+<td>Copper Cannon</td>
+<td>Flying Copper Cannon</td>
+<td>Copper + Iron Cannon combined diagonally; one step orthogonally, jumping over any adjacent orthogonal piece</td>
+</tr>
+<tr>
+<td>Iron Cannon</td>
+<td>Flying Iron Cannon</td>
+<td>Same as Flying Copper Cannon</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Rules</h3>
+<p>All standard Shogi rules apply except as noted. Drops, the standard promotion zone (ranks 7–9 for Sente), and all other mechanics are unchanged. Soldiers replace Pawns for drop purposes: apply the Nifu and related rules to Soldiers as you would to Pawns in standard Shogi, <strong>except</strong> the special Soldier relaxations noted above.</p>
+<h3>Win Conditions</h3>
+<p>Checkmate the opponent’s King. Stalemate is a loss for the player who cannot move.</p>
+<h3>Attribution</h3>
+<p>Cannon Shogi was invented by Peter Michaelsen (February 1998). Public domain. Rules documented from pychess.org/variants/cannonshogi.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../tori-shogi/" class="variant-pager-prev">← Tori Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../annan-shogi/" class="variant-pager-next">Annan Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

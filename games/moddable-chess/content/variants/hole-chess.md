@@ -13,7 +13,7 @@ engine:
     missing_squares: true
   players: [yellow, red]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Hole Chess

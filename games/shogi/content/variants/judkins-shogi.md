@@ -3,7 +3,7 @@ title: "Judkins' Shogi"
 slug: judkins-shogi
 board: "6×6"
 players: "2"
-parent: moddable-shogi
+parent: shogi
 win: "Checkmate"
 special: "Modern miniature Shogi on a 6×6 board. 7 pieces per side. Includes drops. Promotion zone is the last 2 ranks. Rook promotes to Dragon, Bishop to Horse, Knight/Silver/Pawn promote to Gold."
 engine:

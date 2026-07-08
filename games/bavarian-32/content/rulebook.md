@@ -40,8 +40,9 @@ Card point values vary by game. In Skat, the highest-value cards are Ace (11), T
 
 | Game | Players | Description |
 |---|---|---|
+| [Schafkopf](games/schafkopf/) | 4 | Bavaria’s defining card game. Permanent trumps (Obers, Unters, Hearts). Declaring side needs 61+ of 120 card points. |
 | [Skat](games/skat/) | 3 | Germany’s national card game. Solo declarer bids to win against two defenders. Jacks are always top trumps. |
 
 ## Hub Notes
 
-Future additions to this hub may include Doppelkopf (4 players, 48-card double deck), Schafkopf (Bavarian national game, 4 players), and Sheepshead (American variant of Schafkopf).
+Future additions to this hub may include Doppelkopf (4 players, 48-card double deck) and Sheepshead (American variant of Schafkopf).

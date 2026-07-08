@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oblong Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Oblong Chess.">
+<meta property="og:title" content="Oblong Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Oblong Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/oblong-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/oblong-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Oblong Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Oblong Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/oblong-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/oblong-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/oblong-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Oblong Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 102 of 155</span>
+    <h1 class="variant-cover-title">Oblong Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">4×16</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Oblong Chess</h2>
+<p>Oblong Chess is a historical chess variant played on a 4×16 board (four files, sixteen ranks). Approximately one thousand years old, it is a variant of <strong>Shatranj</strong> — the Arabic predecessor of modern chess — using the full Shatranj piece set and movement rules. Seven different starting setups are documented in historical sources. The game was often played with dice that determined which piece type the player could move on each turn.</p>
+<h3>The Board</h3>
+<p>4 columns × 16 ranks (64 squares total — same as a standard chessboard, but extremely elongated). The narrow shape gives Rooks enormous value along the 16-rank axis, while Bishops (Elephants) are severely restricted by the 4-file width.</p>
+<h3>Pieces (Shatranj Set)</h3>
+<p>Each player commands the same forces as in Shatranj:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Shatranj Name</th>
+<th>Movement</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>Shah</td>
+<td>Moves 1 square in any direction</td>
+<td>1</td>
+</tr>
+<tr>
+<td>General</td>
+<td>Firzan</td>
+<td>Moves 1 square diagonally</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Elephant</td>
+<td>Fil</td>
+<td>Leaps exactly 2 squares diagonally (may jump)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>Asp/Faras</td>
+<td>Leaps as in modern chess</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>Rukh</td>
+<td>Slides any distance orthogonally</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>Baidak</td>
+<td>Moves 1 square forward; no double first move; promotes</td>
+<td>8</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>Note: The General (Firzan) and Elephant (Fil) differ significantly from their modern Queen and Bishop equivalents: the Firzan moves only 1 diagonal square, and the Fil leaps exactly 2 diagonal squares.</em></p>
+<h3>Starting Position (First Setup)</h3>
+<p>The source documents 7 different opening setups for White. The primary setup:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank 1</th>
+<th>a1</th>
+<th>b1</th>
+<th>c1</th>
+<th>d1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pieces</td>
+<td>Elephant</td>
+<td>General</td>
+<td>King</td>
+<td>Elephant</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank 2</th>
+<th>a2</th>
+<th>b2</th>
+<th>c2</th>
+<th>d2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pieces</td>
+<td>Rook</td>
+<td>Knight</td>
+<td>Knight</td>
+<td>Rook</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ranks 3–10: empty.</p>
+<p>Black starts on ranks 15–16 (mirror).</p>
+<p><em>Pawns occupy ranks 3 and 14 (adjacent to the piece ranks), one per file.</em></p>
+<h3>Movement Rules</h3>
+<p>Pieces move as in Shatranj:</p>
+<ul class="rules">
+<li><strong>Shah (King):</strong> 1 square in any direction</li>
+<li><strong>Firzan (General):</strong> 1 square diagonally</li>
+<li><strong>Fil (Elephant):</strong> leaps exactly 2 diagonal squares; may jump over an intervening piece</li>
+<li><strong>Asp (Knight):</strong> as in modern chess</li>
+<li><strong>Rukh (Rook):</strong> any distance orthogonally</li>
+<li><strong>Pawn:</strong> 1 square forward; no double first move; promotes to Firzan (General) on reaching the last rank</li>
+</ul>
+<h3>Win Conditions</h3>
+<ul class="rules">
+<li><strong>Checkmate</strong> wins</li>
+<li><strong>Stalemate</strong> is believed to win (Shatranj convention), though the precise rule has not survived</li>
+<li><strong>Bare King:</strong> capturing all pieces except the King also wins, unless the opponent can bare YOUR King on their next move — in that case it is a draw</li>
+</ul>
+<h3>Dice Play</h3>
+<p>Oblong Chess was often played with a six-sided die:</p>
+<ul class="rules">
+<li>Roll 6: move the Shah (King)</li>
+<li>Roll 5: move the Firzan (General)</li>
+<li>Roll 4: move an Elephant</li>
+<li>Roll 3: move a Knight</li>
+<li>Roll 2: move a Rook</li>
+<li>Roll 1: move a Pawn</li>
+</ul>
+<p>If no legal move exists for the rolled piece type, the turn is lost. Moving is not obligatory. In the dice version, the game is won by capturing the opponent’s King (not by checkmate).</p>
+<h3>Attribution</h3>
+<p>Oblong Chess is a historical Shatranj variant approximately one thousand years old. Written by Hans Bodlaender. Source: chessvariants.com/historic.dir/oblong.html (created November 1995).</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../no-retreat/" class="variant-pager-prev">← No Retreat</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../omega-chess/" class="variant-pager-next">Omega Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

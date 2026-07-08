@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archchess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Archchess.">
+<meta property="og:title" content="Archchess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Archchess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/archchess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/archchess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Archchess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Archchess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/archchess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/archchess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/archchess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Archchess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 13 of 155</span>
+    <h1 class="variant-cover-title">Archchess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">10×10</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Archchess</h2>
+<p>Archchess (Italian: <em>Arcisacchiere</em>) was invented by Dr. Francesco Piacenza and described in his book <em>I camoeggiamenti degle Scacchi</em>, published in Turin in 1683. It is played on a 10×10 board and adds two new piece types — the Centurion and the Decurion — plus two extra Pawns per side, to an otherwise standard chess army.</p>
+<p>The rules described here are based on materials written by John Gollon (draft chapters of an unpublished second chess variant book), transmitted to Hans Bodlaender via Eric Greenwood in 1997.</p>
+<h3>The Board</h3>
+<p>10 files (a–j) × 10 ranks = 100 squares. Left corners at each player’s side are dark colored.</p>
+<h3>Starting Position</h3>
+<p><strong>White (rank 1):</strong> Rook a1 · Knight b1 · Bishop c1 · Centurion d1 · King e1 · Queen f1 · Decurion g1 · Bishop h1 · Knight i1 · Rook j1</p>
+<p><strong>White pawns (rank 2):</strong> a2–j2 (10 pawns)</p>
+<p><strong>Black (rank 10):</strong> Rook a10 · Knight b10 · Bishop c10 · Centurion d10 · King e10 · Queen f10 · Decurion g10 · Bishop h10 · Knight i10 · Rook j10</p>
+<p><strong>Black pawns (rank 9):</strong> a9–j9 (10 pawns)</p>
+<h3>Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>One square in any direction</td>
+</tr>
+<tr>
+<td>Queen</td>
+<td>Slides any distance orthogonally or diagonally</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>Slides any distance orthogonally</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>Slides any distance diagonally</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>L-shaped leap</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>One square forward; captures diagonally; double first step permitted (see en passant exception)</td>
+</tr>
+<tr>
+<td><strong>Centurion</strong></td>
+<td>Leaps exactly 2 squares horizontally, vertically, or diagonally (Dabbaba + Alfil), <strong>or</strong> leaps as a Knight. May jump over intervening pieces in all cases.</td>
+</tr>
+<tr>
+<td><strong>Decurion</strong></td>
+<td>Moves one square diagonally (= Fers)</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Promotion</h3>
+<p>Pawns reaching the last rank <strong>always promote to Queen</strong>. No other promotion choice is available.</p>
+<h3>Castling and the King’s Leap</h3>
+<p>Castling in Archchess is flexible: the Rook moves one or more squares toward the King’s original square, and the King moves one or more squares toward the Rook’s original square. As an alternative to castling, the King may make a <strong>King’s Leap</strong>: a jump of two squares straight forward or horizontally.</p>
+<p>Conditions for either option: the King must not have moved previously; the castling Rook must not have moved; no square the King crosses is attacked by an opponent’s piece; the King does not land in check. Whether being in check prevents castling or the King’s Leap is not specified in the source.</p>
+<h3>En Passant Exception</h3>
+<p>Pawns may make a double first step, <strong>except</strong> when both of the following are simultaneously true: the pawn could be captured en passant by the standard rules, and the double step would block a check on the King. In that specific case, the double step is not permitted.</p>
+<h3>Special Rules</h3>
+<ul class="rules">
+<li><strong>Stalemate</strong> is a <strong>draw</strong>.</li>
+<li><strong>Win</strong> by checkmate only.</li>
+<li><strong>No bare King rule.</strong></li>
+</ul>
+<h3>Attribution</h3>
+<p>Archchess (<em>Arcisacchiere</em>) by Francesco Piacenza, 1683. Rules documented at chessvariants.com/historic.dir/arch.html (Hans Bodlaender, from Gollon via Greenwood, 1997).</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../antichess/" class="variant-pager-prev">← Antichess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../asean/" class="variant-pager-next">ASEAN Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

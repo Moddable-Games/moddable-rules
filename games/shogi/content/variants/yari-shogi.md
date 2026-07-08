@@ -3,7 +3,7 @@ title: "Yari Shogi"
 slug: yari-shogi
 board: "9×7"
 players: "2"
-parent: moddable-shogi
+parent: shogi
 win: "Checkmate"
 special: "Invented by Christian Freeling, 1981. ‘Yari’ means lance. All unpromoted pieces except Pawns include a forward-Lance movement. Extreme forward orientation. Includes drops; unlike standard Shogi, Pawns may drop to give checkmate."
 engine:

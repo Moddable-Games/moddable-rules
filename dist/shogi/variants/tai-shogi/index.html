@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tai Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Tai Shogi.">
+<meta property="og:title" content="Tai Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Tai Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/tai-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/tai-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tai Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Tai Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/tai-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/tai-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/tai-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Tai Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 20 of 24</span>
+    <h1 class="variant-cover-title">Tai Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">25×25</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Tai Shogi</h2>
+<p>Tai Shogi (大将棋, <em>Grand Chess</em>) is a historical Japanese Shogi variant played on a 25×25 board (625 squares) with approximately 177 piece types per side (354 pieces total). It occupies the scale tier between <strong>Maka-Dai-Dai Shogi</strong> (19×19, ~96 piece types) and <strong>Taikyoku Shogi</strong> (36×36, 402 piece types). Tai Shogi holds the distinction of being the largest chess variant with <strong>fully documented and verified movement rules</strong> for every piece.</p>
+<p>No game record of Tai Shogi being played to completion has survived. Whether it was ever genuinely played at this scale is uncertain.</p>
+<h3>The Board</h3>
+<p>25×25 grid (625 squares). Standard Shogi orientation: Sente (First Player) at the bottom, Gote (Second Player) at the top.</p>
+<p>Each player’s pieces span approximately the first 12 ranks from their side, with several ranks of empty space in the centre.</p>
+<h3>Scale</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Board</td>
+<td>25×25 (625 squares)</td>
+</tr>
+<tr>
+<td>Pieces per side</td>
+<td>~177 piece types</td>
+</tr>
+<tr>
+<td>Total pieces</td>
+<td>~354 (both sides combined)</td>
+</tr>
+<tr>
+<td>Board coverage (start)</td>
+<td>Each player occupies roughly 12 ranks</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Piece Set</h3>
+<p>Tai Shogi includes all pieces found in Maka-Dai-Dai Shogi (19×19) plus many additional types unique to this scale. Piece categories include:</p>
+<ul class="rules">
+<li>All standard Shogi pieces and their promoted forms</li>
+<li>All Chu Shogi additions (including Lion power pieces)</li>
+<li>Additional pieces from Dai Shogi, Taikyoku-Dai Shogi, and larger variants</li>
+<li>Pieces with unique movement patterns documented only in Tai Shogi and Taikyoku</li>
+<li>Ultra-powerful pieces: pieces that can reach any square in a direction without stopping</li>
+<li>Contagious-promotion pieces (as in Maka-Dai-Dai: Teaching King, Buddhist Spirit)</li>
+</ul>
+<h3>Royals</h3>
+<ul class="rules">
+<li><strong>King</strong> — royal; does not promote</li>
+<li><strong>Crown Prince</strong> (promoted Drunk Elephant) — royal once promoted</li>
+</ul>
+<p>Win: capture both the opponent’s King and Crown Prince (or the King alone if the Drunk Elephant has not promoted).</p>
+<h3>Promotion</h3>
+<ul class="rules">
+<li>Pieces promote upon entering the opponent’s promotion zone (the opponent’s ranks, approximately the last 10 ranks from their perspective)</li>
+<li>No drops — captured pieces are permanently removed from play</li>
+<li>Each piece has a fixed promoted form</li>
+<li>Promotion on capture applies to contagious pieces (Teaching King, Buddhist Spirit)</li>
+</ul>
+<h3>General Movement Categories</h3>
+<p>Pieces in Tai Shogi fall into these broad movement categories:</p>
+<ul class="rules">
+<li><strong>Generals:</strong> steppers that move 1 square in limited directions (Gold, Silver, Copper, Iron, Stone, Tile, Elephant, Earth generals)</li>
+<li><strong>Riders:</strong> unlimited sliders (Rook, Bishop, Lance, Reverse Chariot, Side Mover, Vertical Mover)</li>
+<li><strong>Hoppers:</strong> leap over intervening pieces (Knight, Kirin, Phoenix)</li>
+<li><strong>Lion-power pieces:</strong> take two moves per turn; may capture twice; may pass</li>
+<li><strong>Lion Dog class:</strong> up to 3 steps along any ray</li>
+<li><strong>Ultra-powerful sliders:</strong> can turn corners in their path (Hook Mover, Capricorn)</li>
+<li><strong>Universal leaper</strong> (Emperor): can jump to any square on the board</li>
+</ul>
+<h3>Historical Context</h3>
+<p>Tai Shogi is documented in historical Japanese manuscripts alongside the other large Shogi variants. The chessvariants.com entry for Tai Shogi links only to an external Japanese-language source (the shogi.net documentation). Murray’s <em>A History of Chess</em> covers the Shogi variant family including large games in this scale range.</p>
+<p>The game represents the theoretical maximum scale at which complete move documentation was maintained in historical records. Taikyoku Shogi (36×36) exceeds it in scale but is documented in only one known manuscript.</p>
+<h3>Attribution</h3>
+<p>Tai Shogi is documented in historical Japanese manuscripts. English documentation is limited; the primary Japanese-language source is referenced via chessvariants.com/link/TaiShogi.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../sankaku-shogi/" class="variant-pager-prev">← Sankaku Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../taikyoku-shogi/" class="variant-pager-next">Taikyoku Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

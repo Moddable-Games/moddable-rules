@@ -1,6 +1,6 @@
 ---
 title: "Xiangqi — Official Rulebook"
-version: "1.1.0"
+version: "1.2.0"
 slug: "xiangqi"
 players: "2"
 duration: "15–45 min"
@@ -8,7 +8,7 @@ age: "8+"
 tagline: "Ancient Chinese chess: cannon fire, palace tactics, and the river divide"
 type: "classic"
 status: "live"
-updated: "2026-07-07"
+updated: "2026-07-08"
 published: true
 variants: true
 theme:
@@ -57,6 +57,16 @@ This library includes {{variant_count}} playable variants spanning the Chinese a
 <div class="variant-grid">
 
 - [Minixiangqi](variants/minixiangqi/) — Xiangqi on a 7×7 board; no Advisors or Elephants; Soldiers move sideways from the start
+- [Xiangqi 42](variants/xiangqi-42/) — Compact 7×6 board (42 intersections); designed by Robert Price for the 42-Squares Contest (2001)
+
+</div>
+
+### Regional / Expanded Variants
+
+<div class="variant-grid">
+
+- [Quang Trung Chess](variants/quang-trung/) — Vietnamese 10×10 variant with Pawn promotion as an alternate win condition; named for Emperor Quang Trung
+- [Yang Qi](variants/yang-qi/) — Western-influenced 9×10 redesign replacing most Xiangqi pieces with FIDE equivalents; Cannon extended to diagonals
 
 </div>
 

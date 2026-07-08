@@ -13,7 +13,7 @@ engine:
     cols: 14
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Turkish Great Chess IV

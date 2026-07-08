@@ -3,12 +3,9 @@ title: Annan Shogi
 slug: annan-shogi
 board: 9×9
 players: 2
-parent: moddable-shogi
+parent: shogi
 win: Checkmate the opponent's King
-special:
-  - drops
-  - promotion
-  - borrowed-movement
+special: "Each piece borrows the movement of the friendly piece directly behind it. A Pawn backed by a Rook moves like a Rook."
 engine:
   type: grid
   rows: 9

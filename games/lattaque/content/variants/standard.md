@@ -6,7 +6,7 @@ players: "2"
 parent: lattaque
 win: "Capture the opponent's Flag, or leave them with no movable pieces"
 special: "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 1×2 lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks."
-published: false
+published: true
 ---
 
 ## L'Attaque (Standard)

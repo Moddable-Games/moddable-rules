@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hole Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Hole Chess.">
+<meta property="og:title" content="Hole Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Hole Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/hole-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/hole-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hole Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Hole Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/hole-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/hole-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/hole-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Hole Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 73 of 155</span>
+    <h1 class="variant-cover-title">Hole Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">44 squares (custom board with 2 holes)</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Hole Chess</h2>
+<p>Hole Chess is a chess variant created by Gary K. Gifford in December 2003 for the Chess Variants 44-Square Contest. The game is played on a custom 44-square board that includes two permanent holes — squares that pieces cannot occupy, but through which pieces can be captured by being pulled in. The defining mechanic is the Two-Action Rule: three piece types (Queen, Rook, and PS-Bishop) may both move and pull an enemy piece into a hole on the same turn.</p>
+<h3>The Board</h3>
+<p>A custom 44-square board with two holes. The two holes are located centrally — the central pawn on each side is blocked by a hole directly in front of it. A physical board can be made by cutting holes in an actual board and placing it over an open box, so pieces sucked into holes fall through.</p>
+<h3>Pieces</h3>
+<p>Each player begins with:</p>
+<ul class="rules">
+<li>1 <strong>King</strong></li>
+<li>1 <strong>Queen</strong></li>
+<li>1 <strong>Rook</strong></li>
+<li>1 <strong>PS-Bishop</strong> (Promoted Shogi Bishop = Dragon Horse: moves as a King or a Bishop)</li>
+<li>5 <strong>Pawns</strong></li>
+</ul>
+<h3>Starting Position</h3>
+<p><strong>Yellow (light):</strong></p>
+<ul class="rules">
+<li>King: d1</li>
+<li>Queen: d2</li>
+<li>Rook: c2</li>
+<li>PS-Bishop: e2</li>
+<li>Pawns: b3, c3, d3, e3, f3</li>
+</ul>
+<p><strong>Red (dark):</strong></p>
+<ul class="rules">
+<li>King: d10</li>
+<li>Queen: d9</li>
+<li>Rook: e9</li>
+<li>PS-Bishop: c9</li>
+<li>Pawns: b8, c8, d8, e8, f8</li>
+</ul>
+<p>Holes are located at d4 and d7. The central pawns (d3 and d8) cannot advance because a hole is directly in front of them; they can only move by capturing diagonally.</p>
+<h3>The Two-Action Rule</h3>
+<p>The <strong>Queen, Rook, and PS-Bishop</strong> each have two actions available on a turn when they are the moved piece. Either or both actions may be used; but at least one must be used.</p>
+<p><strong>Action 1 (movement):</strong> The piece moves and possibly captures as in standard chess (PS-Bishop moves as King or Bishop).</p>
+<p><strong>Action 2 (hole pull):</strong> The piece targets an enemy piece in its direct line of fire. If exactly one hole exists between the attacker and the target piece (along a straight line), the target is pulled toward the attacker along that line until it falls through the hole — eliminating it. Action 2 cannot be used if two or more holes exist between attacker and target, or if no hole is in line.</p>
+<p><strong>Result:</strong> A piece using Action 2 after Action 1 can eliminate two pieces in one turn — one by standard capture, one by pulling into a hole.</p>
+<p>A piece may also remain stationary and use only Action 2 (no movement on that turn).</p>
+<h3>Pawns</h3>
+<p>Pawns move and capture as in standard chess. On their first move they may advance two squares — except the central pawns (d3/d8) which cannot advance at all (holes block them). En passant applies.</p>
+<p>Promotion: if a Pawn reaches the opponent’s third rank (the furthest reachable rank), it must promote to a Queen, Rook, or PS-Bishop.</p>
+<h3>Kings</h3>
+<p>Kings move as in standard chess. Unlike standard chess, <strong>Kings can be captured</strong> (not just checkmated). If a King would have to move into or be exposed to the enemy line of fire (a potential stalemate), it must do so — there is no stalemate. A King may move adjacent to the enemy King, but the enemy King then captures it, ending the game.</p>
+<h3>Holes</h3>
+<p>Holes are permanent features of the board. Pieces cannot move onto holes voluntarily. A piece that is pulled into a hole via Action 2 is eliminated. It is <strong>illegal</strong> to move onto a hole under normal movement; a piece can only enter a hole by being pulled.</p>
+<h3>Win Condition</h3>
+<p>Capture the opponent’s King, checkmate the opponent’s King, or force resignation.</p>
+<h3>Attribution</h3>
+<p>Hole Chess was created by Gary K. Gifford, December 2003. Entry in the Chess Variants 44-Square Contest. Source: chessvariants.com/44.dir/hole-chess.html</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../hexapawn/" class="variant-pager-prev">← Hexapawn</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../hoppel-poppel/" class="variant-pager-next">Hoppel-Poppel →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

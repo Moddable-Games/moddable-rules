@@ -14,7 +14,7 @@ engine:
     extensions: corner
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Gustav III's Chess

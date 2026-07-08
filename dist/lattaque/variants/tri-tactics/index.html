@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for Tri-Tactics.">
 <meta property="og:title" content="Tri-Tactics — L'Attaque">
 <meta property="og:description" content="Complete rules for Tri-Tactics.">
-<meta property="og:image" content="https://rules.moddable.games/games/lattaque/og-variants/tri-tactics.png?v=0.1.0">
+<meta property="og:image" content="https://rules.moddable.games/games/lattaque/og-variants/tri-tactics.png?v=0.4.0">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/lattaque/variants/tri-tactics/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Tri-Tactics — L'Attaque">
 <meta name="twitter:description" content="Complete rules for Tri-Tactics.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/lattaque/og-variants/tri-tactics.png?v=0.1.0">
+<meta name="twitter:image" content="https://rules.moddable.games/games/lattaque/og-variants/tri-tactics.png?v=0.4.0">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../theme.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.0">
+<link rel="stylesheet" href="../../theme.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.0">
 <script type="module" src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -38,10 +38,10 @@
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">L'Attaque · Variant 3 of 3</span>
+    <span class="variant-cover-label">L'Attaque · Variant 4 of 4</span>
     <h1 class="variant-cover-title">Tri-Tactics</h1>
     <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">10×10</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">12×12 (combined land/sea terrain)</span><span class="variant-stat-lbl">Board</span></span>
       <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
     </div>
   </div>
@@ -53,25 +53,380 @@
 <div class="section">
 
 <h2>Tri-Tactics</h2>
-<p>Published by H.P. Gibson &amp; Sons, Britain, circa 1937. Tri-Tactics extends the L’Attaque system to a combined-forces game. Each player commands units from three military branches: Army (land), Navy (sea), and Air Force. Air units introduce a new movement type — overflying obstacles — that breaks from the standard L’Attaque movement rules.</p>
-<h3>Board</h3>
-<p>10 × 10 board with lake squares (impassable to land units) and sea squares (impassable to land and air units without modification; sea units move freely on them). The board features distinct land and water regions.</p>
-<h3>Piece Overview</h3>
-<p>Three branches, each with a ranked hierarchy:</p>
-<p><strong>Army (Land units):</strong> Move 1 step orthogonally on land squares. Cannot enter sea squares.</p>
-<p><strong>Navy (Sea units):</strong> Move 1 step orthogonally on sea squares. Can move on sea and the edges of land squares adjacent to sea in some rule variants.</p>
-<p><strong>Air Force (Air units):</strong> Move 1 step orthogonally. Unique ability: Air units may overfly lake and sea squares — they may cross any square type but must land on a land square at the end of each move.</p>
-<p>Capture rules: Higher rank within the same branch defeats lower rank. Cross-branch combat is resolved by a chart (Air units generally hold an advantage over surface units unless specific counters are present).</p>
-<p><strong>Special pieces:</strong></p>
+<p>Also titled <strong>The Great Game of Tactics on Land, Sea and in the Air</strong>. Published by H.P. Gibson &amp; Sons Ltd., London. Revised edition. A combination of the three Gibson hidden-rank games — Dover Patrol (Naval), Battle of Britain (Air), and L’Attaque (Army) — played simultaneously on a single board.</p>
+<p>Two editions exist:</p>
 <ul class="rules">
-<li><strong>Headquarters (Flag equivalent):</strong> Immovable, hidden. Capturing it wins.</li>
-<li><strong>Minefield/Fortification (Bomb equivalent):</strong> Immovable. Defeated only by specialist sappers/mine sweepers.</li>
-<li>Branch-specific scouts: slide unlimited within their movement type.</li>
+<li><strong>Older edition</strong>: Air pieces named Scout/Bomber/Battle Plane/Sea Plane; naval named Destroyer/Cruiser/Dreadnought/Flagship.</li>
+<li><strong>Revised edition</strong> (this file): Air pieces named Reconnaissance Plane/Bomber/Two-Seat Fighter; naval named Destroyer/Cruiser/Battleship/Aircraft Carrier plus Flying Boats and Submarine.</li>
 </ul>
+<hr>
+<h3>Board</h3>
+<p><strong>12 columns (A–L) × 12 rows (1–12).</strong> A custom printed board combining land (green) and sea (blue), bilaterally symmetric. Each player’s half of the board contains an equal portion of both. The coastline is <strong>irregular</strong> (not a straight vertical line); the rules specify squares that are mostly-sea count as SEA, mostly-land as LAND.</p>
+<p><strong>Terrain types:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LAND</strong></td>
+<td>Green squares. Infantry and Artillery’s native element.</td>
+</tr>
+<tr>
+<td><strong>SEA</strong></td>
+<td>Blue squares. Naval pieces’ native element.</td>
+</tr>
+<tr>
+<td><strong>RIVER</strong></td>
+<td>Channel connecting the Sea to the Lake on each player’s side. Takes the element of whichever piece currently occupies it.</td>
+</tr>
+<tr>
+<td><strong>LAKE</strong></td>
+<td>Player’s Naval Base — 1 square. Victory capture point for Ships (including Submarine, excluding Flying Boat). Cannot be permanently occupied (max 1 move transit).</td>
+</tr>
+<tr>
+<td><strong>H.Q.</strong></td>
+<td>Player’s Headquarters — 1 square. Victory capture point for Land Infantry (1–5) only. Cannot be permanently occupied.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Approximate terrain layout (based on physical board):</strong></p>
+<p>The sea area on each player’s half occupies approximately <strong>8 columns wide × 6 rows deep</strong>, with the land on the remaining 4 columns. The coastline is irregular and expands: narrower at the front rank, wider toward the center of the board. H.Q. is in the center of each player’s back rank (front rank from their perspective) — column 6 (on the land side at the coastline). Each River is <strong>4 squares long</strong>, running from the sea area toward the Lake; the Lake is <strong>1 square</strong> at the end of the River.</p>
+<p><strong>Key squares (Player 1 perspective, rows 1–12 with row 1 = Player 1’s front rank):</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Square</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Player 1 H.Q.</td>
+<td>F1 (col 6, row 1)</td>
+<td>Land side; center of front rank</td>
+</tr>
+<tr>
+<td>Player 1 Lake (Naval Base)</td>
+<td>Approx. B6 (col 2, row 6)</td>
+<td>Sea side; 1 sq at end of River</td>
+</tr>
+<tr>
+<td>Player 1 River</td>
+<td>Approx. B2–B5 (col 2, rows 2–5)</td>
+<td>4 squares; connects Sea to Lake</td>
+</tr>
+<tr>
+<td>Player 2 H.Q.</td>
+<td>G12 (col 7, row 12)</td>
+<td>Land side; center of back rank</td>
+</tr>
+<tr>
+<td>Player 2 Lake (Naval Base)</td>
+<td>Approx. K7 (col 11, row 7)</td>
+<td>Sea side; mirrored from Player 1</td>
+</tr>
+<tr>
+<td>Player 2 River</td>
+<td>Approx. K8–K11 (col 11, rows 8–11)</td>
+<td>4 squares; mirrored</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>Engine note:</strong> The exact per-square terrain map requires measurement from the physical board (photos available). The above coordinates are the best approximation from available photo references. The coastline is the primary uncertainty; all other rules are exact.</p>
+</blockquote>
+<p><strong>Setup:</strong> Each player places their 56 pieces face-down on their nearest 5 rows (rows 1–5 for Player 1; rows 8–12 for Player 2), excluding H.Q. and Lake squares. Exactly 2 squares per player will be left empty after placing all 56 pieces.</p>
+<hr>
+<h3>Pieces (56 per player)</h3>
+<p><strong>LAND FORCE — Infantry</strong> (native element: Land):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Name</th>
+<th>ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>Battalion</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Brigade</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Division</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Army Corps</td>
+<td>4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Army</td>
+<td>5</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>LAND FORCE — Artillery</strong> (native element: Land):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Name</th>
+<th>ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>Anti-Aircraft Gun</td>
+<td>AA</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Field Artillery</td>
+<td>FA</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Heavy Artillery</td>
+<td>HA</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>NAVAL FORCE</strong> (native element: Sea; Flying Boat is exempt from out-of-element forfeiture):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Name</th>
+<th>ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>Destroyers</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Cruisers</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Battleships</td>
+<td>3</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Aircraft Carrier</td>
+<td>4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Submarine</td>
+<td>SM</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Flying Boats</td>
+<td>FB</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>AIR FORCE</strong> (native element: Air; operates on both Land and Sea without out-of-element forfeiture):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Name</th>
+<th>ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>Reconnaissance Planes</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bombers</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Two-Seat Fighters</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>AUXILIARY</strong> (no native element; immune to out-of-element forfeiture; may operate on Land or Sea):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Name</th>
+<th>ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8</td>
+<td>Searchlights</td>
+<td>SL</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Total per player: 56 pieces.</strong></p>
+<hr>
+<h3>Movement</h3>
+<ul class="rules">
+<li>One square per turn: backwards, forwards, or sideways. <strong>Never diagonally.</strong></li>
+<li>Pieces move onto unoccupied squares only.</li>
+<li><strong>Searchlight exception</strong>: may move any number of squares in a straight orthogonal line, provided all intervening squares are vacant. This extended move may <strong>only be used to attack a piece</strong> (destination must be adjacent to an enemy piece being attacked). Searchlights <strong>may not</strong> use the extended move as a positional move without attacking.</li>
+<li>Players alternate turns; one piece per turn.</li>
+<li>First move settled by lot; no advantage to moving first.</li>
+</ul>
+<hr>
+<h3>Attack</h3>
+<ul class="rules">
+<li>Optional: when adjacent to an enemy piece, a player may say <strong>“Attack!”</strong> or <strong>“No Attack.”</strong></li>
+<li>On “Attack!”: both players reveal their pieces; lower-valued piece is removed; higher piece remains on its current square.</li>
+<li>Equal values: both pieces removed (<strong>X</strong>).</li>
+<li>If a player declines to attack (“No Attack”), the opponent <strong>cannot</strong> attack that piece in return without first moving one of their own pieces. You must move a piece in order to attack.</li>
+<li>A player cannot ask an opponent to declare a piece’s value without attacking.</li>
+<li>Attacker has no inherent advantage — purely value-based.</li>
+</ul>
+<hr>
+<h3>Out-of-Element Forfeiture</h3>
+<p>Pieces may move out of their native element for tactical purposes, but are <strong>immediately forfeit (removed)</strong> if attacked while out of element:</p>
+<ul class="rules">
+<li><strong>Land piece (Infantry or Artillery) on Sea</strong>, attacked by: ANY Naval piece, ANY Aircraft, or Searchlight → Land piece forfeit.</li>
+<li><strong>Naval piece (excluding Flying Boat) on Land</strong>, attacked by: Infantry, Artillery, Aircraft, or Searchlight → Naval piece forfeit.</li>
+</ul>
+<p><strong>Exempt from forfeiture:</strong></p>
+<ul class="rules">
+<li>Flying Boats: may go on land without out-of-element penalty.</li>
+<li>Air Force pieces (Recon, Bomber, TSF): operate over both Land and Sea without penalty.</li>
+<li>Searchlights: no native element; immune to forfeiture.</li>
+</ul>
+<p>These forfeiture rules override the Value Table entirely.</p>
+<hr>
+<h3>The Lake (Naval Base)</h3>
+<ul class="rules">
+<li><strong>No permanent occupation</strong>: a piece may move onto the Lake square but must move off on its very next turn. Any piece remaining on the Lake for more than one move is forfeit.</li>
+<li><strong>Entry restriction</strong>: to capture the opponent’s Lake, a Ship must enter from the <strong>River mouth</strong> and move up the River. A Ship that went on Land and returns to a River space <strong>may not</strong> then attack the Lake — it may only use the River to return to Sea.</li>
+<li><strong>River combat</strong>: while a Ship is on a River space, it captures all Land pieces (when attacked or attacking) <strong>except Heavy Artillery</strong> — Heavy Artillery beats Ships on River spaces.</li>
+<li><strong>Naval victory</strong>: only Ships (Destroyers, Cruisers, Battleships, Aircraft Carrier, Submarine) may capture the Lake. Flying Boats are <strong>excluded</strong>.</li>
+</ul>
+<hr>
+<h3>H.Q. (Headquarters)</h3>
+<ul class="rules">
+<li><strong>No permanent occupation</strong>: same rule as the Lake. Piece may transit through but must move off next turn; any piece remaining more than one move is forfeit.</li>
+<li><strong>Infantry victory only</strong>: only Land Infantry pieces (Battalion 1, Brigade 2, Division 3, Army Corps 4, Army 5) can capture the H.Q. Artillery pieces <strong>cannot</strong> capture the H.Q.</li>
+</ul>
+<hr>
+<h3>River</h3>
+<ul class="rules">
+<li>River squares may be used by Land, Sea, or Air pieces.</li>
+<li>The element of a River square is <strong>dynamically determined</strong> by whichever piece currently occupies it.</li>
+<li>If a Land piece is on the River mouth, that square is Land, and its connection to the Sea counts as Coastline.</li>
+<li>If a Ship is on a River square, that square is Sea, and Ship-on-River rules apply.</li>
+</ul>
+<hr>
+<h3>Coastline Rules</h3>
+<ul class="rules">
+<li>Squares mostly-Sea = SEA; mostly-Land = LAND.</li>
+<li><strong>Cross-coastline attack (Ship vs Land or Land vs Ship)</strong>: the <strong>attacker</strong> is forfeit and removed — EXCEPT:
+<ul class="rules">
+<li>Heavy Artillery attacking Ships across the Coastline: HA wins (ships forfeit). (<strong>#</strong> in table)</li>
+<li>Ships attacking Anti-Aircraft Guns across the Coastline: Ships win (AA forfeit). (<strong>+</strong> in table)</li>
+</ul>
+</li>
+<li><strong>Anti-coastal-defence exception</strong>: Bombers and Flying Boats may destroy Infantry 1–5 AND Field Artillery across the Coastline. (<strong>&amp;</strong> in table)</li>
+<li><strong>Aircraft vs Aircraft over Coastline</strong>: when Flying Boats and Air Force are in conflict across the Coastline, nothing happens; both remain. (<strong>*</strong> at coastline)</li>
+</ul>
+<hr>
+<h3>Searchlights: Special Rules</h3>
+<ul class="rules">
+<li>Can move any number of squares in a straight orthogonal line (not diagonal) to <strong>attack only</strong>.</li>
+<li>May operate on <strong>Sea as well as Land</strong> without penalty.</li>
+<li>Trigger out-of-element forfeiture when attacking out-of-element pieces.</li>
+<li>From Value Table: defeated by Flying Boats (FB wins). Defeats Reconnaissance Planes (value 1) and Battalions (value 1).</li>
+</ul>
+<hr>
 <h3>Win Conditions</h3>
-<p>Capture the opponent’s Headquarters, or reduce them to only immovable pieces.</p>
+<p><strong>First player to achieve either of the following wins:</strong></p>
+<ol>
+<li>Occupy the opponent’s <strong>H.Q.</strong> with a Land Infantry piece (Battalion 1, Brigade 2, Division 3, Army Corps 4, or Army 5). Artillery cannot capture H.Q.</li>
+<li>Occupy the opponent’s <strong>Lake</strong> with a Ship (Destroyer 1, Cruiser 2, Battleship 3, Aircraft Carrier 4, or Submarine SM). Flying Boats cannot capture the Lake.</li>
+</ol>
+<p>Only one base needs to be captured.</p>
+<hr>
+<h3>Value Table</h3>
+<p>Full cross-service combat resolution table. <strong>Row = Attacker; Column = Defender.</strong></p>
+<p>Table key:</p>
+<ul class="rules">
+<li><strong>[blank]</strong> = nothing happens, both pieces remain.</li>
+<li><strong>X</strong> = both pieces removed.</li>
+<li><strong>Piece ID</strong> (e.g. <code>4</code>, <code>FA</code>, <code>SM</code>) = that piece wins; the other is removed.</li>
+<li><strong>&amp;</strong> = Coastline special: Bomber or Flying Boat destroys Infantry (1–5) or Field Artillery across the Coastline.</li>
+<li><strong>*</strong> = Element-conditional: Flying Boat wins over Recon/Bomber/TSF <strong>on Sea</strong>; Recon/Bomber/TSF win over Flying Boat <strong>on Land</strong>; nothing happens <strong>over the Coastline</strong>.</li>
+<li><strong>#</strong> = River/Coastline special: only in conflict on a River space or with Coastline between; Heavy Artillery sinks the Ship.</li>
+<li><strong>+</strong> = River/Coastline special: only in conflict on a River space or with Coastline between; Ship destroys the Anti-Aircraft Gun.</li>
+<li><strong>FB</strong> = Flying Boat wins.</li>
+<li><strong>SM</strong> = Submarine wins.</li>
+</ul>
+<pre><code>ATTACKER          Bat1 Brig2 Div3 AC4 Army5  AA   FA   HA  Rec1 Bom2 TSF3  FB   SM  Des1 Cru2 Bat3 AiC4   SL
+------------------+----+-----+----+---+-----+----+----+----+----+----+----+----+----+----+----+----+----+----
+Battalion (1)     |  X |  2  |  3 | 4 |  5  |  1 | FA |    |    |  2 |    |  &amp; |    |    |    |    |    |  1
+Brigade (2)       |  2 |  X  |  3 | 4 |  5  |    | FA | HA |    |  &amp; |  3 |  &amp; |    |    |    |    |    |
+Division (3)      |  3 |  3  |  X | 4 |  5  |    |  X | HA |    |  2 |    |  &amp; |    |    |    |    |    |
+Army Corps (4)    |  4 |  4  |  4 | X |  5  |  4 |    | HA |    |  &amp; |    |  &amp; |    |    |    |    |    |
+Army (5)          |  5 |  5  |  5 | 5 |  X  |    |  5 | HA |    |  &amp; |    |  &amp; |    |    |    |    |    |
+Anti-Aircraft AA  |  1 |     |    |   |     |    | FA |    | AA | AA | AA | AA |  + |  + |  + |  + |  + |
+Field Artillery FA| FA | FA  |  X | 4 |  5  | FA |  X | HA |    |  &amp; |  3 |  &amp; |    |    |    |    |    |
+Heavy Artillery HA| HA | HA  | HA |HA | HA  |    | HA |  X |    |  2 |    |    |  # |  # |  # |  # |  # |
+Recon Plane (1)   |    |     |    |   |     | AA |    |    |  X |  2 |  3 |  * |    |    |    |    |    |  1
+Bomber (2)        |  2 |  &amp;  |  2 |  &amp;|  &amp;  | AA |  &amp; |  2 |  2 |  X |  3 |  * |    |    |    |    |    |
+Two-Seat Ftr (3)  |    |  3  |    |   |     | AA |  3 |    |  3 |  3 |  X |  * |    |    |    |    |    |
+Flying Boat FB    |  &amp; |  &amp;  |  &amp; |  &amp;|  &amp;  | AA |  &amp; |    |  * |  * |  * |  X | FB |  1 |    |    |    | FB
+Submarine SM      |    |     |    |   |     |  + |    |  # |    |    |    | FB |    | SM | SM | SM | SM |
+Destroyer (1)     |    |     |    |   |     |  + |    |  # |    |    |    |  1 | SM |  X |  2 |  3 |  4 |
+Cruiser (2)       |    |     |    |   |     |  + |    |  # |    |    |    |    | SM |  2 |  X |  3 |  4 |
+Battleship (3)    |    |     |    |   |     |  + |    |  # |    |    |    |    | SM |  3 |  3 |  X |  4 |
+Aircraft Carrier 4|    |     |    |   |     |  + |    |  # |    |    |    |    | SM |  4 |  4 |  4 |  X |
+Searchlight SL    |  1 |     |    |   |     |    |    |    |  1 |    |    | FB |    |    |    |    |    |
+</code></pre>
+<p><strong>Key interactions summary for engine:</strong></p>
+<ul class="rules">
+<li>Anti-Aircraft (AA) defeats all Air Force (Recon, Bomber, TSF, Flying Boat) in normal combat.</li>
+<li>AA loses to Battalion (1) in direct combat; Infantry 2–4 do not interact with AA (blank).</li>
+<li>Heavy Artillery (HA) beats all Infantry and FA, ties HA, loses to Bomber (2); has River/Coastline (#) rule vs Ships.</li>
+<li>Flying Boat (FB) beats Submarines (SM) and Destroyers (1) in naval combat.</li>
+<li>Submarine (SM) beats all other Ships but loses to Flying Boat.</li>
+<li>Searchlight defeats Battalions (1) and Reconnaissance Planes (1); is defeated by Flying Boats (FB).</li>
+<li>Division (3) vs Field Artillery (FA): X (both removed).</li>
+</ul>
+<hr>
 <h3>Attribution</h3>
-<p>Tri-Tactics. Published by H.P. Gibson &amp; Sons, Britain, approximately 1937. Combined-forces adaptation of L’Attaque. Public domain rule set. Full original piece hierarchy and cross-branch combat chart should be sourced from the original H.P. Gibson edition before publishing.</p>
+<p>“Tri-Tactics” or The Great Game of Tactics on Land, Sea and in the Air (Revised Edition). Published by H.P. Gibson &amp; Sons Ltd., London. Part of the Gibson hidden-rank warfare series alongside L’Attaque, Dover Patrol, and Aviation/Battle of Britain. Public domain rule set. Source: original H.P. Gibson &amp; Sons revised-edition rulebook (scanned from physical copy) and Value Table card.</p>
 
 </div>
 </main>

@@ -5,10 +5,7 @@ board: Circular Y-trisection
 players: 3
 parent: moddable-chess
 win: Be the last player with a King remaining
-special:
-  - three-player
-  - queen-left-of-king
-  - captures-army
+special: "3-player chess on a circular board divided into Y-shaped sectors. Checkmating a player captures their army. Alliances encouraged."
 engine:
   type: circular-y-trisection
   players: 3

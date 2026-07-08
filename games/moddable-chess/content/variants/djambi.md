@@ -5,11 +5,7 @@ board: 9×9
 players: 4
 parent: moddable-chess
 win: Be the last player with a Chief remaining
-special:
-  - four-player
-  - corpses
-  - unique-captures
-  - maze-power
+special: "4-player political strategy on a 9×9 grid. Killed pieces remain as impassable corpses; the center Maze grants extra turns and immunities."
 engine:
   type: grid
   rows: 9

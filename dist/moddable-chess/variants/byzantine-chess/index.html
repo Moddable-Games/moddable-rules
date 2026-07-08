@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Byzantine Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Byzantine Chess.">
+<meta property="og:title" content="Byzantine Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Byzantine Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/byzantine-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/byzantine-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Byzantine Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Byzantine Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/byzantine-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/byzantine-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/byzantine-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Byzantine Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 25 of 155</span>
+    <h1 class="variant-cover-title">Byzantine Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">Circular (4 rings × 16 files)</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Byzantine Chess</h1>
+<p><strong>Historical variant, approximately 10th century CE. Also called Round Chess.</strong></p>
+<h2>Overview</h2>
+<p>Byzantine Chess is a Shatranj variant popular in 10th-century Byzantium (present-day Istanbul). It is played on a circular board of four concentric rings, each containing 16 squares, for 64 squares in total. The circular topology means file 16 (p) connects directly back to file 1 (a) around the ring.</p>
+<h2>Board</h2>
+<p>The board consists of 4 rings (ranks) and 16 files (columns) arranged in a circle:</p>
+<ul class="rules">
+<li><strong>Rank 1</strong>: innermost ring</li>
+<li><strong>Rank 4</strong>: outermost ring</li>
+<li><strong>Files a–p</strong>: 16 columns around the circumference; file p is adjacent to file a</li>
+</ul>
+<h2>Setup</h2>
+<p>White occupies one side of the circle (files a and p), Black occupies the opposite side (files h and i). Each side has 10 pieces and 8 pawns.</p>
+<p><strong>White</strong></p>
+<ul class="rules">
+<li>King: a4</li>
+<li>Queen: p4</li>
+<li>Rooks: a1, p1</li>
+<li>Bishops: a3, p3</li>
+<li>Knights: a2, p2</li>
+<li>Pawns (right-moving): b1, b2, b3, b4</li>
+<li>Pawns (left-moving): o1, o2, o3, o4</li>
+</ul>
+<p><strong>Black</strong></p>
+<ul class="rules">
+<li>King: i4</li>
+<li>Queen: h4</li>
+<li>Rooks: h1, i1</li>
+<li>Bishops: h3, i3</li>
+<li>Knights: h2, i2</li>
+<li>Pawns (right-moving): g1, g2, g3, g4</li>
+<li>Pawns (left-moving): j1, j2, j3, j4</li>
+</ul>
+<p>White pawns march toward Black’s position; each player’s pawns advance in one of two directions around the ring.</p>
+<h2>Pieces</h2>
+<p>Pieces move as in Shatranj, not FIDE chess:</p>
+<p><strong>King</strong>: moves one square in any direction, as in standard chess.</p>
+<p><strong>Rook</strong>: slides any number of squares orthogonally, as in standard chess.</p>
+<p><strong>Knight</strong>: jumps in an L-shape (2+1 squares), as in standard chess.</p>
+<p><strong>Bishop (Elephant)</strong>: jumps exactly two squares diagonally (the Alfil leap). Does not slide; leaps over intervening pieces. Colour-bound.</p>
+<p><strong>Queen (General/Firzan)</strong>: moves exactly one square diagonally. Much weaker than the FIDE Queen.</p>
+<p><strong>Pawn</strong>: advances one square forward along the ring (no double push from the starting position). Captures one square diagonally forward. <strong>Pawns cannot promote.</strong></p>
+<h3>Special Pawn Rule</h3>
+<p>On a circular board, the two sets of pawns march in opposite directions. If two friendly pawns moving in opposite directions end up on mutually opposing squares such that both are blocked, the <strong>opponent</strong> may remove both of those pawns as a single action (this does not count as a move and requires no capture).</p>
+<h2>Rules</h2>
+<p><strong>Check and checkmate</strong> apply as in standard chess: a player in check must escape; if they cannot, they lose.</p>
+<p><strong>Stalemate is a win</strong>: a player who stalemates the opponent wins the game.</p>
+<p><strong>Bare King (bareing)</strong>: a player who captures all of the opponent’s non-King pieces wins. However, if the opponent can bare the other King on their very next move, the game is drawn instead.</p>
+<p><em>Source: chessvariants.com/historic.dir/byzantine.html</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../brusky/" class="variant-pager-prev">← Brusky's Hexagonal Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../capablanca/" class="variant-pager-next">Capablanca Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

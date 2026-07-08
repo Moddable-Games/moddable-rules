@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avalanche Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Avalanche Chess.">
+<meta property="og:title" content="Avalanche Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Avalanche Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/avalanche.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/avalanche/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Avalanche Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Avalanche Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/avalanche.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/avalanche.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/avalanche.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Avalanche Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 16 of 155</span>
+    <h1 class="variant-cover-title">Avalanche Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Avalanche Chess</h1>
+<p><strong>Invented by Ralph Betza, 1977. One of the most popular postal Chess variants, described in Pritchard’s <em>Encyclopedia of Chess Variants</em> and <em>Popular Chess Variants</em>, and in Schmittberger’s <em>New Rules for Classic Games</em>.</strong></p>
+<h2>Overview</h2>
+<p>Avalanche Chess adds a compulsory obligation to every move: after making a normal chess move, you must push one of your opponent’s pawns one square toward you. This “pawn push” creates an avalanche of pressure as the opponent’s pawns steadily advance.</p>
+<h2>Setup</h2>
+<p>Standard FIDE starting position.</p>
+<pre><code>FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+</code></pre>
+<h2>Rules</h2>
+<p>All standard FIDE rules apply, with the following modifications:</p>
+<h3>The Two-Part Turn</h3>
+<p>Each turn consists of <strong>two parts, both of which must be completed</strong>:</p>
+<ol>
+<li><strong>Move</strong>: Make any legal chess move (normal move, capture, castling, etc.).</li>
+<li><strong>Push</strong>: Advance one of the opponent’s pawns one square forward (toward yourself). The push is a single square only and is never a capture.</li>
+</ol>
+<h3>Constraints on the Push</h3>
+<ul class="rules">
+<li>The push is <strong>obligatory</strong> unless the opponent has no pawn that can legally be advanced (all pawns blocked).</li>
+<li>The pawn being pushed must have a clear square immediately in front of it (no piece in the way).</li>
+<li>A player’s first part of the turn (the move) must be legal according to standard rules. A player <strong>cannot</strong> leave their King in check after part 1, planning to escape check in part 2 — the two parts do not interact: check must be resolved in part 1.</li>
+</ul>
+<h3>Losing by Push</h3>
+<ul class="rules">
+<li>If pushing an opponent’s pawn causes the pushing player’s own King to be in check (i.e., the moved pawn reveals or creates a check against the pusher), that player <strong>loses immediately</strong>, even if they checked or mated the opponent in part 1 of the same turn.</li>
+</ul>
+<h3>Promotion by Push</h3>
+<ul class="rules">
+<li>If a pushed pawn reaches the last rank (promotion rank), the <strong>pawn’s owner</strong> chooses what piece it promotes to.</li>
+<li>If the promotion results in a check against the player who did the pushing, that player <strong>loses immediately</strong>.</li>
+</ul>
+<h3>No En Passant</h3>
+<p>En passant captures are not used in Avalanche Chess.</p>
+<h2>Balanced Avalanche Chess</h2>
+<p>White has a substantial first-move advantage in standard Avalanche Chess. To compensate, <strong>Balanced Avalanche Chess</strong> (Alessandro Castelli) removes White’s pawn push on the very first move: White’s first turn consists of the move only; from White’s second turn onward, both parts are required.</p>
+<h2>Strategy Notes</h2>
+<p>The pawn push dramatically changes strategy. A player must think not only about their own position but also which of their pawns are most dangerous when advanced. Passed pawns become double-edged: your opponent can race them to promotion. Check threats must be calculated with great care since a push that exposes your own King loses the game instantly.</p>
+<p><em>Source: chessvariants.com/mvopponent.dir/avalanche.html</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../atomic/" class="variant-pager-prev">← Atomic Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../balbos-chess/" class="variant-pager-next">Balbo's Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

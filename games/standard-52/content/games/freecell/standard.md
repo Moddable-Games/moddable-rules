@@ -6,7 +6,7 @@ players: "1"
 parent: standard-52
 win: Move all 52 cards to the four foundation piles (Ace through King by suit)
 special: "Solitaire variant where all 52 cards are visible from the start — no hidden cards. Four free cells provide temporary storage. Nearly all deals are solvable with correct play, making FreeCell a game of planning and skill rather than luck."
-published: false
+published: true
 ---
 
 ## FreeCell

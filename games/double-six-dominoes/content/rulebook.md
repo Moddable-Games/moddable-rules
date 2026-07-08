@@ -9,7 +9,7 @@ age: "7+"
 tagline: "Match the pips, build the chain, score the ends"
 type: "component"
 status: "live"
-updated: "2026-07-04"
+updated: "2026-07-08"
 published: true
 hub_type: component
 theme:
@@ -48,8 +48,9 @@ Mexican Train uses the double-12 set (91 tiles, pips 0-12) for larger player cou
 
 ## Games
 
-- [Block](games/block/) — The foundation game. Match ends, no drawing from the boneyard. First to empty hand or block opponent wins.
 - [All Fives](games/all-fives/) — Block with scoring. Score when open ends sum to a multiple of 5. First to 61 or 121.
+- [Block](games/block/) — The foundation game. Match ends, no drawing from the boneyard. First to empty hand or block opponent wins.
+- [Chickenfoot](games/chickenfoot/) — Each double creates a branching chickenfoot (3 open ends) that must be filled before normal play resumes. 2–8 players.
 - [Mexican Train](games/mexican-train/) — Hub-and-spokes layout using double-12 set. Build personal trains from the central double. A shared Mexican Train is always open.
 
 </div>

@@ -13,7 +13,7 @@ engine:
     shape: cross
   players: [north, east, south, west]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Los Alamos Vierschach

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delirious Bughouse — Moddable Chess</title>
+<meta name="description" content="Complete rules for Delirious Bughouse.">
+<meta property="og:title" content="Delirious Bughouse — Moddable Chess">
+<meta property="og:description" content="Complete rules for Delirious Bughouse.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/delirious-bughouse.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/delirious-bughouse/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Delirious Bughouse — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Delirious Bughouse.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/delirious-bughouse.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/delirious-bughouse.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/delirious-bughouse.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Delirious Bughouse · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 47 of 155</span>
+    <h1 class="variant-cover-title">Delirious Bughouse</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8 (two boards)</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">4 (2 teams of 2)</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Delirious Bughouse</h2>
+<p>Delirious Bughouse is a complex Bughouse chess variant developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho around 1984. It evolves through several layers from standard Bughouse, adding dice, worst-move mechanics, and eventually a full set of fairy pieces, structures, events, and magic items.</p>
+<h3>Teams and Boards</h3>
+<p>Two standard 8×8 boards. Four players in two allied teams: White1 and Black4 are allies; Black2 and White3 are allies. White1 plays against Black2 on one board; White3 plays against Black4 on the other. Play proceeds simultaneously on both boards.</p>
+<h3>Base Bughouse Rules</h3>
+<p>Standard Bughouse (Tandem Chess) with two modifications:</p>
+<ol>
+<li><strong>Pawn drop restriction:</strong> Pawns received from a partner may only be dropped on ranks 2–6. They may not be dropped on rank 7 (unlike standard Bughouse).</li>
+<li><strong>Promoted Pawn capture:</strong> When a promoted Pawn is captured, it does not revert to a Pawn — the capturing player keeps the promoted piece. However, the player who originally promoted the Pawn recovers the original Pawn for future use. This means piece count on the board grows over time: promotion permanently adds one piece to the total.</li>
+</ol>
+<p>All other standard Bughouse rules apply: players play simultaneously; captured pieces pass to the partner; a player may spend their turn dropping a received piece onto any legal square; pawns may not be dropped to checkmate.</p>
+<h3>Dice Chess Layer</h3>
+<p>Before each move, the player rolls one die to determine which type of piece must be moved:</p>
+<ul class="rules">
+<li>1 = Pawn</li>
+<li>2 = Knight</li>
+<li>3 = Bishop</li>
+<li>4 = Rook</li>
+<li>5 = Queen</li>
+<li>6 = Any piece</li>
+</ul>
+<p>If no legal move exists with the rolled piece type, the player may choose any legal move.</p>
+<h3>Worst Move Layer</h3>
+<p>Two dice are rolled each turn instead of one. The second die determines whether the player plays the best or worst possible move:</p>
+<ul class="rules">
+<li>If “best”: the player chooses their move freely (within the piece-type constraint)</li>
+<li>If “worst”: the <strong>opponent</strong> chooses which move the player makes, subject to the piece-type constraint — selecting the worst possible option</li>
+</ul>
+<h3>Bughouse Worst Move</h3>
+<p>Combining all three elements: two boards with Bughouse relay and pawn rules, plus the two-dice Dice Chess + Worst Move system applied each turn.</p>
+<h3>Fairy Pieces</h3>
+<p>When a King is captured, the capturing player is rewarded with one or more fairy pieces from an agreed set, which may subsequently be dropped. Core fairy piece set:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Camel</td>
+<td>Extended Knight: leaps [3,1]</td>
+</tr>
+<tr>
+<td>Giraffe</td>
+<td>Leaps [4,1]</td>
+</tr>
+<tr>
+<td>Zebra</td>
+<td>Leaps [3,2]</td>
+</tr>
+<tr>
+<td>Taxi</td>
+<td>Modified Pawn: moves backwards; from rank 2 can leap to rank 5; capturable en passant in two ways</td>
+</tr>
+<tr>
+<td>Pyramid</td>
+<td>Drops onto any square; once placed, blocks all entry to that square permanently</td>
+</tr>
+<tr>
+<td>Atomic Bomb</td>
+<td>Drops onto any square; destroys all pieces in a 3×3 area; Kings are immune</td>
+</tr>
+<tr>
+<td>Cylindrical Rook (Rc)</td>
+<td>Rook that views the board as a cylinder — the a-file and h-file are adjacent</td>
+</tr>
+<tr>
+<td>Cylindrical Knight (Nc)</td>
+<td>Knight with cylindrical wrap</td>
+</tr>
+<tr>
+<td>Cylindrical Bishop (Bc)</td>
+<td>Bishop with cylindrical wrap</td>
+</tr>
+<tr>
+<td>Cylindrical Queen (Qc)</td>
+<td>Queen with cylindrical wrap</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Intelligent pieces (marked “i”):</strong> Never play the worst move — if the opponent selects “worst” for an intelligent piece, the owning player chooses the move instead.</p>
+<h3>Structures, Events, and Magic Items (Full Delirious Bughouse)</h3>
+<p>The extended form adds:</p>
+<ul class="rules">
+<li><strong>Structures:</strong> Board modifications that may occur mid-game (e.g. the board becomes cylindrical; an extra row is added)</li>
+<li><strong>Events:</strong> Random occurrences affecting the board state (e.g. empty squares filled by bacteria that evolve like Conway’s Life; the board rotates 90 degrees)</li>
+<li><strong>Magic Items:</strong> Attachable to pieces (e.g. ring of invisibility — opponent does not know where the piece moved until it captures or checks; cloak of double strength — piece requires a double attack to be captured)</li>
+</ul>
+<h3>Win Condition</h3>
+<p>Victory = capturing an opposing King. Teams: if either ally’s King is captured, both team members lose.</p>
+<h3>Scoring (Match Play)</h3>
+<p>When scoring matches:</p>
+<ul class="rules">
+<li>+1 for each victory</li>
+<li>+1 if the final check was given by a moving (not dropped) piece</li>
+<li>+1 if the checkmate uses a non-FIDE piece</li>
+<li>+1 if the checkmating move uses a non-attacking piece (e.g. Atomic Bomb drop)</li>
+</ul>
+<h3>Attribution</h3>
+<p>Delirious Bughouse was developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho, with earlier assistance from Oscar Luiz Vieira Ferreira and Carlos Vieira Ferreira. Final form achieved around 1984. Source: chessvariants.com/multiplayer.dir/delbug.html</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../de-vasa/" class="variant-pager-prev">← De Vasa's Hexagonal Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../diana/" class="variant-pager-next">Diana Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

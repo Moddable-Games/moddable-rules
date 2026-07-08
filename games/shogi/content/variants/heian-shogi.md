@@ -3,7 +3,7 @@ title: "Heian Shogi"
 slug: heian-shogi
 board: "9×8"
 players: "2"
-parent: moddable-shogi
+parent: shogi
 win: "Checkmate or bare the opponent's King"
 special: "The earliest reconstructed form of Japanese chess (~8th–9th century). 9×8 board, 18 pieces per side. No Rooks, no Bishops, no drops. All pieces promote to Gold General in the far 3 ranks. Win by checkmate or by baring the opponent's King."
 engine:

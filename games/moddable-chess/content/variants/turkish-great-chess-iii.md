@@ -13,7 +13,7 @@ engine:
     cols: 12
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Turkish Great Chess III

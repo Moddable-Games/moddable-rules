@@ -16,7 +16,7 @@ engine:
       bonus: [flowers, seasons]
       jokers: 8
       total: 152
-published: false
+published: true
 ---
 
 ## American Mahjong (Classic)

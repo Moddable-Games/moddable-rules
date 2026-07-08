@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Chess (Banqi) — Moddable Chess</title>
+<meta name="description" content="Complete rules for Blind Chess (Banqi).">
+<meta property="og:title" content="Blind Chess (Banqi) — Moddable Chess">
+<meta property="og:description" content="Complete rules for Blind Chess (Banqi).">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/blind-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/blind-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blind Chess (Banqi) — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Blind Chess (Banqi).">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/blind-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/blind-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/blind-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Blind Chess (Banqi) · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 22 of 155</span>
+    <h1 class="variant-cover-title">Blind Chess (Banqi)</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">4×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Blind Chess (Banqi)</h2>
+<p>Banqi (半棋, bànqí, “Half Chess”), also known as Dark Chess (暗棋) or Blind Chess, is a two-player Chinese board game played on a 4×8 grid — one half of the Xiangqi board. All 32 pieces are placed face-down at the start; players reveal pieces one at a time and the identity of unrevealed pieces is unknown. The rules documented here follow the Taiwanese version, which is widely played.</p>
+<h3>The Board</h3>
+<p>4 files × 8 ranks = 32 squares. Pieces occupy the squares (not intersections). The board is played as half of a Xiangqi board, using only one side of the river.</p>
+<h3>Setup</h3>
+<p>All 32 pieces are shuffled and placed face-down one per square in a random arrangement. Neither player knows what piece is on which square.</p>
+<p><strong>Piece set (16 Red + 16 Black = 32 total):</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Count per side</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General (帥/將)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Advisor (仕/士)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Elephant (相/象)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Chariot (俥/車)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Horse (傌/馬)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Cannon (炮/砲)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Soldier (兵/卒)</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>16</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The first player to flip a piece establishes their colour for the game (Red or Black, depending on the colour of the piece revealed).</p>
+<h3>Turns</h3>
+<p>On each turn a player does exactly one of:</p>
+<ol>
+<li><strong>Flip</strong> a face-down piece, revealing it. The piece belongs to whichever colour it shows, regardless of who flipped it.</li>
+<li><strong>Move</strong> one of their own face-up pieces one square orthogonally (up, down, left, or right) to an empty adjacent square.</li>
+<li><strong>Capture</strong> an opponent’s face-up piece, subject to the capture rules below.</li>
+</ol>
+<p>Face-down pieces cannot be captured.</p>
+<h3>Movement</h3>
+<p><strong>All pieces move identically: one square up, down, left, or right.</strong> There is no piece-specific movement in Banqi — the General, Soldier, and every piece in between all move the same way. The Cannon’s capture is the only exception.</p>
+<h3>Capture Hierarchy (Taiwanese rules)</h3>
+<p>Pieces are ranked. A piece may only capture an opponent’s piece of <strong>equal or lower rank</strong>, with two exceptions:</p>
+<p><strong>Hierarchy (high to low):</strong> General → Advisor → Elephant → Chariot → Horse → Soldier</p>
+<p><strong>Exception 1 — Soldier captures General:</strong> Despite being the lowest rank, the Soldier can capture the General (and only the General with this rule). The General cannot capture Soldiers.</p>
+<p><strong>Exception 2 — Cannon:</strong> The Cannon is not part of the hierarchy. It captures any piece of any rank, but <strong>must jump over exactly one intervening piece</strong> (the “screen”) to do so. The screen piece may be friendly, enemy, or face-down. A Cannon cannot capture an adjacent piece (it must jump). The Cannon is vulnerable to capture by any piece except the Soldier.</p>
+<h3>Win Condition</h3>
+<p>The game ends when a player has no legal moves. This most commonly occurs because all of that player’s pieces have been captured. The player with no legal moves <strong>loses</strong>.</p>
+<h3>Stalemate</h3>
+<p>If one player repeatedly attacks an enemy piece it cannot capture, forcing an endless cycle (stalemate), rules vary by convention. Under Chinese Chess rules the instigating player must stop; under many casual rules, a stalemate results in a draw or the surrender of one piece to break it.</p>
+<h3>Attribution</h3>
+<p>Banqi is a traditional Chinese game. Rules from en.wikipedia.org/wiki/Banqi.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../birds-chess/" class="variant-pager-prev">← Bird's Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../breakthrough/" class="variant-pager-next">Breakthrough →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

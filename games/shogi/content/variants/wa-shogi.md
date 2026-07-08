@@ -3,7 +3,7 @@ title: "Wa Shogi"
 slug: wa-shogi
 board: "11×11"
 players: "2"
-parent: moddable-shogi
+parent: shogi
 win: "Capture the opponent's Crane King"
 special: "Played on an 11×11 board with 23 pieces of 14 different types per side. All non-Pawn pieces are unique. Played historically without drops; modern play often adds drops. Promotion zone is the last 3 ranks; each piece has a fixed promoted form."
 engine:

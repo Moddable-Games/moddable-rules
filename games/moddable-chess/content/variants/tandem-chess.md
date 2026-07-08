@@ -14,7 +14,7 @@ engine:
     boards: 2
   players: [white1, black1, white2, black2]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Tandem Chess

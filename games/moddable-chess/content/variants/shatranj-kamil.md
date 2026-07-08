@@ -13,7 +13,7 @@ engine:
     cols: 10
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Shatranj Kamil

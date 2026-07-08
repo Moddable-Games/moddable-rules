@@ -13,7 +13,7 @@ engine:
     cols: 4
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Oblong Chess

@@ -14,7 +14,7 @@ engine:
     positions_per_ring: 16
   players: [white, black]
   notation: ring-position
-published: false
+published: true
 ---
 
 ## Toroidal Byzantine Chess

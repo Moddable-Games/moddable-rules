@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omega Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Omega Chess.">
+<meta property="og:title" content="Omega Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Omega Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/omega-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/omega-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Omega Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Omega Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/omega-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/omega-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/omega-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Omega Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 103 of 155</span>
+    <h1 class="variant-cover-title">Omega Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">10×10 + 4 corner squares</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Omega Chess</h1>
+<p><strong>Designed by Daniel MacDonald, 1992. Endorsed by grandmasters Michael Rohde and Alex Sherzer.</strong></p>
+<h2>Overview</h2>
+<p>Omega Chess is played on a 10×10 board (files A–J, ranks 0–9) with four additional “wizard squares” placed diagonally beyond each corner of the main board (W1–W4), giving 104 squares total. Two new pieces per player are added: the Champion and the Wizard.</p>
+<h2>Board</h2>
+<ul class="rules">
+<li><strong>Main board</strong>: 10×10 (files A–J, ranks 0–9)</li>
+<li><strong>Wizard squares</strong>: W1 (off corner a0), W2 (off corner j0), W3 (off corner j9), W4 (off corner a9)</li>
+<li>Rooks and Pawns <strong>cannot</strong> enter wizard squares. All other pieces can.</li>
+<li>Algebraic notation uses A–J for files, 0–9 for ranks. Wizard squares are W1–W4.</li>
+</ul>
+<h2>Setup</h2>
+<p><strong>White</strong>:</p>
+<ul class="rules">
+<li>Wizard squares W1, W2: White Wizards</li>
+<li>Rank 0: Champion(a0), Rook(b0), Knight(c0), Bishop(d0), Queen(e0), King(f0), Bishop(g0), Knight(h0), Rook(i0), Champion(j0)</li>
+<li>Rank 1: Pawns a1–j1</li>
+</ul>
+<p><strong>Black</strong>:</p>
+<ul class="rules">
+<li>Wizard squares W4, W3: Black Wizards</li>
+<li>Rank 9: Champion(a9), Rook(b9), Knight(c9), Bishop(d9), Queen(e9), King(f9), Bishop(g9), Knight(h9), Rook(i9), Champion(j9)</li>
+<li>Rank 8: Pawns a8–j8</li>
+</ul>
+<h2>New Pieces</h2>
+<h3>Champion</h3>
+<p>A leaper placed in the corners of the 10×10 board. It can:</p>
+<ul class="rules">
+<li><strong>Leap</strong> exactly 2 squares orthogonally (Dabbaba move, jumps over intervening pieces)</li>
+<li><strong>Leap</strong> exactly 2 squares diagonally (Alfil move, jumps over intervening pieces)</li>
+<li><strong>Slide</strong> exactly 1 square orthogonally (Wazir move)</li>
+</ul>
+<p>The Champion cannot slide further than 1 square orthogonally, but its 2-square leaps cannot be blocked.</p>
+<h3>Wizard</h3>
+<p>A color-bound leaper placed in the wizard corner squares. It can:</p>
+<ul class="rules">
+<li><strong>Leap</strong> (1,3) or (3,1) squares in any of the 8 knight-like directions (Camel move)</li>
+<li><strong>Slide</strong> exactly 1 square diagonally (Ferz move)</li>
+</ul>
+<p>The Wizard is color-bound (like a Bishop) due to its Camel and Ferz components.</p>
+<h2>Rules</h2>
+<p>All standard FIDE rules apply with the following modifications:</p>
+<h3>Pawns</h3>
+<p>On a pawn’s <strong>first move</strong>, it may advance <strong>1, 2, or 3 squares</strong> forward. After the first move, it advances only 1 square at a time.</p>
+<p><strong>En passant</strong>: A pawn that advances 3 squares may be captured en passant on either of the two squares it passed through. A pawn that advances 2 squares may be captured en passant on the square it passed through, as in standard chess.</p>
+<p><strong>Promotion</strong>: as in standard FIDE chess, when reaching the far rank.</p>
+<h3>Castling</h3>
+<p>Castling follows standard FIDE rules. The King moves <strong>2 squares</strong> toward the Rook:</p>
+<ul class="rules">
+<li><strong>Kingside</strong>: King f0→h0, Rook i0→g0</li>
+<li><strong>Queenside</strong>: King f0→d0, Rook b0→e0</li>
+</ul>
+<h3>Wizard Squares</h3>
+<p>Only non-Rook, non-Pawn pieces may occupy wizard squares. A piece entering a wizard square does so by moving diagonally (since wizard squares are diagonal to the board corners).</p>
+<h2>Endgame Notes</h2>
+<p>The four corner wizard squares create unusual endgame possibilities. Notable differences from standard chess: a lone queen can force mate without king assistance; two knights can force mate (unlike standard chess); a king and lone rook cannot force mate against a bare king (the rook cannot drive the king to the edge without the king escaping into wizard squares).</p>
+<p><em>Source: en.wikipedia.org/wiki/Omega_Chess</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../oblong-chess/" class="variant-pager-prev">← Oblong Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../omnicide/" class="variant-pager-next">Omnicide →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

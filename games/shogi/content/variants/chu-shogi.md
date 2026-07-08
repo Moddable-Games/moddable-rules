@@ -3,7 +3,7 @@ title: "Chu Shogi"
 slug: chu-shogi
 board: "12×12"
 players: "2"
-parent: moddable-shogi
+parent: shogi
 win: "Capture all opponent royal pieces (King and any Prince)"
 special: "Historical Japanese chess, dominant for centuries before modern Shogi. 46 pieces of 21 types per side on a 12×12 board. No drops. Features the powerful Lion (double-move, can capture twice) with special trading restrictions. Optional promotion to predetermined promoted forms in the far 4 ranks."
 engine:

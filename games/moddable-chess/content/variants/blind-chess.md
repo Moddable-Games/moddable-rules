@@ -13,7 +13,7 @@ engine:
     cols: 4
   players: [red, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Blind Chess (Banqi)

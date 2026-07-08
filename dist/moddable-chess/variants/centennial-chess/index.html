@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centennial Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Centennial Chess.">
+<meta property="og:title" content="Centennial Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Centennial Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/centennial-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/centennial-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Centennial Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Centennial Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/centennial-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/centennial-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/centennial-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Centennial Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 28 of 155</span>
+    <h1 class="variant-cover-title">Centennial Chess</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">10×10</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Centennial Chess</h2>
+<p>Centennial Chess is a 10×10 chess variant with 100 squares — one for each year of the 20th century. Created by John William Brown in 1999 as an entry in the Large Variant Contest, it adds four new pieces to the FIDE set and modifies several rules, including a two-move privilege that is lost upon the first capture.</p>
+<h3>New Pieces</h3>
+<p><strong>Steward:</strong> A <em>quadra-pawn</em> — moves as a Pawn in all four orthogonal directions (forward, backward, left, right). Can also move two squares in any direction on its first move. Two Stewards in mutual coverage form a strong barrier.</p>
+<p><strong>Camel:</strong> Leaps two squares orthogonally then one square diagonally (a 2+1 oblique leaper, never blocked by intervening pieces). Longer stride than a Knight but colorbound — always remains on the same board-colour.</p>
+<p><strong>Murray Lion:</strong> Leaps to any square in the 5×5 area centered on itself (i.e. up to 2 squares orthogonally or diagonally), or moves one square in any direction only to capture. Named for chess historian H.J.R. Murray, who erred in describing the Chu Shogi Lion in his 1931 book.</p>
+<p><strong>Rotating Spearman:</strong> Slides any number of squares forward (when upright) or along the forward diagonal it faces (when rotated). At the end of its move, it may rotate to any of three headings — forward-upright, left-diagonal, or right-diagonal. It may also rotate in place without moving. It cannot rotate before moving. Captures only on the advance direction, not on retreat.</p>
+<h3>Starting Position</h3>
+<p>Files a–j (10 files); ranks 1–10.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>White</th>
+<th>Black</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>R C B L K Q L B C R</td>
+<td>(same, mirrored as rank 10)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>— Sp N — S S — N Sp —</td>
+<td>(same, mirrored as rank 9)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>P P P P P P P P P P</td>
+<td>(same, mirrored as rank 8)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Key: R=Rook, C=Camel, B=Bishop, L=Murray Lion, K=King, Q=Queen, N=Knight, S=Steward, Sp=Rotating Spearman (facing centre), P=Pawn.</p>
+<p>Black occupies ranks 8–10 (mirror).</p>
+<h3>Special Rules</h3>
+<p><strong>Two-move privilege:</strong> Each player may make two consecutive moves per turn — until they make a capture. Upon capturing for the first time, the player permanently loses the two-move privilege; thereafter that player makes only one move per turn. A capture must be made on the first and only move of a turn (cannot capture on the first of two moves).</p>
+<p><strong>Pawns and Stewards:</strong> Both may advance 1 or 2 squares on their first individual move.</p>
+<p><strong>En passant:</strong> Disabled.</p>
+<p><strong>Castling:</strong> King moves to the vacated Bishop’s square; Rook moves to the vacated Lion’s square. Both kingside and queenside castling are available.</p>
+<p><strong>Pawn promotion:</strong> On reaching rank 10, a Pawn may promote to any piece.</p>
+<h3>Piece Values (10×10 adjusted)</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pawn</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>Steward</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>Camel</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>Rotating Spearman</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>2.6</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>3.1</td>
+</tr>
+<tr>
+<td>Murray Lion</td>
+<td>4.4</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>5.0</td>
+</tr>
+<tr>
+<td>Queen</td>
+<td>9.1</td>
+</tr>
+</tbody>
+</table></div>
+<h3>Win Condition</h3>
+<p>Checkmate the opponent’s King.</p>
+<h3>Attribution</h3>
+<p>Centennial Chess was created by John William Brown. Entry in the 1999 Large Variant Contest. Source: chessvariants.com/large.dir/contest/cenchess.html</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../carrera/" class="variant-pager-prev">← Carrera's Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../chak/" class="variant-pager-next">Chak →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@ players: "2"
 parent: lattaque
 win: "Get both Flags — your own and the opponent's — onto your own Base"
 special: "Naval CTF (Capture the Flag) game by H.P. Gibson & Sons. 40 pieces per player plus a separate Flag clip. The Flag starts on the Base inside the walled Harbour; seizing the enemy Flag and conveying it to your own Base wins. The Flying Boat uniquely crosses the Harbour Wall and moves 2 squares; Mine Layers are movable floating mines; Submarines sink all ships except Mine Layers and Motor Torpedo Boats."
-published: false
+published: true
 ---
 
 ## Dover Patrol

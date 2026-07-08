@@ -8,7 +8,7 @@ age: "6+"
 tagline: "Games built on standard six-sided dice"
 type: "component"
 status: "live"
-updated: "2026-07-04"
+updated: "2026-07-08"
 published: true
 hub_type: component
 theme:
@@ -40,9 +40,11 @@ Games whose primary component is one or more standard six-sided dice (d6, pips 1
 
 ## Games
 
-- [Yahtzee](games/yahtzee/) — 5 dice, 13 scoring categories, three rolls per turn. Fill every box. Highest total wins.
-- [Liar's Dice](games/liars-dice/) — Hidden dice under cups. Bid on total faces across all players. Challenge or be challenged.
+- [Bunco](games/bunco/) — Social dice game for 12 players (3 tables of 4). 6 rounds targeting numbers 1–6. Roll all three matching = Bunco. Fast, no strategy.
+- [Craps](games/craps/) — The casino dice game. Two dice; come-out 7/11 wins, 2/3/12 loses, else set Point. Make Point before 7 to win.
 - [Farkle](games/farkle/) — 6 dice, press-your-luck scoring. Set aside combinations, keep rolling, or bank. Bust and lose it all.
+- [Liar's Dice](games/liars-dice/) — Hidden dice under cups. Bid on total faces across all players. Challenge or be challenged.
+- [Yahtzee](games/yahtzee/) — 5 dice, 13 scoring categories, three rolls per turn. Fill every box. Highest total wins.
 
 </div>
 

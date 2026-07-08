@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taikyoku Shogi — Shogi</title>
+<meta name="description" content="Complete rules for Taikyoku Shogi.">
+<meta property="og:title" content="Taikyoku Shogi — Shogi">
+<meta property="og:description" content="Complete rules for Taikyoku Shogi.">
+<meta property="og:image" content="https://rules.moddable.games/games/shogi/og-variants/taikyoku-shogi.png?v=1.2.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/shogi/variants/taikyoku-shogi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Taikyoku Shogi — Shogi">
+<meta name="twitter:description" content="Complete rules for Taikyoku Shogi.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/shogi/og-variants/taikyoku-shogi.png?v=1.2.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
+<link rel="stylesheet" href="../../theme.css?v=1.2.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/shogi/content/variants/taikyoku-shogi.md" class="hdr-link">Markdown</a><a href="../../../../games/shogi/pdf/variants/taikyoku-shogi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Taikyoku Shogi · Shogi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Shogi · Variant 21 of 24</span>
+    <h1 class="variant-cover-title">Taikyoku Shogi</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">36×36</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2>Taikyoku Shogi</h2>
+<p>Taikyoku Shogi (太局将棋, <em>Ultimate Chess</em>) is the largest chess variant ever documented. Played on a 36×36 board with 402 piece types per side (804 pieces total) on 1,296 squares, it is documented in a single known Japanese manuscript held at Osaka Municipal Central Library. Whether the game was ever actually played to completion is disputed — a single game would require an estimated 10,000+ moves. The transcription used here is by L. Lynn Smith.</p>
+<h3>The Board</h3>
+<p>36×36 grid (1,296 squares). Standard Shogi orientation. Each player occupies the first 12 ranks from their side (Sente: ranks 1–12; Gote: ranks 25–36). Ranks 13–24 are empty at the start.</p>
+<h3>Royals</h3>
+<ul class="rules">
+<li><strong>King</strong> (does not promote) — royal</li>
+<li><strong>Crown Prince</strong> (promotes to King) — royal once promoted</li>
+</ul>
+<p>Win: capture both the opponent’s King and Crown Prince (or their only royal if the Crown Prince has not promoted).</p>
+<hr>
+<h3>Piece List</h3>
+<p>All 402 pieces per side, with count and promoted form:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Qty</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>1</td>
+<td>— (does not promote)</td>
+</tr>
+<tr>
+<td>Crown Prince</td>
+<td>1</td>
+<td>King</td>
+</tr>
+<tr>
+<td>Gold General</td>
+<td>2</td>
+<td>Rook</td>
+</tr>
+<tr>
+<td>Right General</td>
+<td>1</td>
+<td>Right Army</td>
+</tr>
+<tr>
+<td>Left General</td>
+<td>1</td>
+<td>Left Army</td>
+</tr>
+<tr>
+<td>Rear Standard</td>
+<td>2</td>
+<td>Center Standard</td>
+</tr>
+<tr>
+<td>Free King</td>
+<td>2</td>
+<td>Great General</td>
+</tr>
+<tr>
+<td>Free Tapir</td>
+<td>2</td>
+<td>Free King</td>
+</tr>
+<tr>
+<td>Wooden Dove</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Ceramic Dove</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Earth Dragon</td>
+<td>2</td>
+<td>Rain Dragon</td>
+</tr>
+<tr>
+<td>Free Demon</td>
+<td>2</td>
+<td>Free King</td>
+</tr>
+<tr>
+<td>Running Horse</td>
+<td>2</td>
+<td>Free Demon</td>
+</tr>
+<tr>
+<td>Beast Cadet</td>
+<td>2</td>
+<td>Beast Officer</td>
+</tr>
+<tr>
+<td>Long-Nosed Goblin</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Mountain Eagle</td>
+<td>2</td>
+<td>Soaring Eagle</td>
+</tr>
+<tr>
+<td>Fire Demon</td>
+<td>2</td>
+<td>Free Fire</td>
+</tr>
+<tr>
+<td>Whale</td>
+<td>2</td>
+<td>Great Whale</td>
+</tr>
+<tr>
+<td>Running Rabbit</td>
+<td>2</td>
+<td>Treacherous Fox</td>
+</tr>
+<tr>
+<td>White Tiger</td>
+<td>1</td>
+<td>Divine Tiger</td>
+</tr>
+<tr>
+<td>Turtle Snake</td>
+<td>1</td>
+<td>Divine Turtle</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>2</td>
+<td>White Horse</td>
+</tr>
+<tr>
+<td>Reverse Chariot</td>
+<td>2</td>
+<td>Whale</td>
+</tr>
+<tr>
+<td>Fragrant Elephant</td>
+<td>1</td>
+<td>Elephant King</td>
+</tr>
+<tr>
+<td>White Elephant</td>
+<td>1</td>
+<td>Elephant King</td>
+</tr>
+<tr>
+<td>Mountain Dove</td>
+<td>2</td>
+<td>Great Dove</td>
+</tr>
+<tr>
+<td>Flying Swallow</td>
+<td>2</td>
+<td>Rook</td>
+</tr>
+<tr>
+<td>Captive Officer</td>
+<td>2</td>
+<td>Captive Bird</td>
+</tr>
+<tr>
+<td>Rain Dragon</td>
+<td>2</td>
+<td>Great Dragon</td>
+</tr>
+<tr>
+<td>Forest Demon</td>
+<td>2</td>
+<td>Thunder Runner</td>
+</tr>
+<tr>
+<td>Mountain Stag</td>
+<td>2</td>
+<td>Great Stag</td>
+</tr>
+<tr>
+<td>Running Pup</td>
+<td>2</td>
+<td>Free Leopard</td>
+</tr>
+<tr>
+<td>Running Serpent</td>
+<td>2</td>
+<td>Free Serpent</td>
+</tr>
+<tr>
+<td>Side Serpent</td>
+<td>2</td>
+<td>Shark</td>
+</tr>
+<tr>
+<td>Great Dove</td>
+<td>2</td>
+<td>Wooden Dove</td>
+</tr>
+<tr>
+<td>Running Tiger</td>
+<td>2</td>
+<td>Free Tiger</td>
+</tr>
+<tr>
+<td>Running Bear</td>
+<td>2</td>
+<td>Free Bear</td>
+</tr>
+<tr>
+<td>Night Sword</td>
+<td>1</td>
+<td>Heavenly Tetarch</td>
+</tr>
+<tr>
+<td>Buddhist Devil</td>
+<td>1</td>
+<td>Heavenly Tetarch</td>
+</tr>
+<tr>
+<td>Guardian of the Gods</td>
+<td>1</td>
+<td>Heavenly Tetarch</td>
+</tr>
+<tr>
+<td>Wrestler</td>
+<td>1</td>
+<td>Heavenly Tetarch</td>
+</tr>
+<tr>
+<td>Silver General</td>
+<td>2</td>
+<td>Vertical Mover</td>
+</tr>
+<tr>
+<td>Drunk Elephant</td>
+<td>1</td>
+<td>Crown Prince</td>
+</tr>
+<tr>
+<td>Neighboring King</td>
+<td>1</td>
+<td>Front Standard</td>
+</tr>
+<tr>
+<td>Gold Chariot</td>
+<td>2</td>
+<td>Playful Cockatoo</td>
+</tr>
+<tr>
+<td>Side Dragon</td>
+<td>2</td>
+<td>Running Dragon</td>
+</tr>
+<tr>
+<td>Running Stag</td>
+<td>2</td>
+<td>Free Stag</td>
+</tr>
+<tr>
+<td>Running Wolf</td>
+<td>2</td>
+<td>Free Wolf</td>
+</tr>
+<tr>
+<td>Bishop General</td>
+<td>2</td>
+<td>Rain Demon</td>
+</tr>
+<tr>
+<td>Rook General</td>
+<td>2</td>
+<td>Flying Crocodile</td>
+</tr>
+<tr>
+<td>Right Tiger</td>
+<td>1</td>
+<td>White Tiger</td>
+</tr>
+<tr>
+<td>Left Tiger</td>
+<td>1</td>
+<td>Turtle Snake</td>
+</tr>
+<tr>
+<td>Right Dragon</td>
+<td>1</td>
+<td>Blue Dragon</td>
+</tr>
+<tr>
+<td>Left Dragon</td>
+<td>1</td>
+<td>Vermillion Sparrow</td>
+</tr>
+<tr>
+<td>Beast Officer</td>
+<td>2</td>
+<td>Beast Bird</td>
+</tr>
+<tr>
+<td>Wind Dragon</td>
+<td>2</td>
+<td>Free Dragon</td>
+</tr>
+<tr>
+<td>Free Pup</td>
+<td>2</td>
+<td>Free Dog</td>
+</tr>
+<tr>
+<td>Rushing Bird</td>
+<td>2</td>
+<td>Free Demon</td>
+</tr>
+<tr>
+<td>Old Kite Hawk</td>
+<td>2</td>
+<td>Long-Nosed Goblin</td>
+</tr>
+<tr>
+<td>Peacock</td>
+<td>2</td>
+<td>Long-Nosed Goblin</td>
+</tr>
+<tr>
+<td>Water Dragon</td>
+<td>2</td>
+<td>Phoenix Master</td>
+</tr>
+<tr>
+<td>Fire Dragon</td>
+<td>2</td>
+<td>Kylin Master</td>
+</tr>
+<tr>
+<td>Copper General</td>
+<td>2</td>
+<td>Side Mover</td>
+</tr>
+<tr>
+<td>Phoenix Master</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Kylin Master</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Silver Chariot</td>
+<td>2</td>
+<td>Goose Wing</td>
+</tr>
+<tr>
+<td>Vertical Bear</td>
+<td>2</td>
+<td>Free Bear</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>2</td>
+<td>Side Soldier</td>
+</tr>
+<tr>
+<td>Pig General</td>
+<td>2</td>
+<td>Free Pig</td>
+</tr>
+<tr>
+<td>Chicken General</td>
+<td>2</td>
+<td>Free Chicken</td>
+</tr>
+<tr>
+<td>Pup General</td>
+<td>2</td>
+<td>Free Pup</td>
+</tr>
+<tr>
+<td>Horse General</td>
+<td>2</td>
+<td>Free Horse</td>
+</tr>
+<tr>
+<td>Ox General</td>
+<td>2</td>
+<td>Free Ox</td>
+</tr>
+<tr>
+<td>Center Standard</td>
+<td>2</td>
+<td>Front Standard</td>
+</tr>
+<tr>
+<td>Side Boar</td>
+<td>2</td>
+<td>Free Boar</td>
+</tr>
+<tr>
+<td>Silver Rabbit</td>
+<td>2</td>
+<td>Whale</td>
+</tr>
+<tr>
+<td>Golden Deer</td>
+<td>2</td>
+<td>White Horse</td>
+</tr>
+<tr>
+<td>Lion</td>
+<td>2</td>
+<td>Furious Fiend</td>
+</tr>
+<tr>
+<td>Captive Cadet</td>
+<td>2</td>
+<td>Captive Officer</td>
+</tr>
+<tr>
+<td>Great Stag</td>
+<td>2</td>
+<td>Free Stag</td>
+</tr>
+<tr>
+<td>Violent Dragon</td>
+<td>2</td>
+<td>Great Dragon</td>
+</tr>
+<tr>
+<td>Woodland Demon</td>
+<td>2</td>
+<td>Right Phoenix</td>
+</tr>
+<tr>
+<td>Vice General</td>
+<td>1</td>
+<td>Great General</td>
+</tr>
+<tr>
+<td>Great General</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Stone Chariot</td>
+<td>2</td>
+<td>Walking Heron</td>
+</tr>
+<tr>
+<td>Cloud Eagle</td>
+<td>2</td>
+<td>Strong Eagle</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>2</td>
+<td>Dragon Horse</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>2</td>
+<td>Dragon King</td>
+</tr>
+<tr>
+<td>Side Wolf</td>
+<td>2</td>
+<td>Free Wolf</td>
+</tr>
+<tr>
+<td>Flying Cat</td>
+<td>2</td>
+<td>Rook</td>
+</tr>
+<tr>
+<td>Mountain Falcon</td>
+<td>2</td>
+<td>Horned Falcon</td>
+</tr>
+<tr>
+<td>Vertical Tiger</td>
+<td>2</td>
+<td>Free Tiger</td>
+</tr>
+<tr>
+<td>Soldier</td>
+<td>2</td>
+<td>Cavalier</td>
+</tr>
+<tr>
+<td>Little Standard</td>
+<td>2</td>
+<td>Rear Standard</td>
+</tr>
+<tr>
+<td>Cloud Dragon</td>
+<td>2</td>
+<td>Great Dragon</td>
+</tr>
+<tr>
+<td>Copper Chariot</td>
+<td>2</td>
+<td>Copper Elephant</td>
+</tr>
+<tr>
+<td>Running Chariot</td>
+<td>2</td>
+<td>Burning Chariot</td>
+</tr>
+<tr>
+<td>Ramshead Soldier</td>
+<td>2</td>
+<td>Tiger Soldier</td>
+</tr>
+<tr>
+<td>Violent Ox</td>
+<td>2</td>
+<td>Flying Ox</td>
+</tr>
+<tr>
+<td>Great Dragon</td>
+<td>2</td>
+<td>Ancient Dragon</td>
+</tr>
+<tr>
+<td>Golden Bird</td>
+<td>2</td>
+<td>Free Bird</td>
+</tr>
+<tr>
+<td>Dark Spirit</td>
+<td>1</td>
+<td>Buddhist Spirit</td>
+</tr>
+<tr>
+<td>Deva</td>
+<td>1</td>
+<td>Teaching King</td>
+</tr>
+<tr>
+<td>Wood Chariot</td>
+<td>2</td>
+<td>Wind Snapping Turtle</td>
+</tr>
+<tr>
+<td>White Horse</td>
+<td>2</td>
+<td>Great Horse</td>
+</tr>
+<tr>
+<td>Howling Dog (Right)</td>
+<td>1</td>
+<td>Right Dog</td>
+</tr>
+<tr>
+<td>Howling Dog (Left)</td>
+<td>1</td>
+<td>Left Dog</td>
+</tr>
+<tr>
+<td>Side Mover</td>
+<td>2</td>
+<td>Free Boar</td>
+</tr>
+<tr>
+<td>Prancing Stag</td>
+<td>2</td>
+<td>Square Mover</td>
+</tr>
+<tr>
+<td>Water Buffalo</td>
+<td>2</td>
+<td>Great Tapir</td>
+</tr>
+<tr>
+<td>Ferocious Leopard</td>
+<td>2</td>
+<td>Bishop</td>
+</tr>
+<tr>
+<td>Fierce Eagle</td>
+<td>2</td>
+<td>Soaring Eagle</td>
+</tr>
+<tr>
+<td>Flying Dragon</td>
+<td>2</td>
+<td>Dragon King</td>
+</tr>
+<tr>
+<td>Poisonous Snake</td>
+<td>2</td>
+<td>Hook Mover</td>
+</tr>
+<tr>
+<td>Flying Goose</td>
+<td>2</td>
+<td>Dragon King</td>
+</tr>
+<tr>
+<td>Strutting Crow</td>
+<td>2</td>
+<td>Flying Falcon</td>
+</tr>
+<tr>
+<td>Blind Dog</td>
+<td>2</td>
+<td>Violent Stag</td>
+</tr>
+<tr>
+<td>Water General</td>
+<td>2</td>
+<td>Vice General</td>
+</tr>
+<tr>
+<td>Fire General</td>
+<td>2</td>
+<td>Great General</td>
+</tr>
+<tr>
+<td>Phoenix</td>
+<td>1</td>
+<td>Golden Bird</td>
+</tr>
+<tr>
+<td>Kylin</td>
+<td>1</td>
+<td>Golden Bird</td>
+</tr>
+<tr>
+<td>Hook Mover</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Little Turtle</td>
+<td>1</td>
+<td>Treasure Turtle</td>
+</tr>
+<tr>
+<td>Great Turtle</td>
+<td>1</td>
+<td>Spirit Turtle</td>
+</tr>
+<tr>
+<td>Capricorn</td>
+<td>1</td>
+<td>Hook Mover</td>
+</tr>
+<tr>
+<td>Tile Chariot</td>
+<td>2</td>
+<td>Running Tile</td>
+</tr>
+<tr>
+<td>Vertical Wolf</td>
+<td>2</td>
+<td>Running Wolf</td>
+</tr>
+<tr>
+<td>Side Ox</td>
+<td>2</td>
+<td>Flying Ox</td>
+</tr>
+<tr>
+<td>Donkey</td>
+<td>2</td>
+<td>Ceramic Dove</td>
+</tr>
+<tr>
+<td>Flying Horse</td>
+<td>2</td>
+<td>Free King</td>
+</tr>
+<tr>
+<td>Violent Bear</td>
+<td>2</td>
+<td>Great Bear</td>
+</tr>
+<tr>
+<td>Angry Boar</td>
+<td>2</td>
+<td>Free Boar</td>
+</tr>
+<tr>
+<td>Evil Wolf</td>
+<td>2</td>
+<td>Venomous Wolf</td>
+</tr>
+<tr>
+<td>Liberated Horse</td>
+<td>2</td>
+<td>Heavenly Horse</td>
+</tr>
+<tr>
+<td>Flying Cock</td>
+<td>2</td>
+<td>Raiding Falcon</td>
+</tr>
+<tr>
+<td>Old Monkey</td>
+<td>2</td>
+<td>Mountain Witch</td>
+</tr>
+<tr>
+<td>Chinese Cock</td>
+<td>2</td>
+<td>Wizard Stork</td>
+</tr>
+<tr>
+<td>Northern Barbarian</td>
+<td>1</td>
+<td>Wooden Dove</td>
+</tr>
+<tr>
+<td>Southern Barbarian</td>
+<td>1</td>
+<td>Golden Bird</td>
+</tr>
+<tr>
+<td>Western Barbarian</td>
+<td>1</td>
+<td>Lion Dog</td>
+</tr>
+<tr>
+<td>Eastern Barbarian</td>
+<td>1</td>
+<td>Lion</td>
+</tr>
+<tr>
+<td>Violent Stag</td>
+<td>2</td>
+<td>Rushing Boar</td>
+</tr>
+<tr>
+<td>Violent Wolf</td>
+<td>2</td>
+<td>Bear’s Eyes</td>
+</tr>
+<tr>
+<td>Treacherous Fox</td>
+<td>2</td>
+<td>Mountain Crane</td>
+</tr>
+<tr>
+<td>Center Master</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Roc Master</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Earth Chariot</td>
+<td>2</td>
+<td>Young Bird</td>
+</tr>
+<tr>
+<td>Vermillion Sparrow</td>
+<td>1</td>
+<td>Divine Sparrow</td>
+</tr>
+<tr>
+<td>Blue Dragon</td>
+<td>1</td>
+<td>Divine Dragon</td>
+</tr>
+<tr>
+<td>Enchanted Badger</td>
+<td>2</td>
+<td>Ceramic Dove</td>
+</tr>
+<tr>
+<td>Horseman</td>
+<td>2</td>
+<td>Cavalier</td>
+</tr>
+<tr>
+<td>Swooping Owl</td>
+<td>2</td>
+<td>Cloud Eagle</td>
+</tr>
+<tr>
+<td>Climbing Monkey</td>
+<td>2</td>
+<td>Violent Stag</td>
+</tr>
+<tr>
+<td>Cat Sword</td>
+<td>2</td>
+<td>Dragon Horse</td>
+</tr>
+<tr>
+<td>Swallow’s Wings</td>
+<td>2</td>
+<td>Gliding Swallow</td>
+</tr>
+<tr>
+<td>Blind Monkey</td>
+<td>2</td>
+<td>Flying Stag</td>
+</tr>
+<tr>
+<td>Blind Tiger</td>
+<td>2</td>
+<td>Flying Stag</td>
+</tr>
+<tr>
+<td>Ox Cart</td>
+<td>2</td>
+<td>Plodding Ox</td>
+</tr>
+<tr>
+<td>Side Flier</td>
+<td>2</td>
+<td>Side Dragon</td>
+</tr>
+<tr>
+<td>Blind Bear</td>
+<td>2</td>
+<td>Flying Stag</td>
+</tr>
+<tr>
+<td>Old Rat</td>
+<td>2</td>
+<td>Bird of Paradise</td>
+</tr>
+<tr>
+<td>Square Mover</td>
+<td>2</td>
+<td>Strong Chariot</td>
+</tr>
+<tr>
+<td>Coiled Serpent</td>
+<td>2</td>
+<td>Coiled Dragon</td>
+</tr>
+<tr>
+<td>Reclining Dragon</td>
+<td>2</td>
+<td>Great Dragon</td>
+</tr>
+<tr>
+<td>Free Eagle</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Lion Hawk</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Chariot Soldier</td>
+<td>2</td>
+<td>Heavenly Tetarch King</td>
+</tr>
+<tr>
+<td>Side Soldier</td>
+<td>2</td>
+<td>Water Buffalo</td>
+</tr>
+<tr>
+<td>Vertical Soldier</td>
+<td>2</td>
+<td>Chariot Soldier</td>
+</tr>
+<tr>
+<td>Wind General</td>
+<td>2</td>
+<td>Violent Wind</td>
+</tr>
+<tr>
+<td>River General</td>
+<td>2</td>
+<td>Chinese River</td>
+</tr>
+<tr>
+<td>Mountain General</td>
+<td>2</td>
+<td>Peaceful Mountain</td>
+</tr>
+<tr>
+<td>Front Standard</td>
+<td>2</td>
+<td>Great Standard</td>
+</tr>
+<tr>
+<td>Horse Soldier</td>
+<td>2</td>
+<td>Running Horse</td>
+</tr>
+<tr>
+<td>Wood General</td>
+<td>2</td>
+<td>White Elephant</td>
+</tr>
+<tr>
+<td>Ox Soldier</td>
+<td>2</td>
+<td>Running Ox</td>
+</tr>
+<tr>
+<td>Earth General</td>
+<td>2</td>
+<td>White Elephant</td>
+</tr>
+<tr>
+<td>Boar Soldier</td>
+<td>2</td>
+<td>Running Boar</td>
+</tr>
+<tr>
+<td>Stone General</td>
+<td>2</td>
+<td>White Elephant</td>
+</tr>
+<tr>
+<td>Leopard Soldier</td>
+<td>2</td>
+<td>Running Leopard</td>
+</tr>
+<tr>
+<td>Tile General</td>
+<td>2</td>
+<td>White Elephant</td>
+</tr>
+<tr>
+<td>Bear Soldier</td>
+<td>2</td>
+<td>Strong Bear</td>
+</tr>
+<tr>
+<td>Iron General</td>
+<td>2</td>
+<td>White Elephant</td>
+</tr>
+<tr>
+<td>Great Standard</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Great Master</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Right Chariot</td>
+<td>1</td>
+<td>Right Iron Chariot</td>
+</tr>
+<tr>
+<td>Left Chariot</td>
+<td>1</td>
+<td>Left Iron Chariot</td>
+</tr>
+<tr>
+<td>Side Monkey</td>
+<td>2</td>
+<td>Side Soldier</td>
+</tr>
+<tr>
+<td>Vertical Mover</td>
+<td>2</td>
+<td>Flying Ox</td>
+</tr>
+<tr>
+<td>Flying Ox</td>
+<td>2</td>
+<td>Fire Ox</td>
+</tr>
+<tr>
+<td>Longbow Soldier</td>
+<td>2</td>
+<td>Longbow General</td>
+</tr>
+<tr>
+<td>Vertical Pup</td>
+<td>2</td>
+<td>Leopard King</td>
+</tr>
+<tr>
+<td>Vertical Horse</td>
+<td>2</td>
+<td>Dragon Horse</td>
+</tr>
+<tr>
+<td>Burning Soldier</td>
+<td>2</td>
+<td>Burning General</td>
+</tr>
+<tr>
+<td>Dragon Horse</td>
+<td>2</td>
+<td>Horned Falcon</td>
+</tr>
+<tr>
+<td>Dragon King</td>
+<td>2</td>
+<td>Soaring Eagle</td>
+</tr>
+<tr>
+<td>Sword Soldier</td>
+<td>2</td>
+<td>Sword General</td>
+</tr>
+<tr>
+<td>Horned Falcon</td>
+<td>2</td>
+<td>Great Falcon</td>
+</tr>
+<tr>
+<td>Soaring Eagle</td>
+<td>2</td>
+<td>Great Eagle</td>
+</tr>
+<tr>
+<td>Spear Soldier</td>
+<td>2</td>
+<td>Spear General</td>
+</tr>
+<tr>
+<td>Vertical Leopard</td>
+<td>2</td>
+<td>Great Leopard</td>
+</tr>
+<tr>
+<td>Savage Tiger</td>
+<td>2</td>
+<td>Great Tiger</td>
+</tr>
+<tr>
+<td>Shortbow Soldier</td>
+<td>2</td>
+<td>Shortbow General</td>
+</tr>
+<tr>
+<td>Roaring Dog</td>
+<td>1</td>
+<td>Lion Dog</td>
+</tr>
+<tr>
+<td>Lion Dog</td>
+<td>1</td>
+<td>Great Elephant</td>
+</tr>
+<tr>
+<td>Dog</td>
+<td>4</td>
+<td>Multi-General</td>
+</tr>
+<tr>
+<td>Go-Between</td>
+<td>2</td>
+<td>Drunk Elephant</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>36</td>
+<td>Tokin</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Total: 402 pieces per side.</strong></p>
+<hr>
+<h3>Starting Position (Sente)</h3>
+<p>Positions are given as (rank, column). Columns 1–36 run left to right; rank 1 is Sente’s back rank. Gote’s setup is the mirror: rank 36 = Gote’s back rank, column positions reversed.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Pieces and Columns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Lance (1,36), Reverse Chariot (2,35), White Elephant (3 — singular), Fragrant Elephant (34), Mountain Dove (4,33), Flying Swallow (5,32), Captive Officer (6,31), Rain Dragon (7,30), Forest Demon (8,29), Mountain Stag (9,28), Running Pup (10,27), Running Serpent (11,26), Side Serpent (12,25), Great Dove (13,24), Running Tiger (14,23), Running Bear (15,22), Night Sword (16), Rear Standard (17,20), <strong>King (18)</strong>, <strong>Crown Prince (19)</strong>, Gold General (17,20 shared), Right General (21), Left General (16 — overlaps Night Sword?), Wrestler (16)…</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>Note: The original manuscript gives setup positions by rank and column number. Rank 1 holds the outermost defensive pieces; Ranks 2–10 hold the remaining armies; Rank 11 holds all 36 Pawns; Rank 12 holds Dogs (columns 6, 15, 22, 31) and Go-Betweens (columns 11, 26).</em></p>
+<p>For the authoritative column-by-column starting position, consult chessvariants.com/shogivariants.dir/taikyoku_english.html.</p>
+<hr>
+<h3>Piece Ranking (for Jump Captures)</h3>
+<p>The following pieces can jump over lower-ranked pieces to make captures (as in Tenjiku Shogi):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Rank</th>
+<th>Pieces</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 (highest)</td>
+<td>King, Crown Prince</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Great General</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Vice General</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Bishop General, Rook General, Violent Dragon, Flying Crocodile</td>
+</tr>
+<tr>
+<td>5 (all others)</td>
+<td>All remaining pieces</td>
+</tr>
+</tbody>
+</table></div>
+<p>A piece of rank R can jump over any number of pieces ranked 5 (the rank below R), continuing until making a capture.</p>
+<h3>Promotion</h3>
+<ul class="rules">
+<li>Pieces promote upon reaching any of the <strong>opponent’s 11 ranks</strong> (ranks 26–36 for Sente)</li>
+<li>Captured pieces are permanently removed from play (no drops)</li>
+<li>Each piece promotes to its fixed promoted form (listed in the piece table above)</li>
+<li>Promotion is irreversible</li>
+</ul>
+<h3>Historical Note</h3>
+<p>Taikyoku Shogi is documented in a manuscript held at Osaka Municipal Central Library. Its playability has been questioned by historians — some believe it was a theoretical exercise assembled by combining all known Shogi variants rather than a game designed for practical play. No game records from historical times have survived, and no mating problems have been published.</p>
+<h3>Attribution</h3>
+<p>Taikyoku Shogi is documented in a single known Japanese manuscript. English transcription by L. Lynn Smith, with thanks to Patrick Davin. Source: chessvariants.com/shogivariants.dir/taikyoku_english.html</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../tai-shogi/" class="variant-pager-prev">← Tai Shogi</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../tenjiku-shogi/" class="variant-pager-next">Tenjiku Shogi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Shogi · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

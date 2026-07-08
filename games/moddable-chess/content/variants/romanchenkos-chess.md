@@ -14,7 +14,7 @@ engine:
     broken_columns: true
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Romanchenko's Chess

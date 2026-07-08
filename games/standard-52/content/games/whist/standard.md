@@ -6,7 +6,7 @@ players: "4"
 parent: standard-52
 win: First partnership to win a rubber (best of 3 games) or reach 5 points in Short Whist
 special: "Classic 4-player partnership trick-taking game and direct ancestor of Bridge. No bidding — trump is determined by the last card dealt. 13 tricks per hand; 1 point per trick above 6. Dominant card game in Europe and North America from 1750 to ~1900."
-published: false
+published: true
 ---
 
 ## Whist

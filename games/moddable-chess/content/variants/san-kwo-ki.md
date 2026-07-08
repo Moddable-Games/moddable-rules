@@ -5,10 +5,7 @@ board: Hexagonal trisection
 players: 3
 parent: moddable-chess
 win: Last General surviving wins
-special:
-  - three-player
-  - captures-army
-  - extended-knight
+special: "Three Kingdoms 3-player Xiangqi on a hexagonal trisected board. Eliminating a General captures that player's entire army."
 engine:
   type: hexagonal-trisection
   players: 3

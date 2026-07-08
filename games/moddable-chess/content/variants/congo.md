@@ -13,7 +13,7 @@ engine:
     cols: 7
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Congo

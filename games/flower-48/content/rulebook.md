@@ -9,7 +9,7 @@ age: "10+"
 tagline: "Japanese flower cards: 12 monthly suits, 48 cards"
 type: "component"
 status: "live"
-updated: "2026-07-04"
+updated: "2026-07-08"
 published: true
 hub_type: component
 theme:
@@ -61,17 +61,10 @@ A Japanese 48-card deck divided into 12 suits, one for each month of the year. E
 
 ## Games
 
-- [Koi-Koi](games/koi-koi/) — Two-player matching game. Complete a yaku (scoring pattern), then choose: stop and score, or call "koi-koi" to continue for higher stakes.
+- [Go-Stop](games/go-stop/) — Korean hanafuda (Hwatu deck). Most popular card game in South Korea. Go/Stop decision: press on for bigger rewards or bank winnings. 2–3 players.
 - [Hana-Awase](games/hana-awase/) — The base matching game. Collect cards by suit, highest point value wins.
+- [Koi-Koi](games/koi-koi/) — Two-player matching game. Complete a yaku (scoring pattern), then choose: stop and score, or call "koi-koi" to continue for higher stakes.
 - [Oicho-Kabu](games/oicho-kabu/) — Betting game using month values (mod 10). Closest to 9 wins. Origin of the word "Yakuza."
-
-</div>
-
-<div class="section">
-
-## Not in Scope
-
-Go-Stop (Hwatu) uses Korean Hwatu cards (same imagery, plastic, different yaku and multi-winner mechanics). Separate hub required.
 
 ## Attribution
 

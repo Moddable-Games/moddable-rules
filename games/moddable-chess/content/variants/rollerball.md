@@ -14,7 +14,7 @@ engine:
     total_squares: 40
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Rollerball

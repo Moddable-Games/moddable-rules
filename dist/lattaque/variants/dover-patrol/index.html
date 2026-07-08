@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for Dover Patrol.">
 <meta property="og:title" content="Dover Patrol — L'Attaque">
 <meta property="og:description" content="Complete rules for Dover Patrol.">
-<meta property="og:image" content="https://rules.moddable.games/games/lattaque/og-variants/dover-patrol.png?v=0.1.0">
+<meta property="og:image" content="https://rules.moddable.games/games/lattaque/og-variants/dover-patrol.png?v=0.4.0">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/lattaque/variants/dover-patrol/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dover Patrol — L'Attaque">
 <meta name="twitter:description" content="Complete rules for Dover Patrol.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/lattaque/og-variants/dover-patrol.png?v=0.1.0">
+<meta name="twitter:image" content="https://rules.moddable.games/games/lattaque/og-variants/dover-patrol.png?v=0.4.0">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
-<link rel="stylesheet" href="../../theme.css?v=0.1.0">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.4.0">
+<link rel="stylesheet" href="../../theme.css?v=0.4.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.4.0">
 <script type="module" src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -38,10 +38,10 @@
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">L'Attaque · Variant 1 of 3</span>
+    <span class="variant-cover-label">L'Attaque · Variant 2 of 4</span>
     <h1 class="variant-cover-title">Dover Patrol</h1>
     <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">10×9</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">8×12</span><span class="variant-stat-lbl">Board</span></span>
       <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
     </div>
   </div>
@@ -53,105 +53,243 @@
 <div class="section">
 
 <h2>Dover Patrol</h2>
-<p>Published by H.P. Gibson &amp; Sons, Britain, circa 1930. Dover Patrol transposes the L’Attaque system to a naval warfare setting. Piece names reference Royal Navy vessels; the board represents a section of the English Channel. Rules are mechanically identical to L’Attaque with naval-themed piece names.</p>
+<p>Also titled <strong>Naval Tactics</strong>. Published by H.P. Gibson &amp; Sons, London. One of the four games in the Gibson hidden-rank warfare series (alongside L’Attaque, Aviation, and Tri-Tactics).</p>
+<p>Dover Patrol is a Capture the Flag game, not a piece-elimination game. The object is to seize the opponent’s Flag from their Base and convey it to your own Base, while keeping your own Flag safe.</p>
+<p>An Australian edition was published under licence by Moldex Ltd as <strong>Pacific Patrol</strong>, using HMAS ship names at equivalent ranks.</p>
+<hr>
 <h3>Board</h3>
-<p>10 × 9 board. Minefield squares (corresponding to L’Attaque’s lakes) are impassable, located in the same central positions. Sea lane squares (along the outer edges) have no special movement rules in the standard game.</p>
-<h3>Piece Set</h3>
-<p>All movement and capture rules are identical to Standard L’Attaque. Piece correspondence:</p>
+<p><strong>8 columns (A–H) × 12 rows (1–12).</strong> The entire playing surface is Sea; there is no land terrain. All movement and combat uses naval rules throughout.</p>
+<p>Each player’s side has a <strong>Harbour</strong> — a 3×3 walled area in the corner of their side of the board. The Harbours are in <strong>opposite corners</strong> of the board (not symmetric on the same side). Within each Harbour is the <strong>Base</strong>: the single square where the Admiral’s Flag is placed at the start of the game.</p>
+<p><strong>Harbour positions (1-indexed, A=col 1, H=col 8):</strong></p>
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
-<th>Dover Patrol Piece</th>
-<th>L’Attaque Equivalent</th>
-<th>Rank</th>
-<th>Special Ability</th>
+<th>Player</th>
+<th>Harbour columns</th>
+<th>Harbour rows</th>
+<th>Base square</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Flagship</td>
-<td>Flag</td>
-<td>0</td>
-<td>Immovable; capturing it wins</td>
+<td>Player 1</td>
+<td>A–C (cols 1–3)</td>
+<td>Rows 1–3</td>
+<td>C3 (inner corner, facing open sea)</td>
 </tr>
 <tr>
-<td>Mine</td>
-<td>Bomb</td>
-<td>B</td>
-<td>Immovable; defeats all attackers except Mine Sweepers</td>
-</tr>
-<tr>
-<td>Submarine</td>
-<td>Spy</td>
-<td>1</td>
-<td>Defeats Battleship on attack; loses if Battleship attacks it</td>
-</tr>
-<tr>
-<td>Destroyer</td>
-<td>Scout</td>
-<td>2</td>
-<td>Slides unlimited orthogonally</td>
-</tr>
-<tr>
-<td>Mine Sweeper</td>
-<td>Miner</td>
-<td>3</td>
-<td>Only piece that can clear Mines</td>
-</tr>
-<tr>
-<td>Patrol Boat</td>
-<td>Sergeant</td>
-<td>4</td>
-<td>Standard capture</td>
-</tr>
-<tr>
-<td>Gunboat</td>
-<td>Lieutenant</td>
-<td>5</td>
-<td>Standard capture</td>
-</tr>
-<tr>
-<td>Torpedo Boat</td>
-<td>Captain</td>
-<td>6</td>
-<td>Standard capture</td>
-</tr>
-<tr>
-<td>Cruiser</td>
-<td>Major</td>
-<td>7</td>
-<td>Standard capture</td>
-</tr>
-<tr>
-<td>Battle Cruiser</td>
-<td>Colonel</td>
-<td>8</td>
-<td>Standard capture</td>
-</tr>
-<tr>
-<td>Admiral</td>
-<td>General</td>
-<td>9</td>
-<td>Standard capture</td>
-</tr>
-<tr>
-<td>Battleship</td>
-<td>Marshal</td>
-<td>10</td>
-<td>Highest rank; defeated by Submarine when Submarine attacks</td>
+<td>Player 2</td>
+<td>F–H (cols 6–8)</td>
+<td>Rows 10–12</td>
+<td>F10 (inner corner, facing open sea)</td>
 </tr>
 </tbody>
 </table></div>
-<h3>Rules</h3>
-<p>All rules (setup, movement, attack, hidden information, win conditions) are identical to Standard L’Attaque. Refer to the Standard L’Attaque rules for full details. The only differences are piece names and the naval theme.</p>
+<p>The <strong>Harbour Wall</strong> runs along the open faces of the 3×3 Harbour area (the top and right faces for Player 1; the bottom and left faces for Player 2), forming a partial enclosure. The single gap or the Wall itself blocks normal piece movement. Only the <strong>Flying Boat</strong> can cross the Harbour Wall via its 2-square jumping move.</p>
+<p><strong>Setup:</strong> Each player places their 40 pieces face-down on their nearest 5 rows. Player 1 sets up on rows 1–5 (the Flag on Base = C3); Player 2 sets up on rows 8–12 (Flag on Base = F10). Rows 6–7 are the open contest zone. Each player has their Harbour on the left (row 1 or row 12).</p>
+<hr>
+<h3>Pieces (40 per player, plus 1 Flag)</h3>
+<p><strong>The FLAG</strong> is a separate clip (not a standing piece). It is placed on the Base at the start of the game. It is not a piece in its own right but is clipped to whichever ship carries it.</p>
+<p><strong>Fleet — 30 numbered ships:</strong></p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Vessel</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Flagship</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Vice-Flagship</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Battle Squadron</td>
+<td>8</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Battleship</td>
+<td>7</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Battle Cruisers</td>
+<td>6</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Light Cruisers</td>
+<td>5</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Destroyers</td>
+<td>4</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Auxiliary Cruisers</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Motor Torpedo Boats</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Patrol Vessels</td>
+<td>1</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Fleet Auxiliaries — 6 unnumbered ships</strong> (part of the 36-piece Fleet):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Vessel</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Mine Layer</td>
+<td>Movable floating mine</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Mine Sweepers</td>
+<td>Remove Mines; carry the Flag</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Submarines</td>
+<td>Sink all ships except Mine Layers and Motor Torpedo Boats</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Special pieces — 4 pieces</strong> (outside the Fleet):</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Count</th>
+<th>Piece</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Flying Boat</td>
+<td>Crosses Harbour Wall; 2-square move; Scout</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Mines</td>
+<td>Stationary; blow up any ship that approaches</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Total per player: 40 ships + 1 Flag clip.</strong></p>
+<hr>
+<h3>Movement</h3>
+<p>Players alternate turns. Each piece moves <strong>one square</strong> — forwards, backwards, or sideways. <strong>Never diagonally.</strong> This applies even when carrying a Flag.</p>
+<p><strong>Flying Boat exception</strong>: The Flying Boat moves <strong>two squares</strong> in a straight line (as in Draughts when taking a piece — it physically passes through the intermediate square). It can move two squares backwards, forwards, or sideways, but not diagonally. This two-square move allows it to cross the Harbour Wall, which blocks all other pieces.</p>
+<hr>
+<h3>Combat</h3>
+<p>Pieces cannot move into an occupied square. When a piece moves adjacent (back to back) to an enemy piece, the player <strong>may choose to attack</strong> by declaring “Attack!” Attacking is optional; the move passes whether or not an attack is declared. A player who declines to attack cannot be attacked back by that same piece without the opponent first moving away.</p>
+<p><strong>Combat result</strong>: Both pieces are revealed. The lower-valued ship is <strong>sunk</strong> (removed). The higher-valued ship remains on the square from which it attacked. Equal values: both sunk.</p>
+<p>This rule applies to numbered Fleet pieces. For Auxiliaries, see special rules below.</p>
+<hr>
+<h3>Special Piece Rules</h3>
+<p><strong>MINES</strong> (stationary):</p>
+<ul class="rules">
+<li>Mines never move. Pretending to move a Mine to deceive the opponent is not permitted.</li>
+<li>Any ship — except Mine Sweepers, Mine Layers, and Flying Boats — that moves into the attacking position adjacent to a Mine is immediately <strong>blown up</strong>. This is automatic regardless of whether “Attack!” is declared.</li>
+<li>Mine Sweeper declares “Attack!” on a Mine: Mine is <strong>destroyed</strong> (removed).</li>
+<li>Flying Boat moves adjacent to a Mine: nothing happens.</li>
+</ul>
+<p><strong>MINE SWEEPERS</strong> (unnumbered):</p>
+<ul class="rules">
+<li>Used primarily to destroy Mines.</li>
+<li>Also useful for carrying the Flag.</li>
+<li>Cannot be sunk by Mine Layers, other Mine Sweepers, or Flying Boats (nothing happens).</li>
+<li>Any other piece sinks them.</li>
+</ul>
+<p><strong>MINE LAYERS</strong> (unnumbered):</p>
+<ul class="rules">
+<li>Act as <strong>floating Mines</strong>: any ship (other than another Mine Layer) that moves into attacking position adjacent to a Mine Layer is <strong>blown up</strong>.</li>
+<li>May move like any other ship.</li>
+<li><strong>Cannot attack</strong> — Mine Layers never declare “Attack!”</li>
+<li>Can only be sunk by a <strong>Destroyer (4)</strong>.</li>
+<li>Mines have no effect on Mine Layers.</li>
+<li>Mine Sweepers, Submarines, and Flying Boats adjacent to Mine Layers: nothing happens.</li>
+</ul>
+<p><strong>SUBMARINES</strong> (unnumbered):</p>
+<ul class="rules">
+<li>Sink <strong>all ships</strong> except Mine Layers (see above) and <strong>Motor Torpedo Boats (2)</strong>, which sink Submarines instead.</li>
+<li>Submarines are blown up by Mines.</li>
+<li>Submarine vs Submarine, Submarine vs Mine Sweeper, Submarine vs Flying Boat: nothing happens.</li>
+</ul>
+<p><strong>FLYING BOAT</strong> (special):</p>
+<ul class="rules">
+<li>Moves <strong>two squares</strong> in a straight orthogonal line only; always moves two squares.</li>
+<li>The only piece that can <strong>cross the Harbour Wall</strong>, enabling it to reach the Base from outside.</li>
+<li>When flying over the Harbour Wall, this must be declared.</li>
+<li>May fly over a Mine if desired.</li>
+<li>Can be <strong>brought down only by a Motor Torpedo Boat (2) or a Destroyer (4)</strong>.</li>
+<li>Used as a <strong>Scout</strong>: when it attacks or is attacked by any piece other than 2s or 4s (including Mines), nothing happens and both remain — but both pieces must be shown, revealing their identities.</li>
+</ul>
+<hr>
+<h3>The Flag and the Harbour</h3>
+<p><strong>Capturing the Flag:</strong></p>
+<ul class="rules">
+<li>The Flag remains on the Base until a ship moves onto the Base square to capture it.</li>
+<li>Only the Flying Boat can approach the Base through the Harbour Wall. All other ships must enter the Harbour from the open side.</li>
+<li>The capturing ship must move off the Base on its <strong>next move</strong>, carrying the Flag. If enemy pieces prevent this, the ship is <strong>run aground</strong> (removed) and the Flag remains on the Base.</li>
+</ul>
+<p><strong>Carrying the Flag:</strong></p>
+<ul class="rules">
+<li>A ship carrying a Flag cannot attack the ship carrying the other Flag.</li>
+<li>If a Flag-carrying ship is attacked by an equal-valued ship: both are sunk. The Flag is placed on the square the escort had occupied.</li>
+<li>If a Flag-carrying ship is blown up by a Mine: the Flag is placed on the escort’s square. Only a Mine Sweeper can then recover it from this position.</li>
+<li>Once the Flag has left the Base, the holder may transfer it to any adjacent ship (not diagonally) — this counts as a move.</li>
+</ul>
+<p><strong>Winning:</strong></p>
+<ul class="rules">
+<li>A player wins by getting <strong>both Flags</strong> — their own and the enemy’s — onto their own Base.</li>
+<li>A player <strong>cannot</strong> deposit the enemy Flag on their Base unless their own Flag is already in their possession and on their own side of the board.</li>
+<li>A player also wins if their opponent cannot move any piece on their turn, <strong>provided</strong> the winner’s own Flag is on their own Base. If not, the game is a draw.</li>
+</ul>
+<hr>
+<h3>Shorter Game Variants</h3>
+<p>The rulebook includes four shorter variants:</p>
+<ol>
+<li><strong>First Capture</strong>: Same rules but the winner is the first player to capture the opponent’s Flag (occupy the opponent’s Base).</li>
+<li><strong>Flagship Hunt</strong>: Ignore the Harbour Wall; the first player to capture the opponent’s Flagship wins.</li>
+<li><strong>Pitched Battle</strong>: Ignore the Harbour Wall; victory goes to the side that sinks the entire opposing Fleet and Auxiliaries (excluding Mines).</li>
+<li><strong>Capturing the Base</strong> (24 pieces each): A reduced-set game using 3 back rows for setup. No Flag; win by first occupying the opponent’s Base. Attack declaration is mandatory (not optional). Piece set: 1 Vice-Flagship, 1 Battle Squadron, 1 Battleship, 2 Battle Cruisers, 2 Light Cruisers, 2 Destroyers, 1 Auxiliary Cruiser, 4 Motor Torpedo Boats, 3 Patrol Vessels, 1 Mine Sweeper, 1 Mine Layer, 2 Mines, 2 Submarines, 1 Flying Boat.</li>
+</ol>
+<hr>
 <h3>Attribution</h3>
-<p>Dover Patrol. Published by H.P. Gibson &amp; Sons, Britain, approximately 1930. Naval adaptation of L’Attaque. Public domain rule set.</p>
+<p>The “Dover Patrol” or Naval Tactics. Published by H.P. Gibson &amp; Sons Ltd., London. Part of the Gibson hidden-rank warfare series alongside L’Attaque, Aviation, and Tri-Tactics. Public domain rule set. Source: original H.P. Gibson &amp; Sons rulebook (scanned from physical copy).</p>
 
 </div>
 </main>
 
 <nav class="variant-pager" aria-label="Variant navigation">
-  <span class="variant-pager-spacer"></span>
+  <a href="../aviation/" class="variant-pager-prev">← Aviation</a>
   <a href="../../index.html" class="variant-pager-hub">All Variants</a>
   <a href="../standard/" class="variant-pager-next">L'Attaque (Standard) →</a>
 </nav>

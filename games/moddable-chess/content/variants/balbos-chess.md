@@ -14,7 +14,7 @@ engine:
     missing_squares: true
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Balbo’s Chess

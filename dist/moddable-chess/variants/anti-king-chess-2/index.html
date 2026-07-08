@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anti-King Chess II — Moddable Chess</title>
+<meta name="description" content="Complete rules for Anti-King Chess II.">
+<meta property="og:title" content="Anti-King Chess II — Moddable Chess">
+<meta property="og:description" content="Complete rules for Anti-King Chess II.">
+<meta property="og:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/anti-king-chess-2.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/moddable-chess/variants/anti-king-chess-2/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anti-King Chess II — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Anti-King Chess II.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/moddable-chess/og-variants/anti-king-chess-2.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/moddable-chess/content/variants/anti-king-chess-2.md" class="hdr-link">Markdown</a><a href="../../../../games/moddable-chess/pdf/variants/anti-king-chess-2.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Anti-King Chess II · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 11 of 155</span>
+    <h1 class="variant-cover-title">Anti-King Chess II</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h1>Anti-King Chess II</h1>
+<p><strong>Invented by Peter Aronson, 2002.</strong></p>
+<h2>Overview</h2>
+<p>Anti-King Chess II adds an Anti-King to each side’s standard FIDE army. The Anti-King is a royal piece with inverted check: it is in check when it is <em>not</em> attacked by any enemy piece. A player who ends their turn with their Anti-King unattacked is checkmated and loses. Win by checkmating either the opponent’s King or the opponent’s Anti-King.</p>
+<h2>Setup</h2>
+<p>Standard 8×8 board. Each side begins with the normal FIDE complement plus an Anti-King placed in the center files.</p>
+<pre><code>FEN: rnbqkbnr/pppppppp/3A4/8/8/3a4/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+</code></pre>
+<ul class="rules">
+<li><strong>White</strong>: King e1, Anti-King d6, Queen d1, Rooks a1/h1, Bishops c1/f1, Knights b1/g1, Pawns a2–h2</li>
+<li><strong>Black</strong>: King e8, Anti-King d3, Queen d8, Rooks a8/h8, Bishops c8/f8, Knights b8/g8, Pawns a7–h7</li>
+</ul>
+<p><em>FEN notation: A = White Anti-King, a = Black Anti-King.</em></p>
+<h2>Pieces</h2>
+<p>All FIDE pieces move and capture as normal. The Anti-King is a special royal piece:</p>
+<h3>Anti-King</h3>
+<ul class="rules">
+<li>Moves one square in any direction (like a King).</li>
+<li><strong>Is in check when it is NOT attacked by any enemy piece.</strong></li>
+<li>Cannot capture enemy pieces; may only capture friendly pieces.</li>
+<li>Cannot be captured — it can only be mated.</li>
+<li>Does not give check to the friendly King.</li>
+<li>A hostile King adjacent to the Anti-King does not count as attacking it (Kings do not attack Anti-Kings).</li>
+</ul>
+<h2>Rules</h2>
+<p>All standard FIDE rules apply with these modifications:</p>
+<p><strong>Check and checkmate apply to both royal pieces.</strong> A player is in check if their King is attacked by an enemy piece, or if their Anti-King is not attacked by any enemy piece. A player must escape check on their turn; if they cannot, they are checkmated and lose.</p>
+<p><strong>Winning</strong>: Checkmate the opponent’s King (King attacked and unable to escape) or checkmate the opponent’s Anti-King (Anti-King unattacked and unable to reach an attacked square).</p>
+<p><strong>Pawns</strong> follow standard FIDE rules: double push from the starting rank, en passant, and promotion to Queen, Rook, Bishop, or Knight.</p>
+<p><strong>Castling</strong> is permitted under standard conditions.</p>
+<p><strong>Stalemate</strong>: a player with no legal moves but not in check is stalemated (drawn, as in standard chess).</p>
+<h2>Notes</h2>
+<p>The Anti-Kings start on d6 and d3 — directly in the path of development — so they tend to be well-covered early by natural piece deployment. This makes the opening phase more conservative than Anti-King Chess I (which uses Berolina Pawns and a scattered setup). Players must maintain coverage of their Anti-King while simultaneously pressing for mate on either of the opponent’s royal pieces.</p>
+<p><em>Source: chessvariants.com/diffobjective.dir/anti-king-chess.html</em></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../andernach/" class="variant-pager-prev">← Andernach Chess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../antichess/" class="variant-pager-next">Antichess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.0</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.0"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

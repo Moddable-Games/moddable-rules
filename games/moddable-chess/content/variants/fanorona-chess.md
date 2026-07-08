@@ -14,7 +14,7 @@ engine:
     alquerque: true
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Fanorona Chess

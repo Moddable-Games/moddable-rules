@@ -13,7 +13,7 @@ engine:
     cols: 9
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Chancellor Chess

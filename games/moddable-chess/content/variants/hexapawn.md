@@ -13,7 +13,7 @@ engine:
     cols: 3
   players: [white, black]
   notation: algebraic
-published: false
+published: true
 ---
 
 ## Hexapawn
