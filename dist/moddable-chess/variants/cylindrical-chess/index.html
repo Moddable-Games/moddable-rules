@@ -52,16 +52,16 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h1>Cylindrical Chess</h1>
-<h2>Overview</h2>
+<h1 id="cylindrical-chess">Cylindrical Chess</h1>
+<h2 id="overview">Overview</h2>
 <p>Cylindrical Chess is played on a standard 8×8 board, but the board is treated as a cylinder: the left and right edges are connected. File a is adjacent to file h. A piece that moves off one edge of the board reappears from the other side.</p>
-<h2>Setup</h2>
+<h2 id="setup">Setup</h2>
 <p>Standard FIDE starting position.</p>
 <pre><code>FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 </code></pre>
-<h2>Rules</h2>
+<h2 id="rules">Rules</h2>
 <p>All standard FIDE rules apply with the following modifications for the cylindrical board:</p>
-<h3>Cylindrical Movement</h3>
+<h3 id="cylindrical-movement">Cylindrical Movement</h3>
 <p>All pieces may move and attack across the board edge. File a and file h are adjacent:</p>
 <ul class="rules">
 <li>A <strong>Rook</strong> on a3 may slide left (away from the board edge) to h3, g3, f3, etc. — provided those squares are not blocked.</li>
@@ -69,15 +69,15 @@
 <li>A <strong>Knight</strong> on h2 may jump to squares on the a-file side of the board.</li>
 <li>A <strong>Queen</strong> combines Rook and Bishop cylindrical movement.</li>
 </ul>
-<h3>En Passant</h3>
+<h3 id="en-passant">En Passant</h3>
 <p>En passant works normally across the cylinder. For example: if White has a pawn on a5 and Black plays h7–h5, White may capture en passant with a5×h6.</p>
-<h3>Castling</h3>
+<h3 id="castling">Castling</h3>
 <p>Castling is permitted under standard FIDE conditions. The Rook does not cross the board edge during castling — only standard castling (not over the edge) is allowed.</p>
-<h3>Null Moves</h3>
+<h3 id="null-moves">Null Moves</h3>
 <p>A piece may not make a null move — it cannot travel all the way around the board to return to its starting square. (Such moves are only allowed in some problem contexts.)</p>
-<h3>Stalemate</h3>
+<h3 id="stalemate">Stalemate</h3>
 <p>Stalemate is a draw, as in standard chess.</p>
-<h2>Strategy Notes</h2>
+<h2 id="strategy-notes">Strategy Notes</h2>
 <p><strong>Piece values</strong> are significantly different from standard chess:</p>
 <div class="table-wrap"><table class="t">
 <thead>

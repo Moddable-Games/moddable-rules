@@ -52,15 +52,15 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Four Player Shogi</h2>
+<h2 id="four-player-shogi">Four Player Shogi</h2>
 <p>Four Player Shogi is a 4-player adaptation of standard Shogi designed by Michael Shipley in 1999. It is played on a cross-shaped board with a 9×9 central area and a 3×9 wing on each edge, giving 189 playable squares. The overall bounding box is 15×15 with the four 3×3 corner sections off the board.</p>
-<h3>Starting Position</h3>
+<h3 id="starting-position">Starting Position</h3>
 <p>Each player occupies one 3×9 wing and commands a standard Shogi army, facing inward toward the centre.</p>
 <p><strong>North and South wings (back rank, inner to outer):</strong>
 Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance (back rank) · Rook and Bishop on 2nd rank (North: Rook on b-file, Bishop on h-file; South: Bishop on b-file, Rook on h-file) · 9 Pawns on 3rd rank.</p>
 <p><strong>East and West wings:</strong> Same army as North/South, but with <strong>Rook and Bishop positions swapped</strong> relative to North/South. (East: Bishop left, Rook right; West: Rook left, Bishop right, reading outward.)</p>
 <p>No pieces may move through the 3×3 void squares at the four corners of the bounding box.</p>
-<h3>Piece Movement</h3>
+<h3 id="piece-movement">Piece Movement</h3>
 <p>All pieces move as in standard Shogi:</p>
 <ul class="rules">
 <li><strong>Pawn:</strong> one square forward</li>
@@ -73,7 +73,7 @@ Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance (
 <li><strong>King:</strong> one square in any direction</li>
 </ul>
 <p>“Forward” is always toward the opponent’s side (inward toward the board centre, away from each player’s own wing).</p>
-<h3>Promotion</h3>
+<h3 id="promotion">Promotion</h3>
 <p>A player may promote a piece when it <strong>enters, moves within, or leaves any opponent’s 3×9 wing</strong>. A piece <strong>must</strong> promote if moved to a square from which it has no legal moves in unpromoted form.</p>
 <p>Promoted movement follows standard Shogi:</p>
 <ul class="rules">
@@ -82,7 +82,7 @@ Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance (
 <li>Rook → Dragon King (Rook + one diagonal step)</li>
 <li>Gold General and King do not promote</li>
 </ul>
-<h3>Drops</h3>
+<h3 id="drops">Drops</h3>
 <p>Captured pieces may be dropped on any empty square in lieu of a move, with restrictions:</p>
 <ul class="rules">
 <li>Pieces are always dropped in their unpromoted state.</li>
@@ -91,12 +91,12 @@ Lance · Knight · Silver · Gold · King · Gold · Silver · Knight · Lance (
 <li>A player may not have more than one unpromoted Pawn on the same file; therefore a player may never have more than 15 non-promoted Pawns on the board at once.</li>
 <li><strong>Pieces captured by a teammate cannot be transferred</strong> — captured pieces belong only to the player who captured them.</li>
 </ul>
-<h3>Game Styles</h3>
+<h3 id="game-styles">Game Styles</h3>
 <p><strong>Team-Orthogonal:</strong> North + South vs East + West. Turn order: North → East → South → West. Partners may not capture each other’s pieces. A team wins when <strong>both enemy Kings are in checkmate</strong> simultaneously.</p>
 <p><strong>Team-Diagonal:</strong> North + East vs South + West. Turn order: North → South → East → West. Otherwise identical to Team-Orthogonal.</p>
 <p><strong>Individual:</strong> Each player fights all three others. Turn order: North → East → South → West. A player who checkmates an enemy King may capture that King on their next turn — the captured King is removed from play. Remaining pieces of the eliminated player stay on the board until captured; captured pieces in the eliminated player’s hand are removed. The last player with a surviving King wins.</p>
 <p><strong>Alternative individual variant:</strong> Check is not announced and the King is treated as a normal piece that may be captured and dropped as an additional King. The game ends when one player possesses all four Kings.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Designed by Michael Shipley, 1999. Rules documented from chessvariants.com/shogivariants.dir/fourplayer.html.</p>
 
 </div>

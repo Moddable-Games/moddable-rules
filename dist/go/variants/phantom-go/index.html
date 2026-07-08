@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Phantom Go</h2>
+<h2 id="phantom-go">Phantom Go</h2>
 <p>Fog-of-war Go. Players cannot see opponent stones. A referee mediates all moves and announces captures. Deduction replaces reading. Played on 9x9 or 13x13 boards.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="238" height="238" viewBox="0 0 238 238">
 <title>Go — 9×9 board (empty)</title>
@@ -60,40 +60,40 @@
 <text x="39" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">A</text><text x="59" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">B</text><text x="79" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">C</text><text x="99" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">D</text><text x="119" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">E</text><text x="139" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">F</text><text x="159" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">G</text><text x="179" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">H</text><text x="199" y="229.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">J</text><text x="12" y="43.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">9</text><text x="12" y="63.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">8</text><text x="12" y="83.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">7</text><text x="12" y="103.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">6</text><text x="12" y="123.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">5</text><text x="12" y="143.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">4</text><text x="12" y="163.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">3</text><text x="12" y="183.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">2</text><text x="12" y="203.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">1</text>
 </svg>
 <p class="diagram-caption">Phantom Go — typically played on 9×9</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p><strong>Equipment:</strong> Three boards are needed: one for each player and one for the referee. Players sit back-to-back so neither can see the other’s board. The referee stands between them with the master board showing all stones.</p>
 <p><strong>Board size:</strong> Usually 9x9 or 13x13.</p>
 <p><strong>Stones:</strong> Standard Go stones. Black plays first.</p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <p>All standard Go rules apply (placement, capture, ko, no suicide) with the following modifications:</p>
 <ul class="rules">
 <li><strong>Hidden information:</strong> Players can only see their own stones. Opponent stones are invisible.</li>
 <li><strong>Turn structure:</strong> A player places a stone on their own board. The referee checks legality on the master board. If legal, the referee copies it to the master board and announces the result. If illegal, the player tries again (it remains their turn).</li>
 <li><strong>Passing:</strong> A player may pass. The referee announces passes to both players.</li>
 </ul>
-<h3>Announcements (Common Rules)</h3>
+<h3 id="announcements-common-rules">Announcements (Common Rules)</h3>
 <ul class="rules">
 <li><strong>Illegal moves:</strong> The referee says only “Illegal move” without stating why.</li>
 <li><strong>Captures:</strong> When a capture occurs, the referee announces “Black/White has captured the following stones” and points out exactly which stones were captured to both players.</li>
 <li><strong>Atari:</strong> The referee announces atari only if the stones were not already in atari before the move. The referee says “Black/White puts White/Black into atari” but does NOT say which specific stones are in atari.</li>
 </ul>
-<h3>Announcements (Hamburg Rules)</h3>
+<h3 id="announcements-hamburg-rules">Announcements (Hamburg Rules)</h3>
 <p>The Hamburg variant differs in two ways:</p>
 <ul class="rules">
 <li>The referee <strong>reveals why</strong> a move is illegal (occupied by own stone, occupied by opponent stone, suicide, or ko) rather than just saying “Illegal move.”</li>
 <li>The referee does <strong>NOT</strong> point out which specific stones were captured (only announces the number).</li>
 </ul>
 <p>This creates different deduction dynamics: you learn more from failed moves but less from opponent captures.</p>
-<h3>Win Condition</h3>
+<h3 id="win-condition">Win Condition</h3>
 <p>Standard Go scoring applies. The game ends when both players pass consecutively. Territory or area scoring determines the winner.</p>
-<h3>Strategy</h3>
+<h3 id="strategy">Strategy</h3>
 <ul class="rules">
 <li>Information is the scarcest resource. Every failed move attempt reveals something about the board state.</li>
 <li>Playing cautiously (avoiding illegal move attempts) preserves secrecy but risks falling behind.</li>
 <li>Captures are the primary source of confirmed information about opponent stone positions.</li>
 <li>On 9x9 boards, the reduced space makes deduction more tractable.</li>
 </ul>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Variant with active competitive community. Source: Sensei’s Library (OPL 1.0).</p>
 
 </div>

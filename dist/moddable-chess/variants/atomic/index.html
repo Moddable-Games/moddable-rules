@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Atomic Chess</h2>
+<h2 id="atomic-chess">Atomic Chess</h2>
 <p>Captures explode, destroying all non-pawn pieces in a one-square radius around the capture square. Including the capturing piece.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="368" height="368" viewBox="0 0 368 368">
 <title>Atomic Chess — starting position</title>
@@ -62,11 +62,11 @@
 <text x="44" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">a</text><text x="84" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">b</text><text x="124" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">c</text><text x="164" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">d</text><text x="204" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">e</text><text x="244" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">f</text><text x="284" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">g</text><text x="324" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">h</text><text x="12" y="48.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">8</text><text x="12" y="88.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">7</text><text x="12" y="128.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">6</text><text x="12" y="168.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">5</text><text x="12" y="208.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">4</text><text x="12" y="248.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">3</text><text x="12" y="288.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">2</text><text x="12" y="328.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">1</text>
 </svg>
 <p class="diagram-caption">Atomic Chess — starting position</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> Standard 8×8.</p>
 <p><strong>Setup:</strong> Standard chess setup.</p>
 <p><strong>FEN:</strong> <code>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1</code></p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <ul class="rules">
 <li>When a piece captures, an “explosion” occurs on the capture square.</li>
 <li>The explosion destroys: the capturing piece, the captured piece, and ALL non-pawn pieces on squares adjacent (horizontally, vertically, and diagonally) to the capture square.</li>
@@ -76,11 +76,11 @@
 <li>Because Kings can be destroyed by explosions, Kings can stand adjacent to each other (since capturing the enemy King would explode your own).</li>
 <li>No castling if the King or Rook has been exploded.</li>
 </ul>
-<h3>Win Condition</h3>
+<h3 id="win-condition">Win Condition</h3>
 <p>Destroy the opponent’s King (by exploding it or, rarely, checkmate).</p>
-<h3>Strategy</h3>
+<h3 id="strategy">Strategy</h3>
 <p>Material sacrifices that trigger chain explosions near the enemy King are the primary tactic. Early Queen sacrifices are common if they explode near the King. Pawn structure matters because pawns are explosion-proof shields.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Traditional variant. Popularised on Lichess and Chess.com. Public domain.</p>
 
 </div>

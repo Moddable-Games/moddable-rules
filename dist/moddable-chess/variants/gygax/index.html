@@ -52,9 +52,9 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Gygax Chess</h2>
+<h2 id="gygax-chess">Gygax Chess</h2>
 <p>Designed by Gary Gygax and published in <em>Dragon Magazine</em> No. 100 (TSR Inc., August 1985). Two players command 42 pieces across three stacked 12×8 boards. Gold moves first.</p>
-<h3>The Three Boards</h3>
+<h3 id="the-three-boards">The Three Boards</h3>
 <p>The boards are stacked vertically and share the same 12 files (a through l) and 8 ranks. Gold occupies ranks 1 and 2 on each board; Scarlet occupies ranks 7 and 8.</p>
 <div class="table-wrap"><table class="t">
 <thead>
@@ -86,11 +86,11 @@
 </tr>
 </tbody>
 </table></div>
-<h3>Notation</h3>
+<h3 id="notation">Notation</h3>
 <p>Each square is identified by its level number, file letter, and rank number. Level 3 is the Air board (upper), Level 2 is Land (middle), Level 1 is Subterranean (lower).</p>
 <p>Examples: <code>3g1</code> is Gold’s Dragon starting square on the Air board. <code>2g1</code> is Gold’s King start. <code>1g1</code> is Gold’s Elemental start. <code>2g8</code> is Scarlet’s King start.</p>
 <p>Piece codes used in FEN notation below: G=Griffon, R=Dragon (not Rook), S=Sylph on Level 3. O=Oliphant, U=Unicorn, H=Hero, T=Thief, C=Cleric, M=Mage, K=King, P=Paladin, W=Warrior on Level 2. B=Basilisk, E=Elemental, D=Dwarf on Level 1. Uppercase = Gold, lowercase = Scarlet.</p>
-<h3>Starting Positions</h3>
+<h3 id="starting-positions">Starting Positions</h3>
 <p><strong>Level 3 — Air</strong></p>
 <!-- missing: level3-start.svg -->
 <pre><code>2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1
@@ -106,10 +106,10 @@
 <pre><code>2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1
 </code></pre>
 <p>Gold rank 1: Basilisks at 1c1 and 1k1; Elemental at 1g1. Gold rank 2: Dwarves at 1b2, 1d2, 1f2, 1h2, 1j2, 1l2.</p>
-<h3>Objective and Turn Structure</h3>
+<h3 id="objective-and-turn-structure">Objective and Turn Structure</h3>
 <p>Win by checkmating the opponent’s King. No castling. A player who cannot make any legal move loses.</p>
 <p>Each turn consists of exactly one move on any of the three boards, including cross-level moves where a piece transitions between boards.</p>
-<h3>Piece Values</h3>
+<h3 id="piece-values">Piece Values</h3>
 <p>Relative values from Gygax’s original notes, useful for evaluating exchanges.</p>
 <div class="table-wrap"><table class="t">
 <thead>
@@ -172,56 +172,56 @@
 </tbody>
 </table></div>
 <hr>
-<h3>Level 3 Pieces — Air</h3>
-<h4>Sylph (S)</h4>
+<h3 id="level-3-pieces-air">Level 3 Pieces — Air</h3>
+<h4 id="sylph-s">Sylph (S)</h4>
 <p>The Sylph is the Air board’s pawn and uses Berolina movement: it moves diagonally forward without capturing, and captures one square straight forward (the inverse of a standard pawn). No double initial step.</p>
 <p>A Sylph may also capture an enemy piece on the Level 2 square directly below it, moving down one level. Once on Level 2, a Sylph may return to Level 3 only by moving to one of its six starting squares (3a2, 3c2, 3e2, 3g2, 3i2, or 3k2). This return move is not a capture. The Sylph has no promotion.</p>
-<h4>Griffon (G)</h4>
+<h4 id="griffon-g">Griffon (G)</h4>
 <p>On Level 3, the Griffon makes an unblockable (3,2) leap: three squares in one orthogonal direction and two squares perpendicularly, or two squares in one direction and three perpendicularly. The Griffon may also move or capture via a space diagonal: one step diagonally on Level 3 and then one step down to the same file-and-rank position on Level 2.</p>
 <p>On Level 2, the Griffon may only move or capture one square diagonally, or return to Level 3 via a space diagonal.</p>
-<h4>Dragon ®</h4>
+<h4 id="dragon">Dragon ®</h4>
 <p>The Dragon never leaves Level 3. On its own board it moves and captures as a dragon horse: any number of squares diagonally (like a bishop), or exactly one square orthogonally.</p>
 <p><strong>Remote capture:</strong> without moving, the Dragon may capture any enemy piece on the Level 2 square directly below it, or on any of the four orthogonally adjacent Level 2 squares. A remote capture constitutes the Dragon’s full move.</p>
 <hr>
-<h3>Level 2 Pieces — Land</h3>
+<h3 id="level-2-pieces-land">Level 2 Pieces — Land</h3>
 <p>Level 2 is the primary battleground. The King begins here and is most commonly found here. Pieces with no cross-level move listed below are restricted to Level 2.</p>
-<h4>Warrior (W)</h4>
+<h4 id="warrior-w">Warrior (W)</h4>
 <p>Standard pawn on Level 2. Moves one square straight forward without capturing; captures one square diagonally forward. No double initial step, no en passant. Promotes to Hero on reaching the furthest rank.</p>
-<h4>Oliphant (O)</h4>
+<h4 id="oliphant-o">Oliphant (O)</h4>
 <p>Moves and captures as a chess Rook: any number of squares orthogonally. Restricted to Level 2.</p>
-<h4>Unicorn (U)</h4>
+<h4 id="unicorn-u">Unicorn (U)</h4>
 <p>Moves and captures as a chess Knight: an unblockable (1,2) leap. Restricted to Level 2.</p>
-<h4>Hero (H)</h4>
+<h4 id="hero-h">Hero (H)</h4>
 <p>On Level 2, the Hero moves or captures one or two squares diagonally, leaping over any intervening piece (unblockable). It may also cross to Level 1 or Level 3 via a space diagonal: one diagonal step on Level 2 followed by one level up or down.</p>
 <p>On Level 1 or Level 3, the Hero may only move or capture back to Level 2 via a space diagonal from its current square.</p>
-<h4>Thief (T)</h4>
+<h4 id="thief-t">Thief (T)</h4>
 <p>Moves and captures as a chess Bishop: any number of squares diagonally. Restricted to Level 2.</p>
-<h4>Cleric ©</h4>
+<h4 id="cleric">Cleric ©</h4>
 <p>Moves and captures exactly one square in any direction (orthogonally or diagonally) on whichever board it occupies. It may also move or capture to the square directly above or below it on the adjacent level.</p>
-<h4>Mage (M)</h4>
+<h4 id="mage-m">Mage (M)</h4>
 <p>On Level 2, the Mage moves and captures as a chess Queen: any number of squares orthogonally or diagonally. It may also step directly to the square above it (Level 3) or below it (Level 1).</p>
 <p>On Level 1 or Level 3, the Mage may only move or capture one square orthogonally on that board. It may also move or capture one or two levels straight up or down from its position. When moving two levels (Level 1 to Level 3 or vice versa in a single move), the Level 2 square between them must be empty; the Mage cannot leap over an occupied middle-board square.</p>
-<h4>King (K)</h4>
+<h4 id="king-k">King (K)</h4>
 <p>On Level 2, the King moves and captures one square in any direction and may also step to the square directly above it (Level 3) or directly below it (Level 1). The King is in check whenever it could be captured.</p>
 <p>On Level 1 or Level 3, the King’s only legal action is to move or capture back to Level 2, returning to the square directly above or below. The King remains vulnerable to check on outer boards. No castling.</p>
-<h4>Paladin (P)</h4>
+<h4 id="paladin-p">Paladin (P)</h4>
 <p>On Level 2, the Paladin moves and captures as a chess King (one step in any direction) or a chess Knight (an unblockable (1,2) leap).</p>
 <p>On Level 1 or Level 3, the Paladin moves and captures as a chess King only.</p>
 <p>From any level, the Paladin may make an unblockable three-dimensional knight move: two squares in any direction followed by one square perpendicularly (or one then two), crossing one or two levels. This cross-level move may be either a move or a capture.</p>
 <hr>
-<h3>Level 1 Pieces — Subterranean</h3>
-<h4>Dwarf (D)</h4>
+<h3 id="level-1-pieces-subterranean">Level 1 Pieces — Subterranean</h3>
+<h4 id="dwarf-d">Dwarf (D)</h4>
 <p>On Level 1 or Level 2, the Dwarf moves without capturing one square straight forward or one square sideways. It captures one square diagonally forward. It cannot move backward.</p>
 <p>Cross-level: the Dwarf captures upward from Level 1 to Level 2 by moving one square straight up. It moves downward from Level 2 to Level 1 without capturing. It has no promotion.</p>
-<h4>Basilisk (B)</h4>
+<h4 id="basilisk-b">Basilisk (B)</h4>
 <p>Restricted to Level 1. The Basilisk moves or captures one square diagonally forward or one square straight forward. It may move (but not capture) one square straight backward.</p>
 <p><strong>Freeze:</strong> any enemy piece occupying the Level 2 square directly above a Basilisk is automatically immobilised and cannot move for as long as the Basilisk remains on that square. The freeze takes effect immediately when a piece moves onto the square above an existing Basilisk, and lifts the moment the Basilisk moves or is captured.</p>
-<h4>Elemental (E)</h4>
+<h4 id="elemental-e">Elemental (E)</h4>
 <p>On Level 1, the Elemental moves or captures one or two squares orthogonally. It cannot leap over an occupied square when moving two squares. It may also move one square diagonally without capturing.</p>
 <p>Cross-level capture from Level 1 to Level 2: the Elemental moves one square orthogonally on Level 1 and then one square straight up to Level 2. The Level 1 square it passes through must be empty.</p>
 <p>On Level 2, the Elemental may only return to Level 1: it moves one square straight down and then one square orthogonally on Level 1. The Level 1 square directly below must be empty. This return may be a capture if an enemy piece occupies the final destination.</p>
 <hr>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Designed by Gary Gygax. Published in <em>Dragon Magazine</em> No. 100 (TSR Inc., August 1985), pages 34–40. Game rules are not subject to copyright.</p>
 <p>Authoritative secondary source: Edward Jackman with Hans Bodlaender, <em>Dragonchess</em>, chessvariants.com (1995–1996), which addresses ambiguities in Gygax’s original description. This rulebook follows chessvariants.com where it conflicts with later re-descriptions, including a naming correction for Hero, Thief, Cleric, and Paladin relative to the Wikipedia article on Dragonchess.</p>
 

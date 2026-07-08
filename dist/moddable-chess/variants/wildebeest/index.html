@@ -52,9 +52,9 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Standard Wildebeest Chess</h2>
+<h2 id="standard-wildebeest-chess">Standard Wildebeest Chess</h2>
 <p>Played on an <strong>11×10 board</strong> (files a–k, ranks 1–10). Each side has 11 pawns and an expanded back rank including two new fairy pieces.</p>
-<h3>Starting Position</h3>
+<h3 id="starting-position">Starting Position</h3>
 <pre><code>r n c w q k w c n r  (rank 10 — Black)
 p p p p p p p p p p p  (rank 9)
 . . . . . . . . . . .  (ranks 8–3)
@@ -67,8 +67,8 @@ P P P P P P P P P P P  (rank 2)
 R N C W Q K W C N R  (rank 1 — White)
 </code></pre>
 <p><strong>Back rank (a–k):</strong> Rook, Knight, Camel, Wildebeest, Queen, King, Wildebeest, Camel, Knight, Rook (11 squares, no bishop slot — Camels fill that role).</p>
-<h3>Pieces</h3>
-<h4>Camel ©</h4>
+<h3 id="pieces">Pieces</h3>
+<h4 id="camel">Camel ©</h4>
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
@@ -96,7 +96,7 @@ R N C W Q K W C N R  (rank 1 — White)
 </tbody>
 </table></div>
 <p>The Camel is the (3,1) analogue of the Knight (2,1). With two Camels per side (one on each colour binding), both colours of Camel square are covered.</p>
-<h4>Wildebeest (W)</h4>
+<h4 id="wildebeest-w">Wildebeest (W)</h4>
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
@@ -124,9 +124,9 @@ R N C W Q K W C N R  (rank 1 — White)
 </tbody>
 </table></div>
 <p>The Wildebeest is roughly equivalent in value to a rook.</p>
-<h3>Standard Pieces</h3>
+<h3 id="standard-pieces">Standard Pieces</h3>
 <p>Rooks, Knights, Queen, and King move and capture as in standard chess.</p>
-<h3>Pawns</h3>
+<h3 id="pawns">Pawns</h3>
 <ul class="rules">
 <li><strong>11 pawns per side</strong> (one per file, a–k)</li>
 <li>May advance one or two squares from starting position (rank 2 / rank 9)</li>
@@ -134,13 +134,13 @@ R N C W Q K W C N R  (rank 1 — White)
 <li><strong>En passant</strong> applies</li>
 <li><strong>Promotion</strong> on ranks 10 (Black) / 1 (White) to: Queen, Rook, Camel, Knight, or Wildebeest</li>
 </ul>
-<h3>Castling</h3>
+<h3 id="castling">Castling</h3>
 <p>Castling is <strong>not available</strong> in the standard Wildebeest Chess setup (the King is not adjacent to a corner Rook in the same way; no castling rule has been defined by Schmittberger for this layout).</p>
-<h3>Win Condition</h3>
+<h3 id="win-condition">Win Condition</h3>
 <p>Checkmate the opponent’s King. Stalemate = draw.</p>
-<h3>Engine Notes</h3>
+<h3 id="engine-notes">Engine Notes</h3>
 <p>Implemented in: Jocly (open source, JavaScript), zrflib (Zillions of Games), chess-programming wiki examples. FEN: standard coordinate system extended to 11 files (<code>a</code>–<code>k</code>). The board is 11 × 10; rank and file notation follows the same conventions as standard chess.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Wildebeest Chess designed by R. Wayne Schmittberger. Published in <em>New Rules for Classic Games</em> (Wiley, 1992). Rules described as public domain by multiple open-source implementations (Jocly, zrflib). Primary sources: Wikipedia <em>(Wildebeest chess)</em>; Jocly source (<code>wildebeest.js</code>).</p>
 
 </div>

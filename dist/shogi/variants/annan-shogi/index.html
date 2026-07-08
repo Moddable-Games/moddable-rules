@@ -52,9 +52,9 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Overview</h2>
+<h2 id="overview">Overview</h2>
 <p>Annan Shogi (安南将棋), also called Korean Shogi, is a popular Shogi variant in Japan. All standard Shogi rules apply with one key change: each piece borrows the movement of the friendly piece immediately behind it.</p>
-<h2>Setup</h2>
+<h2 id="setup">Setup</h2>
 <p>Nearly identical to standard Shogi, but the pawn in front of each player’s Rook and the pawn in front of each player’s Bishop are each shifted one rank toward the center. This prevents those pawns from wielding sliding-piece power on the very first move.</p>
 <pre><code>SFEN: lnsgkgsnl/1r5b1/p1ppppp1p/1p5p1/9/1P5P1/P1PPPPP1P/1B5R1/LNSGKGSNL b - 1
 </code></pre>
@@ -186,7 +186,7 @@
 </tbody>
 </table></div>
 <p>☗ = White (Gote). ☙ = Black (Sente). White’s displaced pawns are at d8 and d2; Black’s displaced pawns are at f8 and f2.</p>
-<h2>Borrowed Movement</h2>
+<h2 id="borrowed-movement">Borrowed Movement</h2>
 <p>When a piece has a friendly piece on the square directly behind it (one rank toward that player’s home side), the front piece moves and captures exactly like the rear piece instead of its own. The rear piece is unaffected.</p>
 <ul class="rules">
 <li>A piece with <strong>no friendly piece directly behind it</strong> moves with its own normal movement.</li>
@@ -194,18 +194,18 @@
 <li>Borrowed movement stacks through the chain: if piece A is behind piece B which is behind piece C, piece C borrows from B and B borrows from A, but C does not borrow from A.</li>
 </ul>
 <p><strong>Example:</strong> A Pawn with a Rook directly behind it moves and attacks along the full rank or file like a Rook, for as long as the Rook remains on that square.</p>
-<h2>Differences from Standard Shogi</h2>
+<h2 id="differences-from-standard-shogi">Differences from Standard Shogi</h2>
 <p><strong>Multiple pawns on a file:</strong> A Pawn may maneuver (via borrowed lateral movement) onto a file already holding a friendly Pawn; such a position is legal. However, dropping a Pawn onto a file that already contains a friendly Pawn remains illegal.</p>
 <p><strong>Far-rank drops and moves:</strong> In standard Shogi, Pawns, Lances, and Knights cannot be placed on squares where they would be permanently immobile. In Annan Shogi, because borrowed movement can provide an escape, these pieces may be moved to or dropped onto any square, including ranks where they would normally lack movement.</p>
 <p><strong>Resolving check:</strong> Check may be resolved in three ways: (1) move the King, (2) capture or block the checking piece, or (3) capture the piece directly behind the checker, provided doing so eliminates the check by removing the borrowed movement that produced it.</p>
-<h2>Drops</h2>
+<h2 id="drops">Drops</h2>
 <p>Standard Shogi drop rules with the following modifications:</p>
 <ul class="rules">
 <li>Pawns, Knights, and Lances may be dropped onto any rank.</li>
 <li>A Pawn may not be dropped onto a file that already contains a friendly Pawn (nifu prohibition applies to drops only, not to moved pieces).</li>
 <li>A drop that delivers immediate checkmate with a Pawn (uchifu-zume) remains illegal.</li>
 </ul>
-<h2>Promotion</h2>
+<h2 id="promotion">Promotion</h2>
 <p>Standard Shogi promotion rules apply. A piece may promote upon entering, leaving, or moving within the opponent’s promotion zone (the three ranks farthest from the owning player). Promotion is optional. Pieces that have borrowed movement to reach a far rank are not forced to promote simply because they reached it; the promotion option arises normally.</p>
 <p>Promotion table:</p>
 <div class="table-wrap"><table class="t">

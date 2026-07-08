@@ -52,9 +52,9 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Orda Mirror</h2>
+<h2 id="orda-mirror">Orda Mirror</h2>
 <p>Designed by Corey Clark (2020). Where Orda Chess pits the standard FIDE Kingdom against the Mongol Horde, Orda Mirror gives both players an identical Horde army. The defining characteristic of all Horde pieces is move–capture asymmetry: every non-royal piece <strong>moves</strong> as a Knight but <strong>captures</strong> using a different method specific to that piece type.</p>
-<h3>The Horde Army</h3>
+<h3 id="the-horde-army">The Horde Army</h3>
 <p>Both players command the same pieces:</p>
 <div class="table-wrap"><table class="t">
 <thead>
@@ -105,7 +105,7 @@
 </tbody>
 </table></div>
 <p>All non-royal pieces (Yurt, Lancer, Falcon, Keshig) make the same Knight jump to reach their destination. What distinguishes them is how they capture upon arrival: only pieces on a square reachable by the Knight jump can be captured, but the specific piece type determines the capture.</p>
-<h3>Move vs. Capture Distinction</h3>
+<h3 id="move-vs-capture-distinction">Move vs. Capture Distinction</h3>
 <p>To capture, the piece must be able to reach the target’s square via a Knight jump (2+1 in any orientation). The piece then removes the target using its designated capture method as a targeting filter:</p>
 <ul class="rules">
 <li><strong>Lancer:</strong> Can only capture pieces on squares reachable by a Knight jump where the line from the Lancer to the target is orthogonal — i.e., the capture must be on the same rank or file. In practice, among all squares a Knight can jump to, the Lancer only captures those on the same rank or file as the Lancer’s current position.</li>
@@ -114,7 +114,7 @@
 <li><strong>Yurt:</strong> Among Knight-reachable squares, captures pieces reachable in any direction without restriction — effectively can capture any piece on a Knight-jump square.</li>
 </ul>
 <p><em>Practical result:</em> Pieces always move like a Knight. Their capture subset restricts which of the 8 Knight-jump destinations they can actually take a piece from.</p>
-<h3>Starting Position</h3>
+<h3 id="starting-position">Starting Position</h3>
 <p>Both players use the following arrangement (White on ranks 1–2, Black on ranks 7–8):</p>
 <pre><code>8 La Ke Fa Yu Kg Yu Fa Ke La
 7 Pa Pa Pa Pa Pa Pa Pa Pa
@@ -128,19 +128,19 @@
 <p>Rank 1 from a to h: Lancer, Keshig, Falcon, Yurt, Khagan, Yurt, Falcon, Keshig, Lancer — wait, that is 9 pieces. Corrected:</p>
 <p>Rank 1 from a to h (8 pieces): Lancer(a), Keshig(b), Falcon©, Yurt(d), Khagan(e), Falcon(f), Keshig(g), Lancer(h).</p>
 <p>The two Yurts are actually only 1 — the Yurt is singular (the most powerful piece, Queen equivalent). The correct back rank: Lancer, Keshig, Falcon, Yurt, Khagan, Falcon, Keshig, Lancer.</p>
-<h3>Check and Checkmate</h3>
+<h3 id="check-and-checkmate">Check and Checkmate</h3>
 <p>The Khagan is the royal piece. Standard check and checkmate rules apply: a player whose Khagan is under attack must resolve it; inability to do so is checkmate, and that player loses.</p>
 <p>A Khagan may not move into a square attacked by any opponent piece. Because Horde pieces attack differently from how they move (Falcons attack diagonals, Lancers attack orthogonals), calculating attacked squares requires knowing each piece’s capture method rather than its movement.</p>
-<h3>Pawn Rules</h3>
+<h3 id="pawn-rules">Pawn Rules</h3>
 <ul class="rules">
 <li>Pawns advance 1 square (or 2 from starting rank).</li>
 <li>Pawns capture diagonally forward as normal.</li>
 <li>En passant applies.</li>
 <li>Pawns reaching the final rank promote to any Horde piece (Yurt, Lancer, Falcon, or Keshig).</li>
 </ul>
-<h3>Stalemate</h3>
+<h3 id="stalemate">Stalemate</h3>
 <p>Standard: stalemate is a draw.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.</p>
 
 </div>

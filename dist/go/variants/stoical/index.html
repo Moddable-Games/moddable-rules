@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Stoical Go</h2>
+<h2 id="stoical-go">Stoical Go</h2>
 <p>A single rule addition transforms the game: you cannot capture opponent stones on any turn immediately following a turn where your opponent captured your stones. This forced restraint prevents immediate retaliation and creates a rhythm of attack and recovery unique to this variant.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="438" height="438" viewBox="0 0 438 438">
 <title>Go — 19×19 board (empty)</title>
@@ -60,25 +60,25 @@
 <text x="39" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">A</text><text x="59" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">B</text><text x="79" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">C</text><text x="99" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">D</text><text x="119" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">E</text><text x="139" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">F</text><text x="159" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">G</text><text x="179" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">H</text><text x="199" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">J</text><text x="219" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">K</text><text x="239" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">L</text><text x="259" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">M</text><text x="279" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">N</text><text x="299" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">O</text><text x="319" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">P</text><text x="339" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">Q</text><text x="359" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">R</text><text x="379" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">S</text><text x="399" y="429.6" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">T</text><text x="12" y="43.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">19</text><text x="12" y="63.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">18</text><text x="12" y="83.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">17</text><text x="12" y="103.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">16</text><text x="12" y="123.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">15</text><text x="12" y="143.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">14</text><text x="12" y="163.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">13</text><text x="12" y="183.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">12</text><text x="12" y="203.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">11</text><text x="12" y="223.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">10</text><text x="12" y="243.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">9</text><text x="12" y="263.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">8</text><text x="12" y="283.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">7</text><text x="12" y="303.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">6</text><text x="12" y="323.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">5</text><text x="12" y="343.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">4</text><text x="12" y="363.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">3</text><text x="12" y="383.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">2</text><text x="12" y="403.55" text-anchor="middle" font-size="13" fill="#5a4020" font-family="sans-serif">1</text>
 </svg>
 <p class="diagram-caption">Stoical Go — standard board</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p>Standard 19×19 board (or any size). Board starts empty. Black plays first. Standard komi.</p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <p>All standard Go rules apply, with one addition:</p>
 <ul class="rules">
 <li><strong>Stoical restriction:</strong> If your opponent captured one or more of your stones on their last turn, you may NOT make a capture on your next turn. You must play a non-capturing move (or pass).</li>
 <li><strong>Delayed response:</strong> The restriction lasts only one turn. On your following turn, you may capture normally again.</li>
 <li><strong>Ko interaction:</strong> The stoical restriction is separate from the ko rule. Both apply independently.</li>
 </ul>
-<h3>Scoring</h3>
+<h3 id="scoring">Scoring</h3>
 <p>Standard scoring (area or territory). Standard komi.</p>
-<h3>Strategy</h3>
+<h3 id="strategy">Strategy</h3>
 <p>The stoical restriction eliminates the back-and-forth capture exchanges that define much of standard Go tactics. When your opponent captures, you cannot immediately recapture or launch a counter-capture — you must wait a full turn. This means:</p>
 <ul class="rules">
 <li>Attacks become more committal. Once you capture, your opponent gets a free “safe” turn.</li>
 <li>Defence becomes stronger. A player under attack knows that after losing stones, they get one turn of guaranteed safety.</li>
 <li>Ko fights change dramatically. The usual ko threat/response cycle is disrupted by the stoical restriction.</li>
 </ul>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Modern variant. Public domain. Source: Sensei’s Library.</p>
 
 </div>

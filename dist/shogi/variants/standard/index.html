@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Standard Shogi</h2>
+<h2 id="standard-shogi">Standard Shogi</h2>
 <p>The full form of Japan’s classic strategy game, played since at least the 10th century. The board is 9×9 and each player commands 20 pieces. The drop mechanic (re-entering captured pieces as your own) defines every decision from opening to endgame.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
 <title>Standard Shogi — starting position</title>
@@ -61,7 +61,7 @@
 <use href="#piece-l" x="0" y="0" width="40" height="40"/><use href="#piece-n" x="40" y="0" width="40" height="40"/><use href="#piece-s" x="80" y="0" width="40" height="40"/><use href="#piece-g" x="120" y="0" width="40" height="40"/><use href="#piece-k" x="160" y="0" width="40" height="40"/><use href="#piece-g" x="200" y="0" width="40" height="40"/><use href="#piece-s" x="240" y="0" width="40" height="40"/><use href="#piece-n" x="280" y="0" width="40" height="40"/><use href="#piece-l" x="320" y="0" width="40" height="40"/><use href="#piece-r" x="40" y="40" width="40" height="40"/><use href="#piece-b" x="280" y="40" width="40" height="40"/><use href="#piece-p" x="0" y="80" width="40" height="40"/><use href="#piece-p" x="40" y="80" width="40" height="40"/><use href="#piece-p" x="80" y="80" width="40" height="40"/><use href="#piece-p" x="120" y="80" width="40" height="40"/><use href="#piece-p" x="160" y="80" width="40" height="40"/><use href="#piece-p" x="200" y="80" width="40" height="40"/><use href="#piece-p" x="240" y="80" width="40" height="40"/><use href="#piece-p" x="280" y="80" width="40" height="40"/><use href="#piece-p" x="320" y="80" width="40" height="40"/><use href="#piece-P" x="0" y="240" width="40" height="40"/><use href="#piece-P" x="40" y="240" width="40" height="40"/><use href="#piece-P" x="80" y="240" width="40" height="40"/><use href="#piece-P" x="120" y="240" width="40" height="40"/><use href="#piece-P" x="160" y="240" width="40" height="40"/><use href="#piece-P" x="200" y="240" width="40" height="40"/><use href="#piece-P" x="240" y="240" width="40" height="40"/><use href="#piece-P" x="280" y="240" width="40" height="40"/><use href="#piece-P" x="320" y="240" width="40" height="40"/><use href="#piece-B" x="40" y="280" width="40" height="40"/><use href="#piece-R" x="280" y="280" width="40" height="40"/><use href="#piece-L" x="0" y="320" width="40" height="40"/><use href="#piece-N" x="40" y="320" width="40" height="40"/><use href="#piece-S" x="80" y="320" width="40" height="40"/><use href="#piece-G" x="120" y="320" width="40" height="40"/><use href="#piece-K" x="160" y="320" width="40" height="40"/><use href="#piece-G" x="200" y="320" width="40" height="40"/><use href="#piece-S" x="240" y="320" width="40" height="40"/><use href="#piece-N" x="280" y="320" width="40" height="40"/><use href="#piece-L" x="320" y="320" width="40" height="40"/>
 </svg>
 <p class="diagram-caption">Standard Shogi — starting position</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> 9×9 grid, 81 squares. Traditional boards use natural wood throughout, with no alternating square colours.</p>
 <p><strong>Pieces per player:</strong> 20, in eight types.</p>
 <p><strong>Starting position:</strong></p>
@@ -104,7 +104,7 @@
 </tbody>
 </table></div>
 <p>Black (Sente) moves first.</p>
-<h3>Pieces</h3>
+<h3 id="pieces">Pieces</h3>
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
@@ -156,7 +156,7 @@
 </tr>
 </tbody>
 </table></div>
-<h3>Promotion</h3>
+<h3 id="promotion">Promotion</h3>
 <p>The promotion zone is the three ranks farthest from each player (the opponent’s back three ranks). A piece may promote when it moves into, out of, or entirely within the promotion zone. Promotion is optional unless the piece would be stranded with no legal move: Pawns and Lances must promote at the final rank; Knights must promote at either of the final two ranks.</p>
 <p><strong>Promoted pieces:</strong></p>
 <div class="table-wrap"><table class="t">
@@ -201,7 +201,7 @@
 </tbody>
 </table></div>
 <p>Kings and Gold Generals do not promote.</p>
-<h3>The Drop Mechanic</h3>
+<h3 id="the-drop-mechanic">The Drop Mechanic</h3>
 <p>When a player captures an opponent’s piece, that piece is held in hand. On any turn, instead of moving a piece on the board, the player may drop a piece from hand onto any empty square. Three restrictions apply:</p>
 <ol>
 <li><strong>Nifu (二歩):</strong> A Pawn may not be dropped on a file that already contains an unpromoted friendly Pawn.</li>
@@ -209,12 +209,12 @@
 <li><strong>No dead-end drops:</strong> Pawns and Lances cannot be dropped on the final rank. Knights cannot be dropped on the final two ranks. No legal move would exist from those squares.</li>
 </ol>
 <p>Pieces always drop unpromoted, even if they were promoted when captured.</p>
-<h3>Win Condition</h3>
+<h3 id="win-condition">Win Condition</h3>
 <p>Checkmate the opponent’s King: attack the King such that no legal move can escape check. There is no stalemate rule in Shogi. A player with no legal move loses.</p>
-<h3>Draws</h3>
+<h3 id="draws">Draws</h3>
 <p><strong>Sennichite (千日手):</strong> The same position (including pieces in hand) occurs four times with the same player to move. The game is a draw. If the repetition is caused by perpetual check, the checking side loses.</p>
 <p><strong>Impasse (入玉 / 持将棋):</strong> Both Kings advance into the opponent’s promotion zone and neither can be mated. Count material value: Rooks and Bishops score 5 points each; all other pieces score 1 point each (Kings excluded). A player with fewer than 24 points loses. If both players reach 24 or more points, the game is a draw.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Standard Shogi. Ancient origin; public domain. Sources: GNU Shogi Manual (GNU Project, public domain); mastersofgames.com rules reference; pychess.org variants documentation.</p>
 
 </div>

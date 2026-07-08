@@ -52,12 +52,12 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Fanorona Chess</h2>
+<h2 id="fanorona-chess">Fanorona Chess</h2>
 <p>Fanorona Chess is a chess variant by Peter Aronson (2004) played on the double Alquerque board used for <strong>Fanorona</strong> — the traditional strategy game of Madagascar. The key innovation: captures follow Fanorona’s <strong>approach and withdrawal</strong> mechanics instead of chess’s normal replacement capture.</p>
-<h3>The Board</h3>
+<h3 id="the-board">The Board</h3>
 <p>A 5×9 double Alquerque board (45 points total). Only <strong>every other point</strong> has diagonal connectivity — points alternate between those that are connected diagonally (have 8 neighbours including diagonals) and those that are connected orthogonally only (have 4 neighbours, no diagonals). Pieces may only move along existing connecting lines.</p>
 <p>Effectively: think of the board as a grid where the diagonal moves are selectively available, creating a rich tactical texture where the type of square your piece occupies matters.</p>
-<h3>Starting Position</h3>
+<h3 id="starting-position">Starting Position</h3>
 <p><strong>Yellow (standard setup):</strong></p>
 <ul class="rules">
 <li>Rank 1: Knight, Rook, King, Rook, Knight (a1–e1)</li>
@@ -66,7 +66,7 @@
 </ul>
 <p><strong>Red:</strong> Ranks 9, 8, 7 (mirror).</p>
 <p><em>Alternate setup: Bishop, Rook, King, Rook, Bishop (rank 1); Knight, [empty], Queen, [empty], Knight (rank 2). Allows all pieces to move on the first turn but was found inferior in testing.</em></p>
-<h3>Movement</h3>
+<h3 id="movement">Movement</h3>
 <p>All pieces move along the connecting lines of the board (ortho + diagonal where available). Pieces cannot enter a point not connected by a line.</p>
 <ul class="rules">
 <li><strong>King:</strong> 1 step in any connected direction. May make a non-capturing Knight’s move as its <strong>first move</strong> if not in check</li>
@@ -74,7 +74,7 @@
 <li><strong>Knight:</strong> traces a path (not a leap) — 1 step diag then 1 step ortho outward, OR 1 step ortho then 1 step diag outward; first square may be occupied</li>
 <li><strong>Pawn:</strong> 1 step forward or forward-diagonally (where lines exist); no double step; no en passant</li>
 </ul>
-<h3>Capture: Approach and Withdrawal</h3>
+<h3 id="capture-approach-and-withdrawal">Capture: Approach and Withdrawal</h3>
 <p>This is the core mechanic. <strong>Replacement capture does not exist</strong> — pieces cannot move onto occupied squares.</p>
 <ul class="rules">
 <li><strong>Approach capture:</strong> when a piece moves toward an adjacent enemy piece (in the same direction of movement), that enemy piece is captured</li>
@@ -83,7 +83,7 @@
 <li>Only the <strong>first piece</strong> in the line is captured (not the entire line, as in traditional Fanorona)</li>
 </ul>
 <p><strong>Capture is mandatory</strong> if any capture is possible with the piece being moved. A player is not required to choose a move that enables a capture, but if the piece they move could capture, they must do so.</p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <ul class="rules">
 <li><strong>No castling</strong></li>
 <li><strong>No en passant</strong></li>
@@ -92,10 +92,10 @@
 <li><strong>Stalemate:</strong> a stalemated player <strong>loses</strong> (not a draw)</li>
 <li>Win: Checkmate the opponent’s King</li>
 </ul>
-<h3>Double Fanorona Chess</h3>
+<h3 id="double-fanorona-chess">Double Fanorona Chess</h3>
 <p>A larger variant by Peter Aronson using a 9×9 quadruple Alquerque board. Adds the <strong>Chancellor</strong> (moves as Rook or Knight) and allows initial double Pawn steps (non-capturing only).</p>
 <p>Setup: Rook, Knight, Bishop, Queen, King, Chancellor, Bishop, Knight, Rook on rank 1; Pawns on rank 2.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Fanorona Chess was created by Peter Aronson, 2004. Source: chessvariants.com/other.dir/fanorona-chess.html</p>
 
 </div>

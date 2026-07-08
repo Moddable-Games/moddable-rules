@@ -52,9 +52,9 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>FreeCell</h2>
+<h2 id="freecell">FreeCell</h2>
 <p>FreeCell is a solitaire card game where all 52 cards are dealt face-up at the start. Because every card is visible, almost every deal is solvable with optimal play. The game rewards careful planning over multiple moves.</p>
-<h3>Layout</h3>
+<h3 id="layout">Layout</h3>
 <p>Deal all 52 cards face-up into <strong>8 tableau columns</strong>:</p>
 <ul class="rules">
 <li>Columns 1–4: 7 cards each (28 cards)</li>
@@ -65,9 +65,9 @@
 <li><strong>4 free cells</strong> (top left): single-card temporary storage, empty at start</li>
 <li><strong>4 foundations</strong> (top right): one per suit, empty at start</li>
 </ul>
-<h3>Foundations</h3>
+<h3 id="foundations">Foundations</h3>
 <p>Build each foundation up by suit from Ace to King (A→2→3→…→K). Cards moved to a foundation may not be moved back.</p>
-<h3>Tableau Play</h3>
+<h3 id="tableau-play">Tableau Play</h3>
 <p>Only the <strong>bottom card</strong> of each column is available to move. A card may be moved to:</p>
 <ul class="rules">
 <li>A <strong>tableau column</strong> if it is one rank lower and opposite colour (red on black, black on red)</li>
@@ -76,9 +76,9 @@
 </ul>
 <p>A card in a free cell may be moved to a tableau column (following the colour/rank rule), to a foundation, or to an empty column.</p>
 <p>Any card may be moved to an <strong>empty tableau column</strong>.</p>
-<h3>Supermove</h3>
+<h3 id="supermove">Supermove</h3>
 <p>A sequence of cards in alternating colour and descending rank may be moved as a unit if there is enough free space. Maximum cards movable as a unit = (free cells available + 1) × 2^(empty tableau columns). Most software handles this automatically.</p>
-<h3>Winning</h3>
+<h3 id="winning">Winning</h3>
 <p>All 52 cards moved to the four foundations (each built from Ace to King by suit). The game is lost when no legal moves remain.</p>
 
 </div>

@@ -52,18 +52,18 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Chennis</h2>
+<h2 id="chennis">Chennis</h2>
 <p>Designed by Corey Clark. Chennis adapts chess to a tennis-themed format on a 7×7 board. The net divides the board between ranks 4 and 5. Victory is achieved by getting a Pawn to the opponent’s back rank, not by checkmate — though check and piece capture remain mechanically active.</p>
-<h3>Board Layout</h3>
+<h3 id="board-layout">Board Layout</h3>
 <p>The board is 7×7 (files a–g, ranks 1–7). A net runs across the middle of the board, forming a barrier between ranks 4 and 5. This net restricts most pieces to their own half unless they can jump (Knights) or the rules explicitly permit crossing.</p>
-<h3>Win Condition</h3>
+<h3 id="win-condition">Win Condition</h3>
 <p>The game is won by advancing any Pawn to the opponent’s back rank:</p>
 <ul class="rules">
 <li>White wins by placing a Pawn on rank 7.</li>
 <li>Black wins by placing a Pawn on rank 1.</li>
 </ul>
 <p>Checkmate is NOT a win condition in Chennis. However, check and piece capture are legal actions — they affect material balance and legal moves.</p>
-<h3>Pieces</h3>
+<h3 id="pieces">Pieces</h3>
 <div class="table-wrap"><table class="t">
 <thead>
 <tr>
@@ -112,7 +112,7 @@
 </tr>
 </tbody>
 </table></div>
-<h3>The Net Rule</h3>
+<h3 id="the-net-rule">The Net Rule</h3>
 <p>All pieces except the Knight and Pawn are confined to their half of the board and may not slide, step, or capture across the net boundary:</p>
 <ul class="rules">
 <li>White’s pieces (except Knight and Pawn) are confined to ranks 1–4.</li>
@@ -121,17 +121,17 @@
 <li>A piece cannot capture across the net unless it is a Knight.</li>
 </ul>
 <p>Note: rank 4 is accessible to both sides. The net prevents crossing rank 4 → rank 5 (or 5 → 4 for sliding pieces).</p>
-<h3>Check and the King</h3>
+<h3 id="check-and-the-king">Check and the King</h3>
 <p>The King may be placed in check by opponent pieces, including Knights that have crossed the net. The owner must resolve any check on their turn, even though checkmate is not the win condition. If the King cannot escape check and has no legal moves, it is checkmated — this does NOT end the game in the standard sense. The game ends only when a Pawn reaches the opponent’s back rank.</p>
 <p>(If a player is checkmated and cannot resolve it, they have no legal move; the convention is that the game continues with the checkmated state as a loss for that player in most implementations, but the primary win condition remains the Pawn race.)</p>
-<h3>Pawn Rules</h3>
+<h3 id="pawn-rules">Pawn Rules</h3>
 <ul class="rules">
 <li>No double first move.</li>
 <li>No en passant.</li>
 <li>A Pawn reaching rank 7 (White) or rank 1 (Black) wins the game immediately — it does not promote.</li>
 <li>A Pawn at rank 4 may advance to rank 5 on its normal forward move; this constitutes crossing the net.</li>
 </ul>
-<h3>Starting Position</h3>
+<h3 id="starting-position">Starting Position</h3>
 <p>White (ranks 1–2):</p>
 <pre><code>2 Pa Pa Pa Pa Pa Pa Pa
 1  R  N  B  K  Q  B  N  R
@@ -139,7 +139,7 @@
 <p>Rank 1 from a to g: Rook, Knight, Bishop, King, Queen, Bishop, Knight, Rook.
 Rank 2: 7 Pawns.</p>
 <p>Black mirrors on ranks 6–7.</p>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Designed by Corey Clark. Published via Shogun of Games. Public domain rule set.</p>
 
 </div>

@@ -52,7 +52,7 @@
 <main id="main-content" class="content">
 <div class="section">
 
-<h2>Dameo</h2>
+<h2 id="dameo">Dameo</h2>
 <p>Invented by Christian Freeling in 2000. Dameo introduces two innovations to the draughts family: the phalanx, which lets a line of friendly pieces slide forward together as a unit, and a purely orthogonal capture system where all jumps go along ranks and files, never diagonally. The result is a game that rewards formation-building over the individual-piece tactics of most draughts variants.</p>
 <svg xmlns="http://www.w3.org/2000/svg" width="368" height="368" viewBox="0 0 368 368">
 <title>Dameo — starting position</title>
@@ -61,7 +61,7 @@
 <text x="44" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">a</text><text x="84" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">b</text><text x="124" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">c</text><text x="164" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">d</text><text x="204" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">e</text><text x="244" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">f</text><text x="284" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">g</text><text x="324" y="359.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">h</text><text x="12" y="48.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">8</text><text x="12" y="88.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">7</text><text x="12" y="128.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">6</text><text x="12" y="168.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">5</text><text x="12" y="208.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">4</text><text x="12" y="248.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">3</text><text x="12" y="288.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">2</text><text x="12" y="328.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace">1</text>
 </svg>
 <p class="diagram-caption">Dameo — starting position</p>
-<h3>Setup</h3>
+<h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> 8×8 board. Unlike most draughts variants, Dameo is played on <strong>all 64 squares</strong>, not just the dark ones.</p>
 <p><strong>Pieces:</strong> 18 men per player, arranged in a trapezoidal formation:</p>
 <ul class="rules">
@@ -71,13 +71,13 @@
 </ul>
 <p>White occupies rows 1–3. Black occupies rows 6–8 (mirror image).</p>
 <p><strong>First move:</strong> White moves first.</p>
-<h3>Rules</h3>
+<h3 id="rules">Rules</h3>
 <p><strong>Men movement:</strong></p>
 <p>Men move <strong>forward only</strong>, either straight ahead (orthogonally) or diagonally forward. They cannot move sideways or backward.</p>
 <p>In addition to single-step moves, a man may perform a <strong>linear move</strong>: if one or more friendly men are lined up directly behind it in a straight line (along a rank, file, or diagonal), the entire line slides forward by one square, provided the square at the front of the line is empty. A man cannot use a linear move to push into an occupied square.</p>
 <p><strong>King movement:</strong></p>
 <p>Kings move like queens in chess: any number of squares in any of the eight directions (orthogonal or diagonal), as long as the path is clear.</p>
-<h3>Capture</h3>
+<h3 id="capture">Capture</h3>
 <p><strong>All captures in Dameo are orthogonal only</strong>, along ranks and files, never diagonally.</p>
 <ul class="rules">
 <li>A man (or king) captures an adjacent opponent piece by jumping over it to the empty square directly beyond, along a rank or file.</li>
@@ -86,21 +86,21 @@
 <li><strong>Majority rule:</strong> When multiple capture sequences are available, the piece that can make the maximum number of captures must be used, and the longest sequence must be completed.</li>
 <li><strong>Delayed removal:</strong> Captured pieces are removed at the <strong>end of the entire multi-capture sequence</strong>, not after each individual jump. A piece that has been jumped but not yet removed still physically blocks the line and cannot be jumped again in the same sequence.</li>
 </ul>
-<h3>King Promotion</h3>
+<h3 id="king-promotion">King Promotion</h3>
 <p>When a man reaches the opponent’s back row (row 8 for White, row 1 for Black), it is promoted to a king at the end of its turn.</p>
 <ul class="rules">
 <li>If a man reaches the back row during a multi-capture sequence without stopping there, it is not promoted until it ends its turn on the back row.</li>
 </ul>
-<h3>Winning</h3>
+<h3 id="winning">Winning</h3>
 <p>A player wins when their opponent has no legal move: either all pieces have been captured, or all remaining pieces are blocked.</p>
-<h3>Draws</h3>
+<h3 id="draws">Draws</h3>
 <p>The game is drawn when:</p>
 <ul class="rules">
 <li>Both players agree.</li>
 <li>The same position occurs three times with the same player to move (not necessarily consecutive).</li>
 <li>Neither player can force a win.</li>
 </ul>
-<h3>Attribution</h3>
+<h3 id="attribution">Attribution</h3>
 <p>Dameo. Invented by Christian Freeling (2000). Rules in the public domain; game rules are not subject to copyright. Source: Wikipedia — Dameo article (CC-BY-SA 4.0).</p>
 
 </div>
