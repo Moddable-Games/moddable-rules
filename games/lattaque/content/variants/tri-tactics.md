@@ -1,7 +1,7 @@
 ---
 title: Tri-Tactics
 slug: tri-tactics
-board: "custom terrain board (combined land/sea/river, approx. 12 columns × 10 rows, bilaterally symmetric)"
+board: "12×12 (combined land/sea terrain)"
 players: "2"
 parent: lattaque
 win: "Occupy the opponent's H.Q. with a Land Infantry piece, OR occupy the opponent's Lake (Naval Base) with a Ship"
@@ -21,7 +21,7 @@ Two editions exist:
 
 ### Board
 
-A custom printed board combining land (green) and sea (blue), bilaterally symmetric. Each player’s half of the board contains an equal portion of both. Physical dimensions based on piece count: 5 setup rows per player × approximately 12 columns = approximately 60 squares per player’s setup zone, minus 2 reserved squares (H.Q. and Lake) = 58 available; with 56 pieces placed and 2 left empty.
+**12 columns (A–L) × 12 rows (1–12).** A custom printed board combining land (green) and sea (blue), bilaterally symmetric. Each player's half of the board contains an equal portion of both. The coastline is **irregular** (not a straight vertical line); the rules specify squares that are mostly-sea count as SEA, mostly-land as LAND.
 
 **Terrain types:**
 
@@ -29,16 +29,28 @@ A custom printed board combining land (green) and sea (blue), bilaterally symmet
 |---|---|
 | **LAND** | Green squares. Infantry and Artillery’s native element. |
 | **SEA** | Blue squares. Naval pieces’ native element. |
-| **RIVER** | Channel connecting the Sea to the Lake on each player’s side. Dynamically assigned: takes the element of whichever piece currently occupies it. |
-| **LAKE** | Player’s Naval Base. Victory capture point for Ships (including Submarine, excluding Flying Boat). Cannot be permanently occupied (see Lake rules). |
-| **H.Q.** | Player’s Headquarters. Victory capture point for Land Infantry pieces 1–5 only (Artillery cannot capture it). Cannot be permanently occupied. |
-| **COASTLINE** | The boundary between Land and Sea. Not a straight line. Squares that are mostly Sea = SEA squares; mostly Land = LAND squares. Governs special cross-element attack rules. |
+| **RIVER** | Channel connecting the Sea to the Lake on each player’s side. Takes the element of whichever piece currently occupies it. |
+| **LAKE** | Player’s Naval Base — 1 square. Victory capture point for Ships (including Submarine, excluding Flying Boat). Cannot be permanently occupied (max 1 move transit). |
+| **H.Q.** | Player’s Headquarters — 1 square. Victory capture point for Land Infantry (1–5) only. Cannot be permanently occupied. |
 
-**Key terrain notes for engine:**
-- H.Q. and Lake are on each player’s side of the board and are part of the setup zone but **cannot be occupied at setup or permanently during play**.
-- Setup: each player places 56 pieces on their nearest 5 rows, excluding H.Q. and Lake squares. Exactly 2 squares will be left empty.
-- River squares between players are open to all piece types; element assigned dynamically.
-- The Lake can only be reached by ships approaching via the River mouth from the Sea.
+**Approximate terrain layout (based on physical board):**
+
+The sea area on each player’s half occupies approximately **8 columns wide × 6 rows deep**, with the land on the remaining 4 columns. The coastline is irregular and expands: narrower at the front rank, wider toward the center of the board. H.Q. is in the center of each player’s back rank (front rank from their perspective) — column 6 (on the land side at the coastline). Each River is **4 squares long**, running from the sea area toward the Lake; the Lake is **1 square** at the end of the River.
+
+**Key squares (Player 1 perspective, rows 1–12 with row 1 = Player 1’s front rank):**
+
+| Feature | Square | Notes |
+|---------|--------|---------|
+| Player 1 H.Q. | F1 (col 6, row 1) | Land side; center of front rank |
+| Player 1 Lake (Naval Base) | Approx. B6 (col 2, row 6) | Sea side; 1 sq at end of River |
+| Player 1 River | Approx. B2–B5 (col 2, rows 2–5) | 4 squares; connects Sea to Lake |
+| Player 2 H.Q. | G12 (col 7, row 12) | Land side; center of back rank |
+| Player 2 Lake (Naval Base) | Approx. K7 (col 11, row 7) | Sea side; mirrored from Player 1 |
+| Player 2 River | Approx. K8–K11 (col 11, rows 8–11) | 4 squares; mirrored |
+
+> **Engine note:** The exact per-square terrain map requires measurement from the physical board (photos available). The above coordinates are the best approximation from available photo references. The coastline is the primary uncertainty; all other rules are exact.
+
+**Setup:** Each player places their 56 pieces face-down on their nearest 5 rows (rows 1–5 for Player 1; rows 8–12 for Player 2), excluding H.Q. and Lake squares. Exactly 2 squares per player will be left empty after placing all 56 pieces.
 
 ---
 
@@ -95,7 +107,7 @@ A custom printed board combining land (green) and sea (blue), bilaterally symmet
 
 - One square per turn: backwards, forwards, or sideways. **Never diagonally.**
 - Pieces move onto unoccupied squares only.
-- **Searchlight exception**: may move any number of squares in a straight orthogonal line, provided all intervening squares are vacant. This extended move may **only be used to attack a piece** (i.e., the destination must be adjacent to or occupied-by an enemy piece being attacked). Searchlights **may not** use the extended move as a positional move without attacking.
+- **Searchlight exception**: may move any number of squares in a straight orthogonal line, provided all intervening squares are vacant. This extended move may **only be used to attack a piece** (destination must be adjacent to an enemy piece being attacked). Searchlights **may not** use the extended move as a positional move without attacking.
 - Players alternate turns; one piece per turn.
 - First move settled by lot; no advantage to moving first.
 
@@ -108,7 +120,7 @@ A custom printed board combining land (green) and sea (blue), bilaterally symmet
 - Equal values: both pieces removed (**X**).
 - If a player declines to attack (“No Attack”), the opponent **cannot** attack that piece in return without first moving one of their own pieces. You must move a piece in order to attack.
 - A player cannot ask an opponent to declare a piece’s value without attacking.
-- Attacker has no inherent advantage — it is purely value-based.
+- Attacker has no inherent advantage — purely value-based.
 
 ---
 
@@ -116,13 +128,13 @@ A custom printed board combining land (green) and sea (blue), bilaterally symmet
 
 Pieces may move out of their native element for tactical purposes, but are **immediately forfeit (removed)** if attacked while out of element:
 
-- **Land piece (Infantry or Artillery) on Sea**, attacked by: ANY Naval piece, ANY Aircraft, or Searchlight → Land piece forfeit, no combat comparison.
-- **Naval piece (excluding Flying Boat) on Land**, attacked by: Infantry, Artillery, Aircraft, or Searchlight → Naval piece forfeit, no combat comparison.
+- **Land piece (Infantry or Artillery) on Sea**, attacked by: ANY Naval piece, ANY Aircraft, or Searchlight → Land piece forfeit.
+- **Naval piece (excluding Flying Boat) on Land**, attacked by: Infantry, Artillery, Aircraft, or Searchlight → Naval piece forfeit.
 
 **Exempt from forfeiture:**
 - Flying Boats: may go on land without out-of-element penalty.
 - Air Force pieces (Recon, Bomber, TSF): operate over both Land and Sea without penalty.
-- Searchlights: Auxiliary; no native element; immune to forfeiture.
+- Searchlights: no native element; immune to forfeiture.
 
 These forfeiture rules override the Value Table entirely.
 
@@ -130,9 +142,9 @@ These forfeiture rules override the Value Table entirely.
 
 ### The Lake (Naval Base)
 
-- **No permanent occupation**: a piece may move onto the Lake square but must move off again on its very next turn. Any piece remaining on the Lake for more than one move is forfeit and removed.
-- **Entry restriction**: to capture the opponent’s Lake, a Ship must enter from the **River mouth** and move up the River. A Ship that has gone on Land and returns to a River space **may not** then attack the Lake — it may only use the River to return to Sea.
-- **River combat**: while a Ship is on a River space, it captures all Land pieces (when attacked or attacking) **except Heavy Artillery** — i.e., Heavy Artillery beats Ships on River spaces regardless of comparative value.
+- **No permanent occupation**: a piece may move onto the Lake square but must move off on its very next turn. Any piece remaining on the Lake for more than one move is forfeit.
+- **Entry restriction**: to capture the opponent’s Lake, a Ship must enter from the **River mouth** and move up the River. A Ship that went on Land and returns to a River space **may not** then attack the Lake — it may only use the River to return to Sea.
+- **River combat**: while a Ship is on a River space, it captures all Land pieces (when attacked or attacking) **except Heavy Artillery** — Heavy Artillery beats Ships on River spaces.
 - **Naval victory**: only Ships (Destroyers, Cruisers, Battleships, Aircraft Carrier, Submarine) may capture the Lake. Flying Boats are **excluded**.
 
 ---
@@ -149,36 +161,36 @@ These forfeiture rules override the Value Table entirely.
 - River squares may be used by Land, Sea, or Air pieces.
 - The element of a River square is **dynamically determined** by whichever piece currently occupies it.
 - If a Land piece is on the River mouth, that square is Land, and its connection to the Sea counts as Coastline.
-- If a Ship is on a River square, that square is Sea, and Ship-on-River rules apply (beats all Land except HA).
+- If a Ship is on a River square, that square is Sea, and Ship-on-River rules apply.
 
 ---
 
 ### Coastline Rules
 
-- The Coastline is irregular. Squares classification: mostly-Sea squares = SEA; mostly-Land squares = LAND.
+- Squares mostly-Sea = SEA; mostly-Land = LAND.
 - **Cross-coastline attack (Ship vs Land or Land vs Ship)**: the **attacker** is forfeit and removed — EXCEPT:
   - Heavy Artillery attacking Ships across the Coastline: HA wins (ships forfeit). (**#** in table)
   - Ships attacking Anti-Aircraft Guns across the Coastline: Ships win (AA forfeit). (**+** in table)
-- **Anti-coastal-defence exception** (prevents impregnable land defence along coast): Bombers and Flying Boats may destroy Infantry 1–5 AND Field Artillery across the Coastline. (**&** in table)
-- **Aircraft vs Aircraft over Coastline**: when Flying Boats and Air Force (Recon, Bomber, TSF) are in conflict **across the Coastline**, nothing happens; both remain. (**\*** at coastline)
+- **Anti-coastal-defence exception**: Bombers and Flying Boats may destroy Infantry 1–5 AND Field Artillery across the Coastline. (**&** in table)
+- **Aircraft vs Aircraft over Coastline**: when Flying Boats and Air Force are in conflict across the Coastline, nothing happens; both remain. (**\*** at coastline)
 
 ---
 
 ### Searchlights: Special Rules
 
-- Can move any number of squares in a straight orthogonal line (not diagonal) to **attack only** — extended move forbidden as positional move.
-- Searchlights may operate on **Sea as well as Land** without penalty.
-- Searchlights count as attackers that can trigger out-of-element forfeiture.
-- From Value Table: Searchlights are defeated by Flying Boats (FB wins). Searchlights capture Reconnaissance Planes (value 1) and Battalions (value 1). All other combat results: see Value Table.
+- Can move any number of squares in a straight orthogonal line (not diagonal) to **attack only**.
+- May operate on **Sea as well as Land** without penalty.
+- Trigger out-of-element forfeiture when attacking out-of-element pieces.
+- From Value Table: defeated by Flying Boats (FB wins). Defeats Reconnaissance Planes (value 1) and Battalions (value 1).
 
 ---
 
-### Win Condition
+### Win Conditions
 
 **First player to achieve either of the following wins:**
 
-1. Occupy the opponent’s **H.Q.** square with a Land Infantry piece (Battalion 1, Brigade 2, Division 3, Army Corps 4, or Army 5). Artillery cannot capture H.Q.
-2. Occupy the opponent’s **Lake** square with a Ship (Destroyer 1, Cruiser 2, Battleship 3, Aircraft Carrier 4, or Submarine SM). Flying Boats cannot capture the Lake.
+1. Occupy the opponent’s **H.Q.** with a Land Infantry piece (Battalion 1, Brigade 2, Division 3, Army Corps 4, or Army 5). Artillery cannot capture H.Q.
+2. Occupy the opponent’s **Lake** with a Ship (Destroyer 1, Cruiser 2, Battleship 3, Aircraft Carrier 4, or Submarine SM). Flying Boats cannot capture the Lake.
 
 Only one base needs to be captured.
 
@@ -189,13 +201,13 @@ Only one base needs to be captured.
 Full cross-service combat resolution table. **Row = Attacker; Column = Defender.**
 
 Table key:
-- **[blank]** = nothing happens, both pieces remain (cannot fight in this pairing or context).
+- **[blank]** = nothing happens, both pieces remain.
 - **X** = both pieces removed.
 - **Piece ID** (e.g. `4`, `FA`, `SM`) = that piece wins; the other is removed.
-- **&** = Coastline special: Bomber or Flying Boat destroys Infantry (1–5) or Field Artillery across the Coastline. Not applicable in direct same-element combat.
-- **\*** = Element-conditional: Flying Boat wins over Recon/Bomber/TSF **on Sea**; Recon/Bomber/TSF win over Flying Boat **on Land**; nothing happens when **over the Coastline**.
-- **#** = River/Coastline special: pieces only conflict on a River space or with Coastline between them; Heavy Artillery sinks the Ship (ship removed).
-- **+** = River/Coastline special: pieces only conflict on a River space or with Coastline between them; Ship destroys the Anti-Aircraft Gun (AA removed).
+- **&** = Coastline special: Bomber or Flying Boat destroys Infantry (1–5) or Field Artillery across the Coastline.
+- **\*** = Element-conditional: Flying Boat wins over Recon/Bomber/TSF **on Sea**; Recon/Bomber/TSF win over Flying Boat **on Land**; nothing happens **over the Coastline**.
+- **#** = River/Coastline special: only in conflict on a River space or with Coastline between; Heavy Artillery sinks the Ship.
+- **+** = River/Coastline special: only in conflict on a River space or with Coastline between; Ship destroys the Anti-Aircraft Gun.
 - **FB** = Flying Boat wins.
 - **SM** = Submarine wins.
 
@@ -222,30 +234,14 @@ Aircraft Carrier 4|    |     |    |   |     |  + |    |  # |    |    |    |    |
 Searchlight SL    |  1 |     |    |   |     |    |    |    |  1 |    |    | FB |    |    |    |    |    |
 ```
 
-**Reading example**: Army Corps (4) attacks Field Artillery (FA) → row=Army Corps, column=FA → blank → nothing happens, both remain.
-
-**Key interactions to note for the engine:**
+**Key interactions summary for engine:**
 - Anti-Aircraft (AA) defeats all Air Force (Recon, Bomber, TSF, Flying Boat) in normal combat.
-- AA loses to Battalion (1) in direct infantry combat.
-- Infantry values 2–4 do not interact with AA in same-element combat (blank).
-- Heavy Artillery (HA) beats all Infantry and FA, ties HA, but loses to Bomber (2) and has the River/Coastline (#) rule vs Ships.
+- AA loses to Battalion (1) in direct combat; Infantry 2–4 do not interact with AA (blank).
+- Heavy Artillery (HA) beats all Infantry and FA, ties HA, loses to Bomber (2); has River/Coastline (#) rule vs Ships.
 - Flying Boat (FB) beats Submarines (SM) and Destroyers (1) in naval combat.
-- Submarine (SM) beats all other Ships (Cruiser, Battleship, Aircraft Carrier) but loses to Flying Boat.
-- Searchlight defeats Battalions (1) and Reconnaissance Planes (1); is defeated by Flying Boats (FB); cannot interact with most other pieces except via out-of-element forfeiture.
-- Field Artillery (FA) beats Infantry up to Brigade (2) but is destroyed by Division (3) (mutual destruction, X) and loses to Army Corps and above.
-- Division (3) vs Field Artillery (FA) → X (both removed).
-
----
-
-### Hints on Play (Historical / Flavour)
-
-From the original H.P. Gibson & Sons rulebook:
-- Group pieces in combined-arms clusters: one aircraft, one artillery, two infantry.
-- Fight the sea battle first; control of coastline enables Bomber/Flying Boat strikes on land.
-- Keep a Heavy Artillery piece near your Lake or River to defend against Ship incursions.
-- Reconnaissance Planes capture Searchlights; feel free to deploy Searchlights at sea.
-- Naval pieces may be hidden on land early-game; do not deploy Land pieces to sea (they will be forfeited quickly).
-- Once a piece’s value is revealed through combat, track it as it moves.
+- Submarine (SM) beats all other Ships but loses to Flying Boat.
+- Searchlight defeats Battalions (1) and Reconnaissance Planes (1); is defeated by Flying Boats (FB).
+- Division (3) vs Field Artillery (FA): X (both removed).
 
 ---
 

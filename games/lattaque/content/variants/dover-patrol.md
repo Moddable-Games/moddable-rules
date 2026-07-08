@@ -1,7 +1,7 @@
 ---
 title: Dover Patrol
 slug: dover-patrol
-board: "9×10 (with walled Harbour areas)"
+board: "8×12"
 players: "2"
 parent: lattaque
 win: "Get both Flags — your own and the opponent's — onto your own Base"
@@ -17,9 +17,26 @@ Dover Patrol is a Capture the Flag game, not a piece-elimination game. The objec
 
 An Australian edition was published under licence by Moldex Ltd as **Pacific Patrol**, using HMAS ship names at equivalent ranks.
 
+---
+
 ### Board
 
-9 columns × 10 rows. Each player's side has a **Harbour** — a marked area in the corner of their side of the board, partially surrounded by a wall. Within the Harbour is the **Base**: the single square where the Admiral's Flag is placed at the start of the game. The Harbour Wall acts as a barrier to all pieces except the Flying Boat. Each player sets up with their Harbour on their left.
+**8 columns (A–H) × 12 rows (1–12).** The entire playing surface is Sea; there is no land terrain. All movement and combat uses naval rules throughout.
+
+Each player's side has a **Harbour** — a 3×3 walled area in the corner of their side of the board. The Harbours are in **opposite corners** of the board (not symmetric on the same side). Within each Harbour is the **Base**: the single square where the Admiral's Flag is placed at the start of the game.
+
+**Harbour positions (1-indexed, A=col 1, H=col 8):**
+
+| Player | Harbour columns | Harbour rows | Base square |
+|--------|----------------|-------------|-------------|
+| Player 1 | A–C (cols 1–3) | Rows 1–3 | C3 (inner corner, facing open sea) |
+| Player 2 | F–H (cols 6–8) | Rows 10–12 | F10 (inner corner, facing open sea) |
+
+The **Harbour Wall** runs along the open faces of the 3×3 Harbour area (the top and right faces for Player 1; the bottom and left faces for Player 2), forming a partial enclosure. The single gap or the Wall itself blocks normal piece movement. Only the **Flying Boat** can cross the Harbour Wall via its 2-square jumping move.
+
+**Setup:** Each player places their 40 pieces face-down on their nearest 5 rows. Player 1 sets up on rows 1–5 (the Flag on Base = C3); Player 2 sets up on rows 8–12 (Flag on Base = F10). Rows 6–7 are the open contest zone. Each player has their Harbour on the left (row 1 or row 12).
+
+---
 
 ### Pieces (40 per player, plus 1 Flag)
 
@@ -57,9 +74,7 @@ An Australian edition was published under licence by Moldex Ltd as **Pacific Pat
 
 **Total per player: 40 ships + 1 Flag clip.**
 
-### Setup
-
-Each player places their 40 pieces face-down on their nearest five rows. The Flag is placed on the Base square (inside the Harbour). One piece — displaced by the Flag occupying the Base — goes on any square of the sixth row. Pieces stand with their backs to the opponent (ranks hidden).
+---
 
 ### Movement
 
@@ -67,15 +82,17 @@ Players alternate turns. Each piece moves **one square** — forwards, backwards
 
 **Flying Boat exception**: The Flying Boat moves **two squares** in a straight line (as in Draughts when taking a piece — it physically passes through the intermediate square). It can move two squares backwards, forwards, or sideways, but not diagonally. This two-square move allows it to cross the Harbour Wall, which blocks all other pieces.
 
+---
+
 ### Combat
 
 Pieces cannot move into an occupied square. When a piece moves adjacent (back to back) to an enemy piece, the player **may choose to attack** by declaring “Attack!” Attacking is optional; the move passes whether or not an attack is declared. A player who declines to attack cannot be attacked back by that same piece without the opponent first moving away.
 
-A player cannot ask the opponent to declare a piece’s value without first attacking in the legitimate way.
-
 **Combat result**: Both pieces are revealed. The lower-valued ship is **sunk** (removed). The higher-valued ship remains on the square from which it attacked. Equal values: both sunk.
 
 This rule applies to numbered Fleet pieces. For Auxiliaries, see special rules below.
+
+---
 
 ### Special Piece Rules
 
@@ -88,7 +105,7 @@ This rule applies to numbered Fleet pieces. For Auxiliaries, see special rules b
 **MINE SWEEPERS** (unnumbered):
 - Used primarily to destroy Mines.
 - Also useful for carrying the Flag.
-- Cannot be sunk by Mine Layers, other Mine Sweepers, or Flying Boats (nothing happens when these attack or are attacked by each other).
+- Cannot be sunk by Mine Layers, other Mine Sweepers, or Flying Boats (nothing happens).
 - Any other piece sinks them.
 
 **MINE LAYERS** (unnumbered):
@@ -97,40 +114,42 @@ This rule applies to numbered Fleet pieces. For Auxiliaries, see special rules b
 - **Cannot attack** — Mine Layers never declare “Attack!”
 - Can only be sunk by a **Destroyer (4)**.
 - Mines have no effect on Mine Layers.
-- Mine Sweepers, Submarines, and Flying Boats attacking or adjacent to Mine Layers: nothing happens.
+- Mine Sweepers, Submarines, and Flying Boats adjacent to Mine Layers: nothing happens.
 
 **SUBMARINES** (unnumbered):
 - Sink **all ships** except Mine Layers (see above) and **Motor Torpedo Boats (2)**, which sink Submarines instead.
 - Submarines are blown up by Mines.
-- Submarine attacks Submarine, or Submarine attacks Mine Sweeper, or Submarine attacks Flying Boat: nothing happens, both remain.
+- Submarine vs Submarine, Submarine vs Mine Sweeper, Submarine vs Flying Boat: nothing happens.
 
 **FLYING BOAT** (special):
-- Moves **two squares** in a straight line (not diagonally); can move backwards, forwards, or sideways. This is its only move — it always moves two squares.
+- Moves **two squares** in a straight orthogonal line only; always moves two squares.
 - The only piece that can **cross the Harbour Wall**, enabling it to reach the Base from outside.
 - When flying over the Harbour Wall, this must be declared.
 - May fly over a Mine if desired.
 - Can be **brought down only by a Motor Torpedo Boat (2) or a Destroyer (4)**.
 - Used as a **Scout**: when it attacks or is attacked by any piece other than 2s or 4s (including Mines), nothing happens and both remain — but both pieces must be shown, revealing their identities.
-- Not advisable to use the two-square move early, as it reveals the Flying Boat’s position.
+
+---
 
 ### The Flag and the Harbour
 
-**Capturing the Flag**:
+**Capturing the Flag:**
 - The Flag remains on the Base until a ship moves onto the Base square to capture it.
 - Only the Flying Boat can approach the Base through the Harbour Wall. All other ships must enter the Harbour from the open side.
-- The capturing ship must move off the Base on its **next move**, carrying the Flag (clip attached). If enemy pieces prevent this, the ship is **run aground** (removed) and the Flag remains on the Base.
+- The capturing ship must move off the Base on its **next move**, carrying the Flag. If enemy pieces prevent this, the ship is **run aground** (removed) and the Flag remains on the Base.
 
-**Carrying the Flag**:
+**Carrying the Flag:**
 - A ship carrying a Flag cannot attack the ship carrying the other Flag.
-- If a Flag-carrying ship is attacked by an equal-valued ship: both are sunk. The Flag is placed on the square the escort had occupied. The Flag can then be captured by any ship reaching that square.
-- If a Flag-carrying ship is blown up by a Mine: the Flag is placed on the escort’s square. Only a Mine Sweeper can then recover it from this position (unless the Admiral transfers it to a nearby ship).
-- Once the Flag has left the Base, the holder may transfer it to any adjacent ship (not diagonally) — this counts as a move and must take place on the player’s next move after acquiring the Flag.
-- When carrying a Flag, it is advantageous to use the most powerful vessel available.
+- If a Flag-carrying ship is attacked by an equal-valued ship: both are sunk. The Flag is placed on the square the escort had occupied.
+- If a Flag-carrying ship is blown up by a Mine: the Flag is placed on the escort’s square. Only a Mine Sweeper can then recover it from this position.
+- Once the Flag has left the Base, the holder may transfer it to any adjacent ship (not diagonally) — this counts as a move.
 
-**Winning**:
+**Winning:**
 - A player wins by getting **both Flags** — their own and the enemy’s — onto their own Base.
 - A player **cannot** deposit the enemy Flag on their Base unless their own Flag is already in their possession and on their own side of the board.
 - A player also wins if their opponent cannot move any piece on their turn, **provided** the winner’s own Flag is on their own Base. If not, the game is a draw.
+
+---
 
 ### Shorter Game Variants
 
@@ -140,6 +159,8 @@ The rulebook includes four shorter variants:
 2. **Flagship Hunt**: Ignore the Harbour Wall; the first player to capture the opponent’s Flagship wins.
 3. **Pitched Battle**: Ignore the Harbour Wall; victory goes to the side that sinks the entire opposing Fleet and Auxiliaries (excluding Mines).
 4. **Capturing the Base** (24 pieces each): A reduced-set game using 3 back rows for setup. No Flag; win by first occupying the opponent’s Base. Attack declaration is mandatory (not optional). Piece set: 1 Vice-Flagship, 1 Battle Squadron, 1 Battleship, 2 Battle Cruisers, 2 Light Cruisers, 2 Destroyers, 1 Auxiliary Cruiser, 4 Motor Torpedo Boats, 3 Patrol Vessels, 1 Mine Sweeper, 1 Mine Layer, 2 Mines, 2 Submarines, 1 Flying Boat.
+
+---
 
 ### Attribution
 
