@@ -4,30 +4,35 @@ slug: tri-tactics
 board: "Multi-zone board (land, sea, and aerial regions)"
 players: "2"
 parent: lattaque
-win: "Capture the opponent's Headquarters (land) or Naval Base (sea)"
-special: "Combined-forces game published by H.P. Gibson & Sons in 1932. Combines three Gibson games: L'Attaque (Army), Dover Patrol (Navy), and Aviation (Air Force). Each service has its own ranked piece hierarchy; cross-service combat is resolved by a separate chart. Air units can overfly terrain impassable to land and naval units."
+win: "Capture the opponent's Headquarters (land) or Naval Base (sea), or land a Troop Carrier on the opponent's Aerodrome (air)"
+special: "Combined-forces game published by H.P. Gibson & Sons in 1932. Combines three standalone Gibson games: L'Attaque (Army), Dover Patrol (Navy), and Aviation (Air Force). Each service operates under its own rules from its respective standalone game. Cross-service combat is resolved by a chart included in the original edition."
 published: false
 ---
 
 ## Tri-Tactics
 
-Published by H.P. Gibson & Sons, Britain, 1932. Tri-Tactics combines three existing Gibson publications into a single multi-service game: **L'Attaque** (Army), **Dover Patrol** (Navy), and **Aviation** (Air Force). Each player commands units from all three services. Land, sea, and air units each operate under their own movement rules and interact via a cross-service combat resolution chart.
+Published by H.P. Gibson & Sons, Britain, 1932. Tri-Tactics combines three existing Gibson publications into a single multi-service game: **L'Attaque** (Army), **Dover Patrol** (Navy), and **Aviation** (Air Force). Each player commands units from all three services simultaneously on a combined board that includes land, sea, and aerial zones.
 
-### Services and Units
+### Component Games
 
-**Army (from L'Attaque):** Land units move 1 step orthogonally on land squares. Cannot enter sea squares. Ranked hierarchy mirrors Standard L'Attaque.
+Each service operates under the full rules of its standalone game:
 
-**Navy (from Dover Patrol):** Naval units move on sea squares. Ranked hierarchy mirrors Dover Patrol.
+- **Army** (from L'Attaque): Land pieces on a land zone with lake obstacles. Win condition: capture the opponent's Flag / Headquarters.
+- **Navy** (from Dover Patrol): Naval vessels on a sea zone. Win condition: capture the opponent's Flagship / Naval Base.
+- **Air Force** (from Aviation): 42-piece fleet including Troop Carriers, AAA Guns, Searchlights, and Observation Balloons on an aerial zone. Win condition: land a Troop Carrier on the opponent's Aerodrome.
 
-**Air Force (from Aviation):** Air units can overfly terrain that is impassable to land and naval units, including sea squares and obstacle squares. Must end their move on a legal landing square. Ranked hierarchy from the Aviation game.
+For full piece sets, movement rules, and special mechanics for each service, see the corresponding standalone variant pages.
 
 ### Cross-Service Combat
 
-When units from different services engage, the outcome is determined by a cross-service combat chart included in the original H.P. Gibson & Sons edition. Air units generally hold an advantage over surface units, subject to specific counters within each service's hierarchy.
+When units from different services engage, the outcome is determined by a cross-service combat chart included in the original H.P. Gibson & Sons edition. Air Force units generally hold advantages over surface units, subject to specific counters within each service's hierarchy.
 
 ### Win Conditions
 
-Capture the opponent's **Headquarters** (land command) or **Naval Base** (sea command).
+Any of the three service win conditions triggers an overall game victory:
+- Capture the opponent's land Headquarters (Army win)
+- Capture the opponent's Naval Base (Navy win)
+- Land a Troop Carrier on the opponent's Aerodrome (Air Force win)
 
 ### Attribution
 

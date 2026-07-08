@@ -5,7 +5,7 @@ board: "9×10"
 players: "2"
 parent: lattaque
 win: "Capture the opponent's Flag, or leave them with no movable pieces"
-special: "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 2-square lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks."
+special: "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 1×2 lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks."
 published: false
 ---
 
@@ -15,7 +15,7 @@ Designed by Hermance Edan. Patent filed France 26 November 1908; game first sold
 
 ### Board
 
-9 columns × 10 rows. Three 2-square lake areas are located in the centre of the board; no piece may enter a lake square or pass through it. These lake areas are distinct from the 2×2 lake blocks of Stratego (which postdates L'Attaque by nearly four decades).
+9 columns × 10 rows. Three lake areas in the centre of the board are impassable — no piece may enter or pass through a lake square. Each lake occupies 1 column × 2 rows. The three lakes are positioned in the two middle rows (rows 5–6), spaced across the board at columns 3, 5, and 7, with two clear columns on each outer edge and one clear column between each lake. This layout is distinct from the 2×2 lake blocks of Stratego (1946).
 
 ### Piece Set (36 per player)
 
@@ -49,7 +49,7 @@ Players alternate turns. On each turn, a player moves one piece:
 
 ### Combat
 
-Pieces cannot move into a square occupied by another piece. Instead, when a player moves a piece adjacent to an enemy piece ("face-to-face"), the active player may **choose to attack**.
+Pieces cannot move into a square occupied by another piece. Instead, when a player moves a piece adjacent to an enemy piece (back to back), the active player may **choose to attack**.
 
 If the player chooses to attack:
 1. Both pieces are flipped face-up and ranks are revealed.
@@ -72,4 +72,4 @@ Piece ranks remain hidden from the opponent until revealed in combat. Once a pie
 
 ### Attribution
 
-L'Attaque. Designed by Hermance Edan. French patent No. 396,795 filed 26 November 1908. First published 1910 by Au Jeu Retrouvé, France. Rights acquired 1925 by H.P. Gibson & Sons, London. Public domain rule set. Sources: Wikipedia (L'Attaque); Solomon, Eric, *Games & Puzzles* No. 24 (May 1974); V&A Museum collection.
+L'Attaque. Designed by Hermance Edan. French patent No. 396,795 filed 26 November 1908. First published 1910 by Au Jeu Retrouvé, France. Rights acquired 1925 by H.P. Gibson & Sons, London. Public domain rule set. Sources: Wikipedia (L'Attaque); Solomon, Eric, *Games & Puzzles* No. 24 (May 1974); V&A Museum collection; patent diagram (lake positions confirmed from original patent No. 396,795).

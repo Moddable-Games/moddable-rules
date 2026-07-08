@@ -1,11 +1,11 @@
 ---
 title: "L'Attaque"
-version: "0.2.0"
+version: "0.3.0"
 slug: "lattaque"
 players: "2"
-duration: "20–40 min"
+duration: "20–60 min"
 age: "10+"
-tagline: "Hidden-rank warfare, the original precursor to Stratego"
+tagline: "Hidden-rank warfare — the original family that spawned Stratego"
 type: "hub"
 status: "live"
 updated: "2026-07-08"
@@ -22,14 +22,13 @@ theme:
 
 # L'Attaque
 
-L'Attaque (also written L'Attaque) is a hidden-information strategy game designed by Hermance Edan, patented in France in 1908 and first sold from 1910. H.P. Gibson & Sons acquired the rights in 1925 and published the game in Britain until at least the 1970s. It is the direct ancestor of Stratego and the founding game of the hidden-rank strategy game family.
-
-Both players lay out an army of 36 pieces face-down on a 9×10 board. Piece ranks are secret until two opposing pieces are adjacent and one player chooses to attack, at which point both are revealed and the lower rank is removed. The object is to capture the opponent's Flag.
+L'Attaque is a hidden-information strategy game designed by Hermance Edan, patented in France in 1908 and first sold in 1910. H.P. Gibson & Sons acquired the rights in 1925 and published the game — and a family of themed variants — in Britain. All games in this hub share the same core system: pieces with hidden ranks, higher rank defeats lower, and a unique win objective per game.
 
 ## Variants in this Hub
 
 | Variant | Players | Theme | Description |
-|---|---|---|
-| [Standard L'Attaque](variants/standard/) | 2 | Land warfare | Original 1909 rules; 36 pieces per side on a 9×10 board with three 2-square lake areas. |
-| [Dover Patrol](variants/dover-patrol/) | 2 | Naval warfare | Sea warfare adaptation; pieces are ships. Board includes minefields. |
-| [Tri-Tactics](variants/tri-tactics/) | 2 | Combined forces | 1932 combination of L'Attaque, Dover Patrol, and Aviation. Land, sea, and air units. |
+|---|---|---|---|
+| [Standard L'Attaque](variants/standard/) | 2 | Land warfare | Original 1909 rules; 36 pieces per side on a 9×10 board with three 1×2 lake areas. |
+| [Dover Patrol](variants/dover-patrol/) | 2 | Naval warfare | Named Royal Navy ships; same rules as Standard. Win by capturing the Flagship. |
+| [Aviation](variants/aviation/) | 2 | Aerial warfare | 42 pieces including Searchlights, AAA Guns, and Observation Balloons. Win by landing a Troop Carrier on the opponent's Aerodrome. |
+| [Tri-Tactics](variants/tri-tactics/) | 2 | Combined forces | 1932 combination of L'Attaque, Dover Patrol, and Aviation on a single board. |
