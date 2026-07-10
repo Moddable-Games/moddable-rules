@@ -12,7 +12,9 @@ engine:
     type: grid
     rows: 19
     cols: 19
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## One-Colour Go

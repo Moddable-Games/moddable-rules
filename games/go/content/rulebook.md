@@ -18,6 +18,21 @@ theme:
   cover: minimal
   typography: classical
   accent: green
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+    layout: intersections
+  surface: wood-light
+  render:
+    cellSize: 20
+    cellColor: uniform
+    labels: true
+  pieces:
+    set: playstrategy-go-classic
+  players: [black, white]
+  setup: ""
 ---
 
 <div class="section variant-hub">

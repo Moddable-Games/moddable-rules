@@ -12,7 +12,9 @@ engine:
     type: grid
     rows: 17
     cols: 17
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Tibetan Go

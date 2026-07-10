@@ -12,7 +12,9 @@ engine:
     type: grid
     rows: 19
     cols: 19
-  players: [player1, player2, player3, player4]
+    layout: intersections
+  players: [black, white]
+  setup: ""
 ---
 
 ## Rengo

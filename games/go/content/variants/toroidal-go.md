@@ -12,7 +12,9 @@ engine:
     type: grid
     rows: 11
     cols: 11
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Toroidal Go

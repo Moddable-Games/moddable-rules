@@ -12,7 +12,9 @@ engine:
     type: grid
     rows: 15
     cols: 15
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Renju
