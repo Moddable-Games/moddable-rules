@@ -10,8 +10,8 @@ special: "Landing in your own store grants a bonus turn. Opponent's store is ski
 engine:
   topology:
     type: pit
-    pitsPerSide: 6
   players: [south, north]
+  setup: "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
 ---
 
 ## Kalah

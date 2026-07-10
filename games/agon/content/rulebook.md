@@ -17,6 +17,19 @@ theme:
   cover: minimal
   typography: modern
   accent: purple
+engine:
+  topology:
+    type: hex
+    shape: hexagonal
+    orientation: pointy
+    radius: 5
+  surface: cosmic
+  render:
+    cellSize: 22
+    cellColor: bicolor
+  pieces:
+    set: playstrategy-go-classic
+  players: [white, black]
 ---
 
 ## Agon

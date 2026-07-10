@@ -10,29 +10,8 @@ special: "Two concentric squares with connecting lines. The medieval European st
 engine:
   topology:
     type: graph
-    nodes: [a1, a4, a7, d7, g7, g4, g1, d1, b2, b4, b6, d6, f6, f4, f2, d2]
-    edges:
-      - [a1, d1]
-      - [d1, g1]
-      - [g1, g4]
-      - [g4, g7]
-      - [g7, d7]
-      - [d7, a7]
-      - [a7, a4]
-      - [a4, a1]
-      - [b2, d2]
-      - [d2, f2]
-      - [f2, f4]
-      - [f4, f6]
-      - [f6, d6]
-      - [d6, b6]
-      - [b6, b4]
-      - [b4, b2]
-      - [d1, d2]
-      - [g4, f4]
-      - [d7, d6]
-      - [a4, b4]
   players: [white, black]
+  setup: ""
 ---
 
 ## Six Men's Morris

@@ -11,7 +11,8 @@ engine:
     type: grid
     rows: 12
     cols: 12
-  players: [white, black]
+  players: [sente, gote]
+  setup: "lfcsgekgscfl/a1b1txot1b1a/mvrhdqndhrvm/pppppppppppp/3i4i3/12/12/3I4I3/PPPPPPPPPPPP/MVRHDNQDHRVM/A1B1TOXT1B1A/LFCSGKEGSCFL"
 ---
 
 # Chu Shogi

@@ -13,10 +13,7 @@ engine:
     rows: 6
     cols: 5
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [5, 6]
-published: true
+  setup: "sgkgs/5/1ppp1/1PPP1/5/SGKGS"
 ---
 
 ## Gorogoro+

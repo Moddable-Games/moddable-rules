@@ -18,6 +18,16 @@ theme:
   cover: minimal
   typography: classical
   accent: orange
+engine:
+  topology:
+    type: graph
+    structure: grid-cross
+  surface: parchment
+  render:
+    cellSize: 24
+  pieces:
+    set: playstrategy-go-classic
+  players: [officers, soldiers]
 ---
 
 # Asalto

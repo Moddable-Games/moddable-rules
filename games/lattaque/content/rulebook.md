@@ -18,6 +18,18 @@ theme:
   cover: minimal
   typography: classical
   accent: navy
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+  surface: military
+  render:
+    cellSize: 32
+    cellColor: uniform
+  pieces:
+    set: mce-lattaque
+  players: [blue, red]
 ---
 
 # L'Attaque

@@ -18,6 +18,19 @@ theme:
   cover: minimal
   typography: modern
   accent: green
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 7
+  surface: jungle
+  render:
+    cellSize: 40
+    cellColor: uniform
+    labels: false
+  pieces:
+    set: mce-jungle
+  players: [white, black]
 ---
 
 ## Dou Shou Qi (斗兽棋 / Jungle)

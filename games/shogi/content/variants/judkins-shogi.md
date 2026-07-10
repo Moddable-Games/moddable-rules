@@ -11,8 +11,8 @@ engine:
     type: grid
     rows: 6
     cols: 6
-  players: [white, black]
-  drops: true
+  players: [sente, gote]
+  setup: "rbsgkn/5p/6/6/P5/NKGSBR"
 ---
 
 # Judkins' Shogi

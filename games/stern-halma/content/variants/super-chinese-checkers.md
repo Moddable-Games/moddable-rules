@@ -10,15 +10,11 @@ special: "Extended hop: pieces may jump multiple empty spaces in a line before a
 published: true
 engine:
   topology:
-    type: hex-star
-    arms: 6
-    arm_size: 10
-    centre_size: 61
-    total_positions: 121
-  movement:
-    type: super-hop
-    hop_distance: variable
-    landing_distance: variable
+    type: graph
+    structure: star
+  players: [red, blue, green, black, purple, brown]
+  setup:
+    arms: [N, S]
 ---
 
 ## Super Chinese Checkers

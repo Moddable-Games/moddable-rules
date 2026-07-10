@@ -18,6 +18,18 @@ theme:
   cover: solid
   typography: classical
   accent: orange
+engine:
+  topology:
+    type: pit
+    rows: 2
+    cols: 6
+    stores: true
+  surface: earth
+  render:
+    cellSize: 22
+  pieces:
+    set: playstrategy-oware
+  players: [south, north]
 ---
 
 <div class="section variant-hub">

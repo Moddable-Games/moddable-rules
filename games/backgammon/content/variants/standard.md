@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  setup: "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
 ---
 
 ## Standard Backgammon

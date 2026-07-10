@@ -18,6 +18,20 @@ theme:
   cover: solid
   typography: classical
   accent: amber
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 9
+    layout: intersections
+  surface: wood-light
+  render:
+    cellSize: 36
+    cellColor: uniform
+    labels: true
+  pieces:
+    set: playstrategy-xiangqi-ka
+  players: [red, black]
 ---
 
 <div class="section variant-hub">

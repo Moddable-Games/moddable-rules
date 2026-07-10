@@ -18,6 +18,16 @@ theme:
   cover: minimal
   typography: classical
   accent: slate
+engine:
+  topology:
+    type: graph
+    structure: star
+  surface: slate
+  render:
+    cellSize: 24
+  pieces:
+    set: playstrategy-go-classic
+  players: [red, blue, green, black, purple, brown]
 ---
 
 <div class="section">

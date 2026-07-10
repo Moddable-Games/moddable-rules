@@ -13,10 +13,7 @@ engine:
     rows: 7
     cols: 7
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [6, 7]
-published: true
+  setup: "rpckcpl/3f3/sssssss/2s1S2/SSSSSSS/3F3/LPCKCPR"
 ---
 
 ## Tori Shogi

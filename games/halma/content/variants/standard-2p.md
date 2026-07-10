@@ -12,7 +12,8 @@ engine:
     type: grid
     rows: 16
     cols: 16
-  players: [player1, player2]
+  players: [white, black]
+  setup: "bbbbb11/bbbbb11/bbbbb11/bbb13/b15/16/16/16/16/16/16/15w/13www/11wwwww/11wwwww/11wwwww"
 ---
 
 ## Standard 2-Player Halma

@@ -12,11 +12,7 @@ engine:
     shape: triangular
     sideLength: 12
   players: [black, white]
-  plugins:
-    hex:
-      winCondition: connect-all-edges
-      edgeCount: 3
-      swapRule: true
+  setup: ""
 ---
 
 ## Y

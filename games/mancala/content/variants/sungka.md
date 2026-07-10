@@ -10,8 +10,8 @@ special: "Simultaneous start; sow only into your own head, never the opponent's.
 engine:
   topology:
     type: pit
-    pitsPerSide: 7
   players: [south, north]
+  setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 
 ## Sungka

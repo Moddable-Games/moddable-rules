@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  setup: "0:15B,23:15W"
 ---
 
 ## Plakoto

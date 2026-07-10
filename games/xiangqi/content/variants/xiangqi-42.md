@@ -7,10 +7,12 @@ parent: xiangqi
 win: Checkmate the General (standard Xiangqi win conditions)
 special: "Compact Xiangqi on a 7×6 grid (42 intersections). No river, no Elephants — fast tactical play on a minimal board."
 engine:
-  type: grid
-  rows: 6
-  cols: 7
-  intersections: true
+  topology:
+    type: grid
+    rows: 6
+    cols: 7
+  players: [red, black]
+  setup: "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR"
 ---
 
 ## Overview

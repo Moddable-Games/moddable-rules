@@ -12,7 +12,8 @@ engine:
     type: grid
     rows: 9
     cols: 9
-  players: [player1, player2]
+  players: [sente, gote]
+  setup: "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL"
 ---
 
 ## Standard Shogi

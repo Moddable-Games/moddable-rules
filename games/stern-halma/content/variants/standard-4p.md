@@ -10,17 +10,11 @@ special: "Four players use diagonal arms (NE, SE, SW, NW), leaving N and S empty
 published: true
 engine:
   topology:
-    type: hex-star
-    arms: 6
-    arm_size: 10
-    centre_size: 61
-    total_positions: 121
-  players: [player1, player2, player3, player4]
-  arms:
-    player1: NE
-    player2: SE
-    player3: SW
-    player4: NW
+    type: graph
+    structure: star
+  players: [red, blue, green, black, purple, brown]
+  setup:
+    arms: [N, S, NE, SW]
 ---
 
 ## Standard 4-Player Stern-Halma

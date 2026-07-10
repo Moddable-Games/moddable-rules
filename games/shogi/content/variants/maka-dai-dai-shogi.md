@@ -11,10 +11,8 @@ engine:
     type: grid
     rows: 19
     cols: 19
-    orientation: shogi
   players: [sente, gote]
-  notation: shogi
-published: true
+  setup: "[ln][eg][st][tg][ig][cg][sg][gg][ds][ki][dv][gg][sg][cg][ig][tg][st][eg][ln]/[rc]1[ct]1[bm]1[rd][fl][bt][de][bt][fl][co]1[cc]1[ct]1[rc]/1[or]1[ab]1[bb]1[ew][ph][li][kr][ew]1[bb]1[ab]1[or]1/[dy][kn]1[vo]1[fy]1[sd][gd][ld][wr][bv][fy]1[vo]1[kn]1[dy]/[rk][rt][sm][sf][vm][bi][dh][dk][hm][fk][cp][dk][dh][bi][vm][sf][sm][lc][rk]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/5[gb]7[gb]5/19/19/19/19/19/5[GB]7[GB]5/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[RK][LC][SM][SF][VM][BI][DH][DK][CP][FK][HM][DK][DH][BI][VM][SF][SM][RT][RK]/[DY]1[KN]1[VO]1[FY][BV][WR][LD][GD][SD]1[FY]1[VO]1[KN][DY]/1[OR]1[AB]1[BB]1[EW][KR][LI][PH][EW]1[BB]1[AB]1[OR]1/[RC]1[CT]1[CC]1[CO][FL][BT][DE][BT][FL][RD]1[BM]1[CT]1[RC]/[LN][EG][ST][TG][IG][CG][SG][GG][DV][KI][DS][GG][SG][CG][IG][TG][ST][EG][LN]"
 ---
 
 ## Maka-Dai-Dai Shogi

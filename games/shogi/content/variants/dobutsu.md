@@ -13,10 +13,7 @@ engine:
     rows: 4
     cols: 3
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [4]
-published: true
+  setup: "gle/1c1/1C1/ELG"
 ---
 
 ## Dobutsu Shogi

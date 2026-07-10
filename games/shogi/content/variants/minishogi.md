@@ -11,7 +11,8 @@ engine:
     type: grid
     rows: 5
     cols: 5
-  players: [player1, player2]
+  players: [sente, gote]
+  setup: "rbsgk/4p/5/P4/KGSBR"
 ---
 
 ## Minishogi

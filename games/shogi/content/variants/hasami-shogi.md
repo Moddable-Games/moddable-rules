@@ -11,7 +11,8 @@ engine:
     type: grid
     rows: 9
     cols: 9
-  players: [player1, player2]
+  players: [sente, gote]
+  setup: "ppppppppp/9/9/9/9/9/9/9/PPPPPPPPP"
 ---
 
 ## Hasami Shogi

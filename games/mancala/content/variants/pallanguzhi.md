@@ -10,8 +10,8 @@ special: "Multi-lap sowing: the last seed always triggers pickup of the next pit
 engine:
   topology:
     type: pit
-    pitsPerSide: 7
   players: [south, north]
+  setup: "12,12,12,12,12,12,12;0;12,12,12,12,12,12,12;0"
 ---
 
 ## Pallanguzhi

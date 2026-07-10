@@ -12,9 +12,7 @@ engine:
     rows: 10
     cols: 9
   players: [red, black]
-  notation: xiangqi
-  hidden_information: true
-published: true
+  setup: "ffffkffff/9/1f5f1/f1f1f1f1f/9/9/F1F1F1F1F/1F5F1/9/FFFFKFFFF"
 ---
 
 ## Jieqi

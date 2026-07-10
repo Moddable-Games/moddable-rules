@@ -11,8 +11,8 @@ engine:
     type: grid
     rows: 9
     cols: 7
-  players: [white, black]
-  drops: true
+  players: [sente, gote]
+  setup: "ynnkbby/7/ppppppp/7/7/7/PPPPPPP/7/YBBKNNY"
 ---
 
 # Yari Shogi

@@ -7,9 +7,12 @@ parent: xiangqi
 win: Checkmate the General, or advance a Pawn to the last rank where it cannot be immediately captured
 special: "Vietnamese 10×10 variant with novel piece types. Pawns and General restricted to central files; advancing a Pawn to the last rank wins."
 engine:
-  type: grid
-  rows: 10
-  cols: 10
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+  players: [red, black]
+  setup: "rheaakaehr/10/1c6c1/p1p1pp1p1p/10/10/P1P1PP1P1P/1C6C1/10/RHEAAKAEHR"
 ---
 
 ## Overview

@@ -18,6 +18,18 @@ theme:
   cover: ornate
   typography: classical
   accent: gold
+engine:
+  topology:
+    type: grid
+    rows: 3
+    cols: 8
+  surface: parchment
+  render:
+    cellSize: 40
+    cellColor: uniform
+  pieces:
+    set: playstrategy-go-classic
+  players: [white, black]
 ---
 
 <div class="section">

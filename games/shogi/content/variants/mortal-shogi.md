@@ -11,12 +11,8 @@ engine:
     type: grid
     rows: 9
     cols: 9
-    orientation: shogi
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [7, 8, 9]
-published: true
+  setup: "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL"
 ---
 
 ## Mortal Shogi

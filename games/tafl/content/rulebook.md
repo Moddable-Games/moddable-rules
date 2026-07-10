@@ -18,6 +18,19 @@ theme:
   cover: solid
   typography: classical
   accent: amber
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  surface: parchment
+  render:
+    cellSize: 40
+    cellColor: uniform
+    labels: false
+  pieces:
+    set: playstrategy-go-classic
+  players: [white, black]
 ---
 
 <div class="section variant-hub">

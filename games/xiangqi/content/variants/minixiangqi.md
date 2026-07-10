@@ -12,8 +12,7 @@ engine:
     rows: 7
     cols: 7
   players: [red, black]
-  notation: xiangqi
-published: true
+  setup: "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR"
 ---
 
 ## Minixiangqi

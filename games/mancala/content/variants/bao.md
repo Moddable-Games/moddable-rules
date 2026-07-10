@@ -10,8 +10,8 @@ special: "Two-phase game: namua (seeding phase) then mtaji (capture phase). Mult
 engine:
   topology:
     type: pit
-    pitsPerSide: 8
   players: [south, north]
+  setup: "0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2;0;2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0;0"
 ---
 
 ## Bao

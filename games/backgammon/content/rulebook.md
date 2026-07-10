@@ -18,6 +18,18 @@ theme:
   cover: solid
   typography: classical
   accent: rose
+engine:
+  topology:
+    type: track
+    shape: linear
+    positions: 24
+  surface: parchment
+  render:
+    cellSize: 22
+    trackStyle: triangular-points
+  pieces:
+    set: playstrategy-draughts-plain
+  players: [white, black]
 ---
 
 <div class="section variant-hub">

@@ -13,10 +13,7 @@ engine:
     rows: 9
     cols: 9
   players: [sente, gote]
-  notation: shogi
-  drops: false
-  promotion_zone: [7, 8, 9]
-published: true
+  setup: "lnsgkgsnl/1r2e2b1/ppppppppp/9/9/9/PPPPPPPPP/1B2E2R1/LNSGKGSNL"
 ---
 
 ## Sho Shogi

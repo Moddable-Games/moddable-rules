@@ -13,6 +13,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "bbbbbbbb/1bbbbbb1/2bbbb2/8/8/2wwww2/1wwwwww1/wwwwwwww"
 ---
 
 ## Dameo

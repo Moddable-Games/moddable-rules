@@ -10,16 +10,11 @@ special: "Alternating arms used. Each player's goal is the arm directly opposite
 published: true
 engine:
   topology:
-    type: hex-star
-    arms: 6
-    arm_size: 10
-    centre_size: 61
-    total_positions: 121
-  players: [player1, player2, player3]
-  arms:
-    player1: N
-    player2: SE
-    player3: SW
+    type: graph
+    structure: star
+  players: [red, blue, green, black, purple, brown]
+  setup:
+    arms: [N, SE, SW]
 ---
 
 ## Standard 3-Player Stern-Halma

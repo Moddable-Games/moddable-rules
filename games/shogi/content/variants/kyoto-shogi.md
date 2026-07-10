@@ -11,7 +11,8 @@ engine:
     type: grid
     rows: 5
     cols: 5
-  players: [player1, player2]
+  players: [sente, gote]
+  setup: "pgskl/5/5/5/LKSGP"
 ---
 
 ## Kyoto Shogi

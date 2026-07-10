@@ -10,15 +10,11 @@ special: "Step or chain-hop in six directions. No capture. Jumped pieces remain.
 published: true
 engine:
   topology:
-    type: hex-star
-    arms: 6
-    arm_size: 10
-    centre_size: 61
-    total_positions: 121
-  players: [player1, player2]
-  arms:
-    player1: N
-    player2: S
+    type: graph
+    structure: star
+  players: [red, blue, green, black, purple, brown]
+  setup:
+    arms: [N, S]
 ---
 
 ## Standard 2-Player Stern-Halma

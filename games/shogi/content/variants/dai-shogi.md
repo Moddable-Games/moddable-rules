@@ -11,12 +11,8 @@ engine:
     type: grid
     rows: 15
     cols: 15
-    orientation: shogi
   players: [sente, gote]
-  notation: shogi
-  drops: false
-  promotion_zone: [11, 12, 13, 14, 15]
-published: true
+  setup: "[ln][kn][st][ig][cg][sg][gg][ki][gg][sg][cg][ig][st][kn][ln]/[rc]1[ct]1[fl]1[bt][de][bt]1[fl]1[ct]1[rc]/1[vo]1[ab]1[ew][ph][li][kr][ew]1[ab]1[vo]1/[rk][fy][sm][vm][bi][dh][dk][fk][dk][dh][bi][vm][sm][fy][rk]/[pw][pw][pw][pw][gb][pw][pw][pw][pw][pw][gb][pw][pw][pw][pw]/15/15/15/15/15/[PW][PW][PW][PW][GB][PW][PW][PW][PW][PW][GB][PW][PW][PW][PW]/[RK][FY][SM][VM][BI][DH][DK][FK][DK][DH][BI][VM][SM][FY][RK]/1[VO]1[AB]1[EW][KR][LI][PH][EW]1[AB]1[VO]1/[RC]1[CT]1[FL]1[BT][DE][BT]1[FL]1[CT]1[RC]/[LN][KN][ST][IG][CG][SG][GG][KI][GG][SG][CG][IG][ST][KN][LN]"
 ---
 
 ## Dai Shogi

@@ -18,6 +18,16 @@ theme:
   cover: minimal
   typography: modern
   accent: red
+engine:
+  topology:
+    type: graph
+    structure: perimeter-cross
+  surface: parchment
+  render:
+    cellSize: 24
+  pieces:
+    set: playstrategy-go-classic
+  players: [white, black]
 ---
 
 ## Nyout (Yut Nori / 유놓이)

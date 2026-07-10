@@ -12,7 +12,8 @@ engine:
     type: grid
     rows: 6
     cols: 6
-  players: [black, white]
+  players: [white, black]
+  setup: "6/6/2bw2/2wb2/6/6"
 ---
 
 ## Six-by-Six

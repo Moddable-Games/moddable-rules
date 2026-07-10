@@ -18,6 +18,19 @@ theme:
   cover: solid
   typography: classical
   accent: brown
+engine:
+  topology:
+    type: grid
+    rows: 5
+    cols: 9
+    layout: intersections
+  surface: jungle
+  render:
+    cellSize: 40
+    cellColor: uniform
+  pieces:
+    set: playstrategy-go-classic
+  players: [white, black]
 ---
 
 <div class="section">

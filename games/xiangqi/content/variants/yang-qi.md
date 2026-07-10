@@ -7,9 +7,12 @@ parent: xiangqi
 win: Checkmate the opponent's King
 special: "Western-influenced Xiangqi redesign with FIDE-style pieces plus Vaos (diagonal screen-capture). King may swap with adjacent pieces."
 engine:
-  type: grid
-  rows: 10
-  cols: 9
+  topology:
+    type: grid
+    rows: 10
+    cols: 9
+  players: [red, black]
+  setup: "rhvakavhr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RHVAKAVHR"
 ---
 
 ## Overview

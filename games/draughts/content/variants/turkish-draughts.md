@@ -13,6 +13,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "8/bbbbbbbb/bbbbbbbb/8/8/wwwwwwww/wwwwwwww/8"
 ---
 
 ## Turkish Draughts

@@ -13,10 +13,7 @@ engine:
     rows: 9
     cols: 9
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [7, 8, 9]
-published: true
+  setup: "lnsgkgsnl/1rci1uab1/p1p1p1p1p/9/9/9/P1P1P1P1P/1BAU1ICR1/LNSGKGSNL"
 ---
 
 ## Cannon Shogi

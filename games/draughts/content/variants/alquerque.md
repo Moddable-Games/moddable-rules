@@ -12,7 +12,9 @@ engine:
     type: grid
     rows: 5
     cols: 5
+    layout: intersections
   players: [white, black]
+  setup: "bbbbb/bbbbb/bb1ww/wwwww/wwwww"
 ---
 
 ## Alquerque

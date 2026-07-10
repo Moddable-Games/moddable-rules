@@ -18,6 +18,19 @@ theme:
   cover: ornate
   typography: classical
   accent: orange
+engine:
+  topology:
+    type: grid
+    rows: 15
+    cols: 15
+    layout: cross
+  surface: parchment
+  render:
+    cellSize: 20
+    cellColor: uniform
+  pieces:
+    set: playstrategy-go-classic
+  players: [yellow, green, red, blue]
 ---
 
 <div class="section variant-hub">

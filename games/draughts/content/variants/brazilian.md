@@ -13,6 +13,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1"
 ---
 
 ## Brazilian Draughts

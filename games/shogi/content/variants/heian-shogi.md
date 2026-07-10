@@ -11,7 +11,8 @@ engine:
     type: grid
     rows: 8
     cols: 9
-  players: [white, black]
+  players: [sente, gote]
+  setup: "lnsgkgsnl/9/ppppppppp/9/9/PPPPPPPPP/9/LNSGKGSNL"
 ---
 
 # Heian Shogi
