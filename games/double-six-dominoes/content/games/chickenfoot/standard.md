@@ -7,6 +7,12 @@ parent: double-six-dominoes
 win: Lowest total pip count when the stock is exhausted or no player can move
 special: "Dominoes variant where each double creates a 'chickenfoot' — 3 open ends branching from that double, all of which must be filled before normal play resumes. Branching layout with multiple simultaneous chains. 2–8 players."
 published: true
+engine:
+  topology:
+    type: none
+  components:
+    deck:
+      type: dominoes-28
 ---
 
 ## Chickenfoot
