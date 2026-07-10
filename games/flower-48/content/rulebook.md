@@ -20,6 +20,16 @@ theme:
   typography: modern
   accent: red
   section-divider: "♥"
+engine:
+  topology:
+    type: none
+  surface: felt-green
+  components:
+    deck:
+      type: flower-48
+    layout:
+      type: fan
+  players: [south, north]
 ---
 
 <div class="section">

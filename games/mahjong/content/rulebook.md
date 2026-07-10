@@ -19,6 +19,16 @@ theme:
   typography: modern
   accent: red
   section-divider: "◇"
+engine:
+  topology:
+    type: none
+  surface: felt-green
+  components:
+    deck:
+      type: mahjong-136
+    layout:
+      type: wall
+  players: [east, south, west, north]
 ---
 
 <div class="section variant-hub">
