@@ -18,6 +18,19 @@ theme:
   cover: minimal
   typography: classical
   accent: blue
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  surface: felt-green
+  render:
+    cellSize: 40
+    cellColor: uniform
+    labels: true
+  pieces:
+    set: playstrategy-go-classic
+  players: [black, white]
 ---
 
 <div class="section">

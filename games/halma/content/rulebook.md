@@ -18,6 +18,19 @@ theme:
   cover: solid
   typography: classical
   accent: brown
+engine:
+  topology:
+    type: grid
+    rows: 16
+    cols: 16
+  surface: wood-classic
+  render:
+    cellSize: 24
+    cellColor: checkered
+    labels: false
+  pieces:
+    set: playstrategy-go-classic
+  players: [white, black]
 ---
 
 <div class="section variant-hub">

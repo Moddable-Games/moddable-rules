@@ -18,6 +18,19 @@ theme:
   cover: solid
   typography: classical
   accent: gold
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  surface: wood-classic
+  render:
+    cellSize: 40
+    cellColor: checkered
+    labels: true
+  pieces:
+    set: playstrategy-dameo-fabirovsky
+  players: [white, black]
 ---
 
 <div class="section variant-hub">
