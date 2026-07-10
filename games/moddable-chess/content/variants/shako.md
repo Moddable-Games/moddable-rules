@@ -12,8 +12,9 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 34
+  setup: "rcebqkbecr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RCEBQKBECR"
 ---
 
 ## Shako

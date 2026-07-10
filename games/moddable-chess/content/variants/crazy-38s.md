@@ -13,6 +13,7 @@ engine:
     loop: true
     missing_squares: true
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---

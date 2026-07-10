@@ -11,11 +11,10 @@ engine:
     type: grid
     rows: 9
     cols: 9
-  players: [red, black]
-  notation: xiangqi
-  hand: true
-  drops: true
-published: true
+  players: [white, black]
+  render:
+    cellSize: 38
+  setup: "2rbm4/2cwn4/9/9/9/9/9/4NWC2/4MBR2"
 ---
 
 ## Xiang Fu

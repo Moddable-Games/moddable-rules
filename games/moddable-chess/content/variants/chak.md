@@ -12,10 +12,9 @@ engine:
     rows: 9
     cols: 9
   players: [white, black]
-  notation: algebraic
-  promotion_zone: [6, 7, 8, 9]
-  temple: true
-published: true
+  render:
+    cellSize: 38
+  setup: "sjvdaxdvs/9/1ppppppp1/9/9/9/1PPPPPPP1/9/SJVDAXDVS"
 ---
 
 ## Chak

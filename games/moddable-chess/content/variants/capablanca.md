@@ -9,9 +9,12 @@ special: "Two extra pieces: Archbishop (B+N) and Chancellor (R+N). Wider board."
 engine:
   topology:
     type: grid
-    rows: 10
-    cols: 8
+    rows: 8
+    cols: 10
   players: [white, black]
+  render:
+    cellSize: 36
+  setup: "rnabqkbcnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNABQKBCNR"
 ---
 
 ## Capablanca Chess

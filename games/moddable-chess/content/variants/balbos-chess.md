@@ -11,10 +11,10 @@ engine:
     type: grid
     rows: 10
     cols: 11
-    missing_squares: true
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 28
+  setup: "4kbq4/3rnbnr3/2ppppppp2/11/11/11/11/2PPPPPPP2/3RNBNR3/4KBQ4"
 ---
 
 ## Balbo’s Chess

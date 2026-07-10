@@ -9,12 +9,12 @@ special: "Swedish historical chess variant also known as Shakspel. Standard 8×8
 engine:
   topology:
     type: grid
-    rows: 8
-    cols: 8
-    extensions: corner
+    rows: 10
+    cols: 10
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 34
+  setup: "m8m/1rnbqkbnr1/1pppppppp1/10/10/10/10/1PPPPPPPP1/1RNBQKBNR1/M8M"
 ---
 
 ## Gustav III's Chess

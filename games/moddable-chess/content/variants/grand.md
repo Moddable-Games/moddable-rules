@@ -12,6 +12,9 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
+  render:
+    cellSize: 34
+  setup: "r8r/1nbqkcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKCBN1/R8R"
 ---
 
 ## Grand Chess

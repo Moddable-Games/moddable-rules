@@ -9,12 +9,12 @@ special: "Chess variant on the double Alquerque board used in Fanorona (the trad
 engine:
   topology:
     type: grid
-    rows: 9
-    cols: 5
-    alquerque: true
+    rows: 5
+    cols: 9
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 36
+  setup: "ppppppppp/ppppppppp/pppp1PPPP/PPPPPPPPP/PPPPPPPPP"
 ---
 
 ## Fanorona Chess

@@ -13,6 +13,7 @@ engine:
     cols: 8
     broken_columns: true
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---

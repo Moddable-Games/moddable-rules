@@ -9,11 +9,12 @@ special: "Historical Shatranj variant (Shatranj al-Husun, 'Chess of the Fortress
 engine:
   topology:
     type: grid
-    rows: 10
-    cols: 10
+    rows: 12
+    cols: 12
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 26
+  setup: "12/1dnbwqkwbnd1/1pppppppppp1/12/12/12/12/12/12/1PPPPPPPPPP1/1DNBWQKWBND1/12"
 ---
 
 ## Citadel Chess

@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnbqkbnr/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR"
   notation: algebraic
 published: true
 ---

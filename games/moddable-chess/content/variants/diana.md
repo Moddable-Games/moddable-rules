@@ -12,6 +12,7 @@ engine:
     rows: 6
     cols: 6
   players: [white, black]
+  setup: "rbbkr1/pppppp/6/6/PPPPPP/RBBKR1"
 ---
 
 ## Diana Chess

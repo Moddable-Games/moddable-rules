@@ -19,6 +19,19 @@ theme:
   typography: modern
   accent: blue
   section-divider: "♞"
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  surface: wood-classic
+  render:
+    cellSize: 40
+    cellColor: checkered
+    labels: true
+  pieces:
+    set: mce-fairy-complete
+  players: [white, black]
 ---
 
 <div class="section variant-hub">

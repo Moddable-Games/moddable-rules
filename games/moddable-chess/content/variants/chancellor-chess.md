@@ -12,8 +12,9 @@ engine:
     rows: 9
     cols: 9
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 36
+  setup: "rnbqkcbnr/ppppppppp/9/9/9/9/9/PPPPPPPPP/RNBQKCBNR"
 ---
 
 ## Chancellor Chess

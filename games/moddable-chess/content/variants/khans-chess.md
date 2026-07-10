@@ -23,6 +23,7 @@ tags:
   - divergent-pieces
   - campmate
   - couch-tomato
+  setup: "lhakahls/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR"
 ---
 
 # Khan's Chess

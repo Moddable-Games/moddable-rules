@@ -12,9 +12,7 @@ engine:
     rows: 7
     cols: 7
   players: [white, black]
-  notation: algebraic
-  net: 4
-published: true
+  setup: "rnbkqbn/ppppppp/7/7/7/PPPPPPP/RNBKQBN"
 ---
 
 ## Chennis

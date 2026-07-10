@@ -12,6 +12,9 @@ engine:
     rows: 8
     cols: 10
   players: [white, black]
+  render:
+    cellSize: 36
+  setup: "rjnbkqbnjr/pppppppppp/10/10/10/10/PPPPPPPPPP/RJNBKQBNJR"
 ---
 
 # Janus Chess

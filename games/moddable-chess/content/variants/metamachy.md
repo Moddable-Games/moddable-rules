@@ -12,16 +12,9 @@ engine:
     rows: 12
     cols: 12
   players: [white, black]
-published: true
-status: draft
-updated: 2026-07-07
-category: expanded-boards
-order:
-tags:
-  - large-board
-  - fairy-pieces
-  - variable-setup
-  - historical
+  render:
+    cellSize: 26
+  setup: "rnbclqklcbnr/pppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPP/RNBCLQKLCBNR"
 ---
 
 # Metamachy

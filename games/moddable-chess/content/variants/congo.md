@@ -12,8 +12,7 @@ engine:
     rows: 7
     cols: 7
   players: [white, black]
-  notation: algebraic
-published: true
+  setup: "gmelemz/ppppppp/7/7/7/PPPPPPP/GMELEMZ"
 ---
 
 ## Congo

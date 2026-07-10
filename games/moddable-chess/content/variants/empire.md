@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "scdtedcs/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   faceoff: true

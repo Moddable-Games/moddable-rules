@@ -10,23 +10,11 @@ engine:
   topology:
     type: grid
     rows: 9
-    cols: 9
+    cols: 8
   players: [white, black]
-  drops: true
-  promotion_zone:
-    white: [7, 8, 9]
-    black: [1, 2, 3]
-published: true
-status: draft
-updated: 2026-07-07
-category: drop-mechanics
-order:
-tags:
-  - drops
-  - campmate
-  - no-draws
-  - shogi-inspired
-  - couch-tomato
+  render:
+    cellSize: 38
+  setup: "rncakqbm/pppppppp/9/9/9/9/9/PPPPPPPP/RNCAKQBM"
 ---
 
 # Mansindam (Pantheon Tale)

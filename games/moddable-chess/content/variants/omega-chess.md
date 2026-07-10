@@ -9,9 +9,12 @@ special: "Commercial variant on a 10×10 board with 4 extra \"wizard squares\" b
 engine:
   topology:
     type: grid
-    rows: 10
-    cols: 10
+    rows: 12
+    cols: 12
   players: [white, black]
+  render:
+    cellSize: 26
+  setup: "w10w/1crnbqkbnrc1/1pppppppppp1/12/12/12/12/12/12/1PPPPPPPPPP1/1CRNBQKBNRC1/W10W"
 ---
 
 # Omega Chess

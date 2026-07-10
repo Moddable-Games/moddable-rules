@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rkbqnbkr/pppppppp/8/8/8/8/PPPPPPPP/RKBQNBKR"
 ---
 
 ## Knightmate

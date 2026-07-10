@@ -12,8 +12,9 @@ engine:
     rows: 16
     cols: 4
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 34
+  setup: "rnbk/pppp/4/4/4/4/4/4/4/4/4/4/4/4/PPPP/KBNR"
 ---
 
 ## Oblong Chess

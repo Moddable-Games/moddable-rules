@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "cmujtmuc/2pppp2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   hand: true

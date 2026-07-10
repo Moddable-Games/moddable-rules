@@ -9,11 +9,12 @@ special: "44-square chess variant on a custom board with two permanent holes —
 engine:
   topology:
     type: grid
-    cells: 44
-    missing_squares: true
-  players: [yellow, red]
-  notation: algebraic
-published: true
+    rows: 10
+    cols: 7
+  players: [white, black]
+  render:
+    cellSize: 36
+  setup: "3k3/2rqb2/1ppppp1/7/7/7/7/1PPPPP1/2RQB2/3K3"
 ---
 
 ## Hole Chess

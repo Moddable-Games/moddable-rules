@@ -12,6 +12,7 @@ engine:
     cells: 38
     missing_squares: true
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---

@@ -12,8 +12,9 @@ engine:
     rows: 3
     cols: 3
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 50
+  setup: "ppp/3/PPP"
 ---
 
 ## Hexapawn

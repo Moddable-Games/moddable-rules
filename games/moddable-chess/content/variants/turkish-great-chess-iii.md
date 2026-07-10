@@ -12,8 +12,9 @@ engine:
     rows: 12
     cols: 12
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 26
+  setup: "rrbbnnwqknbbr/ppppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPPP/RRBBNNWQKNBBR"
 ---
 
 ## Turkish Great Chess III

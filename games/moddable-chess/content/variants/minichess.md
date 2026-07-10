@@ -12,6 +12,7 @@ engine:
     rows: 5
     cols: 5
   players: [white, black]
+  setup: "kqbnr/ppppp/5/PPPPP/RNBQK"
 ---
 
 ## Minichess

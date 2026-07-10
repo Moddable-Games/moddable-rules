@@ -9,9 +9,10 @@ special: "4-rank board, armies start adjacent. Immediate contact."
 engine:
   topology:
     type: grid
-    rows: 8
-    cols: 4
+    rows: 4
+    cols: 8
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/PPPPPPPP/RNBQKBNR"
 ---
 
 ## Half Chess

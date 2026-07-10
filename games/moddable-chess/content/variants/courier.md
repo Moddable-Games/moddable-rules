@@ -9,9 +9,12 @@ special: Medieval German variant from the 1200s. Extra bishops and sage pieces.
 engine:
   topology:
     type: grid
-    rows: 12
-    cols: 8
+    rows: 8
+    cols: 12
   players: [white, black]
+  render:
+    cellSize: 32
+  setup: "rnebfsksbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBFSKSBENR"
 ---
 
 ## Courier Chess

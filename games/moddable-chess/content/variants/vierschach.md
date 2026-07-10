@@ -11,10 +11,10 @@ engine:
     type: grid
     rows: 14
     cols: 14
-    shape: cross
-  players: [south, north, west, east]
-  notation: algebraic
-published: true
+  players: [white, black]
+  render:
+    cellSize: 24
+  setup: "14/14/14/3rnbqkbnr3/3pppppppp3/14/14/14/14/3PPPPPPPP3/3RNBQKBNR3/14/14/14"
 ---
 
 ## Vierschach

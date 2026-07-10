@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3"
 ---
 
 ## Pawns Only

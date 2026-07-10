@@ -12,8 +12,9 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 30
+  setup: "rcnbsqksbcr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RCNBSQKSBCR"
 ---
 
 ## Centennial Chess

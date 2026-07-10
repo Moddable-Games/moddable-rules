@@ -12,8 +12,9 @@ engine:
     rows: 14
     cols: 14
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 24
+  setup: "rnbbcnwqkwcnbbr/pppppppppppppp/14/14/14/14/14/14/14/14/14/14/PPPPPPPPPPPPPP/RNBBCNWQKWCNBBR"
 ---
 
 ## Turkish Great Chess IV
