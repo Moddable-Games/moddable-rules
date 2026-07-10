@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 68
   players: [red, yellow, green, blue]
+  setup: "home:4Y,home:4G,home:4R,home:4B"
 ---
 
 ## Chaupar (Standard)

@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 68
   players: [red, yellow]
+  setup: "home:4Y,home:4G"
 ---
 
 ## 2-Player Pachisi
