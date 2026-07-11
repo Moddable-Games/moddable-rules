@@ -27,8 +27,8 @@
             <g>
                 <ellipse id="shadow" fill="#000000" opacity="0.4" style="mix-blend-mode: multiply;" filter="url(#filter-1)" cx="18.5" cy="19.0828118" rx="13.5" ry="11.5"></ellipse>
                 <g id="colour---blue" transform="translate(6.000000, 6.582812)">
-                    <use fill="#257989" xlink:href="#path-3"></use>
-                    <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                    <use fill="#257989" href="#path-3"></use>
+                    <use fill="url(#radialGradient-2)" href="#path-3"></use>
                 </g>
                 <ellipse id="gradient" fill="url(#radialGradient-2)" cx="19.5" cy="18.0828118" rx="13.5" ry="11.5"></ellipse>
                 <path d="M12.5948736,25.0350541 C11.3899054,18.6960045 12.8422208,14.1754906 16.9518199,11.4735124 C21.0614189,8.7715343 25.2518379,8.85187883 29.5230768,11.714546 C25.6309065,10.7024657 21.7895756,11.6688261 17.999084,14.6136272 C14.2085923,17.5584284 12.4071889,21.0322373 12.5948736,25.0350541 Z" id="glow" fill="#FFFFFF" filter="url(#filter-4)" transform="translate(20.854074, 17.270301) rotate(-300.000000) translate(-20.854074, -17.270301) "></path>
@@ -36,8 +36,8 @@
             <g transform="translate(28.000000, 22.000000)">
                 <ellipse id="shadow" fill="#000000" opacity="0.4" style="mix-blend-mode: multiply;" filter="url(#filter-5)" cx="18.5" cy="19.0828118" rx="13.5" ry="11.5"></ellipse>
                 <g id="colour---blue" transform="translate(6.000000, 6.582812)">
-                    <use fill="#257989" xlink:href="#path-6"></use>
-                    <use fill="url(#radialGradient-2)" xlink:href="#path-6"></use>
+                    <use fill="#257989" href="#path-6"></use>
+                    <use fill="url(#radialGradient-2)" href="#path-6"></use>
                 </g>
                 <ellipse id="gradient" fill="url(#radialGradient-2)" cx="19.5" cy="18.0828118" rx="13.5" ry="11.5"></ellipse>
                 <path d="M12.5948736,25.0350541 C11.3899054,18.6960045 12.8422208,14.1754906 16.9518199,11.4735124 C21.0614189,8.7715343 25.2518379,8.85187883 29.5230768,11.714546 C25.6309065,10.7024657 21.7895756,11.6688261 17.999084,14.6136272 C14.2085923,17.5584284 12.4071889,21.0322373 12.5948736,25.0350541 Z" id="glow" fill="#FFFFFF" filter="url(#filter-7)" transform="translate(20.854074, 17.270301) rotate(-300.000000) translate(-20.854074, -17.270301) "></path>
