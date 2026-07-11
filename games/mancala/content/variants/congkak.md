@@ -15,6 +15,8 @@ engine:
   render:
     cellSize: 18
     boardShape: ellipse
+    storeSize: [20, 38]
+    pitCurve: 4
   setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 
