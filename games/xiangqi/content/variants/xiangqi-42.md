@@ -13,6 +13,8 @@ engine:
     cols: 7
   players: [red, black]
   setup: "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR"
+  render:
+    cellSize: 40
 ---
 
 ## Overview

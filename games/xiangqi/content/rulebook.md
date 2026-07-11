@@ -27,8 +27,25 @@ engine:
     cellSize: 36
     cellColor: uniform
     labels: true
+    decorations:
+      - type: gap
   pieces:
     set: mce-xiangqi-trad
+    vocabulary:
+      R: wR
+      r: bR
+      H: wN
+      h: bN
+      E: wE
+      e: bE
+      A: wA
+      a: bA
+      K: wK
+      k: bK
+      C: wC
+      c: bC
+      P: wP
+      p: bP
   players: [red, black]
 ---
 

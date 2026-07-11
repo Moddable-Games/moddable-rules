@@ -13,6 +13,8 @@ engine:
     cols: 10
   players: [red, black]
   setup: "rheaakaehr/10/1c6c1/p1p1pp1p1p/10/10/P1P1PP1P1P/1C6C1/10/RHEAAKAEHR"
+  render:
+    cellSize: 30
 ---
 
 ## Overview
