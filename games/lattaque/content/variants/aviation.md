@@ -13,8 +13,12 @@ engine:
     rows: 11
     cols: 8
   render:
+    cellSize: 34
     zones:
       fill: floor
+      cells:
+        - type: aerodrome
+          at: [[0,3],[0,4],[10,3],[10,4]]
   surface:
     colors:
       floor: "#8fa8bf"

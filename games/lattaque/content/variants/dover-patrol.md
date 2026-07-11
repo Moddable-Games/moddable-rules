@@ -13,8 +13,14 @@ engine:
     rows: 12
     cols: 8
   render:
+    cellSize: 34
     zones:
       fill: sea
+      cells:
+        - type: base
+          at: [[0,5],[11,2]]
+        - type: harbour
+          at: [[0,6],[0,7],[1,5],[1,6],[1,7],[2,5],[2,6],[2,7],[9,0],[9,1],[9,2],[10,0],[10,1],[10,2],[11,0],[11,1]]
   surface:
     colors:
       sea: "#3a6e9e"
