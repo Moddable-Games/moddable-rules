@@ -1,0 +1,38 @@
+---
+title: Dou Shou Qi (Standard)
+slug: standard
+board: "9×7"
+players: "2"
+parent: dou-shou-qi
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 7
+  render:
+    cellSize: 40
+    cellColor: checkered
+    labels: false
+    zones:
+      fill: floor
+      cells:
+        - type: den
+          at: [[0,3],[8,3]]
+        - type: trap
+          at: [[0,2],[0,4],[1,3],[7,3],[8,2],[8,4]]
+        - type: river
+          at: [[3,1],[3,2],[3,4],[3,5],[4,1],[4,2],[4,4],[4,5],[5,1],[5,2],[5,4],[5,5]]
+  surface:
+    colors:
+      floor: "#7cb342"
+      floor-stroke: "#558b2f"
+      river: "#4a90c8"
+      river-stroke: "#2a6a9a"
+      den: "#4a3520"
+      den-stroke: "#2a1a10"
+      trap: "#c8963c"
+      trap-stroke: "#8b6520"
+  pieces:
+    set: mce-jungle
+  players: [white, black]
+---
