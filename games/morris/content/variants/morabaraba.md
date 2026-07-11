@@ -10,6 +10,11 @@ special: South African national game. Cows instead of men. Special rules for the
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 3
+      midpoints: true
+      diagonals: true
   players: [white, black]
   setup: ""
 ---

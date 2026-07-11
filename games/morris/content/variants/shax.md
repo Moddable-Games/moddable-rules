@@ -10,6 +10,10 @@ special: "Somali variant: during placement, mills do not remove opponent pieces 
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 3
+      midpoints: true
   players: [white, black]
   setup: ""
 ---

@@ -12,6 +12,9 @@ engine:
   topology:
     type: graph
     structure: star
+    params:
+      armSize: 4
+      spacing: 24
   players: [red, blue, green, black, purple, brown]
   setup:
     arms: [N, S, NE, SW]

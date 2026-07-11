@@ -10,6 +10,10 @@ special: No movement phase; pieces jump to any empty square. Smallest member of 
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 1
+      midpoints: true
   players: [white, black]
   setup: ""
 ---

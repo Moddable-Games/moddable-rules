@@ -10,6 +10,11 @@ special: "Identical board to Nine Men's Morris but with corner diagonal connecti
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 3
+      midpoints: true
+      diagonals: true
   players: [white, black]
   setup: ""
 ---

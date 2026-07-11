@@ -10,6 +10,10 @@ special: "Two concentric squares with connecting lines. The medieval European st
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 2
+      midpoints: true
   players: [white, black]
   setup: ""
 ---

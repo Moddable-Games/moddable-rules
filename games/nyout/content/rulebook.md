@@ -22,6 +22,11 @@ engine:
   topology:
     type: graph
     structure: perimeter-cross
+    params:
+      sides: 4
+      nodesPerSide: 5
+      diagonals: true
+      intermediatesPerDiagonal: 2
   surface: parchment
   render:
     cellSize: 24

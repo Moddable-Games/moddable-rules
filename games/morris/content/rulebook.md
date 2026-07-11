@@ -21,6 +21,10 @@ theme:
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 3
+      midpoints: true
   surface: slate
   render:
     cellSize: 24

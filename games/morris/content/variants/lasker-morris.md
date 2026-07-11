@@ -10,6 +10,10 @@ special: "Each turn: either place a new piece OR move an existing piece. No sequ
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 3
+      midpoints: true
   players: [white, black]
   setup: ""
 ---

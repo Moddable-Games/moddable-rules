@@ -10,6 +10,10 @@ special: Three concentric squares joined at midpoints. Flying allowed when reduc
 engine:
   topology:
     type: graph
+    structure: concentric-rings
+    params:
+      rings: 3
+      midpoints: true
   players: [white, black]
   setup: ""
 ---
