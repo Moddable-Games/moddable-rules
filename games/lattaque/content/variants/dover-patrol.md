@@ -12,8 +12,18 @@ engine:
     type: grid
     rows: 12
     cols: 8
+  render:
+    zones:
+      fill: sea
+  surface:
+    colors:
+      sea: "#3a6e9e"
+      sea-stroke: "#2a5580"
+      harbour: "#5a8ab5"
+      harbour-stroke: "#3a6a95"
+      base: "#c8a832"
+      base-stroke: "#9a8020"
   players: [blue, red]
-  setup: ""
 ---
 
 ## Dover Patrol

@@ -13,7 +13,6 @@ engine:
     rows: 10
     cols: 9
   players: [blue, red]
-  setup: ""
 ---
 
 ## L'Attaque (Standard)

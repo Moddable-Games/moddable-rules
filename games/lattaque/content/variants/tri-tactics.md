@@ -7,7 +7,29 @@ parent: lattaque
 win: "Occupy the opponent's H.Q. with a Land Infantry piece, OR occupy the opponent's Lake (Naval Base) with a Ship"
 special: "Combined-arms hidden-rank game by H.P. Gibson & Sons. 56 pieces per player across three services: Land (Infantry + Artillery), Naval (Ships + Flying Boats + Submarine), and Air Force, plus 8 Searchlights. All three services operate on a single board with land, sea, river, lake, and H.Q. terrain. Pieces caught out of their element are immediately forfeit when attacked. The Searchlight may move any number of squares in a straight line to attack. Combat outcomes between all 18 piece types are resolved via a published Value Table."
 published: true
-  setup: ""
+engine:
+  topology:
+    type: grid
+    rows: 12
+    cols: 12
+  render:
+    cellSize: 30
+    zones:
+      fill: land
+      cells:
+        - type: lake
+          at: [[1,8],[10,8]]
+  surface:
+    colors:
+      land: "#5a8a3a"
+      land-stroke: "#3d6b28"
+      sea: "#3a6e9e"
+      sea-stroke: "#2a5580"
+      lake: "#3a6e9e"
+      lake-stroke: "#2a5580"
+      hq: "#c8a832"
+      hq-stroke: "#9a8020"
+  players: [blue, red]
 ---
 
 ## Tri-Tactics

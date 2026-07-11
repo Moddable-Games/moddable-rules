@@ -21,10 +21,22 @@ engine:
   topology:
     type: grid
     rows: 10
-    cols: 10
+    cols: 9
   render:
-    cellSize: 32
-    cellColor: uniform
+    cellSize: 34
+    cellColor: checkered
+    labels: false
+    zones:
+      fill: floor
+      cells:
+        - type: lake
+          at: [[4,2],[4,4],[4,6],[5,2],[5,4],[5,6]]
+  surface:
+    colors:
+      floor: "#5a8a3a"
+      floor-stroke: "#3d6b28"
+      lake: "#4a7ab5"
+      lake-stroke: "#2a5a8a"
   pieces:
     set: mce-lattaque
   players: [blue, red]

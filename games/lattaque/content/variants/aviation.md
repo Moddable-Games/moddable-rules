@@ -12,8 +12,16 @@ engine:
     type: grid
     rows: 11
     cols: 8
+  render:
+    zones:
+      fill: floor
+  surface:
+    colors:
+      floor: "#8fa8bf"
+      floor-stroke: "#6b8aa5"
+      aerodrome: "#d4a843"
+      aerodrome-stroke: "#a07c20"
   players: [blue, red]
-  setup: ""
 ---
 
 ## Aviation
