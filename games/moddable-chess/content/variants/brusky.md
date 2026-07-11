@@ -12,6 +12,13 @@ engine:
     cells: 84
     orientation: horizontal
     files: 10
+  surface: wood-classic
+  render:
+    cellSize: 20
+    cellColor: tricolor
+    frame: true
+  pieces:
+    set: mce-fairy-complete
   players: [white, black]
   setup: "-1,0:q,-1,1:p,-1,6:P,-1,7:B,-2,0:b,-2,1:p,-2,6:P,-2,7:B,-3,0:n,-3,1:p,-3,6:P,-3,7:K,-4,0:r,-4,1:p,-4,6:P,-4,7:Q,-5,1:p,-5,6:P,-5,7:B,-6,6:P,-6,7:N,-7,6:P,-7,7:R,0,0:k,0,1:p,0,6:P,0,7:N,1,0:b,1,1:p,1,6:P,1,7:R,2,0:b,2,1:p,2,6:P,3,0:n,3,1:p,4,0:r,4,1:p"
 published: true

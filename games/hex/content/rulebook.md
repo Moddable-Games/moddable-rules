@@ -27,7 +27,7 @@ engine:
   render:
     cellSize: 20
     cellColor: uniform
-    frame: rhombus
+    frame: true
     labels: false
   pieces:
     set: playstrategy-go-classic

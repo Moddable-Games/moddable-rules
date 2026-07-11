@@ -16,6 +16,7 @@ engine:
   render:
     cellSize: 22
     cellColor: tricolor
+    frame: true
   pieces:
     set: mce-fairy-complete
   players: [white, black]

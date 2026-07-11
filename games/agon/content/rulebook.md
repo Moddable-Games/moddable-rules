@@ -27,6 +27,7 @@ engine:
   render:
     cellSize: 22
     cellColor: bicolor
+    frame: true
   pieces:
     set: playstrategy-go-classic
   players: [white, black]
