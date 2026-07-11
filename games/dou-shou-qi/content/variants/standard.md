@@ -34,5 +34,26 @@ engine:
       trap-stroke: "#8b6520"
   pieces:
     set: mce-jungle
+    fenMap:
+      E: wElephant
+      e: bElephant
+      L: wLion
+      l: bLion
+      T: wTiger
+      t: bTiger
+      P: wLeopard
+      p: bLeopard
+      D: wDog
+      d: bDog
+      W: wWolf
+      w: bWolf
+      C: wCat
+      c: bCat
+      R: wRat
+      r: bRat
+    borders:
+      white: "#1565c0"
+      black: "#c62828"
   players: [white, black]
+  setup: "l5t/1d3c1/r1p1w1e/7/7/7/E1W1P1R/1C3D1/T5L"
 ---
