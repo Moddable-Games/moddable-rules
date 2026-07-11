@@ -28,6 +28,7 @@ engine:
     cellSize: 20
     cellColor: uniform
     frame: rhombus
+    labels: false
   pieces:
     set: playstrategy-go-classic
   players: [black, white]

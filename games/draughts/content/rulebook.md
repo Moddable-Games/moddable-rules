@@ -27,7 +27,7 @@ engine:
   render:
     cellSize: 40
     cellColor: checkered
-    labels: true
+    labels: false
   pieces:
     set: playstrategy-dameo-fabirovsky
   players: [white, black]

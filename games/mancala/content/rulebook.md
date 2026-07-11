@@ -27,6 +27,7 @@ engine:
   surface: earth
   render:
     cellSize: 22
+    labels: false
   pieces:
     set: playstrategy-oware
   players: [south, north]

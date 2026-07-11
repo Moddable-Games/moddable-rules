@@ -30,7 +30,7 @@ engine:
     cellColor: uniform
     labels: true
   pieces:
-    set: playstrategy-xiangqi-ka
+    set: mce-xiangqi-trad
   players: [red, black]
 ---
 

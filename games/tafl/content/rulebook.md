@@ -29,7 +29,7 @@ engine:
     cellColor: uniform
     labels: false
   pieces:
-    set: playstrategy-go-classic
+    set: mce-tafl
   players: [white, black]
 ---
 

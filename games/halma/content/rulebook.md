@@ -29,7 +29,7 @@ engine:
     cellColor: checkered
     labels: false
   pieces:
-    set: playstrategy-go-classic
+    set: playstrategy-draughts-plain
   players: [white, black]
 ---
 

@@ -27,6 +27,7 @@ engine:
   render:
     cellSize: 22
     trackStyle: triangular-points
+    labels: false
   pieces:
     set: playstrategy-draughts-plain
   players: [white, black]

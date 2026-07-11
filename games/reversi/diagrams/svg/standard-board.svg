@@ -64,6 +64,24 @@
 <rect x="224" y="304" width="40" height="40" fill="#2e7d32"/>
 <rect x="264" y="304" width="40" height="40" fill="#2e7d32"/>
 <rect x="304" y="304" width="40" height="40" fill="#2e7d32"/>
+<line x1="24" y1="24" x2="344" y2="24" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="64" x2="344" y2="64" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="104" x2="344" y2="104" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="144" x2="344" y2="144" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="184" x2="344" y2="184" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="224" x2="344" y2="224" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="264" x2="344" y2="264" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="304" x2="344" y2="304" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="344" x2="344" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="24" y1="24" x2="24" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="64" y1="24" x2="64" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="104" y1="24" x2="104" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="144" y1="24" x2="144" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="184" y1="24" x2="184" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="224" y1="24" x2="224" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="264" y1="24" x2="264" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="304" y1="24" x2="304" y2="344" stroke="#1b5e20" stroke-width="1"/>
+<line x1="344" y1="24" x2="344" y2="344" stroke="#1b5e20" stroke-width="1"/>
 <rect x="24" y="24" width="40" height="40" fill="transparent" data-sq="a8" class="board-cell"/>
 <rect x="64" y="24" width="40" height="40" fill="transparent" data-sq="b8" class="board-cell"/>
 <rect x="104" y="24" width="40" height="40" fill="transparent" data-sq="c8" class="board-cell"/>

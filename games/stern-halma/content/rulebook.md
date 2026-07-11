@@ -22,11 +22,12 @@ engine:
   topology:
     type: graph
     structure: star
-  surface: slate
+  surface: felt-green
   render:
     cellSize: 24
+    labels: false
   pieces:
-    set: playstrategy-go-classic
+    set: fluent-emoji
   players: [red, blue, green, black, purple, brown]
 ---
 

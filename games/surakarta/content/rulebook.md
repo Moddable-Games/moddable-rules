@@ -28,6 +28,7 @@ engine:
   render:
     cellSize: 40
     cellColor: uniform
+    labels: false
   pieces:
     set: playstrategy-go-classic
   players: [white, black]

@@ -29,7 +29,7 @@ engine:
     cellColor: uniform
     labels: true
   pieces:
-    set: playstrategy-go-classic
+    set: playstrategy-flipello-classic
   players: [black, white]
 ---
 

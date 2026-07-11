@@ -30,7 +30,7 @@ engine:
     cellColor: uniform
     labels: true
   pieces:
-    set: playstrategy-shogi-1kanji
+    set: kahu-shogi-kanji-red-wood
   players: [sente, gote]
 ---
 

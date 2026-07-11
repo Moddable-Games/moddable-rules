@@ -24,10 +24,11 @@ engine:
     rows: 5
     cols: 9
     layout: intersections
-  surface: jungle
+  surface: parchment
   render:
     cellSize: 40
     cellColor: uniform
+    labels: false
   pieces:
     set: playstrategy-go-classic
   players: [white, black]

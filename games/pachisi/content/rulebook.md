@@ -27,9 +27,10 @@ engine:
   surface: parchment
   render:
     cellSize: 20
-    cellColor: uniform
+    cellColor: checkered
+    labels: false
   pieces:
-    set: playstrategy-go-classic
+    set: playstrategy-draughts-plain
   players: [yellow, green, red, blue]
 ---
 
