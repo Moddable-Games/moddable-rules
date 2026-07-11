@@ -23,9 +23,13 @@ engine:
     rows: 16
     cols: 16
   render:
-    cellSize: 24
+    cellSize: 20
     cellColor: checkered
     labels: false
+  surface:
+    colors:
+      cell-light: "#f5e6c8"
+      cell-dark: "#e8d4a8"
   pieces:
     set: playstrategy-draughts-plain
     vocabulary:
