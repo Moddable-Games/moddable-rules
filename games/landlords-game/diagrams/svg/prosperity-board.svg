@@ -1,3 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608 608" width="608" height="608">
 <title>Prosperity</title>
+<rect x="0" y="0" width="608" height="608" fill="#f0e4c8"/>
+<rect x="2" y="2" width="604" height="604" fill="none" stroke="#5a4a30" stroke-width="2.5"/>
+<rect x="528" y="528" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-1" data-type="corner"/>
+<text x="568" y="568" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">WAGES</text>
+<rect x="0" y="528" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-10" data-type="corner"/>
+<text x="40" y="568" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">LICKETY CUT R.R.</text>
+<rect x="0" y="0" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-19" data-type="corner"/>
+<text x="40" y="40" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">GEE WHIZ R.R.</text>
+<rect x="528" y="0" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-28" data-type="corner"/>
+<text x="568" y="40" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">P.D.Q. R.R.</text>
+<rect x="472" y="528" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-11" data-type="lot"/>
+<g transform="translate(500,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">POVERTY PLACE</text></g>
+<rect x="416" y="528" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-12" data-type="lot"/>
+<g transform="translate(444,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">GOAT ALLEY</text></g>
+<rect x="360" y="528" width="56" height="80" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-13" data-type="franchise"/>
+<g transform="translate(388,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">SLAMBANG TROLLEY</text></g>
+<rect x="304" y="528" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-14" data-type="lot"/>
+<g transform="translate(332,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">RICKETY ROW</text></g>
+<rect x="248" y="528" width="56" height="80" fill="#f0f0f0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-15" data-type="taxes"/>
+<g transform="translate(276,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LAND TAXES</text></g>
+<rect x="192" y="528" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-16" data-type="lot"/>
+<g transform="translate(220,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">HELL'S HALF ACRE</text></g>
+<rect x="136" y="528" width="56" height="80" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-17" data-type="broker"/>
+<g transform="translate(164,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">REAL ESTATE</text></g>
+<rect x="80" y="528" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-18" data-type="lot"/>
+<g transform="translate(108,568)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">THE BOWERY</text></g>
+<rect x="0" y="472" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-20" data-type="lot"/>
+<g transform="translate(40,500)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">PROGRESS PARK</text></g>
+<rect x="0" y="416" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-21" data-type="lot"/>
+<g transform="translate(40,444)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">GEORGE STREET</text></g>
+<rect x="0" y="360" width="80" height="56" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-22" data-type="franchise"/>
+<g transform="translate(40,388)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">SOAKUM LIGHTING SYSTEM</text></g>
+<rect x="0" y="304" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-23" data-type="lot"/>
+<g transform="translate(40,332)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">JOHNSON ROAD</text></g>
+<rect x="0" y="248" width="80" height="56" fill="#f0f0f0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-24" data-type="taxes"/>
+<g transform="translate(40,276)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">IMPROVEMENT TAXES</text></g>
+<rect x="0" y="192" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-25" data-type="lot"/>
+<g transform="translate(40,220)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">POST AVENUE</text></g>
+<rect x="0" y="136" width="80" height="56" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-26" data-type="broker"/>
+<g transform="translate(40,164)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">REAL ESTATE</text></g>
+<rect x="0" y="80" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-27" data-type="lot"/>
+<g transform="translate(40,108)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">PUBLIC HIGHWAY</text></g>
+<rect x="80" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-29" data-type="lot"/>
+<g transform="translate(108,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">BROADWAY</text></g>
+<rect x="136" y="0" width="56" height="80" fill="#f0f0f0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-30" data-type="go-to-jail"/>
+<g transform="translate(164,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LORD BLUEBLOOD'S ESTATE</text></g>
+<rect x="192" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-31" data-type="lot"/>
+<g transform="translate(220,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">FIFTH AVENUE</text></g>
+<rect x="248" y="0" width="56" height="80" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-32" data-type="franchise"/>
+<g transform="translate(276,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">TING-A-LING TELEPHONE CO.</text></g>
+<rect x="304" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-33" data-type="lot"/>
+<g transform="translate(332,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">THE LOOP</text></g>
+<rect x="360" y="0" width="56" height="80" fill="#d4889a" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-34" data-type="luxury"/>
+<g transform="translate(388,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LA SWELLE HOTEL</text></g>
+<rect x="416" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-35" data-type="lot"/>
+<g transform="translate(444,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LAKE SHORE DRIVE</text></g>
+<rect x="472" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-36" data-type="lot"/>
+<g transform="translate(500,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">EASY STREET</text></g>
+<rect x="528" y="80" width="80" height="56" fill="#f0f0f0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-2" data-type="jail"/>
+<g transform="translate(568,108)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">JAIL</text></g>
+<rect x="528" y="136" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-3" data-type="lot"/>
+<g transform="translate(568,164)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">WAYBACK</text></g>
+<rect x="528" y="192" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-4" data-type="lot"/>
+<g transform="translate(568,220)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LONELY LANE</text></g>
+<rect x="528" y="248" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-5" data-type="lot"/>
+<g transform="translate(568,276)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">CROSSROADS</text></g>
+<rect x="528" y="304" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-6" data-type="lot"/>
+<g transform="translate(568,332)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">JAYTOWN</text></g>
+<rect x="528" y="360" width="80" height="56" fill="#f0f0f0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-7" data-type="taxes"/>
+<g transform="translate(568,388)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">TAXES</text></g>
+<rect x="528" y="416" width="80" height="56" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-8" data-type="broker"/>
+<g transform="translate(568,444)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">REAL ESTATE</text></g>
+<rect x="528" y="472" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-9" data-type="lot"/>
+<g transform="translate(568,500)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">BOOMTOWN</text></g>
+<rect x="80" y="80" width="448" height="448" fill="#f0e4c8"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </svg>

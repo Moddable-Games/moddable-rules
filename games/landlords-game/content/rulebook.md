@@ -18,6 +18,15 @@ theme:
   cover: solid
   typography: classical
   accent: green
+engine:
+  topology:
+    type: track
+    positions: 40
+    shape: circuit
+  surface: parchment
+  render:
+    trackStyle: perimeter
+  players: [player1, player2, player3, player4, player5, player6]
 ---
 
 <div class="section">

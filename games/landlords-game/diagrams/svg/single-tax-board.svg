@@ -1,3 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 664 664" width="664" height="664">
 <title>Single Tax</title>
+<rect x="0" y="0" width="664" height="664" fill="#f0e4c8"/>
+<rect x="2" y="2" width="660" height="660" fill="none" stroke="#5a4a30" stroke-width="2.5"/>
+<rect x="584" y="584" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-1" data-type="corner"/>
+<text x="624" y="624" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">MOTHER EARTH</text>
+<rect x="0" y="584" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-11" data-type="corner"/>
+<text x="40" y="624" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">JAIL</text>
+<rect x="0" y="0" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-21" data-type="corner"/>
+<text x="40" y="40" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">PUBLIC PARK</text>
+<rect x="584" y="0" width="80" height="80" fill="#d4c898" stroke="#5a4a30" stroke-width="1.5" class="board-cell" data-sq="pos-31" data-type="corner"/>
+<text x="624" y="40" text-anchor="middle" dominant-baseline="central" font-size="7" font-weight="bold" font-family="sans-serif" fill="#3a2a15">NO TRESPASSING</text>
+<rect x="528" y="584" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-2" data-type="lot"/>
+<g transform="translate(556,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 1</text></g>
+<rect x="472" y="584" width="56" height="80" fill="#7aaac0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-3" data-type="necessity"/>
+<g transform="translate(500,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">BREAD</text></g>
+<rect x="416" y="584" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-4" data-type="lot"/>
+<g transform="translate(444,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 2</text></g>
+<rect x="360" y="584" width="56" height="80" fill="#f0f0f0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-5" data-type="go-to-jail"/>
+<g transform="translate(388,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">NO TRESPASSING</text></g>
+<rect x="304" y="584" width="56" height="80" fill="#d4889a" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-6" data-type="railroad"/>
+<g transform="translate(332,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">R.R.</text></g>
+<rect x="248" y="584" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-7" data-type="lot"/>
+<g transform="translate(276,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 3</text></g>
+<rect x="192" y="584" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-8" data-type="lot"/>
+<g transform="translate(220,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 4</text></g>
+<rect x="136" y="584" width="56" height="80" fill="#d4889a" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-9" data-type="luxury"/>
+<g transform="translate(164,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LUXURY</text></g>
+<rect x="80" y="584" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-10" data-type="lot"/>
+<g transform="translate(108,624)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 5</text></g>
+<rect x="0" y="528" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-12" data-type="lot"/>
+<g transform="translate(40,556)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 6</text></g>
+<rect x="0" y="472" width="80" height="56" fill="#7aaac0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-13" data-type="necessity"/>
+<g transform="translate(40,500)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">SHELTER</text></g>
+<rect x="0" y="416" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-14" data-type="lot"/>
+<g transform="translate(40,444)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 7</text></g>
+<rect x="0" y="360" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-15" data-type="lot"/>
+<g transform="translate(40,388)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 8</text></g>
+<rect x="0" y="304" width="80" height="56" fill="#d4889a" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-16" data-type="railroad"/>
+<g transform="translate(40,332)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">R.R.</text></g>
+<rect x="0" y="248" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-17" data-type="lot"/>
+<g transform="translate(40,276)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 9</text></g>
+<rect x="0" y="192" width="80" height="56" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-18" data-type="franchise"/>
+<g transform="translate(40,220)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LIGHT FRANCHISE</text></g>
+<rect x="0" y="136" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-19" data-type="lot"/>
+<g transform="translate(40,164)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 10</text></g>
+<rect x="0" y="80" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-20" data-type="lot"/>
+<g transform="translate(40,108)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 11</text></g>
+<rect x="80" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-22" data-type="lot"/>
+<g transform="translate(108,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 12</text></g>
+<rect x="136" y="0" width="56" height="80" fill="#7aaac0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-23" data-type="necessity"/>
+<g transform="translate(164,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">COAL</text></g>
+<rect x="192" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-24" data-type="lot"/>
+<g transform="translate(220,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 13</text></g>
+<rect x="248" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-25" data-type="lot"/>
+<g transform="translate(276,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 14</text></g>
+<rect x="304" y="0" width="56" height="80" fill="#d4889a" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-26" data-type="railroad"/>
+<g transform="translate(332,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">R.R.</text></g>
+<rect x="360" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-27" data-type="lot"/>
+<g transform="translate(388,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 15</text></g>
+<rect x="416" y="0" width="56" height="80" fill="#d4c060" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-28" data-type="franchise"/>
+<g transform="translate(444,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">WATER FRANCHISE</text></g>
+<rect x="472" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-29" data-type="lot"/>
+<g transform="translate(500,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 16</text></g>
+<rect x="528" y="0" width="56" height="80" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-30" data-type="lot"/>
+<g transform="translate(556,40)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 17</text></g>
+<rect x="584" y="80" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-32" data-type="lot"/>
+<g transform="translate(624,108)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 18</text></g>
+<rect x="584" y="136" width="80" height="56" fill="#7aaac0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-33" data-type="necessity"/>
+<g transform="translate(624,164)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">CLOTHING</text></g>
+<rect x="584" y="192" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-34" data-type="lot"/>
+<g transform="translate(624,220)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 19</text></g>
+<rect x="584" y="248" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-35" data-type="lot"/>
+<g transform="translate(624,276)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 20</text></g>
+<rect x="584" y="304" width="80" height="56" fill="#d4889a" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-36" data-type="railroad"/>
+<g transform="translate(624,332)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">R.R.</text></g>
+<rect x="584" y="360" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-37" data-type="lot"/>
+<g transform="translate(624,388)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 21</text></g>
+<rect x="584" y="416" width="80" height="56" fill="#f0f0f0" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-38" data-type="legacy"/>
+<g transform="translate(624,444)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LEGACY</text></g>
+<rect x="584" y="472" width="80" height="56" fill="#6a9a50" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-39" data-type="lot"/>
+<g transform="translate(624,500)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">Lot 22</text></g>
+<rect x="584" y="528" width="80" height="56" fill="#d4889a" stroke="#5a4a30" stroke-width="0.75" class="board-cell" data-sq="pos-40" data-type="luxury"/>
+<g transform="translate(624,556)"><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" font-weight="normal" font-family="serif" fill="#3a2a15">LUXURY</text></g>
+<rect x="80" y="80" width="504" height="504" fill="#f0e4c8"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </svg>
