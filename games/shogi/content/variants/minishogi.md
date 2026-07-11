@@ -13,6 +13,8 @@ engine:
     cols: 5
   players: [sente, gote]
   setup: "rbsgk/4p/5/P4/KGSBR"
+  render:
+    cellSize: 40
 ---
 
 ## Minishogi

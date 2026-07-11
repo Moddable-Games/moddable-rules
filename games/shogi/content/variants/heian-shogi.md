@@ -13,6 +13,8 @@ engine:
     cols: 9
   players: [sente, gote]
   setup: "lnsgkgsnl/9/ppppppppp/9/9/PPPPPPPPP/9/LNSGKGSNL"
+  render:
+    cellSize: 36
 ---
 
 # Heian Shogi

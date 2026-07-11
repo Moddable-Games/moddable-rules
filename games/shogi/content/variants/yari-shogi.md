@@ -13,6 +13,8 @@ engine:
     cols: 7
   players: [sente, gote]
   setup: "ynnkbby/7/ppppppp/7/7/7/PPPPPPP/7/YBBKNNY"
+  render:
+    cellSize: 36
 ---
 
 # Yari Shogi

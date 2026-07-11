@@ -14,6 +14,8 @@ engine:
     cols: 3
   players: [sente, gote]
   setup: "gle/1c1/1C1/ELG"
+  render:
+    cellSize: 50
 ---
 
 ## Dobutsu Shogi

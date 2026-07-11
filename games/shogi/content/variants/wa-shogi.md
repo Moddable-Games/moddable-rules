@@ -13,6 +13,8 @@ engine:
     cols: 11
   players: [sente, gote]
   setup: "[lh][cm][so][fc][vs][ck][vw][fg][sc][bd][oc]/1[ce]3[sw]3[ff]1/[sp][sp][sp][rr][sp][sp][sp][tf][sp][sp][sp]/3[sp]3[sp]3/11/11/11/3[SP]3[SP]3/[SP][SP][SP][TF][SP][SP][SP][RR][SP][SP][SP]/1[FF]3[SW]3[CE]1/[OC][BD][SC][FG][VW][CK][VS][FC][SO][CM][LH]"
+  render:
+    cellSize: 30
 ---
 
 # Wa Shogi

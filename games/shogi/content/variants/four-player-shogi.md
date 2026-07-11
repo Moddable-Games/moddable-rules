@@ -15,6 +15,8 @@ engine:
     orientation: shogi
   players: [north, east, south, west]
   setup: "3,yR,yN,yS,yG,yK,yG,yS,yN,yR,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rR,1,rP,9,bP,1,bR/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rR,1,rP,9,bP,1,bR/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gR,gN,gS,gG,gK,gG,gS,gN,gR,3"
+  render:
+    cellSize: 22
   notation: shogi
   drops: true
 published: true

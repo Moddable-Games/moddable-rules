@@ -13,6 +13,8 @@ engine:
     cols: 5
   players: [sente, gote]
   setup: "pgskl/5/5/5/LKSGP"
+  render:
+    cellSize: 40
 ---
 
 ## Kyoto Shogi

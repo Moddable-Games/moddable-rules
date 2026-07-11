@@ -13,6 +13,8 @@ engine:
     cols: 12
   players: [sente, gote]
   setup: "lfcsgekgscfl/a1b1txot1b1a/mvrhdqndhrvm/pppppppppppp/3i4i3/12/12/3I4I3/PPPPPPPPPPPP/MVRHDNQDHRVM/A1B1TOXT1B1A/LFCSGKEGSCFL"
+  render:
+    cellSize: 28
 ---
 
 # Chu Shogi

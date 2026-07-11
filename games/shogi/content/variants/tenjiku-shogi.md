@@ -13,6 +13,8 @@ engine:
     cols: 16
   players: [sente, gote]
   setup: "[ln][kn][fl][ig][cg][sg][gg][de][ki][gg][sg][cg][ig][fl][kn][ln]/[rc]1[cs][cs]1[bt][ph][fk][li][kr][bt]1[cs][cs]1[rc]/[ss][vt][bi][dh][dk][wb][fd][fe][lw][fd][wb][dk][dh][bi][vt][ss]/[sm][vm][rk][hf][se][bg][rg][vg][gr][rg][bg][se][hf][rk][vm][sm]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/4[dg]6[dg]4/16/16/16/16/4[DG]6[DG]4/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[SM][VM][RK][HF][SE][BG][RG][GR][VG][RG][BG][SE][HF][RK][VM][SM]/[SS][VT][BI][DH][DK][WB][FD][LW][FE][FD][WB][DK][DH][BI][VT][SS]/[RC]1[CS][CS]1[BT][KR][LI][FK][PH][BT]1[CS][CS]1[RC]/[LN][KN][FL][IG][CG][SG][GG][KI][DE][GG][SG][CG][IG][FL][KN][LN]"
+  render:
+    cellSize: 20
 ---
 
 ## Tenjiku Shogi

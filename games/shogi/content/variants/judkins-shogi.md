@@ -13,6 +13,8 @@ engine:
     cols: 6
   players: [sente, gote]
   setup: "rbsgkn/5p/6/6/P5/NKGSBR"
+  render:
+    cellSize: 40
 ---
 
 # Judkins' Shogi

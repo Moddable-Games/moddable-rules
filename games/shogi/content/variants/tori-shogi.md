@@ -14,6 +14,8 @@ engine:
     cols: 7
   players: [sente, gote]
   setup: "rpckcpl/3f3/sssssss/2s1S2/SSSSSSS/3F3/LPCKCPR"
+  render:
+    cellSize: 40
 ---
 
 ## Tori Shogi

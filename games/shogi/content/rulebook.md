@@ -27,6 +27,10 @@ engine:
     cellSize: 36
     cellColor: uniform
     labels: false
+    decorations:
+      - type: markers
+        style: dot
+        auto: shogi-hoshi
   pieces:
     set: kahu-shogi-kanji-red-wood
   players: [sente, gote]

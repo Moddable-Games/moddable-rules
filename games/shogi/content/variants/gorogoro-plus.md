@@ -14,6 +14,8 @@ engine:
     cols: 5
   players: [sente, gote]
   setup: "sgkgs/5/1ppp1/1PPP1/5/SGKGS"
+  render:
+    cellSize: 40
 ---
 
 ## Gorogoro+
