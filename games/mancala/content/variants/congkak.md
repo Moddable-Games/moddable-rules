@@ -14,6 +14,7 @@ engine:
   players: [south, north]
   render:
     cellSize: 18
+    boardShape: ellipse
   setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 
