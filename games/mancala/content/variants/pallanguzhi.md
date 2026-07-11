@@ -10,7 +10,11 @@ special: "Multi-lap sowing: the last seed always triggers pickup of the next pit
 engine:
   topology:
     type: pit
+    cols: 7
+    stores: false
   players: [south, north]
+  render:
+    cellSize: 18
   setup: "12,12,12,12,12,12,12;0;12,12,12,12,12,12,12;0"
 ---
 

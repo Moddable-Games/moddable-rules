@@ -10,7 +10,10 @@ special: "Sow into your own house but skip the opponent's house. Dead pits must 
 engine:
   topology:
     type: pit
+    cols: 7
   players: [south, north]
+  render:
+    cellSize: 18
   setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 

@@ -10,7 +10,11 @@ special: Functionally identical to Oware; grand slam rule applies. Culturally di
 engine:
   topology:
     type: pit
+    cols: 6
+    stores: false
   players: [south, north]
+  render:
+    cellSize: 24
   setup: "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
 ---
 

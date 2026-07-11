@@ -10,7 +10,10 @@ special: "Simultaneous start; sow only into your own head, never the opponent's.
 engine:
   topology:
     type: pit
+    cols: 7
   players: [south, north]
+  render:
+    cellSize: 18
   setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 
