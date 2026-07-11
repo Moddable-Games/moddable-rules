@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Board Diagram Gallery</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #1a1a2e; color: #e0e0e0; padding: 24px; }
+h1 { margin-bottom: 8px; color: #fff; }
+.stats { margin-bottom: 24px; color: #888; font-size: 14px; }
+.filters { margin-bottom: 20px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.filters input { padding: 8px 12px; border-radius: 6px; border: 1px solid #333; background: #2a2a3e; color: #fff; font-size: 14px; width: 240px; }
+.filters select { padding: 8px 12px; border-radius: 6px; border: 1px solid #333; background: #2a2a3e; color: #fff; font-size: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card { background: #2a2a3e; border-radius: 8px; overflow: hidden; border: 1px solid #333; }
+.card:hover { border-color: #5a5a8e; }
+.card .preview { background: #fff; display: flex; align-items: center; justify-content: center; min-height: 200px; padding: 12px; }
+.card .preview img { max-width: 100%; max-height: 240px; }
+.card .info { padding: 10px 14px; }
+.card .info .title { font-size: 13px; font-weight: 600; color: #fff; }
+.card .info .family { font-size: 11px; color: #888; margin-top: 2px; }
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<h1>Board Diagram Gallery</h1>
+<div class="stats" id="stats">Loading...</div>
+<div class="filters">
+  <input type="text" id="search" placeholder="Search by name or family...">
+  <select id="family-filter"><option value="">All families</option></select>
+</div>
+<div class="grid" id="grid"></div>
+
+<script>
+async function init() {
+  const manifest = await fetch('../diagrams-manifest.json').then(r => r.json())
+  const entries = Object.entries(manifest).map(([key, hash]) => {
+    const [family, slug] = key.split('/')
+    const path = `../games/${family}/diagrams/svg/${slug}-board.svg`
+    return { key, family, slug, hash, path }
+  })
+
+  document.getElementById('stats').textContent =
+    `${entries.length} diagrams across ${new Set(entries.map(e => e.family)).size} families`
+
+  const families = [...new Set(entries.map(e => e.family))].sort()
+  const select = document.getElementById('family-filter')
+  for (const f of families) {
+    const opt = document.createElement('option')
+    opt.value = f
+    opt.textContent = f
+    select.appendChild(opt)
+  }
+
+  const grid = document.getElementById('grid')
+  const cards = []
+
+  for (const entry of entries) {
+    const card = document.createElement('div')
+    card.className = 'card'
+    card.dataset.family = entry.family
+    card.dataset.slug = entry.slug
+    card.innerHTML = `
+      <div class="preview">
+        <img src="${entry.path}" alt="${entry.slug}" loading="lazy">
+      </div>
+      <div class="info">
+        <div class="title">${entry.slug.replace(/-/g, ' ')}</div>
+        <div class="family">${entry.family}</div>
+      </div>
+    `
+    grid.appendChild(card)
+    cards.push(card)
+  }
+
+  function filter() {
+    const search = document.getElementById('search').value.toLowerCase()
+    const family = document.getElementById('family-filter').value
+    for (const card of cards) {
+      const matchSearch = !search ||
+        card.dataset.slug.includes(search) ||
+        card.dataset.family.includes(search)
+      const matchFamily = !family || card.dataset.family === family
+      card.classList.toggle('hidden', !(matchSearch && matchFamily))
+    }
+  }
+
+  document.getElementById('search').addEventListener('input', filter)
+  document.getElementById('family-filter').addEventListener('change', filter)
+}
+
+init()
+</script>
+</body>
+</html>
