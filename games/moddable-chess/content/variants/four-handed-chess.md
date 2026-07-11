@@ -12,6 +12,10 @@ engine:
   cols: 8
   players: [red, yellow, green, black]
   setup: "3,yR,yN,yB,yK,yQ,yB,yN,yR,3/3,yP,yP,yP,yP,yP,yP,yP,yP,3/14/bR,bP,10,gP,gR/bN,bP,10,gP,gN/bB,bP,10,gP,gB/bK,bP,10,gP,gQ/bQ,bP,10,gP,gK/bB,bP,10,gP,gB/bN,bP,10,gP,gN/bR,bP,10,gP,gR/14/3,rP,rP,rP,rP,rP,rP,rP,rP,3/3,rR,rN,rB,rQ,rK,rB,rN,rR,3"
+  render:
+    cellSize: 24
+    zones:
+      voids: [[0,0],[0,1],[0,2],[0,11],[0,12],[0,13],[1,0],[1,1],[1,2],[1,11],[1,12],[1,13],[2,0],[2,1],[2,2],[2,11],[2,12],[2,13],[11,0],[11,1],[11,2],[11,11],[11,12],[11,13],[12,0],[12,1],[12,2],[12,11],[12,12],[12,13],[13,0],[13,1],[13,2],[13,11],[13,12],[13,13]]
 ---
 
 ## Overview
