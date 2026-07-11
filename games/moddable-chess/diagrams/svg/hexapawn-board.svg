@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 198" width="198" height="198">
+<title>Hexapawn</title>
+<rect x="24" y="24" width="50" height="50" fill="#f0d9b5"/>
+<rect x="74" y="24" width="50" height="50" fill="#b58863"/>
+<rect x="124" y="24" width="50" height="50" fill="#f0d9b5"/>
+<rect x="24" y="74" width="50" height="50" fill="#b58863"/>
+<rect x="74" y="74" width="50" height="50" fill="#f0d9b5"/>
+<rect x="124" y="74" width="50" height="50" fill="#b58863"/>
+<rect x="24" y="124" width="50" height="50" fill="#f0d9b5"/>
+<rect x="74" y="124" width="50" height="50" fill="#b58863"/>
+<rect x="124" y="124" width="50" height="50" fill="#f0d9b5"/>
+<rect x="24" y="24" width="50" height="50" fill="transparent" data-sq="a3" class="board-cell"/>
+<rect x="74" y="24" width="50" height="50" fill="transparent" data-sq="b3" class="board-cell"/>
+<rect x="124" y="24" width="50" height="50" fill="transparent" data-sq="c3" class="board-cell"/>
+<rect x="24" y="74" width="50" height="50" fill="transparent" data-sq="a2" class="board-cell"/>
+<rect x="74" y="74" width="50" height="50" fill="transparent" data-sq="b2" class="board-cell"/>
+<rect x="124" y="74" width="50" height="50" fill="transparent" data-sq="c2" class="board-cell"/>
+<rect x="24" y="124" width="50" height="50" fill="transparent" data-sq="a1" class="board-cell"/>
+<rect x="74" y="124" width="50" height="50" fill="transparent" data-sq="b1" class="board-cell"/>
+<rect x="124" y="124" width="50" height="50" fill="transparent" data-sq="c1" class="board-cell"/>
+<text x="49" y="189.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">a</text>
+<text x="99" y="189.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">b</text>
+<text x="149" y="189.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">c</text>
+<text x="12" y="49" text-anchor="middle" dominant-baseline="central" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">3</text>
+<text x="12" y="99" text-anchor="middle" dominant-baseline="central" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">2</text>
+<text x="12" y="149" text-anchor="middle" dominant-baseline="central" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">1</text>
+</svg>

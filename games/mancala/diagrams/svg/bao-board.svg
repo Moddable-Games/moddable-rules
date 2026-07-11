@@ -1,84 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" width="560" height="250">
-  <title>Bao — 4x8 board (four rows of eight pits)</title>
-
-  <!-- Wooden board background -->
-  <rect x="10" y="10" width="540" height="230" rx="18" ry="18" fill="#6B4C28"/>
-  <rect x="16" y="16" width="528" height="218" rx="14" ry="14" fill="#8A6538"/>
-
-  <!-- Row 1: Player 2 back row (8 pits, spacing 66px, centred) -->
-  <g id="row1">
-    <circle cx="49" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="115" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="181" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="247" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="313" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="379" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="445" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="511" cy="50" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-  </g>
-
-  <!-- Row 2: Player 2 front row -->
-  <g id="row2">
-    <circle cx="49" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="115" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="181" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="247" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="313" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="379" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="445" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="511" cy="98" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-  </g>
-
-  <!-- Divider between players -->
-  <line x1="30" y1="125" x2="544" y2="125" stroke="#554020" stroke-width="2.5" stroke-dasharray="6,4"/>
-
-  <!-- Row 3: Player 1 front row -->
-  <g id="row3">
-    <circle cx="49" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="115" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="181" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="247" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="313" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="379" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="445" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="511" cy="152" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-  </g>
-
-  <!-- Row 4: Player 1 back row -->
-  <g id="row4">
-    <circle cx="49" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="115" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="181" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="247" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="313" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="379" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="445" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-    <circle cx="511" cy="200" r="20" fill="#3E2410" stroke="#2A1808" stroke-width="1.5"/>
-  </g>
-
-  <!-- Seeds in front rows (2 per pit) -->
-  <g fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5">
-    <!-- Row 2 -->
-    <circle cx="44" cy="95" r="4"/><circle cx="54" cy="101" r="4"/>
-    <circle cx="110" cy="95" r="4"/><circle cx="120" cy="101" r="4"/>
-    <circle cx="176" cy="95" r="4"/><circle cx="186" cy="101" r="4"/>
-    <circle cx="242" cy="95" r="4"/><circle cx="252" cy="101" r="4"/>
-    <circle cx="308" cy="95" r="4"/><circle cx="318" cy="101" r="4"/>
-    <circle cx="374" cy="95" r="4"/><circle cx="384" cy="101" r="4"/>
-    <circle cx="440" cy="95" r="4"/><circle cx="450" cy="101" r="4"/>
-    <circle cx="506" cy="95" r="4"/><circle cx="516" cy="101" r="4"/>
-    <!-- Row 3 -->
-    <circle cx="44" cy="149" r="4"/><circle cx="54" cy="155" r="4"/>
-    <circle cx="110" cy="149" r="4"/><circle cx="120" cy="155" r="4"/>
-    <circle cx="176" cy="149" r="4"/><circle cx="186" cy="155" r="4"/>
-    <circle cx="242" cy="149" r="4"/><circle cx="252" cy="155" r="4"/>
-    <circle cx="308" cy="149" r="4"/><circle cx="318" cy="155" r="4"/>
-    <circle cx="374" cy="149" r="4"/><circle cx="384" cy="155" r="4"/>
-    <circle cx="440" cy="149" r="4"/><circle cx="450" cy="155" r="4"/>
-    <circle cx="506" cy="149" r="4"/><circle cx="516" cy="155" r="4"/>
-  </g>
-
-  <!-- Nyumba markers (special pits — 4th from left in each back row) -->
-  <circle cx="247" cy="50" r="14" fill="none" stroke="#C49040" stroke-width="2" stroke-dasharray="4,3"/>
-  <circle cx="247" cy="200" r="14" fill="none" stroke="#C49040" stroke-width="2" stroke-dasharray="4,3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 556.6 157.39999999999998" width="556.6" height="157.39999999999998">
+<title>Bao</title>
+<rect x="8" y="8" width="540.6" height="141.39999999999998" rx="22" ry="22" fill="#7A5A32"/>
+<rect x="14" y="14" width="528.6" height="129.39999999999998" rx="18" ry="18" fill="#9B7740"/>
+<rect x="20" y="20" width="516.6" height="117.39999999999998" rx="14" ry="14" fill="none" stroke="#3A2515" stroke-width="1.5"/>
+<ellipse cx="48" cy="78.69999999999999" rx="24" ry="50" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<ellipse cx="508.6" cy="78.69999999999999" rx="24" ry="50" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="116.3" cy="52.3" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="110.8" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="121.8" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="110.8" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="121.8" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="181.1" cy="52.3" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="175.6" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="186.6" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="175.6" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="186.6" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="245.89999999999998" cy="52.3" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="240.39999999999998" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="251.39999999999998" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="240.39999999999998" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="251.39999999999998" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="310.7" cy="52.3" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="305.2" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="316.2" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="305.2" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="316.2" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="375.5" cy="52.3" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="370" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="381" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="370" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="381" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="440.3" cy="52.3" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="434.8" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="445.8" cy="46.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="434.8" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="445.8" cy="57.8" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="116.3" cy="105.09999999999998" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="110.8" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="121.8" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="110.8" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="121.8" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="181.1" cy="105.09999999999998" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="175.6" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="186.6" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="175.6" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="186.6" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="245.89999999999998" cy="105.09999999999998" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="240.39999999999998" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="251.39999999999998" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="240.39999999999998" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="251.39999999999998" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="310.7" cy="105.09999999999998" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="305.2" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="316.2" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="305.2" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="316.2" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="375.5" cy="105.09999999999998" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="370" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="381" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="370" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="381" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="440.3" cy="105.09999999999998" r="22" fill="#4E3320" stroke="#3A2515" stroke-width="1.5"/>
+<circle cx="434.8" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="445.8" cy="99.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="434.8" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<circle cx="445.8" cy="110.59999999999998" r="4.4" fill="#C8B898" stroke="#8A7A5A" stroke-width="0.5"/>
+<ellipse cx="48" cy="78.69999999999999" rx="24" ry="50" fill="transparent" data-sq="store-1" class="board-cell"/>
+<ellipse cx="508.6" cy="78.69999999999999" rx="24" ry="50" fill="transparent" data-sq="store-0" class="board-cell"/>
+<circle cx="116.3" cy="52.3" r="22" fill="transparent" data-sq="pit-5" class="board-cell"/>
+<circle cx="181.1" cy="52.3" r="22" fill="transparent" data-sq="pit-4" class="board-cell"/>
+<circle cx="245.89999999999998" cy="52.3" r="22" fill="transparent" data-sq="pit-3" class="board-cell"/>
+<circle cx="310.7" cy="52.3" r="22" fill="transparent" data-sq="pit-2" class="board-cell"/>
+<circle cx="375.5" cy="52.3" r="22" fill="transparent" data-sq="pit-1" class="board-cell"/>
+<circle cx="440.3" cy="52.3" r="22" fill="transparent" data-sq="pit-0" class="board-cell"/>
+<circle cx="116.3" cy="105.09999999999998" r="22" fill="transparent" data-sq="pit-6" class="board-cell"/>
+<circle cx="181.1" cy="105.09999999999998" r="22" fill="transparent" data-sq="pit-7" class="board-cell"/>
+<circle cx="245.89999999999998" cy="105.09999999999998" r="22" fill="transparent" data-sq="pit-8" class="board-cell"/>
+<circle cx="310.7" cy="105.09999999999998" r="22" fill="transparent" data-sq="pit-9" class="board-cell"/>
+<circle cx="375.5" cy="105.09999999999998" r="22" fill="transparent" data-sq="pit-10" class="board-cell"/>
+<circle cx="440.3" cy="105.09999999999998" r="22" fill="transparent" data-sq="pit-11" class="board-cell"/>
 </svg>
