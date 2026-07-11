@@ -31,6 +31,9 @@ engine:
     labels: true
   pieces:
     set: playstrategy-go-classic
+    vocabulary:
+      b: bS
+      w: wS
   players: [black, white]
   setup: ""
 ---

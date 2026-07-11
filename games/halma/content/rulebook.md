@@ -30,6 +30,9 @@ engine:
     labels: false
   pieces:
     set: playstrategy-draughts-plain
+    vocabulary:
+      b: bM
+      w: wM
   players: [white, black]
 ---
 

@@ -30,6 +30,9 @@ engine:
     labels: true
   pieces:
     set: playstrategy-flipello-classic
+    vocabulary:
+      b: bP
+      w: wP
   players: [black, white]
 ---
 

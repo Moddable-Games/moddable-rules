@@ -32,6 +32,9 @@ engine:
     labels: false
   pieces:
     set: playstrategy-go-classic
+    vocabulary:
+      b: bS
+      w: wS
   players: [white, black]
 ---
 

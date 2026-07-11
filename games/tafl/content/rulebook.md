@@ -29,7 +29,11 @@ engine:
     cellColor: uniform
     labels: false
   pieces:
-    set: mce-tafl
+    set: playstrategy-go-classic
+    vocabulary:
+      K: wS
+      w: wS
+      b: bS
   players: [white, black]
 ---
 

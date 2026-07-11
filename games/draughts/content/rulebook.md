@@ -30,6 +30,11 @@ engine:
     labels: false
   pieces:
     set: playstrategy-dameo-fabirovsky
+    vocabulary:
+      b: bM
+      w: wM
+      B: bK
+      W: wK
   players: [white, black]
 ---
 

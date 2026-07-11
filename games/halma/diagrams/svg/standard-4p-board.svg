@@ -1,5 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 384" width="384" height="384">
 <title>Standard 4-Player Halma</title>
+<defs>
+<symbol id="piece-bM" viewBox="0 0 320 320"><!-- Single draughts piece centered in a square -->
+  <!--<circle cx="160" cy="160" r="127.7" fill="#191716" opacity="0.98"/>-->
+  
+  <circle cx="160" cy="160" r="127.7" fill="#4d433a" opacity="0.98"/>
+  <circle cx="156" cy="156" r="123.7" fill="#191716" opacity="0.98"/></symbol>
+<symbol id="piece-wM" viewBox="0 0 320 320"><!-- Single draughts piece centered in a square -->
+  <!--<circle cx="160" cy="160" r="127.7" fill="#F8F6F2" opacity="0.98"/>-->
+  
+  <circle cx="160" cy="160" r="127.7" fill="#5E5854" opacity="0.98"/>
+  <circle cx="156" cy="156" r="123.7" fill="#F8F6F2" opacity="0.98"/></symbol>
+</defs>
 <rect x="0" y="0" width="24" height="24" fill="#f0d9b5"/>
 <rect x="24" y="0" width="24" height="24" fill="#b58863"/>
 <rect x="48" y="0" width="24" height="24" fill="#f0d9b5"/>
@@ -512,4 +524,58 @@
 <rect x="312" y="360" width="24" height="24" fill="transparent" data-sq="n1" class="board-cell"/>
 <rect x="336" y="360" width="24" height="24" fill="transparent" data-sq="o1" class="board-cell"/>
 <rect x="360" y="360" width="24" height="24" fill="transparent" data-sq="p1" class="board-cell"/>
+<g pointer-events="none">
+<use href="#piece-bM" x="0" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="24" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="48" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="72" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="288" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="312" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="336" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="360" y="0" width="24" height="24"/>
+<use href="#piece-bM" x="0" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="24" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="48" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="72" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="288" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="312" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="336" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="360" y="24" width="24" height="24"/>
+<use href="#piece-bM" x="0" y="48" width="24" height="24"/>
+<use href="#piece-bM" x="24" y="48" width="24" height="24"/>
+<use href="#piece-bM" x="48" y="48" width="24" height="24"/>
+<use href="#piece-bM" x="312" y="48" width="24" height="24"/>
+<use href="#piece-bM" x="336" y="48" width="24" height="24"/>
+<use href="#piece-bM" x="360" y="48" width="24" height="24"/>
+<use href="#piece-bM" x="0" y="72" width="24" height="24"/>
+<use href="#piece-bM" x="24" y="72" width="24" height="24"/>
+<use href="#piece-bM" x="336" y="72" width="24" height="24"/>
+<use href="#piece-bM" x="360" y="72" width="24" height="24"/>
+<use href="#piece-wM" x="0" y="288" width="24" height="24"/>
+<use href="#piece-wM" x="24" y="288" width="24" height="24"/>
+<use href="#piece-wM" x="336" y="288" width="24" height="24"/>
+<use href="#piece-wM" x="360" y="288" width="24" height="24"/>
+<use href="#piece-wM" x="0" y="312" width="24" height="24"/>
+<use href="#piece-wM" x="24" y="312" width="24" height="24"/>
+<use href="#piece-wM" x="48" y="312" width="24" height="24"/>
+<use href="#piece-wM" x="312" y="312" width="24" height="24"/>
+<use href="#piece-wM" x="336" y="312" width="24" height="24"/>
+<use href="#piece-wM" x="360" y="312" width="24" height="24"/>
+<use href="#piece-wM" x="0" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="24" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="48" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="72" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="288" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="312" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="336" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="360" y="336" width="24" height="24"/>
+<use href="#piece-wM" x="0" y="360" width="24" height="24"/>
+<use href="#piece-wM" x="24" y="360" width="24" height="24"/>
+<use href="#piece-wM" x="48" y="360" width="24" height="24"/>
+<use href="#piece-wM" x="72" y="360" width="24" height="24"/>
+<use href="#piece-wM" x="288" y="360" width="24" height="24"/>
+<use href="#piece-wM" x="312" y="360" width="24" height="24"/>
+<use href="#piece-wM" x="336" y="360" width="24" height="24"/>
+<use href="#piece-wM" x="360" y="360" width="24" height="24"/>
+</g>
 </svg>
