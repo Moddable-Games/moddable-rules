@@ -16,8 +16,8 @@ engine:
   asymmetric: true
   hand: true
   drops: true
-  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/4K3"
 published: true
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/4K3"
 ---
 
 ## Shinobi Chess+

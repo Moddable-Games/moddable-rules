@@ -20,19 +20,13 @@ theme:
 engine:
   topology:
     type: grid
-    rows: 19
-    cols: 19
+    rows: 15
+    cols: 15
     layout: cross
   render:
     cellSize: 20
     cellColor: checkered
     labels: false
-  surface:
-    colors:
-      floor: "#d4d8f0"
-      floor-stroke: "#2d3a8c"
-      home: "#1a1a6b"
-      home-stroke: "#12124a"
   pieces:
     set: playstrategy-draughts-plain
   players: [yellow, green, red, blue]
