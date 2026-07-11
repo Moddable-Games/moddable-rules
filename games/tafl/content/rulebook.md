@@ -12,7 +12,6 @@ updated: "2026-06-26"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
@@ -23,7 +22,6 @@ engine:
     type: grid
     rows: 9
     cols: 9
-  surface: parchment
   render:
     cellSize: 40
     cellColor: uniform

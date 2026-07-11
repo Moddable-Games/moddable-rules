@@ -27,7 +27,7 @@ engine:
   render:
     cellSize: 40
     cellColor: checkered
-    labels: false
+    labels: true
   pieces:
     set: playstrategy-dameo-fabirovsky
     vocabulary:

@@ -12,7 +12,6 @@ updated: "2026-07-08"
 published: true
 variants: true
 theme:
-  surface: light
   tint: cool
   texture: none
   cover: minimal
@@ -23,7 +22,6 @@ engine:
     type: grid
     rows: 10
     cols: 10
-  surface: military
   render:
     cellSize: 32
     cellColor: uniform

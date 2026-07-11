@@ -12,7 +12,6 @@ updated: "2026-06-15"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
@@ -24,7 +23,6 @@ engine:
     rows: 2
     cols: 6
     stores: true
-  surface: earth
   render:
     cellSize: 22
     labels: false

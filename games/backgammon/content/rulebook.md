@@ -12,7 +12,6 @@ updated: "2026-06-15"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
@@ -23,7 +22,6 @@ engine:
     type: track
     shape: linear
     positions: 24
-  surface: parchment
   render:
     cellSize: 22
     trackStyle: triangular-points

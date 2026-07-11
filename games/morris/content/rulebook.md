@@ -12,7 +12,6 @@ updated: "2026-06-15"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
@@ -25,7 +24,6 @@ engine:
     params:
       rings: 3
       midpoints: true
-  surface: slate
   render:
     cellSize: 24
     cellColor: uniform

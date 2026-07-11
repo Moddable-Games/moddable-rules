@@ -12,7 +12,6 @@ updated: "2026-06-18"
 published: true
 variants: false
 theme:
-  surface: light
   tint: cool
   texture: crosshatch
   cover: ornate
@@ -24,7 +23,6 @@ engine:
     rows: 15
     cols: 15
     layout: cross
-  surface: parchment
   render:
     cellSize: 20
     cellColor: checkered

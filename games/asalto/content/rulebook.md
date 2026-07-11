@@ -12,7 +12,6 @@ updated: "2026-07-06"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: none
   cover: minimal
@@ -22,7 +21,6 @@ engine:
   topology:
     type: graph
     structure: grid-cross
-  surface: parchment
   render:
     cellSize: 24
   pieces:

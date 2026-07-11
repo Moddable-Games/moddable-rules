@@ -12,7 +12,6 @@ updated: "2026-06-19"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
@@ -23,7 +22,6 @@ engine:
     type: grid
     rows: 16
     cols: 16
-  surface: wood-classic
   render:
     cellSize: 24
     cellColor: checkered

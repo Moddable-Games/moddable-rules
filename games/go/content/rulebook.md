@@ -12,7 +12,6 @@ updated: "2026-06-22"
 published: true
 variants: true
 theme:
-  surface: light
   tint: neutral
   texture: none
   cover: minimal
@@ -24,7 +23,6 @@ engine:
     rows: 19
     cols: 19
     layout: intersections
-  surface: wood-light
   render:
     cellSize: 20
     cellColor: uniform

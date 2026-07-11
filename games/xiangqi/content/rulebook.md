@@ -12,7 +12,6 @@ updated: "2026-07-08"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
@@ -24,7 +23,6 @@ engine:
     rows: 10
     cols: 9
     layout: intersections
-  surface: wood-light
   render:
     cellSize: 36
     cellColor: uniform
