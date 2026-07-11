@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 368" width="368" height="368">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 368 368" width="368" height="368">
 <title>Standard Reversi</title>
 <rect x="24" y="24" width="40" height="40" fill="#2e7d32"/>
 <rect x="64" y="24" width="40" height="40" fill="#2e7d32"/>
@@ -146,8 +146,6 @@
 <rect x="224" y="304" width="40" height="40" fill="transparent" data-sq="f1" class="board-cell"/>
 <rect x="264" y="304" width="40" height="40" fill="transparent" data-sq="g1" class="board-cell"/>
 <rect x="304" y="304" width="40" height="40" fill="transparent" data-sq="h1" class="board-cell"/>
-<g pointer-events="none">
-</g>
 <text x="44" y="359.6" text-anchor="middle" font-size="10" fill="#1b5e20" font-family="monospace">a</text>
 <text x="84" y="359.6" text-anchor="middle" font-size="10" fill="#1b5e20" font-family="monospace">b</text>
 <text x="124" y="359.6" text-anchor="middle" font-size="10" fill="#1b5e20" font-family="monospace">c</text>

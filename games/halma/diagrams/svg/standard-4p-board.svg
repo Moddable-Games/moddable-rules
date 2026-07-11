@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384" width="384" height="384">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 384" width="384" height="384">
 <title>Standard 4-Player Halma</title>
 <rect x="0" y="0" width="24" height="24" fill="#f0d9b5"/>
 <rect x="24" y="0" width="24" height="24" fill="#b58863"/>
@@ -512,6 +512,4 @@
 <rect x="312" y="360" width="24" height="24" fill="transparent" data-sq="n1" class="board-cell"/>
 <rect x="336" y="360" width="24" height="24" fill="transparent" data-sq="o1" class="board-cell"/>
 <rect x="360" y="360" width="24" height="24" fill="transparent" data-sq="p1" class="board-cell"/>
-<g pointer-events="none">
-</g>
 </svg>
