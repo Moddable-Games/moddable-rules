@@ -162,6 +162,20 @@
 <rect x="252" y="328" width="38" height="38" fill="transparent" data-sq="g1" class="board-cell"/>
 <rect x="290" y="328" width="38" height="38" fill="transparent" data-sq="h1" class="board-cell"/>
 <rect x="328" y="328" width="38" height="38" fill="transparent" data-sq="i1" class="board-cell"/>
+<g pointer-events="none">
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bR.svg" x="100" y="24" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bB.svg" x="138" y="24" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bM.svg" x="176" y="24" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bC.svg" x="100" y="62" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bW.svg" x="138" y="62" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bN.svg" x="176" y="62" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wN.svg" x="176" y="290" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wW.svg" x="214" y="290" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wC.svg" x="252" y="290" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wM.svg" x="176" y="328" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wB.svg" x="214" y="328" width="38" height="38"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wR.svg" x="252" y="328" width="38" height="38"/>
+</g>
 <text x="43" y="381.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">a</text>
 <text x="81" y="381.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">b</text>
 <text x="119" y="381.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">c</text>

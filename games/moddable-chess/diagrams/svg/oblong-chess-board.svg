@@ -128,6 +128,24 @@
 <rect x="58" y="534" width="34" height="34" fill="transparent" data-sq="b1" class="board-cell"/>
 <rect x="92" y="534" width="34" height="34" fill="transparent" data-sq="c1" class="board-cell"/>
 <rect x="126" y="534" width="34" height="34" fill="transparent" data-sq="d1" class="board-cell"/>
+<g pointer-events="none">
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bR.svg" x="24" y="24" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bN.svg" x="58" y="24" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bB.svg" x="92" y="24" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bK.svg" x="126" y="24" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bP.svg" x="24" y="58" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bP.svg" x="58" y="58" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bP.svg" x="92" y="58" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bP.svg" x="126" y="58" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wP.svg" x="24" y="500" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wP.svg" x="58" y="500" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wP.svg" x="92" y="500" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wP.svg" x="126" y="500" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wK.svg" x="24" y="534" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wB.svg" x="58" y="534" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wN.svg" x="92" y="534" width="34" height="34"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wR.svg" x="126" y="534" width="34" height="34"/>
+</g>
 <text x="41" y="583.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">a</text>
 <text x="75" y="583.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">b</text>
 <text x="109" y="583.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">c</text>

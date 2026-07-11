@@ -64,6 +64,8 @@
 <rect x="64" y="304" width="40" height="40" fill="transparent" data-sq="b1" class="board-cell"/>
 <rect x="104" y="304" width="40" height="40" fill="transparent" data-sq="c1" class="board-cell"/>
 <rect x="144" y="304" width="40" height="40" fill="transparent" data-sq="d1" class="board-cell"/>
+<g pointer-events="none">
+</g>
 <text x="44" y="359.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">a</text>
 <text x="84" y="359.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">b</text>
 <text x="124" y="359.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">c</text>

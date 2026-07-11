@@ -18,6 +18,14 @@
 <rect x="24" y="124" width="50" height="50" fill="transparent" data-sq="a1" class="board-cell"/>
 <rect x="74" y="124" width="50" height="50" fill="transparent" data-sq="b1" class="board-cell"/>
 <rect x="124" y="124" width="50" height="50" fill="transparent" data-sq="c1" class="board-cell"/>
+<g pointer-events="none">
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bP.svg" x="24" y="24" width="50" height="50"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bP.svg" x="74" y="24" width="50" height="50"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/bP.svg" x="124" y="24" width="50" height="50"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wP.svg" x="24" y="124" width="50" height="50"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wP.svg" x="74" y="124" width="50" height="50"/>
+<image href="/Applications/MAMP/htdocs/MODDABLE/moddable-engine/pieces/sets/mce-chess/wP.svg" x="124" y="124" width="50" height="50"/>
+</g>
 <text x="49" y="189.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">a</text>
 <text x="99" y="189.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">b</text>
 <text x="149" y="189.6" text-anchor="middle" font-size="10" fill="rgba(0,0,0,0.1)" font-family="monospace">c</text>
