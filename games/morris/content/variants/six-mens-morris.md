@@ -14,8 +14,9 @@ engine:
     params:
       rings: 2
       midpoints: true
+  render:
+    canvasSize: 260
   players: [white, black]
-  setup: ""
 ---
 
 ## Six Men's Morris

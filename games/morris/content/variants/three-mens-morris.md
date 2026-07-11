@@ -14,8 +14,9 @@ engine:
     params:
       rings: 1
       midpoints: true
+  render:
+    canvasSize: 200
   players: [white, black]
-  setup: ""
 ---
 
 ## Three Men's Morris
