@@ -12,7 +12,7 @@ engine:
     radius: 5
     shape: hexagonal
     orientation: flat
-  surface: wood-classic
+  surface: slate
   render:
     cellSize: 22
     cellColor: tricolor

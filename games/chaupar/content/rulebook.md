@@ -20,9 +20,10 @@ theme:
 engine:
   topology:
     type: grid
-    rows: 15
-    cols: 15
+    rows: 19
+    cols: 19
     layout: cross
+  surface: wood-classic
   render:
     cellSize: 20
     cellColor: checkered

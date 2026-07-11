@@ -20,13 +20,15 @@ theme:
 engine:
   topology:
     type: grid
-    rows: 15
-    cols: 15
+    rows: 19
+    cols: 19
     layout: cross
+  surface: wood-classic
   render:
     cellSize: 20
     cellColor: checkered
     labels: false
+    castles: [[0,9],[3,8],[3,10],[8,3],[8,15],[9,0],[9,18],[10,3],[10,15],[15,8],[15,10],[18,9]]
   pieces:
     set: playstrategy-draughts-plain
   players: [yellow, green, red, blue]

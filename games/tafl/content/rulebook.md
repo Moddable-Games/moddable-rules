@@ -22,6 +22,7 @@ engine:
     type: grid
     rows: 9
     cols: 9
+  surface: wood-classic
   render:
     cellSize: 40
     cellColor: uniform
