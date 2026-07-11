@@ -9,8 +9,9 @@ win: Move all four pieces from the Charkoni, around the board, and back home fir
 special: Cowrie shell randomisation. Grace rolls on 0, 1, or 6 mouths up.
 engine:
   topology:
-    type: track
-    positions: 68
+    type: grid
+    rows: 19
+    cols: 19
   players: [red, yellow, green, blue]
   setup: "home:4Y,home:4G,home:4R,home:4B"
 ---

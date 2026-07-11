@@ -9,8 +9,9 @@ win: Both teammates return all their pieces to the Charkoni first, after capturi
 special: Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups.
 engine:
   topology:
-    type: track
-    positions: 68
+    type: grid
+    rows: 19
+    cols: 19
   players: [red, yellow, green, blue]
   setup: "home:4Y,home:4G,home:4R,home:4B"
 ---

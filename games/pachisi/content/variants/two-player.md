@@ -9,8 +9,9 @@ win: Move all eight pieces (two colours) home before your opponent
 special: Each player controls two opposite arms. Rules otherwise identical to standard.
 engine:
   topology:
-    type: track
-    positions: 68
+    type: grid
+    rows: 19
+    cols: 19
   players: [red, yellow]
   setup: "home:4Y,home:4G"
 ---
