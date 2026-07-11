@@ -16,6 +16,9 @@ engine:
     layer_labels: ["Board A", "Board B"]
     physical_representation: one-board
   players: [white, black]
+  setup:
+    - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+    - "8/8/8/8/8/8/8/8"
   notation: alice-algebraic
 published: true
 ---

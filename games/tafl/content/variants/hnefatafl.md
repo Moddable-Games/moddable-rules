@@ -2,6 +2,13 @@
 title: "Hnefatafl"
 slug: "hnefatafl"
 variant_of: "tafl"
+engine:
+  topology:
+    type: grid
+    rows: 11
+    cols: 11
+  players: [attackers, defenders]
+  setup: "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
 published: true
 ---
 

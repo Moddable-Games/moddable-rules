@@ -11,6 +11,7 @@ engine:
     type: hexagonal
     cells: 91
   players: [sente, gote]
+  setup: "-1,-2:p,-1,2:P,-1,4:S,-1,5:N,-2,-2:p,-2,2:P,-2,4:K,-2,5:G,-3,-2:p,-3,2:P,-3,4:S,-3,5:G,-4,2:P,-4,4:R,-4,5:N,-5,2:P,-5,5:L,0,-2:p,0,-4:b,0,-5:l,0,2:P,0,4:B,0,5:L,1,-2:p,1,-4:s,1,-5:n,1,2:P,2,-2:p,2,-4:k,2,-5:g,2,2:P,3,-2:p,3,-4:s,3,-5:g,3,2:P,4,-2:p,4,-4:r,4,-5:n,5,-2:p,5,-5:l"
   notation: hex-coordinate
   drops: true
   promotion_zone: 4

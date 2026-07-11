@@ -15,6 +15,10 @@ engine:
     layers: 3
     layer_labels: ["Subterranean", "Land", "Air"]
   players: [gold, scarlet]
+  setup:
+    - "2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1"
+    - "OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo"
+    - "2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1"
   notation: level-algebraic
 ---
 

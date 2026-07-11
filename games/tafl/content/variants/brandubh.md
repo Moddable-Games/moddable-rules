@@ -2,6 +2,13 @@
 title: "Brandubh"
 slug: "brandubh"
 variant_of: "tafl"
+engine:
+  topology:
+    type: grid
+    rows: 7
+    cols: 7
+  players: [attackers, defenders]
+  setup: "3b3/3b3/3w3/bbwKwbb/3w3/3b3/3b3"
 published: true
 ---
 

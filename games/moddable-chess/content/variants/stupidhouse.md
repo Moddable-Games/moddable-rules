@@ -13,6 +13,9 @@ engine:
     cols: 8
     boards: 2
   players: [white1, black1, white2, black2]
+  setup:
+    - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+    - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---

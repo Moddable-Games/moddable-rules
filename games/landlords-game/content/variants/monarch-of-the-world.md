@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 40
   players: [player1, player2]
+  setup: ""
 ---
 
 ## Monarch of the World

@@ -13,6 +13,7 @@ engine:
     files: 7
     file_labels: ["a","b","c","d","e","f","g"]
   players: [white, black]
+  setup: "-1,-2:n,-1,0:p,-1,1:P,-1,3:N,-2,-1:r,-2,0:p,-2,2:P,-2,3:R,0,-1:b,0,-2:b,0,-3:k,0,0:p,0,1:B,0,2:B,0,3:K,1,-1:p,1,-3:n,1,0:P,1,2:N,2,-2:p,2,-3:r,2,0:P,2,1:R"
 published: true
 ---
 
