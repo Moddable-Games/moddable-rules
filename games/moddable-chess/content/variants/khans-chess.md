@@ -13,6 +13,7 @@ engine:
     cols: 8
   players: [white, gold]
   asymmetric: true
+  setup: "lhakahls/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR"
 published: true
 status: draft
 updated: 2026-07-07
@@ -23,7 +24,6 @@ tags:
   - divergent-pieces
   - campmate
   - couch-tomato
-  setup: "lhakahls/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR"
 ---
 
 # Khan's Chess
