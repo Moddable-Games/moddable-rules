@@ -14,6 +14,7 @@ engine:
     cellColor: checkered
     labels: false
     zones:
+      voids: [[0,4],[0,5],[2,4],[2,5]]
       cells:
         - type: rosette
           at: [[0,0],[0,6],[1,3],[2,0],[2,6]]
