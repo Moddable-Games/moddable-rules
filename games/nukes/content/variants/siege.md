@@ -11,7 +11,19 @@ special: Hostage mechanic replaced with own-supply recruiting. Enemy hostages on
 engine:
   topology:
     type: hex
+    shape: hexagonal
     radius: 3
+    orientation: pointy
+  render:
+    cellSize: 24
+    cellColor: tricolor
+    frame: true
+  surface:
+    colors:
+      cell-light: "#7cb342"
+      cell-dark: "#558b2f"
+      cell-mid: "#8bc34a"
+      stroke: "rgba(0,0,0,0.3)"
   players: [player1, player2]
 ---
 

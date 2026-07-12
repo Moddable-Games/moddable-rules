@@ -31,7 +31,7 @@ engine:
       p2-stroke: "#c05050"
       water: "#4a90c8"
       water-stroke: "#2a2a2a"
-      void: "#1a1a2e"
+      
   pieces:
     set: mce-chess
   players: [white, black]
