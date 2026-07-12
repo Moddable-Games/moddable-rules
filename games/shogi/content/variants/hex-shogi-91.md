@@ -8,13 +8,24 @@ win: Checkmate the King
 special: "2-player Shogi variant on a 91-hexagon board (same shape as Glinski's Hexagonal Chess, differently oriented). All Shogi pieces adapted to hexagonal movement. Drops apply with hex-specific Pawn rules: no two-Pawn-per-file restriction (left out); Pawn drop may not check the King (stricter than Shogi). Promotion zone is 4 ranks. Fergus Duniho."
 engine:
   topology:
-    type: hexagonal
-    cells: 91
+    type: hex
+    shape: hexagonal
+    radius: 5
+    orientation: pointy
+  render:
+    cellSize: 22
+    cellColor: tricolor
+  surface:
+    colors:
+      cell-light: "#d4a76a"
+      cell-dark: "#8b6535"
+      cell-mid: "#b88b50"
+      stroke: "rgba(0,0,0,0.2)"
+      background: "#3a2a1a"
+  pieces:
+    set: kahu-shogi-international
   players: [sente, gote]
-  setup: "-1,-2:p,-1,2:P,-1,4:S,-1,5:N,-2,-2:p,-2,2:P,-2,4:K,-2,5:G,-3,-2:p,-3,2:P,-3,4:S,-3,5:G,-4,2:P,-4,4:R,-4,5:N,-5,2:P,-5,5:L,0,-2:p,0,-4:b,0,-5:l,0,2:P,0,4:B,0,5:L,1,-2:p,1,-4:s,1,-5:n,1,2:P,2,-2:p,2,-4:k,2,-5:g,2,2:P,3,-2:p,3,-4:s,3,-5:g,3,2:P,4,-2:p,4,-4:r,4,-5:n,5,-2:p,5,-5:l"
-  notation: hex-coordinate
-  drops: true
-  promotion_zone: 4
+  setup: "-5,5:L,-4,5:N,-3,5:G,-2,5:G,-1,5:N,0,5:L,-4,4:R,-3,4:S,-2,4:K,-1,4:S,0,4:B,-5,2:P,-4,2:P,-3,2:P,-2,2:P,-1,2:P,0,2:P,1,2:P,2,2:P,3,2:P,5,-5:l,4,-5:n,3,-5:g,2,-5:g,1,-5:n,0,-5:l,4,-4:r,3,-4:s,2,-4:k,1,-4:s,0,-4:b,5,-2:p,4,-2:p,3,-2:p,2,-2:p,1,-2:p,0,-2:p,-1,-2:p,-2,-2:p,-3,-2:p"
 published: true
 ---
 
