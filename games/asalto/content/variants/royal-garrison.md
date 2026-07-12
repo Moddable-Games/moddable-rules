@@ -14,7 +14,20 @@ engine:
     params:
       rows: [[2,3,4,5,6],[2,3,4,5,6],[0,1,2,3,4,5,6,7,8],[0,1,2,3,4,5,6,7,8],[0,1,2,3,4,5,6,7,8],[0,1,2,3,4,5,6,7,8],[0,1,2,3,4,5,6,7,8],[2,3,4,5,6],[2,3,4,5,6]]
       fortressRows: 2
+      fortressCols: [2,3,4,5,6]
+      fortressExtraRow: 2
+      extraNodes:
+        - row: 0
+          col: 1
+          fortress: true
+          connectsTo: [[0,2],[1,2]]
+        - row: 0
+          col: 7
+          fortress: true
+          connectsTo: [[0,6],[1,6]]
       diagonals: true
+  render:
+    canvasSize: 380
   players: [officers, soldiers]
   setup: "n13:O,n15:O,n17:O,n11:S,n12:S,n18:S,n19:S,n20:S,n21:S,n22:S,n23:S,n24:S,n25:S,n26:S,n27:S,n28:S,n29:S,n30:S,n31:S,n32:S,n33:S,n34:S,n35:S,n36:S,n37:S,n38:S,n39:S,n40:S,n41:S,n42:S,n43:S,n44:S,n45:S,n46:S,n47:S,n48:S,n49:S,n50:S,n51:S,n52:S,n53:S,n54:S,n55:S,n56:S,n57:S,n58:S,n59:S,n60:S,n61:S,n62:S,n63:S,n64:S,n65:S"
 ---
