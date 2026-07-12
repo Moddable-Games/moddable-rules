@@ -11,7 +11,7 @@ engine:
   render:
     trackStyle: perimeter
   content:
-    source: landlords-game-boards.json
+    source: econopoly-boards.json
     board: 1932-prosperity
   players: [red, blue, green, yellow]
 ---
