@@ -10,8 +10,8 @@ special: "Three stacked 12×8 boards. 42 pieces per side across 15 piece types. 
 engine:
   topology:
     type: grid
-    rows: 12
-    cols: 8
+    rows: 8
+    cols: 12
     layers: 3
     layer_labels: ["Subterranean", "Land", "Air"]
   players: [gold, scarlet]
@@ -19,7 +19,15 @@ engine:
     - "2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1"
     - "OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo"
     - "2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1"
-  notation: level-algebraic
+  render:
+    cellSize: 24
+    layerColors:
+      - lightSquare: "#a0c8e8"
+        darkSquare: "#6a9ec8"
+      - lightSquare: "#a8c890"
+        darkSquare: "#6d9450"
+      - lightSquare: "#d4a080"
+        darkSquare: "#a06848"
 ---
 
 ## Gygax Chess
