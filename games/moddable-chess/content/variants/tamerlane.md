@@ -11,11 +11,14 @@ engine:
   topology:
     type: grid
     rows: 10
-    cols: 11
+    cols: 12
   players: [white, black]
   render:
     cellSize: 30
-  setup: "rntzfkwztnr/e1j1d1d1j1e/ppppppppppp/11/11/11/11/PPPPPPPPPPP/E1J1D1D1J1E/RNTZFKWZTNR"
+    cellColor: checkered
+    zones:
+      voids: [[0,11],[2,11],[3,11],[4,11],[5,11],[6,11],[7,11],[9,11]]
+  setup: "rntzfkwztnr1/e1j1d1d1j1e1/ppppppppppp1/12/12/12/12/PPPPPPPPPPP1/E1J1D1D1J1E1/RNTZFKWZTNR1"
 ---
 
 <div class="section">
