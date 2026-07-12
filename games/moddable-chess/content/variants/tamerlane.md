@@ -15,7 +15,7 @@ engine:
   players: [white, black]
   render:
     cellSize: 30
-  setup: "11/rntzfkwztnr/ppppppppppp/e1j1d1d1j1e/11/11/E1J1D1D1J1E/PPPPPPPPPPP/RNTZFKWZTNR/11"
+  setup: "rntzfkwztnr/e1j1d1d1j1e/ppppppppppp/11/11/11/11/PPPPPPPPPPP/E1J1D1D1J1E/RNTZFKWZTNR"
 ---
 
 <div class="section">

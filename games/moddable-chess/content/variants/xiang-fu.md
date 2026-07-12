@@ -11,10 +11,40 @@ engine:
     type: grid
     rows: 9
     cols: 9
-  players: [white, black]
+    layout: intersections
+  players: [red, black]
+  pieces:
+    set: mce-xiangqi-fairy
+    vocabulary:
+      R: wR
+      r: bR
+      B: wB
+      b: bB
+      M: wE
+      m: bE
+      C: wC
+      c: bC
+      W: wV
+      w: bV
+      N: wN
+      n: bN
+      G: wK
+      g: bK
   render:
     cellSize: 38
-  setup: "2rbm4/2cwn4/9/9/9/9/9/4NWC2/4MBR2"
+    cellColor: xiangqi
+    river: false
+    palace: false
+    zones:
+      lake:
+        fill: "#6b9fd4"
+        opacity: 0.4
+        cells: [[3,2],[3,3],[3,4],[3,5],[3,6],[4,2],[4,3],[4,4],[4,5],[4,6],[5,2],[5,3],[5,4],[5,5],[5,6]]
+      rings:
+        fill: "#d4a76b"
+        opacity: 0.25
+        cells: [[0,0],[0,1],[0,7],[0,8],[1,0],[1,1],[1,7],[1,8],[7,0],[7,1],[7,7],[7,8],[8,0],[8,1],[8,7],[8,8]]
+  setup: "2rbm4/2cwn4/2g1g4/9/9/9/4G1G2/4NWC2/4MBR2"
 ---
 
 ## Xiang Fu
