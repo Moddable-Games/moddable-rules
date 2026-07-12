@@ -28,7 +28,7 @@ engine:
   render:
     cellSize: 40
     cellColor: uniform
-    labels: false
+    labels: true
   pieces:
     set: playstrategy-go-classic
     vocabulary:

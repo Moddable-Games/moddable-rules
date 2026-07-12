@@ -13,6 +13,20 @@ engine:
     rows: 5
     cols: 5
     layout: intersections
+  render:
+    cellSize: 48
+    decorations:
+      - type: diagonals
+        pattern: alternating
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      w:
+        type: stone
+        color: white
+      b:
+        type: stone
+        color: black
   players: [white, black]
   setup: "bbbbb/bbbbb/bb1ww/wwwww/wwwww"
 ---

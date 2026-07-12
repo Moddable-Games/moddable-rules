@@ -26,9 +26,10 @@ engine:
     layout: intersections
   surface: parchment
   render:
-    cellSize: 40
+    cellSize: 50
     cellColor: uniform
-    labels: false
+    decorations:
+      - type: arcs
   pieces:
     set: playstrategy-go-classic
     vocabulary:
