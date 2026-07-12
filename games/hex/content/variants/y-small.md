@@ -11,6 +11,9 @@ engine:
     type: hex
     shape: triangular
     sideLength: 9
+  render:
+    cellSize: 22
+    frame: triangle
   players: [black, white]
   setup: ""
 ---

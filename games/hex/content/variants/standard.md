@@ -13,6 +13,8 @@ engine:
     shape: rhombus
     rows: 11
     cols: 11
+  render:
+    cellSize: 20
   players: [black, white]
   setup: ""
 ---
