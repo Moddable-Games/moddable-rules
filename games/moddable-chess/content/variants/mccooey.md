@@ -9,10 +9,16 @@ special: "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per
 engine:
   topology:
     type: hex
-    cells: 91
-    files: 11
-    file_labels: ["a","b","c","d","e","f","g","h","i","j","k"]
-  surface: wood-classic
+    shape: hexagonal
+    radius: 5
+    orientation: flat
+  surface:
+    colors:
+      cell-light: "#ffce9e"
+      cell-dark: "#d18b47"
+      cell-mid: "#e8ab6f"
+      stroke: "rgba(0,0,0,0.15)"
+      background: "#2c2c2c"
   render:
     cellSize: 22
     cellColor: tricolor

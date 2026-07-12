@@ -9,9 +9,17 @@ special: "Horizontally-oriented rhombus board of 81 hexes. Pawns start on rank 3
 engine:
   topology:
     type: hex
-    cells: 81
-    orientation: horizontal
-  surface: wood-classic
+    shape: rhombus
+    rows: 9
+    cols: 9
+    orientation: pointy
+  surface:
+    colors:
+      cell-light: "#ffce9e"
+      cell-dark: "#d18b47"
+      cell-mid: "#e8ab6f"
+      stroke: "rgba(0,0,0,0.15)"
+      background: "#2c2c2c"
   render:
     cellSize: 20
     cellColor: tricolor

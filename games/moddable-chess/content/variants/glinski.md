@@ -12,7 +12,13 @@ engine:
     radius: 5
     shape: hexagonal
     orientation: flat
-  surface: slate
+  surface:
+    colors:
+      cell-light: "#ffce9e"
+      cell-dark: "#d18b47"
+      cell-mid: "#e8ab6f"
+      stroke: "rgba(0,0,0,0.15)"
+      background: "#2c2c2c"
   render:
     cellSize: 22
     cellColor: tricolor

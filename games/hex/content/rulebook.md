@@ -23,12 +23,18 @@ engine:
     type: hex
     shape: rhombus
     orientation: pointy
-  surface: slate
   render:
     cellSize: 20
     cellColor: uniform
-    frame: true
+    frame: rhombus
     labels: false
+  surface:
+    colors:
+      cell-light: "#e8e8e8"
+      cell-dark: "#c0c0c0"
+      cell-mid: "#d8d8d8"
+      stroke: "rgba(0,0,0,0.3)"
+      background: "#f5f5f5"
   pieces:
     set: playstrategy-go-classic
     vocabulary:
