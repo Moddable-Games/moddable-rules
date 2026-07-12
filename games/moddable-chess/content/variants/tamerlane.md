@@ -11,14 +11,14 @@ engine:
   topology:
     type: grid
     rows: 10
-    cols: 12
+    cols: 13
   players: [white, black]
   render:
-    cellSize: 30
+    cellSize: 28
     cellColor: checkered
     zones:
-      voids: [[0,11],[2,11],[3,11],[4,11],[5,11],[6,11],[7,11],[9,11]]
-  setup: "rntzfkwztnr1/e1j1d1d1j1e1/ppppppppppp1/12/12/12/12/PPPPPPPPPPP1/E1J1D1D1J1E1/RNTZFKWZTNR1"
+      voids: [[0,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[0,12],[1,12],[2,12],[3,12],[4,12],[5,12],[6,12],[7,12],[9,12]]
+  setup: "1rntzfkwztnr1/1e1j1d1d1j1e1/1ppppppppppp1/13/13/13/13/1PPPPPPPPPPP1/1E1J1D1D1J1E1/1RNTZFKWZTNR1"
 ---
 
 <div class="section">
