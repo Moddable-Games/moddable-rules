@@ -8,6 +8,15 @@ engine:
     rows: 7
     cols: 7
   players: [attackers, defenders]
+  render:
+    cellSize: 40
+    zones:
+      fill: floor
+      cells:
+        - type: throne
+          at: [[3,3]]
+        - type: corner
+          at: [[0,0],[0,6],[6,0],[6,6]]
   setup: "3b3/3b3/3w3/bbwKwbb/3w3/3b3/3b3"
 published: true
 ---

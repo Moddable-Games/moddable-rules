@@ -23,12 +23,20 @@ engine:
     rows: 19
     cols: 19
     layout: cross
-  surface: wood-classic
   render:
     cellSize: 20
     cellColor: checkered
     labels: false
     castles: [[0,9],[3,8],[3,10],[8,3],[8,15],[9,0],[9,18],[10,3],[10,15],[15,8],[15,10],[18,9]]
+  surface:
+    colors:
+      floor: "#f0d5a0"
+      floor-stroke: "#8b6545"
+      castle: "#c0622f"
+      castle-stroke: "#8b6545"
+      castle-x: "#fff8f0"
+      home: "#8b1a1a"
+      home-stroke: "#6a1212"
   pieces:
     set: playstrategy-draughts-plain
   players: [yellow, green, red, blue]
