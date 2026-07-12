@@ -16,6 +16,8 @@ engine:
     layer_labels: ["Board A", "Board B"]
     physical_representation: one-board
   players: [white, black]
+  render:
+    cellSize: 34
   setup:
     - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
     - "8/8/8/8/8/8/8/8"

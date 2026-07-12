@@ -13,6 +13,8 @@ engine:
     cols: 8
     boards: 2
   players: [white1, black2, white3, black4]
+  render:
+    cellSize: 34
   setup:
     - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
     - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
