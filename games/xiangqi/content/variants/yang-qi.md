@@ -11,6 +11,11 @@ engine:
     type: grid
     rows: 10
     cols: 9
+  pieces:
+    set: mce-xiangqi-fairy
+    vocabulary:
+      V: wV
+      v: bV
   players: [red, black]
   setup: "rhvakavhr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RHVAKAVHR"
 ---

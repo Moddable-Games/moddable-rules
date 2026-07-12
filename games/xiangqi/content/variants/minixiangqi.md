@@ -15,6 +15,7 @@ engine:
   setup: "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR"
   render:
     cellSize: 40
+    decorations: []
 ---
 
 ## Minixiangqi
