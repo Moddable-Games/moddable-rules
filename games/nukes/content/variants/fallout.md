@@ -14,17 +14,13 @@ engine:
     shape: hexagonal
     radius: 3
     orientation: pointy
+  players: [player1, player2]
   render:
     cellSize: 24
-    cellColor: tricolor
+    cellColor: terrain
     frame: true
-  surface:
-    colors:
-      cell-light: "#7cb342"
-      cell-dark: "#558b2f"
-      cell-mid: "#8bc34a"
-      stroke: "rgba(0,0,0,0.3)"
-  players: [player1, player2]
+    seed: 77
+  setup: "0,0:sand,0,1:water,1,0:water,1,-1:mount,0,-1:sand,-1,0:water,-1,1:trees,-1,2:water,0,2:grass,1,1:mount,2,0:grass,2,-1:trees,2,-2:water,1,-2:grass,0,-2:mount,-1,-1:water,-2,0:mount,-2,1:grass,-2,2:trees,-1,3:sand,0,3:water,1,2:grass,2,1:grass,3,0:base,3,-1:sand,3,-2:grass,3,-3:grass,2,-3:grass,1,-3:mount,0,-3:trees,-1,-2:trees,-2,-1:trees,-3,0:base,-3,1:water,-3,2:trees,-3,3:mount,-2,3:water"
 ---
 
 ## Nukes: Fallout
