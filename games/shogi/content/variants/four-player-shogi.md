@@ -11,12 +11,14 @@ engine:
     type: grid
     rows: 15
     cols: 15
-    shape: cross
-    orientation: shogi
-  players: [north, east, south, west]
+  players: [red, yellow, green, blue]
+  pieces:
+    set: mce-4player-shogi
   setup: "3,yR,yN,yS,yG,yK,yG,yS,yN,yR,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rR,1,rP,9,bP,1,bR/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rR,1,rP,9,bP,1,bR/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gR,gN,gS,gG,gK,gG,gS,gN,gR,3"
   render:
     cellSize: 22
+    zones:
+      voids: [[0,0],[0,1],[0,2],[0,12],[0,13],[0,14],[1,0],[1,1],[1,2],[1,12],[1,13],[1,14],[2,0],[2,1],[2,2],[2,12],[2,13],[2,14],[12,0],[12,1],[12,2],[12,12],[12,13],[12,14],[13,0],[13,1],[13,2],[13,12],[13,13],[13,14],[14,0],[14,1],[14,2],[14,12],[14,13],[14,14]]
   notation: shogi
   drops: true
 published: true

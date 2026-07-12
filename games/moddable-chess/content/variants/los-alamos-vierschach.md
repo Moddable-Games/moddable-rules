@@ -9,10 +9,12 @@ special: "4-player chess by Jörg Knappen combining Los Alamos Chess (6×6, no B
 engine:
   topology:
     type: grid
-    cells: 84
-    shape: cross
-  players: [north, east, south, west]
-  setup: "3,yR,yN,yB,yK,yQ,yB,yN,yR,3/3,yP,yP,yP,yP,yP,yP,yP,yP,3/14/bR,bP,10,gP,gR/bN,bP,10,gP,gN/bB,bP,10,gP,gB/bK,bP,10,gP,gQ/bQ,bP,10,gP,gK/bB,bP,10,gP,gB/bN,bP,10,gP,gN/bR,bP,10,gP,gR/14/3,rP,rP,rP,rP,rP,rP,rP,rP,3/3,rR,rN,rB,rQ,rK,rB,rN,rR,3"
+    rows: 10
+    cols: 10
+  players: [red, yellow, green, blue]
+  pieces:
+    set: mce-4player
+  setup: "2,yR,yN,yQ,yK,yN,yR,2/2,yP,yP,yP,yP,yP,yP,2/bR,bP,6,gP,gR/bN,bP,6,gP,gN/bQ,bP,6,gP,gK/bK,bP,6,gP,gQ/bN,bP,6,gP,gN/bR,bP,6,gP,gR/2,rP,rP,rP,rP,rP,rP,2/2,rR,rN,rQ,rK,rN,rR,2"
   render:
     cellSize: 30
     zones:
