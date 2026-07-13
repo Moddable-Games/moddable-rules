@@ -13,6 +13,26 @@ engine:
     rows: 10
     cols: 9
   players: [blue, red]
+  render:
+    ops:
+      - op: rect
+        fill: voidFill
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: lightSquare
+        dark: darkSquare
+        defaultFill: floor
+        zones:
+          cells:
+            - type: lake
+              at: [[4,2],[4,4],[4,6],[5,2],[5,4],[5,6]]
+        typeColors:
+          floor: floor
+          lake: lake
+        typeStrokes:
+          floor: floorStroke
+          lake: lakeStroke
 ---
 
 ## L'Attaque (Standard)

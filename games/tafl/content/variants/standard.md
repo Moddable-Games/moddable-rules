@@ -10,6 +10,30 @@ engine:
     cols: 9
   players: [attackers, defenders]
   setup: "3bbb3/4b4/4w4/b3w3b/bbwwKwwbb/b3w3b/4w4/4b4/3bbb3"
+  render:
+    ops:
+      - op: rect
+        fill: voidFill
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: lightSquare
+        dark: darkSquare
+        defaultFill: floor
+        zones:
+          cells:
+            - type: throne
+              at: [[4,4]]
+            - type: corner
+              at: [[0,0],[0,8],[8,0],[8,8]]
+        typeColors:
+          floor: floor
+          throne: throne
+          corner: corner
+        typeStrokes:
+          floor: floorStroke
+          throne: throneStroke
+          corner: cornerStroke
 published: true
 ---
 

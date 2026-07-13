@@ -17,6 +17,29 @@ engine:
           at: [[5,5]]
         - type: corner
           at: [[0,0],[0,10],[10,0],[10,10]]
+    ops:
+      - op: rect
+        fill: voidFill
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: lightSquare
+        dark: darkSquare
+        defaultFill: floor
+        zones:
+          cells:
+            - type: throne
+              at: [[5,5]]
+            - type: corner
+              at: [[0,0],[0,10],[10,0],[10,10]]
+        typeColors:
+          floor: floor
+          throne: throne
+          corner: corner
+        typeStrokes:
+          floor: floorStroke
+          throne: throneStroke
+          corner: cornerStroke
   setup: "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
 published: true
 ---
