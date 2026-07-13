@@ -24,12 +24,27 @@ engine:
     rows: 6
     cols: 6
     layout: intersections
-  surface: parchment
+  surface:
+    colors:
+      frame: "#5a3e28"
+      board: "#c8a872"
+      boardInner: "#d4b896"
+      gridLine: "#6b4a30"
+      dotFill: "#4a3320"
+      innerArc: "#6b4a30"
+      outerArc: "#6b4a30"
   render:
     cellSize: 50
     cellColor: uniform
+    boardStyle: surakarta
     decorations:
       - type: arcs
+        rings: 2
+        cornerOffset: 2
+      - type: markers
+        auto: all-cells
+        fill: dotFill
+        size: 3.5
   pieces:
     set: playstrategy-go-classic
     vocabulary:

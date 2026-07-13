@@ -23,14 +23,32 @@ engine:
     rows: 9
     cols: 9
     layout: intersections
+  surface:
+    colors:
+      board: "#e8c97a"
+      boardBorder: "#8b6914"
+      gridLine: "#6b4e1a"
+      hoshi: "#6b4e1a"
+      promotionZone: "rgba(180, 60, 40, 0.08)"
+      labelText: "#5a4020"
   render:
     cellSize: 36
     cellColor: uniform
     labels: false
+    boardStyle: shogi
     decorations:
       - type: markers
-        style: dot
-        auto: shogi-hoshi
+        at: [[2,2],[2,6],[6,2],[6,6]]
+        fill: hoshi
+        size: 3
+      - type: tint
+        region:
+          rows: [0, 2]
+        color: promotionZone
+      - type: tint
+        region:
+          rows: [6, 8]
+        color: promotionZone
   pieces:
     set: kahu-shogi-kanji-red-wood
   players: [sente, gote]

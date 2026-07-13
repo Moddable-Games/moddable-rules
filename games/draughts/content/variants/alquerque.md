@@ -13,11 +13,20 @@ engine:
     rows: 5
     cols: 5
     layout: intersections
+  surface:
+    colors:
+      monoSquare: "#d9b483"
+      gridLine: "#8b6914"
   render:
     cellSize: 48
+    boardStyle: alquerque
     decorations:
       - type: diagonals
         pattern: alternating
+      - type: markers
+        auto: all-cells
+        fill: gridLine
+        size: 3
   pieces:
     set: playstrategy-go-classic
     vocabulary:
