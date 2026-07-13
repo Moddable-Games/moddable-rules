@@ -31,6 +31,12 @@ engine:
     cellSize: 21
     cellColor: checkered
     labels: false
+    ops:
+      - op: cells
+        pattern: checkered
+        light: "#f0d9b5"
+        dark: "#b58863"
+        interactive: true
   pieces:
     set: mce-chess
   players: [white, black]
