@@ -18,22 +18,22 @@ engine:
     boardStyle: alquerque
     ops:
       - op: rect
-        fill: "#d9b483"
+        fill: monoSquare
         scope: board
         rx: 4
       - op: grid-lines
         grouped: false
         order: hv
-        color: "#8b6914"
+        color: gridLine
         width: 2
       - op: diagonals
         pattern: alternating
-        color: "#8b6914"
+        color: gridLine
         width: 1.5
       - op: markers
         allCells: true
         radius: 3
-        fill: "#8b6914"
+        fill: gridLine
         hits:
           radiusFactor: 0.4
           idStyle: algebraic
