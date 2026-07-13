@@ -16,12 +16,27 @@ engine:
   render:
     cellSize: 48
     boardStyle: alquerque
-    decorations:
-      - type: diagonals
+    ops:
+      - op: rect
+        fill: "#d9b483"
+        scope: board
+        rx: 4
+      - op: grid-lines
+        grouped: false
+        order: hv
+        color: "#8b6914"
+        width: 2
+      - op: diagonals
         pattern: alternating
-      - type: markers
-        auto: all-cells
-        size: 3
+        color: "#8b6914"
+        width: 1.5
+      - op: markers
+        allCells: true
+        radius: 3
+        fill: "#8b6914"
+        hits:
+          radiusFactor: 0.4
+          idStyle: algebraic
   pieces:
     set: playstrategy-go-classic
     vocabulary:

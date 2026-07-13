@@ -28,6 +28,17 @@ engine:
     cellSize: 40
     cellColor: uniform
     labels: false
+    ops:
+      - op: rect
+        fill: "#d9b483"
+        scope: board
+      - op: grid-lines
+        grouped: false
+        order: vh
+        color: "#8b6914"
+        width: 1.5
+      - op: hit-targets
+        shape: rect
   pieces:
     set: mce-jungle
   players: [white, black]

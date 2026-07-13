@@ -25,14 +25,30 @@ engine:
     layout: intersections
   render:
     cellSize: 20
-    cellColor: uniform
     labels: true
-    boardStyle: go
-    decorations:
-      - type: markers
-        auto: star-points
+    inset: 15
+    idStyle: go
+    ops:
+      - op: rect
+        fill: woodLight
+        scope: board
+      - op: rect
+        fill: woodDark
+        scope: grid
+        rx: 2
+      - op: grid-lines
+        grouped: true
+        order: hv
+        color: gridLine
+        width: 0.8
+      - op: markers
+        grouped: true
         fill: starPoint
-        size: 3
+        at: auto-star-points
+        radius: 3
+      - op: hit-targets
+        grouped: true
+        radiusFactor: 0.45
   pieces:
     set: playstrategy-go-classic
     vocabulary:
