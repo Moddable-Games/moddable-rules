@@ -27,6 +27,21 @@ engine:
     cellSize: 20
     cellColor: checkered
     labels: false
+    ops:
+      - op: rect
+        fill: voidFill
+        scope: board
+      - op: cells
+        pattern: cross
+        light: lightSquare
+        dark: darkSquare
+        castles: []
+        typeColors:
+          floor: floor
+          home: home
+        typeStrokes:
+          floor: floorStroke
+          home: homeStroke
   surface:
     colors:
       floor: "#d4d8f0"

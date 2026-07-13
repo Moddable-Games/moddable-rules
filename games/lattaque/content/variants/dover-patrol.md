@@ -21,6 +21,29 @@ engine:
           at: [[0,5],[11,2]]
         - type: harbour
           at: [[0,6],[0,7],[1,5],[1,6],[1,7],[2,5],[2,6],[2,7],[9,0],[9,1],[9,2],[10,0],[10,1],[10,2],[11,0],[11,1]]
+    ops:
+      - op: rect
+        fill: voidFill
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: lightSquare
+        dark: darkSquare
+        defaultFill: sea
+        zones:
+          cells:
+            - type: base
+              at: [[0,5],[11,2]]
+            - type: harbour
+              at: [[0,6],[0,7],[1,5],[1,6],[1,7],[2,5],[2,6],[2,7],[9,0],[9,1],[9,2],[10,0],[10,1],[10,2],[11,0],[11,1]]
+        typeColors:
+          sea: sea
+          base: base
+          harbour: harbour
+        typeStrokes:
+          sea: seaStroke
+          base: baseStroke
+          harbour: harbourStroke
   surface:
     colors:
       sea: "#3a6e9e"

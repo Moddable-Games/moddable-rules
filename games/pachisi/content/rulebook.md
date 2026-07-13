@@ -28,6 +28,26 @@ engine:
     cellColor: checkered
     labels: false
     castles: [[0,9],[3,8],[3,10],[8,3],[8,15],[9,0],[9,18],[10,3],[10,15],[15,8],[15,10],[18,9]]
+    ops:
+      - op: rect
+        fill: voidFill
+        scope: board
+      - op: cells
+        pattern: cross
+        light: lightSquare
+        dark: darkSquare
+        castles: [[0,9],[3,8],[3,10],[8,3],[8,15],[9,0],[9,18],[10,3],[10,15],[15,8],[15,10],[18,9]]
+        typeColors:
+          floor: floor
+          castle: castle
+          home: home
+        typeStrokes:
+          floor: floorStroke
+          castle: castleStroke
+          home: homeStroke
+        decorations:
+          castle: castle-x
+        castleXColor: castleX
   surface:
     colors:
       floor: "#f0d5a0"

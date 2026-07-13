@@ -19,6 +19,25 @@ engine:
       cells:
         - type: aerodrome
           at: [[0,3],[0,4],[10,3],[10,4]]
+    ops:
+      - op: rect
+        fill: voidFill
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: lightSquare
+        dark: darkSquare
+        defaultFill: floor
+        zones:
+          cells:
+            - type: aerodrome
+              at: [[0,3],[0,4],[10,3],[10,4]]
+        typeColors:
+          floor: floor
+          aerodrome: aerodrome
+        typeStrokes:
+          floor: floorStroke
+          aerodrome: aerodromeStroke
   surface:
     colors:
       floor: "#8fa8bf"
