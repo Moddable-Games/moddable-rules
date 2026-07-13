@@ -23,14 +23,6 @@ engine:
     rows: 9
     cols: 9
     layout: intersections
-  surface:
-    colors:
-      board: "#e8c97a"
-      boardBorder: "#8b6914"
-      gridLine: "#6b4e1a"
-      hoshi: "#6b4e1a"
-      promotionZone: "rgba(180, 60, 40, 0.08)"
-      labelText: "#5a4020"
   render:
     cellSize: 36
     cellColor: uniform

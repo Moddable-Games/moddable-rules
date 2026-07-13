@@ -23,14 +23,6 @@ engine:
     rows: 10
     cols: 9
     layout: intersections
-  surface:
-    colors:
-      board: "#f5deb3"
-      gridLine: "#4a3520"
-      river: "#f5deb3"
-      riverText: "#4a3520"
-      palace: "#4a3520"
-      labelText: "#4a3520"
   render:
     cellSize: 36
     cellColor: uniform
