@@ -8,6 +8,10 @@ order: 6
 win: Capture or block all opponent pieces
 special: The common ancestor. Movement along lines (orthogonal and diagonal). No promotion.
 engine:
+  surface:
+    colors:
+      cell-light: "#d9b483"
+      stroke: "rgba(0,0,0,0.1)"
   topology:
     type: grid
     rows: 5

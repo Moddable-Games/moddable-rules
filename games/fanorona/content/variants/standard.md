@@ -18,7 +18,7 @@ engine:
         pattern: alternating
   surface:
     colors:
-      cell-light: "#d4a96a"
+      cell-light: "#d9b483"
       stroke: "#7a4510"
   pieces:
     set: playstrategy-go-classic
