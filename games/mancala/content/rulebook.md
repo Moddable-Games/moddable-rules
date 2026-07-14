@@ -23,6 +23,15 @@ engine:
     rows: 2
     cols: 6
     stores: true
+  surface:
+    colors:
+      board-outer: "#7A5A32"
+      board-inner: "#9B7740"
+      pit: "#4E3320"
+      pit-stroke: "#3A2515"
+      seed: "#C8B898"
+      seed-stroke: "#8A7A5A"
+      marker: "#C49040"
   render:
     cellSize: 22
     labels: false
