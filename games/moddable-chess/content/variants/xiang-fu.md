@@ -33,6 +33,7 @@ engine:
   render:
     cellSize: 38
     cellColor: xiangqi
+    inset: 20
     river: false
     palace: false
     zones:
@@ -44,6 +45,31 @@ engine:
         fill: "#ffffff"
         opacity: 0.55
         cells: [[0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[7,0],[7,1],[7,2],[7,3],[7,4],[7,5],[7,6],[7,7],[7,8]]
+    ops:
+      - op: rect
+        fill: board
+        scope: board
+      - op: zone-cells
+        zones:
+          - fill: "#6b8fb8"
+            opacity: 0.5
+            cells: [[2,2],[2,3],[2,4],[2,5],[2,6],[3,2],[3,3],[3,4],[3,5],[3,6],[4,2],[4,3],[4,4],[4,5],[4,6],[5,2],[5,3],[5,4],[5,5],[5,6],[6,2],[6,3],[6,4],[6,5],[6,6]]
+          - fill: "#ffffff"
+            opacity: 0.55
+            cells: [[0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[7,0],[7,1],[7,2],[7,3],[7,4],[7,5],[7,6],[7,7],[7,8]]
+      - op: rect
+        fill: none
+        scope: board
+        stroke: gridLine
+        stroke-width: 2
+      - op: grid-lines
+        grouped: true
+        order: hv
+        color: gridLine
+        width: 1
+      - op: hit-targets
+        grouped: true
+        radiusFactor: 0.4
   setup: "2rbm4/2cwn4/2g1g4/9/9/9/4G1G2/4NWC2/4MBR2"
 ---
 
