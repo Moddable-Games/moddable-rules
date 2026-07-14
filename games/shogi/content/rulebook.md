@@ -35,6 +35,16 @@ engine:
     cellColor: uniform
     labels: false
     boardStyle: shogi
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#e8c97a"
+        stroke: "#6b4e1a"
+        interactive: true
+      - op: grid-lines
+        color: "#6b4e1a"
+        width: 2
+        grouped: false
     decorations:
       - type: markers
         at: [[2,2],[2,6],[6,2],[6,6]]

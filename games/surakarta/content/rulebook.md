@@ -34,6 +34,16 @@ engine:
     cellSize: 50
     cellColor: uniform
     boardStyle: surakarta
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#d9c5a0"
+        stroke: "#8b7355"
+        interactive: true
+      - op: grid-lines
+        color: "#8b7355"
+        width: 2
+        grouped: false
     decorations:
       - type: arcs
         rings: 2

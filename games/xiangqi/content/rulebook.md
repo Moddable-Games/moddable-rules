@@ -34,6 +34,19 @@ engine:
     boardStyle: xiangqi
     river: true
     palace: true
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#f5deb3"
+        stroke: "#4a3520"
+        interactive: true
+      - op: grid-lines
+        color: "#4a3520"
+        width: 2
+        grouped: false
+        split:
+          topRow: 4
+          bottomRow: 5
     decorations:
       - type: gap
         rows: [4, 5]

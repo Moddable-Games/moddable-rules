@@ -21,6 +21,12 @@ engine:
   render:
     cellSize: 30
     cellColor: checkered
+    ops:
+      - op: cells
+        pattern: checkered
+        light: "#f0d9b5"
+        dark: "#b58863"
+        interactive: true
     decorations: []
 ---
 

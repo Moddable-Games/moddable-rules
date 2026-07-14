@@ -15,6 +15,16 @@ engine:
   setup: "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR"
   render:
     cellSize: 40
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#f5deb3"
+        stroke: "#4a3520"
+        interactive: true
+      - op: grid-lines
+        color: "#4a3520"
+        width: 2
+        grouped: false
     decorations: []
 ---
 
