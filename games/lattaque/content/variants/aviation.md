@@ -21,12 +21,12 @@ engine:
           at: [[0,3],[0,4],[10,3],[10,4]]
     ops:
       - op: rect
-        fill: voidFill
+        fill: transparent
         scope: board
       - op: cells
         pattern: cellMap
-        light: lightSquare
-        dark: darkSquare
+        light: cell-light
+        dark: cell-dark
         defaultFill: floor
         zones:
           cells:
@@ -36,8 +36,8 @@ engine:
           floor: floor
           aerodrome: aerodrome
         typeStrokes:
-          floor: floorStroke
-          aerodrome: aerodromeStroke
+          floor: floor-stroke
+          aerodrome: aerodrome-stroke
   surface:
     colors:
       floor: "#8fa8bf"

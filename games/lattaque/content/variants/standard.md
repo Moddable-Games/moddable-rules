@@ -16,12 +16,12 @@ engine:
   render:
     ops:
       - op: rect
-        fill: voidFill
+        fill: transparent
         scope: board
       - op: cells
         pattern: cellMap
-        light: lightSquare
-        dark: darkSquare
+        light: cell-light
+        dark: cell-dark
         defaultFill: floor
         zones:
           cells:
@@ -31,8 +31,8 @@ engine:
           floor: floor
           lake: lake
         typeStrokes:
-          floor: floorStroke
-          lake: lakeStroke
+          floor: floor-stroke
+          lake: lake-stroke
 ---
 
 ## L'Attaque (Standard)

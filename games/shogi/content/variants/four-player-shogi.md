@@ -26,8 +26,8 @@ engine:
     ops:
       - op: cells
         pattern: checkered
-        light: lightSquare
-        dark: darkSquare
+        light: cell-light
+        dark: cell-dark
         interactive: true
   pieceRotations:
     red: 90

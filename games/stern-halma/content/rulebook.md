@@ -24,9 +24,9 @@ engine:
     structure: star
   surface:
     colors:
-      boardBody: "#4a3728"
-      boardRim: "#5c4636"
-      boardFelt: "#1a3a1a"
+      board-body: "#4a3728"
+      board-rim: "#5c4636"
+      board-felt: "#1a3a1a"
       centre: "#2e7d32"
       outline: "#1b5e20"
       hole: "#1b5e20"

@@ -13,12 +13,12 @@ engine:
   render:
     ops:
       - op: rect
-        fill: voidFill
+        fill: transparent
         scope: board
       - op: cells
         pattern: cellMap
-        light: lightSquare
-        dark: darkSquare
+        light: cell-light
+        dark: cell-dark
         defaultFill: floor
         zones:
           cells:
@@ -31,9 +31,9 @@ engine:
           throne: throne
           corner: corner
         typeStrokes:
-          floor: floorStroke
-          throne: throneStroke
-          corner: cornerStroke
+          floor: floor-stroke
+          throne: throne-stroke
+          corner: corner-stroke
 published: true
 ---
 

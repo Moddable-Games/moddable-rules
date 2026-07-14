@@ -28,8 +28,8 @@ engine:
     colors:
       cell-light: "#d9c5a0"
       stroke: "#8b7355"
-      innerArc: "#8b7355"
-      outerArc: "#8b7355"
+      inner-arc: "#8b7355"
+      outer-arc: "#8b7355"
   render:
     cellSize: 50
     cellColor: uniform

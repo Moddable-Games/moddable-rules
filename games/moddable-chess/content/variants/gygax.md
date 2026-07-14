@@ -22,12 +22,12 @@ engine:
   render:
     cellSize: 24
     layerColors:
-      - lightSquare: "#a0c8e8"
-        darkSquare: "#6a9ec8"
-      - lightSquare: "#a8c890"
-        darkSquare: "#6d9450"
-      - lightSquare: "#d4a080"
-        darkSquare: "#a06848"
+      - cell-light: "#a0c8e8"
+        cell-dark: "#6a9ec8"
+      - cell-light: "#a8c890"
+        cell-dark: "#6d9450"
+      - cell-light: "#d4a080"
+        cell-dark: "#a06848"
 ---
 
 ## Gygax Chess

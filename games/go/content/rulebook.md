@@ -25,11 +25,11 @@ engine:
     layout: intersections
   surface:
     colors:
-      woodLight: "#dcb35c"
-      woodDark: "#d4a843"
+      cell-light: "#dcb35c"
+      cell-dark: "#d4a843"
       stroke: "#3d2b1a"
-      labelText: "#5a4020"
-      starPoint: "#3d2b1a"
+      label-text: "#5a4020"
+      star-point: "#3d2b1a"
   render:
     cellSize: 20
     labels: true
@@ -37,20 +37,20 @@ engine:
     idStyle: go
     ops:
       - op: rect
-        fill: woodLight
+        fill: cell-light
         scope: board
       - op: rect
-        fill: woodDark
+        fill: cell-dark
         scope: grid
         rx: 2
       - op: grid-lines
         grouped: true
         order: hv
-        color: gridLine
+        color: stroke
         width: 0.8
       - op: markers
         grouped: true
-        fill: starPoint
+        fill: star-point
         at: auto-star-points
         radius: 3
       - op: hit-targets

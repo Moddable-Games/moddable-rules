@@ -29,19 +29,19 @@ engine:
     labels: false
     ops:
       - op: rect
-        fill: voidFill
+        fill: transparent
         scope: board
       - op: cells
         pattern: cross
-        light: lightSquare
-        dark: darkSquare
+        light: cell-light
+        dark: cell-dark
         castles: []
         typeColors:
           floor: floor
           home: home
         typeStrokes:
-          floor: floorStroke
-          home: homeStroke
+          floor: floor-stroke
+          home: home-stroke
   surface:
     colors:
       floor: "#d4d8f0"

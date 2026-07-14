@@ -27,7 +27,7 @@ engine:
       line: "#2a2a2a"
       point: "#2a2a2a"
       fortress: "rgba(40,80,180,0.15)"
-      fortressBorder: "#3355aa"
+      fortress-border: "#3355aa"
   render:
     cellSize: 24
   pieces:

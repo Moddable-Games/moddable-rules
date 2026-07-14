@@ -29,7 +29,7 @@ engine:
       cell-dark: "#8b6914"
       stroke: "#6b4e1a"
       hoshi: "#6b4e1a"
-      promotionZone: "rgba(180, 60, 40, 0.08)"
+      promotion-zone: "rgba(180, 60, 40, 0.08)"
   render:
     cellSize: 36
     cellColor: uniform
@@ -53,11 +53,11 @@ engine:
       - type: tint
         region:
           rows: [0, 2]
-        color: promotionZone
+        color: promotion-zone
       - type: tint
         region:
           rows: [6, 8]
-        color: promotionZone
+        color: promotion-zone
   pieces:
     set: kahu-shogi-kanji-red-wood
   players: [sente, gote]

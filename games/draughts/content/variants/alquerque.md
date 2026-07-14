@@ -22,22 +22,22 @@ engine:
     boardStyle: alquerque
     ops:
       - op: rect
-        fill: monoSquare
+        fill: cell-light
         scope: board
         rx: 4
       - op: grid-lines
         grouped: false
         order: hv
-        color: gridLine
+        color: stroke
         width: 2
       - op: diagonals
         pattern: alternating
-        color: gridLine
+        color: stroke
         width: 1.5
       - op: markers
         allCells: true
         radius: 3
-        fill: gridLine
+        fill: stroke
         hits:
           radiusFactor: 0.4
           idStyle: algebraic

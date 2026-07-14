@@ -23,12 +23,12 @@ engine:
           at: [[0,6],[0,7],[1,5],[1,6],[1,7],[2,5],[2,6],[2,7],[9,0],[9,1],[9,2],[10,0],[10,1],[10,2],[11,0],[11,1]]
     ops:
       - op: rect
-        fill: voidFill
+        fill: transparent
         scope: board
       - op: cells
         pattern: cellMap
-        light: lightSquare
-        dark: darkSquare
+        light: cell-light
+        dark: cell-dark
         defaultFill: sea
         zones:
           cells:
@@ -41,9 +41,9 @@ engine:
           base: base
           harbour: harbour
         typeStrokes:
-          sea: seaStroke
-          base: baseStroke
-          harbour: harbourStroke
+          sea: sea-stroke
+          base: base-stroke
+          harbour: harbour-stroke
   surface:
     colors:
       sea: "#3a6e9e"

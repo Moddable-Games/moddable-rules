@@ -47,7 +47,7 @@ engine:
         cells: [[0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[7,0],[7,1],[7,2],[7,3],[7,4],[7,5],[7,6],[7,7],[7,8]]
     ops:
       - op: rect
-        fill: board
+        fill: cell-light
         scope: board
       - op: zone-cells
         zones:
@@ -60,12 +60,12 @@ engine:
       - op: rect
         fill: none
         scope: board
-        stroke: gridLine
+        stroke: stroke
         stroke-width: 2
       - op: grid-lines
         grouped: true
         order: hv
-        color: gridLine
+        color: stroke
         width: 1
       - op: hit-targets
         grouped: true

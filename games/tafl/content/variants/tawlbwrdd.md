@@ -19,12 +19,12 @@ engine:
           at: [[0,0],[0,10],[10,0],[10,10]]
     ops:
       - op: rect
-        fill: voidFill
+        fill: transparent
         scope: board
       - op: cells
         pattern: cellMap
-        light: lightSquare
-        dark: darkSquare
+        light: cell-light
+        dark: cell-dark
         defaultFill: floor
         zones:
           cells:
@@ -37,9 +37,9 @@ engine:
           throne: throne
           corner: corner
         typeStrokes:
-          floor: floorStroke
-          throne: throneStroke
-          corner: cornerStroke
+          floor: floor-stroke
+          throne: throne-stroke
+          corner: corner-stroke
   setup: "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
 published: true
 ---
