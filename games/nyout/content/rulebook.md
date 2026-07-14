@@ -27,7 +27,13 @@ engine:
       nodesPerSide: 5
       diagonals: true
       intermediatesPerDiagonal: 2
-  surface: parchment
+  surface:
+    colors:
+      background: "#f5f0e8"
+      line: "#8b7355"
+      point: "#8b7355"
+      junction: "#c0622f"
+      centre: "#8b1a1a"
   render:
     cellSize: 24
   pieces:

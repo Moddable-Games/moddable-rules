@@ -24,6 +24,11 @@ engine:
     params:
       rings: 3
       midpoints: true
+  surface:
+    colors:
+      background: "#f5e6c8"
+      line: "#4a3520"
+      point: "#4a3520"
   render:
     cellSize: 24
     cellColor: uniform

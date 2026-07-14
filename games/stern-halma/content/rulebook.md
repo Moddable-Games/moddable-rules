@@ -22,7 +22,20 @@ engine:
   topology:
     type: graph
     structure: star
-  surface: felt-green
+  surface:
+    colors:
+      boardBody: "#4a3728"
+      boardRim: "#5c4636"
+      boardFelt: "#1a3a1a"
+      centre: "#2e7d32"
+      outline: "#1b5e20"
+      hole: "#1b5e20"
+      armN: "#f2e8d4"
+      armNE: "#d4e4f0"
+      armSE: "#e8d8ec"
+      armS: "#f2e8d4"
+      armSW: "#d4e4f0"
+      armNW: "#e8d8ec"
   render:
     cellSize: 24
     labels: false

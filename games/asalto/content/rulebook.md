@@ -21,6 +21,13 @@ engine:
   topology:
     type: graph
     structure: grid-cross
+  surface:
+    colors:
+      background: "#f5e6c8"
+      line: "#2a2a2a"
+      point: "#2a2a2a"
+      fortress: "rgba(40,80,180,0.15)"
+      fortressBorder: "#3355aa"
   render:
     cellSize: 24
   pieces:
