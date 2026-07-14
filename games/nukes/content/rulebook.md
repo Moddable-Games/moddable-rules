@@ -26,6 +26,11 @@ theme:
   accent: amber
   accent-secondary: teal
   section-divider: "☢"
+engine:
+  surface:
+    colors:
+      stroke: "rgba(0,0,0,0.2)"
+      border: "#6b4226"
 ---
 
 <div class="section">

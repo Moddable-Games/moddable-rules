@@ -20,6 +20,7 @@ engine:
       cell-dark: "#8b2240"
       stroke: "rgba(0,0,0,0.25)"
       background: "#2a1a0a"
+      border: "#6b4226"
   pieces:
     set: mce-chess
   players: [white, black]

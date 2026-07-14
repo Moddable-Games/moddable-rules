@@ -22,6 +22,7 @@ engine:
       cell-mid: "#b88b50"
       stroke: "rgba(0,0,0,0.2)"
       background: "#3a2a1a"
+      border: "#6b4226"
   pieces:
     set: kahu-shogi-international
   players: [sente, gote]

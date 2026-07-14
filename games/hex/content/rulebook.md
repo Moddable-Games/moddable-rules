@@ -35,6 +35,7 @@ engine:
       cell-mid: "#d8d8d8"
       stroke: "rgba(0,0,0,0.3)"
       background: "#f5f5f5"
+      border: "#6b4226"
   pieces:
     set: playstrategy-go-classic
     vocabulary:

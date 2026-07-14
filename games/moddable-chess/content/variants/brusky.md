@@ -19,6 +19,7 @@ engine:
       cell-mid: "#e8ab6f"
       stroke: "rgba(0,0,0,0.15)"
       background: "#2c2c2c"
+      border: "#6b4226"
   render:
     cellSize: 20
     cellColor: tricolor
