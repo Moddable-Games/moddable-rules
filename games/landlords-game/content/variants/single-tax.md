@@ -13,6 +13,8 @@ engine:
     positions: 40
   players: [player1, player2]
   setup: ""
+  render:
+    overflow: visible
   content:
     source: landlords-game-boards.json
     board: 1904-patent

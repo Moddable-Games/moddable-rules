@@ -22,6 +22,12 @@ engine:
     type: track
     shape: linear
     positions: 24
+  surface:
+    colors:
+      board-outer: "#3d2b1f"
+      felt: "#1a5c3a"
+      point-a: "#c47e3b"
+      point-b: "#8b2500"
   render:
     cellSize: 22
     trackStyle: triangular-points
