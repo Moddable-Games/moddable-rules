@@ -23,6 +23,10 @@ engine:
     rows: 10
     cols: 9
     layout: intersections
+  surface:
+    colors:
+      cell-light: "#f5deb3"
+      stroke: "#4a3520"
   render:
     cellSize: 36
     cellColor: uniform

@@ -23,6 +23,13 @@ engine:
     rows: 19
     cols: 19
     layout: intersections
+  surface:
+    colors:
+      woodLight: "#dcb35c"
+      woodDark: "#d4a843"
+      stroke: "#3d2b1a"
+      labelText: "#5a4020"
+      starPoint: "#3d2b1a"
   render:
     cellSize: 20
     labels: true

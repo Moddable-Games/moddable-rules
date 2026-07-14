@@ -23,6 +23,13 @@ engine:
     rows: 9
     cols: 9
     layout: intersections
+  surface:
+    colors:
+      cell-light: "#e8c97a"
+      cell-dark: "#8b6914"
+      stroke: "#6b4e1a"
+      hoshi: "#6b4e1a"
+      promotionZone: "rgba(180, 60, 40, 0.08)"
   render:
     cellSize: 36
     cellColor: uniform
