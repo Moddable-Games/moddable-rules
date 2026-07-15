@@ -26,7 +26,7 @@ engine:
   surface: felt-green
   components:
     deck:
-      type: flower-48
+      type: hanafuda-48
     layout:
       type: fan
   players: [south, north]
