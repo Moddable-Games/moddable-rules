@@ -56,7 +56,7 @@ Piece codes used in FEN notation below: G=Griffon, R=Dragon (not Rook), S=Sylph 
 
 **Level 3 — Air**
 
-{{svg:level3-start.svg "Gygax Chess — Level 3 Air starting position"}}
+{{svg:gygax-board.svg "Gygax Chess — three-level starting position"}}
 
 ```
 2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1
@@ -66,8 +66,6 @@ Gold rank 1: Griffons at 3c1 and 3k1; Dragon at 3g1. Gold rank 2: Sylphs at 3a2,
 
 **Level 2 — Land**
 
-{{svg:level2-start.svg "Gygax Chess — Level 2 Land starting position"}}
-
 ```
 OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo
 ```
@@ -75,8 +73,6 @@ OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo
 Gold rank 1 from file a: Oliphant, Unicorn, Hero, Thief, Cleric, Mage, King, Paladin, Thief, Hero, Unicorn, Oliphant. Gold rank 2: twelve Warriors.
 
 **Level 1 — Subterranean**
-
-{{svg:level1-start.svg "Gygax Chess — Level 1 Subterranean starting position"}}
 
 ```
 2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1

@@ -21,7 +21,7 @@ engine:
 
 Renju is a professional variant of Gomoku. It was named renju by Japanese journalist Ruikou Kuroiwa on December 6, 1899. The name "renju" means "connected pearls" in Japanese. The game is played with black and white stones on a 15×15 board. Renju weakens the first-player advantage for Black by adding special restrictions.
 
-{{svg:go-15x15-board.svg "Empty 15×15 board — Renju"}}
+{{svg:renju-board.svg "Empty 15×15 board — Renju"}}
 
 There are two key differences between Renju and Gomoku. First, Renju has forbidden moves to limit Black's advantage. Second, Renju uses special opening rules to balance the starting positions of games.
 

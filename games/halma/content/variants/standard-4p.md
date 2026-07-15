@@ -20,7 +20,7 @@ engine:
 
 The four-player form of Halma uses all four corner camps on the same 16&times;16 board, with 13 pieces per player.
 
-{{svg:halma-4p-board.svg "Halma — 4-player starting position"}}
+{{svg:standard-4p-board.svg "Halma — 4-player starting position"}}
 
 ### Setup
 

@@ -20,7 +20,7 @@ engine:
 
 The foundational four-player form of Pachisi, played since at least 500 CE and associated with the Mughal court of Emperor Akbar, who is said to have had a life-sized Pachisi court at Fatehpur Sikri where humans served as the playing pieces.
 
-{{svg:pachisi-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
+{{svg:standard-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
 
 ### Equipment
 

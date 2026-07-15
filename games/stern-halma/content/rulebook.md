@@ -58,7 +58,7 @@ The game is also widely known as Chinese Checkers, though it has no connection t
 
 ## The Board
 
-{{svg:stern-halma-board.svg "Stern-Halma — six-pointed star board, 121 holes"}}
+{{svg:standard-6p-board.svg "Stern-Halma — six-pointed star board, 121 holes"}}
 
 The board is a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes:
 

@@ -71,7 +71,7 @@ The game is fully public domain. Earliest secure historical documentation predat
 
 The board is identical to the Pachisi board: a cross-shaped cloth board, each arm divided into three columns of eight squares, with the Charkoni (the large central square) in the centre.
 
-{{svg:chaupar-board.svg "Chaupar — cross-shaped board layout"}}
+{{svg:standard-board.svg "Chaupar — cross-shaped board layout"}}
 
 The Charkoni functions as the re-entry point for captured pieces. Unlike Pachisi, pieces do not start in the Charkoni.
 

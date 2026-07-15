@@ -20,7 +20,7 @@ engine:
 
 A documented variant of Pachisi played with seven cowrie shells rather than six. Each throw value carries a traditional Hindi name. The seven-shell system produces a different probability distribution and enables higher-scoring throws, with a maximum of 35 (Paintees) compared to 25 in the standard game.
 
-{{svg:pachisi-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
+{{svg:seven-shell-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
 
 ### Seven-Shell Throw Table
 

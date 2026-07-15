@@ -21,7 +21,7 @@ engine:
 
 Both players use stones of the same colour. All other rules are unchanged. Players must remember which stones belong to whom. A referee (or agreed record) tracks ownership secretly. The ultimate memory and visualisation challenge.
 
-{{svg:go-19x19-board.svg "One-Colour Go — standard board"}}
+{{svg:standard-board.svg "One-Colour Go — standard board"}}
 
 ### Setup
 

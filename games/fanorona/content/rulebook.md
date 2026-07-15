@@ -79,7 +79,7 @@ The Fanorona board is a 9&times;5 grid of 45 intersection points, connected by h
 
 Strong and weak intersections alternate in a checkerboard pattern across the board.
 
-{{svg:fanorona-board.svg "Fanorona — starting position. White fills rows 1 and 2, plus the four left-of-centre squares in the middle row. Black fills rows 4 and 5, plus the four right-of-centre squares in the middle row. The centre intersection is empty."}}
+{{svg:standard-board.svg "Fanorona — starting position. White fills rows 1 and 2, plus the four left-of-centre squares in the middle row. Black fills rows 4 and 5, plus the four right-of-centre squares in the middle row. The centre intersection is empty."}}
 
 </div>
 

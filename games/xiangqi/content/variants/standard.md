@@ -20,7 +20,7 @@ engine:
 
 Xiangqi (象棋, "Elephant Chess") is the classical Chinese form of chess, played in China since at least the 7th century. It is the most widely played board game in China and among the most popular strategy games in the world. Ancient public domain origin: no copyright concern.
 
-{{svg:xiangqi-start-board.svg "Standard Xiangqi — starting position"}}
+{{svg:standard-board.svg "Standard Xiangqi — starting position"}}
 
 ### The Board
 

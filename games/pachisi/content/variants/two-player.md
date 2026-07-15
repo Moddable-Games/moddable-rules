@@ -20,7 +20,7 @@ engine:
 
 The two-player form of Pachisi, played with the same board, cowrie shells, and rules as the standard four-player game. Each player controls two sets of pieces, managing the arms on opposite sides of the board.
 
-{{svg:pachisi-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
+{{svg:two-player-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
 
 ### Setup
 

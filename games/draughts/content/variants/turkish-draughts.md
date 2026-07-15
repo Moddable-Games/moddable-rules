@@ -20,7 +20,7 @@ engine:
 
 Orthogonal movement on an 8x8 board replaces the diagonal play of standard draughts. Mandatory captures, majority rule, and immediate removal create sharp tactical puzzles. World Championships held since 2014.
 
-{{svg:turkish-board.svg "Turkish Draughts — starting position"}}
+{{svg:turkish-draughts-board.svg "Turkish Draughts — starting position"}}
 
 ### Setup
 

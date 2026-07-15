@@ -20,7 +20,7 @@ engine:
 
 The standard four-player form of Chaupar, played on a cross-shaped cloth board with three four-sided long dice. The game was played in the court of Mughal Emperor Akbar and is the game of dice described in the Mahabharata.
 
-{{svg:chaupar-board.svg "Chaupar — cross-shaped board layout"}}
+{{svg:standard-board.svg "Chaupar — cross-shaped board layout"}}
 
 ### Equipment
 

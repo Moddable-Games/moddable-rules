@@ -49,7 +49,7 @@ The rules remained a mystery until 1980, when British Museum curator Irving Fink
 
 The board consists of **20 squares** arranged in a distinctive L-shape:
 
-{{svg:royal-ur-board.svg "Royal Game of Ur — board layout with rosette positions"}}
+{{svg:standard-board.svg "Royal Game of Ur — board layout with rosette positions"}}
 
 - A 4×2 rectangle at one end (8 squares) — each player's starting zone
 - A 2×2 bridge in the middle (4 squares) — shared central path

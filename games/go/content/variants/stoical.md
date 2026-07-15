@@ -21,7 +21,7 @@ engine:
 
 A single rule addition transforms the game: you cannot capture opponent stones on any turn immediately following a turn where your opponent captured your stones. This forced restraint prevents immediate retaliation and creates a rhythm of attack and recovery unique to this variant.
 
-{{svg:go-19x19-board.svg "Stoical Go — standard board"}}
+{{svg:standard-board.svg "Stoical Go — standard board"}}
 
 ### Setup
 

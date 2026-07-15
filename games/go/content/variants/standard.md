@@ -21,7 +21,7 @@ engine:
 
 The full tournament game played on a 19×19 grid with 361 intersections. One fundamental rule — capture by surrounding — produces extraordinary strategic depth. Games last 60–180 minutes at tournament level.
 
-{{svg:go-19x19-board.svg "Go — 19×19 board"}}
+{{svg:standard-board.svg "Go — 19×19 board"}}
 
 ### Components
 

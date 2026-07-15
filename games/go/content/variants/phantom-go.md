@@ -21,7 +21,7 @@ engine:
 
 Fog-of-war Go. Players cannot see opponent stones. A referee mediates all moves and announces captures. Deduction replaces reading. Played on 9x9 or 13x13 boards.
 
-{{svg:go-9x9-board.svg "Phantom Go — typically played on 9×9"}}
+{{svg:9x9-board.svg "Phantom Go — typically played on 9×9"}}
 
 ### Setup
 

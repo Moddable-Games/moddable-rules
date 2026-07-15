@@ -21,7 +21,7 @@ engine:
 
 Gomoku, also known as Five in a Row, is a two-player strategy board game. Players use black and white pieces, taking turns placing them on the intersections of horizontal and vertical lines on the board. The first player to form an unbroken line of five pieces horizontally, vertically, or diagonally wins the game.
 
-{{svg:go-15x15-board.svg "Empty 15×15 board — Gomoku"}}
+{{svg:gomoku-board.svg "Empty 15×15 board — Gomoku"}}
 
 Since 1899, when Japanese chess player Kuroi Iwa Ruiko proved that the original rules of Gomoku guaranteed a win for the first player, Gomoku has undergone continuous improvement. After decades of modifications, verifications, and further revisions, a version with added forbidden moves was developed. This version was publicly named Renju, and the rules were formalised in Japan. The original rules are still played and are referred to as "no-ban rules" or "free-style rules".
 

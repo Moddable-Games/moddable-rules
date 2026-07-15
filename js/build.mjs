@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
-import { resolve } from 'path';
+import { resolve, basename } from 'path';
 import matter from 'gray-matter';
 import markdownIt from 'markdown-it';
 
@@ -651,6 +651,9 @@ function buildLanding() {
 
   <header class="landing-header">
     <a href="https://moddable.games" target="_blank" rel="noopener"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
+    <nav class="landing-nav">
+      <a href="diagrams/" class="landing-nav-link">Board Gallery</a>
+    </nav>
     <button class="surface-toggle" aria-label="Toggle light/dark mode" type="button">◐</button>
   </header>
 
@@ -1067,6 +1070,66 @@ function buildSearchIndex() {
   console.log(`  Built dist/rules-index.json (${index.length} entries)`);
 }
 
+// --- Build board gallery ---
+function buildBoards() {
+  const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .filter(slug => existsSync(resolve(GAMES_DIR, slug, 'content/rulebook.md')));
+
+  const index = [];
+
+  for (const family of allSlugs) {
+    const rbPath = resolve(GAMES_DIR, family, 'content/rulebook.md');
+    const rbSrc = readFileSync(rbPath, 'utf8');
+    const { data: rbMeta } = matter(rbSrc);
+    const familyTitle = (rbMeta.title || family).replace(/\s*[—–:]\s*Official Rulebook$/i, '').replace(/\s*[—–]\s*Component Hub$/i, '');
+    const familyTopo = rbMeta.engine?.topology?.type || null;
+
+    const svgDir = resolve(GAMES_DIR, family, 'diagrams/svg');
+    if (!existsSync(svgDir)) continue;
+
+    const svgFiles = readdirSync(svgDir).filter(f => f.endsWith('-board.svg'));
+    if (!svgFiles.length) continue;
+
+    const varDir = resolve(GAMES_DIR, family, 'content/variants');
+    const variantMeta = {};
+    if (existsSync(varDir)) {
+      for (const f of readdirSync(varDir).filter(f => f.endsWith('.md'))) {
+        const slug = basename(f, '.md');
+        const { data } = matter(readFileSync(resolve(varDir, f), 'utf8'));
+        variantMeta[slug] = data;
+      }
+    }
+
+    for (const svgFile of svgFiles) {
+      const varSlug = svgFile.replace(/-board\.svg$/, '');
+      const vm = variantMeta[varSlug] || {};
+      const topo = vm.engine?.topology?.type || familyTopo || 'unknown';
+      const varTitle = vm.title || varSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+      let rulesUrl = '';
+      if (varDir && existsSync(resolve(varDir, `${varSlug}.md`))) {
+        rulesUrl = `dist/${family}/variants/${varSlug}/index.html`;
+      }
+
+      index.push({
+        family,
+        familyTitle,
+        variant: varSlug,
+        variantTitle: varTitle,
+        topology: topo,
+        svg: `games/${family}/diagrams/svg/${svgFile}`,
+        rulesUrl,
+      });
+    }
+  }
+
+  index.sort((a, b) => a.family.localeCompare(b.family) || a.variant.localeCompare(b.variant));
+  writeFileSync(resolve(ROOT, 'diagrams-manifest.json'), JSON.stringify(index, null, 2));
+  console.log(`  Built diagrams-manifest.json (${index.length} boards indexed)`);
+}
+
 // --- Main ---
 console.log(`Building ${gameSlugs.length} game(s): ${gameSlugs.join(', ')}`);
 
@@ -1078,5 +1141,6 @@ for (const slug of gameSlugs) {
 }
 
 buildLanding();
+buildBoards();
 buildSearchIndex();
 console.log('Build complete.');

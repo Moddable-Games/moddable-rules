@@ -20,7 +20,7 @@ engine:
 
 Halma was invented in 1883 by George Howard Monks in Boston, and inspired other games such as Chinese Checkers.
 
-{{svg:halma-2p-board.svg "Halma — 2-player starting position"}}
+{{svg:standard-2p-board.svg "Halma — 2-player starting position"}}
 
 ### Setup
 

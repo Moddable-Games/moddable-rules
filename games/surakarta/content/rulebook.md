@@ -75,7 +75,7 @@ The game is notable for its capture mechanic. Wikipedia describes it as "possibl
 
 ## The Board
 
-{{svg:surakarta-board.svg "Surakarta board: 6×6 grid with 8 corner loop arcs and starting position"}}
+{{svg:standard-board.svg "Surakarta board: 6×6 grid with 8 corner loop arcs and starting position"}}
 
 The board is a 6×6 grid of **36 intersection points**, connected by horizontal and vertical lines. Pieces are placed on intersections, not inside squares.
 
