@@ -2864,6 +2864,17 @@
     "deckType": "bavarian-32"
   },
   {
+    "family": "dnd-5e",
+    "familyTitle": "Dungeons & Dragons 5th Edition SRD",
+    "variant": "reference",
+    "variantTitle": "Dungeons & Dragons 5th Edition SRD",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/dnd-5e/index.html",
+    "status": "generator",
+    "reason": "rpg-provider"
+  },
+  {
     "family": "double-six-dominoes",
     "familyTitle": "Double-Six Dominoes",
     "variant": "all-fives",
@@ -2912,6 +2923,18 @@
     "deckType": "dominoes-28"
   },
   {
+    "family": "endless-skies",
+    "familyTitle": "Endless Skies",
+    "variant": "standard",
+    "variantTitle": "Endless Skies",
+    "topology": "hex",
+    "svg": null,
+    "rulesUrl": "dist/endless-skies/index.html",
+    "status": "generator",
+    "reason": "hex-generator",
+    "generator": "endless-skies"
+  },
+  {
     "family": "flower-48",
     "familyTitle": "Flower 48",
     "variant": "go-stop",
@@ -2958,6 +2981,17 @@
     "status": "missing",
     "reason": "component-game",
     "deckType": "flower-48"
+  },
+  {
+    "family": "ironsworn",
+    "familyTitle": "Ironsworn",
+    "variant": "reference",
+    "variantTitle": "Ironsworn",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/ironsworn/index.html",
+    "status": "generator",
+    "reason": "rpg-provider"
   },
   {
     "family": "mahjong",
@@ -3139,6 +3173,18 @@
     "rulesUrl": "dist/moddable-chess/variants/toroidal-chess/index.html",
     "status": "missing",
     "reason": "unsupported-topology"
+  },
+  {
+    "family": "mongo",
+    "familyTitle": "Planet Mongo",
+    "variant": "standard",
+    "variantTitle": "Planet Mongo",
+    "topology": "hex",
+    "svg": null,
+    "rulesUrl": "dist/mongo/index.html",
+    "status": "generator",
+    "reason": "hex-generator",
+    "generator": "mongo"
   },
   {
     "family": "standard-52",
@@ -3410,5 +3456,17 @@
     "rulesUrl": "dist/standard-dice/games/yahtzee/index.html",
     "status": "missing",
     "reason": "component-game"
+  },
+  {
+    "family": "talisman-worlds",
+    "familyTitle": "Talisman Worlds",
+    "variant": "standard",
+    "variantTitle": "Talisman Worlds",
+    "topology": "hex",
+    "svg": null,
+    "rulesUrl": "dist/talisman-worlds/index.html",
+    "status": "generator",
+    "reason": "hex-generator",
+    "generator": "talisman-worlds"
   }
 ]

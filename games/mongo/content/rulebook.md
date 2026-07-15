@@ -21,6 +21,10 @@ theme:
   accent: red
   accent-secondary: purple
   section-divider: "⚡"
+engine:
+  topology:
+    type: hex
+  generator: mongo
 ---
 
 <div class="section">

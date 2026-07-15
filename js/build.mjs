@@ -1188,6 +1188,44 @@ function buildBoards() {
       if (deckType) entry.deckType = deckType;
       index.push(entry);
     }
+
+    // RPG reference tools — single entry per game
+    if (rbMeta.type === 'rpg') {
+      const existing = index.find(e => e.family === family);
+      if (!existing) {
+        index.push({
+          family,
+          familyTitle,
+          variant: 'reference',
+          variantTitle: familyTitle,
+          topology: 'rpg',
+          svg: null,
+          rulesUrl: `dist/${family}/index.html`,
+          status: 'generator',
+          reason: 'rpg-provider',
+        });
+      }
+    }
+
+    // Hex-generator games — games with hex topology but no variants/SVGs that use procedural generation
+    const isHexGenerator = familyTopo === 'hex'
+      && Object.keys(variantMeta).length === 0
+      && Object.keys(compGames).length === 0
+      && svgFiles.length === 0;
+    if (isHexGenerator) {
+      index.push({
+        family,
+        familyTitle,
+        variant: 'standard',
+        variantTitle: familyTitle,
+        topology: 'hex',
+        svg: null,
+        rulesUrl: `dist/${family}/index.html`,
+        status: 'generator',
+        reason: 'hex-generator',
+        generator: family,
+      });
+    }
   }
 
   index.sort((a, b) => {

@@ -22,6 +22,10 @@ theme:
   accent: gold
   accent-secondary: purple
   section-divider: "⬡"
+engine:
+  topology:
+    type: hex
+  generator: talisman-worlds
 ---
 
 <div class="section">

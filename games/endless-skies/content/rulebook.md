@@ -20,6 +20,10 @@ theme:
   typography: classical
   accent: orange
   section-divider: "☁"
+engine:
+  topology:
+    type: hex
+  generator: endless-skies
 ---
 
 <div class="section">
