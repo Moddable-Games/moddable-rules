@@ -12,12 +12,36 @@ updated: "2026-06-19"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
   typography: classical
   accent: brown
+engine:
+  topology:
+    type: grid
+    rows: 16
+    cols: 16
+  surface:
+    colors:
+      cell-light: "#f5e6c8"
+      cell-dark: "#e8d4a8"
+  render:
+    cellSize: 20
+    cellColor: checkered
+    labels: false
+    ops:
+      - op: cells
+        pattern: checkered
+        light: "#f5e6c8"
+        dark: "#e8d4a8"
+        interactive: true
+  pieces:
+    set: playstrategy-draughts-plain
+    vocabulary:
+      b: bM
+      w: wM
+  players: [white, black]
 ---
 
 <div class="section variant-hub">

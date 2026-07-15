@@ -11,7 +11,10 @@ engine:
     type: grid
     rows: 12
     cols: 12
-  players: [white, black]
+  players: [sente, gote]
+  setup: "lfcsgekgscfl/a1b1txot1b1a/mvrhdqndhrvm/pppppppppppp/3i4i3/12/12/3I4I3/PPPPPPPPPPPP/MVRHDNQDHRVM/A1B1TOXT1B1A/LFCSGKEGSCFL"
+  render:
+    cellSize: 28
 ---
 
 # Chu Shogi
@@ -19,6 +22,8 @@ engine:
 **Chu Shogi (中将棋, Middle Shogi). First documented ~1350 AD. The dominant form of chess in Japan for centuries until modern Shogi replaced it.**
 
 ## Overview
+
+{{svg:chu-shogi-board.svg "Chu Shogi — starting position"}}
 
 Chu Shogi is played on a 12×12 board with 46 pieces of 21 different types per side. Unlike modern Shogi, there are no drops. The defining piece is the **Lion**, a double-move piece so powerful that special rules govern its capture to prevent quick trades.
 

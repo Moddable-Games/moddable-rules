@@ -12,12 +12,33 @@ updated: "2026-06-15"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
   typography: classical
   accent: brown
+engine:
+  topology:
+    type: graph
+    structure: concentric-rings
+    params:
+      rings: 3
+      midpoints: true
+  surface:
+    colors:
+      background: "#f5e6c8"
+      line: "#4a3520"
+      point: "#4a3520"
+  render:
+    cellSize: 24
+    cellColor: uniform
+    labels: false
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      b: bS
+      w: wS
+  players: [white, black]
 ---
 
 <div class="section variant-hub">

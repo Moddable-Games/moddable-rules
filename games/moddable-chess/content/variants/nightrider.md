@@ -25,6 +25,8 @@ published: true
 
 ## Standard Nightrider Chess
 
+{{svg:nightrider-board.svg "Standard Nightrider Chess — starting position"}}
+
 Played on a standard 8×8 board with all standard chess rules, except: **both knights on each side are replaced by Nightriders.** All other pieces and rules are unchanged.
 
 ### Starting Position

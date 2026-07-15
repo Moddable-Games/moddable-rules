@@ -7,6 +7,12 @@ parent: standard-52
 win: Complete all 8 sequences (King down to Ace in the same suit)
 special: "Two-deck solitaire with 10 tableau columns. Complete in-suit sequences of 13 cards (King to Ace) are automatically removed. Three difficulty levels: 1-suit (easy), 2-suit (medium), 4-suit (hard). The 4-suit version is highly challenging. One of the most popular computer solitaire games."
 published: true
+engine:
+  topology:
+    type: none
+  components:
+    deck:
+      type: standard-52
 ---
 
 ## Spider Solitaire

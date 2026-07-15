@@ -21,6 +21,13 @@ theme:
   typography: modern
   accent: red
   section-divider: "⚔"
+engine:
+  topology:
+    type: none
+  content:
+    source: data/
+    schema:
+      type: category-list
 ---
 
 <div class="section">

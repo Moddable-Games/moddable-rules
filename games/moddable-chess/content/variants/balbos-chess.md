@@ -11,13 +11,17 @@ engine:
     type: grid
     rows: 10
     cols: 11
-    missing_squares: true
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 28
+    zones:
+      voids: [[0,0],[0,1],[0,2],[0,3],[0,7],[0,8],[0,9],[0,10],[1,0],[1,1],[1,2],[1,8],[1,9],[1,10],[2,0],[2,1],[2,9],[2,10],[3,0],[3,10],[6,0],[6,10],[7,0],[7,1],[7,9],[7,10],[8,0],[8,1],[8,2],[8,8],[8,9],[8,10],[9,0],[9,1],[9,2],[9,3],[9,7],[9,8],[9,9],[9,10]]
+  setup: "4kbq4/3rnbnr3/2ppppppp2/11/11/11/11/2PPPPPPP2/3RNBNR3/4KBQ4"
 ---
 
 ## Balbo’s Chess
+
+{{svg:balbos-chess-board.svg "Balbo's Chess — starting position"}}
 
 Balbo’s Chess was invented by M.G. Balbo in 1974 and is mentioned in Pritchard’s *Encyclopedia of Chess Variants*. It is played on an unusual **diamond-shaped board** with ten ranks of increasing then decreasing width, all centred on file f. All standard chess rules apply, but the board shape creates unusual opening dynamics and position-dependent promotion rules.
 

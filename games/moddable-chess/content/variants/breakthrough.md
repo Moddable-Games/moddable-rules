@@ -12,6 +12,7 @@ engine:
     rows: 7
     cols: 7
   players: [white, black]
+  setup: "ppppppp/ppppppp/7/7/7/PPPPPPP/PPPPPPP"
 ---
 
 ## Breakthrough

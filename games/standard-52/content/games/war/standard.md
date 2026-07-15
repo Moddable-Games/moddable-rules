@@ -7,6 +7,12 @@ parent: standard-52
 win: Collect all 52 cards
 special: "2-player game of pure chance. The deck is split equally (26 cards each). Each player simultaneously reveals their top card — the higher rank wins both. On a tie, War occurs: each player plays 3 face-down then 1 face-up; higher face-up card wins all 10. No decisions required."
 published: true
+engine:
+  topology:
+    type: none
+  components:
+    deck:
+      type: standard-52
 ---
 
 ## War

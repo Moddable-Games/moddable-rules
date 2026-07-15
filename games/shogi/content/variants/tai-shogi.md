@@ -11,13 +11,17 @@ engine:
     type: grid
     rows: 25
     cols: 25
-    orientation: shogi
   players: [sente, gote]
-  notation: shogi
-published: true
+  setup: "[ln][wt][wl][fy][lo][dw][rk][dh][dk][fk][gg][ds][em][dv][gg][fk][dk][dh][rk][dw][lo][fy][wl][ts][ln]/[rc][si][se][kn][ps][ft][bi][fe][we][fr][sg][rg][cr][lg][sg][fr][we][fe][bi][ft][ps][kn][se][si][rc]/[sc][wh][rs][vo][cs][bb][sv][gl][bm][bt][sd][gd][nk][wr][bv][bt][bm][gl][sv][bb][cs][vo][rs][wh][sc]/[sl][wb][fl][nb][su][cc][hf][om][rb][pc][go][ph][li][kr][gt][pc][ok][om][hf][cc][eb][ws][fl][wb][sl]/[rc][vs][wo][eg][st][tg][ig][cg][or][co][rd][hm][de][cp][rd][co][or][cg][ig][tg][st][eg][wo][bd][lc]/[hd][fh][en][dy][fo][sm][vm][vb][sb][pr][ab][ew][ld][ew][ab][pr][sb][vb][vm][sm][fo][dy][en][fh][hd]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/7[gb]9[gb]7/25/25/25/25/25/25/25/25/25/7[GB]9[GB]7/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[HD][FH][EN][DY][FO][SM][VM][VB][SB][PR][AB][EW][LD][EW][AB][PR][SB][VB][VM][SM][FO][DY][EN][FH][HD]/[LC][BD][WO][EG][ST][TG][IG][CG][OR][CO][RD][CP][DE][HM][RD][CO][OR][CG][IG][TG][ST][EG][WO][VS][RC]/[SL][WB][FL][WS][EB][CC][HF][OM][OK][PC][GT][KR][LI][PH][GO][PC][RB][OM][HF][CC][SU][NB][FL][WB][SL]/[SC][WH][RS][VO][CS][BB][SV][GL][BM][BT][BV][WR][NK][GD][SD][BT][BM][GL][SV][BB][CS][VO][RS][WH][SC]/[RC][SI][SE][KN][PS][FT][BI][FE][WE][FR][SG][LG][CR][RG][SG][FR][WE][FE][BI][FT][PS][KN][SE][SI][RC]/[LN][TS][WL][FY][LO][DW][RK][DH][DK][FK][GG][DV][EM][DS][GG][FK][DK][DH][RK][DW][LO][FY][WL][WT][LN]"
+  render:
+    cellSize: 14
+  pieces:
+    set: mce-shogi-fairy
 ---
 
 ## Tai Shogi
+
+{{svg:tai-shogi-board.svg "Tai Shogi — starting position"}}
 
 Tai Shogi (大将棋, *Grand Chess*) is a historical Japanese Shogi variant played on a 25×25 board (625 squares) with approximately 177 piece types per side (354 pieces total). It occupies the scale tier between **Maka-Dai-Dai Shogi** (19×19, ~96 piece types) and **Taikyoku Shogi** (36×36, 402 piece types). Tai Shogi holds the distinction of being the largest chess variant with **fully documented and verified movement rules** for every piece.
 

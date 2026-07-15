@@ -12,6 +12,10 @@ engine:
     type: track
     positions: 40
   players: [player1, player2]
+  setup: ""
+  content:
+    source: landlords-game-boards.json
+    board: 1906-egc
 ---
 
 ## 1906 Commercial Edition

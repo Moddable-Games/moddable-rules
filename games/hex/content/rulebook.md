@@ -18,6 +18,30 @@ theme:
   cover: minimal
   typography: classical
   accent: slate
+engine:
+  topology:
+    type: hex
+    shape: rhombus
+    orientation: pointy
+  render:
+    cellSize: 20
+    cellColor: uniform
+    frame: rhombus
+    labels: false
+  surface:
+    colors:
+      cell-light: "#e8e8e8"
+      cell-dark: "#c0c0c0"
+      cell-mid: "#d8d8d8"
+      stroke: "rgba(0,0,0,0.3)"
+      background: "#f5f5f5"
+      border: "#6b4226"
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      b: bS
+      w: wS
+  players: [black, white]
 ---
 
 <div class="section">

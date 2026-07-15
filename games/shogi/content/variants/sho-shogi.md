@@ -13,13 +13,12 @@ engine:
     rows: 9
     cols: 9
   players: [sente, gote]
-  notation: shogi
-  drops: false
-  promotion_zone: [7, 8, 9]
-published: true
+  setup: "lnsgkgsnl/1r2e2b1/ppppppppp/9/9/9/PPPPPPPPP/1B2E2R1/LNSGKGSNL"
 ---
 
 ## Sho Shogi
+
+{{svg:sho-shogi-board.svg "Sho Shogi — starting position"}}
 
 Shō Shogi (小将棋, "small chess") is a 16th-century form of Shogi and the immediate predecessor of the modern game. It is played on a standard 9×9 board with the same starting position as modern Shogi, with one addition: each side has a **Drunken Elephant** placed directly in front of the King. According to the *Sho Shogi Zushiki*, the Drunken Elephant was eliminated by Emperor Go-Nara (reigned 1526–1557), and the drop rule is believed to have been introduced at roughly the same time, giving rise to modern Shogi.
 

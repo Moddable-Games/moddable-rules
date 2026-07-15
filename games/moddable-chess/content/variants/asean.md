@@ -12,11 +12,14 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---
 
 ## ASEAN Chess
+
+{{svg:asean-board.svg "ASEAN Chess — starting position"}}
 
 ASEAN Chess was codified by the ASEAN Chess Federation as a standardized form of traditional Southeast Asian chess intended to serve as a regional competitive standard and a bridge between FIDE chess and local traditions such as Makruk (Thai Chess) and Sittuyin (Burmese Chess). It uses the same piece roster as Makruk but with two key adjustments: Pawns start on rank 2 (as in FIDE chess, not rank 3 as in Makruk) and the counting rules are streamlined.
 

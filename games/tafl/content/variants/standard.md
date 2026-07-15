@@ -3,6 +3,37 @@ title: "Tablut"
 slug: "standard"
 variant_of: "tafl"
 order: 1
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  players: [attackers, defenders]
+  setup: "3bbb3/4b4/4w4/b3w3b/bbwwKwwbb/b3w3b/4w4/4b4/3bbb3"
+  render:
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: cell-light
+        dark: cell-dark
+        defaultFill: floor
+        zones:
+          cells:
+            - type: throne
+              at: [[4,4]]
+            - type: corner
+              at: [[0,0],[0,8],[8,0],[8,8]]
+        typeColors:
+          floor: floor
+          throne: throne
+          corner: corner
+        typeStrokes:
+          floor: floor-stroke
+          throne: throne-stroke
+          corner: corner-stroke
 published: true
 ---
 

@@ -10,18 +10,19 @@ special: "Step or chain-hop in six directions. No capture. Jumped pieces remain.
 published: true
 engine:
   topology:
-    type: hex-star
-    arms: 6
-    arm_size: 10
-    centre_size: 61
-    total_positions: 121
-  players: [player1, player2]
-  arms:
-    player1: N
-    player2: S
+    type: graph
+    structure: star
+    params:
+      armSize: 4
+      spacing: 24
+  players: [red, blue, green, black, purple, brown]
+  setup:
+    arms: [N, S]
 ---
 
 ## Standard 2-Player Stern-Halma
+
+{{svg:standard-2p-board.svg "Standard 2-Player Stern-Halma — starting position"}}
 
 The classic two-player configuration. Each player occupies one triangular arm and races to fill the opposite arm.
 

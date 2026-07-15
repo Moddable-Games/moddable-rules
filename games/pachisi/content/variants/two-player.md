@@ -9,16 +9,18 @@ win: Move all eight pieces (two colours) home before your opponent
 special: Each player controls two opposite arms. Rules otherwise identical to standard.
 engine:
   topology:
-    type: track
-    positions: 68
+    type: grid
+    rows: 19
+    cols: 19
   players: [red, yellow]
+  setup: "home:4Y,home:4G"
 ---
 
 ## 2-Player Pachisi
 
 The two-player form of Pachisi, played with the same board, cowrie shells, and rules as the standard four-player game. Each player controls two sets of pieces, managing the arms on opposite sides of the board.
 
-{{svg:pachisi-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
+{{svg:two-player-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
 
 ### Setup
 

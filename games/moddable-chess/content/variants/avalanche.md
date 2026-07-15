@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
 ---
 
 # Avalanche Chess
@@ -19,6 +20,8 @@ engine:
 **Invented by Ralph Betza, 1977. One of the most popular postal Chess variants, described in Pritchard's *Encyclopedia of Chess Variants* and *Popular Chess Variants*, and in Schmittberger's *New Rules for Classic Games*.**
 
 ## Overview
+
+{{svg:avalanche-board.svg "Avalanche Chess — starting position"}}
 
 Avalanche Chess adds a compulsory obligation to every move: after making a normal chess move, you must push one of your opponent's pawns one square toward you. This "pawn push" creates an avalanche of pressure as the opponent's pawns steadily advance.
 

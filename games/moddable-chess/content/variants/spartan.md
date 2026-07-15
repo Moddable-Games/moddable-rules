@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "lwgkkgwl/hhhhhhhh/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   dual_king: true
@@ -19,6 +20,8 @@ published: true
 ---
 
 ## Spartan Chess
+
+{{svg:spartan-board.svg "Spartan Chess — starting position"}}
 
 Designed by Steven Streetman (2010). Spartan Chess is asymmetric: White commands a standard FIDE Persian army; Black commands a Spartan army with two Kings and a unique roster of pieces. The armies differ fundamentally in their check rules, pieces, and win conditions.
 

@@ -11,7 +11,10 @@ engine:
     type: grid
     rows: 8
     cols: 9
-  players: [white, black]
+  players: [sente, gote]
+  setup: "lnsgkgsnl/9/ppppppppp/9/9/PPPPPPPPP/9/LNSGKGSNL"
+  render:
+    cellSize: 36
 ---
 
 # Heian Shogi
@@ -19,6 +22,8 @@ engine:
 **The earliest known form of Japanese chess, first documented in the *Nichureki* (1126–1130). Historically of the 8th–9th century. Primarily of historical interest.**
 
 ## Overview
+
+{{svg:heian-shogi-board.svg "Heian Shogi — starting position"}}
 
 Heian Shogi is played on a 9×8 board (9 files, 8 ranks) with 18 pieces per side. There are no Rooks, no Bishops, and no drops. All pieces (except the King) promote to Gold General upon reaching the promotion zone. The game is considerably slower than later Shogi variants.
 

@@ -13,13 +13,12 @@ engine:
     rows: 9
     cols: 9
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [7, 8, 9]
-published: true
+  setup: "lnsgkgsnl/1rci1uab1/p1p1p1p1p/9/9/9/P1P1P1P1P/1BAU1ICR1/LNSGKGSNL"
 ---
 
 ## Cannon Shogi
+
+{{svg:cannon-shogi-board.svg "Cannon Shogi — starting position"}}
 
 Cannon Shogi is a Shogi variant invented by Peter Michaelsen in February 1998. The starting setup is the same as standard Shogi with two modifications: the nine Pawns on rank 3 are replaced by **five Soldiers** (in the Janggi style), and four Cannons of different types are placed in rank 2 between the Bishop and Rook positions.
 

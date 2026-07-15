@@ -10,16 +10,17 @@ special: Cannon captures by jumping a screen piece. Flying General rule. Stalema
 engine:
   topology:
     type: grid
-    rows: 9
-    cols: 10
-  players: [player1, player2]
+    rows: 10
+    cols: 9
+  players: [red, black]
+  setup: "rheakaehr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
 ---
 
 ## Standard Xiangqi
 
 Xiangqi (象棋, "Elephant Chess") is the classical Chinese form of chess, played in China since at least the 7th century. It is the most widely played board game in China and among the most popular strategy games in the world. Ancient public domain origin: no copyright concern.
 
-{{svg:xiangqi-start-board.svg "Standard Xiangqi — starting position"}}
+{{svg:standard-board.svg "Standard Xiangqi — starting position"}}
 
 ### The Board
 

@@ -11,14 +11,15 @@ engine:
     type: grid
     rows: 9
     cols: 9
-  players: [player1, player2]
+  players: [sente, gote]
+  setup: "ppppppppp/9/9/9/9/9/9/9/PPPPPPPPP"
 ---
 
 ## Hasami Shogi
 
 Hasami Shogi (はさみ将棋, "sandwiching chess") is a distinct branch of the Shogi family with a single piece type, no drops, and no promotion. Capture is by sandwiching: a piece is removed when flanked on two opposite sides by the opponent. Ancient origin; public domain.
 
-{{svg:hasami-board.svg "Hasami Shogi — starting position"}}
+{{svg:hasami-shogi-board.svg "Hasami Shogi — starting position"}}
 
 ### Setup
 

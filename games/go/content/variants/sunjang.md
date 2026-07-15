@@ -12,14 +12,16 @@ engine:
     type: grid
     rows: 19
     cols: 19
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Sunjang Baduk
 
 Korea's historical form of Go (순장바둑), the dominant version played in Korea before Japanese rules were introduced in the early 20th century. Sixteen stones are pre-placed in a fixed diagonal pattern, prisoners are not counted in scoring, and there is no komi. This creates a radically different opening theory with immediate territorial frameworks from move one.
 
-{{svg:go-19x19-board.svg "Sunjang Baduk — 19×19 with pre-placed stones"}}
+{{svg:standard-board.svg "Sunjang Baduk — 19×19 with pre-placed stones"}}
 
 ### Setup
 

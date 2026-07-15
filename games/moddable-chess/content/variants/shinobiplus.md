@@ -16,10 +16,13 @@ engine:
   asymmetric: true
   hand: true
   drops: true
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/4K3"
 published: true
 ---
 
 ## Shinobi Chess+
+
+{{svg:shinobiplus-board.svg "Shinobi+ — starting position"}}
 
 Shinobi Chess+ (Shinobi+) is the rebalanced edition of Shinobi Chess, designed by Couch Tomato (2021). NNUE engine analysis revealed the Clan had a significant advantage in the base game, so Shinobi+ redistributes the Clan's starting pieces and adds a new Fox piece. The Clan now moves first.
 

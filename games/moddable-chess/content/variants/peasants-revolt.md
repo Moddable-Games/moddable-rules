@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "2n1k1n1/pppppppp/8/8/8/8/PPPPPPPP/4K3"
 ---
 
 ## Peasants' Revolt

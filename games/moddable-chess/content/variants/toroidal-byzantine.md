@@ -13,6 +13,7 @@ engine:
     rings: 4
     positions_per_ring: 16
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: ring-position
 published: true
 ---

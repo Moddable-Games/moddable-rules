@@ -11,11 +11,21 @@ special: Hostage mechanic replaced with own-supply recruiting. Enemy hostages on
 engine:
   topology:
     type: hex
+    shape: hexagonal
     radius: 3
+    orientation: pointy
   players: [player1, player2]
+  render:
+    cellSize: 24
+    cellColor: terrain
+    frame: true
+    seed: 123
+  setup: "0,0:trees,0,1:grass,1,0:grass,1,-1:sand,0,-1:water,-1,0:trees,-1,1:trees,-1,2:grass,0,2:water,1,1:water,2,0:mount,2,-1:trees,2,-2:water,1,-2:mount,0,-2:grass,-1,-1:water,-2,0:trees,-2,1:water,-2,2:mount,-1,3:grass,0,3:water,1,2:sand,2,1:trees,3,0:base,3,-1:grass,3,-2:grass,3,-3:grass,2,-3:water,1,-3:trees,0,-3:trees,-1,-2:mount,-2,-1:trees,-3,0:base,-3,1:trees,-3,2:sand,-3,3:trees,-2,3:grass"
 ---
 
 ## Nukes: Siege
+
+{{svg:siege-board.svg "Nukes: Siege — starting position"}}
 
 A total conversion of the hostage mechanic. You start with your own tokens in reserve and deploy them to build your forces. The only way to acquire enemy hostages is through combat.
 

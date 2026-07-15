@@ -18,6 +18,45 @@ theme:
   cover: minimal
   typography: classical
   accent: blue
+engine:
+  topology:
+    type: grid
+    rows: 6
+    cols: 6
+    layout: intersections
+  surface:
+    colors:
+      cell-light: "#d9c5a0"
+      stroke: "#8b7355"
+      inner-arc: "#8b7355"
+      outer-arc: "#8b7355"
+  render:
+    cellSize: 50
+    cellColor: uniform
+    boardStyle: surakarta
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#d9c5a0"
+        stroke: "#8b7355"
+        interactive: true
+      - op: grid-lines
+        color: "#8b7355"
+        width: 2
+        grouped: false
+    decorations:
+      - type: arcs
+        rings: 2
+        cornerOffset: 2
+      - type: markers
+        auto: all-cells
+        size: 3.5
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      b: bS
+      w: wS
+  players: [white, black]
 ---
 
 <div class="section">
@@ -36,7 +75,7 @@ The game is notable for its capture mechanic. Wikipedia describes it as "possibl
 
 ## The Board
 
-{{svg:surakarta-board.svg "Surakarta board: 6×6 grid with 8 corner loop arcs and starting position"}}
+{{svg:standard-board.svg "Surakarta board: 6×6 grid with 8 corner loop arcs and starting position"}}
 
 The board is a 6×6 grid of **36 intersection points**, connected by horizontal and vertical lines. Pieces are placed on intersections, not inside squares.
 

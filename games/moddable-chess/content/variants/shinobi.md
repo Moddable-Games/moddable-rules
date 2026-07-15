@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "cmujtmuc/2pppp2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   hand: true
@@ -21,6 +22,8 @@ published: true
 ---
 
 ## Shinobi Chess
+
+{{svg:shinobi-board.svg "Shinobi Chess — starting position"}}
 
 Designed by Corey Clark (2021). Shinobi Chess is asymmetric: White commands a standard FIDE Kingdom; Black commands a Shinobi Clan that begins with fewer pieces on the board but holds a hand of additional clan members that can be dropped during play, Shogi-style.
 

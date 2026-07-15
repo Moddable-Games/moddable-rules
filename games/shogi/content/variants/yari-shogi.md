@@ -11,8 +11,10 @@ engine:
     type: grid
     rows: 9
     cols: 7
-  players: [white, black]
-  drops: true
+  players: [sente, gote]
+  setup: "ynnkbby/7/ppppppp/7/7/7/PPPPPPP/7/YBBKNNY"
+  render:
+    cellSize: 36
 ---
 
 # Yari Shogi
@@ -20,6 +22,8 @@ engine:
 **Invented by Christian Freeling (Netherlands), 1981. “Yari” means lance in Japanese.**
 
 ## Overview
+
+{{svg:yari-shogi-board.svg "Yari Shogi — starting position"}}
 
 Yari Shogi takes Shogi’s characteristic forward orientation to an extreme: every unpromoted piece (except the General) includes a forward-Lance component in its movement. Captures happen the same way as regular moves. Drops are included; the only rule difference from standard Shogi drops is that Pawn drops that immediately deliver checkmate are **allowed**.
 

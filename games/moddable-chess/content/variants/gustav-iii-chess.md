@@ -9,15 +9,19 @@ special: "Swedish historical chess variant also known as Shakspel. Standard 8×8
 engine:
   topology:
     type: grid
-    rows: 8
-    cols: 8
-    extensions: corner
+    rows: 10
+    cols: 10
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 34
+    zones:
+      voids: [[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[1,0],[1,9],[2,0],[2,9],[3,0],[3,9],[4,0],[4,9],[5,0],[5,9],[6,0],[6,9],[7,0],[7,9],[8,0],[8,9],[9,1],[9,2],[9,3],[9,4],[9,5],[9,6],[9,7],[9,8]]
+  setup: "m8m/1rnbqkbnr1/1pppppppp1/10/10/10/10/1PPPPPPPP1/1RNBQKBNR1/M8M"
 ---
 
 ## Gustav III's Chess
+
+{{svg:gustav-iii-chess-board.svg "Gustav III's Chess — starting position"}}
 
 Gustav III's Chess (also called *Shakspel*) is a historical Swedish chess variant attributed to Gustav Johan Billberg (1839). It adds four extra squares at the corners of the standard 8×8 board, each housing an Amazon — a piece that combines the moves of Queen and Knight. Each player controls two Amazons in addition to the standard FIDE army.
 

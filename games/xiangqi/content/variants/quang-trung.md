@@ -7,12 +7,32 @@ parent: xiangqi
 win: Checkmate the General, or advance a Pawn to the last rank where it cannot be immediately captured
 special: "Vietnamese 10×10 variant with novel piece types. Pawns and General restricted to central files; advancing a Pawn to the last rank wins."
 engine:
-  type: grid
-  rows: 10
-  cols: 10
+  topology:
+    type: grid
+    rows: 10
+    cols: 10
+    layout: cells
+  players: [red, black]
+  setup: "rheaakaehr/10/1c6c1/p1p1pp1p1p/10/10/P1P1PP1P1P/1C6C1/10/RHEAAKAEHR"
+  surface:
+    colors:
+      cell-light: "#f0d9b5"
+      cell-dark: "#b58863"
+  render:
+    cellSize: 30
+    cellColor: checkered
+    ops:
+      - op: cells
+        pattern: checkered
+        light: "#f0d9b5"
+        dark: "#b58863"
+        interactive: true
+    decorations: []
 ---
 
 ## Overview
+
+{{svg:quang-trung-board.svg "Quang Trung Chess — starting position"}}
 
 Quang Trung Chess (Cờ Quang Trung) was designed by Vu Q. Vo, with the concept begun in July 1992 and the first edition completed March 3, 1999. It is named in honor of Emperor Quang Trung (Nguyễn Huệ, reigned 1788–1792), a Vietnamese military hero of the late 18th century. The game was submitted to a Chess Variant Pages contest in 1999.
 

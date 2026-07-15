@@ -12,6 +12,9 @@ engine:
     rows: 8
     cols: 10
   players: [white, black]
+  render:
+    cellSize: 36
+  setup: "rnbgqkebnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBGQKEBNR"
 ---
 
 # Bird's Chess
@@ -19,6 +22,8 @@ engine:
 **Invented by Henry Bird, 1874. Published in the City of London Chess Magazine. A predecessor to Capablanca’s Chess.**
 
 ## Overview
+
+{{svg:birds-chess-board.svg "Bird's Chess — starting position"}}
 
 Bird’s Chess extends standard chess to a 10×8 board by adding two compound pieces per side: the Guard (Rook + Knight) and the Equerry (Bishop + Knight). Capablanca likely drew inspiration from this game when designing Capablanca’s Chess.
 

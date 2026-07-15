@@ -13,6 +13,7 @@ engine:
     rows: 7
     cols: 7
   players: [white, black]
+  setup: "1b1b1b1/b1b1b1b/1b1b1b1/7/1w1w1w1/w1w1w1w/1w1w1w1"
 ---
 
 ## Lasca

@@ -13,11 +13,14 @@ engine:
     cols: 8
     broken_columns: true
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---
 
 ## Romanchenko's Chess
+
+{{svg:romanchenkos-chess-board.svg "Romanchenko's Chess — starting position"}}
 
 Romanchenko's Chess is a chess variant by Soviet chess trainer V. Romanchenko that uses **standard FIDE chess pieces and rules** on a board with modified geometry. The board has **broken columns** — certain file columns are displaced or interrupted at specific ranks, breaking the standard 8×8 grid alignment. The game was designed as a **pedagogical tool**: by making standard opening patterns inapplicable, it forces students to think analytically from first principles rather than relying on memorized theory.
 

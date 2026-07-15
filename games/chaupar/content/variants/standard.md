@@ -9,16 +9,18 @@ win: Both teammates return all their pieces to the Charkoni first, after capturi
 special: Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups.
 engine:
   topology:
-    type: track
-    positions: 68
+    type: grid
+    rows: 19
+    cols: 19
   players: [red, yellow, green, blue]
+  setup: "home:4Y,home:4G,home:4R,home:4B"
 ---
 
 ## Chaupar (Standard)
 
 The standard four-player form of Chaupar, played on a cross-shaped cloth board with three four-sided long dice. The game was played in the court of Mughal Emperor Akbar and is the game of dice described in the Mahabharata.
 
-{{svg:chaupar-board.svg "Chaupar — cross-shaped board layout"}}
+{{svg:standard-board.svg "Chaupar — cross-shaped board layout"}}
 
 ### Equipment
 

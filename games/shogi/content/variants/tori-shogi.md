@@ -13,13 +13,14 @@ engine:
     rows: 7
     cols: 7
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [6, 7]
-published: true
+  setup: "rpckcpl/3f3/sssssss/2s1S2/SSSSSSS/3F3/LPCKCPR"
+  render:
+    cellSize: 40
 ---
 
 ## Tori Shogi
+
+{{svg:tori-shogi-board.svg "Tori Shogi — starting position"}}
 
 Tori Shogi (禽将棋, "Bird Shogi") is a Shogi variant invented by Toyota Genryu in 1799, traditionally attributed to his master Ohashi Soei. Played on a 7×7 board with a bird-themed piece set, Tori Shogi has sustained popularity, English-language books, and active tournaments. It is one of the oldest Shogi variants to use the drop rule. The goal is to checkmate the opposing **Phoenix** (the royal piece).
 

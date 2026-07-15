@@ -12,11 +12,14 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 30
+  setup: "rnbckqdbNR/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RNBDQKCBNR"
 ---
 
 ## Archchess
+
+{{svg:archchess-board.svg "Archchess — starting position"}}
 
 Archchess (Italian: *Arcisacchiere*) was invented by Dr. Francesco Piacenza and described in his book *I camoeggiamenti degle Scacchi*, published in Turin in 1683. It is played on a 10×10 board and adds two new piece types — the Centurion and the Decurion — plus two extra Pawns per side, to an otherwise standard chess army.
 

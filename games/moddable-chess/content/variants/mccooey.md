@@ -9,10 +9,25 @@ special: "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per
 engine:
   topology:
     type: hex
-    cells: 91
-    files: 11
-    file_labels: ["a","b","c","d","e","f","g","h","i","j","k"]
+    shape: hexagonal
+    radius: 5
+    orientation: flat
+  surface:
+    colors:
+      cell-light: "#ffce9e"
+      cell-dark: "#d18b47"
+      cell-mid: "#e8ab6f"
+      stroke: "rgba(0,0,0,0.15)"
+      background: "#2c2c2c"
+      border: "#6b4226"
+  render:
+    cellSize: 22
+    cellColor: tricolor
+    frame: true
+  pieces:
+    set: mce-fairy-complete
   players: [white, black]
+  setup: "-1,-1:p,-1,-4:q,-1,2:P,-1,5:Q,-2,-1:p,-2,-3:n,-2,3:P,-2,5:N,-3,-1:p,-3,-2:r,-3,4:P,-3,5:R,0,-1:p,0,-3:b,0,-4:b,0,-5:b,0,1:P,0,3:B,0,4:B,0,5:B,1,-2:p,1,-5:k,1,1:P,1,4:K,2,-3:p,2,-5:n,2,1:P,2,3:N,3,-4:p,3,-5:r,3,1:P,3,2:R"
 published: true
 ---
 

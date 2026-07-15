@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
 ---
 
 # Senterej
@@ -19,6 +20,8 @@ engine:
 **Senterej (Amharic: ሰንጣረሥ) — Ethiopian and Eritrean chess. The last popular survival of Shatranj; became extinct after the Italian invasion of Ethiopia in the 1930s.**
 
 ## Overview
+
+{{svg:senterej-board.svg "Senterej — starting position"}}
 
 Senterej is the traditional chess of Ethiopia and Eritrea, descended directly from Shatranj. Its most distinctive feature is the **werera** (mobilization) phase: before the first capture, both players move simultaneously and freely, watching each other and adjusting their positions. Turn-based play begins only after a piece is first captured.
 

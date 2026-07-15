@@ -10,9 +10,10 @@ special: Russian Draughts rules on a wider 10×8 board. 20 pieces per side.
 engine:
   topology:
     type: grid
-    rows: 10
-    cols: 8
+    rows: 8
+    cols: 10
   players: [white, black]
+  setup: "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/10/10/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
 ---
 
 ## Spantsiretti

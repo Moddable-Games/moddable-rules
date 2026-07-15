@@ -12,11 +12,25 @@ engine:
     rows: 7
     cols: 7
   players: [red, black]
-  notation: xiangqi
-published: true
+  setup: "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR"
+  render:
+    cellSize: 40
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#f5deb3"
+        stroke: "#4a3520"
+        interactive: true
+      - op: grid-lines
+        color: "#4a3520"
+        width: 2
+        grouped: false
+    decorations: []
 ---
 
 ## Minixiangqi
+
+{{svg:minixiangqi-board.svg "Minixiangqi — starting position"}}
 
 Minixiangqi is Xiangqi condensed to a 7×7 board. It was invented in 1973 by Shigenobu Kusumoto of Osaka, Japan. The game preserves the essential character of Xiangqi — the General in a palace, the screen-jumping Cannon, the blockable Horse — while removing the pieces that depend most on board depth.
 

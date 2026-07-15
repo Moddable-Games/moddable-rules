@@ -18,6 +18,30 @@ theme:
   cover: minimal
   typography: classical
   accent: slate
+engine:
+  topology:
+    type: graph
+    structure: star
+  surface:
+    colors:
+      board-body: "#4a3728"
+      board-rim: "#5c4636"
+      board-felt: "#1a3a1a"
+      centre: "#2e7d32"
+      outline: "#1b5e20"
+      hole: "#1b5e20"
+      armN: "#f2e8d4"
+      armNE: "#d4e4f0"
+      armSE: "#e8d8ec"
+      armS: "#f2e8d4"
+      armSW: "#d4e4f0"
+      armNW: "#e8d8ec"
+  render:
+    cellSize: 24
+    labels: false
+  pieces:
+    set: fluent-emoji
+  players: [red, blue, green, black, purple, brown]
 ---
 
 <div class="section">
@@ -34,7 +58,7 @@ The game is also widely known as Chinese Checkers, though it has no connection t
 
 ## The Board
 
-{{svg:stern-halma-board.svg "Stern-Halma — six-pointed star board, 121 holes"}}
+{{svg:standard-6p-board.svg "Stern-Halma — six-pointed star board, 121 holes"}}
 
 The board is a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes:
 

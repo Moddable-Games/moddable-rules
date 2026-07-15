@@ -12,11 +12,14 @@ engine:
     rows: 14
     cols: 14
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 24
+  setup: "rnbbcnwqkwcnbbr/pppppppppppppp/14/14/14/14/14/14/14/14/14/14/PPPPPPPPPPPPPP/RNBBCNWQKWCNBBR"
 ---
 
 ## Turkish Great Chess IV
+
+{{svg:turkish-great-chess-iv-board.svg "Turkish Great Chess IV — starting position"}}
 
 Turkish Great Chess, Variation IV is a historical large chess variant played on a 14×14 board. Although catalogued under Turkish chess by John Gollon from H. J. R. Murray's *A History of Chess*, it uses Indian piece names (Raja, Rani) and Persian names (Shahzadeh) alongside the standard Arabic-derived names, suggesting a mixed cultural origin.
 

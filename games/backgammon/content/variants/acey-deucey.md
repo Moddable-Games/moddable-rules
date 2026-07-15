@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  setup: "home:15W,home:15B"
 ---
 
 ## Acey-Deucey

@@ -12,12 +12,55 @@ updated: "2026-07-08"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
   typography: classical
   accent: amber
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+    layout: intersections
+  surface:
+    colors:
+      cell-light: "#e8c97a"
+      cell-dark: "#8b6914"
+      stroke: "#6b4e1a"
+      hoshi: "#6b4e1a"
+      promotion-zone: "rgba(180, 60, 40, 0.08)"
+  render:
+    cellSize: 36
+    cellColor: uniform
+    labels: false
+    boardStyle: shogi
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#e8c97a"
+        stroke: "#6b4e1a"
+        interactive: true
+      - op: grid-lines
+        color: "#6b4e1a"
+        width: 2
+        grouped: false
+    decorations:
+      - type: markers
+        at: [[2,2],[2,6],[6,2],[6,6]]
+        fill: hoshi
+        size: 3
+      - type: tint
+        region:
+          rows: [0, 2]
+        color: promotion-zone
+      - type: tint
+        region:
+          rows: [6, 8]
+        color: promotion-zone
+  pieces:
+    set: kahu-shogi-kanji-red-wood
+  players: [sente, gote]
 ---
 
 <div class="section variant-hub">

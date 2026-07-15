@@ -18,6 +18,33 @@ theme:
   cover: minimal
   typography: classical
   accent: blue
+engine:
+  topology:
+    type: grid
+    rows: 8
+    cols: 8
+  surface: felt-green
+  render:
+    cellSize: 40
+    cellColor: uniform
+    labels: true
+    ops:
+      - op: rect
+        fill: "#2e7d32"
+        scope: board
+      - op: grid-lines
+        grouped: false
+        order: vh
+        color: "#1b5e20"
+        width: 1.5
+      - op: hit-targets
+        shape: rect
+  pieces:
+    set: playstrategy-flipello-classic
+    vocabulary:
+      b: bP
+      w: wP
+  players: [black, white]
 ---
 
 <div class="section">

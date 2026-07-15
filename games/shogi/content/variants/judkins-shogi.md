@@ -11,8 +11,10 @@ engine:
     type: grid
     rows: 6
     cols: 6
-  players: [white, black]
-  drops: true
+  players: [sente, gote]
+  setup: "rbsgkn/5p/6/6/P5/NKGSBR"
+  render:
+    cellSize: 40
 ---
 
 # Judkins' Shogi
@@ -20,6 +22,8 @@ engine:
 **Modern miniature Shogi variant on a 6×6 board. Named after its inventor.**
 
 ## Overview
+
+{{svg:judkins-shogi-board.svg "Judkins' Shogi — starting position"}}
 
 Judkins’ Shogi compresses modern Shogi onto a 6×6 board with 7 pieces per side, retaining drops. It plays very similarly to standard Shogi but in a much faster format.
 

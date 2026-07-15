@@ -11,11 +11,21 @@ special: Each player draws one Power Card at setup. No two players hold the same
 engine:
   topology:
     type: hex
+    shape: hexagonal
     radius: 3
-  players: [player1, player2]
+    orientation: pointy
+  players: [player1, player2, player3]
+  render:
+    cellSize: 24
+    cellColor: terrain
+    frame: true
+    seed: 256
+  setup: "0,0:water,0,1:trees,1,0:grass,1,-1:mount,0,-1:mount,-1,0:trees,-1,1:grass,-1,2:trees,0,2:mount,1,1:grass,2,0:water,2,-1:sand,2,-2:water,1,-2:trees,0,-2:mount,-1,-1:grass,-2,0:water,-2,1:trees,-2,2:trees,-1,3:water,0,3:trees,1,2:mount,2,1:mount,3,0:base,3,-1:water,3,-2:grass,3,-3:water,2,-3:grass,1,-3:trees,0,-3:base,-1,-2:trees,-2,-1:sand,-3,0:mount,-3,1:trees,-3,2:water,-3,3:base,-2,3:grass"
 ---
 
 ## Nukes: Asymmetric Powers
+
+{{svg:asymmetric-powers-board.svg "Nukes: Asymmetric Powers — starting position"}}
 
 A rebalance mod that adds one unique Power Card per player at setup. Standard Nukes underneath, explicit asymmetry on top.
 

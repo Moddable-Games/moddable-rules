@@ -12,12 +12,19 @@ engine:
     rows: 10
     cols: 9
   players: [red, black]
-  notation: xiangqi
-  hidden_information: true
-published: true
+  pieces:
+    set: mce-xiangqi-fairy
+    vocabulary:
+      F: wFD
+      f: bFD
+      K: wK
+      k: bK
+  setup: "ffffkffff/9/1f5f1/f1f1f1f1f/9/9/F1F1F1F1F/1F5F1/9/FFFFKFFFF"
 ---
 
 ## Jieqi
+
+{{svg:jieqi-board.svg "Jieqi — starting position"}}
 
 Jieqi (揭棋, “unveiling chess”) is a Xiangqi variant with hidden information. Also known as **Dark Chess**, **Cờ Úhp** (Vietnamese), and by several other local names, it has seen rapid growth in popularity in China and Vietnam.
 

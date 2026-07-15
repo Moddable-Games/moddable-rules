@@ -17,9 +17,25 @@ theme:
   cover: minimal
   typography: modern
   accent: purple
+engine:
+  topology:
+    type: hex
+    shape: hexagonal
+    orientation: pointy
+    radius: 5
+  surface: cosmic
+  render:
+    cellSize: 22
+    cellColor: bicolor
+    frame: true
+  pieces:
+    set: playstrategy-go-classic
+  players: [white, black]
 ---
 
 ## Agon
+
+{{svg:standard-board.svg "Agon — hexagonal board with 91 cells"}}
 
 Amon is one of the oldest abstract strategy games with fully recorded rules, documented in France in 1842. It is played on a hexagonal board of 91 hexagons and won by being the first player to maneuver their Queen into the center hexagon surrounded by all six Guards.
 

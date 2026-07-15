@@ -9,10 +9,25 @@ special: "37-hex board, 7 files, no Queen piece. All 7 opponent-side hexes are p
 engine:
   topology:
     type: hex
-    cells: 37
-    files: 7
-    file_labels: ["a","b","c","d","e","f","g"]
+    shape: hexagonal
+    radius: 3
+    orientation: flat
+  surface:
+    colors:
+      cell-light: "#ffce9e"
+      cell-dark: "#d18b47"
+      cell-mid: "#e8ab6f"
+      stroke: "rgba(0,0,0,0.15)"
+      background: "#2c2c2c"
+      border: "#6b4226"
+  render:
+    cellSize: 28
+    cellColor: tricolor
+    frame: true
+  pieces:
+    set: mce-fairy-complete
   players: [white, black]
+  setup: "-1,-2:n,-1,0:p,-1,1:P,-1,3:N,-2,-1:r,-2,0:p,-2,2:P,-2,3:R,0,-1:b,0,-2:b,0,-3:k,0,0:p,0,1:B,0,2:B,0,3:K,1,-1:p,1,-3:n,1,0:P,1,2:N,2,-2:p,2,-3:r,2,0:P,2,1:R"
 published: true
 ---
 

@@ -9,16 +9,18 @@ win: Move all pieces home before your opponents
 special: Uses seven cowrie shells with named throw values. Higher potential scores than the standard six-shell form.
 engine:
   topology:
-    type: track
-    positions: 68
+    type: grid
+    rows: 19
+    cols: 19
   players: [red, yellow, green, blue]
+  setup: "home:4Y,home:4G,home:4R,home:4B"
 ---
 
 ## Seven-Shell Pachisi
 
 A documented variant of Pachisi played with seven cowrie shells rather than six. Each throw value carries a traditional Hindi name. The seven-shell system produces a different probability distribution and enables higher-scoring throws, with a maximum of 35 (Paintees) compared to 25 in the standard game.
 
-{{svg:pachisi-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
+{{svg:seven-shell-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
 
 ### Seven-Shell Throw Table
 

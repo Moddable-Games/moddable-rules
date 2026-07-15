@@ -19,6 +19,18 @@ theme:
   typography: modern
   accent: red
   section-divider: "⚄"
+engine:
+  topology:
+    type: none
+  surface: felt-green
+  components:
+    dice:
+      count: 5
+      sides: 6
+      type: standard
+    layout:
+      type: pool
+  players: [player-1, player-2, player-3, player-4]
 ---
 
 <div class="section">

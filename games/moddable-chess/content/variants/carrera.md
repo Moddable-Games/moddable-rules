@@ -12,6 +12,9 @@ engine:
     rows: 8
     cols: 10
   players: [white, black]
+  render:
+    cellSize: 36
+  setup: "rAnbqkbnCr/pppppppppp/10/10/10/10/PPPPPPPPPP/RANBQKBNCR"
 ---
 
 # Carrera's Chess
@@ -19,6 +22,8 @@ engine:
 **Invented by Pietro Carrera, 1617. Described in *Il Gioco de gli Scacchi*. One of the earliest large-board chess variants with compound pieces.**
 
 ## Overview
+
+{{svg:carrera-board.svg "Carrera's Chess — starting position"}}
 
 Carrera’s Chess extends standard chess to a 10×8 board by adding two compound pieces per side: the Champion (Rook + Knight) and the Centaur (Bishop + Knight). It predates Capablanca’s Chess by three centuries and uses the same general concept.
 

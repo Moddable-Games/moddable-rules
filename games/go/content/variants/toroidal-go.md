@@ -12,14 +12,16 @@ engine:
     type: grid
     rows: 11
     cols: 11
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Toroidal Go
 
 Standard Go played on a board where edges wrap around horizontally and vertically. No corners, no edges, no joseki. Every group floats. Active tournament community since 2012 with 1,400+ recorded games.
 
-{{svg:go-19x19-board.svg "Toroidal Go — edges wrap (shown flat)"}}
+{{svg:standard-board.svg "Toroidal Go — edges wrap (shown flat)"}}
 
 ### Setup
 

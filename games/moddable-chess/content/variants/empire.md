@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "scdtedcs/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   faceoff: true
@@ -19,6 +20,8 @@ published: true
 ---
 
 ## Empire Chess
+
+{{svg:empire-board.svg "Empire Chess — starting position"}}
 
 Designed by Corey Clark (2019). Empire Chess is an asymmetric variant in which White commands a standard FIDE Kingdom and Black commands the Empire — an army where every piece moves like a Queen but captures in ways unique to its role. The Faceoff rule adds a strategic constraint: if the two royal pieces face each other on an open file, the player who created that confrontation loses.
 

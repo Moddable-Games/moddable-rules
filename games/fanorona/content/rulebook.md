@@ -18,6 +18,44 @@ theme:
   cover: solid
   typography: classical
   accent: brown
+engine:
+  topology:
+    type: grid
+    rows: 5
+    cols: 9
+    layout: intersections
+  surface: parchment
+  render:
+    cellSize: 40
+    cellColor: uniform
+    labels: true
+    ops:
+      - op: rect
+        fill: cell-light
+        scope: board
+        rx: 4
+      - op: grid-lines
+        grouped: false
+        order: hv
+        color: stroke
+        width: 2
+      - op: diagonals
+        pattern: alternating
+        color: stroke
+        width: 1.5
+      - op: markers
+        allCells: true
+        radius: 3
+        fill: stroke
+        hits:
+          radiusFactor: 0.4
+          idStyle: algebraic
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      b: bS
+      w: wS
+  players: [white, black]
 ---
 
 <div class="section">
@@ -41,7 +79,7 @@ The Fanorona board is a 9&times;5 grid of 45 intersection points, connected by h
 
 Strong and weak intersections alternate in a checkerboard pattern across the board.
 
-{{svg:fanorona-board.svg "Fanorona — starting position. White fills rows 1 and 2, plus the four left-of-centre squares in the middle row. Black fills rows 4 and 5, plus the four right-of-centre squares in the middle row. The centre intersection is empty."}}
+{{svg:standard-board.svg "Fanorona — starting position. White fills rows 1 and 2, plus the four left-of-centre squares in the middle row. Black fills rows 4 and 5, plus the four right-of-centre squares in the middle row. The centre intersection is empty."}}
 
 </div>
 

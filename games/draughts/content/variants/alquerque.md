@@ -8,11 +8,50 @@ order: 6
 win: Capture or block all opponent pieces
 special: The common ancestor. Movement along lines (orthogonal and diagonal). No promotion.
 engine:
+  surface:
+    colors:
+      cell-light: "#d9b483"
+      stroke: "rgba(0,0,0,0.1)"
   topology:
     type: grid
     rows: 5
     cols: 5
+    layout: intersections
+  render:
+    cellSize: 48
+    boardStyle: alquerque
+    ops:
+      - op: rect
+        fill: cell-light
+        scope: board
+        rx: 4
+      - op: grid-lines
+        grouped: false
+        order: hv
+        color: stroke
+        width: 2
+      - op: diagonals
+        pattern: alternating
+        color: stroke
+        width: 1.5
+      - op: markers
+        allCells: true
+        radius: 3
+        fill: stroke
+        hits:
+          radiusFactor: 0.4
+          idStyle: algebraic
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      w:
+        type: stone
+        color: white
+      b:
+        type: stone
+        color: black
   players: [white, black]
+  setup: "bbbbb/bbbbb/bb1ww/wwwww/wwwww"
 ---
 
 ## Alquerque

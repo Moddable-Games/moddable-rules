@@ -12,12 +12,48 @@ updated: "2026-06-26"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
   typography: classical
   accent: amber
+engine:
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  render:
+    cellSize: 40
+    cellColor: checkered
+    labels: false
+    zones:
+      fill: floor
+      cells:
+        - type: throne
+          at: [[4,4]]
+        - type: corner
+          at: [[0,0],[0,8],[8,0],[8,8]]
+  surface:
+    colors:
+      floor: "#d9c5a0"
+      floor-stroke: "#8b7355"
+      throne: "#8b4513"
+      throne-stroke: "#5c2d0e"
+      corner: "#4a6741"
+      corner-stroke: "#2d4028"
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      K:
+        type: king
+        color: white
+      w:
+        type: stone
+        color: white
+      b:
+        type: stone
+        color: black
+  players: [attackers, defenders]
 ---
 
 <div class="section variant-hub">

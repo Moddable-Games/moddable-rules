@@ -11,15 +11,41 @@ engine:
     type: grid
     rows: 15
     cols: 15
-    shape: cross
-    orientation: shogi
-  players: [north, east, south, west]
+    layout: cells
+  players: [red, yellow, green, blue]
+  pieces:
+    set: mce-4player-shogi
+  setup: "3,yR,yN,yS,yG,yK,yG,yS,yN,yR,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rR,1,rP,9,bP,1,bR/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rR,1,rP,9,bP,1,bR/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gR,gN,gS,gG,gK,gG,gS,gN,gR,3"
+  render:
+    cellSize: 22
+    cellColor: checkered
+    labels: false
+    decorations: []
+    zones:
+      voids: [[0,0],[0,1],[0,2],[0,12],[0,13],[0,14],[1,0],[1,1],[1,2],[1,12],[1,13],[1,14],[2,0],[2,1],[2,2],[2,12],[2,13],[2,14],[12,0],[12,1],[12,2],[12,12],[12,13],[12,14],[13,0],[13,1],[13,2],[13,12],[13,13],[13,14],[14,0],[14,1],[14,2],[14,12],[14,13],[14,14]]
+    ops:
+      - op: cells
+        pattern: checkered
+        light: cell-light
+        dark: cell-dark
+        interactive: true
+  pieceRotations:
+    red: 90
+    yellow: 180
+    blue: 270
+    green: 0
+  surface:
+    colors:
+      cell-light: "#f0d9b5"
+      cell-dark: "#b58863"
   notation: shogi
   drops: true
 published: true
 ---
 
 ## Four Player Shogi
+
+{{svg:four-player-shogi-board.svg "Four Player Shogi — starting position"}}
 
 Four Player Shogi is a 4-player adaptation of standard Shogi designed by Michael Shipley in 1999. It is played on a cross-shaped board with a 9×9 central area and a 3×9 wing on each edge, giving 189 playable squares. The overall bounding box is 15×15 with the four 3×3 corner sections off the board.
 

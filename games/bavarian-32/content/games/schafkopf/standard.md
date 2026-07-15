@@ -7,6 +7,12 @@ parent: bavarian-32
 win: Declaring side scores 61 or more card points (out of 120)
 special: "Bavaria's defining card game. 4 players, 32-card Bavarian deck, 8 cards each (all dealt, no cards set aside). Permanent trumps: all 4 Obers, all 4 Unters, then the Heart suit. Players bid to be solo declarer or partner caller. The declaring side needs 61+ of 120 card points to win. Core of Bavarian card culture."
 published: true
+engine:
+  topology:
+    type: none
+  components:
+    deck:
+      type: bavarian-32
 ---
 
 ## Schafkopf

@@ -11,13 +11,18 @@ engine:
     type: grid
     rows: 10
     cols: 9
+  pieces:
+    set: mce-xiangqi-fairy
+    vocabulary:
+      Z: wZ
+      z: bZ
   players: [red, black]
-  notation: xiangqi
-  asymmetric: true
-published: true
+  setup: "r1eakae1z/9/p1p1p1p1p/9/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
 ---
 
 ## Manchu+
+
+{{svg:manchu-plus-board.svg "Manchu+ — starting position"}}
 
 Manchu Chess (満洲棋, Mǎnzhŏuqí), also known as Yitong Chess (一统棋, Yītǒngqí), is an asymmetric variant of Xiangqi created during the Qing Dynasty by the Bannermen, among whom it was one of the most popular board games. The version on PyChess is **Manchu+** — a rebalanced adaptation in which **Black** plays the Manchu side.
 

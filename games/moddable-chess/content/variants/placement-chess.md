@@ -12,12 +12,15 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "8/pppppppp/8/8/8/8/PPPPPPPP/8"
   notation: algebraic
   setup_phase: true
 published: true
 ---
 
 ## Placement Chess
+
+{{svg:placement-chess-board.svg "Placement Chess — starting position"}}
 
 Placement Chess (also called Bronstein Chess, Back Rank Randomization, or Pre-Game Placement) addresses opening theory by giving players freedom in where they arrange their own back-rank pieces. The board starts with only Pawns in place; players alternate placing one piece per turn onto their own back rank until all pieces are set, then the game begins as standard chess.
 

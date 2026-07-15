@@ -12,11 +12,14 @@ engine:
     rows: 12
     cols: 12
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 26
+  setup: "rnuclgkglcunr/12/12/ppppppppppppp/12/12/12/12/PPPPPPPPPPPPP/12/12/RNUCLGKGLCUNR"
 ---
 
 ## Grande Acedrex
+
+{{svg:grande-acedrex-board.svg "Grande Acedrex — starting position"}}
 
 Grande Acedrex (Spanish: “Great Chess”) is a large medieval chess variant documented in the *Libro de los Juegos* (Book of Games) commissioned by King Alfonso X of Castile, c. 1283. It is played on a 12×12 board with six exotic piece types drawn from mythology and natural history as understood in 13th-century Spain. Rules are reconstructed from the Alfonso X manuscript as described by Murray, Gollon, and Pritchard.
 

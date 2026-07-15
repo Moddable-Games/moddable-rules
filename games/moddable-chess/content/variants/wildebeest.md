@@ -12,21 +12,15 @@ engine:
     type: grid
     rows: 10
     cols: 11
-  pieces:
-    camel:
-      movement: leaper
-      leap: [3,1]
-      notation: C
-    wildebeest:
-      movement: compound
-      components: [knight, camel]
-      notation: W
-  setup: "rncwqkwcnr/ppppppppppp/11/11/11/11/11/11/PPPPPPPPPPP/RNCWQKWCNR"
-  notes: "C = Camel, W = Wildebeest. Board is 11 files (a–k) × 10 ranks."
-published: true
+  players: [white, black]
+  render:
+    cellSize: 30
+  setup: "rncwqkwcnr1/ppppppppppp/11/11/11/11/11/11/PPPPPPPPPPP/RNCWQKWCNR1"
 ---
 
 ## Standard Wildebeest Chess
+
+{{svg:wildebeest-board.svg "Standard Wildebeest Chess — starting position"}}
 
 Played on an **11×10 board** (files a–k, ranks 1–10). Each side has 11 pawns and an expanded back rank including two new fairy pieces.
 

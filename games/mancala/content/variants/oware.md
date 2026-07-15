@@ -10,8 +10,12 @@ special: Grand slam rule prevents a player from clearing all opponent seeds in a
 engine:
   topology:
     type: pit
-    pitsPerSide: 6
+    cols: 6
+    stores: false
   players: [south, north]
+  render:
+    cellSize: 24
+  setup: "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
 ---
 
 ## Oware

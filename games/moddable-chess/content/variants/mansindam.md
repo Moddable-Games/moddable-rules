@@ -10,23 +10,11 @@ engine:
   topology:
     type: grid
     rows: 9
-    cols: 9
+    cols: 8
   players: [white, black]
-  drops: true
-  promotion_zone:
-    white: [7, 8, 9]
-    black: [1, 2, 3]
-published: true
-status: draft
-updated: 2026-07-07
-category: drop-mechanics
-order:
-tags:
-  - drops
-  - campmate
-  - no-draws
-  - shogi-inspired
-  - couch-tomato
+  render:
+    cellSize: 38
+  setup: "rncakqbm/pppppppp/9/9/9/9/9/PPPPPPPP/RNCAKQBM"
 ---
 
 # Mansindam (Pantheon Tale)
@@ -36,6 +24,8 @@ tags:
 Mansindam is a chess variant designed by Couch Tomato. It takes two of Shogi's most distinctive mechanics -- dropping captured pieces back onto the board, and mandatory promotion on entering the enemy camp -- and combines them with a set of powerful compound pieces drawn from the fairy chess tradition. The result is a game with dramatically more tactical complexity than standard chess, no drawing mechanisms, and two additional win conditions beyond checkmate.
 
 ## The Board
+
+{{svg:mansindam-board.svg "Mansindam (Pantheon Tale) — starting position"}}
 
 Mansindam is played on a **9×9 board** (9 files × 9 ranks). Ranks are numbered 1-9 from White's side. Files are lettered a-i.
 

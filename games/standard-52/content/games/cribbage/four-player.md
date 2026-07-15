@@ -7,6 +7,12 @@ parent: standard-52
 win: First partnership to 121 points
 special: "Partnership Cribbage for 4 players in 2 teams of 2. Partners sit opposite each other. Each player receives 5 cards and discards 1 to the crib. Partners' scores are combined on a single peg track. The crib rotates clockwise."
 published: true
+engine:
+  topology:
+    type: none
+  components:
+    deck:
+      type: standard-52
 ---
 
 ## 4-Player Cribbage (Partnership)

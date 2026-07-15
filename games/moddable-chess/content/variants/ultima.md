@@ -12,11 +12,14 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "cilwklhc/pppppppp/8/8/8/8/PPPPPPPP/CIHLKLIC"
   notation: algebraic
 published: true
 ---
 
 ## Ultima (Baroque Chess)
+
+{{svg:ultima-board.svg "Ultima (Baroque Chess) — starting position"}}
 
 Designed by Robert Abbott and published in 1962 as Ultima (later popularized as Baroque Chess). Ultima is built on one radical premise: every piece has a unique capture method. No two pieces share the same way of taking. The King is won by capturing it outright — there is no check, no checkmate, no stalemate.
 

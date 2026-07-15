@@ -12,9 +12,17 @@ engine:
     type: track
     positions: 40
   players: [player1, player2]
+  setup: ""
+  render:
+    overflow: visible
+  content:
+    source: landlords-game-boards.json
+    board: 1904-patent
 ---
 
 ## Single Tax
+
+{{svg:single-tax-board.svg "Single Tax — starting position"}}
 
 The Single Tax rules appear in the 1906 Economic Game Company edition as a variant that can be entered mid-game by majority vote. They enact Henry George's single-tax philosophy through play: land rents flow to the Public Treasury rather than individual owners, financing the progressive public acquisition of utilities, railroads, and eventually colleges, while wages rise with each increment of public wealth. The 1932 Adgame Company edition later named this process "Prosperity" and gave it a discrete win trigger; see the Prosperity variant for that version.
 

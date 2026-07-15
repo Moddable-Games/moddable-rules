@@ -12,6 +12,9 @@ engine:
     rows: 8
     cols: 10
   players: [white, black]
+  render:
+    cellSize: 36
+  setup: "rjnbkqbnjr/pppppppppp/10/10/10/10/PPPPPPPPPP/RJNBKQBNJR"
 ---
 
 # Janus Chess
@@ -19,6 +22,8 @@ engine:
 **Variant Chess, issues 18 and 20. Played by several chess grandmasters, including Viktor Korchnoi.**
 
 ## Overview
+
+{{svg:janus-board.svg "Janus Chess — starting position"}}
 
 Janus Chess extends standard chess to a 10×8 board by adding two Januses per side. The Janus combines the powers of a Bishop and a Knight. The game closely resembles Capablanca's Chess in concept but has a distinct starting arrangement.
 

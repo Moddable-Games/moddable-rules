@@ -12,12 +12,29 @@ updated: "2026-06-15"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
   typography: classical
   accent: rose
+engine:
+  topology:
+    type: track
+    shape: linear
+    positions: 24
+  surface:
+    colors:
+      board-outer: "#3d2b1f"
+      felt: "#1a5c3a"
+      point-a: "#c47e3b"
+      point-b: "#8b2500"
+  render:
+    cellSize: 22
+    trackStyle: triangular-points
+    labels: false
+  pieces:
+    set: playstrategy-draughts-plain
+  players: [white, black]
 ---
 
 <div class="section variant-hub">

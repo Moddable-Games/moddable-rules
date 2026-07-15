@@ -12,14 +12,15 @@ engine:
     type: grid
     rows: 16
     cols: 16
-  players: [player1, player2, player3, player4]
+  players: [white, black]
+  setup: "bbbb8bbbb/bbbb8bbbb/bbb10bbb/bb12bb/16/16/16/16/16/16/16/16/ww12ww/www10www/wwww8wwww/wwww8wwww"
 ---
 
 ## Standard 4-Player Halma
 
 The four-player form of Halma uses all four corner camps on the same 16&times;16 board, with 13 pieces per player.
 
-{{svg:halma-4p-board.svg "Halma — 4-player starting position"}}
+{{svg:standard-4p-board.svg "Halma — 4-player starting position"}}
 
 ### Setup
 

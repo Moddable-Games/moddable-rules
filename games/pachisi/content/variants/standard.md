@@ -9,16 +9,18 @@ win: Move all four pieces from the Charkoni, around the board, and back home fir
 special: Cowrie shell randomisation. Grace rolls on 0, 1, or 6 mouths up.
 engine:
   topology:
-    type: track
-    positions: 68
+    type: grid
+    rows: 19
+    cols: 19
   players: [red, yellow, green, blue]
+  setup: "home:4Y,home:4G,home:4R,home:4B"
 ---
 
 ## Pachisi (Standard)
 
 The foundational four-player form of Pachisi, played since at least 500 CE and associated with the Mughal court of Emperor Akbar, who is said to have had a life-sized Pachisi court at Fatehpur Sikri where humans served as the playing pieces.
 
-{{svg:pachisi-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
+{{svg:standard-board.svg "Pachisi — cross-shaped board layout with Charkoni and castle squares"}}
 
 ### Equipment
 

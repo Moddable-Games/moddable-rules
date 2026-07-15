@@ -19,6 +19,16 @@ theme:
   cover: minimal
   typography: classical
   accent: green
+engine:
+  topology:
+    type: none
+  surface: felt-green
+  components:
+    deck:
+      type: bavarian-32
+    layout:
+      type: fan
+  players: [south, north, east, west]
 ---
 
 # Bavarian 32-Card Games

@@ -12,11 +12,14 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 30
+  setup: "rcnbsqksbcr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RCNBSQKSBCR"
 ---
 
 ## Centennial Chess
+
+{{svg:centennial-chess-board.svg "Centennial Chess — starting position"}}
 
 Centennial Chess is a 10×10 chess variant with 100 squares — one for each year of the 20th century. Created by John William Brown in 1999 as an entry in the Large Variant Contest, it adds four new pieces to the FIDE set and modifies several rules, including a two-move privilege that is lost upon the first capture.
 

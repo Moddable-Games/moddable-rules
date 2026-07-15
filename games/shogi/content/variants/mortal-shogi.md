@@ -11,15 +11,13 @@ engine:
     type: grid
     rows: 9
     cols: 9
-    orientation: shogi
   players: [sente, gote]
-  notation: shogi
-  drops: true
-  promotion_zone: [7, 8, 9]
-published: true
+  setup: "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL"
 ---
 
 ## Mortal Shogi
+
+{{svg:mortal-shogi-board.svg "Mortal Shogi — starting position"}}
 
 Mortal Shogi is a modern Shogi variant created collaboratively by Roberto Lavieri and Fergus Duniho. It introduces **mortality** to Shogi pieces: instead of reverting to their original form when captured, pieces demote one rank down a fixed chain and change sides. When a Pawn is captured, it is removed from the game entirely.
 

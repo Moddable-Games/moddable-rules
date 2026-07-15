@@ -7,6 +7,12 @@ parent: standard-52
 win: First to 121 points
 special: "Cribbage for three players. Each player receives 5 cards and discards 1 to the crib; 1 additional card is dealt from the deck directly to the crib. The crib rotates clockwise each hand. Scoring is identical to standard Cribbage."
 published: true
+engine:
+  topology:
+    type: none
+  components:
+    deck:
+      type: standard-52
 ---
 
 ## 3-Player Cribbage

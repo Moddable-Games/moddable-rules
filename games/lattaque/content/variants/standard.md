@@ -7,9 +7,37 @@ parent: lattaque
 win: "Capture the opponent's Flag, or leave them with no movable pieces"
 special: "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 1×2 lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks."
 published: true
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 9
+  players: [blue, red]
+  render:
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: cell-light
+        dark: cell-dark
+        defaultFill: floor
+        zones:
+          cells:
+            - type: lake
+              at: [[4,2],[4,4],[4,6],[5,2],[5,4],[5,6]]
+        typeColors:
+          floor: floor
+          lake: lake
+        typeStrokes:
+          floor: floor-stroke
+          lake: lake-stroke
 ---
 
 ## L'Attaque (Standard)
+
+{{svg:standard-board.svg "L'Attaque (Standard) — starting position"}}
 
 Designed by Hermance Edan. Patent filed France 26 November 1908; game first sold 1910 by Au Jeu Retrouvé. Rights acquired 1925 by H.P. Gibson & Sons, London, who published it in Britain until at least the 1970s. The first mass-market hidden-information rank game; direct ancestor of Stratego.
 

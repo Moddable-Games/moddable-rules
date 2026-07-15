@@ -9,9 +9,10 @@ special: All piece types on a compact 5×6 board. Single copies of each.
 engine:
   topology:
     type: grid
-    rows: 5
-    cols: 6
+    rows: 6
+    cols: 5
   players: [white, black]
+  setup: "rnbqk/ppppp/5/5/PPPPP/RNBQK"
 ---
 
 ## Petty Chess

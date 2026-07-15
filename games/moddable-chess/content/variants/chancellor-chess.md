@@ -12,11 +12,14 @@ engine:
     rows: 9
     cols: 9
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 36
+  setup: "rnbqkcbnr/ppppppppp/9/9/9/9/9/PPPPPPPPP/RNBQKCBNR"
 ---
 
 ## Chancellor Chess
+
+{{svg:chancellor-chess-board.svg "Chancellor Chess — starting position"}}
 
 Chancellor Chess was published by the American Ben Foster in his 1889 book of the same name. It is played on a 9×9 board (81 squares) with black squares in the corners, and adds one **Chancellor** (a Rook+Knight compound) per side to an otherwise standard FIDE chess army, plus one extra Pawn per side. The Chancellor piece had appeared earlier in European chess literature (Pietro Carrero, 1617, called it the Centaur), and Foster’s book provided historical context for it.
 

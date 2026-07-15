@@ -8,16 +8,31 @@ win: Checkmate the King
 special: "2-player Shogi variant on a 91-hexagon board (same shape as Glinski's Hexagonal Chess, differently oriented). All Shogi pieces adapted to hexagonal movement. Drops apply with hex-specific Pawn rules: no two-Pawn-per-file restriction (left out); Pawn drop may not check the King (stricter than Shogi). Promotion zone is 4 ranks. Fergus Duniho."
 engine:
   topology:
-    type: hexagonal
-    cells: 91
+    type: hex
+    shape: hexagonal
+    radius: 5
+    orientation: pointy
+  render:
+    cellSize: 22
+    cellColor: tricolor
+  surface:
+    colors:
+      cell-light: "#d4a76a"
+      cell-dark: "#8b6535"
+      cell-mid: "#b88b50"
+      stroke: "rgba(0,0,0,0.2)"
+      background: "#3a2a1a"
+      border: "#6b4226"
+  pieces:
+    set: kahu-shogi-international
   players: [sente, gote]
-  notation: hex-coordinate
-  drops: true
-  promotion_zone: 4
+  setup: "-5,5:L,-4,5:N,-3,5:G,-2,5:G,-1,5:N,0,5:L,-4,4:R,-3,4:S,-2,4:K,-1,4:S,0,4:B,-5,2:P,-4,2:P,-3,2:P,-2,2:P,-1,2:P,0,2:P,1,2:P,2,2:P,3,2:P,5,-5:l,4,-5:n,3,-5:g,2,-5:g,1,-5:n,0,-5:l,4,-4:r,3,-4:s,2,-4:k,1,-4:s,0,-4:b,5,-2:p,4,-2:p,3,-2:p,2,-2:p,1,-2:p,0,-2:p,-1,-2:p,-2,-2:p,-3,-2:p"
 published: true
 ---
 
 ## Hex Shogi 91
+
+{{svg:hex-shogi-91-board.svg "Hex Shogi 91 — starting position"}}
 
 Hex Shogi 91 is a Shogi variant for two players, played on a 91-hexagon board. It was invented by Fergus Duniho and is part of the Hex Shogi family of games. The board is the same shape used for Glinski's Hexagonal Chess and McCooey's Hexagonal Chess, but oriented differently. The game plays very much like Shogi, with pieces and rules adapted for the hexagonal board geometry.
 

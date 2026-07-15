@@ -12,7 +12,8 @@ engine:
     type: grid
     rows: 8
     cols: 8
-  players: [black, white]
+  players: [white, black]
+  setup: "8/8/8/3bw3/3wb3/8/8/8"
 ---
 
 ## Standard

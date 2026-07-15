@@ -10,8 +10,14 @@ special: "Sow into your own house but skip the opponent's house. Dead pits must 
 engine:
   topology:
     type: pit
-    pitsPerSide: 7
+    cols: 7
   players: [south, north]
+  render:
+    cellSize: 18
+    boardShape: ellipse
+    storeSize: [20, 38]
+    pitCurve: 4
+  setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 
 ## Congkak

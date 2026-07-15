@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  setup: "0:1W,1:1W,2:1W,21:1B,22:1B,23:1B"
 ---
 
 ## Hypergammon

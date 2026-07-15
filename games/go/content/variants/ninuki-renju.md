@@ -12,14 +12,16 @@ engine:
     type: grid
     rows: 15
     cols: 15
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Ninuki-Renju
 
 Ninuki-Renju is a Japanese placement game in the Gomoku family that adds custodial capture to the five-in-a-row objective. It is the direct historical precursor to Pente (1977); Pente's designer Gary Gabrel explicitly cites it as inspiration. The game was organised as a competitive sport in Japan by the Ninuki Renju Sha from 1923 to 1940.
 
-{{svg:go-15x15-board.svg "Empty 15×15 board — Ninuki-Renju"}}
+{{svg:ninuki-renju-board.svg "Empty 15×15 board — Ninuki-Renju"}}
 
 ### Setup
 

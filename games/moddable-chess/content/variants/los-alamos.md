@@ -12,6 +12,7 @@ engine:
     rows: 6
     cols: 6
   players: [white, black]
+  setup: "rnqknr/pppppp/6/6/PPPPPP/RNQKNR"
 ---
 
 ## Los Alamos

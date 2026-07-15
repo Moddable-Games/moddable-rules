@@ -9,14 +9,22 @@ special: "44-square chess variant on a custom board with two permanent holes —
 engine:
   topology:
     type: grid
-    cells: 44
-    missing_squares: true
-  players: [yellow, red]
-  notation: algebraic
-published: true
+    rows: 10
+    cols: 7
+  players: [white, black]
+  render:
+    cellSize: 36
+    zones:
+      voids: [[0,0],[0,1],[0,2],[0,4],[0,5],[0,6],[1,0],[1,1],[1,5],[1,6],[2,0],[2,6],[7,0],[7,6],[8,0],[8,1],[8,5],[8,6],[9,0],[9,1],[9,2],[9,4],[9,5],[9,6]]
+      cells:
+        - type: hole
+          at: [[3,3],[6,3]]
+  setup: "3k3/2rqb2/1ppppp1/7/7/7/7/1PPPPP1/2RQB2/3K3"
 ---
 
 ## Hole Chess
+
+{{svg:hole-chess-board.svg "Hole Chess — starting position"}}
 
 Hole Chess is a chess variant created by Gary K. Gifford in December 2003 for the Chess Variants 44-Square Contest. The game is played on a custom 44-square board that includes two permanent holes — squares that pieces cannot occupy, but through which pieces can be captured by being pulled in. The defining mechanic is the Two-Action Rule: three piece types (Queen, Rook, and PS-Bishop) may both move and pull an enemy piece into a hole on the same turn.
 

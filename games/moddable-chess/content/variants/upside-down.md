@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "RNBQKBNR/PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr"
 ---
 
 ## Upside-Down

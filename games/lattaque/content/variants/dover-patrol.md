@@ -7,9 +7,57 @@ parent: lattaque
 win: "Get both Flags — your own and the opponent's — onto your own Base"
 special: "Naval CTF (Capture the Flag) game by H.P. Gibson & Sons. 40 pieces per player plus a separate Flag clip. The Flag starts on the Base inside the walled Harbour; seizing the enemy Flag and conveying it to your own Base wins. The Flying Boat uniquely crosses the Harbour Wall and moves 2 squares; Mine Layers are movable floating mines; Submarines sink all ships except Mine Layers and Motor Torpedo Boats."
 published: true
+engine:
+  topology:
+    type: grid
+    rows: 12
+    cols: 8
+  render:
+    cellSize: 34
+    zones:
+      fill: sea
+      cells:
+        - type: base
+          at: [[0,5],[11,2]]
+        - type: harbour
+          at: [[0,6],[0,7],[1,5],[1,6],[1,7],[2,5],[2,6],[2,7],[9,0],[9,1],[9,2],[10,0],[10,1],[10,2],[11,0],[11,1]]
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: cell-light
+        dark: cell-dark
+        defaultFill: sea
+        zones:
+          cells:
+            - type: base
+              at: [[0,5],[11,2]]
+            - type: harbour
+              at: [[0,6],[0,7],[1,5],[1,6],[1,7],[2,5],[2,6],[2,7],[9,0],[9,1],[9,2],[10,0],[10,1],[10,2],[11,0],[11,1]]
+        typeColors:
+          sea: sea
+          base: base
+          harbour: harbour
+        typeStrokes:
+          sea: sea-stroke
+          base: base-stroke
+          harbour: harbour-stroke
+  surface:
+    colors:
+      sea: "#3a6e9e"
+      sea-stroke: "#2a5580"
+      harbour: "#5a8ab5"
+      harbour-stroke: "#3a6a95"
+      base: "#c8a832"
+      base-stroke: "#9a8020"
+  players: [blue, red]
 ---
 
 ## Dover Patrol
+
+{{svg:dover-patrol-board.svg "Dover Patrol — starting position"}}
 
 Also titled **Naval Tactics**. Published by H.P. Gibson & Sons, London. One of the four games in the Gibson hidden-rank warfare series (alongside L'Attaque, Aviation, and Tri-Tactics).
 

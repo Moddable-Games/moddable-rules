@@ -12,16 +12,9 @@ engine:
     rows: 12
     cols: 12
   players: [white, black]
-published: true
-status: draft
-updated: 2026-07-07
-category: expanded-boards
-order:
-tags:
-  - large-board
-  - fairy-pieces
-  - variable-setup
-  - historical
+  render:
+    cellSize: 26
+  setup: "rnbclqklcbnr/pppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPP/RNBCLQKLCBNR"
 ---
 
 # Metamachy
@@ -29,6 +22,8 @@ tags:
 Metamachy is a large chess variant designed by Jean-Louis Cazaux in 2012. It is played on a 12×12 board (files a–l, ranks 1–12) and features 12 piece types drawn from across the history of chess variants. One of Metamachy's most distinctive features is its **variable starting position**: the four most powerful pieces (King, Queen, Lion, and Eagle) may be arranged in any of twelve possible orders on their four starting squares. Black chooses first; White mirrors the arrangement.
 
 ## The Board
+
+{{svg:metamachy-board.svg "Metamachy — starting position"}}
 
 Standard 12×12 grid, files a–l, ranks 1–12. White occupies ranks 1–3 at the start; Black occupies ranks 10–12.
 

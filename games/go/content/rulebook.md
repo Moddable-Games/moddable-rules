@@ -12,12 +12,57 @@ updated: "2026-06-22"
 published: true
 variants: true
 theme:
-  surface: light
   tint: neutral
   texture: none
   cover: minimal
   typography: classical
   accent: green
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+    layout: intersections
+  surface:
+    colors:
+      cell-light: "#dcb35c"
+      cell-dark: "#d4a843"
+      stroke: "#3d2b1a"
+      label-text: "#5a4020"
+      star-point: "#3d2b1a"
+  render:
+    cellSize: 20
+    labels: true
+    inset: 15
+    idStyle: go
+    ops:
+      - op: rect
+        fill: cell-light
+        scope: board
+      - op: rect
+        fill: cell-dark
+        scope: grid
+        rx: 2
+      - op: grid-lines
+        grouped: true
+        order: hv
+        color: stroke
+        width: 0.8
+      - op: markers
+        grouped: true
+        fill: star-point
+        at: auto-star-points
+        radius: 3
+      - op: hit-targets
+        grouped: true
+        radiusFactor: 0.45
+  pieces:
+    set: playstrategy-go-classic
+    vocabulary:
+      b: bS
+      w: wS
+  players: [black, white]
+  setup: ""
 ---
 
 <div class="section variant-hub">

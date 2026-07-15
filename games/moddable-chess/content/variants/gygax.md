@@ -10,12 +10,24 @@ special: "Three stacked 12×8 boards. 42 pieces per side across 15 piece types. 
 engine:
   topology:
     type: grid
-    rows: 12
-    cols: 8
+    rows: 8
+    cols: 12
     layers: 3
     layer_labels: ["Subterranean", "Land", "Air"]
   players: [gold, scarlet]
-  notation: level-algebraic
+  setup:
+    - "2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1"
+    - "OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo"
+    - "2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1"
+  render:
+    cellSize: 24
+    layerColors:
+      - cell-light: "#a0c8e8"
+        cell-dark: "#6a9ec8"
+      - cell-light: "#a8c890"
+        cell-dark: "#6d9450"
+      - cell-light: "#d4a080"
+        cell-dark: "#a06848"
 ---
 
 ## Gygax Chess
@@ -44,7 +56,7 @@ Piece codes used in FEN notation below: G=Griffon, R=Dragon (not Rook), S=Sylph 
 
 **Level 3 — Air**
 
-{{svg:level3-start.svg "Gygax Chess — Level 3 Air starting position"}}
+{{svg:gygax-board.svg "Gygax Chess — three-level starting position"}}
 
 ```
 2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1
@@ -54,8 +66,6 @@ Gold rank 1: Griffons at 3c1 and 3k1; Dragon at 3g1. Gold rank 2: Sylphs at 3a2,
 
 **Level 2 — Land**
 
-{{svg:level2-start.svg "Gygax Chess — Level 2 Land starting position"}}
-
 ```
 OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo
 ```
@@ -63,8 +73,6 @@ OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo
 Gold rank 1 from file a: Oliphant, Unicorn, Hero, Thief, Cleric, Mage, King, Paladin, Thief, Hero, Unicorn, Oliphant. Gold rank 2: twelve Warriors.
 
 **Level 1 — Subterranean**
-
-{{svg:level1-start.svg "Gygax Chess — Level 1 Subterranean starting position"}}
 
 ```
 2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1

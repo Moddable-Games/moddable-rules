@@ -13,6 +13,8 @@ engine:
 
 ## Overview
 
+{{svg:san-kwo-ki-board.svg "San-kwo-k'i — starting position"}}
+
 San-kwo-k'i (三國棋, "Game of the Three Kingdoms") is a historical Chinese three-player chess variant representing the Three Kingdoms war (220–280 CE) among Wei, Shu, and Wu. It is documented in H.J.R. Murray's *A History of Chess* (1913), citing von Möllendorff's 1876 German article "Das Schachspiel der Chinesen" published in the journal of the German Society for Natural and Cultural Science of East Asia.
 
 Yu Ren Dong reports the game was invented during the Southern Song Dynasty (1127–1279 CE); the inventor's name and original rulebook are lost.

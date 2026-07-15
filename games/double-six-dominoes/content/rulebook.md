@@ -20,6 +20,16 @@ theme:
   typography: modern
   accent: slate
   section-divider: "▬"
+engine:
+  topology:
+    type: none
+  surface: felt-green
+  components:
+    deck:
+      type: dominoes-28
+    layout:
+      type: fan
+  players: [south, north]
 ---
 
 <div class="section">

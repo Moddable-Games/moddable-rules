@@ -13,6 +13,7 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
+  setup: "2b1b1b1b1/3b1b1b1b/w3b1b1b1/1w3b1b1b/w1w3b1b1/1w1w3b1b/w1w1w3b1/1w1w1w3b/w1w1w1w3/1w1w1w1w2"
 ---
 
 ## Diagonal Draughts

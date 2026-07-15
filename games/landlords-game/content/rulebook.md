@@ -18,6 +18,15 @@ theme:
   cover: solid
   typography: classical
   accent: green
+engine:
+  topology:
+    type: track
+    positions: 40
+    shape: circuit
+  surface: parchment
+  render:
+    trackStyle: perimeter
+  players: [player1, player2, player3, player4, player5, player6]
 ---
 
 <div class="section">
@@ -42,7 +51,7 @@ Ruth Hoskins brought a hand-copied version of the game to Atlantic City in 1929,
 
 The Landlord's Game uses a continuous circular track of 40 spaces. Unlike Monopoly's colour-grouped properties, the board is not divided into sections by colour — instead, spaces alternate between lot spaces, railroads, franchises, and special spaces arranged around the perimeter.
 
-{{svg:landlords-game-board.svg "The Landlord's Game — board layout, 40 spaces"}}
+{{svg:1904-original-board.svg "The Landlord's Game — board layout, 40 spaces"}}
 
 **Corner spaces:**
 

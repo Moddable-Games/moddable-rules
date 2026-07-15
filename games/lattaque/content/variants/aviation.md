@@ -7,9 +7,49 @@ parent: lattaque
 win: "Land a Troop Carrier on the opponent's Aerodrome. Draw if both sides lose all Troop Carriers."
 special: "Hidden-information aerial warfare game by H.P. Gibson & Sons. 42 pieces per player: 32 numbered flying units plus 10 unnumbered Auxiliaries (Searchlights, Observation Balloons, Anti-Aircraft Guns). The Searchlight + Gun ranging system is unique: Searchlights reveal hidden pieces and enable AAA Guns to engage at range. Troop Carriers move only diagonally; are driven back (not removed) when attacked by a piece of value 5 or higher; win by reaching the opponent's Aerodrome."
 published: true
+engine:
+  topology:
+    type: grid
+    rows: 11
+    cols: 8
+  render:
+    cellSize: 34
+    zones:
+      fill: floor
+      cells:
+        - type: aerodrome
+          at: [[0,3],[0,4],[10,3],[10,4]]
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: cell-light
+        dark: cell-dark
+        defaultFill: floor
+        zones:
+          cells:
+            - type: aerodrome
+              at: [[0,3],[0,4],[10,3],[10,4]]
+        typeColors:
+          floor: floor
+          aerodrome: aerodrome
+        typeStrokes:
+          floor: floor-stroke
+          aerodrome: aerodrome-stroke
+  surface:
+    colors:
+      floor: "#8fa8bf"
+      floor-stroke: "#6b8aa5"
+      aerodrome: "#d4a843"
+      aerodrome-stroke: "#a07c20"
+  players: [blue, red]
 ---
 
 ## Aviation
+
+{{svg:aviation-board.svg "Aviation — starting position"}}
 
 Published by H.P. Gibson & Sons Ltd., London. One of the four games in the Gibson hidden-rank warfare series (alongside L'Attaque, Dover Patrol, and Tri-Tactics). This description is sourced from the original H.P. Gibson Aviation rulebook (recovered from a 2004-digitised scan).
 

@@ -13,6 +13,7 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
+  setup: "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
 ---
 
 ## Frisian Draughts

@@ -12,14 +12,16 @@ engine:
     type: grid
     rows: 17
     cols: 17
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Tibetan Go
 
 Known as Mig Mang (མིག་མང, "many eyes"), this is Tibet's indigenous Go variant with rules significantly different from Chinese Weiqi. Played on a 17×17 board with pre-placed stones, delayed captures, and a cosmological scoring system that awards points for territory, captures, and specific board positions.
 
-{{svg:go-19x19-board.svg "Tibetan Go — played on 17×17 (shown on 19×19)"}}
+{{svg:standard-board.svg "Tibetan Go — played on 17×17 (shown on 19×19)"}}
 
 ### Setup
 

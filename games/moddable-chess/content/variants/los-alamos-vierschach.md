@@ -9,14 +9,23 @@ special: "4-player chess by Jörg Knappen combining Los Alamos Chess (6×6, no B
 engine:
   topology:
     type: grid
-    cells: 84
-    shape: cross
-  players: [north, east, south, west]
+    rows: 10
+    cols: 10
+  players: [red, yellow, green, blue]
+  pieces:
+    set: mce-4player
+  setup: "2,yR,yN,yQ,yK,yN,yR,2/2,yP,yP,yP,yP,yP,yP,2/bR,bP,6,gP,gR/bN,bP,6,gP,gN/bQ,bP,6,gP,gK/bK,bP,6,gP,gQ/bN,bP,6,gP,gN/bR,bP,6,gP,gR/2,rP,rP,rP,rP,rP,rP,2/2,rR,rN,rQ,rK,rN,rR,2"
+  render:
+    cellSize: 30
+    zones:
+      voids: [[0,0],[0,1],[0,8],[0,9],[1,0],[1,1],[1,8],[1,9],[8,0],[8,1],[8,8],[8,9],[9,0],[9,1],[9,8],[9,9]]
   notation: algebraic
 published: true
 ---
 
 ## Los Alamos Vierschach
+
+{{svg:los-alamos-vierschach-board.svg "Los Alamos Vierschach — starting position"}}
 
 Los Alamos Vierschach is a 4-player chess variant by Jörg Knappen combining **Los Alamos Chess** (the famous 6×6 variant developed at Los Alamos National Laboratory in the 1950s) with the **Vierschach** 4-player format. It was submitted as a non-competing entry to the 84 Squares Contest.
 

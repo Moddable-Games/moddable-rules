@@ -12,6 +12,7 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  setup: "0:15W,23:15B"
 ---
 
 ## Nardi

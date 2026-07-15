@@ -16,11 +16,18 @@ engine:
     layer_labels: ["Board A", "Board B"]
     physical_representation: one-board
   players: [white, black]
+  render:
+    cellSize: 34
+  setup:
+    - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+    - "8/8/8/8/8/8/8/8"
   notation: alice-algebraic
 published: true
 ---
 
 ## Alice Chess
+
+{{svg:alice-board.svg "Alice Chess — starting position"}}
 
 Invented by V. R. Parton in 1953. Named after Lewis Carroll's *Through the Looking-Glass* — pieces step through the mirror and emerge on the other side. Alice Chess uses two standard 8×8 chessboards played simultaneously.
 

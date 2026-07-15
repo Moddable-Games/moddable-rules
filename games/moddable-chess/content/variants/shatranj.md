@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnekfenr/pppppppp/8/8/8/8/PPPPPPPP/RNEKFENR"
 ---
 
 ## Shatranj

@@ -12,6 +12,10 @@ engine:
     type: track
     positions: 36
   players: [player1, player2, player3, player4]
+  setup: ""
+  content:
+    source: landlords-game-boards.json
+    board: 1932-prosperity
 ---
 
 ## Prosperity

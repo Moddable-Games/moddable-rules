@@ -7,12 +7,22 @@ parent: xiangqi
 win: Checkmate the opponent's King
 special: "Western-influenced Xiangqi redesign with FIDE-style pieces plus Vaos (diagonal screen-capture). King may swap with adjacent pieces."
 engine:
-  type: grid
-  rows: 10
-  cols: 9
+  topology:
+    type: grid
+    rows: 10
+    cols: 9
+  pieces:
+    set: mce-xiangqi-fairy
+    vocabulary:
+      V: wV
+      v: bV
+  players: [red, black]
+  setup: "rhvakavhr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RHVAKAVHR"
 ---
 
 ## Overview
+
+{{svg:yang-qi-board.svg "Yáng Qí — starting position"}}
 
 Yáng Qí (also spelled Yang Qi, Yangqi, or Yang Chi) was designed by Fergus Duniho in 2001 as a Western-influenced redesign of Chinese Chess. While classified under the Xiangqi family, Yáng Qí plays closer to orthodox FIDE chess: it replaces most Xiangqi-specific pieces with Western equivalents, removes river and fortress restrictions, and extends the Cannon's screen-capture mechanic to both orthogonal and diagonal pieces.
 

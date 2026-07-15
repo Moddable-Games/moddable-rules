@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
-import { resolve } from 'path';
+import { resolve, basename } from 'path';
 import matter from 'gray-matter';
 import markdownIt from 'markdown-it';
 
@@ -661,6 +661,9 @@ function buildLanding() {
       <span class="hero-stat"><strong>${visible.length}</strong> games</span>
       <span class="hero-stat"><strong>${totalVariants}</strong> variants</span>
     </div>
+    <div class="hero-actions">
+      <a href="diagrams/" class="hero-link">Diagrams</a>
+    </div>
   </section>
 
   <div class="toolbar">
@@ -1067,6 +1070,134 @@ function buildSearchIndex() {
   console.log(`  Built dist/rules-index.json (${index.length} entries)`);
 }
 
+// --- Build board gallery ---
+function buildBoards() {
+  const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .filter(slug => existsSync(resolve(GAMES_DIR, slug, 'content/rulebook.md')));
+
+  const index = [];
+
+  for (const family of allSlugs) {
+    const rbPath = resolve(GAMES_DIR, family, 'content/rulebook.md');
+    const rbSrc = readFileSync(rbPath, 'utf8');
+    const { data: rbMeta } = matter(rbSrc);
+    const familyTitle = (rbMeta.title || family).replace(/\s*[—–:]\s*Official Rulebook$/i, '').replace(/\s*[—–]\s*Component Hub$/i, '');
+    const familyTopo = rbMeta.engine?.topology?.type || null;
+    const hubType = rbMeta.hub_type || null;
+
+    const svgDir = resolve(GAMES_DIR, family, 'diagrams/svg');
+    const svgFiles = existsSync(svgDir)
+      ? readdirSync(svgDir).filter(f => f.endsWith('-board.svg'))
+      : [];
+    const svgSlugs = new Set(svgFiles.map(f => f.replace(/-board\.svg$/, '')));
+
+    // Collect variant metadata
+    const varDir = resolve(GAMES_DIR, family, 'content/variants');
+    const variantMeta = {};
+    if (existsSync(varDir)) {
+      for (const f of readdirSync(varDir).filter(f => f.endsWith('.md'))) {
+        const slug = basename(f, '.md');
+        const { data } = matter(readFileSync(resolve(varDir, f), 'utf8'));
+        variantMeta[slug] = data;
+      }
+    }
+
+    // Collect component hub games
+    const compDir = resolve(GAMES_DIR, family, 'content/games');
+    const compGames = {};
+    if (existsSync(compDir)) {
+      for (const g of readdirSync(compDir, { withFileTypes: true }).filter(d => d.isDirectory())) {
+        const stdPath = resolve(compDir, g.name, 'standard.md');
+        if (existsSync(stdPath)) {
+          const { data } = matter(readFileSync(stdPath, 'utf8'));
+          compGames[g.name] = data;
+        }
+      }
+    }
+
+    // Entries for SVGs that exist
+    for (const svgFile of svgFiles) {
+      const varSlug = svgFile.replace(/-board\.svg$/, '');
+      const vm = variantMeta[varSlug] || {};
+      const topo = vm.engine?.topology?.type || familyTopo || 'unknown';
+      const varTitle = vm.title || varSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+      let rulesUrl = '';
+      if (existsSync(resolve(varDir || '', `${varSlug}.md`))) {
+        rulesUrl = `dist/${family}/variants/${varSlug}/index.html`;
+      }
+
+      index.push({
+        family,
+        familyTitle,
+        variant: varSlug,
+        variantTitle: varTitle,
+        topology: topo,
+        svg: `games/${family}/diagrams/svg/${svgFile}`,
+        rulesUrl,
+        status: 'rendered',
+      });
+    }
+
+    // Entries for variants WITHOUT an SVG
+    for (const [slug, vm] of Object.entries(variantMeta)) {
+      if (svgSlugs.has(slug)) continue;
+      const topo = vm.engine?.topology?.type || familyTopo || 'unknown';
+      const varTitle = vm.title || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      const hasTopo = !!(vm.engine?.topology?.type || familyTopo);
+
+      const SUPPORTED_TOPOS = ['grid', 'hex', 'graph', 'track', 'pit'];
+      let reason = 'pending';
+      if (!hasTopo) reason = 'no-topology';
+      else if (!SUPPORTED_TOPOS.includes(topo)) reason = 'unsupported-topology';
+      else if (vm.engine?.topology?.layers > 1) reason = 'multi-board';
+
+      index.push({
+        family,
+        familyTitle,
+        variant: slug,
+        variantTitle: varTitle,
+        topology: topo,
+        svg: null,
+        rulesUrl: `dist/${family}/variants/${slug}/index.html`,
+        status: 'missing',
+        reason,
+      });
+    }
+
+    // Entries for component hub games WITHOUT an SVG
+    for (const [slug, gm] of Object.entries(compGames)) {
+      if (svgSlugs.has(slug)) continue;
+      const varTitle = gm.title || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      const componentType = hubType === 'component' ? (rbMeta.component_type || 'cards') : 'unknown';
+
+      index.push({
+        family,
+        familyTitle,
+        variant: slug,
+        variantTitle: varTitle,
+        topology: componentType,
+        svg: null,
+        rulesUrl: `dist/${family}/games/${slug}/index.html`,
+        status: 'missing',
+        reason: 'component-game',
+      });
+    }
+  }
+
+  index.sort((a, b) => {
+    if (a.status !== b.status) return a.status === 'rendered' ? -1 : 1;
+    return a.family.localeCompare(b.family) || a.variant.localeCompare(b.variant);
+  });
+
+  const rendered = index.filter(b => b.status === 'rendered').length;
+  const missing = index.filter(b => b.status === 'missing').length;
+  writeFileSync(resolve(ROOT, 'diagrams-manifest.json'), JSON.stringify(index, null, 2));
+  console.log(`  Built diagrams-manifest.json (${rendered} rendered, ${missing} pending — ${index.length} total)`);
+}
+
 // --- Main ---
 console.log(`Building ${gameSlugs.length} game(s): ${gameSlugs.join(', ')}`);
 
@@ -1078,5 +1209,6 @@ for (const slug of gameSlugs) {
 }
 
 buildLanding();
+buildBoards();
 buildSearchIndex();
 console.log('Build complete.');

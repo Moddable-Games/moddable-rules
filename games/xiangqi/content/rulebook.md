@@ -12,12 +12,68 @@ updated: "2026-07-08"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: grain
   cover: solid
   typography: classical
   accent: amber
+engine:
+  topology:
+    type: grid
+    rows: 10
+    cols: 9
+    layout: intersections
+  surface:
+    colors:
+      cell-light: "#f5deb3"
+      stroke: "#4a3520"
+  render:
+    cellSize: 36
+    cellColor: uniform
+    labels: true
+    boardStyle: xiangqi
+    river: true
+    palace: true
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#f5deb3"
+        stroke: "#4a3520"
+        interactive: true
+      - op: grid-lines
+        color: "#4a3520"
+        width: 2
+        grouped: false
+        split:
+          topRow: 4
+          bottomRow: 5
+    decorations:
+      - type: gap
+        rows: [4, 5]
+      - type: texts
+        items:
+          - text: "楚 河"
+            position: river-left
+          - text: "漢 界"
+            position: river-right
+  pieces:
+    set: mce-xiangqi-trad
+    vocabulary:
+      R: wR
+      r: bR
+      H: wN
+      h: bN
+      E: wE
+      e: bE
+      A: wA
+      a: bA
+      K: wK
+      k: bK
+      C: wC
+      c: bC
+      P: wP
+      p: bP
+  players: [red, black]
 ---
 
 <div class="section variant-hub">

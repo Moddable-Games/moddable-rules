@@ -13,6 +13,7 @@ engine:
     rows: 12
     cols: 12
   players: [white, black]
+  setup: "1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/12/12/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1"
 ---
 
 ## Canadian Draughts

@@ -7,13 +7,19 @@ parent: xiangqi
 win: Checkmate the General (standard Xiangqi win conditions)
 special: "Compact Xiangqi on a 7×6 grid (42 intersections). No river, no Elephants — fast tactical play on a minimal board."
 engine:
-  type: grid
-  rows: 6
-  cols: 7
-  intersections: true
+  topology:
+    type: grid
+    rows: 6
+    cols: 7
+  players: [red, black]
+  setup: "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR"
+  render:
+    cellSize: 40
 ---
 
 ## Overview
+
+{{svg:xiangqi-42-board.svg "Xiangqi 42 — starting position"}}
 
 Xiangqi 42 is a compact Xiangqi variant designed by Robert Price and entered in the Chess Variant Pages 42-Squares Contest (2001). The board has exactly 42 occupiable positions — 7 files × 6 ranks = 42 intersections — giving the game its name.
 

@@ -13,6 +13,7 @@ engine:
     cols: 8
   players: [white, gold]
   asymmetric: true
+  setup: "lhakahls/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR"
 published: true
 status: draft
 updated: 2026-07-07
@@ -30,6 +31,8 @@ tags:
 Khan's Chess is an asymmetric chess variant designed in 2023–24 by Couch Tomato. It is a refined successor to Orda Chess, pitting the standard Kingdom army against a Mongol-themed Horde cavalry force. Like Orda Chess, all Horde pieces (except the Khan and Kheshig) use divergent movement—they move differently from how they capture. Unlike Orda Chess, the Horde's pawns are replaced by Scouts, faster-moving forward-only cavalry units, and the Yurt is replaced by the Khatun.
 
 ## History
+
+{{svg:khans-chess-board.svg "Khan's Chess — starting position"}}
 
 Couch Tomato created Khan's Chess to address two shortcomings identified in Orda Chess through high-level NNUE (neural network) analysis under Fairy-Stockfish: the original game proved less balanced than intended at high levels of play, and the standard pawn poorly represented the Mongols' historically cavalry-dominated armies. Taking advantage of expanded Fairy-Stockfish piece-definition capabilities, the designer replaced the pawn and yurt with two new pieces—the Scout and the Khatun—and moved Scouts to the second rank, giving the Horde a faster, more thematically coherent force. Thorough NNUE testing confirmed improved balance in the final design.
 

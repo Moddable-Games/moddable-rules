@@ -19,6 +19,16 @@ theme:
   cover: minimal
   typography: classical
   accent: red
+engine:
+  topology:
+    type: none
+  surface: felt-green
+  components:
+    deck:
+      type: standard-52
+    layout:
+      type: fan
+  players: [south, north, east, west]
 ---
 
 <div class="section">

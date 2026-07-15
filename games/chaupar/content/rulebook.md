@@ -12,12 +12,45 @@ updated: "2026-06-18"
 published: true
 variants: false
 theme:
-  surface: light
   tint: cool
   texture: crosshatch
   cover: ornate
   typography: classical
   accent: indigo
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+    layout: cross
+  render:
+    cellSize: 20
+    cellColor: checkered
+    labels: false
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cross
+        light: cell-light
+        dark: cell-dark
+        castles: []
+        typeColors:
+          floor: floor
+          home: home
+        typeStrokes:
+          floor: floor-stroke
+          home: home-stroke
+  surface:
+    colors:
+      floor: "#d4d8f0"
+      floor-stroke: "#2d3a8c"
+      home: "#1a1a6b"
+      home-stroke: "#12124a"
+  pieces:
+    set: playstrategy-draughts-plain
+  players: [yellow, green, red, blue]
 ---
 
 <div class="section">
@@ -38,7 +71,7 @@ The game is fully public domain. Earliest secure historical documentation predat
 
 The board is identical to the Pachisi board: a cross-shaped cloth board, each arm divided into three columns of eight squares, with the Charkoni (the large central square) in the centre.
 
-{{svg:chaupar-board.svg "Chaupar — cross-shaped board layout"}}
+{{svg:standard-board.svg "Chaupar — cross-shaped board layout"}}
 
 The Charkoni functions as the re-entry point for captured pieces. Unlike Pachisi, pieces do not start in the Charkoni.
 

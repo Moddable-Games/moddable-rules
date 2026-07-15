@@ -12,12 +12,54 @@ updated: "2026-06-18"
 published: true
 variants: true
 theme:
-  surface: light
   tint: warm
   texture: crosshatch
   cover: ornate
   typography: classical
   accent: orange
+engine:
+  topology:
+    type: grid
+    rows: 19
+    cols: 19
+    layout: cross
+  render:
+    cellSize: 20
+    cellColor: checkered
+    labels: false
+    castles: [[0,9],[3,8],[3,10],[8,3],[8,15],[9,0],[9,18],[10,3],[10,15],[15,8],[15,10],[18,9]]
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cross
+        light: cell-light
+        dark: cell-dark
+        castles: [[0,9],[3,8],[3,10],[8,3],[8,15],[9,0],[9,18],[10,3],[10,15],[15,8],[15,10],[18,9]]
+        typeColors:
+          floor: floor
+          castle: castle
+          home: home
+        typeStrokes:
+          floor: floor-stroke
+          castle: castle-stroke
+          home: home-stroke
+        decorations:
+          castle: castle-x
+        castleXColor: castle-x
+  surface:
+    colors:
+      floor: "#f0d5a0"
+      floor-stroke: "#8b6545"
+      castle: "#c0622f"
+      castle-stroke: "#8b6545"
+      castle-x: "#fff8f0"
+      home: "#8b1a1a"
+      home-stroke: "#6a1212"
+  pieces:
+    set: playstrategy-draughts-plain
+  players: [yellow, green, red, blue]
 ---
 
 <div class="section variant-hub">

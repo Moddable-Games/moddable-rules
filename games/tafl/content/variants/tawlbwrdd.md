@@ -2,6 +2,45 @@
 title: "Tawlbwrdd"
 slug: "tawlbwrdd"
 variant_of: "tafl"
+engine:
+  topology:
+    type: grid
+    rows: 11
+    cols: 11
+  players: [attackers, defenders]
+  render:
+    cellSize: 34
+    zones:
+      fill: floor
+      cells:
+        - type: throne
+          at: [[5,5]]
+        - type: corner
+          at: [[0,0],[0,10],[10,0],[10,10]]
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: cell-light
+        dark: cell-dark
+        defaultFill: floor
+        zones:
+          cells:
+            - type: throne
+              at: [[5,5]]
+            - type: corner
+              at: [[0,0],[0,10],[10,0],[10,10]]
+        typeColors:
+          floor: floor
+          throne: throne
+          corner: corner
+        typeStrokes:
+          floor: floor-stroke
+          throne: throne-stroke
+          corner: corner-stroke
+  setup: "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
 published: true
 ---
 

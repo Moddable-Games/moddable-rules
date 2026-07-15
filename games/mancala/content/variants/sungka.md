@@ -10,8 +10,22 @@ special: "Simultaneous start; sow only into your own head, never the opponent's.
 engine:
   topology:
     type: pit
-    pitsPerSide: 7
+    cols: 7
+  surface:
+    colors:
+      board-outer: "#A08050"
+      board-inner: "#C4A060"
+      pit: "#6B4C28"
+      pit-stroke: "#4A3518"
+      seed: "#F0E8D8"
+      seed-stroke: "#C0B090"
   players: [south, north]
+  render:
+    cellSize: 18
+    boardShape: ellipse
+    storeSize: [20, 38]
+    pitCurve: 4
+  setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 
 ## Sungka

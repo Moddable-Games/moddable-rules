@@ -12,14 +12,16 @@ engine:
     type: grid
     rows: 19
     cols: 19
-  players: [player1, player2, player3, player4]
+    layout: intersections
+  players: [black, white]
+  setup: ""
 ---
 
 ## Rengo
 
 Team Go where two or three players per side alternate turns without consulting each other. Partners must infer each other's strategy purely from the stones played. Creates emergent cooperation and occasional hilarious miscommunication.
 
-{{svg:go-19x19-board.svg "Rengo — standard board"}}
+{{svg:standard-board.svg "Rengo — standard board"}}
 
 ### Setup
 

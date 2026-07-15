@@ -2,6 +2,45 @@
 title: "Brandubh"
 slug: "brandubh"
 variant_of: "tafl"
+engine:
+  topology:
+    type: grid
+    rows: 7
+    cols: 7
+  players: [attackers, defenders]
+  render:
+    cellSize: 40
+    zones:
+      fill: floor
+      cells:
+        - type: throne
+          at: [[3,3]]
+        - type: corner
+          at: [[0,0],[0,6],[6,0],[6,6]]
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: cell-light
+        dark: cell-dark
+        defaultFill: floor
+        zones:
+          cells:
+            - type: throne
+              at: [[3,3]]
+            - type: corner
+              at: [[0,0],[0,6],[6,0],[6,6]]
+        typeColors:
+          floor: floor
+          throne: throne
+          corner: corner
+        typeStrokes:
+          floor: floor-stroke
+          throne: throne-stroke
+          corner: corner-stroke
+  setup: "3b3/3b3/3w3/bbwKwbb/3w3/3b3/3b3"
 published: true
 ---
 

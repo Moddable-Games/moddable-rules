@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   drops: true
 ---
 
@@ -20,6 +21,8 @@ engine:
 **By Ed Friedlander, 2001.**
 
 ## Overview
+
+{{svg:pocket-knight-board.svg "Pocket Knight Chess — starting position"}}
 
 Pocket Knight Chess is standard chess with one addition: each player begins the game holding a spare Knight in their "pocket." Once in the game, a player may spend their move to drop this Knight onto any empty square instead of moving a piece on the board.
 

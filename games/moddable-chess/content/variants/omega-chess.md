@@ -9,9 +9,14 @@ special: "Commercial variant on a 10×10 board with 4 extra \"wizard squares\" b
 engine:
   topology:
     type: grid
-    rows: 10
-    cols: 10
+    rows: 12
+    cols: 12
   players: [white, black]
+  render:
+    cellSize: 26
+    zones:
+      voids: [[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[0,9],[0,10],[1,0],[1,11],[2,0],[2,11],[3,0],[3,11],[4,0],[4,11],[5,0],[5,11],[6,0],[6,11],[7,0],[7,11],[8,0],[8,11],[9,0],[9,11],[10,0],[10,11],[11,1],[11,2],[11,3],[11,4],[11,5],[11,6],[11,7],[11,8],[11,9],[11,10]]
+  setup: "w10w/1crnbqkbnrc1/1pppppppppp1/12/12/12/12/12/12/1PPPPPPPPPP1/1CRNBQKBNRC1/W10W"
 ---
 
 # Omega Chess
@@ -19,6 +24,8 @@ engine:
 **Designed by Daniel MacDonald, 1992. Endorsed by grandmasters Michael Rohde and Alex Sherzer.**
 
 ## Overview
+
+{{svg:omega-chess-board.svg "Omega Chess — starting position"}}
 
 Omega Chess is played on a 10×10 board (files A–J, ranks 0–9) with four additional “wizard squares” placed diagonally beyond each corner of the main board (W1–W4), giving 104 squares total. Two new pieces per player are added: the Champion and the Wizard.
 

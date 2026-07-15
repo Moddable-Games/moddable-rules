@@ -10,22 +10,19 @@ special: "All six arms occupied. Maximum interaction; every path crosses contest
 published: true
 engine:
   topology:
-    type: hex-star
-    arms: 6
-    arm_size: 10
-    centre_size: 61
-    total_positions: 121
-  players: [player1, player2, player3, player4, player5, player6]
-  arms:
-    player1: N
-    player2: NE
-    player3: SE
-    player4: S
-    player5: SW
-    player6: NW
+    type: graph
+    structure: star
+    params:
+      armSize: 4
+      spacing: 24
+  players: [red, blue, green, black, purple, brown]
+  setup:
+    arms: [N, NE, SE, S, SW, NW]
 ---
 
 ## Standard 6-Player Stern-Halma
+
+{{svg:standard-6p-board.svg "Standard 6-Player Stern-Halma — starting position"}}
 
 The full six-player game uses every arm on the board.
 

@@ -10,8 +10,11 @@ special: "The tuzduk rule: landing the 3rd seed in an opponent's odd-numbered pi
 engine:
   topology:
     type: pit
-    pitsPerSide: 9
+    cols: 9
   players: [south, north]
+  render:
+    cellSize: 20
+  setup: "9,9,9,9,9,9,9,9,9;0;9,9,9,9,9,9,9,9,9;0"
 ---
 
 ## Toguz Korgool

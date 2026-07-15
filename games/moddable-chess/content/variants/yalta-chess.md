@@ -7,11 +7,19 @@ parent: moddable-chess
 win: Be the last player with a King remaining
 special: "3-player chess on a circular board divided into Y-shaped sectors. Checkmating a player captures their army. Alliances encouraged."
 engine:
-  type: circular-y-trisection
-  players: 3
+  topology:
+    type: grid
+    rows: 14
+    cols: 14
+  players: [white, black]
+  render:
+    cellSize: 24
+  setup: "14/14/14/3rnbqkbnr3/3pppppppp3/14/14/14/14/3PPPPPPPP3/3RNBQKBNR3/14/14/14"
 ---
 
 ## Overview
+
+{{svg:yalta-chess-board.svg "Yalta Chess — starting position"}}
 
 Yalta Chess is a 3-player chess variant played on a circular board divided into three Y-shaped sectors. It was documented by Daniel Lindström from a small book purchased at a chess bookshop in Paris. Lindström describes it as "more about group dynamics, preferably together with a couple of beers, than as a serious competition."
 

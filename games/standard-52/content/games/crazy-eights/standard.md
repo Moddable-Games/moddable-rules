@@ -7,6 +7,12 @@ parent: standard-52
 win: First to empty their hand
 special: "Shedding card game. Players match the top discard by suit or rank. Eights are wild — playing an 8 lets you name the next suit. The direct ancestor of Uno. 2–5 players, fast and accessible."
 published: true
+engine:
+  topology:
+    type: none
+  components:
+    deck:
+      type: standard-52
 ---
 
 ## Crazy Eights

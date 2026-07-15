@@ -21,6 +21,25 @@ theme:
   typography: classical
   accent: amber
   section-divider: "⚔"
+engine:
+  topology:
+    type: grid
+    rows: 20
+    cols: 8
+  surface: military
+  render:
+    cellSize: 21
+    cellColor: checkered
+    labels: false
+    ops:
+      - op: cells
+        pattern: checkered
+        light: "#f0d9b5"
+        dark: "#b58863"
+        interactive: true
+  pieces:
+    set: mce-chess
+  players: [white, black]
 ---
 
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Overview</span><span class="eyebrow-line"></span></div>

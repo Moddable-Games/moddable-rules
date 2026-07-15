@@ -20,6 +20,16 @@ theme:
   typography: classical
   accent: brown
   section-divider: "☕"
+engine:
+  topology:
+    type: none
+  surface: felt-green
+  components:
+    deck:
+      type: custom
+    layout:
+      type: fan
+  players: [player-1, player-2, player-3, player-4]
 ---
 
 <div class="section">

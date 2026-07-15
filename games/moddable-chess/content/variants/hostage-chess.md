@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   drops: true
 ---
 
@@ -20,6 +21,8 @@ engine:
 **Invented by John Leslie. Named “chess variant of the decade” by David Pritchard in Variant Chess, Summer 1999.**
 
 ## Overview
+
+{{svg:hostage-chess-board.svg "Hostage Chess — starting position"}}
 
 Hostage Chess introduces Shogi-style dropping using a single standard chess set. Captured pieces do not change sides (unlike Chessgi/Bughouse); instead they are held as **hostages** in the captor’s prison. An exchange mechanism lets players rescue their hostages by releasing enemy hostages in return, then immediately deploy the rescued piece.
 

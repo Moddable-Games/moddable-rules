@@ -12,6 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
 ---
 
 # Kriegspiel
@@ -19,6 +20,8 @@ engine:
 **Invented by Henry Michael Temple, 1899, South Africa. Played by several famous players including Emanuel Lasker.**
 
 ## Overview
+
+{{svg:kriegspiel-board.svg "Kriegspiel — starting position"}}
 
 Kriegspiel is chess with incomplete information. Each player can see only their own pieces — not the opponent's position or moves. A referee maintains a third "master" board with all pieces visible and arbitrates all play. Players must deduce the opponent's position from the referee's announcements.
 

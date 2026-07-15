@@ -26,6 +26,17 @@ theme:
   accent: amber
   accent-secondary: teal
   section-divider: "☢"
+engine:
+  surface:
+    colors:
+      stroke: "rgba(0,0,0,0.2)"
+      border: "#6b4226"
+      water: "#2196F3"
+      trees: "#4CAF50"
+      mount: "#795548"
+      grass: "#8BC34A"
+      sand: "#FFC107"
+      base: "#F44336"
 ---
 
 <div class="section">

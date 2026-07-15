@@ -12,14 +12,16 @@ engine:
     type: grid
     rows: 9
     cols: 9
+    layout: intersections
   players: [black, white]
+  setup: ""
 ---
 
 ## Capture Go
 
 The first player to capture any opponent stone wins immediately. No territory counting, no endgame, no passing. Also known as Atari Go. The universal introduction to Go for beginners, teaching the fundamental mechanics of liberties and capture without the complexity of territory evaluation.
 
-{{svg:go-9x9-board.svg "Capture Go — typically played on 9×9"}}
+{{svg:9x9-board.svg "Capture Go — typically played on 9×9"}}
 
 ### Setup
 

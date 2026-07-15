@@ -11,7 +11,12 @@ engine:
     type: grid
     rows: 11
     cols: 11
-  players: [white, black]
+  players: [sente, gote]
+  setup: "[lh][cm][so][fc][vs][ck][vw][fg][sc][bd][oc]/1[ce]3[sw]3[ff]1/[sp][sp][sp][rr][sp][sp][sp][tf][sp][sp][sp]/3[sp]3[sp]3/11/11/11/3[SP]3[SP]3/[SP][SP][SP][TF][SP][SP][SP][RR][SP][SP][SP]/1[FF]3[SW]3[CE]1/[OC][BD][SC][FG][VW][CK][VS][FC][SO][CM][LH]"
+  render:
+    cellSize: 30
+  pieces:
+    set: mce-shogi-fairy
 ---
 
 # Wa Shogi
@@ -19,6 +24,8 @@ engine:
 **Historical Japanese Shogi variant on an 11×11 board. Played both with and without drops in modern practice.**
 
 ## Overview
+
+{{svg:wa-shogi-board.svg "Wa Shogi — starting position"}}
 
 Wa Shogi uses an 11×11 board. All pieces except the Pawns are of unique types, and they are generally weaker than Shogi pieces, making the game well-suited to drops. Historical rules make no mention of drops, however, so the game is today played in two forms: with or without drops.
 

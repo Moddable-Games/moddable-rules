@@ -13,11 +13,18 @@ engine:
     cols: 8
     boards: 2
   players: [white1, black1, white2, black2]
+  render:
+    cellSize: 34
+  setup:
+    - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+    - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---
 
 ## Tandem Chess
+
+{{svg:tandem-chess-board.svg "Tandem Chess — starting position"}}
 
 Tandem Chess (also known as Siamese Chess) is a 4-player team chess variant played on two simultaneous standard boards. It is closely related to Bughouse Chess and shares most of its rules, with two key distinctions. It is one of the most widely played team chess formats internationally.
 

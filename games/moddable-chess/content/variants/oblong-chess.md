@@ -12,11 +12,14 @@ engine:
     rows: 16
     cols: 4
   players: [white, black]
-  notation: algebraic
-published: true
+  render:
+    cellSize: 34
+  setup: "rnbk/pppp/4/4/4/4/4/4/4/4/4/4/4/4/PPPP/KBNR"
 ---
 
 ## Oblong Chess
+
+{{svg:oblong-chess-board.svg "Oblong Chess — starting position"}}
 
 Oblong Chess is a historical chess variant played on a 4×16 board (four files, sixteen ranks). Approximately one thousand years old, it is a variant of **Shatranj** — the Arabic predecessor of modern chess — using the full Shatranj piece set and movement rules. Seven different starting setups are documented in historical sources. The game was often played with dice that determined which piece type the player could move on each turn.
 

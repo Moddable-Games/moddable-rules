@@ -7,12 +7,17 @@ parent: shogi
 win: Checkmate the opponent's King
 special: "Each piece borrows the movement of the friendly piece directly behind it. A Pawn backed by a Rook moves like a Rook."
 engine:
-  type: grid
-  rows: 9
-  cols: 9
+  topology:
+    type: grid
+    rows: 9
+    cols: 9
+  players: [sente, gote]
+  setup: "lnsgkgsnl/1r5b1/p1ppppp1p/1p5p1/9/1P5P1/P1PPPPP1P/1B5R1/LNSGKGSNL"
 ---
 
 ## Overview
+
+{{svg:annan-shogi-board.svg "Annan Shogi — starting position"}}
 
 Annan Shogi (安南将棋), also called Korean Shogi, is a popular Shogi variant in Japan. All standard Shogi rules apply with one key change: each piece borrows the movement of the friendly piece immediately behind it.
 

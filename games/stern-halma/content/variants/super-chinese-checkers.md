@@ -10,18 +10,19 @@ special: "Extended hop: pieces may jump multiple empty spaces in a line before a
 published: true
 engine:
   topology:
-    type: hex-star
-    arms: 6
-    arm_size: 10
-    centre_size: 61
-    total_positions: 121
-  movement:
-    type: super-hop
-    hop_distance: variable
-    landing_distance: variable
+    type: graph
+    structure: star
+    params:
+      armSize: 4
+      spacing: 24
+  players: [red, blue, green, black, purple, brown]
+  setup:
+    arms: [N, S]
 ---
 
 ## Super Chinese Checkers
+
+{{svg:super-chinese-checkers-board.svg "Super Chinese Checkers — starting position"}}
 
 A faster variant using the same star board but with an extended hopping rule that allows pieces to travel much further in a single move.
 
