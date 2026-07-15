@@ -62,9 +62,8 @@ Baristasaurus is a competitive card game where players run dinosaur-staffed coff
 2. Each player takes their shop's starting ingredients from the ingredient deck.
 3. Randomly select 1 Order card and 1 Customer card; place them face-up together on the table.
 4. Shuffle all remaining cards and deal 5 to each player face-down.
-5. Players draft their starting hand: each picks 1 card, passes the rest to the next player. Repeat until all 5 are kept.
-6. Remaining cards form the draw pile (face-down).
-7. First player: whoever most recently saw a dinosaur. Play proceeds clockwise.
+5. Remaining cards form the draw pile (face-down).
+6. First player: whoever most recently saw a dinosaur. Play proceeds clockwise.
 
 </div>
 
