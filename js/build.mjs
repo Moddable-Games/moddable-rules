@@ -1186,6 +1186,7 @@ function buildBoards() {
         reason: 'component-game',
       };
       if (deckType) entry.deckType = deckType;
+      if (gm.players) entry.players = gm.players;
       index.push(entry);
     }
 
