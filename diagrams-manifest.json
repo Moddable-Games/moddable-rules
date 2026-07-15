@@ -7,7 +7,8 @@
     "topology": "hex",
     "svg": "games/agon/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/agon/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "asalto",
@@ -17,7 +18,8 @@
     "topology": "graph",
     "svg": "games/asalto/diagrams/svg/royal-garrison-board.svg",
     "rulesUrl": "dist/asalto/variants/royal-garrison/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "asalto",
@@ -27,7 +29,8 @@
     "topology": "graph",
     "svg": "games/asalto/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/asalto/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "backgammon",
@@ -37,7 +40,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/acey-deucey-board.svg",
     "rulesUrl": "dist/backgammon/variants/acey-deucey/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "backgammon",
@@ -47,7 +51,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
     "rulesUrl": "dist/backgammon/variants/chouette/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "3–6"
   },
   {
     "family": "backgammon",
@@ -57,7 +62,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/fevga-board.svg",
     "rulesUrl": "dist/backgammon/variants/fevga/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "backgammon",
@@ -67,7 +73,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/hypergammon-board.svg",
     "rulesUrl": "dist/backgammon/variants/hypergammon/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "backgammon",
@@ -77,7 +84,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/nackgammon-board.svg",
     "rulesUrl": "dist/backgammon/variants/nackgammon/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "backgammon",
@@ -87,7 +95,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
     "rulesUrl": "dist/backgammon/variants/nardi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "backgammon",
@@ -97,7 +106,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/plakoto-board.svg",
     "rulesUrl": "dist/backgammon/variants/plakoto/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "backgammon",
@@ -107,7 +117,8 @@
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/backgammon/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "chaupar",
@@ -117,7 +128,8 @@
     "topology": "grid",
     "svg": "games/chaupar/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/chaupar/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4"
   },
   {
     "family": "dou-shou-qi",
@@ -127,7 +139,8 @@
     "topology": "grid",
     "svg": "games/dou-shou-qi/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/dou-shou-qi/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -137,7 +150,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/alquerque-board.svg",
     "rulesUrl": "dist/draughts/variants/alquerque/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -147,7 +161,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/bashni-board.svg",
     "rulesUrl": "dist/draughts/variants/bashni/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -157,7 +172,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/brazilian-board.svg",
     "rulesUrl": "dist/draughts/variants/brazilian/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -167,7 +183,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/canadian-board.svg",
     "rulesUrl": "dist/draughts/variants/canadian/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -177,7 +194,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/czech-board.svg",
     "rulesUrl": "dist/draughts/variants/czech/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -187,7 +205,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/dameo-board.svg",
     "rulesUrl": "dist/draughts/variants/dameo/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -197,7 +216,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/diagonal-board.svg",
     "rulesUrl": "dist/draughts/variants/diagonal/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -207,7 +227,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/english-board.svg",
     "rulesUrl": "dist/draughts/variants/english/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -217,7 +238,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/frisian-board.svg",
     "rulesUrl": "dist/draughts/variants/frisian/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -227,7 +249,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/german-board.svg",
     "rulesUrl": "dist/draughts/variants/german/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -237,7 +260,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/ghanaian-board.svg",
     "rulesUrl": "dist/draughts/variants/ghanaian/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -247,7 +271,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/international-board.svg",
     "rulesUrl": "dist/draughts/variants/international/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -257,7 +282,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/italian-board.svg",
     "rulesUrl": "dist/draughts/variants/italian/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -267,7 +293,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/lasca-board.svg",
     "rulesUrl": "dist/draughts/variants/lasca/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -277,7 +304,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/pool-board.svg",
     "rulesUrl": "dist/draughts/variants/pool/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -287,7 +315,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/russian-board.svg",
     "rulesUrl": "dist/draughts/variants/russian/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -297,7 +326,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/spanish-board.svg",
     "rulesUrl": "dist/draughts/variants/spanish/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -307,7 +337,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/spantsiretti-board.svg",
     "rulesUrl": "dist/draughts/variants/spantsiretti/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -317,7 +348,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/thai-board.svg",
     "rulesUrl": "dist/draughts/variants/thai/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "draughts",
@@ -327,7 +359,8 @@
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/turkish-draughts-board.svg",
     "rulesUrl": "dist/draughts/variants/turkish-draughts/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "dungeon-chess",
@@ -337,7 +370,8 @@
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/compact-board.svg",
     "rulesUrl": "dist/dungeon-chess/variants/compact/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "dungeon-chess",
@@ -347,7 +381,8 @@
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/four-player-board.svg",
     "rulesUrl": "dist/dungeon-chess/variants/four-player/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "dungeon-chess",
@@ -357,7 +392,8 @@
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/two-player-board.svg",
     "rulesUrl": "dist/dungeon-chess/variants/two-player/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "econopoly",
@@ -367,7 +403,8 @@
     "topology": "track",
     "svg": "games/econopoly/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/econopoly/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2-6"
   },
   {
     "family": "fanorona",
@@ -377,7 +414,8 @@
     "topology": "grid",
     "svg": "games/fanorona/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/fanorona/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -387,7 +425,23 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/13x13-board.svg",
     "rulesUrl": "dist/go/variants/13x13/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "handicaps": {
+      "range": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "positions": [
+        "9,3",
+        "3,9",
+        "9,9",
+        "3,3",
+        "6,6"
+      ]
+    },
+    "players": "2"
   },
   {
     "family": "go",
@@ -397,7 +451,23 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/9x9-board.svg",
     "rulesUrl": "dist/go/variants/9x9/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "handicaps": {
+      "range": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "positions": [
+        "6,2",
+        "2,6",
+        "6,6",
+        "2,2",
+        "4,4"
+      ]
+    },
+    "players": "2"
   },
   {
     "family": "go",
@@ -407,7 +477,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/capture-go-board.svg",
     "rulesUrl": "dist/go/variants/capture-go/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -417,7 +488,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/gomoku-board.svg",
     "rulesUrl": "dist/go/variants/gomoku/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -427,7 +499,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/ninuki-renju-board.svg",
     "rulesUrl": "dist/go/variants/ninuki-renju/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -437,7 +510,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/one-colour-board.svg",
     "rulesUrl": "dist/go/variants/one-colour/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -447,7 +521,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/phantom-go-board.svg",
     "rulesUrl": "dist/go/variants/phantom-go/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2 + referee"
   },
   {
     "family": "go",
@@ -457,7 +532,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/rengo-board.svg",
     "rulesUrl": "dist/go/variants/rengo/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4–6"
   },
   {
     "family": "go",
@@ -467,7 +543,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/renju-board.svg",
     "rulesUrl": "dist/go/variants/renju/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -477,7 +554,31 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/go/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "handicaps": {
+      "range": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "positions": [
+        "15,3",
+        "3,15",
+        "15,15",
+        "3,3",
+        "9,9",
+        "3,9",
+        "15,9",
+        "9,3",
+        "9,15"
+      ]
+    },
+    "players": "2"
   },
   {
     "family": "go",
@@ -487,7 +588,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/stoical-board.svg",
     "rulesUrl": "dist/go/variants/stoical/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -497,7 +599,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/sunjang-board.svg",
     "rulesUrl": "dist/go/variants/sunjang/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -507,7 +610,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/tibetan-board.svg",
     "rulesUrl": "dist/go/variants/tibetan/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "go",
@@ -517,7 +621,8 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/toroidal-go-board.svg",
     "rulesUrl": "dist/go/variants/toroidal-go/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "halma",
@@ -527,7 +632,8 @@
     "topology": "grid",
     "svg": "games/halma/diagrams/svg/standard-2p-board.svg",
     "rulesUrl": "dist/halma/variants/standard-2p/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "halma",
@@ -537,7 +643,8 @@
     "topology": "grid",
     "svg": "games/halma/diagrams/svg/standard-4p-board.svg",
     "rulesUrl": "dist/halma/variants/standard-4p/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4"
   },
   {
     "family": "hex",
@@ -547,7 +654,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/13x13-board.svg",
     "rulesUrl": "dist/hex/variants/13x13/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "hex",
@@ -557,7 +665,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/14x14-board.svg",
     "rulesUrl": "dist/hex/variants/14x14/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "hex",
@@ -567,7 +676,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/19x19-board.svg",
     "rulesUrl": "dist/hex/variants/19x19/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "hex",
@@ -577,7 +687,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/9x9-board.svg",
     "rulesUrl": "dist/hex/variants/9x9/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "hex",
@@ -587,7 +698,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/hex/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "hex",
@@ -597,7 +709,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-game-board.svg",
     "rulesUrl": "dist/hex/variants/y-game/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "hex",
@@ -607,7 +720,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-large-board.svg",
     "rulesUrl": "dist/hex/variants/y-large/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "hex",
@@ -617,7 +731,8 @@
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-small-board.svg",
     "rulesUrl": "dist/hex/variants/y-small/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "landlords-game",
@@ -627,7 +742,8 @@
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/1904-original-board.svg",
     "rulesUrl": "dist/landlords-game/variants/1904-original/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–6"
   },
   {
     "family": "landlords-game",
@@ -637,7 +753,8 @@
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/1906-commercial-board.svg",
     "rulesUrl": "dist/landlords-game/variants/1906-commercial/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–4"
   },
   {
     "family": "landlords-game",
@@ -647,7 +764,8 @@
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/monarch-of-the-world-board.svg",
     "rulesUrl": "dist/landlords-game/variants/monarch-of-the-world/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–6"
   },
   {
     "family": "landlords-game",
@@ -657,7 +775,8 @@
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/prosperity-board.svg",
     "rulesUrl": "dist/landlords-game/variants/prosperity/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–4"
   },
   {
     "family": "landlords-game",
@@ -667,7 +786,8 @@
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/single-tax-board.svg",
     "rulesUrl": "dist/landlords-game/variants/single-tax/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–4"
   },
   {
     "family": "lattaque",
@@ -677,7 +797,8 @@
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/aviation-board.svg",
     "rulesUrl": "dist/lattaque/variants/aviation/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "lattaque",
@@ -687,7 +808,8 @@
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/dover-patrol-board.svg",
     "rulesUrl": "dist/lattaque/variants/dover-patrol/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "lattaque",
@@ -697,7 +819,8 @@
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/lattaque/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "lattaque",
@@ -707,7 +830,8 @@
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/tri-tactics-board.svg",
     "rulesUrl": "dist/lattaque/variants/tri-tactics/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -717,7 +841,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/ayo-board.svg",
     "rulesUrl": "dist/mancala/variants/ayo/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -727,7 +852,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/bao-board.svg",
     "rulesUrl": "dist/mancala/variants/bao/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -737,7 +863,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/congkak-board.svg",
     "rulesUrl": "dist/mancala/variants/congkak/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -747,7 +874,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/kalah-board.svg",
     "rulesUrl": "dist/mancala/variants/kalah/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -757,7 +885,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/oware-board.svg",
     "rulesUrl": "dist/mancala/variants/oware/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -767,7 +896,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/pallanguzhi-board.svg",
     "rulesUrl": "dist/mancala/variants/pallanguzhi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -777,7 +907,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/sungka-board.svg",
     "rulesUrl": "dist/mancala/variants/sungka/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "mancala",
@@ -787,7 +918,8 @@
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/toguz-korgool-board.svg",
     "rulesUrl": "dist/mancala/variants/toguz-korgool/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -797,7 +929,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/absorption-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/absorption/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -807,7 +940,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/alice-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/alice/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -817,7 +951,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/almost-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/almost-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -827,7 +962,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/amazon-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/amazon-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -837,7 +973,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/andernach-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/andernach/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -847,7 +984,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/anti-king-chess-2-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/anti-king-chess-2/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -857,7 +995,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/antichess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/antichess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -867,7 +1006,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/archchess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/archchess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -877,7 +1017,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/asean-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/asean/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -887,7 +1028,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/atomic-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/atomic/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -897,7 +1039,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/avalanche-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/avalanche/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -907,7 +1050,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/balbos-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/balbos-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -917,7 +1061,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/benedict-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/benedict/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -927,7 +1072,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/berolina-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/berolina-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -937,7 +1083,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/berserk-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/berserk/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -947,7 +1094,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/birds-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/birds-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -957,7 +1105,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/blind-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/blind-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -967,7 +1116,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/breakthrough-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/breakthrough/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -977,7 +1127,8 @@
     "topology": "hex",
     "svg": "games/moddable-chess/diagrams/svg/brusky-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/brusky/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -987,7 +1138,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/capablanca-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/capablanca/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -997,7 +1149,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/carrera-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/carrera/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1007,7 +1160,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/centennial-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/centennial-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1017,7 +1171,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/chak-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/chak/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1027,7 +1182,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/chancellor-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/chancellor-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1037,7 +1193,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/chaturanga-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/chaturanga/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1047,7 +1204,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/checkless-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/checkless/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1057,7 +1215,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/chennis-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/chennis/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1067,7 +1226,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/chigorin-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/chigorin/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1077,7 +1237,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/citadel-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/citadel-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1087,7 +1248,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/codrus-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/codrus/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1097,7 +1259,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/congo-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/congo/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1107,7 +1270,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/courier-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/courier/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1117,7 +1281,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/crazy-38s-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/crazy-38s/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1127,7 +1292,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/crazyhouse-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/crazyhouse/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1137,7 +1303,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/cylinder-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/cylinder-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1147,7 +1314,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/dark-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/dark-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1157,7 +1325,8 @@
     "topology": "hex",
     "svg": "games/moddable-chess/diagrams/svg/de-vasa-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/de-vasa/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1167,7 +1336,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/delirious-bughouse-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/delirious-bughouse/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4 (2 teams of 2)"
   },
   {
     "family": "moddable-chess",
@@ -1177,7 +1347,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/diana-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/diana/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1187,7 +1358,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/dice-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/dice-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1197,7 +1369,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/displacement-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/displacement-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1207,7 +1380,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/djambi-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/djambi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 4
   },
   {
     "family": "moddable-chess",
@@ -1217,7 +1391,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/dragon-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/dragon-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1227,7 +1402,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/duck-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/duck-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1237,7 +1413,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/einstein-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/einstein-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1247,7 +1424,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/empire-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/empire/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1257,7 +1435,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/endgame-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/endgame-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1267,7 +1446,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/extinction-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/extinction/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1277,7 +1457,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/fanorona-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/fanorona-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1287,7 +1468,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/fischer-random-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/fischer-random/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1297,7 +1479,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/five-check-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/five-check/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1307,7 +1490,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/flip-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/flip-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1317,7 +1501,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/fog-of-war-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/fog-of-war/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1327,7 +1512,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/four-handed-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/four-handed-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 4
   },
   {
     "family": "moddable-chess",
@@ -1337,7 +1523,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/giveaway-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/giveaway/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1347,7 +1534,8 @@
     "topology": "hex",
     "svg": "games/moddable-chess/diagrams/svg/glinski-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/glinski/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1357,7 +1545,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/grand-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/grand/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1367,7 +1556,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/grande-acedrex-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/grande-acedrex/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1377,7 +1567,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/grasshopper-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/grasshopper/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1387,7 +1578,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/grid-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/grid-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1397,7 +1589,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/gustav-iii-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/gustav-iii-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1407,7 +1600,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/gygax-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/gygax/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1417,7 +1611,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/half-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/half-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1427,7 +1622,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/hexapawn-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/hexapawn/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1437,7 +1633,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/hole-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/hole-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1447,7 +1644,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/hoppel-poppel-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/hoppel-poppel/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1457,7 +1655,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/horde-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/horde/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1467,7 +1666,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/hostage-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/hostage-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1477,7 +1677,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/immunization-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/immunization-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1487,7 +1688,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/janus-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/janus/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1497,7 +1699,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/khans-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/khans-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1507,7 +1710,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/king-of-the-hill-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/king-of-the-hill/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1517,7 +1721,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/knightmate-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/knightmate/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1527,7 +1732,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/kriegspiel-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/kriegspiel/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2 + referee"
   },
   {
     "family": "moddable-chess",
@@ -1537,7 +1743,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/legan-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/legan-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1547,7 +1754,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/los-alamos-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/los-alamos/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1557,7 +1765,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/los-alamos-vierschach-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/los-alamos-vierschach/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4 (2 teams of 2)"
   },
   {
     "family": "moddable-chess",
@@ -1567,7 +1776,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/madrasi-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/madrasi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1577,7 +1787,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/maharaja-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/maharaja/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1587,7 +1798,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/makpong-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/makpong/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1597,7 +1809,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/makruk-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/makruk/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1607,7 +1820,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/mansindam-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/mansindam/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1617,7 +1831,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/marseillais-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/marseillais/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1627,7 +1842,8 @@
     "topology": "hex",
     "svg": "games/moddable-chess/diagrams/svg/mccooey-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/mccooey/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1637,7 +1853,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/medusa-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/medusa-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1647,7 +1864,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/metamachy-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/metamachy/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1657,7 +1875,8 @@
     "topology": "hex",
     "svg": "games/moddable-chess/diagrams/svg/mini-hexchess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/mini-hexchess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1667,7 +1886,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/minichess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/minichess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1677,7 +1897,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/monster-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/monster-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1687,7 +1908,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/nightrider-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/nightrider/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1697,7 +1919,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/no-castling-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/no-castling/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1707,7 +1930,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/no-retreat-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/no-retreat/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1717,7 +1941,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/oblong-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/oblong-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1727,7 +1952,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/omega-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/omega-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1737,7 +1963,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/omnicide-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/omnicide/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1747,7 +1974,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/orda-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/orda-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1757,7 +1985,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/orda-mirror-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/orda-mirror/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1767,7 +1996,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/ouk-chaktrang-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/ouk-chaktrang/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1777,7 +2007,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/patrol-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/patrol/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1787,7 +2018,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/pawns-only-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/pawns-only/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1797,7 +2029,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/peasants-revolt-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/peasants-revolt/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1807,7 +2040,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/petty-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/petty/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1817,7 +2051,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/placement-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/placement-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1827,7 +2062,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/pocket-knight-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/pocket-knight/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1837,7 +2073,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/poison-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/poison-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1847,7 +2084,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/progressive-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/progressive/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1857,7 +2095,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/racing-kings-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/racing-kings/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1867,7 +2106,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/recruitment-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/recruitment-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1877,7 +2117,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/rifle-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/rifle/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1887,7 +2128,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/romanchenkos-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/romanchenkos-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1897,7 +2139,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/s-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/s-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1907,7 +2150,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/san-kwo-ki-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/san-kwo-ki/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 3
   },
   {
     "family": "moddable-chess",
@@ -1917,7 +2161,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/senterej-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/senterej/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1927,7 +2172,8 @@
     "topology": "hex",
     "svg": "games/moddable-chess/diagrams/svg/shafran-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shafran/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1937,7 +2183,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/shako-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shako/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1947,7 +2194,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/shatar-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shatar/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1957,7 +2205,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/shatranj-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shatranj/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1967,7 +2216,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/shatranj-kamil-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shatranj-kamil/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1977,7 +2227,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/shinobi-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shinobi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1987,7 +2238,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/shinobiplus-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shinobiplus/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -1997,7 +2249,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/shogun-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/shogun/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2007,7 +2260,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/single-check-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/single-check/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2017,7 +2271,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/sittuyin-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/sittuyin/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2027,7 +2282,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/spartan-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/spartan/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2037,7 +2293,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/stalemate-wins-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/stalemate-wins/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2047,7 +2304,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2057,7 +2315,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/stupidhouse-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/stupidhouse/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4 (2 teams of 2)"
   },
   {
     "family": "moddable-chess",
@@ -2067,7 +2326,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/suicide-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/suicide-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2077,7 +2337,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/synochess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/synochess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2087,7 +2348,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/tamerlane-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/tamerlane/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2097,7 +2359,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/tandem-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/tandem-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4 (2 teams of 2)"
   },
   {
     "family": "moddable-chess",
@@ -2107,7 +2370,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/teleport-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/teleport-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2117,7 +2381,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/three-check-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/three-check/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2127,7 +2392,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/torpedo-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/torpedo/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2137,7 +2403,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/turkish-great-chess-ii-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/turkish-great-chess-ii/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2147,7 +2414,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/turkish-great-chess-iii-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/turkish-great-chess-iii/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2157,7 +2425,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/turkish-great-chess-iv-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/turkish-great-chess-iv/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2167,7 +2436,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/ultima-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/ultima/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2177,7 +2447,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/upside-down-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/upside-down/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2187,7 +2458,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/vierschach-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/vierschach/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4"
   },
   {
     "family": "moddable-chess",
@@ -2197,7 +2469,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/weak-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/weak/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2207,7 +2480,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/wildebeest-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/wildebeest/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2217,7 +2491,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/xiang-fu-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/xiang-fu/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "moddable-chess",
@@ -2227,7 +2502,8 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/yalta-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/yalta-chess/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 3
   },
   {
     "family": "morris",
@@ -2237,7 +2513,8 @@
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/lasker-morris-board.svg",
     "rulesUrl": "dist/morris/variants/lasker-morris/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "morris",
@@ -2247,7 +2524,8 @@
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/morabaraba-board.svg",
     "rulesUrl": "dist/morris/variants/morabaraba/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "morris",
@@ -2257,7 +2535,8 @@
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/nine-mens-morris-board.svg",
     "rulesUrl": "dist/morris/variants/nine-mens-morris/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "morris",
@@ -2267,7 +2546,8 @@
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/shax-board.svg",
     "rulesUrl": "dist/morris/variants/shax/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "morris",
@@ -2277,7 +2557,8 @@
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/six-mens-morris-board.svg",
     "rulesUrl": "dist/morris/variants/six-mens-morris/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "morris",
@@ -2287,7 +2568,8 @@
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/three-mens-morris-board.svg",
     "rulesUrl": "dist/morris/variants/three-mens-morris/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "morris",
@@ -2297,7 +2579,8 @@
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/twelve-mens-morris-board.svg",
     "rulesUrl": "dist/morris/variants/twelve-mens-morris/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "nukes",
@@ -2307,7 +2590,8 @@
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/asymmetric-powers-board.svg",
     "rulesUrl": "dist/nukes/variants/asymmetric-powers/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–3"
   },
   {
     "family": "nukes",
@@ -2317,7 +2601,8 @@
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/fallout-board.svg",
     "rulesUrl": "dist/nukes/variants/fallout/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–3"
   },
   {
     "family": "nukes",
@@ -2327,7 +2612,8 @@
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/siege-board.svg",
     "rulesUrl": "dist/nukes/variants/siege/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "nukes",
@@ -2337,7 +2623,8 @@
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/nukes/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–3"
   },
   {
     "family": "nyout",
@@ -2347,7 +2634,8 @@
     "topology": "graph",
     "svg": "games/nyout/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/nyout/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "pachisi",
@@ -2357,7 +2645,8 @@
     "topology": "grid",
     "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
     "rulesUrl": "dist/pachisi/variants/seven-shell/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–4"
   },
   {
     "family": "pachisi",
@@ -2367,7 +2656,8 @@
     "topology": "grid",
     "svg": "games/pachisi/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/pachisi/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4"
   },
   {
     "family": "pachisi",
@@ -2377,7 +2667,8 @@
     "topology": "grid",
     "svg": "games/pachisi/diagrams/svg/two-player-board.svg",
     "rulesUrl": "dist/pachisi/variants/two-player/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "reversi",
@@ -2387,7 +2678,8 @@
     "topology": "grid",
     "svg": "games/reversi/diagrams/svg/anti-reversi-board.svg",
     "rulesUrl": "dist/reversi/variants/anti-reversi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "reversi",
@@ -2397,7 +2689,8 @@
     "topology": "grid",
     "svg": "games/reversi/diagrams/svg/six-by-six-board.svg",
     "rulesUrl": "dist/reversi/variants/six-by-six/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "reversi",
@@ -2407,7 +2700,8 @@
     "topology": "grid",
     "svg": "games/reversi/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/reversi/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "royal-ur",
@@ -2417,7 +2711,8 @@
     "topology": "grid",
     "svg": "games/royal-ur/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/royal-ur/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2427,7 +2722,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/annan-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/annan-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 2
   },
   {
     "family": "shogi",
@@ -2437,7 +2733,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/cannon-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/cannon-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2447,7 +2744,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/chu-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/chu-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2457,7 +2755,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/dai-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/dai-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2467,7 +2766,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/dobutsu-board.svg",
     "rulesUrl": "dist/shogi/variants/dobutsu/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2477,7 +2777,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/four-player-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/four-player-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4"
   },
   {
     "family": "shogi",
@@ -2487,7 +2788,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/gorogoro-plus-board.svg",
     "rulesUrl": "dist/shogi/variants/gorogoro-plus/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2497,7 +2799,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/hasami-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/hasami-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2507,7 +2810,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/heian-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/heian-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2517,7 +2821,8 @@
     "topology": "hex",
     "svg": "games/shogi/diagrams/svg/hex-shogi-91-board.svg",
     "rulesUrl": "dist/shogi/variants/hex-shogi-91/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2527,7 +2832,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/judkins-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/judkins-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2537,7 +2843,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/kyoto-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/kyoto-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2547,7 +2854,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/maka-dai-dai-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/maka-dai-dai-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2557,7 +2865,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/minishogi-board.svg",
     "rulesUrl": "dist/shogi/variants/minishogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2567,7 +2876,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/mortal-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2577,7 +2887,8 @@
     "topology": "triangular",
     "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/sankaku-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2587,7 +2898,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/sho-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/sho-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2597,7 +2909,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/shogi/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2607,7 +2920,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/tai-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/tai-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2617,7 +2931,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/taikyoku-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/taikyoku-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2627,7 +2942,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/tenjiku-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2637,7 +2953,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/tori-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/tori-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2647,7 +2964,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/wa-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "shogi",
@@ -2657,7 +2975,8 @@
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/yari-shogi-board.svg",
     "rulesUrl": "dist/shogi/variants/yari-shogi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "stern-halma",
@@ -2667,7 +2986,8 @@
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-2p-board.svg",
     "rulesUrl": "dist/stern-halma/variants/standard-2p/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "stern-halma",
@@ -2677,7 +2997,8 @@
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-3p-board.svg",
     "rulesUrl": "dist/stern-halma/variants/standard-3p/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "3"
   },
   {
     "family": "stern-halma",
@@ -2687,7 +3008,8 @@
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-4p-board.svg",
     "rulesUrl": "dist/stern-halma/variants/standard-4p/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "4"
   },
   {
     "family": "stern-halma",
@@ -2697,7 +3019,8 @@
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-6p-board.svg",
     "rulesUrl": "dist/stern-halma/variants/standard-6p/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "6"
   },
   {
     "family": "stern-halma",
@@ -2707,7 +3030,8 @@
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
     "rulesUrl": "dist/stern-halma/variants/super-chinese-checkers/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2–6"
   },
   {
     "family": "surakarta",
@@ -2717,7 +3041,8 @@
     "topology": "grid",
     "svg": "games/surakarta/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/surakarta/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "tafl",
@@ -2767,7 +3092,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/janggi-board.svg",
     "rulesUrl": "dist/xiangqi/variants/janggi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "xiangqi",
@@ -2777,7 +3103,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/jieqi-board.svg",
     "rulesUrl": "dist/xiangqi/variants/jieqi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "xiangqi",
@@ -2787,7 +3114,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/manchu-plus-board.svg",
     "rulesUrl": "dist/xiangqi/variants/manchu-plus/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "xiangqi",
@@ -2797,7 +3125,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/minixiangqi-board.svg",
     "rulesUrl": "dist/xiangqi/variants/minixiangqi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "xiangqi",
@@ -2807,7 +3136,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/quang-trung-board.svg",
     "rulesUrl": "dist/xiangqi/variants/quang-trung/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 2
   },
   {
     "family": "xiangqi",
@@ -2817,7 +3147,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/xiangqi/variants/standard/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": "2"
   },
   {
     "family": "xiangqi",
@@ -2827,7 +3158,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/xiangqi-42-board.svg",
     "rulesUrl": "dist/xiangqi/variants/xiangqi-42/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 2
   },
   {
     "family": "xiangqi",
@@ -2837,7 +3169,8 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
     "rulesUrl": "dist/xiangqi/variants/yang-qi/index.html",
-    "status": "rendered"
+    "status": "rendered",
+    "players": 2
   },
   {
     "family": "bavarian-32",

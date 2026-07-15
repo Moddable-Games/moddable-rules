@@ -1129,7 +1129,7 @@ function buildBoards() {
         rulesUrl = `dist/${family}/variants/${varSlug}/index.html`;
       }
 
-      index.push({
+      const svgEntry = {
         family,
         familyTitle,
         variant: varSlug,
@@ -1138,7 +1138,10 @@ function buildBoards() {
         svg: `games/${family}/diagrams/svg/${svgFile}`,
         rulesUrl,
         status: 'rendered',
-      });
+      };
+      if (vm.engine?.handicaps) svgEntry.handicaps = vm.engine.handicaps;
+      if (vm.players) svgEntry.players = vm.players;
+      index.push(svgEntry);
     }
 
     // Entries for variants WITHOUT an SVG

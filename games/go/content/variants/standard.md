@@ -15,6 +15,18 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  handicaps:
+    range: [2, 3, 4, 5, 6, 7, 8, 9]
+    positions:
+      - "15,3"
+      - "3,15"
+      - "15,15"
+      - "3,3"
+      - "9,9"
+      - "3,9"
+      - "15,9"
+      - "9,3"
+      - "9,15"
 ---
 
 ## Standard Go (19×19)
