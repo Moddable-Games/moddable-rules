@@ -74,6 +74,8 @@ engine:
 
 ## Tri-Tactics
 
+{{svg:tri-tactics-board.svg "Tri-Tactics — starting position"}}
+
 Also titled **The Great Game of Tactics on Land, Sea and in the Air**. Published by H.P. Gibson & Sons Ltd., London. Revised edition. A combination of the three Gibson hidden-rank games — Dover Patrol (Naval), Battle of Britain (Air), and L'Attaque (Army) — played simultaneously on a single board.
 
 Two editions exist:

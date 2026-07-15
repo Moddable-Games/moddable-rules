@@ -25,6 +25,8 @@ engine:
 
 ## Overview
 
+{{svg:omega-chess-board.svg "Omega Chess — starting position"}}
+
 Omega Chess is played on a 10×10 board (files A–J, ranks 0–9) with four additional “wizard squares” placed diagonally beyond each corner of the main board (W1–W4), giving 104 squares total. Two new pieces per player are added: the Champion and the Wizard.
 
 ## Board

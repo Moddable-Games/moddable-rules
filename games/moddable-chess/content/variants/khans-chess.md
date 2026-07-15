@@ -32,6 +32,8 @@ Khan's Chess is an asymmetric chess variant designed in 2023–24 by Couch Tomat
 
 ## History
 
+{{svg:khans-chess-board.svg "Khan's Chess — starting position"}}
+
 Couch Tomato created Khan's Chess to address two shortcomings identified in Orda Chess through high-level NNUE (neural network) analysis under Fairy-Stockfish: the original game proved less balanced than intended at high levels of play, and the standard pawn poorly represented the Mongols' historically cavalry-dominated armies. Taking advantage of expanded Fairy-Stockfish piece-definition capabilities, the designer replaced the pawn and yurt with two new pieces—the Scout and the Khatun—and moved Scouts to the second rank, giving the Horde a faster, more thematically coherent force. Thorough NNUE testing confirmed improved balance in the final design.
 
 ## The Two Armies

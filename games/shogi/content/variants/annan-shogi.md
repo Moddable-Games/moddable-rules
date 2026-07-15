@@ -17,6 +17,8 @@ engine:
 
 ## Overview
 
+{{svg:annan-shogi-board.svg "Annan Shogi — starting position"}}
+
 Annan Shogi (安南将棋), also called Korean Shogi, is a popular Shogi variant in Japan. All standard Shogi rules apply with one key change: each piece borrows the movement of the friendly piece immediately behind it.
 
 ## Setup

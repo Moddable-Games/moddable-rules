@@ -17,6 +17,8 @@ engine:
 
 ## Blind Chess (Banqi)
 
+{{svg:blind-chess-board.svg "Blind Chess (Banqi) — starting position"}}
+
 Banqi (半棋, bànqí, “Half Chess”), also known as Dark Chess (暗棋) or Blind Chess, is a two-player Chinese board game played on a 4×8 grid — one half of the Xiangqi board. All 32 pieces are placed face-down at the start; players reveal pieces one at a time and the identity of unrevealed pieces is unknown. The rules documented here follow the Taiwanese version, which is widely played.
 
 ### The Board

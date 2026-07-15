@@ -32,6 +32,8 @@ published: true
 
 ## Hex Shogi 91
 
+{{svg:hex-shogi-91-board.svg "Hex Shogi 91 — starting position"}}
+
 Hex Shogi 91 is a Shogi variant for two players, played on a 91-hexagon board. It was invented by Fergus Duniho and is part of the Hex Shogi family of games. The board is the same shape used for Glinski's Hexagonal Chess and McCooey's Hexagonal Chess, but oriented differently. The game plays very much like Shogi, with pieces and rules adapted for the hexagonal board geometry.
 
 ### Board

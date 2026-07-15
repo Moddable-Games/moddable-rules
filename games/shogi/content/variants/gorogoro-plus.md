@@ -20,6 +20,8 @@ engine:
 
 ## Gorogoro+
 
+{{svg:gorogoro-plus-board.svg "Gorogoro+ — starting position"}}
+
 Gorogoro+ is a compact Shogi variant played on a 5×6 board. It follows standard Shogi rules but with a reduced piece set — the Bishop and Rook are removed entirely. Each player begins with one Knight and one Lance in hand (available for drops from the first move). Promotion occurs only in the last two ranks.
 
 ### Setup

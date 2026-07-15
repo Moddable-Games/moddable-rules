@@ -22,6 +22,8 @@ engine:
 
 ## Standard 4-Player Stern-Halma
 
+{{svg:standard-4p-board.svg "Standard 4-Player Stern-Halma — starting position"}}
+
 Four players occupy the diagonal arms, leaving the N and S arms empty.
 
 ### Setup

@@ -22,6 +22,8 @@ engine:
 
 ## Standard 6-Player Stern-Halma
 
+{{svg:standard-6p-board.svg "Standard 6-Player Stern-Halma — starting position"}}
+
 The full six-player game uses every arm on the board.
 
 ### Setup

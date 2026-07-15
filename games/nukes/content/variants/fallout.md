@@ -25,6 +25,8 @@ engine:
 
 ## Nukes: Fallout
 
+{{svg:fallout-board.svg "Nukes: Fallout — starting position"}}
+
 A reskin that adds persistent, spreading Biohazard contamination to the board. Every nuclear strike or Meltdown now has long-term territorial consequences as the map degrades around the blast sites.
 
 ### Overview

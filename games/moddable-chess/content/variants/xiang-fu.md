@@ -75,6 +75,8 @@ engine:
 
 ## Xiang Fu
 
+{{svg:xiang-fu-board.svg "Xiang Fu — starting position"}}
+
 Xiang Fu (象孚) is a Xiangqi/chess hybrid created by Eventlesstew for the PyChess Variant Design Contest. It combines Xiangqi's ranging pieces with a dual-Champion checkmate system inspired by Spartan Chess. Piece drops and the Crossbow (a diagonal Cannon) add further tactical depth.
 
 ### The Board

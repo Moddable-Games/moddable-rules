@@ -56,6 +56,8 @@ published: true
 
 ## Glinski's Hexagonal Chess
 
+{{svg:glinski-board.svg "Glinski's Hexagonal Chess — starting position"}}
+
 Created by Wladyslaw Glinski in 1936, this is the most popular hexagonal chess variant. Played on a 91-cell hexagonal board (radius 5 in axial coordinates), it adapts all standard chess pieces to hex geometry.
 
 ### Board

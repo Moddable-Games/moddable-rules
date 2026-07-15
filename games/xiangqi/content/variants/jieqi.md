@@ -24,6 +24,8 @@ engine:
 
 ## Jieqi
 
+{{svg:jieqi-board.svg "Jieqi — starting position"}}
+
 Jieqi (揭棋, “unveiling chess”) is a Xiangqi variant with hidden information. Also known as **Dark Chess**, **Cờ Úhp** (Vietnamese), and by several other local names, it has seen rapid growth in popularity in China and Vietnam.
 
 ### Setup

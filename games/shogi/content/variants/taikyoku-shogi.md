@@ -21,6 +21,8 @@ engine:
 
 ## Taikyoku Shogi
 
+{{svg:taikyoku-shogi-board.svg "Taikyoku Shogi — starting position"}}
+
 Taikyoku Shogi (太局将棋, *Ultimate Chess*) is the largest chess variant ever documented. Played on a 36×36 board with 402 piece types per side (804 pieces total) on 1,296 squares, it is documented in a single known Japanese manuscript held at Osaka Municipal Central Library. Whether the game was ever actually played to completion is disputed — a single game would require an estimated 10,000+ moves. The transcription used here is by L. Lynn Smith.
 
 ### The Board

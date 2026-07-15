@@ -31,3 +31,7 @@ engine:
   players: [white, black]
   setup: "bbbbbb/bbbbbb/6/6/wwwwww/wwwwww"
 ---
+
+## Surakarta (Standard)
+
+{{svg:standard-board.svg "Surakarta (Standard) — starting position"}}

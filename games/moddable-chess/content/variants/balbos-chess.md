@@ -21,6 +21,8 @@ engine:
 
 ## Balbo’s Chess
 
+{{svg:balbos-chess-board.svg "Balbo's Chess — starting position"}}
+
 Balbo’s Chess was invented by M.G. Balbo in 1974 and is mentioned in Pritchard’s *Encyclopedia of Chess Variants*. It is played on an unusual **diamond-shaped board** with ten ranks of increasing then decreasing width, all centred on file f. All standard chess rules apply, but the board shape creates unusual opening dynamics and position-dependent promotion rules.
 
 ### The Board

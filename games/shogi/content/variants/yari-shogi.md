@@ -23,6 +23,8 @@ engine:
 
 ## Overview
 
+{{svg:yari-shogi-board.svg "Yari Shogi — starting position"}}
+
 Yari Shogi takes Shogi’s characteristic forward orientation to an extreme: every unpromoted piece (except the General) includes a forward-Lance component in its movement. Captures happen the same way as regular moves. Drops are included; the only rule difference from standard Shogi drops is that Pawn drops that immediately deliver checkmate are **allowed**.
 
 ## Setup

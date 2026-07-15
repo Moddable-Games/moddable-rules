@@ -21,6 +21,8 @@ engine:
 
 ## Tenjiku Shogi
 
+{{svg:tenjiku-shogi-board.svg "Tenjiku Shogi — starting position"}}
+
 Tenjiku Shogi (天竺将棋) is a medieval Japanese chess variant played on a 16×16 board. It is derived from Chu Shogi, expanding the board from 12×12 to 16×16 to accommodate powerful new pieces — most critically the Fire Demon. Despite the larger board, games tend to be shorter than Chu Shogi due to the Fire Demon's destructive reach.
 
 ### Starting Position

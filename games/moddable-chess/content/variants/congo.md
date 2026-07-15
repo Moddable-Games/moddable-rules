@@ -17,6 +17,8 @@ engine:
 
 ## Congo
 
+{{svg:congo-board.svg "Congo — starting position"}}
+
 Congo is a chess variant invented by Demian Freeling at age seven in the Christmas holidays of 1982–83. His father Christian Freeling (designer of Grand Chess) set the constraints — a 7×7 board, seven pawns, a king in the middle, and six pieces to the left and right — and Demian designed everything else in about an hour. The game went on to become the second most popular chess variant at the games club Fanatic at Twente University.
 
 Congo features no check or checkmate. You win by capturing the opponent’s Lion.

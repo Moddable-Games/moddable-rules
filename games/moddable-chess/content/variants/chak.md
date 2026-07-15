@@ -19,6 +19,8 @@ engine:
 
 ## Chak
 
+{{svg:chak-board.svg "Chak — starting position"}}
+
 Designed by Corey Clark (2020). Chak is played on a 9×9 board with a Mesoamerican theme inspired by the Maya. The river divides the board at rank 5; pieces gain power by crossing it. Victory is achieved by either mating the opponent’s Ajaw or landing your own promoted Ajaw on the opponent’s sacred temple square and holding it for one full round.
 
 ### Board Layout

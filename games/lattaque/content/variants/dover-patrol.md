@@ -57,6 +57,8 @@ engine:
 
 ## Dover Patrol
 
+{{svg:dover-patrol-board.svg "Dover Patrol — starting position"}}
+
 Also titled **Naval Tactics**. Published by H.P. Gibson & Sons, London. One of the four games in the Gibson hidden-rank warfare series (alongside L'Attaque, Aviation, and Tri-Tactics).
 
 Dover Patrol is a Capture the Flag game, not a piece-elimination game. The object is to seize the opponent's Flag from their Base and convey it to your own Base, while keeping your own Flag safe.

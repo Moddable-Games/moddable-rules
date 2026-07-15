@@ -22,6 +22,8 @@ engine:
 
 ## Super Chinese Checkers
 
+{{svg:super-chinese-checkers-board.svg "Super Chinese Checkers — starting position"}}
+
 A faster variant using the same star board but with an extended hopping rule that allows pieces to travel much further in a single move.
 
 ### Setup

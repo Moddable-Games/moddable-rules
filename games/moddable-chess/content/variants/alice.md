@@ -27,6 +27,8 @@ published: true
 
 ## Alice Chess
 
+{{svg:alice-board.svg "Alice Chess — starting position"}}
+
 Invented by V. R. Parton in 1953. Named after Lewis Carroll's *Through the Looking-Glass* — pieces step through the mirror and emerge on the other side. Alice Chess uses two standard 8×8 chessboards played simultaneously.
 
 ### The Two Boards

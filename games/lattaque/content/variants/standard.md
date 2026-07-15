@@ -37,6 +37,8 @@ engine:
 
 ## L'Attaque (Standard)
 
+{{svg:standard-board.svg "L'Attaque (Standard) — starting position"}}
+
 Designed by Hermance Edan. Patent filed France 26 November 1908; game first sold 1910 by Au Jeu Retrouvé. Rights acquired 1925 by H.P. Gibson & Sons, London, who published it in Britain until at least the 1970s. The first mass-market hidden-information rank game; direct ancestor of Stratego.
 
 ### Board

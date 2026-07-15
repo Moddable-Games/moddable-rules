@@ -30,6 +30,8 @@ engine:
 
 ## Minixiangqi
 
+{{svg:minixiangqi-board.svg "Minixiangqi — starting position"}}
+
 Minixiangqi is Xiangqi condensed to a 7×7 board. It was invented in 1973 by Shigenobu Kusumoto of Osaka, Japan. The game preserves the essential character of Xiangqi — the General in a palace, the screen-jumping Cannon, the blockable Horse — while removing the pieces that depend most on board depth.
 
 ### Piece Set

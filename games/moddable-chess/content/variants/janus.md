@@ -23,6 +23,8 @@ engine:
 
 ## Overview
 
+{{svg:janus-board.svg "Janus Chess — starting position"}}
+
 Janus Chess extends standard chess to a 10×8 board by adding two Januses per side. The Janus combines the powers of a Bishop and a Knight. The game closely resembles Capablanca's Chess in concept but has a distinct starting arrangement.
 
 ## Setup

@@ -23,6 +23,8 @@ engine:
 
 ## Overview
 
+{{svg:birds-chess-board.svg "Bird's Chess — starting position"}}
+
 Bird’s Chess extends standard chess to a 10×8 board by adding two compound pieces per side: the Guard (Rook + Knight) and the Equerry (Bishop + Knight). Capablanca likely drew inspiration from this game when designing Capablanca’s Chess.
 
 ## Setup

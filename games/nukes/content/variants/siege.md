@@ -25,6 +25,8 @@ engine:
 
 ## Nukes: Siege
 
+{{svg:siege-board.svg "Nukes: Siege — starting position"}}
+
 A total conversion of the hostage mechanic. You start with your own tokens in reserve and deploy them to build your forces. The only way to acquire enemy hostages is through combat.
 
 ### Overview

@@ -25,6 +25,8 @@ engine:
 
 ## Nukes: Standard
 
+{{svg:standard-board.svg "Nukes: Standard — starting position"}}
+
 The default Nukes map. A 3-ring hexagonal battlefield with seeded random terrain and two opposing bases.
 
 ### Setup

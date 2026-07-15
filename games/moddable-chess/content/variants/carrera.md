@@ -23,6 +23,8 @@ engine:
 
 ## Overview
 
+{{svg:carrera-board.svg "Carrera's Chess — starting position"}}
+
 Carrera’s Chess extends standard chess to a 10×8 board by adding two compound pieces per side: the Champion (Rook + Knight) and the Centaur (Bishop + Knight). It predates Capablanca’s Chess by three centuries and uses the same general concept.
 
 ## Setup

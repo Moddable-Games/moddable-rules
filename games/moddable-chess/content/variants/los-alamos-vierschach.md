@@ -25,6 +25,8 @@ published: true
 
 ## Los Alamos Vierschach
 
+{{svg:los-alamos-vierschach-board.svg "Los Alamos Vierschach — starting position"}}
+
 Los Alamos Vierschach is a 4-player chess variant by Jörg Knappen combining **Los Alamos Chess** (the famous 6×6 variant developed at Los Alamos National Laboratory in the 1950s) with the **Vierschach** 4-player format. It was submitted as a non-competing entry to the 84 Squares Contest.
 
 ### The Board

@@ -21,6 +21,8 @@ engine:
 
 ## Overview
 
+{{svg:avalanche-board.svg "Avalanche Chess — starting position"}}
+
 Avalanche Chess adds a compulsory obligation to every move: after making a normal chess move, you must push one of your opponent's pawns one square toward you. This "pawn push" creates an avalanche of pressure as the opponent's pawns steadily advance.
 
 ## Setup

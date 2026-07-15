@@ -25,6 +25,8 @@ Mansindam is a chess variant designed by Couch Tomato. It takes two of Shogi's m
 
 ## The Board
 
+{{svg:mansindam-board.svg "Mansindam (Pantheon Tale) — starting position"}}
+
 Mansindam is played on a **9×9 board** (9 files × 9 ranks). Ranks are numbered 1-9 from White's side. Files are lettered a-i.
 
 ## Starting Position

@@ -22,6 +22,8 @@ engine:
 
 ## Overview
 
+{{svg:yang-qi-board.svg "Yáng Qí — starting position"}}
+
 Yáng Qí (also spelled Yang Qi, Yangqi, or Yang Chi) was designed by Fergus Duniho in 2001 as a Western-influenced redesign of Chinese Chess. While classified under the Xiangqi family, Yáng Qí plays closer to orthodox FIDE chess: it replaces most Xiangqi-specific pieces with Western equivalents, removes river and fortress restrictions, and extends the Cannon's screen-capture mechanic to both orthogonal and diagonal pieces.
 
 The name uses the Chinese cosmological concept of Yáng (active, strong, masculine), indicating pieces are generally stronger than in Xiàng Qí. The game may also be called Yankee — the creator is a Yankee, and the transliteration is a happy coincidence.

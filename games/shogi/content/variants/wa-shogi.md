@@ -25,6 +25,8 @@ engine:
 
 ## Overview
 
+{{svg:wa-shogi-board.svg "Wa Shogi — starting position"}}
+
 Wa Shogi uses an 11×11 board. All pieces except the Pawns are of unique types, and they are generally weaker than Shogi pieces, making the game well-suited to drops. Historical rules make no mention of drops, however, so the game is today played in two forms: with or without drops.
 
 **Win condition**: Capture the opponent’s Crane King. No check restriction.

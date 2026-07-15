@@ -21,4 +21,6 @@ engine:
 
 ## Hex (11×11)
 
+{{svg:standard-board.svg "Hex (11×11) — starting position"}}
+
 Standard Hex on an 11×11 rhombus board. Two players alternate placing stones. First to connect their two opposite edges wins. Swap rule balances first-player advantage.

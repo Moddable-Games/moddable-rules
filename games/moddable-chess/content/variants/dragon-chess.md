@@ -21,6 +21,8 @@ published: true
 
 ## Dragon Chess
 
+{{svg:dragon-chess-board.svg "Dragon Chess — starting position"}}
+
 Dragon Chess is a chess variant created by Grandmaster Miguel Illescas. The game begins in the standard chess starting position. Each player holds **two Dragon pieces in reserve** and may gate one onto any empty square on their own first rank at any point during the game instead of making a normal move.
 
 ### The Dragon

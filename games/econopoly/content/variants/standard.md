@@ -15,3 +15,7 @@ engine:
     board: 1932-prosperity
   players: [red, blue, green, yellow]
 ---
+
+## Econopoly (Standard)
+
+{{svg:standard-board.svg "Econopoly (Standard) — starting position"}}

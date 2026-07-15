@@ -19,6 +19,8 @@ engine:
 
 ## Fanorona Chess
 
+{{svg:fanorona-chess-board.svg "Fanorona Chess — starting position"}}
+
 Fanorona Chess is a chess variant by Peter Aronson (2004) played on the double Alquerque board used for **Fanorona** — the traditional strategy game of Madagascar. The key innovation: captures follow Fanorona's **approach and withdrawal** mechanics instead of chess's normal replacement capture.
 
 ### The Board

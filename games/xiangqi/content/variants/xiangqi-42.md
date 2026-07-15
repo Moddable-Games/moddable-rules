@@ -19,6 +19,8 @@ engine:
 
 ## Overview
 
+{{svg:xiangqi-42-board.svg "Xiangqi 42 — starting position"}}
+
 Xiangqi 42 is a compact Xiangqi variant designed by Robert Price and entered in the Chess Variant Pages 42-Squares Contest (2001). The board has exactly 42 occupiable positions — 7 files × 6 ranks = 42 intersections — giving the game its name.
 
 All standard Xiangqi rules apply with the modifications listed below.

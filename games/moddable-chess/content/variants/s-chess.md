@@ -21,6 +21,8 @@ published: true
 
 ## S-Chess (Seirawan Chess)
 
+{{svg:s-chess-board.svg "S-Chess (Seirawan Chess) — starting position"}}
+
 Designed by Yasser Seirawan and Jonathan Tisdall (2007). S-Chess enriches orthodox chess with two powerful new fairy pieces — the Hawk and the Elephant — without changing the starting position. Instead, these pieces enter play through a gating mechanic: when any back-rank piece leaves its home square for the first time, the owner may simultaneously place one reserve piece onto the vacated square.
 
 ### New Pieces

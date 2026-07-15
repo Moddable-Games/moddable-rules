@@ -23,6 +23,8 @@ Metamachy is a large chess variant designed by Jean-Louis Cazaux in 2012. It is 
 
 ## The Board
 
+{{svg:metamachy-board.svg "Metamachy — starting position"}}
+
 Standard 12×12 grid, files a–l, ranks 1–12. White occupies ranks 1–3 at the start; Black occupies ranks 10–12.
 
 ## Starting Position

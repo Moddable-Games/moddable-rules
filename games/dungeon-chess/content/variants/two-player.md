@@ -38,3 +38,7 @@ engine:
     set: mce-chess
   players: [white, black]
 ---
+
+## Dungeon Chess (Two Player (20×8))
+
+{{svg:two-player-board.svg "Dungeon Chess (Two Player (20×8)) — starting position"}}

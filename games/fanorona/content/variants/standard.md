@@ -32,3 +32,7 @@ engine:
   players: [white, black]
   setup: "bbbbbbbbb/bbbbbbbbb/bwbw1bwbw/wwwwwwwww/wwwwwwwww"
 ---
+
+## Fanorona (Standard)
+
+{{svg:standard-board.svg "Fanorona (Standard) — starting position"}}

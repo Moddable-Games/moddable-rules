@@ -21,6 +21,8 @@ engine:
 
 ## Dai Shogi
 
+{{svg:dai-shogi-board.svg "Dai Shogi — starting position"}}
+
 Dai Shogi (大将棋, "Large Chess") is a historical Japanese chess variant played on a 15×15 board with 65 pieces per side. It is the direct predecessor of Chu Shogi and was played in Japan during the medieval period. Compared to Chu Shogi, Dai Shogi has 16 extra piece types (all promoting to Gold General) and plays significantly longer due to the larger board and slower steppers.
 
 ### Starting Position

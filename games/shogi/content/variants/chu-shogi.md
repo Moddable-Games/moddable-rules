@@ -23,6 +23,8 @@ engine:
 
 ## Overview
 
+{{svg:chu-shogi-board.svg "Chu Shogi — starting position"}}
+
 Chu Shogi is played on a 12×12 board with 46 pieces of 21 different types per side. Unlike modern Shogi, there are no drops. The defining piece is the **Lion**, a double-move piece so powerful that special rules govern its capture to prevent quick trades.
 
 **Win condition**: Capture all of the opponent’s royal pieces. There is no check or checkmate — the game continues until the last royal is captured. Stalemate is assumed to be a win for the side delivering it.

@@ -25,6 +25,8 @@ engine:
 
 ## Nukes: Asymmetric Powers
 
+{{svg:asymmetric-powers-board.svg "Nukes: Asymmetric Powers — starting position"}}
+
 A rebalance mod that adds one unique Power Card per player at setup. Standard Nukes underneath, explicit asymmetry on top.
 
 ### Overview

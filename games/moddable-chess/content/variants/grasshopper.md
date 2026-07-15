@@ -26,6 +26,8 @@ published: true
 
 ## Standard Grasshopper Chess
 
+{{svg:grasshopper-board.svg "Standard Grasshopper Chess — starting position"}}
+
 Played on an 8×8 board with all standard chess rules, except: **both queens are replaced by Grasshoppers.** All other pieces and rules are unchanged.
 
 ### Starting Position

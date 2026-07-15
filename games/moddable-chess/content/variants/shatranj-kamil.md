@@ -19,6 +19,8 @@ engine:
 
 ## Shatranj Kamil
 
+{{svg:shatranj-kamil-board.svg "Shatranj Kamil — starting position"}}
+
 Shatranj Kamil (شطرنج كامل, “Complete Chess” or “Perfect Chess”) is a historical Arabic chess variant approximately 1000 years old, described by John Gollon based on Murray’s reconstruction from an old manuscript. It expands the standard Shatranj board from 8×8 to 10×10 and adds two War Machine (Dabbabah) pieces per side, plus two extra Pawns.
 
 Two historical versions are documented on chessvariants.com: one adds a Camel piece (shkam1), the other — documented here — adds a War Machine (shkam2). The War Machine version has the unusual rule that the piece moves as a King but is immune to check.

@@ -22,6 +22,8 @@ published: true
 
 ## Shogun Chess
 
+{{svg:shogun-board.svg "Shogun Chess — starting position"}}
+
 Designed by Corey Clark (2020). Shogun Chess grafts the drop mechanic from Shogi onto a standard chess board: captured pieces switch sides and can be returned to play, and pieces automatically promote when they enter the opponent's half of the board.
 
 ### Promotion Zone

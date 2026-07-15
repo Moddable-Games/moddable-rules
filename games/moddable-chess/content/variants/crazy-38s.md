@@ -20,6 +20,8 @@ published: true
 
 ## Crazy 38's
 
+{{svg:crazy-38s-board.svg "Crazy 38's — starting position"}}
+
 Crazy 38's is a chess variant by Ben Good, invented as an entry for Hans Bodlaender's 38 Squares Contest (submission deadline January 31, 1998). It plays on a 38-square board with a built-in loop connection and uses Shogi-style drops.
 
 ### The Board

@@ -12,3 +12,7 @@ engine:
     cellSize: 20
   players: [white, black]
 ---
+
+## Nyout (Standard)
+
+{{svg:standard-board.svg "Nyout (Standard) — starting position"}}

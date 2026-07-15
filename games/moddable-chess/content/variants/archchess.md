@@ -19,6 +19,8 @@ engine:
 
 ## Archchess
 
+{{svg:archchess-board.svg "Archchess — starting position"}}
+
 Archchess (Italian: *Arcisacchiere*) was invented by Dr. Francesco Piacenza and described in his book *I camoeggiamenti degle Scacchi*, published in Turin in 1683. It is played on a 10×10 board and adds two new piece types — the Centurion and the Decurion — plus two extra Pawns per side, to an otherwise standard chess army.
 
 The rules described here are based on materials written by John Gollon (draft chapters of an unpublished second chess variant book), transmitted to Hans Bodlaender via Eric Greenwood in 1997.

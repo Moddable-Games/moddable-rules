@@ -55,3 +55,7 @@ engine:
     set: playstrategy-draughts-plain
   players: [white, black]
 ---
+
+## Royal Game of Ur (Standard)
+
+{{svg:standard-board.svg "Royal Game of Ur (Standard) — starting position"}}

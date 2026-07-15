@@ -22,6 +22,8 @@ engine:
 
 ## Standard 3-Player Stern-Halma
 
+{{svg:standard-3p-board.svg "Standard 3-Player Stern-Halma — starting position"}}
+
 Three players occupy alternating arms of the star, leaving three arms empty.
 
 ### Setup

@@ -45,6 +45,8 @@ published: true
 
 ## Four Player Shogi
 
+{{svg:four-player-shogi-board.svg "Four Player Shogi — starting position"}}
+
 Four Player Shogi is a 4-player adaptation of standard Shogi designed by Michael Shipley in 1999. It is played on a cross-shaped board with a 9×9 central area and a 3×9 wing on each edge, giving 189 playable squares. The overall bounding box is 15×15 with the four 3×3 corner sections off the board.
 
 ### Starting Position

@@ -18,6 +18,8 @@ published: true
 
 ## Sankaku Shogi
 
+{{svg:sankaku-shogi-board.svg "Sankaku Shogi — starting position"}}
+
 Sankaku Shogi (三角将棋, "Triangle Shogi") is a modern Shogi-inspired variant designed by L. Lynn Smith in 2004. It is played on a field of 44 triangular cells. Each player controls 13 pieces. Unlike standard Shogi, captured pieces are permanently removed from play — there are no drops.
 
 ### Board

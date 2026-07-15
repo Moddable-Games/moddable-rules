@@ -23,6 +23,8 @@ engine:
 
 ## Overview
 
+{{svg:judkins-shogi-board.svg "Judkins' Shogi — starting position"}}
+
 Judkins’ Shogi compresses modern Shogi onto a 6×6 board with 7 pieces per side, retaining drops. It plays very similarly to standard Shogi but in a much faster format.
 
 ## Setup

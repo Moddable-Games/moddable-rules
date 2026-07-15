@@ -32,6 +32,8 @@ engine:
 
 ## Overview
 
+{{svg:quang-trung-board.svg "Quang Trung Chess — starting position"}}
+
 Quang Trung Chess (Cờ Quang Trung) was designed by Vu Q. Vo, with the concept begun in July 1992 and the first edition completed March 3, 1999. It is named in honor of Emperor Quang Trung (Nguyễn Huệ, reigned 1788–1792), a Vietnamese military hero of the late 18th century. The game was submitted to a Chess Variant Pages contest in 1999.
 
 Three of the seven piece types are adapted from other chess traditions: the Cannon from FIDE Chess (but moving diagonally), the Elephant from Tamerlane Chess, and the Knight from Chinese Chess. The remaining four — Chariot, General, Counsellor, and Pawn — are the designer's original inventions. The game eliminates pawn promotion entirely, replacing it with a pawn-advance victory condition.

@@ -21,6 +21,8 @@ engine:
 
 ## Overview
 
+{{svg:senterej-board.svg "Senterej — starting position"}}
+
 Senterej is the traditional chess of Ethiopia and Eritrea, descended directly from Shatranj. Its most distinctive feature is the **werera** (mobilization) phase: before the first capture, both players move simultaneously and freely, watching each other and adjusting their positions. Turn-based play begins only after a piece is first captured.
 
 ## Setup

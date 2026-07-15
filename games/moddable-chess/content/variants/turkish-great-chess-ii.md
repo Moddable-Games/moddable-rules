@@ -19,6 +19,8 @@ engine:
 
 ## Turkish Great Chess II — Atranj / Qatranj
 
+{{svg:turkish-great-chess-ii-board.svg "Turkish Great Chess II (Atranj) — starting position"}}
+
 Turkish Great Chess, Variation II — known as **Atranj** or **Qatranj** — is a historical large chess variant described by H. J. R. Murray in *A History of Chess* (1913). Despite its classification under Turkish chess in Murray's survey, the source manuscript is Indian. The game is played on a 10×10 board with an expanded piece set that includes three pieces not found in standard chess.
 
 *Note: John Gollon, in mining Murray's book for his Chess Variations, inadvertently omitted each player's two central knights. The version described here is the correct full game.*

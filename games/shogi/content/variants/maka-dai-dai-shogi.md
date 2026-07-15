@@ -21,6 +21,8 @@ engine:
 
 ## Maka-Dai-Dai Shogi
 
+{{svg:maka-dai-dai-shogi-board.svg "Maka-Dai-Dai Shogi — starting position"}}
+
 Maka-Dai-Dai Shogi (摩訶大大将棋, *Great Dai-Dai Chess*) is a historical Japanese Shogi variant played on a 19×19 board — the same dimensions as a Go board. Each side starts with 96 pieces of 50 different types (192 pieces total), making it double the size of Chu Shogi. No drops; captured pieces are permanently removed.
 
 ### The Board

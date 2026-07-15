@@ -21,6 +21,8 @@ engine:
 
 ## Overview
 
+{{svg:kriegspiel-board.svg "Kriegspiel — starting position"}}
+
 Kriegspiel is chess with incomplete information. Each player can see only their own pieces — not the opponent's position or moves. A referee maintains a third "master" board with all pieces visible and arbitrates all play. Players must deduce the opponent's position from the referee's announcements.
 
 ## Equipment

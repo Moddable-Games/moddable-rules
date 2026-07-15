@@ -19,6 +19,8 @@ engine:
 
 ## Shako
 
+{{svg:shako-board.svg "Shako — starting position"}}
+
 Designed by Jean-Louis Cazaux (2000). Shako extends standard chess to a 10×10 board and introduces two new pieces — the Cannon (borrowed from Chinese Chess) and the Elephant — while retaining all standard FIDE piece identities. The name means “chess” in Esperanto.
 
 ### New Pieces

@@ -36,3 +36,7 @@ engine:
     set: mce-chess
   players: [white, black]
 ---
+
+## Dungeon Chess (Four Player (20×20))
+
+{{svg:four-player-board.svg "Dungeon Chess (Four Player (20×20)) — starting position"}}

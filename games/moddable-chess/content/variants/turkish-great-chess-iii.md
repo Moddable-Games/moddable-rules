@@ -19,6 +19,8 @@ engine:
 
 ## Turkish Great Chess III
 
+{{svg:turkish-great-chess-iii-board.svg "Turkish Great Chess III — starting position"}}
+
 Turkish Great Chess, Variation III is a historical large chess variant played on a 12×12 board. It is one of four large chess variants catalogued by John Gollon from H. J. R. Murray's *A History of Chess* (1913). The game uses an expanded piece set where several pieces move as Bishops, the Wazir moves as a full Queen, and separate Rook-like pieces (Ratha/Chariot) are added.
 
 ### The Board

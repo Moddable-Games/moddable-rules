@@ -23,6 +23,8 @@ engine:
 
 ## Overview
 
+{{svg:four-handed-chess-board.svg "Four-Handed Chess (Chaturaji) — starting position"}}
+
 Chaturaji (Sanskrit: चतुरजी, "four kings") is a four-player chess-like game first described in detail by Al-Biruni around 1030 CE in his book *India*. It is one of the oldest documented multiplayer board games. Originally a dice game, a diceless form was still played in India at the close of the 19th century.
 
 Chaturaji is distinct from the two-player game Chaturanga despite the similar name. Historians debate whether Chaturaji preceded or followed Chaturanga; the Cox–Forbes theory (18th–19th century) that Chaturaji was the ancestor of modern chess was rejected by H.J.R. Murray in 1913 and is not accepted by modern scholars.

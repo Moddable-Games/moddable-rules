@@ -20,6 +20,8 @@ engine:
 
 ## Dobutsu Shogi
 
+{{svg:dobutsu-board.svg "Dobutsu Shogi — starting position"}}
+
 Dobutsu Shogi (どうぶつしょうぎ, "animal chess") is a Shogi variant for young children invented by female professional Shogi player Madoka Kitao, in part to attract young girls to the game. Played on a 3×4 board, it uses a minimal piece set with animal characters; each piece's legal moves are printed on the piece itself. It is a **solved game** — optimal play by the second player guarantees a win — but remains engaging for beginners and young players.
 
 ### Setup

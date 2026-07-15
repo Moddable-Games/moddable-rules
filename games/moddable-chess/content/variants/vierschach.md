@@ -23,6 +23,8 @@ engine:
 
 ## Vierschach
 
+{{svg:vierschach-board.svg "Vierschach — starting position"}}
+
 Vierschach (German: "Four Chess", also Viererschach) is a traditional German 4-player chess variant invented by Dr. G. Arthur Lutze (1813–1870) and documented by Theodor Müller-Alfeld. It was widely played in the 19th century and is one of the most historically established 4-player chess forms.
 
 ### The Board

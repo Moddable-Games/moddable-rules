@@ -21,6 +21,8 @@ engine:
 
 ## Citadel Chess
 
+{{svg:citadel-chess-board.svg "Citadel Chess — starting position"}}
+
 Citadel Chess (Shatranj al-Husun, “Chess of the Fortresses”) is a historical Shatranj variant described by Gollon (based on Murray and Pritchard). It is played on a 10×10 board augmented with four corner citadel squares. A King that reaches the opponent’s citadel and cannot be captured on the very next move secures a draw.
 
 ### The Board

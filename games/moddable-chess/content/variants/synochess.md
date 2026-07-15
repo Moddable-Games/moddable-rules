@@ -23,6 +23,8 @@ published: true
 
 ## Synochess
 
+{{svg:synochess-board.svg "Synochess — starting position"}}
+
 Designed by Corey Clark (2020). Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi (Chinese Chess). The two armies differ completely in piece movement, and the Eastern side begins with Soldiers held in hand rather than Pawns on the board.
 
 ### The Two Armies

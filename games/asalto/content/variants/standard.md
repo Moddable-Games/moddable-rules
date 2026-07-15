@@ -21,6 +21,8 @@ engine:
 
 ## Asalto (Standard)
 
+{{svg:standard-board.svg "Asalto (Standard) — starting position"}}
+
 Published widely from the 1870s in Britain and Europe. Asalto is a heavily asymmetric game: 2 powerful Officers defend a small fortress against 24 Soldiers. The Officers capture by jumping; the Soldiers win by swarming and immobilizing.
 
 ### Board

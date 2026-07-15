@@ -22,6 +22,8 @@ engine:
 
 ## Standard 2-Player Stern-Halma
 
+{{svg:standard-2p-board.svg "Standard 2-Player Stern-Halma — starting position"}}
+
 The classic two-player configuration. Each player occupies one triangular arm and races to fill the opposite arm.
 
 ### Setup

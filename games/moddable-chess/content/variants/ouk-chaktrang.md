@@ -19,6 +19,8 @@ published: true
 
 ## Ouk Chaktrang (Cambodian Chess)
 
+{{svg:ouk-chaktrang-board.svg "Ouk Chaktrang (Cambodian Chess) — starting position"}}
+
 Ouk Chaktrang is the traditional chess of Cambodia. It belongs to the Makruk family — the Southeast Asian branch of chess descended from Indian Chaturanga — and is the closest living relative of the medieval game that spread from India across Asia. Modern rules are codified by the Asian Chess Federation and the Cambodian Chess Federation.
 
 ### Pieces

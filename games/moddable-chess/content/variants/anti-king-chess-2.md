@@ -21,6 +21,8 @@ engine:
 
 ## Overview
 
+{{svg:anti-king-chess-2-board.svg "Anti-King Chess II — starting position"}}
+
 Anti-King Chess II adds an Anti-King to each side's standard FIDE army. The Anti-King is a royal piece with inverted check: it is in check when it is *not* attacked by any enemy piece. A player who ends their turn with their Anti-King unattacked is checkmated and loses. Win by checkmating either the opponent's King or the opponent's Anti-King.
 
 ## Setup

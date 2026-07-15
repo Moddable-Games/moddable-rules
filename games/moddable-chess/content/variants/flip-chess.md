@@ -19,6 +19,8 @@ published: true
 
 ## Flip Chess
 
+{{svg:flip-chess-board.svg "Flip Chess — starting position"}}
+
 Flip Chess is a chess variant played on a **38-square board** with an unusual shape. Created by John William Brown in 1999, it is a companion game to **Crazy 38's** — both are 38-square chess variants in the tradition of exploring compact, non-standard board geometries. A Java applet implementation by Ed Friedlander is available on chessvariants.com.
 
 ### The Board

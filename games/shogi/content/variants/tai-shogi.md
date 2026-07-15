@@ -21,6 +21,8 @@ engine:
 
 ## Tai Shogi
 
+{{svg:tai-shogi-board.svg "Tai Shogi — starting position"}}
+
 Tai Shogi (大将棋, *Grand Chess*) is a historical Japanese Shogi variant played on a 25×25 board (625 squares) with approximately 177 piece types per side (354 pieces total). It occupies the scale tier between **Maka-Dai-Dai Shogi** (19×19, ~96 piece types) and **Taikyoku Shogi** (36×36, 402 piece types). Tai Shogi holds the distinction of being the largest chess variant with **fully documented and verified movement rules** for every piece.
 
 No game record of Tai Shogi being played to completion has survived. Whether it was ever genuinely played at this scale is uncertain.

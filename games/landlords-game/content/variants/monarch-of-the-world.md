@@ -20,6 +20,8 @@ engine:
 
 ## Monarch of the World
 
+{{svg:monarch-of-the-world-board.svg "Monarch of the World — starting position"}}
+
 Monarch of the World is a pedagogical demonstration from the 1906 Economic Game Company edition, not a competitive game. One player takes the role of the Landlord and holds all land from the start; the other players hold every other advantage. The demonstration is designed to prove Magie's central thesis through play: whoever owns all the land is the Monarch of the World, regardless of who controls every other resource.
 
 ### Setup

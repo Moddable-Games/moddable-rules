@@ -24,6 +24,8 @@ published: true
 
 ## Delirious Bughouse
 
+{{svg:delirious-bughouse-board.svg "Delirious Bughouse — starting position"}}
+
 Delirious Bughouse is a complex Bughouse chess variant developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho around 1984. It evolves through several layers from standard Bughouse, adding dice, worst-move mechanics, and eventually a full set of fairy pieces, structures, events, and magic items.
 
 ### Teams and Boards

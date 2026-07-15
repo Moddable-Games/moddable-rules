@@ -20,4 +20,6 @@ engine:
 
 ## Y (Small)
 
+{{svg:y-small-board.svg "Y (Small — 9) — starting position"}}
+
 Y on a side-length 9 triangular board. Quicker games while retaining the 3-edge connection goal.

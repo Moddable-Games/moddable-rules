@@ -19,6 +19,8 @@ engine:
 
 ## Overview
 
+{{svg:yalta-chess-board.svg "Yalta Chess — starting position"}}
+
 Yalta Chess is a 3-player chess variant played on a circular board divided into three Y-shaped sectors. It was documented by Daniel Lindström from a small book purchased at a chess bookshop in Paris. Lindström describes it as "more about group dynamics, preferably together with a couple of beers, than as a serious competition."
 
 ## Board

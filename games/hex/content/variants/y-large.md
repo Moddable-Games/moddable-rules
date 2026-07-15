@@ -20,4 +20,6 @@ engine:
 
 ## Y (Large)
 
+{{svg:y-large-board.svg "Y (Large — 15) — starting position"}}
+
 Y on a side-length 15 triangular board. Significantly more complex than standard size.

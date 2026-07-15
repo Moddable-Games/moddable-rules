@@ -49,6 +49,8 @@ engine:
 
 ## Aviation
 
+{{svg:aviation-board.svg "Aviation — starting position"}}
+
 Published by H.P. Gibson & Sons Ltd., London. One of the four games in the Gibson hidden-rank warfare series (alongside L'Attaque, Dover Patrol, and Tri-Tactics). This description is sourced from the original H.P. Gibson Aviation rulebook (recovered from a 2004-digitised scan).
 
 ---

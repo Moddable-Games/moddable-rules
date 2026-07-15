@@ -20,6 +20,8 @@ engine:
 
 ## Standard Wildebeest Chess
 
+{{svg:wildebeest-board.svg "Standard Wildebeest Chess — starting position"}}
+
 Played on an **11×10 board** (files a–k, ranks 1–10). Each side has 11 pawns and an expanded back rank including two new fairy pieces.
 
 ### Starting Position

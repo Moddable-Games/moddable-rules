@@ -19,6 +19,8 @@ engine:
 
 ## Hexapawn
 
+{{svg:hexapawn-board.svg "Hexapawn — starting position"}}
+
 Hexapawn is a minimal chess variant invented by Martin Gardner and published in his *Mathematical Games* column in *Scientific American*, March 1962. It is played on a 3×3 board using only Pawns — three per side. Gardner designed it as an educational tool: the game tree is small enough that a child (or an assembly of matchboxes, each representing one board position) can learn to play perfectly through reinforcement.
 
 ### The Board

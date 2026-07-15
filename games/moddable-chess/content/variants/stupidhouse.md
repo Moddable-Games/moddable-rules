@@ -24,6 +24,8 @@ published: true
 
 ## Stupidhouse
 
+{{svg:stupidhouse-board.svg "Stupidhouse — starting position"}}
+
 Stupidhouse is a Bughouse chess variant that modifies the drop mechanic: when a player uses a received piece, it is placed on a **randomly selected legal empty square** rather than on a square of the player's choosing. This removes the strategic core of Bughouse — targeted drops — and replaces it with unpredictable chaos.
 
 ### Setup and Teams

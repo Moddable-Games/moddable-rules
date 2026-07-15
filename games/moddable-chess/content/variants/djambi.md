@@ -19,6 +19,8 @@ engine:
 
 ## Overview
 
+{{svg:djambi-board.svg "Djambi — starting position"}}
+
 Djambi (also called Blocus) is a 4-player abstract strategy game designed by Jean Anesto and published in France in 1975. It is a chess-adjacent game: each player has a royal piece (the Chief), pieces with defined movement types, and a grid board. Its defining mechanic is that **killed pieces remain on the board as corpses** — immovable blocks that obstruct movement and become strategic terrain.
 
 A second distinctive element is the **Maze** (the center square), which grants special powers to the player whose Chief occupies it.

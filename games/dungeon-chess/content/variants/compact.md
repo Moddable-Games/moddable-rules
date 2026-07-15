@@ -37,3 +37,7 @@ engine:
     set: mce-chess
   players: [white, black]
 ---
+
+## Dungeon Chess (Compact Skirmish (10×10))
+
+{{svg:compact-board.svg "Dungeon Chess (Compact Skirmish (10×10)) — starting position"}}

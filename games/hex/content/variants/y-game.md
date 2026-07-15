@@ -20,6 +20,8 @@ engine:
 
 ## Y
 
+{{svg:y-game-board.svg "Y — starting position"}}
+
 Invented by Claude Shannon and Craige Schensted in the 1950s. Played on a triangular board of hexagonal cells. Two players alternate placing stones. The first player to form a connected group touching all three edges of the triangle wins.
 
 ### Board

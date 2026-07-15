@@ -21,6 +21,8 @@ engine:
 
 ## Gustav III's Chess
 
+{{svg:gustav-iii-chess-board.svg "Gustav III's Chess — starting position"}}
+
 Gustav III's Chess (also called *Shakspel*) is a historical Swedish chess variant attributed to Gustav Johan Billberg (1839). It adds four extra squares at the corners of the standard 8×8 board, each housing an Amazon — a piece that combines the moves of Queen and Knight. Each player controls two Amazons in addition to the standard FIDE army.
 
 Despite the royal attribution in its common name, the game was designed by Billberg, not by King Gustav III himself.

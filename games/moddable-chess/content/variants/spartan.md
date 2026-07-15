@@ -21,6 +21,8 @@ published: true
 
 ## Spartan Chess
 
+{{svg:spartan-board.svg "Spartan Chess — starting position"}}
+
 Designed by Steven Streetman (2010). Spartan Chess is asymmetric: White commands a standard FIDE Persian army; Black commands a Spartan army with two Kings and a unique roster of pieces. The armies differ fundamentally in their check rules, pieces, and win conditions.
 
 ### The Two Armies

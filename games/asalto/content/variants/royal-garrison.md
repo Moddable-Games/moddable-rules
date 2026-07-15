@@ -34,6 +34,8 @@ engine:
 
 ## Royal Garrison
 
+{{svg:royal-garrison-board.svg "Royal Garrison — starting position"}}
+
 Royal Garrison is the large-scale variant of Asalto, using a larger fortress, three Officers, and fifty Soldiers. All rules are mechanically identical to Standard Asalto — see that variant for full rule descriptions.
 
 ### Differences from Standard Asalto
