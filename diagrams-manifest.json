@@ -2122,26 +2122,6 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
-    "variant": "toroidal-byzantine",
-    "variantTitle": "Toroidal Byzantine Chess",
-    "topology": "torus",
-    "svg": "games/moddable-chess/diagrams/svg/toroidal-byzantine-board.svg",
-    "rulesUrl": "dist/moddable-chess/variants/toroidal-byzantine/index.html",
-    "status": "rendered"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "toroidal-chess",
-    "variantTitle": "Gadsden's Toroidal Chess",
-    "topology": "torus",
-    "svg": "games/moddable-chess/diagrams/svg/toroidal-chess-board.svg",
-    "rulesUrl": "dist/moddable-chess/variants/toroidal-chess/index.html",
-    "status": "rendered"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
     "variant": "torpedo",
     "variantTitle": "Torpedo Chess",
     "topology": "grid",
@@ -3120,6 +3100,28 @@
     "topology": "spherical",
     "svg": null,
     "rulesUrl": "dist/moddable-chess/variants/spherical-chess/index.html",
+    "status": "missing",
+    "reason": "unsupported-topology"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "toroidal-byzantine",
+    "variantTitle": "Toroidal Byzantine Chess",
+    "topology": "torus",
+    "svg": null,
+    "rulesUrl": "dist/moddable-chess/variants/toroidal-byzantine/index.html",
+    "status": "missing",
+    "reason": "unsupported-topology"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "toroidal-chess",
+    "variantTitle": "Gadsden's Toroidal Chess",
+    "topology": "torus",
+    "svg": null,
+    "rulesUrl": "dist/moddable-chess/variants/toroidal-chess/index.html",
     "status": "missing",
     "reason": "unsupported-topology"
   },
