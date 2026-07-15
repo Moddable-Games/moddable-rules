@@ -1137,8 +1137,12 @@ function buildBoards() {
         topology: topo,
         svg: `games/${family}/diagrams/svg/${svgFile}`,
         rulesUrl,
-        status: 'rendered',
+        status: vm.engine?.generator ? 'generator' : 'rendered',
       };
+      if (vm.engine?.generator) {
+        svgEntry.reason = 'hex-generator';
+        svgEntry.generator = vm.engine.generator;
+      }
       if (vm.engine?.handicaps) svgEntry.handicaps = vm.engine.handicaps;
       if (vm.players) svgEntry.players = vm.players;
       index.push(svgEntry);

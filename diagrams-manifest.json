@@ -2616,17 +2616,6 @@
     "players": "2"
   },
   {
-    "family": "nukes",
-    "familyTitle": "Nukes",
-    "variant": "standard",
-    "variantTitle": "Nukes: Standard",
-    "topology": "hex",
-    "svg": "games/nukes/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/nukes/variants/standard/index.html",
-    "status": "rendered",
-    "players": "2–3"
-  },
-  {
     "family": "nyout",
     "familyTitle": "Nyout (유놓이 / Yut Nori)",
     "variant": "standard",
@@ -3533,6 +3522,19 @@
     "status": "generator",
     "reason": "hex-generator",
     "generator": "mongo"
+  },
+  {
+    "family": "nukes",
+    "familyTitle": "Nukes",
+    "variant": "standard",
+    "variantTitle": "Nukes: Standard",
+    "topology": "hex",
+    "svg": "games/nukes/diagrams/svg/standard-board.svg",
+    "rulesUrl": "dist/nukes/variants/standard/index.html",
+    "status": "generator",
+    "reason": "hex-generator",
+    "generator": "nukes",
+    "players": "2–3"
   },
   {
     "family": "standard-52",
