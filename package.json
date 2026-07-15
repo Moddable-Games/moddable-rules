@@ -10,6 +10,7 @@
     "pdf": "node js/pdf.mjs",
     "pdf:game": "node js/pdf.mjs --game",
     "sync": "node js/sync.mjs",
+    "sync:boards": "./scripts/sync-boards.sh",
     "og": "python3 build/gen-og.py"
   },
   "dependencies": {},

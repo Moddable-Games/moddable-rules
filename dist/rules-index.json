@@ -5998,6 +5998,56 @@
   {
     "game": "hex",
     "gameTitle": "Hex",
+    "section": "Hex (13×13)",
+    "heading": "Hex (13×13)",
+    "content": "Larger variant offering deeper strategic possibilities. Popular in online play for players seeking more complexity than 11×11.",
+    "anchor": "hex-1313",
+    "variant": "13x13",
+    "variantUrl": "dist/hex/variants/13x13/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (14×14)",
+    "heading": "Hex (14×14)",
+    "content": "Alternative large-board size used in some tournament settings. 196 cells.",
+    "anchor": "hex-1414",
+    "variant": "14x14",
+    "variantUrl": "dist/hex/variants/14x14/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (19×19)",
+    "heading": "Hex (19×19)",
+    "content": "Largest standard board size, matching Go's 19×19 intersection count. Games can be very long. Rarely played competitively but available for those seeking maximum depth.",
+    "anchor": "hex-1919",
+    "variant": "19x19",
+    "variantUrl": "dist/hex/variants/19x19/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (9×9)",
+    "heading": "Hex (9×9)",
+    "content": "Quick variant on a smaller board. Same rules as standard Hex. Reduced strategic depth but sharper tactical play.",
+    "anchor": "hex-99",
+    "variant": "9x9",
+    "variantUrl": "dist/hex/variants/9x9/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (11×11)",
+    "heading": "Hex (11×11)",
+    "content": "Standard Hex on an 11×11 rhombus board. Two players alternate placing stones. First to connect their two opposite edges wins. Swap rule balances first-player advantage.",
+    "anchor": "hex-1111",
+    "variant": "standard",
+    "variantUrl": "dist/hex/variants/standard/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
     "section": "Y",
     "heading": "Y",
     "content": "Invented by Claude Shannon and Craige Schensted in the 1950s. Played on a triangular board of hexagonal cells. Two players alternate placing stones. The first player to form a connected group touching",
@@ -6054,6 +6104,26 @@
     "anchor": "why-this-tests-the-engine",
     "variant": "y-game",
     "variantUrl": "dist/hex/variants/y-game/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y (Large — 15)",
+    "heading": "Y (Large)",
+    "content": "Y on a side-length 15 triangular board. Significantly more complex than standard size.",
+    "anchor": "y-large",
+    "variant": "y-large",
+    "variantUrl": "dist/hex/variants/y-large/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y (Small — 9)",
+    "heading": "Y (Small)",
+    "content": "Y on a side-length 9 triangular board. Quicker games while retaining the 3-edge connection goal.",
+    "anchor": "y-small",
+    "variant": "y-small",
+    "variantUrl": "dist/hex/variants/y-small/"
   },
   {
     "game": "landlords-game",
@@ -19804,6 +19874,36 @@
     "anchor": "design-notes",
     "variant": "siege",
     "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes: Official Rulebook",
+    "section": "Nukes: Standard",
+    "heading": "Nukes: Standard",
+    "content": "The default Nukes map. A 3-ring hexagonal battlefield with seeded random terrain and two opposing bases.",
+    "anchor": "nukes-standard",
+    "variant": "standard",
+    "variantUrl": "dist/nukes/variants/standard/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes: Official Rulebook",
+    "section": "Nukes: Standard",
+    "heading": "Setup",
+    "content": "Terrain is generated from seed 42. Bases are placed at opposing edges of the outer ring.",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/nukes/variants/standard/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes: Official Rulebook",
+    "section": "Nukes: Standard",
+    "heading": "Terrain Types",
+    "content": "Effect --- Open ground, standard movement Trees Forest Impassable, blocks LOS Water Open ground, fatigue penalty Base",
+    "anchor": "terrain-types",
+    "variant": "standard",
+    "variantUrl": "dist/nukes/variants/standard/"
   },
   {
     "game": "pachisi",
