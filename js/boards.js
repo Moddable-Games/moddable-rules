@@ -1,5 +1,5 @@
 let BOARDS = []
-let state = { search: '', family: 'all', topology: 'all', size: '240' }
+let state = { search: '', family: 'all', topology: 'all', status: 'all', size: '240' }
 
 async function init() {
   const res = await fetch('../diagrams-manifest.json')
@@ -12,9 +12,10 @@ async function init() {
 
 function renderIntro() {
   const families = [...new Set(BOARDS.map(b => b.family))]
-  const topos = [...new Set(BOARDS.map(b => b.topology))]
+  const rendered = BOARDS.filter(b => b.status === 'rendered').length
+  const missing = BOARDS.filter(b => b.status === 'missing').length
   document.getElementById('gallery-intro').textContent =
-    `${BOARDS.length} board diagrams across ${families.length} game families and ${topos.length} topology types. Browse, filter, and download any board as SVG or PNG.`
+    `${BOARDS.length} game entries across ${families.length} families. ${rendered} boards rendered, ${missing} pending.`
 }
 
 function populateFilters() {
@@ -42,20 +43,31 @@ function getFiltered() {
   return BOARDS.filter(b => {
     if (state.family !== 'all' && b.family !== state.family) return false
     if (state.topology !== 'all' && b.topology !== state.topology) return false
+    if (state.status !== 'all' && b.status !== state.status) return false
     if (state.search) {
       const q = state.search.toLowerCase()
-      const haystack = `${b.family} ${b.variant} ${b.familyTitle} ${b.variantTitle} ${b.topology}`.toLowerCase()
+      const haystack = `${b.family} ${b.variant} ${b.familyTitle} ${b.variantTitle} ${b.topology} ${b.reason || ''}`.toLowerCase()
       if (!haystack.includes(q)) return false
     }
     return true
   })
 }
 
+const REASON_LABELS = {
+  'pending': 'Render pending',
+  'no-topology': 'No topology defined',
+  'unsupported-topology': 'Topology not yet supported',
+  'multi-board': 'Multi-board (not yet supported)',
+  'component-game': 'Card/tile/dice game (engine#8)',
+}
+
 function render() {
   const container = document.getElementById('gallery-container')
   const filtered = getFiltered()
   const stats = document.getElementById('gallery-stats')
-  stats.textContent = `Showing ${filtered.length} of ${BOARDS.length} boards`
+  const rendered = filtered.filter(b => b.status === 'rendered').length
+  const missing = filtered.filter(b => b.status === 'missing').length
+  stats.textContent = `Showing ${filtered.length} of ${BOARDS.length} — ${rendered} rendered, ${missing} pending`
 
   if (filtered.length === 0) {
     container.innerHTML = '<div class="gallery-empty">No boards match your filters</div>'
@@ -69,6 +81,26 @@ function render() {
   const cards = filtered.map(b => {
     const title = b.variantTitle || b.variant
     const family = b.familyTitle || b.family
+    const isMissing = b.status === 'missing'
+
+    if (isMissing) {
+      const reason = REASON_LABELS[b.reason] || b.reason || 'Pending'
+      const rulesLink = b.rulesUrl ? `<a href="../${b.rulesUrl}" class="board-card-link" title="View rules">Rules</a>` : ''
+      return `<div class="board-card board-card--missing" data-family="${b.family}" data-variant="${b.variant}">
+      <div class="board-card-preview board-card-preview--missing">
+        <div class="missing-badge">${reason}</div>
+      </div>
+      <div class="board-card-info">
+        <span class="board-card-title">${title}</span>
+        <span class="board-card-family">${family}</span>
+        <span class="board-card-topo">${b.topology}</span>
+      </div>
+      <div class="board-card-actions">
+        ${rulesLink}
+      </div>
+    </div>`
+    }
+
     const svgSrc = '../' + b.svg
     const rulesLink = b.rulesUrl ? `<a href="../${b.rulesUrl}" class="board-card-link" title="View rules">Rules</a>` : ''
     return `<div class="board-card" data-family="${b.family}" data-variant="${b.variant}">
@@ -104,6 +136,10 @@ function bindControls() {
     state.topology = e.target.value
     render()
   })
+  document.getElementById('status-filter').addEventListener('change', e => {
+    state.status = e.target.value
+    render()
+  })
   document.getElementById('size-select').addEventListener('change', e => {
     state.size = e.target.value
     render()
@@ -116,7 +152,7 @@ function bindControls() {
     const family = card.dataset.family
     const variant = card.dataset.variant
     const board = BOARDS.find(b => b.family === family && b.variant === variant)
-    if (!board) return
+    if (!board || !board.svg) return
 
     if (btn.dataset.action === 'svg') downloadSvg(board)
     if (btn.dataset.action === 'png') downloadPng(board)

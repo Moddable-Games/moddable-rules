@@ -1085,13 +1085,15 @@ function buildBoards() {
     const { data: rbMeta } = matter(rbSrc);
     const familyTitle = (rbMeta.title || family).replace(/\s*[—–:]\s*Official Rulebook$/i, '').replace(/\s*[—–]\s*Component Hub$/i, '');
     const familyTopo = rbMeta.engine?.topology?.type || null;
+    const hubType = rbMeta.hub_type || null;
 
     const svgDir = resolve(GAMES_DIR, family, 'diagrams/svg');
-    if (!existsSync(svgDir)) continue;
+    const svgFiles = existsSync(svgDir)
+      ? readdirSync(svgDir).filter(f => f.endsWith('-board.svg'))
+      : [];
+    const svgSlugs = new Set(svgFiles.map(f => f.replace(/-board\.svg$/, '')));
 
-    const svgFiles = readdirSync(svgDir).filter(f => f.endsWith('-board.svg'));
-    if (!svgFiles.length) continue;
-
+    // Collect variant metadata
     const varDir = resolve(GAMES_DIR, family, 'content/variants');
     const variantMeta = {};
     if (existsSync(varDir)) {
@@ -1102,6 +1104,20 @@ function buildBoards() {
       }
     }
 
+    // Collect component hub games
+    const compDir = resolve(GAMES_DIR, family, 'content/games');
+    const compGames = {};
+    if (existsSync(compDir)) {
+      for (const g of readdirSync(compDir, { withFileTypes: true }).filter(d => d.isDirectory())) {
+        const stdPath = resolve(compDir, g.name, 'standard.md');
+        if (existsSync(stdPath)) {
+          const { data } = matter(readFileSync(stdPath, 'utf8'));
+          compGames[g.name] = data;
+        }
+      }
+    }
+
+    // Entries for SVGs that exist
     for (const svgFile of svgFiles) {
       const varSlug = svgFile.replace(/-board\.svg$/, '');
       const vm = variantMeta[varSlug] || {};
@@ -1109,7 +1125,7 @@ function buildBoards() {
       const varTitle = vm.title || varSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
       let rulesUrl = '';
-      if (varDir && existsSync(resolve(varDir, `${varSlug}.md`))) {
+      if (existsSync(resolve(varDir || '', `${varSlug}.md`))) {
         rulesUrl = `dist/${family}/variants/${varSlug}/index.html`;
       }
 
@@ -1121,13 +1137,65 @@ function buildBoards() {
         topology: topo,
         svg: `games/${family}/diagrams/svg/${svgFile}`,
         rulesUrl,
+        status: 'rendered',
+      });
+    }
+
+    // Entries for variants WITHOUT an SVG
+    for (const [slug, vm] of Object.entries(variantMeta)) {
+      if (svgSlugs.has(slug)) continue;
+      const topo = vm.engine?.topology?.type || familyTopo || 'unknown';
+      const varTitle = vm.title || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      const hasTopo = !!(vm.engine?.topology?.type || familyTopo);
+
+      const SUPPORTED_TOPOS = ['grid', 'hex', 'graph', 'track', 'pit'];
+      let reason = 'pending';
+      if (!hasTopo) reason = 'no-topology';
+      else if (!SUPPORTED_TOPOS.includes(topo)) reason = 'unsupported-topology';
+      else if (vm.engine?.topology?.layers > 1) reason = 'multi-board';
+
+      index.push({
+        family,
+        familyTitle,
+        variant: slug,
+        variantTitle: varTitle,
+        topology: topo,
+        svg: null,
+        rulesUrl: `dist/${family}/variants/${slug}/index.html`,
+        status: 'missing',
+        reason,
+      });
+    }
+
+    // Entries for component hub games WITHOUT an SVG
+    for (const [slug, gm] of Object.entries(compGames)) {
+      if (svgSlugs.has(slug)) continue;
+      const varTitle = gm.title || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      const componentType = hubType === 'component' ? (rbMeta.component_type || 'cards') : 'unknown';
+
+      index.push({
+        family,
+        familyTitle,
+        variant: slug,
+        variantTitle: varTitle,
+        topology: componentType,
+        svg: null,
+        rulesUrl: `dist/${family}/games/${slug}/index.html`,
+        status: 'missing',
+        reason: 'component-game',
       });
     }
   }
 
-  index.sort((a, b) => a.family.localeCompare(b.family) || a.variant.localeCompare(b.variant));
+  index.sort((a, b) => {
+    if (a.status !== b.status) return a.status === 'rendered' ? -1 : 1;
+    return a.family.localeCompare(b.family) || a.variant.localeCompare(b.variant);
+  });
+
+  const rendered = index.filter(b => b.status === 'rendered').length;
+  const missing = index.filter(b => b.status === 'missing').length;
   writeFileSync(resolve(ROOT, 'diagrams-manifest.json'), JSON.stringify(index, null, 2));
-  console.log(`  Built diagrams-manifest.json (${index.length} boards indexed)`);
+  console.log(`  Built diagrams-manifest.json (${rendered} rendered, ${missing} pending — ${index.length} total)`);
 }
 
 // --- Main ---
