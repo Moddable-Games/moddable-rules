@@ -651,9 +651,6 @@ function buildLanding() {
 
   <header class="landing-header">
     <a href="https://moddable.games" target="_blank" rel="noopener"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
-    <nav class="landing-nav">
-      <a href="diagrams/" class="landing-nav-link">Board Gallery</a>
-    </nav>
     <button class="surface-toggle" aria-label="Toggle light/dark mode" type="button">◐</button>
   </header>
 
@@ -663,6 +660,9 @@ function buildLanding() {
     <div class="hero-stats">
       <span class="hero-stat"><strong>${visible.length}</strong> games</span>
       <span class="hero-stat"><strong>${totalVariants}</strong> variants</span>
+    </div>
+    <div class="hero-actions">
+      <a href="diagrams/" class="hero-link">Diagrams</a>
     </div>
   </section>
 

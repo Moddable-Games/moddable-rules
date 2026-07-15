@@ -121,7 +121,12 @@ a:hover { text-decoration: underline; }
 
 /* Controls */
 .gallery-controls {
-  padding: 0 24px 32px;
+  padding: 16px 24px 20px;
+  position: sticky;
+  top: 56px;
+  z-index: 90;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
 }
 
 .controls-inner {
