@@ -2849,7 +2849,8 @@
     "rulesUrl": "dist/bavarian-32/games/schafkopf/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "bavarian-32"
+    "deckType": "bavarian-32",
+    "players": "4"
   },
   {
     "family": "bavarian-32",
@@ -2861,7 +2862,8 @@
     "rulesUrl": "dist/bavarian-32/games/skat/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "bavarian-32"
+    "deckType": "bavarian-32",
+    "players": "3"
   },
   {
     "family": "dnd-5e",
@@ -2884,7 +2886,8 @@
     "rulesUrl": "dist/double-six-dominoes/games/all-fives/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "dominoes-28"
+    "deckType": "dominoes-28",
+    "players": "2–4"
   },
   {
     "family": "double-six-dominoes",
@@ -2896,7 +2899,8 @@
     "rulesUrl": "dist/double-six-dominoes/games/block/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "dominoes-28"
+    "deckType": "dominoes-28",
+    "players": "2–4"
   },
   {
     "family": "double-six-dominoes",
@@ -2908,7 +2912,8 @@
     "rulesUrl": "dist/double-six-dominoes/games/chickenfoot/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "dominoes-28"
+    "deckType": "dominoes-28",
+    "players": "2–8"
   },
   {
     "family": "double-six-dominoes",
@@ -2920,7 +2925,8 @@
     "rulesUrl": "dist/double-six-dominoes/games/mexican-train/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "dominoes-28"
+    "deckType": "dominoes-28",
+    "players": "2–8"
   },
   {
     "family": "endless-skies",
@@ -2944,7 +2950,8 @@
     "rulesUrl": "dist/flower-48/games/go-stop/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "flower-48"
+    "deckType": "flower-48",
+    "players": "2–3"
   },
   {
     "family": "flower-48",
@@ -2956,7 +2963,8 @@
     "rulesUrl": "dist/flower-48/games/hana-awase/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "flower-48"
+    "deckType": "flower-48",
+    "players": "2–4"
   },
   {
     "family": "flower-48",
@@ -2968,7 +2976,8 @@
     "rulesUrl": "dist/flower-48/games/koi-koi/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "flower-48"
+    "deckType": "flower-48",
+    "players": "2"
   },
   {
     "family": "flower-48",
@@ -2980,7 +2989,8 @@
     "rulesUrl": "dist/flower-48/games/oicho-kabu/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "flower-48"
+    "deckType": "flower-48",
+    "players": "2–8"
   },
   {
     "family": "ironsworn",
@@ -3003,7 +3013,8 @@
     "rulesUrl": "dist/mahjong/games/american-classic/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "mahjong-136"
+    "deckType": "mahjong-136",
+    "players": "4"
   },
   {
     "family": "mahjong",
@@ -3015,7 +3026,8 @@
     "rulesUrl": "dist/mahjong/games/hong-kong/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "mahjong-136"
+    "deckType": "mahjong-136",
+    "players": "4"
   },
   {
     "family": "mahjong",
@@ -3027,7 +3039,8 @@
     "rulesUrl": "dist/mahjong/games/riichi/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "mahjong-136"
+    "deckType": "mahjong-136",
+    "players": "4"
   },
   {
     "family": "mahjong",
@@ -3039,7 +3052,8 @@
     "rulesUrl": "dist/mahjong/games/taiwanese/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "mahjong-136"
+    "deckType": "mahjong-136",
+    "players": "4"
   },
   {
     "family": "mahjong",
@@ -3051,7 +3065,8 @@
     "rulesUrl": "dist/mahjong/games/zung-jung/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "mahjong-136"
+    "deckType": "mahjong-136",
+    "players": "4"
   },
   {
     "family": "moddable-chess",
@@ -3196,7 +3211,8 @@
     "rulesUrl": "dist/standard-52/games/big2/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-52",
@@ -3208,7 +3224,8 @@
     "rulesUrl": "dist/standard-52/games/blackjack/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "2-7"
   },
   {
     "family": "standard-52",
@@ -3220,7 +3237,8 @@
     "rulesUrl": "dist/standard-52/games/bridge/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-52",
@@ -3232,7 +3250,8 @@
     "rulesUrl": "dist/standard-52/games/canasta/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-52",
@@ -3244,7 +3263,8 @@
     "rulesUrl": "dist/standard-52/games/crazy-eights/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "2–5"
   },
   {
     "family": "standard-52",
@@ -3256,7 +3276,8 @@
     "rulesUrl": "dist/standard-52/games/cribbage/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "2"
   },
   {
     "family": "standard-52",
@@ -3268,7 +3289,8 @@
     "rulesUrl": "dist/standard-52/games/euchre/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-52",
@@ -3280,7 +3302,8 @@
     "rulesUrl": "dist/standard-52/games/freecell/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "1"
   },
   {
     "family": "standard-52",
@@ -3292,7 +3315,8 @@
     "rulesUrl": "dist/standard-52/games/gin-rummy/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "2"
   },
   {
     "family": "standard-52",
@@ -3304,7 +3328,8 @@
     "rulesUrl": "dist/standard-52/games/hearts/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-52",
@@ -3316,7 +3341,8 @@
     "rulesUrl": "dist/standard-52/games/klondike/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "1"
   },
   {
     "family": "standard-52",
@@ -3328,7 +3354,8 @@
     "rulesUrl": "dist/standard-52/games/poker/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "2-10"
   },
   {
     "family": "standard-52",
@@ -3340,7 +3367,8 @@
     "rulesUrl": "dist/standard-52/games/president/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4–8"
   },
   {
     "family": "standard-52",
@@ -3352,7 +3380,8 @@
     "rulesUrl": "dist/standard-52/games/rummy/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "2–6"
   },
   {
     "family": "standard-52",
@@ -3364,7 +3393,8 @@
     "rulesUrl": "dist/standard-52/games/spades/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-52",
@@ -3376,7 +3406,8 @@
     "rulesUrl": "dist/standard-52/games/spider-solitaire/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "1"
   },
   {
     "family": "standard-52",
@@ -3388,7 +3419,8 @@
     "rulesUrl": "dist/standard-52/games/war/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "2"
   },
   {
     "family": "standard-52",
@@ -3400,7 +3432,8 @@
     "rulesUrl": "dist/standard-52/games/whist/index.html",
     "status": "missing",
     "reason": "component-game",
-    "deckType": "standard-52"
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-dice",
@@ -3411,7 +3444,8 @@
     "svg": null,
     "rulesUrl": "dist/standard-dice/games/bunco/index.html",
     "status": "missing",
-    "reason": "component-game"
+    "reason": "component-game",
+    "players": "12 (or multiples of 4)"
   },
   {
     "family": "standard-dice",
@@ -3422,7 +3456,8 @@
     "svg": null,
     "rulesUrl": "dist/standard-dice/games/craps/index.html",
     "status": "missing",
-    "reason": "component-game"
+    "reason": "component-game",
+    "players": "1 or more"
   },
   {
     "family": "standard-dice",
@@ -3433,7 +3468,8 @@
     "svg": null,
     "rulesUrl": "dist/standard-dice/games/farkle/index.html",
     "status": "missing",
-    "reason": "component-game"
+    "reason": "component-game",
+    "players": "2–6"
   },
   {
     "family": "standard-dice",
@@ -3444,7 +3480,8 @@
     "svg": null,
     "rulesUrl": "dist/standard-dice/games/liars-dice/index.html",
     "status": "missing",
-    "reason": "component-game"
+    "reason": "component-game",
+    "players": "2–6"
   },
   {
     "family": "standard-dice",
@@ -3455,7 +3492,8 @@
     "svg": null,
     "rulesUrl": "dist/standard-dice/games/yahtzee/index.html",
     "status": "missing",
-    "reason": "component-game"
+    "reason": "component-game",
+    "players": "1–4"
   },
   {
     "family": "talisman-worlds",
