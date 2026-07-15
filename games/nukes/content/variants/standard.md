@@ -19,7 +19,9 @@ engine:
     cellSize: 24
     cellColor: terrain
     frame: true
-  generator: nukes
+  generator:
+    id: nukes
+    size: 3
 ---
 
 ## Nukes: Standard

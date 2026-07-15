@@ -1140,8 +1140,10 @@ function buildBoards() {
         status: vm.engine?.generator ? 'generator' : 'rendered',
       };
       if (vm.engine?.generator) {
+        const gen = vm.engine.generator;
         svgEntry.reason = 'hex-generator';
-        svgEntry.generator = vm.engine.generator;
+        svgEntry.generator = typeof gen === 'object' ? gen.id : gen;
+        if (typeof gen === 'object' && gen.size) svgEntry.generatorSize = gen.size;
       }
       if (vm.engine?.handicaps) svgEntry.handicaps = vm.engine.handicaps;
       if (vm.players) svgEntry.players = vm.players;
@@ -1231,7 +1233,7 @@ function buildBoards() {
         rulesUrl: `dist/${family}/index.html`,
         status: 'generator',
         reason: 'hex-generator',
-        generator: rbMeta.engine?.generator || family,
+        generator: (typeof rbMeta.engine?.generator === 'object' ? rbMeta.engine.generator.id : rbMeta.engine?.generator) || family,
       });
     }
   }
