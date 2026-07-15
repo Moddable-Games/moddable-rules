@@ -25,7 +25,7 @@ theme:
 engine:
   topology:
     type: hex
-  generator: talisman-worlds
+  generator: talisman
 ---
 
 <div class="section">
