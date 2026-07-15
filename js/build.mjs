@@ -1224,7 +1224,7 @@ function buildBoards() {
         rulesUrl: `dist/${family}/index.html`,
         status: 'generator',
         reason: 'hex-generator',
-        generator: family,
+        generator: rbMeta.engine?.generator || family,
       });
     }
   }

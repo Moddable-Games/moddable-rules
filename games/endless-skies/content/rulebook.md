@@ -23,7 +23,7 @@ theme:
 engine:
   topology:
     type: hex
-  generator: endless-skies
+  generator: endless
 ---
 
 <div class="section">
