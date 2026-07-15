@@ -1,6 +1,6 @@
 ---
 title: "Baristasaurus — Official Rulebook"
-version: "0.1.1"
+version: "0.1.2"
 slug: "baristasaurus"
 players: "2–5"
 duration: "~20 min"
@@ -8,7 +8,7 @@ age: "8+"
 tagline: "A prehistoric card game about fulfilling coffeeshop orders"
 type: "game"
 status: "alpha"
-updated: "2026-06-19"
+updated: "2026-07-15"
 first_published: "April 2026"
 published: false
 logo_has_title: true
@@ -37,7 +37,7 @@ engine:
 
 ## How to Play in 5 Minutes
 
-Baristasaurus is a competitive card game where players are dinosaur baristas racing to fulfil coffeeshop orders. Collect ingredient cards, match them to orders on the table, and earn tips. First to complete 3 orders triggers the end — most tips wins.
+Baristasaurus is a competitive card game where players run dinosaur-staffed coffee shops, racing to fulfil orders. Collect ingredient cards, match them to orders on the table, and earn tips. First to complete 3 orders triggers the final round — most tips wins.
 
 <div class="highlight">
 <div class="box-title">★ Read This First — The Core Loop</div>
@@ -48,7 +48,7 @@ Baristasaurus is a competitive card game where players are dinosaur baristas rac
 
 **3. Fulfil orders for tips.** Match ingredient cards in your hand to an order's recipe. Satisfy the customer's extra requests for bonus tips. Add special ingredients for even more.
 
-**4. Race to 3.** The moment any player fulfils their 3rd order, the game ends. Count your tips — highest total wins.
+**4. Race to 3.** When any player fulfils their 3rd order, a final round begins. Each remaining player gets one last turn, then count tips — highest total wins.
 </div>
 
 </div>
@@ -58,11 +58,13 @@ Baristasaurus is a competitive card game where players are dinosaur baristas rac
 
 ## Setup
 
-1. Randomly select 1 Order card and 1 Customer card; place them face-up together on the table.
-2. Shuffle all remaining cards and deal 5 to each player face-down.
-3. Players draft their starting hand: each picks 1 card, passes the rest to the next player. Repeat until all 5 are kept.
-4. Remaining cards form the draw pile (face-down).
-5. First player: whoever most recently saw a dinosaur. Play proceeds clockwise.
+1. Shuffle the 5 Coffee Shop cards and deal 1 face-up in front of each player. Return unused shops to the box.
+2. Each player takes their shop's starting ingredients from the ingredient deck.
+3. Randomly select 1 Order card and 1 Customer card; place them face-up together on the table.
+4. Shuffle all remaining cards and deal 5 to each player face-down.
+5. Players draft their starting hand: each picks 1 card, passes the rest to the next player. Repeat until all 5 are kept.
+6. Remaining cards form the draw pile (face-down).
+7. First player: whoever most recently saw a dinosaur. Play proceeds clockwise.
 
 </div>
 
@@ -97,8 +99,8 @@ Play a Special Action, Barista, Order, or Customer card from your hand.
 
 **Barista placement:**
 - May be played for ANY player (including yourself)
-- Goes face-up in front of the target player
-- If target already has a barista, the new one replaces the old one (old goes to discard)
+- Goes face-up on top of the target player's Coffee Shop, replacing their trainee barista (or current barista)
+- If target already has a barista (other than the trainee), the new one replaces it (old goes to discard)
 
 **Special Action cards:**
 - Played and resolved immediately, then discarded
@@ -112,7 +114,7 @@ Either:
 ### Fulfil Order
 
 Requirements:
-- You must have a barista face-up in front of you
+- You must have a barista (either a trainee from your Coffee Shop or a played Barista card)
 - You must have all required ingredient cards in hand
 - Your barista must be able to serve the customer (type-matching — see Baristas)
 
@@ -130,7 +132,7 @@ On fulfilment:
 
 ## Winning
 
-The game ends the moment any player fulfils their 3rd order.
+When any player fulfils their 3rd order, the **final round** begins. Each remaining player (clockwise from the triggering player) takes one last turn. The player who triggered the final round does not take another turn.
 
 Add up tips from all orders, customers, and special ingredients in your score pile. Apply any active barista bonuses at this stage.
 
@@ -147,15 +149,17 @@ Add up tips from all orders, customers, and special ingredients in your score pi
 
 ## Components
 
-108 cards total:
+124 cards total:
 
 | Card Type | Count | Description |
 |-----------|-------|-------------|
+| Coffee Shops | 5 | Starting location with trainee barista and starting ingredients |
 | Orders | 12 | Coffeeshop drink recipes with ingredient requirements |
 | Customers | 12 | 6 carnivore + 6 herbivore, each with extra requests |
-| Baristas | 12 | 6 carnivore + 6 herbivore, each with unique ability |
+| Baristas | 15 | 6 carnivore + 6 herbivore + 3 mammal, each with unique ability |
 | Ingredients | 60 | 10 each of Milk, Coffee, Cocoa, Ice, Cream, Syrup |
-| Specials | 12 | 6 special ingredients + 6 special actions |
+| Special Ingredients | 10 | Bonus-tip toppings played at fulfilment |
+| Special Actions | 10 | Immediate-effect cards played on your turn |
 
 </div>
 
@@ -237,8 +241,16 @@ Add up tips from all orders, customers, and special ingredients in your score pi
 | 11 | Diplodocus | Cannot serve carnivores; double tips for herbivores |
 | 12 | Bajadasaurus | 1 extra tip for each fulfilled order |
 
+### Mammal Baristas
+
+| # | Name | Ability |
+|---|------|---------|
+| 13 | Smilodon | 1 extra tip for every barista in your hand at the end of the game |
+| 14 | Titanoboa | Take any card from the discard pile when completing an order |
+| 15 | Woolly Mammoth | 1 extra tip for every ice in your hand at the end of the game |
+
 <div class="designer-note">
-<p>Type-matching rule: Herbivore baristas cannot serve carnivore customers, and carnivore baristas cannot serve herbivore customers — unless their ability text does not include the "cannot serve" restriction. Baristas without this restriction may serve any customer type.</p>
+<p>Type-matching rule: Herbivore baristas cannot serve carnivore customers, and carnivore baristas cannot serve herbivore customers — unless their ability text does not include the "cannot serve" restriction. Mammal baristas and baristas without a "cannot serve" restriction may serve any customer type.</p>
 </div>
 
 </div>
@@ -260,6 +272,10 @@ Played at the moment of fulfilment only — added beneath the order for bonus ti
 | 4 | Marshmallows | Add 2 to tips if added to a cocoa drink |
 | 5 | Raspberry Syrup | 1 tip if added to milky drink, or 2 tips with chocolate syrup too |
 | 6 | Chocolate Syrup | 1 tip if added to milky drink, or 2 tips with raspberry syrup too |
+| 7 | Double Cream | A single cream can count as 2 cream, or no cream can count as 1 cream |
+| 8 | Dry Ice | Any number of ice ingredients can count as any ingredients |
+| 9 | Condensed Milk | Counts as one milk and one syrup; gains 1 extra tip on orders |
+| 10 | Decaf | Counts as 2 coffee when added to an order |
 
 ### Special Actions
 
@@ -267,11 +283,32 @@ Played and resolved immediately on your turn, then discarded.
 
 | # | Name | Effect |
 |---|------|--------|
-| 7 | Recycle | Pick any 1 card from the discard pile |
-| 8 | Bully | Pick 1 player, look at their hand and take 1 card |
-| 9 | Slow Poke | Fulfil someone else's order and take the tips with it |
-| 10 | Internship | Fulfil an order with up to 1 missing ingredient |
-| 11 | Delivery | Draw 3 new cards |
-| 12 | Shakeup | Switch any active barista with another active barista |
+| 11 | Recycle | Pick any 1 card from the discard pile |
+| 12 | Bully | Pick 1 player, look at their hand and take 1 card |
+| 13 | Slow Poke | Fulfil someone else's order and take the tips with it |
+| 14 | Internship | Fulfil an order with up to 1 missing ingredient |
+| 15 | Delivery | Draw 3 new cards |
+| 16 | Shakeup | Switch any active barista with another active barista |
+| 17 | Protection | Play when someone plays a special action against you; cancels that action |
+| 18 | Re-Order | Replace any order on the table with one from the discard pile |
+| 19 | Returnee | Replace any customer on the table with one from the discard pile |
+| 20 | Loyalist | Replace any barista on the table with one from the discard pile |
+
+</div>
+
+<div class="section">
+<div class="eyebrow">Your Shop</div>
+
+## Coffee Shops
+
+Each player begins the game with a randomly assigned Coffee Shop placed face-up in front of them. The shop provides starting ingredients and a trainee barista with conditions. When a Barista card is played on a player, it is placed on top of the Coffee Shop, replacing the trainee.
+
+| Shop | Milk | Coffee | Cocoa | Ice | Cream | Syrup | Total | Trainee Barista |
+|------|------|--------|-------|-----|-------|-------|-------|-----------------|
+| Lava Joes | 0 | 3 | 2 | 0 | 0 | 0 | 5 | Cannot earn tips from customers; only from orders and specials |
+| Polo Cove | 1 | 0 | 0 | 3 | 1 | 0 | 5 | Cannot earn tips from customers; only from orders and specials |
+| Herbies Shakes | 1 | 0 | 0 | 0 | 1 | 3 | 5 | Cannot serve carnivores |
+| Carnies Cuppa | 1 | 1 | 1 | 0 | 1 | 1 | 5 | Cannot serve herbivores |
+| Stone Ducks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Can fulfil orders or satisfy customers with one missing ingredient |
 
 </div>
