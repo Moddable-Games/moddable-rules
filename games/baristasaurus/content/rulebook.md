@@ -59,7 +59,7 @@ Baristasaurus is a competitive card game where players run dinosaur-staffed coff
 ## Setup
 
 1. Shuffle the 5 Coffee Shop cards and deal 1 face-up in front of each player. Return unused shops to the box.
-2. Each player claims the starting ingredients listed on their Coffee Shop from the ingredient deck and adds them to their hand.
+2. Each player takes their shop's starting ingredients from the ingredient deck.
 3. Randomly select 1 Order card and 1 Customer card; place them face-up together on the table.
 4. Shuffle all remaining cards and deal 5 to each player face-down.
 5. Players draft their starting hand: each picks 1 card, passes the rest to the next player. Repeat until all 5 are kept.
