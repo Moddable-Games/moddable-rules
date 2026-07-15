@@ -46,6 +46,8 @@ engine:
 
 ## Dou Shou Qi (斗兽棋 / Jungle)
 
+{{svg:standard-board.svg "Dou Shou Qi — starting position"}}
+
 Dou Shou Qi (also called Jungle, Animal Chess, or The Jungle Game) is a traditional Chinese two-player strategy game. Each player commands 8 animal pieces ranked 1–8; higher rank defeats lower rank, with two key exceptions: the Rat defeats the Elephant, and the Tiger and Lion can jump rivers. Victory is achieved by entering the opponent’s Den.
 
 ### Board

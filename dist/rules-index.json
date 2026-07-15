@@ -5036,6 +5036,96 @@
     "variantUrl": "dist/draughts/variants/turkish-draughts/"
   },
   {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Compact Skirmish (10×10))",
+    "heading": "Dungeon Chess (Compact Skirmish (10×10))",
+    "content": "A compact 10×10 skirmish map for faster games. A central water hazard 4×4 pool divides the battlefield, forcing flanking manoeuvres. Each player deploys in a two-rank zone at their edge of the board.",
+    "anchor": "dungeon-chess-compact-skirmish-1010",
+    "variant": "compact",
+    "variantUrl": "dist/dungeon-chess/variants/compact/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Compact Skirmish (10×10))",
+    "heading": "Map Features",
+    "content": "- Central pool: 16 impassable water squares in the centre prevent direct charges - Deploy zones: 2 ranks deep at each board edge 20 squares per player - Open flanks: The columns around the water pool ",
+    "anchor": "map-features",
+    "variant": "compact",
+    "variantUrl": "dist/dungeon-chess/variants/compact/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Compact Skirmish (10×10))",
+    "heading": "Differences from Standard",
+    "content": "Smaller board and simpler terrain. Games resolve faster with fewer tactical options. No corridors, doors, or elevation. Designed for quick pickup games or teaching the core Dungeon Chess movement and ",
+    "anchor": "differences-from-standard",
+    "variant": "compact",
+    "variantUrl": "dist/dungeon-chess/variants/compact/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Four Player (20×20))",
+    "heading": "Dungeon Chess (Four Player (20×20))",
+    "content": "The four-player Dungeon Chess map. A large 20×20 arena with deploy zones in each corner, supporting free-for-all or team 2v2 play.",
+    "anchor": "dungeon-chess-four-player-2020",
+    "variant": "four-player",
+    "variantUrl": "dist/dungeon-chess/variants/four-player/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Four Player (20×20))",
+    "heading": "Map Features",
+    "content": "- Corner deployment: Each player occupies a corner zone - Central arena: Open ground in the middle creates a contested no-man's-land - Large scale: 400 squares give room for complex alliances and betr",
+    "anchor": "map-features",
+    "variant": "four-player",
+    "variantUrl": "dist/dungeon-chess/variants/four-player/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Four Player (20×20))",
+    "heading": "Differences from Standard",
+    "content": "Four-player games introduce diplomacy and timing. Attacking early exposes your flank to the other two players. The winner is typically the player who engages last while their opponents weaken each oth",
+    "anchor": "differences-from-standard",
+    "variant": "four-player",
+    "variantUrl": "dist/dungeon-chess/variants/four-player/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Two Player (20×8))",
+    "heading": "Dungeon Chess (Two Player (20×8))",
+    "content": "The standard two-player Dungeon Chess map. A long 20×8 corridor forces linear engagements with limited flanking space. Deploy zones at each end of the board.",
+    "anchor": "dungeon-chess-two-player-208",
+    "variant": "two-player",
+    "variantUrl": "dist/dungeon-chess/variants/two-player/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Two Player (20×8))",
+    "heading": "Map Features",
+    "content": "- Narrow corridor: 8 ranks wide promotes head-on confrontations - Extended depth: 20 files gives significant manoeuvre distance - Deploy zones: At opposing short edges of the board",
+    "anchor": "map-features",
+    "variant": "two-player",
+    "variantUrl": "dist/dungeon-chess/variants/two-player/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Two Player (20×8))",
+    "heading": "Differences from Standard",
+    "content": "The elongated shape changes the game's character. Ranged units and those with long-distance movement gain significant value. Flanking is difficult due to the narrow width, so frontal breakthrough beco",
+    "anchor": "differences-from-standard",
+    "variant": "two-player",
+    "variantUrl": "dist/dungeon-chess/variants/two-player/"
+  },
+  {
     "game": "go",
     "gameTitle": "Go",
     "section": "13×13 Go",
@@ -6000,8 +6090,18 @@
     "gameTitle": "Hex",
     "section": "Hex (13×13)",
     "heading": "Hex (13×13)",
-    "content": "Larger variant offering deeper strategic possibilities. Popular in online play for players seeking more complexity than 11×11.",
+    "content": "A larger board for deeper strategic play. With 169 cells, multiple independent fronts can develop simultaneously, making defensive play more viable and rewarding long-term positional thinking.",
     "anchor": "hex-1313",
+    "variant": "13x13",
+    "variantUrl": "dist/hex/variants/13x13/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (13×13)",
+    "heading": "Differences from Standard",
+    "content": "Same rules as 11×11 Hex including swap rule. The additional space allows ladder fights to extend further before reaching an edge, and reduces the proportion of the board that edge templates can cover.",
+    "anchor": "differences-from-standard",
     "variant": "13x13",
     "variantUrl": "dist/hex/variants/13x13/"
   },
@@ -6010,8 +6110,18 @@
     "gameTitle": "Hex",
     "section": "Hex (14×14)",
     "heading": "Hex (14×14)",
-    "content": "Alternative large-board size used in some tournament settings. 196 cells.",
+    "content": "Alternative large-board format with 196 cells. Used in some international tournament settings as a compromise between the standard 11×11 and the marathon 19×19.",
     "anchor": "hex-1414",
+    "variant": "14x14",
+    "variantUrl": "dist/hex/variants/14x14/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (14×14)",
+    "heading": "Differences from Standard",
+    "content": "Same rules as 11×11 Hex including swap rule. The even-numbered board size means neither player has an exact centre cell available, which subtly affects opening theory. Similar strategic depth to 13×13",
+    "anchor": "differences-from-standard",
     "variant": "14x14",
     "variantUrl": "dist/hex/variants/14x14/"
   },
@@ -6020,8 +6130,18 @@
     "gameTitle": "Hex",
     "section": "Hex (19×19)",
     "heading": "Hex (19×19)",
-    "content": "Largest standard board size, matching Go's 19×19 intersection count. Games can be very long. Rarely played competitively but available for those seeking maximum depth.",
+    "content": "The largest standard board size with 361 cells matching Go's 19×19 intersection count. Games can run well over an hour and develop extraordinary complexity. Rarely used in competitive play due to time",
     "anchor": "hex-1919",
+    "variant": "19x19",
+    "variantUrl": "dist/hex/variants/19x19/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (19×19)",
+    "heading": "Differences from Standard",
+    "content": "Same rules as 11×11 Hex including swap rule. At this scale, local fights can be completely independent of each other for long stretches, and whole-board reading becomes impractical without deep experi",
+    "anchor": "differences-from-standard",
     "variant": "19x19",
     "variantUrl": "dist/hex/variants/19x19/"
   },
@@ -6030,8 +6150,18 @@
     "gameTitle": "Hex",
     "section": "Hex (9×9)",
     "heading": "Hex (9×9)",
-    "content": "Quick variant on a smaller board. Same rules as standard Hex. Reduced strategic depth but sharper tactical play.",
+    "content": "A smaller board for quicker games. With 81 cells, games are more tactical than strategic and typically finish in 10-20 minutes. Popular for teaching Hex fundamentals and for rapid-play formats.",
     "anchor": "hex-99",
+    "variant": "9x9",
+    "variantUrl": "dist/hex/variants/9x9/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (9×9)",
+    "heading": "Differences from Standard",
+    "content": "Same rules as 11×11 Hex. The reduced board size means that first-player advantage is more pronounced, making the swap rule especially important. Edge templates and ladders are shorter, so positional e",
+    "anchor": "differences-from-standard",
     "variant": "9x9",
     "variantUrl": "dist/hex/variants/9x9/"
   },
@@ -6040,8 +6170,38 @@
     "gameTitle": "Hex",
     "section": "Hex (11×11)",
     "heading": "Hex (11×11)",
-    "content": "Standard Hex on an 11×11 rhombus board. Two players alternate placing stones. First to connect their two opposite edges wins. Swap rule balances first-player advantage.",
+    "content": "The standard tournament size for Hex, used in all major competitions and online play. The 11×11 board provides 121 cells, offering enough depth for strategic play while keeping games to a manageable l",
     "anchor": "hex-1111",
+    "variant": "standard",
+    "variantUrl": "dist/hex/variants/standard/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (11×11)",
+    "heading": "Rules",
+    "content": "Two players Black and White alternate turns placing one stone of their colour on any empty hexagonal cell. Black connects the top-left and bottom-right edges; White connects the top-right and bottom-l",
+    "anchor": "rules",
+    "variant": "standard",
+    "variantUrl": "dist/hex/variants/standard/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (11×11)",
+    "heading": "Swap Rule",
+    "content": "To offset the proven first-player advantage, the swap rule also called the pie rule is standard. After Black's first move, White may choose to either play normally place a White stone or swap colours,",
+    "anchor": "swap-rule",
+    "variant": "standard",
+    "variantUrl": "dist/hex/variants/standard/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Hex (11×11)",
+    "heading": "Strategy Notes",
+    "content": "Centre cells are strongest. The acute corners where your two edges are closest are critical defensive positions. Ladder formations, bridges two stones one apart that cannot both be blocked, and edge t",
+    "anchor": "strategy-notes",
     "variant": "standard",
     "variantUrl": "dist/hex/variants/standard/"
   },
@@ -6110,8 +6270,28 @@
     "gameTitle": "Hex",
     "section": "Y (Large — 15)",
     "heading": "Y (Large)",
-    "content": "Y on a side-length 15 triangular board. Significantly more complex than standard size.",
+    "content": "Y on a side-length 15 triangular board. With significantly more cells than the standard size, games develop greater strategic depth and allow more complex multi-edge threats.",
     "anchor": "y-large",
+    "variant": "y-large",
+    "variantUrl": "dist/hex/variants/y-large/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y (Large — 15)",
+    "heading": "Rules",
+    "content": "Same as standard Y: two players alternate placing stones on empty cells of a triangular hex board. The first player to form a connected group touching all three edges wins. The swap rule applies.",
+    "anchor": "rules",
+    "variant": "y-large",
+    "variantUrl": "dist/hex/variants/y-large/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y (Large — 15)",
+    "heading": "Differences from Standard Y",
+    "content": "The larger board means single-edge contact is easy to achieve, but completing the three-edge connection requires sustained positional pressure. Defensive play is more viable at this scale. Games run c",
+    "anchor": "differences-from-standard-y",
     "variant": "y-large",
     "variantUrl": "dist/hex/variants/y-large/"
   },
@@ -6120,8 +6300,28 @@
     "gameTitle": "Hex",
     "section": "Y (Small — 9)",
     "heading": "Y (Small)",
-    "content": "Y on a side-length 9 triangular board. Quicker games while retaining the 3-edge connection goal.",
+    "content": "Compact Y variant for quicker games. The smaller triangular board makes three-edge connections achievable in fewer moves, putting more emphasis on tactical reading than long-range planning.",
     "anchor": "y-small",
+    "variant": "y-small",
+    "variantUrl": "dist/hex/variants/y-small/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y (Small — 9)",
+    "heading": "Rules",
+    "content": "Same as standard Y: two players alternate placing stones on empty cells of a triangular hex board. The first player to form a connected group touching all three edges wins. The swap rule applies.",
+    "anchor": "rules",
+    "variant": "y-small",
+    "variantUrl": "dist/hex/variants/y-small/"
+  },
+  {
+    "game": "hex",
+    "gameTitle": "Hex",
+    "section": "Y (Small — 9)",
+    "heading": "Differences from Standard Y",
+    "content": "With fewer cells, most moves are within reach of at least one edge, making early contact inevitable. Games are decided by which player can efficiently connect their scattered edge contacts through the",
+    "anchor": "differences-from-standard-y",
     "variant": "y-small",
     "variantUrl": "dist/hex/variants/y-small/"
   },

@@ -43,6 +43,8 @@ engine:
 
 ## Nyout (Yut Nori / 유놓이)
 
+{{svg:standard-board.svg "Nyout — circular track board with shortcut branches"}}
+
 Nyout (also called Yut Nori) is Korea’s most beloved traditional board game, played especially during the Lunar New Year (Seollal) and Korean New Year celebrations. The game uses four flat throwing sticks to generate random movement; the board is a circular track with branching shortcuts. Players race teams of tokens around the track, with the goal of getting all tokens safely home.
 
 ### Equipment
