@@ -139,6 +139,7 @@ a:hover { text-decoration: underline; }
   gap: 16px;
   flex-wrap: wrap;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .control-group {
@@ -179,6 +180,7 @@ a:hover { text-decoration: underline; }
   margin-top: 12px;
   font-size: 0.8125rem;
   color: var(--text-dim);
+  text-align: center;
 }
 
 /* Grid */
