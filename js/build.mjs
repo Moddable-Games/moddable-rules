@@ -1172,8 +1172,9 @@ function buildBoards() {
       if (svgSlugs.has(slug)) continue;
       const varTitle = gm.title || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
       const componentType = hubType === 'component' ? (rbMeta.component_type || 'cards') : 'unknown';
+      const deckType = rbMeta.engine?.components?.deck?.type || null;
 
-      index.push({
+      const entry = {
         family,
         familyTitle,
         variant: slug,
@@ -1183,7 +1184,9 @@ function buildBoards() {
         rulesUrl: `dist/${family}/games/${slug}/index.html`,
         status: 'missing',
         reason: 'component-game',
-      });
+      };
+      if (deckType) entry.deckType = deckType;
+      index.push(entry);
     }
   }
 
