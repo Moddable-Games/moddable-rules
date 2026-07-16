@@ -8,9 +8,10 @@ win: Checkmate
 special: "Chess on a sphere — a surface with no edges and no corners, where ranks and files meet at poles. The standard 8×8 board is played with two wrapping rules: ranks wrap horizontally (left-right, as in Cylindrical Chess), and files meet at polar singularities where a piece crossing the pole continues four files away. Multiple documented versions from 1950–2014; this file documents the family and the most widely agreed rules. Bishops are colourbound. Knights have 8 possible moves from any position."
 engine:
   topology:
-    type: spherical
+    type: grid
     rows: 8
     cols: 8
+    wrap: spherical
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
