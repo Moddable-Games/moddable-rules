@@ -9,7 +9,7 @@ special: "3-player chess on a hexagonal board divided into three Y-shaped sector
 engine:
   topology:
     type: hexagonal-trisection
-  players: [white, black]
+  players: 3
   render:
     cellSize: 24
   setup_status: "not yet encoded — needs the hexagonal-trisection renderer (rules#179). Prior flat 14x14 grid FEN removed 2026-07 as confirmed incorrect against the primary source diagram."
@@ -25,7 +25,7 @@ Yalta Chess is a 3-player chess variant played on a hexagonal board divided into
 
 The board is a **hexagon**, divided by three lines running from the centre to alternating corners into three equal Y-shaped (parallelogram/rhombus) sectors, one per player. Each sector contains a standard 8×8-equivalent chess playing area, checkered in the ordinary alternating pattern. Pieces move using standard FIDE movement within their sector; the central junction, where all three sectors meet, is the area where a piece moving from one sector toward another has a choice of path.
 
-This matches the board graphic on the primary source page (chessvariants.com/multiplayer.dir/yalta.html, graphic by Daniel Lindström) — a hexagon, not a circle or rings. The variant is **not** circular/annular in structure, unlike Byzantine Chess or Circular Chess.
+This matches the board graphic on the primary source page (chessvariants.com/multiplayer.dir/yalta.html, graphic by Daniel Lindström) — a hexagon, not a circle or rings. The variant is **not** circular/annular in structure, unlike Byzantine Chess or Circular Chess. It shares its fundamental hex-trisection shape with San-kwo-k'i (xiangqi hub) — see that file for a note on a possible shared renderer.
 
 ## Starting Position
 
