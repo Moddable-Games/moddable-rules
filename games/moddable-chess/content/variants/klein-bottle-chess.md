@@ -12,7 +12,7 @@ engine:
     rows: 14
     cols: 8
   players: [white, black]
-  setup_status: "not yet encoded — needs the klein-bottle renderer plus the 14-rank/doubled-pawn layout below transcribed to FEN-per-rank. Prior 8x8 single-seam description was incorrect (see body)."
+  setup: "PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---
@@ -48,6 +48,8 @@ Klein Bottle Chess is not a small twist on a normal 8×8 board — it is built f
     a   b   c   d   e   f   g   h
         White
 ```
+
+The `engine.setup` FEN in the frontmatter is identical to Möbius Strip Chess's — joining the a/h files does not change the starting position, only movement wrapping. It encodes the diagram above rank 14 down to rank 1: rank 14 pawns, ranks 13–10 empty, rank 9 pawns, rank 8 pieces, rank 7 pawns, ranks 6–3 empty, rank 2 pawns, rank 1 pieces.
 
 Each side has **16 pawns** (two ranks' worth) rather than 8: White's rank-2 pawns advance normally toward the centre, while White's rank-14 pawns (rank 14 = rank 0, adjacent to Black's rank-13/rank 1 side going the other way) advance backward around the strip toward the twisted seam. Black's rank-7 and rank-9 pawns are the mirror image. This gives 32 pawns total on the board, plus the two full sets of pieces (16), for 48 units total — a much larger game than standard chess.
 
