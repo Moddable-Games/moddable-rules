@@ -8,9 +8,10 @@ win: "Checkmate (snaffling permitted)"
 special: "Played on a circular board of 64 squares arranged in 4 concentric rings of 16 files. No castling, no en passant. Pawns promote after travelling 6 squares. Null moves (moving a piece all the way around a ring back to its start) are illegal."
 engine:
   topology:
-    type: cylinder
+    type: grid
     rows: 4
     cols: 16
+    wrap: cylinder
   players: [white, black]
 ---
 

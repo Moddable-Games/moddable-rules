@@ -13278,7 +13278,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Klein Bottle Chess",
     "heading": "Klein Bottle Chess",
-    "content": "Klein Bottle Chess is chess played on a Klein bottle — a non-orientable surface with no distinguishable inside or outside. Unlike a torus which has two normal seams, the Klein bottle has one normal se",
+    "content": "Klein Bottle Chess is chess played on a Klein bottle — a non-orientable surface that cannot be embedded in three-dimensional space without self-intersection. It is built in two steps from Cylindrical ",
     "anchor": "klein-bottle-chess",
     "variant": "klein-bottle-chess",
     "variantUrl": "dist/moddable-chess/variants/klein-bottle-chess/"
@@ -13287,9 +13287,9 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Klein Bottle Chess",
-    "heading": "The Topology",
-    "content": "Two wrapping rules apply: Horizontal wrap normal: The a-file and h-file connect. Moving off the right of the h-file reappears on the left of the a-file at the same rank — identical to Cylindrical Ches",
-    "anchor": "the-topology",
+    "heading": "Why 8×14, not 8×8",
+    "content": "Klein Bottle Chess is not a small twist on a normal 8×8 board — it is built from the taller Cylindrical 8×14 variant used as the base for this whole family Cylindrical, Möbius, Klein Bottle, Torus all",
+    "anchor": "why-814-not-88",
     "variant": "klein-bottle-chess",
     "variantUrl": "dist/moddable-chess/variants/klein-bottle-chess/"
   },
@@ -13297,9 +13297,9 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Klein Bottle Chess",
-    "heading": "Consequences for Pieces",
-    "content": "- Rooks and Queens can slide off rank 8 and continue from rank 1 on a mirrored file, effectively attacking diagonally across the seam - Bishops change colour when crossing the vertical seam because th",
-    "anchor": "consequences-for-pieces",
+    "heading": "The Board and Starting Position",
+    "content": "Black a b c d e f g h 14 P P P P -1 12 r b k n 8 6->5... 6 5 4 3 2 P P P P R B K N 1 <- White back rank a b c d e f g h White The engine.setup FEN in the frontmatter is identical to Möbius Strip Chess",
+    "anchor": "the-board-and-starting-position",
     "variant": "klein-bottle-chess",
     "variantUrl": "dist/moddable-chess/variants/klein-bottle-chess/"
   },
@@ -13307,9 +13307,19 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Klein Bottle Chess",
-    "heading": "Starting Position and Rules",
-    "content": "Standard FIDE starting position. All FIDE rules apply; piece movements wrap according to the rules above. Win: Checkmate the opponent's King.",
-    "anchor": "starting-position-and-rules",
+    "heading": "Consequences of the Topology",
+    "content": "Kings face Queens, not Kings. Because of the doubled board and the seam arrangement, along the \"long way round\" ranks 8 through 15/1, each King ends up facing the opponent's Queen rather than the oppo",
+    "anchor": "consequences-of-the-topology",
+    "variant": "klein-bottle-chess",
+    "variantUrl": "dist/moddable-chess/variants/klein-bottle-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Klein Bottle Chess",
+    "heading": "Rules",
+    "content": "All standard FIDE rules apply castling, en passant, promotion except where the topology changes movement, as described above. Win: Checkmate the opponent's King.",
+    "anchor": "rules",
     "variant": "klein-bottle-chess",
     "variantUrl": "dist/moddable-chess/variants/klein-bottle-chess/"
   },
@@ -13318,7 +13328,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Klein Bottle Chess",
     "heading": "Attribution",
-    "content": "Klein Bottle Chess is a documented chess variant applying non-orientable surface topology to FIDE chess. Source: chessvariants.com",
+    "content": "Klein Bottle Chess invented by Alberto Monteiro. Source: chessvariants.com/shape.dir/xklein.html mirrored at oocities.org/albmont/xklein.htm, which includes the fuller technical description used for t",
     "anchor": "attribution",
     "variant": "klein-bottle-chess",
     "variantUrl": "dist/moddable-chess/variants/klein-bottle-chess/"
@@ -14668,7 +14678,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Möbius Strip Chess",
     "heading": "Möbius Strip Chess",
-    "content": "Möbius Strip Chess is chess played on a Möbius strip — a surface with a single side and a single boundary edge, created by joining one pair of opposite edges with a half-twist.",
+    "content": "Möbius Strip Chess is chess played on a Möbius strip — a surface with a single side and a single boundary edge, created by joining one pair of opposite edges of a rectangle with a half-twist. It is bu",
     "anchor": "mbius-strip-chess",
     "variant": "mobius-strip-chess",
     "variantUrl": "dist/moddable-chess/variants/mobius-strip-chess/"
@@ -14677,9 +14687,9 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Möbius Strip Chess",
-    "heading": "The Topology",
-    "content": "Free edges: The a-file and h-file are genuine boundaries. Pieces cannot move beyond these files — there is no horizontal wrapping. These form the single boundary edge of the Möbius strip. Twisted seam",
-    "anchor": "the-topology",
+    "heading": "The Board and Starting Position",
+    "content": "Black a b c d e f g h 14 P P P P -1 12 r b k n 8 6->5... 6 5 4 3 2 P P P P R B K N 1 <- White back rank a b c d e f g h White The engine.setup FEN in the frontmatter encodes exactly this diagram, rank",
+    "anchor": "the-board-and-starting-position",
     "variant": "mobius-strip-chess",
     "variantUrl": "dist/moddable-chess/variants/mobius-strip-chess/"
   },
@@ -14687,9 +14697,9 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Möbius Strip Chess",
-    "heading": "Consequences for Pieces",
-    "content": "- Rooks: Can slide off rank 8 and continue from rank 1 on a mirrored file. A Rook that slides forward and crosses the seam is now moving towards its starting side - Bishops: Change colour when crossin",
-    "anchor": "consequences-for-pieces",
+    "heading": "Consequences of the Topology",
+    "content": "Kings face Queens. Along the long way around the board ranks 8 through 15/1, each King faces the opponent's Queen rather than the opponent's King — a direct consequence of the board's extra length and",
+    "anchor": "consequences-of-the-topology",
     "variant": "mobius-strip-chess",
     "variantUrl": "dist/moddable-chess/variants/mobius-strip-chess/"
   },
@@ -14697,9 +14707,29 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Möbius Strip Chess",
-    "heading": "Starting Position and Rules",
-    "content": "Standard FIDE starting position. All FIDE rules apply; movements respect the free edges and twisted rank seam. Win: Checkmate the opponent's King.",
-    "anchor": "starting-position-and-rules",
+    "heading": "Sample Opening",
+    "content": "The source page gives a short sample: 1. d12 e11 White plays a King's-side pawn on the far rank; Black's response, on the far rank, is directly in front of White's move once the seam wrapping is accou",
+    "anchor": "sample-opening",
+    "variant": "mobius-strip-chess",
+    "variantUrl": "dist/moddable-chess/variants/mobius-strip-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Möbius Strip Chess",
+    "heading": "Rules",
+    "content": "All standard FIDE rules apply castling, en passant, promotion except where the topology changes movement, as described above. Win: Checkmate the opponent's King.",
+    "anchor": "rules",
+    "variant": "mobius-strip-chess",
+    "variantUrl": "dist/moddable-chess/variants/mobius-strip-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Möbius Strip Chess",
+    "heading": "Relationship to Other Variants in This Family",
+    "content": "Möbius Strip Chess, Klein Bottle Chess, and Gadsden's Toroidal Chess Torus Chess share the same underlying 8×14 Cylindrical board: - No twist at the rank-11/12 seam → Torus Chess Gadsden's Toroidal Ch",
+    "anchor": "relationship-to-other-variants-in-this-family",
     "variant": "mobius-strip-chess",
     "variantUrl": "dist/moddable-chess/variants/mobius-strip-chess/"
   },
@@ -14708,7 +14738,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Möbius Strip Chess",
     "heading": "Attribution",
-    "content": "Möbius Strip Chess is a documented chess variant applying non-orientable surface topology to FIDE chess. Source: chessvariants.com",
+    "content": "Möbius Strip Chess invented by Alberto Monteiro. Source: chessvariants.com/shape.dir/xmoeb.html.",
     "anchor": "attribution",
     "variant": "mobius-strip-chess",
     "variantUrl": "dist/moddable-chess/variants/mobius-strip-chess/"
@@ -16327,6 +16357,16 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Rollerball",
+    "heading": "Starting Position",
+    "content": "Each side starts with 6 pieces occupying two ranks at their home zone, arranged point-symmetrically 180° rotation rather than mirrored — White's arrangement is Black's arrangement rotated, not reflect",
+    "anchor": "starting-position",
+    "variant": "rollerball",
+    "variantUrl": "dist/moddable-chess/variants/rollerball/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Rollerball",
     "heading": "Pieces",
     "content": "Each side has: 1 King, 1 Bishop, 2 Rooks, 2 Pawns 6 pieces total.",
     "anchor": "pieces",
@@ -16368,7 +16408,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Rollerball",
     "heading": "Pawn",
-    "content": "Moves and captures forward straight or diagonally. Promotes to Rook or Bishop upon reaching the starting square of the opponent’s Pawns.",
+    "content": "Moves and captures forward straight or diagonally. Promotes to Rook or Bishop upon reaching the starting square of the opponent's Pawns. Promotion to a Bishop on a dark square is not recommended per t",
     "anchor": "pawn",
     "variant": "rollerball",
     "variantUrl": "dist/moddable-chess/variants/rollerball/"
@@ -16378,7 +16418,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Rollerball",
     "heading": "Win Conditions",
-    "content": "There are two ways to win: 1. Checkmate the opponent’s King. 2. King reaches the opponent’s King starting square — but only if it arrived there by travelling clockwise. Draw: stalemate or three-fold r",
+    "content": "There are two ways to win: 1. Checkmate the opponent's King. 2. King reaches the opponent's King starting square — but only if it arrived there by travelling clockwise. Draw: stalemate or three-fold r",
     "anchor": "win-conditions",
     "variant": "rollerball",
     "variantUrl": "dist/moddable-chess/variants/rollerball/"
@@ -16388,7 +16428,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Rollerball",
     "heading": "Attribution",
-    "content": "Rollerball by Jean-Louis Cazaux, invented 1999, entered in the 40-squares contest. Rules documented at chessvariants.com/40.dir/rollerball/index.html.",
+    "content": "Rollerball by Jean-Louis Cazaux, invented 1999, entered in the 40-squares contest. Rules and starting-position diagram documented at chessvariants.com/40.dir/rollerball/index.html.",
     "anchor": "attribution",
     "variant": "rollerball",
     "variantUrl": "dist/moddable-chess/variants/rollerball/"
@@ -18287,8 +18327,18 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Toroidal Byzantine Chess",
+    "heading": "Starting Position",
+    "content": "The source states piece rules are \"the same as in Byzantine Chess,\" but the setup differs from plain Byzantine Chess. In ordinary Byzantine Chess, each army straddles the seam where file p meets file ",
+    "anchor": "starting-position",
+    "variant": "toroidal-byzantine",
+    "variantUrl": "dist/moddable-chess/variants/toroidal-byzantine/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Toroidal Byzantine Chess",
     "heading": "Byzantine Chess Foundation",
-    "content": "Byzantine Chess is a medieval circular chess variant played on a 4×16 ring board using Shatranj-era pieces: Shatranj Name --- Shah Fers Fil Rukh Faras Baidak In standard Byzantine Chess, pieces travel",
+    "content": "Piece movement follows Byzantine Chess Shatranj-era rules, per the source's direct link to that page: Shatranj Name --- Shah Fers Fil Rukh Faras Baidak In standard Byzantine Chess, pieces travel aroun",
     "anchor": "byzantine-chess-foundation",
     "variant": "toroidal-byzantine",
     "variantUrl": "dist/moddable-chess/variants/toroidal-byzantine/"
@@ -18308,7 +18358,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Toroidal Byzantine Chess",
     "heading": "Consequences for Pieces",
-    "content": "Rooks: can slide continuously inward/outward, wrapping from ring 4 to ring 1 and back. A Rook can reach any position on the same angular position. Bishops Elephants: the 2-step diagonal leap behaves n",
+    "content": "Rooks: the source confirms a Rook on the toroidal board can travel either the long 16-cell circle around a ring or the short 4-cell circle radially, in and out through the wrap — it \"feels itself quit",
     "anchor": "consequences-for-pieces",
     "variant": "toroidal-byzantine",
     "variantUrl": "dist/moddable-chess/variants/toroidal-byzantine/"
@@ -18318,7 +18368,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Toroidal Byzantine Chess",
     "heading": "Pawns",
-    "content": "Pawns move radially “toward the opponent” in standard Byzantine Chess. In the toroidal version, the radial wrap means Pawns traveling inward past ring 4 emerge from ring 1 — effectively completing a f",
+    "content": "Pawns Baidak move radially \"toward the opponent,\" one step at a time. In the toroidal version, the radial wrap means a Pawn advancing past ring 4 would emerge from ring 1 rather than being blocked — t",
     "anchor": "pawns",
     "variant": "toroidal-byzantine",
     "variantUrl": "dist/moddable-chess/variants/toroidal-byzantine/"
@@ -18338,7 +18388,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Toroidal Byzantine Chess",
     "heading": "Attribution",
-    "content": "Toroidal Byzantine Chess applies toroidal topology to the historical Byzantine Chess circular board. Rules derived from Byzantine Chess chessvariants.com/historic.dir/byzantine.html and toroidal topol",
+    "content": "Toroidal Byzantine Chess invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001. Source: chessvariants.org/shape.dir/toroidalbyzantinechess.html, including its overview text and interactive s",
     "anchor": "attribution",
     "variant": "toroidal-byzantine",
     "variantUrl": "dist/moddable-chess/variants/toroidal-byzantine/"
@@ -18358,7 +18408,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Gadsden's Toroidal Chess",
     "heading": "Equipment",
-    "content": "A standard 8×8 board plus an extra set of 16 pawns 32 pawns total, 16 per side.",
+    "content": "A standard 8×8 board plus an extra set of 16 pawns 32 pawns total, 16 per side. Note this is a genuinely larger army than standard chess — not a cosmetic difference from the frontmatter's board dimens",
     "anchor": "equipment",
     "variant": "toroidal-chess",
     "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
@@ -18368,7 +18418,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Gadsden's Toroidal Chess",
     "heading": "Starting Position",
-    "content": "Each side occupies three ranks at their end of the board: White --- Pawns a1–h1 R♕ Nb Bf Rd Ke Qf Bg Nh Ra Pawns a3–h3 White pieces on rank 2: Rook a2, Knight b2, Bishop c2, Queen d2, King e2, Bishop ",
+    "content": "Each side occupies three ranks at their end of the board: White --- Pawns a1–h1 Rook a2, Knight b2, Bishop c2, Queen d2, King e2, Bishop f2, Knight g2, Rook h2 Pawns a3–h3 The engine.setup FEN above e",
     "anchor": "starting-position",
     "variant": "toroidal-chess",
     "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
@@ -18408,7 +18458,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Gadsden's Toroidal Chess",
     "heading": "Attribution",
-    "content": "Gadsden's Toroidal Chess was invented around 1990 by Richard Gadsden and Phil Roberts. Source: chessvariants.com/other.dir/torus.html",
+    "content": "Gadsden's Toroidal Chess was invented around 1990 by Richard Gadsden and Phil Roberts. Source: chessvariants.com/other.dir/torus.html, including the inventor's own description and interactive setup di",
     "anchor": "attribution",
     "variant": "toroidal-chess",
     "variantUrl": "dist/moddable-chess/variants/toroidal-chess/"
@@ -19128,7 +19178,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Yalta Chess",
     "heading": "Overview",
-    "content": "Yalta Chess is a 3-player chess variant played on a circular board divided into three Y-shaped sectors. It was documented by Daniel Lindström from a small book purchased at a chess bookshop in Paris. ",
+    "content": "Yalta Chess is a 3-player chess variant played on a hexagonal board divided into three Y-shaped sectors. It was documented by Daniel Lindström from a small book purchased at a chess bookshop in Paris.",
     "anchor": "overview",
     "variant": "yalta-chess",
     "variantUrl": "dist/moddable-chess/variants/yalta-chess/"
@@ -19138,7 +19188,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Yalta Chess",
     "heading": "Board",
-    "content": "The board is circular and divided into three equal Y-shaped sectors radiating from a central junction, one sector per player. Each sector contains a standard chess playing area. Pieces move using stan",
+    "content": "The board is a hexagon, divided by three lines running from the centre to alternating corners into three equal Y-shaped parallelogram/rhombus sectors, one per player. Each sector contains a standard 8",
     "anchor": "board",
     "variant": "yalta-chess",
     "variantUrl": "dist/moddable-chess/variants/yalta-chess/"
@@ -19147,8 +19197,18 @@
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
     "section": "Yalta Chess",
+    "heading": "Players",
+    "content": "Three players, distinguished by colour: Red, Green, and Blue per the primary source's starting-position diagram, credited to David Howe.",
+    "anchor": "players",
+    "variant": "yalta-chess",
+    "variantUrl": "dist/moddable-chess/variants/yalta-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Yalta Chess",
     "heading": "Starting Position",
-    "content": "Each player sets up a complete standard FIDE army in their own sector. The Queen is placed to the LEFT of the King not to the right as in standard chess to preserve symmetry across the three sectors' ",
+    "content": "Each player sets up a complete standard FIDE army 8 pieces + 8 pawns in their own sector, back rank at the outer hexagon edge. Confirmed against the source diagram, the back-rank order reading across ",
     "anchor": "starting-position",
     "variant": "yalta-chess",
     "variantUrl": "dist/moddable-chess/variants/yalta-chess/"
@@ -19178,7 +19238,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Yalta Chess",
     "heading": "Attribution",
-    "content": "Yalta Chess documented by Daniel Lindström; WWW page by David Howe, created May 12, 1997. Rules documented from chessvariants.com/multiplayer.dir/yalta.html.",
+    "content": "Yalta Chess documented by Daniel Lindström; WWW page by David Howe, created May 12, 1997. Rules and board graphic documented from chessvariants.com/multiplayer.dir/yalta.html. Board shape hexagonal Y-",
     "anchor": "attribution",
     "variant": "yalta-chess",
     "variantUrl": "dist/moddable-chess/variants/yalta-chess/"
@@ -23157,6 +23217,16 @@
     "game": "xiangqi",
     "gameTitle": "Xiangqi",
     "section": "San-kwo-k'i",
+    "heading": "Starting Position",
+    "content": "Confirmed against two independent diagram sources: the original 1876/1913 illustration Murray, A History of Chess, p. 133, reproducing von Möllendorff's diagram and a clearer modern redraw by Hans Bod",
+    "anchor": "starting-position",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
     "heading": "Special Piece: Banner / Fire / Wind",
     "content": "The special piece makes an extended knight's move: two steps vertically or horizontally, then one step diagonally outward. This is a leaping move — the piece jumps directly to its destination and cann",
     "anchor": "special-piece-banner-fire-wind",
@@ -23178,7 +23248,7 @@
     "gameTitle": "Xiangqi",
     "section": "San-kwo-k'i",
     "heading": "Historical Note",
-    "content": "The game is reported to be \"very complicated and difficult, but is not considered as interesting as the ordinary chess\" Murray, citing von Möllendorff. The exact board layout and all movement rules ar",
+    "content": "The game is reported to be \"very complicated and difficult, but is not considered as interesting as the ordinary chess\" Murray, citing von Möllendorff. The back-row/cannon/pawn arrangement above is no",
     "anchor": "historical-note",
     "variant": "san-kwo-ki",
     "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
@@ -23188,7 +23258,7 @@
     "gameTitle": "Xiangqi",
     "section": "San-kwo-k'i",
     "heading": "Attribution",
-    "content": "Rules documented from chessvariants.com/xiangqivariants.dir/chin3pl.html, citing H.J.R. Murray, A History of Chess 1913, pp. 133–134, and O. von Möllendorff, \"Das Schachspiel der Chinesen\" 1876.",
+    "content": "Rules documented from chessvariants.com/xiangqivariants.dir/chin3pl.html, citing H.J.R. Murray, A History of Chess 1913, pp. 133–134, and O. von Möllendorff, \"Das Schachspiel der Chinesen\" 1876. Start",
     "anchor": "attribution",
     "variant": "san-kwo-ki",
     "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"

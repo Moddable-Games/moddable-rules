@@ -8,10 +8,12 @@ win: "Checkmate"
 special: "The board is treated as a cylinder: file a connects directly to file h. Pieces can move and attack across the edge. Bishops and queens are significantly stronger than in standard chess."
 engine:
   topology:
-    type: cylinder
+    type: grid
     rows: 8
     cols: 8
+    wrap: cylinder
   players: [white, black]
+  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
 ---
 
 # Cylindrical Chess

@@ -8,9 +8,10 @@ win: Checkmate
 special: "Chess played on a circular board with four concentric rings of squares (64 squares total, the same count as a standard chessboard). Standard chess setup and rules. Four variants are defined, three of which extend certain pieces to follow the circular rings in a continuous slide: Traditional (standard chess), Roving Rook, Wild Queen, and combined Rook+Queen. Copyrighted 1972 by Saxon Agencies Ltd., Vancouver, B.C., Canada."
 engine:
   topology:
-    type: circular
-    rings: 4
-    positions_per_ring: 16
+    type: grid
+    rows: 4
+    cols: 16
+    wrap: cylinder
   players: [white, black]
   notation: ring-position
 published: true
@@ -26,7 +27,7 @@ Chess in the Round is a commercial chess variant played on a circular board with
 
 A circular board divided into four concentric rings. Each ring contains 16 squares, arranged like the 64 squares of a standard chessboard mapped onto a circular pattern. The board uses soft yellow and brown colouring. The corner-equivalent squares (where the rings meet at diagonal extremes) are designated by triangular shapes.
 
-In standard orthogonal/diagonal movement: the board is **functionally identical** to a standard 8×8 chess board. The circular shape is primarily visual.
+In standard orthogonal/diagonal movement: the board is **functionally identical** to a standard 8×8 chess board — mechanically a 4×16 grid that wraps horizontally (cylinder topology), same underlying structure as Circular Chess and Byzantine Chess. The circular shape is a rendering choice, not a distinct board structure.
 
 ### Starting Position
 
