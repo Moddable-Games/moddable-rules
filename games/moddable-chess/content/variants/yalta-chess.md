@@ -1,35 +1,37 @@
 ---
 title: Yalta Chess
 slug: yalta-chess
-board: Circular Y-trisection
+board: Hexagonal Y-trisection
 players: 3
 parent: moddable-chess
 win: Be the last player with a King remaining
-special: "3-player chess on a circular board divided into Y-shaped sectors. Checkmating a player captures their army. Alliances encouraged."
+special: "3-player chess on a hexagonal board divided into three Y-shaped sectors, one per player, meeting at a central junction. Checkmating a player captures their army. Alliances encouraged."
 engine:
   topology:
-    type: grid
-    rows: 14
-    cols: 14
+    type: hexagonal-trisection
   players: [white, black]
   render:
     cellSize: 24
-  setup: "14/14/14/3rnbqkbnr3/3pppppppp3/14/14/14/14/3PPPPPPPP3/3RNBQKBNR3/14/14/14"
+  setup_status: "not yet encoded — needs the hexagonal-trisection renderer (rules#179). Prior flat 14x14 grid FEN removed 2026-07 as confirmed incorrect against the primary source diagram."
 ---
 
 ## Overview
 
 {{svg:yalta-chess-board.svg "Yalta Chess — starting position"}}
 
-Yalta Chess is a 3-player chess variant played on a circular board divided into three Y-shaped sectors. It was documented by Daniel Lindström from a small book purchased at a chess bookshop in Paris. Lindström describes it as "more about group dynamics, preferably together with a couple of beers, than as a serious competition."
+Yalta Chess is a 3-player chess variant played on a hexagonal board divided into three Y-shaped sectors. It was documented by Daniel Lindström from a small book purchased at a chess bookshop in Paris. Lindström describes it as "more about group dynamics, preferably together with a couple of beers, than as a serious competition."
 
 ## Board
 
-The board is circular and divided into three equal Y-shaped sectors radiating from a central junction, one sector per player. Each sector contains a standard chess playing area. Pieces move using standard FIDE movement within their sector; the central Y-junction is the area where a piece moving from one sector toward another has a choice of path.
+The board is a **hexagon**, divided by three lines running from the centre to alternating corners into three equal Y-shaped (parallelogram/rhombus) sectors, one per player. Each sector contains a standard 8×8-equivalent chess playing area, checkered in the ordinary alternating pattern. Pieces move using standard FIDE movement within their sector; the central junction, where all three sectors meet, is the area where a piece moving from one sector toward another has a choice of path.
+
+This matches the board graphic on the primary source page (chessvariants.com/multiplayer.dir/yalta.html, graphic by Daniel Lindström) — a hexagon, not a circle or rings. The variant is **not** circular/annular in structure, unlike Byzantine Chess or Circular Chess.
 
 ## Starting Position
 
 Each player sets up a complete standard FIDE army in their own sector. **The Queen is placed to the LEFT of the King** (not to the right as in standard chess) to preserve symmetry across the three sectors' orientations.
+
+Exact per-square coordinates for the hexagonal-trisection layout are not yet transcribed into this file — the primary source page includes a separate "Starting position" graphic (credited to David Howe) that has not yet been read pixel-by-pixel. A secondary, independently-built implementation exists at yalta-chess.com (documented at smlep.github.io/jekyll/update/2020/12/26/yaltachess.html) using a 96-square-total board (32 per player) with its own coordinate system, but that page explicitly notes its rules "differed depending on the articles" it drew from — treat it as a cross-reference for board shape only, not as an authoritative source for exact starting squares or total square count, which may differ from the original Lindström book.
 
 ## Rules
 
@@ -53,4 +55,4 @@ The last player with a King on the board wins.
 
 ## Attribution
 
-Yalta Chess documented by Daniel Lindström; WWW page by David Howe, created May 12, 1997. Rules documented from chessvariants.com/multiplayer.dir/yalta.html.
+Yalta Chess documented by Daniel Lindström; WWW page by David Howe, created May 12, 1997. Rules and board graphic documented from chessvariants.com/multiplayer.dir/yalta.html. Board shape (hexagonal Y-trisection, not circular) confirmed against the primary source graphic, 2026-07.
