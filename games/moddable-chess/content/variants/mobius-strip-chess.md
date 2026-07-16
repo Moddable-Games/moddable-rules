@@ -12,7 +12,7 @@ engine:
     rows: 14
     cols: 8
   players: [white, black]
-  setup_status: "not yet encoded — needs the mobius-strip renderer plus the 14-rank/doubled-pawn layout below transcribed to FEN-per-rank. Prior 8x8 single-seam description was incorrect (see body)."
+  setup: "PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
 published: true
 ---
@@ -44,6 +44,8 @@ Möbius Strip Chess is chess played on a **Möbius strip** — a surface with a 
     a   b   c   d   e   f   g   h
         White
 ```
+
+The `engine.setup` FEN in the frontmatter encodes exactly this diagram, rank 14 down to rank 1: rank 14 pawns, ranks 13–10 empty, rank 9 pawns, rank 8 pieces, rank 7 pawns, ranks 6–3 empty, rank 2 pawns, rank 1 pieces.
 
 **Files a and h wrap normally** (as in ordinary Cylindrical Chess): a piece sliding off the h-file reappears on the a-file at the same rank.
 
