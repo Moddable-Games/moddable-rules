@@ -5,14 +5,14 @@ board: "8×8 torus"
 players: "2"
 parent: moddable-chess
 win: Checkmate
-special: "Chess on a torus — all four edges wrap. Moving off the right edge (h-file) reappears on the left (a-file); moving off rank 8 reappears on rank 1. Every square has exactly 8 neighbours; there are no edge squares and no corner squares. Uses a three-rank starting position per side with an extra set of pawns. Invented around 1990 by Richard Gadsden and Phil Roberts as a variant of Cylindrical Chess."
+special: "Chess on a torus — all four edges wrap. Moving off the right edge (h-file) reappears on the left (a-file); moving off rank 8 reappears on rank 1. Every square has exactly 8 neighbours; there are no edge squares and no corner squares. Uses a three-rank starting position per side with an extra set of pawns (32 pawns total). Invented around 1990 by Richard Gadsden and Phil Roberts as a variant of Cylindrical Chess."
 engine:
   topology:
     type: torus
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup_status: "engine.setup previously contained plain standard-chess FEN (8 pieces + 8 pawns per side), which directly contradicted this file's own body text (3 ranks per side, 16 pawns per side, 32 pawns total). Removed 2026-07 rather than leave a wrong value in place. Needs a FEN-per-rank array (see Starting Position table below for the source data) once the torus renderer supports the doubled-pawn layout."
   notation: algebraic
 published: true
 ---
@@ -25,7 +25,7 @@ The topology is equivalent to wrapping an 8×8 chessboard around itself in both 
 
 ### Equipment
 
-A standard 8×8 board plus an extra set of 16 pawns (32 pawns total, 16 per side).
+A standard 8×8 board plus an extra set of 16 pawns (32 pawns total, 16 per side). Note this is a genuinely larger army than standard chess — not a cosmetic difference from the frontmatter's board dimensions.
 
 ### Starting Position
 
@@ -34,10 +34,8 @@ Each side occupies three ranks at their end of the board:
 | Rank | White | Black |
 |---|---|---|
 | 1 / 8 | Pawns (a1–h1) | Pawns (a8–h8) |
-| 2 / 7 | R♕ Nb Bf Rd Ke Qf Bg Nh Ra | Ra Nb Bc Rd Ke Qf Bg Nh Ra |
+| 2 / 7 | Rook a2, Knight b2, Bishop c2, Queen d2, King e2, Bishop f2, Knight g2, Rook h2 | Rook a7, Knight b7, Bishop c7, Queen d7, King e7, Bishop f7, Knight g7, Rook h7 |
 | 3 / 6 | Pawns (a3–h3) | Pawns (a6–h6) |
-
-White pieces on rank 2: Rook a2, Knight b2, Bishop c2, Queen d2, King e2, Bishop f2, Knight g2, Rook h2.
 
 ### Pawn Rules
 
