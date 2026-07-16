@@ -5,7 +5,7 @@ board: "4-ring torus (4×16 circular board with radial wrap)"
 players: "2"
 parent: moddable-chess
 win: Checkmate
-special: "Byzantine Chess (historical Shatranj on a 4×16 circular board) combined with toroidal topology: the innermost ring connects to the outermost ring radially, in addition to the standard circular wrap along each ring. A piece sliding inward past ring 4 emerges from ring 1; a piece sliding outward past ring 1 emerges from ring 4. Combines the historical Byzantine board with a fully toroidal surface."
+special: "Byzantine Chess (historical Shatranj on a 4×16 circular board) combined with toroidal topology: the innermost ring connects to the outermost ring radially, in addition to the standard circular wrap along each ring. A piece sliding inward past ring 4 emerges from ring 1; a piece sliding outward past ring 1 emerges from ring 4. Invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001."
 engine:
   topology:
     type: torus
@@ -13,7 +13,7 @@ engine:
     rings: 4
     positions_per_ring: 16
   players: [white, black]
-  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup_status: "not yet verified against primary source — prior flat 8x8 FEN removed 2026-07 as it did not represent the ring/torus structure. Needs the Khalfine/Saperow source page re-fetched for exact starting arrangement."
   notation: ring-position
 published: true
 ---
@@ -21,6 +21,8 @@ published: true
 ## Toroidal Byzantine Chess
 
 Toroidal Byzantine Chess combines the historical **Byzantine Chess** board (four concentric rings of 16 squares each, 64 squares total) with **toroidal topology**: the innermost ring connects to the outermost ring radially. This creates a fully closed surface with no edges — a donut-shaped (torus) board in ring form.
+
+Invented by Anatoly Khalfine and Ernst Saperow, documented circa 1999–2001. The source frames it explicitly as a mathematical exploration ("this variant belongs better to the scope of mathematics rather than sport or game") rather than a historically-attested Byzantine-era game — it is a modern construction applying toroidal geometry to the historical Byzantine board, not itself a historical variant.
 
 ### Byzantine Chess Foundation
 
@@ -57,7 +59,7 @@ This means there are truly no edges on the board — every ring is adjacent to t
 
 ### Pawns
 
-Pawns move radially “toward the opponent” in standard Byzantine Chess. In the toroidal version, the radial wrap means Pawns traveling inward past ring 4 emerge from ring 1 — effectively completing a full radial circuit rather than being blocked at the inner boundary.
+Pawns move radially "toward the opponent" in standard Byzantine Chess. In the toroidal version, the radial wrap means Pawns traveling inward past ring 4 emerge from ring 1 — effectively completing a full radial circuit rather than being blocked at the inner boundary.
 
 ### Win Condition
 
@@ -65,4 +67,4 @@ Checkmate the opponent's Shah (King). Shatranj rules may also apply: stalemate =
 
 ### Attribution
 
-Toroidal Byzantine Chess applies toroidal topology to the historical Byzantine Chess circular board. Rules derived from Byzantine Chess (chessvariants.com/historic.dir/byzantine.html) and toroidal topology principles.
+Toroidal Byzantine Chess invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001. Source: chessvariants.org/shape.dir/toroidalbyzantinechess.html. Byzantine Chess foundation: chessvariants.com/historic.dir/byzantine.html. Note: the setup and full rule text from the primary Khalfine/Saperow page still need to be re-fetched and verified in full — this attribution update resolves the sourcing gap but not yet the setup-position gap (see `engine.setup_status` above).
