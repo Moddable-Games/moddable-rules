@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from 'fs';
 import { resolve, basename } from 'path';
 import matter from 'gray-matter';
 import markdownIt from 'markdown-it';
@@ -9,6 +9,54 @@ const SHARED_DIR = resolve(ROOT, 'shared');
 const DIST_DIR = resolve(ROOT, 'dist');
 const THEMES_DIR = resolve(SHARED_DIR, 'themes');
 
+// --- Incremental build helpers ---
+function getNewestMtime(dir) {
+  if (!existsSync(dir)) return 0;
+  let newest = 0;
+  const walk = (d) => {
+    for (const entry of readdirSync(d, { withFileTypes: true })) {
+      const full = resolve(d, entry.name);
+      if (entry.isDirectory()) {
+        walk(full);
+      } else {
+        const mt = statSync(full).mtimeMs;
+        if (mt > newest) newest = mt;
+      }
+    }
+  };
+  walk(dir);
+  return newest;
+}
+
+function getGameSourceMtime(slug) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  let newest = 0;
+  const dirs = ['content', 'diagrams'];
+  for (const sub of dirs) {
+    const mt = getNewestMtime(resolve(gameDir, sub));
+    if (mt > newest) newest = mt;
+  }
+  const rbPath = resolve(gameDir, 'content/rulebook.md');
+  if (existsSync(rbPath)) {
+    const mt = statSync(rbPath).mtimeMs;
+    if (mt > newest) newest = mt;
+  }
+  return newest;
+}
+
+function getGameDistMtime(slug) {
+  return getNewestMtime(resolve(DIST_DIR, slug));
+}
+
+function getChangedSlugs(allSlugs) {
+  const sharedMtime = getNewestMtime(SHARED_DIR);
+  return allSlugs.filter(slug => {
+    const srcMtime = Math.max(getGameSourceMtime(slug), sharedMtime);
+    const distMtime = getGameDistMtime(slug);
+    return srcMtime > distMtime;
+  });
+}
+
 // --- Parse CLI arguments ---
 const args = process.argv.slice(2);
 let gameSlugs = [];
@@ -16,6 +64,16 @@ let gameSlugs = [];
 const gameIdx = args.indexOf('--game');
 if (gameIdx !== -1 && args[gameIdx + 1]) {
   gameSlugs = [args[gameIdx + 1]];
+} else if (args.includes('--changed')) {
+  const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .filter(slug => existsSync(resolve(GAMES_DIR, slug, 'content/rulebook.md')));
+  gameSlugs = getChangedSlugs(allSlugs);
+  if (gameSlugs.length === 0) {
+    console.log('No changes detected — nothing to build.');
+    process.exit(0);
+  }
 } else if (args.includes('--all') || args.length === 0) {
   // Discover all games that have content/rulebook.md
   gameSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
@@ -23,7 +81,7 @@ if (gameIdx !== -1 && args[gameIdx + 1]) {
     .map(d => d.name)
     .filter(slug => existsSync(resolve(GAMES_DIR, slug, 'content/rulebook.md')));
 } else {
-  console.error('Usage: node js/build.mjs [--all | --game <slug>]');
+  console.error('Usage: node js/build.mjs [--all | --game <slug> | --changed]');
   process.exit(1);
 }
 
