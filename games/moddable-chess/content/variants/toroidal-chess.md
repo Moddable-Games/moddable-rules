@@ -12,7 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup_status: "engine.setup previously contained plain standard-chess FEN (8 pieces + 8 pawns per side), which directly contradicted this file's own body text (3 ranks per side, 16 pawns per side, 32 pawns total). Removed 2026-07 rather than leave a wrong value in place. Needs a FEN-per-rank array (see Starting Position table below for the source data) once the torus renderer supports the doubled-pawn layout."
+  setup: "pppppppp/rnbqkbnr/pppppppp/8/8/PPPPPPPP/RNBQKBNR/PPPPPPPP"
   notation: algebraic
 published: true
 ---
@@ -36,6 +36,8 @@ Each side occupies three ranks at their end of the board:
 | 1 / 8 | Pawns (a1–h1) | Pawns (a8–h8) |
 | 2 / 7 | Rook a2, Knight b2, Bishop c2, Queen d2, King e2, Bishop f2, Knight g2, Rook h2 | Rook a7, Knight b7, Bishop c7, Queen d7, King e7, Bishop f7, Knight g7, Rook h7 |
 | 3 / 6 | Pawns (a3–h3) | Pawns (a6–h6) |
+
+The `engine.setup` FEN above encodes this rank-by-rank: rank 8 pawns, rank 7 pieces, rank 6 pawns, ranks 5–4 empty, rank 3 pawns, rank 2 pieces, rank 1 pawns.
 
 ### Pawn Rules
 
