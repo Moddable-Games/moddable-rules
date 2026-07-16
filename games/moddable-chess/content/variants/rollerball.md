@@ -8,12 +8,14 @@ win: Checkmate the King, OR King clockwise-reaches opponent's King starting squa
 special: "Chess variant on a 40-square ring board (7×7 grid with 3×3 centre removed). Two concentric rings: outer (24 squares) and inner (16 squares). Each side has only 6 pieces: King, Bishop, 2 Rooks, 2 Pawns. Pieces move clockwise-dominant (most cannot slide backward). Jean-Louis Cazaux, 1999, 40-squares contest."
 engine:
   topology:
-    type: ring
-    outer_squares: 24
-    inner_squares: 16
-    total_squares: 40
+    type: grid
+    rows: 7
+    cols: 7
   players: [white, black]
   notation: algebraic
+  render:
+    zones:
+      voids: [[2,2],[2,3],[2,4],[3,2],[3,3],[3,4],[4,2],[4,3],[4,4]]
   setup: "2rbp2/2rkp2/7/7/7/2PKR2/2PBR2"
 published: true
 ---
