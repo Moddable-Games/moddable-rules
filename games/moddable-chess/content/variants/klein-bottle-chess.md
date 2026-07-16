@@ -8,9 +8,10 @@ win: Checkmate
 special: "Chess on a Klein bottle: an 8x14 board (double-height Cylindrical Chess) where files a and h are joined (as in Cylindrical Chess), AND the rank-11/12 seam is joined with a half-twist that mirrors file position. Each side has 16 pawns across two ranks. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound but can reach only 3/8 of the board in one move. Invented by Alberto Monteiro."
 engine:
   topology:
-    type: klein-bottle
+    type: grid
     rows: 14
     cols: 8
+    wrap: klein-bottle
   players: [white, black]
   setup: "PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
