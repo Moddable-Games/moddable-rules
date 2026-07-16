@@ -3,7 +3,8 @@ title: "San-kwo-k'i"
 slug: san-kwo-ki
 board: Hexagonal trisection
 players: 3
-parent: moddable-chess
+parent: xiangqi
+order: 9
 win: Last General surviving wins
 special: "Three Kingdoms 3-player Xiangqi on a hexagonal trisected board. Eliminating a General captures that player's entire army."
 engine:

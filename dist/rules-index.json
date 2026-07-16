@@ -2656,6 +2656,14 @@
     "anchor": "hidden-information-variants"
   },
   {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "Variant Library",
+    "heading": "Multiplayer Variants",
+    "content": "- San-kwo-k'ivariants/san-kwo-ki/ — Three Kingdoms 3-player Xiangqi on a hexagonal trisected board; eliminating a General captures that player's entire army",
+    "anchor": "multiplayer-variants"
+  },
+  {
     "game": "asalto",
     "gameTitle": "Asalto",
     "section": "Royal Garrison",
@@ -16528,76 +16536,6 @@
   {
     "game": "moddable-chess",
     "gameTitle": "Moddable Chess",
-    "section": "San-kwo-k'i",
-    "heading": "Overview",
-    "content": "San-kwo-k'i 三國棋, \"Game of the Three Kingdoms\" is a historical Chinese three-player chess variant representing the Three Kingdoms war 220–280 CE among Wei, Shu, and Wu. It is documented in H.J.R. Murra",
-    "anchor": "overview",
-    "variant": "san-kwo-ki",
-    "variantUrl": "dist/moddable-chess/variants/san-kwo-ki/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "San-kwo-k'i",
-    "heading": "Board",
-    "content": "The board is a large hexagonal space divided into three equal sections, one per kingdom. Each section contains a Xiangqi-like grid with a 3×3 palace at its centre. The three sections meet at a central",
-    "anchor": "board",
-    "variant": "san-kwo-ki",
-    "variantUrl": "dist/moddable-chess/variants/san-kwo-ki/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "San-kwo-k'i",
-    "heading": "Players and Armies",
-    "content": "Three players represent three kingdoms: - Wei 魏 — Blue - Shu 蜀 — Red - Wu 吳 — Green Each player commands the standard 16 Xiangqi pieces: General1, Guard2, Elephant2, Horse2, Chariot2, Cannon2, Soldier",
-    "anchor": "players-and-armies",
-    "variant": "san-kwo-ki",
-    "variantUrl": "dist/moddable-chess/variants/san-kwo-ki/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "San-kwo-k'i",
-    "heading": "Special Piece: Banner / Fire / Wind",
-    "content": "The special piece makes an extended knight's move: two steps vertically or horizontally, then one step diagonally outward. This is a leaping move — the piece jumps directly to its destination and cann",
-    "anchor": "special-piece-banner-fire-wind",
-    "variant": "san-kwo-ki",
-    "variantUrl": "dist/moddable-chess/variants/san-kwo-ki/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "San-kwo-k'i",
-    "heading": "Rules",
-    "content": "Standard Xiangqi rules apply, with the following adaptations for three players: Turn order: Players take turns in a fixed sequence — Wei, Shu, Wu, Wei… — clockwise around the board. Elimination: When ",
-    "anchor": "rules",
-    "variant": "san-kwo-ki",
-    "variantUrl": "dist/moddable-chess/variants/san-kwo-ki/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "San-kwo-k'i",
-    "heading": "Historical Note",
-    "content": "The game is reported to be \"very complicated and difficult, but is not considered as interesting as the ordinary chess\" Murray, citing von Möllendorff. The exact board layout and all movement rules ar",
-    "anchor": "historical-note",
-    "variant": "san-kwo-ki",
-    "variantUrl": "dist/moddable-chess/variants/san-kwo-ki/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "San-kwo-k'i",
-    "heading": "Attribution",
-    "content": "Rules documented from chessvariants.com/xiangqivariants.dir/chin3pl.html, citing H.J.R. Murray, A History of Chess 1913, pp. 133–134, and O. von Möllendorff, \"Das Schachspiel der Chinesen\" 1876.",
-    "anchor": "attribution",
-    "variant": "san-kwo-ki",
-    "variantUrl": "dist/moddable-chess/variants/san-kwo-ki/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
     "section": "Senterej",
     "heading": "Overview",
     "content": "Senterej is the traditional chess of Ethiopia and Eritrea, descended directly from Shatranj. Its most distinctive feature is the werera mobilization phase: before the first capture, both players move ",
@@ -23184,6 +23122,76 @@
     "anchor": "attribution",
     "variant": "quang-trung",
     "variantUrl": "dist/xiangqi/variants/quang-trung/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
+    "heading": "Overview",
+    "content": "San-kwo-k'i 三國棋, \"Game of the Three Kingdoms\" is a historical Chinese three-player chess variant representing the Three Kingdoms war 220–280 CE among Wei, Shu, and Wu. It is documented in H.J.R. Murra",
+    "anchor": "overview",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
+    "heading": "Board",
+    "content": "The board is a large hexagonal space divided into three equal sections, one per kingdom. Each section contains a Xiangqi-like grid with a 3×3 palace at its centre. The three sections meet at a central",
+    "anchor": "board",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
+    "heading": "Players and Armies",
+    "content": "Three players represent three kingdoms: - Wei 魏 — Blue - Shu 蜀 — Red - Wu 吳 — Green Each player commands the standard 16 Xiangqi pieces: General1, Guard2, Elephant2, Horse2, Chariot2, Cannon2, Soldier",
+    "anchor": "players-and-armies",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
+    "heading": "Special Piece: Banner / Fire / Wind",
+    "content": "The special piece makes an extended knight's move: two steps vertically or horizontally, then one step diagonally outward. This is a leaping move — the piece jumps directly to its destination and cann",
+    "anchor": "special-piece-banner-fire-wind",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
+    "heading": "Rules",
+    "content": "Standard Xiangqi rules apply, with the following adaptations for three players: Turn order: Players take turns in a fixed sequence — Wei, Shu, Wu, Wei… — clockwise around the board. Elimination: When ",
+    "anchor": "rules",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
+    "heading": "Historical Note",
+    "content": "The game is reported to be \"very complicated and difficult, but is not considered as interesting as the ordinary chess\" Murray, citing von Möllendorff. The exact board layout and all movement rules ar",
+    "anchor": "historical-note",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
+  },
+  {
+    "game": "xiangqi",
+    "gameTitle": "Xiangqi",
+    "section": "San-kwo-k'i",
+    "heading": "Attribution",
+    "content": "Rules documented from chessvariants.com/xiangqivariants.dir/chin3pl.html, citing H.J.R. Murray, A History of Chess 1913, pp. 133–134, and O. von Möllendorff, \"Das Schachspiel der Chinesen\" 1876.",
+    "anchor": "attribution",
+    "variant": "san-kwo-ki",
+    "variantUrl": "dist/xiangqi/variants/san-kwo-ki/"
   },
   {
     "game": "xiangqi",

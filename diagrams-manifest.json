@@ -2145,17 +2145,6 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
-    "variant": "san-kwo-ki",
-    "variantTitle": "San-kwo-k'i",
-    "topology": "grid",
-    "svg": "games/moddable-chess/diagrams/svg/san-kwo-ki-board.svg",
-    "rulesUrl": "dist/moddable-chess/variants/san-kwo-ki/index.html",
-    "status": "rendered",
-    "players": 3
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
     "variant": "senterej",
     "variantTitle": "Senterej",
     "topology": "grid",
@@ -3127,6 +3116,17 @@
     "rulesUrl": "dist/xiangqi/variants/quang-trung/index.html",
     "status": "rendered",
     "players": 2
+  },
+  {
+    "family": "xiangqi",
+    "familyTitle": "Xiangqi",
+    "variant": "san-kwo-ki",
+    "variantTitle": "San-kwo-k'i",
+    "topology": "grid",
+    "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",
+    "rulesUrl": "dist/xiangqi/variants/san-kwo-ki/index.html",
+    "status": "rendered",
+    "players": 3
   },
   {
     "family": "xiangqi",

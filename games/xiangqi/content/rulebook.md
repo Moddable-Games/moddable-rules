@@ -1,6 +1,6 @@
 ---
 title: "Xiangqi — Official Rulebook"
-version: "1.2.0"
+version: "1.2.1"
 slug: "xiangqi"
 players: "2"
 duration: "15–45 min"
@@ -8,7 +8,7 @@ age: "8+"
 tagline: "Ancient Chinese chess: cannon fire, palace tactics, and the river divide"
 type: "classic"
 status: "live"
-updated: "2026-07-08"
+updated: "2026-07-16"
 published: true
 variants: true
 theme:
@@ -131,6 +131,14 @@ This library includes {{variant_count}} playable variants spanning the Chinese a
 <div class="variant-grid">
 
 - [Jieqi](variants/jieqi/) — Dark Chess: all pieces except the General start face-down and reveal on first move; growing rapidly in China and Vietnam
+
+</div>
+
+### Multiplayer Variants
+
+<div class="variant-grid">
+
+- [San-kwo-k'i](variants/san-kwo-ki/) — Three Kingdoms 3-player Xiangqi on a hexagonal trisected board; eliminating a General captures that player's entire army
 
 </div>
 
