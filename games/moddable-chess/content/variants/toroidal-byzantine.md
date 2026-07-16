@@ -13,7 +13,11 @@ engine:
     rings: 4
     positions_per_ring: 16
   players: [white, black]
-  setup_status: "not yet verified against primary source — prior flat 8x8 FEN removed 2026-07 as it did not represent the ring/torus structure. Source page (chessvariants.org/shape.dir/toroidalbyzantinechess.html) did not return readable text on fetch; exact starting squares still need pulling from a rendered copy or mirror."
+  setup:
+    - "2PRRP4prrp2"
+    - "2PNNP4pnnp2"
+    - "2PBBP4pbbp2"
+    - "2PKQP4pkqp2"
   notation: ring-position
 published: true
 ---
@@ -22,24 +26,42 @@ published: true
 
 Toroidal Byzantine Chess combines the historical **Byzantine Chess** board (four concentric rings of 16 squares each, 64 squares total) with **toroidal topology**: the innermost ring connects to the outermost ring radially. This creates a fully closed surface with no edges — a donut-shaped (torus) board in ring form.
 
-Invented by Anatoly Khalfine and Ernst Saperow, documented circa 1999–2001. The source frames it explicitly as a mathematical exploration ("this variant belongs better to the scope of mathematics rather than sport or game") rather than a historically-attested Byzantine-era game — it is a modern construction applying toroidal geometry to the historical Byzantine board, not itself a historical variant.
+Invented by Anatoly Khalfine and Ernst Saperow, documented circa 1999–2001 at chessvariants.org/shape.dir/toroidalbyzantinechess.html. The source frames it explicitly as a mathematical exploration rather than a historically-attested Byzantine-era game — a modern construction applying toroidal geometry to the historical Byzantine board.
 
-**Design intent of the starting setup:** per the source, the starting position is deliberately chosen so that the *only* pieces initially under attack are pawns — no piece more valuable than a pawn is en prise from the opening position. This is a meaningful constraint on the exact setup (it isn't simply Byzantine Chess's own setup reused unchanged, since the added radial wrap would put non-pawn pieces under attack if the layout weren't adjusted for it) and is the main reason the exact coordinates still need to be pulled from source rather than assumed.
+### Starting Position
+
+The source states piece rules are "the same as in Byzantine Chess," but the **setup differs** from plain Byzantine Chess. In ordinary Byzantine Chess, each army straddles the seam where file p meets file a; on the toroidal board that arrangement would put both Kings in mutual check immediately (the radial wrap removes the inner/outer edges that normally shield them). Instead, each army is placed in a contiguous 4-file block, positioned so that **only pawns are attacked** from the starting position.
+
+Using the rectangular "unrolled" development of the ring board (4 rings as ranks 1–4, 16 positions as files a–p — the same convention as plain Byzantine Chess), confirmed against the source's interactive diagram:
+
+**White** (files c–f):
+- Rank 1: Rook (d1), Rook (e1); Pawns (c1, f1)
+- Rank 2: Knight (d2), Knight (e2); Pawns (c2, f2)
+- Rank 3: Bishop (d3), Bishop (e3); Pawns (c3, f3)
+- Rank 4: King (d4), Queen (e4); Pawns (c4, f4)
+
+**Black** (files k–n — the same pattern shifted 8 files around the ring):
+- Rank 1: Rook (l1), Rook (m1); Pawns (k1, n1)
+- Rank 2: Knight (l2), Knight (m2); Pawns (k2, n2)
+- Rank 3: Bishop (l3), Bishop (m3); Pawns (k3, n3)
+- Rank 4: King (l4), Queen (m4); Pawns (k4, n4)
+
+Files a, b, g, h, i, j, o, p are empty at setup. The `engine.setup` array above encodes this ring-by-ring (ring 1 first), run-length style: digits are empty-square counts, uppercase is White, lowercase is Black.
 
 ### Byzantine Chess Foundation
 
-Byzantine Chess is a medieval circular chess variant played on a 4×16 ring board using Shatranj-era pieces:
+Piece movement follows Byzantine Chess (Shatranj-era rules), per the source's direct link to that page:
 
 | Piece | Shatranj Name | Movement |
 |---|---|---|
 | King | Shah | 1 step in any direction |
-| General | Fers | 1 step diagonally |
-| Elephant | Fil | Leaps exactly 2 diagonally |
+| Queen | Fers | 1 step diagonally |
+| Bishop | Fil | Leaps exactly 2 diagonally |
 | Rook | Rukh | Slides orthogonally |
 | Knight | Faras | Leaps as in modern chess |
 | Pawn | Baidak | Moves 1 step radially toward opponent |
 
-In standard Byzantine Chess, pieces travel around the rings continuously: ring position 16 connects to position 1 on the same ring. This gives the game a circular character, with no left/right edges.
+In standard Byzantine Chess, pieces travel around the rings continuously: ring position 16 connects to position 1 on the same ring.
 
 ### Toroidal Addition
 
@@ -55,15 +77,15 @@ This means there are truly no edges on the board — every ring is adjacent to t
 
 **Rooks:** the source confirms a Rook on the toroidal board can travel either the long 16-cell circle (around a ring) or the short 4-cell circle (radially, in and out through the wrap) — it "feels itself quite well everywhere," unlike on the plain circular Byzantine board where radial movement is restricted at the inner and outer edges.
 
-**Bishops (Elephants):** the 2-step diagonal leap behaves normally within the ring structure; at the radial seam, the leap continues to the appropriate ring. The source notes the wrap means a Bishop can end up attacking both of a side's pawns simultaneously from the setup position, consistent with the "only pawns under attack" design intent above.
+**Bishops (Fil):** the 2-step diagonal leap behaves normally within the ring structure; at the radial seam, the leap continues to the appropriate ring.
 
-**Queen:** slides orthogonally or diagonally exactly as on the plain circular board, gaining the same edge-free mobility as the Rook and Bishop once the radial wrap is added.
+**Queen (Fers):** one step diagonally, as in Byzantine Chess — the toroidal wrap does not extend the Fers's range since it only ever moves one square.
 
 **King:** has up to 8 neighbours in all positions (no corner or edge restrictions).
 
 ### Pawns
 
-Pawns move radially "toward the opponent" in standard Byzantine Chess. In the toroidal version, the radial wrap means Pawns traveling inward past ring 4 emerge from ring 1 — effectively completing a full radial circuit rather than being blocked at the inner boundary.
+Pawns (Baidak) move radially "toward the opponent," one step at a time. In the toroidal version, the radial wrap means a Pawn advancing past ring 4 would emerge from ring 1 rather than being blocked — though given the contiguous starting blocks above, in practice most pawns will contact enemy pieces well before reaching that wrap.
 
 ### Win Condition
 
@@ -71,4 +93,4 @@ Checkmate the opponent's Shah (King). Shatranj rules may also apply: stalemate =
 
 ### Attribution
 
-Toroidal Byzantine Chess invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001. Source: chessvariants.org/shape.dir/toroidalbyzantinechess.html. Byzantine Chess foundation: chessvariants.com/historic.dir/byzantine.html. Note: the exact starting-square list from the primary Khalfine/Saperow page still needs to be re-fetched and verified in full (see `engine.setup_status` above) — this update adds confirmed design intent and piece-behaviour detail but not yet the coordinates themselves.
+Toroidal Byzantine Chess invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001. Source: chessvariants.org/shape.dir/toroidalbyzantinechess.html, including its interactive setup diagram. Byzantine Chess foundation: chessvariants.com/historic.dir/byzantine.html.
