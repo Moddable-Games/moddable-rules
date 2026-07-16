@@ -8,14 +8,25 @@ win: "Checkmate"
 special: "Three-dimensional chess on five stacked 5×5 boards. Adds the Unicorn (triagonal slider). Pawns move forward or upward; capture diagonally. No castling, no en passant, no double push."
 engine:
   topology:
-    type: 3d-grid
-    levels: 5
+    type: grid
     rows: 5
     cols: 5
+    layers: 5
+    layer_labels: ["A", "B", "C", "D", "E"]
   players: [white, black]
+  setup:
+    - "5/5/5/PPPPP/RNKNR"
+    - "5/5/5/PPPPP/BUQBU"
+    - "5/5/5/5/5"
+    - "buqbu/ppppp/5/5/5"
+    - "rnknr/ppppp/5/5/5"
+  render:
+    cellSize: 24
+  notation: level-file-rank
+  rendering_note: "This layered setup uses the same engine.topology pattern already live for Gygax Chess (grid + layers, one FEN string per layer) and should render the static starting-position diagram now, the same way Gygax's is rendered. This does NOT solve piece movement/play: Raumschach's Rook, Bishop, and Unicorn slide arbitrary distances along the level axis and combinations of axes, which Gygax's per-piece single-step cross-level moves do not support. Play/move-generation remains a separate, larger engine task -- this frontmatter change only unblocks the rulebook diagram."
 published: true
 status: draft
-updated: 2026-07-07
+updated: 2026-07-16
 category: expanded-boards
 order:
 tags:
@@ -56,6 +67,8 @@ White's pieces occupy levels A and B at the start; Black's occupy levels D and E
 **Level E, Rank 4:** five Pawns (Ea4–Ee4)
 
 Each side begins with 20 pieces: 2 Rooks, 2 Knights, 2 Bishops, 2 Unicorns, 1 Queen, 1 King, and 10 Pawns.
+
+The `engine.setup` array above encodes this as one FEN-style row-group per level (A through E), matching the pattern already proven for Gygax Chess's three-level board, using U for Unicorn to avoid clashing with Knight's standard N.
 
 ## Piece Movement
 
