@@ -8,13 +8,12 @@ win: Checkmate
 special: "Chess played on a circular board with four concentric rings of squares (64 squares total, the same count as a standard chessboard). Standard chess setup and rules. Four variants are defined, three of which extend certain pieces to follow the circular rings in a continuous slide: Traditional (standard chess), Roving Rook, Wild Queen, and combined Rook+Queen. Copyrighted 1972 by Saxon Agencies Ltd., Vancouver, B.C., Canada."
 engine:
   topology:
-    type: cylinder
+    type: grid
     rows: 4
     cols: 16
+    wrap: cylinder
   players: [white, black]
   notation: ring-position
-  render:
-    mode: annular
 published: true
 ---
 
