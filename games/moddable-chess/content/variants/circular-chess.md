@@ -13,6 +13,7 @@ engine:
     cols: 16
     wrap: cylinder
   players: [white, black]
+  setup: "rp4PRRP4pr/np4PNNP4pn/bp4PBBP4pb/qp4PKQP4pk"
 ---
 
 # Circular Chess
@@ -44,6 +45,8 @@ The starting position is derived from orthodox chess by "folding" the FIDE board
 | 4 (outermost) | Rook, Rook | Rook, Rook |
 
 The Queen begins on a square of the same colour as the King (as in FIDE chess). Each player's 8 Pawns are placed in the files immediately in front of their back pieces, between the two sides.
+
+Transcribed from the source diagram directly: within each ring, the back piece and its pawn occupy the same file-column across all four rings (King/Bishop/Knight/Rook all radially stacked on one side of each player's seam; Queen/Bishop/Knight/Rook stacked on the other), with the pawn one file further from the seam than the piece. The `engine.setup` FEN encodes this with row 0 = ring 4 (outermost, Rook) down to row 3 = ring 1 (innermost, King/Queen), matching the convention used elsewhere in this hub.
 
 ## Pieces
 
