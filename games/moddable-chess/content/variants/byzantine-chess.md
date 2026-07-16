@@ -8,9 +8,10 @@ win: "Checkmate, stalemate the opponent, or bare the opponent's King"
 special: "Played on a circular board of 4 concentric rings and 16 files (64 squares). Uses Shatranj piece movements: Bishops leap two diagonal squares, Queens move one diagonal square. Stalemate is a win. Baring the opponent's King wins unless the opponent can bare back immediately."
 engine:
   topology:
-    type: cylinder
+    type: grid
     rows: 4
     cols: 16
+    wrap: cylinder
   players: [white, black]
 ---
 
