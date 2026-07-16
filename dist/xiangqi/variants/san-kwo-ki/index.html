@@ -61,7 +61,8 @@
 <p>San-kwo-k’i (三國棋, “Game of the Three Kingdoms”) is a historical Chinese three-player chess variant representing the Three Kingdoms war (220–280 CE) among Wei, Shu, and Wu. It is documented in H.J.R. Murray’s <em>A History of Chess</em> (1913), citing von Möllendorff’s 1876 German article “Das Schachspiel der Chinesen” published in the journal of the German Society for Natural and Cultural Science of East Asia.</p>
 <p>Yu Ren Dong reports the game was invented during the Southern Song Dynasty (1127–1279 CE); the inventor’s name and original rulebook are lost.</p>
 <h2 id="board">Board</h2>
-<p>The board is a large hexagonal space divided into three equal sections, one per kingdom. Each section contains a Xiangqi-like grid with a 3×3 palace at its centre. The three sections meet at a central zone. The lines of the board are not straight throughout — each kingdom’s territory faces the other two. A river separates each player’s home territory from the central meeting area.</p>
+<p>The board is a large hexagonal space divided into three equal sections, one per kingdom. Each section contains a Xiangqi-like grid with a 3×3 palace at its centre. The three sections meet at a central zone. The lines of the board are not straight throughout — each kingdom’s territory faces the other two. A river separates each player’s home territory from the central meeting area. Pieces sit on line intersections (points), as in standard Xiangqi, not in cell centres.</p>
+<p>This board shares its fundamental shape (a hexagon divided into three Y-symmetric sectors) with Yalta Chess (moddable-chess hub), confirmed against Yalta’s primary source diagram 2026-07. The two variants are strong candidates for a single shared <code>hexagonal-trisection</code> engine renderer rather than two separate implementations, though San-kwo-k’i’s board is point/intersection-based (Xiangqi convention) while Yalta’s is cell-based (FIDE chess convention) — the renderer would need to support both point and cell modes on the same underlying hex-trisection geometry.</p>
 <h2 id="players-and-armies">Players and Armies</h2>
 <p>Three players represent three kingdoms:</p>
 <ul class="rules">
@@ -76,6 +77,12 @@
 <li>Shu: <strong>Chuo / Fire</strong> (火)</li>
 <li>Wu: <strong>Feng / Wind</strong> (風)</li>
 </ul>
+<h2 id="starting-position">Starting Position</h2>
+<p>Confirmed against two independent diagram sources: the original 1876/1913 illustration (Murray, <em>A History of Chess</em>, p. 133, reproducing von Möllendorff’s diagram) and a clearer modern redraw by Hans Bodlaender (Steven Leary’s Chinese Chess FAQ). Both agree on the following arrangement, identical for all three kingdoms (only rotated to face the centre):</p>
+<p><strong>Back row (row 1), left to right:</strong> Chariot (Rook), Horse (Knight), Elephant, Guard, General (King), Guard, Elephant, Horse (Knight), Chariot — 9 pieces.</p>
+<p><strong>Row 2:</strong> Cannon, then the two special pieces (Banner/Fire/Wind, one per side of centre), then Cannon — 4 pieces.</p>
+<p><strong>Row 3 (fanning forward from row 2):</strong> 5 Soldiers (Pawns), arranged in a triangular spread — one at the centre-front point, two at the next rank back, and the outer two aligned with the Cannons.</p>
+<p>The special piece (Banner/Ch’i for Wei, Fire/Chuo for Shu, Wind/Feng for Wu) sits two spaces directly above its army’s Guards, matching the frontmatter’s existing description.</p>
 <h2 id="special-piece-banner-fire-wind">Special Piece: Banner / Fire / Wind</h2>
 <p>The special piece makes an <strong>extended knight’s move</strong>: two steps vertically or horizontally, then one step diagonally outward. This is a leaping move — the piece jumps directly to its destination and cannot be blocked by intervening pieces. The destination square is 3 files and 1 rank away (or 1 file and 3 ranks away) from the starting square.</p>
 <h2 id="rules">Rules</h2>
@@ -84,9 +91,9 @@
 <p><strong>Elimination:</strong> When a player’s General is checkmated, that player is eliminated. The player who delivered the checkmate <strong>removes the General from the board and takes all remaining pieces of the eliminated player</strong>, immediately adding them to their own army.</p>
 <p><strong>Win condition:</strong> The last player with a surviving General wins.</p>
 <h2 id="historical-note">Historical Note</h2>
-<p>The game is reported to be “very complicated and difficult, but is not considered as interesting as the ordinary chess” (Murray, citing von Möllendorff). The exact board layout and all movement rules are documented from the Murray and von Möllendorff accounts; some details of three-sector interaction at the central zone are not preserved in historical sources.</p>
+<p>The game is reported to be “very complicated and difficult, but is not considered as interesting as the ordinary chess” (Murray, citing von Möllendorff). The back-row/cannon/pawn arrangement above is now confirmed by two independent diagrams; what remains unresolved in the sources is the exact line-connectivity at the very centre of the board where all three sectors meet — the historical diagrams show converging dashed lines there but do not fully specify square-by-square movement legality across that junction.</p>
 <h2 id="attribution">Attribution</h2>
-<p>Rules documented from chessvariants.com/xiangqivariants.dir/chin3pl.html, citing H.J.R. Murray, <em>A History of Chess</em> (1913), pp. 133–134, and O. von Möllendorff, “Das Schachspiel der Chinesen” (1876).</p>
+<p>Rules documented from chessvariants.com/xiangqivariants.dir/chin3pl.html, citing H.J.R. Murray, <em>A History of Chess</em> (1913), pp. 133–134, and O. von Möllendorff, “Das Schachspiel der Chinesen” (1876). Starting position cross-checked against Murray’s reproduced diagram and Hans Bodlaender’s redrawn version (Steven Leary’s Chinese Chess FAQ), 2026-07.</p>
 
 </div>
 </main>

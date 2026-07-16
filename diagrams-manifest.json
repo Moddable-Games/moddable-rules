@@ -1133,6 +1133,17 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
+    "variant": "byzantine-chess",
+    "variantTitle": "Byzantine Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/byzantine-chess-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/byzantine-chess/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
     "variant": "capablanca",
     "variantTitle": "Capablanca Chess",
     "topology": "grid",
@@ -1221,11 +1232,33 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
+    "variant": "chess-in-the-round",
+    "variantTitle": "Chess in the Round",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/chess-in-the-round-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/chess-in-the-round/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
     "variant": "chigorin",
     "variantTitle": "Chigorin",
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/chigorin-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/chigorin/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "circular-chess",
+    "variantTitle": "Circular Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/circular-chess-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/circular-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1303,6 +1336,17 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/cylinder-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/cylinder-chess/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "cylindrical-chess",
+    "variantTitle": "Cylindrical Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/cylindrical-chess-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/cylindrical-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1716,6 +1760,17 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
+    "variant": "klein-bottle-chess",
+    "variantTitle": "Klein Bottle Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/klein-bottle-chess-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/klein-bottle-chess/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
     "variant": "knightmate",
     "variantTitle": "Knightmate",
     "topology": "grid",
@@ -1886,6 +1941,17 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/minichess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/minichess/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "mobius-strip-chess",
+    "variantTitle": "Möbius Strip Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/mobius-strip-chess-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/mobius-strip-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2101,6 +2167,17 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
+    "variant": "raumschach",
+    "variantTitle": "Raumschach",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/raumschach-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/raumschach/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
     "variant": "recruitment-chess",
     "variantTitle": "Recruitment Chess",
     "topology": "grid",
@@ -2117,6 +2194,17 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/rifle-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/rifle/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "rollerball",
+    "variantTitle": "Rollerball",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/rollerball-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/rollerball/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2277,6 +2365,17 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
+    "variant": "spherical-chess",
+    "variantTitle": "Spherical Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/spherical-chess-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/spherical-chess/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
     "variant": "stalemate-wins",
     "variantTitle": "Stalemate Wins",
     "topology": "grid",
@@ -2370,6 +2469,28 @@
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/three-check-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/three-check/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "toroidal-byzantine",
+    "variantTitle": "Toroidal Byzantine Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/toroidal-byzantine-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/toroidal-byzantine/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "moddable-chess",
+    "familyTitle": "Moddable Chess",
+    "variant": "toroidal-chess",
+    "variantTitle": "Gadsden's Toroidal Chess",
+    "topology": "grid",
+    "svg": "games/moddable-chess/diagrams/svg/toroidal-chess-board.svg",
+    "rulesUrl": "dist/moddable-chess/variants/toroidal-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2488,7 +2609,7 @@
     "familyTitle": "Moddable Chess",
     "variant": "yalta-chess",
     "variantTitle": "Yalta Chess",
-    "topology": "grid",
+    "topology": "hexagonal-trisection",
     "svg": "games/moddable-chess/diagrams/svg/yalta-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/yalta-chess/index.html",
     "status": "rendered",
@@ -3122,7 +3243,7 @@
     "familyTitle": "Xiangqi",
     "variant": "san-kwo-ki",
     "variantTitle": "San-kwo-k'i",
-    "topology": "grid",
+    "topology": "hexagonal-trisection",
     "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",
     "rulesUrl": "dist/xiangqi/variants/san-kwo-ki/index.html",
     "status": "rendered",
@@ -3389,127 +3510,6 @@
     "reason": "component-game",
     "deckType": "mahjong-136",
     "players": "4"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "byzantine-chess",
-    "variantTitle": "Byzantine Chess",
-    "topology": "cylinder",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/byzantine-chess/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "chess-in-the-round",
-    "variantTitle": "Chess in the Round",
-    "topology": "circular",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/chess-in-the-round/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "circular-chess",
-    "variantTitle": "Circular Chess",
-    "topology": "cylinder",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/circular-chess/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "cylindrical-chess",
-    "variantTitle": "Cylindrical Chess",
-    "topology": "cylinder",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/cylindrical-chess/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "klein-bottle-chess",
-    "variantTitle": "Klein Bottle Chess",
-    "topology": "klein-bottle",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/klein-bottle-chess/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "mobius-strip-chess",
-    "variantTitle": "Möbius Strip Chess",
-    "topology": "mobius",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/mobius-strip-chess/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "raumschach",
-    "variantTitle": "Raumschach",
-    "topology": "3d-grid",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/raumschach/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "rollerball",
-    "variantTitle": "Rollerball",
-    "topology": "ring",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/rollerball/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "spherical-chess",
-    "variantTitle": "Spherical Chess",
-    "topology": "spherical",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/spherical-chess/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "toroidal-byzantine",
-    "variantTitle": "Toroidal Byzantine Chess",
-    "topology": "torus",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/toroidal-byzantine/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
-    "variant": "toroidal-chess",
-    "variantTitle": "Gadsden's Toroidal Chess",
-    "topology": "torus",
-    "svg": null,
-    "rulesUrl": "dist/moddable-chess/variants/toroidal-chess/index.html",
-    "status": "missing",
-    "reason": "unsupported-topology"
   },
   {
     "family": "mongo",
