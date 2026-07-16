@@ -26,7 +26,7 @@ published: true
 
 Toroidal Byzantine Chess combines the historical **Byzantine Chess** board (four concentric rings of 16 squares each, 64 squares total) with **toroidal topology**: the innermost ring connects to the outermost ring radially. This creates a fully closed surface with no edges — a donut-shaped (torus) board in ring form.
 
-Invented by Anatoly Khalfine and Ernst Saperow, documented circa 1999–2001 at chessvariants.org/shape.dir/toroidalbyzantinechess.html. The source frames it explicitly as a mathematical exploration rather than a historically-attested Byzantine-era game — a modern construction applying toroidal geometry to the historical Byzantine board.
+Byzantine Chess itself descends from Shatranj (the form of chess that reached Europe from the Arabic world, differing from modern chess mainly in piece movement) and was played in Byzantium around 1000 CE on a circular board instead of a standard 8×8. Khalfine and Saperow built the toroidal version explicitly by analogy to the "Shape of Space" torus family documented on the same site (Karl Fischer's Torus Chess on a Standard Board and Alberto Monteiro's Chess in a Toroidal Board): join the edges of the circular Byzantine board the same way those variants join the edges of a square board, and a torus results, with the Byzantine piece rules unchanged. The source hedges on whether this exact combination was ever historically played ("perhaps... has been experienced in Constantinople"), but is confident about the modern formalisation: considered by several mathematicians, including the authors themselves, circa 1999–2001.
 
 ### Starting Position
 
@@ -63,6 +63,8 @@ Piece movement follows Byzantine Chess (Shatranj-era rules), per the source's di
 
 In standard Byzantine Chess, pieces travel around the rings continuously: ring position 16 connects to position 1 on the same ring.
 
+Note: the source's own overview text loosely refers to a modern circular-board reconstruction of Byzantine Chess as "Circular Chess." This is almost certainly generic phrasing, not a claim that it is the same product as the separately-documented, unrelated "Circular Chess" already in this hub (David Reynolds, 1983, FIDE pieces, no ring-radial structure) — the two should not be conflated, but it's worth knowing the name collision exists in source material.
+
 ### Toroidal Addition
 
 In Toroidal Byzantine Chess, the **radial edges** also wrap:
@@ -93,4 +95,4 @@ Checkmate the opponent's Shah (King). Shatranj rules may also apply: stalemate =
 
 ### Attribution
 
-Toroidal Byzantine Chess invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001. Source: chessvariants.org/shape.dir/toroidalbyzantinechess.html, including its interactive setup diagram. Byzantine Chess foundation: chessvariants.com/historic.dir/byzantine.html.
+Toroidal Byzantine Chess invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001. Source: chessvariants.org/shape.dir/toroidalbyzantinechess.html, including its overview text and interactive setup diagram. Byzantine Chess foundation: chessvariants.com/historic.dir/byzantine.html.
