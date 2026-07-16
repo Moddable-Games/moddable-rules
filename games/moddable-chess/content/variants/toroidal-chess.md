@@ -8,9 +8,10 @@ win: Checkmate
 special: "Chess on a torus — all four edges wrap. Moving off the right edge (h-file) reappears on the left (a-file); moving off rank 8 reappears on rank 1. Every square has exactly 8 neighbours; there are no edge squares and no corner squares. Uses a three-rank starting position per side with an extra set of pawns (32 pawns total). Invented around 1990 by Richard Gadsden and Phil Roberts as a variant of Cylindrical Chess."
 engine:
   topology:
-    type: torus
+    type: grid
     rows: 8
     cols: 8
+    wrap: torus
   players: [white, black]
   setup: "pppppppp/rnbqkbnr/pppppppp/8/8/PPPPPPPP/RNBQKBNR/PPPPPPPP"
   notation: algebraic
