@@ -8,16 +8,12 @@ win: Checkmate
 special: "Byzantine Chess (historical Shatranj on a 4×16 circular board) combined with toroidal topology: the innermost ring connects to the outermost ring radially, in addition to the standard circular wrap along each ring. A piece sliding inward past ring 4 emerges from ring 1; a piece sliding outward past ring 1 emerges from ring 4. Invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001."
 engine:
   topology:
-    type: torus
-    variant: circular-4x16
-    rings: 4
-    positions_per_ring: 16
+    type: grid
+    rows: 4
+    cols: 16
+    wrap: torus
   players: [white, black]
-  setup:
-    - "2PRRP4prrp2"
-    - "2PNNP4pnnp2"
-    - "2PBBP4pbbp2"
-    - "2PKQP4pkqp2"
+  setup: "2PKQP4pkqp2/2PBBP4pbbp2/2PNNP4pnnp2/2PRRP4prrp2"
   notation: ring-position
 published: true
 ---
@@ -46,7 +42,7 @@ Using the rectangular "unrolled" development of the ring board (4 rings as ranks
 - Rank 3: Bishop (l3), Bishop (m3); Pawns (k3, n3)
 - Rank 4: King (l4), Queen (m4); Pawns (k4, n4)
 
-Files a, b, g, h, i, j, o, p are empty at setup. The `engine.setup` array above encodes this ring-by-ring (ring 1 first), run-length style: digits are empty-square counts, uppercase is White, lowercase is Black.
+Files a, b, g, h, i, j, o, p are empty at setup. The `engine.setup` FEN encodes this ring-by-ring, highest ring (4, outermost) first down to ring 1 (innermost) — the same rank-descending convention used by every other FEN in this hub (e.g. rank 8 first on a standard board) — run-length style: digits are empty-square counts, uppercase is White, lowercase is Black.
 
 ### Byzantine Chess Foundation
 
