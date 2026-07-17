@@ -252,7 +252,6 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 <div class="variant-grid">
 
 - [Byzantine Chess](variants/byzantine-chess/) -- Circular 4-ring board (64 squares); Shatranj-era pieces; stalemate wins
-- [Chess in the Round](variants/chess-in-the-round/) -- Circular 4-ring board; standard pieces with optional ring-sliding rules
 - [Circular Chess](variants/circular-chess/) -- 4 rings x 16 files; pawns promote after 6 squares; no null moves
 - [Cylindrical Chess](variants/cylindrical-chess/) -- Files wrap (a connects to h); bishops and queens gain power
 - [Klein Bottle Chess](variants/klein-bottle-chess/) -- Non-orientable surface; ranks wrap with a half-twist mirroring files
