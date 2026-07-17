@@ -1564,7 +1564,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Topology Variants",
-    "content": "- Byzantine Chessvariants/byzantine-chess/ -- Circular 4-ring board 64 squares; Shatranj-era pieces; stalemate wins - Chess in the Roundvariants/chess-in-the-round/ -- Circular 4-ring board; standard ",
+    "content": "- Byzantine Chessvariants/byzantine-chess/ -- Circular 4-ring board 64 squares; Shatranj-era pieces; stalemate wins - Circular Chessvariants/circular-chess/ -- 4 rings x 16 files; pawns promote after ",
     "anchor": "topology-variants"
   },
   {
@@ -9732,66 +9732,6 @@
     "anchor": "attribution",
     "variant": "chennis",
     "variantUrl": "dist/moddable-chess/variants/chennis/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "Chess in the Round",
-    "heading": "Chess in the Round",
-    "content": "Chess in the Round is a commercial chess variant played on a circular board with four concentric rings of squares 64 squares total. It was copyrighted in 1972 by Saxon Agencies Ltd. of Vancouver, B.C.",
-    "anchor": "chess-in-the-round",
-    "variant": "chess-in-the-round",
-    "variantUrl": "dist/moddable-chess/variants/chess-in-the-round/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "Chess in the Round",
-    "heading": "The Board",
-    "content": "A circular board divided into four concentric rings. Each ring contains 16 squares, arranged like the 64 squares of a standard chessboard mapped onto a circular pattern. The board uses soft yellow and",
-    "anchor": "the-board",
-    "variant": "chess-in-the-round",
-    "variantUrl": "dist/moddable-chess/variants/chess-in-the-round/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "Chess in the Round",
-    "heading": "Starting Position",
-    "content": "Identical to standard chess. The starting position maps directly to the circular board in the same relative arrangement.",
-    "anchor": "starting-position",
-    "variant": "chess-in-the-round",
-    "variantUrl": "dist/moddable-chess/variants/chess-in-the-round/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "Chess in the Round",
-    "heading": "The Four Variants",
-    "content": "1. Traditional Chess Standard FIDE chess rules with standard piece movements. The circular board is cosmetic — if orthogonal and diagonal movement rules are observed, the game is identical to standard",
-    "anchor": "the-four-variants",
-    "variant": "chess-in-the-round",
-    "variantUrl": "dist/moddable-chess/variants/chess-in-the-round/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "Chess in the Round",
-    "heading": "Win Condition",
-    "content": "Checkmate the opponent's King.",
-    "anchor": "win-condition",
-    "variant": "chess-in-the-round",
-    "variantUrl": "dist/moddable-chess/variants/chess-in-the-round/"
-  },
-  {
-    "game": "moddable-chess",
-    "gameTitle": "Moddable Chess",
-    "section": "Chess in the Round",
-    "heading": "Attribution",
-    "content": "Chess in the Round was copyrighted 1972 by Saxon Agencies Ltd., Vancouver, B.C., Canada. Description by Barry Yoner. Source: chessvariants.com/shape.dir/chessintheround.html",
-    "anchor": "attribution",
-    "variant": "chess-in-the-round",
-    "variantUrl": "dist/moddable-chess/variants/chess-in-the-round/"
   },
   {
     "game": "moddable-chess",
