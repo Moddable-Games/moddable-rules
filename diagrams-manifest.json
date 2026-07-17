@@ -1232,17 +1232,6 @@
   {
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
-    "variant": "chess-in-the-round",
-    "variantTitle": "Chess in the Round",
-    "topology": "grid",
-    "svg": "games/moddable-chess/diagrams/svg/chess-in-the-round-board.svg",
-    "rulesUrl": "dist/moddable-chess/variants/chess-in-the-round/index.html",
-    "status": "rendered",
-    "players": "2"
-  },
-  {
-    "family": "moddable-chess",
-    "familyTitle": "Moddable Chess",
     "variant": "chigorin",
     "variantTitle": "Chigorin",
     "topology": "grid",
