@@ -13,6 +13,7 @@ engine:
     cols: 16
     wrap: cylinder
   players: [white, black]
+  setup: "KP4pqkp4PQ/BP4pbbp4PB/NP4pnnp4PN/RP4prrp4PR"
 ---
 
 # Byzantine Chess
@@ -53,6 +54,8 @@ White occupies one side of the circle (files a and p), Black occupies the opposi
 - Pawns (left-moving): j1, j2, j3, j4
 
 White pawns march toward Black's position; each player's pawns advance in one of two directions around the ring.
+
+The `engine.setup` FEN encodes this ring-by-ring, highest ring (4, outermost) first down to ring 1 (innermost) — the same convention used by Toroidal Byzantine Chess's FEN in this hub.
 
 ## Pieces
 

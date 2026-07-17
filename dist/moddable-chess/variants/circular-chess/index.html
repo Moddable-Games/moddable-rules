@@ -98,6 +98,7 @@
 </tbody>
 </table></div>
 <p>The Queen begins on a square of the same colour as the King (as in FIDE chess). Each player’s 8 Pawns are placed in the files immediately in front of their back pieces, between the two sides.</p>
+<p>Transcribed from the source diagram directly: within each ring, the back piece and its pawn occupy the same file-column across all four rings (King/Bishop/Knight/Rook all radially stacked on one side of each player’s seam; Queen/Bishop/Knight/Rook stacked on the other), with the pawn one file further from the seam than the piece. The <code>engine.setup</code> FEN encodes this with row 0 = ring 4 (outermost, Rook) down to row 3 = ring 1 (innermost, King/Queen), matching the convention used elsewhere in this hub.</p>
 <h2 id="pieces">Pieces</h2>
 <p>All pieces move as in standard FIDE chess, with adaptations for the circular board:</p>
 <p><strong>Queen and Rook</strong> may slide any number of squares along a ring or between rings, but may not make a “null move” — they cannot travel all the way around a ring to end up on the starting square.</p>
