@@ -57,7 +57,8 @@ It costs 2 experience to claim the second or third ability for an existing asset
 * **Companion** — an NPC ally with their own health meter.
 * **Command Vehicle** — your Starship, taken at character creation.
 * **Support Vehicle** — a secondary vehicle carried and launched by your Starship.
-* **Deed** — reflects your growing legend and accomplishments.
+* **Module** — an upgrade or system fitted to your starship.
+* **Deed** — reflects your growing legend and accomplishments. Deeds are earned through play and are not available to choose at character creation.
 
 ### Vehicles
 
@@ -99,12 +100,12 @@ When you fill all ten boxes on a legacy track, clear it and resume marking legac
 
 Work through the following steps in whatever order you prefer.
 
-1. **Ready your assets.** Familiarize yourself with the asset categories below before choosing.
+1. **Ready your assets.** Sort your available assets by category: Paths, Companions, Support Vehicles, and Modules. Set Deed assets aside — they're earned through play, not chosen now.
 2. **Choose two paths.** Pick two Path assets to represent your background, training, or calling.
 3. **Create your backstory.** Envision your character's history — who they were before they took up the mantle of Ironsworn.
 4. **Write your background vow.** Swear an Iron Vow to represent your character's long-term driving goal.
 5. **Board your starship.** Take the Starship command vehicle asset and give it a name.
-6. **Choose your final asset.** Pick one more asset from any category except Deed.
+6. **Choose your final asset.** Pick one more asset from the Path, Companion, Support Vehicle, or Module categories.
 7. **Set your stats.** Arrange 3, 2, 2, 1, 1 across edge, heart, iron, shadow, and wits in any order.
 8. **Set your condition meters.** Set health, spirit, and supply to +5, and momentum to +2 (max +10, reset +2). Any vehicle or companion asset starts at max health or integrity.
 9. **Envision your character.** Define one or two facts about how they look, how they act, and what they wear.
