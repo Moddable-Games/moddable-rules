@@ -1,88 +1,72 @@
 {
-  "name": "Starforged Core Rules",
-  "game": "starforged",
+  "_id": "starforged",
+  "type": "ruleset",
+  "datasworn_version": "0.0.10",
   "licence": "CC BY 4.0",
-  "attribution": "Ironsworn: Starforged is created by Shawn Tomkin and licensed under the Creative Commons Attribution 4.0 International License.",
-  "stats": [
-    { "id": "edge", "name": "Edge", "description": "Quickness, agility, and prowess when fighting at a distance." },
-    { "id": "heart", "name": "Heart", "description": "Courage, willpower, empathy, sociability, and loyalty." },
-    { "id": "iron", "name": "Iron", "description": "Physical strength, endurance, aggressiveness, and prowess when fighting at close quarters." },
-    { "id": "shadow", "name": "Shadow", "description": "Sneakiness, deceptiveness, and cunning." },
-    { "id": "wits", "name": "Wits", "description": "Expertise, knowledge, and observation." }
-  ],
-  "starting_stat_array": [3, 2, 2, 1, 1],
-  "condition_meters": {
-    "health": { "start": 5, "max": 5, "description": "Physical condition and stamina." },
-    "spirit": { "start": 5, "max": 5, "description": "Morale and mental state." },
-    "supply": { "start": 5, "max": 5, "shared": true, "description": "Abstract representation of overall preparedness: food, water, fuel, weapons, ammo, equipment, cargo, money, and general upkeep. Shared among allies playing together." }
+  "source": {
+    "title": "Ironsworn: Starforged Rulebook",
+    "authors": ["Shawn Tomkin"],
+    "url": "https://ironswornrpg.com",
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "date": "2022-10-01"
   },
-  "momentum": {
-    "start": 2,
-    "min": -6,
-    "max": 10,
-    "reset": 2,
-    "reset_with_one_impact": 1,
-    "reset_with_multiple_impacts": 0
-  },
-  "impacts": {
-    "effect": "Each marked impact reduces max momentum (normally 10) by 1. Momentum reset is also reduced: +1 with one impact marked, 0 with more than one.",
-    "misfortunes": [
-      { "id": "wounded", "condition_meter": "health", "trigger": "0 health, failed Endure Harm", "clears_via": "recover move" },
-      { "id": "shaken", "condition_meter": "spirit", "trigger": "0 spirit, failed Endure Stress", "clears_via": "recover move" },
-      { "id": "unprepared", "condition_meter": "supply", "trigger": "Sacrifice Resources reduces you to 0 supply", "shared": true, "clears_via": "recover move" }
-    ],
-    "vehicle_troubles": [
-      { "id": "battered", "trigger": "vehicle at 0 integrity, failed Withstand Damage", "permanent": false, "note": "Cannot raise integrity until Repaired." },
-      { "id": "cursed", "trigger": "command vehicle at 0 integrity, failed Withstand Damage", "permanent": true }
-    ],
-    "burdens": [
-      { "id": "doomed", "trigger": "Face Death", "clears_via": "resolve a soul-bound quest" },
-      { "id": "tormented", "trigger": "Face Desolation", "clears_via": "resolve a quest to prevent a dire future" },
-      { "id": "indebted", "trigger": "Overcome Destruction", "clears_via": "resolve a duty-bound quest" }
-    ],
-    "lasting_effects": [
-      { "id": "permanently_harmed", "condition_meter": "health", "trigger": "0 health, failed Endure Harm", "permanent": true },
-      { "id": "traumatized", "condition_meter": "spirit", "trigger": "0 spirit, failed Endure Stress", "permanent": true }
-    ]
-  },
-  "progress_tracks": {
-    "ranks": ["troublesome", "dangerous", "formidable", "extreme", "epic"],
-    "boxes": 10,
-    "ticks_per_box": 4,
-    "note": "Momentum is ignored on progress rolls."
-  },
-  "assets": {
-    "categories": ["path", "companion", "command_vehicle", "support_vehicle", "module", "deed"],
-    "starting_asset_count": 3,
-    "buy_cost_xp": 3,
-    "upgrade_cost_xp": 2,
-    "note": "Deed assets are earned through play and are not available to choose at character creation."
-  },
-  "vehicles": {
-    "command_vehicle": { "start_integrity": 5, "shared": true, "impacts": ["battered", "cursed"] },
-    "support_vehicle": { "impacts": ["battered"] },
-    "incidental_vehicle": { "sizes": { "heavy": 4, "medium": 3, "light": 2 }, "impacts": [] }
-  },
-  "legacy_tracks": {
-    "tracks": ["quests", "bonds", "discoveries"],
-    "boxes": 10,
-    "ticks_per_box": 4,
-    "xp_per_box": 2,
-    "xp_per_box_after_clear": 1
-  },
-  "character_creation": {
-    "steps": [
-      { "step": 1, "name": "Ready your assets", "text": "Sort your available assets by category: Paths, Companions, Support Vehicles, and Modules. Set Deed assets aside — they're earned through play, not chosen now." },
-      { "step": 2, "name": "Choose two paths", "text": "Pick two Path assets to represent your background, training, or calling." },
-      { "step": 3, "name": "Create your backstory", "text": "Envision your character's history — who they were before they took up the mantle of Ironsworn." },
-      { "step": 4, "name": "Write your background vow", "text": "Swear an Iron Vow to represent your character's long-term driving goal." },
-      { "step": 5, "name": "Board your starship", "text": "Take the Starship command vehicle asset and give it a name." },
-      { "step": 6, "name": "Choose your final asset", "text": "Pick one more asset from the Path, Companion, Support Vehicle, or Module categories." },
-      { "step": 7, "name": "Set your stats", "text": "Arrange 3, 2, 2, 1, 1 across edge, heart, iron, shadow, and wits in any order." },
-      { "step": 8, "name": "Set your condition meters", "text": "Set health, spirit, and supply to +5, and momentum to +2 (max +10, reset +2). Any vehicle or companion asset starts at max health or integrity." },
-      { "step": 9, "name": "Envision your character", "text": "Define one or two facts about how they look, how they act, and what they wear." },
-      { "step": 10, "name": "Name your character", "text": "Give them a name, and consider a callsign and pronouns." },
-      { "step": 11, "name": "Gear up", "text": "Note any important equipment or personal items. You're otherwise assumed to be equipped with a spacer kit and whatever your supply meter represents." }
-    ]
+  "rules": {
+    "condition_meters": {
+      "health": { "label": "health", "max": 5, "value": 5, "description": "Health represents your current physical condition and stamina." },
+      "spirit": { "label": "spirit", "max": 5, "value": 5, "description": "Spirit is your current morale and mental state." },
+      "supply": { "label": "supply", "max": 5, "value": 5, "shared": true, "description": "Supply represents your preparedness, including food, water, fuel, weapons, ammo, equipment, cargo, money, and general upkeep." }
+    },
+    "impacts": {
+      "misfortunes": {
+        "label": "misfortunes",
+        "description": "As with all impacts, misfortunes affect your max momentum and momentum reset. In addition, if you are wounded, shaken, or unprepared, you cannot increase the associated condition meter.",
+        "contents": {
+          "wounded": { "label": "wounded", "description": "Wounded may be marked when you are at 0 health and fail to Endure Harm. You are severely injured.", "prevents_recovery": ["health"] },
+          "shaken": { "label": "shaken", "description": "Shaken may be marked when you are at 0 spirit and fail to Endure Stress. You are despairing or distraught.", "prevents_recovery": ["spirit"] },
+          "unprepared": { "label": "unprepared", "description": "Unprepared is marked when you Sacrifice Resources and are reduced to 0 supply. You are not properly equipped for the dangers of the Forge. Because you and your allies share the same supply value, you mark unprepared together.", "shared": true, "prevents_recovery": ["supply"] }
+        }
+      },
+      "vehicle_troubles": {
+        "label": "vehicle troubles",
+        "description": "Vehicle troubles are linked to a specific vehicle, either your command vehicle asset or a support vehicle asset. These impacts are only a factor when you are piloting or aboard that vehicle. Otherwise, they do not count as an impact and do not affect your maximum momentum and momentum reset.",
+        "contents": {
+          "battered": { "label": "battered", "description": "Battered may be marked when your vehicle is at 0 integrity and you fail to Withstand Damage. The vehicle is barely holding together." },
+          "cursed": { "label": "cursed", "description": "Cursed may be marked when your command vehicle is at 0 integrity and you fail to Withstand Damage. This is a permanent impact. Your ship will never be quite right again." }
+        }
+      },
+      "burdens": {
+        "label": "burdens",
+        "description": "Burdens are a result of life-changing experiences that leave you bound to new vows. Clearing a burden can only be accomplished by resolving the quest.",
+        "contents": {
+          "doomed": { "label": "doomed", "description": "Doomed is marked when you Face Death and return from death's door with a soul-bound quest." },
+          "tormented": { "label": "tormented", "description": "Tormented is marked when you Face Desolation, gain visions of a distressing future, and undertake a quest to prevent that dire fate." },
+          "indebted": { "label": "indebted", "description": "Indebted is marked when you Overcome Destruction. To replace what was lost and repay the debt, you will take on a duty-bound quest." }
+        }
+      },
+      "lasting_effects": {
+        "label": "lasting effects",
+        "description": "Lasting effects are permanent. They forever impact your character through the momentum adjustment and, more importantly, the narrative impact of being permanently harmed or traumatized. You should factor this impact into how you perform moves and how you interact with the world.",
+        "contents": {
+          "permanently_harmed": { "label": "permanently harmed", "description": "Permanently harmed may be marked when you are at 0 health and fail to Endure Harm. You have suffered a wound that you must reckon with, such as the loss of an eye or hand. Or you bear physical scars that are a constant reminder of a harrowing incident.", "permanent": true },
+          "traumatized": { "label": "traumatized", "description": "Traumatized may be marked when you are at 0 spirit and fail to Endure Stress. Your experiences have left you emotionally or mentally scarred.", "permanent": true }
+        }
+      }
+    },
+    "special_tracks": {
+      "quests_legacy": { "label": "quests", "description": "Swear vows and do what you must to see them fulfilled." },
+      "bonds_legacy": { "label": "bonds", "description": "Create connections and build relationships." },
+      "discoveries_legacy": { "label": "discoveries", "description": "Explore the Forge and unlock its mysteries." }
+    },
+    "stats": {
+      "edge": { "label": "edge", "description": "Quickness, agility, and prowess when fighting at a distance." },
+      "heart": { "label": "heart", "description": "Courage, willpower, empathy, sociability, and loyalty." },
+      "iron": { "label": "iron", "description": "Physical strength, endurance, aggressiveness, and prowess when fighting at close quarters." },
+      "shadow": { "label": "shadow", "description": "Sneakiness, deceptiveness, and cunning." },
+      "wits": { "label": "wits", "description": "Expertise, knowledge, and observation." }
+    },
+    "tags": {
+      "region": { "description": "This oracle applies to a specific region of the Forge.", "applies_to": ["oracle_rollable"], "value_type": "enum", "enum": ["terminus", "outlands", "expanse"] },
+      "location": { "description": "This oracle applies specifically to planetside, orbital, or deep space environments.", "applies_to": ["oracle_rollable"], "value_type": "enum", "enum": ["planetside", "orbital", "deep_space"] }
+    }
   }
 }
