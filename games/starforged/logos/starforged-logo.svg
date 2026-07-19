@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <title>Starforged</title>
+  <circle cx="40" cy="40" r="36" fill="#0d1117"/>
+  <circle cx="40" cy="40" r="34" fill="none" stroke="#2a4a6a" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M40 6 L43 34 L40 30 L37 34 Z" fill="#7fb3d3"/>
+  <path d="M40 74 L37 46 L40 50 L43 46 Z" fill="#7fb3d3"/>
+  <path d="M6 40 L34 37 L30 40 L34 43 Z" fill="#7fb3d3"/>
+  <path d="M74 40 L46 43 L50 40 L46 37 Z" fill="#7fb3d3"/>
+  <path d="M18 18 L33 35 L31 31 L35 33 Z" fill="#4a8aaa" opacity="0.7"/>
+  <path d="M62 62 L47 45 L49 49 L45 47 Z" fill="#4a8aaa" opacity="0.7"/>
+  <path d="M62 18 L45 33 L49 31 L47 35 Z" fill="#4a8aaa" opacity="0.7"/>
+  <path d="M18 62 L35 47 L31 49 L33 45 Z" fill="#4a8aaa" opacity="0.7"/>
+  <circle cx="40" cy="40" r="5" fill="#0d1117" stroke="#7fb3d3" stroke-width="1.5"/>
+  <circle cx="40" cy="40" r="2" fill="#c0ddef"/>
+</svg>
