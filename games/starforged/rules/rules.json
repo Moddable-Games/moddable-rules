@@ -1,0 +1,88 @@
+{
+  "name": "Starforged Core Rules",
+  "game": "starforged",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn: Starforged is created by Shawn Tomkin and licensed under the Creative Commons Attribution 4.0 International License.",
+  "stats": [
+    { "id": "edge", "name": "Edge", "description": "Quickness, agility, and prowess when fighting at a distance." },
+    { "id": "heart", "name": "Heart", "description": "Courage, willpower, empathy, sociability, and loyalty." },
+    { "id": "iron", "name": "Iron", "description": "Physical strength, endurance, aggressiveness, and prowess when fighting at close quarters." },
+    { "id": "shadow", "name": "Shadow", "description": "Sneakiness, deceptiveness, and cunning." },
+    { "id": "wits", "name": "Wits", "description": "Expertise, knowledge, and observation." }
+  ],
+  "starting_stat_array": [3, 2, 2, 1, 1],
+  "condition_meters": {
+    "health": { "start": 5, "max": 5, "description": "Physical condition and stamina." },
+    "spirit": { "start": 5, "max": 5, "description": "Morale and mental state." },
+    "supply": { "start": 5, "max": 5, "shared": true, "description": "Abstract representation of overall preparedness: food, water, fuel, weapons, ammo, equipment, cargo, money, and general upkeep. Shared among allies playing together." }
+  },
+  "momentum": {
+    "start": 2,
+    "min": -6,
+    "max": 10,
+    "reset": 2,
+    "reset_with_one_impact": 1,
+    "reset_with_multiple_impacts": 0
+  },
+  "impacts": {
+    "effect": "Each marked impact reduces max momentum (normally 10) by 1. Momentum reset is also reduced: +1 with one impact marked, 0 with more than one.",
+    "misfortunes": [
+      { "id": "wounded", "condition_meter": "health", "trigger": "0 health, failed Endure Harm", "clears_via": "recover move" },
+      { "id": "shaken", "condition_meter": "spirit", "trigger": "0 spirit, failed Endure Stress", "clears_via": "recover move" },
+      { "id": "unprepared", "condition_meter": "supply", "trigger": "Sacrifice Resources reduces you to 0 supply", "shared": true, "clears_via": "recover move" }
+    ],
+    "vehicle_troubles": [
+      { "id": "battered", "trigger": "vehicle at 0 integrity, failed Withstand Damage", "permanent": false, "note": "Cannot raise integrity until Repaired." },
+      { "id": "cursed", "trigger": "command vehicle at 0 integrity, failed Withstand Damage", "permanent": true }
+    ],
+    "burdens": [
+      { "id": "doomed", "trigger": "Face Death", "clears_via": "resolve a soul-bound quest" },
+      { "id": "tormented", "trigger": "Face Desolation", "clears_via": "resolve a quest to prevent a dire future" },
+      { "id": "indebted", "trigger": "Overcome Destruction", "clears_via": "resolve a duty-bound quest" }
+    ],
+    "lasting_effects": [
+      { "id": "permanently_harmed", "condition_meter": "health", "trigger": "0 health, failed Endure Harm", "permanent": true },
+      { "id": "traumatized", "condition_meter": "spirit", "trigger": "0 spirit, failed Endure Stress", "permanent": true }
+    ]
+  },
+  "progress_tracks": {
+    "ranks": ["troublesome", "dangerous", "formidable", "extreme", "epic"],
+    "boxes": 10,
+    "ticks_per_box": 4,
+    "note": "Momentum is ignored on progress rolls."
+  },
+  "assets": {
+    "categories": ["path", "companion", "command_vehicle", "support_vehicle", "module", "deed"],
+    "starting_asset_count": 3,
+    "buy_cost_xp": 3,
+    "upgrade_cost_xp": 2,
+    "note": "Deed assets are earned through play and are not available to choose at character creation."
+  },
+  "vehicles": {
+    "command_vehicle": { "start_integrity": 5, "shared": true, "impacts": ["battered", "cursed"] },
+    "support_vehicle": { "impacts": ["battered"] },
+    "incidental_vehicle": { "sizes": { "heavy": 4, "medium": 3, "light": 2 }, "impacts": [] }
+  },
+  "legacy_tracks": {
+    "tracks": ["quests", "bonds", "discoveries"],
+    "boxes": 10,
+    "ticks_per_box": 4,
+    "xp_per_box": 2,
+    "xp_per_box_after_clear": 1
+  },
+  "character_creation": {
+    "steps": [
+      { "step": 1, "name": "Ready your assets", "text": "Sort your available assets by category: Paths, Companions, Support Vehicles, and Modules. Set Deed assets aside — they're earned through play, not chosen now." },
+      { "step": 2, "name": "Choose two paths", "text": "Pick two Path assets to represent your background, training, or calling." },
+      { "step": 3, "name": "Create your backstory", "text": "Envision your character's history — who they were before they took up the mantle of Ironsworn." },
+      { "step": 4, "name": "Write your background vow", "text": "Swear an Iron Vow to represent your character's long-term driving goal." },
+      { "step": 5, "name": "Board your starship", "text": "Take the Starship command vehicle asset and give it a name." },
+      { "step": 6, "name": "Choose your final asset", "text": "Pick one more asset from the Path, Companion, Support Vehicle, or Module categories." },
+      { "step": 7, "name": "Set your stats", "text": "Arrange 3, 2, 2, 1, 1 across edge, heart, iron, shadow, and wits in any order." },
+      { "step": 8, "name": "Set your condition meters", "text": "Set health, spirit, and supply to +5, and momentum to +2 (max +10, reset +2). Any vehicle or companion asset starts at max health or integrity." },
+      { "step": 9, "name": "Envision your character", "text": "Define one or two facts about how they look, how they act, and what they wear." },
+      { "step": 10, "name": "Name your character", "text": "Give them a name, and consider a callsign and pronouns." },
+      { "step": 11, "name": "Gear up", "text": "Note any important equipment or personal items. You're otherwise assumed to be equipped with a spacer kit and whatever your supply meter represents." }
+    ]
+  }
+}
