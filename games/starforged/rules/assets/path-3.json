@@ -1,0 +1,158 @@
+{
+  "name": "Starforged Path Assets (3 of 4: Firebrand-Naturalist)",
+  "game": "starforged",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn: Starforged Assets by Shawn Tomkin. https://ironswornrpg.com",
+  "assets": {
+    "firebrand": {
+      "name": "Firebrand", "category": "Path",
+      "controls": { "fire": { "field_type": "condition_meter", "label": "fire", "max": 5, "value": 0, "min": 0 } },
+      "abilities": [
+        {
+          "text": "You wield fiery energy. When you rest and meditate to gather this energy, roll +spirit. On a strong hit, take up to +3 fire. On a weak hit, take +2. On a miss, take +2 fire but Endure Harm (-2). Your max fire is +5. When you make moves aided by this energy to attack or overcome obstacles, add +2 and suffer -1 fire.",
+          "enabled": true,
+          "moves": {
+            "gather_energy": {
+              "name": "Gather Energy", "roll_type": "action_roll",
+              "trigger": { "text": "When you rest and meditate to gather fiery energy...", "conditions": [ { "method": "player_choice", "roll_options": [ { "using": "condition_meter", "condition_meter": "spirit" } ] } ] },
+              "outcomes": {
+                "strong_hit": { "text": "On a strong hit, take up to +3 fire.\n\nWhen you make moves aided by this energy to attack or overcome obstacles, add +2 and suffer -1 fire." },
+                "weak_hit": { "text": "On a weak hit, take up to +2 fire.\n\nWhen you make moves aided by this energy to attack or overcome obstacles, add +2 and suffer -1 fire." },
+                "miss": { "text": "On a miss, take up to +2 fire but Endure Harm (-2).\n\nWhen you make moves aided by this energy to attack or overcome obstacles, add +2 and suffer -1 fire." }
+              }
+            }
+          }
+        },
+        { "text": "When you Endure Harm and score a strong hit with a match, you may instead ignore the harm and take +fire equal to the amount of harm faced (+1, +2, or +3).", "enhance_moves": [ { "enhances": ["starforged/moves/suffer/endure_harm"], "roll_type": "action_roll" } ] },
+        { "text": "When you have at least +3 fire, you may Gain Ground or Strike by unleashing hell. If you do, take an automatic strong hit and mark progress. Then, set your fire to 0.", "enhance_moves": [ { "enhances": ["starforged/moves/combat/gain_ground", "starforged/moves/combat/strike"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When you have at least +3 fire and unleash hell", "method": "strong_hit" } ] } } ] }
+      ]
+    },
+    "fugitive": {
+      "name": "Fugitive", "category": "Path",
+      "abilities": [
+        { "text": "You are hunted by a power or authority. When you make a move, you may improve the result to a strong hit. If you do, fill one segment of a four-segment clock to represent hunters closing in. When the clock is filled, a notable foe or force has tracked you down. If you overcome them or escape, reset the clock and mark 1 tick on your quests legacy track.", "enabled": true, "controls": { "clock": { "label": "notable foe or force tracks you down", "field_type": "clock", "max": 4, "value": 0, "min": 0 } }, "note": "Source has a '# TODO' comment considering a clock-event object/message system not yet modeled." },
+        { "text": "When you make a move by hiding, concealing your identity, or fleeing from a pursuer, add +1 and take +1 momentum on a hit.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By hiding, concealing your identity, or fleeing from a pursuer" } ] } } ] },
+        { "text": "When you Fulfill Your Vow (extreme or greater) by clearing your name or defeating the power or authority who marked you as a fugitive, gain this ability at no cost. You may then exchange this asset for another with the same number of marked abilities.", "note": "Source has a '# TODO' comment noting this isn't yet structured as enhance_moves data." }
+      ]
+    },
+    "gearhead": {
+      "name": "Gearhead", "category": "Path",
+      "abilities": [
+        { "text": "When you make a move to craft, repair, repurpose, or modify equipment or technology, add +1 and take +1 momentum on a hit.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To craft, repair, repurpose, or modify equipment or technology" } ] } } ] },
+        { "text": "When you Gather Information by studying or disassembling a machine or device, reroll any dice. On a match, you reveal an unexpected function, capability, or danger; mark 1 tick on your discoveries legacy track.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/gather_information"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By studying or disassembling a machine or device" } ] } } ] },
+        { "text": "With sufficient time (a couple of hours or more), you may Secure an Advantage to assemble or enhance a device for a powerful but limited role. On a hit, the device is ready for use. One time only, when you or an ally make a move aided by the device, take an automatic strong hit. If you are in a fight, also mark progress.", "enhance_moves": [ { "enhances": ["starforged/moves/*/secure_an_advantage"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By spending sufficient time (a couple of hours or more) to assemble or enhance a device for a powerful but limited role" } ] } } ], "note": "Source has a '# TODO' comment about a separate move extension for the device's one-time use." }
+      ]
+    },
+    "gunner": {
+      "name": "Gunner", "category": "Path",
+      "requirement": "If you wield a heavy ranged personal weapon...",
+      "abilities": [
+        { "text": "When you Strike, choose one (before rolling).\n\n* Pin them down: Add +1 and take +1 momentum on a hit.\n* Make them hurt: Mark progress on a hit.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/combat/strike"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "With a heavy ranged personal weapon, and choose to pin them down (before rolling)" } ] } }, { "enhances": ["starforged/moves/combat/strike"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "With a heavy ranged personal weapon, and choose to make them hurt (before rolling)" } ] } } ] },
+        { "text": "When you Take Decisive Action by emptying your gun (decide before rolling), you may Sacrifice Resources (-1) and reroll one challenge die. If the fight continues or you are caught up another fight, Check Your Gear to see if you have more ammo on-hand.", "enhance_moves": [ { "enhances": ["starforged/moves/combat/take_decisive_action"], "roll_type": "progress_roll", "trigger": { "conditions": [ { "text": "By emptying your gun as you Sacrifice Resources (-1)" } ] } } ] },
+        { "text": "Give your favorite gun a name. When you Clash with it, add +1. When you Enter the Fray or Endure Stress while wielding it, add +1 and take +1 momentum on a hit.", "options": { "name": { "label": "name", "field_type": "text" } }, "enhance_moves": [ { "enhances": ["starforged/moves/combat/clash"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "With your favorite gun" } ] } }, { "enhances": ["starforged/moves/combat/enter_the_fray", "starforged/moves/suffer/endure_stress"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "While wielding your favorite gun" } ] } } ] }
+      ]
+    },
+    "gunslinger": {
+      "name": "Gunslinger", "category": "Path",
+      "requirement": "If you wield a pistol...",
+      "abilities": [
+        { "text": "When you Enter the Fray by facing off against your foe (+heart), or by preparing to act without tipping them off (+shadow), add +1 and take +1 momentum on a hit. On a strong hit with a match, you may immediately take a shot (without making a move) and mark progress twice.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/combat/enter_the_fray"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By facing off against your foe", "roll_options": [ { "using": "stat", "stat": "heart" } ] }, { "text": "By preparing to act without tipping off your foe", "roll_options": [ { "using": "stat", "stat": "shadow" } ] } ] } } ] },
+        { "text": "When you Gain Ground or React Under Fire by moving into cover, add +1. On a strong hit, this cover gives you leverage; add +1 when you make a move to attack or defend at range. If you then score a miss, the cover is lost or compromised.", "enhance_moves": [ { "enhances": ["starforged/moves/combat/gain_ground", "starforged/moves/combat/react_under_fire"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By moving into cover" } ] } } ] },
+        { "text": "When you Compel or Gain Ground with the threat of violence by holding someone at gunpoint, add +1 and take +1 momentum on a hit.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/compel", "starforged/moves/combat/gain_ground"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "With the threat of violence by holding someone at gunpoint" } ] } } ] }
+      ]
+    },
+    "haunted": {
+      "name": "Haunted", "category": "Path",
+      "abilities": [
+        { "text": "You are haunted by the spirit of someone whose death you caused or mourn (or both). When you make a move to call upon their insight, add +1. On a weak hit, also Endure Stress (-1). On a strong hit with a match, mark 1 tick on your bonds legacy track.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When you make a move to call upon the insight of the spirit that haunts you" } ] } } ] },
+        { "text": "When you Face Death guided by the spirit, add +1. On a strong hit, envision what you learn from them or about them, and mark 2 ticks on your bonds legacy track.", "enhance_moves": [ { "enhances": ["starforged/moves/threshold/face_death"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Guided by the spirit that haunts you" } ] } } ] },
+        { "text": "One time only, when you Fulfill Your Vow (extreme or greater) in service to the spirit, take this ability at no cost and choose one.\n\n* Let them go: Mark 2 ticks on your bonds legacy track for each marked ability, and discard this asset.\n* Bolster your link: When you use a Haunted asset ability, take +1 momentum on a hit." }
+      ]
+    },
+    "healer": {
+      "name": "Healer", "category": "Path",
+      "abilities": [
+        { "text": "When you give medical care to Heal yourself or another character, add +1. If you are treating someone other than yourself, take +1 spirit or +1 momentum on a hit.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/recover/heal"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Give medical care to yourself" } ] } }, { "enhances": ["starforged/moves/recover/heal"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Give medical care to another character" } ] } } ] },
+        { "text": "When you Gather Information by studying medical evidence or biological remains, add +1 and take +1 momentum on a hit. On a strong hit with a match, you also reveal an unexpected medical anomaly; mark 1 tick on your discoveries legacy track.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/gather_information"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By studying medical evidence or biological remains" } ] } } ] },
+        { "text": "Once every day or so, when you are in a safe place with plenty of time on your hands, you may Sacrifice Resources (-1) and provide basic medical care for yourself, companions, or allies without risk. If you do, roll only your action die. On a 1-4, automatically give +1 health to everyone whose health is greater than 0. On a 5-6, make it +2.", "note": "Source has a '# TODO: style as move?' comment." }
+      ]
+    },
+    "infiltrator": {
+      "name": "Infiltrator", "category": "Path",
+      "abilities": [
+        { "text": "When you make a move to break into a secure site, infiltrate a protected area, or hack or manipulate a secure system, add +1 and take +1 momentum on a hit. On a strong hit with a match, access is easier than expected; take another +1 momentum.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To break into a secure site, infiltrate a protected area, or hack or manipulate a secure system" } ] } } ] },
+        { "text": "When you Face Danger or Secure an Advantage to establish a false identity, add +1. On a hit, you may add +1 when using that identity to deceive or influence others. If you score a miss with a match when using that identity, your deception is completely and dramatically undone.", "enhance_moves": [ { "enhances": ["starforged/moves/*/face_danger", "starforged/moves/*/secure_an_advantage"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To establish a false identity" } ] } } ] },
+        { "text": "When you Check Your Gear for a device with a specific function to aid in infiltration, espionage, or sabotage, add +1. On a hit, reroll any dice the first time you make a move aided by the device.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/check_your_gear"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "For a device with a specific function to aid in infiltration, espionage, or sabotage" } ] } } ] }
+      ]
+    },
+    "kinetic": {
+      "name": "Kinetic", "category": "Path",
+      "abilities": [
+        { "text": "You wield kinetic powers. By focusing, you may remotely push, pull, lift, or constrict objects and beings that are about your size or smaller. When you are in a risky situation and draw on your powers to make a move, add +2 and Lose Momentum (-2).", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When you are in a risky situation and draw on your kinetic powers to make a move" } ] } } ] },
+        { "text": "As above, but you may instead draw on your powers in a desperate effort to change the outcome of an action. If you do, add +2 (after you roll) and Lose Momentum (-3).", "note": "Source has '# TODO' comments about modeling a non-move, after-the-fact trigger." },
+        { "text": "When your momentum is at its max, you may attempt great kinetic feats, such as manipulating large objects and creating destructive bursts of concussive force. To do so, reset momentum. Then, as you make a single move fueled by your powers, take an automatic strong hit. If you are in a fight, mark progress.", "note": "Source has a '# TODO' comment about flagging the max-momentum requirement.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Your momentum is at its max, and you reset your momentum to attempt great kinetic feats (such as manipulating large objects and creating destructive bursts of concussive force)", "method": "strong_hit" } ] } } ] }
+      ]
+    },
+    "leader": {
+      "name": "Leader", "category": "Path",
+      "abilities": [
+        { "text": "When you Aid Your Ally through leadership, coordination, or planning, add +1. On a strong hit, any allies who are present take +1 momentum.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/adventure/aid_your_ally"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When you Aid Your Ally through leadership, coordination, or planning" } ] } } ] },
+        { "text": "When you Enter the Fray (+heart) by coordinating with your team as they wade into the fight, make your move before your allies act. On a strong hit, all allies may take an automatic strong hit. On a strong hit with a match, also mark progress on any objectives in this fight.", "enhance_moves": [ { "enhances": ["starforged/moves/combat/enter_the_fray"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By coordinating with your team as they wade into the fight", "roll_options": [ { "using": "stat", "stat": "heart" } ] }, { "text": "Coordinated by a Leader who scores a strong hit on Enter the Fray (+heart)", "by": { "player": false, "ally": true }, "method": "strong_hit" } ] } } ] },
+        { "text": "When you make a move to influence someone (not an ally) through leadership, add +1 and take +1 momentum on a hit. On a strong hit with a match, your command galvanizes them into unexpected action. Take another +1 momentum, and mark 1 tick on your bonds legacy track.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To influence someone (not an ally) through leadership" } ] } } ] }
+      ]
+    },
+    "looper": {
+      "name": "Looper", "category": "Path",
+      "abilities": [
+        { "text": "When you score a miss on a suffer move (not Endure Stress), you may loop back a second or two. If you do, Lose Momentum (-2), reroll any dice, and take +1 momentum on a strong hit.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/suffer/endure_harm", "starforged/moves/suffer/companion_takes_a_hit", "starforged/moves/suffer/withstand_damage"], "roll_type": "action_roll" } ], "note": "Source has a '# TODO' comment about a possible cost option here." },
+        {
+          "text": "When you create a link to the current point in time, note the value of condition meters for you and your allies. You can retain only one active link. If you later loop back to this moment, roll +the gap in time: +4 if minutes, +3 if hours, or +2 if days. You may not burn momentum on this roll. On a strong hit, return to the linked point, retain any progress, and set condition meters (except for spirit) to their original values. On a weak hit, as above, but Endure Stress (-2). On a miss, as with a strong hit, but you find the timeline corrupted; Pay the Price.",
+          "moves": {
+            "loop_back": {
+              "name": "Loop Back", "roll_type": "action_roll",
+              "trigger": { "text": "When you loop back to a linked moment in time...", "conditions": [ { "method": "player_choice", "roll_options": [ { "using": "custom", "label": "minutes", "value": 4 }, { "using": "custom", "label": "hours", "value": 3 }, { "using": "custom", "label": "days", "value": 2 } ] } ] },
+              "outcomes": {
+                "strong_hit": { "text": "On a strong hit, you and your allies return to the linked point, retain any progress, and set condition meters (except for spirit) to their original values." },
+                "weak_hit": { "text": "On a weak hit, you and your allies return to the linked point, retain any progress, and set condition meters (except for spirit) to their original values.\n\nHowever, you Endure Stress (-2)." },
+                "miss": { "text": "On a miss, you and your allies return to the linked point, retain any progress, and set condition meters (except for spirit) to their original values.\n\nHowever, you find the timeline corrupted! Pay the Price." }
+              }
+            }
+          }
+        },
+        { "text": "When you make a reroll granted by any asset ability on an action roll, also add +1.", "note": "Source has '# TODO' comments questioning how to model this applying to every asset-granted reroll." }
+      ]
+    },
+    "lore_hunter": {
+      "name": "Lore Hunter", "category": "Path",
+      "abilities": [
+        { "text": "When you Swear an Iron Vow (formidable or greater) to recover valuable knowledge or an extraordinary relic, reroll any dice. When you Reach a Milestone in the pursuit of that quest, take +2 momentum. When you Fulfill Your Vow and score a hit, also mark 2 ticks on your discoveries legacy track.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/quest/swear_an_iron_vow"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To recover valuable knowledge or an extraordinary relic (formidable or greater)" } ] } }, { "enhances": ["starforged/moves/quest/reach_a_milestone"], "roll_type": "no_roll" }, { "enhances": ["starforged/moves/quest/fulfill_your_vow"], "roll_type": "progress_roll", "trigger": { "conditions": [ { "text": "To recover valuable knowledge or an extraordinary relic (formidable or greater)" } ] } } ] },
+        { "text": "When you make a move to conduct extended research or study, reroll any challenge dice. On a match, you piece together an extraordinary or harrowing new theory; envision the nature of this revelation and mark 1 tick on your discoveries legacy track.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To conduct extended research or study" } ] } } ] },
+        { "text": "When you recall esoteric knowledge to Secure an Advantage or Gain Ground, add +1. On a hit, envision the obscure but helpful fact, theory, or technique you put to use, and take +1 momentum.", "enhance_moves": [ { "enhances": ["starforged/moves/*/secure_an_advantage", "starforged/moves/combat/gain_ground"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When you recall esoteric knowledge" } ] } } ] }
+      ]
+    },
+    "loyalist": {
+      "name": "Loyalist", "category": "Path",
+      "abilities": [
+        { "text": "When you Aid Your Ally, add +1 and take +1 momentum on a hit. This is in addition to the benefits taken by your ally. On a strong hit with a match, envision how this moment marks a breakthrough or milestone in your relationship; both of you may mark 1 tick on your bonds legacy track.", "enabled": true, "enhance_moves": [ { "roll_type": "no_roll", "enhances": ["starforged/moves/adventure/aid_your_ally"] } ] },
+        { "text": "You may burn momentum on behalf of an ally to improve their result on a move. If you do, your ally takes +1 momentum." },
+        { "text": "When you stand with your ally as they make a progress move, envision how you support them. Then, roll one challenge die. On a 1-9, your ally may replace one of their challenge dice with yours. On a 10, envision how you inadvertently undermine their action; your ally must replace their lowest challenge die with yours.", "enhance_moves": [ { "roll_type": "progress_roll", "trigger": { "conditions": [ { "text": "When you stand with your ally as they make a progress move", "by": { "ally": true, "player": false } } ] } } ] }
+      ]
+    },
+    "mercenary": {
+      "name": "Mercenary", "category": "Path",
+      "abilities": [
+        { "text": "When you agree to wage war or defend others from war in exchange for payment or promises, you may Swear an Iron Vow to see the mission done. If you do, reroll any dice. When you Fulfill Your Vow, make the legacy reward one rank higher (1 extra box if already epic).", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/quest/swear_an_iron_vow"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To wage war or defend others from war in exchange for payment or promises" } ] } }, { "enhances": ["starforged/moves/quest/fulfill_your_vow"], "roll_type": "progress_roll", "trigger": { "conditions": [ { "text": "To wage war or defend others from war in exchange for payment or promises" } ] } } ] },
+        { "text": "When you Make a Connection by searching out or making contact with someone in need of your services, add +1 and take +1 momentum on a hit. On a strong hit with a match, this mission pits you against an unresolved aspect of your past or a hated foe; mark 2 ticks on your quests legacy track.", "enhance_moves": [ { "enhances": ["starforged/moves/connection/make_a_connection"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By searching out or making contact with someone in need of your services" } ] } } ] },
+        { "text": "When you Check Your Gear in the midst of a fight, or Resupply by looting the field of battle in the aftermath of a fight, add +2.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/check_your_gear"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "In the midst of a fight" } ] } }, { "enhances": ["starforged/moves/recover/resupply"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By looting the field of battle in the aftermath of a fight" } ] } } ] }
+      ]
+    },
+    "naturalist": {
+      "name": "Naturalist", "category": "Path",
+      "abilities": [
+        { "text": "When you Secure an Advantage or Gather Information using your knowledge of lifeforms or planetside ecosystems, add +1 and take +1 momentum on a hit. On a strong hit with a match, you also confirm an obscure theory or reveal a surprising aspect of the encounter; mark 1 tick on your discoveries legacy track.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/*/secure_an_advantage", "starforged/moves/adventure/gather_information"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Using your knowledge of lifeforms or planetside ecosystems" } ] } } ] },
+        { "text": "When you make a move by taking a risky action to pacify, avoid, or outwit a creature (decide before rolling), you may reroll any dice, but must Lose Momentum (-2).", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By taking a risky action to pacify, avoid, or outwit a creature" } ] } } ] },
+        { "text": "You are skilled at planetside survival. When you Resupply to scavenge resources in a life-bearing natural environment, take +1 supply on a hit. When you Face Danger against an environmental threat, add +1 and take +1 momentum on a hit.", "enhance_moves": [ { "enhances": ["starforged/moves/recover/resupply"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To scavenge resources in a life-bearing natural environment" } ] } }, { "enhances": ["starforged/moves/*/face_danger"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Against an environmental threat" } ] } } ] }
+      ]
+    }
+  }
+}
