@@ -53,8 +53,9 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Companion Assets](rules/assets-companion/) — Allies, pets, bots, and symbiotes
 - [Module Assets](rules/assets-module/) — Starship upgrades and add-ons
 - [Path Assets](rules/assets-path/) — All 46 character specializations, from Ace to Weapon Master
+- [Oracle Tables](../oracles/) — Randomness and creative prompts (Core and Campaign Launch categories so far; more to come)
 
-More sections (oracles) are in progress and will be added here as each is completed.
+More oracle categories are in progress and will be added here as each is completed.
 
 </div>
 
@@ -73,7 +74,9 @@ Machine-readable JSON for tools and widgets:
 - [companion.json](../../games/starforged/rules/assets/companion.json) — companion assets
 - [module.json](../../games/starforged/rules/assets/module.json) — module assets
 - [path-1.json](../../games/starforged/rules/assets/path-1.json), [path-2.json](../../games/starforged/rules/assets/path-2.json), [path-3.json](../../games/starforged/rules/assets/path-3.json), [path-4.json](../../games/starforged/rules/assets/path-4.json) — path assets (split across 4 files, 46 assets total)
+- [core.json](../../games/starforged/oracles/core.json) — Action, Theme, Descriptor, Focus
+- [campaign-launch.json](../../games/starforged/oracles/campaign-launch.json) — Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident
 
-Oracle table JSON is in progress and will be added here as each is completed.
+More oracle category JSON is in progress and will be added here as each is completed.
 
 </div>
