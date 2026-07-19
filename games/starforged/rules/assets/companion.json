@@ -1,0 +1,123 @@
+{
+  "name": "Starforged Companion Assets",
+  "game": "starforged",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn: Starforged Assets by Shawn Tomkin. https://ironswornrpg.com",
+  "collection": {
+    "name": "Companion Assets",
+    "page": 57,
+    "description": "Companions are NPC helpers. When you gain a companion, give them a name and envision their look and personality.\n\nCompanions utilize a health meter that can be reduced if an outcome puts them in harm's way. When your companion faces harm, make the Companion Takes a Hit move. When their health is at 0, they are in danger of being killed or destroyed."
+  },
+  "assets": {
+    "banshee": {
+      "name": "Banshee", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 4, "value": 4, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/heal"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your banshee companion accompanies you on planetside missions, using its echolocation to help guide the way. When you ride your banshee as you Undertake an Expedition or Set a Course, you may roll +its health.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/exploration/undertake_an_expedition", "starforged/moves/exploration/set_a_course"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "While riding your banshee", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] },
+        { "text": "When you make a move astride the banshee to detect a threat or avoid a fight, add +1 and take +1 momentum on a hit. On a strong hit with a match, you're gone in a flash; take another +1 momentum.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To detect a threat or avoid a fight (while astride your banshee)" } ] } } ] },
+        { "text": "When you make a combat move and roll a 1 on your action die, the banshee senses the danger and emits a powerful scream to alert you or distract your foes. You may reroll that die.", "enhance_moves": [ { "enhances": ["*/moves/combat/*"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When aided by your banshee" } ] } } ] }
+      ]
+    },
+    "combat_bot": {
+      "name": "Combat Bot", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 5, "value": 5, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/repair"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your combat bot companion fights at your side. When you Strike aided by the bot, add +1; if you Clash, take +1 momentum on a hit.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/combat/strike"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Aided by your combat bot" } ] } }, { "enhances": ["starforged/moves/combat/clash"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Aided by your combat bot" } ] } } ] },
+        { "text": "When you use the threat of violence to Compel or Gain Ground while the bot brings its weapons to bear, you may roll +its health. If you do, take +1 momentum on a hit. On a strong hit with a match, the bot's display is especially persuasive; take another +1 momentum.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/compel", "starforged/moves/combat/gain_ground"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Using the threat of violence while the bot brings its weapons to bear", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] },
+        { "text": "Once per fight, when you React Under Fire by using the bot to draw fire or create a diversion, roll +its health. On a strong hit, mark progress. On a weak hit, face the cost as normal, but then you are in control.", "enhance_moves": [ { "enhances": ["starforged/moves/combat/react_under_fire"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Once per fight, by using the combat bot to draw fire or create a diversion", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] }
+      ]
+    },
+    "glowcat": {
+      "name": "Glowcat", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 3, "value": 3, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/heal"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your glowcat companion perceives the inner emotions and intentions of people and creatures in its vicinity, and embodies those impressions through the colors and intensity of its luminescent fur. When you Secure an Advantage by studying the glowcat's reactions in a charged interaction, add +its health.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/*/secure_an_advantage"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By studying your glowcat's reactions in a charged interaction" } ] } } ] },
+        { "text": "When you Compel, the glowcat's reactions will help guide your approach; you may reroll your action die if its value is less than the glowcat's health.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/compel"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When your glowcat's reactions help guide your approach" } ] } } ] },
+        { "text": "When you Endure Stress in the company of the glowcat, add +1. On a strong hit with a match, take +momentum equal to their health.", "enhance_moves": [ { "enhances": ["starforged/moves/suffer/endure_stress"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "In the company of the glowcat" } ] } } ] }
+      ]
+    },
+    "protocol_bot": {
+      "name": "Protocol Bot", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 3, "value": 3, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/repair"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your protocol bot companion is programmed with knowledge of cultures, languages, and customs. When you are aided by the bot as you make a move in a formal social interaction, add +1. On a strong hit with a match, you learn something which builds understanding or empathy; also mark 1 tick on your bonds legacy track.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "When you are aided by the bot as you make a move in a formal social interaction" } ] } } ] },
+        { "text": "When you first visit or interact with a new community or culture, you may ask for the bot's insight. If you do, envision what you learn and take +1 momentum.", "note": "Source has a '# TODO: non-move trigger' comment -- not yet modeled as structured enhance_moves data in datasworn." },
+        { "text": "If you make a move in a charged interaction and the value of your action die is less than the bot's health, you may reroll it as the bot interjects with their commentary or advice.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "In a charged interaction" } ] } } ] }
+      ]
+    },
+    "rockhorn": {
+      "name": "Rockhorn", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 5, "value": 5, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/heal"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your rockhorn companion uses its resilient, stone-like hide and brute strength to overcome threats. When you make a move by sending the rockhorn to directly attack a foe or smash an obstacle, roll +its health.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By sending the rockhorn to directly attack a foe or smash an obstacle", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] },
+        { "text": "When you make the Companion Takes a Hit move for the rockhorn, count a weak hit as a strong hit. On a strong hit with a match, its rapid healing makes it unstoppable; give it another +1 health or take +1 momentum.", "enhance_moves": [ { "enhances": ["starforged/moves/suffer/companion_takes_a_hit"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "For the rockhorn", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] },
+        { "text": "The rockhorn will come to your aid in your most vulnerable moments. When you Endure Harm or Endure Stress and score a miss, you may reroll your action die if its value is less than the rockhorn's health.", "enhance_moves": [ { "enhances": ["starforged/moves/suffer/endure_harm", "starforged/moves/suffer/endure_stress"], "roll_type": "action_roll" } ] }
+      ]
+    },
+    "sidekick": {
+      "name": "Sidekick", "category": "Companion",
+      "options": { "name": { "label": "name", "field_type": "text" }, "expertise": { "label": "expertise", "field_type": "text" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 4, "value": 4, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/heal"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your sidekick has a helpful expertise. When you make a move outside of a fight directly aided by their expertise, you may reroll your action die if its value is less than your sidekick's health. If you then score a strong hit with a match, mark 1 tick on your bonds legacy track.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Directly aided by your sidekick's expertise (outside of a fight)" } ] } } ] },
+        { "text": "When you Enter the Fray with the support of your sidekick, take +2 momentum on a hit. When you Clash together, add +1.", "enhance_moves": [ { "enhances": ["starforged/moves/combat/enter_the_fray"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "With the support of your sidekick" } ] } }, { "enhances": ["starforged/moves/combat/clash"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Together with your sidekick" } ] } } ] },
+        { "text": "When your sidekick acts to get you out of a tough spot, you may Face Danger or React Under Fire and roll +their health (instead of your own stat). On a hit, take +1 momentum.", "enhance_moves": [ { "enhances": ["starforged/moves/*/face_danger", "starforged/moves/combat/react_under_fire"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Your sidekick acts to get you out of a tough spot", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] }
+      ]
+    },
+    "sprite": {
+      "name": "Sprite", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 2, "value": 2, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/heal"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your sprite companion alters its delicate, crystalline form to fly, swim, or scurry, and can covertly navigate even the harshest of environments. When you make a move by sending it to perform trickery (such as creating a distraction, sneaking into a protected location, or stealing an object) add +its health.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By sending your sprite to perform trickery (such as creating a distraction, sneaking into a protected location, or stealing an object)" } ] } } ] },
+        { "text": "You are attuned to the resonance of the sprite's crystalline structure, and can communicate with it at a distance and perceive through its senses. When you Secure an Advantage by observing a situation from its perspective, or remotely Gather Information, add +its health.", "enhance_moves": [ { "enhances": ["starforged/moves/*/secure_an_advantage", "starforged/moves/adventure/gather_information"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By remotely observing a situation from your sprite's perspective" } ] } } ] },
+        { "text": "With a moment's rest, the sprite can mend its form and return automatically to max health." }
+      ]
+    },
+    "survey_bot": {
+      "name": "Survey Bot", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 3, "value": 3, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/repair"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your survey bot companion scans the path ahead. When you Undertake an Expedition (+wits) overland or within a site, add +1.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/exploration/undertake_an_expedition"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Overland or within a site (assisted by your survey bot)", "roll_options": [ { "using": "stat", "stat": "wits" } ] } ] } } ] },
+        { "text": "Once per expedition, when you Secure an Advantage by sending the bot to scout ahead, roll +its health. On a hit, also mark progress on the expedition. On a strong hit with a match, the bot uncovers an unexpected feature or location; envision what it reveals and mark 1 tick on your discoveries legacy track.", "enhance_moves": [ { "enhances": ["starforged/moves/*/secure_an_advantage"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Once per expedition, by sending the survey bot to scout ahead", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] },
+        { "text": "When you Explore a Waypoint aided by the bot's sensors, or Face Danger to detect a threat, roll +its health and take +1 momentum on a hit.", "enhance_moves": [ { "enhances": ["starforged/moves/exploration/explore_a_waypoint"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Aided by the survey bot's sensors", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } }, { "enhances": ["starforged/moves/*/face_danger"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To detect a threat", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] }
+      ]
+    },
+    "symbiote": {
+      "name": "Symbiote", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 2, "value": 2, "moves": { "recover": ["starforged/moves/suffer/endure_stress"], "suffer": ["starforged/moves/suffer/companion_takes_a_hit"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "You are physically bound to a being with 2 health. When you make aggressive moves while giving yourself to the symbiote's power, add +its health. If you face physical harm, choose either the Endure Harm or Companion Takes a Hit move. To restore the symbiote's health, you must Endure Stress and give the symbiote +health equal to the -spirit you face. If you make a move aided by the symbiote and roll a 1 on your action die, your fragile bond is broken for several hours.", "enabled": true, "note": "Source has a '# TODO: move to restore symbiote health?' comment -- not yet fully modeled upstream.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Make an aggressive move while giving yourself to the symbiote's power" } ] } } ] },
+        { "text": "When you make a move and heed the symbiote's guidance (decide after rolling), you may reroll any dice. Then, Endure Stress (-2).", "enhance_moves": [ { "roll_type": "action_roll" } ] },
+        { "text": "The symbiote gains power and has 3 health.", "enhance_asset": { "controls": { "health": { "field_type": "condition_meter", "max": 3 } } } }
+      ]
+    },
+    "utility_bot": {
+      "name": "Utility Bot", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 4, "value": 4, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/repair"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your utility bot companion has helpful tools at-hand. When you make a move by directing it to access a system, cut through an obstacle, analyze a mechanical issue, or assemble or disassemble a device, roll +its health and take +1 momentum on a hit. On a strong hit with a match, it reveals an unexpected advantage or insight; take another +1 momentum.", "enabled": true, "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "By directing the utility bot to access a system, cut through an obstacle, analyze a mechanical issue, or assemble or disassemble a device", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] },
+        { "text": "When you Repair aided by the bot, add +1. On a miss, it reveals an alternative approach which will take extra time; you may reroll any dice, but first Lose Momentum (-2).", "enhance_moves": [ { "enhances": ["starforged/moves/recover/repair"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "Aided by the bot" } ] } } ] },
+        { "text": "When you Check Your Gear to see if the bot has a specific tool or technique available, roll +its health and take +1 momentum on a hit.", "enhance_moves": [ { "enhances": ["starforged/moves/adventure/check_your_gear"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "To see if your utility bot has a specific tool or technique available", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] }
+      ]
+    },
+    "voidglider": {
+      "name": "Voidglider", "category": "Companion",
+      "options": { "name": { "field_type": "text", "label": "name" } },
+      "controls": { "health": { "label": "health", "min": 0, "field_type": "condition_meter", "max": 4, "value": 4, "moves": { "suffer": ["starforged/moves/suffer/companion_takes_a_hit"], "recover": ["starforged/moves/recover/heal"] }, "controls": { "out_of_action": { "label": "out of action", "field_type": "checkbox", "disables_asset": true } } } },
+      "abilities": [
+        { "text": "Your voidglider companion cruises in your starship's energy wake and can help guide the way on spaceborne journeys. When you Undertake an Expedition, add +1.", "enabled": true, "enhance_moves": [ { "enhances": ["starforged/moves/exploration/undertake_an_expedition"], "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "On a spaceborne journey as your voidglider helps guide the way" } ] } } ] },
+        { "text": "The voidglider is harnessed and trained as a mount, and can be ridden for short-range spacebound transport. When you are riding the voidglider and make a move to detect or evade a threat by relying on its instincts, roll +its health.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "You are riding the voidglider and make a move to detect or evade a threat by relying on its instincts", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] },
+        { "text": "When you make a move by signaling the voidglider to distract or attack a spaceborne foe, roll +its health and take +1 momentum on a hit.", "enhance_moves": [ { "roll_type": "action_roll", "trigger": { "conditions": [ { "text": "You make a move by signaling the voidglider to distract or attack a spaceborne foe", "method": "player_choice", "roll_options": [ { "using": "asset_control", "control": "health" } ] } ] } } ] }
+      ]
+    }
+  }
+}
