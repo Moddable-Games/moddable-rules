@@ -47,8 +47,9 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Your Character](rules/character/) — Stats, condition meters, momentum, assets, vehicles, legacy tracks, and character creation
 - [Moves](rules/moves/) — All 56 moves across 12 categories: Session, Adventure, Quest, Connection, Exploration, Combat, Suffer, Recover, Threshold, Legacy, Fate, Scene Challenge
 - [Setting Truths](rules/truths/) — 14 categories that define your campaign's history, culture, and technology
+- [Encounters](rules/encounters/) — 23 sample NPCs, creatures, machines, and horrors for GMs to draw on
 
-More sections (assets, foes) are in progress and will be added here as each is completed.
+More sections (assets, oracles) are in progress and will be added here as each is completed.
 
 </div>
 
@@ -61,6 +62,7 @@ Machine-readable JSON for tools and widgets:
 - [moves.json](../../games/starforged/moves/moves.json) — structured moves data: typed triggers, roll options, and strong/weak/miss outcomes
 - [rules.json](../../games/starforged/rules/rules.json) — condition meters, impacts, progress tracks, stats, and tags
 - [truths.json](../../games/starforged/rules/truths.json) — the 14 setting truth categories, their options, and quest starters
+- [encounters.json](../../games/starforged/rules/encounters.json) — the 23 sample NPCs, their features, drives, tactics, and variants
 
 Oracle table JSON is in progress and will be added here as each is completed.
 
