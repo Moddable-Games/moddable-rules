@@ -43,9 +43,11 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 
 ### Core Rules
 
+- [The Basics](rules/basics/) — The action roll, momentum, progress tracks, condition meters, impacts, equipment, and oracles
+- [Your Character](rules/character/) — Stats, condition meters, momentum, assets, vehicles, legacy tracks, and character creation
 - [Moves](rules/moves/) — All 56 moves across 12 categories: Session, Adventure, Quest, Connection, Exploration, Combat, Suffer, Recover, Threshold, Legacy, Fate, Scene Challenge
 
-More sections (character stats and tracks, assets, foes, setting truths) are in progress and will be added here as each is completed.
+More sections (assets, foes, setting truths) are in progress and will be added here as each is completed.
 
 </div>
 
