@@ -51,8 +51,9 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Races](rules/races/) — Dwarves, elves, gnomes, half-elves, half-orcs, halflings, humans
 - [Skills](rules/skills/) — Skill mechanics, Acrobatics through Intimidate
 - [Skills (continued)](rules/skills-2/) — Knowledge through Use Magic Device
+- [Classes](rules/classes/) — The 11 core classes, character advancement, multiclassing, favored class, prestige classes
 
-More rules sections (Classes overview, Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
+More rules sections (individual class write-ups, Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
 </div>
 
