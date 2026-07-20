@@ -60,6 +60,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Bard](rules/bard/) — Full class write-up: bardic performance, spells known, versatile performance
 - [Barbarian](rules/barbarian/) — Full class write-up: rage, all 24 rage powers, damage reduction
 - [Wizard](rules/wizard/) — Full class write-up: arcane bond, all 9 arcane schools, familiars
+- [Druid](rules/druid/) — Full class write-up: nature bond, wild shape, animal companion mechanics
 
 More rules sections (remaining individual class write-ups, Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
