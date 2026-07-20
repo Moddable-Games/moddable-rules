@@ -1,0 +1,107 @@
+{
+  "label": "D&D 5e SRD",
+  "dataPath": "games/dnd-5e/data/",
+  "rulesUrl": "dist/dnd-5e/",
+  "dataType": "entity",
+  "categories": [
+    {
+      "id": "spells",
+      "label": "Spells",
+      "file": "spells.json",
+      "color": "#7b5ea7",
+      "searchFields": ["name", "school.name"],
+      "tag": { "field": "level", "prefix": "Lvl " },
+      "linkPath": "spells/{level|levelSlug}/"
+    },
+    {
+      "id": "monsters",
+      "label": "Monsters",
+      "file": "monsters.json",
+      "color": "#c0392b",
+      "searchFields": ["name", "type"],
+      "tag": { "field": "challenge_rating", "prefix": "CR " },
+      "linkPath": "monsters/{name|alphaGroup}/"
+    },
+    {
+      "id": "classes",
+      "label": "Classes",
+      "file": "classes.json",
+      "color": "#2980b9",
+      "searchFields": ["name"],
+      "linkPath": "classes/{name|kebabCase}/"
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "file": "equipment.json",
+      "color": "#7f8c8d",
+      "searchFields": ["name", "equipment_category.name"],
+      "tag": { "field": "equipment_category.name" },
+      "linkPath": null
+    },
+    {
+      "id": "magic-items",
+      "label": "Magic Items",
+      "file": "magic-items.json",
+      "color": "#d4ac0d",
+      "searchFields": ["name"],
+      "tag": { "field": "rarity.name" },
+      "linkPath": "magic-items/{name|alphaGroup}/"
+    },
+    {
+      "id": "races",
+      "label": "Races",
+      "file": "races.json",
+      "color": "#27ae60",
+      "searchFields": ["name"],
+      "linkPath": "rules/races/"
+    },
+    {
+      "id": "conditions",
+      "label": "Conditions",
+      "file": "conditions.json",
+      "color": "#e67e22",
+      "searchFields": ["name"],
+      "linkPath": "rules/conditions/"
+    }
+  ],
+  "cardFields": {
+    "spells": {
+      "title": "name",
+      "meta": ["Level {level} {school.name}", "{casting_time} · {range} · {duration}"],
+      "tags": "components",
+      "description": "desc[0]"
+    },
+    "monsters": {
+      "title": "name",
+      "meta": ["{size} {type}, {alignment}", "AC {armor_class[0].value} · HP {hit_points} · CR {challenge_rating}"],
+      "stats": "STR {strength} DEX {dexterity} CON {constitution} INT {intelligence} WIS {wisdom} CHA {charisma}",
+      "description": null
+    },
+    "classes": {
+      "title": "name",
+      "meta": ["Hit Die: d{hit_die}"],
+      "description": null
+    },
+    "equipment": {
+      "title": "name",
+      "meta": ["{equipment_category.name}", "{cost.quantity} {cost.unit}"],
+      "description": "desc[0]"
+    },
+    "magic-items": {
+      "title": "name",
+      "meta": ["{rarity.name}"],
+      "description": "desc[0]"
+    },
+    "races": {
+      "title": "name",
+      "meta": ["Speed: {speed} ft"],
+      "description": "size_description"
+    },
+    "conditions": {
+      "title": "name",
+      "meta": [],
+      "description": "desc[0]"
+    }
+  }
+}

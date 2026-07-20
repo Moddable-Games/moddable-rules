@@ -1,0 +1,25 @@
+{
+  "label": "Starforged",
+  "dataPath": "games/starforged/oracles/",
+  "rulesUrl": "dist/starforged/rules/oracles/",
+  "dataType": "oracle",
+  "categories": [
+    { "id": "core", "label": "Core", "file": "core.json", "color": "#5dade2", "linkPath": null },
+    { "id": "characters", "label": "Characters", "file": "characters.json", "color": "#58d68d", "linkPath": null },
+    { "id": "space", "label": "Space", "file": "space.json", "color": "#a569bd", "linkPath": null },
+    { "id": "planets", "label": "Planets", "file": "planets.json", "color": "#f4d03f", "linkPath": null },
+    { "id": "starships", "label": "Starships", "file": "starships.json", "color": "#eb984e", "linkPath": null },
+    { "id": "creatures", "label": "Creatures", "file": "creatures.json", "color": "#e74c3c", "linkPath": null },
+    { "id": "settlements", "label": "Settlements", "file": "settlements.json", "color": "#45b39d", "linkPath": null },
+    { "id": "derelicts", "label": "Derelicts", "file": "derelicts.json", "color": "#7f8c8d", "linkPath": null },
+    { "id": "factions", "label": "Factions", "file": "factions.json", "color": "#d4ac0d", "linkPath": null },
+    { "id": "vaults", "label": "Vaults", "file": "vaults.json", "color": "#af7ac5", "linkPath": null },
+    { "id": "misc", "label": "Misc", "file": "misc.json", "color": "#85929e", "linkPath": null },
+    { "id": "moves", "label": "Moves", "file": "move-oracles.json", "color": "#3498db", "linkPath": null }
+  ],
+  "cardFields": {
+    "title": "result",
+    "meta": "{_tableName} · Roll: {range}",
+    "description": "description"
+  }
+}
