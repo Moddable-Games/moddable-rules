@@ -53,7 +53,7 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Companion Assets](rules/assets-companion/) — Allies, pets, bots, and symbiotes
 - [Module Assets](rules/assets-module/) — Starship upgrades and add-ons
 - [Path Assets](rules/assets-path/) — All 46 character specializations, from Ace to Weapon Master
-- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (Core and Campaign Launch categories so far; more to come)
+- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (8 categories so far; more to come)
 
 More oracle categories are in progress and will be added here as each is completed.
 
@@ -76,6 +76,12 @@ Machine-readable JSON for tools and widgets:
 - [path-1.json](../../games/starforged/rules/assets/path-1.json), [path-2.json](../../games/starforged/rules/assets/path-2.json), [path-3.json](../../games/starforged/rules/assets/path-3.json), [path-4.json](../../games/starforged/rules/assets/path-4.json) — path assets (split across 4 files, 46 assets total)
 - [core.json](../../games/starforged/oracles/core.json) — Action, Theme, Descriptor, Focus
 - [campaign-launch.json](../../games/starforged/oracles/campaign-launch.json) — Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident
+- [characters.json](../../games/starforged/oracles/characters.json) — names, first look, disposition, role, goal, revealed aspect
+- [creatures.json](../../games/starforged/oracles/creatures.json) — environment, scale, basic form, first look, behavior, revealed aspect
+- [derelicts.json](../../games/starforged/oracles/derelicts.json) — Location, Condition, First Look, and Derelict Type/Zone tables
+- [derelicts-zones.json](../../games/starforged/oracles/derelicts-zones.json) — Area, Feature, Peril, Opportunity tables for all 8 derelict zones
+- [misc.json](../../games/starforged/oracles/misc.json) — Story Complication, Story Clue, Anomaly Effect, Combat Action
+- [move-oracles.json](../../games/starforged/oracles/move-oracles.json) — Ask the Oracle and 8 move-linked prompt tables
 
 More oracle category JSON is in progress and will be added here as each is completed.
 

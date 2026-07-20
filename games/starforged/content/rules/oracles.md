@@ -23,8 +23,14 @@ Machine-readable oracle data is stored as JSON files in this directory. Each fil
 |------|----------|--------|
 | [`core.json`](../../../../games/starforged/oracles/core.json) | Core Oracles | Action, Theme, Descriptor, Focus |
 | [`campaign-launch.json`](../../../../games/starforged/oracles/campaign-launch.json) | Campaign Launch Oracles | Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident |
+| [`characters.json`](../../../../games/starforged/oracles/characters.json) | Character Oracles | Given/Family Name, Callsign, First Look, Initial Disposition, Character Role, Character Goal, Revealed Character Aspect |
+| [`creatures.json`](../../../../games/starforged/oracles/creatures.json) | Creature Oracles | Environment, Scale, Ultra-scale, Basic Form (by environment: Space, Interior, Land, Liquid, Air), First Look, Encountered Behavior, Revealed Creature Aspect |
+| [`derelicts.json`](../../../../games/starforged/oracles/derelicts.json) | Derelicts | Location, Condition, Outer/Inner First Look, Derelict Type (by location), Derelict Zones (by derelict type) |
+| [`derelicts-zones.json`](../../../../games/starforged/oracles/derelicts-zones.json) | Derelict Zones | Area, Feature, Peril, and Opportunity tables for all 8 zones: Access, Community, Engineering, Living, Medical, Operations, Production, Research |
+| [`misc.json`](../../../../games/starforged/oracles/misc.json) | Miscellaneous Oracles | Story Complication, Story Clue, Anomaly Effect, Combat Action |
+| [`move-oracles.json`](../../../../games/starforged/oracles/move-oracles.json) | Move Oracles | Ask the Oracle (5 likelihood tables), Begin a Session, Make a Discovery, Confront Chaos, Take Decisive Action, Endure Harm, Endure Stress, Withstand Damage, Pay the Price |
 
-More categories (Characters, Creatures, Derelicts, Derelict Zones, Factions, Location Themes, Misc, Moves, Planet Types, Planets, Settlements, Space, Starships, Vaults) are in progress and will be added here as each is completed.
+More categories (Factions, Location Themes, Planet Types, Planets, Settlements, Space, Starships, Vaults) are in progress and will be added here as each is completed.
 
 ### AI DM Integration
 

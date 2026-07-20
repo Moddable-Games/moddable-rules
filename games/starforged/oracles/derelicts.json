@@ -1,0 +1,51 @@
+{
+  "name": "Starforged Derelicts Oracles",
+  "game": "starforged",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn: Starforged Rulebook by Shawn Tomkin. https://ironswornrpg.com",
+  "tables": [
+    { "id": "location", "name": "Location", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 40, "result": "Planetside" }, { "min": 41, "max": 60, "result": "Orbital" }, { "min": 61, "max": 100, "result": "Deep Space" }
+    ] },
+    { "id": "condition", "name": "Condition", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Functional" }, { "min": 11, "max": 30, "result": "Limited power" }, { "min": 31, "max": 60, "result": "Cold and dark" },
+      { "min": 61, "max": 90, "result": "Damaged or breached" }, { "min": 91, "max": 98, "result": "Heavily damaged" }, { "min": 99, "max": 100, "result": "Impending destruction" }
+    ] },
+    { "id": "outer_first_look", "name": "Outer First Look", "roll_type": "d100", "usage_note": "Use for your initial survey of the derelict.", "entries": [
+      { "min": 1, "max": 15, "result": "Blocked access" }, { "min": 16, "max": 30, "result": "Corpses" }, { "min": 31, "max": 45, "result": "Hazardous readings" },
+      { "min": 46, "max": 50, "result": "Mutated structure" }, { "min": 51, "max": 60, "result": "Odd orientation" }, { "min": 61, "max": 65, "result": "Overgrown or entangled" },
+      { "min": 66, "max": 80, "result": "Sending a signal or message" }, { "min": 81, "max": 85, "result": "Signs that others are here" }, { "min": 86, "max": 95, "result": "Stripped exterior" },
+      { "min": 96, "max": 100, "result": "Time or reality distortions" }
+    ] },
+    { "id": "inner_first_look", "name": "Inner First Look", "roll_type": "d100", "usage_note": "Use for your initial survey of the derelict's interior. Recommended: roll 1-2 times.", "entries": [
+      { "min": 1, "max": 3, "result": "Abnormal gravity" }, { "min": 4, "max": 6, "result": "Active bots" }, { "min": 7, "max": 9, "result": "Archaic equipment" },
+      { "min": 10, "max": 12, "result": "Automated announcements" }, { "min": 13, "max": 15, "result": "Biological infestation" }, { "min": 16, "max": 18, "result": "Charred surfaces" },
+      { "min": 19, "max": 21, "result": "Claw marks" }, { "min": 22, "max": 24, "result": "Cluttered with debris" }, { "min": 25, "max": 27, "result": "Corroded surfaces" },
+      { "min": 28, "max": 30, "result": "Cramped spaces" }, { "min": 31, "max": 33, "result": "Creaking hull" }, { "min": 34, "max": 36, "result": "Esoteric writing or symbols" },
+      { "min": 37, "max": 39, "result": "Evidence of new inhabitants" }, { "min": 40, "max": 42, "result": "Exposed wiring or conduits" }, { "min": 43, "max": 45, "result": "Flashing strobe lights" },
+      { "min": 46, "max": 48, "result": "Fluctuating power" }, { "min": 49, "max": 51, "result": "Haunting visions of the dead" }, { "min": 52, "max": 54, "result": "Hazardous temperature" },
+      { "min": 55, "max": 57, "result": "Heavy steam or moisture" }, { "min": 58, "max": 60, "result": "Littered with corpses" }, { "min": 61, "max": 63, "result": "Nesting or feeding creatures" },
+      { "min": 64, "max": 66, "result": "Ornate furnishings" }, { "min": 67, "max": 69, "result": "Scarred by gunfire" }, { "min": 70, "max": 72, "result": "Sealed against intruders" },
+      { "min": 73, "max": 75, "result": "Signs of looting or scavenging" }, { "min": 76, "max": 78, "result": "Smell of decay" }, { "min": 79, "max": 81, "result": "Splattered with blood" },
+      { "min": 82, "max": 84, "result": "Temporal distortions" }, { "min": 85, "max": 87, "result": "Thick haze or smoke" }, { "min": 88, "max": 90, "result": "Unstable energy surges" },
+      { "min": 91, "max": 93, "result": "Watchful AI" }, { "min": 94, "max": 100, "result": "Descriptor + Focus", "suggestions": ["Roll on Descriptor and Focus (Core Oracles)"] }
+    ] },
+    { "id": "type_planetside", "name": "Derelict Type — Planetside", "roll_type": "d100", "usage_note": "Roll only after Location determines Planetside.", "entries": [
+      { "min": 1, "max": 25, "result": "Starship" }, { "min": 26, "max": 100, "result": "Settlement" }
+    ] },
+    { "id": "type_orbital", "name": "Derelict Type — Orbital", "roll_type": "d100", "usage_note": "Roll only after Location determines Orbital.", "entries": [
+      { "min": 1, "max": 40, "result": "Starship" }, { "min": 41, "max": 100, "result": "Settlement" }
+    ] },
+    { "id": "type_deep_space", "name": "Derelict Type — Deep Space", "roll_type": "d100", "usage_note": "Roll only after Location determines Deep Space.", "entries": [
+      { "min": 1, "max": 75, "result": "Starship" }, { "min": 76, "max": 100, "result": "Settlement" }
+    ] },
+    { "id": "zones_starship", "name": "Derelict Zones — Starship", "roll_type": "d100", "usage_note": "Access is always available and isn't rolled for. Use the Zones tables in derelicts-zones.json for the details of each zone.", "entries": [
+      { "min": 1, "max": 5, "result": "Community" }, { "min": 6, "max": 30, "result": "Engineering" }, { "min": 31, "max": 55, "result": "Living" },
+      { "min": 56, "max": 65, "result": "Medical" }, { "min": 66, "max": 85, "result": "Operations" }, { "min": 86, "max": 90, "result": "Production" }, { "min": 91, "max": 100, "result": "Research" }
+    ] },
+    { "id": "zones_settlement", "name": "Derelict Zones — Settlement", "roll_type": "d100", "usage_note": "Access is always available and isn't rolled for. Use the Zones tables in derelicts-zones.json for the details of each zone.", "entries": [
+      { "min": 1, "max": 20, "result": "Community" }, { "min": 21, "max": 30, "result": "Engineering" }, { "min": 31, "max": 50, "result": "Living" },
+      { "min": 51, "max": 60, "result": "Medical" }, { "min": 61, "max": 70, "result": "Operations" }, { "min": 71, "max": 90, "result": "Production" }, { "min": 91, "max": 100, "result": "Research" }
+    ] }
+  ]
+}

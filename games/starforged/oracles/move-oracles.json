@@ -1,0 +1,83 @@
+{
+  "name": "Starforged Move Oracles",
+  "game": "starforged",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn: Starforged Rulebook by Shawn Tomkin. https://ironswornrpg.com",
+  "tables": [
+    { "id": "ask_the_oracle_almost_certain", "name": "Ask the Oracle — Almost Certain", "roll_type": "d100", "usage_note": "On a match, envision an extreme result or twist.", "entries": [
+      { "min": 1, "max": 90, "result": "Yes" }, { "min": 91, "max": 100, "result": "No" }
+    ] },
+    { "id": "ask_the_oracle_likely", "name": "Ask the Oracle — Likely", "roll_type": "d100", "usage_note": "On a match, envision an extreme result or twist.", "entries": [
+      { "min": 1, "max": 75, "result": "Yes" }, { "min": 76, "max": 100, "result": "No" }
+    ] },
+    { "id": "ask_the_oracle_fifty_fifty", "name": "Ask the Oracle — 50/50", "roll_type": "d100", "usage_note": "On a match, envision an extreme result or twist.", "entries": [
+      { "min": 1, "max": 50, "result": "Yes" }, { "min": 51, "max": 100, "result": "No" }
+    ] },
+    { "id": "ask_the_oracle_unlikely", "name": "Ask the Oracle — Unlikely", "roll_type": "d100", "usage_note": "On a match, envision an extreme result or twist.", "entries": [
+      { "min": 1, "max": 25, "result": "Yes" }, { "min": 26, "max": 100, "result": "No" }
+    ] },
+    { "id": "ask_the_oracle_small_chance", "name": "Ask the Oracle — Small Chance", "roll_type": "d100", "usage_note": "On a match, envision an extreme result or twist.", "entries": [
+      { "min": 1, "max": 10, "result": "Yes" }, { "min": 11, "max": 100, "result": "No" }
+    ] },
+    { "id": "begin_a_session", "name": "Begin a Session", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Flashback reveals an aspect of your background or nature" }, { "min": 11, "max": 20, "result": "Flashback reveals an aspect of another character, place, or faction" },
+      { "min": 21, "max": 30, "result": "Influential character or faction is introduced or given new detail" }, { "min": 31, "max": 40, "result": "Seemingly unrelated situations are shown to be connected" },
+      { "min": 41, "max": 50, "result": "External factors create new danger, urgency, or importance for a quest" }, { "min": 51, "max": 60, "result": "Important character is put in danger or suffers a misadventure" },
+      { "min": 61, "max": 70, "result": "Key location is made unsafe or becomes mired in conflict" }, { "min": 71, "max": 80, "result": "Unexpected return of an enemy or threat" },
+      { "min": 81, "max": 90, "result": "Peril lies ahead or lurks just out of view" }, { "min": 91, "max": 100, "result": "Unforeseen aid is on the way or within reach" }
+    ] },
+    { "id": "make_a_discovery", "name": "Make a Discovery", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 4, "result": "Advanced technology waiting to be harnessed or salvaged" }, { "min": 5, "max": 8, "result": "Ancient archive or message" }, { "min": 9, "max": 10, "result": "Artificial consciousness evolved to a higher state" },
+      { "min": 11, "max": 12, "result": "Clues to a crucial resource or uncharted domain" }, { "min": 13, "max": 14, "result": "Envoy from another time or reality" }, { "min": 15, "max": 22, "result": "Extraordinary natural phenomenon" },
+      { "min": 23, "max": 24, "result": "First contact with intelligent life" }, { "min": 25, "max": 26, "result": "Gateway to another time or alternate reality" }, { "min": 27, "max": 28, "result": "Key to unlocking a language or method of communication" },
+      { "min": 29, "max": 34, "result": "Lost or hidden people" }, { "min": 35, "max": 42, "result": "Majestic or unusual lifeforms" }, { "min": 43, "max": 46, "result": "Marvel of ancient engineering" },
+      { "min": 47, "max": 50, "result": "Miraculously preserved artifact or specimen" }, { "min": 51, "max": 56, "result": "Monumental architecture or artistry of an ancient civilization" }, { "min": 57, "max": 62, "result": "Mysterious device or artifact of potential value" },
+      { "min": 63, "max": 66, "result": "New understanding of an enduring mystery" }, { "min": 67, "max": 68, "result": "Pathway or means of travel to a distant location" }, { "min": 69, "max": 70, "result": "Person or lifeform with phenomenal abilities" },
+      { "min": 71, "max": 78, "result": "Place of awe-inspiring beauty" }, { "min": 79, "max": 86, "result": "Rare and valuable resource" }, { "min": 87, "max": 88, "result": "Safeguarded or idyllic location" },
+      { "min": 89, "max": 90, "result": "Visions or prophesies of the future" }, { "min": 91, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "confront_chaos", "name": "Confront Chaos", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 4, "result": "Baneful weapon of mass destruction" }, { "min": 5, "max": 9, "result": "Cataclysmic environmental effects" }, { "min": 10, "max": 12, "result": "Dead given unnatural life" },
+      { "min": 13, "max": 17, "result": "Destructive lifeform of monstrous proportion" }, { "min": 18, "max": 20, "result": "Dread hallucinations or illusions" }, { "min": 21, "max": 24, "result": "Harbingers of an imminent invasion" },
+      { "min": 25, "max": 27, "result": "Horde of insatiable hunger or fury" }, { "min": 28, "max": 32, "result": "Horrific lifeforms of inscrutable purpose" }, { "min": 33, "max": 36, "result": "Impostors in human form" },
+      { "min": 37, "max": 41, "result": "Machines made enemy" }, { "min": 42, "max": 45, "result": "Malignant contagion or parasite" }, { "min": 46, "max": 50, "result": "Messenger or signal with a dire warning" },
+      { "min": 51, "max": 53, "result": "Passage to a grim alternate reality" }, { "min": 54, "max": 58, "result": "People corrupted by chaos" }, { "min": 59, "max": 63, "result": "Powerful distortions of time or space" },
+      { "min": 64, "max": 68, "result": "Signs of an impending catastrophe" }, { "min": 69, "max": 72, "result": "Site of a baffling disappearance" }, { "min": 73, "max": 77, "result": "Site of a horrible disaster" },
+      { "min": 78, "max": 82, "result": "Site of terrible carnage" }, { "min": 83, "max": 87, "result": "Technology nullified or made unstable" }, { "min": 88, "max": 92, "result": "Technology warped for dark purpose" },
+      { "min": 93, "max": 96, "result": "Vault of dread technology or power" }, { "min": 97, "max": 100, "result": "Worshipers of great and malevolent powers" }
+    ] },
+    { "id": "take_decisive_action", "name": "Take Decisive Action", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 40, "result": "It's worse than you thought: Make a suffer move (-2)" }, { "min": 41, "max": 52, "result": "Victory is short-lived: A new peril or foe appears" },
+      { "min": 53, "max": 64, "result": "You face collateral damage: Something is lost, damaged, or broken" }, { "min": 65, "max": 76, "result": "Others pay the price: Someone else suffers the cost" },
+      { "min": 77, "max": 88, "result": "Others won't forget: You are marked for vengeance" }, { "min": 89, "max": 100, "result": "It gets complicated: The true nature of a foe or objective is revealed" }
+    ] },
+    { "id": "endure_harm", "name": "Endure Harm", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "You suffer mortal harm. Face Death." }, { "min": 11, "max": 20, "result": "You are dying. Within an hour or two, you must Heal and raise your health above 0, or Face Death." },
+      { "min": 21, "max": 35, "result": "You are unconscious and out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to ongoing harm, Face Death." },
+      { "min": 36, "max": 50, "result": "You are reeling and fighting to stay conscious. If you engage in any vigorous activity before taking a breather for a few minutes, roll on this table again (before resolving the other move)." },
+      { "min": 51, "max": 100, "result": "You are still standing." }
+    ] },
+    { "id": "endure_stress", "name": "Endure Stress", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "You are overwhelmed. Face Desolation." }, { "min": 11, "max": 25, "result": "You give up. Forsake Your Vow." },
+      { "min": 26, "max": 50, "result": "You give in to fear or compulsion, and act against your better instincts." }, { "min": 51, "max": 100, "result": "You persevere." }
+    ] },
+    { "id": "withstand_damage", "name": "Withstand Damage", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Immediate catastrophic destruction. All aboard must Endure Harm or Face Death, as appropriate." },
+      { "min": 11, "max": 25, "result": "Destruction is imminent and unavoidable. If you do not have the means or intention to get clear, Endure Harm or Face Death as appropriate." },
+      { "min": 26, "max": 40, "result": "Destruction is imminent, but can be averted if you Repair your vehicle and raise its integrity above 0. If you fail, see 11-25." },
+      { "min": 41, "max": 55, "result": "You cannot Repair this vehicle until you Resupply and obtain a crucial replacement part. If you roll this result again prior to that, see 11-25." },
+      { "min": 56, "max": 70, "result": "The vehicle is crippled or out of your control. To get it back in action, you must Repair and raise its integrity above 0." },
+      { "min": 71, "max": 85, "result": "It's a rough ride. All aboard must make the Endure Harm, Endure Stress, or Companion Takes a Hit move, suffering a serious (-2) cost." },
+      { "min": 86, "max": 95, "result": "You've lost fuel, energy, or cargo. Sacrifice Resources (-2)." }, { "min": 96, "max": 100, "result": "Against all odds, the vehicle holds together." }
+    ] },
+    { "id": "pay_the_price", "name": "Pay the Price", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 2, "result": "A trusted individual or community acts against you" }, { "min": 3, "max": 4, "result": "An individual or community you care about is exposed to danger" },
+      { "min": 5, "max": 7, "result": "You encounter signs of a looming threat" }, { "min": 8, "max": 10, "result": "You create an opportunity for an enemy" }, { "min": 11, "max": 14, "result": "You face a tough choice" },
+      { "min": 15, "max": 18, "result": "You face the consequences of an earlier choice" }, { "min": 19, "max": 22, "result": "A surprising development complicates your quest" }, { "min": 23, "max": 26, "result": "You are separated from something or someone" },
+      { "min": 27, "max": 32, "result": "Your action causes collateral damage or has an unintended effect" }, { "min": 33, "max": 38, "result": "Something of value is lost or destroyed" }, { "min": 39, "max": 44, "result": "The environment or terrain introduces a new hazard" },
+      { "min": 45, "max": 50, "result": "A new enemy is revealed" }, { "min": 51, "max": 56, "result": "A friend, companion, or ally is in harm's way (or you are, if alone)" }, { "min": 57, "max": 62, "result": "Your equipment or vehicle malfunctions" },
+      { "min": 63, "max": 68, "result": "Your vehicle suffers damage" }, { "min": 69, "max": 74, "result": "You waste resources" }, { "min": 75, "max": 81, "result": "You are harmed" }, { "min": 82, "max": 88, "result": "You are stressed" },
+      { "min": 89, "max": 95, "result": "You are delayed or put at a disadvantage" }, { "min": 96, "max": 100, "result": "Roll twice" }
+    ] }
+  ]
+}
