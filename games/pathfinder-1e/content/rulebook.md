@@ -9,7 +9,7 @@ duration: "varies"
 age: "13+"
 tagline: "Paizo's fork of D&D 3.5, the most complete open ruleset in existence"
 type: "rpg"
-status: "dev"
+status: "live"
 updated: "2026-07-20"
 published: true
 variants: false
