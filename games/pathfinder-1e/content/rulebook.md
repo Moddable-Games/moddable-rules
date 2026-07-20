@@ -72,8 +72,11 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Magic](rules/magic/) — Casting spells, concentration, counterspells, arcane vs divine casting, special abilities
 - [Spell Statistics](rules/magic-spell-statistics/) — How to read a spell's stat block: school, components, range, area, duration, saving throw
 - [Additional Rules](rules/additional-rules/) — Alignment, aging, height and weight, carrying capacity, movement, vision and light, breaking objects
+- [Dungeons & Traps](rules/environment-dungeons/) — Dungeon types and terrain, trap design and mechanics, sample traps
+- [Wilderness & Urban Adventures](rules/environment-wilderness/) — All 7 wilderness terrain types, getting lost, city adventuring, siege engines
+- [Weather, Planes & Environmental Rules](rules/environment-weather-planes/) — Weather and storms, the planes of existence, falling, drowning, heat and cold
 
-All 11 core classes, all 175 core feats, and the full Combat, Magic, and Additional Rules chapters are now complete. More rules sections (Spells, Equipment, Gamemastering) are in progress and will be added here as each is completed.
+All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, and Environment chapters are now complete. More rules sections (Spells, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
 </div>
 
