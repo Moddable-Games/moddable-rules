@@ -66,8 +66,11 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Combat Feats](rules/feats-combat/) — All 101 core Combat feats, alphabetized
 - [General Feats](rules/feats-general/) — All 49 core General feats, alphabetized (including Leadership)
 - [Metamagic, Critical & Item Creation Feats](rules/feats-other/) — The remaining 25 core feats across three smaller categories
+- [Combat](rules/combat/) — Turn structure, initiative, attack rolls, AC, damage, saving throws
+- [Actions in Combat](rules/combat-actions/) — Every standard, move, full-round, swift, immediate, and free action
+- [Special Attacks & Maneuvers](rules/combat-maneuvers/) — Charges, combat maneuvers, mounted combat, cover, concealment, injury and death
 
-All 11 core classes and all 175 core feats are now complete. More rules sections (Spells, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
+All 11 core classes, all 175 core feats, and the full Combat chapter are now complete. More rules sections (Spells, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
 </div>
 
