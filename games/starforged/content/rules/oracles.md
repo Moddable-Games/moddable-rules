@@ -23,7 +23,6 @@ Machine-readable oracle data is stored as JSON files in this directory. Each fil
 |------|----------|--------|
 | [`core.json`](../../../../games/starforged/oracles/core.json) | Core Oracles | Action, Theme, Descriptor, Focus |
 | [`campaign-launch.json`](../../../../games/starforged/oracles/campaign-launch.json) | Campaign Launch Oracles | Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident |
-<<<<<<< HEAD
 | [`characters.json`](../../../../games/starforged/oracles/characters.json) | Character Oracles | Given/Family Name, Callsign, First Look, Initial Disposition, Character Role, Character Goal, Revealed Character Aspect |
 | [`creatures.json`](../../../../games/starforged/oracles/creatures.json) | Creature Oracles | Environment, Scale, Ultra-scale, Basic Form (by environment: Space, Interior, Land, Liquid, Air), First Look, Encountered Behavior, Revealed Creature Aspect |
 | [`derelicts.json`](../../../../games/starforged/oracles/derelicts.json) | Derelicts | Location, Condition, Outer/Inner First Look, Derelict Type (by location), Derelict Zones (by derelict type) |
