@@ -76,8 +76,10 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Wilderness & Urban Adventures](rules/environment-wilderness/) — All 7 wilderness terrain types, getting lost, city adventuring, siege engines
 - [Weather, Planes & Environmental Rules](rules/environment-weather-planes/) — Weather and storms, the planes of existence, falling, drowning, heat and cold
 - [Gamemastering](rules/gamemastering/) — Designing encounters, awarding experience, placing treasure, creating NPCs, beyond 20th level
+- [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison
+- [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
 
-All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, and Gamemastering chapters are now complete. More rules sections (Spells, Equipment, Glossary) are in progress and will be added here as each is completed.
+All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete. Only Spells and Equipment remain before the Core Rulebook rules are fully covered (Bestiary excluded — tracked separately).
 
 </div>
 
