@@ -7,7 +7,7 @@ published: true
 
 ## Dungeons & Traps
 
-This page covers dungeon design and mapping conventions, and the rules for traps — how they work, how characters detect and disable them, and a set of sample traps ready to drop into an adventure. See Wilderness & Urban Adventures for outdoor and city environments, and Weather, Planes & Environmental Rules for climate and hazard rules.
+This page covers dungeon design and mapping conventions, and the rules for traps: how they work, how characters detect and disable them, and a set of sample traps ready to drop into an adventure. See Wilderness & Urban Adventures for outdoor and city environments, and Weather, Planes & Environmental Rules for climate and hazard rules.
 
 ### Dungeons
 
@@ -541,7 +541,7 @@ This feature applies to any trap that needs only a successful touch attack (mele
 
 ### Sample Traps
 
-The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. (The 32 named sample traps in the core rulebook — Arrow Trap, Pit Trap, Poisoned Dart Trap, Swinging Axe Trap, Fireball Trap, and so on — are presented as structured stat blocks rather than prose descriptions, so their full mechanical writeups are deferred to a future data batch. The trap-design guidelines below are fully covered.)
+The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. (The 32 named sample traps in the core rulebook, such as Arrow Trap, Pit Trap, Poisoned Dart Trap, Swinging Axe Trap, and Fireball Trap, are presented as structured stat blocks rather than prose descriptions, so their full mechanical writeups are deferred to a future data batch. The trap-design guidelines below are fully covered.)
 
 #### Designing a Trap
 

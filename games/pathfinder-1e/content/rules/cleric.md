@@ -34,9 +34,8 @@ The cleric's class skills are Appraise (Int), Craft (Int), Diplomacy (Cha), Heal
 
 ##### Table: Cleric
 
-Level| Base Attack Bonus| Fort Save| Ref Save| Will Save| Special| Spells per Day  
----|---|---|---|---|---|---  
-0| 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th  
+Level| BAB| Fort| Ref| Will| Special| 0| 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
 1st| +0| +2| +0| +2| Aura, channel energy 1d6,domains, orisons| 3| 1+1| --| --| --| --| --| --| --| --  
 2nd| +1| +3| +0| +3| | 4| 2+1| --| --| --| --| --| --| --| --  
 3rd| +2| +3| +1| +3| Channel energy 2d6| 4| 2+1| 1+1| --| --| --| --| --| --| --  

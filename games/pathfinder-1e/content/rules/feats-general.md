@@ -7,7 +7,7 @@ published: true
 
 ## General Feats
 
-General feats represent broadly useful training and aptitude — skill bonuses, survival tricks, and character-building options not tied to combat, spellcasting, or item creation. This page covers all 49 core-rulebook General feats, alphabetized (including Leadership).
+General feats represent broadly useful training and aptitude: skill bonuses, survival tricks, and character-building options not tied to combat, spellcasting, or item creation. This page covers all 49 core-rulebook General feats, alphabetized (including Leadership).
 
 #### Acrobatic
 

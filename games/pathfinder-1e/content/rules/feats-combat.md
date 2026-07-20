@@ -7,7 +7,7 @@ published: true
 
 ## Combat Feats
 
-Combat feats govern the tactics and techniques available to a character in battle — improved maneuvers, weapon specializations, and combat styles. This page covers all 101 core-rulebook Combat feats, alphabetized.
+Combat feats govern the tactics and techniques available to a character in battle: improved maneuvers, weapon specializations, and combat styles. This page covers all 101 core-rulebook Combat feats, alphabetized.
 
 #### Agile Maneuvers
 

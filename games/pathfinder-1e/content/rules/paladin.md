@@ -32,9 +32,8 @@ The paladin's class skills are Craft (Int), Diplomacy (Cha), Handle Animal (Cha)
 
 ##### Table: Paladin
 
-Level| Base Attack Bonus| Fort Save| Ref Save| Will Save| Special| Spells per Day  
----|---|---|---|---|---|---  
-1st| 2nd| 3rd| 4th  
+Level| BAB| Fort| Ref| Will| Special| 1st| 2nd| 3rd| 4th
+---|---|---|---|---|---|---|---|---|---
 1st| +1| +2| +0| +2| Aura of good, detect evil, smite evil 1/day| --| --| --| --  
 2nd| +2| +3| +0| +3| Divine grace, lay on hands| --| --| --| --  
 3rd| +3| +3| +1| +3| Aura of courage, divine health, mercy| --| --| --| --  

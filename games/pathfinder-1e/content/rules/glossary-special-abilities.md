@@ -7,7 +7,7 @@ published: true
 
 ## Special Abilities
 
-This page covers the two categories of special ability found throughout the Pathfinder rules — extraordinary, spell-like, and supernatural abilities, and the various afflictions (curses, diseases, and poisons) that can affect a character. See Conditions for the standardized status effects (blinded, prone, staggered, and so on) referenced throughout the rules.
+This page covers the two categories of special ability found throughout the Pathfinder rules: extraordinary, spell-like, and supernatural abilities, and the various afflictions (curses, diseases, and poisons) that can affect a character. See Conditions for the standardized status effects (blinded, prone, staggered, and so on) referenced throughout the rules.
 
 The following special abilities include rules commonly used by a number of creatures, spells, and traps.
 
@@ -146,13 +146,13 @@ He failed a DC 15 Fortitude save to avoid contracting it, so after the onset per
 
 Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as _remove curse_ and _break enchantment_. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses. See Magic Items for a description of these cursed items.
 
-The following samples present just some of the possibilities when creating curses. (The 6 named sample curses in the core rulebook — Baleful Polymorph, Bestow Curse Trap, Curse of the Ages, Mummy Rot, Unluck, Werewolf Lycanthropy — are presented as structured stat blocks rather than prose descriptions, so their full writeups are deferred to a future data batch.)
+The following samples present just some of the possibilities when creating curses. (The 6 named sample curses in the core rulebook, such as Baleful Polymorph, Bestow Curse Trap, Curse of the Ages, Mummy Rot, Unluck, and Werewolf Lycanthropy, are presented as structured stat blocks rather than prose descriptions, so their full writeups are deferred to a future data batch.)
 
 ### Diseases
 
 From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time. This onset time can also be variable. Most diseases can be cured by a number of consecutive saving throws or by spells such as _remove disease_.
 
-The following samples represent just some of the possibilities when creating diseases. (The 11 named sample diseases in the core rulebook — Blinding Sickness, Bubonic Plague, Cackle Fever, Demon Fever, Devil Chills, Filth Fever, Leprosy, Mindfire, Red Ache, Shakes, Slimy Doom — are presented as structured stat blocks rather than prose descriptions, so their full writeups are deferred to a future data batch.)
+The following samples represent just some of the possibilities when creating diseases. (The 11 named sample diseases in the core rulebook, such as Blinding Sickness, Bubonic Plague, Cackle Fever, Demon Fever, Devil Chills, Filth Fever, Leprosy, Mindfire, Red Ache, Shakes, and Slimy Doom, are presented as structured stat blocks rather than prose descriptions, so their full writeups are deferred to a future data batch.)
 
 ### Poison
 

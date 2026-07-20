@@ -32,9 +32,8 @@ The ranger's class skills are Climb (Str), Craft (Int), Handle Animal (Cha), Hea
 
 ##### Table: Ranger
 
-Level| Base Attack Bonus| Fort Save| Ref Save| Will Save| Special| Spells per Day  
----|---|---|---|---|---|---  
-1st| 2nd| 3rd| 4th  
+Level| BAB| Fort| Ref| Will| Special| 1st| 2nd| 3rd| 4th
+---|---|---|---|---|---|---|---|---|---
 1st| +1| +2| +2| +0| 1st favored enemy, track, wild empathy| --| --| --| --  
 2nd| +2| +3| +3| +0| Combat style feat| --| --| --| --  
 3rd| +3| +3| +3| +1| Endurance, 1st favored terrain| --| --| --| --  

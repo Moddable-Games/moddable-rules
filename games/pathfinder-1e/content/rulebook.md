@@ -7,9 +7,9 @@ slug: "pathfinder-1e"
 players: "2–7"
 duration: "varies"
 age: "13+"
-tagline: "Paizo's fork of D&D 3.5 — the most complete open ruleset in existence"
+tagline: "Paizo's fork of D&D 3.5, the most complete open ruleset in existence"
 type: "rpg"
-status: "live"
+status: "dev"
 updated: "2026-07-20"
 published: true
 variants: false
@@ -34,12 +34,12 @@ engine:
 
 ## Pathfinder 1st Edition
 
-Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first released in 2009. This hub covers the Pathfinder Roleplaying Game Reference Document — the open-licensed core rules covering character creation, classes, races, feats, spells, equipment, combat, and the Bestiary.
+Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first released in 2009. This hub covers the Pathfinder Roleplaying Game Reference Document: the open-licensed core rules covering character creation, classes, races, feats, spells, equipment, combat, and the Bestiary.
 
 **Licence:** Open Game License 1.0a.
 **Attribution:** Pathfinder Roleplaying Game Core Rulebook, copyright 2009, Paizo Publishing, LLC. Content sourced via the PSRD-Data project (`devonjones/PSRD-Data`), a structured extraction of the official Pathfinder SRD website.
 
-**Scope note:** This hub covers the Core Rulebook only — the same scope the "5e SRD" label implies for D&D 5e, not every Pathfinder 1e sourcebook. Later Paizo splatbooks (Advanced Player's Guide, Advanced Race Guide, Bestiary 2-4, Ultimate Combat/Magic/Equipment/Campaign) are out of scope for this issue and would be tracked separately if pursued.
+**Scope note:** This hub covers the Core Rulebook only, the same scope the "5e SRD" label implies for D&D 5e. Later Paizo splatbooks (Advanced Player's Guide, Advanced Race Guide, Bestiary 2-4, Ultimate Combat/Magic/Equipment/Campaign) are out of scope and would be tracked separately if pursued.
 
 </div>
 

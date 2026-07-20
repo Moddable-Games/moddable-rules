@@ -7,7 +7,7 @@ published: true
 
 ## Actions in Combat
 
-This page details every action available during a combat round — standard, move, full-round, swift, immediate, and free actions — including attacking, casting spells in combat, and using special abilities. See Combat for turn structure and core statistics, and Special Attacks & Maneuvers for charges, combat maneuvers, and mounted combat.
+This page details every action available during a combat round (standard, move, full-round, swift, immediate, and free actions) including attacking, casting spells in combat, and using special abilities. See Combat for turn structure and core statistics, and Special Attacks & Maneuvers for charges, combat maneuvers, and mounted combat.
 
 ### Actions In Combat
 

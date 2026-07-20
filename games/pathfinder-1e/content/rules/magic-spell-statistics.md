@@ -7,7 +7,7 @@ published: true
 
 ## Spell Statistics
 
-This page explains how to read a spell's stat block — school and subschool, descriptors, level, components, casting time, range, targets, area, duration, saving throws, and spell resistance. See Magic for the rules on preparing and casting spells.
+This page explains how to read a spell's stat block: school and subschool, descriptors, level, components, casting time, range, targets, area, duration, saving throws, and spell resistance. See Magic for the rules on preparing and casting spells.
 
 ### Spell Descriptions
 

@@ -7,7 +7,7 @@ published: true
 
 ## Conditions
 
-This page covers the standardized conditions referenced throughout the Pathfinder rules — status effects like blinded, prone, staggered, and unconscious. See Special Abilities for extraordinary, spell-like, and supernatural abilities, and for afflictions like curses, diseases, and poison.
+This page covers the standardized conditions referenced throughout the Pathfinder rules: status effects like blinded, prone, staggered, and unconscious. See Special Abilities for extraordinary, spell-like, and supernatural abilities, and for afflictions like curses, diseases, and poison.
 
 If more than one condition affects a character, apply them all. If effects can't combine, apply the most severe effect.
 

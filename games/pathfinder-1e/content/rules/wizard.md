@@ -32,9 +32,8 @@ The wizard's class skills are Appraise (Int), Craft (Int), Fly (Dex), Knowledge 
 
 ##### Table: Wizard
 
-Level| Base Attack Bonus| Fort Save| Ref Save| Will Save| Special| Spells per Day  
----|---|---|---|---|---|---  
-0| 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th  
+Level| BAB| Fort| Ref| Will| Special| 0| 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
 1st| +0| +0| +0| +2| Arcane bond, arcane school,cantrips, Scribe Scroll| 3| 1| --| --| --| --| --| --| --| --  
 2nd| +1| +0| +0| +3| | 4| 2| --| --| --| --| --| --| --| --  
 3rd| +1| +1| +1| +3| | 4| 2| 1| --| --| --| --| --| --| --  

@@ -32,9 +32,8 @@ The sorcerer's class skills are Appraise (Int), Bluff (Cha), Craft (Int), Fly (D
 
 ##### Table: Sorcerer
 
-Level| Base Attack Bonus| Fort Save| Ref Save| Will Save| Special| Spells per Day  
----|---|---|---|---|---|---  
-1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th  
+Level| BAB| Fort| Ref| Will| Special| 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
 1st| +0| +0| +0| +2| Bloodline power, cantrips, eschew materials| 3| --| --| --| --| --| --| --| --  
 2nd| +1| +0| +0| +3| | 4| --| --| --| --| --| --| --| --  
 3rd| +1| +1| +1| +3| Bloodline power, bloodline spell| 5| --| --| --| --| --| --| --| --  
@@ -58,9 +57,8 @@ Level| Base Attack Bonus| Fort Save| Ref Save| Will Save| Special| Spells per Da
 
 ##### Table: Sorcerer Spells Known
 
-Level| Spells Known  
----|---  
-0| 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th  
+Level| 0| 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| 9th
+---|---|---|---|---|---|---|---|---|---|---
 1st| 4| 2| --| --| --| --| --| --| --| --  
 2nd| 5| 2| --| --| --| --| --| --| --| --  
 3rd| 5| 3| --| --| --| --| --| --| --| --  

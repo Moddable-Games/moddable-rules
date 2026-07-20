@@ -6,7 +6,7 @@ published: true
 ---
 ## Skills (continued)
 
-*Continued from [Skills](../skills/) — Acrobatics through Intimidate.*
+*Continued from [Skills](../skills/) (Acrobatics through Intimidate).*
 
 #### Knowledge (Int)
 
