@@ -327,7 +327,7 @@ function buildGame(slug) {
   if (!output.includes('surface-toggle.js')) {
     output = output.replace(
       '</body>',
-      '<script type="module" src="../../shared/js/surface-toggle.js"></script>\n</body>'
+      '<script defer src="../../shared/js/surface-toggle.js"></script>\n</body>'
     );
   }
 
@@ -701,7 +701,7 @@ function buildLanding() {
 <meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=${version}">
 <link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
 <link rel="stylesheet" href="css/landing.css?v=${version}">
-<script type="module" src="shared/js/analytics.js"></script>
+<script defer src="shared/js/analytics.js"></script>
 </head>
 <body>
 
@@ -778,8 +778,8 @@ ${cards}
 
 </div>
 
-<script type="module" src="js/landing.js?v=${version}"></script>
-<script type="module" src="shared/js/surface-toggle.js"></script>
+<script defer src="js/landing.js?v=${version}"></script>
+<script defer src="shared/js/surface-toggle.js"></script>
 </body>
 </html>
 `;
