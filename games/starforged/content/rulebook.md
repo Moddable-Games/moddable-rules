@@ -53,7 +53,7 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Companion Assets](rules/assets-companion/) — Allies, pets, bots, and symbiotes
 - [Module Assets](rules/assets-module/) — Starship upgrades and add-ons
 - [Path Assets](rules/assets-path/) — All 46 character specializations, from Ace to Weapon Master
-- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (11 categories so far; more to come)
+- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (14 categories so far; more to come)
 
 More oracle categories are in progress and will be added here as each is completed.
 
@@ -85,6 +85,9 @@ Machine-readable JSON for tools and widgets:
 - [factions.json](../../games/starforged/oracles/factions.json) — Faction type, influence, dominion, guild, fringe group, projects, relationships, quirks, rumors, and name generation
 - [location-themes.json](../../games/starforged/oracles/location-themes.json) — Theme type plus feature/peril/opportunity tables for 8 location themes
 - [settlements.json](../../games/starforged/oracles/settlements.json) — Settlement population, location, first look, initial contact, authority, projects, trouble, and name generation
+- [space.json](../../games/starforged/oracles/space.json) — Space sightings, sector names, stellar objects, spaceborne peril and opportunity
+- [starships.json](../../games/starforged/oracles/starships.json) — Starship mission, type, fleet, contact, first look, and name generation
+- [vaults.json](../../games/starforged/oracles/vaults.json) — Precursor Vault location, scale, form, shape, material, and exterior/interior/sanctum tables
 
 More oracle category JSON is in progress and will be added here as each is completed.
 
