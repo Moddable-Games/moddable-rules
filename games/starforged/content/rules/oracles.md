@@ -23,6 +23,7 @@ Machine-readable oracle data is stored as JSON files in this directory. Each fil
 |------|----------|--------|
 | [`core.json`](../../../../games/starforged/oracles/core.json) | Core Oracles | Action, Theme, Descriptor, Focus |
 | [`campaign-launch.json`](../../../../games/starforged/oracles/campaign-launch.json) | Campaign Launch Oracles | Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident |
+<<<<<<< HEAD
 | [`characters.json`](../../../../games/starforged/oracles/characters.json) | Character Oracles | Given/Family Name, Callsign, First Look, Initial Disposition, Character Role, Character Goal, Revealed Character Aspect |
 | [`creatures.json`](../../../../games/starforged/oracles/creatures.json) | Creature Oracles | Environment, Scale, Ultra-scale, Basic Form (by environment: Space, Interior, Land, Liquid, Air), First Look, Encountered Behavior, Revealed Creature Aspect |
 | [`derelicts.json`](../../../../games/starforged/oracles/derelicts.json) | Derelicts | Location, Condition, Outer/Inner First Look, Derelict Type (by location), Derelict Zones (by derelict type) |
@@ -35,8 +36,10 @@ Machine-readable oracle data is stored as JSON files in this directory. Each fil
 | [`space.json`](../../../../games/starforged/oracles/space.json) | Space Oracles | Space Sighting (Terminus/Outlands/Expanse), Sector Name, Stellar Object, Spaceborne Peril, Spaceborne Opportunity |
 | [`starships.json`](../../../../games/starforged/oracles/starships.json) | Starship Oracles | Starship Mission (Terminus/Outlands/Expanse), Starship Type, Fleet, Initial Contact, First Look, Starship Name |
 | [`vaults.json`](../../../../games/starforged/oracles/vaults.json) | Precursor Vault Oracles | Location, Scale, Form, Shape, Material, Outer/Inner First Look, Interior Feature/Peril/Opportunity, Sanctum Purpose/Feature/Peril/Opportunity |
+| [`planet-types.json`](../../../../games/starforged/oracles/planet-types.json) | Planet Type Oracles | Settlements, Sample Names, Atmosphere, Observed From Space, Feature, Life for 11 planetary classes (Desert, Furnace, Grave, Ice, Jovian, Jungle, Ocean, Rocky, Shattered, Tainted, Vital); Vital also has Diversity and Biomes |
+| [`planets.json`](../../../../games/starforged/oracles/planets.json) | Planet Oracles | Planetary Class, Planetside Peril (Lifebearing/Lifeless), Planetside Opportunity (Lifebearing/Lifeless) |
 
-More categories (Planet Types, Planets) are in progress and will be added here as each is completed.
+All 16 oracle categories are now complete.
 
 ### AI DM Integration
 

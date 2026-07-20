@@ -53,9 +53,7 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Companion Assets](rules/assets-companion/) — Allies, pets, bots, and symbiotes
 - [Module Assets](rules/assets-module/) — Starship upgrades and add-ons
 - [Path Assets](rules/assets-path/) — All 46 character specializations, from Ace to Weapon Master
-- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (14 categories so far; more to come)
-
-More oracle categories are in progress and will be added here as each is completed.
+- [Oracle Tables](rules/oracles/) — All 16 oracle categories: randomness and creative prompts for every aspect of play
 
 </div>
 
@@ -88,7 +86,7 @@ Machine-readable JSON for tools and widgets:
 - [space.json](../../games/starforged/oracles/space.json) — Space sightings, sector names, stellar objects, spaceborne peril and opportunity
 - [starships.json](../../games/starforged/oracles/starships.json) — Starship mission, type, fleet, contact, first look, and name generation
 - [vaults.json](../../games/starforged/oracles/vaults.json) — Precursor Vault location, scale, form, shape, material, and exterior/interior/sanctum tables
-
-More oracle category JSON is in progress and will be added here as each is completed.
+- [planet-types.json](../../games/starforged/oracles/planet-types.json) — Settlements, sample names, atmosphere, observed from space, feature, and life tables for all 11 planetary classes
+- [planets.json](../../games/starforged/oracles/planets.json) — Planetary class, planetside peril, and planetside opportunity
 
 </div>
