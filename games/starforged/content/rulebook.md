@@ -53,7 +53,7 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Companion Assets](rules/assets-companion/) — Allies, pets, bots, and symbiotes
 - [Module Assets](rules/assets-module/) — Starship upgrades and add-ons
 - [Path Assets](rules/assets-path/) — All 46 character specializations, from Ace to Weapon Master
-- [Oracle Tables](../oracles/) — Randomness and creative prompts (Core and Campaign Launch categories so far; more to come)
+- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (Core and Campaign Launch categories so far; more to come)
 
 More oracle categories are in progress and will be added here as each is completed.
 

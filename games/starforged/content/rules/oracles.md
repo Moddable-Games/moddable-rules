@@ -17,7 +17,7 @@ Roll the specified die type (usually d100 for a percentile roll). Find your resu
 
 ### Oracle Files
 
-Machine-readable oracle data is stored as JSON files in this directory. Each file follows the same [oracle schema](../../ironsworn/oracles/schema.json) established for Ironsworn, and may contain more than one related table.
+Machine-readable oracle data is stored as JSON files in this directory. Each file follows the same oracle schema established for Ironsworn (`games/ironsworn/oracles/schema.json`), and may contain more than one related table.
 
 | File | Category | Tables |
 |------|----------|--------|
