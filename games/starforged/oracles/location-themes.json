@@ -1,0 +1,127 @@
+{"name":"Starforged Location Theme Oracles","game":"starforged","licence":"CC BY 4.0","attribution":"Ironsworn: Starforged Rulebook by Shawn Tomkin. https://ironswornrpg.com","tables":[
+{"id":"type","name":"Theme Type","roll_type":"d100","usage_note":"Choose a theme that supports what you know of the location's nature, or roll for a random theme.","entries":[
+{"min":1,"max":15,"result":"Chaotic — Reality is corrupted or warped in this place."},{"min":16,"max":25,"result":"Fortified — Enemies defend this place against intruders."},{"min":26,"max":35,"result":"Haunted — Restless spirits are bound to this place."},
+{"min":36,"max":50,"result":"Infested — Foul creatures have overrun this place."},{"min":51,"max":60,"result":"Inhabited — People have built a community in this place."},{"min":61,"max":75,"result":"Mechanical — Machines and technology hold sway in this place."},
+{"min":76,"max":90,"result":"Ruined — Time, disaster, or war have ravaged this place."},{"min":91,"max":100,"result":"Sacred — Worshipers glorify strange powers in this place."}
+]},
+{"id":"chaotic_feature","name":"Chaotic — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Alterations in the flow of time"},{"min":9,"max":16,"result":"Chaotic portal, focus, or conduit"},{"min":17,"max":24,"result":"Corrupted or warped architecture or terrain"},{"min":25,"max":32,"result":"Corrupted or warped environment or ecosystem"},
+{"min":33,"max":40,"result":"Corrupted or warped technology"},{"min":41,"max":48,"result":"Cryptic device harnesses or powers chaos"},{"min":49,"max":56,"result":"Distortions of gravity or other natural forces"},{"min":57,"max":64,"result":"Energy field or barrier"},
+{"min":65,"max":72,"result":"Glimpses of alternate realities"},{"min":73,"max":80,"result":"Lifeforms mutated or altered by chaos"},{"min":81,"max":88,"result":"Lifeforms spawned from chaos"},{"min":89,"max":96,"result":"Visions of your past or future"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"chaotic_peril","name":"Chaotic — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"Chaos makes its mark upon you"},{"min":10,"max":18,"result":"Chaos spreads or intensifies"},{"min":19,"max":27,"result":"Chaos tempts or lures you"},{"min":28,"max":36,"result":"Chaotic energies block the path or assail you"},
+{"min":37,"max":45,"result":"Disorienting changes in time or location"},{"min":46,"max":54,"result":"Dreadful scene of those who fell prey to chaos"},{"min":55,"max":63,"result":"Equipment is made unstable or dangerous"},{"min":64,"max":72,"result":"Foes harness or wield chaos"},
+{"min":73,"max":81,"result":"Hazardous environmental changes"},{"min":82,"max":90,"result":"Lifeforms made hostile by chaos"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"chaotic_opportunity","name":"Chaotic — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Chaos ebbs or withdraws for a time"},{"min":21,"max":40,"result":"Chaos empowers you with strange but useful abilities"},{"min":41,"max":60,"result":"Chaos manifests as comforting or inspiring visions"},
+{"min":61,"max":80,"result":"Chaotic changes hamper your foes"},{"min":81,"max":100,"result":"Insight into the source or nature of the chaos"}
+]},
+{"id":"fortified_feature","name":"Fortified — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Captives or prisoners"},{"min":9,"max":16,"result":"Control area or terminal"},{"min":17,"max":24,"result":"Empty or inactive area"},{"min":25,"max":32,"result":"Enemy forces assembled for an event"},
+{"min":33,"max":40,"result":"Enemy forces off-duty or at leisure"},{"min":41,"max":48,"result":"Enemy forces on guard"},{"min":49,"max":56,"result":"Enemy forces on patrol"},{"min":57,"max":64,"result":"Enemy forces transporting supplies or equipment"},
+{"min":65,"max":72,"result":"Enemy leader makes an inspection"},{"min":73,"max":80,"result":"Prototype technology or equipment"},{"min":81,"max":88,"result":"Robotic assistant or watchful AI"},{"min":89,"max":96,"result":"Support personnel at work"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"fortified_peril","name":"Fortified — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"Alarm is triggered"},{"min":10,"max":18,"result":"Automated security or weapons target you"},{"min":19,"max":27,"result":"Checkpoint or path with restricted access"},{"min":28,"max":36,"result":"Enemies converge on this area"},
+{"min":37,"max":45,"result":"Enemies reveal new capabilities or technology"},{"min":46,"max":54,"result":"Enemies trick you or lure you into a trap"},{"min":55,"max":63,"result":"Powerful enemy appears"},{"min":64,"max":72,"result":"Problematic alliance or affiliation is revealed"},
+{"min":73,"max":81,"result":"Revealed schemes of an enemy leader create new urgency"},{"min":82,"max":90,"result":"Your plan is undone by an unexpected complication"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"fortified_opportunity","name":"Fortified — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Insight into the plans or methods of the enemy force"},{"min":21,"max":40,"result":"Opening to get the drop on an enemy"},{"min":41,"max":60,"result":"Opening to outmaneuver or escape enemies"},
+{"min":61,"max":80,"result":"Potential collaborator or informant reveals themselves"},{"min":81,"max":100,"result":"Access to useful equipment or weapons"}
+]},
+{"id":"haunted_feature","name":"Haunted — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Disembodied voices"},{"min":9,"max":16,"result":"Eerie cold"},{"min":17,"max":24,"result":"Foreboding omen or message"},{"min":25,"max":32,"result":"Ghostly visions of this place in another time"},
+{"min":33,"max":40,"result":"Glimpses of shadowy movement"},{"min":41,"max":48,"result":"Objects move of their own accord"},{"min":49,"max":56,"result":"Sensation of being watched"},{"min":57,"max":64,"result":"Signs of death or violence"},
+{"min":65,"max":72,"result":"Spectral sounds"},{"min":73,"max":80,"result":"Twisted or altered architecture or terrain"},{"min":81,"max":88,"result":"Unnatural blight, decay, or ruin"},{"min":89,"max":96,"result":"Unnatural mists or darkness"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"haunted_peril","name":"Haunted — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"Assailed by an angry or vengeful being"},{"min":10,"max":18,"result":"Beguiling illusions tempt you to linger or stay"},{"min":19,"max":27,"result":"Besieged by frightening sensations"},{"min":28,"max":36,"result":"Equipment is plagued by unexplainable malfunctions"},
+{"min":37,"max":45,"result":"Plunged into disorienting darkness or illusionary surroundings"},{"min":46,"max":54,"result":"Spectral manifestations of your fears"},{"min":55,"max":63,"result":"Spirits or undead reveal surprising abilities or motivations"},{"min":64,"max":72,"result":"Sudden, shocking reveal of a ghostly manifestation or undead form"},
+{"min":73,"max":81,"result":"Trickery leads you into danger"},{"min":82,"max":90,"result":"Visions reveal a horrifying aspect of this place"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"haunted_opportunity","name":"Haunted — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Encounter with a benign spirit or being"},{"min":21,"max":40,"result":"Helpful vision of past events"},{"min":41,"max":60,"result":"Message or clue offers insight into the nature of this haunting"},
+{"min":61,"max":80,"result":"Secret area or path is revealed"},{"min":81,"max":100,"result":"Useful or interesting artifact or device"}
+]},
+{"id":"infested_feature","name":"Infested — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Corpse of an unfortunate victim"},{"min":9,"max":16,"result":"Eggs, cocoons, or nest"},{"min":17,"max":24,"result":"Environment corrupted by the infestation"},{"min":25,"max":32,"result":"Evidence of a lurking creature"},
+{"min":33,"max":40,"result":"Evidence of an ill-fated victim"},{"min":41,"max":48,"result":"Hoarded food"},{"min":49,"max":56,"result":"Indistinct movement or sounds"},{"min":57,"max":64,"result":"Lair of lesser creatures"},
+{"min":65,"max":72,"result":"Ravaged supplies or equipment"},{"min":73,"max":80,"result":"Remains of a creature or remnants of a previous form"},{"min":81,"max":88,"result":"Territorial markings"},{"min":89,"max":96,"result":"Trail or evidence of a creature's passage"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"infested_peril","name":"Infested — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"Creatures attack without warning"},{"min":10,"max":18,"result":"Creatures guided or controlled by a greater threat"},{"min":19,"max":27,"result":"Creatures reveal new aspects or abilities"},{"min":28,"max":36,"result":"Creatures reveal surprising cleverness"},
+{"min":37,"max":45,"result":"Creatures take or destroy something important"},{"min":46,"max":54,"result":"Discovery of a live but threatened victim"},{"min":55,"max":63,"result":"Hazardous architecture or terrain"},{"min":64,"max":72,"result":"Lured or driven into a trap or dead-end"},
+{"min":73,"max":81,"result":"Powerful or dominant creature reveals itself"},{"min":82,"max":90,"result":"Toxic or sickening environment"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"infested_opportunity","name":"Infested — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Clue to the nature or vulnerabilities of these creatures"},{"min":21,"max":40,"result":"Creatures turn on each other"},{"min":41,"max":60,"result":"Early warning of an attack or ambush"},
+{"min":61,"max":80,"result":"External event provides a helpful distraction"},{"min":81,"max":100,"result":"Helpful resource or equipment"}
+]},
+{"id":"inhabited_feature","name":"Inhabited — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Conspicuous patrols or surveillance"},{"min":9,"max":16,"result":"Crews at work"},{"min":17,"max":24,"result":"Display or monument honors a notable cultural event"},{"min":25,"max":32,"result":"Emergency teams responding to an incident or crisis"},
+{"min":33,"max":40,"result":"Families gathering or children playing"},{"min":41,"max":48,"result":"Festival, celebration, or observance"},{"min":49,"max":56,"result":"Fight breaks out"},{"min":57,"max":64,"result":"Notable figure stands out from the crowd"},
+{"min":65,"max":72,"result":"Protest or strike"},{"min":73,"max":80,"result":"Unrepaired damage"},{"min":81,"max":88,"result":"Unusually empty or quiet area"},{"min":89,"max":96,"result":"Vendor or merchant hawking their wares"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"inhabited_peril","name":"Inhabited — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"Announcement or notification brings harrowing news"},{"min":10,"max":18,"result":"Arrival of a foe or rival"},{"min":19,"max":27,"result":"Blockade or security cordon cuts off needed access"},{"min":28,"max":36,"result":"Caught in the crossfire of a dispute"},
+{"min":37,"max":45,"result":"Disturbing evidence of exploitive conditions"},{"min":46,"max":54,"result":"Lured into danger"},{"min":55,"max":63,"result":"Signs of disease, infestation, or toxic environment"},{"min":64,"max":72,"result":"Signs of unrest or rebellion"},
+{"min":73,"max":81,"result":"Signs that you are being watched or followed"},{"min":82,"max":90,"result":"Unwanted attention from authority or enemies"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"inhabited_opportunity","name":"Inhabited — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Intriguing offer from an unexpected source"},{"min":21,"max":40,"result":"Lively festival or gathering place provides a chance to socialize"},{"min":41,"max":60,"result":"Local gossip proves interesting or helpful"},
+{"min":61,"max":80,"result":"Needed item, resource, or buyer is available"},{"min":81,"max":100,"result":"Old friend or connection resurfaces"}
+]},
+{"id":"mechanical_feature","name":"Mechanical — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Control station or terminal"},{"min":9,"max":16,"result":"Device or technology with a mysterious function"},{"min":17,"max":24,"result":"Disassembled machinery or parts"},{"min":25,"max":32,"result":"Heavy machinery at work"},
+{"min":33,"max":40,"result":"Machine fabrication or repair"},{"min":41,"max":48,"result":"Machines emulating or fusing with biological life"},{"min":49,"max":56,"result":"Machines in stasis or powered down"},{"min":57,"max":64,"result":"Machines single-mindedly executing a function or program"},
+{"min":65,"max":72,"result":"Major project under construction"},{"min":73,"max":80,"result":"Mechanical environment in motion or transforming"},{"min":81,"max":88,"result":"Mechanical wreckage or destruction"},{"min":89,"max":96,"result":"Power source for the machines"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"mechanical_peril","name":"Mechanical — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"Alarm or warning is triggered"},{"min":10,"max":18,"result":"Automated weapon or trap is activated"},{"min":19,"max":27,"result":"Environment made unsuitable for life"},{"min":28,"max":36,"result":"Hostile machines on patrol"},
+{"min":37,"max":45,"result":"Machines transform to reveal new capabilities"},{"min":46,"max":54,"result":"Machines with corrupted or hacked programming"},{"min":55,"max":63,"result":"Malfunctioning machines or technology"},{"min":64,"max":72,"result":"Moving machinery creates a danger or obstacle"},
+{"min":73,"max":81,"result":"Under surveillance by a central machine intelligence"},{"min":82,"max":90,"result":"Volatile technology"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"mechanical_opportunity","name":"Mechanical — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Helpful device"},{"min":21,"max":40,"result":"Insight into the workings or purpose of the machines"},{"min":41,"max":60,"result":"Intelligent machine offers aid"},
+{"min":61,"max":80,"result":"Salvageable resource"},{"min":81,"max":100,"result":"Wondrous technology"}
+]},
+{"id":"ruined_feature","name":"Ruined — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Collapsed or broken structures or terrain"},{"min":9,"max":16,"result":"Device or artifact with residual power or function"},{"min":17,"max":24,"result":"Focal point or nexus of the destruction"},{"min":25,"max":32,"result":"Graves or corpses"},
+{"min":33,"max":40,"result":"Innermost or hidden spaces laid bare by the destruction"},{"min":41,"max":48,"result":"Message or recording from before the fall"},{"min":49,"max":56,"result":"Overgrown or entombed spaces"},{"min":57,"max":64,"result":"Rubble-strewn paths"},
+{"min":65,"max":72,"result":"Sad memento of a lost life"},{"min":73,"max":80,"result":"Sights or sounds of structural instability"},{"min":81,"max":88,"result":"Signs of looting or scavenging"},{"min":89,"max":96,"result":"Survivors or guardians dwell among the ruins"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"ruined_peril","name":"Ruined — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"Dreadful atmosphere of loss and destruction weighs upon you"},{"min":10,"max":18,"result":"Evidence of a horrible fate for others who passed this way"},{"min":19,"max":27,"result":"Hazardous atmosphere or environment"},{"min":28,"max":36,"result":"Hostile creature has staked out their territory"},
+{"min":37,"max":45,"result":"Imminent collapse or destruction"},{"min":46,"max":54,"result":"Lured into a trap or targeted by automated defenses"},{"min":55,"max":63,"result":"Source of the destruction persists or returns anew"},{"min":64,"max":72,"result":"Unearthed secrets best left buried"},
+{"min":73,"max":81,"result":"Unstable or broken path"},{"min":82,"max":90,"result":"Volatile device or artifact"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"ruined_opportunity","name":"Ruined — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Access to an untouched or preserved area"},{"min":21,"max":40,"result":"Insight into what brought this place to ruin"},{"min":41,"max":60,"result":"Interesting or useful device or artifact"},
+{"min":61,"max":80,"result":"Salvageable equipment or resources"},{"min":81,"max":100,"result":"Shortcut or passage through the destruction"}
+]},
+{"id":"sacred_feature","name":"Sacred — Feature","roll_type":"d100","entries":[
+{"min":1,"max":8,"result":"Adherents performing worship or enacting rituals"},{"min":9,"max":16,"result":"Altar or temple"},{"min":17,"max":24,"result":"Dwellings for the faithful"},{"min":25,"max":32,"result":"Enigmatic symbols"},
+{"min":33,"max":40,"result":"Graves or remains of glorified disciples"},{"min":41,"max":48,"result":"Holy text or archives"},{"min":49,"max":56,"result":"Offerings or atonements"},{"min":57,"max":64,"result":"Pilgrims arriving to pay homage"},
+{"min":65,"max":72,"result":"Protected reliquary of an artifact or token"},{"min":73,"max":80,"result":"Religious art or idols"},{"min":81,"max":88,"result":"Subtle manifestations of mystical power or visions"},{"min":89,"max":96,"result":"Tokens or motifs representing the faith's domain"},
+{"min":97,"max":100,"result":"Descriptor + Focus"}
+]},
+{"id":"sacred_peril","name":"Sacred — Peril","roll_type":"d100","entries":[
+{"min":1,"max":9,"result":"An aspect of the faith beguiles you or lures you into danger"},{"min":10,"max":18,"result":"Dreadful aspects or powers of the faith are revealed"},{"min":19,"max":27,"result":"Embodiment of a god or power is given corrupted form or purpose"},{"min":28,"max":36,"result":"Guardians seek martyrdom in defense of this place"},
+{"min":37,"max":45,"result":"Leaders corrupt or exploit their followers to oppose you"},{"min":46,"max":54,"result":"Prophecies portend a dire threat"},{"min":55,"max":63,"result":"Protective ward or enigmatic puzzle blocks the way"},{"min":64,"max":72,"result":"Religious artifact evokes unnerving power"},
+{"min":73,"max":81,"result":"Unnatural corruption or decay fouls the environment"},{"min":82,"max":90,"result":"Zealots enact a ceremony to unlock forbidden powers"},{"min":91,"max":98,"result":"Action + Theme"},{"min":99,"max":100,"result":"Roll twice"}
+]},
+{"id":"sacred_opportunity","name":"Sacred — Opportunity","roll_type":"d100","entries":[
+{"min":1,"max":20,"result":"Access to a hidden or sealed area"},{"min":21,"max":40,"result":"Encounter with a helpful adherent or heretic"},{"min":41,"max":60,"result":"Insight into the nature or history of the faith"},
+{"min":61,"max":80,"result":"Insight into the schemes or methods of religious zealots"},{"min":81,"max":100,"result":"Interesting or valuable artifact or device"}
+]}
+]}
