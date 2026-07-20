@@ -1,0 +1,169 @@
+{
+  "name": "Starforged Derelict Zones Oracles",
+  "game": "starforged",
+  "licence": "CC BY 4.0",
+  "attribution": "Ironsworn: Starforged Rulebook by Shawn Tomkin. https://ironswornrpg.com",
+  "tables": [
+    { "id": "access_area", "name": "Access — Area", "roll_type": "d100", "usage_note": "Roll to envision the spaces you encounter in this zone. Can serve as a waypoint if you Undertake an Expedition.", "entries": [
+      { "min": 1, "max": 50, "result": "Corridor" }, { "min": 51, "max": 60, "result": "Stairs" }, { "min": 61, "max": 70, "result": "Lift or elevator" }, { "min": 71, "max": 80, "result": "Catwalk or bridge" },
+      { "min": 81, "max": 85, "result": "Vertical shaft or ladder" }, { "min": 86, "max": 90, "result": "Hub or intersection" }, { "min": 91, "max": 95, "result": "Crawl space or duct" }, { "min": 96, "max": 100, "result": "Airlock or external" }
+    ] },
+    { "id": "access_feature", "name": "Access — Feature", "roll_type": "d100", "usage_note": "Roll sparingly to reveal new aspects of your surroundings.", "entries": [
+      { "min": 1, "max": 5, "result": "Abandoned gear" }, { "min": 6, "max": 10, "result": "Blood trail" }, { "min": 11, "max": 15, "result": "Breached door or hatch" }, { "min": 16, "max": 20, "result": "Control or terminal station" },
+      { "min": 21, "max": 25, "result": "Corpse" }, { "min": 26, "max": 30, "result": "Dismantled equipment" }, { "min": 31, "max": 35, "result": "Flashing strobes" }, { "min": 36, "max": 40, "result": "Leaking pipes" },
+      { "min": 41, "max": 45, "result": "Makeshift barricade" }, { "min": 46, "max": 50, "result": "Opened or missing panels" }, { "min": 51, "max": 55, "result": "Organic growths" }, { "min": 56, "max": 60, "result": "Ruined bot" },
+      { "min": 61, "max": 65, "result": "Scrawled warning" }, { "min": 66, "max": 70, "result": "Sealed breach" }, { "min": 71, "max": 75, "result": "Sounds of movement" }, { "min": 76, "max": 80, "result": "Steam or smoke" },
+      { "min": 81, "max": 85, "result": "Wandering bot" }, { "min": 86, "max": 90, "result": "Windows or viewports" }, { "min": 91, "max": 95, "result": "Wrecked passage or debris" }, { "min": 96, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "access_peril", "name": "Access — Peril", "roll_type": "d100", "usage_note": "Roll for a complication or danger within this zone.", "entries": [
+      { "min": 1, "max": 10, "result": "Alarm or failsafe is triggered" }, { "min": 11, "max": 20, "result": "Automated defenses" }, { "min": 21, "max": 30, "result": "Blocked or sealed path" },
+      { "min": 31, "max": 40, "result": "Dreadful scene of death or violence" }, { "min": 41, "max": 50, "result": "Foe closes in" }, { "min": 51, "max": 60, "result": "Gear is failing or broken" },
+      { "min": 61, "max": 70, "result": "Hazardous environmental change" }, { "min": 71, "max": 80, "result": "Path is trapped" }, { "min": 81, "max": 90, "result": "Unsettling sound or disturbance" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "access_opportunity", "name": "Access — Opportunity", "roll_type": "d100", "usage_note": "Roll for a beneficial encounter or event, such as a strong hit with a match on Undertake an Expedition.", "entries": [
+      { "min": 1, "max": 20, "result": "Directions, shortcut, or alternate path" }, { "min": 21, "max": 40, "result": "Encounter with a friendly survivor, explorer, or denizen" },
+      { "min": 41, "max": 60, "result": "Hopeful signs of life" }, { "min": 61, "max": 80, "result": "Opening to outmaneuver or escape a threat or foe" }, { "min": 81, "max": 100, "result": "Useful equipment" }
+    ] },
+    { "id": "community_area", "name": "Community — Area", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Bar or club" }, { "min": 9, "max": 16, "result": "Classroom or education" }, { "min": 17, "max": 24, "result": "Concourse or hub" }, { "min": 25, "max": 32, "result": "Entertainment" },
+      { "min": 33, "max": 40, "result": "Gym or fitness" }, { "min": 41, "max": 48, "result": "Market or trade" }, { "min": 49, "max": 56, "result": "Park or garden" }, { "min": 57, "max": 64, "result": "Promenade or overlook" },
+      { "min": 65, "max": 72, "result": "Restaurant or dining" }, { "min": 73, "max": 80, "result": "Temple or chapel" }, { "min": 81, "max": 85, "result": "New zone" }, { "min": 86, "max": 100, "result": "New zone via Access" }
+    ] },
+    { "id": "community_feature", "name": "Community — Feature", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Ad-hoc memorials" }, { "min": 9, "max": 16, "result": "Art depicting historic event" }, { "min": 17, "max": 24, "result": "Artificial environment" }, { "min": 25, "max": 32, "result": "Automated announcements" },
+      { "min": 33, "max": 40, "result": "Barricaded area" }, { "min": 41, "max": 48, "result": "Gaming devices or interfaces" }, { "min": 49, "max": 56, "result": "Graffiti or vandalization" }, { "min": 57, "max": 64, "result": "Guard post or surveillance" },
+      { "min": 65, "max": 72, "result": "Mass grave or corpses" }, { "min": 73, "max": 80, "result": "Panoramic viewport" }, { "min": 81, "max": 88, "result": "Rubble or debris" }, { "min": 89, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "community_peril", "name": "Community — Peril", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Biological infestation" }, { "min": 11, "max": 20, "result": "Breached or broken structure" }, { "min": 21, "max": 30, "result": "Distressing signs of mass violence or death" },
+      { "min": 31, "max": 40, "result": "Flooded environment" }, { "min": 41, "max": 50, "result": "Foe lurks within concealment" }, { "min": 51, "max": 60, "result": "Fragile structural integrity" },
+      { "min": 61, "max": 70, "result": "Haunting vision of life here before the fall" }, { "min": 71, "max": 80, "result": "Hazardous environmental change" }, { "min": 81, "max": 90, "result": "Heartbreaking memento of lost lives" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "community_opportunity", "name": "Community — Opportunity", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 20, "result": "Culturally significant object or artifact" }, { "min": 21, "max": 40, "result": "Salvageable goods or resources" }, { "min": 41, "max": 60, "result": "Secure area offers a moment of peace" },
+      { "min": 61, "max": 80, "result": "Terminal with access to site details" }, { "min": 81, "max": 100, "result": "Valuable item" }
+    ] },
+    { "id": "engineering_area", "name": "Engineering — Area", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Control room" }, { "min": 9, "max": 16, "result": "Engine room or power core" }, { "min": 17, "max": 24, "result": "Engineering offices" }, { "min": 25, "max": 32, "result": "Equipment storage" },
+      { "min": 33, "max": 40, "result": "Fuel or coolant tanks" }, { "min": 41, "max": 48, "result": "Life support" }, { "min": 49, "max": 56, "result": "Maintenance tube" }, { "min": 57, "max": 64, "result": "Vehicle bay or garage" },
+      { "min": 65, "max": 72, "result": "Water processing" }, { "min": 73, "max": 80, "result": "Workshop" }, { "min": 81, "max": 85, "result": "New zone" }, { "min": 86, "max": 100, "result": "New zone via Access" }
+    ] },
+    { "id": "engineering_feature", "name": "Engineering — Feature", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Cluttered workbench" }, { "min": 9, "max": 16, "result": "Control terminal" }, { "min": 17, "max": 24, "result": "Crane or lift" }, { "min": 25, "max": 32, "result": "Disassembled equipment" },
+      { "min": 33, "max": 40, "result": "Flickering status monitors" }, { "min": 41, "max": 48, "result": "Jury-rigged equipment" }, { "min": 49, "max": 56, "result": "Multilevel layout" }, { "min": 57, "max": 64, "result": "Pipes and valves" },
+      { "min": 65, "max": 72, "result": "Sharp ozone smell" }, { "min": 73, "max": 80, "result": "Unfinished project" }, { "min": 81, "max": 88, "result": "Utility bots" }, { "min": 89, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "engineering_peril", "name": "Engineering — Peril", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Corrosive leak" }, { "min": 11, "max": 20, "result": "Erratic utility bots" }, { "min": 21, "max": 30, "result": "Failing equipment requires a specific part or skill" },
+      { "min": 31, "max": 40, "result": "Fire or energy surge" }, { "min": 41, "max": 50, "result": "Precarious or broken path" }, { "min": 51, "max": 60, "result": "Radioactive hotspot" },
+      { "min": 61, "max": 70, "result": "Sabotaged equipment" }, { "min": 71, "max": 80, "result": "Shrouded atmosphere conceals a lurking foe" }, { "min": 81, "max": 90, "result": "Unstable or failing power core" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "engineering_opportunity", "name": "Engineering — Opportunity", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 20, "result": "Advanced or experimental equipment" }, { "min": 21, "max": 40, "result": "Chance to restore power or function" }, { "min": 41, "max": 60, "result": "Helpful plans or schematics" },
+      { "min": 61, "max": 80, "result": "Helpful utility bot" }, { "min": 81, "max": 100, "result": "Useful tool or device" }
+    ] },
+    { "id": "living_area", "name": "Living — Area", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Food storage" }, { "min": 9, "max": 16, "result": "Galley or kitchen" }, { "min": 17, "max": 24, "result": "Laundry" }, { "min": 25, "max": 32, "result": "Locker room or storage" },
+      { "min": 33, "max": 40, "result": "Mess hall or dining" }, { "min": 41, "max": 48, "result": "Observation lounge" }, { "min": 49, "max": 56, "result": "Quarters (communal)" }, { "min": 57, "max": 64, "result": "Quarters (individual)" },
+      { "min": 65, "max": 72, "result": "Restroom or showers" }, { "min": 73, "max": 80, "result": "Sleeping pods" }, { "min": 81, "max": 85, "result": "New zone" }, { "min": 86, "max": 100, "result": "New zone via Access" }
+    ] },
+    { "id": "living_feature", "name": "Living — Feature", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Abandoned pet" }, { "min": 9, "max": 16, "result": "Audible music" }, { "min": 17, "max": 24, "result": "Cherished personal item" }, { "min": 25, "max": 32, "result": "Failed barricade" },
+      { "min": 33, "max": 40, "result": "Half-eaten food" }, { "min": 41, "max": 48, "result": "Messages from loved ones" }, { "min": 49, "max": 56, "result": "Ransacked belongings" }, { "min": 57, "max": 64, "result": "Remains of the dead" },
+      { "min": 65, "max": 72, "result": "Scuttling vermin" }, { "min": 73, "max": 80, "result": "Shrine or altar" }, { "min": 81, "max": 88, "result": "Unusual art" }, { "min": 89, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "living_peril", "name": "Living — Peril", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Booby trap" }, { "min": 11, "max": 20, "result": "Distressing written message" }, { "min": 21, "max": 30, "result": "Disturbing evidence of exploitive living conditions" },
+      { "min": 31, "max": 40, "result": "Dreadful scene of death or violence" }, { "min": 41, "max": 50, "result": "Lured into danger by signs of life" }, { "min": 51, "max": 60, "result": "Recorded message reveals a threat or complication" },
+      { "min": 61, "max": 70, "result": "Sealed door or hatch blocks access" }, { "min": 71, "max": 80, "result": "Signs of unwelcome invaders" }, { "min": 81, "max": 90, "result": "Unsettling sound or disturbance" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "living_opportunity", "name": "Living — Opportunity", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 20, "result": "Culturally significant object or artifact" }, { "min": 21, "max": 40, "result": "Hidden stash of valuable contraband" }, { "min": 41, "max": 60, "result": "Intact barricade or protected area" },
+      { "min": 61, "max": 80, "result": "Recorded message reveals helpful aspects of this site" }, { "min": 81, "max": 100, "result": "Useful personal gear" }
+    ] },
+    { "id": "medical_area", "name": "Medical — Area", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Crematorium" }, { "min": 9, "max": 16, "result": "Emergency or triage" }, { "min": 17, "max": 24, "result": "Isolation or containment" }, { "min": 25, "max": 32, "result": "Medical lab" },
+      { "min": 33, "max": 40, "result": "Medical offices" }, { "min": 41, "max": 48, "result": "Morgue" }, { "min": 49, "max": 56, "result": "Operating room" }, { "min": 57, "max": 64, "result": "Pharmacy or drug locker" },
+      { "min": 65, "max": 72, "result": "Prosthetics workshop" }, { "min": 73, "max": 80, "result": "Ward or clinic" }, { "min": 81, "max": 85, "result": "New zone" }, { "min": 86, "max": 100, "result": "New zone via Access" }
+    ] },
+    { "id": "medical_feature", "name": "Medical — Feature", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Autopsied corpse" }, { "min": 9, "max": 16, "result": "Biological specimens" }, { "min": 17, "max": 24, "result": "Blood spatter or pools" }, { "min": 25, "max": 32, "result": "Bloody medical supplies" },
+      { "min": 33, "max": 40, "result": "Broken prosthetics" }, { "min": 41, "max": 48, "result": "Corpse of a healer" }, { "min": 49, "max": 56, "result": "Dissected specimen" }, { "min": 57, "max": 64, "result": "Improvised overflow beds" },
+      { "min": 65, "max": 72, "result": "Medical monitors" }, { "min": 73, "max": 80, "result": "Medical records or scans" }, { "min": 81, "max": 88, "result": "Stacks of body bags" }, { "min": 89, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "medical_peril", "name": "Medical — Peril", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Disgusting sight / smell" }, { "min": 11, "max": 20, "result": "Disturbing evidence of medical misconduct" }, { "min": 21, "max": 30, "result": "Erratic medical bots" },
+      { "min": 31, "max": 40, "result": "Evidence of a virulent disease" }, { "min": 41, "max": 50, "result": "Malfunctioning medical equipment" }, { "min": 51, "max": 60, "result": "Repercussions of a medical experiment" },
+      { "min": 61, "max": 70, "result": "Restless dead" }, { "min": 71, "max": 80, "result": "Signs of a horrific death" }, { "min": 81, "max": 90, "result": "Signs of broken quarantine" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "medical_opportunity", "name": "Medical — Opportunity", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 20, "result": "Cache of medicine" }, { "min": 21, "max": 40, "result": "Clues to a medical mystery" }, { "min": 41, "max": 60, "result": "Helpful medical bot" },
+      { "min": 61, "max": 80, "result": "Unusual or rare specimen" }, { "min": 81, "max": 100, "result": "Useful medical equipment" }
+    ] },
+    { "id": "operations_area", "name": "Operations — Area", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Admin or command offices" }, { "min": 9, "max": 16, "result": "Armory" }, { "min": 17, "max": 24, "result": "Bridge or command center" }, { "min": 25, "max": 32, "result": "Brig or cells" },
+      { "min": 33, "max": 40, "result": "Comms center" }, { "min": 41, "max": 48, "result": "Computer core" }, { "min": 49, "max": 56, "result": "Conference or briefing room" }, { "min": 57, "max": 64, "result": "Landing bay or hangar" },
+      { "min": 65, "max": 72, "result": "Lounge" }, { "min": 73, "max": 80, "result": "Security" }, { "min": 81, "max": 85, "result": "New zone" }, { "min": 86, "max": 100, "result": "New zone via Access" }
+    ] },
+    { "id": "operations_feature", "name": "Operations — Feature", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Automated warning" }, { "min": 9, "max": 16, "result": "Buckled blast doors" }, { "min": 17, "max": 24, "result": "Control terminal" }, { "min": 25, "max": 32, "result": "Emergency lighting" },
+      { "min": 33, "max": 40, "result": "EV suit storage" }, { "min": 41, "max": 48, "result": "Hissing comms channel" }, { "min": 49, "max": 56, "result": "Intricate control panels" }, { "min": 57, "max": 64, "result": "Map of the site" },
+      { "min": 65, "max": 72, "result": "Recorded message" }, { "min": 73, "max": 80, "result": "Video surveillance monitors" }, { "min": 81, "max": 88, "result": "Written logs" }, { "min": 89, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "operations_peril", "name": "Operations — Peril", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Automated defenses target you" }, { "min": 11, "max": 20, "result": "Broken equipment limits control" }, { "min": 21, "max": 30, "result": "Coded message or puzzling security device" },
+      { "min": 31, "max": 40, "result": "Discouraging evidence of failed plans or defenses" }, { "min": 41, "max": 50, "result": "Displays reveal a new threat elsewhere in this site" }, { "min": 51, "max": 60, "result": "Failing power" },
+      { "min": 61, "max": 70, "result": "Hostile AI" }, { "min": 71, "max": 80, "result": "Sealed blast doors block access" }, { "min": 81, "max": 90, "result": "Sensors indicate the arrival of an external threat" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "operations_opportunity", "name": "Operations — Opportunity", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 20, "result": "Cache of weapons or ammo" }, { "min": 21, "max": 40, "result": "Helpful AI" }, { "min": 41, "max": 60, "result": "Keycard or access code" },
+      { "min": 61, "max": 80, "result": "Log offers insight into this site's downfall" }, { "min": 81, "max": 100, "result": "Secure area offers a moment of peace" }
+    ] },
+    { "id": "production_area", "name": "Production — Area", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Airlock or staging area" }, { "min": 9, "max": 16, "result": "Assembly or processing" }, { "min": 17, "max": 24, "result": "Cargo bay" }, { "min": 25, "max": 32, "result": "Equipment storage" },
+      { "min": 33, "max": 40, "result": "Exosuit bay" }, { "min": 41, "max": 48, "result": "Harvesting or mining platform" }, { "min": 49, "max": 56, "result": "Monitoring or control room" }, { "min": 57, "max": 64, "result": "Processed goods storage" },
+      { "min": 65, "max": 72, "result": "Raw materials storage" }, { "min": 73, "max": 80, "result": "Scrapyard" }, { "min": 81, "max": 85, "result": "New zone" }, { "min": 86, "max": 100, "result": "New zone via Access" }
+    ] },
+    { "id": "production_feature", "name": "Production — Feature", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Cargo lifts" }, { "min": 9, "max": 16, "result": "Control panels" }, { "min": 17, "max": 24, "result": "Disassembled machinery" }, { "min": 25, "max": 32, "result": "Elevated walkways" },
+      { "min": 33, "max": 40, "result": "Environment suits" }, { "min": 41, "max": 48, "result": "Ill-fated workers" }, { "min": 49, "max": 56, "result": "Immense machinery" }, { "min": 57, "max": 64, "result": "Sealed or locked containers" },
+      { "min": 65, "max": 72, "result": "Tools" }, { "min": 73, "max": 80, "result": "Vats of chemicals or gas" }, { "min": 81, "max": 88, "result": "Written manifest" }, { "min": 89, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "production_peril", "name": "Production — Peril", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Claustrophobic spaces" }, { "min": 11, "max": 20, "result": "Dangerous machinery" }, { "min": 21, "max": 30, "result": "Disturbing evidence of exploited labor" },
+      { "min": 31, "max": 40, "result": "Extreme temperatures" }, { "min": 41, "max": 50, "result": "Hazardous materials" }, { "min": 51, "max": 60, "result": "Impending industrial disaster" },
+      { "min": 61, "max": 70, "result": "Malfunctioning automation" }, { "min": 71, "max": 80, "result": "Rivals seek to secure these resources" }, { "min": 81, "max": 90, "result": "Signs of an unearthed or manufactured threat" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "production_opportunity", "name": "Production — Opportunity", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 20, "result": "Helpful vehicle or transport" }, { "min": 21, "max": 40, "result": "Rare or valuable resource" }, { "min": 41, "max": 60, "result": "Salvageable materials" },
+      { "min": 61, "max": 80, "result": "Useful equipment" }, { "min": 81, "max": 100, "result": "Valuable cargo" }
+    ] },
+    { "id": "research_area", "name": "Research — Area", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Clean room" }, { "min": 9, "max": 16, "result": "Cold storage" }, { "min": 17, "max": 24, "result": "Creature or animal pens" }, { "min": 25, "max": 32, "result": "Decontamination room" },
+      { "min": 33, "max": 40, "result": "Hazardous material storage" }, { "min": 41, "max": 48, "result": "Hydroponics or agriculture" }, { "min": 49, "max": 56, "result": "Isolation or containment" }, { "min": 57, "max": 64, "result": "Lab" },
+      { "min": 65, "max": 72, "result": "Library or records" }, { "min": 73, "max": 80, "result": "Secure vault" }, { "min": 81, "max": 85, "result": "New zone" }, { "min": 86, "max": 100, "result": "New zone via Access" }
+    ] },
+    { "id": "research_feature", "name": "Research — Feature", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 8, "result": "Aquarium or tank" }, { "min": 9, "max": 16, "result": "Biological specimens" }, { "min": 17, "max": 24, "result": "Bones or fossils" }, { "min": 25, "max": 32, "result": "Broken equipment" },
+      { "min": 33, "max": 40, "result": "Cryptic research notes" }, { "min": 41, "max": 48, "result": "Hastily destroyed data" }, { "min": 49, "max": 56, "result": "Hazmat suits" }, { "min": 57, "max": 64, "result": "Inscrutable artifact" },
+      { "min": 65, "max": 72, "result": "Invasive plant growth" }, { "min": 73, "max": 80, "result": "Recorded research log" }, { "min": 81, "max": 88, "result": "Spilled chemicals" }, { "min": 89, "max": 100, "result": "Descriptor + Focus" }
+    ] },
+    { "id": "research_peril", "name": "Research — Peril", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 10, "result": "Automated containment protocols are activated" }, { "min": 11, "max": 20, "result": "Biological infestation" }, { "min": 21, "max": 30, "result": "Dangerous specimen" },
+      { "min": 31, "max": 40, "result": "Disturbing outcome of a failed experiment" }, { "min": 41, "max": 50, "result": "Evidence of sinister experiments" }, { "min": 51, "max": 60, "result": "Fragile vault holds a dire threat" },
+      { "min": 61, "max": 70, "result": "Signs of broken containment" }, { "min": 71, "max": 80, "result": "Toxic environment" }, { "min": 81, "max": 90, "result": "Unstable technology" },
+      { "min": 91, "max": 98, "result": "Action + Theme" }, { "min": 99, "max": 100, "result": "Roll twice" }
+    ] },
+    { "id": "research_opportunity", "name": "Research — Opportunity", "roll_type": "d100", "entries": [
+      { "min": 1, "max": 20, "result": "Helpful research data" }, { "min": 21, "max": 40, "result": "Records of a notable discovery" }, { "min": 41, "max": 60, "result": "Specialized research tools" },
+      { "min": 61, "max": 80, "result": "Unique prototype" }, { "min": 81, "max": 100, "result": "Useful navigational data" }
+    ] }
+  ]
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starforged Oracle Tables — Starforged</title>
+<meta name="description" content="Complete rules for Starforged Oracle Tables.">
+<meta property="og:title" content="Starforged Oracle Tables — Starforged">
+<meta property="og:description" content="Complete rules for Starforged Oracle Tables.">
+<meta property="og:image" content="https://rules.moddable.games/games/starforged/og-variants/oracles.png?v=0.1.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/starforged/variants/oracles/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Starforged Oracle Tables — Starforged">
+<meta name="twitter:description" content="Complete rules for Starforged Oracle Tables.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/starforged/og-variants/oracles.png?v=0.1.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.1.0">
+<link rel="stylesheet" href="../../theme.css?v=0.1.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.1.0">
+<script type="module" src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">Contents</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/starforged/content/rules/oracles.md" class="hdr-link">Markdown</a><a href="../../../../games/starforged/pdf/rules/oracles.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Starforged Oracle Tables · Starforged</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Starforged · Variant  of </span>
+    <h1 class="variant-cover-title">Starforged Oracle Tables</h1>
+    <div class="variant-cover-stats">
+      <span class="variant-stat"><span class="variant-stat-val"></span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val"></span><span class="variant-stat-lbl">Players</span></span>
+    </div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2 id="starforged-oracle-tables">Starforged Oracle Tables</h2>
+<p>Oracle tables are the primary source of randomness and creative inspiration in Ironsworn: Starforged. When the outcome is uncertain or you need a narrative prompt, roll dice and consult the relevant table.</p>
+<p><strong>Licence:</strong> CC BY 4.0. Attribution: Ironsworn: Starforged Rulebook, Shawn Tomkin.</p>
+<h3 id="how-to-use-oracles">How to Use Oracles</h3>
+<p>Roll the specified die type (usually d100 for a percentile roll). Find your result in the table’s <code>min</code>–<code>max</code> range. Interpret the result in the context of your current situation. Oracle results are prompts, not commands: they spark ideas, not dictate outcomes.</p>
+<h3 id="oracle-files">Oracle Files</h3>
+<p>Machine-readable oracle data is stored as JSON files in this directory. Each file follows the same oracle schema established for Ironsworn (<code>games/ironsworn/oracles/schema.json</code>), and may contain more than one related table.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>File</th>
+<th>Category</th>
+<th>Tables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../../games/starforged/oracles/core.json"><code>core.json</code></a></td>
+<td>Core Oracles</td>
+<td>Action, Theme, Descriptor, Focus</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/campaign-launch.json"><code>campaign-launch.json</code></a></td>
+<td>Campaign Launch Oracles</td>
+<td>Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/characters.json"><code>characters.json</code></a></td>
+<td>Character Oracles</td>
+<td>Given/Family Name, Callsign, First Look, Initial Disposition, Character Role, Character Goal, Revealed Character Aspect</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/creatures.json"><code>creatures.json</code></a></td>
+<td>Creature Oracles</td>
+<td>Environment, Scale, Ultra-scale, Basic Form (by environment: Space, Interior, Land, Liquid, Air), First Look, Encountered Behavior, Revealed Creature Aspect</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/derelicts.json"><code>derelicts.json</code></a></td>
+<td>Derelicts</td>
+<td>Location, Condition, Outer/Inner First Look, Derelict Type (by location), Derelict Zones (by derelict type)</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/derelicts-zones.json"><code>derelicts-zones.json</code></a></td>
+<td>Derelict Zones</td>
+<td>Area, Feature, Peril, and Opportunity tables for all 8 zones: Access, Community, Engineering, Living, Medical, Operations, Production, Research</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/misc.json"><code>misc.json</code></a></td>
+<td>Miscellaneous Oracles</td>
+<td>Story Complication, Story Clue, Anomaly Effect, Combat Action</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/move-oracles.json"><code>move-oracles.json</code></a></td>
+<td>Move Oracles</td>
+<td>Ask the Oracle (5 likelihood tables), Begin a Session, Make a Discovery, Confront Chaos, Take Decisive Action, Endure Harm, Endure Stress, Withstand Damage, Pay the Price</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/factions.json"><code>factions.json</code></a></td>
+<td>Faction Oracles</td>
+<td>Type, Influence, Dominion, Dominion Leadership, Guild, Fringe Group, Projects, Relationships, Quirks, Rumors, Name Template, Name Legacy, Name Affiliation, Name Identity</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/location-themes.json"><code>location-themes.json</code></a></td>
+<td>Location Theme Oracles</td>
+<td>Theme Type, plus Feature/Peril/Opportunity for 8 themes (Chaotic, Fortified, Haunted, Infested, Inhabited, Mechanical, Ruined, Sacred)</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/settlements.json"><code>settlements.json</code></a></td>
+<td>Settlement Oracles</td>
+<td>Population (Terminus/Outlands/Expanse), Location, First Look, Initial Contact, Authority, Projects, Trouble, Name, Name Tags</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/space.json"><code>space.json</code></a></td>
+<td>Space Oracles</td>
+<td>Space Sighting (Terminus/Outlands/Expanse), Sector Name, Stellar Object, Spaceborne Peril, Spaceborne Opportunity</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/starships.json"><code>starships.json</code></a></td>
+<td>Starship Oracles</td>
+<td>Starship Mission (Terminus/Outlands/Expanse), Starship Type, Fleet, Initial Contact, First Look, Starship Name</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/vaults.json"><code>vaults.json</code></a></td>
+<td>Precursor Vault Oracles</td>
+<td>Location, Scale, Form, Shape, Material, Outer/Inner First Look, Interior Feature/Peril/Opportunity, Sanctum Purpose/Feature/Peril/Opportunity</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/planet-types.json"><code>planet-types.json</code></a></td>
+<td>Planet Type Oracles</td>
+<td>Settlements, Sample Names, Atmosphere, Observed From Space, Feature, Life for 11 planetary classes (Desert, Furnace, Grave, Ice, Jovian, Jungle, Ocean, Rocky, Shattered, Tainted, Vital); Vital also has Diversity and Biomes</td>
+</tr>
+<tr>
+<td><a href="../../../../games/starforged/oracles/planets.json"><code>planets.json</code></a></td>
+<td>Planet Oracles</td>
+<td>Planetary Class, Planetside Peril (Lifebearing/Lifeless), Planetside Opportunity (Lifebearing/Lifeless)</td>
+</tr>
+</tbody>
+</table></div>
+<p>All 16 oracle categories are now complete.</p>
+<h3 id="ai-dm-integration">AI DM Integration</h3>
+<p>Oracle results feed directly into narrative generation. The integration pattern:</p>
+<ol>
+<li>Roll oracle table(s) relevant to the situation.</li>
+<li>Pass the result(s) to the AI with context (current scene, vow, location).</li>
+<li>AI generates narration that incorporates the oracle result naturally.</li>
+</ol>
+<p>Example prompt: <code>&quot;The player Undertakes an Expedition. Oracle: Action = Explore. Theme = Discovery. Descriptor = Ancient. Focus = Archive. Generate a vivid scene description.&quot;</code></p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <span class="variant-pager-spacer"></span>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <span class="variant-pager-spacer"></span>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Starforged · Published by Moddable Games · v1.3.1</span>
+</footer>
+
+</div>
+
+<script type="module" src="../../../../js/toc.js?v=1.3.1"></script>
+<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

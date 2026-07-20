@@ -2,13 +2,19 @@ const pills = document.querySelectorAll('.filter-pill');
 const cards = document.querySelectorAll('.game-card');
 const searchInput = document.querySelector('.search-input');
 
+const filterGroups = {
+  game: ['game', 'original'],
+  classic: ['classic', 'standalone', 'hub'],
+};
+
 function filterCards() {
   const activePill = document.querySelector('.filter-pill.active');
   const filter = activePill ? activePill.dataset.filter : 'all';
   const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+  const types = filterGroups[filter] || [filter];
 
   cards.forEach(card => {
-    const matchesFilter = filter === 'all' || card.dataset.type === filter;
+    const matchesFilter = filter === 'all' || types.includes(card.dataset.type);
     const title = card.querySelector('.card-title').textContent.toLowerCase();
     const desc = card.querySelector('.card-desc').textContent.toLowerCase();
     const matchesSearch = !query || title.includes(query) || desc.includes(query);
