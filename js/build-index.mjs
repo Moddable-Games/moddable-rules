@@ -184,13 +184,19 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
         const desc = Array.isArray(descArr) ? descArr[0] || '' : (typeof descArr === 'string' ? descArr : '');
         const snippet = desc.slice(0, 200);
 
+        const anchor = item.index || name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        const variantUrl = cat.linkPath
+          ? `dist/${slug}/${resolveLinkPath(cat.linkPath, item)}`
+          : null;
+
         index.push({
           game: slug,
           gameTitle,
           section: cat.label,
           heading: name,
           content: snippet || searchable,
-          anchor: (item.index || name.toLowerCase().replace(/[^a-z0-9]+/g, '-')),
+          anchor,
+          variantUrl,
           dataType: 'entity',
           category: cat.id,
         });
@@ -221,6 +227,24 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
   }
 }
 
+function resolveLinkPath(template, item) {
+  return template.replace(/\{([^}]+)\}/g, (_, expr) => {
+    const [field, transform] = expr.split('|');
+    const raw = resolveField(item, field);
+    const val = raw != null ? String(raw) : '';
+    switch (transform) {
+      case 'levelSlug': return `level-${val}`;
+      case 'alphaGroup': {
+        const letter = (val[0] || 'a').toLowerCase();
+        const groups = ['a-c','d-f','g-i','j-l','m-o','p-r','s-u','v-z'];
+        return groups.find(g => letter >= g[0] && letter <= g[2]) || 'a-c';
+      }
+      case 'kebabCase': return val.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+      default: return val.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+    }
+  });
+}
+
 function resolveField(obj, path) {
   const parts = path.split('.');
   let val = obj;
@@ -228,7 +252,7 @@ function resolveField(obj, path) {
     if (val == null) return '';
     val = val[p];
   }
-  return typeof val === 'string' ? val : '';
+  return typeof val === 'string' ? val : (val != null ? val : '');
 }
 
 mkdirSync(DIST_DIR, { recursive: true });
