@@ -92,7 +92,10 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [ability-scores.json](../../games/pathfinder-1e/data/ability-scores.json) — The six abilities and their effects
 - [races.json](../../games/pathfinder-1e/data/races.json) — The seven core races and their racial traits
 - [skills.json](../../games/pathfinder-1e/data/skills.json) — All 26 skills with key ability and training requirements
+- [classes.json](../../games/pathfinder-1e/data/classes.json) — All 11 core classes with hit die, BAB, saves, and skill ranks
+- [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
+- [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
 
-More data files (classes, feats, spells, equipment, monsters) are in progress and will be added here as each is completed.
+Spells, equipment, and monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
 
 </div>
