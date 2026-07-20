@@ -21,8 +21,8 @@ Machine-readable oracle data is stored as JSON files in this directory. Each fil
 
 | File | Category | Tables |
 |------|----------|--------|
-| `core.json` | Core Oracles | Action, Theme, Descriptor, Focus |
-| `campaign-launch.json` | Campaign Launch Oracles | Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident |
+| [`core.json`](../../../../games/starforged/oracles/core.json) | Core Oracles | Action, Theme, Descriptor, Focus |
+| [`campaign-launch.json`](../../../../games/starforged/oracles/campaign-launch.json) | Campaign Launch Oracles | Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident |
 
 More categories (Characters, Creatures, Derelicts, Derelict Zones, Factions, Location Themes, Misc, Moves, Planet Types, Planets, Settlements, Space, Starships, Vaults) are in progress and will be added here as each is completed.
 
