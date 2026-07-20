@@ -23,8 +23,11 @@ Machine-readable oracle data is stored as JSON files in this directory. Each fil
 |------|----------|--------|
 | [`core.json`](../../../../games/starforged/oracles/core.json) | Core Oracles | Action, Theme, Descriptor, Focus |
 | [`campaign-launch.json`](../../../../games/starforged/oracles/campaign-launch.json) | Campaign Launch Oracles | Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident |
+| [`space.json`](../../../../games/starforged/oracles/space.json) | Space Oracles | Space Sighting (Terminus/Outlands/Expanse), Sector Name, Stellar Object, Spaceborne Peril, Spaceborne Opportunity |
+| [`starships.json`](../../../../games/starforged/oracles/starships.json) | Starship Oracles | Starship Mission (Terminus/Outlands/Expanse), Starship Type, Fleet, Initial Contact, First Look, Starship Name |
+| [`vaults.json`](../../../../games/starforged/oracles/vaults.json) | Precursor Vault Oracles | Location, Scale, Form, Shape, Material, Outer/Inner First Look, Interior Feature/Peril/Opportunity, Sanctum Purpose/Feature/Peril/Opportunity |
 
-More categories (Characters, Creatures, Derelicts, Derelict Zones, Factions, Location Themes, Misc, Moves, Planet Types, Planets, Settlements, Space, Starships, Vaults) are in progress and will be added here as each is completed.
+More categories (Characters, Creatures, Derelicts, Derelict Zones, Factions, Location Themes, Misc, Move Oracles, Planet Types, Planets, Settlements) are in progress and will be added here as each is completed.
 
 ### AI DM Integration
 
