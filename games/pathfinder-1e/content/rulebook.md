@@ -54,6 +54,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Classes](rules/classes/) — The 11 core classes, character advancement, multiclassing, favored class, prestige classes
 - [Fighter](rules/fighter/) — Full class write-up: role, class features, weapon training groups
 - [Ranger](rules/ranger/) — Full class write-up: favored enemy/terrain, combat styles, hunter's bond
+- [Monk](rules/monk/) — Full class write-up: flurry of blows, ki pool, unarmed strike progression
 
 More rules sections (remaining individual class write-ups, Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
