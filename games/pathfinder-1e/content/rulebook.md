@@ -49,8 +49,10 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 
 - [Getting Started](rules/getting-started/) — Playing the game, common terms, character generation steps, ability scores
 - [Races](rules/races/) — Dwarves, elves, gnomes, half-elves, half-orcs, halflings, humans
+- [Skills](rules/skills/) — Skill mechanics, Acrobatics through Intimidate
+- [Skills (continued)](rules/skills-2/) — Knowledge through Use Magic Device
 
-More rules sections (Classes overview, Skills, Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
+More rules sections (Classes overview, Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
 </div>
 
@@ -62,6 +64,7 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 
 - [ability-scores.json](../../games/pathfinder-1e/data/ability-scores.json) — The six abilities and their effects
 - [races.json](../../games/pathfinder-1e/data/races.json) — The seven core races and their racial traits
+- [skills.json](../../games/pathfinder-1e/data/skills.json) — All 26 skills with key ability and training requirements
 
 More data files (classes, feats, spells, equipment, monsters) are in progress and will be added here as each is completed.
 
