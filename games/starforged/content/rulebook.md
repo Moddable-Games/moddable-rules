@@ -53,7 +53,7 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Companion Assets](rules/assets-companion/) — Allies, pets, bots, and symbiotes
 - [Module Assets](rules/assets-module/) — Starship upgrades and add-ons
 - [Path Assets](rules/assets-path/) — All 46 character specializations, from Ace to Weapon Master
-- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (8 categories so far; more to come)
+- [Oracle Tables](rules/oracles/) — Randomness and creative prompts (11 categories so far; more to come)
 
 More oracle categories are in progress and will be added here as each is completed.
 
@@ -82,6 +82,9 @@ Machine-readable JSON for tools and widgets:
 - [derelicts-zones.json](../../games/starforged/oracles/derelicts-zones.json) — Area, Feature, Peril, Opportunity tables for all 8 derelict zones
 - [misc.json](../../games/starforged/oracles/misc.json) — Story Complication, Story Clue, Anomaly Effect, Combat Action
 - [move-oracles.json](../../games/starforged/oracles/move-oracles.json) — Ask the Oracle and 8 move-linked prompt tables
+- [factions.json](../../games/starforged/oracles/factions.json) — Faction type, influence, dominion, guild, fringe group, projects, relationships, quirks, rumors, and name generation
+- [location-themes.json](../../games/starforged/oracles/location-themes.json) — Theme type plus feature/peril/opportunity tables for 8 location themes
+- [settlements.json](../../games/starforged/oracles/settlements.json) — Settlement population, location, first look, initial contact, authority, projects, trouble, and name generation
 
 More oracle category JSON is in progress and will be added here as each is completed.
 
