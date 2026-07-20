@@ -23,8 +23,10 @@ Machine-readable oracle data is stored as JSON files in this directory. Each fil
 |------|----------|--------|
 | [`core.json`](../../../../games/starforged/oracles/core.json) | Core Oracles | Action, Theme, Descriptor, Focus |
 | [`campaign-launch.json`](../../../../games/starforged/oracles/campaign-launch.json) | Campaign Launch Oracles | Background Assets, Backstory Prompts, Starship History, Starship Quirks, Sector Trouble, Inciting Incident |
+| [`planet-types.json`](../../../../games/starforged/oracles/planet-types.json) | Planet Type Oracles | Settlements, Sample Names, Atmosphere, Observed From Space, Feature, Life for 11 planetary classes (Desert, Furnace, Grave, Ice, Jovian, Jungle, Ocean, Rocky, Shattered, Tainted, Vital); Vital also has Diversity and Biomes |
+| [`planets.json`](../../../../games/starforged/oracles/planets.json) | Planet Oracles | Planetary Class, Planetside Peril (Lifebearing/Lifeless), Planetside Opportunity (Lifebearing/Lifeless) |
 
-More categories (Characters, Creatures, Derelicts, Derelict Zones, Factions, Location Themes, Misc, Moves, Planet Types, Planets, Settlements, Space, Starships, Vaults) are in progress and will be added here as each is completed.
+This is the last of 16 planned Oracle categories (see moddable-rules#208). The remaining categories (Characters, Creatures, Derelicts, Derelict Zones, Factions, Location Themes, Misc, Move Oracles, Settlements, Space, Starships, Vaults) have landed via separate batch PRs and will appear in this table once merged.
 
 ### AI DM Integration
 
