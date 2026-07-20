@@ -63,8 +63,11 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Druid](rules/druid/) — Full class write-up: nature bond, wild shape, animal companion mechanics
 - [Sorcerer](rules/sorcerer/) — Full class write-up: bloodlines, spells known, eschew materials
 - [Cleric](rules/cleric/) — Full class write-up: channel energy, all 32 domains, spontaneous casting
+- [Combat Feats](rules/feats-combat/) — All 101 core Combat feats, alphabetized
+- [General Feats](rules/feats-general/) — All 49 core General feats, alphabetized (including Leadership)
+- [Metamagic, Critical & Item Creation Feats](rules/feats-other/) — The remaining 25 core feats across three smaller categories
 
-All 11 core classes are now complete. More rules sections (Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
+All 11 core classes and all 175 core feats are now complete. More rules sections (Spells, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
 </div>
 
