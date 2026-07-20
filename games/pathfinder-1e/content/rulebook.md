@@ -57,6 +57,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Monk](rules/monk/) — Full class write-up: flurry of blows, ki pool, unarmed strike progression
 - [Paladin](rules/paladin/) — Full class write-up: smite evil, lay on hands, mercies, divine bond
 - [Rogue](rules/rogue/) — Full class write-up: sneak attack, rogue talents, trapfinding
+- [Bard](rules/bard/) — Full class write-up: bardic performance, spells known, versatile performance
 
 More rules sections (remaining individual class write-ups, Feats, Combat, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
