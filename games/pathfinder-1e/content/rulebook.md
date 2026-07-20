@@ -69,8 +69,10 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Combat](rules/combat/) — Turn structure, initiative, attack rolls, AC, damage, saving throws
 - [Actions in Combat](rules/combat-actions/) — Every standard, move, full-round, swift, immediate, and free action
 - [Special Attacks & Maneuvers](rules/combat-maneuvers/) — Charges, combat maneuvers, mounted combat, cover, concealment, injury and death
+- [Magic](rules/magic/) — Casting spells, concentration, counterspells, arcane vs divine casting, special abilities
+- [Spell Statistics](rules/magic-spell-statistics/) — How to read a spell's stat block: school, components, range, area, duration, saving throw
 
-All 11 core classes, all 175 core feats, and the full Combat chapter are now complete. More rules sections (Spells, Magic, Equipment, Gamemastering) are in progress and will be added here as each is completed.
+All 11 core classes, all 175 core feats, and the full Combat and Magic chapters are now complete. More rules sections (Spells, Equipment, Gamemastering) are in progress and will be added here as each is completed.
 
 </div>
 
