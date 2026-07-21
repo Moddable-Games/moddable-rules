@@ -1,0 +1,119 @@
+{
+  "label": "Pathfinder 1e (PFSRD)",
+  "dataPath": "games/pathfinder-1e/data/",
+  "rulesUrl": "dist/pathfinder-1e/",
+  "dataType": "entity",
+  "categories": [
+    {
+      "id": "spells",
+      "label": "Spells",
+      "file": "spells.json",
+      "color": "#7b5ea7",
+      "searchFields": ["name", "school"],
+      "tag": { "field": "min_level", "prefix": "Lvl " },
+      "linkPath": "rules/spells/"
+    },
+    {
+      "id": "monsters",
+      "label": "Monsters",
+      "file": "monsters.json",
+      "color": "#c0392b",
+      "searchFields": ["name", "creature_type"],
+      "tag": { "field": "cr", "prefix": "CR " },
+      "linkPath": "rules/bestiary/"
+    },
+    {
+      "id": "classes",
+      "label": "Classes",
+      "file": "classes.json",
+      "color": "#2980b9",
+      "searchFields": ["name"],
+      "linkPath": "rules/classes/"
+    },
+    {
+      "id": "feats",
+      "label": "Feats",
+      "file": "feats.json",
+      "color": "#d35400",
+      "searchFields": ["name", "type"],
+      "tag": { "field": "type" },
+      "linkPath": null
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "file": "equipment.json",
+      "color": "#7f8c8d",
+      "searchFields": ["name", "category"],
+      "tag": { "field": "category" },
+      "linkPath": null
+    },
+    {
+      "id": "races",
+      "label": "Races",
+      "file": "races.json",
+      "color": "#27ae60",
+      "searchFields": ["name"],
+      "linkPath": "rules/races/"
+    },
+    {
+      "id": "conditions",
+      "label": "Conditions",
+      "file": "conditions.json",
+      "color": "#e67e22",
+      "searchFields": ["name"],
+      "linkPath": "rules/glossary-conditions/"
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "file": "skills.json",
+      "color": "#16a085",
+      "searchFields": ["name", "attribute"],
+      "tag": { "field": "attribute" },
+      "linkPath": "rules/skills/"
+    }
+  ],
+  "cardFields": {
+    "spells": {
+      "title": "name",
+      "meta": ["Level {min_level} {school}", "{casting_time} · {range} · {duration}"],
+      "description": "short_description"
+    },
+    "monsters": {
+      "title": "name",
+      "meta": ["{size} {creature_type}, {alignment}", "AC {ac} · HP {hp} · CR {cr}"],
+      "description": null
+    },
+    "classes": {
+      "title": "name",
+      "meta": ["Hit Die: d{hit_die} · BAB: {bab_progression} · Skills: {skill_ranks_per_level}/lvl"],
+      "description": null
+    },
+    "feats": {
+      "title": "name",
+      "meta": ["{type}"],
+      "description": "benefit"
+    },
+    "equipment": {
+      "title": "name",
+      "meta": ["{category}", "{price}"],
+      "description": null
+    },
+    "races": {
+      "title": "name",
+      "meta": [],
+      "description": "description"
+    },
+    "conditions": {
+      "title": "name",
+      "meta": [],
+      "description": "description"
+    },
+    "skills": {
+      "title": "name",
+      "meta": ["{attribute}", "Trained only: {trained_only}"],
+      "description": "description"
+    }
+  }
+}
