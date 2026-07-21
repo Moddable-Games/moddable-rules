@@ -447,12 +447,24 @@ for (const slug of slugs) {
     console.log(`  Generated ${totalGenerated} sub-page PDFs for ${slug}`);
 
     // Generate consolidated library PDF from all sub-page PDFs
+    // Order: hub rulebook first, then sub-pages in hub link order (not alphabetical)
     const allSubPdfs = [];
+    const rulebookPdf = resolve(gameDir, 'pdf', `${slug}-rulebook.pdf`);
+    if (existsSync(rulebookPdf)) allSubPdfs.push(rulebookPdf);
+
+    // Derive page order from hub markdown links
+    const hubSrc = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+    const linkOrder = [...hubSrc.matchAll(/\(rules\/([a-z0-9-]+)\/\)/g)].map(m => m[1]);
+
     for (const subdir of subdirs) {
       const sectionPdfDir = resolve(gameDir, 'pdf', subdir.name);
       if (!existsSync(sectionPdfDir)) continue;
-      const pdfs = readdirSync(sectionPdfDir).filter(f => f.endsWith('.pdf')).sort();
-      for (const p of pdfs) allSubPdfs.push(resolve(sectionPdfDir, p));
+      const available = readdirSync(sectionPdfDir).filter(f => f.endsWith('.pdf'));
+      const ordered = linkOrder
+        .map(slug => available.find(f => f === `${slug}.pdf`))
+        .filter(Boolean);
+      const remaining = available.filter(f => !ordered.includes(f)).sort();
+      for (const p of [...ordered, ...remaining]) allSubPdfs.push(resolve(sectionPdfDir, p));
     }
     if (allSubPdfs.length > 1) {
       const version = meta.version || '0.0.0';
