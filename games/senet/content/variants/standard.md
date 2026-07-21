@@ -1,0 +1,102 @@
+---
+title: Senet (Kendall Reconstruction)
+slug: standard
+board: "3×10"
+players: "2"
+parent: senet
+order: 1
+engine:
+  topology:
+    type: grid
+    rows: 3
+    cols: 10
+  render:
+    cellSize: 36
+    cellColor: uniform
+    labels: false
+    zones:
+      cells:
+        - type: floor
+          at: [[0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[0,9],[1,0],[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[1,8],[1,9],[2,0],[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[2,9]]
+        - type: rebirth
+          at: [[1,5]]
+        - type: happiness
+          at: [[2,5]]
+        - type: water
+          at: [[2,6]]
+        - type: truths
+          at: [[2,7]]
+        - type: reatoum
+          at: [[2,8]]
+        - type: horus
+          at: [[2,9]]
+    ops:
+      - op: rect
+        fill: transparent
+        scope: board
+      - op: cells
+        pattern: cellMap
+        light: cell-light
+        dark: cell-dark
+        defaultFill: floor
+        zones:
+          cells:
+            - type: floor
+              at: [[0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[0,9],[1,0],[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[1,8],[1,9],[2,0],[2,1],[2,2],[2,3],[2,4]]
+            - type: rebirth
+              at: [[1,5]]
+            - type: happiness
+              at: [[2,5]]
+            - type: water
+              at: [[2,6]]
+            - type: truths
+              at: [[2,7]]
+            - type: reatoum
+              at: [[2,8]]
+            - type: horus
+              at: [[2,9]]
+        typeColors:
+          floor: floor
+          rebirth: rebirth
+          happiness: happiness
+          water: water
+          truths: truths
+          reatoum: reatoum
+          horus: horus
+        typeStrokes:
+          floor: floor-stroke
+          rebirth: rebirth-stroke
+          happiness: happiness-stroke
+          water: water-stroke
+          truths: truths-stroke
+          reatoum: reatoum-stroke
+          horus: horus-stroke
+  surface:
+    colors:
+      floor: "#d4a853"
+      floor-stroke: "#7a5c28"
+      rebirth: "#7cb87c"
+      rebirth-stroke: "#3d6b3d"
+      happiness: "#f5d76e"
+      happiness-stroke: "#b8860b"
+      water: "#6bb3d9"
+      water-stroke: "#2d7a9c"
+      truths: "#d4a0d4"
+      truths-stroke: "#8b5a8b"
+      reatoum: "#f0a050"
+      reatoum-stroke: "#b06020"
+      horus: "#e85050"
+      horus-stroke: "#a02020"
+  pieces:
+    set: playstrategy-draughts-plain
+  players: [cone, spool]
+  setup:
+    cone: [[0,0],[0,2],[0,4],[0,6],[0,8]]
+    spool: [[0,1],[0,3],[0,5],[0,7],[0,9]]
+---
+
+## Senet (Kendall Reconstruction)
+
+{{svg:standard-board.svg "Senet — starting position (Kendall reconstruction)"}}
+
+See the main hub page for full rules.

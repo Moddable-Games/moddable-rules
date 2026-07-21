@@ -2953,6 +2953,17 @@
     "players": "2"
   },
   {
+    "family": "senet",
+    "familyTitle": "Senet",
+    "variant": "standard",
+    "variantTitle": "Senet (Kendall Reconstruction)",
+    "topology": "grid",
+    "svg": "games/senet/diagrams/svg/standard-board.svg",
+    "rulesUrl": "dist/senet/variants/standard/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
     "family": "shogi",
     "familyTitle": "Shogi",
     "variant": "annan-shogi",
