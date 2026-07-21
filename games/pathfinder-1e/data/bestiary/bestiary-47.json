@@ -1,0 +1,232 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 47,
+  "range": "Ochre Jelly – Ogre",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Ochre Jelly",
+      "creature_type": "Ooze",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "N",
+      "size": "Large",
+      "init": "-5",
+      "senses": "blindsight 60 ft.; Perception -5",
+      "ac": "4, touch 4, flat-footed 4 (-5 Dex, -1 size)",
+      "hp": "63 (6d8+36)",
+      "saving_throws": {
+        "fort": "+8",
+        "ref": "-3",
+        "will": "-3"
+      },
+      "defensive_abilities": "split",
+      "immune": "electricity, mind-affecting effects, ooze traits, slashing and piercing damage",
+      "speed": "10 ft., climb 10 ft.",
+      "melee": "slam +5 (2d4+3 plus 1d4 acid and grab)",
+      "special_attacks": "constrict (2d4+3 plus 1d4 acid)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "14",
+        "dex": "1",
+        "con": "22",
+        "int": "-",
+        "wis": "1",
+        "cha": "1"
+      },
+      "base_attack": "+4",
+      "cmb": "+7 (+11 grapple)",
+      "cmd": "12 (can't be tripped)",
+      "skills": "Climb +10",
+      "environment": "temperate underground or marshes",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "This yellow-orange amoeboid creature slithers across the ground, pseudopods grasping ahead of its slow approach.",
+      "special_abilities": [
+        {
+          "name": "Acid",
+          "type": "Ex",
+          "description": "An ochre jelly secretes a digestive acid that dissolves only flesh (not bone) when it strikes a foe—creatures not made of flesh (including most constructs and oozes, skeletal undead, plants, and incorporeal creatures) are immune to the ochre jelly's acid damage."
+        },
+        {
+          "name": "Split",
+          "type": "Ex",
+          "description": "Slashing weapons, piercing weapons, and electricity attacks deal no damage to an ochre jelly. Instead the creature splits into two identical jellies, each with half of the original creature's current hit point total, rounded down. A jelly with 10 hit points or less cannot be further split and dies if reduced to 0 hit points."
+        }
+      ],
+      "ecology": "Ochre jellies are animate masses of protoplasm hued a sickly combination of yellow, orange, and brown. At rest, their flat, pulsing bodies stand roughly 6 inches tall and can stretch out to a wide diameter—in motion, they often ball up into quivering spherical shapes and almost seem to roll as they move. Their malleable bodies allow them to seep through cracks and holes far smaller than the space they fill. Creatures dwelling below ground often attempt to seal up any such cracks to fortify their lairs against ochre jellies.\n\nAn ochre jelly's highly specialized acid only dissolves flesh. This discovery has led many poisoners and hack alchemists to search out specimens for their tinkering. Some specialized weapons have resulted from these experiments that target the living body in wicked ways. Rumors of a slow-release poison that breaks down the cellular walls in living creatures surfaced a few years ago, but its creator guards the secret with his life.\n\nNotes in a long-forgotten tome mention a burial practice used in faraway places that resembles cremation. Instead of burning the corpse to ashes, the practitioners seal the body into a stone sarcophagus with an ochre jelly so it can dissolve the body. Afterward, the morticians place the ochre jelly into a large canopic jar, complete with a bronze plaque naming the deceased. This practice protects items entombed with the body (which is quickly reduced to nothing but a polished skeleton), and the creature's essence, it is believed, still rides along with the living jelly.\n\nOchre jellies stand about 6 inches tall, spread out to a little over 10 feet in diameter, and weigh upward of 2,600 pounds. When in combat, they tend to pile up upon themselves and exude long, dripping pseudopods to slam and grapple anything that moves.\n\nAlthough the typical ochre jelly has stats as presented here, in the deepest reaches of the underground world these mindless predators can grow to enormous sizes. Perhaps more disturbing, though, are rumors of ochre jellies that have developed additional methods of capturing prey. Adventurers speak of jellies capable of poisoning foes with a touch or exuding clouds of noxious gas that burns the eyes and throat, leaving those who draw too near helpless as the immense protoplasmic beast slithers over their bodies and begins to feed.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Octopus",
+      "creature_type": "Animal",
+      "creature_subtype": "aquatic",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "N",
+      "size": "Small",
+      "init": "+3",
+      "senses": "low-light vision; Perception +1",
+      "ac": "15, touch 14, flat-footed 12 (+3 Dex, +1 natural, +1 size)",
+      "hp": "13 (2d8+4)",
+      "saving_throws": {
+        "fort": "+5",
+        "ref": "+6",
+        "will": "+1"
+      },
+      "defensive_abilities": "ink cloud",
+      "speed": "20 ft., swim 30 ft., jet 200 ft.",
+      "melee": "bite +5 (1d3+1 plus poison), tentacles +3 (grab)",
+      "ability_scores": {
+        "str": "12",
+        "dex": "17",
+        "con": "14",
+        "int": "2",
+        "wis": "13",
+        "cha": "3"
+      },
+      "base_attack": "+1",
+      "cmb": "+1 (+5 grapple)",
+      "cmd": "14 (can't be tripped)",
+      "feats": "MultiattackB, Weapon Finesse",
+      "skills": "Escape Artist +13, Stealth +20, Swim +9",
+      "racial_modifiers": "+8 Stealth, +10 Escape Artist",
+      "environment": "temperate or cold ocean",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "Eight tentacles, each adorned with rows of countless suckers, unfurl from the barrel-shaped body of this large-eyed creature.",
+      "special_abilities": [
+        {
+          "name": "Ink Cloud",
+          "type": "Ex",
+          "description": "An octopus can emit a 10-foot-radius sphere of ink once per minute as a free action. The ink provides total concealment in water, and persists for 1 minute."
+        },
+        {
+          "name": "Jet",
+          "type": "Ex",
+          "description": "An octopus can jet backward once per round as a full-round action, at a speed of 200 feet. It must move in a straight line while jetting, and does not provoke attacks of opportunity when it does so."
+        },
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Octopus Venom.",
+          "affliction": {
+            "name": "Octopus Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1 Strength",
+            "save": "Fortitude DC 13",
+            "cure": "1 save"
+          }
+        }
+      ],
+      "ecology": "The octopus is a cunning animal capable of using complex tactics to get food.\n\nAs an Animal Companion: An octopus kept as an animal companion has a +1 natural armor bonus; speed 20 ft., swim 30 ft., jet 200 ft.; attack bite (1d3), tentacles (grab); ability scores Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3; special qualities low-light vision, ink cloud. At 4th-level advancement: attack bite (1d3 plus poison); ability scores Str +2, Con +2.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Octopus, Giant",
+      "creature_type": "Animal",
+      "creature_subtype": "aquatic",
+      "cr": "8",
+      "xp": "4,800",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+6",
+      "senses": "low-light vision; Perception +8",
+      "ac": "18, touch 11, flat-footed 16 (+2 Dex, +7 natural, -1 size)",
+      "hp": "90 (12d8+36)",
+      "saving_throws": {
+        "fort": "+11",
+        "ref": "+12",
+        "will": "+7"
+      },
+      "defensive_abilities": "ink cloud (30-foot-radius sphere)",
+      "speed": "20 ft., swim 30 ft., jet 200 ft.",
+      "melee": "bite +13 (1d8+5 plus poison), 8 tentacles +11 (1d4+2 plus grab)",
+      "special_attacks": "constrict (tentacle, 1d4+2)",
+      "space": "10 ft.",
+      "reach": "10 ft. (20 ft. with tentacle)",
+      "ability_scores": {
+        "str": "20",
+        "dex": "15",
+        "con": "17",
+        "int": "2",
+        "wis": "12",
+        "cha": "3"
+      },
+      "base_attack": "+9",
+      "cmb": "+15 (+19 grapple)",
+      "cmd": "27 (can't be tripped)",
+      "feats": "Combat Reflexes, Improved Initiative, Iron Will, Lightning Reflexes, MultiattackB, Skill Focus (Stealth), Stealthy",
+      "skills": "Escape Artist +18, Perception +8, Stealth +18, Swim +13",
+      "racial_modifiers": "+10 Escape Artist, +8 Stealth",
+      "environment": "any ocean",
+      "organization": "solitary",
+      "treasure": "incidental",
+      "description": "A storm of tentacles, each twenty feet in length, flails with deadly precision from the leathery body of this gigantic octopus.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Giant Octopus Venom.",
+          "affliction": {
+            "name": "Giant Octopus Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1d3 Strength",
+            "save": "Fortitude DC 19",
+            "cure": "2 saves"
+          }
+        }
+      ],
+      "ecology": "The giant octopus is a true monster capable of catching and eating sharks, humans, or anything else it can grab with its tentacles.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Ogre",
+      "creature_type": "Humanoid",
+      "creature_subtype": "giant",
+      "cr": "3",
+      "xp": "800",
+      "alignment": "CE",
+      "size": "Large",
+      "init": "-1",
+      "senses": "darkvision 60 ft., low-light vision; Perception +5",
+      "languages": "Giant",
+      "ac": "17, touch 8, flat-footed 17 (+4 armor, -1 Dex, +5 natural, -1 size)",
+      "hp": "30 (4d8+12)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+0",
+        "will": "+3"
+      },
+      "speed": "30 ft. (40 ft. base)",
+      "melee": "greatclub +7 (2d8+7)",
+      "ranged": "javelin +1 (1d8+5)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "21",
+        "dex": "8",
+        "con": "15",
+        "int": "6",
+        "wis": "10",
+        "cha": "7"
+      },
+      "base_attack": "+3",
+      "cmb": "+9",
+      "cmd": "18",
+      "feats": "Iron Will, Toughness",
+      "skills": "Climb +7, Perception +5",
+      "environment": "temperate or cold hills",
+      "organization": "solitary, pair, gang (3-4), or family (5-16)",
+      "treasure": "standard (hide armor, greatclub, 4 javelins, other treasure)",
+      "description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.",
+      "ecology": "Stories are told of ogres—horrendous stories of brutality and savagery, cannibalism and torture. Of rape and dismemberment, necrophilia, incest, mutilation, and all manners of hideous murder. Those who have not encountered ogres know the stories as warnings. Those who have survived such encounters know these tales to be tame compared to the truth.\n\nAn ogre revels in the misery of others. When smaller races aren't available to crush between meaty fists or defile in blood-red lusts of violence, they turn to each other for entertainment. Nothing is taboo in ogre society. One would think that, left to themselves, an ogre tribe would quickly tear itself apart, with only the strongest surviving in the end—yet if there is one thing ogres respect, it is family.\n\nOgre tribes are known as families, and many of their deformities and hideous features arise from the common practice of incest. The leader of a tribe is most often the father of the tribe, although in some cases a particularly violent or domineering ogress claims the title of mother. Ogre tribes bicker among themselves, a trait that thankfully keeps them busy and turned against each other rather than neighboring races. Yet time and again, a particularly violent and feared patriarch rises among the ogres, one capable of gathering multiple families under his command.\n\nRegions inhabited by ogres are dreary, ugly places, for these giants dwell in squalor and see little need to live in harmony with their environment. The borderland between civilization and ogre territory is a desperate realm of outcasts and despair, for here dwell the ogrekin, the deformed offspring and results of frequent ogre raids against the lands of the smaller folk.\n\nOgre games are violent and cruel, and victims they use for entertainment are lucky if they die the first day. Ogres' cruel senses of humor are the only way their crude minds show any spark of creativity, and the tools and methods of torture ogres devise are always nightmarish.\n\nAn ogre's great strength and lack of imagination makes it particularly suited for heavy labor, such as mining, forging, and clearing land, and more powerful giants (particularly hill giants and stone giants) often subjugate ogre families to serve them in such regards.\n\nA typical adult ogre stands 10 feet tall and weighs roughly 650 pounds.",
+      "source": "Bestiary"
+    }
+  ]
+}
