@@ -1,7 +1,7 @@
 ---
 title: "Double-Six Dominoes"
 short_title: "D6 Dominoes"
-version: "0.1.0"
+version: "0.1.1"
 slug: "double-six-dominoes"
 players: "2–8"
 duration: "15–60 min"
@@ -9,7 +9,7 @@ age: "7+"
 tagline: "Match the pips, build the chain, score the ends"
 type: "component"
 status: "live"
-updated: "2026-07-08"
+updated: "2026-07-21"
 published: true
 hub_type: component
 theme:

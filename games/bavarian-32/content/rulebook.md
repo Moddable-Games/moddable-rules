@@ -1,7 +1,7 @@
 ---
 title: "Bavarian 32-Card Games"
 short_title: "Bavarian 32"
-version: "0.1.0"
+version: "0.1.1"
 slug: "bavarian-32"
 players: "3"
 duration: "30–60 min"
@@ -9,7 +9,7 @@ age: "12+"
 tagline: "Trick-taking games for the 32-card Skat deck"
 type: "component"
 status: "live"
-updated: "2026-07-06"
+updated: "2026-07-21"
 published: true
 hub_type: component
 theme:

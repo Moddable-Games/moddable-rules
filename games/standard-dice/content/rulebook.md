@@ -1,6 +1,6 @@
 ---
 title: "Standard Dice"
-version: "0.1.0"
+version: "0.1.1"
 slug: "standard-dice"
 players: "1–8"
 duration: "10–60 min"
@@ -8,7 +8,7 @@ age: "6+"
 tagline: "Games built on standard six-sided dice"
 type: "component"
 status: "live"
-updated: "2026-07-08"
+updated: "2026-07-21"
 published: true
 hub_type: component
 theme:
