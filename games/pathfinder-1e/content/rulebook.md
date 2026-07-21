@@ -124,7 +124,7 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [classes.json](../../games/pathfinder-1e/data/classes.json) — All 11 core classes with hit die, BAB, saves, and skill ranks
 - [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
 - [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
-- [bestiary/](../../games/pathfinder-1e/data/bestiary/) — The full core Bestiary, Aboleth through Yeti, split across 69 numbered files (`bestiary-01.json`–`bestiary-69.json`, each holding 2–5 creatures in alphabetical order) to keep individual file sizes manageable. Every creature preserves the complete Pathfinder stat block: ability scores, AC, hp, saving throws, attacks, special attacks/qualities with full ability descriptions, poison/disease afflictions, spellcasting, ecology, and named variants where the source provides them.
+- [bestiary.json (336)](../../games/pathfinder-1e/data/bestiary/bestiary.json) — The full core Bestiary (Aboleth through Yeti). Complete stat blocks: ability scores, AC, hp, saves, attacks, special abilities, spellcasting, ecology, and named variants.
 
 **Spells** — all 623 core spells, one file per spell level:
 
