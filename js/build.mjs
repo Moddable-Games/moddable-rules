@@ -8,6 +8,16 @@ const GAMES_DIR = resolve(ROOT, 'games');
 const SHARED_DIR = resolve(ROOT, 'shared');
 const DIST_DIR = resolve(ROOT, 'dist');
 const THEMES_DIR = resolve(SHARED_DIR, 'themes');
+const ENGINE_BASE = 'https://engine.moddable.games/play.html';
+
+function renderSvgBlock(svg, caption, family, variant) {
+  const engineUrl = `${ENGINE_BASE}?game=${family}&variant=${variant}`;
+  const link = `<a href="${engineUrl}" class="diagram-engine-link" target="_blank" rel="noopener">View interactive board ↗</a>`;
+  const captionHtml = caption
+    ? `<p class="diagram-caption">${caption} · ${link}</p>`
+    : `<p class="diagram-caption">${link}</p>`;
+  return `<div class="diagram-wrap">${svg}\n${captionHtml}</div>`;
+}
 
 // --- Incremental build helpers ---
 function getNewestMtime(dir) {
@@ -543,7 +553,7 @@ function buildVariants(slug) {
         const svgPath = resolve(gameDir, 'diagrams/svg', file);
         if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
         const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
-        return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
+        return renderSvgBlock(svg, caption, slug, variantSlug);
       }
     );
 
@@ -841,7 +851,7 @@ function buildComponentGames(slug) {
         const svgPath = resolve(gameDir, 'diagrams/svg', file);
         if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
         const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
-        return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
+        return renderSvgBlock(svg, caption, slug, gameSlug);
       }
     );
 
