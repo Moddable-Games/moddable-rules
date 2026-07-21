@@ -10,7 +10,7 @@ age: "13+"
 tagline: "Paizo's fork of D&D 3.5, the most complete open ruleset in existence"
 type: "rpg"
 status: "live"
-updated: "2026-07-20"
+updated: "2026-07-21"
 published: true
 variants: false
 theme:
@@ -79,7 +79,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison
 - [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
 
-All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete. Only Spells and Equipment remain before the Core Rulebook rules are fully covered (Bestiary excluded — tracked separately).
+All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete. The Bestiary has no separate prose chapter — it is data-only; see Machine-Readable Data below for the full monster roster.
 
 </div>
 
@@ -95,7 +95,8 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [classes.json](../../games/pathfinder-1e/data/classes.json) — All 11 core classes with hit die, BAB, saves, and skill ranks
 - [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
 - [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
+- [bestiary/](../../games/pathfinder-1e/data/bestiary/) — The full core Bestiary, Aboleth through Yeti, split across 69 numbered files (`bestiary-01.json`–`bestiary-69.json`, each holding 2–5 creatures in alphabetical order) to keep individual file sizes manageable. Every creature preserves the complete Pathfinder stat block: ability scores, AC, hp, saving throws, attacks, special attacks/qualities with full ability descriptions, poison/disease afflictions, spellcasting, ecology, and named variants where the source provides them.
 
-Spells, equipment, and monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
+Spells and equipment data are in progress on separate branches/PRs and are not yet reflected in this list.
 
 </div>
