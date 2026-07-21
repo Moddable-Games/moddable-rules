@@ -96,3 +96,39 @@ When a PC has enough XP, they gain a level. After reaching level 7, the PC may r
 | 5 | 20 | +2 max health. Pick one: attack bonus +1, gain a new path, or gain a spell slot |
 | 6 | 30 | +2 max health, +1 to an ability bonus |
 | 7 | 42 | +2 max health. Pick one: attack bonus +1, gain a new path, or gain a spell slot |
+
+### Monster & NPC Stats
+
+Use these categories as a shorthand for building monster and NPC stat blocks quickly.
+
+**Health.** Weak: 1d. Typical: 2d. Tough: 3d. Hulking: 4d. Colossal: 6d.
+
+**Armor.** Unarmored: 6 armor. Light protection: 7 armor. Moderate protection: 8 armor. Heavy protection: 9 armor. Nigh impervious: 10 armor. Note that armor can also be used to represent a monster's resistance to mundane weapons, or other factors that would make it difficult to harm.
+
+**Attack Bonus.** Untrained: +0 AB. Trained: +1 AB. Dangerous: +2 AB. Masterful: +3 AB. Lethal: +4 AB.
+
+**STR Bonus.** Weak: +0 STR. Average: +1 STR. Strong: +2 STR. Powerful: +3 STR. Monstrous: +4 STR.
+
+**DEX Bonus.** Slow: +0 DEX. Average: +1 DEX. Nimble: +2 DEX. Swift: +3 DEX. Blurred: +4 DEX.
+
+**WIL Bonus.** Dimwitted: +0 WIL. Average: +1 WIL. Clever: +2 WIL. Brilliant: +3 WIL. Genius: +4 WIL.
+
+**Magic.** While some monsters may have spells and spell slots like a human, most are innately magical. These monsters do not follow the normal spellcasting rules, and may have abilities that are always active or that can simply be used at will.
+
+### Gold Prices
+
+Use the list of gold prices below as a guideline. Players may have to haggle for actual prices.
+
+- **Light weapons:** 1 hand (20g).
+- **Heavy weapons:** +1 damage, 2 hands (40g).
+- **Ranged weapons:** 2 hands (20–40g).
+- **Shield:** One handed, +1 armor (10g).
+- **Light Armor:** +1 armor (100g).
+- **Heavy Armor:** +2 armor, no advantage on DEX danger rolls or surprise attack rolls (400g).
+- **Common Items:** Rope, candles, etc. (1–5g).
+- **Specialized Items:** Bear trap, key, etc. (5–20g).
+- **Luxury Items:** Book, mirror, potion, etc. (20–100g).
+- **Animals:** Mule (20g), Horse (100g), Dog (5g), Bloodhound (100g), Chicken (5g), Trained falcon (1,000g).
+- **Transport:** Cart (30g), Wagon (100g), Coach (250g), Rowboat (50g), Fishing boat (500g), Caravel (5,000g), Warship (10,000g).
+- **Property:** Small House (1,000g), Tavern (2,000g), Guildhall (5,000g), Manor (10,000g), Fortified Outpost (25,000g), Estate (50,000g), Castle (200,000g).
+- **Hirelings** (per day): Servant (1–5g), Torchbearer (5–10g), Guide (10–20g), Sellsword (20–50g), Specialist (50–100g), Magician (100–200g).

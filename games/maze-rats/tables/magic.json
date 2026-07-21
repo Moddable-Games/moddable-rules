@@ -9,37 +9,258 @@
       "id": "ethereal-effects",
       "name": "Ethereal Effects",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Avenging","Banishing","Bewildering","Blinding","Charming","Communicating","Compelling","Concealing","Deafening","Deceiving","Deciphering","Disguising","Dispelling","Emboldening","Encoding","Energizing","Enlightening","Enraging","Excruciating","Foreseeing","Intoxicating","Maddening","Mesmerizing","Mindreading","Nullifying","Paralyzing","Revealing","Revolting","Scrying","Silencing","Soothing","Summoning","Terrifying","Warding","Wearying","Withering"]
+      "entries": [
+        "Avenging",
+        "Banishing",
+        "Bewildering",
+        "Blinding",
+        "Charming",
+        "Communicating",
+        "Compelling",
+        "Concealing",
+        "Deafening",
+        "Deceiving",
+        "Deciphering",
+        "Disguising",
+        "Dispelling",
+        "Emboldening",
+        "Encoding",
+        "Energizing",
+        "Enlightening",
+        "Enraging",
+        "Excruciating",
+        "Foreseeing",
+        "Intoxicating",
+        "Maddening",
+        "Mesmerizing",
+        "Mindreading",
+        "Nullifying",
+        "Paralyzing",
+        "Revealing",
+        "Revolting",
+        "Scrying",
+        "Silencing",
+        "Soothing",
+        "Summoning",
+        "Terrifying",
+        "Warding",
+        "Wearying",
+        "Withering"
+      ]
     },
     {
       "id": "ethereal-elements",
       "name": "Ethereal Elements",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Ash","Chaos","Distortion","Dream","Dust","Echo","Ectoplasm","Fire","Fog","Ghost","Harmony","Heat","Light","Lightning","Memory","Mind","Mutation","Negation","Plague","Plasma","Probability","Rain","Rot","Shadow","Smoke","Snow","Soul","Star","Stasis","Steam","Thunder","Time","Void","Warp","Whisper","Wind"]
+      "entries": [
+        "Ash",
+        "Chaos",
+        "Distortion",
+        "Dream",
+        "Dust",
+        "Echo",
+        "Ectoplasm",
+        "Fire",
+        "Fog",
+        "Ghost",
+        "Harmony",
+        "Heat",
+        "Light",
+        "Lightning",
+        "Memory",
+        "Mind",
+        "Mutation",
+        "Negation",
+        "Plague",
+        "Plasma",
+        "Probability",
+        "Rain",
+        "Rot",
+        "Shadow",
+        "Smoke",
+        "Snow",
+        "Soul",
+        "Star",
+        "Stasis",
+        "Steam",
+        "Thunder",
+        "Time",
+        "Void",
+        "Warp",
+        "Whisper",
+        "Wind"
+      ]
     },
     {
       "id": "ethereal-forms",
       "name": "Ethereal Forms",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Aura","Beacon","Beam","Blast","Blob","Bolt","Bubble","Call","Cascade","Circle","Cloud","Coil","Cone","Cube","Dance","Disk","Field","Form","Gaze","Loop","Moment","Nexus","Portal","Pulse","Pyramid","Ray","Shard","Sphere","Spray","Storm","Swarm","Torrent","Touch","Vortex","Wave","Word"]
+      "entries": [
+        "Aura",
+        "Beacon",
+        "Beam",
+        "Blast",
+        "Blob",
+        "Bolt",
+        "Bubble",
+        "Call",
+        "Cascade",
+        "Circle",
+        "Cloud",
+        "Coil",
+        "Cone",
+        "Cube",
+        "Dance",
+        "Disk",
+        "Field",
+        "Form",
+        "Gaze",
+        "Loop",
+        "Moment",
+        "Nexus",
+        "Portal",
+        "Pulse",
+        "Pyramid",
+        "Ray",
+        "Shard",
+        "Sphere",
+        "Spray",
+        "Storm",
+        "Swarm",
+        "Torrent",
+        "Touch",
+        "Vortex",
+        "Wave",
+        "Word"
+      ]
     },
     {
       "id": "physical-effects",
       "name": "Physical Effects",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Animating","Attracting","Binding","Blossoming","Consuming","Creeping","Crushing","Diminishing","Dividing","Duplicating","Enveloping","Expanding","Fusing","Grasping","Hastening","Hindering","Illuminating","Imprisoning","Levitating","Opening","Petrifying","Phasing","Piercing","Pursuing","Reflecting","Regenerating","Rending","Repelling","Resurrecting","Screaming","Sealing","Shapeshifting","Shielding","Spawning","Transmuting","Transporting"]
+      "entries": [
+        "Animating",
+        "Attracting",
+        "Binding",
+        "Blossoming",
+        "Consuming",
+        "Creeping",
+        "Crushing",
+        "Diminishing",
+        "Dividing",
+        "Duplicating",
+        "Enveloping",
+        "Expanding",
+        "Fusing",
+        "Grasping",
+        "Hastening",
+        "Hindering",
+        "Illuminating",
+        "Imprisoning",
+        "Levitating",
+        "Opening",
+        "Petrifying",
+        "Phasing",
+        "Piercing",
+        "Pursuing",
+        "Reflecting",
+        "Regenerating",
+        "Rending",
+        "Repelling",
+        "Resurrecting",
+        "Screaming",
+        "Sealing",
+        "Shapeshifting",
+        "Shielding",
+        "Spawning",
+        "Transmuting",
+        "Transporting"
+      ]
     },
     {
       "id": "physical-elements",
       "name": "Physical Elements",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Acid","Amber","Bark","Blood","Bone","Brine","Clay","Crow","Crystal","Ember","Flesh","Fungus","Glass","Honey","Ice","Insect","Wood","Lava","Moss","Obsidian","Oil","Poison","Rat","Salt","Sand","Sap","Serpent","Slime","Stone","Tar","Thorn","Vine","Water","Wine","Wood","Worm"]
+      "entries": [
+        "Acid",
+        "Amber",
+        "Bark",
+        "Blood",
+        "Bone",
+        "Brine",
+        "Clay",
+        "Crow",
+        "Crystal",
+        "Ember",
+        "Flesh",
+        "Fungus",
+        "Glass",
+        "Honey",
+        "Ice",
+        "Insect",
+        "Wood",
+        "Lava",
+        "Moss",
+        "Obsidian",
+        "Oil",
+        "Poison",
+        "Rat",
+        "Salt",
+        "Sand",
+        "Sap",
+        "Serpent",
+        "Slime",
+        "Stone",
+        "Tar",
+        "Thorn",
+        "Vine",
+        "Water",
+        "Wine",
+        "Wood",
+        "Worm"
+      ]
     },
     {
       "id": "physical-forms",
       "name": "Physical Forms",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Armor","Arrow","Beast","Blade","Cauldron","Chain","Chariot","Claw","Cloak","Colossus","Crown","Elemental","Eye","Fountain","Gate","Golem","Hammer","Horn","Key","Mask","Monolith","Pit","Prison","Sentinel","Servant","Shield","Spear","Steed","Swarm","Tentacle","Throne","Torch","Trap","Wall","Web"],
+      "entries": [
+        "Armor",
+        "Arrow",
+        "Beast",
+        "Blade",
+        "Cauldron",
+        "Chain",
+        "Chariot",
+        "Claw",
+        "Cloak",
+        "Colossus",
+        "Crown",
+        "Elemental",
+        "Eye",
+        "Fountain",
+        "Gate",
+        "Golem",
+        "Hammer",
+        "Horn",
+        "Key",
+        "Mask",
+        "Monolith",
+        "Pit",
+        "Prison",
+        "Sentinel",
+        "Servant",
+        "Shield",
+        "Spear",
+        "Steed",
+        "Swarm",
+        "Tentacle",
+        "Throne",
+        "Torch",
+        "Trap",
+        "Wall",
+        "Web"
+      ],
       "count_note": "Source lists 35 entries for this table (one short of the 36 expected for a 6x6 grid). Preserved as-is rather than inventing a 36th entry; flagged here for transparency."
     },
     {
@@ -48,37 +269,222 @@
       "roll": "1d12",
       "usage_note": "Roll 2d and read as one d12 to find the spell formula, then roll on the two indicated tables to build the spell name. The GM narrates the effect based on the resulting name.",
       "entries": [
-        {"roll": 1, "formula": ["physical-effects", "physical-forms"]},
-        {"roll": 2, "formula": ["physical-effects", "ethereal-forms"]},
-        {"roll": 3, "formula": ["ethereal-effects", "physical-forms"]},
-        {"roll": 4, "formula": ["ethereal-effects", "ethereal-forms"]},
-        {"roll": 5, "formula": ["physical-elements", "physical-forms"]},
-        {"roll": 6, "formula": ["physical-elements", "ethereal-forms"]},
-        {"roll": 7, "formula": ["ethereal-elements", "physical-forms"]},
-        {"roll": 8, "formula": ["ethereal-elements", "ethereal-forms"]},
-        {"roll": 9, "formula": ["physical-effects", "physical-elements"]},
-        {"roll": 10, "formula": ["physical-effects", "ethereal-elements"]},
-        {"roll": 11, "formula": ["ethereal-effects", "physical-elements"]},
-        {"roll": 12, "formula": ["ethereal-effects", "ethereal-elements"]}
+        {
+          "roll": 1,
+          "formula": [
+            "physical-effects",
+            "physical-forms"
+          ]
+        },
+        {
+          "roll": 2,
+          "formula": [
+            "physical-effects",
+            "ethereal-forms"
+          ]
+        },
+        {
+          "roll": 3,
+          "formula": [
+            "ethereal-effects",
+            "physical-forms"
+          ]
+        },
+        {
+          "roll": 4,
+          "formula": [
+            "ethereal-effects",
+            "ethereal-forms"
+          ]
+        },
+        {
+          "roll": 5,
+          "formula": [
+            "physical-elements",
+            "physical-forms"
+          ]
+        },
+        {
+          "roll": 6,
+          "formula": [
+            "physical-elements",
+            "ethereal-forms"
+          ]
+        },
+        {
+          "roll": 7,
+          "formula": [
+            "ethereal-elements",
+            "physical-forms"
+          ]
+        },
+        {
+          "roll": 8,
+          "formula": [
+            "ethereal-elements",
+            "ethereal-forms"
+          ]
+        },
+        {
+          "roll": 9,
+          "formula": [
+            "physical-effects",
+            "physical-elements"
+          ]
+        },
+        {
+          "roll": 10,
+          "formula": [
+            "physical-effects",
+            "ethereal-elements"
+          ]
+        },
+        {
+          "roll": 11,
+          "formula": [
+            "ethereal-effects",
+            "physical-elements"
+          ]
+        },
+        {
+          "roll": 12,
+          "formula": [
+            "ethereal-effects",
+            "ethereal-elements"
+          ]
+        }
       ]
     },
     {
       "id": "mutations",
       "name": "Mutations",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Ages","Attracts birds","Child-form","Corpulence","Covered in hair","{animal} arms","Hunchback","{items}-form","Long arms","Loses all hair","Loses teeth","{monster-features}","{animal} eyes","{animal} head","{animal} legs","{animal} mouth","{animal} skin","{animal}-form","{monster-traits}","No eyes","No mouth","{physical-elements}-skin","Second face","Sheds skin","Cyclops","Extra arms","Extra eyes","Extra legs","Forked tongue","Gender swap","Shrinks","Shrivels","Skin boils","Slime trails","Translucent skin","Weeps blood"]
+      "usage_note": "Use these results for magical curses, or spells that have gone wrong somehow.",
+      "entries": [
+        "Ages",
+        "Attracts birds",
+        "Child-form",
+        "Corpulence",
+        "Covered in hair",
+        "{animal} arms",
+        "Hunchback",
+        "{items}-form",
+        "Long arms",
+        "Loses all hair",
+        "Loses teeth",
+        "{monster-features}",
+        "{animal} eyes",
+        "{animal} head",
+        "{animal} legs",
+        "{animal} mouth",
+        "{animal} skin",
+        "{animal}-form",
+        "{monster-traits}",
+        "No eyes",
+        "No mouth",
+        "{physical-elements}-skin",
+        "Second face",
+        "Sheds skin",
+        "Cyclops",
+        "Extra arms",
+        "Extra eyes",
+        "Extra legs",
+        "Forked tongue",
+        "Gender swap",
+        "Shrinks",
+        "Shrivels",
+        "Skin boils",
+        "Slime trails",
+        "Translucent skin",
+        "Weeps blood"
+      ]
     },
     {
       "id": "insanities",
       "name": "Insanities",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["Always lies","Always polite","Believes they are a[n] {animal}","Cannot count","Cannot lie","Faceblind","Fears birds","Fears blood","Fears books","Fears darkness","Fears fire","Fears gold","Fears horses","Fears iron","Fears music","Fears own hand","Fears PC","Fears rain","Fears rivers","Fears silence","Fears sleep","Fears sunlight","Fears the moon","Fears trees","Believes they are a genius","Believes they are gorgeous","Hates violence","Believes they are invisible","Believes they are invulnerable","Believes they are {monster-abilities}","Believes they have {monster-features}","Believes they are {monster-traits}","Must sing","New personality {personalities}","Says thoughts","Sees dead people"]
+      "usage_note": "Results in quotation marks are things that are believed to be true by the insane character.",
+      "entries": [
+        "Always lies",
+        "Always polite",
+        "\"{animal}-form\"",
+        "Cannot count",
+        "Cannot lie",
+        "Faceblind",
+        "Fears birds",
+        "Fears blood",
+        "Fears books",
+        "Fears darkness",
+        "Fears fire",
+        "Fears gold",
+        "Fears horses",
+        "Fears iron",
+        "Fears music",
+        "Fears own hand",
+        "Fears PC",
+        "Fears rain",
+        "Fears rivers",
+        "Fears silence",
+        "Fears sleep",
+        "Fears sunlight",
+        "Fears the moon",
+        "Fears trees",
+        "\"Genius\"",
+        "\"Gorgeous\"",
+        "Hates violence",
+        "\"Invisible\"",
+        "\"Invulnerable\"",
+        "\"{monster-abilities}\"",
+        "\"{monster-features}\"",
+        "\"{monster-traits}\"",
+        "Must sing",
+        "New personality {personalities}",
+        "Says thoughts",
+        "Sees dead people"
+      ]
     },
     {
       "id": "omens",
       "name": "Omens",
       "roll": "2d6 (group of 6 / item in group)",
-      "entries": ["All iron rusts","Animals die","Animals mutate: {mutations}","Birds attack","City appears","Deadly fog","Mass insanity: {insanities}","Mass mutation: {mutations}","Mass slumber","Meteor strike","Mirrors speak","No stars","Dream plague","Endless night","Endless rain","Endless storm","Endless twilight","Endless winter","Outsiders enter","People shrink","People vanish","Plants wither","Portal opens","Rifts open","Fae return","Forest appears","Forgetfulness","Graves open","Lamentations","Maggots","Shadows speak","Space distorts","Stones speak","Total silence","Tower appears","Water to blood"]
+      "entries": [
+        "All iron rusts",
+        "Animals die",
+        "Animals mutate: {mutations}",
+        "Birds attack",
+        "City appears",
+        "Deadly fog",
+        "Mass insanity: {insanities}",
+        "Mass mutation: {mutations}",
+        "Mass slumber",
+        "Meteor strike",
+        "Mirrors speak",
+        "No stars",
+        "Dream plague",
+        "Endless night",
+        "Endless rain",
+        "Endless storm",
+        "Endless twilight",
+        "Endless winter",
+        "Outsiders enter",
+        "People shrink",
+        "People vanish",
+        "Plants wither",
+        "Portal opens",
+        "Rifts open",
+        "Fae return",
+        "Forest appears",
+        "Forgetfulness",
+        "Graves open",
+        "Lamentations",
+        "Maggots",
+        "Shadows speak",
+        "Space distorts",
+        "Stones speak",
+        "Total silence",
+        "Tower appears",
+        "Water to blood"
+      ]
     }
   ]
 }
