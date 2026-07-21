@@ -1,0 +1,300 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 45,
+  "range": "Naga, Dark – Neothelid",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Naga, Dark",
+      "creature_type": "Aberration",
+      "cr": "8",
+      "xp": "4,800",
+      "alignment": "LE",
+      "size": "Large",
+      "init": "+5",
+      "senses": "darkvision 60 ft., detect thoughts; Perception +19",
+      "languages": "Common, Infernal",
+      "ac": "22, touch 15, flat-footed 16 (+5 Dex, +1 dodge, +7 natural, -1 size)",
+      "hp": "85 (10d8+40)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+10",
+        "will": "+9 (+11 vs. charm effects)"
+      },
+      "defensive_abilities": "guarded thoughts",
+      "immune": "poison",
+      "speed": "40 ft.",
+      "melee": "bite +8 (1d4+2), sting +8 (2d4+2 plus poison)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "spellcasting": [
+        {
+          "type": "Spells Known",
+          "text": "(CL 7th) 3rd (5/day)—displacement, lightning bolt (DC 16); 2nd (7/day)—cat's grace, invisibility, scorching ray; 1st (7/day)—expeditious retreat, magic missile, ray of enfeeblement (DC 14), shield, silent image; 0 (at will)—daze, detect magic, light, mage hand, open/close, ray of frost, read magic"
+        },
+        {
+          "type": "Spells",
+          "text": "Dark nagas cast spells as 7th-level sorcerers."
+        }
+      ],
+      "ability_scores": {
+        "str": "14",
+        "dex": "21",
+        "con": "18",
+        "int": "16",
+        "wis": "15",
+        "cha": "17"
+      },
+      "base_attack": "+7",
+      "cmb": "+10",
+      "cmd": "26 (can't be tripped)",
+      "feats": "Alertness, Combat Casting, Dodge, Eschew MaterialsB, Lightning Reflexes, Stealthy",
+      "skills": "Bluff +13, Diplomacy +9, Disguise +9, Escape Artist +13, Intimidate +12, Knowledge (arcana) +13, Perception +19, Sense Motive +10, Spellcraft +12, Stealth +18",
+      "environment": "any underground",
+      "organization": "solitary or nest (2-4)",
+      "treasure": "standard",
+      "description": "A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-like monstrosity.",
+      "special_abilities": [
+        {
+          "name": "Detect Thoughts",
+          "type": "Su",
+          "description": "A dark naga can continuously use detect thoughts as per the spell (caster level 9th; Will DC 18 negates). The save DC is Charisma-based."
+        },
+        {
+          "name": "Guarded Thoughts",
+          "type": "Ex",
+          "description": "Dark nagas are immune to any form of mind reading, such as that granted by detect thoughts. This ability also grants a +2 racial bonus on all saves against charm effects."
+        },
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Sting—Dark Naga Venom.",
+          "affliction": {
+            "name": "Dark Naga Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1 round",
+            "effect": "sleep for 2d4 minutes",
+            "save": "Fortitude DC 19",
+            "cure": "1 save"
+          }
+        }
+      ],
+      "ecology": "Dark nagas covet luxury, wealth, and power over others. With bodies covered by shimmering, eel-like black scales, dark nagas slither deftly through forsaken lands and abandoned ruins, scouring such places for treasures and weaker creatures they might force into service. Their forked tongues spread only lies, and others whom they can't manipulate they destroy with their insidious poison and destructive magical abilities. A typical dark naga measures approximately 12 feet long and weighs upward of 300 pounds.\n\nArrogant and sybaritic, dark nagas seek to dominate lesser creatures, relishing the fear they inspire and power over other beings. While some manage to carve indulgent fiefdoms from tribes of goblins, orcs, lizardfolk, or other barbarous races, the luster of cosmopolitan fineries proves enticing as well, leading some to infiltrate city sewers and slums to gather an urban following. They particularly relish morbidly crafted jewelry and treasures, often adorning themselves with jeweled bands or taking their ease atop piles of treasure.\n\nDark nagas hate others of their kind, especially other dark nagas, seeing their brethren as deadly opponents to be dispatched swiftly and mercilessly—often rightly so.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Naga, Guardian",
+      "creature_type": "Aberration",
+      "cr": "10",
+      "xp": "9,600",
+      "alignment": "LG",
+      "size": "Large",
+      "init": "+6",
+      "senses": "darkvision 60 ft.; Perception +23",
+      "languages": "Celestial, Common",
+      "ac": "24, touch 15, flat-footed 18 (+6 Dex, +9 natural, -1 size)",
+      "hp": "114 (12d8+60)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+12",
+        "will": "+12"
+      },
+      "speed": "40 ft.",
+      "melee": "bite +13 (2d6+7 plus poison)",
+      "ranged": "spit +14 touch (poison)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "spellcasting": [
+        {
+          "type": "Spells Known",
+          "text": "(CL 9th) 4th (5/day)—divine power, greater invisibility; 3rd (7/day)—cure serious wounds, dispel magic, lightning bolt (DC 17); 2nd (7/day)—detect thoughts (DC 16), lesser restoration, see invisibility, scorching ray; 1st (7/day)—cure light wounds, divine favor, expeditious retreat, mage armor, magic missile; 0 (at will)—daze (DC 14), detect magic, light, mage hand, open/close, ray of frost, read magic, stabilize"
+        },
+        {
+          "type": "Spells",
+          "text": "A guardian naga casts spells as a 9th-level sorcerer, and can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a guardian naga."
+        }
+      ],
+      "ability_scores": {
+        "str": "21",
+        "dex": "23",
+        "con": "20",
+        "int": "16",
+        "wis": "19",
+        "cha": "18"
+      },
+      "base_attack": "+9",
+      "cmb": "+15",
+      "cmd": "31 (can't be tripped)",
+      "feats": "Alertness, Blind-Fight, Combat Casting, Combat Expertise, Eschew MaterialsB, Improved Trip, Lightning Reflexes",
+      "skills": "Bluff +16, Diplomacy +16, Knowledge (arcana) +18, Perception +23, Sense Motive +20, Spellcraft +18, Stealth +17",
+      "environment": "temperate plains",
+      "organization": "solitary, pair, or nest (3-6)",
+      "treasure": "standard",
+      "description": "A contemplative humanoid face framed by a cobra-like hood adorns the body of this long, brightly colored serpent.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Guardian Naga Venom.",
+          "affliction": {
+            "name": "Guardian Naga Venom",
+            "type": "poison",
+            "contracted": "injury or spit—contact",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1d4 Constitution damage",
+            "save": "Fortitude DC 21",
+            "cure": "2 consecutive saves"
+          }
+        },
+        {
+          "name": "Spit",
+          "type": "Ex",
+          "description": "A guardian naga can spit its venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Opponents hit by this attack must make successful saves (see above) to avoid the effect."
+        }
+      ],
+      "ecology": "Although ferocious in shape, with radiant scales, cobra-like hoods, and powerful serpentine bodies, guardian nagas serve as dutiful protectors of places of fundamental power and sanctity. Their scales often bear elaborate patterns similar to those of exotic jungle snakes. A typical guardian naga stretches 14 feet long and weighs approximately 350 pounds.\n\nWhile many guardian nagas adhere to the exotic practices of ancient or forgotten faiths, others are merely drawn to sites of innate wonder—towering waterfalls, natural spires, mountaintop temples—minding them out of their own senses of duty and reverence. Often these nagas join a living faith, serving as protectors of sanctuaries or ancient treasures. A pair of nagas might take up residence near a site they deem worthy of protection, hatching a brood and raising their offspring there. When the young grow to adulthood, they have the choice of departing to seek their own homes or staying to protect their elder's charge. Sometimes, a guardian naga protecting a ruin or temple is but the current protector in a line of sentinels stretching back centuries. Such sentinels often take the same name as their forebears to appear as a single, exceptionally long-lived figure.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Naga, Spirit",
+      "creature_type": "Aberration",
+      "cr": "9",
+      "xp": "6,400",
+      "alignment": "CE",
+      "size": "Large",
+      "init": "+5",
+      "senses": "darkvision 60 ft.; Perception +22",
+      "languages": "Abyssal, Common",
+      "ac": "23, touch 14, flat-footed 18 (+5 Dex, +9 natural, -1 size)",
+      "hp": "95 (10d8+50)",
+      "saving_throws": {
+        "fort": "+8",
+        "ref": "+10",
+        "will": "+10"
+      },
+      "speed": "40 ft., swim 20 ft.",
+      "melee": "bite +10 (2d6+6 plus poison)",
+      "special_attacks": "charming gaze",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "spellcasting": [
+        {
+          "type": "Spells Known",
+          "text": "(CL 7th) 3rd (5/day)—displacement, fireball (DC 16); 2nd (7/day)—cat's grace, invisibility, summon swarm; 1st (7/day)—charm person (DC 14), cure light wounds, divine favor, magic missile, shield of faith; 0 (at will)—bleed, daze (DC 13), detect magic, mage hand, open/close, ray of frost, read magic"
+        },
+        {
+          "type": "Spells",
+          "text": "A spirit naga casts spells as a 7th-level sorcerer, and can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a spirit naga."
+        }
+      ],
+      "ability_scores": {
+        "str": "18",
+        "dex": "20",
+        "con": "21",
+        "int": "12",
+        "wis": "17",
+        "cha": "17"
+      },
+      "base_attack": "+7",
+      "cmb": "+12",
+      "cmd": "27 (can't be tripped)",
+      "feats": "Ability Focus (charming gaze), Combat Casting, Eschew MaterialsB, Lightning Reflexes, Skill Focus (Perception), Stealthy",
+      "skills": "Bluff +13, Escape Artist +13, Intimidate +9, Knowledge (arcana) +14, Perception +22, Spellcraft +11, Stealth +15, Swim +12",
+      "environment": "temperate marshes",
+      "organization": "solitary or nest (2-4)",
+      "treasure": "standard",
+      "description": "Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpentine monstrosity.",
+      "special_abilities": [
+        {
+          "name": "Charming Gaze",
+          "type": "Su",
+          "description": "As charm person, 30 feet, Will DC 20 negates. The save DC is Charisma-based."
+        },
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Spirit Naga Venom.",
+          "affliction": {
+            "name": "Spirit Naga Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1d4 Constitution damage",
+            "save": "Fortitude DC 20",
+            "cure": "1 save"
+          }
+        }
+      ],
+      "ecology": "Morbid-minded and wretched to look upon, spirit nagas are the witches of the naga race, hateful outcasts long shunned for their dark powers and loathsome ways. A typical spirit naga is slender, with the scales of a venomous serpent and a tangle of greasy hair framing their pale faces. Most measure 14 feet long but weigh less than 300 pounds.\n\nSpirit nagas delight in places of death and desolation. Battle-scarred ruins, untended graveyards, despoiled forests, and tangled swamps all attract these repulsive creatures. Where guardian nagas favor places of innate sanctity, spirit nagas seek out places of fundamental corruption, sites they believe to be imbued with dark magics. The crypts of long-dead tyrants, the death places of great heroes, and the ruins of nefarious keeps all attract these wretched serpents.\n\nMost spirit nagas believe themselves to be the inheritors of some mysterious dark favor, seeing their innate magical talents as evidence of such. Most commune with vague powers of death and devastation, working profane rites and seeking grotesque auguries from cultic forces. To aid them, spirit nagas often use their enchanting gaze, changing victims into fawning fanatics and would-be sacrifices.\n\nSpirit nagas occasionally band together in small groups—some seeming to mimic the covens of hags. While a particular plot or foe might bring these deadly serpents together for a short time, spirit nagas are loyal only to themselves, and such alliances always end in deadly betrayal.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Neothelid",
+      "creature_type": "Aberration",
+      "cr": "15",
+      "xp": "51,200",
+      "alignment": "CE",
+      "size": "Gargantuan",
+      "init": "+2",
+      "senses": "blindsight 100 ft., trace teleport 60 ft.; Perception +25",
+      "languages": "Aklo, Terran, Undercommon; telepathy 100 ft.",
+      "ac": "30, touch 4, flat-footed 30 (-2 Dex, +26 natural, -4 size)",
+      "hp": "230 (20d8+140)",
+      "saving_throws": {
+        "fort": "+15",
+        "ref": "+4",
+        "will": "+16"
+      },
+      "sr": "26",
+      "dr": "10/cold iron",
+      "speed": "30 ft., fly 60 ft. (good)",
+      "melee": "4 tongues +21 (3d6+10/19-20 plus grab)",
+      "special_attacks": "breath weapon (50-ft. cone, 14d10 acid, Reflex DC 27 half, once every 1d4 rounds), mind thrust, psychic crush, swallow whole (2d6+10 plus 2d6 acid, AC 23, hp 23)",
+      "space": "20 ft.",
+      "reach": "20 ft.",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 20th) Constant—fly; At will—detect thoughts (DC 17), charm monster (DC 19), clairvoyance/clairaudience, suggestion (DC 18), telekinesis (DC 20), teleport, poison (DC 19); 3/day—quickened suggestion (DC 18)"
+        }
+      ],
+      "ability_scores": {
+        "str": "30",
+        "dex": "7",
+        "con": "24",
+        "int": "16",
+        "wis": "15",
+        "cha": "21"
+      },
+      "base_attack": "+15",
+      "cmb": "+29 (+33 grapple)",
+      "cmd": "37 (can't be tripped)",
+      "feats": "Cleave, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (tongue), Improved Initiative, Improved Overrun, Iron Will, Power Attack, Quicken Spell-Like Ability (suggestion)",
+      "skills": "Bluff +25, Climb +33, Diplomacy +25, Fly -4, Intimidate +28, Knowledge (arcana) +26, Perception +25, Spellcraft +26",
+      "environment": "any underground",
+      "organization": "solitary, pair, or cult (3-5 plus 4-12 charmed slaves of various races)",
+      "treasure": "standard",
+      "description": "Its slime-drenched length coiled upon itself in a shuddering mountain, this huge worm's tentacled head rises like a snake's.",
+      "special_abilities": [
+        {
+          "name": "Mind Thrust",
+          "type": "Su",
+          "description": "As a standard action up to three times a day, a neothelid can deliver a massive blast of mental energy at any one target within 60 feet, inflicting 15d10 points of damage. A successful DC 25 Will save negates the effect. This effect can only harm creatures with Intelligence scores. This is a mind-affecting effect. The save DC is Charisma-based."
+        },
+        {
+          "name": "Psychic Crush",
+          "type": "Su",
+          "description": "As a standard action up to three times a day, a neothelid can attempt to crush the mind of a single creature within 60 feet. The target must make a DC 25 Will save or collapse, becoming unconscious and dying at –1 hit points. If the target succeeds on the save, it takes 6d6 points of damage and is sickened for 1 round. This is a mind-affecting effect. The save DC is Charisma-based."
+        },
+        {
+          "name": "Trace Teleport",
+          "type": "Ex",
+          "description": "A neothelid telepathically and reflexively learns the mental coordinates of the destination, of all creatures that teleport within 60 feet of it, gaining an awareness of the location equivalent to \"seen casually.\" This knowledge fades and is lost after 1 minute. This power does not grant any environmental information about the conditions of the destination."
+        }
+      ],
+      "ecology": "Dwelling only in the deepest reaches of the underworld, the immense neothelids once ruled empires in the depths, yet their numbers have been vastly reduced as other races have proven swifter to breed and adapt. Today, the neothelid is a legend, the subject of tales of horror among those few to have experienced the creature's wrath in person and lived to tell about it.\n\nNeothelids are served by all manner of strange worm-like creatures, minions they use to observe and wage war against their enemies. The neothelids themselves were spawned by even more horrific entities, ageless horrors from strange dimensions beyond the edge of known reality—the neothelids see themselves as the chosen agents of these malevolent forces, working to ready the world for their return.",
+      "source": "Bestiary"
+    }
+  ]
+}

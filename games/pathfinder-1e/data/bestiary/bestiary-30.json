@@ -1,0 +1,260 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 30,
+  "range": "Gibbering Mouther – Goblin Dog",
+  "count": 5,
+  "creatures": [
+    {
+      "name": "Gibbering Mouther",
+      "creature_type": "Aberration",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+3",
+      "senses": "all-around vision, darkvision 60 ft.; Perception +12",
+      "languages": "Aklo",
+      "ac": "19, touch 13, flat-footed 16 (+3 Dex, +6 natural)",
+      "hp": "46 (4d8+28)",
+      "saving_throws": {
+        "fort": "+8",
+        "ref": "+4",
+        "will": "+5"
+      },
+      "immune": "critical hits, precision damage",
+      "defensive_abilities": "amorphous",
+      "dr": "5/bludgeoning",
+      "speed": "10 ft., swim 20 ft.",
+      "melee": "6 bites +7 (1d4 plus grab)",
+      "special_attacks": "blood drain, engulf (6d4 damage plus 2 Con damage, AC 13, hp 4), gibbering, ground manipulation, spittle (+6 ranged touch)",
+      "ability_scores": {
+        "str": "10",
+        "dex": "17",
+        "con": "24",
+        "int": "4",
+        "wis": "13",
+        "cha": "12"
+      },
+      "base_attack": "+3",
+      "cmb": "+3 (+7 grapple)",
+      "cmd": "16 (can't be tripped)",
+      "feats": "Weapon Finesse, Weapon Focus (bite)",
+      "skills": "Perception +12, Swim +8",
+      "racial_modifiers": "+4 Perception",
+      "environment": "any underground",
+      "organization": "solitary",
+      "treasure": "standard",
+      "description": "This horrid mass of eyes, mouths, and formless flesh stares in all directions, its countless maws yammering ceaselessly.",
+      "special_abilities": [
+        {
+          "name": "All-Around Vision",
+          "type": "Ex",
+          "description": "A gibbering mouther sees in all directions at once. It cannot be flanked."
+        },
+        {
+          "name": "Amorphous",
+          "type": "Ex",
+          "description": "A gibbering mouther's body is malleable and shapeless. It is immune to precision damage (like sneak attacks) and critical hits, and can move through an area as small as one-quarter its space without squeezing or one-eighth its space when squeezing."
+        },
+        {
+          "name": "Blood Drain",
+          "type": "Ex",
+          "description": "On a successful grapple check after grabbing, several of the creature's mouths attach to its target. Each round it maintains its grapple, its mouths automatically deal 1d4 points of bite damage and 1 point of Constitution damage as it drains its victim's blood."
+        },
+        {
+          "name": "Engulf",
+          "type": "Ex",
+          "description": "This ability functions as swallow whole, except for the following changes. An engulfed creature is trapped in the gibbering mouther's body, where several of its mouths continue to feed and drain blood. A gibbering mouther can engulf only one foe of its size or smaller at a time. If an engulfed creature cuts its way free (the mouther's damage reduction still applies to those inside), the mouther simply flows together again and can still use its engulf attack."
+        },
+        {
+          "name": "Gibbering",
+          "type": "Su",
+          "description": "As a free action, a gibbering mouther can emit a cacophony of maddening sound. All creatures other than gibbering mouthers within 60 feet must succeed on a DC 13 Will save or be confused for 1 round. This is a mind-affecting compulsion insanity effect. A creature that saves cannot be affected by the same mouther's gibbering for 24 hours. The save DC is Constitution-based."
+        },
+        {
+          "name": "Ground Manipulation",
+          "type": "Su",
+          "description": "At will as a standard action, a gibbering mouther can cause stone and earth under its body to grow soft and muddy. The ground remains muddy for 1 minute after the mouther moves off of the location. A gibbering mouther can move through these areas with ease, but other creatures treat them as difficult terrain."
+        },
+        {
+          "name": "Spittle",
+          "type": "Ex",
+          "description": "Each round as a free action, a gibbering mouther can emit a stream of acidic spittle at one target within 30 feet. On a successful attack, the target is blinded for 1d4 rounds unless he succeeds on a DC 18 Fortitude save. The save DC is Constitution-based."
+        }
+      ],
+      "ecology": "Disgusting, loathsome, and hungry—these are the only words that properly describe the gibbering mouther. A foul beast that lurks in underground caves, sewers, and nightmares, mouthers have no societal, ecological or religious significance other than their ability to drive those that listen to them mad. Some scholars believe that gibbering mouthers are a lesser variant of the much more dangerous shoggoth, while others theorize they are a punishment by some powerful being or deity inflicted on those who have offended it.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Girallon",
+      "creature_type": "Magical Beast",
+      "cr": "6",
+      "xp": "2,400",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+7",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +11",
+      "ac": "18, touch 12, flat-footed 15 (+3 Dex, +6 natural, -1 size)",
+      "hp": "73 (7d10+35)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+8",
+        "will": "+5"
+      },
+      "speed": "40 ft., climb 40 ft.",
+      "melee": "bite +10 (1d6+4), 4 claws +10 (1d4+4 plus rend)",
+      "special_attacks": "rend (4 claws, 1d4+6)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "19",
+        "dex": "17",
+        "con": "18",
+        "int": "2",
+        "wis": "12",
+        "cha": "7"
+      },
+      "base_attack": "+7",
+      "cmb": "+12",
+      "cmd": "25",
+      "feats": "Improved Initiative, Iron Will, Skill Focus (Perception), Toughness",
+      "skills": "Climb +12, Perception +11, Stealth +5",
+      "environment": "warm forests",
+      "organization": "solitary or company (5-8)",
+      "treasure": "none",
+      "description": "This four-armed, gorilla-like creature, covered with matted white fur, roars in rage as it rears up to its full, towering height.",
+      "ecology": "Girallons are among the jungle's most dangerous predators. They are aggressive, carnivorous, highly territorial, and incredibly strong. Worse, their four muscular arms are capable of inflicting incredible damage on anything that falls into their clutches. Their exotic appearance makes them popular creatures in certain cities as attractions in gladiatorial combats, either starved and pitted against each other, or set against gladiators eager to increase their fame and notoriety. One who kills a girallon is all but assured of fame, yet most battles against these ferocious beasts end poorly for those foolish enough to attempt to single-handedly defeat one. An adult girallon is 8 feet tall, broad-chested, and covered in thick, pure white fur. It weighs roughly 800 pounds.\n\nGirallons live in troops led by a dominant male. Solitary girallons are usually young males looking to start their own troop. Girallons are very territorial and tend to attack intruders without warning, including strangers of their own kind. Groups of girallons may attack in a line to drive prey toward a cliff or other hazard, or quietly form a ring around their target and suddenly close in.\n\nWhile most girallons are little more than beasts, ancient carvings and the oral traditions of some tribes hint that the girallon wasn't always the stupid creature it is today. According to these legends, the first girallons were men who called upon savage demon gods to gain great strength, yet in so doing abandoned their humanity. With each generation, these first girallons grew more and more savage and feral, and the same legends maintain that these intelligent girallons still dwell in the darkest part of the jungle. In addition to their intellects, these girallons retain a vast appetite for cruelty. Called \"high girallons,\" these creatures are almost always chaotic evil, and have Intelligence scores of 6 or higher. An intelligent girallon generally speaks whatever language the local humans speak. Often, they become leaders of unusually large troops of their less-intelligent kin, inhabit strange ruined cities in the jungle or mountains, and conduct raids on villages for food and treasure. Some primitive tribes worship these girallons as the agents of evil gods or demons, and a few high girallons have been known to work for or even breed with tribal orcs, inspiring legends of four-armed \"white orcs.\"",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Gnoll",
+      "creature_type": "Humanoid",
+      "creature_subtype": "gnoll",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "CE",
+      "size": "Medium",
+      "init": "+0",
+      "senses": "darkvision 60 ft.; Perception +2",
+      "languages": "Gnoll",
+      "ac": "15, touch 10, flat-footed 15 (+2 armor, +1 natural, +2 shield)",
+      "hp": "11 (2d8+2)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+0",
+        "will": "+0"
+      },
+      "speed": "30 ft.",
+      "melee": "spear +3 (1d8+3/×3)",
+      "ranged": "spear +1 (1d8+2/×3)",
+      "ability_scores": {
+        "str": "15",
+        "dex": "10",
+        "con": "13",
+        "int": "8",
+        "wis": "11",
+        "cha": "8"
+      },
+      "base_attack": "+1",
+      "cmb": "+3",
+      "cmd": "13",
+      "feats": "Power Attack",
+      "skills": "Perception +2",
+      "environment": "warm plains or desert",
+      "organization": "solitary, pair, hunting party (2-5 gnolls and 1-2 hyenas), band (10-100 adults plus 50% noncombatant children, 1 sergeant of 3rd level per 20 adults, 1 leader of 4th-6th level, and 5-8 hyenas), or tribe (20-200 plus 1 sergeant of 3rd level per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 7-12 hyenas, and 4-7 hyaenodons)",
+      "treasure": "NPC Gear (leather armor, heavy wooden shield, battleaxe, longbow with 20 arrows, other treasure)",
+      "description": "Hunched and feral, this furred, hyena-headed humanoid stands slightly taller than the average human.",
+      "ecology": "Gnolls are a race of hulking, humanoids that resemble hyenas in more than mere appearance; they show a striking affinity with the scavenging animals, to the point of keeping them as pets, and reflect many of the lesser creatures' behaviors.\n\nGnolls are capable hunters, but are far happier to scavenge or steal a kill than to go out and track down prey. This laziness impels them to acquire slaves of whatever type is available, whom they force to dig warrens, gather supplies and water, and even hunt for their gnoll masters.\n\nCreatures other than hyenas and other gnolls are either meat or slaves, depending upon the temperament of the tribe. Even a dead or fallen comrade is a fresh meal for a gnoll, who might honor a distinguished tribe member with a brief prayer, or thoroughly cook one that has died of a wasting disease, but otherwise view a dead gnoll as little different from any other creature. The more \"civilized\" gnolls do not eat their prisoners, but instead keep them as slaves, either to defend or improve their lair or to trade with other tribes or slaver bands.\n\nGnolls relish combat, but only when they have the obvious advantage of numbers. In other situations, they prefer to avoid combat except as a means of winning a kill from another hunter, or as a clever ambush to bring down a large meal. These hyena-men see no value in courage or valor, instead preferring to flee once it becomes clear that victory is not possible, noting that it is better to run with tail tucked away than to lose one's tail entirely.\n\nDuring combat, gnolls use a strange mixture of pack tactics and individual standoffs. If a gnoll feels that it is winning, it attempts to take down a weaker being rather than aiding its fellows. If the gnolls are struggling, they gang up on a powerful leader and try to take that creature down, in the hopes of forcing its allies to flee.\n\nGnoll leaders are typically rangers, although clerics are highly regarded as well. Most gnolls find arcane magic difficult to master, and as a result it is relatively rare to see a gnoll bard, sorcerer, or wizard.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Goblin",
+      "creature_type": "Humanoid",
+      "creature_subtype": "goblinoid",
+      "cr": "1/3",
+      "xp": "135",
+      "alignment": "NE",
+      "size": "Small",
+      "init": "+6",
+      "senses": "darkvision 60 ft.; Perception -1",
+      "languages": "Goblin",
+      "ac": "16, touch 13, flat-footed 14 (+2 armor, +2 Dex, +1 shield, +1 size)",
+      "hp": "6 (1d10+1)",
+      "saving_throws": {
+        "fort": "+3",
+        "ref": "+2",
+        "will": "-1"
+      },
+      "speed": "30 ft.",
+      "melee": "short sword +2 (1d4/19-20)",
+      "ranged": "short bow +4 (1d4/×3)",
+      "level": "warrior 1",
+      "ability_scores": {
+        "str": "11",
+        "dex": "15",
+        "con": "12",
+        "int": "10",
+        "wis": "9",
+        "cha": "6"
+      },
+      "base_attack": "+1",
+      "cmb": "+0",
+      "cmd": "12",
+      "feats": "Improved Initiative",
+      "skills": "Ride +10, Stealth +10, Swim +4",
+      "racial_modifiers": "+4 Ride, +4 Stealth",
+      "environment": "temperate forest and plains (usually coastal regions)",
+      "organization": "gang (4-9), warband (10-16 with goblin dog mounts), or tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th or 5th level; 1 leader of 6th-8th level; and 10-40 goblin dogs, wolves, or worgs)",
+      "treasure": "NPC gear (leather armor, light wooden shield, short sword, short bow with 20 arrows, other treasure)",
+      "description": "This creature stands barely three feet tall, its scrawny, humanoid body dwarfed by its wide, ungainly head.",
+      "ecology": "Goblins prefer to dwell in caves, amid large and dense thickets of thistles and brambles, or in structures built and then abandoned by others. Very few goblins have the drive to build structures of their own. Coastlines are favored, as goblins are quite fond of sifting through junk and flotsam in an unending quest to find treasures among the refuse of more civilized races.\n\nGoblin hatred runs deep, and few things inspire their wrath more than gnomes (who have long fought against goblins), horses (who frighten goblins tremendously), and regular dogs (whom goblins regard as pale imitations of goblin dogs).\n\nGoblins are also quite superstitious, and treat magic with a fawning mixture of awe and fear. They have the habit of ascribing magic to the mundane as well, with fire and writing both taking on mystical power in goblin society. Fire is much loved by goblins for its capacity to wreak great destruction and because it doesn't require size or strength to wield, but written words are hated. Goblins believe that writing steals words out of your head, and as a result of this belief, goblins are universally illiterate.\n\nGoblins are voracious and can eat their body weight in food daily without growing fat. Goblin lairs always have numerous storerooms and larders. While they prefer human and gnome flesh, a goblin won't turn down any food—except, perhaps, vegetables.\n\nRacial Traits: Goblins are defined by their class levels—they do not possess racial Hit Dice. All goblins have the following racial traits. -2 Strength, +4 Dexterity, -2 Charisma: Goblins are fast, but weak and unpleasant to be around. Small: Goblins are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks. Fast: Goblins are fast for their size, and have a base speed of 30 feet. Darkvision: Goblins can see in the dark up to 60 feet. Skilled: +4 racial bonus on Ride and Stealth checks. Languages: Goblins begin play speaking Goblin. Goblins with high Intelligence scores can choose any of these bonus languages: Common, Draconic, Dwarven, Gnoll, Gnome, Halfling, Orc.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Goblin Dog",
+      "creature_type": "Animal",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+2",
+      "senses": "low-light vision, scent; Perception +1",
+      "ac": "13, touch 12, flat-footed 11 (+2 Dex, +1 natural)",
+      "hp": "9 (1d8+5)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+1"
+      },
+      "immune": "disease",
+      "speed": "50 ft.",
+      "melee": "bite +2 (1d6+3 plus allergic reaction)",
+      "ability_scores": {
+        "str": "15",
+        "dex": "14",
+        "con": "15",
+        "int": "2",
+        "wis": "12",
+        "cha": "8"
+      },
+      "base_attack": "+0",
+      "cmb": "+2",
+      "cmd": "14",
+      "feats": "Toughness",
+      "skills": "Stealth +6",
+      "environment": "temperate forest, swamp, or underground",
+      "organization": "solitary or pack (2-12)",
+      "treasure": "none",
+      "description": "This mangy canine's face has the same flat nose, beady eyes, and protruding teeth as a rat grown grotesquely large.",
+      "special_abilities": [
+        {
+          "name": "Allergic Reaction",
+          "type": "Ex",
+          "description": "A goblin dog's dander is highly irritating to all creatures save those with the goblinoid subtype. A non-goblinoid creature damaged by a goblin dog's bite, who deals damage to a goblin dog with a natural weapon or unarmed attack, or who otherwise comes into contact with a goblin dog (including attempts to grapple or ride the creature) must make a DC 12 Fortitude save or break out in an itching rash. A creature affected by this rash takes a –2 penalty to Dexterity and Charisma for 1 day (multiple allergic reactions do not stack). Remove disease or any magical healing removes the rash instantly. This is a disease effect. The save DC is Constitution-based."
+        }
+      ],
+      "ecology": "Loathed by men and beasts alike, goblin dogs are ugly, stinking, craven, and foul-tempered. It's no surprise that goblins find kindred spirits in these shunned, disgusting beasts. Constantly itching, afflicted with a species-wide mange exacerbated by prolific dander, even the healthiest goblin dog looks sickly and starved.\n\nDespite its name, the goblin dog is in fact a species of rodent grown monstrously large. Their long-legged shape and proclivity to hunt and run in packs earned them their popular name, a name that many goblins take issue with, as it galls the average goblin to consider these, their favored mounts, having anything at all to do with actual dogs. Of course, being goblins, they haven't bothered to come up with alternate names for goblin dogs. Perhaps they don't realize they can.\n\nContact with a goblin dog's infested, mangy hide causes most other creatures to break out into hives, a condition known as \"goblin rash.\" Goblinoids seem to be immune to this affliction, and are fond of keeping goblin dogs as guardians and mounts.\n\nDespite their skin conditions and disorders, goblin dogs are highly resistant to disease. Their favored food is carrion—the riper, the better. That many goblin tribes let their goblin dogs run free in their lairs is the single reason most goblin dens aren't filthier than they actually are; constantly hungry, a goblin dog eats anything it can chew that it finds left behind by other, more discerning palates.\n\nA goblin dog is 5 feet long but weighs only 75 pounds.\n\nAs an Animal Companion: A goblin dog can be taken as an animal companion. Starting Statistics: Size Small; Speed 50 ft.; AC +1 natural armor; Attack bite (1d4); Ability Scores Str 11, Dex 16, Con 11, Int 2, Wis 12, Cha 8; Special Qualities allergic reaction, low-light vision, scent. 4th-Level Advancement: Size Medium; AC +1 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +4.",
+      "source": "Bestiary"
+    }
+  ]
+}

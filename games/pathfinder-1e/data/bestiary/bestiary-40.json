@@ -1,0 +1,247 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 40,
+  "range": "Lion – Lizardfolk",
+  "count": 5,
+  "creatures": [
+    {
+      "name": "Lion",
+      "creature_type": "Animal",
+      "cr": "3",
+      "xp": "800",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+7",
+      "senses": "low-light vision, scent; Perception +9",
+      "ac": "15, touch 12, flat-footed 12 (+3 Dex, +3 natural, -1 size)",
+      "hp": "32 (5d8+10)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+7",
+        "will": "+2"
+      },
+      "speed": "40 ft.",
+      "melee": "bite +7 (1d8+5 plus grab), 2 claws +7 (1d4+5)",
+      "special_attacks": "pounce, rake (2 claws +7, 1d4+5)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "21",
+        "dex": "17",
+        "con": "15",
+        "int": "2",
+        "wis": "12",
+        "cha": "6"
+      },
+      "base_attack": "+3",
+      "cmb": "+9 (+13 grapple)",
+      "cmd": "22 (26 vs. trip)",
+      "feats": "Improved Initiative, Run, Skill Focus (Perception)",
+      "skills": "Acrobatics +11, Perception +9, Stealth +8 (+12 in undergrowth)",
+      "racial_modifiers": "+4 Acrobatics, +4 Stealth (+8 in undergrowth)",
+      "environment": "warm plains",
+      "organization": "solitary, pair, or pride (3-10)",
+      "treasure": "none",
+      "description": "This great cat's muscles flex visibly under its skin as it bares its fangs and shakes its thick mane of hair.",
+      "ecology": "Male lions are 5 to 8 feet long and weigh 330 to 550 pounds. Females are slightly smaller but use the same statistics.\n\nLions are usually the top animal predators in their territories, though they resort to scavenging if convenient or necessary. They may kill other predators (such as leopards and hyenas) that encroach upon their haunts, but rarely eat these kills unless game is scarce. Most lions do not selectively hunt humanoids, but occasionally one learns what easy kills they are and becomes a man-eater.\n\nLions prefer plains but can adapt to living in shallow caves as long as there's a large and stable supply of prey to keep them fed.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Lion, Dire",
+      "creature_type": "Animal",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+6",
+      "senses": "low-light vision, scent; Perception +11",
+      "ac": "15, touch 11, flat-footed 13 (+2 Dex, +4 natural, -1 size)",
+      "hp": "60 (8d8+24)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+8",
+        "will": "+3"
+      },
+      "speed": "40 ft.",
+      "melee": "bite +12 (1d8+7 plus grab), 2 claws +13 (1d6+7)",
+      "special_attacks": "pounce, rake (2 claws +13, 1d6+7)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "25",
+        "dex": "15",
+        "con": "17",
+        "int": "2",
+        "wis": "12",
+        "cha": "10"
+      },
+      "base_attack": "+6",
+      "cmb": "+14 (+18 grapple)",
+      "cmd": "26 (30 vs. trip)",
+      "feats": "Improved Initiative, Run, Skill Focus (Perception), Weapon Focus (claw)",
+      "skills": "Acrobatics +11, Perception +11, Stealth +7 (+11 in undergrowth)",
+      "racial_modifiers": "+4 Acrobatics, +4 Stealth (+8 in undergrowth)",
+      "environment": "warm plains or hills",
+      "organization": "solitary, pair, or pride (3-8)",
+      "treasure": "incidental",
+      "description": "This immense spotted lion stands as tall as a man at the shoulder, its fur matted with the blood of its victims.",
+      "ecology": "Dire lions, known locally as spotted lions or cave lions, are immense predators that can grow up to 15 feet long and weigh up to 3,500 pounds. Although they are merely animals, these large creatures seem to take an almost sadistic glee in playing with and tormenting their prey before eventually devouring it. As a result, many tribes view dire lions as the spawn of evil gods, and hunt them down as soon as their presence in a region becomes obvious.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Lizard, Giant Frilled",
+      "creature_type": "Animal",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+5",
+      "senses": "low-light vision, scent; Perception +11",
+      "ac": "18, touch 10, flat-footed 17 (+1 Dex, +8 natural, -1 size)",
+      "hp": "59 (7d8+28)",
+      "saving_throws": {
+        "fort": "+11",
+        "ref": "+8",
+        "will": "+4"
+      },
+      "speed": "30 ft., climb 30 ft.",
+      "melee": "bite +9 (2d6+5), tail +4 (1d8+2)",
+      "special_attacks": "intimidating charge",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "21",
+        "dex": "13",
+        "con": "19",
+        "int": "2",
+        "wis": "14",
+        "cha": "10"
+      },
+      "base_attack": "+5",
+      "cmb": "+11",
+      "cmd": "22 (26 vs. trip)",
+      "feats": "Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Perception)",
+      "skills": "Climb +13, Perception +11, Stealth +8",
+      "racial_modifiers": "+4 Stealth",
+      "environment": "warm forest, plains, or hills",
+      "organization": "solitary, pair, or pack (3-8)",
+      "treasure": "none",
+      "description": "This bright-eyed lizard is larger than a horse. As it hisses in anger, a brightly colored frill extends around its neck.",
+      "special_abilities": [
+        {
+          "name": "Intimidating Charge",
+          "type": "Ex",
+          "description": "When a giant frilled lizard charges, it hisses ferociously, extends its neck frills, and darts forward on its hind legs, increasing its base speed to 50 feet for that round. In addition to the normal effects of a charge, the creature charged must make a DC 13 Will save or be shaken for 1d6 rounds. This is a fear effect. The save DC is Charisma-based."
+        }
+      ],
+      "ecology": "This lizard is a true behemoth—an apex predator found in tropical regions. Many species of giant lizard exist—other species lack this lizard's intimidating charge special ability but might have other special attacks like grab, trip, constrict (with a bite), or pounce.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Lizard, Monitor",
+      "creature_type": "Animal",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+2",
+      "senses": "low-light vision, scent; Perception +8",
+      "ac": "15, touch 12, flat-footed 13 (+2 Dex, +3 natural)",
+      "hp": "22 (3d8+9)",
+      "saving_throws": {
+        "fort": "+8",
+        "ref": "+5",
+        "will": "+2"
+      },
+      "speed": "30 ft., swim 30 ft.",
+      "melee": "bite +5 (1d8+4 plus grab and poison)",
+      "ability_scores": {
+        "str": "17",
+        "dex": "15",
+        "con": "17",
+        "int": "2",
+        "wis": "12",
+        "cha": "6"
+      },
+      "base_attack": "+2",
+      "cmb": "+5 (+9 grapple)",
+      "cmd": "17 (21 vs. trip)",
+      "feats": "Great Fortitude, Skill Focus (Perception)",
+      "skills": "Climb +7, Perception +8, Stealth +10 (+14 in undergrowth), Swim +11",
+      "racial_modifiers": "+4 Stealth (+8 in undergrowth)",
+      "environment": "warm forests or plains",
+      "organization": "solitary, pair, or pack (3-8)",
+      "treasure": "none",
+      "description": "This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Monitor Lizard Venom.",
+          "affliction": {
+            "name": "Monitor Lizard Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "onset": "1 minute",
+            "frequency": "1/hour for 6 hours",
+            "effect": "1d2 Dexterity damage",
+            "save": "Fortitude DC 14",
+            "cure": "1 save"
+          }
+        }
+      ],
+      "ecology": "Monitor lizards are large enough to pose a threat to humans, and in some societies are often mistaken for dragons. Some can reach lengths of 10 feet or more and weights of 350 pounds.\n\nAs an Animal Companion: A monitor lizard can be taken as an animal companion. Starting Statistics: Size Small; Speed 30 ft., swim 30 ft.; AC +1 natural armor; Attack bite (1d6 plus grab); Ability Scores Str 13, Dex 17, Con 12, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent. 7th-Level Advancement: Size Medium; AC +2 natural armor; Attack bite (1d8 plus grab and poison); Ability Scores Str +4, Dex -2, Con +4.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Lizardfolk",
+      "creature_type": "Humanoid",
+      "creature_subtype": "reptilian",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+0",
+      "senses": "Perception +1",
+      "languages": "Draconic",
+      "ac": "17, touch 10, flat-footed 17 (+5 natural, +2 shield)",
+      "hp": "11 (2d8+2)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+0",
+        "will": "+0"
+      },
+      "special_qualities": "hold breath",
+      "speed": "30 ft., swim 15 ft.",
+      "melee": "morningstar +2 (1d8+1), bite +0 (1d4), or claw +2 (1d4+1), bite +2 (1d4+1)",
+      "ranged": "javelin +1 (1d6+1)",
+      "ability_scores": {
+        "str": "13",
+        "dex": "10",
+        "con": "13",
+        "int": "9",
+        "wis": "10",
+        "cha": "10"
+      },
+      "base_attack": "+1",
+      "cmb": "+2",
+      "cmd": "12",
+      "feats": "Multiattack",
+      "skills": "Acrobatics +2, Perception +1, Swim +8",
+      "racial_modifiers": "+4 Acrobatics",
+      "environment": "temperate swamps",
+      "organization": "solitary, pair, band (3-12), or tribe (13-60)",
+      "treasure": "NPC gear (heavy wooden shield, morningstar, 3 javelins)",
+      "description": "This reptilian humanoid has green scales, a short and toothy snout, and a thick alligator-like tail.",
+      "special_abilities": [
+        {
+          "name": "Hold Breath",
+          "type": "Ex",
+          "description": "A lizardfolk can hold its breath for a number of rounds equal to 4 times its Constitution score before it risks drowning."
+        }
+      ],
+      "ecology": "Lizardfolk are proud and powerful reptilian predators that make their communal homes in scattered villages deep within swamps and marshes. Uninterested in colonization of the dry lands and content with the simple weapons and rituals that have served them well for millennia, lizardfolk are viewed by many other races as backwater savages, but within their isolated communities lizardfolk are actually a vibrant people filled with tradition and an oral history stretching back to before humans walked upright.\n\nMost lizardfolk stand 6 to 7 feet tall and weigh 200 to 250 pounds, their powerful muscles covered in scales of gray, green, or brown. Some breeds have short dorsal spikes or brightly colored frills, and all swim well by moving with flicks of their powerful 4-foot-long tails. While completely at home in the water, they breathe air and return to their clustered mound-dwellings to breed and sleep. As their reptilian blood makes them sluggish in the cold, most lizardfolk hunt and work during the day and retreat to their homes at night to curl up with other tribesmen in the shared warmth of large peat fires.\n\nThough generally neutral, lizardfolks' standoffish demeanor, staunch rejection of civilization's \"gifts,\" and legendary ferocity in battle cause them to be viewed negatively by most humanoids. These traits stem from good reasons, however, as their own slow rate of reproduction is no match for warm-blooded humanoids, and those tribes who don't defend their wetland territories to the last breath quickly find themselves overwhelmed by the mammalian hordes. As for their tendency to consume the bodies of dead friends and enemies alike, the practical lizardfolk are quick to point out that life is hard in the swamp, and nothing should go to waste.\n\nThe lizardfolk presented here dwell in a swampy environment. Lizardfolk tribes can exist in other environments as well, but they lose their swim speed and instead gain a climb speed of 15 feet.",
+      "source": "Bestiary"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 62,
+  "range": "Tiger, Dire – Troll",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Tiger, Dire",
+      "creature_type": "Animal",
+      "cr": "8",
+      "xp": "4,800",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+6",
+      "senses": "low-light vision, scent; Perception +12",
+      "ac": "17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)",
+      "hp": "105 (14d8+42)",
+      "saving_throws": {
+        "fort": "+12",
+        "ref": "+11",
+        "will": "+5"
+      },
+      "speed": "40 ft.",
+      "melee": "2 claws +18 (2d4+8 plus grab), bite +18 (2d6+8/19-20 plus grab)",
+      "special_attacks": "pounce, rake (2 claws +18, 2d4+8)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "27",
+        "dex": "15",
+        "con": "17",
+        "int": "2",
+        "wis": "12",
+        "cha": "10"
+      },
+      "base_attack": "+10",
+      "cmb": "+19 (+23 grapple)",
+      "cmd": "31 (35 vs. trip)",
+      "feats": "Improved Critical (bite), Improved Initiative, Run, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (bite, claw)",
+      "skills": "Acrobatics +6, Perception +12, Stealth +15 (+23 in tall grass), Swim +13",
+      "racial_modifiers": "+4 Acrobatics, +4 Stealth (+8 in tall grass)",
+      "environment": "any forests, plains, and swamps",
+      "organization": "solitary or pair",
+      "treasure": "none",
+      "description": "This large tiger grumbles a warning as it crouches. Two saber-like fangs jut downward from its powerful jaws.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Treant",
+      "creature_type": "Plant",
+      "cr": "8",
+      "xp": "4,800",
+      "alignment": "NG",
+      "size": "Huge",
+      "init": "-1",
+      "languages": "Common, Sylvan, Treant",
+      "senses": "low-light vision; Perception +12",
+      "immune": "plant traits",
+      "ac": "21, touch 7, flat-footed 21 (-1 Dex, +14 natural, -2 size)",
+      "hp": "114 (12d8+60)",
+      "saving_throws": {
+        "fort": "+13",
+        "ref": "+3",
+        "will": "+9"
+      },
+      "special_qualities": "animate trees, double damage against objects, treespeech",
+      "dr": "10/slashing",
+      "weaknesses": "vulnerability to fire",
+      "speed": "30 ft.",
+      "melee": "2 slams +17 (2d6+9/19-20)",
+      "ranged": "rock +7 (2d6+13)",
+      "special_attacks": "rock throwing (180 ft.), trample (2d6+13, DC 25)",
+      "space": "15 ft.",
+      "reach": "15 ft.",
+      "ability_scores": {
+        "str": "29",
+        "dex": "8",
+        "con": "21",
+        "int": "12",
+        "wis": "16",
+        "cha": "13"
+      },
+      "base_attack": "+9",
+      "cmb": "+20",
+      "cmd": "29",
+      "feats": "Alertness, Improved Critical (slam), Improved Sunder, Iron Will, Power Attack, Weapon Focus (slam)",
+      "skills": "Diplomacy +9, Intimidate +9, Knowledge (nature) +9, Perception +12, Sense Motive +9, Stealth -9 (+7 in forests)",
+      "racial_modifiers": "+16 Stealth in forests",
+      "environment": "any forest",
+      "organization": "solitary or grove (2-7)",
+      "treasure": "standard",
+      "description": "This animated tree's bark is knotted into vaguely humanoid features, with branches for arms and roots for legs.",
+      "special_abilities": [
+        {
+          "name": "Animate Trees",
+          "type": "Sp",
+          "description": "A treant can animate any trees within 180 feet at will, controlling up to two trees at a time. It takes 1 full round for a tree to uproot itself, after which it moves at a speed of 10 feet and fights as a treant (although it has only one slam attack and lacks the treant's animation and rock-throwing abilities), gaining the treant's vulnerability to fire. If the treant that animated it terminates the animation, moves out of range, or is incapacitated, the tree immediately takes root wherever it is and returns to its normal state."
+        },
+        {
+          "name": "Double Damage Against Objects",
+          "type": "Ex",
+          "description": "A treant or animated tree that makes a full attack against an object or structure deals double damage."
+        },
+        {
+          "name": "Treespeech",
+          "type": "Ex",
+          "description": "A treant has the ability to converse with plants as if subject to a continual speak with plants spell, and most plants greet them with an attitude of friendly or helpful."
+        }
+      ],
+      "ecology": "Treants are guardians of the forest and speakers for the trees. As long-lived as the forests themselves, and seeing themselves as parents and shepherds rather than gardeners, treants are slow and methodical in most things but terrifying when forced to fight in defense of their flock. Though they rarely seek out the companionship of the short-lived races, and have an inherent distrust of change, they have been known to tolerate those who seek to learn from their long, rambling monologues, especially if the pupils express a desire to help protect the wildlands. Yet against those who would threaten the forest, especially loggers who seek to harvest wood for lumber or those who try to clearcut a section of forest in order to build a fort or establish a town, the treants' wrath is swift and devastating. They are particularly gifted at tearing down what others build—a trait that serves angry treants well.\n\nTreants are primarily solitary creatures, with a given individual sometimes responsible for an entire forest, but they occasionally come together in small groups called groves to share news and reproduce. In times of grave danger, all of the groves in a region may gather for a great months-long meeting called a moot, but such events are exceedingly rare, and millennia may go by between them.\n\nThe typical treant is 30 feet tall, with a trunk 2 feet in diameter, and weighs 4,500 pounds. Treants tend to resemble the species of trees most common in their woodland territories.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Troglodyte",
+      "creature_type": "Humanoid",
+      "creature_subtype": "reptilian",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "CE",
+      "size": "Medium",
+      "init": "-1",
+      "languages": "Draconic",
+      "senses": "darkvision 90 ft.; Perception +0",
+      "aura": "stench (30 ft., DC 13, 10 rounds)",
+      "ac": "15, touch 9, flat-footed 15 (-1 Dex, +6 natural)",
+      "hp": "13 (2d8+4)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "-1",
+        "will": "+0"
+      },
+      "speed": "30 ft.",
+      "melee": "club +2 (1d6+1), claw -3 (1d4), bite -3 (1d4) or 2 claws +2 (1d4+1), bite +2 (1d4+1)",
+      "ranged": "javelin +0 (1d6)",
+      "ability_scores": {
+        "str": "12",
+        "dex": "9",
+        "con": "14",
+        "int": "8",
+        "wis": "11",
+        "cha": "11"
+      },
+      "base_attack": "+1",
+      "cmb": "+2",
+      "cmd": "11",
+      "feats": "Great Fortitude",
+      "skills": "Stealth +5 (+9 in rocky areas)",
+      "racial_modifiers": "+4 Stealth (+8 in rocky areas)",
+      "environment": "any underground",
+      "organization": "solitary, pair, clutch (3-6), squad (7-12 plus 1 cleric or druid of 3rd level and 1-2 monitor lizards), or band (20-80 plus 20% noncombatants, 1 chieftain of 3rd-6th level, 1-3 clerics or druids of 3rd-6th level, and 3-13 monitor lizards)",
+      "treasure": "NPC gear (club, 3 javelins, other treasure)",
+      "description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
+      "ecology": "The troglodyte is a feral, savage cave dweller. They are among the most populous denizens of the upper reaches of the endless caverns of the underworld, equally at home raiding the settlements of those who dwell above or below ground, yet for all their race's fecundity and sprawl, as a whole they represent only a minor threat. At times, great leaders can draw legions of troglodytes to their command to create vast and deadly armies, but left to their own devices, troglodyte tribes are content to keep each other under control with numerous feuds, cannibalistic raids, and bitter civil wars.\n\nThe troglodyte is one of the oldest of intelligent races, and ruins found in some remote caverns testify to the fact that their empire was once among the largest in the world. At the dawn of time, the troglodyte civilization was generations ahead of other humanoid races—while those races hid in caves and worshiped fire, the troglodytes raised vast cities of stone ziggurats and twisting canals, kept other races as slaves, and worshiped ancient and inhuman gods and demons. Yet as the other races evolved and grew increasingly civilized, they outstripped their onetime troglodyte oppressors. Today, the roles have changed—now it is the troglodyte that hides in caves and lives the life of a feral savage.\n\nReligion is strong among troglodyte tribes, and their shamans and priests are universally the highest regarded members of a clan. A troglodyte chieftain is not always a cleric or druid, but those who do not have divine power are usually mere mouthpieces and puppet lords that answer to the beck and call of the local seer or shaman. Troglodytes generally worship one of the countless demon lords, particularly those of a reptilian or primeval shape and form or those whose Abyssal domains most closely resemble the tangled caverns troglodytes prefer. Troglodyte druids are usually neutral evil if they dwell with their own kind (and are universally feared and respected for the eerie command they have over beasts).\n\nA typical troglodyte stands about 5 feet tall and weighs 150 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Troll",
+      "creature_type": "Humanoid",
+      "creature_subtype": "giant",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "CE",
+      "size": "Large",
+      "init": "+2",
+      "languages": "Giant",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +8",
+      "ac": "16, touch 11, flat-footed 14 (+2 Dex, +5 natural, -1 size)",
+      "hp": "63 (6d8+36); regeneration 5 (acid or fire)",
+      "saving_throws": {
+        "fort": "+11",
+        "ref": "+4",
+        "will": "+3"
+      },
+      "speed": "30 ft.",
+      "melee": "bite +8 (1d8+5), 2 claws +8 (1d6+5)",
+      "special_attacks": "rend (2 claws, 1d6+7)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "21",
+        "dex": "14",
+        "con": "23",
+        "int": "6",
+        "wis": "9",
+        "cha": "6"
+      },
+      "base_attack": "+4",
+      "cmb": "+10",
+      "cmd": "22",
+      "feats": "Intimidating Prowess, Iron Will, Skill Focus (Perception)",
+      "skills": "Intimidate +9, Perception +8",
+      "environment": "cold mountains",
+      "organization": "solitary or gang (2-4)",
+      "treasure": "standard",
+      "description": "This tall creature has rough, green hide. Its hands end in claws, and its bestial face has a hideous, tusked underbite.",
+      "variants": [
+        {
+          "name": "Scrags",
+          "description": "Dwelling in both fresh and salt water, these cousins of the troll have the aquatic subtype and the amphibious special quality. Scrags have a base land speed of 20 feet and a swim speed of 40 feet. A scrag's regeneration ability only works if it is in contact with water. Scrags dwell in any body of water in any climate, though they are most common in cold northern rivers and lakes, and are less bestial in appearance than their terrestrial cousins, though no less violent."
+        }
+      ],
+      "ecology": "Trolls possess incredibly sharp claws and amazing regenerative powers, allowing them to recover from nearly any wound. They are stooped, fantastically ugly, and astonishingly strong—combined with their claws, their strength allows them to literally tear apart flesh to feed their voracious appetites. Trolls stand about 14 feet tall, but their hunched postures often make them appear shorter. An adult troll weighs around 1,000 pounds.\n\nA troll's appetite and its regenerative powers make it a fearless combatant, ever prepared to charge headlong at the nearest living creature and attack with all of its fury. Only fire seems to cause a troll to hesitate, but even this mortal threat is not enough to stop a troll's advance. Those who commonly battle with trolls know to locate and burn any pieces after a fight, for even the smallest scrap of flesh can regrow a full-size troll given enough time. Fortunately, only the largest part of a troll regrows in this way.\n\nDespite their cruelty in combat, trolls are surprisingly tender and kind to their own young. Female trolls work as a group, spending a great deal of time teaching young trolls to hunt and fend for themselves before sending them off to find their own territories. A male troll tends to live a solitary existence, partnering with a female for only a brief time to mate. All trolls spend most of their time hunting for food, as they must consume vast amounts each day or face starvation. Due to this need, most trolls stake out large territories as their own, and fights between rivals are quite common. While these are usually nonlethal, trolls are aware of each others' weaknesses and will use such knowledge to kill their own kind if food is scarce.",
+      "source": "Bestiary"
+    }
+  ]
+}

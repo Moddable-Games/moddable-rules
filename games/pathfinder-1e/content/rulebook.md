@@ -108,7 +108,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, supernatural abilities; curses, diseases, poison
 - [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
 
-All 11 core classes, all 175 core feats, the full Combat, Magic, Additional Rules, Environment, Gamemastering, Glossary, and Equipment chapters are now complete. All 623 core spells and 237 equipment items are available as structured data below. Only the Bestiary remains (tracked separately).
+All 11 core classes, all 175 core feats, the full Combat, Magic, Additional Rules, Environment, Gamemastering, Glossary, and Equipment chapters are now complete. All 623 core spells, 241 equipment items, and 346 monsters are available as structured data below. The Core Rulebook is fully covered.
 
 </div>
 
@@ -124,6 +124,7 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [classes.json](../../games/pathfinder-1e/data/classes.json) — All 11 core classes with hit die, BAB, saves, and skill ranks
 - [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
 - [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
+- [bestiary/](../../games/pathfinder-1e/data/bestiary/) — The full core Bestiary, Aboleth through Yeti, split across 69 numbered files (`bestiary-01.json`–`bestiary-69.json`, each holding 2–5 creatures in alphabetical order) to keep individual file sizes manageable. Every creature preserves the complete Pathfinder stat block: ability scores, AC, hp, saving throws, attacks, special attacks/qualities with full ability descriptions, poison/disease afflictions, spellcasting, ecology, and named variants where the source provides them.
 
 **Spells** — all 623 core spells, one file per spell level:
 
@@ -150,7 +151,5 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [mount.json (13)](../../games/pathfinder-1e/data/equipment/mount.json)
 - [transport.json (11)](../../games/pathfinder-1e/data/equipment/transport.json)
 - [service.json (7)](../../games/pathfinder-1e/data/equipment/service.json)
-
-Monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
 
 </div>

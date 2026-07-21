@@ -1,0 +1,226 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 32,
+  "range": "Gorgon – Griffon",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Gorgon",
+      "creature_type": "Magical Beast",
+      "cr": "8",
+      "xp": "4,800",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+4",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +17",
+      "ac": "20, touch 9, flat-footed 20 (+11 natural, -1 size)",
+      "hp": "100 (8d10+56)",
+      "saving_throws": {
+        "fort": "+13",
+        "ref": "+6",
+        "will": "+7"
+      },
+      "speed": "30 ft.",
+      "melee": "gore +14 (2d8+7), 2 hooves +9 (1d6+3)",
+      "special_attacks": "breath weapon (60-foot cone, turn to stone, Fortitude DC 21 negates), trample (2d8+10, DC 21)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "24",
+        "dex": "10",
+        "con": "24",
+        "int": "2",
+        "wis": "16",
+        "cha": "9"
+      },
+      "base_attack": "+8",
+      "cmb": "+16",
+      "cmd": "26",
+      "feats": "Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception)",
+      "skills": "Perception +17",
+      "environment": "temperate plains, rocky hills, and underground",
+      "organization": "solitary, pair, pack (3-4), or herd (5-12)",
+      "treasure": "none",
+      "description": "This bull-like creature seems to be made of interlocking metallic plates. Faint plumes of green smoke puff from its mouth.",
+      "special_abilities": [
+        {
+          "name": "Breath Weapon",
+          "type": "Su",
+          "description": "A gorgon can use its breath weapon once every 1d4+1 rounds to create a 60-foot cone of green gas. Those caught in the area of the gas can attempt a DC 21 Fortitude save to resist the effects, but those who fail the save are immediately petrified. This petrification is temporary—each round, a petrified creature can attempt a new DC 21 Fortitude save to recover from the petrification as long as it is not caught within the area of effect of the gorgon's breath weapon a second time while petrified. A creature exposed to the gorgon's breath a second time while already petrified becomes permanently petrified, and can no longer attempt to make additional Fortitude saves to recover naturally. The save DC is Constitution-based."
+        }
+      ],
+      "ecology": "Gorgons are magical, foul-tempered creatures—while they might appear to be constructs at first glance, beneath their artifical-looking armor plates they are made of flesh and bone. Like aggressive bulls, they challenge any unfamiliar creature they encounter, often trampling their opponent's corpse or shattering its stony remnants until the creature is unrecognizable. The females are just as dangerous as the males, and the two sexes appear identical. A typical gorgon stands 6 feet tall and 8 feet long. It weighs 4,000 pounds.\n\nGorgons derive nutrients from the consumption of minerals, particularly the stone of their petrified victims, and any statues they create are likely to be gnawed thoroughly. They cannot digest metal or gems, so their dung (which resembles bitter-smelling gray powder) often contains small, raw crystals and nuggets of ore. Their aggression toward all other creatures means that there are few to no predators or other prey animals in their grazing grounds. Each herd is led by a dominant bull; solitary gorgons are usually adolescent bulls driven out of their herd by the lead bull.\n\nTheir flesh is tough but beefy (once the armored hide is removed), and to those who acquire the taste, quite filling. Many stone giant tribes believe eating gorgon meat enhances their own natural armor. Powdered gorgon horn is worth 250 gp as an alternate material component for magic items using bull's strength, stoneskin, flesh to stone, statue, and similar magic.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Gray Ooze",
+      "creature_type": "Ooze",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "-5",
+      "senses": "blindsight 60 ft.; Perception -5",
+      "ac": "5, touch 5, flat-footed 5 (-5 Dex)",
+      "hp": "50 (4d8+32)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "-4",
+        "will": "-4"
+      },
+      "immune": "cold, fire",
+      "defensive_abilities": "ooze traits",
+      "special_qualities": "transparent",
+      "speed": "10 ft.",
+      "melee": "slam +6 (1d6+4 plus 1d6 acid and grab)",
+      "special_attacks": "acid, constrict (1d6+1 plus 1d6 acid)",
+      "ability_scores": {
+        "str": "16",
+        "dex": "1",
+        "con": "26",
+        "int": "-",
+        "wis": "1",
+        "cha": "1"
+      },
+      "base_attack": "+3",
+      "cmb": "+6 (+10 grapple)",
+      "cmd": "11 (can't be tripped)",
+      "environment": "cold marshes and underground",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "A seemingly mundane puddle, patch of moist stone, or glistening rock is suddenly revealed to be more as a terrible pseudopod lashes out.",
+      "special_abilities": [
+        {
+          "name": "Acid",
+          "type": "Ex",
+          "description": "The digestive acid that covers a gray ooze dissolves metals and organic material, but not stone. Each slam and constrict attack deals 1d6 additional acid damage. Armor or clothing worn by a creature grappled by a gray ooze takes the same amount of acid damage unless the wearer succeeds on a DC 20 Reflex saving throw. A wooden or metal weapon that strikes a gray ooze takes 1d6 acid damage unless the weapon's wielder succeeds on a DC 20 Reflex save. The ooze's touch deals 12 points of acid damage per round to wooden or metal objects, but the ooze must remain in contact with the material for 1 full round in order to deal this damage. The save DCs are Constitution-based."
+        },
+        {
+          "name": "Transparent",
+          "type": "Ex",
+          "description": "Due to its lack of vivid coloration, a gray ooze is difficult to discern from its surroundings in most environments. A DC 15 Perception check is required to notice the gray ooze. Any creature that fails to notice a gray ooze and walks into it automatically suffers damage as if struck by the ooze's slam attack and is immediately subject to a grab attempt by the ooze."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Crystal Ooze (CR 4)",
+          "description": "The crystal ooze is an aquatic variant that dwells in deeper waters than most commonly found in the gray ooze's beloved swamps. A crystal ooze has the aquatic subtype and a swim speed of 30 ft. The crystal ooze lacks the gray ooze's constrict ability, but it does secrete a paralytic toxin that causes those whom it strikes to become paralyzed for 3d6 rounds if they fail a Fortitude saving throw (the save DC is Constitution-based)."
+        },
+        {
+          "name": "Id Ooze (CR 6)",
+          "description": "Perhaps the strangest variant gray oozes are those that have developed a rudimentary intelligence, including the ability to communicate telepathically with other oozes, or even the ability to blast enemies with pulses of raw mental power. Id oozes are advanced gray oozes with an Intelligence score of 2 (and thus gain skill ranks and feats—typically 4 ranks in Stealth, Improved Initiative, and Toughness), can communicate basic empathic information with other id oozes within 100 feet via telepathy, and can use lesser confusion at will as a spell-like ability (CL equals the id ooze's HD)."
+        }
+      ],
+      "ecology": "Slinking their way through cold swamps and bleary marshlands, or sometimes even dungeons and caverns, gray oozes consume any organic materials they encounter. Despite its lack of intelligence, the gray ooze is a most problematic creature due to its transparency. While the ooze cannot easily climb walls or swim, its habit of lurking in the thick mud that lines the banks of marsh pools or lying in harmless-looking pools on dull-colored dungeon floors makes it dangerously easy to overlook and step on.\n\nSome sages believe that the gray ooze is the result of a failed alchemical experiment, while others postulate that the first gray oozes spontaneously arose from a cesspit of magical detritus. Of course, these theories that gray oozes are not living organisms, but rather the alchemical result of an unfortunate mixture of rare caustic fluids and magical waste, are derided by many who dwell in areas plagued by the creatures but which do not have a long history of magical pollution.\n\nThe gray ooze adapts readily and swiftly to changes in environments, the simple structure of its primeval form and its method of using fission to reproduce all but ensuring that such changes occur. Listed below are two such variants that adventurers have encountered.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Green Hag",
+      "creature_type": "Monstrous Humanoid",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "CE",
+      "size": "Medium",
+      "init": "+1",
+      "senses": "darkvision 90 ft.; Perception +15",
+      "languages": "Aklo, Common, Giant",
+      "ac": "19, touch 11, flat-footed 18 (+1 Dex, +8 natural)",
+      "hp": "58 (9d10+9)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+7",
+        "will": "+7"
+      },
+      "sr": "16",
+      "special_qualities": "mimicry",
+      "speed": "30 ft., swim 30 ft.",
+      "melee": "2 claws +13 (1d4+4 plus weakness)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 9th) Constant—pass without trace, tongues, water breathing; At will—alter self, dancing lights, ghost sound (DC 12), invisibility, pyrotechnics (DC 14), tree shape, whispering wind"
+        }
+      ],
+      "ability_scores": {
+        "str": "19",
+        "dex": "12",
+        "con": "12",
+        "int": "15",
+        "wis": "13",
+        "cha": "14"
+      },
+      "base_attack": "+9",
+      "cmb": "+13",
+      "cmd": "24",
+      "feats": "Alertness, Blind-Fight, Combat Casting, Deceitful, Great Fortitude",
+      "skills": "Bluff +13, Disguise +13, Knowledge (arcana) +11, Perception +15, Sense Motive +9, Stealth +13, Swim +18",
+      "environment": "temperate marshes",
+      "organization": "solitary or coven (3 hags of any kind)",
+      "treasure": "standard",
+      "description": "Knots of dark, moldering hair spill over the features of this sickly, thin, green-skinned crone.",
+      "special_abilities": [
+        {
+          "name": "Weakness",
+          "type": "Su",
+          "description": "A green hag's claws sap strength from those she strikes. Each time a green hag hits a foe with her claw attack, the victim takes 2 points of Strength damage unless he resists the weakness with a DC 16 Fortitude save. Alternatively, a green hag can attempt to inflict even greater weakness on a foe by making a touch attack—this variant requires a standard action, and cannot be attempted in the same round the hag makes claw attacks. The opponent touched must succeed on a DC 16 Fortitude save or take 2d4 points of Strength damage. The save DC is Charisma-based."
+        },
+        {
+          "name": "Mimicry",
+          "type": "Ex",
+          "description": "A green hag can imitate the sounds of almost any animal found near its lair."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Hag Covens",
+          "description": "When three hags of any type gather, they can form a coven to gain increased magical ability. Any combination of hags can form a coven, but green hags are the most common members of such foul gatherings.\n\nWhenever all three hags of a particular coven are within 10 feet of one another, all three of them can work together to use any of the following spell-like abilities: animate dead, baleful polymorph (DC 18), blight (DC 17), bestow curse (DC 17), clairaudience/clairvoyance, charm monster (DC 17), commune, control weather, dream, forcecage, mind blank, mirage arcana (DC 18), reincarnate, speak with dead, veil (DC 19), vision.\n\nAll three hags must take a full-round action to take part in this form of cooperative magic. All coven spell-like abilities function at CL 9th (or at the highest CL available to the most powerful hag in the coven). The save DCs are Charisma-based, and function as if with a Charisma score of 16 unless one of the hags has a higher Charisma score, in which case the spell-like ability DCs are adjusted by that hag's Charisma modifier.\n\nAt the GM's discretion, certain more powerful hag covens might have additional spell-like abilities."
+        }
+      ],
+      "ecology": "Terrifying crones known to haunt foul swamps and tangled forests, green hags harbor an intense hatred for all beauty and purity. Making use of their varied deceptive abilities, these crones delight in murdering innocents, unhinging noble minds, and debasing the pure of heart. They are particularly fond of using disguise self to assume the forms of alluring young maidens and then seducing young men away from their lovers or families. In this form, they can infect such noble and upstanding citizens with all manner of debauchery and scandal. Some green hags prefer to reveal their true natures to their lovers at a moment precisely engineered to drive the man mad with horror and shame. Others drag out their dalliances and do what they can to utterly ruin the lives of the men they seduce before showing the broken shell that remains the truth. In the end, the luckiest of these unfortunate lovers end up being eaten by their green hag companions—for the unlucky, their final doom can be much worse, for the cruel imagination of the green hag is vast.\n\nA typical green hag stands between 5 and 6 feet tall and weighs just under 160 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Griffon",
+      "creature_type": "Magical Beast",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+2",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +12",
+      "languages": "Common (cannot speak)",
+      "ac": "17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)",
+      "hp": "42 (5d10+15)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+6",
+        "will": "+4"
+      },
+      "speed": "30 ft., fly 80 ft. (average)",
+      "melee": "bite +8 (1d6+3), 2 talons +7 (1d6+3)",
+      "special_attacks": "pounce, rake (2 claws +7, 1d4+3)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "16",
+        "dex": "15",
+        "con": "16",
+        "int": "5",
+        "wis": "13",
+        "cha": "8"
+      },
+      "base_attack": "+5",
+      "cmb": "+9",
+      "cmd": "21 (25 vs. trip)",
+      "feats": "Iron Will, Skill Focus (Perception), Weapon Focus (bite)",
+      "skills": "Acrobatics +10, Fly +6, Perception +12",
+      "racial_modifiers": "+4 Acrobatics, +4 Perception",
+      "environment": "temperate hills",
+      "organization": "solitary, pair, or pride (6-10)",
+      "treasure": "incidental",
+      "description": "This majestic beast has the body of a lion, the head and forelegs of a great eagle, and a massive pair of feathered wings.",
+      "ecology": "Griffons are powerful aerial predators, swooping down from their high aeries to take their prey with beak and talon. Aggressive and territorial, they are no mere beasts, but rather calculating combatants and loyal companions to those who earn their respect, fighting to the death to protect their friends and kin.\n\nWeighing in at over 500 pounds and measuring 8 feet long from hooked beak to tufted tail, the griffon strikes an imposing silhouette that has long been used in heraldry and other iconography as a symbol of power, authority, and justice. In reality, the griffon is less concerned with abstract concepts than with hunting food and protecting its own. While they can sometimes be trained or befriended to serve as mounts, griffons have no inherent affinity for humanoids, and frequently come into bloody conflict with civilized races over their attempts to secure their favorite food—horse flesh. City folk may marvel at the trained griffon's stately manner and 25-foot wingspan, but those farmers forced to share territory with its wild kin know to hurry home and secure their barns when the beasts' hunting shrieks split the sky.\n\nGriffons mate for life, and will often search for years to take vengeance over a slain mate or child. It was likely this innate stubbornness and fierce loyalty that first brought them into domestic use as mounts and guardians of treasure hoards. Despite the inherent danger, trade in captured griffons and stolen eggs is brisk, with their eggs worth up to 3,500 gp apiece and live young twice that. Characters eager for griffon mounts, however, should note that buying or forcibly domesticating intelligent creatures like griffons is still recognized as slavery by most good deities, and winning a griffon's allegiance of its own free will is no easy task. Reaching a mutually agreeable accord (or even a friendship) is a much more elegant and safe route to securing a griffon mount.\n\nBefore it can be ridden in combat, a griffon requires practice bearing the weight of its rider. In order to be trained successfully, a griffon must first be helpful toward its trainer (possibly requiring a Diplomacy, Intimidate, or Handle Animal check). After that, 6 weeks of practice and a successful DC 20 Handle Animal check is sufficient for the beast to be comfortable with its burden, and due to their intelligence, trained griffons can be treated as knowing every trick listed in the Handle Animal skill description, possibly even responding to new, simple requests made in Common.\n\nGriffons can carry up to 300 pounds as a light load, 600 pounds as a medium load, and 900 pounds as a heavy load. Riding a griffon requires an exotic saddle.",
+      "source": "Bestiary"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 67,
+  "range": "Wolverine, Dire – Wyvern",
+  "count": 5,
+  "creatures": [
+    {
+      "name": "Wolverine, Dire",
+      "creature_type": "Animal",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+7",
+      "senses": "low-light vision, scent; Perception +12",
+      "ac": "16, touch 12, flat-footed 13 (+3 Dex, +4 natural, -1 size)",
+      "hp": "42 (5d8+20)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+7",
+        "will": "+2"
+      },
+      "speed": "30 ft., climb 10 ft.",
+      "melee": "2 claws +6 (1d8+4), bite +6 (1d6+4)",
+      "special_attacks": "rage",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "19",
+        "dex": "17",
+        "con": "17",
+        "int": "2",
+        "wis": "12",
+        "cha": "10"
+      },
+      "base_attack": "+3",
+      "cmb": "+8",
+      "cmd": "21 (25 vs. trip)",
+      "feats": "Improved Initiative, Skill Focus (Perception), Toughness",
+      "skills": "Climb +12, Perception +12",
+      "environment": "cold forests",
+      "organization": "solitary or pair",
+      "treasure": "none",
+      "description": "This terrible wolverine is as large as a bear, its jaws and claws oversized and brutal, its eyes dark and filled with rage.",
+      "special_abilities": [
+        {
+          "name": "Rage",
+          "type": "Ex",
+          "description": "A dire wolverine that takes damage in combat flies into a rage on its next turn, madly clawing and biting until either it or its opponent is dead. It gains +4 to Strength, +4 to Constitution, and –2 to AC. The creature cannot end its rage voluntarily."
+        }
+      ],
+      "ecology": "Dire wolverines tend to be even more territorial than their smaller wolverine cousins, and they defend to the death the areas where they choose to live, often selecting humanoid-settled regions as their own and then fearlessly tearing the settlements apart. Dire wolverines grow to about 12 feet in length and can weigh as much as 2,000 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Worg",
+      "creature_type": "Magical Beast",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "NE",
+      "size": "Medium",
+      "init": "+2",
+      "languages": "Common, Goblin",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +11",
+      "ac": "14, touch 12, flat-footed 12 (+2 Dex, +2 natural)",
+      "hp": "26 (4d10+4)",
+      "saving_throws": {
+        "fort": "+5",
+        "ref": "+6",
+        "will": "+3"
+      },
+      "speed": "50 ft.",
+      "melee": "bite +7 (1d6+4 plus trip)",
+      "ability_scores": {
+        "str": "17",
+        "dex": "15",
+        "con": "13",
+        "int": "6",
+        "wis": "14",
+        "cha": "10"
+      },
+      "base_attack": "+4",
+      "cmb": "+7",
+      "cmd": "19 (23 vs. trip)",
+      "feats": "Run, Skill Focus (Perception)",
+      "skills": "Perception +11, Stealth +9, Survival +5",
+      "racial_modifiers": "+2 Perception, +2 Stealth, +2 Survival",
+      "environment": "temperate forests and plains",
+      "organization": "solitary, pair, or pack (3-11)",
+      "treasure": "incidental",
+      "description": "This unusually large wolf has an evil, almost intelligent light shining in its deep red eyes.",
+      "ecology": "Worgs are oversized, evil, intelligent wolves often found dwelling amid goblins or other savage races. A typical worg has gray or black fur, stands 3 feet tall at the shoulder, and weighs 300 pounds.\n\nWorgs hunt in packs, running down and surrounding their prey like common wolves, but their intelligence and ability to speak make them better at coordinating their attacks. They sometimes use one packmate as a decoy, pretending to be a humanoid calling for help in order to lure intelligent prey into an ambush. Worgs that travel with goblins often allow them to ride on their backs, but in such situations it is usually the worg that is the master, not the rider.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Worg, Winter Wolf",
+      "creature_type": "Magical Beast",
+      "creature_subtype": "cold",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "NE",
+      "size": "Large",
+      "init": "+5",
+      "languages": "Common, Giant",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +11",
+      "immune": "cold",
+      "weaknesses": "vulnerability to fire",
+      "ac": "17, touch 10, flat-footed 16 (+1 Dex, +7 natural, -1 size)",
+      "hp": "57 (6d10+24)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+6",
+        "will": "+3"
+      },
+      "speed": "50 ft.",
+      "melee": "bite +10 (1d8+7 plus 1d6 cold and trip)",
+      "special_attacks": "breath weapon (every 1d4 rounds, 15-ft. cone, 6d6 cold damage, Reflex half DC 17)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "20",
+        "dex": "13",
+        "con": "18",
+        "int": "9",
+        "wis": "13",
+        "cha": "10"
+      },
+      "base_attack": "+6",
+      "cmb": "+12",
+      "cmd": "23 (27 vs. trip)",
+      "feats": "Improved Initiative, Run, Skill Focus (Perception)",
+      "skills": "Perception +11, Stealth +4 (+10 in snow), Survival +5",
+      "racial_modifiers": "+2 Perception, +2 Stealth (+8 in snow), +2 Survival",
+      "environment": "cold forests and plains",
+      "organization": "solitary, pair, or pack (6-11)",
+      "treasure": "standard",
+      "description": "This bear-sized wolf has white fur and a rime of frost around its muzzle. Its eyes are pale blue, almost white in color.",
+      "ecology": "Winter wolves are larger, smarter, more ferocious variants of worgs with white fur and a deadly breath weapon.\n\nA typical winter wolf is 8 feet long, stands 4-1/2 feet tall at the shoulder, and weighs about 450 pounds. Winter wolves will often ally themselves with frost giants, hill giants, and other large humanoids, serving entire tribes of giants as both scouts and guards.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Wraith",
+      "creature_type": "Undead",
+      "creature_subtype": "incorporeal",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "LE",
+      "size": "Medium",
+      "init": "+7",
+      "languages": "Common, Infernal",
+      "senses": "darkvision 60 ft., lifesense; Perception +10",
+      "aura": "unnatural aura (30 ft.)",
+      "immune": "undead traits",
+      "weaknesses": "sunlight powerlessness",
+      "defensive_abilities": "channel resistance +2, incorporeal",
+      "ac": "18, touch 18, flat-footed 15 (+5 deflection, +3 Dex)",
+      "hp": "47 (5d8+25)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+4",
+        "will": "+6"
+      },
+      "speed": "fly 60 ft. (good)",
+      "melee": "incorporeal touch +6 (1d6 negative energy plus 1d6 Con drain)",
+      "special_attacks": "create spawn",
+      "ability_scores": {
+        "str": "-",
+        "dex": "16",
+        "con": "-",
+        "int": "14",
+        "wis": "14",
+        "cha": "21"
+      },
+      "base_attack": "+3",
+      "cmb": "+6",
+      "cmd": "21",
+      "feats": "Blind-Fight, Combat Reflexes, Improved Initiative",
+      "skills": "Diplomacy +10, Fly +7, Intimidate +13, Knowledge (planes) +7, Perception +10, Sense Motive +10, Stealth +11",
+      "environment": "any",
+      "organization": "solitary, pair, gang (3-6), or pack (7-12)",
+      "treasure": "none",
+      "description": "This ghostly creature is little more than a dark shape with two flickering pinpoints of light where its eyes should be.",
+      "special_abilities": [
+        {
+          "name": "Create Spawn",
+          "type": "Su",
+          "description": "A humanoid slain by a wraith becomes a wraith in 1d4 rounds. These spawn are less powerful than typical wraiths, and suffer a –2 penalty on all d20 rolls and checks, receive –2 hp per HD, and only drain 1d2 points of Constitution on a touch. Spawn are under the command of the wraith that created them until its death, at which point they lose their spawn penalties and become free-willed wraiths. They do not possess any of the abilities they had in life."
+        },
+        {
+          "name": "Constitution Drain",
+          "type": "Su",
+          "description": "Creatures hit by a wraith's touch attack must succeed on a DC 17 Fortitude save or take 1d6 points of Constitution drain. On each successful attack, the wraith gains 5 temporary hit points. The save DC is Charisma-based."
+        },
+        {
+          "name": "Lifesense",
+          "type": "Su",
+          "description": "A wraith notices and locates living creatures within 60 feet, just as if it possessed the blindsight ability."
+        },
+        {
+          "name": "Sunlight Powerlessness",
+          "type": "Ex",
+          "description": "A wraith caught in sunlight cannot attack and is staggered."
+        },
+        {
+          "name": "Unnatural Aura",
+          "type": "Su",
+          "description": "Animals do not willingly approach within 30 feet of a wraith, unless a master makes a DC 25 Handle Animal, Ride, or wild empathy check."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Dread Wraith",
+          "description": "A wraith that exists for long enough and feeds on enough life force undergoes an unholy transformation, becoming a creature known as a dread wraith. This causes the wraith to increase in size and strength, and to inflict 2d6 points of negative energy damage and 1d8 Constitution drain with its incorporeal touch. You can create a dread wraith by applying the giant and advanced simple templates, or you can increase the basic wraith to a Large 16 HD undead."
+        }
+      ],
+      "ecology": "Wraiths are undead creatures born of evil and darkness. They hate light and living things, as they have lost much of their connection to their former lives.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Wyvern",
+      "creature_type": "Dragon",
+      "cr": "6",
+      "xp": "2,400",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+5",
+      "languages": "Draconic",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +18",
+      "immune": "sleep, paralysis",
+      "ac": "19, touch 10, flat-footed 18 (+1 Dex, +9 natural, -1 size)",
+      "hp": "73 (7d12+28)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+6",
+        "will": "+8"
+      },
+      "speed": "20 ft., fly 60 ft. (poor)",
+      "melee": "sting +10 melee (1d6+4 plus poison), bite +10 melee (2d6+4 plus grab), 2 wings +5 (1d6+2)",
+      "special_attacks": "rake (2 talons +10, 1d6+4)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "19",
+        "dex": "12",
+        "con": "18",
+        "int": "7",
+        "wis": "12",
+        "cha": "9"
+      },
+      "base_attack": "+7",
+      "cmb": "+12 (+16 grapple)",
+      "cmd": "23",
+      "feats": "Flyby Attack, Improved Initiative, Iron Will, Skill Focus (Perception)",
+      "skills": "Fly +5, Perception +18, Sense Motive +11, Stealth +7",
+      "racial_modifiers": "+4 Perception",
+      "environment": "temperate or warm hills",
+      "organization": "solitary, pair, or flight (3-6)",
+      "treasure": "standard",
+      "description": "A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two taloned feet and roars a challenge.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Sting:",
+          "affliction": {
+            "name": "Wyvern Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1d4 Constitution damage",
+            "save": "Fortitude DC 17",
+            "cure": "2 consecutive saves"
+          }
+        }
+      ],
+      "ecology": "Wyverns are nasty, brutish, and violent reptilian beasts akin to more powerful dragons. They are always aggressive and impatient, and are quick to resort to force in order to accomplish their goals. For this reason, dragons generally look down upon wyverns, considering their distant cousins nothing more than primitive savages with a distinct lack of style or wit. In most cases, this generalization is spot-on. Although far from animalistic in intellect, and capable of speech, most wyverns simply can't be bothered with the subtlety of diplomacy, and prefer to fight first and parley later, and even then only if faced with a foe they can neither defeat nor flee from.\n\nWyverns are territorial creatures. Though they occasionally hunt in small groups for large prey, they are generally solitary creatures, hunting in areas ranging in size from 100 to 200 square miles. Wyverns have been known to fight to the death among themselves for the right to hunt a territory rich with prey.\n\nAlthough constantly hungry and prone to mayhem, a wyvern that can be befriended (usually through a delicate combination of flattery, intimidation, food, and treasure) becomes a powerful ally. They often serve giants and monstrous humanoids as guardians, and some lizardfolk and boggard tribes even use them as mounts, although such arrangements are quite costly in terms of food and gold, for few are the wyverns who would willingly serve as steeds for lesser creatures for long.\n\nA wyvern is about 16 feet in length, half of which is tail. The average wyvern weighs 2,000 pounds.",
+      "source": "Bestiary"
+    }
+  ]
+}

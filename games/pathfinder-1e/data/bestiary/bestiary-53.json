@@ -1,0 +1,245 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 53,
+  "range": "Sahuagin – Scorpion, Giant",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Sahuagin",
+      "creature_type": "Monstrous Humanoid",
+      "creature_subtype": "aquatic",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "LE",
+      "size": "Medium",
+      "init": "+1",
+      "senses": "blindsense 30 ft., darkvision 60 ft.; Perception +6",
+      "languages": "Aquan, Common; speak with sharks",
+      "weaknesses": "light blindness",
+      "ac": "16, touch 11, flat-footed 15 (+1 Dex, +5 natural)",
+      "hp": "15 (2d10+4)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+4",
+        "will": "+4"
+      },
+      "speed": "30 ft., swim 60 ft.",
+      "melee": "trident +4 (1d8+3), bite -1 (1d4+1) or 2 claws +4 (1d4+2), bite +4 (1d4+2)",
+      "ranged": "heavy crossbow +3 (1d10/19-20)",
+      "special_attacks": "blood frenzy",
+      "ability_scores": {
+        "str": "14",
+        "dex": "13",
+        "con": "14",
+        "int": "14",
+        "wis": "13",
+        "cha": "9"
+      },
+      "base_attack": "+2",
+      "cmb": "+4",
+      "cmd": "15",
+      "feats": "Great Fortitude",
+      "skills": "Handle Animal +1, Perception +6, Ride +6, Stealth +6, Survival +6, Swim +15",
+      "environment": "temperate or warm ocean",
+      "organization": "Solitary, pair, team (5-8), patrol (11-20 plus 1 lieutenant of 3rd level and 1-2 sharks), band (20-80 plus 100% noncombatants, 1 lieutenant of 3rd level and 1 chieftain of 4th level per 20 adults, and 1-2 sharks), or tribe (70-160 plus 100% noncombatants, 1 lieutenant of 3rd level per 20 adults, 1 chieftain of 4th level per 40 adults, 9 guards of 4th level, 1-4 underpriestesses of 3rd-6th level, 1 priestess of 7th level, 1 baron of 6th-8th level, and 5-8 sharks)",
+      "treasure": "NPC gear (trident, heavy crossbow with 10 bolts, other treasure)",
+      "description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
+      "special_abilities": [
+        {
+          "name": "Blood Frenzy",
+          "type": "Ex",
+          "description": "Once per day, a sahuagin that takes damage in combat can fly into a frenzy in the following round. It gains +2 Constitution and +2 Strength, but takes a –2 penalty to its AC. The frenzy lasts as long as the battle or 1 minute, whichever is shorter."
+        },
+        {
+          "name": "Speak with Sharks",
+          "type": "Su",
+          "description": "A sahuagin can communicate telepathically with sharks to a distance of 150 feet. This communication is limited to simple concepts, such as \"come here,\" \"defend me,\" or \"attack this target.\""
+        }
+      ],
+      "ecology": "Ravenous and cruel, the sahuagin are, unfortunately, among the most prosperous oceanic races. Great cities raised by these creatures darken the deep ocean trenches, and many are the near-coastal fortresses where they launch endless raids against their air-breathing enemies who dwell in close proximity to the shore. Warlike and proud, the sahuagin rarely ally with others, and view most other aquatic races such as the aboleths, the merfolk, and their ilk as competitors. The only creatures they seem to respect and adore apart from their own kind are sharks, for in these relentless predators the sahuagin see much of themselves. A sahuagin stands 7 feet tall and weighs about 250 pounds.\n\nSahuagin are prone to beneficial mutations, and when a mutant is born it almost always rises to the society's nobility or rulership. The most common sahuagin mutation is an extra pair of arms (granting two additional claw attacks or the opportunity to wield more weapons). Rumors speak of the rare malenti—sahuagin who look not like sharkmen but aquatic elves, yet who share their kin's bloodlusts and cruel natures. Malenti often serve as spies and assassins for sahuagin rulers, but rumors of all-malenti tribes in isolated reaches of the sea persist.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Salamander",
+      "creature_type": "Outsider",
+      "creature_subtype": "extraplanar, fire",
+      "cr": "6",
+      "xp": "2,400",
+      "alignment": "CE",
+      "size": "Medium",
+      "init": "+1",
+      "senses": "darkvision 60 ft.; Perception +16",
+      "languages": "Common, Ignan",
+      "ac": "18, touch 11, flat-footed 17 (+1 Dex, +7 natural)",
+      "hp": "76 (8d10+32)",
+      "saving_throws": {
+        "fort": "+10",
+        "ref": "+7",
+        "will": "+6"
+      },
+      "immune": "fire",
+      "weaknesses": "vulnerability to cold",
+      "dr": "10/magic",
+      "speed": "20 ft.",
+      "melee": "spear +11/+6 (1d8+4/×3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and grab)",
+      "special_attacks": "constrict (2d6+4 plus 1d6 fire), heat",
+      "space": "5 ft.",
+      "reach": "5 ft. (10 ft. with tail)",
+      "ability_scores": {
+        "str": "16",
+        "dex": "13",
+        "con": "18",
+        "int": "14",
+        "wis": "15",
+        "cha": "13"
+      },
+      "base_attack": "+8",
+      "cmb": "+11 (+15 grapple)",
+      "cmd": "22 (can't be tripped)",
+      "feats": "Cleave, Iron Will, Power Attack, Skill Focus (Perception)",
+      "skills": "Acrobatics +12, Bluff +12, Craft (weaponsmithing) +17, Intimidate +12, Knowledge (planes) +13, Perception +16, Sense Motive +13, Stealth +12",
+      "racial_modifiers": "+4 Craft (armorsmithing, blacksmithing, and weaponsmithing)",
+      "environment": "any (Plane of Fire)",
+      "organization": "solitary, pair, or cluster (3-5)",
+      "treasure": "standard (spear, other nonflammable treasure)",
+      "description": "This snake-bodied humanoid hisses with anger. Spines of crackling flame dance along the creature's blackened, fiery-red scales.",
+      "special_abilities": [
+        {
+          "name": "Heat",
+          "type": "Ex",
+          "description": "A salamander generates so much heat that its mere touch deals an additional 1d6 points of fire damage. A salamander's metallic weapons also conduct this heat."
+        }
+      ],
+      "ecology": "Salamanders are native to the Plane of Fire, where their legions of fierce warriors are much feared by the other inhabitants of the plane. Because some of the stronger elemental fire races enslave salamanders for their metalworking skill and fighting prowess, the salamanders hate the efreet and other inhabitants with a passion.\n\nThough their lairs typically hover in temperatures of 500 degrees F or more, salamanders can tolerate lower temperatures. They generally do so only when forced, and are even surlier and more short-tempered than normal in such environments. Although they hail from the Plane of Fire, the salamander race identifies more with the Abyss, and they hold demons (particularly those associated with fire, like balors and certain fire-themed demon lords) in great esteem. It's not unusual to encounter large groups of salamanders in the Abyss as a result.\n\nSalamanders are often conjured to the Material Plane to serve as guardians or, more commonly, to craft weapons, armor, and other metalwork, for their skill in these areas is legendary. Salamanders also infest areas of the Material Plane where the boundaries between this world and the Plane of Fire have worn thin, such as in and near volcanoes.\n\nBecause their habitat is so extreme, salamanders only save treasure that can withstand high temperatures, such as swords, armor, jewels, rods, and other items made from high-melting-point metals. Salamander society is a cruel one based on power and the ability to subjugate those beneath oneself. Beings beneath a salamander that cause it discomfort are dealt a slow and painful death.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Satyr",
+      "creature_type": "Fey",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "CN",
+      "size": "Medium",
+      "init": "+2",
+      "senses": "low-light vision; Perception +18",
+      "languages": "Common, Sylvan",
+      "ac": "18, touch 13, flat-footed 15 (+2 Dex, +1 dodge, +5 natural)",
+      "hp": "44 (8d6+16)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+8",
+        "will": "+8"
+      },
+      "dr": "5/cold iron",
+      "speed": "40 ft.",
+      "melee": "dagger +6 (1d4+2/19-20), horns +1 (1d6+1)",
+      "ranged": "short bow +6 (1d6/×3)",
+      "special_attacks": "pipes",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 8th) At will—charm person (DC 15), dancing lights, ghost sound (DC 14), sleep (DC 15), suggestion (DC 17); 1/day—fear (DC 18), summon nature's ally III"
+        }
+      ],
+      "ability_scores": {
+        "str": "14",
+        "dex": "15",
+        "con": "15",
+        "int": "12",
+        "wis": "14",
+        "cha": "19"
+      },
+      "base_attack": "+4",
+      "cmb": "+6",
+      "cmd": "18",
+      "feats": "Dodge, Mobility, Skill Focus (Perception), Weapon Finesse",
+      "skills": "Bluff +15, Diplomacy +15, Disguise +9, Intimidate +9, Knowledge (nature) +10, Perception +18, Perform (wind instruments) +19, Stealth +17, Survival +7",
+      "racial_modifiers": "+4 Perception, +4 Perform, +4 Stealth",
+      "environment": "temperate forests",
+      "organization": "solitary, pair, band (3-6), or orgy (7-11)",
+      "treasure": "standard (dagger, short bow plus 20 arrows, masterwork panpipes, other treasure)",
+      "description": "This handsome, grinning man has the furry legs of a goat and a set of curling ram horns extending from his temples.",
+      "special_abilities": [
+        {
+          "name": "Pipes",
+          "type": "Su",
+          "description": "A satyr can focus and empower his magic by playing haunting melodies on his panpipes. When he plays, all creatures within a 60-foot radius must make a DC 18 Will save or be affected by charm person, fear, sleep, or suggestion, depending on what tune the satyr chooses. A creature that successfully saves against any of the pipes' effects cannot be affected by the same set of pipes for 24 hours, but can still be affected by the satyr's other spell-like abilities as normal. The satyr's use of his pipes does not count toward his uses per day of his spell-like abilities, and if separated from them he may continue to use his standard abilities. The pipes themselves are masterwork, and a satyr can craft a replacement with 1 week of labor. The save DC is Charisma-based."
+        }
+      ],
+      "ecology": "Satyrs, known in some regions as fauns, are debauched and hedonistic creatures of the deepest, most primeval parts of the woods. They adore wine, music, and carnal delights, and are renowned as rakes and smooth-talkers, wooing unwary maidens and shepherd boys and leaving a trail of awkward explanations and unplanned pregnancies in their wakes.\n\nThough their bodies are almost always those of attractive and well-built men, much of the satyrs' talent for seduction lies in their talent for music. With the aid of his eponymous pipes, a satyr is capable of weaving a wide variety of melodic spells designed to enchant others and bring them in line with his capricious desires.\n\nIn addition to their constant frolicking, satyrs often act as guardians of the creatures in their forest homes, and any who manage to turn the satyr's lust to wrath are likely to find themselves facing down dangerous animals surrounding the faun. Still, while satyrs tend to value their own amusement well above the rights of others, they bear no ill will toward those they seduce. Children born from such encounters are always full-blooded satyrs, and are generally spirited away by their riotous kin soon after birth.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Scorpion, Giant",
+      "creature_type": "Vermin",
+      "cr": "3",
+      "xp": "800",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+0",
+      "senses": "darkvision 60 ft., tremorsense 60 ft.; Perception +4",
+      "immune": "mind-affecting effects",
+      "ac": "16, touch 9, flat-footed 16 (+7 armor, -1 size)",
+      "hp": "37 (5d8+15)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+1",
+        "will": "+1"
+      },
+      "speed": "50 ft.",
+      "melee": "2 claws +6 (1d6+4 plus grab), sting +6 (1d6+4 plus poison)",
+      "special_attacks": "constrict (1d6+4)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "19",
+        "dex": "10",
+        "con": "16",
+        "int": "-",
+        "wis": "10",
+        "cha": "2"
+      },
+      "base_attack": "+3",
+      "cmb": "+8 (+12 grapple)",
+      "cmd": "18 (30 vs. trip)",
+      "skills": "Climb +8, Perception +4, Stealth +0",
+      "racial_modifiers": "+4 Climb, +4 Perception, +4 Stealth",
+      "environment": "warm or temperate deserts, forests, plains, or underground",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in challenge, stingered tail arched over its back.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based and includes a +2 racial bonus. Sting—Giant Scorpion Venom.",
+          "affliction": {
+            "name": "Giant Scorpion Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1d2 Strength damage",
+            "save": "Fortitude DC 17",
+            "cure": "1 save"
+          }
+        }
+      ],
+      "tables": [
+        {
+          "name": "Species",
+          "headers": ["Species", "CR", "Size", "HD"],
+          "rows": [
+            ["Greensting scorpion", "1/4", "Tiny", "1d8"],
+            ["Ghost scorpion", "1/2", "Small", "2d8"],
+            ["Cave scorpion", "1", "Medium", "3d8"],
+            ["Deadfall scorpion", "8", "Huge", "10d8"],
+            ["Giant emperor scorpion", "11", "Gargantuan", "16d8"],
+            ["Black scorpion", "15", "Colossal", "22d8"]
+          ]
+        }
+      ],
+      "ecology": "Giant scorpions are monstrous versions of the more common desert scorpion. They are likely to attack any creature that approaches. Giant scorpions usually charge when attacking, grabbing prey in their pincers, then lashing their segmented tails forward to kill their victim with injected venom.\n\nGiant scorpions are just over 8 feet long from head to the base of the tail; the tail adds an additional 8 feet or so, although it is usually curled up over the scorpion's back. Giant scorpions weigh between 2,000 and 6,000 pounds.\n\nGiant scorpions normally feed on other giant vermin, as well as large mammals that they paralyze with their venom, but they will attack and eat any living creature that ventures too close. In turn, giant scorpions are preyed upon by purple worms and other large predators.\n\nGiant scorpions engage in complex courtship rituals when they mate, grasping each other's pincers, arching their tails, and performing a circular \"dance.\" Soon after mating, the male usually retreats to avoid being cannibalized by the female.\n\nFemale scorpions do not lay eggs; they give birth to live young in broods of a dozen or so. The mother carries her brood on her back until the young are old enough to fend for themselves and hunt their own prey.\n\nGiant scorpions live in underground burrows, either as solitary hunters or in small colonies, and will sometimes take up residence in man-made ruins or dungeons if food is plentiful. Giant scorpion colonies are usually made up of scorpions from the same brood that have yet to strike out on their own.\n\nOther species of scorpions exist as well, some smaller but most quite a bit larger and favoring different terrains, such as forests, plains, or even underground. You can adjust the stats for the giant scorpion by changing Hit Dice and size (adjusting Strength, Dexterity, and Constitution as appropriate) to represent a wide range of species. The following table lists the most common variants.",
+      "source": "Bestiary"
+    }
+  ]
+}

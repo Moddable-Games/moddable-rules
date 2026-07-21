@@ -1,0 +1,201 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 38,
+  "range": "Lamia – Lich",
+  "count": 3,
+  "creatures": [
+    {
+      "name": "Lamia",
+      "creature_type": "Monstrous Humanoid",
+      "cr": "6",
+      "xp": "2,400",
+      "alignment": "CE",
+      "size": "Large",
+      "init": "+3",
+      "senses": "darkvision 60 ft., low-light vision; Perception +15",
+      "languages": "Abyssal, Common",
+      "ac": "20, touch 13, flat-footed 16 (+3 Dex, +1 dodge, +7 natural, -1 size)",
+      "hp": "67 (9d10+18)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+9",
+        "will": "+11"
+      },
+      "special_qualities": "undersized weapons",
+      "speed": "60 ft.",
+      "melee": "+1 dagger +13/+8 (1d4+4/19-20), touch +7 (1d4 Wisdom drain), 2 claws +7 (1d4+2)",
+      "special_attacks": "Wisdom drain",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 9th) At will—disguise self, ventriloquism; 3/day—charm monster (DC 15), major image (DC 14), mirror image, suggestion (DC 14); 1/day—deep slumber (DC 14)"
+        }
+      ],
+      "ability_scores": {
+        "str": "18",
+        "dex": "16",
+        "con": "14",
+        "int": "13",
+        "wis": "17",
+        "cha": "13"
+      },
+      "base_attack": "+9",
+      "cmb": "+14",
+      "cmd": "28 (32 vs. trip)",
+      "feats": "Dodge, Great Fortitude, Iron Will, Mobility, Spring Attack",
+      "skills": "Bluff +9, Diplomacy +4, Disguise +6, Intimidate +10, Knowledge (religion) +4, Perception +15, Stealth +15, Survival +12",
+      "racial_modifiers": "+4 Bluff, +4 Stealth",
+      "environment": "temperate deserts",
+      "organization": "solitary, pair, or cult (3-12)",
+      "treasure": "double (+1 dagger, other treasure)",
+      "description": "This creature's upper torso is that of a comely woman with cat's eyes and sharp fangs, while her lower body is that of a lion.",
+      "special_abilities": [
+        {
+          "name": "Undersized Weapons",
+          "type": "Ex",
+          "description": "Although a lamia is Large, its upper torso is the same size as that of a Medium humanoid. As a result, lamias wield weapons as if they were one size category smaller than their actual size (Medium for most lamias)."
+        },
+        {
+          "name": "Wisdom Drain",
+          "type": "Su",
+          "description": "A lamia drains 1d4 points of Wisdom each time it hits with its melee touch attack. (Unlike with other kinds of ability drain attacks, a lamia does not heal any damage when it uses its Wisdom drain.) Lamias try to use this power early in an encounter to make foes more susceptible to charm monster and suggestion."
+        }
+      ],
+      "ecology": "The hate-filled inheritors of an ancient curse, lamias appear as lean and attractive women from the waist up, while below they possess the bodies of powerful lions. Even their humanoid features bear distinctly feline traits, their eyes slitted and feral and their teeth like predatory fangs. A typical lamia stands over 6 feet tall, measures more than 8 feet long, and weighs upward of 650 pounds.\n\nLamias are attracted to the ruined and forsaken parts of the world. Crumbling keeps, abandoned cities, and forgotten monuments all satisfy these deadly hunters' cruel aesthetic—particularly those in arid or otherwise lifeless environs. Foremost, though, lamias favor decrepit temples. They delight in seeing the shrines of good deities in ruins and go out of their way to bring hardship to thriving holy places.\n\nLamias look to the eldest female of the group as their leader, mother, and shaman, cleaving to her with fanatical reverence. While lamias shun most religious followings—viewing such as the source of the curse that blighted them with bestial forms—lamia elders claim to hear the whispers of the scouring desert winds and know the cold whims of the stars, drawing upon such mystical sources to lead their people.\n\nThe lamias presented here are but the most common and least powerful members of this cursed race, with others bearing serpentine, avian, and even more perverse forms.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Leech, Giant",
+      "creature_type": "Vermin",
+      "creature_subtype": "aquatic",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+1",
+      "senses": "blindsight 30 ft., scent; Perception +0",
+      "ac": "11, touch 11, flat-footed 10 (+1 Dex)",
+      "hp": "19 (3d8+6)",
+      "saving_throws": {
+        "fort": "+5",
+        "ref": "+2",
+        "will": "+1"
+      },
+      "immune": "mind-affecting effects",
+      "weaknesses": "susceptible to salt",
+      "special_qualities": "amphibious",
+      "speed": "5 ft., swim 20 ft.",
+      "melee": "bite +2 (1d6 plus attach)",
+      "special_attacks": "blood drain",
+      "ability_scores": {
+        "str": "11",
+        "dex": "12",
+        "con": "14",
+        "int": "-",
+        "wis": "10",
+        "cha": "1"
+      },
+      "base_attack": "+2",
+      "cmb": "+2 (+10 when attached)",
+      "cmd": "13 (can't be tripped)",
+      "skills": "Stealth +1 (+9 in swamps), Swim +8",
+      "racial_modifiers": "+8 Stealth in swamps",
+      "environment": "temperate or warm marshes",
+      "organization": "cluster, pair, or brood (3-6)",
+      "treasure": "none",
+      "description": "A parasite ballooned to monstrous proportions undulates in the muck, its circular maw a spiral of teeth.",
+      "special_abilities": [
+        {
+          "name": "Attach",
+          "type": "Ex",
+          "description": "When a giant leech hits with a bite attack, it latches onto its target and automatically grapples. The giant leech loses its Dexterity bonus to AC and has an AC of 10, but holds on with great tenacity and automatically inflicts bite damage each round. A giant leech has a +8 racial bonus to maintain its grapple on a foe once it is attached. An attached giant leech can be struck with a weapon or grappled itself—if its prey manages to win a grapple check or Escape Artist check against it, the giant leech is removed."
+        },
+        {
+          "name": "Blood Drain",
+          "type": "Ex",
+          "description": "A giant leech drains blood at the end of each turn it is attached, inflicting 1 point of Strength and Constitution damage."
+        },
+        {
+          "name": "Susceptible to Salt",
+          "type": "Ex",
+          "description": "A handful of salt burns a giant leech as if it were a flask of acid, causing 1d6 points of damage per use."
+        }
+      ],
+      "ecology": "These invertebrate parasitic relatives of the worm lurk in stagnant or slow-moving water, waiting for a suitable host.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Lich",
+      "creature_type": "Undead",
+      "creature_subtype": "augmented humanoid",
+      "cr": "12",
+      "xp": "19,200",
+      "alignment": "NE",
+      "size": "Medium",
+      "init": "+2",
+      "senses": "darkvision 60 ft., life sight*; Perception +24",
+      "languages": "Abyssal, Aklo, Aquan, Celestial, Common, Draconic, Dwarven, Elven, Giant, Gnome, Goblin, Ignan, Infernal, Orc, Undercommon",
+      "ac": "23, touch 14, flat-footed 21 (+4 armor, +2 deflection, +2 Dex, +5 natural)",
+      "hp": "111 (11d6+55 plus 15 false life)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+7",
+        "will": "+11"
+      },
+      "immune": "cold, electricity, undead traits",
+      "defensive_abilities": "channel resistance +4",
+      "dr": "15/bludgeoning and magic",
+      "aura": "fear (60-ft. radius, DC 18)",
+      "speed": "30 ft.",
+      "melee": "touch +5 (1d8+5 plus paralyzing touch)",
+      "special_attacks": "grave touch* (9/day), paralyzing touch (DC 18), power over undead* (9/day, DC 18)",
+      "level": "necromancer 11",
+      "spellcasting": [
+        {
+          "type": "Spells Prepared",
+          "text": "(CL 11th) 6th—circle of death (DC 22), globe of invulnerability, maximized fireball (DC 19); 5th—cloudkill (DC 21), cone of cold (DC 21), quickened magic missile, waves of fatigue; 4th—dimension door, enervation, fire shield, wall of ice (2); 3rd—dispel magic (2), fireball (DC 19), suggestion (DC 19), vampiric touch (2); 2nd—darkness, extended mage armor (already cast), false life (already cast), scorching ray (2), see invisibility, spectral hand; 1st—magic missile (3), ray of enfeeblement (2), shield (2); 0—bleed (DC 16), detect magic, ray of frost, read magic. Opposition Schools illusion, transmutation."
+        }
+      ],
+      "ability_scores": {
+        "str": "10",
+        "dex": "14",
+        "con": "-",
+        "int": "22",
+        "wis": "14",
+        "cha": "16"
+      },
+      "base_attack": "+5",
+      "cmb": "+5",
+      "cmd": "25",
+      "feats": "Craft Wondrous Item, Defensive Combat Training, Extend Spell, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Maximize Spell, Quicken Spell, Scribe Scroll, Toughness",
+      "skills": "Craft (alchemy) +20, Intimidate +17, Knowledge (arcana) +20, Knowledge (planes) +20, Linguistics +20, Perception +24, Sense Motive +24, Spellcraft +20, Stealth +24",
+      "racial_modifiers": "+8 Perception, +8 Sense Motive, +8 Stealth",
+      "environment": "any",
+      "organization": "solitary",
+      "treasure": "NPC gear (boots of levitation, headband of vast intelligence +2 [Perception], ring of protection +2, potion of invisibility, scroll of dominate person, scroll of teleport)",
+      "description": "Once fine robes hang in tatters from this withered corpse's frame. A pale blue light shines from where its eyes should be.",
+      "special_abilities": [
+        {
+          "name": "Fear Aura",
+          "type": "Su",
+          "description": "Creatures of less than 5 HD in a 60-foot radius that look at the lich must succeed on a Will save or become frightened. Creatures with 5 HD or more must succeed at a Will save or be shaken for a number of rounds equal to the lich's Hit Dice. A creature that successfully saves cannot be affected again by the same lich's aura for 24 hours. This is a mind-affecting fear effect."
+        },
+        {
+          "name": "Paralyzing Touch",
+          "type": "Su",
+          "description": "Any living creature a lich hits with its touch attack must succeed on a Fortitude save or be permanently paralyzed. Remove paralysis or any spell that can remove a curse can free the victim (see the bestow curse spell description, with a DC equal to the lich's save DC). The effect cannot be dispelled. Anyone paralyzed by a lich seems dead, though a DC 20 Perception check or a DC 15 Heal check reveals that the victim is still alive."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Creating a Lich (Acquired Template)",
+          "description": "\"Lich\" is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery. A lich retains all the base creature's statistics and special abilities except as noted here.\n\nChallenge Rating: Same as the base creature + 2.\n\nAlignment: Any evil.\n\nType: The creature's type changes to undead. Do not recalculate BAB, saves, or skill ranks.\n\nSenses: A lich gains darkvision 60 ft.\n\nArmor Class: A lich has a +5 natural armor bonus or the base creature's natural armor bonus, whichever is better.\n\nHit Dice: Change all of the creature's racial Hit Dice to d8s. All Hit Dice derived from class levels remain unchanged. As undead, liches use their Charisma modifiers to determine bonus hit points (instead of Constitution).\n\nDefensive Abilities: A lich gains channel resistance +4, DR 15/bludgeoning and magic, and immunity to cold and electricity (in addition to those granted by its undead traits). The lich also gains the following defensive ability. Rejuvenation (Su): When a lich is destroyed, its phylactery (which is generally hidden by the lich in a safe place far from where it chooses to dwell) immediately begins to rebuild the undead spellcaster's body nearby. This process takes 1d10 days—if the body is destroyed before that time passes, the phylactery merely starts the process anew. After this time passes, the lich wakens fully healed (albeit without any gear it left behind on its old body), usually with a burning need for revenge against those who previously destroyed it.\n\nMelee Attack: A lich has a touch attack that it can use once per round as a natural weapon. A lich fighting without weapons uses its natural weapons (if it has any) in addition to its touch attack (which is treated as a primary natural weapon that replaces one claw or slam attack, if the creature has any). A lich armed with a weapon uses its weapons normally, and can use its touch attack as a secondary natural weapon.\n\nDamage: A lich's touch attack uses negative energy to deal 1d8 points of damage to living creatures + 1 point of damage per 2 Hit Dice possessed by the lich. As negative energy, this damage can be used to heal undead creatures. A lich can take a full-round action to infuse itself with this energy, healing damage as if it had used its touch attack against itself.\n\nSpecial Attacks: A lich gains the two special attacks described below. Save DCs are equal to 10 + 1/2 lich's HD + lich's Cha modifier unless otherwise noted. Fear Aura: Creatures of less than 5 HD in a 60-foot radius that look at the lich must succeed on a Will save or become frightened. Creatures with 5 HD or more must succeed at a Will save or be shaken for a number of rounds equal to the lich's Hit Dice. A creature that successfully saves cannot be affected again by the same lich's aura for 24 hours. This is a mind-affecting fear effect. Paralyzing Touch (Su): Any living creature a lich hits with its touch attack must succeed on a Fortitude save or be permanently paralyzed. Remove paralysis or any spell that can remove a curse can free the victim (see the bestow curse spell description, with a DC equal to the lich's save DC). The effect cannot be dispelled. Anyone paralyzed by a lich seems dead, though a DC 20 Perception check or a DC 15 Heal check reveals that the victim is still alive.\n\nAbilities: Int +2, Wis +2, Cha +2. Being undead, a lich has no Constitution score.\n\nSkills: Liches have a +8 racial bonus on Perception, Sense Motive, and Stealth checks. A lich always treats Climb, Disguise, Fly, Intimidate, Knowledge (arcana), Knowledge (religion), Perception, Sense Motive, Spellcraft, and Stealth as class skills. Otherwise, skills are the same as the base creature."
+        }
+      ],
+      "ecology": "Few creatures are more feared than the lich. The pinnacle of necromantic art, the lich is a spellcaster who has chosen to shed his life as a method to cheat death by becoming undead. While many who reach such heights of power stop at nothing to achieve immortality, the idea of becoming a lich is abhorrent to most creatures. The process involves the extraction of the spellcaster's life-force and its imprisonment in a specially prepared phylactery—the spellcaster gives up life, but in trapping life he also traps his death, and as long as his phylactery remains intact he can continue on in his research and work without fear of the passage of time.\n\nThe quest to become a lich is a lengthy one. While construction of the magical phylactery to contain the spellcaster's soul is a critical component, a prospective lich must also learn the secrets of transferring his soul into the receptacle and of preparing his body for the transformation into undeath, neither of which are simple tasks. Further complicating the ritual is the fact that no two bodies or souls are exactly alike—a ritual that works for one spellcaster might simply kill another or drive him insane. The exact methods for each spellcaster's transformation are left to the GM's discretion, but should involve expenditures of hundreds of thousands of gold pieces, numerous deadly adventures, and a large number of difficult skill checks over the course of months, years, or decades.\n\nThe Lich's Phylactery: An integral part of becoming a lich is the creation of the phylactery in which the character stores his soul. The only way to get rid of a lich for sure is to destroy its phylactery. Unless its phylactery is located and destroyed, a lich can rejuvenate after it is killed (see Creating a Lich). Each lich must create its own phylactery by using the Craft Wondrous Item feat. The character must be able to cast spells and have a caster level of 11th or higher. The phylactery costs 120,000 gp to create and has a caster level equal to that of its creator at the time of creation. The most common form of phylactery is a sealed metal box containing strips of parchment on which magical phrases have been transcribed. The box is Tiny and has 40 hit points, hardness 20, and a break DC of 40. Other forms of phylacteries can exist, such as rings, amulets, or similar items.",
+      "source": "Bestiary"
+    }
+  ]
+}

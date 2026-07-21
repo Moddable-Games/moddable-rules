@@ -1,0 +1,277 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 27,
+  "range": "Genie, Janni – Ghost",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Genie, Janni",
+      "creature_type": "Outsider",
+      "creature_subtype": "native",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+6",
+      "senses": "darkvision 60 ft.; Perception +11",
+      "languages": "Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal); telepathy 100 ft.",
+      "ac": "20, touch 13, flat-footed 17 (+6 armor, +2 Dex, +1 dodge, +1 natural)",
+      "hp": "39 (6d10+6)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+7",
+        "will": "+4"
+      },
+      "resist": "fire 10",
+      "special_qualities": "elemental endurance",
+      "speed": "30 ft., fly 20 ft. (perfect); 20 ft., fly 15 ft. (perfect) in chainmail",
+      "melee": "scimitar +9/+4 (1d6+4/18-20)",
+      "ranged": "composite longbow +8/+3 (1d8+3/x3)",
+      "special_attacks": "change size",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 8th) 3/day—invisibility (self only), plane shift (willing targets to elemental planes, Astral Plane, or Material Plane only), speak with animals; 1/day—create food and water, ethereal jaunt (for 1 hour)"
+        }
+      ],
+      "ability_scores": {
+        "str": "16",
+        "dex": "15",
+        "con": "12",
+        "int": "14",
+        "wis": "15",
+        "cha": "13"
+      },
+      "base_attack": "+6",
+      "cmb": "+9",
+      "cmd": "22",
+      "feats": "Combat Reflexes, Dodge, Improved Initiative(B), Mobility",
+      "skills": "Appraise +11, Craft (any one-usually weaponsmith) +11, Fly +14, Perception +11, Ride +6, Sense Motive +11, Spellcraft +11, Stealth +6",
+      "environment": "warm deserts",
+      "organization": "solitary, pair, company (3-6), or band (7-12)",
+      "treasure": "standard (chainmail, composite longbow [+3 Str], scimitar, other gear)",
+      "description": "This regal figure looks like a tall, well-proportioned human, save that its eyes sparkle with strange light.",
+      "special_abilities": [
+        {
+          "name": "Change Size",
+          "type": "Sp",
+          "description": "Twice per day, a janni can magically change a creature's size. This works just like an enlarge person or reduce person spell (the janni chooses when using the ability), except that the ability can work on the janni. A DC 13 Fortitude save negates the effect. The save DC is Charisma-based. This is the equivalent of a 2nd-level spell."
+        },
+        {
+          "name": "Elemental Endurance",
+          "type": "Ex",
+          "description": "Jann can remain on the Planes of Air, Earth, Fire, or Water for up to 48 hours at a time. Failure to return to the Material Plane before that time expires causes a janni to take 1 point of damage per additional hour spent on the elemental plane, until it dies or returns to the Material Plane."
+        }
+      ],
+      "ecology": "The jann (singular janni) are the weakest of the genies. Jann are formed out of all four elements and must therefore spend most of their time on the Material Plane. Some lore even casts the janni as the most \"human\" of the genie races, although most jann are quick to correct this insult, usually with the edge of a sword. A janni is human-sized, standing about 6 feet tall and weighing about 180 pounds.\n\nJann are physically strong and courageous, and do not take kindly to insult or injury. Most are quite prone to seeing insult even when none is intended by the speaker. If overwhelmed in battle, they escape using flight and invisibility, returning later with reinforcements.\n\nJann enjoy their privacy, preferring the solitude of the deep desert and isolated oases. They are usually suspicious of humans, but are often willing to give them the benefit of the doubt. Jann have a strong cultural tradition of hospitality, and will never turn away someone in need of food, water, or shelter, though they might expect payment in the form of a favor at some later date.\n\nAmong the other genie races, jann generally have good relations with both djinn and shaitans. While not actively enemies, jann dislike the proud and aloof marids. Jann have a distinct aversion to the efreet, who often try to enslave them or conscript them into their armies.\n\nA small percentage of jann are noble. Noble jann, often called sheikhs or amirs, have 9 Hit Dice, Strength 19, and Intelligence 18, and gain the following spell-like abilities: 3/day—augury, detect magic, and divination. A noble janni's caster level for its spell-like abilities is 12th. Noble jann are CR 7.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Genie, Marid",
+      "creature_type": "Outsider",
+      "creature_subtype": "extraplanar, water",
+      "cr": "9",
+      "xp": "6,400",
+      "alignment": "CN",
+      "size": "Large",
+      "init": "+8",
+      "senses": "darkvision 60 ft.; Perception +17",
+      "languages": "Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.",
+      "ac": "23, touch 14, flat-footed 18 (+4 Dex, +1 dodge, +9 natural, -1 size)",
+      "hp": "114 (12d10+48)",
+      "saving_throws": {
+        "fort": "+10",
+        "ref": "+12",
+        "will": "+10"
+      },
+      "speed": "20 ft., swim 60 ft.",
+      "melee": "2 slams +17 (2d6+6) or mwk trident +18/+13/+8 (2d6+9)",
+      "special_attacks": "vortex (1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 22), water mastery, water's fury",
+      "special_qualities": "change shape (water elemental, humanoid or giant, alter self, elemental body III, or giant form I)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 12th) Constant—detect evil, detect good, detect magic, water walk; At will—create water, invisibility, plane shift (willing targets to elemental planes, Astral Plane, or Material Plane only), purify food and drink (liquids only), quench; 5/day—control water, gaseous form, obscuring mist, water breathing; 3/day—see invisibility; 1/day—persistent image (DC 18); 1/year—grant 1 wish (to nongenies only)"
+        }
+      ],
+      "ability_scores": {
+        "str": "23",
+        "dex": "19",
+        "con": "18",
+        "int": "14",
+        "wis": "15",
+        "cha": "16"
+      },
+      "base_attack": "+12",
+      "cmb": "+19",
+      "cmd": "34",
+      "feats": "Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative(B), Improved Natural Attack, Power Attack",
+      "skills": "Craft (any one) +17, Diplomacy +18, Knowledge (planes) +17, Perception +17, Sense Motive +17, Spellcraft +17, Stealth +15, Swim +29",
+      "environment": "any (Plane of Water)",
+      "organization": "solitary, pair, company (3-6), or band (7-12)",
+      "treasure": "standard (masterwork trident, other gear)",
+      "description": "This being resembles a powerful giant with hairless blue-green skin, deep blue eyes, flamboyant eyebrows, and pearlescent teeth.",
+      "special_abilities": [
+        {
+          "name": "Water Mastery",
+          "type": "Ex",
+          "description": "A marid gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the marid is touching the ground, the marid takes a –4 penalty on attack and damage rolls."
+        },
+        {
+          "name": "Water's Fury",
+          "type": "Su",
+          "description": "As a standard action, a marid can release a jet of water in a 60-foot line that deals 1d6 points of damage and blinds the target struck for 1d6 rounds. A DC 20 Reflex save reduces the damage by half and negates the blinding effect. The save DC is Constitution-based."
+        },
+        {
+          "name": "Vortex",
+          "type": "Su",
+          "description": "A marid can transform into a vortex of swirling, churning water once every 10 minutes. This ability functions identically to the whirlwind ability, save that it can only be used while the marid is underwater; a marid cannot leave a body of water while in vortex form."
+        }
+      ],
+      "ecology": "Marids are genies from the Plane of Water. The most powerful of all the genie races, they are said to possess the strength of the ocean's currents and teeth made of pearl. A marid stands about 16 feet tall and weighs nearly 2,500 pounds.\n\nThe marids are perhaps the most unpredictable and capricious of the genies, a quality that the others (particularly shaitans) find to be both aggravating and embarrassing to the entire genie culture. Many marids become dancers, storytellers, performers, or other types of artists, and often travel to the Material Plane in disguise to seek out new audiences.\n\nA small percentage of marids can lay claim to nobility. Noble marids, often called shahzadas, have 14 Hit Dice and gain the following spell-like abilities: 3/day—cone of cold, ice storm; 1/day—elemental swarm (water elementals only), permanent image. A noble marid's caster level for its spell-like abilities is 20th. Noble marids are CR 11.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Genie, Shaitan",
+      "creature_type": "Outsider",
+      "creature_subtype": "earth, extraplanar",
+      "cr": "7",
+      "xp": "3,200",
+      "alignment": "LN",
+      "size": "Large",
+      "init": "+5",
+      "senses": "darkvision 60 ft., tremorsense 60 ft.; Perception +14",
+      "languages": "Aquan, Auran, Common, Ignan, Terran; telepathy 100 ft.",
+      "ac": "20, touch 10, flat-footed 19 (+1 Dex, +10 natural, -1 size)",
+      "hp": "85 (9d10+36)",
+      "saving_throws": {
+        "fort": "+10",
+        "ref": "+4",
+        "will": "+8"
+      },
+      "immune": "electricity",
+      "speed": "20 ft., burrow 60 ft., climb 20 ft.",
+      "melee": "2 slams +13 (2d6+5) or mwk scimitar +14/+9 (1d8+7/18-20)",
+      "special_attacks": "earth mastery, metalmorph, stone curse",
+      "special_qualities": "stone glide",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 9th) At will—meld into stone, plane shift (willing targets to elemental planes, Astral Plane, or Material Plane only), soften earth and stone, stone shape, veil (self only); 3/day—quickened glitterdust (DC 14), stoneskin, rusting grasp, stone tell, wall of stone; 1/day—transmute mud to rock, transmute rock to mud"
+        }
+      ],
+      "ability_scores": {
+        "str": "20",
+        "dex": "13",
+        "con": "19",
+        "int": "14",
+        "wis": "14",
+        "cha": "15"
+      },
+      "base_attack": "+9",
+      "cmb": "+15",
+      "cmd": "26",
+      "feats": "Combat Casting, Greater Bull Rush, Improved Bull Rush, Improved Initiative(B), Power Attack, Quicken Spell-Like Ability (glitterdust)",
+      "skills": "Appraise +14, Bluff +14, Climb +25, Craft (gemcutting) +14, Knowledge (engineering) +14, Perception +14, Sense Motive +14, Spellcraft +14",
+      "environment": "any (Plane of Earth)",
+      "organization": "solitary, pair, company (3-6), or band (7-12)",
+      "treasure": "standard (masterwork scimitar, other treasure)",
+      "description": "This being resembles a towering human with skin of polished stone and glittering agate eyes.",
+      "special_abilities": [
+        {
+          "name": "Earth Mastery",
+          "type": "Ex",
+          "description": "A shaitan gains a +1 bonus on attack and damage rolls and a +2 bonus on opposed Strength-based checks if both it and its foe are touching the ground. It takes a –4 penalty on attack and damage rolls against airborne or waterborne opponents."
+        },
+        {
+          "name": "Metalmorph",
+          "type": "Su",
+          "description": "As a standard action, a shaitan may touch a single metal object of no more than 10 pounds and transform it into any other metal for 1 day."
+        },
+        {
+          "name": "Stone Curse",
+          "type": "Su",
+          "description": "If a shaitan wins a bull rush check by 5 or more and pushes its target into a stone barrier, the target must make a DC 19 Reflex save or be forced into the barrier as if the target had cast meld into stone until the victim makes a successful DC 19 Fortitude save as a full-round action to exit the stone. The save DCs are Strength-based."
+        },
+        {
+          "name": "Stone Glide",
+          "type": "Su",
+          "description": "This functions as the earth elemental's earth glide ability, except the shaitan can move through stone, dirt, crystal, or metal."
+        }
+      ],
+      "ecology": "Shaitans are boastful and proud genies from the Plane of Earth with flesh of metal, gems, or stone. A shaitan stands about 11 feet tall and weighs roughly 5,000 pounds.\n\nSome shaitans are noble. Often called pashas, they have 18 Hit Dice and gain the spell-like ability earthquake, usable once per day, as well as the ability to grant up to three wishes per day (nongenies only). A noble shaitan's caster level for its spell-like abilities is 18th. Noble shaitans are CR 13.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Ghost",
+      "creature_type": "Undead",
+      "creature_subtype": "augmented humanoid, incorporeal",
+      "cr": "7",
+      "xp": "3,200",
+      "alignment": "CE",
+      "size": "Medium",
+      "init": "+5",
+      "senses": "darkvision 60 ft.; Perception +18",
+      "languages": "Common",
+      "ac": "17, touch 17, flat-footed 15 (+1 Dex, +1 dodge, +5 deflection)",
+      "hp": "73 (7d8+42)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+5",
+        "will": "+7"
+      },
+      "immune": "undead traits",
+      "defensive_abilities": "channel resistance +4, incorporeal, rejuvenation",
+      "speed": "fly 30 ft. (perfect)",
+      "melee": "corrupting touch +6 (7d6, Fort. DC 18 half)",
+      "special_attacks": "frightful moan (DC 18)",
+      "ability_scores": {
+        "str": "-",
+        "dex": "12",
+        "con": "-",
+        "int": "10",
+        "wis": "11",
+        "cha": "20"
+      },
+      "base_attack": "+5",
+      "cmb": "+5",
+      "cmd": "22",
+      "feats": "Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Toughness",
+      "skills": "Fly +9, Knowledge (history) +10, Knowledge (nobility) +10, Perception +18, Sense Motive +10, Stealth +9",
+      "racial_modifiers": "+8 Perception, +8 Stealth",
+      "environment": "any",
+      "organization": "solitary",
+      "treasure": "NPC gear",
+      "description": "This spectral, horrifying figure glides silently through the air, passing through solid objects as if they didn't exist. This sample ghost is built from a 7th-level human aristocrat — the spirit of a princess murdered by an unfaithful lover, who wrapped her in chains and drowned her in the castle well.",
+      "special_abilities": [
+        {
+          "name": "Corrupting Touch",
+          "type": "Su",
+          "description": "All ghosts gain this incorporeal touch attack. By passing part of its incorporeal body through a foe's body as a standard action, the ghost inflicts a number of d6s equal to its CR in damage. This damage is not negative energy—it manifests in the form of physical wounds and aches from supernatural aging. Creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. A Fortitude save halves the damage inflicted."
+        },
+        {
+          "name": "Frightful Moan",
+          "type": "Su",
+          "description": "The ghost died in the throes of crippling terror. It can emit a frightful moan as a standard action. All living creatures within a 30-foot spread must succeed on a Will save or become panicked for 2d4 rounds. This is a sonic mind-affecting fear effect. A creature that successfully saves against the moan cannot be affected by the same ghost's moan for 24 hours."
+        },
+        {
+          "name": "Rejuvenation",
+          "type": "Su",
+          "description": "In most cases, it's difficult to destroy a ghost through simple combat: the \"destroyed\" spirit restores itself in 2d4 days. Even the most powerful spells are usually only temporary solutions. The only way to permanently destroy a ghost is to determine the reason for its existence and set right whatever prevents it from resting in peace. The exact means varies with each spirit and may require a good deal of research, and should be created specifically for each different ghost by the GM."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Creating a Ghost (Acquired Template)",
+          "description": "\"Ghost\" is an acquired template that can be added to any living creature that has a Charisma score of at least 6. A ghost retains all the base creature's statistics and special abilities except as noted here.\n\nChallenge Rating: Same as the base creature +2.\n\nType: The creature's type changes to undead. Do not recalculate the creature's base attack bonus, saves, or skill points. It gains the incorporeal subtype.\n\nArmor Class: A ghost gains a deflection bonus equal to its Charisma modifier. It loses the base creature's natural armor bonus, as well as all armor and shield bonuses not from force effects or ghost touch items.\n\nHit Dice: Change all of the creature's racial Hit Dice to d8s. All Hit Dice derived from class levels remain unchanged. Ghosts use their Charisma modifiers to determine bonus hit points (instead of Constitution).\n\nDefensive Abilities: A ghost retains all of the defensive abilities of the base creature save those that rely on a corporeal form to function. Ghosts gain channel resistance +4, darkvision 60 ft., the incorporeal ability, and all of the immunities granted by its undead traits. Ghosts also gain the rejuvenation ability.\n\nSpeed: Ghosts lose their previous speeds and gain a fly speed of 30 feet (perfect), unless the base creature has a higher fly speed.\n\nMelee and Ranged Attacks: A ghost loses all of the base creature's attacks. If it could wield weapons in life, it can wield ghost touch weapons as a ghost.\n\nSpecial Attacks: A ghost retains all the special attacks of the base creature, but any relying on physical contact do not function. In addition, a ghost gains one ghost special attack from the list below for every 3 points of CR (minimum 1—the first ability chosen must always be corrupting touch). The save DC against a ghost's special attack is equal to 10 + 1/2 ghost's HD + ghost's Charisma modifier unless otherwise noted. Additional ghost abilities beyond these can be designed at the GM's discretion.\n\nCorrupting Gaze (Su): The ghost is disfigured through age or violence, and has a gaze attack with a range of 30 feet that causes 2d10 damage and 1d4 Charisma damage (Fortitude save negates Charisma damage but not physical damage).\n\nCorrupting Touch (Su): All ghosts gain this incorporeal touch attack. By passing part of its incorporeal body through a foe's body as a standard action, the ghost inflicts a number of d6s equal to its CR in damage. This damage is not negative energy—it manifests in the form of physical wounds and aches from supernatural aging. Creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. A Fortitude save halves the damage inflicted.\n\nDraining Touch (Su): The ghost died while insane or diseased. It gains a touch attack that drains 1d4 points from any one ability score it selects on a hit. On each such successful attack, the ghost heals 5 points of damage to itself. When a ghost makes a draining touch attack, it cannot use its standard ghostly touch attack.\n\nFrightful Moan (Su): The ghost died in the throes of crippling terror. It can emit a frightful moan as a standard action. All living creatures within a 30-foot spread must succeed on a Will save or become panicked for 2d4 rounds. This is a sonic mind-affecting fear effect. A creature that successfully saves against the moan cannot be affected by the same ghost's moan for 24 hours.\n\nMalevolence (Su): The ghost's jealousy of the living is particularly potent. Once per round, the ghost can merge its body with a creature on the Material Plane. This ability is similar to a magic jar spell (caster level 10th or the ghost's Hit Dice, whichever is higher), except that it does not require a receptacle. To use this ability, the ghost must be adjacent to the target. The target can resist the attack with a successful Will save. A creature that successfully saves is immune to that same ghost's malevolence for 24 hours.\n\nTelekinesis (Su): The ghost's death involved great physical trauma. The ghost can use telekinesis as a standard action once every 1d4 rounds (caster level 12th or equal to the ghost's HD, whichever is higher).\n\nAbilities: Cha +4; as an incorporeal undead creature, a ghost has no Strength or Constitution score.\n\nSkills: Ghosts have a +8 racial bonus on Perception and Stealth skill checks. A ghost always treats Climb, Disguise, Fly, Intimidate, Knowledge (arcana), Knowledge (religion), Perception, Sense Motive, Spellcraft, and Stealth as class skills. Otherwise, skills are the same as the base creature."
+        }
+      ],
+      "ecology": "When a soul is not allowed to rest due to some great injustice, either real or perceived, it sometimes comes back as a ghost. Such beings are in eternal anguish, lacking in substance and unable to set things right. Although ghosts can be any alignment, the majority cling to the living world out of a powerful sense of rage and hatred, and as a result are chaotic evil—even the ghost of a good or lawful creature can become hateful and cruel in its afterlife.\n\nMore than most of the monsters in this book, a ghost benefits from a strong and detailed backstory. Why did this character become a ghost? What are the legends surrounding the ghost? An encounter with a ghost should never happen completely out of the blue—there are plenty of other incorporeal undead like wraiths and spectres to fill that role. A proper encounter with a ghost should be a climactic scene after a lengthy period of tension building with lesser minions or manifestations of the undead spirit. The sample ghost above is that of a human princess who was murdered by an unfaithful lover—after she confronted him, he murdered her by wrapping her in chains and throwing her into the castle well, where she drowned. The ghost's abilities were selected to fit this backstory, and it shows how potent a villain you can create with a simple NPC class. Applying the template to creatures with class levels or creatures with significant racial abilities can create even more powerful ghosts.\n\nWhen a ghost is created, it retains incorporeal \"copies\" of any items that it particularly valued in life (provided the originals are not in another creature's possession). The equipment works normally for the ghost but passes harmlessly through material objects or creatures. A weapon of +1 or better magical enhancement, however, can harm material creatures, but any such attack deals only half as much damage (50%) unless it is a ghost touch weapon. A ghost can use shields or armor only if they have the ghost touch quality.\n\nThe original items remain behind, just as the ghost's physical remains do. If another creature seizes the original, the incorporeal copy fades away. This loss invariably angers the ghost, who stops at nothing to return the item to its original resting place (and thus regain the item's use).",
+      "source": "Bestiary"
+    }
+  ]
+}

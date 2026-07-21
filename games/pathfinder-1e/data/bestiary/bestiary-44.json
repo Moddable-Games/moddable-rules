@@ -1,0 +1,394 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 44,
+  "range": "Merfolk – Mummy",
+  "count": 7,
+  "creatures": [
+    {
+      "name": "Merfolk",
+      "creature_type": "Humanoid",
+      "creature_subtype": "aquatic",
+      "cr": "1/3",
+      "xp": "135",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+1",
+      "senses": "low-light vision; Perception +3",
+      "languages": "Aquan, Common",
+      "ac": "13, touch 11, flat-footed 12 (+1 Dex, +2 natural)",
+      "hp": "7 (1d10+2)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+1",
+        "will": "-1"
+      },
+      "special_qualities": "amphibious",
+      "speed": "5 ft., swim 50 ft.",
+      "melee": "trident +2 (1d8+1)",
+      "ranged": "heavy crossbow +2 (1d10/19-20)",
+      "level": "warrior 1",
+      "ability_scores": {
+        "str": "13",
+        "dex": "13",
+        "con": "14",
+        "int": "10",
+        "wis": "9",
+        "cha": "10"
+      },
+      "base_attack": "+1",
+      "cmb": "+2",
+      "cmd": "13 (can't be tripped)",
+      "feats": "Skill Focus (Perception)",
+      "skills": "Perception +3, Swim +13",
+      "environment": "temperate ocean",
+      "organization": "solitary, company (2-4), patrol (3-10 plus 2 lieutenants of 3rd level and 1 leader of 3rd-6th level), or shoal (11-60 plus 1 sergeant of 3rd level per 20 adults, 5 lieutenants of 5th level, 3 captains of 7th level, and 8-12 dolphins)",
+      "treasure": "NPC gear (trident, heavy crossbow with 10 bolts, other treasure)",
+      "description": "Slipping in and out of the crashing waves, this beautiful woman has the lower torso of a long, slender fish.",
+      "ecology": "From the waist up, merfolk bear the torsos of well-built humans and delicate features reminiscent of elves and other humanoids tied to the natural world. A merfolk's lower body consists of the fins and tail of a great fish. Depending on the region, the scales of merfolk vary in hue, including gleaming silver, pale green, or even blue with stripes of yellow and crimson. Merfolk typically measure 6 to 8 feet in length and weigh over 200 pounds, with females being slightly smaller than males. Although amphibious, merfolk move only with difficulty on land and rarely wander more than a mile from sea.\n\nIt is quite rare for a merfolk to make contact with a creature not of its kind. In fact, many go to great lengths to steer sailors away from their lands, even resorting to violence if necessary. Ancient accounts hint at merfolk protecting a terrible secret bound to the depths, and though no reports mention what this secret is, the lengths merfolk go to remain isolated from other races highlight the importance of this safeguard.\n\nWhile merfolk outwardly appear to be a beautiful and powerful race, some sages and seafarers whisper that degenerate and mutated merfolk roam the deepest, most isolated regions of the seas and oceans. Some evidence states that this offshoot fell to the worship of twisted and sinister powers lurking in the darkness below, while other theories include all merfolk in this sinister agenda, holding that even those merfolk who believe they control their own destinies are, in fact, merely unknowing puppets of a sinister and unknown master race deep under the sea.\n\nRacial Traits: Merfolk are defined by their class levels—they do not possess racial Hit Dice. All merfolk have the following racial traits. +2 Dexterity, +2 Constitution, +2 Charisma: merfolk are graceful, hale, and beautiful. Aquatic: merfolk are aquatic and can breathe water. Their land speed is 5 feet, but their swim speed is 50 feet. They are amphibious, but prefer not to spend long periods out of the water. Low-Light Vision: all merfolk have low-light vision. Armor: merfolk have a +2 natural armor bonus. Languages: merfolk begin play speaking Common and Aquan. Merfolk with high Intelligence scores can choose any of the following bonus languages: Aboleth, Aklo, Draconic, Elven, Sahuagin, and Sylvan.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Mimic",
+      "creature_type": "Aberration",
+      "creature_subtype": "shapechanger",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+5",
+      "senses": "darkvision 60 ft.; Perception +11",
+      "languages": "Common",
+      "ac": "16, touch 11, flat-footed 15 (+1 Dex, +5 natural)",
+      "hp": "52 (7d8+21)",
+      "saving_throws": {
+        "fort": "+5",
+        "ref": "+5",
+        "will": "+6"
+      },
+      "immune": "acid",
+      "special_qualities": "mimic object",
+      "speed": "10 ft.",
+      "melee": "slam +10 (1d8+6 plus adhesive)",
+      "special_attacks": "constrict (slam, 1d8+6)",
+      "ability_scores": {
+        "str": "19",
+        "dex": "12",
+        "con": "17",
+        "int": "10",
+        "wis": "13",
+        "cha": "10"
+      },
+      "base_attack": "+5",
+      "cmb": "+9",
+      "cmd": "20 (can't be tripped)",
+      "feats": "Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (slam)",
+      "skills": "Climb +14, Disguise +10 (+30 when mimicking objects), Knowledge (dungeoneering) +10, Perception +14",
+      "racial_modifiers": "+20 Disguise when mimicking objects",
+      "environment": "any",
+      "organization": "solitary",
+      "treasure": "incidental",
+      "description": "What appeared to be a chest filled with treasure comes to life as it grows long, glistening tentacles and a number of sharp teeth.",
+      "special_abilities": [
+        {
+          "name": "Adhesive",
+          "type": "Ex",
+          "description": "A mimic exudes a thick slime that acts as a powerful adhesive, holding fast any creatures or items that touch it. An adhesive-covered mimic automatically grapples any creature it hits with its slam attack. Opponents so grappled cannot get free while the mimic is alive without removing the adhesive first. A weapon that strikes an adhesive-coated mimic is stuck fast unless the wielder succeeds on a DC 17 Reflex save. A successful DC 17 Strength check is needed to pry off a stuck weapon. Strong alcohol or universal solvent dissolves the adhesive, but the mimic can still grapple normally. A mimic can dissolve its adhesive at will, and the substance breaks down 5 rounds after the creature dies. The save DC is Strength-based."
+        },
+        {
+          "name": "Mimic Object",
+          "type": "Ex",
+          "description": "A mimic can assume the general shape of any Medium object, such as a massive chest, a stout bed, or a door. The creature cannot substantially alter its size, though. A mimic's body is hard and has a rough texture, no matter what appearance it might present. A mimic gains a +20 racial bonus on Disguise checks when imitating an object in this manner. Disguise is always a class skill for a mimic."
+        }
+      ],
+      "ecology": "Mimics are thought to be the result of an alchemist's attempt to grant life to an inanimate object through the application of an eldritch reagent, the recipe for which is long lost. Over time, these strange but clever creatures have learned the ability to transform themselves into simulacra of man-made objects, particularly in locations that have infrequent traffic by small numbers of creatures, thus increasing their odds of successfully attacking their victims.\n\nThough mimics are not inherently evil, some sages believe that mimics attack humans and other intelligent creatures for sport rather than merely for sustenance. The desire to completely fool others is thought to be a part of their being, and their surprise attacks against others are a culmination of those desires.\n\nA typical mimic has a volume of 150 cubic feet (5 feet by 5 feet by 6 feet) and weighs about 900 pounds. Legends and tales speak of mimics of much greater sizes, with the ability to assume the form of houses, ships, or entire dungeon complexes that they festoon with treasure (both real and false) to lure unsuspecting food within.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Minotaur",
+      "creature_type": "Monstrous Humanoid",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "CE",
+      "size": "Large",
+      "init": "+0",
+      "senses": "darkvision 60 ft.; Perception +10",
+      "languages": "Giant",
+      "ac": "14, touch 9, flat-footed 14 (+5 natural, -1 size)",
+      "hp": "45 (6d10+12)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+5",
+        "will": "+5"
+      },
+      "defensive_abilities": "natural cunning",
+      "speed": "30 ft.",
+      "melee": "greataxe +9/+4 (3d6+6/×3) and gore +4 (1d6+2)",
+      "special_attacks": "powerful charge (gore +11, 2d6+6)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "19",
+        "dex": "10",
+        "con": "15",
+        "int": "7",
+        "wis": "10",
+        "cha": "8"
+      },
+      "base_attack": "+6",
+      "cmb": "+11",
+      "cmd": "21",
+      "feats": "Great Fortitude, Improved Bull Rush, Power Attack",
+      "skills": "Intimidate +5, Perception +10, Stealth +2, Survival +10",
+      "racial_modifiers": "+4 Perception, +4 Survival",
+      "environment": "temperate ruins or underground",
+      "organization": "solitary, pair, or gang (3-4)",
+      "treasure": "standard (greataxe, other treasure)",
+      "description": "With the body of a powerfully built man and the head of a snarling bull, this creature stomps its hooves as if preparing to charge.",
+      "special_abilities": [
+        {
+          "name": "Natural Cunning",
+          "type": "Ex",
+          "description": "Although minotaurs are not especially intelligent, they possess innate cunning and logical ability. This gives them immunity to maze spells and prevents them from ever becoming lost. Further, they are never caught flat-footed."
+        }
+      ],
+      "ecology": "Nothing holds a grudge like a minotaur. Scorned by the civilized races centuries ago and born from a deific curse, minotaurs have hunted, slain, and devoured lesser humanoids in retribution for real or imagined slights for as long as anyone can remember. Many cultures have legends of how the first minotaurs were created by vengeful or slighted gods who punished humans by twisting their forms, robbing them of their intellects and beauty, and giving them the heads of bulls. Yet most modern minotaurs hold these legends in contempt and believe that they are not divine mockeries but divine paragons created by a potent and cruel demon lord named Baphomet.\n\nThe traditional minotaur's lair is a maze, be it a legitimate labyrinth constructed to baffle and confuse, an accidental one such as a city sewer system, or a naturally occurring one such as a tangle of caverns and other underground passageways. Employing their innate cunning, minotaurs use their maze lairs to vex unwary foes who seek them out or who simply stumble into the lairs and become lost, slowly hunting the intruders as they try in vain to find a way out. Only when despair has truly set in does the minotaur move in to strike at its lost victims. When dealing with a group, minotaurs often let one creature escape, to spread the tale of horror and lure others to their mazes in hope of slaying the beasts. Of course, to minotaurs, these would-be heroes make for delicious meals.\n\nMinotaurs might also be found in the employ of a more powerful monster or evil creature, serving it so long as they can still hunt and dine as they please. Usually this means guarding some powerful object or valuable location, but it can also be a sort of mercenary work, hunting down the foes of its master.\n\nMinotaurs are relatively straightforward combatants, using their horns to horribly gore the nearest living creature when combat begins.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Mite",
+      "creature_type": "Fey",
+      "cr": "1/4",
+      "xp": "100",
+      "alignment": "LE",
+      "size": "Small",
+      "init": "+1",
+      "senses": "darkvision 120 ft., low-light vision, scent; Perception +5",
+      "languages": "Undercommon",
+      "ac": "12, touch 12, flat-footed 11 (+1 Dex, +1 size)",
+      "hp": "3 (1d6)",
+      "saving_throws": {
+        "fort": "+0",
+        "ref": "+3",
+        "will": "+3"
+      },
+      "weaknesses": "light sensitivity",
+      "dr": "2/cold iron",
+      "special_qualities": "vermin empathy +4",
+      "speed": "20 ft., climb 20 ft.",
+      "melee": "dagger +0 (1d3-1/19-20)",
+      "ranged": "dart +2 (1d3-1)",
+      "special_attacks": "hatred",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 1st) At will—prestidigitation; 1/day—doom (DC 10)"
+        }
+      ],
+      "ability_scores": {
+        "str": "8",
+        "dex": "13",
+        "con": "11",
+        "int": "8",
+        "wis": "13",
+        "cha": "8"
+      },
+      "base_attack": "+0",
+      "cmb": "-2",
+      "cmd": "9",
+      "feats": "Point-Blank Shot",
+      "skills": "Climb +7, Handle Animal +0, Perception +5, Ride +2, Sleight of Hand +9, Stealth +13",
+      "racial_modifiers": "+4 Sleight of Hand, +4 Stealth",
+      "environment": "any underground",
+      "organization": "solitary, band (2-8), or tribe (9-20 plus 1 chieftain of 2nd-4th level and 2-6 giant vermin)",
+      "treasure": "standard (dagger, 6 darts, other treasure)",
+      "description": "This squat humanoid seems to be nearly all head—an unfortunate circumstance, considering how ugly its puffy blue face is.",
+      "special_abilities": [
+        {
+          "name": "Hatred",
+          "type": "Ex",
+          "description": "Mites receive a +1 bonus on attack rolls against humanoid creatures of the dwarf or gnome subtype due to special training against these hated foes."
+        },
+        {
+          "name": "Vermin Empathy",
+          "type": "Ex",
+          "description": "This ability functions as a druid's wild empathy, save that a mite can only use this ability on vermin. A mite gains a +4 racial bonus on this check. Vermin are normally mindless, but this empathic communication imparts on them a modicum of implanted intelligence, allowing mites to train Medium vermin and use them as mounts. Vermin empathy treats swarms as if they were one creature possessing a single mind—a mite can thus use this ability to influence and direct the actions of swarms with relative ease."
+        }
+      ],
+      "ecology": "Descended from even smaller fey, the mites are among the most pitiful and craven dwellers of the dark. Hideously ugly, even goblins have been known to mock mites for their homely appearances, mockery most mites take to heart and nurture for weeks, months, or even years in their tiny homes, until their distress and anger finally overcome their natural cowardice and impel them forth on short-lived bouts of bloody vengeance from the doubtful safety of a spider's back.\n\nMites, once closer to the strange realm of the fey, have grown larger and stockier after countless generations spent on the Material Plane. Yet still, their stature places them at the bottom of the pile in the dangerous caverns in which they live. Their traditional enemies are dwarves and gnomes, particularly the svirfneblin of the deep underground caves. The one thing that gives them a significant edge over an enemy in a fight is their natural ability to empathize with normally mindless vermin—mites are particularly fond of spiders, centipedes, and cave fishers, and a mite colony usually has a few of these far more dangerous monsters on hand to defend the group.\n\nAlthough they have lost the supernatural ability to tinker with magic items, luck, or mechanical objects possessed by their more sinister and dangerous gremlin kin, mites retain the ability to perform minor magical tricks with prestidigitation, and often use these tricks to annoy their enemies. When faced with dangerous foes, a mite uses its doom ability to hex a foe—a mite's eyes bulge hideously open when it uses this spell-like ability.\n\nA mite is 3 feet tall and weighs 40 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Mohrg",
+      "creature_type": "Undead",
+      "cr": "8",
+      "xp": "4,800",
+      "alignment": "CE",
+      "size": "Medium",
+      "init": "+8",
+      "senses": "darkvision 60 ft.; Perception +20",
+      "ac": "23, touch 15, flat-footed 18 (+4 Dex, +1 dodge, +8 natural)",
+      "hp": "91 (14d8+28)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+10",
+        "will": "+9"
+      },
+      "immune": "undead traits",
+      "speed": "30 ft.",
+      "melee": "2 slams +15 (2d8+5 plus grab), tongue +10 melee touch (paralysis)",
+      "special_attacks": "create spawn, paralysis (1d4 minutes, DC 21)",
+      "ability_scores": {
+        "str": "21",
+        "dex": "19",
+        "con": "-",
+        "int": "11",
+        "wis": "10",
+        "cha": "14"
+      },
+      "base_attack": "+10",
+      "cmb": "+15 (+19 grapple)",
+      "cmd": "30",
+      "feats": "Ability Focus (paralysis), Dodge, Improved Initiative, Lightning Reflexes, Mobility, Skill Focus (Perception), Spring Attack",
+      "skills": "Climb +22, Perception +23, Stealth +21, Swim +19",
+      "environment": "any",
+      "organization": "solitary, gang (2-4), or mob (2-4 plus 4-12 zombies)",
+      "treasure": "standard",
+      "description": "A thick tangle of discolored entrails clings to this lurching skeleton's torso and winds upward to loll from its jaw like a clawed tongue.",
+      "special_abilities": [
+        {
+          "name": "Create Spawn",
+          "type": "Su",
+          "description": "Humanoid creatures killed by a mohrg rise immediately as fast zombies under the mohrg's control. The sudden bloom of unlife when a mohrg's victim dies and becomes a zombie causes a surge of negative energy to flow through the mohrg. Whenever a mohrg creates a zombie in this manner, it is healed 1d6 hit points per HD possessed by the slain creature and acts as if hasted for the round immediately following the spawn's creation."
+        }
+      ],
+      "ecology": "Those who slay many over the course of their lifetimes, be they serial killers, mass-murderers, warmongering soldiers, or battle-driven berserkers, become marked and tainted by the sheer weight of their murderous deeds. When such killers are brought to justice and publicly executed for their heinous crimes before they have a chance to atone, the remains sometimes return to unlife to continue their dark work as a mohrg.\n\nUndead things caring less for life than they did before their own deaths, mohrgs exist solely to wreak havoc on the living. Sometimes mistaken for skeletons or zombies, they are far more dangerous than those mindless abominations, retaining some semblance of their own memories—and the delight they once took in hearing the screams of the dying.\n\nWhen possible, mohrgs gather in small groups, seeking out lone targets much as they did in life. If faced with capable foes, a mohrg attempts to incapacitate them one by one, starting with divinely empowered characters first, both to protect itself from holy wrath, and to make the task of paralyzing and devouring the others that much easier.\n\nSome mohrgs retain enough of their former memories that they return to the favored locations of their pasts, \"haunting\" old hideouts and sometimes even resuming the depredations of murderers long dead, falling back on means of death and mayhem that were more comfortable in their breathing days. Such mohrgs are even more insane than most undead beings, and can sometimes be found wandering the streets of a city or town in cowls and cloaks, carrying on their old life's work of slaughter and murder as best they can.\n\nOf course, since those slain by a mohrg rise soon thereafter as undead themselves, the murders of a mohrg do not go unnoticed for long, even when they take extra care to prey only upon society's dregs. A sudden uprising of undead in the streets is the inevitable result of a mohrg's attentions. Since these zombies remain under the mohrg's control, and since the mohrg itself possesses a hateful and cruel intelligence, it often holds its undead army in reserve, even commanding it to lie motionless until several weeks or months have passed and the local graveyard is filled with the sleeping dead. Then, when the time is right, the mohrg calls upon its army to rise and aid it in finishing the slaughter.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Morlock",
+      "creature_type": "Monstrous Humanoid",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "CE",
+      "size": "Medium",
+      "init": "+8",
+      "senses": "darkvision 120 ft., scent; Perception +2",
+      "languages": "Undercommon",
+      "ac": "15, touch 14, flat-footed 11 (+4 Dex, +1 natural)",
+      "hp": "22 (3d10+6)",
+      "saving_throws": {
+        "fort": "+3",
+        "ref": "+9",
+        "will": "+5"
+      },
+      "immune": "disease, poison",
+      "weaknesses": "light blindness",
+      "special_qualities": "expert climber",
+      "speed": "40 ft., climb 30 ft.",
+      "melee": "club +5 (1d6+2), bite +0 (1d4+1)",
+      "special_attacks": "leap attack, sneak attack +1d6, swarming",
+      "ability_scores": {
+        "str": "14",
+        "dex": "19",
+        "con": "15",
+        "int": "5",
+        "wis": "14",
+        "cha": "6"
+      },
+      "base_attack": "+3",
+      "cmb": "+5",
+      "cmd": "19",
+      "feats": "Improved Initiative, Lightning Reflexes",
+      "skills": "Acrobatics +13, Climb +22, Stealth +8 (+12 in caverns)",
+      "racial_modifiers": "+4 Stealth in caverns, +8 Acrobatics, +16 Climb",
+      "environment": "any underground",
+      "organization": "solitary, pair, band (3-6), or tribe (7-18)",
+      "treasure": "standard",
+      "description": "Skin pale as a slug's belly, eyes huge and bulging, this thing crawls down the wall like a spider, but its shape is hideously humanoid.",
+      "special_abilities": [
+        {
+          "name": "Expert Climber",
+          "type": "Ex",
+          "description": "A morlock can cling to cave walls and even ceilings as long as the surface has hand- and footholds. In effect, a morlock is treated as constantly being under a nonmagical version of the spell spider climb, save that it cannot cling to smooth surfaces. This ability doubles the normal +8 racial bonus to Climb checks normally afforded creatures with a climb speed to a +16 racial bonus."
+        },
+        {
+          "name": "Leap Attack",
+          "type": "Ex",
+          "description": "As a standard action, a morlock may make a single attack during a jump. It can make this attack at any point along the course of the leap—the start, the end, or while in mid-air. While jumping, a morlock does not provoke attacks of opportunity for leaving a threatened square."
+        },
+        {
+          "name": "Swarming",
+          "type": "Ex",
+          "description": "Morlocks dwell and fight in cramped quarters every day of their lives, and as such are quite adept at swarming foes. Up to two morlocks can share the same square at the same time. If two morlocks in the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares."
+        }
+      ],
+      "ecology": "Degenerate humans long lost from the world of light, morlocks have regressed through years of subterranean dwelling into ravenous, barely thinking beasts of the endless night. They no longer remember the civilized lives their ancestors led, although many morlock tribes still dwell in the shattered ruins of their ancient homes. Ironically, in many cases morlocks worship the statues left behind by these ancestors as their gods. Morlock priests of such ancestor worship have access to the domains of Darkness, Earth, Madness, and Strength. A typical morlock stands just over 5 feet tall and weighs roughly 150 pounds.\n\nMorlocks move about on two legs at times, but often drop down to a creepy four-limbed shuffle when speed or stealth is necessary. Their wiry, often emaciated frames mask the strength of their limbs and their swift reactions.\n\nMorlocks typically give birth to broods of three to four babies at a time, ravenous creatures born with a full set of teeth and a cannibalistic predisposition. The first few weeks of a brood's life must be carefully mothered to prevent attrition—it usually takes that long for the morlock young to overcome their natural inclination to feed on whatever is closest. Morlocks mature quickly, achieving adulthood after only 5 years of life. A typical morlock can live to a ripe old age of 60—although the majority of their kind die far sooner than that due to violence.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Mummy",
+      "creature_type": "Undead",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "LE",
+      "size": "Medium",
+      "init": "+0",
+      "senses": "darkvision 60 ft.; Perception +16",
+      "languages": "Common",
+      "aura": "despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)",
+      "ac": "20, touch 10, flat-footed 20 (+10 natural)",
+      "hp": "60 (8d8+24)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+2",
+        "will": "+8"
+      },
+      "dr": "5/-",
+      "immune": "undead traits",
+      "weaknesses": "vulnerable to fire",
+      "speed": "20 ft.",
+      "melee": "slam +14 (1d8+10 plus mummy rot)",
+      "ability_scores": {
+        "str": "24",
+        "dex": "10",
+        "con": "-",
+        "int": "6",
+        "wis": "15",
+        "cha": "15"
+      },
+      "base_attack": "+6",
+      "cmb": "+13",
+      "cmd": "23",
+      "feats": "Power Attack, Toughness, Skill Focus (Perception), Weapon Focus (slam)",
+      "skills": "Perception +16, Stealth +11",
+      "environment": "any",
+      "organization": "solitary, warden squad (2-6), or guardian detail (7-12)",
+      "treasure": "standard",
+      "description": "Wrapped from head to toe in ancient strips of moldering linen, this humanoid moves with a shuffling gait.",
+      "special_abilities": [
+        {
+          "name": "Despair",
+          "type": "Su",
+          "description": "All creatures within a 30-foot radius that see a mummy must make a DC 16 Will save or be paralyzed by fear for 1d4 rounds. Whether or not the save is successful, that creature cannot be affected again by the same mummy's despair ability for 24 hours. This is a paralysis and a mind-affecting fear effect. The save DC is Charisma-based."
+        },
+        {
+          "name": "Mummy Rot",
+          "type": "Su",
+          "description": "The save DC is Charisma-based. Curse and disease—slam. Mummy rot is both a curse and disease and can only be cured if the curse is first removed, at which point the disease can be magically removed. Even after the curse element of mummy rot is lifted, a creature suffering from it cannot recover naturally over time. Anyone casting a conjuration (healing) spell on the afflicted creature must succeed on a DC 20 caster level check, or the spell is wasted and the healing has no effect. Anyone who dies from mummy rot turns to dust and cannot be raised without a resurrection or greater magic.",
+          "affliction": {
+            "name": "Mummy Rot",
+            "type": "curse and disease",
+            "contracted": "injury",
+            "onset": "1 minute",
+            "frequency": "1/day",
+            "effect": "1d6 Constitution damage and 1d6 Charisma damage",
+            "save": "Fortitude DC 16",
+            "cure": "—"
+          }
+        }
+      ],
+      "ecology": "Created to guard the tombs of the honored dead, mummies are ever vigilant for those who would desecrate their sacred ground.\n\nMummies are created through a rather lengthy and gruesome embalming process, during which all of the body's major organs are removed and replaced with dried herbs and flowers. After this process, the flesh is anointed with sacred oils and wrapped in purified linens. The creator then finishes the ritual with a create undead spell.\n\nAlthough most mummies are created merely as guardians and remain loyal to their charge until their destruction, certain powerful mummies have much more free will. The majority are at least 10th-level clerics, and are often kings or pharaohs who have called upon dark gods or sinister necromancers to bind their souls to their bodies after death—usually as a means to extend their rule beyond the grave, but at times simply to escape what they fear will be an eternity of torment in their own afterlife.",
+      "source": "Bestiary"
+    }
+  ]
+}

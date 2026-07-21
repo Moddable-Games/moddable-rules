@@ -1,0 +1,229 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 59,
+  "range": "Svirfneblin – Swarm, Centipede",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Svirfneblin",
+      "creature_type": "Humanoid",
+      "creature_subtype": "gnome",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "N",
+      "size": "Small",
+      "init": "+2",
+      "languages": "Gnome, Undercommon",
+      "senses": "darkvision 120 ft., low-light vision; Perception +6",
+      "ac": "15, touch 15, flat-footed 11 (+2 Dex, +2 dodge, +1 size)",
+      "hp": "15 (1d10+5)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+6",
+        "will": "+2"
+      },
+      "sr": "12",
+      "special_qualities": "stonecunning, track, wild empathy +0",
+      "speed": "20 ft. (15 ft. in armor)",
+      "melee": "heavy pick +3 (1d4+1/×4)",
+      "ranged": "light crossbow +4 (1d6/19-20)",
+      "special_attacks": "favored enemy (dwarf +2), +1 to attack vs. dwarven and reptilian humanoids",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 1st) Constant—nondetection; 1/day—blindness/deafness (DC 12), blur, disguise self"
+        }
+      ],
+      "ability_scores": {
+        "str": "13",
+        "dex": "15",
+        "con": "14",
+        "int": "10",
+        "wis": "10",
+        "cha": "8"
+      },
+      "base_attack": "+1",
+      "level": "ranger 1",
+      "cmb": "+1",
+      "cmd": "15",
+      "feats": "Toughness",
+      "skills": "Craft (alchemy) +6, Heal +4, Knowledge (dungeoneering) +4, Perception +6, Stealth +12 (+14 underground), Survival +4 (+5 tracking)",
+      "racial_modifiers": "+2 Craft (alchemy), +2 Perception, +2 Stealth (+4 Stealth underground)",
+      "environment": "any underground",
+      "organization": "solitary, company (2-4), squad (5-20 plus 1 leader of 3rd-6th level and 2 sergeants of 3rd level), or band (30-50 plus 1 sergeant of 3rd level per 20 adults, 5 lieutenants of 5th level, 3 captains of 7th level, and 2-5 Medium earth elementals)",
+      "treasure": "NPC Gear (heavy pick, light crossbow with 10 bolts, other treasure)",
+      "description": "This bald gnome has rocky gray skin and a wiry physique. Its pale eyes are overly large and expressive.",
+      "ecology": "Svirfneblin, or \"deep gnomes,\" are a reclusive offshoot of the gnome race. They dwell underground in hidden cities, safe from dark elves and other subterranean races. They have skin the color of gray or brown stone. Males are bald, and females have stringy gray hair. A svirfneblin's ties to the eerie realm of the fey are much stronger than those of their surface-dwelling gnome kin, and this makes them either strangely detached from their emotions or violently random in their outbursts. Svirfneblin have long fought wars against the duergar, and have a difficult time seeing the difference between duergar and other dwarves.\n\nSvirfneblin are defined by their class levels—they do not possess racial Hit Dice. A svirfneblin's CR is equal to his class level.\n\nRacial Traits: -2 Strength, +2 Dexterity, +2 Wisdom, -4 Charisma: Svirfneblin are fast and observant, but relatively weak and emotionally distant. Small: Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks. Defensive Training: Svirfneblin gain a +2 dodge bonus to Armor Class. Senses: Svirfneblin have darkvision 120 ft. and low-light vision. Fortunate: Svirfneblin gain a +2 racial bonus on all saving throws. Skilled: Svirfneblin gain a +2 racial bonus on Stealth checks; this improves to a +4 bonus underground. They gain a +2 racial bonus on Craft (alchemy) checks and Perception checks. Hatred: Svirfneblin receive a +1 bonus on attack rolls against humanoid creatures of the reptilian and dwarven subtypes due to training against these hated foes. Stonecunning: Svirfneblin gain stonecunning as a dwarf (Pathfinder RPG Core Rulebook 21). Spell Resistance: Svirfneblin have SR equal to 11 + class levels. Svirfneblin Magic: Svirfneblin add +1 to the DC of any illusion spells they cast. Svirfneblin also gain the spell-like abilities listed above; caster level equals the svirfneblin's class levels. Languages: Svirfneblin begin play speaking Gnome and Undercommon. Those with high Int scores can choose from the following bonus languages: Aklo, Common, Draconic, Dwarven, Elven, Giant, Goblin, Orc, or Terran.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Swarm, Army Ant",
+      "creature_type": "Vermin",
+      "creature_subtype": "swarm",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "N",
+      "size": "Fine",
+      "init": "+2",
+      "senses": "darkvision 60 ft., scent; Perception +4",
+      "immune": "weapon damage",
+      "ac": "20, touch 20, flat-footed 18 (+8 size, +2 Dex)",
+      "hp": "49 (11d8)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+5",
+        "will": "+3"
+      },
+      "defensive_abilities": "swarm traits",
+      "speed": "30 ft., climb 30 ft.",
+      "melee": "swarm (3d6)",
+      "special_attacks": "cling, consume, distraction (DC 15)",
+      "space": "10 ft.",
+      "reach": "0 ft.",
+      "ability_scores": {
+        "str": "1",
+        "dex": "15",
+        "con": "10",
+        "int": "-",
+        "wis": "10",
+        "cha": "2"
+      },
+      "base_attack": "+8",
+      "cmb": "-",
+      "cmd": "—",
+      "skills": "Climb +10, Perception +4",
+      "racial_modifiers": "+4 Perception",
+      "environment": "any tropical",
+      "organization": "solitary, pair, patrol (3-6 swarms), or legion (7-16 swarms)",
+      "treasure": "none",
+      "description": "A writhing carpet of ants seethes over the ground, consuming everything in its path.",
+      "special_abilities": [
+        {
+          "name": "Cling",
+          "type": "Ex",
+          "description": "If a creature leaves an army ant swarm's square, the swarm suffers 1d6 points of damage to reflect the loss of its numbers as several of the crawling pests continue to cling tenaciously to the victim. A creature with army ants clinging to him takes 3d6 points of damage at the end of his turn each round. As a full-round action, he can remove the ants with a DC 17 Reflex save. High wind or any amount of damage from an area effect destroys all clinging ants. The save DC is Dexterity-based."
+        },
+        {
+          "name": "Consume",
+          "type": "Ex",
+          "description": "An army ant swarm can rapidly consume any creature it swarms over. Against helpless or nauseated targets, an army ant swarm attack deals 6d6 points of damage."
+        }
+      ],
+      "ecology": "The notoriety of the army ant swarm is well earned. Constantly on the march, a hive of army ants is capable of eating anything that gets in the way of its unabating swath of destruction and ruin.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Swarm, Bat",
+      "creature_type": "Animal",
+      "creature_subtype": "swarm",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "N",
+      "size": "Diminutive",
+      "init": "+2",
+      "senses": "blindsense 20 ft., low-light vision; Perception +15",
+      "immune": "weapon damage",
+      "special_qualities": "swarm traits",
+      "ac": "16, touch 16, flat-footed 14 (+2 Dex, +4 size)",
+      "hp": "13 (3d8)",
+      "saving_throws": {
+        "fort": "+3",
+        "ref": "+7",
+        "will": "+3"
+      },
+      "defensive_abilities": "swarm traits",
+      "speed": "5 ft., fly 40 ft. (good)",
+      "melee": "swarm (1d6)",
+      "special_attacks": "distraction (DC 11), wounding",
+      "space": "10 ft.",
+      "reach": "0 ft.",
+      "ability_scores": {
+        "str": "3",
+        "dex": "15",
+        "con": "11",
+        "int": "2",
+        "wis": "14",
+        "cha": "4"
+      },
+      "base_attack": "+2",
+      "cmb": "-",
+      "cmd": "—",
+      "feats": "Lightning Reflexes, Skill Focus (Perception)",
+      "skills": "Fly +12, Perception +15",
+      "racial_modifiers": "+4 Perception when using blindsense",
+      "environment": "any temperate or tropical",
+      "organization": "solitary, pair, flight (3-6 swarms), or colony (11-20 swarms)",
+      "treasure": "none",
+      "description": "Hundreds of high-pitched squeaks fill the air as a mass of small, carnivorous bats surges forth, all of them hungry for blood.",
+      "special_abilities": [
+        {
+          "name": "Wounding",
+          "type": "Ex",
+          "description": "Any living creature damaged by a bat swarm continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 Heal check or the application of a cure spell or some other healing magic."
+        }
+      ],
+      "ecology": "Bat swarms dwell in large caves, ruins, or even city sewers—anywhere they can find darkness to hide in during the day and a supply of food to feast upon at night. They are only encountered outside in a group at dawn or dusk, or when they have been startled and forced to flee their lairs.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Swarm, Centipede",
+      "creature_type": "Vermin",
+      "creature_subtype": "swarm",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "N",
+      "size": "Diminutive",
+      "init": "+4",
+      "senses": "darkvision 60 ft., tremorsense 30 ft.; Perception +4",
+      "immune": "weapon damage",
+      "ac": "18, touch 18, flat-footed 14 (+4 Dex, +4 size)",
+      "hp": "31 (9d8-9)",
+      "saving_throws": {
+        "fort": "+5",
+        "ref": "+7",
+        "will": "+3"
+      },
+      "defensive_abilities": "swarm traits",
+      "speed": "30 ft., climb 30 ft.",
+      "melee": "swarm (2d6 plus poison)",
+      "special_attacks": "distraction (DC 13), poison",
+      "space": "10 ft.",
+      "reach": "0 ft.",
+      "ability_scores": {
+        "str": "1",
+        "dex": "19",
+        "con": "8",
+        "int": "-",
+        "wis": "10",
+        "cha": "2"
+      },
+      "base_attack": "+6",
+      "cmb": "-",
+      "cmd": "—",
+      "feats": "Weapon FinesseB",
+      "skills": "Climb +12, Perception +4",
+      "racial_modifiers": "+4 Perception",
+      "environment": "temperate or warm forest or underground",
+      "organization": "solitary, pair, or tangle (3-6 swarms)",
+      "treasure": "none",
+      "description": "A writhing mass of legs and poisonous pincers swarms across the ground in a deadly, undulating wave.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based and includes a +2 racial bonus. Bite:",
+          "affliction": {
+            "name": "Centipede Swarm Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1d4 Dexterity damage",
+            "save": "Fortitude DC 13",
+            "cure": "1 save"
+          }
+        }
+      ],
+      "source": "Bestiary"
+    }
+  ]
+}
