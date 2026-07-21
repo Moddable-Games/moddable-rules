@@ -52,6 +52,8 @@ engine:
 
 Senet is a race game for two players, played on a board of 30 squares arranged in three rows of ten. Players race their pieces along a winding path, attempting to bear them all off the board. The game dates to predynastic Egypt (c. 3500 BCE) and remained popular for over three thousand years, eventually acquiring religious significance as a symbolic journey through the afterlife.
 
+{{svg:standard-board.svg "Senet — starting position (Kendall reconstruction)"}}
+
 ### Components
 
 - One board of 30 squares (3 rows × 10 columns)
