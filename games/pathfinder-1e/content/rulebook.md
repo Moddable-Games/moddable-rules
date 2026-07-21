@@ -10,7 +10,7 @@ age: "13+"
 tagline: "Paizo's fork of D&D 3.5, the most complete open ruleset in existence"
 type: "rpg"
 status: "live"
-updated: "2026-07-20"
+updated: "2026-07-21"
 published: true
 variants: false
 theme:
@@ -78,8 +78,13 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Gamemastering](rules/gamemastering/) — Designing encounters, awarding experience, placing treasure, creating NPCs, beyond 20th level
 - [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison
 - [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
+- [Wealth, Money & Special Materials](rules/equipment-wealth-materials/) — Coinage, starting wealth, and the special crafting materials (adamantine, cold iron, darkwood, dragonhide, mithral, alchemical silver)
+- [Weapons](rules/equipment-weapons/) — Weapon categories, proficiency, qualities, and all 81 core weapon descriptions
+- [Armor](rules/equipment-armor/) — Armor and shield mechanics, and all 21 armor/shield descriptions
+- [Adventuring Gear, Substances & Tools](rules/equipment-goods-1/) — Adventuring gear, alchemical substances and items, tools and skill kits
+- [Clothing, Mounts & Services](rules/equipment-goods-2/) — Clothing, food/drink/lodging, mounts and related gear, transport, spellcasting services
 
-All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete. Only Spells and Equipment remain before the Core Rulebook rules are fully covered (Bestiary excluded — tracked separately).
+All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, Glossary, and Equipment chapters are now complete. Only Spells and the Bestiary remain before the Core Rulebook is fully covered.
 
 </div>
 
@@ -95,7 +100,17 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [classes.json](../../games/pathfinder-1e/data/classes.json) — All 11 core classes with hit die, BAB, saves, and skill ranks
 - [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
 - [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
+- [equipment/weapon.json](../../games/pathfinder-1e/data/equipment/weapon.json) — All 81 core weapons
+- [equipment/armor.json](../../games/pathfinder-1e/data/equipment/armor.json) — All 21 armor and shield entries
+- [equipment/adventuring-gear.json](../../games/pathfinder-1e/data/equipment/adventuring-gear.json) — 64 general adventuring items
+- [equipment/special-substance.json](../../games/pathfinder-1e/data/equipment/special-substance.json) — 10 alchemical substances and splash items
+- [equipment/tool.json](../../games/pathfinder-1e/data/equipment/tool.json) — 16 tools and skill kits
+- [equipment/clothing.json](../../games/pathfinder-1e/data/equipment/clothing.json) — 12 clothing outfits
+- [equipment/food-lodging.json](../../games/pathfinder-1e/data/equipment/food-lodging.json) — Food, drink, and lodging prices
+- [equipment/mount.json](../../games/pathfinder-1e/data/equipment/mount.json) — 13 mounts and related gear entries
+- [equipment/transport.json](../../games/pathfinder-1e/data/equipment/transport.json) — 11 vehicles and vessels
+- [equipment/service.json](../../games/pathfinder-1e/data/equipment/service.json) — 7 hired services
 
-Spells, equipment, and monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
+Spells (623 entries) and monsters (Bestiary) are pending ingestion from PSRD-Data and will be added as each batch completes.
 
 </div>
