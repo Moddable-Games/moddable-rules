@@ -16,6 +16,18 @@ engine:
       bonus: [flowers, seasons]
       jokers: 8
       total: 152
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
+    remainder: wall
+    flowers: 8
+    tileSet: mahjong-planar
 published: true
 ---
 
@@ -26,6 +38,8 @@ American Mahjong is the distinctly American adaptation of Chinese Mahjong, shape
 The 1920s saw a nationwide Mahjong craze. By the mid-1920s, so many regional variations had developed that the **1924 Standardization Committee** consolidated the *American Official Laws of Mah-Jongg*. The National Mah Jongg League published its own *Official American Rules* in 1935. Both sources form the basis of this Classic variant.
 
 In 1937, the NMJL introduced its annually-changing scorecard of winning hands, which has defined modern American Mahjong ever since. **American Mahjong (Classic)** preserves the pre-card-era game: the same 152-tile set, the same Charleston, the same joker rules — but with fixed classical hand patterns rather than a subscription card.
+
+{{svg:american-classic-board.svg "American Classic Mahjong — table layout"}}
 
 ---
 

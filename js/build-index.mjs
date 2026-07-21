@@ -156,6 +156,105 @@ for (const slug of allSlugs) {
   }
 }
 
+// --- Index RPG manifest data (entities + oracles) ---
+for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name)) {
+  const manifestPath = resolve(GAMES_DIR, slug, 'rpg-manifest.json');
+  if (!existsSync(manifestPath)) continue;
+
+  const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
+  const dataBasePath = resolve(ROOT, manifest.dataPath);
+  const gameTitle = manifest.label;
+
+  for (const cat of manifest.categories) {
+    const filePath = resolve(dataBasePath, cat.file);
+    if (!existsSync(filePath)) continue;
+
+    const raw = JSON.parse(readFileSync(filePath, 'utf8'));
+
+    if (manifest.dataType === 'entity') {
+      const items = Array.isArray(raw) ? raw : [];
+      for (const item of items) {
+        const name = item.name || item.index || '';
+        if (!name) continue;
+
+        const searchFields = cat.searchFields || ['name'];
+        const searchable = searchFields.map(f => resolveField(item, f)).filter(Boolean).join(' ');
+
+        const descArr = item.desc || item.description;
+        const desc = Array.isArray(descArr) ? descArr[0] || '' : (typeof descArr === 'string' ? descArr : '');
+        const snippet = desc.slice(0, 200);
+
+        const anchor = item.index || name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        const variantUrl = cat.linkPath
+          ? `dist/${slug}/${resolveLinkPath(cat.linkPath, item)}`
+          : null;
+
+        index.push({
+          game: slug,
+          gameTitle,
+          section: cat.label,
+          heading: name,
+          content: snippet || searchable,
+          anchor,
+          variantUrl,
+          dataType: 'entity',
+          category: cat.id,
+        });
+      }
+    } else if (manifest.dataType === 'oracle') {
+      const tables = raw.tables || [];
+      for (const table of tables) {
+        const tableName = table.name || table.id || '';
+        const entries = table.entries || [];
+        for (const entry of entries) {
+          const result = entry.result || '';
+          if (!result) continue;
+          const desc = entry.description || '';
+          index.push({
+            game: slug,
+            gameTitle,
+            section: cat.label,
+            heading: result,
+            content: desc || `${tableName} — ${result}`,
+            anchor: result.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+            dataType: 'oracle',
+            category: cat.id,
+            tableName,
+          });
+        }
+      }
+    }
+  }
+}
+
+function resolveLinkPath(template, item) {
+  return template.replace(/\{([^}]+)\}/g, (_, expr) => {
+    const [field, transform] = expr.split('|');
+    const raw = resolveField(item, field);
+    const val = raw != null ? String(raw) : '';
+    switch (transform) {
+      case 'levelSlug': return `level-${val}`;
+      case 'alphaGroup': {
+        const letter = (val[0] || 'a').toLowerCase();
+        const groups = ['a-c','d-f','g-i','j-l','m-o','p-r','s-u','v-z'];
+        return groups.find(g => letter >= g[0] && letter <= g[2]) || 'a-c';
+      }
+      case 'kebabCase': return val.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+      default: return val.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+    }
+  });
+}
+
+function resolveField(obj, path) {
+  const parts = path.split('.');
+  let val = obj;
+  for (const p of parts) {
+    if (val == null) return '';
+    val = val[p];
+  }
+  return typeof val === 'string' ? val : (val != null ? val : '');
+}
+
 mkdirSync(DIST_DIR, { recursive: true });
 writeFileSync(resolve(DIST_DIR, 'rules-index.json'), JSON.stringify(index, null, 2));
 console.log(`Built dist/rules-index.json (${index.length} entries across ${new Set(index.map(e => e.game)).size} games)`);

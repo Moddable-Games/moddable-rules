@@ -262,13 +262,13 @@ Choose one map before the game begins. Each map uses square tiles laid out in th
 
 ### Compact Skirmish (2 players)
 
-{{svg:compact-skirmish.svg "Compact Skirmish — 10×10 arena with central water hazard"}}
+{{svg:compact-board.svg "Compact Skirmish — 10×10 arena with central water hazard"}}
 
 A 10×10 open arena with a 4×4 water block in the centre. Each player deploys in the 2 rows nearest their edge. Fast, aggressive games where the water forces armies to split and flank.
 
 ### Two Player Dungeon (2 players)
 
-{{svg:two-player-dungeon.svg "Two Player Dungeon — cross-shaped with narrow corridors"}}
+{{svg:two-player-board.svg "Two Player Dungeon — cross-shaped with narrow corridors"}}
 
 A cross-shaped dungeon with three chambers connected by narrow 2-wide corridors:
 - **North & South chambers:** 8×2 (deployment zones, one per player)
@@ -279,7 +279,7 @@ Chokepoints force careful army composition. Knights and leaping units are valuab
 
 ### Four Player Dungeon (4 players)
 
-{{svg:four-player-dungeon.svg "Four Player Dungeon — symmetric cross with four deployment zones"}}
+{{svg:four-player-board.svg "Four Player Dungeon — symmetric cross with four deployment zones"}}
 
 A symmetric cross with four arms. Each player claims one arm as their deployment zone (2 rows at the end of each arm). A central 8×8 arena with 4×4 water connects all four corridors.
 

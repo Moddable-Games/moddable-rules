@@ -13,12 +13,24 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 2
+    defaultPlayers: 2
+    perPlayer: 10
+    community: 0
+    remainder: draw
 published: true
 ---
 
 ## Gin Rummy
 
 Gin Rummy is a two-player draw-and-discard card game. Players draw and discard to build melds (sets and runs) in their hand, aiming to reduce unmatched card value (deadwood) to zero or low enough to knock. The game was created by Elwood T. Baker and his son C. Graham Baker in 1909.
+
+{{svg:gin-rummy-board.svg "Gin Rummy — table layout"}}
 
 ### Deal
 

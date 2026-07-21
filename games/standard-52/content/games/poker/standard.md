@@ -13,12 +13,24 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 10
+    defaultPlayers: 6
+    perPlayer: 2
+    community: 5
+    remainder: draw
 published: true
 ---
 
 ## Texas Hold'em Poker
 
 Texas Hold'em is the most widely played poker variant in the world and the standard format for professional tournaments. Players combine two private hole cards with five shared community cards to make the best possible five-card poker hand.
+
+{{svg:poker-board.svg "Texas Hold'em Poker — table layout"}}
 
 ### Setup
 

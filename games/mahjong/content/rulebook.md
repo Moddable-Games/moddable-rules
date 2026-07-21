@@ -1,6 +1,6 @@
 ---
 title: "Mahjong"
-version: "0.1.0"
+version: "0.1.1"
 slug: "mahjong"
 players: "4"
 duration: "30–120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "A tile-matching game of skill, strategy, and fortune"
 type: "component"
 status: "live"
-updated: "2026-07-07"
+updated: "2026-07-21"
 published: true
 hub_type: component
 theme:

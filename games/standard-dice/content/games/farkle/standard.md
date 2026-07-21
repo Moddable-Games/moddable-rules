@@ -12,12 +12,23 @@ engine:
     die_type: d6
     score_track: true
     target_score: 10000
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 6
+    defaultPlayers: 4
+    perPlayer: 0
+    community: 6
 published: true
 ---
 
 ## Farkle
 
 A press-your-luck dice game for 2–6 players. On your turn, roll 6 dice, set aside at least one scoring combination, then choose to bank your accumulated points or roll again with the remaining dice. If no dice score on any roll, you **Farkle** — losing all points accumulated that turn. First to 10,000 wins.
+
+{{svg:farkle-board.svg "Farkle — table layout"}}
 
 ### Turn Structure
 

@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
 <link rel="stylesheet" href="../../theme.css?v=1.2.0">
 <link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
-<script type="module" src="../../../../shared/js/analytics.js"></script>
+<script defer src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
@@ -40,10 +40,8 @@
   <div class="variant-cover-inner">
     <span class="variant-cover-label">Shogi · Variant 14 of 24</span>
     <h1 class="variant-cover-title">Judkins' Shogi</h1>
-    <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">6×6</span><span class="variant-stat-lbl">Board</span></span>
-      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
-    </div>
+    <div class="variant-cover-stats"><span class="variant-stat"><span class="variant-stat-val">6×6</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span></div>
   </div>
 </div>
 
@@ -55,7 +53,7 @@
 <h1 id="judkins-shogi">Judkins’ Shogi</h1>
 <p><strong>Modern miniature Shogi variant on a 6×6 board. Named after its inventor.</strong></p>
 <h2 id="overview">Overview</h2>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+<div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
 <defs>
 <symbol id="piece-kahu-shogi-kanji-red-wood-1HI" viewBox="0 0 52 60"><defs>
     <filter
@@ -2022,6 +2020,7 @@
 <g pointer-events="none"><use href="#piece-kahu-shogi-kanji-red-wood-1HI" x="0" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1KA" x="40" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="80" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1KI" x="120" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1OU" x="160" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1KE" x="200" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1FU" x="200" y="40" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0FU" x="0" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0KE" x="0" y="200" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0OU" x="40" y="200" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0KI" x="80" y="200" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="120" y="200" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0KA" x="160" y="200" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0HI" x="200" y="200" width="40" height="40"/></g>
 </svg>
 <p class="diagram-caption">Judkins' Shogi — starting position</p>
+<p class="diagram-engine-url"><a href="https://engine.moddable.games/play/?game=shogi&variant=judkins-shogi" class="diagram-engine-link" target="_blank" rel="noopener">https://engine.moddable.games/play/?game=shogi&variant=judkins-shogi</a></p></div>
 <p>Judkins’ Shogi compresses modern Shogi onto a 6×6 board with 7 pieces per side, retaining drops. It plays very similarly to standard Shogi but in a much faster format.</p>
 <h2 id="setup">Setup</h2>
 <p>Each player has 7 pieces: King, Gold, Silver, Knight, Bishop, Rook, and one Pawn.</p>
@@ -2111,7 +2110,7 @@
 
 </div>
 
-<script type="module" src="../../../../js/toc.js?v=1.3.1"></script>
-<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+<script defer src="../../../../js/toc.js?v=1.3.1"></script>
+<script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

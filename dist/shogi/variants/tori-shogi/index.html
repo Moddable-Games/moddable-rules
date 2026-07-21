@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
 <link rel="stylesheet" href="../../theme.css?v=1.2.0">
 <link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
-<script type="module" src="../../../../shared/js/analytics.js"></script>
+<script defer src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
@@ -40,10 +40,8 @@
   <div class="variant-cover-inner">
     <span class="variant-cover-label">Shogi · Variant 40 of 24</span>
     <h1 class="variant-cover-title">Tori Shogi</h1>
-    <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">7×7</span><span class="variant-stat-lbl">Board</span></span>
-      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
-    </div>
+    <div class="variant-cover-stats"><span class="variant-stat"><span class="variant-stat-val">7×7</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span></div>
   </div>
 </div>
 
@@ -53,7 +51,7 @@
 <div class="section">
 
 <h2 id="tori-shogi">Tori Shogi</h2>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+<div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
 <defs>
 <symbol id="piece-kahu-shogi-kanji-red-wood-1HI" viewBox="0 0 52 60"><defs>
     <filter
@@ -1472,6 +1470,7 @@
 <g pointer-events="none"><use href="#piece-kahu-shogi-kanji-red-wood-1HI" x="0" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1FU" x="40" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1OU" x="120" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1FU" x="200" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1KY" x="240" y="0" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="0" y="80" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="40" y="80" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="80" y="80" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="120" y="80" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="160" y="80" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="200" y="80" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="240" y="80" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-1GI" x="80" y="120" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="160" y="120" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="0" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="40" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="80" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="120" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="160" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="200" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0GI" x="240" y="160" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0KY" x="0" y="240" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0FU" x="40" y="240" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0OU" x="120" y="240" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0FU" x="200" y="240" width="40" height="40"/><use href="#piece-kahu-shogi-kanji-red-wood-0HI" x="240" y="240" width="40" height="40"/></g>
 </svg>
 <p class="diagram-caption">Tori Shogi — starting position</p>
+<p class="diagram-engine-url"><a href="https://engine.moddable.games/play/?game=shogi&variant=tori-shogi" class="diagram-engine-link" target="_blank" rel="noopener">https://engine.moddable.games/play/?game=shogi&variant=tori-shogi</a></p></div>
 <p>Tori Shogi (禽将棋, “Bird Shogi”) is a Shogi variant invented by Toyota Genryu in 1799, traditionally attributed to his master Ohashi Soei. Played on a 7×7 board with a bird-themed piece set, Tori Shogi has sustained popularity, English-language books, and active tournaments. It is one of the oldest Shogi variants to use the drop rule. The goal is to checkmate the opposing <strong>Phoenix</strong> (the royal piece).</p>
 <h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> 7 files (a–g) × 7 ranks.</p>
@@ -1607,7 +1606,7 @@
 
 </div>
 
-<script type="module" src="../../../../js/toc.js?v=1.3.1"></script>
-<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+<script defer src="../../../../js/toc.js?v=1.3.1"></script>
+<script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

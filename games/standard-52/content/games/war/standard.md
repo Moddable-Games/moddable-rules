@@ -8,16 +8,27 @@ win: Collect all 52 cards
 special: "2-player game of pure chance. The deck is split equally (26 cards each). Each player simultaneously reveals their top card — the higher rank wins both. On a tie, War occurs: each player plays 3 face-down then 1 face-up; higher face-up card wins all 10. No decisions required."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: standard-52
+      count: 1
+      jokers: 0
+  topology:
+    type: tableau
+    layout: linear
+  deal:
+    minPlayers: 2
+    maxPlayers: 2
+    defaultPlayers: 2
+    perPlayer: all
+    community: 0
 ---
 
 ## War
 
 War is a 2-player card game of pure chance — there are no decisions to make. It is one of the most widely known card games in the world, particularly among children.
+
+{{svg:war-board.svg "War — table layout"}}
 
 ### Setup
 

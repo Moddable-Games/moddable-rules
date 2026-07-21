@@ -12,6 +12,15 @@ engine:
     deck:
       type: standard-52
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: all
+    community: 0
   plugins:
     big2:
       variant: standard
@@ -22,6 +31,8 @@ published: true
 ## Big 2
 
 Also known as Deuces, Pusoy Dos, or Chinese Poker. A climbing card game for exactly four players. Each player receives 13 cards and tries to be the first to empty their hand by playing progressively higher combinations.
+
+{{svg:big2-board.svg "Big 2 — table layout"}}
 
 ### Setup
 

@@ -13,6 +13,15 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
   partnerships: [[north, south], [east, west]]
 published: true
 ---
@@ -20,6 +29,8 @@ published: true
 ## Spades
 
 Spades is a partnership trick-taking game for four players (two teams of two). Spades are permanently trump. Before each hand, each player bids how many tricks they expect to win, and the partnership must collectively make their bid to score positively. Bags (overtricks) accumulate toward a penalty.
+
+{{svg:spades-board.svg "Spades — table layout"}}
 
 ### Setup
 

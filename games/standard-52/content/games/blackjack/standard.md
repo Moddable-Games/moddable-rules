@@ -14,12 +14,24 @@ engine:
       count: 6
       jokers: 0
       shuffle: continuous
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 7
+    defaultPlayers: 4
+    perPlayer: 2
+    community: 0
+    remainder: draw
 published: true
 ---
 
 ## Blackjack (Twenty-One)
 
 Blackjack is a casino card game in which each player competes independently against the dealer. The goal is to hold a hand with a total closer to 21 than the dealer’s without exceeding 21 (busting). Blackjack (an Ace + a 10-value card) beats a regular 21 and pays 3:2. The standard casino game uses 6–8 decks shuffled together.
+
+{{svg:blackjack-board.svg "Blackjack — table layout"}}
 
 ### Card Values
 

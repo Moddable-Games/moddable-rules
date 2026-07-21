@@ -109,7 +109,13 @@ ol li strong{color:var(--text-primary);}
 .diagram-caption{font-size:14px;color:var(--text-secondary);font-style:italic;margin-top:12px;line-height:1.58;text-align:left;}
 
 /* Inline board diagrams (full-width) */
-.content .section > svg{display:block;width:100%;height:auto;margin:24px 0;padding:24px;background:#fff;border:1px solid var(--divider-color,#ddd);border-radius:var(--radius-sm,4px);box-shadow:0 2px 8px rgba(0,0,0,.06);}
+.content .section > svg,.diagram-wrap > svg{display:block;width:100%;height:auto;padding:24px;background:#fff;border:1px solid var(--divider-color,#ddd);border-radius:var(--radius-sm,4px);box-shadow:0 2px 8px rgba(0,0,0,.06);}
+.content .section > svg{margin:24px 0;}
+.diagram-wrap{margin:24px 0;}
+.diagram-wrap .diagram-caption{text-align:center;font-family:var(--sans);font-size:12px;color:var(--text-secondary,#777);margin-top:8px;margin-bottom:24px;}
+.diagram-engine-url{text-align:center;font-family:var(--mono,monospace);font-size:11px;margin-top:4px;margin-bottom:24px;}
+.diagram-engine-link{color:var(--accent,#b8860b);text-decoration:none;letter-spacing:.01em;}
+.diagram-engine-link:hover{text-decoration:underline;}
 .content .section .diagram-caption{text-align:center;font-family:var(--sans);font-size:12px;color:var(--text-secondary,#777);margin-top:-16px;margin-bottom:24px;padding-top:0;}
 
 /* Reference page */

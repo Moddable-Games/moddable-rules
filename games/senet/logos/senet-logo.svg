@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Senet logo">
+  <rect width="100" height="100" fill="#faf8f2" rx="8"/>
+  <!-- Stylised 3x10 Senet board (3 rows visible) -->
+  <rect x="10" y="28" width="80" height="44" rx="3" fill="#d4a853" stroke="#7A5C28" stroke-width="2"/>
+  <!-- Grid lines (3 rows) -->
+  <line x1="10" y1="42.7" x2="90" y2="42.7" stroke="#7A5C28" stroke-width="1.2"/>
+  <line x1="10" y1="57.3" x2="90" y2="57.3" stroke="#7A5C28" stroke-width="1.2"/>
+  <!-- Vertical divisions (10 cols) -->
+  <line x1="18" y1="28" x2="18" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="26" y1="28" x2="26" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="34" y1="28" x2="34" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="42" y1="28" x2="42" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="50" y1="28" x2="50" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="58" y1="28" x2="58" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="66" y1="28" x2="66" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="74" y1="28" x2="74" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <line x1="82" y1="28" x2="82" y2="72" stroke="#7A5C28" stroke-width="0.8"/>
+  <!-- Special squares markers (House of Happiness sq26, House of Water sq27) -->
+  <!-- Ankh symbol on square 15 (row 2, col 6 from right = col 5 from left in middle row) -->
+  <circle cx="46" cy="50" r="3" fill="none" stroke="#2d1a00" stroke-width="1.2"/>
+  <line x1="46" y1="53" x2="46" y2="59" stroke="#2d1a00" stroke-width="1.2"/>
+  <line x1="43" y1="55.5" x2="49" y2="55.5" stroke="#2d1a00" stroke-width="1.2"/>
+  <!-- Cone piece (player 1) -->
+  <polygon points="22,40 25,33 28,40" fill="#2d1a00"/>
+  <!-- Spool piece (player 2) -->
+  <rect x="31" y="34" width="6" height="5" rx="1" fill="#f5f0e0" stroke="#2d1a00" stroke-width="1"/>
+  <!-- Wavy line on House of Water (row 3, col 7) -->
+  <path d="M59,62 Q61,60 63,62 Q65,64 67,62" fill="none" stroke="#2d1a00" stroke-width="1"/>
+  <!-- X mark on last squares (row 3, cols 8-10) -->
+  <line x1="72" y1="60" x2="76" y2="64" stroke="#2d1a00" stroke-width="0.8"/>
+  <line x1="76" y1="60" x2="72" y2="64" stroke="#2d1a00" stroke-width="0.8"/>
+</svg>

@@ -1,7 +1,7 @@
 ---
 title: "Flower 48"
 short_title: "48 Flowers"
-version: "0.1.0"
+version: "0.1.1"
 slug: "flower-48"
 players: "2–4"
 duration: "15–60 min"
@@ -9,7 +9,7 @@ age: "10+"
 tagline: "Japanese flower cards: 12 monthly suits, 48 cards"
 type: "component"
 status: "live"
-updated: "2026-07-08"
+updated: "2026-07-21"
 published: true
 hub_type: component
 theme:

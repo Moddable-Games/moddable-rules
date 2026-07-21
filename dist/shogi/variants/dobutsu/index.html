@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.0">
 <link rel="stylesheet" href="../../theme.css?v=1.2.0">
 <link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.0">
-<script type="module" src="../../../../shared/js/analytics.js"></script>
+<script defer src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
@@ -40,10 +40,8 @@
   <div class="variant-cover-inner">
     <span class="variant-cover-label">Shogi · Variant 20 of 24</span>
     <h1 class="variant-cover-title">Dobutsu Shogi</h1>
-    <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">3×4</span><span class="variant-stat-lbl">Board</span></span>
-      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
-    </div>
+    <div class="variant-cover-stats"><span class="variant-stat"><span class="variant-stat-val">3×4</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span></div>
   </div>
 </div>
 
@@ -53,7 +51,7 @@
 <div class="section">
 
 <h2 id="dobutsu-shogi">Dobutsu Shogi</h2>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" width="150" height="200">
+<div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" width="150" height="200">
 <defs>
 <symbol id="piece-kahu-shogi-kanji-red-wood-1KI" viewBox="0 0 52 60"><defs>
     <filter
@@ -608,6 +606,7 @@
 <g pointer-events="none"><use href="#piece-kahu-shogi-kanji-red-wood-1KI" x="0" y="0" width="50" height="50"/><use href="#piece-kahu-shogi-kanji-red-wood-1KY" x="50" y="0" width="50" height="50"/><use href="#piece-kahu-shogi-kanji-red-wood-0KY" x="50" y="150" width="50" height="50"/><use href="#piece-kahu-shogi-kanji-red-wood-0KI" x="100" y="150" width="50" height="50"/></g>
 </svg>
 <p class="diagram-caption">Dobutsu Shogi — starting position</p>
+<p class="diagram-engine-url"><a href="https://engine.moddable.games/play/?game=shogi&variant=dobutsu" class="diagram-engine-link" target="_blank" rel="noopener">https://engine.moddable.games/play/?game=shogi&variant=dobutsu</a></p></div>
 <p>Dobutsu Shogi (どうぶつしょうぎ, “animal chess”) is a Shogi variant for young children invented by female professional Shogi player Madoka Kitao, in part to attract young girls to the game. Played on a 3×4 board, it uses a minimal piece set with animal characters; each piece’s legal moves are printed on the piece itself. It is a <strong>solved game</strong> — optimal play by the second player guarantees a win — but remains engaging for beginners and young players.</p>
 <h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> 3 files (a–c) × 4 ranks. No river, no palace.</p>
@@ -687,7 +686,7 @@
 
 </div>
 
-<script type="module" src="../../../../js/toc.js?v=1.3.1"></script>
-<script type="module" src="../../../../shared/js/surface-toggle.js"></script>
+<script defer src="../../../../js/toc.js?v=1.3.1"></script>
+<script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

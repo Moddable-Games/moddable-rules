@@ -12,12 +12,23 @@ engine:
     dice: 5
     die_type: d6
     scorecard: true
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 1
+    maxPlayers: 4
+    defaultPlayers: 2
+    perPlayer: 0
+    community: 5
 published: true
 ---
 
 ## Yahtzee
 
 A dice game for 1–4 players in which each player completes a scorecard of 13 categories over 13 rounds. Each turn allows up to three rolls of five dice, with the player choosing which dice to keep after each roll. Highest total score wins.
+
+{{svg:yahtzee-board.svg "Yahtzee — table layout"}}
 
 ### Turn Structure
 

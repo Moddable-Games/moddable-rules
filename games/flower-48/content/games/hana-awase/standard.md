@@ -11,12 +11,24 @@ engine:
   components:
     cards:
       deck: hanafuda-48
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 4
+    defaultPlayers: 3
+    perPlayer: 7
+    community: 6
+    remainder: draw
 published: true
 ---
 
 ## Hana-Awase
 
 The foundational Hanafuda card-matching game from which Koi-Koi and other variants are derived. Players match cards by suit (month) and collect them; the player with the highest captured value at the end of the round wins.
+
+{{svg:hana-awase-board.svg "Hana-Awase — table layout"}}
 
 ### Setup
 

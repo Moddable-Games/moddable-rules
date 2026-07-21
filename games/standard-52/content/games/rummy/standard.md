@@ -8,16 +8,28 @@ win: First to go out by melding all cards
 special: "Classic draw-and-discard game. Players draw from the stock or discard pile, form melds (sets and runs), and lay them face-up on the table. Unlike Gin Rummy, melds are laid during play and opponents may extend them (lay off). Going Rummy — going out in one turn without prior melds — doubles the penalty for all opponents."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: standard-52
+      count: 1
+      jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 6
+    defaultPlayers: 4
+    perPlayer: 7
+    community: 0
+    remainder: draw
 ---
 
 ## Rummy
 
 Rummy (also called Basic Rummy or Standard Rummy) is the foundational draw-and-discard game from which Gin Rummy, Canasta, and many other games descend. Unlike Gin Rummy, melds are placed face-up on the table during play and opponents may extend them.
+
+{{svg:rummy-board.svg "Rummy — table layout"}}
 
 ### Players and Cards
 

@@ -8,16 +8,26 @@ win: First player to reach an agreed point total (typically 3 or 7 points) and d
 special: "Korean hanafuda variant played with the Hwatu deck. The most popular card game in South Korea. Match cards from hand to field by month; collect scoring combinations. Core mechanic: after reaching the threshold, declare 'Stop' to collect winnings or 'Go' to press on for bigger rewards at the risk of penalty if another player stops first."
 published: true
 engine:
-  topology:
-    type: none
   components:
-    deck:
-      type: flower-48
+    cards:
+      deck: hanafuda-48
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 3
+    defaultPlayers: 2
+    perPlayer: 7
+    community: 6
+    remainder: draw
 ---
 
 ## Go-Stop
 
 Go-Stop (고스톱, also called Godori or Hwatu) is the most popular card game in South Korea, played with a Hwatu deck — the Korean version of the Japanese hanafuda deck. Like Koi-Koi, it uses matching by month and collection of scoring combinations. Its defining mechanic is the **Go/Stop decision**: after reaching a scoring threshold, the current player must choose whether to declare "Stop" (take winnings) or "Go" (continue for bigger rewards at increasing risk).
+
+{{svg:go-stop-board.svg "Go-Stop — table layout"}}
 
 ### The Deck
 

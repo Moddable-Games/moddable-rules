@@ -1,7 +1,7 @@
 ---
 title: "Standard 52-Card Deck"
 short_title: "52 Cards"
-version: "0.2.0"
+version: "0.2.1"
 slug: "standard-52"
 players: "1–8"
 duration: "10–120 min"
@@ -9,7 +9,7 @@ age: "6+"
 tagline: "Every game a standard deck of cards can play"
 type: "component"
 status: "live"
-updated: "2026-07-08"
+updated: "2026-07-21"
 published: true
 hub_type: component
 theme:

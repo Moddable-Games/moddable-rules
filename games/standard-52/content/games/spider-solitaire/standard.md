@@ -8,16 +8,31 @@ win: Complete all 8 sequences (King down to Ace in the same suit)
 special: "Two-deck solitaire with 10 tableau columns. Complete in-suit sequences of 13 cards (King to Ace) are automatically removed. Three difficulty levels: 1-suit (easy), 2-suit (medium), 4-suit (hard). The 4-suit version is highly challenging. One of the most popular computer solitaire games."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: standard-52
+      count: 2
+      jokers: 0
+  topology:
+    type: tableau
+    layout: tableau
+    columns: 10
+    cascade: [6, 5, 5, 6, 5, 5, 6, 5, 5, 6]
+    foundations: 8
+  deal:
+    minPlayers: 1
+    maxPlayers: 1
+    defaultPlayers: 1
+    perPlayer: 0
+    community: 0
+    remainder: draw
 ---
 
 ## Spider Solitaire
 
 Spider Solitaire is a two-deck solitaire game played across 10 tableau columns. Complete 13-card sequences in the same suit (King down to Ace) are removed from play. It is one of the most widely played solitaire variants, popularised by its inclusion in Microsoft Windows.
+
+{{svg:spider-solitaire-board.svg "Spider Solitaire — table layout"}}
 
 ### Decks and Difficulty
 

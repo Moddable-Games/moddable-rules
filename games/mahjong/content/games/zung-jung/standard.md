@@ -13,12 +13,25 @@ engine:
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       total: 136
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
+    remainder: wall
+    tileSet: mahjong-regular
 published: true
 ---
 
 ## Zung Jung
 
 Designed by Alan Kwan, a statistician. Used as the official ruleset for the World Series of Mahjong. Zung Jung replaces multiplicative faan scoring with a flat additive point system across 44 named patterns, eliminating most ambiguity in hand valuation.
+
+{{svg:zung-jung-board.svg "Zung Jung Mahjong — table layout"}}
 
 ### Key Differences from Hong Kong
 

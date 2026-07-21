@@ -1,0 +1,236 @@
+[
+  {
+    "index": "acrobatics",
+    "name": "Acrobatics",
+    "attribute": "Dex",
+    "trained_only": false,
+    "armor_check_penalty": true,
+    "description": "You can keep your balance while traversing narrow or treacherous surfaces. You can also dive, flip, jump, and roll to avoid attacks and overcome obstacles.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "appraise",
+    "name": "Appraise",
+    "attribute": "Int",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You can evaluate the monetary value of an object.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "bluff",
+    "name": "Bluff",
+    "attribute": "Cha",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You know how to tell a lie.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "climb",
+    "name": "Climb",
+    "attribute": "Str",
+    "trained_only": false,
+    "armor_check_penalty": true,
+    "description": "You are skilled at scaling vertical surfaces, from smooth city walls to rocky cliffs.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "craft",
+    "name": "Craft",
+    "attribute": "Int",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You are skilled in the creation of a specific group of items, such as armor or weapons. Like Knowledge, Perform, and Profession, Craft is actually a number of separate skills. You could have several Craft skills, each with its own ranks. The most common Craft skills are alchemy, armor, baskets, books, bows, calligraphy, carpentry, cloth, clothing, glass, jewelry, leather, locks, paintings, pottery, sculptures, ships, shoes, stonemasonry, traps, and weapons. A Craft skill is specifically focused on creating something. If nothing is created by the endeavor, it probably falls under the heading of a Profession skill.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "diplomacy",
+    "name": "Diplomacy",
+    "attribute": "Cha",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You can use this skill to persuade others to agree with your arguments, to resolve differences, and to gather valuable information or rumors from people. This skill is also used to negotiate conflicts by using the proper etiquette and manners suitable to the problem.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "disable_device",
+    "name": "Disable Device",
+    "attribute": "Dex",
+    "trained_only": true,
+    "armor_check_penalty": true,
+    "description": "You are skilled at disarming traps and opening locks. In addition, this skill lets you sabotage simple mechanical devices, such as catapults, wagon wheels, and doors.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "disguise",
+    "name": "Disguise",
+    "attribute": "Cha",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You are skilled at changing your appearance.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "escape_artist",
+    "name": "Escape Artist",
+    "attribute": "Dex",
+    "trained_only": false,
+    "armor_check_penalty": true,
+    "description": "Your training allows you to slip out of bonds and escape from grapples.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "fly",
+    "name": "Fly",
+    "attribute": "Dex",
+    "trained_only": false,
+    "armor_check_penalty": true,
+    "description": "You are skilled at flying, through either the use of wings or magic, and can perform daring or complex maneuvers while airborne. Note that this skill does not give you the ability to fly.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "handle_animal",
+    "name": "Handle Animal",
+    "attribute": "Cha",
+    "trained_only": true,
+    "armor_check_penalty": false,
+    "description": "You are trained at working with animals, and can teach them tricks, get them to follow your simple commands, or even domesticate them.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "heal",
+    "name": "Heal",
+    "attribute": "Wis",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You are skilled at tending to wounds and ailments.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "intimidate",
+    "name": "Intimidate",
+    "attribute": "Cha",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You can use this skill to frighten an opponent or to get them to act in a way that benefits you. This skill includes verbal threats and displays of prowess.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "knowledge",
+    "name": "Knowledge",
+    "attribute": "Int",
+    "trained_only": true,
+    "armor_check_penalty": false,
+    "description": "You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study: Arcana (ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts), Dungeoneering (aberrations, caverns, oozes, spelunking), Engineering (buildings, aqueducts, bridges, fortifications), Geography (lands, terrain, climate, people), History (wars, colonies, migrations, founding of cities), Local (legends, personalities, inhabitants, laws, customs, traditions, humanoids), Nature (animals, fey, monstrous humanoids, plants, seasons and cycles, weather, vermin), Nobility (lineages, heraldry, personalities, royalty), Planes (the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane, outsiders, planar magic), Religion (gods and goddesses, mythic history, ecclesiastic tradition, holy symbols, undead).",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "linguistics",
+    "name": "Linguistics",
+    "attribute": "Int",
+    "trained_only": true,
+    "armor_check_penalty": false,
+    "description": "You are skilled at working with language, in both its spoken and written forms. You can speak multiple languages, and can decipher nearly any tongue given enough time. Your skill in writing allows you to create and detect forgeries as well.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "perception",
+    "name": "Perception",
+    "attribute": "Wis",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "Your senses allow you to notice fine details and alert you to danger. Perception covers all five senses, including sight, hearing, touch, taste, and smell.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "perform",
+    "name": "Perform",
+    "attribute": "Cha",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You are skilled at one form of entertainment, from singing to acting to playing an instrument. Like Craft, Knowledge, and Profession, Perform is actually a number of separate skills. You could have several Perform skills, each with its own ranks. Each of the nine categories of the Perform skill includes a variety of methods, instruments, or techniques, a small sample of which is provided for each category below: Act (comedy, drama, pantomime), Comedy (buffoonery, limericks, joke-telling), Dance (ballet, waltz, jig), Keyboard instruments (harpsichord, piano, pipe organ), Oratory (epic, ode, storytelling), Percussion instruments (bells, chimes, drums, gong), String instruments (fiddle, harp, lute, mandolin), Wind instruments (flute, pan pipes, recorder, trumpet), Sing (ballad, chant, melody).",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "profession",
+    "name": "Profession",
+    "attribute": "Wis",
+    "trained_only": true,
+    "armor_check_penalty": false,
+    "description": "You are skilled at a specific job. Like Craft, Knowledge, and Perform, Profession is actually a number of separate skills. You could have several Profession skills, each with its own ranks. While a Craft skill represents ability in creating an item, a Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge. The most common Profession skills are architect, baker, barrister, brewer, butcher, clerk, cook, courtesan, driver, engineer, farmer, fisherman, gambler, gardener, herbalist, innkeeper, librarian, merchant, midwife, miller, miner, porter, sailor, scribe, shepherd, stable master, soldier, tanner, trapper, and woodcutter.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "ride",
+    "name": "Ride",
+    "attribute": "Dex",
+    "trained_only": false,
+    "armor_check_penalty": true,
+    "description": "You are skilled at riding mounts, usually a horse, but possibly something more exotic, like a griffon or pegasus. If you attempt to ride a creature that is ill suited as a mount, you take a -5 penalty on your Ride checks.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "sense_motive",
+    "name": "Sense Motive",
+    "attribute": "Wis",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You are skilled at detecting falsehoods and true intentions.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "sleight_of_hand",
+    "name": "Sleight of Hand",
+    "attribute": "Dex",
+    "trained_only": true,
+    "armor_check_penalty": true,
+    "description": "Your training allows you to pick pockets, draw hidden weapons, and take a variety of actions without being noticed.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "spellcraft",
+    "name": "Spellcraft",
+    "attribute": "Int",
+    "trained_only": true,
+    "armor_check_penalty": false,
+    "description": "You are skilled at the art of casting spells, identifying magic items, crafting magic items, and identifying spells as they are being cast.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "stealth",
+    "name": "Stealth",
+    "attribute": "Dex",
+    "trained_only": false,
+    "armor_check_penalty": true,
+    "description": "You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen position. This skill covers hiding and moving silently.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "survival",
+    "name": "Survival",
+    "attribute": "Wis",
+    "trained_only": false,
+    "armor_check_penalty": false,
+    "description": "You are skilled at surviving in the wild and at navigating in the wilderness. You also excel at following trails and tracks left by others.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "swim",
+    "name": "Swim",
+    "attribute": "Str",
+    "trained_only": false,
+    "armor_check_penalty": true,
+    "description": "You know how to swim and can do so even in stormy water.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  },
+  {
+    "index": "use_magic_device",
+    "name": "Use Magic Device",
+    "attribute": "Cha",
+    "trained_only": true,
+    "armor_check_penalty": false,
+    "description": "You are skilled at activating magic items, even if you are not otherwise trained in their use.",
+    "source": "Pathfinder 1e Core Rulebook (PFSRD)"
+  }
+]

@@ -11,12 +11,24 @@ engine:
     tiles: double6
     boneyard: true
     score_target: 61
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 4
+    defaultPlayers: 2
+    perPlayer: 7
+    community: 0
+    remainder: boneyard
 published: true
 ---
 
 ## All Fives
 
 Also called **Muggins**. A scoring domino game played with the double-6 set. Block rules apply, but players score points during play whenever the exposed ends of the chain sum to a multiple of 5. First to 61 (short game) or 121 (long game) wins.
+
+{{svg:all-fives-board.svg "All Fives — table layout"}}
 
 ### Setup
 

@@ -11,12 +11,24 @@ engine:
   components:
     tiles: double6
     boneyard: false
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 4
+    defaultPlayers: 2
+    perPlayer: 7
+    community: 0
+    remainder: boneyard
 published: true
 ---
 
 ## Block Dominoes
 
 The simplest Western domino game and the foundation for all others. Players match tiles end-to-end to extend a chain. No drawing from the boneyard — if you cannot play, you pass. First to empty their hand wins.
+
+{{svg:block-board.svg "Block Dominoes — table layout"}}
 
 ### Setup
 

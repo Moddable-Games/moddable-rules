@@ -13,6 +13,16 @@ engine:
       type: bavarian-32
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 3
+    maxPlayers: 3
+    defaultPlayers: 3
+    perPlayer: 10
+    community: 2
+    remainder: draw
 published: true
 ---
 
@@ -21,6 +31,8 @@ published: true
 Skat is Germany’s national card game and one of the most strategically complex three-player card games in existence. One player (the **declarer**) competes alone against the two **defenders**. The declarer wins the auction, picks up a 2-card blind (the **Skat**), discards 2 cards, and announces a game type — then tries to fulfil the contract.
 
 Origin: Altenburg, Germany, early 19th century. Codified by the Deutscher Skatverband (German Skat Federation).
+
+{{svg:skat-board.svg "Skat — table layout"}}
 
 ### The Deck
 

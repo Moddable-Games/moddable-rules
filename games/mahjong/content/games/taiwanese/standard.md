@@ -14,12 +14,26 @@ engine:
       honours: [winds, dragons]
       bonus: [flowers, seasons]
       total: 144
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 16
+    community: 0
+    remainder: wall
+    flowers: 8
+    tileSet: mahjong-planar
 published: true
 ---
 
 ## Taiwanese 16-Tile Mahjong
 
 The dominant Mahjong form in Taiwan. Played with 144 tiles. Each player holds 16 tiles and forms five melds plus one pair, rather than the four melds plus one pair of Hong Kong Mahjong.
+
+{{svg:taiwanese-board.svg "Taiwanese Mahjong — table layout"}}
 
 ### Key Differences from Hong Kong
 

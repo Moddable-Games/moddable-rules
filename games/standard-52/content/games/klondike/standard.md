@@ -13,12 +13,27 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: tableau
+    columns: 7
+    cascade: [1, 2, 3, 4, 5, 6, 7]
+    foundations: 4
+  deal:
+    minPlayers: 1
+    maxPlayers: 1
+    defaultPlayers: 1
+    perPlayer: 0
+    community: 0
+    remainder: draw
 published: true
 ---
 
 ## Klondike Solitaire
 
 Klondike is the most widely played solitaire (patience) game in the world and the game most people mean when they say “Solitaire.” The goal is to move all 52 cards to four foundation piles, one per suit, built from Ace to King.
+
+{{svg:klondike-board.svg “Klondike — table layout”}}
 
 ### Setup
 

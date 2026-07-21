@@ -14,6 +14,16 @@ engine:
       count: 1
       jokers: 0
       subset: [9, 10, J, Q, K, A]
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 5
+    community: 0
+    remainder: draw
   partnerships: [[player1, player3], [player2, player4]]
 published: true
 ---
@@ -21,6 +31,8 @@ published: true
 ## Euchre
 
 Euchre is a partnership trick-taking game for four players using only the 24 highest-ranked cards from a standard deck (remove all 2s through 8s). It is especially popular in the American Midwest and Ontario, Canada. The critical Euchre rule is the **Bower system**: the two Jacks of the trump suit (and its same-color counterpart suit) are the two most powerful cards in the game.
+
+{{svg:euchre-board.svg "Euchre — table layout"}}
 
 ### Deck
 

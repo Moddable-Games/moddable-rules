@@ -13,6 +13,16 @@ engine:
       type: standard-52
       count: 2
       jokers: 4
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 11
+    community: 0
+    remainder: draw
   partnerships: [[player1, player3], [player2, player4]]
 published: true
 ---
@@ -22,6 +32,8 @@ published: true
 Canasta is a partnership rummy-style game for four players (two teams of two). The game uses two standard 52-card decks plus 4 Jokers (108 cards total). Players build melds — groups of three or more cards of the same rank — aiming to form Canastas (melds of 7 or more cards). The first partnership to reach 5000 points wins.
 
 Canasta originated in Uruguay in the 1940s and became internationally popular in the 1950s.
+
+{{svg:canasta-board.svg "Canasta — table layout"}}
 
 ### Card Values
 

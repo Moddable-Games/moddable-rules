@@ -8,16 +8,28 @@ win: First to empty their hand
 special: "Shedding card game. Players match the top discard by suit or rank. Eights are wild — playing an 8 lets you name the next suit. The direct ancestor of Uno. 2–5 players, fast and accessible."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: standard-52
+      count: 1
+      jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 5
+    defaultPlayers: 4
+    perPlayer: 5
+    community: 0
+    remainder: draw
 ---
 
 ## Crazy Eights
 
 Crazy Eights is a shedding-type card game where players race to empty their hand by matching the top card of the discard pile by suit or rank. Eights are wild. It is the direct ancestor of Uno and Skip-Bo.
+
+{{svg:crazy-eights-board.svg "Crazy Eights — table layout"}}
 
 ### Players and Cards
 

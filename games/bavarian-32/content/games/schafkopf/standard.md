@@ -8,16 +8,27 @@ win: Declaring side scores 61 or more card points (out of 120)
 special: "Bavaria's defining card game. 4 players, 32-card Bavarian deck, 8 cards each (all dealt, no cards set aside). Permanent trumps: all 4 Obers, all 4 Unters, then the Heart suit. Players bid to be solo declarer or partner caller. The declaring side needs 61+ of 120 card points to win. Core of Bavarian card culture."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: bavarian-32
+      count: 1
+      jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 8
+    community: 0
 ---
 
 ## Schafkopf
 
 Schafkopf (pronounced SHAHF-kopf, meaning "Sheepshead") is the defining card game of Bavaria, Germany. Played seriously in clubs, tournaments, and casual settings throughout southern Germany, it is one of the most culturally embedded regional card games in Europe. The American game **Sheepshead** is derived from Schafkopf brought by German immigrants.
+
+{{svg:schafkopf-board.svg "Schafkopf — table layout"}}
 
 ### The Deck
 

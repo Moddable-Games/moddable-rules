@@ -8,18 +8,27 @@ win: Shooters win by rolling 7 or 11 on the come-out, or making their point befo
 special: "The definitive casino dice game. Two dice. Come-out roll: 7 or 11 wins (Pass), 2/3/12 loses (craps), any other number becomes the Point. Point phase: match the Point before rolling 7 to win; roll 7 first (seven-out) to lose. Pass and Don't Pass are the core bets; the Odds bet behind them carries no house edge."
 published: true
 engine:
-  topology:
-    type: none
   components:
     dice:
       type: standard
       count: 2
       sides: 6
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 1
+    maxPlayers: 12
+    defaultPlayers: 2
+    perPlayer: 0
+    community: 2
 ---
 
 ## Craps
 
 Craps is the definitive casino dice game, played with two six-sided dice. At a casino table, one player (the shooter) rolls while others bet on the outcomes. It can also be played informally without a table (street craps).
+
+{{svg:craps-board.svg "Craps — table layout"}}
 
 ### The Shooter
 

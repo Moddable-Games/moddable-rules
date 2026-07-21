@@ -12,6 +12,16 @@ engine:
     cards:
       deck: hanafuda-48
       values: month-numeric
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 8
+    defaultPlayers: 4
+    perPlayer: 2
+    community: 0
+    remainder: draw
 published: true
 ---
 
@@ -20,6 +30,8 @@ published: true
 A Japanese betting and gambling card game played with Hanafuda (or dedicated Kabufuda) cards. Unlike the matching games, Oicho-Kabu uses the cards’ **month numbers as numeric values**, not their suit imagery. The goal is to hold cards whose values sum to as close to **9** as possible — the word *Kabu* (カブ) means 9.
 
 The game is structurally similar to Baccarat and is the origin of the word *Yakuza* (literally “8-9-3,” a losing hand).
+
+{{svg:oicho-kabu-board.svg “Oicho-Kabu — table layout”}}
 
 ### Card Values
 

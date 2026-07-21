@@ -15,12 +15,26 @@ engine:
       honours: [winds, dragons]
       bonus: [flowers, seasons]
       total: 144
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
+    remainder: wall
+    flowers: 8
+    tileSet: mahjong-planar
 published: true
 ---
 
 ## Hong Kong Mahjong
 
 The most widely played Mahjong ruleset, originating in Guangdong (Cantonese) China. Four players compete to assemble a winning hand of melds and a pair from a shared pool of 144 tiles.
+
+{{svg:hong-kong-board.svg "Hong Kong Mahjong — table layout"}}
 
 ### The Tiles
 

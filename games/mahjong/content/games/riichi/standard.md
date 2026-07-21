@@ -13,12 +13,25 @@ engine:
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       total: 136
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
+    remainder: wall
+    tileSet: mahjong-regular
 published: true
 ---
 
 ## Riichi Mahjong
 
 The Japanese national form of Mahjong. Played with 136 tiles (no flower or season bonus tiles). Introduces the Riichi declaration, the Furiten rule, yaku requirements, and a precise han-plus-fu scoring system with named limit hands.
+
+{{svg:riichi-board.svg "Riichi Mahjong — table layout"}}
 
 ### Key Differences from Hong Kong
 

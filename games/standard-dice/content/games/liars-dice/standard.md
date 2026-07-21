@@ -11,12 +11,23 @@ engine:
     dice_per_player: 5
     die_type: d6
     cup_per_player: true
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 6
+    defaultPlayers: 4
+    perPlayer: 5
+    community: 0
 published: true
 ---
 
 ## Liar’s Dice
 
 A bluffing game for 2–6 players. Each player has 5 dice hidden under a cup. Players bid on how many dice of a given face value exist across **all players’ dice combined** — without seeing anyone else’s dice. Challenge a bid or raise it. The player who is wrong loses a die. Last player with at least one die wins.
+
+{{svg:liars-dice-board.svg "Liar’s Dice — table layout"}}
 
 ### Setup
 

@@ -8,16 +8,27 @@ win: First partnership to win a rubber (best of 3 games) or reach 5 points in Sh
 special: "Classic 4-player partnership trick-taking game and direct ancestor of Bridge. No bidding — trump is determined by the last card dealt. 13 tricks per hand; 1 point per trick above 6. Dominant card game in Europe and North America from 1750 to ~1900."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: standard-52
+      count: 1
+      jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
 ---
 
 ## Whist
 
 Whist is a classic 4-player partnership trick-taking game played with a standard 52-card deck. It is the direct ancestor of Bridge — Bridge added bidding and a dummy hand to Whist's core structure. Whist dominated European and North American card culture from approximately 1750 to 1900, documented in Edmond Hoyle's 1742 *A Short Treatise on the Game of Whist*.
+
+{{svg:whist-board.svg "Whist — table layout"}}
 
 ### Teams
 
