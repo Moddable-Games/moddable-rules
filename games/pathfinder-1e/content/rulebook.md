@@ -79,7 +79,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 
 - [Combat](rules/combat/) — Turn structure, initiative, attack rolls, AC, damage, saving throws
 - [Actions in Combat](rules/combat-actions/) — Every standard, move, full-round, swift, immediate, and free action
-- [Special Attacks & Maneuvers](rules/combat-maneuvers/) — Charges, combat maneuvers, mounted combat, cover, concealment, injury and death
+- [Special Attacks & Maneuvers](rules/combat-maneuvers/) — Charges, combat maneuvers, mounted combat, cover, concealment
 
 **Magic**
 
@@ -100,7 +100,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Dungeons & Traps](rules/environment-dungeons/) — Dungeon types and terrain, trap design and mechanics, sample traps
 - [Wilderness & Urban Adventures](rules/environment-wilderness/) — 7 terrain types, getting lost, city adventuring, siege engines
 - [Weather, Planes & Environmental Rules](rules/environment-weather-planes/) — Weather, storms, planes of existence, falling, drowning
-- [Gamemastering](rules/gamemastering/) — Designing encounters, awarding experience, placing treasure, creating NPCs, beyond 20th level
+- [Gamemastering](rules/gamemastering/) — Encounters, experience, treasure, creating NPCs, beyond 20th level
 
 **Glossary**
 
