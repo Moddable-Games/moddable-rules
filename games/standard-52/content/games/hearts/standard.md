@@ -29,6 +29,8 @@ published: true
 
 Hearts is a trick-avoidance game for four players. The goal is to end the game with the lowest score. Hearts cards and the Queen of Spades carry penalty points — players want to avoid winning tricks containing these cards. However, a player who collects every penalty card in a single hand “Shoots the Moon” and scores zero while opponents each receive 26 points.
 
+{{svg:hearts-board.svg “Hearts — table layout”}}
+
 ### Setup
 
 - 4 players. Standard 52-card deck, no jokers.

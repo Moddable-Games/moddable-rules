@@ -39,6 +39,8 @@ The 1920s saw a nationwide Mahjong craze. By the mid-1920s, so many regional var
 
 In 1937, the NMJL introduced its annually-changing scorecard of winning hands, which has defined modern American Mahjong ever since. **American Mahjong (Classic)** preserves the pre-card-era game: the same 152-tile set, the same Charleston, the same joker rules — but with fixed classical hand patterns rather than a subscription card.
 
+{{svg:american-classic-board.svg "American Classic Mahjong — table layout"}}
+
 ---
 
 ### The Tile Set (152 tiles)

@@ -32,6 +32,8 @@ engine:
 
 FreeCell is a solitaire card game where all 52 cards are dealt face-up at the start. Because every card is visible, almost every deal is solvable with optimal play. The game rewards careful planning over multiple moves.
 
+{{svg:freecell-board.svg "FreeCell — table layout"}}
+
 ### Layout
 
 Deal all 52 cards face-up into **8 tableau columns**:

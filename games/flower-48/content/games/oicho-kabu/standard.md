@@ -31,6 +31,8 @@ A Japanese betting and gambling card game played with Hanafuda (or dedicated Kab
 
 The game is structurally similar to Baccarat and is the origin of the word *Yakuza* (literally “8-9-3,” a losing hand).
 
+{{svg:oicho-kabu-board.svg “Oicho-Kabu — table layout”}}
+
 ### Card Values
 
 Each card’s value is the numeric value of its month:

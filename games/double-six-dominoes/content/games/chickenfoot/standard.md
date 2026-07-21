@@ -27,6 +27,8 @@ engine:
 
 Chickenfoot is a dominoes variant where doubles create a three-pronged branch called a **chickenfoot** — named for its resemblance to a chicken's foot. All three prongs must be filled before play can continue on any other open end of the layout.
 
+{{svg:chickenfoot-board.svg "Chickenfoot — table layout"}}
+
 ### Setup
 
 Use a standard double-six set (28 tiles). Each player draws tiles:

@@ -28,6 +28,8 @@ published: true
 
 A press-your-luck dice game for 2–6 players. On your turn, roll 6 dice, set aside at least one scoring combination, then choose to bank your accumulated points or roll again with the remaining dice. If no dice score on any roll, you **Farkle** — losing all points accumulated that turn. First to 10,000 wins.
 
+{{svg:farkle-board.svg "Farkle — table layout"}}
+
 ### Turn Structure
 
 1. **Roll all 6 dice** (or remaining dice if some are set aside).

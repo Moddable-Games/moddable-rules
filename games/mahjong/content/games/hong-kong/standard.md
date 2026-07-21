@@ -34,6 +34,8 @@ published: true
 
 The most widely played Mahjong ruleset, originating in Guangdong (Cantonese) China. Four players compete to assemble a winning hand of melds and a pair from a shared pool of 144 tiles.
 
+{{svg:hong-kong-board.svg "Hong Kong Mahjong — table layout"}}
+
 ### The Tiles
 
 **Suited tiles (108):** Three suits of nine values each, four copies per value.

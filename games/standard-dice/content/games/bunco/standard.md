@@ -28,6 +28,8 @@ engine:
 
 Bunco is a social dice game for 12 players (or any multiple of 4), organised into 3 tables of 4 players each. It is fast-paced, requires no skill, and is designed for social gatherings — parties, charity events, and group outings throughout North America.
 
+{{svg:bunco-board.svg "Bunco — table layout"}}
+
 ### Setup
 
 - **12 players** at **3 tables**: Head Table, Middle Table, and Losing Table

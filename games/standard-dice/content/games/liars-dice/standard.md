@@ -27,6 +27,8 @@ published: true
 
 A bluffing game for 2–6 players. Each player has 5 dice hidden under a cup. Players bid on how many dice of a given face value exist across **all players’ dice combined** — without seeing anyone else’s dice. Challenge a bid or raise it. The player who is wrong loses a die. Last player with at least one die wins.
 
+{{svg:liars-dice-board.svg "Liar’s Dice — table layout"}}
+
 ### Setup
 
 Each player takes 5 dice and a cup. All players simultaneously shake their dice under their cups, then lift to view their own dice only — keeping them hidden from others.

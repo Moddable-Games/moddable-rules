@@ -33,6 +33,8 @@ published: true
 
 Klondike is the most widely played solitaire (patience) game in the world and the game most people mean when they say “Solitaire.” The goal is to move all 52 cards to four foundation piles, one per suit, built from Ace to King.
 
+{{svg:klondike-board.svg “Klondike — table layout”}}
+
 ### Setup
 
 **Foundations (4 piles, top right):** Start empty. Each foundation is built up in suit from Ace (↓) to King (↑). Completed foundation: A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K.

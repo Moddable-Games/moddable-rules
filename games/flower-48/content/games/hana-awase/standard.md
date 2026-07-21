@@ -28,6 +28,8 @@ published: true
 
 The foundational Hanafuda card-matching game from which Koi-Koi and other variants are derived. Players match cards by suit (month) and collect them; the player with the highest captured value at the end of the round wins.
 
+{{svg:hana-awase-board.svg "Hana-Awase — table layout"}}
+
 ### Setup
 
 **2 players:** deal 8 cards to each player, 8 to the field, 24 as draw pile.

@@ -30,6 +30,8 @@ published: true
 
 Spades is a partnership trick-taking game for four players (two teams of two). Spades are permanently trump. Before each hand, each player bids how many tricks they expect to win, and the partnership must collectively make their bid to score positively. Bags (overtricks) accumulate toward a penalty.
 
+{{svg:spades-board.svg "Spades — table layout"}}
+
 ### Setup
 
 - 4 players in fixed partnerships (North–South and East–West).

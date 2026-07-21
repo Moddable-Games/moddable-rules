@@ -32,6 +32,8 @@ published: true
 
 Also known as Deuces, Pusoy Dos, or Chinese Poker. A climbing card game for exactly four players. Each player receives 13 cards and tries to be the first to empty their hand by playing progressively higher combinations.
 
+{{svg:big2-board.svg "Big 2 — table layout"}}
+
 ### Setup
 
 - 4 players. Deal all 52 cards evenly (13 each).

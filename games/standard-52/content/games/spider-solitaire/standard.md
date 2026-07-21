@@ -32,6 +32,8 @@ engine:
 
 Spider Solitaire is a two-deck solitaire game played across 10 tableau columns. Complete 13-card sequences in the same suit (King down to Ace) are removed from play. It is one of the most widely played solitaire variants, popularised by its inclusion in Microsoft Windows.
 
+{{svg:spider-solitaire-board.svg "Spider Solitaire — table layout"}}
+
 ### Decks and Difficulty
 
 Uses **2 standard 52-card decks** (104 cards total). Three difficulty settings:

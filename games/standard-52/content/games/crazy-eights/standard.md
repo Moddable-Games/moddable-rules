@@ -29,6 +29,8 @@ engine:
 
 Crazy Eights is a shedding-type card game where players race to empty their hand by matching the top card of the discard pile by suit or rank. Eights are wild. It is the direct ancestor of Uno and Skip-Bo.
 
+{{svg:crazy-eights-board.svg "Crazy Eights — table layout"}}
+
 ### Players and Cards
 
 2–5 players. Standard 52-card deck (use two decks for 5+ players).

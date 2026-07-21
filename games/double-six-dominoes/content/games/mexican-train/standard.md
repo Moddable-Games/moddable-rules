@@ -29,6 +29,8 @@ published: true
 
 A domino game for 2–8 players using a **double-12 set** (91 tiles). All trains radiate from a central double (the **hub**). Each player builds their own personal train; a shared **Mexican Train** is always open for anyone to play on. A match consists of 13 rounds (starting from double-12 down to double-0).
 
+{{svg:mexican-train-board.svg "Mexican Train — table layout"}}
+
 ### Components
 
 - **Double-12 set:** 91 tiles (pips 0–12 per half)

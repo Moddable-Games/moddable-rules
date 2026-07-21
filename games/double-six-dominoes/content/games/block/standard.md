@@ -28,6 +28,8 @@ published: true
 
 The simplest Western domino game and the foundation for all others. Players match tiles end-to-end to extend a chain. No drawing from the boneyard — if you cannot play, you pass. First to empty their hand wins.
 
+{{svg:block-board.svg "Block Dominoes — table layout"}}
+
 ### Setup
 
 Shuffle all 28 tiles face-down.

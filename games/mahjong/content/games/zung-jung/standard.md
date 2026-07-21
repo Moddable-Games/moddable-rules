@@ -31,6 +31,8 @@ published: true
 
 Designed by Alan Kwan, a statistician. Used as the official ruleset for the World Series of Mahjong. Zung Jung replaces multiplicative faan scoring with a flat additive point system across 44 named patterns, eliminating most ambiguity in hand valuation.
 
+{{svg:zung-jung-board.svg "Zung Jung Mahjong — table layout"}}
+
 ### Key Differences from Hong Kong
 
 | Rule | Hong Kong | Zung Jung |

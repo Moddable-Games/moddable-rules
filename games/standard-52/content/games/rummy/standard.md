@@ -29,6 +29,8 @@ engine:
 
 Rummy (also called Basic Rummy or Standard Rummy) is the foundational draw-and-discard game from which Gin Rummy, Canasta, and many other games descend. Unlike Gin Rummy, melds are placed face-up on the table during play and opponents may extend them.
 
+{{svg:rummy-board.svg "Rummy — table layout"}}
+
 ### Players and Cards
 
 2–6 players. Standard 52-card deck. Aces may be high or low (agree before play). Face cards = 10 points; numbered cards = face value.

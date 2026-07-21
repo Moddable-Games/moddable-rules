@@ -30,6 +30,8 @@ published: true
 
 Rubber Bridge is the classic home and club form of Contract Bridge, played by four players in two partnerships (North–South vs. East–West). Bridge combines a bidding phase — an auction to determine the contract — with a trick-taking phase where the declaring partnership attempts to fulfil the contract. A rubber is the best of three games.
 
+{{svg:bridge-board.svg "Bridge — table layout"}}
+
 ### Setup
 
 - 4 players in fixed partnerships: North–South and East–West.

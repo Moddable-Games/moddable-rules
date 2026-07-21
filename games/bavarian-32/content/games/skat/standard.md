@@ -32,6 +32,8 @@ Skat is Germany’s national card game and one of the most strategically complex
 
 Origin: Altenburg, Germany, early 19th century. Codified by the Deutscher Skatverband (German Skat Federation).
 
+{{svg:skat-board.svg "Skat — table layout"}}
+
 ### The Deck
 
 32 cards: 4 suits × 8 ranks (7, 8, 9, 10, Jack, Queen, King, Ace). No Jokers.

@@ -28,6 +28,8 @@ engine:
 
 Craps is the definitive casino dice game, played with two six-sided dice. At a casino table, one player (the shooter) rolls while others bet on the outcomes. It can also be played informally without a table (street craps).
 
+{{svg:craps-board.svg "Craps — table layout"}}
+
 ### The Shooter
 
 The **shooter** is the player rolling the dice. In a casino, players take turns as shooter; the dice pass clockwise after a seven-out.

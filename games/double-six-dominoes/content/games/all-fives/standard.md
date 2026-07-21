@@ -28,6 +28,8 @@ published: true
 
 Also called **Muggins**. A scoring domino game played with the double-6 set. Block rules apply, but players score points during play whenever the exposed ends of the chain sum to a multiple of 5. First to 61 (short game) or 121 (long game) wins.
 
+{{svg:all-fives-board.svg "All Fives — table layout"}}
+
 ### Setup
 
 - **2 players:** draw 7 tiles each; remainder = boneyard

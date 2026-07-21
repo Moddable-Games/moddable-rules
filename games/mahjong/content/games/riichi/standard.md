@@ -31,6 +31,8 @@ published: true
 
 The Japanese national form of Mahjong. Played with 136 tiles (no flower or season bonus tiles). Introduces the Riichi declaration, the Furiten rule, yaku requirements, and a precise han-plus-fu scoring system with named limit hands.
 
+{{svg:riichi-board.svg "Riichi Mahjong — table layout"}}
+
 ### Key Differences from Hong Kong
 
 | Rule | Hong Kong | Riichi |

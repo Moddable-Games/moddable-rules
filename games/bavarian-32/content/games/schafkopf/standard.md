@@ -28,6 +28,8 @@ engine:
 
 Schafkopf (pronounced SHAHF-kopf, meaning "Sheepshead") is the defining card game of Bavaria, Germany. Played seriously in clubs, tournaments, and casual settings throughout southern Germany, it is one of the most culturally embedded regional card games in Europe. The American game **Sheepshead** is derived from Schafkopf brought by German immigrants.
 
+{{svg:schafkopf-board.svg "Schafkopf — table layout"}}
+
 ### The Deck
 
 32-card Bavarian pattern deck: 4 suits × 8 ranks. The suits are Acorns, Leaves, Hearts, and Bells (equivalent to Clubs, Spades, Hearts, and Diamonds in French-suited decks). The ranks in each suit: Ace (Sau), King, Ober, Unter, 10, 9, 8, 7.

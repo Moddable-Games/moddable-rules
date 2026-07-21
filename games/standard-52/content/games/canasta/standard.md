@@ -33,6 +33,8 @@ Canasta is a partnership rummy-style game for four players (two teams of two). T
 
 Canasta originated in Uruguay in the 1940s and became internationally popular in the 1950s.
 
+{{svg:canasta-board.svg "Canasta — table layout"}}
+
 ### Card Values
 
 | Card | Point Value |

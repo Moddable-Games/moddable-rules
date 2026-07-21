@@ -34,6 +34,8 @@ engine:
 
 Also known as Scum, Asshole, or Capitalism. A multi-round climbing card game where finishing position in each round determines your role (and advantages) in the next.
 
+{{svg:president-board.svg "President — table layout"}}
+
 ### Setup
 
 - 4 to 8 players

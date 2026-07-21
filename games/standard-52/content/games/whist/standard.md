@@ -28,6 +28,8 @@ engine:
 
 Whist is a classic 4-player partnership trick-taking game played with a standard 52-card deck. It is the direct ancestor of Bridge — Bridge added bidding and a dummy hand to Whist's core structure. Whist dominated European and North American card culture from approximately 1750 to 1900, documented in Edmond Hoyle's 1742 *A Short Treatise on the Game of Whist*.
 
+{{svg:whist-board.svg "Whist — table layout"}}
+
 ### Teams
 
 Four players in two partnerships: North/South vs East/West. Partners sit opposite each other.

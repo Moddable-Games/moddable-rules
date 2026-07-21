@@ -33,6 +33,8 @@ published: true
 
 The dominant Mahjong form in Taiwan. Played with 144 tiles. Each player holds 16 tiles and forms five melds plus one pair, rather than the four melds plus one pair of Hong Kong Mahjong.
 
+{{svg:taiwanese-board.svg "Taiwanese Mahjong — table layout"}}
+
 ### Key Differences from Hong Kong
 
 | Rule | Hong Kong | Taiwanese 16-Tile |

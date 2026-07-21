@@ -28,6 +28,8 @@ published: true
 
 A dice game for 1–4 players in which each player completes a scorecard of 13 categories over 13 rounds. Each turn allows up to three rolls of five dice, with the player choosing which dice to keep after each roll. Highest total score wins.
 
+{{svg:yahtzee-board.svg "Yahtzee — table layout"}}
+
 ### Turn Structure
 
 1. **Roll all 5 dice.**

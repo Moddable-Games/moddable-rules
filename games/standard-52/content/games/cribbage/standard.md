@@ -33,6 +33,12 @@ published: true
 
 Cribbage is a two-player card game in which the primary goal is to be the first to peg 121 points on a cribbage board. Points are scored in three phases: the deal (crib), the pegging phase (playing out cards alternately), and the show (hand counting after play). Attributed to the poet Sir John Suckling (England, early 17th century).
 
+{{svg:cribbage-board.svg "Cribbage — table layout"}}
+
+{{svg:cribbage-three-player-board.svg "Cribbage — three-player layout"}}
+
+{{svg:cribbage-four-player-board.svg "Cribbage — four-player layout"}}
+
 ### The Cribbage Board
 
 Each player has a track of 120 holes (pegging twice around a 60-hole board) plus a game hole at 121. Two pegs per player allow tracking from 0 to 121. The game ends immediately when any player’s front peg reaches or passes hole 121.

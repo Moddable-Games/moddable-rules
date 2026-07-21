@@ -27,7 +27,9 @@ published: true
 
 ## Koi-Koi
 
-The most widely played Hanafuda game. Two players compete over 12 rounds (one per month). Each round, players match cards from their hand to the table by suit, building a captured pile. When a player completes a scoring pattern (yaku), they choose: declare a win and collect points, or say **“Koi-Koi”** (「こいこい」, “come on”) to continue playing for a higher score — at the cost of losing the bonus if the opponent scores first.
+The most widely played Hanafuda game. Two players compete over 12 rounds (one per month). Each round, players match cards from their hand to the table by suit, building a captured pile. When a player completes a scoring pattern (yaku), they choose: declare a win and collect points, or say **”Koi-Koi”** (「こいこい」, “come on”) to continue playing for a higher score — at the cost of losing the bonus if the opponent scores first.
+
+{{svg:koi-koi-board.svg “Koi-Koi — table layout”}}
 
 ### Setup
 

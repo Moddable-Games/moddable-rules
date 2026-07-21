@@ -28,6 +28,8 @@ engine:
 
 War is a 2-player card game of pure chance — there are no decisions to make. It is one of the most widely known card games in the world, particularly among children.
 
+{{svg:war-board.svg "War — table layout"}}
+
 ### Setup
 
 Shuffle a standard 52-card deck and deal all 26 cards face-down to each player. Neither player looks at their cards. Card values, lowest to highest: 2 through 10, Jack, Queen, King, Ace. Suits do not affect the outcome.
