@@ -84,11 +84,11 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 **Magic**
 
 - [Magic](rules/magic/) — Casting spells, concentration, counterspells, arcane vs divine casting
-- [Spell Statistics](rules/magic-spell-statistics/) — How to read a spell's stat block: school, components, range, area, duration, saving throw
+- [Spell Statistics](rules/magic-spell-statistics/) — Reading a spell stat block: school, components, range, duration, saving throw
 
 **Equipment**
 
-- [Wealth, Money & Special Materials](rules/equipment-wealth-materials/) — Currency, trade goods, special materials (adamantine, mithral, etc.)
+- [Wealth, Money & Special Materials](rules/equipment-wealth-materials/) — Currency, trade goods, special materials (adamantine, mithral)
 - [Weapons](rules/equipment-weapons/) — All 81 core weapons: categories, proficiency, weapon qualities, descriptions
 - [Armor](rules/equipment-armor/) — All 21 armors and shields: AC bonuses, penalties, donning/removing, materials
 - [Adventuring Gear, Substances & Tools](rules/equipment-goods-1/) — Adventuring gear, alchemical items, special substances, tools, kits
