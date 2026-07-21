@@ -562,18 +562,25 @@ function buildVariants(slug) {
       ? `<a href="../${next.slug}/" class="variant-pager-next">${next.meta.title} →</a>`
       : '<span class="variant-pager-spacer"></span>';
 
+    const gameTitle = parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug;
+    const board = meta.board || '';
+    const players = meta.players || '';
+    const coverLabel = `${gameTitle} · Variant ${meta.order || i + 1} of ${variants.length}`;
+    const statsHtml = [];
+    if (board) statsHtml.push(`<span class="variant-stat"><span class="variant-stat-val">${board}</span><span class="variant-stat-lbl">Board</span></span>`);
+    if (players) statsHtml.push(`<span class="variant-stat"><span class="variant-stat-val">${players}</span><span class="variant-stat-lbl">Players</span></span>`);
+    const coverStats = statsHtml.length ? `<div class="variant-cover-stats">${statsHtml.join('\n      ')}</div>` : '';
+
     let output = template.replace('{{CONTENT}}', rendered);
     output = output.replace(/\{\{variant_title\}\}/g, meta.title || variantSlug);
     output = output.replace(/\{\{variant_slug\}\}/g, variantSlug);
-    output = output.replace(/\{\{variant_board\}\}/g, meta.board || '8×8');
-    output = output.replace(/\{\{variant_players\}\}/g, meta.players || '2');
-    output = output.replace(/\{\{variant_order\}\}/g, String(meta.order || i + 1));
-    output = output.replace(/\{\{variant_total\}\}/g, String(variants.length));
+    output = output.replace(/\{\{cover_label\}\}/g, coverLabel);
+    output = output.replace('{{cover_stats}}', coverStats);
     const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
     output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
     output = output.replace(/\{\{project_version\}\}/g, projVer);
-    output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
-    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{game_title\}\}/g, gameTitle);
+    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || gameTitle);
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace(/\{\{hub_label\}\}/g, 'All Variants');
     output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/variants/${variantSlug}.md`);
@@ -853,18 +860,23 @@ function buildComponentGames(slug) {
       ? `<a href="../${next.slug}/" class="variant-pager-next">${next.meta.title} →</a>`
       : '<span class="variant-pager-spacer"></span>';
 
+    const gameTitle = parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug;
+    const players = meta.players || '';
+    const coverLabel = `${gameTitle} · Game ${i + 1} of ${games.length}`;
+    const statsHtml = [];
+    if (players) statsHtml.push(`<span class="variant-stat"><span class="variant-stat-val">${players}</span><span class="variant-stat-lbl">Players</span></span>`);
+    const coverStats = statsHtml.length ? `<div class="variant-cover-stats">${statsHtml.join('\n      ')}</div>` : '';
+
     let output = template.replace('{{CONTENT}}', rendered);
     output = output.replace(/\{\{variant_title\}\}/g, meta.title || gameSlug);
     output = output.replace(/\{\{variant_slug\}\}/g, gameSlug);
-    output = output.replace(/\{\{variant_board\}\}/g, meta.board || '');
-    output = output.replace(/\{\{variant_players\}\}/g, meta.players || '');
-    output = output.replace(/\{\{variant_order\}\}/g, String(i + 1));
-    output = output.replace(/\{\{variant_total\}\}/g, String(games.length));
+    output = output.replace(/\{\{cover_label\}\}/g, coverLabel);
+    output = output.replace('{{cover_stats}}', coverStats);
     const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
     output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
     output = output.replace(/\{\{project_version\}\}/g, projVer);
-    output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
-    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Component Hub$/, '').replace(/ — Official Rulebook$/, '') || slug);
+    output = output.replace(/\{\{game_title\}\}/g, gameTitle);
+    output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || gameTitle);
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace(/\{\{hub_label\}\}/g, 'All Games');
     output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/games/${gameSlug}/standard.md`);
@@ -927,18 +939,19 @@ function buildPages(slug) {
       rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
                          .replace(/<\/table>/g, '</table></div>');
 
+      const gameTitle = parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug;
+      const coverLabel = gameTitle;
+
       let output = template.replace('{{CONTENT}}', rendered);
       output = output.replace(/\{\{variant_title\}\}/g, meta.title || pageSlug);
       output = output.replace(/\{\{variant_slug\}\}/g, pageSlug);
-      output = output.replace(/\{\{variant_board\}\}/g, '');
-      output = output.replace(/\{\{variant_players\}\}/g, '');
-      output = output.replace(/\{\{variant_order\}\}/g, '');
-      output = output.replace(/\{\{variant_total\}\}/g, '');
+      output = output.replace(/\{\{cover_label\}\}/g, coverLabel);
+      output = output.replace('{{cover_stats}}', '');
       const projVer = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
       output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
       output = output.replace(/\{\{project_version\}\}/g, projVer);
-      output = output.replace(/\{\{game_title\}\}/g, parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
-      output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || parentMeta.title?.replace(/ — Official Rulebook$/, '') || slug);
+      output = output.replace(/\{\{game_title\}\}/g, gameTitle);
+      output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || gameTitle);
       output = output.replace(/\{\{slug\}\}/g, slug);
       output = output.replace(/\{\{hub_label\}\}/g, 'Contents');
       output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/${subdir.name}/${file}`);
