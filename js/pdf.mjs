@@ -350,11 +350,15 @@ for (const slug of slugs) {
 
   console.log(`  Generated ${allVariantPdfs.length} individual variant PDFs`);
 
-  // Combined library PDF (skip for games with standalone variant PDFs only)
+  // Combined library PDF (rulebook + all variants)
   const skipLibrary = ['nukes'];
   if (allVariantPdfs.length > 0 && !skipLibrary.includes(slug)) {
     const combinedPath = resolve(gameDir, 'pdf', `${slug}-variant-library-v${version}.pdf`);
-    execSync(`pdfunite ${allVariantPdfs.map(p => `"${p}"`).join(' ')} "${combinedPath}"`);
+    const rulebookPdf = resolve(gameDir, 'pdf', `${slug}-rulebook.pdf`);
+    const libraryParts = existsSync(rulebookPdf)
+      ? [rulebookPdf, ...allVariantPdfs]
+      : allVariantPdfs;
+    execSync(`pdfunite ${libraryParts.map(p => `"${p}"`).join(' ')} "${combinedPath}"`);
     const totalPages = parseInt(
       execSync(`pdfinfo "${combinedPath}" | grep Pages | awk '{print $2}'`).toString().trim()
     );
