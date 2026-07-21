@@ -1,0 +1,288 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 15,
+  "range": "Dragon, Chromatic, Blue (Young / Adult / Ancient)",
+  "count": 3,
+  "creatures": [
+    {
+      "name": "Dragon, Chromatic, Blue, Young",
+      "creature_type": "Dragon",
+      "creature_subtype": "earth",
+      "cr": "9",
+      "xp": "6,400",
+      "alignment": "LE",
+      "size": "Large",
+      "init": "+5",
+      "senses": "dragon senses; Perception +14",
+      "languages": "Common, Draconic",
+      "ac": "21, touch 10, flat-footed 20 (+1 Dex, +11 natural, -1 size)",
+      "hp": "95 (10d12+30)",
+      "saving_throws": {
+        "fort": "+10",
+        "ref": "+8",
+        "will": "+8"
+      },
+      "immune": "electricity, paralysis, sleep",
+      "speed": "40 ft., burrow 20 ft., fly 200 ft. (poor)",
+      "melee": "bite +15 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)",
+      "special_attacks": "breath weapon (80-ft. line, DC 18, 6d8 electricity), desert thirst (DC 16)",
+      "special_qualities": "sound imitation",
+      "space": "10 ft.",
+      "reach": "5 ft. (10 ft. with bite)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 10th) At will—ghost sound (DC 11)"
+        }
+      ],
+      "ability_scores": {
+        "str": "21",
+        "dex": "12",
+        "con": "17",
+        "int": "12",
+        "wis": "13",
+        "cha": "12"
+      },
+      "base_attack": "+10",
+      "cmb": "+16",
+      "cmd": "27 (31 vs. trip)",
+      "feats": "Dazzling Display, Improved Initiative, Multiattack, Shatter Defenses, Weapon Focus (bite)",
+      "skills": "Bluff +14, Fly +8, Intimidate +14, Knowledge (local) +14, Perception +14, Stealth +10, Survival +14",
+      "environment": "warm deserts",
+      "organization": "solitary",
+      "treasure": "triple",
+      "special_abilities": [
+        {
+          "name": "Desert Thirst",
+          "type": "Su",
+          "description": "A blue dragon can cast create water at will (CL equals its HD). Alternatively, it can destroy an equal amount of liquid in a 10-foot burst. Unattended liquids are instantly reduced to sand. Liquid-based magic items (such as potions) and items in a creature's possession must succeed on a Will save or be destroyed. The save DC is Charisma-based."
+        },
+        {
+          "name": "Sound Imitation",
+          "type": "Ex",
+          "description": "A very young or older blue dragon can mimic any voice or sound it has heard by making a successful Bluff check against a listener's Sense Motive check."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Dragon, Blue — Age Category",
+          "headers": ["Age Category", "Special Abilities", "Caster Level"],
+          "rows": [
+            ["Wyrmling", "Desert thirst, immune to electricity", "—"],
+            ["Very young", "Sound imitation", "—"],
+            ["Young", "Ghost sound", "—"],
+            ["Juvenile", "Frightful presence, Minor image", "1st"],
+            ["Young adult", "DR 5/magic, spell resistance", "3rd"],
+            ["Adult", "Electricity aura, Ventriloquism", "5th"],
+            ["Mature adult", "DR 10/magic", "7th"],
+            ["Old", "Mirage, Hallucinatory terrain", "9th"],
+            ["Very old", "DR 15/magic", "11th"],
+            ["Ancient", "Storm breath, Veil", "13th"],
+            ["Wyrm", "DR 20/magic", "15th"],
+            ["Great wyrm", "Sandstorm, Mirage arcana", "17th"]
+          ]
+        }
+      ],
+      "ecology": "Blue dragons are consummate schemers and obsessively orderly. In combat, blue dragons prefer to surprise foes if possible, and are not above retreating if the odds turn against them. They prefer to lair near those that they control, sometimes even within the confines of a city.\n\nA blue dragon gains additional spell-like abilities as it ages: ghost sound at Young, minor image at Juvenile, ventriloquism at Adult, hallucinatory terrain at Old, veil at Ancient, and mirage arcana at Great Wyrm, each usable at will.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Dragon, Chromatic, Blue, Adult",
+      "creature_type": "Dragon",
+      "creature_subtype": "earth",
+      "cr": "13",
+      "xp": "25,600",
+      "alignment": "LE",
+      "size": "Huge",
+      "init": "+4",
+      "senses": "dragon senses; Perception +22",
+      "languages": "Auran, Common, Draconic, Giant",
+      "ac": "28, touch 8, flat-footed 28 (+20 natural, -2 size)",
+      "hp": "184 (16d12+80)",
+      "saving_throws": {
+        "fort": "+15",
+        "ref": "+10",
+        "will": "+13"
+      },
+      "immune": "electricity, paralysis, sleep",
+      "aura": "electricity (5 ft., 1d6 elect.), frightful presence (180 ft., DC 21)",
+      "sr": "24",
+      "dr": "5/magic",
+      "speed": "40 ft., burrow 20 ft., fly 200 ft. (poor)",
+      "melee": "bite +23 (2d8+12), 2 claws +22 (2d6+8), 2 wings +20 (1d8+4), tail slap +20 (2d6+12)",
+      "special_attacks": "breath weapon (100-ft. line, DC 23, 12d8 electricity), crush, desert thirst (DC 21)",
+      "special_qualities": "sound imitation",
+      "space": "15 ft.",
+      "reach": "10 ft. (15 ft. with bite)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 16th) At will—ghost sound (DC 13), minor image (DC 15), ventriloquism (DC 14)"
+        },
+        {
+          "type": "Spells Known",
+          "text": "(CL 5th) 2nd (5/day)—invisibility, resist energy; 1st (7/day)—alarm, mage armor, shield, true strike; 0 (at will)—arcane mark, detect magic, mage hand, mending, read magic, resistance"
+        }
+      ],
+      "ability_scores": {
+        "str": "27",
+        "dex": "10",
+        "con": "21",
+        "int": "16",
+        "wis": "17",
+        "cha": "16"
+      },
+      "base_attack": "+16",
+      "cmb": "+26",
+      "cmd": "36 (40 vs. trip)",
+      "feats": "Combat Casting, Dazzling Display, Deadly Stroke, Hover, Improved Initiative, Multiattack, Shatter Defenses, Weapon Focus (bite)",
+      "skills": "Bluff +22, Fly +11, Intimidate +22, Knowledge (local) +22, Knowledge (geography) +22, Perception +22, Spellcraft +22, Stealth +11, Survival +22",
+      "environment": "warm deserts",
+      "organization": "solitary",
+      "treasure": "triple",
+      "special_abilities": [
+        {
+          "name": "Desert Thirst",
+          "type": "Su",
+          "description": "A blue dragon can cast create water at will (CL equals its HD). Alternatively, it can destroy an equal amount of liquid in a 10-foot burst. Unattended liquids are instantly reduced to sand. Liquid-based magic items (such as potions) and items in a creature's possession must succeed on a Will save or be destroyed. The save DC is Charisma-based."
+        },
+        {
+          "name": "Electricity Aura",
+          "type": "Su",
+          "description": "An adult blue dragon is surrounded by an aura of electricity. Creatures within 5 feet take 1d6 points of electricity damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6."
+        },
+        {
+          "name": "Sound Imitation",
+          "type": "Ex",
+          "description": "A very young or older blue dragon can mimic any voice or sound it has heard by making a successful Bluff check against a listener's Sense Motive check."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Dragon, Blue — Age Category",
+          "headers": ["Age Category", "Special Abilities", "Caster Level"],
+          "rows": [
+            ["Wyrmling", "Desert thirst, immune to electricity", "—"],
+            ["Very young", "Sound imitation", "—"],
+            ["Young", "Ghost sound", "—"],
+            ["Juvenile", "Frightful presence, Minor image", "1st"],
+            ["Young adult", "DR 5/magic, spell resistance", "3rd"],
+            ["Adult", "Electricity aura, Ventriloquism", "5th"],
+            ["Mature adult", "DR 10/magic", "7th"],
+            ["Old", "Mirage, Hallucinatory terrain", "9th"],
+            ["Very old", "DR 15/magic", "11th"],
+            ["Ancient", "Storm breath, Veil", "13th"],
+            ["Wyrm", "DR 20/magic", "15th"],
+            ["Great wyrm", "Sandstorm, Mirage arcana", "17th"]
+          ]
+        }
+      ],
+      "ecology": "Blue dragons are consummate schemers and obsessively orderly. In combat, blue dragons prefer to surprise foes if possible, and are not above retreating if the odds turn against them. They prefer to lair near those that they control, sometimes even within the confines of a city.\n\nA blue dragon gains additional spell-like abilities as it ages: ghost sound at Young, minor image at Juvenile, ventriloquism at Adult, hallucinatory terrain at Old, veil at Ancient, and mirage arcana at Great Wyrm, each usable at will.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Dragon, Chromatic, Blue, Ancient",
+      "creature_type": "Dragon",
+      "creature_subtype": "earth",
+      "cr": "18",
+      "xp": "153,600",
+      "alignment": "LE",
+      "size": "Gargantuan",
+      "init": "+3",
+      "senses": "dragon senses; Perception +32",
+      "languages": "Auran, Common, Draconic, Giant, Ignan, Infernal",
+      "ac": "37, touch 5, flat-footed 37 (-1 Dex, +32 natural, -4 size)",
+      "hp": "324 (24d12+168)",
+      "saving_throws": {
+        "fort": "+21",
+        "ref": "+13",
+        "will": "+19"
+      },
+      "immune": "electricity, paralysis, sleep",
+      "aura": "electricity (10 ft., 2d6 electricity), frightful presence (300 ft., DC 27)",
+      "sr": "29",
+      "dr": "15/magic",
+      "speed": "40 ft., burrow 20 ft., fly 250 ft. (clumsy)",
+      "melee": "bite +33 (4d6+18/19-20), 2 claws +32 (2d8+12), 2 wings +30 (2d6+6), tail slap +30 (2d8+18)",
+      "special_attacks": "breath weapon (120-ft. line, DC 29, 20d8 electricity), crush, desert thirst (DC 27), mirage, storm breath (DC 29, 20d8 electricity), tail sweep",
+      "special_qualities": "sound imitation",
+      "space": "20 ft.",
+      "reach": "15 ft. (20 ft. with bite)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 24th) At will—ghost sound (DC 15), hallucinatory terrain (DC 19), minor image (DC 17), veil, ventriloquism (DC 16)"
+        },
+        {
+          "type": "Spells Known",
+          "text": "(CL 13th) 6th (4/day)—forceful hand, mislead; 5th (7/day)—dream, persistent image, hold monster (DC 20); 4th (7/day)—dimension door, enervation, fire shield, stoneskin; 3rd (7/day)—dispel magic, displacement, haste, vampiric touch; 2nd (7/day)—darkness, false life, invisibility, resist energy, shatter; 1st (7/day)—alarm, mage armor, shield, true strike, unseen servant; 0 (at will)—arcane mark, bleed (DC 15), detect magic, light, mage hand, mending, message, read magic, resistance"
+        }
+      ],
+      "ability_scores": {
+        "str": "35",
+        "dex": "8",
+        "con": "25",
+        "int": "20",
+        "wis": "21",
+        "cha": "20"
+      },
+      "base_attack": "+24",
+      "cmb": "+40",
+      "cmd": "49 (53 vs. trip)",
+      "feats": "Combat Casting, Dazzling Display, Deadly Stroke, Extend Spell, Hover, Improved Critical (bite), Improved Initiative, Multiattack, Quicken Spell, Silent Spell, Shatter Defenses, Weapon Focus (bite)",
+      "skills": "Bluff +32, Fly +10, Intimidate +32, Knowledge (arcana) +32, Knowledge (history) +32, Knowledge (local) +32, Knowledge (geography) +32, Perception +32, Spellcraft +32, Stealth +14, Survival +32",
+      "environment": "warm deserts",
+      "organization": "solitary",
+      "treasure": "triple",
+      "special_abilities": [
+        {
+          "name": "Desert Thirst",
+          "type": "Su",
+          "description": "A blue dragon can cast create water at will (CL equals its HD). Alternatively, it can destroy an equal amount of liquid in a 10-foot burst. Unattended liquids are instantly reduced to sand. Liquid-based magic items (such as potions) and items in a creature's possession must succeed on a Will save or be destroyed. The save DC is Charisma-based."
+        },
+        {
+          "name": "Electricity Aura",
+          "type": "Su",
+          "description": "An adult blue dragon is surrounded by an aura of electricity. Creatures within 5 feet take 1d6 points of electricity damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6."
+        },
+        {
+          "name": "Mirage",
+          "type": "Su",
+          "description": "An old or older blue dragon can make itself appear to be in two places at once as a free action for a number of rounds per day equal to its Hit Dice. This ability functions as project image but the dragon can use its breath weapon through the mirage."
+        },
+        {
+          "name": "Sound Imitation",
+          "type": "Ex",
+          "description": "A very young or older blue dragon can mimic any voice or sound it has heard by making a successful Bluff check against a listener's Sense Motive check."
+        },
+        {
+          "name": "Storm Breath",
+          "type": "Su",
+          "description": "An ancient or older blue dragon can use its breath weapon to create a storm of lightning. This functions as call lightning storm, but the damage is equal to the dragon's breath weapon. The dragon can call down 1 bolt per round as a free action for 1d6 rounds. The save DC is equal to the dragon's breath weapon DC. Additional uses of this ability extend the duration by an additional 1d6 rounds."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Dragon, Blue — Age Category",
+          "headers": ["Age Category", "Special Abilities", "Caster Level"],
+          "rows": [
+            ["Wyrmling", "Desert thirst, immune to electricity", "—"],
+            ["Very young", "Sound imitation", "—"],
+            ["Young", "Ghost sound", "—"],
+            ["Juvenile", "Frightful presence, Minor image", "1st"],
+            ["Young adult", "DR 5/magic, spell resistance", "3rd"],
+            ["Adult", "Electricity aura, Ventriloquism", "5th"],
+            ["Mature adult", "DR 10/magic", "7th"],
+            ["Old", "Mirage, Hallucinatory terrain", "9th"],
+            ["Very old", "DR 15/magic", "11th"],
+            ["Ancient", "Storm breath, Veil", "13th"],
+            ["Wyrm", "DR 20/magic", "15th"],
+            ["Great wyrm", "Sandstorm, Mirage arcana", "17th"]
+          ]
+        }
+      ],
+      "ecology": "Blue dragons are consummate schemers and obsessively orderly. In combat, blue dragons prefer to surprise foes if possible, and are not above retreating if the odds turn against them. They prefer to lair near those that they control, sometimes even within the confines of a city.\n\nA blue dragon gains additional spell-like abilities as it ages: ghost sound at Young, minor image at Juvenile, ventriloquism at Adult, hallucinatory terrain at Old, veil at Ancient, and mirage arcana at Great Wyrm, each usable at will.",
+      "source": "Bestiary"
+    }
+  ]
+}
