@@ -1,0 +1,398 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 11,
+  "range": "Elemental, Fire (Small – Elder)",
+  "count": 6,
+  "creatures": [
+    {
+      "name": "Elemental, Fire, Small",
+      "creature_type": "Outsider",
+      "creature_subtype": "elemental, extraplanar, fire",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "N",
+      "size": "Small",
+      "init": "+5",
+      "senses": "darkvision 60 ft.; Perception +4",
+      "languages": "Ignan",
+      "ac": "16, touch 13, flat-footed 14 (+1 Dex, +1 dodge, +3 natural, +1 size)",
+      "hp": "11 (2d10)",
+      "saving_throws": {
+        "fort": "+3",
+        "ref": "+4",
+        "will": "+0"
+      },
+      "immune": "elemental traits, fire",
+      "weaknesses": "vulnerability to cold",
+      "speed": "50 ft.",
+      "melee": "slam +4 (1d4 plus burn)",
+      "special_attacks": "burn (1d4, DC 11)",
+      "ability_scores": {
+        "str": "10",
+        "dex": "13",
+        "con": "10",
+        "int": "4",
+        "wis": "11",
+        "cha": "11"
+      },
+      "base_attack": "+2",
+      "cmb": "+1",
+      "cmd": "13",
+      "feats": "Dodge, Improved InitiativeB, Weapon FinesseB",
+      "skills": "Acrobatics +5, Climb +4, Escape Artist +5, Intimidate +4, Knowledge (planes) +1, Perception +4",
+      "environment": "any (Plane of Fire)",
+      "organization": "solitary, pair, or gang (3-8)",
+      "treasure": "none",
+      "special_abilities": [
+        {
+          "name": "Burn",
+          "type": "Ex",
+          "description": "A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage at the start of its turn for an additional 1d4 rounds (DC 10 + 1/2 the attacking creature's racial HD + the attacking creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit the monster with natural weapons or unarmed attacks take fire damage as though hit by the monster's burn attack and must make a Reflex save to avoid catching on fire (see page 444 of the Pathfinder RPG Core Rulebook)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Elemental, Fire — Size Table",
+          "headers": ["Elemental", "Height", "Weight"],
+          "rows": [
+            ["Small", "4 ft.", "1 lb."],
+            ["Medium", "8 ft.", "2 lbs."],
+            ["Large", "16 ft.", "4 lbs."],
+            ["Huge", "32 ft.", "8 lbs."],
+            ["Greater", "36 ft.", "10 lbs."],
+            ["Elder", "40 ft.", "12 lbs."]
+          ]
+        }
+      ],
+      "ecology": "Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.\n\nA fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassable barrier unless the fire elemental can step or jump over it or the water is covered with a flammable material (such as a layer of oil).\n\nFire elementals vary in appearance—they usually manifest as coiling serpentine forms made of smoke and flame, but some fire elementals take on shapes more akin to humans, demons, or other monsters in order to increase the terror of their sudden appearance. Features on a fire elemental's body are made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Elemental, Fire, Medium",
+      "creature_type": "Outsider",
+      "creature_subtype": "elemental, extraplanar, fire",
+      "cr": "3",
+      "xp": "800",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+7",
+      "senses": "darkvision 60 ft.; Perception +7",
+      "languages": "Ignan",
+      "ac": "17, touch 14, flat-footed 13 (+3 Dex, +1 dodge, +3 natural)",
+      "hp": "30 (4d10+8)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+7",
+        "will": "+1"
+      },
+      "immune": "elemental traits, fire",
+      "weaknesses": "vulnerability to cold",
+      "speed": "50 ft.",
+      "melee": "slam +7 (1d6+1 plus burn)",
+      "special_attacks": "burn (1d6, DC 14)",
+      "ability_scores": {
+        "str": "12",
+        "dex": "17",
+        "con": "14",
+        "int": "4",
+        "wis": "11",
+        "cha": "11"
+      },
+      "base_attack": "+4",
+      "cmb": "+5",
+      "cmd": "19",
+      "feats": "Dodge, Improved InitiativeB, Mobility, Weapon FinesseB",
+      "skills": "Acrobatics +8, Climb +5, Escape Artist +8, Intimidate +5, Knowledge (planes) +1, Perception +7",
+      "environment": "any (Plane of Fire)",
+      "organization": "solitary, pair, or gang (3-8)",
+      "treasure": "none",
+      "special_abilities": [
+        {
+          "name": "Burn",
+          "type": "Ex",
+          "description": "A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage at the start of its turn for an additional 1d4 rounds (DC 10 + 1/2 the attacking creature's racial HD + the attacking creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit the monster with natural weapons or unarmed attacks take fire damage as though hit by the monster's burn attack and must make a Reflex save to avoid catching on fire (see page 444 of the Pathfinder RPG Core Rulebook)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Elemental, Fire — Size Table",
+          "headers": ["Elemental", "Height", "Weight"],
+          "rows": [
+            ["Small", "4 ft.", "1 lb."],
+            ["Medium", "8 ft.", "2 lbs."],
+            ["Large", "16 ft.", "4 lbs."],
+            ["Huge", "32 ft.", "8 lbs."],
+            ["Greater", "36 ft.", "10 lbs."],
+            ["Elder", "40 ft.", "12 lbs."]
+          ]
+        }
+      ],
+      "ecology": "Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.\n\nA fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassable barrier unless the fire elemental can step or jump over it or the water is covered with a flammable material (such as a layer of oil).\n\nFire elementals vary in appearance—they usually manifest as coiling serpentine forms made of smoke and flame, but some fire elementals take on shapes more akin to humans, demons, or other monsters in order to increase the terror of their sudden appearance. Features on a fire elemental's body are made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Elemental, Fire, Large",
+      "creature_type": "Outsider",
+      "creature_subtype": "elemental, extraplanar, fire",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+9",
+      "senses": "darkvision 60 ft.; Perception +11",
+      "languages": "Ignan",
+      "ac": "19, touch 15, flat-footed 13 (+5 Dex, +1 dodge, +4 natural, -1 size)",
+      "hp": "60 (8d10+16)",
+      "saving_throws": {
+        "fort": "+8",
+        "ref": "+11",
+        "will": "+4"
+      },
+      "immune": "elemental traits, fire",
+      "weaknesses": "vulnerability to cold",
+      "dr": "5/-",
+      "speed": "50 ft.",
+      "melee": "2 slams +12 (1d8+2 plus burn)",
+      "special_attacks": "burn (1d8, DC 16)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "14",
+        "dex": "21",
+        "con": "14",
+        "int": "6",
+        "wis": "11",
+        "cha": "11"
+      },
+      "base_attack": "+8",
+      "cmb": "+11",
+      "cmd": "27",
+      "feats": "Dodge, Improved InitiativeB, Iron Will, Mobility, Spring Attack, Weapon FinesseB",
+      "skills": "Acrobatics +14, Climb +9, Escape Artist +12, Intimidate +9, Knowledge (planes) +5, Perception +11",
+      "environment": "any (Plane of Fire)",
+      "organization": "solitary, pair, or gang (3-8)",
+      "treasure": "none",
+      "special_abilities": [
+        {
+          "name": "Burn",
+          "type": "Ex",
+          "description": "A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage at the start of its turn for an additional 1d4 rounds (DC 10 + 1/2 the attacking creature's racial HD + the attacking creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit the monster with natural weapons or unarmed attacks take fire damage as though hit by the monster's burn attack and must make a Reflex save to avoid catching on fire (see page 444 of the Pathfinder RPG Core Rulebook)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Elemental, Fire — Size Table",
+          "headers": ["Elemental", "Height", "Weight"],
+          "rows": [
+            ["Small", "4 ft.", "1 lb."],
+            ["Medium", "8 ft.", "2 lbs."],
+            ["Large", "16 ft.", "4 lbs."],
+            ["Huge", "32 ft.", "8 lbs."],
+            ["Greater", "36 ft.", "10 lbs."],
+            ["Elder", "40 ft.", "12 lbs."]
+          ]
+        }
+      ],
+      "ecology": "Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.\n\nA fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassable barrier unless the fire elemental can step or jump over it or the water is covered with a flammable material (such as a layer of oil).\n\nFire elementals vary in appearance—they usually manifest as coiling serpentine forms made of smoke and flame, but some fire elementals take on shapes more akin to humans, demons, or other monsters in order to increase the terror of their sudden appearance. Features on a fire elemental's body are made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Elemental, Fire, Huge",
+      "creature_type": "Outsider",
+      "creature_subtype": "elemental, extraplanar, fire",
+      "cr": "7",
+      "xp": "3,200",
+      "alignment": "N",
+      "size": "Huge",
+      "init": "+11",
+      "senses": "darkvision 60 ft.; Perception +13",
+      "languages": "Ignan",
+      "ac": "21, touch 16, flat-footed 13 (+7 Dex, +1 dodge, +5 natural, -2 size)",
+      "hp": "85 (10d10+30)",
+      "saving_throws": {
+        "fort": "+10",
+        "ref": "+14",
+        "will": "+5"
+      },
+      "immune": "elemental traits, fire",
+      "weaknesses": "vulnerability to cold",
+      "dr": "5/-",
+      "speed": "60 ft.",
+      "melee": "2 slams +15 (2d6+4 plus burn)",
+      "special_attacks": "burn (2d6, DC 18)",
+      "space": "15 ft.",
+      "reach": "15 ft.",
+      "ability_scores": {
+        "str": "18",
+        "dex": "25",
+        "con": "16",
+        "int": "6",
+        "wis": "11",
+        "cha": "11"
+      },
+      "base_attack": "+10",
+      "cmb": "+16",
+      "cmd": "34",
+      "feats": "Combat Reflexes, Dodge, Improved InitiativeB, Iron Will, Mobility, Spring Attack, Weapon FinesseB",
+      "skills": "Acrobatics +16, Climb +13, Escape Artist +16, Intimidate +9, Knowledge (planes) +7, Perception +13",
+      "environment": "any (Plane of Fire)",
+      "organization": "solitary, pair, or gang (3-8)",
+      "treasure": "none",
+      "special_abilities": [
+        {
+          "name": "Burn",
+          "type": "Ex",
+          "description": "A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage at the start of its turn for an additional 1d4 rounds (DC 10 + 1/2 the attacking creature's racial HD + the attacking creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit the monster with natural weapons or unarmed attacks take fire damage as though hit by the monster's burn attack and must make a Reflex save to avoid catching on fire (see page 444 of the Pathfinder RPG Core Rulebook)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Elemental, Fire — Size Table",
+          "headers": ["Elemental", "Height", "Weight"],
+          "rows": [
+            ["Small", "4 ft.", "1 lb."],
+            ["Medium", "8 ft.", "2 lbs."],
+            ["Large", "16 ft.", "4 lbs."],
+            ["Huge", "32 ft.", "8 lbs."],
+            ["Greater", "36 ft.", "10 lbs."],
+            ["Elder", "40 ft.", "12 lbs."]
+          ]
+        }
+      ],
+      "ecology": "Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.\n\nA fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassable barrier unless the fire elemental can step or jump over it or the water is covered with a flammable material (such as a layer of oil).\n\nFire elementals vary in appearance—they usually manifest as coiling serpentine forms made of smoke and flame, but some fire elementals take on shapes more akin to humans, demons, or other monsters in order to increase the terror of their sudden appearance. Features on a fire elemental's body are made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Elemental, Fire, Greater",
+      "creature_type": "Outsider",
+      "creature_subtype": "elemental, extraplanar, fire",
+      "cr": "9",
+      "xp": "6,400",
+      "alignment": "N",
+      "size": "Huge",
+      "init": "+12",
+      "senses": "darkvision 60 ft.; Perception +16",
+      "languages": "Ignan",
+      "ac": "23, touch 17, flat-footed 14 (+8 Dex, +1 dodge, +6 natural, -2 size)",
+      "hp": "123 (13d10+52)",
+      "saving_throws": {
+        "fort": "+12",
+        "ref": "+16",
+        "will": "+6"
+      },
+      "immune": "elemental traits, fire",
+      "weaknesses": "vulnerability to cold",
+      "dr": "10/-",
+      "speed": "60 ft.",
+      "melee": "2 slams +19 (2d8+7 plus burn)",
+      "special_attacks": "burn (2d8, DC 20)",
+      "space": "15 ft.",
+      "reach": "15 ft.",
+      "ability_scores": {
+        "str": "24",
+        "dex": "27",
+        "con": "18",
+        "int": "8",
+        "wis": "11",
+        "cha": "11"
+      },
+      "base_attack": "+13",
+      "cmb": "+22",
+      "cmd": "41",
+      "feats": "Blind-Fight, Combat Reflexes, Dodge, Improved InitiativeB, Iron Will, Mobility, Spring Attack, Weapon FinesseB, Wind Stance",
+      "skills": "Acrobatics +23, Climb +20, Escape Artist +21, Intimidate +15, Knowledge (planes) +10, Perception +16",
+      "environment": "any (Plane of Fire)",
+      "organization": "solitary, pair, or gang (3-8)",
+      "treasure": "none",
+      "special_abilities": [
+        {
+          "name": "Burn",
+          "type": "Ex",
+          "description": "A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage at the start of its turn for an additional 1d4 rounds (DC 10 + 1/2 the attacking creature's racial HD + the attacking creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit the monster with natural weapons or unarmed attacks take fire damage as though hit by the monster's burn attack and must make a Reflex save to avoid catching on fire (see page 444 of the Pathfinder RPG Core Rulebook)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Elemental, Fire — Size Table",
+          "headers": ["Elemental", "Height", "Weight"],
+          "rows": [
+            ["Small", "4 ft.", "1 lb."],
+            ["Medium", "8 ft.", "2 lbs."],
+            ["Large", "16 ft.", "4 lbs."],
+            ["Huge", "32 ft.", "8 lbs."],
+            ["Greater", "36 ft.", "10 lbs."],
+            ["Elder", "40 ft.", "12 lbs."]
+          ]
+        }
+      ],
+      "ecology": "Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.\n\nA fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassable barrier unless the fire elemental can step or jump over it or the water is covered with a flammable material (such as a layer of oil).\n\nFire elementals vary in appearance—they usually manifest as coiling serpentine forms made of smoke and flame, but some fire elementals take on shapes more akin to humans, demons, or other monsters in order to increase the terror of their sudden appearance. Features on a fire elemental's body are made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Elemental, Fire, Elder",
+      "creature_type": "Outsider",
+      "creature_subtype": "elemental, extraplanar, fire",
+      "cr": "11",
+      "xp": "12,800",
+      "alignment": "N",
+      "size": "Huge",
+      "init": "+13",
+      "senses": "darkvision 60 ft.; Perception +19",
+      "languages": "Ignan",
+      "ac": "26, touch 18, flat-footed 16 (+9 Dex, +1 dodge, +8 natural, -2 size)",
+      "hp": "152 (16d10+64)",
+      "saving_throws": {
+        "fort": "+14",
+        "ref": "+19",
+        "will": "+7"
+      },
+      "immune": "elemental traits, fire",
+      "weaknesses": "vulnerability to cold",
+      "dr": "10/-",
+      "speed": "60 ft.",
+      "melee": "2 slams +23 (2d8+8 plus burn)",
+      "special_attacks": "burn (2d10, DC 22)",
+      "space": "15 ft.",
+      "reach": "15 ft.",
+      "ability_scores": {
+        "str": "26",
+        "dex": "29",
+        "con": "18",
+        "int": "10",
+        "wis": "11",
+        "cha": "11"
+      },
+      "base_attack": "+16",
+      "cmb": "+26",
+      "cmd": "46",
+      "feats": "Blind-Fight, Combat Reflexes, Dodge, Improved InitiativeB, Iron Will, Lightning Stance, Mobility, Spring Attack, Weapon FinesseB, Wind Stance",
+      "skills": "Acrobatics +28, Climb +27, Escape Artist +28, Intimidate +19, Knowledge (planes) +19, Perception +19",
+      "environment": "any (Plane of Fire)",
+      "organization": "solitary, pair, or gang (3-8)",
+      "treasure": "none",
+      "special_abilities": [
+        {
+          "name": "Burn",
+          "type": "Ex",
+          "description": "A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. A creature affected by the burn ability must also succeed at a Reflex save or catch fire, taking the listed damage at the start of its turn for an additional 1d4 rounds (DC 10 + 1/2 the attacking creature's racial HD + the attacking creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit the monster with natural weapons or unarmed attacks take fire damage as though hit by the monster's burn attack and must make a Reflex save to avoid catching on fire (see page 444 of the Pathfinder RPG Core Rulebook)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Elemental, Fire — Size Table",
+          "headers": ["Elemental", "Height", "Weight"],
+          "rows": [
+            ["Small", "4 ft.", "1 lb."],
+            ["Medium", "8 ft.", "2 lbs."],
+            ["Large", "16 ft.", "4 lbs."],
+            ["Huge", "32 ft.", "8 lbs."],
+            ["Greater", "36 ft.", "10 lbs."],
+            ["Elder", "40 ft.", "12 lbs."]
+          ]
+        }
+      ],
+      "ecology": "Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.\n\nA fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassable barrier unless the fire elemental can step or jump over it or the water is covered with a flammable material (such as a layer of oil).\n\nFire elementals vary in appearance—they usually manifest as coiling serpentine forms made of smoke and flame, but some fire elementals take on shapes more akin to humans, demons, or other monsters in order to increase the terror of their sudden appearance. Features on a fire elemental's body are made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.",
+      "source": "Bestiary"
+    }
+  ]
+}
