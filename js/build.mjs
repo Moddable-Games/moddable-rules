@@ -281,8 +281,11 @@ function buildGame(slug) {
         const svgPath = resolve(gameDir, 'diagrams/svg', file);
         if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
         const svg = readFile(svgPath).replace(/\n\s*\n/g, '\n');
-        const variantFromFile = file.replace(/-board\.svg$/, '');
-        return renderSvgBlock(svg, caption, slug, variantFromFile);
+        if (file.endsWith('-board.svg')) {
+          const variantFromFile = file.replace(/-board\.svg$/, '');
+          return renderSvgBlock(svg, caption, slug, variantFromFile);
+        }
+        return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
       }
     );
   }
