@@ -137,11 +137,11 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [Level 8 (38)](../../games/pathfinder-1e/data/spells/level-8.json)
 - [Level 9 (29)](../../games/pathfinder-1e/data/spells/level-9.json)
 
-**Equipment** — 237 items across 10 category files:
+**Equipment** — 241 items across 10 category files:
 
 - [weapon.json (81)](../../games/pathfinder-1e/data/equipment/weapon.json)
 - [armor.json (21)](../../games/pathfinder-1e/data/equipment/armor.json)
-- [adventuring-gear.json (64)](../../games/pathfinder-1e/data/equipment/adventuring-gear.json)
+- [adventuring-gear.json (68)](../../games/pathfinder-1e/data/equipment/adventuring-gear.json)
 - [special-substance.json (10)](../../games/pathfinder-1e/data/equipment/special-substance.json)
 - [tool.json (16)](../../games/pathfinder-1e/data/equipment/tool.json)
 - [clothing.json (12)](../../games/pathfinder-1e/data/equipment/clothing.json)
