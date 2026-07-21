@@ -108,7 +108,11 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, supernatural abilities; curses, diseases, poison
 - [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
 
-All 11 core classes, all 175 core feats, the full Combat, Magic, Additional Rules, Environment, Gamemastering, Glossary, and Equipment chapters are now complete. All 623 core spells, 241 equipment items, and 346 monsters are available as structured data below. The Core Rulebook is fully covered.
+**Bestiary**
+
+- [Bestiary](rules/bestiary/) — All 336 core monsters: CR, type, and size at a glance
+
+The Core Rulebook is fully covered: all 11 classes, 175 feats, Combat, Magic, Equipment, Environment, Gamemastering, Glossary, and Bestiary chapters complete. 623 spells, 241 equipment items, and 336 monsters available as structured data below.
 
 </div>
 
