@@ -12,7 +12,7 @@ type: "classic"
 status: "live"
 updated: "2026-07-21"
 published: true
-variants: true
+variants: false
 board: "3×10"
 theme:
   surface: light
