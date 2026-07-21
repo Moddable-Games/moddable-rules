@@ -1,0 +1,219 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 55,
+  "range": "Shambling Mound – Shocker Lizard",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Shambling Mound",
+      "creature_type": "Plant",
+      "cr": "6",
+      "xp": "2,400",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+0",
+      "senses": "darkvision 60 ft., low-light vision; Perception +11",
+      "languages": "Common, Sylvan (cannot speak)",
+      "ac": "19, touch 9, flat-footed 19 (+10 natural, -1 size)",
+      "hp": "67 (9d8+27)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+5",
+        "will": "+5"
+      },
+      "defensive_abilities": "plant traits",
+      "special_qualities": "electric fortitude",
+      "immune": "electricity",
+      "resist": "fire 10",
+      "speed": "20 ft., swim 20 ft.",
+      "melee": "2 slams +11 (2d6+5 plus grab)",
+      "special_attacks": "constrict (2d6+7)",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "21",
+        "dex": "10",
+        "con": "17",
+        "int": "7",
+        "wis": "10",
+        "cha": "9"
+      },
+      "base_attack": "+6",
+      "cmb": "+12 (+16 grapple)",
+      "cmd": "22",
+      "feats": "Cleave, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (slam)",
+      "skills": "Perception +11, Stealth +8 (+16 in swamps or forest), Swim +13",
+      "racial_modifiers": "+4 Perception, +4 Stealth (+12 in swamps or forests)",
+      "environment": "temperate forest or marshes",
+      "organization": "solitary",
+      "treasure": "standard",
+      "description": "A mass of tangled vines and dripping slime rises on two trunk-like legs, reeking of rot and freshly turned earth.",
+      "special_abilities": [
+        {
+          "name": "Electric Fortitude",
+          "type": "Ex",
+          "description": "Shambling mounds take no damage from electricity. Instead, any electricity attack used against a shambling mound temporarily increases its Constitution score by 1d4 points. The shambling mound loses these temporary points at the rate of 1 per hour."
+        }
+      ],
+      "ecology": "Shambling mounds, also called shamblers, appear to be heaps of rotting vegetation. They are actually intelligent, carnivorous plants with a fondness for elf flesh in particular. What serve as a shambler's brain and sensory organs are located in its upper body. Shambling mounds typically have an 8-foot girth and stand between 6 and 9 feet tall. They weigh about 3,800 pounds.\n\nShambling mounds are strange creatures, more akin to animate tangles of creeping parasitic vines than single rooted plants. They are omnivorous, able to draw their sustenance from nearly anything, wrapping their creepers around living trees to draw forth the sap, sending rootlets into the soil to absorb raw nutrients, or consuming flesh and bone from crushed prey.\n\nShamblers are frighteningly stealthy in their native environments. Blending in with the surrounding terrain, they can lie in wait for days on end without moving, waiting patiently for a potential meal. A shambler could be almost anywhere at any time, attacking without warning and not caring whether it leaves any survivors, so long as it acquires its next meal.\n\nShambling mounds normally lead solitary, nomadic existences in deep forests and fetid swamps, although they can also be found underground living among damp fungal thickets. Disturbing rumors persist, however, of shamblers gathering in strange congregations around great earthen mounds in the depths of marshes and jungles, often during the height of violent electrical storms. Their reasons for doing so are unknown, and many sages have wondered whether there is some obscure and alien purpose at work.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Shark",
+      "creature_type": "Animal",
+      "creature_subtype": "aquatic",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+5",
+      "senses": "blindsense 30 ft., keen scent; Perception +8",
+      "ac": "14, touch 10, flat-footed 13 (+1 Dex, +4 natural, -1 size)",
+      "hp": "22 (4d8+4)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+5",
+        "will": "+2"
+      },
+      "speed": "swim 60 ft.",
+      "melee": "bite +5 (1d8+4)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "17",
+        "dex": "12",
+        "con": "13",
+        "int": "1",
+        "wis": "12",
+        "cha": "2"
+      },
+      "base_attack": "+3",
+      "cmb": "+7",
+      "cmd": "18",
+      "feats": "Great Fortitude, Improved Initiative",
+      "skills": "Perception +8, Swim +11",
+      "environment": "any ocean",
+      "organization": "solitary, pair, school (3-6), or pack (7-13)",
+      "treasure": "none",
+      "description": "This blue shark's fins slice through the water, its black eyes rolling and its gaping jaws showing countless teeth.",
+      "special_abilities": [
+        {
+          "name": "Keen Scent",
+          "type": "Ex",
+          "description": "A shark can notice creatures by scent in a 180-foot radius underwater and can detect blood in the water at ranges of up to a mile."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Hammerhead Shark (CR 3)",
+          "description": "This shark has a distinctive hammer-shaped head. It is an advanced shark."
+        },
+        {
+          "name": "Tiger Shark (CR 3)",
+          "description": "Larger than the average shark, the ravenous tiger shark is a giant shark."
+        },
+        {
+          "name": "Great White Shark (CR 4)",
+          "description": "One of the most notorious maneaters of the sea, the truly immense great white shark is an advanced giant shark."
+        }
+      ],
+      "ecology": "The shark is a relentless eating machine, a creature evolved over the course of eons to do one job perfectly—hunting. Sharks have achieved a special place in the lore of most seafaring races, who view them as devils, monsters, and the wrath of the gods.\n\nThe shark presented here is a 10-foot-long, 300-pound blue shark. Smaller sharks exist, although these are not dangerous. The same cannot be said of larger sharks, such as the following (you can create stats for these sharks by applying the indicated simple templates).",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Shark, Dire",
+      "creature_type": "Animal",
+      "creature_subtype": "aquatic",
+      "cr": "9",
+      "xp": "6,400",
+      "alignment": "N",
+      "size": "Gargantuan",
+      "init": "+6",
+      "senses": "blindsense 30 ft., keen scent; Perception +25",
+      "ac": "23, touch 8, flat-footed 21 (+2 Dex, +15 natural, -4 size)",
+      "hp": "112 (15d8+45)",
+      "saving_throws": {
+        "fort": "+14",
+        "ref": "+13",
+        "will": "+8"
+      },
+      "speed": "swim 60 ft.",
+      "melee": "bite +17 (4d10+15/19-20 plus grab)",
+      "special_attacks": "swallow whole (2d6+15 damage, AC 17, 11 hp)",
+      "space": "20 ft.",
+      "reach": "20 ft.",
+      "ability_scores": {
+        "str": "30",
+        "dex": "15",
+        "con": "17",
+        "int": "1",
+        "wis": "12",
+        "cha": "10"
+      },
+      "base_attack": "+11",
+      "cmb": "+25 (+29 grapple)",
+      "cmd": "37",
+      "feats": "Bleeding Critical, Critical Focus, Great Fortitude, Improved Critical (bite), Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception)",
+      "skills": "Perception +25, Swim +18",
+      "environment": "any ocean",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "Large as a dragon, this shark's jaws open to reveal a cavernous, tooth-lined gullet capable of swallowing a horse whole.",
+      "ecology": "The true nightmare of the sea is the megalodon, a shark that represents the pinnacle of this species' evolution. Horrifying in its immense size and ruinous appetite, the megalodon is certainly the beast behind many legends of enormous fish who swallow ships whole. A megalodon is 60 feet long and weighs 100,000 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Shocker Lizard",
+      "creature_type": "Magical Beast",
+      "cr": "2",
+      "xp": "600",
+      "alignment": "N",
+      "size": "Small",
+      "init": "+6",
+      "senses": "darkvision 60 ft., electricity sense, low-light vision; Perception +8",
+      "immune": "electricity",
+      "ac": "16, touch 13, flat-footed 14 (+2 Dex, +3 natural, +1 size)",
+      "hp": "19 (3d10+3)",
+      "saving_throws": {
+        "fort": "+4",
+        "ref": "+5",
+        "will": "+2"
+      },
+      "speed": "40 ft., climb 20 ft., swim 20 ft.",
+      "melee": "bite +4 (1d4)",
+      "special_attacks": "shock",
+      "ability_scores": {
+        "str": "10",
+        "dex": "15",
+        "con": "13",
+        "int": "2",
+        "wis": "13",
+        "cha": "6"
+      },
+      "base_attack": "+3",
+      "cmb": "+2",
+      "cmd": "14 (18 vs. trip)",
+      "feats": "Improved Initiative, Skill Focus (Stealth)",
+      "skills": "Climb +8, Perception +8, Stealth +17, Swim +8",
+      "racial_modifiers": "+2 Perception, +4 Stealth",
+      "environment": "warm marshes",
+      "organization": "solitary, pair, clutch (3-6), or colony (7-12)",
+      "treasure": "incidental",
+      "description": "This dog-sized lizard has two horns, one on either side of its head, and green scales that crackle with sparks of lightning.",
+      "special_abilities": [
+        {
+          "name": "Electricity Sense",
+          "type": "Ex",
+          "description": "Shocker lizards automatically detect any electrical discharges within 100 feet."
+        },
+        {
+          "name": "Shock",
+          "type": "Su",
+          "description": "Shocker lizards can deliver an electrical shock to a single opponent within 5 feet. This attack deals 1d8 points of nonlethal electricity damage to living opponents (Reflex DC 12 half). This save DC is Constitution-based. Additionally, if two or more shocker lizards are within 20 feet of each other, they can work together to create a lethal shock once every 1d4 rounds. This effect has a radius of 20 feet, centered on any one contributing lizard. All creatures within that radius take 2d8 points of lethal electricity damage for each lizard contributing to the shock, to a maximum of 12d8. A Reflex save (DC 10 + the number of lizards contributing) halves the damage."
+        }
+      ],
+      "ecology": "A shocker lizard has a pale yellow underside, with bright green scales elsewhere on its 3-foot-long body, and weighs about 25 pounds. Shocker lizards tend toward group living, as their electrical abilities grow in power when they are close to another lizard.\n\nA shocker lizard colony is usually located near a source of water. Once the colony has settled on a location, the lizards become very territorial and attack anything that intrudes on them. A solitary shocker lizard is a timid and hesitant creature—but when several of them gather they become formidable and fearsome opponents capable of killing creatures several times their own size.\n\nA shocker lizard relies on its electricity abilities in combat, and a lizard tends to bite only after its shock has rendered an opponent unconscious, or when the shock seems to have no effect at all. A solitary lizard flees once it delivers its shocks, but if other shocker lizards are nearby, they all hone in on their comrade's discharges and attempt to administer lethal shocks to their foe.\n\nMany have attempted to capture and tame shocker lizards, but this often proves a difficult and painful task. Alone and in captivity, shocker lizards tend to wither and die swiftly unless their keepers spend a lot of time grooming and playing with the lizards to keep them company. Kept in pairs or larger numbers, captive shocker lizards thrive, but their increasing electrical ability makes them more difficult to manage for keepers who aren't themselves immune to electricity.",
+      "source": "Bestiary"
+    }
+  ]
+}
