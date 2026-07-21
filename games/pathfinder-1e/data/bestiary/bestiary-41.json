@@ -1,0 +1,198 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 41,
+  "range": "Manticore – Medusa",
+  "count": 3,
+  "creatures": [
+    {
+      "name": "Manticore",
+      "creature_type": "Magical Beast",
+      "cr": "5",
+      "xp": "1,600",
+      "alignment": "LE",
+      "size": "Large",
+      "init": "+2",
+      "senses": "darkvision 60 ft., low-light vision, scent; Perception +9",
+      "languages": "Common",
+      "ac": "17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)",
+      "hp": "57 (6d10+24)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+7",
+        "will": "+3"
+      },
+      "speed": "30 ft., fly 50 ft. (clumsy)",
+      "melee": "bite +10 (1d8+5), 2 claws +10 (2d4+5)",
+      "ranged": "4 spikes +8 (1d6+5)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "20",
+        "dex": "15",
+        "con": "18",
+        "int": "7",
+        "wis": "12",
+        "cha": "9"
+      },
+      "base_attack": "+6",
+      "cmb": "+12",
+      "cmd": "24 (28 vs. trip)",
+      "feats": "Flyby Attack, Hover, Weapon Focus (spikes)",
+      "skills": "Fly -3, Perception +9, Survival +4 (+8 tracking)",
+      "racial_modifiers": "+4 Perception, +4 Survival when tracking",
+      "environment": "warm hills and marshes",
+      "organization": "solitary, pair, or pride (3-6)",
+      "treasure": "standard",
+      "description": "This creature has a vaguely humanoid head, the body of a lion, and the wings of a dragon. Its tail ends in long, sharp spikes.",
+      "special_abilities": [
+        {
+          "name": "Spikes",
+          "type": "Ex",
+          "description": "With a snap of its tail, a manticore can loose a volley of four spikes as a standard action (make an attack roll for each spike). This attack has a range of 180 feet with no range increment. All targets must be within 30 feet of each other. The creature can launch only 24 spikes in any 24-hour period."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Manticore's Mate",
+          "headers": ["Manticore's Mate", "Offspring"],
+          "rows": [
+            ["Lion", "Standard manticore"],
+            ["Dire lion", "Advanced manticore"],
+            ["Lamia", "Lamia with spiked tail and spikes special attack"],
+            ["Sphinx", "Sphinx with spiked tail and spikes special attack"],
+            ["Chimera", "Chimera with spiked tail and spikes special attack"]
+          ]
+        }
+      ],
+      "ecology": "Manticores are fierce predators that patrol a wide area in search of fresh meat. A typical manticore is about 10 feet long and weighs about 1,000 pounds. Some have more human-like heads, usually with beards. Males and females look much alike.\n\nManticores eat any meat, even carrion, though they prefer human flesh and rarely pass up an opportunity for such a delicacy. They are smart and social enough to bargain with or bully evil humanoids into alliances or offering tribute, and more powerful creatures may hire or bribe them to guard or patrol a place or area. They like lairs in high places, such as hilltops and caves in cliffs.\n\nAlthough manticores were likely a magical creation, they have long since established themselves as a naturally occurring species. Curiously, manticores seem strangely fecund, and can interbreed with a number of other similarly shaped creatures, including lions, dire lions, lamias, sphinxes, and even chimeras. The progeny of a manticore and an unusual mate is summarized on the table below.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Mantis, Giant",
+      "creature_type": "Vermin",
+      "cr": "3",
+      "xp": "800",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+1",
+      "senses": "darkvision 60 ft.; Perception +6",
+      "ac": "15, touch 10, flat-footed 14 (+1 Dex, +5 natural, -1 size)",
+      "hp": "30 (4d8+12)",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+2",
+        "will": "+3"
+      },
+      "immune": "mind-affecting effects",
+      "speed": "30 ft., climb 30 ft., fly 40 ft. (poor)",
+      "melee": "2 claws +5 (1d6+3 plus grab)",
+      "special_attacks": "lunge, mandibles, sudden strike",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "16",
+        "dex": "13",
+        "con": "16",
+        "int": "-",
+        "wis": "14",
+        "cha": "11"
+      },
+      "base_attack": "+3",
+      "cmb": "+7 (+11 grapple)",
+      "cmd": "18 (22 vs. trip)",
+      "skills": "Climb +11, Fly -5, Perception +6, Stealth +1 (+13 in forests)",
+      "racial_modifiers": "+4 Perception, +4 Stealth (+12 in forests)",
+      "environment": "temperate forests",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "This towering insect walks on its back four legs. Its head is triangular and its front legs sport razor-sharp edges and claws.",
+      "special_abilities": [
+        {
+          "name": "Lunge",
+          "type": "Ex",
+          "description": "A giant mantis's limbs are capable of reaching much farther than normal for a creature of its size. As a full-attack action, it can make a single attack with its claws at double its normal reach. When a giant mantis attacks with a claw in this manner, it gains a +4 bonus on its attack roll. A giant mantis cannot make attacks of opportunity with its lunge."
+        },
+        {
+          "name": "Mandibles",
+          "type": "Ex",
+          "description": "A giant mantis that grabs a foe can make a bite attack against that foe as a secondary attack. The mantis's bite is a +0 attack that inflicts 1d6+1 points of damage on a hit."
+        },
+        {
+          "name": "Sudden Strike",
+          "type": "Ex",
+          "description": "A giant mantis is particularly adept at moving quickly when its foes are surprised. During a surprise round, a giant mantis may act as if it had a full round to act, rather than just one standard action."
+        }
+      ],
+      "ecology": "Known to many as the giant praying mantis for the way the creature's deadly front limbs fold under its head as it lies in wait for food, this creature is well feared along caravan tracks that pass through dense woodlands. The giant mantis, a master of hiding in dense undergrowth, is almost unnaturally patient as it lies in wait, striking with unsettling speed as unsuspecting meals wander by.\n\nIn many savage societies, the giant mantis is particularly feared—in regions where these vermin are common, they are often regarded as messengers of death sent to the world by angry gods. Their swift speed, alien appearance, and near-invisibility in forests give rise to many legends—that the giant mantis can become invisible, that it can smell fear, and that the souls of those who it slays and eats are digested and kept from moving on to the afterlife. While the giant mantis is nothing more than an efficient and deadly vermin, the numerous legends and whispers regarding its supposed powers and alien intellect have inspired some spellcasters to work such features into their constructs as a way to make them even more fearsome. There are even stories of entire societies of assassins who worship an immense mantis as a god, and who have taken to heart the mantis's style of murderous ambush, fighting with twin serrated rapiers.\n\nThe giant mantis presented here stands 7 feet tall and 15 feet long, and weighs 650 pounds. Larger giant mantises exist in the deepest, darkest forests of the world, where they might prey upon things as mighty as giants or dragons. Known by various names, such as the drake-eating mantis, the treebender mantis, or simply the deadly mantis, these immense behemoths average more than 60 feet in height and have a terrifying habit of destroying entire villages or towns in order to satiate their ravenous appetites. A deadly mantis is a giant mantis advanced to Colossal size, 16 Hit Dice, and CR 14.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Medusa",
+      "creature_type": "Monstrous Humanoid",
+      "cr": "7",
+      "xp": "3,200",
+      "alignment": "LE",
+      "size": "Medium",
+      "init": "+6",
+      "senses": "all-around vision, darkvision 60 ft.; Perception +16",
+      "languages": "Common",
+      "ac": "15, touch 12, flat-footed 13 (+2 Dex, +3 natural)",
+      "hp": "76 (8d10+32)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+8",
+        "will": "+7"
+      },
+      "speed": "30 ft.",
+      "melee": "dagger +10/+5 (1d4/19-20), snake bite +5 (1d4 plus poison)",
+      "ranged": "mwk longbow +11/+6 (1d8/×3)",
+      "special_attacks": "petrifying gaze",
+      "ability_scores": {
+        "str": "10",
+        "dex": "15",
+        "con": "18",
+        "int": "12",
+        "wis": "13",
+        "cha": "15"
+      },
+      "base_attack": "+8",
+      "cmb": "+8",
+      "cmd": "20",
+      "feats": "Improved Initiative, Point-Blank Shot, Precise Shot, Weapon Finesse",
+      "skills": "Bluff +10, Disguise +10, Intimidate +13, Perception +16, Stealth +13",
+      "racial_modifiers": "+4 Perception",
+      "environment": "temperate marshes and underground",
+      "organization": "solitary",
+      "treasure": "double (dagger, masterwork longbow with 20 arrows, other treasure)",
+      "description": "This slender, attractive woman has strangely glowing eyes and a full head of hissing snakes for hair.",
+      "special_abilities": [
+        {
+          "name": "All-Around Vision",
+          "type": "Ex",
+          "description": "A medusa's snake-hair allows her to see in all directions. Medusas gain a +4 racial bonus to Perception checks and cannot be flanked."
+        },
+        {
+          "name": "Petrifying Gaze",
+          "type": "Su",
+          "description": "Turn to stone permanently, 30 feet, Fortitude DC 16 negates. The save DC is Charisma-based."
+        },
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Medusa Venom.",
+          "affliction": {
+            "name": "Medusa Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 6 rounds",
+            "effect": "1d3 Strength",
+            "save": "Fortitude DC 18",
+            "cure": "2 consecutive saves"
+          }
+        }
+      ],
+      "ecology": "Medusas are human-like creatures with snakes instead of hair. At distances of 30 feet or more, a medusa can easily pass for a beautiful woman if she wears something to cover her serpentine locks—when wearing clothing that conceals her head and face, she can be mistaken for a human at even closer distances. Medusas use lies and disguises that conceal their faces to get close enough to opponents to use their petrifying gaze, though they like playing with their prey and may fire arrows from a distance to lead enemies into traps. Some enjoy creating intricate decorations out of their victims, using their petrified remains as accents to their swampy lairs, but most medusas take care to hide the evidence of their previous conflicts so that new foes won't have advance warning of their presence.\n\nUsed to concealing themselves, medusas in cities are usually rogues, while those in the wilderness often pass themselves off as rangers or trackers. The most notorious and legendary medusas, though, are those who take levels as bards or clerics. Charismatic and intelligent, urban medusas are often involved with thieves' guilds or other aspects of the criminal underworld. Medusas may form alliances with blind creatures or intelligent undead, both of which are immune to their stony gaze. Spellcasting medusas often serve as oracles or prophets, usually dwelling in remote locations of legendary power or infamous history. Such oracle medusas take great delight in their roles, and if presented with the proper gifts and flattery, the secrets they offer can be quite helpful. Of course, the lairs of such potent creatures are liberally decorated with statues of those who have offended them, so the seeker of knowledge is well advised to tred carefully during such meetings.\n\nAll known medusas are female. Rarely, a medusa may decide to keep a male humanoid as a mate, usually with the help of elixirs of love or similar magic, and is always careful to not petrify her prisoner—at least until she grows tired of his company.",
+      "source": "Bestiary"
+    }
+  ]
+}
