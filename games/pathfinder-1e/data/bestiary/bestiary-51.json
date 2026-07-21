@@ -1,0 +1,277 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 51,
+  "range": "Rakshasa – Rhinoceros",
+  "count": 5,
+  "creatures": [
+    {
+      "name": "Rakshasa",
+      "creature_type": "Outsider",
+      "creature_subtype": "native, shapechanger",
+      "cr": "10",
+      "xp": "9,600",
+      "alignment": "LE",
+      "size": "Medium",
+      "init": "+9",
+      "senses": "darkvision 60 ft.; Perception +14",
+      "languages": "Common, Infernal, Undercommon",
+      "ac": "25, touch 16, flat-footed 19 (+5 Dex, +1 dodge, +9 natural)",
+      "hp": "115 (10d10+60)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+12",
+        "will": "+8"
+      },
+      "special_qualities": "change shape (any humanoid, alter self)",
+      "special_attacks": "detect thoughts",
+      "dr": "15/good and piercing",
+      "sr": "25",
+      "speed": "40 ft.",
+      "melee": "+1 kukri +16/+11 (1d4+4/15-20), claw +10 (1d4+1), bite +10 (1d6+1)",
+      "spellcasting": [
+        {
+          "type": "Spells Known",
+          "text": "(CL 7th) 3rd (5/day)—lightning bolt (DC 16), suggestion (DC 16); 2nd (7/day)—acid arrow, invisibility, minor image; 1st (7/day)—charm person (DC 14), mage armor, magic missile, shield, silent image; 0—dancing lights, detect magic, ghost sound (DC 13), mage hand, mending, message, prestidigitation"
+        }
+      ],
+      "ability_scores": {
+        "str": "16",
+        "dex": "20",
+        "con": "22",
+        "int": "13",
+        "wis": "13",
+        "cha": "17"
+      },
+      "base_attack": "+10",
+      "cmb": "+13",
+      "cmd": "29",
+      "feats": "Combat Expertise, Dodge, Improved Critical (kukri), Improved Initiative, Weapon Finesse",
+      "skills": "Bluff +20, Diplomacy +16, Disguise +24, Perception +14, Perform +16, Sense Motive +14, Stealth +18",
+      "racial_modifiers": "+4 Bluff, +8 Disguise",
+      "environment": "any",
+      "organization": "solitary, pair, or cult (3-12)",
+      "treasure": "double (+1 kukri, other treasure)",
+      "description": "This figure's backward-bending fingers and its bestial, snarling visage leave little doubt as to its fiendish nature.",
+      "special_abilities": [
+        {
+          "name": "Detect Thoughts",
+          "type": "Su",
+          "description": "A rakshasa can detect thoughts as per the spell of the same name (CL 18th). It can suppress or resume this ability as a free action. When a rakshasa uses this ability, it always functions as if it had spent three rounds concentrating and thus gains the maximum amount of information possible. A creature can resist this effect with a DC 18 Will save. The save DC is Charisma-based."
+        }
+      ],
+      "ecology": "The rakshasa is an evil spirit that cloaks itself in the guise of a humanoid creature that it might walk unseen among its prey. They embody what is taboo among most societies, and in the shape of those it seeks to defile, a rakshasa gorges itself on these hideous acts. Were they human, these acts of cannibalism, blasphemy, and worse would mark them as criminals condemned to the cruelest of hells.\n\nWhen not disguised as a humanoid, the otherwise humanoid rakshasa has the head of an animal. Often, they possess the heads of great cats (such as a tiger or panther) or a snake (like a cobra or viper), yet other heads are not unknown—apes, jackals, vultures, elephants, mantises, lizards, rhinos, boars, and more are possible. In most cases, the type of head a rakshasa possesses speaks in some way to its personality—a tiger-headed rakshasa is stealthy and ravenous, while a boar-headed one might be gluttonous and crude. These changes rarely impact the rakshasa's base statistics, although there are more powerful variants of the standard rakshasa that possess multiple heads, more potent spellcasting powers, and additional deadly and unusual special abilities.\n\nRakshasas scoff at religion—they understand the power of the divine, but see themselves as the only thing worthy of worship from the mortal races. Rakshasa clerics are thus quite rare. Although rakshasas are outsiders, they are also very much creatures of the Material Plane, and many believe the first rakshasas chose this exile over some other role offered them by a long-forgotten god. Although they usually work alone, it isn't unheard of to find extended families of rakshasas working together to ruin a mortal civilization from the inside out over the course of many generations. A rakshasa is 6 feet tall and weighs 180 lbs.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Rat, Dire",
+      "creature_type": "Animal",
+      "cr": "1/3",
+      "xp": "135",
+      "alignment": "N",
+      "size": "Small",
+      "init": "+3",
+      "senses": "low-light vision, scent; Perception +4",
+      "ac": "14, touch 14, flat-footed 11 (+3 Dex, +1 size)",
+      "hp": "5 (1d8+1)",
+      "saving_throws": {
+        "fort": "+3",
+        "ref": "+5",
+        "will": "+1"
+      },
+      "speed": "40 ft., climb 20 ft., swim 20 ft.",
+      "melee": "bite +1 (1d4 plus disease)",
+      "special_attacks": "disease",
+      "ability_scores": {
+        "str": "10",
+        "dex": "17",
+        "con": "13",
+        "int": "2",
+        "wis": "13",
+        "cha": "4"
+      },
+      "base_attack": "+0",
+      "cmb": "-1",
+      "cmd": "12 (16 vs. trip)",
+      "feats": "Skill Focus (Perception)",
+      "skills": "Climb +11, Perception +4, Stealth +11, Swim +11",
+      "racial_modifiers": "uses Dex to modify Climb and Swim",
+      "environment": "any urban",
+      "organization": "solitary or pack (2-20)",
+      "treasure": "none",
+      "description": "This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.",
+      "special_abilities": [
+        {
+          "name": "Disease",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Filth Fever, Dire Rat.",
+          "affliction": {
+            "name": "Filth Fever, Dire Rat",
+            "type": "disease",
+            "contracted": "injury",
+            "onset": "1d3 days",
+            "frequency": "1/day",
+            "effect": "1d3 Dexterity damage and 1d3 Constitution damage",
+            "save": "Fortitude DC 11",
+            "cure": "2 consecutive saves"
+          }
+        }
+      ],
+      "ecology": "Dire rats grow up to 2 feet long and weigh up to 25 pounds. They are common menaces in dungeons and city sewers alike.\n\nAs an Animal Companion: A dire rat kept as an animal companion has speed 40 ft., climb 20 ft., swim 20 ft.; attack bite (1d4); ability scores Str 10, Dex 17, Con 12, Int 2, Wis 12, Cha 4; special qualities low-light vision, scent. At 4th-level advancement: attack bite (1d4 plus disease); ability scores Str +2, Con +2.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Remorhaz",
+      "creature_type": "Magical Beast",
+      "cr": "7",
+      "xp": "3,200",
+      "alignment": "N",
+      "size": "Huge",
+      "init": "+1",
+      "senses": "darkvision 60 ft., low-light vision, tremorsense 60 ft.; Perception +16",
+      "languages": "Giant (cannot speak)",
+      "ac": "20, touch 9, flat-footed 19 (+1 Dex, +11 natural, -2 size)",
+      "hp": "94 (9d10+45)",
+      "saving_throws": {
+        "fort": "+11",
+        "ref": "+7",
+        "will": "+4"
+      },
+      "immune": "fire, cold",
+      "speed": "30 ft., burrow 20 ft.",
+      "melee": "bite +13 (3d6+9 plus grab)",
+      "special_attacks": "heat, swallow whole (2d6+9 plus 8d6 fire, AC 15, hp 9)",
+      "space": "15 ft.",
+      "reach": "15 ft.",
+      "ability_scores": {
+        "str": "22",
+        "dex": "13",
+        "con": "21",
+        "int": "5",
+        "wis": "12",
+        "cha": "10"
+      },
+      "base_attack": "+9",
+      "cmb": "+17 (+21 grapple)",
+      "cmd": "28 (can't be tripped)",
+      "feats": "Awesome Blow, Cleave, Improved Bull Rush, Power Attack, Skill Focus (Perception)",
+      "skills": "Perception +16",
+      "environment": "cold deserts and glaciers",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "An immense centipede-like beast erupts from the snow, rows of chitinous plates on its back glowing red-hot.",
+      "special_abilities": [
+        {
+          "name": "Heat",
+          "type": "Su",
+          "description": "An enraged remorhaz generates heat so intense that anything touching its body takes 8d6 points of fire damage. Creatures striking a remorhaz with natural attacks or unarmed strikes are subject to this damage, but creatures striking with melee weapons are not. The heat can melt or burn weapons; any weapon that strikes a remorhaz is allowed a DC 19 Fortitude save to avoid taking damage. The save DC is Constitution-based."
+        }
+      ],
+      "ecology": "In a world of ice and snow, the remorhaz is particularly feared for the terrible fires that burn within its body. These internal fires cause the armor plates along its back to glow red-hot when the creature is particularly angry, excited, or in pain. Creatures adapted to arctic regions are often particularly vulnerable to fire, making the remorhaz's primary defense an incredibly potent one and securing its role as a dangerous predator in such frozen reaches.\n\nRemorhazes dwell in extensive warrens carved into the hearts of glaciers. The beasts use their heat to melt tunnels through ice, tunnels whose smooth glassy sides swiftly refreeze in their wake to create uncommonly stable and numerous mazes.\n\nAlthough the remorhaz has much in common superficially with lesser vermin, the beast is surprisingly intelligent. While not capable of speech, the typical remorhaz has a good grasp of the Giant tongue, and tribes of giants often use this to their advantage to secure allegiances with the great beasts. Frost giants are particularly obsessed with them, for those giants who brave the cruel and deadly burns a remorhaz can inflict to become \"worm friends\" gain a potent weapon to use against their enemies—an assassin capable of burrowing up through the floor of a glacial keep to strike directly against a frost giant's greatest weakness: fire. Other giants use the beasts as living forges, for their backs are hot enough to melt metal.\n\nA remorhaz is 25 feet long and weighs 10,000 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Retriever",
+      "creature_type": "Construct",
+      "creature_subtype": "extraplanar",
+      "cr": "11",
+      "xp": "12,800",
+      "alignment": "CE",
+      "size": "Huge",
+      "init": "+7",
+      "senses": "darkvision 60 ft., low-light vision, Perception +15",
+      "languages": "Abyssal (cannot speak)",
+      "ac": "25, touch 11, flat-footed 22 (+3 Dex, +14 natural, -2 size)",
+      "hp": "137 (15d10+55); fast healing 5",
+      "saving_throws": {
+        "fort": "+7",
+        "ref": "+10",
+        "will": "+5"
+      },
+      "defensive_abilities": "construct traits",
+      "special_qualities": "relentless",
+      "speed": "50 ft.",
+      "melee": "bite +19 (1d8+6 plus grab), 4 claws +19 (2d6+6/19-20)",
+      "special_attacks": "eye rays (+16 ranged touch)",
+      "space": "15 ft.",
+      "reach": "15 ft.",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 20th) At will—discern location"
+        }
+      ],
+      "ability_scores": {
+        "str": "22",
+        "dex": "16",
+        "con": "-",
+        "int": "3",
+        "wis": "11",
+        "cha": "1"
+      },
+      "base_attack": "+15",
+      "cmb": "+23 (+27 grapple)",
+      "cmd": "36 (40 vs. trip)",
+      "feats": "Cleave, Improved Bull Rush, Great Fortitude, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Power Attack, Toughness",
+      "skills": "Perception +15",
+      "environment": "any (Abyss)",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "A spider the size of a bull elephant rears up on its back four legs in a violent challenge, eyes shimmering with magical energy.",
+      "special_abilities": [
+        {
+          "name": "Eye Rays",
+          "type": "Su",
+          "description": "A retriever's eyes can produce four different magical rays, each with a range of 100 feet. Each round, it can fire one ray as a free action. A particular ray is usable only once every 4 rounds. A retriever can fire an eye ray in the same round that it makes physical attacks—firing an eye ray does not provoke attacks of opportunity. The save DC for eye rays is 19—the save DC is Constitution-based, and includes a +2 racial bonus. The eye ray effects are the following. Fire: Deals 12d6 fire damage (Reflex half). Cold: Deals 12d6 cold damage (Reflex half). Electricity: Deals 12d6 electricity damage (Reflex half). Petrification: Target must succeed on a Fortitude save or turn to stone permanently."
+        },
+        {
+          "name": "Relentless",
+          "type": "Su",
+          "description": "A retriever is constantly under the effects of spider climb and water walk; these abilities cannot be dispelled."
+        }
+      ],
+      "ecology": "Not all constructs are formed from unliving matter like stone, wood, metal, or dead flesh. In the darkest corners of the Great Beyond, certain powerful demon lords have mastered the art of shaping the raw, protoplasmic flesh of the Abyss into hideous monstrosities devoid of life, emotion, and the will to resist control. The monstrous retriever is the best-known of such constructs, a huge spider-like creation capable of unleashing potent energy upon those it has been ordered to seek.\n\nDemon lords use retrievers to seek out those who dare abandon their loyalties or flee from servitude. Often, the presence of a retriever in a demon's den is enough in and of itself to ensure the loyalty of the lesser demons. The constructs also excel in tracking down specific objects and returning them to their masters—their intelligence is just enough to allow them to focus on their ordered tasks but not quite enough for them to form ideas of rebellion and longings for freedom.\n\nA retriever's body is the size of an elephant, and its legspan is nearly 30 feet. It weighs 6,500 pounds.\n\nConjuring a Retriever: Although a retriever is not an outsider, it may nonetheless be conjured by either greater planar ally or greater planar binding. The spellcaster must take care to do so, however, using special rare incenses and complex diagrams inked on the floor and walls using expensive phosphorescent inks, lest the retriever attack the spellcaster upon completion of the spell. These components cost 25,000 gp and replace the usual costs associated with casting either spell (including greater planar binding's Charisma check requirement).",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Rhinoceros",
+      "creature_type": "Animal",
+      "cr": "4",
+      "xp": "1,200",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+0",
+      "senses": "scent; Perception +12",
+      "ac": "16, touch 9, flat-footed 16 (+7 natural, -1 size)",
+      "hp": "42 (5d8+20)",
+      "saving_throws": {
+        "fort": "+10",
+        "ref": "+4",
+        "will": "+2"
+      },
+      "speed": "40 ft.",
+      "melee": "gore +8 (2d6+9)",
+      "special_attacks": "powerful charge (gore, 4d6+12)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "22",
+        "dex": "10",
+        "con": "19",
+        "int": "2",
+        "wis": "13",
+        "cha": "5"
+      },
+      "base_attack": "+3",
+      "cmb": "+10",
+      "cmd": "20 (24 vs. trip)",
+      "feats": "Endurance, Great Fortitude, Skill Focus (Perception)",
+      "skills": "Perception +12",
+      "environment": "warm plains",
+      "organization": "solitary, pair, or herd (3-12)",
+      "treasure": "none",
+      "description": "This rhinoceros has a low-slung head with twisted ears that lie back along its neck.",
+      "ecology": "The rhinoceros feeds on leafy plants, branches, and even thorny shrubs. Its thick hide is a mottled gray color, and it can run surprisingly fast for a beast of its size. The rhinoceros is notoriously short-tempered and prone to attacking anything it perceives as approaching too closely (generally within a distance of 80 feet—the distance of a single charge—for most rhinos).\n\nAs an Animal Companion: A rhinoceros kept as an animal companion has a +4 natural armor bonus; speed 40 ft.; attack gore (1d8); ability scores Str 14, Dex 14, Con 15, Int 2, Wis 13, Cha 5; special qualities scent. At 7th-level advancement (Large size): +3 natural armor bonus; attack gore (2d6); ability scores Str +8, Dex -2, Con +4; special qualities powerful charge.",
+      "source": "Bestiary"
+    }
+  ]
+}
