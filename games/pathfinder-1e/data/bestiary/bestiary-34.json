@@ -1,0 +1,207 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 34,
+  "range": "Hobgoblin – Horse, Pony",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Hobgoblin",
+      "creature_type": "Humanoid",
+      "creature_subtype": "goblinoid",
+      "cr": "1/2",
+      "xp": "200",
+      "alignment": "LE",
+      "size": "Medium",
+      "init": "+2",
+      "senses": "darkvision 60 ft.; Perception +2",
+      "languages": "Common, Goblin",
+      "ac": "16, touch 12, flat-footed 14 (+3 armor, +2 Dex, +1 shield)",
+      "hp": "17 (1d10+7)",
+      "saving_throws": {
+        "fort": "+5",
+        "ref": "+2",
+        "will": "+1"
+      },
+      "speed": "30 ft.",
+      "melee": "longsword +4 (1d8+2/19-20)",
+      "ranged": "longbow +3 (1d8/×3)",
+      "level": "fighter 1",
+      "ability_scores": {
+        "str": "15",
+        "dex": "15",
+        "con": "16",
+        "int": "10",
+        "wis": "12",
+        "cha": "8"
+      },
+      "base_attack": "+1",
+      "cmb": "+3",
+      "cmd": "15",
+      "feats": "Toughness, Weapon Focus (longsword)",
+      "skills": "Perception +2, Stealth +5",
+      "racial_modifiers": "+4 Stealth",
+      "environment": "temperate hills",
+      "organization": "gang (4-9), warband (10-24), or tribe (25+ plus 50% noncombatants, 1 sergeant of 3rd level per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 6-12 leopards, and 1-4 ogres or 1-2 trolls)",
+      "treasure": "NPC Gear (studded leather armor, light steel shield, longsword, longbow with 20 arrows, other treasure)",
+      "description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.",
+      "ecology": "Hobgoblins are militaristic and fecund, a combination that makes them quite dangerous in some regions. They breed quickly, replacing fallen members with new soldiers and keeping up their numbers despite the fortunes of war. They generally need little reason to declare war, but more often than not that reason is to capture new slaves—life as a slave in a hobgoblin lair is brutal and short, and new slaves are always needed to replace those who fall or are eaten.\n\nOf all the goblinoid races, the hobgoblin is by far the most civilized. They see the larger and more solitary bugbears as tools to be hired and used where appropriate, usually for specific missions involving assassination and stealth, and look upon their smaller goblin kin with a mix of shame and frustration. Hobgoblins admire goblin tenacity, yet their miniscule kindred's unpredictable nature and fondness for fire make them unwelcome additions to hobgoblin tribes or settlements. Nonetheless, most hobgoblin tribes include a small group of goblins, typically squatting in the most undesirable corners of the settlement.\n\nMany hobgoblin tribes combine their love of warfare with keen intellects. The science of siege engines, alchemy, and complex feats of engineering fascinate most hobgoblins, and those who are particularly skilled are treated as heroes and invariably secure high-ranking positions in the tribe. Slaves with analytical minds are quite valued, and as such raids on dwarven cities are commonplace.\n\nIt is well known that hobgoblins mistrust and even despise magic, particularly arcane magic. Their shamans are treated with a mix of fear and respect, and are usually forced to live alone on the fringes of the tribe's lair. It is all but unheard of to find a hobgoblin practicing arcane magic, or as hobgoblins call it, \"elf magic.\" This is the root of their hatred of magic—the hobgoblins' hatred of elves.\n\nA hobgoblin stands 5 feet tall and weighs 160 pounds.\n\nRacial Traits: Hobgoblins are defined by their class levels—they do not possess racial Hit Dice. All hobgoblins have the following racial traits. +2 Dexterity, +2 Constitution: Hobgoblins are fast and hearty. Darkvision: Hobgoblins can see in the dark up to 60 feet. Sneaky: Hobgoblins gain a +4 racial bonus on Stealth checks. Languages: All hobgoblins begin play speaking Common and Goblin. Hobgoblins with high Intelligence scores can choose any of the following bonus languages: Draconic, Dwarven, Infernal, Giant, Orc.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Homunculus",
+      "creature_type": "Construct",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "Any alignment (same as creator)",
+      "size": "Tiny",
+      "init": "+2",
+      "senses": "darkvision 60 ft., low-light vision; Perception +3",
+      "languages": "Common (cannot speak); telepathic link",
+      "ac": "14, touch 14, flat-footed 12 (+2 Dex, +2 size)",
+      "hp": "11 (2d10)",
+      "saving_throws": {
+        "fort": "+0",
+        "ref": "+4",
+        "will": "+1"
+      },
+      "defensive_abilities": "construct traits",
+      "speed": "20 ft., fly 50 ft. (good)",
+      "melee": "1 bite +3 (1d4-1 plus poison)",
+      "space": "2-1/2 ft.",
+      "reach": "0 ft.",
+      "ability_scores": {
+        "str": "8",
+        "dex": "15",
+        "con": "-",
+        "int": "10",
+        "wis": "12",
+        "cha": "7"
+      },
+      "base_attack": "+2",
+      "cmb": "+2",
+      "cmd": "11",
+      "feats": "Lightning Reflexes",
+      "skills": "Fly +10, Perception +3, Stealth +12",
+      "environment": "any",
+      "organization": "solitary",
+      "treasure": "none",
+      "description": "This vaguely humanoid creature is about the size of a cat but looks more like a toothy, winged devil.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based and includes a +2 racial bonus. Bite—Homunculus Venom.",
+          "affliction": {
+            "name": "Homunculus Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/minute for 60 minutes",
+            "effect": "sleep for 1 minute",
+            "save": "Fortitude DC 13",
+            "cure": "1 save"
+          }
+        },
+        {
+          "name": "Telepathic Link",
+          "type": "Su",
+          "description": "A homunculus cannot speak, but the process of creating one links it telepathically with its creator. A homunculus knows what its master knows and can convey to him or her everything it sees and hears, out to a distance of 1,500 feet."
+        }
+      ],
+      "ecology": "A homunculus is a miniature servant created by a spellcaster from his own blood. They are weak combatants but make effective spies, messengers, and scouts. A homunculus's creator determines its precise features; some are more refined looking, but most creators don't bother to improve the creature's appearance beyond the minimum necessary for functioning.\n\nHomunculi are little more than tools designed to carry out assigned tasks. They are extensions of their creators, sharing the same alignment and basic nature. A homunculus never willingly travels more than a mile from its master, though it can be removed forcibly. If this occurs, the creature does everything in its power to return to this range, as it cannot communicate with its master beyond this distance. An attack that destroys a homunculus deals 2d10 points of damage to its master. If the creature's master is slain, the homunculus goes insane—it loses its Intelligence score, all feats, and all skill ranks, and generally claims the immediate surroundings as its domain, mindlessly attacking any who intrude upon its lair.\n\nOn rare occasions, a homunculus freed from its servitude rises above its master's original intent and becomes more than a half-insane construct guardian of a long-forgotten lair. In some cases, a homunculus might even come to see itself as the rightful heir to its master's legacy, or even the reincarnated spirit of the master himself.\n\nConstruction: A homunculus is shaped from a mixture of clay, ash, mandrake root, spring water, and one pint of the creator's own blood. These materials cost 50 gp. After the body is sculpted, it is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist's laboratory, and costing an additional 1,000 gp to supply. If the creator is personally constructing the creature's body, the building and ritual can be performed together. A homunculus with more than 2 Hit Dice can be created, but each additional Hit Die adds +2,000 gp to the cost to create. The person whose blood is used to form a homunculus's body becomes its master; it is possible for one person to give blood for the creation, another to sculpt the base material, and another to magically animate it as a minion for the one who provided the blood. Homunculus: CL 7th; Price 2,050 gp; Construction Requirements Craft Construct, arcane eye, mirror image, mending; Skill Craft (leather) or Craft (sculptures) DC 12; Cost 1,050 gp.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Horse",
+      "creature_type": "Animal",
+      "cr": "1",
+      "xp": "400",
+      "alignment": "N",
+      "size": "Large",
+      "init": "+2",
+      "senses": "low-light vision, scent; Perception +6",
+      "ac": "11, touch 11, flat-footed 9 (+2 Dex, -1 size)",
+      "hp": "15 (2d8+6)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+5",
+        "will": "+1"
+      },
+      "special_qualities": "docile",
+      "speed": "50 ft.",
+      "melee": "2 hooves -2 (1d4+1)",
+      "space": "10 ft.",
+      "reach": "5 ft.",
+      "ability_scores": {
+        "str": "16",
+        "dex": "14",
+        "con": "17",
+        "int": "2",
+        "wis": "13",
+        "cha": "7"
+      },
+      "base_attack": "+1",
+      "cmb": "+5",
+      "cmd": "17 (21 vs. trip)",
+      "feats": "Endurance, RunB",
+      "skills": "Perception +6",
+      "environment": "temperate plains",
+      "organization": "solitary, pair, or herd (3-30)",
+      "treasure": "none",
+      "description": "This proud horse thunders across the grassy plain with fluid grace, wind tugging at its loose-fitting barding.",
+      "special_abilities": [
+        {
+          "name": "Docile",
+          "type": "Ex",
+          "description": "Unless specifically trained for combat (see the Handle Animal skill), a horse's hooves are treated as secondary attacks."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Heavy Horse",
+          "description": "The statistics above are for a typical riding horse, called by some a \"light horse.\" Some horses are larger and heartier, bred for labor such as pulling plows or carriages. These horses are called \"heavy horses\" and gain the following adjustments to the base statistics detailed above. A heavy horse gains the advanced simple template. In addition, it also gains a bite attack that inflicts 1d4 damage, and its hoof damage increases to 1d6. As with a light horse, a heavy horse can be specifically trained for combat with the Handle Animal skill."
+        }
+      ],
+      "ecology": "Horses stand 5 to 6 feet tall at the shoulder and weigh between 1,000 and 1,500 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Horse, Pony",
+      "creature_type": "Animal",
+      "cr": "1/2",
+      "xp": "200",
+      "alignment": "N",
+      "size": "Medium",
+      "init": "+1",
+      "senses": "low-light vision, scent; Perception +5",
+      "ac": "11, touch 11, flat-footed 10 (+1 Dex)",
+      "hp": "13 (2d8+4)",
+      "saving_throws": {
+        "fort": "+5",
+        "ref": "+4",
+        "will": "+0"
+      },
+      "special_qualities": "docile (see horse)",
+      "speed": "40 ft.",
+      "melee": "2 hooves -3 (1d3)",
+      "ability_scores": {
+        "str": "13",
+        "dex": "13",
+        "con": "14",
+        "int": "2",
+        "wis": "11",
+        "cha": "4"
+      },
+      "base_attack": "+1",
+      "cmb": "+2",
+      "cmd": "13 (17 vs. trip)",
+      "feats": "Endurance, RunB",
+      "skills": "Perception +5",
+      "environment": "temperate plains",
+      "organization": "solitary, pair, or herd (3-30)",
+      "treasure": "none",
+      "description": "This squat equine plods forward with large, curious eyes. As it nears, it extends its muzzle, clearly expecting a treat.",
+      "ecology": "Ponies are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds.\n\nA light load for a pony is up to 100 pounds, a medium load is 101–200 pounds, and a heavy load is 201–300 pounds. A pony can drag 1,500 pounds.\n\nThe statistics presented above are for a typical pony. Tougher ponies with the advanced simple template exist, but are relatively uncommon and, unlike horses, these creatures are not generally called \"heavy ponies.\" Like horses, ponies can be trained for combat with the Handle Animal skill, and such mounts often serve halflings, gnomes, and other small races as steeds in combat.",
+      "source": "Bestiary"
+    }
+  ]
+}
