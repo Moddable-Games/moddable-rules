@@ -8,7 +8,7 @@ const GAMES_DIR = resolve(ROOT, 'games');
 const SHARED_DIR = resolve(ROOT, 'shared');
 const DIST_DIR = resolve(ROOT, 'dist');
 const THEMES_DIR = resolve(SHARED_DIR, 'themes');
-const ENGINE_BASE = 'https://engine.moddable.games/play.html';
+const ENGINE_BASE = 'https://engine.moddable.games/play/';
 
 function renderSvgBlock(svg, caption, family, variant) {
   const engineUrl = `${ENGINE_BASE}?game=${family}&variant=${variant}`;
