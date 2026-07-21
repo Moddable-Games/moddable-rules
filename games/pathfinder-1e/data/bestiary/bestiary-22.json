@@ -1,0 +1,320 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 22,
+  "range": "Dragon, Metallic, Gold (Young / Adult / Ancient)",
+  "count": 3,
+  "creatures": [
+    {
+      "name": "Dragon, Metallic, Gold, Young",
+      "creature_type": "Dragon",
+      "creature_subtype": "fire",
+      "cr": "11",
+      "xp": "12,800",
+      "alignment": "LG",
+      "size": "Large",
+      "init": "+1",
+      "senses": "dragon senses; Perception +22",
+      "languages": "Common, Draconic, Elven, Halfling",
+      "ac": "23, touch 10, flat-footed 22 (+1 Dex, +13 natural, -1 size)",
+      "hp": "126 (12d12+48)",
+      "saving_throws": {
+        "fort": "+12",
+        "ref": "+9",
+        "will": "+13"
+      },
+      "immune": "fire, paralysis, sleep",
+      "weaknesses": "vulnerability to cold",
+      "speed": "60 ft., fly 200 ft. (poor), swim 60 ft.",
+      "melee": "bite +18 (2d6+10), 2 claws +18 (1d8+7/19-20), 2 wings +16 (1d6+3), tail +16 (1d8+10)",
+      "special_attacks": "breath weapon (40-ft. cone, DC 20, 6d10 fire), weakening breath",
+      "special_qualities": "change shape, detect gems, fast flight",
+      "space": "10 ft.",
+      "reach": "5 ft. (10 ft. with bite)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 12th) At will—detect evil"
+        },
+        {
+          "type": "Spells Known",
+          "text": "(CL 1st) 1st (4/day)—mage armor, shield; 0 (at will)—detect magic, light, mending, stabilize"
+        }
+      ],
+      "ability_scores": {
+        "str": "25",
+        "dex": "12",
+        "con": "19",
+        "int": "16",
+        "wis": "17",
+        "cha": "16"
+      },
+      "base_attack": "+12",
+      "cmb": "+20",
+      "cmd": "31 (35 vs. trip)",
+      "feats": "Alertness, Improved Critical (claw), Iron Will, Multiattack, Power Attack, Vital Strike",
+      "skills": "Diplomacy +18, Fly +10, Heal +18, Knowledge (local, religion) +18, Perception +22, Sense Motive +22, Spellcraft +18, Swim +30",
+      "environment": "warm plains",
+      "organization": "solitary",
+      "treasure": "triple",
+      "special_abilities": [
+        {
+          "name": "Change Shape",
+          "type": "Su",
+          "description": "A very young or older gold dragon can assume any animal or humanoid form three times per day as if using polymorph."
+        },
+        {
+          "name": "Detect Gems",
+          "type": "Sp",
+          "description": "A young or older gold dragon can detect gems three times per day. This functions as locate object, but can only be used to locate gemstones."
+        },
+        {
+          "name": "Fast Flight",
+          "type": "Ex",
+          "description": "A young or older gold dragon is treated as one size category larger when determining his fly speed."
+        },
+        {
+          "name": "Weakening Breath",
+          "type": "Su",
+          "description": "Instead of a cone of fire, a gold dragon can breathe a cone of weakening gas. Creatures within the cone must succeed on a Fortitude save or take 1 point of Strength damage per age category (Will save half)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Dragon, Gold — Age Category",
+          "headers": ["Age Category", "Special Abilities", "Caster Level"],
+          "rows": [
+            ["Wyrmling", "Fire subtype, weakening breath", "—"],
+            ["Very young", "Change shape, Detect evil", "—"],
+            ["Young", "Fast flight, Detect gems", "1st"],
+            ["Juvenile", "Bless", "3rd"],
+            ["Young adult", "DR 5/magic, spell resistance", "5th"],
+            ["Adult", "Frightful presence, Luck, Daylight", "7th"],
+            ["Mature adult", "DR 10/magic", "9th"],
+            ["Old", "Fire aura, Geas/quest", "11th"],
+            ["Very old", "DR 15/magic", "13th"],
+            ["Ancient", "Sunburst", "15th"],
+            ["Wyrm", "DR 20/magic", "17th"],
+            ["Great wyrm", "Divine aid, Foresight", "19th"]
+          ]
+        }
+      ],
+      "ecology": "Gold dragons are the epitome of virtue. Other metallic dragons revere their gold cousins as the agents of divine forces and the paragons of dragonkind, and often seek them for advice or aid. A gold dragon can cast cleric spells as arcane spells.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Dragon, Metallic, Gold, Adult",
+      "creature_type": "Dragon",
+      "creature_subtype": "fire",
+      "cr": "15",
+      "xp": "51,200",
+      "alignment": "LG",
+      "size": "Huge",
+      "init": "+0",
+      "senses": "dragon senses; Perception +30",
+      "languages": "Celestial, Common, Draconic, 3 more",
+      "ac": "30, touch 8, flat-footed 30 (+22 natural, -2 size)",
+      "hp": "225 (18d12+108)",
+      "saving_throws": {
+        "fort": "+17",
+        "ref": "+11",
+        "will": "+18"
+      },
+      "immune": "fire, paralysis, sleep",
+      "weaknesses": "vulnerability to cold",
+      "aura": "frightful presence (180 ft., DC 24)",
+      "sr": "26",
+      "dr": "5/magic",
+      "speed": "60 ft., fly 250 ft. (poor), swim 60 ft.",
+      "melee": "bite +26 (2d8+15/19-20), 2 claws +26 (2d6+10/19-20), 2 wings +24 (1d8+5), tail +24 (2d6+15)",
+      "special_attacks": "breath weapon (50-ft. cone, DC 25, 12d10 fire), crush, weakening breath",
+      "special_qualities": "change shape, detect gems, fast flight, luck",
+      "space": "15 ft.",
+      "reach": "10 ft. (15 ft. with bite)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 18th) At will—bless, daylight, detect evil"
+        },
+        {
+          "type": "Spells Known",
+          "text": "(CL 7th) 3rd (5/day)—dispel magic, prayer; 2nd (7/day)—aid, cure moderate wounds (DC 17), resist energy; 1st (7/day)—alarm, divine favor, mage armor, shield, shield of faith; 0 (at will)—detect magic, light, mending, stabilize, 3 more"
+        }
+      ],
+      "ability_scores": {
+        "str": "31",
+        "dex": "10",
+        "con": "23",
+        "int": "20",
+        "wis": "21",
+        "cha": "20"
+      },
+      "base_attack": "+18",
+      "cmb": "+30",
+      "cmd": "40 (44 vs. trip)",
+      "feats": "Alertness, Critical Focus, Extend Spell, Improved Critical (bite, claw), Iron Will, Multiattack, Power Attack, Vital Strike",
+      "skills": "Diplomacy +26, Fly +13, Heal +26, Knowledge (arcana, local, nobility, religion) +26, Perception +30, Sense Motive +30, Spellcraft +26, Swim +39",
+      "environment": "warm plains",
+      "organization": "solitary",
+      "treasure": "triple",
+      "special_abilities": [
+        {
+          "name": "Change Shape",
+          "type": "Su",
+          "description": "A very young or older gold dragon can assume any animal or humanoid form three times per day as if using polymorph."
+        },
+        {
+          "name": "Detect Gems",
+          "type": "Sp",
+          "description": "A young or older gold dragon can detect gems three times per day. This functions as locate object, but can only be used to locate gemstones."
+        },
+        {
+          "name": "Fast Flight",
+          "type": "Ex",
+          "description": "A young or older gold dragon is treated as one size category larger when determining his fly speed."
+        },
+        {
+          "name": "Luck",
+          "type": "Sp",
+          "description": "Once per day an adult or older gold dragon can touch a gem, usually one embedded in the dragon's hide, and enspell it to bring good luck. As long as the dragon carries the gem, it and every good creature within a given radius of it (10 ft. per age category) receives a +1 luck bonus on all saving throws. If the dragon gives an enspelled gem to another creature, only that bearer gets the bonus. The effect lasts 1d3 hours plus 3 hours per age category of the dragon. This ability is the equivalent of a 2nd-level spell."
+        },
+        {
+          "name": "Weakening Breath",
+          "type": "Su",
+          "description": "Instead of a cone of fire, a gold dragon can breathe a cone of weakening gas. Creatures within the cone must succeed on a Fortitude save or take 1 point of Strength damage per age category (Will save half)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Dragon, Gold — Age Category",
+          "headers": ["Age Category", "Special Abilities", "Caster Level"],
+          "rows": [
+            ["Wyrmling", "Fire subtype, weakening breath", "—"],
+            ["Very young", "Change shape, Detect evil", "—"],
+            ["Young", "Fast flight, Detect gems", "1st"],
+            ["Juvenile", "Bless", "3rd"],
+            ["Young adult", "DR 5/magic, spell resistance", "5th"],
+            ["Adult", "Frightful presence, Luck, Daylight", "7th"],
+            ["Mature adult", "DR 10/magic", "9th"],
+            ["Old", "Fire aura, Geas/quest", "11th"],
+            ["Very old", "DR 15/magic", "13th"],
+            ["Ancient", "Sunburst", "15th"],
+            ["Wyrm", "DR 20/magic", "17th"],
+            ["Great wyrm", "Divine aid, Foresight", "19th"]
+          ]
+        }
+      ],
+      "ecology": "Gold dragons are the epitome of virtue. Other metallic dragons revere their gold cousins as the agents of divine forces and the paragons of dragonkind, and often seek them for advice or aid. A gold dragon can cast cleric spells as arcane spells.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Dragon, Metallic, Gold, Ancient",
+      "creature_type": "Dragon",
+      "creature_subtype": "fire",
+      "cr": "20",
+      "xp": "307,200",
+      "alignment": "LG",
+      "size": "Gargantuan",
+      "init": "-1",
+      "senses": "dragon senses; Perception +40",
+      "languages": "Celestial, Common, Draconic, 5 more",
+      "ac": "39, touch 5, flat-footed 39 (-1 Dex, +34 natural, -4 size)",
+      "hp": "377 (26d12+208)",
+      "saving_throws": {
+        "fort": "+23",
+        "ref": "+14",
+        "will": "+24"
+      },
+      "immune": "fire, paralysis, sleep",
+      "weaknesses": "vulnerability to cold",
+      "aura": "fire, frightful presence (300 ft., DC 30)",
+      "sr": "31",
+      "dr": "15/magic",
+      "speed": "60 ft., fly 250 ft. (clumsy), swim 60 ft.",
+      "melee": "bite +36 (4d6+21/19-20), 2 claws +36 (2d8+14/19-20), 2 wings +34 (2d6+7/19-20), tail +34 (2d8+21/19-20)",
+      "special_attacks": "breath weapon (60-ft. cone, DC 31, 20d10 fire), crush, tail sweep, weakening breath",
+      "special_qualities": "change shape, detect gems, fast flight, luck",
+      "space": "20 ft.",
+      "reach": "15 ft. (20 ft. with bite)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 26th) At will—bless, daylight, detect evil, geas/quest, sunburst (DC 25)"
+        },
+        {
+          "type": "Spells Known",
+          "text": "(CL 15th) 7th (5/day)—greater teleport, resurrection; 6th (7/day)—antimagic field, greater dispel magic, heal; 5th (7/day)—dispel evil, plane shift, teleport, true seeing; 4th (7/day)—divination, restoration, spell immunity, stoneskin; 3rd (7/day)—dispel magic, haste, invisibility purge, prayer; 2nd (8/day)—aid, cure moderate wounds, lesser restoration, resist energy, silence; 1st (8/day)—alarm, divine favor, mage armor, shield, shield of faith; 0 (at will)—detect magic, light, mending, stabilize, 6 more"
+        }
+      ],
+      "ability_scores": {
+        "str": "39",
+        "dex": "8",
+        "con": "27",
+        "int": "24",
+        "wis": "25",
+        "cha": "24"
+      },
+      "base_attack": "+26",
+      "cmb": "+44",
+      "cmd": "53 (57 vs. trip)",
+      "feats": "Alertness, Critical Focus, Extend Spell, Improved Critical (bite, claw, wing, tail), Iron Will, Multiattack, Power Attack, Quicken Spell, Staggering Critical, Vital Strike",
+      "skills": "Diplomacy +36, Fly +13, Heal +36, Knowledge (arcana, history, local, nobility, planes, religion) +36, Perception +40, Sense Motive +40, Spellcraft +36, Swim +51",
+      "environment": "warm plains",
+      "organization": "solitary",
+      "treasure": "triple",
+      "special_abilities": [
+        {
+          "name": "Change Shape",
+          "type": "Su",
+          "description": "A very young or older gold dragon can assume any animal or humanoid form three times per day as if using polymorph."
+        },
+        {
+          "name": "Detect Gems",
+          "type": "Sp",
+          "description": "A young or older gold dragon can detect gems three times per day. This functions as locate object, but can only be used to locate gemstones."
+        },
+        {
+          "name": "Fast Flight",
+          "type": "Ex",
+          "description": "A young or older gold dragon is treated as one size category larger when determining his fly speed."
+        },
+        {
+          "name": "Fire Aura",
+          "type": "Su",
+          "description": "An old or older gold dragon is surrounded by an aura of fire. All creatures within 5 feet of the dragon take 1d6 points of fire damage at the beginning of the dragon's turn. An ancient gold dragon's aura extends to 10 feet. A great wyrm's damage increases to 2d6. The dragon can activate or suppress this aura as a free action."
+        },
+        {
+          "name": "Luck",
+          "type": "Sp",
+          "description": "Once per day an adult or older gold dragon can touch a gem, usually one embedded in the dragon's hide, and enspell it to bring good luck. As long as the dragon carries the gem, it and every good creature within a given radius of it (10 ft. per age category) receives a +1 luck bonus on all saving throws. If the dragon gives an enspelled gem to another creature, only that bearer gets the bonus. The effect lasts 1d3 hours plus 3 hours per age category of the dragon. This ability is the equivalent of a 2nd-level spell."
+        },
+        {
+          "name": "Weakening Breath",
+          "type": "Su",
+          "description": "Instead of a cone of fire, a gold dragon can breathe a cone of weakening gas. Creatures within the cone must succeed on a Fortitude save or take 1 point of Strength damage per age category (Will save half)."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Dragon, Gold — Age Category",
+          "headers": ["Age Category", "Special Abilities", "Caster Level"],
+          "rows": [
+            ["Wyrmling", "Fire subtype, weakening breath", "—"],
+            ["Very young", "Change shape, Detect evil", "—"],
+            ["Young", "Fast flight, Detect gems", "1st"],
+            ["Juvenile", "Bless", "3rd"],
+            ["Young adult", "DR 5/magic, spell resistance", "5th"],
+            ["Adult", "Frightful presence, Luck, Daylight", "7th"],
+            ["Mature adult", "DR 10/magic", "9th"],
+            ["Old", "Fire aura, Geas/quest", "11th"],
+            ["Very old", "DR 15/magic", "13th"],
+            ["Ancient", "Sunburst", "15th"],
+            ["Wyrm", "DR 20/magic", "17th"],
+            ["Great wyrm", "Divine aid, Foresight", "19th"]
+          ]
+        }
+      ],
+      "ecology": "Gold dragons are the epitome of virtue. Other metallic dragons revere their gold cousins as the agents of divine forces and the paragons of dragonkind, and often seek them for advice or aid. A gold dragon can cast cleric spells as arcane spells.",
+      "source": "Bestiary"
+    }
+  ]
+}
