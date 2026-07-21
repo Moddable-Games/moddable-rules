@@ -1,0 +1,206 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 37,
+  "range": "Kobold – Kyton",
+  "count": 3,
+  "creatures": [
+    {
+      "name": "Kobold",
+      "creature_type": "Humanoid",
+      "creature_subtype": "reptilian",
+      "cr": "1/4",
+      "xp": "100",
+      "alignment": "LE",
+      "size": "Small",
+      "init": "+1",
+      "senses": "darkvision 60 ft.; Perception +5",
+      "languages": "Common, Draconic",
+      "ac": "15, touch 12, flat-footed 14 (+2 armor, +1 Dex, +1 natural, +1 size)",
+      "hp": "5 (1d10)",
+      "saving_throws": {
+        "fort": "+2",
+        "ref": "+1",
+        "will": "-1"
+      },
+      "weaknesses": "light sensitivity",
+      "special_qualities": "crafty",
+      "speed": "30 ft.",
+      "melee": "spear +1 (1d6-1)",
+      "ranged": "sling +3 (1d3-1)",
+      "level": "warrior 1",
+      "ability_scores": {
+        "str": "9",
+        "dex": "13",
+        "con": "10",
+        "int": "10",
+        "wis": "9",
+        "cha": "8"
+      },
+      "base_attack": "+1",
+      "cmb": "-1",
+      "cmd": "10",
+      "feats": "Skill Focus (Perception)",
+      "skills": "Craft (trapmaking) +6, Perception +5, Stealth +5",
+      "racial_modifiers": "+2 Craft (trapmaking), +2 Perception, +2 Profession (miner)",
+      "environment": "temperate underground or deep forest",
+      "organization": "solitary, gang (2-4), nest (5-30 plus equal number of noncombatants, 1 sergeant of 3rd level per 20 adults, and 1 leader of 4th-6th level), or tribe (31-300 plus 35% noncombatants, 1 sergeant of 3rd level per 20 adults, 2 lieutenants of 4th level, 1 leader of 6th-8th level, and 5-16 dire rats)",
+      "treasure": "NPC gear (leather armor, spear, sling, other treasure)",
+      "description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.",
+      "special_abilities": [
+        {
+          "name": "Crafty",
+          "type": "Ex",
+          "description": "Craft (trapmaking) and Stealth are always class skills for a kobold."
+        }
+      ],
+      "ecology": "Kobolds are creatures of the dark, found most commonly in enormous underground warrens or the dark corners of the forest where the sun is unable to reach. Due to their physical similarities, kobolds loudly proclaim themselves the scions of dragonkind, destined to rule the earth beneath the wings of their great god-cousins, but most dragons have little use for the obnoxious pests.\n\nWhile they may speak loudly of divine right and manifest destiny, kobolds are keenly aware of their own weakness. Cowards and schemers, they never fight fair if they can help it, instead setting up ambushes and double-crosses, holing up in their warrens behind countless crude but ingenious traps, or rolling over the enemy in vast, yipping hordes.\n\nKobold coloration varies even among siblings from the same egg clutch, ranging through the colors of the chromatic dragons, with red being the most common but white, green, blue, and black kobolds not unheard of.\n\nRacial Traits: Kobolds are defined by their class levels—they do not possess racial Hit Dice. A kobold with NPC class levels takes a –3 penalty to its CR (rather than the normal –2 penalty). All kobolds have the following racial traits. -4 Strength, +2 Dexterity, -2 Constitution: Kobolds are fast but weak. Small: Kobolds are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their CMB and CMD, and a +4 size bonus on Stealth checks. Normal Speed: Kobolds have a base speed of 30 feet. Darkvision: Kobolds can see in the dark up to 60 feet. Armor: Kobolds have a +1 natural armor bonus. Crafty: Kobolds gain a +2 racial bonus on Craft (trapmaking), Perception, and Profession (miner) checks. Craft (trapmaking) and Stealth are always class skills for a kobold. Weakness: Light sensitivity. Languages: Kobolds begin play speaking only Draconic. Kobolds who have high Intelligence scores can choose any of the following bonus languages: Dwarven, Gnome, and Undercommon.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Kraken",
+      "creature_type": "Magical Beast",
+      "creature_subtype": "aquatic",
+      "cr": "18",
+      "xp": "153,600",
+      "alignment": "NE",
+      "size": "Gargantuan",
+      "init": "+4",
+      "senses": "darkvision 120 ft., low-light vision; Perception +28",
+      "languages": "Aquan, Common",
+      "ac": "32, touch 6, flat-footed 32 (+26 natural, -4 size)",
+      "hp": "290 (20d10+180)",
+      "saving_throws": {
+        "fort": "+21",
+        "ref": "+12",
+        "will": "+11"
+      },
+      "immune": "cold, mind-affecting effects, poison",
+      "special_qualities": "tenacious grapple",
+      "speed": "10 ft., swim 40 ft., jet 280 ft.",
+      "melee": "2 arms +26 (2d6+10/19-20 plus grab), 8 tentacles +24 (1d8+5 plus grab), bite +26 (2d8+10)",
+      "special_attacks": "constrict (tentacles, 1d8+10), ink cloud, rend ship",
+      "space": "20 ft.",
+      "reach": "20 ft. (60 ft. with arm, 40 ft. with tentacle)",
+      "spellcasting": [
+        {
+          "type": "Spell-Like Abilities",
+          "text": "(CL 15th) 1/day—control weather, control winds, dominate monster (DC 24, animal only), resist energy"
+        }
+      ],
+      "ability_scores": {
+        "str": "30",
+        "dex": "10",
+        "con": "29",
+        "int": "21",
+        "wis": "20",
+        "cha": "21"
+      },
+      "base_attack": "+20",
+      "cmb": "+34 (+38 grappling)",
+      "cmd": "44 (can't be tripped)",
+      "feats": "Bleeding Critical, Blind-Fight, Cleave, Combat Expertise, Critical Focus, Improved Critical (arm), Improved Initiative, Improved Trip, Multiattack, Power Attack",
+      "skills": "Intimidate +25, Knowledge (geography) +25, Knowledge (nature) +25, Perception +28, Stealth +11, Swim +41, Use Magic Device +25",
+      "environment": "any ocean",
+      "organization": "solitary",
+      "treasure": "triple",
+      "description": "This tremendous leviathan resembles a vast squid, yet the markings on its body are strangely unsettling to look upon.",
+      "special_abilities": [
+        {
+          "name": "Ink Cloud",
+          "type": "Ex",
+          "description": "A kraken can emit a cloud of black, venomous ink in an 80-foot spread once per minute as a free action while underwater. This cloud provides total concealment, which the kraken can use to escape a fight that is going badly. Creatures within the cloud are considered to be in darkness. In addition, the ink is toxic, functioning as contact poison against all creatures caught within it. The ink cloud persists for 1 minute before dispersing. The save DC against the poison effect is Constitution-based.",
+          "affliction": {
+            "name": "Kraken Ink Cloud",
+            "type": "poison",
+            "contracted": "contact",
+            "frequency": "1/round for 10 rounds",
+            "effect": "1 Strength damage plus nausea",
+            "save": "Fortitude DC 29",
+            "cure": "2 consecutive saves"
+          }
+        },
+        {
+          "name": "Jet",
+          "type": "Ex",
+          "description": "A kraken can jet backward as a full-round action, at a speed of 280 feet. It must move in a straight line, but does not provoke attacks of opportunity while jetting."
+        },
+        {
+          "name": "Rend Ship",
+          "type": "Ex",
+          "description": "As a full-round action, a kraken can attempt to use four of its tentacles to grapple a ship of its size or smaller. It makes a CMB check opposed by the ship's captain's Profession (sailor) check, but the kraken gets a cumulative +4 bonus on the check for each size category smaller than Gargantuan the ship is. If the kraken grapples the ship, it holds the ship motionless; it can attack targets anywhere on or within the ship with its tentacles, but can only attack foes on deck with its free arms and can't attack foes at all with its beak. Each round it maintains its hold on the ship, it automatically inflicts bite damage on the ship's hull."
+        },
+        {
+          "name": "Tenacious Grapple",
+          "type": "Ex",
+          "description": "A kraken does not gain the grappled condition if it grapples a foe with its arms or tentacles."
+        }
+      ],
+      "ecology": "The legendary kraken is one of the greatest of sailors' fears, for here is a creature the size of a whale, one that can strike from the unseen depths below, can command the winds and weather that a ship needs to move, and possesses the cruel intellect of the world's most creative and spiteful criminals. Some believe krakens to be a punishment of the gods, while others hold them to be the true lords of the deep, with the air-breathing races naught but their cattle.\n\nA kraken measures nearly 100 feet in length and weighs 4,000 pounds.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Kyton",
+      "creature_type": "Outsider",
+      "creature_subtype": "evil, extraplanar, kyton, lawful",
+      "cr": "6",
+      "xp": "2,400",
+      "alignment": "LE",
+      "size": "Medium",
+      "init": "+7",
+      "senses": "darkvision 60 ft.; Perception +14",
+      "languages": "Common, Infernal",
+      "ac": "21, touch 13, flat-footed 18 (+4 armor, +3 Dex, +4 natural)",
+      "hp": "60 (8d10+16); regeneration 2 (good weapons and spells, silver weapons)",
+      "saving_throws": {
+        "fort": "+8",
+        "ref": "+9",
+        "will": "+3"
+      },
+      "immune": "cold",
+      "special_qualities": "chain armor",
+      "dr": "5/silver or good",
+      "sr": "17",
+      "speed": "30 ft.",
+      "melee": "4 chains +11 (2d4+2)",
+      "special_attacks": "dancing chains, unnerving gaze",
+      "space": "5 ft.",
+      "reach": "5 ft. (10 ft. with chains)",
+      "ability_scores": {
+        "str": "15",
+        "dex": "17",
+        "con": "14",
+        "int": "11",
+        "wis": "12",
+        "cha": "12"
+      },
+      "base_attack": "+8",
+      "cmb": "+10",
+      "cmd": "23",
+      "feats": "Alertness, Blind-Fight, Improved Initiative, Weapon Focus (chain)",
+      "skills": "Acrobatics +14, Climb +13, Craft (blacksmithing) +11, Escape Artist +14, Intimidate +12, Perception +14",
+      "environment": "any",
+      "organization": "solitary, pair, link (3-6), or chain (7-20)",
+      "treasure": "standard",
+      "description": "Wickedly barbed chains adorn this lean figure, and gaps in the bindings reveal deathly pale flesh etched with jagged scars.",
+      "special_abilities": [
+        {
+          "name": "Chain Armor",
+          "type": "Ex",
+          "description": "The chains that adorn a kyton grant it a +4 armor bonus, but are not treated as armor for the purpose of arcane spell failure, armor check penalties, maximum Dexterity, weight, or proficiency."
+        },
+        {
+          "name": "Dancing Chains",
+          "type": "Su",
+          "description": "A kyton can control up to four chains within 20 feet as a standard action, making the chains dance or move as it wishes. In addition, a kyton can increase these chains' length by up to 15 feet and cause them to sprout razor-edged barbs. These chains attack as effectively as the kyton itself. If a chain is in another creature's possession, the creature can attempt a DC 15 Will save to break the kyton's power over that chain. If the save is successful, the kyton cannot attempt to control that particular chain again for 24 hours or until the chain leaves the creature's possession. A kyton can climb chains it controls at its normal speed without making Climb checks. The save DC is Charisma-based."
+        },
+        {
+          "name": "Unnerving Gaze",
+          "type": "Su",
+          "description": "Range 30 ft., Will DC 15 negates. A kyton can make its face resemble one of an opponent's departed loved ones or bitter enemies. Those who fail their saves become shaken for 1d3 rounds. This is a mind-affecting fear effect. The save DC is Charisma-based."
+        }
+      ],
+      "ecology": "Often classified among the ranks of the infernal and called chain devils by the uninitiated, the sadomasochistic kytons are not true devils. Many suggest that kytons were natives of Hell who existed there before the advent of devilkind, while others hypothesize they were later brought to the plane by some sadistic power. Regardless of their origins, kytons roam the planes in their lust to cause and receive suffering, seeking pain through violent abductions and sadistic debauches.\n\nThe kyton presented here is a typical member of this fiendish race of outsiders, but is by no means the only type of its kind. Just as there are numerous different species of demon and devil, rumor holds that different kinds of kytons dwell in their jangling cities in Hell and on the Plane of Shadow. These kytons are invariably more powerful than the one presented here, often having spell-like abilities or hideous and unsettling special attacks along the themes of torture and pain. Rumor holds that the most powerful kytons are completely inhuman, and that these monsters are the true progenators of the kyton race—the kyton presented here but the result of unholy dalliances with their unfortunate victims.",
+      "source": "Bestiary"
+    }
+  ]
+}
