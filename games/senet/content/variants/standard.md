@@ -89,10 +89,8 @@ engine:
       horus-stroke: "#a02020"
   pieces:
     set: playstrategy-draughts-plain
-  players: [cone, spool]
-  setup:
-    cone: [[0,0],[0,2],[0,4],[0,6],[0,8]]
-    spool: [[0,1],[0,3],[0,5],[0,7],[0,9]]
+  players: [white, black]
+  setup: "MmMmMmMmMm/10/10"
 ---
 
 ## Senet (Kendall Reconstruction)
