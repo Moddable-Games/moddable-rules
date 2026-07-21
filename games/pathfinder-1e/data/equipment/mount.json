@@ -1,0 +1,215 @@
+{
+  "source": "Pathfinder Roleplaying Game Core Rulebook, Paizo Publishing, LLC. Content sourced via the PSRD-Data project (devonjones/PSRD-Data). Licence: OGL 1.0a.",
+  "category": "mount",
+  "count": 13,
+  "items": [
+    {
+      "name": "Barding, Medium Creature and Large Creature",
+      "category": "mount",
+      "price": "",
+      "weight": "",
+      "description": "Barding is a type of armor that covers the head, neck, chest, body, and possibly legs of a horse or other mount. Barding made of medium or heavy armor provides better protection than light barding, but at the expense of speed. Barding can be made of any of the armor types found on Table: Armor and Shields.\n\nArmor for a horse (a Large nonhumanoid creature) costs four times as much as human armor (a Medium humanoid creature) and also weighs twice as much (see Table: Armor for Unusual Creatures). If the barding is for a pony or other Medium mount, the cost is only double, and the weight is the same as for Medium armor worn by a humanoid. Medium or heavy barding slows a mount that wears it, as shown on the table below.\n\nFlying mounts can't fly in medium or heavy barding.\n\nRemoving and fitting barding takes five times as long as the figures given on Table: Donning Armor. A barded animal cannot be used to carry any load other than a rider and normal saddlebags.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        },
+        "Large Creature": {
+          "Price": "×42",
+          "Weight": "×22"
+        },
+        "Medium Creature": {
+          "Price": "×22",
+          "Weight": "×12"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Bit and Bridle",
+      "category": "mount",
+      "price": "2 gp",
+      "weight": "1 lb.",
+      "description": "This is headgear used by a rider to control a mount. Bit and bridles for horses, ponies, and riding dogs can be readily purchased in most settlements and bits and bridles can be crafted for any creature that serves as a mount.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Dog, Guard",
+      "category": "mount",
+      "price": "25 gp",
+      "weight": "—",
+      "description": "This Small, combat-trained dog is bred for battle; breeders favor strength, a thick body, and a low center of gravity. Guard dogs are sold in most large cities and some cultures use them for sport fighting or in some armies' special infantry.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Dog, Riding",
+      "category": "mount",
+      "price": "150 gp",
+      "weight": "—",
+      "description": "This Medium dog is specially trained to carry a Small humanoid rider. It is brave in combat like a combat-trained horse. Due to its smaller stature, you take no damage when you fall from a riding dog.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Donkey or Mule",
+      "category": "mount",
+      "price": "8 gp",
+      "weight": "—",
+      "description": "Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a horse, a donkey or a mule is willing (though not eager) to enter dungeons and other strange or threatening places.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Feed",
+      "category": "mount",
+      "price": "5 cp/per day",
+      "weight": "10 lbs.",
+      "description": "Horses, donkeys, mules, and ponies can graze to sustain themselves, but providing feed for them is better. If you have a riding dog, you have to feed it meat.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Horse",
+      "category": "mount",
+      "price": "",
+      "weight": "",
+      "description": "A horse is suitable as a mount for a human, dwarf, elf, half-elf, or half-orc. A pony is smaller than a horse and is a suitable mount for a gnome or halfling.\n\nA war-trained horse can be ridden into combat without danger. See the Handle Animal skill for a list of tricks known by horses and ponies with combat training.",
+      "stats": {
+        "Heavy": {
+          "Price": "200 gp"
+        },
+        "Pony": {
+          "Price": "30 gp"
+        },
+        "Light": {
+          "Price": "75 gp"
+        },
+        "Heavy, Combat Trained": {
+          "Price": "300 gp"
+        },
+        "null": {
+          "Gear Type": "Mounts and Related Gear",
+          "Weight": "—"
+        },
+        "Light, Combat Trained": {
+          "Price": "110 gp"
+        },
+        "Pony, Combat Trained": {
+          "Price": "45 gp"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Saddlebags",
+      "category": "mount",
+      "price": "4 gp",
+      "weight": "8 lbs.",
+      "description": "These sturdy, weatherproof bags are draped over a saddle to add extra carrying capacity. Each side of a saddlebag can typically carry 20 pound of items that can fit in the bags. Saddlebags do not increase the amount of weight a mount can carry; they merely give riders a place to stow their equipment.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Saddle, Exotic",
+      "category": "mount",
+      "price": "",
+      "weight": "",
+      "description": "An exotic saddle is designed for an unusual mount. Exotic saddles come in military, pack, and riding styles.",
+      "stats": {
+        "Riding": {
+          "Price": "30 gp",
+          "Weight": "30 lbs."
+        },
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        },
+        "Pack": {
+          "Price": "15 gp",
+          "Weight": "20 lbs."
+        },
+        "Military": {
+          "Price": "60 gp",
+          "Weight": "40 lbs."
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Saddle, Military",
+      "category": "mount",
+      "price": "20 gp",
+      "weight": "30 lbs.",
+      "description": "This saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If you're knocked unconscious while in a military saddle, you have a 75% chance to stay in the saddle.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Saddle, Pack",
+      "category": "mount",
+      "price": "5 gp",
+      "weight": "15 lbs.",
+      "description": "A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Saddle, Riding",
+      "category": "mount",
+      "price": "10 gp",
+      "weight": "25 lbs.",
+      "description": "If you are knocked unconscious while in a riding saddle, you have a 50% chance to stay in the saddle.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Stabling",
+      "category": "mount",
+      "price": "5 sp/per day",
+      "weight": "—",
+      "description": "This is the amount it costs to stable a single creature that is Large or smaller for one day, at a typical stable or hostler. Particularly fancy stables may cost more, and larger or more exotic creatures cost double.",
+      "stats": {
+        "null": {
+          "Gear Type": "Mounts and Related Gear"
+        }
+      },
+      "source": "Core Rulebook"
+    }
+  ]
+}
