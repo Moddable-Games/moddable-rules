@@ -128,32 +128,8 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [classes.json](../../games/pathfinder-1e/data/classes.json) — All 11 core classes with hit die, BAB, saves, and skill ranks
 - [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
 - [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
-- [bestiary.json (336)](../../games/pathfinder-1e/data/bestiary/bestiary.json) — The full core Bestiary (Aboleth through Yeti). Complete stat blocks: ability scores, AC, hp, saves, attacks, special abilities, spellcasting, ecology, and named variants.
-
-**Spells** — all 623 core spells, one file per spell level:
-
-- [Level 0 — Cantrips/Orisons (28)](../../games/pathfinder-1e/data/spells/level-0.json)
-- [Level 1 (89)](../../games/pathfinder-1e/data/spells/level-1.json)
-- [Level 2 (90)](../../games/pathfinder-1e/data/spells/level-2.json)
-- [Level 3 (90)](../../games/pathfinder-1e/data/spells/level-3.json)
-- [Level 4 (77)](../../games/pathfinder-1e/data/spells/level-4.json)
-- [Level 5 (68)](../../games/pathfinder-1e/data/spells/level-5.json)
-- [Level 6 (74)](../../games/pathfinder-1e/data/spells/level-6.json)
-- [Level 7 (40)](../../games/pathfinder-1e/data/spells/level-7.json)
-- [Level 8 (38)](../../games/pathfinder-1e/data/spells/level-8.json)
-- [Level 9 (29)](../../games/pathfinder-1e/data/spells/level-9.json)
-
-**Equipment** — 241 items across 10 category files:
-
-- [weapon.json (81)](../../games/pathfinder-1e/data/equipment/weapon.json)
-- [armor.json (21)](../../games/pathfinder-1e/data/equipment/armor.json)
-- [adventuring-gear.json (68)](../../games/pathfinder-1e/data/equipment/adventuring-gear.json)
-- [special-substance.json (10)](../../games/pathfinder-1e/data/equipment/special-substance.json)
-- [tool.json (16)](../../games/pathfinder-1e/data/equipment/tool.json)
-- [clothing.json (12)](../../games/pathfinder-1e/data/equipment/clothing.json)
-- [food-lodging.json (2)](../../games/pathfinder-1e/data/equipment/food-lodging.json)
-- [mount.json (13)](../../games/pathfinder-1e/data/equipment/mount.json)
-- [transport.json (11)](../../games/pathfinder-1e/data/equipment/transport.json)
-- [service.json (7)](../../games/pathfinder-1e/data/equipment/service.json)
+- [spells.json](../../games/pathfinder-1e/data/spells.json) — All 623 core spells with school, classes, components, and descriptions
+- [equipment.json](../../games/pathfinder-1e/data/equipment.json) — All 241 items (weapons, armor, gear, mounts, services)
+- [monsters.json](../../games/pathfinder-1e/data/monsters.json) — All 336 core Bestiary creatures with complete stat blocks
 
 </div>
