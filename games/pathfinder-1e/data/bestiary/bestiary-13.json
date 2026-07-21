@@ -1,0 +1,221 @@
+{
+  "source": "Pathfinder Roleplaying Game Bestiary (PSRD-Data, devonjones/PSRD-Data, OGL 1.0a)",
+  "part": 13,
+  "range": "Elephant – Ettin",
+  "count": 4,
+  "creatures": [
+    {
+      "name": "Elephant",
+      "creature_type": "Animal",
+      "cr": "7",
+      "xp": "3,200",
+      "alignment": "N",
+      "size": "Huge",
+      "init": "+0",
+      "senses": "low-light vision, scent; Perception +21",
+      "ac": "17, touch 8, flat-footed 17 (+9 natural, -2 size)",
+      "hp": "93 (11d8+44)",
+      "saving_throws": {
+        "fort": "+13",
+        "ref": "+7",
+        "will": "+6"
+      },
+      "speed": "40 ft.",
+      "melee": "gore +16 (2d8+10), slam +16 (2d6+10)",
+      "special_attacks": "trample (2d8+15; DC 25)",
+      "space": "15 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "30",
+        "dex": "10",
+        "con": "19",
+        "int": "2",
+        "wis": "13",
+        "cha": "7"
+      },
+      "base_attack": "+8",
+      "cmb": "+20",
+      "cmd": "30 (34 vs. trip)",
+      "feats": "Endurance, Great Fortitude, Improved Bull Rush, Iron Will, Power Attack, Skill Focus (Perception)",
+      "skills": "Perception +21",
+      "environment": "warm plains",
+      "organization": "solitary or herd (6-30)",
+      "treasure": "none",
+      "description": "These thick-skinned animals bear large ivory tusks flanking a long, prehensile snout.",
+      "ecology": "These large land animals, majestically wandering the plains in tightly knit family herds, are symbols of wisdom and strength. Having few natural predators, elephants are sometimes hunted for their ivory tusks. These tusks often become jewelry, statuettes, and trinkets for the wealthy.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Elephant, Mastodon",
+      "creature_type": "Animal",
+      "cr": "9",
+      "xp": "6,400",
+      "alignment": "N",
+      "size": "Huge",
+      "init": "+1",
+      "senses": "low-light vision, scent; Perception +24",
+      "ac": "21, touch 9, flat-footed 20 (+1 Dex, +12 natural, -2 size)",
+      "hp": "133 (14d8+70)",
+      "saving_throws": {
+        "fort": "+14",
+        "ref": "+10",
+        "will": "+7"
+      },
+      "speed": "40 ft.",
+      "melee": "gore +21 (2d8+12), slam +20 (2d6+12)",
+      "special_attacks": "trample (2d8+18, DC 29)",
+      "space": "15 ft.",
+      "reach": "15 ft.",
+      "ability_scores": {
+        "str": "34",
+        "dex": "12",
+        "con": "21",
+        "int": "2",
+        "wis": "13",
+        "cha": "7"
+      },
+      "base_attack": "+10",
+      "cmb": "+24",
+      "cmd": "35 (39 vs. trip)",
+      "feats": "Endurance, Improved Bull Rush, Improved Iron Will, Iron Will, Power Attack, Skill Focus (Perception), Weapon Focus (gore)",
+      "skills": "Perception +24",
+      "environment": "cold or temperate forests and plains",
+      "organization": "solitary or herd (6-30)",
+      "treasure": "none",
+      "description": "This creature is larger than a normal elephant, with enormous sweeping tusks and shaggy brown fur on its body.",
+      "ecology": "The great mastodons are primeval cousins of elephants. Their large tusks dwarf those of regular elephants, jutting outward and then curving back toward one another at the tips. Shaggy woolly mammoths are a mastodon variant adapted to cold environments, but have the same statistics.\n\nAnimal Companion — Elephant/Mastodon: Medium; Speed 40 ft.; AC +4 natural armor; Attack gore (1d8), slam (1d6); Ability Scores Str 14, Dex 14, Con 13, Int 2, Wis 13, Cha 7; Special Qualities low-light vision, scent. 7th-Level Advancement: Large; AC +3 natural armor; Attack gore (2d6), slam (1d8); Ability Scores +8 Str, -2 Dex, +4 Con; Special Qualities trample (2d6).",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Ettercap",
+      "creature_type": "Aberration",
+      "cr": "3",
+      "xp": "800",
+      "alignment": "NE",
+      "size": "Medium",
+      "init": "+7",
+      "senses": "darkvision 60 ft., low-light vision; Perception +9",
+      "languages": "Common",
+      "ac": "15, touch 13, flat-footed 12 (+3 Dex, +2 natural)",
+      "hp": "30 (4d8+12)",
+      "saving_throws": {
+        "fort": "+6",
+        "ref": "+4",
+        "will": "+6"
+      },
+      "speed": "30 ft., climb 30 ft.",
+      "melee": "bite +5 (1d6+2 plus poison) and 2 claws +5 (1d4+2)",
+      "special_attacks": "traps, web (+6 ranged, DC 15, hp 4)",
+      "special_qualities": "spider empathy +7",
+      "ability_scores": {
+        "str": "14",
+        "dex": "17",
+        "con": "17",
+        "int": "6",
+        "wis": "15",
+        "cha": "8"
+      },
+      "base_attack": "+3",
+      "cmb": "+5",
+      "cmd": "18",
+      "feats": "Great Fortitude, Improved Initiative",
+      "skills": "Climb +14, Craft (trapmaking) +8, Perception +9, Stealth +7",
+      "racial_modifiers": "+8 on Craft (trapmaking)",
+      "environment": "temperate forests",
+      "organization": "solitary, pair, or nest (3-6 plus 2-8 giant spiders)",
+      "treasure": "standard",
+      "description": "This hideous purple creature walks upright like a man, but its face is that of a spider, and its hands are sickle-shaped claws.",
+      "special_abilities": [
+        {
+          "name": "Poison",
+          "type": "Ex",
+          "description": "The save DC is Constitution-based. Bite—Ettercap Venom.",
+          "affliction": {
+            "name": "Ettercap Venom",
+            "type": "poison",
+            "contracted": "injury",
+            "frequency": "1/round for 10 rounds",
+            "effect": "1d2 Dexterity",
+            "save": "Fortitude DC 15",
+            "cure": "2 consecutive saves"
+          }
+        },
+        {
+          "name": "Spider Empathy",
+          "type": "Ex",
+          "description": "This ability functions as the druid's wild empathy, save that an ettercap can only use this ability on spiders. An ettercap gains a +4 racial bonus on this check. Spiders are mindless, but this empathic communication imparts on them a modicum of implanted intelligence, allowing ettercaps to train giant spiders and use them as guardians."
+        },
+        {
+          "name": "Traps",
+          "type": "Ex",
+          "description": "The ettercap is particularly skilled at crafting cunning traps with its webs. Deadfalls, nooses, and spear traps are the most common traps ettercaps build with their webs. An ettercap doesn't require gold to build its traps, merely time."
+        }
+      ],
+      "tables": [
+        {
+          "name": "Ettercap Traps",
+          "headers": ["Trap", "CR", "Trigger", "Effect", "Perception", "Disable Device", "Reset"],
+          "rows": [
+            ["Ettercap Deadfall", "3", "location", "Atk +10 melee (4d6), multiple targets (all targets in a 10-ft. square).", "DC 20", "DC 20", "repair"],
+            ["Ettercap Noose", "1", "location", "Atk +15 CMB check (grapple).", "DC 20", "DC 20", "repair"],
+            ["Ettercap Spear Trap", "2", "location", "Atk +15 ranged (1d8+1/×3)", "DC 20", "DC 20", "repair"]
+          ]
+        }
+      ],
+      "ecology": "Ettercaps are typically 6 feet tall and weigh about 200 pounds. They are solitary creatures and rarely group with others of their kind, even to mate. When they do group, they tend to attract a variety of different spiders, forming a strange collective of ettercaps and arachnids. Ettercaps are known for building cunning traps out of webs and other natural materials, using them to trap prey. They build shelters out of webbing, often high up in the trees away from other ground-based predators, and use monstrous spiders as lookouts and guardians.\n\nEttercaps are not brave creatures, but their traps often ensure that the enemy never draws a weapon. When an ettercap does engage its enemies, it attacks with its claws and venomous bite. It usually refuses to come within melee reach of any foe that is still able to move, and flees if an opponent gets free.",
+      "source": "Bestiary"
+    },
+    {
+      "name": "Ettin",
+      "creature_type": "Humanoid",
+      "creature_subtype": "giant",
+      "cr": "6",
+      "xp": "2,400",
+      "alignment": "CE",
+      "size": "Large",
+      "init": "+3",
+      "senses": "low-light vision; Perception +12",
+      "languages": "pidgin of Giant, Goblin, and Orc",
+      "ac": "18, touch 8, flat-footed 18 (+2 armor, -1 Dex, +8 natural, -1 size)",
+      "hp": "65 (10d8+20)",
+      "saving_throws": {
+        "fort": "+9",
+        "ref": "+2",
+        "will": "+5"
+      },
+      "speed": "40 ft.",
+      "melee": "2 flails +12/+7 (2d6+6)",
+      "ranged": "2 javelins +5 (1d8+6)",
+      "special_attacks": "superior two-weapon fighting",
+      "space": "10 ft.",
+      "reach": "10 ft.",
+      "ability_scores": {
+        "str": "23",
+        "dex": "8",
+        "con": "15",
+        "int": "6",
+        "wis": "10",
+        "cha": "11"
+      },
+      "base_attack": "+7",
+      "cmb": "+14",
+      "cmd": "23",
+      "feats": "Cleave, Improved Initiative, Improved Overrun, Iron Will, Power Attack",
+      "skills": "Handle Animal +8, Perception +12",
+      "racial_modifiers": "+4 on Perception",
+      "environment": "cold hills",
+      "organization": "solitary, pair, gang (3-6), troupe (1-2 plus 1-2 brown bears), band (3-6 plus 1-2 brown bears), or colony (3-6 plus 1-2 brown bears and 7-12 orcs or 9-16 goblins)",
+      "treasure": "standard (leather armor, 2 flails, 4 javelins, other treasure)",
+      "description": "This lumbering, filthy, two-headed giant wears tattered remnants of leather armor and clutches a large flail in each fist.",
+      "special_abilities": [
+        {
+          "name": "Superior Two-Weapon Fighting",
+          "type": "Ex",
+          "description": "An ettin fights with a flail or javelin in each hand. Because each of its two heads controls an arm, the ettin does not take a penalty on attack or damage rolls for attacking with two weapons."
+        }
+      ],
+      "ecology": "Ettins, or two-headed giants, are vicious and unpredictable hunters that stalk the night. Their two heads provide them with unparalleled powers of perception, making them excellent guards.\n\nEttins superficially resemble hill or stone giants, although their tusked facial features betray orc blood in their lineage. They have pinkish-brown skin, but ettins never bathe if they can help it, which usually leaves them so grimy and dirty their skin resembles thick, gray hide. Adult ettins are about 13 feet tall and weigh 5,200 pounds. They live about 75 years.\n\nEttins have no language of their own but speak a pidgin of Giant, Goblin, and Orc. Creatures that can speak any of these languages must succeed on a DC 15 Intelligence check to communicate with an ettin. Check once for each bit of information: if the other creature speaks two of these languages, the DC is 10, and for someone who speaks all three, the DC is 5.\n\nThough ettins aren't very intelligent, they are cunning fighters. They prefer to ambush their victims rather than charge into a fight, but once the battle has started, an ettin fights furiously until all enemies are dead.\n\nEttins lead solitary lives, establishing lairs in secluded rocky caves and hollows, often surrounded by pits and trenches. Ettins sometimes keep cave bears as pets and guardians for their lairs.\n\nA particularly powerful ettin may attract a gang of a few followers, possibly with several goblin or orc allies. Such gatherings are the exception rather than the rule, however, and seldom last long, with individual ettins going their separate ways when opportunities for pillage and plunder decrease or if the leader is killed.\n\nMated couples usually come together to breed for only a short time before going off on their own again. Young ettins mature quickly, reaching adult size within a year, when they are kicked out to fend for themselves.",
+      "source": "Bestiary"
+    }
+  ]
+}
