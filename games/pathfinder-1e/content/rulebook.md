@@ -85,6 +85,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 
 - [Magic](rules/magic/) — Casting spells, concentration, counterspells, arcane vs divine casting
 - [Spell Statistics](rules/magic-spell-statistics/) — Reading a spell stat block: school, components, range, duration, saving throw
+- [Spells](rules/spells/) — All 623 core spells by level: school, classes, and summary
 
 **Equipment**
 
