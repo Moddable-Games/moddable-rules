@@ -9,8 +9,8 @@ special: "Korean hanafuda variant played with the Hwatu deck. The most popular c
 published: true
 engine:
   components:
-    deck:
-      type: flower-48
+    cards:
+      deck: hanafuda-48
   topology:
     type: tableau
     layout: radial
