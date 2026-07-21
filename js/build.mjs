@@ -12,10 +12,10 @@ const ENGINE_BASE = 'https://engine.moddable.games/play.html';
 
 function renderSvgBlock(svg, caption, family, variant) {
   const engineUrl = `${ENGINE_BASE}?game=${family}&variant=${variant}`;
-  const link = `<a href="${engineUrl}" class="diagram-engine-link" target="_blank" rel="noopener">View interactive board ↗</a>`;
+  const link = `<a href="${engineUrl}" class="diagram-engine-link" target="_blank" rel="noopener">${engineUrl}</a>`;
   const captionHtml = caption
-    ? `<p class="diagram-caption">${caption} · ${link}</p>`
-    : `<p class="diagram-caption">${link}</p>`;
+    ? `<p class="diagram-caption">${caption}</p>\n<p class="diagram-engine-url">${link}</p>`
+    : `<p class="diagram-engine-url">${link}</p>`;
   return `<div class="diagram-wrap">${svg}\n${captionHtml}</div>`;
 }
 

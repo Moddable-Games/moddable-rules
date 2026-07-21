@@ -113,7 +113,8 @@ ol li strong{color:var(--text-primary);}
 .content .section > svg{margin:24px 0;}
 .diagram-wrap{margin:24px 0;}
 .diagram-wrap .diagram-caption{text-align:center;font-family:var(--sans);font-size:12px;color:var(--text-secondary,#777);margin-top:8px;margin-bottom:24px;}
-.diagram-engine-link{font-style:normal;color:var(--accent,#b8860b);text-decoration:none;font-size:11px;letter-spacing:.03em;}
+.diagram-engine-url{text-align:center;font-family:var(--mono,monospace);font-size:11px;margin-top:4px;margin-bottom:24px;}
+.diagram-engine-link{color:var(--accent,#b8860b);text-decoration:none;letter-spacing:.01em;}
 .diagram-engine-link:hover{text-decoration:underline;}
 .content .section .diagram-caption{text-align:center;font-family:var(--sans);font-size:12px;color:var(--text-secondary,#777);margin-top:-16px;margin-bottom:24px;padding-top:0;}
 
