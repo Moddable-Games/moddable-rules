@@ -1,0 +1,230 @@
+{
+  "source": "Pathfinder Roleplaying Game Core Rulebook, Paizo Publishing, LLC. Content sourced via the PSRD-Data project (devonjones/PSRD-Data). Licence: OGL 1.0a.",
+  "category": "tool",
+  "count": 16,
+  "items": [
+    {
+      "name": "Alchemist's Lab",
+      "category": "tool",
+      "price": "200 gp",
+      "weight": "40 lbs.",
+      "description": "This lab is used for making alchemical items, and provides a +2 circumstance bonus on Craft (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Artisan's Tools",
+      "category": "tool",
+      "price": "5 gp",
+      "weight": "5 lbs.",
+      "description": "These special tools include the items needed to pursue any craft. Without them, you have to use improvised tools (-2 penalty on Craft checks), if you can do the job at all.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Artisan's Tools, Masterwork",
+      "category": "tool",
+      "price": "55 gp",
+      "weight": "5 lbs.",
+      "description": "These tools serve the same purpose as artisan's tools, but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on Craft checks made with them.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Climber's Kit",
+      "category": "tool",
+      "price": "80 gp",
+      "weight": "5 lbs.1",
+      "description": "These crampons, pitons, ropes, and tools give you a +2 circumstance bonus on Climb checks.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Disguise Kit",
+      "category": "tool",
+      "price": "50 gp",
+      "weight": "8 lbs.1",
+      "description": "The kit is the perfect tool for disguise and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Healer's Kit",
+      "category": "tool",
+      "price": "50 gp",
+      "weight": "1 lb.",
+      "description": "This collection of bandages and herbs provides a +2 circumstance bonus on Heal checks. A healer's kit is exhausted after 10 uses.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Holly and Mistletoe",
+      "category": "tool",
+      "price": "—",
+      "weight": "—",
+      "description": "Druids commonly use these plants as divine focuses when casting spells.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Holy Symbol, Silver or Wooden",
+      "category": "tool",
+      "price": "",
+      "weight": "",
+      "description": "A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol.",
+      "stats": {
+        "Wooden": {
+          "Price": "1 gp",
+          "Weight": "—"
+        },
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        },
+        "Silver": {
+          "Price": "25 gp",
+          "Weight": "1 lb."
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Magnifying Glass",
+      "category": "tool",
+      "price": "100 gp",
+      "weight": "—",
+      "description": "This simple lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires bright light, such as sunlight to focus, tinder to ignite, and at least a full-round action. A magnifying glass grants a +2 circumstance bonus on Appraise checks involving any item that is small or highly detailed.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Musical Instrument, Common or Masterwork",
+      "category": "tool",
+      "price": "",
+      "weight": "",
+      "description": "A masterwork instrument grants a +2 circumstance bonus on Perform checks involving its use.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits",
+          "Weight": "3 lbs.1"
+        },
+        "Masterwork": {
+          "Price": "100 gp"
+        },
+        "Common": {
+          "Price": "5 gp"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Scale, Merchant's",
+      "category": "tool",
+      "price": "2 gp",
+      "weight": "1 lb.",
+      "description": "A merchant's scale grants a +2 circumstance bonus on Appraise checks involving items that are valued by weight, including anything made of precious metals.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Spell Component Pouch",
+      "category": "tool",
+      "price": "5 gp",
+      "weight": "2 lbs.",
+      "description": "A spellcaster with a spell component pouch is assumed to have all the material components and focuses needed for spellcasting, except for those components that have a specific cost, divine focuses, and focuses that wouldn't fit in a pouch.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Spellbook, Wizard's",
+      "category": "tool",
+      "price": "15 gp/blank",
+      "weight": "3 lbs.",
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Thieves' Tools",
+      "category": "tool",
+      "price": "30 gp",
+      "weight": "1 lb.",
+      "description": "This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Thieves' Tools, Masterwork",
+      "category": "tool",
+      "price": "100 gp",
+      "weight": "2 lbs.",
+      "description": "This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    },
+    {
+      "name": "Tool, Masterwork",
+      "category": "tool",
+      "price": "50 gp",
+      "weight": "1 lb.",
+      "description": "This well-made item is the perfect tool for the job. It grants a +2 circumstance bonus on a related skill check (if any). Bonuses provided by multiple masterwork items do not stack.",
+      "stats": {
+        "null": {
+          "Gear Type": "Tools and Skill Kits"
+        }
+      },
+      "source": "Core Rulebook"
+    }
+  ]
+}
