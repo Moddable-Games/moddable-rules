@@ -16,6 +16,18 @@ engine:
       bonus: [flowers, seasons]
       jokers: 8
       total: 152
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
+    remainder: wall
+    flowers: 8
+    tileSet: mahjong-planar
 published: true
 ---
 

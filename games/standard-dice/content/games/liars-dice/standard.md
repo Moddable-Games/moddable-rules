@@ -11,6 +11,15 @@ engine:
     dice_per_player: 5
     die_type: d6
     cup_per_player: true
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 6
+    defaultPlayers: 4
+    perPlayer: 5
+    community: 0
 published: true
 ---
 

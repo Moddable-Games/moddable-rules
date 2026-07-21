@@ -11,6 +11,16 @@ engine:
     tiles: double6
     boneyard: true
     score_target: 61
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 4
+    defaultPlayers: 2
+    perPlayer: 7
+    community: 0
+    remainder: boneyard
 published: true
 ---
 

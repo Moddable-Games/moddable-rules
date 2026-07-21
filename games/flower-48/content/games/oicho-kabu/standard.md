@@ -12,6 +12,16 @@ engine:
     cards:
       deck: hanafuda-48
       values: month-numeric
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 8
+    defaultPlayers: 4
+    perPlayer: 2
+    community: 0
+    remainder: draw
 published: true
 ---
 

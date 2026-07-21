@@ -14,6 +14,16 @@ engine:
       count: 1
       jokers: 0
       subset: [9, 10, J, Q, K, A]
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 5
+    community: 0
+    remainder: draw
   partnerships: [[player1, player3], [player2, player4]]
 published: true
 ---

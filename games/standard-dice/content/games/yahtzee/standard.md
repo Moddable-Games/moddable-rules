@@ -12,6 +12,15 @@ engine:
     dice: 5
     die_type: d6
     scorecard: true
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 1
+    maxPlayers: 4
+    defaultPlayers: 2
+    perPlayer: 0
+    community: 5
 published: true
 ---
 

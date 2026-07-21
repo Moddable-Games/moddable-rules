@@ -8,11 +8,21 @@ win: First to go out by melding all cards
 special: "Classic draw-and-discard game. Players draw from the stock or discard pile, form melds (sets and runs), and lay them face-up on the table. Unlike Gin Rummy, melds are laid during play and opponents may extend them (lay off). Going Rummy — going out in one turn without prior melds — doubles the penalty for all opponents."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: standard-52
+      count: 1
+      jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 6
+    defaultPlayers: 4
+    perPlayer: 7
+    community: 0
+    remainder: draw
 ---
 
 ## Rummy

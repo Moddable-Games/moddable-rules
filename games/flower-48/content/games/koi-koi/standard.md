@@ -12,6 +12,16 @@ engine:
   components:
     cards:
       deck: hanafuda-48
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 2
+    defaultPlayers: 2
+    perPlayer: 8
+    community: 8
+    remainder: draw
 published: true
 ---
 

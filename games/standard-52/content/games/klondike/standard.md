@@ -13,6 +13,19 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: tableau
+    columns: 7
+    cascade: [1, 2, 3, 4, 5, 6, 7]
+    foundations: 4
+  deal:
+    minPlayers: 1
+    maxPlayers: 1
+    defaultPlayers: 1
+    perPlayer: 0
+    community: 0
+    remainder: draw
 published: true
 ---
 

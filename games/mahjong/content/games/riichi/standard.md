@@ -13,6 +13,17 @@ engine:
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       total: 136
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 13
+    community: 0
+    remainder: wall
+    tileSet: mahjong-regular
 published: true
 ---
 

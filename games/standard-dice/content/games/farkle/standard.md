@@ -12,6 +12,15 @@ engine:
     die_type: d6
     score_track: true
     target_score: 10000
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 6
+    defaultPlayers: 4
+    perPlayer: 0
+    community: 6
 published: true
 ---
 

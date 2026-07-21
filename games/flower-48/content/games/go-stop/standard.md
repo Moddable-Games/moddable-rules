@@ -8,11 +8,19 @@ win: First player to reach an agreed point total (typically 3 or 7 points) and d
 special: "Korean hanafuda variant played with the Hwatu deck. The most popular card game in South Korea. Match cards from hand to field by month; collect scoring combinations. Core mechanic: after reaching the threshold, declare 'Stop' to collect winnings or 'Go' to press on for bigger rewards at the risk of penalty if another player stops first."
 published: true
 engine:
-  topology:
-    type: none
   components:
     deck:
       type: flower-48
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 3
+    defaultPlayers: 2
+    perPlayer: 7
+    community: 6
+    remainder: draw
 ---
 
 ## Go-Stop

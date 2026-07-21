@@ -14,6 +14,18 @@ engine:
       honours: [winds, dragons]
       bonus: [flowers, seasons]
       total: 144
+  topology:
+    type: tableau
+    layout: wall
+  deal:
+    minPlayers: 4
+    maxPlayers: 4
+    defaultPlayers: 4
+    perPlayer: 16
+    community: 0
+    remainder: wall
+    flowers: 8
+    tileSet: mahjong-planar
 published: true
 ---
 

@@ -14,6 +14,16 @@ engine:
       count: 6
       jokers: 0
       shuffle: continuous
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 7
+    defaultPlayers: 4
+    perPlayer: 2
+    community: 0
+    remainder: draw
 published: true
 ---
 

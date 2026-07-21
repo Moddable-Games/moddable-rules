@@ -16,6 +16,16 @@ engine:
     board:
       type: cribbage
       holes: 121
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 2
+    defaultPlayers: 2
+    perPlayer: 6
+    community: 0
+    remainder: draw
 published: true
 ---
 

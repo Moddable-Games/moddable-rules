@@ -12,6 +12,15 @@ engine:
     deck:
       type: standard-52
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 8
+    defaultPlayers: 4
+    perPlayer: all
+    community: 0
   plugins:
     big2:
       variant: president

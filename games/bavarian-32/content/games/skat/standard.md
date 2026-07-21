@@ -13,6 +13,16 @@ engine:
       type: bavarian-32
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 3
+    maxPlayers: 3
+    defaultPlayers: 3
+    perPlayer: 10
+    community: 2
+    remainder: draw
 published: true
 ---
 

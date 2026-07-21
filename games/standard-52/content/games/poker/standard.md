@@ -13,6 +13,16 @@ engine:
       type: standard-52
       count: 1
       jokers: 0
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 2
+    maxPlayers: 10
+    defaultPlayers: 6
+    perPlayer: 2
+    community: 5
+    remainder: draw
 published: true
 ---
 

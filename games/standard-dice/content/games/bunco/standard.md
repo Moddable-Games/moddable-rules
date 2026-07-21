@@ -8,13 +8,20 @@ win: Team with most wins after 6 rounds; individual prizes for most Buncos, most
 special: "Social dice game for 12 players in 3 tables of 4 (2 teams of 2 per table). 6 rounds, each targeting a number 1–6. Roll 3 dice; score 1 point per die showing the target number. Roll all three matching the target = Bunco (21 points, round ends). Fast, social, no strategy."
 published: true
 engine:
-  topology:
-    type: none
   components:
     dice:
       type: standard
-      count: 2
+      count: 3
       sides: 6
+  topology:
+    type: tableau
+    layout: radial
+  deal:
+    minPlayers: 4
+    maxPlayers: 12
+    defaultPlayers: 12
+    perPlayer: 0
+    community: 3
 ---
 
 ## Bunco
