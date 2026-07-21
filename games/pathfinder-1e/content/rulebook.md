@@ -47,42 +47,65 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 
 ### Rules
 
+**Getting Started**
+
 - [Getting Started](rules/getting-started/) — Playing the game, common terms, character generation steps, ability scores
 - [Races](rules/races/) — Dwarves, elves, gnomes, half-elves, half-orcs, halflings, humans
+
+**Classes**
+
+- [Classes](rules/classes/) — The 11 core classes, character advancement, multiclassing, favored class, prestige classes
+- [Barbarian](rules/barbarian/) — Rage, all 24 rage powers, damage reduction
+- [Bard](rules/bard/) — Bardic performance, spells known, versatile performance
+- [Cleric](rules/cleric/) — Channel energy, all 32 domains, spontaneous casting
+- [Druid](rules/druid/) — Nature bond, wild shape, animal companion mechanics
+- [Fighter](rules/fighter/) — Weapon training groups, armor training, bonus feats
+- [Monk](rules/monk/) — Flurry of blows, ki pool, unarmed strike progression
+- [Paladin](rules/paladin/) — Smite evil, lay on hands, mercies, divine bond
+- [Ranger](rules/ranger/) — Favored enemy/terrain, combat styles, hunter's bond
+- [Rogue](rules/rogue/) — Sneak attack, rogue talents, trapfinding
+- [Sorcerer](rules/sorcerer/) — Bloodlines, spells known, eschew materials
+- [Wizard](rules/wizard/) — Arcane bond, all 9 arcane schools, familiars
+
+**Skills & Feats**
+
 - [Skills](rules/skills/) — Skill mechanics, Acrobatics through Intimidate
 - [Skills (continued)](rules/skills-2/) — Knowledge through Use Magic Device
-- [Classes](rules/classes/) — The 11 core classes, character advancement, multiclassing, favored class, prestige classes
-- [Fighter](rules/fighter/) — Full class write-up: role, class features, weapon training groups
-- [Ranger](rules/ranger/) — Full class write-up: favored enemy/terrain, combat styles, hunter's bond
-- [Monk](rules/monk/) — Full class write-up: flurry of blows, ki pool, unarmed strike progression
-- [Paladin](rules/paladin/) — Full class write-up: smite evil, lay on hands, mercies, divine bond
-- [Rogue](rules/rogue/) — Full class write-up: sneak attack, rogue talents, trapfinding
-- [Bard](rules/bard/) — Full class write-up: bardic performance, spells known, versatile performance
-- [Barbarian](rules/barbarian/) — Full class write-up: rage, all 24 rage powers, damage reduction
-- [Wizard](rules/wizard/) — Full class write-up: arcane bond, all 9 arcane schools, familiars
-- [Druid](rules/druid/) — Full class write-up: nature bond, wild shape, animal companion mechanics
-- [Sorcerer](rules/sorcerer/) — Full class write-up: bloodlines, spells known, eschew materials
-- [Cleric](rules/cleric/) — Full class write-up: channel energy, all 32 domains, spontaneous casting
 - [Combat Feats](rules/feats-combat/) — All 101 core Combat feats, alphabetized
 - [General Feats](rules/feats-general/) — All 49 core General feats, alphabetized (including Leadership)
-- [Metamagic, Critical & Item Creation Feats](rules/feats-other/) — The remaining 25 core feats across three smaller categories
+- [Metamagic, Critical & Item Creation Feats](rules/feats-other/) — The remaining 25 core feats
+
+**Combat**
+
 - [Combat](rules/combat/) — Turn structure, initiative, attack rolls, AC, damage, saving throws
 - [Actions in Combat](rules/combat-actions/) — Every standard, move, full-round, swift, immediate, and free action
 - [Special Attacks & Maneuvers](rules/combat-maneuvers/) — Charges, combat maneuvers, mounted combat, cover, concealment, injury and death
-- [Magic](rules/magic/) — Casting spells, concentration, counterspells, arcane vs divine casting, special abilities
+
+**Magic**
+
+- [Magic](rules/magic/) — Casting spells, concentration, counterspells, arcane vs divine casting
 - [Spell Statistics](rules/magic-spell-statistics/) — How to read a spell's stat block: school, components, range, area, duration, saving throw
-- [Additional Rules](rules/additional-rules/) — Alignment, aging, height and weight, carrying capacity, movement, vision and light, breaking objects
-- [Dungeons & Traps](rules/environment-dungeons/) — Dungeon types and terrain, trap design and mechanics, sample traps
-- [Wilderness & Urban Adventures](rules/environment-wilderness/) — All 7 wilderness terrain types, getting lost, city adventuring, siege engines
-- [Weather, Planes & Environmental Rules](rules/environment-weather-planes/) — Weather and storms, the planes of existence, falling, drowning, heat and cold
-- [Gamemastering](rules/gamemastering/) — Designing encounters, awarding experience, placing treasure, creating NPCs, beyond 20th level
-- [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison
-- [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
+
+**Equipment**
+
 - [Wealth, Money & Special Materials](rules/equipment-wealth-materials/) — Currency, trade goods, special materials (adamantine, mithral, etc.)
 - [Weapons](rules/equipment-weapons/) — All 81 core weapons: categories, proficiency, weapon qualities, descriptions
 - [Armor](rules/equipment-armor/) — All 21 armors and shields: AC bonuses, penalties, donning/removing, materials
 - [Adventuring Gear, Substances & Tools](rules/equipment-goods-1/) — Adventuring gear, alchemical items, special substances, tools, kits
 - [Clothing, Mounts & Services](rules/equipment-goods-2/) — Clothing, food and lodging, mounts, transport, and hirelings
+
+**Environment & Gamemastering**
+
+- [Additional Rules](rules/additional-rules/) — Alignment, aging, carrying capacity, movement, vision and light, breaking objects
+- [Dungeons & Traps](rules/environment-dungeons/) — Dungeon types and terrain, trap design and mechanics, sample traps
+- [Wilderness & Urban Adventures](rules/environment-wilderness/) — All 7 wilderness terrain types, getting lost, city adventuring, siege engines
+- [Weather, Planes & Environmental Rules](rules/environment-weather-planes/) — Weather and storms, the planes of existence, falling, drowning, heat and cold
+- [Gamemastering](rules/gamemastering/) — Designing encounters, awarding experience, placing treasure, creating NPCs, beyond 20th level
+
+**Glossary**
+
+- [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison
+- [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
 
 All 11 core classes, all 175 core feats, the full Combat, Magic, Additional Rules, Environment, Gamemastering, Glossary, and Equipment chapters are now complete. All 623 core spells and 237 equipment items are available as structured data below. Only the Bestiary remains (tracked separately).
 
