@@ -1,0 +1,1837 @@
+{
+  "source": "Pathfinder Roleplaying Game Core Rulebook, Paizo Publishing, LLC. Content sourced via the PSRD-Data project (devonjones/PSRD-Data). Licence: OGL 1.0a. Note: some spells' class/level listings (in 'levels') include classes introduced in later Paizo sourcebooks (e.g. Magus, Bloodrager, Arcanist) not covered by this Core-Rulebook-only ingestion -- the spell text itself is Core Rulebook content. 'min_level' is the lowest level at which any class gains access to this spell, used to bucket it into this file.",
+  "level": 8,
+  "count": 38,
+  "items": [
+    {
+      "name": "Animal Shapes",
+      "school": "transmutation",
+      "subschool": [
+        "polymorph"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Targets": "up to one willing creature per level, all within 30 ft. of each other."
+      },
+      "duration": "1 hour/level (D)",
+      "saving_throw": "none, see text",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "One ally/level polymorphs into chosen animal.",
+      "description": "As _beast shape III_ , except you change the form of up to one willing creature per caster level into an animal of your choice; the spell has no effect on unwilling creatures. All creatures must take the same kind of animal form. Recipients remain in the animal form until the spell expires or until you dismiss it for all recipients. In addition, an individual subject may choose to resume its normal form as a full-round action; doing so ends the spell for that subject alone.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Clenched Fist",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "force"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": null,
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a leather glove",
+          "type": "F"
+        },
+        {
+          "text": "a leather glove",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, F/DF (a leather glove)",
+      "range": null,
+      "effects": {},
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Large hand provides cover, pushes, or attacks your foes.",
+      "description": "This spell functions like _interposing hand_ , except that the hand can also push or strike one opponent that you select. The floating hand can move as far as 60 feet and can attack in the same round. Since this hand is directed by you, its ability to notice or attack invisible or concealed creatures is no better than yours.\n\nThe hand attacks once per round, and its attack bonus equals your caster level + your Intelligence, Wisdom, or Charisma modifier (for a wizard, cleric, or sorcerer, respectively) + 11 for the hand's Strength score (33), - 1 for being Large. The hand deals 1d8+11 points of damage on each attack, and any creature struck must make a Fortitude save (against this spell's save DC) or be stunned for 1 round. Directing the spell to a new target is a move action.\n\nThe _clenched fist_ can also interpose itself as _interposing hand_ does, or it can bull rush an opponent as _forceful hand_ does. Its CMB for bull rush checks uses your caster level in place of its base attack bonus, with a +11 bonus for its Strength score and a +1 bonus for being Large.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Cloak Of Chaos",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "chaotic"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a tiny reliquary worth 500 gp",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, F (a tiny reliquary worth 500 gp)",
+      "range": "20 ft.",
+      "effects": {
+        "Targets": "one creature/level in a 20-ft.-radius burst centered on you"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "+4 to AC, +4 resistance, and SR 25 against lawful spells.",
+      "description": "A random pattern of color surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by lawful creatures, and causing lawful creatures that strike the subjects to become _confused_. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike _protection from law_ , the benefit of this spell applies against all attacks, not just against attacks by lawful creatures.\n\nSecond, each warded creature gains spell resistance 25 against lawful spells and spells cast by lawful creatures.\n\nThird, the abjuration protects from possession and mental influence, just as _protection from law_ does.\n\nFinally, if a lawful creature succeeds on a melee attack against a warded creature, the offending attacker is _confused_ for 1 round (Will save negates, as with the _confusion_ spell, but against the save DC of _cloak of chaos_).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Clone",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "laboratory supplies worth 1,000 gp",
+          "type": "M"
+        },
+        {
+          "text": "special laboratory equipment costing 500 gp",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, M (laboratory supplies worth 1,000 gp), F (special laboratory equipment costing 500 gp)",
+      "range": "0 ft.",
+      "effects": {
+        "Effect": "one clone"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Duplicate awakens when original dies.",
+      "description": "This spell makes an inert duplicate of a creature. If the original individual has been slain, its soul immediately transfers to the clone, creating a replacement (provided that the soul is free and willing to return). The original's physical remains, should they still exist, become inert and cannot thereafter be restored to life. If the original creature has reached the end of its natural life span (that is, it has died of natural causes), any cloning attempt fails.\n\nTo create the duplicate, you must have a piece of flesh (not hair, nails, scales, or the like) with a volume of at least 1 cubic inch that was taken from the original creature's living body. The piece of flesh need not be fresh, but it must be kept from rotting. Once the spell is cast, the duplicate must be grown in a laboratory for 2d4 months.\n\nWhen the clone is completed, the original's soul enters it immediately, if that creature is already dead. The clone is physically identical to the original and possesses the same personality and memories as the original. In other respects, treat the clone as if it were the original character raised from the dead, including its gaining of two permanent negative levels, just as if it had been hit by an energy-draining creature. If the subject is 1st level, it takes 2 points of Constitution drain instead (if this would reduce its Con to 0 or less, it can't be cloned). If the original creature gained permanent negative levels since the flesh sample was taken, the clone gains these negative levels as well.\n\nThe spell duplicates only the original's body and mind, not its equipment. A duplicate can be grown while the original still lives, or when the original soul is unavailable, but the resulting body is merely a soulless bit of inert flesh which rots if not preserved.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Control Plants",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Targets": "up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "no",
+      "short_description": "Controls actions of one or more plant creatures.",
+      "description": "This spell enables you to control the actions of one or more plant creatures for a short period of time. You command the creatures by voice and they understand you, no matter what language you speak. Even if vocal communication is impossible, the controlled plants do not attack you. At the end of the spell, the subjects revert to their normal behavior.\n\nSuicidal or self-destructive commands are simply ignored.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Create Greater Undead",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "evil"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": null,
+      "effects": {},
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Creates shadows, wraiths, spectres, or devourers.",
+      "description": "This spell functions like _create undead_ , except that you can create more powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or types of undead created is based on caster level, as shown below.\n\n##### Caster Level\n\nCaster Level| Undead Created  \n---|---  \n15th or lower| Shadow  \n16th-17th| Wraith  \n18th-19th| Spectre  \n20th or higher| Devourer",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Cure Critical Wounds, Mass",
+      "school": "conjuration",
+      "subschool": [
+        "healing"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Druid",
+          "level": 9
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 9
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": null,
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one creature/level, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Will half (harmless) or Will half; see text",
+      "spell_resistance": "yes (harmless) or yes; see text",
+      "short_description": "Cures 4d8 damage + 1/level for many creatures.",
+      "description": "This spell functions like _mass cure light wounds_ , except that it cures 4d8 points of damage + 1 point per caster level (maximum +40).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Demand",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": null,
+      "effects": {},
+      "duration": null,
+      "saving_throw": "Will partial",
+      "spell_resistance": "yes",
+      "short_description": "As sending, plus you can send suggestion.",
+      "description": "This spell functions like _sending_ , but the message can also contain a _suggestion_ (see the _suggestion_ spell), which the subject does its best to carry out. A successful Will save negates the _suggestion_ effect but not the contact itself. The _demand_ , if received, is understood even if the subject's Intelligence score is as low as 1. If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the _demand_ is issued, the message is understood but the _suggestion_ is ineffective.\n\nThe _demand_ 's message to the creature must be 25 words or less, including the _suggestion_. The creature can also give a short reply immediately.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Earthquake",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "earth"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Druid",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Area": "80-ft.-radius spread (S)"
+      },
+      "duration": "1 round",
+      "saving_throw": "see text",
+      "spell_resistance": "no",
+      "short_description": "Intense tremor shakes 80-ft.-radius.",
+      "description": "When you cast _earthquake_ , an intense but highly localized tremor rips the ground. The powerful shockwave created by this spell knocks creatures down, collapses structures, opens cracks in the ground, and more. The effect lasts for 1 round, during which time creatures on the ground can't move or attack. A spellcaster on the ground must make a Concentration check (DC 20 + spell level) or lose any spell he or she tries to cast. The earthquake affects all terrain, vegetation, structures, and creatures in the area. The specific effect of an _earthquake_ spell depends on the nature of the terrain where it is cast.\n\n_Cave, Cavern, or Tunnel_ : The roof collapses, dealing 8d6 points of damage to any creature caught under the cave-in (Reflex DC 15 half) and pinning that creature beneath the rubble (see below). An _earthquake_ cast on the roof of a very large cavern could also endanger those outside the actual area but below the falling debris and rubble.\n\n_Cliffs_ :_Earthquake_ causes a cliff to crumble, creating a landslide that travels horizontally as far as it falls vertically. Any creature in the path takes 8d6 points of bludgeoning damage (Reflex DC 15 half) and is pinned beneath the rubble (see below).\n\n_Open Ground_ : Each creature standing in the area must make a DC 15 Reflex save or fall down. Fissures open in the earth, and every creature on the ground has a 25% chance to fall into one (Reflex DC 20 to avoid a fissure). The fissures are 40 feet deep. At the end of the spell, all fissures grind shut. Treat all trapped creatures as if they were in the bury zone of an avalanche, trapped without air (see Environment for more details).\n\n_Structure_ : Any structure standing on open ground takes 100 points of damage, enough to collapse a typical wooden or masonry building, but not a structure built of stone or reinforced masonry. Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is. Any creature caught inside a collapsing structure takes 8d6 points of bludgeoning damage (Reflex DC 15 half) and is pinned beneath the rubble (see below).\n\n_River, Lake, or Marsh_ : Fissures open under the water, draining away the water from that area and forming muddy ground. Soggy marsh or swampland becomes quicksand for the duration of the spell, sucking down creatures and structures. Each creature in the area must make a DC 15 Reflex save or sink down in the mud and quicksand. At the end of the spell, the rest of the body of water rushes in to replace the drained water, possibly drowning those caught in the mud.\n\n_Pinned Beneath Rubble_ : Any creature pinned beneath rubble takes 1d6 points of nonlethal damage per minute while pinned. If a pinned character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Form Of The Dragon III",
+      "school": "transmutation",
+      "subschool": [
+        "polymorph"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a scale of the dragon type you plan to assume",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a scale of the dragon type you plan to assume)",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "no",
+      "short_description": "Turns you into a Huge dragon.",
+      "description": "This spell functions as _form of the dragon II_ save that it also allows you to take the form of a Huge chromatic or metallic dragon. You gain the following abilities: a +10 size bonus to Strength, a +8 size bonus to Constitution, a +8 natural armor bonus, fly 120 feet (poor), blindsense 60 feet, darkvision 120 feet, a breath weapon, DR 10/magic, frightful presence (DC equal to the DC for this spell), and immunity to one element (of the same type _form of the dragon I_ grants resistance to). You also gain one bite (2d8), two claws (2d6), two wing attacks (1d8), and one tail slap attack (2d6). You can use the breath weapon as often as you like, but you must wait 1d4 rounds between uses. All breath weapons deal 12d8 points of damage and allow a Reflex save for half damage. Line breath weapons increase to 100-foot lines and cones increase to 50-foot cones.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Giant Form II",
+      "school": "transmutation",
+      "subschool": [
+        "polymorph"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a piece of the creature whose form you plan to assume",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a piece of the creature whose form you plan to assume)",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Turns you into a Huge giant.",
+      "description": "This spell functions as _giant form I_ except that it also allows you to assume the form of any Huge creature of the giant type. You gain the following abilities: a +8 size bonus to Strength, a -2 penalty to Dexterity, a +6 size bonus to Constitution, a +6 natural armor bonus, low-light vision, and a +10 foot enhancement bonus to your speed. If the form you assume has any of the following abilities, you gain the listed ability: swim 60 feet, darkvision 60 feet, rend (2d8 damage), regeneration 5, rock catching, and rock throwing (range 120 feet, 2d10 damage). If the creature has immunity or resistance to one element, you gain that immunity or resistance. If the creature has vulnerability to an element, you gain that vulnerability.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Holy Aura",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "good"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a tiny reliquary worth 500 gp",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, F (a tiny reliquary worth 500 gp)",
+      "range": "20 ft.",
+      "effects": {
+        "Targets": "one creature/level in a 20-ft.-radius burst centered on you"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "+4 to AC, +4 resistance, and SR 25 against evil spells.",
+      "description": "A brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike _protection from evil_ , this benefit applies against all attacks, not just against attacks by evil creatures.\n\nSecond, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.\n\nThird, the abjuration protects the recipient from possession and mental influence, just as _protection from evil_ does.\n\nFinally, if an evil creature succeeds on a melee attack against a creature warded by a _holy aura_ , the offending attacker is blinded (Fortitude save negates, as _blindness/deafness_ , but against _holy aura's_ save DC).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Horrid Wilting",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a bit of sponge",
+          "type": "M"
+        },
+        {
+          "text": "a bit of sponge",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (a bit of sponge)",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Targets": "living creatures, no two of which can be more than 60 ft. apart"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Fortitude half",
+      "spell_resistance": "yes",
+      "short_description": "Deals 1d6/level damage within 30 ft.",
+      "description": "This spell evaporates moisture from the body of each subject living creature, causing flesh to wither and crack and crumble to dust. This deals 1d6 points of damage per caster level (maximum 20d6). This spell is especially devastating to water elementals and plant creatures, which instead take 1d8 points of damage per caster level (maximum 20d8).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Inflict Critical Wounds, Mass",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 9
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": null,
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one creature/level, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Will half",
+      "spell_resistance": "yes",
+      "short_description": "Deals 4d8 damage + 1/level, affects 1 subject/level.",
+      "description": "This spell functions like _mass inflict light wounds_ , except that it deals 4d8 points of damage + 1 point per caster level (maximum +40).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Iron Body",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a piece of iron from an iron golem, a hero's armor, or a war machine",
+          "type": "M"
+        },
+        {
+          "text": "a piece of iron from an iron golem, a hero's armor, or a war machine",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (a piece of iron from an iron golem, a hero's armor, or a war machine)",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Your body becomes living iron.",
+      "description": "This spell transforms your body into living iron, which grants you several powerful resistances and abilities. You gain damage reduction 15/adamantine. You are immune to blindness, critical hits, ability score damage, deafness, disease, drowning, electricity, poison, stunning, and all spells or attacks that affect your physiology or respiration, because you have no physiology or respiration while this spell is in effect. You take only half damage from acid and fire. However, you also become vulnerable to all special attacks that affect iron golems.\n\nYou gain a +6 enhancement bonus to your Strength score, but you take a -6 penalty to Dexterity as well (to a minimum Dexterity score of 1), and your speed is reduced to half normal. You have an arcane spell failure chance of 35% and a -6 armor check penalty, just as if you were clad in full plate armor. You cannot drink (and thus can't use potions) or play wind instruments.\n\nYour unarmed attack deals damage equal to a club sized for you (1d4 for Small characters or 1d6 for Medium characters), and you are considered armed when making unarmed attacks.\n\nYour weight increases by a factor of 10, causing you to sink in water like a stone. However, you could survive the lack of air at the bottom of the ocean--at least until the spell duration expires.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Mind Blank",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one creature"
+      },
+      "duration": "24 hours",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Subject is protected from mental/emotional magic and scrying.",
+      "description": "The subject is protected from all devices and spells that gather information about the target through divination magic (such as _detect evil, locate creature, scry_ , and _see invisible_). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. _Mind blank_ even foils _limited wish_ , _miracle_ , and _wish_ spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as _arcane eye_ , the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Moment Of Prescience",
+      "school": "divination",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 hour/level or until discharged",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "You gain +1/level insight bonus on single attack roll, check, or save.",
+      "description": "This spell grants you a sixth sense. Once during the spell's duration, you may choose to use its effect. This spell grants you an insight bonus equal to your caster level (maximum +25) on any single attack roll, combat maneuver check, opposed ability or skill check, or saving throw. Alternatively, you can apply the insight bonus to your AC against a single attack (even if flat-footed). Activating the effect doesn't take an action; you can even activate it on another character's turn. You must choose to use the _moment of prescience_ before you make the roll it is to modify. Once used, the spell ends. You can't have more than one _moment of prescience_ active on you at the same time.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Planar Ally, Greater",
+      "school": "conjuration",
+      "subschool": [
+        "calling"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        }
+      ],
+      "casting_time": null,
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "offerings worth 2,500 gp plus payment",
+          "type": "M"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M (offerings worth 2,500 gp plus payment), DF",
+      "range": null,
+      "effects": {
+        "Effect": "up to three called outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear."
+      },
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "As lesser planar ally, but up to 18 HD.",
+      "description": "This spell functions like _lesser planar ally_ , except that you may call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 18. The creatures agree to help you and request your return payment together.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Polar Ray",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "cold"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a white ceramic cone or prism",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, F (a white ceramic cone or prism)",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Effect": "ray"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "yes",
+      "short_description": "Ranged touch attack deals 1d6/level cold damage and 1d4 points of Dexterity drain.",
+      "description": "A blue-white ray of freezing air and ice springs from your hand. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d6 points of cold damage per caster level (maximum 25d6) and 1d4 points of Dexterity drain.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Polymorph Any Object",
+      "school": "transmutation",
+      "subschool": [
+        "polymorph"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "mercury, gum arabic, and smoke",
+          "type": "M"
+        },
+        {
+          "text": "mercury, gum arabic, and smoke",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (mercury, gum arabic, and smoke)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one creature, or one nonmagical object of up to 100 cu. ft./level"
+      },
+      "duration": "see text",
+      "saving_throw": "Fortitude negates (object); see text",
+      "spell_resistance": "yes (object)",
+      "short_description": "Changes a subject into anything else.",
+      "description": "This spell functions like _greater polymorph_ , except that it changes one object or creature into another. You can use this spell to transform all manner of objects and creatures into new forms--you aren't limited to transforming a living creature into another living form. The duration of the spell depends on how radical a change is made from the original state to its transmuted state. The duration is determined by using the following guidelines.\n\n##### Changed Subject Is...\n\nChanged Subject Is…| Increase to Duration Factor*  \n---|---  \nSame kingdom (animal, vegetable, mineral)| +5  \nSame class (mammals, fungi, metals, etc.)| +2  \nSame size| +2  \nRelated (twig is to tree, wolf fur is to wolf, etc.)| +2  \nSame or lower Intelligence| +2  \n*Add all that apply. Look up the total on the next table.  \nDuration Factor| Duration| Example  \n---|---|---  \n0| 20 minutes| Pebble to human  \n2| 1 hour| Marionette to human  \n4| 3 hours| Human to marionette  \n5| 12 hours| Lizard to manticore  \n6| 2 days| Sheep to wool coat  \n7| 1 week| Shrew to manticore  \n9+| Permanent| Manticore to shrew  \n  \nIf the target of the spell does not have physical ability scores (Strength, Dexterity, or Constitution), this spell grants a base score of 10 to each missing ability score. If the target of the spell does not have mental ability scores (Intelligence, Wisdom, or Charisma)__, this spell grants a score of 5 to such scores. Damage taken by the new form can result in the injury or death of the polymorphed creature. In general, damage occurs when the new form is changed through physical force. A nonmagical object cannot be made into a magic item with this spell. Magic items aren't affected by this spell.\n\nThis spell cannot create material of great intrinsic value, such as copper, silver, gems, silk, gold, platinum, mithral, or adamantine. It also cannot reproduce the special properties of cold iron in order to overcome the damage reduction of certain creatures.\n\nThis spell can also be used to duplicate the effects of _baleful polymorph, greater polymorph, flesh to stone_ , _stone to flesh_ , _transmute mud to rock_ , _transmute metal to wood_ , or _transmute rock to mud_.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Power Word Stun",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        }
+      ],
+      "component_text": "V",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one creature with 150 hp or less"
+      },
+      "duration": "See text",
+      "saving_throw": "none",
+      "spell_resistance": "yes",
+      "short_description": "Stuns creature with 150 hp or less.",
+      "description": "You utter a single word of power that instantly causes one creature of your choice to become stunned, whether the creature can hear the word or not. The duration of the spell depends on the target's current hit point total. Any creature that currently has 151 or more hit points is unaffected by _power word stun_.\n\n##### Hit Points\n\nHit Points| Duration  \n---|---  \n50 or less| 4d4 rounds  \n51-100| 2d4 rounds  \n101-150| 1d4 rounds",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Prismatic Wall",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "wall 4 ft./level wide, 2 ft./level high"
+      },
+      "duration": "10 min./level (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "see text",
+      "short_description": "Wall's colors have array of effects.",
+      "description": "_Prismatic wall_ creates a vertical, opaque wall--a shimmering, multicolored plane of light that protects you from all forms of attack. The wall flashes with seven colors, each of which has a distinct power and purpose. The wall is immobile, and you can pass through and remain near the wall without harm. Any other creature with less than 8 HD that is within 20 feet of the wall is blinded by the colors for 2d4 rounds if it looks at the wall.  \n  \nThe wall's maximum proportions are 4 feet wide per caster level and 2 feet high per caster level. A _prismatic wall_ spell cast to materialize in a space occupied by a creature is disrupted, and the spell is wasted.\n\nEach color in the wall has a special effect. The accompanying table shows the seven colors of the wall, the order in which they appear, their effects on creatures trying to attack you or pass through the wall, and the magic needed to negate each color.\n\nThe wall can be destroyed, color by color, in consecutive order, by casting the specified spells on the wall; however, the first color must be brought down before the second can be affected, and so on. A _rod of cancellation_ or a _mage's disjunction_ spell destroys a _prismatic wall_ , but an _antimagic field_ fails to penetrate it. _Dispel magic_ and _greater dispel magic_ can only be used on the wall once all the other colors have been destroyed. Spell resistance is effective against a _prismatic wall_ , but the caster level check must be repeated for each color present.\n\n_Prismatic wall_ can be made permanent with a _permanency_ spell.\n\n##### Prismatic Wall\n\nOrder| Color| Effect of Color| Negated by  \n---|---|---|---  \n1st| Red| Stops nonmagical ranged weapons. Deals 20 points of fire damage (Reflex half).| _Cone of cold_  \n2nd| Orange| Stops magical ranged weapons.Deals 40 points of acid damage (Reflex half).| _Gust of wind_  \n3rd| Yellow| Stops poisons, gases, and petrification.Deals 80 points of electricity damage (Reflex half).| _Disintegrate_  \n4th| Green| Stops breath weapons.Poison (frequency: 1/rd. for 6 rd.; init. effect: death, sec. effect: 1 Con/rd.; cure 2 consecutive Fort saves).| _Passwall_  \n5th| Blue| Stops divination and mental attacks.Turned to stone (Fortitude negates).| _Magic missile_  \n6th| Indigo| Stops all spells.Will save or become insane (as _insanity_ spell).| _Daylight_  \n7th| Violet| Energy field destroys all objects and effects.*Creatures sent to another plane (Will negates).| _Dispel magic_ or _greater dispel magic_  \n* The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Prying Eyes, Greater",
+      "school": "divination",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 minute",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a handful of crystal marbles",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a handful of crystal marbles)",
+      "range": "1 mile",
+      "effects": {
+        "Effect": "10 or more levitating eyes"
+      },
+      "duration": "1 hour/level; see text (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "As prying eyes, but eyes have true seeing.",
+      "description": "This spell functions like _prying eyes_ , except that the eyes can see all things as they actually are, just as if they had _true seeing_ with a range of 120 feet. Thus, they can navigate darkened areas at normal speed. Also, a _greater prying eye_ 's maximum Perception modifier is +25 instead of +15.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Repel Metal Or Stone",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "earth"
+      ],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "60 ft.",
+      "effects": {
+        "Area": "60-ft. line from you"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Pushes away metal and stone.",
+      "description": "This spell creates waves of invisible energy that roll forth from you. All metal or stone objects in the path of the spell are pushed away from you to the limit of the range. Fixed metal or stone objects larger than 3 inches in diameter and loose objects weighing more than 500 pounds are not affected. Anything else, including animated objects, small boulders, and creatures in metal armor, moves back. Fixed objects 3 inches in diameter or smaller bend or break, and the pieces move with the wave of energy. Objects affected by the spell are repelled at the rate of 40 feet per round.\n\nObjects such as metal armor, swords, and the like are pushed back, dragging their bearers with them. Even magic items with metal components are repelled, although an _antimagic field_ blocks the effects. A creature being dragged by an item it is carrying can let go. A creature being dragged by a shield can loose it as a move action and drop it as a free action.\n\nThe waves of energy continue to sweep down the set path for the spell's duration. After you cast the spell, the path is set, and you can then do other things or go elsewhere without affecting the spell's power.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Scintillating Pattern",
+      "school": "illusion",
+      "subschool": [
+        "pattern"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a crystal prism",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a crystal prism)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "colorful lights in a 20-ft.-radius spread"
+      },
+      "duration": "concentration + 2 rounds",
+      "saving_throw": "none",
+      "spell_resistance": "yes",
+      "short_description": "Twisting colors confuse, stun, or render unconscious.",
+      "description": "A twisting pattern of coruscating colors weaves through the air, affecting creatures within. The spell affects a total number of HD of creatures equal to your caster level (maximum 20). Creatures with the fewest HD are affected first, and among creatures with equal HD, those who are closest to the spell's point of origin are affected first. HD that are not sufficient to affect a creature are wasted. The spell affects each subject according to its HD.\n\n_6 or less_ : Unconscious for 1d4 rounds, then stunned for 1d4 rounds, and then _confused_ : for 1d4 rounds. (Treat an unconscious result as stunned for nonliving creatures.)\n\n_7 to 12_ : Stunned for 1d4 rounds, then _confused_ for an additional 1d4 rounds. \n\n_13 or more_ : _Confused_ for 1d4 rounds. \n\nSightless creatures are not affected by _scintillating pattern_.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Screen",
+      "school": "illusion",
+      "subschool": [
+        "glamer"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Area": "30-ft. cube/level (S)"
+      },
+      "duration": "24 hours",
+      "saving_throw": "none or Will disbelief (if interacted with); see text",
+      "spell_resistance": "no",
+      "short_description": "Illusion hides area from vision and scrying.",
+      "description": "This spell creates a powerful protection from scrying and observation. When casting the spell, you dictate what will and will not be observed in the spell's area. The illusion created must be stated in general terms. Once the conditions are set, they cannot be changed. Attempts to scry the area automatically detect the image stated by you with no save allowed. Sight and sound are appropriate to the illusion created. Direct observation may allow a save (as per a normal illusion), if there is cause to disbelieve what is seen. Even entering the area does not cancel the illusion or necessarily allow a save, assuming that hidden beings take care to stay out of the way of those affected by the illusion.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Shadow Evocation, Greater",
+      "school": "illusion",
+      "subschool": [
+        "shadow"
+      ],
+      "descriptor": [
+        "shadow"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "see text",
+      "effects": {
+        "Effect": "see text"
+      },
+      "duration": "see text",
+      "saving_throw": "Will disbelief (if interacted with)",
+      "spell_resistance": "yes",
+      "short_description": "As shadow evocation, but up to 7th level and 60% real.",
+      "description": "This spell functions like _shadow evocation_ , except that it enables you to create partially real, illusory versions of sorcerer or wizard evocation spells of 7th level or lower. If recognized as a _greater shadow evocation_ , a damaging spell deals only three-fifths (60%) damage.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Shield Of Law",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "lawful"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a reliquary worth 500 gp",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, F (a reliquary worth 500 gp)",
+      "range": "20 ft.",
+      "effects": {
+        "Targets": "one creature/level in a 20-ft.-radius burst centered on you"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "+4 to AC, +4 resistance, and SR 25 against chaotic spells.",
+      "description": "A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and _slowing_ chaotic creatures when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike _protection from chaos_ , this benefit applies against all attacks, not just against attacks by chaotic creatures.\n\nSecond, a warded creature gains spell resistance 25 against chaotic spells and spells cast by chaotic creatures.\n\nThird, the abjuration protects you from possession and mental influence, just as _protection from chaos_ does.\n\nFinally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is _slowed_ (Will save negates, as the _slow_ spell, but against _shield of law_ 's save DC).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Spell Immunity, Greater",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "10 min./level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "As spell immunity, but up to 8th-level spells.",
+      "description": "This spell functions like _spell immunity_ , except the immunity applies to spells of 8th level or lower. A creature can have only one _spell immunity_ or _greater spell immunity_ spell in effect on it at a time.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Summon Nature's Ally VIII",
+      "school": "conjuration",
+      "subschool": [
+        "summoning"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "one summoned creature"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Summons creature to fight.",
+      "description": "This spell functions like _summon nature's ally I_ , except that you can summon one 8th-level creature, 1d3 7th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.\n\n##### Table: Summon Nature's Ally VIII\n\n1st Level| Subtype  \n---|---  \nDire rat| --  \nDog| --  \nDolphin| --  \nEagle| --  \nGiant centipede| --  \nFire beetle| --  \nMite (gremlin)| --  \nPoisonous frog| --  \nPony (horse)| --  \nStirge| --  \nViper (snake)| --  \n2nd Level| Subtype  \nAnt, giant (worker)| --  \nElemental (Small)| Elemental  \nGiant frog| --  \nGiant spider| --  \nGoblin Dog| --  \nHorse| --  \nHyena| --  \nOctopus| --  \nSquid| --  \nWolf| --  \n3rd Level| Subtype  \nAnt, giant (soldier)| --  \nApe| --  \nAurochs (herd animal)| --  \nBoar| --  \nCheetah| --  \nConstrictor snake| --  \nCrocodile| --  \nDire bat| --  \nElectric Eel| --  \nGiant crab| --  \nLeopard (cat)| --  \nMonitor lizard| --  \nShark| --  \nWolverine| --  \n4th Level| Subtype  \nAnt, giant (drone)| --  \nBison (herd animal)| --  \nDeinonychus (dinosaur)| --  \nDire ape| --  \nDire boar| --  \nDire wolf| --  \nElemental (Medium)| Elemental  \nGiant scorpion| --  \nGiant stag beetle| --  \nGiant wasp| --  \nGriffon| --  \nGrizzly bear| --  \nLion| --  \nMephit (any)| Elemental  \nOwlbear| --  \nPteranodon (dinosaur)| --  \nRhinoceros| --  \nSatyr| --  \nTiger| --  \n5th Level| Subtype  \nAnkylosaurus (dinosaur)| --  \nCyclops| --  \nDire lion| --  \nDolphin (orca)| --  \nElemental (Large)| Elemental  \nEttin| --  \nGiant moray eel| --  \nGirallon| --  \nManticore| --  \nWoolly rhinoceros| --  \n6th Level| Subtype  \nBulette| --  \nDire bear| --  \nDire tiger| --  \nElasmosaurus (dinosaur)| --  \nElemental (Huge)| Elemental  \nElephant| --  \nGiant octopus| --  \nHill giant| --  \nStegosaurus (dinosaur)| --  \nStone giant| Earth  \nTriceratops (dinosaur)| --  \n7th Level| Subtype  \nBrachiosaurus (dinosaur)| --  \nDire crocodile| --  \nDire shark| --  \nElemental (greater)| Elemental  \nFire giant| Fire  \nFrost giant| Cold  \nGiant squid| --  \nMastadon (elephant)| --  \nRoc| --  \nTyrannosaurus (dinosaur)| --  \n8th Level| Subtype  \nCloud giant| Air  \nElemental (elder)| Elemental  \nPurple worm| --",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Sunburst",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "light"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Druid",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "sunstone and fire source",
+          "type": "M"
+        },
+        {
+          "text": "sunstone and fire source",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (sunstone and fire source)",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Area": "80-ft.-radius burst"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Reflex partial; see text",
+      "spell_resistance": "yes",
+      "short_description": "Blinds all within 10 ft., deals 6d6 damage.",
+      "description": "_Sunburst_ causes a globe of searing radiance to explode silently from a point you select. All creatures in the globe are blinded and take 6d6 points of damage. A creature to which sunlight is harmful or unnatural takes double damage. A successful Reflex save negates the blindness and reduces the damage by half.\n\nAn undead creature caught within the globe takes 1d6 points of damage per caster level (maximum 25d6), or half damage if a Reflex save is successful. In addition, the burst results in the destruction of any undead creature specifically harmed by bright light if it fails its save.\n\nThe ultraviolet light generated by the spell deals damage to fungi, mold, oozes, and slimes just as if they were undead creatures.\n\n_Sunburst_ dispels any darkness spells of lower than 9th level within its area.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Symbol Of Death",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "death"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "mercury and phosphorus, plus powdered diamond and opal worth 5,000 gp each",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (mercury and phosphorus, plus powdered diamond and opal worth 5,000 gp each)",
+      "range": "0 ft.; see text",
+      "effects": {
+        "Effect": "one symbol"
+      },
+      "duration": "see text",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "yes",
+      "short_description": "Triggered rune kills nearby creatures.",
+      "description": "This spell allows you to scribe a potent rune of power upon a surface. When triggered, a _symbol of death_ kills one or more creatures within 60 feet of the symbol (treat as a burst) whose combined total current hit points do not exceed 150. The _symbol of death_ affects the closest creatures first, skipping creatures with too many hit points to affect. Once triggered, the _symbol_ becomes active and glows, lasting for 10 minutes per caster level or until it has affected 150 hit points' worth of creatures, whichever comes first. A creature that enters the area while the _symbol of death_ is active is subject to its effect, whether or not that creature was in the area when it was triggered. A creature need save against the _symbol_ only once as long as it remains within the area, though if it leaves the area and returns while the _symbol_ is still active, it must save again.\n\nUntil it is triggered, the _symbol of death_ is inactive (though visible and legible at a distance of 60 feet). To be effective, a _symbol of death_ must always be placed in plain sight and in a prominent location. Covering or hiding the rune renders the _symbol of death_ ineffective, unless a creature removes the covering, in which case the _symbol of death_ works normally.\n\nAs a default, a _symbol of death_ is triggered whenever a creature does one or more of the following, as you select: looks at the rune; reads the rune; touches the rune; passes over the rune; or passes through a portal bearing the rune. Regardless of the trigger method or methods chosen, a creature more than 60 feet from a symbol of death can't trigger it (even if it meets one or more of the triggering conditions, such as reading the rune). Once the spell is cast, a _symbol of death_ 's triggering conditions cannot be changed.\n\nIn this case, \"reading\" the rune means any attempt to study it, identify it, or fathom its meaning. Throwing a cover over a _symbol of death_ to render it inoperative triggers it if the symbol reacts to touch. You can't use a _symbol of death_ offensively; for instance, a touch-triggered _symbol of death_ remains untriggered if an item bearing the _symbol of death_ is used to touch a creature. Likewise, a _symbol of death_ cannot be placed on a weapon and set to activate when the weapon strikes a foe.\n\nYou can also set special triggering limitations of your own. These can be as simple or elaborate as you desire. Special conditions for triggering a _symbol of death_ can be based on a creature's name, identity, or alignment, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, HD, and hit points don't qualify. \n\nWhen scribing a _symbol of death_ , you can specify a password or phrase that prevents a creature using it from triggering the symbol's effect _._ Anyone using the password remains immune to that particular rune's effects so long as the creature remains within 60 feet of the rune. If the creature leaves the radius and returns later, it must use the password again.\n\nYou also can attune any number of creatures to the _symbol of death,_ but doing this can extend the casting time. Attuning one or two creatures takes negligible time, and attuning a small group (as many as 10 creatures) extends the casting time to 1 hour. Attuning a large group (as many as 25 creatures) takes 24 hours. Attuning larger groups takes an additional 24 hours per 25 creatures. Any creature attuned to a _symbol of death_ cannot trigger it and is immune to its effects, even if within its radius when it is triggered. You are automatically considered attuned to your own _symbols of death_ , and thus always ignore the effects and cannot inadvertently trigger them.\n\n_Read magic_ allows you to identify a _symbol_ with a Spellcraft check (DC 10 + the _symbol's_ spell level). Of course, if the _symbol_ is set to be triggered by reading it, this will trigger the symbol.\n\nA _symbol of death_ can be removed by a successful _dispel magic_ targeted solely on the rune. An _erase_ spell has no effect on a _symbol of death._ Destruction of the surface where a _symbol of death_ is inscribed destroys the _symbol_ but also triggers it.\n\n_Symbol of death_ can be made permanent with a _permanency_ spell. A permanent _symbol of death_ that is disabled or has affected its maximum number of hit points becomes inactive for 10 minutes, but then can be triggered again as normal.\n\n_Note_ Magic traps such as _symbol of death_ are hard to detect and disable. While any character can use Perception to find a symbol, only a character with the trapfinding class feature can use Disable Device to disarm it. The DC in each case is 25 + spell level, or 33 for _symbol of death_.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Symbol Of Insanity",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": null,
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "mercury and phosphorus, plus powdered diamond and opal worth a total of 5,000 gp",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 5,000 gp)",
+      "range": null,
+      "effects": {},
+      "duration": null,
+      "saving_throw": "Will negates",
+      "spell_resistance": null,
+      "short_description": "Triggered rune renders nearby creatures insane.",
+      "description": "This spell functions like _symbol of death_ , except that all creatures within the radius of the _symbol of insanity_ instead become permanently insane (as the _insanity_ spell).\n\nUnlike _symbol of death_ , symbol of insanity has no hit point limit; once triggered, a _symbol of insanity_ simply remains active for 10 minutes per caster level.\n\n_Note_ Magic traps such as _symbol of insanity_ are hard to detect and disable. While any character can use Perception to find a symbol, only a character with the trapfinding class feature can use Disable Device to disarm it. The DC in each case is 25 + spell level, or 33 for _symbol of insanity_.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Telekinetic Sphere",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "force"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a crystal sphere and a pair of small magnets",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a crystal sphere and a pair of small magnets)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "1-ft.-diameter/level sphere, centered around creatures or objects"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": "Reflex negates (object)",
+      "spell_resistance": "yes (object)",
+      "short_description": "As resilient sphere, but you move the sphere telekinetically.",
+      "description": "This spell functions like _resilient sphere_ , but the creatures or objects caught inside the globe created by the spell are made nearly weightless. Anything contained within a _telekinetic sphere_ , weighs only one-sixteenth of its normal weight. You can telekinetically lift anything in the sphere that normally weighs 5,000 pounds or less. The telekinetic control extends from you out to medium range (100 feet + 10 feet per caster level) after the sphere has succeeded in encapsulating its contents.\n\nYou can move the sphere, along with the objects and creatures it contains that weigh a total of 5,000 pounds or less, by concentrating on the sphere. You can begin moving a sphere in the round after casting the spell. If you concentrate on doing so (a standard action), you can move the sphere as much as 30 feet in a round. If you cease concentrating, the sphere does not move in that round (if on a level surface) or descends at its falling rate (if aloft) until it reaches a level surface. You can resume concentrating on your next turn or any later turn during the spell's duration.\n\nThe sphere falls at a rate of only 60 feet per round, which is not fast enough to cause damage to the contents of the sphere.\n\nYou can move the sphere telekinetically even if you are in it.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Temporal Stasis",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "powdered diamond, emerald, ruby, and sapphire dust worth 5,000 gp",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (powdered diamond, emerald, ruby, and sapphire dust worth 5,000 gp)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "permanent",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "yes",
+      "short_description": "Puts subject into suspended animation.",
+      "description": "You must succeed on a melee touch attack. You place the subject into a state of suspended animation. For the creature, time ceases to flow, and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. This state persists until the magic is removed (such as by a successful _dispel magic_ spell or a _freedom_ spell).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Trap The Soul",
+      "school": "conjuration",
+      "subschool": [
+        "summoning"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 8
+        },
+        {
+          "class": "Sorcerer",
+          "level": 8
+        },
+        {
+          "class": "Witch",
+          "level": 8
+        },
+        {
+          "class": "Wizard",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action or see text",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "gem worth 1,000 gp per HD of the trapped creature",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (gem worth 1,000 gp per HD of the trapped creature)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one creature"
+      },
+      "duration": "permanent; see text",
+      "saving_throw": "see text",
+      "spell_resistance": "yes; see text",
+      "short_description": "Imprisons subject within gem.",
+      "description": "_Trap the soul_ forces a creature's life force (and its material body) into a gem. The gem holds the trapped entity indefinitely or until the gem is broken and the life force is released, which allows the material body to reform. If the trapped creature is a powerful creature from another plane, it can be required to perform a service immediately upon being freed. Otherwise, the creature can go free once the gem imprisoning it is broken.\n\nDepending on the version selected, the spell can be triggered in one of two ways.\n\n_Spell Completion_ : First, the spell can be completed by speaking its final word as a standard action as if you were casting a regular spell at the subject. This allows spell resistance (if any) and a Will save to avoid the effect. If the creature's name is spoken as well, any spell resistance is ignored and the save DC increases by 2. If the save or spell resistance is successful, the gem shatters.\n\n_Trigger Object_ : The second method is far more insidious, for it tricks the subject into accepting a trigger object inscribed with the final spell word, automatically placing the creature's soul in the trap. To use this method, both the creature's name and the trigger word must be inscribed on the trigger object when the gem is enspelled. A _sympathy_ spell can also be placed on the trigger object. As soon as the subject picks up or accepts the trigger object, its life force is automatically transferred to the gem without the benefit of spell resistance or a save.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Unholy Aura",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "evil"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 8
+        },
+        {
+          "class": "Oracle",
+          "level": 8
+        },
+        {
+          "class": "Warpriest",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a tiny reliquary worth 500 gp",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, F (a tiny reliquary worth 500 gp)",
+      "range": "20 ft.",
+      "effects": {
+        "Targets": "one creature/level in a 20-ft.-radius burst centered on you"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "+4 to AC, +4 resistance, and SR 25 against good spells.",
+      "description": "A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike the effect of _protection from good_ , this benefit applies against all attacks, not just against attacks by good creatures.\n\nSecond, a warded creature gains SR 25 against good spells and spells cast by good creatures.\n\nThird, the abjuration protects the subjects from possession and mental influence, just as _protection from good_ does.\n\nFinally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of Strength damage (Fortitude negates).",
+      "source": "Core Rulebook",
+      "min_level": 8
+    },
+    {
+      "name": "Whirlwind",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "air"
+      ],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 8
+        },
+        {
+          "class": "Shaman",
+          "level": 8
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Effect": "cyclone 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "Reflex negates; see text",
+      "spell_resistance": "yes",
+      "short_description": "Cyclone deals damage and can pick up creatures.",
+      "description": "This spell creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet per round. You can concentrate on controlling the cyclone's every movement or specify a simple program. Directing the cyclone's movement or changing its programmed movement is a standard action for you. The cyclone always moves during your turn. If the cyclone exceeds the spell's range, it moves in a random, uncontrolled fashion for 1d3 rounds and then dissipates. (You can't regain control of the cyclone, even if it comes back within range.)\n\nAny Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of damage each round on your turn with no save allowed. You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released.",
+      "source": "Core Rulebook",
+      "min_level": 8
+    }
+  ]
+}

@@ -97,8 +97,13 @@
 <li><a href="rules/gamemastering/">Gamemastering</a> — Designing encounters, awarding experience, placing treasure, creating NPCs, beyond 20th level</li>
 <li><a href="rules/glossary-special-abilities/">Special Abilities</a> — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison</li>
 <li><a href="rules/glossary-conditions/">Conditions</a> — The standardized status conditions referenced throughout the rules</li>
+<li><a href="rules/equipment-wealth-materials/">Wealth, Money &amp; Special Materials</a> — Currency, trade goods, special materials (adamantine, mithral, etc.)</li>
+<li><a href="rules/equipment-weapons/">Weapons</a> — All 81 core weapons: categories, proficiency, weapon qualities, descriptions</li>
+<li><a href="rules/equipment-armor/">Armor</a> — All 21 armors and shields: AC bonuses, penalties, donning/removing, materials</li>
+<li><a href="rules/equipment-goods-1/">Adventuring Gear, Substances &amp; Tools</a> — Adventuring gear, alchemical items, special substances, tools, kits</li>
+<li><a href="rules/equipment-goods-2/">Clothing, Mounts &amp; Services</a> — Clothing, food and lodging, mounts, transport, and hirelings</li>
 </ul>
-<p>All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete, and all 623 core spells are now available as structured data below. Only Equipment remains before the Core Rulebook is fully covered (Bestiary excluded — tracked separately).</p>
+<p>All 11 core classes, all 175 core feats, the full Combat, Magic, Additional Rules, Environment, Gamemastering, Glossary, and Equipment chapters are now complete. All 623 core spells and 237 equipment items are available as structured data below. Only the Bestiary remains (tracked separately).</p>
 </div>
 <div class="section">
 <h3 id="machine-readable-data">Machine-Readable Data</h3>
@@ -111,20 +116,33 @@
 <li><a href="../../games/pathfinder-1e/data/conditions.json">conditions.json</a> — All 34 standardized conditions</li>
 <li><a href="../../games/pathfinder-1e/data/feats.json">feats.json</a> — All 173 core feats (combat, general, metamagic, critical, item creation)</li>
 </ul>
-<p><strong>Spells</strong> — all 623 core spells, split by spell level into 34 part files:</p>
+<p><strong>Spells</strong> — all 623 core spells, one file per spell level:</p>
 <ul class="rules">
-<li>Level 0 (cantrips/orisons): <a href="../../games/pathfinder-1e/data/spells/level-0-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-0-part2.json">part 2</a></li>
-<li>Level 1: <a href="../../games/pathfinder-1e/data/spells/level-1-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-1-part2.json">part 2</a>, <a href="../../games/pathfinder-1e/data/spells/level-1-part3.json">part 3</a>, <a href="../../games/pathfinder-1e/data/spells/level-1-part4.json">part 4</a></li>
-<li>Level 2: <a href="../../games/pathfinder-1e/data/spells/level-2-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-2-part2.json">part 2</a>, <a href="../../games/pathfinder-1e/data/spells/level-2-part3.json">part 3</a>, <a href="../../games/pathfinder-1e/data/spells/level-2-part4.json">part 4</a>, <a href="../../games/pathfinder-1e/data/spells/level-2-part5.json">part 5</a></li>
-<li>Level 3: <a href="../../games/pathfinder-1e/data/spells/level-3-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-3-part2.json">part 2</a>, <a href="../../games/pathfinder-1e/data/spells/level-3-part3.json">part 3</a>, <a href="../../games/pathfinder-1e/data/spells/level-3-part4.json">part 4</a>, <a href="../../games/pathfinder-1e/data/spells/level-3-part5.json">part 5</a></li>
-<li>Level 4: <a href="../../games/pathfinder-1e/data/spells/level-4-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-4-part2.json">part 2</a>, <a href="../../games/pathfinder-1e/data/spells/level-4-part3.json">part 3</a>, <a href="../../games/pathfinder-1e/data/spells/level-4-part4.json">part 4</a></li>
-<li>Level 5: <a href="../../games/pathfinder-1e/data/spells/level-5-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-5-part2.json">part 2</a>, <a href="../../games/pathfinder-1e/data/spells/level-5-part3.json">part 3</a>, <a href="../../games/pathfinder-1e/data/spells/level-5-part4.json">part 4</a></li>
-<li>Level 6: <a href="../../games/pathfinder-1e/data/spells/level-6-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-6-part2.json">part 2</a>, <a href="../../games/pathfinder-1e/data/spells/level-6-part3.json">part 3</a>, <a href="../../games/pathfinder-1e/data/spells/level-6-part4.json">part 4</a></li>
-<li>Level 7: <a href="../../games/pathfinder-1e/data/spells/level-7-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-7-part2.json">part 2</a></li>
-<li>Level 8: <a href="../../games/pathfinder-1e/data/spells/level-8-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-8-part2.json">part 2</a></li>
-<li>Level 9: <a href="../../games/pathfinder-1e/data/spells/level-9-part1.json">part 1</a>, <a href="../../games/pathfinder-1e/data/spells/level-9-part2.json">part 2</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-0.json">Level 0 — Cantrips/Orisons (28)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-1.json">Level 1 (89)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-2.json">Level 2 (90)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-3.json">Level 3 (90)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-4.json">Level 4 (77)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-5.json">Level 5 (68)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-6.json">Level 6 (74)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-7.json">Level 7 (40)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-8.json">Level 8 (38)</a></li>
+<li><a href="../../games/pathfinder-1e/data/spells/level-9.json">Level 9 (29)</a></li>
 </ul>
-<p>Equipment and monsters are pending ingestion from PSRD-Data and will be added as each batch completes.</p>
+<p><strong>Equipment</strong> — 237 items across 10 category files:</p>
+<ul class="rules">
+<li><a href="../../games/pathfinder-1e/data/equipment/weapon.json">weapon.json (81)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/armor.json">armor.json (21)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/adventuring-gear.json">adventuring-gear.json (64)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/special-substance.json">special-substance.json (10)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/tool.json">tool.json (16)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/clothing.json">clothing.json (12)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/food-lodging.json">food-lodging.json (2)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/mount.json">mount.json (13)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/transport.json">transport.json (11)</a></li>
+<li><a href="../../games/pathfinder-1e/data/equipment/service.json">service.json (7)</a></li>
+</ul>
+<p>Monsters are pending ingestion from PSRD-Data and will be added as each batch completes.</p>
 </div>
 
 

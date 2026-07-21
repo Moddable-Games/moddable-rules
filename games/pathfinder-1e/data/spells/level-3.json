@@ -1,0 +1,5650 @@
+{
+  "source": "Pathfinder Roleplaying Game Core Rulebook, Paizo Publishing, LLC. Content sourced via the PSRD-Data project (devonjones/PSRD-Data). Licence: OGL 1.0a. Note: some spells' class/level listings (in 'levels') include classes introduced in later Paizo sourcebooks (e.g. Magus, Bloodrager, Arcanist) not covered by this Core-Rulebook-only ingestion -- the spell text itself is Core Rulebook content. 'min_level' is the lowest level at which any class gains access to this spell, used to bucket it into this file.",
+  "level": 3,
+  "count": 90,
+  "items": [
+    {
+      "name": "Animate Dead",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "evil"
+      ],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "an onyx gem worth at least 25 gp per Hit Die of the undead",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)",
+      "range": "touch",
+      "effects": {
+        "Targets": "one or more corpses touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Creates undead skeletons and zombies.",
+      "description": "This spell turns corpses into undead skeletons or zombies that obey your spoken commands.\n\nThe undead can be made to follow you, or they can be made to remain in an area and attack any creature (or just a specific kind of creature) entering the place. They remain animated until they are destroyed. A destroyed skeleton or zombie can't be animated again.\n\nRegardless of the type of undead you create with this spell, you can't create more HD of undead than twice your caster level with a single casting of _animate dead_. The _desecrate_ spell doubles this limit.\n\nThe undead you create remain under your control indefinitely. No matter how many times you use this spell, however, you can control only 4 HD worth of undead creatures per caster level. If you exceed this number, all the newly created creatures fall under your control, and any excess undead from previous castings become uncontrolled. You choose which creatures are released. Undead you control through the Command Undead feat do not count toward this limit.\n\n_Skeletons_ : A skeleton can be created only from a mostly intact corpse or skeleton. The corpse must have bones. If a skeleton is made from a corpse, the flesh falls off the bones. \n\n_Zombies_ : A zombie can be created only from a mostly intact corpse. The corpse must be that of a creature with a physical anatomy.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Arcane Sight",
+      "school": "divination",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Magical auras become visible to you.",
+      "description": "This spell makes your eyes glow blue and allows you to see magical auras within 120 feet of you. The effect is similar to that of a _detect magic_ spell, but _arcane sight_ does not require concentration and discerns aura location and power more quickly.\n\nYou know the location and power of all magical auras within your sight. An aura's power depends on a spell's functioning level or an item's caster level, as noted in the description of the _detect magic_ spell. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.)\n\nIf you concentrate on a specific creature within 120 feet of you as a standard action, you can determine whether it has any spellcasting or spell-like abilities, whether these are arcane or divine (spell-like abilities register as arcane), and the strength of the most powerful spell or spell-like ability the creature currently has available for use.\n\nAs with _detect magic_ , you can use this spell to identify the properties of magic items, but not artifacts.\n\n_Arcane sight_ can be made permanent with a _permanency_ spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Beast Shape I",
+      "school": "transmutation",
+      "subschool": [
+        "polymorph"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a piece of the creature whose form you plan to assume",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a piece of the creature whose form you plan to assume)",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "You take the form and some of the powers of a Small or Medium animal.",
+      "description": "When you cast this spell, you can assume the form of any Small or Medium creature of the animal type. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, darkvision 60 feet, low-light vision, and scent.\n\n_Small animal_ : If the form you take is that of a Small animal, you gain a +2 size bonus to your Dexterity and a +1 natural armor bonus.\n\n_Medium animal_ : If the form you take is that of a Medium animal, you gain a +2 size bonus to your Strength and a +2 natural armor bonus.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Bestow Curse",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "curse"
+      ],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "permanent",
+      "saving_throw": "Will negates",
+      "spell_resistance": "yes",
+      "short_description": "-6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.",
+      "description": "You place a curse on the subject. Choose one of the following.\n\n  * -6 decrease to an ability score (minimum 1).\n  * -4 penalty on attack rolls, saves, ability checks, and skill checks.\n  * Each turn, the target has a 50% chance to act normally; otherwise, it takes no action.\n\n\n\nYou may also invent your own curse, but it should be no more powerful than those described above.\n\nThe curse bestowed by this spell cannot be dispelled, but it can be removed with a _break enchantment_ , _limited wish_ , _miracle_ , _remove curse_ , or _wish_ spell.\n\n_Bestow curse_ counters _remove curse_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Black Tentacles",
+      "school": "conjuration",
+      "subschool": [
+        "creation"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "octopus or squid tentacle",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (octopus or squid tentacle)",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Area": "20-ft.-radius spread"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Tentacles grapple all creatures within a 20-ft. spread.",
+      "description": "This spell causes a field of rubbery black tentacles to appear, burrowing up from the floor and reaching for any creature in the area. \n\nEvery creature within the area of the spell is the target of a combat maneuver check made to grapple each round at the beginning of your turn, including the round that _black tentacles_ is cast. Creatures that enter the area of effect are also automatically attacked. The tentacles do not provoke attacks of opportunity. When determining the tentacles' CMB, the tentacles use your caster level as their base attack bonus and receive a +4 bonus due to their Strength and a +1 size bonus. Roll only once for the entire spell effect each round and apply the result to all creatures in the area of effect.\n\nIf the tentacles succeed in grappling a foe, that foe takes 1d6+4 points of damage and gains the grappled condition. Grappled opponents cannot move without first breaking the grapple. All other movement is prohibited unless the creature breaks the grapple first. The _black tentacles_ spell receives a +5 bonus on grapple checks made against opponents it is already grappling, but cannot move foes or pin foes. Each round that _black tentacles_ succeeds on a grapple check, it deals an additional 1d6+4 points of damage. The CMD of _black tentacles_ , for the purposes of escaping the grapple, is equal to 10 + its CMB.\n\nThe tentacles created by this spell cannot be damaged, but they can be dispelled as normal. The entire area of effect is considered difficult terrain while the tentacles last.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Blink",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "You randomly vanish and reappear for 1 round per level.",
+      "description": "You \"blink\" quickly back and forth between the Material Plane and the Ethereal Plane and look as though you're winking in and out of reality at random. _Blink_ has several effects, as follows.\n\nPhysical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn't help opponents, since you're ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment).\n\nIf the attacker can see invisible creatures, the miss chance is also only 20%. (For an attacker who can both see and strike ethereal creatures, there is no miss chance.) Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike.\n\nAny individually targeted spell has a 50% chance to fail against you while you're blinking unless your attacker can target invisible, ethereal creatures. Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane (but they might affect targets on the Ethereal Plane).\n\nWhile blinking, you take only half damage from area attacks (but full damage from those that extend onto the Ethereal Plane). Although you are only partially visible, you are not considered invisible and targets retain their Dexterity bonus to AC against your attacks. You do receive a +2 bonus on attack rolls made against enemies that cannot see invisible creatures.\n\nYou take only half damage from falling, since you fall only while you are material.\n\nWhile blinking, you can step through (but not see through) solid objects. For each 5 feet of solid material you walk through, there is a 50% chance that you become material. If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled.\n\nSince you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones.\n\nAn ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down. As an incorporeal creature, you can move through solid objects, including living creatures.\n\nAn ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial. Sight and hearing on the Material Plane are limited to 60 feet.\n\nForce effects and abjurations affect you normally. Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa. An ethereal creature can't attack material creatures, and spells you cast while ethereal affect only other ethereal things. Certain material creatures or objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and objects as material.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Call Lightning",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "electricity"
+      ],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Effect": "one or more 30-ft.-long vertical lines of lightning"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Reflex half",
+      "spell_resistance": "yes",
+      "short_description": "Calls down lightning bolts (3d6 per bolt) from sky.",
+      "description": "Immediately upon completion of the spell, and once per round thereafter, you may call down a 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within the spell's range (measured from your position at the time). Any creature in the target square or in the path of the bolt is affected.\n\nYou need not call a bolt of lightning immediately; other actions, even spellcasting, can be performed first. Each round after the first you may use a standard action (concentrating on the spell) to call a bolt. You may call a total number of bolts equal to your caster level (maximum 10 bolts).\n\nIf you are outdoors and in a stormy area--a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size)--each bolt deals 3d10 points of electricity damage instead of 3d6.\n\nThis spell functions indoors or underground but not underwater.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Charm Monster",
+      "school": "enchantment",
+      "subschool": [
+        "charm"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": null,
+      "effects": {
+        "Target": "one living creature"
+      },
+      "duration": "1 day/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Makes monster believe it is your ally.",
+      "description": "This spell functions like _charm person_ , except that the effect is not restricted by creature type or size.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Clairaudience/Clairvoyance",
+      "school": "divination",
+      "subschool": [
+        "scrying"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a small horn or a glass eye",
+          "type": "F"
+        },
+        {
+          "text": "a small horn or a glass eye",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, F/DF (a small horn or a glass eye)",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Effect": "magical sensor"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Hear or see at a distance for 1 min./level.",
+      "description": "_Clairaudience/clairvoyance_ creates an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don't need line of sight or line of effect, but the locale must be known--a place familiar to you, or an obvious one. Once you have selected the locale, the sensor doesn't move, but you can rotate it in all directions to view the area as desired. Unlike other scrying spells, this spell does not allow magically or supernaturally enhanced senses to work through it. If the chosen locale is magically dark, you see nothing. If it is naturally pitch black, you can see in a 10-foot radius around the center of the spell's effect. _Clairaudience/clairvoyance_ functions only on the plane of existence you are currently occupying.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Command Plants",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        }
+      ],
+      "component_text": "V",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Targets": "up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "1 day/level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "yes",
+      "short_description": "Sway the actions of plant creatures.",
+      "description": "This spell allows you some degree of control over one or more plant creatures. Affected plant creatures can understand you, and they perceive your words and actions in the most favorable way (treat their attitude as friendly). They will not attack you while the spell lasts. You can try to give a subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. (Retries are not allowed.) A commanded plant never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.\n\nYou can affect a number of plant creatures whose combined level or HD do not exceed twice your level.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Confusion",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "three nutshells",
+          "type": "M"
+        },
+        {
+          "text": "three nutshells",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (three nutshells)",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Targets": "all creatures in a 15-ft.-radius burst"
+      },
+      "duration": "1 round/level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "yes",
+      "short_description": "Subjects behave oddly for 1 round/level.",
+      "description": "This spell causes confusion in the targets __, making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round.\n\n##### d%\n\nd%| Behavior  \n---|---  \n01-25| Act normally  \n26-50| Do nothing but babble incoherently  \n51-75| Deal 1d8 points of damage + Str modifier to self with item in hand  \n76-100| Attack nearest creature (for this purpose, a familiar counts as part of the subject's self)\n\nA confused character who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes. Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Contagion",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "disease",
+        "evil"
+      ],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "living creature touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "yes",
+      "short_description": "Infects subject with chosen disease.",
+      "description": "The subject contracts one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease is contracted immediately (the onset period does not apply). Use the disease's listed frequency and save DC to determine further effects. For more information see Diseases.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Create Food And Water",
+      "school": "conjuration",
+      "subschool": [
+        "creation"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "food and water to sustain three humans or one horse/level for 24 hours"
+      },
+      "duration": "24 hours; see text",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Feeds three humans (or one horse)/level.",
+      "description": "The food that this spell creates is simple fare of your choice--highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a _purify food and water_ spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Crushing Despair",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "emotion",
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M",
+      "range": "30 ft.",
+      "effects": {
+        "Area": "cone-shaped burst"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "yes",
+      "short_description": "Subjects take -2 on attack rolls, damage rolls, saves, and checks.",
+      "description": "An invisible cone of despair causes great sadness in the subjects. Each affected creature takes a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.\n\n_Crushing despair_ counters and dispels _good hope_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Cure Serious Wounds",
+      "school": "conjuration",
+      "subschool": [
+        "healing"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 4
+        },
+        {
+          "class": "Ranger",
+          "level": 4
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": null,
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Will half (harmless); see text",
+      "spell_resistance": "yes (harmless); see text",
+      "short_description": "Cures 3d8 damage + 1/level (max +15).",
+      "description": "This spell functions like _cure light wounds_ , except that it cures 3d8 points of damage + 1 point per caster level (maximum +15).",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Daylight",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "light"
+      ],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "object touched"
+      },
+      "duration": "10 min./level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "60-ft. radius of bright light.",
+      "description": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by such light.\n\nIf _daylight_ is cast on a small object that is then placed inside or under a light-proof covering, the spell's effects are blocked until the covering is removed.\n\n_Daylight_ brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.\n\n_Daylight_ counters or dispels any darkness spell of equal or lower level, such as _darkness_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Deep Slumber",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {},
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Puts 10 HD of creatures to sleep.",
+      "description": "This spell functions like _sleep_ , except that it affects 10 HD of targets.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Deeper Darkness",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "darkness"
+      ],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "text": "bat fur and a piece of coal",
+          "type": "M"
+        },
+        {
+          "text": "bat fur and a piece of coal",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, M/DF (bat fur and a piece of coal)",
+      "range": "touch",
+      "effects": {
+        "Target": "object touched"
+      },
+      "duration": "10 min./level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Object sheds shadows in 60-ft. radius.",
+      "description": "This spell functions as _darkness_ , except that objects radiate darkness in a 60-foot radius and the light level is lowered by two steps. Bright light becomes dim light and normal light becomes darkness. Areas of dim light and darkness become supernaturally dark. This functions like darkness, but even creatures with darkvision cannot see within the spell's confines. \n\nThis spell does not stack with itself. _Deeper darkness_ can be used to counter or dispel any light spell of equal or lower spell level.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Dimension Door",
+      "school": "conjuration",
+      "subschool": [
+        "teleportation"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        }
+      ],
+      "component_text": "V",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Target": "you and touched objects or other touched willing creatures"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none and Will negates (object)",
+      "spell_resistance": "no and yes (object)",
+      "short_description": "Teleports you a short distance.",
+      "description": "You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired--whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.\n\nIf you arrive in a place that is already occupied by a solid body, you and each creature traveling with you take 1d6 points of damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location.\n\nIf there is no free space within 100 feet, you and each creature traveling with you take an additional 2d6 points of damage and are shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, you and each creature travelling with you take an additional 4d6 points of damage and the spell simply fails.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Dimensional Anchor",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Effect": "ray"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "none",
+      "spell_resistance": "yes (object)",
+      "short_description": "Bars extradimensional movement.",
+      "description": "A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a _dimensional anchor_ include _astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport_ , and similar spell-like abilities. The spell also prevents the use of a _gate_ or _teleportation circle_ for the duration of the spell.\n\nA _dimensional anchor_ does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, _dimensional anchor_ does not prevent summoned creatures from disappearing at the end of a summoning spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Diminish Plants",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "see text",
+      "effects": {
+        "Target or Area": "see text"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Reduces size or blights growth of normal plants.",
+      "description": "This spell has two versions.\n\n_Prune Growth_ : This version of the spell causes normal vegetation within long range (400 feet + 40 feet per level) to shrink to about one-third normal size, becoming untangled and less bushy. The affected vegetation appears to have been carefully pruned and trimmed. This version of _diminish plants_ automatically dispels any spells or effects that enhance plants, such as _entangle, plant growth_ , and _wall of thorns_.\n\nAt your option, the area can be a 100-foot-radius circle, a 150-foot-radius semicircle, or a 200-foot-radius quarter-circle. You may also designate portions of the area that are not affected.\n\n_Stunt Growth_ : This version of the spell targets all normal plants within a range of 1/2 mile, reducing their potential productivity over the course of the following year to half normal. \n\nThis spell has no effect on plant creatures.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Discern Lies",
+      "school": "divination",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 4
+        },
+        {
+          "class": "Oracle",
+          "level": 4
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Targets": "one creature/level, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "concentration, up to 1 round/level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "no",
+      "short_description": "Reveals deliberate falsehoods.",
+      "description": "Each round, you concentrate on one target, who must be within range. You know if the target deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying. The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.\n\nEach round, you may concentrate on a different target.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Dispel Magic",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Target or Area": "one spellcaster, creature, or object"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Cancels one magical spell or effect.",
+      "description": "You can use _dispel magic_ to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by _dispel magic_. _Dispel magic_ can dispel (but not counter) spell-like effects just as it does spells. The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect is already over before the _dispel magic_ can take effect. \n\nYou choose to use _dispel magic_ in one of two ways: a targeted dispel or a counterspell.\n\n_Targeted Dispel_ : One object, creature, or spell is the target of the _dispel magic_ spell. You make one dispel check (1d20 + your caster level) and compare that to the spell with highest caster level (DC = 11 + the spell's caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell.\n\nFor example, a 7th-level caster casts _dispel magic_ , targeting a creature affected by _stoneskin_ (caster level 12th) and _fly_ (caster level 6th). The caster level check results in a 19. This check is not high enough to end the _stoneskin_ (which would have required a 23 or higher), but it is high enough to end the _fly_ (which only required a 17). Had the dispel check resulted in a 23 or higher, the _stoneskin_ would have been dispelled, leaving the _fly_ intact. Had the dispel check been a 16 or less, no spells would have been affected.\n\nYou can also use a targeted dispel to specifically end one spell affecting the target or one spell affecting an area (such as a _wall of fire_). You must name the specific spell effect to be targeted in this way. If your caster level check is equal to or higher than the DC of that spell, it ends. No other spells or effects on the target are dispelled if your check is not high enough to end the targeted effect.\n\nIf you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by _summon monster_), you make a dispel check to end the spell that conjured the object or creature.\n\nIf the object that you target is a magic item, you make a dispel check against the item's caster level (DC = 11 + the item's caster level). If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional opening (such as a _bag of holding_) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.\n\nYou automatically succeed on your dispel check against any spell that you cast yourself.\n\n_Counterspell_ : When _dispel magic_ is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, _dispel magic_ may not work; you must make a dispel check to counter the other spellcaster's spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Displacement",
+      "school": "illusion",
+      "subschool": [
+        "glamer"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "text": "a small loop of leather",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, M (a small loop of leather)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Attacks miss subject 50% of the time.",
+      "description": "The subject of this spell appears to be about 2 feet away from its true location. The creature benefits from a 50% miss chance as if it had total concealment. Unlike actual total concealment, _displacement_ does not prevent enemies from targeting the creature normally. _True seeing_ reveals its true location and negates the miss chance.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Dominate Animal",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one animal"
+      },
+      "duration": "1 round/level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "yes",
+      "short_description": "One animal obeys your silent mental commands and orders.",
+      "description": "This spell allows you to enchant the targeted animal and direct it with simple commands such as \"Attack,\" \"Run,\" and \"Fetch.\" Suicidal or self-destructive commands (including an order to attack a creature two or more size categories larger than the dominated animal) are simply ignored.\n\n_Dominate animal_ establishes a mental link between you and the subject creature. The animal can be directed by silent mental command as long as it remains in range. You need not see the creature to control it. You do not receive direct sensory input from the creature, but you know what it is experiencing. Because you are directing the animal with your own intelligence, it may be able to undertake actions normally beyond its own comprehension. You need not concentrate exclusively on controlling the creature unless you are trying to direct it to do something it normally couldn't do. Changing your instructions or giving a dominated creature a new command is the equivalent of redirecting a spell, so it is a move action.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Enlarge Person, Mass",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "powdered iron",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (powdered iron)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "One humanoid creature/level, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "yes",
+      "short_description": "1 humanoid creature/level doubles in size.",
+      "description": "This spell functions like _enlarge person_ , except that it affects multiple creatures.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Explosive Runes",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "force"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "one touched object weighing no more than 10 lbs."
+      },
+      "duration": "permanent until discharged (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "yes",
+      "short_description": "Deals 6d6 damage when read.",
+      "description": "You trace mystic runes upon a book, map, scroll, or similar object bearing written information. The _explosive runes_ detonate when read, dealing 6d6 points of force damage. Anyone next to the _explosive runes_ (close enough to read them) takes the full damage with no saving throw; any other creature within 10 feet of the _explosive runes_ is entitled to a Reflex save for half damage. The object on which the _explosive runes_ were written also takes full damage (no saving throw).\n\nYou and any characters you specifically instruct can read the protected writing without triggering the _explosive runes_. Likewise, you can remove the _explosive runes_ whenever desired. Another creature can remove them with a successful _dispel magic_ or _erase_ spell, but attempting to dispel or erase the _explosive runes_ and failing to do so triggers the explosion.\n\nMagic traps such as _explosive runes_ are hard to detect and disable. A character with the trapfinding class feature (only) can use Disable Device to thwart _explosive runes_. The DC to find magic traps using Perception and to disable them is 25 + spell level, or 28 for _explosive runes_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Fear",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "emotion",
+        "fear",
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 4
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 4
+        },
+        {
+          "class": "Shaman",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "the heart of a hen or a white feather",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (the heart of a hen or a white feather)",
+      "range": "30 ft.",
+      "effects": {
+        "Area": "cone-shaped burst"
+      },
+      "duration": "1 round/level or 1 round; see text",
+      "saving_throw": "Will partial",
+      "spell_resistance": "yes",
+      "short_description": "Subjects within cone flee for 1 round/level.",
+      "description": "An invisible cone of terror causes each living creature in the area to become panicked unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. If the Will save succeeds, the creature is shaken for 1 round.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Fire Shield",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "fire",
+        "cold"
+      ],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 4
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "phosphorus for the warm shield; a firefly or glowworm for the chill shield",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (phosphorus for the warm shield; a firefly or glowworm for the chill shield)",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Creatures attacking you take fire damage; you're protected from heat or cold.",
+      "description": "This spell wreathes you in flame and causes damage to each creature that attacks you in melee. The flames also protect you from either cold-based or fire-based attacks, depending on if you choose cool or warm flames for your _fire shield_.\n\nAny creature striking you with its body or a handheld weapon deals normal damage, but at the same time the attacker takes 1d6 points of damage + 1 point per caster level (maximum +15). This damage is either cold damage (if you choose a _chill shield_) or fire damage (if you choose a _warm shield_). If the attacker has spell resistance, it applies to this effect. Creatures wielding melee weapons with reach are not subject to this damage if they attack you.\n\nWhen casting this spell, you appear to immolate yourself, but the flames are thin and wispy, increasing the light level within 10 feet by one step, up to normal light. The color of the flames is blue or green if the _chill shield_ is cast, violet or red if the _warm shield_ is employed. The special powers of each version are as follows.\n\n_Chill Shield_ : The flames are cool to the touch. You take only half damage from fire-based attacks. If such an attack allows a Reflex save for half damage, you take no damage on a successful saving throw.\n\n_Warm Shield_ : The flames are warm to the touch. You take only half damage from cold-based attacks. If such an attack allows a Reflex save for half damage, you take no damage on a successful saving throw.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Fireball",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "fire"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a ball of bat guano and sulfur",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a ball of bat guano and sulfur)",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Area": "20-ft.-radius spread"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Reflex half",
+      "spell_resistance": "yes",
+      "short_description": "1d6 fire damage per level, 20-ft. radius.",
+      "description": "A _fireball_ spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area. Unattended objects also take this damage. The explosion creates almost no pressure.\n\nYou point your finger and determine the range (distance and height) at which the _fireball_ is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the _fireball_ at that point. An early impact results in an early detonation. If you attempt to send the bead through a narrow passage, such as through an arrow slit, you must \"hit\" the opening with a ranged touch attack, or else the bead strikes the barrier and detonates prematurely.\n\nThe _fireball_ sets fire to combustibles and damages objects in the area. It can melt metals with low melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an interposing barrier shatters or breaks through it, the _fireball_ may continue beyond the barrier if the area permits; otherwise it stops at the barrier just as any other spell effect does.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Flame Arrow",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [
+        "fire"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a drop of oil and a small piece of flint",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a drop of oil and a small piece of flint)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "fifty projectiles, all of which must be together at the time of casting"
+      },
+      "duration": "10 min./level",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Arrows deal +1d6 fire damage.",
+      "description": "This spell allows you to turn ammunition (such as arrows, crossbow bolts, shuriken, and sling stones) into fiery projectiles. Each piece of ammunition deals an extra 1d6 points of fire damage to any target it hits. A flaming projectile can easily ignite a flammable object or structure, but it won't ignite a creature it strikes.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Fly",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a wing feather",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, F (a wing feather)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Subject flies at a speed of 60 ft.",
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load). It can ascend at half speed and descend at double speed, and its maneuverability is good. Using a _fly_ spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a _fly_ spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus on Fly skill checks equal to 1/2 your caster level.\n\nShould the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 60 feet per round for 1d6 rounds. If it reaches the ground in that amount of time, it lands safely. If not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, the subject also descends safely in this way if the _fly_ spell is dispelled, but not if it is negated by an _antimagic field_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Gaseous Form",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "S"
+        },
+        {
+          "text": "a bit of gauze and a wisp of smoke",
+          "type": "M"
+        },
+        {
+          "text": "a bit of gauze and a wisp of smoke",
+          "type": "DF"
+        }
+      ],
+      "component_text": "S, M/DF (a bit of gauze and a wisp of smoke)",
+      "range": "touch",
+      "effects": {
+        "Target": "willing corporeal creature touched"
+      },
+      "duration": "2 min./level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Become insubstantial and fly slowly.",
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subject may have prepared using the feats Silent Spell, Still Spell, and Eschew Materials. The subject also loses supernatural abilities while in gaseous form. If it has a touch spell ready to use, that spell is discharged harmlessly when the _gaseous form_ spell takes effect.\n\nA gaseous creature can't run, but it can fly at a speed of 10 feet and automatically succeeds on all Fly skill checks. It can pass through small holes or narrow openings, even mere cracks, with all it was wearing or holding in its hands, as long as the spell persists. The creature is subject to the effects of wind, and it can't enter water or other liquid. It also can't manipulate objects or activate items, even those carried along with its gaseous form. Continuously active items remain active, though in some cases their effects may be moot.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Geas, Lesser",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "curse",
+        "language-dependent",
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        }
+      ],
+      "component_text": "V",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one living creature with 7 HD or less"
+      },
+      "duration": "1 day/level or until discharged (D)",
+      "saving_throw": "Will negates",
+      "spell_resistance": "yes",
+      "short_description": "Commands subject of 7 HD or less.",
+      "description": "A _lesser geas_ places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by you. The creature must have 7 or fewer HD and be able to understand you. While a _geas_ cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.\n\nThe _geased_ creature must follow the given instructions until the _geas_ is completed, no matter how long it takes.\n\nIf the instructions involve some open-ended task that the recipient cannot complete through his own actions, the spell remains in effect for a maximum of 1 day per caster level. A clever recipient can subvert some instructions.\n\nIf the subject is prevented from obeying the _lesser geas_ for 24 hours, it takes a -2 penalty to each of its ability scores. Each day, another -2 penalty accumulates, up to a total of -8\\. No ability score can be reduced to less than 1 by this effect. The ability score penalties are removed 24 hours after the subject resumes obeying the _lesser geas_.\n\nA _lesser geas_ (and all ability score penalties) can be ended by _break enchantment_ , _limited wish_ , _remove curse_ , _miracle_ , or _wish_. _Dispel magic_ does not affect a _lesser geas_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Glibness",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "S",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "10 min./level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "You gain +20 bonus on Bluff checks, and your lies can escape magical discernment.",
+      "description": "Your speech becomes fluent and more believable, causing those who hear you to believe every word you say. You gain a +20 bonus on Bluff checks made to convince another of the truth of your words. This bonus doesn't apply to other uses of the Bluff skill, such as feinting in combat, creating a diversion to hide, or communicating a hidden message via innuendo.  \n  \nIf a magical effect is used against you that would detect your lies or force you to speak the truth, the user of the effect must succeed on a caster level check (1d20 + caster level) against a DC of 15 + your caster level to succeed. Failure means the effect does not detect your lies or force you to speak only the truth.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Glyph Of Warding",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "powdered diamond worth 200 gp",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (powdered diamond worth 200 gp)",
+      "range": "touch",
+      "effects": {
+        "Target or Area": "object touched or up to 5 sq. ft./level"
+      },
+      "duration": "permanent until discharged (D)",
+      "saving_throw": "see text",
+      "spell_resistance": "no (object) and yes; see text",
+      "short_description": "Inscription harms those who pass it.",
+      "description": "This powerful inscription harms those who enter, pass, or open the warded area or object. A _glyph of warding_ can guard a bridge or passage, ward a portal, trap a chest or box, and so on.\n\nYou set all of the conditions of the ward. Typically, any creature entering the warded area or opening the warded object without speaking a password (which you set when casting the spell) is subject to the magic it stores. Alternatively or in addition to a password trigger, glyphs can be set according to physical characteristics (such as height or weight) or creature type, subtype, or kind. Glyphs can also be set with respect to good, evil, law, or chaos, or to pass those of your religion. They cannot be set according to class, HD, or level. Glyphs respond to invisible creatures normally but are not triggered by those who travel past them ethereally. Multiple glyphs cannot be cast on the same area. However, if a cabinet has three different drawers, each can be separately warded.\n\nWhen casting the spell, you weave a tracery of faintly glowing lines around the warding sigil. A glyph can be placed to conform to any shape up to the limitations of your total square footage. When the spell is completed, the glyph and tracery become nearly invisible.\n\nGlyphs cannot be affected or bypassed by such means as physical or magical probing, though they can be dispelled. _Mislead_ , _polymorph_ , and _nondetection_(and similar magical effects) can fool a glyph, though nonmagical disguises and the like can't. _Read magic_ allows you to identify a _glyph of warding_ with a DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and allows you to know the basic nature of the glyph (version, type of damage caused, what spell is stored).\n\n_Note_ Magic traps such as _glyph of warding_ are hard to detect and disable. While any character can use Perception to find a glyph, only a character with the trapfinding class feature can use Disable Device to disarm it.\n\nDepending on the version selected, a glyph either blasts the intruder or activates a spell.\n\n_Blast Glyph_ A _blast glyph_ deals 1d8 points of damage per two caster levels (maximum 5d8) to the intruder and to all within 5 feet of him or her. This damage is acid, cold, fire, electricity, or sonic (caster's choice, made at time of casting). Each creature affected can attempt a Reflex save to take half damage. Spell resistance applies against this effect.\n\n_Spell Glyph_ You can store any harmful spell of 3rd level or lower that you know. All level-dependent features of the spell are based on your caster level at the time of casting the glyph _._ If the spell has a target, it targets the intruder. If the spell has an area or an amorphous effect, the area or effect is centered on the intruder. If the spell summons creatures, they appear as close as possible to the intruder and attack. Saving throws and spell resistance operate as normal, except that the DC is based on the level of the spell stored in the glyph.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Good Hope",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "emotion",
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Targets": "one living creature/level, no two of which may be more than 30 ft. apart"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Subjects gain +2 on attack rolls, damage rolls, saves, and checks.",
+      "description": "This spell instills powerful hope in the subjects. Each affected creature gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.\n\n_Good hope_ counters and dispels _crushing despair_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Halt Undead",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a pinch of sulfur and powdered garlic",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a pinch of sulfur and powdered garlic)",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Targets": "up to three undead creatures, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "1 round/level",
+      "saving_throw": "Will negates (see text)",
+      "spell_resistance": "yes",
+      "short_description": "Immobilizes undead for 1 round/level.",
+      "description": "This spell renders as many as three undead creatures immobile. A nonintelligent undead creature gets no saving throw; an intelligent undead creature does. If the spell is successful, it renders the undead creature immobile for the duration of the spell (similar to the effect of _hold person_ on a living creature). The effect is broken if the _halted_ creatures are attacked or take damage.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Heal Mount",
+      "school": "conjuration",
+      "subschool": [
+        "healing"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Paladin",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "your mount touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "As heal on horse or other special mount.",
+      "description": "This spell functions like _heal_ , but it affects only the paladin's special mount (typically a horse).",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Helping Hand",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "5 miles",
+      "effects": {
+        "Effect": "ghostly hand"
+      },
+      "duration": "1 hour/level",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Ghostly hand leads subject to you.",
+      "description": "You create the ghostly image of a hand, which you can send to find a creature within 5 miles. The hand then beckons to that creature and leads it to you if the creature is willing to follow.\n\nWhen the spell is cast, you specify a person (or any creature) by physical description, which can include race, gender, and appearance but not ambiguous factors such as level, alignment, or class. When the description is done, the hand streaks off in search of a subject that fits the description. The amount of time it takes to find the subject depends on how far away he is.\n\nOnce the hand locates the subject, it beckons the creature to follow it. If the subject does so, the hand points in your direction, indicating the most direct, feasible route. The hand hovers 10 feet in front of the subject, moving before it at a speed of as much as 240 feet per round. Once the hand leads the subject back to you, it disappears.  \n  \nThe subject is not compelled to follow the hand or act in any particular way toward you. If the subject chooses not to follow, the hand continues to beckon for the duration of the spell, then disappears. If the spell expires while the subject is en route to you, the hand disappears; the subject must then rely on its own devices to locate you.\n\nIf more than one subject in a 5-mile radius meets the description, the hand locates the closest creature. If that creature refuses to follow the hand, the hand does not seek out a second subject.\n\nIf, at the end of 4 hours of searching, the hand has found no subject that matches the description within 5 miles, it returns to you, displays an outstretched palm (indicating that no such creature was found), and disappears.\n\nThe ghostly hand has no physical form. It is invisible to anyone except you and a potential subject. It cannot engage in combat or execute any other task aside from locating a subject and leading it back to you. The hand can't pass through solid objects but can ooze through small cracks and slits. The hand cannot travel more than 5 miles from the spot it appeared when you cast the spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Illusory Script",
+      "school": "illusion",
+      "subschool": [
+        "phantasm"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 minute per page",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "lead-based ink worth 50 gp",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (lead-based ink worth 50 gp)",
+      "range": "touch",
+      "effects": {
+        "Target": "one touched object weighing no more than 10 lbs."
+      },
+      "duration": "one day/level (D)",
+      "saving_throw": "Will negates; see text",
+      "spell_resistance": "yes",
+      "short_description": "Only select creatures can read text.",
+      "description": "You write instructions or other information on parchment, paper, or any suitable writing material. The _illusory script_ appears to be some form of foreign or magical writing. Only the person (or people) designated by you at the time of the casting can read the writing; it's unintelligible to any other character __.\n\nAny unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a _suggestion_ implanted in the script by you at the time the _illusory script_ spell was cast. The _suggestion_ lasts only 30 minutes. Typical _suggestions_ include \"Close the book and leave,\" \"Forget the existence of this note,\" and so forth. If successfully dispelled by _dispel magic_ , the _illusory script_ and its secret message disappear. The hidden message can be read by a combination of the _true seeing_ spell with the _read magic_ or _comprehend languages_ spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Inflict Serious Wounds",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": null,
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Will half",
+      "spell_resistance": "yes",
+      "short_description": "Touch attack, 3d8 damage +1/level (max +15).",
+      "description": "This spell functions like _inflict light wounds_ , except that you deal 3d8 points of damage + 1 point per caster level (maximum +15).",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Invisibility Purge",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Dispels invisibility within 5 ft./level.",
+      "description": "You surround yourself with a sphere of power with a radius of 5 feet per caster level that negates all forms of invisibility.\n\nAnything invisible becomes visible while in the area.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Invisibility Sphere",
+      "school": "illusion",
+      "subschool": [
+        "glamer"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": null,
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "M"
+        }
+      ],
+      "component_text": ": V, S, M",
+      "range": null,
+      "effects": {
+        "Area": "10-ft.-radius emanation around the creature"
+      },
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Makes everyone within 10 ft. invisible.",
+      "description": "This spell functions like _invisibility_ , except that this spell confers invisibility upon all creatures within 10 feet of the recipient at the time the spell is cast. The center of the effect is mobile with the recipient.\n\nThose affected by this spell can see each other and themselves as if unaffected by the spell. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible. Affected creatures (other than the recipient) who attack negate the invisibility only for themselves. If the spell recipient attacks, the _invisibility sphere_ ends.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Invisibility, Greater",
+      "school": "illusion",
+      "subschool": [
+        "glamer"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 4
+        },
+        {
+          "class": "Antipaladin",
+          "level": 4
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": ": V, S",
+      "range": "personal or touch",
+      "effects": {
+        "Target": "you or creature touched"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless) or yes (harmless, object)",
+      "short_description": "As invisibility, but subject can attack and stay invisible.",
+      "description": "This spell functions like _invisibility_ , except that it doesn't end if the subject attacks.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Keen Edge",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Targets": "one weapon or 50 projectiles, all of which must be together at the time of casting"
+      },
+      "duration": "10 min./level",
+      "saving_throw": "Will negates (harmless, object)",
+      "spell_resistance": "yes (harmless, object)",
+      "short_description": "Doubles normal weapon's threat range.",
+      "description": "This spell makes a weapon magically keen, improving its ability to deal telling blows. This transmutation doubles the threat range of the weapon. A threat range of 20 becomes 19-20, a threat range of 19-20 becomes 17-20, and a threat range of 18-20 becomes 15-20\\. The spell can be cast only on piercing or slashing weapons. If cast on arrows or crossbow bolts, the _keen edge_ on a particular projectile ends after one use, whether or not the missile strikes its intended target. Treat shuriken as arrows, rather than as thrown weapons, for the purpose of this spell.\n\nMultiple effects that increase a weapon's threat range (such as the _keen_ special weapon property and the Improved Critical feat) don't stack. You can't cast this spell on a natural weapon, such as a claw.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Lightning Bolt",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "electricity"
+      ],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "fur and a glass rod",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (fur and a glass rod)",
+      "range": "120 ft.",
+      "effects": {
+        "Area": "120-ft. line"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Reflex half",
+      "spell_resistance": "yes",
+      "short_description": "Electricity deals 1d6/level damage.",
+      "description": "You release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.\n\nThe _lightning bolt_ sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Locate Creature",
+      "school": "divination",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": null,
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "fur from a bloodhound",
+          "type": "M"
+        }
+      ],
+      "component_text": ": V, S, M (fur from a bloodhound)",
+      "range": null,
+      "effects": {},
+      "duration": "10 min./level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Indicates direction to familiar creature.",
+      "description": "This spell functions like _locate object_ , except this spell locates a known creature. You slowly turn and sense when you are facing in the direction of the creature to be located, provided it is within range. You also know in which direction the creature is moving, if any.\n\nThe spell can locate a creature of a specific kind or a specific creature known to you. It cannot find a creature of a certain type. To find a kind of creature, you must have seen such a creature up close (within 30 feet) at least once.\n\nRunning water blocks the spell. It cannot detect objects. It can be fooled by _mislead_ , _nondetection_ , and _polymorph_ spells.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Magic Circle Against Chaos",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "lawful"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": null,
+      "effects": {},
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "As protection spells, but 10-ft. radius and 10 min./level.",
+      "description": "This spell functions like _magic circle against evil_ , except that it is similar to _protection from chaos_ instead of _protection from evil_ , and it can imprison a nonlawful called creature.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Magic Circle Against Evil",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "good"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a 3-ft.-diameter circle of powdered silver",
+          "type": "M"
+        },
+        {
+          "text": "a 3-ft.-diameter circle of powdered silver",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (a 3-ft.-diameter circle of powdered silver)",
+      "range": "touch",
+      "effects": {
+        "Area": "10-ft.-radius emanation from touched creature"
+      },
+      "duration": "10 min./level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "no; see text",
+      "short_description": "As protection spells, but 10-ft. radius and 10 min./level.",
+      "description": "All creatures within the area gain the effects of a _protection from evil_ spell, and evil summoned creatures cannot enter the area either. Creatures in the area, or who later enter the area, receive only one attempt to suppress effects that are controlling them. If successful, such effects are suppressed as long as they remain in the area. Creatures that leave the area and come back are not protected. You must overcome a creature's spell resistance in order to keep it at bay (as in the third function of _protection from evil_), but the deflection and resistance bonuses and the protection from mental control apply regardless of enemies' spell resistance.\n\nThis spell has an alternative version that you may choose when casting it. A _magic circle against evil_ can be focused inward rather than outward. When focused inward, the spell binds a nongood called creature for a maximum of 24 hours per caster level, provided that you cast the spell that calls the creature within 1 round of casting the _magic circle_. The creature cannot cross the circle's boundaries. If a creature too large to fit into the spell's area is the subject of the spell, the spell acts as a normal _protection from evil_ spell for that creature only.\n\nThis spell is not cumulative with _protection from evil_ and vice versa.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Magic Circle Against Good",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "evil"
+      ],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": null,
+      "effects": {},
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "As protection spells, but 10-ft. radius and 10 min./level.",
+      "description": "This spell functions like _magic circle against evil_ , except that it is similar to _protection from good_ instead of _protection from evil_ , and it can imprison a nonevil called creature.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Magic Circle Against Law",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "chaotic"
+      ],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": null,
+      "effects": {},
+      "duration": null,
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "As protection spells, but 10-ft. radius and 10 min./level.",
+      "description": "This spell functions like _magic circle against evil_ , except that it is similar to _protection from law_ instead of _protection from evil_ , and it can imprison a nonchaotic called creature.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Magic Fang, Greater",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one living creature"
+      },
+      "duration": "1 hour/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "One natural weapon gets + 1/four levels (max. +5).",
+      "description": "This spell functions like _magic fang_ , except that the enhancement bonus on attack and damage rolls is +1 per four caster levels (maximum +5). This bonus does not allow a natural weapon or unarmed strike to bypass damage reduction aside from magic.\n\nAlternatively, you may imbue all of the creature's natural weapons with a +1 enhancement bonus (regardless of your caster level).\n\n_Greater magic fang_ can be made permanent with a _permanency_ spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Magic Vestment",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "touch",
+      "effects": {
+        "Target": "armor or shield touched"
+      },
+      "duration": "1 hour/level",
+      "saving_throw": "Will negates (harmless, object)",
+      "spell_resistance": "yes (harmless, object)",
+      "short_description": "Armor or shield gains +1 enhancement per four levels.",
+      "description": "You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).\n\nAn outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Magic Weapon, Greater",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 4
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "powdered lime and carbon",
+          "type": "M"
+        },
+        {
+          "text": "powdered lime and carbon",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (powdered lime and carbon)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one weapon or 50 projectiles (all of which must be together at the time of casting)"
+      },
+      "duration": "1 hour/level",
+      "saving_throw": "Will negates (harmless, object)",
+      "spell_resistance": "yes (harmless, object)",
+      "short_description": "Weapon gains +1 bonus/four levels (max +5).",
+      "description": "This spell functions like _magic weapon_ , except that it gives a weapon an enhancement bonus on attack and damage rolls of +1 per four caster levels (maximum +5). This bonus does not allow a weapon to bypass damage reduction aside from magic.\n\nAlternatively, you can affect as many as 50 arrows, bolts, or bullets. The projectiles must be of the same kind, and they have to be together (in the same quiver or other container). Projectiles, but not thrown weapons, lose their transmutation after they are used. Treat shuriken as projectiles, rather than as thrown weapons, for the purpose of this spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Major Image",
+      "school": "illusion",
+      "subschool": [
+        "figment"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": null,
+      "components": [],
+      "component_text": null,
+      "range": null,
+      "effects": {},
+      "duration": "Concentration + 3 rounds",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "As silent image, plus sound, smell and thermal effects.",
+      "description": "This spell functions like _silent image_ , except that sound, smell, and thermal illusions are included in the spell effect. While concentrating, you can move the image within the range.   \n  \nThe image disappears when struck by an opponent unless you cause the illusion to react appropriately.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Meld Into Stone",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [
+        "earth"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "personal",
+      "effects": {
+        "Target": "you"
+      },
+      "duration": "10 min./level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "You and your gear merge with stone.",
+      "description": "_Meld into stone_ enables you to meld your body and possessions into a single block of stone. The stone must be large enough to accommodate your body in all three dimensions. When the casting is complete, you and not more than 100 pounds of nonliving gear merge with the stone. If either condition is violated, the spell fails and is wasted.\n\nWhile in the stone, you remain in contact, however tenuous, with the face of the stone through which you melded. You remain aware of the passage of time and can cast spells on yourself while hiding in the stone. Nothing that goes on outside the stone can be seen, but you can still hear what happens around you. Minor physical damage to the stone does not harm you, but its partial destruction (to the extent that you no longer fit within it) expels you and deals you 5d6 points of damage. The stone's complete destruction expels you and slays you instantly unless you make a DC 18 Fortitude save. Even if you make your save, you still take 5d6 points of damage.\n\nAny time before the duration expires, you can step out of the stone through the surface that you entered. If the spell's duration expires or the effect is dispelled before you voluntarily exit the stone, you are violently expelled and take 5d6 points of damage.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Minor Creation",
+      "school": "conjuration",
+      "subschool": [
+        "creation"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 4
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 minute",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a tiny piece of matter of the same sort of item you plan to create with minor creation",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a tiny piece of matter of the same sort of item you plan to create with minor creation)",
+      "range": "0 ft.",
+      "effects": {
+        "Effect": "unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level"
+      },
+      "duration": "1 hour/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Creates one cloth or wood object.",
+      "description": "You create a nonmagical, unattended object of nonliving vegetable matter. The volume of the item created cannot exceed 1 cubic foot per caster level. You must succeed on an appropriate Craft skill check to make a complex item.\n\nAttempting to use any created object as a material component causes the spell to fail.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Neutralize Poison",
+      "school": "conjuration",
+      "subschool": [
+        "healing"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Alchemist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 4
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 4
+        },
+        {
+          "class": "Oracle",
+          "level": 4
+        },
+        {
+          "class": "Paladin",
+          "level": 4
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "charcoal",
+          "type": "M"
+        },
+        {
+          "text": "charcoal",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (charcoal)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature or object of up to 1 cu. ft./level touched"
+      },
+      "duration": "instantaneous or 10 min./level; see text",
+      "saving_throw": "Will negates (harmless, object)",
+      "spell_resistance": "yes (harmless, object)",
+      "short_description": "Immunizes subject against poison, detoxifies venom in or on subject.",
+      "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own.\n\nThis spell can instead neutralize the poison in a poisonous creature or object for 10 minutes per level, at the caster's option. If cast on a creature, the creature receives a Will save to negate the effect.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Nondetection",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "diamond dust worth 50 gp",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (diamond dust worth 50 gp)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature or object touched"
+      },
+      "duration": "1 hour/level",
+      "saving_throw": "Will negates (harmless, object)",
+      "spell_resistance": "yes (harmless, object)",
+      "short_description": "Hides subject from divination, scrying.",
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as _clairaudience/clairvoyance, locate object_ , and _detect_ spells. _Nondetection_ also prevents location by such magic items as _crystal ball_ s. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast _nondetection_. If you cast _nondetection_ on yourself or on an item currently in your possession, the DC is 15 + your caster level.\n\nIf cast on a creature, _nondetection_ wards the creature's gear as well as the creature itself.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Plant Growth",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "see text",
+      "effects": {
+        "Target or Area": "see text"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Grows vegetation, improves crops.",
+      "description": "_Plant growth_ has different effects depending on the version chosen.\n\n_Overgrowth_ : This effect causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines, and so on) within long range (400 feet + 40 feet per caster level) to become thick and overgrown. The plants entwine to form a thicket or jungle that creatures must hack or force a way through. Speed drops to 5 feet, or 10 feet for Large or larger creatures. The area must have brush and trees in it for this spell to take effect.\n\n_Enrichment_ : This effect targets plants within a range of a half-mile, raising their potential productivity over the course of the next year to one-third above normal.\n\n_Plant growth_ counters _diminish plants_.\n\nThis spell has no effect on plant creatures.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Poison",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "poison"
+      ],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 4
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 4
+        },
+        {
+          "class": "Shaman",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "touch",
+      "effects": {
+        "Target": "living creature touched"
+      },
+      "duration": "instantaneous; see text",
+      "saving_throw": "Fortitude negates; see text",
+      "spell_resistance": "yes",
+      "short_description": "Touch deals 1d3 Con damage 1/round for 6 rounds.",
+      "description": "Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. This poison deals 1d3 Constitution damage per round for 6 rounds. Poisoned creatures can make a Fortitude save each round to negate the damage and end the affliction.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Prayer",
+      "school": "enchantment",
+      "subschool": [
+        "compulsion"
+      ],
+      "descriptor": [
+        "mind-affecting"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "40 ft.",
+      "effects": {
+        "Area": "all allies and foes within a 40-ft.-radius burst centered on you"
+      },
+      "duration": "1 round/level",
+      "saving_throw": "none",
+      "spell_resistance": "yes",
+      "short_description": "Allies get +1 bonus on most rolls, enemies -1 penalty.",
+      "description": "You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You and each of your allies gain a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks, while each of your foes takes a -1 penalty on such rolls.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Quench",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Target or Area": "one 20-ft. cube/level (S) or one fire-based magic item"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none or Will negates (object)",
+      "spell_resistance": "no or yes (object)",
+      "short_description": "Extinguishes fires.",
+      "description": "_Quench_ is often used to put out forest fires and other conflagrations. It extinguishes all nonmagical fires in its area. The spell also dispels any fire spells in its area, though you must succeed on a dispel check (1d20 +1 per caster level, maximum +15) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell.\n\nEach creature with the fire subtype within the area of a _quench_ spell takes 1d6 points of damage per caster level (maximum 10d6, no save allowed).\n\nAlternatively, you can target the spell on a single magic item that creates or controls flame __. The item loses all its fire-based magical abilities for 1d4 hours unless it succeeds on a Will save. Artifacts are immune to this effect.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Ray Of Exhaustion",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a drop of sweat",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a drop of sweat)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "ray"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Fortitude partial; see text",
+      "spell_resistance": "yes",
+      "short_description": "Ray makes subject exhausted.",
+      "description": "A black ray projects from your pointing finger. You must succeed on a ranged touch attack with the ray to strike a target.\n\nThe subject is immediately exhausted for the spell's duration. A successful Fortitude save means the creature is only fatigued.\n\nA character that is already fatigued instead becomes exhausted.\n\nThis spell has no effect on a creature that is already exhausted. Unlike normal exhaustion or fatigue, the effect ends as soon as the spell's duration expires.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Reduce Person, Mass",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a pinch of powdered iron",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a pinch of powdered iron)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one humanoid creature/level, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "yes",
+      "short_description": "As reduce person, but affects 1 humanoid creature/level.",
+      "description": "This spell functions like _reduce person_ , except that it affects multiple creatures.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Remove Blindness/Deafness",
+      "school": "conjuration",
+      "subschool": [
+        "healing"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Fortitude negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Cures normal or magical blindness or deafness.",
+      "description": "_Remove blindness/deafness_ cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.\n\n_Remove blindness/deafness_ counters and dispels _blindness/deafness_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Remove Curse",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Paladin",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "creature or object touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Frees object or person from curse.",
+      "description": "_Remove curse_ can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target. Success means that the curse is removed. _Remove curse_ does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\n\n_Remove curse_ counters and dispels _bestow curse_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Remove Disease",
+      "school": "conjuration",
+      "subschool": [
+        "healing"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 3
+        },
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Fortitude negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Cures all diseases affecting subject.",
+      "description": "_Remove disease_ can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\n\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Repel Vermin",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [
+        "pain"
+      ],
+      "levels": [
+        {
+          "class": "Bard",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 4
+        },
+        {
+          "class": "Druid",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 4
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "10 ft.",
+      "effects": {
+        "Area": "10-ft.-radius emanation centered on you"
+      },
+      "duration": "10 min./level (D)",
+      "saving_throw": "none or Will negates; see text",
+      "spell_resistance": "yes",
+      "short_description": "Insects, spiders, and other vermin stay 10 ft. away.",
+      "description": "An invisible barrier holds back vermin. A vermin with HD of less than one-third your level cannot penetrate the barrier.\n\nA vermin with HD of one-third your level or more can penetrate the barrier if it succeeds on a Will save. Even so, crossing the barrier deals the vermin 2d6 points of damage, and pressing against the barrier causes pain, which deters most vermin.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Scrying",
+      "school": "divination",
+      "subschool": [
+        "scrying"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 5
+        },
+        {
+          "class": "Druid",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 4
+        },
+        {
+          "class": "Oracle",
+          "level": 5
+        },
+        {
+          "class": "Shaman",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 5
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 hour",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a pool of water",
+          "type": "M"
+        },
+        {
+          "text": "a pool of water",
+          "type": "DF"
+        },
+        {
+          "text": "a silver mirror worth 1,000 gp",
+          "type": "F"
+        }
+      ],
+      "component_text": "V, S, M/DF (a pool of water), F (a silver mirror worth 1,000 gp)",
+      "range": "see text",
+      "effects": {
+        "Effect": "magical sensor"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "yes",
+      "short_description": "Spies on subject from a distance.",
+      "description": "You can observe a creature at any distance. If the subject succeeds on a Will save, the spell fails. The difficulty of the save depends on how well your knowledge of the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.\n\n##### Knowledge\n\nKnowledge| Will Save Modifier  \n---|---  \nNone*| +10  \nSecondhand (you have heard of the subject)| +5  \nFirsthand (you have met the subject)| +0  \nFamiliar (you know the subject well)| -5  \nConnection| Will Save Modifier  \nLikeness or picture| -2  \nPossession or garment| -4  \nBody part, lock of hair, bit of nail, etc.| -10  \n*You must have some sort of connection (see below) to a creature of which you have no knowledge.\n\nIf the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.  \n  \nAs with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: _detect chaos_ , _detect evil_ , _detect good_ , _detect law_ , _detect magic_ , and _message_.\n\nIf the save succeeds, you can't attempt to scry on that subject again for at least 24 hours.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Sculpt Sound",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Targets": "one creature or object/level, no two of which can be more than 30 ft. apart"
+      },
+      "duration": "1 hour/level (D)",
+      "saving_throw": "Will negates (object)",
+      "spell_resistance": "yes (object)",
+      "short_description": "Creates new sounds or changes existing ones into new sounds.",
+      "description": "You can change the sounds that creatures or objects make. You can create sounds where none exist, deaden sounds, or transform sounds into other sounds. All affected creatures or objects must be transmuted in the same way. Once the transmutation is made, you cannot change it. You can change the qualities of sounds but cannot create words with which you are unfamiliar yourself. \n\nA spellcaster whose voice is changed dramatically is unable to cast spells with verbal components.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Searing Light",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Effect": "ray"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "yes",
+      "short_description": "Ray deals 1d8/two levels damage (more against undead).",
+      "description": "Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged touch attack to strike your target. A creature struck by this ray of light takes 1d8 points of damage per two caster levels (maximum 5d8). An undead creature takes 1d6 points of damage per caster level (maximum 10d6), and an undead creature particularly vulnerable to bright light takes 1d8 points of damage per caster level (maximum 10d8). A construct or inanimate object takes only 1d6 points of damage per two caster levels (maximum 5d6).",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Secret Page",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "powdered herring scales and a vial of will-o'-wisp essence",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (powdered herring scales and a vial of will-o'-wisp essence)",
+      "range": "touch",
+      "effects": {
+        "Target": "page touched, up to 3 sq. ft. in size"
+      },
+      "duration": "permanent",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Changes one page to hide its real content.",
+      "description": "_Secret page_ alters the contents of a page so that it appears to be something entirely different. The text of a spell can be changed to show another spell of equal or lower level known by the caster. This spell cannot be used to change a spell contained on a scroll, but it can be used to hide a scroll. _Explosive runes_ or _sepia snake sigil_ can be cast upon the _secret page_.\n\nA _comprehend languages_ spell alone cannot reveal a _secret page_ 's contents. You are able to reveal the original contents by speaking a special word. You can then peruse the actual page and return it to its _secret page_ form at will. You can also remove the spell by double repetition of the special word. A _detect magic_ spell reveals dim magic on the page in question but does not reveal its true contents. _True seeing_ reveals the presence of the hidden material but does not reveal the contents unless cast in combination with _comprehend languages_. A _secret page_ spell can be dispelled, and the hidden writings can be destroyed by means of an _erase_ spell.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Sepia Snake Sigil",
+      "school": "conjuration",
+      "subschool": [
+        "creation"
+      ],
+      "descriptor": [
+        "force"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "powdered amber worth 500 gp and a snake scale",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (powdered amber worth 500 gp and a snake scale)",
+      "range": "touch",
+      "effects": {
+        "Target": "one touched book or written work"
+      },
+      "duration": "permanent or until discharged; until released or 1d4 days + 1 day/level; see text",
+      "saving_throw": "Reflex negates",
+      "spell_resistance": "no",
+      "short_description": "Creates text symbol that immobilizes reader.",
+      "description": "You cause a small symbol to appear in the text of a written work. The text containing the symbol must be at least 25 words long. When anyone reads the text containing the symbol, the _sepia snake sigil_ springs into being, transforming into a large sepia serpent that strikes at the reader, provided there is line of effect between the symbol and the reader.\n\nSimply seeing the enspelled text is not sufficient to trigger the spell; the subject must deliberately read it. The target is entitled to a save to evade the snake's strike. If it succeeds, the _sepia snake_ dissipates in a flash of brown light accompanied by a puff of dun-colored smoke and a loud noise. If the target fails its save, it is engulfed in a shimmering amber field of force and immobilized until released, either at your command or when 1d4 days + 1 day per caster level have elapsed.\n\nWhile trapped in the amber field of force, the subject does not age, breathe, grow hungry, sleep, or regain spells. It is preserved in a state of suspended animation, unaware of its surroundings. It can be damaged by outside forces (and perhaps even killed), since the field provides no protection against physical injury. However, a dying subject does not lose hit points or become stable until the spell ends.\n\nThe hidden sigil cannot be detected by normal observation, and _detect magic_ reveals only that the entire text is magical.\n\nA _dispel magic_ can remove the sigil. An _erase_ spell destroys the entire page of text.\n\n_Sepia snake sigil_ can be cast in combination with other spells that hide or garble text, such as _secret page_.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Shrink Item",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "one touched object of up to 2 cu. ft./level"
+      },
+      "duration": "1 day/level; see text",
+      "saving_throw": "Will negates (object)",
+      "spell_resistance": "yes (object)",
+      "short_description": "Object shrinks to one-sixteenth size.",
+      "description": "You are able to shrink one nonmagical item (if it is within the size limit) to 1/16 of its normal size in each dimension (to about 1/4,000 the original volume and mass). This change effectively reduces the object's size by four categories. Optionally, you can also change its now shrunken composition to a clothlike one. Objects changed by a _shrink item_ spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original caster. Even a burning fire and its fuel can be shrunk by this spell. Restoring the shrunken object to its normal size and composition ends the spell.\n\n_Shrink item_ can be made permanent with a _permanency_ spell, in which case the affected object can be shrunk and expanded an indefinite number of times, but only by the original caster.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Sleet Storm",
+      "school": "conjuration",
+      "subschool": [
+        "creation"
+      ],
+      "descriptor": [
+        "cold"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "dust and water",
+          "type": "M"
+        },
+        {
+          "text": "dust and water",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (dust and water)",
+      "range": "long (400 ft. + 40 ft./level)",
+      "effects": {
+        "Area": "cylinder (40-ft. radius, 20 ft. high)"
+      },
+      "duration": "1 round/level",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Hampers vision and movement.",
+      "description": "Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the Acrobatics skill for details).\n\nThe sleet extinguishes torches and small fires.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Speak With Dead",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [
+        "language-dependent"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Inquisitor",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        }
+      ],
+      "casting_time": "10 minutes",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "10 ft.",
+      "effects": {
+        "Target": "one dead creature"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Will negates; see text",
+      "spell_resistance": "no",
+      "short_description": "Corpse answers one question/two levels.",
+      "description": "You grant the semblance of life to a corpse, allowing it to answer questions. You may ask one question per two caster levels. The corpse's knowledge is limited to what it knew during life, including the languages it spoke. Answers are brief, cryptic, or repetitive, especially if the creature would have opposed you in life.\n\nIf the dead creature's alignment was different from yours, the corpse gets a Will save to resist the spell as if it were alive. If successful, the corpse can refuse to answer your questions or attempt to deceive you, using Bluff. The soul can only speak about what it knew in life. It cannot answer any questions that pertain to events that occurred after its death.\n\nIf the corpse has been subject to _speak with dead_ within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all. This spell does not affect a corpse that has been turned into an undead creature.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Stinking Cloud",
+      "school": "conjuration",
+      "subschool": [
+        "creation"
+      ],
+      "descriptor": [
+        "poison"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a rotten egg or cabbage leaves",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a rotten egg or cabbage leaves)",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Effect": "cloud spreads in 20-ft. radius, 20 ft. high"
+      },
+      "duration": "1 round/level",
+      "saving_throw": "Fortitude negates; see text",
+      "spell_resistance": "no",
+      "short_description": "Nauseating vapors, 1 round/level.",
+      "description": "_Stinking cloud_ creates a bank of fog like that created by _fog cloud_ , except that the vapors are nauseating. Living creatures in the cloud become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. (Roll separately for each nauseated character.) Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn. This is a poison effect.\n\n_Stinking cloud_ can be made permanent with a _permanency_ spell. A permanent _stinking cloud_ dispersed by wind reforms in 10 minutes.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Stone Shape",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [
+        "earth"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "soft clay",
+          "type": "M"
+        },
+        {
+          "text": "soft clay",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (soft clay)",
+      "range": "touch",
+      "effects": {
+        "Target": "stone or stone object touched, up to 10 cu. ft. + 1 cu. ft./level"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Sculpts stone into any shape.",
+      "description": "You can form an existing piece of stone into any shape that suits your purpose. While it's possible to make crude coffers, doors, and so forth with _stone shape_ , fine detail isn't possible. There is a 30% chance that any shape including moving parts simply doesn't work.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Stoneskin",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 4
+        },
+        {
+          "class": "Alchemist",
+          "level": 4
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Druid",
+          "level": 5
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 5
+        },
+        {
+          "class": "Hunter",
+          "level": 5
+        },
+        {
+          "class": "Inquisitor",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Shaman",
+          "level": 5
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "granite and diamond dust worth 250 gp",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (granite and diamond dust worth 250 gp)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "10 min./level or until discharged",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Grants DR 10/adamantine.",
+      "description": "The warded creature gains resistance to blows, cuts, stabs, and slashes. The subject gains DR 10/adamantine. It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Summon Monster III",
+      "school": "conjuration",
+      "subschool": [
+        "summoning"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a tiny bag and a small candle",
+          "type": "F"
+        },
+        {
+          "text": "a tiny bag and a small candle",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, F/DF (a tiny bag and a small candle)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "one summoned creature"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "(Evil creatures only.) Summons extraplanar creature to fight for you.",
+      "description": "This spell functions like _summon monster I_ , except that you can summon one creature from the 3rd-level list, 1d3 creatures of the same kind from the 2nd-level list, or 1d4+1 creatures of the same kind from the 1st-level list.\n\n##### Table: Summon Monster III\n\n1st Level| Subtype  \n---|---  \nDire rat*| --  \nDog*| --  \nDolphin*| --  \nEagle*| --  \nFire beetle*| --  \nPoisonous frog*| --  \nPony (horse)*| --  \nViper (snake)*| --  \n2nd Level| Subtype  \nAnt, giant (worker)*| --  \nElemental (Small)| Elemental  \nGiant centipede*| --  \nGiant frog*| --  \nGiant spider*| --  \nGoblin dog*| --  \nHorse*| --  \nHyena*| --  \nLemure (devil)| Evil, Lawful  \nOctopus*| --  \nSquid*| --  \nWolf*| --  \n3rd Level| Subtype  \nAnt, giant (soldier)*| --  \nApe*| --  \nAurochs (herd animal)*| --  \nBoar*| --  \nCheetah*| --  \nConstrictor snake*| --  \nCrocodile*| --  \nDire bat*| --  \nDretch (demon)| Chaotic, Evil  \nElectric eel*| --  \nLantern archon| Good, Lawful  \nLeopard (cat)*| --  \nMonitor lizard*| --  \nShark*| --  \nWolverine*| --  \n* This creature is summoned with the celestial template if you are good, or the fiendish template if you are evil; you may choose either if you are neutral.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Summon Monster IV",
+      "school": "conjuration",
+      "subschool": [
+        "summoning"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 4
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bard",
+          "level": 4
+        },
+        {
+          "class": "Cleric",
+          "level": 4
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 4
+        },
+        {
+          "class": "Oracle",
+          "level": 4
+        },
+        {
+          "class": "Skald",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 4
+        },
+        {
+          "class": "Witch",
+          "level": 4
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a tiny bag and a small candle",
+          "type": "F"
+        },
+        {
+          "text": "a tiny bag and a small candle",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, F/DF (a tiny bag and a small candle)",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "one summoned creature"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Summons elemental creature to fight for you.",
+      "description": "This spell functions like _summon monster I_ except that you can summon one creature from the 4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.\n\n##### Table: Summon Monster IV\n\n1st Level| Subtype  \n---|---  \nDire rat*| --  \nDog*| --  \nDolphin*| --  \nEagle*| --  \nFire beetle*| --  \nPoisonous frog*| --  \nPony (horse)*| --  \nViper (snake)*| --  \n2nd Level| Subtype  \nAnt, giant (worker)*| --  \nElemental (Small)| Elemental  \nGiant centipede*| --  \nGiant frog*| --  \nGiant spider*| --  \nGoblin dog*| --  \nHorse*| --  \nHyena*| --  \nLemure (devil)| Evil, Lawful  \nOctopus*| --  \nSquid*| --  \nWolf*| --  \n3rd Level| Subtype  \nAnt, giant (soldier)*| --  \nApe*| --  \nAurochs (herd animal)*| --  \nBoar*| --  \nCheetah*| --  \nConstrictor snake*| --  \nCrocodile*| --  \nDire bat*| --  \nDretch (demon)| Chaotic, Evil  \nElectric eel*| --  \nLantern archon| Good, Lawful  \nLeopard (cat)*| --  \nMonitor lizard*| --  \nShark*| --  \nWolverine*| --  \n4th Level| Subtype  \nAnt, giant (drone)*| --  \nBison (herd animal)*| --  \nDeinonychus (dinosaur)*| --  \nDire ape*| --  \nDire boar*| --  \nDire wolf*| --  \nElemental (Medium)| Elemental  \nGiant scorpion*| --  \nGiant wasp*| --  \nGrizzly bear*| --  \nHell hound| Evil, Lawful  \nHound archon| Good, Lawful  \nLion*| --  \nMephit (any)| Elemental  \nPteranodon (dinosaur)*| --  \nRhinoceros*| --  \n* This creature is summoned with the celestial template if you are good, or the fiendish template if you are evil; you may choose either if you are neutral.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Summon Nature's Ally III",
+      "school": "conjuration",
+      "subschool": [
+        "summoning"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Effect": "one summoned creature"
+      },
+      "duration": "1 round/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Summons creature to fight for you.",
+      "description": "This spell functions like _summon nature's ally I_ , except that you can summon one 3rd-level creature, 1d3 2nd-level creatures of the same kind, or 1d4+1 1st-level creatures of the same kind.\n\n##### Table: Summon Nature's Ally III\n\n1st Level| Subtype  \n---|---  \nDire rat| --  \nDog| --  \nDolphin| --  \nEagle| --  \nGiant centipede| --  \nFire beetle| --  \nMite (gremlin)| --  \nPoisonous frog| --  \nPony (horse)| --  \nStirge| --  \nViper (snake)| --  \n2nd Level| Subtype  \nAnt, giant (worker)| --  \nElemental (Small)| Elemental  \nGiant frog| --  \nGiant spider| --  \nGoblin Dog| --  \nHorse| --  \nHyena| --  \nOctopus| --  \nSquid| --  \nWolf| --  \n3rd Level| Subtype  \nAnt, giant (soldier)| --  \nApe| --  \nAurochs (herd animal)| --  \nBoar| --  \nCheetah| --  \nConstrictor snake| --  \nCrocodile| --  \nDire bat| --  \nElectric Eel| --  \nGiant crab| --  \nLeopard (cat)| --  \nMonitor lizard| --  \nShark| --  \nWolverine| --",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Tiny Hut",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "force"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bard",
+          "level": 3
+        },
+        {
+          "class": "Skald",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a small crystal bead",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a small crystal bead)",
+      "range": "20 ft.",
+      "effects": {
+        "Effect": "20-ft.-radius sphere centered on your location"
+      },
+      "duration": "2 hours/level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Creates shelter for 10 creatures.",
+      "description": "You create an unmoving, opaque sphere of force of any color you desire around yourself. Half the sphere projects above the ground, and the lower hemisphere passes through the ground. As many as nine other Medium creatures can fit into the field with you; they can freely pass into and out of the hut without harming it. However, if you remove yourself from the hut, the spell ends.\n\nThe temperature inside the hut is 70° F if the exterior temperature is between 0° and 100° F. An exterior temperature below 0° or above 100° lowers or raises the interior temperature on a 1-degree-for-1 basis. The hut also provides protection against the elements, such as rain, dust, and sandstorms. The hut withstands any wind of less than hurricane force, but a hurricane (75+ mph wind speed) or greater force destroys it.\n\nThe interior of the hut is a hemisphere. You can illuminate it dimly upon command or extinguish the light as desired. Although the force field is opaque from the outside, it is transparent from within. Missiles, weapons, and most spell effects can pass through the hut without affecting it, although the occupants cannot be seen from outside the hut (they have total concealment).",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Vampiric Touch",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Antipaladin",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "touch",
+      "effects": {
+        "Target": "living creature touched"
+      },
+      "duration": "instantaneous/1 hour; see text",
+      "saving_throw": "none",
+      "spell_resistance": "yes",
+      "short_description": "Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.",
+      "description": "You must succeed on a melee touch attack. Your touch deals 1d6 points of damage per two caster levels (maximum 10d6). You gain temporary hit points equal to the damage you deal. You can't gain more than the subject's current hit points + the subject's Constitution score (which is enough to kill the subject). The temporary hit points disappear 1 hour later.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Wall Of Fire",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "fire"
+      ],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 4
+        },
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Druid",
+          "level": 5
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 4
+        },
+        {
+          "class": "Hunter",
+          "level": 5
+        },
+        {
+          "class": "Hunter",
+          "level": 5
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Shaman",
+          "level": 5
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a piece of phosphor",
+          "type": "M"
+        },
+        {
+          "text": "a piece of phosphor",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (a piece of phosphor)",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Effect": "opaque sheet of flame up to 20 ft. long/level or a ring of fire with a radius of up to 5 ft./two levels; either form 20 ft. high"
+      },
+      "duration": "concentration + 1 round/level",
+      "saving_throw": "none",
+      "spell_resistance": "yes",
+      "short_description": "2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.",
+      "description": "An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those past 10 feet but within 20 feet. The wall deals this damage when it appears, and to all creatures in the area on your turn each round. In addition, the wall deals 2d6 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. The wall deals double damage to undead creatures.\n\nIf you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points or more of cold damage in 1 round, that length goes away. (Do not divide cold damage by 2, as normal for objects.)\n\n_Wall of fire_ can be made permanent with a _permanency_ spell. A permanent _wall of fire_ that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Wall Of Ice",
+      "school": "evocation",
+      "subschool": [],
+      "descriptor": [
+        "cold"
+      ],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 4
+        },
+        {
+          "class": "Bloodrager",
+          "level": 4
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 4
+        },
+        {
+          "class": "Magus",
+          "level": 4
+        },
+        {
+          "class": "Sorcerer",
+          "level": 4
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 4
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a piece of quartz or rock crystal",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a piece of quartz or rock crystal)",
+      "range": "medium (100 ft. + 10 ft./level)",
+      "effects": {
+        "Effect": "anchored plane of ice, up to one 10-ft. square/level, or hemisphere of ice with a radius of up to 3 ft. + 1 ft./level"
+      },
+      "duration": "1 min./level",
+      "saving_throw": "Reflex negates; see text",
+      "spell_resistance": "yes",
+      "short_description": "Ice plane creates wall or hemisphere creates dome.",
+      "description": "This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected. A _wall of ice_ cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created. Any creature adjacent to the wall when it is created may attempt a Reflex save to disrupt the wall as it is being formed. A successful save indicates that the spell automatically fails. Fire can melt a _wall of ice_ , and it deals full damage to the wall (instead of the normal half damage taken by objects). Suddenly melting a _wall of ice_ creates a great cloud of steamy fog that lasts for 10 minutes.\n\n_Ice Plane_ : A sheet of strong, hard ice appears. The wall is 1 inch thick per caster level. It covers up to a 10-foot-square area per caster level (so a 10th-level wizard can create a _wall of ice_ 100 feet long and 10 feet high, a wall 50 feet long and 20 feet high, or any other combination of length and height that does not exceed 1,000 square feet). The plane can be oriented in any fashion as long as it is anchored. A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides.\n\nEach 10-foot square of wall has 3 hit points per inch of thickness. Creatures can hit the wall automatically. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 15 + caster level.\n\nEven when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes 1d6 points of cold damage + 1 point per caster level (no save).\n\n_Hemisphere_ : The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level. The _hemisphere_ is as hard to break through as the _ice plane_ form, but it does not deal damage to those who go through a breach.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Water Breathing",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Alchemist",
+          "level": 3
+        },
+        {
+          "class": "Arcanist",
+          "level": 3
+        },
+        {
+          "class": "Bloodrager",
+          "level": 3
+        },
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Druid",
+          "level": 3
+        },
+        {
+          "class": "Elementalist Wizard",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Magus",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Sorcerer",
+          "level": 3
+        },
+        {
+          "class": "Summoner",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Wizard",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "short reed or piece of straw",
+          "type": "M"
+        },
+        {
+          "text": "short reed or piece of straw",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (short reed or piece of straw)",
+      "range": "touch",
+      "effects": {
+        "Target": "living creatures touched"
+      },
+      "duration": "2 hours/level; see text",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Subjects can breathe underwater.",
+      "description": "The transmuted creatures can breathe water freely. Divide the duration evenly among all the creatures you touch. The spell does not make creatures unable to breathe air.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    },
+    {
+      "name": "Water Walk",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [
+        "water"
+      ],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 3
+        },
+        {
+          "class": "Hunter",
+          "level": 3
+        },
+        {
+          "class": "Oracle",
+          "level": 3
+        },
+        {
+          "class": "Ranger",
+          "level": 3
+        },
+        {
+          "class": "Shaman",
+          "level": 3
+        },
+        {
+          "class": "Warpriest",
+          "level": 3
+        },
+        {
+          "class": "Witch",
+          "level": 3
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "touch",
+      "effects": {
+        "Targets": "one touched creature/level"
+      },
+      "duration": "10 min./level (D)",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Subject treads on water as if solid.",
+      "description": "The transmuted creatures can tread on any liquid as if it were firm ground. Mud, oil, snow, quicksand, running water, ice, and even lava can be traversed easily, since the subjects' feet hover an inch or two above the surface. Creatures crossing molten lava still take damage from the heat because they are near it. The subjects can walk, run, charge, or otherwise move across the surface as if it were normal ground.\n\nIf the spell is cast underwater (or while the subjects are partially or wholly submerged in whatever liquid they are in), the subjects are borne toward the surface at 60 feet per round until they can stand on it.",
+      "source": "Core Rulebook",
+      "min_level": 3
+    }
+  ]
+}

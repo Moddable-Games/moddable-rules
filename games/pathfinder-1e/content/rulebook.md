@@ -78,8 +78,13 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Gamemastering](rules/gamemastering/) — Designing encounters, awarding experience, placing treasure, creating NPCs, beyond 20th level
 - [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison
 - [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
+- [Wealth, Money & Special Materials](rules/equipment-wealth-materials/) — Currency, trade goods, special materials (adamantine, mithral, etc.)
+- [Weapons](rules/equipment-weapons/) — All 81 core weapons: categories, proficiency, weapon qualities, descriptions
+- [Armor](rules/equipment-armor/) — All 21 armors and shields: AC bonuses, penalties, donning/removing, materials
+- [Adventuring Gear, Substances & Tools](rules/equipment-goods-1/) — Adventuring gear, alchemical items, special substances, tools, kits
+- [Clothing, Mounts & Services](rules/equipment-goods-2/) — Clothing, food and lodging, mounts, transport, and hirelings
 
-All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete, and all 623 core spells are now available as structured data below. Only Equipment remains before the Core Rulebook is fully covered (Bestiary excluded — tracked separately).
+All 11 core classes, all 175 core feats, the full Combat, Magic, Additional Rules, Environment, Gamemastering, Glossary, and Equipment chapters are now complete. All 623 core spells and 237 equipment items are available as structured data below. Only the Bestiary remains (tracked separately).
 
 </div>
 
@@ -96,19 +101,32 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
 - [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
 
-**Spells** — all 623 core spells, split by spell level into 34 part files:
+**Spells** — all 623 core spells, one file per spell level:
 
-- Level 0 (cantrips/orisons): [part 1](../../games/pathfinder-1e/data/spells/level-0-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-0-part2.json)
-- Level 1: [part 1](../../games/pathfinder-1e/data/spells/level-1-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-1-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-1-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-1-part4.json)
-- Level 2: [part 1](../../games/pathfinder-1e/data/spells/level-2-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-2-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-2-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-2-part4.json), [part 5](../../games/pathfinder-1e/data/spells/level-2-part5.json)
-- Level 3: [part 1](../../games/pathfinder-1e/data/spells/level-3-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-3-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-3-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-3-part4.json), [part 5](../../games/pathfinder-1e/data/spells/level-3-part5.json)
-- Level 4: [part 1](../../games/pathfinder-1e/data/spells/level-4-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-4-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-4-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-4-part4.json)
-- Level 5: [part 1](../../games/pathfinder-1e/data/spells/level-5-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-5-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-5-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-5-part4.json)
-- Level 6: [part 1](../../games/pathfinder-1e/data/spells/level-6-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-6-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-6-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-6-part4.json)
-- Level 7: [part 1](../../games/pathfinder-1e/data/spells/level-7-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-7-part2.json)
-- Level 8: [part 1](../../games/pathfinder-1e/data/spells/level-8-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-8-part2.json)
-- Level 9: [part 1](../../games/pathfinder-1e/data/spells/level-9-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-9-part2.json)
+- [Level 0 — Cantrips/Orisons (28)](../../games/pathfinder-1e/data/spells/level-0.json)
+- [Level 1 (89)](../../games/pathfinder-1e/data/spells/level-1.json)
+- [Level 2 (90)](../../games/pathfinder-1e/data/spells/level-2.json)
+- [Level 3 (90)](../../games/pathfinder-1e/data/spells/level-3.json)
+- [Level 4 (77)](../../games/pathfinder-1e/data/spells/level-4.json)
+- [Level 5 (68)](../../games/pathfinder-1e/data/spells/level-5.json)
+- [Level 6 (74)](../../games/pathfinder-1e/data/spells/level-6.json)
+- [Level 7 (40)](../../games/pathfinder-1e/data/spells/level-7.json)
+- [Level 8 (38)](../../games/pathfinder-1e/data/spells/level-8.json)
+- [Level 9 (29)](../../games/pathfinder-1e/data/spells/level-9.json)
 
-Equipment and monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
+**Equipment** — 237 items across 10 category files:
+
+- [weapon.json (81)](../../games/pathfinder-1e/data/equipment/weapon.json)
+- [armor.json (21)](../../games/pathfinder-1e/data/equipment/armor.json)
+- [adventuring-gear.json (64)](../../games/pathfinder-1e/data/equipment/adventuring-gear.json)
+- [special-substance.json (10)](../../games/pathfinder-1e/data/equipment/special-substance.json)
+- [tool.json (16)](../../games/pathfinder-1e/data/equipment/tool.json)
+- [clothing.json (12)](../../games/pathfinder-1e/data/equipment/clothing.json)
+- [food-lodging.json (2)](../../games/pathfinder-1e/data/equipment/food-lodging.json)
+- [mount.json (13)](../../games/pathfinder-1e/data/equipment/mount.json)
+- [transport.json (11)](../../games/pathfinder-1e/data/equipment/transport.json)
+- [service.json (7)](../../games/pathfinder-1e/data/equipment/service.json)
+
+Monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
 
 </div>
