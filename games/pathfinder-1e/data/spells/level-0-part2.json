@@ -1,0 +1,329 @@
+{
+  "source": "Pathfinder Roleplaying Game Core Rulebook, Paizo Publishing, LLC. Content sourced via the PSRD-Data project (devonjones/PSRD-Data). Licence: OGL 1.0a. Note: some spells' class/level listings (in 'levels') include classes introduced in later Paizo sourcebooks (e.g. Magus, Bloodrager, Arcanist) not covered by this Core-Rulebook-only ingestion -- the spell text itself is Core Rulebook content. 'min_level' is the lowest level at which any class gains access to this spell, used to bucket it into this file.",
+  "level": 0,
+  "part": 2,
+  "total_parts": 2,
+  "count": 5,
+  "spells": [
+    {
+      "name": "Resistance",
+      "school": "abjuration",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Arcanist",
+          "level": 0
+        },
+        {
+          "class": "Bard",
+          "level": 0
+        },
+        {
+          "class": "Cleric",
+          "level": 0
+        },
+        {
+          "class": "Druid",
+          "level": 0
+        },
+        {
+          "class": "Hunter",
+          "level": 0
+        },
+        {
+          "class": "Hunter",
+          "level": 0
+        },
+        {
+          "class": "Hunter",
+          "level": 0
+        },
+        {
+          "class": "Inquisitor",
+          "level": 0
+        },
+        {
+          "class": "Oracle",
+          "level": 0
+        },
+        {
+          "class": "Paladin",
+          "level": 1
+        },
+        {
+          "class": "Skald",
+          "level": 0
+        },
+        {
+          "class": "Sorcerer",
+          "level": 0
+        },
+        {
+          "class": "Summoner",
+          "level": 0
+        },
+        {
+          "class": "Warpriest",
+          "level": 0
+        },
+        {
+          "class": "Witch",
+          "level": 0
+        },
+        {
+          "class": "Wizard",
+          "level": 0
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a miniature cloak",
+          "type": "M"
+        },
+        {
+          "text": "a miniature cloak",
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, M/DF (a miniature cloak)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "1 minute",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Subject gains +1 on saving throws.",
+      "description": "You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.\n\n_Resistance_ can be made permanent with a _permanency_ spell.",
+      "source": "Core Rulebook",
+      "min_level": 0
+    },
+    {
+      "name": "Stabilize",
+      "school": "conjuration",
+      "subschool": [
+        "healing"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 0
+        },
+        {
+          "class": "Cleric",
+          "level": 0
+        },
+        {
+          "class": "Druid",
+          "level": 0
+        },
+        {
+          "class": "Hunter",
+          "level": 0
+        },
+        {
+          "class": "Inquisitor",
+          "level": 0
+        },
+        {
+          "class": "Oracle",
+          "level": 0
+        },
+        {
+          "class": "Warpriest",
+          "level": 0
+        },
+        {
+          "class": "Witch",
+          "level": 0
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "close (25 ft. + 5 ft./2 levels)",
+      "effects": {
+        "Target": "one living creature"
+      },
+      "duration": "instantaneous",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Cause a dying creature to stabilize.",
+      "description": "Upon casting this spell, you target a living creature that has -1 or fewer hit points. That creature is automatically stabilized and does not lose any further hit points. If the creature later takes damage, it continues dying normally.",
+      "source": "Core Rulebook",
+      "min_level": 0
+    },
+    {
+      "name": "Summon Instrument",
+      "school": "conjuration",
+      "subschool": [
+        "summoning"
+      ],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Bard",
+          "level": 0
+        },
+        {
+          "class": "Skald",
+          "level": 0
+        }
+      ],
+      "casting_time": "1 round",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        }
+      ],
+      "component_text": "V, S",
+      "range": "0 ft.",
+      "effects": {
+        "Effect": "one summoned handheld musical instrument"
+      },
+      "duration": "1 min./level (D)",
+      "saving_throw": "none",
+      "spell_resistance": "no",
+      "short_description": "Summons one musical instrument.",
+      "description": "This spell summons one handheld musical instrument of your choice. This instrument appears in your hands or at your feet (your choice). The instrument is typical for its type. Only one instrument appears per casting, and it will play only for you. You can't summon an instrument too large to be held in two hands. The summoned instrument disappears at the end of this spell.",
+      "source": "Core Rulebook",
+      "min_level": 0
+    },
+    {
+      "name": "Touch Of Fatigue",
+      "school": "necromancy",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Adept",
+          "level": 0
+        },
+        {
+          "class": "Arcanist",
+          "level": 0
+        },
+        {
+          "class": "Sorcerer",
+          "level": 0
+        },
+        {
+          "class": "Witch",
+          "level": 0
+        },
+        {
+          "class": "Wizard",
+          "level": 0
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "text": "a drop of sweat",
+          "type": "M"
+        }
+      ],
+      "component_text": "V, S, M (a drop of sweat)",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "1 round/level",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "yes",
+      "short_description": "Touch attack fatigues target.",
+      "description": "You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spell's duration.\n\nThis spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell's duration expires.",
+      "source": "Core Rulebook",
+      "min_level": 0
+    },
+    {
+      "name": "Virtue",
+      "school": "transmutation",
+      "subschool": [],
+      "descriptor": [],
+      "levels": [
+        {
+          "class": "Cleric",
+          "level": 0
+        },
+        {
+          "class": "Druid",
+          "level": 0
+        },
+        {
+          "class": "Hunter",
+          "level": 0
+        },
+        {
+          "class": "Hunter",
+          "level": 0
+        },
+        {
+          "class": "Inquisitor",
+          "level": 0
+        },
+        {
+          "class": "Oracle",
+          "level": 0
+        },
+        {
+          "class": "Paladin",
+          "level": 1
+        },
+        {
+          "class": "Warpriest",
+          "level": 0
+        }
+      ],
+      "casting_time": "1 standard action",
+      "components": [
+        {
+          "type": "V"
+        },
+        {
+          "type": "S"
+        },
+        {
+          "type": "DF"
+        }
+      ],
+      "component_text": "V, S, DF",
+      "range": "touch",
+      "effects": {
+        "Target": "creature touched"
+      },
+      "duration": "1 min.",
+      "saving_throw": "none",
+      "spell_resistance": "yes (harmless)",
+      "short_description": "Subject gains 1 temporary hp.",
+      "description": "With a touch, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point.",
+      "source": "Core Rulebook",
+      "min_level": 0
+    }
+  ]
+}

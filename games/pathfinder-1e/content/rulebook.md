@@ -10,7 +10,7 @@ age: "13+"
 tagline: "Paizo's fork of D&D 3.5, the most complete open ruleset in existence"
 type: "rpg"
 status: "live"
-updated: "2026-07-20"
+updated: "2026-07-21"
 published: true
 variants: false
 theme:
@@ -79,7 +79,7 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 - [Special Abilities](rules/glossary-special-abilities/) — Extraordinary, spell-like, and supernatural abilities; curses, diseases, and poison
 - [Conditions](rules/glossary-conditions/) — The standardized status conditions referenced throughout the rules
 
-All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete. Only Spells and Equipment remain before the Core Rulebook rules are fully covered (Bestiary excluded — tracked separately).
+All 11 core classes, all 175 core feats, and the full Combat, Magic, Additional Rules, Environment, Gamemastering, and Glossary chapters are now complete, and all 623 core spells are now available as structured data below. Only Equipment remains before the Core Rulebook is fully covered (Bestiary excluded — tracked separately).
 
 </div>
 
@@ -96,6 +96,19 @@ Structured JSON, sourced from `devonjones/PSRD-Data` (OGL 1.0a).
 - [conditions.json](../../games/pathfinder-1e/data/conditions.json) — All 34 standardized conditions
 - [feats.json](../../games/pathfinder-1e/data/feats.json) — All 173 core feats (combat, general, metamagic, critical, item creation)
 
-Spells, equipment, and monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
+**Spells** — all 623 core spells, split by spell level into 34 part files:
+
+- Level 0 (cantrips/orisons): [part 1](../../games/pathfinder-1e/data/spells/level-0-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-0-part2.json)
+- Level 1: [part 1](../../games/pathfinder-1e/data/spells/level-1-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-1-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-1-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-1-part4.json)
+- Level 2: [part 1](../../games/pathfinder-1e/data/spells/level-2-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-2-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-2-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-2-part4.json), [part 5](../../games/pathfinder-1e/data/spells/level-2-part5.json)
+- Level 3: [part 1](../../games/pathfinder-1e/data/spells/level-3-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-3-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-3-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-3-part4.json), [part 5](../../games/pathfinder-1e/data/spells/level-3-part5.json)
+- Level 4: [part 1](../../games/pathfinder-1e/data/spells/level-4-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-4-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-4-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-4-part4.json)
+- Level 5: [part 1](../../games/pathfinder-1e/data/spells/level-5-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-5-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-5-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-5-part4.json)
+- Level 6: [part 1](../../games/pathfinder-1e/data/spells/level-6-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-6-part2.json), [part 3](../../games/pathfinder-1e/data/spells/level-6-part3.json), [part 4](../../games/pathfinder-1e/data/spells/level-6-part4.json)
+- Level 7: [part 1](../../games/pathfinder-1e/data/spells/level-7-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-7-part2.json)
+- Level 8: [part 1](../../games/pathfinder-1e/data/spells/level-8-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-8-part2.json)
+- Level 9: [part 1](../../games/pathfinder-1e/data/spells/level-9-part1.json), [part 2](../../games/pathfinder-1e/data/spells/level-9-part2.json)
+
+Equipment and monsters are pending ingestion from PSRD-Data and will be added as each batch completes.
 
 </div>
