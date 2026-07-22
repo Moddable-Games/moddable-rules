@@ -1305,8 +1305,9 @@ function buildBoards() {
     for (const svgFile of svgFiles) {
       const varSlug = svgFile.replace(/-board\.svg$/, '');
       const vm = variantMeta[varSlug] || {};
-      const topo = vm.engine?.topology?.type || familyTopo || 'unknown';
-      const varTitle = vm.title || varSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      const gm = compGames[varSlug];
+      const topo = vm.engine?.topology?.type || gm?.engine?.topology?.type || familyTopo || 'unknown';
+      const varTitle = vm.title || gm?.title || varSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
       let rulesUrl = '';
       if (existsSync(resolve(varDir || '', `${varSlug}.md`))) {
@@ -1329,8 +1330,14 @@ function buildBoards() {
         svgEntry.generator = typeof gen === 'object' ? gen.id : gen;
         if (typeof gen === 'object' && gen.size) svgEntry.generatorSize = gen.size;
       }
+      if (gm) {
+        svgEntry.reason = 'component-game';
+        svgEntry.rulesUrl = `dist/${family}/games/${varSlug}/index.html`;
+        const deckType = rbMeta.engine?.components?.deck?.type || null;
+        if (deckType) svgEntry.deckType = deckType;
+      }
       if (vm.engine?.handicaps) svgEntry.handicaps = vm.engine.handicaps;
-      if (vm.players) svgEntry.players = vm.players;
+      if (vm.players || gm?.players) svgEntry.players = vm.players || gm.players;
       index.push(svgEntry);
     }
 

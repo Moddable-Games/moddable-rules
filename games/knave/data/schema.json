@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Knave Table File",
+  "description": "Schema for Knave procedural table JSON files. Each file groups related tables from one section of the source booklet.",
+  "type": "object",
+  "required": ["name", "game", "licence", "attribution", "tables"],
+  "properties": {
+    "name": { "type": "string", "example": "Knave: Character Traits" },
+    "game": { "type": "string", "const": "knave" },
+    "licence": { "type": "string", "const": "CC BY 4.0" },
+    "attribution": {
+      "type": "string",
+      "example": "Knave, copyright Ben Milton (questingbeast.com / questingblog.com). Licensed under CC BY 4.0."
+    },
+    "usage_note": {
+      "type": "string",
+      "description": "File-level note on roll conventions or source quirks."
+    },
+    "tables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "roll", "entries"],
+        "properties": {
+          "id": { "type": "string", "description": "URL-safe identifier, referenced elsewhere as {id}", "example": "misfortune" },
+          "name": { "type": "string", "description": "Display name for this table" },
+          "roll": { "type": "string", "description": "Die/mechanic used to roll this table, e.g. '1d20', '1d100', '1d20 (roll twice)'" },
+          "usage_note": { "type": "string", "description": "Optional note on how or when to use this table" },
+          "entries": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Either a flat array of result strings (most tables), objects with min/max/result for range tables, or objects with roll/name/effect for the spell list",
+            "items": {
+              "oneOf": [
+                { "type": "string" },
+                {
+                  "type": "object",
+                  "properties": {
+                    "min": { "type": "integer" },
+                    "max": { "type": "integer" },
+                    "result": { "type": "string" },
+                    "roll": { "type": "integer" },
+                    "name": { "type": "string" },
+                    "effect": { "type": "string" }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
