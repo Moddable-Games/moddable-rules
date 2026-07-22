@@ -77,7 +77,7 @@ Dungeon World is a tabletop RPG by Sage LaTorra and Adam Koebel that applies the
 
 **Bestiary**
 
-- [Monsters](rules/monsters/) — Monster tags, making monsters, treasure, the seven monster settings
+- [Monsters](rules/monsters/) — Monster tags, making monsters, treasure, the nine monster settings
 
 **Appendices**
 
@@ -94,6 +94,14 @@ Dungeon World is a tabletop RPG by Sage LaTorra and Adam Koebel that applies the
 Structured JSON, sourced from `Sagelt/Dungeon-World` (CC BY 3.0).
 
 - [classes.json](../../games/dungeon-world/data/classes.json) — The 8 core classes with HP, damage die, and a short summary
-- [monsters.json](../../games/dungeon-world/data/monsters.json) — All core bestiary creatures across the 7 monster settings, with complete stat blocks
+- [cavern-dwellers.json](../../games/dungeon-world/data/cavern-dwellers.json) — Goblins, ankhegs, gargoyles, purple worms, and other cave and tunnel dwellers
+- [lower-depths.json](../../games/dungeon-world/data/lower-depths.json) — Aboleths, dragons, minotaurs, nagas, and the deep-dwelling terrors of ancient ruins
+- [twisted-experiments.json](../../games/dungeon-world/data/twisted-experiments.json) — Chimeras, golems, manticores, owlbears, and other creations of arcane hubris
+- [folk-of-the-realm.json](../../games/dungeon-world/data/folk-of-the-realm.json) — Bandits, knights, nobles, spies, and the ordinary (and not-so-ordinary) people of the world
+- [ravenous-hordes.json](../../games/dungeon-world/data/ravenous-hordes.json) — Formians, gnolls, orcs, and tritons organized for war and conquest
+- [planar-powers.json](../../games/dungeon-world/data/planar-powers.json) — Angels, devils, djinn, and the other creatures that slip through from beyond this world
+- [swamp-denizens.json](../../games/dungeon-world/data/swamp-denizens.json) — Basilisks, hydras, lizardmen, trolls, and the rot and ruin of the fens
+- [undead-legions.json](../../games/dungeon-world/data/undead-legions.json) — Ghosts, liches, vampires, zombies, and the many shapes death's magic takes
+- [dark-woods.json](../../games/dungeon-world/data/dark-woods.json) — Centaurs, dryads, treants, werewolves, and the sylvan monsters of the ancient forest
 
 </div>
