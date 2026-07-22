@@ -1,0 +1,266 @@
+{
+  "name": "Dungeon World",
+  "game": "dungeon-world",
+  "licence": "CC BY 3.0",
+  "attribution": "Sage LaTorra and Adam Koebel",
+  "tables": [
+    {
+      "id": "services",
+      "name": "Services",
+      "entries": [
+        {
+          "name": "A week's stay at a peasant inn",
+          "cost": "14-Charisma coins"
+        },
+        {
+          "name": "A week's stay at a civilized inn",
+          "cost": "30-Charisma coins"
+        },
+        {
+          "name": "A week's stay at the fanciest inn in town",
+          "cost": "43-Charisma coins"
+        },
+        {
+          "name": "A week's unskilled mundane labor",
+          "cost": "10 coins"
+        },
+        {
+          "name": "A month's pay for enlistment in an army",
+          "cost": "30 coins"
+        },
+        {
+          "name": "A custom item from a blacksmith",
+          "cost": "Base Item + 50 coins"
+        },
+        {
+          "name": "A night's \"companionship\"",
+          "cost": "20-Charisma coins"
+        },
+        {
+          "name": "An evening of song and dance",
+          "cost": "18-Charisma coins"
+        },
+        {
+          "name": "Escort for a day along a bandit-infested road",
+          "cost": "20 coins"
+        },
+        {
+          "name": "Escort for a day along a monster-infested road",
+          "cost": "54 coins"
+        },
+        {
+          "name": "A run-of-the-mill killing",
+          "cost": "5 coins"
+        },
+        {
+          "name": "An assassination",
+          "cost": "120 coins"
+        },
+        {
+          "name": "Healing from a chirurgeon",
+          "cost": "5 coins"
+        },
+        {
+          "name": "A month's prayers for the departed",
+          "cost": "1 coin"
+        },
+        {
+          "name": "Repairs to a mundane item",
+          "cost": "25% of the item's cost"
+        }
+      ]
+    },
+    {
+      "id": "meals",
+      "name": "Meals",
+      "entries": [
+        {
+          "name": "A hearty meal for one",
+          "cost": "1 coin"
+        },
+        {
+          "name": "A poor meal for a family",
+          "cost": "1 coin"
+        },
+        {
+          "name": "A feast",
+          "cost": "15 coins per person"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "entries": [
+        {
+          "name": "Cart and Donkey, sworn to carry your burdens",
+          "cost": "50 coins, load 20"
+        },
+        {
+          "name": "Horse",
+          "cost": "75 coins, load 10"
+        },
+        {
+          "name": "Warhorse",
+          "cost": "400 coins, load 12"
+        },
+        {
+          "name": "Wagon",
+          "cost": "150 coins, load 40"
+        },
+        {
+          "name": "Barge",
+          "cost": "50 coins, load 15"
+        },
+        {
+          "name": "River boat",
+          "cost": "150 coins, load 20"
+        },
+        {
+          "name": "Merchant ship",
+          "cost": "5,000 coins, load 200"
+        },
+        {
+          "name": "War ship",
+          "cost": "20,000 coins, load 100"
+        },
+        {
+          "name": "Passage on a safe route",
+          "cost": "1 coin"
+        },
+        {
+          "name": "Passage on a tough route",
+          "cost": "10 coins"
+        },
+        {
+          "name": "Passage on a dangerous route",
+          "cost": "100 coins"
+        }
+      ]
+    },
+    {
+      "id": "land-and-buildings",
+      "name": "Land and Buildings",
+      "entries": [
+        {
+          "name": "A hovel",
+          "cost": "20 coins"
+        },
+        {
+          "name": "A cottage",
+          "cost": "500 coins"
+        },
+        {
+          "name": "A house",
+          "cost": "2,500 coins"
+        },
+        {
+          "name": "A mansion",
+          "cost": "50,000 coins"
+        },
+        {
+          "name": "A keep",
+          "cost": "75,000 coins"
+        },
+        {
+          "name": "A castle",
+          "cost": "250,000 coins"
+        },
+        {
+          "name": "A grand castle",
+          "cost": "1,000,000 coins"
+        },
+        {
+          "name": "A month's upkeep",
+          "cost": "1% of the cost"
+        }
+      ]
+    },
+    {
+      "id": "bribes",
+      "name": "Bribes",
+      "entries": [
+        {
+          "name": "A peasant dowry",
+          "cost": "20-Charisma coins"
+        },
+        {
+          "name": "\"Protection\" for a small business",
+          "cost": "100-Charisma coins"
+        },
+        {
+          "name": "A government bribe",
+          "cost": "50-Charisma coins"
+        },
+        {
+          "name": "A compelling bribe",
+          "cost": "80-Charisma coins"
+        },
+        {
+          "name": "An offer you can't refuse",
+          "cost": "500-Charisma coins"
+        }
+      ]
+    },
+    {
+      "id": "gifts-and-finery",
+      "name": "Gifts and Finery",
+      "entries": [
+        {
+          "name": "A peasant gift",
+          "cost": "1 coin"
+        },
+        {
+          "name": "A fine gift",
+          "cost": "55 coins"
+        },
+        {
+          "name": "A noble gift",
+          "cost": "200 coins"
+        },
+        {
+          "name": "A ring or cameo",
+          "cost": "75 coins"
+        },
+        {
+          "name": "Finery",
+          "cost": "105 coins"
+        },
+        {
+          "name": "A fine tapestry",
+          "cost": "350+ coins"
+        },
+        {
+          "name": "A crown fit for a king",
+          "cost": "5,000 coins"
+        }
+      ]
+    },
+    {
+      "id": "hoards",
+      "name": "Hoards",
+      "entries": [
+        {
+          "name": "A goblin's stash",
+          "cost": "2 coins"
+        },
+        {
+          "name": "A lizardman's trinkets",
+          "cost": "5 coins"
+        },
+        {
+          "name": "A \"priceless\" sword",
+          "cost": "80 coins"
+        },
+        {
+          "name": "An orc warchief's tribute",
+          "cost": "250 coins"
+        },
+        {
+          "name": "A dragon's mound of coins and gems",
+          "cost": "130,000 coins"
+        }
+      ]
+    }
+  ]
+}

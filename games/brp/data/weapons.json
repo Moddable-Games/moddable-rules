@@ -1,0 +1,54 @@
+{
+  "name": "BRP: Weapons",
+  "game": "brp",
+  "licence": "BRP Open Game License, Version 1.0",
+  "attribution": "Basic Roleplaying © copyright 1980–2020 Chaosium Inc. Source: brp.chaosium.com.",
+  "usage_note": "'db' is the attacker's damage bonus (see Character Creation: Derived Characteristics). '½db' means roll the damage bonus and divide by 2, rounding up. Hit Points is how much damage the weapon can take before breaking when used to parry. * Crossbows take a full combat round to reload and can only be fired every other round. ** Pistols and rifles hold 6 shots; laser pistols and rifles hold 20 charges.",
+  "tables": [
+    {
+      "id": "melee-weapons",
+      "name": "Melee Weapons",
+      "roll": "D100 (roll ≤ base chance + skill points to hit)",
+      "entries": [
+        { "name": "Axe, Battle", "skill": "Melee Weapon (Axe)", "base_chance": "15", "damage": "1D8+2+db", "hands": "1H", "hit_points": "15" },
+        { "name": "Axe, Great", "skill": "Melee Weapon (Axe)", "base_chance": "15", "damage": "2D6+2+db", "hands": "2H", "hit_points": "15" },
+        { "name": "Axe, Hand", "skill": "Melee Weapon (Axe)", "base_chance": "15", "damage": "1D6+1+db", "hands": "1H", "hit_points": "12" },
+        { "name": "Brawl", "skill": "Brawl", "base_chance": "25", "damage": "1D3+db", "hands": "1H", "hit_points": "n/a" },
+        { "name": "Club, Heavy", "skill": "Melee Weapon (Club)", "base_chance": "25", "damage": "1D8+db", "hands": "2H", "hit_points": "22" },
+        { "name": "Club, Light", "skill": "Melee Weapon (Club)", "base_chance": "25", "damage": "1D6+db", "hands": "1H", "hit_points": "15" },
+        { "name": "Dagger", "skill": "Melee Weapon (Dagger)", "base_chance": "25", "damage": "1D4+db", "hands": "1H", "hit_points": "15" },
+        { "name": "Halberd", "skill": "Melee Weapon (Polearm)", "base_chance": "15", "damage": "3D6+db", "hands": "2H", "hit_points": "25" },
+        { "name": "Hammer", "skill": "Melee Weapon (Hammer)", "base_chance": "25", "damage": "1D6+db", "hands": "1H", "hit_points": "15" },
+        { "name": "Hammer, Great", "skill": "Melee Weapon (Hammer)", "base_chance": "25", "damage": "1D10+3+db", "hands": "2H", "hit_points": "15" },
+        { "name": "Knife", "skill": "Melee Weapon (Dagger)", "base_chance": "25", "damage": "1D3+1+db", "hands": "1H", "hit_points": "15" },
+        { "name": "Mace, Heavy", "skill": "Melee Weapon (Mace)", "base_chance": "25", "damage": "1D8+2+db", "hands": "2H", "hit_points": "10" },
+        { "name": "Mace, Light", "skill": "Melee Weapon (Mace)", "base_chance": "25", "damage": "1D6+2+db", "hands": "1H", "hit_points": "6" },
+        { "name": "Pike", "skill": "Melee Weapon (Polearm)", "base_chance": "15", "damage": "1D10+2+db", "hands": "2H", "hit_points": "12" },
+        { "name": "Staff, Quarter-", "skill": "Melee Weapon (Staff)", "base_chance": "25", "damage": "1D8+db", "hands": "2H", "hit_points": "8" },
+        { "name": "Spear, Long", "skill": "Melee Weapon (Spear)", "base_chance": "15", "damage": "1D10+db", "hands": "2H", "hit_points": "10" },
+        { "name": "Sword, Broad", "skill": "Melee Weapon (Sword)", "base_chance": "15", "damage": "1D8+1+db", "hands": "1H", "hit_points": "12" },
+        { "name": "Sword, Great", "skill": "Melee Weapon (Sword)", "base_chance": "05", "damage": "2D8+db", "hands": "2H", "hit_points": "12" },
+        { "name": "Sword, Short", "skill": "Melee Weapon (Sword)", "base_chance": "15", "damage": "1D6+1+db", "hands": "1H", "hit_points": "12" }
+      ]
+    },
+    {
+      "id": "missile-weapons",
+      "name": "Missile Weapons",
+      "roll": "D100 (roll ≤ base chance + skill points to hit)",
+      "entries": [
+        { "name": "Axe, Hand (thrown)", "skill": "Missile Weapon (Throwing Axe)", "base_chance": "10", "damage": "1D6+½db", "hands": "1H", "hit_points": "12", "range": "20 meters" },
+        { "name": "Bow, Long", "skill": "Missile Weapon (Bow)", "base_chance": "05", "damage": "1D8+1+½db", "hands": "2H", "hit_points": "10", "range": "90 meters" },
+        { "name": "Crossbow, Heavy*", "skill": "Missile Weapon (Crossbow)", "base_chance": "25", "damage": "2D6+2", "hands": "2H", "hit_points": "18", "range": "55 meters" },
+        { "name": "Crossbow, Light*", "skill": "Missile Weapon (Crossbow)", "base_chance": "25", "damage": "1D6+2", "hands": "2H", "hit_points": "10", "range": "40 meters" },
+        { "name": "Dagger (thrown)", "skill": "Missile Weapon (Throwing Dagger)", "base_chance": "15", "damage": "1D4+½db", "hands": "1H", "hit_points": "15", "range": "10 meters" },
+        { "name": "Knife (thrown)", "skill": "Missile Weapon (Throwing Dagger)", "base_chance": "15", "damage": "1d3+1+½db", "hands": "1H", "hit_points": "10", "range": "10 meters" },
+        { "name": "Pistol**", "skill": "Firearm (Pistol)", "base_chance": "20", "damage": "1D8", "hands": "1H", "hit_points": "8", "range": "20 meters" },
+        { "name": "Pistol, Laser**", "skill": "Energy Weapon (Laser Pistol)", "base_chance": "20", "damage": "1D8", "hands": "1H", "hit_points": "14", "range": "20 meters" },
+        { "name": "Rifle**", "skill": "Firearm (Rifle)", "base_chance": "25", "damage": "2D6", "hands": "2H", "hit_points": "12", "range": "80 meters" },
+        { "name": "Rifle, Laser**", "skill": "Energy Weapon (Laser Rifle)", "base_chance": "15", "damage": "2D8", "hands": "2H", "hit_points": "20", "range": "100 meters" },
+        { "name": "Rock (thrown)", "skill": "Throw", "base_chance": "—", "damage": "1D2+½db", "hands": "1H", "hit_points": "n/a", "range": "20 meters" },
+        { "name": "Sling", "skill": "Missile Weapon (Sling)", "base_chance": "05", "damage": "1D8+½db", "hands": "2H", "hit_points": "2", "range": "80 meters" }
+      ]
+    }
+  ]
+}

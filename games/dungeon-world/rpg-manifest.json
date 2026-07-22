@@ -1,0 +1,211 @@
+{
+  "label": "Dungeon World",
+  "version": "2",
+  "dataPath": "games/dungeon-world/data/",
+  "rulesUrl": "dist/dungeon-world/",
+  "categories": [
+    {
+      "id": "classes",
+      "label": "Classes",
+      "file": "classes.json",
+      "color": "#c0392b",
+      "dataType": "entity",
+      "arrayKey": "classes",
+      "displayField": "name",
+      "searchFields": ["name", "description"],
+      "tag": { "field": "damage" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["HP: {hp} · Damage: {damage}"],
+        "description": "description"
+      },
+      "linkPath": "rules/{linkPath}/"
+    },
+    {
+      "id": "cavern-dwellers",
+      "label": "Cavern Dwellers",
+      "file": "cavern-dwellers.json",
+      "color": "#7f8c8d",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "lower-depths",
+      "label": "The Lower Depths",
+      "file": "lower-depths.json",
+      "color": "#d4ac0d",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "twisted-experiments",
+      "label": "Twisted Experiments",
+      "file": "twisted-experiments.json",
+      "color": "#8e44ad",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "folk-of-the-realm",
+      "label": "Folk of the Realm",
+      "file": "folk-of-the-realm.json",
+      "color": "#2980b9",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "ravenous-hordes",
+      "label": "Ravenous Hordes",
+      "file": "ravenous-hordes.json",
+      "color": "#e67e22",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "planar-powers",
+      "label": "Planar Powers",
+      "file": "planar-powers.json",
+      "color": "#f39c12",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "swamp-denizens",
+      "label": "Swamp Denizens",
+      "file": "swamp-denizens.json",
+      "color": "#27ae60",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "undead-legions",
+      "label": "Undead Legions",
+      "file": "undead-legions.json",
+      "color": "#1a1a2e",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "dark-woods",
+      "label": "The Dark Woods",
+      "file": "dark-woods.json",
+      "color": "#16a085",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "description", "tags"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "instant-npcs",
+      "label": "Instant NPCs",
+      "file": "instant-npcs.json",
+      "color": "#9b59b6",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["name", "entries"],
+      "linkPath": null
+    },
+    {
+      "id": "equipment-tables",
+      "label": "Equipment Tables",
+      "file": "equipment-tables.json",
+      "color": "#e74c3c",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "name",
+      "searchFields": ["name", "entries"],
+      "linkPath": null
+    },
+    {
+      "id": "steading-tags",
+      "label": "Steading Tags",
+      "file": "steading-tags.json",
+      "color": "#1abc9c",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "name",
+      "searchFields": ["name", "entries"],
+      "linkPath": null
+    }
+  ]
+}

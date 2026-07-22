@@ -1,0 +1,94 @@
+{
+  "name": "Cairn: Warden's Guide — Naming Procedures",
+  "game": "cairn",
+  "licence": "CC BY-SA 4.0",
+  "attribution": "Cairn 2nd Edition, copyright Yochai Gal. Licensed under CC BY-SA 4.0. Source: https://github.com/yochaigal/cairn",
+  "usage_note": "Generic naming toolkit for POIs, factions, realms, and forests. Roll on a Formula table to pick a name pattern, then fill in the bracketed slots by rolling on Adjectives/Nouns (d100, via 2d10 — tens then ones) or the specialized Group/Ruler/Forest-Name tables. See the Naming Procedures rules page for the full generation prose, including how to substitute Terrain Synonyms for POI names based on terrain.",
+  "tables": [
+    {
+      "id": "names-formula",
+      "name": "POI Names Formula",
+      "roll": "1d6",
+      "entries": ["(The) [Noun] [POI]", "(The) [Adjective] [POI]", "[POI] of (the) [Noun]", "[Adjective] [POI] of (the) [Noun]", "(The) [Noun] [Adjective] [POI]", "[POI] of (the) [Adjective] [Noun]"]
+    },
+    {
+      "id": "adjectives",
+      "name": "Adjectives",
+      "roll": "1d100",
+      "entries": ["Aging","Amber","Ancient","Angry","Ashen","Bare","Battered","Bitter","Blackened","Blazing","Bleak","Blighted","Blistered","Blistering","Blustery","Brisk","Bright","Broad","Calm","Celestial","Choking","Cold","Colorful","Copper","Cracked","Crimson","Crumbling","Curled","Curling","Curved","Curvy","Dampened","Dark","Dazzling","Dead","Deathly","Diamond","Dismal","Dreary","Empty","Endless","Fierce","Flaming","Flashing","Foggy","Forbidden","Forgotten","Fragile","Frayed","Frozen","Furious","Gaping","Gleaming","Glow","Granite","Grim","Grizzled","Hazy","Heated","Hellish","Hideous","Jagged","Lone","Lonely","Luminous","Lurching","Lustrous","Miserable","Misty","Mournful","Muddy","Narrow","Ominous","Overgrown","Patched","Peeling","Plunging","Ragged","Rotting","Salty","Savage","Shifting","Shimmering","Shining","Shivering","Shrouded","Singed","Sinking","Slaughter","Smoky","Soggy","Sour","Sputtering","Stained","Starved","Stinking","Stuffed","Sunken","Thin","Withered"]
+    },
+    {
+      "id": "nouns",
+      "name": "Nouns",
+      "roll": "1d100",
+      "entries": ["Abyss","Alliance","Amber","Ambition","Apple","Aurora","Bastion","Black","Blight","Blue","Bone","Bright","Chasm","Chip","Copper","Country","Crack","Crimson","Curl","Darkness","Dawn","Dead","Death","Decay","Dent","Desolation","Despair","Devil","Dirt","Doom","Doorway","Echo","Ember","Fate","Fear","Fire","Flame","Folly","Fray","Frost","Fury","Ghost","Giant","Glimmer","God","Gold","Green","Harmony","Harvest","Haunt","Haven","Horror","Iron","Island","Jade","King","Lavender","Life","Light","Marble","Mist","Mold","Moon","Mud","Nightmare","Patch","Peril","Purple","Radiance","Rag","Rain","Rainbow","Red","Refuge","Regret","Rot","Ruin","Shadow","Silver","Skull","Sky","Smoke","Snake","Sorrow","Spark","Stone","Storm","Sun","Tempest","Terror","Thorn","Thunder","Toxic","Tranquil","Troll","Valor","Violet","War","Whisper","Zephyr"]
+    },
+    {
+      "id": "terrain-synonyms",
+      "name": "Terrain Synonyms",
+      "roll": null,
+      "entries": [
+        {"terrain": "Beaches", "synonyms": ["seaside","shore","coast","seaboard","foreshore","marina"]},
+        {"terrain": "Bogs", "synonyms": ["marsh","morass","quad","slough","fens"]},
+        {"terrain": "Canyons", "synonyms": ["ravine","chasm","abyss","gulf","gulch"]},
+        {"terrain": "Caverns", "synonyms": ["grotto","cavity","tunnels","dugout","cave"]},
+        {"terrain": "Cliffs", "synonyms": ["precipice","face","crag","bluff","ridge","escarpment","steep"]},
+        {"terrain": "Desert", "synonyms": ["dunes","sands","vasts","wastes","blight","erg"]},
+        {"terrain": "Farmlands", "synonyms": ["tillage","holding","acreage","steading","grange","plantation"]},
+        {"terrain": "Forest", "synonyms": ["bush","woods","woodland","weald","grove","copse"]},
+        {"terrain": "Grasslands", "synonyms": ["pasture","fields","savanna","greenery"]},
+        {"terrain": "Hills", "synonyms": ["hillock","mound","mount","knoll","hummock","slope"]},
+        {"terrain": "Hollows", "synonyms": ["dip","hole","pit","cavity","crater","trough","holes"]},
+        {"terrain": "Jungle", "synonyms": [], "see": "Forest"},
+        {"terrain": "Lakes", "synonyms": ["pond","pool","tarn","lagoon","loch","bayou"]},
+        {"terrain": "Mountains", "synonyms": ["peaks","ridge","range","summit","pinnacle","butte"]},
+        {"terrain": "Oasis", "synonyms": ["spring","well","fountain","haven","watering hole","refuge"]},
+        {"terrain": "Plains", "synonyms": ["heath","meadow","veldt","flats","lowlands","sward"]},
+        {"terrain": "Plateau", "synonyms": ["uplands","mesa","highlands","downs","reach"]},
+        {"terrain": "River", "synonyms": ["waterway","stream","brook","runnel creek","channel"]},
+        {"terrain": "Sea", "synonyms": [], "see": "Beaches"},
+        {"terrain": "Swamp", "synonyms": ["moors","wetlands"]},
+        {"terrain": "Thickets", "synonyms": ["chaparral","boscage","covert","coppice","fells"]},
+        {"terrain": "Tundra", "synonyms": ["expanse","boreal","ley"]},
+        {"terrain": "Valley", "synonyms": ["dale","vale","basin","gorge","gap","glen"]},
+        {"terrain": "Wasteland", "synonyms": [], "see": "Desert"}
+      ]
+    },
+    {
+      "id": "group-types",
+      "name": "Group Types",
+      "roll": "1d20",
+      "entries": ["Assembly","Brotherhood","Circle","Clan","Coalition","Collective","Covenant","Enclave","Fellowship","Guild","Horde","League","Legion","Market","Ministry","Movement","Network","Order","Pact","Syndicate"]
+    },
+    {
+      "id": "faction-names-formula",
+      "name": "Faction Names Formula",
+      "roll": "1d6",
+      "entries": ["(The) [Noun] [Group]", "(The) [Adjective] [Group]", "[Group] of (the) [Noun]", "[Adjective] [Group] of (the) [Noun]", "(The) [Noun] [Adjective] [Group]", "[Group] of (the) [Adjective] [Noun]"]
+    },
+    {
+      "id": "ruler-types",
+      "name": "Ruler Types",
+      "roll": "1d20",
+      "entries": ["Alliance","Barony","Commonwealth","Confederation","Dominion","Ecclesiarchy","Empire","Federacy","Fiefdom","Grand Duchy","Hegemony","Kingdom","Monarchy","Principality","Protectorate","Realm","Regency","Republic","State","Union"]
+    },
+    {
+      "id": "ruler-names-formula",
+      "name": "Realm (Ruler) Names Formula",
+      "roll": "1d6",
+      "entries": ["(The) [Noun] [Rulers]", "(The) [Adjective] [Rulers]", "[Rulers] of (the) [Noun]", "[Adjective] [Rulers] of (the) [Noun]", "(The) [Noun] [Adjective] [Rulers]", "[Rulers] of (the) [Adjective] [Noun]"]
+    },
+    {
+      "id": "forest-name-adjectives",
+      "name": "Forest Names: Adjectives",
+      "roll": "1d100",
+      "entries": ["Abandoned","Ancient","Beckoning","Blooming","Bountiful","Celestial","Charmed","Crystal","Dappled","Dense","Desolate","Distant","Echoing","Eerie","Emerald","Enchanted","Enigmatic","Ephemeral","Eternal","Ethereal","Exotic","Fabled","Flourishing","Forgotten","Forsaken","Fragrant","Frosty","Gentle","Glistening","Gloomy","Gnarled","Golden","Grassy","Harmonious","Haunted","Hidden","Hushed","Illuminated","Jagged","Lavish","Leafy","Lonely","Looming","Lost","Luminescent","Luminous","Lush","Majestic","Melancholy","Menacing","Misty","Moonlit","Mossy","Murmuring","Mysterious","Mystic","Opulent","Overgrown","Precarious","Primeval","Pristine","Quaint","Radiant","Roaring","Rugged","Rustling","Sacred","Secluded","Serene","Serpentine","Shadowy","Shimmering","Shrouded","Silent","Smoky","Somber","Spectral","Splendid","Stark","Sturdy","Sunlit","Sunny","Swirling","Tangled","Timeless","Towering","Tranquil","Trickling","Twilight","Twisted","Unseen","Unyielding","Veiled","Verdant","Vibrant","Weathered","Weeping","Whispering","Wild","Winding"]
+    },
+    {
+      "id": "forest-name-nouns",
+      "name": "Forest Names: Nouns",
+      "roll": "1d100",
+      "entries": ["Arbors","Arch","Blossoms","Bogs","Boughs","Brake","Brambles","Branches","Briar","Bridge","Brook","Brush","Camp","Canopy","Cascade","Cave","Cavern","Chase","Clearing","Clump","Coppice","Copse","Crags","Creek","Dale","Dell","Dew","Fell","Fen","Ferns","Foliage","Forest","Fungi","Gill","Glade","Glen","Gorge","Granite","Green","Grotto","Grove","Growth","Heath","Henge","Hollow","Horizon","Knar","Knoll","Leaves","Light","Loam","Loom","Marsh","Meadow","Mire","Morass","Oak","Oasis","Orchard","Pass","Passages","Path","Pathway","Pine","Roots","Sanctuary","Shade","Shadows","Shelter","Shrub","Slope","Spring","Stirs","Stones","Stream","Stump","Swale","Sward","Sway","Tangle","Thicket","Thistles","Timber","Timberland","Tower","Trails","Trees","Trunks","Underbrush","Undergrowth","Understory","Vines","Waterway","Weald","Wildwood","Woodland","Woodlot","Woods","Yonder","Zephyr"]
+    }
+  ]
+}

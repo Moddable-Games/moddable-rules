@@ -1,0 +1,28 @@
+{
+  "name": "BRP: Armor",
+  "game": "brp",
+  "licence": "BRP Open Game License, Version 1.0",
+  "attribution": "Basic Roleplaying © copyright 1980–2020 Chaosium Inc. Source: brp.chaosium.com.",
+  "usage_note": "Armor Points are subtracted from incoming damage after it is rolled. 'Physical' skills are Climb, Dodge, Fine Manipulation, Hide, Jump, Sleight of Hand, Stealth, Swim, Throw, and the Agility characteristic roll; 'perception' skills are Listen and Spot.",
+  "tables": [
+    {
+      "id": "armor",
+      "name": "Armor Types",
+      "roll": "Reference (no roll; subtract Armor Points from damage taken)",
+      "entries": [
+        { "name": "Bulletproof Vest", "armor_points": "8", "skill_modifier": "−5% to physical skills" },
+        { "name": "Chain", "armor_points": "7", "skill_modifier": "−20% to physical skills" },
+        { "name": "Flak Jacket", "armor_points": "4", "skill_modifier": "−10% to physical skills" },
+        { "name": "Clothing, Heavy", "armor_points": "1", "skill_modifier": "None" },
+        { "name": "Helmet, Heavy", "armor_points": "+2", "skill_modifier": "−50% to perception skills" },
+        { "name": "Helmet, Light", "armor_points": "+1", "skill_modifier": "−15% to perception skills" },
+        { "name": "Hoplite Panoply", "armor_points": "6", "skill_modifier": "−20% to physical skills" },
+        { "name": "Leather, Soft", "armor_points": "1", "skill_modifier": "None" },
+        { "name": "Leather, Hard", "armor_points": "2", "skill_modifier": "−10% to physical skills" },
+        { "name": "Plate, Full", "armor_points": "8", "skill_modifier": "−25% to physical skills" },
+        { "name": "Quilted", "armor_points": "2", "skill_modifier": "−5% to physical skills" },
+        { "name": "Riot Gear", "armor_points": "12/6", "skill_modifier": "−10% to physical skills" }
+      ]
+    }
+  ]
+}

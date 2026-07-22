@@ -28,14 +28,26 @@ for (const slug of allSlugs) {
 
   function flush() {
     if (!currentHeading) return;
-    const raw = bodyLines.join(' ')
+    const tableRows = [];
+    const textLines = [];
+    for (const line of bodyLines) {
+      if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
+        if (line.includes('---')) continue;
+        const cells = line.split('|').slice(1, -1).map(c => c.trim()).filter(Boolean);
+        if (cells.length) tableRows.push(cells.join(' — '));
+      } else {
+        textLines.push(line);
+      }
+    }
+    const textRaw = textLines.join(' ')
       .replace(/<[^>]+>/g, '')
       .replace(/\{\{[^}]+\}\}/g, '')
       .replace(/[*_`~\[\]()#]/g, '')
-      .replace(/\|[^|]*\|/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
-    const snippet = raw.slice(0, 200);
+    const tableText = tableRows.join('\n');
+    const raw = textRaw + (tableText ? '\n' + tableText : '');
+    const snippet = raw.slice(0, 1000);
     if (!snippet) return;
 
     const anchor = currentHeading
@@ -103,14 +115,26 @@ for (const slug of allSlugs) {
 
     function flushVariant() {
       if (!currentHeading) return;
-      const raw = bodyLines.join(' ')
+      const tableRows = [];
+      const textLines = [];
+      for (const line of bodyLines) {
+        if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
+          if (line.includes('---')) continue;
+          const cells = line.split('|').slice(1, -1).map(c => c.trim()).filter(Boolean);
+          if (cells.length) tableRows.push(cells.join(' — '));
+        } else {
+          textLines.push(line);
+        }
+      }
+      const textRaw = textLines.join(' ')
         .replace(/<[^>]+>/g, '')
         .replace(/\{\{[^}]+\}\}/g, '')
         .replace(/[*_`~\[\]()#]/g, '')
-        .replace(/\|[^|]*\|/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
-      const snippet = raw.slice(0, 200);
+      const tableText = tableRows.join('\n');
+      const raw = textRaw + (tableText ? '\n' + tableText : '');
+      const snippet = raw.slice(0, 1000);
       if (!snippet) return;
 
       const anchor = currentHeading
@@ -153,6 +177,82 @@ for (const slug of allSlugs) {
       }
     }
     flushVariant();
+  }
+}
+
+// --- Index component hub game sub-pages (content/games/<game>/*.md) ---
+for (const slug of allSlugs) {
+  const gamesDir = resolve(GAMES_DIR, slug, 'content/games');
+  if (!existsSync(gamesDir)) continue;
+
+  const src = readFileSync(resolve(GAMES_DIR, slug, 'content/rulebook.md'), 'utf8');
+  const { data: meta } = matter(src);
+  if (meta.published === false) continue;
+
+  const gameTitle = (meta.title || slug).replace(/\s*[—–-]\s*Official Rulebook$/i, '');
+
+  const gameDirs = readdirSync(gamesDir, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name);
+  for (const gameDir of gameDirs) {
+    const gameFiles = readdirSync(resolve(gamesDir, gameDir)).filter(f => f.endsWith('.md'));
+    for (const gf of gameFiles) {
+      const gsrc = readFileSync(resolve(gamesDir, gameDir, gf), 'utf8');
+      const { data: gmeta, content: gcontent } = matter(gsrc);
+      const gslug = gmeta.slug || gameDir;
+      const gtitle = gmeta.title || gameDir;
+
+      const glines = gcontent.split('\n');
+      let currentSection = gtitle;
+      let currentHeading = '';
+      let bodyLines = [];
+
+      function flushGame() {
+        if (!currentHeading) return;
+        const tableRows = [];
+        const textLines = [];
+        for (const line of bodyLines) {
+          if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
+            if (line.includes('---')) continue;
+            const cells = line.split('|').slice(1, -1).map(c => c.trim()).filter(Boolean);
+            if (cells.length) tableRows.push(cells.join(' — '));
+          } else {
+            textLines.push(line);
+          }
+        }
+        const textRaw = textLines.join(' ')
+          .replace(/<[^>]+>/g, '')
+          .replace(/\{\{[^}]+\}\}/g, '')
+          .replace(/[*_`~\[\]()#]/g, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+        const tableText = tableRows.join('\n');
+        const raw = textRaw + (tableText ? '\n' + tableText : '');
+        const snippet = raw.slice(0, 1000);
+        if (!snippet) return;
+
+        const anchor = currentHeading.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+        index.push({
+          game: slug,
+          gameTitle,
+          section: gtitle,
+          heading: currentHeading,
+          content: snippet,
+          anchor,
+          variant: gslug,
+          variantUrl: `dist/${slug}/games/${gslug}/`
+        });
+      }
+
+      for (const line of glines) {
+        const h2Match = line.match(/^## (.+)$/);
+        const h3Match = line.match(/^### (.+)$/);
+        const h4Match = line.match(/^#### (.+)$/);
+        if (h2Match) { flushGame(); currentSection = h2Match[1].trim(); currentHeading = h2Match[1].trim(); bodyLines = []; }
+        else if (h3Match) { flushGame(); currentHeading = h3Match[1].trim(); bodyLines = []; }
+        else if (h4Match) { flushGame(); currentHeading = h4Match[1].trim(); bodyLines = []; }
+        else if (currentHeading) { bodyLines.push(line); }
+      }
+      flushGame();
+    }
   }
 }
 
@@ -223,6 +323,22 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
           });
         }
       }
+    } else if (manifest.dataType === 'table') {
+      const tables = raw.tables || [];
+      for (const table of tables) {
+        const tableName = table.name || table.id || '';
+        const entries = table.entries || [];
+        index.push({
+          game: slug,
+          gameTitle,
+          section: cat.label,
+          heading: tableName,
+          content: entries.slice(0, 10).join(', '),
+          anchor: (table.id || tableName).toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+          dataType: 'table',
+          category: cat.id,
+        });
+      }
     }
   }
 }
@@ -258,3 +374,92 @@ function resolveField(obj, path) {
 mkdirSync(DIST_DIR, { recursive: true });
 writeFileSync(resolve(DIST_DIR, 'rules-index.json'), JSON.stringify(index, null, 2));
 console.log(`Built dist/rules-index.json (${index.length} entries across ${new Set(index.map(e => e.game)).size} games)`);
+
+// --- Build games-meta.json ---
+const gamesMeta = [];
+
+for (const slug of allSlugs) {
+  const src = readFileSync(resolve(GAMES_DIR, slug, 'content/rulebook.md'), 'utf8');
+  const { data: meta, content } = matter(src);
+  if (meta.published === false) continue;
+
+  const gameTitle = (meta.title || slug).replace(/\s*[—–-]\s*Official Rulebook$/i, '');
+
+  const variantsDir = resolve(GAMES_DIR, slug, 'content/variants');
+  const hubGamesDir = resolve(GAMES_DIR, slug, 'content/games');
+  const variants = [];
+  if (existsSync(variantsDir)) {
+    const vfiles = readdirSync(variantsDir).filter(f => f.endsWith('.md'));
+    for (const vf of vfiles) {
+      const vsrc = readFileSync(resolve(variantsDir, vf), 'utf8');
+      const { data: vmeta } = matter(vsrc);
+      variants.push({
+        slug: vmeta.slug || vf.replace('.md', ''),
+        title: vmeta.title || vf.replace('.md', ''),
+      });
+    }
+  }
+  if (existsSync(hubGamesDir)) {
+    const gameDirs = readdirSync(hubGamesDir, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name);
+    for (const gd of gameDirs) {
+      const standardFile = resolve(hubGamesDir, gd, 'standard.md');
+      const firstFile = resolve(hubGamesDir, gd, readdirSync(resolve(hubGamesDir, gd)).filter(f => f.endsWith('.md'))[0] || 'standard.md');
+      const gf = existsSync(standardFile) ? standardFile : firstFile;
+      if (!existsSync(gf)) continue;
+      const gsrc = readFileSync(gf, 'utf8');
+      const { data: gmeta } = matter(gsrc);
+      variants.push({
+        slug: gmeta.slug || gd,
+        title: gmeta.title || gd,
+      });
+    }
+  }
+
+  const lines = content.split('\n');
+  const sections = [];
+  for (const line of lines) {
+    const h2 = line.match(/^## (.+)$/);
+    if (h2) sections.push(h2[1].trim());
+  }
+
+  const variantHub = sections.length === 1 && sections[0] === 'Variant Library';
+
+  let howToPlay = null;
+  const htpSection = sections.find(s => s.toLowerCase().includes('how to play'));
+  if (htpSection) {
+    let capturing = false;
+    const htpLines = [];
+    for (const line of lines) {
+      if (line.match(/^## /) && capturing) break;
+      if (line.match(/^## /) && line.includes(htpSection)) { capturing = true; continue; }
+      if (capturing) htpLines.push(line);
+    }
+    howToPlay = htpLines.join('\n')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\{\{[^}]+\}\}/g, '')
+      .replace(/\*\*([^*]+)\*\*/g, '$1')
+      .replace(/\*([^*]+)\*/g, '$1')
+      .replace(/\s*\{nowrap\|([^}]+)\}/g, '$1')
+      .trim()
+      .slice(0, 2000);
+  }
+
+  gamesMeta.push({
+    slug,
+    title: gameTitle,
+    players: meta.players || null,
+    duration: meta.duration || null,
+    age: meta.age || null,
+    tagline: meta.tagline || null,
+    type: meta.type || null,
+    status: meta.status || null,
+    updated: meta.updated || null,
+    variantHub,
+    variants,
+    sections,
+    howToPlay,
+  });
+}
+
+writeFileSync(resolve(DIST_DIR, 'games-meta.json'), JSON.stringify(gamesMeta, null, 2));
+console.log(`Built dist/games-meta.json (${gamesMeta.length} games, ${gamesMeta.filter(g => g.howToPlay).length} with howToPlay)`);
