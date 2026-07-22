@@ -1,0 +1,83 @@
+{
+  "name": "Cairn: Warden's Guide — Monster Creation Tables",
+  "game": "cairn",
+  "licence": "CC BY-SA 4.0",
+  "attribution": "Cairn 2nd Edition, copyright Yochai Gal. Licensed under CC BY-SA 4.0. Source: https://github.com/yochaigal/cairn",
+  "usage_note": "Combinator tables for generating a unique monster: roll 1d20 on each column of Monster Appearance, Monster Traits, Monster Attacks, and Monster Abilities, then combine the results and write the creature up in plain English per the 'Creating Monsters' rules page before converting to a stat block.",
+  "tables": [
+    {
+      "id": "monster-appearance-physique",
+      "name": "Monster Appearance: Physique",
+      "roll": "1d20",
+      "entries": [
+        "Albino", "Black", "Crystalline", "Emaciated", "Eyeless", "Feathered", "Gelatinous", "Glowing", "Hardened", "Headless",
+        "Horned", "Hunched", "Iridescent", "Polyocular", "Scaled", "Segmented", "Skeletal", "Slimy", "Translucent", "Twisted"
+      ]
+    },
+    {
+      "id": "monster-appearance-feature",
+      "name": "Monster Appearance: Feature",
+      "roll": "1d20",
+      "entries": [
+        "Antennae", "Beak", "Carapace", "Claws", "Fangs", "Feathers", "Fur", "Gilled", "Horns", "Markings",
+        "Scales", "Shell", "Snout", "Tail", "Talons", "Tentacles", "Trunk", "Tusks", "Voice", "Wings"
+      ]
+    },
+    {
+      "id": "monster-traits-quirks",
+      "name": "Monster Traits: Quirks",
+      "roll": "1d20",
+      "entries": [
+        "Alters Its Size at Will", "Changes Color at Will", "Collects Rare Flowers", "Collects Trophies", "Does Not Die of Old Age",
+        "Draws Symbols", "Fascinated by Fire", "Hoards Books", "Loves a Specific Color", "Reborn Each Day",
+        "Loves Shiny Objects", "Mimics Voices", "Moves in a Straight Line", "Narrates Everything", "Obsessively Cleans",
+        "Plants Grow in Its Wake", "Sleeps Upside Down", "Speaks in Rhymes", "Sweats Rare Minerals", "Reproduces Asexually"
+      ]
+    },
+    {
+      "id": "monster-traits-weakness",
+      "name": "Monster Traits: Weakness",
+      "roll": "1d20",
+      "entries": [
+        "Alcohol", "Cold", "Conversation", "Flattery", "Games", "Gifts", "Iron", "Loud Noises", "Mirrors", "Bright Colors",
+        "Moonlight", "Music", "Prepared Meals", "Puzzles", "Religious Icons", "Salt", "Silver", "Sunlight", "True Name", "Weak Spot"
+      ]
+    },
+    {
+      "id": "monster-attacks-type",
+      "name": "Monster Attacks: Type",
+      "roll": "1d20",
+      "entries": [
+        "Bites", "Blunts", "Burns", "Freezes", "Gases", "Kicks", "Punches", "Shoots", "Slams", "Slashes",
+        "Slices", "Smashes", "Sprays", "Squeezes", "Stabs", "Stings", "Throws", "Touches", "Whips", "Zaps"
+      ]
+    },
+    {
+      "id": "monster-attacks-critical-damage",
+      "name": "Monster Attacks: Critical Damage",
+      "roll": "1d20",
+      "entries": [
+        "Asphyxiates", "Bleeds", "Blinds", "Breaks", "Crushes", "Decays", "Dissolves", "Ensnares", "Explodes", "Grapples",
+        "Incapacitates", "Lacerates", "Liquefies", "Paralyzes", "Petrifies", "Poisons", "Punctures", "Severs", "Tramples", "Weakens"
+      ]
+    },
+    {
+      "id": "monster-abilities-ability",
+      "name": "Monster Abilities: Ability",
+      "roll": "1d20",
+      "entries": [
+        "Absorbs", "Amplifies", "Attracts", "Binds", "Camouflages", "Conjures", "Controls", "Disables", "Duplicates", "Grows",
+        "Manipulates", "Reflects", "Regenerates", "Resists", "Reverses", "Shapes", "Shrinks", "Transforms", "Traps", "Zaps"
+      ]
+    },
+    {
+      "id": "monster-abilities-target",
+      "name": "Monster Abilities: Target",
+      "roll": "1d20",
+      "entries": [
+        "Body", "Dreams", "Element", "Emotions", "Energy", "Health", "Hearing", "Illusions", "Light", "Memory",
+        "Metal", "Plants", "Spirit", "Stone", "Surroundings", "Time", "Vision", "Water", "Weather", "Weakens"
+      ]
+    }
+  ]
+}
