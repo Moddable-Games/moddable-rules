@@ -1,0 +1,14 @@
+{
+  "name": "Knave: Starting Gear",
+  "game": "knave",
+  "licence": "CC BY 4.0",
+  "attribution": "Knave, copyright Ben Milton (questingbeast.com / questingblog.com). Licensed under CC BY 4.0.",
+  "usage_note": "PCs start with 2 days of rations and one weapon of their player's choice. Roll on Armor and Helmets and Shields once each. Roll on Dungeoneering Gear twice, and once each on General Gear 1 and General Gear 2.",
+  "tables": [
+    { "id": "starting-armor", "name": "Armor", "roll": "1d20", "entries": [ {"min":1,"max":3,"result":"No armor"}, {"min":4,"max":14,"result":"Gambeson"}, {"min":15,"max":19,"result":"Brigandine"}, {"min":20,"max":20,"result":"Chain"} ] },
+    { "id": "helmets-and-shields", "name": "Helmets and Shields", "roll": "1d20", "entries": [ {"min":1,"max":13,"result":"None"}, {"min":14,"max":16,"result":"Helmet"}, {"min":17,"max":19,"result":"Shield"}, {"min":20,"max":20,"result":"Helmet and Shield"} ] },
+    { "id": "dungeoneering-gear", "name": "Dungeoneering Gear", "roll": "1d20 (roll twice)", "entries": ["Rope, 50ft","Pulleys","Candles, 5","Chain, 10ft","Chalk, 10","Crowbar","Tinderbox","Grappling hook","Hammer","Waterskin","Lantern","Lamp oil","Padlock","Manacles","Mirror","Pole, 10ft","Sack","Tent","Spikes, 5","Torches, 5"] },
+    { "id": "general-gear-1", "name": "General Gear 1", "roll": "1d20 (roll once)", "entries": ["Air bladder","Bear trap","Shovel","Bellows","Grease","Saw","Bucket","Caltrops","Chisel","Drill","Fishing rod","Marbles","Glue","Pick","Hourglass","Net","Tongs","Lockpicks","Metal file","Nails"] },
+    { "id": "general-gear-2", "name": "General Gear 2", "roll": "1d20 (roll once)", "entries": ["Incense","Sponge","Lens","Perfume","Horn","Bottle","Soap","Spyglass","Tar pot","Twine","Fake jewels","Blank book","Card deck","Dice set","Cook pots","Face paint","Whistle","Instrument","Quill & Ink","Small bell"] }
+  ]
+}
