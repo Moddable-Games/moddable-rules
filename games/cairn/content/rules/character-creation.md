@@ -13,7 +13,7 @@ published: true
 - Choose a name from the available list, then record each of your character's starting items.
 - Roll on each of the included tables in the background. Record your character's items, skills, or abilities from each result. Some backgrounds may ask you to refer to the tables in the [Marketplace](../marketplace/) as well.
 
-Each of the 20 backgrounds below has its own name list and starting-item tables. Full background data is published separately as structured table data; see the Cairn tables index for the machine-readable version.
+Each of the 20 backgrounds below has its own name list and starting-item tables. Full background data (names, starting gear, and both roll tables for all 20) is published as structured table data in [backgrounds.json](../../../games/cairn/tables/backgrounds.json); see the [Cairn tables index](../../../games/cairn/tables/index.md) for the machine-readable version.
 
 ### Backgrounds
 
