@@ -7,7 +7,7 @@ published: true
 
 ## Cairn Structured Data
 
-Cairn's character creation revolves around 20 Backgrounds, each providing a set of suggested names, starting gear, and two 1d6 tables that add a unique item, quirk, or bit of history to the character. The Warden's Guide adds quick NPC generation tables and monster-creation combinator tables.
+Cairn's character creation revolves around 20 Backgrounds, each providing a set of suggested names, starting gear, and two 1d6 tables that add a unique item, quirk, or bit of history to the character. The Warden's Guide adds quick NPC generation tables, monster-creation combinator tables, and a full bestiary.
 
 **Licence:** CC BY-SA 4.0. Attribution: Cairn 2nd Edition, Yochai Gal (github.com/yochaigal/cairn).
 
@@ -25,8 +25,9 @@ Cairn's character creation revolves around 20 Backgrounds, each providing a set 
 | `backgrounds.json` | All 20 Backgrounds: Aurifex, Barber-Surgeon, Beast Handler, Bonekeeper, Cutpurse, Fieldwarden, Fletchwind, Foundling, Fungal Forager, Greenwise, Half Witch, Hexenbane, Jongleur, Kettlewright, Marchguard, Mountebank, Outrider, Prowler, Rill Runner, Scrivener |
 | `npc-tables.json` | Quick NPC generation: 3 Names sets (d20 each), Quirks, Background, Goals, Virtues, Vices |
 | `monster-creation-tables.json` | Monster-creation combinators: Appearance (Physique/Feature), Traits (Quirks/Weakness), Attacks (Type/Critical Damage), Abilities (Ability/Target) — see the [Creating Content](../content/rules/creating-content/) rules page for the full procedure |
+| `bestiary.json` | The full Warden's Guide bestiary: a Monster Categories 1d20 lookup table plus 84 individual monster stat blocks (HP, Armor, STR/DEX/WIL, attacks, detachment flag, and flavor/tactics/special-ability/Critical Damage text) |
 
-Follows the [background schema](schema.json) (Backgrounds) or the shared table-file shape used by `npc-tables.json` and `monster-creation-tables.json` (name/game/licence/attribution/usage_note/tables[] with id/name/roll/entries).
+Follows the [background schema](schema.json) (Backgrounds) or the shared table-file shape used by `npc-tables.json`, `monster-creation-tables.json`, and `bestiary.json` (name/game/licence/attribution/usage_note plus either `tables[]` with id/name/roll/entries, or — for the bestiary — `monster_categories` and a `monsters[]` array).
 
 ### AI DM Integration
 
@@ -40,4 +41,4 @@ Example prompt: `"A new character has the Bonekeeper background. Table result: '
 
 ### Scope Note
 
-The large Warden's Guide procedural generation tables (dungeon seeds, forest seeds, setting seeds, naming procedures, spellbooks, reliquary) and the bestiary are tracked separately and are not yet all present in this directory; see the parent issue for current status.
+The large Warden's Guide procedural generation tables (dungeon seeds, forest seeds, setting seeds, naming procedures, spellbooks, reliquary) are tracked separately and are not yet present in this directory; see the parent issue for current status.
