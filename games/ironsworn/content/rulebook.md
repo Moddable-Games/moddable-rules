@@ -62,3 +62,17 @@ Roll dice and consult for narrative inspiration. Machine-readable JSON:
 - [schema.json](../../games/ironsworn/oracles/schema.json)
 
 </div>
+
+<div class="section">
+
+### Moves and Assets (Machine-Readable)
+
+Structured JSON data for game tools and digital character sheets:
+
+- [moves.json](../../games/ironsworn/rules/moves.json) — All moves (Adventure, Relationship, Combat, Suffer, Quest, Fate)
+- [companion.json](../../games/ironsworn/rules/assets/companion.json) — Companion assets (Cave Lion, Giant Spider, Hawk, Horse, Hound, Kindred, Mammoth, Owl, Raven, Young Wyvern)
+- [path.json](../../games/ironsworn/rules/assets/path.json) — Path assets (Alchemist, Animal Kin, Banner-Sworn, and 25 more)
+- [combat-talent.json](../../games/ironsworn/rules/assets/combat-talent.json) — Combat Talent assets (Archer, Berserker, Brawler, and 11 more)
+- [ritual.json](../../games/ironsworn/rules/assets/ritual.json) — Ritual assets (Augur, Awakening, Bind, and 13 more)
+
+</div>

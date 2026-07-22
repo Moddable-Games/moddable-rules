@@ -75,6 +75,66 @@
       "searchFields": ["result"],
       "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {min}–{max}"] },
       "linkPath": null
+    },
+    {
+      "id": "moves",
+      "label": "Moves",
+      "file": "../rules/moves.json",
+      "color": "#2ecc71",
+      "dataType": "table",
+      "arrayKey": "moves",
+      "displayField": "name",
+      "searchFields": ["name", "text", "strong_hit", "weak_hit", "miss"],
+      "cardFields": { "title": "name", "meta": ["{category}"], "body": "text" },
+      "linkPath": null
+    },
+    {
+      "id": "assets-companion",
+      "label": "Companions",
+      "file": "../rules/assets/companion.json",
+      "color": "#e67e22",
+      "dataType": "table",
+      "arrayKey": "assets",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "cardFields": { "title": "name", "meta": ["{category}"] },
+      "linkPath": null
+    },
+    {
+      "id": "assets-path",
+      "label": "Paths",
+      "file": "../rules/assets/path.json",
+      "color": "#1abc9c",
+      "dataType": "table",
+      "arrayKey": "assets",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "cardFields": { "title": "name", "meta": ["{category}"] },
+      "linkPath": null
+    },
+    {
+      "id": "assets-combat-talent",
+      "label": "Combat Talents",
+      "file": "../rules/assets/combat-talent.json",
+      "color": "#c0392b",
+      "dataType": "table",
+      "arrayKey": "assets",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "cardFields": { "title": "name", "meta": ["{category}"] },
+      "linkPath": null
+    },
+    {
+      "id": "assets-ritual",
+      "label": "Rituals",
+      "file": "../rules/assets/ritual.json",
+      "color": "#8e44ad",
+      "dataType": "table",
+      "arrayKey": "assets",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "cardFields": { "title": "name", "meta": ["{category}"] },
+      "linkPath": null
     }
   ]
 }

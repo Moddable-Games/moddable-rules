@@ -93,7 +93,8 @@ Dungeon World is a tabletop RPG by Sage LaTorra and Adam Koebel that applies the
 
 Structured JSON, sourced from `Sagelt/Dungeon-World` (CC BY 3.0).
 
-- [classes.json](../../games/dungeon-world/data/classes.json) — The 8 core classes with HP, damage die, and a short summary
+- [classes.json](../../games/dungeon-world/data/classes.json) — Full class data: starting moves, advanced moves (2-5 and 6-10), races, alignments, bonds, gear, names
+- [moves.json](../../games/dungeon-world/data/moves.json) — 21 basic and special moves with triggers and outcomes
 - [cavern-dwellers.json](../../games/dungeon-world/data/cavern-dwellers.json) — Goblins, ankhegs, gargoyles, purple worms, and other cave and tunnel dwellers
 - [lower-depths.json](../../games/dungeon-world/data/lower-depths.json) — Aboleths, dragons, minotaurs, nagas, and the deep-dwelling terrors of ancient ruins
 - [twisted-experiments.json](../../games/dungeon-world/data/twisted-experiments.json) — Chimeras, golems, manticores, owlbears, and other creations of arcane hubris

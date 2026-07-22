@@ -103,9 +103,9 @@
       "color": "#8e44ad",
       "dataType": "table",
       "arrayKey": "tables",
-      "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "displayField": "{col1} / {col2}",
+      "searchFields": ["col1", "col2"],
+      "cardFields": { "title": "{col1}", "meta": ["{col2}", "{_tableName}"] },
       "linkPath": null
     },
     {
@@ -115,9 +115,9 @@
       "color": "#27ae60",
       "dataType": "table",
       "arrayKey": "tables",
-      "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "displayField": "{col1} / {col2}",
+      "searchFields": ["col1", "col2"],
+      "cardFields": { "title": "{col1}", "meta": ["{col2}", "{_tableName}"] },
       "linkPath": null
     },
     {
@@ -127,9 +127,9 @@
       "color": "#3498db",
       "dataType": "table",
       "arrayKey": "tables",
-      "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "displayField": "{col1} / {col2}",
+      "searchFields": ["col1", "col2"],
+      "cardFields": { "title": "{col1}", "meta": ["{col2}", "{_tableName}"] },
       "linkPath": null
     },
     {
