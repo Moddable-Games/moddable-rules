@@ -1,0 +1,22 @@
+{
+  "name": "BRP: Shields",
+  "game": "brp",
+  "licence": "BRP Open Game License, Version 1.0",
+  "attribution": "Basic Roleplaying © copyright 1980–2020 Chaosium Inc. Source: brp.chaosium.com.",
+  "usage_note": "Base Chance is the shield's starting percentage to parry or attack with (shield bash), before any skill points are added. Armor/Hit Points doubles as the shield's protection value if used as static cover, and its hit points before it is destroyed.",
+  "tables": [
+    {
+      "id": "shields",
+      "name": "Shields",
+      "roll": "D100 (roll ≤ base chance + skill points to parry)",
+      "entries": [
+        { "name": "Heater", "base_chance": "15%", "skill": "Shield", "armor_hit_points": "12", "damage": "1D3+db" },
+        { "name": "Hoplite", "base_chance": "15%", "skill": "Shield", "armor_hit_points": "16", "damage": "1D4+db" },
+        { "name": "Kite", "base_chance": "15%", "skill": "Shield", "armor_hit_points": "16", "damage": "1D4+db" },
+        { "name": "Riot", "base_chance": "15%", "skill": "Shield", "armor_hit_points": "16", "damage": "1D3+db" },
+        { "name": "Round", "base_chance": "15%", "skill": "Shield", "armor_hit_points": "12", "damage": "1D3+db" },
+        { "name": "Target", "base_chance": "15%", "skill": "Shield", "armor_hit_points": "12", "damage": "1D2+db" }
+      ]
+    }
+  ]
+}
