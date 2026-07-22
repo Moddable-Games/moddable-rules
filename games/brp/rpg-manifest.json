@@ -1,18 +1,92 @@
 {
   "label": "Basic Roleplaying",
+  "version": "2",
   "dataPath": "games/brp/data/",
   "rulesUrl": "dist/brp/",
-  "dataType": "table",
   "categories": [
-    { "id": "skills", "label": "Skills", "file": "skills.json", "color": "#c0392b", "linkPath": null },
-    { "id": "professions", "label": "Professions", "file": "professions.json", "color": "#2980b9", "linkPath": null },
-    { "id": "weapons", "label": "Weapons", "file": "weapons.json", "color": "#7f8c8d", "linkPath": null },
-    { "id": "armor", "label": "Armor", "file": "armor.json", "color": "#8e44ad", "linkPath": null },
-    { "id": "shields", "label": "Shields", "file": "shields.json", "color": "#d35400", "linkPath": null }
-  ],
-  "cardFields": {
-    "title": "name",
-    "meta": "{_tableName}",
-    "description": null
-  }
+    {
+      "id": "skills",
+      "label": "Skills",
+      "file": "skills.json",
+      "color": "#c0392b",
+      "dataType": "entity",
+      "arrayKey": "tables[0].entries",
+      "displayField": "name",
+      "searchFields": ["name", "description"],
+      "tag": { "field": "base_chance" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["Base chance: {base_chance}"],
+        "description": "description"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "professions",
+      "label": "Professions",
+      "file": "professions.json",
+      "color": "#2980b9",
+      "dataType": "entity",
+      "arrayKey": "tables[0].entries",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "cardFields": {
+        "title": "name",
+        "meta": [],
+        "description": "skills"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "weapons",
+      "label": "Weapons",
+      "file": "weapons.json",
+      "color": "#7f8c8d",
+      "dataType": "entity",
+      "arrayKey": "tables[0].entries",
+      "displayField": "name",
+      "searchFields": ["name", "type"],
+      "tag": { "field": "damage" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{type} · Damage: {damage}", "Skill: {base_chance} · Range: {range}"],
+        "description": null
+      },
+      "linkPath": null
+    },
+    {
+      "id": "armor",
+      "label": "Armor",
+      "file": "armor.json",
+      "color": "#8e44ad",
+      "dataType": "entity",
+      "arrayKey": "tables[0].entries",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "tag": { "field": "ap", "prefix": "AP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["AP: {ap} · Skill modifier: {skill_modifier}"],
+        "description": null
+      },
+      "linkPath": null
+    },
+    {
+      "id": "shields",
+      "label": "Shields",
+      "file": "shields.json",
+      "color": "#d35400",
+      "dataType": "entity",
+      "arrayKey": "tables[0].entries",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "tag": { "field": "ap", "prefix": "AP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["AP: {ap} · HP: {hp}"],
+        "description": null
+      },
+      "linkPath": null
+    }
+  ]
 }

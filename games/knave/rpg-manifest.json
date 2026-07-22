@@ -1,16 +1,49 @@
 {
   "label": "Knave",
+  "version": "2",
   "dataPath": "games/knave/data/",
   "rulesUrl": "dist/knave/",
-  "dataType": "table",
   "categories": [
-    { "id": "traits", "label": "Character Traits", "file": "traits.json", "color": "#3a9928", "linkPath": null },
-    { "id": "starting-gear", "label": "Starting Gear", "file": "starting-gear.json", "color": "#0c4f8d", "linkPath": null },
-    { "id": "spells", "label": "Spells", "file": "spells.json", "color": "#9b59b6", "linkPath": null }
-  ],
-  "cardFields": {
-    "title": "result",
-    "meta": "{_tableName} · Roll: {roll}",
-    "description": null
-  }
+    {
+      "id": "traits",
+      "label": "Character Traits",
+      "file": "traits.json",
+      "color": "#3a9928",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    },
+    {
+      "id": "starting-gear",
+      "label": "Starting Gear",
+      "file": "starting-gear.json",
+      "color": "#0c4f8d",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    },
+    {
+      "id": "spells",
+      "label": "Spells",
+      "file": "spells.json",
+      "color": "#9b59b6",
+      "dataType": "entity",
+      "arrayKey": "tables[0].entries",
+      "displayField": "name",
+      "searchFields": ["name", "effect"],
+      "tag": { "field": "roll", "prefix": "#" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["Spell #{roll}"],
+        "description": "effect"
+      },
+      "linkPath": null
+    }
+  ]
 }

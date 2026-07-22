@@ -1,16 +1,24 @@
 {
   "label": "Pathfinder 1e (PFSRD)",
+  "version": "2",
   "dataPath": "games/pathfinder-1e/data/",
   "rulesUrl": "dist/pathfinder-1e/",
-  "dataType": "entity",
   "categories": [
     {
       "id": "spells",
       "label": "Spells",
       "file": "spells.json",
       "color": "#7b5ea7",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "school"],
       "tag": { "field": "min_level", "prefix": "Lvl " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["Level {min_level} {school}", "{casting_time} · {range} · {duration}"],
+        "description": "short_description"
+      },
       "linkPath": "rules/spells/"
     },
     {
@@ -18,8 +26,16 @@
       "label": "Monsters",
       "file": "monsters.json",
       "color": "#c0392b",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "creature_type"],
       "tag": { "field": "cr", "prefix": "CR " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{size} {creature_type}, {alignment}", "AC {ac} · HP {hp} · CR {cr}"],
+        "description": null
+      },
       "linkPath": "rules/bestiary/"
     },
     {
@@ -27,7 +43,15 @@
       "label": "Classes",
       "file": "classes.json",
       "color": "#2980b9",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name"],
+      "cardFields": {
+        "title": "name",
+        "meta": ["Hit Die: d{hit_die} · BAB: {bab_progression} · Skills: {skill_ranks_per_level}/lvl"],
+        "description": null
+      },
       "linkPath": "rules/classes/"
     },
     {
@@ -35,8 +59,16 @@
       "label": "Feats",
       "file": "feats.json",
       "color": "#d35400",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "type"],
       "tag": { "field": "type" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{type}"],
+        "description": "benefit"
+      },
       "linkPath": null
     },
     {
@@ -44,8 +76,16 @@
       "label": "Equipment",
       "file": "equipment.json",
       "color": "#7f8c8d",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "category"],
       "tag": { "field": "category" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{category}", "{price}"],
+        "description": null
+      },
       "linkPath": null
     },
     {
@@ -53,7 +93,15 @@
       "label": "Races",
       "file": "races.json",
       "color": "#27ae60",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name"],
+      "cardFields": {
+        "title": "name",
+        "meta": [],
+        "description": "description"
+      },
       "linkPath": "rules/races/"
     },
     {
@@ -61,7 +109,15 @@
       "label": "Conditions",
       "file": "conditions.json",
       "color": "#e67e22",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name"],
+      "cardFields": {
+        "title": "name",
+        "meta": [],
+        "description": "description"
+      },
       "linkPath": "rules/glossary-conditions/"
     },
     {
@@ -69,51 +125,17 @@
       "label": "Skills",
       "file": "skills.json",
       "color": "#16a085",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "attribute"],
       "tag": { "field": "attribute" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{attribute}", "Trained only: {trained_only}"],
+        "description": "description"
+      },
       "linkPath": "rules/skills/"
     }
-  ],
-  "cardFields": {
-    "spells": {
-      "title": "name",
-      "meta": ["Level {min_level} {school}", "{casting_time} · {range} · {duration}"],
-      "description": "short_description"
-    },
-    "monsters": {
-      "title": "name",
-      "meta": ["{size} {creature_type}, {alignment}", "AC {ac} · HP {hp} · CR {cr}"],
-      "description": null
-    },
-    "classes": {
-      "title": "name",
-      "meta": ["Hit Die: d{hit_die} · BAB: {bab_progression} · Skills: {skill_ranks_per_level}/lvl"],
-      "description": null
-    },
-    "feats": {
-      "title": "name",
-      "meta": ["{type}"],
-      "description": "benefit"
-    },
-    "equipment": {
-      "title": "name",
-      "meta": ["{category}", "{price}"],
-      "description": null
-    },
-    "races": {
-      "title": "name",
-      "meta": [],
-      "description": "description"
-    },
-    "conditions": {
-      "title": "name",
-      "meta": [],
-      "description": "description"
-    },
-    "skills": {
-      "title": "name",
-      "meta": ["{attribute}", "Trained only: {trained_only}"],
-      "description": "description"
-    }
-  }
+  ]
 }

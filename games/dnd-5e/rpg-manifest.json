@@ -1,16 +1,25 @@
 {
   "label": "D&D 5e SRD",
+  "version": "2",
   "dataPath": "games/dnd-5e/data/",
   "rulesUrl": "dist/dnd-5e/",
-  "dataType": "entity",
   "categories": [
     {
       "id": "spells",
       "label": "Spells",
       "file": "spells.json",
       "color": "#7b5ea7",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "school.name"],
       "tag": { "field": "level", "prefix": "Lvl " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["Level {level} {school.name}", "{casting_time} · {range} · {duration}"],
+        "tags": "components",
+        "description": "desc[0]"
+      },
       "linkPath": "spells/{level|levelSlug}/"
     },
     {
@@ -18,8 +27,17 @@
       "label": "Monsters",
       "file": "monsters.json",
       "color": "#c0392b",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "type"],
       "tag": { "field": "challenge_rating", "prefix": "CR " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{size} {type}, {alignment}", "AC {armor_class[0].value} · HP {hit_points} · CR {challenge_rating}"],
+        "stats": "STR {strength} DEX {dexterity} CON {constitution} INT {intelligence} WIS {wisdom} CHA {charisma}",
+        "description": null
+      },
       "linkPath": "monsters/{name|alphaGroup}/"
     },
     {
@@ -27,7 +45,15 @@
       "label": "Classes",
       "file": "classes.json",
       "color": "#2980b9",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name"],
+      "cardFields": {
+        "title": "name",
+        "meta": ["Hit Die: d{hit_die}"],
+        "description": null
+      },
       "linkPath": "classes/{name|kebabCase}/"
     },
     {
@@ -35,8 +61,16 @@
       "label": "Equipment",
       "file": "equipment.json",
       "color": "#7f8c8d",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name", "equipment_category.name"],
       "tag": { "field": "equipment_category.name" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{equipment_category.name}", "{cost.quantity} {cost.unit}"],
+        "description": "desc[0]"
+      },
       "linkPath": null
     },
     {
@@ -44,8 +78,16 @@
       "label": "Magic Items",
       "file": "magic-items.json",
       "color": "#d4ac0d",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name"],
       "tag": { "field": "rarity.name" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{rarity.name}"],
+        "description": "desc[0]"
+      },
       "linkPath": "magic-items/{name|alphaGroup}/"
     },
     {
@@ -53,7 +95,15 @@
       "label": "Races",
       "file": "races.json",
       "color": "#27ae60",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name"],
+      "cardFields": {
+        "title": "name",
+        "meta": ["Speed: {speed} ft"],
+        "description": "size_description"
+      },
       "linkPath": "rules/races/"
     },
     {
@@ -61,47 +111,16 @@
       "label": "Conditions",
       "file": "conditions.json",
       "color": "#e67e22",
+      "dataType": "entity",
+      "arrayKey": null,
+      "displayField": "name",
       "searchFields": ["name"],
+      "cardFields": {
+        "title": "name",
+        "meta": [],
+        "description": "desc[0]"
+      },
       "linkPath": "rules/conditions/"
     }
-  ],
-  "cardFields": {
-    "spells": {
-      "title": "name",
-      "meta": ["Level {level} {school.name}", "{casting_time} · {range} · {duration}"],
-      "tags": "components",
-      "description": "desc[0]"
-    },
-    "monsters": {
-      "title": "name",
-      "meta": ["{size} {type}, {alignment}", "AC {armor_class[0].value} · HP {hit_points} · CR {challenge_rating}"],
-      "stats": "STR {strength} DEX {dexterity} CON {constitution} INT {intelligence} WIS {wisdom} CHA {charisma}",
-      "description": null
-    },
-    "classes": {
-      "title": "name",
-      "meta": ["Hit Die: d{hit_die}"],
-      "description": null
-    },
-    "equipment": {
-      "title": "name",
-      "meta": ["{equipment_category.name}", "{cost.quantity} {cost.unit}"],
-      "description": "desc[0]"
-    },
-    "magic-items": {
-      "title": "name",
-      "meta": ["{rarity.name}"],
-      "description": "desc[0]"
-    },
-    "races": {
-      "title": "name",
-      "meta": ["Speed: {speed} ft"],
-      "description": "size_description"
-    },
-    "conditions": {
-      "title": "name",
-      "meta": [],
-      "description": "desc[0]"
-    }
-  }
+  ]
 }

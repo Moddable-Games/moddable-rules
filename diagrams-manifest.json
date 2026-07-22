@@ -3792,6 +3792,28 @@
     "players": 2
   },
   {
+    "family": "brp",
+    "familyTitle": "Basic Roleplaying",
+    "variant": "reference",
+    "variantTitle": "Basic Roleplaying",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/brp/index.html",
+    "status": "generator",
+    "reason": "rpg-provider"
+  },
+  {
+    "family": "cairn",
+    "familyTitle": "Cairn",
+    "variant": "reference",
+    "variantTitle": "Cairn",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/cairn/index.html",
+    "status": "generator",
+    "reason": "rpg-provider"
+  },
+  {
     "family": "dnd-5e",
     "familyTitle": "Dungeons & Dragons 5th Edition SRD",
     "variant": "reference",
@@ -3822,6 +3844,17 @@
     "topology": "rpg",
     "svg": null,
     "rulesUrl": "dist/ironsworn/index.html",
+    "status": "generator",
+    "reason": "rpg-provider"
+  },
+  {
+    "family": "knave",
+    "familyTitle": "Knave",
+    "variant": "reference",
+    "variantTitle": "Knave",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/knave/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },

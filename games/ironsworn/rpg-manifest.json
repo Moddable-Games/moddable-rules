@@ -1,19 +1,80 @@
 {
   "label": "Ironsworn",
+  "version": "2",
   "dataPath": "games/ironsworn/oracles/",
   "rulesUrl": "dist/ironsworn/",
-  "dataType": "oracle",
   "categories": [
-    { "id": "action", "label": "Action", "file": "action.json", "color": "#3498db", "linkPath": null },
-    { "id": "theme", "label": "Theme", "file": "theme.json", "color": "#9b59b6", "linkPath": null },
-    { "id": "combat-action", "label": "Combat", "file": "combat-action.json", "color": "#e74c3c", "linkPath": null },
-    { "id": "pay-the-price", "label": "Pay the Price", "file": "pay-the-price.json", "color": "#f39c12", "linkPath": null },
-    { "id": "major-plot-twist", "label": "Plot Twist", "file": "major-plot-twist.json", "color": "#8e44ad", "linkPath": null },
-    { "id": "challenge-rank", "label": "Challenge", "file": "challenge-rank.json", "color": "#16a085", "linkPath": null }
-  ],
-  "cardFields": {
-    "title": "result",
-    "meta": "{_tableName} · Roll: {range}",
-    "description": null
-  }
+    {
+      "id": "action",
+      "label": "Action",
+      "file": "action.json",
+      "color": "#3498db",
+      "dataType": "oracle",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {min}–{max}"] },
+      "linkPath": null
+    },
+    {
+      "id": "theme",
+      "label": "Theme",
+      "file": "theme.json",
+      "color": "#9b59b6",
+      "dataType": "oracle",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {min}–{max}"] },
+      "linkPath": null
+    },
+    {
+      "id": "combat-action",
+      "label": "Combat",
+      "file": "combat-action.json",
+      "color": "#e74c3c",
+      "dataType": "oracle",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {min}–{max}"] },
+      "linkPath": null
+    },
+    {
+      "id": "pay-the-price",
+      "label": "Pay the Price",
+      "file": "pay-the-price.json",
+      "color": "#f39c12",
+      "dataType": "oracle",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {min}–{max}"] },
+      "linkPath": null
+    },
+    {
+      "id": "major-plot-twist",
+      "label": "Plot Twist",
+      "file": "major-plot-twist.json",
+      "color": "#8e44ad",
+      "dataType": "oracle",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {min}–{max}"] },
+      "linkPath": null
+    },
+    {
+      "id": "challenge-rank",
+      "label": "Challenge",
+      "file": "challenge-rank.json",
+      "color": "#16a085",
+      "dataType": "oracle",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {min}–{max}"] },
+      "linkPath": null
+    }
+  ]
 }

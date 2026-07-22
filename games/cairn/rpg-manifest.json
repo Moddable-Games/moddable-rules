@@ -1,15 +1,148 @@
 {
   "label": "Cairn",
+  "version": "2",
   "dataPath": "games/cairn/tables/",
   "rulesUrl": "dist/cairn/",
-  "dataType": "table",
   "categories": [
-    { "id": "backgrounds", "label": "Backgrounds", "file": "backgrounds.json", "color": "#2e7d32", "linkPath": null },
-    { "id": "bestiary", "label": "Bestiary", "file": "bestiary.json", "color": "#8d2e2e", "linkPath": null }
-  ],
-  "cardFields": {
-    "title": "name",
-    "meta": "{_tableName} · Roll: {roll}",
-    "description": "text"
-  }
+    {
+      "id": "backgrounds",
+      "label": "Backgrounds",
+      "file": "backgrounds.json",
+      "color": "#2e7d32",
+      "dataType": "entity",
+      "arrayKey": "backgrounds",
+      "displayField": "name",
+      "searchFields": ["name", "quote"],
+      "cardFields": {
+        "title": "name",
+        "meta": ["{quote}"],
+        "description": null
+      },
+      "linkPath": null
+    },
+    {
+      "id": "bestiary",
+      "label": "Bestiary",
+      "file": "bestiary.json",
+      "color": "#8d2e2e",
+      "dataType": "entity",
+      "arrayKey": "monsters",
+      "displayField": "name",
+      "searchFields": ["name", "traits"],
+      "tag": { "field": "hp", "prefix": "HP " },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{stat_line}", "HP {hp} · Armor {armor}"],
+        "stats": "STR {str} DEX {dex} WIL {wil}",
+        "description": "traits"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "spellbooks",
+      "label": "Spellbooks",
+      "file": "spellbooks.json",
+      "color": "#9b59b6",
+      "dataType": "entity",
+      "arrayKey": "tables[0].entries",
+      "displayField": "name",
+      "searchFields": ["name", "effect"],
+      "tag": { "field": "roll", "prefix": "#" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["Spell #{roll}"],
+        "description": "effect"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "reliquary",
+      "label": "Relics",
+      "file": "reliquary.json",
+      "color": "#d4ac0d",
+      "dataType": "entity",
+      "arrayKey": "items",
+      "displayField": "name",
+      "searchFields": ["name"],
+      "tag": { "field": "uses" },
+      "cardFields": {
+        "title": "name",
+        "meta": ["Uses: {uses}"],
+        "description": "effects[0]"
+      },
+      "linkPath": null
+    },
+    {
+      "id": "naming",
+      "label": "Naming",
+      "file": "naming-tables.json",
+      "color": "#16a085",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    },
+    {
+      "id": "npcs",
+      "label": "NPCs",
+      "file": "npc-tables.json",
+      "color": "#e67e22",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    },
+    {
+      "id": "dungeon-seeds",
+      "label": "Dungeon Seeds",
+      "file": "dungeon-seeds-tables.json",
+      "color": "#8e44ad",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    },
+    {
+      "id": "forest-seeds",
+      "label": "Forest Seeds",
+      "file": "forest-seeds-tables.json",
+      "color": "#27ae60",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    },
+    {
+      "id": "setting-seeds",
+      "label": "Setting Seeds",
+      "file": "setting-seeds-tables.json",
+      "color": "#3498db",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    },
+    {
+      "id": "monster-creation",
+      "label": "Monster Creation",
+      "file": "monster-creation-tables.json",
+      "color": "#c0392b",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["result"],
+      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "linkPath": null
+    }
+  ]
 }
