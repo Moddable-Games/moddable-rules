@@ -3794,6 +3794,17 @@
   {
     "family": "brp",
     "familyTitle": "Basic Roleplaying",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/brp/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
+    "family": "brp",
+    "familyTitle": "Basic Roleplaying",
     "variant": "reference",
     "variantTitle": "Basic Roleplaying",
     "topology": "rpg",
@@ -3801,6 +3812,17 @@
     "rulesUrl": "dist/brp/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "cairn",
+    "familyTitle": "Cairn",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/cairn/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "cairn",
@@ -3816,6 +3838,17 @@
   {
     "family": "dnd-5e",
     "familyTitle": "Dungeons & Dragons 5th Edition SRD",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/dnd-5e/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
+    "family": "dnd-5e",
+    "familyTitle": "Dungeons & Dragons 5th Edition SRD",
     "variant": "reference",
     "variantTitle": "Dungeons & Dragons 5th Edition SRD",
     "topology": "rpg",
@@ -3823,6 +3856,17 @@
     "rulesUrl": "dist/dnd-5e/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "dungeon-world",
+    "familyTitle": "Dungeon World",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/dungeon-world/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "dungeon-world",
@@ -3850,6 +3894,17 @@
   {
     "family": "fate-core",
     "familyTitle": "Fate Core",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/fate-core/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
+    "family": "fate-core",
+    "familyTitle": "Fate Core",
     "variant": "reference",
     "variantTitle": "Fate Core",
     "topology": "rpg",
@@ -3857,6 +3912,17 @@
     "rulesUrl": "dist/fate-core/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "ironsworn",
+    "familyTitle": "Ironsworn",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/ironsworn/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "ironsworn",
@@ -3872,6 +3938,17 @@
   {
     "family": "knave",
     "familyTitle": "Knave",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/knave/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
+    "family": "knave",
+    "familyTitle": "Knave",
     "variant": "reference",
     "variantTitle": "Knave",
     "topology": "rpg",
@@ -3879,6 +3956,17 @@
     "rulesUrl": "dist/knave/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "maze-rats",
+    "familyTitle": "Maze Rats",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/maze-rats/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "maze-rats",
@@ -3920,6 +4008,17 @@
   {
     "family": "pathfinder-1e",
     "familyTitle": "Pathfinder 1st Edition (PFSRD)",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/pathfinder-1e/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
+    "family": "pathfinder-1e",
+    "familyTitle": "Pathfinder 1st Edition (PFSRD)",
     "variant": "reference",
     "variantTitle": "Pathfinder 1st Edition (PFSRD)",
     "topology": "rpg",
@@ -3927,6 +4026,17 @@
     "rulesUrl": "dist/pathfinder-1e/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "starforged",
+    "familyTitle": "Starforged",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/starforged/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "starforged",

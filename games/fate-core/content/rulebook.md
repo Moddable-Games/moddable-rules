@@ -73,7 +73,7 @@ Fate Core is a generic, narrative-first tabletop RPG by Evil Hat Productions, bu
 
 ### Data
 
-- [Skills](../games/fate-core/data/skills.json) — All 18 default skills with actions, descriptions, and example stunts
-- [The Ladder](../games/fate-core/data/ladder.json) — Adjective ladder from Terrible (-2) to Legendary (+8)
+- [skills.json](../../games/fate-core/data/skills.json) — All 18 default skills with actions, descriptions, and example stunts
+- [ladder.json](../../games/fate-core/data/ladder.json) — Adjective ladder from Terrible (-2) to Legendary (+8)
 
 </div>
