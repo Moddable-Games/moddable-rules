@@ -1,0 +1,16 @@
+{
+  "name": "Dungeon World: Classes",
+  "game": "dungeon-world",
+  "licence": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+  "attribution": "Dungeon World © Sage LaTorra and Adam Koebel. Source: Sagelt/Dungeon-World.",
+  "classes": [
+    {"name": "Bard", "hp": "6+Constitution", "damage": "d6", "description": "A smooth-tongued teller-of-tales and singer-of-songs who weaves performances into arcane spells, uncovers hidden lore, and disarms with charm.", "linkPath": "bard"},
+    {"name": "Cleric", "hp": "8+Constitution", "damage": "d6", "description": "A divine servant who channels the favor of a chosen deity into healing, protection, and spells granted through prayer and communion.", "linkPath": "cleric"},
+    {"name": "Druid", "hp": "6+Constitution", "damage": "d6", "description": "A shapeshifter bonded to the spirits of a wild land, able to take animal form and speak with the creatures of the wild.", "linkPath": "druid"},
+    {"name": "Fighter", "hp": "10+Constitution", "damage": "d10", "description": "A hardened warrior built to stand at the front line, wielding a signature weapon and shrugging off wounds others couldn't survive.", "linkPath": "fighter"},
+    {"name": "Paladin", "hp": "10+Constitution", "damage": "d10", "description": "A holy warrior bound by vows and quests, commanding divine authority, healing touch, and righteous smiting power.", "linkPath": "paladin"},
+    {"name": "Ranger", "hp": "8+Constitution", "damage": "d8", "description": "A hunter and tracker of the wilds, bonded to a loyal animal companion and deadly with called shots at range.", "linkPath": "ranger"},
+    {"name": "Thief", "hp": "6+Constitution", "damage": "d8", "description": "A dagger-in-the-dark specialist in traps, locks, poison, and the backstab, living well off the spoils of other people's dungeons.", "linkPath": "thief"},
+    {"name": "Wizard", "hp": "4+Constitution", "damage": "d4", "description": "A fragile but powerful spellcaster who prepares spells from a hand-inscribed spellbook and bends reality through ritual magic.", "linkPath": "wizard"}
+  ]
+}
