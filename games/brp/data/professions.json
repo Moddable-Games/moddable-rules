@@ -1,0 +1,28 @@
+{
+  "name": "BRP: Professions",
+  "game": "brp",
+  "licence": "BRP Open Game License, Version 1.0",
+  "attribution": "Basic Roleplaying © copyright 1980–2020 Chaosium Inc. Source: brp.chaosium.com.",
+  "usage_note": "Each player character receives 300 skill points to allocate among a profession's listed skills, added to the skill's base chance. Where a profession lists 'X of the following', the player picks that many from the given options in addition to the fixed skills before it.",
+  "tables": [
+    {
+      "id": "professions",
+      "name": "Professions",
+      "roll": "Player choice (no roll)",
+      "entries": [
+        { "name": "Cowboy", "skills": "Craft (usually knots), Firearm (Rifle), Knowledge (Natural History), Knowledge (Local Area), Listen, Navigate, Ride, Spot, Throw, Track." },
+        { "name": "Detective", "skills": "Firearm (Handgun), Knowledge (Law), Listen, Persuade, Spot, Research, and four of the following: Art, Brawl, Disguise, Dodge, Drive, Fast Talk, Firearm (any), Grapple, Hide, Insight, Knowledge (any), Language (Other), Language (Own), Medicine, Ride, Science (any), Technical (Computer Use), Stealth, or Track." },
+        { "name": "Doctor", "skills": "First Aid, Language (Own), Medicine, Persuade, Research, Spot, and choose four of the following: Insight, Language (Other), Psychotherapy, Science (any), and Status." },
+        { "name": "Hunter", "skills": "Climb, Hide, Listen, Navigate, Spot, Stealth, Track, and three of the following: Firearm (Handgun, Rifle, or Shotgun), Knowledge (Natural History or Region), Melee Weapon (usually Spear), Missile Weapon (any), Language (Other), and Ride." },
+        { "name": "Lawman", "skills": "Brawl, Dodge, Fast Talk, Knowledge (Law), Listen, Spot, and four of the following: Drive, Firearms (any), First Aid, Grapple, Insight, Knowledge (Region or Group), Language (Other), Martial Arts, Melee Weapon (any), Missile Weapon (any), Pilot (any), Ride, Status, Technical (Computer Use), or Track." },
+        { "name": "Noble", "skills": "Bargain, Drive, Etiquette, Language (Own), Language (Other), Literacy, and Status, plus any other three skills as hobbies or fields of interest." },
+        { "name": "Sailor", "skills": "Climb, Craft (any), Dodge, Grapple, Navigate, Pilot (Boat), Swim, and any three of the following: Artillery (any, usually shipboard), Command, Language (Other), Listen, Repair (Mechanical), Repair (Structural), or Spot." },
+        { "name": "Scientist", "skills": "Craft (any), Persuade, Research, Status, Technical (Computer Use) or Heavy Machine, and any five appropriate Knowledge or Science related to field of study." },
+        { "name": "Soldier", "skills": "Brawl, Climb, Dodge, First Aid, and six of the following: Artillery, Command, Drive, Firearm (usually Rifle, but any), Grapple, Heavy Weapon (any), Hide, Language (Other), Listen, Jump, Medicine, Melee Weapon (any), Missile Weapon (any), Navigate, Repair (Mechanical), Ride, Spot, Stealth, or Throw." },
+        { "name": "Spy", "skills": "Dodge, Fast Talk, Hide, Listen, Research, Spot, Stealth, and three of the following: Art (Photography), Brawl, Disguise, Etiquette, Firearm (any), Grapple, Insight, Knowledge (any), Language (Other), Language (Own), Martial Arts, Navigate, Pilot (any), Repair (Electronics), Repair (Mechanical), Ride, Swim, Technical (Computer Use), Throw, or Track." },
+        { "name": "Thief", "skills": "Appraise, Dodge, Fast Talk, Hide, Stealth, and five other skills from the following list: Bargain, Brawl, Climb, Disguise, Fine Manipulation, Firearm (Handgun or Shotgun), Grapple, Insight, Listen, Jump, Knowledge (Law), Persuade, Repair (Mechanical), or Spot." },
+        { "name": "Warrior", "skills": "Brawl, Dodge, Grapple, Melee Weapon (any), Missile Weapon (any), and five other skills from the following list: Climb, Firearm (any), Hide, Listen, Jump, Language (Other), Martial Arts, Ride, Spot, Stealth, Swim, Throw, Track." }
+      ]
+    }
+  ]
+}
