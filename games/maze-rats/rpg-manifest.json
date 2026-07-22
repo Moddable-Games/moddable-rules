@@ -1,0 +1,20 @@
+{
+  "label": "Maze Rats",
+  "dataPath": "games/maze-rats/data/",
+  "rulesUrl": "dist/maze-rats/",
+  "dataType": "table",
+  "categories": [
+    { "id": "magic", "label": "Magic", "file": "magic.json", "color": "#9b59b6", "linkPath": null },
+    { "id": "monsters-animals", "label": "Monsters & Animals", "file": "monsters-animals.json", "color": "#e74c3c", "linkPath": null },
+    { "id": "characters", "label": "Characters", "file": "characters.json", "color": "#3498db", "linkPath": null },
+    { "id": "treasure-equipment", "label": "Treasure & Equipment", "file": "treasure-equipment.json", "color": "#f39c12", "linkPath": null },
+    { "id": "city", "label": "City", "file": "city.json", "color": "#16a085", "linkPath": null },
+    { "id": "wild", "label": "The Wild", "file": "wild.json", "color": "#27ae60", "linkPath": null },
+    { "id": "maze", "label": "The Maze", "file": "maze.json", "color": "#8e44ad", "linkPath": null }
+  ],
+  "cardFields": {
+    "title": "result",
+    "meta": "{_tableName} · Roll: {roll}",
+    "description": null
+  }
+}

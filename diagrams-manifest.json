@@ -3717,6 +3717,17 @@
     "reason": "rpg-provider"
   },
   {
+    "family": "maze-rats",
+    "familyTitle": "Maze Rats",
+    "variant": "reference",
+    "variantTitle": "Maze Rats",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/maze-rats/index.html",
+    "status": "generator",
+    "reason": "rpg-provider"
+  },
+  {
     "family": "mongo",
     "familyTitle": "Planet Mongo",
     "variant": "standard",

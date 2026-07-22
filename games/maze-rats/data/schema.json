@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maze Rats Table File",
+  "description": "Schema for Maze Rats procedural table JSON files. Each file groups related tables from one section of the source booklet.",
+  "type": "object",
+  "required": ["name", "game", "licence", "attribution", "tables"],
+  "properties": {
+    "name": { "type": "string", "example": "Maze Rats: Magic Tables" },
+    "game": { "type": "string", "const": "maze-rats" },
+    "licence": { "type": "string", "const": "CC BY 4.0" },
+    "attribution": {
+      "type": "string",
+      "example": "Maze Rats, copyright Ben Milton (questingblog.com). Licensed under CC BY 4.0."
+    },
+    "usage_note": {
+      "type": "string",
+      "description": "File-level note on the roll convention (2d6 group-of-6 for 36-entry tables)."
+    },
+    "tables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "roll", "entries"],
+        "properties": {
+          "id": { "type": "string", "description": "URL-safe identifier, referenced elsewhere as {id}", "example": "wilderness-hazards" },
+          "name": { "type": "string", "description": "Display name for this table" },
+          "roll": { "type": "string", "description": "Die/mechanic used to roll this table, e.g. '2d6 (group of 6 / item in group)', '1d6', '1d12'" },
+          "usage_note": { "type": "string", "description": "Optional note on how or when to use this table" },
+          "count_note": { "type": "string", "description": "Optional note when the source's entry count differs from the expected 36 (34/35/37/38); states the discrepancy rather than silently padding or trimming" },
+          "entries": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Either a flat array of result strings (most tables), or an array of objects for tables with explicit numeric ranges or combinator logic",
+            "items": {
+              "oneOf": [
+                { "type": "string" },
+                {
+                  "type": "object",
+                  "properties": {
+                    "min": { "type": "integer" },
+                    "max": { "type": "integer" },
+                    "roll": { "type": "integer" },
+                    "result": { "type": "string" },
+                    "formula": { "type": "array", "items": { "type": "string" } }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
