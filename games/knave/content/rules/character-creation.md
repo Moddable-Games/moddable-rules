@@ -19,7 +19,7 @@ Repeat this process for the rest of the abilities.
 >
 > The rolling mechanic will make most abilities start at 11/+1. The bonus and defense of three abilities will rise by 1 point each time the PC gains a level, up to a maximum of 20/+10 by level 10. This puts everything on an intuitive ten point scale, and is intended to mirror the way that attack bonuses, hit dice, and saving throws in most OSR games increase by about one point per level.
 
-PCs start with 2 days of rations and one weapon of their player's choice. Roll on the Starting Gear tables (see [starting-gear.json](../../../games/knave/data/starting-gear.json)) to determine starting armor and equipment: once each on Armor and Helmets and Shields, twice on Dungeoneering Gear, and once each on General Gear 1 and General Gear 2.
+PCs start with 2 days of rations and one weapon of their player's choice. Roll on the Starting Gear tables (see [starting-gear.json](../../../../games/knave/data/starting-gear.json)) to determine starting armor and equipment: once each on Armor and Helmets and Shields, twice on Dungeoneering Gear, and once each on General Gear 1 and General Gear 2.
 
 > **Designer's Note:** Rolling for starting equipment dramatically speeds up the character creation process, which is important if you're playing a high-lethality game like Knave. If you want to permit shopping for equipment, however, have players roll 3d6x20 to find their starting copper pieces. Note that spell books are not normally available to new PCs, but you could always add "random spellbook" to the Dungeoneering Gear table, or simply allow new PCs to roll a random spell in exchange for not starting with any armor.
 
@@ -43,6 +43,6 @@ Roll 1d8 to determine your PC's starting and maximum hit points. A PC's healing 
 
 ### Traits
 
-Invent or roll the rest of your PC's traits, physique, face, skin, hair, clothing, virtue, vice, speech, background, and alignment, using the random tables in [traits.json](../../../games/knave/data/traits.json). Choose a gender and a name for your PC, but don't get too attached. It's a dangerous world out there.
+Invent or roll the rest of your PC's traits, physique, face, skin, hair, clothing, virtue, vice, speech, background, and alignment, using the random tables in [traits.json](../../../../games/knave/data/traits.json). Choose a gender and a name for your PC, but don't get too attached. It's a dangerous world out there.
 
 > **Designer's Note:** Randomizing most of a PC's traits speeds up character creation, but it also has the effect of creating surprising, unique characters that most players wouldn't think to invent or play.

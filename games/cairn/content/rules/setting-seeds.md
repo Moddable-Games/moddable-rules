@@ -170,7 +170,7 @@ Roll on `poi-settlements`, `poi-waypoints`, `poi-curiosities`, `poi-lairs`, or `
   - A short distance between POIs takes one Watch to traverse, a medium distance takes two Watches, and a long distance takes three Watches.
   - For Trails, add 1 more Watch, and for Wilderness routes, add 2 additional Watches.
 
-All of the tables referenced above (Culture, Resources, Faction Types/Traits/Advantages/Agendas/Actions, Terrain Die Drop, Terrain: Easy/Tough/Perilous, Seasonal/Unusual Weather, POI Die Drop, POI: Settlements/Waypoints/Curiosities/Lairs/Dungeons, Path Features) are published as structured data — see [`setting-seeds-tables.json`](../../../games/cairn/tables/setting-seeds-tables.json) in the Cairn tables index.
+All of the tables referenced above (Culture, Resources, Faction Types/Traits/Advantages/Agendas/Actions, Terrain Die Drop, Terrain: Easy/Tough/Perilous, Seasonal/Unusual Weather, POI Die Drop, POI: Settlements/Waypoints/Curiosities/Lairs/Dungeons, Path Features) are published as structured data — see [`setting-seeds-tables.json`](../../../../games/cairn/tables/setting-seeds-tables.json) in the Cairn tables index.
 
 ### Put It All Together
 

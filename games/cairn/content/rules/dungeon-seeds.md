@@ -47,7 +47,7 @@ Follow this procedure for any dungeon POIs in your setting. Refer to the dungeon
 
 #### History
 
-Who built the dungeon? What was its originally used for? Perhaps it was once a great forge, capable of building the world's most powerful weapon. Or maybe it was once a burial site for ancient kings, binding their souls to the lands they once ruled. Roll on the tables below (see the [Dungeon Seeds table set](../../../games/cairn/tables/dungeon-seeds-tables.json)), noting the results in your notebook, keeping the following questions in mind:
+Who built the dungeon? What was its originally used for? Perhaps it was once a great forge, capable of building the world's most powerful weapon. Or maybe it was once a burial site for ancient kings, binding their souls to the lands they once ruled. Roll on the tables below (see the [Dungeon Seeds table set](../../../../games/cairn/tables/dungeon-seeds-tables.json)), noting the results in your notebook, keeping the following questions in mind:
 
 _"What kind of dungeon is this, and what makes it unusual?"_
 
@@ -124,7 +124,7 @@ A trap is a dangerous and hidden object, typically triggered through interaction
 
 Roll on `dungeon-room-trap` (Trap / Trigger).
 
-All of the tables referenced above (Purpose, Construction, Ruination, Denizen Traits, Faction Agendas, Die Drop, Room: Monster/Lore/Special/Trap) are published as structured data — see [`dungeon-seeds-tables.json`](../../../games/cairn/tables/dungeon-seeds-tables.json) in the Cairn tables index.
+All of the tables referenced above (Purpose, Construction, Ruination, Denizen Traits, Faction Agendas, Die Drop, Room: Monster/Lore/Special/Trap) are published as structured data — see [`dungeon-seeds-tables.json`](../../../../games/cairn/tables/dungeon-seeds-tables.json) in the Cairn tables index.
 
 ## Example Dungeon
 

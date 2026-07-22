@@ -107,7 +107,7 @@ The Wood is a dangerous place and not to be trifled with. The forest and its inh
 
 Roll on `forest-poi-hazard` (Hazard / Feature).
 
-All of the tables referenced above (Description, Traits, Forest Agenda, Die Drop, Trail Types, POI: Monster/Ruins/Shelter/Hazard, Encounters) are published as structured data — see [`forest-seeds-tables.json`](../../../games/cairn/tables/forest-seeds-tables.json) in the Cairn tables index.
+All of the tables referenced above (Description, Traits, Forest Agenda, Die Drop, Trail Types, POI: Monster/Ruins/Shelter/Hazard, Encounters) are published as structured data — see [`forest-seeds-tables.json`](../../../../games/cairn/tables/forest-seeds-tables.json) in the Cairn tables index.
 
 ## Example Forest
 
@@ -373,4 +373,4 @@ A ramshackle **hut** built beside a small **lake** to the North. **Smoke** strea
 
 ### Encounters
 
-The full "Forest Encounters" 1d6 table used for wandering encounters is published as structured data — see `forest-encounters` in [`forest-seeds-tables.json`](../../../games/cairn/tables/forest-seeds-tables.json).
+The full "Forest Encounters" 1d6 table used for wandering encounters is published as structured data — see `forest-encounters` in [`forest-seeds-tables.json`](../../../../games/cairn/tables/forest-seeds-tables.json).

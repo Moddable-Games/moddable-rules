@@ -41,4 +41,4 @@ Optionally, replace any value with the dominant terrain synonym, e.g. "_The Mist
 - Use contrasting words (e.g. _Twisted Canopy_) to evoke an interesting point about the location.
 - Make it sound nice. Alliteration and pleasing combinations can create pleasant sounds. _Whispering Woods_ is more pleasing to the ear than _Tangled Woods._
 
-All of the tables referenced above (Names Formula, Adjectives, Nouns, Terrain Synonyms, Group Types, Faction Names Formula, Ruler Types, Realm Names Formula, Forest Name Adjectives/Nouns) are published as structured data — see [`naming-tables.json`](../../../games/cairn/tables/naming-tables.json) in the Cairn tables index.
+All of the tables referenced above (Names Formula, Adjectives, Nouns, Terrain Synonyms, Group Types, Faction Names Formula, Ruler Types, Realm Names Formula, Forest Name Adjectives/Nouns) are published as structured data — see [`naming-tables.json`](../../../../games/cairn/tables/naming-tables.json) in the Cairn tables index.
