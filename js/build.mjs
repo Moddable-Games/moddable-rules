@@ -1390,9 +1390,9 @@ function buildBoards() {
       index.push(entry);
     }
 
-    // RPG reference tools — single entry per game
+    // RPG reference tools — provider + chargen entries per game
     if (rbMeta.type === 'rpg') {
-      const existing = index.find(e => e.family === family);
+      const existing = index.find(e => e.family === family && e.reason === 'rpg-provider');
       if (!existing) {
         index.push({
           family,
@@ -1405,6 +1405,26 @@ function buildBoards() {
           status: 'generator',
           reason: 'rpg-provider',
         });
+      }
+      const rpgManifestPath = resolve(GAMES_DIR, family, 'rpg-manifest.json');
+      if (existsSync(rpgManifestPath)) {
+        const rpgManifest = JSON.parse(readFileSync(rpgManifestPath, 'utf8'));
+        if (rpgManifest.chargen) {
+          const chargenExisting = index.find(e => e.family === family && e.reason === 'rpg-chargen');
+          if (!chargenExisting) {
+            index.push({
+              family,
+              familyTitle,
+              variant: 'character-sheet',
+              variantTitle: 'Character Sheet',
+              topology: 'rpg',
+              svg: null,
+              rulesUrl: `dist/${family}/index.html`,
+              status: 'generator',
+              reason: 'rpg-chargen',
+            });
+          }
+        }
       }
     }
 
