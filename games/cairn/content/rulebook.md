@@ -69,3 +69,27 @@ A character's role or skills are not limited by a class. Instead, the equipment 
 - [Bibliography](rules/bibliography/) — Design influences and further reading credited by the original text
 
 </div>
+
+<div class="section">
+
+### Structured Tables
+
+Machine-readable JSON for all procedural generation tables. See the [tables index](../../games/cairn/tables/index.md) for the full list and schema.
+
+**Entities:**
+
+- [backgrounds.json](../../games/cairn/tables/backgrounds.json) — 20 Backgrounds with names, starting gear, and roll tables
+- [bestiary.json](../../games/cairn/tables/bestiary.json) — 84 monsters with HP, armor, stats, attacks, and traits
+- [spellbooks.json](../../games/cairn/tables/spellbooks.json) — 100 Spellbooks with effects and mundane effects
+- [reliquary.json](../../games/cairn/tables/reliquary.json) — 46 Relics with uses and recharge conditions
+
+**Roll Tables:**
+
+- [naming-tables.json](../../games/cairn/tables/naming-tables.json) — formulas and word lists for settlements, factions, realms, forests
+- [npc-tables.json](../../games/cairn/tables/npc-tables.json) — quick NPC generation (traits, quirks, motivation)
+- [monster-creation-tables.json](../../games/cairn/tables/monster-creation-tables.json) — appearance, traits, attacks, abilities combinators
+- [dungeon-seeds-tables.json](../../games/cairn/tables/dungeon-seeds-tables.json) — purpose, construction, denizens, room stocking (monster/lore/special/trap)
+- [forest-seeds-tables.json](../../games/cairn/tables/forest-seeds-tables.json) — description, trails, POIs, encounters
+- [setting-seeds-tables.json](../../games/cairn/tables/setting-seeds-tables.json) — culture, factions, terrain, weather, paths
+
+</div>
