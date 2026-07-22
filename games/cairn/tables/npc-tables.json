@@ -1,0 +1,81 @@
+{
+  "name": "Cairn: Warden's Guide — NPC Tables",
+  "game": "cairn",
+  "licence": "CC BY-SA 4.0",
+  "attribution": "Cairn 2nd Edition, copyright Yochai Gal. Licensed under CC BY-SA 4.0. Source: https://github.com/yochaigal/cairn",
+  "usage_note": "Quick NPC generation tables from the Warden's Guide. Roll 1d20 on a Names table for a first name, then optionally 1d20 on Quirks, Background, Goals, one of Virtues/Vices (or both) to round the NPC out.",
+  "tables": [
+    {
+      "id": "npc-names-1",
+      "name": "NPC Names (Set 1)",
+      "roll": "1d20",
+      "entries": [
+        "Alaric", "Carver", "Cleaver", "Darnel", "Eoin", "Evander", "Glyph", "Hemlock", "Herald", "Lisbeth",
+        "Lucian", "Luna", "Lysander", "Marius", "Mend", "Milo", "Neria", "Pan", "Quill", "Seraphine"
+      ]
+    },
+    {
+      "id": "npc-names-2",
+      "name": "NPC Names (Set 2)",
+      "roll": "1d20",
+      "entries": [
+        "Ainsley", "Azura", "Brave", "Callan", "Cedric", "Crow", "Finch", "Gunnar", "Harper", "Liora",
+        "Lira", "Lorelai", "Lysandra", "Marcellus", "Shade", "Shroud", "Spade", "Spike", "Tanner", "Thyme"
+      ]
+    },
+    {
+      "id": "npc-names-3",
+      "name": "NPC Names (Set 3)",
+      "roll": "1d20",
+      "entries": [
+        "Alder", "Alistair", "Caius", "Dain", "Dax", "Dorian", "Godric", "Harkin", "Hildred", "Kael",
+        "Kavi", "Mariner", "Nazira", "Onyx", "Rolan", "Rush", "Sky", "Storm", "Taros", "Thaddeus"
+      ]
+    },
+    {
+      "id": "npc-quirks",
+      "name": "Quirks",
+      "roll": "1d20",
+      "entries": [
+        "Alert", "Bald", "Bright Eyes", "Broad Face", "Crooked Teeth", "Gaunt", "Good Posture", "Grimy", "Harsh Voice", "Heavy Brow",
+        "Limps", "Missing Ear", "Muscular", "Notable Hair", "Pleasant Voice", "Squints", "Strong", "Thick Eyebrows", "Tired", "Young"
+      ]
+    },
+    {
+      "id": "npc-background",
+      "name": "Background",
+      "roll": "1d20",
+      "entries": [
+        "Academic", "Assassin", "Blacksmith", "Farmer", "General", "Gravedigger", "Guard", "Healer", "Jailer", "Laborer",
+        "Lord", "Merchant", "Monk", "Mystic", "Outlander", "Peddler", "Politician", "Spy", "Thief", "Thug"
+      ]
+    },
+    {
+      "id": "npc-goals",
+      "name": "Goals",
+      "roll": "1d20",
+      "entries": [
+        "Ascension", "Cleansing", "Conservation", "Defense", "Domination", "Enrichment", "Expansion", "Freedom", "Healing", "Integration",
+        "Justice", "Peace", "Power", "Preservation", "Purification", "Redemption", "Revenge", "Survival", "Unity", "Wealth"
+      ]
+    },
+    {
+      "id": "npc-virtues",
+      "name": "Virtues",
+      "roll": "1d20",
+      "entries": [
+        "Cautious", "Compassionate", "Connected", "Courageous", "Disciplined", "Discreet", "Honest", "Intelligent", "Judicious", "Loyal",
+        "Methodical", "Meticulous", "Polite", "Popular", "Pragmatic", "Resourceful", "Suave", "Shrewd", "Tenacious", "Witty"
+      ]
+    },
+    {
+      "id": "npc-vices",
+      "name": "Vices",
+      "roll": "1d20",
+      "entries": [
+        "Aloof", "Corrupt", "Craven", "Cruel", "Cynical", "Deceptive", "Greedy", "Impulsive", "Incompetent", "Inflexible",
+        "Manipulative", "Mercurial", "Naive", "Pedantic", "Ruthless", "Sarcastic", "Selfish", "Stubborn", "Vain", "Xenophobic"
+      ]
+    }
+  ]
+}

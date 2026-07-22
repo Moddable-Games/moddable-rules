@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cairn Backgrounds Table File",
+  "description": "Schema for Cairn 2nd Edition Background table data. A single file (backgrounds.json) holds all 20 Backgrounds.",
+  "type": "object",
+  "required": ["name", "game", "licence", "attribution", "backgrounds"],
+  "properties": {
+    "name": { "type": "string", "example": "Cairn: Backgrounds" },
+    "game": { "type": "string", "const": "cairn" },
+    "licence": { "type": "string", "const": "CC BY-SA 4.0" },
+    "attribution": {
+      "type": "string",
+      "example": "Cairn 2nd Edition, copyright Yochai Gal. Licensed under CC BY-SA 4.0. Source: https://github.com/yochaigal/cairn"
+    },
+    "usage_note": { "type": "string", "description": "File-level note on how Backgrounds are chosen and used during character creation." },
+    "backgrounds": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "quote", "names", "starting_gear", "tables"],
+        "properties": {
+          "id": { "type": "string", "description": "URL-safe identifier matching the source filename, e.g. 'aurifex'" },
+          "name": { "type": "string", "description": "Display name of the Background" },
+          "quote": { "type": "string", "description": "The italicized flavor quote at the top of the Background entry, verbatim (may include a mechanical instruction, e.g. Fieldwarden's 'roll a second time on the Bonds table')" },
+          "note": { "type": "string", "description": "Optional supplementary rule referenced in Starting Gear, e.g. a Relic's effect defined outside the gear list" },
+          "names": {
+            "type": "array",
+            "description": "The ~10 suggested first names for this Background",
+            "items": { "type": "string" }
+          },
+          "starting_gear": {
+            "type": "array",
+            "description": "Fixed starting equipment, always beginning with '3d6 Gold Pieces'",
+            "items": { "type": "string" }
+          },
+          "tables": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "The Background's two 1d6 roll tables",
+            "items": {
+              "type": "object",
+              "required": ["name", "roll", "entries"],
+              "properties": {
+                "name": { "type": "string", "description": "The table's question/prompt, as printed in the source" },
+                "roll": { "type": "string", "const": "1d6" },
+                "entries": {
+                  "type": "array",
+                  "minItems": 6,
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "required": ["roll", "text"],
+                    "properties": {
+                      "roll": { "type": "integer", "minimum": 1, "maximum": 6 },
+                      "text": {
+                        "type": "string",
+                        "description": "Entry text with the source's markdown bold preserved (e.g. **Item Name**) where the source names a specific item, creature, or vow before describing it"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

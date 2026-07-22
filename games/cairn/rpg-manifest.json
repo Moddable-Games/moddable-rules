@@ -1,0 +1,15 @@
+{
+  "label": "Cairn",
+  "dataPath": "games/cairn/tables/",
+  "rulesUrl": "dist/cairn/",
+  "dataType": "table",
+  "categories": [
+    { "id": "backgrounds", "label": "Backgrounds", "file": "backgrounds.json", "color": "#2e7d32", "linkPath": null },
+    { "id": "bestiary", "label": "Bestiary", "file": "bestiary.json", "color": "#8d2e2e", "linkPath": null }
+  ],
+  "cardFields": {
+    "title": "name",
+    "meta": "{_tableName} · Roll: {roll}",
+    "description": "text"
+  }
+}
