@@ -1,6 +1,175 @@
 {
   "label": "Fate Core",
   "version": "2",
+  "dataPath": "games/fate-core/data/",
   "rulesUrl": "dist/fate-core/",
-  "categories": []
+  "categories": [
+    {
+      "id": "skills",
+      "label": "Skills",
+      "file": "skills.json",
+      "color": "#2980b9",
+      "dataType": "entity",
+      "arrayKey": "skills",
+      "displayField": "name",
+      "searchFields": ["name", "description"],
+      "tag": {
+        "field": "actions",
+        "format": "actions-bitmask"
+      },
+      "cardFields": {
+        "title": "name",
+        "meta": ["{description}"],
+        "description": null
+      },
+      "linkPath": null
+    },
+    {
+      "id": "ladder",
+      "label": "The Ladder",
+      "file": "ladder.json",
+      "color": "#8e44ad",
+      "dataType": "entity",
+      "arrayKey": "ladder",
+      "displayField": "adjective",
+      "searchFields": ["adjective"],
+      "cardFields": {
+        "title": "adjective",
+        "meta": ["+{rating}"]
+      },
+      "linkPath": null
+    }
+  ],
+  "chargen": {
+    "title": "Fate Core Character",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#2980b9",
+      "background": "#faf8f4",
+      "borderStyle": "clean"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "refresh",
+            "label": "Refresh",
+            "default": "3",
+            "inputType": "number",
+            "min": 1,
+            "max": 10
+          },
+          {
+            "id": "fate-points",
+            "label": "Current Fate Points",
+            "default": "3",
+            "inputType": "number",
+            "min": 0,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "type": "aspects",
+        "label": "Aspects",
+        "fields": [
+          { "id": "high-concept", "label": "High Concept" },
+          { "id": "trouble", "label": "Trouble" },
+          { "id": "aspect-1", "label": "Phase One Aspect" },
+          { "id": "aspect-2", "label": "Phase Two Aspect" },
+          { "id": "aspect-3", "label": "Phase Three Aspect" }
+        ]
+      },
+      {
+        "type": "pyramid",
+        "label": "Skills",
+        "ladder": [
+          { "rating": 4, "adjective": "Great", "slots": 1 },
+          { "rating": 3, "adjective": "Good", "slots": 2 },
+          { "rating": 2, "adjective": "Fair", "slots": 3 },
+          { "rating": 1, "adjective": "Average", "slots": 4 }
+        ],
+        "gen": "skills",
+        "genMethod": "pyramid"
+      },
+      {
+        "type": "list",
+        "label": "Stunts",
+        "style": "freetext",
+        "count": 5,
+        "gen": "stunts",
+        "genSource": "skills"
+      },
+      {
+        "type": "stress",
+        "label": "Stress",
+        "tracks": [
+          {
+            "id": "physical",
+            "label": "Physical",
+            "boxes": 2,
+            "bonusSkill": "Physique",
+            "bonusRules": "+1 box at Fair (+2), +2 boxes at Good (+3)"
+          },
+          {
+            "id": "mental",
+            "label": "Mental",
+            "boxes": 2,
+            "bonusSkill": "Will",
+            "bonusRules": "+1 box at Fair (+2), +2 boxes at Good (+3)"
+          }
+        ]
+      },
+      {
+        "type": "consequences",
+        "label": "Consequences",
+        "slots": [
+          { "severity": "Mild", "shift": 2 },
+          { "severity": "Moderate", "shift": 4 },
+          { "severity": "Severe", "shift": 6 }
+        ],
+        "bonusSlots": [
+          { "severity": "Mild (Physical)", "shift": 2, "requireSkill": "Physique", "requireRating": 5 },
+          { "severity": "Mild (Mental)", "shift": 2, "requireSkill": "Will", "requireRating": 5 }
+        ]
+      },
+      {
+        "type": "extras",
+        "label": "Extras",
+        "style": "freetext",
+        "lines": 4
+      },
+      {
+        "type": "notes",
+        "label": "Notes",
+        "lines": 6
+      }
+    ],
+    "tables": {
+      "names": {
+        "source": "../_shared/names.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      },
+      "skills": {
+        "source": "data/skills.json",
+        "arrayKey": "skills",
+        "displayField": "name",
+        "pickMethod": "random"
+      },
+      "stunts": {
+        "source": "data/skills.json",
+        "arrayKey": "skills[*].stunts",
+        "displayField": "name",
+        "pickMethod": "random"
+      }
+    }
+  }
 }
