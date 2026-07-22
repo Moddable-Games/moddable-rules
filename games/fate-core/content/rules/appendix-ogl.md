@@ -41,7 +41,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
 
-Fate Core System and Fate Accelerated Edition © 2013 by Evil Hat Productions, LLC. Developed, authored, and edited by Leonard Balsera, Brian Engard, Jeddy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue.
+Fate Core System and Fate Accelerated Edition © 2013 by Evil Hat Productions, LLC. Developed, authored, and edited by Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue.
 
 **OPEN CONTENT**
 
