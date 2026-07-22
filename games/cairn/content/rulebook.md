@@ -18,7 +18,7 @@ theme:
   cover: cosmic
   typography: modern
   accent: green
-  section-divider: "✶"
+  section-divider: "✱"
 engine:
   topology:
     type: none
@@ -50,5 +50,18 @@ A character's role or skills are not limited by a class. Instead, the equipment 
 - [Character Creation](rules/character-creation/) — Backgrounds, attributes, hit protection, inventory, character traits, bonds, and omens
 - [Procedures](rules/procedures/) — Dungeon exploration, wilderness exploration, travel, weather, downtime actions
 - [Marketplace](rules/marketplace/) — Armor, weapons, transport, upkeep, hirelings, and gear prices
+
+</div>
+
+<div class="section">
+
+### Warden's Guide
+
+- [Saves & Perception](rules/saves-and-perception/) — When and how to call for a save, worked examples for STR/DEX/WIL/opposed/aiding-an-ally saves, and how to handle character knowledge and perception
+- [Combat & Difficulty](rules/combat-and-difficulty/) — Running combat and detachments at the table, and calibrating variable difficulty on the fly, with full worked examples
+- [Exploration & Pointcrawls](rules/exploration-and-pointcrawls/) — Dungeon exploration and wilderness exploration procedures, and converting a map into a pointcrawl
+- [Growth](rules/growth/) — The Triggers framework for character growth, with eight worked examples
+- [Creating Content](rules/creating-content/) — Designing new Backgrounds and Monsters, the meaning of Bonds and Omens, and the example party referenced throughout this guide
+- [Bibliography](rules/bibliography/) — Design influences and further reading credited by the original text
 
 </div>
