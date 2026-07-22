@@ -12,8 +12,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -24,8 +31,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -36,14 +50,170 @@
       "dataType": "entity",
       "arrayKey": "tables[0].entries",
       "displayField": "name",
-      "searchFields": ["name", "effect"],
-      "tag": { "field": "roll", "prefix": "#" },
+      "searchFields": [
+        "name",
+        "effect"
+      ],
+      "tag": {
+        "field": "roll",
+        "prefix": "#"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["Spell #{roll}"],
+        "meta": [
+          "Spell #{roll}"
+        ],
         "description": "effect"
       },
       "linkPath": null
     }
-  ]
+  ],
+  "chargen": {
+    "title": "Adventurer",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#0c4f8d",
+      "background": "#faf6f0",
+      "borderStyle": "ornate"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "background",
+            "label": "Background",
+            "gen": "traits-background"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "layout": "row",
+        "stats": [
+          {
+            "label": "STR",
+            "gen": "3d6kl1",
+            "secondaryLabel": "Def",
+            "secondaryFormula": "+10"
+          },
+          {
+            "label": "DEX",
+            "gen": "3d6kl1",
+            "secondaryLabel": "Def",
+            "secondaryFormula": "+10"
+          },
+          {
+            "label": "CON",
+            "gen": "3d6kl1",
+            "secondaryLabel": "Def",
+            "secondaryFormula": "+10"
+          },
+          {
+            "label": "INT",
+            "gen": "3d6kl1",
+            "secondaryLabel": "Def",
+            "secondaryFormula": "+10"
+          },
+          {
+            "label": "WIS",
+            "gen": "3d6kl1",
+            "secondaryLabel": "Def",
+            "secondaryFormula": "+10"
+          },
+          {
+            "label": "CHA",
+            "gen": "3d6kl1",
+            "secondaryLabel": "Def",
+            "secondaryFormula": "+10"
+          }
+        ]
+      },
+      {
+        "type": "track",
+        "label": "HP",
+        "max": 8,
+        "gen": "1d8",
+        "style": "boxes"
+      },
+      {
+        "type": "inventory",
+        "label": "Item Slots",
+        "model": "slots",
+        "slots": "CON_defense",
+        "gen": "starting-gear",
+        "columns": [
+          "Item",
+          "Slots"
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Traits",
+        "gen": "traits",
+        "style": "lined",
+        "columns": [
+          "Physique",
+          "Face",
+          "Skin",
+          "Hair",
+          "Clothing",
+          "Virtue",
+          "Vice",
+          "Speech",
+          "Background",
+          "Misfortune",
+          "Alignment"
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Spells",
+        "count": 3,
+        "style": "lined",
+        "gen": "spells"
+      },
+      {
+        "type": "notes",
+        "label": "Notes",
+        "lines": 3
+      }
+    ],
+    "tables": {
+      "traits": {
+        "source": "data/traits.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable"
+      },
+      "traits-background": {
+        "source": "data/traits.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable",
+        "tables": [
+          "Background"
+        ]
+      },
+      "starting-gear": {
+        "source": "data/starting-gear.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable"
+      },
+      "names": {
+        "source": "../_shared/names.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      },
+      "spells": {
+        "source": "data/spells.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      }
+    }
+  }
 }

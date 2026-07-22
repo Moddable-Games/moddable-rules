@@ -12,11 +12,18 @@
       "dataType": "entity",
       "arrayKey": "classes",
       "displayField": "name",
-      "searchFields": ["name", "description"],
-      "tag": { "field": "damage" },
+      "searchFields": [
+        "name",
+        "description"
+      ],
+      "tag": {
+        "field": "damage"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["HP: {hp} · Damage: {damage}"],
+        "meta": [
+          "HP: {hp} \u00b7 Damage: {damage}"
+        ],
         "description": "description"
       },
       "linkPath": "rules/{linkPath}/"
@@ -29,11 +36,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -46,11 +63,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -63,11 +90,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -80,11 +117,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -97,11 +144,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -114,11 +171,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -131,11 +198,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -148,11 +225,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -165,11 +252,21 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "description", "tags"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "description",
+        "tags"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{tags}", "HP {hp} · Armor {armor} · {attack}"],
+        "meta": [
+          "{tags}",
+          "HP {hp} \u00b7 Armor {armor} \u00b7 {attack}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -182,7 +279,10 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["name", "entries"],
+      "searchFields": [
+        "name",
+        "entries"
+      ],
       "linkPath": null
     },
     {
@@ -193,7 +293,10 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "name",
-      "searchFields": ["name", "entries"],
+      "searchFields": [
+        "name",
+        "entries"
+      ],
       "linkPath": null
     },
     {
@@ -204,8 +307,179 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "name",
-      "searchFields": ["name", "entries"],
+      "searchFields": [
+        "name",
+        "entries"
+      ],
       "linkPath": null
     }
-  ]
+  ],
+  "chargen": {
+    "title": "Adventurer",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#c0392b",
+      "background": "#faf6f0",
+      "borderStyle": "ornate"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "class",
+            "label": "Class",
+            "gen": "classes"
+          },
+          {
+            "id": "race",
+            "label": "Race",
+            "gen": "races"
+          },
+          {
+            "id": "alignment",
+            "label": "Alignment",
+            "gen": "alignments"
+          },
+          {
+            "id": "look",
+            "label": "Look"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "layout": "row",
+        "stats": [
+          {
+            "label": "STR",
+            "range": "8-16",
+            "modifier": true
+          },
+          {
+            "label": "DEX",
+            "range": "8-16",
+            "modifier": true
+          },
+          {
+            "label": "CON",
+            "range": "8-16",
+            "modifier": true
+          },
+          {
+            "label": "INT",
+            "range": "8-16",
+            "modifier": true
+          },
+          {
+            "label": "WIS",
+            "range": "8-16",
+            "modifier": true
+          },
+          {
+            "label": "CHA",
+            "range": "8-16",
+            "modifier": true
+          }
+        ],
+        "gen": "assign",
+        "genValues": [
+          16,
+          15,
+          13,
+          12,
+          9,
+          8
+        ]
+      },
+      {
+        "type": "track",
+        "label": "HP",
+        "max": 24,
+        "style": "boxes"
+      },
+      {
+        "type": "track",
+        "label": "XP",
+        "max": 10,
+        "style": "boxes"
+      },
+      {
+        "type": "track",
+        "label": "Armor",
+        "max": 4,
+        "style": "boxes"
+      },
+      {
+        "type": "list",
+        "label": "Starting Moves",
+        "count": 6,
+        "style": "lined",
+        "gen": "moves"
+      },
+      {
+        "type": "list",
+        "label": "Bonds",
+        "count": 4,
+        "style": "lined"
+      },
+      {
+        "type": "inventory",
+        "label": "Gear",
+        "model": "slots",
+        "slots": 12,
+        "columns": [
+          "Item",
+          "Weight"
+        ]
+      },
+      {
+        "type": "notes",
+        "label": "Notes",
+        "lines": 4
+      }
+    ],
+    "tables": {
+      "classes": {
+        "source": "data/classes.json",
+        "arrayKey": "classes",
+        "pickMethod": "random"
+      },
+      "names": {
+        "source": "../_shared/names.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      },
+      "moves": {
+        "source": "data/moves.json",
+        "arrayKey": "moves",
+        "pickMethod": "random"
+      },
+      "races": {
+        "inline": [
+          "Dwarf",
+          "Elf",
+          "Halfling",
+          "Human"
+        ],
+        "pickMethod": "random"
+      },
+      "alignments": {
+        "inline": [
+          "Good",
+          "Neutral",
+          "Evil",
+          "Chaotic",
+          "Lawful"
+        ],
+        "pickMethod": "random"
+      }
+    }
+  }
 }

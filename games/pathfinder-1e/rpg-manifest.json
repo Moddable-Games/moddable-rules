@@ -12,11 +12,20 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "school"],
-      "tag": { "field": "min_level", "prefix": "Lvl " },
+      "searchFields": [
+        "name",
+        "school"
+      ],
+      "tag": {
+        "field": "min_level",
+        "prefix": "Lvl "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["Level {min_level} {school}", "{casting_time} · {range} · {duration}"],
+        "meta": [
+          "Level {min_level} {school}",
+          "{casting_time} \u00b7 {range} \u00b7 {duration}"
+        ],
         "description": "short_description"
       },
       "linkPath": "rules/spells/"
@@ -29,11 +38,20 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "creature_type"],
-      "tag": { "field": "cr", "prefix": "CR " },
+      "searchFields": [
+        "name",
+        "creature_type"
+      ],
+      "tag": {
+        "field": "cr",
+        "prefix": "CR "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{size} {creature_type}, {alignment}", "AC {ac} · HP {hp} · CR {cr}"],
+        "meta": [
+          "{size} {creature_type}, {alignment}",
+          "AC {ac} \u00b7 HP {hp} \u00b7 CR {cr}"
+        ],
         "description": null
       },
       "linkPath": "rules/bestiary/"
@@ -46,10 +64,14 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name"],
+      "searchFields": [
+        "name"
+      ],
       "cardFields": {
         "title": "name",
-        "meta": ["Hit Die: d{hit_die} · BAB: {bab_progression} · Skills: {skill_ranks_per_level}/lvl"],
+        "meta": [
+          "Hit Die: d{hit_die} \u00b7 BAB: {bab_progression} \u00b7 Skills: {skill_ranks_per_level}/lvl"
+        ],
         "description": null
       },
       "linkPath": "rules/classes/"
@@ -62,11 +84,18 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "type"],
-      "tag": { "field": "type" },
+      "searchFields": [
+        "name",
+        "type"
+      ],
+      "tag": {
+        "field": "type"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{type}"],
+        "meta": [
+          "{type}"
+        ],
         "description": "benefit"
       },
       "linkPath": null
@@ -79,11 +108,19 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "category"],
-      "tag": { "field": "category" },
+      "searchFields": [
+        "name",
+        "category"
+      ],
+      "tag": {
+        "field": "category"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{category}", "{price}"],
+        "meta": [
+          "{category}",
+          "{price}"
+        ],
         "description": null
       },
       "linkPath": null
@@ -96,7 +133,9 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name"],
+      "searchFields": [
+        "name"
+      ],
       "cardFields": {
         "title": "name",
         "meta": [],
@@ -112,7 +151,9 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name"],
+      "searchFields": [
+        "name"
+      ],
       "cardFields": {
         "title": "name",
         "meta": [],
@@ -128,14 +169,233 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "attribute"],
-      "tag": { "field": "attribute" },
+      "searchFields": [
+        "name",
+        "attribute"
+      ],
+      "tag": {
+        "field": "attribute"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{attribute}", "Trained only: {trained_only}"],
+        "meta": [
+          "{attribute}",
+          "Trained only: {trained_only}"
+        ],
         "description": "description"
       },
       "linkPath": "rules/skills/"
     }
-  ]
+  ],
+  "chargen": {
+    "title": "Player Character",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#2980b9",
+      "background": "#faf6f0",
+      "borderStyle": "ornate"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Character Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "class",
+            "label": "Class",
+            "gen": "classes"
+          },
+          {
+            "id": "level",
+            "label": "Level",
+            "default": "1",
+            "inputType": "number",
+            "min": 1,
+            "max": 20
+          },
+          {
+            "id": "race",
+            "label": "Race",
+            "gen": "races"
+          },
+          {
+            "id": "alignment",
+            "label": "Alignment"
+          },
+          {
+            "id": "deity",
+            "label": "Deity"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "layout": "row",
+        "stats": [
+          {
+            "label": "STR",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "DEX",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "CON",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "INT",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "WIS",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "CHA",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          }
+        ],
+        "derived": [
+          {
+            "label": "BAB",
+            "formula": "class_bab",
+            "editable": true
+          },
+          {
+            "label": "AC",
+            "formula": "10+DEX_mod",
+            "editable": true
+          },
+          {
+            "label": "Initiative",
+            "formula": "DEX_mod"
+          },
+          {
+            "label": "Speed",
+            "formula": "30",
+            "editable": true
+          },
+          {
+            "label": "CMB",
+            "formula": "BAB+STR_mod"
+          },
+          {
+            "label": "CMD",
+            "formula": "10+BAB+STR_mod+DEX_mod"
+          }
+        ]
+      },
+      {
+        "type": "track",
+        "label": "Hit Points",
+        "max": "class_hp+CON_mod",
+        "style": "boxes"
+      },
+      {
+        "type": "skills",
+        "label": "Skills",
+        "model": "proficiency",
+        "source": "skills",
+        "columns": [
+          "Skill",
+          "Ability",
+          "Ranks",
+          "Misc",
+          "Total"
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Saving Throws",
+        "style": "lined",
+        "count": 3,
+        "items": [
+          "Fortitude (CON)",
+          "Reflex (DEX)",
+          "Will (WIS)"
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Feats",
+        "count": 4,
+        "style": "lined"
+      },
+      {
+        "type": "list",
+        "label": "Class Features",
+        "count": 6,
+        "style": "lined"
+      },
+      {
+        "type": "inventory",
+        "label": "Equipment",
+        "model": "weight",
+        "columns": [
+          "Item",
+          "Qty",
+          "Weight"
+        ],
+        "gen": "equipment"
+      },
+      {
+        "type": "notes",
+        "label": "Spells & Abilities",
+        "lines": 8
+      },
+      {
+        "type": "notes",
+        "label": "Notes",
+        "lines": 4
+      }
+    ],
+    "tables": {
+      "classes": {
+        "source": "data/classes.json",
+        "arrayKey": null,
+        "displayField": "name",
+        "pickMethod": "random"
+      },
+      "races": {
+        "source": "data/races.json",
+        "arrayKey": null,
+        "displayField": "name",
+        "pickMethod": "random"
+      },
+      "skills": {
+        "source": "data/skills.json",
+        "arrayKey": null,
+        "pickMethod": "all"
+      },
+      "names": {
+        "source": "../_shared/names.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      },
+      "equipment": {
+        "source": "data/equipment.json",
+        "arrayKey": "",
+        "pickMethod": "random"
+      }
+    }
+  }
 }

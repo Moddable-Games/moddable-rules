@@ -12,8 +12,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -24,8 +31,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -36,8 +50,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -48,8 +69,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -60,8 +88,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -72,8 +107,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -84,9 +126,256 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     }
-  ]
+  ],
+  "chargen": {
+    "title": "Adventurer",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#3498db",
+      "background": "#faf6f0",
+      "borderStyle": "ornate"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "appearance",
+            "label": "Appearance",
+            "gen": "appearance"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "layout": "row",
+        "stats": [
+          {
+            "label": "Strength",
+            "range": "+0 to +4"
+          },
+          {
+            "label": "Dexterity",
+            "range": "+0 to +4"
+          },
+          {
+            "label": "Will",
+            "range": "+0 to +4"
+          }
+        ],
+        "gen": "statArray",
+        "genValues": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "type": "track",
+        "label": "Health",
+        "max": 4,
+        "startValue": 4,
+        "style": "boxes"
+      },
+      {
+        "type": "choices",
+        "label": "Starting Feature",
+        "options": [
+          {
+            "label": "Attack Bonus (+1 to attacks)"
+          },
+          {
+            "label": "Spell Slot (1 spell/day)"
+          },
+          {
+            "label": "Path: Briarborn (tracking, foraging, survival)"
+          },
+          {
+            "label": "Path: Fingersmith (tinkering, picking locks/pockets)"
+          },
+          {
+            "label": "Path: Roofrunner (climbing, leaping, balancing)"
+          },
+          {
+            "label": "Path: Shadowjack (stealth, hiding in shadows)"
+          }
+        ],
+        "gen": "random"
+      },
+      {
+        "type": "inventory",
+        "label": "Equipment",
+        "model": "location",
+        "gen": "starting-items",
+        "sections": [
+          {
+            "label": "Hands",
+            "slots": 2
+          },
+          {
+            "label": "Worn",
+            "slots": 2
+          },
+          {
+            "label": "Belt",
+            "slots": 2
+          },
+          {
+            "label": "Backpack",
+            "slots": 6
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Traits",
+        "gen": "traits",
+        "style": "lined",
+        "columns": [
+          "Appearances",
+          "Physical Details",
+          "Clothing",
+          "Personalities",
+          "Mannerisms"
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Spells",
+        "count": 3,
+        "style": "lined",
+        "gen": "spells"
+      },
+      {
+        "type": "notes",
+        "label": "Notes",
+        "lines": 3
+      }
+    ],
+    "tables": {
+      "appearance": {
+        "source": "data/characters.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable",
+        "tables": [
+          "Appearances"
+        ]
+      },
+      "traits": {
+        "source": "data/characters.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable",
+        "tables": [
+          "Appearances",
+          "Physical Details",
+          "Clothing",
+          "Personalities",
+          "Mannerisms"
+        ]
+      },
+      "starting-items": {
+        "source": "data/treasure-equipment.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollMultiple",
+        "count": 6
+      },
+      "statArray": {
+        "pickMethod": "random",
+        "inline": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      },
+      "names": {
+        "source": "data/characters.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable",
+        "tables": [
+          "Female Names",
+          "Male Names"
+        ]
+      },
+      "spells": {
+        "source": "data/magic.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable",
+        "tables": [
+          "Physical Effects",
+          "Physical Elements"
+        ]
+      }
+    }
+  }
 }

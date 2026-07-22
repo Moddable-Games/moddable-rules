@@ -12,11 +12,18 @@
       "dataType": "entity",
       "arrayKey": "tables[0].entries",
       "displayField": "name",
-      "searchFields": ["name", "description"],
-      "tag": { "field": "base_chance" },
+      "searchFields": [
+        "name",
+        "description"
+      ],
+      "tag": {
+        "field": "base_chance"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["Base chance: {base_chance}"],
+        "meta": [
+          "Base chance: {base_chance}"
+        ],
         "description": "description"
       },
       "linkPath": null
@@ -29,7 +36,9 @@
       "dataType": "entity",
       "arrayKey": "tables[0].entries",
       "displayField": "name",
-      "searchFields": ["name"],
+      "searchFields": [
+        "name"
+      ],
       "cardFields": {
         "title": "name",
         "meta": [],
@@ -45,11 +54,19 @@
       "dataType": "entity",
       "arrayKey": "tables[0].entries",
       "displayField": "name",
-      "searchFields": ["name", "type"],
-      "tag": { "field": "damage" },
+      "searchFields": [
+        "name",
+        "type"
+      ],
+      "tag": {
+        "field": "damage"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{type} · Damage: {damage}", "Skill: {base_chance} · Range: {range}"],
+        "meta": [
+          "{type} \u00b7 Damage: {damage}",
+          "Skill: {base_chance} \u00b7 Range: {range}"
+        ],
         "description": null
       },
       "linkPath": null
@@ -62,11 +79,18 @@
       "dataType": "entity",
       "arrayKey": "tables[0].entries",
       "displayField": "name",
-      "searchFields": ["name"],
-      "tag": { "field": "ap", "prefix": "AP " },
+      "searchFields": [
+        "name"
+      ],
+      "tag": {
+        "field": "ap",
+        "prefix": "AP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["AP: {ap} · Skill modifier: {skill_modifier}"],
+        "meta": [
+          "AP: {ap} \u00b7 Skill modifier: {skill_modifier}"
+        ],
         "description": null
       },
       "linkPath": null
@@ -79,14 +103,224 @@
       "dataType": "entity",
       "arrayKey": "tables[0].entries",
       "displayField": "name",
-      "searchFields": ["name"],
-      "tag": { "field": "ap", "prefix": "AP " },
+      "searchFields": [
+        "name"
+      ],
+      "tag": {
+        "field": "ap",
+        "prefix": "AP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["AP: {ap} · HP: {hp}"],
+        "meta": [
+          "AP: {ap} \u00b7 HP: {hp}"
+        ],
         "description": null
       },
       "linkPath": null
     }
-  ]
+  ],
+  "chargen": {
+    "title": "Investigator",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#c0392b",
+      "background": "#faf8f5",
+      "borderStyle": "modern"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "profession",
+            "label": "Profession",
+            "gen": "professions"
+          },
+          {
+            "id": "age",
+            "label": "Age"
+          },
+          {
+            "id": "gender",
+            "label": "Gender"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "layout": "grid",
+        "stats": [
+          {
+            "label": "STR",
+            "gen": "3d6",
+            "range": "3-18"
+          },
+          {
+            "label": "CON",
+            "gen": "3d6",
+            "range": "3-18"
+          },
+          {
+            "label": "SIZ",
+            "gen": "2d6+6",
+            "range": "8-18"
+          },
+          {
+            "label": "INT",
+            "gen": "2d6+6",
+            "range": "8-18"
+          },
+          {
+            "label": "POW",
+            "gen": "3d6",
+            "range": "3-18"
+          },
+          {
+            "label": "DEX",
+            "gen": "3d6",
+            "range": "3-18"
+          },
+          {
+            "label": "APP",
+            "gen": "3d6",
+            "range": "3-18"
+          }
+        ],
+        "derived": [
+          {
+            "label": "Effort",
+            "formula": "STR*5",
+            "suffix": "%"
+          },
+          {
+            "label": "Stamina",
+            "formula": "CON*5",
+            "suffix": "%"
+          },
+          {
+            "label": "Idea",
+            "formula": "INT*5",
+            "suffix": "%"
+          },
+          {
+            "label": "Luck",
+            "formula": "POW*5",
+            "suffix": "%"
+          },
+          {
+            "label": "Agility",
+            "formula": "DEX*5",
+            "suffix": "%"
+          },
+          {
+            "label": "Charisma",
+            "formula": "APP*5",
+            "suffix": "%"
+          },
+          {
+            "label": "Damage Bonus",
+            "formula": "strSizTable"
+          }
+        ]
+      },
+      {
+        "type": "track",
+        "label": "Hit Points",
+        "max": "(CON+SIZ)/2",
+        "style": "boxes"
+      },
+      {
+        "type": "track",
+        "label": "Power Points",
+        "max": "POW",
+        "style": "boxes"
+      },
+      {
+        "type": "skills",
+        "label": "Skills",
+        "model": "percentile",
+        "source": "skills",
+        "gen": "profession-skills",
+        "columns": [
+          "Skill",
+          "Base",
+          "Bonus",
+          "Total"
+        ]
+      },
+      {
+        "type": "inventory",
+        "label": "Equipment",
+        "model": "abstract",
+        "lines": 8
+      },
+      {
+        "type": "list",
+        "label": "Weapons & Armor",
+        "count": 4,
+        "style": "lined",
+        "gen": "combat-equipment"
+      },
+      {
+        "type": "notes",
+        "label": "Notes",
+        "lines": 4
+      }
+    ],
+    "tables": {
+      "professions": {
+        "source": "data/professions.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      },
+      "skills": {
+        "source": "data/skills.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "all"
+      },
+      "profession-skills": {
+        "source": "data/professions.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random",
+        "allocate": {
+          "type": "points",
+          "pool": 300,
+          "target": "skills"
+        }
+      },
+      "names": {
+        "source": "../_shared/names.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      },
+      "combat-equipment": {
+        "pickMethod": "random",
+        "sources": [
+          {
+            "source": "data/weapons.json",
+            "arrayKey": "tables[0].entries"
+          },
+          {
+            "source": "data/weapons.json",
+            "arrayKey": "tables[1].entries"
+          },
+          {
+            "source": "data/armor.json",
+            "arrayKey": "tables[0].entries"
+          },
+          {
+            "source": "data/shields.json",
+            "arrayKey": "tables[0].entries"
+          }
+        ]
+      }
+    }
+  }
 }

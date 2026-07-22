@@ -52,7 +52,7 @@
     "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
     "rulesUrl": "dist/backgammon/variants/chouette/index.html",
     "status": "rendered",
-    "players": "3–6"
+    "players": "3\u20136"
   },
   {
     "family": "backgammon",
@@ -159,7 +159,7 @@
   },
   {
     "family": "dou-shou-qi",
-    "familyTitle": "Dou Shou Qi (斗兽棋 / Jungle)",
+    "familyTitle": "Dou Shou Qi (\u6597\u517d\u68cb / Jungle)",
     "variant": "standard",
     "variantTitle": "Dou Shou Qi (Standard)",
     "topology": "grid",
@@ -179,7 +179,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
-    "players": "2–4"
+    "players": "2\u20134"
   },
   {
     "family": "double-six-dominoes",
@@ -192,7 +192,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
-    "players": "2–4"
+    "players": "2\u20134"
   },
   {
     "family": "double-six-dominoes",
@@ -205,7 +205,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
-    "players": "2–8"
+    "players": "2\u20138"
   },
   {
     "family": "double-six-dominoes",
@@ -218,7 +218,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
-    "players": "2–8"
+    "players": "2\u20138"
   },
   {
     "family": "draughts",
@@ -444,7 +444,7 @@
     "family": "dungeon-chess",
     "familyTitle": "Dungeon Chess",
     "variant": "compact",
-    "variantTitle": "Dungeon Chess (Compact Skirmish (10×10))",
+    "variantTitle": "Dungeon Chess (Compact Skirmish (10\u00d710))",
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/compact-board.svg",
     "rulesUrl": "dist/dungeon-chess/variants/compact/index.html",
@@ -455,7 +455,7 @@
     "family": "dungeon-chess",
     "familyTitle": "Dungeon Chess",
     "variant": "four-player",
-    "variantTitle": "Dungeon Chess (Four Player (20×20))",
+    "variantTitle": "Dungeon Chess (Four Player (20\u00d720))",
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/four-player-board.svg",
     "rulesUrl": "dist/dungeon-chess/variants/four-player/index.html",
@@ -466,7 +466,7 @@
     "family": "dungeon-chess",
     "familyTitle": "Dungeon Chess",
     "variant": "two-player",
-    "variantTitle": "Dungeon Chess (Two Player (20×8))",
+    "variantTitle": "Dungeon Chess (Two Player (20\u00d78))",
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/two-player-board.svg",
     "rulesUrl": "dist/dungeon-chess/variants/two-player/index.html",
@@ -506,7 +506,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "hanafuda-48",
-    "players": "2–3"
+    "players": "2\u20133"
   },
   {
     "family": "flower-48",
@@ -519,7 +519,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "hanafuda-48",
-    "players": "2–4"
+    "players": "2\u20134"
   },
   {
     "family": "flower-48",
@@ -545,13 +545,13 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "hanafuda-48",
-    "players": "2–8"
+    "players": "2\u20138"
   },
   {
     "family": "go",
     "familyTitle": "Go",
     "variant": "13x13",
-    "variantTitle": "13×13 Go",
+    "variantTitle": "13\u00d713 Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/13x13-board.svg",
     "rulesUrl": "dist/go/variants/13x13/index.html",
@@ -577,7 +577,7 @@
     "family": "go",
     "familyTitle": "Go",
     "variant": "9x9",
-    "variantTitle": "9×9 Go",
+    "variantTitle": "9\u00d79 Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/9x9-board.svg",
     "rulesUrl": "dist/go/variants/9x9/index.html",
@@ -663,7 +663,7 @@
     "svg": "games/go/diagrams/svg/rengo-board.svg",
     "rulesUrl": "dist/go/variants/rengo/index.html",
     "status": "rendered",
-    "players": "4–6"
+    "players": "4\u20136"
   },
   {
     "family": "go",
@@ -680,7 +680,7 @@
     "family": "go",
     "familyTitle": "Go",
     "variant": "standard",
-    "variantTitle": "Standard Go (19×19)",
+    "variantTitle": "Standard Go (19\u00d719)",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/go/variants/standard/index.html",
@@ -780,7 +780,7 @@
     "family": "hex",
     "familyTitle": "Hex",
     "variant": "13x13",
-    "variantTitle": "Hex (13×13)",
+    "variantTitle": "Hex (13\u00d713)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/13x13-board.svg",
     "rulesUrl": "dist/hex/variants/13x13/index.html",
@@ -791,7 +791,7 @@
     "family": "hex",
     "familyTitle": "Hex",
     "variant": "14x14",
-    "variantTitle": "Hex (14×14)",
+    "variantTitle": "Hex (14\u00d714)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/14x14-board.svg",
     "rulesUrl": "dist/hex/variants/14x14/index.html",
@@ -802,7 +802,7 @@
     "family": "hex",
     "familyTitle": "Hex",
     "variant": "19x19",
-    "variantTitle": "Hex (19×19)",
+    "variantTitle": "Hex (19\u00d719)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/19x19-board.svg",
     "rulesUrl": "dist/hex/variants/19x19/index.html",
@@ -813,7 +813,7 @@
     "family": "hex",
     "familyTitle": "Hex",
     "variant": "9x9",
-    "variantTitle": "Hex (9×9)",
+    "variantTitle": "Hex (9\u00d79)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/9x9-board.svg",
     "rulesUrl": "dist/hex/variants/9x9/index.html",
@@ -824,7 +824,7 @@
     "family": "hex",
     "familyTitle": "Hex",
     "variant": "standard",
-    "variantTitle": "Hex (11×11)",
+    "variantTitle": "Hex (11\u00d711)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/standard-board.svg",
     "rulesUrl": "dist/hex/variants/standard/index.html",
@@ -846,7 +846,7 @@
     "family": "hex",
     "familyTitle": "Hex",
     "variant": "y-large",
-    "variantTitle": "Y (Large — 15)",
+    "variantTitle": "Y (Large \u2014 15)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-large-board.svg",
     "rulesUrl": "dist/hex/variants/y-large/index.html",
@@ -857,7 +857,7 @@
     "family": "hex",
     "familyTitle": "Hex",
     "variant": "y-small",
-    "variantTitle": "Y (Small — 9)",
+    "variantTitle": "Y (Small \u2014 9)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-small-board.svg",
     "rulesUrl": "dist/hex/variants/y-small/index.html",
@@ -873,7 +873,7 @@
     "svg": "games/landlords-game/diagrams/svg/1904-original-board.svg",
     "rulesUrl": "dist/landlords-game/variants/1904-original/index.html",
     "status": "rendered",
-    "players": "2–6"
+    "players": "2\u20136"
   },
   {
     "family": "landlords-game",
@@ -884,7 +884,7 @@
     "svg": "games/landlords-game/diagrams/svg/1906-commercial-board.svg",
     "rulesUrl": "dist/landlords-game/variants/1906-commercial/index.html",
     "status": "rendered",
-    "players": "2–4"
+    "players": "2\u20134"
   },
   {
     "family": "landlords-game",
@@ -895,7 +895,7 @@
     "svg": "games/landlords-game/diagrams/svg/monarch-of-the-world-board.svg",
     "rulesUrl": "dist/landlords-game/variants/monarch-of-the-world/index.html",
     "status": "rendered",
-    "players": "2–6"
+    "players": "2\u20136"
   },
   {
     "family": "landlords-game",
@@ -906,7 +906,7 @@
     "svg": "games/landlords-game/diagrams/svg/prosperity-board.svg",
     "rulesUrl": "dist/landlords-game/variants/prosperity/index.html",
     "status": "rendered",
-    "players": "2–4"
+    "players": "2\u20134"
   },
   {
     "family": "landlords-game",
@@ -917,7 +917,7 @@
     "svg": "games/landlords-game/diagrams/svg/single-tax-board.svg",
     "rulesUrl": "dist/landlords-game/variants/single-tax/index.html",
     "status": "rendered",
-    "players": "2–4"
+    "players": "2\u20134"
   },
   {
     "family": "lattaque",
@@ -2132,7 +2132,7 @@
     "family": "moddable-chess",
     "familyTitle": "Moddable Chess",
     "variant": "mobius-strip-chess",
-    "variantTitle": "Möbius Strip Chess",
+    "variantTitle": "M\u00f6bius Strip Chess",
     "topology": "grid",
     "svg": "games/moddable-chess/diagrams/svg/mobius-strip-chess-board.svg",
     "rulesUrl": "dist/moddable-chess/variants/mobius-strip-chess/index.html",
@@ -2885,7 +2885,7 @@
     "svg": "games/nukes/diagrams/svg/asymmetric-powers-board.svg",
     "rulesUrl": "dist/nukes/variants/asymmetric-powers/index.html",
     "status": "rendered",
-    "players": "2–3"
+    "players": "2\u20133"
   },
   {
     "family": "nukes",
@@ -2896,7 +2896,7 @@
     "svg": "games/nukes/diagrams/svg/fallout-board.svg",
     "rulesUrl": "dist/nukes/variants/fallout/index.html",
     "status": "rendered",
-    "players": "2–3"
+    "players": "2\u20133"
   },
   {
     "family": "nukes",
@@ -2911,7 +2911,7 @@
   },
   {
     "family": "nyout",
-    "familyTitle": "Nyout (유놓이 / Yut Nori)",
+    "familyTitle": "Nyout (\uc720\ub193\uc774 / Yut Nori)",
     "variant": "standard",
     "variantTitle": "Nyout (Standard)",
     "topology": "graph",
@@ -2929,7 +2929,7 @@
     "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
     "rulesUrl": "dist/pachisi/variants/seven-shell/index.html",
     "status": "rendered",
-    "players": "2–4"
+    "players": "2\u20134"
   },
   {
     "family": "pachisi",
@@ -3335,7 +3335,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
-    "players": "2–5"
+    "players": "2\u20135"
   },
   {
     "family": "standard-52",
@@ -3459,7 +3459,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
-    "players": "4–8"
+    "players": "4\u20138"
   },
   {
     "family": "standard-52",
@@ -3472,7 +3472,7 @@
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
-    "players": "2–6"
+    "players": "2\u20136"
   },
   {
     "family": "standard-52",
@@ -3560,7 +3560,7 @@
     "rulesUrl": "dist/standard-dice/games/farkle/index.html",
     "status": "rendered",
     "reason": "component-game",
-    "players": "2–6"
+    "players": "2\u20136"
   },
   {
     "family": "standard-dice",
@@ -3572,7 +3572,7 @@
     "rulesUrl": "dist/standard-dice/games/liars-dice/index.html",
     "status": "rendered",
     "reason": "component-game",
-    "players": "2–6"
+    "players": "2\u20136"
   },
   {
     "family": "standard-dice",
@@ -3584,7 +3584,7 @@
     "rulesUrl": "dist/standard-dice/games/yahtzee/index.html",
     "status": "rendered",
     "reason": "component-game",
-    "players": "1–4"
+    "players": "1\u20134"
   },
   {
     "family": "stern-halma",
@@ -3639,7 +3639,7 @@
     "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
     "rulesUrl": "dist/stern-halma/variants/super-chinese-checkers/index.html",
     "status": "rendered",
-    "players": "2–6"
+    "players": "2\u20136"
   },
   {
     "family": "surakarta",
@@ -3784,7 +3784,7 @@
     "family": "xiangqi",
     "familyTitle": "Xiangqi",
     "variant": "yang-qi",
-    "variantTitle": "Yáng Qí",
+    "variantTitle": "Y\u00e1ng Q\u00ed",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
     "rulesUrl": "dist/xiangqi/variants/yang-qi/index.html",
@@ -3803,6 +3803,17 @@
     "reason": "rpg-provider"
   },
   {
+    "family": "brp",
+    "familyTitle": "Basic Roleplaying",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/brp/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
     "family": "cairn",
     "familyTitle": "Cairn",
     "variant": "reference",
@@ -3812,6 +3823,17 @@
     "rulesUrl": "dist/cairn/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "cairn",
+    "familyTitle": "Cairn",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/cairn/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "dnd-5e",
@@ -3825,6 +3847,17 @@
     "reason": "rpg-provider"
   },
   {
+    "family": "dnd-5e",
+    "familyTitle": "Dungeons & Dragons 5th Edition SRD",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/dnd-5e/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
     "family": "dungeon-world",
     "familyTitle": "Dungeon World",
     "variant": "reference",
@@ -3834,6 +3867,17 @@
     "rulesUrl": "dist/dungeon-world/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "dungeon-world",
+    "familyTitle": "Dungeon World",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/dungeon-world/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "endless-skies",
@@ -3859,6 +3903,17 @@
     "reason": "rpg-provider"
   },
   {
+    "family": "ironsworn",
+    "familyTitle": "Ironsworn",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/ironsworn/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
     "family": "knave",
     "familyTitle": "Knave",
     "variant": "reference",
@@ -3870,6 +3925,17 @@
     "reason": "rpg-provider"
   },
   {
+    "family": "knave",
+    "familyTitle": "Knave",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/knave/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
     "family": "maze-rats",
     "familyTitle": "Maze Rats",
     "variant": "reference",
@@ -3879,6 +3945,17 @@
     "rulesUrl": "dist/maze-rats/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "maze-rats",
+    "familyTitle": "Maze Rats",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/maze-rats/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "mongo",
@@ -3904,7 +3981,7 @@
     "reason": "hex-generator",
     "generator": "nukes",
     "generatorSize": 3,
-    "players": "2–3"
+    "players": "2\u20133"
   },
   {
     "family": "pathfinder-1e",
@@ -3918,6 +3995,17 @@
     "reason": "rpg-provider"
   },
   {
+    "family": "pathfinder-1e",
+    "familyTitle": "Pathfinder 1st Edition (PFSRD)",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/pathfinder-1e/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
+  },
+  {
     "family": "starforged",
     "familyTitle": "Starforged",
     "variant": "reference",
@@ -3927,6 +4015,17 @@
     "rulesUrl": "dist/starforged/index.html",
     "status": "generator",
     "reason": "rpg-provider"
+  },
+  {
+    "family": "starforged",
+    "familyTitle": "Starforged",
+    "variant": "character-sheet",
+    "variantTitle": "Character Sheet",
+    "topology": "rpg",
+    "svg": null,
+    "rulesUrl": "dist/starforged/index.html",
+    "status": "generator",
+    "reason": "rpg-chargen"
   },
   {
     "family": "talisman-worlds",

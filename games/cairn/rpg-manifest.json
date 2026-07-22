@@ -12,10 +12,15 @@
       "dataType": "entity",
       "arrayKey": "backgrounds",
       "displayField": "name",
-      "searchFields": ["name", "quote"],
+      "searchFields": [
+        "name",
+        "quote"
+      ],
       "cardFields": {
         "title": "name",
-        "meta": ["{quote}"],
+        "meta": [
+          "{quote}"
+        ],
         "description": null
       },
       "linkPath": null
@@ -28,11 +33,20 @@
       "dataType": "entity",
       "arrayKey": "monsters",
       "displayField": "name",
-      "searchFields": ["name", "traits"],
-      "tag": { "field": "hp", "prefix": "HP " },
+      "searchFields": [
+        "name",
+        "traits"
+      ],
+      "tag": {
+        "field": "hp",
+        "prefix": "HP "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{stat_line}", "HP {hp} · Armor {armor}"],
+        "meta": [
+          "{stat_line}",
+          "HP {hp} \u00b7 Armor {armor}"
+        ],
         "stats": "STR {str} DEX {dex} WIL {wil}",
         "description": "traits"
       },
@@ -46,11 +60,19 @@
       "dataType": "entity",
       "arrayKey": "tables[0].entries",
       "displayField": "name",
-      "searchFields": ["name", "effect"],
-      "tag": { "field": "roll", "prefix": "#" },
+      "searchFields": [
+        "name",
+        "effect"
+      ],
+      "tag": {
+        "field": "roll",
+        "prefix": "#"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["Spell #{roll}"],
+        "meta": [
+          "Spell #{roll}"
+        ],
         "description": "effect"
       },
       "linkPath": null
@@ -63,11 +85,17 @@
       "dataType": "entity",
       "arrayKey": "items",
       "displayField": "name",
-      "searchFields": ["name"],
-      "tag": { "field": "uses" },
+      "searchFields": [
+        "name"
+      ],
+      "tag": {
+        "field": "uses"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["Uses: {uses}"],
+        "meta": [
+          "Uses: {uses}"
+        ],
         "description": "effects[0]"
       },
       "linkPath": null
@@ -80,8 +108,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -92,8 +127,15 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -104,8 +146,17 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "{col1} / {col2}",
-      "searchFields": ["col1", "col2"],
-      "cardFields": { "title": "{col1}", "meta": ["{col2}", "{_tableName}"] },
+      "searchFields": [
+        "col1",
+        "col2"
+      ],
+      "cardFields": {
+        "title": "{col1}",
+        "meta": [
+          "{col2}",
+          "{_tableName}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -116,8 +167,17 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "{col1} / {col2}",
-      "searchFields": ["col1", "col2"],
-      "cardFields": { "title": "{col1}", "meta": ["{col2}", "{_tableName}"] },
+      "searchFields": [
+        "col1",
+        "col2"
+      ],
+      "cardFields": {
+        "title": "{col1}",
+        "meta": [
+          "{col2}",
+          "{_tableName}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -128,8 +188,17 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "{col1} / {col2}",
-      "searchFields": ["col1", "col2"],
-      "cardFields": { "title": "{col1}", "meta": ["{col2}", "{_tableName}"] },
+      "searchFields": [
+        "col1",
+        "col2"
+      ],
+      "cardFields": {
+        "title": "{col1}",
+        "meta": [
+          "{col2}",
+          "{_tableName}"
+        ]
+      },
       "linkPath": null
     },
     {
@@ -140,9 +209,168 @@
       "dataType": "table",
       "arrayKey": "tables",
       "displayField": "result",
-      "searchFields": ["result"],
-      "cardFields": { "title": "result", "meta": ["{_tableName} · Roll: {_roll}"] },
+      "searchFields": [
+        "result"
+      ],
+      "cardFields": {
+        "title": "result",
+        "meta": [
+          "{_tableName} \u00b7 Roll: {_roll}"
+        ]
+      },
       "linkPath": null
     }
-  ]
+  ],
+  "chargen": {
+    "title": "Adventurer",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#2e7d32",
+      "background": "#faf6f0",
+      "borderStyle": "ornate"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "background",
+            "label": "Background",
+            "gen": "backgrounds"
+          },
+          {
+            "id": "age",
+            "label": "Age",
+            "gen": "2d20+10"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "layout": "row",
+        "stats": [
+          {
+            "label": "STR",
+            "gen": "3d6",
+            "range": "3-18"
+          },
+          {
+            "label": "DEX",
+            "gen": "3d6",
+            "range": "3-18"
+          },
+          {
+            "label": "WIL",
+            "gen": "3d6",
+            "range": "3-18"
+          }
+        ]
+      },
+      {
+        "type": "track",
+        "label": "Hit Protection",
+        "max": 6,
+        "gen": "1d6",
+        "style": "boxes"
+      },
+      {
+        "type": "track",
+        "label": "Armor",
+        "max": 3,
+        "style": "boxes"
+      },
+      {
+        "type": "inventory",
+        "label": "Inventory",
+        "model": "location",
+        "sections": [
+          {
+            "label": "Hands",
+            "slots": 2
+          },
+          {
+            "label": "Body",
+            "slots": 2
+          },
+          {
+            "label": "Backpack",
+            "slots": 6
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Traits",
+        "gen": "traits",
+        "style": "lined",
+        "columns": [
+          "Quirks",
+          "Background",
+          "Goals",
+          "Virtues",
+          "Vices"
+        ]
+      },
+      {
+        "type": "notes",
+        "label": "Bonds",
+        "lines": 2
+      },
+      {
+        "type": "list",
+        "label": "Spellbooks",
+        "count": 2,
+        "style": "lined",
+        "gen": "spellbooks"
+      },
+      {
+        "type": "notes",
+        "label": "Scars & Notes",
+        "lines": 4
+      }
+    ],
+    "tables": {
+      "backgrounds": {
+        "source": "tables/backgrounds.json",
+        "arrayKey": "backgrounds",
+        "pickMethod": "random"
+      },
+      "names": {
+        "source": "tables/npc-tables.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable",
+        "tables": [
+          "NPC Names (Set 1)"
+        ]
+      },
+      "starting-gear": {
+        "source": "tables/backgrounds.json",
+        "arrayKey": "backgrounds",
+        "pickMethod": "random"
+      },
+      "traits": {
+        "source": "tables/npc-tables.json",
+        "arrayKey": "tables",
+        "pickMethod": "rollPerTable",
+        "tables": [
+          "Quirks",
+          "Background",
+          "Goals",
+          "Virtues",
+          "Vices"
+        ]
+      },
+      "spellbooks": {
+        "source": "tables/spellbooks.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      }
+    }
+  }
 }

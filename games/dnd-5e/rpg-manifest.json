@@ -12,11 +12,20 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "school.name"],
-      "tag": { "field": "level", "prefix": "Lvl " },
+      "searchFields": [
+        "name",
+        "school.name"
+      ],
+      "tag": {
+        "field": "level",
+        "prefix": "Lvl "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["Level {level} {school.name}", "{casting_time} · {range} · {duration}"],
+        "meta": [
+          "Level {level} {school.name}",
+          "{casting_time} \u00b7 {range} \u00b7 {duration}"
+        ],
         "tags": "components",
         "description": "desc[0]"
       },
@@ -30,11 +39,20 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "type"],
-      "tag": { "field": "challenge_rating", "prefix": "CR " },
+      "searchFields": [
+        "name",
+        "type"
+      ],
+      "tag": {
+        "field": "challenge_rating",
+        "prefix": "CR "
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{size} {type}, {alignment}", "AC {armor_class[0].value} · HP {hit_points} · CR {challenge_rating}"],
+        "meta": [
+          "{size} {type}, {alignment}",
+          "AC {armor_class[0].value} \u00b7 HP {hit_points} \u00b7 CR {challenge_rating}"
+        ],
         "stats": "STR {strength} DEX {dexterity} CON {constitution} INT {intelligence} WIS {wisdom} CHA {charisma}",
         "description": null
       },
@@ -48,10 +66,14 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name"],
+      "searchFields": [
+        "name"
+      ],
       "cardFields": {
         "title": "name",
-        "meta": ["Hit Die: d{hit_die}"],
+        "meta": [
+          "Hit Die: d{hit_die}"
+        ],
         "description": null
       },
       "linkPath": "classes/{name|kebabCase}/"
@@ -64,11 +86,19 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name", "equipment_category.name"],
-      "tag": { "field": "equipment_category.name" },
+      "searchFields": [
+        "name",
+        "equipment_category.name"
+      ],
+      "tag": {
+        "field": "equipment_category.name"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{equipment_category.name}", "{cost.quantity} {cost.unit}"],
+        "meta": [
+          "{equipment_category.name}",
+          "{cost.quantity} {cost.unit}"
+        ],
         "description": "desc[0]"
       },
       "linkPath": null
@@ -81,11 +111,17 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name"],
-      "tag": { "field": "rarity.name" },
+      "searchFields": [
+        "name"
+      ],
+      "tag": {
+        "field": "rarity.name"
+      },
       "cardFields": {
         "title": "name",
-        "meta": ["{rarity.name}"],
+        "meta": [
+          "{rarity.name}"
+        ],
         "description": "desc[0]"
       },
       "linkPath": "magic-items/{name|alphaGroup}/"
@@ -98,10 +134,14 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name"],
+      "searchFields": [
+        "name"
+      ],
       "cardFields": {
         "title": "name",
-        "meta": ["Speed: {speed} ft"],
+        "meta": [
+          "Speed: {speed} ft"
+        ],
         "description": "size_description"
       },
       "linkPath": "rules/races/"
@@ -114,7 +154,9 @@
       "dataType": "entity",
       "arrayKey": null,
       "displayField": "name",
-      "searchFields": ["name"],
+      "searchFields": [
+        "name"
+      ],
       "cardFields": {
         "title": "name",
         "meta": [],
@@ -122,5 +164,334 @@
       },
       "linkPath": "rules/conditions/"
     }
-  ]
+  ],
+  "chargen": {
+    "title": "Player Character",
+    "layout": "portrait",
+    "theme": {
+      "accent": "#7b5ea7",
+      "background": "#faf6f0",
+      "borderStyle": "ornate"
+    },
+    "sections": [
+      {
+        "type": "header",
+        "fields": [
+          {
+            "id": "name",
+            "label": "Character Name",
+            "width": 2,
+            "gen": "names"
+          },
+          {
+            "id": "class",
+            "label": "Class",
+            "gen": "classes"
+          },
+          {
+            "id": "level",
+            "label": "Level",
+            "default": "1",
+            "inputType": "number",
+            "min": 1,
+            "max": 20
+          },
+          {
+            "id": "race",
+            "label": "Race",
+            "gen": "races"
+          },
+          {
+            "id": "alignment",
+            "label": "Alignment",
+            "gen": "alignments"
+          },
+          {
+            "id": "background",
+            "label": "Background",
+            "gen": "backgrounds-inline"
+          }
+        ]
+      },
+      {
+        "type": "stats",
+        "layout": "row",
+        "stats": [
+          {
+            "label": "STR",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "DEX",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "CON",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "INT",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "WIS",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          },
+          {
+            "label": "CHA",
+            "gen": "4d6kh3",
+            "range": "3-18",
+            "modifier": true
+          }
+        ],
+        "derived": [
+          {
+            "label": "Proficiency Bonus",
+            "formula": "+2"
+          },
+          {
+            "label": "AC",
+            "formula": "10+DEX_mod",
+            "editable": true
+          },
+          {
+            "label": "Initiative",
+            "formula": "DEX_mod"
+          },
+          {
+            "label": "Speed",
+            "formula": "30",
+            "editable": true
+          }
+        ]
+      },
+      {
+        "type": "track",
+        "label": "Hit Points",
+        "max": "class_hp+CON_mod",
+        "style": "boxes"
+      },
+      {
+        "type": "track",
+        "label": "Hit Dice",
+        "max": 1,
+        "style": "boxes"
+      },
+      {
+        "type": "track",
+        "label": "Death Saves",
+        "max": 3,
+        "style": "boxes",
+        "tracks": 2,
+        "labels": [
+          "Successes",
+          "Failures"
+        ]
+      },
+      {
+        "type": "skills",
+        "label": "Skills",
+        "model": "proficiency",
+        "skills": [
+          {
+            "name": "Acrobatics",
+            "stat": "DEX"
+          },
+          {
+            "name": "Animal Handling",
+            "stat": "WIS"
+          },
+          {
+            "name": "Arcana",
+            "stat": "INT"
+          },
+          {
+            "name": "Athletics",
+            "stat": "STR"
+          },
+          {
+            "name": "Deception",
+            "stat": "CHA"
+          },
+          {
+            "name": "History",
+            "stat": "INT"
+          },
+          {
+            "name": "Insight",
+            "stat": "WIS"
+          },
+          {
+            "name": "Intimidation",
+            "stat": "CHA"
+          },
+          {
+            "name": "Investigation",
+            "stat": "INT"
+          },
+          {
+            "name": "Medicine",
+            "stat": "WIS"
+          },
+          {
+            "name": "Nature",
+            "stat": "INT"
+          },
+          {
+            "name": "Perception",
+            "stat": "WIS"
+          },
+          {
+            "name": "Performance",
+            "stat": "CHA"
+          },
+          {
+            "name": "Persuasion",
+            "stat": "CHA"
+          },
+          {
+            "name": "Religion",
+            "stat": "INT"
+          },
+          {
+            "name": "Sleight of Hand",
+            "stat": "DEX"
+          },
+          {
+            "name": "Stealth",
+            "stat": "DEX"
+          },
+          {
+            "name": "Survival",
+            "stat": "WIS"
+          }
+        ],
+        "columns": [
+          "Prof",
+          "Skill",
+          "Mod"
+        ]
+      },
+      {
+        "type": "list",
+        "label": "Saving Throws",
+        "style": "checkbox",
+        "count": 6,
+        "items": [
+          "STR",
+          "DEX",
+          "CON",
+          "INT",
+          "WIS",
+          "CHA"
+        ]
+      },
+      {
+        "type": "inventory",
+        "label": "Equipment",
+        "model": "weight",
+        "columns": [
+          "Item",
+          "Qty",
+          "Weight"
+        ],
+        "gen": "equipment"
+      },
+      {
+        "type": "list",
+        "label": "Features & Traits",
+        "count": 6,
+        "style": "lined",
+        "gen": "features"
+      },
+      {
+        "type": "list",
+        "label": "Spells & Abilities",
+        "count": 6,
+        "style": "lined",
+        "gen": "spells"
+      },
+      {
+        "type": "notes",
+        "label": "Notes",
+        "lines": 4
+      }
+    ],
+    "tables": {
+      "classes": {
+        "source": "data/classes.json",
+        "arrayKey": null,
+        "displayField": "name",
+        "pickMethod": "random"
+      },
+      "races": {
+        "source": "data/races.json",
+        "arrayKey": null,
+        "displayField": "name",
+        "pickMethod": "random"
+      },
+      "names": {
+        "source": "../_shared/names.json",
+        "arrayKey": "tables[0].entries",
+        "pickMethod": "random"
+      },
+      "alignments": {
+        "inline": [
+          "Lawful Good",
+          "Neutral Good",
+          "Chaotic Good",
+          "Lawful Neutral",
+          "True Neutral",
+          "Chaotic Neutral",
+          "Lawful Evil",
+          "Neutral Evil",
+          "Chaotic Evil"
+        ],
+        "pickMethod": "random"
+      },
+      "backgrounds-inline": {
+        "inline": [
+          "Acolyte",
+          "Charlatan",
+          "Criminal",
+          "Entertainer",
+          "Folk Hero",
+          "Guild Artisan",
+          "Hermit",
+          "Noble",
+          "Outlander",
+          "Sage",
+          "Sailor",
+          "Soldier",
+          "Urchin"
+        ],
+        "pickMethod": "random"
+      },
+      "features": {
+        "source": "data/features.json",
+        "arrayKey": "",
+        "pickMethod": "random"
+      },
+      "spells": {
+        "source": "data/spells.json",
+        "arrayKey": "",
+        "pickMethod": "random"
+      },
+      "equipment": {
+        "source": "data/equipment.json",
+        "arrayKey": "",
+        "pickMethod": "random"
+      }
+    }
+  }
 }
