@@ -45,6 +45,7 @@ An RPG and sandbox toolkit for old-school-style adventuring, by Ben Milton. Maze
 
 - [Core Rules](rules/core-rules/) — Danger Rolls, Advantage, NPC Reactions, Initiative, Combat, NPC Morale, Healing, Encumbrance, Leveling Up
 - [Character Creation](rules/character-creation/) — the 12-step process, starting gear, and generating/casting spells
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 

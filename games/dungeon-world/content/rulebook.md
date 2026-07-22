@@ -84,6 +84,7 @@ Dungeon World is a tabletop RPG by Sage LaTorra and Adam Koebel that applies the
 - [Adventure Conversion](rules/conversion/) — Converting published adventures and other-system monsters to Dungeon World
 - [Instant NPCs](rules/instant-npcs/) — 100 instincts, 100 knacks, and a name list for improvised NPCs
 - [Teaching the Game](rules/teaching-the-game/) — Pitching the game, presenting classes, running a first session
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 

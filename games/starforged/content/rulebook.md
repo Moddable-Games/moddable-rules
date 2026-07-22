@@ -54,6 +54,7 @@ A tabletop roleplaying game by Shawn Tomkin, set in the Forge — a chaotic, une
 - [Module Assets](rules/assets-module/) — Starship upgrades and add-ons
 - [Path Assets](rules/assets-path/) — All 46 character specializations, from Ace to Weapon Master
 - [Oracle Tables](rules/oracles/) — All 16 oracle categories: randomness and creative prompts for every aspect of play
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 

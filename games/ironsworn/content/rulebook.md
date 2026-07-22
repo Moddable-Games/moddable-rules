@@ -48,6 +48,7 @@ A tabletop roleplaying game by Shawn Tomkin set in the mythic dark fantasy world
 - [Moves](rules/moves/) — All moves: Adventure, Relationship, Combat, Suffer, Quest, Fate
 - [Combat](rules/combat/) — Enter the Fray, Strike, Clash, Turn the Tide, End the Fight, Battle
 - [Foes and Encounters](rules/foes/) — NPC components, packs, creating encounters
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 

@@ -112,6 +112,10 @@ Pathfinder is Paizo Publishing's evolution of the D&D 3.5 ruleset, first release
 
 - [Bestiary](rules/bestiary/) — All 336 core monsters: CR, type, and size at a glance
 
+**Reference**
+
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
+
 The Core Rulebook is fully covered: all 11 classes, 175 feats, Combat, Magic, Equipment, Environment, Gamemastering, Glossary, and Bestiary chapters complete. 623 spells, 241 equipment items, and 336 monsters available as structured data below.
 
 </div>

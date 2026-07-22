@@ -947,8 +947,19 @@ function buildPages(slug) {
       const { data: meta, content } = matter(src);
       const pageSlug = meta.slug || file.replace('.md', '');
 
+      const withSvgs = content.replace(
+        /\{\{svg:([^\s"]+)\s*"([^"]*)"\}\}/g,
+        (_, svgFile, caption) => {
+          const svgPath = resolve(gameDir, 'diagrams/svg', svgFile);
+          if (!existsSync(svgPath)) return `<!-- missing: ${svgFile} -->`;
+          const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
+          const engineUrl = `https://engine.moddable.games/play/?game=${slug}&variant=character-sheet`;
+          return `<div class="diagram-wrap">${svg}\n<p class="diagram-caption">${caption}</p>\n<p class="diagram-engine-url"><a href="${engineUrl}" class="diagram-engine-link" target="_blank" rel="noopener">${engineUrl}</a></p></div>`;
+        }
+      );
+
       md.resetAnchors();
-      let rendered = md.render(content);
+      let rendered = md.render(withSvgs);
       rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
       rendered = rendered.replace(/<table>/g, '<div class="table-wrap"><table class="t">')
                          .replace(/<\/table>/g, '</table></div>');
@@ -1410,6 +1421,9 @@ function buildBoards() {
       if (existsSync(rpgManifestPath)) {
         const rpgManifest = JSON.parse(readFileSync(rpgManifestPath, 'utf8'));
         if (rpgManifest.chargen) {
+          const chargenSvg = `games/${family}/diagrams/svg/${family}-character-sheet.svg`;
+          const chargenSvgPage1 = `games/${family}/diagrams/svg/${family}-character-sheet-page-1.svg`;
+          const hasChargenSvg = existsSync(resolve(GAMES_DIR, '..', chargenSvg)) || existsSync(resolve(GAMES_DIR, '..', chargenSvgPage1));
           const chargenExisting = index.find(e => e.family === family && e.reason === 'rpg-chargen');
           if (!chargenExisting) {
             index.push({
@@ -1418,11 +1432,15 @@ function buildBoards() {
               variant: 'character-sheet',
               variantTitle: 'Character Sheet',
               topology: 'rpg',
-              svg: null,
-              rulesUrl: `dist/${family}/index.html`,
-              status: 'generator',
+              svg: hasChargenSvg ? (existsSync(resolve(GAMES_DIR, '..', chargenSvg)) ? chargenSvg : chargenSvgPage1) : null,
+              rulesUrl: `dist/${family}/rules/character-sheet/index.html`,
+              status: hasChargenSvg ? 'rendered' : 'generator',
               reason: 'rpg-chargen',
             });
+          } else if (hasChargenSvg && chargenExisting.status === 'generator') {
+            chargenExisting.svg = existsSync(resolve(GAMES_DIR, '..', chargenSvg)) ? chargenSvg : chargenSvgPage1;
+            chargenExisting.status = 'rendered';
+            chargenExisting.rulesUrl = `dist/${family}/rules/character-sheet/index.html`;
           }
         }
       }

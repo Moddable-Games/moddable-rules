@@ -49,6 +49,7 @@ Abilities are central: all six abilities (Strength, Dexterity, Constitution, Int
 - [Playing the Game](rules/playing-the-game/) — abilities in play, saving throws, reactions, combat, stunts, advantage, critical hits and item quality, morale, healing, converting OSR monsters, and advancement
 - [Equipment & Prices](rules/equipment/) — the full copper-penny price list: tools, light sources, armor, weapons, clothing, food, animals, lodging, ships, transport, wages, and buildings
 - [Magic](rules/magic/) — how spell books work, and the 100 classless spells
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 

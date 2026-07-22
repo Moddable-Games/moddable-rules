@@ -54,6 +54,7 @@ The Systems Reference Document 5.1 (SRD 5.1) contains the open core rules for D&
 - [Conditions](rules/conditions/) — All status condition definitions
 - [Feats](rules/feats/) — SRD feat options
 - [Gamemastering](rules/gamemastering/) — Traps, diseases, madness, poisons, and objects
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 

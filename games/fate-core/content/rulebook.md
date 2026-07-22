@@ -64,6 +64,7 @@ Fate Core is a generic, narrative-first tabletop RPG by Evil Hat Productions, bu
 
 **Reference**
 
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 - [Cheat Sheet and Veterans' Guide](rules/cheat-sheet-and-veterans-guide/) — Quick-reference notes and what's changed for players of previous Fate games
 - [Appendix I: Open Game License](rules/appendix-ogl/) — The full OGL 1.0a text and Fate Core's copyright notice
 

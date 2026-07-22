@@ -52,6 +52,7 @@ This is the free, generic 2020 System Reference Document — the core toolkit on
 - [Combat](rules/combat/) — the combat round phases, attacking, parrying, dodging, weapons, armor, shields, damage, healing
 - [Spot Rules](rules/spot-rules/) — ambush, backstab, cover, darkness, disease, falling, poison, and other situational rules
 - [Sample Foe](rules/sample-foe/) — a fully statted Bear, as a template for building NPCs and monsters
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 

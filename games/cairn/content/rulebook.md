@@ -67,6 +67,7 @@ A character's role or skills are not limited by a class. Instead, the equipment 
 - [Forest Seeds](rules/forest-seeds/) — Forestcrawl exploration and a full random-generation procedure for building forests, with a worked example
 - [Setting Seeds](rules/setting-seeds/) — Building a region's people, factions, terrain, weather, points of interest, and paths
 - [Bibliography](rules/bibliography/) — Design influences and further reading credited by the original text
+- [Character Sheet](rules/character-sheet/) — Blank character sheet (printable) with interactive generator
 
 </div>
 
