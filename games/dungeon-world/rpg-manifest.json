@@ -1,0 +1,19 @@
+{
+  "label": "Dungeon World",
+  "dataPath": "games/dungeon-world/data/",
+  "rulesUrl": "games/dungeon-world/content/rulebook.md",
+  "dataType": "category-list",
+  "categories": [
+    {"id": "classes", "label": "Classes", "file": "classes.json", "color": "red", "searchFields": ["name", "description"], "linkPath": "content/rules/{linkPath}.md"},
+    {"id": "cavern-dwellers", "label": "Cavern Dwellers", "file": "cavern-dwellers.json", "color": "stone", "searchFields": ["name", "description", "tags"]},
+    {"id": "lower-depths", "label": "The Lower Depths", "file": "lower-depths.json", "color": "amber", "searchFields": ["name", "description", "tags"]},
+    {"id": "twisted-experiments", "label": "Twisted Experiments", "file": "twisted-experiments.json", "color": "purple", "searchFields": ["name", "description", "tags"]},
+    {"id": "folk-of-the-realm", "label": "Folk of the Realm", "file": "folk-of-the-realm.json", "color": "blue", "searchFields": ["name", "description", "tags"]},
+    {"id": "ravenous-hordes", "label": "Ravenous Hordes", "file": "ravenous-hordes.json", "color": "orange", "searchFields": ["name", "description", "tags"]},
+    {"id": "planar-powers", "label": "Planar Powers", "file": "planar-powers.json", "color": "gold", "searchFields": ["name", "description", "tags"]},
+    {"id": "swamp-denizens", "label": "Swamp Denizens", "file": "swamp-denizens.json", "color": "green", "searchFields": ["name", "description", "tags"]},
+    {"id": "undead-legions", "label": "Undead Legions", "file": "undead-legions.json", "color": "black", "searchFields": ["name", "description", "tags"]},
+    {"id": "dark-woods", "label": "The Dark Woods", "file": "dark-woods.json", "color": "forest", "searchFields": ["name", "description", "tags"]}
+  ],
+  "cardFields": ["name", "tags", "attack", "hp", "armor", "description", "instinct"]
+}

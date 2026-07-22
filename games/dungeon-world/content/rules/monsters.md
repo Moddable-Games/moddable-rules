@@ -7,7 +7,7 @@ published: true
 
 ## Monsters
 
-Great heroes need horrendous antagonists. This section is about how to create and play as those antagonists—from the lowly goblin warrior to the hellish demon.
+Great heroes need horrendous antagonists. This chapter is about how to create and play as those antagonists—from the lowly goblin warrior to the hellish demon.
 
 ### Using Monsters
 
@@ -160,4 +160,4 @@ The monster stat blocks within the settings describe HP, damage, and all the oth
 
 **Planar Powers.** Sometimes, monsters do not come from Dungeon World at all. Beyond the mountains at the edge of the world or below the deepest seas, the sages and wise old priests say that there are gateways to the lands beyond. They speak of elysian fields; rivers of sweet wine and maidens dancing in fields of gold. They tell tales of the paradise of heavens to be found past the Planar Door. Tales tell, too, of the Thousandfold Hell. Of the swirling Elemental Vortex and the devils that wait for the stars to align so they can enter Dungeon World and wreak their bloody havoc. You must be curious to know if these tales are true? What will you see when the passage to the beyond is opened?
 
-See the [monsters.json data file](../../../data/monsters.json) for the complete stat blocks of every creature across these settings.
+See the [bestiary data files](../../data/) — `cavern-dwellers.json`, `lower-depths.json`, `twisted-experiments.json`, `folk-of-the-realm.json`, `ravenous-hordes.json`, `planar-powers.json`, `swamp-denizens.json`, `undead-legions.json`, and `dark-woods.json` — for the complete stat blocks of every creature across these settings.
