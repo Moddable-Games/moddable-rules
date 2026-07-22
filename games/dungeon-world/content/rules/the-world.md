@@ -49,13 +49,53 @@ As play progresses, add new steadings, dungeons, and locations as they're discov
 
 ### Steading Tags
 
-**Prosperity:** *Dirt* (nothing for sale, nobody has more than they need; unskilled labor is cheap) · *Poor* (only the bare necessities for sale; weapons scarce unless heavily defended or militant) · *Moderate* (most mundane items available, some skilled laborers) · *Wealthy* (any mundane item can be found; most skilled laborers, but in demand) · *Rich* (mundane items and more, if you know where to look; specialist labor at high prices).
+**Prosperity:**
 
-**Population:** *Exodus* (the steading has lost its population and is on the verge of collapse) · *Shrinking* (population is less than it once was; buildings stand empty) · *Steady* (population in line with current size, slow growth) · *Growing* (more people than buildings) · *Booming* (resources stretched thin keeping up).
+- **Dirt** — nothing for sale, nobody has more than they need; unskilled labor is cheap
+- **Poor** — only the bare necessities for sale; weapons scarce unless heavily defended or militant
+- **Moderate** — most mundane items available, some skilled laborers
+- **Wealthy** — any mundane item can be found; most skilled laborers, but in demand
+- **Rich** — mundane items and more, if you know where to look; specialist labor at high prices
 
-**Defenses:** *None* (clubs, torches, farming tools) · *Militia* (able-bodied folk with worn weapons, no standing force) · *Watch* (a few watchers who look out for trouble and summon the militia) · *Guard* (armed defenders at all times, pool under 100) · *Garrison* (armed defenders at all times, pool of 100–300, multiple patrols) · *Battalion* (up to 1,000 armed defenders, manned maintained defenses) · *Legion* (thousands of armed soldiers, intimidating defenses).
+**Population:**
 
-**Other Tags:** *Safe* (outside trouble doesn't come here until the players bring it) · *Religion* (a listed deity is revered here) · *Exotic* (goods and services unavailable anywhere else nearby) · *Resource* (easy access to a listed resource, significantly cheaper) · *Need* (an acute or ongoing need for a listed resource, which sells for considerably more) · *Oath* (sworn to listed steadings, generally fealty or support) · *Trade* (regularly trades with listed steadings) · *Market* (everyone comes here to trade; +1 to Supply) · *Enmity* (holds a grudge against listed steadings) · *History* (something important once happened here: battle, miracle, myth, romance, tragedy) · *Arcane* (someone can cast arcane spells for a price; +1 to Recruit an adept) · *Divine* (a major religious presence that can heal or raise the dead for a donation; +1 to Recruit priests) · *Guild* (a listed guild type has major presence; +1 to Recruit an associated hireling) · *Personage* (a notable person makes their home here) · *Dwarven* / *Elven* (significantly or entirely that race; their goods more common and less expensive) · *Craft* (known for excellence in a listed craft) · *Lawless* (crime is rampant, authority weak) · *Blight* (a recurring problem, usually a type of monster) · *Power* (holds sway of some type — political, divine, or arcane).
+- **Exodus** — the steading has lost its population and is on the verge of collapse
+- **Shrinking** — population is less than it once was; buildings stand empty
+- **Steady** — population in line with current size, slow growth
+- **Growing** — more people than buildings
+- **Booming** — resources stretched thin keeping up
+
+**Defenses:**
+
+- **None** — clubs, torches, farming tools
+- **Militia** — able-bodied folk with worn weapons, no standing force
+- **Watch** — a few watchers who look out for trouble and summon the militia
+- **Guard** — armed defenders at all times, pool under 100
+- **Garrison** — armed defenders at all times, pool of 100–300, multiple patrols
+- **Battalion** — up to 1,000 armed defenders, manned maintained defenses
+- **Legion** — thousands of armed soldiers, intimidating defenses
+
+**Other Tags:**
+
+- **Safe** — outside trouble doesn't come here until the players bring it
+- **Religion** — a listed deity is revered here
+- **Exotic** — goods and services unavailable anywhere else nearby
+- **Resource** — easy access to a listed resource, significantly cheaper
+- **Need** — an acute or ongoing need for a listed resource, which sells for considerably more
+- **Oath** — sworn to listed steadings, generally fealty or support
+- **Trade** — regularly trades with listed steadings
+- **Market** — everyone comes here to trade; +1 to Supply
+- **Enmity** — holds a grudge against listed steadings
+- **History** — something important once happened here: battle, miracle, myth, romance, tragedy
+- **Arcane** — someone can cast arcane spells for a price; +1 to Recruit an adept
+- **Divine** — a major religious presence that can heal or raise the dead for a donation; +1 to Recruit priests
+- **Guild** — a listed guild type has major presence; +1 to Recruit an associated hireling
+- **Personage** — a notable person makes their home here
+- **Dwarven / Elven** — significantly or entirely that race; their goods more common and less expensive
+- **Craft** — known for excellence in a listed craft
+- **Lawless** — crime is rampant, authority weak
+- **Blight** — a recurring problem, usually a type of monster
+- **Power** — holds sway of some type — political, divine, or arcane
 
 ### Steading Names
 

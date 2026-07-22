@@ -173,6 +173,39 @@
         "description": "description"
       },
       "linkPath": null
+    },
+    {
+      "id": "instant-npcs",
+      "label": "Instant NPCs",
+      "file": "instant-npcs.json",
+      "color": "#9b59b6",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "result",
+      "searchFields": ["name", "entries"],
+      "linkPath": null
+    },
+    {
+      "id": "equipment-tables",
+      "label": "Equipment Tables",
+      "file": "equipment-tables.json",
+      "color": "#e74c3c",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "name",
+      "searchFields": ["name", "entries"],
+      "linkPath": null
+    },
+    {
+      "id": "steading-tags",
+      "label": "Steading Tags",
+      "file": "steading-tags.json",
+      "color": "#1abc9c",
+      "dataType": "table",
+      "arrayKey": "tables",
+      "displayField": "name",
+      "searchFields": ["name", "entries"],
+      "linkPath": null
     }
   ]
 }
