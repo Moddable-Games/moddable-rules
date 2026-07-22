@@ -1,0 +1,18 @@
+{
+  "label": "Basic Roleplaying",
+  "dataPath": "games/brp/data/",
+  "rulesUrl": "dist/brp/",
+  "dataType": "table",
+  "categories": [
+    { "id": "skills", "label": "Skills", "file": "skills.json", "color": "#c0392b", "linkPath": null },
+    { "id": "professions", "label": "Professions", "file": "professions.json", "color": "#2980b9", "linkPath": null },
+    { "id": "weapons", "label": "Weapons", "file": "weapons.json", "color": "#7f8c8d", "linkPath": null },
+    { "id": "armor", "label": "Armor", "file": "armor.json", "color": "#8e44ad", "linkPath": null },
+    { "id": "shields", "label": "Shields", "file": "shields.json", "color": "#d35400", "linkPath": null }
+  ],
+  "cardFields": {
+    "title": "name",
+    "meta": "{_tableName}",
+    "description": null
+  }
+}
