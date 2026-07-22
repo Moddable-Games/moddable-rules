@@ -23,7 +23,7 @@ engine:
   topology:
     type: none
   content:
-    source: tables/
+    source: data/
     schema:
       type: category-list
 ---
@@ -54,14 +54,14 @@ An RPG and sandbox toolkit for old-school-style adventuring, by Ben Milton. Maze
 
 Roll dice and consult for instant content: monsters, NPCs, treasure, cities, wilderness, dungeons, and more. Machine-readable JSON, organized to match the book's own sections:
 
-- [magic.json](../../games/maze-rats/tables/magic.json) — spell formulas, mutations, insanities, omens
-- [monsters-animals.json](../../games/maze-rats/tables/monsters-animals.json) — animals, monster features, traits, abilities, tactics
-- [characters.json](../../games/maze-rats/tables/characters.json) — NPCs, names, personalities, goals, secrets
-- [treasure-equipment.json](../../games/maze-rats/tables/treasure-equipment.json) — items, potions, ingredients, treasure
-- [city.json](../../games/maze-rats/tables/city.json) — city themes, districts, buildings, factions, inns
-- [wild.json](../../games/maze-rats/tables/wild.json) — wilderness regions, landmarks, hazards, plants
-- [maze.json](../../games/maze-rats/tables/maze.json) — dungeon forms, layouts, rooms, traps
+- [magic.json](../../games/maze-rats/data/magic.json) — spell formulas, mutations, insanities, omens
+- [monsters-animals.json](../../games/maze-rats/data/monsters-animals.json) — animals, monster features, traits, abilities, tactics
+- [characters.json](../../games/maze-rats/data/characters.json) — NPCs, names, personalities, goals, secrets
+- [treasure-equipment.json](../../games/maze-rats/data/treasure-equipment.json) — items, potions, ingredients, treasure
+- [city.json](../../games/maze-rats/data/city.json) — city themes, districts, buildings, factions, inns
+- [wild.json](../../games/maze-rats/data/wild.json) — wilderness regions, landmarks, hazards, plants
+- [maze.json](../../games/maze-rats/data/maze.json) — dungeon forms, layouts, rooms, traps
 
-See the [tables index](../../games/maze-rats/tables/index.md) for the full list and how to use them.
+See the [tables index](../../games/maze-rats/data/index.md) for the full list and how to use them.
 
 </div>
