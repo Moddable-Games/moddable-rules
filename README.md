@@ -212,6 +212,14 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-07-22
+- Added Fate Core System (CC BY 3.0) — 13 rules pages covering all core mechanics
+- Character sheet pages for all 10 RPGs with blank SVG sheets rendered by moddable-engine
+- New `npm run sync:chargen` command for automated character sheet SVG export
+- Build script now processes `{{svg:...}}` includes in sub-pages
+- All RPG consolidated PDFs now include character sheets
+- 46 games, 358 manifest entries (344 rendered)
+
 #### 2026-07-08
 - Moddable Chess: 155 variants (was 102), added 53 new variants across multiple batches
 - Shogi: expanded from 4 to 24 variants (Chu, Dai, Tenjiku, Maka-Dai-Dai, Taikyoku, Wa, and more)
