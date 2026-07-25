@@ -1,0 +1,62 @@
+{
+  "slug": "dungeon-chess",
+  "title": "Dungeon Chess",
+  "players": "2–4",
+  "duration": "30–120 min",
+  "age": "12+",
+  "tagline": "Asymmetric fantasy strategy on modular dungeon boards",
+  "type": "mod",
+  "status": "alpha",
+  "updated": "2026-06-12",
+  "version": "0.2.2",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "compact",
+      "title": "Dungeon Chess (Compact Skirmish (10×10))",
+      "players": "2",
+      "board": "10x10",
+      "win": null,
+      "special": null
+    },
+    {
+      "slug": "four-player",
+      "title": "Dungeon Chess (Four Player (20×20))",
+      "players": "2",
+      "board": "20x20",
+      "win": null,
+      "special": null
+    },
+    {
+      "slug": "two-player",
+      "title": "Dungeon Chess (Two Player (20×8))",
+      "players": "2",
+      "board": "20x8",
+      "win": null,
+      "special": null
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "What Is Dungeon Chess?",
+    "The Four Factions",
+    "Unit Roster",
+    "The Cannon Mechanic",
+    "Terrain",
+    "Army Drafting",
+    "How to Play",
+    "Maps"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/dungeon-chess/rulebook.md",
+    "meta": "/api/rules/dungeon-chess/meta.json",
+    "variants": "/api/rules/dungeon-chess/variants/"
+  }
+}

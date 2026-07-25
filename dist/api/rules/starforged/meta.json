@@ -1,0 +1,92 @@
+{
+  "slug": "starforged",
+  "title": "Starforged",
+  "players": "1–4",
+  "duration": "60–240 min",
+  "age": "14+",
+  "tagline": "A perilous journey through the Forge, guided by moves and oracle tables",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-19",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "assets-companion",
+      "title": "Companion Assets"
+    },
+    {
+      "section": "rules",
+      "slug": "assets-deed",
+      "title": "Deed Assets"
+    },
+    {
+      "section": "rules",
+      "slug": "assets-module",
+      "title": "Module Assets"
+    },
+    {
+      "section": "rules",
+      "slug": "assets-path",
+      "title": "Path Assets"
+    },
+    {
+      "section": "rules",
+      "slug": "assets-vehicles",
+      "title": "Vehicle Assets"
+    },
+    {
+      "section": "rules",
+      "slug": "basics",
+      "title": "The Basics"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "character",
+      "title": "Your Character"
+    },
+    {
+      "section": "rules",
+      "slug": "encounters",
+      "title": "Encounters"
+    },
+    {
+      "section": "rules",
+      "slug": "moves",
+      "title": "Moves"
+    },
+    {
+      "section": "rules",
+      "slug": "oracles",
+      "title": "Starforged Oracle Tables"
+    },
+    {
+      "section": "rules",
+      "slug": "truths",
+      "title": "Setting Truths"
+    }
+  ],
+  "data": [],
+  "oracleCount": 262,
+  "sections": [
+    "Ironsworn: Starforged"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/starforged/rulebook.md",
+    "meta": "/api/rules/starforged/meta.json",
+    "pages": "/api/rules/starforged/pages/",
+    "oracles": "/api/rules/starforged/oracles.json"
+  }
+}

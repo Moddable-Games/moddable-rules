@@ -1,0 +1,39 @@
+{
+  "slug": "agon",
+  "title": "Agon",
+  "players": "2",
+  "duration": "20–40 min",
+  "age": "10+",
+  "tagline": "Guide your Queen to the centre of a 91-hex board",
+  "type": "standalone",
+  "status": "live",
+  "updated": "2026-07-06",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Agon (Standard)",
+      "players": "2",
+      "board": "hex radius 5",
+      "win": null,
+      "special": null
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Agon"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/agon/rulebook.md",
+    "meta": "/api/rules/agon/meta.json",
+    "variants": "/api/rules/agon/variants/"
+  }
+}

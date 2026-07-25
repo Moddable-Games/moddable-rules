@@ -1,0 +1,45 @@
+{
+  "slug": "econopoly",
+  "title": "Econopoly",
+  "players": "2–6",
+  "duration": "60 min",
+  "age": "10+",
+  "tagline": "Euro-style resource management meets Monopoly",
+  "type": "mod",
+  "status": "playtest",
+  "updated": "2026-06-19",
+  "version": "0.2.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Econopoly (Standard)",
+      "players": "2-6",
+      "board": "perimeter track",
+      "win": null,
+      "special": null
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "How to Play in 5 Minutes",
+    "Why This Exists",
+    "Rule Changes",
+    "Components",
+    "Linked Resources",
+    "Winning Conditions",
+    "Event Cards"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/econopoly/rulebook.md",
+    "meta": "/api/rules/econopoly/meta.json",
+    "variants": "/api/rules/econopoly/variants/"
+  }
+}

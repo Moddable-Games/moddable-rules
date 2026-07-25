@@ -1,0 +1,87 @@
+{
+  "slug": "morris",
+  "title": "Nine Men's Morris",
+  "players": "2",
+  "duration": "15–45 min",
+  "age": "7+",
+  "tagline": "The ancient mill game, played on stone, cloth, and wood across five continents",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-15",
+  "version": "0.1.1",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "three-mens-morris",
+      "title": "Three Men's Morris",
+      "players": "2",
+      "board": "3×3 grid (9 intersections)",
+      "win": "Form a three-in-a-row with all three of your pieces",
+      "special": "No movement phase; pieces jump to any empty square. Smallest member of the Mill family."
+    },
+    {
+      "slug": "six-mens-morris",
+      "title": "Six Men's Morris",
+      "players": "2",
+      "board": "Two concentric squares (16 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Two concentric squares with connecting lines. The medieval European standard form before Nine Men's Morris predominated."
+    },
+    {
+      "slug": "nine-mens-morris",
+      "title": "Nine Men's Morris",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Three concentric squares joined at midpoints. Flying allowed when reduced to 3 pieces."
+    },
+    {
+      "slug": "twelve-mens-morris",
+      "title": "Twelve Men's Morris",
+      "players": "2",
+      "board": "Three concentric squares with diagonals (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Identical board to Nine Men's Morris but with corner diagonal connections. 12 pieces per side. No flying rule."
+    },
+    {
+      "slug": "lasker-morris",
+      "title": "Lasker Morris",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Each turn: either place a new piece OR move an existing piece. No sequential placement phase."
+    },
+    {
+      "slug": "morabaraba",
+      "title": "Morabaraba",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 cows or block all their moves",
+      "special": "South African national game. Cows instead of men. Special rules for the three-cow endgame."
+    },
+    {
+      "slug": "shax",
+      "title": "Shax",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Somali variant: during placement, mills do not remove opponent pieces — instead, pieces are captured only during the movement phase."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/morris/rulebook.md",
+    "meta": "/api/rules/morris/meta.json",
+    "variants": "/api/rules/morris/variants/"
+  }
+}

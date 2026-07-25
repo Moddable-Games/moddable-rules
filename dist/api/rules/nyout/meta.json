@@ -1,0 +1,39 @@
+{
+  "slug": "nyout",
+  "title": "Nyout (유놓이 / Yut Nori)",
+  "players": "2–4",
+  "duration": "20–40 min",
+  "age": "6+",
+  "tagline": "Korean stick-throwing race across a circular track",
+  "type": "standalone",
+  "status": "live",
+  "updated": "2026-07-06",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Nyout (Standard)",
+      "players": "2",
+      "board": "perimeter cross",
+      "win": null,
+      "special": null
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Nyout (Yut Nori / 유놓이)"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/nyout/rulebook.md",
+    "meta": "/api/rules/nyout/meta.json",
+    "variants": "/api/rules/nyout/variants/"
+  }
+}

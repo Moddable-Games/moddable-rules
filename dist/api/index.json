@@ -1,0 +1,845 @@
+{
+  "endpoints": [
+    {
+      "path": "/api/catalogue.json",
+      "description": "Game catalogue (46 games)",
+      "type": "json"
+    },
+    {
+      "path": "/api/entities.json",
+      "description": "All RPG entities (7 games)",
+      "type": "json"
+    },
+    {
+      "path": "/api/oracles.json",
+      "description": "All oracle tables (6 games)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/agon/meta.json",
+      "description": "Agon metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/agon/rulebook.md",
+      "description": "Agon hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/agon/variants/",
+      "description": "Agon variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/asalto/meta.json",
+      "description": "Asalto metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/asalto/rulebook.md",
+      "description": "Asalto hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/asalto/variants/",
+      "description": "Asalto variant markdown files (2)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/backgammon/meta.json",
+      "description": "Backgammon metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/backgammon/rulebook.md",
+      "description": "Backgammon hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/backgammon/variants/",
+      "description": "Backgammon variant markdown files (8)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/bavarian-32/games/",
+      "description": "Bavarian 32-Card Games component games (2)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/bavarian-32/meta.json",
+      "description": "Bavarian 32-Card Games metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/bavarian-32/rulebook.md",
+      "description": "Bavarian 32-Card Games hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/brp/data/",
+      "description": "Basic Roleplaying data files (5)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/brp/meta.json",
+      "description": "Basic Roleplaying metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/brp/pages/",
+      "description": "Basic Roleplaying sub-pages (8)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/brp/rulebook.md",
+      "description": "Basic Roleplaying hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/cairn/meta.json",
+      "description": "Cairn metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/cairn/oracles.json",
+      "description": "Cairn oracle tables (66)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/cairn/pages/",
+      "description": "Cairn sub-pages (16)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/cairn/rulebook.md",
+      "description": "Cairn hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/chaupar/meta.json",
+      "description": "Chaupar metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/chaupar/rulebook.md",
+      "description": "Chaupar hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/chaupar/variants/",
+      "description": "Chaupar variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/dnd-5e/data/",
+      "description": "Dungeons & Dragons 5th Edition SRD data files (9)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/dnd-5e/meta.json",
+      "description": "Dungeons & Dragons 5th Edition SRD metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/dnd-5e/pages/",
+      "description": "Dungeons & Dragons 5th Edition SRD sub-pages (50)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/dnd-5e/rulebook.md",
+      "description": "Dungeons & Dragons 5th Edition SRD hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/dou-shou-qi/meta.json",
+      "description": "Dou Shou Qi (斗兽棋 / Jungle) metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/dou-shou-qi/rulebook.md",
+      "description": "Dou Shou Qi (斗兽棋 / Jungle) hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/dou-shou-qi/variants/",
+      "description": "Dou Shou Qi (斗兽棋 / Jungle) variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/double-six-dominoes/games/",
+      "description": "Double-Six Dominoes component games (4)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/double-six-dominoes/meta.json",
+      "description": "Double-Six Dominoes metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/double-six-dominoes/rulebook.md",
+      "description": "Double-Six Dominoes hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/draughts/meta.json",
+      "description": "Draughts metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/draughts/rulebook.md",
+      "description": "Draughts hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/draughts/variants/",
+      "description": "Draughts variant markdown files (20)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/dungeon-chess/meta.json",
+      "description": "Dungeon Chess metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/dungeon-chess/rulebook.md",
+      "description": "Dungeon Chess hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/dungeon-chess/variants/",
+      "description": "Dungeon Chess variant markdown files (3)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/dungeon-world/data/",
+      "description": "Dungeon World data files (14)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/dungeon-world/meta.json",
+      "description": "Dungeon World metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/dungeon-world/oracles.json",
+      "description": "Dungeon World oracle tables (14)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/dungeon-world/pages/",
+      "description": "Dungeon World sub-pages (25)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/dungeon-world/rulebook.md",
+      "description": "Dungeon World hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/econopoly/meta.json",
+      "description": "Econopoly metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/econopoly/rulebook.md",
+      "description": "Econopoly hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/econopoly/variants/",
+      "description": "Econopoly variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/fanorona/meta.json",
+      "description": "Fanorona metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/fanorona/rulebook.md",
+      "description": "Fanorona hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/fanorona/variants/",
+      "description": "Fanorona variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/fate-core/data/",
+      "description": "Fate Core data files (2)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/fate-core/meta.json",
+      "description": "Fate Core metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/fate-core/pages/",
+      "description": "Fate Core sub-pages (13)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/fate-core/rulebook.md",
+      "description": "Fate Core hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/flower-48/games/",
+      "description": "Flower 48 component games (4)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/flower-48/meta.json",
+      "description": "Flower 48 metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/flower-48/rulebook.md",
+      "description": "Flower 48 hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/go/meta.json",
+      "description": "Go metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/go/rulebook.md",
+      "description": "Go hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/go/variants/",
+      "description": "Go variant markdown files (14)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/halma/meta.json",
+      "description": "Halma metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/halma/rulebook.md",
+      "description": "Halma hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/halma/variants/",
+      "description": "Halma variant markdown files (2)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/hex/meta.json",
+      "description": "Hex metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/hex/rulebook.md",
+      "description": "Hex hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/hex/variants/",
+      "description": "Hex variant markdown files (8)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/hyper-imperium/meta.json",
+      "description": "Hyper Imperium metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/hyper-imperium/rulebook.md",
+      "description": "Hyper Imperium hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/ironsworn/meta.json",
+      "description": "Ironsworn metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/ironsworn/oracles.json",
+      "description": "Ironsworn oracle tables (6)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/ironsworn/pages/",
+      "description": "Ironsworn sub-pages (6)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/ironsworn/rulebook.md",
+      "description": "Ironsworn hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/knave/data/",
+      "description": "Knave data files (3)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/knave/meta.json",
+      "description": "Knave metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/knave/oracles.json",
+      "description": "Knave oracle tables (16)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/knave/pages/",
+      "description": "Knave sub-pages (5)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/knave/rulebook.md",
+      "description": "Knave hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/landlords-game/data/",
+      "description": "The Landlord's Game data files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/landlords-game/meta.json",
+      "description": "The Landlord's Game metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/landlords-game/rulebook.md",
+      "description": "The Landlord's Game hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/landlords-game/variants/",
+      "description": "The Landlord's Game variant markdown files (5)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/lattaque/meta.json",
+      "description": "L'Attaque metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/lattaque/rulebook.md",
+      "description": "L'Attaque hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/lattaque/variants/",
+      "description": "L'Attaque variant markdown files (4)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/mahjong/games/",
+      "description": "Mahjong component games (5)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/mahjong/meta.json",
+      "description": "Mahjong metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/mahjong/rulebook.md",
+      "description": "Mahjong hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/mancala/meta.json",
+      "description": "Mancala metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/mancala/rulebook.md",
+      "description": "Mancala hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/mancala/variants/",
+      "description": "Mancala variant markdown files (8)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/maze-rats/data/",
+      "description": "Maze Rats data files (7)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/maze-rats/meta.json",
+      "description": "Maze Rats metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/maze-rats/oracles.json",
+      "description": "Maze Rats oracle tables (94)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/maze-rats/pages/",
+      "description": "Maze Rats sub-pages (3)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/maze-rats/rulebook.md",
+      "description": "Maze Rats hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/moddable-chess/meta.json",
+      "description": "Moddable Chess metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/moddable-chess/rulebook.md",
+      "description": "Moddable Chess hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/moddable-chess/variants/",
+      "description": "Moddable Chess variant markdown files (153)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/morris/meta.json",
+      "description": "Nine Men's Morris metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/morris/rulebook.md",
+      "description": "Nine Men's Morris hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/morris/variants/",
+      "description": "Nine Men's Morris variant markdown files (7)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/nukes/meta.json",
+      "description": "Nukes: Official Rulebook metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/nukes/rulebook.md",
+      "description": "Nukes: Official Rulebook hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/nukes/variants/",
+      "description": "Nukes: Official Rulebook variant markdown files (4)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/nyout/meta.json",
+      "description": "Nyout (유놓이 / Yut Nori) metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/nyout/rulebook.md",
+      "description": "Nyout (유놓이 / Yut Nori) hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/nyout/variants/",
+      "description": "Nyout (유놓이 / Yut Nori) variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/pachisi/meta.json",
+      "description": "Pachisi metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/pachisi/rulebook.md",
+      "description": "Pachisi hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/pachisi/variants/",
+      "description": "Pachisi variant markdown files (3)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/pathfinder-1e/data/",
+      "description": "Pathfinder 1st Edition (PFSRD) data files (9)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/pathfinder-1e/meta.json",
+      "description": "Pathfinder 1st Edition (PFSRD) metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/pathfinder-1e/pages/",
+      "description": "Pathfinder 1st Edition (PFSRD) sub-pages (39)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/pathfinder-1e/rulebook.md",
+      "description": "Pathfinder 1st Edition (PFSRD) hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/reversi/meta.json",
+      "description": "Reversi metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/reversi/rulebook.md",
+      "description": "Reversi hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/reversi/variants/",
+      "description": "Reversi variant markdown files (3)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/royal-ur/meta.json",
+      "description": "Royal Game of Ur metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/royal-ur/rulebook.md",
+      "description": "Royal Game of Ur hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/royal-ur/variants/",
+      "description": "Royal Game of Ur variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/senet/meta.json",
+      "description": "Senet metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/senet/rulebook.md",
+      "description": "Senet hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/senet/variants/",
+      "description": "Senet variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/shogi/meta.json",
+      "description": "Shogi metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/shogi/rulebook.md",
+      "description": "Shogi hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/shogi/variants/",
+      "description": "Shogi variant markdown files (24)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/standard-52/games/",
+      "description": "Standard 52-Card Deck component games (18)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/standard-52/meta.json",
+      "description": "Standard 52-Card Deck metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/standard-52/rulebook.md",
+      "description": "Standard 52-Card Deck hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/standard-dice/games/",
+      "description": "Standard Dice component games (5)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/standard-dice/meta.json",
+      "description": "Standard Dice metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/standard-dice/rulebook.md",
+      "description": "Standard Dice hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/starforged/meta.json",
+      "description": "Starforged metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/starforged/oracles.json",
+      "description": "Starforged oracle tables (262)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/starforged/pages/",
+      "description": "Starforged sub-pages (12)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/starforged/rulebook.md",
+      "description": "Starforged hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/stern-halma/meta.json",
+      "description": "Stern-Halma metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/stern-halma/rulebook.md",
+      "description": "Stern-Halma hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/stern-halma/variants/",
+      "description": "Stern-Halma variant markdown files (5)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/surakarta/meta.json",
+      "description": "Surakarta metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/surakarta/rulebook.md",
+      "description": "Surakarta hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/surakarta/variants/",
+      "description": "Surakarta variant markdown files (1)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/tafl/meta.json",
+      "description": "Tafl metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/tafl/rulebook.md",
+      "description": "Tafl hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/tafl/variants/",
+      "description": "Tafl variant markdown files (4)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/rules/talisman-worlds/meta.json",
+      "description": "Talisman Worlds metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/talisman-worlds/rulebook.md",
+      "description": "Talisman Worlds hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/xiangqi/meta.json",
+      "description": "Xiangqi metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/xiangqi/rulebook.md",
+      "description": "Xiangqi hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/xiangqi/variants/",
+      "description": "Xiangqi variant markdown files (9)",
+      "type": "directory"
+    },
+    {
+      "path": "/api/search-index.json",
+      "description": "Full-text search index",
+      "type": "json"
+    }
+  ],
+  "generated": "2026-07-25",
+  "stats": {
+    "totalGames": 46,
+    "totalVariants": 295,
+    "totalComponentGames": 38,
+    "totalPages": 177,
+    "totalOracleTables": 458,
+    "totalDataFiles": 50,
+    "byType": {
+      "standalone": 3,
+      "hub": 2,
+      "classic": 19,
+      "rpg": 10,
+      "component": 6,
+      "mod": 4,
+      "platform": 1,
+      "game": 1
+    },
+    "byStatus": {
+      "live": 41,
+      "alpha": 2,
+      "playtest": 3
+    }
+  },
+  "deprecations": [
+    {
+      "old": "workers/mcp/rules-index.json",
+      "replacement": "/api/search-index.json",
+      "consumer": "rules-tools.js"
+    },
+    {
+      "old": "workers/mcp/games-meta.json",
+      "replacement": "/api/catalogue.json",
+      "consumer": "rules-tools.js"
+    },
+    {
+      "old": "workers/mcp/oracle-data.json",
+      "replacement": "/api/oracles.json",
+      "consumer": "oracle-tools.js"
+    },
+    {
+      "old": "workers/mcp/rpg-entities.json",
+      "replacement": "/api/entities.json",
+      "consumer": "oracle-tools.js"
+    },
+    {
+      "old": "workers/mcp/dnd-monsters.json",
+      "replacement": "/api/rules/dnd-5e/data/monsters.json",
+      "consumer": "oracle-tools.js"
+    },
+    {
+      "old": "workers/mcp/dnd-loot.json",
+      "replacement": "/api/rules/dnd-5e/data/loot.json",
+      "consumer": "oracle-tools.js"
+    },
+    {
+      "old": "workers/mcp/pf-monsters.json",
+      "replacement": "/api/rules/pathfinder-1e/data/monsters.json",
+      "consumer": "oracle-tools.js"
+    },
+    {
+      "old": "workers/mcp/pf-loot.json",
+      "replacement": "/api/rules/pathfinder-1e/data/loot.json",
+      "consumer": "oracle-tools.js"
+    },
+    {
+      "old": "dist/rules-index.json",
+      "replacement": "/api/search-index.json",
+      "consumer": "rules-referee widget"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "backgammon",
+  "title": "Backgammon",
+  "players": "2",
+  "duration": "15–60 min",
+  "age": "8+",
+  "tagline": "Five thousand years of race, risk, and probability",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-15",
+  "version": "0.1.1",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Standard Backgammon",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar."
+    },
+    {
+      "slug": "nardi",
+      "title": "Nardi",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "No hitting. Both players move in the same direction. No doubling cube."
+    },
+    {
+      "slug": "acey-deucey",
+      "title": "Acey-Deucey",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time."
+    },
+    {
+      "slug": "plakoto",
+      "title": "Plakoto",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "Pin instead of hit: landing on a blot traps it under your piece. Trapped pieces cannot move until released."
+    },
+    {
+      "slug": "fevga",
+      "title": "Fevga",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "No blots allowed: a point with one of your pieces is immediately blocked to the opponent. No hitting."
+    },
+    {
+      "slug": "hypergammon",
+      "title": "Hypergammon",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 3 pieces before your opponent",
+      "special": "3 pieces per side placed on the last three points. Games last 10–15 minutes. Fully solved by computer."
+    },
+    {
+      "slug": "nackgammon",
+      "title": "Nackgammon",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "2 extra checkers placed on the 23-point create a slower, more complex opening than standard Backgammon."
+    },
+    {
+      "slug": "chouette",
+      "title": "Chouette",
+      "players": "3–6",
+      "board": "24-point board",
+      "win": "Accumulate the most points across multiple games as the box, or advance to become the box",
+      "special": "Multiplayer format: one player (the box) faces a team. The box rotates when they lose. Consultation rules vary."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/backgammon/rulebook.md",
+    "meta": "/api/rules/backgammon/meta.json",
+    "variants": "/api/rules/backgammon/variants/"
+  }
+}

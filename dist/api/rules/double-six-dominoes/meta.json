@@ -1,0 +1,53 @@
+{
+  "slug": "double-six-dominoes",
+  "title": "Double-Six Dominoes",
+  "players": "2–8",
+  "duration": "15–60 min",
+  "age": "7+",
+  "tagline": "Match the pips, build the chain, score the ends",
+  "type": "component",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.1",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": "component",
+  "variants": [],
+  "games": [
+    {
+      "slug": "all-fives",
+      "title": "All Fives",
+      "players": "2–4"
+    },
+    {
+      "slug": "block",
+      "title": "Block Dominoes",
+      "players": "2–4"
+    },
+    {
+      "slug": "chickenfoot",
+      "title": "Chickenfoot",
+      "players": "2–8"
+    },
+    {
+      "slug": "mexican-train",
+      "title": "Mexican Train",
+      "players": "2–8"
+    }
+  ],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Double-Six Dominoes",
+    "Games",
+    "Attribution"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/double-six-dominoes/rulebook.md",
+    "meta": "/api/rules/double-six-dominoes/meta.json",
+    "games": "/api/rules/double-six-dominoes/games/"
+  }
+}

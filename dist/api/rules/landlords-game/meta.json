@@ -1,0 +1,79 @@
+{
+  "slug": "landlords-game",
+  "title": "The Landlord's Game",
+  "players": "2–6",
+  "duration": "60–120 min",
+  "age": "10+",
+  "tagline": "Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-07-04",
+  "version": "0.2.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "1904-original",
+      "title": "1904 Original",
+      "players": "2–6",
+      "board": "Circular 40-space track",
+      "win": "Complete 5 circuits with the highest total wealth (lots + cash + luxuries)",
+      "special": "The pure patent ruleset — no houses, no Chance cards, lot tickets drawn at start. The ur-game."
+    },
+    {
+      "slug": "1906-commercial",
+      "title": "1906 Commercial Edition",
+      "players": "2–4",
+      "board": "Circular 40-space track",
+      "win": "Most wealth at end of game — every Title Deed card and every house counts 100",
+      "special": "The first published edition. Adds houses, Chance cards, auctions, Speculation space, railroad monopoly pricing, and section rent doubling."
+    },
+    {
+      "slug": "single-tax",
+      "title": "Single Tax",
+      "players": "2–4",
+      "board": "Circular 40-space track",
+      "win": "Collective — all players win when public ownership is complete and wages are maximised",
+      "special": "Magie's intended lesson: play mid-game by vote. Land rents fund public acquisition of utilities, railroads, and colleges. Wages rise progressively."
+    },
+    {
+      "slug": "prosperity",
+      "title": "Prosperity",
+      "players": "2–4",
+      "board": "Circular 36-space track (dual-game board)",
+      "win": "First player to accumulate $3,000 in cash",
+      "special": "Magie's 1932 patent. Chance cube on doubles, No Trespassing signs, Idle Land speculation, railroad jumps, improvement tags. A complete standalone game, not a variant of 1906."
+    },
+    {
+      "slug": "monarch-of-the-world",
+      "title": "Monarch of the World",
+      "players": "2–6",
+      "board": "Circular 40-space track",
+      "win": "Demonstration only — the landlord inevitably wins",
+      "special": "One player gets all land, others get all other advantages and $100 each. The landlord receives no wages. Proves Magie's thesis: the land monopolist is monarch of the world."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [
+    "boards"
+  ],
+  "oracleCount": 0,
+  "sections": [
+    "History",
+    "The Board",
+    "Equipment",
+    "Variant Library",
+    "Board Data",
+    "Attribution"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/landlords-game/rulebook.md",
+    "meta": "/api/rules/landlords-game/meta.json",
+    "variants": "/api/rules/landlords-game/variants/",
+    "data": "/api/rules/landlords-game/data/"
+  }
+}

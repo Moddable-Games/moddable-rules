@@ -1491,4 +1491,9 @@ for (const slug of gameSlugs) {
 buildLanding();
 buildBoards();
 buildSearchIndex();
+
+// API generation runs after search index is built (it copies rules-index.json)
+import { execSync } from 'child_process';
+execSync('node js/build-api.mjs', { cwd: ROOT, stdio: 'inherit' });
+
 console.log('Build complete.');

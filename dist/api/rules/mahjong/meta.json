@@ -1,0 +1,56 @@
+{
+  "slug": "mahjong",
+  "title": "Mahjong",
+  "players": "4",
+  "duration": "30–120 min",
+  "age": "10+",
+  "tagline": "A tile-matching game of skill, strategy, and fortune",
+  "type": "component",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.1",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": "component",
+  "variants": [],
+  "games": [
+    {
+      "slug": "american-classic",
+      "title": "American Mahjong (Classic)",
+      "players": "4"
+    },
+    {
+      "slug": "hong-kong",
+      "title": "Hong Kong Mahjong",
+      "players": "4"
+    },
+    {
+      "slug": "riichi",
+      "title": "Riichi Mahjong",
+      "players": "4"
+    },
+    {
+      "slug": "taiwanese",
+      "title": "Taiwanese 16-Tile Mahjong",
+      "players": "4"
+    },
+    {
+      "slug": "zung-jung",
+      "title": "Zung Jung",
+      "players": "4"
+    }
+  ],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Mahjong"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/mahjong/rulebook.md",
+    "meta": "/api/rules/mahjong/meta.json",
+    "games": "/api/rules/mahjong/games/"
+  }
+}

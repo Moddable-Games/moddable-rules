@@ -1,0 +1,56 @@
+{
+  "slug": "maze-rats",
+  "title": "Maze Rats",
+  "players": "2–5",
+  "duration": "60–180 min",
+  "age": "12+",
+  "tagline": "A minimalist toolkit for old-school-style sandbox adventuring",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "character-creation",
+      "title": "Character Creation"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "core-rules",
+      "title": "Core Rules"
+    }
+  ],
+  "data": [
+    "characters",
+    "city",
+    "magic",
+    "maze",
+    "monsters-animals",
+    "treasure-equipment",
+    "wild"
+  ],
+  "oracleCount": 94,
+  "sections": [
+    "Maze Rats"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/maze-rats/rulebook.md",
+    "meta": "/api/rules/maze-rats/meta.json",
+    "pages": "/api/rules/maze-rats/pages/",
+    "data": "/api/rules/maze-rats/data/",
+    "oracles": "/api/rules/maze-rats/oracles.json"
+  }
+}

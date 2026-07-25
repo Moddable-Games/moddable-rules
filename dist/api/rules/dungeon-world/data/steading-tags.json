@@ -1,0 +1,176 @@
+{
+  "name": "Dungeon World",
+  "game": "dungeon-world",
+  "licence": "CC BY 3.0",
+  "attribution": "Sage LaTorra and Adam Koebel",
+  "tables": [
+    {
+      "id": "prosperity",
+      "name": "Prosperity",
+      "entries": [
+        {
+          "name": "Dirt",
+          "description": "nothing for sale, nobody has more than they need; unskilled labor is cheap"
+        },
+        {
+          "name": "Poor",
+          "description": "only the bare necessities for sale; weapons scarce unless heavily defended or militant"
+        },
+        {
+          "name": "Moderate",
+          "description": "most mundane items available, some skilled laborers"
+        },
+        {
+          "name": "Wealthy",
+          "description": "any mundane item can be found; most skilled laborers, but in demand"
+        },
+        {
+          "name": "Rich",
+          "description": "(mundane items and more, if you know where to look; specialist labor at high prices)."
+        }
+      ]
+    },
+    {
+      "id": "population",
+      "name": "Population",
+      "entries": [
+        {
+          "name": "Exodus",
+          "description": "the steading has lost its population and is on the verge of collapse"
+        },
+        {
+          "name": "Shrinking",
+          "description": "population is less than it once was; buildings stand empty"
+        },
+        {
+          "name": "Steady",
+          "description": "population in line with current size, slow growth"
+        },
+        {
+          "name": "Growing",
+          "description": "more people than buildings"
+        },
+        {
+          "name": "Booming",
+          "description": "(resources stretched thin keeping up)."
+        }
+      ]
+    },
+    {
+      "id": "defenses",
+      "name": "Defenses",
+      "entries": [
+        {
+          "name": "None",
+          "description": "clubs, torches, farming tools"
+        },
+        {
+          "name": "Militia",
+          "description": "able-bodied folk with worn weapons, no standing force"
+        },
+        {
+          "name": "Watch",
+          "description": "a few watchers who look out for trouble and summon the militia"
+        },
+        {
+          "name": "Guard",
+          "description": "armed defenders at all times, pool under 100"
+        },
+        {
+          "name": "Garrison",
+          "description": "armed defenders at all times, pool of 100–300, multiple patrols"
+        },
+        {
+          "name": "Battalion",
+          "description": "up to 1,000 armed defenders, manned maintained defenses"
+        },
+        {
+          "name": "Legion",
+          "description": "(thousands of armed soldiers, intimidating defenses)."
+        }
+      ]
+    },
+    {
+      "id": "other-tags",
+      "name": "Other Tags",
+      "entries": [
+        {
+          "name": "Safe",
+          "description": "outside trouble doesn't come here until the players bring it"
+        },
+        {
+          "name": "Religion",
+          "description": "a listed deity is revered here"
+        },
+        {
+          "name": "Exotic",
+          "description": "goods and services unavailable anywhere else nearby"
+        },
+        {
+          "name": "Resource",
+          "description": "easy access to a listed resource, significantly cheaper"
+        },
+        {
+          "name": "Need",
+          "description": "an acute or ongoing need for a listed resource, which sells for considerably more"
+        },
+        {
+          "name": "Oath",
+          "description": "sworn to listed steadings, generally fealty or support"
+        },
+        {
+          "name": "Trade",
+          "description": "regularly trades with listed steadings"
+        },
+        {
+          "name": "Market",
+          "description": "everyone comes here to trade; +1 to Supply"
+        },
+        {
+          "name": "Enmity",
+          "description": "holds a grudge against listed steadings"
+        },
+        {
+          "name": "History",
+          "description": "something important once happened here: battle, miracle, myth, romance, tragedy"
+        },
+        {
+          "name": "Arcane",
+          "description": "someone can cast arcane spells for a price; +1 to Recruit an adept"
+        },
+        {
+          "name": "Divine",
+          "description": "a major religious presence that can heal or raise the dead for a donation; +1 to Recruit priests"
+        },
+        {
+          "name": "Guild",
+          "description": "a listed guild type has major presence; +1 to Recruit an associated hireling"
+        },
+        {
+          "name": "Personage",
+          "description": "a notable person makes their home here"
+        },
+        {
+          "name": "Dwarven* / *Elven",
+          "description": "significantly or entirely that race; their goods more common and less expensive"
+        },
+        {
+          "name": "Craft",
+          "description": "known for excellence in a listed craft"
+        },
+        {
+          "name": "Lawless",
+          "description": "crime is rampant, authority weak"
+        },
+        {
+          "name": "Blight",
+          "description": "a recurring problem, usually a type of monster"
+        },
+        {
+          "name": "Power",
+          "description": "(holds sway of some type — political, divine, or arcane)."
+        }
+      ]
+    }
+  ]
+}

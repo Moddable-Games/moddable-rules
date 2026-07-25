@@ -1,0 +1,63 @@
+{
+  "slug": "tafl",
+  "title": "Tafl",
+  "players": "2",
+  "duration": "10–45 min",
+  "age": "8+",
+  "tagline": "King against the horde: asymmetric Norse strategy games of the Viking Age",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-26",
+  "version": "1.0.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Tablut",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null
+    },
+    {
+      "slug": "brandubh",
+      "title": "Brandubh",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null
+    },
+    {
+      "slug": "hnefatafl",
+      "title": "Hnefatafl",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null
+    },
+    {
+      "slug": "tawlbwrdd",
+      "title": "Tawlbwrdd",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/tafl/rulebook.md",
+    "meta": "/api/rules/tafl/meta.json",
+    "variants": "/api/rules/tafl/variants/"
+  }
+}

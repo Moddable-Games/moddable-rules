@@ -1,0 +1,95 @@
+{
+  "slug": "mancala",
+  "title": "Mancala",
+  "players": "2",
+  "duration": "5–30 min",
+  "age": "6+",
+  "tagline": "The world's most-played family of count-and-capture games",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-15",
+  "version": "0.1.1",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "kalah",
+      "title": "Kalah",
+      "players": "2",
+      "board": "2×6 pits + 2 stores",
+      "win": "Capture more than 36 seeds (majority of 72)",
+      "special": "Landing in your own store grants a bonus turn. Opponent's store is skipped during sowing."
+    },
+    {
+      "slug": "oware",
+      "title": "Oware",
+      "players": "2",
+      "board": "2×6 pits",
+      "win": "Capture more than 24 seeds",
+      "special": "Grand slam rule prevents a player from clearing all opponent seeds in a single turn."
+    },
+    {
+      "slug": "bao",
+      "title": "Bao",
+      "players": "2",
+      "board": "4×8 pits (2 rows per player)",
+      "win": "Reduce opponent to no seeds in their inner row, or leave them with no legal move",
+      "special": "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing."
+    },
+    {
+      "slug": "congkak",
+      "title": "Congkak",
+      "players": "2",
+      "board": "2×7 pits + 2 houses",
+      "win": "Have more seeds in your house than the opponent at game end",
+      "special": "Sow into your own house but skip the opponent's house. Dead pits must be bought back."
+    },
+    {
+      "slug": "toguz-korgool",
+      "title": "Toguz Korgool",
+      "players": "2",
+      "board": "2×9 pits + 2 kazans",
+      "win": "Capture 82 or more seeds (majority of 162)",
+      "special": "The tuzduk rule: landing the 3rd seed in an opponent's odd-numbered pit locks it as your permanent scoring pit."
+    },
+    {
+      "slug": "pallanguzhi",
+      "title": "Pallanguzhi",
+      "players": "2",
+      "board": "2×7 pits",
+      "win": "Capture all 168 seeds (opponent cannot fill pits to play)",
+      "special": "Multi-lap sowing: the last seed always triggers pickup of the next pit, creating long relay chains."
+    },
+    {
+      "slug": "ayo",
+      "title": "Ayo",
+      "players": "2",
+      "board": "2×6 pits",
+      "win": "Capture more than 24 seeds",
+      "special": "Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition."
+    },
+    {
+      "slug": "sungka",
+      "title": "Sungka",
+      "players": "2",
+      "board": "2×7 pits + 2 heads",
+      "win": "Have more seeds in your head at game end",
+      "special": "Simultaneous start; sow only into your own head, never the opponent's."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/mancala/rulebook.md",
+    "meta": "/api/rules/mancala/meta.json",
+    "variants": "/api/rules/mancala/variants/"
+  }
+}

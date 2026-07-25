@@ -1,0 +1,191 @@
+{
+  "slug": "draughts",
+  "title": "Draughts",
+  "players": "2",
+  "duration": "15–60 min",
+  "age": "6+",
+  "tagline": "The world's oldest family of capture games",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-20",
+  "version": "0.3.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "english",
+      "title": "English Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Diagonal movement only. No flying kings. Free choice between captures."
+    },
+    {
+      "slug": "turkish-draughts",
+      "title": "Turkish Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Orthogonal movement replaces diagonal. Majority capture rule. Immediate removal."
+    },
+    {
+      "slug": "international",
+      "title": "International Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Flying kings. Mandatory longest chain. Men capture backwards. Delayed removal."
+    },
+    {
+      "slug": "frisian",
+      "title": "Frisian Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Captures in all 8 directions. 3-move king limit. King preference on equal chains."
+    },
+    {
+      "slug": "lasca",
+      "title": "Lasca",
+      "players": "2",
+      "board": "7×7",
+      "win": "Block or bury all opponent pieces",
+      "special": "Column stacking. Captured pieces go underneath the captor. All 22 pieces stay in play forever."
+    },
+    {
+      "slug": "alquerque",
+      "title": "Alquerque",
+      "players": "2",
+      "board": "5×5",
+      "win": "Capture or block all opponent pieces",
+      "special": "The common ancestor. Movement along lines (orthogonal and diagonal). No promotion."
+    },
+    {
+      "slug": "russian",
+      "title": "Russian Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men capture backwards. Mid-jump promotion. No majority rule. Free choice between captures."
+    },
+    {
+      "slug": "brazilian",
+      "title": "Brazilian Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "International rules on 8×8 board. Flying kings. Majority capture. Delayed removal."
+    },
+    {
+      "slug": "canadian",
+      "title": "Canadian Draughts",
+      "players": "2",
+      "board": "12×12",
+      "win": "Capture or block all opponent pieces",
+      "special": "Largest standard board (12×12). 30 pieces per side. International rules. Longest games."
+    },
+    {
+      "slug": "pool",
+      "title": "Pool Checkers",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men capture both directions. Flying kings. Mid-jump promotion. Free choice. US federation since 1966."
+    },
+    {
+      "slug": "italian",
+      "title": "Italian Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men cannot capture kings. Strict capture priority: king captures first, then most pieces, then most kings."
+    },
+    {
+      "slug": "spanish",
+      "title": "Spanish Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Flying kings. Men cannot capture backwards. Majority rule with king preference."
+    },
+    {
+      "slug": "czech",
+      "title": "Czech Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "King captures take priority over man captures. Mid-jump promotion. No majority rule for men."
+    },
+    {
+      "slug": "thai",
+      "title": "Thai Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Only 8 pieces per side. Flying kings must stop immediately behind captured piece. Forward-only men."
+    },
+    {
+      "slug": "bashni",
+      "title": "Bashni",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent commanders",
+      "special": "Column stacking on 8×8. Russian movement rules. Captured pieces form towers. Predecessor to Lasca."
+    },
+    {
+      "slug": "dameo",
+      "title": "Dameo",
+      "players": "2",
+      "board": "8×8",
+      "win": "Opponent has no legal move",
+      "special": "Phalanx movement: lines of men slide together. Orthogonal captures only. 18 pieces per side."
+    },
+    {
+      "slug": "diagonal",
+      "title": "Diagonal Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Pieces start along the diagonal. The long diagonal of the board is empty at setup."
+    },
+    {
+      "slug": "german",
+      "title": "German Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men capture both forwards and backwards. Flying kings. No majority capture rule."
+    },
+    {
+      "slug": "ghanaian",
+      "title": "Ghanaian Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men do not capture backwards. No majority rule. A player reduced to one piece loses."
+    },
+    {
+      "slug": "spantsiretti",
+      "title": "Spantsiretti",
+      "players": "2",
+      "board": "10×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Russian Draughts rules on a wider 10×8 board. 20 pieces per side."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/draughts/rulebook.md",
+    "meta": "/api/rules/draughts/meta.json",
+    "variants": "/api/rules/draughts/variants/"
+  }
+}

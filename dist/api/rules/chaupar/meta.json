@@ -1,0 +1,49 @@
+{
+  "slug": "chaupar",
+  "title": "Chaupar",
+  "players": "4",
+  "duration": "45–120 min",
+  "age": "10+",
+  "tagline": "The ancient Indian game of the Mahabharata — three long dice, super-pieces, and split throws",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-18",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Chaupar (Standard)",
+      "players": "4",
+      "board": "Cross-shaped cloth board",
+      "win": "Both teammates return all their pieces to the Charkoni first, after capturing at least one opponent piece",
+      "special": "Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "History",
+    "The Board",
+    "Equipment",
+    "Setup",
+    "Throwing the Dice",
+    "Movement",
+    "Super-Pieces (Conglomerate Pieces)",
+    "Capture",
+    "Team Home Order",
+    "Winning",
+    "Attribution"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/chaupar/rulebook.md",
+    "meta": "/api/rules/chaupar/meta.json",
+    "variants": "/api/rules/chaupar/variants/"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "fate-core",
+  "title": "Fate Core",
+  "players": "3-5",
+  "duration": "varies",
+  "age": "13+",
+  "tagline": "A flexible, narrative-first tabletop RPG built on aspects, fate points, and the four actions",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-22",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "actions-and-outcomes",
+      "title": "Actions and Outcomes"
+    },
+    {
+      "section": "rules",
+      "slug": "appendix-ogl",
+      "title": "Appendix I: Open Game License"
+    },
+    {
+      "section": "rules",
+      "slug": "aspects-and-fate-points",
+      "title": "Aspects and Fate Points"
+    },
+    {
+      "section": "rules",
+      "slug": "challenges-contests-and-conflicts",
+      "title": "Challenges, Contests, and Conflicts"
+    },
+    {
+      "section": "rules",
+      "slug": "character-creation",
+      "title": "Character Creation"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "cheat-sheet-and-veterans-guide",
+      "title": "Cheat Sheet and Veterans' Guide"
+    },
+    {
+      "section": "rules",
+      "slug": "extras",
+      "title": "Extras"
+    },
+    {
+      "section": "rules",
+      "slug": "game-creation",
+      "title": "Game Creation"
+    },
+    {
+      "section": "rules",
+      "slug": "running-the-game",
+      "title": "Running the Game"
+    },
+    {
+      "section": "rules",
+      "slug": "skills-and-stunts",
+      "title": "Skills and Stunts"
+    },
+    {
+      "section": "rules",
+      "slug": "the-basics",
+      "title": "The Basics"
+    },
+    {
+      "section": "rules",
+      "slug": "the-long-game",
+      "title": "The Long Game"
+    }
+  ],
+  "data": [
+    "ladder",
+    "skills"
+  ],
+  "oracleCount": 0,
+  "sections": [
+    "Fate Core"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/fate-core/rulebook.md",
+    "meta": "/api/rules/fate-core/meta.json",
+    "pages": "/api/rules/fate-core/pages/",
+    "data": "/api/rules/fate-core/data/"
+  }
+}

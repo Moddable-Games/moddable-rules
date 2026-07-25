@@ -1,0 +1,47 @@
+{
+  "slug": "halma",
+  "title": "Halma",
+  "players": "2–4",
+  "duration": "15–45 min",
+  "age": "8+",
+  "tagline": "Race your pieces across the board before your opponent",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-19",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard-2p",
+      "title": "Standard 2-Player Halma",
+      "players": "2",
+      "board": "16×16",
+      "win": "Move all your pieces into the opponent's corner camp",
+      "special": "Pieces may step or chain-hop in any direction. No capture. Once in the opponent's camp, pieces cannot leave."
+    },
+    {
+      "slug": "standard-4p",
+      "title": "Standard 4-Player Halma",
+      "players": "4",
+      "board": "16×16",
+      "win": "Move all your pieces into the diagonally opposite corner camp",
+      "special": "Four players with 13 pieces each. Optional 2v2 team play with diagonal partners."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/halma/rulebook.md",
+    "meta": "/api/rules/halma/meta.json",
+    "variants": "/api/rules/halma/variants/"
+  }
+}

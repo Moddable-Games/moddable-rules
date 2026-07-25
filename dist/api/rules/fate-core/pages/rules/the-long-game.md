@@ -1,0 +1,124 @@
+## The Long Game
+
+### Defining Arcs
+
+An arc is a complete storyline with its own themes, situations, antagonists, innocent bystanders, and endgame, told in the span of a few sessions (somewhere between two and five, usually). You don't need to have everything planned out (in fact, you probably shouldn't, given that no meticulously planned story ever survives contact with the players), but you need to have an idea of where things begin and end, and what might happen in the middle.
+
+### Defining Campaigns
+
+When you have multiple arcs that are connected and told in a sequence, and that have an overarching story or theme that runs through all of them, you have a campaign. Campaigns are long, taking months or even years to complete (if you ever do).
+
+### Building an Arc
+
+See, the players are so prone to shaking things up and changing things on you that planning more than one arc at a time is often frustrating and futile. Planning the second arc of a campaign based on the events of the first arc, how it turned out, and what your players did, though...well, that can make for very satisfying play.
+
+That said, we know some GMs want to have a greater sense of structure for the long run. We recommend using the same method for building scenarios in the previous chapter to build arcs, but changing the scope of the story questions you come up with. Instead of focusing on immediate problems for the PCs to solve, come up with a more general problem, where the PCs are going to have to solve smaller problems first in order to have a chance at resolving the larger one.
+
+> For Zird, his Rivals in the Collegia Arcana makes it pretty easy—she decides that perhaps there's something more sinister behind these rivalries, such as an attempt by a dark cult operating from within to take over the Collegia and turn it to nefarious purposes.
+
+### Building a Campaign
+
+However, if you want to do a little bit of focused planning, the advice is the same as for arcs, except you're generalizing even more. Pick one story question to answer, which the PCs will spend their scenarios and arcs building to. Then, jot down some notes on what steps will lead to answering that question, so you have material for arcs and scenarios.
+
+> She knows that to do that, they're first going to need to figure out which of the Cult of Tranquility's factions is right about the prophecy (if either). They'll also need to make sure that none of their personal enemies or The Scar Triad can interfere with whatever they need to do in order to stop the doom. That gives her a good idea of what arcs are going to make up the campaign.
+
+In addition to your characters, the game world will change also. You'll resolve threats as you play, or change the face of a location, or make such an impact on the world that one of the issues may need to change.
+
+#### Advancement and Change
+
+A milestone is a moment during the game where you have the chance to change or advance your character.
+
+### Defining Milestones
+
+A milestone is a moment during the game where you have the chance to change or advance your character. We call them milestones because they usually happen at significant "break points" in the action of a game—the end of a session, the end of a scenario, and the end of a story arc, respectively.
+
+Obviously, things won't always line up that nicely, so GMs, you have some discretion in deciding when a certain level of milestone occurs. If it seems satisfying to give out a milestone in the middle of a session, go ahead, but stick to the guidelines here to keep from handing out too many advancement opportunities too often.
+
+#### Minor Milestones
+
+Minor milestones usually occur at the end of a session of play, or when one piece of a story has been resolved. These kinds of milestones are more about changing your character rather than making him or her more powerful, about adjusting in response to whatever's going on in the story if you need to. Sometimes it won't really make sense to take advantage of a minor milestone, but you always have the opportunity if you should need to.
+
+> Cynere gets a minor milestone. Lily looks over her character sheet, to see if there's anything she wants to change. One thing that sticks out to her is that during the last session, Zird has been scheming behind her back a lot and putting her in a bad position.
+>
+> Ryan says, "Seriously? I mean, it's not like he does it all the time."
+>
+> Amanda approves the change, and Lily rewrites one of Cynere's aspects.
+
+#### Significant Milestones
+
+Significant milestones usually occur at the end of a scenario or the conclusion of a big plot event (or, when in doubt, at the end of every two or three sessions). Unlike minor milestones, which are primarily about change, significant milestones are about learning new things—dealing with problems and challenges has made your character generally more capable at what they do.
+
+- One additional skill point, which you can spend to buy a new skill at Average (+1) or increase an existing skill by one rank.
+- If you have any severe consequences, you can rename them to begin the recovery process, if you haven't already.
+- When you spend your skill point, it's worth one step on the ladder. You can use it to buy a new skill at Average (+1), or you can use it to increase an existing skill by one step on the ladder—say, from Good (+3) to Great (+4).
+
+##### Skill Columns
+
+However, there's still a limitation you have to deal with, skill columns. This means you can't have more skills at a certain rank than you have at the rank below it. So if you have three Good columns, you have at least three Average (+1) skills and at least three Fair (+2) skills to support your three Good (+3) skills.
+
+So, let's say you have one Good (+3), two Fair (+2), and three Average (+1) skills. You see how that doesn't work? You're now missing the second Fair skill you'd need to be square with the rules.
+
+So in the case above, you could buy an Average (+1) skill, promote one of your Average skills to a Fair (+2), then bump the original skill up to Good (+3). That would take three significant or major milestones to do. Or, you could wait, bank up three skill points, buy a new skill at Fair (+2), then bump the original skill up to Good (+3). It just depends on whether you want to put new stuff on your sheet or not in the interim.
+
+> Zird gets a significant milestone after the end of a scenario. He gains an additional skill point.
+>
+> If he waits two more milestones, he'll be able to put one of his Average skills at Fair (+2), and then bump his Notice up to Good (+3) like he originally wanted.
+
+GMs, strictly enforcing how the skills work can be a pain in the ass sometimes. If you and the players really want to be able to upgrade a certain skill in a way that breaks the rules now, simply ask that the player spend the next few milestones "correcting" their skill spread, rather than making them wait. It's okay. We won't come after you.
+
+#### Major Milestones
+
+A major milestone should only occur when something happens in the campaign that shakes it up a lot—the end of a story arc (or around three scenarios), the death of a main NPC villain, or any other large-scale change that reverberates around your game world.
+
+Achieving a major milestone confers the benefits of a significant milestone and a minor milestone, and all of the following additional options.
+
+Reaching a major milestone is a pretty big deal. Characters with more stunts are going to have a diverse range of bonuses, making their skills much more effective by default. Characters with higher refresh will have a much larger fountain of fate points to work with when sessions begin, which means they'll be less reliant on compels for a while.
+
+Most of all, a major milestone should signal that lots of things in the world of your game have changed. Some of that will probably be reflected in world advancement, but given the number of chances the PCs have had to revise their aspects in response to the story, you could be looking at a group with a much different set of priorities and concerns than they had when they started.
+
+> Cynere reaches the end of a long story arc and is awarded a major milestone. In the game, the PCs have just accomplished the overthrow of Barathar, Smuggler Queen of the Sindral Reach, which leaves an enormous power vacuum in the game world.
+>
+> She also gets an additional point of refresh. She asks Amanda whether or not she can turn her experience with Arc'yeth into something that will allow her to fight demons in the future. Amanda sees no reason to object, and Lily decides to buy a stunt on the spot.
+>
+> Lily records the new stunt on Cynere's character sheet, and rewrites the appropriate aspect.
+>
+> Finally, Landon also reaches a major milestone. Recently in the plot, Landon discovered that the Ivory Shroud was much more than a martial arts society—they've been secret political movers and shakers for a long time, and recently supported Barathar in her efforts to control the Reach.
+>
+> So we have Cynere with a new appetite for killing demons, Zird reaching a heretofore unseen level of power, and Landon questioning his loyalty to his only real source of discipline. Amanda makes a lot of notes about what this means for the next few scenarios.
+
+One way of looking at a major milestone is that it's the equivalent of a season finale in a television show. Once you start the next session, a lot of things have the potential to be fundamentally different about your game—you might be focused on new problems, several characters will have aspects changed, there will be new threats in the setting, and so on.
+
+So long as you keep them at the same level of refresh and skill points they had, reconvening like this might be exactly what you need to make sure everyone's still on the same page about the game. And GMs, remember—the more you give the players a chance to actively invest in the game world, the more it'll pay off for you when you're running the game.
+
+### World Advancement
+
+GMs, when the players are changing their characters through milestones, you should also be looking at whether or not the aspects you originally placed on the game during game creation need to change in response to what they've done, or simply because of lack of use.
+
+#### For Minor Milestones
+
+- Do you need to add a new location to the game, based on what the PCs have done? If so, come up with some NPCs to help give more personality to the location and add an issue to the place.
+- Have the PCs resolved an issue in a location? Get rid of the aspect, or maybe change it to represent how the issue was resolved (*In the Shadow of the Necromancer* becomes *Memories of Tyranny*, for example).
+
+> The group reaches a minor milestone because they rescued the Lord of Varendep's son from some of the Smuggler Queen Barathar's minions. It was a small victory that could pay some pretty nice dividends because they now have an ally in Lord Bornhold of Varendep.
+
+#### For Significant Milestones
+
+> They also created permanent change in the Sindral Reach; that area of the world is no longer under Barathar's sway. Most of the people are grateful, but a few of Barathar's thugs remain to make trouble for the party. Amanda replaces the issue Seat of Barathar's Power with a different one, Smiles in the Open, Knives in the Dark to represent how things have changed.
+
+#### For Major Milestones
+
+- Did the PCs create permanent change in the game world? If so, give it a new issue to reflect this, for better or for worse.
+
+> Finally, the heroes confront and defeat Barathar in an epic confrontation. Barathar held a lot of power in the underground throughout the world and her defeat will cause ripples. Someone's going to want to step in and take her place (probably a lot of someones), so Amanda creates the issue Underworld Power Vacuum to reflect this.
+
+If you have aspects you haven't really explored yet, keep them around if you think they're just waiting their turn. However, you can also change them in order to make them more relevant to what's going on in the moment, or simply to give the PCs more of a sense of being in an evolving world.
+
+> The other issue, Saber-Rattling in the East is also interesting, but she thinks that all this confrontation with the Smuggler Queen probably gave Lord Wynthrep the opportunity he needed to escalate things. She changes Saber-Rattling in the East to The East at War!. That should give the PCs an interesting decision to make.
+
+#### Dealing with NPCs
+
+Likewise, when there's a significant change in an issue for a location or the game world, you need to evaluate if the current NPCs are sufficient to express that change. If not, you might need to add one, or alter an NPC you have in a significant way—add more aspects or revise existing aspects to keep that character relevant to the issue at hand.
+
+#### Recurring NPCs
+
+With the former, you don't change the NPC, because that's the point—the next time the PCs meet them, they've outclassed them, or they have new worries, or they've somehow grown past that NPC, who remains static. Maybe you even change the category they're in—where they were once a main NPC, now they're a supporting NPC because of how the PCs have grown.

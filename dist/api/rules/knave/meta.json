@@ -1,0 +1,62 @@
+{
+  "slug": "knave",
+  "title": "Knave",
+  "players": "2–5",
+  "duration": "60–240 min",
+  "age": "12+",
+  "tagline": "A classless OSR rules toolkit for running old-school fantasy adventures",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-22",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "character-creation",
+      "title": "Character Creation"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "equipment",
+      "title": "Equipment & Prices"
+    },
+    {
+      "section": "rules",
+      "slug": "magic",
+      "title": "Magic"
+    },
+    {
+      "section": "rules",
+      "slug": "playing-the-game",
+      "title": "Playing the Game"
+    }
+  ],
+  "data": [
+    "spells",
+    "starting-gear",
+    "traits"
+  ],
+  "oracleCount": 16,
+  "sections": [
+    "Knave"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/knave/rulebook.md",
+    "meta": "/api/rules/knave/meta.json",
+    "pages": "/api/rules/knave/pages/",
+    "data": "/api/rules/knave/data/",
+    "oracles": "/api/rules/knave/oracles.json"
+  }
+}

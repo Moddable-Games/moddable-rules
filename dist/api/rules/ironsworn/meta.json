@@ -1,0 +1,62 @@
+{
+  "slug": "ironsworn",
+  "title": "Ironsworn",
+  "players": "1–4",
+  "duration": "60–240 min",
+  "age": "14+",
+  "tagline": "A perilous quest through the Ironlands, guided by vows and oracle tables",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-04",
+  "version": "0.1.0",
+  "mechanics": [],
+  "complexity": null,
+  "how_to_play": null,
+  "related": [],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "combat",
+      "title": "Combat"
+    },
+    {
+      "section": "rules",
+      "slug": "foes",
+      "title": "Foes and Encounters"
+    },
+    {
+      "section": "rules",
+      "slug": "moves",
+      "title": "Moves"
+    },
+    {
+      "section": "rules",
+      "slug": "stats",
+      "title": "Stats and Tracks"
+    },
+    {
+      "section": "rules",
+      "slug": "vows",
+      "title": "Your Character"
+    }
+  ],
+  "data": [],
+  "oracleCount": 6,
+  "sections": [
+    "Ironsworn"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/ironsworn/rulebook.md",
+    "meta": "/api/rules/ironsworn/meta.json",
+    "pages": "/api/rules/ironsworn/pages/",
+    "oracles": "/api/rules/ironsworn/oracles.json"
+  }
+}
