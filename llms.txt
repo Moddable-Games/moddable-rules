@@ -1,0 +1,41 @@
+# Moddable Rules Library
+
+> Board game rules, variants, oracle tables, and RPG entity data. 46 games, 295 variants, 3,385 searchable entities.
+
+This site serves game rulebooks in markdown format. Agents can consume pages directly without content negotiation.
+
+## Machine-Readable API
+
+All structured data is available at predictable URLs under `/api/`:
+
+- Discovery index: https://rules.moddable.games/api/index.json
+- Game catalogue: https://rules.moddable.games/api/catalogue.json
+- Oracle tables (458): https://rules.moddable.games/api/oracles.json
+- RPG entities (3,385): https://rules.moddable.games/api/entities.json
+- Full-text search: https://rules.moddable.games/api/search-index.json
+
+Per-game content follows the pattern:
+- Metadata: /api/rules/{slug}/meta.json
+- Full rules: /api/rules/{slug}/rulebook.md
+- Variants: /api/rules/{slug}/variants/{variant}.md
+- Data files: /api/rules/{slug}/data/{file}.json
+- Oracle tables: /api/rules/{slug}/oracles.json
+
+## MCP Tools
+
+Interactive tools (search, oracle rolls, entity lookup, random game) are available via MCP:
+
+- MCP endpoint: https://tools.moddable.games/mcp
+- REST API: https://tools.moddable.games/api/call
+- OpenAPI spec: https://tools.moddable.games/openapi.json
+
+## Content Types
+
+- **Variant hubs** — families of related games (Draughts, Backgammon, Chess, Go, Shogi, Xiangqi)
+- **Component hubs** — different games using shared equipment (Standard 52-Card Deck, Mahjong, Dominoes)
+- **RPG systems** — D&D 5e, Pathfinder 1e, Ironsworn, Starforged, Maze Rats, Cairn, Knave, BRP, Dungeon World, Fate Core
+- **Original games** — Nukes, Dungeon Chess, Hyper Imperium, Econopoly
+
+## Licence
+
+Public domain game rules are freely available. RPG content is sourced from open SRDs (OGL, CC BY, Creative Commons). Original game rules are proprietary to Moddable Games Ltd.

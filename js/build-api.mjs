@@ -402,6 +402,28 @@ index.deprecations = [
 
 writeJson(resolve(API_DIR, 'index.json'), index);
 
+// --- Sitemap (covers rules pages + API endpoints) ---
+const sitemapBase = 'https://rules.moddable.games';
+const sitemapUrls = [`${sitemapBase}/`, `${sitemapBase}/api/index.json`];
+for (const g of catalogue) {
+  sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/`);
+  for (const v of g.variants) {
+    sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/variants/${v.slug}/`);
+  }
+  for (const game of g.games) {
+    sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/games/${game.slug}/`);
+  }
+  for (const p of g.pages) {
+    sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/${p.section}/${p.slug}/`);
+  }
+}
+
+const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.map(url => `  <url><loc>${url}</loc></url>`).join('\n')}
+</urlset>`;
+writeFileSync(resolve(ROOT, 'sitemap.xml'), sitemapXml);
+
 // --- Summary ---
 const endpointsByType = {};
 for (const ep of index.endpoints) {
