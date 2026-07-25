@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-22"
 published: true
 variants: false
+how_to_play: "Roll d20 + ability bonus against difficulty. Every PC is a Knave whose role comes from what they carry, not a class. Simple encumbrance, unified defense system, concrete spellcasting."
+mechanics: [dice, combat, exploration, narrative, classless]
+complexity: simple
+related: [cairn, maze-rats, dnd-5e, dungeon-world]
 theme:
   surface: light
   tint: warm

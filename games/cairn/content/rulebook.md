@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-22"
 published: true
 variants: false
+how_to_play: "Roll 3d6 for attributes, equip yourself from a random background, then explore a dark Wood filled with monsters and treasure. Fiction-first resolution with saves only for risky moments."
+mechanics: [dice, narrative, combat, exploration, oracle]
+complexity: simple
+related: [knave, maze-rats, ironsworn, dnd-5e]
 theme:
   surface: light
   tint: warm

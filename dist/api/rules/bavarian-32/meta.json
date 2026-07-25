@@ -1,0 +1,52 @@
+{
+  "slug": "bavarian-32",
+  "title": "Bavarian 32-Card Games",
+  "players": "3",
+  "duration": "30–60 min",
+  "age": "12+",
+  "tagline": "Trick-taking games for the 32-card Skat deck",
+  "type": "component",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.1",
+  "mechanics": [
+    "trick-taking",
+    "hand-management",
+    "betting",
+    "card-play"
+  ],
+  "complexity": "complex",
+  "how_to_play": "The 32-card German deck (Skat deck) supports 2 games: Schafkopf and Skat. Both are trick-taking games with permanent trumps and card-point scoring.",
+  "related": [
+    "standard-52",
+    "flower-48",
+    "mahjong"
+  ],
+  "hub_type": "component",
+  "variants": [],
+  "games": [
+    {
+      "slug": "schafkopf",
+      "title": "Schafkopf",
+      "players": "4"
+    },
+    {
+      "slug": "skat",
+      "title": "Skat",
+      "players": "3"
+    }
+  ],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "The Deck",
+    "Games",
+    "Hub Notes"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/bavarian-32/rulebook.md",
+    "meta": "/api/rules/bavarian-32/meta.json",
+    "games": "/api/rules/bavarian-32/games/"
+  }
+}

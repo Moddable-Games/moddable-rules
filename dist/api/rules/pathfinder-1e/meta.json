@@ -1,0 +1,247 @@
+{
+  "slug": "pathfinder-1e",
+  "title": "Pathfinder 1st Edition (PFSRD)",
+  "players": "2–7",
+  "duration": "varies",
+  "age": "13+",
+  "tagline": "Paizo's fork of D&D 3.5, the most complete open ruleset in existence",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.0",
+  "mechanics": [
+    "character-building",
+    "dice-rolling",
+    "class-system",
+    "skill-checks",
+    "combat"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Create characters from 11 classes and 7 races. Roll d20 + modifiers for skill checks, attacks, and saves. Build characters through feats, spells, and equipment. The most complete open ruleset in existence, evolved from D&D 3.5.",
+  "related": [
+    "dnd-5e",
+    "dungeon-world",
+    "cairn"
+  ],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "additional-rules",
+      "title": "Additional Rules"
+    },
+    {
+      "section": "rules",
+      "slug": "barbarian",
+      "title": "Barbarian"
+    },
+    {
+      "section": "rules",
+      "slug": "bard",
+      "title": "Bard"
+    },
+    {
+      "section": "rules",
+      "slug": "bestiary",
+      "title": "Bestiary"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "classes",
+      "title": "Classes"
+    },
+    {
+      "section": "rules",
+      "slug": "cleric",
+      "title": "Cleric"
+    },
+    {
+      "section": "rules",
+      "slug": "combat-actions",
+      "title": "Actions in Combat"
+    },
+    {
+      "section": "rules",
+      "slug": "combat-maneuvers",
+      "title": "Special Attacks & Maneuvers"
+    },
+    {
+      "section": "rules",
+      "slug": "combat",
+      "title": "Combat"
+    },
+    {
+      "section": "rules",
+      "slug": "druid",
+      "title": "Druid"
+    },
+    {
+      "section": "rules",
+      "slug": "environment-dungeons",
+      "title": "Dungeons & Traps"
+    },
+    {
+      "section": "rules",
+      "slug": "environment-weather-planes",
+      "title": "Weather, Planes & Environmental Rules"
+    },
+    {
+      "section": "rules",
+      "slug": "environment-wilderness",
+      "title": "Wilderness & Urban Adventures"
+    },
+    {
+      "section": "rules",
+      "slug": "equipment-armor",
+      "title": "Armor"
+    },
+    {
+      "section": "rules",
+      "slug": "equipment-goods-1",
+      "title": "Adventuring Gear, Substances & Tools"
+    },
+    {
+      "section": "rules",
+      "slug": "equipment-goods-2",
+      "title": "Clothing, Mounts & Services"
+    },
+    {
+      "section": "rules",
+      "slug": "equipment-wealth-materials",
+      "title": "Wealth, Money & Special Materials"
+    },
+    {
+      "section": "rules",
+      "slug": "equipment-weapons",
+      "title": "Weapons"
+    },
+    {
+      "section": "rules",
+      "slug": "feats-combat",
+      "title": "Combat Feats"
+    },
+    {
+      "section": "rules",
+      "slug": "feats-general",
+      "title": "General Feats"
+    },
+    {
+      "section": "rules",
+      "slug": "feats-other",
+      "title": "Metamagic, Critical, and Item Creation Feats"
+    },
+    {
+      "section": "rules",
+      "slug": "fighter",
+      "title": "Fighter"
+    },
+    {
+      "section": "rules",
+      "slug": "gamemastering",
+      "title": "Gamemastering"
+    },
+    {
+      "section": "rules",
+      "slug": "getting-started",
+      "title": "Getting Started"
+    },
+    {
+      "section": "rules",
+      "slug": "glossary-conditions",
+      "title": "Conditions"
+    },
+    {
+      "section": "rules",
+      "slug": "glossary-special-abilities",
+      "title": "Special Abilities"
+    },
+    {
+      "section": "rules",
+      "slug": "magic-spell-statistics",
+      "title": "Spell Statistics"
+    },
+    {
+      "section": "rules",
+      "slug": "magic",
+      "title": "Magic"
+    },
+    {
+      "section": "rules",
+      "slug": "monk",
+      "title": "Monk"
+    },
+    {
+      "section": "rules",
+      "slug": "paladin",
+      "title": "Paladin"
+    },
+    {
+      "section": "rules",
+      "slug": "races",
+      "title": "Races"
+    },
+    {
+      "section": "rules",
+      "slug": "ranger",
+      "title": "Ranger"
+    },
+    {
+      "section": "rules",
+      "slug": "rogue",
+      "title": "Rogue"
+    },
+    {
+      "section": "rules",
+      "slug": "skills-2",
+      "title": "Skills (Knowledge–Use Magic Device)"
+    },
+    {
+      "section": "rules",
+      "slug": "skills",
+      "title": "Skills"
+    },
+    {
+      "section": "rules",
+      "slug": "sorcerer",
+      "title": "Sorcerer"
+    },
+    {
+      "section": "rules",
+      "slug": "spells",
+      "title": "Spells"
+    },
+    {
+      "section": "rules",
+      "slug": "wizard",
+      "title": "Wizard"
+    }
+  ],
+  "data": [
+    "ability-scores",
+    "classes",
+    "conditions",
+    "equipment",
+    "feats",
+    "monsters",
+    "races",
+    "skills",
+    "spells"
+  ],
+  "oracleCount": 0,
+  "sections": [
+    "Pathfinder 1st Edition"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/pathfinder-1e/rulebook.md",
+    "meta": "/api/rules/pathfinder-1e/meta.json",
+    "pages": "/api/rules/pathfinder-1e/pages/",
+    "data": "/api/rules/pathfinder-1e/data/"
+  }
+}

@@ -13,6 +13,10 @@ updated: "2026-06-19"
 first_published: "January 2025"
 published: true
 logo_has_title: true
+how_to_play: "Choose one action per turn: move, trade, or build. Collect resources from decks, combine them for victory points. Game ends when a player goes bankrupt or decks empty — most VP wins."
+mechanics: [resource-management, set-collection, trading, hand-management, victory-points]
+complexity: moderate
+related: [standard-52, landlords-game, nukes]
 theme:
   surface: light
   tint: neutral

@@ -1,0 +1,89 @@
+{
+  "slug": "brp",
+  "title": "Basic Roleplaying",
+  "players": "2–6",
+  "duration": "60–240 min",
+  "age": "14+",
+  "tagline": "The percentile-skill engine behind Call of Cthulhu, RuneQuest, and Pendragon",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-22",
+  "version": "0.1.0",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "skill-based"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Roll percentile dice against your skill ratings to determine success. Characters are defined by characteristics (Strength, Dexterity, etc.) and skills, not classes. One player is GM, others are player characters.",
+  "related": [
+    "dnd-5e",
+    "pathfinder-1e",
+    "cairn",
+    "dungeon-world"
+  ],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "character-creation",
+      "title": "Character Creation"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "combat",
+      "title": "Combat"
+    },
+    {
+      "section": "rules",
+      "slug": "introduction",
+      "title": "Introduction"
+    },
+    {
+      "section": "rules",
+      "slug": "sample-foe",
+      "title": "Sample Foe"
+    },
+    {
+      "section": "rules",
+      "slug": "spot-rules",
+      "title": "Spot Rules"
+    },
+    {
+      "section": "rules",
+      "slug": "system",
+      "title": "System"
+    },
+    {
+      "section": "rules",
+      "slug": "time",
+      "title": "Time"
+    }
+  ],
+  "data": [
+    "armor",
+    "professions",
+    "shields",
+    "skills",
+    "weapons"
+  ],
+  "oracleCount": 0,
+  "sections": [
+    "Basic Roleplaying"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/brp/rulebook.md",
+    "meta": "/api/rules/brp/meta.json",
+    "pages": "/api/rules/brp/pages/",
+    "data": "/api/rules/brp/data/"
+  }
+}

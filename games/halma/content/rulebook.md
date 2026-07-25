@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-06-19"
 published: true
 variants: true
+how_to_play: "Move your pieces from one corner camp to the diagonally opposite corner on a 16×16 board. Step to adjacent squares or chain-hop over any adjacent piece without capturing."
+mechanics: [abstract-strategy, race, movement, grid]
+complexity: moderate
+related: [stern-halma, agon, pachisi, backgammon]
 theme:
   tint: warm
   texture: grain

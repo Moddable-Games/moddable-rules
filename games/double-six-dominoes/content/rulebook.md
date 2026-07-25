@@ -12,6 +12,10 @@ status: "live"
 updated: "2026-07-21"
 published: true
 hub_type: component
+how_to_play: "The double-6 domino set (28 tiles) supports 4 games: Block, All Fives, Mexican Train, and Chickenfoot. All involve matching pip values and extending a chain."
+mechanics: [tile-placement, pattern, set-collection, hand-management]
+complexity: simple
+related: [standard-52, mahjong, standard-dice]
 theme:
   surface: light
   tint: neutral

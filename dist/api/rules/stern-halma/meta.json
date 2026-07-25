@@ -1,0 +1,83 @@
+{
+  "slug": "stern-halma",
+  "title": "Stern-Halma",
+  "players": "2–6",
+  "duration": "20–45 min",
+  "age": "8+",
+  "tagline": "Race across the star board to claim the opposite point",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-07-04",
+  "version": "0.2.0",
+  "mechanics": [
+    "race",
+    "jumping",
+    "chain-movement",
+    "star-board"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Race ten pieces from one arm of a six-pointed star to the opposite arm. Move one step or jump over adjacent pieces (yours or opponents') to reach empty spaces beyond. Chain multiple jumps in one move. First player to fill the opposite arm wins.",
+  "related": [
+    "halma",
+    "draughts",
+    "go"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard-2p",
+      "title": "Standard 2-Player Stern-Halma",
+      "players": "2",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Step or chain-hop in six directions. No capture. Jumped pieces remain."
+    },
+    {
+      "slug": "standard-3p",
+      "title": "Standard 3-Player Stern-Halma",
+      "players": "3",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Alternating arms used. Each player's goal is the arm directly opposite their start."
+    },
+    {
+      "slug": "standard-4p",
+      "title": "Standard 4-Player Stern-Halma",
+      "players": "4",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Four players use diagonal arms (NE, SE, SW, NW), leaving N and S empty."
+    },
+    {
+      "slug": "standard-6p",
+      "title": "Standard 6-Player Stern-Halma",
+      "players": "6",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "All six arms occupied. Maximum interaction; every path crosses contested territory."
+    },
+    {
+      "slug": "super-chinese-checkers",
+      "title": "Super Chinese Checkers",
+      "players": "2–6",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Extended hop: pieces may jump multiple empty spaces in a line before and after clearing a hurdle."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Overview",
+    "The Board",
+    "Variants",
+    "Attribution"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/stern-halma/rulebook.md",
+    "meta": "/api/rules/stern-halma/meta.json",
+    "variants": "/api/rules/stern-halma/variants/"
+  }
+}

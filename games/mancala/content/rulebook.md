@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-06-15"
 published: true
 variants: true
+how_to_play: "Sow seeds or stones from one pit around the board, capturing when sowing lands in the right conditions. Each variant has different capture rules, board sizes, and end conditions."
+mechanics: [abstract-strategy, pit, sowing, capture, counting]
+complexity: simple
+related: [go, draughts, fanorona, morris]
 theme:
   tint: warm
   texture: grain

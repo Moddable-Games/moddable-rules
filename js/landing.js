@@ -33,3 +33,14 @@ pills.forEach(pill => {
 if (searchInput) {
   searchInput.addEventListener('input', filterCards);
 }
+
+fetch('dist/api/stats.json')
+  .then(r => r.ok ? r.json() : null)
+  .then(stats => {
+    if (!stats) return;
+    const g = document.getElementById('stat-games');
+    const v = document.getElementById('stat-variants');
+    if (g) g.textContent = stats.games.total;
+    if (v) v.textContent = stats.content.variants + stats.content.componentGames;
+  })
+  .catch(() => {});

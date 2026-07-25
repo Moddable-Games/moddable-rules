@@ -11,6 +11,10 @@ status: "draft"
 updated: "2026-06-21"
 published: false
 variants: false
+how_to_play: "Roll personal dice, allocate them to adjacent terrain hexes to collect crops. Build farmsteads and field boundaries, trade crops with players and the bank. First to 10 VP wins, but if the community can't feed itself through winter, everyone loses."
+mechanics: [dice, resource-management, trading, hex, worker-placement, cooperative]
+complexity: moderate
+related: [landlords-game, endless-skies, econopoly]
 theme:
   surface: light
   tint: neutral

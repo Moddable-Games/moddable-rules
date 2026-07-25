@@ -19,6 +19,18 @@ theme:
   typography: modern
   accent: blue
   section-divider: "✶"
+how_to_play: "Take on the role of spacefaring Ironsworn, bound to sworn vows. Roll action dice against challenge dice, manage momentum and condition meters, and consult oracle tables for creative prompts. Plays solo, cooperatively, or with a GM."
+mechanics:
+  - dice-rolling
+  - narrative
+  - oracle-tables
+  - progress-tracks
+  - momentum
+complexity: moderate
+related:
+  - ironsworn
+  - fate-core
+  - dungeon-world
 engine:
   topology:
     type: none

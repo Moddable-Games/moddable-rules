@@ -1,0 +1,5530 @@
+{
+  "generated": "2026-07-25",
+  "stats": {
+    "totalGames": 46,
+    "totalVariants": 295,
+    "totalComponentGames": 38,
+    "totalPages": 177,
+    "totalOracleTables": 458,
+    "totalDataFiles": 50,
+    "byType": {
+      "standalone": 3,
+      "hub": 2,
+      "classic": 19,
+      "rpg": 10,
+      "component": 6,
+      "mod": 4,
+      "platform": 1,
+      "game": 1
+    },
+    "byStatus": {
+      "live": 41,
+      "alpha": 2,
+      "playtest": 3
+    }
+  },
+  "games": [
+    {
+      "slug": "agon",
+      "title": "Agon",
+      "players": "2",
+      "duration": "20–40 min",
+      "age": "10+",
+      "tagline": "Guide your Queen to the centre of a 91-hex board",
+      "type": "standalone",
+      "status": "live",
+      "updated": "2026-07-06",
+      "version": "0.1.0",
+      "mechanics": [
+        "abstract-strategy",
+        "movement",
+        "capture",
+        "hex",
+        "territory"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Maneuver your Queen to the center hexagon and surround it with all six Guards. Pieces move one step to adjacent hexes, capturing by custodianship when flanking opponents on opposite sides.",
+      "related": [
+        "fanorona",
+        "halma",
+        "tafl",
+        "surakarta"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Agon (Standard)",
+          "players": "2",
+          "board": "hex radius 5",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Agon"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/agon/rulebook.md",
+        "meta": "/api/rules/agon/meta.json",
+        "variants": "/api/rules/agon/variants/"
+      }
+    },
+    {
+      "slug": "asalto",
+      "title": "Asalto",
+      "players": "2",
+      "duration": "15–30 min",
+      "age": "8+",
+      "tagline": "Officers defend a fortress against a siege of soldiers",
+      "type": "hub",
+      "status": "live",
+      "updated": "2026-07-06",
+      "version": "0.1.0",
+      "mechanics": [
+        "abstract-strategy",
+        "asymmetric",
+        "movement",
+        "capture",
+        "grid"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Asymmetric Victorian-era game where a small defending force (the Officers) holds off a larger attacking force (the Soldiers) on a fortress-and-plain board.",
+      "related": [
+        "tafl",
+        "fanorona",
+        "morris",
+        "agon"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "royal-garrison",
+          "title": "Royal Garrison",
+          "players": "2",
+          "board": "asalto-royal",
+          "win": "Officers: reduce Soldiers below immobilizing threshold. Soldiers: immobilize all three Officers.",
+          "special": "Extended Asalto variant. Three Officers defend a larger fortress against 50 Soldiers. Mechanics identical to Standard Asalto; scale increases strategic complexity."
+        },
+        {
+          "slug": "standard",
+          "title": "Asalto (Standard)",
+          "players": "2",
+          "board": "asalto-standard",
+          "win": "Officers: capture enough Soldiers that the remaining force cannot surround both Officers. Soldiers: immobilize both Officers.",
+          "special": "Asymmetric siege game. Officers jump to capture (like draughts); Soldiers advance forward or sideways without jumping. Soldiers win by immobilizing; Officers win by reducing the Soldier force below the critical threshold."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variants in this Hub"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/asalto/rulebook.md",
+        "meta": "/api/rules/asalto/meta.json",
+        "variants": "/api/rules/asalto/variants/"
+      }
+    },
+    {
+      "slug": "backgammon",
+      "title": "Backgammon",
+      "players": "2",
+      "duration": "15–60 min",
+      "age": "8+",
+      "tagline": "Five thousand years of race, risk, and probability",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-15",
+      "version": "0.1.1",
+      "mechanics": [
+        "dice",
+        "race",
+        "capture",
+        "track",
+        "push-your-luck",
+        "betting"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll dice and race your 15 pieces around the board, bearing them off before your opponent. Combine racing, blocking, hitting, and probability management with the doubling cube for betting.",
+      "related": [
+        "pachisi",
+        "chaupar",
+        "nyout",
+        "royal-ur"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Standard Backgammon",
+          "players": "2",
+          "board": "24-point board",
+          "win": "Bear off all 15 pieces before your opponent",
+          "special": "Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar."
+        },
+        {
+          "slug": "nardi",
+          "title": "Nardi",
+          "players": "2",
+          "board": "24-point board",
+          "win": "Bear off all 15 pieces before your opponent",
+          "special": "No hitting. Both players move in the same direction. No doubling cube."
+        },
+        {
+          "slug": "acey-deucey",
+          "title": "Acey-Deucey",
+          "players": "2",
+          "board": "24-point board",
+          "win": "Bear off all 15 pieces before your opponent",
+          "special": "Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time."
+        },
+        {
+          "slug": "plakoto",
+          "title": "Plakoto",
+          "players": "2",
+          "board": "24-point board",
+          "win": "Bear off all 15 pieces before your opponent",
+          "special": "Pin instead of hit: landing on a blot traps it under your piece. Trapped pieces cannot move until released."
+        },
+        {
+          "slug": "fevga",
+          "title": "Fevga",
+          "players": "2",
+          "board": "24-point board",
+          "win": "Bear off all 15 pieces before your opponent",
+          "special": "No blots allowed: a point with one of your pieces is immediately blocked to the opponent. No hitting."
+        },
+        {
+          "slug": "hypergammon",
+          "title": "Hypergammon",
+          "players": "2",
+          "board": "24-point board",
+          "win": "Bear off all 3 pieces before your opponent",
+          "special": "3 pieces per side placed on the last three points. Games last 10–15 minutes. Fully solved by computer."
+        },
+        {
+          "slug": "nackgammon",
+          "title": "Nackgammon",
+          "players": "2",
+          "board": "24-point board",
+          "win": "Bear off all 15 pieces before your opponent",
+          "special": "2 extra checkers placed on the 23-point create a slower, more complex opening than standard Backgammon."
+        },
+        {
+          "slug": "chouette",
+          "title": "Chouette",
+          "players": "3–6",
+          "board": "24-point board",
+          "win": "Accumulate the most points across multiple games as the box, or advance to become the box",
+          "special": "Multiplayer format: one player (the box) faces a team. The box rotates when they lose. Consultation rules vary."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/backgammon/rulebook.md",
+        "meta": "/api/rules/backgammon/meta.json",
+        "variants": "/api/rules/backgammon/variants/"
+      }
+    },
+    {
+      "slug": "brp",
+      "title": "Basic Roleplaying",
+      "players": "2–6",
+      "duration": "60–240 min",
+      "age": "14+",
+      "tagline": "The percentile-skill engine behind Call of Cthulhu, RuneQuest, and Pendragon",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-22",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "skill-based"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll percentile dice against your skill ratings to determine success. Characters are defined by characteristics (Strength, Dexterity, etc.) and skills, not classes. One player is GM, others are player characters.",
+      "related": [
+        "dnd-5e",
+        "pathfinder-1e",
+        "cairn",
+        "dungeon-world"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "character-creation",
+          "title": "Character Creation"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "combat",
+          "title": "Combat"
+        },
+        {
+          "section": "rules",
+          "slug": "introduction",
+          "title": "Introduction"
+        },
+        {
+          "section": "rules",
+          "slug": "sample-foe",
+          "title": "Sample Foe"
+        },
+        {
+          "section": "rules",
+          "slug": "spot-rules",
+          "title": "Spot Rules"
+        },
+        {
+          "section": "rules",
+          "slug": "system",
+          "title": "System"
+        },
+        {
+          "section": "rules",
+          "slug": "time",
+          "title": "Time"
+        }
+      ],
+      "data": [
+        "armor",
+        "professions",
+        "shields",
+        "skills",
+        "weapons"
+      ],
+      "oracleCount": 0,
+      "sections": [
+        "Basic Roleplaying"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/brp/rulebook.md",
+        "meta": "/api/rules/brp/meta.json",
+        "pages": "/api/rules/brp/pages/",
+        "data": "/api/rules/brp/data/"
+      }
+    },
+    {
+      "slug": "bavarian-32",
+      "title": "Bavarian 32-Card Games",
+      "players": "3",
+      "duration": "30–60 min",
+      "age": "12+",
+      "tagline": "Trick-taking games for the 32-card Skat deck",
+      "type": "component",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.1",
+      "mechanics": [
+        "trick-taking",
+        "hand-management",
+        "betting",
+        "card-play"
+      ],
+      "complexity": "complex",
+      "how_to_play": "The 32-card German deck (Skat deck) supports 2 games: Schafkopf and Skat. Both are trick-taking games with permanent trumps and card-point scoring.",
+      "related": [
+        "standard-52",
+        "flower-48",
+        "mahjong"
+      ],
+      "hub_type": "component",
+      "variants": [],
+      "games": [
+        {
+          "slug": "schafkopf",
+          "title": "Schafkopf",
+          "players": "4"
+        },
+        {
+          "slug": "skat",
+          "title": "Skat",
+          "players": "3"
+        }
+      ],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "The Deck",
+        "Games",
+        "Hub Notes"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/bavarian-32/rulebook.md",
+        "meta": "/api/rules/bavarian-32/meta.json",
+        "games": "/api/rules/bavarian-32/games/"
+      }
+    },
+    {
+      "slug": "cairn",
+      "title": "Cairn",
+      "players": "1–6",
+      "duration": "60–240 min",
+      "age": "12+",
+      "tagline": "A classless OSR adventure game about exploring a dark and mysterious Wood",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-22",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "oracle"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll 3d6 for attributes, equip yourself from a random background, then explore a dark Wood filled with monsters and treasure. Fiction-first resolution with saves only for risky moments.",
+      "related": [
+        "knave",
+        "maze-rats",
+        "ironsworn",
+        "dnd-5e"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "bibliography",
+          "title": "Bibliography"
+        },
+        {
+          "section": "rules",
+          "slug": "character-creation",
+          "title": "Character Creation"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "combat-and-difficulty",
+          "title": "Combat & Difficulty"
+        },
+        {
+          "section": "rules",
+          "slug": "core-rules",
+          "title": "Core Rules"
+        },
+        {
+          "section": "rules",
+          "slug": "creating-content",
+          "title": "Creating Content"
+        },
+        {
+          "section": "rules",
+          "slug": "dungeon-seeds",
+          "title": "Dungeon Seeds"
+        },
+        {
+          "section": "rules",
+          "slug": "exploration-and-pointcrawls",
+          "title": "Exploration & Pointcrawls"
+        },
+        {
+          "section": "rules",
+          "slug": "forest-seeds",
+          "title": "Forest Seeds"
+        },
+        {
+          "section": "rules",
+          "slug": "growth",
+          "title": "Growth"
+        },
+        {
+          "section": "rules",
+          "slug": "marketplace",
+          "title": "Marketplace"
+        },
+        {
+          "section": "rules",
+          "slug": "naming-procedures",
+          "title": "Naming Procedures"
+        },
+        {
+          "section": "rules",
+          "slug": "overview-and-principles",
+          "title": "Overview & Principles"
+        },
+        {
+          "section": "rules",
+          "slug": "procedures",
+          "title": "Procedures"
+        },
+        {
+          "section": "rules",
+          "slug": "saves-and-perception",
+          "title": "Saves & Perception"
+        },
+        {
+          "section": "rules",
+          "slug": "setting-seeds",
+          "title": "Setting Seeds"
+        }
+      ],
+      "data": [],
+      "oracleCount": 66,
+      "sections": [
+        "Cairn"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/cairn/rulebook.md",
+        "meta": "/api/rules/cairn/meta.json",
+        "pages": "/api/rules/cairn/pages/",
+        "oracles": "/api/rules/cairn/oracles.json"
+      }
+    },
+    {
+      "slug": "chaupar",
+      "title": "Chaupar",
+      "players": "4",
+      "duration": "45–120 min",
+      "age": "10+",
+      "tagline": "The ancient Indian game of the Mahabharata — three long dice, super-pieces, and split throws",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-18",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "race",
+        "capture",
+        "movement",
+        "team-play"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Team race game on a cross-shaped board. Roll three long dice, split the result among your pieces, and race to return all pieces to the center. Pieces combine into super-pieces for capture immunity.",
+      "related": [
+        "pachisi",
+        "backgammon",
+        "royal-ur",
+        "nyout"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Chaupar (Standard)",
+          "players": "4",
+          "board": "Cross-shaped cloth board",
+          "win": "Both teammates return all their pieces to the Charkoni first, after capturing at least one opponent piece",
+          "special": "Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "History",
+        "The Board",
+        "Equipment",
+        "Setup",
+        "Throwing the Dice",
+        "Movement",
+        "Super-Pieces (Conglomerate Pieces)",
+        "Capture",
+        "Team Home Order",
+        "Winning",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/chaupar/rulebook.md",
+        "meta": "/api/rules/chaupar/meta.json",
+        "variants": "/api/rules/chaupar/variants/"
+      }
+    },
+    {
+      "slug": "dou-shou-qi",
+      "title": "Dou Shou Qi (斗兽棋 / Jungle)",
+      "players": "2",
+      "duration": "20–40 min",
+      "age": "8+",
+      "tagline": "Animals battle across rivers and traps to reach the enemy den",
+      "type": "standalone",
+      "status": "live",
+      "updated": "2026-07-06",
+      "version": "0.1.0",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "movement",
+        "capture",
+        "ranking"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Move your 8 ranked animal pieces (Rat to Elephant) toward the opponent's Den. Higher rank captures lower, but the Rat defeats the Elephant. Traps weaken defenders, rivers block most pieces.",
+      "related": [
+        "xiangqi",
+        "shogi",
+        "moddable-chess",
+        "fanorona"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Dou Shou Qi (Standard)",
+          "players": "2",
+          "board": "9×7",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Dou Shou Qi (斗兽棋 / Jungle)"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/dou-shou-qi/rulebook.md",
+        "meta": "/api/rules/dou-shou-qi/meta.json",
+        "variants": "/api/rules/dou-shou-qi/variants/"
+      }
+    },
+    {
+      "slug": "double-six-dominoes",
+      "title": "Double-Six Dominoes",
+      "players": "2–8",
+      "duration": "15–60 min",
+      "age": "7+",
+      "tagline": "Match the pips, build the chain, score the ends",
+      "type": "component",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.1",
+      "mechanics": [
+        "tile-placement",
+        "pattern",
+        "set-collection",
+        "hand-management"
+      ],
+      "complexity": "simple",
+      "how_to_play": "The double-6 domino set (28 tiles) supports 4 games: Block, All Fives, Mexican Train, and Chickenfoot. All involve matching pip values and extending a chain.",
+      "related": [
+        "standard-52",
+        "mahjong",
+        "standard-dice"
+      ],
+      "hub_type": "component",
+      "variants": [],
+      "games": [
+        {
+          "slug": "all-fives",
+          "title": "All Fives",
+          "players": "2–4"
+        },
+        {
+          "slug": "block",
+          "title": "Block Dominoes",
+          "players": "2–4"
+        },
+        {
+          "slug": "chickenfoot",
+          "title": "Chickenfoot",
+          "players": "2–8"
+        },
+        {
+          "slug": "mexican-train",
+          "title": "Mexican Train",
+          "players": "2–8"
+        }
+      ],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Double-Six Dominoes",
+        "Games",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/double-six-dominoes/rulebook.md",
+        "meta": "/api/rules/double-six-dominoes/meta.json",
+        "games": "/api/rules/double-six-dominoes/games/"
+      }
+    },
+    {
+      "slug": "draughts",
+      "title": "Draughts",
+      "players": "2",
+      "duration": "15–60 min",
+      "age": "6+",
+      "tagline": "The world's oldest family of capture games",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-20",
+      "version": "0.3.0",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "capture",
+        "movement",
+        "promotion"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move pieces diagonally and capture opponents by jumping over them. Men promote to kings with extended movement. Mandatory captures force tactical sacrifices.",
+      "related": [
+        "moddable-chess",
+        "go",
+        "xiangqi",
+        "shogi"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "english",
+          "title": "English Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Diagonal movement only. No flying kings. Free choice between captures."
+        },
+        {
+          "slug": "turkish-draughts",
+          "title": "Turkish Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Orthogonal movement replaces diagonal. Majority capture rule. Immediate removal."
+        },
+        {
+          "slug": "international",
+          "title": "International Draughts",
+          "players": "2",
+          "board": "10×10",
+          "win": "Capture or block all opponent pieces",
+          "special": "Flying kings. Mandatory longest chain. Men capture backwards. Delayed removal."
+        },
+        {
+          "slug": "frisian",
+          "title": "Frisian Draughts",
+          "players": "2",
+          "board": "10×10",
+          "win": "Capture or block all opponent pieces",
+          "special": "Captures in all 8 directions. 3-move king limit. King preference on equal chains."
+        },
+        {
+          "slug": "lasca",
+          "title": "Lasca",
+          "players": "2",
+          "board": "7×7",
+          "win": "Block or bury all opponent pieces",
+          "special": "Column stacking. Captured pieces go underneath the captor. All 22 pieces stay in play forever."
+        },
+        {
+          "slug": "alquerque",
+          "title": "Alquerque",
+          "players": "2",
+          "board": "5×5",
+          "win": "Capture or block all opponent pieces",
+          "special": "The common ancestor. Movement along lines (orthogonal and diagonal). No promotion."
+        },
+        {
+          "slug": "russian",
+          "title": "Russian Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Men capture backwards. Mid-jump promotion. No majority rule. Free choice between captures."
+        },
+        {
+          "slug": "brazilian",
+          "title": "Brazilian Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "International rules on 8×8 board. Flying kings. Majority capture. Delayed removal."
+        },
+        {
+          "slug": "canadian",
+          "title": "Canadian Draughts",
+          "players": "2",
+          "board": "12×12",
+          "win": "Capture or block all opponent pieces",
+          "special": "Largest standard board (12×12). 30 pieces per side. International rules. Longest games."
+        },
+        {
+          "slug": "pool",
+          "title": "Pool Checkers",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Men capture both directions. Flying kings. Mid-jump promotion. Free choice. US federation since 1966."
+        },
+        {
+          "slug": "italian",
+          "title": "Italian Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Men cannot capture kings. Strict capture priority: king captures first, then most pieces, then most kings."
+        },
+        {
+          "slug": "spanish",
+          "title": "Spanish Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Flying kings. Men cannot capture backwards. Majority rule with king preference."
+        },
+        {
+          "slug": "czech",
+          "title": "Czech Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "King captures take priority over man captures. Mid-jump promotion. No majority rule for men."
+        },
+        {
+          "slug": "thai",
+          "title": "Thai Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Only 8 pieces per side. Flying kings must stop immediately behind captured piece. Forward-only men."
+        },
+        {
+          "slug": "bashni",
+          "title": "Bashni",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent commanders",
+          "special": "Column stacking on 8×8. Russian movement rules. Captured pieces form towers. Predecessor to Lasca."
+        },
+        {
+          "slug": "dameo",
+          "title": "Dameo",
+          "players": "2",
+          "board": "8×8",
+          "win": "Opponent has no legal move",
+          "special": "Phalanx movement: lines of men slide together. Orthogonal captures only. 18 pieces per side."
+        },
+        {
+          "slug": "diagonal",
+          "title": "Diagonal Draughts",
+          "players": "2",
+          "board": "10×10",
+          "win": "Capture or block all opponent pieces",
+          "special": "Pieces start along the diagonal. The long diagonal of the board is empty at setup."
+        },
+        {
+          "slug": "german",
+          "title": "German Draughts",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Men capture both forwards and backwards. Flying kings. No majority capture rule."
+        },
+        {
+          "slug": "ghanaian",
+          "title": "Ghanaian Draughts",
+          "players": "2",
+          "board": "10×10",
+          "win": "Capture or block all opponent pieces",
+          "special": "Men do not capture backwards. No majority rule. A player reduced to one piece loses."
+        },
+        {
+          "slug": "spantsiretti",
+          "title": "Spantsiretti",
+          "players": "2",
+          "board": "10×8",
+          "win": "Capture or block all opponent pieces",
+          "special": "Russian Draughts rules on a wider 10×8 board. 20 pieces per side."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/draughts/rulebook.md",
+        "meta": "/api/rules/draughts/meta.json",
+        "variants": "/api/rules/draughts/variants/"
+      }
+    },
+    {
+      "slug": "dungeon-chess",
+      "title": "Dungeon Chess",
+      "players": "2–4",
+      "duration": "30–120 min",
+      "age": "12+",
+      "tagline": "Asymmetric fantasy strategy on modular dungeon boards",
+      "type": "mod",
+      "status": "alpha",
+      "updated": "2026-06-12",
+      "version": "0.2.2",
+      "mechanics": [
+        "abstract-strategy",
+        "asymmetric",
+        "drafting",
+        "grid",
+        "combat",
+        "terrain"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Draft asymmetric armies from 4 factions (Human, Undead, Redskin, Greenskin) using an XP budget. Battle on modular dungeon maps with terrain hazards. King capture wins.",
+      "related": [
+        "moddable-chess",
+        "xiangqi",
+        "shogi",
+        "dou-shou-qi"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "compact",
+          "title": "Dungeon Chess (Compact Skirmish (10×10))",
+          "players": "2",
+          "board": "10x10",
+          "win": null,
+          "special": null
+        },
+        {
+          "slug": "four-player",
+          "title": "Dungeon Chess (Four Player (20×20))",
+          "players": "2",
+          "board": "20x20",
+          "win": null,
+          "special": null
+        },
+        {
+          "slug": "two-player",
+          "title": "Dungeon Chess (Two Player (20×8))",
+          "players": "2",
+          "board": "20x8",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "What Is Dungeon Chess?",
+        "The Four Factions",
+        "Unit Roster",
+        "The Cannon Mechanic",
+        "Terrain",
+        "Army Drafting",
+        "How to Play",
+        "Maps"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/dungeon-chess/rulebook.md",
+        "meta": "/api/rules/dungeon-chess/meta.json",
+        "variants": "/api/rules/dungeon-chess/variants/"
+      }
+    },
+    {
+      "slug": "dungeon-world",
+      "title": "Dungeon World",
+      "players": "2-5",
+      "duration": "varies",
+      "age": "13+",
+      "tagline": "Powered by the Apocalypse fantasy dungeon-crawling, fiction-first play",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-22",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "class-based"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Narrate fiction first; when a character's action triggers a move, roll 2d6+stat. 10+ is full success, 7-9 is partial success, 6- is GM move. The GM never rolls dice.",
+      "related": [
+        "dnd-5e",
+        "fate-core",
+        "ironsworn",
+        "cairn"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "advanced-delving",
+          "title": "Advanced Delving"
+        },
+        {
+          "section": "rules",
+          "slug": "bard",
+          "title": "The Bard"
+        },
+        {
+          "section": "rules",
+          "slug": "basic-moves",
+          "title": "Basic Moves"
+        },
+        {
+          "section": "rules",
+          "slug": "character-creation",
+          "title": "Character Creation"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "cleric",
+          "title": "The Cleric"
+        },
+        {
+          "section": "rules",
+          "slug": "conversion",
+          "title": "Adventure Conversion"
+        },
+        {
+          "section": "rules",
+          "slug": "druid",
+          "title": "The Druid"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment",
+          "title": "Equipment"
+        },
+        {
+          "section": "rules",
+          "slug": "example-of-play",
+          "title": "Example of Play"
+        },
+        {
+          "section": "rules",
+          "slug": "fighter",
+          "title": "The Fighter"
+        },
+        {
+          "section": "rules",
+          "slug": "first-session",
+          "title": "First Session"
+        },
+        {
+          "section": "rules",
+          "slug": "fronts",
+          "title": "Fronts"
+        },
+        {
+          "section": "rules",
+          "slug": "instant-npcs",
+          "title": "Instant NPCs"
+        },
+        {
+          "section": "rules",
+          "slug": "introduction",
+          "title": "Introduction"
+        },
+        {
+          "section": "rules",
+          "slug": "monsters",
+          "title": "Monsters"
+        },
+        {
+          "section": "rules",
+          "slug": "paladin",
+          "title": "The Paladin"
+        },
+        {
+          "section": "rules",
+          "slug": "playing-the-game",
+          "title": "Playing the Game"
+        },
+        {
+          "section": "rules",
+          "slug": "ranger",
+          "title": "The Ranger"
+        },
+        {
+          "section": "rules",
+          "slug": "special-moves",
+          "title": "Special Moves"
+        },
+        {
+          "section": "rules",
+          "slug": "teaching-the-game",
+          "title": "Teaching the Game"
+        },
+        {
+          "section": "rules",
+          "slug": "the-gm",
+          "title": "The GM"
+        },
+        {
+          "section": "rules",
+          "slug": "the-world",
+          "title": "The World"
+        },
+        {
+          "section": "rules",
+          "slug": "thief",
+          "title": "The Thief"
+        },
+        {
+          "section": "rules",
+          "slug": "wizard",
+          "title": "The Wizard"
+        }
+      ],
+      "data": [
+        "cavern-dwellers",
+        "classes",
+        "dark-woods",
+        "equipment-tables",
+        "folk-of-the-realm",
+        "instant-npcs",
+        "lower-depths",
+        "moves",
+        "planar-powers",
+        "ravenous-hordes",
+        "steading-tags",
+        "swamp-denizens",
+        "twisted-experiments",
+        "undead-legions"
+      ],
+      "oracleCount": 14,
+      "sections": [
+        "Dungeon World"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/dungeon-world/rulebook.md",
+        "meta": "/api/rules/dungeon-world/meta.json",
+        "pages": "/api/rules/dungeon-world/pages/",
+        "data": "/api/rules/dungeon-world/data/",
+        "oracles": "/api/rules/dungeon-world/oracles.json"
+      }
+    },
+    {
+      "slug": "dnd-5e",
+      "title": "Dungeons & Dragons 5th Edition SRD",
+      "players": "2–8",
+      "duration": "varies",
+      "age": "13+",
+      "tagline": "The open core rules for the world's most popular roleplaying game",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-04",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "combat",
+        "exploration",
+        "narrative",
+        "class-based"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Choose a race and class, roll d20 + modifiers against difficulty targets, and adventure through dungeons and quests. One player is DM, others are player characters with levels 1-20.",
+      "related": [
+        "pathfinder-1e",
+        "dungeon-world",
+        "brp",
+        "cairn"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "classes",
+          "slug": "barbarian",
+          "title": "Barbarian"
+        },
+        {
+          "section": "classes",
+          "slug": "bard",
+          "title": "Bard"
+        },
+        {
+          "section": "classes",
+          "slug": "cleric",
+          "title": "Cleric"
+        },
+        {
+          "section": "classes",
+          "slug": "druid",
+          "title": "Druid"
+        },
+        {
+          "section": "classes",
+          "slug": "fighter",
+          "title": "Fighter"
+        },
+        {
+          "section": "classes",
+          "slug": "monk",
+          "title": "Monk"
+        },
+        {
+          "section": "classes",
+          "slug": "paladin",
+          "title": "Paladin"
+        },
+        {
+          "section": "classes",
+          "slug": "ranger",
+          "title": "Ranger"
+        },
+        {
+          "section": "classes",
+          "slug": "rogue",
+          "title": "Rogue"
+        },
+        {
+          "section": "classes",
+          "slug": "sorcerer",
+          "title": "Sorcerer"
+        },
+        {
+          "section": "classes",
+          "slug": "warlock",
+          "title": "Warlock"
+        },
+        {
+          "section": "classes",
+          "slug": "wizard",
+          "title": "Wizard"
+        },
+        {
+          "section": "magic-items",
+          "slug": "a-c",
+          "title": "Magic Items A-C"
+        },
+        {
+          "section": "magic-items",
+          "slug": "d-f",
+          "title": "Magic Items D-F"
+        },
+        {
+          "section": "magic-items",
+          "slug": "g-i",
+          "title": "Magic Items G-I"
+        },
+        {
+          "section": "magic-items",
+          "slug": "j-l",
+          "title": "Magic Items J-L"
+        },
+        {
+          "section": "magic-items",
+          "slug": "m-o",
+          "title": "Magic Items M-O"
+        },
+        {
+          "section": "magic-items",
+          "slug": "p-r",
+          "title": "Magic Items P-R"
+        },
+        {
+          "section": "magic-items",
+          "slug": "s-u",
+          "title": "Magic Items S-U"
+        },
+        {
+          "section": "magic-items",
+          "slug": "v-z",
+          "title": "Magic Items V-Z"
+        },
+        {
+          "section": "monsters",
+          "slug": "a-c",
+          "title": "Monsters A-C"
+        },
+        {
+          "section": "monsters",
+          "slug": "d-f",
+          "title": "Monsters D-F"
+        },
+        {
+          "section": "monsters",
+          "slug": "g-i",
+          "title": "Monsters G-I"
+        },
+        {
+          "section": "monsters",
+          "slug": "j-l",
+          "title": "Monsters J-L"
+        },
+        {
+          "section": "monsters",
+          "slug": "m-o",
+          "title": "Monsters M-O"
+        },
+        {
+          "section": "monsters",
+          "slug": "p-r",
+          "title": "Monsters P-R"
+        },
+        {
+          "section": "monsters",
+          "slug": "s-u",
+          "title": "Monsters S-U"
+        },
+        {
+          "section": "monsters",
+          "slug": "v-z",
+          "title": "Monsters V-Z"
+        },
+        {
+          "section": "rules",
+          "slug": "ability-scores",
+          "title": "Using Ability Scores"
+        },
+        {
+          "section": "rules",
+          "slug": "adventuring",
+          "title": "Adventuring"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "characterization",
+          "title": "Characterization"
+        },
+        {
+          "section": "rules",
+          "slug": "combat",
+          "title": "Combat"
+        },
+        {
+          "section": "rules",
+          "slug": "conditions",
+          "title": "Conditions"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment",
+          "title": "Equipment"
+        },
+        {
+          "section": "rules",
+          "slug": "feats",
+          "title": "Feats"
+        },
+        {
+          "section": "rules",
+          "slug": "gamemastering",
+          "title": "Gamemastering"
+        },
+        {
+          "section": "rules",
+          "slug": "races",
+          "title": "Races"
+        },
+        {
+          "section": "spells",
+          "slug": "cantrips",
+          "title": "Cantrips"
+        },
+        {
+          "section": "spells",
+          "slug": "level-1",
+          "title": "1st Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-2",
+          "title": "2nd Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-3",
+          "title": "3rd Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-4",
+          "title": "4th Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-5",
+          "title": "5th Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-6",
+          "title": "6th Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-7",
+          "title": "7th Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-8",
+          "title": "8th Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "level-9",
+          "title": "9th Level Spells"
+        },
+        {
+          "section": "spells",
+          "slug": "spell-list",
+          "title": "Spell Lists"
+        },
+        {
+          "section": "spells",
+          "slug": "spellcasting",
+          "title": "Spellcasting"
+        }
+      ],
+      "data": [
+        "ability-scores",
+        "classes",
+        "conditions",
+        "equipment",
+        "features",
+        "magic-items",
+        "monsters",
+        "races",
+        "spells"
+      ],
+      "oracleCount": 0,
+      "sections": [
+        "Dungeons & Dragons 5th Edition SRD"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/dnd-5e/rulebook.md",
+        "meta": "/api/rules/dnd-5e/meta.json",
+        "pages": "/api/rules/dnd-5e/pages/",
+        "data": "/api/rules/dnd-5e/data/"
+      }
+    },
+    {
+      "slug": "econopoly",
+      "title": "Econopoly",
+      "players": "2–6",
+      "duration": "60 min",
+      "age": "10+",
+      "tagline": "Euro-style resource management meets Monopoly",
+      "type": "mod",
+      "status": "playtest",
+      "updated": "2026-06-19",
+      "version": "0.2.0",
+      "mechanics": [
+        "resource-management",
+        "set-collection",
+        "trading",
+        "hand-management",
+        "victory-points"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Choose one action per turn: move, trade, or build. Collect resources from decks, combine them for victory points. Game ends when a player goes bankrupt or decks empty — most VP wins.",
+      "related": [
+        "standard-52",
+        "landlords-game",
+        "nukes"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Econopoly (Standard)",
+          "players": "2-6",
+          "board": "perimeter track",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "How to Play in 5 Minutes",
+        "Why This Exists",
+        "Rule Changes",
+        "Components",
+        "Linked Resources",
+        "Winning Conditions",
+        "Event Cards"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/econopoly/rulebook.md",
+        "meta": "/api/rules/econopoly/meta.json",
+        "variants": "/api/rules/econopoly/variants/"
+      }
+    },
+    {
+      "slug": "fanorona",
+      "title": "Fanorona",
+      "players": "2",
+      "duration": "20–40 min",
+      "age": "8+",
+      "tagline": "The national game of Madagascar: capture by approach and withdrawal",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-23",
+      "version": "0.1.0",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "capture",
+        "movement"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move pieces along lines on a 9×5 grid. Capture by moving toward an enemy line (approach) or away from one (withdrawal), taking all pieces in the unbroken line.",
+      "related": [
+        "agon",
+        "morris",
+        "draughts",
+        "go"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Fanorona (Standard)",
+          "players": "2",
+          "board": "5×9",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "History",
+        "The Board",
+        "Equipment",
+        "Setup",
+        "Movement",
+        "Capturing",
+        "Continuation Captures",
+        "Winning",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/fanorona/rulebook.md",
+        "meta": "/api/rules/fanorona/meta.json",
+        "variants": "/api/rules/fanorona/variants/"
+      }
+    },
+    {
+      "slug": "fate-core",
+      "title": "Fate Core",
+      "players": "3-5",
+      "duration": "varies",
+      "age": "13+",
+      "tagline": "A flexible, narrative-first tabletop RPG built on aspects, fate points, and the four actions",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-22",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "aspects",
+        "combat",
+        "exploration"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll 4 Fate dice plus skill against the ladder. Characters defined by aspects (story phrases). Invoke aspects for bonuses, accept compels for fate points. Four actions: overcome, create advantage, attack, defend.",
+      "related": [
+        "dungeon-world",
+        "ironsworn",
+        "brp",
+        "dnd-5e"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "actions-and-outcomes",
+          "title": "Actions and Outcomes"
+        },
+        {
+          "section": "rules",
+          "slug": "appendix-ogl",
+          "title": "Appendix I: Open Game License"
+        },
+        {
+          "section": "rules",
+          "slug": "aspects-and-fate-points",
+          "title": "Aspects and Fate Points"
+        },
+        {
+          "section": "rules",
+          "slug": "challenges-contests-and-conflicts",
+          "title": "Challenges, Contests, and Conflicts"
+        },
+        {
+          "section": "rules",
+          "slug": "character-creation",
+          "title": "Character Creation"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "cheat-sheet-and-veterans-guide",
+          "title": "Cheat Sheet and Veterans' Guide"
+        },
+        {
+          "section": "rules",
+          "slug": "extras",
+          "title": "Extras"
+        },
+        {
+          "section": "rules",
+          "slug": "game-creation",
+          "title": "Game Creation"
+        },
+        {
+          "section": "rules",
+          "slug": "running-the-game",
+          "title": "Running the Game"
+        },
+        {
+          "section": "rules",
+          "slug": "skills-and-stunts",
+          "title": "Skills and Stunts"
+        },
+        {
+          "section": "rules",
+          "slug": "the-basics",
+          "title": "The Basics"
+        },
+        {
+          "section": "rules",
+          "slug": "the-long-game",
+          "title": "The Long Game"
+        }
+      ],
+      "data": [
+        "ladder",
+        "skills"
+      ],
+      "oracleCount": 0,
+      "sections": [
+        "Fate Core"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/fate-core/rulebook.md",
+        "meta": "/api/rules/fate-core/meta.json",
+        "pages": "/api/rules/fate-core/pages/",
+        "data": "/api/rules/fate-core/data/"
+      }
+    },
+    {
+      "slug": "flower-48",
+      "title": "Flower 48",
+      "players": "2–4",
+      "duration": "15–60 min",
+      "age": "10+",
+      "tagline": "Japanese flower cards: 12 monthly suits, 48 cards",
+      "type": "component",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.1",
+      "mechanics": [
+        "set-collection",
+        "pattern",
+        "hand-management",
+        "betting",
+        "card-play"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "The Hanafuda deck (48 cards, 12 monthly suits) supports 4 games: Koi-Koi, Hana-Awase, Go-Stop, and Oicho-Kabu. All involve matching and collecting cards by suit or type.",
+      "related": [
+        "standard-52",
+        "mahjong",
+        "double-six-dominoes"
+      ],
+      "hub_type": "component",
+      "variants": [],
+      "games": [
+        {
+          "slug": "go-stop",
+          "title": "Go-Stop",
+          "players": "2–3"
+        },
+        {
+          "slug": "hana-awase",
+          "title": "Hana-Awase",
+          "players": "2–4"
+        },
+        {
+          "slug": "koi-koi",
+          "title": "Koi-Koi",
+          "players": "2"
+        },
+        {
+          "slug": "oicho-kabu",
+          "title": "Oicho-Kabu",
+          "players": "2–8"
+        }
+      ],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Hanafuda",
+        "Games",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/flower-48/rulebook.md",
+        "meta": "/api/rules/flower-48/meta.json",
+        "games": "/api/rules/flower-48/games/"
+      }
+    },
+    {
+      "slug": "go",
+      "title": "Go",
+      "players": "2",
+      "duration": "15–180 min",
+      "age": "8+",
+      "tagline": "Four thousand years of emergent complexity from one rule",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-22",
+      "version": "0.3.0",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "territory",
+        "capture",
+        "placement"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Place stones on grid intersections to surround territory and capture opponent groups by filling their liberties. From one fundamental rule emerges extraordinary strategic depth.",
+      "related": [
+        "draughts",
+        "moddable-chess",
+        "xiangqi",
+        "hex"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Standard Go (19×19)",
+          "players": "2",
+          "board": "19×19",
+          "win": "Most territory at game end",
+          "special": "Full tournament game. 361 intersections. Komi 6.5. Area or territory scoring."
+        },
+        {
+          "slug": "13x13",
+          "title": "13×13 Go",
+          "players": "2",
+          "board": "13×13",
+          "win": "Most territory at game end",
+          "special": "Intermediate board. 169 intersections. Komi 5.5. 30–60 minute games."
+        },
+        {
+          "slug": "9x9",
+          "title": "9×9 Go",
+          "players": "2",
+          "board": "9×9",
+          "win": "Most territory at game end",
+          "special": "Quick games (15 min). 81 intersections. Komi 5.5. Purely tactical."
+        },
+        {
+          "slug": "gomoku",
+          "title": "Gomoku",
+          "players": "2",
+          "board": "15×15",
+          "win": "Five in an unbroken row",
+          "special": "Black plays first. Stones are placed, never moved. No captures."
+        },
+        {
+          "slug": "ninuki-renju",
+          "title": "Ninuki-Renju",
+          "players": "2",
+          "board": "15×15",
+          "win": "Five in an unbroken row (exactly five) or five pairs captured",
+          "special": "Japanese precursor to Pente. Custodial captures. Two win conditions. Active 1923-1940."
+        },
+        {
+          "slug": "one-colour",
+          "title": "One-Colour Go",
+          "players": "2",
+          "board": "19×19",
+          "win": "Most territory at game end",
+          "special": "Both players use identical stones. Must remember which are yours. Extreme memory challenge."
+        },
+        {
+          "slug": "phantom-go",
+          "title": "Phantom Go",
+          "players": "2 + referee",
+          "board": "9×9 or 13×13",
+          "win": "Most territory (standard scoring)",
+          "special": "Fog of war. Players cannot see opponent stones. A referee mediates all moves."
+        },
+        {
+          "slug": "capture-go",
+          "title": "Capture Go",
+          "players": "2",
+          "board": "9×9",
+          "win": "First capture wins",
+          "special": "First player to capture any stone wins. No territory scoring. The universal teaching variant."
+        },
+        {
+          "slug": "rengo",
+          "title": "Rengo",
+          "players": "4–6",
+          "board": "19×19",
+          "win": "Most territory at game end (team)",
+          "special": "Team Go. Partners alternate turns. No consultation. 2v2 or 3v3."
+        },
+        {
+          "slug": "renju",
+          "title": "Renju",
+          "players": "2",
+          "board": "15×15",
+          "win": "Five in an unbroken row (exactly five for Black)",
+          "special": "Competitive Gomoku with forbidden moves for Black. Governed by the Renju International Federation."
+        },
+        {
+          "slug": "stoical",
+          "title": "Stoical Go",
+          "players": "2",
+          "board": "19×19",
+          "win": "Most territory at game end",
+          "special": "Cannot capture if opponent captured last turn. Forces restraint and patience."
+        },
+        {
+          "slug": "sunjang",
+          "title": "Sunjang Baduk",
+          "players": "2",
+          "board": "19×19",
+          "win": "Most territory at game end",
+          "special": "Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi."
+        },
+        {
+          "slug": "tibetan",
+          "title": "Tibetan Go",
+          "players": "2",
+          "board": "17×17",
+          "win": "Cosmological scoring (territory + captures + bonus)",
+          "special": "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system."
+        },
+        {
+          "slug": "toroidal-go",
+          "title": "Toroidal Go",
+          "players": "2",
+          "board": "11×11",
+          "win": "Most territory (area or territory scoring)",
+          "special": "Edges wrap horizontally and vertically. No corners, no edges, no joseki."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/go/rulebook.md",
+        "meta": "/api/rules/go/meta.json",
+        "variants": "/api/rules/go/variants/"
+      }
+    },
+    {
+      "slug": "halma",
+      "title": "Halma",
+      "players": "2–4",
+      "duration": "15–45 min",
+      "age": "8+",
+      "tagline": "Race your pieces across the board before your opponent",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-19",
+      "version": "0.1.0",
+      "mechanics": [
+        "abstract-strategy",
+        "race",
+        "movement",
+        "grid"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move your pieces from one corner camp to the diagonally opposite corner on a 16×16 board. Step to adjacent squares or chain-hop over any adjacent piece without capturing.",
+      "related": [
+        "stern-halma",
+        "agon",
+        "pachisi",
+        "backgammon"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard-2p",
+          "title": "Standard 2-Player Halma",
+          "players": "2",
+          "board": "16×16",
+          "win": "Move all your pieces into the opponent's corner camp",
+          "special": "Pieces may step or chain-hop in any direction. No capture. Once in the opponent's camp, pieces cannot leave."
+        },
+        {
+          "slug": "standard-4p",
+          "title": "Standard 4-Player Halma",
+          "players": "4",
+          "board": "16×16",
+          "win": "Move all your pieces into the diagonally opposite corner camp",
+          "special": "Four players with 13 pieces each. Optional 2v2 team play with diagonal partners."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/halma/rulebook.md",
+        "meta": "/api/rules/halma/meta.json",
+        "variants": "/api/rules/halma/variants/"
+      }
+    },
+    {
+      "slug": "hex",
+      "title": "Hex",
+      "players": "2",
+      "duration": "15–45 min",
+      "age": "8+",
+      "tagline": "Connect your two edges across a diamond of hexagons",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-07-04",
+      "version": "0.1.0",
+      "mechanics": [
+        "abstract-strategy",
+        "hex",
+        "placement",
+        "connection"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Place stones on a rhombus-shaped hex board. First player to form a connected chain linking their two opposite edges wins. A draw is topologically impossible.",
+      "related": [
+        "go",
+        "tafl",
+        "reversi",
+        "gomoku"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Hex (11×11)",
+          "players": "2",
+          "board": "11×11 rhombus",
+          "win": "Connect opposite edges",
+          "special": "Standard tournament size. 121 cells. First player advantage offset by swap rule."
+        },
+        {
+          "slug": "9x9",
+          "title": "Hex (9×9)",
+          "players": "2",
+          "board": "9×9 rhombus",
+          "win": "Connect opposite edges",
+          "special": "Compact board. 81 cells. Quick tactical games."
+        },
+        {
+          "slug": "13x13",
+          "title": "Hex (13×13)",
+          "players": "2",
+          "board": "13×13 rhombus",
+          "win": "Connect opposite edges",
+          "special": "Large board. 169 cells. Deep strategic play."
+        },
+        {
+          "slug": "14x14",
+          "title": "Hex (14×14)",
+          "players": "2",
+          "board": "14×14 rhombus",
+          "win": "Connect opposite edges",
+          "special": "196 cells. Used in some tournament formats."
+        },
+        {
+          "slug": "19x19",
+          "title": "Hex (19×19)",
+          "players": "2",
+          "board": "19×19 rhombus",
+          "win": "Connect opposite edges",
+          "special": "Maximum standard size. 361 cells. Marathon-length games."
+        },
+        {
+          "slug": "y-game",
+          "title": "Y",
+          "players": "2",
+          "board": "triangular hex",
+          "win": "Connect all 3 edges",
+          "special": "Triangular board. Win by connecting all three sides with a single chain. Generalises Hex to 3-edge connection."
+        },
+        {
+          "slug": "y-large",
+          "title": "Y (Large — 15)",
+          "players": "2",
+          "board": "triangular hex (side 15)",
+          "win": "Connect all 3 edges",
+          "special": "Large Y board. Deep strategic play."
+        },
+        {
+          "slug": "y-small",
+          "title": "Y (Small — 9)",
+          "players": "2",
+          "board": "triangular hex (side 9)",
+          "win": "Connect all 3 edges",
+          "special": "Compact Y board. Quick games."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Overview",
+        "Variants",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/hex/rulebook.md",
+        "meta": "/api/rules/hex/meta.json",
+        "variants": "/api/rules/hex/variants/"
+      }
+    },
+    {
+      "slug": "hyper-imperium",
+      "title": "Hyper Imperium",
+      "players": "4–6",
+      "duration": "4–6 hr",
+      "age": "14+",
+      "tagline": "3D exploration and mercenary factions for Twilight Imperium",
+      "type": "mod",
+      "status": "playtest",
+      "updated": "2026-06-19",
+      "version": "0.7.0",
+      "mechanics": [
+        "exploration",
+        "trading",
+        "asymmetric",
+        "hex",
+        "combat",
+        "negotiation",
+        "hidden-information"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Five modifications for Twilight Imperium 4e: 3D movement across outer rings, flexible trading with promissory notes, shared secret objectives, two new factions, and blind voting via influence cards.",
+      "related": [
+        "endless-skies",
+        "talisman-worlds",
+        "nukes"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "How to Play in 5 Minutes",
+        "Hyper Movement",
+        "Hyper Trades",
+        "Shared Secrets",
+        "Hyperlanes",
+        "Setup",
+        "Movement",
+        "Components",
+        "Hyper Agendas",
+        "Forced Promissory Note Exchange",
+        "Mercenary Factions",
+        "Hyper Factions",
+        "Faction Abilities (100 points)",
+        "Flagship Abilities",
+        "Mech Abilities",
+        "Leaders",
+        "Promissory Note",
+        "Unit Upgrades"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/hyper-imperium/rulebook.md",
+        "meta": "/api/rules/hyper-imperium/meta.json"
+      }
+    },
+    {
+      "slug": "ironsworn",
+      "title": "Ironsworn",
+      "players": "1–4",
+      "duration": "60–240 min",
+      "age": "14+",
+      "tagline": "A perilous quest through the Ironlands, guided by vows and oracle tables",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-04",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "exploration",
+        "combat",
+        "oracle",
+        "solo",
+        "cooperative"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll action dice against challenge dice to resolve moves. Characters are bound to sworn vows, face peril, and mark progress. Plays solo, cooperatively, or with a guide. Oracle tables generate narrative.",
+      "related": [
+        "starforged",
+        "cairn",
+        "dungeon-world",
+        "fate-core"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "combat",
+          "title": "Combat"
+        },
+        {
+          "section": "rules",
+          "slug": "foes",
+          "title": "Foes and Encounters"
+        },
+        {
+          "section": "rules",
+          "slug": "moves",
+          "title": "Moves"
+        },
+        {
+          "section": "rules",
+          "slug": "stats",
+          "title": "Stats and Tracks"
+        },
+        {
+          "section": "rules",
+          "slug": "vows",
+          "title": "Your Character"
+        }
+      ],
+      "data": [],
+      "oracleCount": 6,
+      "sections": [
+        "Ironsworn"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/ironsworn/rulebook.md",
+        "meta": "/api/rules/ironsworn/meta.json",
+        "pages": "/api/rules/ironsworn/pages/",
+        "oracles": "/api/rules/ironsworn/oracles.json"
+      }
+    },
+    {
+      "slug": "knave",
+      "title": "Knave",
+      "players": "2–5",
+      "duration": "60–240 min",
+      "age": "12+",
+      "tagline": "A classless OSR rules toolkit for running old-school fantasy adventures",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-22",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice",
+        "combat",
+        "exploration",
+        "narrative",
+        "classless"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll d20 + ability bonus against difficulty. Every PC is a Knave whose role comes from what they carry, not a class. Simple encumbrance, unified defense system, concrete spellcasting.",
+      "related": [
+        "cairn",
+        "maze-rats",
+        "dnd-5e",
+        "dungeon-world"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "character-creation",
+          "title": "Character Creation"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment",
+          "title": "Equipment & Prices"
+        },
+        {
+          "section": "rules",
+          "slug": "magic",
+          "title": "Magic"
+        },
+        {
+          "section": "rules",
+          "slug": "playing-the-game",
+          "title": "Playing the Game"
+        }
+      ],
+      "data": [
+        "spells",
+        "starting-gear",
+        "traits"
+      ],
+      "oracleCount": 16,
+      "sections": [
+        "Knave"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/knave/rulebook.md",
+        "meta": "/api/rules/knave/meta.json",
+        "pages": "/api/rules/knave/pages/",
+        "data": "/api/rules/knave/data/",
+        "oracles": "/api/rules/knave/oracles.json"
+      }
+    },
+    {
+      "slug": "lattaque",
+      "title": "L'Attaque",
+      "players": "2",
+      "duration": "20–60 min",
+      "age": "10+",
+      "tagline": "Hidden-rank warfare — the original family that spawned Stratego",
+      "type": "hub",
+      "status": "live",
+      "updated": "2026-07-08",
+      "version": "0.4.0",
+      "mechanics": [
+        "hidden-information",
+        "grid",
+        "movement",
+        "combat",
+        "ranking",
+        "deduction"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Hidden-information strategy where pieces have hidden ranks. Higher rank defeats lower when pieces meet. Win conditions vary by variant: capture the Flag, land on the Aerodrome, or get Flags to your Base.",
+      "related": [
+        "moddable-chess",
+        "xiangqi",
+        "shogi",
+        "dou-shou-qi"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "aviation",
+          "title": "Aviation",
+          "players": "2",
+          "board": "8×11 (Aerodrome board)",
+          "win": "Land a Troop Carrier on the opponent's Aerodrome. Draw if both sides lose all Troop Carriers.",
+          "special": "Hidden-information aerial warfare game by H.P. Gibson & Sons. 42 pieces per player: 32 numbered flying units plus 10 unnumbered Auxiliaries (Searchlights, Observation Balloons, Anti-Aircraft Guns). The Searchlight + Gun ranging system is unique: Searchlights reveal hidden pieces and enable AAA Guns to engage at range. Troop Carriers move only diagonally; are driven back (not removed) when attacked by a piece of value 5 or higher; win by reaching the opponent's Aerodrome."
+        },
+        {
+          "slug": "dover-patrol",
+          "title": "Dover Patrol",
+          "players": "2",
+          "board": "8×12",
+          "win": "Get both Flags — your own and the opponent's — onto your own Base",
+          "special": "Naval CTF (Capture the Flag) game by H.P. Gibson & Sons. 40 pieces per player plus a separate Flag clip. The Flag starts on the Base inside the walled Harbour; seizing the enemy Flag and conveying it to your own Base wins. The Flying Boat uniquely crosses the Harbour Wall and moves 2 squares; Mine Layers are movable floating mines; Submarines sink all ships except Mine Layers and Motor Torpedo Boats."
+        },
+        {
+          "slug": "standard",
+          "title": "L'Attaque (Standard)",
+          "players": "2",
+          "board": "9×10",
+          "win": "Capture the opponent's Flag, or leave them with no movable pieces",
+          "special": "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 1×2 lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks."
+        },
+        {
+          "slug": "tri-tactics",
+          "title": "Tri-Tactics",
+          "players": "2",
+          "board": "12×12 (combined land/sea terrain)",
+          "win": "Occupy the opponent's H.Q. with a Land Infantry piece, OR occupy the opponent's Lake (Naval Base) with a Ship",
+          "special": "Combined-arms hidden-rank game by H.P. Gibson & Sons. 56 pieces per player across three services: Land (Infantry + Artillery), Naval (Ships + Flying Boats + Submarine), and Air Force, plus 8 Searchlights. All three services operate on a single board with land, sea, river, lake, and H.Q. terrain. Pieces caught out of their element are immediately forfeit when attacked. The Searchlight may move any number of squares in a straight line to attack. Combat outcomes between all 18 piece types are resolved via a published Value Table."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variants in this Hub"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/lattaque/rulebook.md",
+        "meta": "/api/rules/lattaque/meta.json",
+        "variants": "/api/rules/lattaque/variants/"
+      }
+    },
+    {
+      "slug": "mahjong",
+      "title": "Mahjong",
+      "players": "4",
+      "duration": "30–120 min",
+      "age": "10+",
+      "tagline": "A tile-matching game of skill, strategy, and fortune",
+      "type": "component",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.1",
+      "mechanics": [
+        "tile-placement",
+        "set-collection",
+        "hand-management",
+        "pattern",
+        "betting"
+      ],
+      "complexity": "complex",
+      "how_to_play": "The 136-tile Mahjong set supports 5 regional variants: Hong Kong, Riichi, Taiwanese, Zung Jung, and American Classic. All involve drawing and discarding tiles to complete winning hands of melds and a pair.",
+      "related": [
+        "standard-52",
+        "flower-48",
+        "double-six-dominoes",
+        "bavarian-32"
+      ],
+      "hub_type": "component",
+      "variants": [],
+      "games": [
+        {
+          "slug": "american-classic",
+          "title": "American Mahjong (Classic)",
+          "players": "4"
+        },
+        {
+          "slug": "hong-kong",
+          "title": "Hong Kong Mahjong",
+          "players": "4"
+        },
+        {
+          "slug": "riichi",
+          "title": "Riichi Mahjong",
+          "players": "4"
+        },
+        {
+          "slug": "taiwanese",
+          "title": "Taiwanese 16-Tile Mahjong",
+          "players": "4"
+        },
+        {
+          "slug": "zung-jung",
+          "title": "Zung Jung",
+          "players": "4"
+        }
+      ],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Mahjong"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/mahjong/rulebook.md",
+        "meta": "/api/rules/mahjong/meta.json",
+        "games": "/api/rules/mahjong/games/"
+      }
+    },
+    {
+      "slug": "mancala",
+      "title": "Mancala",
+      "players": "2",
+      "duration": "5–30 min",
+      "age": "6+",
+      "tagline": "The world's most-played family of count-and-capture games",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-15",
+      "version": "0.1.1",
+      "mechanics": [
+        "abstract-strategy",
+        "pit",
+        "sowing",
+        "capture",
+        "counting"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Sow seeds or stones from one pit around the board, capturing when sowing lands in the right conditions. Each variant has different capture rules, board sizes, and end conditions.",
+      "related": [
+        "go",
+        "draughts",
+        "fanorona",
+        "morris"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "kalah",
+          "title": "Kalah",
+          "players": "2",
+          "board": "2×6 pits + 2 stores",
+          "win": "Capture more than 36 seeds (majority of 72)",
+          "special": "Landing in your own store grants a bonus turn. Opponent's store is skipped during sowing."
+        },
+        {
+          "slug": "oware",
+          "title": "Oware",
+          "players": "2",
+          "board": "2×6 pits",
+          "win": "Capture more than 24 seeds",
+          "special": "Grand slam rule prevents a player from clearing all opponent seeds in a single turn."
+        },
+        {
+          "slug": "bao",
+          "title": "Bao",
+          "players": "2",
+          "board": "4×8 pits (2 rows per player)",
+          "win": "Reduce opponent to no seeds in their inner row, or leave them with no legal move",
+          "special": "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing."
+        },
+        {
+          "slug": "congkak",
+          "title": "Congkak",
+          "players": "2",
+          "board": "2×7 pits + 2 houses",
+          "win": "Have more seeds in your house than the opponent at game end",
+          "special": "Sow into your own house but skip the opponent's house. Dead pits must be bought back."
+        },
+        {
+          "slug": "toguz-korgool",
+          "title": "Toguz Korgool",
+          "players": "2",
+          "board": "2×9 pits + 2 kazans",
+          "win": "Capture 82 or more seeds (majority of 162)",
+          "special": "The tuzduk rule: landing the 3rd seed in an opponent's odd-numbered pit locks it as your permanent scoring pit."
+        },
+        {
+          "slug": "pallanguzhi",
+          "title": "Pallanguzhi",
+          "players": "2",
+          "board": "2×7 pits",
+          "win": "Capture all 168 seeds (opponent cannot fill pits to play)",
+          "special": "Multi-lap sowing: the last seed always triggers pickup of the next pit, creating long relay chains."
+        },
+        {
+          "slug": "ayo",
+          "title": "Ayo",
+          "players": "2",
+          "board": "2×6 pits",
+          "win": "Capture more than 24 seeds",
+          "special": "Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition."
+        },
+        {
+          "slug": "sungka",
+          "title": "Sungka",
+          "players": "2",
+          "board": "2×7 pits + 2 heads",
+          "win": "Have more seeds in your head at game end",
+          "special": "Simultaneous start; sow only into your own head, never the opponent's."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/mancala/rulebook.md",
+        "meta": "/api/rules/mancala/meta.json",
+        "variants": "/api/rules/mancala/variants/"
+      }
+    },
+    {
+      "slug": "maze-rats",
+      "title": "Maze Rats",
+      "players": "2–5",
+      "duration": "60–180 min",
+      "age": "12+",
+      "tagline": "A minimalist toolkit for old-school-style sandbox adventuring",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice-rolling",
+        "procedural-generation",
+        "sandbox",
+        "gm-tools",
+        "story-tables"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll dice and consult procedural tables to generate characters, spells, monsters, NPCs, treasure, cities, wilderness, and dungeons on the fly. One Game Master guides players through sandbox adventures using a single compact page of rules.",
+      "related": [
+        "dnd-5e",
+        "cairn",
+        "knave"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "character-creation",
+          "title": "Character Creation"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "core-rules",
+          "title": "Core Rules"
+        }
+      ],
+      "data": [
+        "characters",
+        "city",
+        "magic",
+        "maze",
+        "monsters-animals",
+        "treasure-equipment",
+        "wild"
+      ],
+      "oracleCount": 94,
+      "sections": [
+        "Maze Rats"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/maze-rats/rulebook.md",
+        "meta": "/api/rules/maze-rats/meta.json",
+        "pages": "/api/rules/maze-rats/pages/",
+        "data": "/api/rules/maze-rats/data/",
+        "oracles": "/api/rules/maze-rats/oracles.json"
+      }
+    },
+    {
+      "slug": "moddable-chess",
+      "title": "Moddable Chess",
+      "players": "2-6",
+      "duration": "10-120 min",
+      "age": "10+",
+      "tagline": "Every chess variant, one engine",
+      "type": "platform",
+      "status": "alpha",
+      "updated": "2026-07-08",
+      "version": "0.6.0",
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "checkmate",
+        "piece-variety",
+        "asymmetric"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "A unified platform for 155 chess variants spanning classic FIDE rules, asymmetric battles, hidden information, expanded boards, alternative win conditions, regional forms, and topology variants. Every variant shares the chess lineage but modifies setup, pieces, board, or victory condition.",
+      "related": [
+        "dungeon-chess",
+        "xiangqi",
+        "shogi"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "alice",
+          "title": "Alice Chess",
+          "players": "2",
+          "board": "Two 8×8 boards (Board A and Board B)",
+          "win": "Checkmate",
+          "special": "After every move, the moving piece transfers to the corresponding square on the other board. A move is only legal if the transfer square is vacant. Invented V. R. Parton, 1953."
+        },
+        {
+          "slug": "grasshopper",
+          "title": "Standard Grasshopper Chess",
+          "players": "2",
+          "board": "8x8",
+          "win": "Checkmate the opponent's king",
+          "special": "Each queen is replaced by a Grasshopper — a piece that must hop over a hurdle to move."
+        },
+        {
+          "slug": "gygax",
+          "title": "Gygax Chess",
+          "players": "2",
+          "board": "12×8 (three levels)",
+          "win": "Checkmate",
+          "special": "Three stacked 12×8 boards. 42 pieces per side across 15 piece types. Air, Land, and Subterranean realms. Gary Gygax, Dragon Magazine No. 100, 1985."
+        },
+        {
+          "slug": "nightrider",
+          "title": "Standard Nightrider Chess",
+          "players": "2",
+          "board": "8x8",
+          "win": "Checkmate the opponent's king",
+          "special": "Knights are replaced by Nightriders — riders that chain knight-leaps in a single direction."
+        },
+        {
+          "slug": "standard",
+          "title": "Standard Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Standard FIDE rules"
+        },
+        {
+          "slug": "wildebeest",
+          "title": "Standard Wildebeest Chess",
+          "players": "2",
+          "board": "11x10",
+          "win": "Checkmate the opponent's king",
+          "special": "An 11×10 board. Camels replace bishops; Wildebeests (Knight+Camel compound) flank the queen."
+        },
+        {
+          "slug": "absorption",
+          "title": "Absorption Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Capturing piece permanently gains the victim's movement abilities. Absorptions stack."
+        },
+        {
+          "slug": "almost-chess",
+          "title": "Almost Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "White's Queen is replaced by a Chancellor (Rook + Knight compound)."
+        },
+        {
+          "slug": "amazon-chess",
+          "title": "Amazon Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Queens replaced by Amazons (Queen + Knight). The most powerful piece possible."
+        },
+        {
+          "slug": "andernach",
+          "title": "Andernach Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Capturing piece changes colour (becomes opponent's). Kings exempt."
+        },
+        {
+          "slug": "anti-king-chess-2",
+          "title": "Anti-King Chess II",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate the opponent's King or Anti-King",
+          "special": "Each player adds an Anti-King — a royal piece in check whenever it is NOT attacked by enemy pieces. Win by checkmating either the King or the Anti-King. Anti-Kings cannot capture enemy pieces."
+        },
+        {
+          "slug": "antichess",
+          "title": "Antichess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Lose all pieces or get stalemated",
+          "special": "Captures are mandatory. First to lose all pieces wins."
+        },
+        {
+          "slug": "archchess",
+          "title": "Archchess",
+          "players": "2",
+          "board": "10×10",
+          "win": "Checkmate (stalemate is a draw)",
+          "special": "10×10 chess variant by Dr. Francesco Piacenza (Turin, 1683). Adds two new pieces per side: the Centurion (Dabbaba + Alfil + Knight compound; can jump) and the Decurion (one square diagonally). Pawns always promote to Queen. Unusual flexible castling rules including a King’s Leap option."
+        },
+        {
+          "slug": "asean",
+          "title": "ASEAN Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Standardized Southeast Asian chess for regional competition. Makruk-family rules: Bishop moves 1 step diagonally, Pawns start on rank 2, promote on rank 6 to Ferz. Streamlined counting draw rules. Codified by ASEAN Chess Federation."
+        },
+        {
+          "slug": "atomic",
+          "title": "Atomic Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Explode opponent king",
+          "special": "Captures cause explosions destroying all pieces on adjacent squares."
+        },
+        {
+          "slug": "avalanche",
+          "title": "Avalanche Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Each turn has two parts: first make a legal chess move, then push one of the opponent's pawns one square forward. The push is obligatory. If pushing a pawn leaves your King in check, you lose immediately."
+        },
+        {
+          "slug": "balbos-chess",
+          "title": "Balbo's Chess",
+          "players": "2",
+          "board": "Diamond-shaped, 70 squares (ranks 3-5-7-9-11-11-9-7-5-3, centred on file f)",
+          "win": "Checkmate",
+          "special": "Chess on an unusual diamond-shaped board invented by M.G. Balbo (1974). Ten ranks of widths 3-5-7-9-11-11-9-7-5-3, all centred on file f, giving 70 squares across files a-k. Promotion rules are location-dependent: corner promotion squares allow minor pieces only. Pritchard warns that both sides have a third-move mate available from the starting position."
+        },
+        {
+          "slug": "benedict",
+          "title": "Benedict Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Convert opponent king",
+          "special": "No captures. Attacked enemies convert to your colour instead."
+        },
+        {
+          "slug": "berolina-chess",
+          "title": "Berolina Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Pawns move diagonally forward and capture straight forward — the inverse of normal."
+        },
+        {
+          "slug": "berserk",
+          "title": "Berserk Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Delivering check grants one bonus move with a different piece."
+        },
+        {
+          "slug": "birds-chess",
+          "title": "Bird's Chess",
+          "players": "2",
+          "board": "10×8",
+          "win": "Checkmate",
+          "special": "1874 variant on a 10×8 board. Adds Guard (Rook+Knight) and Equerry (Bishop+Knight). A predecessor to Capablanca’s Chess. Castling: King moves three squares, Rook jumps over to the adjacent square."
+        },
+        {
+          "slug": "blind-chess",
+          "title": "Blind Chess (Banqi)",
+          "players": "2",
+          "board": "4×8",
+          "win": "Capture all opponent's face-up pieces (opponent with no legal moves loses)",
+          "special": "Chinese hidden-piece game (Banqi, 暗棋) played on a 4×8 board (half a Xiangqi board). All 32 pieces placed face-down randomly. Each turn: flip a piece, move a piece, or capture. Piece ranks are unknown until revealed. Capture hierarchy: General defeats all except Soldier; Soldier defeats General. Cannon captures by jumping over exactly one screen (Taiwanese rules)."
+        },
+        {
+          "slug": "breakthrough",
+          "title": "Breakthrough",
+          "players": "2",
+          "board": "7×7",
+          "win": "Reach opposite rank",
+          "special": "Pawns only — first to reach the far side wins. No captures backward."
+        },
+        {
+          "slug": "brusky",
+          "title": "Brusky's Hexagonal Chess",
+          "players": "2",
+          "board": "84 hexes (horizontal, 10 files)",
+          "win": "Checkmate",
+          "special": "Horizontal 84-hex board. 10 pawns per side. Unmoved pawns may also capture straight forward. Blockage rule applies. Invented Yakov Brusky."
+        },
+        {
+          "slug": "byzantine-chess",
+          "title": "Byzantine Chess",
+          "players": "2",
+          "board": "Circular (4 rings × 16 files)",
+          "win": "Checkmate, stalemate the opponent, or bare the opponent's King",
+          "special": "Played on a circular board of 4 concentric rings and 16 files (64 squares). Uses Shatranj piece movements: Bishops leap two diagonal squares, Queens move one diagonal square. Stalemate is a win. Baring the opponent's King wins unless the opponent can bare back immediately."
+        },
+        {
+          "slug": "capablanca",
+          "title": "Capablanca Chess",
+          "players": "2",
+          "board": "10×8",
+          "win": "Checkmate",
+          "special": "Two extra pieces: Archbishop (B+N) and Chancellor (R+N). Wider board."
+        },
+        {
+          "slug": "carrera",
+          "title": "Carrera's Chess",
+          "players": "2",
+          "board": "10×8",
+          "win": "Checkmate",
+          "special": "1617 historical variant on a 10×8 board. Adds Champion (Rook+Knight) and Centaur (Bishop+Knight). No castling, no en passant. A pawn double move is forbidden if it would both block a check and pass through an enemy pawn’s capture square."
+        },
+        {
+          "slug": "centennial-chess",
+          "title": "Centennial Chess",
+          "players": "2",
+          "board": "10×10",
+          "win": "Checkmate",
+          "special": "10×10 chess variant with four new pieces: the Steward (quadra-pawn, moves as pawn in all 4 directions), the Camel (2+1 oblique leap, colorbound), the Murray Lion (leaps to 2nd square orthogonally/diagonally or captures as King), and the Rotating Spearman (slides forward/backward and rotates between 3 orientations). Two moves per turn until first capture. En passant disabled. Created by John William Brown, 1999. Entry in the 1999 Large Variant Contest."
+        },
+        {
+          "slug": "chak",
+          "title": "Chak",
+          "players": "2",
+          "board": "9×9",
+          "win": "Checkmate or Temple Capture",
+          "special": "Mesoamerican-themed chess on a 9×9 board. Win by mating the Ajaw or landing your promoted Ajaw on the opponent's temple square. Pieces promote when crossing the river. Designed by Corey Clark, 2020."
+        },
+        {
+          "slug": "chancellor-chess",
+          "title": "Chancellor Chess",
+          "players": "2",
+          "board": "9×9",
+          "win": "Checkmate",
+          "special": "9×9 chess variant published by Ben Foster (1889). Adds one Chancellor (Rook+Knight compound) per side, placed to the right of the King. Black squares are in the corners. Castling: King moves 2 squares, Rook moves 3. Pawns may promote to Chancellor."
+        },
+        {
+          "slug": "chaturanga",
+          "title": "Chaturanga",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or bare king",
+          "special": "Ancient Indian ancestor of all chess variants, c. 600 CE. Weak counsellor and leaping elephant."
+        },
+        {
+          "slug": "checkless",
+          "title": "Checkless Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Cannot give check unless it is checkmate. King becomes aggressive."
+        },
+        {
+          "slug": "chennis",
+          "title": "Chennis",
+          "players": "2",
+          "board": "7×7",
+          "win": "Pawn reaches opponent baseline",
+          "special": "Tennis-themed chess on a 7×7 board. Win by advancing a Pawn to the opponent's back rank. A net across rank 4 prevents most pieces from crossing. Knights may jump the net freely. Designed by Corey Clark."
+        },
+        {
+          "slug": "chigorin",
+          "title": "Chigorin",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "White's Bishops replaced by Knights. Four Knights vs standard army."
+        },
+        {
+          "slug": "circular-chess",
+          "title": "Circular Chess",
+          "players": "2",
+          "board": "Circular (4 rings × 16 files)",
+          "win": "Checkmate (snaffling permitted)",
+          "special": "Played on a circular board of 64 squares arranged in 4 concentric rings of 16 files. No castling, no en passant. Pawns promote after travelling 6 squares. Null moves (moving a piece all the way around a ring back to its start) are illegal."
+        },
+        {
+          "slug": "citadel-chess",
+          "title": "Citadel Chess",
+          "players": "2",
+          "board": "10×10 + 4 citadel squares",
+          "win": "Checkmate or stalemate; reaching the opponent's citadel is a draw",
+          "special": "Historical Shatranj variant (Shatranj al-Husun, 'Chess of the Fortresses'). 10×10 board plus four corner citadel squares. A King entering the opponent's citadel and surviving one move achieves a draw. Stalemate is a win. War Machines move as Bishops. No bare King rule."
+        },
+        {
+          "slug": "codrus",
+          "title": "Codrus",
+          "players": "2",
+          "board": "8×8",
+          "win": "Lose your King",
+          "special": "No check exists. You win by getting your own King captured."
+        },
+        {
+          "slug": "congo",
+          "title": "Congo",
+          "players": "2",
+          "board": "7×7",
+          "win": "Capture the Lion",
+          "special": "7×7 chess variant by Demian Freeling (1982, age 7). Six unique piece types: Lion (King, confined to castle), Zebra (Knight), Giraffe (2-step jump + king move), Elephant (1–2 step ortho leaper), Crocodile (king move + rook toward/in river), Monkey (capturing draughts-leaper). River rank in the centre. Drowning rule: non-Crocodile pieces left in the river for a full turn are removed. No check or checkmate — capture the Lion to win."
+        },
+        {
+          "slug": "courier",
+          "title": "Courier Chess",
+          "players": "2",
+          "board": "12×8",
+          "win": "Checkmate",
+          "special": "Medieval German variant from the 1200s. Extra bishops and sage pieces."
+        },
+        {
+          "slug": "crazy-38s",
+          "title": "Crazy 38's",
+          "players": "2",
+          "board": "38-square loop board",
+          "win": "Checkmate the opponent's King OR move your King to the opponent's Home Square",
+          "special": "38-square chess variant by Ben Good, entered in the 1998 38 Squares Contest. Uses Shogi-style drops. Unique piece set: King, Rook, Bishop, Knight, Silver General, Gold General, and 4 Pawns per side — with movements distinct from standard Shogi. The board has a built-in loop connection that Rooks can exploit. Pawns promote to Queen only on the opponent's Home Square; captured Queens revert to Pawns before being dropped. Dual win condition: checkmate OR King reaches opponent's Home Square."
+        },
+        {
+          "slug": "crazyhouse",
+          "title": "Crazyhouse",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Captured pieces switch sides and can be dropped back onto the board."
+        },
+        {
+          "slug": "cylinder-chess",
+          "title": "Cylinder Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Files wrap — the a-file connects to the h-file. Pieces slide around the cylinder."
+        },
+        {
+          "slug": "cylindrical-chess",
+          "title": "Cylindrical Chess",
+          "players": "2",
+          "board": "8×8 (cylindrical)",
+          "win": "Checkmate",
+          "special": "The board is treated as a cylinder: file a connects directly to file h. Pieces can move and attack across the edge. Bishops and queens are significantly stronger than in standard chess."
+        },
+        {
+          "slug": "dark-chess",
+          "title": "Dark Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture opponent king",
+          "special": "Total fog — only see squares occupied by your own pieces."
+        },
+        {
+          "slug": "de-vasa",
+          "title": "De Vasa's Hexagonal Chess",
+          "players": "2",
+          "board": "81 hexes (rhombus, horizontal)",
+          "win": "Checkmate",
+          "special": "Horizontally-oriented rhombus board of 81 hexes. Pawns start on rank 3. Castling permitted. Invented Helge E. de Vasa."
+        },
+        {
+          "slug": "delirious-bughouse",
+          "title": "Delirious Bughouse",
+          "players": "4 (2 teams of 2)",
+          "board": "8×8 (two boards)",
+          "win": "Capture an opposing King (team loses if either ally's King is captured)",
+          "special": "Bughouse variant by Alberto Monteiro (c.1984) combining relay capture, dice, and a worst-move mechanic. Two boards, 4 players, 2 allied teams. Key Bughouse modifications: Pawns drop only on ranks 2–6 (not rank 7); promoted Pawns when captured stay promoted (the promoting player recovers the original Pawn, permanently increasing piece count). Add-on layers: Dice Chess (die each turn — 1=Pawn, 2=Knight, 3=Bishop, 4=Rook, 5=Queen, 6=any); Worst Move (second die determines whether the player or opponent chooses the move); fairy pieces (Camel, Giraffe, Zebra, Cylindrical pieces, Pyramid, Atomic Bomb). Final full form adds Structures, Events, and Magic Items."
+        },
+        {
+          "slug": "diana",
+          "title": "Diana Chess",
+          "players": "2",
+          "board": "6×6",
+          "win": "Checkmate",
+          "special": "6×6 board. No queens or knights — bishops and rooks only."
+        },
+        {
+          "slug": "dice-chess",
+          "title": "Dice Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Die roll constrains which piece type must move."
+        },
+        {
+          "slug": "displacement-chess",
+          "title": "Displacement Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Pieces can swap positions with adjacent friendly pieces as an alternative move."
+        },
+        {
+          "slug": "djambi",
+          "title": "Djambi",
+          "players": 4,
+          "board": "9×9",
+          "win": "Be the last player with a Chief remaining",
+          "special": "4-player political strategy on a 9×9 grid. Killed pieces remain as impassable corpses; the center Maze grants extra turns and immunities."
+        },
+        {
+          "slug": "dragon-chess",
+          "title": "Dragon Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Created by Grandmaster Miguel Illescas. Standard chess with two Dragons (Bishop+Knight = Archbishop) held in reserve; at any point instead of a move, gate one onto any empty square on your own first rank."
+        },
+        {
+          "slug": "duck-chess",
+          "title": "Duck Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture opponent king",
+          "special": "After each move, place the duck (blocker) on any empty square."
+        },
+        {
+          "slug": "einstein-chess",
+          "title": "Einstein Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Non-capturing moves demote pieces; captures promote them (Q→R→B→N→P / P→N→B→R→Q)."
+        },
+        {
+          "slug": "empire",
+          "title": "Empire Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or Faceoff",
+          "special": "Asymmetric: FIDE Kingdom vs. Empire dynasty. Empire pieces move like Queens but capture in limited piece-specific ways. Faceoff rule: open-file confrontation between royal pieces loses for the creator. Designed by Corey Clark, 2019."
+        },
+        {
+          "slug": "endgame-chess",
+          "title": "Endgame Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Only Kings and pawns. Pure endgame technique from move one."
+        },
+        {
+          "slug": "extinction",
+          "title": "Extinction Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture all of one piece type",
+          "special": "Lose all your knights, bishops, rooks, or pawns — you lose the game."
+        },
+        {
+          "slug": "fanorona-chess",
+          "title": "Fanorona Chess",
+          "players": "2",
+          "board": "5×9 double Alquerque",
+          "win": "Checkmate",
+          "special": "Chess variant on the double Alquerque board used in Fanorona (the traditional Malagasy game of Madagascar). Captures are by approach and withdrawal, not replacement: moving toward an enemy piece captures it; moving away from an enemy piece also captures it. If a capture is available, it must be made. Stalemate is a loss. No castling; no en passant; Pawn promotes only to previously captured pieces. Created by Peter Aronson, 2004."
+        },
+        {
+          "slug": "fischer-random",
+          "title": "Fischer Random (Chess960)",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Back rank pieces randomised (960 positions). Castling rules adapted."
+        },
+        {
+          "slug": "five-check",
+          "title": "Five-Check",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or deliver 5 checks",
+          "special": "Extended Three-Check — five checks wins instead of three."
+        },
+        {
+          "slug": "flip-chess",
+          "title": "Flip Chess",
+          "players": "2",
+          "board": "38 squares (unusual shape)",
+          "win": "Bare King loses",
+          "special": "Chess variant on a 38-square board with an unusual shape. 'Bare king loses' — a player whose King is the only piece remaining loses immediately, regardless of whether they are in check. No initial double Pawn moves. Companion to Crazy 38's (both are 38-square chess variants by John William Brown). Acclaimed 38-square variant; Java applet implementation by Ed Friedlander on chessvariants.com. Created 1999."
+        },
+        {
+          "slug": "fog-of-war",
+          "title": "Fog of War Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture opponent king",
+          "special": "You only see squares your pieces can move to. No check warnings."
+        },
+        {
+          "slug": "four-handed-chess",
+          "title": "Four-Handed Chess (Chaturaji)",
+          "players": 4,
+          "board": "8×8",
+          "win": "Accumulate the most points from captures; 54 points for capturing all three enemy Kings",
+          "special": "Ancient Indian 4-player dice chess (c. 1030 CE). No checkmate — Kings are captured for points. Dice determine which piece type moves."
+        },
+        {
+          "slug": "giveaway",
+          "title": "Giveaway",
+          "players": "2",
+          "board": "8×8",
+          "win": "Lose all pieces",
+          "special": "Forced captures. King is not royal. Stalemate is a loss."
+        },
+        {
+          "slug": "glinski",
+          "title": "Glinski's Hexagonal Chess",
+          "players": "2",
+          "board": "hex radius 5",
+          "win": "Checkmate",
+          "special": "Chess on a 91-cell hexagonal board. Pieces slide along hex edges and vertices. Three bishops per side (one per cell colour)."
+        },
+        {
+          "slug": "grand",
+          "title": "Grand Chess",
+          "players": "2",
+          "board": "10×10",
+          "win": "Checkmate",
+          "special": "Same new pieces as Capablanca, bigger board, pawns start on rank 3."
+        },
+        {
+          "slug": "grande-acedrex",
+          "title": "Grande Acedrex",
+          "players": "2",
+          "board": "12×12",
+          "win": "Checkmate, bare the King, or stalemate",
+          "special": "Large medieval Spanish chess variant from the Libro de los Juegos (Alfonso X, c. 1283). 12×12 board with six unique piece types: Griffion, Unicorn, Lion, Giraffe, Crocodile, and Rook. Pawns start on rank 4; ranks 2–3 are empty. Unique promotion rule: pawn promotes to the piece type that started on that file."
+        },
+        {
+          "slug": "grid-chess",
+          "title": "Grid Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Moves must cross at least one 2×2 grid line."
+        },
+        {
+          "slug": "gustav-iii-chess",
+          "title": "Gustav III's Chess",
+          "players": "2",
+          "board": "8×8 + 4 corner extensions (68 squares)",
+          "win": "Checkmate",
+          "special": "Swedish historical chess variant also known as Shakspel. Standard 8×8 chess with four extra squares added at the corners, each occupied by an Amazon (a piece combining Queen and Knight moves). Each side has 2 Amazons in addition to the standard FIDE army. Created by Gustav Johan Billberg, 1839. Jocly implementation available on chessvariants.com."
+        },
+        {
+          "slug": "half-chess",
+          "title": "Half Chess",
+          "players": "2",
+          "board": "8×4",
+          "win": "Checkmate",
+          "special": "4-rank board, armies start adjacent. Immediate contact."
+        },
+        {
+          "slug": "hexapawn",
+          "title": "Hexapawn",
+          "players": "2",
+          "board": "3×3",
+          "win": "Advance a Pawn to the last rank, OR leave opponent with no legal moves",
+          "special": "3×3 pawn-only game invented by Martin Gardner (Scientific American, March 1962) as a teaching tool for minimax strategy and machine learning. Six pawns total (3 per side). Solved game: Black wins with perfect play. No double-step; reaching the far rank wins immediately."
+        },
+        {
+          "slug": "hole-chess",
+          "title": "Hole Chess",
+          "players": "2",
+          "board": "44 squares (custom board with 2 holes)",
+          "win": "Capture or checkmate the opponent's King",
+          "special": "44-square chess variant on a custom board with two permanent holes — squares pieces cannot occupy, but through which pieces can be 'sucked.' The Queen, Rook, and PS-Bishop (Dragon Horse) each have a Two-Action Rule: they may move normally AND pull an enemy piece in their line of fire into a hole on the same turn. Named for the 44-square contest. Gary K. Gifford, 2003."
+        },
+        {
+          "slug": "hoppel-poppel",
+          "title": "Hoppel-Poppel",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Knights capture like bishops (sliding diagonal); bishops capture like knights (L-jump)."
+        },
+        {
+          "slug": "horde",
+          "title": "Horde Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "White checkmates or Black destroys horde",
+          "special": "White has a full army. Black has 36 pawns. Asymmetric survival."
+        },
+        {
+          "slug": "hostage-chess",
+          "title": "Hostage Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Shogi-inspired drop variant using a single standard set. Captured pieces become \"hostages\"; you can rescue yours by releasing one of theirs. Promoted pawns are replaced by prison pieces. Named chess variant of the decade by David Pritchard (Variant Chess, Summer 1999)."
+        },
+        {
+          "slug": "immunization-chess",
+          "title": "Immunization Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "When a capture occurs, adjacent enemy pieces become immune to capture for 2 turns."
+        },
+        {
+          "slug": "janus",
+          "title": "Janus Chess",
+          "players": "2",
+          "board": "10×8",
+          "win": "Checkmate",
+          "special": "Played on a 10×8 board. Each player adds two Januses (Archbishop: Bishop + Knight combined) between the Rooks and Knights. Castling sends the King to the b-file (3 squares) or i-file (4 squares)."
+        },
+        {
+          "slug": "khans-chess",
+          "title": "Khan's Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or Campmate",
+          "special": "Asymmetric: White plays FIDE chess, Gold commands the Mongol Horde — all Horde pieces except Khan and Kheshig are divergent (move ≠ capture). Stalemate is a loss. Campmate wins (King to opponent's back rank)."
+        },
+        {
+          "slug": "king-of-the-hill",
+          "title": "King of the Hill",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or king reaches centre 4 squares",
+          "special": "Moving your king to d4/d5/e4/e5 is an instant win."
+        },
+        {
+          "slug": "klein-bottle-chess",
+          "title": "Klein Bottle Chess",
+          "players": "2",
+          "board": "8×14 Klein bottle",
+          "win": "Checkmate",
+          "special": "Chess on a Klein bottle: an 8x14 board (double-height Cylindrical Chess) where files a and h are joined (as in Cylindrical Chess), AND the rank-11/12 seam is joined with a half-twist that mirrors file position. Each side has 16 pawns across two ranks. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound but can reach only 3/8 of the board in one move. Invented by Alberto Monteiro."
+        },
+        {
+          "slug": "knightmate",
+          "title": "Knightmate",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate the royal Knight",
+          "special": "Knight and King swap roles. The Knight is royal; Kings move as knights."
+        },
+        {
+          "slug": "kriegspiel",
+          "title": "Kriegspiel",
+          "players": "2 + referee",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Fog-of-war chess. Each player sees only their own pieces. A referee manages a master board and announces partial information: legality of attempted moves, check direction, capture location, and pawn-capture availability."
+        },
+        {
+          "slug": "legan-chess",
+          "title": "Legan Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Berolina pawns (move diagonal, capture straight). King and Queen swap starting squares."
+        },
+        {
+          "slug": "los-alamos-vierschach",
+          "title": "Los Alamos Vierschach",
+          "players": "4 (2 teams of 2)",
+          "board": "84-square cross (6×6 core + 2×6 extensions)",
+          "win": "Checkmate both opposing Kings",
+          "special": "4-player chess by Jörg Knappen combining Los Alamos Chess (6×6, no Bishops, no castling) with the Vierschach 4-player format. Non-competing entry to the 84 Squares Contest. Board: a 6×6 grid extended by 2×6 squares on each of the four sides, identical to the Quintessential Chess board (84 squares total). Four Los Alamos armies arranged as in Vierschach with allied teams side by side. Pawns gain initial double-step since the promotion path is longer than in standard Los Alamos; en passant applies. No castling."
+        },
+        {
+          "slug": "los-alamos",
+          "title": "Los Alamos",
+          "players": "2",
+          "board": "6×6",
+          "win": "Checkmate",
+          "special": "First computer chess (1956). 6x6 board, no Bishops, no castling."
+        },
+        {
+          "slug": "madrasi",
+          "title": "Madrasi Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Same-type opposing pieces paralyse each other when they attack."
+        },
+        {
+          "slug": "maharaja",
+          "title": "Maharaja & Sepoys",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "One player has a full army. The other has one piece that moves as queen + knight."
+        },
+        {
+          "slug": "makpong",
+          "title": "Makpong",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "King cannot move out of check. You must block or capture instead."
+        },
+        {
+          "slug": "makruk",
+          "title": "Makruk",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Thai chess. Pawns promote on rank 6 to Met (one-step diagonal). No castling or en passant."
+        },
+        {
+          "slug": "mansindam",
+          "title": "Mansindam (Pantheon Tale)",
+          "players": "2",
+          "board": "9×9",
+          "win": "Checkmate, Campmate, or Stalemate loss",
+          "special": "9×9 board with Shogi-style drops and mandatory promotion in the enemy camp. Compound pieces: Cardinal (B+N), Marshal (R+N), Angel (Q+N). Campmate wins. Stalemate is a loss; no draws possible."
+        },
+        {
+          "slug": "marseillais",
+          "title": "Marseillais Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Each player makes TWO moves per turn (except White's first turn)."
+        },
+        {
+          "slug": "mccooey",
+          "title": "McCooey's Hexagonal Chess",
+          "players": "2",
+          "board": "91 hexes (11 files a–k)",
+          "win": "Checkmate",
+          "special": "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per side, and stalemate is a draw. Invented Dave McCooey."
+        },
+        {
+          "slug": "medusa-chess",
+          "title": "Medusa Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "After the queen moves, all enemy pieces she attacks become petrified for 2 turns."
+        },
+        {
+          "slug": "metamachy",
+          "title": "Metamachy",
+          "players": "2",
+          "board": "12×12",
+          "win": "Checkmate",
+          "special": "12×12 board with 12 piece types. Variable starting position: King, Queen, Lion, Eagle may be placed in any arrangement on their four squares; Black decides, White mirrors. Cannon slides/Xiangqi-captures; Camel leaps (1,3); Eagle bends diagonal then slides orthogonal; Lion leaps anywhere within 2 King steps."
+        },
+        {
+          "slug": "mini-hexchess",
+          "title": "Mini Hexchess",
+          "players": "2",
+          "board": "37 hexes (7 files a–g)",
+          "win": "Checkmate",
+          "special": "37-hex board, 7 files, no Queen piece. All 7 opponent-side hexes are promotion squares. Promotes to R/B/N only. Invented Dave McCooey, 1997."
+        },
+        {
+          "slug": "minichess",
+          "title": "Minichess",
+          "players": "2",
+          "board": "5×5",
+          "win": "Checkmate",
+          "special": "Gardner's 5x5 board. All piece types, fast tactical games."
+        },
+        {
+          "slug": "mobius-strip-chess",
+          "title": "Möbius Strip Chess",
+          "players": "2",
+          "board": "8×14 Möbius strip",
+          "win": "Checkmate",
+          "special": "Chess on a Möbius strip: an 8x14 board (double-height Cylindrical Chess) where files a and h wrap normally, and the rank-11/12 seam joins with a half-twist that mirrors file position. Each side has 16 pawns across two ranks, advancing from both ends of the strip toward the middle and toward the twisted seam. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound. Invented by Alberto Monteiro."
+        },
+        {
+          "slug": "monster-chess",
+          "title": "Monster Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "White moves twice per turn but starts with only King, Rooks, and pawns."
+        },
+        {
+          "slug": "no-castling",
+          "title": "No Castling Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Standard chess with castling removed. Kings must develop naturally."
+        },
+        {
+          "slug": "no-retreat",
+          "title": "No Retreat",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Pieces cannot move backward toward their own starting rank."
+        },
+        {
+          "slug": "oblong-chess",
+          "title": "Oblong Chess",
+          "players": "2",
+          "board": "4×16",
+          "win": "Checkmate (or bare King)",
+          "special": "Historical chess variant on a 4×16 board (four files, sixteen ranks). Approximately one thousand years old. A variant of Shatranj — the Arabic predecessor of modern chess — using the full Shatranj piece set. Seven different starting setups are documented. Often played with dice that determine which piece type may move each turn. The extreme rectangular board shifts piece values significantly: Rooks are very strong on the long 16-rank axis."
+        },
+        {
+          "slug": "omega-chess",
+          "title": "Omega Chess",
+          "players": "2",
+          "board": "10×10 + 4 corner squares",
+          "win": "Checkmate",
+          "special": "Commercial variant on a 10×10 board with 4 extra \"wizard squares\" beyond the corners (104 total squares). Adds Champion (WAD: leaps 2 ortho/diag or slides 1 ortho) and Wizard (FC: leaps (1,3)/(3,1) or slides 1 diag). Pawns may advance 1, 2, or 3 squares on first move."
+        },
+        {
+          "slug": "omnicide",
+          "title": "Omnicide",
+          "players": "2",
+          "board": "8×8",
+          "win": "Lose all pieces",
+          "special": "Lose all your pieces to win. Captures NOT forced (unlike Antichess)."
+        },
+        {
+          "slug": "orda-chess",
+          "title": "Orda Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Asymmetric: White plays standard. Black commands the Horde — divergent movers that move one way and capture another."
+        },
+        {
+          "slug": "orda-mirror",
+          "title": "Orda Mirror",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Both players command the Horde army from Orda Chess. Every piece moves as a Knight but captures as its FIDE counterpart. Designed by Corey Clark, 2020."
+        },
+        {
+          "slug": "ouk-chaktrang",
+          "title": "Ouk Chaktrang (Cambodian Chess)",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Cambodian chess. Koul leaps 1 or 2 squares diagonally; King may jump as a Knight on its first move. Pawns promote on rank 6. Codified by the Asian Chess Federation."
+        },
+        {
+          "slug": "patrol",
+          "title": "Patrol Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Pieces can only capture or give check when defended by a friendly piece."
+        },
+        {
+          "slug": "pawns-only",
+          "title": "Pawns Only",
+          "players": "2",
+          "board": "8×8",
+          "win": "Promote a pawn",
+          "special": "Kings and pawns only. First to promote wins instantly."
+        },
+        {
+          "slug": "peasants-revolt",
+          "title": "Peasants' Revolt",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "White has King + 8 pawns vs Black's King + 2 Knights + 8 pawns."
+        },
+        {
+          "slug": "petty",
+          "title": "Petty Chess",
+          "players": "2",
+          "board": "5×6",
+          "win": "Checkmate",
+          "special": "All piece types on a compact 5×6 board. Single copies of each."
+        },
+        {
+          "slug": "placement-chess",
+          "title": "Placement Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Players take turns placing their back-rank pieces before the game begins. Bishops must be on opposite-colored squares. Designed by David Bronstein; also published as a Chess Variant Pages format."
+        },
+        {
+          "slug": "pocket-knight",
+          "title": "Pocket Knight Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Each player holds one extra Knight in reserve (the \"pocket\"). Once per game, instead of making a normal move, a player may drop their pocket Knight onto any empty square."
+        },
+        {
+          "slug": "poison-chess",
+          "title": "Poison Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Capture squares become poisoned for 3 turns — non-king pieces landing there are destroyed."
+        },
+        {
+          "slug": "progressive",
+          "title": "Progressive",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Moves per turn escalate: 1, 2, 3, 4... Check ends your turn early."
+        },
+        {
+          "slug": "racing-kings",
+          "title": "Racing Kings",
+          "players": "2",
+          "board": "8×8",
+          "win": "King reaches 8th rank first",
+          "special": "No checks allowed. Both kings start on 1st rank. Race to the top."
+        },
+        {
+          "slug": "raumschach",
+          "title": "Raumschach",
+          "players": "2",
+          "board": "5×5×5 (3D)",
+          "win": "Checkmate",
+          "special": "Three-dimensional chess on five stacked 5×5 boards. Adds the Unicorn (triagonal slider). Pawns move forward or upward; capture diagonally. No castling, no en passant, no double push."
+        },
+        {
+          "slug": "recruitment-chess",
+          "title": "Recruitment Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Captured pieces defect to the captor and appear on the vacated square."
+        },
+        {
+          "slug": "rifle",
+          "title": "Rifle Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Capturing pieces stay on their square — they 'shoot' the target."
+        },
+        {
+          "slug": "rollerball",
+          "title": "Rollerball",
+          "players": "2",
+          "board": "40-square ring (7×7 minus 3×3 centre)",
+          "win": "Checkmate the King, OR King clockwise-reaches opponent's King starting square",
+          "special": "Chess variant on a 40-square ring board (7×7 grid with 3×3 centre removed). Two concentric rings: outer (24 squares) and inner (16 squares). Each side has only 6 pieces: King, Bishop, 2 Rooks, 2 Pawns. Pieces move clockwise-dominant (most cannot slide backward). Jean-Louis Cazaux, 1999, 40-squares contest."
+        },
+        {
+          "slug": "romanchenkos-chess",
+          "title": "Romanchenko's Chess",
+          "players": "2",
+          "board": "Modified 8×8 (broken columns)",
+          "win": "Checkmate",
+          "special": "Standard FIDE chess pieces and rules on a board with 'broken columns' — certain file columns are displaced or interrupted at specific ranks, breaking the standard 8×8 grid alignment and preventing rote pattern memorization. Designed by Soviet chess trainer V. Romanchenko as a pedagogical tool: players must reason from first principles rather than imitate memorized openings. Jocly implementation on chessvariants.com."
+        },
+        {
+          "slug": "s-chess",
+          "title": "S-Chess (Seirawan Chess)",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Two new compound pieces — Hawk and Elephant — enter the board via a gating mechanic when back-rank pieces leave their starting squares. Designed by Yasser Seirawan and Jonathan Tisdall, 2007."
+        },
+        {
+          "slug": "senterej",
+          "title": "Senterej",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Ethiopian Shatranj variant with a unique mobilization phase: before the first capture, both players move simultaneously without turns. Shatranj-style pieces (Fil leaps diagonally 2, Ferz moves 1 diagonal). No castling, no en passant."
+        },
+        {
+          "slug": "shafran",
+          "title": "Shafran's Hexagonal Chess",
+          "players": "2",
+          "board": "70 hexes (9 files a–i)",
+          "win": "Checkmate",
+          "special": "Smaller 70-hex board with 9 files. Castling permitted. Variable pawn initial step by file. Invented Boris Shafran."
+        },
+        {
+          "slug": "shako",
+          "title": "Shako",
+          "players": "2",
+          "board": "10×10",
+          "win": "Checkmate",
+          "special": "10×10 board adding the Cannon (slides to move, leaps over a platform to capture) and Elephant (leaps 2 diagonally). Designed by Jean-Louis Cazaux, 2000."
+        },
+        {
+          "slug": "shatar",
+          "title": "Shatar",
+          "players": "2",
+          "board": "8×8",
+          "win": "Bare king",
+          "special": "Mongolian chess. No check — win by leaving the opponent with only their King remaining."
+        },
+        {
+          "slug": "shatranj-kamil",
+          "title": "Shatranj Kamil",
+          "players": "2",
+          "board": "10×10",
+          "win": "Checkmate or stalemate",
+          "special": "‘Complete Chess’ — a historical Arabic chess variant (~1000 years old) on a 10×10 board. Adds two War Machines (Dabbabah) per side to the standard Shatranj set. War Machines move as Kings but are immune to check. Unique promotion rule: a Pawn can only promote when the player has no General on the board."
+        },
+        {
+          "slug": "shatranj",
+          "title": "Shatranj",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate, bare king, or stalemate",
+          "special": "Medieval Islamic chess. Bare king and stalemate are both wins. Ancestor of modern chess."
+        },
+        {
+          "slug": "shinobi",
+          "title": "Shinobi Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Asymmetric: FIDE Kingdom vs. Shinobi Clan. Shinobi starts with fewer pieces but gains new pieces by dropping clan members held in hand. Shinobi pieces promote on reaching the promotion zone. Designed by Corey Clark, 2021."
+        },
+        {
+          "slug": "shinobiplus",
+          "title": "Shinobi+",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or campmate (King/Kage reaches opponent's last rank)",
+          "special": "Rebalanced Shinobi Chess. The Clan (Pink) moves first, starts with most pieces in hand including a new Fox piece (Bishop+King hybrid). Kingdom Pawns promote on rank 6. Perpetual check is a loss. Designed by Couch Tomato, 2021."
+        },
+        {
+          "slug": "shogun",
+          "title": "Shogun Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Zone-triggered automatic promotion and Shogi-style drops from captured pieces. Designed by Corey Clark, 2020."
+        },
+        {
+          "slug": "single-check",
+          "title": "Single-Check",
+          "players": "2",
+          "board": "8×8",
+          "win": "Deliver check",
+          "special": "One check wins. No checkmate needed — any single check ends the game."
+        },
+        {
+          "slug": "sittuyin",
+          "title": "Sittuyin",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Burmese chess. Placement opening phase. Pawns promote on the diagonal. No castling or en passant."
+        },
+        {
+          "slug": "spartan",
+          "title": "Spartan Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Asymmetric: Persian (standard FIDE) vs. Spartan army with two Kings and unique pieces. Designed by Steven Streetman, 2010."
+        },
+        {
+          "slug": "spherical-chess",
+          "title": "Spherical Chess",
+          "players": "2",
+          "board": "8×8 (played on flat board, spherical topology)",
+          "win": "Checkmate",
+          "special": "Chess on a sphere — a surface with no edges and no corners, where ranks and files meet at poles. The standard 8×8 board is played with two wrapping rules: ranks wrap horizontally (left-right, as in Cylindrical Chess), and files meet at polar singularities where a piece crossing the pole continues four files away. Multiple documented versions from 1950–2014; this file documents the family and the most widely agreed rules. Bishops are colourbound. Knights have 8 possible moves from any position."
+        },
+        {
+          "slug": "stalemate-wins",
+          "title": "Stalemate Wins",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or stalemate",
+          "special": "Standard chess but stalemate is a win, not a draw."
+        },
+        {
+          "slug": "stupidhouse",
+          "title": "Stupidhouse",
+          "players": "4 (2 teams of 2)",
+          "board": "2× 8×8",
+          "win": "Checkmate either opposing King",
+          "special": "Bughouse chess variant where received pieces are placed on a randomly selected empty square rather than a player-chosen square. When a player captures a piece, it passes to their partner — but when the partner uses it, it lands on a random legal empty square instead of a chosen one. Removes strategic drop placement and replaces it with chaos."
+        },
+        {
+          "slug": "suicide-chess",
+          "title": "Suicide Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Lose all pieces",
+          "special": "Forced captures like Giveaway, but stalemate is a draw, not a loss."
+        },
+        {
+          "slug": "synochess",
+          "title": "Synochess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or Faceoff",
+          "special": "Asymmetric: Western (FIDE) vs. Eastern dynasty (Xiangqi-derived pieces, Cannon, Chariot, Soldier drops). Faceoff rule ends the game if royal pieces face each other unobstructed. Designed by Corey Clark, 2020."
+        },
+        {
+          "slug": "tamerlane",
+          "title": "Tamerlane Chess",
+          "players": "2",
+          "board": "11×10 + 2 citadels",
+          "win": "Checkmate (or bare king with citadel draw)",
+          "special": "Medieval 14th-century chess of Timur. 28 pieces per side, 12 piece types, three-stage promoting pawn, citadel draw rule."
+        },
+        {
+          "slug": "tandem-chess",
+          "title": "Tandem Chess",
+          "players": "4 (2 teams of 2)",
+          "board": "8×8 (two boards)",
+          "win": "Checkmate either opposing King across both boards",
+          "special": "Team chess variant for 2×2 players on two simultaneous boards. Captured pieces are passed to the partner for dropping on the partner's board. Also known as Siamese Chess. Key differences from Bughouse: (1) no check or checkmate by drop; (2) match continues until both games complete. Invented ~1960s."
+        },
+        {
+          "slug": "teleport-chess",
+          "title": "Teleportation Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Each side has 3 teleports per game — move any piece to any empty square."
+        },
+        {
+          "slug": "three-check",
+          "title": "Three-Check",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate or deliver 3 checks",
+          "special": "First to check the opponent three times wins."
+        },
+        {
+          "slug": "toroidal-byzantine",
+          "title": "Toroidal Byzantine Chess",
+          "players": "2",
+          "board": "4-ring torus (4×16 circular board with radial wrap)",
+          "win": "Checkmate",
+          "special": "Byzantine Chess (historical Shatranj on a 4×16 circular board) combined with toroidal topology: the innermost ring connects to the outermost ring radially, in addition to the standard circular wrap along each ring. A piece sliding inward past ring 4 emerges from ring 1; a piece sliding outward past ring 1 emerges from ring 4. Invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001."
+        },
+        {
+          "slug": "toroidal-chess",
+          "title": "Gadsden's Toroidal Chess",
+          "players": "2",
+          "board": "8×8 torus",
+          "win": "Checkmate",
+          "special": "Chess on a torus — all four edges wrap. Moving off the right edge (h-file) reappears on the left (a-file); moving off rank 8 reappears on rank 1. Every square has exactly 8 neighbours; there are no edge squares and no corner squares. Uses a three-rank starting position per side with an extra set of pawns (32 pawns total). Invented around 1990 by Richard Gadsden and Phil Roberts as a variant of Cylindrical Chess."
+        },
+        {
+          "slug": "torpedo",
+          "title": "Torpedo Chess",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Pawns can move two squares forward from any rank, not just the starting rank."
+        },
+        {
+          "slug": "turkish-great-chess-ii",
+          "title": "Turkish Great Chess II (Atranj)",
+          "players": "2",
+          "board": "10×10",
+          "win": "Checkmate",
+          "special": "Historical large chess variant known as Atranj or Qatranj, described by H. J. R. Murray in A History of Chess. Played on a 10×10 board with an expanded piece set including the Prince (moves as Rook, Bishop, or Knight), Kotwal (Bishop or Knight), and Urdabegini (moves one square toward the opposing King). Despite its Turkish classification in Murray's work, the source manuscript is Indian. No castling."
+        },
+        {
+          "slug": "turkish-great-chess-iii",
+          "title": "Turkish Great Chess III",
+          "players": "2",
+          "board": "12×12",
+          "win": "Checkmate",
+          "special": "Historical large chess variant played on a 12×12 board. One of four Ottoman/Indian large chess variants catalogued by John Gollon from H. J. R. Murray's A History of Chess. Expands the standard chess piece set with multiple piece types that move as Bishop (Fil, Dahja) and adds the Chariot (Ratha, moves as Rook) alongside two Rooks. The Wazir moves as a full Queen. No castling; no Pawn double step."
+        },
+        {
+          "slug": "turkish-great-chess-iv",
+          "title": "Turkish Great Chess IV",
+          "players": "2",
+          "board": "14×14",
+          "win": "Checkmate",
+          "special": "Historical large chess variant played on a 14×14 board. Despite its Turkish classification, it includes Indian and Persian piece names (Raja, Rani, Shahzadeh) suggesting a mixed cultural origin. The Rani (Queen) is weak — moving only one square in any direction — and uniquely may be placed or left en prise without penalty. No castling; no Pawn double step."
+        },
+        {
+          "slug": "ultima",
+          "title": "Ultima (Baroque Chess)",
+          "players": "2",
+          "board": "8×8",
+          "win": "Capture opponent King",
+          "special": "All seven piece types use entirely different capture mechanics. No check: win by physically capturing the opponent's King. Designed by Robert Abbott, 1962."
+        },
+        {
+          "slug": "upside-down",
+          "title": "Upside-Down",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Pieces start on the opponent's back rank. Instant tactical chaos."
+        },
+        {
+          "slug": "vierschach",
+          "title": "Vierschach",
+          "players": "4",
+          "board": "cross-shaped, 160 squares (8×8 centre + four 3×8 extensions)",
+          "win": "Checkmate the last surviving enemy King",
+          "special": "Traditional German 4-player chess invented by Dr. G. Arthur Lutze (1813–1870). Cross-shaped 160-square board. Two teams of two, allied armies placed side by side. Standard FIDE movement. First enemy King may be captured normally; second enemy King must be checkmated."
+        },
+        {
+          "slug": "weak",
+          "title": "Weak!",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Weakest piece type with a legal move must move first."
+        },
+        {
+          "slug": "xiang-fu",
+          "title": "Xiang Fu",
+          "players": "2",
+          "board": "9×9",
+          "win": "Duple Checkmate, or capture one Champion then checkmate the remaining one",
+          "special": "Xiangqi/chess hybrid by Eventlesstew for the PyChess Variant Design Contest. 9×9 board, dual Champions (royal), Crossbow (diagonal Cannon), piece drops within first two ranks, captures go to hand."
+        },
+        {
+          "slug": "yalta-chess",
+          "title": "Yalta Chess",
+          "players": 3,
+          "board": "Hexagonal Y-trisection",
+          "win": "Be the last player with a King remaining",
+          "special": "3-player chess on a hexagonal board divided into three Y-shaped sectors, one per player (Red, Green, Blue), meeting at a central junction. Checkmating a player captures their army. Alliances encouraged."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/moddable-chess/rulebook.md",
+        "meta": "/api/rules/moddable-chess/meta.json",
+        "variants": "/api/rules/moddable-chess/variants/"
+      }
+    },
+    {
+      "slug": "morris",
+      "title": "Nine Men's Morris",
+      "players": "2",
+      "duration": "15–45 min",
+      "age": "7+",
+      "tagline": "The ancient mill game, played on stone, cloth, and wood across five continents",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-15",
+      "version": "0.1.1",
+      "mechanics": [
+        "placement",
+        "line-formation",
+        "capture",
+        "blocking"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Form three-in-a-row lines (mills) to capture opponent pieces. Place all pieces during the opening phase, then move them to form mills. Reduce your opponent to two pieces or block all their moves to win.",
+      "related": [
+        "go",
+        "reversi",
+        "agon"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "three-mens-morris",
+          "title": "Three Men's Morris",
+          "players": "2",
+          "board": "3×3 grid (9 intersections)",
+          "win": "Form a three-in-a-row with all three of your pieces",
+          "special": "No movement phase; pieces jump to any empty square. Smallest member of the Mill family."
+        },
+        {
+          "slug": "six-mens-morris",
+          "title": "Six Men's Morris",
+          "players": "2",
+          "board": "Two concentric squares (16 intersections)",
+          "win": "Reduce opponent to 2 pieces or block all their moves",
+          "special": "Two concentric squares with connecting lines. The medieval European standard form before Nine Men's Morris predominated."
+        },
+        {
+          "slug": "nine-mens-morris",
+          "title": "Nine Men's Morris",
+          "players": "2",
+          "board": "Three concentric squares (24 intersections)",
+          "win": "Reduce opponent to 2 pieces or block all their moves",
+          "special": "Three concentric squares joined at midpoints. Flying allowed when reduced to 3 pieces."
+        },
+        {
+          "slug": "twelve-mens-morris",
+          "title": "Twelve Men's Morris",
+          "players": "2",
+          "board": "Three concentric squares with diagonals (24 intersections)",
+          "win": "Reduce opponent to 2 pieces or block all their moves",
+          "special": "Identical board to Nine Men's Morris but with corner diagonal connections. 12 pieces per side. No flying rule."
+        },
+        {
+          "slug": "lasker-morris",
+          "title": "Lasker Morris",
+          "players": "2",
+          "board": "Three concentric squares (24 intersections)",
+          "win": "Reduce opponent to 2 pieces or block all their moves",
+          "special": "Each turn: either place a new piece OR move an existing piece. No sequential placement phase."
+        },
+        {
+          "slug": "morabaraba",
+          "title": "Morabaraba",
+          "players": "2",
+          "board": "Three concentric squares (24 intersections)",
+          "win": "Reduce opponent to 2 cows or block all their moves",
+          "special": "South African national game. Cows instead of men. Special rules for the three-cow endgame."
+        },
+        {
+          "slug": "shax",
+          "title": "Shax",
+          "players": "2",
+          "board": "Three concentric squares (24 intersections)",
+          "win": "Reduce opponent to 2 pieces or block all their moves",
+          "special": "Somali variant: during placement, mills do not remove opponent pieces — instead, pieces are captured only during the movement phase."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/morris/rulebook.md",
+        "meta": "/api/rules/morris/meta.json",
+        "variants": "/api/rules/morris/variants/"
+      }
+    },
+    {
+      "slug": "nukes",
+      "title": "Nukes: Official Rulebook",
+      "players": "2–3",
+      "duration": "45+ min",
+      "age": "12+",
+      "tagline": "Cold-war territory control on a hex map with nuclear brinkmanship",
+      "type": "game",
+      "status": "live",
+      "updated": "2026-06-27",
+      "version": "0.9.8",
+      "mechanics": [
+        "territory",
+        "hostage-economy",
+        "fluid-units",
+        "nuclear-strikes",
+        "hex-grid"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Command armies across hex terrain, managing platoons that change type based on unit count. Return hostages to earn moves, but every return strengthens your opponent. Build bases to convert units into isotopes for nuclear strikes. Win by destroying or occupying an opponent's city.",
+      "related": [
+        "harvesters",
+        "hyper-imperium",
+        "endless-skies"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "siege",
+          "title": "Nukes: Siege",
+          "players": "2",
+          "board": null,
+          "win": null,
+          "special": "Hostage mechanic replaced with own-supply recruiting. Enemy hostages only arrive through combat."
+        },
+        {
+          "slug": "standard",
+          "title": "Nukes: Standard",
+          "players": "2–3",
+          "board": null,
+          "win": null,
+          "special": "Standard 3-ring hex map with seeded terrain generation. 2-player default."
+        },
+        {
+          "slug": "asymmetric-powers",
+          "title": "Nukes: Asymmetric Powers",
+          "players": "2–3",
+          "board": null,
+          "win": null,
+          "special": "Each player draws one Power Card at setup. No two players hold the same card."
+        },
+        {
+          "slug": "fallout",
+          "title": "Nukes: Fallout",
+          "players": "2–3",
+          "board": null,
+          "win": null,
+          "special": "Biohazard tiles spread one tile per round. City tiles are immune. The board shrinks over time."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "How to Play in 5 Minutes",
+        "Components",
+        "Setting Up the Board",
+        "Victory Conditions",
+        "Turn Structure",
+        "Units & Platoons",
+        "Combat",
+        "Biomes",
+        "Variants"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/nukes/rulebook.md",
+        "meta": "/api/rules/nukes/meta.json",
+        "variants": "/api/rules/nukes/variants/"
+      }
+    },
+    {
+      "slug": "nyout",
+      "title": "Nyout (유놓이 / Yut Nori)",
+      "players": "2–4",
+      "duration": "20–40 min",
+      "age": "6+",
+      "tagline": "Korean stick-throwing race across a circular track",
+      "type": "standalone",
+      "status": "live",
+      "updated": "2026-07-06",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice-throwing",
+        "race",
+        "capture",
+        "stacking",
+        "shortcuts"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Throw four sticks to generate movement values. Race tokens around a circular track with shortcut branches. Capture opponent tokens to send them back to start. Stack tokens for combined movement but risk losing multiple at once. First team to move all tokens home wins.",
+      "related": [
+        "pachisi",
+        "royal-ur",
+        "backgammon"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Nyout (Standard)",
+          "players": "2",
+          "board": "perimeter cross",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Nyout (Yut Nori / 유놓이)"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/nyout/rulebook.md",
+        "meta": "/api/rules/nyout/meta.json",
+        "variants": "/api/rules/nyout/variants/"
+      }
+    },
+    {
+      "slug": "pachisi",
+      "title": "Pachisi",
+      "players": "2–4",
+      "duration": "30–90 min",
+      "age": "8+",
+      "tagline": "The ancient Indian race game behind Ludo, Sorry!, and Trouble",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-18",
+      "version": "0.1.0",
+      "mechanics": [
+        "race",
+        "dice-throwing",
+        "capture",
+        "safe-spaces",
+        "cross-and-circle"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Race four pieces around a cross-shaped board from your home to the opposite side. Throw cowrie shells for movement, land on castle squares for safety, and capture opponent pieces to send them home. Direct ancestor of Ludo, Sorry!, and Trouble.",
+      "related": [
+        "nyout",
+        "chaupar",
+        "backgammon"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Pachisi (Standard)",
+          "players": "4",
+          "board": "Cross-shaped cloth board",
+          "win": "Move all four pieces from the Charkoni, around the board, and back home first",
+          "special": "Cowrie shell randomisation. Grace rolls on 0, 1, or 6 mouths up."
+        },
+        {
+          "slug": "two-player",
+          "title": "2-Player Pachisi",
+          "players": "2",
+          "board": "Cross-shaped cloth board",
+          "win": "Move all eight pieces (two colours) home before your opponent",
+          "special": "Each player controls two opposite arms. Rules otherwise identical to standard."
+        },
+        {
+          "slug": "seven-shell",
+          "title": "Seven-Shell Pachisi",
+          "players": "2–4",
+          "board": "Cross-shaped cloth board",
+          "win": "Move all pieces home before your opponents",
+          "special": "Uses seven cowrie shells with named throw values. Higher potential scores than the standard six-shell form."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/pachisi/rulebook.md",
+        "meta": "/api/rules/pachisi/meta.json",
+        "variants": "/api/rules/pachisi/variants/"
+      }
+    },
+    {
+      "slug": "pathfinder-1e",
+      "title": "Pathfinder 1st Edition (PFSRD)",
+      "players": "2–7",
+      "duration": "varies",
+      "age": "13+",
+      "tagline": "Paizo's fork of D&D 3.5, the most complete open ruleset in existence",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.0",
+      "mechanics": [
+        "character-building",
+        "dice-rolling",
+        "class-system",
+        "skill-checks",
+        "combat"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Create characters from 11 classes and 7 races. Roll d20 + modifiers for skill checks, attacks, and saves. Build characters through feats, spells, and equipment. The most complete open ruleset in existence, evolved from D&D 3.5.",
+      "related": [
+        "dnd-5e",
+        "dungeon-world",
+        "cairn"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "additional-rules",
+          "title": "Additional Rules"
+        },
+        {
+          "section": "rules",
+          "slug": "barbarian",
+          "title": "Barbarian"
+        },
+        {
+          "section": "rules",
+          "slug": "bard",
+          "title": "Bard"
+        },
+        {
+          "section": "rules",
+          "slug": "bestiary",
+          "title": "Bestiary"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "classes",
+          "title": "Classes"
+        },
+        {
+          "section": "rules",
+          "slug": "cleric",
+          "title": "Cleric"
+        },
+        {
+          "section": "rules",
+          "slug": "combat-actions",
+          "title": "Actions in Combat"
+        },
+        {
+          "section": "rules",
+          "slug": "combat-maneuvers",
+          "title": "Special Attacks & Maneuvers"
+        },
+        {
+          "section": "rules",
+          "slug": "combat",
+          "title": "Combat"
+        },
+        {
+          "section": "rules",
+          "slug": "druid",
+          "title": "Druid"
+        },
+        {
+          "section": "rules",
+          "slug": "environment-dungeons",
+          "title": "Dungeons & Traps"
+        },
+        {
+          "section": "rules",
+          "slug": "environment-weather-planes",
+          "title": "Weather, Planes & Environmental Rules"
+        },
+        {
+          "section": "rules",
+          "slug": "environment-wilderness",
+          "title": "Wilderness & Urban Adventures"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment-armor",
+          "title": "Armor"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment-goods-1",
+          "title": "Adventuring Gear, Substances & Tools"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment-goods-2",
+          "title": "Clothing, Mounts & Services"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment-wealth-materials",
+          "title": "Wealth, Money & Special Materials"
+        },
+        {
+          "section": "rules",
+          "slug": "equipment-weapons",
+          "title": "Weapons"
+        },
+        {
+          "section": "rules",
+          "slug": "feats-combat",
+          "title": "Combat Feats"
+        },
+        {
+          "section": "rules",
+          "slug": "feats-general",
+          "title": "General Feats"
+        },
+        {
+          "section": "rules",
+          "slug": "feats-other",
+          "title": "Metamagic, Critical, and Item Creation Feats"
+        },
+        {
+          "section": "rules",
+          "slug": "fighter",
+          "title": "Fighter"
+        },
+        {
+          "section": "rules",
+          "slug": "gamemastering",
+          "title": "Gamemastering"
+        },
+        {
+          "section": "rules",
+          "slug": "getting-started",
+          "title": "Getting Started"
+        },
+        {
+          "section": "rules",
+          "slug": "glossary-conditions",
+          "title": "Conditions"
+        },
+        {
+          "section": "rules",
+          "slug": "glossary-special-abilities",
+          "title": "Special Abilities"
+        },
+        {
+          "section": "rules",
+          "slug": "magic-spell-statistics",
+          "title": "Spell Statistics"
+        },
+        {
+          "section": "rules",
+          "slug": "magic",
+          "title": "Magic"
+        },
+        {
+          "section": "rules",
+          "slug": "monk",
+          "title": "Monk"
+        },
+        {
+          "section": "rules",
+          "slug": "paladin",
+          "title": "Paladin"
+        },
+        {
+          "section": "rules",
+          "slug": "races",
+          "title": "Races"
+        },
+        {
+          "section": "rules",
+          "slug": "ranger",
+          "title": "Ranger"
+        },
+        {
+          "section": "rules",
+          "slug": "rogue",
+          "title": "Rogue"
+        },
+        {
+          "section": "rules",
+          "slug": "skills-2",
+          "title": "Skills (Knowledge–Use Magic Device)"
+        },
+        {
+          "section": "rules",
+          "slug": "skills",
+          "title": "Skills"
+        },
+        {
+          "section": "rules",
+          "slug": "sorcerer",
+          "title": "Sorcerer"
+        },
+        {
+          "section": "rules",
+          "slug": "spells",
+          "title": "Spells"
+        },
+        {
+          "section": "rules",
+          "slug": "wizard",
+          "title": "Wizard"
+        }
+      ],
+      "data": [
+        "ability-scores",
+        "classes",
+        "conditions",
+        "equipment",
+        "feats",
+        "monsters",
+        "races",
+        "skills",
+        "spells"
+      ],
+      "oracleCount": 0,
+      "sections": [
+        "Pathfinder 1st Edition"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/pathfinder-1e/rulebook.md",
+        "meta": "/api/rules/pathfinder-1e/meta.json",
+        "pages": "/api/rules/pathfinder-1e/pages/",
+        "data": "/api/rules/pathfinder-1e/data/"
+      }
+    },
+    {
+      "slug": "reversi",
+      "title": "Reversi",
+      "players": "2",
+      "duration": "10–30 min",
+      "age": "7+",
+      "tagline": "Flip your opponent's discs to claim the board",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-19",
+      "version": "0.1.0",
+      "mechanics": [
+        "placement",
+        "flipping",
+        "territory",
+        "blocking"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Place discs to flank and flip opponent pieces. Valid moves must flip at least one enemy disc by trapping it between your new disc and an existing one. The player with the most discs when no legal moves remain wins.",
+      "related": [
+        "go",
+        "agon",
+        "morris"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Standard Reversi",
+          "players": "2",
+          "board": "8×8",
+          "win": "Most discs on the board when no moves remain",
+          "special": "The original 8×8 game as played in international competition since 1977."
+        },
+        {
+          "slug": "six-by-six",
+          "title": "Six-by-Six Reversi",
+          "players": "2",
+          "board": "6×6",
+          "win": "Most discs on the board when no moves remain",
+          "special": "Smaller board for shorter games or competitive solving. Identical rules to standard Reversi."
+        },
+        {
+          "slug": "anti-reversi",
+          "title": "Anti-Reversi",
+          "players": "2",
+          "board": "8×8",
+          "win": "Fewest discs on the board when no moves remain",
+          "special": "Misère variant. Win condition inverted — giving up discs is the goal. Draw is possible."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Reversi"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/reversi/rulebook.md",
+        "meta": "/api/rules/reversi/meta.json",
+        "variants": "/api/rules/reversi/variants/"
+      }
+    },
+    {
+      "slug": "royal-ur",
+      "title": "Royal Game of Ur",
+      "players": "2",
+      "duration": "10–20 min",
+      "age": "6+",
+      "tagline": "The oldest known board game: reconstructed from 4,500-year-old clay tablets",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-15",
+      "version": "0.1.1",
+      "mechanics": [
+        "race",
+        "dice-rolling",
+        "capture",
+        "safe-spaces",
+        "bearing-off"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll four tetrahedral dice to move pieces along an L-shaped track. Rosette squares grant extra rolls and safety from capture. Landing on opponent pieces sends them back to start. Bear off all seven pieces to win. Rules reconstructed from 4,500-year-old clay tablets.",
+      "related": [
+        "pachisi",
+        "backgammon",
+        "nyout"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Royal Game of Ur (Standard)",
+          "players": "2",
+          "board": "3×8 with voids",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "History",
+        "The Board",
+        "Equipment",
+        "Setup",
+        "Movement",
+        "Bearing Off",
+        "Winning",
+        "Historical Variants and Scholarly Notes",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/royal-ur/rulebook.md",
+        "meta": "/api/rules/royal-ur/meta.json",
+        "variants": "/api/rules/royal-ur/variants/"
+      }
+    },
+    {
+      "slug": "senet",
+      "title": "Senet",
+      "players": "2",
+      "duration": "15–30 min",
+      "age": "8+",
+      "tagline": "Ancient Egyptian race game (c. 3500 BCE), reconstructed from archaeological evidence",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.0",
+      "mechanics": [
+        "race",
+        "dice-throwing",
+        "capture",
+        "safe-spaces",
+        "bearing-off"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Race five pieces along a 30-square winding path. Throw four sticks for movement. Capture opponent pieces by swapping positions. Special squares grant protection, send pieces backward, or require exact throws to bear off. Blockades of three or more pieces cannot be passed.",
+      "related": [
+        "royal-ur",
+        "pachisi",
+        "backgammon"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Senet (Kendall Reconstruction)",
+          "players": "2",
+          "board": "3×10",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Senet"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/senet/rulebook.md",
+        "meta": "/api/rules/senet/meta.json",
+        "variants": "/api/rules/senet/variants/"
+      }
+    },
+    {
+      "slug": "shogi",
+      "title": "Shogi",
+      "players": "2",
+      "duration": "30–120 min",
+      "age": "8+",
+      "tagline": "Japan's classic strategy game where captured pieces change sides",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-07-08",
+      "version": "1.2.0",
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "drops",
+        "promotion",
+        "checkmate"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Capture the opponent's King. Unique feature: captured pieces change allegiance and may be dropped back onto the board on any later turn. Most pieces promote upon reaching the opponent's territory, gaining new movement abilities.",
+      "related": [
+        "xiangqi",
+        "moddable-chess",
+        "go"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Standard Shogi",
+          "players": "2",
+          "board": "9×9",
+          "win": "Checkmate the opponent's King",
+          "special": "Captured pieces become your own and can be dropped back onto the board"
+        },
+        {
+          "slug": "sho-shogi",
+          "title": "Sho Shogi",
+          "players": "2",
+          "board": "9×9",
+          "win": "Checkmate, or capture both royal pieces if Crown Prince promoted",
+          "special": "16th-century predecessor to modern Shogi. Adds the Drunken Elephant, which promotes to the Crown Prince — a second royal piece. No drop rule."
+        },
+        {
+          "slug": "dobutsu",
+          "title": "Dobutsu Shogi",
+          "players": "2",
+          "board": "3×4",
+          "win": "Capture the enemy Lion, or move your Lion to the opponent's back rank without it being in immediate danger",
+          "special": "Animal-themed introductory Shogi on a 3×4 board, designed for young children. Invented by professional Shogi player Madoka Kitao. All pieces show their moves printed on the piece face. A solved game."
+        },
+        {
+          "slug": "gorogoro-plus",
+          "title": "Gorogoro+",
+          "players": "2",
+          "board": "5×6",
+          "win": "Checkmate",
+          "special": "Shogi on a 5×6 board with no Bishop or Rook. Each player starts with a Knight and Lance in hand. Promotion in the last two ranks only."
+        },
+        {
+          "slug": "tori-shogi",
+          "title": "Tori Shogi",
+          "players": "2",
+          "board": "7×7",
+          "win": "Checkmate the Phoenix",
+          "special": "Bird Shogi, invented 1799. 7×7 board, bird-themed pieces, drop rules. Only two pieces promote. Repetition caused by your own moves is a loss. One of the oldest Shogi variants with the drop rule."
+        },
+        {
+          "slug": "cannon-shogi",
+          "title": "Cannon Shogi",
+          "players": "2",
+          "board": "9×9",
+          "win": "Checkmate",
+          "special": "Shogi plus four Cannon types drawn from Xiangqi and Janggi, each with unique movement and capture rules. Pawns replaced with Janggi-style Soldiers. Invented by Peter Michaelsen, 1998."
+        },
+        {
+          "slug": "annan-shogi",
+          "title": "Annan Shogi",
+          "players": 2,
+          "board": "9×9",
+          "win": "Checkmate the opponent's King",
+          "special": "Each piece borrows the movement of the friendly piece directly behind it. A Pawn backed by a Rook moves like a Rook."
+        },
+        {
+          "slug": "chu-shogi",
+          "title": "Chu Shogi",
+          "players": "2",
+          "board": "12×12",
+          "win": "Capture all opponent royal pieces (King and any Prince)",
+          "special": "Historical Japanese chess, dominant for centuries before modern Shogi. 46 pieces of 21 types per side on a 12×12 board. No drops. Features the powerful Lion (double-move, can capture twice) with special trading restrictions. Optional promotion to predetermined promoted forms in the far 4 ranks."
+        },
+        {
+          "slug": "dai-shogi",
+          "title": "Dai Shogi",
+          "players": "2",
+          "board": "15×15",
+          "win": "Capture all opponent royal pieces",
+          "special": "Historical Japanese 15×15 large Shogi variant; precursor to Chu Shogi. 65 pieces per side including Lion (double-mover), Kirin, Phoenix, and Drunk Elephant (promotes to Crown Prince, a second royal). No drops. Extinction royalty: player loses only when their last royal is captured."
+        },
+        {
+          "slug": "four-player-shogi",
+          "title": "Four Player Shogi",
+          "players": "4",
+          "board": "cross-shaped, 189 squares (9×9 centre + four 3×9 wings)",
+          "win": "Checkmate both enemy Kings (team); or capture all other Kings (individual)",
+          "special": "4-player Shogi on a cross-shaped board. Each player commands a standard Shogi army in one 3×9 wing. East and West players swap their Rook and Bishop starting positions. Drops apply with team restrictions. Three game styles: Team-Orthogonal, Team-Diagonal, and Individual. Michael Shipley, 1999."
+        },
+        {
+          "slug": "hasami-shogi",
+          "title": "Hasami Shogi",
+          "players": "2",
+          "board": "9×9",
+          "win": "Reduce opponent to one remaining piece",
+          "special": "Custodial sandwich capture. No drops, no promotion. All pieces are identical."
+        },
+        {
+          "slug": "heian-shogi",
+          "title": "Heian Shogi",
+          "players": "2",
+          "board": "9×8",
+          "win": "Checkmate or bare the opponent's King",
+          "special": "The earliest reconstructed form of Japanese chess (~8th–9th century). 9×8 board, 18 pieces per side. No Rooks, no Bishops, no drops. All pieces promote to Gold General in the far 3 ranks. Win by checkmate or by baring the opponent's King."
+        },
+        {
+          "slug": "hex-shogi-91",
+          "title": "Hex Shogi 91",
+          "players": "2",
+          "board": "91-cell hexagonal",
+          "win": "Checkmate the King",
+          "special": "2-player Shogi variant on a 91-hexagon board (same shape as Glinski's Hexagonal Chess, differently oriented). All Shogi pieces adapted to hexagonal movement. Drops apply with hex-specific Pawn rules: no two-Pawn-per-file restriction (left out); Pawn drop may not check the King (stricter than Shogi). Promotion zone is 4 ranks. Fergus Duniho."
+        },
+        {
+          "slug": "judkins-shogi",
+          "title": "Judkins' Shogi",
+          "players": "2",
+          "board": "6×6",
+          "win": "Checkmate",
+          "special": "Modern miniature Shogi on a 6×6 board. 7 pieces per side. Includes drops. Promotion zone is the last 2 ranks. Rook promotes to Dragon, Bishop to Horse, Knight/Silver/Pawn promote to Gold."
+        },
+        {
+          "slug": "kyoto-shogi",
+          "title": "Kyoto Shogi",
+          "players": "2",
+          "board": "5×5",
+          "win": "Checkmate the opponent's King",
+          "special": "Every piece except the King flips to its alternate face after each move"
+        },
+        {
+          "slug": "maka-dai-dai-shogi",
+          "title": "Maka-Dai-Dai Shogi",
+          "players": "2",
+          "board": "19×19",
+          "win": "Capture the last royal piece",
+          "special": "19×19 historical Japanese Shogi variant meaning 'Great Dai-Dai Chess.' One of the largest chess-family games in recorded history. 96 pieces of 50 types per side (192 pieces total). No drops; captures remove permanently. Features Lion-power pieces, Hook Movers, the Emperor (universal leaper), and contagious promotion through the Teaching King and Buddhist Spirit. Promotion triggers on any capture. Historical; source: H. G. Muller (chessvariants.com)."
+        },
+        {
+          "slug": "minishogi",
+          "title": "Minishogi",
+          "players": "2",
+          "board": "5×5",
+          "win": "Checkmate the opponent's King",
+          "special": "Standard Shogi on a 5×5 board. Single-rank promotion zone. No Knights or Lances."
+        },
+        {
+          "slug": "mortal-shogi",
+          "title": "Mortal Shogi",
+          "players": "2",
+          "board": "9×9",
+          "win": "Checkmate the King",
+          "special": "Modern 9×9 Shogi variant by Roberto Lavieri and Fergus Duniho. Captured pieces demote one step in a fixed ranking chain (Dragon King → Dragon Horse → Rook → Bishop → Gold General → Silver General → Lance → Knight → removed) rather than returning to their original form. Promotes of sub-Gold pieces are flexible: any higher piece up to Gold General."
+        },
+        {
+          "slug": "sankaku-shogi",
+          "title": "Sankaku Shogi",
+          "players": "2",
+          "board": "44-cell triangular",
+          "win": "Capture the opponent's Emperor",
+          "special": "Modern Shogi variant on a 44-cell triangular board. 13 pieces per side: Emperor (leaps to any cell), Chariot (slides orthogonally, runs down Soldiers), Cavalry (leaps to second orthogonal), General (steps to any adjacent cell), and Soldiers. Captured pieces are removed permanently. Soldiers and Cavalry promote to General upon any capture."
+        },
+        {
+          "slug": "tai-shogi",
+          "title": "Tai Shogi",
+          "players": "2",
+          "board": "25×25",
+          "win": "Capture the King (and Crown Prince if present)",
+          "special": "25×25 historical Japanese Shogi variant. Name means 'Grand Chess.' Approximately 177 piece types per side (354 pieces total) — the largest documented chess variant with complete, verified piece movements for every piece. No drops; captured pieces removed from play. Intermediate in scale between Maka-Dai-Dai Shogi (19×19) and Taikyoku Shogi (36×36). Documented in historical Japanese manuscripts."
+        },
+        {
+          "slug": "taikyoku-shogi",
+          "title": "Taikyoku Shogi",
+          "players": "2",
+          "board": "36×36",
+          "win": "Capture the King and Crown Prince",
+          "special": "36×36 historical Japanese Shogi variant meaning 'Ultimate Chess.' The largest chess variant ever documented. 402 pieces per side (804 total on 1,296 squares). Whether it was ever played to completion is disputed — a single game is estimated to require 10,000+ moves. Documented in a single known Japanese manuscript. L. Lynn Smith transcription; source: chessvariants.com."
+        },
+        {
+          "slug": "tenjiku-shogi",
+          "title": "Tenjiku Shogi",
+          "players": "2",
+          "board": "16×16",
+          "win": "Capture all opponent royal pieces",
+          "special": "Medieval Japanese 16×16 Shogi variant derived from Chu Shogi. Introduces Fire Demons (burn all adjacent enemies after moving; passively burn enemies that move adjacent to them), hierarchical jumping generals, and Lion Hawk / Free Eagle double-movers. No drops. Extinction royalty."
+        },
+        {
+          "slug": "wa-shogi",
+          "title": "Wa Shogi",
+          "players": "2",
+          "board": "11×11",
+          "win": "Capture the opponent's Crane King",
+          "special": "Played on an 11×11 board with 23 pieces of 14 different types per side. All non-Pawn pieces are unique. Played historically without drops; modern play often adds drops. Promotion zone is the last 3 ranks; each piece has a fixed promoted form."
+        },
+        {
+          "slug": "yari-shogi",
+          "title": "Yari Shogi",
+          "players": "2",
+          "board": "9×7",
+          "win": "Checkmate",
+          "special": "Invented by Christian Freeling, 1981. ‘Yari’ means lance. All unpromoted pieces except Pawns include a forward-Lance movement. Extreme forward orientation. Includes drops; unlike standard Shogi, Pawns may drop to give checkmate."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/shogi/rulebook.md",
+        "meta": "/api/rules/shogi/meta.json",
+        "variants": "/api/rules/shogi/variants/"
+      }
+    },
+    {
+      "slug": "standard-52",
+      "title": "Standard 52-Card Deck",
+      "players": "1–8",
+      "duration": "10–120 min",
+      "age": "6+",
+      "tagline": "Every game a standard deck of cards can play",
+      "type": "component",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.2.1",
+      "mechanics": [
+        "trick-taking",
+        "melding",
+        "shedding",
+        "betting",
+        "hand-management"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "A standard French-suited deck supports 18 games spanning climbing, trick-taking, draw-and-discard, poker, pegging, banking, and solitaire families. Four suits (Spades, Hearts, Diamonds, Clubs), thirteen ranks per suit.",
+      "related": [
+        "flower-48",
+        "mahjong",
+        "standard-dice"
+      ],
+      "hub_type": "component",
+      "variants": [],
+      "games": [
+        {
+          "slug": "big2",
+          "title": "Big 2",
+          "players": "4"
+        },
+        {
+          "slug": "blackjack",
+          "title": "Blackjack (Twenty-One)",
+          "players": "2-7"
+        },
+        {
+          "slug": "bridge",
+          "title": "Rubber Bridge",
+          "players": "4"
+        },
+        {
+          "slug": "canasta",
+          "title": "Canasta (Classic)",
+          "players": "4"
+        },
+        {
+          "slug": "crazy-eights",
+          "title": "Crazy Eights",
+          "players": "2–5"
+        },
+        {
+          "slug": "cribbage",
+          "title": "Cribbage",
+          "players": "2"
+        },
+        {
+          "slug": "euchre",
+          "title": "Euchre",
+          "players": "4"
+        },
+        {
+          "slug": "freecell",
+          "title": "FreeCell",
+          "players": "1"
+        },
+        {
+          "slug": "gin-rummy",
+          "title": "Gin Rummy",
+          "players": "2"
+        },
+        {
+          "slug": "hearts",
+          "title": "Hearts",
+          "players": "4"
+        },
+        {
+          "slug": "klondike",
+          "title": "Klondike Solitaire",
+          "players": "1"
+        },
+        {
+          "slug": "poker",
+          "title": "Texas Hold'em Poker",
+          "players": "2-10"
+        },
+        {
+          "slug": "president",
+          "title": "President",
+          "players": "4–8"
+        },
+        {
+          "slug": "rummy",
+          "title": "Rummy",
+          "players": "2–6"
+        },
+        {
+          "slug": "spades",
+          "title": "Spades",
+          "players": "4"
+        },
+        {
+          "slug": "spider-solitaire",
+          "title": "Spider Solitaire",
+          "players": "1"
+        },
+        {
+          "slug": "war",
+          "title": "War",
+          "players": "2"
+        },
+        {
+          "slug": "whist",
+          "title": "Whist",
+          "players": "4"
+        }
+      ],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Standard 52-Card Deck",
+        "Games",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/standard-52/rulebook.md",
+        "meta": "/api/rules/standard-52/meta.json",
+        "games": "/api/rules/standard-52/games/"
+      }
+    },
+    {
+      "slug": "standard-dice",
+      "title": "Standard Dice",
+      "players": "1–8",
+      "duration": "10–60 min",
+      "age": "6+",
+      "tagline": "Games built on standard six-sided dice",
+      "type": "component",
+      "status": "live",
+      "updated": "2026-07-21",
+      "version": "0.1.1",
+      "mechanics": [
+        "dice-rolling",
+        "press-your-luck",
+        "betting",
+        "bluffing",
+        "scoring"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Standard six-sided dice support five games spanning press-your-luck, betting, bluffing, and category-scoring families. Roll, set aside combinations, and decide whether to bank or risk it all.",
+      "related": [
+        "standard-52",
+        "double-six-dominoes",
+        "backgammon"
+      ],
+      "hub_type": "component",
+      "variants": [],
+      "games": [
+        {
+          "slug": "bunco",
+          "title": "Bunco",
+          "players": "12 (or multiples of 4)"
+        },
+        {
+          "slug": "craps",
+          "title": "Craps",
+          "players": "1 or more"
+        },
+        {
+          "slug": "farkle",
+          "title": "Farkle",
+          "players": "2–6"
+        },
+        {
+          "slug": "liars-dice",
+          "title": "Liar's Dice",
+          "players": "2–6"
+        },
+        {
+          "slug": "yahtzee",
+          "title": "Yahtzee",
+          "players": "1–4"
+        }
+      ],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Standard Dice",
+        "Games",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/standard-dice/rulebook.md",
+        "meta": "/api/rules/standard-dice/meta.json",
+        "games": "/api/rules/standard-dice/games/"
+      }
+    },
+    {
+      "slug": "starforged",
+      "title": "Starforged",
+      "players": "1–4",
+      "duration": "60–240 min",
+      "age": "14+",
+      "tagline": "A perilous journey through the Forge, guided by moves and oracle tables",
+      "type": "rpg",
+      "status": "live",
+      "updated": "2026-07-19",
+      "version": "0.1.0",
+      "mechanics": [
+        "dice-rolling",
+        "narrative",
+        "oracle-tables",
+        "progress-tracks",
+        "momentum"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Take on the role of spacefaring Ironsworn, bound to sworn vows. Roll action dice against challenge dice, manage momentum and condition meters, and consult oracle tables for creative prompts. Plays solo, cooperatively, or with a GM.",
+      "related": [
+        "ironsworn",
+        "fate-core",
+        "dungeon-world"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [
+        {
+          "section": "rules",
+          "slug": "assets-companion",
+          "title": "Companion Assets"
+        },
+        {
+          "section": "rules",
+          "slug": "assets-deed",
+          "title": "Deed Assets"
+        },
+        {
+          "section": "rules",
+          "slug": "assets-module",
+          "title": "Module Assets"
+        },
+        {
+          "section": "rules",
+          "slug": "assets-path",
+          "title": "Path Assets"
+        },
+        {
+          "section": "rules",
+          "slug": "assets-vehicles",
+          "title": "Vehicle Assets"
+        },
+        {
+          "section": "rules",
+          "slug": "basics",
+          "title": "The Basics"
+        },
+        {
+          "section": "rules",
+          "slug": "character-sheet",
+          "title": "Character Sheet"
+        },
+        {
+          "section": "rules",
+          "slug": "character",
+          "title": "Your Character"
+        },
+        {
+          "section": "rules",
+          "slug": "encounters",
+          "title": "Encounters"
+        },
+        {
+          "section": "rules",
+          "slug": "moves",
+          "title": "Moves"
+        },
+        {
+          "section": "rules",
+          "slug": "oracles",
+          "title": "Starforged Oracle Tables"
+        },
+        {
+          "section": "rules",
+          "slug": "truths",
+          "title": "Setting Truths"
+        }
+      ],
+      "data": [],
+      "oracleCount": 262,
+      "sections": [
+        "Ironsworn: Starforged"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/starforged/rulebook.md",
+        "meta": "/api/rules/starforged/meta.json",
+        "pages": "/api/rules/starforged/pages/",
+        "oracles": "/api/rules/starforged/oracles.json"
+      }
+    },
+    {
+      "slug": "stern-halma",
+      "title": "Stern-Halma",
+      "players": "2–6",
+      "duration": "20–45 min",
+      "age": "8+",
+      "tagline": "Race across the star board to claim the opposite point",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-07-04",
+      "version": "0.2.0",
+      "mechanics": [
+        "race",
+        "jumping",
+        "chain-movement",
+        "star-board"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Race ten pieces from one arm of a six-pointed star to the opposite arm. Move one step or jump over adjacent pieces (yours or opponents') to reach empty spaces beyond. Chain multiple jumps in one move. First player to fill the opposite arm wins.",
+      "related": [
+        "halma",
+        "draughts",
+        "go"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard-2p",
+          "title": "Standard 2-Player Stern-Halma",
+          "players": "2",
+          "board": "6-pointed star (121 holes)",
+          "win": "Move all 10 pieces into the opposite arm",
+          "special": "Step or chain-hop in six directions. No capture. Jumped pieces remain."
+        },
+        {
+          "slug": "standard-3p",
+          "title": "Standard 3-Player Stern-Halma",
+          "players": "3",
+          "board": "6-pointed star (121 holes)",
+          "win": "Move all 10 pieces into the opposite arm",
+          "special": "Alternating arms used. Each player's goal is the arm directly opposite their start."
+        },
+        {
+          "slug": "standard-4p",
+          "title": "Standard 4-Player Stern-Halma",
+          "players": "4",
+          "board": "6-pointed star (121 holes)",
+          "win": "Move all 10 pieces into the opposite arm",
+          "special": "Four players use diagonal arms (NE, SE, SW, NW), leaving N and S empty."
+        },
+        {
+          "slug": "standard-6p",
+          "title": "Standard 6-Player Stern-Halma",
+          "players": "6",
+          "board": "6-pointed star (121 holes)",
+          "win": "Move all 10 pieces into the opposite arm",
+          "special": "All six arms occupied. Maximum interaction; every path crosses contested territory."
+        },
+        {
+          "slug": "super-chinese-checkers",
+          "title": "Super Chinese Checkers",
+          "players": "2–6",
+          "board": "6-pointed star (121 holes)",
+          "win": "Move all 10 pieces into the opposite arm",
+          "special": "Extended hop: pieces may jump multiple empty spaces in a line before and after clearing a hurdle."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Overview",
+        "The Board",
+        "Variants",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/stern-halma/rulebook.md",
+        "meta": "/api/rules/stern-halma/meta.json",
+        "variants": "/api/rules/stern-halma/variants/"
+      }
+    },
+    {
+      "slug": "surakarta",
+      "title": "Surakarta",
+      "players": "2",
+      "duration": "10–30 min",
+      "age": "8+",
+      "tagline": "The loop-capture game of Java: capture through the corner arcs",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-23",
+      "version": "0.1.0",
+      "mechanics": [
+        "grid-movement",
+        "loop-capture",
+        "unique-mechanics"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move pieces one step in any direction. Capture by routing your path through one or more of the eight corner loop arcs that extend outside the grid boundary. First player to capture all twelve opponent pieces wins.",
+      "related": [
+        "go",
+        "agon",
+        "morris"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Surakarta (Standard)",
+          "players": "2",
+          "board": "6×6",
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "History",
+        "The Board",
+        "Equipment",
+        "Setup",
+        "Movement",
+        "Winning",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/surakarta/rulebook.md",
+        "meta": "/api/rules/surakarta/meta.json",
+        "variants": "/api/rules/surakarta/variants/"
+      }
+    },
+    {
+      "slug": "tafl",
+      "title": "Tafl",
+      "players": "2",
+      "duration": "10–45 min",
+      "age": "8+",
+      "tagline": "King against the horde: asymmetric Norse strategy games of the Viking Age",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-06-26",
+      "version": "1.0.0",
+      "mechanics": [
+        "asymmetric",
+        "capture",
+        "king-escape",
+        "grid-movement"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Asymmetric Norse board game family. Defenders protect a King trying to reach safety. Attackers control a larger force trying to capture the King. Capture by surrounding enemy pieces on two opposite sides. Variants differ in board size, escape goals, and special rules.",
+      "related": [
+        "agon",
+        "fanorona",
+        "morris"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Tablut",
+          "players": null,
+          "board": null,
+          "win": null,
+          "special": null
+        },
+        {
+          "slug": "brandubh",
+          "title": "Brandubh",
+          "players": null,
+          "board": null,
+          "win": null,
+          "special": null
+        },
+        {
+          "slug": "hnefatafl",
+          "title": "Hnefatafl",
+          "players": null,
+          "board": null,
+          "win": null,
+          "special": null
+        },
+        {
+          "slug": "tawlbwrdd",
+          "title": "Tawlbwrdd",
+          "players": null,
+          "board": null,
+          "win": null,
+          "special": null
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/tafl/rulebook.md",
+        "meta": "/api/rules/tafl/meta.json",
+        "variants": "/api/rules/tafl/variants/"
+      }
+    },
+    {
+      "slug": "talisman-worlds",
+      "title": "Talisman Worlds",
+      "players": "2–6",
+      "duration": "90 min",
+      "age": "13+",
+      "tagline": "A new hex board every game of Talisman",
+      "type": "mod",
+      "status": "playtest",
+      "updated": "2026-06-19",
+      "version": "0.3.0",
+      "mechanics": [
+        "modular-board",
+        "dice-rolling",
+        "adventure-cards",
+        "character-progression"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Replaces the fixed Talisman board with 61 hexagonal tiles arranged in four concentric rings around a hidden ending tile. Every game has a completely different setup while keeping all characters, cards, and core rules intact.",
+      "related": [
+        "nukes",
+        "harvesters",
+        "hyper-imperium"
+      ],
+      "hub_type": null,
+      "variants": [],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "How to Play in 5 Minutes",
+        "Rules",
+        "Movement",
+        "Tiles",
+        "Special Tiles",
+        "Variations",
+        "The Dungeon",
+        "Special Tiles"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/talisman-worlds/rulebook.md",
+        "meta": "/api/rules/talisman-worlds/meta.json"
+      }
+    },
+    {
+      "slug": "landlords-game",
+      "title": "The Landlord's Game",
+      "players": "2–6",
+      "duration": "60–120 min",
+      "age": "10+",
+      "tagline": "Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-07-04",
+      "version": "0.2.0",
+      "mechanics": [
+        "dice",
+        "roll-and-move",
+        "trading",
+        "resource-management",
+        "auction"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll dice and move around a 40-space board, buying properties and charging rent. Five historical variants from austere patent rules to the collective-win Prosperity mode where the poorest player must double their wealth.",
+      "related": [
+        "econopoly",
+        "harvesters",
+        "backgammon"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "1904-original",
+          "title": "1904 Original",
+          "players": "2–6",
+          "board": "Circular 40-space track",
+          "win": "Complete 5 circuits with the highest total wealth (lots + cash + luxuries)",
+          "special": "The pure patent ruleset — no houses, no Chance cards, lot tickets drawn at start. The ur-game."
+        },
+        {
+          "slug": "1906-commercial",
+          "title": "1906 Commercial Edition",
+          "players": "2–4",
+          "board": "Circular 40-space track",
+          "win": "Most wealth at end of game — every Title Deed card and every house counts 100",
+          "special": "The first published edition. Adds houses, Chance cards, auctions, Speculation space, railroad monopoly pricing, and section rent doubling."
+        },
+        {
+          "slug": "single-tax",
+          "title": "Single Tax",
+          "players": "2–4",
+          "board": "Circular 40-space track",
+          "win": "Collective — all players win when public ownership is complete and wages are maximised",
+          "special": "Magie's intended lesson: play mid-game by vote. Land rents fund public acquisition of utilities, railroads, and colleges. Wages rise progressively."
+        },
+        {
+          "slug": "prosperity",
+          "title": "Prosperity",
+          "players": "2–4",
+          "board": "Circular 36-space track (dual-game board)",
+          "win": "First player to accumulate $3,000 in cash",
+          "special": "Magie's 1932 patent. Chance cube on doubles, No Trespassing signs, Idle Land speculation, railroad jumps, improvement tags. A complete standalone game, not a variant of 1906."
+        },
+        {
+          "slug": "monarch-of-the-world",
+          "title": "Monarch of the World",
+          "players": "2–6",
+          "board": "Circular 40-space track",
+          "win": "Demonstration only — the landlord inevitably wins",
+          "special": "One player gets all land, others get all other advantages and $100 each. The landlord receives no wages. Proves Magie's thesis: the land monopolist is monarch of the world."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [
+        "boards"
+      ],
+      "oracleCount": 0,
+      "sections": [
+        "History",
+        "The Board",
+        "Equipment",
+        "Variant Library",
+        "Board Data",
+        "Attribution"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/landlords-game/rulebook.md",
+        "meta": "/api/rules/landlords-game/meta.json",
+        "variants": "/api/rules/landlords-game/variants/",
+        "data": "/api/rules/landlords-game/data/"
+      }
+    },
+    {
+      "slug": "xiangqi",
+      "title": "Xiangqi",
+      "players": "2",
+      "duration": "15–45 min",
+      "age": "8+",
+      "tagline": "Ancient Chinese chess: cannon fire, palace tactics, and the river divide",
+      "type": "classic",
+      "status": "live",
+      "updated": "2026-07-16",
+      "version": "1.2.1",
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "checkmate",
+        "palace-confinement",
+        "river-divide"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Ancient Chinese chess on a 9×10 grid with a river divide. Generals confined to palace squares. Cannons capture by jumping over exactly one piece. Flying General rule prevents opposing Generals from facing each other. Checkmate the opposing General to win.",
+      "related": [
+        "shogi",
+        "moddable-chess",
+        "go"
+      ],
+      "hub_type": null,
+      "variants": [
+        {
+          "slug": "standard",
+          "title": "Standard Xiangqi",
+          "players": "2",
+          "board": "9×10",
+          "win": "Checkmate the opponent's General",
+          "special": "Cannon captures by jumping a screen piece. Flying General rule. Stalemate is a loss."
+        },
+        {
+          "slug": "san-kwo-ki",
+          "title": "San-kwo-k'i",
+          "players": 3,
+          "board": "Hexagonal trisection",
+          "win": "Last General surviving wins",
+          "special": "Three Kingdoms 3-player Xiangqi on a hexagonal trisected board. Eliminating a General captures that player's entire army."
+        },
+        {
+          "slug": "janggi",
+          "title": "Janggi",
+          "players": "2",
+          "board": "9×10",
+          "win": "Checkmate the opponent's General",
+          "special": "Cannon must jump to both move and capture. No river. Bikjang draw rule. Passing always legal."
+        },
+        {
+          "slug": "jieqi",
+          "title": "Jieqi",
+          "players": "2",
+          "board": "9×10",
+          "win": "Checkmate the General",
+          "special": "Xiangqi with hidden information: all pieces except the General start face-down and are revealed when they first move. A growing competitive variant in China and Vietnam. Also known as Dark Chess or Cờ Úhp."
+        },
+        {
+          "slug": "manchu-plus",
+          "title": "Manchu+",
+          "players": "2",
+          "board": "9×10",
+          "win": "Checkmate the General",
+          "special": "Asymmetric Xiangqi variant from the Qing Dynasty. The Manchu side loses its Horses, second Chariot, and both Cannons, gaining a single Banner piece that combines Chariot, Cannon, and Horse movement."
+        },
+        {
+          "slug": "minixiangqi",
+          "title": "Minixiangqi",
+          "players": "2",
+          "board": "7×7",
+          "win": "Checkmate the General",
+          "special": "Xiangqi condensed to a 7×7 board. No river, no Advisors or Elephants. Soldiers can move sideways from the start. Invented by Shigenobu Kusumoto, Osaka, 1973."
+        },
+        {
+          "slug": "quang-trung",
+          "title": "Quang Trung Chess",
+          "players": 2,
+          "board": "10×10",
+          "win": "Checkmate the General, or advance a Pawn to the last rank where it cannot be immediately captured",
+          "special": "Vietnamese 10×10 variant with novel piece types. Pawns and General restricted to central files; advancing a Pawn to the last rank wins."
+        },
+        {
+          "slug": "xiangqi-42",
+          "title": "Xiangqi 42",
+          "players": 2,
+          "board": "7×6",
+          "win": "Checkmate the General (standard Xiangqi win conditions)",
+          "special": "Compact Xiangqi on a 7×6 grid (42 intersections). No river, no Elephants — fast tactical play on a minimal board."
+        },
+        {
+          "slug": "yang-qi",
+          "title": "Yáng Qí",
+          "players": 2,
+          "board": "9×10",
+          "win": "Checkmate the opponent's King",
+          "special": "Western-influenced Xiangqi redesign with FIDE-style pieces plus Vaos (diagonal screen-capture). King may swap with adjacent pieces."
+        }
+      ],
+      "games": [],
+      "pages": [],
+      "data": [],
+      "oracleCount": 0,
+      "sections": [
+        "Variant Library"
+      ],
+      "urls": {
+        "rulebook": "/api/rules/xiangqi/rulebook.md",
+        "meta": "/api/rules/xiangqi/meta.json",
+        "variants": "/api/rules/xiangqi/variants/"
+      }
+    }
+  ]
+}

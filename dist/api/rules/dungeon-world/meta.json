@@ -1,0 +1,184 @@
+{
+  "slug": "dungeon-world",
+  "title": "Dungeon World",
+  "players": "2-5",
+  "duration": "varies",
+  "age": "13+",
+  "tagline": "Powered by the Apocalypse fantasy dungeon-crawling, fiction-first play",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-22",
+  "version": "0.1.0",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "class-based"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Narrate fiction first; when a character's action triggers a move, roll 2d6+stat. 10+ is full success, 7-9 is partial success, 6- is GM move. The GM never rolls dice.",
+  "related": [
+    "dnd-5e",
+    "fate-core",
+    "ironsworn",
+    "cairn"
+  ],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "advanced-delving",
+      "title": "Advanced Delving"
+    },
+    {
+      "section": "rules",
+      "slug": "bard",
+      "title": "The Bard"
+    },
+    {
+      "section": "rules",
+      "slug": "basic-moves",
+      "title": "Basic Moves"
+    },
+    {
+      "section": "rules",
+      "slug": "character-creation",
+      "title": "Character Creation"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "cleric",
+      "title": "The Cleric"
+    },
+    {
+      "section": "rules",
+      "slug": "conversion",
+      "title": "Adventure Conversion"
+    },
+    {
+      "section": "rules",
+      "slug": "druid",
+      "title": "The Druid"
+    },
+    {
+      "section": "rules",
+      "slug": "equipment",
+      "title": "Equipment"
+    },
+    {
+      "section": "rules",
+      "slug": "example-of-play",
+      "title": "Example of Play"
+    },
+    {
+      "section": "rules",
+      "slug": "fighter",
+      "title": "The Fighter"
+    },
+    {
+      "section": "rules",
+      "slug": "first-session",
+      "title": "First Session"
+    },
+    {
+      "section": "rules",
+      "slug": "fronts",
+      "title": "Fronts"
+    },
+    {
+      "section": "rules",
+      "slug": "instant-npcs",
+      "title": "Instant NPCs"
+    },
+    {
+      "section": "rules",
+      "slug": "introduction",
+      "title": "Introduction"
+    },
+    {
+      "section": "rules",
+      "slug": "monsters",
+      "title": "Monsters"
+    },
+    {
+      "section": "rules",
+      "slug": "paladin",
+      "title": "The Paladin"
+    },
+    {
+      "section": "rules",
+      "slug": "playing-the-game",
+      "title": "Playing the Game"
+    },
+    {
+      "section": "rules",
+      "slug": "ranger",
+      "title": "The Ranger"
+    },
+    {
+      "section": "rules",
+      "slug": "special-moves",
+      "title": "Special Moves"
+    },
+    {
+      "section": "rules",
+      "slug": "teaching-the-game",
+      "title": "Teaching the Game"
+    },
+    {
+      "section": "rules",
+      "slug": "the-gm",
+      "title": "The GM"
+    },
+    {
+      "section": "rules",
+      "slug": "the-world",
+      "title": "The World"
+    },
+    {
+      "section": "rules",
+      "slug": "thief",
+      "title": "The Thief"
+    },
+    {
+      "section": "rules",
+      "slug": "wizard",
+      "title": "The Wizard"
+    }
+  ],
+  "data": [
+    "cavern-dwellers",
+    "classes",
+    "dark-woods",
+    "equipment-tables",
+    "folk-of-the-realm",
+    "instant-npcs",
+    "lower-depths",
+    "moves",
+    "planar-powers",
+    "ravenous-hordes",
+    "steading-tags",
+    "swamp-denizens",
+    "twisted-experiments",
+    "undead-legions"
+  ],
+  "oracleCount": 14,
+  "sections": [
+    "Dungeon World"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/dungeon-world/rulebook.md",
+    "meta": "/api/rules/dungeon-world/meta.json",
+    "pages": "/api/rules/dungeon-world/pages/",
+    "data": "/api/rules/dungeon-world/data/",
+    "oracles": "/api/rules/dungeon-world/oracles.json"
+  }
+}

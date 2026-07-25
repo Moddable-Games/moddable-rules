@@ -42,6 +42,18 @@ engine:
     28: { name: "House of Three Truths", effect: "exit-on-3", protected: true }
     29: { name: "House of Re-Atoum", effect: "exit-on-2", protected: true }
     30: { name: "House of Horus", effect: "exit-on-1" }
+how_to_play: "Race five pieces along a 30-square winding path. Throw four sticks for movement. Capture opponent pieces by swapping positions. Special squares grant protection, send pieces backward, or require exact throws to bear off. Blockades of three or more pieces cannot be passed."
+mechanics:
+  - race
+  - dice-throwing
+  - capture
+  - safe-spaces
+  - bearing-off
+complexity: moderate
+related:
+  - royal-ur
+  - pachisi
+  - backgammon
 ---
 
 <div class="section">

@@ -1,0 +1,123 @@
+{
+  "slug": "cairn",
+  "title": "Cairn",
+  "players": "1–6",
+  "duration": "60–240 min",
+  "age": "12+",
+  "tagline": "A classless OSR adventure game about exploring a dark and mysterious Wood",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-22",
+  "version": "0.1.0",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "oracle"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Roll 3d6 for attributes, equip yourself from a random background, then explore a dark Wood filled with monsters and treasure. Fiction-first resolution with saves only for risky moments.",
+  "related": [
+    "knave",
+    "maze-rats",
+    "ironsworn",
+    "dnd-5e"
+  ],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "bibliography",
+      "title": "Bibliography"
+    },
+    {
+      "section": "rules",
+      "slug": "character-creation",
+      "title": "Character Creation"
+    },
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "combat-and-difficulty",
+      "title": "Combat & Difficulty"
+    },
+    {
+      "section": "rules",
+      "slug": "core-rules",
+      "title": "Core Rules"
+    },
+    {
+      "section": "rules",
+      "slug": "creating-content",
+      "title": "Creating Content"
+    },
+    {
+      "section": "rules",
+      "slug": "dungeon-seeds",
+      "title": "Dungeon Seeds"
+    },
+    {
+      "section": "rules",
+      "slug": "exploration-and-pointcrawls",
+      "title": "Exploration & Pointcrawls"
+    },
+    {
+      "section": "rules",
+      "slug": "forest-seeds",
+      "title": "Forest Seeds"
+    },
+    {
+      "section": "rules",
+      "slug": "growth",
+      "title": "Growth"
+    },
+    {
+      "section": "rules",
+      "slug": "marketplace",
+      "title": "Marketplace"
+    },
+    {
+      "section": "rules",
+      "slug": "naming-procedures",
+      "title": "Naming Procedures"
+    },
+    {
+      "section": "rules",
+      "slug": "overview-and-principles",
+      "title": "Overview & Principles"
+    },
+    {
+      "section": "rules",
+      "slug": "procedures",
+      "title": "Procedures"
+    },
+    {
+      "section": "rules",
+      "slug": "saves-and-perception",
+      "title": "Saves & Perception"
+    },
+    {
+      "section": "rules",
+      "slug": "setting-seeds",
+      "title": "Setting Seeds"
+    }
+  ],
+  "data": [],
+  "oracleCount": 66,
+  "sections": [
+    "Cairn"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/cairn/rulebook.md",
+    "meta": "/api/rules/cairn/meta.json",
+    "pages": "/api/rules/cairn/pages/",
+    "oracles": "/api/rules/cairn/oracles.json"
+  }
+}

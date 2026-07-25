@@ -57,6 +57,16 @@ engine:
       b: bS
       w: wS
   players: [white, black]
+how_to_play: "Move pieces one step in any direction. Capture by routing your path through one or more of the eight corner loop arcs that extend outside the grid boundary. First player to capture all twelve opponent pieces wins."
+mechanics:
+  - grid-movement
+  - loop-capture
+  - unique-mechanics
+complexity: moderate
+related:
+  - go
+  - agon
+  - morris
 ---
 
 <div class="section">

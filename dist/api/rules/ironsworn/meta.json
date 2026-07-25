@@ -1,0 +1,75 @@
+{
+  "slug": "ironsworn",
+  "title": "Ironsworn",
+  "players": "1–4",
+  "duration": "60–240 min",
+  "age": "14+",
+  "tagline": "A perilous quest through the Ironlands, guided by vows and oracle tables",
+  "type": "rpg",
+  "status": "live",
+  "updated": "2026-07-04",
+  "version": "0.1.0",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "exploration",
+    "combat",
+    "oracle",
+    "solo",
+    "cooperative"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Roll action dice against challenge dice to resolve moves. Characters are bound to sworn vows, face peril, and mark progress. Plays solo, cooperatively, or with a guide. Oracle tables generate narrative.",
+  "related": [
+    "starforged",
+    "cairn",
+    "dungeon-world",
+    "fate-core"
+  ],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [
+    {
+      "section": "rules",
+      "slug": "character-sheet",
+      "title": "Character Sheet"
+    },
+    {
+      "section": "rules",
+      "slug": "combat",
+      "title": "Combat"
+    },
+    {
+      "section": "rules",
+      "slug": "foes",
+      "title": "Foes and Encounters"
+    },
+    {
+      "section": "rules",
+      "slug": "moves",
+      "title": "Moves"
+    },
+    {
+      "section": "rules",
+      "slug": "stats",
+      "title": "Stats and Tracks"
+    },
+    {
+      "section": "rules",
+      "slug": "vows",
+      "title": "Your Character"
+    }
+  ],
+  "data": [],
+  "oracleCount": 6,
+  "sections": [
+    "Ironsworn"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/ironsworn/rulebook.md",
+    "meta": "/api/rules/ironsworn/meta.json",
+    "pages": "/api/rules/ironsworn/pages/",
+    "oracles": "/api/rules/ironsworn/oracles.json"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "senet",
+  "title": "Senet",
+  "players": "2",
+  "duration": "15–30 min",
+  "age": "8+",
+  "tagline": "Ancient Egyptian race game (c. 3500 BCE), reconstructed from archaeological evidence",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.0",
+  "mechanics": [
+    "race",
+    "dice-throwing",
+    "capture",
+    "safe-spaces",
+    "bearing-off"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Race five pieces along a 30-square winding path. Throw four sticks for movement. Capture opponent pieces by swapping positions. Special squares grant protection, send pieces backward, or require exact throws to bear off. Blockades of three or more pieces cannot be passed.",
+  "related": [
+    "royal-ur",
+    "pachisi",
+    "backgammon"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Senet (Kendall Reconstruction)",
+      "players": "2",
+      "board": "3×10",
+      "win": null,
+      "special": null
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Senet"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/senet/rulebook.md",
+    "meta": "/api/rules/senet/meta.json",
+    "variants": "/api/rules/senet/variants/"
+  }
+}

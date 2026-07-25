@@ -1,0 +1,1350 @@
+{
+  "game": "ironsworn",
+  "label": "Ironsworn",
+  "tableCount": 6,
+  "tables": [
+    {
+      "id": "action",
+      "name": "Action",
+      "roll_type": "d100",
+      "usage_note": "Roll when you need a verb or action to inspire the next narrative beat. Combine with the Theme oracle for richer results.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "result": "Scheme"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "result": "Clash"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "result": "Weaken"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "result": "Initiate"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "result": "Create"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "result": "Swear"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "result": "Avenge"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "result": "Guard"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "result": "Defeat"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "result": "Control"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "result": "Break"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "result": "Risk"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "result": "Surrender"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "result": "Inspect"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "result": "Raid"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "result": "Evade"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "result": "Assault"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "result": "Deflect"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "result": "Threaten"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "result": "Attack"
+        },
+        {
+          "min": 21,
+          "max": 21,
+          "result": "Leave"
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "result": "Preserve"
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "result": "Manipulate"
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "result": "Remove"
+        },
+        {
+          "min": 25,
+          "max": 25,
+          "result": "Eliminate"
+        },
+        {
+          "min": 26,
+          "max": 26,
+          "result": "Withdraw"
+        },
+        {
+          "min": 27,
+          "max": 27,
+          "result": "Abandon"
+        },
+        {
+          "min": 28,
+          "max": 28,
+          "result": "Investigate"
+        },
+        {
+          "min": 29,
+          "max": 29,
+          "result": "Hold"
+        },
+        {
+          "min": 30,
+          "max": 30,
+          "result": "Focus"
+        },
+        {
+          "min": 31,
+          "max": 31,
+          "result": "Uncover"
+        },
+        {
+          "min": 32,
+          "max": 32,
+          "result": "Breach"
+        },
+        {
+          "min": 33,
+          "max": 33,
+          "result": "Aid"
+        },
+        {
+          "min": 34,
+          "max": 34,
+          "result": "Uphold"
+        },
+        {
+          "min": 35,
+          "max": 35,
+          "result": "Falter"
+        },
+        {
+          "min": 36,
+          "max": 36,
+          "result": "Suppress"
+        },
+        {
+          "min": 37,
+          "max": 37,
+          "result": "Hunt"
+        },
+        {
+          "min": 38,
+          "max": 38,
+          "result": "Share"
+        },
+        {
+          "min": 39,
+          "max": 39,
+          "result": "Destroy"
+        },
+        {
+          "min": 40,
+          "max": 40,
+          "result": "Avoid"
+        },
+        {
+          "min": 41,
+          "max": 41,
+          "result": "Reject"
+        },
+        {
+          "min": 42,
+          "max": 42,
+          "result": "Demand"
+        },
+        {
+          "min": 43,
+          "max": 43,
+          "result": "Explore"
+        },
+        {
+          "min": 44,
+          "max": 44,
+          "result": "Bolster"
+        },
+        {
+          "min": 45,
+          "max": 45,
+          "result": "Seize"
+        },
+        {
+          "min": 46,
+          "max": 46,
+          "result": "Mourn"
+        },
+        {
+          "min": 47,
+          "max": 47,
+          "result": "Reveal"
+        },
+        {
+          "min": 48,
+          "max": 48,
+          "result": "Gather"
+        },
+        {
+          "min": 49,
+          "max": 49,
+          "result": "Defy"
+        },
+        {
+          "min": 50,
+          "max": 50,
+          "result": "Transform"
+        },
+        {
+          "min": 51,
+          "max": 51,
+          "result": "Persevere"
+        },
+        {
+          "min": 52,
+          "max": 52,
+          "result": "Serve"
+        },
+        {
+          "min": 53,
+          "max": 53,
+          "result": "Begin"
+        },
+        {
+          "min": 54,
+          "max": 54,
+          "result": "Move"
+        },
+        {
+          "min": 55,
+          "max": 55,
+          "result": "Coordinate"
+        },
+        {
+          "min": 56,
+          "max": 56,
+          "result": "Resist"
+        },
+        {
+          "min": 57,
+          "max": 57,
+          "result": "Await"
+        },
+        {
+          "min": 58,
+          "max": 58,
+          "result": "Impress"
+        },
+        {
+          "min": 59,
+          "max": 59,
+          "result": "Take"
+        },
+        {
+          "min": 60,
+          "max": 60,
+          "result": "Oppose"
+        },
+        {
+          "min": 61,
+          "max": 61,
+          "result": "Capture"
+        },
+        {
+          "min": 62,
+          "max": 62,
+          "result": "Overwhelm"
+        },
+        {
+          "min": 63,
+          "max": 63,
+          "result": "Challenge"
+        },
+        {
+          "min": 64,
+          "max": 64,
+          "result": "Acquire"
+        },
+        {
+          "min": 65,
+          "max": 65,
+          "result": "Protect"
+        },
+        {
+          "min": 66,
+          "max": 66,
+          "result": "Finish"
+        },
+        {
+          "min": 67,
+          "max": 67,
+          "result": "Strengthen"
+        },
+        {
+          "min": 68,
+          "max": 68,
+          "result": "Restore"
+        },
+        {
+          "min": 69,
+          "max": 69,
+          "result": "Advance"
+        },
+        {
+          "min": 70,
+          "max": 70,
+          "result": "Command"
+        },
+        {
+          "min": 71,
+          "max": 71,
+          "result": "Refuse"
+        },
+        {
+          "min": 72,
+          "max": 72,
+          "result": "Find"
+        },
+        {
+          "min": 73,
+          "max": 73,
+          "result": "Deliver"
+        },
+        {
+          "min": 74,
+          "max": 74,
+          "result": "Hide"
+        },
+        {
+          "min": 75,
+          "max": 75,
+          "result": "Fortify"
+        },
+        {
+          "min": 76,
+          "max": 76,
+          "result": "Betray"
+        },
+        {
+          "min": 77,
+          "max": 77,
+          "result": "Secure"
+        },
+        {
+          "min": 78,
+          "max": 78,
+          "result": "Arrive"
+        },
+        {
+          "min": 79,
+          "max": 79,
+          "result": "Affect"
+        },
+        {
+          "min": 80,
+          "max": 80,
+          "result": "Change"
+        },
+        {
+          "min": 81,
+          "max": 81,
+          "result": "Defend"
+        },
+        {
+          "min": 82,
+          "max": 82,
+          "result": "Debate"
+        },
+        {
+          "min": 83,
+          "max": 83,
+          "result": "Support"
+        },
+        {
+          "min": 84,
+          "max": 84,
+          "result": "Follow"
+        },
+        {
+          "min": 85,
+          "max": 85,
+          "result": "Construct"
+        },
+        {
+          "min": 86,
+          "max": 86,
+          "result": "Locate"
+        },
+        {
+          "min": 87,
+          "max": 87,
+          "result": "Endure"
+        },
+        {
+          "min": 88,
+          "max": 88,
+          "result": "Release"
+        },
+        {
+          "min": 89,
+          "max": 89,
+          "result": "Lose"
+        },
+        {
+          "min": 90,
+          "max": 90,
+          "result": "Reduce"
+        },
+        {
+          "min": 91,
+          "max": 91,
+          "result": "Escalate"
+        },
+        {
+          "min": 92,
+          "max": 92,
+          "result": "Distract"
+        },
+        {
+          "min": 93,
+          "max": 93,
+          "result": "Journey"
+        },
+        {
+          "min": 94,
+          "max": 94,
+          "result": "Escort"
+        },
+        {
+          "min": 95,
+          "max": 95,
+          "result": "Learn"
+        },
+        {
+          "min": 96,
+          "max": 96,
+          "result": "Communicate"
+        },
+        {
+          "min": 97,
+          "max": 97,
+          "result": "Depart"
+        },
+        {
+          "min": 98,
+          "max": 98,
+          "result": "Search"
+        },
+        {
+          "min": 99,
+          "max": 99,
+          "result": "Charge"
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "result": "Summon"
+        }
+      ]
+    },
+    {
+      "id": "challenge-rank",
+      "name": "Challenge Rank",
+      "roll_type": "d100",
+      "usage_note": "Roll when you want to randomly determine the challenge rank of a quest, journey, or fight.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 20,
+          "result": "Troublesome"
+        },
+        {
+          "min": 21,
+          "max": 55,
+          "result": "Dangerous"
+        },
+        {
+          "min": 56,
+          "max": 80,
+          "result": "Formidable"
+        },
+        {
+          "min": 81,
+          "max": 93,
+          "result": "Extreme"
+        },
+        {
+          "min": 94,
+          "max": 100,
+          "result": "Epic"
+        }
+      ]
+    },
+    {
+      "id": "combat-action",
+      "name": "Combat Action",
+      "roll_type": "d100",
+      "usage_note": "Roll when you need to determine an NPC foe's next action in combat, especially when they have initiative.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 3,
+          "result": "Compel a surrender."
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "result": "Coordinate with allies."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "result": "Gather reinforcements."
+        },
+        {
+          "min": 10,
+          "max": 13,
+          "result": "Seize something or someone."
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "result": "Provoke a reckless response."
+        },
+        {
+          "min": 18,
+          "max": 21,
+          "result": "Intimidate or frighten."
+        },
+        {
+          "min": 22,
+          "max": 25,
+          "result": "Reveal a surprising truth."
+        },
+        {
+          "min": 26,
+          "max": 29,
+          "result": "Shift focus to someone or something else."
+        },
+        {
+          "min": 30,
+          "max": 33,
+          "result": "Destroy something, or render it useless."
+        },
+        {
+          "min": 34,
+          "max": 39,
+          "result": "Take a decisive action."
+        },
+        {
+          "min": 40,
+          "max": 45,
+          "result": "Reinforce defenses."
+        },
+        {
+          "min": 46,
+          "max": 52,
+          "result": "Ready an action."
+        },
+        {
+          "min": 53,
+          "max": 60,
+          "result": "Use the terrain to gain advantage."
+        },
+        {
+          "min": 61,
+          "max": 68,
+          "result": "Leverage the advantage of a weapon or ability."
+        },
+        {
+          "min": 69,
+          "max": 78,
+          "result": "Create an opportunity."
+        },
+        {
+          "min": 79,
+          "max": 89,
+          "result": "Attack with precision."
+        },
+        {
+          "min": 90,
+          "max": 99,
+          "result": "Attack with power."
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "result": "Take a completely unexpected action."
+        }
+      ]
+    },
+    {
+      "id": "major-plot-twist",
+      "name": "Major Plot Twist",
+      "roll_type": "d100",
+      "usage_note": "Roll to introduce a narrative surprise or revelation, especially on a match with 10s on the challenge dice.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 5,
+          "result": "It was all a diversion."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "result": "A dark secret is revealed."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "result": "A trap is sprung."
+        },
+        {
+          "min": 16,
+          "max": 20,
+          "result": "An assumption is revealed to be false."
+        },
+        {
+          "min": 21,
+          "max": 25,
+          "result": "A secret alliance is revealed."
+        },
+        {
+          "min": 26,
+          "max": 30,
+          "result": "Your actions benefit an enemy."
+        },
+        {
+          "min": 31,
+          "max": 35,
+          "result": "Someone returns unexpectedly."
+        },
+        {
+          "min": 36,
+          "max": 40,
+          "result": "A more dangerous foe is revealed."
+        },
+        {
+          "min": 41,
+          "max": 45,
+          "result": "You and an enemy share a common goal."
+        },
+        {
+          "min": 46,
+          "max": 50,
+          "result": "A true identity is revealed."
+        },
+        {
+          "min": 51,
+          "max": 55,
+          "result": "You are betrayed by someone who was trusted."
+        },
+        {
+          "min": 56,
+          "max": 60,
+          "result": "You are too late."
+        },
+        {
+          "min": 61,
+          "max": 65,
+          "result": "The true enemy is revealed."
+        },
+        {
+          "min": 66,
+          "max": 70,
+          "result": "The enemy gains new allies."
+        },
+        {
+          "min": 71,
+          "max": 75,
+          "result": "A new danger appears."
+        },
+        {
+          "min": 76,
+          "max": 80,
+          "result": "Someone or something goes missing."
+        },
+        {
+          "min": 81,
+          "max": 85,
+          "result": "The truth of a relationship is revealed."
+        },
+        {
+          "min": 86,
+          "max": 90,
+          "result": "Two seemingly unrelated situations are shown to be connected."
+        },
+        {
+          "min": 91,
+          "max": 95,
+          "result": "Unexpected powers or abilities are revealed."
+        },
+        {
+          "min": 96,
+          "max": 100,
+          "result": "Roll twice more on this table. Both results occur. If they are the same result, make it more dramatic."
+        }
+      ]
+    },
+    {
+      "id": "pay-the-price",
+      "name": "Pay the Price",
+      "roll_type": "d100",
+      "usage_note": "Roll when you must Pay the Price as a result of a miss or a narrative cost, and want to let fate decide the outcome.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 2,
+          "result": "Roll again and apply that result but make it worse. If you roll this result yet again, think of something dreadful that changes the course of your quest (Ask the Oracle if unsure) and make it happen."
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "result": "A person or community you trusted loses faith in you, or acts against you."
+        },
+        {
+          "min": 6,
+          "max": 9,
+          "result": "A person or community you care about is exposed to danger."
+        },
+        {
+          "min": 10,
+          "max": 16,
+          "result": "You are separated from something or someone."
+        },
+        {
+          "min": 17,
+          "max": 23,
+          "result": "Your action has an unintended effect."
+        },
+        {
+          "min": 24,
+          "max": 32,
+          "result": "Something of value is lost or destroyed."
+        },
+        {
+          "min": 33,
+          "max": 41,
+          "result": "The current situation worsens."
+        },
+        {
+          "min": 42,
+          "max": 50,
+          "result": "A new danger or foe is revealed."
+        },
+        {
+          "min": 51,
+          "max": 59,
+          "result": "It causes a delay or puts you at a disadvantage."
+        },
+        {
+          "min": 60,
+          "max": 68,
+          "result": "It is harmful."
+        },
+        {
+          "min": 69,
+          "max": 77,
+          "result": "It is stressful."
+        },
+        {
+          "min": 78,
+          "max": 85,
+          "result": "A surprising development complicates your quest."
+        },
+        {
+          "min": 86,
+          "max": 90,
+          "result": "It wastes resources."
+        },
+        {
+          "min": 91,
+          "max": 94,
+          "result": "It forces you to act against your best intentions."
+        },
+        {
+          "min": 95,
+          "max": 98,
+          "result": "A friend, companion, or ally is put in harm's way (or you are, if alone)."
+        },
+        {
+          "min": 99,
+          "max": 100,
+          "result": "Roll twice more on this table. Both results occur. If they are the same result, make it worse."
+        }
+      ]
+    },
+    {
+      "id": "theme",
+      "name": "Theme",
+      "roll_type": "d100",
+      "usage_note": "Roll when you need a subject or theme to pair with an Action result, or to inspire a narrative element on its own.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "result": "Risk"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "result": "Ability"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "result": "Price"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "result": "Ally"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "result": "Battle"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "result": "Safety"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "result": "Survival"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "result": "Weapon"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "result": "Wound"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "result": "Shelter"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "result": "Leader"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "result": "Fear"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "result": "Time"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "result": "Duty"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "result": "Secret"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "result": "Innocence"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "result": "Renown"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "result": "Direction"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "result": "Death"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "result": "Honor"
+        },
+        {
+          "min": 21,
+          "max": 21,
+          "result": "Labor"
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "result": "Solution"
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "result": "Tool"
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "result": "Balance"
+        },
+        {
+          "min": 25,
+          "max": 25,
+          "result": "Love"
+        },
+        {
+          "min": 26,
+          "max": 26,
+          "result": "Barrier"
+        },
+        {
+          "min": 27,
+          "max": 27,
+          "result": "Creation"
+        },
+        {
+          "min": 28,
+          "max": 28,
+          "result": "Decay"
+        },
+        {
+          "min": 29,
+          "max": 29,
+          "result": "Trade"
+        },
+        {
+          "min": 30,
+          "max": 30,
+          "result": "Bond"
+        },
+        {
+          "min": 31,
+          "max": 31,
+          "result": "Hope"
+        },
+        {
+          "min": 32,
+          "max": 32,
+          "result": "Superstition"
+        },
+        {
+          "min": 33,
+          "max": 33,
+          "result": "Peace"
+        },
+        {
+          "min": 34,
+          "max": 34,
+          "result": "Deception"
+        },
+        {
+          "min": 35,
+          "max": 35,
+          "result": "History"
+        },
+        {
+          "min": 36,
+          "max": 36,
+          "result": "World"
+        },
+        {
+          "min": 37,
+          "max": 37,
+          "result": "Vow"
+        },
+        {
+          "min": 38,
+          "max": 38,
+          "result": "Protection"
+        },
+        {
+          "min": 39,
+          "max": 39,
+          "result": "Nature"
+        },
+        {
+          "min": 40,
+          "max": 40,
+          "result": "Opinion"
+        },
+        {
+          "min": 41,
+          "max": 41,
+          "result": "Burden"
+        },
+        {
+          "min": 42,
+          "max": 42,
+          "result": "Vengeance"
+        },
+        {
+          "min": 43,
+          "max": 43,
+          "result": "Opportunity"
+        },
+        {
+          "min": 44,
+          "max": 44,
+          "result": "Faction"
+        },
+        {
+          "min": 45,
+          "max": 45,
+          "result": "Danger"
+        },
+        {
+          "min": 46,
+          "max": 46,
+          "result": "Corruption"
+        },
+        {
+          "min": 47,
+          "max": 47,
+          "result": "Freedom"
+        },
+        {
+          "min": 48,
+          "max": 48,
+          "result": "Debt"
+        },
+        {
+          "min": 49,
+          "max": 49,
+          "result": "Hate"
+        },
+        {
+          "min": 50,
+          "max": 50,
+          "result": "Possession"
+        },
+        {
+          "min": 51,
+          "max": 51,
+          "result": "Stranger"
+        },
+        {
+          "min": 52,
+          "max": 52,
+          "result": "Passage"
+        },
+        {
+          "min": 53,
+          "max": 53,
+          "result": "Land"
+        },
+        {
+          "min": 54,
+          "max": 54,
+          "result": "Creature"
+        },
+        {
+          "min": 55,
+          "max": 55,
+          "result": "Disease"
+        },
+        {
+          "min": 56,
+          "max": 56,
+          "result": "Advantage"
+        },
+        {
+          "min": 57,
+          "max": 57,
+          "result": "Blood"
+        },
+        {
+          "min": 58,
+          "max": 58,
+          "result": "Language"
+        },
+        {
+          "min": 59,
+          "max": 59,
+          "result": "Rumor"
+        },
+        {
+          "min": 60,
+          "max": 60,
+          "result": "Weakness"
+        },
+        {
+          "min": 61,
+          "max": 61,
+          "result": "Greed"
+        },
+        {
+          "min": 62,
+          "max": 62,
+          "result": "Family"
+        },
+        {
+          "min": 63,
+          "max": 63,
+          "result": "Resource"
+        },
+        {
+          "min": 64,
+          "max": 64,
+          "result": "Structure"
+        },
+        {
+          "min": 65,
+          "max": 65,
+          "result": "Dream"
+        },
+        {
+          "min": 66,
+          "max": 66,
+          "result": "Community"
+        },
+        {
+          "min": 67,
+          "max": 67,
+          "result": "War"
+        },
+        {
+          "min": 68,
+          "max": 68,
+          "result": "Portent"
+        },
+        {
+          "min": 69,
+          "max": 69,
+          "result": "Prize"
+        },
+        {
+          "min": 70,
+          "max": 70,
+          "result": "Destiny"
+        },
+        {
+          "min": 71,
+          "max": 71,
+          "result": "Momentum"
+        },
+        {
+          "min": 72,
+          "max": 72,
+          "result": "Power"
+        },
+        {
+          "min": 73,
+          "max": 73,
+          "result": "Memory"
+        },
+        {
+          "min": 74,
+          "max": 74,
+          "result": "Ruin"
+        },
+        {
+          "min": 75,
+          "max": 75,
+          "result": "Mysticism"
+        },
+        {
+          "min": 76,
+          "max": 76,
+          "result": "Rival"
+        },
+        {
+          "min": 77,
+          "max": 77,
+          "result": "Problem"
+        },
+        {
+          "min": 78,
+          "max": 78,
+          "result": "Idea"
+        },
+        {
+          "min": 79,
+          "max": 79,
+          "result": "Revenge"
+        },
+        {
+          "min": 80,
+          "max": 80,
+          "result": "Health"
+        },
+        {
+          "min": 81,
+          "max": 81,
+          "result": "Fellowship"
+        },
+        {
+          "min": 82,
+          "max": 82,
+          "result": "Enemy"
+        },
+        {
+          "min": 83,
+          "max": 83,
+          "result": "Religion"
+        },
+        {
+          "min": 84,
+          "max": 84,
+          "result": "Spirit"
+        },
+        {
+          "min": 85,
+          "max": 85,
+          "result": "Fame"
+        },
+        {
+          "min": 86,
+          "max": 86,
+          "result": "Desolation"
+        },
+        {
+          "min": 87,
+          "max": 87,
+          "result": "Strength"
+        },
+        {
+          "min": 88,
+          "max": 88,
+          "result": "Knowledge"
+        },
+        {
+          "min": 89,
+          "max": 89,
+          "result": "Truth"
+        },
+        {
+          "min": 90,
+          "max": 90,
+          "result": "Quest"
+        },
+        {
+          "min": 91,
+          "max": 91,
+          "result": "Pride"
+        },
+        {
+          "min": 92,
+          "max": 92,
+          "result": "Loss"
+        },
+        {
+          "min": 93,
+          "max": 93,
+          "result": "Law"
+        },
+        {
+          "min": 94,
+          "max": 94,
+          "result": "Path"
+        },
+        {
+          "min": 95,
+          "max": 95,
+          "result": "Warning"
+        },
+        {
+          "min": 96,
+          "max": 96,
+          "result": "Relationship"
+        },
+        {
+          "min": 97,
+          "max": 97,
+          "result": "Wealth"
+        },
+        {
+          "min": 98,
+          "max": 98,
+          "result": "Home"
+        },
+        {
+          "min": 99,
+          "max": 99,
+          "result": "Strategy"
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "result": "Supply"
+        }
+      ]
+    }
+  ]
+}

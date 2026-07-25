@@ -22,6 +22,17 @@ theme:
   accent: gold
   accent-secondary: purple
   section-divider: "⬡"
+how_to_play: "Replaces the fixed Talisman board with 61 hexagonal tiles arranged in four concentric rings around a hidden ending tile. Every game has a completely different setup while keeping all characters, cards, and core rules intact."
+mechanics:
+  - modular-board
+  - dice-rolling
+  - adventure-cards
+  - character-progression
+complexity: complex
+related:
+  - nukes
+  - harvesters
+  - hyper-imperium
 engine:
   topology:
     type: hex

@@ -45,6 +45,17 @@ engine:
       b: bP
       w: wP
   players: [black, white]
+how_to_play: "Place discs to flank and flip opponent pieces. Valid moves must flip at least one enemy disc by trapping it between your new disc and an existing one. The player with the most discs when no legal moves remain wins."
+mechanics:
+  - placement
+  - flipping
+  - territory
+  - blocking
+complexity: simple
+related:
+  - go
+  - agon
+  - morris
 ---
 
 <div class="section">

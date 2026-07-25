@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-22"
 published: true
 variants: false
+how_to_play: "Roll 4 Fate dice plus skill against the ladder. Characters defined by aspects (story phrases). Invoke aspects for bonuses, accept compels for fate points. Four actions: overcome, create advantage, attack, defend."
+mechanics: [dice, narrative, aspects, combat, exploration]
+complexity: moderate
+related: [dungeon-world, ironsworn, brp, dnd-5e]
 theme:
   surface: light
   tint: warm

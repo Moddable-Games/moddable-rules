@@ -12,6 +12,10 @@ updated: "2026-06-04"
 first_published: "January 2025"
 published: false
 logo_has_title: true
+how_to_play: "Command asymmetric factions across a hex-tile galaxy. Place diplomats in space port rooms, activate crew in ship rooms, resolve contracts for victory points. First to trigger endgame forces final scoring."
+mechanics: [worker-placement, hex, exploration, combat, resource-management, asymmetric]
+complexity: complex
+related: [hyper-imperium, talisman-worlds, nukes]
 theme:
   surface: light
   tint: cool

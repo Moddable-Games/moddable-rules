@@ -1,0 +1,4229 @@
+{
+  "game": "cairn",
+  "label": "Cairn",
+  "tableCount": 66,
+  "tables": [
+    {
+      "id": "names-formula",
+      "name": "POI Names Formula",
+      "roll": "1d6",
+      "entries": [
+        "(The) [Noun] [POI]",
+        "(The) [Adjective] [POI]",
+        "[POI] of (the) [Noun]",
+        "[Adjective] [POI] of (the) [Noun]",
+        "(The) [Noun] [Adjective] [POI]",
+        "[POI] of (the) [Adjective] [Noun]"
+      ]
+    },
+    {
+      "id": "adjectives",
+      "name": "Adjectives",
+      "roll": "1d100",
+      "entries": [
+        "Aging",
+        "Amber",
+        "Ancient",
+        "Angry",
+        "Ashen",
+        "Bare",
+        "Battered",
+        "Bitter",
+        "Blackened",
+        "Blazing",
+        "Bleak",
+        "Blighted",
+        "Blistered",
+        "Blistering",
+        "Blustery",
+        "Brisk",
+        "Bright",
+        "Broad",
+        "Calm",
+        "Celestial",
+        "Choking",
+        "Cold",
+        "Colorful",
+        "Copper",
+        "Cracked",
+        "Crimson",
+        "Crumbling",
+        "Curled",
+        "Curling",
+        "Curved",
+        "Curvy",
+        "Dampened",
+        "Dark",
+        "Dazzling",
+        "Dead",
+        "Deathly",
+        "Diamond",
+        "Dismal",
+        "Dreary",
+        "Empty",
+        "Endless",
+        "Fierce",
+        "Flaming",
+        "Flashing",
+        "Foggy",
+        "Forbidden",
+        "Forgotten",
+        "Fragile",
+        "Frayed",
+        "Frozen",
+        "Furious",
+        "Gaping",
+        "Gleaming",
+        "Glow",
+        "Granite",
+        "Grim",
+        "Grizzled",
+        "Hazy",
+        "Heated",
+        "Hellish",
+        "Hideous",
+        "Jagged",
+        "Lone",
+        "Lonely",
+        "Luminous",
+        "Lurching",
+        "Lustrous",
+        "Miserable",
+        "Misty",
+        "Mournful",
+        "Muddy",
+        "Narrow",
+        "Ominous",
+        "Overgrown",
+        "Patched",
+        "Peeling",
+        "Plunging",
+        "Ragged",
+        "Rotting",
+        "Salty",
+        "Savage",
+        "Shifting",
+        "Shimmering",
+        "Shining",
+        "Shivering",
+        "Shrouded",
+        "Singed",
+        "Sinking",
+        "Slaughter",
+        "Smoky",
+        "Soggy",
+        "Sour",
+        "Sputtering",
+        "Stained",
+        "Starved",
+        "Stinking",
+        "Stuffed",
+        "Sunken",
+        "Thin",
+        "Withered"
+      ]
+    },
+    {
+      "id": "nouns",
+      "name": "Nouns",
+      "roll": "1d100",
+      "entries": [
+        "Abyss",
+        "Alliance",
+        "Amber",
+        "Ambition",
+        "Apple",
+        "Aurora",
+        "Bastion",
+        "Black",
+        "Blight",
+        "Blue",
+        "Bone",
+        "Bright",
+        "Chasm",
+        "Chip",
+        "Copper",
+        "Country",
+        "Crack",
+        "Crimson",
+        "Curl",
+        "Darkness",
+        "Dawn",
+        "Dead",
+        "Death",
+        "Decay",
+        "Dent",
+        "Desolation",
+        "Despair",
+        "Devil",
+        "Dirt",
+        "Doom",
+        "Doorway",
+        "Echo",
+        "Ember",
+        "Fate",
+        "Fear",
+        "Fire",
+        "Flame",
+        "Folly",
+        "Fray",
+        "Frost",
+        "Fury",
+        "Ghost",
+        "Giant",
+        "Glimmer",
+        "God",
+        "Gold",
+        "Green",
+        "Harmony",
+        "Harvest",
+        "Haunt",
+        "Haven",
+        "Horror",
+        "Iron",
+        "Island",
+        "Jade",
+        "King",
+        "Lavender",
+        "Life",
+        "Light",
+        "Marble",
+        "Mist",
+        "Mold",
+        "Moon",
+        "Mud",
+        "Nightmare",
+        "Patch",
+        "Peril",
+        "Purple",
+        "Radiance",
+        "Rag",
+        "Rain",
+        "Rainbow",
+        "Red",
+        "Refuge",
+        "Regret",
+        "Rot",
+        "Ruin",
+        "Shadow",
+        "Silver",
+        "Skull",
+        "Sky",
+        "Smoke",
+        "Snake",
+        "Sorrow",
+        "Spark",
+        "Stone",
+        "Storm",
+        "Sun",
+        "Tempest",
+        "Terror",
+        "Thorn",
+        "Thunder",
+        "Toxic",
+        "Tranquil",
+        "Troll",
+        "Valor",
+        "Violet",
+        "War",
+        "Whisper",
+        "Zephyr"
+      ]
+    },
+    {
+      "id": "terrain-synonyms",
+      "name": "Terrain Synonyms",
+      "roll": null,
+      "entries": [
+        {
+          "terrain": "Beaches",
+          "synonyms": [
+            "seaside",
+            "shore",
+            "coast",
+            "seaboard",
+            "foreshore",
+            "marina"
+          ]
+        },
+        {
+          "terrain": "Bogs",
+          "synonyms": [
+            "marsh",
+            "morass",
+            "quad",
+            "slough",
+            "fens"
+          ]
+        },
+        {
+          "terrain": "Canyons",
+          "synonyms": [
+            "ravine",
+            "chasm",
+            "abyss",
+            "gulf",
+            "gulch"
+          ]
+        },
+        {
+          "terrain": "Caverns",
+          "synonyms": [
+            "grotto",
+            "cavity",
+            "tunnels",
+            "dugout",
+            "cave"
+          ]
+        },
+        {
+          "terrain": "Cliffs",
+          "synonyms": [
+            "precipice",
+            "face",
+            "crag",
+            "bluff",
+            "ridge",
+            "escarpment",
+            "steep"
+          ]
+        },
+        {
+          "terrain": "Desert",
+          "synonyms": [
+            "dunes",
+            "sands",
+            "vasts",
+            "wastes",
+            "blight",
+            "erg"
+          ]
+        },
+        {
+          "terrain": "Farmlands",
+          "synonyms": [
+            "tillage",
+            "holding",
+            "acreage",
+            "steading",
+            "grange",
+            "plantation"
+          ]
+        },
+        {
+          "terrain": "Forest",
+          "synonyms": [
+            "bush",
+            "woods",
+            "woodland",
+            "weald",
+            "grove",
+            "copse"
+          ]
+        },
+        {
+          "terrain": "Grasslands",
+          "synonyms": [
+            "pasture",
+            "fields",
+            "savanna",
+            "greenery"
+          ]
+        },
+        {
+          "terrain": "Hills",
+          "synonyms": [
+            "hillock",
+            "mound",
+            "mount",
+            "knoll",
+            "hummock",
+            "slope"
+          ]
+        },
+        {
+          "terrain": "Hollows",
+          "synonyms": [
+            "dip",
+            "hole",
+            "pit",
+            "cavity",
+            "crater",
+            "trough",
+            "holes"
+          ]
+        },
+        {
+          "terrain": "Jungle",
+          "synonyms": [],
+          "see": "Forest"
+        },
+        {
+          "terrain": "Lakes",
+          "synonyms": [
+            "pond",
+            "pool",
+            "tarn",
+            "lagoon",
+            "loch",
+            "bayou"
+          ]
+        },
+        {
+          "terrain": "Mountains",
+          "synonyms": [
+            "peaks",
+            "ridge",
+            "range",
+            "summit",
+            "pinnacle",
+            "butte"
+          ]
+        },
+        {
+          "terrain": "Oasis",
+          "synonyms": [
+            "spring",
+            "well",
+            "fountain",
+            "haven",
+            "watering hole",
+            "refuge"
+          ]
+        },
+        {
+          "terrain": "Plains",
+          "synonyms": [
+            "heath",
+            "meadow",
+            "veldt",
+            "flats",
+            "lowlands",
+            "sward"
+          ]
+        },
+        {
+          "terrain": "Plateau",
+          "synonyms": [
+            "uplands",
+            "mesa",
+            "highlands",
+            "downs",
+            "reach"
+          ]
+        },
+        {
+          "terrain": "River",
+          "synonyms": [
+            "waterway",
+            "stream",
+            "brook",
+            "runnel creek",
+            "channel"
+          ]
+        },
+        {
+          "terrain": "Sea",
+          "synonyms": [],
+          "see": "Beaches"
+        },
+        {
+          "terrain": "Swamp",
+          "synonyms": [
+            "moors",
+            "wetlands"
+          ]
+        },
+        {
+          "terrain": "Thickets",
+          "synonyms": [
+            "chaparral",
+            "boscage",
+            "covert",
+            "coppice",
+            "fells"
+          ]
+        },
+        {
+          "terrain": "Tundra",
+          "synonyms": [
+            "expanse",
+            "boreal",
+            "ley"
+          ]
+        },
+        {
+          "terrain": "Valley",
+          "synonyms": [
+            "dale",
+            "vale",
+            "basin",
+            "gorge",
+            "gap",
+            "glen"
+          ]
+        },
+        {
+          "terrain": "Wasteland",
+          "synonyms": [],
+          "see": "Desert"
+        }
+      ]
+    },
+    {
+      "id": "group-types",
+      "name": "Group Types",
+      "roll": "1d20",
+      "entries": [
+        "Assembly",
+        "Brotherhood",
+        "Circle",
+        "Clan",
+        "Coalition",
+        "Collective",
+        "Covenant",
+        "Enclave",
+        "Fellowship",
+        "Guild",
+        "Horde",
+        "League",
+        "Legion",
+        "Market",
+        "Ministry",
+        "Movement",
+        "Network",
+        "Order",
+        "Pact",
+        "Syndicate"
+      ]
+    },
+    {
+      "id": "faction-names-formula",
+      "name": "Faction Names Formula",
+      "roll": "1d6",
+      "entries": [
+        "(The) [Noun] [Group]",
+        "(The) [Adjective] [Group]",
+        "[Group] of (the) [Noun]",
+        "[Adjective] [Group] of (the) [Noun]",
+        "(The) [Noun] [Adjective] [Group]",
+        "[Group] of (the) [Adjective] [Noun]"
+      ]
+    },
+    {
+      "id": "ruler-types",
+      "name": "Ruler Types",
+      "roll": "1d20",
+      "entries": [
+        "Alliance",
+        "Barony",
+        "Commonwealth",
+        "Confederation",
+        "Dominion",
+        "Ecclesiarchy",
+        "Empire",
+        "Federacy",
+        "Fiefdom",
+        "Grand Duchy",
+        "Hegemony",
+        "Kingdom",
+        "Monarchy",
+        "Principality",
+        "Protectorate",
+        "Realm",
+        "Regency",
+        "Republic",
+        "State",
+        "Union"
+      ]
+    },
+    {
+      "id": "ruler-names-formula",
+      "name": "Realm (Ruler) Names Formula",
+      "roll": "1d6",
+      "entries": [
+        "(The) [Noun] [Rulers]",
+        "(The) [Adjective] [Rulers]",
+        "[Rulers] of (the) [Noun]",
+        "[Adjective] [Rulers] of (the) [Noun]",
+        "(The) [Noun] [Adjective] [Rulers]",
+        "[Rulers] of (the) [Adjective] [Noun]"
+      ]
+    },
+    {
+      "id": "forest-name-adjectives",
+      "name": "Forest Names: Adjectives",
+      "roll": "1d100",
+      "entries": [
+        "Abandoned",
+        "Ancient",
+        "Beckoning",
+        "Blooming",
+        "Bountiful",
+        "Celestial",
+        "Charmed",
+        "Crystal",
+        "Dappled",
+        "Dense",
+        "Desolate",
+        "Distant",
+        "Echoing",
+        "Eerie",
+        "Emerald",
+        "Enchanted",
+        "Enigmatic",
+        "Ephemeral",
+        "Eternal",
+        "Ethereal",
+        "Exotic",
+        "Fabled",
+        "Flourishing",
+        "Forgotten",
+        "Forsaken",
+        "Fragrant",
+        "Frosty",
+        "Gentle",
+        "Glistening",
+        "Gloomy",
+        "Gnarled",
+        "Golden",
+        "Grassy",
+        "Harmonious",
+        "Haunted",
+        "Hidden",
+        "Hushed",
+        "Illuminated",
+        "Jagged",
+        "Lavish",
+        "Leafy",
+        "Lonely",
+        "Looming",
+        "Lost",
+        "Luminescent",
+        "Luminous",
+        "Lush",
+        "Majestic",
+        "Melancholy",
+        "Menacing",
+        "Misty",
+        "Moonlit",
+        "Mossy",
+        "Murmuring",
+        "Mysterious",
+        "Mystic",
+        "Opulent",
+        "Overgrown",
+        "Precarious",
+        "Primeval",
+        "Pristine",
+        "Quaint",
+        "Radiant",
+        "Roaring",
+        "Rugged",
+        "Rustling",
+        "Sacred",
+        "Secluded",
+        "Serene",
+        "Serpentine",
+        "Shadowy",
+        "Shimmering",
+        "Shrouded",
+        "Silent",
+        "Smoky",
+        "Somber",
+        "Spectral",
+        "Splendid",
+        "Stark",
+        "Sturdy",
+        "Sunlit",
+        "Sunny",
+        "Swirling",
+        "Tangled",
+        "Timeless",
+        "Towering",
+        "Tranquil",
+        "Trickling",
+        "Twilight",
+        "Twisted",
+        "Unseen",
+        "Unyielding",
+        "Veiled",
+        "Verdant",
+        "Vibrant",
+        "Weathered",
+        "Weeping",
+        "Whispering",
+        "Wild",
+        "Winding"
+      ]
+    },
+    {
+      "id": "forest-name-nouns",
+      "name": "Forest Names: Nouns",
+      "roll": "1d100",
+      "entries": [
+        "Arbors",
+        "Arch",
+        "Blossoms",
+        "Bogs",
+        "Boughs",
+        "Brake",
+        "Brambles",
+        "Branches",
+        "Briar",
+        "Bridge",
+        "Brook",
+        "Brush",
+        "Camp",
+        "Canopy",
+        "Cascade",
+        "Cave",
+        "Cavern",
+        "Chase",
+        "Clearing",
+        "Clump",
+        "Coppice",
+        "Copse",
+        "Crags",
+        "Creek",
+        "Dale",
+        "Dell",
+        "Dew",
+        "Fell",
+        "Fen",
+        "Ferns",
+        "Foliage",
+        "Forest",
+        "Fungi",
+        "Gill",
+        "Glade",
+        "Glen",
+        "Gorge",
+        "Granite",
+        "Green",
+        "Grotto",
+        "Grove",
+        "Growth",
+        "Heath",
+        "Henge",
+        "Hollow",
+        "Horizon",
+        "Knar",
+        "Knoll",
+        "Leaves",
+        "Light",
+        "Loam",
+        "Loom",
+        "Marsh",
+        "Meadow",
+        "Mire",
+        "Morass",
+        "Oak",
+        "Oasis",
+        "Orchard",
+        "Pass",
+        "Passages",
+        "Path",
+        "Pathway",
+        "Pine",
+        "Roots",
+        "Sanctuary",
+        "Shade",
+        "Shadows",
+        "Shelter",
+        "Shrub",
+        "Slope",
+        "Spring",
+        "Stirs",
+        "Stones",
+        "Stream",
+        "Stump",
+        "Swale",
+        "Sward",
+        "Sway",
+        "Tangle",
+        "Thicket",
+        "Thistles",
+        "Timber",
+        "Timberland",
+        "Tower",
+        "Trails",
+        "Trees",
+        "Trunks",
+        "Underbrush",
+        "Undergrowth",
+        "Understory",
+        "Vines",
+        "Waterway",
+        "Weald",
+        "Wildwood",
+        "Woodland",
+        "Woodlot",
+        "Woods",
+        "Yonder",
+        "Zephyr"
+      ]
+    },
+    {
+      "id": "npc-names-1",
+      "name": "NPC Names (Set 1)",
+      "roll": "1d20",
+      "entries": [
+        "Alaric",
+        "Carver",
+        "Cleaver",
+        "Darnel",
+        "Eoin",
+        "Evander",
+        "Glyph",
+        "Hemlock",
+        "Herald",
+        "Lisbeth",
+        "Lucian",
+        "Luna",
+        "Lysander",
+        "Marius",
+        "Mend",
+        "Milo",
+        "Neria",
+        "Pan",
+        "Quill",
+        "Seraphine"
+      ]
+    },
+    {
+      "id": "npc-names-2",
+      "name": "NPC Names (Set 2)",
+      "roll": "1d20",
+      "entries": [
+        "Ainsley",
+        "Azura",
+        "Brave",
+        "Callan",
+        "Cedric",
+        "Crow",
+        "Finch",
+        "Gunnar",
+        "Harper",
+        "Liora",
+        "Lira",
+        "Lorelai",
+        "Lysandra",
+        "Marcellus",
+        "Shade",
+        "Shroud",
+        "Spade",
+        "Spike",
+        "Tanner",
+        "Thyme"
+      ]
+    },
+    {
+      "id": "npc-names-3",
+      "name": "NPC Names (Set 3)",
+      "roll": "1d20",
+      "entries": [
+        "Alder",
+        "Alistair",
+        "Caius",
+        "Dain",
+        "Dax",
+        "Dorian",
+        "Godric",
+        "Harkin",
+        "Hildred",
+        "Kael",
+        "Kavi",
+        "Mariner",
+        "Nazira",
+        "Onyx",
+        "Rolan",
+        "Rush",
+        "Sky",
+        "Storm",
+        "Taros",
+        "Thaddeus"
+      ]
+    },
+    {
+      "id": "npc-quirks",
+      "name": "Quirks",
+      "roll": "1d20",
+      "entries": [
+        "Alert",
+        "Bald",
+        "Bright Eyes",
+        "Broad Face",
+        "Crooked Teeth",
+        "Gaunt",
+        "Good Posture",
+        "Grimy",
+        "Harsh Voice",
+        "Heavy Brow",
+        "Limps",
+        "Missing Ear",
+        "Muscular",
+        "Notable Hair",
+        "Pleasant Voice",
+        "Squints",
+        "Strong",
+        "Thick Eyebrows",
+        "Tired",
+        "Young"
+      ]
+    },
+    {
+      "id": "npc-background",
+      "name": "Background",
+      "roll": "1d20",
+      "entries": [
+        "Academic",
+        "Assassin",
+        "Blacksmith",
+        "Farmer",
+        "General",
+        "Gravedigger",
+        "Guard",
+        "Healer",
+        "Jailer",
+        "Laborer",
+        "Lord",
+        "Merchant",
+        "Monk",
+        "Mystic",
+        "Outlander",
+        "Peddler",
+        "Politician",
+        "Spy",
+        "Thief",
+        "Thug"
+      ]
+    },
+    {
+      "id": "npc-goals",
+      "name": "Goals",
+      "roll": "1d20",
+      "entries": [
+        "Ascension",
+        "Cleansing",
+        "Conservation",
+        "Defense",
+        "Domination",
+        "Enrichment",
+        "Expansion",
+        "Freedom",
+        "Healing",
+        "Integration",
+        "Justice",
+        "Peace",
+        "Power",
+        "Preservation",
+        "Purification",
+        "Redemption",
+        "Revenge",
+        "Survival",
+        "Unity",
+        "Wealth"
+      ]
+    },
+    {
+      "id": "npc-virtues",
+      "name": "Virtues",
+      "roll": "1d20",
+      "entries": [
+        "Cautious",
+        "Compassionate",
+        "Connected",
+        "Courageous",
+        "Disciplined",
+        "Discreet",
+        "Honest",
+        "Intelligent",
+        "Judicious",
+        "Loyal",
+        "Methodical",
+        "Meticulous",
+        "Polite",
+        "Popular",
+        "Pragmatic",
+        "Resourceful",
+        "Suave",
+        "Shrewd",
+        "Tenacious",
+        "Witty"
+      ]
+    },
+    {
+      "id": "npc-vices",
+      "name": "Vices",
+      "roll": "1d20",
+      "entries": [
+        "Aloof",
+        "Corrupt",
+        "Craven",
+        "Cruel",
+        "Cynical",
+        "Deceptive",
+        "Greedy",
+        "Impulsive",
+        "Incompetent",
+        "Inflexible",
+        "Manipulative",
+        "Mercurial",
+        "Naive",
+        "Pedantic",
+        "Ruthless",
+        "Sarcastic",
+        "Selfish",
+        "Stubborn",
+        "Vain",
+        "Xenophobic"
+      ]
+    },
+    {
+      "id": "dungeon-purpose",
+      "name": "Dungeon History: Purpose (Original Use / Built By)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Ancestral Rites",
+          "col2": "A Fallen Hero"
+        },
+        {
+          "col1": "Arcane Library",
+          "col2": "A Fanatical Cult"
+        },
+        {
+          "col1": "Astral Trading Hub",
+          "col2": "A Forgotten Empire"
+        },
+        {
+          "col1": "Bestial Creations",
+          "col2": "A Long-Dead Poet"
+        },
+        {
+          "col1": "Breeding Grounds",
+          "col2": "A Militant Order"
+        },
+        {
+          "col1": "Burial Site",
+          "col2": "A Renowned Alchemist"
+        },
+        {
+          "col1": "Celestial Observations",
+          "col2": "A Royal Dynasty"
+        },
+        {
+          "col1": "Covert Experiments",
+          "col2": "A Secret Society"
+        },
+        {
+          "col1": "Forbidden Trysts",
+          "col2": "A Tyrannical Ruler"
+        },
+        {
+          "col1": "Forge for a Great Weapon",
+          "col2": "A Warrior Tribe"
+        },
+        {
+          "col1": "Hideout",
+          "col2": "A Wealthy Recluse"
+        },
+        {
+          "col1": "Impenetrable Vault",
+          "col2": "Desperate Rebels"
+        },
+        {
+          "col1": "Invasion of Dreams",
+          "col2": "Heretical Alchemists"
+        },
+        {
+          "col1": "Isolated Refuge",
+          "col2": "Heretical Monks"
+        },
+        {
+          "col1": "Military Outpost",
+          "col2": "Immoral Sorcerers"
+        },
+        {
+          "col1": "Observatory",
+          "col2": "Inverted Astrologers"
+        },
+        {
+          "col1": "Pilgrimage Site",
+          "col2": "Mob Families"
+        },
+        {
+          "col1": "Protection of Rare Artifacts",
+          "col2": "Opulent Merchants"
+        },
+        {
+          "col1": "Secret Meeting Place",
+          "col2": "Pilgrims to a Dead God"
+        },
+        {
+          "col1": "Treasure Horde",
+          "col2": "Rogue Scholars"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-construction",
+      "name": "Dungeon History: Construction (Entrance / Composition)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "A Creature's Lair",
+          "col2": "Bone"
+        },
+        {
+          "col1": "A Dream",
+          "col2": "Coral"
+        },
+        {
+          "col1": "A Massive Tree",
+          "col2": "Crystal"
+        },
+        {
+          "col1": "A Well",
+          "col2": "Earth"
+        },
+        {
+          "col1": "An Enormous Grave",
+          "col2": "Ethereal Fabric"
+        },
+        {
+          "col1": "Behind a Waterfall",
+          "col2": "Flesh"
+        },
+        {
+          "col1": "Between Menhirs",
+          "col2": "Floating Platforms"
+        },
+        {
+          "col1": "Cave",
+          "col2": "Fungi"
+        },
+        {
+          "col1": "Center of a Maze",
+          "col2": "Glass"
+        },
+        {
+          "col1": "Cliff door",
+          "col2": "Ice"
+        },
+        {
+          "col1": "Hollow Statue",
+          "col2": "Living Plants"
+        },
+        {
+          "col1": "Illusory Wall",
+          "col2": "Marble"
+        },
+        {
+          "col1": "Mine Shaft",
+          "col2": "Metal"
+        },
+        {
+          "col1": "Sinking Sand",
+          "col2": "Obsidian"
+        },
+        {
+          "col1": "Skyward Beam of Light",
+          "col2": "Petrified Wood"
+        },
+        {
+          "col1": "Starlight Path",
+          "col2": "Sand"
+        },
+        {
+          "col1": "Through a Painting",
+          "col2": "Shadow Material"
+        },
+        {
+          "col1": "Under a Bridge",
+          "col2": "Stone"
+        },
+        {
+          "col1": "Underwater Tunnel",
+          "col2": "Webs"
+        },
+        {
+          "col1": "Veil of Mist",
+          "col2": "Wood"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-ruination",
+      "name": "Dungeon History: Ruination (Condition / Cause)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Corpse",
+          "col2": "Alchemical Accident"
+        },
+        {
+          "col1": "Crumbling",
+          "col2": "Ancient Curse"
+        },
+        {
+          "col1": "Cursed",
+          "col2": "Cataclysmic Flood"
+        },
+        {
+          "col1": "Desecrated",
+          "col2": "Civil War"
+        },
+        {
+          "col1": "Devoured",
+          "col2": "Competing Rituals"
+        },
+        {
+          "col1": "Displaced",
+          "col2": "Consumed by a Beast"
+        },
+        {
+          "col1": "Divided",
+          "col2": "Disease"
+        },
+        {
+          "col1": "Frozen",
+          "col2": "Hedonism"
+        },
+        {
+          "col1": "Haunted",
+          "col2": "Invasion"
+        },
+        {
+          "col1": "Infested",
+          "col2": "Long-Term Abandonment"
+        },
+        {
+          "col1": "Overgrown",
+          "col2": "Magic Gone Awry"
+        },
+        {
+          "col1": "Overpopulated",
+          "col2": "Magical Seal"
+        },
+        {
+          "col1": "Petrified",
+          "col2": "Natural Disaster"
+        },
+        {
+          "col1": "Plundered",
+          "col2": "Natural Erosion"
+        },
+        {
+          "col1": "Poisoned",
+          "col2": "Obfuscation"
+        },
+        {
+          "col1": "Scorched",
+          "col2": "Overrun with Monsters"
+        },
+        {
+          "col1": "Shrouded in Mist",
+          "col2": "Sudden Change in Climate"
+        },
+        {
+          "col1": "Submerged",
+          "col2": "Teleported to Another Realm"
+        },
+        {
+          "col1": "Unending",
+          "col2": "Turned to Stone"
+        },
+        {
+          "col1": "Warped",
+          "col2": "Unresolved Spirits"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-denizen-traits",
+      "name": "Dungeon Denizens: Traits (Virtues / Vices)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Compassionate",
+          "col2": "Absent-Minded"
+        },
+        {
+          "col1": "Courageous",
+          "col2": "Aloof"
+        },
+        {
+          "col1": "Creative",
+          "col2": "Critical"
+        },
+        {
+          "col1": "Deductive",
+          "col2": "Cynical"
+        },
+        {
+          "col1": "Honest",
+          "col2": "Greedy"
+        },
+        {
+          "col1": "Incisive",
+          "col2": "Impulsive"
+        },
+        {
+          "col1": "Incorruptible",
+          "col2": "Inflexible"
+        },
+        {
+          "col1": "Individualistic",
+          "col2": "Naive"
+        },
+        {
+          "col1": "Loyal",
+          "col2": "Obstinate"
+        },
+        {
+          "col1": "Methodical",
+          "col2": "Passive"
+        },
+        {
+          "col1": "Polite",
+          "col2": "Pedantic"
+        },
+        {
+          "col1": "Practical",
+          "col2": "Perfectionist"
+        },
+        {
+          "col1": "Resilient",
+          "col2": "Sarcastic"
+        },
+        {
+          "col1": "Scholarly",
+          "col2": "Selfish"
+        },
+        {
+          "col1": "Self-Sufficient",
+          "col2": "Skeptical"
+        },
+        {
+          "col1": "Solid",
+          "col2": "Stubborn"
+        },
+        {
+          "col1": "Studious",
+          "col2": "Superficial"
+        },
+        {
+          "col1": "Suave",
+          "col2": "Unfocused"
+        },
+        {
+          "col1": "Unwavering",
+          "col2": "Unimaginative"
+        },
+        {
+          "col1": "Witty",
+          "col2": "Vain"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-faction-agendas",
+      "name": "Dungeon Factions: Agendas (Goal / Obstacle)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Ascension",
+          "col2": "Conflict"
+        },
+        {
+          "col1": "Creation",
+          "col2": "Corruption"
+        },
+        {
+          "col1": "Destruction",
+          "col2": "Cost"
+        },
+        {
+          "col1": "Dominion",
+          "col2": "Danger"
+        },
+        {
+          "col1": "Enlightenment",
+          "col2": "Decay"
+        },
+        {
+          "col1": "Exploration",
+          "col2": "Discord"
+        },
+        {
+          "col1": "Growth",
+          "col2": "Division"
+        },
+        {
+          "col1": "Innovation",
+          "col2": "Dogma"
+        },
+        {
+          "col1": "Justice",
+          "col2": "Exposure"
+        },
+        {
+          "col1": "Knowledge",
+          "col2": "Factionalism"
+        },
+        {
+          "col1": "Liberation",
+          "col2": "Fear"
+        },
+        {
+          "col1": "Peace",
+          "col2": "Ignorance"
+        },
+        {
+          "col1": "Power",
+          "col2": "Incompetence"
+        },
+        {
+          "col1": "Preservation",
+          "col2": "Injustice"
+        },
+        {
+          "col1": "Protection",
+          "col2": "Isolation"
+        },
+        {
+          "col1": "Redemption",
+          "col2": "Opposition"
+        },
+        {
+          "col1": "Revenge",
+          "col2": "Sacrifice"
+        },
+        {
+          "col1": "Survival",
+          "col2": "Stagnation"
+        },
+        {
+          "col1": "Transformation",
+          "col2": "Tradition"
+        },
+        {
+          "col1": "Wealth",
+          "col2": "Weakness"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-die-drop",
+      "name": "Dungeon Die Drop Table",
+      "roll": "1d6",
+      "entries": [
+        {
+          "roll": "1",
+          "room": "Monster"
+        },
+        {
+          "roll": "2-3",
+          "room": "Lore"
+        },
+        {
+          "roll": "4",
+          "room": "Special"
+        },
+        {
+          "roll": "5-6",
+          "room": "Trap"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-room-monster",
+      "name": "Stock the Rooms: Monster (Group / Activity)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Avian",
+          "col2": "Building"
+        },
+        {
+          "col1": "Beast",
+          "col2": "Devouring"
+        },
+        {
+          "col1": "Behemoth",
+          "col2": "Dying"
+        },
+        {
+          "col1": "Construct",
+          "col2": "Fighting"
+        },
+        {
+          "col1": "Demon",
+          "col2": "Growing"
+        },
+        {
+          "col1": "Extraplanar",
+          "col2": "Haunting"
+        },
+        {
+          "col1": "Fey",
+          "col2": "Hiding"
+        },
+        {
+          "col1": "Giant",
+          "col2": "Killing"
+        },
+        {
+          "col1": "Goblinoid",
+          "col2": "Mating"
+        },
+        {
+          "col1": "Humanoid",
+          "col2": "Mourning"
+        },
+        {
+          "col1": "Hybrid",
+          "col2": "Patrolling"
+        },
+        {
+          "col1": "Incorporeal",
+          "col2": "Praying"
+        },
+        {
+          "col1": "Insectoid",
+          "col2": "Protecting"
+        },
+        {
+          "col1": "Lizard",
+          "col2": "Recuperating"
+        },
+        {
+          "col1": "Magical",
+          "col2": "Scheming"
+        },
+        {
+          "col1": "Mythical",
+          "col2": "Sleeping"
+        },
+        {
+          "col1": "Plant",
+          "col2": "Stalking"
+        },
+        {
+          "col1": "Shape Shifter",
+          "col2": "Torturing"
+        },
+        {
+          "col1": "Undead",
+          "col2": "Training"
+        },
+        {
+          "col1": "Unusual",
+          "col2": "Trapped"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-room-lore",
+      "name": "Stock the Rooms: Lore (Room Type / Clue)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Armory",
+          "col2": "Decay"
+        },
+        {
+          "col1": "Barracks",
+          "col2": "Decor"
+        },
+        {
+          "col1": "Bath",
+          "col2": "Draft"
+        },
+        {
+          "col1": "Cistern",
+          "col2": "Echoes"
+        },
+        {
+          "col1": "Court",
+          "col2": "Footprints"
+        },
+        {
+          "col1": "Crypt",
+          "col2": "Leavings"
+        },
+        {
+          "col1": "Den",
+          "col2": "Light"
+        },
+        {
+          "col1": "Dining Hall",
+          "col2": "Markings"
+        },
+        {
+          "col1": "Guard Post",
+          "col2": "Moisture"
+        },
+        {
+          "col1": "Infirmary",
+          "col2": "Noise"
+        },
+        {
+          "col1": "Kitchen",
+          "col2": "Paraphernalia"
+        },
+        {
+          "col1": "Latrine",
+          "col2": "Residue"
+        },
+        {
+          "col1": "Library",
+          "col2": "Scurrying"
+        },
+        {
+          "col1": "Shrine",
+          "col2": "Signs"
+        },
+        {
+          "col1": "Smith",
+          "col2": "Smell"
+        },
+        {
+          "col1": "Stable",
+          "col2": "Stains"
+        },
+        {
+          "col1": "Storage",
+          "col2": "Tapping"
+        },
+        {
+          "col1": "Study",
+          "col2": "Temperature"
+        },
+        {
+          "col1": "Vault",
+          "col2": "Vibrations"
+        },
+        {
+          "col1": "Workshop",
+          "col2": "Writing"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-room-special",
+      "name": "Stock the Rooms: Special (Special / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Books",
+          "col2": "Ages"
+        },
+        {
+          "col1": "Bridge",
+          "col2": "Alarms"
+        },
+        {
+          "col1": "Contraption",
+          "col2": "Animates"
+        },
+        {
+          "col1": "Creature",
+          "col2": "Attracts"
+        },
+        {
+          "col1": "Door",
+          "col2": "Charges"
+        },
+        {
+          "col1": "Flames",
+          "col2": "Closes"
+        },
+        {
+          "col1": "Furniture",
+          "col2": "Falls"
+        },
+        {
+          "col1": "Hole",
+          "col2": "Glows"
+        },
+        {
+          "col1": "Liquid",
+          "col2": "Grows"
+        },
+        {
+          "col1": "Mirror",
+          "col2": "Illusion"
+        },
+        {
+          "col1": "Mural",
+          "col2": "Levitates"
+        },
+        {
+          "col1": "Pool",
+          "col2": "Locks"
+        },
+        {
+          "col1": "Shadows",
+          "col2": "Opens"
+        },
+        {
+          "col1": "Smoke",
+          "col2": "Reflects"
+        },
+        {
+          "col1": "Statue",
+          "col2": "Repels"
+        },
+        {
+          "col1": "Surface",
+          "col2": "Reveals"
+        },
+        {
+          "col1": "Treasure",
+          "col2": "Shifts"
+        },
+        {
+          "col1": "Voices",
+          "col2": "Silences"
+        },
+        {
+          "col1": "Wheel",
+          "col2": "Teleport"
+        },
+        {
+          "col1": "Writing",
+          "col2": "Transforms"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-room-trap",
+      "name": "Stock the Rooms: Trap (Trap / Trigger)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Ages",
+          "col2": "Activating"
+        },
+        {
+          "col1": "Burns",
+          "col2": "Breaking"
+        },
+        {
+          "col1": "Captures",
+          "col2": "Crossing"
+        },
+        {
+          "col1": "Carries",
+          "col2": "Disturbing"
+        },
+        {
+          "col1": "Confuses",
+          "col2": "Entering"
+        },
+        {
+          "col1": "Crushes",
+          "col2": "Extinguishing"
+        },
+        {
+          "col1": "Curses",
+          "col2": "Focusing"
+        },
+        {
+          "col1": "Cuts",
+          "col2": "Interacting"
+        },
+        {
+          "col1": "Deafens",
+          "col2": "Lighting"
+        },
+        {
+          "col1": "Drops",
+          "col2": "Moving"
+        },
+        {
+          "col1": "Drowns",
+          "col2": "Opening"
+        },
+        {
+          "col1": "Freezes",
+          "col2": "Pulling"
+        },
+        {
+          "col1": "Glues",
+          "col2": "Pushing"
+        },
+        {
+          "col1": "Hypnotizes",
+          "col2": "Reading"
+        },
+        {
+          "col1": "Impales",
+          "col2": "Speaking"
+        },
+        {
+          "col1": "Infects",
+          "col2": "Stepping"
+        },
+        {
+          "col1": "Lifts",
+          "col2": "Taking"
+        },
+        {
+          "col1": "Poisons",
+          "col2": "Talking"
+        },
+        {
+          "col1": "Shocks",
+          "col2": "Touching"
+        },
+        {
+          "col1": "Shoots",
+          "col2": "Tripping"
+        }
+      ]
+    },
+    {
+      "id": "forest-description",
+      "name": "Forest Description",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Barren",
+          "col2": "Ancient"
+        },
+        {
+          "col1": "Crystalline",
+          "col2": "Awakening"
+        },
+        {
+          "col1": "Diseased",
+          "col2": "Buzzing"
+        },
+        {
+          "col1": "Dying",
+          "col2": "Decaying"
+        },
+        {
+          "col1": "Flowering",
+          "col2": "Flooded"
+        },
+        {
+          "col1": "Glowing",
+          "col2": "Foggy"
+        },
+        {
+          "col1": "Hallowed",
+          "col2": "Frigid"
+        },
+        {
+          "col1": "Mossy",
+          "col2": "Frozen"
+        },
+        {
+          "col1": "Murky",
+          "col2": "Fungal"
+        },
+        {
+          "col1": "Perilous",
+          "col2": "Hidden"
+        },
+        {
+          "col1": "Petrified",
+          "col2": "Infested"
+        },
+        {
+          "col1": "Polluted",
+          "col2": "Misty"
+        },
+        {
+          "col1": "Primeval",
+          "col2": "Mossy"
+        },
+        {
+          "col1": "Scorched",
+          "col2": "Overgrown"
+        },
+        {
+          "col1": "Secluded",
+          "col2": "Sacred"
+        },
+        {
+          "col1": "Suffocating",
+          "col2": "Secluded"
+        },
+        {
+          "col1": "Timeless",
+          "col2": "Silent"
+        },
+        {
+          "col1": "Uncharted",
+          "col2": "Smoldering"
+        },
+        {
+          "col1": "Unspoilt",
+          "col2": "Sunlit"
+        },
+        {
+          "col1": "Winding",
+          "col2": "Wild"
+        }
+      ]
+    },
+    {
+      "id": "forest-traits",
+      "name": "Spirit of the Forest: Traits (Virtues / Vices)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Adaptive",
+          "col2": "Aggressive"
+        },
+        {
+          "col1": "Balanced",
+          "col2": "Aloof"
+        },
+        {
+          "col1": "Brave",
+          "col2": "Covetous"
+        },
+        {
+          "col1": "Clever",
+          "col2": "Detached"
+        },
+        {
+          "col1": "Cultivating",
+          "col2": "Dominating"
+        },
+        {
+          "col1": "Empathic",
+          "col2": "Doubtful"
+        },
+        {
+          "col1": "Enduring",
+          "col2": "Invasive"
+        },
+        {
+          "col1": "Graceful",
+          "col2": "Judgmental"
+        },
+        {
+          "col1": "Hardy",
+          "col2": "Naive"
+        },
+        {
+          "col1": "Harmonious",
+          "col2": "Obscuring"
+        },
+        {
+          "col1": "Independent",
+          "col2": "Overzealous"
+        },
+        {
+          "col1": "Learned",
+          "col2": "Parasitic"
+        },
+        {
+          "col1": "Nurturing",
+          "col2": "Passive"
+        },
+        {
+          "col1": "Observant",
+          "col2": "Polluting"
+        },
+        {
+          "col1": "Purifying",
+          "col2": "Predatory"
+        },
+        {
+          "col1": "Resolute",
+          "col2": "Prideful"
+        },
+        {
+          "col1": "Sensible",
+          "col2": "Rigid"
+        },
+        {
+          "col1": "Sharp",
+          "col2": "Scatterbrained"
+        },
+        {
+          "col1": "Stable",
+          "col2": "Selfish"
+        },
+        {
+          "col1": "Trusting",
+          "col2": "Territorial"
+        }
+      ]
+    },
+    {
+      "id": "forest-agenda",
+      "name": "Forest Agenda (Goal / Obstacle)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Abundance",
+          "col2": "Agreements"
+        },
+        {
+          "col1": "Awakening",
+          "col2": "Belief"
+        },
+        {
+          "col1": "Balance",
+          "col2": "Contamination"
+        },
+        {
+          "col1": "Cleansing",
+          "col2": "Disease"
+        },
+        {
+          "col1": "Conservation",
+          "col2": "Exploitation"
+        },
+        {
+          "col1": "Defense",
+          "col2": "Fragmentation"
+        },
+        {
+          "col1": "Discovery",
+          "col2": "Frailty"
+        },
+        {
+          "col1": "Emancipation",
+          "col2": "Greed"
+        },
+        {
+          "col1": "Enrichment",
+          "col2": "Ignorance"
+        },
+        {
+          "col1": "Evolution",
+          "col2": "Infestation"
+        },
+        {
+          "col1": "Expansion",
+          "col2": "Invasion"
+        },
+        {
+          "col1": "Harmony",
+          "col2": "Isolation"
+        },
+        {
+          "col1": "Healing",
+          "col2": "Leadership"
+        },
+        {
+          "col1": "Integration",
+          "col2": "Oppression"
+        },
+        {
+          "col1": "Justice",
+          "col2": "Pollution"
+        },
+        {
+          "col1": "Metamorphosis",
+          "col2": "Scarcity"
+        },
+        {
+          "col1": "Purification",
+          "col2": "Stasis"
+        },
+        {
+          "col1": "Rebirth",
+          "col2": "Turmoil"
+        },
+        {
+          "col1": "Tranquility",
+          "col2": "Vulnerability"
+        },
+        {
+          "col1": "Unity",
+          "col2": "Vulnerability"
+        }
+      ]
+    },
+    {
+      "id": "forest-die-drop",
+      "name": "Forest Die Drop Table",
+      "roll": "1d6",
+      "entries": [
+        {
+          "roll": "1",
+          "poi": "Monster"
+        },
+        {
+          "roll": "2-3",
+          "poi": "Ruins"
+        },
+        {
+          "roll": "4",
+          "poi": "Shelter"
+        },
+        {
+          "roll": "5-6",
+          "poi": "Hazard"
+        }
+      ]
+    },
+    {
+      "id": "forest-trail-types",
+      "name": "Trail Types (Type / Marker)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Animal Path",
+          "col2": "Bear Rubbings"
+        },
+        {
+          "col1": "Bandit's Run",
+          "col2": "Bent Trees"
+        },
+        {
+          "col1": "Bouldered Way",
+          "col2": "Claw Marks"
+        },
+        {
+          "col1": "Cloistered Grove",
+          "col2": "Damaged Flora"
+        },
+        {
+          "col1": "Deer Crossing",
+          "col2": "Deer Tracks"
+        },
+        {
+          "col1": "Dry Riverbed",
+          "col2": "Distant Singing"
+        },
+        {
+          "col1": "Fae Passage",
+          "col2": "Faint Laughter"
+        },
+        {
+          "col1": "Farm Trail",
+          "col2": "Fox Prints"
+        },
+        {
+          "col1": "Foraging Path",
+          "col2": "Fresh Spiderwebs"
+        },
+        {
+          "col1": "Hunter's Track",
+          "col2": "Giant Feathers"
+        },
+        {
+          "col1": "King's March",
+          "col2": "Glowing Toadstools"
+        },
+        {
+          "col1": "Merchant's Road",
+          "col2": "Muted Bells"
+        },
+        {
+          "col1": "Old Logging Road",
+          "col2": "Peripheral Images"
+        },
+        {
+          "col1": "Orchard Path",
+          "col2": "Rabbit Droppings"
+        },
+        {
+          "col1": "Pilgrim's Footpath",
+          "col2": "Serpent Traces"
+        },
+        {
+          "col1": "Spore Saturated",
+          "col2": "Smoke"
+        },
+        {
+          "col1": "Sticky Sap Path",
+          "col2": "Stillness"
+        },
+        {
+          "col1": "Trail Tree",
+          "col2": "Stone Piles"
+        },
+        {
+          "col1": "Treeline Heights",
+          "col2": "Swaying Plants"
+        },
+        {
+          "col1": "War Route",
+          "col2": "Tree Carvings"
+        }
+      ]
+    },
+    {
+      "id": "forest-poi-monster",
+      "name": "POI: Monster (Monster / Activity)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Bandit",
+          "col2": "Burrowing"
+        },
+        {
+          "col1": "Blink Dog",
+          "col2": "Burying"
+        },
+        {
+          "col1": "Blood Elk",
+          "col2": "Destroying"
+        },
+        {
+          "col1": "Centaur",
+          "col2": "Devouring"
+        },
+        {
+          "col1": "Dryad",
+          "col2": "Dying"
+        },
+        {
+          "col1": "Ettin",
+          "col2": "Fighting"
+        },
+        {
+          "col1": "Gargoyle",
+          "col2": "Foraging"
+        },
+        {
+          "col1": "Green Dragon",
+          "col2": "Guarding"
+        },
+        {
+          "col1": "Grizzly Bear",
+          "col2": "Hiding"
+        },
+        {
+          "col1": "Killer Bees",
+          "col2": "Hunting"
+        },
+        {
+          "col1": "Naga",
+          "col2": "Killing"
+        },
+        {
+          "col1": "Night Cat",
+          "col2": "Mating"
+        },
+        {
+          "col1": "Owlbear",
+          "col2": "Mourning"
+        },
+        {
+          "col1": "Pixie",
+          "col2": "Patrolling"
+        },
+        {
+          "col1": "Skeleton",
+          "col2": "Prowling"
+        },
+        {
+          "col1": "Treant",
+          "col2": "Recuperating"
+        },
+        {
+          "col1": "Unicorn",
+          "col2": "Scouting"
+        },
+        {
+          "col1": "Will-o-Wisp",
+          "col2": "Stalking"
+        },
+        {
+          "col1": "Wolf",
+          "col2": "Torturing"
+        },
+        {
+          "col1": "Wood Troll",
+          "col2": "Trapped"
+        }
+      ]
+    },
+    {
+      "id": "forest-poi-ruins",
+      "name": "POI: Ruins (Ruin / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Abandoned Manor",
+          "col2": "A Forest Spirit, Ready to Die"
+        },
+        {
+          "col1": "Broken Sundial",
+          "col2": "A Hag, Foraging for Ingredients"
+        },
+        {
+          "col1": "Chipped Bell Tower",
+          "col2": "A Mirror of Itself"
+        },
+        {
+          "col1": "Collapsed Megalith",
+          "col2": "A Self-Obsessed Sprite"
+        },
+        {
+          "col1": "Crumbled Watchtower",
+          "col2": "A Silent, Ghostly Concert"
+        },
+        {
+          "col1": "Decomposed Canoes",
+          "col2": "A Very Tiny Ruined Village"
+        },
+        {
+          "col1": "Entangled Pavilion",
+          "col2": "Bound by an Unbreakable Curse"
+        },
+        {
+          "col1": "Exposed Workshop",
+          "col2": "Bound Creature"
+        },
+        {
+          "col1": "Flooded Monastery",
+          "col2": "Broken Portal"
+        },
+        {
+          "col1": "Moldering Farmhouse",
+          "col2": "Fresh Corpses"
+        },
+        {
+          "col1": "Neglected Shrine",
+          "col2": "Hidden Cache"
+        },
+        {
+          "col1": "Overrun Estate",
+          "col2": "Hooded Men Completing a Ritual"
+        },
+        {
+          "col1": "Petrified Campsite",
+          "col2": "Inaudible Whispers from All Directions"
+        },
+        {
+          "col1": "Rotted Mill",
+          "col2": "Marked by Battles Of Yore"
+        },
+        {
+          "col1": "Ruined Cloister",
+          "col2": "Overrun with Unusual Flora"
+        },
+        {
+          "col1": "Rusted Market",
+          "col2": "Realistic Toy Soldiers"
+        },
+        {
+          "col1": "Shattered Bridge",
+          "col2": "Remnants of a Failed Ritual"
+        },
+        {
+          "col1": "Splintered Obelisk",
+          "col2": "The Veil Between Worlds Is Thin"
+        },
+        {
+          "col1": "Sunken Gazebo",
+          "col2": "Visions of the Past"
+        },
+        {
+          "col1": "Toppled Statue",
+          "col2": "Warded Grounds"
+        }
+      ]
+    },
+    {
+      "id": "forest-poi-shelter",
+      "name": "POI: Shelter (Shelter / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Bandit Hideout",
+          "col2": "Abandoned, for Now"
+        },
+        {
+          "col1": "Falconer's Tower",
+          "col2": "Attracts Wild Beasts"
+        },
+        {
+          "col1": "Fishing Hut",
+          "col2": "Built in Defiance of Customs"
+        },
+        {
+          "col1": "Forgotten Ruins",
+          "col2": "Constructed Within a Giant Tree"
+        },
+        {
+          "col1": "Hermit's Cabin",
+          "col2": "Forest-Knight Offers a Challenge"
+        },
+        {
+          "col1": "Hidden Village",
+          "col2": "Guarded by Trained Animals"
+        },
+        {
+          "col1": "Hillside Cave",
+          "col2": "Haunted by Unhelpful Ghosts"
+        },
+        {
+          "col1": "Hollow Tree",
+          "col2": "Hides a Powerful Artifact"
+        },
+        {
+          "col1": "Hunter's Lodge",
+          "col2": "Hunting Is Forbidden"
+        },
+        {
+          "col1": "Hut with Legs",
+          "col2": "Inhabited by a Supernatural Entity"
+        },
+        {
+          "col1": "Ivy-Wrapped Tower",
+          "col2": "Occupied by Army Deserters"
+        },
+        {
+          "col1": "Lean-To",
+          "col2": "Overrun with Cultists"
+        },
+        {
+          "col1": "Lumber Site",
+          "col2": "Pale Folk Dinner Locale"
+        },
+        {
+          "col1": "Monastic Retreat",
+          "col2": "Parasitic Foliage"
+        },
+        {
+          "col1": "Mossy Pool",
+          "col2": "Pig Folk Hunting Grounds"
+        },
+        {
+          "col1": "Night Market",
+          "col2": "Popular with Smugglers"
+        },
+        {
+          "col1": "Pale Folk Stable",
+          "col2": "Presents a Ready Meal"
+        },
+        {
+          "col1": "Ranger's Outpost",
+          "col2": "Protected by a Playful Spirit"
+        },
+        {
+          "col1": "Smoky Cabin",
+          "col2": "Site of an Ancient Murder"
+        },
+        {
+          "col1": "Tattered Windmill",
+          "col2": "Thieves' Camp"
+        }
+      ]
+    },
+    {
+      "id": "forest-poi-hazard",
+      "name": "POI: Hazard (Hazard / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Animal Trap",
+          "col2": "A Pet Basilisk"
+        },
+        {
+          "col1": "Bog Shadows",
+          "col2": "A Spell Gone Wrong"
+        },
+        {
+          "col1": "Bone Orchard",
+          "col2": "Animated Armor"
+        },
+        {
+          "col1": "Bramble Tunnels",
+          "col2": "Bird Spies"
+        },
+        {
+          "col1": "Frozen Troll",
+          "col2": "Bleeding Trees"
+        },
+        {
+          "col1": "Giant Spider Nest",
+          "col2": "Ghosts Trapped in Crystal"
+        },
+        {
+          "col1": "Insect Swarm",
+          "col2": "Giant Rodent Feeding Grounds"
+        },
+        {
+          "col1": "Moving Thickets",
+          "col2": "Highly Localized Weather"
+        },
+        {
+          "col1": "Poisonous Plants",
+          "col2": "Howling Stones"
+        },
+        {
+          "col1": "Psychic Fog",
+          "col2": "Injured Creature"
+        },
+        {
+          "col1": "Sap Trap",
+          "col2": "Invisible Webs"
+        },
+        {
+          "col1": "Sleeping Giant",
+          "col2": "Living Scarecrows"
+        },
+        {
+          "col1": "Slippery Moss",
+          "col2": "Memory Stealers"
+        },
+        {
+          "col1": "Slow Quicksand",
+          "col2": "Mimic Vines"
+        },
+        {
+          "col1": "Spiked Pit",
+          "col2": "Paths that Change Randomly"
+        },
+        {
+          "col1": "Stinging Nettles",
+          "col2": "Scavengers that Wait"
+        },
+        {
+          "col1": "Thorny Thickets",
+          "col2": "Watchful Dead"
+        },
+        {
+          "col1": "Toxic Spores",
+          "col2": "Tracks Erased by Mist"
+        },
+        {
+          "col1": "Troll Den",
+          "col2": "Trees that Grow From Bones"
+        },
+        {
+          "col1": "Unstable Ground",
+          "col2": "Will-o-Wisps Congregate"
+        }
+      ]
+    },
+    {
+      "id": "forest-encounters",
+      "name": "Forest Encounters",
+      "roll": "1d6",
+      "entries": [
+        "A tiny bearded man argues with a squawking raven. It holds something shiny in its beak.",
+        "A dryad sits atop a stone, a purple fungus lining her arms. There is violence in her eyes.",
+        "A patch of quicksand is disguised as soft ground. A broken spool of rope lies nearby.",
+        "A snarling pack of wolves surround a fresh kill. They are not keen to share.",
+        "Wild berries grow here in abundance. None have been eaten, not even by birds.",
+        "A trap, hastily set and poorly concealed. It smells strongly of urine."
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "People: Culture (Character / Ambition)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Altruistic",
+          "col2": "Bounty"
+        },
+        {
+          "col1": "Artistic",
+          "col2": "Conquest"
+        },
+        {
+          "col1": "Curious",
+          "col2": "Control"
+        },
+        {
+          "col1": "Devious",
+          "col2": "Conversion"
+        },
+        {
+          "col1": "Enlightened",
+          "col2": "Division"
+        },
+        {
+          "col1": "Hardy",
+          "col2": "Dominance"
+        },
+        {
+          "col1": "Harmonious",
+          "col2": "Exploration"
+        },
+        {
+          "col1": "Inventive",
+          "col2": "Fealty"
+        },
+        {
+          "col1": "Mercantile",
+          "col2": "Independence"
+        },
+        {
+          "col1": "Nomadic",
+          "col2": "Knowledge"
+        },
+        {
+          "col1": "Reclusive",
+          "col2": "Natural Harmony"
+        },
+        {
+          "col1": "Religious",
+          "col2": "Peace"
+        },
+        {
+          "col1": "Resilient",
+          "col2": "Power"
+        },
+        {
+          "col1": "Scholarly",
+          "col2": "Purity"
+        },
+        {
+          "col1": "Stoic",
+          "col2": "Recognition"
+        },
+        {
+          "col1": "Struggling",
+          "col2": "Return"
+        },
+        {
+          "col1": "Traditional",
+          "col2": "Security"
+        },
+        {
+          "col1": "War-like",
+          "col2": "Stability"
+        },
+        {
+          "col1": "Wealthy",
+          "col2": "Unification"
+        },
+        {
+          "col1": "Xenophobic",
+          "col2": "Wealth"
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "name": "People: Resources (Abundance / Scarcity)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Food",
+          "col2": "Food"
+        },
+        {
+          "col1": "Fuel",
+          "col2": "Fuel"
+        },
+        {
+          "col1": "Gemstones",
+          "col2": "Gemstones"
+        },
+        {
+          "col1": "Herbs",
+          "col2": "Herbs"
+        },
+        {
+          "col1": "Horses",
+          "col2": "Horses"
+        },
+        {
+          "col1": "Knowledge",
+          "col2": "Knowledge"
+        },
+        {
+          "col1": "Land",
+          "col2": "Land"
+        },
+        {
+          "col1": "Livestock",
+          "col2": "Livestock"
+        },
+        {
+          "col1": "Medicine",
+          "col2": "Medicine"
+        },
+        {
+          "col1": "Ore",
+          "col2": "Ore"
+        },
+        {
+          "col1": "Skilled Labor",
+          "col2": "Skilled Labor"
+        },
+        {
+          "col1": "Spices",
+          "col2": "Spices"
+        },
+        {
+          "col1": "Stone",
+          "col2": "Stone"
+        },
+        {
+          "col1": "Textiles",
+          "col2": "Textiles"
+        },
+        {
+          "col1": "Tools",
+          "col2": "Tools"
+        },
+        {
+          "col1": "Trade Goods",
+          "col2": "Trade Goods"
+        },
+        {
+          "col1": "Vessels",
+          "col2": "Vessels"
+        },
+        {
+          "col1": "Water",
+          "col2": "Water"
+        },
+        {
+          "col1": "Weapons",
+          "col2": "Weapons"
+        },
+        {
+          "col1": "Wood",
+          "col2": "Wood"
+        }
+      ]
+    },
+    {
+      "id": "faction-types",
+      "name": "Faction Types (Type / Agent)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Artisans",
+          "col2": "Academic"
+        },
+        {
+          "col1": "Commoners",
+          "col2": "Assassin"
+        },
+        {
+          "col1": "Criminals",
+          "col2": "Blacksmith"
+        },
+        {
+          "col1": "Cultists",
+          "col2": "Farmer"
+        },
+        {
+          "col1": "Exiles",
+          "col2": "General"
+        },
+        {
+          "col1": "Explorers",
+          "col2": "Gravedigger"
+        },
+        {
+          "col1": "Industrialists",
+          "col2": "Guard"
+        },
+        {
+          "col1": "Merchants",
+          "col2": "Healer"
+        },
+        {
+          "col1": "Military",
+          "col2": "Jailer"
+        },
+        {
+          "col1": "Nobles",
+          "col2": "Laborer"
+        },
+        {
+          "col1": "Nomads",
+          "col2": "Lord"
+        },
+        {
+          "col1": "Pilgrims",
+          "col2": "Merchant"
+        },
+        {
+          "col1": "Protectors",
+          "col2": "Monk"
+        },
+        {
+          "col1": "Religious",
+          "col2": "Mystic"
+        },
+        {
+          "col1": "Revolutionaries",
+          "col2": "Outlander"
+        },
+        {
+          "col1": "Rulers",
+          "col2": "Peddler"
+        },
+        {
+          "col1": "Scholars",
+          "col2": "Politician"
+        },
+        {
+          "col1": "Settlers",
+          "col2": "Spy"
+        },
+        {
+          "col1": "Spies",
+          "col2": "Thief"
+        },
+        {
+          "col1": "Tribe",
+          "col2": "Thug"
+        }
+      ]
+    },
+    {
+      "id": "faction-traits",
+      "name": "Faction Traits (Trait 1 / Trait 2)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Cautious",
+          "col2": "Adaptable"
+        },
+        {
+          "col1": "Connected",
+          "col2": "Bankrupt"
+        },
+        {
+          "col1": "Decadent",
+          "col2": "Brutal"
+        },
+        {
+          "col1": "Disciplined",
+          "col2": "Collaborative"
+        },
+        {
+          "col1": "Discreet",
+          "col2": "Corrupt"
+        },
+        {
+          "col1": "Dogmatic",
+          "col2": "Craven"
+        },
+        {
+          "col1": "Enigmatic",
+          "col2": "Cruel"
+        },
+        {
+          "col1": "Fierce",
+          "col2": "Cunning"
+        },
+        {
+          "col1": "Incorruptible",
+          "col2": "Cynical"
+        },
+        {
+          "col1": "Intellectual",
+          "col2": "Deceptive"
+        },
+        {
+          "col1": "Judicious",
+          "col2": "Generous"
+        },
+        {
+          "col1": "Keen",
+          "col2": "Incompetent"
+        },
+        {
+          "col1": "Loyal",
+          "col2": "Manipulative"
+        },
+        {
+          "col1": "Meticulous",
+          "col2": "Mercurial"
+        },
+        {
+          "col1": "Popular",
+          "col2": "Repressed"
+        },
+        {
+          "col1": "Pragmatic",
+          "col2": "Ruthless"
+        },
+        {
+          "col1": "Resourceful",
+          "col2": "Selfish"
+        },
+        {
+          "col1": "Secretive",
+          "col2": "Stealthy"
+        },
+        {
+          "col1": "Shrewd",
+          "col2": "Threatened"
+        },
+        {
+          "col1": "Tenacious",
+          "col2": "Xenophobic"
+        }
+      ]
+    },
+    {
+      "id": "faction-advantages",
+      "name": "Faction Advantages",
+      "roll": "1d20",
+      "entries": [
+        {
+          "roll": 1,
+          "num_advantages": 1,
+          "advantage": "Alliances"
+        },
+        {
+          "roll": 2,
+          "num_advantages": 1,
+          "advantage": "Anonymity"
+        },
+        {
+          "roll": 3,
+          "num_advantages": 1,
+          "advantage": "Apparatus"
+        },
+        {
+          "roll": 4,
+          "num_advantages": 1,
+          "advantage": "Beliefs"
+        },
+        {
+          "roll": 5,
+          "num_advantages": 1,
+          "advantage": "Charisma"
+        },
+        {
+          "roll": 6,
+          "num_advantages": 1,
+          "advantage": "Conviction"
+        },
+        {
+          "roll": 7,
+          "num_advantages": 1,
+          "advantage": "Fealty"
+        },
+        {
+          "roll": 8,
+          "num_advantages": 2,
+          "advantage": "Force"
+        },
+        {
+          "roll": 9,
+          "num_advantages": 2,
+          "advantage": "Information"
+        },
+        {
+          "roll": 10,
+          "num_advantages": 2,
+          "advantage": "Lineage"
+        },
+        {
+          "roll": 11,
+          "num_advantages": 2,
+          "advantage": "Magic"
+        },
+        {
+          "roll": 12,
+          "num_advantages": 2,
+          "advantage": "Members"
+        },
+        {
+          "roll": 13,
+          "num_advantages": 3,
+          "advantage": "Popularity"
+        },
+        {
+          "roll": 14,
+          "num_advantages": 3,
+          "advantage": "Position"
+        },
+        {
+          "roll": 15,
+          "num_advantages": 3,
+          "advantage": "Renown"
+        },
+        {
+          "roll": 16,
+          "num_advantages": 3,
+          "advantage": "Resources"
+        },
+        {
+          "roll": 17,
+          "num_advantages": 3,
+          "advantage": "Ruthlessness"
+        },
+        {
+          "roll": 18,
+          "num_advantages": 4,
+          "advantage": "Specialization"
+        },
+        {
+          "roll": 19,
+          "num_advantages": 4,
+          "advantage": "Subterfuge"
+        },
+        {
+          "roll": 20,
+          "num_advantages": 4,
+          "advantage": "Wealth"
+        }
+      ]
+    },
+    {
+      "id": "faction-agendas",
+      "name": "Faction Agendas (Agenda / Obstacle)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Ascend to a Higher Plane",
+          "col2": "A geographic barrier or impassable terrain."
+        },
+        {
+          "col1": "Collect Artifacts",
+          "col2": "A key piece of information must first be discovered."
+        },
+        {
+          "col1": "Cultivate a Rare Resource",
+          "col2": "A particular object or Relic is required."
+        },
+        {
+          "col1": "Defend Something",
+          "col2": "A powerful figure or foe must be eliminated."
+        },
+        {
+          "col1": "Destroy Something",
+          "col2": "A rare but necessary resource must first be acquired."
+        },
+        {
+          "col1": "Dominate Others",
+          "col2": "A serious debt forces the faction to make dire choices."
+        },
+        {
+          "col1": "Enrich Themselves",
+          "col2": "A well-known prophecy predicts imminent failure."
+        },
+        {
+          "col1": "Establish a Colony",
+          "col2": "An alliance with an enemy must first be brokered."
+        },
+        {
+          "col1": "Establish a New Order",
+          "col2": "An internal schism threatens to tear the faction apart."
+        },
+        {
+          "col1": "Explore Uncharted Lands",
+          "col2": "Another faction has the same goal."
+        },
+        {
+          "col1": "Forge an Alliance",
+          "col2": "Another faction stands in opposition."
+        },
+        {
+          "col1": "Infiltrate Another Faction",
+          "col2": "Commoners stand openly in opposition."
+        },
+        {
+          "col1": "Preserve the Status Quo",
+          "col2": "Considerable capital is required."
+        },
+        {
+          "col1": "Protect a Secret",
+          "col2": "Contravenes an established code, with a heavy penalty."
+        },
+        {
+          "col1": "Purge the Land",
+          "col2": "Hindered by cultural taboos."
+        },
+        {
+          "col1": "Reveal a Secret",
+          "col2": "Many must die, either as a necessity or consequence."
+        },
+        {
+          "col1": "Revenge",
+          "col2": "Must be carried out at a rare or exact moment."
+        },
+        {
+          "col1": "Revive a Former Power",
+          "col2": "Must be carried out in absolute secrecy."
+        },
+        {
+          "col1": "Seek New Leadership",
+          "col2": "Requires a specialist of an uncommon sort."
+        },
+        {
+          "col1": "Spread a Belief",
+          "col2": "The outcome would lead to unavoidable war."
+        }
+      ]
+    },
+    {
+      "id": "faction-actions",
+      "name": "Faction Actions",
+      "roll": "1d6",
+      "entries": [
+        {
+          "roll": 1,
+          "consequence": "Failure",
+          "impact": "A new Obstacle is introduced, and an Advantage is lost."
+        },
+        {
+          "roll": 2,
+          "consequence": "Setback",
+          "impact": "An Advantage is lost."
+        },
+        {
+          "roll": 3,
+          "consequence": "Status Quo",
+          "impact": "Nothing is gained, but nothing is lost."
+        },
+        {
+          "roll": 4,
+          "consequence": "Mixed Success",
+          "impact": "A goal is achieved, but an Advantage is lost."
+        },
+        {
+          "roll": 5,
+          "consequence": "Success",
+          "impact": "A goal is achieved, and no Advantages are lost."
+        },
+        {
+          "roll": 6,
+          "consequence": "Major Success",
+          "impact": "A goal is achieved, and a new Advantage is found."
+        }
+      ]
+    },
+    {
+      "id": "terrain-die-drop",
+      "name": "Terrain Die Drop Table",
+      "roll": "1d6",
+      "entries": [
+        {
+          "roll": "1-3",
+          "difficulty": "Easy"
+        },
+        {
+          "roll": "4-5",
+          "difficulty": "Tough"
+        },
+        {
+          "roll": "6",
+          "difficulty": "Perilous"
+        }
+      ]
+    },
+    {
+      "id": "terrain-easy",
+      "name": "Terrain: Easy (Terrain / Landmark)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Bluffs",
+          "col2": "Broken Sundial"
+        },
+        {
+          "col1": "Dells",
+          "col2": "Circle of Menhirs"
+        },
+        {
+          "col1": "Farmlands",
+          "col2": "Circular Maze"
+        },
+        {
+          "col1": "Fells",
+          "col2": "Cloud Stairway"
+        },
+        {
+          "col1": "Foothills",
+          "col2": "Dead Aqueduct"
+        },
+        {
+          "col1": "Glens",
+          "col2": "Enormous Footprint"
+        },
+        {
+          "col1": "Grasslands",
+          "col2": "Fallen Column"
+        },
+        {
+          "col1": "Gulleys",
+          "col2": "False Oasis"
+        },
+        {
+          "col1": "Heaths",
+          "col2": "Giant's Throne"
+        },
+        {
+          "col1": "Lowlands",
+          "col2": "Glittering Cascade"
+        },
+        {
+          "col1": "Meadows",
+          "col2": "Golden Bridge"
+        },
+        {
+          "col1": "Moors",
+          "col2": "Great Stone Face"
+        },
+        {
+          "col1": "Pampas",
+          "col2": "Great Waterwheel"
+        },
+        {
+          "col1": "Pastures",
+          "col2": "Heart Tree"
+        },
+        {
+          "col1": "Plains",
+          "col2": "Opaque Lake"
+        },
+        {
+          "col1": "Plateaus",
+          "col2": "Petrified Forest"
+        },
+        {
+          "col1": "Prairies",
+          "col2": "Pit of Cold Fire"
+        },
+        {
+          "col1": "Savannas",
+          "col2": "Silver Face"
+        },
+        {
+          "col1": "Steppes",
+          "col2": "Sinkhole"
+        },
+        {
+          "col1": "Valleys",
+          "col2": "Titanic Gate"
+        }
+      ]
+    },
+    {
+      "id": "terrain-tough",
+      "name": "Terrain: Tough (Terrain / Landmark)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Barrens",
+          "col2": "Algae Falls"
+        },
+        {
+          "col1": "Canyons",
+          "col2": "Basalt Columns"
+        },
+        {
+          "col1": "Chaparral",
+          "col2": "Behemoth Graveyard"
+        },
+        {
+          "col1": "Coral Reefs",
+          "col2": "Canyon Bridge"
+        },
+        {
+          "col1": "Deserts",
+          "col2": "Cinder Cones"
+        },
+        {
+          "col1": "Dunes",
+          "col2": "Flame Pits"
+        },
+        {
+          "col1": "Estuaries",
+          "col2": "Forest of Arrows"
+        },
+        {
+          "col1": "Fens",
+          "col2": "Frozen Waterfall"
+        },
+        {
+          "col1": "Forests",
+          "col2": "Fungal Forest"
+        },
+        {
+          "col1": "Heathlands",
+          "col2": "Half-Buried Ark"
+        },
+        {
+          "col1": "Hills",
+          "col2": "Hanging Valley"
+        },
+        {
+          "col1": "Mangroves",
+          "col2": "Inverted Lighthouse"
+        },
+        {
+          "col1": "Marshlands",
+          "col2": "Leviathan Bones"
+        },
+        {
+          "col1": "Moorlands",
+          "col2": "Massive Crater"
+        },
+        {
+          "col1": "Rainforests",
+          "col2": "Massive Dung Ball"
+        },
+        {
+          "col1": "Scrublands",
+          "col2": "Salt Flat Mirrors"
+        },
+        {
+          "col1": "Taiga",
+          "col2": "Shrouded Ziggurat"
+        },
+        {
+          "col1": "Thickets",
+          "col2": "Stalagmite Forest"
+        },
+        {
+          "col1": "Tundra",
+          "col2": "Sunken Colossus"
+        },
+        {
+          "col1": "Woodlands",
+          "col2": "Titan's Table"
+        }
+      ]
+    },
+    {
+      "id": "terrain-perilous",
+      "name": "Terrain: Perilous (Terrain / Landmark)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Alpine Meadows",
+          "col2": "Active Volcano"
+        },
+        {
+          "col1": "Bogs",
+          "col2": "Ammonia Caves"
+        },
+        {
+          "col1": "Boulders",
+          "col2": "Bone Mountain"
+        },
+        {
+          "col1": "Caverns",
+          "col2": "Crystalline Forest"
+        },
+        {
+          "col1": "Cliffs",
+          "col2": "Dome of Darkness"
+        },
+        {
+          "col1": "Craters",
+          "col2": "Enormous Hive"
+        },
+        {
+          "col1": "Crevasses",
+          "col2": "Floating Object"
+        },
+        {
+          "col1": "Geysers",
+          "col2": "Inactive Automaton"
+        },
+        {
+          "col1": "Glaciers",
+          "col2": "Land Scar"
+        },
+        {
+          "col1": "Gorges",
+          "col2": "Large Vents"
+        },
+        {
+          "col1": "Hollows",
+          "col2": "Magma Sculptures"
+        },
+        {
+          "col1": "Ice Fields",
+          "col2": "Man on the Mountain"
+        },
+        {
+          "col1": "Jungles",
+          "col2": "Meteor Garden"
+        },
+        {
+          "col1": "Lava Fields",
+          "col2": "Obsidian Needle"
+        },
+        {
+          "col1": "Mountains",
+          "col2": "Reverse Waterfall"
+        },
+        {
+          "col1": "Peatlands",
+          "col2": "River of Sulfur"
+        },
+        {
+          "col1": "Quagmires",
+          "col2": "Siren Stones"
+        },
+        {
+          "col1": "Ravine",
+          "col2": "Sky-Root"
+        },
+        {
+          "col1": "Swamps",
+          "col2": "Titanic Ribcage"
+        },
+        {
+          "col1": "Wastelands",
+          "col2": "Weeping Bubble"
+        }
+      ]
+    },
+    {
+      "id": "seasonal-weather",
+      "name": "Seasonal Weather",
+      "roll": "1d6",
+      "entries": [
+        {
+          "roll": "1d6",
+          "columns": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "entries": [
+            {
+              "roll": 1,
+              "Spring": "Mild and sunny",
+              "Summer": "Hot and sunny",
+              "Fall": "Nice and breezy",
+              "Winter": "Mild and clear"
+            },
+            {
+              "roll": 2,
+              "Spring": "Nice and drizzly",
+              "Summer": "Nice and cloudy",
+              "Fall": "Mild and windy",
+              "Winter": "Cool and windy"
+            },
+            {
+              "roll": 3,
+              "Spring": "Cool and breezy",
+              "Summer": "Mild and rainy",
+              "Fall": "Cool and foggy",
+              "Winter": "Cold and raining"
+            },
+            {
+              "roll": 4,
+              "Spring": "Mild and cloudy",
+              "Summer": "Cool and stormy",
+              "Fall": "Cold and cloudy",
+              "Winter": "Frigid and stormy"
+            },
+            {
+              "roll": 5,
+              "Spring": "Cold and windy",
+              "Summer": "Hot and humid",
+              "Fall": "Cool and rainy",
+              "Winter": "Freezing and snowing"
+            },
+            {
+              "roll": 6,
+              "Spring": "Cold and rainy",
+              "Summer": "Sweltering and humid",
+              "Fall": "Chilly and stormy",
+              "Winter": "Freezing and hailing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unusual-weather",
+      "name": "Unusual Weather",
+      "roll": "1d20",
+      "entries": [
+        "An annual fog appears randomly, turning metallic surfaces to gold on contact.",
+        "An aurora that is visible even during the day.",
+        "Birds fly backwards, yet somehow still move forward.",
+        "Days are erratic. The Sun goes backwards for a time, then jumps forward as night rapidly sets in.",
+        "Distant chimes instead of thunder. A smoky, sweet wind blows in from the West.",
+        "Enormous, fleshy eyes peer down from the skies, their pupils lighting up the night sky.",
+        "Flashes of movement in the periphery that always amount to nothing.",
+        "Fog that fills the belly (no need for rations). Tomorrow, vomiting.",
+        "Lakes and streams evaporate in minutes, filling storm clouds that drench the landscape.",
+        "Periodic rains of small aquatic creatures (tadpoles, frogs, small fish). No one knows where they come from.",
+        "Rainbows lack most of their colors and occasionally flicker. Raindrops fall in various colors.",
+        "Rolling dust clouds that smell of cinnamon. The coughing lasts long after they've moved on.",
+        "Shadows disappear at random. Animals become more reluctant.",
+        "The air is thicker than usual, and breathing is difficult.",
+        "The clouds are shaped like faces. They appear to be laughing.",
+        "The moon appears larger and softly hums at night.",
+        "The rain glows gently at night. It can be gathered, but the light eventually fades.",
+        "The stars rearrange themselves in intricate patterns, making navigation difficult.",
+        "The winds carry whispers. Some say they tell hints of the future.",
+        "When it snows, the flakes are warm and dry."
+      ]
+    },
+    {
+      "id": "poi-die-drop",
+      "name": "POI Die Drop Table",
+      "roll": "1d6",
+      "entries": [
+        {
+          "roll": "1",
+          "poi": "Waypoint or Settlement"
+        },
+        {
+          "roll": "2-3",
+          "poi": "Curiosity"
+        },
+        {
+          "roll": "4",
+          "poi": "Lair"
+        },
+        {
+          "roll": "5-6",
+          "poi": "Dungeon"
+        }
+      ]
+    },
+    {
+      "id": "poi-settlements",
+      "name": "POI: Settlements (Settlement / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Academy",
+          "col2": "Built Atop Ruins"
+        },
+        {
+          "col1": "Caravan",
+          "col2": "Built on Bones of Giants"
+        },
+        {
+          "col1": "Citadel",
+          "col2": "Center of Learning"
+        },
+        {
+          "col1": "City",
+          "col2": "Close-Knit"
+        },
+        {
+          "col1": "Commune",
+          "col2": "Divided"
+        },
+        {
+          "col1": "Compound",
+          "col2": "Emits a Mysterious Hum"
+        },
+        {
+          "col1": "Convent",
+          "col2": "Famous for its Artisans"
+        },
+        {
+          "col1": "Farmstead",
+          "col2": "Famous for its Festivals"
+        },
+        {
+          "col1": "Fortress",
+          "col2": "Guarded by Trained Beasts"
+        },
+        {
+          "col1": "Garrison",
+          "col2": "Hides a Dangerous Portal"
+        },
+        {
+          "col1": "Hamlet",
+          "col2": "High Population Density"
+        },
+        {
+          "col1": "Keep",
+          "col2": "Impregnable"
+        },
+        {
+          "col1": "Monastery",
+          "col2": "Integrated with Nature"
+        },
+        {
+          "col1": "Outpost",
+          "col2": "Known for its Hospitality"
+        },
+        {
+          "col1": "Plantation",
+          "col2": "Location of a Legendary Forge"
+        },
+        {
+          "col1": "Prison",
+          "col2": "Moves or Revolves"
+        },
+        {
+          "col1": "Stronghold",
+          "col2": "Protected by a Great Warrior"
+        },
+        {
+          "col1": "Town",
+          "col2": "Ruled by a Powerful Faction"
+        },
+        {
+          "col1": "Villa",
+          "col2": "Steeped in Tradition"
+        },
+        {
+          "col1": "Village",
+          "col2": "Trading Hub"
+        }
+      ]
+    },
+    {
+      "id": "poi-waypoints",
+      "name": "POI: Waypoints (Waypoint / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Archive",
+          "col2": "A Haven for Outcasts"
+        },
+        {
+          "col1": "Asylum",
+          "col2": "Built on Sacred Grounds"
+        },
+        {
+          "col1": "Bazaar",
+          "col2": "Contains a Powerful Artifact"
+        },
+        {
+          "col1": "Beacon Tower",
+          "col2": "Cursed By Previous Occupants"
+        },
+        {
+          "col1": "Bunker",
+          "col2": "Decrepit Buildings"
+        },
+        {
+          "col1": "Cabin",
+          "col2": "Distrustful Occupants"
+        },
+        {
+          "col1": "Campground",
+          "col2": "Does Not Appear on Any Map"
+        },
+        {
+          "col1": "Guildhall",
+          "col2": "Front for Illegal Operations"
+        },
+        {
+          "col1": "Hospice",
+          "col2": "Host to a Renowned Artisan"
+        },
+        {
+          "col1": "Hunting Lodge",
+          "col2": "Known for its Elaborate Defenses"
+        },
+        {
+          "col1": "Inn",
+          "col2": "Occupants Are Lawful to a Fault"
+        },
+        {
+          "col1": "Observatory",
+          "col2": "Occupants Are Overly Formal"
+        },
+        {
+          "col1": "Reservoir",
+          "col2": "Outsiders Are Barred"
+        },
+        {
+          "col1": "Sanatorium",
+          "col2": "Outsiders Cannot Carry Weapons"
+        },
+        {
+          "col1": "Sanctuary",
+          "col2": "Part of an Illegal Trade Route"
+        },
+        {
+          "col1": "Shrine",
+          "col2": "Popular Pilgrim Destination"
+        },
+        {
+          "col1": "Temple",
+          "col2": "Protects a Powerful Object"
+        },
+        {
+          "col1": "Trading Post",
+          "col2": "Reclusive Occupants"
+        },
+        {
+          "col1": "Watchtower",
+          "col2": "Sits on Natural Deposits"
+        },
+        {
+          "col1": "Work Camp",
+          "col2": "Technologically Advanced"
+        }
+      ]
+    },
+    {
+      "id": "poi-curiosities",
+      "name": "POI: Curiosities (Curiosity / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Ancient Tree",
+          "col2": "Abandoned Vessel"
+        },
+        {
+          "col1": "Broken Tower",
+          "col2": "Ancient Trash Heap"
+        },
+        {
+          "col1": "Buried Megalith",
+          "col2": "Buried Ley Line"
+        },
+        {
+          "col1": "Collapsed Mill",
+          "col2": "Buried Library"
+        },
+        {
+          "col1": "Cracked Bell",
+          "col2": "Carnivorous Plants"
+        },
+        {
+          "col1": "Crystal Spire",
+          "col2": "Celestial Mirror"
+        },
+        {
+          "col1": "Dripping Archway",
+          "col2": "Cult Ritual Site"
+        },
+        {
+          "col1": "Echoing Fields",
+          "col2": "Edible Fungus"
+        },
+        {
+          "col1": "Enormous Fist",
+          "col2": "Floating Debris"
+        },
+        {
+          "col1": "Enormous Footprint",
+          "col2": "Hidden Market"
+        },
+        {
+          "col1": "Floating Island",
+          "col2": "Illusory"
+        },
+        {
+          "col1": "Frozen Graveyard",
+          "col2": "Impossible Music"
+        },
+        {
+          "col1": "Hanging Bridges",
+          "col2": "Infested With Vermin"
+        },
+        {
+          "col1": "Illegible Signpost",
+          "col2": "Irregular Gravity"
+        },
+        {
+          "col1": "Leviathan Skeleton",
+          "col2": "Isolated Weather"
+        },
+        {
+          "col1": "Oddly-Shaped Lake",
+          "col2": "Only Appears at Night"
+        },
+        {
+          "col1": "Petrified Trees",
+          "col2": "Perpetual Mist"
+        },
+        {
+          "col1": "Purple Geysers",
+          "col2": "Perpetual Shadows"
+        },
+        {
+          "col1": "Singing Stones",
+          "col2": "Site of Ancient Battle"
+        },
+        {
+          "col1": "Sunken City",
+          "col2": "Unstable Ground"
+        }
+      ]
+    },
+    {
+      "id": "poi-lairs",
+      "name": "POI: Lairs (Lair / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Abandoned Tower",
+          "col2": "Abandoned"
+        },
+        {
+          "col1": "Ancient Prison",
+          "col2": "At Crossroads"
+        },
+        {
+          "col1": "Collapsed Mine",
+          "col2": "Baited Entrance"
+        },
+        {
+          "col1": "Colossal Hive",
+          "col2": "Bioluminescence"
+        },
+        {
+          "col1": "Crashed Ship",
+          "col2": "Constant Screaming"
+        },
+        {
+          "col1": "Crumbling Fort",
+          "col2": "Entry Forbidden"
+        },
+        {
+          "col1": "Dry Aqueduct",
+          "col2": "Faction Hideout"
+        },
+        {
+          "col1": "Enormous Stump",
+          "col2": "Hidden Exit"
+        },
+        {
+          "col1": "Forgotten Graveyard",
+          "col2": "Odd Machinery"
+        },
+        {
+          "col1": "Hidden Burrow",
+          "col2": "Piles of Bones"
+        },
+        {
+          "col1": "Hollow Obelisk",
+          "col2": "Previously Occupied"
+        },
+        {
+          "col1": "Overgrown Garden",
+          "col2": "Religious Graffiti"
+        },
+        {
+          "col1": "Primeval Menhirs",
+          "col2": "Scattered Traps"
+        },
+        {
+          "col1": "Primitive Bridge",
+          "col2": "Scavengers Prowl"
+        },
+        {
+          "col1": "Rotted Mill",
+          "col2": "Signs Posted"
+        },
+        {
+          "col1": "Ruined Town",
+          "col2": "Something Sleeps"
+        },
+        {
+          "col1": "Rusted Construct",
+          "col2": "Symbiotic Entity"
+        },
+        {
+          "col1": "Spiked Cave",
+          "col2": "Training Camp"
+        },
+        {
+          "col1": "Sunken Grotto",
+          "col2": "Underwater"
+        },
+        {
+          "col1": "Unruly Copse",
+          "col2": "Waste Pit"
+        }
+      ]
+    },
+    {
+      "id": "poi-dungeons",
+      "name": "POI: Dungeons (Type / Feature)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Burial Ground",
+          "col2": "Abandoned"
+        },
+        {
+          "col1": "Cave",
+          "col2": "Buried"
+        },
+        {
+          "col1": "Cellar",
+          "col2": "Burnt"
+        },
+        {
+          "col1": "Crypt",
+          "col2": "Clockwork"
+        },
+        {
+          "col1": "Den",
+          "col2": "Collapsed"
+        },
+        {
+          "col1": "Estate",
+          "col2": "Crumbling"
+        },
+        {
+          "col1": "Fort",
+          "col2": "Crystalline"
+        },
+        {
+          "col1": "Great Hall",
+          "col2": "Floating"
+        },
+        {
+          "col1": "Laboratory",
+          "col2": "Flooded"
+        },
+        {
+          "col1": "Manor",
+          "col2": "Fungal"
+        },
+        {
+          "col1": "Mine",
+          "col2": "Inverted"
+        },
+        {
+          "col1": "Outpost",
+          "col2": "Isolated"
+        },
+        {
+          "col1": "Palace",
+          "col2": "Mirrored"
+        },
+        {
+          "col1": "Prison",
+          "col2": "Otherworldly"
+        },
+        {
+          "col1": "Ruined City",
+          "col2": "Overgrown"
+        },
+        {
+          "col1": "Stronghold",
+          "col2": "Petrified"
+        },
+        {
+          "col1": "Temple",
+          "col2": "Remote"
+        },
+        {
+          "col1": "Tomb",
+          "col2": "Sealed"
+        },
+        {
+          "col1": "Tower",
+          "col2": "Toxic"
+        },
+        {
+          "col1": "Workshop",
+          "col2": "Warped"
+        }
+      ]
+    },
+    {
+      "id": "path-features",
+      "name": "Path Features (Feature / Condition)",
+      "roll": "1d20 x2",
+      "entries": [
+        {
+          "col1": "Abandoned Fields",
+          "col2": "Bandit Ambushes"
+        },
+        {
+          "col1": "Blood-Red",
+          "col2": "Blocked by Giant Boulder"
+        },
+        {
+          "col1": "Buried Charms",
+          "col2": "Collapsed Bridge"
+        },
+        {
+          "col1": "Cattle Prints",
+          "col2": "Confusing to Navigate"
+        },
+        {
+          "col1": "Constant Patrols",
+          "col2": "Dense Bramble"
+        },
+        {
+          "col1": "Dead Vegetation",
+          "col2": "Divided by Political Dispute"
+        },
+        {
+          "col1": "Disappearing",
+          "col2": "Erratic Weather"
+        },
+        {
+          "col1": "Diseased Animals",
+          "col2": "Frequent Flash Floods"
+        },
+        {
+          "col1": "Follows the Stars",
+          "col2": "Gets Extremely Cold"
+        },
+        {
+          "col1": "Frequent Pilgrims",
+          "col2": "Heavy Toll Required"
+        },
+        {
+          "col1": "Massive Grooves",
+          "col2": "Labyrinthine Canyons"
+        },
+        {
+          "col1": "Mile Markers",
+          "col2": "Night Predators"
+        },
+        {
+          "col1": "Mineral Flecks",
+          "col2": "Occasional Stampedes"
+        },
+        {
+          "col1": "Newly Made",
+          "col2": "Overcrowded"
+        },
+        {
+          "col1": "Overgrown",
+          "col2": "Passes over Rapids"
+        },
+        {
+          "col1": "Rusted Tools",
+          "col2": "Poisonous Fruit"
+        },
+        {
+          "col1": "Shriveled Away",
+          "col2": "Smoke-filled"
+        },
+        {
+          "col1": "Shredded",
+          "col2": "Steep Climb"
+        },
+        {
+          "col1": "Twisted",
+          "col2": "Thick Evening Mist"
+        },
+        {
+          "col1": "Ubiquitous Footprints",
+          "col2": "Uneven, Soggy Ground"
+        }
+      ]
+    },
+    {
+      "id": "monster-appearance-physique",
+      "name": "Monster Appearance: Physique",
+      "roll": "1d20",
+      "entries": [
+        "Albino",
+        "Black",
+        "Crystalline",
+        "Emaciated",
+        "Eyeless",
+        "Feathered",
+        "Gelatinous",
+        "Glowing",
+        "Hardened",
+        "Headless",
+        "Horned",
+        "Hunched",
+        "Iridescent",
+        "Polyocular",
+        "Scaled",
+        "Segmented",
+        "Skeletal",
+        "Slimy",
+        "Translucent",
+        "Twisted"
+      ]
+    },
+    {
+      "id": "monster-appearance-feature",
+      "name": "Monster Appearance: Feature",
+      "roll": "1d20",
+      "entries": [
+        "Antennae",
+        "Beak",
+        "Carapace",
+        "Claws",
+        "Fangs",
+        "Feathers",
+        "Fur",
+        "Gilled",
+        "Horns",
+        "Markings",
+        "Scales",
+        "Shell",
+        "Snout",
+        "Tail",
+        "Talons",
+        "Tentacles",
+        "Trunk",
+        "Tusks",
+        "Voice",
+        "Wings"
+      ]
+    },
+    {
+      "id": "monster-traits-quirks",
+      "name": "Monster Traits: Quirks",
+      "roll": "1d20",
+      "entries": [
+        "Alters Its Size at Will",
+        "Changes Color at Will",
+        "Collects Rare Flowers",
+        "Collects Trophies",
+        "Does Not Die of Old Age",
+        "Draws Symbols",
+        "Fascinated by Fire",
+        "Hoards Books",
+        "Loves a Specific Color",
+        "Reborn Each Day",
+        "Loves Shiny Objects",
+        "Mimics Voices",
+        "Moves in a Straight Line",
+        "Narrates Everything",
+        "Obsessively Cleans",
+        "Plants Grow in Its Wake",
+        "Sleeps Upside Down",
+        "Speaks in Rhymes",
+        "Sweats Rare Minerals",
+        "Reproduces Asexually"
+      ]
+    },
+    {
+      "id": "monster-traits-weakness",
+      "name": "Monster Traits: Weakness",
+      "roll": "1d20",
+      "entries": [
+        "Alcohol",
+        "Cold",
+        "Conversation",
+        "Flattery",
+        "Games",
+        "Gifts",
+        "Iron",
+        "Loud Noises",
+        "Mirrors",
+        "Bright Colors",
+        "Moonlight",
+        "Music",
+        "Prepared Meals",
+        "Puzzles",
+        "Religious Icons",
+        "Salt",
+        "Silver",
+        "Sunlight",
+        "True Name",
+        "Weak Spot"
+      ]
+    },
+    {
+      "id": "monster-attacks-type",
+      "name": "Monster Attacks: Type",
+      "roll": "1d20",
+      "entries": [
+        "Bites",
+        "Blunts",
+        "Burns",
+        "Freezes",
+        "Gases",
+        "Kicks",
+        "Punches",
+        "Shoots",
+        "Slams",
+        "Slashes",
+        "Slices",
+        "Smashes",
+        "Sprays",
+        "Squeezes",
+        "Stabs",
+        "Stings",
+        "Throws",
+        "Touches",
+        "Whips",
+        "Zaps"
+      ]
+    },
+    {
+      "id": "monster-attacks-critical-damage",
+      "name": "Monster Attacks: Critical Damage",
+      "roll": "1d20",
+      "entries": [
+        "Asphyxiates",
+        "Bleeds",
+        "Blinds",
+        "Breaks",
+        "Crushes",
+        "Decays",
+        "Dissolves",
+        "Ensnares",
+        "Explodes",
+        "Grapples",
+        "Incapacitates",
+        "Lacerates",
+        "Liquefies",
+        "Paralyzes",
+        "Petrifies",
+        "Poisons",
+        "Punctures",
+        "Severs",
+        "Tramples",
+        "Weakens"
+      ]
+    },
+    {
+      "id": "monster-abilities-ability",
+      "name": "Monster Abilities: Ability",
+      "roll": "1d20",
+      "entries": [
+        "Absorbs",
+        "Amplifies",
+        "Attracts",
+        "Binds",
+        "Camouflages",
+        "Conjures",
+        "Controls",
+        "Disables",
+        "Duplicates",
+        "Grows",
+        "Manipulates",
+        "Reflects",
+        "Regenerates",
+        "Resists",
+        "Reverses",
+        "Shapes",
+        "Shrinks",
+        "Transforms",
+        "Traps",
+        "Zaps"
+      ]
+    },
+    {
+      "id": "monster-abilities-target",
+      "name": "Monster Abilities: Target",
+      "roll": "1d20",
+      "entries": [
+        "Body",
+        "Dreams",
+        "Element",
+        "Emotions",
+        "Energy",
+        "Health",
+        "Hearing",
+        "Illusions",
+        "Light",
+        "Memory",
+        "Metal",
+        "Plants",
+        "Spirit",
+        "Stone",
+        "Surroundings",
+        "Time",
+        "Vision",
+        "Water",
+        "Weather",
+        "Weakens"
+      ]
+    }
+  ]
+}

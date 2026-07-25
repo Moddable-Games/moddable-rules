@@ -1,0 +1,63 @@
+{
+  "slug": "flower-48",
+  "title": "Flower 48",
+  "players": "2–4",
+  "duration": "15–60 min",
+  "age": "10+",
+  "tagline": "Japanese flower cards: 12 monthly suits, 48 cards",
+  "type": "component",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.1",
+  "mechanics": [
+    "set-collection",
+    "pattern",
+    "hand-management",
+    "betting",
+    "card-play"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "The Hanafuda deck (48 cards, 12 monthly suits) supports 4 games: Koi-Koi, Hana-Awase, Go-Stop, and Oicho-Kabu. All involve matching and collecting cards by suit or type.",
+  "related": [
+    "standard-52",
+    "mahjong",
+    "double-six-dominoes"
+  ],
+  "hub_type": "component",
+  "variants": [],
+  "games": [
+    {
+      "slug": "go-stop",
+      "title": "Go-Stop",
+      "players": "2–3"
+    },
+    {
+      "slug": "hana-awase",
+      "title": "Hana-Awase",
+      "players": "2–4"
+    },
+    {
+      "slug": "koi-koi",
+      "title": "Koi-Koi",
+      "players": "2"
+    },
+    {
+      "slug": "oicho-kabu",
+      "title": "Oicho-Kabu",
+      "players": "2–8"
+    }
+  ],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Hanafuda",
+    "Games",
+    "Attribution"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/flower-48/rulebook.md",
+    "meta": "/api/rules/flower-48/meta.json",
+    "games": "/api/rules/flower-48/games/"
+  }
+}

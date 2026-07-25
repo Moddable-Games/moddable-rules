@@ -1,0 +1,988 @@
+{
+  "meta": {
+    "source": "https://landlordsgame.info/",
+    "transcribed": "2026-07-03",
+    "purpose": "Board component data for diagram generation. Rules and mechanics live in variant markdown files.",
+    "notes": "Board transcriptions from original photographs/patent drawings. Uncertainties flagged inline."
+  },
+  "boards": {
+    "1904-patent": {
+      "title": "The Landlord's Game",
+      "year": 1904,
+      "patent": "US 748,626",
+      "designer": "Elizabeth Magie",
+      "direction": "counter-clockwise",
+      "totalSpaces": 40,
+      "corners": 4,
+      "spaces": [
+        {
+          "pos": 1,
+          "name": "MOTHER EARTH",
+          "type": "corner",
+          "side": "corner",
+          "notes": "Start / collect wages"
+        },
+        {
+          "pos": 2,
+          "name": "Lot 1",
+          "type": "lot",
+          "side": "bottom",
+          "price": 10,
+          "rent": 1
+        },
+        {
+          "pos": 3,
+          "name": "BREAD",
+          "type": "necessity",
+          "side": "bottom",
+          "tax": 5
+        },
+        {
+          "pos": 4,
+          "name": "Lot 2",
+          "type": "lot",
+          "side": "bottom",
+          "price": 20,
+          "rent": 2
+        },
+        {
+          "pos": 5,
+          "name": "NO TRESPASSING",
+          "type": "go-to-jail",
+          "side": "bottom"
+        },
+        {
+          "pos": 6,
+          "name": "R.R.",
+          "type": "railroad",
+          "side": "bottom",
+          "fare": 5
+        },
+        {
+          "pos": 7,
+          "name": "Lot 3",
+          "type": "lot",
+          "side": "bottom",
+          "price": 30,
+          "rent": 3
+        },
+        {
+          "pos": 8,
+          "name": "Lot 4",
+          "type": "lot",
+          "side": "bottom",
+          "price": 40,
+          "rent": 4
+        },
+        {
+          "pos": 9,
+          "name": "LUXURY",
+          "type": "luxury",
+          "side": "bottom",
+          "tax": 50,
+          "endValue": 60
+        },
+        {
+          "pos": 10,
+          "name": "Lot 5",
+          "type": "lot",
+          "side": "bottom",
+          "price": 50,
+          "rent": 5
+        },
+        {
+          "pos": 11,
+          "name": "JAIL",
+          "type": "corner",
+          "side": "corner"
+        },
+        {
+          "pos": 12,
+          "name": "Lot 6",
+          "type": "lot",
+          "side": "left",
+          "price": 60,
+          "rent": 6
+        },
+        {
+          "pos": 13,
+          "name": "SHELTER",
+          "type": "necessity",
+          "side": "left",
+          "tax": 5
+        },
+        {
+          "pos": 14,
+          "name": "Lot 7",
+          "type": "lot",
+          "side": "left",
+          "price": 70,
+          "rent": 7
+        },
+        {
+          "pos": 15,
+          "name": "Lot 8",
+          "type": "lot",
+          "side": "left",
+          "price": 80,
+          "rent": 8
+        },
+        {
+          "pos": 16,
+          "name": "R.R.",
+          "type": "railroad",
+          "side": "left",
+          "fare": 5
+        },
+        {
+          "pos": 17,
+          "name": "Lot 9",
+          "type": "lot",
+          "side": "left",
+          "price": 90,
+          "rent": 9
+        },
+        {
+          "pos": 18,
+          "name": "LIGHT FRANCHISE",
+          "type": "franchise",
+          "side": "left",
+          "fee": 5
+        },
+        {
+          "pos": 19,
+          "name": "Lot 10",
+          "type": "lot",
+          "side": "left",
+          "price": 100,
+          "rent": 10
+        },
+        {
+          "pos": 20,
+          "name": "Lot 11",
+          "type": "lot",
+          "side": "left",
+          "price": 110,
+          "rent": 11
+        },
+        {
+          "pos": 21,
+          "name": "PUBLIC PARK",
+          "type": "corner",
+          "side": "corner",
+          "notes": "Also POOR HOUSE"
+        },
+        {
+          "pos": 22,
+          "name": "Lot 12",
+          "type": "lot",
+          "side": "top",
+          "price": 120,
+          "rent": 12
+        },
+        {
+          "pos": 23,
+          "name": "COAL",
+          "type": "necessity",
+          "side": "top",
+          "tax": 5
+        },
+        {
+          "pos": 24,
+          "name": "Lot 13",
+          "type": "lot",
+          "side": "top",
+          "price": 130,
+          "rent": 13
+        },
+        {
+          "pos": 25,
+          "name": "Lot 14",
+          "type": "lot",
+          "side": "top",
+          "price": 140,
+          "rent": 14
+        },
+        {
+          "pos": 26,
+          "name": "R.R.",
+          "type": "railroad",
+          "side": "top",
+          "fare": 5
+        },
+        {
+          "pos": 27,
+          "name": "Lot 15",
+          "type": "lot",
+          "side": "top",
+          "price": 150,
+          "rent": 15
+        },
+        {
+          "pos": 28,
+          "name": "WATER FRANCHISE",
+          "type": "franchise",
+          "side": "top",
+          "fee": 5
+        },
+        {
+          "pos": 29,
+          "name": "Lot 16",
+          "type": "lot",
+          "side": "top",
+          "price": 160,
+          "rent": 16
+        },
+        {
+          "pos": 30,
+          "name": "Lot 17",
+          "type": "lot",
+          "side": "top",
+          "price": 170,
+          "rent": 17
+        },
+        {
+          "pos": 31,
+          "name": "NO TRESPASSING",
+          "type": "corner",
+          "side": "corner",
+          "notes": "Go to Jail corner"
+        },
+        {
+          "pos": 32,
+          "name": "Lot 18",
+          "type": "lot",
+          "side": "right",
+          "price": 180,
+          "rent": 18
+        },
+        {
+          "pos": 33,
+          "name": "CLOTHING",
+          "type": "necessity",
+          "side": "right",
+          "tax": 5
+        },
+        {
+          "pos": 34,
+          "name": "Lot 19",
+          "type": "lot",
+          "side": "right",
+          "price": 190,
+          "rent": 19
+        },
+        {
+          "pos": 35,
+          "name": "Lot 20",
+          "type": "lot",
+          "side": "right",
+          "price": 200,
+          "rent": 20
+        },
+        {
+          "pos": 36,
+          "name": "R.R.",
+          "type": "railroad",
+          "side": "right",
+          "fare": 5
+        },
+        {
+          "pos": 37,
+          "name": "Lot 21",
+          "type": "lot",
+          "side": "right",
+          "price": 210,
+          "rent": 21
+        },
+        {
+          "pos": 38,
+          "name": "LEGACY",
+          "type": "legacy",
+          "side": "right",
+          "receive": 100,
+          "notes": "Receive $100 cash + legacy ticket from wages-box"
+        },
+        {
+          "pos": 39,
+          "name": "Lot 22",
+          "type": "lot",
+          "side": "right",
+          "price": 220,
+          "rent": 22
+        },
+        {
+          "pos": 40,
+          "name": "LUXURY",
+          "type": "luxury",
+          "side": "right",
+          "tax": 50,
+          "endValue": 60
+        }
+      ]
+    },
+    "1906-egc": {
+      "title": "The Landlord's Game",
+      "year": 1906,
+      "patent": null,
+      "designer": "Elizabeth Magie",
+      "direction": "counter-clockwise",
+      "totalSpaces": 40,
+      "corners": 4,
+      "spaces": [
+        {
+          "pos": 1,
+          "name": "WAYBACK",
+          "type": "lot",
+          "side": "bottom",
+          "price": 25,
+          "rent": 0
+        },
+        {
+          "pos": 2,
+          "name": "FUEL",
+          "type": "necessity",
+          "side": "bottom",
+          "tax": 10
+        },
+        {
+          "pos": 3,
+          "name": "LONELY LANE",
+          "type": "lot",
+          "side": "bottom",
+          "price": 25,
+          "rent": 2
+        },
+        {
+          "pos": 4,
+          "name": "D.F. HOGG'S GAME PRESERVES",
+          "type": "go-to-jail",
+          "side": "bottom",
+          "notes": "No Trespassing / Go to Jail"
+        },
+        {
+          "pos": 5,
+          "name": "ROYAL RUSHER R.R.",
+          "type": "railroad",
+          "side": "bottom",
+          "fare": 5,
+          "price": 50
+        },
+        {
+          "pos": 6,
+          "name": "THE PIKE",
+          "type": "lot",
+          "side": "bottom",
+          "price": 25,
+          "rent": 4
+        },
+        {
+          "pos": 7,
+          "name": "THE FARM",
+          "type": "lot",
+          "side": "bottom",
+          "price": 25,
+          "rent": 4
+        },
+        {
+          "pos": 8,
+          "name": "SPECULATION",
+          "type": "special",
+          "side": "bottom",
+          "price": 50,
+          "rent": 10,
+          "notes": "Mrs. B. Sharp Broker"
+        },
+        {
+          "pos": 9,
+          "name": "RUBBVILLE",
+          "type": "lot",
+          "side": "bottom",
+          "price": 25,
+          "rent": 6
+        },
+        {
+          "pos": 10,
+          "name": "JAIL",
+          "type": "corner",
+          "side": "corner",
+          "split": {
+            "name": "SHELTER",
+            "type": "necessity",
+            "tax": 10,
+            "notes": "Absolute Necessity"
+          }
+        },
+        {
+          "pos": 11,
+          "name": "BOOMTOWN",
+          "type": "lot",
+          "side": "left",
+          "price": 50,
+          "rent": 6
+        },
+        {
+          "pos": 12,
+          "name": "GOAT ALLEY",
+          "type": "lot",
+          "side": "left",
+          "price": 50,
+          "rent": 8
+        },
+        {
+          "pos": 13,
+          "name": "SOAKUM LIGHTING SYSTEM",
+          "type": "franchise",
+          "side": "left",
+          "price": 50,
+          "fee": 5
+        },
+        {
+          "pos": 14,
+          "name": "BEGGARMAN'S COURT",
+          "type": "lot",
+          "side": "left",
+          "price": 50,
+          "rent": 8
+        },
+        {
+          "pos": 15,
+          "name": "SHOOTING STAR R.R.",
+          "type": "railroad",
+          "side": "left",
+          "fare": 5,
+          "price": 50
+        },
+        {
+          "pos": 16,
+          "name": "RICKETY ROW",
+          "type": "lot",
+          "side": "left",
+          "price": 50,
+          "rent": 10
+        },
+        {
+          "pos": 17,
+          "name": "FOOD",
+          "type": "necessity",
+          "side": "left",
+          "tax": 10
+        },
+        {
+          "pos": 18,
+          "name": "MARKET PLACE",
+          "type": "lot",
+          "side": "left",
+          "price": 50,
+          "rent": 10
+        },
+        {
+          "pos": 19,
+          "name": "COTTAGE TERRACE",
+          "type": "lot",
+          "side": "left",
+          "price": 50,
+          "rent": 12
+        },
+        {
+          "pos": 20,
+          "name": "CENTRAL PARK",
+          "type": "corner",
+          "side": "corner",
+          "split": {
+            "name": "POORHOUSE",
+            "type": "corner"
+          },
+          "notes": "Free"
+        },
+        {
+          "pos": 21,
+          "name": "EASY STREET",
+          "type": "lot",
+          "side": "top",
+          "price": 75,
+          "rent": 12
+        },
+        {
+          "pos": 22,
+          "name": "CHANCE",
+          "type": "chance",
+          "side": "top"
+        },
+        {
+          "pos": 23,
+          "name": "GEORGE STREET",
+          "type": "lot",
+          "side": "top",
+          "price": 75,
+          "rent": 14
+        },
+        {
+          "pos": 24,
+          "name": "MAGUIRE FLATS",
+          "type": "lot",
+          "side": "top",
+          "price": 75,
+          "rent": 14
+        },
+        {
+          "pos": 25,
+          "name": "GEE WHIZ R.R.",
+          "type": "railroad",
+          "side": "top",
+          "fare": 5,
+          "price": 50
+        },
+        {
+          "pos": 26,
+          "name": "FAIRHOPE AVENUE",
+          "type": "lot",
+          "side": "top",
+          "price": 75,
+          "rent": 16
+        },
+        {
+          "pos": 27,
+          "name": "SLAMBANG TROLLEY",
+          "type": "franchise",
+          "side": "top",
+          "price": 50,
+          "fare": 5
+        },
+        {
+          "pos": 28,
+          "name": "JOHNSON CIRCLE",
+          "type": "lot",
+          "side": "top",
+          "price": 75,
+          "rent": 16
+        },
+        {
+          "pos": 29,
+          "name": "THE BOWERY",
+          "type": "lot",
+          "side": "top",
+          "price": 75,
+          "rent": 18
+        },
+        {
+          "pos": 30,
+          "name": "NO TRESPASSING",
+          "type": "corner",
+          "side": "corner",
+          "notes": "Lord Blueblood's Estate / Go to Jail"
+        },
+        {
+          "pos": 31,
+          "name": "BROADWAY",
+          "type": "lot",
+          "side": "right",
+          "price": 100,
+          "rent": 18
+        },
+        {
+          "pos": 32,
+          "name": "CLOTHING",
+          "type": "necessity",
+          "side": "right",
+          "tax": 10
+        },
+        {
+          "pos": 33,
+          "name": "MADISON SQUARE",
+          "type": "lot",
+          "side": "right",
+          "price": 100,
+          "rent": 20
+        },
+        {
+          "pos": 34,
+          "name": "FIFTH AVENUE",
+          "type": "lot",
+          "side": "right",
+          "price": 100,
+          "rent": 20
+        },
+        {
+          "pos": 35,
+          "name": "P.D.Q. R.R.",
+          "type": "railroad",
+          "side": "right",
+          "fare": 5,
+          "price": 50
+        },
+        {
+          "pos": 36,
+          "name": "GRAND BOULEVARD",
+          "type": "lot",
+          "side": "right",
+          "price": 100,
+          "rent": 22
+        },
+        {
+          "pos": 37,
+          "name": "CHANCE",
+          "type": "chance",
+          "side": "right"
+        },
+        {
+          "pos": 38,
+          "name": "WALL STREET",
+          "type": "lot",
+          "side": "right",
+          "price": 100,
+          "rent": 22
+        },
+        {
+          "pos": 39,
+          "name": "LUXURY",
+          "type": "luxury",
+          "side": "right",
+          "price": 75,
+          "notes": "Forced payment"
+        },
+        {
+          "pos": 40,
+          "name": "MOTHER EARTH",
+          "type": "corner",
+          "side": "corner",
+          "notes": "Collect $100 wages / Start From Here"
+        }
+      ],
+      "innerSpaces": 4,
+      "naturalOpportunities": [
+        {
+          "name": "TIMBERLAND",
+          "location": "inner-bottom-right",
+          "wages": 40,
+          "rent": 10,
+          "reentry": 1,
+          "reentryName": "WAYBACK",
+          "flavour": "Margin of Cultivation / No Man's Land"
+        },
+        {
+          "name": "FARMLANDS",
+          "location": "inner-bottom-left",
+          "wages": 60,
+          "rent": 25,
+          "reentry": 11,
+          "reentryName": "BOOMTOWN",
+          "flavour": "For permission to make two blades of grass grow on this land where one grew before apply to Graball & Holdup Improvement Co."
+        },
+        {
+          "name": "COAL MINES",
+          "location": "inner-top-left",
+          "wages": 80,
+          "rent": 50,
+          "reentry": 21,
+          "reentryName": "EASY STREET",
+          "flavour": "Wylie Bear Special Agent / No Trespassing"
+        },
+        {
+          "name": "OIL FIELDS",
+          "location": "inner-top-right",
+          "wages": 100,
+          "rent": 75,
+          "reentry": 31,
+          "reentryName": "BROADWAY",
+          "flavour": "John D. Squeezum / General Manager / Keep Off"
+        }
+      ]
+    },
+    "1932-prosperity": {
+      "title": "The Landlord's Game and Prosperity",
+      "year": 1932,
+      "patent": "US 1,509,312",
+      "designer": "Elizabeth Magie Phillips",
+      "direction": "clockwise",
+      "totalSpaces": 36,
+      "corners": 4,
+      "spaces": [
+        {
+          "pos": 1,
+          "name": "WAGES",
+          "type": "corner",
+          "side": "corner",
+          "notes": "Labor Applied To Land Produces WAGES $400. Stop Here. Number 11."
+        },
+        {
+          "pos": 2,
+          "name": "JAIL",
+          "type": "jail",
+          "side": "right",
+          "notes": "Number 9"
+        },
+        {
+          "pos": 3,
+          "name": "WAYBACK",
+          "type": "lot",
+          "side": "right",
+          "rent": 25
+        },
+        {
+          "pos": 4,
+          "name": "LONELY LANE",
+          "type": "lot",
+          "side": "right",
+          "rent": 25
+        },
+        {
+          "pos": 5,
+          "name": "CROSSROADS",
+          "type": "lot",
+          "side": "right",
+          "rent": 25
+        },
+        {
+          "pos": 6,
+          "name": "JAYTOWN",
+          "type": "lot",
+          "side": "right",
+          "rent": 25
+        },
+        {
+          "pos": 7,
+          "name": "TAXES",
+          "type": "taxes",
+          "side": "right",
+          "tax": 10,
+          "notes": "Personal Property"
+        },
+        {
+          "pos": 8,
+          "name": "REAL ESTATE",
+          "type": "broker",
+          "side": "right",
+          "notes": "Claude Hopper"
+        },
+        {
+          "pos": 9,
+          "name": "BOOMTOWN",
+          "type": "lot",
+          "side": "right",
+          "rent": 25
+        },
+        {
+          "pos": 10,
+          "name": "LICKETY CUT R.R.",
+          "type": "corner",
+          "side": "corner",
+          "fare": 100,
+          "notes": "Interstate Public Utility"
+        },
+        {
+          "pos": 11,
+          "name": "POVERTY PLACE",
+          "type": "lot",
+          "side": "bottom",
+          "rent": 50
+        },
+        {
+          "pos": 12,
+          "name": "GOAT ALLEY",
+          "type": "lot",
+          "side": "bottom",
+          "rent": 50
+        },
+        {
+          "pos": 13,
+          "name": "SLAMBANG TROLLEY",
+          "type": "franchise",
+          "side": "bottom",
+          "fare": 50
+        },
+        {
+          "pos": 14,
+          "name": "RICKETY ROW",
+          "type": "lot",
+          "side": "bottom",
+          "rent": 50
+        },
+        {
+          "pos": 15,
+          "name": "LAND TAXES",
+          "type": "taxes",
+          "side": "bottom",
+          "tax": 10
+        },
+        {
+          "pos": 16,
+          "name": "HELL'S HALF ACRE",
+          "type": "lot",
+          "side": "bottom",
+          "rent": 50
+        },
+        {
+          "pos": 17,
+          "name": "REAL ESTATE",
+          "type": "broker",
+          "side": "bottom",
+          "notes": "L.B. Sharp"
+        },
+        {
+          "pos": 18,
+          "name": "THE BOWERY",
+          "type": "lot",
+          "side": "bottom",
+          "rent": 50
+        },
+        {
+          "pos": 19,
+          "name": "GEE WHIZ R.R.",
+          "type": "corner",
+          "side": "corner",
+          "fare": 100,
+          "notes": "Interstate Public Utility"
+        },
+        {
+          "pos": 20,
+          "name": "PROGRESS PARK",
+          "type": "lot",
+          "side": "left",
+          "rent": 25
+        },
+        {
+          "pos": 21,
+          "name": "GEORGE STREET",
+          "type": "lot",
+          "side": "left",
+          "rent": 25
+        },
+        {
+          "pos": 22,
+          "name": "SOAKUM LIGHTING SYSTEM",
+          "type": "franchise",
+          "side": "left",
+          "price": 50,
+          "notes": "Local Public Utility"
+        },
+        {
+          "pos": 23,
+          "name": "JOHNSON ROAD",
+          "type": "lot",
+          "side": "left",
+          "rent": 25
+        },
+        {
+          "pos": 24,
+          "name": "IMPROVEMENT TAXES",
+          "type": "taxes",
+          "side": "left",
+          "tax": 25
+        },
+        {
+          "pos": 25,
+          "name": "POST AVENUE",
+          "type": "lot",
+          "side": "left",
+          "rent": 25
+        },
+        {
+          "pos": 26,
+          "name": "REAL ESTATE",
+          "type": "broker",
+          "side": "left",
+          "notes": "Grubalt & Holdup Improvement Co."
+        },
+        {
+          "pos": 27,
+          "name": "PUBLIC HIGHWAY",
+          "type": "lot",
+          "side": "left",
+          "rent": 75
+        },
+        {
+          "pos": 28,
+          "name": "P.D.Q. R.R.",
+          "type": "corner",
+          "side": "corner",
+          "fare": 100,
+          "notes": "Interstate Public Utility"
+        },
+        {
+          "pos": 29,
+          "name": "BROADWAY",
+          "type": "lot",
+          "side": "top",
+          "rent": 100
+        },
+        {
+          "pos": 30,
+          "name": "LORD BLUEBLOOD'S ESTATE",
+          "type": "go-to-jail",
+          "side": "top",
+          "notes": "No Trespassing / Go To Jail"
+        },
+        {
+          "pos": 31,
+          "name": "FIFTH AVENUE",
+          "type": "lot",
+          "side": "top",
+          "rent": 100
+        },
+        {
+          "pos": 32,
+          "name": "TING-A-LING TELEPHONE CO.",
+          "type": "franchise",
+          "side": "top",
+          "price": 50,
+          "notes": "Local Public Utility"
+        },
+        {
+          "pos": 33,
+          "name": "THE LOOP",
+          "type": "lot",
+          "side": "top",
+          "rent": 100
+        },
+        {
+          "pos": 34,
+          "name": "LA SWELLE HOTEL",
+          "type": "luxury",
+          "side": "top",
+          "tax": 25,
+          "notes": "$25 A Day"
+        },
+        {
+          "pos": 35,
+          "name": "LAKE SHORE DRIVE",
+          "type": "lot",
+          "side": "top",
+          "rent": 100
+        },
+        {
+          "pos": 36,
+          "name": "EASY STREET",
+          "type": "lot",
+          "side": "top",
+          "rent": 100
+        }
+      ],
+      "innerSpaces": [
+        {
+          "name": "For Sale / Land in Use",
+          "type": "land-in-use",
+          "location": "top-left",
+          "notes": "General Land Office"
+        },
+        {
+          "name": "For Sale / Idle Land",
+          "type": "idle-land",
+          "location": "bottom-left",
+          "notes": "General Land Office"
+        },
+        {
+          "name": "General Fund",
+          "type": "general-fund",
+          "location": "top-right",
+          "notes": "Public Treasury"
+        },
+        {
+          "name": "Prosperity Land Rent Fund",
+          "type": "rent-fund",
+          "location": "bottom-right",
+          "notes": "Public Treasury"
+        }
+      ]
+    }
+  }
+}

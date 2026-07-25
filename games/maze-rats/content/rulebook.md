@@ -19,6 +19,18 @@ theme:
   typography: modern
   accent: green
   section-divider: "✶"
+how_to_play: "Roll dice and consult procedural tables to generate characters, spells, monsters, NPCs, treasure, cities, wilderness, and dungeons on the fly. One Game Master guides players through sandbox adventures using a single compact page of rules."
+mechanics:
+  - dice-rolling
+  - procedural-generation
+  - sandbox
+  - gm-tools
+  - story-tables
+complexity: simple
+related:
+  - dnd-5e
+  - cairn
+  - knave
 engine:
   topology:
     type: none

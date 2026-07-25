@@ -1,0 +1,767 @@
+{
+  "game": "dungeon-world",
+  "label": "Dungeon World",
+  "tableCount": 14,
+  "tables": [
+    {
+      "id": "instincts",
+      "name": "100 Instincts",
+      "roll": "d100",
+      "entries": [
+        "To avenge",
+        "To spread the good word",
+        "To reunite with a loved one",
+        "To make money",
+        "To make amends",
+        "To explore a mysterious place",
+        "To uncover a hidden truth",
+        "To locate a lost thing",
+        "To kill a hated foe",
+        "To conquer a faraway land",
+        "To cure an illness",
+        "To craft a masterwork",
+        "To survive just one more day",
+        "To earn affection",
+        "To prove a point",
+        "To be smarter, faster and stronger",
+        "To heal an old wound",
+        "To extinguish an evil forever",
+        "To hide from a shameful fact",
+        "To evangelize",
+        "To spread suffering",
+        "To prove worth",
+        "To rise in rank",
+        "To be praised",
+        "To discover the truth",
+        "To make good on a bet",
+        "To get out of an obligation",
+        "To convince someone to do their dirty work",
+        "To steal something valuable",
+        "To overcome a bad habit",
+        "To commit an atrocity",
+        "To earn renown",
+        "To accumulate power",
+        "To save someone from a monstrosity",
+        "To teach",
+        "To settle down",
+        "To get just one more haul",
+        "To preserve the law",
+        "To discover",
+        "To devour",
+        "To restore the family name",
+        "To live a quiet life",
+        "To help others",
+        "To atone",
+        "To prove their worth",
+        "To gain honor",
+        "To expand their land",
+        "To gain a title",
+        "To retreat from society",
+        "To escape",
+        "To party",
+        "To return home",
+        "To serve",
+        "To reclaim what was taken",
+        "To do what must be done",
+        "To be a champion",
+        "To avoid notice",
+        "To help a family member",
+        "To perfect a skill",
+        "To travel",
+        "To overcome a disadvantage",
+        "To play the game",
+        "To establish a dynasty",
+        "To improve the realm",
+        "To retire",
+        "To recover a lost memory",
+        "To battle",
+        "To become a terror to criminals",
+        "To raise dragons",
+        "To live up to expectations",
+        "To become someone else",
+        "To do what can't be done",
+        "To be remembered in song",
+        "To be forgotten",
+        "To find true love",
+        "To lose their mind",
+        "To indulge",
+        "To make the best of it",
+        "To find the one",
+        "To destroy an artifact",
+        "To show them all",
+        "To bring about unending summer",
+        "To fly",
+        "To find the six-fingered man",
+        "To wake the ancient sleepers",
+        "To entertain",
+        "To follow an order",
+        "To die gloriously",
+        "To be careful",
+        "To show kindness",
+        "To not screw it all up",
+        "To uncover the past",
+        "To go where no man has gone before",
+        "To do good",
+        "To become a beast",
+        "To spill blood",
+        "To live forever",
+        "To hunt the most dangerous game",
+        "To hate",
+        "To run away"
+      ]
+    },
+    {
+      "id": "knacks",
+      "name": "100 Knacks",
+      "roll": "d100",
+      "entries": [
+        "Criminal connections",
+        "Muscle",
+        "Skill with a specific weapon",
+        "Hedge wizardry",
+        "Comprehensive local knowledge",
+        "Noble blood",
+        "A one-of-a-kind item",
+        "Special destiny",
+        "Unique perspective",
+        "Hidden knowledge",
+        "Magical awareness",
+        "Abnormal parentage",
+        "Political leverage",
+        "A tie to a monster",
+        "A secret",
+        "True love",
+        "An innocent heart",
+        "A plan for the perfect crime",
+        "A one-way ticket to paradise",
+        "A mysterious ore",
+        "Money, money, money",
+        "Divine blessing",
+        "Immunity from the law",
+        "Prophecy",
+        "Secret martial arts techniques",
+        "A ring of power",
+        "A much-needed bag of taters",
+        "A heart",
+        "A fortified position",
+        "Lawmaking",
+        "Tongues",
+        "A discerning eye",
+        "Endurance",
+        "A safe place",
+        "Visions",
+        "A beautiful mind",
+        "A clear voice",
+        "Stunning looks",
+        "A catchy tune",
+        "Invention",
+        "Baking",
+        "Brewing",
+        "Smelting",
+        "Woodworking",
+        "Writing",
+        "Immunity to fire",
+        "Cooking",
+        "Storytelling",
+        "Ratcatching",
+        "Lying",
+        "Utter unremarkableness",
+        "Mind-bending sexiness",
+        "Undefinable coolness",
+        "A way with knots",
+        "Wheels of polished steel",
+        "A magic carpet",
+        "Endless ideas",
+        "Persistence",
+        "A stockpile of food",
+        "A hidden path",
+        "Piety",
+        "Resistance to disease",
+        "A library",
+        "A silver tongue",
+        "Bloodline",
+        "An innate spell",
+        "Balance",
+        "Souls",
+        "Speed",
+        "A sense of right and wrong",
+        "Certainty",
+        "An eye for detail",
+        "Heroic self-sacrifice",
+        "Sense of direction",
+        "A big idea",
+        "A hidden entrance to the city",
+        "The love of someone powerful",
+        "Unquestioning loyalty",
+        "Exotic fruit",
+        "Poison",
+        "Perfect memory",
+        "The language of birds",
+        "A key to an important door",
+        "Metalworking",
+        "Mysterious benefactors",
+        "Steely nerves",
+        "Bluffing",
+        "A trained wolf",
+        "A long-lost sibling, regained",
+        "An arrow with your name on it",
+        "A true name",
+        "Luck",
+        "The attention of supernatural powers",
+        "Kindness",
+        "Strange tattoos",
+        "A majestic beard",
+        "A book in a strange language",
+        "Power overwhelming",
+        "Delusions of grandeur",
+        "The wind at his back and a spring in his step"
+      ]
+    },
+    {
+      "id": "names",
+      "name": "Names",
+      "roll": "d113",
+      "entries": [
+        "Finbar",
+        "Hywn",
+        "One Eye",
+        "Alhoro",
+        "Arlon",
+        "Yev",
+        "Slime",
+        "Jocat",
+        "Ewing",
+        "Lim",
+        "Poy",
+        "Milo",
+        "Deryl",
+        "Medlyn",
+        "Astrafel",
+        "Daelwyn",
+        "Feliana",
+        "Damarra",
+        "Sistranalle",
+        "Pendrell",
+        "Melliandre",
+        "Dagoliir",
+        "Baldric",
+        "Leena",
+        "Dunwick",
+        "Willem",
+        "Edwyn",
+        "Florian",
+        "Seraphine",
+        "Quorra",
+        "Charlotte",
+        "Lily",
+        "Ramonde",
+        "Cassandra",
+        "Durga",
+        "Aelfar",
+        "Gerda",
+        "Rurgosh",
+        "Bjorn",
+        "Drummond",
+        "Helga",
+        "Siggrun",
+        "Freya",
+        "Wesley",
+        "Brinton",
+        "Jon",
+        "Sara",
+        "Hawthorn",
+        "Elise",
+        "Clarke",
+        "Lenore",
+        "Piotr",
+        "Dahlia",
+        "Carmine",
+        "Hycorax",
+        "Ethanwe",
+        "Sinathel",
+        "Demanor",
+        "Menoliir",
+        "Mithralan",
+        "Taeros",
+        "Aegor",
+        "Tanner",
+        "Dunstan",
+        "Rose",
+        "Ivy",
+        "Robard",
+        "Mab",
+        "Thistle",
+        "Puck",
+        "Anne",
+        "Serah",
+        "Elana",
+        "Obelis",
+        "Herran",
+        "Syla",
+        "Andanna",
+        "Siobhan",
+        "Aziz",
+        "Pelin",
+        "Sibel",
+        "Nils",
+        "Wei",
+        "Ozruk",
+        "Surtur",
+        "Brunhilda",
+        "Annika",
+        "Janos",
+        "Greta",
+        "Dim",
+        "Rundrig",
+        "Jarl",
+        "Xotoq",
+        "Elohiir",
+        "Sharaseth",
+        "Hasrith",
+        "Shevaral",
+        "Cadeus",
+        "Eldar",
+        "Kithracet",
+        "Thelian",
+        "Finnegan",
+        "Olive",
+        "Randolph",
+        "Bartleby",
+        "Aubrey",
+        "Baldwin",
+        "Becca",
+        "Hawke",
+        "Rudiger",
+        "Gregor",
+        "Brianne",
+        "Walton"
+      ]
+    },
+    {
+      "id": "services",
+      "name": "Services",
+      "entries": [
+        {
+          "name": "A week's stay at a peasant inn",
+          "cost": "14-Charisma coins"
+        },
+        {
+          "name": "A week's stay at a civilized inn",
+          "cost": "30-Charisma coins"
+        },
+        {
+          "name": "A week's stay at the fanciest inn in town",
+          "cost": "43-Charisma coins"
+        },
+        {
+          "name": "A week's unskilled mundane labor",
+          "cost": "10 coins"
+        },
+        {
+          "name": "A month's pay for enlistment in an army",
+          "cost": "30 coins"
+        },
+        {
+          "name": "A custom item from a blacksmith",
+          "cost": "Base Item + 50 coins"
+        },
+        {
+          "name": "A night's \"companionship\"",
+          "cost": "20-Charisma coins"
+        },
+        {
+          "name": "An evening of song and dance",
+          "cost": "18-Charisma coins"
+        },
+        {
+          "name": "Escort for a day along a bandit-infested road",
+          "cost": "20 coins"
+        },
+        {
+          "name": "Escort for a day along a monster-infested road",
+          "cost": "54 coins"
+        },
+        {
+          "name": "A run-of-the-mill killing",
+          "cost": "5 coins"
+        },
+        {
+          "name": "An assassination",
+          "cost": "120 coins"
+        },
+        {
+          "name": "Healing from a chirurgeon",
+          "cost": "5 coins"
+        },
+        {
+          "name": "A month's prayers for the departed",
+          "cost": "1 coin"
+        },
+        {
+          "name": "Repairs to a mundane item",
+          "cost": "25% of the item's cost"
+        }
+      ]
+    },
+    {
+      "id": "meals",
+      "name": "Meals",
+      "entries": [
+        {
+          "name": "A hearty meal for one",
+          "cost": "1 coin"
+        },
+        {
+          "name": "A poor meal for a family",
+          "cost": "1 coin"
+        },
+        {
+          "name": "A feast",
+          "cost": "15 coins per person"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "entries": [
+        {
+          "name": "Cart and Donkey, sworn to carry your burdens",
+          "cost": "50 coins, load 20"
+        },
+        {
+          "name": "Horse",
+          "cost": "75 coins, load 10"
+        },
+        {
+          "name": "Warhorse",
+          "cost": "400 coins, load 12"
+        },
+        {
+          "name": "Wagon",
+          "cost": "150 coins, load 40"
+        },
+        {
+          "name": "Barge",
+          "cost": "50 coins, load 15"
+        },
+        {
+          "name": "River boat",
+          "cost": "150 coins, load 20"
+        },
+        {
+          "name": "Merchant ship",
+          "cost": "5,000 coins, load 200"
+        },
+        {
+          "name": "War ship",
+          "cost": "20,000 coins, load 100"
+        },
+        {
+          "name": "Passage on a safe route",
+          "cost": "1 coin"
+        },
+        {
+          "name": "Passage on a tough route",
+          "cost": "10 coins"
+        },
+        {
+          "name": "Passage on a dangerous route",
+          "cost": "100 coins"
+        }
+      ]
+    },
+    {
+      "id": "land-and-buildings",
+      "name": "Land and Buildings",
+      "entries": [
+        {
+          "name": "A hovel",
+          "cost": "20 coins"
+        },
+        {
+          "name": "A cottage",
+          "cost": "500 coins"
+        },
+        {
+          "name": "A house",
+          "cost": "2,500 coins"
+        },
+        {
+          "name": "A mansion",
+          "cost": "50,000 coins"
+        },
+        {
+          "name": "A keep",
+          "cost": "75,000 coins"
+        },
+        {
+          "name": "A castle",
+          "cost": "250,000 coins"
+        },
+        {
+          "name": "A grand castle",
+          "cost": "1,000,000 coins"
+        },
+        {
+          "name": "A month's upkeep",
+          "cost": "1% of the cost"
+        }
+      ]
+    },
+    {
+      "id": "bribes",
+      "name": "Bribes",
+      "entries": [
+        {
+          "name": "A peasant dowry",
+          "cost": "20-Charisma coins"
+        },
+        {
+          "name": "\"Protection\" for a small business",
+          "cost": "100-Charisma coins"
+        },
+        {
+          "name": "A government bribe",
+          "cost": "50-Charisma coins"
+        },
+        {
+          "name": "A compelling bribe",
+          "cost": "80-Charisma coins"
+        },
+        {
+          "name": "An offer you can't refuse",
+          "cost": "500-Charisma coins"
+        }
+      ]
+    },
+    {
+      "id": "gifts-and-finery",
+      "name": "Gifts and Finery",
+      "entries": [
+        {
+          "name": "A peasant gift",
+          "cost": "1 coin"
+        },
+        {
+          "name": "A fine gift",
+          "cost": "55 coins"
+        },
+        {
+          "name": "A noble gift",
+          "cost": "200 coins"
+        },
+        {
+          "name": "A ring or cameo",
+          "cost": "75 coins"
+        },
+        {
+          "name": "Finery",
+          "cost": "105 coins"
+        },
+        {
+          "name": "A fine tapestry",
+          "cost": "350+ coins"
+        },
+        {
+          "name": "A crown fit for a king",
+          "cost": "5,000 coins"
+        }
+      ]
+    },
+    {
+      "id": "hoards",
+      "name": "Hoards",
+      "entries": [
+        {
+          "name": "A goblin's stash",
+          "cost": "2 coins"
+        },
+        {
+          "name": "A lizardman's trinkets",
+          "cost": "5 coins"
+        },
+        {
+          "name": "A \"priceless\" sword",
+          "cost": "80 coins"
+        },
+        {
+          "name": "An orc warchief's tribute",
+          "cost": "250 coins"
+        },
+        {
+          "name": "A dragon's mound of coins and gems",
+          "cost": "130,000 coins"
+        }
+      ]
+    },
+    {
+      "id": "prosperity",
+      "name": "Prosperity",
+      "entries": [
+        {
+          "name": "Dirt",
+          "description": "nothing for sale, nobody has more than they need; unskilled labor is cheap"
+        },
+        {
+          "name": "Poor",
+          "description": "only the bare necessities for sale; weapons scarce unless heavily defended or militant"
+        },
+        {
+          "name": "Moderate",
+          "description": "most mundane items available, some skilled laborers"
+        },
+        {
+          "name": "Wealthy",
+          "description": "any mundane item can be found; most skilled laborers, but in demand"
+        },
+        {
+          "name": "Rich",
+          "description": "(mundane items and more, if you know where to look; specialist labor at high prices)."
+        }
+      ]
+    },
+    {
+      "id": "population",
+      "name": "Population",
+      "entries": [
+        {
+          "name": "Exodus",
+          "description": "the steading has lost its population and is on the verge of collapse"
+        },
+        {
+          "name": "Shrinking",
+          "description": "population is less than it once was; buildings stand empty"
+        },
+        {
+          "name": "Steady",
+          "description": "population in line with current size, slow growth"
+        },
+        {
+          "name": "Growing",
+          "description": "more people than buildings"
+        },
+        {
+          "name": "Booming",
+          "description": "(resources stretched thin keeping up)."
+        }
+      ]
+    },
+    {
+      "id": "defenses",
+      "name": "Defenses",
+      "entries": [
+        {
+          "name": "None",
+          "description": "clubs, torches, farming tools"
+        },
+        {
+          "name": "Militia",
+          "description": "able-bodied folk with worn weapons, no standing force"
+        },
+        {
+          "name": "Watch",
+          "description": "a few watchers who look out for trouble and summon the militia"
+        },
+        {
+          "name": "Guard",
+          "description": "armed defenders at all times, pool under 100"
+        },
+        {
+          "name": "Garrison",
+          "description": "armed defenders at all times, pool of 100–300, multiple patrols"
+        },
+        {
+          "name": "Battalion",
+          "description": "up to 1,000 armed defenders, manned maintained defenses"
+        },
+        {
+          "name": "Legion",
+          "description": "(thousands of armed soldiers, intimidating defenses)."
+        }
+      ]
+    },
+    {
+      "id": "other-tags",
+      "name": "Other Tags",
+      "entries": [
+        {
+          "name": "Safe",
+          "description": "outside trouble doesn't come here until the players bring it"
+        },
+        {
+          "name": "Religion",
+          "description": "a listed deity is revered here"
+        },
+        {
+          "name": "Exotic",
+          "description": "goods and services unavailable anywhere else nearby"
+        },
+        {
+          "name": "Resource",
+          "description": "easy access to a listed resource, significantly cheaper"
+        },
+        {
+          "name": "Need",
+          "description": "an acute or ongoing need for a listed resource, which sells for considerably more"
+        },
+        {
+          "name": "Oath",
+          "description": "sworn to listed steadings, generally fealty or support"
+        },
+        {
+          "name": "Trade",
+          "description": "regularly trades with listed steadings"
+        },
+        {
+          "name": "Market",
+          "description": "everyone comes here to trade; +1 to Supply"
+        },
+        {
+          "name": "Enmity",
+          "description": "holds a grudge against listed steadings"
+        },
+        {
+          "name": "History",
+          "description": "something important once happened here: battle, miracle, myth, romance, tragedy"
+        },
+        {
+          "name": "Arcane",
+          "description": "someone can cast arcane spells for a price; +1 to Recruit an adept"
+        },
+        {
+          "name": "Divine",
+          "description": "a major religious presence that can heal or raise the dead for a donation; +1 to Recruit priests"
+        },
+        {
+          "name": "Guild",
+          "description": "a listed guild type has major presence; +1 to Recruit an associated hireling"
+        },
+        {
+          "name": "Personage",
+          "description": "a notable person makes their home here"
+        },
+        {
+          "name": "Dwarven* / *Elven",
+          "description": "significantly or entirely that race; their goods more common and less expensive"
+        },
+        {
+          "name": "Craft",
+          "description": "known for excellence in a listed craft"
+        },
+        {
+          "name": "Lawless",
+          "description": "crime is rampant, authority weak"
+        },
+        {
+          "name": "Blight",
+          "description": "a recurring problem, usually a type of monster"
+        },
+        {
+          "name": "Power",
+          "description": "(holds sway of some type — political, divine, or arcane)."
+        }
+      ]
+    }
+  ]
+}

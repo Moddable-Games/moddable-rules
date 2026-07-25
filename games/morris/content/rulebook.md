@@ -39,6 +39,17 @@ engine:
       b: bS
       w: wS
   players: [white, black]
+how_to_play: "Form three-in-a-row lines (mills) to capture opponent pieces. Place all pieces during the opening phase, then move them to form mills. Reduce your opponent to two pieces or block all their moves to win."
+mechanics:
+  - placement
+  - line-formation
+  - capture
+  - blocking
+complexity: simple
+related:
+  - go
+  - reversi
+  - agon
 ---
 
 <div class="section variant-hub">

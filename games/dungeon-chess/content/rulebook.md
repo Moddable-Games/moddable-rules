@@ -13,6 +13,10 @@ updated: "2026-06-12"
 first_published: "May 2026"
 published: true
 logo_has_title: true
+how_to_play: "Draft asymmetric armies from 4 factions (Human, Undead, Redskin, Greenskin) using an XP budget. Battle on modular dungeon maps with terrain hazards. King capture wins."
+mechanics: [abstract-strategy, asymmetric, drafting, grid, combat, terrain]
+complexity: complex
+related: [moddable-chess, xiangqi, shogi, dou-shou-qi]
 theme:
   surface: dark
   tint: warm

@@ -1,0 +1,81 @@
+{
+  "slug": "nukes",
+  "title": "Nukes: Official Rulebook",
+  "players": "2–3",
+  "duration": "45+ min",
+  "age": "12+",
+  "tagline": "Cold-war territory control on a hex map with nuclear brinkmanship",
+  "type": "game",
+  "status": "live",
+  "updated": "2026-06-27",
+  "version": "0.9.8",
+  "mechanics": [
+    "territory",
+    "hostage-economy",
+    "fluid-units",
+    "nuclear-strikes",
+    "hex-grid"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Command armies across hex terrain, managing platoons that change type based on unit count. Return hostages to earn moves, but every return strengthens your opponent. Build bases to convert units into isotopes for nuclear strikes. Win by destroying or occupying an opponent's city.",
+  "related": [
+    "harvesters",
+    "hyper-imperium",
+    "endless-skies"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "siege",
+      "title": "Nukes: Siege",
+      "players": "2",
+      "board": null,
+      "win": null,
+      "special": "Hostage mechanic replaced with own-supply recruiting. Enemy hostages only arrive through combat."
+    },
+    {
+      "slug": "standard",
+      "title": "Nukes: Standard",
+      "players": "2–3",
+      "board": null,
+      "win": null,
+      "special": "Standard 3-ring hex map with seeded terrain generation. 2-player default."
+    },
+    {
+      "slug": "asymmetric-powers",
+      "title": "Nukes: Asymmetric Powers",
+      "players": "2–3",
+      "board": null,
+      "win": null,
+      "special": "Each player draws one Power Card at setup. No two players hold the same card."
+    },
+    {
+      "slug": "fallout",
+      "title": "Nukes: Fallout",
+      "players": "2–3",
+      "board": null,
+      "win": null,
+      "special": "Biohazard tiles spread one tile per round. City tiles are immune. The board shrinks over time."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "How to Play in 5 Minutes",
+    "Components",
+    "Setting Up the Board",
+    "Victory Conditions",
+    "Turn Structure",
+    "Units & Platoons",
+    "Combat",
+    "Biomes",
+    "Variants"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/nukes/rulebook.md",
+    "meta": "/api/rules/nukes/meta.json",
+    "variants": "/api/rules/nukes/variants/"
+  }
+}

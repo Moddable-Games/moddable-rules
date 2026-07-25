@@ -1,0 +1,154 @@
+{
+  "slug": "go",
+  "title": "Go",
+  "players": "2",
+  "duration": "15–180 min",
+  "age": "8+",
+  "tagline": "Four thousand years of emergent complexity from one rule",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-06-22",
+  "version": "0.3.0",
+  "mechanics": [
+    "abstract-strategy",
+    "grid",
+    "territory",
+    "capture",
+    "placement"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Place stones on grid intersections to surround territory and capture opponent groups by filling their liberties. From one fundamental rule emerges extraordinary strategic depth.",
+  "related": [
+    "draughts",
+    "moddable-chess",
+    "xiangqi",
+    "hex"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Standard Go (19×19)",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Full tournament game. 361 intersections. Komi 6.5. Area or territory scoring."
+    },
+    {
+      "slug": "13x13",
+      "title": "13×13 Go",
+      "players": "2",
+      "board": "13×13",
+      "win": "Most territory at game end",
+      "special": "Intermediate board. 169 intersections. Komi 5.5. 30–60 minute games."
+    },
+    {
+      "slug": "9x9",
+      "title": "9×9 Go",
+      "players": "2",
+      "board": "9×9",
+      "win": "Most territory at game end",
+      "special": "Quick games (15 min). 81 intersections. Komi 5.5. Purely tactical."
+    },
+    {
+      "slug": "gomoku",
+      "title": "Gomoku",
+      "players": "2",
+      "board": "15×15",
+      "win": "Five in an unbroken row",
+      "special": "Black plays first. Stones are placed, never moved. No captures."
+    },
+    {
+      "slug": "ninuki-renju",
+      "title": "Ninuki-Renju",
+      "players": "2",
+      "board": "15×15",
+      "win": "Five in an unbroken row (exactly five) or five pairs captured",
+      "special": "Japanese precursor to Pente. Custodial captures. Two win conditions. Active 1923-1940."
+    },
+    {
+      "slug": "one-colour",
+      "title": "One-Colour Go",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Both players use identical stones. Must remember which are yours. Extreme memory challenge."
+    },
+    {
+      "slug": "phantom-go",
+      "title": "Phantom Go",
+      "players": "2 + referee",
+      "board": "9×9 or 13×13",
+      "win": "Most territory (standard scoring)",
+      "special": "Fog of war. Players cannot see opponent stones. A referee mediates all moves."
+    },
+    {
+      "slug": "capture-go",
+      "title": "Capture Go",
+      "players": "2",
+      "board": "9×9",
+      "win": "First capture wins",
+      "special": "First player to capture any stone wins. No territory scoring. The universal teaching variant."
+    },
+    {
+      "slug": "rengo",
+      "title": "Rengo",
+      "players": "4–6",
+      "board": "19×19",
+      "win": "Most territory at game end (team)",
+      "special": "Team Go. Partners alternate turns. No consultation. 2v2 or 3v3."
+    },
+    {
+      "slug": "renju",
+      "title": "Renju",
+      "players": "2",
+      "board": "15×15",
+      "win": "Five in an unbroken row (exactly five for Black)",
+      "special": "Competitive Gomoku with forbidden moves for Black. Governed by the Renju International Federation."
+    },
+    {
+      "slug": "stoical",
+      "title": "Stoical Go",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Cannot capture if opponent captured last turn. Forces restraint and patience."
+    },
+    {
+      "slug": "sunjang",
+      "title": "Sunjang Baduk",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi."
+    },
+    {
+      "slug": "tibetan",
+      "title": "Tibetan Go",
+      "players": "2",
+      "board": "17×17",
+      "win": "Cosmological scoring (territory + captures + bonus)",
+      "special": "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system."
+    },
+    {
+      "slug": "toroidal-go",
+      "title": "Toroidal Go",
+      "players": "2",
+      "board": "11×11",
+      "win": "Most territory (area or territory scoring)",
+      "special": "Edges wrap horizontally and vertically. No corners, no edges, no joseki."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/go/rulebook.md",
+    "meta": "/api/rules/go/meta.json",
+    "variants": "/api/rules/go/variants/"
+  }
+}

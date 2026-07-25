@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-04"
 published: true
 variants: true
+how_to_play: "Roll dice and move around a 40-space board, buying properties and charging rent. Five historical variants from austere patent rules to the collective-win Prosperity mode where the poorest player must double their wealth."
+mechanics: [dice, roll-and-move, trading, resource-management, auction]
+complexity: moderate
+related: [econopoly, harvesters, backgammon]
 theme:
   surface: light
   tint: neutral

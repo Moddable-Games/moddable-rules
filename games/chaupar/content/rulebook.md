@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-06-18"
 published: true
 variants: false
+how_to_play: "Team race game on a cross-shaped board. Roll three long dice, split the result among your pieces, and race to return all pieces to the center. Pieces combine into super-pieces for capture immunity."
+mechanics: [dice, race, capture, movement, team-play]
+complexity: moderate
+related: [pachisi, backgammon, royal-ur, nyout]
 theme:
   tint: cool
   texture: crosshatch

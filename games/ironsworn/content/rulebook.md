@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-04"
 published: true
 variants: false
+how_to_play: "Roll action dice against challenge dice to resolve moves. Characters are bound to sworn vows, face peril, and mark progress. Plays solo, cooperatively, or with a guide. Oracle tables generate narrative."
+mechanics: [dice, narrative, exploration, combat, oracle, solo, cooperative]
+complexity: moderate
+related: [starforged, cairn, dungeon-world, fate-core]
 theme:
   surface: light
   tint: warm

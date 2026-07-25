@@ -1,0 +1,208 @@
+{
+  "name": "Dungeon World: Moves",
+  "game": "dungeon-world",
+  "licence": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+  "attribution": "Dungeon World © Sage LaTorra and Adam Koebel. Source: Sagelt/Dungeon-World.",
+  "moves": [
+    {
+      "name": "Hack and Slash",
+      "category": "Basic",
+      "stat": "STR",
+      "trigger": "When you attack an enemy in melee",
+      "text": "When you attack an enemy in melee, roll+Str. On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy's attack. On a 7-9, you deal your damage to the enemy and the enemy makes an attack against you.",
+      "strong_hit": "You deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy's attack.",
+      "weak_hit": "You deal your damage to the enemy and the enemy makes an attack against you."
+    },
+    {
+      "name": "Volley",
+      "category": "Basic",
+      "stat": "DEX",
+      "trigger": "When you take aim and shoot at an enemy at range",
+      "text": "When you take aim and shoot at an enemy at range, roll+Dex. On a 10+, you have a clear shot — deal your damage. On a 7-9, choose one (you still deal your damage): You have to move to get the shot, placing you in danger as described by the GM; You have to take what you can get: -1d6 damage; You have to take several shots, reducing your ammo by one.",
+      "strong_hit": "You have a clear shot — deal your damage.",
+      "weak_hit": "Deal your damage, but choose one: You have to move to get the shot, placing you in danger as described by the GM; You have to take what you can get: -1d6 damage; You have to take several shots, reducing your ammo by one."
+    },
+    {
+      "name": "Defy Danger",
+      "category": "Basic",
+      "stat": "varies",
+      "trigger": "When you act despite an imminent threat or suffer a calamity",
+      "text": "When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it by powering through, +Str. By getting out of the way or acting fast, +Dex. By enduring, +Con. With quick thinking, +Int. Through mental fortitude, +Wis. Using charm and social grace, +Cha. On a 10+, you do what you set out to — the threat doesn't come to bear. On a 7-9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.",
+      "strong_hit": "You do what you set out to — the threat doesn't come to bear.",
+      "weak_hit": "You stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice."
+    },
+    {
+      "name": "Defend",
+      "category": "Basic",
+      "stat": "CON",
+      "trigger": "When you stand in defense of a person, item, or location under attack",
+      "text": "When you stand in defense of a person, item, or location under attack, roll+Con. On a 10+, hold 3. On a 7-9, hold 1. As long as you stand in defense, when you or the thing you defend is attacked you may spend hold, 1 for 1, to choose an option: Redirect an attack from the thing you defend to yourself; Halve the attack's effect or damage; Open up the attacker to an ally, giving that ally +1 forward against the attacker; Deal damage to the attacker equal to your level.",
+      "strong_hit": "Hold 3. Spend hold when attacked to: redirect an attack to yourself; halve the attack's effect or damage; open up the attacker to an ally (+1 forward); deal damage equal to your level.",
+      "weak_hit": "Hold 1. Spend hold when attacked to: redirect an attack to yourself; halve the attack's effect or damage; open up the attacker to an ally (+1 forward); deal damage equal to your level."
+    },
+    {
+      "name": "Spout Lore",
+      "category": "Basic",
+      "stat": "INT",
+      "trigger": "When you consult your accumulated knowledge about something",
+      "text": "When you consult your accumulated knowledge about something, roll+Int. On a 10+, the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7-9, the GM will only tell you something interesting — it's on you to make it useful. The GM might ask \"how do you know this?\" Tell them the truth.",
+      "strong_hit": "The GM will tell you something interesting and useful about the subject relevant to your situation.",
+      "weak_hit": "The GM will only tell you something interesting — it's on you to make it useful."
+    },
+    {
+      "name": "Discern Realities",
+      "category": "Basic",
+      "stat": "WIS",
+      "trigger": "When you closely study a situation or person",
+      "text": "When you closely study a situation or person, roll+Wis. On a 10+, ask the GM 3 questions from the list below. On a 7-9, ask 1. Either way, take +1 forward when acting on the answers. Questions: What happened here recently? What is about to happen? What should I be on the lookout for? What here is useful or valuable to me? Who's really in control here? What here is not what it appears to be?",
+      "strong_hit": "Ask the GM 3 questions from the list. Take +1 forward when acting on the answers.",
+      "weak_hit": "Ask the GM 1 question from the list. Take +1 forward when acting on the answers.",
+      "questions": [
+        "What happened here recently?",
+        "What is about to happen?",
+        "What should I be on the lookout for?",
+        "What here is useful or valuable to me?",
+        "Who's really in control here?",
+        "What here is not what it appears to be?"
+      ]
+    },
+    {
+      "name": "Parley",
+      "category": "Basic",
+      "stat": "CHA",
+      "trigger": "When you have leverage on a GM Character and manipulate them",
+      "text": "When you have leverage on a GM Character and manipulate them, roll+Cha. Leverage is something they need or want. On a 10+, they do what you ask if you first promise what they ask of you. On a 7-9, they will do what you ask, but need some concrete assurance of your promise, right now.",
+      "strong_hit": "They do what you ask if you first promise what they ask of you.",
+      "weak_hit": "They will do what you ask, but need some concrete assurance of your promise, right now."
+    },
+    {
+      "name": "Aid or Interfere",
+      "category": "Basic",
+      "stat": "Bond",
+      "trigger": "When you help or hinder someone",
+      "text": "When you help or hinder someone, roll+bond with them. On a 10+, they take +1 or -2 to their roll, your choice. On a 7-9, they still get a modifier, but you also expose yourself to danger, retribution, or cost.",
+      "strong_hit": "They take +1 or -2 to their roll, your choice.",
+      "weak_hit": "They still get a modifier, but you also expose yourself to danger, retribution, or cost."
+    },
+    {
+      "name": "Last Breath",
+      "category": "Special",
+      "stat": "none",
+      "trigger": "When you're dying",
+      "text": "When you're dying, you catch a glimpse of what lies beyond the Black Gates of Death's Kingdom (the GM will describe it). Then roll (just roll, +nothing). On a 10+, you've cheated Death — you're in a bad spot but still alive. On a 7-9, Death himself will offer you a bargain. Take it and stabilize, or refuse and pass beyond the Black Gates into whatever fate awaits you. On a 6-, your fate is sealed — you're marked as Death's own and you'll cross the threshold soon. The GM will tell you when.",
+      "strong_hit": "You've cheated Death — you're in a bad spot but still alive.",
+      "weak_hit": "Death himself will offer you a bargain. Take it and stabilize, or refuse and pass beyond the Black Gates into whatever fate awaits you.",
+      "miss": "Your fate is sealed — you're marked as Death's own and you'll cross the threshold soon. The GM will tell you when."
+    },
+    {
+      "name": "Encumbrance",
+      "category": "Special",
+      "stat": "none",
+      "trigger": "When you make a move while carrying weight",
+      "text": "When you make a move while carrying weight you may be encumbered. If your weight carried is equal to or less than your load, you suffer no penalty. If less than or equal to your load+2, you take -1 ongoing until you lighten your burden. If greater than your load+2, you have a choice: drop at least 1 weight and roll at -1, or automatically fail."
+    },
+    {
+      "name": "Make Camp",
+      "category": "Special",
+      "stat": "none",
+      "trigger": "When you settle in to rest",
+      "text": "When you settle in to rest, consume a ration. If you're somewhere dangerous, decide the watch order as well. If you have enough XP you may level up. When you wake from at least a few uninterrupted hours of sleep, heal damage equal to half your max HP."
+    },
+    {
+      "name": "Take Watch",
+      "category": "Special",
+      "stat": "WIS",
+      "trigger": "When you're on watch and something approaches the camp",
+      "text": "When you're on watch and something approaches the camp, roll+Wis. On a 10+, you're able to wake the camp and prepare a response — everyone in camp takes +1 forward. On a 7-9, you react a moment too late; your companions wake with weapons and armor but little else. On a miss, whatever lurks outside the campfire's light has the drop on you.",
+      "strong_hit": "You're able to wake the camp and prepare a response — everyone in camp takes +1 forward.",
+      "weak_hit": "You react a moment too late; your companions wake with weapons and armor but little else.",
+      "miss": "Whatever lurks outside the campfire's light has the drop on you."
+    },
+    {
+      "name": "Undertake a Perilous Journey",
+      "category": "Special",
+      "stat": "WIS",
+      "trigger": "When you travel through hostile territory",
+      "text": "When you travel through hostile territory, choose one member of the party to act as trailblazer, one to scout ahead, and one to be quartermaster. Each character with a job rolls+Wis. On a 10+: the quartermaster reduces the number of rations required by one; the trailblazer reduces the amount of time it takes to reach your destination (the GM says by how much); the scout will spot any trouble quick enough to let you get the drop on it. On a 7-9, each role performs as expected: normal rations consumed, the journey takes the expected time, no one gets the drop on you but you don't get the drop on them either.",
+      "strong_hit": "The quartermaster reduces rations by one; the trailblazer reduces travel time; the scout spots trouble early enough to get the drop on it.",
+      "weak_hit": "Each role performs as expected: normal rations, expected time, no surprise either way."
+    },
+    {
+      "name": "End of Session",
+      "category": "Special",
+      "stat": "none",
+      "trigger": "When you reach the end of a session",
+      "text": "When you reach the end of a session, choose one of your bonds that you feel is resolved. Ask the player of the character you have the bond with if they agree. If they do, mark XP and write a new bond with whomever you wish. Once bonds have been updated, look at your alignment. If you fulfilled that alignment at least once this session, mark XP. Then answer these three questions as a group: Did we learn something new and important about the world? Did we overcome a notable monster or enemy? Did we loot a memorable treasure? For each \"yes\" answer, everyone marks XP.",
+      "questions": [
+        "Did we learn something new and important about the world?",
+        "Did we overcome a notable monster or enemy?",
+        "Did we loot a memorable treasure?"
+      ]
+    },
+    {
+      "name": "Level Up",
+      "category": "Special",
+      "stat": "none",
+      "trigger": "When you have downtime (hours or days) and XP equal to (or greater than) your current level+7",
+      "text": "When you have downtime (hours or days) and XP equal to (or greater than) your current level+7, you can reflect on your experiences and hone your skills. Subtract your current level+7 from your XP. Increase your level by 1. Choose a new advanced move from your class. If you are the wizard, you also get to add a new spell to your spellbook. Choose one of your stats and increase it by 1 (this may change your modifier). Changing Constitution increases your maximum and current HP. Ability scores can't go higher than 18."
+    },
+    {
+      "name": "Carouse",
+      "category": "Special",
+      "stat": "coins",
+      "trigger": "When you return triumphant and throw a big party",
+      "text": "When you return triumphant and throw a big party, spend 100 coins and roll +1 for every extra 100 coins spent. On a 10+, choose 3. On a 7-9, choose 1. On a miss, you still choose one, but things get really out of hand (the GM will say how). Options: You befriend a useful NPC; You hear rumors of an opportunity; You gain useful information; You are not entangled, ensorcelled, or tricked.",
+      "strong_hit": "Choose 3: befriend a useful NPC; hear rumors of an opportunity; gain useful information; you are not entangled, ensorcelled, or tricked.",
+      "weak_hit": "Choose 1: befriend a useful NPC; hear rumors of an opportunity; gain useful information; you are not entangled, ensorcelled, or tricked.",
+      "miss": "You still choose one, but things get really out of hand (the GM will say how).",
+      "options": [
+        "You befriend a useful NPC.",
+        "You hear rumors of an opportunity.",
+        "You gain useful information.",
+        "You are not entangled, ensorcelled, or tricked."
+      ]
+    },
+    {
+      "name": "Supply",
+      "category": "Special",
+      "stat": "CHA",
+      "trigger": "When you go to buy something with gold on hand",
+      "text": "When you go to buy something with gold on hand, if it's readily available in the settlement you're in, buy it at market price. If it's something special, beyond what's usually available, or non-mundane, roll+Cha. On a 10+, you find what you're looking for at a fair price. On a 7-9, you'll have to pay more or settle for something close, your choice, and the GM will tell you what your options are.",
+      "strong_hit": "You find what you're looking for at a fair price.",
+      "weak_hit": "You'll have to pay more or settle for something close, your choice, and the GM will tell you what your options are."
+    },
+    {
+      "name": "Recover",
+      "category": "Special",
+      "stat": "none",
+      "trigger": "When you do nothing but rest in comfort and safety",
+      "text": "When you do nothing but rest in comfort and safety, after a day of rest you recover all your HP. After three days of rest you remove one debility of your choice. If you're under the care of a healer (magical or otherwise) you heal a debility for every two days of rest instead."
+    },
+    {
+      "name": "Recruit",
+      "category": "Special",
+      "stat": "modifiers",
+      "trigger": "When you put out word that you're looking to hire help",
+      "text": "When you put out word that you're looking to hire help, roll. +1 if you make it known that your pay is generous; +1 if you make it known what you're setting out to do; +1 if you make it known that they'll get a share of whatever you find; +1 if you have a useful reputation around these parts. On a 10+, you've got your pick of skilled applicants, your choice who you hire, no penalty for not taking them along. On a 7-9, you'll have to settle for someone close to what you want or turn them away. On a miss, someone influential and ill-suited declares they'd like to come along (a foolhardy youth, a loose-cannon, or a veiled enemy) — bring them and take the consequences, or turn them away (and take -1 forward to recruit).",
+      "strong_hit": "You've got your pick of skilled applicants, your choice who you hire, no penalty for not taking them along.",
+      "weak_hit": "You'll have to settle for someone close to what you want or turn them away.",
+      "miss": "Someone influential and ill-suited declares they'd like to come along — bring them and take the consequences, or turn them away (and take -1 forward to recruit)."
+    },
+    {
+      "name": "Outstanding Warrants",
+      "category": "Special",
+      "stat": "CHA",
+      "trigger": "When you return to a civilized place in which you've caused trouble before",
+      "text": "When you return to a civilized place in which you've caused trouble before, roll+Cha. On a 10+, word has spread of your deeds and everyone recognizes you. On a 7-9, as above, and the GM chooses a complication: The local constabulary has a warrant out for your arrest; Someone has put a price on your head; Someone important to you has been put in a bad spot as a result of your actions.",
+      "strong_hit": "Word has spread of your deeds and everyone recognizes you.",
+      "weak_hit": "Word has spread of your deeds and everyone recognizes you, and the GM chooses a complication: a warrant for your arrest; a price on your head; someone important to you is in a bad spot."
+    },
+    {
+      "name": "Bolster",
+      "category": "Special",
+      "stat": "none",
+      "trigger": "When you spend your leisure time in study, meditation, or hard practice",
+      "text": "When you spend your leisure time in study, meditation, or hard practice, you gain preparation. If you prepare for a week or more, take 1 preparation. If you prepare for a month or longer, take 3 instead. When your preparation pays off, spend 1 preparation for +1 to any roll. You can only spend one preparation per roll."
+    }
+  ]
+}

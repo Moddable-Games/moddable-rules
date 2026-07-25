@@ -1,0 +1,44 @@
+<div class="section">
+
+## Overview
+
+Stern-Halma originated in Germany in 1892 as a variation of the older American game Halma. It supports two to six players and is played on a six-pointed star board with 121 holes. Each player fills one triangular arm with 10 pieces and races to move them all into the opposite arm.
+
+The game is also widely known as Chinese Checkers, though it has no connection to China or to Checkers.
+
+</div>
+
+<div class="section">
+
+## The Board
+
+{{svg:standard-6p-board.svg "Stern-Halma — six-pointed star board, 121 holes"}}
+
+The board is a six-pointed star formed by two overlapping equilateral triangles. It contains 121 holes:
+
+- **6 triangular arms**, each with 10 holes arranged in four rows of 4, 3, 2, 1 (outermost to innermost)
+- **Central hexagonal play area** with 61 holes
+
+The arms point to six compass directions: N, NE, SE, S, SW, NW.
+
+</div>
+
+<div class="section">
+
+## Variants
+
+- [Standard 2-Player](variants/standard-2p/) — N vs S arms, 10 pieces each. The foundational form.
+- [Standard 3-Player](variants/standard-3p/) — N, SE, SW arms (alternating). Each player crosses to the opposite arm.
+- [Standard 4-Player](variants/standard-4p/) — NE, SE, SW, NW arms (diagonal pairs). N and S remain empty.
+- [Standard 6-Player](variants/standard-6p/) — All six arms occupied. Maximum congestion in the centre.
+- [Super Chinese Checkers](variants/super-chinese-checkers/) — Extended hop rule: pieces jump multiple empty spaces symmetrically across a hurdle.
+
+</div>
+
+<div class="section">
+
+## Attribution
+
+Stern-Halma. Originated in Germany, 1892. Public domain. Rules confirmed from ezekeal/bgg-get (BGG entry for Sternhalma) and Lehi-Innovation/boardgame-rules (independent jump-rule audit confirming chain hops, no forced jump, no capture). Board dimensions (121 holes, 6 &times; 10-hole arms, 61-hole centre) confirmed from mastersofgames.com and Wikipedia.
+
+</div>

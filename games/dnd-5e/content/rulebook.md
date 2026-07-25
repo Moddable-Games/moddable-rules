@@ -13,6 +13,10 @@ status: "live"
 updated: "2026-07-04"
 published: true
 variants: false
+how_to_play: "Choose a race and class, roll d20 + modifiers against difficulty targets, and adventure through dungeons and quests. One player is DM, others are player characters with levels 1-20."
+mechanics: [dice, combat, exploration, narrative, class-based]
+complexity: complex
+related: [pathfinder-1e, dungeon-world, brp, cairn]
 theme:
   surface: light
   tint: warm

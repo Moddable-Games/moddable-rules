@@ -1,0 +1,55 @@
+{
+  "slug": "econopoly",
+  "title": "Econopoly",
+  "players": "2–6",
+  "duration": "60 min",
+  "age": "10+",
+  "tagline": "Euro-style resource management meets Monopoly",
+  "type": "mod",
+  "status": "playtest",
+  "updated": "2026-06-19",
+  "version": "0.2.0",
+  "mechanics": [
+    "resource-management",
+    "set-collection",
+    "trading",
+    "hand-management",
+    "victory-points"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Choose one action per turn: move, trade, or build. Collect resources from decks, combine them for victory points. Game ends when a player goes bankrupt or decks empty — most VP wins.",
+  "related": [
+    "standard-52",
+    "landlords-game",
+    "nukes"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Econopoly (Standard)",
+      "players": "2-6",
+      "board": "perimeter track",
+      "win": null,
+      "special": null
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "How to Play in 5 Minutes",
+    "Why This Exists",
+    "Rule Changes",
+    "Components",
+    "Linked Resources",
+    "Winning Conditions",
+    "Event Cards"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/econopoly/rulebook.md",
+    "meta": "/api/rules/econopoly/meta.json",
+    "variants": "/api/rules/econopoly/variants/"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "standard-dice",
+  "title": "Standard Dice",
+  "players": "1–8",
+  "duration": "10–60 min",
+  "age": "6+",
+  "tagline": "Games built on standard six-sided dice",
+  "type": "component",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.1.1",
+  "mechanics": [
+    "dice-rolling",
+    "press-your-luck",
+    "betting",
+    "bluffing",
+    "scoring"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Standard six-sided dice support five games spanning press-your-luck, betting, bluffing, and category-scoring families. Roll, set aside combinations, and decide whether to bank or risk it all.",
+  "related": [
+    "standard-52",
+    "double-six-dominoes",
+    "backgammon"
+  ],
+  "hub_type": "component",
+  "variants": [],
+  "games": [
+    {
+      "slug": "bunco",
+      "title": "Bunco",
+      "players": "12 (or multiples of 4)"
+    },
+    {
+      "slug": "craps",
+      "title": "Craps",
+      "players": "1 or more"
+    },
+    {
+      "slug": "farkle",
+      "title": "Farkle",
+      "players": "2–6"
+    },
+    {
+      "slug": "liars-dice",
+      "title": "Liar's Dice",
+      "players": "2–6"
+    },
+    {
+      "slug": "yahtzee",
+      "title": "Yahtzee",
+      "players": "1–4"
+    }
+  ],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Standard Dice",
+    "Games",
+    "Attribution"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/standard-dice/rulebook.md",
+    "meta": "/api/rules/standard-dice/meta.json",
+    "games": "/api/rules/standard-dice/games/"
+  }
+}

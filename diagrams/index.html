@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-surface="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,8 @@
     <nav class="header-nav">
       <a href="../" class="nav-link">Games</a>
       <a href="./" class="nav-link nav-link--active">Diagrams</a>
+      <a href="../api/" class="nav-link">API</a>
+      <button class="surface-toggle" aria-label="Toggle light/dark mode" type="button">&#x25D0;</button>
     </nav>
   </div>
 </header>
@@ -72,12 +74,38 @@
 </section>
 
 <footer class="site-footer">
-  <div class="footer-inner">
-    <p class="footer-brand">Moddable Rules</p>
-    <p class="footer-sub">Part of <a href="https://moddable.games" target="_blank" rel="noopener">Moddable Games</a></p>
+  <div class="site-footer-inner">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4 class="footer-heading">Moddable Games</h4>
+        <a href="https://moddable.games" target="_blank" rel="noopener">Homepage</a>
+        <a href="https://moddable.games/about/" target="_blank" rel="noopener">About</a>
+        <a href="https://moddable.games/news/" target="_blank" rel="noopener">News</a>
+        <a href="https://moddable.games/about/roadmap/" target="_blank" rel="noopener">Roadmap</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Play</h4>
+        <a href="https://moddable.games/games/" target="_blank" rel="noopener">Games</a>
+        <a href="https://moddable.games/engines/" target="_blank" rel="noopener">Engines</a>
+        <a href="https://tools.moddable.games" target="_blank" rel="noopener">Tools</a>
+        <a href="https://moddable.games/developers/" target="_blank" rel="noopener">Developers</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Community</h4>
+        <a href="https://moddable.games/community/" target="_blank" rel="noopener">Community</a>
+        <a href="https://discord.gg/VhsVGNq6Za" target="_blank" rel="noopener">Discord</a>
+        <a href="https://github.com/Moddable-Games" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://moddable.games/submit/" target="_blank" rel="noopener">Submit a Mod</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2012&ndash;2026 Moddable Games. All Rights Reserved.</span>
+      <span class="footer-version">v1.3.1</span>
+    </div>
   </div>
 </footer>
 
 <script src="../js/boards.js"></script>
+<script src="../shared/js/surface-toggle.js"></script>
 </body>
 </html>

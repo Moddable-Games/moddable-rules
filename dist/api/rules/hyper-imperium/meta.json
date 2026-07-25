@@ -1,0 +1,58 @@
+{
+  "slug": "hyper-imperium",
+  "title": "Hyper Imperium",
+  "players": "4–6",
+  "duration": "4–6 hr",
+  "age": "14+",
+  "tagline": "3D exploration and mercenary factions for Twilight Imperium",
+  "type": "mod",
+  "status": "playtest",
+  "updated": "2026-06-19",
+  "version": "0.7.0",
+  "mechanics": [
+    "exploration",
+    "trading",
+    "asymmetric",
+    "hex",
+    "combat",
+    "negotiation",
+    "hidden-information"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Five modifications for Twilight Imperium 4e: 3D movement across outer rings, flexible trading with promissory notes, shared secret objectives, two new factions, and blind voting via influence cards.",
+  "related": [
+    "endless-skies",
+    "talisman-worlds",
+    "nukes"
+  ],
+  "hub_type": null,
+  "variants": [],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "How to Play in 5 Minutes",
+    "Hyper Movement",
+    "Hyper Trades",
+    "Shared Secrets",
+    "Hyperlanes",
+    "Setup",
+    "Movement",
+    "Components",
+    "Hyper Agendas",
+    "Forced Promissory Note Exchange",
+    "Mercenary Factions",
+    "Hyper Factions",
+    "Faction Abilities (100 points)",
+    "Flagship Abilities",
+    "Mech Abilities",
+    "Leaders",
+    "Promissory Note",
+    "Unit Upgrades"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/hyper-imperium/rulebook.md",
+    "meta": "/api/rules/hyper-imperium/meta.json"
+  }
+}

@@ -31,6 +31,18 @@ engine:
   pieces:
     set: playstrategy-draughts-plain
   players: [white, black]
+how_to_play: "Roll four tetrahedral dice to move pieces along an L-shaped track. Rosette squares grant extra rolls and safety from capture. Landing on opponent pieces sends them back to start. Bear off all seven pieces to win. Rules reconstructed from 4,500-year-old clay tablets."
+mechanics:
+  - race
+  - dice-rolling
+  - capture
+  - safe-spaces
+  - bearing-off
+complexity: simple
+related:
+  - pachisi
+  - backgammon
+  - nyout
 ---
 
 <div class="section">

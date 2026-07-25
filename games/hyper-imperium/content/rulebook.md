@@ -13,6 +13,10 @@ updated: "2026-06-19"
 first_published: "January 2025"
 published: true
 logo_has_title: true
+how_to_play: "Five modifications for Twilight Imperium 4e: 3D movement across outer rings, flexible trading with promissory notes, shared secret objectives, two new factions, and blind voting via influence cards."
+mechanics: [exploration, trading, asymmetric, hex, combat, negotiation, hidden-information]
+complexity: complex
+related: [endless-skies, talisman-worlds, nukes]
 theme:
   surface: dark
   tint: cool

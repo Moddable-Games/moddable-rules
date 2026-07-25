@@ -54,6 +54,17 @@ engine:
         type: stone
         color: black
   players: [attackers, defenders]
+how_to_play: "Asymmetric Norse board game family. Defenders protect a King trying to reach safety. Attackers control a larger force trying to capture the King. Capture by surrounding enemy pieces on two opposite sides. Variants differ in board size, escape goals, and special rules."
+mechanics:
+  - asymmetric
+  - capture
+  - king-escape
+  - grid-movement
+complexity: moderate
+related:
+  - agon
+  - fanorona
+  - morris
 ---
 
 <div class="section variant-hub">

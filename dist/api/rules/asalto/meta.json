@@ -1,0 +1,58 @@
+{
+  "slug": "asalto",
+  "title": "Asalto",
+  "players": "2",
+  "duration": "15–30 min",
+  "age": "8+",
+  "tagline": "Officers defend a fortress against a siege of soldiers",
+  "type": "hub",
+  "status": "live",
+  "updated": "2026-07-06",
+  "version": "0.1.0",
+  "mechanics": [
+    "abstract-strategy",
+    "asymmetric",
+    "movement",
+    "capture",
+    "grid"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Asymmetric Victorian-era game where a small defending force (the Officers) holds off a larger attacking force (the Soldiers) on a fortress-and-plain board.",
+  "related": [
+    "tafl",
+    "fanorona",
+    "morris",
+    "agon"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "royal-garrison",
+      "title": "Royal Garrison",
+      "players": "2",
+      "board": "asalto-royal",
+      "win": "Officers: reduce Soldiers below immobilizing threshold. Soldiers: immobilize all three Officers.",
+      "special": "Extended Asalto variant. Three Officers defend a larger fortress against 50 Soldiers. Mechanics identical to Standard Asalto; scale increases strategic complexity."
+    },
+    {
+      "slug": "standard",
+      "title": "Asalto (Standard)",
+      "players": "2",
+      "board": "asalto-standard",
+      "win": "Officers: capture enough Soldiers that the remaining force cannot surround both Officers. Soldiers: immobilize both Officers.",
+      "special": "Asymmetric siege game. Officers jump to capture (like draughts); Soldiers advance forward or sideways without jumping. Soldiers win by immobilizing; Officers win by reducing the Soldier force below the critical threshold."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variants in this Hub"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/asalto/rulebook.md",
+    "meta": "/api/rules/asalto/meta.json",
+    "variants": "/api/rules/asalto/variants/"
+  }
+}

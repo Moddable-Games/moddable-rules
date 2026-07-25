@@ -1,0 +1,434 @@
+{
+  "game": "knave",
+  "label": "Knave",
+  "tableCount": 16,
+  "tables": [
+    {
+      "id": "physique",
+      "name": "Physique",
+      "roll": "1d20",
+      "entries": [
+        "Athletic",
+        "Brawny",
+        "Corpulent",
+        "Delicate",
+        "Gaunt",
+        "Hulking",
+        "Lanky",
+        "Ripped",
+        "Rugged",
+        "Scrawny",
+        "Short",
+        "Sinewy",
+        "Slender",
+        "Flabby",
+        "Statuesque",
+        "Stout",
+        "Tiny",
+        "Towering",
+        "Willowy",
+        "Wiry"
+      ]
+    },
+    {
+      "id": "face",
+      "name": "Face",
+      "roll": "1d20",
+      "entries": [
+        "Bloated",
+        "Blunt",
+        "Bony",
+        "Chiseled",
+        "Delicate",
+        "Elongated",
+        "Patrician",
+        "Pinched",
+        "Hawkish",
+        "Broken",
+        "Impish",
+        "Narrow",
+        "Ratlike",
+        "Round",
+        "Sunken",
+        "Sharp",
+        "Soft",
+        "Square",
+        "Wide",
+        "Wolfish"
+      ]
+    },
+    {
+      "id": "skin",
+      "name": "Skin",
+      "roll": "1d20",
+      "entries": [
+        "Battle Scar",
+        "Birthmark",
+        "Burn Scar",
+        "Dark",
+        "Makeup",
+        "Oily",
+        "Pale",
+        "Perfect",
+        "Pierced",
+        "Pockmarked",
+        "Reeking",
+        "Tattooed",
+        "Rosy",
+        "Rough",
+        "Sallow",
+        "Sunburned",
+        "Tanned",
+        "War Paint",
+        "Weathered",
+        "Whip Scar"
+      ]
+    },
+    {
+      "id": "hair",
+      "name": "Hair",
+      "roll": "1d20",
+      "entries": [
+        "Bald",
+        "Braided",
+        "Bristly",
+        "Cropped",
+        "Curly",
+        "Disheveled",
+        "Dreadlocks",
+        "Filthy",
+        "Frizzy",
+        "Greased",
+        "Limp",
+        "Long",
+        "Luxurious",
+        "Mohawk",
+        "Oily",
+        "Ponytail",
+        "Silky",
+        "Topknot",
+        "Wavy",
+        "Wispy"
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "roll": "1d20",
+      "entries": [
+        "Antique",
+        "Bloody",
+        "Ceremonial",
+        "Decorated",
+        "Eccentric",
+        "Elegant",
+        "Fashionable",
+        "Filthy",
+        "Flamboyant",
+        "Stained",
+        "Foreign",
+        "Frayed",
+        "Frumpy",
+        "Livery",
+        "Oversized",
+        "Patched",
+        "Perfumed",
+        "Rancid",
+        "Torn",
+        "Undersized"
+      ]
+    },
+    {
+      "id": "virtue",
+      "name": "Virtue",
+      "roll": "1d20",
+      "entries": [
+        "Ambitious",
+        "Cautious",
+        "Courageous",
+        "Courteous",
+        "Curious",
+        "Disciplined",
+        "Focused",
+        "Generous",
+        "Gregarious",
+        "Honest",
+        "Honorable",
+        "Humble",
+        "Idealistic",
+        "Just",
+        "Loyal",
+        "Merciful",
+        "Righteous",
+        "Serene",
+        "Stoic",
+        "Tolerant"
+      ]
+    },
+    {
+      "id": "vice",
+      "name": "Vice",
+      "roll": "1d20",
+      "entries": [
+        "Aggressive",
+        "Arrogant",
+        "Bitter",
+        "Cowardly",
+        "Cruel",
+        "Deceitful",
+        "Flippant",
+        "Gluttonous",
+        "Greedy",
+        "Irascible",
+        "Lazy",
+        "Nervous",
+        "Prejudiced",
+        "Reckless",
+        "Rude",
+        "Suspicious",
+        "Vain",
+        "Vengeful",
+        "Wasteful",
+        "Whiny"
+      ]
+    },
+    {
+      "id": "speech",
+      "name": "Speech",
+      "roll": "1d20",
+      "entries": [
+        "Blunt",
+        "Booming",
+        "Breathy",
+        "Cryptic",
+        "Drawling",
+        "Droning",
+        "Flowery",
+        "Formal",
+        "Gravelly",
+        "Hoarse",
+        "Mumbling",
+        "Precise",
+        "Quaint",
+        "Rambling",
+        "Rapid-fire",
+        "Dialect",
+        "Slow",
+        "Squeaky",
+        "Stuttering",
+        "Whispery"
+      ]
+    },
+    {
+      "id": "background",
+      "name": "Background",
+      "roll": "1d20",
+      "entries": [
+        "Alchemist",
+        "Beggar",
+        "Butcher",
+        "Burglar",
+        "Charlatan",
+        "Cleric",
+        "Cook",
+        "Cultist",
+        "Gambler",
+        "Herbalist",
+        "Magician",
+        "Mariner",
+        "Mercenary",
+        "Merchant",
+        "Outlaw",
+        "Performer",
+        "Pickpocket",
+        "Smuggler",
+        "Student",
+        "Tracker"
+      ]
+    },
+    {
+      "id": "misfortune",
+      "name": "Misfortune",
+      "roll": "1d20",
+      "entries": [
+        "Abandoned",
+        "Addicted",
+        "Blackmailed",
+        "Condemned",
+        "Cursed",
+        "Defrauded",
+        "Demoted",
+        "Discredited",
+        "Disowned",
+        "Exiled",
+        "Framed",
+        "Haunted",
+        "Kidnapped",
+        "Mutilated",
+        "Poor",
+        "Pursued",
+        "Rejected",
+        "Replaced",
+        "Robbed",
+        "Suspected"
+      ]
+    },
+    {
+      "id": "alignment",
+      "name": "Alignment",
+      "roll": "1d20",
+      "entries": [
+        {
+          "min": 1,
+          "max": 5,
+          "result": "Law"
+        },
+        {
+          "min": 6,
+          "max": 15,
+          "result": "Neutrality"
+        },
+        {
+          "min": 16,
+          "max": 20,
+          "result": "Chaos"
+        }
+      ]
+    },
+    {
+      "id": "starting-armor",
+      "name": "Armor",
+      "roll": "1d20",
+      "entries": [
+        {
+          "min": 1,
+          "max": 3,
+          "result": "No armor"
+        },
+        {
+          "min": 4,
+          "max": 14,
+          "result": "Gambeson"
+        },
+        {
+          "min": 15,
+          "max": 19,
+          "result": "Brigandine"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "result": "Chain"
+        }
+      ]
+    },
+    {
+      "id": "helmets-and-shields",
+      "name": "Helmets and Shields",
+      "roll": "1d20",
+      "entries": [
+        {
+          "min": 1,
+          "max": 13,
+          "result": "None"
+        },
+        {
+          "min": 14,
+          "max": 16,
+          "result": "Helmet"
+        },
+        {
+          "min": 17,
+          "max": 19,
+          "result": "Shield"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "result": "Helmet and Shield"
+        }
+      ]
+    },
+    {
+      "id": "dungeoneering-gear",
+      "name": "Dungeoneering Gear",
+      "roll": "1d20 (roll twice)",
+      "entries": [
+        "Rope, 50ft",
+        "Pulleys",
+        "Candles, 5",
+        "Chain, 10ft",
+        "Chalk, 10",
+        "Crowbar",
+        "Tinderbox",
+        "Grappling hook",
+        "Hammer",
+        "Waterskin",
+        "Lantern",
+        "Lamp oil",
+        "Padlock",
+        "Manacles",
+        "Mirror",
+        "Pole, 10ft",
+        "Sack",
+        "Tent",
+        "Spikes, 5",
+        "Torches, 5"
+      ]
+    },
+    {
+      "id": "general-gear-1",
+      "name": "General Gear 1",
+      "roll": "1d20 (roll once)",
+      "entries": [
+        "Air bladder",
+        "Bear trap",
+        "Shovel",
+        "Bellows",
+        "Grease",
+        "Saw",
+        "Bucket",
+        "Caltrops",
+        "Chisel",
+        "Drill",
+        "Fishing rod",
+        "Marbles",
+        "Glue",
+        "Pick",
+        "Hourglass",
+        "Net",
+        "Tongs",
+        "Lockpicks",
+        "Metal file",
+        "Nails"
+      ]
+    },
+    {
+      "id": "general-gear-2",
+      "name": "General Gear 2",
+      "roll": "1d20 (roll once)",
+      "entries": [
+        "Incense",
+        "Sponge",
+        "Lens",
+        "Perfume",
+        "Horn",
+        "Bottle",
+        "Soap",
+        "Spyglass",
+        "Tar pot",
+        "Twine",
+        "Fake jewels",
+        "Blank book",
+        "Card deck",
+        "Dice set",
+        "Cook pots",
+        "Face paint",
+        "Whistle",
+        "Instrument",
+        "Quill & Ink",
+        "Small bell"
+      ]
+    }
+  ]
+}

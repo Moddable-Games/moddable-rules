@@ -19,6 +19,18 @@ theme:
   typography: modern
   accent: blue
   section-divider: "♞"
+how_to_play: "A unified platform for 155 chess variants spanning classic FIDE rules, asymmetric battles, hidden information, expanded boards, alternative win conditions, regional forms, and topology variants. Every variant shares the chess lineage but modifies setup, pieces, board, or victory condition."
+mechanics:
+  - grid-movement
+  - capture
+  - checkmate
+  - piece-variety
+  - asymmetric
+complexity: moderate
+related:
+  - dungeon-chess
+  - xiangqi
+  - shogi
 engine:
   topology:
     type: grid

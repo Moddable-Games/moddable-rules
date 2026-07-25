@@ -1,0 +1,233 @@
+{
+  "slug": "shogi",
+  "title": "Shogi",
+  "players": "2",
+  "duration": "30–120 min",
+  "age": "8+",
+  "tagline": "Japan's classic strategy game where captured pieces change sides",
+  "type": "classic",
+  "status": "live",
+  "updated": "2026-07-08",
+  "version": "1.2.0",
+  "mechanics": [
+    "grid-movement",
+    "capture",
+    "drops",
+    "promotion",
+    "checkmate"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Capture the opponent's King. Unique feature: captured pieces change allegiance and may be dropped back onto the board on any later turn. Most pieces promote upon reaching the opponent's territory, gaining new movement abilities.",
+  "related": [
+    "xiangqi",
+    "moddable-chess",
+    "go"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "standard",
+      "title": "Standard Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate the opponent's King",
+      "special": "Captured pieces become your own and can be dropped back onto the board"
+    },
+    {
+      "slug": "sho-shogi",
+      "title": "Sho Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate, or capture both royal pieces if Crown Prince promoted",
+      "special": "16th-century predecessor to modern Shogi. Adds the Drunken Elephant, which promotes to the Crown Prince — a second royal piece. No drop rule."
+    },
+    {
+      "slug": "dobutsu",
+      "title": "Dobutsu Shogi",
+      "players": "2",
+      "board": "3×4",
+      "win": "Capture the enemy Lion, or move your Lion to the opponent's back rank without it being in immediate danger",
+      "special": "Animal-themed introductory Shogi on a 3×4 board, designed for young children. Invented by professional Shogi player Madoka Kitao. All pieces show their moves printed on the piece face. A solved game."
+    },
+    {
+      "slug": "gorogoro-plus",
+      "title": "Gorogoro+",
+      "players": "2",
+      "board": "5×6",
+      "win": "Checkmate",
+      "special": "Shogi on a 5×6 board with no Bishop or Rook. Each player starts with a Knight and Lance in hand. Promotion in the last two ranks only."
+    },
+    {
+      "slug": "tori-shogi",
+      "title": "Tori Shogi",
+      "players": "2",
+      "board": "7×7",
+      "win": "Checkmate the Phoenix",
+      "special": "Bird Shogi, invented 1799. 7×7 board, bird-themed pieces, drop rules. Only two pieces promote. Repetition caused by your own moves is a loss. One of the oldest Shogi variants with the drop rule."
+    },
+    {
+      "slug": "cannon-shogi",
+      "title": "Cannon Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate",
+      "special": "Shogi plus four Cannon types drawn from Xiangqi and Janggi, each with unique movement and capture rules. Pawns replaced with Janggi-style Soldiers. Invented by Peter Michaelsen, 1998."
+    },
+    {
+      "slug": "annan-shogi",
+      "title": "Annan Shogi",
+      "players": 2,
+      "board": "9×9",
+      "win": "Checkmate the opponent's King",
+      "special": "Each piece borrows the movement of the friendly piece directly behind it. A Pawn backed by a Rook moves like a Rook."
+    },
+    {
+      "slug": "chu-shogi",
+      "title": "Chu Shogi",
+      "players": "2",
+      "board": "12×12",
+      "win": "Capture all opponent royal pieces (King and any Prince)",
+      "special": "Historical Japanese chess, dominant for centuries before modern Shogi. 46 pieces of 21 types per side on a 12×12 board. No drops. Features the powerful Lion (double-move, can capture twice) with special trading restrictions. Optional promotion to predetermined promoted forms in the far 4 ranks."
+    },
+    {
+      "slug": "dai-shogi",
+      "title": "Dai Shogi",
+      "players": "2",
+      "board": "15×15",
+      "win": "Capture all opponent royal pieces",
+      "special": "Historical Japanese 15×15 large Shogi variant; precursor to Chu Shogi. 65 pieces per side including Lion (double-mover), Kirin, Phoenix, and Drunk Elephant (promotes to Crown Prince, a second royal). No drops. Extinction royalty: player loses only when their last royal is captured."
+    },
+    {
+      "slug": "four-player-shogi",
+      "title": "Four Player Shogi",
+      "players": "4",
+      "board": "cross-shaped, 189 squares (9×9 centre + four 3×9 wings)",
+      "win": "Checkmate both enemy Kings (team); or capture all other Kings (individual)",
+      "special": "4-player Shogi on a cross-shaped board. Each player commands a standard Shogi army in one 3×9 wing. East and West players swap their Rook and Bishop starting positions. Drops apply with team restrictions. Three game styles: Team-Orthogonal, Team-Diagonal, and Individual. Michael Shipley, 1999."
+    },
+    {
+      "slug": "hasami-shogi",
+      "title": "Hasami Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Reduce opponent to one remaining piece",
+      "special": "Custodial sandwich capture. No drops, no promotion. All pieces are identical."
+    },
+    {
+      "slug": "heian-shogi",
+      "title": "Heian Shogi",
+      "players": "2",
+      "board": "9×8",
+      "win": "Checkmate or bare the opponent's King",
+      "special": "The earliest reconstructed form of Japanese chess (~8th–9th century). 9×8 board, 18 pieces per side. No Rooks, no Bishops, no drops. All pieces promote to Gold General in the far 3 ranks. Win by checkmate or by baring the opponent's King."
+    },
+    {
+      "slug": "hex-shogi-91",
+      "title": "Hex Shogi 91",
+      "players": "2",
+      "board": "91-cell hexagonal",
+      "win": "Checkmate the King",
+      "special": "2-player Shogi variant on a 91-hexagon board (same shape as Glinski's Hexagonal Chess, differently oriented). All Shogi pieces adapted to hexagonal movement. Drops apply with hex-specific Pawn rules: no two-Pawn-per-file restriction (left out); Pawn drop may not check the King (stricter than Shogi). Promotion zone is 4 ranks. Fergus Duniho."
+    },
+    {
+      "slug": "judkins-shogi",
+      "title": "Judkins' Shogi",
+      "players": "2",
+      "board": "6×6",
+      "win": "Checkmate",
+      "special": "Modern miniature Shogi on a 6×6 board. 7 pieces per side. Includes drops. Promotion zone is the last 2 ranks. Rook promotes to Dragon, Bishop to Horse, Knight/Silver/Pawn promote to Gold."
+    },
+    {
+      "slug": "kyoto-shogi",
+      "title": "Kyoto Shogi",
+      "players": "2",
+      "board": "5×5",
+      "win": "Checkmate the opponent's King",
+      "special": "Every piece except the King flips to its alternate face after each move"
+    },
+    {
+      "slug": "maka-dai-dai-shogi",
+      "title": "Maka-Dai-Dai Shogi",
+      "players": "2",
+      "board": "19×19",
+      "win": "Capture the last royal piece",
+      "special": "19×19 historical Japanese Shogi variant meaning 'Great Dai-Dai Chess.' One of the largest chess-family games in recorded history. 96 pieces of 50 types per side (192 pieces total). No drops; captures remove permanently. Features Lion-power pieces, Hook Movers, the Emperor (universal leaper), and contagious promotion through the Teaching King and Buddhist Spirit. Promotion triggers on any capture. Historical; source: H. G. Muller (chessvariants.com)."
+    },
+    {
+      "slug": "minishogi",
+      "title": "Minishogi",
+      "players": "2",
+      "board": "5×5",
+      "win": "Checkmate the opponent's King",
+      "special": "Standard Shogi on a 5×5 board. Single-rank promotion zone. No Knights or Lances."
+    },
+    {
+      "slug": "mortal-shogi",
+      "title": "Mortal Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate the King",
+      "special": "Modern 9×9 Shogi variant by Roberto Lavieri and Fergus Duniho. Captured pieces demote one step in a fixed ranking chain (Dragon King → Dragon Horse → Rook → Bishop → Gold General → Silver General → Lance → Knight → removed) rather than returning to their original form. Promotes of sub-Gold pieces are flexible: any higher piece up to Gold General."
+    },
+    {
+      "slug": "sankaku-shogi",
+      "title": "Sankaku Shogi",
+      "players": "2",
+      "board": "44-cell triangular",
+      "win": "Capture the opponent's Emperor",
+      "special": "Modern Shogi variant on a 44-cell triangular board. 13 pieces per side: Emperor (leaps to any cell), Chariot (slides orthogonally, runs down Soldiers), Cavalry (leaps to second orthogonal), General (steps to any adjacent cell), and Soldiers. Captured pieces are removed permanently. Soldiers and Cavalry promote to General upon any capture."
+    },
+    {
+      "slug": "tai-shogi",
+      "title": "Tai Shogi",
+      "players": "2",
+      "board": "25×25",
+      "win": "Capture the King (and Crown Prince if present)",
+      "special": "25×25 historical Japanese Shogi variant. Name means 'Grand Chess.' Approximately 177 piece types per side (354 pieces total) — the largest documented chess variant with complete, verified piece movements for every piece. No drops; captured pieces removed from play. Intermediate in scale between Maka-Dai-Dai Shogi (19×19) and Taikyoku Shogi (36×36). Documented in historical Japanese manuscripts."
+    },
+    {
+      "slug": "taikyoku-shogi",
+      "title": "Taikyoku Shogi",
+      "players": "2",
+      "board": "36×36",
+      "win": "Capture the King and Crown Prince",
+      "special": "36×36 historical Japanese Shogi variant meaning 'Ultimate Chess.' The largest chess variant ever documented. 402 pieces per side (804 total on 1,296 squares). Whether it was ever played to completion is disputed — a single game is estimated to require 10,000+ moves. Documented in a single known Japanese manuscript. L. Lynn Smith transcription; source: chessvariants.com."
+    },
+    {
+      "slug": "tenjiku-shogi",
+      "title": "Tenjiku Shogi",
+      "players": "2",
+      "board": "16×16",
+      "win": "Capture all opponent royal pieces",
+      "special": "Medieval Japanese 16×16 Shogi variant derived from Chu Shogi. Introduces Fire Demons (burn all adjacent enemies after moving; passively burn enemies that move adjacent to them), hierarchical jumping generals, and Lion Hawk / Free Eagle double-movers. No drops. Extinction royalty."
+    },
+    {
+      "slug": "wa-shogi",
+      "title": "Wa Shogi",
+      "players": "2",
+      "board": "11×11",
+      "win": "Capture the opponent's Crane King",
+      "special": "Played on an 11×11 board with 23 pieces of 14 different types per side. All non-Pawn pieces are unique. Played historically without drops; modern play often adds drops. Promotion zone is the last 3 ranks; each piece has a fixed promoted form."
+    },
+    {
+      "slug": "yari-shogi",
+      "title": "Yari Shogi",
+      "players": "2",
+      "board": "9×7",
+      "win": "Checkmate",
+      "special": "Invented by Christian Freeling, 1981. ‘Yari’ means lance. All unpromoted pieces except Pawns include a forward-Lance movement. Extreme forward orientation. Includes drops; unlike standard Shogi, Pawns may drop to give checkmate."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variant Library"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/shogi/rulebook.md",
+    "meta": "/api/rules/shogi/meta.json",
+    "variants": "/api/rules/shogi/variants/"
+  }
+}

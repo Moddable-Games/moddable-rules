@@ -1,0 +1,133 @@
+{
+  "slug": "standard-52",
+  "title": "Standard 52-Card Deck",
+  "players": "1–8",
+  "duration": "10–120 min",
+  "age": "6+",
+  "tagline": "Every game a standard deck of cards can play",
+  "type": "component",
+  "status": "live",
+  "updated": "2026-07-21",
+  "version": "0.2.1",
+  "mechanics": [
+    "trick-taking",
+    "melding",
+    "shedding",
+    "betting",
+    "hand-management"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "A standard French-suited deck supports 18 games spanning climbing, trick-taking, draw-and-discard, poker, pegging, banking, and solitaire families. Four suits (Spades, Hearts, Diamonds, Clubs), thirteen ranks per suit.",
+  "related": [
+    "flower-48",
+    "mahjong",
+    "standard-dice"
+  ],
+  "hub_type": "component",
+  "variants": [],
+  "games": [
+    {
+      "slug": "big2",
+      "title": "Big 2",
+      "players": "4"
+    },
+    {
+      "slug": "blackjack",
+      "title": "Blackjack (Twenty-One)",
+      "players": "2-7"
+    },
+    {
+      "slug": "bridge",
+      "title": "Rubber Bridge",
+      "players": "4"
+    },
+    {
+      "slug": "canasta",
+      "title": "Canasta (Classic)",
+      "players": "4"
+    },
+    {
+      "slug": "crazy-eights",
+      "title": "Crazy Eights",
+      "players": "2–5"
+    },
+    {
+      "slug": "cribbage",
+      "title": "Cribbage",
+      "players": "2"
+    },
+    {
+      "slug": "euchre",
+      "title": "Euchre",
+      "players": "4"
+    },
+    {
+      "slug": "freecell",
+      "title": "FreeCell",
+      "players": "1"
+    },
+    {
+      "slug": "gin-rummy",
+      "title": "Gin Rummy",
+      "players": "2"
+    },
+    {
+      "slug": "hearts",
+      "title": "Hearts",
+      "players": "4"
+    },
+    {
+      "slug": "klondike",
+      "title": "Klondike Solitaire",
+      "players": "1"
+    },
+    {
+      "slug": "poker",
+      "title": "Texas Hold'em Poker",
+      "players": "2-10"
+    },
+    {
+      "slug": "president",
+      "title": "President",
+      "players": "4–8"
+    },
+    {
+      "slug": "rummy",
+      "title": "Rummy",
+      "players": "2–6"
+    },
+    {
+      "slug": "spades",
+      "title": "Spades",
+      "players": "4"
+    },
+    {
+      "slug": "spider-solitaire",
+      "title": "Spider Solitaire",
+      "players": "1"
+    },
+    {
+      "slug": "war",
+      "title": "War",
+      "players": "2"
+    },
+    {
+      "slug": "whist",
+      "title": "Whist",
+      "players": "4"
+    }
+  ],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Standard 52-Card Deck",
+    "Games",
+    "Attribution"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/standard-52/rulebook.md",
+    "meta": "/api/rules/standard-52/meta.json",
+    "games": "/api/rules/standard-52/games/"
+  }
+}

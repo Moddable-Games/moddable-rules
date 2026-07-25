@@ -1,0 +1,75 @@
+{
+  "slug": "lattaque",
+  "title": "L'Attaque",
+  "players": "2",
+  "duration": "20–60 min",
+  "age": "10+",
+  "tagline": "Hidden-rank warfare — the original family that spawned Stratego",
+  "type": "hub",
+  "status": "live",
+  "updated": "2026-07-08",
+  "version": "0.4.0",
+  "mechanics": [
+    "hidden-information",
+    "grid",
+    "movement",
+    "combat",
+    "ranking",
+    "deduction"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Hidden-information strategy where pieces have hidden ranks. Higher rank defeats lower when pieces meet. Win conditions vary by variant: capture the Flag, land on the Aerodrome, or get Flags to your Base.",
+  "related": [
+    "moddable-chess",
+    "xiangqi",
+    "shogi",
+    "dou-shou-qi"
+  ],
+  "hub_type": null,
+  "variants": [
+    {
+      "slug": "aviation",
+      "title": "Aviation",
+      "players": "2",
+      "board": "8×11 (Aerodrome board)",
+      "win": "Land a Troop Carrier on the opponent's Aerodrome. Draw if both sides lose all Troop Carriers.",
+      "special": "Hidden-information aerial warfare game by H.P. Gibson & Sons. 42 pieces per player: 32 numbered flying units plus 10 unnumbered Auxiliaries (Searchlights, Observation Balloons, Anti-Aircraft Guns). The Searchlight + Gun ranging system is unique: Searchlights reveal hidden pieces and enable AAA Guns to engage at range. Troop Carriers move only diagonally; are driven back (not removed) when attacked by a piece of value 5 or higher; win by reaching the opponent's Aerodrome."
+    },
+    {
+      "slug": "dover-patrol",
+      "title": "Dover Patrol",
+      "players": "2",
+      "board": "8×12",
+      "win": "Get both Flags — your own and the opponent's — onto your own Base",
+      "special": "Naval CTF (Capture the Flag) game by H.P. Gibson & Sons. 40 pieces per player plus a separate Flag clip. The Flag starts on the Base inside the walled Harbour; seizing the enemy Flag and conveying it to your own Base wins. The Flying Boat uniquely crosses the Harbour Wall and moves 2 squares; Mine Layers are movable floating mines; Submarines sink all ships except Mine Layers and Motor Torpedo Boats."
+    },
+    {
+      "slug": "standard",
+      "title": "L'Attaque (Standard)",
+      "players": "2",
+      "board": "9×10",
+      "win": "Capture the opponent's Flag, or leave them with no movable pieces",
+      "special": "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 1×2 lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks."
+    },
+    {
+      "slug": "tri-tactics",
+      "title": "Tri-Tactics",
+      "players": "2",
+      "board": "12×12 (combined land/sea terrain)",
+      "win": "Occupy the opponent's H.Q. with a Land Infantry piece, OR occupy the opponent's Lake (Naval Base) with a Ship",
+      "special": "Combined-arms hidden-rank game by H.P. Gibson & Sons. 56 pieces per player across three services: Land (Infantry + Artillery), Naval (Ships + Flying Boats + Submarine), and Air Force, plus 8 Searchlights. All three services operate on a single board with land, sea, river, lake, and H.Q. terrain. Pieces caught out of their element are immediately forfeit when attacked. The Searchlight may move any number of squares in a straight line to attack. Combat outcomes between all 18 piece types are resolved via a published Value Table."
+    }
+  ],
+  "games": [],
+  "pages": [],
+  "data": [],
+  "oracleCount": 0,
+  "sections": [
+    "Variants in this Hub"
+  ],
+  "urls": {
+    "rulebook": "/api/rules/lattaque/rulebook.md",
+    "meta": "/api/rules/lattaque/meta.json",
+    "variants": "/api/rules/lattaque/variants/"
+  }
+}
