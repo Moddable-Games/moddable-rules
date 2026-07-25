@@ -256,6 +256,104 @@ code, .mono {
 .code-block .num { color: #ef4444; }
 .code-block .comment { color: var(--text-dim); }
 
+/* Pattern list (per-game endpoints) */
+.pattern-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.pattern-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.pattern-row:last-child { border-bottom: none; }
+
+.pattern-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  min-width: 120px;
+  flex-shrink: 0;
+}
+
+.pattern-path {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text);
+  background: none;
+  padding: 0;
+}
+
+.pattern-path .key { color: var(--accent); }
+
+/* Flow diagram (how it works) */
+.flow-diagram {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.flow-step {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.flow-label {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.flow-path {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text);
+  background: none;
+  padding: 0;
+  word-break: break-all;
+}
+
+.flow-arrow {
+  width: 1px;
+  height: 20px;
+  margin: 0 0 0 48px;
+  background: linear-gradient(to bottom, var(--accent-dim), transparent);
+  position: relative;
+}
+
+.flow-arrow::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+  width: 7px;
+  height: 7px;
+  border-right: 1px solid var(--accent-dim);
+  border-bottom: 1px solid var(--accent-dim);
+  transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .pattern-row { flex-direction: column; gap: 4px; }
+  .pattern-label { min-width: unset; }
+  .flow-step { flex-direction: column; gap: 4px; }
+  .flow-label { min-width: unset; }
+}
+
 /* Deprecation table */
 .deprecation-table {
   width: 100%;

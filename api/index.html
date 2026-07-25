@@ -76,26 +76,36 @@
   <section class="api-section">
     <h2 class="section-title">Per-Game Endpoints</h2>
     <p class="section-desc">Every published game gets its own namespace. The pattern is consistent — only the slug changes.</p>
-    <div class="code-block"><span class="comment"># Metadata (JSON)</span>
-/api/rules/<span class="key">{slug}</span>/meta.json
-
-<span class="comment"># Full rulebook content (Markdown, frontmatter stripped)</span>
-/api/rules/<span class="key">{slug}</span>/rulebook.md
-
-<span class="comment"># Individual variant rules</span>
-/api/rules/<span class="key">{slug}</span>/variants/<span class="key">{variant}</span>.md
-
-<span class="comment"># Component hub games</span>
-/api/rules/<span class="key">{slug}</span>/games/<span class="key">{game}</span>.md
-
-<span class="comment"># RPG sub-pages (rules, classes, spells, etc.)</span>
-/api/rules/<span class="key">{slug}</span>/pages/<span class="key">{section}</span>/<span class="key">{page}</span>.md
-
-<span class="comment"># Data files (passthrough)</span>
-/api/rules/<span class="key">{slug}</span>/data/<span class="key">{file}</span>.json
-
-<span class="comment"># Oracle tables (per-game aggregate)</span>
-/api/rules/<span class="key">{slug}</span>/oracles.json</div>
+    <div class="pattern-list">
+      <div class="pattern-row">
+        <span class="pattern-label">Metadata</span>
+        <code class="pattern-path">/api/rules/<span class="key">{slug}</span>/meta.json</code>
+      </div>
+      <div class="pattern-row">
+        <span class="pattern-label">Rulebook</span>
+        <code class="pattern-path">/api/rules/<span class="key">{slug}</span>/rulebook.md</code>
+      </div>
+      <div class="pattern-row">
+        <span class="pattern-label">Variants</span>
+        <code class="pattern-path">/api/rules/<span class="key">{slug}</span>/variants/<span class="key">{variant}</span>.md</code>
+      </div>
+      <div class="pattern-row">
+        <span class="pattern-label">Component games</span>
+        <code class="pattern-path">/api/rules/<span class="key">{slug}</span>/games/<span class="key">{game}</span>.md</code>
+      </div>
+      <div class="pattern-row">
+        <span class="pattern-label">Sub-pages</span>
+        <code class="pattern-path">/api/rules/<span class="key">{slug}</span>/pages/<span class="key">{section}</span>/<span class="key">{page}</span>.md</code>
+      </div>
+      <div class="pattern-row">
+        <span class="pattern-label">Data files</span>
+        <code class="pattern-path">/api/rules/<span class="key">{slug}</span>/data/<span class="key">{file}</span>.json</code>
+      </div>
+      <div class="pattern-row">
+        <span class="pattern-label">Oracle tables</span>
+        <code class="pattern-path">/api/rules/<span class="key">{slug}</span>/oracles.json</code>
+      </div>
+    </div>
   </section>
 
   <section class="api-section">
@@ -119,15 +129,23 @@
   <section class="api-section">
     <h2 class="section-title">How It Works</h2>
     <p class="section-desc">The API is a build artifact. No server, no database, no Worker. Adding a game or variant to the source automatically exposes it at a predictable URL on the next deploy.</p>
-    <div class="code-block"><span class="comment"># Source (you edit this)</span>
-games/backgammon/content/variants/standard.md
-
-<span class="comment"># API output (auto-generated)</span>
-dist/api/rules/backgammon/variants/standard.md
-
-<span class="comment"># Live URL (GitHub Pages serves it)</span>
-https://rules.moddable.games/api/rules/backgammon/variants/standard.md</div>
-    <p class="section-desc" style="margin-top: 16px;">To extend the API with new metadata fields, add them to rulebook frontmatter. The build reads whatever is there — no registration, no schema to update.</p>
+    <div class="flow-diagram">
+      <div class="flow-step">
+        <span class="flow-label">Source</span>
+        <code class="flow-path">games/backgammon/content/variants/standard.md</code>
+      </div>
+      <div class="flow-arrow"></div>
+      <div class="flow-step">
+        <span class="flow-label">Build output</span>
+        <code class="flow-path">dist/api/rules/backgammon/variants/standard.md</code>
+      </div>
+      <div class="flow-arrow"></div>
+      <div class="flow-step">
+        <span class="flow-label">Live URL</span>
+        <code class="flow-path">https://rules.moddable.games/api/rules/backgammon/variants/standard.md</code>
+      </div>
+    </div>
+    <p class="section-desc">To extend the API with new metadata fields, add them to rulebook frontmatter. The build reads whatever is there — no registration, no schema to update.</p>
   </section>
 
 </div>
