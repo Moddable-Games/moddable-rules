@@ -69,6 +69,10 @@ a:hover { text-decoration: underline; }
   padding: 0 24px;
 }
 
+[data-surface="light"] .site-header {
+  background: rgba(245, 244, 239, 0.85);
+}
+
 .header-inner {
   max-width: 1400px;
   margin: 0 auto;
