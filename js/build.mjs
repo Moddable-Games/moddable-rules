@@ -742,6 +742,7 @@ function buildLanding() {
     </div>
     <div class="hero-actions">
       <a href="diagrams/" class="hero-link">Diagrams</a>
+      <a href="api/" class="hero-link">API</a>
     </div>
   </section>
 

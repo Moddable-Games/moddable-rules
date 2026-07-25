@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>API Explorer — Moddable Rules</title>
+<meta name="description" content="Static JSON and Markdown API for game rules, oracle tables, and RPG entities. Auto-generated, zero maintenance.">
+<meta name="theme-color" content="#08080a">
+<link rel="stylesheet" href="../css/api.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../" class="header-brand">Moddable Rules</a>
+    <nav class="header-nav">
+      <a href="../" class="nav-link">Games</a>
+      <a href="../diagrams/" class="nav-link">Diagrams</a>
+      <a href="./" class="nav-link nav-link--active">API</a>
+    </nav>
+  </div>
+</header>
+
+<section class="api-hero">
+  <div class="hero-eyebrow">Static API</div>
+  <h1 class="hero-title">All rules data. One namespace.</h1>
+  <p class="hero-lede">Auto-generated JSON and Markdown endpoints for every game, variant, oracle table, and entity. No auth, no rate limits, no manual updates.</p>
+
+  <div class="stats-row" id="stats-row">
+    <div class="stat-block"><span class="stat-value" id="stat-games">—</span><span class="stat-label">Games</span></div>
+    <div class="stat-block"><span class="stat-value" id="stat-variants">—</span><span class="stat-label">Variants</span></div>
+    <div class="stat-block"><span class="stat-value" id="stat-oracles">—</span><span class="stat-label">Oracle Tables</span></div>
+    <div class="stat-block"><span class="stat-value" id="stat-entities">—</span><span class="stat-label">Entities</span></div>
+    <div class="stat-block"><span class="stat-value" id="stat-endpoints">—</span><span class="stat-label">Endpoints</span></div>
+  </div>
+</section>
+
+<div class="api-content">
+
+  <section class="api-section">
+    <h2 class="section-title">Quick Links</h2>
+    <div class="link-cards">
+      <a href="../dist/api/index.json" class="link-card" target="_blank" rel="noopener">
+        <div class="link-card-title">Discovery Index</div>
+        <div class="link-card-desc">Machine-readable list of all endpoints, stats, and deprecations</div>
+        <span class="link-card-url">/api/index.json</span>
+      </a>
+      <a href="../dist/api/catalogue.json" class="link-card" target="_blank" rel="noopener">
+        <div class="link-card-title">Game Catalogue</div>
+        <div class="link-card-desc">Every game with metadata, variant lists, mechanics, and content URLs</div>
+        <span class="link-card-url">/api/catalogue.json</span>
+      </a>
+      <a href="../dist/api/oracles.json" class="link-card" target="_blank" rel="noopener">
+        <div class="link-card-title">Oracle Tables</div>
+        <div class="link-card-desc">All rollable tables across Ironsworn, Starforged, Maze Rats, Cairn, and more</div>
+        <span class="link-card-url">/api/oracles.json</span>
+      </a>
+      <a href="../dist/api/entities.json" class="link-card" target="_blank" rel="noopener">
+        <div class="link-card-title">RPG Entities</div>
+        <div class="link-card-desc">Monsters, spells, classes, equipment — searchable and filterable</div>
+        <span class="link-card-url">/api/entities.json</span>
+      </a>
+      <a href="../dist/api/search-index.json" class="link-card" target="_blank" rel="noopener">
+        <div class="link-card-title">Search Index</div>
+        <div class="link-card-desc">Full-text entries across all games and variants</div>
+        <span class="link-card-url">/api/search-index.json</span>
+      </a>
+      <a href="../llms.txt" class="link-card" target="_blank" rel="noopener">
+        <div class="link-card-title">llms.txt</div>
+        <div class="link-card-desc">AI agent discovery file describing this site and its tools</div>
+        <span class="link-card-url">/llms.txt</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="api-section">
+    <h2 class="section-title">Per-Game Endpoints</h2>
+    <p class="section-desc">Every published game gets its own namespace. The pattern is consistent — only the slug changes.</p>
+    <div class="code-block"><span class="comment"># Metadata (JSON)</span>
+/api/rules/<span class="key">{slug}</span>/meta.json
+
+<span class="comment"># Full rulebook content (Markdown, frontmatter stripped)</span>
+/api/rules/<span class="key">{slug}</span>/rulebook.md
+
+<span class="comment"># Individual variant rules</span>
+/api/rules/<span class="key">{slug}</span>/variants/<span class="key">{variant}</span>.md
+
+<span class="comment"># Component hub games</span>
+/api/rules/<span class="key">{slug}</span>/games/<span class="key">{game}</span>.md
+
+<span class="comment"># RPG sub-pages (rules, classes, spells, etc.)</span>
+/api/rules/<span class="key">{slug}</span>/pages/<span class="key">{section}</span>/<span class="key">{page}</span>.md
+
+<span class="comment"># Data files (passthrough)</span>
+/api/rules/<span class="key">{slug}</span>/data/<span class="key">{file}</span>.json
+
+<span class="comment"># Oracle tables (per-game aggregate)</span>
+/api/rules/<span class="key">{slug}</span>/oracles.json</div>
+  </section>
+
+  <section class="api-section">
+    <h2 class="section-title">All Endpoints</h2>
+    <p class="section-desc">Loaded live from <code>/api/index.json</code>. This list updates automatically on every build.</p>
+    <table class="endpoint-table">
+      <thead><tr><th>Path</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody id="endpoint-tbody"></tbody>
+    </table>
+  </section>
+
+  <section class="api-section">
+    <h2 class="section-title">Deprecations</h2>
+    <p class="section-desc">Old bundled snapshots being replaced. Consumers should migrate to the <code>/api/</code> equivalents.</p>
+    <table class="deprecation-table">
+      <thead><tr><th>Old Location</th><th>Replacement</th><th>Consumer</th></tr></thead>
+      <tbody id="deprecation-tbody"></tbody>
+    </table>
+  </section>
+
+  <section class="api-section">
+    <h2 class="section-title">How It Works</h2>
+    <p class="section-desc">The API is a build artifact. No server, no database, no Worker. Adding a game or variant to the source automatically exposes it at a predictable URL on the next deploy.</p>
+    <div class="code-block"><span class="comment"># Source (you edit this)</span>
+games/backgammon/content/variants/standard.md
+
+<span class="comment"># API output (auto-generated)</span>
+dist/api/rules/backgammon/variants/standard.md
+
+<span class="comment"># Live URL (GitHub Pages serves it)</span>
+https://rules.moddable.games/api/rules/backgammon/variants/standard.md</div>
+    <p class="section-desc" style="margin-top: 16px;">To extend the API with new metadata fields, add them to rulebook frontmatter. The build reads whatever is there — no registration, no schema to update.</p>
+  </section>
+
+</div>
+
+<script src="../js/api-page.js"></script>
+</body>
+</html>

@@ -385,6 +385,15 @@ if (existsSync(existingIndex)) {
   trackEndpoint('/api/search-index.json', 'Full-text search index', 'json');
 }
 
+// --- Compute total entities for stats ---
+let totalEntities = 0;
+for (const game of Object.values(allEntities)) {
+  for (const cat of Object.values(game.categories)) {
+    totalEntities += cat.count || 0;
+  }
+}
+catalogueStats.totalEntities = totalEntities;
+
 // --- Discovery: index.json ---
 index.endpoints.sort((a, b) => a.path.localeCompare(b.path));
 index.stats = catalogueStats;
