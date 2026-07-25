@@ -645,6 +645,7 @@ function buildLanding() {
 
   const isProduction = process.env.NODE_ENV === 'production' || process.env.CI === 'true';
   const visible = isProduction ? games.filter(g => g.published !== false) : games;
+  const published = games.filter(g => g.published !== false);
   visible.sort((a, b) => (b.updated || '').localeCompare(a.updated || ''));
 
   const statusLabels = { live: 'Live', alpha: 'Alpha', playtest: 'Playtest', dev: 'In Dev' };
@@ -737,7 +738,7 @@ function buildLanding() {
     <h1 class="hero-title">Game Rulebooks</h1>
     <p class="hero-desc">Open rulebooks for original games, creative mods of published titles, and encyclopaedic coverage of public domain classics. Every rule documented, every variant preserved.</p>
     <div class="hero-stats" id="hero-stats">
-      <span class="hero-stat"><strong id="stat-games">${visible.length}</strong> games</span>
+      <span class="hero-stat"><strong id="stat-games">${published.length}</strong> games</span>
       <span class="hero-stat"><strong id="stat-variants">${totalVariants}</strong> variants</span>
     </div>
     <div class="hero-actions">
