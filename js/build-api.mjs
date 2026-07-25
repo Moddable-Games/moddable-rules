@@ -433,6 +433,68 @@ ${sitemapUrls.map(url => `  <url><loc>${url}</loc></url>`).join('\n')}
 </urlset>`;
 writeFileSync(resolve(ROOT, 'sitemap.xml'), sitemapXml);
 
+// --- Comprehensive stats.json (single source of truth for all counts) ---
+function countFiles(dir, ext) {
+  if (!existsSync(dir)) return 0;
+  let count = 0;
+  const walk = (d) => {
+    for (const entry of readdirSync(d, { withFileTypes: true })) {
+      if (entry.isDirectory()) walk(resolve(d, entry.name));
+      else if (entry.name.endsWith(ext)) count++;
+    }
+  };
+  walk(dir);
+  return count;
+}
+
+const diagramsManifestPath = resolve(ROOT, 'diagrams-manifest.json');
+let diagramStats = { total: 0, rendered: 0, missing: 0, families: 0 };
+if (existsSync(diagramsManifestPath)) {
+  const dm = JSON.parse(readFileSync(diagramsManifestPath, 'utf8'));
+  const rendered = dm.filter(e => e.svg);
+  diagramStats = {
+    total: dm.length,
+    rendered: rendered.length,
+    missing: dm.length - rendered.length,
+    families: new Set(dm.map(e => e.family)).size,
+  };
+}
+
+const totalPdfs = countFiles(resolve(ROOT, 'games'), '.pdf');
+const totalHtmlPages = countFiles(DIST_DIR, '.html');
+
+const stats = {
+  generated: new Date().toISOString().split('T')[0],
+  games: {
+    total: catalogue.length,
+    byType: catalogueStats.byType,
+    byStatus: catalogueStats.byStatus,
+  },
+  content: {
+    variants: catalogueStats.totalVariants,
+    componentGames: catalogueStats.totalComponentGames,
+    subPages: catalogueStats.totalPages,
+    totalRulePages: catalogueStats.totalVariants + catalogueStats.totalComponentGames + catalogueStats.totalPages,
+  },
+  data: {
+    oracleTables: catalogueStats.totalOracleTables,
+    entities: totalEntities,
+    dataFiles: catalogueStats.totalDataFiles,
+  },
+  diagrams: diagramStats,
+  pdfs: {
+    total: totalPdfs,
+  },
+  site: {
+    htmlPages: totalHtmlPages,
+    apiEndpoints: index.endpoints.length,
+    sitemapUrls: sitemapUrls.length,
+  },
+};
+
+writeJson(resolve(API_DIR, 'stats.json'), stats);
+trackEndpoint('/api/stats.json', 'Comprehensive project statistics (single source of truth)', 'json');
+
 // --- Summary ---
 const endpointsByType = {};
 for (const ep of index.endpoints) {

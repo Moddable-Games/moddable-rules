@@ -1,0 +1,46 @@
+{
+  "generated": "2026-07-25",
+  "games": {
+    "total": 46,
+    "byType": {
+      "standalone": 3,
+      "hub": 2,
+      "classic": 19,
+      "rpg": 10,
+      "component": 6,
+      "mod": 4,
+      "platform": 1,
+      "game": 1
+    },
+    "byStatus": {
+      "live": 41,
+      "alpha": 2,
+      "playtest": 3
+    }
+  },
+  "content": {
+    "variants": 295,
+    "componentGames": 38,
+    "subPages": 177,
+    "totalRulePages": 510
+  },
+  "data": {
+    "oracleTables": 458,
+    "entities": 3385,
+    "dataFiles": 50
+  },
+  "diagrams": {
+    "total": 358,
+    "rendered": 345,
+    "missing": 13,
+    "families": 47
+  },
+  "pdfs": {
+    "total": 683
+  },
+  "site": {
+    "htmlPages": 548,
+    "apiEndpoints": 154,
+    "sitemapUrls": 558
+  }
+}

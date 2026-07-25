@@ -736,9 +736,9 @@ function buildLanding() {
   <section class="hero">
     <h1 class="hero-title">Game Rulebooks</h1>
     <p class="hero-desc">Open rulebooks for original games, creative mods of published titles, and encyclopaedic coverage of public domain classics. Every rule documented, every variant preserved.</p>
-    <div class="hero-stats">
-      <span class="hero-stat"><strong>${visible.length}</strong> games</span>
-      <span class="hero-stat"><strong>${totalVariants}</strong> variants</span>
+    <div class="hero-stats" id="hero-stats">
+      <span class="hero-stat"><strong id="stat-games">${visible.length}</strong> games</span>
+      <span class="hero-stat"><strong id="stat-variants">${totalVariants}</strong> variants</span>
     </div>
     <div class="hero-actions">
       <a href="diagrams/" class="hero-link">Diagrams</a>

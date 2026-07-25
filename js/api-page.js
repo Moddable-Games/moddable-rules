@@ -1,14 +1,19 @@
 (async function () {
-  const res = await fetch('../dist/api/index.json');
+  const [res, statsRes] = await Promise.all([
+    fetch('../dist/api/index.json'),
+    fetch('../dist/api/stats.json'),
+  ]);
   if (!res.ok) return;
   const data = await res.json();
 
-  const stats = data.stats || {};
-  document.getElementById('stat-games').textContent = stats.totalGames || 0;
-  document.getElementById('stat-variants').textContent = stats.totalVariants || 0;
-  document.getElementById('stat-oracles').textContent = stats.totalOracleTables || 0;
-  document.getElementById('stat-entities').textContent = stats.totalEntities || 0;
-  document.getElementById('stat-endpoints').textContent = data.endpoints?.length || 0;
+  if (statsRes.ok) {
+    const stats = await statsRes.json();
+    document.getElementById('stat-games').textContent = stats.games.total;
+    document.getElementById('stat-variants').textContent = stats.content.variants + stats.content.componentGames;
+    document.getElementById('stat-oracles').textContent = stats.data.oracleTables;
+    document.getElementById('stat-entities').textContent = stats.data.entities;
+    document.getElementById('stat-endpoints').textContent = stats.site.apiEndpoints;
+  }
 
   const tbody = document.getElementById('endpoint-tbody');
   if (tbody && data.endpoints) {
