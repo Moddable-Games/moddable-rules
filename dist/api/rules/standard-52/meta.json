@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-07-21",
   "version": "0.2.1",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "trick-taking",
+    "melding",
+    "shedding",
+    "betting",
+    "hand-management"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "A standard French-suited deck supports 18 games spanning climbing, trick-taking, draw-and-discard, poker, pegging, banking, and solitaire families. Four suits (Spades, Hearts, Diamonds, Clubs), thirteen ranks per suit.",
+  "related": [
+    "flower-48",
+    "mahjong",
+    "standard-dice"
+  ],
   "hub_type": "component",
   "variants": [],
   "games": [

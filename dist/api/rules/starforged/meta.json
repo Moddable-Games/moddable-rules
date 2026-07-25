@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-07-19",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice-rolling",
+    "narrative",
+    "oracle-tables",
+    "progress-tracks",
+    "momentum"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Take on the role of spacefaring Ironsworn, bound to sworn vows. Roll action dice against challenge dice, manage momentum and condition meters, and consult oracle tables for creative prompts. Plays solo, cooperatively, or with a GM.",
+  "related": [
+    "ironsworn",
+    "fate-core",
+    "dungeon-world"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-06-19",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "abstract-strategy",
+    "race",
+    "movement",
+    "grid"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Move your pieces from one corner camp to the diagonally opposite corner on a 16×16 board. Step to adjacent squares or chain-hop over any adjacent piece without capturing.",
+  "related": [
+    "stern-halma",
+    "agon",
+    "pachisi",
+    "backgammon"
+  ],
   "hub_type": null,
   "variants": [
     {

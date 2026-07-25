@@ -9,10 +9,22 @@
   "status": "live",
   "updated": "2026-07-08",
   "version": "0.4.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "hidden-information",
+    "grid",
+    "movement",
+    "combat",
+    "ranking",
+    "deduction"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Hidden-information strategy where pieces have hidden ranks. Higher rank defeats lower when pieces meet. Win conditions vary by variant: capture the Flag, land on the Aerodrome, or get Flags to your Base.",
+  "related": [
+    "moddable-chess",
+    "xiangqi",
+    "shogi",
+    "dou-shou-qi"
+  ],
   "hub_type": null,
   "variants": [
     {

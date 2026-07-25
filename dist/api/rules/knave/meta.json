@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-07-22",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice",
+    "combat",
+    "exploration",
+    "narrative",
+    "classless"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Roll d20 + ability bonus against difficulty. Every PC is a Knave whose role comes from what they carry, not a class. Simple encumbrance, unified defense system, concrete spellcasting.",
+  "related": [
+    "cairn",
+    "maze-rats",
+    "dnd-5e",
+    "dungeon-world"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-06-20",
   "version": "0.3.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "abstract-strategy",
+    "grid",
+    "capture",
+    "movement",
+    "promotion"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Move pieces diagonally and capture opponents by jumping over them. Men promote to kings with extended movement. Mandatory captures force tactical sacrifices.",
+  "related": [
+    "moddable-chess",
+    "go",
+    "xiangqi",
+    "shogi"
+  ],
   "hub_type": null,
   "variants": [
     {

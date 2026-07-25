@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-22"
 published: true
 variants: false
+how_to_play: "Roll percentile dice against your skill ratings to determine success. Characters are defined by characteristics (Strength, Dexterity, etc.) and skills, not classes. One player is GM, others are player characters."
+mechanics: [dice, narrative, combat, exploration, skill-based]
+complexity: moderate
+related: [dnd-5e, pathfinder-1e, cairn, dungeon-world]
 theme:
   surface: light
   tint: neutral

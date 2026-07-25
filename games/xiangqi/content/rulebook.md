@@ -74,6 +74,18 @@ engine:
       P: wP
       p: bP
   players: [red, black]
+how_to_play: "Ancient Chinese chess on a 9×10 grid with a river divide. Generals confined to palace squares. Cannons capture by jumping over exactly one piece. Flying General rule prevents opposing Generals from facing each other. Checkmate the opposing General to win."
+mechanics:
+  - grid-movement
+  - capture
+  - checkmate
+  - palace-confinement
+  - river-divide
+complexity: complex
+related:
+  - shogi
+  - moddable-chess
+  - go
 ---
 
 <div class="section variant-hub">

@@ -60,6 +60,18 @@ engine:
   pieces:
     set: playstrategy-draughts-plain
   players: [yellow, green, red, blue]
+how_to_play: "Race four pieces around a cross-shaped board from your home to the opposite side. Throw cowrie shells for movement, land on castle squares for safety, and capture opponent pieces to send them home. Direct ancestor of Ludo, Sorry!, and Trouble."
+mechanics:
+  - race
+  - dice-throwing
+  - capture
+  - safe-spaces
+  - cross-and-circle
+complexity: simple
+related:
+  - nyout
+  - chaupar
+  - backgammon
 ---
 
 <div class="section variant-hub">

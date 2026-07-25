@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-07-22",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "class-based"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Narrate fiction first; when a character's action triggers a move, roll 2d6+stat. 10+ is full success, 7-9 is partial success, 6- is GM move. The GM never rolls dice.",
+  "related": [
+    "dnd-5e",
+    "fate-core",
+    "ironsworn",
+    "cairn"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

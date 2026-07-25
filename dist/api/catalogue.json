@@ -35,10 +35,21 @@
       "status": "live",
       "updated": "2026-07-06",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "movement",
+        "capture",
+        "hex",
+        "territory"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Maneuver your Queen to the center hexagon and surround it with all six Guards. Pieces move one step to adjacent hexes, capturing by custodianship when flanking opponents on opposite sides.",
+      "related": [
+        "fanorona",
+        "halma",
+        "tafl",
+        "surakarta"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -74,10 +85,21 @@
       "status": "live",
       "updated": "2026-07-06",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "asymmetric",
+        "movement",
+        "capture",
+        "grid"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Asymmetric Victorian-era game where a small defending force (the Officers) holds off a larger attacking force (the Soldiers) on a fortress-and-plain board.",
+      "related": [
+        "tafl",
+        "fanorona",
+        "morris",
+        "agon"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -121,10 +143,22 @@
       "status": "live",
       "updated": "2026-06-15",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "race",
+        "capture",
+        "track",
+        "push-your-luck",
+        "betting"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll dice and race your 15 pieces around the board, bearing them off before your opponent. Combine racing, blocking, hitting, and probability management with the doubling cube for betting.",
+      "related": [
+        "pachisi",
+        "chaupar",
+        "nyout",
+        "royal-ur"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -216,10 +250,21 @@
       "status": "live",
       "updated": "2026-07-22",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "skill-based"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll percentile dice against your skill ratings to determine success. Characters are defined by characteristics (Strength, Dexterity, etc.) and skills, not classes. One player is GM, others are player characters.",
+      "related": [
+        "dnd-5e",
+        "pathfinder-1e",
+        "cairn",
+        "dungeon-world"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -294,10 +339,19 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "trick-taking",
+        "hand-management",
+        "betting",
+        "card-play"
+      ],
+      "complexity": "complex",
+      "how_to_play": "The 32-card German deck (Skat deck) supports 2 games: Schafkopf and Skat. Both are trick-taking games with permanent trumps and card-point scoring.",
+      "related": [
+        "standard-52",
+        "flower-48",
+        "mahjong"
+      ],
       "hub_type": "component",
       "variants": [],
       "games": [
@@ -337,10 +391,21 @@
       "status": "live",
       "updated": "2026-07-22",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "oracle"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll 3d6 for attributes, equip yourself from a random background, then explore a dark Wood filled with monsters and treasure. Fiction-first resolution with saves only for risky moments.",
+      "related": [
+        "knave",
+        "maze-rats",
+        "ironsworn",
+        "dnd-5e"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -449,10 +514,21 @@
       "status": "live",
       "updated": "2026-06-18",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "race",
+        "capture",
+        "movement",
+        "team-play"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Team race game on a cross-shaped board. Roll three long dice, split the result among your pieces, and race to return all pieces to the center. Pieces combine into super-pieces for capture immunity.",
+      "related": [
+        "pachisi",
+        "backgammon",
+        "royal-ur",
+        "nyout"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -498,10 +574,21 @@
       "status": "live",
       "updated": "2026-07-06",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "movement",
+        "capture",
+        "ranking"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Move your 8 ranked animal pieces (Rat to Elephant) toward the opponent's Den. Higher rank captures lower, but the Rat defeats the Elephant. Traps weaken defenders, rivers block most pieces.",
+      "related": [
+        "xiangqi",
+        "shogi",
+        "moddable-chess",
+        "fanorona"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -537,10 +624,19 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "tile-placement",
+        "pattern",
+        "set-collection",
+        "hand-management"
+      ],
+      "complexity": "simple",
+      "how_to_play": "The double-6 domino set (28 tiles) supports 4 games: Block, All Fives, Mexican Train, and Chickenfoot. All involve matching pip values and extending a chain.",
+      "related": [
+        "standard-52",
+        "mahjong",
+        "standard-dice"
+      ],
       "hub_type": "component",
       "variants": [],
       "games": [
@@ -590,10 +686,21 @@
       "status": "live",
       "updated": "2026-06-20",
       "version": "0.3.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "capture",
+        "movement",
+        "promotion"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move pieces diagonally and capture opponents by jumping over them. Men promote to kings with extended movement. Mandatory captures force tactical sacrifices.",
+      "related": [
+        "moddable-chess",
+        "go",
+        "xiangqi",
+        "shogi"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -781,10 +888,22 @@
       "status": "alpha",
       "updated": "2026-06-12",
       "version": "0.2.2",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "asymmetric",
+        "drafting",
+        "grid",
+        "combat",
+        "terrain"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Draft asymmetric armies from 4 factions (Human, Undead, Redskin, Greenskin) using an XP budget. Battle on modular dungeon maps with terrain hazards. King capture wins.",
+      "related": [
+        "moddable-chess",
+        "xiangqi",
+        "shogi",
+        "dou-shou-qi"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -843,10 +962,21 @@
       "status": "live",
       "updated": "2026-07-22",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "class-based"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Narrate fiction first; when a character's action triggers a move, roll 2d6+stat. 10+ is full success, 7-9 is partial success, 6- is GM move. The GM never rolls dice.",
+      "related": [
+        "dnd-5e",
+        "fate-core",
+        "ironsworn",
+        "cairn"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -1016,10 +1146,21 @@
       "status": "live",
       "updated": "2026-07-04",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "combat",
+        "exploration",
+        "narrative",
+        "class-based"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Choose a race and class, roll d20 + modifiers against difficulty targets, and adventure through dungeons and quests. One player is DM, others are player characters with levels 1-20.",
+      "related": [
+        "pathfinder-1e",
+        "dungeon-world",
+        "brp",
+        "cairn"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -1308,10 +1449,20 @@
       "status": "playtest",
       "updated": "2026-06-19",
       "version": "0.2.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "resource-management",
+        "set-collection",
+        "trading",
+        "hand-management",
+        "victory-points"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Choose one action per turn: move, trade, or build. Collect resources from decks, combine them for victory points. Game ends when a player goes bankrupt or decks empty — most VP wins.",
+      "related": [
+        "standard-52",
+        "landlords-game",
+        "nukes"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -1353,10 +1504,20 @@
       "status": "live",
       "updated": "2026-06-23",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "capture",
+        "movement"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move pieces along lines on a 9×5 grid. Capture by moving toward an enemy line (approach) or away from one (withdrawal), taking all pieces in the unbroken line.",
+      "related": [
+        "agon",
+        "morris",
+        "draughts",
+        "go"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -1400,10 +1561,21 @@
       "status": "live",
       "updated": "2026-07-22",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "narrative",
+        "aspects",
+        "combat",
+        "exploration"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll 4 Fate dice plus skill against the ladder. Characters defined by aspects (story phrases). Invoke aspects for bonuses, accept compels for fate points. Four actions: overcome, create advantage, attack, defend.",
+      "related": [
+        "dungeon-world",
+        "ironsworn",
+        "brp",
+        "dnd-5e"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -1500,10 +1672,20 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "set-collection",
+        "pattern",
+        "hand-management",
+        "betting",
+        "card-play"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "The Hanafuda deck (48 cards, 12 monthly suits) supports 4 games: Koi-Koi, Hana-Awase, Go-Stop, and Oicho-Kabu. All involve matching and collecting cards by suit or type.",
+      "related": [
+        "standard-52",
+        "mahjong",
+        "double-six-dominoes"
+      ],
       "hub_type": "component",
       "variants": [],
       "games": [
@@ -1553,10 +1735,21 @@
       "status": "live",
       "updated": "2026-06-22",
       "version": "0.3.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "territory",
+        "capture",
+        "placement"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Place stones on grid intersections to surround territory and capture opponent groups by filling their liberties. From one fundamental rule emerges extraordinary strategic depth.",
+      "related": [
+        "draughts",
+        "moddable-chess",
+        "xiangqi",
+        "hex"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -1696,10 +1889,20 @@
       "status": "live",
       "updated": "2026-06-19",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "race",
+        "movement",
+        "grid"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move your pieces from one corner camp to the diagonally opposite corner on a 16×16 board. Step to adjacent squares or chain-hop over any adjacent piece without capturing.",
+      "related": [
+        "stern-halma",
+        "agon",
+        "pachisi",
+        "backgammon"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -1743,10 +1946,20 @@
       "status": "live",
       "updated": "2026-07-04",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "hex",
+        "placement",
+        "connection"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Place stones on a rhombus-shaped hex board. First player to form a connected chain linking their two opposite edges wins. A draw is topologically impossible.",
+      "related": [
+        "go",
+        "tafl",
+        "reversi",
+        "gomoku"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -1840,10 +2053,22 @@
       "status": "playtest",
       "updated": "2026-06-19",
       "version": "0.7.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "exploration",
+        "trading",
+        "asymmetric",
+        "hex",
+        "combat",
+        "negotiation",
+        "hidden-information"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Five modifications for Twilight Imperium 4e: 3D movement across outer rings, flexible trading with promissory notes, shared secret objectives, two new factions, and blind voting via influence cards.",
+      "related": [
+        "endless-skies",
+        "talisman-worlds",
+        "nukes"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -1886,10 +2111,23 @@
       "status": "live",
       "updated": "2026-07-04",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "narrative",
+        "exploration",
+        "combat",
+        "oracle",
+        "solo",
+        "cooperative"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll action dice against challenge dice to resolve moves. Characters are bound to sworn vows, face peril, and mark progress. Plays solo, cooperatively, or with a guide. Oracle tables generate narrative.",
+      "related": [
+        "starforged",
+        "cairn",
+        "dungeon-world",
+        "fate-core"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -1948,10 +2186,21 @@
       "status": "live",
       "updated": "2026-07-22",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "combat",
+        "exploration",
+        "narrative",
+        "classless"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll d20 + ability bonus against difficulty. Every PC is a Knave whose role comes from what they carry, not a class. Simple encumbrance, unified defense system, concrete spellcasting.",
+      "related": [
+        "cairn",
+        "maze-rats",
+        "dnd-5e",
+        "dungeon-world"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -2010,10 +2259,22 @@
       "status": "live",
       "updated": "2026-07-08",
       "version": "0.4.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "hidden-information",
+        "grid",
+        "movement",
+        "combat",
+        "ranking",
+        "deduction"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Hidden-information strategy where pieces have hidden ranks. Higher rank defeats lower when pieces meet. Win conditions vary by variant: capture the Flag, land on the Aerodrome, or get Flags to your Base.",
+      "related": [
+        "moddable-chess",
+        "xiangqi",
+        "shogi",
+        "dou-shou-qi"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -2073,10 +2334,21 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "tile-placement",
+        "set-collection",
+        "hand-management",
+        "pattern",
+        "betting"
+      ],
+      "complexity": "complex",
+      "how_to_play": "The 136-tile Mahjong set supports 5 regional variants: Hong Kong, Riichi, Taiwanese, Zung Jung, and American Classic. All involve drawing and discarding tiles to complete winning hands of melds and a pair.",
+      "related": [
+        "standard-52",
+        "flower-48",
+        "double-six-dominoes",
+        "bavarian-32"
+      ],
       "hub_type": "component",
       "variants": [],
       "games": [
@@ -2129,10 +2401,21 @@
       "status": "live",
       "updated": "2026-06-15",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "abstract-strategy",
+        "pit",
+        "sowing",
+        "capture",
+        "counting"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Sow seeds or stones from one pit around the board, capturing when sowing lands in the right conditions. Each variant has different capture rules, board sizes, and end conditions.",
+      "related": [
+        "go",
+        "draughts",
+        "fanorona",
+        "morris"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -2224,10 +2507,20 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice-rolling",
+        "procedural-generation",
+        "sandbox",
+        "gm-tools",
+        "story-tables"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll dice and consult procedural tables to generate characters, spells, monsters, NPCs, treasure, cities, wilderness, and dungeons on the fly. One Game Master guides players through sandbox adventures using a single compact page of rules.",
+      "related": [
+        "dnd-5e",
+        "cairn",
+        "knave"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -2280,10 +2573,20 @@
       "status": "alpha",
       "updated": "2026-07-08",
       "version": "0.6.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "checkmate",
+        "piece-variety",
+        "asymmetric"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "A unified platform for 155 chess variants spanning classic FIDE rules, asymmetric battles, hidden information, expanded boards, alternative win conditions, regional forms, and topology variants. Every variant shares the chess lineage but modifies setup, pieces, board, or victory condition.",
+      "related": [
+        "dungeon-chess",
+        "xiangqi",
+        "shogi"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -3535,10 +3838,19 @@
       "status": "live",
       "updated": "2026-06-15",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "placement",
+        "line-formation",
+        "capture",
+        "blocking"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Form three-in-a-row lines (mills) to capture opponent pieces. Place all pieces during the opening phase, then move them to form mills. Reduce your opponent to two pieces or block all their moves to win.",
+      "related": [
+        "go",
+        "reversi",
+        "agon"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -3622,10 +3934,20 @@
       "status": "live",
       "updated": "2026-06-27",
       "version": "0.9.8",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "territory",
+        "hostage-economy",
+        "fluid-units",
+        "nuclear-strikes",
+        "hex-grid"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Command armies across hex terrain, managing platoons that change type based on unit count. Return hostages to earn moves, but every return strengthens your opponent. Build bases to convert units into isotopes for nuclear strikes. Win by destroying or occupying an opponent's city.",
+      "related": [
+        "harvesters",
+        "hyper-imperium",
+        "endless-skies"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -3693,10 +4015,20 @@
       "status": "live",
       "updated": "2026-07-06",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice-throwing",
+        "race",
+        "capture",
+        "stacking",
+        "shortcuts"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Throw four sticks to generate movement values. Race tokens around a circular track with shortcut branches. Capture opponent tokens to send them back to start. Stack tokens for combined movement but risk losing multiple at once. First team to move all tokens home wins.",
+      "related": [
+        "pachisi",
+        "royal-ur",
+        "backgammon"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -3732,10 +4064,20 @@
       "status": "live",
       "updated": "2026-06-18",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "race",
+        "dice-throwing",
+        "capture",
+        "safe-spaces",
+        "cross-and-circle"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Race four pieces around a cross-shaped board from your home to the opposite side. Throw cowrie shells for movement, land on castle squares for safety, and capture opponent pieces to send them home. Direct ancestor of Ludo, Sorry!, and Trouble.",
+      "related": [
+        "nyout",
+        "chaupar",
+        "backgammon"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -3787,10 +4129,20 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "character-building",
+        "dice-rolling",
+        "class-system",
+        "skill-checks",
+        "combat"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Create characters from 11 classes and 7 races. Roll d20 + modifiers for skill checks, attacks, and saves. Build characters through feats, spells, and equipment. The most complete open ruleset in existence, evolved from D&D 3.5.",
+      "related": [
+        "dnd-5e",
+        "dungeon-world",
+        "cairn"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -4024,10 +4376,19 @@
       "status": "live",
       "updated": "2026-06-19",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "placement",
+        "flipping",
+        "territory",
+        "blocking"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Place discs to flank and flip opponent pieces. Valid moves must flip at least one enemy disc by trapping it between your new disc and an existing one. The player with the most discs when no legal moves remain wins.",
+      "related": [
+        "go",
+        "agon",
+        "morris"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4079,10 +4440,20 @@
       "status": "live",
       "updated": "2026-06-15",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "race",
+        "dice-rolling",
+        "capture",
+        "safe-spaces",
+        "bearing-off"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Roll four tetrahedral dice to move pieces along an L-shaped track. Rosette squares grant extra rolls and safety from capture. Landing on opponent pieces sends them back to start. Bear off all seven pieces to win. Rules reconstructed from 4,500-year-old clay tablets.",
+      "related": [
+        "pachisi",
+        "backgammon",
+        "nyout"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4126,10 +4497,20 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "race",
+        "dice-throwing",
+        "capture",
+        "safe-spaces",
+        "bearing-off"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Race five pieces along a 30-square winding path. Throw four sticks for movement. Capture opponent pieces by swapping positions. Special squares grant protection, send pieces backward, or require exact throws to bear off. Blockades of three or more pieces cannot be passed.",
+      "related": [
+        "royal-ur",
+        "pachisi",
+        "backgammon"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4165,10 +4546,20 @@
       "status": "live",
       "updated": "2026-07-08",
       "version": "1.2.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "drops",
+        "promotion",
+        "checkmate"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Capture the opponent's King. Unique feature: captured pieces change allegiance and may be dropped back onto the board on any later turn. Most pieces promote upon reaching the opponent's territory, gaining new movement abilities.",
+      "related": [
+        "xiangqi",
+        "moddable-chess",
+        "go"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4388,10 +4779,20 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.2.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "trick-taking",
+        "melding",
+        "shedding",
+        "betting",
+        "hand-management"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "A standard French-suited deck supports 18 games spanning climbing, trick-taking, draw-and-discard, poker, pegging, banking, and solitaire families. Four suits (Spades, Hearts, Diamonds, Clubs), thirteen ranks per suit.",
+      "related": [
+        "flower-48",
+        "mahjong",
+        "standard-dice"
+      ],
       "hub_type": "component",
       "variants": [],
       "games": [
@@ -4511,10 +4912,20 @@
       "status": "live",
       "updated": "2026-07-21",
       "version": "0.1.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice-rolling",
+        "press-your-luck",
+        "betting",
+        "bluffing",
+        "scoring"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Standard six-sided dice support five games spanning press-your-luck, betting, bluffing, and category-scoring families. Roll, set aside combinations, and decide whether to bank or risk it all.",
+      "related": [
+        "standard-52",
+        "double-six-dominoes",
+        "backgammon"
+      ],
       "hub_type": "component",
       "variants": [],
       "games": [
@@ -4569,10 +4980,20 @@
       "status": "live",
       "updated": "2026-07-19",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice-rolling",
+        "narrative",
+        "oracle-tables",
+        "progress-tracks",
+        "momentum"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Take on the role of spacefaring Ironsworn, bound to sworn vows. Roll action dice against challenge dice, manage momentum and condition meters, and consult oracle tables for creative prompts. Plays solo, cooperatively, or with a GM.",
+      "related": [
+        "ironsworn",
+        "fate-core",
+        "dungeon-world"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -4661,10 +5082,19 @@
       "status": "live",
       "updated": "2026-07-04",
       "version": "0.2.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "race",
+        "jumping",
+        "chain-movement",
+        "star-board"
+      ],
+      "complexity": "simple",
+      "how_to_play": "Race ten pieces from one arm of a six-pointed star to the opposite arm. Move one step or jump over adjacent pieces (yours or opponents') to reach empty spaces beyond. Chain multiple jumps in one move. First player to fill the opposite arm wins.",
+      "related": [
+        "halma",
+        "draughts",
+        "go"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4735,10 +5165,18 @@
       "status": "live",
       "updated": "2026-06-23",
       "version": "0.1.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "grid-movement",
+        "loop-capture",
+        "unique-mechanics"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Move pieces one step in any direction. Capture by routing your path through one or more of the eight corner loop arcs that extend outside the grid boundary. First player to capture all twelve opponent pieces wins.",
+      "related": [
+        "go",
+        "agon",
+        "morris"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4780,10 +5218,19 @@
       "status": "live",
       "updated": "2026-06-26",
       "version": "1.0.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "asymmetric",
+        "capture",
+        "king-escape",
+        "grid-movement"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Asymmetric Norse board game family. Defenders protect a King trying to reach safety. Attackers control a larger force trying to capture the King. Capture by surrounding enemy pieces on two opposite sides. Variants differ in board size, escape goals, and special rules.",
+      "related": [
+        "agon",
+        "fanorona",
+        "morris"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4843,10 +5290,19 @@
       "status": "playtest",
       "updated": "2026-06-19",
       "version": "0.3.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "modular-board",
+        "dice-rolling",
+        "adventure-cards",
+        "character-progression"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Replaces the fixed Talisman board with 61 hexagonal tiles arranged in four concentric rings around a hidden ending tile. Every game has a completely different setup while keeping all characters, cards, and core rules intact.",
+      "related": [
+        "nukes",
+        "harvesters",
+        "hyper-imperium"
+      ],
       "hub_type": null,
       "variants": [],
       "games": [],
@@ -4879,10 +5335,20 @@
       "status": "live",
       "updated": "2026-07-04",
       "version": "0.2.0",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "dice",
+        "roll-and-move",
+        "trading",
+        "resource-management",
+        "auction"
+      ],
+      "complexity": "moderate",
+      "how_to_play": "Roll dice and move around a 40-space board, buying properties and charging rent. Five historical variants from austere patent rules to the collective-win Prosperity mode where the poorest player must double their wealth.",
+      "related": [
+        "econopoly",
+        "harvesters",
+        "backgammon"
+      ],
       "hub_type": null,
       "variants": [
         {
@@ -4958,10 +5424,20 @@
       "status": "live",
       "updated": "2026-07-16",
       "version": "1.2.1",
-      "mechanics": [],
-      "complexity": null,
-      "how_to_play": null,
-      "related": [],
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "checkmate",
+        "palace-confinement",
+        "river-divide"
+      ],
+      "complexity": "complex",
+      "how_to_play": "Ancient Chinese chess on a 9×10 grid with a river divide. Generals confined to palace squares. Cannons capture by jumping over exactly one piece. Flying General rule prevents opposing Generals from facing each other. Checkmate the opposing General to win.",
+      "related": [
+        "shogi",
+        "moddable-chess",
+        "go"
+      ],
       "hub_type": null,
       "variants": [
         {

@@ -42,6 +42,17 @@ engine:
   pieces:
     set: fluent-emoji
   players: [red, blue, green, black, purple, brown]
+how_to_play: "Race ten pieces from one arm of a six-pointed star to the opposite arm. Move one step or jump over adjacent pieces (yours or opponents') to reach empty spaces beyond. Chain multiple jumps in one move. First player to fill the opposite arm wins."
+mechanics:
+  - race
+  - jumping
+  - chain-movement
+  - star-board
+complexity: simple
+related:
+  - halma
+  - draughts
+  - go
 ---
 
 <div class="section">

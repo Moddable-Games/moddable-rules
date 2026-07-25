@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-06-18",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice",
+    "race",
+    "capture",
+    "movement",
+    "team-play"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Team race game on a cross-shaped board. Roll three long dice, split the result among your pieces, and race to return all pieces to the center. Pieces combine into super-pieces for capture immunity.",
+  "related": [
+    "pachisi",
+    "backgammon",
+    "royal-ur",
+    "nyout"
+  ],
   "hub_type": null,
   "variants": [
     {

@@ -31,6 +31,18 @@ engine:
     layout:
       type: pool
   players: [player-1, player-2, player-3, player-4]
+how_to_play: "Standard six-sided dice support five games spanning press-your-luck, betting, bluffing, and category-scoring families. Roll, set aside combinations, and decide whether to bank or risk it all."
+mechanics:
+  - dice-rolling
+  - press-your-luck
+  - betting
+  - bluffing
+  - scoring
+complexity: simple
+related:
+  - standard-52
+  - double-six-dominoes
+  - backgammon
 ---
 
 <div class="section">

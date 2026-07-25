@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-06-23"
 published: true
 variants: false
+how_to_play: "Move pieces along lines on a 9×5 grid. Capture by moving toward an enemy line (approach) or away from one (withdrawal), taking all pieces in the unbroken line."
+mechanics: [abstract-strategy, grid, capture, movement]
+complexity: moderate
+related: [agon, morris, draughts, go]
 theme:
   surface: light
   tint: warm

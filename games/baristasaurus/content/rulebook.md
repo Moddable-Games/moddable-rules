@@ -12,6 +12,10 @@ updated: "2026-07-15"
 first_published: "April 2026"
 published: false
 logo_has_title: true
+how_to_play: "Collect ingredient cards from a shared table, match them to customer orders, and race to complete 3 orders for victory. Your dinosaur barista determines which customers you can serve."
+mechanics: [hand-management, set-collection, card-play, resource-management, race]
+complexity: moderate
+related: [standard-52, flower-48, nukes]
 theme:
   surface: light
   tint: warm

@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-07-04",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice",
+    "combat",
+    "exploration",
+    "narrative",
+    "class-based"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Choose a race and class, roll d20 + modifiers against difficulty targets, and adventure through dungeons and quests. One player is DM, others are player characters with levels 1-20.",
+  "related": [
+    "pathfinder-1e",
+    "dungeon-world",
+    "brp",
+    "cairn"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

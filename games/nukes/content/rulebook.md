@@ -26,6 +26,18 @@ theme:
   accent: amber
   accent-secondary: teal
   section-divider: "☢"
+how_to_play: "Command armies across hex terrain, managing platoons that change type based on unit count. Return hostages to earn moves, but every return strengthens your opponent. Build bases to convert units into isotopes for nuclear strikes. Win by destroying or occupying an opponent's city."
+mechanics:
+  - territory
+  - hostage-economy
+  - fluid-units
+  - nuclear-strikes
+  - hex-grid
+complexity: complex
+related:
+  - harvesters
+  - hyper-imperium
+  - endless-skies
 engine:
   surface:
     colors:

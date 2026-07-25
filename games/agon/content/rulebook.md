@@ -10,6 +10,10 @@ type: "standalone"
 status: "live"
 updated: "2026-07-06"
 published: true
+how_to_play: "Maneuver your Queen to the center hexagon and surround it with all six Guards. Pieces move one step to adjacent hexes, capturing by custodianship when flanking opponents on opposite sides."
+mechanics: [abstract-strategy, movement, capture, hex, territory]
+complexity: moderate
+related: [fanorona, halma, tafl, surakarta]
 theme:
   surface: light
   tint: cool

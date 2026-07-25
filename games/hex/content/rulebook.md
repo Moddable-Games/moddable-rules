@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-04"
 published: true
 variants: true
+how_to_play: "Place stones on a rhombus-shaped hex board. First player to form a connected chain linking their two opposite edges wins. A draw is topologically impossible."
+mechanics: [abstract-strategy, hex, placement, connection]
+complexity: moderate
+related: [go, tafl, reversi, gomoku]
 theme:
   surface: light
   tint: neutral

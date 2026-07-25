@@ -61,6 +61,18 @@ engine:
   pieces:
     set: kahu-shogi-kanji-red-wood
   players: [sente, gote]
+how_to_play: "Capture the opponent's King. Unique feature: captured pieces change allegiance and may be dropped back onto the board on any later turn. Most pieces promote upon reaching the opponent's territory, gaining new movement abilities."
+mechanics:
+  - grid-movement
+  - capture
+  - drops
+  - promotion
+  - checkmate
+complexity: complex
+related:
+  - xiangqi
+  - moddable-chess
+  - go
 ---
 
 <div class="section variant-hub">

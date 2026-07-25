@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-06-15"
 published: true
 variants: true
+how_to_play: "Roll dice and race your 15 pieces around the board, bearing them off before your opponent. Combine racing, blocking, hitting, and probability management with the doubling cube for betting."
+mechanics: [dice, race, capture, track, push-your-luck, betting]
+complexity: moderate
+related: [pachisi, chaupar, nyout, royal-ur]
 theme:
   tint: warm
   texture: grain

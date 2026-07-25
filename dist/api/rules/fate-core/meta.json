@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-07-22",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice",
+    "narrative",
+    "aspects",
+    "combat",
+    "exploration"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Roll 4 Fate dice plus skill against the ladder. Characters defined by aspects (story phrases). Invoke aspects for bonuses, accept compels for fate points. Four actions: overcome, create advantage, attack, defend.",
+  "related": [
+    "dungeon-world",
+    "ironsworn",
+    "brp",
+    "dnd-5e"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

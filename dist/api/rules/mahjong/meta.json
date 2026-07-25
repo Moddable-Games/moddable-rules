@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-07-21",
   "version": "0.1.1",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "tile-placement",
+    "set-collection",
+    "hand-management",
+    "pattern",
+    "betting"
+  ],
+  "complexity": "complex",
+  "how_to_play": "The 136-tile Mahjong set supports 5 regional variants: Hong Kong, Riichi, Taiwanese, Zung Jung, and American Classic. All involve drawing and discarding tiles to complete winning hands of melds and a pair.",
+  "related": [
+    "standard-52",
+    "flower-48",
+    "double-six-dominoes",
+    "bavarian-32"
+  ],
   "hub_type": "component",
   "variants": [],
   "games": [

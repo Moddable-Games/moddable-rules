@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-07-04",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "abstract-strategy",
+    "hex",
+    "placement",
+    "connection"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Place stones on a rhombus-shaped hex board. First player to form a connected chain linking their two opposite edges wins. A draw is topologically impossible.",
+  "related": [
+    "go",
+    "tafl",
+    "reversi",
+    "gomoku"
+  ],
   "hub_type": null,
   "variants": [
     {

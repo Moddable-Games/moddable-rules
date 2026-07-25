@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-07-21",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice-rolling",
+    "procedural-generation",
+    "sandbox",
+    "gm-tools",
+    "story-tables"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Roll dice and consult procedural tables to generate characters, spells, monsters, NPCs, treasure, cities, wilderness, and dungeons on the fly. One Game Master guides players through sandbox adventures using a single compact page of rules.",
+  "related": [
+    "dnd-5e",
+    "cairn",
+    "knave"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

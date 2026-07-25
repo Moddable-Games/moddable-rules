@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-07-21",
   "version": "0.1.1",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice-rolling",
+    "press-your-luck",
+    "betting",
+    "bluffing",
+    "scoring"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Standard six-sided dice support five games spanning press-your-luck, betting, bluffing, and category-scoring families. Roll, set aside combinations, and decide whether to bank or risk it all.",
+  "related": [
+    "standard-52",
+    "double-six-dominoes",
+    "backgammon"
+  ],
   "hub_type": "component",
   "variants": [],
   "games": [

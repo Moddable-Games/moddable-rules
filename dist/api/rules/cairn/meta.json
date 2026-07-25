@@ -9,10 +9,21 @@
   "status": "live",
   "updated": "2026-07-22",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "oracle"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Roll 3d6 for attributes, equip yourself from a random background, then explore a dark Wood filled with monsters and treasure. Fiction-first resolution with saves only for risky moments.",
+  "related": [
+    "knave",
+    "maze-rats",
+    "ironsworn",
+    "dnd-5e"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

@@ -9,10 +9,19 @@
   "status": "playtest",
   "updated": "2026-06-19",
   "version": "0.3.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "modular-board",
+    "dice-rolling",
+    "adventure-cards",
+    "character-progression"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Replaces the fixed Talisman board with 61 hexagonal tiles arranged in four concentric rings around a hidden ending tile. Every game has a completely different setup while keeping all characters, cards, and core rules intact.",
+  "related": [
+    "nukes",
+    "harvesters",
+    "hyper-imperium"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

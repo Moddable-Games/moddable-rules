@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-06"
 published: true
 variants: true
+how_to_play: "Asymmetric Victorian-era game where a small defending force (the Officers) holds off a larger attacking force (the Soldiers) on a fortress-and-plain board."
+mechanics: [abstract-strategy, asymmetric, movement, capture, grid]
+complexity: moderate
+related: [tafl, fanorona, morris, agon]
 theme:
   tint: warm
   texture: none

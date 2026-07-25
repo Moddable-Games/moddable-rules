@@ -39,6 +39,18 @@ engine:
   pieces:
     set: playstrategy-go-classic
   players: [white, black]
+how_to_play: "Throw four sticks to generate movement values. Race tokens around a circular track with shortcut branches. Capture opponent tokens to send them back to start. Stack tokens for combined movement but risk losing multiple at once. First team to move all tokens home wins."
+mechanics:
+  - dice-throwing
+  - race
+  - capture
+  - stacking
+  - shortcuts
+complexity: simple
+related:
+  - pachisi
+  - royal-ur
+  - backgammon
 ---
 
 ## Nyout (Yut Nori / 유놓이)

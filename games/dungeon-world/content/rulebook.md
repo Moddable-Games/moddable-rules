@@ -11,6 +11,10 @@ status: "live"
 updated: "2026-07-22"
 published: true
 variants: false
+how_to_play: "Narrate fiction first; when a character's action triggers a move, roll 2d6+stat. 10+ is full success, 7-9 is partial success, 6- is GM move. The GM never rolls dice."
+mechanics: [dice, narrative, combat, exploration, class-based]
+complexity: moderate
+related: [dnd-5e, fate-core, ironsworn, cairn]
 theme:
   surface: light
   tint: warm

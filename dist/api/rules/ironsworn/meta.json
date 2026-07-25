@@ -9,10 +9,23 @@
   "status": "live",
   "updated": "2026-07-04",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "dice",
+    "narrative",
+    "exploration",
+    "combat",
+    "oracle",
+    "solo",
+    "cooperative"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Roll action dice against challenge dice to resolve moves. Characters are bound to sworn vows, face peril, and mark progress. Plays solo, cooperatively, or with a guide. Oracle tables generate narrative.",
+  "related": [
+    "starforged",
+    "cairn",
+    "dungeon-world",
+    "fate-core"
+  ],
   "hub_type": null,
   "variants": [],
   "games": [],

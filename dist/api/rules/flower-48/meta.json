@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-07-21",
   "version": "0.1.1",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "set-collection",
+    "pattern",
+    "hand-management",
+    "betting",
+    "card-play"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "The Hanafuda deck (48 cards, 12 monthly suits) supports 4 games: Koi-Koi, Hana-Awase, Go-Stop, and Oicho-Kabu. All involve matching and collecting cards by suit or type.",
+  "related": [
+    "standard-52",
+    "mahjong",
+    "double-six-dominoes"
+  ],
   "hub_type": "component",
   "variants": [],
   "games": [

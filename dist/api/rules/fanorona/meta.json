@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-06-23",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "abstract-strategy",
+    "grid",
+    "capture",
+    "movement"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Move pieces along lines on a 9×5 grid. Capture by moving toward an enemy line (approach) or away from one (withdrawal), taking all pieces in the unbroken line.",
+  "related": [
+    "agon",
+    "morris",
+    "draughts",
+    "go"
+  ],
   "hub_type": null,
   "variants": [
     {

@@ -9,10 +9,18 @@
   "status": "live",
   "updated": "2026-06-23",
   "version": "0.1.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "grid-movement",
+    "loop-capture",
+    "unique-mechanics"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "Move pieces one step in any direction. Capture by routing your path through one or more of the eight corner loop arcs that extend outside the grid boundary. First player to capture all twelve opponent pieces wins.",
+  "related": [
+    "go",
+    "agon",
+    "morris"
+  ],
   "hub_type": null,
   "variants": [
     {

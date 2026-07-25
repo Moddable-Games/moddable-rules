@@ -21,6 +21,18 @@ theme:
   typography: modern
   accent: gold
   section-divider: "⚜"
+how_to_play: "Create characters from 11 classes and 7 races. Roll d20 + modifiers for skill checks, attacks, and saves. Build characters through feats, spells, and equipment. The most complete open ruleset in existence, evolved from D&D 3.5."
+mechanics:
+  - character-building
+  - dice-rolling
+  - class-system
+  - skill-checks
+  - combat
+complexity: complex
+related:
+  - dnd-5e
+  - dungeon-world
+  - cairn
 engine:
   topology:
     type: none

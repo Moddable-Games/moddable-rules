@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-07-08",
   "version": "1.2.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "grid-movement",
+    "capture",
+    "drops",
+    "promotion",
+    "checkmate"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Capture the opponent's King. Unique feature: captured pieces change allegiance and may be dropped back onto the board on any later turn. Most pieces promote upon reaching the opponent's territory, gaining new movement abilities.",
+  "related": [
+    "xiangqi",
+    "moddable-chess",
+    "go"
+  ],
   "hub_type": null,
   "variants": [
     {

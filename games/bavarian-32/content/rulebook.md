@@ -12,6 +12,10 @@ status: "live"
 updated: "2026-07-21"
 published: true
 hub_type: component
+how_to_play: "The 32-card German deck (Skat deck) supports 2 games: Schafkopf and Skat. Both are trick-taking games with permanent trumps and card-point scoring."
+mechanics: [trick-taking, hand-management, betting, card-play]
+complexity: complex
+related: [standard-52, flower-48, mahjong]
 theme:
   surface: light
   tint: neutral

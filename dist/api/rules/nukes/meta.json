@@ -9,10 +9,20 @@
   "status": "live",
   "updated": "2026-06-27",
   "version": "0.9.8",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "territory",
+    "hostage-economy",
+    "fluid-units",
+    "nuclear-strikes",
+    "hex-grid"
+  ],
+  "complexity": "complex",
+  "how_to_play": "Command armies across hex terrain, managing platoons that change type based on unit count. Return hostages to earn moves, but every return strengthens your opponent. Build bases to convert units into isotopes for nuclear strikes. Win by destroying or occupying an opponent's city.",
+  "related": [
+    "harvesters",
+    "hyper-imperium",
+    "endless-skies"
+  ],
   "hub_type": null,
   "variants": [
     {

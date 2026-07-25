@@ -9,10 +9,19 @@
   "status": "live",
   "updated": "2026-06-15",
   "version": "0.1.1",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "placement",
+    "line-formation",
+    "capture",
+    "blocking"
+  ],
+  "complexity": "simple",
+  "how_to_play": "Form three-in-a-row lines (mills) to capture opponent pieces. Place all pieces during the opening phase, then move them to form mills. Reduce your opponent to two pieces or block all their moves to win.",
+  "related": [
+    "go",
+    "reversi",
+    "agon"
+  ],
   "hub_type": null,
   "variants": [
     {

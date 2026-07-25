@@ -9,10 +9,20 @@
   "status": "alpha",
   "updated": "2026-07-08",
   "version": "0.6.0",
-  "mechanics": [],
-  "complexity": null,
-  "how_to_play": null,
-  "related": [],
+  "mechanics": [
+    "grid-movement",
+    "capture",
+    "checkmate",
+    "piece-variety",
+    "asymmetric"
+  ],
+  "complexity": "moderate",
+  "how_to_play": "A unified platform for 155 chess variants spanning classic FIDE rules, asymmetric battles, hidden information, expanded boards, alternative win conditions, regional forms, and topology variants. Every variant shares the chess lineage but modifies setup, pieces, board, or victory condition.",
+  "related": [
+    "dungeon-chess",
+    "xiangqi",
+    "shogi"
+  ],
   "hub_type": null,
   "variants": [
     {
