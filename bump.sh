@@ -24,6 +24,8 @@ sed -i '' "s/\?v=[0-9]*\.[0-9]*\.[0-9]*/\?v=${NEW}/g" index.html
 
 # Update footer version display
 sed -i '' "s/v[0-9]*\.[0-9]*\.[0-9]*<\/span>/v${NEW}<\/span>/g" index.html
+sed -i '' "s/v[0-9]*\.[0-9]*\.[0-9]*<\/span>/v${NEW}<\/span>/g" api/index.html
+sed -i '' "s/v[0-9]*\.[0-9]*\.[0-9]*<\/span>/v${NEW}<\/span>/g" diagrams/index.html
 
 # Game shell templates use {{version}} placeholders resolved at build time
 # from each game's frontmatter — no literal version strings to update here.
