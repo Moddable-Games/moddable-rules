@@ -132,17 +132,17 @@
     },
     {
       "path": "/api/rules/chess/meta.json",
-      "description": "Moddable Chess metadata",
+      "description": "Chess metadata",
       "type": "json"
     },
     {
       "path": "/api/rules/chess/rulebook.md",
-      "description": "Moddable Chess hub rulebook",
+      "description": "Chess hub rulebook",
       "type": "markdown"
     },
     {
       "path": "/api/rules/chess/variants/",
-      "description": "Moddable Chess variant markdown files (153)",
+      "description": "Chess variant markdown files (153)",
       "type": "directory"
     },
     {
@@ -785,8 +785,8 @@
       "classic": 19,
       "rpg": 10,
       "component": 6,
-      "mod": 4,
       "platform": 1,
+      "mod": 4,
       "game": 1
     },
     "byStatus": {

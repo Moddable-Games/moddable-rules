@@ -1,5 +1,6 @@
 ---
-title: "Moddable Chess — Official Rulebook"
+title: "Chess — Official Rulebook"
+short_title: "Chess"
 version: "0.6.0"
 slug: "chess"
 players: "2-6"
