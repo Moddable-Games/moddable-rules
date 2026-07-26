@@ -10,7 +10,7 @@ Yu Ren Dong reports the game was invented during the Southern Song Dynasty (1127
 
 The board is a large hexagonal space divided into three equal sections, one per kingdom. Each section contains a Xiangqi-like grid with a 3×3 palace at its centre. The three sections meet at a central zone. The lines of the board are not straight throughout — each kingdom's territory faces the other two. A river separates each player's home territory from the central meeting area. Pieces sit on line intersections (points), as in standard Xiangqi, not in cell centres.
 
-This board shares its fundamental shape (a hexagon divided into three Y-symmetric sectors) with Yalta Chess (moddable-chess hub), confirmed against Yalta's primary source diagram 2026-07. The two variants are strong candidates for a single shared `hexagonal-trisection` engine renderer rather than two separate implementations, though San-kwo-k'i's board is point/intersection-based (Xiangqi convention) while Yalta's is cell-based (FIDE chess convention) — the renderer would need to support both point and cell modes on the same underlying hex-trisection geometry.
+This board shares its fundamental shape (a hexagon divided into three Y-symmetric sectors) with Yalta Chess (chess hub), confirmed against Yalta's primary source diagram 2026-07. The two variants are strong candidates for a single shared `hexagonal-trisection` engine renderer rather than two separate implementations, though San-kwo-k'i's board is point/intersection-based (Xiangqi convention) while Yalta's is cell-based (FIDE chess convention) — the renderer would need to support both point and cell modes on the same underlying hex-trisection geometry.
 
 ## Players and Armies
 

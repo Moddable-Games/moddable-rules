@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25",
+  "generated": "2026-07-26",
   "stats": {
     "totalGames": 46,
     "totalVariants": 295,
@@ -586,7 +586,7 @@
       "related": [
         "xiangqi",
         "shogi",
-        "moddable-chess",
+        "chess",
         "fanorona"
       ],
       "hub_type": null,
@@ -696,7 +696,7 @@
       "complexity": "moderate",
       "how_to_play": "Move pieces diagonally and capture opponents by jumping over them. Men promote to kings with extended movement. Mandatory captures force tactical sacrifices.",
       "related": [
-        "moddable-chess",
+        "chess",
         "go",
         "xiangqi",
         "shogi"
@@ -899,7 +899,7 @@
       "complexity": "complex",
       "how_to_play": "Draft asymmetric armies from 4 factions (Human, Undead, Redskin, Greenskin) using an XP budget. Battle on modular dungeon maps with terrain hazards. King capture wins.",
       "related": [
-        "moddable-chess",
+        "chess",
         "xiangqi",
         "shogi",
         "dou-shou-qi"
@@ -1746,7 +1746,7 @@
       "how_to_play": "Place stones on grid intersections to surround territory and capture opponent groups by filling their liberties. From one fundamental rule emerges extraordinary strategic depth.",
       "related": [
         "draughts",
-        "moddable-chess",
+        "chess",
         "xiangqi",
         "hex"
       ],
@@ -2270,7 +2270,7 @@
       "complexity": "moderate",
       "how_to_play": "Hidden-information strategy where pieces have hidden ranks. Higher rank defeats lower when pieces meet. Win conditions vary by variant: capture the Flag, land on the Aerodrome, or get Flags to your Base.",
       "related": [
-        "moddable-chess",
+        "chess",
         "xiangqi",
         "shogi",
         "dou-shou-qi"
@@ -2563,7 +2563,7 @@
       }
     },
     {
-      "slug": "moddable-chess",
+      "slug": "chess",
       "title": "Moddable Chess",
       "players": "2-6",
       "duration": "10-120 min",
@@ -3822,9 +3822,9 @@
         "Variant Library"
       ],
       "urls": {
-        "rulebook": "/api/rules/moddable-chess/rulebook.md",
-        "meta": "/api/rules/moddable-chess/meta.json",
-        "variants": "/api/rules/moddable-chess/variants/"
+        "rulebook": "/api/rules/chess/rulebook.md",
+        "meta": "/api/rules/chess/meta.json",
+        "variants": "/api/rules/chess/variants/"
       }
     },
     {
@@ -4557,7 +4557,7 @@
       "how_to_play": "Capture the opponent's King. Unique feature: captured pieces change allegiance and may be dropped back onto the board on any later turn. Most pieces promote upon reaching the opponent's territory, gaining new movement abilities.",
       "related": [
         "xiangqi",
-        "moddable-chess",
+        "chess",
         "go"
       ],
       "hub_type": null,
@@ -5435,7 +5435,7 @@
       "how_to_play": "Ancient Chinese chess on a 9×10 grid with a river divide. Generals confined to palace squares. Cannons capture by jumping over exactly one piece. Flying General rule prevents opposing Generals from facing each other. Checkmate the opposing General to win.",
       "related": [
         "shogi",
-        "moddable-chess",
+        "chess",
         "go"
       ],
       "hub_type": null,

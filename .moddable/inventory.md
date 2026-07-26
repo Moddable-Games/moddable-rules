@@ -22,9 +22,9 @@ This file is the single source of truth for what exists, what's queued, and what
 
 ## Chess family
 
-**Family status:** Live at `games/moddable-chess/`
+**Family status:** Live at `games/chess/`
 
-> Chess variants are managed directly in moddable-chess repo. Cross-reference moddable-chess open issues for variant gaps.
+> Chess variants are managed directly in chess repo. Cross-reference chess open issues for variant gaps.
 
 ---
 

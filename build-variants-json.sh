@@ -1,11 +1,11 @@
 #!/bin/bash
-# Generates dist/moddable-chess/variants.json from variant frontmatter.
+# Generates dist/chess/variants.json from variant frontmatter.
 # Run from repo root: ./build-variants-json.sh
 
 set -euo pipefail
 
-VARIANTS_DIR="games/moddable-chess/content/variants"
-OUT="dist/moddable-chess/variants.json"
+VARIANTS_DIR="games/chess/content/variants"
+OUT="dist/chess/variants.json"
 
 echo "[" > "$OUT"
 first=true

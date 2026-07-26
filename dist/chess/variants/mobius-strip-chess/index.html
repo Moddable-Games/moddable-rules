@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Möbius Strip Chess — Moddable Chess</title>
+<meta name="description" content="Complete rules for Möbius Strip Chess.">
+<meta property="og:title" content="Möbius Strip Chess — Moddable Chess">
+<meta property="og:description" content="Complete rules for Möbius Strip Chess.">
+<meta property="og:image" content="https://rules.moddable.games/games/chess/og-variants/mobius-strip-chess.png?v=0.6.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/chess/variants/mobius-strip-chess/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Möbius Strip Chess — Moddable Chess">
+<meta name="twitter:description" content="Complete rules for Möbius Strip Chess.">
+<meta name="twitter:image" content="https://rules.moddable.games/games/chess/og-variants/mobius-strip-chess.png?v=0.6.0">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
+<link rel="stylesheet" href="../../theme.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<script defer src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/chess/content/variants/mobius-strip-chess.md" class="hdr-link">Markdown</a><a href="../../../../games/chess/pdf/variants/mobius-strip-chess.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Möbius Strip Chess · Moddable Chess</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Moddable Chess · Variant 97 of 153</span>
+    <h1 class="variant-cover-title">Möbius Strip Chess</h1>
+    <div class="variant-cover-stats"><span class="variant-stat"><span class="variant-stat-val">8×14 Möbius strip</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span></div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2 id="mbius-strip-chess">Möbius Strip Chess</h2>
+<p>Möbius Strip Chess is chess played on a <strong>Möbius strip</strong> — a surface with a single side and a single boundary edge, created by joining one pair of opposite edges of a rectangle with a half-twist. It is built from the <strong>Cylindrical 8×14 variant</strong>: take that taller, already-wrapping board and twist it before joining the seam. Invented by Alberto Monteiro, documented at chessvariants.com/shape.dir/x_moeb.html.</p>
+<h3 id="the-board-and-starting-position">The Board and Starting Position</h3>
+<pre><code>        Black
+    a   b   c   d   e   f   g   h
+14| P | P | P | P | P | P | P | P |  0    &lt;- White's &quot;far&quot; pawns, move backward (14-&gt;13-&gt;12...)
+13|   |   |   |   |   |   |   |   | -1
+12|   |   |   |   |   |   |   |   | -2
+==================================         &lt;- twisted seam: a12 joins h11, b12 joins g11, etc.
+11|   |   |   |   |   |   |   |   | -3
+10|   |   |   |   |   |   |   |   | -4
+ 9| p | p | p | p | p | p | p | p | -5    &lt;- Black's &quot;far&quot; pawns, move forward (9-&gt;10-&gt;11...)
+ 8| r | n | b | q | k | b | n | r |  8    &lt;- Black back rank
+ 7| p | p | p | p | p | p | p | p |  7    &lt;- Black's &quot;near&quot; pawns, move backward (7-&gt;6-&gt;5...)
+ 6|   |   |   |   |   |   |   |   |  6
+ 5|   |   |   |   |   |   |   |   |  5
+ 4|   |   |   |   |   |   |   |   |  4
+ 3|   |   |   |   |   |   |   |   |  3
+ 2| P | P | P | P | P | P | P | P |  2    &lt;- White's &quot;near&quot; pawns, move forward (2-&gt;3-&gt;4...)
+ 1| R | N | B | Q | K | B | N | R |  1    &lt;- White back rank
+    a   b   c   d   e   f   g   h
+        White
+</code></pre>
+<p>The <code>engine.setup</code> FEN in the frontmatter encodes exactly this diagram, rank 14 down to rank 1: rank 14 pawns, ranks 13–10 empty, rank 9 pawns, rank 8 pieces, rank 7 pawns, ranks 6–3 empty, rank 2 pawns, rank 1 pieces.</p>
+<p><strong>Files a and h wrap normally</strong> (as in ordinary Cylindrical Chess): a piece sliding off the h-file reappears on the a-file at the same rank.</p>
+<p><strong>Ranks 11 and 12 join with a half-twist</strong> (marked <code>===</code> above): file a on rank 12 connects to file h on rank 11, file b to g, file c to f, and file d to e — mirrored, not aligned. Rank 15 is identified with rank 1, so the strip is a closed loop with exactly one twisted crossing.</p>
+<p>Each side has <strong>16 pawns</strong> across two ranks rather than the usual 8: White has pawns on rank 2 (advancing forward, 2→3→4…) and rank 14 (advancing backward, 14→13→12…, toward the twisted seam). Black mirrors this with pawns on rank 7 (backward) and rank 9 (forward, toward the seam from the other side). Both colours’ “far” pawn ranks are converging on the twisted seam from opposite directions.</p>
+<h3 id="consequences-of-the-topology">Consequences of the Topology</h3>
+<p><strong>Kings face Queens.</strong> Along the long way around the board (ranks 8 through 15/1), each King faces the opponent’s Queen rather than the opponent’s King — a direct consequence of the board’s extra length and the twist.</p>
+<p><strong>Bishops are not colour-bound.</strong> The Möbius strip is non-orientable, so a Bishop is not confined to one colour of square for its whole game the way it is in standard chess. A Bishop starting on a nominally light square (e.g. f1) can reach nominally dark squares by travelling far enough to cross the twisted seam (for example, the diagonal f1–a6–b12 crosses the seam and changes apparent colour).</p>
+<h3 id="sample-opening">Sample Opening</h3>
+<p>The source page gives a short sample: 1. d12 e11 (White plays a King’s-side pawn on the far rank; Black’s response, on the far rank, is directly in front of White’s move once the seam wrapping is accounted for) 2. c12 (White threatens the pawn) exc12 3. e12 g11 (Black defends). This is offered by the source as an illustration of how the far-rank pawns interact near the twisted seam, not as established opening theory.</p>
+<h3 id="rules">Rules</h3>
+<p>All standard FIDE rules apply (castling, en passant, promotion) except where the topology changes movement, as described above.</p>
+<p>Win: Checkmate the opponent’s King.</p>
+<h3 id="relationship-to-other-variants-in-this-family">Relationship to Other Variants in This Family</h3>
+<p>Möbius Strip Chess, Klein Bottle Chess, and Gadsden’s Toroidal Chess (Torus Chess) share the same underlying 8×14 Cylindrical board:</p>
+<ul class="rules">
+<li><strong>No twist at the rank-11/12 seam</strong> → Torus Chess (Gadsden’s Toroidal Chess)</li>
+<li><strong>Twist at the seam, a/h files separate</strong> → Möbius Strip Chess (this variant)</li>
+<li><strong>Twist at the seam, AND a/h files joined</strong> → Klein Bottle Chess</li>
+</ul>
+<h3 id="attribution">Attribution</h3>
+<p>Möbius Strip Chess invented by Alberto Monteiro. Source: chessvariants.com/shape.dir/x_moeb.html.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../minichess/" class="variant-pager-prev">← Minichess</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../monster-chess/" class="variant-pager-next">Monster Chess →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Moddable Chess · Published by Moddable Games · v1.3.1</span>
+</footer>
+
+</div>
+
+<script defer src="../../../../js/toc.js?v=1.3.1"></script>
+<script defer src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

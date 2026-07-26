@@ -14,7 +14,7 @@ published: true
 how_to_play: "Move your 8 ranked animal pieces (Rat to Elephant) toward the opponent's Den. Higher rank captures lower, but the Rat defeats the Elephant. Traps weaken defenders, rivers block most pieces."
 mechanics: [abstract-strategy, grid, movement, capture, ranking]
 complexity: simple
-related: [xiangqi, shogi, moddable-chess, fanorona]
+related: [xiangqi, shogi, chess, fanorona]
 theme:
   surface: light
   tint: warm

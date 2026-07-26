@@ -84,7 +84,7 @@ mechanics:
 complexity: complex
 related:
   - shogi
-  - moddable-chess
+  - chess
   - go
 ---
 

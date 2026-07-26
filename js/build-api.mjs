@@ -362,7 +362,9 @@ for (const slug of allSlugs) {
       color: cat.color || null,
       displayField: cat.displayField || 'name',
       searchFields: cat.searchFields || ['name'],
+      tag: cat.tag || null,
       cardFields: cat.cardFields || null,
+      linkPath: cat.linkPath || null,
       count: items.length,
       items,
     };

@@ -14,7 +14,7 @@ variants: true
 how_to_play: "Hidden-information strategy where pieces have hidden ranks. Higher rank defeats lower when pieces meet. Win conditions vary by variant: capture the Flag, land on the Aerodrome, or get Flags to your Base."
 mechanics: [hidden-information, grid, movement, combat, ranking, deduction]
 complexity: moderate
-related: [moddable-chess, xiangqi, shogi, dou-shou-qi]
+related: [chess, xiangqi, shogi, dou-shou-qi]
 theme:
   tint: cool
   texture: none

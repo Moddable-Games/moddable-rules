@@ -10,6 +10,9 @@
           "name",
           "description"
         ],
+        "tag": {
+          "field": "base_chance"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -17,6 +20,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 56,
         "items": [
           {
@@ -308,11 +312,13 @@
         "searchFields": [
           "name"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [],
           "description": "skills"
         },
+        "linkPath": null,
         "count": 12,
         "items": [
           {
@@ -373,6 +379,9 @@
           "name",
           "type"
         ],
+        "tag": {
+          "field": "damage"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -381,6 +390,7 @@
           ],
           "description": null
         },
+        "linkPath": null,
         "count": 19,
         "items": [
           {
@@ -544,6 +554,10 @@
         "searchFields": [
           "name"
         ],
+        "tag": {
+          "field": "ap",
+          "prefix": "AP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -551,6 +565,7 @@
           ],
           "description": null
         },
+        "linkPath": null,
         "count": 12,
         "items": [
           {
@@ -622,6 +637,10 @@
         "searchFields": [
           "name"
         ],
+        "tag": {
+          "field": "ap",
+          "prefix": "AP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -629,6 +648,7 @@
           ],
           "description": null
         },
+        "linkPath": null,
         "count": 6,
         "items": [
           {
@@ -688,6 +708,7 @@
           "name",
           "quote"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [
@@ -695,6 +716,7 @@
           ],
           "description": null
         },
+        "linkPath": null,
         "count": 20,
         "items": [
           {
@@ -2464,6 +2486,10 @@
           "name",
           "traits"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -2473,6 +2499,7 @@
           "stats": "STR {str} DEX {dex} WIL {wil}",
           "description": "traits"
         },
+        "linkPath": null,
         "count": 84,
         "items": [
           {
@@ -4050,6 +4077,10 @@
           "name",
           "effect"
         ],
+        "tag": {
+          "field": "roll",
+          "prefix": "#"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -4057,6 +4088,7 @@
           ],
           "description": "effect"
         },
+        "linkPath": null,
         "count": 100,
         "items": [
           {
@@ -4668,6 +4700,9 @@
         "searchFields": [
           "name"
         ],
+        "tag": {
+          "field": "uses"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -4675,6 +4710,7 @@
           ],
           "description": "effects[0]"
         },
+        "linkPath": null,
         "count": 46,
         "items": [
           {
@@ -5175,6 +5211,10 @@
           "name",
           "school.name"
         ],
+        "tag": {
+          "field": "level",
+          "prefix": "Lvl "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -5184,6 +5224,7 @@
           "tags": "components",
           "description": "desc[0]"
         },
+        "linkPath": "spells/{level|levelSlug}/",
         "count": 319,
         "items": [
           {
@@ -22120,6 +22161,10 @@
           "name",
           "type"
         ],
+        "tag": {
+          "field": "challenge_rating",
+          "prefix": "CR "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -22129,6 +22174,7 @@
           "stats": "STR {strength} DEX {dexterity} CON {constitution} INT {intelligence} WIS {wisdom} CHA {charisma}",
           "description": null
         },
+        "linkPath": "monsters/{name|alphaGroup}/",
         "count": 334,
         "items": [
           {
@@ -67791,6 +67837,7 @@
         "searchFields": [
           "name"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [
@@ -67798,6 +67845,7 @@
           ],
           "description": null
         },
+        "linkPath": "classes/{name|kebabCase}/",
         "count": 12,
         "items": [
           {
@@ -72507,6 +72555,9 @@
           "name",
           "equipment_category.name"
         ],
+        "tag": {
+          "field": "equipment_category.name"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -72515,6 +72566,7 @@
           ],
           "description": "desc[0]"
         },
+        "linkPath": null,
         "count": 237,
         "items": [
           {
@@ -78826,6 +78878,9 @@
         "searchFields": [
           "name"
         ],
+        "tag": {
+          "field": "rarity.name"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -78833,6 +78888,7 @@
           ],
           "description": "desc[0]"
         },
+        "linkPath": "magic-items/{name|alphaGroup}/",
         "count": 362,
         "items": [
           {
@@ -87436,6 +87492,7 @@
         "searchFields": [
           "name"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [
@@ -87443,6 +87500,7 @@
           ],
           "description": "size_description"
         },
+        "linkPath": "rules/races/",
         "count": 9,
         "items": [
           {
@@ -88299,11 +88357,13 @@
         "searchFields": [
           "name"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [],
           "description": "desc[0]"
         },
+        "linkPath": "rules/conditions/",
         "count": 15,
         "items": [
           {
@@ -88475,6 +88535,9 @@
           "name",
           "description"
         ],
+        "tag": {
+          "field": "damage"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -88482,6 +88545,7 @@
           ],
           "description": "description"
         },
+        "linkPath": "rules/{linkPath}/",
         "count": 8,
         "items": [
           {
@@ -90136,6 +90200,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -90144,6 +90212,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 19,
         "items": [
           {
@@ -90590,6 +90659,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -90598,6 +90671,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 13,
         "items": [
           {
@@ -90927,6 +91001,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -90935,6 +91013,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 15,
         "items": [
           {
@@ -91297,6 +91376,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -91305,6 +91388,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 18,
         "items": [
           {
@@ -91600,6 +91684,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -91608,6 +91696,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 19,
         "items": [
           {
@@ -92101,6 +92190,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -92109,6 +92202,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 14,
         "items": [
           {
@@ -92435,6 +92529,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -92443,6 +92541,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 20,
         "items": [
           {
@@ -92941,6 +93040,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -92949,6 +93052,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 18,
         "items": [
           {
@@ -93366,6 +93470,10 @@
           "description",
           "tags"
         ],
+        "tag": {
+          "field": "hp",
+          "prefix": "HP "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -93374,6 +93482,7 @@
           ],
           "description": "description"
         },
+        "linkPath": null,
         "count": 18,
         "items": [
           {
@@ -93830,6 +93939,10 @@
           "name",
           "description"
         ],
+        "tag": {
+          "field": "actions",
+          "format": "actions-bitmask"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -93837,6 +93950,7 @@
           ],
           "description": null
         },
+        "linkPath": null,
         "count": 18,
         "items": [
           {
@@ -94262,12 +94376,14 @@
         "searchFields": [
           "adjective"
         ],
+        "tag": null,
         "cardFields": {
           "title": "adjective",
           "meta": [
             "+{rating}"
           ]
         },
+        "linkPath": null,
         "count": 11,
         "items": [
           {
@@ -94329,6 +94445,10 @@
           "name",
           "effect"
         ],
+        "tag": {
+          "field": "roll",
+          "prefix": "#"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -94336,6 +94456,7 @@
           ],
           "description": "effect"
         },
+        "linkPath": null,
         "count": 100,
         "items": [
           {
@@ -94853,6 +94974,10 @@
           "name",
           "school"
         ],
+        "tag": {
+          "field": "min_level",
+          "prefix": "Lvl "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -94861,6 +94986,7 @@
           ],
           "description": "short_description"
         },
+        "linkPath": "rules/spells/",
         "count": 623,
         "items": [
           {
@@ -130963,6 +131089,10 @@
           "name",
           "creature_type"
         ],
+        "tag": {
+          "field": "cr",
+          "prefix": "CR "
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -130971,6 +131101,7 @@
           ],
           "description": null
         },
+        "linkPath": "rules/bestiary/",
         "count": 336,
         "items": [
           {
@@ -154344,6 +154475,7 @@
         "searchFields": [
           "name"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [
@@ -154351,6 +154483,7 @@
           ],
           "description": null
         },
+        "linkPath": "rules/classes/",
         "count": 11,
         "items": [
           {
@@ -154495,6 +154628,9 @@
           "name",
           "type"
         ],
+        "tag": {
+          "field": "type"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -154502,6 +154638,7 @@
           ],
           "description": "benefit"
         },
+        "linkPath": null,
         "count": 173,
         "items": [
           {
@@ -155898,6 +156035,9 @@
           "name",
           "category"
         ],
+        "tag": {
+          "field": "category"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -155906,6 +156046,7 @@
           ],
           "description": null
         },
+        "linkPath": null,
         "count": 241,
         "items": [
           {
@@ -159360,11 +159501,13 @@
         "searchFields": [
           "name"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [],
           "description": "description"
         },
+        "linkPath": "rules/races/",
         "count": 7,
         "items": [
           {
@@ -159831,11 +159974,13 @@
         "searchFields": [
           "name"
         ],
+        "tag": null,
         "cardFields": {
           "title": "name",
           "meta": [],
           "description": "description"
         },
+        "linkPath": "rules/glossary-conditions/",
         "count": 34,
         "items": [
           {
@@ -160052,6 +160197,9 @@
           "name",
           "attribute"
         ],
+        "tag": {
+          "field": "attribute"
+        },
         "cardFields": {
           "title": "name",
           "meta": [
@@ -160060,6 +160208,7 @@
           ],
           "description": "description"
         },
+        "linkPath": "rules/skills/",
         "count": 26,
         "items": [
           {

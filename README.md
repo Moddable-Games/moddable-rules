@@ -93,7 +93,7 @@ games/
   talisman-worlds/       Rulebook (dev) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
-  moddable-chess/        Variant library hub + 155 sub-pages (alpha) — platform
+  chess/                 Variant library hub + 155 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts

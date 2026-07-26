@@ -71,7 +71,7 @@ mechanics:
 complexity: complex
 related:
   - xiangqi
-  - moddable-chess
+  - chess
   - go
 ---
 

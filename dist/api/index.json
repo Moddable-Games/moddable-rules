@@ -131,6 +131,21 @@
       "type": "directory"
     },
     {
+      "path": "/api/rules/chess/meta.json",
+      "description": "Moddable Chess metadata",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/chess/rulebook.md",
+      "description": "Moddable Chess hub rulebook",
+      "type": "markdown"
+    },
+    {
+      "path": "/api/rules/chess/variants/",
+      "description": "Moddable Chess variant markdown files (153)",
+      "type": "directory"
+    },
+    {
       "path": "/api/rules/dnd-5e/data/",
       "description": "Dungeons & Dragons 5th Edition SRD data files (9)",
       "type": "directory"
@@ -491,21 +506,6 @@
       "type": "markdown"
     },
     {
-      "path": "/api/rules/moddable-chess/meta.json",
-      "description": "Moddable Chess metadata",
-      "type": "json"
-    },
-    {
-      "path": "/api/rules/moddable-chess/rulebook.md",
-      "description": "Moddable Chess hub rulebook",
-      "type": "markdown"
-    },
-    {
-      "path": "/api/rules/moddable-chess/variants/",
-      "description": "Moddable Chess variant markdown files (153)",
-      "type": "directory"
-    },
-    {
       "path": "/api/rules/morris/meta.json",
       "description": "Nine Men's Morris metadata",
       "type": "json"
@@ -771,7 +771,7 @@
       "type": "json"
     }
   ],
-  "generated": "2026-07-25",
+  "generated": "2026-07-26",
   "stats": {
     "totalGames": 46,
     "totalVariants": 295,

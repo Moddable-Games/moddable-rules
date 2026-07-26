@@ -14,7 +14,7 @@ variants: true
 how_to_play: "Place stones on grid intersections to surround territory and capture opponent groups by filling their liberties. From one fundamental rule emerges extraordinary strategic depth."
 mechanics: [abstract-strategy, grid, territory, capture, placement]
 complexity: complex
-related: [draughts, moddable-chess, xiangqi, hex]
+related: [draughts, chess, xiangqi, hex]
 theme:
   tint: neutral
   texture: none

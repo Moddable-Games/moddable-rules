@@ -14,7 +14,7 @@ variants: true
 how_to_play: "Move pieces diagonally and capture opponents by jumping over them. Men promote to kings with extended movement. Mandatory captures force tactical sacrifices."
 mechanics: [abstract-strategy, grid, capture, movement, promotion]
 complexity: moderate
-related: [moddable-chess, go, xiangqi, shogi]
+related: [chess, go, xiangqi, shogi]
 theme:
   surface: light
   tint: warm
