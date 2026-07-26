@@ -42,6 +42,9 @@ jobs:
           cp -r games _site/
           cp -r js _site/
           cp -r css _site/
+          # Serve API JSON at /api/ (not just /dist/api/)
+          cp -r api _site/
+          cp -r dist/api/* _site/api/
 
       - uses: actions/upload-pages-artifact@v3
         with:

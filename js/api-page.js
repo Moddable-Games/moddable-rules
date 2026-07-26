@@ -1,7 +1,7 @@
 (async function () {
   const [res, statsRes] = await Promise.all([
-    fetch('../dist/api/index.json'),
-    fetch('../dist/api/stats.json'),
+    fetch('./index.json'),
+    fetch('./stats.json'),
   ]);
   if (!res.ok) return;
   const data = await res.json();
@@ -23,7 +23,7 @@
         : ep.type === 'markdown' ? 'type-badge--markdown'
         : 'type-badge--directory';
       tr.innerHTML = `
-        <td class="endpoint-path"><a href="../dist${ep.path}" target="_blank" rel="noopener">${ep.path}</a></td>
+        <td class="endpoint-path"><a href="${ep.path}" target="_blank" rel="noopener">${ep.path}</a></td>
         <td><span class="type-badge ${badgeClass}">${ep.type}</span></td>
         <td class="endpoint-desc">${ep.description}</td>
       `;

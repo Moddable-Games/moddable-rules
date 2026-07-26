@@ -34,7 +34,7 @@ if (searchInput) {
   searchInput.addEventListener('input', filterCards);
 }
 
-fetch('dist/api/stats.json')
+fetch('api/stats.json')
   .then(r => r.ok ? r.json() : null)
   .then(stats => {
     if (!stats) return;
