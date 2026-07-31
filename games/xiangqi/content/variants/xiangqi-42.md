@@ -15,6 +15,25 @@ engine:
   setup: "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR"
   render:
     cellSize: 40
+    ops:
+      - op: cells
+        pattern: uniform
+        fill: "#f5deb3"
+        stroke: "#4a3520"
+        interactive: true
+      - op: grid-lines
+        color: "#4a3520"
+        width: 2
+        grouped: false
+      - op: lines
+        derive: palace-diagonals
+        regions:
+          - rows: [0, 2]
+            cols: [2, 4]
+          - rows: [3, 5]
+            cols: [2, 4]
+        color: "#4a3520"
+        width: 2
 ---
 
 ## Overview
