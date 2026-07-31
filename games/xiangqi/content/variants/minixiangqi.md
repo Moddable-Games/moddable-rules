@@ -25,6 +25,15 @@ engine:
         color: "#4a3520"
         width: 2
         grouped: false
+      - op: lines
+        derive: palace-diagonals
+        regions:
+          - rows: [0, 2]
+            cols: [2, 4]
+          - rows: [4, 6]
+            cols: [2, 4]
+        color: "#4a3520"
+        width: 2
     decorations: []
 ---
 

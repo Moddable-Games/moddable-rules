@@ -47,6 +47,15 @@ engine:
         split:
           topRow: 4
           bottomRow: 5
+      - op: lines
+        derive: palace-diagonals
+        regions:
+          - rows: [0, 2]
+            cols: [3, 5]
+          - rows: [7, 9]
+            cols: [3, 5]
+        color: "#4a3520"
+        width: 2
     decorations:
       - type: gap
         rows: [4, 5]
