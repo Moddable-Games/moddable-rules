@@ -103,7 +103,7 @@ A regular hexagon composed of 91 hexagonal cells arranged in concentric rings. C
 - No en passant (no double pawn step)
 - Pawns promote on the far edge (the opposite rim of the hexagon from their starting position)
 - Three bishops per side — one for each hex cell colour
-- Stalemate is a draw
+- Stalemate scores 3/4 point for the player delivering it, 1/4 for the stalemated player
 
 ### Key Differences from Square Chess
 
