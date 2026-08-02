@@ -73,4 +73,4 @@ The Nightrider is implemented in Fairy-Stockfish (`-piece nightrider`), GNU Ches
 
 ### Attribution
 
-Nightrider piece invented by T. R. Dawson, 1925. Public domain. Rules in the public domain. Implemented in Fairy-Stockfish, Green Chess, and Zillions of Games.
+Piece concept by W. S. Andrews (1907); named and introduced to fairy chess by T. R. Dawson (1925). Public domain. Implemented in Fairy-Stockfish, Green Chess, and Zillions of Games.

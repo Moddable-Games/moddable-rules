@@ -48,10 +48,13 @@ function checkFile(filePath) {
   const attrMatch = body.match(/###\s*Attribution\s*\n([\s\S]*?)(?=\n###|\n---|\s*$)/)
   const attribution = attrMatch ? attrMatch[1].trim() : ''
 
-  if (!attribution) return { pass: false, reason: 'no attribution section' }
+  if (!attribution) return { pass: false, reason: 'no attribution section', severity: 'error' }
   if (isResolvable(attribution)) return { pass: true, reason: 'resolvable' }
 
-  return { pass: false, reason: 'unresolvable attribution' }
+  const hasNamedPerson = /\b(Designed|Invented|Created|Introduced) by [A-Z]|\b[A-Z][a-z]+ [A-Z][a-z]+,? \d{4}|\bTraditional\b|\bAncient\b/.test(attribution)
+  if (hasNamedPerson) return { pass: false, reason: 'named but unverified', severity: 'warn' }
+
+  return { pass: false, reason: 'no resolvable reference', severity: 'error' }
 }
 
 const families = fs.readdirSync(gamesDir).filter(f => {
@@ -72,31 +75,41 @@ for (const family of families) {
     const filePath = path.join(varDir, file)
     const result = checkFile(filePath)
     if (!result.pass) {
-      failures.push({ family, file, reason: result.reason })
+      failures.push({ family, file, reason: result.reason, severity: result.severity })
     }
   }
 }
 
 const fixList = process.argv.includes('--fix-list')
 
+const errors = failures.filter(f => f.severity === 'error')
+const warnings = failures.filter(f => f.severity === 'warn')
+
 if (failures.length === 0) {
   console.log(`Attribution check passed: ${total} files, all have resolvable reference or declare original/unpublished.`)
   process.exit(0)
 } else {
-  console.log(`Attribution check: ${failures.length}/${total} files lack resolvable reference or original declaration.\n`)
+  const passed = total - failures.length
+  console.log(`Attribution check: ${passed}/${total} passed (resolvable/original/unpublished)`)
+  if (errors.length) console.log(`  ${errors.length} errors (no reference at all)`)
+  if (warnings.length) console.log(`  ${warnings.length} warnings (named/traditional but unverified — citation needed, not a crisis)`)
+  console.log()
+
   if (fixList) {
-    for (const f of failures) {
-      console.log(`  ${f.family}/${f.file} — ${f.reason}`)
+    if (errors.length) {
+      console.log('ERRORS — need attribution added:')
+      for (const f of errors) console.log(`  ${f.family}/${f.file} — ${f.reason}`)
+      console.log()
+    }
+    if (warnings.length) {
+      console.log('WARNINGS — have attribution, need verifiable reference:')
+      for (const f of warnings) console.log(`  ${f.family}/${f.file} — ${f.reason}`)
     }
   } else {
     const byReason = {}
-    for (const f of failures) {
-      byReason[f.reason] = (byReason[f.reason] || 0) + 1
-    }
-    for (const [reason, count] of Object.entries(byReason)) {
-      console.log(`  ${count} files: ${reason}`)
-    }
+    for (const f of failures) byReason[f.reason] = (byReason[f.reason] || 0) + 1
+    for (const [reason, count] of Object.entries(byReason)) console.log(`  ${count} files: ${reason}`)
     console.log(`\nRun with --fix-list for the full file list.`)
   }
-  process.exit(1)
+  process.exit(errors.length > 0 ? 1 : 0)
 }

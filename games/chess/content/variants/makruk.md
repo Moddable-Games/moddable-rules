@@ -12,7 +12,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rngfkgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGFKGNR"
+  setup: "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR"
 ---
 
 ## Makruk (Thai Chess)
@@ -28,7 +28,7 @@ The traditional chess of Thailand, played since the 16th century. Features a wea
 
 **Setup:** Pawns start on the 3rd rank (not 2nd). Back rank: Rook, Knight, Silver General (Met), King, Queen (Met equivalent), Silver General, Knight, Rook.
 
-**FEN:** `rngfkgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGFKGNR w - - 0 1`
+**FEN:** `rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR w - - 0 1`
 
 ### Rules
 

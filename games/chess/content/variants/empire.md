@@ -5,7 +5,7 @@ board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate or Faceoff
-special: "Asymmetric: FIDE Kingdom vs. Empire dynasty. Empire pieces move like Queens but capture in limited piece-specific ways. Faceoff rule: open-file confrontation between royal pieces loses for the creator. Designed by Corey Clark, 2019."
+special: "Asymmetric: FIDE Kingdom vs. Empire dynasty. Empire pieces move like Queens but capture in limited piece-specific ways. Faceoff rule: open-file confrontation between royal pieces loses for the creator. Designed by Couch Tomato, 2020."
 engine:
   topology:
     type: grid
@@ -87,4 +87,4 @@ The Empire’s strength lies in the Queen-slide movement: every piece can reach 
 
 ### Attribution
 
-Designed by Corey Clark. Published 2019. Rules available via Shogun of Games and Lichess. Public domain rule set.
+Designed by Couch Tomato, 2020. Rules available via Pychess variants. Public domain rule set.

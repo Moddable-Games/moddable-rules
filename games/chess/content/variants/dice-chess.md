@@ -50,4 +50,4 @@ Develop all piece types early so you have legal moves regardless of the roll. Kn
 
 ### Attribution
 
-Ancient origins (11th–14th century Europe, earlier roots in India/Burma). Modern codification by Anne Sunnucks, *The Encyclopaedia of Chess*, 1970. Public domain.
+Ancient origins (11th–14th century Europe, earlier roots in India/Burma). Documented by Anne Sunnucks in *The Encyclopaedia of Chess*, 1970; no standard ruleset exists. Public domain.
