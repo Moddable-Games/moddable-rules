@@ -1,6 +1,7 @@
 ---
 title: Shatar
 slug: shatar
+published: false
 board: "8×8"
 players: "2"
 parent: chess
