@@ -1,6 +1,7 @@
 ---
 title: Teleportation Chess
 slug: teleport-chess
+original: true
 board: "8×8"
 players: "2"
 parent: chess
@@ -48,4 +49,4 @@ Teleports are powerful but finite; save them for decisive moments. Common uses: 
 
 ### Attribution
 
-Modern variant. Public domain.
+Moddable Games original. No external provenance is claimed. Designed as a resource-limited special-action variant.

@@ -54,4 +54,4 @@ Information is almost nonexistent. You must remember where enemy pieces were las
 
 ### Attribution
 
-Modern variant. Distinguished from Fog of War by its stricter visibility rules. Public domain.
+Visibility-restricted chess with no check announcement. Rules as implemented on Chess.com (chess.com/variants/fog-of-war) under the "Dark Chess" mode, and previously on ICC. Distinguished from the broader "Fog of War" family by its stricter visibility: only occupied squares are visible, no legal-move projection. King capture replaces checkmate. Public domain.

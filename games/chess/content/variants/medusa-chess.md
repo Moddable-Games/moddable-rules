@@ -1,6 +1,7 @@
 ---
 title: Medusa Chess
 slug: medusa-chess
+original: true
 board: "8×8"
 players: "2"
 parent: chess
@@ -50,4 +51,4 @@ Queen positioning becomes paramount — move her to lines that freeze the most e
 
 ### Attribution
 
-Modern variant. Public domain.
+Moddable Games original. No external provenance is claimed. Designed as a queen-centric status-effect variant to exercise the engine's timed-effect system.
