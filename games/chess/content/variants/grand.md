@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Grand Chess
 slug: grand
 board: "10×10"
@@ -15,6 +16,27 @@ engine:
   render:
     cellSize: 34
   setup: "r8r/1nbqkcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKCBN1/R8R"
+  promotionChoices: [queen, rook, bishop, knight, archbishop, chancellor]
+  castling: false
+  pawnStartRow:
+    0: 7
+    1: 2
+  pieces:
+    chancellor:
+      type: compose
+      parts: [rook, knight]
+    archbishop:
+      type: compose
+      parts: [bishop, knight]
+  vocabulary:
+    chancellor:
+      symbols:
+        0: C
+        1: c
+    archbishop:
+      symbols:
+        0: A
+        1: a
 ---
 
 ## Grand Chess

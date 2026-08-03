@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Maharaja & Sepoys
 slug: maharaja
 board: "8×8"
@@ -13,6 +14,16 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/8/4M3"
+  castling: false
+  pieces:
+    amazon:
+      type: compose
+      parts: [queen, knight]
+  vocabulary:
+    amazon:
+      symbols:
+        0: M
+        1: m
 ---
 
 ## Maharaja & Sepoys

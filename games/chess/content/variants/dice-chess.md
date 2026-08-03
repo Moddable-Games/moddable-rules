@@ -1,4 +1,6 @@
 ---
+playable: true
+key: diceChess
 title: Dice Chess
 slug: dice-chess
 board: "8×8"

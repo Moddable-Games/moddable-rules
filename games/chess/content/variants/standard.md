@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard Chess
 slug: standard
 board: "8×8"

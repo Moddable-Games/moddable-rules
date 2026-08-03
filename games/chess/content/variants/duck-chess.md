@@ -1,4 +1,6 @@
 ---
+playable: true
+key: duckChess
 title: Duck Chess
 slug: duck-chess
 board: "8×8"

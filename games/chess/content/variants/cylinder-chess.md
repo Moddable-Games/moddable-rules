@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Cylinder Chess
 slug: cylinder-chess
 board: "8×8"
@@ -11,6 +12,7 @@ engine:
     type: grid
     rows: 8
     cols: 8
+    wrap: files
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
 ---

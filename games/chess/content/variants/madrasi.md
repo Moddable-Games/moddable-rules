@@ -1,4 +1,6 @@
 ---
+playable: true
+key: madrasiChess
 title: Madrasi Chess
 slug: madrasi
 board: "8×8"

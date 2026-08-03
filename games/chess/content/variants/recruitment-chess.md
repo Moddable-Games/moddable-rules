@@ -1,4 +1,6 @@
 ---
+playable: true
+key: recruitmentChess
 title: Recruitment Chess
 slug: recruitment-chess
 board: "8×8"

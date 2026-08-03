@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Courier Chess
 slug: courier
 board: "12×8"
@@ -15,6 +16,41 @@ engine:
   render:
     cellSize: 32
   setup: "rnebmkfsbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBMKFSBENR"
+  castling: false
+  enPassant: false
+  doubleStep: false
+  promotionChoices: [ferz]
+  pieces:
+    ferz:
+      type: leaper
+      offsets: [[-1,-1]
+    alfil:
+      type: leaper
+      offsets: [[-2,-2]
+    mann:
+      type: rider
+      dirs: all
+      maxSteps: 1
+    schleich:
+      type: leaper
+      offsets: [[-1,0]
+  vocabulary:
+    ferz:
+      symbols:
+        0: F
+        1: f
+    alfil:
+      symbols:
+        0: E
+        1: e
+    mann:
+      symbols:
+        0: D
+        1: d
+    schleich:
+      symbols:
+        0: T
+        1: t
 ---
 
 ## Courier Chess

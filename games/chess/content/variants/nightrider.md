@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard Nightrider Chess
 slug: nightrider
 board: "8x8"
@@ -13,13 +14,10 @@ engine:
     rows: 8
     cols: 8
   pieces:
-    nightrider:
-      movement: rider
-      base_leap: [1,2]
-      directions: all
-      notation: N
+    knight:
+      type: rider
+      dirs: [[-2,-1],[-2,1],[-1,-2],[-1,2],[1,-2],[1,2],[2,-1],[2,1]]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-  notes: "N in FEN = Nightrider throughout. Standard knights replaced 1-for-1."
 published: true
 ---
 

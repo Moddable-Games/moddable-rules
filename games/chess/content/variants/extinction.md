@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Extinction Chess
 slug: extinction
 board: "8×8"

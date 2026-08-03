@@ -1,4 +1,6 @@
 ---
+playable: true
+key: singleCheck
 title: Single-Check
 slug: single-check
 board: "8×8"

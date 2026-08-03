@@ -1,4 +1,6 @@
 ---
+playable: true
+key: benedictChess
 title: Benedict Chess
 slug: benedict
 board: "8×8"

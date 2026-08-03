@@ -1,4 +1,6 @@
 ---
+playable: true
+key: einsteinChess
 title: Einstein Chess
 slug: einstein-chess
 board: "8×8"

@@ -1,4 +1,6 @@
 ---
+playable: true
+key: poisonChess
 title: Poison Chess
 slug: poison-chess
 original: true

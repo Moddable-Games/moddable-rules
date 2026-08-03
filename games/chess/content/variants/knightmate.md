@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Knightmate
 slug: knightmate
 board: "8×8"
@@ -13,6 +14,16 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rkbqnbkr/pppppppp/8/8/8/8/PPPPPPPP/RKBQNBKR"
+  royalType: knight
+  pieces:
+    king:
+      type: leaper
+      offsets: knight
+    knight:
+      type: rider
+      dirs: all
+      maxSteps: 1
+      royal: true
 ---
 
 ## Knightmate

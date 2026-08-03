@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Makpong
 slug: makpong
 board: "8×8"

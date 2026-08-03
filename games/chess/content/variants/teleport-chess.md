@@ -1,4 +1,6 @@
 ---
+playable: true
+key: teleportChess
 title: Teleportation Chess
 slug: teleport-chess
 board: "8×8"

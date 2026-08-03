@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Shatranj
 slug: shatranj
 board: "8×8"

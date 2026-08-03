@@ -1,4 +1,6 @@
 ---
+playable: true
+key: darkChess
 title: Dark Chess
 slug: dark-chess
 board: "8×8"

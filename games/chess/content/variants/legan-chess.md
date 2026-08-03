@@ -1,4 +1,6 @@
 ---
+playable: true
+key: leganChess
 title: Legan Chess
 slug: legan-chess
 board: "8×8"
@@ -13,6 +15,23 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR"
+  castling: false
+  enPassant: false
+  pawnConfig:
+    forwardDir:
+      0: [-1, 0]
+      1: [1, 0]
+    startCells:
+      0: {}
+      1: {}
+    promotionCells:
+      0: {}
+      1: {}
+    captureDirections:
+      0: [[-1,0]
+    moveDirections:
+      0: [[-1,-1]
+    doubleStep: true
 ---
 
 ## Legan Chess

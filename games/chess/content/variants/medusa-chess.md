@@ -1,4 +1,6 @@
 ---
+playable: true
+key: medusaChess
 title: Medusa Chess
 slug: medusa-chess
 original: true

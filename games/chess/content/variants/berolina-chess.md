@@ -1,4 +1,6 @@
 ---
+playable: true
+key: berolinaChess
 title: Berolina Chess
 slug: berolina-chess
 board: "8×8"
@@ -13,6 +15,21 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  pawnConfig:
+    forwardDir:
+      0: [-1, 0]
+      1: [1, 0]
+    startCells:
+      0: {}
+      1: {}
+    promotionCells:
+      0: {}
+      1: {}
+    captureDirections:
+      0: [[-1,0]
+    moveDirections:
+      0: [[-1,-1]
+    doubleStep: true
 ---
 
 ## Berolina Chess

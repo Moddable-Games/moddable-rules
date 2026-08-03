@@ -1,4 +1,6 @@
 ---
+playable: true
+key: threeCheck
 title: Three-Check
 slug: three-check
 board: "8×8"

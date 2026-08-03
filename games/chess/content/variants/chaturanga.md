@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Chaturanga
 slug: chaturanga
 board: "8×8"

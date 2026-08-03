@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Omnicide
 slug: omnicide
 board: "8×8"

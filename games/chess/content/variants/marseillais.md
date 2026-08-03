@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Marseillais Chess
 slug: marseillais
 board: "8×8"

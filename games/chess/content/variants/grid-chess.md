@@ -1,4 +1,6 @@
 ---
+playable: true
+key: gridChess
 title: Grid Chess
 slug: grid-chess
 board: "8×8"

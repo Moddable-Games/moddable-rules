@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Shatar
 slug: shatar
 board: "8×8"

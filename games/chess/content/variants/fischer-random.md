@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Fischer Random (Chess960)
 slug: fischer-random
 key: chess960

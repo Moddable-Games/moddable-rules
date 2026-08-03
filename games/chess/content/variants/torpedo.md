@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Torpedo Chess
 slug: torpedo
 board: "8×8"
@@ -13,6 +14,7 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  torpedo: true
 ---
 
 ## Torpedo Chess

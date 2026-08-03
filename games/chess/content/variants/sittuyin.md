@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Sittuyin
 slug: sittuyin
 board: "8×8"

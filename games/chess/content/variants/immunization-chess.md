@@ -1,4 +1,6 @@
 ---
+playable: true
+key: immunizationChess
 title: Immunization Chess
 slug: immunization-chess
 original: true

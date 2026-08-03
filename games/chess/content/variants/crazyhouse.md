@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Crazyhouse
 slug: crazyhouse
 board: "8×8"

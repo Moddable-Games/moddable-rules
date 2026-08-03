@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Upside-Down
 slug: upside-down
 board: "8×8"
@@ -13,6 +14,9 @@ engine:
     cols: 8
   players: [white, black]
   setup: "RNBQKBNR/PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr"
+  pawnStartRow:
+    0: 1
+    1: 6
 ---
 
 ## Upside-Down

@@ -1,4 +1,6 @@
 ---
+playable: true
+key: suicideChess
 title: Suicide Chess
 slug: suicide-chess
 board: "8×8"

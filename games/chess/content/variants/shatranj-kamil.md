@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Shatranj Kamil
 slug: shatranj-kamil
 board: "10×10"
@@ -14,7 +15,19 @@ engine:
   players: [white, black]
   render:
     cellSize: 34
-  setup: "rncbqkbcnr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RNCBQKBCNR"
+  setup: "rndbqkbdnr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RNDBQKBDNR"
+  castling: false
+  enPassant: false
+  stalemateMeaning: loss
+  pieces:
+    dabbaba:
+      type: leaper
+      offsets: dabbaba
+  vocabulary:
+    dabbaba:
+      symbols:
+        0: D
+        1: d
 ---
 
 ## Shatranj Kamil

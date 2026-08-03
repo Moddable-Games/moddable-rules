@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Giveaway
 slug: giveaway
 board: "8×8"

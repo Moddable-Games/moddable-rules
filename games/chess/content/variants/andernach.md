@@ -1,4 +1,6 @@
 ---
+playable: true
+key: andernachChess
 title: Andernach Chess
 slug: andernach
 board: "8×8"

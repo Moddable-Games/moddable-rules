@@ -1,4 +1,6 @@
 ---
+playable: true
+key: checklessChess
 title: Checkless Chess
 slug: checkless
 board: "8×8"

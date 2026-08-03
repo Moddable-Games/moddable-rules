@@ -1,4 +1,6 @@
 ---
+playable: true
+key: racingKings
 title: Racing Kings
 slug: racing-kings
 board: "8×8"

@@ -1,4 +1,6 @@
 ---
+playable: true
+key: monsterChess
 title: Monster Chess
 slug: monster-chess
 board: "8×8"

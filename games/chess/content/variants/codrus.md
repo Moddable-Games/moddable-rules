@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Codrus
 slug: codrus
 board: "8×8"

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Antichess
 slug: antichess
 board: "8×8"

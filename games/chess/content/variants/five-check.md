@@ -1,4 +1,6 @@
 ---
+playable: true
+key: fiveCheck
 title: Five-Check
 slug: five-check
 board: "8×8"

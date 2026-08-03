@@ -1,4 +1,6 @@
 ---
+playable: true
+key: weakChess
 title: Weak!
 slug: weak
 board: "8×8"

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Amazon Chess
 slug: amazon-chess
 board: "8×8"
@@ -13,6 +14,16 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbmkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBMKBNR"
+  promotionChoices: [amazon, rook, bishop, knight]
+  pieces:
+    amazon:
+      type: compose
+      parts: [queen, knight]
+  vocabulary:
+    amazon:
+      symbols:
+        0: M
+        1: m
 ---
 
 ## Amazon Chess

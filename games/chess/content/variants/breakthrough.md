@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Breakthrough
 slug: breakthrough
 board: "7×7"

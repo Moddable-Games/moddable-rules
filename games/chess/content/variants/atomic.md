@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Atomic Chess
 slug: atomic
 board: "8×8"

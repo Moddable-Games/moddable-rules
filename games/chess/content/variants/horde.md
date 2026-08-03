@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Horde Chess
 slug: horde
 board: "8×8"

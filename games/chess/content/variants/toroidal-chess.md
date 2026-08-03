@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Gadsden's Toroidal Chess"
 slug: toroidal-chess
 board: "8×8 torus"
@@ -15,6 +16,8 @@ engine:
   players: [white, black]
   setup: "pppppppp/rnbqkbnr/pppppppp/8/8/PPPPPPPP/RNBQKBNR/PPPPPPPP"
   notation: algebraic
+  castling: false
+  enPassant: false
 published: true
 ---
 

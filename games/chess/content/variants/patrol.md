@@ -1,4 +1,6 @@
 ---
+playable: true
+key: patrolChess
 title: Patrol Chess
 slug: patrol
 board: "8×8"

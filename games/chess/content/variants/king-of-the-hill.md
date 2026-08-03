@@ -1,4 +1,6 @@
 ---
+playable: true
+key: kingOfTheHill
 title: King of the Hill
 slug: king-of-the-hill
 board: "8×8"

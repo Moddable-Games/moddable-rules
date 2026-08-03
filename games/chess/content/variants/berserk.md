@@ -1,4 +1,6 @@
 ---
+playable: true
+key: berserkChess
 title: Berserk Chess
 slug: berserk
 original: true

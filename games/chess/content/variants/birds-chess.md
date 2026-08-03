@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Bird's Chess"
 slug: birds-chess
 board: "10×8"
@@ -15,6 +16,23 @@ engine:
   render:
     cellSize: 36
   setup: "rnbgqkebnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBGQKEBNR"
+  promotionChoices: [queen, rook, bishop, knight, guard, equerry]
+  pieces:
+    guard:
+      type: compose
+      parts: [rook, knight]
+    equerry:
+      type: compose
+      parts: [bishop, knight]
+  vocabulary:
+    guard:
+      symbols:
+        0: G
+        1: g
+    equerry:
+      symbols:
+        0: E
+        1: e
 ---
 
 # Bird's Chess

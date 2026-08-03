@@ -1,4 +1,6 @@
 ---
+playable: true
+key: fogOfWar
 title: Fog of War Chess
 slug: fog-of-war
 board: "8×8"
