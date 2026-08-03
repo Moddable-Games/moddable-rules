@@ -4860,7 +4860,7 @@
     "gameTitle": "Chess",
     "section": "Benedict Chess",
     "heading": "Attribution",
-    "content": "C. S. Elliott, 1971. Named after Benedict Arnold. Public domain rules.",
+    "content": "Dan Troyka, 2001. Named after Benedict Arnold. Public domain rules.",
     "anchor": "attribution",
     "variant": "benedict",
     "variantUrl": "dist/chess/variants/benedict/"
@@ -4920,7 +4920,7 @@
     "gameTitle": "Chess",
     "section": "Berolina Chess",
     "heading": "Attribution",
-    "content": "Invented by Edmund Hebermann in Berlin, 1926. Public domain.",
+    "content": "Invented by Edmund Nebermann in Berlin, 1926. Public domain.",
     "anchor": "attribution",
     "variant": "berolina-chess",
     "variantUrl": "dist/chess/variants/berolina-chess/"
@@ -4980,7 +4980,7 @@
     "gameTitle": "Chess",
     "section": "Berserk Chess",
     "heading": "Attribution",
-    "content": "Modern variant, popularised on online chess platforms 2000s. Public domain rules.",
+    "content": "Moddable Games original. No external provenance is claimed. Designed as a check-incentive multi-move variant to exercise the engine's turnLogic system.",
     "anchor": "attribution",
     "variant": "berserk",
     "variantUrl": "dist/chess/variants/berserk/"
@@ -5920,7 +5920,7 @@
     "gameTitle": "Chess",
     "section": "Checkless Chess",
     "heading": "Attribution",
-    "content": "Traditional variant. Earliest documented reference in Max Lange, 1857. Public domain.",
+    "content": "Traditional variant of unknown origin, mid-19th century. Documented by Max Lange, 1857. Public domain.",
     "anchor": "attribution",
     "variant": "checkless",
     "variantUrl": "dist/chess/variants/checkless/"
@@ -6410,7 +6410,7 @@
     "gameTitle": "Chess",
     "section": "Courier Chess",
     "heading": "Setup",
-    "content": "Board: 12×8 96 squares. FEN: rnebfsksbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBFSKSBENR w - - 0 1 Pieces per side, from a-file: Rook, Knight, Elephant, Courier, General, Sage, King, Sage, Courier",
+    "content": "Board: 12×8 96 squares. Back rank, a-file to l-file: Rook, Knight, Alfil, Courier, Mann, King, Fers, Schleich, Courier, Alfil, Knight, Rook. Twelve Pawns on the second rank. - White: Rook a1 l1, Knigh",
     "anchor": "setup",
     "variant": "courier",
     "variantUrl": "dist/chess/variants/courier/"
@@ -6419,8 +6419,18 @@
     "game": "chess",
     "gameTitle": "Chess",
     "section": "Courier Chess",
+    "heading": "Pieces",
+    "content": "Movement ------- One step any direction. Royal. No castling Fers Queen Slides diagonally any distance. The modern Bishop Mann counsellor One step orthogonally only. No diagonal movement. The weakest p",
+    "anchor": "pieces",
+    "variant": "courier",
+    "variantUrl": "dist/chess/variants/courier/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Courier Chess",
     "heading": "Rules",
-    "content": "Standard chess movement applies per the table above. No castling. No pawn double-step. No en passant. Stalemate counts as a win medieval rules.",
+    "content": "Standard chess movement applies per the table above. No castling. No pawn double-step. No en passant. Stalemate: The file's original claim that \"stalemate counts as a win medieval rules\" is unsourced.",
     "anchor": "rules",
     "variant": "courier",
     "variantUrl": "dist/chess/variants/courier/"
@@ -6430,7 +6440,7 @@
     "gameTitle": "Chess",
     "section": "Courier Chess",
     "heading": "Win Condition",
-    "content": "Checkmate or stalemate stalemate = win for the side delivering it in medieval rules. Historical note: The Courier was the first piece to move like a modern Bishop — this game introduced unlimited diag",
+    "content": "Checkmate the opponent's King. Historical note: The Courier was the first piece to move like a modern Bishop. This game introduced unlimited diagonal sliding to European chess centuries before it was ",
     "anchor": "win-condition",
     "variant": "courier",
     "variantUrl": "dist/chess/variants/courier/"
@@ -6440,7 +6450,7 @@
     "gameTitle": "Chess",
     "section": "Courier Chess",
     "heading": "Strategy",
-    "content": "The General proto-Queen is extremely weak — one diagonal step. The Couriers modern Bishops are the strongest attacking pieces. The wide board makes Knight development slow. Alfils Elephants can leap b",
+    "content": "The Fers proto-Queen is extremely weak: one diagonal step. The Couriers modern Bishops are the strongest attacking pieces. The wide board makes Knight development slow. Alfils can leap but are colour-",
     "anchor": "strategy",
     "variant": "courier",
     "variantUrl": "dist/chess/variants/courier/"
@@ -6450,7 +6460,7 @@
     "gameTitle": "Chess",
     "section": "Courier Chess",
     "heading": "Attribution",
-    "content": "First documented 1202 Wirnt von Gravenberg. Public domain.",
+    "content": "First documented 1202 Wirnt von Gravenberg, Wigalois. Public domain.",
     "anchor": "attribution",
     "variant": "courier",
     "variantUrl": "dist/chess/variants/courier/"
@@ -6580,7 +6590,7 @@
     "gameTitle": "Chess",
     "section": "Crazyhouse",
     "heading": "Attribution",
-    "content": "Traditional variant. Derives from Shogi's drop mechanic applied to Western chess. Popularised on Lichess and FICS. Public domain.",
+    "content": "Derives from Shogi's drop mechanic applied to Western chess. Documented in Pritchard, The Encyclopedia of Chess Variants 1994 and Pritchard, The Classified Encyclopedia of Chess Variants 2007 under \"C",
     "anchor": "attribution",
     "variant": "crazyhouse",
     "variantUrl": "dist/chess/variants/crazyhouse/"
@@ -6790,7 +6800,7 @@
     "gameTitle": "Chess",
     "section": "Dark Chess",
     "heading": "Attribution",
-    "content": "Modern variant. Distinguished from Fog of War by its stricter visibility rules. Public domain.",
+    "content": "Visibility-restricted chess with no check announcement. Rules as implemented on Chess.com chess.com/variants/fog-of-war under the \"Dark Chess\" mode, and previously on ICC. Distinguished from the broad",
     "anchor": "attribution",
     "variant": "dark-chess",
     "variantUrl": "dist/chess/variants/dark-chess/"
@@ -7090,7 +7100,7 @@
     "gameTitle": "Chess",
     "section": "Dice Chess",
     "heading": "Attribution",
-    "content": "Ancient origins 11th–14th century Europe, earlier roots in India/Burma. Modern codification by Anne Sunnucks, The Encyclopaedia of Chess, 1970. Public domain.",
+    "content": "Ancient origins 11th–14th century Europe, earlier roots in India/Burma. Documented by Anne Sunnucks in The Encyclopaedia of Chess, 1970; no standard ruleset exists. Public domain.",
     "anchor": "attribution",
     "variant": "dice-chess",
     "variantUrl": "dist/chess/variants/dice-chess/"
@@ -7410,7 +7420,7 @@
     "gameTitle": "Chess",
     "section": "Einstein Chess",
     "heading": "Attribution",
-    "content": "Invented by B. Iqbal, 2005. Public domain.",
+    "content": "Invented by Gérard Bédoni and Daniel Zeller, 1981. Public domain.",
     "anchor": "attribution",
     "variant": "einstein-chess",
     "variantUrl": "dist/chess/variants/einstein-chess/"
@@ -7500,7 +7510,7 @@
     "gameTitle": "Chess",
     "section": "Empire Chess",
     "heading": "Attribution",
-    "content": "Designed by Corey Clark. Published 2019. Rules available via Shogun of Games and Lichess. Public domain rule set.",
+    "content": "Designed by Couch Tomato, 2020. Rules available via Pychess variants. Public domain rule set.",
     "anchor": "attribution",
     "variant": "empire",
     "variantUrl": "dist/chess/variants/empire/"
@@ -9200,7 +9210,7 @@
     "gameTitle": "Chess",
     "section": "Immunization Chess",
     "heading": "Attribution",
-    "content": "Modern variant. Public domain.",
+    "content": "Moddable Games original. No external provenance is claimed. Designed as a capture-triggered area-effect variant to exercise the engine's timed-effect system.",
     "anchor": "attribution",
     "variant": "immunization-chess",
     "variantUrl": "dist/chess/variants/immunization-chess/"
@@ -10100,7 +10110,7 @@
     "gameTitle": "Chess",
     "section": "Makruk",
     "heading": "Makruk (Thai Chess)",
-    "content": "The traditional chess of Thailand, played since the 16th century. Features a weaker promoted piece and no castling.",
+    "content": "The traditional chess of Thailand, played since at least the 16th century. Distinctive for its silver-general piece Khon, early pawn promotion, and endgame counting rules that force resolution.",
     "anchor": "makruk-thai-chess",
     "variant": "makruk",
     "variantUrl": "dist/chess/variants/makruk/"
@@ -10110,7 +10120,7 @@
     "gameTitle": "Chess",
     "section": "Makruk",
     "heading": "Setup",
-    "content": "Board: Standard 8×8. Setup: Pawns start on the 3rd rank not 2nd. Back rank: Rook, Knight, Silver General Met, King, Queen Met equivalent, Silver General, Knight, Rook. FEN: rngfkgnr/8/pppppppp/8/8/PPP",
+    "content": "Board: Standard 8×8. Starting position: Pawns on the 3rd rank. Back rank a1–h1 for White: Rook, Knight, Khon, Khun King, Met, Khon, Knight, Rook. - White: Rua a1, Ma b1, Khon c1, Khun d1, Met e1, Khon",
     "anchor": "setup",
     "variant": "makruk",
     "variantUrl": "dist/chess/variants/makruk/"
@@ -10119,9 +10129,29 @@
     "game": "chess",
     "gameTitle": "Chess",
     "section": "Makruk",
+    "heading": "Pieces",
+    "content": "English Movement --- --- King One step in any direction. No castling. Met 1 Bishop/Silver General One step diagonally in any direction OR one step straight forward 5 directions. Ma 2 Rook/Chariot Slid",
+    "anchor": "pieces",
+    "variant": "makruk",
+    "variantUrl": "dist/chess/variants/makruk/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Makruk",
     "heading": "Rules",
-    "content": "- The Met Silver General moves one square diagonally in any direction. It cannot move orthogonally. - The Queen equivalent also moves as a Met one step diagonal — it is a weak piece. - Pawns promote o",
+    "content": "- No castling. - No en passant. - Pawns do not have a two-square initial move. - Pawns promote on reaching the sixth rank from their own side rank 6 for White, rank 3 for Black and always promote to M",
     "anchor": "rules",
+    "variant": "makruk",
+    "variantUrl": "dist/chess/variants/makruk/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Makruk",
+    "heading": "Counting Rules",
+    "content": "Makruk uses two counting systems to force resolution in endgames. Both end the game in a draw if the stronger side fails to checkmate within the limit. The weaker side counts aloud and may stop counti",
+    "anchor": "counting-rules",
     "variant": "makruk",
     "variantUrl": "dist/chess/variants/makruk/"
   },
@@ -10140,7 +10170,7 @@
     "gameTitle": "Chess",
     "section": "Makruk",
     "heading": "Strategy",
-    "content": "With no Queen and only weak diagonal movers Met, Makruk is a slower, more positional game than standard chess. Rooks are by far the most powerful pieces. Pawn promotion comes earlier rank 6 but the pr",
+    "content": "With no Queen and only the weak Met, Rooks are by far the most powerful pieces. The Khon's forward step makes it more useful in attack than defence. Pawn promotion comes earlier rank 6 but the promote",
     "anchor": "strategy",
     "variant": "makruk",
     "variantUrl": "dist/chess/variants/makruk/"
@@ -10450,7 +10480,7 @@
     "gameTitle": "Chess",
     "section": "Marseillais Chess",
     "heading": "Attribution",
-    "content": "Originated in Marseille, France, early 20th century. Public domain.",
+    "content": "Originated in Marseille, France, early 20th century. Documented in Pritchard, The Encyclopedia of Chess Variants 1994, pp. 189-190. Also in Cazaux and Knowlton, A World of Chess 2017. Rules as played ",
     "anchor": "attribution",
     "variant": "marseillais",
     "variantUrl": "dist/chess/variants/marseillais/"
@@ -10580,7 +10610,7 @@
     "gameTitle": "Chess",
     "section": "Medusa Chess",
     "heading": "Attribution",
-    "content": "Modern variant. Public domain.",
+    "content": "Moddable Games original. No external provenance is claimed. Designed as a queen-centric status-effect variant to exercise the engine's timed-effect system.",
     "anchor": "attribution",
     "variant": "medusa-chess",
     "variantUrl": "dist/chess/variants/medusa-chess/"
@@ -11020,7 +11050,7 @@
     "gameTitle": "Chess",
     "section": "Monster Chess",
     "heading": "Attribution",
-    "content": "Traditional variant. Public domain.",
+    "content": "Documented in Pritchard, The Classified Encyclopedia of Chess Variants 2007. Setup and rules follow the standard formulation: White has King + 2 Rooks + 8 Pawns, gets two moves per turn, check ends th",
     "anchor": "attribution",
     "variant": "monster-chess",
     "variantUrl": "dist/chess/variants/monster-chess/"
@@ -11090,7 +11120,7 @@
     "gameTitle": "Chess",
     "section": "Standard Nightrider Chess",
     "heading": "Attribution",
-    "content": "Nightrider piece invented by T. R. Dawson, 1925. Public domain. Rules in the public domain. Implemented in Fairy-Stockfish, Green Chess, and Zillions of Games.",
+    "content": "Piece concept by W. S. Andrews 1907; named and introduced to fairy chess by T. R. Dawson 1925. Public domain. Implemented in Fairy-Stockfish, Green Chess, and Zillions of Games.",
     "anchor": "attribution",
     "variant": "nightrider",
     "variantUrl": "dist/chess/variants/nightrider/"
@@ -11480,7 +11510,7 @@
     "gameTitle": "Chess",
     "section": "Orda Chess",
     "heading": "Rules",
-    "content": "Yurt y — Moves one square diagonally. Captures one square orthogonally. Replaces the Queen. Lancer l — Moves like a Rook slides orthogonally. Captures like a Knight L-shaped jump. Cannot slide to capt",
+    "content": "Yurt y — Moves one square diagonally. Captures one square orthogonally. Replaces the Queen. Lancer l — Moves like a Knight L-shaped jump. Captures like a Rook slides orthogonally. Cannot jump to captu",
     "anchor": "rules",
     "variant": "orda-chess",
     "variantUrl": "dist/chess/variants/orda-chess/"
@@ -11500,7 +11530,7 @@
     "gameTitle": "Chess",
     "section": "Orda Chess",
     "heading": "Strategy",
-    "content": "Black's Lancers and Archers are powerful positional pieces full rook/bishop mobility but limited attackers knight-range capture only. White must exploit the Horde's short capture range while avoiding ",
+    "content": "Black's Lancers and Archers are mobile repositioners knight-jump for moves but devastating long-range attackers rook/bishop capture. White must avoid open lines where Horde pieces can capture at dista",
     "anchor": "strategy",
     "variant": "orda-chess",
     "variantUrl": "dist/chess/variants/orda-chess/"
@@ -12170,7 +12200,7 @@
     "gameTitle": "Chess",
     "section": "Poison Chess",
     "heading": "Attribution",
-    "content": "Modern variant. Public domain.",
+    "content": "Moddable Games original. No external provenance is claimed. Designed as a status-effect variant to exercise the engine's timed-effect system.",
     "anchor": "attribution",
     "variant": "poison-chess",
     "variantUrl": "dist/chess/variants/poison-chess/"
@@ -12790,7 +12820,7 @@
     "gameTitle": "Chess",
     "section": "S-Chess (Seirawan Chess)",
     "heading": "Attribution",
-    "content": "Designed by Yasser Seirawan and Jonathan Tisdall. Publicly released 2007. Open rules available at seirawanchess.com. Public domain rule set.",
+    "content": "Designed by Yasser Seirawan and Bruce Harper. Publicly released 2007. Open rules available at seirawanchess.com. Public domain rule set.",
     "anchor": "attribution",
     "variant": "s-chess",
     "variantUrl": "dist/chess/variants/s-chess/"
@@ -13000,7 +13030,7 @@
     "gameTitle": "Chess",
     "section": "Shako",
     "heading": "Attribution",
-    "content": "Designed by Jean-Louis Cazaux. Published 2000. Cazaux, J.L. and Schmittberger, R., “A World of Chess,” McFarland, 2017. Public domain rule set.",
+    "content": "Designed by Jean-Louis Cazaux, 1990. Published online 2000. Cazaux, J.L. and Schmittberger, R., “A World of Chess,” McFarland, 2017. Public domain rule set.",
     "anchor": "attribution",
     "variant": "shako",
     "variantUrl": "dist/chess/variants/shako/"
@@ -13010,7 +13040,7 @@
     "gameTitle": "Chess",
     "section": "Shatar",
     "heading": "Shatar (Mongolian Chess)",
-    "content": "The traditional chess of Mongolia. There is no concept of check — you win by stripping the opponent of all pieces except their King.",
+    "content": "The traditional chess of Mongolia. Distinguished from Western chess by its mate restrictions, obligatory opening, and the rule that bare king is a draw.",
     "anchor": "shatar-mongolian-chess",
     "variant": "shatar",
     "variantUrl": "dist/chess/variants/shatar/"
@@ -13020,7 +13050,7 @@
     "gameTitle": "Chess",
     "section": "Shatar",
     "heading": "Setup",
-    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "content": "Board: Standard 8×8. Starting position: Standard chess arrangement. Pieces use Mongolian names: Noyon King, Bers Queen, Teme Rook, Mori Knight, Teme-tse Bishop, Khuu Pawn. FEN: rnbqkbnr/pppppppp/8/8/8",
     "anchor": "setup",
     "variant": "shatar",
     "variantUrl": "dist/chess/variants/shatar/"
@@ -13029,8 +13059,18 @@
     "game": "chess",
     "gameTitle": "Chess",
     "section": "Shatar",
+    "heading": "Pieces",
+    "content": "All pieces move as in standard chess. The Bers Queen is sometimes described as a combined Rook-Fers in older sources, but the modern tournament form uses full Queen movement.",
+    "anchor": "pieces",
+    "variant": "shatar",
+    "variantUrl": "dist/chess/variants/shatar/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Shatar",
     "heading": "Rules",
-    "content": "- There is no check or checkmate. The King is never in \"check\" and can move into attacked squares. - You may capture the opponent's King it is treated as a normal piece for capture purposes. - The gam",
+    "content": "- Check exists and is named by the checking piece: shak Queen or Rook, dug Bishop, tsod Pawn. Announcing check is customary. - The Knight's check also counts as shak. Sources disagree on this point tr",
     "anchor": "rules",
     "variant": "shatar",
     "variantUrl": "dist/chess/variants/shatar/"
@@ -13040,7 +13080,7 @@
     "gameTitle": "Chess",
     "section": "Shatar",
     "heading": "Win Condition",
-    "content": "Leave the opponent with a bare King all other pieces captured, or capture their King directly.",
+    "content": "Checkmate, called mat, subject to the restrictions below. Valid mate. A mate counts only if it is delivered by a shak, or if it concludes a series of checks that included at least one shak. Niol inval",
     "anchor": "win-condition",
     "variant": "shatar",
     "variantUrl": "dist/chess/variants/shatar/"
@@ -13050,7 +13090,7 @@
     "gameTitle": "Chess",
     "section": "Shatar",
     "heading": "Strategy",
-    "content": "Since there's no check, the King can be used aggressively as a fighting piece. You don't need to protect your King from attack — only from having all supporting pieces captured. Material advantage is ",
+    "content": "The mate restrictions make Shatar deeply strategic. You cannot simply checkmate with minor pieces; the final blow must involve the Queen or Rook or follow a sequence that did. This makes heavy pieces ",
     "anchor": "strategy",
     "variant": "shatar",
     "variantUrl": "dist/chess/variants/shatar/"
@@ -13060,7 +13100,7 @@
     "gameTitle": "Chess",
     "section": "Shatar",
     "heading": "Attribution",
-    "content": "Traditional Mongolian chess. Played for centuries in Mongolia. Public domain.",
+    "content": "Traditional Mongolian chess. Sources: Wikipedia Shatar; chessvariants.org Shatar — Mongolian Chess; history.chess.free.fr Mongolian Chess. Public domain.",
     "anchor": "attribution",
     "variant": "shatar",
     "variantUrl": "dist/chess/variants/shatar/"
@@ -14470,7 +14510,7 @@
     "gameTitle": "Chess",
     "section": "Teleportation Chess",
     "heading": "Attribution",
-    "content": "Modern variant. Public domain.",
+    "content": "Modern variant with invented rules. See moddable-rules243 for correction history.",
     "anchor": "attribution",
     "variant": "teleport-chess",
     "variantUrl": "dist/chess/variants/teleport-chess/"

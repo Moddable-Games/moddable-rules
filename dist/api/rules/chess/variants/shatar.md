@@ -1,6 +1,6 @@
 ## Shatar (Mongolian Chess)
 
-The traditional chess of Mongolia. There is no concept of check — you win by stripping the opponent of all pieces except their King.
+The traditional chess of Mongolia. Distinguished from Western chess by its mate restrictions, obligatory opening, and the rule that bare king is a draw.
 
 
 {{svg:shatar-board.svg "Shatar — starting position"}}
@@ -9,27 +9,39 @@ The traditional chess of Mongolia. There is no concept of check — you win by s
 
 **Board:** Standard 8×8.
 
-**Setup:** Standard chess setup.
+**Starting position:** Standard chess arrangement. Pieces use Mongolian names: Noyon (King), Bers (Queen), Teme (Rook), Mori (Knight), Teme-tse (Bishop), Khuu (Pawn).
 
-**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1`
+
+### Pieces
+
+All pieces move as in standard chess. The Bers (Queen) is sometimes described as a combined Rook-Fers in older sources, but the modern tournament form uses full Queen movement.
 
 ### Rules
 
-- There is no check or checkmate. The King is never in "check" and can move into attacked squares.
-- You may capture the opponent's King (it is treated as a normal piece for capture purposes).
-- The game ends when one player has only their King remaining (bare king = loss).
-- Capturing the King directly also wins.
-- All pieces move as in standard chess otherwise.
-- Castling, en passant, and promotion work as normal.
+- **Check exists** and is named by the checking piece: *shak* (Queen or Rook), *dug* (Bishop), *tsod* (Pawn). Announcing check is customary.
+- **The Knight's check also counts as shak.** Sources disagree on this point (traditional rules may have excluded it), but modern tournament practice and Fairy-Stockfish's implementation include knight checks as valid shak. This implementation follows the modern rule.
+- **The opening two moves are obligatory**: 1. d2-d4 d7-d5.
+- The King may not castle.
+- No en passant.
+- Promotion works as in standard chess.
 
 ### Win Condition
 
-Leave the opponent with a bare King (all other pieces captured), or capture their King directly.
+Checkmate, called *mat*, subject to the restrictions below.
+
+**Valid mate.** A mate counts only if it is delivered by a *shak*, or if it concludes a series of checks that included at least one *shak*.
+
+**Niol (invalid mate).** A mate delivered without satisfying that condition, for example by a Bishop or Pawn alone, or at the end of a sequence containing only *dug* and *tsod* checks, does not win. The game is a **draw**.
+
+**The Knight may not deliver mate.** A position where only the Knight gives check and there is no legal escape is a draw (niol), not checkmate.
+
+**Robado (bare king).** A player reduced to a bare King does not lose. The game is a **draw**.
 
 ### Strategy
 
-Since there's no check, the King can be used aggressively as a fighting piece. You don't need to protect your King from attack — only from having all supporting pieces captured. Material advantage is paramount since the goal is total piece elimination. Endgame technique focuses on stripping the last defenders rather than constructing checkmate patterns.
+The mate restrictions make Shatar deeply strategic. You cannot simply checkmate with minor pieces; the final blow must involve the Queen or Rook (or follow a sequence that did). This makes heavy pieces more valuable than in standard chess and creates unique endgame theory where bare king is drawn despite material advantage.
 
 ### Attribution
 
-Traditional Mongolian chess. Played for centuries in Mongolia. Public domain.
+Traditional Mongolian chess. Sources: Wikipedia (Shatar); chessvariants.org (Shatar — Mongolian Chess); history.chess.free.fr (Mongolian Chess). Public domain.

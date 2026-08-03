@@ -33,4 +33,4 @@ Queen positioning becomes paramount — move her to lines that freeze the most e
 
 ### Attribution
 
-Modern variant. Public domain.
+Moddable Games original. No external provenance is claimed. Designed as a queen-centric status-effect variant to exercise the engine's timed-effect system.

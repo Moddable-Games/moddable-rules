@@ -93,7 +93,7 @@ Key properties:
 
 Khan's Chess replaces two pieces from Orda Chess:
 - The **pawn** (standard chess pawn used by both sides in Orda) is replaced by the **Scout** for the Horde, themed around Mongol cavalry.
-- The **Yurt** (which moved and captured as a Queen but only one or two squares) is replaced by the **Khatun** (Knight movement, King capture).
+- The **Yurt** (which moved one square diagonally and captured one square orthogonally) is replaced by the **Khatun** (Knight movement, King capture).
 
 All other Horde pieces—Lancer, Horse Archer, Kheshig—carry over from Orda Chess with the same movement and capture rules.
 
