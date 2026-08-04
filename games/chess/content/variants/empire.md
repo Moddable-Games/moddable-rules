@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: Checkmate or Faceoff
 special: "Asymmetric: FIDE Kingdom vs. Empire dynasty. Empire pieces move like Queens but capture in limited piece-specific ways. Faceoff rule: open-file confrontation between royal pieces loses for the creator. Designed by Couch Tomato, 2020."
+playable: true
 engine:
   topology:
     type: grid
@@ -15,8 +16,68 @@ engine:
   setup: "scdtedcs/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
-  faceoff: true
-published: true
+  castling:
+    0: true
+    1: false
+  pieces:
+    emperor:
+      type: rider
+      dirs: all
+      maxSteps: 1
+    tower:
+      divergent:
+        move:
+          type: rider
+          dirs: all
+        capture:
+          type: rider
+          dirs: orthogonal
+    duke:
+      divergent:
+        move:
+          type: rider
+          dirs: all
+        capture:
+          type: rider
+          dirs: diagonal
+    cardinal:
+      divergent:
+        move:
+          type: rider
+          dirs: all
+        capture:
+          type: leaper
+          offsets: knight
+    siegeTower:
+      divergent:
+        move:
+          type: rider
+          dirs: all
+        capture:
+          type: rider
+          dirs: orthogonal
+          maxSteps: 1
+  vocabulary:
+    emperor:
+      symbols:
+        0: E
+        1: e
+    tower:
+      symbols:
+        0: T
+        1: t
+    duke:
+      symbols:
+        0: D
+        1: d
+    cardinal:
+      symbols:
+        0: C
+        1: c
+    siegeTower:
+      symbols:
+        0: S
+        1: s
 ---
 
 ## Empire Chess

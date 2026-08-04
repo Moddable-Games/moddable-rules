@@ -51,7 +51,15 @@ engine:
           movement: pawn
       castling: false
       enPassant: false
-published: true
+      doubleStep: false
+      hexPawnConfig:
+        forwardDir:
+          0: [0,-1]
+          1: [0,1]
+        captureDirections:
+          0: [[1,-1],[-1,0]]
+          1: [[-1,1],[1,0]]
+playable: true
 ---
 
 ## Glinski's Hexagonal Chess

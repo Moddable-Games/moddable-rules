@@ -15,7 +15,9 @@ engine:
   players: [white, black]
   setup: "2PKQP4pkqp2/2PBBP4pbbp2/2PNNP4pnnp2/2PRRP4prrp2"
   notation: ring-position
-published: true
+  castling: false
+  enPassant: false
+playable: true
 ---
 
 ## Toroidal Byzantine Chess

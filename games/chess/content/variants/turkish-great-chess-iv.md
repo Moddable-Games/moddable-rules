@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Historical large chess variant played on a 14×14 board. Despite its Turkish classification, it includes Indian and Persian piece names (Raja, Rani, Shahzadeh) suggesting a mixed cultural origin. The Rani (Queen) is weak — moving only one square in any direction — and uniquely may be placed or left en prise without penalty. No castling; no Pawn double step."
+playable: true
 engine:
   topology:
     type: grid
@@ -14,7 +15,56 @@ engine:
   players: [white, black]
   render:
     cellSize: 24
-  setup: "rnbbcnwqkwcnbbr/pppppppppppppp/14/14/14/14/14/14/14/14/14/14/PPPPPPPPPPPPPP/RNBBCNWQKWCNBBR"
+  setup: "rndceswkiecdnr/pppppppppppppp/14/14/14/14/14/14/14/14/14/14/PPPPPPPPPPPPPP/RNDCESWKIECDNR"
+  castling: false
+  enPassant: false
+  doubleStep: false
+  promotionChoices: [wazir]
+  pieces:
+    wazir:
+      type: compose
+      parts: [rook, bishop]
+    fil:
+      type: rider
+      dirs: diagonal
+    dahja:
+      type: rider
+      dirs: diagonal
+    ratha:
+      type: rider
+      dirs: orthogonal
+    shahzadeh:
+      type: compose
+      parts: [rook, bishop]
+    rani:
+      type: rider
+      dirs: all
+      maxSteps: 1
+  vocabulary:
+    wazir:
+      symbols:
+        0: W
+        1: w
+    fil:
+      symbols:
+        0: E
+        1: e
+    dahja:
+      symbols:
+        0: D
+        1: d
+    ratha:
+      symbols:
+        0: C
+        1: c
+    shahzadeh:
+      symbols:
+        0: S
+        1: s
+    rani:
+      symbols:
+        0: I
+        1: i
 ---
 
 ## Turkish Great Chess IV

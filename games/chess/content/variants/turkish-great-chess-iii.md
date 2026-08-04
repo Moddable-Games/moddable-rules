@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Historical large chess variant played on a 12×12 board. One of four Ottoman/Indian large chess variants catalogued by John Gollon from H. J. R. Murray's A History of Chess. Expands the standard chess piece set with multiple piece types that move as Bishop (Fil, Dahja) and adds the Chariot (Ratha, moves as Rook) alongside two Rooks. The Wazir moves as a full Queen. No castling; no Pawn double step."
+playable: true
 engine:
   topology:
     type: grid
@@ -14,7 +15,41 @@ engine:
   players: [white, black]
   render:
     cellSize: 26
-  setup: "rrbbnnwqknbbr/ppppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPPP/RRBBNNWQKNBBR"
+  setup: "rndcewkecdnr/pppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPP/RNDCEWKECDNR"
+  castling: false
+  enPassant: false
+  doubleStep: false
+  promotionChoices: [wazir]
+  pieces:
+    wazir:
+      type: compose
+      parts: [rook, bishop]
+    fil:
+      type: rider
+      dirs: diagonal
+    dahja:
+      type: rider
+      dirs: diagonal
+    ratha:
+      type: rider
+      dirs: orthogonal
+  vocabulary:
+    wazir:
+      symbols:
+        0: W
+        1: w
+    fil:
+      symbols:
+        0: E
+        1: e
+    dahja:
+      symbols:
+        0: D
+        1: d
+    ratha:
+      symbols:
+        0: C
+        1: c
 ---
 
 ## Turkish Great Chess III

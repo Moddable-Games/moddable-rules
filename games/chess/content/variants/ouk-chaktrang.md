@@ -6,15 +6,43 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Cambodian chess. Koul leaps 1 or 2 squares diagonally; King may jump as a Knight on its first move. Pawns promote on rank 6. Codified by the Asian Chess Federation."
+playable: true
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rnbqkbnr/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR"
+  setup: "rnfgkfnr/8/pppppppp/8/8/PPPPPPPP/8/RNFGKFNR"
   notation: algebraic
-published: true
+  castling: false
+  enPassant: false
+  doubleStep: false
+  stalemateMeaning: loss
+  promotionChoices: [neang]
+  pawnStartRow:
+    0: 5
+    1: 2
+  promotionRow:
+    0: 2
+    1: 5
+  pieces:
+    neang:
+      type: leaper
+      offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[-1,0]]
+      directional: true
+    koul:
+      type: leaper
+      offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[-2,-2],[-2,2],[2,-2],[2,2]]
+  vocabulary:
+    neang:
+      symbols:
+        0: G
+        1: g
+    koul:
+      symbols:
+        0: F
+        1: f
 ---
 
 ## Ouk Chaktrang (Cambodian Chess)

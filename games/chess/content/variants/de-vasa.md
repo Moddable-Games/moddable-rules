@@ -10,8 +10,7 @@ engine:
   topology:
     type: hex
     shape: rhombus
-    rows: 9
-    cols: 9
+    size: 9
     orientation: pointy
   surface:
     colors:
@@ -29,7 +28,19 @@ engine:
     set: mce-fairy-complete
   players: [white, black]
   setup: "0,0:r,0,2:p,0,6:P,0,8:R,1,0:n,1,2:p,1,6:P,1,8:N,2,0:b,2,2:p,2,6:P,2,8:B,3,0:k,3,2:p,3,6:P,3,8:Q,4,0:b,4,2:p,4,6:P,4,8:B,5,0:q,5,2:p,5,6:P,5,8:K,6,0:b,6,2:p,6,6:P,6,8:B,7,0:n,7,2:p,7,6:P,7,8:N,8,0:r,8,2:p,8,6:P,8,8:R"
-published: true
+  plugins:
+    chess:
+      castling: false
+      enPassant: false
+      doubleStep: false
+      hexPawnConfig:
+        forwardDir:
+          0: [0,-1]
+          1: [0,1]
+        captureDirections:
+          0: [[1,-1],[-1,0]]
+          1: [[-1,1],[1,0]]
+playable: true
 ---
 
 ## De Vasa's Hexagonal Chess
