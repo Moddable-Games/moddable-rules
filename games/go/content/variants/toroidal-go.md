@@ -15,6 +15,14 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      komi: 4.5
+      scoring: "territory"
+      superko: true
+      suicideAllowed: false
+      topology:
+        wrap: "both"
 ---
 
 ## Toroidal Go

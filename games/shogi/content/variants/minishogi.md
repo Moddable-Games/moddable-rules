@@ -15,6 +15,9 @@ engine:
   setup: "rbsgk/4p/5/P4/KGSBR"
   render:
     cellSize: 40
+  plugins:
+    shogi:
+      promotionZone: 1
 ---
 
 ## Minishogi

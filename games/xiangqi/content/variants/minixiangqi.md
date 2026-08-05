@@ -35,6 +35,13 @@ engine:
         color: "#4a3520"
         width: 2
     decorations: []
+  plugins:
+    xiangqi:
+      hasRiver: false
+      flyingGeneralRule: true
+      palace:
+        cols: [2, 4]
+        rows: [[4, 6], [0, 2]]
 ---
 
 ## Minixiangqi
