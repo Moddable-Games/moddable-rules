@@ -10,11 +10,11 @@ engine:
   topology:
     type: grid
     rows: 9
-    cols: 8
+    cols: 9
   players: [white, black]
   render:
     cellSize: 38
-  setup: "rncakqbm/pppppppp/9/9/9/9/9/PPPPPPPP/RNCAKQBM"
+  setup: "rnbakqcnm/9/ppppppppp/9/9/9/PPPPPPPPP/9/MNCQKABNR"
 ---
 
 # Mansindam (Pantheon Tale)

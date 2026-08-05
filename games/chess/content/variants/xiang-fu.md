@@ -70,7 +70,7 @@ engine:
       - op: hit-targets
         grouped: true
         radiusFactor: 0.4
-  setup: "2rbm4/2cwn4/2g1g4/9/9/9/4G1G2/4NWC2/4MBR2"
+  setup: "2rbm4/2cwn4/2+g1+g4/9/9/9/4+G1+G2/4NWC2/4MBR2"
 ---
 
 ## Xiang Fu

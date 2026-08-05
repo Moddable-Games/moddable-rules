@@ -12,7 +12,7 @@ engine:
     rows: 7
     cols: 7
   players: [red, black]
-  setup: "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR"
+  setup: "rcnkncr/p1ppp1p/7/7/7/P1PPP1P/RCNKNCR"
   render:
     cellSize: 40
     ops:

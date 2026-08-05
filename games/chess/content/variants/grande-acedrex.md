@@ -14,7 +14,7 @@ engine:
   players: [white, black]
   render:
     cellSize: 26
-  setup: "rnuclgkglcunr/12/12/ppppppppppppp/12/12/12/12/PPPPPPPPPPPPP/12/12/RNUCLGKGLCUNR"
+  setup: "rlugckfcgulr/12/12/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/12/12/RLUGCKFCGULR"
 ---
 
 ## Grande Acedrex
