@@ -15,6 +15,16 @@ engine:
     cols: 8
   players: [white, black]
   setup: "8/8/8/8/8/8/krbnNBRK/qrbnNBRQ"
+  plugins:
+    chess:
+      setup: "8/8/8/8/8/8/krbnNBRK/qrbnNBRQ"
+      castling: false
+      noCheck: true
+      openingBook:
+        "8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - -":
+          - "h2g3"
+          - "g2f3"
+          - "h2h3"
 ---
 
 ## Racing Kings

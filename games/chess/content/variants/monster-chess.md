@@ -15,6 +15,9 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R"
+  plugins:
+    chess:
+      setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R"
 ---
 
 ## Monster Chess

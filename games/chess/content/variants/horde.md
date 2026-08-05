@@ -14,6 +14,14 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/1PP2PP1/PPPPPPPP/PPPPPPPP/PPPPPPPP/PPPPPPPP"
+  plugins:
+    chess:
+      setup: "rnbqkbnr/pppppppp/8/1PP2PP1/PPPPPPPP/PPPPPPPP/PPPPPPPP/PPPPPPPP"
+      openingBook:
+        "rnbqkbnr/pppppppp/8/1PP2PP1/PPPPPPPP/PPPPPPPP/PPPPPPPP/PPPPPPPP w kq -":
+          - "f5f6"
+          - "c5c6"
+          - "e4e5"
 ---
 
 ## Horde Chess
