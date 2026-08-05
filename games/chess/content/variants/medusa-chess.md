@@ -8,7 +8,7 @@ board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: After the queen moves, all enemy pieces she attacks become petrified for 2 turns.
+special: After the queen moves, all enemy pieces she attacks become petrified for 2 turns. Kings immune.
 engine:
   topology:
     type: grid

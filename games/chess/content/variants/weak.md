@@ -7,7 +7,7 @@ board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: Weakest piece type with a legal move must move first.
+special: "Weakest piece type with a legal move must move first. Strength order: Pawn < Knight < Bishop < Rook < Queen < King."
 engine:
   topology:
     type: grid
