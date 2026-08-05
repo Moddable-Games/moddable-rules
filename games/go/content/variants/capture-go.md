@@ -15,6 +15,13 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      komi: 0
+      scoring: "capture"
+      captureTarget: 1
+      allowPass: false
+      superko: false
 ---
 
 ## Capture Go

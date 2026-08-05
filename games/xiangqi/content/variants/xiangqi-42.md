@@ -34,6 +34,13 @@ engine:
             cols: [2, 4]
         color: "#4a3520"
         width: 2
+  plugins:
+    xiangqi:
+      hasRiver: false
+      flyingGeneralRule: true
+      palace:
+        cols: [2, 4]
+        rows: [[3, 5], [0, 2]]
 ---
 
 ## Overview

@@ -14,6 +14,15 @@ engine:
     cols: 8
   players: [white, black]
   setup: "8/bbbbbbbb/bbbbbbbb/8/8/wwwwwwww/wwwwwwww/8"
+  plugins:
+    draughts:
+      piecesPerPlayer: 16
+      directions: "orthogonal"
+      manCapture: "forward"
+      manMove: "forward"
+      forcedCapture: true
+      maximalCapture: true
+      flyingKings: true
 ---
 
 ## Turkish Draughts

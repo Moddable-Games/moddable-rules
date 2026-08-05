@@ -15,6 +15,10 @@ engine:
   setup: "lnsgkgsnl/9/ppppppppp/9/9/PPPPPPPPP/9/LNSGKGSNL"
   render:
     cellSize: 36
+  plugins:
+    shogi:
+      promotionZone: 3
+      drops: false
 ---
 
 # Heian Shogi
