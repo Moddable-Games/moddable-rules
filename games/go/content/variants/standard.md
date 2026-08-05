@@ -1,5 +1,6 @@
 ---
 title: Standard Go (19×19)
+playable: true
 slug: standard
 board: "19×19"
 players: "2"
@@ -15,6 +16,12 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      komi: 6.5
+      scoring: "territory"
+      superko: true
+      suicideAllowed: false
   handicaps:
     range: [2, 3, 4, 5, 6, 7, 8, 9]
     positions:

@@ -1,5 +1,6 @@
 ---
 title: Xiangqi 42
+playable: true
 slug: xiangqi-42
 board: 7×6
 players: 2

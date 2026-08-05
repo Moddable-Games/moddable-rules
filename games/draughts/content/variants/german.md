@@ -1,5 +1,6 @@
 ---
 title: German Draughts
+playable: true
 slug: german
 board: "8×8"
 players: "2"

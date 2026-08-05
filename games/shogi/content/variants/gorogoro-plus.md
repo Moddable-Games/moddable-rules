@@ -1,5 +1,6 @@
 ---
 title: Gorogoro+
+playable: true
 slug: gorogoro-plus
 board: "5×6"
 players: "2"

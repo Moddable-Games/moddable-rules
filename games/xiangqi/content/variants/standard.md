@@ -1,5 +1,6 @@
 ---
 title: Standard Xiangqi
+playable: true
 slug: standard
 board: "9×10"
 players: "2"

@@ -1,5 +1,6 @@
 ---
 title: Canadian Draughts
+playable: true
 slug: canadian
 board: "12×12"
 players: "2"
@@ -14,6 +15,10 @@ engine:
     cols: 12
   players: [white, black]
   setup: "1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/12/12/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1"
+  plugins:
+    draughts:
+      extends: "international"
+      piecesPerPlayer: 30
 ---
 
 ## Canadian Draughts

@@ -1,5 +1,6 @@
 ---
 title: Capture Go
+playable: true
 slug: capture-go
 board: "9×9"
 players: "2"

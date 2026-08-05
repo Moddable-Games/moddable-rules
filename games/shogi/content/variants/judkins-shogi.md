@@ -1,5 +1,6 @@
 ---
 title: "Judkins' Shogi"
+playable: true
 slug: judkins-shogi
 board: "6×6"
 players: "2"

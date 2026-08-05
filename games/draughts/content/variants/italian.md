@@ -1,5 +1,6 @@
 ---
 title: Italian Draughts
+playable: true
 slug: italian
 board: "8×8"
 players: "2"

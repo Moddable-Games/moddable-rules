@@ -1,5 +1,6 @@
 ---
 title: One-Colour Go
+playable: true
 slug: one-colour
 board: "19×19"
 players: "2"
@@ -15,6 +16,9 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      extends: "standard"
 ---
 
 ## One-Colour Go

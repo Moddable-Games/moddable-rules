@@ -1,5 +1,6 @@
 ---
 title: "Heian Shogi"
+playable: true
 slug: heian-shogi
 board: "9×8"
 players: "2"

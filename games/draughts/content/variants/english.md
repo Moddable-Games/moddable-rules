@@ -1,5 +1,6 @@
 ---
 title: English Draughts
+playable: true
 slug: english
 board: "8×8"
 players: "2"

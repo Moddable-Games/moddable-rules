@@ -1,5 +1,6 @@
 ---
 title: Spanish Draughts
+playable: true
 slug: spanish
 board: "8×8"
 players: "2"

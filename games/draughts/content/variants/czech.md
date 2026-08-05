@@ -1,5 +1,6 @@
 ---
 title: Czech Draughts
+playable: true
 slug: czech
 board: "8×8"
 players: "2"

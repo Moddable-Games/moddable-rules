@@ -1,5 +1,6 @@
 ---
 title: Turkish Draughts
+playable: true
 slug: turkish-draughts
 board: "8×8"
 players: "2"

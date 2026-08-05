@@ -1,5 +1,6 @@
 ---
 title: Minishogi
+playable: true
 slug: minishogi
 board: "5×5"
 players: "2"

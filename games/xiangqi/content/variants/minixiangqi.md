@@ -1,5 +1,6 @@
 ---
 title: Minixiangqi
+playable: true
 slug: minixiangqi
 board: "7×7"
 players: "2"

@@ -1,5 +1,6 @@
 ---
 title: Standard Shogi
+playable: true
 slug: standard
 board: "9×9"
 players: "2"
