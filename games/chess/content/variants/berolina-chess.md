@@ -15,21 +15,31 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-  pawnConfig:
-    forwardDir:
-      0: [-1, 0]
-      1: [1, 0]
-    startCells:
-      0: {}
-      1: {}
-    promotionCells:
-      0: {}
-      1: {}
-    captureDirections:
-      0: [[-1,0]
-    moveDirections:
-      0: [[-1,-1]
-    doubleStep: true
+  plugins:
+    chess:
+      pawnConfig:
+        forwardDir:
+          0: [-1, 0]
+          1: [1, 0]
+        startCells:
+          0: [48,49,50,51,52,53,54,55]
+          1: [8,9,10,11,12,13,14,15]
+        promotionCells:
+          0: [0,1,2,3,4,5,6,7]
+          1: [56,57,58,59,60,61,62,63]
+        captureDirections:
+          0:
+            - [-1, 0]
+          1:
+            - [1, 0]
+        moveDirections:
+          0:
+            - [-1,-1]
+            - [-1,1]
+          1:
+            - [1,-1]
+            - [1,1]
+        doubleStep: true
 ---
 
 ## Berolina Chess

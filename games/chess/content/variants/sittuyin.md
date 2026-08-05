@@ -14,6 +14,42 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      castling: false
+      enPassant: false
+      doubleStep: false
+      promotionChoices:
+        - "ferz"
+      pieces:
+        ferz:
+          type: "leaper"
+          offsets:
+            - [-1,-1]
+            - [-1,1]
+            - [1,-1]
+            - [1,1]
+        khon:
+          type: "leaper"
+          offsets:
+            - [-1,-1]
+            - [-1,0]
+            - [-1,1]
+            - [1,-1]
+            - [1,1]
+          directional: true
+      vocabulary:
+        ferz:
+          symbols:
+            "0": "F"
+            "1": "f"
+        khon:
+          symbols:
+            "0": "G"
+            "1": "g"
+      placementPieces:
+        - [rook, rook, knight, knight, khon, khon, ferz, king]
+        - [rook, rook, knight, knight, khon, khon, ferz, king]
 ---
 
 ## Sittuyin (Burmese Chess)

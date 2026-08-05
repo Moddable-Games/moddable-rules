@@ -14,39 +14,58 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR"
-  castling: false
-  enPassant: false
-  doubleStep: false
-  promotionChoices: [ferz]
-  pieces:
-    ferz:
-      type: leaper
-      offsets: [[-1,-1]
-    khon:
-      type: leaper
-      offsets: [[-1,-1]
-  vocabulary:
-    ferz:
-      symbols:
-        0: F
-        1: f
-    khon:
-      symbols:
-        0: G
-        1: g
-  pawnConfig:
-    forwardDir:
-      0: [-1, 0]
-      1: [1, 0]
-    startCells:
-      0: {}
-      1: {}
-    promotionCells:
-      0: {}
-      1: {}
-    captureDirections:
-      0: [[-1,-1]
-    doubleStep: false
+  plugins:
+    chess:
+      setup: "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR"
+      castling: false
+      enPassant: false
+      doubleStep: false
+      promotionChoices:
+        - "ferz"
+      pieces:
+        ferz:
+          type: "leaper"
+          offsets:
+            - [-1,-1]
+            - [-1,1]
+            - [1,-1]
+            - [1,1]
+        khon:
+          type: "leaper"
+          offsets:
+            - [-1,-1]
+            - [-1,0]
+            - [-1,1]
+            - [1,-1]
+            - [1,1]
+          directional: true
+      vocabulary:
+        ferz:
+          symbols:
+            "0": "F"
+            "1": "f"
+        khon:
+          symbols:
+            "0": "G"
+            "1": "g"
+      pawnConfig:
+        forwardDir:
+          0: [-1, 0]
+          1: [1, 0]
+        startCells:
+          0: [40,41,42,43,44,45,46,47]
+          1: [16,17,18,19,20,21,22,23]
+        promotionCells:
+          0: [16,17,18,19,20,21,22,23]
+          1: [40,41,42,43,44,45,46,47]
+        captureDirections:
+          0:
+            - [-1,-1]
+            - [-1,1]
+          1:
+            - [1,-1]
+            - [1,1]
+        doubleStep: false
 ---
 
 ## Makruk (Thai Chess)

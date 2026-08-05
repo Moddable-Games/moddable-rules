@@ -14,6 +14,39 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnekfenr/pppppppp/8/8/8/8/PPPPPPPP/RNEKFENR"
+  plugins:
+    chess:
+      setup: "rnekfenr/pppppppp/8/8/8/8/PPPPPPPP/RNEKFENR"
+      castling: false
+      enPassant: false
+      doubleStep: false
+      stalemateMeaning: "win"
+      promotionChoices:
+        - "ferz"
+      pieces:
+        ferz:
+          type: "leaper"
+          offsets:
+            - [-1,-1]
+            - [-1,1]
+            - [1,-1]
+            - [1,1]
+        alfil:
+          type: "leaper"
+          offsets:
+            - [-2,-2]
+            - [-2,2]
+            - [2,-2]
+            - [2,2]
+      vocabulary:
+        ferz:
+          symbols:
+            "0": "F"
+            "1": "f"
+        alfil:
+          symbols:
+            "0": "E"
+            "1": "e"
 ---
 
 ## Shatranj
