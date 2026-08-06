@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard Reversi
 slug: standard
 board: "8×8"
@@ -12,8 +13,14 @@ engine:
     type: grid
     rows: 8
     cols: 8
-  players: [white, black]
+  players: [black, white]
   setup: "8/8/8/3bw3/3wb3/8/8/8"
+  plugins:
+    reversi:
+      directions: "all"
+      mustFlip: true
+      winBy: "most"
+      passWhenNoMoves: true
 ---
 
 ## Standard

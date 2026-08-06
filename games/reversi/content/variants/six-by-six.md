@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Six-by-Six Reversi
 slug: six-by-six
 board: "6×6"
@@ -12,8 +13,14 @@ engine:
     type: grid
     rows: 6
     cols: 6
-  players: [white, black]
+  players: [black, white]
   setup: "6/6/2bw2/2wb2/6/6"
+  plugins:
+    reversi:
+      directions: "all"
+      mustFlip: true
+      winBy: "most"
+      passWhenNoMoves: true
 ---
 
 ## Six-by-Six
