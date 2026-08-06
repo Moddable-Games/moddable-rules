@@ -66,4 +66,4 @@ The Empire’s strength lies in the Queen-slide movement: every piece can reach 
 
 ### Attribution
 
-Designed by Corey Clark. Published 2019. Rules available via Shogun of Games and Lichess. Public domain rule set.
+Designed by Couch Tomato, 2020. Rules available via Pychess variants. Public domain rule set.

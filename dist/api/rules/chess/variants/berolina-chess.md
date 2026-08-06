@@ -31,4 +31,4 @@ Berolina pawns control different squares than normal pawns. A pawn on e2 can adv
 
 ### Attribution
 
-Invented by Edmund Hebermann in Berlin, 1926. Public domain.
+Invented by Edmund Nebermann in Berlin, 1926. Public domain.

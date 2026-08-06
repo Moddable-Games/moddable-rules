@@ -142,7 +142,7 @@
     },
     {
       "path": "/api/rules/chess/variants/",
-      "description": "Chess variant markdown files (153)",
+      "description": "Chess variant markdown files (154)",
       "type": "directory"
     },
     {
@@ -771,10 +771,10 @@
       "type": "json"
     }
   ],
-  "generated": "2026-07-28",
+  "generated": "2026-08-06",
   "stats": {
     "totalGames": 46,
-    "totalVariants": 295,
+    "totalVariants": 296,
     "totalComponentGames": 38,
     "totalPages": 177,
     "totalOracleTables": 458,

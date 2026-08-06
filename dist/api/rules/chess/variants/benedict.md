@@ -34,4 +34,4 @@ Long-range pieces (Queen, Bishops, Rooks) are enormously powerful because they c
 
 ### Attribution
 
-C. S. Elliott, 1971. Named after Benedict Arnold. Public domain rules.
+Dan Troyka, 2001. Named after Benedict Arnold. Public domain rules.

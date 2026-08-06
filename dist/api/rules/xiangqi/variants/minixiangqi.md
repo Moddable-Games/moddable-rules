@@ -24,9 +24,9 @@ Minixiangqi removes the Advisor and Elephant from both sides. Each side has: **G
 
 Red moves first.
 
-**FEN:** `rcnkncr/p1ppp1p/7/7/7/P1PPP1P/RCNKNCR w - - 0 1`
+**FEN:** `rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR w - - 0 1`
 
-*(R/r = Chariot, C/c = Cannon, N/n = Horse, K/k = General, P/p = Soldier.)*
+*(R/r = Chariot, C/c = Cannon, H/h = Horse, K/k = General, P/p = Soldier.)*
 
 ### Pieces
 

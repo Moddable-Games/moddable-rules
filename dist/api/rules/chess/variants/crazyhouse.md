@@ -32,4 +32,4 @@ Piece drops create explosive tactical possibilities — no piece is ever truly l
 
 ### Attribution
 
-Traditional variant. Derives from Shogi's drop mechanic applied to Western chess. Popularised on Lichess and FICS. Public domain.
+Derives from Shogi's drop mechanic applied to Western chess. Documented in Pritchard, *The Encyclopedia of Chess Variants* (1994) and Pritchard, *The Classified Encyclopedia of Chess Variants* (2007) under "Chessgi" / "Crazyhouse". Standardised rules from Lichess (lichess.org/variant/crazyhouse) and FICS, which popularised the variant from the 1990s onward. Public domain.

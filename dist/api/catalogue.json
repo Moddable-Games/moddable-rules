@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-28",
+  "generated": "2026-08-06",
   "stats": {
     "totalGames": 46,
-    "totalVariants": 295,
+    "totalVariants": 296,
     "totalComponentGames": 38,
     "totalPages": 177,
     "totalOracleTables": 458,
@@ -900,7 +900,7 @@
           "players": "2",
           "board": "12×8",
           "win": "Checkmate",
-          "special": "Medieval German variant from the 1200s. Extra bishops and sage pieces."
+          "special": "Medieval German variant from 1202. Courier (modern bishop), Mann, Schleich (orthogonal-only), and Alfil on a 12-wide board."
         },
         {
           "slug": "crazy-38s",
@@ -1020,7 +1020,7 @@
           "players": "2",
           "board": "8×8",
           "win": "Checkmate or Faceoff",
-          "special": "Asymmetric: FIDE Kingdom vs. Empire dynasty. Empire pieces move like Queens but capture in limited piece-specific ways. Faceoff rule: open-file confrontation between royal pieces loses for the creator. Designed by Corey Clark, 2019."
+          "special": "Asymmetric: FIDE Kingdom vs. Empire dynasty. Empire pieces move like Queens but capture in limited piece-specific ways. Faceoff rule: open-file confrontation between royal pieces loses for the creator. Designed by Couch Tomato, 2020."
         },
         {
           "slug": "endgame-chess",
@@ -1108,7 +1108,7 @@
           "players": "2",
           "board": "10×10",
           "win": "Checkmate",
-          "special": "Same new pieces as Capablanca, bigger board, pawns start on rank 3."
+          "special": "Marshal and Cardinal on a 10×10 board, pawns start on rank 3."
         },
         {
           "slug": "grande-acedrex",
@@ -1268,7 +1268,7 @@
           "players": "2",
           "board": "8×8",
           "win": "Checkmate",
-          "special": "Same-type opposing pieces paralyse each other when they attack."
+          "special": "Same-type opposing pieces paralyse each other when they attack. Kings exempt."
         },
         {
           "slug": "maharaja",
@@ -1292,7 +1292,7 @@
           "players": "2",
           "board": "8×8",
           "win": "Checkmate",
-          "special": "Thai chess. Pawns promote on rank 6 to Met (one-step diagonal). No castling or en passant."
+          "special": "Thai chess. Khon moves 5 directions (silver general). Pawns promote on rank 6 to Met. No castling or en passant."
         },
         {
           "slug": "mansindam",
@@ -1324,7 +1324,7 @@
           "players": "2",
           "board": "8×8",
           "win": "Checkmate",
-          "special": "After the queen moves, all enemy pieces she attacks become petrified for 2 turns."
+          "special": "After the queen moves, all enemy pieces she attacks become petrified for 2 turns. Kings immune."
         },
         {
           "slug": "metamachy",
@@ -1436,7 +1436,7 @@
           "players": "2",
           "board": "8×8",
           "win": "Checkmate",
-          "special": "Pieces can only capture or give check when defended by a friendly piece."
+          "special": "Pieces can only capture or give check when defended by a friendly piece. Non-capturing moves unrestricted."
         },
         {
           "slug": "pawns-only",
@@ -1485,6 +1485,14 @@
           "board": "8×8",
           "win": "Checkmate",
           "special": "Capture squares become poisoned for 3 turns — non-king pieces landing there are destroyed."
+        },
+        {
+          "slug": "progressive-italian",
+          "title": "Progressive Italian",
+          "players": "2",
+          "board": "8×8",
+          "win": "Checkmate",
+          "special": "Italian progressive — moves escalate (1, 2, 3...) but you may not give check until your final move of the turn."
         },
         {
           "slug": "progressive",
@@ -1579,8 +1587,8 @@
           "title": "Shatar",
           "players": "2",
           "board": "8×8",
-          "win": "Bare king",
-          "special": "Mongolian chess. No check — win by leaving the opponent with only their King remaining."
+          "win": "Checkmate (with restrictions)",
+          "special": "Mongolian chess. Check exists (shak/dug/tsod). Mate must include a shak. Knight cannot deliver mate. Bare king is a draw. Obligatory opening 1.d4 d5."
         },
         {
           "slug": "shatranj-kamil",
@@ -1796,7 +1804,7 @@
           "players": "2",
           "board": "8×8",
           "win": "Checkmate",
-          "special": "Weakest piece type with a legal move must move first."
+          "special": "Weakest piece type with a legal move must move first. Strength order: Pawn < Knight < Bishop < Rook < Queen < King."
         },
         {
           "slug": "xiang-fu",
