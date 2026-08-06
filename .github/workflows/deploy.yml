@@ -62,3 +62,7 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # Stopgap: 253 MB artifact needs longer than the 600s default.
+          # Permanent fix: remove PDFs from _site (#250).
+          timeout: 1800000
