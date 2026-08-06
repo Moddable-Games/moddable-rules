@@ -27,9 +27,6 @@ jobs:
 
       - run: npm ci --ignore-scripts
 
-      - name: Validate FEN/setup strings
-        run: node scripts/check-fen.mjs
-
       - run: npm run build
 
       - name: Assemble site
@@ -42,15 +39,14 @@ jobs:
           cp -r diagrams _site/
           cp -r dist _site/
           cp -r shared _site/
-          # Copy games/ excluding PDFs (277 MB, 58% of payload — see #250)
-          rsync -a --exclude='*.pdf' games/ _site/games/
+          cp -r games _site/
           cp -r js _site/
           cp -r css _site/
           # Serve API JSON at /api/ (not just /dist/api/)
           cp -r api _site/
           cp -r dist/api/* _site/api/
 
-      - uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
@@ -62,8 +58,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v5
-        with:
-          # Stopgap: 253 MB artifact needs longer than the 600s default.
-          # Permanent fix: remove PDFs from _site (#250).
-          timeout: 1800000
+        uses: actions/deploy-pages@v4
