@@ -1,4 +1,6 @@
 ---
+playable: true
+key: monsterChess
 title: Monster Chess
 slug: monster-chess
 board: "8×8"
@@ -13,6 +15,9 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R"
+  plugins:
+    chess:
+      setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R"
 ---
 
 ## Monster Chess
@@ -48,4 +53,4 @@ White's double-move creates devastating tactical threats but the material defici
 
 ### Attribution
 
-Traditional variant. Public domain.
+Documented in Pritchard, *The Classified Encyclopedia of Chess Variants* (2007). Setup and rules follow the standard formulation: White has King + 2 Rooks + 8 Pawns, gets two moves per turn, check ends the turn. Public domain.

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Half Chess
 slug: half-chess
 board: "8×4"
@@ -13,6 +14,7 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/PPPPPPPP/RNBQKBNR"
+  enPassant: false
 ---
 
 ## Half Chess

@@ -1,4 +1,6 @@
 ---
+playable: true
+key: displacementChess
 title: Displacement Chess
 slug: displacement-chess
 board: "8×8"

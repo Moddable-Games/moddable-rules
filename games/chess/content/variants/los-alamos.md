@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Los Alamos
 slug: los-alamos
 board: "6×6"
@@ -13,6 +14,9 @@ engine:
     cols: 6
   players: [white, black]
   setup: "rnqknr/pppppp/6/6/PPPPPP/RNQKNR"
+  castling: false
+  enPassant: false
+  doubleStep: false
 ---
 
 ## Los Alamos

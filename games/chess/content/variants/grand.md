@@ -1,11 +1,12 @@
 ---
+playable: true
 title: Grand Chess
 slug: grand
 board: "10×10"
 players: "2"
 parent: chess
 win: Checkmate
-special: Same new pieces as Capablanca, bigger board, pawns start on rank 3.
+special: Marshal and Cardinal on a 10×10 board, pawns start on rank 3.
 engine:
   topology:
     type: grid
@@ -14,7 +15,28 @@ engine:
   players: [white, black]
   render:
     cellSize: 34
-  setup: "r8r/1nbqkcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKCBN1/R8R"
+  setup: "r8r/1nbqkmcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKMCBN1/R8R"
+  promotionChoices: [queen, rook, bishop, knight, cardinal, marshal]
+  castling: false
+  pawnStartRow:
+    0: 7
+    1: 2
+  pieces:
+    marshal:
+      type: compose
+      parts: [rook, knight]
+    cardinal:
+      type: compose
+      parts: [bishop, knight]
+  vocabulary:
+    marshal:
+      symbols:
+        0: M
+        1: m
+    cardinal:
+      symbols:
+        0: C
+        1: c
 ---
 
 ## Grand Chess
@@ -29,13 +51,13 @@ A 10×10 variant that adds the Archbishop and Chancellor without changing any ex
 
 ### Pieces
 
-**Pieces (per side):** 1 King, 1 Queen, 1 Archbishop, 1 Chancellor, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.
-- **Archbishop** (♗+♞) — Bishop + Knight compound.
-- **Chancellor** (♖+♞) — Rook + Knight compound.
+**Pieces (per side):** 1 King, 1 Queen, 1 Marshal, 1 Cardinal, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.
+- **Marshal** (♖+♞) — Rook + Knight compound.
+- **Cardinal** (♗+♞) — Bishop + Knight compound.
 
 **Setup:** Pawns on rank 3. Back two ranks arranged: empty corners, pieces spread across ranks 1–2 with King and Queen central.
 
-**FEN:** `r8r/1nbqkcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKCBN1/R8R w - - 0 1`
+**FEN:** `r8r/1nbqkmcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKMCBN1/R8R w - - 0 1`
 
 ### Rules
 

@@ -14,7 +14,7 @@ engine:
   players: [white, black]
   render:
     cellSize: 30
-  setup: "rcnbsqksbcr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RCNBSQKSBCR"
+  setup: "rcblkqlbcr/1tn1ss1nt1/pppppppppp/10/10/10/10/PPPPPPPPPP/1TN1SS1NT1/RCBLKQLBCR"
 ---
 
 ## Centennial Chess

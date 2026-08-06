@@ -6,14 +6,26 @@ players: "2"
 parent: chess
 win: "Checkmate, stalemate the opponent, or bare the opponent's King"
 special: "Played on a circular board of 4 concentric rings and 16 files (64 squares). Uses Shatranj piece movements: Bishops leap two diagonal squares, Queens move one diagonal square. Stalemate is a win. Baring the opponent's King wins unless the opponent can bare back immediately."
+playable: true
 engine:
   topology:
     type: grid
     rows: 4
     cols: 16
-    wrap: cylinder
+    wrap: files
   players: [white, black]
   setup: "KP4pqkp4PQ/BP4pbbp4PB/NP4pnnp4PN/RP4prrp4PR"
+  castling: false
+  enPassant: false
+  doubleStep: false
+  stalemateMeaning: win
+  pieces:
+    queen:
+      type: leaper
+      offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+    bishop:
+      type: leaper
+      offsets: [[-2,-2],[-2,2],[2,-2],[2,2]]
 ---
 
 # Byzantine Chess

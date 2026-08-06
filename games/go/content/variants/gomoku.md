@@ -1,5 +1,6 @@
 ---
 title: Gomoku
+playable: true
 slug: gomoku
 board: "15×15"
 players: "2"
@@ -15,6 +16,14 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      komi: 0
+      scoring: "none"
+      captures: false
+      allowPass: false
+      suicideAllowed: true
+      superko: false
 ---
 
 ## Gomoku

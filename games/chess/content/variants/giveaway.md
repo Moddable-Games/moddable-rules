@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Giveaway
 slug: giveaway
 board: "8×8"
@@ -13,6 +14,11 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      castling: false
+      noCheck: true
+      stalemateMeaning: "loss"
 ---
 
 ## Giveaway

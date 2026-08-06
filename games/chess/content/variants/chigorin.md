@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Chigorin
 slug: chigorin
 board: "8×8"
@@ -13,6 +14,7 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNNQKNNR"
+  castling: false
 ---
 
 ## Chigorin

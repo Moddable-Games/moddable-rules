@@ -1,4 +1,6 @@
 ---
+playable: true
+key: fiveCheck
 title: Five-Check
 slug: five-check
 board: "8×8"
@@ -13,6 +15,9 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      checkThreshold: 5
 ---
 
 ## Five-Check

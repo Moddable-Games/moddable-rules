@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Rifle Chess
 slug: rifle
 board: "8×8"

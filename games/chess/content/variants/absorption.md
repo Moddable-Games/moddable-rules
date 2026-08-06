@@ -1,4 +1,6 @@
 ---
+playable: true
+key: absorptionChess
 title: Absorption Chess
 slug: absorption
 board: "8×8"

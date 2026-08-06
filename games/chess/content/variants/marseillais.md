@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Marseillais Chess
 slug: marseillais
 board: "8×8"
@@ -48,4 +49,4 @@ The double-move creates devastating tactical combinations. A Knight can reach an
 
 ### Attribution
 
-Originated in Marseille, France, early 20th century. Public domain.
+Originated in Marseille, France, early 20th century. Documented in Pritchard, *The Encyclopedia of Chess Variants* (1994), pp. 189-190. Also in Cazaux and Knowlton, *A World of Chess* (2017). Rules as played on FICS and Lichess follow the standard formulation: two moves per turn, check ends the turn immediately, White's first turn is one move only. Public domain.

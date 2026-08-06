@@ -1,5 +1,6 @@
 ---
 title: Ninuki-Renju
+playable: true
 slug: ninuki-renju
 board: "15×15"
 players: "2"
@@ -15,6 +16,11 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      extends: "gomoku"
+      captures: "pairs"
+      captureTarget: 10
 ---
 
 ## Ninuki-Renju

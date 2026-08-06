@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Minichess
 slug: minichess
 board: "5×5"
@@ -13,6 +14,8 @@ engine:
     cols: 5
   players: [white, black]
   setup: "kqbnr/ppppp/5/PPPPP/RNBQK"
+  castling: false
+  enPassant: false
 ---
 
 ## Minichess

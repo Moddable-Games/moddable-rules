@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Pawns Only
 slug: pawns-only
 board: "8×8"
@@ -13,6 +14,7 @@ engine:
     cols: 8
   players: [white, black]
   setup: "4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3"
+  castling: false
 ---
 
 ## Pawns Only

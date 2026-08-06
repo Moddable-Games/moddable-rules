@@ -1,4 +1,6 @@
 ---
+playable: true
+key: benedictChess
 title: Benedict Chess
 slug: benedict
 board: "8×8"
@@ -13,6 +15,9 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      noCheck: true
 ---
 
 ## Benedict Chess
@@ -51,4 +56,4 @@ Long-range pieces (Queen, Bishops, Rooks) are enormously powerful because they c
 
 ### Attribution
 
-C. S. Elliott, 1971. Named after Benedict Arnold. Public domain rules.
+Dan Troyka, 2001. Named after Benedict Arnold. Public domain rules.

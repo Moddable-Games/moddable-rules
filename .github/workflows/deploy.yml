@@ -27,6 +27,9 @@ jobs:
 
       - run: npm ci --ignore-scripts
 
+      - name: Validate FEN/setup strings
+        run: node scripts/check-fen.mjs
+
       - run: npm run build
 
       - name: Assemble site

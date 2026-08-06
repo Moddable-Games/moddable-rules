@@ -1,5 +1,6 @@
 ---
 title: Standard Shogi
+playable: true
 slug: standard
 board: "9×9"
 players: "2"
@@ -14,6 +15,9 @@ engine:
     cols: 9
   players: [sente, gote]
   setup: "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL"
+  plugins:
+    shogi:
+      promotionZone: 3
 ---
 
 ## Standard Shogi

@@ -1,4 +1,6 @@
 ---
+playable: true
+key: duckChess
 title: Duck Chess
 slug: duck-chess
 board: "8×8"
@@ -13,6 +15,15 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      vocabulary:
+        blocker:
+          symbols:
+            "-1": "D"
+      render:
+        fenMap:
+          D: "duck"
 ---
 
 ## Duck Chess

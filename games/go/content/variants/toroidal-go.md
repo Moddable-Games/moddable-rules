@@ -1,5 +1,6 @@
 ---
 title: Toroidal Go
+playable: true
 slug: toroidal-go
 board: "11×11"
 players: "2"
@@ -15,6 +16,14 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      komi: 4.5
+      scoring: "territory"
+      superko: true
+      suicideAllowed: false
+      topology:
+        wrap: "both"
 ---
 
 ## Toroidal Go

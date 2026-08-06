@@ -1,5 +1,6 @@
 ---
 title: International Draughts
+playable: true
 slug: international
 board: "10×10"
 players: "2"
@@ -14,6 +15,17 @@ engine:
     cols: 10
   players: [white, black]
   setup: "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
+  plugins:
+    draughts:
+      piecesPerPlayer: 20
+      directions: "diagonal"
+      manCapture: "all"
+      manMove: "forward"
+      captureBackward: true
+      forcedCapture: true
+      maximalCapture: true
+      flyingKings: true
+      removeImmediately: false
 ---
 
 ## International Draughts

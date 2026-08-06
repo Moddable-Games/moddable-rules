@@ -1,5 +1,6 @@
 ---
 title: Minishogi
+playable: true
 slug: minishogi
 board: "5×5"
 players: "2"
@@ -15,6 +16,9 @@ engine:
   setup: "rbsgk/4p/5/P4/KGSBR"
   render:
     cellSize: 40
+  plugins:
+    shogi:
+      promotionZone: 1
 ---
 
 ## Minishogi

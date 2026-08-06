@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Antichess
 slug: antichess
 board: "8×8"
@@ -13,6 +14,22 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      castling: false
+      noCheck: true
+      stalemateMeaning: "win"
+      promotionChoices:
+        - "queen"
+        - "rook"
+        - "bishop"
+        - "knight"
+        - "king"
+      openingBook:
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -":
+          - "e2e3"
+          - "b2b4"
+          - "g2g4"
 ---
 
 ## Antichess

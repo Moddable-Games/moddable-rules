@@ -1,6 +1,9 @@
 ---
+playable: true
+key: immunizationChess
 title: Immunization Chess
 slug: immunization-chess
+original: true
 board: "8×8"
 players: "2"
 parent: chess
@@ -50,4 +53,4 @@ Captures create a defensive shield around the victim's neighbours — making exc
 
 ### Attribution
 
-Modern variant. Public domain.
+Moddable Games original. No external provenance is claimed. Designed as a capture-triggered area-effect variant to exercise the engine's timed-effect system.

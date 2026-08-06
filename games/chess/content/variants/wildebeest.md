@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard Wildebeest Chess
 slug: wildebeest
 board: "11x10"
@@ -16,6 +17,23 @@ engine:
   render:
     cellSize: 30
   setup: "rncwqkwcnr1/ppppppppppp/11/11/11/11/11/11/PPPPPPPPPPP/RNCWQKWCNR1"
+  promotionChoices: [queen, rook, knight, camel, wildebeest]
+  pieces:
+    camel:
+      type: leaper
+      offsets: camel
+    wildebeest:
+      type: compose
+      parts: [knight, {type: leaper, offsets: camel}]
+  vocabulary:
+    camel:
+      symbols:
+        0: C
+        1: c
+    wildebeest:
+      symbols:
+        0: W
+        1: w
 ---
 
 ## Standard Wildebeest Chess

@@ -1,5 +1,6 @@
 ---
 title: Standard Xiangqi
+playable: true
 slug: standard
 board: "9×10"
 players: "2"
@@ -14,6 +15,11 @@ engine:
     cols: 9
   players: [red, black]
   setup: "rheakaehr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
+  plugins:
+    xiangqi:
+      hasRiver: true
+      flyingGeneralRule: true
+      cannonJumpToMove: false
 ---
 
 ## Standard Xiangqi

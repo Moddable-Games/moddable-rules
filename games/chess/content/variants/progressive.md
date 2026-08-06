@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Progressive
 slug: progressive
 board: "8×8"

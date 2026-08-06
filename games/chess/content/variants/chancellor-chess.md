@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Chancellor Chess
 slug: chancellor-chess
 board: "9×9"
@@ -15,6 +16,16 @@ engine:
   render:
     cellSize: 36
   setup: "rnbqkcbnr/ppppppppp/9/9/9/9/9/PPPPPPPPP/RNBQKCBNR"
+  promotionChoices: [queen, rook, bishop, knight, chancellor]
+  pieces:
+    chancellor:
+      type: compose
+      parts: [rook, knight]
+  vocabulary:
+    chancellor:
+      symbols:
+        0: C
+        1: c
 ---
 
 ## Chancellor Chess

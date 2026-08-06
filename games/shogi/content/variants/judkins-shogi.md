@@ -1,5 +1,6 @@
 ---
 title: "Judkins' Shogi"
+playable: true
 slug: judkins-shogi
 board: "6×6"
 players: "2"
@@ -15,6 +16,9 @@ engine:
   setup: "rbsgkn/5p/6/6/P5/NKGSBR"
   render:
     cellSize: 40
+  plugins:
+    shogi:
+      promotionZone: 2
 ---
 
 # Judkins' Shogi

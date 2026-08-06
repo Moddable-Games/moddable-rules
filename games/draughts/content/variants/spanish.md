@@ -1,5 +1,6 @@
 ---
 title: Spanish Draughts
+playable: true
 slug: spanish
 board: "8×8"
 players: "2"
@@ -14,6 +15,16 @@ engine:
     cols: 8
   players: [white, black]
   setup: "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1"
+  plugins:
+    draughts:
+      piecesPerPlayer: 12
+      directions: "diagonal"
+      manCapture: "forward"
+      manMove: "forward"
+      forcedCapture: true
+      maximalCapture: true
+      majorityPrefersKing: true
+      flyingKings: true
 ---
 
 ## Spanish Draughts

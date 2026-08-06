@@ -1,11 +1,12 @@
 ---
+playable: true
 title: Courier Chess
 slug: courier
 board: "12×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: Medieval German variant from the 1200s. Extra bishops and sage pieces.
+special: Medieval German variant from 1202. Courier (modern bishop), Mann, Schleich (orthogonal-only), and Alfil on a 12-wide board.
 engine:
   topology:
     type: grid
@@ -14,7 +15,42 @@ engine:
   players: [white, black]
   render:
     cellSize: 32
-  setup: "rnebfsksbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBFSKSBENR"
+  setup: "rnebmkfsbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBMKFSBENR"
+  castling: false
+  enPassant: false
+  doubleStep: false
+  promotionChoices: [ferz]
+  pieces:
+    ferz:
+      type: leaper
+      offsets: [[-1,-1]
+    alfil:
+      type: leaper
+      offsets: [[-2,-2]
+    mann:
+      type: rider
+      dirs: all
+      maxSteps: 1
+    schleich:
+      type: leaper
+      offsets: [[-1,0]
+  vocabulary:
+    ferz:
+      symbols:
+        0: F
+        1: f
+    alfil:
+      symbols:
+        0: E
+        1: e
+    mann:
+      symbols:
+        0: D
+        1: d
+    schleich:
+      symbols:
+        0: T
+        1: t
 ---
 
 ## Courier Chess
@@ -25,37 +61,47 @@ A medieval large-board variant documented since 1202, predating the modern Queen
 
 **Board:** 12×8 (96 squares).
 
-**FEN:** `rnebfsksbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBFSKSBENR w - - 0 1`
+**Back rank, a-file to l-file:** Rook, Knight, Alfil, Courier, Mann, King, Fers, Schleich, Courier, Alfil, Knight, Rook. Twelve Pawns on the second rank.
+
+- White: Rook a1 l1, Knight b1 k1, Alfil c1 j1, Courier d1 i1, Mann e1, King f1, Fers g1, Schleich h1; Pawns a2–l2
+- Black mirrors on ranks 8 and 7
+
+**FEN:** `rnebmkfsbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBMKFSBENR w - - 0 1`
+
+(R = Rook, N = Knight, E = Alfil, B = Courier, M = Mann, K = King, F = Fers, S = Schleich)
 
 {{svg:courier-board.svg "Courier Chess — starting position (12×8)"}}
 
-**Pieces (per side, from a-file):** Rook, Knight, Elephant, Courier, General, Sage, King, Sage, Courier, Elephant, Knight, Rook. 12 Pawns on the second rank.
+### Pieces
 
 | Piece | Movement |
 |-------|----------|
-| King | One step any direction (as standard) |
-| General | One step diagonally only (precursor to Queen — very weak) |
-| Courier | Slides diagonally any distance (modern Bishop) |
-| Sage (Schleich) | One step in any direction (same as King, but not royal) |
-| Elephant (Alfil) | Exactly two steps diagonally, jumping over the intermediate square |
-| Rook | Slides orthogonally (as standard) |
-| Knight | L-shape jump (as standard) |
-| Pawn | One step forward, captures diagonally. No double-step. Promotes to General only. |
+| King | One step any direction. Royal. No castling |
+| Fers (Queen) | One step diagonally only. The medieval Queen, very weak |
+| Courier | Slides diagonally any distance. The modern Bishop |
+| Mann (counsellor) | One step any direction, as the King, but not royal |
+| Schleich (sneak) | **One step orthogonally only.** No diagonal movement. The weakest piece |
+| Alfil (Elephant) | Leaps exactly two squares diagonally, over any intervening piece. Colour-bound |
+| Rook | Slides orthogonally any distance |
+| Knight | L-shaped leap, as standard |
+| Pawn | One step forward, captures diagonally forward. No double step. Promotes to Fers only |
 
 ### Rules
 
-Standard chess movement applies per the table above. No castling. No pawn double-step. No en passant. Stalemate counts as a win (medieval rules).
+Standard chess movement applies per the table above. No castling. No pawn double-step. No en passant.
+
+**Stalemate:** The file's original claim that "stalemate counts as a win (medieval rules)" is unsourced. Medieval practice varied by region. Marked `rulebook-ambiguous`; do not implement as a win without a primary source.
 
 ### Win Condition
 
-Checkmate or stalemate (stalemate = win for the side delivering it in medieval rules).
+Checkmate the opponent's King.
 
-**Historical note:** The Courier was the first piece to move like a modern Bishop — this game introduced unlimited diagonal sliding to European chess centuries before it was adopted into the standard game.
+**Historical note:** The Courier was the first piece to move like a modern Bishop. This game introduced unlimited diagonal sliding to European chess centuries before it was adopted into the standard game.
 
 ### Strategy
 
-The General (proto-Queen) is extremely weak — one diagonal step. The Couriers (modern Bishops) are the strongest attacking pieces. The wide board makes Knight development slow. Alfils (Elephants) can leap but are limited to every-other-square diagonals, creating gaps in coverage. Rooks dominate open files as in standard chess.
+The Fers (proto-Queen) is extremely weak: one diagonal step. The Couriers (modern Bishops) are the strongest attacking pieces. The wide board makes Knight development slow. Alfils can leap but are colour-bound, creating gaps. The Schleich is nearly useless offensively but can block. Rooks dominate open files as in standard chess.
 
 ### Attribution
 
-First documented 1202 (Wirnt von Gravenberg). Public domain.
+First documented 1202 (Wirnt von Gravenberg, *Wigalois*). Public domain.

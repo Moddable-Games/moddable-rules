@@ -1,4 +1,5 @@
 ---
+playable: true
 title: No Castling Chess
 slug: no-castling
 board: "8×8"
@@ -13,6 +14,7 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  castling: false
 ---
 
 ## No Castling Chess

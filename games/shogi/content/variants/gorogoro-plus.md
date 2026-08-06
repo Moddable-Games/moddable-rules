@@ -1,5 +1,6 @@
 ---
 title: Gorogoro+
+playable: true
 slug: gorogoro-plus
 board: "5×6"
 players: "2"
@@ -16,6 +17,12 @@ engine:
   setup: "sgkgs/5/1ppp1/1PPP1/5/SGKGS"
   render:
     cellSize: 40
+  plugins:
+    shogi:
+      promotionZone: 2
+      initialHands:
+        - [knight, lance]
+        - [knight, lance]
 ---
 
 ## Gorogoro+

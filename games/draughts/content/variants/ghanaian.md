@@ -1,5 +1,6 @@
 ---
 title: Ghanaian Draughts
+playable: true
 slug: ghanaian
 board: "10×10"
 players: "2"
@@ -14,6 +15,12 @@ engine:
     cols: 10
   players: [white, black]
   setup: "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
+  plugins:
+    draughts:
+      extends: "international"
+      manCapture: "forward"
+      captureBackward: false
+      loseOnSinglePiece: true
 ---
 
 ## Ghanaian Draughts

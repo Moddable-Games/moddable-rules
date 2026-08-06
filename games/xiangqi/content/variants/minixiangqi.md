@@ -1,5 +1,6 @@
 ---
 title: Minixiangqi
+playable: true
 slug: minixiangqi
 board: "7×7"
 players: "2"
@@ -35,6 +36,13 @@ engine:
         color: "#4a3520"
         width: 2
     decorations: []
+  plugins:
+    xiangqi:
+      hasRiver: false
+      flyingGeneralRule: true
+      palace:
+        cols: [2, 4]
+        rows: [[4, 6], [0, 2]]
 ---
 
 ## Minixiangqi
@@ -63,9 +71,9 @@ Minixiangqi removes the Advisor and Elephant from both sides. Each side has: **G
 
 Red moves first.
 
-**FEN:** `rcnkncr/p1ppp1p/7/7/7/P1PPP1P/RCNKNCR w - - 0 1`
+**FEN:** `rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR w - - 0 1`
 
-*(R/r = Chariot, C/c = Cannon, N/n = Horse, K/k = General, P/p = Soldier.)*
+*(R/r = Chariot, C/c = Cannon, H/h = Horse, K/k = General, P/p = Soldier.)*
 
 ### Pieces
 

@@ -1,4 +1,6 @@
 ---
+playable: true
+key: einsteinChess
 title: Einstein Chess
 slug: einstein-chess
 board: "8×8"
@@ -50,4 +52,4 @@ Every move changes your piece composition. Aggressive play (captures) builds str
 
 ### Attribution
 
-Invented by B. Iqbal, 2005. Public domain.
+Invented by Gérard Bédoni and Daniel Zeller, 1981. Public domain.

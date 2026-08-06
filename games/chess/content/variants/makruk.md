@@ -1,23 +1,76 @@
 ---
+playable: true
 title: Makruk
 slug: makruk
 board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: Thai chess. Pawns promote on rank 6 to Met (one-step diagonal). No castling or en passant.
+special: Thai chess. Khon moves 5 directions (silver general). Pawns promote on rank 6 to Met. No castling or en passant.
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rngfkgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGFKGNR"
+  setup: "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR"
+  plugins:
+    chess:
+      setup: "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR"
+      castling: false
+      enPassant: false
+      doubleStep: false
+      promotionChoices:
+        - "ferz"
+      pieces:
+        ferz:
+          type: "leaper"
+          offsets:
+            - [-1,-1]
+            - [-1,1]
+            - [1,-1]
+            - [1,1]
+        khon:
+          type: "leaper"
+          offsets:
+            - [-1,-1]
+            - [-1,0]
+            - [-1,1]
+            - [1,-1]
+            - [1,1]
+          directional: true
+      vocabulary:
+        ferz:
+          symbols:
+            "0": "F"
+            "1": "f"
+        khon:
+          symbols:
+            "0": "G"
+            "1": "g"
+      pawnConfig:
+        forwardDir:
+          0: [-1, 0]
+          1: [1, 0]
+        startCells:
+          0: [40,41,42,43,44,45,46,47]
+          1: [16,17,18,19,20,21,22,23]
+        promotionCells:
+          0: [16,17,18,19,20,21,22,23]
+          1: [40,41,42,43,44,45,46,47]
+        captureDirections:
+          0:
+            - [-1,-1]
+            - [-1,1]
+          1:
+            - [1,-1]
+            - [1,1]
+        doubleStep: false
 ---
 
 ## Makruk (Thai Chess)
 
-The traditional chess of Thailand, played since the 16th century. Features a weaker promoted piece and no castling.
+The traditional chess of Thailand, played since at least the 16th century. Distinctive for its silver-general piece (Khon), early pawn promotion, and endgame counting rules that force resolution.
 
 
 {{svg:makruk-board.svg "Makruk — starting position"}}
@@ -26,19 +79,53 @@ The traditional chess of Thailand, played since the 16th century. Features a wea
 
 **Board:** Standard 8×8.
 
-**Setup:** Pawns start on the 3rd rank (not 2nd). Back rank: Rook, Knight, Silver General (Met), King, Queen (Met equivalent), Silver General, Knight, Rook.
+**Starting position:** Pawns on the 3rd rank. Back rank (a1–h1 for White): Rook, Knight, Khon, Khun (King), Met, Khon, Knight, Rook.
 
-**FEN:** `rngfkgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGFKGNR w - - 0 1`
+- White: Rua a1, Ma b1, Khon c1, Khun d1, Met e1, Khon f1, Ma g1, Rua h1; Bia a3–h3
+- Black: Rua a8, Ma b8, Khon c8, Khun d8, Met e8, Khon f8, Ma g8, Rua h8; Bia a6–h6
+
+**FEN:** `rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR w - - 0 1`
+
+(R/r = Rua, N/n = Ma, G/g = Khon, K/k = Khun, F/f = Met, P/p = Bia)
+
+### Pieces
+
+| Thai name | English | Per side | Movement |
+|---|---|---|---|
+| Khun | King | 1 | One step in any direction. No castling. |
+| Met | Queen/Seed | 1 | One step diagonally only (4 directions). A weak piece. |
+| Khon | Bishop/Silver General | 2 | One step diagonally in any direction OR one step straight forward (5 directions). |
+| Ma | Knight/Horse | 2 | L-shaped leap, identical to the modern Knight. |
+| Rua | Rook/Chariot | 2 | Slides any number of squares orthogonally. |
+| Bia | Pawn | 8 | One step forward. Captures one step diagonally forward. No initial double move. |
+
+**Note on the Khon:** the five-direction movement (four diagonal + one forward) is the defining piece of Makruk. It is the same as shogi's Silver General. The forward step is relative to the owning player's advancement direction.
 
 ### Rules
 
-- The Met (Silver General) moves one square diagonally in any direction. It cannot move orthogonally.
-- The Queen equivalent also moves as a Met (one step diagonal) — it is a weak piece.
-- Pawns promote on the 6th rank (not the 8th) and always promote to Met.
 - No castling.
 - No en passant.
 - Pawns do not have a two-square initial move.
-- Rooks, Knights, and Kings move as in standard chess.
+- Pawns promote on reaching the sixth rank from their own side (rank 6 for White, rank 3 for Black) and always promote to Met.
+
+### Counting Rules
+
+Makruk uses two counting systems to force resolution in endgames. Both end the game in a draw if the stronger side fails to checkmate within the limit. The weaker side counts aloud and may stop counting at any point, restarting later if desired.
+
+**Board counting** (นับกระดาน). Applies once neither side has any unpromoted pawns remaining. The stronger side must checkmate within **64 moves**, counted by the weaker side. Reaching 64 without checkmate is a draw.
+
+**Pieces counting** (นับศักดิ์หมาก). Applies once the weaker side has only a bare King, that is, their last piece other than the King has been captured. The count begins at the total number of pieces remaining on the board plus one, and the limit is set by the strongest material the stronger side holds:
+
+| Stronger side holds | Move limit |
+|---|---|
+| Two or more Rooks | 8 |
+| One Rook | 16 |
+| Two or more Khon | 22 |
+| Two or more Knights | 32 |
+| One Khon | 44 |
+| One Knight, or only Met and promoted pawns | 64 |
+
+Only the most valuable unit is considered; other material does not change the limit. Reaching the limit without checkmate is a draw.
 
 ### Win Condition
 
@@ -46,7 +133,7 @@ Checkmate the opponent's King.
 
 ### Strategy
 
-With no Queen and only weak diagonal movers (Met), Makruk is a slower, more positional game than standard chess. Rooks are by far the most powerful pieces. Pawn promotion comes earlier (rank 6) but the promoted piece is weak. Endgames are critical — counting rules force resolution within a limited number of moves when material is low.
+With no Queen and only the weak Met, Rooks are by far the most powerful pieces. The Khon's forward step makes it more useful in attack than defence. Pawn promotion comes earlier (rank 6) but the promoted piece is weak. Endgames are critical: counting rules force the stronger side to deliver mate within a fixed window or accept a draw.
 
 ### Attribution
 

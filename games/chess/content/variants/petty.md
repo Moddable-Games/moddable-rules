@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Petty Chess
 slug: petty
 board: "5×6"
@@ -9,10 +10,11 @@ special: All piece types on a compact 5×6 board. Single copies of each.
 engine:
   topology:
     type: grid
-    rows: 6
-    cols: 5
+    rows: 5
+    cols: 6
   players: [white, black]
-  setup: "rnbqk/ppppp/5/5/PPPPP/RNBQK"
+  setup: "qnbknr/pppppp/6/PPPPPP/RNKBNQ"
+  castling: false
 ---
 
 ## Petty Chess

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Orda Chess
 slug: orda-chess
 board: "8×8"
@@ -13,6 +14,52 @@ engine:
     cols: 8
   players: [white, black]
   setup: "lhaykahl/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR"
+  castling: false
+  pieces:
+    yurt:
+      divergent: 
+        move:
+          type: leaper
+          offsets: [[-1,-1]
+        capture:
+          type: leaper
+          offsets: [[1,0]
+    lancer:
+      divergent: 
+        move:
+          type: leaper
+          offsets: knight
+        capture:
+          type: rider
+          dirs: orthogonal
+    archer:
+      divergent: 
+        move:
+          type: leaper
+          offsets: knight
+        capture:
+          type: rider
+          dirs: diagonal
+    kheshig:
+      type: compose
+      parts: ["knight", {"type":"rider","dirs":"all","maxSteps":1}]
+  vocabulary:
+    yurt:
+      symbols:
+        0: Y
+        1: y
+    lancer:
+      symbols:
+        0: L
+        1: l
+    archer:
+      symbols:
+        0: H
+        1: h
+    kheshig:
+      symbols:
+        0: W
+        1: w
 ---
 
 ## Orda Chess
@@ -36,16 +83,16 @@ An asymmetric variant where White plays standard chess and Black commands the Mo
 
 **Yurt (y)** — Moves one square diagonally. Captures one square orthogonally. (Replaces the Queen.)
 
-**Lancer (l)** — Moves like a Rook (slides orthogonally). Captures like a Knight (L-shaped jump). Cannot slide to capture.
+**Lancer (l)** — Moves like a Knight (L-shaped jump). Captures like a Rook (slides orthogonally). Cannot jump to capture.
 
-**Archer (h)** — Moves like a Bishop (slides diagonally). Captures like a Knight (L-shaped jump). Cannot slide to capture.
+**Archer (a)** — Moves like a Knight (L-shaped jump). Captures like a Bishop (slides diagonally). Cannot jump to capture.
 
 **Khan (k)** — Moves and captures as a standard King.
 
-**Kheshig** — Standard Knight movement and capture.
+**Kheshig (h)** — Moves and captures as a Knight and King combined.
 
 - White can castle. Black cannot (the Khan starts on e8).
-- Black's Lancers and Archers have split movement: they slide freely for non-capturing moves but must jump (like a Knight) to capture.
+- Black's Lancers and Archers are divergent: they jump (like a Knight) for non-capturing moves but must slide to capture.
 - Standard pawns for both sides.
 
 ### Win Condition
@@ -54,7 +101,7 @@ Checkmate the opponent's King/Khan.
 
 ### Strategy
 
-Black's Lancers and Archers are powerful positional pieces (full rook/bishop mobility) but limited attackers (knight-range capture only). White must exploit the Horde's short capture range while avoiding their positional dominance. Black should use Lancers for long-range control and coordinate Archers for knight-distance attacks.
+Black's Lancers and Archers are mobile repositioners (knight-jump for moves) but devastating long-range attackers (rook/bishop capture). White must avoid open lines where Horde pieces can capture at distance, while exploiting their inability to slide for repositioning.
 
 ### Attribution
 

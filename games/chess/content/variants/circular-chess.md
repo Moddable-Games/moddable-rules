@@ -6,14 +6,17 @@ players: "2"
 parent: chess
 win: "Checkmate (snaffling permitted)"
 special: "Played on a circular board of 64 squares arranged in 4 concentric rings of 16 files. No castling, no en passant. Pawns promote after travelling 6 squares. Null moves (moving a piece all the way around a ring back to its start) are illegal."
+playable: true
 engine:
   topology:
     type: grid
     rows: 4
     cols: 16
-    wrap: cylinder
+    wrap: files
   players: [white, black]
   setup: "rp4PRRP4pr/np4PNNP4pn/bp4PBBP4pb/qp4PKQP4pk"
+  castling: false
+  enPassant: false
 ---
 
 # Circular Chess

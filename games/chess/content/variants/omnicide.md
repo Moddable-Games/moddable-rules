@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Omnicide
 slug: omnicide
 board: "8×8"
@@ -13,6 +14,9 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      noCheck: true
 ---
 
 ## Omnicide

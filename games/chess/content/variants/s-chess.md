@@ -100,4 +100,4 @@ The Hawk's combined diagonal-leap-and-knight threat creates forks across long ra
 
 ### Attribution
 
-Designed by Yasser Seirawan and Jonathan Tisdall. Publicly released 2007. Open rules available at seirawanchess.com. Public domain rule set.
+Designed by Yasser Seirawan and Bruce Harper. Publicly released 2007. Open rules available at seirawanchess.com. Public domain rule set.

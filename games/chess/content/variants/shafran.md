@@ -27,7 +27,19 @@ engine:
     set: mce-fairy-complete
   players: [white, black]
   setup: "-1,-2:p,-1,-3:q,-1,4:P,-1,5:Q,-2,-1:p,-2,-2:b,-2,4:P,-2,5:B,-3,-1:n,-3,0:p,-3,4:P,-3,5:N,-4,0:r,-4,1:p,-4,4:P,-4,5:R,0,-3:p,0,-4:k,0,4:P,0,5:K,1,-3:p,1,-4:b,1,3:P,1,4:B,2,-3:p,2,-4:b,2,2:P,2,3:B,3,-3:p,3,-4:n,3,1:P,3,2:N,4,-3:p,4,-4:r,4,0:P,4,1:R"
-published: true
+  plugins:
+    chess:
+      castling: false
+      enPassant: false
+      doubleStep: false
+      hexPawnConfig:
+        forwardDir:
+          0: [0,-1]
+          1: [0,1]
+        captureDirections:
+          0: [[1,-1],[-1,0]]
+          1: [[-1,1],[1,0]]
+playable: true
 ---
 
 ## Shafran's Hexagonal Chess

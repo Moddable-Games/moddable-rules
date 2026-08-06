@@ -1,11 +1,14 @@
 ---
+playable: true
+key: medusaChess
 title: Medusa Chess
 slug: medusa-chess
+original: true
 board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: After the queen moves, all enemy pieces she attacks become petrified for 2 turns.
+special: After the queen moves, all enemy pieces she attacks become petrified for 2 turns. Kings immune.
 engine:
   topology:
     type: grid
@@ -50,4 +53,4 @@ Queen positioning becomes paramount — move her to lines that freeze the most e
 
 ### Attribution
 
-Modern variant. Public domain.
+Moddable Games original. No external provenance is claimed. Designed as a queen-centric status-effect variant to exercise the engine's timed-effect system.

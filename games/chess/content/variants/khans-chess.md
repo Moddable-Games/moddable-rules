@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: "Checkmate or Campmate"
 special: "Asymmetric: White plays FIDE chess, Gold commands the Mongol Horde — all Horde pieces except Khan and Kheshig are divergent (move ≠ capture). Stalemate is a loss. Campmate wins (King to opponent's back rank)."
+playable: true
 engine:
   topology:
     type: grid
@@ -13,8 +14,74 @@ engine:
     cols: 8
   players: [white, gold]
   asymmetric: true
-  setup: "lhakahls/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR"
-published: true
+  setup: "lhatkahl/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  castling:
+    0: true
+    1: false
+  stalemateMeaning: loss
+  doubleStep:
+    0: true
+    1: false
+  promotionChoices:
+    0: [queen, rook, bishop, knight]
+    1: [khatun]
+  pawnMoveDirections:
+    0: [[-1,0]]
+    1: [[1,2],[1,-2],[2,1],[2,-1]]
+  pawnCaptureDirections:
+    1: [[1,0]]
+  pieces:
+    kheshig:
+      type: compose
+      parts: ["knight", {"type":"rider","dirs":"all","maxSteps":1}]
+    khatun:
+      divergent:
+        move:
+          type: leaper
+          offsets: knight
+        capture:
+          type: rider
+          dirs: all
+          maxSteps: 1
+    archer:
+      divergent:
+        move:
+          type: leaper
+          offsets: knight
+        capture:
+          type: rider
+          dirs: diagonal
+    lancer:
+      divergent:
+        move:
+          type: leaper
+          offsets: knight
+        capture:
+          type: rider
+          dirs: orthogonal
+    scout:
+      movement: pawn
+  vocabulary:
+    kheshig:
+      symbols:
+        0: H
+        1: h
+    khatun:
+      symbols:
+        0: T
+        1: t
+    archer:
+      symbols:
+        0: A
+        1: a
+    lancer:
+      symbols:
+        0: L
+        1: l
+    scout:
+      symbols:
+        0: S
+        1: s
 status: draft
 updated: 2026-07-07
 category: asymmetric-armies
@@ -121,7 +188,7 @@ Key properties:
 
 Khan's Chess replaces two pieces from Orda Chess:
 - The **pawn** (standard chess pawn used by both sides in Orda) is replaced by the **Scout** for the Horde, themed around Mongol cavalry.
-- The **Yurt** (which moved and captured as a Queen but only one or two squares) is replaced by the **Khatun** (Knight movement, King capture).
+- The **Yurt** (which moved one square diagonally and captured one square orthogonally) is replaced by the **Khatun** (Knight movement, King capture).
 
 All other Horde pieces—Lancer, Horse Archer, Kheshig—carry over from Orda Chess with the same movement and capture rules.
 

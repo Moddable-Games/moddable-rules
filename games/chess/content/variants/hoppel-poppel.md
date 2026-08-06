@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Hoppel-Poppel
 slug: hoppel-poppel
 board: "8×8"
@@ -13,6 +14,23 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  pieces:
+    knight:
+      divergent: 
+        move:
+          type: leaper
+          offsets: knight
+        capture:
+          type: rider
+          dirs: diagonal
+    bishop:
+      divergent: 
+        move:
+          type: rider
+          dirs: diagonal
+        capture:
+          type: leaper
+          offsets: knight
 ---
 
 ## Hoppel-Poppel

@@ -1,6 +1,9 @@
 ---
+playable: true
+key: poisonChess
 title: Poison Chess
 slug: poison-chess
+original: true
 board: "8×8"
 players: "2"
 parent: chess
@@ -49,4 +52,4 @@ Poison creates dangerous no-go zones that restrict mobility. Exchange sequences 
 
 ### Attribution
 
-Modern variant. Public domain.
+Moddable Games original. No external provenance is claimed. Designed as a status-effect variant to exercise the engine's timed-effect system.

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Janus Chess"
 slug: janus
 board: "10×8"
@@ -15,6 +16,16 @@ engine:
   render:
     cellSize: 36
   setup: "rjnbkqbnjr/pppppppppp/10/10/10/10/PPPPPPPPPP/RJNBKQBNJR"
+  promotionChoices: [queen, rook, bishop, knight, janus]
+  pieces:
+    janus:
+      type: compose
+      parts: [bishop, knight]
+  vocabulary:
+    janus:
+      symbols:
+        0: J
+        1: j
 ---
 
 # Janus Chess

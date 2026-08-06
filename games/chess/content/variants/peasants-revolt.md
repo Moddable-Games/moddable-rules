@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Peasants' Revolt"
 slug: peasants-revolt
 board: "8×8"
@@ -13,6 +14,7 @@ engine:
     cols: 8
   players: [white, black]
   setup: "2n1k1n1/pppppppp/8/8/8/8/PPPPPPPP/4K3"
+  castling: false
 ---
 
 ## Peasants' Revolt

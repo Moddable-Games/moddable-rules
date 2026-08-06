@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Capablanca Chess
 slug: capablanca
 board: "10×8"
@@ -15,6 +16,23 @@ engine:
   render:
     cellSize: 36
   setup: "rnabqkbcnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNABQKBCNR"
+  promotionChoices: [queen, rook, bishop, knight, archbishop, chancellor]
+  pieces:
+    archbishop:
+      type: compose
+      parts: [bishop, knight]
+    chancellor:
+      type: compose
+      parts: [rook, knight]
+  vocabulary:
+    archbishop:
+      symbols:
+        0: A
+        1: a
+    chancellor:
+      symbols:
+        0: C
+        1: c
 ---
 
 ## Capablanca Chess

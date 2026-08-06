@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Hexapawn
 slug: hexapawn
 board: "3×3"
@@ -15,6 +16,10 @@ engine:
   render:
     cellSize: 50
   setup: "ppp/3/PPP"
+  castling: false
+  enPassant: false
+  noCheck: true
+  stalemateMeaning: loss
 ---
 
 ## Hexapawn

@@ -1,11 +1,13 @@
 ---
+playable: true
+key: patrolChess
 title: Patrol Chess
 slug: patrol
 board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: Pieces can only capture or give check when defended by a friendly piece.
+special: "Pieces can only capture or give check when defended by a friendly piece. Non-capturing moves unrestricted."
 engine:
   topology:
     type: grid

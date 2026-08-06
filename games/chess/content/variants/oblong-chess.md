@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Oblong Chess
 slug: oblong-chess
 board: "4×16"
@@ -15,6 +16,10 @@ engine:
   render:
     cellSize: 34
   setup: "rnbk/pppp/4/4/4/4/4/4/4/4/4/4/4/4/PPPP/KBNR"
+  castling: false
+  enPassant: false
+  noCheck: true
+  stalemateMeaning: loss
 ---
 
 ## Oblong Chess

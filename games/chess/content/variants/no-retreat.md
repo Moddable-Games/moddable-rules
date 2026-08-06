@@ -1,4 +1,6 @@
 ---
+playable: true
+key: noRetreat
 title: No Retreat
 slug: no-retreat
 board: "8×8"

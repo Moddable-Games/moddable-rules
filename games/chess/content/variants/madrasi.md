@@ -1,11 +1,13 @@
 ---
+playable: true
+key: madrasiChess
 title: Madrasi Chess
 slug: madrasi
 board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: Same-type opposing pieces paralyse each other when they attack.
+special: Same-type opposing pieces paralyse each other when they attack. Kings exempt.
 engine:
   topology:
     type: grid

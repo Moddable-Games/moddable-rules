@@ -6,15 +6,38 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Standardized Southeast Asian chess for regional competition. Makruk-family rules: Bishop moves 1 step diagonally, Pawns start on rank 2, promote on rank 6 to Ferz. Streamlined counting draw rules. Codified by ASEAN Chess Federation."
+playable: true
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup: "rngfkgnr/pppppppp/8/8/8/8/PPPPPPPP/RNGFKGNR"
   notation: algebraic
-published: true
+  castling: false
+  enPassant: false
+  doubleStep: false
+  promotionChoices: [ferz]
+  promotionRow:
+    0: 2
+    1: 5
+  pieces:
+    ferz:
+      type: leaper
+      offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+    khon:
+      type: leaper
+      offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+  vocabulary:
+    ferz:
+      symbols:
+        0: F
+        1: f
+    khon:
+      symbols:
+        0: G
+        1: g
 ---
 
 ## ASEAN Chess

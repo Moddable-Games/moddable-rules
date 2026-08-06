@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Carrera's Chess"
 slug: carrera
 board: "10×8"
@@ -15,6 +16,25 @@ engine:
   render:
     cellSize: 36
   setup: "rAnbqkbnCr/pppppppppp/10/10/10/10/PPPPPPPPPP/RANBQKBNCR"
+  castling: false
+  enPassant: false
+  promotionChoices: [queen, rook, bishop, knight, centaur, champion]
+  pieces:
+    centaur:
+      type: compose
+      parts: [bishop, knight]
+    champion:
+      type: compose
+      parts: [rook, knight]
+  vocabulary:
+    centaur:
+      symbols:
+        0: A
+        1: a
+    champion:
+      symbols:
+        0: C
+        1: c
 ---
 
 # Carrera's Chess

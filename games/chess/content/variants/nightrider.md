@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard Nightrider Chess
 slug: nightrider
 board: "8x8"
@@ -13,13 +14,10 @@ engine:
     rows: 8
     cols: 8
   pieces:
-    nightrider:
-      movement: rider
-      base_leap: [1,2]
-      directions: all
-      notation: N
+    knight:
+      type: rider
+      dirs: [[-2,-1],[-2,1],[-1,-2],[-1,2],[1,-2],[1,2],[2,-1],[2,1]]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-  notes: "N in FEN = Nightrider throughout. Standard knights replaced 1-for-1."
 published: true
 ---
 
@@ -73,4 +71,4 @@ The Nightrider is implemented in Fairy-Stockfish (`-piece nightrider`), GNU Ches
 
 ### Attribution
 
-Nightrider piece invented by T. R. Dawson, 1925. Public domain. Rules in the public domain. Implemented in Fairy-Stockfish, Green Chess, and Zillions of Games.
+Piece concept by W. S. Andrews (1907); named and introduced to fairy chess by T. R. Dawson (1925). Public domain. Implemented in Fairy-Stockfish, Green Chess, and Zillions of Games.

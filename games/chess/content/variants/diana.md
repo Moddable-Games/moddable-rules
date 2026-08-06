@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Diana Chess
 slug: diana
 board: "6×6"
@@ -12,7 +13,9 @@ engine:
     rows: 6
     cols: 6
   players: [white, black]
-  setup: "rbbkr1/pppppp/6/6/PPPPPP/RBBKR1"
+  setup: "rbbkbr/pppppp/6/6/PPPPPP/RBBKBR"
+  castling: false
+  enPassant: false
 ---
 
 ## Diana Chess
