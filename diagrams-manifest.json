@@ -1403,6 +1403,17 @@
   {
     "family": "chess",
     "familyTitle": "Chess",
+    "variant": "progressive-italian",
+    "variantTitle": "Progressive Italian",
+    "topology": "grid",
+    "svg": "games/chess/diagrams/svg/progressive-italian-board.svg",
+    "rulesUrl": "dist/chess/variants/progressive-italian/index.html",
+    "status": "rendered",
+    "players": "2"
+  },
+  {
+    "family": "chess",
+    "familyTitle": "Chess",
     "variant": "racing-kings",
     "variantTitle": "Racing Kings",
     "topology": "grid",
@@ -3922,17 +3933,6 @@
     "rulesUrl": "dist/cairn/index.html",
     "status": "generator",
     "reason": "rpg-provider"
-  },
-  {
-    "family": "chess",
-    "familyTitle": "Chess",
-    "variant": "progressive-italian",
-    "variantTitle": "Progressive Italian",
-    "topology": "grid",
-    "svg": null,
-    "rulesUrl": "dist/chess/variants/progressive-italian/index.html",
-    "status": "missing",
-    "reason": "pending"
   },
   {
     "family": "dnd-5e",
