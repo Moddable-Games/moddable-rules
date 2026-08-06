@@ -33,4 +33,4 @@ Discovered checks are extremely powerful — the discovering piece delivers chec
 
 ### Attribution
 
-Modern variant, popularised on online chess platforms (2000s). Public domain rules.
+Moddable Games original. No external provenance is claimed. Designed as a check-incentive multi-move variant to exercise the engine's turnLogic system.

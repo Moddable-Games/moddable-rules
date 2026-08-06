@@ -32,4 +32,4 @@ The King becomes a powerful attacking piece — use it actively in the middlegam
 
 ### Attribution
 
-Traditional variant. Earliest documented reference in Max Lange, 1857. Public domain.
+Traditional variant of unknown origin, mid-19th century. Documented by Max Lange, 1857. Public domain.

@@ -104,303 +104,76 @@ Some movement is restricted based upon the region a player starts their turn.
 
 ### Endings
 
-Randomly choose one of the ending tiles and place it face down in the middle of the board.
+Randomly choose one of the ending tiles and place it face down in the middle of the board. All ending tiles use the rules as printed in Talisman 4th Edition.
 
-1. Crown of Command — unchanged
-2. Horrible Black Void — unchanged
-3. Battle Royale — unchanged
-4. Dragon King — unchanged
-5. Demon Lord — unchanged
-6. Eagle King — unchanged
-7. Hand of Doom — unchanged
-8. Thieve's Guild — unchanged
-
-### Inner Regions
-
-The first ring surrounding the ending are the six inner region tiles:
-
-1. Valley of Fire — unchanged
-2. Crypt — unchanged
-3. Death — unchanged
-4. Werewolve's Den — unchanged
-5. Mines — unchanged
-6. Vampire's Tower — unchanged
-
-### Middle Regions
-
-The second ring surrounding the inner regions are the twelve middle region tiles:
-
-- Portal of Power — unchanged
-- Black Knight — unchanged
-- Hills — draw 1 card — unchanged
-- Cursed Glade — draw 1 card cannot use magic — unchanged
-- Runes — draw 1 card enemies get plus 2 X 3 — unchanged
-- Chasm — unchanged
-- Warlock's Cave — unchanged
-- Temple — unchanged
-- Woods — draw 1 card — unchanged
-- Castle — unchanged
-
-### River Regions
-
-The third ring surrounding the middle regions are the eighteen river region tiles:
-
-- River Tiles X 10 — can only cross with raft — cannot end turn here
-- Desert Tiles X 6 — can only cross with water bottle — cannot end turn here
-- Oasis — draw 2 cards — can only go one way (outward)
-- Hidden Valley — draw 3 cards — can only go one way (outward)
-
-### Outer Region
-
-The fourth ring surrounding the river regions are the twenty four outer regions:
-
-- City — unchanged
-- Village — unchanged
-- Tavern — unchanged
-- Chapel — unchanged
-- Ruins — draw 2 cards — unchanged
-- Fields — draw 1 card X 6 — unchanged
-- Plains — draw 1 card X 4 — unchanged
-- Woods — draw 1 card X 3 — unchanged
-- Hills — draw 1 card X 2 — unchanged
-- Sentinel — if crossing from outer then must win fight — then roll next turn
-- Graveyard — unchanged
-- Crags — unchanged
-- Forest — unchanged
-
-The graphics used for stickers to be placed on 90mm hexagons can be seen on Moddable.Games. Talisman cards fit in 90mm hexes.
-
-</div>
-
-<div class="section">
-<div class="eyebrow">Tile Encounters</div>
-
-## Special Tiles
-
-The following information is difficult to place on the hexagonal tiles so is here as reference, with the hope that future versions of this modification will be able to reduce or remove this section.
-
-### Outer Regions
-
-**Forest — Roll D6**
-
-1. Attacked by a brigand with Strength 4
-2. Lost; lose your next turn
-3. Lost; lose your next turn
-4. Safe
-5. Safe
-6. A ranger guides you out; gain 1 Craft
-
-**Graveyard — Based on Alignment**
-
-- Good = Lose one life
-- Neutral = Replenish fate up-to starting value for one gold each
-- Evil = Either replenish fate up-to starting value for FREE or roll D6:
-  - 1 to 4 = Ignored
-  - 5 = Gain one fate
-  - 6 = Gain one spell
-
-**Crags — Roll D6**
-
-1. Attacked by a Spirit with Craft 4
-2. Lost; lose your next turn
-3. Lost; lose your next turn
-4. Safe; no effect
-5. Safe; no effect
-6. A barbarian leads you out; gain 1 Strength
-
-**City — Visit Enchantress, Doctor or Alchemist**
-
-Enchantress — Roll D6:
-1. You are turned into a Toad for 3 Turns
-2. Lose 1 Strength
-3. Lose 1 Craft
-4. Gain 1 Craft
-5. Gain 1 Strength
-6. Gain 1 Spell
-
-Doctor — heal up-to two lives at one gold per life
-
-Alchemist — turn any number of objects into gold — one object equal one gold
-
-**Village — Visit Blacksmith, Healer or Mystic**
-
-Blacksmith — Purchase (if available):
-- Helmet — 2G
-- Sword — 2G
-- Axe — 3G
-- Shield — 3G
-- Armour — 4G
-
-Healer — heal up-to your starting life value at one gold per life
-
-Mystic — Roll D6:
-1. Become evil
-2. Ignored
-3. Ignored
-4. Become good
-5. Gain 1 Craft
-6. Gain 1 Spell
-
-**Tavern — Roll D6**
-
-1. You get blind drunk and collapse in a corner. Miss 1 turn.
-2. You get tipsy and get in a fight with a farmer (STRENGTH 3).
-3. You gamble and lose 1 Gold Coin.
-4. You gamble and win 1 Gold Coin.
-5. A wizard offers to teleport you to an Outer Region of your choice as your next move.
-6. A boatman offers to ferry you to the Temple as your next move.
-
-**Chapel — Based on Alignment**
-
-- Evil = Lose one life
-- Neutral = Heal up-to starting life value for one gold per life
-- Good = Either heal up-to starting life value for free or PREY by rolling D6:
-  - 1 to 4 = Ignored
-  - 5 = Gain 1 life
-  - 6 = Gain 1 Spell
-
-### Middle Region
-
-**Temple — Roll 2D6**
-
-2. Lose 2 lives.
-3. Lose 1 life.
-4. Lose 1 Follower.
-5. Enslaved; stay here until you roll a 4, 5, or a 6 for your move.
-6. Gain 1 Strength.
-7. Gain 1 Craft.
-8. Gain 1 Spell.
-9. Gain 1 Spell.
-10. Gain a Talisman.
-11. Gain 2 fate.
-12. Gain 2 lives.
-
-**Chasm — Roll D6 for Yourself and Each Follower**
-
-If yourself; 1 or 2 results in losing one life.
-
-If follower; 1 or 2 results in follower being killed.
-
-**Castle — Royal Doctor**
-
-Heal up-to your starting life value at one gold per life.
-
-If you have the prince or princess, heal up-to two lives for free (each).
-
-**Portal of Power**
-
-Draw one card or try to access plain of perils by choosing strength or craft and rolling 2D6. If the number is equal or lower than your chosen stat you can move to the plain of perils.
+1. Crown of Command
+2. Horrible Black Void
+3. Battle Royale
+4. Dragon King
+5. Demon Lord
+6. Eagle King
+7. Hand of Doom
+8. Thieves Guild
 
 ### Inner Region
 
-**Valley of Fire**
+The first ring surrounding the ending are six inner region tiles, chosen randomly from the nine available. All inner region tiles use the rules as printed.
 
-Discard a Talisman in order to access the ending on your next turn.
+1. Valley of Fire
+2. Crypt
+3. Death
+4. Werewolf's Den
+5. Mines
+6. Vampire's Tower
+7. Pits (may be excluded to reach exactly six)
+8. Plain of Peril
+9. (One tile excluded at random each game)
 
-**Crypt**
+### Middle Region
 
-Roll 3D6 and subtract your strength:
+The second ring surrounding the inner region are the twelve middle region tiles. All middle region tiles use the encounter rules as printed.
 
-- 0) Crypt
-- 1) Plain of Peril
-- 2-3) Portal of Power
-- 4-5) Warlock's Cave
-- 6+) City
+1. Portal of Power
+2. Black Knight
+3. Hills (draw 1 card)
+4. Cursed Glade (draw 1 card, cannot use magic)
+5. Runes (draw 1 card, enemies get +2 x3)
+6. Chasm
+7. Warlock's Cave
+8. Temple
+9. Woods (draw 1 card)
+10. Castle
+11. Sentinel
+12. Plain of Peril
 
-**Death**
+### River Region
 
-Roll two dice for yourself and two dice for Death.
-If the scores are equal: Dice with Death again on your next turn.
-If your score is lower: Lose one life and Dice with Death again on your next turn.
-If your score is higher: You may move on your next turn.
+The third ring surrounding the middle region are the eighteen river region tiles:
 
-**Werewolves Den**
+- River Tiles x10 — can only cross with raft, cannot end turn here
+- Desert Tiles x6 — can only cross with water bottle, cannot end turn here
+- Oasis — draw 2 cards, can only go one way (outward)
+- Hidden Valley — draw 3 cards, can only go one way (outward)
 
-Roll two dice for the Werewolf's Strength, then fight it.
-If you lose, lose one life and fight the same Werewolf again on your next turn.
-You cannot move on until you have defeated the Werewolf.
+### Outer Region
 
-**Mines**
+The fourth ring surrounding the river region are the twenty-four outer region tiles. All outer region tiles use the encounter rules as printed.
 
-Roll 3D6 and subtract your craft:
+- City
+- Village
+- Tavern
+- Chapel
+- Ruins (draw 2 cards)
+- Fields (draw 1 card) x6
+- Plains (draw 1 card) x4
+- Woods (draw 1 card) x3
+- Hills (draw 1 card) x2
+- Sentinel — if crossing from outer then must win fight, then roll next turn
+- Graveyard
+- Crags
+- Forest
 
-- 0) Mines
-- 1) Plain of Peril
-- 2-3) Portal of Power
-- 4-5) Warlock's Cave
-- 6+) Tavern
-
-**Pits** (removed to ensure six)
-
-Roll 1D6 and fight that many pit fiends at strength 4. Cannot move until killing all.
-
-**Vampire's Tower**
-
-Roll one die to determine how many lives the Vampire takes. You may discard any number of Followers to avoid this loss of life. Each Follower you discard prevents the loss of one life.
-
-1. Lose 1 life
-2. Lose 1 life
-3. Lose 2 lives
-4. Lose 2 lives
-5. Lose 3 lives
-6. Lose 3 lives
-
-### Endings
-
-**Crown of Command**
-
-If a character is on the Crown of Command and no other characters are present, he must cast one Command Spell at the start of each of his turns. If a 1, 2, or 3 is rolled, the Spell has no effect. On a 4, 5, or 6 all other characters lose 1 life. If a character is on the Crown of Command and there is another character present, he must encounter the other character instead of casting the Command Spell.
-
-**Battle Royale**
-
-*All characters that do not have a Talisman, except for the character who first entered the Crown of Command, lose the game. All characters that have a Talisman are immediately placed on the Crown of Command.*
-
-The character who first entered the Crown of Command must choose a character to attack. The winner of the attack must force the loser to lose a life; he cannot choose to take an Object or gold instead. The winner of the attack then chooses any other character to attack (the loser cannot be chosen unless he is the only other character remaining). If the attack is a stand-off, the same characters fight again.
-
-Characters must continue attacking each other in this manner until only one character remains. The last character remaining wins the game! When a character attacks, he may choose to fight in battle or psychic combat. He may not choose when he is attacked by another character.
-
-**Dragon King**
-
-Strength 12, Craft 12, Life 5 — on your turn, roll one D6:
-
-- 1-2) Discard a Talisman. If you do not have a Talisman to discard, you are killed instead.
-- 3-4) Clockwise starting with yourself, all characters must attack the Dragon King using Strength or Craft. Each time the Dragon King is defeated, remove one of his lives.
-- 5-6) Attack the Dragon King using Strength or Craft. Each time you defeat the Dragon King, remove one of his lives and immediately attack him again. If you have a stand-off or are defeated, your turn ends.
-
-*If a character removes the Dragon King's last life, he wins the game!*
-
-Characters cannot encounter each other; they must roll one die for the Dragon King instead. If there are no characters, the Dragon King heals all his lives.
-
-**Horrible Black Void**
-
-You and all of your possessions are pulled into the Horrible Black Void, you lose the game! Draw another random ending tile to replace this one.
-
-**Demon Lord**
-
-Craft 12, Life 4 — on your turn attack with craft — if stand-off or lose, return to crags. Player to take last life wins. If no players, Demon Lord heals all life.
-
-**Eagle King**
-
-Strength 12, Craft 12, Life 4 — on your turn attack with strength or craft — if stand-off or lose, return to crags. Player to take last life wins. If no players, Eagle King heals all life.
-
-**Hand of Doom**
-
-Roll one D6 on your turn:
-
-- **1)** All characters are killed — all players lose the game.
-- **2-3)** Lose 1 life.
-- **4-5)** Choose one character; that character is killed.
-- **6)** All other characters are killed — you win the game!
-
-**Thieves Guild**
-
-On your turn roll one D6:
-
-- **1-2)** You must take 1 gold from all other characters
-- **3-4)** You must take 1 Object from all other characters
-- **5-6)** You must take 2 Objects from all other characters
-
-Players on Thieves Guild can hold an unlimited number of objects. When a gold or object must be taken but cannot be given, that player is killed. Characters on Thieves Guild cannot encounter each other and must both roll D6 for their turns. If all players are on Thieves Guild, the player with the most objects and gold wins.
+The graphics used for stickers to be placed on 90mm hexagons can be seen on Moddable.Games. Talisman cards fit in 90mm hexes.
 
 </div>
 
@@ -411,9 +184,9 @@ Players on Thieves Guild can hold an unlimited number of objects. When a gold or
 
 Some of these variations are published elsewhere, others are modified by our team:
 
-- **Warlock Quests** — players must complete one quest per player to gain a talisman — all other talismans are removed from the game or replaced by "extra life" if printed.
+- **Warlock Quests** — players must complete one quest per player to gain a talisman. All other talismans are removed from the game or replaced by "extra life" if printed.
 
-- **The One Talisman** — remove all but one talisman from the game — add two to both strength and craft whilst holding talisman. Warlock quests result in talisman teleporting.
+- **The One Talisman** — remove all but one talisman from the game. Add two to both strength and craft whilst holding talisman. Warlock quests result in talisman teleporting.
 
 ### Warlock Quests
 
@@ -435,10 +208,10 @@ The following D20 collection of quests provides an alternative to both the origi
 14. Deliver an axe to the cursed glade
 15. Change alignment
 16. Safely guide at least three followers (in one go) across the chasm
-17. Deliver an axe to the
+17. Deliver an axe to the sentinel
 18. Deliver a water bottle to the oasis
 19. Enter the valley of fire without a talisman
-20. Lose all your lives — then get replenished to starting lives
+20. Lose all your lives, then get replenished to starting lives
 
 Players may only perform one quest at a time. In order to remove the current quest, players must get drunk in the tavern and miss a go. They may then visit the warlock for a new quest.
 
@@ -453,7 +226,7 @@ Upon completing a quest, the player must then return to the warlock's cave to ga
 
 The following official Talisman 4th edition expansion has worlds support:
 
-Replace the dungeon board with a new fifth ring of tiles — with the following movement rules:
+Replace the dungeon board with a new fifth ring of tiles with the following movement rules:
 
 - Players roll a D6 for movement
 - Players can choose any tile up-to the maximum they rolled
@@ -462,163 +235,22 @@ Replace the dungeon board with a new fifth ring of tiles — with the following 
 
 ### Dungeon Region
 
-The fifth ring of tiles surrounding the outer regions become the thirty dungeon region tiles:
+The fifth ring of tiles surrounding the outer regions become the thirty dungeon region tiles. All dungeon tiles use the encounter rules as printed in the Dungeon expansion, with the following layout:
 
-- Cavern — draw two cards X 4
-- Corridor — draw one card X 6
-- Tunnel — draw one card X 6
-- Vault — draw three cards X 3
+- Cavern (draw 2 cards) x4
+- Corridor (draw 1 card) x6
+- Tunnel (draw 1 card) x6
+- Vault (draw 3 cards) x3
 - Cell — leave a follower and take a follower
-- Dungeon Entrance — draw one card
+- Dungeon Entrance (draw 1 card)
 - Guard Room — bribe (2G) or fight (5S)
-- Hall of Darkness — roll D6
-- Kitchen — you may roll a D6
-- Library — roll D6
-- Monster Pit — roll D6
+- Hall of Darkness
+- Kitchen
+- Library
+- Monster Pit
 - Summoning Circle — move closest enemy here or draw card if no enemies
 - Torture Chamber — pay 1G or lose 1 strength or 1 craft
-- Treasure Chamber — Fight Lord of Darkness (S12/C12)
-- Mountains — (**newly added**) cannot access this region (used for reaching 6th ring later). Also used to separate the dungeon entrance and treasure chamber to force players to go all the way around the dungeon in order to reach the end. Dungeon entrances found later in the game lead to spaces beside them, as opposed to the dungeon entrance.
-
-### Dungeon Special Tiles
-
-**Hall of Darkness — Roll D6 next turn for movement**
-
-1. Move back 3 spaces
-2. Move back 2 spaces
-3. Move back 1 space
-4. Move forward 1 space
-5. Move forward 2 spaces
-6. Move forward 3 spaces
-
-**Kitchen — you may roll one D6**
-
-1. Poison: lose 1 life
-2. Tastes great!
-3. Tastes great!
-4. Heal 1 life
-5. Heal 1 life
-6. Heal 2 life
-
-**Library — roll one D6**
-
-1. Have a good read
-2. Have a good read
-3. Discover a secret passage — immediately take an extra turn
-4. Discover a secret passage — immediately take an extra turn
-5. Gain 1 Spell
-6. Gain 1 Spell
-
-**Monster Pit — roll one D6**
-
-1. Draw 1 card
-2. Draw 2 cards
-3. Draw 2 cards
-4. Draw 3 cards
-5. Draw 3 cards
-6. Draw 1, 2 or 3 cards (you choose how many)
-
-**Treasure Chamber — Fight Lord of Darkness (Strength 12 | Craft 12)**
-
-Whether you win or lose, subtract the Lord of Darkness's attack score from your attack score to see where you emerge:
-
-- 0) Crags
-- 1) Forest
-- 2) Chasm
-- 3) Cursed Glade
-- 4) Warlock's Cave
-- 5) Temple
-- 6) Portal of Power
-- 7) Plain of Peril
-- 8+) Crown of Command
-
-</div>
-
-<div class="section">
-<div class="eyebrow">Tile Encounters</div>
-
-## Special Tiles
-
-The following information is difficult to place on the hexagonal tiles so is here as reference, with the hope that future versions of this modification will be able to reduce or remove this section.
-
-### Outer Regions
-
-**Forest — Roll D6**
-
-1. Attacked by a brigand with Strength 4
-2. Lost; lose your next turn
-3. Lost; lose your next turn
-4. Safe
-5. Safe
-6. A ranger guides you out; gain 1 Craft
-
-**Graveyard — Based on Alignment**
-
-- Good = Lose one life
-- Neutral = Replenish fate up-to starting value for one gold each
-- Evil = Either replenish fate up-to starting value for FREE or roll D6:
-  - 1 to 4 = Ignored
-  - 5 = Gain one fate
-  - 6 = Gain one spell
-
-**Crags — Roll D6**
-
-1. Attacked by a Spirit with Craft 4
-2. Lost; lose your next turn
-3. Lost; lose your next turn
-4. Safe; no effect
-5. Safe; no effect
-6. A barbarian leads you out; gain 1 Strength
-
-**City — Visit Enchantress, Doctor or Alchemist**
-
-Enchantress — Roll D6:
-1. You are turned into a Toad for 3 Turns
-2. Lose 1 Strength
-3. Lose 1 Craft
-4. Gain 1 Craft
-5. Gain 1 Strength
-6. Gain 1 Spell
-
-Doctor — heal up-to two lives at one gold per life
-
-Alchemist — turn any number of objects into gold — one object equal one gold
-
-**Village — Visit Blacksmith, Healer or Mystic**
-
-Blacksmith — Purchase (if available):
-- Helmet — 2G
-- Sword — 2G
-- Axe — 3G
-- Shield — 3G
-- Armour — 4G
-
-Healer — heal up-to your starting life value at one gold per life
-
-Mystic — Roll D6:
-1. Become evil
-2. Ignored
-3. Ignored
-4. Become good
-5. Gain 1 Craft
-6. Gain 1 Spell
-
-**Tavern — Roll D6**
-
-1. You get blind drunk and collapse in a corner. Miss 1 turn.
-2. You get tipsy and get in a fight with a farmer (STRENGTH 3).
-3. You gamble and lose 1 Gold Coin.
-4. You gamble and win 1 Gold Coin.
-5. A wizard offers to teleport you to an Outer Region of your choice as your next move.
-6. A boatman offers to ferry you to the Temple as your next move.
-
-**Chapel — Based on Alignment**
-
-- Evil = Lose one life
-- Neutral = Heal up-to starting life value for one gold per life
-- Good = Either heal up-to starting life value for free or PREY by rolling D6:
-  - 1 to 4 = Ignored
-  - 5 = Gain 1 life
-  - 6 = Gain 1 Spell
+- Treasure Chamber — fight Lord of Darkness (S12/C12)
+- Mountains x2 (**newly added**) — cannot access this region (used for reaching 6th ring later). Also used to separate the dungeon entrance and treasure chamber to force players to go all the way around the dungeon in order to reach the end. Dungeon entrances found later in the game lead to spaces beside them, as opposed to the dungeon entrance.
 
 </div>

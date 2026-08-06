@@ -23,17 +23,17 @@ engine:
   pieces:
     ferz:
       type: leaper
-      offsets: [[-1,-1]
+      offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
     alfil:
       type: leaper
-      offsets: [[-2,-2]
+      offsets: [[-2,-2],[-2,2],[2,-2],[2,2]]
     mann:
       type: rider
       dirs: all
       maxSteps: 1
     schleich:
       type: leaper
-      offsets: [[-1,0]
+      offsets: [[-1,0],[1,0],[0,-1],[0,1]]
   vocabulary:
     ferz:
       symbols:

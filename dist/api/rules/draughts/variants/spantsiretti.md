@@ -1,6 +1,6 @@
 ## Spantsiretti
 
-Spantsiretti is Russian Draughts played on a wider 10×8 board rather than the standard 8×8. The rules are identical to Russian Draughts (backward capture for men, mid-jump promotion, flying kings, no majority rule) but the extra two columns and the resulting 20 pieces per side create a more open game with greater room for long-range tactics.
+Spantsiretti is Russian Draughts played on a wider 10×8 board rather than the standard 8×8. The rules are identical to Russian Draughts (backward capture for men, mid-jump promotion, flying kings, no majority rule) but the extra two columns and the resulting 15 pieces per side (three rows each) create a more open game with greater room for long-range tactics.
 
 {{svg:spantsiretti-board.svg "Spantsiretti — starting position"}}
 
@@ -8,7 +8,7 @@ Spantsiretti is Russian Draughts played on a wider 10×8 board rather than the s
 
 **Board:** 10×8 checkered board (10 columns, 8 rows). Only the dark squares are used. Orient the board so each player has a dark corner square on their lower left.
 
-**Pieces:** 20 men per player (five per row, four rows each). White occupies the dark squares of rows 1–4. Black occupies the dark squares of rows 5–8. There are no empty rows between the players at the start.
+**Pieces:** 15 men per player (five per row, three rows each). White occupies the dark squares of rows 1–3. Black occupies the dark squares of rows 6–8. Two empty rows separate the players at the start.
 
 **First move:** White moves first.
 
@@ -42,4 +42,4 @@ The game is drawn when:
 
 ### Attribution
 
-Traditional variant. Public domain. Sources: Checkers &amp; Draughts Wiki — Portable Draughts Notation article (GameType 41: Spantsiretti, Russian draughts 10×8); mlwi.magix.net — international/Polish checkers variants page; mig0/Games-Checkers repository (lists russian_10x8 / spantsiretti as a supported variant).
+Traditional variant. Public domain. Sources: Checkers &amp; Draughts Wiki — Portable Draughts Notation article (GameType 41: Spantsiretti, Russian draughts 10×8); mlwi.magix.net — international/Polish checkers variants page; mig0/Games-Checkers (Mikhael Goikhman) — lists `russian_10x8` / Spantsiretti as a supported variant with 15 pieces per side on a 10×8 board.

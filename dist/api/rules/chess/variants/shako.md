@@ -53,4 +53,4 @@ All standard FIDE rules apply with these adaptations for 10×10:
 
 ### Attribution
 
-Designed by Jean-Louis Cazaux. Published 2000. Cazaux, J.L. and Schmittberger, R., “A World of Chess,” McFarland, 2017. Public domain rule set.
+Designed by Jean-Louis Cazaux, 1990. Published online 2000. Cazaux, J.L. and Schmittberger, R., “A World of Chess,” McFarland, 2017. Public domain rule set.

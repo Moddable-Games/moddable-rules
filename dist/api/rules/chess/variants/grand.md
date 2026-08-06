@@ -10,13 +10,13 @@ A 10×10 variant that adds the Archbishop and Chancellor without changing any ex
 
 ### Pieces
 
-**Pieces (per side):** 1 King, 1 Queen, 1 Archbishop, 1 Chancellor, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.
-- **Archbishop** (♗+♞) — Bishop + Knight compound.
-- **Chancellor** (♖+♞) — Rook + Knight compound.
+**Pieces (per side):** 1 King, 1 Queen, 1 Marshal, 1 Cardinal, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.
+- **Marshal** (♖+♞) — Rook + Knight compound.
+- **Cardinal** (♗+♞) — Bishop + Knight compound.
 
 **Setup:** Pawns on rank 3. Back two ranks arranged: empty corners, pieces spread across ranks 1–2 with King and Queen central.
 
-**FEN:** `r8r/1nbqkcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKCBN1/R8R w - - 0 1`
+**FEN:** `r8r/1nbqkmcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKMCBN1/R8R w - - 0 1`
 
 ### Rules
 

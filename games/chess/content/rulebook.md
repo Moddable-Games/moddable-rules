@@ -1,7 +1,7 @@
 ---
 title: "Chess — Official Rulebook"
 short_title: "Chess"
-version: "0.6.0"
+version: "0.6.1"
 slug: "chess"
 players: "2-6"
 duration: "10-120 min"
@@ -9,7 +9,7 @@ age: "10+"
 tagline: "Every chess variant, one engine"
 type: "platform"
 status: "alpha"
-updated: "2026-07-08"
+updated: "2026-08-06"
 published: true
 variants: true
 theme:
