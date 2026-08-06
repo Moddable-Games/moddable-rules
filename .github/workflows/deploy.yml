@@ -42,7 +42,8 @@ jobs:
           cp -r diagrams _site/
           cp -r dist _site/
           cp -r shared _site/
-          cp -r games _site/
+          # Copy games/ excluding PDFs (277 MB, 58% of payload — see #250)
+          rsync -a --exclude='*.pdf' games/ _site/games/
           cp -r js _site/
           cp -r css _site/
           # Serve API JSON at /api/ (not just /dist/api/)
