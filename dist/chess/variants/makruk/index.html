@@ -7,7 +7,7 @@
 <meta name="description" content="Complete rules for Makruk.">
 <meta property="og:title" content="Makruk — Chess">
 <meta property="og:description" content="Complete rules for Makruk.">
-<meta property="og:image" content="https://rules.moddable.games/games/chess/og-variants/makruk.png?v=0.6.0">
+<meta property="og:image" content="https://rules.moddable.games/games/chess/og-variants/makruk.png?v=0.6.1">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://rules.moddable.games/dist/chess/variants/makruk/">
@@ -16,14 +16,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Makruk — Chess">
 <meta name="twitter:description" content="Complete rules for Makruk.">
-<meta name="twitter:image" content="https://rules.moddable.games/games/chess/og-variants/makruk.png?v=0.6.0">
+<meta name="twitter:image" content="https://rules.moddable.games/games/chess/og-variants/makruk.png?v=0.6.1">
 <link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.0">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.0">
-<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.0">
-<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.0">
-<link rel="stylesheet" href="../../theme.css?v=0.6.0">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.0">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=0.6.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=0.6.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=0.6.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=0.6.1">
+<link rel="stylesheet" href="../../theme.css?v=0.6.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=0.6.1">
 <script defer src="../../../../shared/js/analytics.js"></script>
 </head>
 <body>
@@ -38,7 +38,7 @@
 
 <div class="variant-cover">
   <div class="variant-cover-inner">
-    <span class="variant-cover-label">Chess · Variant 89 of 153</span>
+    <span class="variant-cover-label">Chess · Variant 89 of 154</span>
     <h1 class="variant-cover-title">Makruk</h1>
     <div class="variant-cover-stats"><span class="variant-stat"><span class="variant-stat-val">8×8</span><span class="variant-stat-lbl">Board</span></span>
       <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span></div>
@@ -51,7 +51,7 @@
 <div class="section">
 
 <h2 id="makruk-thai-chess">Makruk (Thai Chess)</h2>
-<p>The traditional chess of Thailand, played since the 16th century. Features a weaker promoted piece and no castling.</p>
+<p>The traditional chess of Thailand, played since at least the 16th century. Distinctive for its silver-general piece (Khon), early pawn promotion, and endgame counting rules that force resolution.</p>
 <div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 368" width="368" height="368">
 <defs>
 <symbol id="piece-mce-chess-bR" viewBox="0 0 45 45"><g style="fill:#000;stroke:#000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"><path d="M 9,39 L 36,39 L 36,36 L 9,36 L 9,39 z"/><path d="M 12,36 L 12,32 L 33,32 L 33,36 L 12,36 z"/><path d="M 11,14 L 11,9 L 15,9 L 15,11 L 20,11 L 20,9 L 25,9 L 25,11 L 30,11 L 30,9 L 34,9 L 34,14"/><path d="M 34,14 L 31,17 L 14,17 L 11,14"/><path d="M 31,17 L 31,29.5 L 14,29.5 L 14,17"/><path d="M 31,29.5 L 32.5,32 L 12.5,32 L 14,29.5"/><path d="M 11,14 L 34,14" style="fill:none;stroke:#fff;stroke-linejoin:miter"/><path d="M 12,35.5 L 33,35.5" style="fill:none;stroke:#fff;stroke-width:1"/><path d="M 13,31.5 L 32,31.5" style="fill:none;stroke:#fff;stroke-width:1"/><path d="M 14,29.5 L 31,29.5" style="fill:none;stroke:#fff;stroke-width:1"/></g></symbol>
@@ -75,22 +75,113 @@
 <p class="diagram-engine-url"><a href="https://engine.moddable.games/play/?game=chess&variant=makruk" class="diagram-engine-link" target="_blank" rel="noopener">https://engine.moddable.games/play/?game=chess&variant=makruk</a></p></div>
 <h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> Standard 8×8.</p>
-<p><strong>Setup:</strong> Pawns start on the 3rd rank (not 2nd). Back rank: Rook, Knight, Silver General (Met), King, Queen (Met equivalent), Silver General, Knight, Rook.</p>
-<p><strong>FEN:</strong> <code>rngfkgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGFKGNR w - - 0 1</code></p>
+<p><strong>Starting position:</strong> Pawns on the 3rd rank. Back rank (a1–h1 for White): Rook, Knight, Khon, Khun (King), Met, Khon, Knight, Rook.</p>
+<ul class="rules">
+<li>White: Rua a1, Ma b1, Khon c1, Khun d1, Met e1, Khon f1, Ma g1, Rua h1; Bia a3–h3</li>
+<li>Black: Rua a8, Ma b8, Khon c8, Khun d8, Met e8, Khon f8, Ma g8, Rua h8; Bia a6–h6</li>
+</ul>
+<p><strong>FEN:</strong> <code>rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR w - - 0 1</code></p>
+<p>(R/r = Rua, N/n = Ma, G/g = Khon, K/k = Khun, F/f = Met, P/p = Bia)</p>
+<h3 id="pieces">Pieces</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Thai name</th>
+<th>English</th>
+<th>Per side</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khun</td>
+<td>King</td>
+<td>1</td>
+<td>One step in any direction. No castling.</td>
+</tr>
+<tr>
+<td>Met</td>
+<td>Queen/Seed</td>
+<td>1</td>
+<td>One step diagonally only (4 directions). A weak piece.</td>
+</tr>
+<tr>
+<td>Khon</td>
+<td>Bishop/Silver General</td>
+<td>2</td>
+<td>One step diagonally in any direction OR one step straight forward (5 directions).</td>
+</tr>
+<tr>
+<td>Ma</td>
+<td>Knight/Horse</td>
+<td>2</td>
+<td>L-shaped leap, identical to the modern Knight.</td>
+</tr>
+<tr>
+<td>Rua</td>
+<td>Rook/Chariot</td>
+<td>2</td>
+<td>Slides any number of squares orthogonally.</td>
+</tr>
+<tr>
+<td>Bia</td>
+<td>Pawn</td>
+<td>8</td>
+<td>One step forward. Captures one step diagonally forward. No initial double move.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Note on the Khon:</strong> the five-direction movement (four diagonal + one forward) is the defining piece of Makruk. It is the same as shogi’s Silver General. The forward step is relative to the owning player’s advancement direction.</p>
 <h3 id="rules">Rules</h3>
 <ul class="rules">
-<li>The Met (Silver General) moves one square diagonally in any direction. It cannot move orthogonally.</li>
-<li>The Queen equivalent also moves as a Met (one step diagonal) — it is a weak piece.</li>
-<li>Pawns promote on the 6th rank (not the 8th) and always promote to Met.</li>
 <li>No castling.</li>
 <li>No en passant.</li>
 <li>Pawns do not have a two-square initial move.</li>
-<li>Rooks, Knights, and Kings move as in standard chess.</li>
+<li>Pawns promote on reaching the sixth rank from their own side (rank 6 for White, rank 3 for Black) and always promote to Met.</li>
 </ul>
+<h3 id="counting-rules">Counting Rules</h3>
+<p>Makruk uses two counting systems to force resolution in endgames. Both end the game in a draw if the stronger side fails to checkmate within the limit. The weaker side counts aloud and may stop counting at any point, restarting later if desired.</p>
+<p><strong>Board counting</strong> (นับกระดาน). Applies once neither side has any unpromoted pawns remaining. The stronger side must checkmate within <strong>64 moves</strong>, counted by the weaker side. Reaching 64 without checkmate is a draw.</p>
+<p><strong>Pieces counting</strong> (นับศักดิ์หมาก). Applies once the weaker side has only a bare King, that is, their last piece other than the King has been captured. The count begins at the total number of pieces remaining on the board plus one, and the limit is set by the strongest material the stronger side holds:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Stronger side holds</th>
+<th>Move limit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Two or more Rooks</td>
+<td>8</td>
+</tr>
+<tr>
+<td>One Rook</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Two or more Khon</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Two or more Knights</td>
+<td>32</td>
+</tr>
+<tr>
+<td>One Khon</td>
+<td>44</td>
+</tr>
+<tr>
+<td>One Knight, or only Met and promoted pawns</td>
+<td>64</td>
+</tr>
+</tbody>
+</table></div>
+<p>Only the most valuable unit is considered; other material does not change the limit. Reaching the limit without checkmate is a draw.</p>
 <h3 id="win-condition">Win Condition</h3>
 <p>Checkmate the opponent’s King.</p>
 <h3 id="strategy">Strategy</h3>
-<p>With no Queen and only weak diagonal movers (Met), Makruk is a slower, more positional game than standard chess. Rooks are by far the most powerful pieces. Pawn promotion comes earlier (rank 6) but the promoted piece is weak. Endgames are critical — counting rules force resolution within a limited number of moves when material is low.</p>
+<p>With no Queen and only the weak Met, Rooks are by far the most powerful pieces. The Khon’s forward step makes it more useful in attack than defence. Pawn promotion comes earlier (rank 6) but the promoted piece is weak. Endgames are critical: counting rules force the stronger side to deliver mate within a fixed window or accept a draw.</p>
 <h3 id="attribution">Attribution</h3>
 <p>Traditional Thai chess. Played for over 500 years in Thailand. Public domain.</p>
 

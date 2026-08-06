@@ -17,13 +17,13 @@ engine:
   castling: false
   pieces:
     yurt:
-      divergent: 
+      divergent:
         move:
           type: leaper
-          offsets: [[-1,-1]
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
         capture:
           type: leaper
-          offsets: [[1,0]
+          offsets: [[-1,0],[1,0],[0,-1],[0,1]]
     lancer:
       divergent: 
         move:

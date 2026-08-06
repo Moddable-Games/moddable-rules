@@ -1,6 +1,6 @@
 ---
 title: "Draughts — Official Rulebook"
-version: "0.3.0"
+version: "0.3.1"
 slug: "draughts"
 players: "2"
 duration: "15–60 min"
@@ -8,7 +8,7 @@ age: "6+"
 tagline: "The world's oldest family of capture games"
 type: "classic"
 status: "live"
-updated: "2026-06-20"
+updated: "2026-08-06"
 published: true
 variants: true
 how_to_play: "Move pieces diagonally and capture opponents by jumping over them. Men promote to kings with extended movement. Mandatory captures force tactical sacrifices."

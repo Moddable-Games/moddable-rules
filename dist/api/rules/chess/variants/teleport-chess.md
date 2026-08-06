@@ -31,4 +31,4 @@ Teleports are powerful but finite; save them for decisive moments. Common uses: 
 
 ### Attribution
 
-Modern variant. Public domain.
+Modern variant with invented rules. See moddable-rules#243 for correction history.

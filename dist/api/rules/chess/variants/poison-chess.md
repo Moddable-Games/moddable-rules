@@ -32,4 +32,4 @@ Poison creates dangerous no-go zones that restrict mobility. Exchange sequences 
 
 ### Attribution
 
-Modern variant. Public domain.
+Moddable Games original. No external provenance is claimed. Designed as a status-effect variant to exercise the engine's timed-effect system.
