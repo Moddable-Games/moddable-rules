@@ -395,11 +395,45 @@ for (const slug of slugs) {
     }
 
     const gamePdfPath = resolve(gamePdfDir, `${gameSlug}.pdf`);
-    const opts = { bg: '#f8f4ef', css: '', outPath: gamePdfPath, version: meta.version || '0.0.0', slug, firstPublished: '', stripSelectors: [] };
+
+    // Cover page
+    const coverPage = await browser.newPage();
+    await coverPage.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
+    await coverPage.emulateMediaType('print');
+    await coverPage.setViewport({ width: 794, height: 1123 });
+    await coverPage.evaluate(() => {
+      const cover = document.querySelector('.variant-cover');
+      if (!cover) return;
+      document.body.innerHTML = '';
+      document.body.appendChild(cover);
+    });
+    await coverPage.addStyleTag({ content: `
+      html, body { margin: 0; padding: 0; background: #0a1628; }
+      .variant-cover {
+        width: 210mm; height: 297mm; box-sizing: border-box;
+        display: flex; align-items: center; justify-content: center;
+        padding: 40mm 20mm;
+        background: linear-gradient(160deg, #0a1628 0%, #112240 100%);
+        border-bottom: none;
+      }
+      .variant-cover-inner { text-align: center; }
+      .variant-cover-title { font-size: 42px; }
+      .variant-cover-label { font-size: 11px; margin-bottom: 16px; }
+    `});
+    const coverPath = resolve(gamePdfDir, `_${gameSlug}_cover.pdf`);
+    await coverPage.pdf({ path: coverPath, format: 'A4', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
+    await coverPage.close();
+
+    // Content pages
+    const contentPath = resolve(gamePdfDir, `_${gameSlug}_content.pdf`);
+    const opts = { bg: '#f8f4ef', css: '', outPath: contentPath, version: meta.version || '0.0.0', slug, firstPublished: '', stripSelectors: [] };
     try {
       await generateMultiPage(browser, htmlPath, '.content', opts);
+      execSync(`pdfunite "${coverPath}" "${contentPath}" "${gamePdfPath}"`);
+      execSync(`rm "${coverPath}" "${contentPath}"`);
     } catch (e) {
       console.warn(`    Failed to generate PDF for ${gameSlug}: ${e.message}`);
+      execSync(`rm -f "${coverPath}" "${contentPath}"`);
     }
   }
 
@@ -488,11 +522,14 @@ for (const slug of slugs) {
   const gamePdfDir = resolve(gameDir, 'pdf/games');
   if (!existsSync(gamePdfDir)) continue;
 
-  const gamePdfs = readdirSync(gamePdfDir).filter(f => f.endsWith('.pdf')).sort();
-  if (gamePdfs.length < 2) continue;
+  const gamePdfs = readdirSync(gamePdfDir).filter(f => f.endsWith('.pdf') && !f.startsWith('_')).sort();
+  if (gamePdfs.length === 0) continue;
 
   const version = meta.version || '0.0.0';
-  const allPaths = gamePdfs.map(f => resolve(gamePdfDir, f));
+  const rulebookPdf = resolve(gameDir, 'pdf', `${slug}-rulebook.pdf`);
+  const allPaths = existsSync(rulebookPdf)
+    ? [rulebookPdf, ...gamePdfs.map(f => resolve(gamePdfDir, f))]
+    : gamePdfs.map(f => resolve(gamePdfDir, f));
   const libraryPath = resolve(gameDir, 'pdf', `${slug}-complete-v${version}.pdf`);
   execSync(`pdfunite ${allPaths.map(p => `"${p}"`).join(' ')} "${libraryPath}"`);
   const stablePath = resolve(gameDir, 'pdf', `${slug}-complete.pdf`);
