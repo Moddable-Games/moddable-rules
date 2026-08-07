@@ -1,0 +1,72 @@
+# Fallback: branch-based Pages deployment via peaceiris/actions-gh-pages.
+# Use when Actions-based deployment (deploy-pages) is stuck due to Pages
+# platform degradation. The legacy branch publisher has no 600-second
+# polling timeout and survives incidents that break the Actions path.
+#
+# To activate:
+#   1. gh api -X PUT repos/Moddable-Games/moddable-rules/pages \
+#        --input '{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
+#   2. Replace .github/workflows/deploy.yml with this file
+#   3. Push to main
+#
+# To revert to Actions path after incident:
+#   1. Restore the normal deploy.yml
+#   2. gh api -X PUT repos/Moddable-Games/moddable-rules/pages \
+#        --input '{"build_type":"workflow"}'
+#   3. Update branch policy: delete gh-pages, add main
+
+name: Build and Deploy to Pages (branch fallback)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+
+      - name: Validate FEN/setup strings
+        run: node scripts/check-fen.mjs
+
+      - run: npm run build
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp .nojekyll _site/
+          cp CNAME _site/ 2>/dev/null || true
+          cp diagrams-manifest.json _site/
+          cp -r diagrams _site/
+          cp -r dist _site/
+          cp -r shared _site/
+          rsync -a --exclude='pdf/' games/ _site/games/
+          cp -r js _site/
+          cp -r css _site/
+          mkdir -p _site/api
+          cp -r api/* _site/api/ 2>/dev/null || true
+          cp -r dist/api/* _site/api/
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          cname: rules.moddable.games

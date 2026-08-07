@@ -9,13 +9,15 @@ const SHARED_DIR = resolve(ROOT, 'shared');
 const DIST_DIR = resolve(ROOT, 'dist');
 const THEMES_DIR = resolve(SHARED_DIR, 'themes');
 const ENGINE_BASE = 'https://engine.moddable.games/play/';
+const PDF_BASE = 'https://github.com/Moddable-Games/moddable-rules/releases/download/pdfs';
 
-function renderSvgBlock(svg, caption, family, variant) {
-  const engineUrl = `${ENGINE_BASE}?game=${family}&variant=${variant}`;
-  const link = `<a href="${engineUrl}" class="diagram-engine-link" target="_blank" rel="noopener">${engineUrl}</a>`;
-  const captionHtml = caption
-    ? `<p class="diagram-caption">${caption}</p>\n<p class="diagram-engine-url">${link}</p>`
-    : `<p class="diagram-engine-url">${link}</p>`;
+function renderSvgBlock(svg, caption, family, variant, playable) {
+  let captionHtml = caption ? `<p class="diagram-caption">${caption}</p>` : '';
+  if (playable) {
+    const engineUrl = `${ENGINE_BASE}?family=${family}&variant=${variant}`;
+    const link = `<a href="${engineUrl}" class="diagram-engine-link" target="_blank" rel="noopener">${engineUrl}</a>`;
+    captionHtml += `\n<p class="diagram-engine-url">${link}</p>`;
+  }
   return `<div class="diagram-wrap">${svg}\n${captionHtml}</div>`;
 }
 
@@ -283,7 +285,7 @@ function buildGame(slug) {
         const svg = readFile(svgPath).replace(/\n\s*\n/g, '\n');
         if (file.endsWith('-board.svg')) {
           const variantFromFile = file.replace(/-board\.svg$/, '');
-          return renderSvgBlock(svg, caption, slug, variantFromFile);
+          return renderSvgBlock(svg, caption, slug, variantFromFile, false);
         }
         return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
       }
@@ -362,7 +364,7 @@ function buildGame(slug) {
     : [`${slug}-complete.pdf`, `${slug}-rulebook.pdf`];
   const pdfName = pdfCandidates.find(f => existsSync(resolve(gameDir, 'pdf', f))) || '';
   const pdfLink = pdfName
-    ? `<a href="../../games/${slug}/pdf/${pdfName}" class="hdr-link" target="_blank" rel="noopener">PDF</a>`
+    ? `<a href="${PDF_BASE}/${slug}--${pdfName}" class="hdr-link" target="_blank" rel="noopener">PDF</a>`
     : '';
 
   // Cover stats: variant hubs show Variants/Players/Age, rulebooks show Players/Duration/Age
@@ -557,7 +559,7 @@ function buildVariants(slug) {
         const svgPath = resolve(gameDir, 'diagrams/svg', file);
         if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
         const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
-        return renderSvgBlock(svg, caption, slug, variantSlug);
+        return renderSvgBlock(svg, caption, slug, variantSlug, !!meta.playable);
       }
     );
 
@@ -598,7 +600,7 @@ function buildVariants(slug) {
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace(/\{\{hub_label\}\}/g, 'All Variants');
     output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/variants/${variantSlug}.md`);
-    output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/variants/${variantSlug}.pdf`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--${variantSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
@@ -857,7 +859,7 @@ function buildComponentGames(slug) {
         const svgPath = resolve(gameDir, 'diagrams/svg', file);
         if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
         const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
-        return renderSvgBlock(svg, caption, slug, gameSlug);
+        return renderSvgBlock(svg, caption, slug, gameSlug, false);
       }
     );
 
@@ -896,7 +898,7 @@ function buildComponentGames(slug) {
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace(/\{\{hub_label\}\}/g, 'All Games');
     output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/games/${gameSlug}/standard.md`);
-    output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/games/${gameSlug}.pdf`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--${gameSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
@@ -982,7 +984,7 @@ function buildPages(slug) {
       output = output.replace(/\{\{slug\}\}/g, slug);
       output = output.replace(/\{\{hub_label\}\}/g, 'Contents');
       output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/${subdir.name}/${file}`);
-      output = output.replace(/\{\{pdf_path\}\}/g, `games/${slug}/pdf/${subdir.name}/${pageSlug}.pdf`);
+      output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--${subdir.name}--${pageSlug}.pdf`);
       output = output.replace('{{PREV_LINK}}', '<span class="variant-pager-spacer"></span>');
       output = output.replace('{{NEXT_LINK}}', '<span class="variant-pager-spacer"></span>');
 
