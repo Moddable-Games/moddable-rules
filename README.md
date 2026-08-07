@@ -212,6 +212,19 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-07
+- PDFs moved to GitHub Releases (277 MB removed from Pages payload, artifact 253 MB to 69 MB)
+- Engine play links now conditional on `playable: true` (6 families); URL corrected to `?family=&variant=`
+- Component hub PDFs now include cover pages between games and hub rulebook prepended
+- Board diagram sync: 334 exported, 0 errors (engine YAML parser fix)
+- Fixed broken YAML offset arrays in courier.md and orda-chess.md
+- Talisman Worlds stripped to mod layer (removed verbatim third-party content)
+- Racing Kings expanded with full no-check and equalising rule specification
+- Spantsiretti corrected: 15 pieces / 3 rows per side (sourced from Games::Checkers)
+- Attribution corrections across 10+ chess variants
+- Deploy switched to Actions-based path with branch-based fallback documented
+- Stale branches cleaned (22 deleted)
+
 #### 2026-07-22
 - Added Fate Core System (CC BY 3.0) — 13 rules pages covering all core mechanics
 - Character sheet pages for all 10 RPGs with blank SVG sheets rendered by moddable-engine
