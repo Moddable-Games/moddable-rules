@@ -358,14 +358,12 @@ function buildGame(slug) {
   const isVariantHub = meta.variant_hub !== false && !!meta.variants;
   const coverSub = isVariantHub ? 'Variant Library' : 'Official Rulebook';
 
-  // Resolve PDF link (prefer consolidated library, fall back to rulebook)
-  const pdfCandidates = isVariantHub
-    ? [`${slug}-variant-library.pdf`, `${slug}-complete.pdf`, `${slug}-rulebook.pdf`]
-    : [`${slug}-complete.pdf`, `${slug}-rulebook.pdf`];
-  const pdfName = pdfCandidates.find(f => existsSync(resolve(gameDir, 'pdf', f))) || '';
-  const pdfLink = pdfName
-    ? `<a href="${PDF_BASE}/${slug}--${pdfName}" class="hdr-link" target="_blank" rel="noopener">PDF</a>`
-    : '';
+  // Resolve PDF link: variant hubs get library, component hubs get complete, others get rulebook
+  const isComponentHub = meta.hub_type === 'component';
+  const pdfName = isVariantHub ? `${slug}-variant-library.pdf`
+    : isComponentHub ? `${slug}-complete.pdf`
+    : `${slug}-rulebook.pdf`;
+  const pdfLink = `<a href="${PDF_BASE}/${slug}--${pdfName}" class="hdr-link" target="_blank" rel="noopener">PDF</a>`;
 
   // Cover stats: variant hubs show Variants/Players/Age, rulebooks show Players/Duration/Age
   const coverStats = isVariantHub
