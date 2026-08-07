@@ -42,14 +42,15 @@ jobs:
           cp -r diagrams _site/
           cp -r dist _site/
           cp -r shared _site/
-          cp -r games _site/
+          rsync -a --exclude='pdf/' games/ _site/games/
           cp -r js _site/
           cp -r css _site/
-          # Serve API JSON at /api/ (not just /dist/api/)
-          cp -r api _site/
+          # Serve API at /api/ (not just /dist/api/)
+          mkdir -p _site/api
+          cp -r api/* _site/api/ 2>/dev/null || true
           cp -r dist/api/* _site/api/
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -61,4 +62,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
