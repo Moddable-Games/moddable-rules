@@ -12,6 +12,7 @@ set -euo pipefail
 
 TAG="pdfs"
 REPO="Moddable-Games/moddable-rules"
+STAGING="/tmp/pdf-upload-staging"
 
 echo "Uploading PDFs to release: $TAG"
 
@@ -23,29 +24,30 @@ if ! gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
     --latest=false
 fi
 
-# Delete existing assets (full replace on each upload)
-echo "Clearing existing assets..."
-gh release view "$TAG" --repo "$REPO" --json assets --jq '.assets[].name' 2>/dev/null | while read -r name; do
-  gh release delete-asset "$TAG" "$name" --repo "$REPO" --yes 2>/dev/null || true
-done
-
-# Upload all PDFs with flattened names
+# Stage files with flattened names
+rm -rf "$STAGING" && mkdir -p "$STAGING"
 count=0
 for pdf in games/*/pdf/**/*.pdf games/*/pdf/*.pdf; do
   [ -f "$pdf" ] || continue
-  # Extract slug and relative path: games/{slug}/pdf/{rest}
   slug=$(echo "$pdf" | cut -d/ -f2)
   rest=$(echo "$pdf" | sed "s|games/${slug}/pdf/||")
-  # Skip versioned archives (e.g. chess-variant-library-v0.6.0.pdf)
-  if echo "$rest" | grep -qE '-v[0-9]+\.[0-9]+'; then
-    continue
-  fi
-  # Flatten path: variants/standard.pdf -> standard.pdf, rules/combat.pdf -> rules--combat.pdf
+  # Skip versioned archives
+  case "$rest" in
+    *-v[0-9]*) continue ;;
+  esac
+  # Flatten: variants/standard.pdf -> standard.pdf, rules/combat.pdf -> rules--combat.pdf
   flat=$(echo "$rest" | sed 's|/|--|g')
   asset_name="${slug}--${flat}"
-  echo "  $asset_name"
-  gh release upload "$TAG" "$pdf#${asset_name}" --repo "$REPO" --clobber
+  cp "$pdf" "$STAGING/$asset_name"
   count=$((count + 1))
 done
 
+echo "Staged $count PDFs for upload"
+
+# Upload all at once (gh release upload accepts multiple files)
+# Split into batches of 50 to avoid argument length limits
+cd "$STAGING"
+find . -name "*.pdf" -print0 | xargs -0 -n 50 gh release upload "$TAG" --repo "$REPO" --clobber
+
+rm -rf "$STAGING"
 echo "Done: $count PDFs uploaded to https://github.com/$REPO/releases/tag/$TAG"

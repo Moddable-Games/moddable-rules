@@ -600,7 +600,7 @@ function buildVariants(slug) {
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace(/\{\{hub_label\}\}/g, 'All Variants');
     output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/variants/${variantSlug}.md`);
-    output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--${variantSlug}.pdf`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--variants--${variantSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
@@ -898,7 +898,7 @@ function buildComponentGames(slug) {
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace(/\{\{hub_label\}\}/g, 'All Games');
     output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/games/${gameSlug}/standard.md`);
-    output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--${gameSlug}.pdf`);
+    output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--games--${gameSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
 
