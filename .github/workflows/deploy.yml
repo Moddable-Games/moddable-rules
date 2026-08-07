@@ -37,10 +37,16 @@ jobs:
           cp .nojekyll _site/
           cp CNAME _site/ 2>/dev/null || true
           cp diagrams-manifest.json _site/
+          cp -r diagrams _site/
           cp -r dist _site/
           cp -r shared _site/
+          rsync -a --exclude='pdf/' games/ _site/games/
           cp -r js _site/
           cp -r css _site/
+          # Serve API at /api/ (not just /dist/api/)
+          mkdir -p _site/api
+          cp -r api/* _site/api/ 2>/dev/null || true
+          cp -r dist/api/* _site/api/
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
