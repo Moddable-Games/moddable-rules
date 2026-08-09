@@ -212,6 +212,13 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-09
+- Full agent-readiness discovery layer: server-card.json, api-catalog (RFC 9727), agent-skills, auth.md
+- Fixed deploy.yml to include robots.txt, sitemap.xml, llms.txt, auth.md in site artifact
+- All HTML pages now include `<link>` elements for MCP/API/LLM discovery
+- Sitemap expanded to 565 URLs including discovery endpoints
+- robots.txt updated with Content-Signal directives
+
 #### 2026-08-07
 - PDFs moved to GitHub Releases (277 MB removed from Pages payload, artifact 253 MB to 69 MB)
 - Engine play links now conditional on `playable: true` (6 families); URL corrected to `?family=&variant=`
