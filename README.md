@@ -230,6 +230,10 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 - Sitemap expanded to 565 URLs including discovery endpoints
 - robots.txt updated with Content-Signal directives
 - Audited cross-project staleness; filed moddable-website#147 and moddable-tools#26
+- api-catalog and agent-skills/index.json now dynamically generated (no hardcoded stats)
+- Added `data.rpgSystems` to api/stats.json (derived from oracle + entity system keys)
+- Added CI stats freshness check (`scripts/check-stats.mjs`) in validate workflow
+- Closed #251, #253, #254
 
 #### 2026-08-07
 - PDFs moved to GitHub Releases (277 MB removed from Pages payload, artifact 253 MB to 69 MB)
