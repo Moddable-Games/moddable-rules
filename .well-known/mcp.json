@@ -1,13 +1,14 @@
 {
   "schema_version": "1.0",
   "name": "Moddable Rules Library",
-  "description": "Board game rules library with 46 games, 295 variants, 458 oracle tables, and 3,385 searchable entities. Content available as markdown and structured JSON via static API.",
+  "description": "Board game rules library with 46 games, 295+ variants, 458 oracle tables, and 3,385 searchable entities. Content available as markdown and structured JSON via static API.",
   "url": "https://tools.moddable.games/mcp",
   "transport": "sse",
   "homepage": "https://rules.moddable.games",
   "documentation": "https://rules.moddable.games/llms.txt",
   "openapi": "https://tools.moddable.games/openapi.json",
   "static_api": "https://rules.moddable.games/api/index.json",
+  "server_card": "https://rules.moddable.games/.well-known/mcp/server-card.json",
   "configSchema": {
     "type": "object",
     "properties": {},

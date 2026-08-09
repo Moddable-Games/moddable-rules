@@ -1,0 +1,31 @@
+{
+  "schema_version": "2025-03-26",
+  "name": "Moddable Rules Library",
+  "description": "Board game rules, variants, oracle tables, and RPG entity data. 46 games, 295+ variants, 458 oracle tables, 3,385 searchable entities. Static API for structured data; full MCP tool suite at tools.moddable.games.",
+  "homepage": "https://rules.moddable.games",
+  "provider": {
+    "name": "Moddable Games",
+    "url": "https://moddable.games"
+  },
+  "server": {
+    "url": "https://tools.moddable.games/mcp",
+    "transport": "sse"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": false,
+    "prompts": false
+  },
+  "authentication": {
+    "type": "none",
+    "description": "All content is freely accessible. No API keys or authentication required."
+  },
+  "documentation": {
+    "llms_txt": "https://rules.moddable.games/llms.txt",
+    "openapi": "https://tools.moddable.games/openapi.json",
+    "api_index": "https://rules.moddable.games/api/index.json"
+  },
+  "contacts": {
+    "support": "https://github.com/AbandonedLand/moddable-rules/issues"
+  }
+}

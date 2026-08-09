@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://rules.moddable.games/</loc></url>
   <url><loc>https://rules.moddable.games/api/index.json</loc></url>
+  <url><loc>https://rules.moddable.games/llms.txt</loc></url>
+  <url><loc>https://rules.moddable.games/auth.md</loc></url>
+  <url><loc>https://rules.moddable.games/.well-known/mcp.json</loc></url>
+  <url><loc>https://rules.moddable.games/.well-known/mcp/server-card.json</loc></url>
+  <url><loc>https://rules.moddable.games/.well-known/api-catalog</loc></url>
+  <url><loc>https://rules.moddable.games/.well-known/agent-skills/index.json</loc></url>
   <url><loc>https://rules.moddable.games/dist/agon/</loc></url>
   <url><loc>https://rules.moddable.games/dist/agon/variants/standard/</loc></url>
   <url><loc>https://rules.moddable.games/dist/asalto/</loc></url>

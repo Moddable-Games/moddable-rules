@@ -39,6 +39,10 @@ jobs:
           cp .nojekyll _site/
           cp CNAME _site/ 2>/dev/null || true
           cp -r .well-known _site/
+          cp robots.txt _site/
+          cp sitemap.xml _site/
+          cp llms.txt _site/
+          cp auth.md _site/
           cp diagrams-manifest.json _site/
           cp -r diagrams _site/
           cp -r dist _site/

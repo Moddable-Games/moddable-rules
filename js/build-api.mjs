@@ -413,9 +413,18 @@ index.deprecations = [
 
 writeJson(resolve(API_DIR, 'index.json'), index);
 
-// --- Sitemap (covers rules pages + API endpoints) ---
+// --- Sitemap (covers rules pages + API endpoints + discovery) ---
 const sitemapBase = 'https://rules.moddable.games';
-const sitemapUrls = [`${sitemapBase}/`, `${sitemapBase}/api/index.json`];
+const sitemapUrls = [
+  `${sitemapBase}/`,
+  `${sitemapBase}/api/index.json`,
+  `${sitemapBase}/llms.txt`,
+  `${sitemapBase}/auth.md`,
+  `${sitemapBase}/.well-known/mcp.json`,
+  `${sitemapBase}/.well-known/mcp/server-card.json`,
+  `${sitemapBase}/.well-known/api-catalog`,
+  `${sitemapBase}/.well-known/agent-skills/index.json`,
+];
 for (const g of catalogue) {
   sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/`);
   for (const v of g.variants) {

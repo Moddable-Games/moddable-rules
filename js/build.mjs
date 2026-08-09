@@ -722,6 +722,9 @@ function buildLanding() {
 <meta name="twitter:description" content="Official rulebooks for games published by Moddable Games.">
 <meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=${version}">
 <link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
+<link rel="api-catalog" href="/.well-known/api-catalog">
+<link rel="mcp-server" href="/.well-known/mcp.json">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM context">
 <link rel="stylesheet" href="css/landing.css?v=${version}">
 <script defer src="shared/js/analytics.js"></script>
 </head>

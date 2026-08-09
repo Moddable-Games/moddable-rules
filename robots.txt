@@ -23,3 +23,10 @@ Allow: /
 
 User-agent: Bytespider
 Allow: /
+
+# Content-Signal: agent discovery
+# llms.txt: https://rules.moddable.games/llms.txt
+# auth: https://rules.moddable.games/auth.md
+# mcp: https://rules.moddable.games/.well-known/mcp.json
+# api-catalog: https://rules.moddable.games/.well-known/api-catalog
+# agent-skills: https://rules.moddable.games/.well-known/agent-skills/index.json
