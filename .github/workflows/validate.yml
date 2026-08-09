@@ -21,3 +21,11 @@ jobs:
 
       - name: Check attribution
         run: node scripts/check-attribution.mjs
+
+      - run: npm ci --ignore-scripts
+
+      - name: Build (for stats check)
+        run: npm run build
+
+      - name: Check stats freshness
+        run: node scripts/check-stats.mjs

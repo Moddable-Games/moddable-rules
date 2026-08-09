@@ -4,13 +4,13 @@
     {
       "name": "moddable-rules-api",
       "type": "api",
-      "description": "Static JSON API serving game metadata, rulebook markdown, variant rules, oracle tables, and RPG entities for 46 games and 295+ variants",
+      "description": "Static JSON API serving game metadata, rulebook markdown, variant rules, oracle tables, and RPG entities for 46 games and 296+ variants",
       "url": "https://rules.moddable.games/api/index.json"
     },
     {
       "name": "moddable-games-tools",
       "type": "skill-md",
-      "description": "83 AI-callable board game tools: rules lookup, chess variants, hex maps, piece gallery, RPG oracles, and game utilities via MCP",
+      "description": "AI-callable board game tools: rules lookup, chess variants, hex maps, piece gallery, RPG oracles, and game utilities via MCP",
       "url": "https://tools.moddable.games/llms.txt"
     }
   ]

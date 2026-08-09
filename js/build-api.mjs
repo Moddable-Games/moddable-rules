@@ -491,6 +491,7 @@ const stats = {
     oracleTables: catalogueStats.totalOracleTables,
     entities: totalEntities,
     dataFiles: catalogueStats.totalDataFiles,
+    rpgSystems: new Set([...Object.keys(allOracles), ...Object.keys(allEntities)]).size,
   },
   diagrams: diagramStats,
   pdfs: {
@@ -596,6 +597,50 @@ const serverCard = {
   contacts: { support: 'https://github.com/AbandonedLand/moddable-rules/issues' },
 };
 writeJson(resolve(ROOT, '.well-known/mcp/server-card.json'), serverCard);
+
+const apiCatalog = {
+  schema_version: '1.0.0',
+  apis: [
+    {
+      name: 'Moddable Rules Static API',
+      description: `Game catalogue, rulebook markdown, variant data, oracle tables, and RPG entities for ${gameCount} games and ${variantCount}+ variants.`,
+      url: 'https://rules.moddable.games/api/index.json',
+      type: 'json',
+      lifecycle: 'production',
+      documentation: 'https://rules.moddable.games/llms.txt',
+    },
+    {
+      name: 'Moddable Games MCP Tools',
+      description: 'AI-callable tools for board game rules lookup, oracle rolls, entity search, chess variants, hex maps, and game utilities.',
+      url: 'https://tools.moddable.games/openapi.json',
+      type: 'openapi',
+      lifecycle: 'production',
+      documentation: 'https://tools.moddable.games/llms.txt',
+      mcp_endpoint: 'https://tools.moddable.games/mcp',
+    },
+  ],
+};
+writeJson(resolve(ROOT, '.well-known/api-catalog'), apiCatalog);
+
+const agentSkills = {
+  $schema: 'https://schemas.agentskills.io/discovery/0.2.0/schema.json',
+  skills: [
+    {
+      name: 'moddable-rules-api',
+      type: 'api',
+      description: `Static JSON API serving game metadata, rulebook markdown, variant rules, oracle tables, and RPG entities for ${gameCount} games and ${variantCount}+ variants`,
+      url: 'https://rules.moddable.games/api/index.json',
+    },
+    {
+      name: 'moddable-games-tools',
+      type: 'skill-md',
+      description: 'AI-callable board game tools: rules lookup, chess variants, hex maps, piece gallery, RPG oracles, and game utilities via MCP',
+      url: 'https://tools.moddable.games/llms.txt',
+    },
+  ],
+};
+mkdirSync(resolve(ROOT, '.well-known/agent-skills'), { recursive: true });
+writeJson(resolve(ROOT, '.well-known/agent-skills/index.json'), agentSkills);
 
 // --- Summary ---
 const endpointsByType = {};

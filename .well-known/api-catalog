@@ -3,7 +3,7 @@
   "apis": [
     {
       "name": "Moddable Rules Static API",
-      "description": "Game catalogue, rulebook markdown, variant data, oracle tables, and RPG entities for 46 games and 295+ variants.",
+      "description": "Game catalogue, rulebook markdown, variant data, oracle tables, and RPG entities for 46 games and 296+ variants.",
       "url": "https://rules.moddable.games/api/index.json",
       "type": "json",
       "lifecycle": "production",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Moddable Games MCP Tools",
-      "description": "83 AI-callable tools for board game rules lookup, oracle rolls, entity search, chess variants, hex maps, and game utilities.",
+      "description": "AI-callable tools for board game rules lookup, oracle rolls, entity search, chess variants, hex maps, and game utilities.",
       "url": "https://tools.moddable.games/openapi.json",
       "type": "openapi",
       "lifecycle": "production",
