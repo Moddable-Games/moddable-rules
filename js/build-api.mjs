@@ -506,6 +506,97 @@ const stats = {
 writeJson(resolve(API_DIR, 'stats.json'), stats);
 trackEndpoint('/api/stats.json', 'Comprehensive project statistics (single source of truth)', 'json');
 
+// --- Generate discovery files (llms.txt, mcp.json, server-card, etc.) ---
+const searchCount = existsSync(existingIndex)
+  ? JSON.parse(readFileSync(existingIndex, 'utf8')).length
+  : 0;
+const gameCount = catalogueStats.totalGames;
+const variantCount = catalogueStats.totalVariants;
+const oracleCount = catalogueStats.totalOracleTables;
+const entityCount = totalEntities;
+
+const llmsTxt = `# Moddable Rules Library
+
+> Board game rules, variants, oracle tables, and RPG entity data. ${gameCount} games, ${variantCount} variants, ${entityCount.toLocaleString()} searchable entities.
+
+This site serves game rulebooks in markdown format. Agents can consume pages directly without content negotiation.
+
+## Machine-Readable API
+
+All structured data is available at predictable URLs under \`/api/\`:
+
+- Discovery index: https://rules.moddable.games/api/index.json
+- Game catalogue: https://rules.moddable.games/api/catalogue.json
+- Oracle tables (${oracleCount}): https://rules.moddable.games/api/oracles.json
+- RPG entities (${entityCount.toLocaleString()}): https://rules.moddable.games/api/entities.json
+- Full-text search: https://rules.moddable.games/api/search-index.json
+
+Per-game content follows the pattern:
+- Metadata: /api/rules/{slug}/meta.json
+- Full rules: /api/rules/{slug}/rulebook.md
+- Variants: /api/rules/{slug}/variants/{variant}.md
+- Data files: /api/rules/{slug}/data/{file}.json
+- Oracle tables: /api/rules/{slug}/oracles.json
+
+## MCP Tools
+
+Interactive tools (search, oracle rolls, entity lookup, random game) are available via MCP:
+
+- MCP endpoint: https://tools.moddable.games/mcp
+- REST API: https://tools.moddable.games/api/call
+- OpenAPI spec: https://tools.moddable.games/openapi.json
+
+## Content Types
+
+- **Variant hubs** — families of related games (Draughts, Backgammon, Chess, Go, Shogi, Xiangqi)
+- **Component hubs** — different games using shared equipment (Standard 52-Card Deck, Mahjong, Dominoes)
+- **RPG systems** — D&D 5e, Pathfinder 1e, Ironsworn, Starforged, Maze Rats, Cairn, Knave, BRP, Dungeon World, Fate Core
+- **Original games** — Nukes, Dungeon Chess, Hyper Imperium, Econopoly
+
+## Licence
+
+Public domain game rules are freely available. RPG content is sourced from open SRDs (OGL, CC BY, Creative Commons). Original game rules are proprietary to Moddable Games Ltd.
+`;
+writeFileSync(resolve(ROOT, 'llms.txt'), llmsTxt);
+
+const mcpJson = {
+  schema_version: '1.0',
+  name: 'Moddable Rules Library',
+  description: `Board game rules library with ${gameCount} games, ${variantCount}+ variants, ${oracleCount} oracle tables, and ${entityCount.toLocaleString()} searchable entities. Content available as markdown and structured JSON via static API.`,
+  url: 'https://tools.moddable.games/mcp',
+  transport: 'sse',
+  homepage: 'https://rules.moddable.games',
+  documentation: 'https://rules.moddable.games/llms.txt',
+  openapi: 'https://tools.moddable.games/openapi.json',
+  static_api: 'https://rules.moddable.games/api/index.json',
+  server_card: 'https://rules.moddable.games/.well-known/mcp/server-card.json',
+  configSchema: {
+    type: 'object',
+    properties: {},
+    additionalProperties: false,
+    description: 'No configuration required. All content is freely accessible.',
+  },
+};
+writeJson(resolve(ROOT, '.well-known/mcp.json'), mcpJson);
+
+const serverCard = {
+  schema_version: '2025-03-26',
+  name: 'Moddable Rules Library',
+  description: `Board game rules, variants, oracle tables, and RPG entity data. ${gameCount} games, ${variantCount}+ variants, ${oracleCount} oracle tables, ${entityCount.toLocaleString()} searchable entities. Static API for structured data; full MCP tool suite at tools.moddable.games.`,
+  homepage: 'https://rules.moddable.games',
+  provider: { name: 'Moddable Games', url: 'https://moddable.games' },
+  server: { url: 'https://tools.moddable.games/mcp', transport: 'sse' },
+  capabilities: { tools: true, resources: false, prompts: false },
+  authentication: { type: 'none', description: 'All content is freely accessible. No API keys or authentication required.' },
+  documentation: {
+    llms_txt: 'https://rules.moddable.games/llms.txt',
+    openapi: 'https://tools.moddable.games/openapi.json',
+    api_index: 'https://rules.moddable.games/api/index.json',
+  },
+  contacts: { support: 'https://github.com/AbandonedLand/moddable-rules/issues' },
+};
+writeJson(resolve(ROOT, '.well-known/mcp/server-card.json'), serverCard);
+
 // --- Summary ---
 const endpointsByType = {};
 for (const ep of index.endpoints) {
