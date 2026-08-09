@@ -10,14 +10,15 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 | Game | Version | Players | Variants | Status |
 |------|---------|---------|----------|--------|
-| **Nukes** | 0.9.8 | 2–3 | 3 | Live |
+| **Nukes** | 0.9.8 | 2–3 | 4 | Live |
 | **Mongo** | 0.9.2 | 2–8 | — | Dev |
 | **Endless Skies** | 0.4.0 | 2–8 | — | Dev |
-| **Baristasaurus** | 0.1.0 | 2–5 | — | Playtest |
+| **Baristasaurus** | 0.1.2 | 2–5 | — | Playtest |
+| **Harvesters** | 0.1.0 | 2–4 | — | Dev |
 
 ---
 
-## Classics (23 games, 122 variants)
+## Classics (24 games, 128 variants)
 
 | Game | Variants | Status |
 |------|----------|--------|
@@ -33,9 +34,9 @@ The official rulebook system for all games published by [Moddable Games](https:/
 | **Backgammon** | 8 | Live |
 | **Nine Men's Morris** | 7 | Live |
 | **Shogi** | 24 | Live |
-| **Xiangqi** | 8 | Live |
+| **Xiangqi** | 9 | Live |
 | **Tafl** | 4 | Live |
-| **Hex** | 1 | Live |
+| **Hex** | 8 | Live |
 | **Asalto** | 2 | Live |
 | **L'Attaque** | 4 | Live |
 | **Royal Game of Ur** | — | Live |
@@ -44,6 +45,7 @@ The official rulebook system for all games published by [Moddable Games](https:/
 | **Agon** | — | Live |
 | **Dou Shou Qi** | — | Live |
 | **Nyout** | — | Live |
+| **Senet** | 1 | Live |
 
 ---
 
@@ -60,12 +62,20 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 ---
 
-## RPGs (2 games, 54 pages)
+## RPGs (10 systems, 177 pages)
 
 | Game | Pages | Status |
 |------|-------|--------|
-| **D&D 5e** | 49 | Live |
-| **Ironsworn** | 5 | Live |
+| **D&D 5e** | 50 | Live |
+| **Pathfinder 1e** | 39 | Live |
+| **Ironsworn** | 6 | Live |
+| **Starforged** | 12 | Live |
+| **Dungeon World** | 25 | Live |
+| **Fate Core** | 13 | Live |
+| **Cairn** | 16 | Live |
+| **Basic Roleplaying** | 8 | Live |
+| **Knave** | 5 | Live |
+| **Maze Rats** | 3 | Live |
 
 ---
 
@@ -73,7 +83,7 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 | Mod | Base Game | Version | Variants | Status |
 |-----|-----------|---------|----------|--------|
-| **Moddable Chess** | Chess | 0.6.0 | 155 | Alpha |
+| **Moddable Chess** | Chess | 0.6.0 | 154 | Alpha |
 | **Dungeon Chess** | Chess | 0.2.1 | — | Alpha |
 | **Talisman Worlds** | Talisman 4e | 0.3.0 | — | Dev |
 | **Hyper Imperium** | Twilight Imperium 4e | 0.7.0 | — | Live |
@@ -93,7 +103,7 @@ games/
   talisman-worlds/       Rulebook (dev) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
-  chess/                 Variant library hub + 155 sub-pages (alpha) — platform
+  chess/                 Variant library hub + 154 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
@@ -213,11 +223,13 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-08-09
+- Discovery files (llms.txt, mcp.json, server-card.json) now generated at build time from catalogue data
 - Full agent-readiness discovery layer: server-card.json, api-catalog (RFC 9727), agent-skills, auth.md
 - Fixed deploy.yml to include robots.txt, sitemap.xml, llms.txt, auth.md in site artifact
 - All HTML pages now include `<link>` elements for MCP/API/LLM discovery
 - Sitemap expanded to 565 URLs including discovery endpoints
 - robots.txt updated with Content-Signal directives
+- Audited cross-project staleness; filed moddable-website#147 and moddable-tools#26
 
 #### 2026-08-07
 - PDFs moved to GitHub Releases (277 MB removed from Pages payload, artifact 253 MB to 69 MB)
