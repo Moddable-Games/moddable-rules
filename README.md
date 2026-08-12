@@ -222,6 +222,15 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-12
+- Fixed PDF stats showing 0 in deployed stats.json (PDFs are gitignored; added committed pdf-manifest.json with 665 files, 9,739 pages, by-type breakdown)
+- Added diagram freshness CI guard (hashes engine: frontmatter, fails if changed without sync:boards)
+- Teleport-chess rewritten with correct per-piece-token rules (sourced from chessvariants.com)
+- Antichess family: comparison table and naming note added to all 4 variants; omnicide stalemate resolved as draw
+- Progressive chess: attribution corrected (Scottish not Italian), added in-check-escape rule
+- Created `desktop-research` label; applied to #244 and all RPG corpus issues
+- Closed #179 (redundant, tracked on engine), #243 (all items applied), #249 (CI guard), #255 (PDF stats)
+
 #### 2026-08-09
 - Discovery files (llms.txt, mcp.json, server-card.json) now generated at build time from catalogue data
 - Full agent-readiness discovery layer: server-card.json, api-catalog (RFC 9727), agent-skills, auth.md
