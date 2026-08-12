@@ -471,8 +471,14 @@ if (existsSync(diagramsManifestPath)) {
   };
 }
 
-const totalPdfs = countFiles(resolve(ROOT, 'games'), '.pdf');
 const totalHtmlPages = countFiles(DIST_DIR, '.html');
+
+const pdfManifestPath = resolve(ROOT, 'pdf-manifest.json');
+let pdfStats = { total: 0, totalPages: 0, families: 0, byType: {} };
+if (existsSync(pdfManifestPath)) {
+  const pm = JSON.parse(readFileSync(pdfManifestPath, 'utf8'));
+  pdfStats = { total: pm.total, totalPages: pm.totalPages, families: pm.families, byType: pm.byType };
+}
 
 const stats = {
   generated: new Date().toISOString().split('T')[0],
@@ -494,9 +500,7 @@ const stats = {
     rpgSystems: new Set([...Object.keys(allOracles), ...Object.keys(allEntities)]).size,
   },
   diagrams: diagramStats,
-  pdfs: {
-    total: totalPdfs,
-  },
+  pdfs: pdfStats,
   site: {
     htmlPages: totalHtmlPages,
     apiEndpoints: index.endpoints.length,

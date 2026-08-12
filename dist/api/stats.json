@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09",
+  "generated": "2026-08-12",
   "games": {
     "total": 46,
     "byType": {
@@ -37,7 +37,17 @@
     "families": 47
   },
   "pdfs": {
-    "total": 665
+    "total": 665,
+    "totalPages": 9739,
+    "families": 50,
+    "byType": {
+      "rulebook": 100,
+      "library": 34,
+      "variant": 284,
+      "complete": 32,
+      "componentGame": 38,
+      "subPage": 177
+    }
   },
   "site": {
     "htmlPages": 549,

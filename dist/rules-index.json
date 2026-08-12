@@ -4325,6 +4325,16 @@
     "game": "chess",
     "gameTitle": "Chess",
     "section": "Antichess",
+    "heading": "The Antichess Family",
+    "content": "Captures forced King promotion --- --- Yes Yes Giveaway Loss for the stalemated player Yes No Omnicide Draw Antichess, Giveaway, Suicide Chess and Losing Chess are used interchangeably in the wider wo",
+    "anchor": "the-antichess-family",
+    "variant": "antichess",
+    "variantUrl": "dist/chess/variants/antichess/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Antichess",
     "heading": "Attribution",
     "content": "Also known as \"Losing Chess,\" \"Giveaway Chess,\" or \"Suicide Chess.\" Traditional variant, 19th century. Public domain.",
     "anchor": "attribution",
@@ -8025,6 +8035,16 @@
     "game": "chess",
     "gameTitle": "Chess",
     "section": "Giveaway",
+    "heading": "The Antichess Family",
+    "content": "Captures forced King promotion --- --- Yes Yes Giveaway Loss for the stalemated player Yes No Omnicide Draw Antichess, Giveaway, Suicide Chess and Losing Chess are used interchangeably in the wider wo",
+    "anchor": "the-antichess-family",
+    "variant": "giveaway",
+    "variantUrl": "dist/chess/variants/giveaway/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Giveaway",
     "heading": "Attribution",
     "content": "Traditional variant. Also known as \"Giveaway Chess.\" Public domain.",
     "anchor": "attribution",
@@ -11405,6 +11425,16 @@
     "game": "chess",
     "gameTitle": "Chess",
     "section": "Omnicide",
+    "heading": "The Antichess Family",
+    "content": "Captures forced King promotion --- --- Yes Yes Giveaway Loss for the stalemated player Yes No Omnicide Draw Antichess, Giveaway, Suicide Chess and Losing Chess are used interchangeably in the wider wo",
+    "anchor": "the-antichess-family",
+    "variant": "omnicide",
+    "variantUrl": "dist/chess/variants/omnicide/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Omnicide",
     "heading": "Strategy",
     "content": "Since captures are not forced, you cannot simply \"feed\" pieces to your opponent as in Antichess. You must create positions where capturing your pieces benefits the opponent or where leaving them alive",
     "anchor": "strategy",
@@ -12226,7 +12256,7 @@
     "gameTitle": "Chess",
     "section": "Progressive",
     "heading": "Attribution",
-    "content": "Traditional variant Italian Progressive rules. Public domain.",
+    "content": "Traditional variant Scottish Progressive rules. Public domain.",
     "anchor": "attribution",
     "variant": "progressive",
     "variantUrl": "dist/chess/variants/progressive/"
@@ -14026,8 +14056,18 @@
     "gameTitle": "Chess",
     "section": "Suicide Chess",
     "heading": "Difference from Giveaway",
-    "content": "The only rule difference is the stalemate condition. In Giveaway, being stalemated means you lose. In Suicide Chess, stalemate is a draw. This seemingly small change has significant strategic implicat",
+    "content": "The only rule difference from Giveaway is the stalemate condition. In Giveaway, being stalemated means you lose. In Suicide Chess, stalemate is a draw. This seemingly small change has significant stra",
     "anchor": "difference-from-giveaway",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/chess/variants/suicide-chess/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Suicide Chess",
+    "heading": "The Antichess Family",
+    "content": "Captures forced King promotion --- --- Yes Yes Giveaway Loss for the stalemated player Yes No Omnicide Draw Antichess, Giveaway, Suicide Chess and Losing Chess are used interchangeably in the wider wo",
+    "anchor": "the-antichess-family",
     "variant": "suicide-chess",
     "variantUrl": "dist/chess/variants/suicide-chess/"
   },
@@ -14426,7 +14466,7 @@
     "gameTitle": "Chess",
     "section": "Teleportation Chess",
     "heading": "Teleportation Chess",
-    "content": "Each player has 3 teleports per game. Instead of a normal move, any piece can teleport to any empty square on the board. Use them wisely — they don't come back.",
+    "content": "Each piece begins with a one-use teleport ability. Instead of moving normally, a piece may relocate to any empty square on the board, but it can never teleport again.",
     "anchor": "teleportation-chess",
     "variant": "teleport-chess",
     "variantUrl": "dist/chess/variants/teleport-chess/"
@@ -14436,7 +14476,7 @@
     "gameTitle": "Chess",
     "section": "Teleportation Chess",
     "heading": "Setup",
-    "content": "Board: Standard 8×8. Setup: Standard chess setup. Each side begins with 3 teleport charges. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. A checker or counter is placed beneath every piece except pawns and the King. The checker marks that the piece has not yet used its teleport. FEN: rnb",
     "anchor": "setup",
     "variant": "teleport-chess",
     "variantUrl": "dist/chess/variants/teleport-chess/"
@@ -14446,7 +14486,7 @@
     "gameTitle": "Chess",
     "section": "Teleportation Chess",
     "heading": "Rules",
-    "content": "- Instead of a normal move, a player may teleport any of their pieces to any empty square on the board. - Teleportation uses one charge. Each side has exactly 3 per game. - Teleportation does not coun",
+    "content": "- Each piece begins the game with a teleport token. Physically this is a checker or counter placed beneath the piece. - Instead of making a normal move, a player may teleport one of their pieces that ",
     "anchor": "rules",
     "variant": "teleport-chess",
     "variantUrl": "dist/chess/variants/teleport-chess/"
@@ -14466,7 +14506,7 @@
     "gameTitle": "Chess",
     "section": "Teleportation Chess",
     "heading": "Strategy",
-    "content": "Teleports are powerful but finite; save them for decisive moments. Common uses: teleporting a Knight or Queen into a mating net, escaping a trapped piece, or repositioning the King to safety. Bluffing",
+    "content": "The one-per-piece limit means teleportation is distributed across the army, not pooled. Early teleports sacrifice future flexibility for that piece. Common threats: teleporting a Rook or Queen into a ",
     "anchor": "strategy",
     "variant": "teleport-chess",
     "variantUrl": "dist/chess/variants/teleport-chess/"
@@ -14476,7 +14516,7 @@
     "gameTitle": "Chess",
     "section": "Teleportation Chess",
     "heading": "Attribution",
-    "content": "Modern variant with invented rules. See moddable-rules243 for correction history.",
+    "content": "Variant of unknown origin. Rules transcribed from chessvariants.com/diffmove.dir/teleportation.html, whose author states: \"I found this in a library book at some point. Most unfortunately, I can remem",
     "anchor": "attribution",
     "variant": "teleport-chess",
     "variantUrl": "dist/chess/variants/teleport-chess/"

@@ -44,4 +44,6 @@ if [ "$DRY_RUN" = true ]; then
   RULES_ROOT="$RULES_ROOT" node "$EXPORT_SCRIPT" $FAMILY
 else
   RULES_ROOT="$RULES_ROOT" node "$EXPORT_SCRIPT" --export $FAMILY
+  # Update diagram freshness hashes after successful sync
+  node "$RULES_ROOT/scripts/check-diagram-freshness.mjs" --update
 fi

@@ -29,3 +29,6 @@ jobs:
 
       - name: Check stats freshness
         run: node scripts/check-stats.mjs
+
+      - name: Check diagram freshness
+        run: node scripts/check-diagram-freshness.mjs

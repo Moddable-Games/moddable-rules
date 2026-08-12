@@ -1,6 +1,6 @@
 ## Teleportation Chess
 
-Each player has 3 teleports per game. Instead of a normal move, any piece can teleport to any empty square on the board. Use them wisely — they don't come back.
+Each piece begins with a one-use teleport ability. Instead of moving normally, a piece may relocate to any empty square on the board, but it can never teleport again.
 
 
 {{svg:teleport-chess-board.svg "Teleportation Chess — starting position"}}
@@ -9,17 +9,20 @@ Each player has 3 teleports per game. Instead of a normal move, any piece can te
 
 **Board:** Standard 8×8.
 
-**Setup:** Standard chess setup. Each side begins with 3 teleport charges.
+**Setup:** Standard chess setup. A checker or counter is placed beneath every piece except pawns and the King. The checker marks that the piece has not yet used its teleport.
 
 **FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
 
 ### Rules
 
-- Instead of a normal move, a player may teleport any of their pieces to any empty square on the board.
-- Teleportation uses one charge. Each side has exactly 3 per game.
-- Teleportation does not count as capturing; you can only teleport to empty squares.
-- A teleported piece cannot give check on the teleport move (it arrives but doesn't attack until the next turn).
-- All other standard chess rules apply.
+- Each piece begins the game with a **teleport token**. Physically this is a checker or counter placed beneath the piece.
+- Instead of making a normal move, a player may **teleport** one of their pieces that still holds its token: remove the token and relocate that piece to any unoccupied square on the board.
+- A piece that has teleported has spent its token and **may never teleport again**.
+- Teleporting is a complete turn. It does not capture, and the destination must be empty.
+- **Pawns and the King cannot teleport.** They have no token at setup.
+- A teleported piece may deliver check or checkmate on arrival.
+- A piece may teleport to block a check.
+- All other rules follow standard chess.
 
 ### Win Condition
 
@@ -27,8 +30,8 @@ Checkmate the opponent's King.
 
 ### Strategy
 
-Teleports are powerful but finite; save them for decisive moments. Common uses: teleporting a Knight or Queen into a mating net, escaping a trapped piece, or repositioning the King to safety. Bluffing with teleport availability adds a psychological dimension.
+The one-per-piece limit means teleportation is distributed across the army, not pooled. Early teleports sacrifice future flexibility for that piece. Common threats: teleporting a Rook or Queen into a mating net, repositioning a Bishop to an open diagonal, or teleporting a piece to block an attack. Because the King cannot teleport, king safety relies entirely on conventional defence.
 
 ### Attribution
 
-Modern variant with invented rules. See moddable-rules#243 for correction history.
+Variant of unknown origin. Rules transcribed from chessvariants.com/diffmove.dir/teleportation.html, whose author states: "I found [this] in a library book at some point. Most unfortunately, I can remember neither the title nor the author."

@@ -52,6 +52,17 @@ Lose all of your pieces (including the King).
 
 You want to GIVE pieces away, not protect them. However, forced captures means your opponent can force you to capture their pieces too — creating bizarre tactical lines. The ideal position has your pieces offering themselves while your opponent's pieces have no captures available. Pawns are hard to lose (they only capture diagonally) and become liabilities in the endgame. Underpromotion to Bishop is sometimes correct to limit your own capture options.
 
+### The Antichess Family
+
+| Variant | Captures forced | Stalemate | King promotion |
+|---|---|---|---|
+| Antichess | Yes | Win for the stalemated player | Yes |
+| **Giveaway** | Yes | Loss for the stalemated player | No |
+| Suicide Chess | Yes | Draw | No |
+| Omnicide | No | Draw | No |
+
+Antichess, Giveaway, Suicide Chess and Losing Chess are used interchangeably in the wider world, and different servers implement different rule combinations under each name. This library treats them as four distinct rulesets, differing on forced captures, the meaning of stalemate, and whether pawns may promote to King. Where an external source appears to contradict one of these files, it is most likely describing a different member of the family under a shared name. The table above is authoritative for this library.
+
 ### Attribution
 
 Traditional variant. Also known as "Giveaway Chess." Public domain.

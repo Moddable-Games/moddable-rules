@@ -63,6 +63,17 @@ Lose all your pieces, or be stalemated.
 
 You want to force your opponent to capture your pieces while avoiding being forced to keep yours. Opening theory is highly developed — certain openings force wins within a few moves.
 
+### The Antichess Family
+
+| Variant | Captures forced | Stalemate | King promotion |
+|---|---|---|---|
+| **Antichess** | Yes | Win for the stalemated player | Yes |
+| Giveaway | Yes | Loss for the stalemated player | No |
+| Suicide Chess | Yes | Draw | No |
+| Omnicide | No | Draw | No |
+
+Antichess, Giveaway, Suicide Chess and Losing Chess are used interchangeably in the wider world, and different servers implement different rule combinations under each name. This library treats them as four distinct rulesets, differing on forced captures, the meaning of stalemate, and whether pawns may promote to King. Where an external source appears to contradict one of these files, it is most likely describing a different member of the family under a shared name. The table above is authoritative for this library.
+
 ### Attribution
 
 Also known as "Losing Chess," "Giveaway Chess," or "Suicide Chess." Traditional variant, 19th century. Public domain.

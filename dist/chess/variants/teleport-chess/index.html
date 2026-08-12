@@ -54,7 +54,7 @@
 <div class="section">
 
 <h2 id="teleportation-chess">Teleportation Chess</h2>
-<p>Each player has 3 teleports per game. Instead of a normal move, any piece can teleport to any empty square on the board. Use them wisely — they don’t come back.</p>
+<p>Each piece begins with a one-use teleport ability. Instead of moving normally, a piece may relocate to any empty square on the board, but it can never teleport again.</p>
 <div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 368" width="368" height="368">
 <defs>
 <symbol id="piece-mce-chess-bR" viewBox="0 0 45 45"><g style="fill:#000;stroke:#000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"><path d="M 9,39 L 36,39 L 36,36 L 9,36 L 9,39 z"/><path d="M 12,36 L 12,32 L 33,32 L 33,36 L 12,36 z"/><path d="M 11,14 L 11,9 L 15,9 L 15,11 L 20,11 L 20,9 L 25,9 L 25,11 L 30,11 L 30,9 L 34,9 L 34,14"/><path d="M 34,14 L 31,17 L 14,17 L 11,14"/><path d="M 31,17 L 31,29.5 L 14,29.5 L 14,17"/><path d="M 31,29.5 L 32.5,32 L 12.5,32 L 14,29.5"/><path d="M 11,14 L 34,14" style="fill:none;stroke:#fff;stroke-linejoin:miter"/><path d="M 12,35.5 L 33,35.5" style="fill:none;stroke:#fff;stroke-width:1"/><path d="M 13,31.5 L 32,31.5" style="fill:none;stroke:#fff;stroke-width:1"/><path d="M 14,29.5 L 31,29.5" style="fill:none;stroke:#fff;stroke-width:1"/></g></symbol>
@@ -78,22 +78,25 @@
 <p class="diagram-engine-url"><a href="https://engine.moddable.games/play/?family=chess&variant=teleport-chess" class="diagram-engine-link" target="_blank" rel="noopener">https://engine.moddable.games/play/?family=chess&variant=teleport-chess</a></p></div>
 <h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> Standard 8×8.</p>
-<p><strong>Setup:</strong> Standard chess setup. Each side begins with 3 teleport charges.</p>
+<p><strong>Setup:</strong> Standard chess setup. A checker or counter is placed beneath every piece except pawns and the King. The checker marks that the piece has not yet used its teleport.</p>
 <p><strong>FEN:</strong> <code>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1</code></p>
 <h3 id="rules">Rules</h3>
 <ul class="rules">
-<li>Instead of a normal move, a player may teleport any of their pieces to any empty square on the board.</li>
-<li>Teleportation uses one charge. Each side has exactly 3 per game.</li>
-<li>Teleportation does not count as capturing; you can only teleport to empty squares.</li>
-<li>A teleported piece cannot give check on the teleport move (it arrives but doesn’t attack until the next turn).</li>
-<li>All other standard chess rules apply.</li>
+<li>Each piece begins the game with a <strong>teleport token</strong>. Physically this is a checker or counter placed beneath the piece.</li>
+<li>Instead of making a normal move, a player may <strong>teleport</strong> one of their pieces that still holds its token: remove the token and relocate that piece to any unoccupied square on the board.</li>
+<li>A piece that has teleported has spent its token and <strong>may never teleport again</strong>.</li>
+<li>Teleporting is a complete turn. It does not capture, and the destination must be empty.</li>
+<li><strong>Pawns and the King cannot teleport.</strong> They have no token at setup.</li>
+<li>A teleported piece may deliver check or checkmate on arrival.</li>
+<li>A piece may teleport to block a check.</li>
+<li>All other rules follow standard chess.</li>
 </ul>
 <h3 id="win-condition">Win Condition</h3>
 <p>Checkmate the opponent’s King.</p>
 <h3 id="strategy">Strategy</h3>
-<p>Teleports are powerful but finite; save them for decisive moments. Common uses: teleporting a Knight or Queen into a mating net, escaping a trapped piece, or repositioning the King to safety. Bluffing with teleport availability adds a psychological dimension.</p>
+<p>The one-per-piece limit means teleportation is distributed across the army, not pooled. Early teleports sacrifice future flexibility for that piece. Common threats: teleporting a Rook or Queen into a mating net, repositioning a Bishop to an open diagonal, or teleporting a piece to block an attack. Because the King cannot teleport, king safety relies entirely on conventional defence.</p>
 <h3 id="attribution">Attribution</h3>
-<p>Modern variant with invented rules. See moddable-rules#243 for correction history.</p>
+<p>Variant of unknown origin. Rules transcribed from chessvariants.com/diffmove.dir/teleportation.html, whose author states: “I found [this] in a library book at some point. Most unfortunately, I can remember neither the title nor the author.”</p>
 
 </div>
 </main>

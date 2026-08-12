@@ -91,7 +91,45 @@
 <h3 id="win-condition">Win Condition</h3>
 <p>Lose all of your pieces (including the King).</p>
 <h3 id="difference-from-giveaway">Difference from Giveaway</h3>
-<p>The only rule difference is the stalemate condition. In Giveaway, being stalemated means you lose. In Suicide Chess, stalemate is a draw. This seemingly small change has significant strategic implications: reaching a position where neither side can force their remaining pieces to be captured is a valid defensive resource.</p>
+<p>The only rule difference from Giveaway is the stalemate condition. In Giveaway, being stalemated means you lose. In Suicide Chess, stalemate is a draw. This seemingly small change has significant strategic implications: reaching a position where neither side can force their remaining pieces to be captured is a valid defensive resource.</p>
+<h3 id="the-antichess-family">The Antichess Family</h3>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Variant</th>
+<th>Captures forced</th>
+<th>Stalemate</th>
+<th>King promotion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Antichess</td>
+<td>Yes</td>
+<td>Win for the stalemated player</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Giveaway</td>
+<td>Yes</td>
+<td>Loss for the stalemated player</td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>Suicide Chess</strong></td>
+<td>Yes</td>
+<td>Draw</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Omnicide</td>
+<td>No</td>
+<td>Draw</td>
+<td>No</td>
+</tr>
+</tbody>
+</table></div>
+<p>Antichess, Giveaway, Suicide Chess and Losing Chess are used interchangeably in the wider world, and different servers implement different rule combinations under each name. This library treats them as four distinct rulesets, differing on forced captures, the meaning of stalemate, and whether pawns may promote to King. Where an external source appears to contradict one of these files, it is most likely describing a different member of the family under a shared name. The table above is authoritative for this library.</p>
 <h3 id="strategy">Strategy</h3>
 <p>Similar to Giveaway, but the draw-by-stalemate option adds a defensive layer. If you’re losing (i.e., your opponent is losing pieces faster than you), you can aim for a stalemate position. This makes the endgame more complex and gives the “losing” side more fighting chances.</p>
 <h3 id="attribution">Attribution</h3>

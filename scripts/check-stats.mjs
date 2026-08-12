@@ -83,9 +83,16 @@ if (stats.content.subPages !== actualSubPages) {
   errors.push(`content.subPages: stats=${stats.content.subPages}, actual=${actualSubPages}`);
 }
 
-const actualPdfs = countFiles(resolve(ROOT, 'games'), '.pdf');
-if (stats.pdfs.total !== actualPdfs) {
-  errors.push(`pdfs.total: stats=${stats.pdfs.total}, actual=${actualPdfs}`);
+const pdfManifestPath = resolve(ROOT, 'pdf-manifest.json');
+if (existsSync(pdfManifestPath)) {
+  const pm = JSON.parse(readFileSync(pdfManifestPath, 'utf8'));
+  if (stats.pdfs.total !== pm.total) {
+    errors.push(`pdfs.total: stats=${stats.pdfs.total}, manifest=${pm.total}`);
+  }
+} else {
+  if (stats.pdfs.total !== 0) {
+    errors.push(`pdfs.total: stats=${stats.pdfs.total}, but no pdf-manifest.json found`);
+  }
 }
 
 if (errors.length > 0) {
