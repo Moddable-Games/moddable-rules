@@ -11,6 +11,7 @@ engine:
     type: grid
     rows: 10
     cols: 10
+    voids: [[0,0],[0,1],[0,8],[0,9],[1,0],[1,1],[1,8],[1,9],[8,0],[8,1],[8,8],[8,9],[9,0],[9,1],[9,8],[9,9]]
   players: [red, yellow, green, blue]
   pieces:
     set: mce-4player

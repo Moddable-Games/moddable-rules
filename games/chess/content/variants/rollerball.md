@@ -12,6 +12,7 @@ engine:
     type: grid
     rows: 7
     cols: 7
+    voids: [[2,2],[2,3],[2,4],[3,2],[3,3],[3,4],[4,2],[4,3],[4,4]]
   players: [white, black]
   notation: algebraic
   render:
