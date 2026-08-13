@@ -21,6 +21,11 @@ engine:
     zones:
       voids: [[0,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[0,12],[1,12],[2,12],[3,12],[4,12],[5,12],[6,12],[7,12],[9,12]]
   setup: "1rntzfkwztnr1/1e1j1d1d1j1e1/1ppppppppppp1/13/13/13/13/1PPPPPPPPPPP1/1E1J1D1D1J1E1/1RNTZFKWZTNR1"
+  plugins:
+    chess:
+      doubleStep: false
+      castling: false
+      enPassant: false
 ---
 
 <div class="section">
