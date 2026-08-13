@@ -233,6 +233,14 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 - 35 chess variants verified playable and marked (engine#109 Tier 0, chess 100 to 135)
 - Romanchenkos-chess: fixed as 10x8 grid with topology voids (was flat 8x8 with ignored broken_columns)
 - Dragon-chess: added piece definition and drop config (Archbishop gating now functional)
+- Non-standard board cells: topology.voids added to 11 shaped-board variants; hole-chess split into 24 voids + 2 blockers
+- Omega, citadel, gustav-iii, tamerlane: topology.voids migrated (18/14/18/3 illegal moves eliminated)
+- Citadel-chess and tamerlane: declared doubleStep/castling/enPassant: false (Shatranj rules)
+- Added check-voids.mjs CI guard (render.zones.voids must match topology.voids in plugin families)
+- Added check-dist-freshness.mjs CI guard (rebuild and diff; catches stale dist commits)
+- Missing theme layers now fail the build (was silent CSS comment with absolute path)
+- Created crimson and navy accent layers (BRP, L'Attaque)
+- Rebuilt dist: 37 variant pages gained engine play links (Tier 0 batch)
 
 #### 2026-08-12
 - Fixed PDF stats showing 0 in deployed stats.json (PDFs are gitignored; added committed pdf-manifest.json with 665 files, 9,739 pages, by-type breakdown)
