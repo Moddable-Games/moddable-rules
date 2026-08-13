@@ -10,11 +10,13 @@ engine:
   topology:
     type: grid
     rows: 8
-    cols: 8
-    broken_columns: true
+    cols: 10
+    voids: [[0,0],[0,1],[1,0],[1,1],[2,0],[2,1],[3,0],[3,1],[4,8],[4,9],[5,8],[5,9],[6,8],[6,9],[7,8],[7,9]]
   players: [white, black]
-  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-  notation: algebraic
+  setup: "rnbqkbnr2/pppppppp2/10/10/10/10/2PPPPPPPP/2RNBQKBNR"
+  render:
+    zones:
+      voids: [[0,0],[0,1],[1,0],[1,1],[2,0],[2,1],[3,0],[3,1],[4,8],[4,9],[5,8],[5,9],[6,8],[6,9],[7,8],[7,9]]
 published: true
 ---
 

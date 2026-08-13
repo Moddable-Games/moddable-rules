@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Dragon Chess
 slug: dragon-chess
 board: "8×8"
@@ -13,9 +14,19 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-  notation: algebraic
-  hand: true
-  gating: true
+  plugins:
+    chess:
+      drops: true
+      pieces:
+        dragon:
+          type: compose
+          parts: [bishop, knight]
+      vocabulary:
+        dragon:
+          symbols:
+            0: D
+            1: d
+      promotionChoices: [queen, rook, bishop, knight, dragon]
 published: true
 ---
 
