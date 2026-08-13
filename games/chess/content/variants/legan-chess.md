@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 key: leganChess
 title: Legan Chess
 slug: legan-chess

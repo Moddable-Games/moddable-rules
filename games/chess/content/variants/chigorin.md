@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Chigorin
 slug: chigorin
 board: "8×8"
