@@ -14,16 +14,17 @@ engine:
     rows: 8
     cols: 8
   setup: "rnbgkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBGKBNR"
-  notes: "G/g = Grasshopper. Queens replaced 1-for-1."
+  vocabulary:
+    grasshopper:
+      symbols:
+        0: G
+        1: g
   plugins:
     chess:
       pieces:
         grasshopper:
-          movement: hopper
-          base_lines: queen
-          hurdle_count: 1
-          land: immediately_beyond_hurdle
-          notation: G
+          type: hopper
+          dirs: all
 published: true
 ---
 

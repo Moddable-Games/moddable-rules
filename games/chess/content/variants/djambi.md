@@ -16,6 +16,43 @@ engine:
   render:
     cellSize: 38
   setup: "amrcxcrma/9/9/9/4M4/9/9/9/AMRCXCRMA"
+  vocabulary:
+    assassin:
+      symbols:
+        0: A
+        1: a
+    militant:
+      symbols:
+        0: M
+        1: m
+    chief:
+      symbols:
+        0: C
+        1: c
+    necromobile:
+      symbols:
+        0: X
+        1: x
+  plugins:
+    chess:
+      pieces:
+        assassin:
+          type: rider
+          dirs: all
+        militant:
+          type: rider
+          dirs: all
+          maxSteps: 2
+        rook:
+          type: rider
+          dirs: all
+        chief:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        necromobile:
+          type: rider
+          dirs: all
 ---
 
 ## Overview

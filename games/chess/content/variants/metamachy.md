@@ -16,6 +16,38 @@ engine:
   render:
     cellSize: 26
   setup: "rnbclqklcbnr/pppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPP/RNBCLQKLCBNR"
+  vocabulary:
+    cannon:
+      symbols:
+        0: C
+        1: c
+    lion:
+      symbols:
+        0: L
+        1: l
+  plugins:
+    chess:
+      pieces:
+        cannon:
+          divergent:
+            move:
+              type: rider
+              dirs: orthogonal
+            capture:
+              type: hopper
+              dirs: orthogonal
+              captureSlide: true
+        lion:
+          type: compose
+          parts:
+            - type: leaper
+              offsets: king
+            - type: leaper
+              offsets: knight
+            - type: leaper
+              offsets: dabbaba
+            - type: leaper
+              offsets: elephant
 ---
 
 # Metamachy

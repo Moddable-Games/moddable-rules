@@ -19,6 +19,40 @@ engine:
   hand: true
   drops: true
   faceoff: true
+  vocabulary:
+    horse:
+      symbols:
+        0: H
+        1: h
+    xiangqiElephant:
+      symbols:
+        0: E
+        1: e
+    advisor:
+      symbols:
+        0: A
+        1: a
+    chancellor:
+      symbols:
+        0: C
+        1: c
+  plugins:
+    chess:
+      pieces:
+        horse:
+          type: leaper
+          offsets: knight
+        xiangqiElephant:
+          type: leaper
+          offsets: elephant
+        advisor:
+          type: rider
+          dirs: diagonal
+          maxSteps: 1
+        chancellor:
+          type: rider
+          dirs: all
+          maxSteps: 1
 published: true
 ---
 

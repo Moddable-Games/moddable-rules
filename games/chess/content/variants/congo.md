@@ -14,6 +14,68 @@ engine:
     cols: 7
   players: [white, black]
   setup: "gmelemz/ppppppp/7/7/7/PPPPPPP/GMELEMZ"
+  vocabulary:
+    giraffe:
+      symbols:
+        0: G
+        1: g
+    monkey:
+      symbols:
+        0: M
+        1: m
+    elephant:
+      symbols:
+        0: E
+        1: e
+    lion:
+      symbols:
+        0: L
+        1: l
+    zebra:
+      symbols:
+        0: Z
+        1: z
+  plugins:
+    chess:
+      pieces:
+        giraffe:
+          divergent:
+            move:
+              type: compose
+              parts:
+                - type: leaper
+                  offsets: dabbaba
+                - type: leaper
+                  offsets: elephant
+                - type: rider
+                  dirs: all
+                  maxSteps: 1
+            capture:
+              type: compose
+              parts:
+                - type: leaper
+                  offsets: dabbaba
+                - type: leaper
+                  offsets: elephant
+        monkey:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        elephant:
+          type: compose
+          parts:
+            - type: rider
+              dirs: orthogonal
+              maxSteps: 1
+            - type: leaper
+              offsets: dabbaba
+        lion:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        zebra:
+          type: leaper
+          offsets: knight
 ---
 
 ## Congo

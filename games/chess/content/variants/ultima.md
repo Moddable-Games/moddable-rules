@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: Ultima (Baroque Chess)
 slug: ultima
 board: "8×8"

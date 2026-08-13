@@ -16,6 +16,30 @@ engine:
   render:
     cellSize: 34
   setup: "rcebqkbecr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RCEBQKBECR"
+  vocabulary:
+    cannon:
+      symbols:
+        0: C
+        1: c
+    shakoElephant:
+      symbols:
+        0: E
+        1: e
+  plugins:
+    chess:
+      pieces:
+        cannon:
+          divergent:
+            move:
+              type: rider
+              dirs: orthogonal
+            capture:
+              type: hopper
+              dirs: orthogonal
+              captureSlide: true
+        shakoElephant:
+          type: leaper
+          offsets: elephant
 ---
 
 ## Shako

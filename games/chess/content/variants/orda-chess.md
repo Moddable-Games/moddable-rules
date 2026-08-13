@@ -30,8 +30,8 @@ engine:
         1: h
     kheshig:
       symbols:
-        0: W
-        1: w
+        0: A
+        1: a
   plugins:
     chess:
       pieces:

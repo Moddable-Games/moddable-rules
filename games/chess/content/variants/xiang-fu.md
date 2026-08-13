@@ -71,7 +71,53 @@ engine:
       - op: hit-targets
         grouped: true
         radiusFactor: 0.4
-  setup: "2rbm4/2cwn4/2+g1+g4/9/9/9/4+G1+G2/4NWC2/4MBR2"
+  setup: "2rbm4/2cwn4/2g1g4/9/9/9/4G1G2/4NWC2/4MBR2"
+  vocabulary:
+    mahout:
+      symbols:
+        0: M
+        1: m
+    cannon:
+      symbols:
+        0: C
+        1: c
+    crossbow:
+      symbols:
+        0: W
+        1: w
+    champion:
+      symbols:
+        0: G
+        1: g
+  plugins:
+    chess:
+      pieces:
+        mahout:
+          type: rider
+          dirs: all
+          maxSteps: 2
+        cannon:
+          divergent:
+            move:
+              type: rider
+              dirs: orthogonal
+            capture:
+              type: hopper
+              dirs: orthogonal
+              captureSlide: true
+        crossbow:
+          divergent:
+            move:
+              type: rider
+              dirs: diagonal
+            capture:
+              type: hopper
+              dirs: diagonal
+              captureSlide: true
+        champion:
+          type: rider
+          dirs: all
+          maxSteps: 1
 ---
 
 ## Xiang Fu

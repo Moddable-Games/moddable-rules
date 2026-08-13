@@ -17,6 +17,57 @@ engine:
   notation: algebraic
   asymmetric: true
   dual_king: true
+  vocabulary:
+    lieutenant:
+      symbols:
+        0: L
+        1: l
+    warlord:
+      symbols:
+        0: W
+        1: w
+    general:
+      symbols:
+        0: G
+        1: g
+    hoplite:
+      symbols:
+        0: H
+        1: h
+  plugins:
+    chess:
+      pieces:
+        lieutenant:
+          type: compose
+          parts:
+            - type: rider
+              dirs: orthogonal
+            - type: leaper
+              offsets: knight
+        warlord:
+          type: compose
+          parts:
+            - type: leaper
+              offsets: knight
+            - type: rider
+              dirs: all
+              maxSteps: 1
+        general:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+            - type: rider
+              dirs: all
+              maxSteps: 1
+        hoplite:
+          divergent:
+            move:
+              type: leaper
+              offsets: [[1,0],[0,-1],[0,1]]
+            capture:
+              type: leaper
+              offsets: [[1,-1],[1,1]]
 published: true
 ---
 

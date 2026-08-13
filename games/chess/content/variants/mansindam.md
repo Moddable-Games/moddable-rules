@@ -16,6 +16,43 @@ engine:
   render:
     cellSize: 38
   setup: "rnbakqcnm/9/ppppppppp/9/9/9/PPPPPPPPP/9/MNCQKABNR"
+  vocabulary:
+    angel:
+      symbols:
+        0: A
+        1: a
+    cardinal:
+      symbols:
+        0: C
+        1: c
+    marshal:
+      symbols:
+        0: M
+        1: m
+  plugins:
+    chess:
+      pieces:
+        angel:
+          type: compose
+          parts:
+            - type: rider
+              dirs: all
+            - type: leaper
+              offsets: knight
+        cardinal:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+            - type: leaper
+              offsets: knight
+        marshal:
+          type: compose
+          parts:
+            - type: rider
+              dirs: orthogonal
+            - type: leaper
+              offsets: knight
 ---
 
 # Mansindam (Pantheon Tale)

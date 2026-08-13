@@ -16,6 +16,60 @@ engine:
   render:
     cellSize: 38
   setup: "sjvdaxdvs/9/1ppppppp1/9/9/9/1PPPPPPP1/9/SJVDAXDVS"
+  vocabulary:
+    serpent:
+      symbols:
+        0: S
+        1: s
+    jaguar:
+      symbols:
+        0: J
+        1: j
+    vulture:
+      symbols:
+        0: V
+        1: v
+    shaman:
+      symbols:
+        0: D
+        1: d
+    ajaw:
+      symbols:
+        0: A
+        1: a
+    offering:
+      symbols:
+        0: X
+        1: x
+  plugins:
+    chess:
+      pieces:
+        serpent:
+          type: rider
+          dirs: orthogonal
+        jaguar:
+          type: compose
+          parts:
+            - type: rider
+              dirs: orthogonal
+            - type: rider
+              dirs: diagonal
+              maxSteps: 1
+        vulture:
+          type: rider
+          dirs: diagonal
+        shaman:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        ajaw:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        offering:
+          type: rider
+          dirs: all
+          maxSteps: 1
 ---
 
 ## Chak

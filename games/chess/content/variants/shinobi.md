@@ -19,6 +19,51 @@ engine:
   hand: true
   drops: true
   promotion_zone: [6, 7, 8]
+  vocabulary:
+    chunin:
+      symbols:
+        0: C
+        1: c
+    monk:
+      symbols:
+        0: M
+        1: m
+    kunoichi:
+      symbols:
+        0: U
+        1: u
+    jonin:
+      symbols:
+        0: J
+        1: j
+    ninja:
+      symbols:
+        0: T
+        1: t
+  plugins:
+    chess:
+      pieces:
+        chunin:
+          type: rider
+          dirs: orthogonal
+        monk:
+          type: leaper
+          offsets: knight
+        kunoichi:
+          type: rider
+          dirs: diagonal
+        jonin:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        ninja:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+              maxSteps: 1
+            - type: leaper
+              offsets: knight
 published: true
 ---
 

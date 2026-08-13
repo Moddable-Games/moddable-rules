@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: Grande Acedrex
 slug: grande-acedrex
 board: "12×12"
