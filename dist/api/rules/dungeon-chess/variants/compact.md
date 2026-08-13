@@ -13,3 +13,7 @@ A compact 10×10 skirmish map for faster games. A central water hazard (4×4 poo
 ### Differences from Standard
 
 Smaller board and simpler terrain. Games resolve faster with fewer tactical options. No corridors, doors, or elevation. Designed for quick pickup games or teaching the core Dungeon Chess movement and combat rules.
+
+### Attribution
+
+Moddable Games original. Dungeon Chess is an original Moddable Games design. No external provenance is claimed.

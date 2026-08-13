@@ -5246,7 +5246,7 @@
     "gameTitle": "Chess",
     "section": "Brusky's Hexagonal Chess",
     "heading": "Attribution",
-    "content": "Yakov Brusky. Public domain rules.",
+    "content": "Invented by Yakov Brusky in 1966. Documented at en.wikipedia.org/wiki/Hexagonalchess. Public domain rules.",
     "anchor": "attribution",
     "variant": "brusky",
     "variantUrl": "dist/chess/variants/brusky/"
@@ -5566,7 +5566,7 @@
     "gameTitle": "Chess",
     "section": "Chak",
     "heading": "Chak",
-    "content": "Designed by Corey Clark 2020. Chak is played on a 9×9 board with a Mesoamerican theme inspired by the Maya. The river divides the board at rank 5; pieces gain power by crossing it. Victory is achieved",
+    "content": "Designed by Couch Tomato, 2021. Chak is played on a 9×9 board with a Mesoamerican theme inspired by the Maya. The river divides the board at rank 5; pieces gain power by crossing it. Victory is achiev",
     "anchor": "chak",
     "variant": "chak",
     "variantUrl": "dist/chess/variants/chak/"
@@ -5646,7 +5646,7 @@
     "gameTitle": "Chess",
     "section": "Chak",
     "heading": "Attribution",
-    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.",
+    "content": "Designed by Couch Tomato, 2021. Rules published at pychess.org/variants/chak and chessvariants.com/rules/chak. Public domain rule set.",
     "anchor": "attribution",
     "variant": "chak",
     "variantUrl": "dist/chess/variants/chak/"
@@ -5876,7 +5876,7 @@
     "gameTitle": "Chess",
     "section": "Chennis",
     "heading": "Chennis",
-    "content": "Designed by Corey Clark. Chennis adapts chess to a tennis-themed format on a 7×7 board. The net divides the board between ranks 4 and 5. Victory is achieved by getting a Pawn to the opponent’s back ra",
+    "content": "Designed by Couch Tomato, 2021. Chennis adapts chess to a tennis-themed format on a 7×7 board. The net divides the board between ranks 4 and 5. Victory is achieved by getting a Pawn to the opponent’s ",
     "anchor": "chennis",
     "variant": "chennis",
     "variantUrl": "dist/chess/variants/chennis/"
@@ -5956,7 +5956,7 @@
     "gameTitle": "Chess",
     "section": "Chennis",
     "heading": "Attribution",
-    "content": "Designed by Corey Clark. Published via Shogun of Games. Public domain rule set.",
+    "content": "Designed by Couch Tomato, 2021, as a variant of Kyoto Shogi. Rules published at pychess.org/variants/chennis and chessvariants.com/rules/chennis. Public domain rule set.",
     "anchor": "attribution",
     "variant": "chennis",
     "variantUrl": "dist/chess/variants/chennis/"
@@ -5965,9 +5965,9 @@
     "game": "chess",
     "gameTitle": "Chess",
     "section": "Chigorin",
-    "heading": "Chigorin",
-    "content": "White replaces both Bishops with Knights. Four Knights vs two Knights and two Bishops — a fundamental asymmetry that changes positional evaluation.",
-    "anchor": "chigorin",
+    "heading": "Chigorin Chess",
+    "content": "An unequal-armies variant: White fields leapers, Black fields sliders. White's Bishops become Knights and White's Queen becomes a Chancellor Rook + Knight, giving four Knights backed by a piece that l",
+    "anchor": "chigorin-chess",
     "variant": "chigorin",
     "variantUrl": "dist/chess/variants/chigorin/"
   },
@@ -5976,7 +5976,7 @@
     "gameTitle": "Chess",
     "section": "Chigorin",
     "heading": "Setup",
-    "content": "Board: Standard 8×8. Setup FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNNQKNNR White: Rook, Knight, Knight, Queen, King, Knight, Knight, Rook + 8 pawns. Black: Standard setup.",
+    "content": "Board: Standard 8×8. Setup FEN: rbbqkbbr/pppppppp/8/8/8/8/PPPPPPPP/RNNCKNNR White: Rook, Knight, Knight, Chancellor, King, Knight, Knight, Rook + 8 pawns. Black: Rook, Bishop, Bishop, Queen, King, Bis",
     "anchor": "setup",
     "variant": "chigorin",
     "variantUrl": "dist/chess/variants/chigorin/"
@@ -5986,7 +5986,7 @@
     "gameTitle": "Chess",
     "section": "Chigorin",
     "heading": "Rules",
-    "content": "All standard chess rules apply. Castling is available for both sides.",
+    "content": "- All standard chess rules apply, including castling for both sides. - The Chancellor moves as a Rook or a Knight. - Promotion is restricted by army. A pawn may promote only to a piece its own side he",
     "anchor": "rules",
     "variant": "chigorin",
     "variantUrl": "dist/chess/variants/chigorin/"
@@ -6006,7 +6006,7 @@
     "gameTitle": "Chess",
     "section": "Chigorin",
     "heading": "Strategy",
-    "content": "White has four Knights — superb in closed positions with lots of outposts, but weak on open boards where Bishops dominate. White should keep the position closed and create pawn chains that give Knight",
+    "content": "White's Knights are superb in closed positions with stable outposts and weak on open boards where Bishops dominate, so White should keep pawn chains intact and fight for closed structures. Black shoul",
     "anchor": "strategy",
     "variant": "chigorin",
     "variantUrl": "dist/chess/variants/chigorin/"
@@ -6016,7 +6016,7 @@
     "gameTitle": "Chess",
     "section": "Chigorin",
     "heading": "Attribution",
-    "content": "Named after Mikhail Chigorin. Variant design is traditional. Public domain.",
+    "content": "Invented by Ralph Betza, 2002, and named after Mikhail Ivanovich Chigorin. Rules documented at abstractgames.org/chigorinchess.html and chessvariants.org/diffsetup.dir/chigorin.html. Public domain rul",
     "anchor": "attribution",
     "variant": "chigorin",
     "variantUrl": "dist/chess/variants/chigorin/"
@@ -6816,7 +6816,7 @@
     "gameTitle": "Chess",
     "section": "De Vasa's Hexagonal Chess",
     "heading": "Attribution",
-    "content": "Helge E. de Vasa. Public domain rules.",
+    "content": "Invented by Helge E. de Vasa in 1953, first published in Joseph Boyer, Nouveaux Jeux d'Echecs Non-orthodoxes Paris, 1954. Documented at en.wikipedia.org/wiki/Hexagonalchess. Public domain rules.",
     "anchor": "attribution",
     "variant": "de-vasa",
     "variantUrl": "dist/chess/variants/de-vasa/"
@@ -7376,7 +7376,7 @@
     "gameTitle": "Chess",
     "section": "Empire Chess",
     "heading": "Empire Chess",
-    "content": "Designed by Corey Clark 2019. Empire Chess is an asymmetric variant in which White commands a standard FIDE Kingdom and Black commands the Empire — an army where every piece moves like a Queen but cap",
+    "content": "Designed by Couch Tomato, 2020. Empire Chess is an asymmetric variant in which White commands a standard FIDE Kingdom and Black commands the Empire — an army where every piece moves like a Queen but c",
     "anchor": "empire-chess",
     "variant": "empire",
     "variantUrl": "dist/chess/variants/empire/"
@@ -8108,6 +8108,16 @@
     "heading": "Key Differences from Square Chess",
     "content": "Square board ------------- 4 orthogonal 4 diagonal 8 2 8 64",
     "anchor": "key-differences-from-square-chess",
+    "variant": "glinski",
+    "variantUrl": "dist/chess/variants/glinski/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "section": "Glinski's Hexagonal Chess",
+    "heading": "Attribution",
+    "content": "Invented by Władysław Gliński in 1936 and first launched in Britain in 1949. Documented at en.wikipedia.org/wiki/Hexagonalchess. Public domain rules.",
+    "anchor": "attribution",
     "variant": "glinski",
     "variantUrl": "dist/chess/variants/glinski/"
   },
@@ -9686,7 +9696,7 @@
     "gameTitle": "Chess",
     "section": "Legan Chess",
     "heading": "Legan Chess",
-    "content": "Combines Berolina pawn movement with swapped King/Queen positions. No castling or en passant.",
+    "content": "The board is played on the diagonal. Each army occupies a triangular corner, White in the bottom right and Black in the top left, and advances along the long diagonal towards the other. Pawns are reor",
     "anchor": "legan-chess",
     "variant": "legan-chess",
     "variantUrl": "dist/chess/variants/legan-chess/"
@@ -9696,7 +9706,7 @@
     "gameTitle": "Chess",
     "section": "Legan Chess",
     "heading": "Setup",
-    "content": "Board: Standard 8×8. Setup: Like standard chess but the King starts on d1/d8 and the Queen on e1/e8 swapped positions. FEN: rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR w - - 0 1",
+    "content": "Board: Standard 8×8, played corner to corner. FEN: knbrp3/bqpp4/npp5/rp1p3P/p3P1PR/5PPN/4PPQB/3PRBNK w - - 0 1 White's King stands in the h1 corner with Rook, Bishop, Knight beside it and the Queen an",
     "anchor": "setup",
     "variant": "legan-chess",
     "variantUrl": "dist/chess/variants/legan-chess/"
@@ -9706,7 +9716,7 @@
     "gameTitle": "Chess",
     "section": "Legan Chess",
     "heading": "Rules",
-    "content": "- Pawns move diagonally forward one or two squares from their starting rank and capture straight forward — Berolina movement. - No castling. - No en passant. - All other pieces move and capture as sta",
+    "content": "- Pawn movement. A pawn moves one square diagonally forward: White from right to left, Black from left to right. So a White pawn on f3 moves to e4. - Pawn capture. A pawn captures orthogonally, in the",
     "anchor": "rules",
     "variant": "legan-chess",
     "variantUrl": "dist/chess/variants/legan-chess/"
@@ -9726,7 +9736,7 @@
     "gameTitle": "Chess",
     "section": "Legan Chess",
     "heading": "Strategy",
-    "content": "The King on d-file is more exposed than in standard chess since the Queen is no longer shielding it. Berolina pawns create unusual pawn structures — they cannot protect each other the way normal pawns",
+    "content": "Both Kings begin in a corner, already tucked behind their own pawn triangle, so early safety is not the concern it is in standard chess. The tension is along a single long diagonal, and because pawns ",
     "anchor": "strategy",
     "variant": "legan-chess",
     "variantUrl": "dist/chess/variants/legan-chess/"
@@ -9736,7 +9746,7 @@
     "gameTitle": "Chess",
     "section": "Legan Chess",
     "heading": "Attribution",
-    "content": "Named after Vladimír Legan. Public domain.",
+    "content": "Invented by L. Legan in 1913. Rules documented at en.wikipedia.org/wiki/Leganchess; starting position taken from the Fairy-Stockfish source src/variant.cpp, leganvariant. Public domain rules.",
     "anchor": "attribution",
     "variant": "legan-chess",
     "variantUrl": "dist/chess/variants/legan-chess/"
@@ -10446,7 +10456,7 @@
     "gameTitle": "Chess",
     "section": "McCooey's Hexagonal Chess",
     "heading": "McCooey's Hexagonal Chess",
-    "content": "Invented by Dave McCooey and published on chessvariants.com. Played on the same 91-hex board as Gliński but with different pawn rules and 7 pawns per side.",
+    "content": "Developed by Dave McCooey and Richard Honeycutt in 1978-79 and published on chessvariants.com. Played on the same 91-hex board as Gliński but with different pawn rules and 7 pawns per side.",
     "anchor": "mccooeys-hexagonal-chess",
     "variant": "mccooey",
     "variantUrl": "dist/chess/variants/mccooey/"
@@ -10506,7 +10516,7 @@
     "gameTitle": "Chess",
     "section": "McCooey's Hexagonal Chess",
     "heading": "Attribution",
-    "content": "Dave McCooey. Published on chessvariants.com. Public domain rules.",
+    "content": "Developed by Dave McCooey and Richard Honeycutt, 1978-79. Documented at en.wikipedia.org/wiki/Hexagonalchess and published on chessvariants.com. Public domain rules.",
     "anchor": "attribution",
     "variant": "mccooey",
     "variantUrl": "dist/chess/variants/mccooey/"
@@ -11516,7 +11526,7 @@
     "gameTitle": "Chess",
     "section": "Orda Mirror",
     "heading": "Orda Mirror",
-    "content": "Designed by Corey Clark 2020. Where Orda Chess pits the standard FIDE Kingdom against the Mongol Horde, Orda Mirror gives both players an identical Horde army. The defining characteristic of all Horde",
+    "content": "Designed by Couch Tomato, 2020. Where Orda Chess pits the standard FIDE Kingdom against the Mongol Horde, Orda Mirror gives both players an identical Horde army. The defining characteristic of all Hor",
     "anchor": "orda-mirror",
     "variant": "orda-mirror",
     "variantUrl": "dist/chess/variants/orda-mirror/"
@@ -11586,7 +11596,7 @@
     "gameTitle": "Chess",
     "section": "Orda Mirror",
     "heading": "Attribution",
-    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.",
+    "content": "Designed by Couch Tomato, 2020. Rules published at pychess.org/variants/ordamirror. Public domain rule set.",
     "anchor": "attribution",
     "variant": "orda-mirror",
     "variantUrl": "dist/chess/variants/orda-mirror/"
@@ -12896,7 +12906,7 @@
     "gameTitle": "Chess",
     "section": "Shafran's Hexagonal Chess",
     "heading": "Shafran's Hexagonal Chess",
-    "content": "Invented by Boris Shafran. Played on a smaller 70-hex board with 9 files a through i. Castling is permitted and the pawn initial step varies by file.",
+    "content": "Invented by Isaak Grigorevich Shafran in 1939. Played on a smaller 70-hex board with 9 files a through i. Castling is permitted and the pawn initial step varies by file.",
     "anchor": "shafrans-hexagonal-chess",
     "variant": "shafran",
     "variantUrl": "dist/chess/variants/shafran/"
@@ -12956,7 +12966,7 @@
     "gameTitle": "Chess",
     "section": "Shafran's Hexagonal Chess",
     "heading": "Attribution",
-    "content": "Boris Shafran. Public domain rules.",
+    "content": "Invented by Soviet geologist Isaak Grigorevich Shafran in 1939 and registered in 1956. Documented at en.wikipedia.org/wiki/Hexagonalchess. Public domain rules.",
     "anchor": "attribution",
     "variant": "shafran",
     "variantUrl": "dist/chess/variants/shafran/"
@@ -13246,7 +13256,7 @@
     "gameTitle": "Chess",
     "section": "Shinobi Chess",
     "heading": "Shinobi Chess",
-    "content": "Designed by Corey Clark 2021. Shinobi Chess is asymmetric: White commands a standard FIDE Kingdom; Black commands a Shinobi Clan that begins with fewer pieces on the board but holds a hand of addition",
+    "content": "Designed by Couch Tomato, 2021. Shinobi Chess is asymmetric: White commands a standard FIDE Kingdom; Black commands a Shinobi Clan that begins with fewer pieces on the board but holds a hand of additi",
     "anchor": "shinobi-chess",
     "variant": "shinobi",
     "variantUrl": "dist/chess/variants/shinobi/"
@@ -13326,7 +13336,7 @@
     "gameTitle": "Chess",
     "section": "Shinobi Chess",
     "heading": "Attribution",
-    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.",
+    "content": "Designed by Couch Tomato, 2021. Rules published at pychess.org/variants/shinobi. Public domain rule set.",
     "anchor": "attribution",
     "variant": "shinobi",
     "variantUrl": "dist/chess/variants/shinobi/"
@@ -13416,7 +13426,7 @@
     "gameTitle": "Chess",
     "section": "Shogun Chess",
     "heading": "Shogun Chess",
-    "content": "Designed by Corey Clark 2020. Shogun Chess grafts the drop mechanic from Shogi onto a standard chess board: captured pieces switch sides and can be returned to play, and pieces automatically promote w",
+    "content": "Designed by Couch Tomato, 2019-2020. Shogun Chess grafts the drop mechanic from Shogi onto a standard chess board: captured pieces switch sides and can be returned to play, and pieces automatically pr",
     "anchor": "shogun-chess",
     "variant": "shogun",
     "variantUrl": "dist/chess/variants/shogun/"
@@ -13496,7 +13506,7 @@
     "gameTitle": "Chess",
     "section": "Shogun Chess",
     "heading": "Attribution",
-    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.",
+    "content": "Designed by Couch Tomato, 2019-2020. Rules published at pychess.org/variants/shogun.",
     "anchor": "attribution",
     "variant": "shogun",
     "variantUrl": "dist/chess/variants/shogun/"
@@ -14096,7 +14106,7 @@
     "gameTitle": "Chess",
     "section": "Synochess",
     "heading": "Synochess",
-    "content": "Designed by Corey Clark 2020. Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi Chinese Chess. The two armies differ completely in piece movement, and the Easter",
+    "content": "Designed by Couch Tomato, 2020. Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi Chinese Chess. The two armies differ completely in piece movement, and the East",
     "anchor": "synochess",
     "variant": "synochess",
     "variantUrl": "dist/chess/variants/synochess/"
@@ -14186,7 +14196,7 @@
     "gameTitle": "Chess",
     "section": "Synochess",
     "heading": "Attribution",
-    "content": "Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.",
+    "content": "Designed by Couch Tomato, 2020. Rules published at pychess.org/variants/synochess.",
     "anchor": "attribution",
     "variant": "synochess",
     "variantUrl": "dist/chess/variants/synochess/"
@@ -17014,6 +17024,16 @@
   {
     "game": "dungeon-chess",
     "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Compact Skirmish (10×10))",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Dungeon Chess is an original Moddable Games design. No external provenance is claimed.",
+    "anchor": "attribution",
+    "variant": "compact",
+    "variantUrl": "dist/dungeon-chess/variants/compact/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
     "section": "Dungeon Chess (Four Player (20×20))",
     "heading": "Dungeon Chess (Four Player (20×20))",
     "content": "The four-player Dungeon Chess map. A large 20×20 arena with deploy zones in each corner, supporting free-for-all or team 2v2 play.",
@@ -17038,6 +17058,16 @@
     "heading": "Differences from Standard",
     "content": "Four-player games introduce diplomacy and timing. Attacking early exposes your flank to the other two players. The winner is typically the player who engages last while their opponents weaken each oth",
     "anchor": "differences-from-standard",
+    "variant": "four-player",
+    "variantUrl": "dist/dungeon-chess/variants/four-player/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Four Player (20×20))",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Dungeon Chess is an original Moddable Games design. No external provenance is claimed.",
+    "anchor": "attribution",
     "variant": "four-player",
     "variantUrl": "dist/dungeon-chess/variants/four-player/"
   },
@@ -17070,6 +17100,26 @@
     "anchor": "differences-from-standard",
     "variant": "two-player",
     "variantUrl": "dist/dungeon-chess/variants/two-player/"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Dungeon Chess (Two Player (20×8))",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Dungeon Chess is an original Moddable Games design. No external provenance is claimed.",
+    "anchor": "attribution",
+    "variant": "two-player",
+    "variantUrl": "dist/dungeon-chess/variants/two-player/"
+  },
+  {
+    "game": "econopoly",
+    "gameTitle": "Econopoly",
+    "section": "Econopoly (Standard)",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Econopoly is an original Moddable Games modification for use with a Monopoly set; it defines only its own changes and reproduces no Monopoly rules text. Monopoly is a trademar",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/econopoly/variants/standard/"
   },
   {
     "game": "go",
@@ -20214,6 +20264,16 @@
   {
     "game": "nukes",
     "gameTitle": "Nukes: Official Rulebook",
+    "section": "Nukes: Asymmetric Powers",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.",
+    "anchor": "attribution",
+    "variant": "asymmetric-powers",
+    "variantUrl": "dist/nukes/variants/asymmetric-powers/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes: Official Rulebook",
     "section": "Nukes: Fallout",
     "heading": "Nukes: Fallout",
     "content": "A reskin that adds persistent, spreading Biohazard contamination to the board. Every nuclear strike or Meltdown now has long-term territorial consequences as the map degrades around the blast sites.",
@@ -20288,6 +20348,16 @@
     "heading": "Design Notes",
     "content": "Fallout adds a clock to the game without changing any core mechanics. The hostage economy, fluid platoons, and nuclear strikes all work identically. The spread mechanic simply punishes nuclear usage o",
     "anchor": "design-notes",
+    "variant": "fallout",
+    "variantUrl": "dist/nukes/variants/fallout/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes: Official Rulebook",
+    "section": "Nukes: Fallout",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.",
+    "anchor": "attribution",
     "variant": "fallout",
     "variantUrl": "dist/nukes/variants/fallout/"
   },
@@ -20374,6 +20444,16 @@
   {
     "game": "nukes",
     "gameTitle": "Nukes: Official Rulebook",
+    "section": "Nukes: Siege",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.",
+    "anchor": "attribution",
+    "variant": "siege",
+    "variantUrl": "dist/nukes/variants/siege/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes: Official Rulebook",
     "section": "Nukes: Standard",
     "heading": "Nukes: Standard",
     "content": "The default Nukes map. A 3-ring hexagonal battlefield with seeded random terrain and two opposing bases.",
@@ -20398,6 +20478,16 @@
     "heading": "Terrain Types",
     "content": "Effect --- Open ground, standard movement Trees Forest Impassable, blocks LOS Water Open ground, fatigue penalty Base",
     "anchor": "terrain-types",
+    "variant": "standard",
+    "variantUrl": "dist/nukes/variants/standard/"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes: Official Rulebook",
+    "section": "Nukes: Standard",
+    "heading": "Attribution",
+    "content": "Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.",
+    "anchor": "attribution",
     "variant": "standard",
     "variantUrl": "dist/nukes/variants/standard/"
   },

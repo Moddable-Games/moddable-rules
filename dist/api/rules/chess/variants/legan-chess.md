@@ -1,25 +1,26 @@
 ## Legan Chess
 
-Combines Berolina pawn movement with swapped King/Queen positions. No castling or en passant.
+The board is played on the diagonal. Each army occupies a triangular corner, White in the bottom right and Black in the top left, and advances along the long diagonal towards the other. Pawns are reoriented to match: they step diagonally forward and capture orthogonally, the reverse of the standard pawn.
 
 
 {{svg:legan-chess-board.svg "Legan Chess — starting position"}}
 
 ### Setup
 
-**Board:** Standard 8×8.
+**Board:** Standard 8×8, played corner to corner.
 
-**Setup:** Like standard chess but the King starts on d1/d8 and the Queen on e1/e8 (swapped positions).
+**FEN:** `knbrp3/bqpp4/npp5/rp1p3P/p3P1PR/5PPN/4PPQB/3PRBNK w - - 0 1`
 
-**FEN:** `rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR w - - 0 1`
+White's King stands in the h1 corner with Rook, Bishop, Knight beside it and the Queen and pawns filling the triangle in front. Black's King stands in the a8 corner with the mirrored arrangement.
 
 ### Rules
 
-- Pawns move diagonally forward (one or two squares from their starting rank) and capture straight forward — Berolina movement.
-- No castling.
-- No en passant.
-- All other pieces move and capture as standard chess.
-- Promotion on the 8th rank works as normal.
+- **Pawn movement.** A pawn moves one square diagonally forward: White from right to left, Black from left to right. So a White pawn on f3 moves to e4.
+- **Pawn capture.** A pawn captures orthogonally, in the two component directions of its move. The White pawn on f3 captures on e3 and on f4.
+- **No double step.** Pawns always move exactly one square.
+- **Promotion.** A pawn promotes on the squares occupied at the start by the opponent's King, Bishops, Knights and Rooks: for White, a8, b8, c8, d8, a7, a6 and a5; for Black, e1, f1, g1, h1, h2, h3 and h4.
+- **No castling** and **no en passant**.
+- All other pieces move and capture exactly as in standard chess.
 
 ### Win Condition
 
@@ -27,8 +28,8 @@ Checkmate the opponent's King.
 
 ### Strategy
 
-The King on d-file is more exposed than in standard chess since the Queen is no longer shielding it. Berolina pawns create unusual pawn structures — they cannot protect each other the way normal pawns can. Central control requires different thinking since pawns threaten diagonal squares for movement but straight squares for capture.
+Both Kings begin in a corner, already tucked behind their own pawn triangle, so early safety is not the concern it is in standard chess. The tension is along a single long diagonal, and because pawns move and capture on different axes they cannot form protective chains the way standard pawns do. A pawn defends only by standing where it can capture, which is orthogonal to where the enemy pawn wants to go.
 
 ### Attribution
 
-Named after Vladimír Legan. Public domain.
+Invented by L. Legan in 1913. Rules documented at en.wikipedia.org/wiki/Legan_chess; starting position taken from the Fairy-Stockfish source (`src/variant.cpp`, `legan_variant`). Public domain rules.

@@ -2,7 +2,7 @@
 
 {{svg:synochess-board.svg "Synochess — starting position"}}
 
-Designed by Corey Clark (2020). Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi (Chinese Chess). The two armies differ completely in piece movement, and the Eastern side begins with Soldiers held in hand rather than Pawns on the board.
+Designed by Couch Tomato, 2020. Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi (Chinese Chess). The two armies differ completely in piece movement, and the Eastern side begins with Soldiers held in hand rather than Pawns on the board.
 
 ### The Two Armies
 
@@ -65,4 +65,4 @@ All standard FIDE rules apply: castling, en passant, pawn promotion. The Western
 
 ### Attribution
 
-Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.
+Designed by Couch Tomato, 2020. Rules published at pychess.org/variants/synochess.

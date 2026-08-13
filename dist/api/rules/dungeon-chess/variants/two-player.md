@@ -13,3 +13,7 @@ The standard two-player Dungeon Chess map. A long 20×8 corridor forces linear e
 ### Differences from Standard
 
 The elongated shape changes the game's character. Ranged units and those with long-distance movement gain significant value. Flanking is difficult due to the narrow width, so frontal breakthrough becomes the primary strategy.
+
+### Attribution
+
+Moddable Games original. Dungeon Chess is an original Moddable Games design. No external provenance is claimed.

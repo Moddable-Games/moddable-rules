@@ -1,6 +1,6 @@
 ## Shafran's Hexagonal Chess
 
-Invented by Boris Shafran. Played on a smaller 70-hex board with 9 files (a through i). Castling is permitted and the pawn initial step varies by file.
+Invented by Isaak Grigorevich Shafran in 1939. Played on a smaller 70-hex board with 9 files (a through i). Castling is permitted and the pawn initial step varies by file.
 
 ### Setup
 
@@ -48,4 +48,4 @@ Checkmate.
 
 ### Attribution
 
-Boris Shafran. Public domain rules.
+Invented by Soviet geologist Isaak Grigorevich Shafran in 1939 and registered in 1956. Documented at en.wikipedia.org/wiki/Hexagonal_chess. Public domain rules.

@@ -52,3 +52,7 @@ In standard Nukes, Biohazard tiles are rare (only created by nuclear strikes) an
 ### Design Notes
 
 Fallout adds a clock to the game without changing any core mechanics. The hostage economy, fluid platoons, and nuclear strikes all work identically. The spread mechanic simply punishes nuclear usage over time, creating a tension between the immediate tactical value of a strike and its long-term territorial cost. Games tend to be shorter and more aggressive than standard Nukes.
+
+### Attribution
+
+Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.

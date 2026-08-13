@@ -48,4 +48,4 @@ Checkmate.
 
 ### Attribution
 
-Yakov Brusky. Public domain rules.
+Invented by Yakov Brusky in 1966. Documented at en.wikipedia.org/wiki/Hexagonal_chess. Public domain rules.

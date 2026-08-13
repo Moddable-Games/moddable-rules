@@ -13,3 +13,7 @@ The four-player Dungeon Chess map. A large 20×20 arena with deploy zones in eac
 ### Differences from Standard
 
 Four-player games introduce diplomacy and timing. Attacking early exposes your flank to the other two players. The winner is typically the player who engages last while their opponents weaken each other. Team play (2v2) removes the diplomacy element and plays more like two parallel two-player games that can interfere with each other.
+
+### Attribution
+
+Moddable Games original. Dungeon Chess is an original Moddable Games design. No external provenance is claimed.

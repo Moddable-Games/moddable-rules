@@ -2,7 +2,7 @@
 
 {{svg:orda-mirror-board.svg "Orda Mirror — starting position"}}
 
-Designed by Corey Clark (2020). Where Orda Chess pits the standard FIDE Kingdom against the Mongol Horde, Orda Mirror gives both players an identical Horde army. The defining characteristic of all Horde pieces is move–capture asymmetry: every non-royal piece **moves** as a Knight but **captures** using a different method specific to that piece type.
+Designed by Couch Tomato, 2020. Where Orda Chess pits the standard FIDE Kingdom against the Mongol Horde, Orda Mirror gives both players an identical Horde army. The defining characteristic of all Horde pieces is move–capture asymmetry: every non-royal piece **moves** as a Knight but **captures** using a different method specific to that piece type.
 
 ### The Horde Army
 
@@ -71,4 +71,4 @@ Standard: stalemate is a draw.
 
 ### Attribution
 
-Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.
+Designed by Couch Tomato, 2020. Rules published at pychess.org/variants/ordamirror. Public domain rule set.

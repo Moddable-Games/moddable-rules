@@ -255,7 +255,7 @@
       "players": "2",
       "board": "9×9",
       "win": "Checkmate or Temple Capture",
-      "special": "Mesoamerican-themed chess on a 9×9 board. Win by mating the Ajaw or landing your promoted Ajaw on the opponent's temple square. Pieces promote when crossing the river. Designed by Corey Clark, 2020."
+      "special": "Mesoamerican-themed chess on a 9×9 board. Win by mating the Ajaw or landing your promoted Ajaw on the opponent's temple square. Pieces promote when crossing the river. Designed by Couch Tomato, 2021."
     },
     {
       "slug": "chancellor-chess",
@@ -287,7 +287,7 @@
       "players": "2",
       "board": "7×7",
       "win": "Pawn reaches opponent baseline",
-      "special": "Tennis-themed chess on a 7×7 board. Win by advancing a Pawn to the opponent's back rank. A net across rank 4 prevents most pieces from crossing. Knights may jump the net freely. Designed by Corey Clark."
+      "special": "Tennis-themed chess on a 7×7 board. Win by advancing a Pawn to the opponent's back rank. A net across rank 4 prevents most pieces from crossing. Knights may jump the net freely. Designed by Couch Tomato, 2021."
     },
     {
       "slug": "chigorin",
@@ -295,7 +295,7 @@
       "players": "2",
       "board": "8×8",
       "win": "Checkmate",
-      "special": "White's Bishops replaced by Knights. Four Knights vs standard army."
+      "special": "Unequal armies. White has four Knights and a Chancellor; Black has four Bishops and a Queen."
     },
     {
       "slug": "circular-chess",
@@ -679,7 +679,7 @@
       "players": "2",
       "board": "8×8",
       "win": "Checkmate",
-      "special": "Berolina pawns (move diagonal, capture straight). King and Queen swap starting squares."
+      "special": "Armies are set up in opposite corners and play diagonally. Pawns move one step diagonally forward and capture orthogonally."
     },
     {
       "slug": "los-alamos-vierschach",
@@ -751,7 +751,7 @@
       "players": "2",
       "board": "91 hexes (11 files a–k)",
       "win": "Checkmate",
-      "special": "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per side, and stalemate is a draw. Invented Dave McCooey."
+      "special": "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per side, and stalemate is a draw. Invented by McCooey and Honeycutt, 1978-79."
     },
     {
       "slug": "medusa-chess",
@@ -855,7 +855,7 @@
       "players": "2",
       "board": "8×8",
       "win": "Checkmate",
-      "special": "Both players command the Horde army from Orda Chess. Every piece moves as a Knight but captures as its FIDE counterpart. Designed by Corey Clark, 2020."
+      "special": "Both players command the Horde army from Orda Chess. Every piece moves as a Knight but captures as its FIDE counterpart. Designed by Couch Tomato, 2020."
     },
     {
       "slug": "ouk-chaktrang",
@@ -1007,7 +1007,7 @@
       "players": "2",
       "board": "70 hexes (9 files a–i)",
       "win": "Checkmate",
-      "special": "Smaller 70-hex board with 9 files. Castling permitted. Variable pawn initial step by file. Invented Boris Shafran."
+      "special": "Smaller 70-hex board with 9 files. Castling permitted. Variable pawn initial step by file. Invented by Isaak Shafran, 1939."
     },
     {
       "slug": "shako",
@@ -1047,7 +1047,7 @@
       "players": "2",
       "board": "8×8",
       "win": "Checkmate",
-      "special": "Asymmetric: FIDE Kingdom vs. Shinobi Clan. Shinobi starts with fewer pieces but gains new pieces by dropping clan members held in hand. Shinobi pieces promote on reaching the promotion zone. Designed by Corey Clark, 2021."
+      "special": "Asymmetric: FIDE Kingdom vs. Shinobi Clan. Shinobi starts with fewer pieces but gains new pieces by dropping clan members held in hand. Shinobi pieces promote on reaching the promotion zone. Designed by Couch Tomato, 2021."
     },
     {
       "slug": "shinobiplus",
@@ -1063,7 +1063,7 @@
       "players": "2",
       "board": "8×8",
       "win": "Checkmate",
-      "special": "Zone-triggered automatic promotion and Shogi-style drops from captured pieces. Designed by Corey Clark, 2020."
+      "special": "Zone-triggered automatic promotion and Shogi-style drops from captured pieces. Designed by Couch Tomato, 2019-2020."
     },
     {
       "slug": "single-check",
@@ -1127,7 +1127,7 @@
       "players": "2",
       "board": "8×8",
       "win": "Checkmate or Faceoff",
-      "special": "Asymmetric: Western (FIDE) vs. Eastern dynasty (Xiangqi-derived pieces, Cannon, Chariot, Soldier drops). Faceoff rule ends the game if royal pieces face each other unobstructed. Designed by Corey Clark, 2020."
+      "special": "Asymmetric: Western (FIDE) vs. Eastern dynasty (Xiangqi-derived pieces, Cannon, Chariot, Soldier drops). Faceoff rule ends the game if royal pieces face each other unobstructed. Designed by Couch Tomato, 2020."
     },
     {
       "slug": "tamerlane",

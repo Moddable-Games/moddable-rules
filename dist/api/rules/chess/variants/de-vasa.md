@@ -44,4 +44,4 @@ Checkmate.
 
 ### Attribution
 
-Helge E. de Vasa. Public domain rules.
+Invented by Helge E. de Vasa in 1953, first published in Joseph Boyer, *Nouveaux Jeux d'Echecs Non-orthodoxes* (Paris, 1954). Documented at en.wikipedia.org/wiki/Hexagonal_chess. Public domain rules.

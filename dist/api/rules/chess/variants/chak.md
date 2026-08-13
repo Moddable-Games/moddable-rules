@@ -2,7 +2,7 @@
 
 {{svg:chak-board.svg "Chak — starting position"}}
 
-Designed by Corey Clark (2020). Chak is played on a 9×9 board with a Mesoamerican theme inspired by the Maya. The river divides the board at rank 5; pieces gain power by crossing it. Victory is achieved by either mating the opponent’s Ajaw or landing your own promoted Ajaw on the opponent’s sacred temple square and holding it for one full round.
+Designed by Couch Tomato, 2021. Chak is played on a 9×9 board with a Mesoamerican theme inspired by the Maya. The river divides the board at rank 5; pieces gain power by crossing it. Victory is achieved by either mating the opponent’s Ajaw or landing your own promoted Ajaw on the opponent’s sacred temple square and holding it for one full round.
 
 ### Board Layout
 
@@ -58,4 +58,4 @@ Black mirrors on ranks 8–9.
 
 ### Attribution
 
-Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.
+Designed by Couch Tomato, 2021. Rules published at pychess.org/variants/chak and chessvariants.com/rules/chak. Public domain rule set.

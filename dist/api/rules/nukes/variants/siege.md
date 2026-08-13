@@ -40,3 +40,7 @@ Bases, isotopes, nuclear strikes, and Meltdowns all work identically to standard
 ### Design Notes
 
 Siege creates a slower, more positional early game. Without free hostages at setup, players must commit to combat earlier to unlock the faster pacing of the hostage economy. The 2-player restriction exists because the economics break down with a third player who can accumulate hostages from two opponents simultaneously.
+
+### Attribution
+
+Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.

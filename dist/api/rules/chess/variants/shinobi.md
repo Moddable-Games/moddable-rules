@@ -2,7 +2,7 @@
 
 {{svg:shinobi-board.svg "Shinobi Chess — starting position"}}
 
-Designed by Corey Clark (2021). Shinobi Chess is asymmetric: White commands a standard FIDE Kingdom; Black commands a Shinobi Clan that begins with fewer pieces on the board but holds a hand of additional clan members that can be dropped during play, Shogi-style.
+Designed by Couch Tomato, 2021. Shinobi Chess is asymmetric: White commands a standard FIDE Kingdom; Black commands a Shinobi Clan that begins with fewer pieces on the board but holds a hand of additional clan members that can be dropped during play, Shogi-style.
 
 ### The Two Armies
 
@@ -60,4 +60,4 @@ The Jonin is the royal piece — check, checkmate, and stalemate rules apply to 
 
 ### Attribution
 
-Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com. Public domain rule set.
+Designed by Couch Tomato, 2021. Rules published at pychess.org/variants/shinobi. Public domain rule set.
