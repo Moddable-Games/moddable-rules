@@ -31,12 +31,12 @@ engine:
         1: e
     mann:
       symbols:
-        0: D
-        1: d
+        0: M
+        1: m
     schleich:
       symbols:
-        0: T
-        1: t
+        0: S
+        1: s
   plugins:
     chess:
       pieces:

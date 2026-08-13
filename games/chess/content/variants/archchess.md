@@ -16,6 +16,25 @@ engine:
   render:
     cellSize: 30
   setup: "rnbckqdbNR/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RNBDQKCBNR"
+  plugins:
+    chess:
+      vocabulary:
+        centurion:
+          symbols:
+            0: C
+            1: c
+        decurion:
+          symbols:
+            0: D
+            1: d
+      pieces:
+        centurion:
+          type: compose
+          parts:
+            - { type: leaper, offsets: dabbaba }
+            - { type: leaper, offsets: elephant }
+            - { type: leaper, offsets: knight }
+        decurion: { type: rider, dirs: diagonal, maxSteps: 1 }
 ---
 
 ## Archchess

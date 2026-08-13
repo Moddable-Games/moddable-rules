@@ -19,6 +19,29 @@ engine:
     zones:
       voids: [[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[0,9],[0,10],[1,0],[1,11],[2,0],[2,11],[3,0],[3,11],[4,0],[4,11],[5,0],[5,11],[6,0],[6,11],[7,0],[7,11],[8,0],[8,11],[9,0],[9,11],[10,0],[10,11],[11,1],[11,2],[11,3],[11,4],[11,5],[11,6],[11,7],[11,8],[11,9],[11,10]]
   setup: "w10w/1crnbqkbnrc1/1pppppppppp1/12/12/12/12/12/12/1PPPPPPPPPP1/1CRNBQKBNRC1/W10W"
+  plugins:
+    chess:
+      vocabulary:
+        champion:
+          symbols:
+            0: C
+            1: c
+        wizard:
+          symbols:
+            0: W
+            1: w
+      pieces:
+        champion:
+          type: compose
+          parts:
+            - { type: leaper, offsets: dabbaba }
+            - { type: leaper, offsets: elephant }
+            - { type: rider, dirs: orthogonal, maxSteps: 1 }
+        wizard:
+          type: compose
+          parts:
+            - { type: leaper, offsets: camel }
+            - { type: rider, dirs: diagonal, maxSteps: 1 }
 ---
 
 # Omega Chess

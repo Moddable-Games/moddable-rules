@@ -14,6 +14,15 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/3A4/8/8/3a4/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      vocabulary:
+        antiking:
+          symbols:
+            0: A
+            1: a
+      pieces:
+        antiking: { type: rider, dirs: all, maxSteps: 1 }
 ---
 
 # Anti-King Chess II

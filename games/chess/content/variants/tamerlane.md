@@ -26,6 +26,41 @@ engine:
       doubleStep: false
       castling: false
       enPassant: false
+      vocabulary:
+        fers:
+          symbols:
+            0: F
+            1: f
+        wazir:
+          symbols:
+            0: W
+            1: w
+        elephant:
+          symbols:
+            0: E
+            1: e
+        camel:
+          symbols:
+            0: J
+            1: j
+        dabbaba:
+          symbols:
+            0: D
+            1: d
+        zurafa:
+          symbols:
+            0: Z
+            1: z
+        taliah:
+          symbols:
+            0: T
+            1: t
+      pieces:
+        fers: { type: rider, dirs: diagonal, maxSteps: 1 }
+        wazir: { type: rider, dirs: orthogonal, maxSteps: 1 }
+        elephant: { type: leaper, offsets: elephant }
+        camel: { type: leaper, offsets: camel }
+        dabbaba: { type: leaper, offsets: dabbaba }
 ---
 
 <div class="section">
