@@ -1,4 +1,5 @@
 ---
+original: true
 title: "Nukes: Standard"
 slug: standard
 players: "2–3"
@@ -44,3 +45,7 @@ Terrain is generated from seed 42. Bases are placed at opposing edges of the out
 | Water | Impassable |
 | Sand (Desert) | Open ground, fatigue penalty |
 | Base | Player starting position, must be defended |
+
+### Attribution
+
+Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.

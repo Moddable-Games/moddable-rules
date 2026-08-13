@@ -32,7 +32,9 @@ engine:
 
 ## How to Play in 5 Minutes
 
-Planet Mongo is a global conquest game set within the Flash Gordon universe. Flash Gordon and the planet of Mongo provide an interesting public domain IP to use.
+Planet Mongo is a global conquest game set within the Flash Gordon universe.
+
+Flash Gordon is not in the public domain. The strip first appeared on 7 January 1934 from King Features Syndicate and its US copyright runs to 1 January 2030, with later strips later still. The public-domain film serials do not change this: they are authorised derivatives, and a lapsed derivative frees only what that derivative added, not the material it licensed from the strip. "Flash Gordon" is also a live King Features trademark, which does not expire in 2030 or at any other point. This rulebook is unpublished for that reason, and reproduces no Flash Gordon artwork.
 
 <div class="highlight">
 <div class="box-title">★ Read This First — The Core Loop</div>

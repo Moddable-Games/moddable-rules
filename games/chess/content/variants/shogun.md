@@ -5,7 +5,7 @@ board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: "Zone-triggered automatic promotion and Shogi-style drops from captured pieces. Designed by Corey Clark, 2020."
+special: "Zone-triggered automatic promotion and Shogi-style drops from captured pieces. Designed by Couch Tomato, 2019-2020."
 engine:
   topology:
     type: grid
@@ -24,7 +24,7 @@ published: true
 
 {{svg:shogun-board.svg "Shogun Chess — starting position"}}
 
-Designed by Corey Clark (2020). Shogun Chess grafts the drop mechanic from Shogi onto a standard chess board: captured pieces switch sides and can be returned to play, and pieces automatically promote when they enter the opponent's half of the board.
+Designed by Couch Tomato, 2019-2020. Shogun Chess grafts the drop mechanic from Shogi onto a standard chess board: captured pieces switch sides and can be returned to play, and pieces automatically promote when they enter the opponent's half of the board.
 
 ### Promotion Zone
 
@@ -83,4 +83,4 @@ Standard: stalemate is a draw.
 
 ### Attribution
 
-Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.
+Designed by Couch Tomato, 2019-2020. Rules published at pychess.org/variants/shogun.

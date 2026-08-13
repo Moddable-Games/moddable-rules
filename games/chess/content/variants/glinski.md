@@ -123,3 +123,7 @@ A regular hexagon composed of 91 hexagonal cells arranged in concentric rings. C
 | Bishop colours | 2 | 3 |
 | Pawns per side | 8 | 9 |
 | Board cells | 64 | 91 |
+
+### Attribution
+
+Invented by Władysław Gliński in 1936 and first launched in Britain in 1949. Documented at en.wikipedia.org/wiki/Hexagonal_chess. Public domain rules.

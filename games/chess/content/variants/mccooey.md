@@ -5,7 +5,7 @@ board: "91 hexes (11 files a–k)"
 players: "2"
 parent: chess
 win: Checkmate
-special: "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per side, and stalemate is a draw. Invented Dave McCooey."
+special: "Same 91-hex board as Gliński, but diagonal pawn captures, 7 pawns per side, and stalemate is a draw. Invented by McCooey and Honeycutt, 1978-79."
 engine:
   topology:
     type: hex
@@ -45,7 +45,7 @@ playable: true
 
 ## McCooey's Hexagonal Chess
 
-Invented by Dave McCooey and published on chessvariants.com. Played on the same 91-hex board as Gliński but with different pawn rules and 7 pawns per side.
+Developed by Dave McCooey and Richard Honeycutt in 1978-79 and published on chessvariants.com. Played on the same 91-hex board as Gliński but with different pawn rules and 7 pawns per side.
 
 ### Setup
 
@@ -82,4 +82,4 @@ Checkmate.
 
 ### Attribution
 
-Dave McCooey. Published on chessvariants.com. Public domain rules.
+Developed by Dave McCooey and Richard Honeycutt, 1978-79. Documented at en.wikipedia.org/wiki/Hexagonal_chess and published on chessvariants.com. Public domain rules.

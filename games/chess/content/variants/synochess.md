@@ -5,7 +5,7 @@ board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate or Faceoff
-special: "Asymmetric: Western (FIDE) vs. Eastern dynasty (Xiangqi-derived pieces, Cannon, Chariot, Soldier drops). Faceoff rule ends the game if royal pieces face each other unobstructed. Designed by Corey Clark, 2020."
+special: "Asymmetric: Western (FIDE) vs. Eastern dynasty (Xiangqi-derived pieces, Cannon, Chariot, Soldier drops). Faceoff rule ends the game if royal pieces face each other unobstructed. Designed by Couch Tomato, 2020."
 engine:
   topology:
     type: grid
@@ -25,7 +25,7 @@ published: true
 
 {{svg:synochess-board.svg "Synochess — starting position"}}
 
-Designed by Corey Clark (2020). Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi (Chinese Chess). The two armies differ completely in piece movement, and the Eastern side begins with Soldiers held in hand rather than Pawns on the board.
+Designed by Couch Tomato, 2020. Synochess pits the Western chess tradition against an Eastern dynasty drawn from Xiangqi (Chinese Chess). The two armies differ completely in piece movement, and the Eastern side begins with Soldiers held in hand rather than Pawns on the board.
 
 ### The Two Armies
 
@@ -88,4 +88,4 @@ All standard FIDE rules apply: castling, en passant, pawn promotion. The Western
 
 ### Attribution
 
-Designed by Corey Clark. Published via Shogun of Games. Official rules at shogunofgames.com.
+Designed by Couch Tomato, 2020. Rules published at pychess.org/variants/synochess.

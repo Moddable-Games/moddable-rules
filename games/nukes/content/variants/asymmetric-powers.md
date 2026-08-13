@@ -1,4 +1,5 @@
 ---
+original: true
 title: "Nukes: Asymmetric Powers"
 slug: asymmetric-powers
 players: "2–3"
@@ -83,3 +84,7 @@ Powers do not combine. Each player has exactly one Power Card for the entire gam
 ### Design Notes
 
 Asymmetric Powers is designed to layer on top of standard Nukes with zero rule changes to the core systems. The power cards create different strategic pressures from the first turn without requiring players to learn new mechanics. In 2-player games, the removed card creates uncertainty about what your opponent drew until reveal.
+
+### Attribution
+
+Moddable Games original. Nukes is an original Moddable Games design, first published January 2012. No external provenance is claimed.

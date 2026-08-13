@@ -5,7 +5,7 @@ board: "7×7"
 players: "2"
 parent: chess
 win: Pawn reaches opponent baseline
-special: "Tennis-themed chess on a 7×7 board. Win by advancing a Pawn to the opponent's back rank. A net across rank 4 prevents most pieces from crossing. Knights may jump the net freely. Designed by Corey Clark."
+special: "Tennis-themed chess on a 7×7 board. Win by advancing a Pawn to the opponent's back rank. A net across rank 4 prevents most pieces from crossing. Knights may jump the net freely. Designed by Couch Tomato, 2021."
 engine:
   topology:
     type: grid
@@ -19,7 +19,7 @@ engine:
 
 {{svg:chennis-board.svg "Chennis — starting position"}}
 
-Designed by Corey Clark. Chennis adapts chess to a tennis-themed format on a 7×7 board. The net divides the board between ranks 4 and 5. Victory is achieved by getting a Pawn to the opponent’s back rank, not by checkmate — though check and piece capture remain mechanically active.
+Designed by Couch Tomato, 2021. Chennis adapts chess to a tennis-themed format on a 7×7 board. The net divides the board between ranks 4 and 5. Victory is achieved by getting a Pawn to the opponent’s back rank, not by checkmate — though check and piece capture remain mechanically active.
 
 ### Board Layout
 
@@ -81,4 +81,4 @@ Black mirrors on ranks 6–7.
 
 ### Attribution
 
-Designed by Corey Clark. Published via Shogun of Games. Public domain rule set.
+Designed by Couch Tomato, 2021, as a variant of Kyoto Shogi. Rules published at pychess.org/variants/chennis and chessvariants.com/rules/chennis. Public domain rule set.
