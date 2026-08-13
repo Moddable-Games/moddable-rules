@@ -160,6 +160,6 @@ The player who captures all of their opponent's pieces wins. If neither player c
 
 ## Attribution
 
-Fanorona. Indigenous game of Madagascar. Public domain. Sources: ICGA (International Computer Games Association) Fanorona entry; Masters Traditional Games, Fanorona Rules (2019); UltraBoardGames, Fanorona game rules; MindSports Fanorona entry.
+Fanorona. Indigenous game of Madagascar. Public domain. Documented at en.wikipedia.org/wiki/Fanorona and mastersofgames.com. Sources: ICGA (International Computer Games Association) Fanorona entry; Masters Traditional Games, Fanorona Rules (2019); UltraBoardGames, Fanorona game rules; MindSports Fanorona entry.
 
 </div>

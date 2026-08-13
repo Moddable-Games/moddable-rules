@@ -136,4 +136,5 @@ When an animal enters an opponent’s trap square, it loses all rank advantages:
 
 ### Attribution
 
-Dou Shou Qi (斗兽棋). Traditional Chinese game, commercially produced circa 1900–1920. Also known as Jungle or The Jungle Game. Public domain rule set confirmed from Pagat.com and multiple commercial editions.
+Dou Shou Qi (斗兽棋). Traditional Chinese game, commercially produced circa 1900–1920. Also known as Jungle or The Jungle Game. Public domain rule set confirmed from Pagat.com and multiple commercial editions. Public domain. Documented at en.wikipedia.org/wiki/Jungle_(board_game) and mastersofgames.com.
+

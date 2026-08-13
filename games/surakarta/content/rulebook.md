@@ -160,6 +160,6 @@ The player who captures all 12 of the opponent's pieces wins.
 
 ## Attribution
 
-Surakarta. Traditional game attributed to Surakarta (Solo), Central Java, Indonesia. European publication by Ravensberger, Germany, 1971. Public domain. Sources: Ludii Project, Maastricht University (ludii.games, academic game corpus); rubysash/site.hollowedstone implementation reference (MIT licence); Wikipedia, Surakarta (game) (CC-BY-SA 4.0); Masters of Games (mastersofgames.com).
+Surakarta. Traditional game attributed to Surakarta (Solo), Central Java, Indonesia. European publication by Ravensberger, Germany, 1971. Public domain. Documented at en.wikipedia.org/wiki/Surakarta_(game) and mastersofgames.com. Sources: Ludii Project, Maastricht University (ludii.games, academic game corpus); rubysash/site.hollowedstone implementation reference (MIT licence); Wikipedia, Surakarta (game) (CC-BY-SA 4.0); Masters of Games (mastersofgames.com).
 
 </div>

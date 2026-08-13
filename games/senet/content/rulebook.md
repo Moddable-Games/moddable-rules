@@ -154,4 +154,5 @@ Senet boards have been found in tombs dating to the First Dynasty (c. 3100 BCE).
 
 Reconstruction: Timothy Kendall, *Passing Through the Netherworld* (1978). Starting position: R.C. Bell, *Board and Table Games from Many Civilizations* (1979). Square numbering: Peter A. Piccione's academic standard. This synthesis represents the most widely implemented version in museums and commercial editions.
 
-</div>
+</div> Public domain. Reconstruction context at en.wikipedia.org/wiki/Senet. All Senet rule sets are modern reconstructions; no complete ancient rules survive.
+

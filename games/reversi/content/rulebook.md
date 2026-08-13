@@ -77,3 +77,7 @@ Invented by Lewis Waterman and John Mollett in England around 1883. Public domai
 </div>
 
 </div>
+
+### Attribution
+
+Reversi. Invented in 1883, with the claim disputed between Lewis Waterman and John W. Mollett. Documented at en.wikipedia.org and mastersofgames.com. Public domain. Note that Othello is a separate, trademarked 1971 game; the files here describe Reversi.

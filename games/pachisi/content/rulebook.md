@@ -103,3 +103,7 @@ This library includes {{variant_count}} variants.
 </div>
 
 </div>
+
+### Attribution
+
+Pachisi. Documented in Murray, *A History of Board Games Other Than Chess* (1952), and at en.wikipedia.org and tradgames.org.uk. Public domain.

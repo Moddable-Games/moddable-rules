@@ -118,4 +118,4 @@ The key strategic challenge: advance Guards toward the center while protecting t
 
 ### Attribution
 
-Agon. Documented in France, 1842; described in British and American game books from the 1870s onward. Public domain. Rules confirmed from historical game literature and Sid Sackson’s *A Gamut of Games* (1969).
+Agon. Documented in France, 1842; described in British and American game books from the 1870s onward. Public domain. Documented at en.wikipedia.org/wiki/Agon_(game) and cyningstan.com. Rules confirmed from historical game literature and Sid Sackson’s *A Gamut of Games* (1969).

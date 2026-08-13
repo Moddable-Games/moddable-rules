@@ -5,7 +5,7 @@ board: "8×8"
 players: "2"
 parent: chess
 win: Checkmate
-special: "Two new compound pieces — Hawk and Elephant — enter the board via a gating mechanic when back-rank pieces leave their starting squares. Designed by Yasser Seirawan and Jonathan Tisdall, 2007."
+special: "Two new compound pieces — Hawk and Elephant — enter the board via a gating mechanic when back-rank pieces leave their starting squares. Designed by Yasser Seirawan and Bruce Harper, 2007."
 engine:
   topology:
     type: grid
@@ -23,7 +23,7 @@ published: true
 
 {{svg:s-chess-board.svg "S-Chess (Seirawan Chess) — starting position"}}
 
-Designed by Yasser Seirawan and Jonathan Tisdall (2007). S-Chess enriches orthodox chess with two powerful new fairy pieces — the Hawk and the Elephant — without changing the starting position. Instead, these pieces enter play through a gating mechanic: when any back-rank piece leaves its home square for the first time, the owner may simultaneously place one reserve piece onto the vacated square.
+Designed by Yasser Seirawan and Bruce Harper (2007). S-Chess enriches orthodox chess with two powerful new fairy pieces — the Hawk and the Elephant — without changing the starting position. Instead, these pieces enter play through a gating mechanic: when any back-rank piece leaves its home square for the first time, the owner may simultaneously place one reserve piece onto the vacated square.
 
 ### New Pieces
 

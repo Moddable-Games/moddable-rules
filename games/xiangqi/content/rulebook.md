@@ -171,3 +171,7 @@ This library includes {{variant_count}} playable variants spanning the Chinese a
 </div>
 
 </div>
+
+### Attribution
+
+Xiangqi. Rules are governed by the World Xiangqi Federation (wxf.org). Historical development is documented in Murray, *A History of Chess* (1913), and variant documentation follows pychess.org and chessvariants.com. Public domain.
