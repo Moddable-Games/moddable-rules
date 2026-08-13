@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Vierschach
 slug: vierschach
 board: "cross-shaped, 160 squares (8×8 centre + four 3×8 extensions)"

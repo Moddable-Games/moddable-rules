@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Los Alamos Vierschach
 slug: los-alamos-vierschach
 board: "84-square cross (6×6 core + 2×6 extensions)"

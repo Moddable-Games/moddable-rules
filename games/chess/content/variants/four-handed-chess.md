@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Four-Handed Chess (Chaturaji)
 slug: four-handed-chess
 board: 8×8
