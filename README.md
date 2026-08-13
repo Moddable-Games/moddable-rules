@@ -222,6 +222,14 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-13
+- Chigorin and Legan Chess corrected (both were describing different games; now playable: false pending engine#111)
+- Seven files misattributed to non-existent "Corey Clark" corrected to Couch Tomato
+- Removed citations to shogunofgames.com (does not resolve)
+- Shafran and Legan attributions corrected
+- Nukes, Econopoly, and Dungeon Chess variants marked original: true
+- Attribution CI check brought to green: hub inheritance, bare-domain matching, credit consistency
+
 #### 2026-08-12
 - Fixed PDF stats showing 0 in deployed stats.json (PDFs are gitignored; added committed pdf-manifest.json with 665 files, 9,739 pages, by-type breakdown)
 - Added diagram freshness CI guard (hashes engine: frontmatter, fails if changed without sync:boards)
