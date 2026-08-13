@@ -1,0 +1,9 @@
+/* Accent: Navy — dark military blue */
+:root {
+  --accent: #1b3a6b;
+  --accent-dark: #0f2444;
+  --accent-light: #4a78b8;
+  --accent-trans: rgba(27, 58, 107, .3);
+  --accent-on-dark: #4a78b8;
+  --accent-on-light: #0f2444;
+}

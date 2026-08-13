@@ -198,7 +198,8 @@ function generateThemeCSS(meta, slug) {
     if (existsSync(layerPath)) {
       css += readFileSync(layerPath, 'utf8') + '\n';
     } else {
-      css += `/* WARNING: missing layer ${layerPath} */\n`;
+      const rel = layerPath.replace(ROOT + '/', '');
+      throw new Error(`Theme "${slug}": missing layer ${rel}`);
     }
   }
 

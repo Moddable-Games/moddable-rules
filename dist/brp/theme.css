@@ -53,7 +53,16 @@
   --bg-page-outer: #030303;
 }
 
-/* WARNING: missing layer /Applications/MAMP/htdocs/MODDABLE/moddable-rules/shared/themes/accents/crimson.css */
+/* Accent: Crimson — deep blood red */
+:root {
+  --accent: #9b1b30;
+  --accent-dark: #6e1322;
+  --accent-light: #d44058;
+  --accent-trans: rgba(155, 27, 48, .3);
+  --accent-on-dark: #d44058;
+  --accent-on-light: #6e1322;
+}
+
 /* Texture: None — clean flat surface */
 .page {
   background-image: none;

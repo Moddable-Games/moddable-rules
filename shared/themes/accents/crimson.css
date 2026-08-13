@@ -1,0 +1,9 @@
+/* Accent: Crimson — deep blood red */
+:root {
+  --accent: #9b1b30;
+  --accent-dark: #6e1322;
+  --accent-light: #d44058;
+  --accent-trans: rgba(155, 27, 48, .3);
+  --accent-on-dark: #d44058;
+  --accent-on-light: #6e1322;
+}
