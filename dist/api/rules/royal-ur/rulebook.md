@@ -119,6 +119,6 @@ For a direct discussion of the reconstruction, see Finkel's 2007 presentation at
 
 ## Attribution
 
-Royal Game of Ur. Original game: Mesopotamia, c. 2500 BCE. Rules reconstruction: Irving Finkel, British Museum, 1980. Public domain. Sources: Finkel, Irving — British Museum cuneiform tablet MS 33333B transcription and notes (public); British Museum Object description (public); Wikipedia (CC-BY-SA); Finkel, Irving — British Museum YouTube reconstruction video (2017).
+Royal Game of Ur. Original game: Mesopotamia, c. 2500 BCE. Rules reconstruction: Irving Finkel, British Museum, 1980. Public domain. Reconstruction documented at en.wikipedia.org/wiki/Royal_Game_of_Ur, from Irving Finkel's reading of the Babylonian tablet held by the British Museum. Sources: Finkel, Irving — British Museum cuneiform tablet MS 33333B transcription and notes (public); British Museum Object description (public); Wikipedia (CC-BY-SA); Finkel, Irving — British Museum YouTube reconstruction video (2017).
 
 </div>

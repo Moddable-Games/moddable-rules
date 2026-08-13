@@ -20,6 +20,6 @@ Independently invented by Piet Hein (1942) and John Nash (1948). The game has de
 
 ## Attribution
 
-Hex. Invented independently by Piet Hein (1942, Denmark) and John Nash (1948, Princeton). Public domain. Rules confirmed from Wikipedia and BGG.
+Hex. Invented independently by Piet Hein (1942, Denmark) and John Nash (1948, Princeton). Public domain. Documented at en.wikipedia.org/wiki/Hex_(board_game); the Y variants follow Schensted and Titus, *Mudcrack Y and Poly-Y* (1975). Rules confirmed from Wikipedia and BGG.
 
 </div>

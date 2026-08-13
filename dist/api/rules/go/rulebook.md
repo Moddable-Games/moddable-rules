@@ -65,3 +65,7 @@ Five-in-a-row placement games played on the Go board.
 </div>
 
 </div>
+
+### Attribution
+
+Go. Rules follow the Japanese rules of the Nihon Ki-in (nihonkiin.or.jp) and the Chinese and AGA rule sets documented by the British Go Association (britgo.org) and the American Go Association (usgo.org). Public domain.

@@ -16,3 +16,7 @@ This library includes {{variant_count}} playable variants.
 </div>
 
 </div>
+
+### Attribution
+
+Tafl. The Norse hnefatafl family is documented in Murray, *A History of Board Games Other Than Chess* (1952), and at cyningstan.com, which publishes reconstructions of the historical rule sets. The surviving evidence is fragmentary and all modern tafl rule sets are reconstructions to some degree; individual variant files note where this applies. Public domain.

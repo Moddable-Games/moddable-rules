@@ -87,3 +87,7 @@ This library includes {{variant_count}} playable variants.
 </div>
 
 </div>
+
+### Attribution
+
+Shogi. Modern rules are those of the Japan Shogi Association (www.shogi.or.jp). Historical development and the large historical variants are documented in Murray, *A History of Chess* (1913), and at chessvariants.com and pychess.org. Public domain.

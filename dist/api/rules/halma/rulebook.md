@@ -14,3 +14,7 @@ This library includes {{variant_count}} playable variants.
 </div>
 
 </div>
+
+### Attribution
+
+Halma. Invented by George Howard Monks around 1883-84. Documented at en.wikipedia.org and mastersofgames.com. Public domain.

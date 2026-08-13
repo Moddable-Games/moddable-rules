@@ -47,4 +47,4 @@ The game is drawn when both players agree, or when neither player can force a wi
 
 ### Attribution
 
-Traditional variant. Public domain. Sources: Damii Ghana Draughts History &amp; Rules (gamesfromeverywhere.com, archived via docslide.us); apkpure.com — X Ghanaian Draughts app description (mkisly.bcheckers).
+Traditional variant. Public domain. Sources: dammee.com (Damii / Ghanaian Draughts rules and online play); draftstechniques.com — International Draughts Rules (Nigerian/Ghanaian mirrored version).

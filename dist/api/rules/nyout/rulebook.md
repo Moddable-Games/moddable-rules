@@ -66,4 +66,4 @@ The first team (or player) to move all their tokens off the board wins.
 
 ### Attribution
 
-Nyout (Yut Nori / 유놓이). Traditional Korean game with history spanning over 1,500 years. Associated with Lunar New Year celebrations. Public domain. Rules confirmed from Korean Cultural Heritage Foundation documentation and Pagat.com.
+Nyout (Yut Nori / 유놓이). Traditional Korean game with history spanning over 1,500 years. Associated with Lunar New Year celebrations. Public domain. Documented in Culin, *Korean Games* (1895), and at en.wikipedia.org/wiki/Yut. Rules confirmed from Korean Cultural Heritage Foundation documentation and Pagat.com.

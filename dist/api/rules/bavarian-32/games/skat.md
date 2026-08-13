@@ -161,4 +161,4 @@ A player may declare Hand before picking up the Skat (leaving it face-down). The
 
 ### Attribution
 
-Skat. Originated in Altenburg, Germany, approximately 1810. National card game of Germany. Rules codified by the Deutscher Skatverband. Standard rules confirmed from skatorderules.com, Pagat.com, and the International Skat Players Association. Public domain rule set.
+Skat. Originated in Altenburg, Germany, approximately 1810. National card game of Germany. Rules codified by the Deutscher Skatverband. Standard rules confirmed from the International Skat Order (Internationale Skatordnung) published by the Deutscher Skatverband at skatverband.de, the English translation at weddslist.com/skat/ordnung/skatordnung4.html, and pagat.com. Public domain rule set.

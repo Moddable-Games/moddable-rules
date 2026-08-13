@@ -50,3 +50,7 @@ This library includes {{variant_count}} playable variants from the Backgammon fa
 </div>
 
 </div>
+
+### Attribution
+
+Backgammon. Modern rules and the regional tables-game family are documented at bkgm.com (Backgammon Galore) and pagat.com, with historical development in Murray, *A History of Board Games Other Than Chess* (1952). Public domain.

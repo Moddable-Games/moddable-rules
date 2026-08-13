@@ -278,3 +278,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 </div>
 
 </div>
+
+### Attribution
+
+Chess. Modern rules are the FIDE Laws of Chess (fide.com). Historical development is documented in Murray, *A History of Chess* (1913). Variant provenance follows Pritchard, *The Encyclopedia of Chess Variants* (1994) and *The Classified Encyclopedia of Chess Variants* (2007), The Chess Variant Pages (chessvariants.com), and pychess.org. Individual variant files carry their own attribution wherever their provenance differs from the family, and any file declaring `original: true` is a Moddable design claiming no external provenance. Public domain.

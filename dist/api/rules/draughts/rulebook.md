@@ -62,3 +62,7 @@ This library includes {{variant_count}} playable variants spanning multiple boar
 </div>
 
 </div>
+
+### Attribution
+
+Draughts. International rules are governed by the Fédération Mondiale du Jeu de Dames (fmjd.org). Regional and historical variants are documented in Murray, *A History of Board Games Other Than Chess* (1952), and at en.wikipedia.org and mastersofgames.com. Public domain.

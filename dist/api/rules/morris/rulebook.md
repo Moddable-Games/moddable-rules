@@ -35,3 +35,7 @@ This library includes {{variant_count}} playable variants from the Mill game fam
 </div>
 
 </div>
+
+### Attribution
+
+Morris. The mill-game family is documented in Murray, *A History of Board Games Other Than Chess* (1952), and at en.wikipedia.org and mastersofgames.com. Public domain.

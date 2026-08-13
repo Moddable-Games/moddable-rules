@@ -57,3 +57,7 @@ This library includes {{variant_count}} playable variants from across the Mancal
 </div>
 
 </div>
+
+### Attribution
+
+Mancala. The sowing-game family is documented in Murray, *A History of Board Games Other Than Chess* (1952), and Russ, *The Complete Mancala Games Book* (2000), with individual variants cross-checked at en.wikipedia.org and mastersofgames.com. Public domain.
