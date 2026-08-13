@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Avalanche Chess"
 slug: avalanche
 board: "8×8"

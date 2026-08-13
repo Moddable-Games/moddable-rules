@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Shako
 slug: shako
 board: "10×10"

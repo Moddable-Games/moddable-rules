@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Centennial Chess
 slug: centennial-chess
 board: "10×10"

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Kriegspiel"
 slug: kriegspiel
 board: "8×8"

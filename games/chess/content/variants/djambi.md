@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Djambi
 slug: djambi
 board: 9×9

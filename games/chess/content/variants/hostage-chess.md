@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Hostage Chess"
 slug: hostage-chess
 board: "8×8"

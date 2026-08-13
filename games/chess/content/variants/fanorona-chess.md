@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Fanorona Chess
 slug: fanorona-chess
 board: "5×9 double Alquerque"

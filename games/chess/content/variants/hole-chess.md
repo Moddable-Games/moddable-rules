@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Hole Chess
 slug: hole-chess
 board: "44 squares (custom board with 2 holes)"

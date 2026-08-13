@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Congo
 slug: congo
 board: "7×7"

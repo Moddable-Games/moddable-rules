@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Mansindam (Pantheon Tale)"
 slug: mansindam
 board: "9×9"

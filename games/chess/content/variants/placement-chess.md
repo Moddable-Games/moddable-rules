@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Placement Chess
 slug: placement-chess
 board: "8×8"

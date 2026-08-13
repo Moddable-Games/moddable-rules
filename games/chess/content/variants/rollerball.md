@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Rollerball
 slug: rollerball
 board: "40-square ring (7×7 minus 3×3 centre)"

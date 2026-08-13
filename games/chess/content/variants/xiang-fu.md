@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Xiang Fu
 slug: xiang-fu
 board: "9×9"

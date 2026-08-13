@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Balbo's Chess"
 slug: balbos-chess
 board: "Diamond-shaped, 70 squares (ranks 3-5-7-9-11-11-9-7-5-3, centred on file f)"

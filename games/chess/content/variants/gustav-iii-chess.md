@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Gustav III's Chess"
 slug: gustav-iii-chess
 board: "8×8 + 4 corner extensions (68 squares)"

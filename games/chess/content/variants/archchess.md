@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Archchess
 slug: archchess
 board: "10×10"

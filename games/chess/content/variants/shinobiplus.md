@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Shinobi+"
 slug: shinobiplus
 board: "8×8"

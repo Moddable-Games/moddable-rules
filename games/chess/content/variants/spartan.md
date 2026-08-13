@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Spartan Chess
 slug: spartan
 board: "8×8"

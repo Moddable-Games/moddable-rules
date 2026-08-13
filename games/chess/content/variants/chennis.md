@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Chennis
 slug: chennis
 board: "7×7"

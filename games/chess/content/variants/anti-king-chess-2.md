@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Anti-King Chess II"
 slug: anti-king-chess-2
 board: "8×8"

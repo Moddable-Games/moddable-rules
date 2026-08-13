@@ -1,4 +1,5 @@
 ---
+playable: true
 title: S-Chess (Seirawan Chess)
 slug: s-chess
 board: "8×8"

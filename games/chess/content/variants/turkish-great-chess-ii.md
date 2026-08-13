@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Turkish Great Chess II (Atranj)"
 slug: turkish-great-chess-ii
 board: "10×10"

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Senterej"
 slug: senterej
 board: "8×8"

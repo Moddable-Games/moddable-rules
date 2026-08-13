@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard Grasshopper Chess
 slug: grasshopper
 board: "8x8"

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Citadel Chess
 slug: citadel-chess
 board: "10×10 + 4 citadel squares"

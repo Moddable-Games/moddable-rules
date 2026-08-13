@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Synochess
 slug: synochess
 board: "8×8"

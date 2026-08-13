@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Shogun Chess
 slug: shogun
 board: "8×8"

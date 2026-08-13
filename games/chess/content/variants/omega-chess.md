@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Omega Chess"
 slug: omega-chess
 board: "10×10 + 4 corner squares"

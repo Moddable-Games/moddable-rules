@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Pocket Knight Chess"
 slug: pocket-knight
 board: "8×8"
