@@ -30,37 +30,6 @@ engine:
     1: [[1,2],[1,-2],[2,1],[2,-1]]
   pawnCaptureDirections:
     1: [[1,0]]
-  pieces:
-    kheshig:
-      type: compose
-      parts: ["knight", {"type":"rider","dirs":"all","maxSteps":1}]
-    khatun:
-      divergent:
-        move:
-          type: leaper
-          offsets: knight
-        capture:
-          type: rider
-          dirs: all
-          maxSteps: 1
-    archer:
-      divergent:
-        move:
-          type: leaper
-          offsets: knight
-        capture:
-          type: rider
-          dirs: diagonal
-    lancer:
-      divergent:
-        move:
-          type: leaper
-          offsets: knight
-        capture:
-          type: rider
-          dirs: orthogonal
-    scout:
-      movement: pawn
   vocabulary:
     kheshig:
       symbols:
@@ -82,6 +51,39 @@ engine:
       symbols:
         0: S
         1: s
+  plugins:
+    chess:
+      pieces:
+        kheshig:
+          type: compose
+          parts: ["knight", {"type":"rider","dirs":"all","maxSteps":1}]
+        khatun:
+          divergent:
+            move:
+              type: leaper
+              offsets: knight
+            capture:
+              type: rider
+              dirs: all
+              maxSteps: 1
+        archer:
+          divergent:
+            move:
+              type: leaper
+              offsets: knight
+            capture:
+              type: rider
+              dirs: diagonal
+        lancer:
+          divergent:
+            move:
+              type: leaper
+              offsets: knight
+            capture:
+              type: rider
+              dirs: orthogonal
+        scout:
+          movement: pawn
 status: draft
 updated: 2026-07-07
 category: asymmetric-armies

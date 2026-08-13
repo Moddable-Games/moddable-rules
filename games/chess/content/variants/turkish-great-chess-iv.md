@@ -20,26 +20,6 @@ engine:
   enPassant: false
   doubleStep: false
   promotionChoices: [wazir]
-  pieces:
-    wazir:
-      type: compose
-      parts: [rook, bishop]
-    fil:
-      type: rider
-      dirs: diagonal
-    dahja:
-      type: rider
-      dirs: diagonal
-    ratha:
-      type: rider
-      dirs: orthogonal
-    shahzadeh:
-      type: compose
-      parts: [rook, bishop]
-    rani:
-      type: rider
-      dirs: all
-      maxSteps: 1
   vocabulary:
     wazir:
       symbols:
@@ -65,6 +45,28 @@ engine:
       symbols:
         0: I
         1: i
+  plugins:
+    chess:
+      pieces:
+        wazir:
+          type: compose
+          parts: [rook, bishop]
+        fil:
+          type: rider
+          dirs: diagonal
+        dahja:
+          type: rider
+          dirs: diagonal
+        ratha:
+          type: rider
+          dirs: orthogonal
+        shahzadeh:
+          type: compose
+          parts: [rook, bishop]
+        rani:
+          type: rider
+          dirs: all
+          maxSteps: 1
 ---
 
 ## Turkish Great Chess IV

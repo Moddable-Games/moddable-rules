@@ -15,15 +15,17 @@ engine:
   players: [white, black]
   setup: "rnbmkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBMKBNR"
   promotionChoices: [amazon, rook, bishop, knight]
-  pieces:
-    amazon:
-      type: compose
-      parts: [queen, knight]
   vocabulary:
     amazon:
       symbols:
         0: M
         1: m
+  plugins:
+    chess:
+      pieces:
+        amazon:
+          type: compose
+          parts: [queen, knight]
 ---
 
 ## Amazon Chess

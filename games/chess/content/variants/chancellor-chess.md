@@ -17,15 +17,17 @@ engine:
     cellSize: 36
   setup: "rnbqkcbnr/ppppppppp/9/9/9/9/9/PPPPPPPPP/RNBQKCBNR"
   promotionChoices: [queen, rook, bishop, knight, chancellor]
-  pieces:
-    chancellor:
-      type: compose
-      parts: [rook, knight]
   vocabulary:
     chancellor:
       symbols:
         0: C
         1: c
+  plugins:
+    chess:
+      pieces:
+        chancellor:
+          type: compose
+          parts: [rook, knight]
 ---
 
 ## Chancellor Chess

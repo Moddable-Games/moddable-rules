@@ -15,28 +15,6 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-  pieces:
-    archbishop:
-      type: compose
-      parts:
-        - type: rider
-          dirs: diagonal
-        - type: leaper
-          offsets: knight
-    chancellor:
-      type: compose
-      parts:
-        - type: rider
-          dirs: orthogonal
-        - type: leaper
-          offsets: knight
-    amazon:
-      type: compose
-      parts:
-        - type: rider
-          dirs: all
-        - type: leaper
-          offsets: knight
   vocabulary:
     archbishop:
       symbols: {0: A, 1: a}
@@ -44,6 +22,30 @@ engine:
       symbols: {0: C, 1: c}
     amazon:
       symbols: {0: Z, 1: z}
+  plugins:
+    chess:
+      pieces:
+        archbishop:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+            - type: leaper
+              offsets: knight
+        chancellor:
+          type: compose
+          parts:
+            - type: rider
+              dirs: orthogonal
+            - type: leaper
+              offsets: knight
+        amazon:
+          type: compose
+          parts:
+            - type: rider
+              dirs: all
+            - type: leaper
+              offsets: knight
 ---
 
 ## Absorption Chess

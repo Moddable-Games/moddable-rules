@@ -22,13 +22,6 @@ engine:
   promotionRow:
     0: 2
     1: 5
-  pieces:
-    ferz:
-      type: leaper
-      offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
-    khon:
-      type: leaper
-      offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
   vocabulary:
     ferz:
       symbols:
@@ -38,6 +31,15 @@ engine:
       symbols:
         0: G
         1: g
+  plugins:
+    chess:
+      pieces:
+        ferz:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+        khon:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
 ---
 
 ## ASEAN Chess

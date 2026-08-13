@@ -21,13 +21,6 @@ engine:
   pawnStartRow:
     0: 7
     1: 2
-  pieces:
-    marshal:
-      type: compose
-      parts: [rook, knight]
-    cardinal:
-      type: compose
-      parts: [bishop, knight]
   vocabulary:
     marshal:
       symbols:
@@ -37,6 +30,15 @@ engine:
       symbols:
         0: C
         1: c
+  plugins:
+    chess:
+      pieces:
+        marshal:
+          type: compose
+          parts: [rook, knight]
+        cardinal:
+          type: compose
+          parts: [bishop, knight]
 ---
 
 ## Grand Chess

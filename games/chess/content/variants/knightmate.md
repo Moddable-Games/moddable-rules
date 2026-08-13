@@ -15,15 +15,17 @@ engine:
   players: [white, black]
   setup: "rkbqnbkr/pppppppp/8/8/8/8/PPPPPPPP/RKBQNBKR"
   royalType: knight
-  pieces:
-    king:
-      type: leaper
-      offsets: knight
-    knight:
-      type: rider
-      dirs: all
-      maxSteps: 1
-      royal: true
+  plugins:
+    chess:
+      pieces:
+        king:
+          type: leaper
+          offsets: knight
+        knight:
+          type: rider
+          dirs: all
+          maxSteps: 1
+          royal: true
 ---
 
 ## Knightmate

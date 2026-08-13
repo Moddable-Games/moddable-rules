@@ -17,15 +17,17 @@ engine:
     cellSize: 36
   setup: "rjnbkqbnjr/pppppppppp/10/10/10/10/PPPPPPPPPP/RJNBKQBNJR"
   promotionChoices: [queen, rook, bishop, knight, janus]
-  pieces:
-    janus:
-      type: compose
-      parts: [bishop, knight]
   vocabulary:
     janus:
       symbols:
         0: J
         1: j
+  plugins:
+    chess:
+      pieces:
+        janus:
+          type: compose
+          parts: [bishop, knight]
 ---
 
 # Janus Chess

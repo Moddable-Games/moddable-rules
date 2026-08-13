@@ -19,15 +19,17 @@ engine:
   castling: false
   enPassant: false
   stalemateMeaning: loss
-  pieces:
-    dabbaba:
-      type: leaper
-      offsets: dabbaba
   vocabulary:
     dabbaba:
       symbols:
         0: D
         1: d
+  plugins:
+    chess:
+      pieces:
+        dabbaba:
+          type: leaper
+          offsets: dabbaba
 ---
 
 ## Shatranj Kamil

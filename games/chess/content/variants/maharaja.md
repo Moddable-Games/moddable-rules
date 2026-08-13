@@ -15,15 +15,17 @@ engine:
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/8/4M3"
   castling: false
-  pieces:
-    amazon:
-      type: compose
-      parts: [queen, knight]
   vocabulary:
     amazon:
       symbols:
         0: M
         1: m
+  plugins:
+    chess:
+      pieces:
+        amazon:
+          type: compose
+          parts: [queen, knight]
 ---
 
 ## Maharaja & Sepoys

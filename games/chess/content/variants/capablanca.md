@@ -17,13 +17,6 @@ engine:
     cellSize: 36
   setup: "rnabqkbcnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNABQKBCNR"
   promotionChoices: [queen, rook, bishop, knight, archbishop, chancellor]
-  pieces:
-    archbishop:
-      type: compose
-      parts: [bishop, knight]
-    chancellor:
-      type: compose
-      parts: [rook, knight]
   vocabulary:
     archbishop:
       symbols:
@@ -33,6 +26,15 @@ engine:
       symbols:
         0: C
         1: c
+  plugins:
+    chess:
+      pieces:
+        archbishop:
+          type: compose
+          parts: [bishop, knight]
+        chancellor:
+          type: compose
+          parts: [rook, knight]
 ---
 
 ## Capablanca Chess

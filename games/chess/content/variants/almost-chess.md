@@ -14,15 +14,17 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBCKBNR"
-  pieces:
-    chancellor:
-      type: compose
-      parts: [rook, knight]
   vocabulary:
     chancellor:
       symbols:
         0: C
         1: c
+  plugins:
+    chess:
+      pieces:
+        chancellor:
+          type: compose
+          parts: [rook, knight]
 ---
 
 ## Almost Chess

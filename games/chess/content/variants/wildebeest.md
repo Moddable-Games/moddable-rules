@@ -18,13 +18,6 @@ engine:
     cellSize: 30
   setup: "rncwqkwcnr1/ppppppppppp/11/11/11/11/11/11/PPPPPPPPPPP/RNCWQKWCNR1"
   promotionChoices: [queen, rook, knight, camel, wildebeest]
-  pieces:
-    camel:
-      type: leaper
-      offsets: camel
-    wildebeest:
-      type: compose
-      parts: [knight, {type: leaper, offsets: camel}]
   vocabulary:
     camel:
       symbols:
@@ -34,6 +27,15 @@ engine:
       symbols:
         0: W
         1: w
+  plugins:
+    chess:
+      pieces:
+        camel:
+          type: leaper
+          offsets: camel
+        wildebeest:
+          type: compose
+          parts: [knight, {type: leaper, offsets: camel}]
 ---
 
 ## Standard Wildebeest Chess

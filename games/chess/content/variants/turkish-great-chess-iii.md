@@ -20,19 +20,6 @@ engine:
   enPassant: false
   doubleStep: false
   promotionChoices: [wazir]
-  pieces:
-    wazir:
-      type: compose
-      parts: [rook, bishop]
-    fil:
-      type: rider
-      dirs: diagonal
-    dahja:
-      type: rider
-      dirs: diagonal
-    ratha:
-      type: rider
-      dirs: orthogonal
   vocabulary:
     wazir:
       symbols:
@@ -50,6 +37,21 @@ engine:
       symbols:
         0: C
         1: c
+  plugins:
+    chess:
+      pieces:
+        wazir:
+          type: compose
+          parts: [rook, bishop]
+        fil:
+          type: rider
+          dirs: diagonal
+        dahja:
+          type: rider
+          dirs: diagonal
+        ratha:
+          type: rider
+          dirs: orthogonal
 ---
 
 ## Turkish Great Chess III

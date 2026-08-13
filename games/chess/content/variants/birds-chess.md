@@ -17,13 +17,6 @@ engine:
     cellSize: 36
   setup: "rnbgqkebnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBGQKEBNR"
   promotionChoices: [queen, rook, bishop, knight, guard, equerry]
-  pieces:
-    guard:
-      type: compose
-      parts: [rook, knight]
-    equerry:
-      type: compose
-      parts: [bishop, knight]
   vocabulary:
     guard:
       symbols:
@@ -33,6 +26,15 @@ engine:
       symbols:
         0: E
         1: e
+  plugins:
+    chess:
+      pieces:
+        guard:
+          type: compose
+          parts: [rook, knight]
+        equerry:
+          type: compose
+          parts: [bishop, knight]
 ---
 
 # Bird's Chess

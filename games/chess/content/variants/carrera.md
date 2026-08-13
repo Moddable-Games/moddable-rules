@@ -19,13 +19,6 @@ engine:
   castling: false
   enPassant: false
   promotionChoices: [queen, rook, bishop, knight, centaur, champion]
-  pieces:
-    centaur:
-      type: compose
-      parts: [bishop, knight]
-    champion:
-      type: compose
-      parts: [rook, knight]
   vocabulary:
     centaur:
       symbols:
@@ -35,6 +28,15 @@ engine:
       symbols:
         0: C
         1: c
+  plugins:
+    chess:
+      pieces:
+        centaur:
+          type: compose
+          parts: [bishop, knight]
+        champion:
+          type: compose
+          parts: [rook, knight]
 ---
 
 # Carrera's Chess

@@ -15,34 +15,6 @@ engine:
   players: [white, black]
   setup: "lhaykahl/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR"
   castling: false
-  pieces:
-    yurt:
-      divergent:
-        move:
-          type: leaper
-          offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
-        capture:
-          type: leaper
-          offsets: [[-1,0],[1,0],[0,-1],[0,1]]
-    lancer:
-      divergent: 
-        move:
-          type: leaper
-          offsets: knight
-        capture:
-          type: rider
-          dirs: orthogonal
-    archer:
-      divergent: 
-        move:
-          type: leaper
-          offsets: knight
-        capture:
-          type: rider
-          dirs: diagonal
-    kheshig:
-      type: compose
-      parts: ["knight", {"type":"rider","dirs":"all","maxSteps":1}]
   vocabulary:
     yurt:
       symbols:
@@ -60,6 +32,36 @@ engine:
       symbols:
         0: W
         1: w
+  plugins:
+    chess:
+      pieces:
+        yurt:
+          divergent:
+            move:
+              type: leaper
+              offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+            capture:
+              type: leaper
+              offsets: [[-1,0],[1,0],[0,-1],[0,1]]
+        lancer:
+          divergent: 
+            move:
+              type: leaper
+              offsets: knight
+            capture:
+              type: rider
+              dirs: orthogonal
+        archer:
+          divergent: 
+            move:
+              type: leaper
+              offsets: knight
+            capture:
+              type: rider
+              dirs: diagonal
+        kheshig:
+          type: compose
+          parts: ["knight", {"type":"rider","dirs":"all","maxSteps":1}]
 ---
 
 ## Orda Chess

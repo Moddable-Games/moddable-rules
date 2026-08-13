@@ -12,15 +12,17 @@ engine:
     type: grid
     rows: 8
     cols: 8
-  pieces:
-    grasshopper:
-      movement: hopper
-      base_lines: queen
-      hurdle_count: 1
-      land: immediately_beyond_hurdle
-      notation: G
   setup: "rnbgkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBGKBNR"
   notes: "G/g = Grasshopper. Queens replaced 1-for-1."
+  plugins:
+    chess:
+      pieces:
+        grasshopper:
+          movement: hopper
+          base_lines: queen
+          hurdle_count: 1
+          land: immediately_beyond_hurdle
+          notation: G
 published: true
 ---
 

@@ -19,44 +19,6 @@ engine:
   castling:
     0: true
     1: false
-  pieces:
-    emperor:
-      type: rider
-      dirs: all
-      maxSteps: 1
-    tower:
-      divergent:
-        move:
-          type: rider
-          dirs: all
-        capture:
-          type: rider
-          dirs: orthogonal
-    duke:
-      divergent:
-        move:
-          type: rider
-          dirs: all
-        capture:
-          type: rider
-          dirs: diagonal
-    cardinal:
-      divergent:
-        move:
-          type: rider
-          dirs: all
-        capture:
-          type: leaper
-          offsets: knight
-    siegeTower:
-      divergent:
-        move:
-          type: rider
-          dirs: all
-        capture:
-          type: rider
-          dirs: orthogonal
-          maxSteps: 1
   vocabulary:
     emperor:
       symbols:
@@ -78,6 +40,46 @@ engine:
       symbols:
         0: S
         1: s
+  plugins:
+    chess:
+      pieces:
+        emperor:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        tower:
+          divergent:
+            move:
+              type: rider
+              dirs: all
+            capture:
+              type: rider
+              dirs: orthogonal
+        duke:
+          divergent:
+            move:
+              type: rider
+              dirs: all
+            capture:
+              type: rider
+              dirs: diagonal
+        cardinal:
+          divergent:
+            move:
+              type: rider
+              dirs: all
+            capture:
+              type: leaper
+              offsets: knight
+        siegeTower:
+          divergent:
+            move:
+              type: rider
+              dirs: all
+            capture:
+              type: rider
+              dirs: orthogonal
+              maxSteps: 1
 ---
 
 ## Empire Chess

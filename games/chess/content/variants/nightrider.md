@@ -13,11 +13,13 @@ engine:
     type: grid
     rows: 8
     cols: 8
-  pieces:
-    knight:
-      type: rider
-      dirs: [[-2,-1],[-2,1],[-1,-2],[-1,2],[1,-2],[1,2],[2,-1],[2,1]]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  plugins:
+    chess:
+      pieces:
+        knight:
+          type: rider
+          dirs: [[-2,-1],[-2,1],[-1,-2],[-1,2],[1,-2],[1,2],[2,-1],[2,1]]
 published: true
 ---
 

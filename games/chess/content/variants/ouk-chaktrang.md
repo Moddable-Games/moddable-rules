@@ -26,14 +26,6 @@ engine:
   promotionRow:
     0: 2
     1: 5
-  pieces:
-    neang:
-      type: leaper
-      offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[-1,0]]
-      directional: true
-    koul:
-      type: leaper
-      offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[-2,-2],[-2,2],[2,-2],[2,2]]
   vocabulary:
     neang:
       symbols:
@@ -43,6 +35,16 @@ engine:
       symbols:
         0: F
         1: f
+  plugins:
+    chess:
+      pieces:
+        neang:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[-1,0]]
+          directional: true
+        koul:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[-2,-2],[-2,2],[2,-2],[2,2]]
 ---
 
 ## Ouk Chaktrang (Cambodian Chess)

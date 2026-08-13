@@ -19,13 +19,15 @@ engine:
   enPassant: false
   doubleStep: false
   stalemateMeaning: win
-  pieces:
-    queen:
-      type: leaper
-      offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
-    bishop:
-      type: leaper
-      offsets: [[-2,-2],[-2,2],[2,-2],[2,2]]
+  plugins:
+    chess:
+      pieces:
+        queen:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+        bishop:
+          type: leaper
+          offsets: [[-2,-2],[-2,2],[2,-2],[2,2]]
 ---
 
 # Byzantine Chess
