@@ -223,12 +223,16 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-08-13
-- Chigorin and Legan Chess corrected (both were describing different games; now playable: false pending engine#111)
+- Chigorin and Legan Chess corrected and restored to playable (engine#111 closed)
 - Seven files misattributed to non-existent "Corey Clark" corrected to Couch Tomato
 - Removed citations to shogunofgames.com (does not resolve)
 - Shafran and Legan attributions corrected
 - Nukes, Econopoly, and Dungeon Chess variants marked original: true
 - Attribution CI check brought to green: hub inheritance, bare-domain matching, credit consistency
+- Chess pieces namespace migrated to engine.plugins.chess.pieces (engine#89)
+- 35 chess variants verified playable and marked (engine#109 Tier 0, chess 100 to 135)
+- Romanchenkos-chess: fixed as 10x8 grid with topology voids (was flat 8x8 with ignored broken_columns)
+- Dragon-chess: added piece definition and drop config (Archbishop gating now functional)
 
 #### 2026-08-12
 - Fixed PDF stats showing 0 in deployed stats.json (PDFs are gitignored; added committed pdf-manifest.json with 665 files, 9,739 pages, by-type breakdown)
