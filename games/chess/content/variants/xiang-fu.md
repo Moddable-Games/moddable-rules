@@ -16,21 +16,6 @@ engine:
   players: [red, black]
   pieces:
     set: mce-xiangqi-fairy
-    vocabulary:
-      R: wR
-      r: bR
-      B: wB
-      b: bB
-      M: wE
-      m: bE
-      C: wC
-      c: bC
-      W: wV
-      w: bV
-      N: wN
-      n: bN
-      G: wK
-      g: bK
   render:
     cellSize: 38
     cellColor: xiangqi

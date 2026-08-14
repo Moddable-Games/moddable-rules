@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Congo
 slug: congo
 board: "7×7"
@@ -13,7 +13,7 @@ engine:
     rows: 7
     cols: 7
   players: [white, black]
-  setup: "gmelemz/ppppppp/7/7/7/PPPPPPP/GMELEMZ"
+  setup: "gmelecz/ppppppp/7/7/7/PPPPPPP/GMELECZ"
   vocabulary:
     giraffe:
       symbols:
@@ -31,6 +31,10 @@ engine:
       symbols:
         0: L
         1: l
+    crocodile:
+      symbols:
+        0: C
+        1: c
     zebra:
       symbols:
         0: Z
@@ -58,6 +62,10 @@ engine:
                 - type: leaper
                   offsets: elephant
         monkey:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        crocodile:
           type: rider
           dirs: all
           maxSteps: 1

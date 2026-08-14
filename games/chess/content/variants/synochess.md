@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Synochess
 slug: synochess
 board: "8×8"
@@ -13,7 +13,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rheachhr/2n2n2/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup: "rheacahr/2o2o2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   hand: true
@@ -36,6 +36,10 @@ engine:
       symbols:
         0: C
         1: c
+    cannon:
+      symbols:
+        0: O
+        1: o
   plugins:
     chess:
       pieces:
@@ -53,6 +57,15 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
+        cannon:
+          divergent:
+            move:
+              type: rider
+              dirs: orthogonal
+            capture:
+              type: hopper
+              dirs: orthogonal
+              captureSlide: true
 published: true
 ---
 

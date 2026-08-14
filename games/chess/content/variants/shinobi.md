@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Shinobi Chess
 slug: shinobi
 board: "8×8"
@@ -13,7 +13,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "cmujtmuc/2pppp2/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup: "cmujumc1/2pppp2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   hand: true
@@ -36,16 +36,13 @@ engine:
       symbols:
         0: J
         1: j
-    ninja:
-      symbols:
-        0: T
-        1: t
   plugins:
     chess:
       pieces:
         chunin:
           type: rider
-          dirs: orthogonal
+          dirs: [[1, 0]]
+          directional: true
         monk:
           type: leaper
           offsets: knight
@@ -56,7 +53,6 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
-        ninja:
           type: compose
           parts:
             - type: rider
