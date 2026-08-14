@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: "Metamachy"
 slug: metamachy
 board: "12×12"
@@ -15,7 +15,7 @@ engine:
   players: [white, black]
   render:
     cellSize: 26
-  setup: "rnbclqklcbnr/pppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPP/RNBCLQKLCBNR"
+  setup: "cm3qk3mc/ernbslasbnre/pppppppppppp/12/12/12/12/12/12/PPPPPPPPPPPP/ERNBSLASBNRE/CM3QK3MC"
   vocabulary:
     cannon:
       symbols:
@@ -25,6 +25,22 @@ engine:
       symbols:
         0: L
         1: l
+    camel:
+      symbols:
+        0: M
+        1: m
+    metamachyElephant:
+      symbols:
+        0: E
+        1: e
+    prince:
+      symbols:
+        0: S
+        1: s
+    eagle:
+      symbols:
+        0: A
+        1: a
   plugins:
     chess:
       pieces:
@@ -48,6 +64,25 @@ engine:
               offsets: dabbaba
             - type: leaper
               offsets: elephant
+        camel:
+          type: leaper
+          offsets: camel
+        metamachyElephant:
+          type: compose
+          parts:
+            - type: leaper
+              offsets: elephant
+            - type: rider
+              dirs: diagonal
+              maxSteps: 1
+        prince:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        eagle:
+          type: bent
+          first: diagonal
+          firstSteps: 1
 ---
 
 # Metamachy
