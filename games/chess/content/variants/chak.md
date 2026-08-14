@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Chak
 slug: chak
 board: "9×9"
@@ -15,7 +15,7 @@ engine:
   players: [white, black]
   render:
     cellSize: 38
-  setup: "sjvdaxdvs/9/1ppppppp1/9/9/9/1PPPPPPP1/9/SJVDAXDVS"
+  setup: "sjvdadvjs/9/1ppppppp1/9/9/9/1PPPPPPP1/9/SJVDADVJS"
   vocabulary:
     serpent:
       symbols:
@@ -37,10 +37,6 @@ engine:
       symbols:
         0: A
         1: a
-    offering:
-      symbols:
-        0: X
-        1: x
   plugins:
     chess:
       pieces:
@@ -63,10 +59,6 @@ engine:
           dirs: all
           maxSteps: 1
         ajaw:
-          type: rider
-          dirs: all
-          maxSteps: 1
-        offering:
           type: rider
           dirs: all
           maxSteps: 1
