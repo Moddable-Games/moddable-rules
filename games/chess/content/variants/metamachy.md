@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: "Metamachy"
 slug: metamachy
 board: "12×12"

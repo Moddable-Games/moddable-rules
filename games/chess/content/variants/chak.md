@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: Chak
 slug: chak
 board: "9×9"

@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: Shinobi Chess
 slug: shinobi
 board: "8×8"

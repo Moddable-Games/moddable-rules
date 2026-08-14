@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: Orda Chess
 slug: orda-chess
 board: "8×8"
