@@ -74,6 +74,7 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
+          # APPROXIMATE: lacks river-sliding movement (toward/within river as rook)
         elephant:
           type: compose
           parts:
@@ -86,6 +87,7 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
+          # APPROXIMATE: not confined to its 3x3 castle zone
         zebra:
           type: leaper
           offsets: knight

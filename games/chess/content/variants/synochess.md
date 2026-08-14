@@ -13,7 +13,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rheacahr/2o2o2/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup: "rheacehr/2o2o2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
   asymmetric: true
   hand: true
@@ -46,9 +46,11 @@ engine:
         horse:
           type: leaper
           offsets: knight
+          # APPROXIMATE: should be blockable (xiangqi lame knight), uses unblockable leap
         xiangqiElephant:
           type: leaper
           offsets: elephant
+          # APPROXIMATE: should be blockable (xiangqi lame elephant), uses unblockable leap
         advisor:
           type: rider
           dirs: diagonal
