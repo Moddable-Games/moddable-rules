@@ -62,9 +62,14 @@ engine:
                 - type: leaper
                   offsets: elephant
         monkey:
-          type: rider
-          dirs: all
-          maxSteps: 1
+          divergent:
+            move:
+              type: rider
+              dirs: all
+              maxSteps: 1
+            capture:
+              type: locust
+              dirs: king
         crocodile:
           type: rider
           dirs: all
