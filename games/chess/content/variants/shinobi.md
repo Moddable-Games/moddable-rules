@@ -41,7 +41,7 @@ engine:
       pieces:
         chunin:
           type: rider
-          dirs: [[1, 0]]
+          dirs: [[-1, 0]]
           directional: true
         monk:
           type: leaper
