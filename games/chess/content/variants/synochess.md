@@ -17,15 +17,6 @@ engine:
   notation: algebraic
   asymmetric: true
   hand: true
-  approximations:
-    - piece: horse
-      rules: "1 step orthogonal then 1 step diagonal outward; blocked if orthogonal square occupied"
-      engine: "unblockable knight leap"
-      blocker: "no blockable-leaper primitive"
-    - piece: xiangqiElephant
-      rules: "leaps 2 diagonal; blocked if intervening diagonal square occupied"
-      engine: "unblockable (2,2) leap"
-      blocker: "no blockable-leaper primitive"
   drops: true
   faceoff: true
   vocabulary:
@@ -55,9 +46,11 @@ engine:
         horse:
           type: leaper
           offsets: knight
+          lame: orthogonal
         xiangqiElephant:
           type: leaper
           offsets: elephant
+          lame: half
         advisor:
           type: rider
           dirs: diagonal
