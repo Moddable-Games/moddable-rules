@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Four Player Shogi
 slug: four-player-shogi
 board: "cross-shaped, 189 squares (9×9 centre + four 3×9 wings)"
@@ -16,7 +17,7 @@ engine:
   players: [red, yellow, green, blue]
   pieces:
     set: mce-4player-shogi
-  setup: "3,yR,yN,yS,yG,yK,yG,yS,yN,yR,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rR,1,rP,9,bP,1,bR/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rR,1,rP,9,bP,1,bR/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gR,gN,gS,gG,gK,gG,gS,gN,gR,3"
+  setup: "3,yL,yN,yS,yG,yK,yG,yS,yN,yL,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rL,1,rP,9,bP,1,bL/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rL,1,rP,9,bP,1,bL/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gL,gN,gS,gG,gK,gG,gS,gN,gL,3"
   render:
     cellSize: 22
     cellColor: checkered
