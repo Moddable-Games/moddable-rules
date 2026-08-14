@@ -7,6 +7,7 @@ parent: go
 order: 10
 win: Five in an unbroken row (exactly five for Black)
 special: Competitive Gomoku with forbidden moves for Black. Governed by the Renju International Federation.
+playable: true
 engine:
   topology:
     type: grid
@@ -15,6 +16,14 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      komi: 0
+      scoring: none
+      captures: false
+      allowPass: false
+      suicideAllowed: true
+      superko: false
 ---
 
 ## Renju
