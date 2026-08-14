@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Hasami Shogi
 slug: hasami-shogi
 board: "9×9"
@@ -13,6 +14,17 @@ engine:
     cols: 9
   players: [sente, gote]
   setup: "ppppppppp/9/9/9/9/9/9/9/PPPPPPPPP"
+  vocabulary:
+    soldier: { symbols: { 0: P, 1: p } }
+  plugins:
+    shogi:
+      royalType: none
+      captureRule: custodian
+      winCondition: reduced-to-one
+      drops: false
+      promotionZone: 0
+      pieceMoves:
+        soldier: { type: rider, dirs: orthogonal }
 ---
 
 ## Hasami Shogi
