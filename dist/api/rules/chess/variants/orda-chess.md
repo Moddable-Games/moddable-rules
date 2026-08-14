@@ -11,7 +11,7 @@ An asymmetric variant where White plays standard chess and Black commands the Mo
 
 **White (standard):** Standard chess setup.
 
-**Black (Horde):** Pawns on rank 7. Back rank: Lancer, Archer, Kheshig, Khan, Yurt, Kheshig, Archer, Lancer.
+**Black (Horde):** Pawns on rank 7. Back rank: Lancer, Archer, Kheshig, Yurt, Khan, Kheshig, Archer, Lancer.
 
 **FEN:** `lhaykahl/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR w KQ - 0 1`
 
@@ -21,11 +21,11 @@ An asymmetric variant where White plays standard chess and Black commands the Mo
 
 **Lancer (l)** — Moves like a Knight (L-shaped jump). Captures like a Rook (slides orthogonally). Cannot jump to capture.
 
-**Archer (a)** — Moves like a Knight (L-shaped jump). Captures like a Bishop (slides diagonally). Cannot jump to capture.
+**Archer (h)** — Moves like a Knight (L-shaped jump). Captures like a Bishop (slides diagonally). Cannot jump to capture.
 
 **Khan (k)** — Moves and captures as a standard King.
 
-**Kheshig (h)** — Moves and captures as a Knight and King combined.
+**Kheshig (a)** — Moves and captures as a Knight and King combined.
 
 - White can castle. Black cannot (the Khan starts on e8).
 - Black's Lancers and Archers are divergent: they jump (like a Knight) for non-capturing moves but must slide to capture.

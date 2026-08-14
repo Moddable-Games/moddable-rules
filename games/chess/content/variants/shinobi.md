@@ -53,13 +53,6 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
-          type: compose
-          parts:
-            - type: rider
-              dirs: diagonal
-              maxSteps: 1
-            - type: leaper
-              offsets: knight
 published: true
 ---
 
