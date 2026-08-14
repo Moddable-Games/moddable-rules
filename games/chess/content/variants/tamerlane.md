@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: "Tamerlane Chess"
 slug: tamerlane
 board: "11×10 + 2 citadels"
@@ -61,6 +61,15 @@ engine:
         elephant: { type: leaper, offsets: elephant }
         camel: { type: leaper, offsets: camel }
         dabbaba: { type: leaper, offsets: dabbaba }
+        zurafa:
+          type: bent
+          first: diagonal
+          firstSteps: 1
+          minSecondLeg: 3
+        taliah:
+          type: rider
+          dirs: diagonal
+          minSteps: 2
 ---
 
 <div class="section">
