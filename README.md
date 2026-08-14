@@ -222,6 +222,12 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-14
+- Fixed shinobi.md build-breaking YAML error (duplicated type: key in jonin piece definition)
+- Jonin corrected to King-move only (was erroneously declared as compose with knight leap)
+- Board diagram sync: 334 exported from engine (17 stale variants refreshed)
+- All CI checks green: attribution, FEN, voids, stats, diagram freshness
+
 #### 2026-08-13
 - Chigorin and Legan Chess corrected and restored to playable (engine#111 closed)
 - Seven files misattributed to non-existent "Corey Clark" corrected to Couch Tomato
