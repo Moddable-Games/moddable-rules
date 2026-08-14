@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: "Tamerlane Chess"
 slug: tamerlane
 board: "11×10 + 2 citadels"

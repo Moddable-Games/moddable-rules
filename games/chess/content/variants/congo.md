@@ -14,6 +14,15 @@ engine:
     cols: 7
   players: [white, black]
   setup: "gmelecz/ppppppp/7/7/7/PPPPPPP/GMELECZ"
+  approximations:
+    - piece: crocodile
+      rules: "king move, plus rook movement toward and within the river rank"
+      engine: "plain king step"
+      blocker: "no river-relative or conditional movement"
+    - piece: lion
+      rules: "king move, confined to 3x3 castle; facing-lions long capture"
+      engine: "plain king step without zone confinement"
+      blocker: "no zone confinement primitive"
   vocabulary:
     giraffe:
       symbols:
@@ -74,7 +83,6 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
-          # APPROXIMATE: lacks river-sliding movement (toward/within river as rook)
         elephant:
           type: compose
           parts:
@@ -87,7 +95,6 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
-          # APPROXIMATE: not confined to its 3x3 castle zone
         zebra:
           type: leaper
           offsets: knight
