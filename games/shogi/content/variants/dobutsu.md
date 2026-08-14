@@ -7,6 +7,7 @@ parent: shogi
 order: 20
 win: Capture the enemy Lion, or move your Lion to the opponent's back rank without it being in immediate danger
 special: "Animal-themed introductory Shogi on a 3×4 board, designed for young children. Invented by professional Shogi player Madoka Kitao. All pieces show their moves printed on the piece face. A solved game."
+playable: true
 engine:
   topology:
     type: grid
@@ -16,6 +17,48 @@ engine:
   setup: "gle/1c1/1C1/ELG"
   render:
     cellSize: 50
+  vocabulary:
+    lion:
+      symbols:
+        0: L
+        1: l
+    giraffe:
+      symbols:
+        0: G
+        1: g
+    elephant:
+      symbols:
+        0: E
+        1: e
+    chick:
+      symbols:
+        0: C
+        1: c
+  plugins:
+    shogi:
+      promotionZone: 1
+      royalType: lion
+      pieceMoves:
+        lion:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        giraffe:
+          type: rider
+          dirs: orthogonal
+          maxSteps: 1
+        elephant:
+          type: rider
+          dirs: diagonal
+          maxSteps: 1
+        chick:
+          type: leaper
+          offsets: [[-1, 0]]
+          directional: true
+        promoted_chick:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,0]]
+          directional: true
 ---
 
 ## Dobutsu Shogi
