@@ -6,6 +6,7 @@ players: "2"
 parent: shogi
 win: "Checkmate"
 special: "Invented by Christian Freeling, 1981. ‘Yari’ means lance. All unpromoted pieces except Pawns include a forward-Lance movement. Extreme forward orientation. Includes drops; unlike standard Shogi, Pawns may drop to give checkmate."
+playable: true
 engine:
   topology:
     type: grid
@@ -15,6 +16,82 @@ engine:
   setup: "ynnkbby/7/ppppppp/7/7/7/PPPPPPP/7/YBBKNNY"
   render:
     cellSize: 36
+  vocabulary:
+    general:
+      symbols: { "0": K, "1": k }
+    forward_rook:
+      symbols: { "0": Y, "1": y }
+    yari_bishop:
+      symbols: { "0": B, "1": b }
+    yari_knight:
+      symbols: { "0": N, "1": n }
+    pawn:
+      symbols: { "0": P, "1": p }
+  plugins:
+    shogi:
+      royalType: general
+      dropCheckmateLimit: false
+      noDropLastRank: [pawn, yari_bishop, yari_knight]
+      pieceMoves:
+        general:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        forward_rook:
+          type: compose
+          directional: true
+          parts:
+            - type: rider
+              dirs: [[-1, 0]]
+            - type: rider
+              dirs: [[0, -1], [0, 1]]
+        yari_bishop:
+          type: compose
+          directional: true
+          parts:
+            - type: rider
+              dirs: [[-1, 0]]
+            - type: leaper
+              offsets: [[-1, -1], [-1, 1]]
+        yari_knight:
+          type: compose
+          directional: true
+          parts:
+            - type: rider
+              dirs: [[-1, 0]]
+            - type: leaper
+              offsets: [[-2, -1], [-2, 1]]
+        pawn:
+          type: leaper
+          offsets: [[-1, 0]]
+          directional: true
+        promoted_forward_rook:
+          type: rider
+          dirs: orthogonal
+        promoted_yari_bishop:
+          type: compose
+          directional: true
+          parts:
+            - type: leaper
+              offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1]]
+            - type: rider
+              dirs: [[1, 0]]
+        promoted_yari_knight:
+          type: compose
+          directional: true
+          parts:
+            - type: leaper
+              offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1]]
+            - type: rider
+              dirs: [[1, 0]]
+        promoted_pawn:
+          type: compose
+          directional: true
+          parts:
+            - type: leaper
+              offsets: [[-1,-1],[-1,0],[-1,1]]
+            - type: rider
+              dirs: [[1, 0]]
 ---
 
 # Yari Shogi

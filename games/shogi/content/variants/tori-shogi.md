@@ -7,6 +7,7 @@ parent: shogi
 order: 40
 win: Checkmate the Phoenix
 special: "Bird Shogi, invented 1799. 7×7 board, bird-themed pieces, drop rules. Only two pieces promote. Repetition caused by your own moves is a loss. One of the oldest Shogi variants with the drop rule."
+playable: true
 engine:
   topology:
     type: grid
@@ -16,6 +17,88 @@ engine:
   setup: "rpckcpl/3f3/sssssss/2s1S2/SSSSSSS/3F3/LPCKCPR"
   render:
     cellSize: 40
+  vocabulary:
+    phoenix:
+      symbols: { "0": K, "1": k }
+    crane:
+      symbols: { "0": C, "1": c }
+    pheasant:
+      symbols: { "0": P, "1": p }
+    left_quail:
+      symbols: { "0": L, "1": l }
+    right_quail:
+      symbols: { "0": R, "1": r }
+    falcon:
+      symbols: { "0": F, "1": f }
+    swallow:
+      symbols: { "0": S, "1": s }
+  plugins:
+    shogi:
+      promotionZone: 2
+      royalType: phoenix
+      dropCheckmateLimit: true
+      noDropLastRank: [swallow]
+      nifuType: swallow
+      nifuLimit: 2
+      pieceMoves:
+        phoenix:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        crane:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[1,-1],[1,0],[1,1]]
+        pheasant:
+          type: compose
+          directional: true
+          parts:
+            - type: leaper
+              offsets: [[1,-1],[1,1]]
+            - type: leaper
+              offsets: [[-2, 0]]
+        left_quail:
+          type: compose
+          directional: true
+          parts:
+            - type: rider
+              dirs: [[-1, 0]]
+            - type: rider
+              dirs: [[1, 1]]
+            - type: leaper
+              offsets: [[1, -1]]
+        right_quail:
+          type: compose
+          directional: true
+          parts:
+            - type: rider
+              dirs: [[-1, 0]]
+            - type: rider
+              dirs: [[1, -1]]
+            - type: leaper
+              offsets: [[1, 1]]
+        falcon:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,-1],[1,1]]
+          directional: true
+        swallow:
+          type: leaper
+          offsets: [[-1, 0]]
+          directional: true
+        promoted_falcon:
+          type: compose
+          directional: true
+          parts:
+            - type: rider
+              dirs: [[-1,-1],[-1,1],[1,0]]
+            - type: rider
+              dirs: [[1,-1],[1,1]]
+              maxSteps: 2
+            - type: leaper
+              offsets: [[-1,0],[0,-1],[0,1],[1,-1],[1,1]]
+        promoted_swallow:
+          type: leaper
+          offsets: [[-2,-1],[-2,1],[2,0]]
+          directional: true
 ---
 
 ## Tori Shogi

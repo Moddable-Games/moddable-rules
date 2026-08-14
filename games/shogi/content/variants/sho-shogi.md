@@ -7,6 +7,7 @@ parent: shogi
 order: 10
 win: Checkmate, or capture both royal pieces if Crown Prince promoted
 special: "16th-century predecessor to modern Shogi. Adds the Drunken Elephant, which promotes to the Crown Prince — a second royal piece. No drop rule."
+playable: true
 engine:
   topology:
     type: grid
@@ -14,6 +15,37 @@ engine:
     cols: 9
   players: [sente, gote]
   setup: "lnsgkgsnl/1r2e2b1/ppppppppp/9/9/9/PPPPPPPPP/1B2E2R1/LNSGKGSNL"
+  vocabulary:
+    king:
+      symbols: { "0": K, "1": k }
+    rook:
+      symbols: { "0": R, "1": r }
+    bishop:
+      symbols: { "0": B, "1": b }
+    gold:
+      symbols: { "0": G, "1": g }
+    silver:
+      symbols: { "0": S, "1": s }
+    knight:
+      symbols: { "0": N, "1": n }
+    lance:
+      symbols: { "0": L, "1": l }
+    pawn:
+      symbols: { "0": P, "1": p }
+    elephant:
+      symbols: { "0": E, "1": e }
+  plugins:
+    shogi:
+      drops: false
+      pieceMoves:
+        elephant:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,-1],[1,1]]
+          directional: true
+        promoted_elephant:
+          type: rider
+          dirs: all
+          maxSteps: 1
 ---
 
 ## Sho Shogi

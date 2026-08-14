@@ -7,6 +7,7 @@ parent: shogi
 order: 50
 win: Checkmate
 special: "Shogi plus four Cannon types drawn from Xiangqi and Janggi, each with unique movement and capture rules. Pawns replaced with Janggi-style Soldiers. Invented by Peter Michaelsen, 1998."
+playable: true
 engine:
   topology:
     type: grid
@@ -14,6 +15,107 @@ engine:
     cols: 9
   players: [sente, gote]
   setup: "lnsgkgsnl/1rci1uab1/p1p1p1p1p/9/9/9/P1P1P1P1P/1BAU1ICR1/LNSGKGSNL"
+  vocabulary:
+    king:
+      symbols: { "0": K, "1": k }
+    rook:
+      symbols: { "0": R, "1": r }
+    bishop:
+      symbols: { "0": B, "1": b }
+    gold:
+      symbols: { "0": G, "1": g }
+    silver:
+      symbols: { "0": S, "1": s }
+    knight:
+      symbols: { "0": N, "1": n }
+    lance:
+      symbols: { "0": L, "1": l }
+    soldier:
+      symbols: { "0": P, "1": p }
+    gold_cannon:
+      symbols: { "0": U, "1": u }
+    silver_cannon:
+      symbols: { "0": A, "1": a }
+    copper_cannon:
+      symbols: { "0": C, "1": c }
+    iron_cannon:
+      symbols: { "0": I, "1": i }
+  plugins:
+    shogi:
+      nifuType: soldier
+      noDropLastRank: [soldier]
+      noDropSecondRank: [knight]
+      pieceMoves:
+        soldier:
+          type: leaper
+          offsets: [[-1,0],[0,-1],[0,1]]
+          directional: true
+        gold_cannon:
+          divergent:
+            move:
+              type: rider
+              dirs: orthogonal
+            capture:
+              type: hopper
+              dirs: orthogonal
+              captureSlide: true
+        silver_cannon:
+          type: hopper
+          dirs: orthogonal
+          moveSlide: true
+        copper_cannon:
+          divergent:
+            move:
+              type: rider
+              dirs: diagonal
+            capture:
+              type: hopper
+              dirs: diagonal
+              captureSlide: true
+        iron_cannon:
+          type: hopper
+          dirs: diagonal
+          moveSlide: true
+        promoted_soldier:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,0]]
+          directional: true
+        promoted_gold_cannon:
+          type: compose
+          parts:
+            - type: hopper
+              dirs: orthogonal
+              moveSlide: true
+            - type: hopper
+              dirs: diagonal
+              captureSlide: true
+        promoted_silver_cannon:
+          type: compose
+          parts:
+            - type: hopper
+              dirs: orthogonal
+              moveSlide: true
+            - type: hopper
+              dirs: diagonal
+              captureSlide: true
+        promoted_copper_cannon:
+          type: compose
+          parts:
+            - type: hopper
+              dirs: diagonal
+              moveSlide: true
+            - type: hopper
+              dirs: orthogonal
+              captureSlide: true
+        promoted_iron_cannon:
+          type: compose
+          parts:
+            - type: hopper
+              dirs: diagonal
+              moveSlide: true
+            - type: hopper
+              dirs: orthogonal
+              captureSlide: true
 ---
 
 ## Cannon Shogi

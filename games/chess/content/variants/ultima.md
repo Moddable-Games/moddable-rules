@@ -13,7 +13,23 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "cilwklhc/pppppppp/8/8/8/8/PPPPPPPP/CIHLKLIC"
+  setup: "chlwklic/pppppppp/8/8/8/8/PPPPPPPP/CILWKLHC"
+  vocabulary:
+    coordinator: { symbols: { 0: C, 1: c } }
+    immobilizer: { symbols: { 0: I, 1: i } }
+    longLeaper:  { symbols: { 0: L, 1: l } }
+    withdrawer:  { symbols: { 0: W, 1: w } }
+    chameleon:   { symbols: { 0: H, 1: h } }
+  plugins:
+    chess:
+      royalType: king
+      pieces:
+        coordinator: { type: rider, dirs: all }
+        immobilizer: { type: rider, dirs: all }
+        longLeaper:  { type: rider, dirs: all }
+        withdrawer:  { type: rider, dirs: all }
+        chameleon:   { type: rider, dirs: all }
+        pawn:        { type: rider, dirs: all }
   notation: algebraic
 published: true
 ---
