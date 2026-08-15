@@ -222,6 +222,10 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-15
+- Four-player shogi: added per-player advancement vectors and playerCount to engine frontmatter
+- Board diagram sync: 6 shogi variants refreshed (dai-shogi, maka-dai-dai-shogi, tai-shogi, taikyoku-shogi, tenjiku-shogi, wa-shogi)
+
 #### 2026-08-14
 - Fixed shinobi.md build-breaking YAML error (duplicated type: key in jonin piece definition)
 - Jonin corrected to King-move only (was erroneously declared as compose with knight leap)
