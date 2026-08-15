@@ -40,8 +40,17 @@ engine:
     colors:
       cell-light: "#f0d9b5"
       cell-dark: "#b58863"
+  plugins:
+    shogi:
+      playerCount: 4
+      drops: true
+      advancement:
+        0: [0, 1]
+        1: [1, 0]
+        2: [-1, 0]
+        3: [0, -1]
+      promotionZone: 3
   notation: shogi
-  drops: true
 published: true
 ---
 
