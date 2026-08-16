@@ -1,0 +1,144 @@
+{
+  "slug": "courier",
+  "parent": "chess",
+  "title": "Courier Chess",
+  "players": "2",
+  "board": "12×8",
+  "win": "Checkmate",
+  "special": "Medieval German variant from 1202. Courier (modern bishop), Mann, Schleich (orthogonal-only), and Alfil on a 12-wide board.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 12
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 32
+    },
+    "setup": "rnebmkfsbenr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNEBMKFSBENR",
+    "castling": false,
+    "enPassant": false,
+    "doubleStep": false,
+    "promotionChoices": [
+      "ferz"
+    ],
+    "vocabulary": {
+      "ferz": {
+        "symbols": {
+          "0": "F",
+          "1": "f"
+        }
+      },
+      "alfil": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      },
+      "mann": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      },
+      "schleich": {
+        "symbols": {
+          "0": "S",
+          "1": "s"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "ferz": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "alfil": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -2,
+                -2
+              ],
+              [
+                -2,
+                2
+              ],
+              [
+                2,
+                -2
+              ],
+              [
+                2,
+                2
+              ]
+            ]
+          },
+          "mann": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1
+          },
+          "schleich": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/courier-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/courier.md",
+    "meta": "/api/rules/chess/variants/courier.json",
+    "page": "/chess/variants/courier/"
+  }
+}

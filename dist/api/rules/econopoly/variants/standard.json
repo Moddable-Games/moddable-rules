@@ -1,0 +1,42 @@
+{
+  "slug": "standard",
+  "parent": "econopoly",
+  "title": "Econopoly (Standard)",
+  "players": "2-6",
+  "board": "perimeter track",
+  "win": null,
+  "special": null,
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 40
+    },
+    "render": {
+      "trackStyle": "perimeter"
+    },
+    "content": {
+      "source": "econopoly-boards.json",
+      "board": "1932-prosperity"
+    },
+    "players": [
+      "red",
+      "blue",
+      "green",
+      "yellow"
+    ]
+  },
+  "diagram": {
+    "svg": "games/econopoly/diagrams/svg/standard-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/econopoly/variants/standard.md",
+    "meta": "/api/rules/econopoly/variants/standard.json",
+    "page": "/econopoly/variants/standard/"
+  }
+}

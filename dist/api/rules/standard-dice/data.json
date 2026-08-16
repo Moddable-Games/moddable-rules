@@ -1,0 +1,138 @@
+{
+  "slug": "standard-dice",
+  "title": "Standard Dice",
+  "type": "component",
+  "hub_type": "component",
+  "players": "1–8",
+  "status": "live",
+  "mechanics": [
+    "dice-rolling",
+    "press-your-luck",
+    "betting",
+    "bluffing",
+    "scoring"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "surface": "felt-green",
+    "components": {
+      "dice": {
+        "count": 5,
+        "sides": 6,
+        "type": "standard"
+      },
+      "layout": {
+        "type": "pool"
+      }
+    },
+    "players": [
+      "player-1",
+      "player-2",
+      "player-3",
+      "player-4"
+    ]
+  },
+  "variants": [],
+  "games": [
+    {
+      "slug": "bunco",
+      "title": "Bunco",
+      "players": "12 (or multiples of 4)"
+    },
+    {
+      "slug": "craps",
+      "title": "Craps",
+      "players": "1 or more"
+    },
+    {
+      "slug": "farkle",
+      "title": "Farkle",
+      "players": "2–6"
+    },
+    {
+      "slug": "liars-dice",
+      "title": "Liar's Dice",
+      "players": "2–6"
+    },
+    {
+      "slug": "yahtzee",
+      "title": "Yahtzee",
+      "players": "1–4"
+    }
+  ],
+  "diagrams": {
+    "total": 5,
+    "rendered": 5,
+    "entries": [
+      {
+        "family": "standard-dice",
+        "familyTitle": "Standard Dice",
+        "variant": "bunco",
+        "variantTitle": "Bunco",
+        "topology": "tableau",
+        "svg": "games/standard-dice/diagrams/svg/bunco-board.svg",
+        "rulesUrl": "dist/standard-dice/games/bunco/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "players": "12 (or multiples of 4)"
+      },
+      {
+        "family": "standard-dice",
+        "familyTitle": "Standard Dice",
+        "variant": "craps",
+        "variantTitle": "Craps",
+        "topology": "tableau",
+        "svg": "games/standard-dice/diagrams/svg/craps-board.svg",
+        "rulesUrl": "dist/standard-dice/games/craps/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "players": "1 or more"
+      },
+      {
+        "family": "standard-dice",
+        "familyTitle": "Standard Dice",
+        "variant": "farkle",
+        "variantTitle": "Farkle",
+        "topology": "tableau",
+        "svg": "games/standard-dice/diagrams/svg/farkle-board.svg",
+        "rulesUrl": "dist/standard-dice/games/farkle/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "players": "2–6"
+      },
+      {
+        "family": "standard-dice",
+        "familyTitle": "Standard Dice",
+        "variant": "liars-dice",
+        "variantTitle": "Liar's Dice",
+        "topology": "tableau",
+        "svg": "games/standard-dice/diagrams/svg/liars-dice-board.svg",
+        "rulesUrl": "dist/standard-dice/games/liars-dice/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "players": "2–6"
+      },
+      {
+        "family": "standard-dice",
+        "familyTitle": "Standard Dice",
+        "variant": "yahtzee",
+        "variantTitle": "Yahtzee",
+        "topology": "tableau",
+        "svg": "games/standard-dice/diagrams/svg/yahtzee-board.svg",
+        "rulesUrl": "dist/standard-dice/games/yahtzee/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "players": "1–4"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 5,
+    "topologies": []
+  }
+}

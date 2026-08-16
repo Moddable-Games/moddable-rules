@@ -1,0 +1,62 @@
+{
+  "slug": "amazon-chess",
+  "parent": "chess",
+  "title": "Amazon Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Queens replaced by Amazons (Queen + Knight). The most powerful piece possible.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbmkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBMKBNR",
+    "promotionChoices": [
+      "amazon",
+      "rook",
+      "bishop",
+      "knight"
+    ],
+    "vocabulary": {
+      "amazon": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "amazon": {
+            "type": "compose",
+            "parts": [
+              "queen",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/amazon-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/amazon-chess.md",
+    "meta": "/api/rules/chess/variants/amazon-chess.json",
+    "page": "/chess/variants/amazon-chess/"
+  }
+}

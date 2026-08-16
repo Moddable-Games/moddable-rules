@@ -1,0 +1,63 @@
+{
+  "slug": "cairn",
+  "title": "Cairn",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "1–6",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "oracle"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "tables/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "cairn",
+        "familyTitle": "Cairn",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/cairn/diagrams/svg/cairn-character-sheet.svg",
+        "rulesUrl": "dist/cairn/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "cairn",
+        "familyTitle": "Cairn",
+        "variant": "reference",
+        "variantTitle": "Cairn",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/cairn/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "djambi",
+  "parent": "chess",
+  "title": "Djambi",
+  "players": 4,
+  "board": "9×9",
+  "win": "Be the last player with a Chief remaining",
+  "special": "4-player political strategy on a 9×9 grid. Killed pieces remain as impassable corpses; the center Maze grants extra turns and immunities.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 38
+    },
+    "setup": "amrcxcrma/9/9/9/4M4/9/9/9/AMRCXCRMA",
+    "vocabulary": {
+      "assassin": {
+        "symbols": {
+          "0": "A",
+          "1": "a"
+        }
+      },
+      "militant": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      },
+      "chief": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      },
+      "necromobile": {
+        "symbols": {
+          "0": "X",
+          "1": "x"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "assassin": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "militant": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 2
+          },
+          "rook": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "chief": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1
+          },
+          "necromobile": {
+            "type": "rider",
+            "dirs": "all"
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/djambi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/djambi.md",
+    "meta": "/api/rules/chess/variants/djambi.json",
+    "page": "/chess/variants/djambi/"
+  }
+}

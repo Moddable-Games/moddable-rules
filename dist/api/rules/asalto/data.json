@@ -1,0 +1,333 @@
+{
+  "slug": "asalto",
+  "title": "Asalto",
+  "type": "hub",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "abstract-strategy",
+    "asymmetric",
+    "movement",
+    "capture",
+    "grid"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "grid-cross"
+    },
+    "surface": {
+      "colors": {
+        "background": "#f5e6c8",
+        "line": "#2a2a2a",
+        "point": "#2a2a2a",
+        "fortress": "rgba(40,80,180,0.15)",
+        "fortress-border": "#3355aa"
+      }
+    },
+    "render": {
+      "cellSize": 24
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic"
+    },
+    "players": [
+      "officers",
+      "soldiers"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "royal-garrison",
+      "parent": "asalto",
+      "title": "Royal Garrison",
+      "players": "2",
+      "board": "asalto-royal",
+      "win": "Officers: reduce Soldiers below immobilizing threshold. Soldiers: immobilize all three Officers.",
+      "special": "Extended Asalto variant. Three Officers defend a larger fortress against 50 Soldiers. Mechanics identical to Standard Asalto; scale increases strategic complexity.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "grid-cross",
+          "params": {
+            "rows": [
+              [
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              [
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            ],
+            "fortressRows": 2,
+            "fortressCols": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "fortressExtraRow": 2,
+            "extraNodes": [
+              {
+                "row": 0,
+                "col": 1,
+                "fortress": true,
+                "connectsTo": [
+                  [
+                    0,
+                    2
+                  ],
+                  [
+                    1,
+                    2
+                  ]
+                ]
+              },
+              {
+                "row": 0,
+                "col": 7,
+                "fortress": true,
+                "connectsTo": [
+                  [
+                    0,
+                    6
+                  ],
+                  [
+                    1,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "diagonals": true
+          }
+        },
+        "render": {
+          "canvasSize": 380
+        },
+        "players": [
+          "officers",
+          "soldiers"
+        ],
+        "setup": "n13:O,n15:O,n17:O,n11:S,n12:S,n18:S,n19:S,n20:S,n21:S,n22:S,n23:S,n24:S,n25:S,n26:S,n27:S,n28:S,n29:S,n30:S,n31:S,n32:S,n33:S,n34:S,n35:S,n36:S,n37:S,n38:S,n39:S,n40:S,n41:S,n42:S,n43:S,n44:S,n45:S,n46:S,n47:S,n48:S,n49:S,n50:S,n51:S,n52:S,n53:S,n54:S,n55:S,n56:S,n57:S,n58:S,n59:S,n60:S,n61:S,n62:S,n63:S,n64:S,n65:S"
+      },
+      "diagram": {
+        "svg": "games/asalto/diagrams/svg/royal-garrison-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/asalto/variants/royal-garrison.md",
+        "meta": "/api/rules/asalto/variants/royal-garrison.json",
+        "page": "/asalto/variants/royal-garrison/"
+      }
+    },
+    {
+      "slug": "standard",
+      "parent": "asalto",
+      "title": "Asalto (Standard)",
+      "players": "2",
+      "board": "asalto-standard",
+      "win": "Officers: capture enough Soldiers that the remaining force cannot surround both Officers. Soldiers: immobilize both Officers.",
+      "special": "Asymmetric siege game. Officers jump to capture (like draughts); Soldiers advance forward or sideways without jumping. Soldiers win by immobilizing; Officers win by reducing the Soldier force below the critical threshold.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "grid-cross",
+          "params": {
+            "rows": [
+              [
+                2,
+                3,
+                4
+              ],
+              [
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                2,
+                3,
+                4
+              ],
+              [
+                2,
+                3,
+                4
+              ]
+            ],
+            "fortressRows": 2,
+            "diagonals": true
+          }
+        },
+        "players": [
+          "officers",
+          "soldiers"
+        ],
+        "setup": "n4:O,n6:O,n7:S,n8:S,n12:S,n13:S,n14:S,n15:S,n16:S,n17:S,n18:S,n19:S,n20:S,n21:S,n22:S,n23:S,n24:S,n25:S,n26:S,n27:S,n28:S,n29:S,n30:S,n31:S,n32:S,n33:S"
+      },
+      "diagram": {
+        "svg": "games/asalto/diagrams/svg/standard-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/asalto/variants/standard.md",
+        "meta": "/api/rules/asalto/variants/standard.json",
+        "page": "/asalto/variants/standard/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 2,
+    "entries": [
+      {
+        "family": "asalto",
+        "familyTitle": "Asalto",
+        "variant": "royal-garrison",
+        "variantTitle": "Royal Garrison",
+        "topology": "graph",
+        "svg": "games/asalto/diagrams/svg/royal-garrison-board.svg",
+        "rulesUrl": "dist/asalto/variants/royal-garrison/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "asalto",
+        "familyTitle": "Asalto",
+        "variant": "standard",
+        "variantTitle": "Asalto (Standard)",
+        "topology": "graph",
+        "svg": "games/asalto/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/asalto/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 2,
+    "playable": 0,
+    "withDiagram": 2,
+    "topologies": [
+      "graph"
+    ]
+  }
+}

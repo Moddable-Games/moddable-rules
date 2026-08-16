@@ -1,0 +1,40 @@
+{
+  "slug": "three-mens-morris",
+  "parent": "morris",
+  "title": "Three Men's Morris",
+  "players": "2",
+  "board": "3×3 grid (9 intersections)",
+  "win": "Form a three-in-a-row with all three of your pieces",
+  "special": "No movement phase; pieces jump to any empty square. Smallest member of the Mill family.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 1,
+        "midpoints": true
+      }
+    },
+    "render": {
+      "canvasSize": 200
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "diagram": {
+    "svg": "games/morris/diagrams/svg/three-mens-morris-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/morris/variants/three-mens-morris.md",
+    "meta": "/api/rules/morris/variants/three-mens-morris.json",
+    "page": "/morris/variants/three-mens-morris/"
+  }
+}

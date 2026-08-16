@@ -1,0 +1,38 @@
+{
+  "slug": "centennial-chess",
+  "parent": "chess",
+  "title": "Centennial Chess",
+  "players": "2",
+  "board": "10×10",
+  "win": "Checkmate",
+  "special": "10×10 chess variant with four new pieces: the Steward (quadra-pawn, moves as pawn in all 4 directions), the Camel (2+1 oblique leap, colorbound), the Murray Lion (leaps to 2nd square orthogonally/diagonally or captures as King), and the Rotating Spearman (slides forward/backward and rotates between 3 orientations). Two moves per turn until first capture. En passant disabled. Created by John William Brown, 1999. Entry in the 1999 Large Variant Contest.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 30
+    },
+    "setup": "rcblkqlbcr/1tn1ss1nt1/pppppppppp/10/10/10/10/PPPPPPPPPP/1TN1SS1NT1/RCBLKQLBCR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/centennial-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/centennial-chess.md",
+    "meta": "/api/rules/chess/variants/centennial-chess.json",
+    "page": "/chess/variants/centennial-chess/"
+  }
+}

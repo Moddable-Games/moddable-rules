@@ -1,0 +1,103 @@
+{
+  "slug": "xiangqi-42",
+  "parent": "xiangqi",
+  "title": "Xiangqi 42",
+  "players": 2,
+  "board": "7×6",
+  "win": "Checkmate the General (standard Xiangqi win conditions)",
+  "special": "Compact Xiangqi on a 7×6 grid (42 intersections). No river, no Elephants — fast tactical play on a minimal board.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 6,
+      "cols": 7
+    },
+    "players": [
+      "red",
+      "black"
+    ],
+    "setup": "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR",
+    "render": {
+      "cellSize": 40,
+      "ops": [
+        {
+          "op": "cells",
+          "pattern": "uniform",
+          "fill": "#f5deb3",
+          "stroke": "#4a3520",
+          "interactive": true
+        },
+        {
+          "op": "grid-lines",
+          "color": "#4a3520",
+          "width": 2,
+          "grouped": false
+        },
+        {
+          "op": "lines",
+          "derive": "palace-diagonals",
+          "regions": [
+            {
+              "rows": [
+                0,
+                2
+              ],
+              "cols": [
+                2,
+                4
+              ]
+            },
+            {
+              "rows": [
+                3,
+                5
+              ],
+              "cols": [
+                2,
+                4
+              ]
+            }
+          ],
+          "color": "#4a3520",
+          "width": 2
+        }
+      ]
+    },
+    "plugins": {
+      "xiangqi": {
+        "hasRiver": false,
+        "flyingGeneralRule": true,
+        "palace": {
+          "cols": [
+            2,
+            4
+          ],
+          "rows": [
+            [
+              3,
+              5
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/xiangqi/diagrams/svg/xiangqi-42-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/xiangqi/variants/xiangqi-42.md",
+    "meta": "/api/rules/xiangqi/variants/xiangqi-42.json",
+    "page": "/xiangqi/variants/xiangqi-42/"
+  }
+}

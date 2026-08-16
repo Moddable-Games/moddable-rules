@@ -1,0 +1,42 @@
+{
+  "slug": "giveaway",
+  "parent": "chess",
+  "title": "Giveaway",
+  "players": "2",
+  "board": "8×8",
+  "win": "Lose all pieces",
+  "special": "Forced captures. King is not royal. Stalemate is a loss.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "castling": false,
+        "noCheck": true,
+        "stalemateMeaning": "loss"
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/giveaway-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/giveaway.md",
+    "meta": "/api/rules/chess/variants/giveaway.json",
+    "page": "/chess/variants/giveaway/"
+  }
+}

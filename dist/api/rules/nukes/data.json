@@ -1,0 +1,265 @@
+{
+  "slug": "nukes",
+  "title": "Nukes: Official Rulebook",
+  "type": "game",
+  "hub_type": null,
+  "players": "2–3",
+  "status": "live",
+  "mechanics": [
+    "territory",
+    "hostage-economy",
+    "fluid-units",
+    "nuclear-strikes",
+    "hex-grid"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "surface": {
+      "colors": {
+        "stroke": "rgba(0,0,0,0.2)",
+        "border": "#6b4226",
+        "water": "#2196F3",
+        "trees": "#4CAF50",
+        "mount": "#795548",
+        "grass": "#8BC34A",
+        "sand": "#FFC107",
+        "base": "#F44336"
+      }
+    }
+  },
+  "variants": [
+    {
+      "slug": "siege",
+      "parent": "nukes",
+      "title": "Nukes: Siege",
+      "players": "2",
+      "board": null,
+      "win": null,
+      "special": "Hostage mechanic replaced with own-supply recruiting. Enemy hostages only arrive through combat.",
+      "playable": false,
+      "order": 1,
+      "designer": "The House",
+      "category": "Total conversion",
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "hexagonal",
+          "radius": 3,
+          "orientation": "pointy"
+        },
+        "players": [
+          "player1",
+          "player2"
+        ],
+        "render": {
+          "cellSize": 24,
+          "cellColor": "terrain",
+          "frame": true,
+          "seed": 123
+        },
+        "setup": "0,0:trees,0,1:grass,1,0:grass,1,-1:sand,0,-1:water,-1,0:trees,-1,1:trees,-1,2:grass,0,2:water,1,1:water,2,0:mount,2,-1:trees,2,-2:water,1,-2:mount,0,-2:grass,-1,-1:water,-2,0:trees,-2,1:water,-2,2:mount,-1,3:grass,0,3:water,1,2:sand,2,1:trees,3,0:base,3,-1:grass,3,-2:grass,3,-3:grass,2,-3:water,1,-3:trees,0,-3:trees,-1,-2:mount,-2,-1:trees,-3,0:base,-3,1:trees,-3,2:sand,-3,3:trees,-2,3:grass"
+      },
+      "diagram": {
+        "svg": "games/nukes/diagrams/svg/siege-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/nukes/variants/siege.md",
+        "meta": "/api/rules/nukes/variants/siege.json",
+        "page": "/nukes/variants/siege/"
+      }
+    },
+    {
+      "slug": "standard",
+      "parent": "nukes",
+      "title": "Nukes: Standard",
+      "players": "2–3",
+      "board": null,
+      "win": null,
+      "special": "Standard 3-ring hex map with seeded terrain generation. 2-player default.",
+      "playable": false,
+      "order": 1,
+      "designer": "The House",
+      "category": "Standard",
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "hexagonal",
+          "radius": 3,
+          "orientation": "pointy"
+        },
+        "players": [
+          "player1",
+          "player2"
+        ],
+        "render": {
+          "cellSize": 24,
+          "cellColor": "terrain",
+          "frame": true
+        },
+        "generator": {
+          "id": "nukes",
+          "size": 3
+        }
+      },
+      "diagram": {
+        "svg": "games/nukes/diagrams/svg/standard-board.svg",
+        "topology": "hex",
+        "status": "generator"
+      },
+      "urls": {
+        "rules": "/api/rules/nukes/variants/standard.md",
+        "meta": "/api/rules/nukes/variants/standard.json",
+        "page": "/nukes/variants/standard/"
+      }
+    },
+    {
+      "slug": "asymmetric-powers",
+      "parent": "nukes",
+      "title": "Nukes: Asymmetric Powers",
+      "players": "2–3",
+      "board": null,
+      "win": null,
+      "special": "Each player draws one Power Card at setup. No two players hold the same card.",
+      "playable": false,
+      "order": 2,
+      "designer": "The House",
+      "category": "Rebalance",
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "hexagonal",
+          "radius": 3,
+          "orientation": "pointy"
+        },
+        "players": [
+          "player1",
+          "player2",
+          "player3"
+        ],
+        "render": {
+          "cellSize": 24,
+          "cellColor": "terrain",
+          "frame": true,
+          "seed": 256
+        },
+        "setup": "0,0:water,0,1:trees,1,0:grass,1,-1:mount,0,-1:mount,-1,0:trees,-1,1:grass,-1,2:trees,0,2:mount,1,1:grass,2,0:water,2,-1:sand,2,-2:water,1,-2:trees,0,-2:mount,-1,-1:grass,-2,0:water,-2,1:trees,-2,2:trees,-1,3:water,0,3:trees,1,2:mount,2,1:mount,3,0:base,3,-1:water,3,-2:grass,3,-3:water,2,-3:grass,1,-3:trees,0,-3:base,-1,-2:trees,-2,-1:sand,-3,0:mount,-3,1:trees,-3,2:water,-3,3:base,-2,3:grass"
+      },
+      "diagram": {
+        "svg": "games/nukes/diagrams/svg/asymmetric-powers-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/nukes/variants/asymmetric-powers.md",
+        "meta": "/api/rules/nukes/variants/asymmetric-powers.json",
+        "page": "/nukes/variants/asymmetric-powers/"
+      }
+    },
+    {
+      "slug": "fallout",
+      "parent": "nukes",
+      "title": "Nukes: Fallout",
+      "players": "2–3",
+      "board": null,
+      "win": null,
+      "special": "Biohazard tiles spread one tile per round. City tiles are immune. The board shrinks over time.",
+      "playable": false,
+      "order": 3,
+      "designer": "The House",
+      "category": "Reskin",
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "hexagonal",
+          "radius": 3,
+          "orientation": "pointy"
+        },
+        "players": [
+          "player1",
+          "player2"
+        ],
+        "render": {
+          "cellSize": 24,
+          "cellColor": "terrain",
+          "frame": true,
+          "seed": 77
+        },
+        "setup": "0,0:sand,0,1:water,1,0:water,1,-1:mount,0,-1:sand,-1,0:water,-1,1:trees,-1,2:water,0,2:grass,1,1:mount,2,0:grass,2,-1:trees,2,-2:water,1,-2:grass,0,-2:mount,-1,-1:water,-2,0:mount,-2,1:grass,-2,2:trees,-1,3:sand,0,3:water,1,2:grass,2,1:grass,3,0:base,3,-1:sand,3,-2:grass,3,-3:grass,2,-3:grass,1,-3:mount,0,-3:trees,-1,-2:trees,-2,-1:trees,-3,0:base,-3,1:water,-3,2:trees,-3,3:mount,-2,3:water"
+      },
+      "diagram": {
+        "svg": "games/nukes/diagrams/svg/fallout-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/nukes/variants/fallout.md",
+        "meta": "/api/rules/nukes/variants/fallout.json",
+        "page": "/nukes/variants/fallout/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 4,
+    "rendered": 4,
+    "entries": [
+      {
+        "family": "nukes",
+        "familyTitle": "Nukes",
+        "variant": "asymmetric-powers",
+        "variantTitle": "Nukes: Asymmetric Powers",
+        "topology": "hex",
+        "svg": "games/nukes/diagrams/svg/asymmetric-powers-board.svg",
+        "rulesUrl": "dist/nukes/variants/asymmetric-powers/index.html",
+        "status": "rendered",
+        "players": "2–3"
+      },
+      {
+        "family": "nukes",
+        "familyTitle": "Nukes",
+        "variant": "fallout",
+        "variantTitle": "Nukes: Fallout",
+        "topology": "hex",
+        "svg": "games/nukes/diagrams/svg/fallout-board.svg",
+        "rulesUrl": "dist/nukes/variants/fallout/index.html",
+        "status": "rendered",
+        "players": "2–3"
+      },
+      {
+        "family": "nukes",
+        "familyTitle": "Nukes",
+        "variant": "siege",
+        "variantTitle": "Nukes: Siege",
+        "topology": "hex",
+        "svg": "games/nukes/diagrams/svg/siege-board.svg",
+        "rulesUrl": "dist/nukes/variants/siege/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "nukes",
+        "familyTitle": "Nukes",
+        "variant": "standard",
+        "variantTitle": "Nukes: Standard",
+        "topology": "hex",
+        "svg": "games/nukes/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/nukes/variants/standard/index.html",
+        "status": "generator",
+        "reason": "hex-generator",
+        "generator": "nukes",
+        "generatorSize": 3,
+        "players": "2–3"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 4,
+    "playable": 0,
+    "withDiagram": 4,
+    "topologies": [
+      "hex"
+    ]
+  }
+}

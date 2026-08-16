@@ -1,10 +1,14 @@
 (async function () {
-  const [res, statsRes] = await Promise.all([
-    fetch('./index.json'),
-    fetch('./stats.json'),
-  ]);
+  let res = await fetch('./index.json');
+  let apiBase = './';
+  if (!res.ok) {
+    res = await fetch('../dist/api/index.json');
+    apiBase = '../dist/api/';
+  }
   if (!res.ok) return;
   const data = await res.json();
+
+  let statsRes = await fetch(apiBase + 'stats.json');
 
   if (statsRes.ok) {
     const stats = await statsRes.json();
@@ -15,6 +19,10 @@
     document.getElementById('stat-endpoints').textContent = stats.site.apiEndpoints;
   }
 
+  function resolveEndpointHref(path) {
+    return apiBase + path.replace(/^\/api\//, '');
+  }
+
   const tbody = document.getElementById('endpoint-tbody');
   if (tbody && data.endpoints) {
     for (const ep of data.endpoints) {
@@ -23,7 +31,7 @@
         : ep.type === 'markdown' ? 'type-badge--markdown'
         : 'type-badge--directory';
       tr.innerHTML = `
-        <td class="endpoint-path"><a href="${ep.path}" target="_blank" rel="noopener">${ep.path}</a></td>
+        <td class="endpoint-path"><a href="${resolveEndpointHref(ep.path)}" target="_blank" rel="noopener">${ep.path}</a></td>
         <td><span class="type-badge ${badgeClass}">${ep.type}</span></td>
         <td class="endpoint-desc">${ep.description}</td>
       `;

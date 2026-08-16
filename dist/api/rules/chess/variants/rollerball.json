@@ -1,0 +1,116 @@
+{
+  "slug": "rollerball",
+  "parent": "chess",
+  "title": "Rollerball",
+  "players": "2",
+  "board": "40-square ring (7×7 minus 3×3 centre)",
+  "win": "Checkmate the King, OR King clockwise-reaches opponent's King starting square",
+  "special": "Chess variant on a 40-square ring board (7×7 grid with 3×3 centre removed). Two concentric rings: outer (24 squares) and inner (16 squares). Each side has only 6 pieces: King, Bishop, 2 Rooks, 2 Pawns. Pieces move clockwise-dominant (most cannot slide backward). Jean-Louis Cazaux, 1999, 40-squares contest.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 7,
+      "cols": 7,
+      "voids": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "notation": "algebraic",
+    "render": {
+      "zones": {
+        "voids": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "setup": "2rbp2/2rkp2/7/7/7/2PKR2/2PBR2"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/rollerball-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/rollerball.md",
+    "meta": "/api/rules/chess/variants/rollerball.json",
+    "page": "/chess/variants/rollerball/"
+  }
+}

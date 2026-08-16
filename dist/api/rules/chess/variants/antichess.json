@@ -1,0 +1,56 @@
+{
+  "slug": "antichess",
+  "parent": "chess",
+  "title": "Antichess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Lose all pieces or get stalemated",
+  "special": "Captures are mandatory. First to lose all pieces wins.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "castling": false,
+        "noCheck": true,
+        "stalemateMeaning": "win",
+        "promotionChoices": [
+          "queen",
+          "rook",
+          "bishop",
+          "knight",
+          "king"
+        ],
+        "openingBook": {
+          "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": [
+            "e2e3",
+            "b2b4",
+            "g2g4"
+          ]
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/antichess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/antichess.md",
+    "meta": "/api/rules/chess/variants/antichess.json",
+    "page": "/chess/variants/antichess/"
+  }
+}

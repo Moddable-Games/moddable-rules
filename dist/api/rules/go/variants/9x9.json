@@ -1,0 +1,57 @@
+{
+  "slug": "9x9",
+  "parent": "go",
+  "title": "9×9 Go",
+  "players": "2",
+  "board": "9×9",
+  "win": "Most territory at game end",
+  "special": "Quick games (15 min). 81 intersections. Komi 5.5. Purely tactical.",
+  "playable": true,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9,
+      "layout": "intersections"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": "",
+    "plugins": {
+      "go": {
+        "extends": "standard",
+        "komi": 5.5
+      }
+    },
+    "handicaps": {
+      "range": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "positions": [
+        "6,2",
+        "2,6",
+        "6,6",
+        "2,2",
+        "4,4"
+      ]
+    }
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/9x9-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/9x9.md",
+    "meta": "/api/rules/go/variants/9x9.json",
+    "page": "/go/variants/9x9/"
+  }
+}

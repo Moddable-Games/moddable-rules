@@ -6,6 +6,16 @@
       "type": "json"
     },
     {
+      "path": "/api/data.json",
+      "description": "Global enriched data (46 families, 296 variants)",
+      "type": "json"
+    },
+    {
+      "path": "/api/diagrams.json",
+      "description": "Board diagram manifest (346 rendered)",
+      "type": "json"
+    },
+    {
       "path": "/api/entities.json",
       "description": "All RPG entities (7 games)",
       "type": "json"
@@ -13,6 +23,11 @@
     {
       "path": "/api/oracles.json",
       "description": "All oracle tables (6 games)",
+      "type": "json"
+    },
+    {
+      "path": "/api/rules/agon/data.json",
+      "description": "Agon enriched data (variants + diagrams + engine)",
       "type": "json"
     },
     {
@@ -27,8 +42,13 @@
     },
     {
       "path": "/api/rules/agon/variants/",
-      "description": "Agon variant markdown files (1)",
+      "description": "Agon variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/asalto/data.json",
+      "description": "Asalto enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/asalto/meta.json",
@@ -42,8 +62,13 @@
     },
     {
       "path": "/api/rules/asalto/variants/",
-      "description": "Asalto variant markdown files (2)",
+      "description": "Asalto variant files (2 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/backgammon/data.json",
+      "description": "Backgammon enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/backgammon/meta.json",
@@ -57,8 +82,13 @@
     },
     {
       "path": "/api/rules/backgammon/variants/",
-      "description": "Backgammon variant markdown files (8)",
+      "description": "Backgammon variant files (8 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/bavarian-32/data.json",
+      "description": "Bavarian 32-Card Games enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/bavarian-32/games/",
@@ -74,6 +104,11 @@
       "path": "/api/rules/bavarian-32/rulebook.md",
       "description": "Bavarian 32-Card Games hub rulebook",
       "type": "markdown"
+    },
+    {
+      "path": "/api/rules/brp/data.json",
+      "description": "Basic Roleplaying enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/brp/data/",
@@ -96,6 +131,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/cairn/data.json",
+      "description": "Cairn enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/cairn/meta.json",
       "description": "Cairn metadata",
       "type": "json"
@@ -116,6 +156,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/chaupar/data.json",
+      "description": "Chaupar enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/chaupar/meta.json",
       "description": "Chaupar metadata",
       "type": "json"
@@ -127,8 +172,13 @@
     },
     {
       "path": "/api/rules/chaupar/variants/",
-      "description": "Chaupar variant markdown files (1)",
+      "description": "Chaupar variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/chess/data.json",
+      "description": "Chess enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/chess/meta.json",
@@ -142,8 +192,13 @@
     },
     {
       "path": "/api/rules/chess/variants/",
-      "description": "Chess variant markdown files (154)",
+      "description": "Chess variant files (154 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/dnd-5e/data.json",
+      "description": "Dungeons & Dragons 5th Edition SRD enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/dnd-5e/data/",
@@ -166,6 +221,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/dou-shou-qi/data.json",
+      "description": "Dou Shou Qi (斗兽棋 / Jungle) enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/dou-shou-qi/meta.json",
       "description": "Dou Shou Qi (斗兽棋 / Jungle) metadata",
       "type": "json"
@@ -177,8 +237,13 @@
     },
     {
       "path": "/api/rules/dou-shou-qi/variants/",
-      "description": "Dou Shou Qi (斗兽棋 / Jungle) variant markdown files (1)",
+      "description": "Dou Shou Qi (斗兽棋 / Jungle) variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/double-six-dominoes/data.json",
+      "description": "Double-Six Dominoes enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/double-six-dominoes/games/",
@@ -196,6 +261,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/draughts/data.json",
+      "description": "Draughts enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/draughts/meta.json",
       "description": "Draughts metadata",
       "type": "json"
@@ -207,8 +277,13 @@
     },
     {
       "path": "/api/rules/draughts/variants/",
-      "description": "Draughts variant markdown files (20)",
+      "description": "Draughts variant files (20 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/dungeon-chess/data.json",
+      "description": "Dungeon Chess enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/dungeon-chess/meta.json",
@@ -222,8 +297,13 @@
     },
     {
       "path": "/api/rules/dungeon-chess/variants/",
-      "description": "Dungeon Chess variant markdown files (3)",
+      "description": "Dungeon Chess variant files (3 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/dungeon-world/data.json",
+      "description": "Dungeon World enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/dungeon-world/data/",
@@ -251,6 +331,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/econopoly/data.json",
+      "description": "Econopoly enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/econopoly/meta.json",
       "description": "Econopoly metadata",
       "type": "json"
@@ -262,8 +347,13 @@
     },
     {
       "path": "/api/rules/econopoly/variants/",
-      "description": "Econopoly variant markdown files (1)",
+      "description": "Econopoly variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/fanorona/data.json",
+      "description": "Fanorona enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/fanorona/meta.json",
@@ -277,8 +367,13 @@
     },
     {
       "path": "/api/rules/fanorona/variants/",
-      "description": "Fanorona variant markdown files (1)",
+      "description": "Fanorona variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/fate-core/data.json",
+      "description": "Fate Core enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/fate-core/data/",
@@ -301,6 +396,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/flower-48/data.json",
+      "description": "Flower 48 enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/flower-48/games/",
       "description": "Flower 48 component games (4)",
       "type": "directory"
@@ -316,6 +416,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/go/data.json",
+      "description": "Go enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/go/meta.json",
       "description": "Go metadata",
       "type": "json"
@@ -327,8 +432,13 @@
     },
     {
       "path": "/api/rules/go/variants/",
-      "description": "Go variant markdown files (14)",
+      "description": "Go variant files (14 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/halma/data.json",
+      "description": "Halma enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/halma/meta.json",
@@ -342,8 +452,13 @@
     },
     {
       "path": "/api/rules/halma/variants/",
-      "description": "Halma variant markdown files (2)",
+      "description": "Halma variant files (2 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/hex/data.json",
+      "description": "Hex enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/hex/meta.json",
@@ -357,8 +472,13 @@
     },
     {
       "path": "/api/rules/hex/variants/",
-      "description": "Hex variant markdown files (8)",
+      "description": "Hex variant files (8 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/hyper-imperium/data.json",
+      "description": "Hyper Imperium enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/hyper-imperium/meta.json",
@@ -369,6 +489,11 @@
       "path": "/api/rules/hyper-imperium/rulebook.md",
       "description": "Hyper Imperium hub rulebook",
       "type": "markdown"
+    },
+    {
+      "path": "/api/rules/ironsworn/data.json",
+      "description": "Ironsworn enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/ironsworn/meta.json",
@@ -389,6 +514,11 @@
       "path": "/api/rules/ironsworn/rulebook.md",
       "description": "Ironsworn hub rulebook",
       "type": "markdown"
+    },
+    {
+      "path": "/api/rules/knave/data.json",
+      "description": "Knave enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/knave/data/",
@@ -416,6 +546,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/landlords-game/data.json",
+      "description": "The Landlord's Game enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/landlords-game/data/",
       "description": "The Landlord's Game data files (1)",
       "type": "directory"
@@ -432,8 +567,13 @@
     },
     {
       "path": "/api/rules/landlords-game/variants/",
-      "description": "The Landlord's Game variant markdown files (5)",
+      "description": "The Landlord's Game variant files (5 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/lattaque/data.json",
+      "description": "L'Attaque enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/lattaque/meta.json",
@@ -447,8 +587,13 @@
     },
     {
       "path": "/api/rules/lattaque/variants/",
-      "description": "L'Attaque variant markdown files (4)",
+      "description": "L'Attaque variant files (4 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/mahjong/data.json",
+      "description": "Mahjong enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/mahjong/games/",
@@ -466,6 +611,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/mancala/data.json",
+      "description": "Mancala enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/mancala/meta.json",
       "description": "Mancala metadata",
       "type": "json"
@@ -477,8 +627,13 @@
     },
     {
       "path": "/api/rules/mancala/variants/",
-      "description": "Mancala variant markdown files (8)",
+      "description": "Mancala variant files (8 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/maze-rats/data.json",
+      "description": "Maze Rats enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/maze-rats/data/",
@@ -506,6 +661,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/morris/data.json",
+      "description": "Nine Men's Morris enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/morris/meta.json",
       "description": "Nine Men's Morris metadata",
       "type": "json"
@@ -517,8 +677,13 @@
     },
     {
       "path": "/api/rules/morris/variants/",
-      "description": "Nine Men's Morris variant markdown files (7)",
+      "description": "Nine Men's Morris variant files (7 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/nukes/data.json",
+      "description": "Nukes: Official Rulebook enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/nukes/meta.json",
@@ -532,8 +697,13 @@
     },
     {
       "path": "/api/rules/nukes/variants/",
-      "description": "Nukes: Official Rulebook variant markdown files (4)",
+      "description": "Nukes: Official Rulebook variant files (4 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/nyout/data.json",
+      "description": "Nyout (유놓이 / Yut Nori) enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/nyout/meta.json",
@@ -547,8 +717,13 @@
     },
     {
       "path": "/api/rules/nyout/variants/",
-      "description": "Nyout (유놓이 / Yut Nori) variant markdown files (1)",
+      "description": "Nyout (유놓이 / Yut Nori) variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/pachisi/data.json",
+      "description": "Pachisi enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/pachisi/meta.json",
@@ -562,8 +737,13 @@
     },
     {
       "path": "/api/rules/pachisi/variants/",
-      "description": "Pachisi variant markdown files (3)",
+      "description": "Pachisi variant files (3 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/pathfinder-1e/data.json",
+      "description": "Pathfinder 1st Edition (PFSRD) enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/pathfinder-1e/data/",
@@ -586,6 +766,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/reversi/data.json",
+      "description": "Reversi enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/reversi/meta.json",
       "description": "Reversi metadata",
       "type": "json"
@@ -597,8 +782,13 @@
     },
     {
       "path": "/api/rules/reversi/variants/",
-      "description": "Reversi variant markdown files (3)",
+      "description": "Reversi variant files (3 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/royal-ur/data.json",
+      "description": "Royal Game of Ur enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/royal-ur/meta.json",
@@ -612,8 +802,13 @@
     },
     {
       "path": "/api/rules/royal-ur/variants/",
-      "description": "Royal Game of Ur variant markdown files (1)",
+      "description": "Royal Game of Ur variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/senet/data.json",
+      "description": "Senet enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/senet/meta.json",
@@ -627,8 +822,13 @@
     },
     {
       "path": "/api/rules/senet/variants/",
-      "description": "Senet variant markdown files (1)",
+      "description": "Senet variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/shogi/data.json",
+      "description": "Shogi enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/shogi/meta.json",
@@ -642,8 +842,13 @@
     },
     {
       "path": "/api/rules/shogi/variants/",
-      "description": "Shogi variant markdown files (24)",
+      "description": "Shogi variant files (24 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/standard-52/data.json",
+      "description": "Standard 52-Card Deck enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/standard-52/games/",
@@ -661,6 +866,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/standard-dice/data.json",
+      "description": "Standard Dice enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/standard-dice/games/",
       "description": "Standard Dice component games (5)",
       "type": "directory"
@@ -674,6 +884,11 @@
       "path": "/api/rules/standard-dice/rulebook.md",
       "description": "Standard Dice hub rulebook",
       "type": "markdown"
+    },
+    {
+      "path": "/api/rules/starforged/data.json",
+      "description": "Starforged enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/starforged/meta.json",
@@ -696,6 +911,11 @@
       "type": "markdown"
     },
     {
+      "path": "/api/rules/stern-halma/data.json",
+      "description": "Stern-Halma enriched data (variants + diagrams + engine)",
+      "type": "json"
+    },
+    {
       "path": "/api/rules/stern-halma/meta.json",
       "description": "Stern-Halma metadata",
       "type": "json"
@@ -707,8 +927,13 @@
     },
     {
       "path": "/api/rules/stern-halma/variants/",
-      "description": "Stern-Halma variant markdown files (5)",
+      "description": "Stern-Halma variant files (5 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/surakarta/data.json",
+      "description": "Surakarta enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/surakarta/meta.json",
@@ -722,8 +947,13 @@
     },
     {
       "path": "/api/rules/surakarta/variants/",
-      "description": "Surakarta variant markdown files (1)",
+      "description": "Surakarta variant files (1 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/tafl/data.json",
+      "description": "Tafl enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/tafl/meta.json",
@@ -737,8 +967,13 @@
     },
     {
       "path": "/api/rules/tafl/variants/",
-      "description": "Tafl variant markdown files (4)",
+      "description": "Tafl variant files (4 md + json)",
       "type": "directory"
+    },
+    {
+      "path": "/api/rules/talisman-worlds/data.json",
+      "description": "Talisman Worlds enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/talisman-worlds/meta.json",
@@ -749,6 +984,11 @@
       "path": "/api/rules/talisman-worlds/rulebook.md",
       "description": "Talisman Worlds hub rulebook",
       "type": "markdown"
+    },
+    {
+      "path": "/api/rules/xiangqi/data.json",
+      "description": "Xiangqi enriched data (variants + diagrams + engine)",
+      "type": "json"
     },
     {
       "path": "/api/rules/xiangqi/meta.json",
@@ -762,16 +1002,21 @@
     },
     {
       "path": "/api/rules/xiangqi/variants/",
-      "description": "Xiangqi variant markdown files (9)",
+      "description": "Xiangqi variant files (9 md + json)",
       "type": "directory"
     },
     {
+      "path": "/api/search-index-lite.json",
+      "description": "Lightweight search index (200-char snippets, for autocomplete)",
+      "type": "json"
+    },
+    {
       "path": "/api/search-index.json",
-      "description": "Full-text search index",
+      "description": "Full-text search index (complete content)",
       "type": "json"
     }
   ],
-  "generated": "2026-08-15",
+  "generated": "2026-08-16",
   "stats": {
     "totalGames": 46,
     "totalVariants": 296,

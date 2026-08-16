@@ -1,0 +1,38 @@
+{
+  "slug": "circular-chess",
+  "parent": "chess",
+  "title": "Circular Chess",
+  "players": "2",
+  "board": "Circular (4 rings × 16 files)",
+  "win": "Checkmate (snaffling permitted)",
+  "special": "Played on a circular board of 64 squares arranged in 4 concentric rings of 16 files. No castling, no en passant. Pawns promote after travelling 6 squares. Null moves (moving a piece all the way around a ring back to its start) are illegal.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 4,
+      "cols": 16,
+      "wrap": "files"
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rp4PRRP4pr/np4PNNP4pn/bp4PBBP4pb/qp4PKQP4pk",
+    "castling": false,
+    "enPassant": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/circular-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/circular-chess.md",
+    "meta": "/api/rules/chess/variants/circular-chess.json",
+    "page": "/chess/variants/circular-chess/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "madrasi",
+  "parent": "chess",
+  "title": "Madrasi Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Same-type opposing pieces paralyse each other when they attack. Kings exempt.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/madrasi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/madrasi.md",
+    "meta": "/api/rules/chess/variants/madrasi.json",
+    "page": "/chess/variants/madrasi/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "breakthrough",
+  "parent": "chess",
+  "title": "Breakthrough",
+  "players": "2",
+  "board": "7×7",
+  "win": "Reach opposite rank",
+  "special": "Pawns only — first to reach the far side wins. No captures backward.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 7,
+      "cols": 7
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "ppppppp/ppppppp/7/7/7/PPPPPPP/PPPPPPP"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/breakthrough-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/breakthrough.md",
+    "meta": "/api/rules/chess/variants/breakthrough.json",
+    "page": "/chess/variants/breakthrough/"
+  }
+}

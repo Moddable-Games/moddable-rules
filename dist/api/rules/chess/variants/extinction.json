@@ -1,0 +1,40 @@
+{
+  "slug": "extinction",
+  "parent": "chess",
+  "title": "Extinction Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture all of one piece type",
+  "special": "Lose all your knights, bishops, rooks, or pawns — you lose the game.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "noCheck": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/extinction-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/extinction.md",
+    "meta": "/api/rules/chess/variants/extinction.json",
+    "page": "/chess/variants/extinction/"
+  }
+}

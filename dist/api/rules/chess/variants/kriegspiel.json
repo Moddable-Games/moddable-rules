@@ -1,0 +1,35 @@
+{
+  "slug": "kriegspiel",
+  "parent": "chess",
+  "title": "Kriegspiel",
+  "players": "2 + referee",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Fog-of-war chess. Each player sees only their own pieces. A referee manages a master board and announces partial information: legality of attempted moves, check direction, capture location, and pawn-capture availability.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/kriegspiel-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/kriegspiel.md",
+    "meta": "/api/rules/chess/variants/kriegspiel.json",
+    "page": "/chess/variants/kriegspiel/"
+  }
+}

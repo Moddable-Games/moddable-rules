@@ -1,0 +1,38 @@
+{
+  "slug": "ayo",
+  "parent": "mancala",
+  "title": "Ayo",
+  "players": "2",
+  "board": "2×6 pits",
+  "win": "Capture more than 24 seeds",
+  "special": "Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition.",
+  "playable": false,
+  "order": 7,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "pit",
+      "cols": 6,
+      "stores": false
+    },
+    "players": [
+      "south",
+      "north"
+    ],
+    "render": {
+      "cellSize": 24
+    },
+    "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
+  },
+  "diagram": {
+    "svg": "games/mancala/diagrams/svg/ayo-board.svg",
+    "topology": "pit",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/mancala/variants/ayo.md",
+    "meta": "/api/rules/mancala/variants/ayo.json",
+    "page": "/mancala/variants/ayo/"
+  }
+}

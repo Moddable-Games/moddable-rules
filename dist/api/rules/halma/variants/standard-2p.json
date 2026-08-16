@@ -1,0 +1,35 @@
+{
+  "slug": "standard-2p",
+  "parent": "halma",
+  "title": "Standard 2-Player Halma",
+  "players": "2",
+  "board": "16×16",
+  "win": "Move all your pieces into the opponent's corner camp",
+  "special": "Pieces may step or chain-hop in any direction. No capture. Once in the opponent's camp, pieces cannot leave.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 16,
+      "cols": 16
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "bbbbb11/bbbbb11/bbbbb11/bbb13/b15/16/16/16/16/16/16/15w/13www/11wwwww/11wwwww/11wwwww"
+  },
+  "diagram": {
+    "svg": "games/halma/diagrams/svg/standard-2p-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/halma/variants/standard-2p.md",
+    "meta": "/api/rules/halma/variants/standard-2p.json",
+    "page": "/halma/variants/standard-2p/"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "minishogi",
+  "parent": "shogi",
+  "title": "Minishogi",
+  "players": "2",
+  "board": "5×5",
+  "win": "Checkmate the opponent's King",
+  "special": "Standard Shogi on a 5×5 board. Single-rank promotion zone. No Knights or Lances.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 5,
+      "cols": 5
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "rbsgk/4p/5/P4/KGSBR",
+    "render": {
+      "cellSize": 40
+    },
+    "plugins": {
+      "shogi": {
+        "promotionZone": 1
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/minishogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/minishogi.md",
+    "meta": "/api/rules/shogi/variants/minishogi.json",
+    "page": "/shogi/variants/minishogi/"
+  }
+}

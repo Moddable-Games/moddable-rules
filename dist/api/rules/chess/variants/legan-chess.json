@@ -1,0 +1,101 @@
+{
+  "slug": "legan-chess",
+  "parent": "chess",
+  "title": "Legan Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Armies are set up in opposite corners and play diagonally. Pawns move one step diagonally forward and capture orthogonally.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "knbrp3/bqpp4/npp5/rp1p3P/p3P1PR/5PPN/4PPQB/3PRBNK",
+    "plugins": {
+      "chess": {
+        "setup": "knbrp3/bqpp4/npp5/rp1p3P/p3P1PR/5PPN/4PPQB/3PRBNK",
+        "castling": false,
+        "enPassant": false,
+        "pawnConfig": {
+          "moveDirections": {
+            "0": [
+              [
+                -1,
+                -1
+              ]
+            ],
+            "1": [
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "captureDirections": {
+            "0": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "1": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          "promotionCells": {
+            "0": [
+              0,
+              1,
+              2,
+              3,
+              8,
+              16,
+              24
+            ],
+            "1": [
+              60,
+              61,
+              62,
+              63,
+              55,
+              47,
+              39
+            ]
+          },
+          "doubleStep": false
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/legan-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/legan-chess.md",
+    "meta": "/api/rules/chess/variants/legan-chess.json",
+    "page": "/chess/variants/legan-chess/"
+  }
+}

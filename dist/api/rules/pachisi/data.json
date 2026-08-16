@@ -1,0 +1,335 @@
+{
+  "slug": "pachisi",
+  "title": "Pachisi",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2–4",
+  "status": "live",
+  "mechanics": [
+    "race",
+    "dice-throwing",
+    "capture",
+    "safe-spaces",
+    "cross-and-circle"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 19,
+      "cols": 19,
+      "layout": "cross"
+    },
+    "render": {
+      "cellSize": 20,
+      "cellColor": "checkered",
+      "labels": false,
+      "castles": [
+        [
+          0,
+          9
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          18,
+          9
+        ]
+      ],
+      "ops": [
+        {
+          "op": "rect",
+          "fill": "transparent",
+          "scope": "board"
+        },
+        {
+          "op": "cells",
+          "pattern": "cross",
+          "light": "cell-light",
+          "dark": "cell-dark",
+          "castles": [
+            [
+              0,
+              9
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              18
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              18,
+              9
+            ]
+          ],
+          "typeColors": {
+            "floor": "floor",
+            "castle": "castle",
+            "home": "home"
+          },
+          "typeStrokes": {
+            "floor": "floor-stroke",
+            "castle": "castle-stroke",
+            "home": "home-stroke"
+          },
+          "decorations": {
+            "castle": "castle-x"
+          },
+          "castleXColor": "castle-x"
+        }
+      ]
+    },
+    "surface": {
+      "colors": {
+        "floor": "#f0d5a0",
+        "floor-stroke": "#8b6545",
+        "castle": "#c0622f",
+        "castle-stroke": "#8b6545",
+        "castle-x": "#fff8f0",
+        "home": "#8b1a1a",
+        "home-stroke": "#6a1212"
+      }
+    },
+    "pieces": {
+      "set": "playstrategy-draughts-plain"
+    },
+    "players": [
+      "yellow",
+      "green",
+      "red",
+      "blue"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "pachisi",
+      "title": "Pachisi (Standard)",
+      "players": "4",
+      "board": "Cross-shaped cloth board",
+      "win": "Move all four pieces from the Charkoni, around the board, and back home first",
+      "special": "Cowrie shell randomisation. Grace rolls on 0, 1, or 6 mouths up.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19
+        },
+        "players": [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        "setup": "home:4Y,home:4G,home:4R,home:4B"
+      },
+      "diagram": {
+        "svg": "games/pachisi/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/pachisi/variants/standard.md",
+        "meta": "/api/rules/pachisi/variants/standard.json",
+        "page": "/pachisi/variants/standard/"
+      }
+    },
+    {
+      "slug": "two-player",
+      "parent": "pachisi",
+      "title": "2-Player Pachisi",
+      "players": "2",
+      "board": "Cross-shaped cloth board",
+      "win": "Move all eight pieces (two colours) home before your opponent",
+      "special": "Each player controls two opposite arms. Rules otherwise identical to standard.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19
+        },
+        "players": [
+          "red",
+          "yellow"
+        ],
+        "setup": "home:4Y,home:4G"
+      },
+      "diagram": {
+        "svg": "games/pachisi/diagrams/svg/two-player-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/pachisi/variants/two-player.md",
+        "meta": "/api/rules/pachisi/variants/two-player.json",
+        "page": "/pachisi/variants/two-player/"
+      }
+    },
+    {
+      "slug": "seven-shell",
+      "parent": "pachisi",
+      "title": "Seven-Shell Pachisi",
+      "players": "2–4",
+      "board": "Cross-shaped cloth board",
+      "win": "Move all pieces home before your opponents",
+      "special": "Uses seven cowrie shells with named throw values. Higher potential scores than the standard six-shell form.",
+      "playable": false,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19
+        },
+        "players": [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        "setup": "home:4Y,home:4G,home:4R,home:4B"
+      },
+      "diagram": {
+        "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/pachisi/variants/seven-shell.md",
+        "meta": "/api/rules/pachisi/variants/seven-shell.json",
+        "page": "/pachisi/variants/seven-shell/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 3,
+    "rendered": 3,
+    "entries": [
+      {
+        "family": "pachisi",
+        "familyTitle": "Pachisi",
+        "variant": "seven-shell",
+        "variantTitle": "Seven-Shell Pachisi",
+        "topology": "grid",
+        "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
+        "rulesUrl": "dist/pachisi/variants/seven-shell/index.html",
+        "status": "rendered",
+        "players": "2–4"
+      },
+      {
+        "family": "pachisi",
+        "familyTitle": "Pachisi",
+        "variant": "standard",
+        "variantTitle": "Pachisi (Standard)",
+        "topology": "grid",
+        "svg": "games/pachisi/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/pachisi/variants/standard/index.html",
+        "status": "rendered",
+        "players": "4"
+      },
+      {
+        "family": "pachisi",
+        "familyTitle": "Pachisi",
+        "variant": "two-player",
+        "variantTitle": "2-Player Pachisi",
+        "topology": "grid",
+        "svg": "games/pachisi/diagrams/svg/two-player-board.svg",
+        "rulesUrl": "dist/pachisi/variants/two-player/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 3,
+    "playable": 0,
+    "withDiagram": 3,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "raumschach",
+  "parent": "chess",
+  "title": "Raumschach",
+  "players": "2",
+  "board": "5×5×5 (3D)",
+  "win": "Checkmate",
+  "special": "Three-dimensional chess on five stacked 5×5 boards. Adds the Unicorn (triagonal slider). Pawns move forward or upward; capture diagonally. No castling, no en passant, no double push.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": "expanded-boards",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 5,
+      "cols": 5,
+      "layers": 5,
+      "layer_labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": [
+      "5/5/5/PPPPP/RNKNR",
+      "5/5/5/PPPPP/BUQBU",
+      "5/5/5/5/5",
+      "buqbu/ppppp/5/5/5",
+      "rnknr/ppppp/5/5/5"
+    ],
+    "render": {
+      "cellSize": 24
+    },
+    "notation": "level-file-rank",
+    "rendering_note": "This layered setup uses the same engine.topology pattern already live for Gygax Chess (grid + layers, one FEN string per layer) and should render the static starting-position diagram now, the same way Gygax's is rendered. This does NOT solve piece movement/play: Raumschach's Rook, Bishop, and Unicorn slide arbitrary distances along the level axis and combinations of axes, which Gygax's per-piece single-step cross-level moves do not support. Play/move-generation remains a separate, larger engine task -- this frontmatter change only unblocks the rulebook diagram."
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/raumschach-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/raumschach.md",
+    "meta": "/api/rules/chess/variants/raumschach.json",
+    "page": "/chess/variants/raumschach/"
+  }
+}

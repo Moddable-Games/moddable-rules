@@ -1,0 +1,41 @@
+{
+  "slug": "canadian",
+  "parent": "draughts",
+  "title": "Canadian Draughts",
+  "players": "2",
+  "board": "12×12",
+  "win": "Capture or block all opponent pieces",
+  "special": "Largest standard board (12×12). 30 pieces per side. International rules. Longest games.",
+  "playable": true,
+  "order": 9,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 12,
+      "cols": 12
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/12/12/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "extends": "international",
+        "piecesPerPlayer": 30
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/canadian-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/canadian.md",
+    "meta": "/api/rules/draughts/variants/canadian.json",
+    "page": "/draughts/variants/canadian/"
+  }
+}

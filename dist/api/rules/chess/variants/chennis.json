@@ -1,0 +1,35 @@
+{
+  "slug": "chennis",
+  "parent": "chess",
+  "title": "Chennis",
+  "players": "2",
+  "board": "7×7",
+  "win": "Pawn reaches opponent baseline",
+  "special": "Tennis-themed chess on a 7×7 board. Win by advancing a Pawn to the opponent's back rank. A net across rank 4 prevents most pieces from crossing. Knights may jump the net freely. Designed by Couch Tomato, 2021.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 7,
+      "cols": 7
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbkqbn/ppppppp/7/7/7/PPPPPPP/RNBKQBN"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/chennis-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/chennis.md",
+    "meta": "/api/rules/chess/variants/chennis.json",
+    "page": "/chess/variants/chennis/"
+  }
+}

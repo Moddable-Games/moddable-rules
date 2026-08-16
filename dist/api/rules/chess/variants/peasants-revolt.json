@@ -1,0 +1,36 @@
+{
+  "slug": "peasants-revolt",
+  "parent": "chess",
+  "title": "Peasants' Revolt",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "White has King + 8 pawns vs Black's King + 2 Knights + 8 pawns.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "2n1k1n1/pppppppp/8/8/8/8/PPPPPPPP/4K3",
+    "castling": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/peasants-revolt-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/peasants-revolt.md",
+    "meta": "/api/rules/chess/variants/peasants-revolt.json",
+    "page": "/chess/variants/peasants-revolt/"
+  }
+}

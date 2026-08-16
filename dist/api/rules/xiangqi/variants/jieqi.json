@@ -1,0 +1,44 @@
+{
+  "slug": "jieqi",
+  "parent": "xiangqi",
+  "title": "Jieqi",
+  "players": "2",
+  "board": "9×10",
+  "win": "Checkmate the General",
+  "special": "Xiangqi with hidden information: all pieces except the General start face-down and are revealed when they first move. A growing competitive variant in China and Vietnam. Also known as Dark Chess or Cờ Úhp.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 9
+    },
+    "players": [
+      "red",
+      "black"
+    ],
+    "pieces": {
+      "set": "mce-xiangqi-fairy",
+      "vocabulary": {
+        "F": "wFD",
+        "f": "bFD",
+        "K": "wK",
+        "k": "bK"
+      }
+    },
+    "setup": "ffffkffff/9/1f5f1/f1f1f1f1f/9/9/F1F1F1F1F/1F5F1/9/FFFFKFFFF"
+  },
+  "diagram": {
+    "svg": "games/xiangqi/diagrams/svg/jieqi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/xiangqi/variants/jieqi.md",
+    "meta": "/api/rules/xiangqi/variants/jieqi.json",
+    "page": "/xiangqi/variants/jieqi/"
+  }
+}

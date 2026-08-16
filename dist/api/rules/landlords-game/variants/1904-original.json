@@ -1,0 +1,41 @@
+{
+  "slug": "1904-original",
+  "parent": "landlords-game",
+  "title": "1904 Original",
+  "players": "2–6",
+  "board": "Circular 40-space track",
+  "win": "Complete 5 circuits with the highest total wealth (lots + cash + luxuries)",
+  "special": "The pure patent ruleset — no houses, no Chance cards, lot tickets drawn at start. The ur-game.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 40
+    },
+    "players": [
+      "player1",
+      "player2"
+    ],
+    "setup": "",
+    "render": {
+      "overflow": "visible"
+    },
+    "content": {
+      "source": "landlords-game-boards.json",
+      "board": "1904-patent"
+    }
+  },
+  "diagram": {
+    "svg": "games/landlords-game/diagrams/svg/1904-original-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/landlords-game/variants/1904-original.md",
+    "meta": "/api/rules/landlords-game/variants/1904-original.json",
+    "page": "/landlords-game/variants/1904-original/"
+  }
+}

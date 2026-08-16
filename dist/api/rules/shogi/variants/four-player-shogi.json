@@ -1,0 +1,388 @@
+{
+  "slug": "four-player-shogi",
+  "parent": "shogi",
+  "title": "Four Player Shogi",
+  "players": "4",
+  "board": "cross-shaped, 189 squares (9×9 centre + four 3×9 wings)",
+  "win": "Checkmate both enemy Kings (team); or capture all other Kings (individual)",
+  "special": "4-player Shogi on a cross-shaped board. Each player commands a standard Shogi army in one 3×9 wing. East and West players swap their Rook and Bishop starting positions. Drops apply with team restrictions. Three game styles: Team-Orthogonal, Team-Diagonal, and Individual. Michael Shipley, 1999.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 15,
+      "cols": 15,
+      "voids": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          14,
+          14
+        ]
+      ],
+      "layout": "cells"
+    },
+    "players": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "pieces": {
+      "set": "mce-4player-shogi"
+    },
+    "setup": "3,yL,yN,yS,yG,yK,yG,yS,yN,yL,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rL,1,rP,9,bP,1,bL/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rL,1,rP,9,bP,1,bL/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gL,gN,gS,gG,gK,gG,gS,gN,gL,3",
+    "render": {
+      "cellSize": 22,
+      "cellColor": "checkered",
+      "labels": false,
+      "decorations": [],
+      "zones": {
+        "voids": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            12
+          ],
+          [
+            0,
+            13
+          ],
+          [
+            0,
+            14
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            1,
+            14
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            2,
+            14
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            14,
+            2
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            14,
+            13
+          ],
+          [
+            14,
+            14
+          ]
+        ]
+      },
+      "ops": [
+        {
+          "op": "cells",
+          "pattern": "checkered",
+          "light": "cell-light",
+          "dark": "cell-dark",
+          "interactive": true
+        }
+      ]
+    },
+    "pieceRotations": {
+      "red": 90,
+      "yellow": 180,
+      "blue": 270,
+      "green": 0
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#f0d9b5",
+        "cell-dark": "#b58863"
+      }
+    },
+    "plugins": {
+      "shogi": {
+        "playerCount": 4,
+        "drops": true,
+        "advancement": {
+          "0": [
+            0,
+            1
+          ],
+          "1": [
+            1,
+            0
+          ],
+          "2": [
+            -1,
+            0
+          ],
+          "3": [
+            0,
+            -1
+          ]
+        },
+        "promotionZone": 3
+      }
+    },
+    "notation": "shogi"
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/four-player-shogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/four-player-shogi.md",
+    "meta": "/api/rules/shogi/variants/four-player-shogi.json",
+    "page": "/shogi/variants/four-player-shogi/"
+  }
+}

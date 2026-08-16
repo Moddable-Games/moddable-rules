@@ -1,0 +1,40 @@
+{
+  "slug": "shatar",
+  "parent": "chess",
+  "title": "Shatar",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate (with restrictions)",
+  "special": "Mongolian chess. Check exists (shak/dug/tsod). Mate must include a shak. Knight cannot deliver mate. Bare king is a draw. Obligatory opening 1.d4 d5.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "noCheck": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/shatar-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/shatar.md",
+    "meta": "/api/rules/chess/variants/shatar.json",
+    "page": "/chess/variants/shatar/"
+  }
+}

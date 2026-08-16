@@ -1,0 +1,366 @@
+{
+  "slug": "stern-halma",
+  "title": "Stern-Halma",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2–6",
+  "status": "live",
+  "mechanics": [
+    "race",
+    "jumping",
+    "chain-movement",
+    "star-board"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "star"
+    },
+    "surface": {
+      "colors": {
+        "board-body": "#4a3728",
+        "board-rim": "#5c4636",
+        "board-felt": "#1a3a1a",
+        "centre": "#2e7d32",
+        "outline": "#1b5e20",
+        "hole": "#1b5e20",
+        "armN": "#f2e8d4",
+        "armNE": "#d4e4f0",
+        "armSE": "#e8d8ec",
+        "armS": "#f2e8d4",
+        "armSW": "#d4e4f0",
+        "armNW": "#e8d8ec"
+      }
+    },
+    "render": {
+      "cellSize": 24,
+      "labels": false
+    },
+    "pieces": {
+      "set": "fluent-emoji"
+    },
+    "players": [
+      "red",
+      "blue",
+      "green",
+      "black",
+      "purple",
+      "brown"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard-2p",
+      "parent": "stern-halma",
+      "title": "Standard 2-Player Stern-Halma",
+      "players": "2",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Step or chain-hop in six directions. No capture. Jumped pieces remain.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "star",
+          "params": {
+            "armSize": 4,
+            "spacing": 24
+          }
+        },
+        "players": [
+          "red",
+          "blue",
+          "green",
+          "black",
+          "purple",
+          "brown"
+        ],
+        "setup": {
+          "arms": [
+            "N",
+            "S"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/stern-halma/diagrams/svg/standard-2p-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/stern-halma/variants/standard-2p.md",
+        "meta": "/api/rules/stern-halma/variants/standard-2p.json",
+        "page": "/stern-halma/variants/standard-2p/"
+      }
+    },
+    {
+      "slug": "standard-3p",
+      "parent": "stern-halma",
+      "title": "Standard 3-Player Stern-Halma",
+      "players": "3",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Alternating arms used. Each player's goal is the arm directly opposite their start.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "star",
+          "params": {
+            "armSize": 4,
+            "spacing": 24
+          }
+        },
+        "players": [
+          "red",
+          "blue",
+          "green",
+          "black",
+          "purple",
+          "brown"
+        ],
+        "setup": {
+          "arms": [
+            "N",
+            "SE",
+            "SW"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/stern-halma/diagrams/svg/standard-3p-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/stern-halma/variants/standard-3p.md",
+        "meta": "/api/rules/stern-halma/variants/standard-3p.json",
+        "page": "/stern-halma/variants/standard-3p/"
+      }
+    },
+    {
+      "slug": "standard-4p",
+      "parent": "stern-halma",
+      "title": "Standard 4-Player Stern-Halma",
+      "players": "4",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Four players use diagonal arms (NE, SE, SW, NW), leaving N and S empty.",
+      "playable": false,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "star",
+          "params": {
+            "armSize": 4,
+            "spacing": 24
+          }
+        },
+        "players": [
+          "red",
+          "blue",
+          "green",
+          "black",
+          "purple",
+          "brown"
+        ],
+        "setup": {
+          "arms": [
+            "N",
+            "S",
+            "NE",
+            "SW"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/stern-halma/diagrams/svg/standard-4p-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/stern-halma/variants/standard-4p.md",
+        "meta": "/api/rules/stern-halma/variants/standard-4p.json",
+        "page": "/stern-halma/variants/standard-4p/"
+      }
+    },
+    {
+      "slug": "standard-6p",
+      "parent": "stern-halma",
+      "title": "Standard 6-Player Stern-Halma",
+      "players": "6",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "All six arms occupied. Maximum interaction; every path crosses contested territory.",
+      "playable": false,
+      "order": 4,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "star",
+          "params": {
+            "armSize": 4,
+            "spacing": 24
+          }
+        },
+        "players": [
+          "red",
+          "blue",
+          "green",
+          "black",
+          "purple",
+          "brown"
+        ],
+        "setup": {
+          "arms": [
+            "N",
+            "NE",
+            "SE",
+            "S",
+            "SW",
+            "NW"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/stern-halma/diagrams/svg/standard-6p-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/stern-halma/variants/standard-6p.md",
+        "meta": "/api/rules/stern-halma/variants/standard-6p.json",
+        "page": "/stern-halma/variants/standard-6p/"
+      }
+    },
+    {
+      "slug": "super-chinese-checkers",
+      "parent": "stern-halma",
+      "title": "Super Chinese Checkers",
+      "players": "2–6",
+      "board": "6-pointed star (121 holes)",
+      "win": "Move all 10 pieces into the opposite arm",
+      "special": "Extended hop: pieces may jump multiple empty spaces in a line before and after clearing a hurdle.",
+      "playable": false,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "star",
+          "params": {
+            "armSize": 4,
+            "spacing": 24
+          }
+        },
+        "players": [
+          "red",
+          "blue",
+          "green",
+          "black",
+          "purple",
+          "brown"
+        ],
+        "setup": {
+          "arms": [
+            "N",
+            "S"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/stern-halma/variants/super-chinese-checkers.md",
+        "meta": "/api/rules/stern-halma/variants/super-chinese-checkers.json",
+        "page": "/stern-halma/variants/super-chinese-checkers/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 5,
+    "rendered": 5,
+    "entries": [
+      {
+        "family": "stern-halma",
+        "familyTitle": "Stern-Halma",
+        "variant": "standard-2p",
+        "variantTitle": "Standard 2-Player Stern-Halma",
+        "topology": "graph",
+        "svg": "games/stern-halma/diagrams/svg/standard-2p-board.svg",
+        "rulesUrl": "dist/stern-halma/variants/standard-2p/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "stern-halma",
+        "familyTitle": "Stern-Halma",
+        "variant": "standard-3p",
+        "variantTitle": "Standard 3-Player Stern-Halma",
+        "topology": "graph",
+        "svg": "games/stern-halma/diagrams/svg/standard-3p-board.svg",
+        "rulesUrl": "dist/stern-halma/variants/standard-3p/index.html",
+        "status": "rendered",
+        "players": "3"
+      },
+      {
+        "family": "stern-halma",
+        "familyTitle": "Stern-Halma",
+        "variant": "standard-4p",
+        "variantTitle": "Standard 4-Player Stern-Halma",
+        "topology": "graph",
+        "svg": "games/stern-halma/diagrams/svg/standard-4p-board.svg",
+        "rulesUrl": "dist/stern-halma/variants/standard-4p/index.html",
+        "status": "rendered",
+        "players": "4"
+      },
+      {
+        "family": "stern-halma",
+        "familyTitle": "Stern-Halma",
+        "variant": "standard-6p",
+        "variantTitle": "Standard 6-Player Stern-Halma",
+        "topology": "graph",
+        "svg": "games/stern-halma/diagrams/svg/standard-6p-board.svg",
+        "rulesUrl": "dist/stern-halma/variants/standard-6p/index.html",
+        "status": "rendered",
+        "players": "6"
+      },
+      {
+        "family": "stern-halma",
+        "familyTitle": "Stern-Halma",
+        "variant": "super-chinese-checkers",
+        "variantTitle": "Super Chinese Checkers",
+        "topology": "graph",
+        "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
+        "rulesUrl": "dist/stern-halma/variants/super-chinese-checkers/index.html",
+        "status": "rendered",
+        "players": "2–6"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 5,
+    "playable": 0,
+    "withDiagram": 5,
+    "topologies": [
+      "graph"
+    ]
+  }
+}

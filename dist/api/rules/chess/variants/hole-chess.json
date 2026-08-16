@@ -1,0 +1,254 @@
+{
+  "slug": "hole-chess",
+  "parent": "chess",
+  "title": "Hole Chess",
+  "players": "2",
+  "board": "44 squares (custom board with 2 holes)",
+  "win": "Capture or checkmate the opponent's King",
+  "special": "44-square chess variant on a custom board with two permanent holes — squares pieces cannot occupy, but through which pieces can be 'sucked.' The Queen, Rook, and PS-Bishop (Dragon Horse) each have a Two-Action Rule: they may move normally AND pull an enemy piece in their line of fire into a hole on the same turn. Named for the 44-square contest. Gary K. Gifford, 2003.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 7,
+      "voids": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          9,
+          6
+        ]
+      ],
+      "blockers": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 36,
+      "zones": {
+        "voids": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            6
+          ]
+        ]
+      }
+    },
+    "setup": "3k3/2rqb2/1ppppp1/7/7/7/7/1PPPPP1/2RQB2/3K3"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/hole-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/hole-chess.md",
+    "meta": "/api/rules/chess/variants/hole-chess.json",
+    "page": "/chess/variants/hole-chess/"
+  }
+}

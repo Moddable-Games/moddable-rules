@@ -1,0 +1,39 @@
+{
+  "slug": "twelve-mens-morris",
+  "parent": "morris",
+  "title": "Twelve Men's Morris",
+  "players": "2",
+  "board": "Three concentric squares with diagonals (24 intersections)",
+  "win": "Reduce opponent to 2 pieces or block all their moves",
+  "special": "Identical board to Nine Men's Morris but with corner diagonal connections. 12 pieces per side. No flying rule.",
+  "playable": false,
+  "order": 4,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 3,
+        "midpoints": true,
+        "diagonals": true
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/morris/diagrams/svg/twelve-mens-morris-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/morris/variants/twelve-mens-morris.md",
+    "meta": "/api/rules/morris/variants/twelve-mens-morris.json",
+    "page": "/morris/variants/twelve-mens-morris/"
+  }
+}

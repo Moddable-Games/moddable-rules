@@ -1,0 +1,34 @@
+{
+  "slug": "hypergammon",
+  "parent": "backgammon",
+  "title": "Hypergammon",
+  "players": "2",
+  "board": "24-point board",
+  "win": "Bear off all 3 pieces before your opponent",
+  "special": "3 pieces per side placed on the last three points. Games last 10–15 minutes. Fully solved by computer.",
+  "playable": false,
+  "order": 6,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 24
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "0:1W,1:1W,2:1W,21:1B,22:1B,23:1B"
+  },
+  "diagram": {
+    "svg": "games/backgammon/diagrams/svg/hypergammon-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/backgammon/variants/hypergammon.md",
+    "meta": "/api/rules/backgammon/variants/hypergammon.json",
+    "page": "/backgammon/variants/hypergammon/"
+  }
+}

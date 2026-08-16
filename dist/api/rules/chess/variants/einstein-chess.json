@@ -1,0 +1,35 @@
+{
+  "slug": "einstein-chess",
+  "parent": "chess",
+  "title": "Einstein Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Non-capturing moves demote pieces; captures promote them (Q→R→B→N→P / P→N→B→R→Q).",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/einstein-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/einstein-chess.md",
+    "meta": "/api/rules/chess/variants/einstein-chess.json",
+    "page": "/chess/variants/einstein-chess/"
+  }
+}

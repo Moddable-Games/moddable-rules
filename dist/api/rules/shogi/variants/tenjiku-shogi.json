@@ -1,0 +1,41 @@
+{
+  "slug": "tenjiku-shogi",
+  "parent": "shogi",
+  "title": "Tenjiku Shogi",
+  "players": "2",
+  "board": "16×16",
+  "win": "Capture all opponent royal pieces",
+  "special": "Medieval Japanese 16×16 Shogi variant derived from Chu Shogi. Introduces Fire Demons (burn all adjacent enemies after moving; passively burn enemies that move adjacent to them), hierarchical jumping generals, and Lion Hawk / Free Eagle double-movers. No drops. Extinction royalty.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 16,
+      "cols": 16
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "[ln][kn][fl][ig][cg][sg][gg][de][ki][gg][sg][cg][ig][fl][kn][ln]/[rc]1[cs][cs]1[bt][ph][fk][li][kr][bt]1[cs][cs]1[rc]/[ss][vt][bi][dh][dk][wb][fd][fe][lw][fd][wb][dk][dh][bi][vt][ss]/[sm][vm][rk][hf][se][bg][rg][vg][gr][rg][bg][se][hf][rk][vm][sm]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/4[dg]6[dg]4/16/16/16/16/4[DG]6[DG]4/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[SM][VM][RK][HF][SE][BG][RG][GR][VG][RG][BG][SE][HF][RK][VM][SM]/[SS][VT][BI][DH][DK][WB][FD][LW][FE][FD][WB][DK][DH][BI][VT][SS]/[RC]1[CS][CS]1[BT][KR][LI][FK][PH][BT]1[CS][CS]1[RC]/[LN][KN][FL][IG][CG][SG][GG][KI][DE][GG][SG][CG][IG][FL][KN][LN]",
+    "render": {
+      "cellSize": 20
+    },
+    "pieces": {
+      "set": "mce-shogi-fairy"
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/tenjiku-shogi.md",
+    "meta": "/api/rules/shogi/variants/tenjiku-shogi.json",
+    "page": "/shogi/variants/tenjiku-shogi/"
+  }
+}

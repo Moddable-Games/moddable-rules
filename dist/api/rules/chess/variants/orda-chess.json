@@ -1,0 +1,152 @@
+{
+  "slug": "orda-chess",
+  "parent": "chess",
+  "title": "Orda Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Asymmetric: White plays standard. Black commands the Horde — divergent movers that move one way and capture another.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "lhaykahl/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR",
+    "castling": false,
+    "vocabulary": {
+      "yurt": {
+        "symbols": {
+          "0": "Y",
+          "1": "y"
+        }
+      },
+      "lancer": {
+        "symbols": {
+          "0": "L",
+          "1": "l"
+        }
+      },
+      "archer": {
+        "symbols": {
+          "0": "H",
+          "1": "h"
+        }
+      },
+      "kheshig": {
+        "symbols": {
+          "0": "A",
+          "1": "a"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "yurt": {
+            "divergent": {
+              "move": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              "capture": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              }
+            }
+          },
+          "lancer": {
+            "divergent": {
+              "move": {
+                "type": "leaper",
+                "offsets": "knight"
+              },
+              "capture": {
+                "type": "rider",
+                "dirs": "orthogonal"
+              }
+            }
+          },
+          "archer": {
+            "divergent": {
+              "move": {
+                "type": "leaper",
+                "offsets": "knight"
+              },
+              "capture": {
+                "type": "rider",
+                "dirs": "diagonal"
+              }
+            }
+          },
+          "kheshig": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "leaper",
+                "offsets": "knight"
+              },
+              {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/orda-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/orda-chess.md",
+    "meta": "/api/rules/chess/variants/orda-chess.json",
+    "page": "/chess/variants/orda-chess/"
+  }
+}

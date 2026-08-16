@@ -1,0 +1,47 @@
+{
+  "slug": "spanish",
+  "parent": "draughts",
+  "title": "Spanish Draughts",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture or block all opponent pieces",
+  "special": "Flying kings. Men cannot capture backwards. Majority rule with king preference.",
+  "playable": true,
+  "order": 12,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "piecesPerPlayer": 12,
+        "directions": "diagonal",
+        "manCapture": "forward",
+        "manMove": "forward",
+        "forcedCapture": true,
+        "maximalCapture": true,
+        "majorityPrefersKing": true,
+        "flyingKings": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/spanish-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/spanish.md",
+    "meta": "/api/rules/draughts/variants/spanish.json",
+    "page": "/draughts/variants/spanish/"
+  }
+}

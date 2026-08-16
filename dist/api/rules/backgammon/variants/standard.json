@@ -1,0 +1,34 @@
+{
+  "slug": "standard",
+  "parent": "backgammon",
+  "title": "Standard Backgammon",
+  "players": "2",
+  "board": "24-point board",
+  "win": "Bear off all 15 pieces before your opponent",
+  "special": "Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 24
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
+  },
+  "diagram": {
+    "svg": "games/backgammon/diagrams/svg/standard-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/backgammon/variants/standard.md",
+    "meta": "/api/rules/backgammon/variants/standard.json",
+    "page": "/backgammon/variants/standard/"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "king-of-the-hill",
+  "parent": "chess",
+  "title": "King of the Hill",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate or king reaches centre 4 squares",
+  "special": "Moving your king to d4/d5/e4/e5 is an instant win.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "openingBook": {
+          "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": [
+            "e2e4",
+            "d2d4"
+          ],
+          "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": [
+            "e7e5",
+            "d7d5"
+          ]
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/king-of-the-hill-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/king-of-the-hill.md",
+    "meta": "/api/rules/chess/variants/king-of-the-hill.json",
+    "page": "/chess/variants/king-of-the-hill/"
+  }
+}

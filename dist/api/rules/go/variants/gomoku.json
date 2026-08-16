@@ -1,0 +1,46 @@
+{
+  "slug": "gomoku",
+  "parent": "go",
+  "title": "Gomoku",
+  "players": "2",
+  "board": "15×15",
+  "win": "Five in an unbroken row",
+  "special": "Black plays first. Stones are placed, never moved. No captures.",
+  "playable": true,
+  "order": 5,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 15,
+      "cols": 15,
+      "layout": "intersections"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": "",
+    "plugins": {
+      "go": {
+        "komi": 0,
+        "scoring": "none",
+        "captures": false,
+        "allowPass": false,
+        "suicideAllowed": true,
+        "superko": false
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/gomoku-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/gomoku.md",
+    "meta": "/api/rules/go/variants/gomoku.json",
+    "page": "/go/variants/gomoku/"
+  }
+}

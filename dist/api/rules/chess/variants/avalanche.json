@@ -1,0 +1,35 @@
+{
+  "slug": "avalanche",
+  "parent": "chess",
+  "title": "Avalanche Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Each turn has two parts: first make a legal chess move, then push one of the opponent's pawns one square forward. The push is obligatory. If pushing a pawn leaves your King in check, you lose immediately.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/avalanche-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/avalanche.md",
+    "meta": "/api/rules/chess/variants/avalanche.json",
+    "page": "/chess/variants/avalanche/"
+  }
+}

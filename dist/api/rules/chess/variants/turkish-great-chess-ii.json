@@ -1,0 +1,38 @@
+{
+  "slug": "turkish-great-chess-ii",
+  "parent": "chess",
+  "title": "Turkish Great Chess II (Atranj)",
+  "players": "2",
+  "board": "10×10",
+  "win": "Checkmate",
+  "special": "Historical large chess variant known as Atranj or Qatranj, described by H. J. R. Murray in A History of Chess. Played on a 10×10 board with an expanded piece set including the Prince (moves as Rook, Bishop, or Knight), Kotwal (Bishop or Knight), and Urdabegini (moves one square toward the opposing King). Despite its Turkish classification in Murray's work, the source manuscript is Indian. No castling.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 30
+    },
+    "setup": "rnbpqkpbnr/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RNBPQKPBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/turkish-great-chess-ii-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/turkish-great-chess-ii.md",
+    "meta": "/api/rules/chess/variants/turkish-great-chess-ii.json",
+    "page": "/chess/variants/turkish-great-chess-ii/"
+  }
+}

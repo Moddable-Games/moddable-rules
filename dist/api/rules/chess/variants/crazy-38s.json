@@ -1,0 +1,37 @@
+{
+  "slug": "crazy-38s",
+  "parent": "chess",
+  "title": "Crazy 38's",
+  "players": "2",
+  "board": "38-square loop board",
+  "win": "Checkmate the opponent's King OR move your King to the opponent's Home Square",
+  "special": "38-square chess variant by Ben Good, entered in the 1998 38 Squares Contest. Uses Shogi-style drops. Unique piece set: King, Rook, Bishop, Knight, Silver General, Gold General, and 4 Pawns per side — with movements distinct from standard Shogi. The board has a built-in loop connection that Rooks can exploit. Pawns promote to Queen only on the opponent's Home Square; captured Queens revert to Pawns before being dropped. Dual win condition: checkmate OR King reaches opponent's Home Square.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "cells": 38,
+      "loop": true,
+      "missing_squares": true
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "notation": "algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/crazy-38s-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/crazy-38s.md",
+    "meta": "/api/rules/chess/variants/crazy-38s.json",
+    "page": "/chess/variants/crazy-38s/"
+  }
+}

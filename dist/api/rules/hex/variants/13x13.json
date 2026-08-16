@@ -1,0 +1,39 @@
+{
+  "slug": "13x13",
+  "parent": "hex",
+  "title": "Hex (13×13)",
+  "players": "2",
+  "board": "13×13 rhombus",
+  "win": "Connect opposite edges",
+  "special": "Large board. 169 cells. Deep strategic play.",
+  "playable": false,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "rhombus",
+      "rows": 13,
+      "cols": 13
+    },
+    "render": {
+      "cellSize": 17
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/hex/diagrams/svg/13x13-board.svg",
+    "topology": "hex",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/hex/variants/13x13.md",
+    "meta": "/api/rules/hex/variants/13x13.json",
+    "page": "/hex/variants/13x13/"
+  }
+}

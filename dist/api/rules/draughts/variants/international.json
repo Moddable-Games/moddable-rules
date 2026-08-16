@@ -1,0 +1,48 @@
+{
+  "slug": "international",
+  "parent": "draughts",
+  "title": "International Draughts",
+  "players": "2",
+  "board": "10×10",
+  "win": "Capture or block all opponent pieces",
+  "special": "Flying kings. Mandatory longest chain. Men capture backwards. Delayed removal.",
+  "playable": true,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "piecesPerPlayer": 20,
+        "directions": "diagonal",
+        "manCapture": "all",
+        "manMove": "forward",
+        "captureBackward": true,
+        "forcedCapture": true,
+        "maximalCapture": true,
+        "flyingKings": true,
+        "removeImmediately": false
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/international-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/international.md",
+    "meta": "/api/rules/draughts/variants/international.json",
+    "page": "/draughts/variants/international/"
+  }
+}

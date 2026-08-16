@@ -1,0 +1,63 @@
+{
+  "slug": "brp",
+  "title": "Basic Roleplaying",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "2–6",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "skill-based"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "data/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "brp",
+        "familyTitle": "Basic Roleplaying",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/brp/diagrams/svg/brp-character-sheet.svg",
+        "rulesUrl": "dist/brp/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "brp",
+        "familyTitle": "Basic Roleplaying",
+        "variant": "reference",
+        "variantTitle": "Basic Roleplaying",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/brp/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

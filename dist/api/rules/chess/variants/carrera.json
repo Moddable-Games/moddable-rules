@@ -1,0 +1,82 @@
+{
+  "slug": "carrera",
+  "parent": "chess",
+  "title": "Carrera's Chess",
+  "players": "2",
+  "board": "10×8",
+  "win": "Checkmate",
+  "special": "1617 historical variant on a 10×8 board. Adds Champion (Rook+Knight) and Centaur (Bishop+Knight). No castling, no en passant. A pawn double move is forbidden if it would both block a check and pass through an enemy pawn’s capture square.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 36
+    },
+    "setup": "rAnbqkbnCr/pppppppppp/10/10/10/10/PPPPPPPPPP/RANBQKBNCR",
+    "castling": false,
+    "enPassant": false,
+    "promotionChoices": [
+      "queen",
+      "rook",
+      "bishop",
+      "knight",
+      "centaur",
+      "champion"
+    ],
+    "vocabulary": {
+      "centaur": {
+        "symbols": {
+          "0": "A",
+          "1": "a"
+        }
+      },
+      "champion": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "centaur": {
+            "type": "compose",
+            "parts": [
+              "bishop",
+              "knight"
+            ]
+          },
+          "champion": {
+            "type": "compose",
+            "parts": [
+              "rook",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/carrera-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/carrera.md",
+    "meta": "/api/rules/chess/variants/carrera.json",
+    "page": "/chess/variants/carrera/"
+  }
+}

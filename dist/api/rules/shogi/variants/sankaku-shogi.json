@@ -1,0 +1,35 @@
+{
+  "slug": "sankaku-shogi",
+  "parent": "shogi",
+  "title": "Sankaku Shogi",
+  "players": "2",
+  "board": "44-cell triangular",
+  "win": "Capture the opponent's Emperor",
+  "special": "Modern Shogi variant on a 44-cell triangular board. 13 pieces per side: Emperor (leaps to any cell), Chariot (slides orthogonally, runs down Soldiers), Cavalry (leaps to second orthogonal), General (steps to any adjacent cell), and Soldiers. Captured pieces are removed permanently. Soldiers and Cavalry promote to General upon any capture.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "triangular",
+      "cells": 44
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "notation": "algebraic",
+    "drops": false
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
+    "topology": "triangular",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/sankaku-shogi.md",
+    "meta": "/api/rules/shogi/variants/sankaku-shogi.json",
+    "page": "/shogi/variants/sankaku-shogi/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "pawns-only",
+  "parent": "chess",
+  "title": "Pawns Only",
+  "players": "2",
+  "board": "8×8",
+  "win": "Promote a pawn",
+  "special": "Kings and pawns only. First to promote wins instantly.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3",
+    "castling": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/pawns-only-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/pawns-only.md",
+    "meta": "/api/rules/chess/variants/pawns-only.json",
+    "page": "/chess/variants/pawns-only/"
+  }
+}

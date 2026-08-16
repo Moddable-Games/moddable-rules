@@ -10,14 +10,19 @@ All structured data is available at predictable URLs under `/api/`:
 
 - Discovery index: https://rules.moddable.games/api/index.json
 - Game catalogue: https://rules.moddable.games/api/catalogue.json
+- Enriched data (all families): https://rules.moddable.games/api/data.json
+- Board diagrams: https://rules.moddable.games/api/diagrams.json
 - Oracle tables (458): https://rules.moddable.games/api/oracles.json
 - RPG entities (3,385): https://rules.moddable.games/api/entities.json
 - Full-text search: https://rules.moddable.games/api/search-index.json
+- Lightweight search (autocomplete): https://rules.moddable.games/api/search-index-lite.json
 
 Per-game content follows the pattern:
 - Metadata: /api/rules/{slug}/meta.json
+- Enriched data: /api/rules/{slug}/data.json (variants + engine config + diagrams + stats)
 - Full rules: /api/rules/{slug}/rulebook.md
-- Variants: /api/rules/{slug}/variants/{variant}.md
+- Variant rules: /api/rules/{slug}/variants/{variant}.md
+- Variant metadata: /api/rules/{slug}/variants/{variant}.json (engine, topology, setup, playable)
 - Data files: /api/rules/{slug}/data/{file}.json
 - Oracle tables: /api/rules/{slug}/oracles.json
 

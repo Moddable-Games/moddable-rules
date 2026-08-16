@@ -1,0 +1,42 @@
+{
+  "slug": "hexapawn",
+  "parent": "chess",
+  "title": "Hexapawn",
+  "players": "2",
+  "board": "3×3",
+  "win": "Advance a Pawn to the last rank, OR leave opponent with no legal moves",
+  "special": "3×3 pawn-only game invented by Martin Gardner (Scientific American, March 1962) as a teaching tool for minimax strategy and machine learning. Six pawns total (3 per side). Solved game: Black wins with perfect play. No double-step; reaching the far rank wins immediately.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 3,
+      "cols": 3
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 50
+    },
+    "setup": "ppp/3/PPP",
+    "castling": false,
+    "enPassant": false,
+    "noCheck": true,
+    "stalemateMeaning": "loss"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/hexapawn-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/hexapawn.md",
+    "meta": "/api/rules/chess/variants/hexapawn.json",
+    "page": "/chess/variants/hexapawn/"
+  }
+}

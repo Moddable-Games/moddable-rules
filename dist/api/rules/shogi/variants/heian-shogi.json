@@ -1,0 +1,44 @@
+{
+  "slug": "heian-shogi",
+  "parent": "shogi",
+  "title": "Heian Shogi",
+  "players": "2",
+  "board": "9×8",
+  "win": "Checkmate or bare the opponent's King",
+  "special": "The earliest reconstructed form of Japanese chess (~8th–9th century). 9×8 board, 18 pieces per side. No Rooks, no Bishops, no drops. All pieces promote to Gold General in the far 3 ranks. Win by checkmate or by baring the opponent's King.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 9
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "lnsgkgsnl/9/ppppppppp/9/9/PPPPPPPPP/9/LNSGKGSNL",
+    "render": {
+      "cellSize": 36
+    },
+    "plugins": {
+      "shogi": {
+        "promotionZone": 3,
+        "drops": false
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/heian-shogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/heian-shogi.md",
+    "meta": "/api/rules/shogi/variants/heian-shogi.json",
+    "page": "/shogi/variants/heian-shogi/"
+  }
+}

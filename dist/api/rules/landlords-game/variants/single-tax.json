@@ -1,0 +1,41 @@
+{
+  "slug": "single-tax",
+  "parent": "landlords-game",
+  "title": "Single Tax",
+  "players": "2–4",
+  "board": "Circular 40-space track",
+  "win": "Collective — all players win when public ownership is complete and wages are maximised",
+  "special": "Magie's intended lesson: play mid-game by vote. Land rents fund public acquisition of utilities, railroads, and colleges. Wages rise progressively.",
+  "playable": false,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 40
+    },
+    "players": [
+      "player1",
+      "player2"
+    ],
+    "setup": "",
+    "render": {
+      "overflow": "visible"
+    },
+    "content": {
+      "source": "landlords-game-boards.json",
+      "board": "1904-patent"
+    }
+  },
+  "diagram": {
+    "svg": "games/landlords-game/diagrams/svg/single-tax-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/landlords-game/variants/single-tax.md",
+    "meta": "/api/rules/landlords-game/variants/single-tax.json",
+    "page": "/landlords-game/variants/single-tax/"
+  }
+}

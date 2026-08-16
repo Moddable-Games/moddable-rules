@@ -1,0 +1,34 @@
+{
+  "slug": "chouette",
+  "parent": "backgammon",
+  "title": "Chouette",
+  "players": "3–6",
+  "board": "24-point board",
+  "win": "Accumulate the most points across multiple games as the box, or advance to become the box",
+  "special": "Multiplayer format: one player (the box) faces a team. The box rotates when they lose. Consultation rules vary.",
+  "playable": false,
+  "order": 8,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 24
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
+  },
+  "diagram": {
+    "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/backgammon/variants/chouette.md",
+    "meta": "/api/rules/backgammon/variants/chouette.json",
+    "page": "/backgammon/variants/chouette/"
+  }
+}

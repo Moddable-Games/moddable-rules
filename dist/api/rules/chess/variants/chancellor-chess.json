@@ -1,0 +1,66 @@
+{
+  "slug": "chancellor-chess",
+  "parent": "chess",
+  "title": "Chancellor Chess",
+  "players": "2",
+  "board": "9×9",
+  "win": "Checkmate",
+  "special": "9×9 chess variant published by Ben Foster (1889). Adds one Chancellor (Rook+Knight compound) per side, placed to the right of the King. Black squares are in the corners. Castling: King moves 2 squares, Rook moves 3. Pawns may promote to Chancellor.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 36
+    },
+    "setup": "rnbqkcbnr/ppppppppp/9/9/9/9/9/PPPPPPPPP/RNBQKCBNR",
+    "promotionChoices": [
+      "queen",
+      "rook",
+      "bishop",
+      "knight",
+      "chancellor"
+    ],
+    "vocabulary": {
+      "chancellor": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "chancellor": {
+            "type": "compose",
+            "parts": [
+              "rook",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/chancellor-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/chancellor-chess.md",
+    "meta": "/api/rules/chess/variants/chancellor-chess.json",
+    "page": "/chess/variants/chancellor-chess/"
+  }
+}

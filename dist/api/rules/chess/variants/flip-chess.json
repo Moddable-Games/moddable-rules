@@ -1,0 +1,36 @@
+{
+  "slug": "flip-chess",
+  "parent": "chess",
+  "title": "Flip Chess",
+  "players": "2",
+  "board": "38 squares (unusual shape)",
+  "win": "Bare King loses",
+  "special": "Chess variant on a 38-square board with an unusual shape. 'Bare king loses' — a player whose King is the only piece remaining loses immediately, regardless of whether they are in check. No initial double Pawn moves. Companion to Crazy 38's (both are 38-square chess variants by John William Brown). Acclaimed 38-square variant; Java applet implementation by Ed Friedlander on chessvariants.com. Created 1999.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "cells": 38,
+      "missing_squares": true
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "notation": "algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/flip-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/flip-chess.md",
+    "meta": "/api/rules/chess/variants/flip-chess.json",
+    "page": "/chess/variants/flip-chess/"
+  }
+}

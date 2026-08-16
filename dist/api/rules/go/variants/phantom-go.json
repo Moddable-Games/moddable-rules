@@ -1,0 +1,36 @@
+{
+  "slug": "phantom-go",
+  "parent": "go",
+  "title": "Phantom Go",
+  "players": "2 + referee",
+  "board": "9×9 or 13×13",
+  "win": "Most territory (standard scoring)",
+  "special": "Fog of war. Players cannot see opponent stones. A referee mediates all moves.",
+  "playable": false,
+  "order": 8,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9,
+      "layout": "intersections"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/phantom-go-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/phantom-go.md",
+    "meta": "/api/rules/go/variants/phantom-go.json",
+    "page": "/go/variants/phantom-go/"
+  }
+}

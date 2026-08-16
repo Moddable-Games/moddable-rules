@@ -1,0 +1,79 @@
+{
+  "slug": "wildebeest",
+  "parent": "chess",
+  "title": "Standard Wildebeest Chess",
+  "players": "2",
+  "board": "11x10",
+  "win": "Checkmate the opponent's king",
+  "special": "An 11×10 board. Camels replace bishops; Wildebeests (Knight+Camel compound) flank the queen.",
+  "playable": true,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 11
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 30
+    },
+    "setup": "rncwqkwcnr1/ppppppppppp/11/11/11/11/11/11/PPPPPPPPPPP/RNCWQKWCNR1",
+    "promotionChoices": [
+      "queen",
+      "rook",
+      "knight",
+      "camel",
+      "wildebeest"
+    ],
+    "vocabulary": {
+      "camel": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      },
+      "wildebeest": {
+        "symbols": {
+          "0": "W",
+          "1": "w"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "camel": {
+            "type": "leaper",
+            "offsets": "camel"
+          },
+          "wildebeest": {
+            "type": "compose",
+            "parts": [
+              "knight",
+              {
+                "type": "leaper",
+                "offsets": "camel"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/wildebeest-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/wildebeest.md",
+    "meta": "/api/rules/chess/variants/wildebeest.json",
+    "page": "/chess/variants/wildebeest/"
+  }
+}

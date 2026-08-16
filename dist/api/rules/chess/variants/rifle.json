@@ -1,0 +1,35 @@
+{
+  "slug": "rifle",
+  "parent": "chess",
+  "title": "Rifle Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Capturing pieces stay on their square — they 'shoot' the target.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/rifle-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/rifle.md",
+    "meta": "/api/rules/chess/variants/rifle.json",
+    "page": "/chess/variants/rifle/"
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "slug": "chu-shogi",
+  "parent": "shogi",
+  "title": "Chu Shogi",
+  "players": "2",
+  "board": "12×12",
+  "win": "Capture all opponent royal pieces (King and any Prince)",
+  "special": "Historical Japanese chess, dominant for centuries before modern Shogi. 46 pieces of 21 types per side on a 12×12 board. No drops. Features the powerful Lion (double-move, can capture twice) with special trading restrictions. Optional promotion to predetermined promoted forms in the far 4 ranks.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 12,
+      "cols": 12
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "lfcsgekgscfl/a1b1txot1b1a/mvrhdqndhrvm/pppppppppppp/3i4i3/12/12/3I4I3/PPPPPPPPPPPP/MVRHDNQDHRVM/A1B1TOXT1B1A/LFCSGKEGSCFL",
+    "render": {
+      "cellSize": 28
+    },
+    "vocabulary": {
+      "king": {
+        "symbols": {
+          "0": "K",
+          "1": "k"
+        }
+      },
+      "gold": {
+        "symbols": {
+          "0": "G",
+          "1": "g"
+        }
+      },
+      "silver": {
+        "symbols": {
+          "0": "S",
+          "1": "s"
+        }
+      },
+      "copper": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      },
+      "leopard": {
+        "symbols": {
+          "0": "F",
+          "1": "f"
+        }
+      },
+      "lance": {
+        "symbols": {
+          "0": "L",
+          "1": "l"
+        }
+      },
+      "reverse_chariot": {
+        "symbols": {
+          "0": "A",
+          "1": "a"
+        }
+      },
+      "bishop": {
+        "symbols": {
+          "0": "B",
+          "1": "b"
+        }
+      },
+      "blind_tiger": {
+        "symbols": {
+          "0": "T",
+          "1": "t"
+        }
+      },
+      "kirin": {
+        "symbols": {
+          "0": "X",
+          "1": "x"
+        }
+      },
+      "phoenix": {
+        "symbols": {
+          "0": "O",
+          "1": "o"
+        }
+      },
+      "side_mover": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      },
+      "vertical_mover": {
+        "symbols": {
+          "0": "V",
+          "1": "v"
+        }
+      },
+      "rook": {
+        "symbols": {
+          "0": "R",
+          "1": "r"
+        }
+      },
+      "dragon_horse": {
+        "symbols": {
+          "0": "H",
+          "1": "h"
+        }
+      },
+      "dragon_king": {
+        "symbols": {
+          "0": "D",
+          "1": "d"
+        }
+      },
+      "lion": {
+        "symbols": {
+          "0": "N",
+          "1": "n"
+        }
+      },
+      "queen": {
+        "symbols": {
+          "0": "Q",
+          "1": "q"
+        }
+      },
+      "pawn": {
+        "symbols": {
+          "0": "P",
+          "1": "p"
+        }
+      },
+      "go_between": {
+        "symbols": {
+          "0": "I",
+          "1": "i"
+        }
+      },
+      "elephant": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      }
+    },
+    "plugins": {
+      "shogi": {
+        "drops": false,
+        "promotionZone": 4,
+        "pieceMoves": {
+          "copper": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "directional": true
+          },
+          "leopard": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "reverse_chariot": {
+            "type": "rider",
+            "dirs": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "blind_tiger": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "directional": true
+          },
+          "kirin": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -2,
+                    0
+                  ],
+                  [
+                    2,
+                    0
+                  ],
+                  [
+                    0,
+                    -2
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ]
+              }
+            ]
+          },
+          "phoenix": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              },
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -2,
+                    -2
+                  ],
+                  [
+                    -2,
+                    2
+                  ],
+                  [
+                    2,
+                    -2
+                  ],
+                  [
+                    2,
+                    2
+                  ]
+                ]
+              }
+            ]
+          },
+          "side_mover": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              },
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "vertical_mover": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              },
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "dragon_horse": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              {
+                "type": "rider",
+                "dirs": "orthogonal",
+                "maxSteps": 1
+              }
+            ]
+          },
+          "dragon_king": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "orthogonal"
+              },
+              {
+                "type": "rider",
+                "dirs": "diagonal",
+                "maxSteps": 1
+              }
+            ]
+          },
+          "lion": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -2,
+                -2
+              ],
+              [
+                -2,
+                -1
+              ],
+              [
+                -2,
+                0
+              ],
+              [
+                -2,
+                1
+              ],
+              [
+                -2,
+                2
+              ],
+              [
+                -1,
+                -2
+              ],
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                -1,
+                2
+              ],
+              [
+                0,
+                -2
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                -2
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                -2
+              ],
+              [
+                2,
+                -1
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                2,
+                2
+              ]
+            ]
+          },
+          "queen": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "go_between": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "elephant": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "directional": true
+          },
+          "promoted_copper": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "promoted_leopard": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "promoted_lance": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              },
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ]
+                ],
+                "directional": true
+              }
+            ]
+          },
+          "promoted_reverse_chariot": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              },
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "directional": true
+              }
+            ]
+          },
+          "promoted_blind_tiger": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1
+          },
+          "promoted_kirin": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "promoted_phoenix": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "promoted_side_mover": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              }
+            ]
+          },
+          "promoted_vertical_mover": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "promoted_pawn": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "directional": true
+          },
+          "promoted_go_between": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "directional": true
+          },
+          "promoted_elephant": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/chu-shogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/chu-shogi.md",
+    "meta": "/api/rules/shogi/variants/chu-shogi.json",
+    "page": "/shogi/variants/chu-shogi/"
+  }
+}

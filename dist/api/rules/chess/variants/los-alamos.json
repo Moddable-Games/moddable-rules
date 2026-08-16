@@ -1,0 +1,38 @@
+{
+  "slug": "los-alamos",
+  "parent": "chess",
+  "title": "Los Alamos",
+  "players": "2",
+  "board": "6×6",
+  "win": "Checkmate",
+  "special": "First computer chess (1956). 6x6 board, no Bishops, no castling.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 6,
+      "cols": 6
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnqknr/pppppp/6/6/PPPPPP/RNQKNR",
+    "castling": false,
+    "enPassant": false,
+    "doubleStep": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/los-alamos-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/los-alamos.md",
+    "meta": "/api/rules/chess/variants/los-alamos.json",
+    "page": "/chess/variants/los-alamos/"
+  }
+}

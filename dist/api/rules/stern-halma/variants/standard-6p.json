@@ -1,0 +1,51 @@
+{
+  "slug": "standard-6p",
+  "parent": "stern-halma",
+  "title": "Standard 6-Player Stern-Halma",
+  "players": "6",
+  "board": "6-pointed star (121 holes)",
+  "win": "Move all 10 pieces into the opposite arm",
+  "special": "All six arms occupied. Maximum interaction; every path crosses contested territory.",
+  "playable": false,
+  "order": 4,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "star",
+      "params": {
+        "armSize": 4,
+        "spacing": 24
+      }
+    },
+    "players": [
+      "red",
+      "blue",
+      "green",
+      "black",
+      "purple",
+      "brown"
+    ],
+    "setup": {
+      "arms": [
+        "N",
+        "NE",
+        "SE",
+        "S",
+        "SW",
+        "NW"
+      ]
+    }
+  },
+  "diagram": {
+    "svg": "games/stern-halma/diagrams/svg/standard-6p-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/stern-halma/variants/standard-6p.md",
+    "meta": "/api/rules/stern-halma/variants/standard-6p.json",
+    "page": "/stern-halma/variants/standard-6p/"
+  }
+}

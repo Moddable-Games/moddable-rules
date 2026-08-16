@@ -1,0 +1,43 @@
+{
+  "slug": "ninuki-renju",
+  "parent": "go",
+  "title": "Ninuki-Renju",
+  "players": "2",
+  "board": "15×15",
+  "win": "Five in an unbroken row (exactly five) or five pairs captured",
+  "special": "Japanese precursor to Pente. Custodial captures. Two win conditions. Active 1923-1940.",
+  "playable": true,
+  "order": 6,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 15,
+      "cols": 15,
+      "layout": "intersections"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": "",
+    "plugins": {
+      "go": {
+        "extends": "gomoku",
+        "captures": "pairs",
+        "captureTarget": 10
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/ninuki-renju-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/ninuki-renju.md",
+    "meta": "/api/rules/go/variants/ninuki-renju.json",
+    "page": "/go/variants/ninuki-renju/"
+  }
+}

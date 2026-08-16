@@ -1,0 +1,37 @@
+{
+  "slug": "standard",
+  "parent": "chaupar",
+  "title": "Chaupar (Standard)",
+  "players": "4",
+  "board": "Cross-shaped cloth board",
+  "win": "Both teammates return all their pieces to the Charkoni first, after capturing at least one opponent piece",
+  "special": "Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 19,
+      "cols": 19
+    },
+    "players": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "setup": "home:4Y,home:4G,home:4R,home:4B"
+  },
+  "diagram": {
+    "svg": "games/chaupar/diagrams/svg/standard-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chaupar/variants/standard.md",
+    "meta": "/api/rules/chaupar/variants/standard.json",
+    "page": "/chaupar/variants/standard/"
+  }
+}

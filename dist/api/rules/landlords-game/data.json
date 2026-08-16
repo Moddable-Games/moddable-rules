@@ -1,0 +1,305 @@
+{
+  "slug": "landlords-game",
+  "title": "The Landlord's Game",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2–6",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "roll-and-move",
+    "trading",
+    "resource-management",
+    "auction"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 40,
+      "shape": "circuit"
+    },
+    "surface": "parchment",
+    "render": {
+      "trackStyle": "perimeter"
+    },
+    "players": [
+      "player1",
+      "player2",
+      "player3",
+      "player4",
+      "player5",
+      "player6"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "1904-original",
+      "parent": "landlords-game",
+      "title": "1904 Original",
+      "players": "2–6",
+      "board": "Circular 40-space track",
+      "win": "Complete 5 circuits with the highest total wealth (lots + cash + luxuries)",
+      "special": "The pure patent ruleset — no houses, no Chance cards, lot tickets drawn at start. The ur-game.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 40
+        },
+        "players": [
+          "player1",
+          "player2"
+        ],
+        "setup": "",
+        "render": {
+          "overflow": "visible"
+        },
+        "content": {
+          "source": "landlords-game-boards.json",
+          "board": "1904-patent"
+        }
+      },
+      "diagram": {
+        "svg": "games/landlords-game/diagrams/svg/1904-original-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/landlords-game/variants/1904-original.md",
+        "meta": "/api/rules/landlords-game/variants/1904-original.json",
+        "page": "/landlords-game/variants/1904-original/"
+      }
+    },
+    {
+      "slug": "1906-commercial",
+      "parent": "landlords-game",
+      "title": "1906 Commercial Edition",
+      "players": "2–4",
+      "board": "Circular 40-space track",
+      "win": "Most wealth at end of game — every Title Deed card and every house counts 100",
+      "special": "The first published edition. Adds houses, Chance cards, auctions, Speculation space, railroad monopoly pricing, and section rent doubling.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 40
+        },
+        "players": [
+          "player1",
+          "player2"
+        ],
+        "setup": "",
+        "content": {
+          "source": "landlords-game-boards.json",
+          "board": "1906-egc"
+        }
+      },
+      "diagram": {
+        "svg": "games/landlords-game/diagrams/svg/1906-commercial-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/landlords-game/variants/1906-commercial.md",
+        "meta": "/api/rules/landlords-game/variants/1906-commercial.json",
+        "page": "/landlords-game/variants/1906-commercial/"
+      }
+    },
+    {
+      "slug": "single-tax",
+      "parent": "landlords-game",
+      "title": "Single Tax",
+      "players": "2–4",
+      "board": "Circular 40-space track",
+      "win": "Collective — all players win when public ownership is complete and wages are maximised",
+      "special": "Magie's intended lesson: play mid-game by vote. Land rents fund public acquisition of utilities, railroads, and colleges. Wages rise progressively.",
+      "playable": false,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 40
+        },
+        "players": [
+          "player1",
+          "player2"
+        ],
+        "setup": "",
+        "render": {
+          "overflow": "visible"
+        },
+        "content": {
+          "source": "landlords-game-boards.json",
+          "board": "1904-patent"
+        }
+      },
+      "diagram": {
+        "svg": "games/landlords-game/diagrams/svg/single-tax-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/landlords-game/variants/single-tax.md",
+        "meta": "/api/rules/landlords-game/variants/single-tax.json",
+        "page": "/landlords-game/variants/single-tax/"
+      }
+    },
+    {
+      "slug": "prosperity",
+      "parent": "landlords-game",
+      "title": "Prosperity",
+      "players": "2–4",
+      "board": "Circular 36-space track (dual-game board)",
+      "win": "First player to accumulate $3,000 in cash",
+      "special": "Magie's 1932 patent. Chance cube on doubles, No Trespassing signs, Idle Land speculation, railroad jumps, improvement tags. A complete standalone game, not a variant of 1906.",
+      "playable": false,
+      "order": 4,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 36
+        },
+        "players": [
+          "player1",
+          "player2",
+          "player3",
+          "player4"
+        ],
+        "setup": "",
+        "content": {
+          "source": "landlords-game-boards.json",
+          "board": "1932-prosperity"
+        }
+      },
+      "diagram": {
+        "svg": "games/landlords-game/diagrams/svg/prosperity-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/landlords-game/variants/prosperity.md",
+        "meta": "/api/rules/landlords-game/variants/prosperity.json",
+        "page": "/landlords-game/variants/prosperity/"
+      }
+    },
+    {
+      "slug": "monarch-of-the-world",
+      "parent": "landlords-game",
+      "title": "Monarch of the World",
+      "players": "2–6",
+      "board": "Circular 40-space track",
+      "win": "Demonstration only — the landlord inevitably wins",
+      "special": "One player gets all land, others get all other advantages and $100 each. The landlord receives no wages. Proves Magie's thesis: the land monopolist is monarch of the world.",
+      "playable": false,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 40
+        },
+        "players": [
+          "player1",
+          "player2"
+        ],
+        "setup": "",
+        "content": {
+          "source": "landlords-game-boards.json",
+          "board": "1906-egc"
+        }
+      },
+      "diagram": {
+        "svg": "games/landlords-game/diagrams/svg/monarch-of-the-world-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/landlords-game/variants/monarch-of-the-world.md",
+        "meta": "/api/rules/landlords-game/variants/monarch-of-the-world.json",
+        "page": "/landlords-game/variants/monarch-of-the-world/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 5,
+    "rendered": 5,
+    "entries": [
+      {
+        "family": "landlords-game",
+        "familyTitle": "The Landlord's Game",
+        "variant": "1904-original",
+        "variantTitle": "1904 Original",
+        "topology": "track",
+        "svg": "games/landlords-game/diagrams/svg/1904-original-board.svg",
+        "rulesUrl": "dist/landlords-game/variants/1904-original/index.html",
+        "status": "rendered",
+        "players": "2–6"
+      },
+      {
+        "family": "landlords-game",
+        "familyTitle": "The Landlord's Game",
+        "variant": "1906-commercial",
+        "variantTitle": "1906 Commercial Edition",
+        "topology": "track",
+        "svg": "games/landlords-game/diagrams/svg/1906-commercial-board.svg",
+        "rulesUrl": "dist/landlords-game/variants/1906-commercial/index.html",
+        "status": "rendered",
+        "players": "2–4"
+      },
+      {
+        "family": "landlords-game",
+        "familyTitle": "The Landlord's Game",
+        "variant": "monarch-of-the-world",
+        "variantTitle": "Monarch of the World",
+        "topology": "track",
+        "svg": "games/landlords-game/diagrams/svg/monarch-of-the-world-board.svg",
+        "rulesUrl": "dist/landlords-game/variants/monarch-of-the-world/index.html",
+        "status": "rendered",
+        "players": "2–6"
+      },
+      {
+        "family": "landlords-game",
+        "familyTitle": "The Landlord's Game",
+        "variant": "prosperity",
+        "variantTitle": "Prosperity",
+        "topology": "track",
+        "svg": "games/landlords-game/diagrams/svg/prosperity-board.svg",
+        "rulesUrl": "dist/landlords-game/variants/prosperity/index.html",
+        "status": "rendered",
+        "players": "2–4"
+      },
+      {
+        "family": "landlords-game",
+        "familyTitle": "The Landlord's Game",
+        "variant": "single-tax",
+        "variantTitle": "Single Tax",
+        "topology": "track",
+        "svg": "games/landlords-game/diagrams/svg/single-tax-board.svg",
+        "rulesUrl": "dist/landlords-game/variants/single-tax/index.html",
+        "status": "rendered",
+        "players": "2–4"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 5,
+    "playable": 0,
+    "withDiagram": 5,
+    "topologies": [
+      "track"
+    ]
+  }
+}

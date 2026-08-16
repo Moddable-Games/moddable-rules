@@ -1,0 +1,47 @@
+{
+  "slug": "super-chinese-checkers",
+  "parent": "stern-halma",
+  "title": "Super Chinese Checkers",
+  "players": "2–6",
+  "board": "6-pointed star (121 holes)",
+  "win": "Move all 10 pieces into the opposite arm",
+  "special": "Extended hop: pieces may jump multiple empty spaces in a line before and after clearing a hurdle.",
+  "playable": false,
+  "order": 5,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "star",
+      "params": {
+        "armSize": 4,
+        "spacing": 24
+      }
+    },
+    "players": [
+      "red",
+      "blue",
+      "green",
+      "black",
+      "purple",
+      "brown"
+    ],
+    "setup": {
+      "arms": [
+        "N",
+        "S"
+      ]
+    }
+  },
+  "diagram": {
+    "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/stern-halma/variants/super-chinese-checkers.md",
+    "meta": "/api/rules/stern-halma/variants/super-chinese-checkers.json",
+    "page": "/stern-halma/variants/super-chinese-checkers/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "crazyhouse",
+  "parent": "chess",
+  "title": "Crazyhouse",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Captured pieces switch sides and can be dropped back onto the board.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "drops": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/crazyhouse-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/crazyhouse.md",
+    "meta": "/api/rules/chess/variants/crazyhouse.json",
+    "page": "/chess/variants/crazyhouse/"
+  }
+}

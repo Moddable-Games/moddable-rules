@@ -1,0 +1,35 @@
+{
+  "slug": "dameo",
+  "parent": "draughts",
+  "title": "Dameo",
+  "players": "2",
+  "board": "8×8",
+  "win": "Opponent has no legal move",
+  "special": "Phalanx movement: lines of men slide together. Orthogonal captures only. 18 pieces per side.",
+  "playable": false,
+  "order": 16,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "bbbbbbbb/1bbbbbb1/2bbbb2/8/8/2wwww2/1wwwwww1/wwwwwwww"
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/dameo-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/dameo.md",
+    "meta": "/api/rules/draughts/variants/dameo.json",
+    "page": "/draughts/variants/dameo/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "diagonal",
+  "parent": "draughts",
+  "title": "Diagonal Draughts",
+  "players": "2",
+  "board": "10×10",
+  "win": "Capture or block all opponent pieces",
+  "special": "Pieces start along the diagonal. The long diagonal of the board is empty at setup.",
+  "playable": false,
+  "order": 17,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "2b1b1b1b1/3b1b1b1b/w3b1b1b1/1w3b1b1b/w1w3b1b1/1w1w3b1b/w1w1w3b1/1w1w1w3b/w1w1w1w3/1w1w1w1w2"
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/diagonal-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/diagonal.md",
+    "meta": "/api/rules/draughts/variants/diagonal.json",
+    "page": "/draughts/variants/diagonal/"
+  }
+}

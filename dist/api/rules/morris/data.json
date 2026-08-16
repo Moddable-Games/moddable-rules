@@ -1,0 +1,414 @@
+{
+  "slug": "morris",
+  "title": "Nine Men's Morris",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "placement",
+    "line-formation",
+    "capture",
+    "blocking"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 3,
+        "midpoints": true
+      }
+    },
+    "surface": {
+      "colors": {
+        "background": "#f5e6c8",
+        "line": "#4a3520",
+        "point": "#4a3520"
+      }
+    },
+    "render": {
+      "cellSize": 24,
+      "cellColor": "uniform",
+      "labels": false
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic",
+      "vocabulary": {
+        "b": "bS",
+        "w": "wS"
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "three-mens-morris",
+      "parent": "morris",
+      "title": "Three Men's Morris",
+      "players": "2",
+      "board": "3×3 grid (9 intersections)",
+      "win": "Form a three-in-a-row with all three of your pieces",
+      "special": "No movement phase; pieces jump to any empty square. Smallest member of the Mill family.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 1,
+            "midpoints": true
+          }
+        },
+        "render": {
+          "canvasSize": 200
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      },
+      "diagram": {
+        "svg": "games/morris/diagrams/svg/three-mens-morris-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/morris/variants/three-mens-morris.md",
+        "meta": "/api/rules/morris/variants/three-mens-morris.json",
+        "page": "/morris/variants/three-mens-morris/"
+      }
+    },
+    {
+      "slug": "six-mens-morris",
+      "parent": "morris",
+      "title": "Six Men's Morris",
+      "players": "2",
+      "board": "Two concentric squares (16 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Two concentric squares with connecting lines. The medieval European standard form before Nine Men's Morris predominated.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 2,
+            "midpoints": true
+          }
+        },
+        "render": {
+          "canvasSize": 260
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      },
+      "diagram": {
+        "svg": "games/morris/diagrams/svg/six-mens-morris-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/morris/variants/six-mens-morris.md",
+        "meta": "/api/rules/morris/variants/six-mens-morris.json",
+        "page": "/morris/variants/six-mens-morris/"
+      }
+    },
+    {
+      "slug": "nine-mens-morris",
+      "parent": "morris",
+      "title": "Nine Men's Morris",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Three concentric squares joined at midpoints. Flying allowed when reduced to 3 pieces.",
+      "playable": false,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 3,
+            "midpoints": true
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/morris/diagrams/svg/nine-mens-morris-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/morris/variants/nine-mens-morris.md",
+        "meta": "/api/rules/morris/variants/nine-mens-morris.json",
+        "page": "/morris/variants/nine-mens-morris/"
+      }
+    },
+    {
+      "slug": "twelve-mens-morris",
+      "parent": "morris",
+      "title": "Twelve Men's Morris",
+      "players": "2",
+      "board": "Three concentric squares with diagonals (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Identical board to Nine Men's Morris but with corner diagonal connections. 12 pieces per side. No flying rule.",
+      "playable": false,
+      "order": 4,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 3,
+            "midpoints": true,
+            "diagonals": true
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/morris/diagrams/svg/twelve-mens-morris-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/morris/variants/twelve-mens-morris.md",
+        "meta": "/api/rules/morris/variants/twelve-mens-morris.json",
+        "page": "/morris/variants/twelve-mens-morris/"
+      }
+    },
+    {
+      "slug": "lasker-morris",
+      "parent": "morris",
+      "title": "Lasker Morris",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Each turn: either place a new piece OR move an existing piece. No sequential placement phase.",
+      "playable": false,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 3,
+            "midpoints": true
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/morris/diagrams/svg/lasker-morris-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/morris/variants/lasker-morris.md",
+        "meta": "/api/rules/morris/variants/lasker-morris.json",
+        "page": "/morris/variants/lasker-morris/"
+      }
+    },
+    {
+      "slug": "morabaraba",
+      "parent": "morris",
+      "title": "Morabaraba",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 cows or block all their moves",
+      "special": "South African national game. Cows instead of men. Special rules for the three-cow endgame.",
+      "playable": false,
+      "order": 6,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 3,
+            "midpoints": true,
+            "diagonals": true
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/morris/diagrams/svg/morabaraba-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/morris/variants/morabaraba.md",
+        "meta": "/api/rules/morris/variants/morabaraba.json",
+        "page": "/morris/variants/morabaraba/"
+      }
+    },
+    {
+      "slug": "shax",
+      "parent": "morris",
+      "title": "Shax",
+      "players": "2",
+      "board": "Three concentric squares (24 intersections)",
+      "win": "Reduce opponent to 2 pieces or block all their moves",
+      "special": "Somali variant: during placement, mills do not remove opponent pieces — instead, pieces are captured only during the movement phase.",
+      "playable": false,
+      "order": 7,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 3,
+            "midpoints": true
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/morris/diagrams/svg/shax-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/morris/variants/shax.md",
+        "meta": "/api/rules/morris/variants/shax.json",
+        "page": "/morris/variants/shax/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 7,
+    "rendered": 7,
+    "entries": [
+      {
+        "family": "morris",
+        "familyTitle": "Nine Men's Morris",
+        "variant": "lasker-morris",
+        "variantTitle": "Lasker Morris",
+        "topology": "graph",
+        "svg": "games/morris/diagrams/svg/lasker-morris-board.svg",
+        "rulesUrl": "dist/morris/variants/lasker-morris/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "morris",
+        "familyTitle": "Nine Men's Morris",
+        "variant": "morabaraba",
+        "variantTitle": "Morabaraba",
+        "topology": "graph",
+        "svg": "games/morris/diagrams/svg/morabaraba-board.svg",
+        "rulesUrl": "dist/morris/variants/morabaraba/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "morris",
+        "familyTitle": "Nine Men's Morris",
+        "variant": "nine-mens-morris",
+        "variantTitle": "Nine Men's Morris",
+        "topology": "graph",
+        "svg": "games/morris/diagrams/svg/nine-mens-morris-board.svg",
+        "rulesUrl": "dist/morris/variants/nine-mens-morris/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "morris",
+        "familyTitle": "Nine Men's Morris",
+        "variant": "shax",
+        "variantTitle": "Shax",
+        "topology": "graph",
+        "svg": "games/morris/diagrams/svg/shax-board.svg",
+        "rulesUrl": "dist/morris/variants/shax/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "morris",
+        "familyTitle": "Nine Men's Morris",
+        "variant": "six-mens-morris",
+        "variantTitle": "Six Men's Morris",
+        "topology": "graph",
+        "svg": "games/morris/diagrams/svg/six-mens-morris-board.svg",
+        "rulesUrl": "dist/morris/variants/six-mens-morris/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "morris",
+        "familyTitle": "Nine Men's Morris",
+        "variant": "three-mens-morris",
+        "variantTitle": "Three Men's Morris",
+        "topology": "graph",
+        "svg": "games/morris/diagrams/svg/three-mens-morris-board.svg",
+        "rulesUrl": "dist/morris/variants/three-mens-morris/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "morris",
+        "familyTitle": "Nine Men's Morris",
+        "variant": "twelve-mens-morris",
+        "variantTitle": "Twelve Men's Morris",
+        "topology": "graph",
+        "svg": "games/morris/diagrams/svg/twelve-mens-morris-board.svg",
+        "rulesUrl": "dist/morris/variants/twelve-mens-morris/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 7,
+    "playable": 0,
+    "withDiagram": 7,
+    "topologies": [
+      "graph"
+    ]
+  }
+}

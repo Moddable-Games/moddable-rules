@@ -1,0 +1,178 @@
+{
+  "slug": "los-alamos-vierschach",
+  "parent": "chess",
+  "title": "Los Alamos Vierschach",
+  "players": "4 (2 teams of 2)",
+  "board": "84-square cross (6×6 core + 2×6 extensions)",
+  "win": "Checkmate both opposing Kings",
+  "special": "4-player chess by Jörg Knappen combining Los Alamos Chess (6×6, no Bishops, no castling) with the Vierschach 4-player format. Non-competing entry to the 84 Squares Contest. Board: a 6×6 grid extended by 2×6 squares on each of the four sides, identical to the Quintessential Chess board (84 squares total). Four Los Alamos armies arranged as in Vierschach with allied teams side by side. Pawns gain initial double-step since the promotion path is longer than in standard Los Alamos; en passant applies. No castling.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10,
+      "voids": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ]
+    },
+    "players": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "pieces": {
+      "set": "mce-4player"
+    },
+    "setup": "2,yR,yN,yQ,yK,yN,yR,2/2,yP,yP,yP,yP,yP,yP,2/bR,bP,6,gP,gR/bN,bP,6,gP,gN/bQ,bP,6,gP,gK/bK,bP,6,gP,gQ/bN,bP,6,gP,gN/bR,bP,6,gP,gR/2,rP,rP,rP,rP,rP,rP,2/2,rR,rN,rQ,rK,rN,rR,2",
+    "render": {
+      "cellSize": 30,
+      "zones": {
+        "voids": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ]
+      }
+    },
+    "notation": "algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/los-alamos-vierschach-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/los-alamos-vierschach.md",
+    "meta": "/api/rules/chess/variants/los-alamos-vierschach.json",
+    "page": "/chess/variants/los-alamos-vierschach/"
+  }
+}

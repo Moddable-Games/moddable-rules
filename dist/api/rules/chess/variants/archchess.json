@@ -1,0 +1,80 @@
+{
+  "slug": "archchess",
+  "parent": "chess",
+  "title": "Archchess",
+  "players": "2",
+  "board": "10×10",
+  "win": "Checkmate (stalemate is a draw)",
+  "special": "10×10 chess variant by Dr. Francesco Piacenza (Turin, 1683). Adds two new pieces per side: the Centurion (Dabbaba + Alfil + Knight compound; can jump) and the Decurion (one square diagonally). Pawns always promote to Queen. Unusual flexible castling rules including a King’s Leap option.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 30
+    },
+    "setup": "rnbckqdbNR/pppppppppp/10/10/10/10/10/10/PPPPPPPPPP/RNBDQKCBNR",
+    "plugins": {
+      "chess": {
+        "vocabulary": {
+          "centurion": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "decurion": {
+            "symbols": {
+              "0": "D",
+              "1": "d"
+            }
+          }
+        },
+        "pieces": {
+          "centurion": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "leaper",
+                "offsets": "dabbaba"
+              },
+              {
+                "type": "leaper",
+                "offsets": "elephant"
+              },
+              {
+                "type": "leaper",
+                "offsets": "knight"
+              }
+            ]
+          },
+          "decurion": {
+            "type": "rider",
+            "dirs": "diagonal",
+            "maxSteps": 1
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/archchess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/archchess.md",
+    "meta": "/api/rules/chess/variants/archchess.json",
+    "page": "/chess/variants/archchess/"
+  }
+}

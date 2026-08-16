@@ -1,0 +1,36 @@
+{
+  "slug": "tibetan",
+  "parent": "go",
+  "title": "Tibetan Go",
+  "players": "2",
+  "board": "17×17",
+  "win": "Cosmological scoring (territory + captures + bonus)",
+  "special": "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system.",
+  "playable": false,
+  "order": 13,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 17,
+      "cols": 17,
+      "layout": "intersections"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/tibetan-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/tibetan.md",
+    "meta": "/api/rules/go/variants/tibetan.json",
+    "page": "/go/variants/tibetan/"
+  }
+}

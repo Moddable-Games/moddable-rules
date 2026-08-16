@@ -1,0 +1,526 @@
+{
+  "slug": "tri-tactics",
+  "parent": "lattaque",
+  "title": "Tri-Tactics",
+  "players": "2",
+  "board": "12×12 (combined land/sea terrain)",
+  "win": "Occupy the opponent's H.Q. with a Land Infantry piece, OR occupy the opponent's Lake (Naval Base) with a Ship",
+  "special": "Combined-arms hidden-rank game by H.P. Gibson & Sons. 56 pieces per player across three services: Land (Infantry + Artillery), Naval (Ships + Flying Boats + Submarine), and Air Force, plus 8 Searchlights. All three services operate on a single board with land, sea, river, lake, and H.Q. terrain. Pieces caught out of their element are immediately forfeit when attacked. The Searchlight may move any number of squares in a straight line to attack. Combat outcomes between all 18 piece types are resolved via a published Value Table.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 12,
+      "cols": 12
+    },
+    "render": {
+      "cellSize": 30,
+      "zones": {
+        "fill": "land",
+        "cells": [
+          {
+            "type": "hq",
+            "at": [
+              [
+                0,
+                5
+              ],
+              [
+                11,
+                5
+              ]
+            ]
+          },
+          {
+            "type": "lake",
+            "at": [
+              [
+                1,
+                8
+              ],
+              [
+                10,
+                8
+              ]
+            ]
+          },
+          {
+            "type": "sea",
+            "at": [
+              [
+                3,
+                0
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                6
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                6,
+                2
+              ],
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                4
+              ],
+              [
+                6,
+                5
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                7,
+                1
+              ],
+              [
+                7,
+                2
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                7,
+                4
+              ],
+              [
+                7,
+                5
+              ],
+              [
+                7,
+                6
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                8,
+                1
+              ],
+              [
+                8,
+                2
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                8,
+                5
+              ]
+            ]
+          }
+        ]
+      },
+      "ops": [
+        {
+          "op": "rect",
+          "fill": "transparent",
+          "scope": "board"
+        },
+        {
+          "op": "cells",
+          "pattern": "cellMap",
+          "light": "cell-light",
+          "dark": "cell-dark",
+          "defaultFill": "land",
+          "zones": {
+            "cells": [
+              {
+                "type": "hq",
+                "at": [
+                  [
+                    0,
+                    5
+                  ],
+                  [
+                    11,
+                    5
+                  ]
+                ]
+              },
+              {
+                "type": "lake",
+                "at": [
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    10,
+                    8
+                  ]
+                ]
+              },
+              {
+                "type": "sea",
+                "at": [
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3,
+                    2
+                  ],
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    4,
+                    1
+                  ],
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    4,
+                    3
+                  ],
+                  [
+                    4,
+                    4
+                  ],
+                  [
+                    4,
+                    5
+                  ],
+                  [
+                    4,
+                    6
+                  ],
+                  [
+                    4,
+                    7
+                  ],
+                  [
+                    5,
+                    0
+                  ],
+                  [
+                    5,
+                    1
+                  ],
+                  [
+                    5,
+                    2
+                  ],
+                  [
+                    5,
+                    3
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    5,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    5,
+                    7
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    1
+                  ],
+                  [
+                    6,
+                    2
+                  ],
+                  [
+                    6,
+                    3
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    6,
+                    5
+                  ],
+                  [
+                    6,
+                    6
+                  ],
+                  [
+                    6,
+                    7
+                  ],
+                  [
+                    7,
+                    0
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    7,
+                    2
+                  ],
+                  [
+                    7,
+                    3
+                  ],
+                  [
+                    7,
+                    4
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    7,
+                    6
+                  ],
+                  [
+                    7,
+                    7
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    1
+                  ],
+                  [
+                    8,
+                    2
+                  ],
+                  [
+                    8,
+                    3
+                  ],
+                  [
+                    8,
+                    4
+                  ],
+                  [
+                    8,
+                    5
+                  ]
+                ]
+              }
+            ]
+          },
+          "typeColors": {
+            "land": "land",
+            "sea": "sea",
+            "lake": "lake",
+            "hq": "hq"
+          },
+          "typeStrokes": {
+            "land": "land-stroke",
+            "sea": "sea-stroke",
+            "lake": "lake-stroke",
+            "hq": "hq-stroke"
+          }
+        }
+      ],
+      "overlays": [
+        {
+          "type": "river",
+          "path": [
+            "f9",
+            "f10",
+            "g10",
+            "h10",
+            "i10",
+            "i11"
+          ],
+          "stroke": "#3a6e9e",
+          "width": 9
+        },
+        {
+          "type": "river",
+          "path": [
+            "f4",
+            "f3",
+            "g3",
+            "h3",
+            "i3",
+            "i2"
+          ],
+          "stroke": "#3a6e9e",
+          "width": 9
+        }
+      ]
+    },
+    "surface": {
+      "colors": {
+        "land": "#5a8a3a",
+        "land-stroke": "#3d6b28",
+        "sea": "#3a6e9e",
+        "sea-stroke": "#2a5580",
+        "lake": "#3a6e9e",
+        "lake-stroke": "#2a5580",
+        "hq": "#c8a832",
+        "hq-stroke": "#9a8020"
+      }
+    },
+    "players": [
+      "blue",
+      "red"
+    ]
+  },
+  "diagram": {
+    "svg": "games/lattaque/diagrams/svg/tri-tactics-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/lattaque/variants/tri-tactics.md",
+    "meta": "/api/rules/lattaque/variants/tri-tactics.json",
+    "page": "/lattaque/variants/tri-tactics/"
+  }
+}

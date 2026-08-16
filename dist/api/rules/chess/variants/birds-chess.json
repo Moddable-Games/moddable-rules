@@ -1,0 +1,80 @@
+{
+  "slug": "birds-chess",
+  "parent": "chess",
+  "title": "Bird's Chess",
+  "players": "2",
+  "board": "10×8",
+  "win": "Checkmate",
+  "special": "1874 variant on a 10×8 board. Adds Guard (Rook+Knight) and Equerry (Bishop+Knight). A predecessor to Capablanca’s Chess. Castling: King moves three squares, Rook jumps over to the adjacent square.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 36
+    },
+    "setup": "rnbgqkebnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNBGQKEBNR",
+    "promotionChoices": [
+      "queen",
+      "rook",
+      "bishop",
+      "knight",
+      "guard",
+      "equerry"
+    ],
+    "vocabulary": {
+      "guard": {
+        "symbols": {
+          "0": "G",
+          "1": "g"
+        }
+      },
+      "equerry": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "guard": {
+            "type": "compose",
+            "parts": [
+              "rook",
+              "knight"
+            ]
+          },
+          "equerry": {
+            "type": "compose",
+            "parts": [
+              "bishop",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/birds-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/birds-chess.md",
+    "meta": "/api/rules/chess/variants/birds-chess.json",
+    "page": "/chess/variants/birds-chess/"
+  }
+}

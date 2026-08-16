@@ -1,0 +1,38 @@
+{
+  "slug": "lasker-morris",
+  "parent": "morris",
+  "title": "Lasker Morris",
+  "players": "2",
+  "board": "Three concentric squares (24 intersections)",
+  "win": "Reduce opponent to 2 pieces or block all their moves",
+  "special": "Each turn: either place a new piece OR move an existing piece. No sequential placement phase.",
+  "playable": false,
+  "order": 5,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 3,
+        "midpoints": true
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/morris/diagrams/svg/lasker-morris-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/morris/variants/lasker-morris.md",
+    "meta": "/api/rules/morris/variants/lasker-morris.json",
+    "page": "/morris/variants/lasker-morris/"
+  }
+}

@@ -1,0 +1,2603 @@
+{
+  "generated": "2026-08-16",
+  "families": {
+    "agon": {
+      "title": "Agon",
+      "type": "standalone",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "movement",
+        "capture",
+        "hex",
+        "territory"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "hex"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "hexagonal",
+          "orientation": "pointy",
+          "radius": 5
+        },
+        "surface": "cosmic",
+        "render": {
+          "cellSize": 22,
+          "cellColor": "bicolor",
+          "frame": true
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic"
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "asalto": {
+      "title": "Asalto",
+      "type": "hub",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "asymmetric",
+        "movement",
+        "capture",
+        "grid"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 2,
+        "playable": 0,
+        "withDiagram": 2,
+        "topologies": [
+          "graph"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "grid-cross"
+        },
+        "surface": {
+          "colors": {
+            "background": "#f5e6c8",
+            "line": "#2a2a2a",
+            "point": "#2a2a2a",
+            "fortress": "rgba(40,80,180,0.15)",
+            "fortress-border": "#3355aa"
+          }
+        },
+        "render": {
+          "cellSize": 24
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic"
+        },
+        "players": [
+          "officers",
+          "soldiers"
+        ]
+      }
+    },
+    "backgammon": {
+      "title": "Backgammon",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "race",
+        "capture",
+        "track",
+        "push-your-luck",
+        "betting"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 8,
+        "playable": 0,
+        "withDiagram": 8,
+        "topologies": [
+          "track"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "track",
+          "shape": "linear",
+          "positions": 24
+        },
+        "surface": {
+          "colors": {
+            "board-outer": "#3d2b1f",
+            "felt": "#1a5c3a",
+            "point-a": "#c47e3b",
+            "point-b": "#8b2500"
+          }
+        },
+        "render": {
+          "cellSize": 22,
+          "trackStyle": "triangular-points",
+          "labels": false
+        },
+        "pieces": {
+          "set": "playstrategy-draughts-plain"
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "bavarian-32": {
+      "title": "Bavarian 32-Card Games",
+      "type": "component",
+      "hub_type": "component",
+      "players": "3",
+      "status": "live",
+      "mechanics": [
+        "trick-taking",
+        "hand-management",
+        "betting",
+        "card-play"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 2,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "surface": "felt-green",
+        "components": {
+          "deck": {
+            "type": "bavarian-32"
+          },
+          "layout": {
+            "type": "fan"
+          }
+        },
+        "players": [
+          "south",
+          "north",
+          "east",
+          "west"
+        ]
+      }
+    },
+    "brp": {
+      "title": "Basic Roleplaying",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "2–6",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "skill-based"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "cairn": {
+      "title": "Cairn",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "1–6",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "oracle"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "tables/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "chaupar": {
+      "title": "Chaupar",
+      "type": "classic",
+      "hub_type": null,
+      "players": "4",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "race",
+        "capture",
+        "movement",
+        "team-play"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "cross"
+        },
+        "render": {
+          "cellSize": 20,
+          "cellColor": "checkered",
+          "labels": false,
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cross",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "castles": [],
+              "typeColors": {
+                "floor": "floor",
+                "home": "home"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "home": "home-stroke"
+              }
+            }
+          ]
+        },
+        "surface": {
+          "colors": {
+            "floor": "#d4d8f0",
+            "floor-stroke": "#2d3a8c",
+            "home": "#1a1a6b",
+            "home-stroke": "#12124a"
+          }
+        },
+        "pieces": {
+          "set": "playstrategy-draughts-plain"
+        },
+        "players": [
+          "yellow",
+          "green",
+          "red",
+          "blue"
+        ]
+      }
+    },
+    "chess": {
+      "title": "Chess",
+      "type": "platform",
+      "hub_type": null,
+      "players": "2-6",
+      "status": "alpha",
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "checkmate",
+        "piece-variety",
+        "asymmetric"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 154,
+        "playable": 135,
+        "withDiagram": 154,
+        "topologies": [
+          "grid",
+          "hex",
+          "hexagonal-trisection"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "surface": "wood-classic",
+        "render": {
+          "cellSize": 40,
+          "cellColor": "checkered",
+          "labels": true,
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "checkered",
+              "light": "#f0d9b5",
+              "dark": "#b58863",
+              "interactive": true
+            }
+          ]
+        },
+        "pieces": {
+          "set": "mce-fairy-complete"
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "dnd-5e": {
+      "title": "Dungeons & Dragons 5th Edition SRD",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "2–8",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "combat",
+        "exploration",
+        "narrative",
+        "class-based"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "dou-shou-qi": {
+      "title": "Dou Shou Qi (斗兽棋 / Jungle)",
+      "type": "standalone",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "movement",
+        "capture",
+        "ranking"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 7
+        },
+        "surface": "jungle",
+        "render": {
+          "cellSize": 40,
+          "cellColor": "uniform",
+          "labels": false,
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "#d9b483",
+              "scope": "board"
+            },
+            {
+              "op": "grid-lines",
+              "grouped": false,
+              "order": "vh",
+              "color": "#8b6914",
+              "width": 1.5
+            },
+            {
+              "op": "hit-targets",
+              "shape": "rect"
+            }
+          ]
+        },
+        "pieces": {
+          "set": "mce-jungle"
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "double-six-dominoes": {
+      "title": "Double-Six Dominoes",
+      "type": "component",
+      "hub_type": "component",
+      "players": "2–8",
+      "status": "live",
+      "mechanics": [
+        "tile-placement",
+        "pattern",
+        "set-collection",
+        "hand-management"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 4,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "surface": "felt-green",
+        "components": {
+          "deck": {
+            "type": "dominoes-28"
+          },
+          "layout": {
+            "type": "fan"
+          }
+        },
+        "players": [
+          "south",
+          "north"
+        ]
+      }
+    },
+    "draughts": {
+      "title": "Draughts",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "capture",
+        "movement",
+        "promotion"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 20,
+        "playable": 13,
+        "withDiagram": 20,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "surface": "wood-classic",
+        "render": {
+          "cellSize": 40,
+          "cellColor": "checkered",
+          "labels": true,
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "checkered",
+              "light": "#f0d9b5",
+              "dark": "#b58863",
+              "interactive": true
+            }
+          ]
+        },
+        "pieces": {
+          "set": "playstrategy-dameo-fabirovsky",
+          "vocabulary": {
+            "b": "bM",
+            "w": "wM",
+            "B": "bK",
+            "W": "wK"
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "unsupported": {
+          "bashni": "column stacking: captured pieces are carried beneath the capturer rather than removed",
+          "lasca": "column stacking on a 7×7 board",
+          "dameo": "linear movement of whole rows of pieces",
+          "alquerque": "5×5 point-and-line board rather than a square grid",
+          "frisian": "mixed orthogonal and diagonal capture with a three-move king limit",
+          "thai": "flying kings constrained to stop immediately behind the captured piece",
+          "diagonal": "pieces set up along the anti-diagonal rather than in ranks"
+        }
+      }
+    },
+    "dungeon-chess": {
+      "title": "Dungeon Chess",
+      "type": "mod",
+      "hub_type": null,
+      "players": "2–4",
+      "status": "alpha",
+      "mechanics": [
+        "abstract-strategy",
+        "asymmetric",
+        "drafting",
+        "grid",
+        "combat",
+        "terrain"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 3,
+        "playable": 0,
+        "withDiagram": 3,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 20,
+          "cols": 8
+        },
+        "surface": "military",
+        "render": {
+          "cellSize": 21,
+          "cellColor": "checkered",
+          "labels": false,
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "checkered",
+              "light": "#f0d9b5",
+              "dark": "#b58863",
+              "interactive": true
+            }
+          ]
+        },
+        "pieces": {
+          "set": "mce-chess"
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "dungeon-world": {
+      "title": "Dungeon World",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "2-5",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "combat",
+        "exploration",
+        "class-based"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "econopoly": {
+      "title": "Econopoly",
+      "type": "mod",
+      "hub_type": null,
+      "players": "2–6",
+      "status": "playtest",
+      "mechanics": [
+        "resource-management",
+        "set-collection",
+        "trading",
+        "hand-management",
+        "victory-points"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "track"
+        ]
+      },
+      "engine": null
+    },
+    "fanorona": {
+      "title": "Fanorona",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "capture",
+        "movement"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 5,
+          "cols": 9,
+          "layout": "intersections"
+        },
+        "surface": "parchment",
+        "render": {
+          "cellSize": 40,
+          "cellColor": "uniform",
+          "labels": true,
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "cell-light",
+              "scope": "board",
+              "rx": 4
+            },
+            {
+              "op": "grid-lines",
+              "grouped": false,
+              "order": "hv",
+              "color": "stroke",
+              "width": 2
+            },
+            {
+              "op": "diagonals",
+              "pattern": "alternating",
+              "color": "stroke",
+              "width": 1.5
+            },
+            {
+              "op": "markers",
+              "allCells": true,
+              "radius": 3,
+              "fill": "stroke",
+              "hits": {
+                "radiusFactor": 0.4,
+                "idStyle": "algebraic"
+              }
+            }
+          ]
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic",
+          "vocabulary": {
+            "b": "bS",
+            "w": "wS"
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "fate-core": {
+      "title": "Fate Core",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "3-5",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "aspects",
+        "combat",
+        "exploration"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "content/rules/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "flower-48": {
+      "title": "Flower 48",
+      "type": "component",
+      "hub_type": "component",
+      "players": "2–4",
+      "status": "live",
+      "mechanics": [
+        "set-collection",
+        "pattern",
+        "hand-management",
+        "betting",
+        "card-play"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 4,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "surface": "felt-green",
+        "components": {
+          "deck": {
+            "type": "hanafuda-48"
+          },
+          "layout": {
+            "type": "fan"
+          }
+        },
+        "players": [
+          "south",
+          "north"
+        ]
+      }
+    },
+    "go": {
+      "title": "Go",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "grid",
+        "territory",
+        "capture",
+        "placement"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 14,
+        "playable": 10,
+        "withDiagram": 14,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "intersections"
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#dcb35c",
+            "cell-dark": "#d4a843",
+            "stroke": "#3d2b1a",
+            "label-text": "#5a4020",
+            "star-point": "#3d2b1a"
+          }
+        },
+        "render": {
+          "cellSize": 20,
+          "labels": true,
+          "inset": 15,
+          "idStyle": "go",
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "cell-light",
+              "scope": "board"
+            },
+            {
+              "op": "rect",
+              "fill": "cell-dark",
+              "scope": "grid",
+              "rx": 2
+            },
+            {
+              "op": "grid-lines",
+              "grouped": true,
+              "order": "hv",
+              "color": "stroke",
+              "width": 0.8
+            },
+            {
+              "op": "markers",
+              "grouped": true,
+              "fill": "star-point",
+              "at": "auto-star-points",
+              "radius": 3
+            },
+            {
+              "op": "hit-targets",
+              "grouped": true,
+              "radiusFactor": 0.45
+            }
+          ]
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic",
+          "vocabulary": {
+            "b": "bS",
+            "w": "wS"
+          }
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      }
+    },
+    "halma": {
+      "title": "Halma",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2–4",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "race",
+        "movement",
+        "grid"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 2,
+        "playable": 0,
+        "withDiagram": 2,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 16,
+          "cols": 16
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#f5e6c8",
+            "cell-dark": "#e8d4a8"
+          }
+        },
+        "render": {
+          "cellSize": 20,
+          "cellColor": "checkered",
+          "labels": false,
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "checkered",
+              "light": "#f5e6c8",
+              "dark": "#e8d4a8",
+              "interactive": true
+            }
+          ]
+        },
+        "pieces": {
+          "set": "playstrategy-draughts-plain",
+          "vocabulary": {
+            "b": "bM",
+            "w": "wM"
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "hex": {
+      "title": "Hex",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "hex",
+        "placement",
+        "connection"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 8,
+        "playable": 0,
+        "withDiagram": 8,
+        "topologies": [
+          "hex"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "rhombus",
+          "orientation": "pointy"
+        },
+        "render": {
+          "cellSize": 20,
+          "cellColor": "uniform",
+          "frame": "rhombus",
+          "labels": false
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#e8e8e8",
+            "cell-dark": "#c0c0c0",
+            "cell-mid": "#d8d8d8",
+            "stroke": "rgba(0,0,0,0.3)",
+            "background": "#f5f5f5",
+            "border": "#6b4226"
+          }
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic",
+          "vocabulary": {
+            "b": "bS",
+            "w": "wS"
+          }
+        },
+        "players": [
+          "black",
+          "white"
+        ]
+      }
+    },
+    "hyper-imperium": {
+      "title": "Hyper Imperium",
+      "type": "mod",
+      "hub_type": null,
+      "players": "4–6",
+      "status": "playtest",
+      "mechanics": [
+        "exploration",
+        "trading",
+        "asymmetric",
+        "hex",
+        "combat",
+        "negotiation",
+        "hidden-information"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 0,
+        "topologies": []
+      },
+      "engine": null
+    },
+    "ironsworn": {
+      "title": "Ironsworn",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "1–4",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "narrative",
+        "exploration",
+        "combat",
+        "oracle",
+        "solo",
+        "cooperative"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "knave": {
+      "title": "Knave",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "2–5",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "combat",
+        "exploration",
+        "narrative",
+        "classless"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "landlords-game": {
+      "title": "The Landlord's Game",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2–6",
+      "status": "live",
+      "mechanics": [
+        "dice",
+        "roll-and-move",
+        "trading",
+        "resource-management",
+        "auction"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 5,
+        "playable": 0,
+        "withDiagram": 5,
+        "topologies": [
+          "track"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 40,
+          "shape": "circuit"
+        },
+        "surface": "parchment",
+        "render": {
+          "trackStyle": "perimeter"
+        },
+        "players": [
+          "player1",
+          "player2",
+          "player3",
+          "player4",
+          "player5",
+          "player6"
+        ]
+      }
+    },
+    "lattaque": {
+      "title": "L'Attaque",
+      "type": "hub",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "hidden-information",
+        "grid",
+        "movement",
+        "combat",
+        "ranking",
+        "deduction"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 4,
+        "playable": 0,
+        "withDiagram": 4,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9
+        },
+        "render": {
+          "cellSize": 34,
+          "cellColor": "checkered",
+          "labels": false,
+          "zones": {
+            "fill": "floor",
+            "cells": [
+              {
+                "type": "lake",
+                "at": [
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    4,
+                    4
+                  ],
+                  [
+                    4,
+                    6
+                  ],
+                  [
+                    5,
+                    2
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    5,
+                    6
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "surface": {
+          "colors": {
+            "floor": "#5a8a3a",
+            "floor-stroke": "#3d6b28",
+            "lake": "#4a7ab5",
+            "lake-stroke": "#2a5a8a"
+          }
+        },
+        "pieces": {
+          "set": "mce-lattaque"
+        },
+        "players": [
+          "blue",
+          "red"
+        ]
+      }
+    },
+    "mahjong": {
+      "title": "Mahjong",
+      "type": "component",
+      "hub_type": "component",
+      "players": "4",
+      "status": "live",
+      "mechanics": [
+        "tile-placement",
+        "set-collection",
+        "hand-management",
+        "pattern",
+        "betting"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 5,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "surface": "felt-green",
+        "components": {
+          "deck": {
+            "type": "mahjong-136"
+          },
+          "layout": {
+            "type": "wall"
+          }
+        },
+        "players": [
+          "east",
+          "south",
+          "west",
+          "north"
+        ]
+      }
+    },
+    "mancala": {
+      "title": "Mancala",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "abstract-strategy",
+        "pit",
+        "sowing",
+        "capture",
+        "counting"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 8,
+        "playable": 0,
+        "withDiagram": 8,
+        "topologies": [
+          "pit"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "rows": 2,
+          "cols": 6,
+          "stores": true
+        },
+        "surface": {
+          "colors": {
+            "board-outer": "#7A5A32",
+            "board-inner": "#9B7740",
+            "pit": "#4E3320",
+            "pit-stroke": "#3A2515",
+            "seed": "#C8B898",
+            "seed-stroke": "#8A7A5A",
+            "marker": "#C49040"
+          }
+        },
+        "render": {
+          "cellSize": 22,
+          "labels": false
+        },
+        "pieces": {
+          "set": "playstrategy-oware"
+        },
+        "players": [
+          "south",
+          "north"
+        ]
+      }
+    },
+    "maze-rats": {
+      "title": "Maze Rats",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "2–5",
+      "status": "live",
+      "mechanics": [
+        "dice-rolling",
+        "procedural-generation",
+        "sandbox",
+        "gm-tools",
+        "story-tables"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "morris": {
+      "title": "Nine Men's Morris",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "placement",
+        "line-formation",
+        "capture",
+        "blocking"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 7,
+        "playable": 0,
+        "withDiagram": 7,
+        "topologies": [
+          "graph"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "concentric-rings",
+          "params": {
+            "rings": 3,
+            "midpoints": true
+          }
+        },
+        "surface": {
+          "colors": {
+            "background": "#f5e6c8",
+            "line": "#4a3520",
+            "point": "#4a3520"
+          }
+        },
+        "render": {
+          "cellSize": 24,
+          "cellColor": "uniform",
+          "labels": false
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic",
+          "vocabulary": {
+            "b": "bS",
+            "w": "wS"
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "nukes": {
+      "title": "Nukes: Official Rulebook",
+      "type": "game",
+      "hub_type": null,
+      "players": "2–3",
+      "status": "live",
+      "mechanics": [
+        "territory",
+        "hostage-economy",
+        "fluid-units",
+        "nuclear-strikes",
+        "hex-grid"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 4,
+        "playable": 0,
+        "withDiagram": 4,
+        "topologies": [
+          "hex"
+        ]
+      },
+      "engine": {
+        "surface": {
+          "colors": {
+            "stroke": "rgba(0,0,0,0.2)",
+            "border": "#6b4226",
+            "water": "#2196F3",
+            "trees": "#4CAF50",
+            "mount": "#795548",
+            "grass": "#8BC34A",
+            "sand": "#FFC107",
+            "base": "#F44336"
+          }
+        }
+      }
+    },
+    "nyout": {
+      "title": "Nyout (유놓이 / Yut Nori)",
+      "type": "standalone",
+      "hub_type": null,
+      "players": "2–4",
+      "status": "live",
+      "mechanics": [
+        "dice-throwing",
+        "race",
+        "capture",
+        "stacking",
+        "shortcuts"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "graph"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "perimeter-cross",
+          "params": {
+            "sides": 4,
+            "nodesPerSide": 5,
+            "diagonals": true,
+            "intermediatesPerDiagonal": 2
+          }
+        },
+        "surface": {
+          "colors": {
+            "background": "#f5f0e8",
+            "line": "#8b7355",
+            "point": "#8b7355",
+            "junction": "#c0622f",
+            "centre": "#8b1a1a"
+          }
+        },
+        "render": {
+          "cellSize": 24
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic"
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "pachisi": {
+      "title": "Pachisi",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2–4",
+      "status": "live",
+      "mechanics": [
+        "race",
+        "dice-throwing",
+        "capture",
+        "safe-spaces",
+        "cross-and-circle"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 3,
+        "playable": 0,
+        "withDiagram": 3,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "cross"
+        },
+        "render": {
+          "cellSize": 20,
+          "cellColor": "checkered",
+          "labels": false,
+          "castles": [
+            [
+              0,
+              9
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              18
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              8
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              18,
+              9
+            ]
+          ],
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cross",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "castles": [
+                [
+                  0,
+                  9
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  3,
+                  10
+                ],
+                [
+                  8,
+                  3
+                ],
+                [
+                  8,
+                  15
+                ],
+                [
+                  9,
+                  0
+                ],
+                [
+                  9,
+                  18
+                ],
+                [
+                  10,
+                  3
+                ],
+                [
+                  10,
+                  15
+                ],
+                [
+                  15,
+                  8
+                ],
+                [
+                  15,
+                  10
+                ],
+                [
+                  18,
+                  9
+                ]
+              ],
+              "typeColors": {
+                "floor": "floor",
+                "castle": "castle",
+                "home": "home"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "castle": "castle-stroke",
+                "home": "home-stroke"
+              },
+              "decorations": {
+                "castle": "castle-x"
+              },
+              "castleXColor": "castle-x"
+            }
+          ]
+        },
+        "surface": {
+          "colors": {
+            "floor": "#f0d5a0",
+            "floor-stroke": "#8b6545",
+            "castle": "#c0622f",
+            "castle-stroke": "#8b6545",
+            "castle-x": "#fff8f0",
+            "home": "#8b1a1a",
+            "home-stroke": "#6a1212"
+          }
+        },
+        "pieces": {
+          "set": "playstrategy-draughts-plain"
+        },
+        "players": [
+          "yellow",
+          "green",
+          "red",
+          "blue"
+        ]
+      }
+    },
+    "pathfinder-1e": {
+      "title": "Pathfinder 1st Edition (PFSRD)",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "2–7",
+      "status": "live",
+      "mechanics": [
+        "character-building",
+        "dice-rolling",
+        "class-system",
+        "skill-checks",
+        "combat"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "reversi": {
+      "title": "Reversi",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "placement",
+        "flipping",
+        "territory",
+        "blocking"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 3,
+        "playable": 3,
+        "withDiagram": 3,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "surface": "felt-green",
+        "render": {
+          "cellSize": 40,
+          "cellColor": "uniform",
+          "labels": true,
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "#2e7d32",
+              "scope": "board"
+            },
+            {
+              "op": "grid-lines",
+              "grouped": false,
+              "order": "vh",
+              "color": "#1b5e20",
+              "width": 1.5
+            },
+            {
+              "op": "hit-targets",
+              "shape": "rect"
+            }
+          ]
+        },
+        "pieces": {
+          "set": "playstrategy-flipello-classic",
+          "vocabulary": {
+            "b": "bP",
+            "w": "wP"
+          }
+        },
+        "players": [
+          "black",
+          "white"
+        ]
+      }
+    },
+    "royal-ur": {
+      "title": "Royal Game of Ur",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "race",
+        "dice-rolling",
+        "capture",
+        "safe-spaces",
+        "bearing-off"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 3,
+          "cols": 8
+        },
+        "surface": "parchment",
+        "render": {
+          "cellSize": 40,
+          "cellColor": "checkered",
+          "labels": false
+        },
+        "pieces": {
+          "set": "playstrategy-draughts-plain"
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "senet": {
+      "title": "Senet",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "race",
+        "dice-throwing",
+        "capture",
+        "safe-spaces",
+        "bearing-off"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 3,
+          "cols": 10,
+          "path": "boustrophedon"
+        },
+        "players": [
+          "cone",
+          "spool"
+        ],
+        "pieces": {
+          "cone": 5,
+          "spool": 5
+        },
+        "setup": {
+          "cone": [
+            1,
+            3,
+            5,
+            7,
+            9
+          ],
+          "spool": [
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        "special": {
+          "15": {
+            "name": "House of Rebirth",
+            "effect": "rebirth-target"
+          },
+          "26": {
+            "name": "House of Happiness",
+            "effect": "mandatory-stop"
+          },
+          "27": {
+            "name": "House of Water",
+            "effect": "send-to-15"
+          },
+          "28": {
+            "name": "House of Three Truths",
+            "effect": "exit-on-3",
+            "protected": true
+          },
+          "29": {
+            "name": "House of Re-Atoum",
+            "effect": "exit-on-2",
+            "protected": true
+          },
+          "30": {
+            "name": "House of Horus",
+            "effect": "exit-on-1"
+          }
+        }
+      }
+    },
+    "shogi": {
+      "title": "Shogi",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "drops",
+        "promotion",
+        "checkmate"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 24,
+        "playable": 13,
+        "withDiagram": 24,
+        "topologies": [
+          "grid",
+          "hex",
+          "triangular"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9,
+          "layout": "intersections"
+        },
+        "pieceRotations": {
+          "white": 0,
+          "black": 180
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#e8c97a",
+            "cell-dark": "#8b6914",
+            "stroke": "#6b4e1a",
+            "hoshi": "#6b4e1a",
+            "promotion-zone": "rgba(180, 60, 40, 0.08)"
+          }
+        },
+        "render": {
+          "cellSize": 36,
+          "cellColor": "uniform",
+          "labels": false,
+          "boardStyle": "shogi",
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "uniform",
+              "fill": "#e8c97a",
+              "stroke": "#6b4e1a",
+              "interactive": true
+            },
+            {
+              "op": "grid-lines",
+              "color": "#6b4e1a",
+              "width": 2,
+              "grouped": false
+            }
+          ],
+          "decorations": [
+            {
+              "type": "markers",
+              "at": [
+                [
+                  2,
+                  2
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  6,
+                  2
+                ],
+                [
+                  6,
+                  6
+                ]
+              ],
+              "fill": "hoshi",
+              "size": 3
+            },
+            {
+              "type": "tint",
+              "region": {
+                "rows": [
+                  0,
+                  2
+                ]
+              },
+              "color": "promotion-zone"
+            },
+            {
+              "type": "tint",
+              "region": {
+                "rows": [
+                  6,
+                  8
+                ]
+              },
+              "color": "promotion-zone"
+            }
+          ]
+        },
+        "pieces": {
+          "set": "kahu-shogi-kanji-red-wood"
+        },
+        "players": [
+          "sente",
+          "gote"
+        ]
+      }
+    },
+    "standard-52": {
+      "title": "Standard 52-Card Deck",
+      "type": "component",
+      "hub_type": "component",
+      "players": "1–8",
+      "status": "live",
+      "mechanics": [
+        "trick-taking",
+        "melding",
+        "shedding",
+        "betting",
+        "hand-management"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 20,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "surface": "felt-green",
+        "components": {
+          "deck": {
+            "type": "standard-52"
+          },
+          "layout": {
+            "type": "fan"
+          }
+        },
+        "players": [
+          "south",
+          "north",
+          "east",
+          "west"
+        ]
+      }
+    },
+    "standard-dice": {
+      "title": "Standard Dice",
+      "type": "component",
+      "hub_type": "component",
+      "players": "1–8",
+      "status": "live",
+      "mechanics": [
+        "dice-rolling",
+        "press-your-luck",
+        "betting",
+        "bluffing",
+        "scoring"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 5,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "surface": "felt-green",
+        "components": {
+          "dice": {
+            "count": 5,
+            "sides": 6,
+            "type": "standard"
+          },
+          "layout": {
+            "type": "pool"
+          }
+        },
+        "players": [
+          "player-1",
+          "player-2",
+          "player-3",
+          "player-4"
+        ]
+      }
+    },
+    "starforged": {
+      "title": "Starforged",
+      "type": "rpg",
+      "hub_type": null,
+      "players": "1–4",
+      "status": "live",
+      "mechanics": [
+        "dice-rolling",
+        "narrative",
+        "oracle-tables",
+        "progress-tracks",
+        "momentum"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "none"
+        },
+        "content": {
+          "source": "data/",
+          "schema": {
+            "type": "category-list"
+          }
+        }
+      }
+    },
+    "stern-halma": {
+      "title": "Stern-Halma",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2–6",
+      "status": "live",
+      "mechanics": [
+        "race",
+        "jumping",
+        "chain-movement",
+        "star-board"
+      ],
+      "complexity": "simple",
+      "stats": {
+        "variantCount": 5,
+        "playable": 0,
+        "withDiagram": 5,
+        "topologies": [
+          "graph"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "star"
+        },
+        "surface": {
+          "colors": {
+            "board-body": "#4a3728",
+            "board-rim": "#5c4636",
+            "board-felt": "#1a3a1a",
+            "centre": "#2e7d32",
+            "outline": "#1b5e20",
+            "hole": "#1b5e20",
+            "armN": "#f2e8d4",
+            "armNE": "#d4e4f0",
+            "armSE": "#e8d8ec",
+            "armS": "#f2e8d4",
+            "armSW": "#d4e4f0",
+            "armNW": "#e8d8ec"
+          }
+        },
+        "render": {
+          "cellSize": 24,
+          "labels": false
+        },
+        "pieces": {
+          "set": "fluent-emoji"
+        },
+        "players": [
+          "red",
+          "blue",
+          "green",
+          "black",
+          "purple",
+          "brown"
+        ]
+      }
+    },
+    "surakarta": {
+      "title": "Surakarta",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "grid-movement",
+        "loop-capture",
+        "unique-mechanics"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 1,
+        "playable": 0,
+        "withDiagram": 1,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 6,
+          "cols": 6,
+          "layout": "intersections"
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#d9c5a0",
+            "stroke": "#8b7355",
+            "inner-arc": "#8b7355",
+            "outer-arc": "#8b7355"
+          }
+        },
+        "render": {
+          "cellSize": 50,
+          "cellColor": "uniform",
+          "boardStyle": "surakarta",
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "uniform",
+              "fill": "#d9c5a0",
+              "stroke": "#8b7355",
+              "interactive": true
+            },
+            {
+              "op": "grid-lines",
+              "color": "#8b7355",
+              "width": 2,
+              "grouped": false
+            }
+          ],
+          "decorations": [
+            {
+              "type": "arcs",
+              "rings": 2,
+              "cornerOffset": 2
+            },
+            {
+              "type": "markers",
+              "auto": "all-cells",
+              "size": 3.5
+            }
+          ]
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic",
+          "vocabulary": {
+            "b": "bS",
+            "w": "wS"
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      }
+    },
+    "tafl": {
+      "title": "Tafl",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "asymmetric",
+        "capture",
+        "king-escape",
+        "grid-movement"
+      ],
+      "complexity": "moderate",
+      "stats": {
+        "variantCount": 4,
+        "playable": 0,
+        "withDiagram": 4,
+        "topologies": [
+          "grid"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "render": {
+          "cellSize": 40,
+          "cellColor": "checkered",
+          "labels": false,
+          "zones": {
+            "fill": "floor",
+            "cells": [
+              {
+                "type": "throne",
+                "at": [
+                  [
+                    4,
+                    4
+                  ]
+                ]
+              },
+              {
+                "type": "corner",
+                "at": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    8
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    8
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "surface": {
+          "colors": {
+            "floor": "#d9c5a0",
+            "floor-stroke": "#8b7355",
+            "throne": "#8b4513",
+            "throne-stroke": "#5c2d0e",
+            "corner": "#4a6741",
+            "corner-stroke": "#2d4028"
+          }
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic",
+          "vocabulary": {
+            "K": {
+              "type": "king",
+              "color": "white"
+            },
+            "w": {
+              "type": "stone",
+              "color": "white"
+            },
+            "b": {
+              "type": "stone",
+              "color": "black"
+            }
+          }
+        },
+        "players": [
+          "attackers",
+          "defenders"
+        ]
+      }
+    },
+    "talisman-worlds": {
+      "title": "Talisman Worlds",
+      "type": "mod",
+      "hub_type": null,
+      "players": "2–6",
+      "status": "playtest",
+      "mechanics": [
+        "modular-board",
+        "dice-rolling",
+        "adventure-cards",
+        "character-progression"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 0,
+        "playable": 0,
+        "withDiagram": 0,
+        "topologies": []
+      },
+      "engine": {
+        "topology": {
+          "type": "hex"
+        },
+        "generator": "talisman"
+      }
+    },
+    "xiangqi": {
+      "title": "Xiangqi",
+      "type": "classic",
+      "hub_type": null,
+      "players": "2",
+      "status": "live",
+      "mechanics": [
+        "grid-movement",
+        "capture",
+        "checkmate",
+        "palace-confinement",
+        "river-divide"
+      ],
+      "complexity": "complex",
+      "stats": {
+        "variantCount": 9,
+        "playable": 3,
+        "withDiagram": 9,
+        "topologies": [
+          "grid",
+          "hexagonal-trisection"
+        ]
+      },
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9,
+          "layout": "intersections"
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#f5deb3",
+            "stroke": "#4a3520"
+          }
+        },
+        "render": {
+          "cellSize": 36,
+          "cellColor": "uniform",
+          "labels": true,
+          "boardStyle": "xiangqi",
+          "river": true,
+          "palace": true,
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "uniform",
+              "fill": "#f5deb3",
+              "stroke": "#4a3520",
+              "interactive": true
+            },
+            {
+              "op": "grid-lines",
+              "color": "#4a3520",
+              "width": 2,
+              "grouped": false,
+              "split": {
+                "topRow": 4,
+                "bottomRow": 5
+              }
+            },
+            {
+              "op": "lines",
+              "derive": "palace-diagonals",
+              "regions": [
+                {
+                  "rows": [
+                    0,
+                    2
+                  ],
+                  "cols": [
+                    3,
+                    5
+                  ]
+                },
+                {
+                  "rows": [
+                    7,
+                    9
+                  ],
+                  "cols": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "color": "#4a3520",
+              "width": 2
+            }
+          ],
+          "decorations": [
+            {
+              "type": "gap",
+              "rows": [
+                4,
+                5
+              ]
+            },
+            {
+              "type": "texts",
+              "items": [
+                {
+                  "text": "楚 河",
+                  "position": "river-left"
+                },
+                {
+                  "text": "漢 界",
+                  "position": "river-right"
+                }
+              ]
+            }
+          ]
+        },
+        "pieces": {
+          "set": "mce-xiangqi-trad",
+          "vocabulary": {
+            "R": "wR",
+            "r": "bR",
+            "H": "wN",
+            "h": "bN",
+            "E": "wE",
+            "e": "bE",
+            "A": "wA",
+            "a": "bA",
+            "K": "wK",
+            "k": "bK",
+            "C": "wC",
+            "c": "bC",
+            "P": "wP",
+            "p": "bP"
+          }
+        },
+        "players": [
+          "red",
+          "black"
+        ]
+      }
+    }
+  },
+  "stats": {
+    "totalFamilies": 46,
+    "totalVariants": 296,
+    "totalPlayable": 177,
+    "totalDiagrams": 346,
+    "topologies": {
+      "hex": 23,
+      "graph": 15,
+      "track": 14,
+      "tableau": 38,
+      "rpg": 20,
+      "grid": 236,
+      "hexagonal-trisection": 2,
+      "pit": 8,
+      "triangular": 1,
+      "none": 2
+    },
+    "byType": {
+      "standalone": 3,
+      "hub": 2,
+      "classic": 19,
+      "component": 6,
+      "rpg": 10,
+      "platform": 1,
+      "mod": 4,
+      "game": 1
+    }
+  }
+}

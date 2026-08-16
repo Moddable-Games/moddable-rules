@@ -1,0 +1,169 @@
+{
+  "slug": "congo",
+  "parent": "chess",
+  "title": "Congo",
+  "players": "2",
+  "board": "7×7",
+  "win": "Capture the Lion",
+  "special": "7×7 chess variant by Demian Freeling (1982, age 7). Six unique piece types: Lion (King, confined to castle), Zebra (Knight), Giraffe (2-step jump + king move), Elephant (1–2 step ortho leaper), Crocodile (king move + rook toward/in river), Monkey (capturing draughts-leaper). River rank in the centre. Drowning rule: non-Crocodile pieces left in the river for a full turn are removed. No check or checkmate — capture the Lion to win.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 7,
+      "cols": 7
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "gmelecz/ppppppp/7/7/7/PPPPPPP/GMELECZ",
+    "approximations": [
+      {
+        "piece": "crocodile",
+        "rules": "king move, plus rook movement toward and within the river rank",
+        "engine": "plain king step",
+        "blocker": "no river-relative or conditional movement"
+      },
+      {
+        "piece": "lion",
+        "rules": "king move, confined to 3x3 castle; facing-lions long capture",
+        "engine": "plain king step without zone confinement",
+        "blocker": "no zone confinement primitive"
+      }
+    ],
+    "vocabulary": {
+      "giraffe": {
+        "symbols": {
+          "0": "G",
+          "1": "g"
+        }
+      },
+      "monkey": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      },
+      "elephant": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      },
+      "lion": {
+        "symbols": {
+          "0": "L",
+          "1": "l"
+        }
+      },
+      "crocodile": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      },
+      "zebra": {
+        "symbols": {
+          "0": "Z",
+          "1": "z"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "giraffe": {
+            "divergent": {
+              "move": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": "dabbaba"
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": "elephant"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": "all",
+                    "maxSteps": 1
+                  }
+                ]
+              },
+              "capture": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": "dabbaba"
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": "elephant"
+                  }
+                ]
+              }
+            }
+          },
+          "monkey": {
+            "divergent": {
+              "move": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              },
+              "capture": {
+                "type": "locust",
+                "dirs": "king"
+              }
+            }
+          },
+          "crocodile": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1
+          },
+          "elephant": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "orthogonal",
+                "maxSteps": 1
+              },
+              {
+                "type": "leaper",
+                "offsets": "dabbaba"
+              }
+            ]
+          },
+          "lion": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1
+          },
+          "zebra": {
+            "type": "leaper",
+            "offsets": "knight"
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/congo-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/congo.md",
+    "meta": "/api/rules/chess/variants/congo.json",
+    "page": "/chess/variants/congo/"
+  }
+}

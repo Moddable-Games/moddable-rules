@@ -1,0 +1,80 @@
+{
+  "slug": "capablanca",
+  "parent": "chess",
+  "title": "Capablanca Chess",
+  "players": "2",
+  "board": "10×8",
+  "win": "Checkmate",
+  "special": "Two extra pieces: Archbishop (B+N) and Chancellor (R+N). Wider board.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 36
+    },
+    "setup": "rnabqkbcnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNABQKBCNR",
+    "promotionChoices": [
+      "queen",
+      "rook",
+      "bishop",
+      "knight",
+      "archbishop",
+      "chancellor"
+    ],
+    "vocabulary": {
+      "archbishop": {
+        "symbols": {
+          "0": "A",
+          "1": "a"
+        }
+      },
+      "chancellor": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "archbishop": {
+            "type": "compose",
+            "parts": [
+              "bishop",
+              "knight"
+            ]
+          },
+          "chancellor": {
+            "type": "compose",
+            "parts": [
+              "rook",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/capablanca-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/capablanca.md",
+    "meta": "/api/rules/chess/variants/capablanca.json",
+    "page": "/chess/variants/capablanca/"
+  }
+}

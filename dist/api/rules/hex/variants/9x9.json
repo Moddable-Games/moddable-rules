@@ -1,0 +1,39 @@
+{
+  "slug": "9x9",
+  "parent": "hex",
+  "title": "Hex (9×9)",
+  "players": "2",
+  "board": "9×9 rhombus",
+  "win": "Connect opposite edges",
+  "special": "Compact board. 81 cells. Quick tactical games.",
+  "playable": false,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "rhombus",
+      "rows": 9,
+      "cols": 9
+    },
+    "render": {
+      "cellSize": 24
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/hex/diagrams/svg/9x9-board.svg",
+    "topology": "hex",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/hex/variants/9x9.md",
+    "meta": "/api/rules/hex/variants/9x9.json",
+    "page": "/hex/variants/9x9/"
+  }
+}

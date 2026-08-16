@@ -1,0 +1,112 @@
+{
+  "slug": "13x13",
+  "parent": "go",
+  "title": "13×13 Go",
+  "players": "2",
+  "board": "13×13",
+  "win": "Most territory at game end",
+  "special": "Intermediate board. 169 intersections. Komi 5.5. 30–60 minute games.",
+  "playable": true,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 13,
+      "cols": 13,
+      "layout": "intersections"
+    },
+    "render": {
+      "ops": [
+        {
+          "op": "rect",
+          "fill": "cell-light",
+          "scope": "board"
+        },
+        {
+          "op": "rect",
+          "fill": "cell-dark",
+          "scope": "grid",
+          "rx": 2
+        },
+        {
+          "op": "grid-lines",
+          "grouped": true,
+          "order": "hv",
+          "color": "stroke",
+          "width": 0.8
+        },
+        {
+          "op": "markers",
+          "grouped": true,
+          "fill": "star-point",
+          "at": [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              9,
+              9
+            ]
+          ],
+          "radius": 3
+        },
+        {
+          "op": "hit-targets",
+          "grouped": true,
+          "radiusFactor": 0.45
+        }
+      ]
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": "",
+    "plugins": {
+      "go": {
+        "extends": "standard",
+        "komi": 6.5
+      }
+    },
+    "handicaps": {
+      "range": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "positions": [
+        "9,3",
+        "3,9",
+        "9,9",
+        "3,3",
+        "6,6"
+      ]
+    }
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/13x13-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/13x13.md",
+    "meta": "/api/rules/go/variants/13x13.json",
+    "page": "/go/variants/13x13/"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "delirious-bughouse",
+  "parent": "chess",
+  "title": "Delirious Bughouse",
+  "players": "4 (2 teams of 2)",
+  "board": "8×8 (two boards)",
+  "win": "Capture an opposing King (team loses if either ally's King is captured)",
+  "special": "Bughouse variant by Alberto Monteiro (c.1984) combining relay capture, dice, and a worst-move mechanic. Two boards, 4 players, 2 allied teams. Key Bughouse modifications: Pawns drop only on ranks 2–6 (not rank 7); promoted Pawns when captured stay promoted (the promoting player recovers the original Pawn, permanently increasing piece count). Add-on layers: Dice Chess (die each turn — 1=Pawn, 2=Knight, 3=Bishop, 4=Rook, 5=Queen, 6=any); Worst Move (second die determines whether the player or opponent chooses the move); fairy pieces (Camel, Giraffe, Zebra, Cylindrical pieces, Pyramid, Atomic Bomb). Final full form adds Structures, Events, and Magic Items.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8,
+      "boards": 2
+    },
+    "players": [
+      "white1",
+      "black2",
+      "white3",
+      "black4"
+    ],
+    "render": {
+      "cellSize": 34
+    },
+    "setup": [
+      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+    ],
+    "notation": "algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/delirious-bughouse-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/delirious-bughouse.md",
+    "meta": "/api/rules/chess/variants/delirious-bughouse.json",
+    "page": "/chess/variants/delirious-bughouse/"
+  }
+}

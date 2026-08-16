@@ -1,0 +1,63 @@
+{
+  "slug": "dungeon-world",
+  "title": "Dungeon World",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "2-5",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "combat",
+    "exploration",
+    "class-based"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "data/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "dungeon-world",
+        "familyTitle": "Dungeon World",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/dungeon-world/diagrams/svg/dungeon-world-character-sheet.svg",
+        "rulesUrl": "dist/dungeon-world/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "dungeon-world",
+        "familyTitle": "Dungeon World",
+        "variant": "reference",
+        "variantTitle": "Dungeon World",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/dungeon-world/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "standard",
+  "parent": "tafl",
+  "title": "Tablut",
+  "players": null,
+  "board": null,
+  "win": null,
+  "special": null,
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9
+    },
+    "players": [
+      "attackers",
+      "defenders"
+    ],
+    "setup": "3bbb3/4b4/4w4/b3w3b/bbwwKwwbb/b3w3b/4w4/4b4/3bbb3",
+    "render": {
+      "ops": [
+        {
+          "op": "rect",
+          "fill": "transparent",
+          "scope": "board"
+        },
+        {
+          "op": "cells",
+          "pattern": "cellMap",
+          "light": "cell-light",
+          "dark": "cell-dark",
+          "defaultFill": "floor",
+          "zones": {
+            "cells": [
+              {
+                "type": "throne",
+                "at": [
+                  [
+                    4,
+                    4
+                  ]
+                ]
+              },
+              {
+                "type": "corner",
+                "at": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    8
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    8
+                  ]
+                ]
+              }
+            ]
+          },
+          "typeColors": {
+            "floor": "floor",
+            "throne": "throne",
+            "corner": "corner"
+          },
+          "typeStrokes": {
+            "floor": "floor-stroke",
+            "throne": "throne-stroke",
+            "corner": "corner-stroke"
+          }
+        }
+      ]
+    }
+  },
+  "diagram": {
+    "svg": "games/tafl/diagrams/svg/standard-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/tafl/variants/standard.md",
+    "meta": "/api/rules/tafl/variants/standard.json",
+    "page": "/tafl/variants/standard/"
+  }
+}

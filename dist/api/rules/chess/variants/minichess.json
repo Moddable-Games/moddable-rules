@@ -1,0 +1,37 @@
+{
+  "slug": "minichess",
+  "parent": "chess",
+  "title": "Minichess",
+  "players": "2",
+  "board": "5×5",
+  "win": "Checkmate",
+  "special": "Gardner's 5x5 board. All piece types, fast tactical games.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 5,
+      "cols": 5
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "kqbnr/ppppp/5/PPPPP/RNBQK",
+    "castling": false,
+    "enPassant": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/minichess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/minichess.md",
+    "meta": "/api/rules/chess/variants/minichess.json",
+    "page": "/chess/variants/minichess/"
+  }
+}

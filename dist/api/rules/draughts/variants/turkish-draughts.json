@@ -1,0 +1,46 @@
+{
+  "slug": "turkish-draughts",
+  "parent": "draughts",
+  "title": "Turkish Draughts",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture or block all opponent pieces",
+  "special": "Orthogonal movement replaces diagonal. Majority capture rule. Immediate removal.",
+  "playable": true,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "8/bbbbbbbb/bbbbbbbb/8/8/wwwwwwww/wwwwwwww/8",
+    "plugins": {
+      "draughts": {
+        "piecesPerPlayer": 16,
+        "directions": "orthogonal",
+        "manCapture": "forward",
+        "manMove": "forward",
+        "forcedCapture": true,
+        "maximalCapture": true,
+        "flyingKings": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/turkish-draughts-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/turkish-draughts.md",
+    "meta": "/api/rules/draughts/variants/turkish-draughts.json",
+    "page": "/draughts/variants/turkish-draughts/"
+  }
+}

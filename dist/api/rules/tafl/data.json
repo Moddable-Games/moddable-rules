@@ -1,0 +1,638 @@
+{
+  "slug": "tafl",
+  "title": "Tafl",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "asymmetric",
+    "capture",
+    "king-escape",
+    "grid-movement"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9
+    },
+    "render": {
+      "cellSize": 40,
+      "cellColor": "checkered",
+      "labels": false,
+      "zones": {
+        "fill": "floor",
+        "cells": [
+          {
+            "type": "throne",
+            "at": [
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          {
+            "type": "corner",
+            "at": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                8
+              ],
+              [
+                8,
+                0
+              ],
+              [
+                8,
+                8
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "surface": {
+      "colors": {
+        "floor": "#d9c5a0",
+        "floor-stroke": "#8b7355",
+        "throne": "#8b4513",
+        "throne-stroke": "#5c2d0e",
+        "corner": "#4a6741",
+        "corner-stroke": "#2d4028"
+      }
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic",
+      "vocabulary": {
+        "K": {
+          "type": "king",
+          "color": "white"
+        },
+        "w": {
+          "type": "stone",
+          "color": "white"
+        },
+        "b": {
+          "type": "stone",
+          "color": "black"
+        }
+      }
+    },
+    "players": [
+      "attackers",
+      "defenders"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "tafl",
+      "title": "Tablut",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null,
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "players": [
+          "attackers",
+          "defenders"
+        ],
+        "setup": "3bbb3/4b4/4w4/b3w3b/bbwwKwwbb/b3w3b/4w4/4b4/3bbb3",
+        "render": {
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "floor",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "throne",
+                    "at": [
+                      [
+                        4,
+                        4
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "corner",
+                    "at": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        8
+                      ],
+                      [
+                        8,
+                        0
+                      ],
+                      [
+                        8,
+                        8
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "floor": "floor",
+                "throne": "throne",
+                "corner": "corner"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "throne": "throne-stroke",
+                "corner": "corner-stroke"
+              }
+            }
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/tafl/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/tafl/variants/standard.md",
+        "meta": "/api/rules/tafl/variants/standard.json",
+        "page": "/tafl/variants/standard/"
+      }
+    },
+    {
+      "slug": "brandubh",
+      "parent": "tafl",
+      "title": "Brandubh",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null,
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 7,
+          "cols": 7
+        },
+        "players": [
+          "attackers",
+          "defenders"
+        ],
+        "render": {
+          "cellSize": 40,
+          "zones": {
+            "fill": "floor",
+            "cells": [
+              {
+                "type": "throne",
+                "at": [
+                  [
+                    3,
+                    3
+                  ]
+                ]
+              },
+              {
+                "type": "corner",
+                "at": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    6
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    6
+                  ]
+                ]
+              }
+            ]
+          },
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "floor",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "throne",
+                    "at": [
+                      [
+                        3,
+                        3
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "corner",
+                    "at": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        6
+                      ],
+                      [
+                        6,
+                        0
+                      ],
+                      [
+                        6,
+                        6
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "floor": "floor",
+                "throne": "throne",
+                "corner": "corner"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "throne": "throne-stroke",
+                "corner": "corner-stroke"
+              }
+            }
+          ]
+        },
+        "setup": "3b3/3b3/3w3/bbwKwbb/3w3/3b3/3b3"
+      },
+      "diagram": {
+        "svg": "games/tafl/diagrams/svg/brandubh-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/tafl/variants/brandubh.md",
+        "meta": "/api/rules/tafl/variants/brandubh.json",
+        "page": "/tafl/variants/brandubh/"
+      }
+    },
+    {
+      "slug": "hnefatafl",
+      "parent": "tafl",
+      "title": "Hnefatafl",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null,
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 11,
+          "cols": 11
+        },
+        "players": [
+          "attackers",
+          "defenders"
+        ],
+        "render": {
+          "cellSize": 34,
+          "zones": {
+            "fill": "floor",
+            "cells": [
+              {
+                "type": "throne",
+                "at": [
+                  [
+                    5,
+                    5
+                  ]
+                ]
+              },
+              {
+                "type": "corner",
+                "at": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    10
+                  ],
+                  [
+                    10,
+                    0
+                  ],
+                  [
+                    10,
+                    10
+                  ]
+                ]
+              }
+            ]
+          },
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "floor",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "throne",
+                    "at": [
+                      [
+                        5,
+                        5
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "corner",
+                    "at": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        10
+                      ],
+                      [
+                        10,
+                        0
+                      ],
+                      [
+                        10,
+                        10
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "floor": "floor",
+                "throne": "throne",
+                "corner": "corner"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "throne": "throne-stroke",
+                "corner": "corner-stroke"
+              }
+            }
+          ]
+        },
+        "setup": "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
+      },
+      "diagram": {
+        "svg": "games/tafl/diagrams/svg/hnefatafl-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/tafl/variants/hnefatafl.md",
+        "meta": "/api/rules/tafl/variants/hnefatafl.json",
+        "page": "/tafl/variants/hnefatafl/"
+      }
+    },
+    {
+      "slug": "tawlbwrdd",
+      "parent": "tafl",
+      "title": "Tawlbwrdd",
+      "players": null,
+      "board": null,
+      "win": null,
+      "special": null,
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 11,
+          "cols": 11
+        },
+        "players": [
+          "attackers",
+          "defenders"
+        ],
+        "render": {
+          "cellSize": 34,
+          "zones": {
+            "fill": "floor",
+            "cells": [
+              {
+                "type": "throne",
+                "at": [
+                  [
+                    5,
+                    5
+                  ]
+                ]
+              },
+              {
+                "type": "corner",
+                "at": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    10
+                  ],
+                  [
+                    10,
+                    0
+                  ],
+                  [
+                    10,
+                    10
+                  ]
+                ]
+              }
+            ]
+          },
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "floor",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "throne",
+                    "at": [
+                      [
+                        5,
+                        5
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "corner",
+                    "at": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        10
+                      ],
+                      [
+                        10,
+                        0
+                      ],
+                      [
+                        10,
+                        10
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "floor": "floor",
+                "throne": "throne",
+                "corner": "corner"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "throne": "throne-stroke",
+                "corner": "corner-stroke"
+              }
+            }
+          ]
+        },
+        "setup": "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
+      },
+      "diagram": {
+        "svg": "games/tafl/diagrams/svg/tawlbwrdd-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/tafl/variants/tawlbwrdd.md",
+        "meta": "/api/rules/tafl/variants/tawlbwrdd.json",
+        "page": "/tafl/variants/tawlbwrdd/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 4,
+    "rendered": 4,
+    "entries": [
+      {
+        "family": "tafl",
+        "familyTitle": "Tafl",
+        "variant": "brandubh",
+        "variantTitle": "Brandubh",
+        "topology": "grid",
+        "svg": "games/tafl/diagrams/svg/brandubh-board.svg",
+        "rulesUrl": "dist/tafl/variants/brandubh/index.html",
+        "status": "rendered"
+      },
+      {
+        "family": "tafl",
+        "familyTitle": "Tafl",
+        "variant": "hnefatafl",
+        "variantTitle": "Hnefatafl",
+        "topology": "grid",
+        "svg": "games/tafl/diagrams/svg/hnefatafl-board.svg",
+        "rulesUrl": "dist/tafl/variants/hnefatafl/index.html",
+        "status": "rendered"
+      },
+      {
+        "family": "tafl",
+        "familyTitle": "Tafl",
+        "variant": "standard",
+        "variantTitle": "Tablut",
+        "topology": "grid",
+        "svg": "games/tafl/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/tafl/variants/standard/index.html",
+        "status": "rendered"
+      },
+      {
+        "family": "tafl",
+        "familyTitle": "Tafl",
+        "variant": "tawlbwrdd",
+        "variantTitle": "Tawlbwrdd",
+        "topology": "grid",
+        "svg": "games/tafl/diagrams/svg/tawlbwrdd-board.svg",
+        "rulesUrl": "dist/tafl/variants/tawlbwrdd/index.html",
+        "status": "rendered"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 4,
+    "playable": 0,
+    "withDiagram": 4,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

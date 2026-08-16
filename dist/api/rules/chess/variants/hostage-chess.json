@@ -1,0 +1,36 @@
+{
+  "slug": "hostage-chess",
+  "parent": "chess",
+  "title": "Hostage Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Shogi-inspired drop variant using a single standard set. Captured pieces become \"hostages\"; you can rescue yours by releasing one of theirs. Promoted pawns are replaced by prison pieces. Named chess variant of the decade by David Pritchard (Variant Chess, Summer 1999).",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "drops": true
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/hostage-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/hostage-chess.md",
+    "meta": "/api/rules/chess/variants/hostage-chess.json",
+    "page": "/chess/variants/hostage-chess/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "shax",
+  "parent": "morris",
+  "title": "Shax",
+  "players": "2",
+  "board": "Three concentric squares (24 intersections)",
+  "win": "Reduce opponent to 2 pieces or block all their moves",
+  "special": "Somali variant: during placement, mills do not remove opponent pieces — instead, pieces are captured only during the movement phase.",
+  "playable": false,
+  "order": 7,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 3,
+        "midpoints": true
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/morris/diagrams/svg/shax-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/morris/variants/shax.md",
+    "meta": "/api/rules/morris/variants/shax.json",
+    "page": "/morris/variants/shax/"
+  }
+}

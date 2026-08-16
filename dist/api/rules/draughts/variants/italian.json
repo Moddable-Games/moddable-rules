@@ -1,0 +1,47 @@
+{
+  "slug": "italian",
+  "parent": "draughts",
+  "title": "Italian Draughts",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture or block all opponent pieces",
+  "special": "Men cannot capture kings. Strict capture priority: king captures first, then most pieces, then most kings.",
+  "playable": true,
+  "order": 11,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "piecesPerPlayer": 12,
+        "directions": "diagonal",
+        "manCapture": "forward",
+        "manMove": "forward",
+        "forcedCapture": true,
+        "maximalCapture": true,
+        "menCannotCaptureKings": true,
+        "flyingKings": false
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/italian-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/italian.md",
+    "meta": "/api/rules/draughts/variants/italian.json",
+    "page": "/draughts/variants/italian/"
+  }
+}

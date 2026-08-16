@@ -1,0 +1,39 @@
+{
+  "slug": "bao",
+  "parent": "mancala",
+  "title": "Bao",
+  "players": "2",
+  "board": "4×8 pits (2 rows per player)",
+  "win": "Reduce opponent to no seeds in their inner row, or leave them with no legal move",
+  "special": "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing.",
+  "playable": false,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "pit",
+      "rows": 4,
+      "cols": 8,
+      "stores": false
+    },
+    "players": [
+      "south",
+      "north"
+    ],
+    "render": {
+      "cellSize": 20
+    },
+    "setup": "0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2;0;2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0;0"
+  },
+  "diagram": {
+    "svg": "games/mancala/diagrams/svg/bao-board.svg",
+    "topology": "pit",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/mancala/variants/bao.md",
+    "meta": "/api/rules/mancala/variants/bao.json",
+    "page": "/mancala/variants/bao/"
+  }
+}

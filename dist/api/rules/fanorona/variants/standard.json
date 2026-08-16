@@ -1,0 +1,65 @@
+{
+  "slug": "standard",
+  "parent": "fanorona",
+  "title": "Fanorona (Standard)",
+  "players": "2",
+  "board": "5×9",
+  "win": null,
+  "special": null,
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 5,
+      "cols": 9,
+      "layout": "intersections"
+    },
+    "render": {
+      "cellSize": 40,
+      "cellColor": "uniform",
+      "decorations": [
+        {
+          "type": "diagonals",
+          "pattern": "alternating"
+        }
+      ]
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#d9b483",
+        "stroke": "#7a4510"
+      }
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic",
+      "vocabulary": {
+        "w": {
+          "type": "stone",
+          "color": "white"
+        },
+        "b": {
+          "type": "stone",
+          "color": "black"
+        }
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "bbbbbbbbb/bbbbbbbbb/bwbw1bwbw/wwwwwwwww/wwwwwwwww"
+  },
+  "diagram": {
+    "svg": "games/fanorona/diagrams/svg/standard-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/fanorona/variants/standard.md",
+    "meta": "/api/rules/fanorona/variants/standard.json",
+    "page": "/fanorona/variants/standard/"
+  }
+}

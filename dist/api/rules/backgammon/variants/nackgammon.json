@@ -1,0 +1,34 @@
+{
+  "slug": "nackgammon",
+  "parent": "backgammon",
+  "title": "Nackgammon",
+  "players": "2",
+  "board": "24-point board",
+  "win": "Bear off all 15 pieces before your opponent",
+  "special": "2 extra checkers placed on the 23-point create a slower, more complex opening than standard Backgammon.",
+  "playable": false,
+  "order": 7,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 24
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "0:2W,1:2W,5:3B,7:3B,11:5W,12:5B,16:3W,18:3W,22:2B,23:2B"
+  },
+  "diagram": {
+    "svg": "games/backgammon/diagrams/svg/nackgammon-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/backgammon/variants/nackgammon.md",
+    "meta": "/api/rules/backgammon/variants/nackgammon.json",
+    "page": "/backgammon/variants/nackgammon/"
+  }
+}

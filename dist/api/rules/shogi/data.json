@@ -1,0 +1,3518 @@
+{
+  "slug": "shogi",
+  "title": "Shogi",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "grid-movement",
+    "capture",
+    "drops",
+    "promotion",
+    "checkmate"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9,
+      "layout": "intersections"
+    },
+    "pieceRotations": {
+      "white": 0,
+      "black": 180
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#e8c97a",
+        "cell-dark": "#8b6914",
+        "stroke": "#6b4e1a",
+        "hoshi": "#6b4e1a",
+        "promotion-zone": "rgba(180, 60, 40, 0.08)"
+      }
+    },
+    "render": {
+      "cellSize": 36,
+      "cellColor": "uniform",
+      "labels": false,
+      "boardStyle": "shogi",
+      "ops": [
+        {
+          "op": "cells",
+          "pattern": "uniform",
+          "fill": "#e8c97a",
+          "stroke": "#6b4e1a",
+          "interactive": true
+        },
+        {
+          "op": "grid-lines",
+          "color": "#6b4e1a",
+          "width": 2,
+          "grouped": false
+        }
+      ],
+      "decorations": [
+        {
+          "type": "markers",
+          "at": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "fill": "hoshi",
+          "size": 3
+        },
+        {
+          "type": "tint",
+          "region": {
+            "rows": [
+              0,
+              2
+            ]
+          },
+          "color": "promotion-zone"
+        },
+        {
+          "type": "tint",
+          "region": {
+            "rows": [
+              6,
+              8
+            ]
+          },
+          "color": "promotion-zone"
+        }
+      ]
+    },
+    "pieces": {
+      "set": "kahu-shogi-kanji-red-wood"
+    },
+    "players": [
+      "sente",
+      "gote"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "shogi",
+      "title": "Standard Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate the opponent's King",
+      "special": "Captured pieces become your own and can be dropped back onto the board",
+      "playable": true,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL",
+        "plugins": {
+          "shogi": {
+            "promotionZone": 3
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/standard.md",
+        "meta": "/api/rules/shogi/variants/standard.json",
+        "page": "/shogi/variants/standard/"
+      }
+    },
+    {
+      "slug": "sho-shogi",
+      "parent": "shogi",
+      "title": "Sho Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate, or capture both royal pieces if Crown Prince promoted",
+      "special": "16th-century predecessor to modern Shogi. Adds the Drunken Elephant, which promotes to the Crown Prince — a second royal piece. No drop rule.",
+      "playable": true,
+      "order": 10,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "lnsgkgsnl/1r2e2b1/ppppppppp/9/9/9/PPPPPPPPP/1B2E2R1/LNSGKGSNL",
+        "vocabulary": {
+          "king": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "rook": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "bishop": {
+            "symbols": {
+              "0": "B",
+              "1": "b"
+            }
+          },
+          "gold": {
+            "symbols": {
+              "0": "G",
+              "1": "g"
+            }
+          },
+          "silver": {
+            "symbols": {
+              "0": "S",
+              "1": "s"
+            }
+          },
+          "knight": {
+            "symbols": {
+              "0": "N",
+              "1": "n"
+            }
+          },
+          "lance": {
+            "symbols": {
+              "0": "L",
+              "1": "l"
+            }
+          },
+          "pawn": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          },
+          "elephant": {
+            "symbols": {
+              "0": "E",
+              "1": "e"
+            }
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "drops": false,
+            "pieceMoves": {
+              "elephant": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_elephant": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              }
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/sho-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/sho-shogi.md",
+        "meta": "/api/rules/shogi/variants/sho-shogi.json",
+        "page": "/shogi/variants/sho-shogi/"
+      }
+    },
+    {
+      "slug": "dobutsu",
+      "parent": "shogi",
+      "title": "Dobutsu Shogi",
+      "players": "2",
+      "board": "3×4",
+      "win": "Capture the enemy Lion, or move your Lion to the opponent's back rank without it being in immediate danger",
+      "special": "Animal-themed introductory Shogi on a 3×4 board, designed for young children. Invented by professional Shogi player Madoka Kitao. All pieces show their moves printed on the piece face. A solved game.",
+      "playable": true,
+      "order": 20,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 4,
+          "cols": 3
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "gle/1c1/1C1/ELG",
+        "render": {
+          "cellSize": 50
+        },
+        "vocabulary": {
+          "lion": {
+            "symbols": {
+              "0": "L",
+              "1": "l"
+            }
+          },
+          "giraffe": {
+            "symbols": {
+              "0": "G",
+              "1": "g"
+            }
+          },
+          "elephant": {
+            "symbols": {
+              "0": "E",
+              "1": "e"
+            }
+          },
+          "chick": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "promotionZone": 1,
+            "royalType": "lion",
+            "pieceMoves": {
+              "lion": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              },
+              "giraffe": {
+                "type": "rider",
+                "dirs": "orthogonal",
+                "maxSteps": 1
+              },
+              "elephant": {
+                "type": "rider",
+                "dirs": "diagonal",
+                "maxSteps": 1
+              },
+              "chick": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_chick": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "directional": true
+              }
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/dobutsu-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/dobutsu.md",
+        "meta": "/api/rules/shogi/variants/dobutsu.json",
+        "page": "/shogi/variants/dobutsu/"
+      }
+    },
+    {
+      "slug": "gorogoro-plus",
+      "parent": "shogi",
+      "title": "Gorogoro+",
+      "players": "2",
+      "board": "5×6",
+      "win": "Checkmate",
+      "special": "Shogi on a 5×6 board with no Bishop or Rook. Each player starts with a Knight and Lance in hand. Promotion in the last two ranks only.",
+      "playable": true,
+      "order": 30,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 6,
+          "cols": 5
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "sgkgs/5/1ppp1/1PPP1/5/SGKGS",
+        "render": {
+          "cellSize": 40
+        },
+        "plugins": {
+          "shogi": {
+            "promotionZone": 2,
+            "initialHands": [
+              [
+                "knight",
+                "lance"
+              ],
+              [
+                "knight",
+                "lance"
+              ]
+            ]
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/gorogoro-plus-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/gorogoro-plus.md",
+        "meta": "/api/rules/shogi/variants/gorogoro-plus.json",
+        "page": "/shogi/variants/gorogoro-plus/"
+      }
+    },
+    {
+      "slug": "tori-shogi",
+      "parent": "shogi",
+      "title": "Tori Shogi",
+      "players": "2",
+      "board": "7×7",
+      "win": "Checkmate the Phoenix",
+      "special": "Bird Shogi, invented 1799. 7×7 board, bird-themed pieces, drop rules. Only two pieces promote. Repetition caused by your own moves is a loss. One of the oldest Shogi variants with the drop rule.",
+      "playable": true,
+      "order": 40,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 7,
+          "cols": 7
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "rpckcpl/3f3/sssssss/2s1S2/SSSSSSS/3F3/LPCKCPR",
+        "render": {
+          "cellSize": 40
+        },
+        "vocabulary": {
+          "phoenix": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "crane": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "pheasant": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          },
+          "left_quail": {
+            "symbols": {
+              "0": "L",
+              "1": "l"
+            }
+          },
+          "right_quail": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "falcon": {
+            "symbols": {
+              "0": "F",
+              "1": "f"
+            }
+          },
+          "swallow": {
+            "symbols": {
+              "0": "S",
+              "1": "s"
+            }
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "promotionZone": 2,
+            "royalType": "phoenix",
+            "dropCheckmateLimit": true,
+            "noDropLastRank": [
+              "swallow"
+            ],
+            "nifuType": "swallow",
+            "nifuLimit": 2,
+            "pieceMoves": {
+              "phoenix": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              },
+              "crane": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              "pheasant": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -2,
+                        0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "left_quail": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        1,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        1,
+                        -1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "right_quail": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        1,
+                        -1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        1,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "falcon": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "directional": true
+              },
+              "swallow": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_falcon": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "maxSteps": 2
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "promoted_swallow": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -2,
+                    -1
+                  ],
+                  [
+                    -2,
+                    1
+                  ],
+                  [
+                    2,
+                    0
+                  ]
+                ],
+                "directional": true
+              }
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/tori-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/tori-shogi.md",
+        "meta": "/api/rules/shogi/variants/tori-shogi.json",
+        "page": "/shogi/variants/tori-shogi/"
+      }
+    },
+    {
+      "slug": "cannon-shogi",
+      "parent": "shogi",
+      "title": "Cannon Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate",
+      "special": "Shogi plus four Cannon types drawn from Xiangqi and Janggi, each with unique movement and capture rules. Pawns replaced with Janggi-style Soldiers. Invented by Peter Michaelsen, 1998.",
+      "playable": true,
+      "order": 50,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "lnsgkgsnl/1rci1uab1/p1p1p1p1p/9/9/9/P1P1P1P1P/1BAU1ICR1/LNSGKGSNL",
+        "vocabulary": {
+          "king": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "rook": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "bishop": {
+            "symbols": {
+              "0": "B",
+              "1": "b"
+            }
+          },
+          "gold": {
+            "symbols": {
+              "0": "G",
+              "1": "g"
+            }
+          },
+          "silver": {
+            "symbols": {
+              "0": "S",
+              "1": "s"
+            }
+          },
+          "knight": {
+            "symbols": {
+              "0": "N",
+              "1": "n"
+            }
+          },
+          "lance": {
+            "symbols": {
+              "0": "L",
+              "1": "l"
+            }
+          },
+          "soldier": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          },
+          "gold_cannon": {
+            "symbols": {
+              "0": "U",
+              "1": "u"
+            }
+          },
+          "silver_cannon": {
+            "symbols": {
+              "0": "A",
+              "1": "a"
+            }
+          },
+          "copper_cannon": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "iron_cannon": {
+            "symbols": {
+              "0": "I",
+              "1": "i"
+            }
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "nifuType": "soldier",
+            "noDropLastRank": [
+              "soldier"
+            ],
+            "noDropSecondRank": [
+              "knight"
+            ],
+            "pieceMoves": {
+              "soldier": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "directional": true
+              },
+              "gold_cannon": {
+                "divergent": {
+                  "move": {
+                    "type": "rider",
+                    "dirs": "orthogonal"
+                  },
+                  "capture": {
+                    "type": "hopper",
+                    "dirs": "orthogonal",
+                    "captureSlide": true
+                  }
+                }
+              },
+              "silver_cannon": {
+                "type": "hopper",
+                "dirs": "orthogonal",
+                "moveSlide": true
+              },
+              "copper_cannon": {
+                "divergent": {
+                  "move": {
+                    "type": "rider",
+                    "dirs": "diagonal"
+                  },
+                  "capture": {
+                    "type": "hopper",
+                    "dirs": "diagonal",
+                    "captureSlide": true
+                  }
+                }
+              },
+              "iron_cannon": {
+                "type": "hopper",
+                "dirs": "diagonal",
+                "moveSlide": true
+              },
+              "promoted_soldier": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_gold_cannon": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "hopper",
+                    "dirs": "orthogonal",
+                    "moveSlide": true
+                  },
+                  {
+                    "type": "hopper",
+                    "dirs": "diagonal",
+                    "captureSlide": true
+                  }
+                ]
+              },
+              "promoted_silver_cannon": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "hopper",
+                    "dirs": "orthogonal",
+                    "moveSlide": true
+                  },
+                  {
+                    "type": "hopper",
+                    "dirs": "diagonal",
+                    "captureSlide": true
+                  }
+                ]
+              },
+              "promoted_copper_cannon": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "hopper",
+                    "dirs": "diagonal",
+                    "moveSlide": true
+                  },
+                  {
+                    "type": "hopper",
+                    "dirs": "orthogonal",
+                    "captureSlide": true
+                  }
+                ]
+              },
+              "promoted_iron_cannon": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "hopper",
+                    "dirs": "diagonal",
+                    "moveSlide": true
+                  },
+                  {
+                    "type": "hopper",
+                    "dirs": "orthogonal",
+                    "captureSlide": true
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/cannon-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/cannon-shogi.md",
+        "meta": "/api/rules/shogi/variants/cannon-shogi.json",
+        "page": "/shogi/variants/cannon-shogi/"
+      }
+    },
+    {
+      "slug": "annan-shogi",
+      "parent": "shogi",
+      "title": "Annan Shogi",
+      "players": 2,
+      "board": "9×9",
+      "win": "Checkmate the opponent's King",
+      "special": "Each piece borrows the movement of the friendly piece directly behind it. A Pawn backed by a Rook moves like a Rook.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "lnsgkgsnl/1r5b1/p1ppppp1p/1p5p1/9/1P5P1/P1PPPPP1P/1B5R1/LNSGKGSNL"
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/annan-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/annan-shogi.md",
+        "meta": "/api/rules/shogi/variants/annan-shogi.json",
+        "page": "/shogi/variants/annan-shogi/"
+      }
+    },
+    {
+      "slug": "chu-shogi",
+      "parent": "shogi",
+      "title": "Chu Shogi",
+      "players": "2",
+      "board": "12×12",
+      "win": "Capture all opponent royal pieces (King and any Prince)",
+      "special": "Historical Japanese chess, dominant for centuries before modern Shogi. 46 pieces of 21 types per side on a 12×12 board. No drops. Features the powerful Lion (double-move, can capture twice) with special trading restrictions. Optional promotion to predetermined promoted forms in the far 4 ranks.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 12,
+          "cols": 12
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "lfcsgekgscfl/a1b1txot1b1a/mvrhdqndhrvm/pppppppppppp/3i4i3/12/12/3I4I3/PPPPPPPPPPPP/MVRHDNQDHRVM/A1B1TOXT1B1A/LFCSGKEGSCFL",
+        "render": {
+          "cellSize": 28
+        },
+        "vocabulary": {
+          "king": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "gold": {
+            "symbols": {
+              "0": "G",
+              "1": "g"
+            }
+          },
+          "silver": {
+            "symbols": {
+              "0": "S",
+              "1": "s"
+            }
+          },
+          "copper": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "leopard": {
+            "symbols": {
+              "0": "F",
+              "1": "f"
+            }
+          },
+          "lance": {
+            "symbols": {
+              "0": "L",
+              "1": "l"
+            }
+          },
+          "reverse_chariot": {
+            "symbols": {
+              "0": "A",
+              "1": "a"
+            }
+          },
+          "bishop": {
+            "symbols": {
+              "0": "B",
+              "1": "b"
+            }
+          },
+          "blind_tiger": {
+            "symbols": {
+              "0": "T",
+              "1": "t"
+            }
+          },
+          "kirin": {
+            "symbols": {
+              "0": "X",
+              "1": "x"
+            }
+          },
+          "phoenix": {
+            "symbols": {
+              "0": "O",
+              "1": "o"
+            }
+          },
+          "side_mover": {
+            "symbols": {
+              "0": "M",
+              "1": "m"
+            }
+          },
+          "vertical_mover": {
+            "symbols": {
+              "0": "V",
+              "1": "v"
+            }
+          },
+          "rook": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "dragon_horse": {
+            "symbols": {
+              "0": "H",
+              "1": "h"
+            }
+          },
+          "dragon_king": {
+            "symbols": {
+              "0": "D",
+              "1": "d"
+            }
+          },
+          "lion": {
+            "symbols": {
+              "0": "N",
+              "1": "n"
+            }
+          },
+          "queen": {
+            "symbols": {
+              "0": "Q",
+              "1": "q"
+            }
+          },
+          "pawn": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          },
+          "go_between": {
+            "symbols": {
+              "0": "I",
+              "1": "i"
+            }
+          },
+          "elephant": {
+            "symbols": {
+              "0": "E",
+              "1": "e"
+            }
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "drops": false,
+            "promotionZone": 4,
+            "pieceMoves": {
+              "copper": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "leopard": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              },
+              "reverse_chariot": {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              },
+              "blind_tiger": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "kirin": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -2,
+                        0
+                      ],
+                      [
+                        2,
+                        0
+                      ],
+                      [
+                        0,
+                        -2
+                      ],
+                      [
+                        0,
+                        2
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "phoenix": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -2,
+                        -2
+                      ],
+                      [
+                        -2,
+                        2
+                      ],
+                      [
+                        2,
+                        -2
+                      ],
+                      [
+                        2,
+                        2
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "side_mover": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "vertical_mover": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "dragon_horse": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "diagonal"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": "orthogonal",
+                    "maxSteps": 1
+                  }
+                ]
+              },
+              "dragon_king": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "orthogonal"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": "diagonal",
+                    "maxSteps": 1
+                  }
+                ]
+              },
+              "lion": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -2,
+                    -2
+                  ],
+                  [
+                    -2,
+                    -1
+                  ],
+                  [
+                    -2,
+                    0
+                  ],
+                  [
+                    -2,
+                    1
+                  ],
+                  [
+                    -2,
+                    2
+                  ],
+                  [
+                    -1,
+                    -2
+                  ],
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    -1,
+                    2
+                  ],
+                  [
+                    0,
+                    -2
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    2
+                  ],
+                  [
+                    1,
+                    -2
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    2,
+                    -2
+                  ],
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    2,
+                    0
+                  ],
+                  [
+                    2,
+                    1
+                  ],
+                  [
+                    2,
+                    2
+                  ]
+                ]
+              },
+              "queen": {
+                "type": "rider",
+                "dirs": "all"
+              },
+              "go_between": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              },
+              "elephant": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_copper": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "diagonal"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "promoted_leopard": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "diagonal"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "promoted_lance": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ]
+                    ],
+                    "directional": true
+                  }
+                ]
+              },
+              "promoted_reverse_chariot": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "directional": true
+                  }
+                ]
+              },
+              "promoted_blind_tiger": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              },
+              "promoted_kirin": {
+                "type": "rider",
+                "dirs": "all"
+              },
+              "promoted_phoenix": {
+                "type": "rider",
+                "dirs": "all"
+              },
+              "promoted_side_mover": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "diagonal"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "promoted_vertical_mover": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "diagonal"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "promoted_pawn": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_go_between": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_elephant": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              }
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/chu-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/chu-shogi.md",
+        "meta": "/api/rules/shogi/variants/chu-shogi.json",
+        "page": "/shogi/variants/chu-shogi/"
+      }
+    },
+    {
+      "slug": "dai-shogi",
+      "parent": "shogi",
+      "title": "Dai Shogi",
+      "players": "2",
+      "board": "15×15",
+      "win": "Capture all opponent royal pieces",
+      "special": "Historical Japanese 15×15 large Shogi variant; precursor to Chu Shogi. 65 pieces per side including Lion (double-mover), Kirin, Phoenix, and Drunk Elephant (promotes to Crown Prince, a second royal). No drops. Extinction royalty: player loses only when their last royal is captured.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 15,
+          "cols": 15
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "[ln][kn][st][ig][cg][sg][gg][ki][gg][sg][cg][ig][st][kn][ln]/[rc]1[ct]1[fl]1[bt][de][bt]1[fl]1[ct]1[rc]/1[vo]1[ab]1[ew][ph][li][kr][ew]1[ab]1[vo]1/[rk][fy][sm][vm][bi][dh][dk][fk][dk][dh][bi][vm][sm][fy][rk]/[pw][pw][pw][pw][gb][pw][pw][pw][pw][pw][gb][pw][pw][pw][pw]/15/15/15/15/15/[PW][PW][PW][PW][GB][PW][PW][PW][PW][PW][GB][PW][PW][PW][PW]/[RK][FY][SM][VM][BI][DH][DK][FK][DK][DH][BI][VM][SM][FY][RK]/1[VO]1[AB]1[EW][KR][LI][PH][EW]1[AB]1[VO]1/[RC]1[CT]1[FL]1[BT][DE][BT]1[FL]1[CT]1[RC]/[LN][KN][ST][IG][CG][SG][GG][KI][GG][SG][CG][IG][ST][KN][LN]",
+        "render": {
+          "cellSize": 22
+        },
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/dai-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/dai-shogi.md",
+        "meta": "/api/rules/shogi/variants/dai-shogi.json",
+        "page": "/shogi/variants/dai-shogi/"
+      }
+    },
+    {
+      "slug": "four-player-shogi",
+      "parent": "shogi",
+      "title": "Four Player Shogi",
+      "players": "4",
+      "board": "cross-shaped, 189 squares (9×9 centre + four 3×9 wings)",
+      "win": "Checkmate both enemy Kings (team); or capture all other Kings (individual)",
+      "special": "4-player Shogi on a cross-shaped board. Each player commands a standard Shogi army in one 3×9 wing. East and West players swap their Rook and Bishop starting positions. Drops apply with team restrictions. Three game styles: Team-Orthogonal, Team-Diagonal, and Individual. Michael Shipley, 1999.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 15,
+          "cols": 15,
+          "voids": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              14
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              13
+            ],
+            [
+              1,
+              14
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              12
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              12,
+              2
+            ],
+            [
+              12,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              13,
+              2
+            ],
+            [
+              13,
+              12
+            ],
+            [
+              13,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              14,
+              2
+            ],
+            [
+              14,
+              12
+            ],
+            [
+              14,
+              13
+            ],
+            [
+              14,
+              14
+            ]
+          ],
+          "layout": "cells"
+        },
+        "players": [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        "pieces": {
+          "set": "mce-4player-shogi"
+        },
+        "setup": "3,yL,yN,yS,yG,yK,yG,yS,yN,yL,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rL,1,rP,9,bP,1,bL/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rL,1,rP,9,bP,1,bL/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gL,gN,gS,gG,gK,gG,gS,gN,gL,3",
+        "render": {
+          "cellSize": 22,
+          "cellColor": "checkered",
+          "labels": false,
+          "decorations": [],
+          "zones": {
+            "voids": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                12
+              ],
+              [
+                0,
+                13
+              ],
+              [
+                0,
+                14
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                1,
+                13
+              ],
+              [
+                1,
+                14
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                2,
+                14
+              ],
+              [
+                12,
+                0
+              ],
+              [
+                12,
+                1
+              ],
+              [
+                12,
+                2
+              ],
+              [
+                12,
+                12
+              ],
+              [
+                12,
+                13
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                13,
+                0
+              ],
+              [
+                13,
+                1
+              ],
+              [
+                13,
+                2
+              ],
+              [
+                13,
+                12
+              ],
+              [
+                13,
+                13
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                14,
+                0
+              ],
+              [
+                14,
+                1
+              ],
+              [
+                14,
+                2
+              ],
+              [
+                14,
+                12
+              ],
+              [
+                14,
+                13
+              ],
+              [
+                14,
+                14
+              ]
+            ]
+          },
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "checkered",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "interactive": true
+            }
+          ]
+        },
+        "pieceRotations": {
+          "red": 90,
+          "yellow": 180,
+          "blue": 270,
+          "green": 0
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#f0d9b5",
+            "cell-dark": "#b58863"
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "playerCount": 4,
+            "drops": true,
+            "advancement": {
+              "0": [
+                0,
+                1
+              ],
+              "1": [
+                1,
+                0
+              ],
+              "2": [
+                -1,
+                0
+              ],
+              "3": [
+                0,
+                -1
+              ]
+            },
+            "promotionZone": 3
+          }
+        },
+        "notation": "shogi"
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/four-player-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/four-player-shogi.md",
+        "meta": "/api/rules/shogi/variants/four-player-shogi.json",
+        "page": "/shogi/variants/four-player-shogi/"
+      }
+    },
+    {
+      "slug": "hasami-shogi",
+      "parent": "shogi",
+      "title": "Hasami Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Reduce opponent to one remaining piece",
+      "special": "Custodial sandwich capture. No drops, no promotion. All pieces are identical.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "ppppppppp/9/9/9/9/9/9/9/PPPPPPPPP",
+        "vocabulary": {
+          "soldier": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "royalType": "none",
+            "captureRule": "custodian",
+            "winCondition": "reduced-to-one",
+            "drops": false,
+            "promotionZone": 0,
+            "pieceMoves": {
+              "soldier": {
+                "type": "rider",
+                "dirs": "orthogonal"
+              }
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/hasami-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/hasami-shogi.md",
+        "meta": "/api/rules/shogi/variants/hasami-shogi.json",
+        "page": "/shogi/variants/hasami-shogi/"
+      }
+    },
+    {
+      "slug": "heian-shogi",
+      "parent": "shogi",
+      "title": "Heian Shogi",
+      "players": "2",
+      "board": "9×8",
+      "win": "Checkmate or bare the opponent's King",
+      "special": "The earliest reconstructed form of Japanese chess (~8th–9th century). 9×8 board, 18 pieces per side. No Rooks, no Bishops, no drops. All pieces promote to Gold General in the far 3 ranks. Win by checkmate or by baring the opponent's King.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 9
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "lnsgkgsnl/9/ppppppppp/9/9/PPPPPPPPP/9/LNSGKGSNL",
+        "render": {
+          "cellSize": 36
+        },
+        "plugins": {
+          "shogi": {
+            "promotionZone": 3,
+            "drops": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/heian-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/heian-shogi.md",
+        "meta": "/api/rules/shogi/variants/heian-shogi.json",
+        "page": "/shogi/variants/heian-shogi/"
+      }
+    },
+    {
+      "slug": "hex-shogi-91",
+      "parent": "shogi",
+      "title": "Hex Shogi 91",
+      "players": "2",
+      "board": "91-cell hexagonal",
+      "win": "Checkmate the King",
+      "special": "2-player Shogi variant on a 91-hexagon board (same shape as Glinski's Hexagonal Chess, differently oriented). All Shogi pieces adapted to hexagonal movement. Drops apply with hex-specific Pawn rules: no two-Pawn-per-file restriction (left out); Pawn drop may not check the King (stricter than Shogi). Promotion zone is 4 ranks. Fergus Duniho.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "hexagonal",
+          "radius": 5,
+          "orientation": "pointy"
+        },
+        "render": {
+          "cellSize": 22,
+          "cellColor": "tricolor"
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#d4a76a",
+            "cell-dark": "#8b6535",
+            "cell-mid": "#b88b50",
+            "stroke": "rgba(0,0,0,0.2)",
+            "background": "#3a2a1a",
+            "border": "#6b4226"
+          }
+        },
+        "pieces": {
+          "set": "kahu-shogi-international"
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "-5,5:L,-4,5:N,-3,5:G,-2,5:G,-1,5:N,0,5:L,-4,4:R,-3,4:S,-2,4:K,-1,4:S,0,4:B,-5,2:P,-4,2:P,-3,2:P,-2,2:P,-1,2:P,0,2:P,1,2:P,2,2:P,3,2:P,5,-5:l,4,-5:n,3,-5:g,2,-5:g,1,-5:n,0,-5:l,4,-4:r,3,-4:s,2,-4:k,1,-4:s,0,-4:b,5,-2:p,4,-2:p,3,-2:p,2,-2:p,1,-2:p,0,-2:p,-1,-2:p,-2,-2:p,-3,-2:p"
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/hex-shogi-91-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/hex-shogi-91.md",
+        "meta": "/api/rules/shogi/variants/hex-shogi-91.json",
+        "page": "/shogi/variants/hex-shogi-91/"
+      }
+    },
+    {
+      "slug": "judkins-shogi",
+      "parent": "shogi",
+      "title": "Judkins' Shogi",
+      "players": "2",
+      "board": "6×6",
+      "win": "Checkmate",
+      "special": "Modern miniature Shogi on a 6×6 board. 7 pieces per side. Includes drops. Promotion zone is the last 2 ranks. Rook promotes to Dragon, Bishop to Horse, Knight/Silver/Pawn promote to Gold.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 6,
+          "cols": 6
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "rbsgkn/5p/6/6/P5/NKGSBR",
+        "render": {
+          "cellSize": 40
+        },
+        "plugins": {
+          "shogi": {
+            "promotionZone": 2
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/judkins-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/judkins-shogi.md",
+        "meta": "/api/rules/shogi/variants/judkins-shogi.json",
+        "page": "/shogi/variants/judkins-shogi/"
+      }
+    },
+    {
+      "slug": "kyoto-shogi",
+      "parent": "shogi",
+      "title": "Kyoto Shogi",
+      "players": "2",
+      "board": "5×5",
+      "win": "Checkmate the opponent's King",
+      "special": "Every piece except the King flips to its alternate face after each move",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 5,
+          "cols": 5
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "pgskl/5/5/5/LKSGP",
+        "render": {
+          "cellSize": 40
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/kyoto-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/kyoto-shogi.md",
+        "meta": "/api/rules/shogi/variants/kyoto-shogi.json",
+        "page": "/shogi/variants/kyoto-shogi/"
+      }
+    },
+    {
+      "slug": "maka-dai-dai-shogi",
+      "parent": "shogi",
+      "title": "Maka-Dai-Dai Shogi",
+      "players": "2",
+      "board": "19×19",
+      "win": "Capture the last royal piece",
+      "special": "19×19 historical Japanese Shogi variant meaning 'Great Dai-Dai Chess.' One of the largest chess-family games in recorded history. 96 pieces of 50 types per side (192 pieces total). No drops; captures remove permanently. Features Lion-power pieces, Hook Movers, the Emperor (universal leaper), and contagious promotion through the Teaching King and Buddhist Spirit. Promotion triggers on any capture. Historical; source: H. G. Muller (chessvariants.com).",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "[ln][eg][st][tg][ig][cg][sg][gg][ds][ki][dv][gg][sg][cg][ig][tg][st][eg][ln]/[rc]1[ct]1[bm]1[rd][fl][bt][de][bt][fl][co]1[cc]1[ct]1[rc]/1[or]1[ab]1[bb]1[ew][ph][li][kr][ew]1[bb]1[ab]1[or]1/[dy][kn]1[vo]1[fy]1[sd][gd][ld][wr][bv][fy]1[vo]1[kn]1[dy]/[rk][rt][sm][sf][vm][bi][dh][dk][hm][fk][cp][dk][dh][bi][vm][sf][sm][lc][rk]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/5[gb]7[gb]5/19/19/19/19/19/5[GB]7[GB]5/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[RK][LC][SM][SF][VM][BI][DH][DK][CP][FK][HM][DK][DH][BI][VM][SF][SM][RT][RK]/[DY]1[KN]1[VO]1[FY][BV][WR][LD][GD][SD]1[FY]1[VO]1[KN][DY]/1[OR]1[AB]1[BB]1[EW][KR][LI][PH][EW]1[BB]1[AB]1[OR]1/[RC]1[CT]1[CC]1[CO][FL][BT][DE][BT][FL][RD]1[BM]1[CT]1[RC]/[LN][EG][ST][TG][IG][CG][SG][GG][DV][KI][DS][GG][SG][CG][IG][TG][ST][EG][LN]",
+        "render": {
+          "cellSize": 18
+        },
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/maka-dai-dai-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/maka-dai-dai-shogi.md",
+        "meta": "/api/rules/shogi/variants/maka-dai-dai-shogi.json",
+        "page": "/shogi/variants/maka-dai-dai-shogi/"
+      }
+    },
+    {
+      "slug": "minishogi",
+      "parent": "shogi",
+      "title": "Minishogi",
+      "players": "2",
+      "board": "5×5",
+      "win": "Checkmate the opponent's King",
+      "special": "Standard Shogi on a 5×5 board. Single-rank promotion zone. No Knights or Lances.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 5,
+          "cols": 5
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "rbsgk/4p/5/P4/KGSBR",
+        "render": {
+          "cellSize": 40
+        },
+        "plugins": {
+          "shogi": {
+            "promotionZone": 1
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/minishogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/minishogi.md",
+        "meta": "/api/rules/shogi/variants/minishogi.json",
+        "page": "/shogi/variants/minishogi/"
+      }
+    },
+    {
+      "slug": "mortal-shogi",
+      "parent": "shogi",
+      "title": "Mortal Shogi",
+      "players": "2",
+      "board": "9×9",
+      "win": "Checkmate the King",
+      "special": "Modern 9×9 Shogi variant by Roberto Lavieri and Fergus Duniho. Captured pieces demote one step in a fixed ranking chain (Dragon King → Dragon Horse → Rook → Bishop → Gold General → Silver General → Lance → Knight → removed) rather than returning to their original form. Promotes of sub-Gold pieces are flexible: any higher piece up to Gold General.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL"
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/mortal-shogi.md",
+        "meta": "/api/rules/shogi/variants/mortal-shogi.json",
+        "page": "/shogi/variants/mortal-shogi/"
+      }
+    },
+    {
+      "slug": "sankaku-shogi",
+      "parent": "shogi",
+      "title": "Sankaku Shogi",
+      "players": "2",
+      "board": "44-cell triangular",
+      "win": "Capture the opponent's Emperor",
+      "special": "Modern Shogi variant on a 44-cell triangular board. 13 pieces per side: Emperor (leaps to any cell), Chariot (slides orthogonally, runs down Soldiers), Cavalry (leaps to second orthogonal), General (steps to any adjacent cell), and Soldiers. Captured pieces are removed permanently. Soldiers and Cavalry promote to General upon any capture.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "triangular",
+          "cells": 44
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "notation": "algebraic",
+        "drops": false
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
+        "topology": "triangular",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/sankaku-shogi.md",
+        "meta": "/api/rules/shogi/variants/sankaku-shogi.json",
+        "page": "/shogi/variants/sankaku-shogi/"
+      }
+    },
+    {
+      "slug": "tai-shogi",
+      "parent": "shogi",
+      "title": "Tai Shogi",
+      "players": "2",
+      "board": "25×25",
+      "win": "Capture the King (and Crown Prince if present)",
+      "special": "25×25 historical Japanese Shogi variant. Name means 'Grand Chess.' Approximately 177 piece types per side (354 pieces total) — the largest documented chess variant with complete, verified piece movements for every piece. No drops; captured pieces removed from play. Intermediate in scale between Maka-Dai-Dai Shogi (19×19) and Taikyoku Shogi (36×36). Documented in historical Japanese manuscripts.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 25,
+          "cols": 25
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "[ln][wt][wl][fy][lo][dw][rk][dh][dk][fk][gg][ds][em][dv][gg][fk][dk][dh][rk][dw][lo][fy][wl][ts][ln]/[rc][si][se][kn][ps][ft][bi][fe][we][fr][sg][rg][cr][lg][sg][fr][we][fe][bi][ft][ps][kn][se][si][rc]/[sc][wh][rs][vo][cs][bb][sv][gl][bm][bt][sd][gd][nk][wr][bv][bt][bm][gl][sv][bb][cs][vo][rs][wh][sc]/[sl][wb][fl][nb][su][cc][hf][om][rb][pc][go][ph][li][kr][gt][pc][ok][om][hf][cc][eb][ws][fl][wb][sl]/[rc][vs][wo][eg][st][tg][ig][cg][or][co][rd][hm][de][cp][rd][co][or][cg][ig][tg][st][eg][wo][bd][lc]/[hd][fh][en][dy][fo][sm][vm][vb][sb][pr][ab][ew][ld][ew][ab][pr][sb][vb][vm][sm][fo][dy][en][fh][hd]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/7[gb]9[gb]7/25/25/25/25/25/25/25/25/25/7[GB]9[GB]7/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[HD][FH][EN][DY][FO][SM][VM][VB][SB][PR][AB][EW][LD][EW][AB][PR][SB][VB][VM][SM][FO][DY][EN][FH][HD]/[LC][BD][WO][EG][ST][TG][IG][CG][OR][CO][RD][CP][DE][HM][RD][CO][OR][CG][IG][TG][ST][EG][WO][VS][RC]/[SL][WB][FL][WS][EB][CC][HF][OM][OK][PC][GT][KR][LI][PH][GO][PC][RB][OM][HF][CC][SU][NB][FL][WB][SL]/[SC][WH][RS][VO][CS][BB][SV][GL][BM][BT][BV][WR][NK][GD][SD][BT][BM][GL][SV][BB][CS][VO][RS][WH][SC]/[RC][SI][SE][KN][PS][FT][BI][FE][WE][FR][SG][LG][CR][RG][SG][FR][WE][FE][BI][FT][PS][KN][SE][SI][RC]/[LN][TS][WL][FY][LO][DW][RK][DH][DK][FK][GG][DV][EM][DS][GG][FK][DK][DH][RK][DW][LO][FY][WL][WT][LN]",
+        "render": {
+          "cellSize": 14
+        },
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/tai-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/tai-shogi.md",
+        "meta": "/api/rules/shogi/variants/tai-shogi.json",
+        "page": "/shogi/variants/tai-shogi/"
+      }
+    },
+    {
+      "slug": "taikyoku-shogi",
+      "parent": "shogi",
+      "title": "Taikyoku Shogi",
+      "players": "2",
+      "board": "36×36",
+      "win": "Capture the King and Crown Prince",
+      "special": "36×36 historical Japanese Shogi variant meaning 'Ultimate Chess.' The largest chess variant ever documented. 402 pieces per side (804 total on 1,296 squares). Whether it was ever played to completion is disputed — a single game is estimated to require 10,000+ moves. Documented in a single known Japanese manuscript. L. Lynn Smith transcription; source: chessvariants.com.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 36,
+          "cols": 36
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "[ln][wt][rq][wl][fd][me][lo][bc][rh][fr][ed][dn][ft][fk][re][rg][gg][cr][ki][gg][lg][re][fk][ft][cd][ed][fr][rh][bc][lo][me][fd][wl][rq][ts][ln]/[rc][fp][md][fs][cf][ra][fm][ms][rp][rn][ss][gv][rj][ru][ns][gd][sg][de][nk][sg][wr][bv][ru][rj][gv][ss][rn][rp][ms][fm][ra][cf][fs][md][we][rc]/[gc][sd][rf][rl][bg][rr][rv][ri][bo][wn][fu][rb][ok][pc][wq][fi][cg][pm][km][cg][fi][wq][pc][ok][rb][fu][wn][bo][la][lt][rr][bg][rl][rf][sd][gc]/[sa][vb][kn][pg][ck][pu][hg][og][ct][si][sr][gl][li][ca][gs][vd][wx][vg][gr][wx][vd][gs][ca][li][gl][sr][si][ct][og][hg][pu][ck][pg][kn][vb][sa]/[tc][ce][bi][rk][sw][fa][mf][vr][sl][ll][cl][cu][rx][rs][vo][gt][go][ds][dv][go][gt][vo][rs][rx][cu][cl][ll][sl][vr][mf][fa][sw][rk][bi][ce][tc]/[wc][wh][hr][sm][pr][wb][fl][fe][fy][ps][fn][sc][bl][wg][fg][ph][hm][lu][gu][cp][ky][fg][wg][bl][sc][fn][ps][fy][fe][fl][wb][pr][sm][hl][wh][wc]/[tl][vw][sx][dy][fh][vi][ab][ew][lh][fc][om][cc][nb][su][va][vf][tf][cn][rm][tf][vf][va][eb][ws][cc][om][fc][lh][ew][ab][vi][fh][dy][sx][vw][tl]/[ec][vs][en][hn][so][cm][cs][wi][bm][bt][oc][sf][bb][or][sq][co][rd][fq][lw][rd][co][sq][or][bb][sf][oc][bt][bm][wi][cs][cm][so][hn][en][bd][ec]/[ch][sn][vt][wf][rw][mg][ff][hs][wo][os][eg][bs][st][ls][tg][ba][ig][ga][gm][ig][ba][tg][ls][st][bs][eg][os][wo][hs][ff][mg][rw][wf][vt][sn][ch]/[rt][sk][vm][fo][lb][vp][vh][bu][dh][dk][wd][hf][se][sp][vl][sv][sb][ro][ld][sb][sv][vl][sp][se][hf][wd][dk][dh][bu][vh][vp][lb][fo][vm][sk][lc]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/5[dg]4[gb]3[dg]6[dg]3[gb]4[dg]5/36/36/36/36/36/36/36/36/36/36/36/36/5[DG]4[GB]3[DG]6[DG]3[GB]4[DG]5/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[LC][SK][VM][FO][LB][VP][VH][BU][DH][DK][WD][HF][SE][SP][VL][SV][SB][LD][RO][SB][SV][VL][SP][SE][HF][WD][DK][DH][BU][VH][VP][LB][FO][VM][SK][RT]/[CH][SN][VT][WF][RW][MG][FF][HS][WO][OS][EG][BS][ST][LS][TG][BA][IG][GM][GA][IG][BA][TG][LS][ST][BS][EG][OS][WO][HS][FF][MG][RW][WF][VT][SN][CH]/[EC][BD][EN][HN][SO][CM][CS][WI][BM][BT][OC][SF][BB][OR][SQ][CO][RD][LW][FQ][RD][CO][SQ][OR][BB][SF][OC][BT][BM][WI][CS][CM][SO][HN][EN][VS][EC]/[TL][VW][SX][DY][FH][VI][AB][EW][LH][FC][OM][CC][WS][EB][VA][VF][TF][RM][CN][TF][VF][VA][SU][NB][CC][OM][FC][LH][EW][AB][VI][FH][DY][SX][VW][TL]/[WC][WH][HL][SM][PR][WB][FL][FE][FY][PS][FN][SC][BL][WG][FG][KY][CP][GU][LU][HM][PH][FG][WG][BL][SC][FN][PS][FY][FE][FL][WB][PR][SM][HR][WH][WC]/[TC][CE][BI][RK][SW][FA][MF][VR][SL][LL][CL][CU][RX][RS][VO][GT][GO][DV][DS][GO][GT][VO][RS][RX][CU][CL][LL][SL][VR][MF][FA][SW][RK][BI][CE][TC]/[SA][VB][KN][PG][CK][PU][HG][OG][CT][SI][SR][GL][LI][CA][GS][VD][WX][GR][VG][WX][VD][GS][CA][LI][GL][SR][SI][CT][OG][HG][PU][CK][PG][KN][VB][SA]/[GC][SD][RF][RL][BG][RR][LT][LA][BO][WN][FU][RB][OK][PC][WQ][FI][CG][KM][PM][CG][FI][WQ][PC][OK][RB][FU][WN][BO][RI][RV][RR][BG][RL][RF][SD][GC]/[RC][WE][MD][FS][CF][RA][FM][MS][RP][RN][SS][GV][RJ][RU][BV][WR][SG][NK][DE][SG][GD][NS][RU][RJ][GV][SS][RN][RP][MS][FM][RA][CF][FS][MD][FP][RC]/[LN][TS][RQ][WL][FD][ME][LO][BC][RH][FR][ED][CD][FT][FK][RE][LG][GG][KI][CR][GG][RG][RE][FK][FT][DN][ED][FR][RH][BC][LO][ME][FD][WL][RQ][WT][LN]",
+        "render": {
+          "cellSize": 10
+        },
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/taikyoku-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/taikyoku-shogi.md",
+        "meta": "/api/rules/shogi/variants/taikyoku-shogi.json",
+        "page": "/shogi/variants/taikyoku-shogi/"
+      }
+    },
+    {
+      "slug": "tenjiku-shogi",
+      "parent": "shogi",
+      "title": "Tenjiku Shogi",
+      "players": "2",
+      "board": "16×16",
+      "win": "Capture all opponent royal pieces",
+      "special": "Medieval Japanese 16×16 Shogi variant derived from Chu Shogi. Introduces Fire Demons (burn all adjacent enemies after moving; passively burn enemies that move adjacent to them), hierarchical jumping generals, and Lion Hawk / Free Eagle double-movers. No drops. Extinction royalty.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 16,
+          "cols": 16
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "[ln][kn][fl][ig][cg][sg][gg][de][ki][gg][sg][cg][ig][fl][kn][ln]/[rc]1[cs][cs]1[bt][ph][fk][li][kr][bt]1[cs][cs]1[rc]/[ss][vt][bi][dh][dk][wb][fd][fe][lw][fd][wb][dk][dh][bi][vt][ss]/[sm][vm][rk][hf][se][bg][rg][vg][gr][rg][bg][se][hf][rk][vm][sm]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/4[dg]6[dg]4/16/16/16/16/4[DG]6[DG]4/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[SM][VM][RK][HF][SE][BG][RG][GR][VG][RG][BG][SE][HF][RK][VM][SM]/[SS][VT][BI][DH][DK][WB][FD][LW][FE][FD][WB][DK][DH][BI][VT][SS]/[RC]1[CS][CS]1[BT][KR][LI][FK][PH][BT]1[CS][CS]1[RC]/[LN][KN][FL][IG][CG][SG][GG][KI][DE][GG][SG][CG][IG][FL][KN][LN]",
+        "render": {
+          "cellSize": 20
+        },
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/tenjiku-shogi.md",
+        "meta": "/api/rules/shogi/variants/tenjiku-shogi.json",
+        "page": "/shogi/variants/tenjiku-shogi/"
+      }
+    },
+    {
+      "slug": "wa-shogi",
+      "parent": "shogi",
+      "title": "Wa Shogi",
+      "players": "2",
+      "board": "11×11",
+      "win": "Capture the opponent's Crane King",
+      "special": "Played on an 11×11 board with 23 pieces of 14 different types per side. All non-Pawn pieces are unique. Played historically without drops; modern play often adds drops. Promotion zone is the last 3 ranks; each piece has a fixed promoted form.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 11,
+          "cols": 11
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "[lh][cm][so][fc][vs][ck][vw][fg][sc][bd][oc]/1[ce]3[sw]3[ff]1/[sp][sp][sp][rr][sp][sp][sp][tf][sp][sp][sp]/3[sp]3[sp]3/11/11/11/3[SP]3[SP]3/[SP][SP][SP][TF][SP][SP][SP][RR][SP][SP][SP]/1[FF]3[SW]3[CE]1/[OC][BD][SC][FG][VW][CK][VS][FC][SO][CM][LH]",
+        "render": {
+          "cellSize": 30
+        },
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/wa-shogi.md",
+        "meta": "/api/rules/shogi/variants/wa-shogi.json",
+        "page": "/shogi/variants/wa-shogi/"
+      }
+    },
+    {
+      "slug": "yari-shogi",
+      "parent": "shogi",
+      "title": "Yari Shogi",
+      "players": "2",
+      "board": "9×7",
+      "win": "Checkmate",
+      "special": "Invented by Christian Freeling, 1981. ‘Yari’ means lance. All unpromoted pieces except Pawns include a forward-Lance movement. Extreme forward orientation. Includes drops; unlike standard Shogi, Pawns may drop to give checkmate.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 7
+        },
+        "players": [
+          "sente",
+          "gote"
+        ],
+        "setup": "ynnkbby/7/ppppppp/7/7/7/PPPPPPP/7/YBBKNNY",
+        "render": {
+          "cellSize": 36
+        },
+        "vocabulary": {
+          "general": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "forward_rook": {
+            "symbols": {
+              "0": "Y",
+              "1": "y"
+            }
+          },
+          "yari_bishop": {
+            "symbols": {
+              "0": "B",
+              "1": "b"
+            }
+          },
+          "yari_knight": {
+            "symbols": {
+              "0": "N",
+              "1": "n"
+            }
+          },
+          "pawn": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          }
+        },
+        "plugins": {
+          "shogi": {
+            "royalType": "general",
+            "dropCheckmateLimit": false,
+            "noDropLastRank": [
+              "pawn",
+              "yari_bishop",
+              "yari_knight"
+            ],
+            "pieceMoves": {
+              "general": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              },
+              "forward_rook": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "yari_bishop": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "yari_knight": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -2,
+                        -1
+                      ],
+                      [
+                        -2,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "pawn": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "directional": true
+              },
+              "promoted_forward_rook": {
+                "type": "rider",
+                "dirs": "orthogonal"
+              },
+              "promoted_yari_bishop": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "promoted_yari_knight": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "promoted_pawn": {
+                "type": "compose",
+                "directional": true,
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        -1,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/shogi/diagrams/svg/yari-shogi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/shogi/variants/yari-shogi.md",
+        "meta": "/api/rules/shogi/variants/yari-shogi.json",
+        "page": "/shogi/variants/yari-shogi/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 24,
+    "rendered": 24,
+    "entries": [
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "annan-shogi",
+        "variantTitle": "Annan Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/annan-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/annan-shogi/index.html",
+        "status": "rendered",
+        "players": 2
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "cannon-shogi",
+        "variantTitle": "Cannon Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/cannon-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/cannon-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "chu-shogi",
+        "variantTitle": "Chu Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/chu-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/chu-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "dai-shogi",
+        "variantTitle": "Dai Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/dai-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/dai-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "dobutsu",
+        "variantTitle": "Dobutsu Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/dobutsu-board.svg",
+        "rulesUrl": "dist/shogi/variants/dobutsu/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "four-player-shogi",
+        "variantTitle": "Four Player Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/four-player-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/four-player-shogi/index.html",
+        "status": "rendered",
+        "players": "4"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "gorogoro-plus",
+        "variantTitle": "Gorogoro+",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/gorogoro-plus-board.svg",
+        "rulesUrl": "dist/shogi/variants/gorogoro-plus/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "hasami-shogi",
+        "variantTitle": "Hasami Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/hasami-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/hasami-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "heian-shogi",
+        "variantTitle": "Heian Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/heian-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/heian-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "hex-shogi-91",
+        "variantTitle": "Hex Shogi 91",
+        "topology": "hex",
+        "svg": "games/shogi/diagrams/svg/hex-shogi-91-board.svg",
+        "rulesUrl": "dist/shogi/variants/hex-shogi-91/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "judkins-shogi",
+        "variantTitle": "Judkins' Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/judkins-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/judkins-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "kyoto-shogi",
+        "variantTitle": "Kyoto Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/kyoto-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/kyoto-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "maka-dai-dai-shogi",
+        "variantTitle": "Maka-Dai-Dai Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/maka-dai-dai-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/maka-dai-dai-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "minishogi",
+        "variantTitle": "Minishogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/minishogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/minishogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "mortal-shogi",
+        "variantTitle": "Mortal Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/mortal-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "sankaku-shogi",
+        "variantTitle": "Sankaku Shogi",
+        "topology": "triangular",
+        "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/sankaku-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "sho-shogi",
+        "variantTitle": "Sho Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/sho-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/sho-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "standard",
+        "variantTitle": "Standard Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/shogi/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "tai-shogi",
+        "variantTitle": "Tai Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/tai-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/tai-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "taikyoku-shogi",
+        "variantTitle": "Taikyoku Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/taikyoku-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/taikyoku-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "tenjiku-shogi",
+        "variantTitle": "Tenjiku Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/tenjiku-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "tori-shogi",
+        "variantTitle": "Tori Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/tori-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/tori-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "wa-shogi",
+        "variantTitle": "Wa Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/wa-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "shogi",
+        "familyTitle": "Shogi",
+        "variant": "yari-shogi",
+        "variantTitle": "Yari Shogi",
+        "topology": "grid",
+        "svg": "games/shogi/diagrams/svg/yari-shogi-board.svg",
+        "rulesUrl": "dist/shogi/variants/yari-shogi/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 24,
+    "playable": 13,
+    "withDiagram": 24,
+    "topologies": [
+      "grid",
+      "hex",
+      "triangular"
+    ]
+  }
+}

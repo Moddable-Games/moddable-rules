@@ -1,0 +1,39 @@
+{
+  "slug": "y-large",
+  "parent": "hex",
+  "title": "Y (Large — 15)",
+  "players": "2",
+  "board": "triangular hex (side 15)",
+  "win": "Connect all 3 edges",
+  "special": "Large Y board. Deep strategic play.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "triangular",
+      "sideLength": 15
+    },
+    "render": {
+      "cellSize": 14,
+      "frame": "triangle"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/hex/diagrams/svg/y-large-board.svg",
+    "topology": "hex",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/hex/variants/y-large.md",
+    "meta": "/api/rules/hex/variants/y-large.json",
+    "page": "/hex/variants/y-large/"
+  }
+}

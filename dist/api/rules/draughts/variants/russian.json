@@ -1,0 +1,48 @@
+{
+  "slug": "russian",
+  "parent": "draughts",
+  "title": "Russian Draughts",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture or block all opponent pieces",
+  "special": "Men capture backwards. Mid-jump promotion. No majority rule. Free choice between captures.",
+  "playable": true,
+  "order": 7,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "piecesPerPlayer": 12,
+        "directions": "diagonal",
+        "manCapture": "all",
+        "manMove": "forward",
+        "captureBackward": true,
+        "forcedCapture": true,
+        "maximalCapture": false,
+        "flyingKings": true,
+        "promotionDuring": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/russian-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/russian.md",
+    "meta": "/api/rules/draughts/variants/russian.json",
+    "page": "/draughts/variants/russian/"
+  }
+}

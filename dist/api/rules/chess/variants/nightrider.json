@@ -1,0 +1,74 @@
+{
+  "slug": "nightrider",
+  "parent": "chess",
+  "title": "Standard Nightrider Chess",
+  "players": "2",
+  "board": "8x8",
+  "win": "Checkmate the opponent's king",
+  "special": "Knights are replaced by Nightriders — riders that chain knight-leaps in a single direction.",
+  "playable": true,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "knight": {
+            "type": "rider",
+            "dirs": [
+              [
+                -2,
+                -1
+              ],
+              [
+                -2,
+                1
+              ],
+              [
+                -1,
+                -2
+              ],
+              [
+                -1,
+                2
+              ],
+              [
+                1,
+                -2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                -1
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/nightrider-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/nightrider.md",
+    "meta": "/api/rules/chess/variants/nightrider.json",
+    "page": "/chess/variants/nightrider/"
+  }
+}

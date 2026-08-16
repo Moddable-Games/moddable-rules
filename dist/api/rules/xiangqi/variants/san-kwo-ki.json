@@ -1,0 +1,29 @@
+{
+  "slug": "san-kwo-ki",
+  "parent": "xiangqi",
+  "title": "San-kwo-k'i",
+  "players": 3,
+  "board": "Hexagonal trisection",
+  "win": "Last General surviving wins",
+  "special": "Three Kingdoms 3-player Xiangqi on a hexagonal trisected board. Eliminating a General captures that player's entire army.",
+  "playable": false,
+  "order": 9,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "hexagonal-trisection"
+    },
+    "players": 3
+  },
+  "diagram": {
+    "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",
+    "topology": "hexagonal-trisection",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/xiangqi/variants/san-kwo-ki.md",
+    "meta": "/api/rules/xiangqi/variants/san-kwo-ki.json",
+    "page": "/xiangqi/variants/san-kwo-ki/"
+  }
+}

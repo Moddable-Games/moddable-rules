@@ -1,0 +1,39 @@
+{
+  "slug": "toroidal-byzantine",
+  "parent": "chess",
+  "title": "Toroidal Byzantine Chess",
+  "players": "2",
+  "board": "4-ring torus (4×16 circular board with radial wrap)",
+  "win": "Checkmate",
+  "special": "Byzantine Chess (historical Shatranj on a 4×16 circular board) combined with toroidal topology: the innermost ring connects to the outermost ring radially, in addition to the standard circular wrap along each ring. A piece sliding inward past ring 4 emerges from ring 1; a piece sliding outward past ring 1 emerges from ring 4. Invented by Anatoly Khalfine and Ernst Saperow, circa 1999–2001.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 4,
+      "cols": 16,
+      "wrap": "torus"
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "2PKQP4pkqp2/2PBBP4pbbp2/2PNNP4pnnp2/2PRRP4prrp2",
+    "notation": "ring-position",
+    "castling": false,
+    "enPassant": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/toroidal-byzantine-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/toroidal-byzantine.md",
+    "meta": "/api/rules/chess/variants/toroidal-byzantine.json",
+    "page": "/chess/variants/toroidal-byzantine/"
+  }
+}

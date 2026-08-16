@@ -1,0 +1,63 @@
+{
+  "slug": "maze-rats",
+  "title": "Maze Rats",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "2–5",
+  "status": "live",
+  "mechanics": [
+    "dice-rolling",
+    "procedural-generation",
+    "sandbox",
+    "gm-tools",
+    "story-tables"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "data/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "maze-rats",
+        "familyTitle": "Maze Rats",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/maze-rats/diagrams/svg/maze-rats-character-sheet.svg",
+        "rulesUrl": "dist/maze-rats/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "maze-rats",
+        "familyTitle": "Maze Rats",
+        "variant": "reference",
+        "variantTitle": "Maze Rats",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/maze-rats/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

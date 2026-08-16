@@ -1,0 +1,41 @@
+{
+  "slug": "suicide-chess",
+  "parent": "chess",
+  "title": "Suicide Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Lose all pieces",
+  "special": "Forced captures like Giveaway, but stalemate is a draw, not a loss.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "castling": false,
+        "noCheck": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/suicide-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/suicide-chess.md",
+    "meta": "/api/rules/chess/variants/suicide-chess.json",
+    "page": "/chess/variants/suicide-chess/"
+  }
+}

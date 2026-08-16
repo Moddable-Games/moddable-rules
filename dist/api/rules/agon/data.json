@@ -1,0 +1,118 @@
+{
+  "slug": "agon",
+  "title": "Agon",
+  "type": "standalone",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "abstract-strategy",
+    "movement",
+    "capture",
+    "hex",
+    "territory"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "hexagonal",
+      "orientation": "pointy",
+      "radius": 5
+    },
+    "surface": "cosmic",
+    "render": {
+      "cellSize": 22,
+      "cellColor": "bicolor",
+      "frame": true
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic"
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "agon",
+      "title": "Agon (Standard)",
+      "players": "2",
+      "board": "hex radius 5",
+      "win": null,
+      "special": null,
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "hexagonal",
+          "radius": 5,
+          "orientation": "pointy"
+        },
+        "render": {
+          "cellSize": 22,
+          "cellColor": "rings",
+          "centreMarker": "★"
+        },
+        "surface": {
+          "colors": {
+            "cell-light": "#e6a817",
+            "cell-dark": "#8b2240",
+            "stroke": "rgba(0,0,0,0.25)",
+            "background": "#2a1a0a",
+            "border": "#6b4226"
+          }
+        },
+        "pieces": {
+          "set": "mce-chess"
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "-5,0:Q,5,0:q,4,-5:P,5,-2:P,3,2:P,-1,5:P,-5,4:P,-1,-4:P,1,-5:p,5,-4:p,1,4:p,-4,5:p,-5,2:p,-3,-2:p"
+      },
+      "diagram": {
+        "svg": "games/agon/diagrams/svg/standard-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/agon/variants/standard.md",
+        "meta": "/api/rules/agon/variants/standard.json",
+        "page": "/agon/variants/standard/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 1,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "agon",
+        "familyTitle": "Agon",
+        "variant": "standard",
+        "variantTitle": "Agon (Standard)",
+        "topology": "hex",
+        "svg": "games/agon/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/agon/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 1,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": [
+      "hex"
+    ]
+  }
+}

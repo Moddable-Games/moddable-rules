@@ -1,0 +1,36 @@
+{
+  "slug": "sunjang",
+  "parent": "go",
+  "title": "Sunjang Baduk",
+  "players": "2",
+  "board": "19×19",
+  "win": "Most territory at game end",
+  "special": "Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi.",
+  "playable": false,
+  "order": 12,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 19,
+      "cols": 19,
+      "layout": "intersections"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/sunjang-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/sunjang.md",
+    "meta": "/api/rules/go/variants/sunjang.json",
+    "page": "/go/variants/sunjang/"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "gorogoro-plus",
+  "parent": "shogi",
+  "title": "Gorogoro+",
+  "players": "2",
+  "board": "5×6",
+  "win": "Checkmate",
+  "special": "Shogi on a 5×6 board with no Bishop or Rook. Each player starts with a Knight and Lance in hand. Promotion in the last two ranks only.",
+  "playable": true,
+  "order": 30,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 6,
+      "cols": 5
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "sgkgs/5/1ppp1/1PPP1/5/SGKGS",
+    "render": {
+      "cellSize": 40
+    },
+    "plugins": {
+      "shogi": {
+        "promotionZone": 2,
+        "initialHands": [
+          [
+            "knight",
+            "lance"
+          ],
+          [
+            "knight",
+            "lance"
+          ]
+        ]
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/gorogoro-plus-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/gorogoro-plus.md",
+    "meta": "/api/rules/shogi/variants/gorogoro-plus.json",
+    "page": "/shogi/variants/gorogoro-plus/"
+  }
+}

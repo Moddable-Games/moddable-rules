@@ -1,0 +1,141 @@
+{
+  "slug": "mahjong",
+  "title": "Mahjong",
+  "type": "component",
+  "hub_type": "component",
+  "players": "4",
+  "status": "live",
+  "mechanics": [
+    "tile-placement",
+    "set-collection",
+    "hand-management",
+    "pattern",
+    "betting"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "surface": "felt-green",
+    "components": {
+      "deck": {
+        "type": "mahjong-136"
+      },
+      "layout": {
+        "type": "wall"
+      }
+    },
+    "players": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ]
+  },
+  "variants": [],
+  "games": [
+    {
+      "slug": "american-classic",
+      "title": "American Mahjong (Classic)",
+      "players": "4"
+    },
+    {
+      "slug": "hong-kong",
+      "title": "Hong Kong Mahjong",
+      "players": "4"
+    },
+    {
+      "slug": "riichi",
+      "title": "Riichi Mahjong",
+      "players": "4"
+    },
+    {
+      "slug": "taiwanese",
+      "title": "Taiwanese 16-Tile Mahjong",
+      "players": "4"
+    },
+    {
+      "slug": "zung-jung",
+      "title": "Zung Jung",
+      "players": "4"
+    }
+  ],
+  "diagrams": {
+    "total": 5,
+    "rendered": 5,
+    "entries": [
+      {
+        "family": "mahjong",
+        "familyTitle": "Mahjong",
+        "variant": "american-classic",
+        "variantTitle": "American Mahjong (Classic)",
+        "topology": "tableau",
+        "svg": "games/mahjong/diagrams/svg/american-classic-board.svg",
+        "rulesUrl": "dist/mahjong/games/american-classic/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "mahjong-136",
+        "players": "4"
+      },
+      {
+        "family": "mahjong",
+        "familyTitle": "Mahjong",
+        "variant": "hong-kong",
+        "variantTitle": "Hong Kong Mahjong",
+        "topology": "tableau",
+        "svg": "games/mahjong/diagrams/svg/hong-kong-board.svg",
+        "rulesUrl": "dist/mahjong/games/hong-kong/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "mahjong-136",
+        "players": "4"
+      },
+      {
+        "family": "mahjong",
+        "familyTitle": "Mahjong",
+        "variant": "riichi",
+        "variantTitle": "Riichi Mahjong",
+        "topology": "tableau",
+        "svg": "games/mahjong/diagrams/svg/riichi-board.svg",
+        "rulesUrl": "dist/mahjong/games/riichi/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "mahjong-136",
+        "players": "4"
+      },
+      {
+        "family": "mahjong",
+        "familyTitle": "Mahjong",
+        "variant": "taiwanese",
+        "variantTitle": "Taiwanese 16-Tile Mahjong",
+        "topology": "tableau",
+        "svg": "games/mahjong/diagrams/svg/taiwanese-board.svg",
+        "rulesUrl": "dist/mahjong/games/taiwanese/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "mahjong-136",
+        "players": "4"
+      },
+      {
+        "family": "mahjong",
+        "familyTitle": "Mahjong",
+        "variant": "zung-jung",
+        "variantTitle": "Zung Jung",
+        "topology": "tableau",
+        "svg": "games/mahjong/diagrams/svg/zung-jung-board.svg",
+        "rulesUrl": "dist/mahjong/games/zung-jung/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "mahjong-136",
+        "players": "4"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 5,
+    "topologies": []
+  }
+}

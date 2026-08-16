@@ -1,0 +1,33 @@
+{
+  "slug": "kalah",
+  "parent": "mancala",
+  "title": "Kalah",
+  "players": "2",
+  "board": "2×6 pits + 2 stores",
+  "win": "Capture more than 36 seeds (majority of 72)",
+  "special": "Landing in your own store grants a bonus turn. Opponent's store is skipped during sowing.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "pit"
+    },
+    "players": [
+      "south",
+      "north"
+    ],
+    "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
+  },
+  "diagram": {
+    "svg": "games/mancala/diagrams/svg/kalah-board.svg",
+    "topology": "pit",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/mancala/variants/kalah.md",
+    "meta": "/api/rules/mancala/variants/kalah.json",
+    "page": "/mancala/variants/kalah/"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "flower-48",
+  "title": "Flower 48",
+  "type": "component",
+  "hub_type": "component",
+  "players": "2–4",
+  "status": "live",
+  "mechanics": [
+    "set-collection",
+    "pattern",
+    "hand-management",
+    "betting",
+    "card-play"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "surface": "felt-green",
+    "components": {
+      "deck": {
+        "type": "hanafuda-48"
+      },
+      "layout": {
+        "type": "fan"
+      }
+    },
+    "players": [
+      "south",
+      "north"
+    ]
+  },
+  "variants": [],
+  "games": [
+    {
+      "slug": "go-stop",
+      "title": "Go-Stop",
+      "players": "2–3"
+    },
+    {
+      "slug": "hana-awase",
+      "title": "Hana-Awase",
+      "players": "2–4"
+    },
+    {
+      "slug": "koi-koi",
+      "title": "Koi-Koi",
+      "players": "2"
+    },
+    {
+      "slug": "oicho-kabu",
+      "title": "Oicho-Kabu",
+      "players": "2–8"
+    }
+  ],
+  "diagrams": {
+    "total": 4,
+    "rendered": 4,
+    "entries": [
+      {
+        "family": "flower-48",
+        "familyTitle": "Flower 48",
+        "variant": "go-stop",
+        "variantTitle": "Go-Stop",
+        "topology": "tableau",
+        "svg": "games/flower-48/diagrams/svg/go-stop-board.svg",
+        "rulesUrl": "dist/flower-48/games/go-stop/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "hanafuda-48",
+        "players": "2–3"
+      },
+      {
+        "family": "flower-48",
+        "familyTitle": "Flower 48",
+        "variant": "hana-awase",
+        "variantTitle": "Hana-Awase",
+        "topology": "tableau",
+        "svg": "games/flower-48/diagrams/svg/hana-awase-board.svg",
+        "rulesUrl": "dist/flower-48/games/hana-awase/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "hanafuda-48",
+        "players": "2–4"
+      },
+      {
+        "family": "flower-48",
+        "familyTitle": "Flower 48",
+        "variant": "koi-koi",
+        "variantTitle": "Koi-Koi",
+        "topology": "tableau",
+        "svg": "games/flower-48/diagrams/svg/koi-koi-board.svg",
+        "rulesUrl": "dist/flower-48/games/koi-koi/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "hanafuda-48",
+        "players": "2"
+      },
+      {
+        "family": "flower-48",
+        "familyTitle": "Flower 48",
+        "variant": "oicho-kabu",
+        "variantTitle": "Oicho-Kabu",
+        "topology": "tableau",
+        "svg": "games/flower-48/diagrams/svg/oicho-kabu-board.svg",
+        "rulesUrl": "dist/flower-48/games/oicho-kabu/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "hanafuda-48",
+        "players": "2–8"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 4,
+    "topologies": []
+  }
+}

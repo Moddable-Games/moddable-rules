@@ -1,0 +1,47 @@
+{
+  "slug": "talisman-worlds",
+  "title": "Talisman Worlds",
+  "type": "mod",
+  "hub_type": null,
+  "players": "2–6",
+  "status": "playtest",
+  "mechanics": [
+    "modular-board",
+    "dice-rolling",
+    "adventure-cards",
+    "character-progression"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "topology": {
+      "type": "hex"
+    },
+    "generator": "talisman"
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 1,
+    "rendered": 0,
+    "entries": [
+      {
+        "family": "talisman-worlds",
+        "familyTitle": "Talisman Worlds",
+        "variant": "standard",
+        "variantTitle": "Talisman Worlds",
+        "topology": "hex",
+        "svg": null,
+        "rulesUrl": "dist/talisman-worlds/index.html",
+        "status": "generator",
+        "reason": "hex-generator",
+        "generator": "talisman"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 0,
+    "topologies": []
+  }
+}

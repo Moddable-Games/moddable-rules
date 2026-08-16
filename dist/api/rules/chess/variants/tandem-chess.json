@@ -1,0 +1,45 @@
+{
+  "slug": "tandem-chess",
+  "parent": "chess",
+  "title": "Tandem Chess",
+  "players": "4 (2 teams of 2)",
+  "board": "8×8 (two boards)",
+  "win": "Checkmate either opposing King across both boards",
+  "special": "Team chess variant for 2×2 players on two simultaneous boards. Captured pieces are passed to the partner for dropping on the partner's board. Also known as Siamese Chess. Key differences from Bughouse: (1) no check or checkmate by drop; (2) match continues until both games complete. Invented ~1960s.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8,
+      "boards": 2
+    },
+    "players": [
+      "white1",
+      "black1",
+      "white2",
+      "black2"
+    ],
+    "render": {
+      "cellSize": 34
+    },
+    "setup": [
+      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+    ],
+    "notation": "algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/tandem-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/tandem-chess.md",
+    "meta": "/api/rules/chess/variants/tandem-chess.json",
+    "page": "/chess/variants/tandem-chess/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "stalemate-wins",
+  "parent": "chess",
+  "title": "Stalemate Wins",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate or stalemate",
+  "special": "Standard chess but stalemate is a win, not a draw.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "stalemateMeaning": "loss"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/stalemate-wins-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/stalemate-wins.md",
+    "meta": "/api/rules/chess/variants/stalemate-wins.json",
+    "page": "/chess/variants/stalemate-wins/"
+  }
+}

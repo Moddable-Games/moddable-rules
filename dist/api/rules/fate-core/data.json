@@ -1,0 +1,63 @@
+{
+  "slug": "fate-core",
+  "title": "Fate Core",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "3-5",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "aspects",
+    "combat",
+    "exploration"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "content/rules/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "fate-core",
+        "familyTitle": "Fate Core",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/fate-core/diagrams/svg/fate-core-character-sheet.svg",
+        "rulesUrl": "dist/fate-core/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "fate-core",
+        "familyTitle": "Fate Core",
+        "variant": "reference",
+        "variantTitle": "Fate Core",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/fate-core/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

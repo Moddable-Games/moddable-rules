@@ -1,0 +1,44 @@
+{
+  "slug": "standard",
+  "parent": "nukes",
+  "title": "Nukes: Standard",
+  "players": "2–3",
+  "board": null,
+  "win": null,
+  "special": "Standard 3-ring hex map with seeded terrain generation. 2-player default.",
+  "playable": false,
+  "order": 1,
+  "designer": "The House",
+  "category": "Standard",
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "hexagonal",
+      "radius": 3,
+      "orientation": "pointy"
+    },
+    "players": [
+      "player1",
+      "player2"
+    ],
+    "render": {
+      "cellSize": 24,
+      "cellColor": "terrain",
+      "frame": true
+    },
+    "generator": {
+      "id": "nukes",
+      "size": 3
+    }
+  },
+  "diagram": {
+    "svg": "games/nukes/diagrams/svg/standard-board.svg",
+    "topology": "hex",
+    "status": "generator"
+  },
+  "urls": {
+    "rules": "/api/rules/nukes/variants/standard.md",
+    "meta": "/api/rules/nukes/variants/standard.json",
+    "page": "/nukes/variants/standard/"
+  }
+}

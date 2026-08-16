@@ -1,0 +1,43 @@
+{
+  "slug": "standard",
+  "parent": "reversi",
+  "title": "Standard Reversi",
+  "players": "2",
+  "board": "8×8",
+  "win": "Most discs on the board when no moves remain",
+  "special": "The original 8×8 game as played in international competition since 1977.",
+  "playable": true,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": "8/8/8/3bw3/3wb3/8/8/8",
+    "plugins": {
+      "reversi": {
+        "directions": "all",
+        "mustFlip": true,
+        "winBy": "most",
+        "passWhenNoMoves": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/reversi/diagrams/svg/standard-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/reversi/variants/standard.md",
+    "meta": "/api/rules/reversi/variants/standard.json",
+    "page": "/reversi/variants/standard/"
+  }
+}

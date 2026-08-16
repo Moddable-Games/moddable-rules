@@ -1,0 +1,39 @@
+{
+  "slug": "y-small",
+  "parent": "hex",
+  "title": "Y (Small — 9)",
+  "players": "2",
+  "board": "triangular hex (side 9)",
+  "win": "Connect all 3 edges",
+  "special": "Compact Y board. Quick games.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "triangular",
+      "sideLength": 9
+    },
+    "render": {
+      "cellSize": 22,
+      "frame": "triangle"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/hex/diagrams/svg/y-small-board.svg",
+    "topology": "hex",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/hex/variants/y-small.md",
+    "meta": "/api/rules/hex/variants/y-small.json",
+    "page": "/hex/variants/y-small/"
+  }
+}

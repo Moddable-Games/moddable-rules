@@ -1,0 +1,35 @@
+{
+  "slug": "frisian",
+  "parent": "draughts",
+  "title": "Frisian Draughts",
+  "players": "2",
+  "board": "10×10",
+  "win": "Capture or block all opponent pieces",
+  "special": "Captures in all 8 directions. 3-move king limit. King preference on equal chains.",
+  "playable": false,
+  "order": 4,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/frisian-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/frisian.md",
+    "meta": "/api/rules/draughts/variants/frisian.json",
+    "page": "/draughts/variants/frisian/"
+  }
+}

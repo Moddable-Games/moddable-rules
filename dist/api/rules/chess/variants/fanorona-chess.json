@@ -1,0 +1,38 @@
+{
+  "slug": "fanorona-chess",
+  "parent": "chess",
+  "title": "Fanorona Chess",
+  "players": "2",
+  "board": "5×9 double Alquerque",
+  "win": "Checkmate",
+  "special": "Chess variant on the double Alquerque board used in Fanorona (the traditional Malagasy game of Madagascar). Captures are by approach and withdrawal, not replacement: moving toward an enemy piece captures it; moving away from an enemy piece also captures it. If a capture is available, it must be made. Stalemate is a loss. No castling; no en passant; Pawn promotes only to previously captured pieces. Created by Peter Aronson, 2004.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 5,
+      "cols": 9
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 36
+    },
+    "setup": "ppppppppp/ppppppppp/pppp1PPPP/PPPPPPPPP/PPPPPPPPP"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/fanorona-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/fanorona-chess.md",
+    "meta": "/api/rules/chess/variants/fanorona-chess.json",
+    "page": "/chess/variants/fanorona-chess/"
+  }
+}

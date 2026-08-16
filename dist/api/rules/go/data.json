@@ -1,0 +1,996 @@
+{
+  "slug": "go",
+  "title": "Go",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "abstract-strategy",
+    "grid",
+    "territory",
+    "capture",
+    "placement"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 19,
+      "cols": 19,
+      "layout": "intersections"
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#dcb35c",
+        "cell-dark": "#d4a843",
+        "stroke": "#3d2b1a",
+        "label-text": "#5a4020",
+        "star-point": "#3d2b1a"
+      }
+    },
+    "render": {
+      "cellSize": 20,
+      "labels": true,
+      "inset": 15,
+      "idStyle": "go",
+      "ops": [
+        {
+          "op": "rect",
+          "fill": "cell-light",
+          "scope": "board"
+        },
+        {
+          "op": "rect",
+          "fill": "cell-dark",
+          "scope": "grid",
+          "rx": 2
+        },
+        {
+          "op": "grid-lines",
+          "grouped": true,
+          "order": "hv",
+          "color": "stroke",
+          "width": 0.8
+        },
+        {
+          "op": "markers",
+          "grouped": true,
+          "fill": "star-point",
+          "at": "auto-star-points",
+          "radius": 3
+        },
+        {
+          "op": "hit-targets",
+          "grouped": true,
+          "radiusFactor": 0.45
+        }
+      ]
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic",
+      "vocabulary": {
+        "b": "bS",
+        "w": "wS"
+      }
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "go",
+      "title": "Standard Go (19×19)",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Full tournament game. 361 intersections. Komi 6.5. Area or territory scoring.",
+      "playable": true,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "komi": 6.5,
+            "scoring": "territory",
+            "superko": true,
+            "suicideAllowed": false
+          }
+        },
+        "handicaps": {
+          "range": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "positions": [
+            "15,3",
+            "3,15",
+            "15,15",
+            "3,3",
+            "9,9",
+            "3,9",
+            "15,9",
+            "9,3",
+            "9,15"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/standard.md",
+        "meta": "/api/rules/go/variants/standard.json",
+        "page": "/go/variants/standard/"
+      }
+    },
+    {
+      "slug": "13x13",
+      "parent": "go",
+      "title": "13×13 Go",
+      "players": "2",
+      "board": "13×13",
+      "win": "Most territory at game end",
+      "special": "Intermediate board. 169 intersections. Komi 5.5. 30–60 minute games.",
+      "playable": true,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 13,
+          "cols": 13,
+          "layout": "intersections"
+        },
+        "render": {
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "cell-light",
+              "scope": "board"
+            },
+            {
+              "op": "rect",
+              "fill": "cell-dark",
+              "scope": "grid",
+              "rx": 2
+            },
+            {
+              "op": "grid-lines",
+              "grouped": true,
+              "order": "hv",
+              "color": "stroke",
+              "width": 0.8
+            },
+            {
+              "op": "markers",
+              "grouped": true,
+              "fill": "star-point",
+              "at": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  3,
+                  9
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  9,
+                  3
+                ],
+                [
+                  9,
+                  9
+                ]
+              ],
+              "radius": 3
+            },
+            {
+              "op": "hit-targets",
+              "grouped": true,
+              "radiusFactor": 0.45
+            }
+          ]
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "extends": "standard",
+            "komi": 6.5
+          }
+        },
+        "handicaps": {
+          "range": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "positions": [
+            "9,3",
+            "3,9",
+            "9,9",
+            "3,3",
+            "6,6"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/13x13-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/13x13.md",
+        "meta": "/api/rules/go/variants/13x13.json",
+        "page": "/go/variants/13x13/"
+      }
+    },
+    {
+      "slug": "9x9",
+      "parent": "go",
+      "title": "9×9 Go",
+      "players": "2",
+      "board": "9×9",
+      "win": "Most territory at game end",
+      "special": "Quick games (15 min). 81 intersections. Komi 5.5. Purely tactical.",
+      "playable": true,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "extends": "standard",
+            "komi": 5.5
+          }
+        },
+        "handicaps": {
+          "range": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "positions": [
+            "6,2",
+            "2,6",
+            "6,6",
+            "2,2",
+            "4,4"
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/9x9-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/9x9.md",
+        "meta": "/api/rules/go/variants/9x9.json",
+        "page": "/go/variants/9x9/"
+      }
+    },
+    {
+      "slug": "gomoku",
+      "parent": "go",
+      "title": "Gomoku",
+      "players": "2",
+      "board": "15×15",
+      "win": "Five in an unbroken row",
+      "special": "Black plays first. Stones are placed, never moved. No captures.",
+      "playable": true,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 15,
+          "cols": 15,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "komi": 0,
+            "scoring": "none",
+            "captures": false,
+            "allowPass": false,
+            "suicideAllowed": true,
+            "superko": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/gomoku-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/gomoku.md",
+        "meta": "/api/rules/go/variants/gomoku.json",
+        "page": "/go/variants/gomoku/"
+      }
+    },
+    {
+      "slug": "ninuki-renju",
+      "parent": "go",
+      "title": "Ninuki-Renju",
+      "players": "2",
+      "board": "15×15",
+      "win": "Five in an unbroken row (exactly five) or five pairs captured",
+      "special": "Japanese precursor to Pente. Custodial captures. Two win conditions. Active 1923-1940.",
+      "playable": true,
+      "order": 6,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 15,
+          "cols": 15,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "extends": "gomoku",
+            "captures": "pairs",
+            "captureTarget": 10
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/ninuki-renju-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/ninuki-renju.md",
+        "meta": "/api/rules/go/variants/ninuki-renju.json",
+        "page": "/go/variants/ninuki-renju/"
+      }
+    },
+    {
+      "slug": "one-colour",
+      "parent": "go",
+      "title": "One-Colour Go",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Both players use identical stones. Must remember which are yours. Extreme memory challenge.",
+      "playable": true,
+      "order": 7,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "extends": "standard"
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/one-colour-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/one-colour.md",
+        "meta": "/api/rules/go/variants/one-colour.json",
+        "page": "/go/variants/one-colour/"
+      }
+    },
+    {
+      "slug": "phantom-go",
+      "parent": "go",
+      "title": "Phantom Go",
+      "players": "2 + referee",
+      "board": "9×9 or 13×13",
+      "win": "Most territory (standard scoring)",
+      "special": "Fog of war. Players cannot see opponent stones. A referee mediates all moves.",
+      "playable": false,
+      "order": 8,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/phantom-go-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/phantom-go.md",
+        "meta": "/api/rules/go/variants/phantom-go.json",
+        "page": "/go/variants/phantom-go/"
+      }
+    },
+    {
+      "slug": "capture-go",
+      "parent": "go",
+      "title": "Capture Go",
+      "players": "2",
+      "board": "9×9",
+      "win": "First capture wins",
+      "special": "First player to capture any stone wins. No territory scoring. The universal teaching variant.",
+      "playable": true,
+      "order": 9,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 9,
+          "cols": 9,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "komi": 0,
+            "scoring": "capture",
+            "captureTarget": 1,
+            "allowPass": false,
+            "superko": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/capture-go-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/capture-go.md",
+        "meta": "/api/rules/go/variants/capture-go.json",
+        "page": "/go/variants/capture-go/"
+      }
+    },
+    {
+      "slug": "rengo",
+      "parent": "go",
+      "title": "Rengo",
+      "players": "4–6",
+      "board": "19×19",
+      "win": "Most territory at game end (team)",
+      "special": "Team Go. Partners alternate turns. No consultation. 2v2 or 3v3.",
+      "playable": false,
+      "order": 9,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/rengo-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/rengo.md",
+        "meta": "/api/rules/go/variants/rengo.json",
+        "page": "/go/variants/rengo/"
+      }
+    },
+    {
+      "slug": "renju",
+      "parent": "go",
+      "title": "Renju",
+      "players": "2",
+      "board": "15×15",
+      "win": "Five in an unbroken row (exactly five for Black)",
+      "special": "Competitive Gomoku with forbidden moves for Black. Governed by the Renju International Federation.",
+      "playable": true,
+      "order": 10,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 15,
+          "cols": 15,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "komi": 0,
+            "scoring": "none",
+            "captures": false,
+            "allowPass": false,
+            "suicideAllowed": true,
+            "superko": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/renju-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/renju.md",
+        "meta": "/api/rules/go/variants/renju.json",
+        "page": "/go/variants/renju/"
+      }
+    },
+    {
+      "slug": "stoical",
+      "parent": "go",
+      "title": "Stoical Go",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Cannot capture if opponent captured last turn. Forces restraint and patience.",
+      "playable": true,
+      "order": 11,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "extends": "standard"
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/stoical-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/stoical.md",
+        "meta": "/api/rules/go/variants/stoical.json",
+        "page": "/go/variants/stoical/"
+      }
+    },
+    {
+      "slug": "sunjang",
+      "parent": "go",
+      "title": "Sunjang Baduk",
+      "players": "2",
+      "board": "19×19",
+      "win": "Most territory at game end",
+      "special": "Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi.",
+      "playable": false,
+      "order": 12,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/sunjang-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/sunjang.md",
+        "meta": "/api/rules/go/variants/sunjang.json",
+        "page": "/go/variants/sunjang/"
+      }
+    },
+    {
+      "slug": "tibetan",
+      "parent": "go",
+      "title": "Tibetan Go",
+      "players": "2",
+      "board": "17×17",
+      "win": "Cosmological scoring (territory + captures + bonus)",
+      "special": "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system.",
+      "playable": false,
+      "order": 13,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 17,
+          "cols": 17,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/tibetan-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/tibetan.md",
+        "meta": "/api/rules/go/variants/tibetan.json",
+        "page": "/go/variants/tibetan/"
+      }
+    },
+    {
+      "slug": "toroidal-go",
+      "parent": "go",
+      "title": "Toroidal Go",
+      "players": "2",
+      "board": "11×11",
+      "win": "Most territory (area or territory scoring)",
+      "special": "Edges wrap horizontally and vertically. No corners, no edges, no joseki.",
+      "playable": true,
+      "order": 14,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 11,
+          "cols": 11,
+          "layout": "intersections"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "",
+        "plugins": {
+          "go": {
+            "komi": 4.5,
+            "scoring": "territory",
+            "superko": true,
+            "suicideAllowed": false,
+            "topology": {
+              "wrap": "both"
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/go/diagrams/svg/toroidal-go-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/go/variants/toroidal-go.md",
+        "meta": "/api/rules/go/variants/toroidal-go.json",
+        "page": "/go/variants/toroidal-go/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 14,
+    "rendered": 14,
+    "entries": [
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "13x13",
+        "variantTitle": "13×13 Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/13x13-board.svg",
+        "rulesUrl": "dist/go/variants/13x13/index.html",
+        "status": "rendered",
+        "handicaps": {
+          "range": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "positions": [
+            "9,3",
+            "3,9",
+            "9,9",
+            "3,3",
+            "6,6"
+          ]
+        },
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "9x9",
+        "variantTitle": "9×9 Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/9x9-board.svg",
+        "rulesUrl": "dist/go/variants/9x9/index.html",
+        "status": "rendered",
+        "handicaps": {
+          "range": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "positions": [
+            "6,2",
+            "2,6",
+            "6,6",
+            "2,2",
+            "4,4"
+          ]
+        },
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "capture-go",
+        "variantTitle": "Capture Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/capture-go-board.svg",
+        "rulesUrl": "dist/go/variants/capture-go/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "gomoku",
+        "variantTitle": "Gomoku",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/gomoku-board.svg",
+        "rulesUrl": "dist/go/variants/gomoku/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "ninuki-renju",
+        "variantTitle": "Ninuki-Renju",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/ninuki-renju-board.svg",
+        "rulesUrl": "dist/go/variants/ninuki-renju/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "one-colour",
+        "variantTitle": "One-Colour Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/one-colour-board.svg",
+        "rulesUrl": "dist/go/variants/one-colour/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "phantom-go",
+        "variantTitle": "Phantom Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/phantom-go-board.svg",
+        "rulesUrl": "dist/go/variants/phantom-go/index.html",
+        "status": "rendered",
+        "players": "2 + referee"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "rengo",
+        "variantTitle": "Rengo",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/rengo-board.svg",
+        "rulesUrl": "dist/go/variants/rengo/index.html",
+        "status": "rendered",
+        "players": "4–6"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "renju",
+        "variantTitle": "Renju",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/renju-board.svg",
+        "rulesUrl": "dist/go/variants/renju/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "standard",
+        "variantTitle": "Standard Go (19×19)",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/go/variants/standard/index.html",
+        "status": "rendered",
+        "handicaps": {
+          "range": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "positions": [
+            "15,3",
+            "3,15",
+            "15,15",
+            "3,3",
+            "9,9",
+            "3,9",
+            "15,9",
+            "9,3",
+            "9,15"
+          ]
+        },
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "stoical",
+        "variantTitle": "Stoical Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/stoical-board.svg",
+        "rulesUrl": "dist/go/variants/stoical/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "sunjang",
+        "variantTitle": "Sunjang Baduk",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/sunjang-board.svg",
+        "rulesUrl": "dist/go/variants/sunjang/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "tibetan",
+        "variantTitle": "Tibetan Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/tibetan-board.svg",
+        "rulesUrl": "dist/go/variants/tibetan/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "go",
+        "familyTitle": "Go",
+        "variant": "toroidal-go",
+        "variantTitle": "Toroidal Go",
+        "topology": "grid",
+        "svg": "games/go/diagrams/svg/toroidal-go-board.svg",
+        "rulesUrl": "dist/go/variants/toroidal-go/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 14,
+    "playable": 10,
+    "withDiagram": 14,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

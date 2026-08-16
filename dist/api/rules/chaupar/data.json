@@ -1,0 +1,133 @@
+{
+  "slug": "chaupar",
+  "title": "Chaupar",
+  "type": "classic",
+  "hub_type": null,
+  "players": "4",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "race",
+    "capture",
+    "movement",
+    "team-play"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 19,
+      "cols": 19,
+      "layout": "cross"
+    },
+    "render": {
+      "cellSize": 20,
+      "cellColor": "checkered",
+      "labels": false,
+      "ops": [
+        {
+          "op": "rect",
+          "fill": "transparent",
+          "scope": "board"
+        },
+        {
+          "op": "cells",
+          "pattern": "cross",
+          "light": "cell-light",
+          "dark": "cell-dark",
+          "castles": [],
+          "typeColors": {
+            "floor": "floor",
+            "home": "home"
+          },
+          "typeStrokes": {
+            "floor": "floor-stroke",
+            "home": "home-stroke"
+          }
+        }
+      ]
+    },
+    "surface": {
+      "colors": {
+        "floor": "#d4d8f0",
+        "floor-stroke": "#2d3a8c",
+        "home": "#1a1a6b",
+        "home-stroke": "#12124a"
+      }
+    },
+    "pieces": {
+      "set": "playstrategy-draughts-plain"
+    },
+    "players": [
+      "yellow",
+      "green",
+      "red",
+      "blue"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "chaupar",
+      "title": "Chaupar (Standard)",
+      "players": "4",
+      "board": "Cross-shaped cloth board",
+      "win": "Both teammates return all their pieces to the Charkoni first, after capturing at least one opponent piece",
+      "special": "Three long dice. No grace rolls. No castle squares. Super-pieces immune to smaller groups.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 19,
+          "cols": 19
+        },
+        "players": [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        "setup": "home:4Y,home:4G,home:4R,home:4B"
+      },
+      "diagram": {
+        "svg": "games/chaupar/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/chaupar/variants/standard.md",
+        "meta": "/api/rules/chaupar/variants/standard.json",
+        "page": "/chaupar/variants/standard/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 1,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "chaupar",
+        "familyTitle": "Chaupar",
+        "variant": "standard",
+        "variantTitle": "Chaupar (Standard)",
+        "topology": "grid",
+        "svg": "games/chaupar/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/chaupar/variants/standard/index.html",
+        "status": "rendered",
+        "players": "4"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 1,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "stupidhouse",
+  "parent": "chess",
+  "title": "Stupidhouse",
+  "players": "4 (2 teams of 2)",
+  "board": "2× 8×8",
+  "win": "Checkmate either opposing King",
+  "special": "Bughouse chess variant where received pieces are placed on a randomly selected empty square rather than a player-chosen square. When a player captures a piece, it passes to their partner — but when the partner uses it, it lands on a random legal empty square instead of a chosen one. Removes strategic drop placement and replaces it with chaos.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8,
+      "boards": 2
+    },
+    "players": [
+      "white1",
+      "black1",
+      "white2",
+      "black2"
+    ],
+    "render": {
+      "cellSize": 34
+    },
+    "setup": [
+      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+    ],
+    "notation": "algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/stupidhouse-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/stupidhouse.md",
+    "meta": "/api/rules/chess/variants/stupidhouse.json",
+    "page": "/chess/variants/stupidhouse/"
+  }
+}

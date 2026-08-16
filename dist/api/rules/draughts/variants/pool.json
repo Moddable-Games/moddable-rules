@@ -1,0 +1,40 @@
+{
+  "slug": "pool",
+  "parent": "draughts",
+  "title": "Pool Checkers",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture or block all opponent pieces",
+  "special": "Men capture both directions. Flying kings. Mid-jump promotion. Free choice. US federation since 1966.",
+  "playable": true,
+  "order": 10,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "extends": "russian"
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/pool-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/pool.md",
+    "meta": "/api/rules/draughts/variants/pool.json",
+    "page": "/draughts/variants/pool/"
+  }
+}

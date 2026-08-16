@@ -1,0 +1,39 @@
+{
+  "slug": "14x14",
+  "parent": "hex",
+  "title": "Hex (14×14)",
+  "players": "2",
+  "board": "14×14 rhombus",
+  "win": "Connect opposite edges",
+  "special": "196 cells. Used in some tournament formats.",
+  "playable": false,
+  "order": 4,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "rhombus",
+      "rows": 14,
+      "cols": 14
+    },
+    "render": {
+      "cellSize": 16
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/hex/diagrams/svg/14x14-board.svg",
+    "topology": "hex",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/hex/variants/14x14.md",
+    "meta": "/api/rules/hex/variants/14x14.json",
+    "page": "/hex/variants/14x14/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "acey-deucey",
+  "parent": "backgammon",
+  "title": "Acey-Deucey",
+  "players": "2",
+  "board": "24-point board",
+  "win": "Bear off all 15 pieces before your opponent",
+  "special": "Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time.",
+  "playable": false,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 24
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "home:15W,home:15B"
+  },
+  "diagram": {
+    "svg": "games/backgammon/diagrams/svg/acey-deucey-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/backgammon/variants/acey-deucey.md",
+    "meta": "/api/rules/backgammon/variants/acey-deucey.json",
+    "page": "/backgammon/variants/acey-deucey/"
+  }
+}

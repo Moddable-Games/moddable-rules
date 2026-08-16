@@ -1,0 +1,38 @@
+{
+  "slug": "pallanguzhi",
+  "parent": "mancala",
+  "title": "Pallanguzhi",
+  "players": "2",
+  "board": "2×7 pits",
+  "win": "Capture all 168 seeds (opponent cannot fill pits to play)",
+  "special": "Multi-lap sowing: the last seed always triggers pickup of the next pit, creating long relay chains.",
+  "playable": false,
+  "order": 6,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "pit",
+      "cols": 7,
+      "stores": false
+    },
+    "players": [
+      "south",
+      "north"
+    ],
+    "render": {
+      "cellSize": 18
+    },
+    "setup": "12,12,12,12,12,12,12;0;12,12,12,12,12,12,12;0"
+  },
+  "diagram": {
+    "svg": "games/mancala/diagrams/svg/pallanguzhi-board.svg",
+    "topology": "pit",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/mancala/variants/pallanguzhi.md",
+    "meta": "/api/rules/mancala/variants/pallanguzhi.json",
+    "page": "/mancala/variants/pallanguzhi/"
+  }
+}

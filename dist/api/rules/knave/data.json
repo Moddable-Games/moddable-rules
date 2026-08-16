@@ -1,0 +1,63 @@
+{
+  "slug": "knave",
+  "title": "Knave",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "2–5",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "combat",
+    "exploration",
+    "narrative",
+    "classless"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "data/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "knave",
+        "familyTitle": "Knave",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/knave/diagrams/svg/knave-character-sheet.svg",
+        "rulesUrl": "dist/knave/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "knave",
+        "familyTitle": "Knave",
+        "variant": "reference",
+        "variantTitle": "Knave",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/knave/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

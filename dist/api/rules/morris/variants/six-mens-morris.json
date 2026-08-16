@@ -1,0 +1,40 @@
+{
+  "slug": "six-mens-morris",
+  "parent": "morris",
+  "title": "Six Men's Morris",
+  "players": "2",
+  "board": "Two concentric squares (16 intersections)",
+  "win": "Reduce opponent to 2 pieces or block all their moves",
+  "special": "Two concentric squares with connecting lines. The medieval European standard form before Nine Men's Morris predominated.",
+  "playable": false,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 2,
+        "midpoints": true
+      }
+    },
+    "render": {
+      "canvasSize": 260
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "diagram": {
+    "svg": "games/morris/diagrams/svg/six-mens-morris-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/morris/variants/six-mens-morris.md",
+    "meta": "/api/rules/morris/variants/six-mens-morris.json",
+    "page": "/morris/variants/six-mens-morris/"
+  }
+}

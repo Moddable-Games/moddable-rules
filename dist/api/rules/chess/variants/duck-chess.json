@@ -1,0 +1,51 @@
+{
+  "slug": "duck-chess",
+  "parent": "chess",
+  "title": "Duck Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture opponent king",
+  "special": "After each move, place the duck (blocker) on any empty square.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "plugins": {
+      "chess": {
+        "vocabulary": {
+          "blocker": {
+            "symbols": {
+              "-1": "D"
+            }
+          }
+        },
+        "render": {
+          "fenMap": {
+            "D": "duck"
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/duck-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/duck-chess.md",
+    "meta": "/api/rules/chess/variants/duck-chess.json",
+    "page": "/chess/variants/duck-chess/"
+  }
+}

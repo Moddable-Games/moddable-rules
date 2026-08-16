@@ -1,0 +1,35 @@
+{
+  "slug": "blind-chess",
+  "parent": "chess",
+  "title": "Blind Chess (Banqi)",
+  "players": "2",
+  "board": "4×8",
+  "win": "Capture all opponent's face-up pieces (opponent with no legal moves loses)",
+  "special": "Chinese hidden-piece game (Banqi, 暗棋) played on a 4×8 board (half a Xiangqi board). All 32 pieces placed face-down randomly. Each turn: flip a piece, move a piece, or capture. Piece ranks are unknown until revealed. Capture hierarchy: General defeats all except Soldier; Soldier defeats General. Cannon captures by jumping over exactly one screen (Taiwanese rules).",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 4
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "????/????/????/????/????/????/????/????"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/blind-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/blind-chess.md",
+    "meta": "/api/rules/chess/variants/blind-chess.json",
+    "page": "/chess/variants/blind-chess/"
+  }
+}

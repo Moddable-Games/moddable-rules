@@ -1,0 +1,36 @@
+{
+  "slug": "half-chess",
+  "parent": "chess",
+  "title": "Half Chess",
+  "players": "2",
+  "board": "8×4",
+  "win": "Checkmate",
+  "special": "4-rank board, armies start adjacent. Immediate contact.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 4,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/PPPPPPPP/RNBQKBNR",
+    "enPassant": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/half-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/half-chess.md",
+    "meta": "/api/rules/chess/variants/half-chess.json",
+    "page": "/chess/variants/half-chess/"
+  }
+}

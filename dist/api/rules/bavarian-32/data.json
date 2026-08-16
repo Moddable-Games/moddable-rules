@@ -1,0 +1,86 @@
+{
+  "slug": "bavarian-32",
+  "title": "Bavarian 32-Card Games",
+  "type": "component",
+  "hub_type": "component",
+  "players": "3",
+  "status": "live",
+  "mechanics": [
+    "trick-taking",
+    "hand-management",
+    "betting",
+    "card-play"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "surface": "felt-green",
+    "components": {
+      "deck": {
+        "type": "bavarian-32"
+      },
+      "layout": {
+        "type": "fan"
+      }
+    },
+    "players": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ]
+  },
+  "variants": [],
+  "games": [
+    {
+      "slug": "schafkopf",
+      "title": "Schafkopf",
+      "players": "4"
+    },
+    {
+      "slug": "skat",
+      "title": "Skat",
+      "players": "3"
+    }
+  ],
+  "diagrams": {
+    "total": 2,
+    "rendered": 2,
+    "entries": [
+      {
+        "family": "bavarian-32",
+        "familyTitle": "Bavarian 32-Card Games",
+        "variant": "schafkopf",
+        "variantTitle": "Schafkopf",
+        "topology": "tableau",
+        "svg": "games/bavarian-32/diagrams/svg/schafkopf-board.svg",
+        "rulesUrl": "dist/bavarian-32/games/schafkopf/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "bavarian-32",
+        "players": "4"
+      },
+      {
+        "family": "bavarian-32",
+        "familyTitle": "Bavarian 32-Card Games",
+        "variant": "skat",
+        "variantTitle": "Skat",
+        "topology": "tableau",
+        "svg": "games/bavarian-32/diagrams/svg/skat-board.svg",
+        "rulesUrl": "dist/bavarian-32/games/skat/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "bavarian-32",
+        "players": "3"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 2,
+    "topologies": []
+  }
+}

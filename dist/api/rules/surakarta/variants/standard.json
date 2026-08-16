@@ -1,0 +1,64 @@
+{
+  "slug": "standard",
+  "parent": "surakarta",
+  "title": "Surakarta (Standard)",
+  "players": "2",
+  "board": "6×6",
+  "win": null,
+  "special": null,
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 6,
+      "cols": 6,
+      "layout": "intersections"
+    },
+    "render": {
+      "cellSize": 50,
+      "cellColor": "uniform",
+      "decorations": [
+        {
+          "type": "arcs"
+        }
+      ]
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#d9c5a0",
+        "stroke": "#8b7355"
+      }
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic",
+      "vocabulary": {
+        "w": {
+          "type": "stone",
+          "color": "white"
+        },
+        "b": {
+          "type": "stone",
+          "color": "black"
+        }
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "bbbbbb/bbbbbb/6/6/wwwwww/wwwwww"
+  },
+  "diagram": {
+    "svg": "games/surakarta/diagrams/svg/standard-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/surakarta/variants/standard.md",
+    "meta": "/api/rules/surakarta/variants/standard.json",
+    "page": "/surakarta/variants/standard/"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "double-six-dominoes",
+  "title": "Double-Six Dominoes",
+  "type": "component",
+  "hub_type": "component",
+  "players": "2–8",
+  "status": "live",
+  "mechanics": [
+    "tile-placement",
+    "pattern",
+    "set-collection",
+    "hand-management"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "surface": "felt-green",
+    "components": {
+      "deck": {
+        "type": "dominoes-28"
+      },
+      "layout": {
+        "type": "fan"
+      }
+    },
+    "players": [
+      "south",
+      "north"
+    ]
+  },
+  "variants": [],
+  "games": [
+    {
+      "slug": "all-fives",
+      "title": "All Fives",
+      "players": "2–4"
+    },
+    {
+      "slug": "block",
+      "title": "Block Dominoes",
+      "players": "2–4"
+    },
+    {
+      "slug": "chickenfoot",
+      "title": "Chickenfoot",
+      "players": "2–8"
+    },
+    {
+      "slug": "mexican-train",
+      "title": "Mexican Train",
+      "players": "2–8"
+    }
+  ],
+  "diagrams": {
+    "total": 4,
+    "rendered": 4,
+    "entries": [
+      {
+        "family": "double-six-dominoes",
+        "familyTitle": "Double-Six Dominoes",
+        "variant": "all-fives",
+        "variantTitle": "All Fives",
+        "topology": "tableau",
+        "svg": "games/double-six-dominoes/diagrams/svg/all-fives-board.svg",
+        "rulesUrl": "dist/double-six-dominoes/games/all-fives/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "dominoes-28",
+        "players": "2–4"
+      },
+      {
+        "family": "double-six-dominoes",
+        "familyTitle": "Double-Six Dominoes",
+        "variant": "block",
+        "variantTitle": "Block Dominoes",
+        "topology": "tableau",
+        "svg": "games/double-six-dominoes/diagrams/svg/block-board.svg",
+        "rulesUrl": "dist/double-six-dominoes/games/block/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "dominoes-28",
+        "players": "2–4"
+      },
+      {
+        "family": "double-six-dominoes",
+        "familyTitle": "Double-Six Dominoes",
+        "variant": "chickenfoot",
+        "variantTitle": "Chickenfoot",
+        "topology": "tableau",
+        "svg": "games/double-six-dominoes/diagrams/svg/chickenfoot-board.svg",
+        "rulesUrl": "dist/double-six-dominoes/games/chickenfoot/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "dominoes-28",
+        "players": "2–8"
+      },
+      {
+        "family": "double-six-dominoes",
+        "familyTitle": "Double-Six Dominoes",
+        "variant": "mexican-train",
+        "variantTitle": "Mexican Train",
+        "topology": "tableau",
+        "svg": "games/double-six-dominoes/diagrams/svg/mexican-train-board.svg",
+        "rulesUrl": "dist/double-six-dominoes/games/mexican-train/index.html",
+        "status": "rendered",
+        "reason": "component-game",
+        "deckType": "dominoes-28",
+        "players": "2–8"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 4,
+    "topologies": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "kyoto-shogi",
+  "parent": "shogi",
+  "title": "Kyoto Shogi",
+  "players": "2",
+  "board": "5×5",
+  "win": "Checkmate the opponent's King",
+  "special": "Every piece except the King flips to its alternate face after each move",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 5,
+      "cols": 5
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "pgskl/5/5/5/LKSGP",
+    "render": {
+      "cellSize": 40
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/kyoto-shogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/kyoto-shogi.md",
+    "meta": "/api/rules/shogi/variants/kyoto-shogi.json",
+    "page": "/shogi/variants/kyoto-shogi/"
+  }
+}

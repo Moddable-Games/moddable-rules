@@ -1,0 +1,35 @@
+{
+  "slug": "two-player",
+  "parent": "pachisi",
+  "title": "2-Player Pachisi",
+  "players": "2",
+  "board": "Cross-shaped cloth board",
+  "win": "Move all eight pieces (two colours) home before your opponent",
+  "special": "Each player controls two opposite arms. Rules otherwise identical to standard.",
+  "playable": false,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 19,
+      "cols": 19
+    },
+    "players": [
+      "red",
+      "yellow"
+    ],
+    "setup": "home:4Y,home:4G"
+  },
+  "diagram": {
+    "svg": "games/pachisi/diagrams/svg/two-player-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/pachisi/variants/two-player.md",
+    "meta": "/api/rules/pachisi/variants/two-player.json",
+    "page": "/pachisi/variants/two-player/"
+  }
+}

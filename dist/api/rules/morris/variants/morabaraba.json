@@ -1,0 +1,39 @@
+{
+  "slug": "morabaraba",
+  "parent": "morris",
+  "title": "Morabaraba",
+  "players": "2",
+  "board": "Three concentric squares (24 intersections)",
+  "win": "Reduce opponent to 2 cows or block all their moves",
+  "special": "South African national game. Cows instead of men. Special rules for the three-cow endgame.",
+  "playable": false,
+  "order": 6,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 3,
+        "midpoints": true,
+        "diagonals": true
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/morris/diagrams/svg/morabaraba-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/morris/variants/morabaraba.md",
+    "meta": "/api/rules/morris/variants/morabaraba.json",
+    "page": "/morris/variants/morabaraba/"
+  }
+}

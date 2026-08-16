@@ -1,0 +1,43 @@
+{
+  "slug": "six-by-six",
+  "parent": "reversi",
+  "title": "Six-by-Six Reversi",
+  "players": "2",
+  "board": "6×6",
+  "win": "Most discs on the board when no moves remain",
+  "special": "Smaller board for shorter games or competitive solving. Identical rules to standard Reversi.",
+  "playable": true,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 6,
+      "cols": 6
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": "6/6/2bw2/2wb2/6/6",
+    "plugins": {
+      "reversi": {
+        "directions": "all",
+        "mustFlip": true,
+        "winBy": "most",
+        "passWhenNoMoves": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/reversi/diagrams/svg/six-by-six-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/reversi/variants/six-by-six.md",
+    "meta": "/api/rules/reversi/variants/six-by-six.json",
+    "page": "/reversi/variants/six-by-six/"
+  }
+}

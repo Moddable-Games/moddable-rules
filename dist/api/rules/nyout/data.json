@@ -1,0 +1,111 @@
+{
+  "slug": "nyout",
+  "title": "Nyout (유놓이 / Yut Nori)",
+  "type": "standalone",
+  "hub_type": null,
+  "players": "2–4",
+  "status": "live",
+  "mechanics": [
+    "dice-throwing",
+    "race",
+    "capture",
+    "stacking",
+    "shortcuts"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "perimeter-cross",
+      "params": {
+        "sides": 4,
+        "nodesPerSide": 5,
+        "diagonals": true,
+        "intermediatesPerDiagonal": 2
+      }
+    },
+    "surface": {
+      "colors": {
+        "background": "#f5f0e8",
+        "line": "#8b7355",
+        "point": "#8b7355",
+        "junction": "#c0622f",
+        "centre": "#8b1a1a"
+      }
+    },
+    "render": {
+      "cellSize": 24
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic"
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "nyout",
+      "title": "Nyout (Standard)",
+      "players": "2",
+      "board": "perimeter cross",
+      "win": null,
+      "special": null,
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "graph",
+          "structure": "perimeter-cross"
+        },
+        "render": {
+          "cellSize": 20
+        },
+        "players": [
+          "white",
+          "black"
+        ]
+      },
+      "diagram": {
+        "svg": "games/nyout/diagrams/svg/standard-board.svg",
+        "topology": "graph",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/nyout/variants/standard.md",
+        "meta": "/api/rules/nyout/variants/standard.json",
+        "page": "/nyout/variants/standard/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 1,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "nyout",
+        "familyTitle": "Nyout (유놓이 / Yut Nori)",
+        "variant": "standard",
+        "variantTitle": "Nyout (Standard)",
+        "topology": "graph",
+        "svg": "games/nyout/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/nyout/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 1,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": [
+      "graph"
+    ]
+  }
+}

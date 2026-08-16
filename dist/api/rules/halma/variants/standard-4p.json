@@ -1,0 +1,35 @@
+{
+  "slug": "standard-4p",
+  "parent": "halma",
+  "title": "Standard 4-Player Halma",
+  "players": "4",
+  "board": "16×16",
+  "win": "Move all your pieces into the diagonally opposite corner camp",
+  "special": "Four players with 13 pieces each. Optional 2v2 team play with diagonal partners.",
+  "playable": false,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 16,
+      "cols": 16
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "bbbb8bbbb/bbbb8bbbb/bbb10bbb/bb12bb/16/16/16/16/16/16/16/16/ww12ww/www10www/wwww8wwww/wwww8wwww"
+  },
+  "diagram": {
+    "svg": "games/halma/diagrams/svg/standard-4p-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/halma/variants/standard-4p.md",
+    "meta": "/api/rules/halma/variants/standard-4p.json",
+    "page": "/halma/variants/standard-4p/"
+  }
+}

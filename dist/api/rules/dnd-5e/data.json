@@ -1,0 +1,63 @@
+{
+  "slug": "dnd-5e",
+  "title": "Dungeons & Dragons 5th Edition SRD",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "2–8",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "combat",
+    "exploration",
+    "narrative",
+    "class-based"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "data/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "dnd-5e",
+        "familyTitle": "Dungeons & Dragons 5th Edition SRD",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/dnd-5e/diagrams/svg/dnd-5e-character-sheet-page-1.svg",
+        "rulesUrl": "dist/dnd-5e/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "dnd-5e",
+        "familyTitle": "Dungeons & Dragons 5th Edition SRD",
+        "variant": "reference",
+        "variantTitle": "Dungeons & Dragons 5th Edition SRD",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/dnd-5e/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

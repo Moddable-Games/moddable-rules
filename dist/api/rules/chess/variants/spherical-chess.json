@@ -1,0 +1,37 @@
+{
+  "slug": "spherical-chess",
+  "parent": "chess",
+  "title": "Spherical Chess",
+  "players": "2",
+  "board": "8×8 (played on flat board, spherical topology)",
+  "win": "Checkmate",
+  "special": "Chess on a sphere — a surface with no edges and no corners, where ranks and files meet at poles. The standard 8×8 board is played with two wrapping rules: ranks wrap horizontally (left-right, as in Cylindrical Chess), and files meet at polar singularities where a piece crossing the pole continues four files away. Multiple documented versions from 1950–2014; this file documents the family and the most widely agreed rules. Bishops are colourbound. Knights have 8 possible moves from any position.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8,
+      "wrap": "spherical"
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "notation": "algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/spherical-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/spherical-chess.md",
+    "meta": "/api/rules/chess/variants/spherical-chess.json",
+    "page": "/chess/variants/spherical-chess/"
+  }
+}

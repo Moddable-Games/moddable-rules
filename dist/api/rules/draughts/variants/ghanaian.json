@@ -1,0 +1,43 @@
+{
+  "slug": "ghanaian",
+  "parent": "draughts",
+  "title": "Ghanaian Draughts",
+  "players": "2",
+  "board": "10×10",
+  "win": "Capture or block all opponent pieces",
+  "special": "Men do not capture backwards. No majority rule. A player reduced to one piece loses.",
+  "playable": true,
+  "order": 19,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "extends": "international",
+        "manCapture": "forward",
+        "captureBackward": false,
+        "loseOnSinglePiece": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/ghanaian-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/ghanaian.md",
+    "meta": "/api/rules/draughts/variants/ghanaian.json",
+    "page": "/draughts/variants/ghanaian/"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "spantsiretti",
+  "parent": "draughts",
+  "title": "Spantsiretti",
+  "players": "2",
+  "board": "10×8",
+  "win": "Capture or block all opponent pieces",
+  "special": "Russian Draughts rules on a wider 10×8 board. 15 pieces per side.",
+  "playable": true,
+  "order": 20,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/10/10/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "extends": "russian",
+        "piecesPerPlayer": 15
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/spantsiretti-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/spantsiretti.md",
+    "meta": "/api/rules/draughts/variants/spantsiretti.json",
+    "page": "/draughts/variants/spantsiretti/"
+  }
+}

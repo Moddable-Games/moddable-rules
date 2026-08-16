@@ -1,0 +1,38 @@
+{
+  "slug": "nine-mens-morris",
+  "parent": "morris",
+  "title": "Nine Men's Morris",
+  "players": "2",
+  "board": "Three concentric squares (24 intersections)",
+  "win": "Reduce opponent to 2 pieces or block all their moves",
+  "special": "Three concentric squares joined at midpoints. Flying allowed when reduced to 3 pieces.",
+  "playable": false,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "concentric-rings",
+      "params": {
+        "rings": 3,
+        "midpoints": true
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/morris/diagrams/svg/nine-mens-morris-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/morris/variants/nine-mens-morris.md",
+    "meta": "/api/rules/morris/variants/nine-mens-morris.json",
+    "page": "/morris/variants/nine-mens-morris/"
+  }
+}

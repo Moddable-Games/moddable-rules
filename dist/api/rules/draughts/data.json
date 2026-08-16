@@ -1,0 +1,1180 @@
+{
+  "slug": "draughts",
+  "title": "Draughts",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "abstract-strategy",
+    "grid",
+    "capture",
+    "movement",
+    "promotion"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "surface": "wood-classic",
+    "render": {
+      "cellSize": 40,
+      "cellColor": "checkered",
+      "labels": true,
+      "ops": [
+        {
+          "op": "cells",
+          "pattern": "checkered",
+          "light": "#f0d9b5",
+          "dark": "#b58863",
+          "interactive": true
+        }
+      ]
+    },
+    "pieces": {
+      "set": "playstrategy-dameo-fabirovsky",
+      "vocabulary": {
+        "b": "bM",
+        "w": "wM",
+        "B": "bK",
+        "W": "wK"
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "unsupported": {
+      "bashni": "column stacking: captured pieces are carried beneath the capturer rather than removed",
+      "lasca": "column stacking on a 7×7 board",
+      "dameo": "linear movement of whole rows of pieces",
+      "alquerque": "5×5 point-and-line board rather than a square grid",
+      "frisian": "mixed orthogonal and diagonal capture with a three-move king limit",
+      "thai": "flying kings constrained to stop immediately behind the captured piece",
+      "diagonal": "pieces set up along the anti-diagonal rather than in ranks"
+    }
+  },
+  "variants": [
+    {
+      "slug": "english",
+      "parent": "draughts",
+      "title": "English Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Diagonal movement only. No flying kings. Free choice between captures.",
+      "playable": true,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 12,
+            "directions": "diagonal",
+            "manCapture": "forward",
+            "manMove": "forward",
+            "forcedCapture": true,
+            "maximalCapture": false,
+            "flyingKings": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/english-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/english.md",
+        "meta": "/api/rules/draughts/variants/english.json",
+        "page": "/draughts/variants/english/"
+      }
+    },
+    {
+      "slug": "turkish-draughts",
+      "parent": "draughts",
+      "title": "Turkish Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Orthogonal movement replaces diagonal. Majority capture rule. Immediate removal.",
+      "playable": true,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "8/bbbbbbbb/bbbbbbbb/8/8/wwwwwwww/wwwwwwww/8",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 16,
+            "directions": "orthogonal",
+            "manCapture": "forward",
+            "manMove": "forward",
+            "forcedCapture": true,
+            "maximalCapture": true,
+            "flyingKings": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/turkish-draughts-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/turkish-draughts.md",
+        "meta": "/api/rules/draughts/variants/turkish-draughts.json",
+        "page": "/draughts/variants/turkish-draughts/"
+      }
+    },
+    {
+      "slug": "international",
+      "parent": "draughts",
+      "title": "International Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Flying kings. Mandatory longest chain. Men capture backwards. Delayed removal.",
+      "playable": true,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 10
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 20,
+            "directions": "diagonal",
+            "manCapture": "all",
+            "manMove": "forward",
+            "captureBackward": true,
+            "forcedCapture": true,
+            "maximalCapture": true,
+            "flyingKings": true,
+            "removeImmediately": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/international-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/international.md",
+        "meta": "/api/rules/draughts/variants/international.json",
+        "page": "/draughts/variants/international/"
+      }
+    },
+    {
+      "slug": "frisian",
+      "parent": "draughts",
+      "title": "Frisian Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Captures in all 8 directions. 3-move king limit. King preference on equal chains.",
+      "playable": false,
+      "order": 4,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 10
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/frisian-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/frisian.md",
+        "meta": "/api/rules/draughts/variants/frisian.json",
+        "page": "/draughts/variants/frisian/"
+      }
+    },
+    {
+      "slug": "lasca",
+      "parent": "draughts",
+      "title": "Lasca",
+      "players": "2",
+      "board": "7×7",
+      "win": "Block or bury all opponent pieces",
+      "special": "Column stacking. Captured pieces go underneath the captor. All 22 pieces stay in play forever.",
+      "playable": false,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 7,
+          "cols": 7
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1/b1b1b1b/1b1b1b1/7/1w1w1w1/w1w1w1w/1w1w1w1"
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/lasca-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/lasca.md",
+        "meta": "/api/rules/draughts/variants/lasca.json",
+        "page": "/draughts/variants/lasca/"
+      }
+    },
+    {
+      "slug": "alquerque",
+      "parent": "draughts",
+      "title": "Alquerque",
+      "players": "2",
+      "board": "5×5",
+      "win": "Capture or block all opponent pieces",
+      "special": "The common ancestor. Movement along lines (orthogonal and diagonal). No promotion.",
+      "playable": false,
+      "order": 6,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "surface": {
+          "colors": {
+            "cell-light": "#d9b483",
+            "stroke": "rgba(0,0,0,0.1)"
+          }
+        },
+        "topology": {
+          "type": "grid",
+          "rows": 5,
+          "cols": 5,
+          "layout": "intersections"
+        },
+        "render": {
+          "cellSize": 48,
+          "boardStyle": "alquerque",
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "cell-light",
+              "scope": "board",
+              "rx": 4
+            },
+            {
+              "op": "grid-lines",
+              "grouped": false,
+              "order": "hv",
+              "color": "stroke",
+              "width": 2
+            },
+            {
+              "op": "diagonals",
+              "pattern": "alternating",
+              "color": "stroke",
+              "width": 1.5
+            },
+            {
+              "op": "markers",
+              "allCells": true,
+              "radius": 3,
+              "fill": "stroke",
+              "hits": {
+                "radiusFactor": 0.4,
+                "idStyle": "algebraic"
+              }
+            }
+          ]
+        },
+        "pieces": {
+          "set": "playstrategy-go-classic",
+          "vocabulary": {
+            "w": {
+              "type": "stone",
+              "color": "white"
+            },
+            "b": {
+              "type": "stone",
+              "color": "black"
+            }
+          }
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "bbbbb/bbbbb/bb1ww/wwwww/wwwww"
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/alquerque-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/alquerque.md",
+        "meta": "/api/rules/draughts/variants/alquerque.json",
+        "page": "/draughts/variants/alquerque/"
+      }
+    },
+    {
+      "slug": "russian",
+      "parent": "draughts",
+      "title": "Russian Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men capture backwards. Mid-jump promotion. No majority rule. Free choice between captures.",
+      "playable": true,
+      "order": 7,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 12,
+            "directions": "diagonal",
+            "manCapture": "all",
+            "manMove": "forward",
+            "captureBackward": true,
+            "forcedCapture": true,
+            "maximalCapture": false,
+            "flyingKings": true,
+            "promotionDuring": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/russian-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/russian.md",
+        "meta": "/api/rules/draughts/variants/russian.json",
+        "page": "/draughts/variants/russian/"
+      }
+    },
+    {
+      "slug": "brazilian",
+      "parent": "draughts",
+      "title": "Brazilian Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "International rules on 8×8 board. Flying kings. Majority capture. Delayed removal.",
+      "playable": true,
+      "order": 8,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "extends": "international",
+            "piecesPerPlayer": 12
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/brazilian-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/brazilian.md",
+        "meta": "/api/rules/draughts/variants/brazilian.json",
+        "page": "/draughts/variants/brazilian/"
+      }
+    },
+    {
+      "slug": "canadian",
+      "parent": "draughts",
+      "title": "Canadian Draughts",
+      "players": "2",
+      "board": "12×12",
+      "win": "Capture or block all opponent pieces",
+      "special": "Largest standard board (12×12). 30 pieces per side. International rules. Longest games.",
+      "playable": true,
+      "order": 9,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 12,
+          "cols": 12
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/b1b1b1b1b1b1/1b1b1b1b1b1b/12/12/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1/1w1w1w1w1w1w/w1w1w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "extends": "international",
+            "piecesPerPlayer": 30
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/canadian-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/canadian.md",
+        "meta": "/api/rules/draughts/variants/canadian.json",
+        "page": "/draughts/variants/canadian/"
+      }
+    },
+    {
+      "slug": "pool",
+      "parent": "draughts",
+      "title": "Pool Checkers",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men capture both directions. Flying kings. Mid-jump promotion. Free choice. US federation since 1966.",
+      "playable": true,
+      "order": 10,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "extends": "russian"
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/pool-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/pool.md",
+        "meta": "/api/rules/draughts/variants/pool.json",
+        "page": "/draughts/variants/pool/"
+      }
+    },
+    {
+      "slug": "italian",
+      "parent": "draughts",
+      "title": "Italian Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men cannot capture kings. Strict capture priority: king captures first, then most pieces, then most kings.",
+      "playable": true,
+      "order": 11,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 12,
+            "directions": "diagonal",
+            "manCapture": "forward",
+            "manMove": "forward",
+            "forcedCapture": true,
+            "maximalCapture": true,
+            "menCannotCaptureKings": true,
+            "flyingKings": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/italian-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/italian.md",
+        "meta": "/api/rules/draughts/variants/italian.json",
+        "page": "/draughts/variants/italian/"
+      }
+    },
+    {
+      "slug": "spanish",
+      "parent": "draughts",
+      "title": "Spanish Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Flying kings. Men cannot capture backwards. Majority rule with king preference.",
+      "playable": true,
+      "order": 12,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 12,
+            "directions": "diagonal",
+            "manCapture": "forward",
+            "manMove": "forward",
+            "forcedCapture": true,
+            "maximalCapture": true,
+            "majorityPrefersKing": true,
+            "flyingKings": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/spanish-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/spanish.md",
+        "meta": "/api/rules/draughts/variants/spanish.json",
+        "page": "/draughts/variants/spanish/"
+      }
+    },
+    {
+      "slug": "czech",
+      "parent": "draughts",
+      "title": "Czech Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "King captures take priority over man captures. Mid-jump promotion. No majority rule for men.",
+      "playable": true,
+      "order": 13,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 12,
+            "directions": "diagonal",
+            "manCapture": "forward",
+            "manMove": "forward",
+            "forcedCapture": true,
+            "maximalCapture": false,
+            "kingCapturePriority": true,
+            "flyingKings": true,
+            "promotionDuring": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/czech-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/czech.md",
+        "meta": "/api/rules/draughts/variants/czech.json",
+        "page": "/draughts/variants/czech/"
+      }
+    },
+    {
+      "slug": "thai",
+      "parent": "draughts",
+      "title": "Thai Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Only 8 pieces per side. Flying kings must stop immediately behind captured piece. Forward-only men.",
+      "playable": false,
+      "order": 14,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "b1b1b1b1/1b1b1b1b/8/8/8/8/w1w1w1w1/1w1w1w1w"
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/thai-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/thai.md",
+        "meta": "/api/rules/draughts/variants/thai.json",
+        "page": "/draughts/variants/thai/"
+      }
+    },
+    {
+      "slug": "bashni",
+      "parent": "draughts",
+      "title": "Bashni",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent commanders",
+      "special": "Column stacking on 8×8. Russian movement rules. Captured pieces form towers. Predecessor to Lasca.",
+      "playable": false,
+      "order": 15,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1"
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/bashni-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/bashni.md",
+        "meta": "/api/rules/draughts/variants/bashni.json",
+        "page": "/draughts/variants/bashni/"
+      }
+    },
+    {
+      "slug": "dameo",
+      "parent": "draughts",
+      "title": "Dameo",
+      "players": "2",
+      "board": "8×8",
+      "win": "Opponent has no legal move",
+      "special": "Phalanx movement: lines of men slide together. Orthogonal captures only. 18 pieces per side.",
+      "playable": false,
+      "order": 16,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "bbbbbbbb/1bbbbbb1/2bbbb2/8/8/2wwww2/1wwwwww1/wwwwwwww"
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/dameo-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/dameo.md",
+        "meta": "/api/rules/draughts/variants/dameo.json",
+        "page": "/draughts/variants/dameo/"
+      }
+    },
+    {
+      "slug": "diagonal",
+      "parent": "draughts",
+      "title": "Diagonal Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Pieces start along the diagonal. The long diagonal of the board is empty at setup.",
+      "playable": false,
+      "order": 17,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 10
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "2b1b1b1b1/3b1b1b1b/w3b1b1b1/1w3b1b1b/w1w3b1b1/1w1w3b1b/w1w1w3b1/1w1w1w3b/w1w1w1w3/1w1w1w1w2"
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/diagonal-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/diagonal.md",
+        "meta": "/api/rules/draughts/variants/diagonal.json",
+        "page": "/draughts/variants/diagonal/"
+      }
+    },
+    {
+      "slug": "german",
+      "parent": "draughts",
+      "title": "German Draughts",
+      "players": "2",
+      "board": "8×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men capture both forwards and backwards. Flying kings. No majority capture rule.",
+      "playable": true,
+      "order": 18,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "piecesPerPlayer": 12,
+            "directions": "diagonal",
+            "manCapture": "all",
+            "manMove": "forward",
+            "captureBackward": true,
+            "forcedCapture": true,
+            "maximalCapture": false,
+            "flyingKings": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/german-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/german.md",
+        "meta": "/api/rules/draughts/variants/german.json",
+        "page": "/draughts/variants/german/"
+      }
+    },
+    {
+      "slug": "ghanaian",
+      "parent": "draughts",
+      "title": "Ghanaian Draughts",
+      "players": "2",
+      "board": "10×10",
+      "win": "Capture or block all opponent pieces",
+      "special": "Men do not capture backwards. No majority rule. A player reduced to one piece loses.",
+      "playable": true,
+      "order": 19,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 10
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "extends": "international",
+            "manCapture": "forward",
+            "captureBackward": false,
+            "loseOnSinglePiece": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/ghanaian-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/ghanaian.md",
+        "meta": "/api/rules/draughts/variants/ghanaian.json",
+        "page": "/draughts/variants/ghanaian/"
+      }
+    },
+    {
+      "slug": "spantsiretti",
+      "parent": "draughts",
+      "title": "Spantsiretti",
+      "players": "2",
+      "board": "10×8",
+      "win": "Capture or block all opponent pieces",
+      "special": "Russian Draughts rules on a wider 10×8 board. 15 pieces per side.",
+      "playable": true,
+      "order": 20,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 10
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/10/10/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1",
+        "plugins": {
+          "draughts": {
+            "extends": "russian",
+            "piecesPerPlayer": 15
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/draughts/diagrams/svg/spantsiretti-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/draughts/variants/spantsiretti.md",
+        "meta": "/api/rules/draughts/variants/spantsiretti.json",
+        "page": "/draughts/variants/spantsiretti/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 20,
+    "rendered": 20,
+    "entries": [
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "alquerque",
+        "variantTitle": "Alquerque",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/alquerque-board.svg",
+        "rulesUrl": "dist/draughts/variants/alquerque/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "bashni",
+        "variantTitle": "Bashni",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/bashni-board.svg",
+        "rulesUrl": "dist/draughts/variants/bashni/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "brazilian",
+        "variantTitle": "Brazilian Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/brazilian-board.svg",
+        "rulesUrl": "dist/draughts/variants/brazilian/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "canadian",
+        "variantTitle": "Canadian Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/canadian-board.svg",
+        "rulesUrl": "dist/draughts/variants/canadian/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "czech",
+        "variantTitle": "Czech Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/czech-board.svg",
+        "rulesUrl": "dist/draughts/variants/czech/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "dameo",
+        "variantTitle": "Dameo",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/dameo-board.svg",
+        "rulesUrl": "dist/draughts/variants/dameo/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "diagonal",
+        "variantTitle": "Diagonal Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/diagonal-board.svg",
+        "rulesUrl": "dist/draughts/variants/diagonal/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "english",
+        "variantTitle": "English Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/english-board.svg",
+        "rulesUrl": "dist/draughts/variants/english/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "frisian",
+        "variantTitle": "Frisian Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/frisian-board.svg",
+        "rulesUrl": "dist/draughts/variants/frisian/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "german",
+        "variantTitle": "German Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/german-board.svg",
+        "rulesUrl": "dist/draughts/variants/german/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "ghanaian",
+        "variantTitle": "Ghanaian Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/ghanaian-board.svg",
+        "rulesUrl": "dist/draughts/variants/ghanaian/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "international",
+        "variantTitle": "International Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/international-board.svg",
+        "rulesUrl": "dist/draughts/variants/international/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "italian",
+        "variantTitle": "Italian Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/italian-board.svg",
+        "rulesUrl": "dist/draughts/variants/italian/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "lasca",
+        "variantTitle": "Lasca",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/lasca-board.svg",
+        "rulesUrl": "dist/draughts/variants/lasca/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "pool",
+        "variantTitle": "Pool Checkers",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/pool-board.svg",
+        "rulesUrl": "dist/draughts/variants/pool/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "russian",
+        "variantTitle": "Russian Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/russian-board.svg",
+        "rulesUrl": "dist/draughts/variants/russian/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "spanish",
+        "variantTitle": "Spanish Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/spanish-board.svg",
+        "rulesUrl": "dist/draughts/variants/spanish/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "spantsiretti",
+        "variantTitle": "Spantsiretti",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/spantsiretti-board.svg",
+        "rulesUrl": "dist/draughts/variants/spantsiretti/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "thai",
+        "variantTitle": "Thai Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/thai-board.svg",
+        "rulesUrl": "dist/draughts/variants/thai/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "draughts",
+        "familyTitle": "Draughts",
+        "variant": "turkish-draughts",
+        "variantTitle": "Turkish Draughts",
+        "topology": "grid",
+        "svg": "games/draughts/diagrams/svg/turkish-draughts-board.svg",
+        "rulesUrl": "dist/draughts/variants/turkish-draughts/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 20,
+    "playable": 13,
+    "withDiagram": 20,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

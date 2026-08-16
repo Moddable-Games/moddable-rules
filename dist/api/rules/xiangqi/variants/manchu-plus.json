@@ -1,0 +1,42 @@
+{
+  "slug": "manchu-plus",
+  "parent": "xiangqi",
+  "title": "Manchu+",
+  "players": "2",
+  "board": "9×10",
+  "win": "Checkmate the General",
+  "special": "Asymmetric Xiangqi variant from the Qing Dynasty. The Manchu side loses its Horses, second Chariot, and both Cannons, gaining a single Banner piece that combines Chariot, Cannon, and Horse movement.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 9
+    },
+    "pieces": {
+      "set": "mce-xiangqi-fairy",
+      "vocabulary": {
+        "Z": "wZ",
+        "z": "bZ"
+      }
+    },
+    "players": [
+      "red",
+      "black"
+    ],
+    "setup": "r1eakae1z/9/p1p1p1p1p/9/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
+  },
+  "diagram": {
+    "svg": "games/xiangqi/diagrams/svg/manchu-plus-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/xiangqi/variants/manchu-plus.md",
+    "meta": "/api/rules/xiangqi/variants/manchu-plus.json",
+    "page": "/xiangqi/variants/manchu-plus/"
+  }
+}

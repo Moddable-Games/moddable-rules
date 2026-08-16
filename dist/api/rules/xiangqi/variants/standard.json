@@ -1,0 +1,42 @@
+{
+  "slug": "standard",
+  "parent": "xiangqi",
+  "title": "Standard Xiangqi",
+  "players": "2",
+  "board": "9×10",
+  "win": "Checkmate the opponent's General",
+  "special": "Cannon captures by jumping a screen piece. Flying General rule. Stalemate is a loss.",
+  "playable": true,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 9
+    },
+    "players": [
+      "red",
+      "black"
+    ],
+    "setup": "rheakaehr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR",
+    "plugins": {
+      "xiangqi": {
+        "hasRiver": true,
+        "flyingGeneralRule": true,
+        "cannonJumpToMove": false
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/xiangqi/diagrams/svg/standard-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/xiangqi/variants/standard.md",
+    "meta": "/api/rules/xiangqi/variants/standard.json",
+    "page": "/xiangqi/variants/standard/"
+  }
+}

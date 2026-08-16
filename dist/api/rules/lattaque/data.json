@@ -1,0 +1,1118 @@
+{
+  "slug": "lattaque",
+  "title": "L'Attaque",
+  "type": "hub",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "hidden-information",
+    "grid",
+    "movement",
+    "combat",
+    "ranking",
+    "deduction"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 9
+    },
+    "render": {
+      "cellSize": 34,
+      "cellColor": "checkered",
+      "labels": false,
+      "zones": {
+        "fill": "floor",
+        "cells": [
+          {
+            "type": "lake",
+            "at": [
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                5,
+                6
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "surface": {
+      "colors": {
+        "floor": "#5a8a3a",
+        "floor-stroke": "#3d6b28",
+        "lake": "#4a7ab5",
+        "lake-stroke": "#2a5a8a"
+      }
+    },
+    "pieces": {
+      "set": "mce-lattaque"
+    },
+    "players": [
+      "blue",
+      "red"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "aviation",
+      "parent": "lattaque",
+      "title": "Aviation",
+      "players": "2",
+      "board": "8×11 (Aerodrome board)",
+      "win": "Land a Troop Carrier on the opponent's Aerodrome. Draw if both sides lose all Troop Carriers.",
+      "special": "Hidden-information aerial warfare game by H.P. Gibson & Sons. 42 pieces per player: 32 numbered flying units plus 10 unnumbered Auxiliaries (Searchlights, Observation Balloons, Anti-Aircraft Guns). The Searchlight + Gun ranging system is unique: Searchlights reveal hidden pieces and enable AAA Guns to engage at range. Troop Carriers move only diagonally; are driven back (not removed) when attacked by a piece of value 5 or higher; win by reaching the opponent's Aerodrome.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 11,
+          "cols": 8
+        },
+        "render": {
+          "cellSize": 34,
+          "zones": {
+            "fill": "floor",
+            "cells": [
+              {
+                "type": "aerodrome",
+                "at": [
+                  [
+                    0,
+                    3
+                  ],
+                  [
+                    0,
+                    4
+                  ],
+                  [
+                    10,
+                    3
+                  ],
+                  [
+                    10,
+                    4
+                  ]
+                ]
+              }
+            ]
+          },
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "floor",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "aerodrome",
+                    "at": [
+                      [
+                        0,
+                        3
+                      ],
+                      [
+                        0,
+                        4
+                      ],
+                      [
+                        10,
+                        3
+                      ],
+                      [
+                        10,
+                        4
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "floor": "floor",
+                "aerodrome": "aerodrome"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "aerodrome": "aerodrome-stroke"
+              }
+            }
+          ]
+        },
+        "surface": {
+          "colors": {
+            "floor": "#8fa8bf",
+            "floor-stroke": "#6b8aa5",
+            "aerodrome": "#d4a843",
+            "aerodrome-stroke": "#a07c20"
+          }
+        },
+        "players": [
+          "blue",
+          "red"
+        ]
+      },
+      "diagram": {
+        "svg": "games/lattaque/diagrams/svg/aviation-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/lattaque/variants/aviation.md",
+        "meta": "/api/rules/lattaque/variants/aviation.json",
+        "page": "/lattaque/variants/aviation/"
+      }
+    },
+    {
+      "slug": "dover-patrol",
+      "parent": "lattaque",
+      "title": "Dover Patrol",
+      "players": "2",
+      "board": "8×12",
+      "win": "Get both Flags — your own and the opponent's — onto your own Base",
+      "special": "Naval CTF (Capture the Flag) game by H.P. Gibson & Sons. 40 pieces per player plus a separate Flag clip. The Flag starts on the Base inside the walled Harbour; seizing the enemy Flag and conveying it to your own Base wins. The Flying Boat uniquely crosses the Harbour Wall and moves 2 squares; Mine Layers are movable floating mines; Submarines sink all ships except Mine Layers and Motor Torpedo Boats.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 12,
+          "cols": 8
+        },
+        "render": {
+          "cellSize": 34,
+          "zones": {
+            "fill": "sea",
+            "cells": [
+              {
+                "type": "base",
+                "at": [
+                  [
+                    0,
+                    5
+                  ],
+                  [
+                    11,
+                    2
+                  ]
+                ]
+              },
+              {
+                "type": "harbour",
+                "at": [
+                  [
+                    0,
+                    6
+                  ],
+                  [
+                    0,
+                    7
+                  ],
+                  [
+                    1,
+                    5
+                  ],
+                  [
+                    1,
+                    6
+                  ],
+                  [
+                    1,
+                    7
+                  ],
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    2,
+                    6
+                  ],
+                  [
+                    2,
+                    7
+                  ],
+                  [
+                    9,
+                    0
+                  ],
+                  [
+                    9,
+                    1
+                  ],
+                  [
+                    9,
+                    2
+                  ],
+                  [
+                    10,
+                    0
+                  ],
+                  [
+                    10,
+                    1
+                  ],
+                  [
+                    10,
+                    2
+                  ],
+                  [
+                    11,
+                    0
+                  ],
+                  [
+                    11,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "sea",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "base",
+                    "at": [
+                      [
+                        0,
+                        5
+                      ],
+                      [
+                        11,
+                        2
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "harbour",
+                    "at": [
+                      [
+                        0,
+                        6
+                      ],
+                      [
+                        0,
+                        7
+                      ],
+                      [
+                        1,
+                        5
+                      ],
+                      [
+                        1,
+                        6
+                      ],
+                      [
+                        1,
+                        7
+                      ],
+                      [
+                        2,
+                        5
+                      ],
+                      [
+                        2,
+                        6
+                      ],
+                      [
+                        2,
+                        7
+                      ],
+                      [
+                        9,
+                        0
+                      ],
+                      [
+                        9,
+                        1
+                      ],
+                      [
+                        9,
+                        2
+                      ],
+                      [
+                        10,
+                        0
+                      ],
+                      [
+                        10,
+                        1
+                      ],
+                      [
+                        10,
+                        2
+                      ],
+                      [
+                        11,
+                        0
+                      ],
+                      [
+                        11,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "sea": "sea",
+                "base": "base",
+                "harbour": "harbour"
+              },
+              "typeStrokes": {
+                "sea": "sea-stroke",
+                "base": "base-stroke",
+                "harbour": "harbour-stroke"
+              }
+            }
+          ]
+        },
+        "surface": {
+          "colors": {
+            "sea": "#3a6e9e",
+            "sea-stroke": "#2a5580",
+            "harbour": "#5a8ab5",
+            "harbour-stroke": "#3a6a95",
+            "base": "#c8a832",
+            "base-stroke": "#9a8020"
+          }
+        },
+        "players": [
+          "blue",
+          "red"
+        ]
+      },
+      "diagram": {
+        "svg": "games/lattaque/diagrams/svg/dover-patrol-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/lattaque/variants/dover-patrol.md",
+        "meta": "/api/rules/lattaque/variants/dover-patrol.json",
+        "page": "/lattaque/variants/dover-patrol/"
+      }
+    },
+    {
+      "slug": "standard",
+      "parent": "lattaque",
+      "title": "L'Attaque (Standard)",
+      "players": "2",
+      "board": "9×10",
+      "win": "Capture the opponent's Flag, or leave them with no movable pieces",
+      "special": "Hidden-information land warfare game by Hermance Edan (1909). 36 pieces per player on a 9×10 board with three 1×2 lake areas. Higher rank defeats lower; Mines defeat all except Sappers; Spy defeats Commander-in-chief when Spy attacks.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9
+        },
+        "players": [
+          "blue",
+          "red"
+        ],
+        "render": {
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "floor",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "lake",
+                    "at": [
+                      [
+                        4,
+                        2
+                      ],
+                      [
+                        4,
+                        4
+                      ],
+                      [
+                        4,
+                        6
+                      ],
+                      [
+                        5,
+                        2
+                      ],
+                      [
+                        5,
+                        4
+                      ],
+                      [
+                        5,
+                        6
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "floor": "floor",
+                "lake": "lake"
+              },
+              "typeStrokes": {
+                "floor": "floor-stroke",
+                "lake": "lake-stroke"
+              }
+            }
+          ]
+        }
+      },
+      "diagram": {
+        "svg": "games/lattaque/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/lattaque/variants/standard.md",
+        "meta": "/api/rules/lattaque/variants/standard.json",
+        "page": "/lattaque/variants/standard/"
+      }
+    },
+    {
+      "slug": "tri-tactics",
+      "parent": "lattaque",
+      "title": "Tri-Tactics",
+      "players": "2",
+      "board": "12×12 (combined land/sea terrain)",
+      "win": "Occupy the opponent's H.Q. with a Land Infantry piece, OR occupy the opponent's Lake (Naval Base) with a Ship",
+      "special": "Combined-arms hidden-rank game by H.P. Gibson & Sons. 56 pieces per player across three services: Land (Infantry + Artillery), Naval (Ships + Flying Boats + Submarine), and Air Force, plus 8 Searchlights. All three services operate on a single board with land, sea, river, lake, and H.Q. terrain. Pieces caught out of their element are immediately forfeit when attacked. The Searchlight may move any number of squares in a straight line to attack. Combat outcomes between all 18 piece types are resolved via a published Value Table.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 12,
+          "cols": 12
+        },
+        "render": {
+          "cellSize": 30,
+          "zones": {
+            "fill": "land",
+            "cells": [
+              {
+                "type": "hq",
+                "at": [
+                  [
+                    0,
+                    5
+                  ],
+                  [
+                    11,
+                    5
+                  ]
+                ]
+              },
+              {
+                "type": "lake",
+                "at": [
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    10,
+                    8
+                  ]
+                ]
+              },
+              {
+                "type": "sea",
+                "at": [
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3,
+                    2
+                  ],
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    3,
+                    4
+                  ],
+                  [
+                    3,
+                    5
+                  ],
+                  [
+                    4,
+                    0
+                  ],
+                  [
+                    4,
+                    1
+                  ],
+                  [
+                    4,
+                    2
+                  ],
+                  [
+                    4,
+                    3
+                  ],
+                  [
+                    4,
+                    4
+                  ],
+                  [
+                    4,
+                    5
+                  ],
+                  [
+                    4,
+                    6
+                  ],
+                  [
+                    4,
+                    7
+                  ],
+                  [
+                    5,
+                    0
+                  ],
+                  [
+                    5,
+                    1
+                  ],
+                  [
+                    5,
+                    2
+                  ],
+                  [
+                    5,
+                    3
+                  ],
+                  [
+                    5,
+                    4
+                  ],
+                  [
+                    5,
+                    5
+                  ],
+                  [
+                    5,
+                    6
+                  ],
+                  [
+                    5,
+                    7
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    1
+                  ],
+                  [
+                    6,
+                    2
+                  ],
+                  [
+                    6,
+                    3
+                  ],
+                  [
+                    6,
+                    4
+                  ],
+                  [
+                    6,
+                    5
+                  ],
+                  [
+                    6,
+                    6
+                  ],
+                  [
+                    6,
+                    7
+                  ],
+                  [
+                    7,
+                    0
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    7,
+                    2
+                  ],
+                  [
+                    7,
+                    3
+                  ],
+                  [
+                    7,
+                    4
+                  ],
+                  [
+                    7,
+                    5
+                  ],
+                  [
+                    7,
+                    6
+                  ],
+                  [
+                    7,
+                    7
+                  ],
+                  [
+                    8,
+                    0
+                  ],
+                  [
+                    8,
+                    1
+                  ],
+                  [
+                    8,
+                    2
+                  ],
+                  [
+                    8,
+                    3
+                  ],
+                  [
+                    8,
+                    4
+                  ],
+                  [
+                    8,
+                    5
+                  ]
+                ]
+              }
+            ]
+          },
+          "ops": [
+            {
+              "op": "rect",
+              "fill": "transparent",
+              "scope": "board"
+            },
+            {
+              "op": "cells",
+              "pattern": "cellMap",
+              "light": "cell-light",
+              "dark": "cell-dark",
+              "defaultFill": "land",
+              "zones": {
+                "cells": [
+                  {
+                    "type": "hq",
+                    "at": [
+                      [
+                        0,
+                        5
+                      ],
+                      [
+                        11,
+                        5
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "lake",
+                    "at": [
+                      [
+                        1,
+                        8
+                      ],
+                      [
+                        10,
+                        8
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "sea",
+                    "at": [
+                      [
+                        3,
+                        0
+                      ],
+                      [
+                        3,
+                        1
+                      ],
+                      [
+                        3,
+                        2
+                      ],
+                      [
+                        3,
+                        3
+                      ],
+                      [
+                        3,
+                        4
+                      ],
+                      [
+                        3,
+                        5
+                      ],
+                      [
+                        4,
+                        0
+                      ],
+                      [
+                        4,
+                        1
+                      ],
+                      [
+                        4,
+                        2
+                      ],
+                      [
+                        4,
+                        3
+                      ],
+                      [
+                        4,
+                        4
+                      ],
+                      [
+                        4,
+                        5
+                      ],
+                      [
+                        4,
+                        6
+                      ],
+                      [
+                        4,
+                        7
+                      ],
+                      [
+                        5,
+                        0
+                      ],
+                      [
+                        5,
+                        1
+                      ],
+                      [
+                        5,
+                        2
+                      ],
+                      [
+                        5,
+                        3
+                      ],
+                      [
+                        5,
+                        4
+                      ],
+                      [
+                        5,
+                        5
+                      ],
+                      [
+                        5,
+                        6
+                      ],
+                      [
+                        5,
+                        7
+                      ],
+                      [
+                        6,
+                        0
+                      ],
+                      [
+                        6,
+                        1
+                      ],
+                      [
+                        6,
+                        2
+                      ],
+                      [
+                        6,
+                        3
+                      ],
+                      [
+                        6,
+                        4
+                      ],
+                      [
+                        6,
+                        5
+                      ],
+                      [
+                        6,
+                        6
+                      ],
+                      [
+                        6,
+                        7
+                      ],
+                      [
+                        7,
+                        0
+                      ],
+                      [
+                        7,
+                        1
+                      ],
+                      [
+                        7,
+                        2
+                      ],
+                      [
+                        7,
+                        3
+                      ],
+                      [
+                        7,
+                        4
+                      ],
+                      [
+                        7,
+                        5
+                      ],
+                      [
+                        7,
+                        6
+                      ],
+                      [
+                        7,
+                        7
+                      ],
+                      [
+                        8,
+                        0
+                      ],
+                      [
+                        8,
+                        1
+                      ],
+                      [
+                        8,
+                        2
+                      ],
+                      [
+                        8,
+                        3
+                      ],
+                      [
+                        8,
+                        4
+                      ],
+                      [
+                        8,
+                        5
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "typeColors": {
+                "land": "land",
+                "sea": "sea",
+                "lake": "lake",
+                "hq": "hq"
+              },
+              "typeStrokes": {
+                "land": "land-stroke",
+                "sea": "sea-stroke",
+                "lake": "lake-stroke",
+                "hq": "hq-stroke"
+              }
+            }
+          ],
+          "overlays": [
+            {
+              "type": "river",
+              "path": [
+                "f9",
+                "f10",
+                "g10",
+                "h10",
+                "i10",
+                "i11"
+              ],
+              "stroke": "#3a6e9e",
+              "width": 9
+            },
+            {
+              "type": "river",
+              "path": [
+                "f4",
+                "f3",
+                "g3",
+                "h3",
+                "i3",
+                "i2"
+              ],
+              "stroke": "#3a6e9e",
+              "width": 9
+            }
+          ]
+        },
+        "surface": {
+          "colors": {
+            "land": "#5a8a3a",
+            "land-stroke": "#3d6b28",
+            "sea": "#3a6e9e",
+            "sea-stroke": "#2a5580",
+            "lake": "#3a6e9e",
+            "lake-stroke": "#2a5580",
+            "hq": "#c8a832",
+            "hq-stroke": "#9a8020"
+          }
+        },
+        "players": [
+          "blue",
+          "red"
+        ]
+      },
+      "diagram": {
+        "svg": "games/lattaque/diagrams/svg/tri-tactics-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/lattaque/variants/tri-tactics.md",
+        "meta": "/api/rules/lattaque/variants/tri-tactics.json",
+        "page": "/lattaque/variants/tri-tactics/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 4,
+    "rendered": 4,
+    "entries": [
+      {
+        "family": "lattaque",
+        "familyTitle": "L'Attaque",
+        "variant": "aviation",
+        "variantTitle": "Aviation",
+        "topology": "grid",
+        "svg": "games/lattaque/diagrams/svg/aviation-board.svg",
+        "rulesUrl": "dist/lattaque/variants/aviation/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "lattaque",
+        "familyTitle": "L'Attaque",
+        "variant": "dover-patrol",
+        "variantTitle": "Dover Patrol",
+        "topology": "grid",
+        "svg": "games/lattaque/diagrams/svg/dover-patrol-board.svg",
+        "rulesUrl": "dist/lattaque/variants/dover-patrol/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "lattaque",
+        "familyTitle": "L'Attaque",
+        "variant": "standard",
+        "variantTitle": "L'Attaque (Standard)",
+        "topology": "grid",
+        "svg": "games/lattaque/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/lattaque/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "lattaque",
+        "familyTitle": "L'Attaque",
+        "variant": "tri-tactics",
+        "variantTitle": "Tri-Tactics",
+        "topology": "grid",
+        "svg": "games/lattaque/diagrams/svg/tri-tactics-board.svg",
+        "rulesUrl": "dist/lattaque/variants/tri-tactics/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 4,
+    "playable": 0,
+    "withDiagram": 4,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

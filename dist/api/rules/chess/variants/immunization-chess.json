@@ -1,0 +1,35 @@
+{
+  "slug": "immunization-chess",
+  "parent": "chess",
+  "title": "Immunization Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "When a capture occurs, adjacent enemy pieces become immune to capture for 2 turns.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/immunization-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/immunization-chess.md",
+    "meta": "/api/rules/chess/variants/immunization-chess.json",
+    "page": "/chess/variants/immunization-chess/"
+  }
+}

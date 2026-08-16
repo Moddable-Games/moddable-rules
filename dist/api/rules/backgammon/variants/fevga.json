@@ -1,0 +1,34 @@
+{
+  "slug": "fevga",
+  "parent": "backgammon",
+  "title": "Fevga",
+  "players": "2",
+  "board": "24-point board",
+  "win": "Bear off all 15 pieces before your opponent",
+  "special": "No blots allowed: a point with one of your pieces is immediately blocked to the opponent. No hitting.",
+  "playable": false,
+  "order": 5,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 24
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "0:15B,12:15W"
+  },
+  "diagram": {
+    "svg": "games/backgammon/diagrams/svg/fevga-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/backgammon/variants/fevga.md",
+    "meta": "/api/rules/backgammon/variants/fevga.json",
+    "page": "/backgammon/variants/fevga/"
+  }
+}

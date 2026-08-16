@@ -1,0 +1,470 @@
+{
+  "slug": "mancala",
+  "title": "Mancala",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "abstract-strategy",
+    "pit",
+    "sowing",
+    "capture",
+    "counting"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "pit",
+      "rows": 2,
+      "cols": 6,
+      "stores": true
+    },
+    "surface": {
+      "colors": {
+        "board-outer": "#7A5A32",
+        "board-inner": "#9B7740",
+        "pit": "#4E3320",
+        "pit-stroke": "#3A2515",
+        "seed": "#C8B898",
+        "seed-stroke": "#8A7A5A",
+        "marker": "#C49040"
+      }
+    },
+    "render": {
+      "cellSize": 22,
+      "labels": false
+    },
+    "pieces": {
+      "set": "playstrategy-oware"
+    },
+    "players": [
+      "south",
+      "north"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "kalah",
+      "parent": "mancala",
+      "title": "Kalah",
+      "players": "2",
+      "board": "2×6 pits + 2 stores",
+      "win": "Capture more than 36 seeds (majority of 72)",
+      "special": "Landing in your own store grants a bonus turn. Opponent's store is skipped during sowing.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit"
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/kalah-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/kalah.md",
+        "meta": "/api/rules/mancala/variants/kalah.json",
+        "page": "/mancala/variants/kalah/"
+      }
+    },
+    {
+      "slug": "oware",
+      "parent": "mancala",
+      "title": "Oware",
+      "players": "2",
+      "board": "2×6 pits",
+      "win": "Capture more than 24 seeds",
+      "special": "Grand slam rule prevents a player from clearing all opponent seeds in a single turn.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "cols": 6,
+          "stores": false
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "render": {
+          "cellSize": 24
+        },
+        "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/oware-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/oware.md",
+        "meta": "/api/rules/mancala/variants/oware.json",
+        "page": "/mancala/variants/oware/"
+      }
+    },
+    {
+      "slug": "bao",
+      "parent": "mancala",
+      "title": "Bao",
+      "players": "2",
+      "board": "4×8 pits (2 rows per player)",
+      "win": "Reduce opponent to no seeds in their inner row, or leave them with no legal move",
+      "special": "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing.",
+      "playable": false,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "rows": 4,
+          "cols": 8,
+          "stores": false
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "render": {
+          "cellSize": 20
+        },
+        "setup": "0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2;0;2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/bao-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/bao.md",
+        "meta": "/api/rules/mancala/variants/bao.json",
+        "page": "/mancala/variants/bao/"
+      }
+    },
+    {
+      "slug": "congkak",
+      "parent": "mancala",
+      "title": "Congkak",
+      "players": "2",
+      "board": "2×7 pits + 2 houses",
+      "win": "Have more seeds in your house than the opponent at game end",
+      "special": "Sow into your own house but skip the opponent's house. Dead pits must be bought back.",
+      "playable": false,
+      "order": 4,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "cols": 7
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "render": {
+          "cellSize": 18,
+          "boardShape": "ellipse",
+          "storeSize": [
+            20,
+            38
+          ],
+          "pitCurve": 4
+        },
+        "setup": "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/congkak-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/congkak.md",
+        "meta": "/api/rules/mancala/variants/congkak.json",
+        "page": "/mancala/variants/congkak/"
+      }
+    },
+    {
+      "slug": "toguz-korgool",
+      "parent": "mancala",
+      "title": "Toguz Korgool",
+      "players": "2",
+      "board": "2×9 pits + 2 kazans",
+      "win": "Capture 82 or more seeds (majority of 162)",
+      "special": "The tuzduk rule: landing the 3rd seed in an opponent's odd-numbered pit locks it as your permanent scoring pit.",
+      "playable": false,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "cols": 9
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "render": {
+          "cellSize": 20
+        },
+        "setup": "9,9,9,9,9,9,9,9,9;0;9,9,9,9,9,9,9,9,9;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/toguz-korgool-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/toguz-korgool.md",
+        "meta": "/api/rules/mancala/variants/toguz-korgool.json",
+        "page": "/mancala/variants/toguz-korgool/"
+      }
+    },
+    {
+      "slug": "pallanguzhi",
+      "parent": "mancala",
+      "title": "Pallanguzhi",
+      "players": "2",
+      "board": "2×7 pits",
+      "win": "Capture all 168 seeds (opponent cannot fill pits to play)",
+      "special": "Multi-lap sowing: the last seed always triggers pickup of the next pit, creating long relay chains.",
+      "playable": false,
+      "order": 6,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "cols": 7,
+          "stores": false
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "render": {
+          "cellSize": 18
+        },
+        "setup": "12,12,12,12,12,12,12;0;12,12,12,12,12,12,12;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/pallanguzhi-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/pallanguzhi.md",
+        "meta": "/api/rules/mancala/variants/pallanguzhi.json",
+        "page": "/mancala/variants/pallanguzhi/"
+      }
+    },
+    {
+      "slug": "ayo",
+      "parent": "mancala",
+      "title": "Ayo",
+      "players": "2",
+      "board": "2×6 pits",
+      "win": "Capture more than 24 seeds",
+      "special": "Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition.",
+      "playable": false,
+      "order": 7,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "cols": 6,
+          "stores": false
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "render": {
+          "cellSize": 24
+        },
+        "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/ayo-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/ayo.md",
+        "meta": "/api/rules/mancala/variants/ayo.json",
+        "page": "/mancala/variants/ayo/"
+      }
+    },
+    {
+      "slug": "sungka",
+      "parent": "mancala",
+      "title": "Sungka",
+      "players": "2",
+      "board": "2×7 pits + 2 heads",
+      "win": "Have more seeds in your head at game end",
+      "special": "Simultaneous start; sow only into your own head, never the opponent's.",
+      "playable": false,
+      "order": 8,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "pit",
+          "cols": 7
+        },
+        "surface": {
+          "colors": {
+            "board-outer": "#A08050",
+            "board-inner": "#C4A060",
+            "pit": "#6B4C28",
+            "pit-stroke": "#4A3518",
+            "seed": "#F0E8D8",
+            "seed-stroke": "#C0B090"
+          }
+        },
+        "players": [
+          "south",
+          "north"
+        ],
+        "render": {
+          "cellSize": 18,
+          "boardShape": "ellipse",
+          "storeSize": [
+            20,
+            38
+          ],
+          "pitCurve": 4
+        },
+        "setup": "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
+      },
+      "diagram": {
+        "svg": "games/mancala/diagrams/svg/sungka-board.svg",
+        "topology": "pit",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/mancala/variants/sungka.md",
+        "meta": "/api/rules/mancala/variants/sungka.json",
+        "page": "/mancala/variants/sungka/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 8,
+    "rendered": 8,
+    "entries": [
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "ayo",
+        "variantTitle": "Ayo",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/ayo-board.svg",
+        "rulesUrl": "dist/mancala/variants/ayo/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "bao",
+        "variantTitle": "Bao",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/bao-board.svg",
+        "rulesUrl": "dist/mancala/variants/bao/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "congkak",
+        "variantTitle": "Congkak",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/congkak-board.svg",
+        "rulesUrl": "dist/mancala/variants/congkak/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "kalah",
+        "variantTitle": "Kalah",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/kalah-board.svg",
+        "rulesUrl": "dist/mancala/variants/kalah/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "oware",
+        "variantTitle": "Oware",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/oware-board.svg",
+        "rulesUrl": "dist/mancala/variants/oware/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "pallanguzhi",
+        "variantTitle": "Pallanguzhi",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/pallanguzhi-board.svg",
+        "rulesUrl": "dist/mancala/variants/pallanguzhi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "sungka",
+        "variantTitle": "Sungka",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/sungka-board.svg",
+        "rulesUrl": "dist/mancala/variants/sungka/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "mancala",
+        "familyTitle": "Mancala",
+        "variant": "toguz-korgool",
+        "variantTitle": "Toguz Korgool",
+        "topology": "pit",
+        "svg": "games/mancala/diagrams/svg/toguz-korgool-board.svg",
+        "rulesUrl": "dist/mancala/variants/toguz-korgool/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 8,
+    "playable": 0,
+    "withDiagram": 8,
+    "topologies": [
+      "pit"
+    ]
+  }
+}

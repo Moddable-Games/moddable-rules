@@ -1,0 +1,47 @@
+{
+  "slug": "toroidal-go",
+  "parent": "go",
+  "title": "Toroidal Go",
+  "players": "2",
+  "board": "11×11",
+  "win": "Most territory (area or territory scoring)",
+  "special": "Edges wrap horizontally and vertically. No corners, no edges, no joseki.",
+  "playable": true,
+  "order": 14,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 11,
+      "cols": 11,
+      "layout": "intersections"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": "",
+    "plugins": {
+      "go": {
+        "komi": 4.5,
+        "scoring": "territory",
+        "superko": true,
+        "suicideAllowed": false,
+        "topology": {
+          "wrap": "both"
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/go/diagrams/svg/toroidal-go-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/go/variants/toroidal-go.md",
+    "meta": "/api/rules/go/variants/toroidal-go.json",
+    "page": "/go/variants/toroidal-go/"
+  }
+}

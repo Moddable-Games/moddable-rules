@@ -1,0 +1,56 @@
+{
+  "slug": "almost-chess",
+  "parent": "chess",
+  "title": "Almost Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "White's Queen is replaced by a Chancellor (Rook + Knight compound).",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBCKBNR",
+    "vocabulary": {
+      "chancellor": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "chancellor": {
+            "type": "compose",
+            "parts": [
+              "rook",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/almost-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/almost-chess.md",
+    "meta": "/api/rules/chess/variants/almost-chess.json",
+    "page": "/chess/variants/almost-chess/"
+  }
+}

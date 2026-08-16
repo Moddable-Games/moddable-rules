@@ -1,0 +1,35 @@
+{
+  "slug": "recruitment-chess",
+  "parent": "chess",
+  "title": "Recruitment Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "Captured pieces defect to the captor and appear on the vacated square.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/recruitment-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/recruitment-chess.md",
+    "meta": "/api/rules/chess/variants/recruitment-chess.json",
+    "page": "/chess/variants/recruitment-chess/"
+  }
+}

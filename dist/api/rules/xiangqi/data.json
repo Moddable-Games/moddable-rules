@@ -1,0 +1,744 @@
+{
+  "slug": "xiangqi",
+  "title": "Xiangqi",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "grid-movement",
+    "capture",
+    "checkmate",
+    "palace-confinement",
+    "river-divide"
+  ],
+  "complexity": "complex",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 9,
+      "layout": "intersections"
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#f5deb3",
+        "stroke": "#4a3520"
+      }
+    },
+    "render": {
+      "cellSize": 36,
+      "cellColor": "uniform",
+      "labels": true,
+      "boardStyle": "xiangqi",
+      "river": true,
+      "palace": true,
+      "ops": [
+        {
+          "op": "cells",
+          "pattern": "uniform",
+          "fill": "#f5deb3",
+          "stroke": "#4a3520",
+          "interactive": true
+        },
+        {
+          "op": "grid-lines",
+          "color": "#4a3520",
+          "width": 2,
+          "grouped": false,
+          "split": {
+            "topRow": 4,
+            "bottomRow": 5
+          }
+        },
+        {
+          "op": "lines",
+          "derive": "palace-diagonals",
+          "regions": [
+            {
+              "rows": [
+                0,
+                2
+              ],
+              "cols": [
+                3,
+                5
+              ]
+            },
+            {
+              "rows": [
+                7,
+                9
+              ],
+              "cols": [
+                3,
+                5
+              ]
+            }
+          ],
+          "color": "#4a3520",
+          "width": 2
+        }
+      ],
+      "decorations": [
+        {
+          "type": "gap",
+          "rows": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "texts",
+          "items": [
+            {
+              "text": "楚 河",
+              "position": "river-left"
+            },
+            {
+              "text": "漢 界",
+              "position": "river-right"
+            }
+          ]
+        }
+      ]
+    },
+    "pieces": {
+      "set": "mce-xiangqi-trad",
+      "vocabulary": {
+        "R": "wR",
+        "r": "bR",
+        "H": "wN",
+        "h": "bN",
+        "E": "wE",
+        "e": "bE",
+        "A": "wA",
+        "a": "bA",
+        "K": "wK",
+        "k": "bK",
+        "C": "wC",
+        "c": "bC",
+        "P": "wP",
+        "p": "bP"
+      }
+    },
+    "players": [
+      "red",
+      "black"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "xiangqi",
+      "title": "Standard Xiangqi",
+      "players": "2",
+      "board": "9×10",
+      "win": "Checkmate the opponent's General",
+      "special": "Cannon captures by jumping a screen piece. Flying General rule. Stalemate is a loss.",
+      "playable": true,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "setup": "rheakaehr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR",
+        "plugins": {
+          "xiangqi": {
+            "hasRiver": true,
+            "flyingGeneralRule": true,
+            "cannonJumpToMove": false
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/standard.md",
+        "meta": "/api/rules/xiangqi/variants/standard.json",
+        "page": "/xiangqi/variants/standard/"
+      }
+    },
+    {
+      "slug": "san-kwo-ki",
+      "parent": "xiangqi",
+      "title": "San-kwo-k'i",
+      "players": 3,
+      "board": "Hexagonal trisection",
+      "win": "Last General surviving wins",
+      "special": "Three Kingdoms 3-player Xiangqi on a hexagonal trisected board. Eliminating a General captures that player's entire army.",
+      "playable": false,
+      "order": 9,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hexagonal-trisection"
+        },
+        "players": 3
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",
+        "topology": "hexagonal-trisection",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/san-kwo-ki.md",
+        "meta": "/api/rules/xiangqi/variants/san-kwo-ki.json",
+        "page": "/xiangqi/variants/san-kwo-ki/"
+      }
+    },
+    {
+      "slug": "janggi",
+      "parent": "xiangqi",
+      "title": "Janggi",
+      "players": "2",
+      "board": "9×10",
+      "win": "Checkmate the opponent's General",
+      "special": "Cannon must jump to both move and capture. No river. Bikjang draw rule. Passing always legal.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "setup": "rhea1aehr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RHEA1AEHR"
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/janggi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/janggi.md",
+        "meta": "/api/rules/xiangqi/variants/janggi.json",
+        "page": "/xiangqi/variants/janggi/"
+      }
+    },
+    {
+      "slug": "jieqi",
+      "parent": "xiangqi",
+      "title": "Jieqi",
+      "players": "2",
+      "board": "9×10",
+      "win": "Checkmate the General",
+      "special": "Xiangqi with hidden information: all pieces except the General start face-down and are revealed when they first move. A growing competitive variant in China and Vietnam. Also known as Dark Chess or Cờ Úhp.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "pieces": {
+          "set": "mce-xiangqi-fairy",
+          "vocabulary": {
+            "F": "wFD",
+            "f": "bFD",
+            "K": "wK",
+            "k": "bK"
+          }
+        },
+        "setup": "ffffkffff/9/1f5f1/f1f1f1f1f/9/9/F1F1F1F1F/1F5F1/9/FFFFKFFFF"
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/jieqi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/jieqi.md",
+        "meta": "/api/rules/xiangqi/variants/jieqi.json",
+        "page": "/xiangqi/variants/jieqi/"
+      }
+    },
+    {
+      "slug": "manchu-plus",
+      "parent": "xiangqi",
+      "title": "Manchu+",
+      "players": "2",
+      "board": "9×10",
+      "win": "Checkmate the General",
+      "special": "Asymmetric Xiangqi variant from the Qing Dynasty. The Manchu side loses its Horses, second Chariot, and both Cannons, gaining a single Banner piece that combines Chariot, Cannon, and Horse movement.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9
+        },
+        "pieces": {
+          "set": "mce-xiangqi-fairy",
+          "vocabulary": {
+            "Z": "wZ",
+            "z": "bZ"
+          }
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "setup": "r1eakae1z/9/p1p1p1p1p/9/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/manchu-plus-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/manchu-plus.md",
+        "meta": "/api/rules/xiangqi/variants/manchu-plus.json",
+        "page": "/xiangqi/variants/manchu-plus/"
+      }
+    },
+    {
+      "slug": "minixiangqi",
+      "parent": "xiangqi",
+      "title": "Minixiangqi",
+      "players": "2",
+      "board": "7×7",
+      "win": "Checkmate the General",
+      "special": "Xiangqi condensed to a 7×7 board. No river, no Advisors or Elephants. Soldiers can move sideways from the start. Invented by Shigenobu Kusumoto, Osaka, 1973.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 7,
+          "cols": 7
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "setup": "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR",
+        "render": {
+          "cellSize": 40,
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "uniform",
+              "fill": "#f5deb3",
+              "stroke": "#4a3520",
+              "interactive": true
+            },
+            {
+              "op": "grid-lines",
+              "color": "#4a3520",
+              "width": 2,
+              "grouped": false
+            },
+            {
+              "op": "lines",
+              "derive": "palace-diagonals",
+              "regions": [
+                {
+                  "rows": [
+                    0,
+                    2
+                  ],
+                  "cols": [
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "rows": [
+                    4,
+                    6
+                  ],
+                  "cols": [
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "color": "#4a3520",
+              "width": 2
+            }
+          ],
+          "decorations": []
+        },
+        "plugins": {
+          "xiangqi": {
+            "hasRiver": false,
+            "flyingGeneralRule": true,
+            "palace": {
+              "cols": [
+                2,
+                4
+              ],
+              "rows": [
+                [
+                  4,
+                  6
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/minixiangqi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/minixiangqi.md",
+        "meta": "/api/rules/xiangqi/variants/minixiangqi.json",
+        "page": "/xiangqi/variants/minixiangqi/"
+      }
+    },
+    {
+      "slug": "quang-trung",
+      "parent": "xiangqi",
+      "title": "Quang Trung Chess",
+      "players": 2,
+      "board": "10×10",
+      "win": "Checkmate the General, or advance a Pawn to the last rank where it cannot be immediately captured",
+      "special": "Vietnamese 10×10 variant with novel piece types. Pawns and General restricted to central files; advancing a Pawn to the last rank wins.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 10,
+          "layout": "cells"
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "setup": "rheaakaehr/10/1c6c1/p1p1pp1p1p/10/10/P1P1PP1P1P/1C6C1/10/RHEAAKAEHR",
+        "surface": {
+          "colors": {
+            "cell-light": "#f0d9b5",
+            "cell-dark": "#b58863"
+          }
+        },
+        "render": {
+          "cellSize": 30,
+          "cellColor": "checkered",
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "checkered",
+              "light": "#f0d9b5",
+              "dark": "#b58863",
+              "interactive": true
+            }
+          ],
+          "decorations": []
+        }
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/quang-trung-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/quang-trung.md",
+        "meta": "/api/rules/xiangqi/variants/quang-trung.json",
+        "page": "/xiangqi/variants/quang-trung/"
+      }
+    },
+    {
+      "slug": "xiangqi-42",
+      "parent": "xiangqi",
+      "title": "Xiangqi 42",
+      "players": 2,
+      "board": "7×6",
+      "win": "Checkmate the General (standard Xiangqi win conditions)",
+      "special": "Compact Xiangqi on a 7×6 grid (42 intersections). No river, no Elephants — fast tactical play on a minimal board.",
+      "playable": true,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 6,
+          "cols": 7
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "setup": "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR",
+        "render": {
+          "cellSize": 40,
+          "ops": [
+            {
+              "op": "cells",
+              "pattern": "uniform",
+              "fill": "#f5deb3",
+              "stroke": "#4a3520",
+              "interactive": true
+            },
+            {
+              "op": "grid-lines",
+              "color": "#4a3520",
+              "width": 2,
+              "grouped": false
+            },
+            {
+              "op": "lines",
+              "derive": "palace-diagonals",
+              "regions": [
+                {
+                  "rows": [
+                    0,
+                    2
+                  ],
+                  "cols": [
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "rows": [
+                    3,
+                    5
+                  ],
+                  "cols": [
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "color": "#4a3520",
+              "width": 2
+            }
+          ]
+        },
+        "plugins": {
+          "xiangqi": {
+            "hasRiver": false,
+            "flyingGeneralRule": true,
+            "palace": {
+              "cols": [
+                2,
+                4
+              ],
+              "rows": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/xiangqi-42-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/xiangqi-42.md",
+        "meta": "/api/rules/xiangqi/variants/xiangqi-42.json",
+        "page": "/xiangqi/variants/xiangqi-42/"
+      }
+    },
+    {
+      "slug": "yang-qi",
+      "parent": "xiangqi",
+      "title": "Yáng Qí",
+      "players": 2,
+      "board": "9×10",
+      "win": "Checkmate the opponent's King",
+      "special": "Western-influenced Xiangqi redesign with FIDE-style pieces plus Vaos (diagonal screen-capture). King may swap with adjacent pieces.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 10,
+          "cols": 9
+        },
+        "pieces": {
+          "set": "mce-xiangqi-fairy",
+          "vocabulary": {
+            "V": "wV",
+            "v": "bV"
+          }
+        },
+        "players": [
+          "red",
+          "black"
+        ],
+        "setup": "rhvakavhr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RHVAKAVHR"
+      },
+      "diagram": {
+        "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/xiangqi/variants/yang-qi.md",
+        "meta": "/api/rules/xiangqi/variants/yang-qi.json",
+        "page": "/xiangqi/variants/yang-qi/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 9,
+    "rendered": 9,
+    "entries": [
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "janggi",
+        "variantTitle": "Janggi",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/janggi-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/janggi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "jieqi",
+        "variantTitle": "Jieqi",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/jieqi-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/jieqi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "manchu-plus",
+        "variantTitle": "Manchu+",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/manchu-plus-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/manchu-plus/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "minixiangqi",
+        "variantTitle": "Minixiangqi",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/minixiangqi-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/minixiangqi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "quang-trung",
+        "variantTitle": "Quang Trung Chess",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/quang-trung-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/quang-trung/index.html",
+        "status": "rendered",
+        "players": 2
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "san-kwo-ki",
+        "variantTitle": "San-kwo-k'i",
+        "topology": "hexagonal-trisection",
+        "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/san-kwo-ki/index.html",
+        "status": "rendered",
+        "players": 3
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "standard",
+        "variantTitle": "Standard Xiangqi",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "xiangqi-42",
+        "variantTitle": "Xiangqi 42",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/xiangqi-42-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/xiangqi-42/index.html",
+        "status": "rendered",
+        "players": 2
+      },
+      {
+        "family": "xiangqi",
+        "familyTitle": "Xiangqi",
+        "variant": "yang-qi",
+        "variantTitle": "Yáng Qí",
+        "topology": "grid",
+        "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
+        "rulesUrl": "dist/xiangqi/variants/yang-qi/index.html",
+        "status": "rendered",
+        "players": 2
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 9,
+    "playable": 3,
+    "withDiagram": 9,
+    "topologies": [
+      "grid",
+      "hexagonal-trisection"
+    ]
+  }
+}

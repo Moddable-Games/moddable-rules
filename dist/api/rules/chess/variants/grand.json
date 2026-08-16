@@ -1,0 +1,85 @@
+{
+  "slug": "grand",
+  "parent": "chess",
+  "title": "Grand Chess",
+  "players": "2",
+  "board": "10×10",
+  "win": "Checkmate",
+  "special": "Marshal and Cardinal on a 10×10 board, pawns start on rank 3.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 34
+    },
+    "setup": "r8r/1nbqkmcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKMCBN1/R8R",
+    "promotionChoices": [
+      "queen",
+      "rook",
+      "bishop",
+      "knight",
+      "cardinal",
+      "marshal"
+    ],
+    "castling": false,
+    "pawnStartRow": {
+      "0": 7,
+      "1": 2
+    },
+    "vocabulary": {
+      "marshal": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      },
+      "cardinal": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "marshal": {
+            "type": "compose",
+            "parts": [
+              "rook",
+              "knight"
+            ]
+          },
+          "cardinal": {
+            "type": "compose",
+            "parts": [
+              "bishop",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/grand-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/grand.md",
+    "meta": "/api/rules/chess/variants/grand.json",
+    "page": "/chess/variants/grand/"
+  }
+}

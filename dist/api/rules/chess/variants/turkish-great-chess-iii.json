@@ -1,0 +1,95 @@
+{
+  "slug": "turkish-great-chess-iii",
+  "parent": "chess",
+  "title": "Turkish Great Chess III",
+  "players": "2",
+  "board": "12×12",
+  "win": "Checkmate",
+  "special": "Historical large chess variant played on a 12×12 board. One of four Ottoman/Indian large chess variants catalogued by John Gollon from H. J. R. Murray's A History of Chess. Expands the standard chess piece set with multiple piece types that move as Bishop (Fil, Dahja) and adds the Chariot (Ratha, moves as Rook) alongside two Rooks. The Wazir moves as a full Queen. No castling; no Pawn double step.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 12,
+      "cols": 12
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 26
+    },
+    "setup": "rndcewkecdnr/pppppppppppp/12/12/12/12/12/12/12/12/PPPPPPPPPPPP/RNDCEWKECDNR",
+    "castling": false,
+    "enPassant": false,
+    "doubleStep": false,
+    "promotionChoices": [
+      "wazir"
+    ],
+    "vocabulary": {
+      "wazir": {
+        "symbols": {
+          "0": "W",
+          "1": "w"
+        }
+      },
+      "fil": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      },
+      "dahja": {
+        "symbols": {
+          "0": "D",
+          "1": "d"
+        }
+      },
+      "ratha": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "wazir": {
+            "type": "compose",
+            "parts": [
+              "rook",
+              "bishop"
+            ]
+          },
+          "fil": {
+            "type": "rider",
+            "dirs": "diagonal"
+          },
+          "dahja": {
+            "type": "rider",
+            "dirs": "diagonal"
+          },
+          "ratha": {
+            "type": "rider",
+            "dirs": "orthogonal"
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/turkish-great-chess-iii-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/turkish-great-chess-iii.md",
+    "meta": "/api/rules/chess/variants/turkish-great-chess-iii.json",
+    "page": "/chess/variants/turkish-great-chess-iii/"
+  }
+}

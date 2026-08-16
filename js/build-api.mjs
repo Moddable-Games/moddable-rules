@@ -17,6 +17,15 @@ const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
 const catalogue = [];
 const index = { endpoints: [], generated: new Date().toISOString().split('T')[0] };
 
+const diagramsManifestPath = resolve(ROOT, 'diagrams-manifest.json');
+const diagramsManifest = existsSync(diagramsManifestPath)
+  ? JSON.parse(readFileSync(diagramsManifestPath, 'utf8'))
+  : [];
+
+function getDiagramForVariant(family, variant) {
+  return diagramsManifest.find(d => d.family === family && d.variant === variant) || null;
+}
+
 function stripFrontmatter(raw) {
   const { content } = matter(raw);
   return content.trim();
@@ -51,12 +60,16 @@ for (const slug of allSlugs) {
   // --- Variants ---
   const variantsDir = resolve(GAMES_DIR, slug, 'content/variants');
   const variants = [];
+  const variantDetails = [];
   if (existsSync(variantsDir)) {
     const vfiles = readdirSync(variantsDir).filter(f => f.endsWith('.md'));
     for (const vf of vfiles) {
       const vraw = readFileSync(resolve(variantsDir, vf), 'utf8');
       const { data: vmeta } = matter(vraw);
       const vslug = vmeta.slug || vf.replace('.md', '');
+
+      const diagram = getDiagramForVariant(slug, vslug);
+
       variants.push({
         slug: vslug,
         title: vmeta.title || vslug,
@@ -67,14 +80,42 @@ for (const slug of allSlugs) {
         order: vmeta.order || 99,
       });
 
+      const variantDetail = {
+        slug: vslug,
+        parent: slug,
+        title: vmeta.title || vslug,
+        players: vmeta.players || null,
+        board: vmeta.board || null,
+        win: vmeta.win || null,
+        special: vmeta.special || null,
+        playable: vmeta.playable || false,
+        order: vmeta.order || 99,
+        designer: vmeta.designer || null,
+        category: vmeta.category || null,
+        engine: vmeta.engine || null,
+        diagram: diagram ? {
+          svg: diagram.svg || null,
+          topology: diagram.topology || null,
+          status: diagram.status || null,
+        } : null,
+        urls: {
+          rules: `/api/rules/${slug}/variants/${vslug}.md`,
+          meta: `/api/rules/${slug}/variants/${vslug}.json`,
+          page: `/${slug}/variants/${vslug}/`,
+        },
+      };
+      variantDetails.push(variantDetail);
+
       const variantApiDir = resolve(gameApiDir, 'variants');
       mkdirSync(variantApiDir, { recursive: true });
       writeMd(resolve(variantApiDir, `${vslug}.md`), stripFrontmatter(vraw));
+      writeJson(resolve(variantApiDir, `${vslug}.json`), variantDetail);
     }
     variants.sort((a, b) => a.order - b.order);
+    variantDetails.sort((a, b) => (a.order || 99) - (b.order || 99));
 
     if (variants.length > 0) {
-      trackEndpoint(`/api/rules/${slug}/variants/`, `${gameTitle} variant markdown files (${variants.length})`, 'directory');
+      trackEndpoint(`/api/rules/${slug}/variants/`, `${gameTitle} variant files (${variants.length} md + json)`, 'directory');
     }
   }
 
@@ -241,6 +282,35 @@ for (const slug of allSlugs) {
   trackEndpoint(`/api/rules/${slug}/meta.json`, `${gameTitle} metadata`, 'json');
   trackEndpoint(`/api/rules/${slug}/rulebook.md`, `${gameTitle} hub rulebook`, 'markdown');
 
+  // --- Per-game data.json (enriched aggregate for engine/tools) ---
+  const familyDiagrams = diagramsManifest.filter(d => d.family === slug);
+  const gameData = {
+    slug,
+    title: gameTitle,
+    type: meta.type || null,
+    hub_type: meta.hub_type || null,
+    players: meta.players || null,
+    status: meta.status || null,
+    mechanics: meta.mechanics || [],
+    complexity: meta.complexity || null,
+    engine: meta.engine || null,
+    variants: variantDetails,
+    games: games.map(g => ({ slug: g.slug, title: g.title, players: g.players })),
+    diagrams: {
+      total: familyDiagrams.length,
+      rendered: familyDiagrams.filter(d => d.svg).length,
+      entries: familyDiagrams,
+    },
+    stats: {
+      variantCount: variantDetails.length,
+      playable: variantDetails.filter(v => v.playable).length,
+      withDiagram: familyDiagrams.filter(d => d.svg).length,
+      topologies: [...new Set(variantDetails.map(v => v.engine?.topology?.type).filter(Boolean))],
+    },
+  };
+  writeJson(resolve(gameApiDir, 'data.json'), gameData);
+  trackEndpoint(`/api/rules/${slug}/data.json`, `${gameTitle} enriched data (variants + diagrams + engine)`, 'json');
+
   catalogue.push(gameMeta);
 }
 
@@ -378,13 +448,72 @@ for (const slug of allSlugs) {
 writeJson(resolve(API_DIR, 'entities.json'), allEntities);
 trackEndpoint('/api/entities.json', `All RPG entities (${Object.keys(allEntities).length} games)`, 'json');
 
+// --- Aggregate: diagrams.json ---
+const diagramsApi = {
+  generated: new Date().toISOString().split('T')[0],
+  total: diagramsManifest.length,
+  rendered: diagramsManifest.filter(d => d.svg).length,
+  missing: diagramsManifest.filter(d => !d.svg).length,
+  families: [...new Set(diagramsManifest.map(d => d.family))].length,
+  topologies: {},
+  entries: diagramsManifest,
+};
+for (const d of diagramsManifest) {
+  const topo = d.topology || 'unknown';
+  diagramsApi.topologies[topo] = (diagramsApi.topologies[topo] || 0) + 1;
+}
+writeJson(resolve(API_DIR, 'diagrams.json'), diagramsApi);
+trackEndpoint('/api/diagrams.json', `Board diagram manifest (${diagramsApi.rendered} rendered)`, 'json');
+
+// --- Aggregate: data.json (global enriched data for all consumers) ---
+const globalData = {
+  generated: new Date().toISOString().split('T')[0],
+  families: {},
+  stats: {
+    totalFamilies: 0,
+    totalVariants: 0,
+    totalPlayable: 0,
+    totalDiagrams: diagramsApi.rendered,
+    topologies: diagramsApi.topologies,
+    byType: {},
+  },
+};
+for (const slug of allSlugs) {
+  const dataPath = resolve(API_DIR, 'rules', slug, 'data.json');
+  if (!existsSync(dataPath)) continue;
+  const gd = JSON.parse(readFileSync(dataPath, 'utf8'));
+  globalData.families[slug] = {
+    title: gd.title,
+    type: gd.type,
+    hub_type: gd.hub_type,
+    players: gd.players,
+    status: gd.status,
+    mechanics: gd.mechanics,
+    complexity: gd.complexity,
+    stats: gd.stats,
+    engine: gd.engine,
+  };
+  globalData.stats.totalFamilies++;
+  globalData.stats.totalVariants += gd.stats.variantCount;
+  globalData.stats.totalPlayable += gd.stats.playable;
+  const t = gd.type || 'unknown';
+  globalData.stats.byType[t] = (globalData.stats.byType[t] || 0) + 1;
+}
+writeJson(resolve(API_DIR, 'data.json'), globalData);
+trackEndpoint('/api/data.json', `Global enriched data (${globalData.stats.totalFamilies} families, ${globalData.stats.totalVariants} variants)`, 'json');
+
 // --- Aggregate: search-index.json (delegate to existing build-index logic) ---
-// The existing build-index.mjs writes dist/rules-index.json.
-// We symlink/copy it into /api/ for unified access.
+// The existing build-index.mjs writes dist/rules-index.json (full content) and rules-index-lite.json (200-char snippets).
+// We copy both into /api/ for unified access.
 const existingIndex = resolve(DIST_DIR, 'rules-index.json');
 if (existsSync(existingIndex)) {
   copyFileSync(existingIndex, resolve(API_DIR, 'search-index.json'));
-  trackEndpoint('/api/search-index.json', 'Full-text search index', 'json');
+  trackEndpoint('/api/search-index.json', 'Full-text search index (complete content)', 'json');
+}
+const existingLiteIndex = resolve(DIST_DIR, 'rules-index-lite.json');
+if (existsSync(existingLiteIndex)) {
+  copyFileSync(existingLiteIndex, resolve(API_DIR, 'search-index-lite.json'));
+  trackEndpoint('/api/search-index-lite.json', 'Lightweight search index (200-char snippets, for autocomplete)', 'json');
 }
 
 // --- Compute total entities for stats ---
@@ -458,18 +587,12 @@ function countFiles(dir, ext) {
   return count;
 }
 
-const diagramsManifestPath = resolve(ROOT, 'diagrams-manifest.json');
-let diagramStats = { total: 0, rendered: 0, missing: 0, families: 0 };
-if (existsSync(diagramsManifestPath)) {
-  const dm = JSON.parse(readFileSync(diagramsManifestPath, 'utf8'));
-  const rendered = dm.filter(e => e.svg);
-  diagramStats = {
-    total: dm.length,
-    rendered: rendered.length,
-    missing: dm.length - rendered.length,
-    families: new Set(dm.map(e => e.family)).size,
-  };
-}
+const diagramStats = {
+  total: diagramsManifest.length,
+  rendered: diagramsManifest.filter(e => e.svg).length,
+  missing: diagramsManifest.filter(e => !e.svg).length,
+  families: new Set(diagramsManifest.map(e => e.family)).size,
+};
 
 const totalHtmlPages = countFiles(DIST_DIR, '.html');
 
@@ -532,14 +655,19 @@ All structured data is available at predictable URLs under \`/api/\`:
 
 - Discovery index: https://rules.moddable.games/api/index.json
 - Game catalogue: https://rules.moddable.games/api/catalogue.json
+- Enriched data (all families): https://rules.moddable.games/api/data.json
+- Board diagrams: https://rules.moddable.games/api/diagrams.json
 - Oracle tables (${oracleCount}): https://rules.moddable.games/api/oracles.json
 - RPG entities (${entityCount.toLocaleString()}): https://rules.moddable.games/api/entities.json
 - Full-text search: https://rules.moddable.games/api/search-index.json
+- Lightweight search (autocomplete): https://rules.moddable.games/api/search-index-lite.json
 
 Per-game content follows the pattern:
 - Metadata: /api/rules/{slug}/meta.json
+- Enriched data: /api/rules/{slug}/data.json (variants + engine config + diagrams + stats)
 - Full rules: /api/rules/{slug}/rulebook.md
-- Variants: /api/rules/{slug}/variants/{variant}.md
+- Variant rules: /api/rules/{slug}/variants/{variant}.md
+- Variant metadata: /api/rules/{slug}/variants/{variant}.json (engine, topology, setup, playable)
 - Data files: /api/rules/{slug}/data/{file}.json
 - Oracle tables: /api/rules/{slug}/oracles.json
 

@@ -1,0 +1,47 @@
+{
+  "slug": "standard-2p",
+  "parent": "stern-halma",
+  "title": "Standard 2-Player Stern-Halma",
+  "players": "2",
+  "board": "6-pointed star (121 holes)",
+  "win": "Move all 10 pieces into the opposite arm",
+  "special": "Step or chain-hop in six directions. No capture. Jumped pieces remain.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "star",
+      "params": {
+        "armSize": 4,
+        "spacing": 24
+      }
+    },
+    "players": [
+      "red",
+      "blue",
+      "green",
+      "black",
+      "purple",
+      "brown"
+    ],
+    "setup": {
+      "arms": [
+        "N",
+        "S"
+      ]
+    }
+  },
+  "diagram": {
+    "svg": "games/stern-halma/diagrams/svg/standard-2p-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/stern-halma/variants/standard-2p.md",
+    "meta": "/api/rules/stern-halma/variants/standard-2p.json",
+    "page": "/stern-halma/variants/standard-2p/"
+  }
+}

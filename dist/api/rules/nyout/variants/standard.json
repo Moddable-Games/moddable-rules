@@ -1,0 +1,36 @@
+{
+  "slug": "standard",
+  "parent": "nyout",
+  "title": "Nyout (Standard)",
+  "players": "2",
+  "board": "perimeter cross",
+  "win": null,
+  "special": null,
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "graph",
+      "structure": "perimeter-cross"
+    },
+    "render": {
+      "cellSize": 20
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "diagram": {
+    "svg": "games/nyout/diagrams/svg/standard-board.svg",
+    "topology": "graph",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/nyout/variants/standard.md",
+    "meta": "/api/rules/nyout/variants/standard.json",
+    "page": "/nyout/variants/standard/"
+  }
+}

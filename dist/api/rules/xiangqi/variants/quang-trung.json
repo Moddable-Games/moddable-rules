@@ -1,0 +1,56 @@
+{
+  "slug": "quang-trung",
+  "parent": "xiangqi",
+  "title": "Quang Trung Chess",
+  "players": 2,
+  "board": "10×10",
+  "win": "Checkmate the General, or advance a Pawn to the last rank where it cannot be immediately captured",
+  "special": "Vietnamese 10×10 variant with novel piece types. Pawns and General restricted to central files; advancing a Pawn to the last rank wins.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 10,
+      "cols": 10,
+      "layout": "cells"
+    },
+    "players": [
+      "red",
+      "black"
+    ],
+    "setup": "rheaakaehr/10/1c6c1/p1p1pp1p1p/10/10/P1P1PP1P1P/1C6C1/10/RHEAAKAEHR",
+    "surface": {
+      "colors": {
+        "cell-light": "#f0d9b5",
+        "cell-dark": "#b58863"
+      }
+    },
+    "render": {
+      "cellSize": 30,
+      "cellColor": "checkered",
+      "ops": [
+        {
+          "op": "cells",
+          "pattern": "checkered",
+          "light": "#f0d9b5",
+          "dark": "#b58863",
+          "interactive": true
+        }
+      ],
+      "decorations": []
+    }
+  },
+  "diagram": {
+    "svg": "games/xiangqi/diagrams/svg/quang-trung-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/xiangqi/variants/quang-trung.md",
+    "meta": "/api/rules/xiangqi/variants/quang-trung.json",
+    "page": "/xiangqi/variants/quang-trung/"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "wa-shogi",
+  "parent": "shogi",
+  "title": "Wa Shogi",
+  "players": "2",
+  "board": "11×11",
+  "win": "Capture the opponent's Crane King",
+  "special": "Played on an 11×11 board with 23 pieces of 14 different types per side. All non-Pawn pieces are unique. Played historically without drops; modern play often adds drops. Promotion zone is the last 3 ranks; each piece has a fixed promoted form.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 11,
+      "cols": 11
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "[lh][cm][so][fc][vs][ck][vw][fg][sc][bd][oc]/1[ce]3[sw]3[ff]1/[sp][sp][sp][rr][sp][sp][sp][tf][sp][sp][sp]/3[sp]3[sp]3/11/11/11/3[SP]3[SP]3/[SP][SP][SP][TF][SP][SP][SP][RR][SP][SP][SP]/1[FF]3[SW]3[CE]1/[OC][BD][SC][FG][VW][CK][VS][FC][SO][CM][LH]",
+    "render": {
+      "cellSize": 30
+    },
+    "pieces": {
+      "set": "mce-shogi-fairy"
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/wa-shogi.md",
+    "meta": "/api/rules/shogi/variants/wa-shogi.json",
+    "page": "/shogi/variants/wa-shogi/"
+  }
+}

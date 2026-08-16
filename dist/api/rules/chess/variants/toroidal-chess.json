@@ -1,0 +1,39 @@
+{
+  "slug": "toroidal-chess",
+  "parent": "chess",
+  "title": "Gadsden's Toroidal Chess",
+  "players": "2",
+  "board": "8×8 torus",
+  "win": "Checkmate",
+  "special": "Chess on a torus — all four edges wrap. Moving off the right edge (h-file) reappears on the left (a-file); moving off rank 8 reappears on rank 1. Every square has exactly 8 neighbours; there are no edge squares and no corner squares. Uses a three-rank starting position per side with an extra set of pawns (32 pawns total). Invented around 1990 by Richard Gadsden and Phil Roberts as a variant of Cylindrical Chess.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8,
+      "wrap": "torus"
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "pppppppp/rnbqkbnr/pppppppp/8/8/PPPPPPPP/RNBQKBNR/PPPPPPPP",
+    "notation": "algebraic",
+    "castling": false,
+    "enPassant": false
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/toroidal-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/toroidal-chess.md",
+    "meta": "/api/rules/chess/variants/toroidal-chess.json",
+    "page": "/chess/variants/toroidal-chess/"
+  }
+}

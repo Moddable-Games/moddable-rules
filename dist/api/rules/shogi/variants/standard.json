@@ -1,0 +1,40 @@
+{
+  "slug": "standard",
+  "parent": "shogi",
+  "title": "Standard Shogi",
+  "players": "2",
+  "board": "9×9",
+  "win": "Checkmate the opponent's King",
+  "special": "Captured pieces become your own and can be dropped back onto the board",
+  "playable": true,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL",
+    "plugins": {
+      "shogi": {
+        "promotionZone": 3
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/standard-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/standard.md",
+    "meta": "/api/rules/shogi/variants/standard.json",
+    "page": "/shogi/variants/standard/"
+  }
+}

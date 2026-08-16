@@ -1,0 +1,40 @@
+{
+  "slug": "prosperity",
+  "parent": "landlords-game",
+  "title": "Prosperity",
+  "players": "2–4",
+  "board": "Circular 36-space track (dual-game board)",
+  "win": "First player to accumulate $3,000 in cash",
+  "special": "Magie's 1932 patent. Chance cube on doubles, No Trespassing signs, Idle Land speculation, railroad jumps, improvement tags. A complete standalone game, not a variant of 1906.",
+  "playable": false,
+  "order": 4,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 36
+    },
+    "players": [
+      "player1",
+      "player2",
+      "player3",
+      "player4"
+    ],
+    "setup": "",
+    "content": {
+      "source": "landlords-game-boards.json",
+      "board": "1932-prosperity"
+    }
+  },
+  "diagram": {
+    "svg": "games/landlords-game/diagrams/svg/prosperity-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/landlords-game/variants/prosperity.md",
+    "meta": "/api/rules/landlords-game/variants/prosperity.json",
+    "page": "/landlords-game/variants/prosperity/"
+  }
+}

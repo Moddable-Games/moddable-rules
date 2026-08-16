@@ -1,0 +1,466 @@
+{
+  "slug": "hex",
+  "title": "Hex",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "abstract-strategy",
+    "hex",
+    "placement",
+    "connection"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "rhombus",
+      "orientation": "pointy"
+    },
+    "render": {
+      "cellSize": 20,
+      "cellColor": "uniform",
+      "frame": "rhombus",
+      "labels": false
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#e8e8e8",
+        "cell-dark": "#c0c0c0",
+        "cell-mid": "#d8d8d8",
+        "stroke": "rgba(0,0,0,0.3)",
+        "background": "#f5f5f5",
+        "border": "#6b4226"
+      }
+    },
+    "pieces": {
+      "set": "playstrategy-go-classic",
+      "vocabulary": {
+        "b": "bS",
+        "w": "wS"
+      }
+    },
+    "players": [
+      "black",
+      "white"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "hex",
+      "title": "Hex (11×11)",
+      "players": "2",
+      "board": "11×11 rhombus",
+      "win": "Connect opposite edges",
+      "special": "Standard tournament size. 121 cells. First player advantage offset by swap rule.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "rhombus",
+          "rows": 11,
+          "cols": 11
+        },
+        "render": {
+          "cellSize": 20
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/standard-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/standard.md",
+        "meta": "/api/rules/hex/variants/standard.json",
+        "page": "/hex/variants/standard/"
+      }
+    },
+    {
+      "slug": "9x9",
+      "parent": "hex",
+      "title": "Hex (9×9)",
+      "players": "2",
+      "board": "9×9 rhombus",
+      "win": "Connect opposite edges",
+      "special": "Compact board. 81 cells. Quick tactical games.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "rhombus",
+          "rows": 9,
+          "cols": 9
+        },
+        "render": {
+          "cellSize": 24
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/9x9-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/9x9.md",
+        "meta": "/api/rules/hex/variants/9x9.json",
+        "page": "/hex/variants/9x9/"
+      }
+    },
+    {
+      "slug": "13x13",
+      "parent": "hex",
+      "title": "Hex (13×13)",
+      "players": "2",
+      "board": "13×13 rhombus",
+      "win": "Connect opposite edges",
+      "special": "Large board. 169 cells. Deep strategic play.",
+      "playable": false,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "rhombus",
+          "rows": 13,
+          "cols": 13
+        },
+        "render": {
+          "cellSize": 17
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/13x13-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/13x13.md",
+        "meta": "/api/rules/hex/variants/13x13.json",
+        "page": "/hex/variants/13x13/"
+      }
+    },
+    {
+      "slug": "14x14",
+      "parent": "hex",
+      "title": "Hex (14×14)",
+      "players": "2",
+      "board": "14×14 rhombus",
+      "win": "Connect opposite edges",
+      "special": "196 cells. Used in some tournament formats.",
+      "playable": false,
+      "order": 4,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "rhombus",
+          "rows": 14,
+          "cols": 14
+        },
+        "render": {
+          "cellSize": 16
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/14x14-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/14x14.md",
+        "meta": "/api/rules/hex/variants/14x14.json",
+        "page": "/hex/variants/14x14/"
+      }
+    },
+    {
+      "slug": "19x19",
+      "parent": "hex",
+      "title": "Hex (19×19)",
+      "players": "2",
+      "board": "19×19 rhombus",
+      "win": "Connect opposite edges",
+      "special": "Maximum standard size. 361 cells. Marathon-length games.",
+      "playable": false,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "rhombus",
+          "rows": 19,
+          "cols": 19
+        },
+        "render": {
+          "cellSize": 12
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/19x19-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/19x19.md",
+        "meta": "/api/rules/hex/variants/19x19.json",
+        "page": "/hex/variants/19x19/"
+      }
+    },
+    {
+      "slug": "y-game",
+      "parent": "hex",
+      "title": "Y",
+      "players": "2",
+      "board": "triangular hex",
+      "win": "Connect all 3 edges",
+      "special": "Triangular board. Win by connecting all three sides with a single chain. Generalises Hex to 3-edge connection.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "triangular",
+          "sideLength": 12
+        },
+        "render": {
+          "cellSize": 18,
+          "frame": "triangle"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/y-game-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/y-game.md",
+        "meta": "/api/rules/hex/variants/y-game.json",
+        "page": "/hex/variants/y-game/"
+      }
+    },
+    {
+      "slug": "y-large",
+      "parent": "hex",
+      "title": "Y (Large — 15)",
+      "players": "2",
+      "board": "triangular hex (side 15)",
+      "win": "Connect all 3 edges",
+      "special": "Large Y board. Deep strategic play.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "triangular",
+          "sideLength": 15
+        },
+        "render": {
+          "cellSize": 14,
+          "frame": "triangle"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/y-large-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/y-large.md",
+        "meta": "/api/rules/hex/variants/y-large.json",
+        "page": "/hex/variants/y-large/"
+      }
+    },
+    {
+      "slug": "y-small",
+      "parent": "hex",
+      "title": "Y (Small — 9)",
+      "players": "2",
+      "board": "triangular hex (side 9)",
+      "win": "Connect all 3 edges",
+      "special": "Compact Y board. Quick games.",
+      "playable": false,
+      "order": 99,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "hex",
+          "shape": "triangular",
+          "sideLength": 9
+        },
+        "render": {
+          "cellSize": 22,
+          "frame": "triangle"
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": ""
+      },
+      "diagram": {
+        "svg": "games/hex/diagrams/svg/y-small-board.svg",
+        "topology": "hex",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/hex/variants/y-small.md",
+        "meta": "/api/rules/hex/variants/y-small.json",
+        "page": "/hex/variants/y-small/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 8,
+    "rendered": 8,
+    "entries": [
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "13x13",
+        "variantTitle": "Hex (13×13)",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/13x13-board.svg",
+        "rulesUrl": "dist/hex/variants/13x13/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "14x14",
+        "variantTitle": "Hex (14×14)",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/14x14-board.svg",
+        "rulesUrl": "dist/hex/variants/14x14/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "19x19",
+        "variantTitle": "Hex (19×19)",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/19x19-board.svg",
+        "rulesUrl": "dist/hex/variants/19x19/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "9x9",
+        "variantTitle": "Hex (9×9)",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/9x9-board.svg",
+        "rulesUrl": "dist/hex/variants/9x9/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "standard",
+        "variantTitle": "Hex (11×11)",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/hex/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "y-game",
+        "variantTitle": "Y",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/y-game-board.svg",
+        "rulesUrl": "dist/hex/variants/y-game/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "y-large",
+        "variantTitle": "Y (Large — 15)",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/y-large-board.svg",
+        "rulesUrl": "dist/hex/variants/y-large/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "hex",
+        "familyTitle": "Hex",
+        "variant": "y-small",
+        "variantTitle": "Y (Small — 9)",
+        "topology": "hex",
+        "svg": "games/hex/diagrams/svg/y-small-board.svg",
+        "rulesUrl": "dist/hex/variants/y-small/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 8,
+    "playable": 0,
+    "withDiagram": 8,
+    "topologies": [
+      "hex"
+    ]
+  }
+}

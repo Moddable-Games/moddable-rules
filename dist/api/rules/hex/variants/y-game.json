@@ -1,0 +1,39 @@
+{
+  "slug": "y-game",
+  "parent": "hex",
+  "title": "Y",
+  "players": "2",
+  "board": "triangular hex",
+  "win": "Connect all 3 edges",
+  "special": "Triangular board. Win by connecting all three sides with a single chain. Generalises Hex to 3-edge connection.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "hex",
+      "shape": "triangular",
+      "sideLength": 12
+    },
+    "render": {
+      "cellSize": 18,
+      "frame": "triangle"
+    },
+    "players": [
+      "black",
+      "white"
+    ],
+    "setup": ""
+  },
+  "diagram": {
+    "svg": "games/hex/diagrams/svg/y-game-board.svg",
+    "topology": "hex",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/hex/variants/y-game.md",
+    "meta": "/api/rules/hex/variants/y-game.json",
+    "page": "/hex/variants/y-game/"
+  }
+}

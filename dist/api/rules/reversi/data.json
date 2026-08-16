@@ -1,0 +1,236 @@
+{
+  "slug": "reversi",
+  "title": "Reversi",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "placement",
+    "flipping",
+    "territory",
+    "blocking"
+  ],
+  "complexity": "simple",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "surface": "felt-green",
+    "render": {
+      "cellSize": 40,
+      "cellColor": "uniform",
+      "labels": true,
+      "ops": [
+        {
+          "op": "rect",
+          "fill": "#2e7d32",
+          "scope": "board"
+        },
+        {
+          "op": "grid-lines",
+          "grouped": false,
+          "order": "vh",
+          "color": "#1b5e20",
+          "width": 1.5
+        },
+        {
+          "op": "hit-targets",
+          "shape": "rect"
+        }
+      ]
+    },
+    "pieces": {
+      "set": "playstrategy-flipello-classic",
+      "vocabulary": {
+        "b": "bP",
+        "w": "wP"
+      }
+    },
+    "players": [
+      "black",
+      "white"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "reversi",
+      "title": "Standard Reversi",
+      "players": "2",
+      "board": "8×8",
+      "win": "Most discs on the board when no moves remain",
+      "special": "The original 8×8 game as played in international competition since 1977.",
+      "playable": true,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "8/8/8/3bw3/3wb3/8/8/8",
+        "plugins": {
+          "reversi": {
+            "directions": "all",
+            "mustFlip": true,
+            "winBy": "most",
+            "passWhenNoMoves": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/reversi/diagrams/svg/standard-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/reversi/variants/standard.md",
+        "meta": "/api/rules/reversi/variants/standard.json",
+        "page": "/reversi/variants/standard/"
+      }
+    },
+    {
+      "slug": "six-by-six",
+      "parent": "reversi",
+      "title": "Six-by-Six Reversi",
+      "players": "2",
+      "board": "6×6",
+      "win": "Most discs on the board when no moves remain",
+      "special": "Smaller board for shorter games or competitive solving. Identical rules to standard Reversi.",
+      "playable": true,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 6,
+          "cols": 6
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "6/6/2bw2/2wb2/6/6",
+        "plugins": {
+          "reversi": {
+            "directions": "all",
+            "mustFlip": true,
+            "winBy": "most",
+            "passWhenNoMoves": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/reversi/diagrams/svg/six-by-six-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/reversi/variants/six-by-six.md",
+        "meta": "/api/rules/reversi/variants/six-by-six.json",
+        "page": "/reversi/variants/six-by-six/"
+      }
+    },
+    {
+      "slug": "anti-reversi",
+      "parent": "reversi",
+      "title": "Anti-Reversi",
+      "players": "2",
+      "board": "8×8",
+      "win": "Fewest discs on the board when no moves remain",
+      "special": "Misère variant. Win condition inverted — giving up discs is the goal. Draw is possible.",
+      "playable": true,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 8,
+          "cols": 8
+        },
+        "players": [
+          "black",
+          "white"
+        ],
+        "setup": "8/8/8/3bw3/3wb3/8/8/8",
+        "plugins": {
+          "reversi": {
+            "directions": "all",
+            "mustFlip": true,
+            "winBy": "fewest",
+            "passWhenNoMoves": true
+          }
+        }
+      },
+      "diagram": {
+        "svg": "games/reversi/diagrams/svg/anti-reversi-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/reversi/variants/anti-reversi.md",
+        "meta": "/api/rules/reversi/variants/anti-reversi.json",
+        "page": "/reversi/variants/anti-reversi/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 3,
+    "rendered": 3,
+    "entries": [
+      {
+        "family": "reversi",
+        "familyTitle": "Reversi",
+        "variant": "anti-reversi",
+        "variantTitle": "Anti-Reversi",
+        "topology": "grid",
+        "svg": "games/reversi/diagrams/svg/anti-reversi-board.svg",
+        "rulesUrl": "dist/reversi/variants/anti-reversi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "reversi",
+        "familyTitle": "Reversi",
+        "variant": "six-by-six",
+        "variantTitle": "Six-by-Six Reversi",
+        "topology": "grid",
+        "svg": "games/reversi/diagrams/svg/six-by-six-board.svg",
+        "rulesUrl": "dist/reversi/variants/six-by-six/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "reversi",
+        "familyTitle": "Reversi",
+        "variant": "standard",
+        "variantTitle": "Standard Reversi",
+        "topology": "grid",
+        "svg": "games/reversi/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/reversi/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 3,
+    "playable": 3,
+    "withDiagram": 3,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "seven-shell",
+  "parent": "pachisi",
+  "title": "Seven-Shell Pachisi",
+  "players": "2–4",
+  "board": "Cross-shaped cloth board",
+  "win": "Move all pieces home before your opponents",
+  "special": "Uses seven cowrie shells with named throw values. Higher potential scores than the standard six-shell form.",
+  "playable": false,
+  "order": 3,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 19,
+      "cols": 19
+    },
+    "players": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "setup": "home:4Y,home:4G,home:4R,home:4B"
+  },
+  "diagram": {
+    "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/pachisi/variants/seven-shell.md",
+    "meta": "/api/rules/pachisi/variants/seven-shell.json",
+    "page": "/pachisi/variants/seven-shell/"
+  }
+}

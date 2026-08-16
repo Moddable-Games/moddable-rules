@@ -1,0 +1,35 @@
+{
+  "slug": "mortal-shogi",
+  "parent": "shogi",
+  "title": "Mortal Shogi",
+  "players": "2",
+  "board": "9×9",
+  "win": "Checkmate the King",
+  "special": "Modern 9×9 Shogi variant by Roberto Lavieri and Fergus Duniho. Captured pieces demote one step in a fixed ranking chain (Dragon King → Dragon Horse → Rook → Bishop → Gold General → Silver General → Lance → Knight → removed) rather than returning to their original form. Promotes of sub-Gold pieces are flexible: any higher piece up to Gold General.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 9,
+      "cols": 9
+    },
+    "players": [
+      "sente",
+      "gote"
+    ],
+    "setup": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL"
+  },
+  "diagram": {
+    "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/shogi/variants/mortal-shogi.md",
+    "meta": "/api/rules/shogi/variants/mortal-shogi.json",
+    "page": "/shogi/variants/mortal-shogi/"
+  }
+}

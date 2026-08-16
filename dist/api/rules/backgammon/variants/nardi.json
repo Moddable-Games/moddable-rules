@@ -1,0 +1,34 @@
+{
+  "slug": "nardi",
+  "parent": "backgammon",
+  "title": "Nardi",
+  "players": "2",
+  "board": "24-point board",
+  "win": "Bear off all 15 pieces before your opponent",
+  "special": "No hitting. Both players move in the same direction. No doubling cube.",
+  "playable": false,
+  "order": 2,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "track",
+      "positions": 24
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "0:15W,23:15B"
+  },
+  "diagram": {
+    "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
+    "topology": "track",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/backgammon/variants/nardi.md",
+    "meta": "/api/rules/backgammon/variants/nardi.json",
+    "page": "/backgammon/variants/nardi/"
+  }
+}

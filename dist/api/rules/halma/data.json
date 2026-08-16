@@ -1,0 +1,162 @@
+{
+  "slug": "halma",
+  "title": "Halma",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2–4",
+  "status": "live",
+  "mechanics": [
+    "abstract-strategy",
+    "race",
+    "movement",
+    "grid"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 16,
+      "cols": 16
+    },
+    "surface": {
+      "colors": {
+        "cell-light": "#f5e6c8",
+        "cell-dark": "#e8d4a8"
+      }
+    },
+    "render": {
+      "cellSize": 20,
+      "cellColor": "checkered",
+      "labels": false,
+      "ops": [
+        {
+          "op": "cells",
+          "pattern": "checkered",
+          "light": "#f5e6c8",
+          "dark": "#e8d4a8",
+          "interactive": true
+        }
+      ]
+    },
+    "pieces": {
+      "set": "playstrategy-draughts-plain",
+      "vocabulary": {
+        "b": "bM",
+        "w": "wM"
+      }
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard-2p",
+      "parent": "halma",
+      "title": "Standard 2-Player Halma",
+      "players": "2",
+      "board": "16×16",
+      "win": "Move all your pieces into the opponent's corner camp",
+      "special": "Pieces may step or chain-hop in any direction. No capture. Once in the opponent's camp, pieces cannot leave.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 16,
+          "cols": 16
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "bbbbb11/bbbbb11/bbbbb11/bbb13/b15/16/16/16/16/16/16/15w/13www/11wwwww/11wwwww/11wwwww"
+      },
+      "diagram": {
+        "svg": "games/halma/diagrams/svg/standard-2p-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/halma/variants/standard-2p.md",
+        "meta": "/api/rules/halma/variants/standard-2p.json",
+        "page": "/halma/variants/standard-2p/"
+      }
+    },
+    {
+      "slug": "standard-4p",
+      "parent": "halma",
+      "title": "Standard 4-Player Halma",
+      "players": "4",
+      "board": "16×16",
+      "win": "Move all your pieces into the diagonally opposite corner camp",
+      "special": "Four players with 13 pieces each. Optional 2v2 team play with diagonal partners.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "grid",
+          "rows": 16,
+          "cols": 16
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "bbbb8bbbb/bbbb8bbbb/bbb10bbb/bb12bb/16/16/16/16/16/16/16/16/ww12ww/www10www/wwww8wwww/wwww8wwww"
+      },
+      "diagram": {
+        "svg": "games/halma/diagrams/svg/standard-4p-board.svg",
+        "topology": "grid",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/halma/variants/standard-4p.md",
+        "meta": "/api/rules/halma/variants/standard-4p.json",
+        "page": "/halma/variants/standard-4p/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 2,
+    "entries": [
+      {
+        "family": "halma",
+        "familyTitle": "Halma",
+        "variant": "standard-2p",
+        "variantTitle": "Standard 2-Player Halma",
+        "topology": "grid",
+        "svg": "games/halma/diagrams/svg/standard-2p-board.svg",
+        "rulesUrl": "dist/halma/variants/standard-2p/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "halma",
+        "familyTitle": "Halma",
+        "variant": "standard-4p",
+        "variantTitle": "Standard 4-Player Halma",
+        "topology": "grid",
+        "svg": "games/halma/diagrams/svg/standard-4p-board.svg",
+        "rulesUrl": "dist/halma/variants/standard-4p/index.html",
+        "status": "rendered",
+        "players": "4"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 2,
+    "playable": 0,
+    "withDiagram": 2,
+    "topologies": [
+      "grid"
+    ]
+  }
+}

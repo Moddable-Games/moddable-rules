@@ -1,0 +1,48 @@
+{
+  "slug": "alice",
+  "parent": "chess",
+  "title": "Alice Chess",
+  "players": "2",
+  "board": "Two 8×8 boards (Board A and Board B)",
+  "win": "Checkmate",
+  "special": "After every move, the moving piece transfers to the corresponding square on the other board. A move is only legal if the transfer square is vacant. Invented V. R. Parton, 1953.",
+  "playable": false,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8,
+      "layers": 2,
+      "layer_labels": [
+        "Board A",
+        "Board B"
+      ],
+      "physical_representation": "one-board"
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 34
+    },
+    "setup": [
+      "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+      "8/8/8/8/8/8/8/8"
+    ],
+    "notation": "alice-algebraic"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/alice-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/alice.md",
+    "meta": "/api/rules/chess/variants/alice.json",
+    "page": "/chess/variants/alice/"
+  }
+}

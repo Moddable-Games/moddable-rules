@@ -1,0 +1,48 @@
+{
+  "slug": "czech",
+  "parent": "draughts",
+  "title": "Czech Draughts",
+  "players": "2",
+  "board": "8×8",
+  "win": "Capture or block all opponent pieces",
+  "special": "King captures take priority over man captures. Mid-jump promotion. No majority rule for men.",
+  "playable": true,
+  "order": 13,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1",
+    "plugins": {
+      "draughts": {
+        "piecesPerPlayer": 12,
+        "directions": "diagonal",
+        "manCapture": "forward",
+        "manMove": "forward",
+        "forcedCapture": true,
+        "maximalCapture": false,
+        "kingCapturePriority": true,
+        "flyingKings": true,
+        "promotionDuring": true
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/draughts/diagrams/svg/czech-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/draughts/variants/czech.md",
+    "meta": "/api/rules/draughts/variants/czech.json",
+    "page": "/draughts/variants/czech/"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "knightmate",
+  "parent": "chess",
+  "title": "Knightmate",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate the royal Knight",
+  "special": "Knight and King swap roles. The Knight is royal; Kings move as knights.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rkbqnbkr/pppppppp/8/8/8/8/PPPPPPPP/RKBQNBKR",
+    "royalType": "knight",
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "king": {
+            "type": "leaper",
+            "offsets": "knight"
+          },
+          "knight": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1,
+            "royal": true
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/knightmate-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/knightmate.md",
+    "meta": "/api/rules/chess/variants/knightmate.json",
+    "page": "/chess/variants/knightmate/"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "grasshopper",
+  "parent": "chess",
+  "title": "Standard Grasshopper Chess",
+  "players": "2",
+  "board": "8x8",
+  "win": "Checkmate the opponent's king",
+  "special": "Each queen is replaced by a Grasshopper — a piece that must hop over a hurdle to move.",
+  "playable": true,
+  "order": 1,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "setup": "rnbgkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBGKBNR",
+    "vocabulary": {
+      "grasshopper": {
+        "symbols": {
+          "0": "G",
+          "1": "g"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "grasshopper": {
+            "type": "hopper",
+            "dirs": "all"
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/grasshopper-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/grasshopper.md",
+    "meta": "/api/rules/chess/variants/grasshopper.json",
+    "page": "/chess/variants/grasshopper/"
+  }
+}

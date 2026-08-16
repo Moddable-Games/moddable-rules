@@ -1,0 +1,57 @@
+{
+  "slug": "maharaja",
+  "parent": "chess",
+  "title": "Maharaja & Sepoys",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "One player has a full army. The other has one piece that moves as queen + knight.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/8/4M3",
+    "castling": false,
+    "vocabulary": {
+      "amazon": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "amazon": {
+            "type": "compose",
+            "parts": [
+              "queen",
+              "knight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/maharaja-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/maharaja.md",
+    "meta": "/api/rules/chess/variants/maharaja.json",
+    "page": "/chess/variants/maharaja/"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "ironsworn",
+  "title": "Ironsworn",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "1–4",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "narrative",
+    "exploration",
+    "combat",
+    "oracle",
+    "solo",
+    "cooperative"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "data/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "ironsworn",
+        "familyTitle": "Ironsworn",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/ironsworn/diagrams/svg/ironsworn-character-sheet-page-1.svg",
+        "rulesUrl": "dist/ironsworn/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "ironsworn",
+        "familyTitle": "Ironsworn",
+        "variant": "reference",
+        "variantTitle": "Ironsworn",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/ironsworn/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

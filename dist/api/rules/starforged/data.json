@@ -1,0 +1,63 @@
+{
+  "slug": "starforged",
+  "title": "Starforged",
+  "type": "rpg",
+  "hub_type": null,
+  "players": "1–4",
+  "status": "live",
+  "mechanics": [
+    "dice-rolling",
+    "narrative",
+    "oracle-tables",
+    "progress-tracks",
+    "momentum"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "none"
+    },
+    "content": {
+      "source": "data/",
+      "schema": {
+        "type": "category-list"
+      }
+    }
+  },
+  "variants": [],
+  "games": [],
+  "diagrams": {
+    "total": 2,
+    "rendered": 1,
+    "entries": [
+      {
+        "family": "starforged",
+        "familyTitle": "Starforged",
+        "variant": "character-sheet",
+        "variantTitle": "Character Sheet",
+        "topology": "rpg",
+        "svg": "games/starforged/diagrams/svg/starforged-character-sheet-page-1.svg",
+        "rulesUrl": "dist/starforged/rules/character-sheet/index.html",
+        "status": "rendered",
+        "reason": "rpg-chargen"
+      },
+      {
+        "family": "starforged",
+        "familyTitle": "Starforged",
+        "variant": "reference",
+        "variantTitle": "Starforged",
+        "topology": "rpg",
+        "svg": null,
+        "rulesUrl": "dist/starforged/index.html",
+        "status": "generator",
+        "reason": "rpg-provider"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 0,
+    "playable": 0,
+    "withDiagram": 1,
+    "topologies": []
+  }
+}

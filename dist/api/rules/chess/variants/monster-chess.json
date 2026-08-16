@@ -1,0 +1,40 @@
+{
+  "slug": "monster-chess",
+  "parent": "chess",
+  "title": "Monster Chess",
+  "players": "2",
+  "board": "8×8",
+  "win": "Checkmate",
+  "special": "White moves twice per turn but starts with only King, Rooks, and pawns.",
+  "playable": true,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 8,
+      "cols": 8
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R",
+    "plugins": {
+      "chess": {
+        "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R"
+      }
+    }
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/monster-chess-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/monster-chess.md",
+    "meta": "/api/rules/chess/variants/monster-chess.json",
+    "page": "/chess/variants/monster-chess/"
+  }
+}

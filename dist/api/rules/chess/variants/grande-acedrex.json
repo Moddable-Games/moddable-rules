@@ -1,0 +1,38 @@
+{
+  "slug": "grande-acedrex",
+  "parent": "chess",
+  "title": "Grande Acedrex",
+  "players": "2",
+  "board": "12×12",
+  "win": "Checkmate, bare the King, or stalemate",
+  "special": "Large medieval Spanish chess variant from the Libro de los Juegos (Alfonso X, c. 1283). 12×12 board with six unique piece types: Griffion, Unicorn, Lion, Giraffe, Crocodile, and Rook. Pawns start on rank 4; ranks 2–3 are empty. Unique promotion rule: pawn promotes to the piece type that started on that file.",
+  "playable": false,
+  "order": 99,
+  "designer": null,
+  "category": null,
+  "engine": {
+    "topology": {
+      "type": "grid",
+      "rows": 12,
+      "cols": 12
+    },
+    "players": [
+      "white",
+      "black"
+    ],
+    "render": {
+      "cellSize": 26
+    },
+    "setup": "rlugckfcgulr/12/12/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/12/12/RLUGCKFCGULR"
+  },
+  "diagram": {
+    "svg": "games/chess/diagrams/svg/grande-acedrex-board.svg",
+    "topology": "grid",
+    "status": "rendered"
+  },
+  "urls": {
+    "rules": "/api/rules/chess/variants/grande-acedrex.md",
+    "meta": "/api/rules/chess/variants/grande-acedrex.json",
+    "page": "/chess/variants/grande-acedrex/"
+  }
+}

@@ -11,6 +11,27 @@ const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
   .map(d => d.name)
   .filter(slug => existsSync(resolve(GAMES_DIR, slug, 'content/rulebook.md')));
 
+const SECTION_PATTERNS = [
+  { type: 'setup', patterns: /^(setup|starting position|starting setup|initial setup|deal|starting moves)$/i },
+  { type: 'board', patterns: /^(the board|board|board layout|playing field|components|equipment)$/i },
+  { type: 'pieces', patterns: /^(pieces|piece movement|pawns|the pieces|piece types)$/i },
+  { type: 'movement', patterns: /^(movement|moves|how to move|moving|turn structure|turns|turn order)$/i },
+  { type: 'capture', patterns: /^(capture|capturing|captures|taking|drops)$/i },
+  { type: 'winning', patterns: /^(winning|win condition|win conditions|victory|end of game|scoring|stalemate|draws|checkmate)$/i },
+  { type: 'special', patterns: /^(special rules|special|promotion|king promotion|castling|en passant|variants|optional rules)$/i },
+  { type: 'combat', patterns: /^(combat|attack|damage|hit points|armor|weapons)$/i },
+  { type: 'strategy', patterns: /^(strategy|strategy notes|tactics|tips)$/i },
+  { type: 'overview', patterns: /^(overview|introduction|about|history|rules|summary)$/i },
+  { type: 'attribution', patterns: /^(attribution|credits|references|sources|bibliography)$/i },
+];
+
+function classifySection(heading) {
+  for (const { type, patterns } of SECTION_PATTERNS) {
+    if (patterns.test(heading)) return type;
+  }
+  return 'general';
+}
+
 const index = [];
 
 for (const slug of allSlugs) {
@@ -47,8 +68,7 @@ for (const slug of allSlugs) {
       .trim();
     const tableText = tableRows.join('\n');
     const raw = textRaw + (tableText ? '\n' + tableText : '');
-    const snippet = raw.slice(0, 1000);
-    if (!snippet) return;
+    if (!raw) return;
 
     const anchor = currentHeading
       .toLowerCase()
@@ -58,9 +78,11 @@ for (const slug of allSlugs) {
     index.push({
       game: slug,
       gameTitle,
+      type: 'section',
+      sectionType: classifySection(currentHeading),
       section: currentSection || currentHeading,
       heading: currentHeading,
-      content: snippet,
+      content: raw,
       anchor
     });
   }
@@ -134,8 +156,7 @@ for (const slug of allSlugs) {
         .trim();
       const tableText = tableRows.join('\n');
       const raw = textRaw + (tableText ? '\n' + tableText : '');
-      const snippet = raw.slice(0, 1000);
-      if (!snippet) return;
+      if (!raw) return;
 
       const anchor = currentHeading
         .toLowerCase()
@@ -145,9 +166,11 @@ for (const slug of allSlugs) {
       index.push({
         game: slug,
         gameTitle,
+        type: 'variant',
+        sectionType: classifySection(currentHeading),
         section: vtitle,
         heading: currentHeading,
-        content: snippet,
+        content: raw,
         anchor,
         variant: vslug,
         variantUrl: `dist/${slug}/variants/${vslug}/`
@@ -226,16 +249,17 @@ for (const slug of allSlugs) {
           .trim();
         const tableText = tableRows.join('\n');
         const raw = textRaw + (tableText ? '\n' + tableText : '');
-        const snippet = raw.slice(0, 1000);
-        if (!snippet) return;
+        if (!raw) return;
 
         const anchor = currentHeading.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
         index.push({
           game: slug,
           gameTitle,
+          type: 'game',
+          sectionType: classifySection(currentHeading),
           section: gtitle,
           heading: currentHeading,
-          content: snippet,
+          content: raw,
           anchor,
           variant: gslug,
           variantUrl: `dist/${slug}/games/${gslug}/`
@@ -271,7 +295,7 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
 
     const raw = JSON.parse(readFileSync(filePath, 'utf8'));
 
-    if (manifest.dataType === 'entity') {
+    if (cat.dataType === 'entity') {
       const items = Array.isArray(raw) ? raw : [];
       for (const item of items) {
         const name = item.name || item.index || '';
@@ -281,8 +305,7 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
         const searchable = searchFields.map(f => resolveField(item, f)).filter(Boolean).join(' ');
 
         const descArr = item.desc || item.description;
-        const desc = Array.isArray(descArr) ? descArr[0] || '' : (typeof descArr === 'string' ? descArr : '');
-        const snippet = desc.slice(0, 200);
+        const desc = Array.isArray(descArr) ? descArr.join(' ') : (typeof descArr === 'string' ? descArr : '');
 
         const anchor = item.index || name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
         const variantUrl = cat.linkPath
@@ -292,16 +315,17 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
         index.push({
           game: slug,
           gameTitle,
+          type: 'entity',
           section: cat.label,
           heading: name,
-          content: snippet || searchable,
+          content: desc || searchable,
           anchor,
           variantUrl,
           dataType: 'entity',
           category: cat.id,
         });
       }
-    } else if (manifest.dataType === 'oracle') {
+    } else if (cat.dataType === 'oracle') {
       const tables = raw.tables || [];
       for (const table of tables) {
         const tableName = table.name || table.id || '';
@@ -313,6 +337,7 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
           index.push({
             game: slug,
             gameTitle,
+            type: 'oracle',
             section: cat.label,
             heading: result,
             content: desc || `${tableName} — ${result}`,
@@ -323,7 +348,7 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
           });
         }
       }
-    } else if (manifest.dataType === 'table') {
+    } else if (cat.dataType === 'table') {
       const tables = raw.tables || [];
       for (const table of tables) {
         const tableName = table.name || table.id || '';
@@ -331,9 +356,10 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
         index.push({
           game: slug,
           gameTitle,
+          type: 'table',
           section: cat.label,
           heading: tableName,
-          content: entries.slice(0, 10).join(', '),
+          content: entries.join(', '),
           anchor: (table.id || tableName).toLowerCase().replace(/[^a-z0-9]+/g, '-'),
           dataType: 'table',
           category: cat.id,
@@ -373,7 +399,25 @@ function resolveField(obj, path) {
 
 mkdirSync(DIST_DIR, { recursive: true });
 writeFileSync(resolve(DIST_DIR, 'rules-index.json'), JSON.stringify(index, null, 2));
-console.log(`Built dist/rules-index.json (${index.length} entries across ${new Set(index.map(e => e.game)).size} games)`);
+
+const liteIndex = index.map(e => ({
+  game: e.game,
+  gameTitle: e.gameTitle,
+  type: e.type,
+  ...(e.sectionType ? { sectionType: e.sectionType } : {}),
+  section: e.section,
+  heading: e.heading,
+  content: e.content.slice(0, 200),
+  anchor: e.anchor,
+  ...(e.variant ? { variant: e.variant } : {}),
+  ...(e.variantUrl ? { variantUrl: e.variantUrl } : {}),
+  ...(e.dataType ? { dataType: e.dataType } : {}),
+  ...(e.category ? { category: e.category } : {}),
+}));
+writeFileSync(resolve(DIST_DIR, 'rules-index-lite.json'), JSON.stringify(liteIndex, null, 2));
+
+console.log(`Built dist/rules-index.json (${index.length} entries, ${(JSON.stringify(index).length / 1024).toFixed(0)} KB)`);
+console.log(`Built dist/rules-index-lite.json (${liteIndex.length} entries, ${(JSON.stringify(liteIndex).length / 1024).toFixed(0)} KB)`);
 
 // --- Build games-meta.json ---
 const gamesMeta = [];

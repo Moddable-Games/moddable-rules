@@ -1,0 +1,421 @@
+{
+  "slug": "backgammon",
+  "title": "Backgammon",
+  "type": "classic",
+  "hub_type": null,
+  "players": "2",
+  "status": "live",
+  "mechanics": [
+    "dice",
+    "race",
+    "capture",
+    "track",
+    "push-your-luck",
+    "betting"
+  ],
+  "complexity": "moderate",
+  "engine": {
+    "topology": {
+      "type": "track",
+      "shape": "linear",
+      "positions": 24
+    },
+    "surface": {
+      "colors": {
+        "board-outer": "#3d2b1f",
+        "felt": "#1a5c3a",
+        "point-a": "#c47e3b",
+        "point-b": "#8b2500"
+      }
+    },
+    "render": {
+      "cellSize": 22,
+      "trackStyle": "triangular-points",
+      "labels": false
+    },
+    "pieces": {
+      "set": "playstrategy-draughts-plain"
+    },
+    "players": [
+      "white",
+      "black"
+    ]
+  },
+  "variants": [
+    {
+      "slug": "standard",
+      "parent": "backgammon",
+      "title": "Standard Backgammon",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar.",
+      "playable": false,
+      "order": 1,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/standard-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/standard.md",
+        "meta": "/api/rules/backgammon/variants/standard.json",
+        "page": "/backgammon/variants/standard/"
+      }
+    },
+    {
+      "slug": "nardi",
+      "parent": "backgammon",
+      "title": "Nardi",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "No hitting. Both players move in the same direction. No doubling cube.",
+      "playable": false,
+      "order": 2,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "0:15W,23:15B"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/nardi.md",
+        "meta": "/api/rules/backgammon/variants/nardi.json",
+        "page": "/backgammon/variants/nardi/"
+      }
+    },
+    {
+      "slug": "acey-deucey",
+      "parent": "backgammon",
+      "title": "Acey-Deucey",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time.",
+      "playable": false,
+      "order": 3,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "home:15W,home:15B"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/acey-deucey-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/acey-deucey.md",
+        "meta": "/api/rules/backgammon/variants/acey-deucey.json",
+        "page": "/backgammon/variants/acey-deucey/"
+      }
+    },
+    {
+      "slug": "plakoto",
+      "parent": "backgammon",
+      "title": "Plakoto",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "Pin instead of hit: landing on a blot traps it under your piece. Trapped pieces cannot move until released.",
+      "playable": false,
+      "order": 4,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "0:15B,23:15W"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/plakoto-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/plakoto.md",
+        "meta": "/api/rules/backgammon/variants/plakoto.json",
+        "page": "/backgammon/variants/plakoto/"
+      }
+    },
+    {
+      "slug": "fevga",
+      "parent": "backgammon",
+      "title": "Fevga",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "No blots allowed: a point with one of your pieces is immediately blocked to the opponent. No hitting.",
+      "playable": false,
+      "order": 5,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "0:15B,12:15W"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/fevga-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/fevga.md",
+        "meta": "/api/rules/backgammon/variants/fevga.json",
+        "page": "/backgammon/variants/fevga/"
+      }
+    },
+    {
+      "slug": "hypergammon",
+      "parent": "backgammon",
+      "title": "Hypergammon",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 3 pieces before your opponent",
+      "special": "3 pieces per side placed on the last three points. Games last 10–15 minutes. Fully solved by computer.",
+      "playable": false,
+      "order": 6,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "0:1W,1:1W,2:1W,21:1B,22:1B,23:1B"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/hypergammon-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/hypergammon.md",
+        "meta": "/api/rules/backgammon/variants/hypergammon.json",
+        "page": "/backgammon/variants/hypergammon/"
+      }
+    },
+    {
+      "slug": "nackgammon",
+      "parent": "backgammon",
+      "title": "Nackgammon",
+      "players": "2",
+      "board": "24-point board",
+      "win": "Bear off all 15 pieces before your opponent",
+      "special": "2 extra checkers placed on the 23-point create a slower, more complex opening than standard Backgammon.",
+      "playable": false,
+      "order": 7,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "0:2W,1:2W,5:3B,7:3B,11:5W,12:5B,16:3W,18:3W,22:2B,23:2B"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/nackgammon-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/nackgammon.md",
+        "meta": "/api/rules/backgammon/variants/nackgammon.json",
+        "page": "/backgammon/variants/nackgammon/"
+      }
+    },
+    {
+      "slug": "chouette",
+      "parent": "backgammon",
+      "title": "Chouette",
+      "players": "3–6",
+      "board": "24-point board",
+      "win": "Accumulate the most points across multiple games as the box, or advance to become the box",
+      "special": "Multiplayer format: one player (the box) faces a team. The box rotates when they lose. Consultation rules vary.",
+      "playable": false,
+      "order": 8,
+      "designer": null,
+      "category": null,
+      "engine": {
+        "topology": {
+          "type": "track",
+          "positions": 24
+        },
+        "players": [
+          "white",
+          "black"
+        ],
+        "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
+      },
+      "diagram": {
+        "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
+        "topology": "track",
+        "status": "rendered"
+      },
+      "urls": {
+        "rules": "/api/rules/backgammon/variants/chouette.md",
+        "meta": "/api/rules/backgammon/variants/chouette.json",
+        "page": "/backgammon/variants/chouette/"
+      }
+    }
+  ],
+  "games": [],
+  "diagrams": {
+    "total": 8,
+    "rendered": 8,
+    "entries": [
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "acey-deucey",
+        "variantTitle": "Acey-Deucey",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/acey-deucey-board.svg",
+        "rulesUrl": "dist/backgammon/variants/acey-deucey/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "chouette",
+        "variantTitle": "Chouette",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
+        "rulesUrl": "dist/backgammon/variants/chouette/index.html",
+        "status": "rendered",
+        "players": "3–6"
+      },
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "fevga",
+        "variantTitle": "Fevga",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/fevga-board.svg",
+        "rulesUrl": "dist/backgammon/variants/fevga/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "hypergammon",
+        "variantTitle": "Hypergammon",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/hypergammon-board.svg",
+        "rulesUrl": "dist/backgammon/variants/hypergammon/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "nackgammon",
+        "variantTitle": "Nackgammon",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/nackgammon-board.svg",
+        "rulesUrl": "dist/backgammon/variants/nackgammon/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "nardi",
+        "variantTitle": "Nardi",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
+        "rulesUrl": "dist/backgammon/variants/nardi/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "plakoto",
+        "variantTitle": "Plakoto",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/plakoto-board.svg",
+        "rulesUrl": "dist/backgammon/variants/plakoto/index.html",
+        "status": "rendered",
+        "players": "2"
+      },
+      {
+        "family": "backgammon",
+        "familyTitle": "Backgammon",
+        "variant": "standard",
+        "variantTitle": "Standard Backgammon",
+        "topology": "track",
+        "svg": "games/backgammon/diagrams/svg/standard-board.svg",
+        "rulesUrl": "dist/backgammon/variants/standard/index.html",
+        "status": "rendered",
+        "players": "2"
+      }
+    ]
+  },
+  "stats": {
+    "variantCount": 8,
+    "playable": 0,
+    "withDiagram": 8,
+    "topologies": [
+      "track"
+    ]
+  }
+}
