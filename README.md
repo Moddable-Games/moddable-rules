@@ -222,6 +222,17 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-16
+- Search index: removed content truncation, added type discrimination and semantic section classification
+- Fixed RPG data indexing bug (cat.dataType instead of manifest.dataType) — entries jumped from 2,472 to 8,902
+- Added per-variant structured JSON endpoints (/api/rules/{slug}/variants/{variant}.json)
+- Added per-game enriched data endpoints (/api/rules/{slug}/data.json)
+- Added global enriched data endpoint (/api/data.json) and diagrams API (/api/diagrams.json)
+- Added lightweight search index for autocomplete (/api/search-index-lite.json)
+- Eliminated duplicated index build logic (build.mjs delegates to build-index.mjs)
+- Fixed API page local dev path resolution
+- API surface expanded from 155 to 204 endpoints
+
 #### 2026-08-15
 - Four-player shogi: added per-player advancement vectors and playerCount to engine frontmatter
 - Board diagram sync: 6 shogi variants refreshed (dai-shogi, maka-dai-dai-shogi, tai-shogi, taikyoku-shogi, tenjiku-shogi, wa-shogi)
