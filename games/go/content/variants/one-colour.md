@@ -16,6 +16,8 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  render:
+    uniformPieces: true
   plugins:
     go:
       extends: "standard"

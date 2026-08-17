@@ -23,9 +23,6 @@ engine:
     rows: 9
     cols: 9
     layout: intersections
-  pieceRotations:
-    white: 0
-    black: 180
   surface:
     colors:
       cell-light: "#e8c97a"
