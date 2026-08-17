@@ -15,6 +15,17 @@ engine:
     cols: 3
   players: [sente, gote]
   setup: "gle/1c1/1C1/ELG"
+  pieces:
+    set: wikimedia-dobutsu
+    fenMap:
+      L: Dobutsu_Chess_King
+      l: Dobutsu_Chess_King
+      G: Dobutsu_Chess_Rook
+      g: Dobutsu_Chess_Rook
+      E: Dobutsu_Chess_Bishop
+      e: Dobutsu_Chess_Bishop
+      C: Dobutsu_Chess_Pawn
+      c: Dobutsu_Chess_Pawn
   render:
     cellSize: 50
   vocabulary:

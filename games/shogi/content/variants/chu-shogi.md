@@ -41,6 +41,8 @@ engine:
       q: bxQ
       I: wxI
       i: bxI
+      X: wKI
+      x: bKI
   render:
     cellSize: 28
   vocabulary:
