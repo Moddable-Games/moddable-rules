@@ -14,6 +14,7 @@ engine:
     cols: 8
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/PPPPPPPP/RNBQKBNR"
+  doubleStep: false
   enPassant: false
 ---
 

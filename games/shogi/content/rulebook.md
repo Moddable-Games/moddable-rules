@@ -60,6 +60,7 @@ engine:
         color: promotion-zone
   pieces:
     set: kahu-shogi-kanji-red-wood
+    directional: true
   players: [sente, gote]
 how_to_play: "Capture the opponent's King. Unique feature: captured pieces change allegiance and may be dropped back onto the board on any later turn. Most pieces promote upon reaching the opponent's territory, gaining new movement abilities."
 mechanics:
