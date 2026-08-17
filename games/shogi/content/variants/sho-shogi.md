@@ -15,6 +15,8 @@ engine:
     cols: 9
   players: [sente, gote]
   setup: "lnsgkgsnl/1r2e2b1/ppppppppp/9/9/9/PPPPPPPPP/1B2E2R1/LNSGKGSNL"
+  pieces:
+    set: mce-shogi-fairy
   vocabulary:
     king:
       symbols: { "0": K, "1": k }

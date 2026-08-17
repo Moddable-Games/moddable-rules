@@ -14,6 +14,8 @@ engine:
     cols: 7
   players: [sente, gote]
   setup: "ynnkbby/7/ppppppp/7/7/7/PPPPPPP/7/YBBKNNY"
+  pieces:
+    set: mce-shogi-fairy
   render:
     cellSize: 36
   vocabulary:
