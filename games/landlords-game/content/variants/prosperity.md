@@ -13,6 +13,33 @@ engine:
     positions: 36
   players: [player1, player2, player3, player4]
   setup: ""
+  surface:
+    colors:
+      board: "#f8f4ec"
+      border: "#2a4a7a"
+      innerBg: "#f8f4ec"
+      spaceStroke: "#2a4a7a"
+      cornerStroke: "#2a4a7a"
+      text: "#1a2a40"
+      titleText: "#6b2020"
+      lot: "#ffffff"
+      taxes: "#ffffff"
+      franchise: "#ffffff"
+      railroad: "#ffffff"
+      luxury: "#ffffff"
+      broker: "#ffffff"
+      jail: "#ffffff"
+      corner: "#ffffff"
+      go-to-jail: "#ffffff"
+      lotStripe: "#3a8a3a"
+      taxesStripe: "#2a5a9a"
+      franchiseStripe: "#d4a030"
+      railroadStripe: "#3a8a3a"
+      brokerStripe: "#c8b020"
+      luxuryStripe: "#d4708a"
+      jailStripe: "#808080"
+      go-to-jailStripe: "#808080"
+      cornerArc: "#8c2020"
   content:
     source: landlords-game-boards.json
     board: 1932-prosperity

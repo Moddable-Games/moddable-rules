@@ -13,6 +13,25 @@ engine:
     positions: 40
   players: [player1, player2]
   setup: ""
+  surface:
+    colors:
+      board: "#f5edd5"
+      border: "#6b2020"
+      innerBg: "#f8f4e8"
+      spaceStroke: "#3a3020"
+      cornerStroke: "#3a3020"
+      text: "#2a2015"
+      titleText: "#2a2015"
+      lot: "#6a9a50"
+      necessity: "#7aaac0"
+      railroad: "#d4889a"
+      franchise: "#d4c060"
+      chance: "#cc3030"
+      luxury: "#d4889a"
+      special: "#7aaac0"
+      go-to-jail: "#d4883a"
+      corner: "#d4c898"
+      broker: "#d4c060"
   content:
     source: landlords-game-boards.json
     board: 1906-egc
