@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: Djambi
 slug: djambi
 board: 9×9
@@ -12,47 +12,59 @@ engine:
     type: grid
     rows: 9
     cols: 9
-  players: [white, black]
+  players: [red, yellow, green, blue]
+  defaultSeat: blue
   render:
     cellSize: 38
-  setup: "amrcxcrma/9/9/9/4M4/9/9/9/AMRCXCRMA"
+  setup: "yC,yA,yM,3,gM,gA,gC/yT,yD,yM,3,gM,gD,gT/yM,yM,yX,3,gX,gM,gM/9/9/9/bM,bM,bX,3,rX,rM,rM/bT,bD,bM,3,rM,rD,rT/bC,bA,bM,3,rM,rA,rC"
   vocabulary:
-    assassin:
-      symbols:
-        0: A
-        1: a
-    militant:
-      symbols:
-        0: M
-        1: m
     chief:
       symbols:
         0: C
         1: c
+    assassin:
+      symbols:
+        0: A
+        1: a
+    reporter:
+      symbols:
+        0: T
+        1: t
+    diplomat:
+      symbols:
+        0: D
+        1: d
     necromobile:
       symbols:
         0: X
         1: x
+    militant:
+      symbols:
+        0: M
+        1: m
   plugins:
     chess:
       pieces:
+        chief:
+          type: rider
+          dirs: all
+          maxSteps: 1
         assassin:
+          type: rider
+          dirs: all
+        reporter:
+          type: rider
+          dirs: all
+        diplomat:
+          type: rider
+          dirs: all
+        necromobile:
           type: rider
           dirs: all
         militant:
           type: rider
           dirs: all
           maxSteps: 2
-        rook:
-          type: rider
-          dirs: all
-        chief:
-          type: rider
-          dirs: all
-          maxSteps: 1
-        necromobile:
-          type: rider
-          dirs: all
 ---
 
 ## Overview
