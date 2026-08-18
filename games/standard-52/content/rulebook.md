@@ -23,6 +23,8 @@ engine:
   topology:
     type: none
   surface: felt-green
+  pieces:
+    set: letele-cards
   components:
     deck:
       type: standard-52

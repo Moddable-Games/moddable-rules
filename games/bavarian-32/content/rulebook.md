@@ -27,6 +27,8 @@ engine:
   topology:
     type: none
   surface: felt-green
+  pieces:
+    set: mfrasca-skat
   components:
     deck:
       type: bavarian-32

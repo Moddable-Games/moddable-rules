@@ -8,8 +8,11 @@ win: "Complete a valid hand with at least one yaku"
 special: "Japanese Mahjong. 136 tiles, no bonus tiles. Yaku requirement to win. Riichi declaration locks the hand. Furiten prevents discarded-tile wins. Han and fu scoring."
 engine:
   players: [east, south, west, north]
+  pieces:
+    set: mahjong-regular
   components:
     tiles:
+      type: mahjong-136
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       total: 136
@@ -23,7 +26,6 @@ engine:
     perPlayer: 13
     community: 0
     remainder: wall
-    tileSet: mahjong-regular
 published: true
 ---
 

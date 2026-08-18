@@ -8,8 +8,11 @@ win: "Complete a valid hand with at least one scoring pattern"
 special: "Alan Kwan's competition system. 44 named patterns, additive scoring, 320-point limit, no basic points. Used by World Series of Mahjong."
 engine:
   players: [east, south, west, north]
+  pieces:
+    set: mahjong-regular
   components:
     tiles:
+      type: mahjong-136
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       total: 136
@@ -23,7 +26,6 @@ engine:
     perPlayer: 13
     community: 0
     remainder: wall
-    tileSet: mahjong-regular
 published: true
 ---
 

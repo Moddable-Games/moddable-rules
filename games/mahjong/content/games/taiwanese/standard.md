@@ -8,8 +8,11 @@ win: "Complete a valid 16-tile hand and declare"
 special: "16-tile hands requiring five melds and one pair. Multiple players can win from a single discard. 144 tiles with flowers and seasons."
 engine:
   players: [east, south, west, north]
+  pieces:
+    set: mahjong-planar
   components:
     tiles:
+      type: mahjong-136
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       bonus: [flowers, seasons]
@@ -25,7 +28,6 @@ engine:
     community: 0
     remainder: wall
     flowers: 8
-    tileSet: mahjong-planar
 published: true
 ---
 

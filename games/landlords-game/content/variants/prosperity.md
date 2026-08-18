@@ -14,14 +14,15 @@ engine:
   players: [player1, player2, player3, player4]
   setup: ""
   surface:
+    base: parchment
     colors:
       board: "#f8f4ec"
       border: "#2a4a7a"
-      innerBg: "#f8f4ec"
-      spaceStroke: "#2a4a7a"
-      cornerStroke: "#2a4a7a"
+      inner-bg: "#f8f4ec"
+      space-stroke: "#2a4a7a"
+      corner-stroke: "#2a4a7a"
       text: "#1a2a40"
-      titleText: "#6b2020"
+      title-text: "#6b2020"
       lot: "#ffffff"
       taxes: "#ffffff"
       franchise: "#ffffff"
@@ -31,15 +32,15 @@ engine:
       jail: "#ffffff"
       corner: "#ffffff"
       go-to-jail: "#ffffff"
-      lotStripe: "#3a8a3a"
-      taxesStripe: "#2a5a9a"
-      franchiseStripe: "#d4a030"
-      railroadStripe: "#3a8a3a"
-      brokerStripe: "#c8b020"
-      luxuryStripe: "#d4708a"
-      jailStripe: "#808080"
-      go-to-jailStripe: "#808080"
-      cornerArc: "#8c2020"
+      lot-stripe: "#3a8a3a"
+      taxes-stripe: "#2a5a9a"
+      franchise-stripe: "#d4a030"
+      railroad-stripe: "#3a8a3a"
+      broker-stripe: "#c8b020"
+      luxury-stripe: "#d4708a"
+      jail-stripe: "#808080"
+      go-to-jail-stripe: "#808080"
+      corner-arc: "#8c2020"
   content:
     source: landlords-game-boards.json
     board: 1932-prosperity

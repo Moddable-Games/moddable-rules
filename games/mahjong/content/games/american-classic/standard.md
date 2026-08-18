@@ -9,8 +9,11 @@ order: 5
 special: "The Babcock-era form of American Mahjong, standardised 1920–1935. 152 tiles including 8 jokers. Defines the Charleston passing ritual and joker mechanics that distinguish American Mahjong from all other variants. Winning hands use fixed classical pattern structure rather than the annually-changing NMJL card."
 engine:
   players: [east, south, west, north]
+  pieces:
+    set: mahjong-planar
   components:
     tiles:
+      type: mahjong-136
       suits: [characters, bamboo, circles]
       honours: [winds, dragons]
       bonus: [flowers, seasons]
@@ -27,7 +30,6 @@ engine:
     community: 0
     remainder: wall
     flowers: 8
-    tileSet: mahjong-planar
 published: true
 ---
 

@@ -28,6 +28,8 @@ engine:
   topology:
     type: none
   surface: felt-green
+  pieces:
+    set: hanafuda-traditional
   components:
     deck:
       type: hanafuda-48

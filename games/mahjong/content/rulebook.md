@@ -27,6 +27,8 @@ engine:
   topology:
     type: none
   surface: felt-green
+  pieces:
+    set: mahjong-regular
   components:
     deck:
       type: mahjong-136

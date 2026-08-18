@@ -28,6 +28,8 @@ engine:
   topology:
     type: none
   surface: felt-green
+  pieces:
+    set: dominoes-classic
   components:
     deck:
       type: dominoes-28

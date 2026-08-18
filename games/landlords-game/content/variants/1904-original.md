@@ -14,14 +14,15 @@ engine:
   players: [player1, player2]
   setup: ""
   surface:
+    base: parchment
     colors:
       board: "#f0e4c8"
       border: "#5a4a30"
-      innerBg: "#f0e4c8"
-      spaceStroke: "#5a4a30"
-      cornerStroke: "#5a4a30"
+      inner-bg: "#f0e4c8"
+      space-stroke: "#5a4a30"
+      corner-stroke: "#5a4a30"
       text: "#3a2a15"
-      titleText: "#3a2a15"
+      title-text: "#3a2a15"
       lot: "#f0e4c8"
       necessity: "#f0e4c8"
       railroad: "#f0e4c8"

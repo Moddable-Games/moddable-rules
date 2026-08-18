@@ -23,6 +23,8 @@ engine:
   topology:
     type: none
   surface: felt-green
+  pieces:
+    set: playstrategy-backgammon
   components:
     dice:
       count: 5
