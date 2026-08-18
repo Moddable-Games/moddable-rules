@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16",
+  "generated": "2026-08-18",
   "families": {
     "agon": {
       "title": "Agon",
@@ -1964,10 +1964,6 @@
           "cols": 9,
           "layout": "intersections"
         },
-        "pieceRotations": {
-          "white": 0,
-          "black": 180
-        },
         "surface": {
           "colors": {
             "cell-light": "#e8c97a",
@@ -2044,7 +2040,8 @@
           ]
         },
         "pieces": {
-          "set": "kahu-shogi-kanji-red-wood"
+          "set": "kahu-shogi-kanji-red-wood",
+          "directional": true
         },
         "players": [
           "sente",
