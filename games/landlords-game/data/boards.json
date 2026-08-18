@@ -14,6 +14,14 @@
       "direction": "counter-clockwise",
       "totalSpaces": 40,
       "corners": 4,
+      "cornerOrder": [0, 1, 2, 3],
+      "categories": {
+        "lot": "Lot", "necessity": "Absolute Necessity", "taxes": "Personal Property",
+        "railroad": "R.R.", "franchise": "Local Public Utility",
+        "broker": "Real Estate", "luxury": "Luxury", "jail": "Jail",
+        "go-to-jail": "No Trespassing", "chance": "Chance", "special": "Speculation",
+        "legacy": "Legacy", "corner": ""
+      },
       "spaces": [
         {
           "pos": 1,
@@ -328,6 +336,14 @@
       "direction": "counter-clockwise",
       "totalSpaces": 40,
       "corners": 4,
+      "cornerOrder": [3, 0, 1, 2],
+      "categories": {
+        "lot": "Land In Use", "necessity": "Absolute Necessity", "taxes": "Personal Property",
+        "railroad": "Interstate Public Utility", "franchise": "Local Public Utility",
+        "broker": "Real Estate", "luxury": "Luxury", "jail": "Jail",
+        "go-to-jail": "No Trespassing", "chance": "Chance", "special": "Speculation",
+        "legacy": "Legacy", "corner": ""
+      },
       "spaces": [
         {
           "pos": 1,
@@ -696,6 +712,13 @@
       "direction": "clockwise",
       "totalSpaces": 36,
       "corners": 4,
+      "cornerOrder": [1, 2, 3, 0],
+      "categories": {
+        "lot": "Land In Use", "taxes": "Taxes",
+        "railroad": "Interstate Railroad", "franchise": "Local Franchise",
+        "broker": "Real Estate", "luxury": "Luxury", "jail": "Jail",
+        "go-to-jail": "No Trespassing", "corner": ""
+      },
       "spaces": [
         {
           "pos": 1,
