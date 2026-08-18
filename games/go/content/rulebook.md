@@ -22,6 +22,10 @@ theme:
   typography: classical
   accent: green
 engine:
+  interactionModel: place
+  plugins:
+    go:
+      search: mcts
   topology:
     type: grid
     rows: 19

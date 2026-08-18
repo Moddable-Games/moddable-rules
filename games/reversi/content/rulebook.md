@@ -19,6 +19,7 @@ theme:
   typography: classical
   accent: blue
 engine:
+  interactionModel: place
   topology:
     type: grid
     rows: 8

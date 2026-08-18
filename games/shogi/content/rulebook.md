@@ -18,6 +18,7 @@ theme:
   typography: classical
   accent: amber
 engine:
+  interactionModel: drop
   topology:
     type: grid
     rows: 9

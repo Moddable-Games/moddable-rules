@@ -33,6 +33,7 @@ related:
   - xiangqi
   - shogi
 engine:
+  interactionModel: drop
   topology:
     type: grid
     rows: 8

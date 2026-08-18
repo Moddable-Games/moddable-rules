@@ -23,6 +23,7 @@ theme:
   typography: classical
   accent: gold
 engine:
+  interactionModel: chain
   topology:
     type: grid
     rows: 8
