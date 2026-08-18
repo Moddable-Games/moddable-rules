@@ -16,6 +16,19 @@ engine:
   players: [red, yellow, green, blue]
   pieces:
     set: mce-4player
+  vocabulary:
+    king:
+      symbols: { 0: rK, 1: yK, 2: gK, 3: bK }
+    queen:
+      symbols: { 0: rQ, 1: yQ, 2: gQ, 3: bQ }
+    rook:
+      symbols: { 0: rR, 1: yR, 2: gR, 3: bR }
+    bishop:
+      symbols: { 0: rB, 1: yB, 2: gB, 3: bB }
+    knight:
+      symbols: { 0: rN, 1: yN, 2: gN, 3: bN }
+    pawn:
+      symbols: { 0: rP, 1: yP, 2: gP, 3: bP }
   render:
     cellSize: 24
     zones:

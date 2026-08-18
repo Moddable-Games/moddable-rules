@@ -16,6 +16,17 @@ engine:
   players: [red, yellow, green, blue]
   pieces:
     set: mce-4player
+  vocabulary:
+    king:
+      symbols: { 0: rK, 1: yK, 2: gK, 3: bK }
+    queen:
+      symbols: { 0: rQ, 1: yQ, 2: gQ, 3: bQ }
+    rook:
+      symbols: { 0: rR, 1: yR, 2: gR, 3: bR }
+    knight:
+      symbols: { 0: rN, 1: yN, 2: gN, 3: bN }
+    pawn:
+      symbols: { 0: rP, 1: yP, 2: gP, 3: bP }
   setup: "2,yR,yN,yQ,yK,yN,yR,2/2,yP,yP,yP,yP,yP,yP,2/bR,bP,6,gP,gR/bN,bP,6,gP,gN/bQ,bP,6,gP,gK/bK,bP,6,gP,gQ/bN,bP,6,gP,gN/bR,bP,6,gP,gR/2,rP,rP,rP,rP,rP,rP,2/2,rR,rN,rQ,rK,rN,rR,2"
   render:
     cellSize: 30

@@ -17,6 +17,23 @@ engine:
   players: [red, yellow, green, blue]
   pieces:
     set: mce-4player-shogi
+  vocabulary:
+    king:
+      symbols: { 0: rK, 1: yK, 2: gK, 3: bK }
+    gold:
+      symbols: { 0: rG, 1: yG, 2: gG, 3: bG }
+    silver:
+      symbols: { 0: rS, 1: yS, 2: gS, 3: bS }
+    knight:
+      symbols: { 0: rN, 1: yN, 2: gN, 3: bN }
+    lance:
+      symbols: { 0: rL, 1: yL, 2: gL, 3: bL }
+    rook:
+      symbols: { 0: rR, 1: yR, 2: gR, 3: bR }
+    bishop:
+      symbols: { 0: rB, 1: yB, 2: gB, 3: bB }
+    pawn:
+      symbols: { 0: rP, 1: yP, 2: gP, 3: bP }
   setup: "3,yL,yN,yS,yG,yK,yG,yS,yN,yL,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rL,1,rP,9,bP,1,bL/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rL,1,rP,9,bP,1,bL/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gL,gN,gS,gG,gK,gG,gS,gN,gL,3"
   render:
     cellSize: 22

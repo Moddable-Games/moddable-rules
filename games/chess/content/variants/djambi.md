@@ -19,29 +19,17 @@ engine:
   setup: "yC,yA,yM,3,gM,gA,gC/yT,yD,yM,3,gM,gD,gT/yM,yM,yX,3,gX,gM,gM/9/9/9/bM,bM,bX,3,rX,rM,rM/bT,bD,bM,3,rM,rD,rT/bC,bA,bM,3,rM,rA,rC"
   vocabulary:
     chief:
-      symbols:
-        0: C
-        1: c
+      symbols: { 0: rC, 1: yC, 2: gC, 3: bC }
     assassin:
-      symbols:
-        0: A
-        1: a
+      symbols: { 0: rA, 1: yA, 2: gA, 3: bA }
     reporter:
-      symbols:
-        0: T
-        1: t
+      symbols: { 0: rT, 1: yT, 2: gT, 3: bT }
     diplomat:
-      symbols:
-        0: D
-        1: d
+      symbols: { 0: rD, 1: yD, 2: gD, 3: bD }
     necromobile:
-      symbols:
-        0: X
-        1: x
+      symbols: { 0: rX, 1: yX, 2: gX, 3: bX }
     militant:
-      symbols:
-        0: M
-        1: m
+      symbols: { 0: rM, 1: yM, 2: gM, 3: bM }
   plugins:
     chess:
       pieces:
