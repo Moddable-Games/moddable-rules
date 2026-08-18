@@ -20,10 +20,6 @@
       "cols": 9,
       "layout": "intersections"
     },
-    "pieceRotations": {
-      "white": 0,
-      "black": 180
-    },
     "surface": {
       "colors": {
         "cell-light": "#e8c97a",
@@ -100,7 +96,8 @@
       ]
     },
     "pieces": {
-      "set": "kahu-shogi-kanji-red-wood"
+      "set": "kahu-shogi-kanji-red-wood",
+      "directional": true
     },
     "players": [
       "sente",
@@ -171,6 +168,9 @@
           "gote"
         ],
         "setup": "lnsgkgsnl/1r2e2b1/ppppppppp/9/9/9/PPPPPPPPP/1B2E2R1/LNSGKGSNL",
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        },
         "vocabulary": {
           "king": {
             "symbols": {
@@ -308,6 +308,19 @@
           "gote"
         ],
         "setup": "gle/1c1/1C1/ELG",
+        "pieces": {
+          "set": "wikimedia-dobutsu",
+          "fenMap": {
+            "L": "Dobutsu_Chess_King",
+            "l": "Dobutsu_Chess_King",
+            "G": "Dobutsu_Chess_Rook",
+            "g": "Dobutsu_Chess_Rook",
+            "E": "Dobutsu_Chess_Bishop",
+            "e": "Dobutsu_Chess_Bishop",
+            "C": "Dobutsu_Chess_Pawn",
+            "c": "Dobutsu_Chess_Pawn"
+          }
+        },
         "render": {
           "cellSize": 50
         },
@@ -488,6 +501,15 @@
           "gote"
         ],
         "setup": "rpckcpl/3f3/sssssss/2s1S2/SSSSSSS/3F3/LPCKCPR",
+        "pieces": {
+          "set": "mce-shogi-fairy",
+          "fenMap": {
+            "C": "wtC",
+            "c": "btC",
+            "F": "wtF",
+            "f": "btF"
+          }
+        },
         "render": {
           "cellSize": 40
         },
@@ -836,6 +858,19 @@
           "gote"
         ],
         "setup": "lnsgkgsnl/1rci1uab1/p1p1p1p1p/9/9/9/P1P1P1P1P/1BAU1ICR1/LNSGKGSNL",
+        "pieces": {
+          "set": "mce-shogi-fairy",
+          "fenMap": {
+            "U": "wcU",
+            "u": "bcU",
+            "A": "wcA",
+            "a": "bcA",
+            "C": "wcC",
+            "c": "bcC",
+            "I": "wcI",
+            "i": "bcI"
+          }
+        },
         "vocabulary": {
           "king": {
             "symbols": {
@@ -1137,6 +1172,37 @@
           "gote"
         ],
         "setup": "lfcsgekgscfl/a1b1txot1b1a/mvrhdqndhrvm/pppppppppppp/3i4i3/12/12/3I4I3/PPPPPPPPPPPP/MVRHDNQDHRVM/A1B1TOXT1B1A/LFCSGKEGSCFL",
+        "pieces": {
+          "set": "mce-shogi-fairy",
+          "fenMap": {
+            "C": "wxC",
+            "c": "bxC",
+            "F": "wxF",
+            "f": "bxF",
+            "A": "wxA",
+            "a": "bxA",
+            "T": "wxT",
+            "t": "bxT",
+            "O": "wxO",
+            "o": "bxO",
+            "M": "wxM",
+            "m": "bxM",
+            "V": "wxV",
+            "v": "bxV",
+            "H": "wxH",
+            "h": "bxH",
+            "D": "wxD",
+            "d": "bxD",
+            "N": "wxN",
+            "n": "bxN",
+            "Q": "wxQ",
+            "q": "bxQ",
+            "I": "wxI",
+            "i": "bxI",
+            "X": "wKI",
+            "x": "bKI"
+          }
+        },
         "render": {
           "cellSize": 28
         },
@@ -2958,6 +3024,9 @@
           "gote"
         ],
         "setup": "ynnkbby/7/ppppppp/7/7/7/PPPPPPP/7/YBBKNNY",
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        },
         "render": {
           "cellSize": 36
         },

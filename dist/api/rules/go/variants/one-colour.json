@@ -22,6 +22,9 @@
       "white"
     ],
     "setup": "",
+    "render": {
+      "uniformPieces": true
+    },
     "plugins": {
       "go": {
         "extends": "standard"

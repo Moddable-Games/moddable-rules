@@ -5831,6 +5831,7 @@
           "black"
         ],
         "setup": "rnbqkbnr/pppppppp/PPPPPPPP/RNBQKBNR",
+        "doubleStep": false,
         "enPassant": false
       },
       "diagram": {
@@ -12287,6 +12288,7 @@
           "black"
         ],
         "setup": "RNBQKBNR/PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr",
+        "defaultSeat": 0,
         "pawnStartRow": {
           "0": 1,
           "1": 6

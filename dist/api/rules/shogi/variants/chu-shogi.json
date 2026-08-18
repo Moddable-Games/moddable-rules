@@ -21,6 +21,37 @@
       "gote"
     ],
     "setup": "lfcsgekgscfl/a1b1txot1b1a/mvrhdqndhrvm/pppppppppppp/3i4i3/12/12/3I4I3/PPPPPPPPPPPP/MVRHDNQDHRVM/A1B1TOXT1B1A/LFCSGKEGSCFL",
+    "pieces": {
+      "set": "mce-shogi-fairy",
+      "fenMap": {
+        "C": "wxC",
+        "c": "bxC",
+        "F": "wxF",
+        "f": "bxF",
+        "A": "wxA",
+        "a": "bxA",
+        "T": "wxT",
+        "t": "bxT",
+        "O": "wxO",
+        "o": "bxO",
+        "M": "wxM",
+        "m": "bxM",
+        "V": "wxV",
+        "v": "bxV",
+        "H": "wxH",
+        "h": "bxH",
+        "D": "wxD",
+        "d": "bxD",
+        "N": "wxN",
+        "n": "bxN",
+        "Q": "wxQ",
+        "q": "bxQ",
+        "I": "wxI",
+        "i": "bxI",
+        "X": "wKI",
+        "x": "bKI"
+      }
+    },
     "render": {
       "cellSize": 28
     },
