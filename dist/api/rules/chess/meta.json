@@ -74,6 +74,14 @@
       "special": "An 11×10 board. Camels replace bishops; Wildebeests (Knight+Camel compound) flank the queen."
     },
     {
+      "slug": "djambi",
+      "title": "Djambi",
+      "players": "4",
+      "board": "9×9",
+      "win": "Last chief standing",
+      "special": "Captured pieces become corpses that stay on the board and block movement. Killing a chief transfers that player's surviving pieces to the killer."
+    },
+    {
       "slug": "absorption",
       "title": "Absorption Chess",
       "players": "2",
@@ -416,14 +424,6 @@
       "board": "8×8",
       "win": "Checkmate",
       "special": "Pieces can swap positions with adjacent friendly pieces as an alternative move."
-    },
-    {
-      "slug": "djambi",
-      "title": "Djambi",
-      "players": 4,
-      "board": "9×9",
-      "win": "Be the last player with a Chief remaining",
-      "special": "4-player political strategy on a 9×9 grid. Killed pieces remain as impassable corpses; the center Maze grants extra turns and immunities."
     },
     {
       "slug": "dragon-chess",

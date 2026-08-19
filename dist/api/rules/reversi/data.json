@@ -13,6 +13,7 @@
   ],
   "complexity": "simple",
   "engine": {
+    "interactionModel": "place",
     "topology": {
       "type": "grid",
       "rows": 8,
