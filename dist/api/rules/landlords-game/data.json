@@ -55,6 +55,26 @@
           "player2"
         ],
         "setup": "",
+        "surface": {
+          "base": "parchment",
+          "colors": {
+            "board": "#f0e4c8",
+            "border": "#5a4a30",
+            "inner-bg": "#f0e4c8",
+            "space-stroke": "#5a4a30",
+            "corner-stroke": "#5a4a30",
+            "text": "#3a2a15",
+            "title-text": "#3a2a15",
+            "lot": "#f0e4c8",
+            "necessity": "#f0e4c8",
+            "railroad": "#f0e4c8",
+            "franchise": "#f0e4c8",
+            "luxury": "#f0e4c8",
+            "legacy": "#f0e4c8",
+            "go-to-jail": "#e8d8b8",
+            "corner": "#e8d8b8"
+          }
+        },
         "render": {
           "overflow": "visible"
         },
@@ -96,6 +116,28 @@
           "player2"
         ],
         "setup": "",
+        "surface": {
+          "base": "parchment",
+          "colors": {
+            "board": "#f5edd5",
+            "border": "#6b2020",
+            "inner-bg": "#f8f4e8",
+            "space-stroke": "#3a3020",
+            "corner-stroke": "#3a3020",
+            "text": "#2a2015",
+            "title-text": "#2a2015",
+            "lot": "#6a9a50",
+            "necessity": "#7aaac0",
+            "railroad": "#d4889a",
+            "franchise": "#d4c060",
+            "chance": "#cc3030",
+            "luxury": "#d4889a",
+            "special": "#7aaac0",
+            "go-to-jail": "#d4883a",
+            "corner": "#d4c898",
+            "broker": "#d4c060"
+          }
+        },
         "content": {
           "source": "landlords-game-boards.json",
           "board": "1906-egc"
@@ -134,6 +176,26 @@
           "player2"
         ],
         "setup": "",
+        "surface": {
+          "base": "parchment",
+          "colors": {
+            "board": "#f0e4c8",
+            "border": "#5a4a30",
+            "inner-bg": "#f0e4c8",
+            "space-stroke": "#5a4a30",
+            "corner-stroke": "#5a4a30",
+            "text": "#3a2a15",
+            "title-text": "#3a2a15",
+            "lot": "#f0e4c8",
+            "necessity": "#f0e4c8",
+            "railroad": "#f0e4c8",
+            "franchise": "#f0e4c8",
+            "luxury": "#f0e4c8",
+            "legacy": "#f0e4c8",
+            "go-to-jail": "#e8d8b8",
+            "corner": "#e8d8b8"
+          }
+        },
         "render": {
           "overflow": "visible"
         },
@@ -177,6 +239,36 @@
           "player4"
         ],
         "setup": "",
+        "surface": {
+          "base": "parchment",
+          "colors": {
+            "board": "#f8f4ec",
+            "border": "#2a4a7a",
+            "inner-bg": "#f8f4ec",
+            "space-stroke": "#2a4a7a",
+            "corner-stroke": "#2a4a7a",
+            "text": "#1a2a40",
+            "title-text": "#6b2020",
+            "lot": "#ffffff",
+            "taxes": "#ffffff",
+            "franchise": "#ffffff",
+            "railroad": "#ffffff",
+            "luxury": "#ffffff",
+            "broker": "#ffffff",
+            "jail": "#ffffff",
+            "corner": "#ffffff",
+            "go-to-jail": "#ffffff",
+            "lot-stripe": "#3a8a3a",
+            "taxes-stripe": "#2a5a9a",
+            "franchise-stripe": "#d4a030",
+            "railroad-stripe": "#3a8a3a",
+            "broker-stripe": "#c8b020",
+            "luxury-stripe": "#d4708a",
+            "jail-stripe": "#808080",
+            "go-to-jail-stripe": "#808080",
+            "corner-arc": "#8c2020"
+          }
+        },
         "content": {
           "source": "landlords-game-boards.json",
           "board": "1932-prosperity"
@@ -215,6 +307,28 @@
           "player2"
         ],
         "setup": "",
+        "surface": {
+          "base": "parchment",
+          "colors": {
+            "board": "#f5edd5",
+            "border": "#6b2020",
+            "inner-bg": "#f8f4e8",
+            "space-stroke": "#3a3020",
+            "corner-stroke": "#3a3020",
+            "text": "#2a2015",
+            "title-text": "#2a2015",
+            "lot": "#6a9a50",
+            "necessity": "#7aaac0",
+            "railroad": "#d4889a",
+            "franchise": "#d4c060",
+            "chance": "#cc3030",
+            "luxury": "#d4889a",
+            "special": "#7aaac0",
+            "go-to-jail": "#d4883a",
+            "corner": "#d4c898",
+            "broker": "#d4c060"
+          }
+        },
         "content": {
           "source": "landlords-game-boards.json",
           "board": "1906-egc"

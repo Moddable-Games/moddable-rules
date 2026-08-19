@@ -2,12 +2,12 @@
   "slug": "djambi",
   "parent": "chess",
   "title": "Djambi",
-  "players": 4,
+  "players": "4",
   "board": "9×9",
-  "win": "Be the last player with a Chief remaining",
-  "special": "4-player political strategy on a 9×9 grid. Killed pieces remain as impassable corpses; the center Maze grants extra turns and immunities.",
-  "playable": true,
-  "order": 99,
+  "win": "Last chief standing",
+  "special": "Captured pieces become corpses that stay on the board and block movement. Killing a chief transfers that player's surviving pieces to the killer.",
+  "playable": false,
+  "order": 90,
   "designer": null,
   "category": null,
   "engine": {
@@ -17,43 +17,113 @@
       "cols": 9
     },
     "players": [
-      "white",
-      "black"
+      "red",
+      "yellow",
+      "green",
+      "blue"
     ],
+    "defaultSeat": 3,
     "render": {
-      "cellSize": 38
+      "cellSize": 38,
+      "decorations": [
+        {
+          "type": "markers",
+          "at": [
+            [
+              4,
+              4
+            ]
+          ],
+          "fill": "maze",
+          "size": 14
+        }
+      ]
     },
-    "setup": "amrcxcrma/9/9/9/4M4/9/9/9/AMRCXCRMA",
+    "setup": "yC,yA,yM,3,gM,gA,gC/yR,yD,yM,3,gM,gD,gR/yM,yM,yN,3,gN,gM,gM/9/9/9/bM,bM,bN,3,rN,rM,rM/bR,bD,bM,3,rM,rD,rR/bC,bA,bM,3,rM,rA,rC",
+    "pieces": {
+      "set": "djambi-4player"
+    },
     "vocabulary": {
-      "assassin": {
-        "symbols": {
-          "0": "A",
-          "1": "a"
-        }
-      },
-      "militant": {
-        "symbols": {
-          "0": "M",
-          "1": "m"
-        }
-      },
       "chief": {
         "symbols": {
-          "0": "C",
-          "1": "c"
+          "0": "rC",
+          "1": "yC",
+          "2": "gC",
+          "3": "bC"
+        }
+      },
+      "assassin": {
+        "symbols": {
+          "0": "rA",
+          "1": "yA",
+          "2": "gA",
+          "3": "bA"
+        }
+      },
+      "reporter": {
+        "symbols": {
+          "0": "rR",
+          "1": "yR",
+          "2": "gR",
+          "3": "bR"
+        }
+      },
+      "diplomat": {
+        "symbols": {
+          "0": "rD",
+          "1": "yD",
+          "2": "gD",
+          "3": "bD"
         }
       },
       "necromobile": {
         "symbols": {
-          "0": "X",
-          "1": "x"
+          "0": "rN",
+          "1": "yN",
+          "2": "gN",
+          "3": "bN"
+        }
+      },
+      "militant": {
+        "symbols": {
+          "0": "rM",
+          "1": "yM",
+          "2": "gM",
+          "3": "bM"
+        }
+      },
+      "corpse": {
+        "symbols": {
+          "-1": "X"
         }
       }
     },
     "plugins": {
       "chess": {
+        "playerCount": 4,
+        "castling": false,
+        "enPassant": false,
+        "doubleStep": false,
+        "noCheck": true,
+        "royalType": "chief",
         "pieces": {
+          "chief": {
+            "type": "rider",
+            "dirs": "all"
+          },
           "assassin": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "reporter": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "diplomat": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "necromobile": {
             "type": "rider",
             "dirs": "all"
           },
@@ -61,19 +131,6 @@
             "type": "rider",
             "dirs": "all",
             "maxSteps": 2
-          },
-          "rook": {
-            "type": "rider",
-            "dirs": "all"
-          },
-          "chief": {
-            "type": "rider",
-            "dirs": "all",
-            "maxSteps": 1
-          },
-          "necromobile": {
-            "type": "rider",
-            "dirs": "all"
           }
         }
       }

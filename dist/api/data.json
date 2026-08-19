@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18",
+  "generated": "2026-08-19",
   "families": {
     "agon": {
       "title": "Agon",
@@ -168,6 +168,9 @@
           "type": "none"
         },
         "surface": "felt-green",
+        "pieces": {
+          "set": "mfrasca-skat"
+        },
         "components": {
           "deck": {
             "type": "bavarian-32"
@@ -339,7 +342,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 154,
-        "playable": 135,
+        "playable": 134,
         "withDiagram": 154,
         "topologies": [
           "grid",
@@ -348,6 +351,7 @@
         ]
       },
       "engine": {
+        "interactionModel": "drop",
         "topology": {
           "type": "grid",
           "rows": 8,
@@ -494,6 +498,9 @@
           "type": "none"
         },
         "surface": "felt-green",
+        "pieces": {
+          "set": "dominoes-classic"
+        },
         "components": {
           "deck": {
             "type": "dominoes-28"
@@ -531,6 +538,7 @@
         ]
       },
       "engine": {
+        "interactionModel": "chain",
         "topology": {
           "type": "grid",
           "rows": 8,
@@ -819,6 +827,9 @@
           "type": "none"
         },
         "surface": "felt-green",
+        "pieces": {
+          "set": "hanafuda-traditional"
+        },
         "components": {
           "deck": {
             "type": "hanafuda-48"
@@ -856,6 +867,12 @@
         ]
       },
       "engine": {
+        "interactionModel": "place",
+        "plugins": {
+          "go": {
+            "search": "mcts"
+          }
+        },
         "topology": {
           "type": "grid",
           "rows": 19,
@@ -1281,6 +1298,9 @@
           "type": "none"
         },
         "surface": "felt-green",
+        "pieces": {
+          "set": "mahjong-regular"
+        },
         "components": {
           "deck": {
             "type": "mahjong-136"
@@ -1765,6 +1785,7 @@
         ]
       },
       "engine": {
+        "interactionModel": "place",
         "topology": {
           "type": "grid",
           "rows": 8,
@@ -1958,6 +1979,7 @@
         ]
       },
       "engine": {
+        "interactionModel": "drop",
         "topology": {
           "type": "grid",
           "rows": 9,
@@ -2074,6 +2096,9 @@
           "type": "none"
         },
         "surface": "felt-green",
+        "pieces": {
+          "set": "letele-cards"
+        },
         "components": {
           "deck": {
             "type": "standard-52"
@@ -2115,6 +2140,9 @@
           "type": "none"
         },
         "surface": "felt-green",
+        "pieces": {
+          "set": "playstrategy-backgammon"
+        },
         "components": {
           "dice": {
             "count": 5,
@@ -2454,6 +2482,7 @@
         ]
       },
       "engine": {
+        "interactionModel": "move",
         "topology": {
           "type": "grid",
           "rows": 10,
@@ -2572,7 +2601,7 @@
   "stats": {
     "totalFamilies": 46,
     "totalVariants": 296,
-    "totalPlayable": 177,
+    "totalPlayable": 176,
     "totalDiagrams": 346,
     "topologies": {
       "hex": 23,
