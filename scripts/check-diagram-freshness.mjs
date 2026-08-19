@@ -37,7 +37,7 @@ function getEngineBlocks() {
       if (!data.engine) continue;
 
       const key = `${slug}/${file.replace('.md', '')}`;
-      const engineStr = JSON.stringify(data.engine, Object.keys(data.engine).sort());
+      const engineStr = JSON.stringify(data.engine);
       blocks[key] = hashString(engineStr);
     }
   }
