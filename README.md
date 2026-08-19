@@ -222,6 +222,14 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-19
+- Removed `dist/` from all public-facing URLs — game pages now serve from root (e.g. `/chess/variants/standard/`)
+- Coordinated URL migration across moddable-rules, moddable-engine, moddable-tools, moddable-web
+- Fixed diagram-hashes.json hash function that was blind to nested topology/setup fields (#267)
+- Fixed fairy-piece case mismatch in moddable-engine (wdE→wDE, bdE→bDE, wdH→wDH, bdH→bDH) — resolved recurring sync:boards collision
+- Merged PR #266 (restore fairy-piece symbols stripped by board sync)
+- Version 1.4.0
+
 #### 2026-08-16
 - Search index: removed content truncation, added type discrimination and semantic section classification
 - Fixed RPG data indexing bug (cat.dataType instead of manifest.dataType) — entries jumped from 2,472 to 8,902
