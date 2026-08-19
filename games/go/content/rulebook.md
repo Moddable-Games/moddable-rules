@@ -42,7 +42,7 @@ engine:
     cellSize: 20
     labels: true
     inset: 15
-    idStyle: go
+    idStyle: intersection
     ops:
       - op: rect
         fill: cell-light
