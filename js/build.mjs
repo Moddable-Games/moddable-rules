@@ -812,6 +812,8 @@ ${cards}
 `;
 
   writeFileSync(resolve(ROOT, 'index.html'), html);
+  const prodHtml = html.replace(/href="dist\//g, 'href="');
+  writeFileSync(resolve(ROOT, 'dist', 'index.html'), prodHtml);
   console.log('  Built index.html (landing page)');
 }
 
@@ -1073,7 +1075,7 @@ function buildBoards() {
 
       let rulesUrl = '';
       if (existsSync(resolve(varDir || '', `${varSlug}.md`))) {
-        rulesUrl = `dist/${family}/variants/${varSlug}/index.html`;
+        rulesUrl = `${family}/variants/${varSlug}/index.html`;
       }
 
       const svgEntry = {
@@ -1094,7 +1096,7 @@ function buildBoards() {
       }
       if (gm) {
         svgEntry.reason = 'component-game';
-        svgEntry.rulesUrl = `dist/${family}/games/${varSlug}/index.html`;
+        svgEntry.rulesUrl = `${family}/games/${varSlug}/index.html`;
         const deckType = rbMeta.engine?.components?.deck?.type || null;
         if (deckType) svgEntry.deckType = deckType;
       }
@@ -1123,7 +1125,7 @@ function buildBoards() {
         variantTitle: varTitle,
         topology: topo,
         svg: null,
-        rulesUrl: `dist/${family}/variants/${slug}/index.html`,
+        rulesUrl: `${family}/variants/${slug}/index.html`,
         status: 'missing',
         reason,
       });
@@ -1143,7 +1145,7 @@ function buildBoards() {
         variantTitle: varTitle,
         topology: componentType,
         svg: null,
-        rulesUrl: `dist/${family}/games/${slug}/index.html`,
+        rulesUrl: `${family}/games/${slug}/index.html`,
         status: 'missing',
         reason: 'component-game',
       };
@@ -1163,7 +1165,7 @@ function buildBoards() {
           variantTitle: familyTitle,
           topology: 'rpg',
           svg: null,
-          rulesUrl: `dist/${family}/index.html`,
+          rulesUrl: `${family}/index.html`,
           status: 'generator',
           reason: 'rpg-provider',
         });
@@ -1184,14 +1186,14 @@ function buildBoards() {
               variantTitle: 'Character Sheet',
               topology: 'rpg',
               svg: hasChargenSvg ? (existsSync(resolve(GAMES_DIR, '..', chargenSvg)) ? chargenSvg : chargenSvgPage1) : null,
-              rulesUrl: `dist/${family}/rules/character-sheet/index.html`,
+              rulesUrl: `${family}/rules/character-sheet/index.html`,
               status: hasChargenSvg ? 'rendered' : 'generator',
               reason: 'rpg-chargen',
             });
           } else if (hasChargenSvg && chargenExisting.status === 'generator') {
             chargenExisting.svg = existsSync(resolve(GAMES_DIR, '..', chargenSvg)) ? chargenSvg : chargenSvgPage1;
             chargenExisting.status = 'rendered';
-            chargenExisting.rulesUrl = `dist/${family}/rules/character-sheet/index.html`;
+            chargenExisting.rulesUrl = `${family}/rules/character-sheet/index.html`;
           }
         }
       }
@@ -1210,7 +1212,7 @@ function buildBoards() {
         variantTitle: familyTitle,
         topology: 'hex',
         svg: null,
-        rulesUrl: `dist/${family}/index.html`,
+        rulesUrl: `${family}/index.html`,
         status: 'generator',
         reason: 'hex-generator',
         generator: (typeof rbMeta.engine?.generator === 'object' ? rbMeta.engine.generator.id : rbMeta.engine?.generator) || family,

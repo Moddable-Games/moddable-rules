@@ -6,7 +6,7 @@
     "variantTitle": "Agon (Standard)",
     "topology": "hex",
     "svg": "games/agon/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/agon/variants/standard/index.html",
+    "rulesUrl": "agon/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -17,7 +17,7 @@
     "variantTitle": "Royal Garrison",
     "topology": "graph",
     "svg": "games/asalto/diagrams/svg/royal-garrison-board.svg",
-    "rulesUrl": "dist/asalto/variants/royal-garrison/index.html",
+    "rulesUrl": "asalto/variants/royal-garrison/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -28,7 +28,7 @@
     "variantTitle": "Asalto (Standard)",
     "topology": "graph",
     "svg": "games/asalto/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/asalto/variants/standard/index.html",
+    "rulesUrl": "asalto/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -39,7 +39,7 @@
     "variantTitle": "Acey-Deucey",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/acey-deucey-board.svg",
-    "rulesUrl": "dist/backgammon/variants/acey-deucey/index.html",
+    "rulesUrl": "backgammon/variants/acey-deucey/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -50,7 +50,7 @@
     "variantTitle": "Chouette",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
-    "rulesUrl": "dist/backgammon/variants/chouette/index.html",
+    "rulesUrl": "backgammon/variants/chouette/index.html",
     "status": "rendered",
     "players": "3–6"
   },
@@ -61,7 +61,7 @@
     "variantTitle": "Fevga",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/fevga-board.svg",
-    "rulesUrl": "dist/backgammon/variants/fevga/index.html",
+    "rulesUrl": "backgammon/variants/fevga/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -72,7 +72,7 @@
     "variantTitle": "Hypergammon",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/hypergammon-board.svg",
-    "rulesUrl": "dist/backgammon/variants/hypergammon/index.html",
+    "rulesUrl": "backgammon/variants/hypergammon/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -83,7 +83,7 @@
     "variantTitle": "Nackgammon",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/nackgammon-board.svg",
-    "rulesUrl": "dist/backgammon/variants/nackgammon/index.html",
+    "rulesUrl": "backgammon/variants/nackgammon/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -94,7 +94,7 @@
     "variantTitle": "Nardi",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
-    "rulesUrl": "dist/backgammon/variants/nardi/index.html",
+    "rulesUrl": "backgammon/variants/nardi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -105,7 +105,7 @@
     "variantTitle": "Plakoto",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/plakoto-board.svg",
-    "rulesUrl": "dist/backgammon/variants/plakoto/index.html",
+    "rulesUrl": "backgammon/variants/plakoto/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -116,7 +116,7 @@
     "variantTitle": "Standard Backgammon",
     "topology": "track",
     "svg": "games/backgammon/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/backgammon/variants/standard/index.html",
+    "rulesUrl": "backgammon/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -127,7 +127,7 @@
     "variantTitle": "Schafkopf",
     "topology": "tableau",
     "svg": "games/bavarian-32/diagrams/svg/schafkopf-board.svg",
-    "rulesUrl": "dist/bavarian-32/games/schafkopf/index.html",
+    "rulesUrl": "bavarian-32/games/schafkopf/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "bavarian-32",
@@ -140,7 +140,7 @@
     "variantTitle": "Skat",
     "topology": "tableau",
     "svg": "games/bavarian-32/diagrams/svg/skat-board.svg",
-    "rulesUrl": "dist/bavarian-32/games/skat/index.html",
+    "rulesUrl": "bavarian-32/games/skat/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "bavarian-32",
@@ -153,7 +153,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/brp/diagrams/svg/brp-character-sheet.svg",
-    "rulesUrl": "dist/brp/rules/character-sheet/index.html",
+    "rulesUrl": "brp/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -164,7 +164,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/cairn/diagrams/svg/cairn-character-sheet.svg",
-    "rulesUrl": "dist/cairn/rules/character-sheet/index.html",
+    "rulesUrl": "cairn/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -175,7 +175,7 @@
     "variantTitle": "Chaupar (Standard)",
     "topology": "grid",
     "svg": "games/chaupar/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/chaupar/variants/standard/index.html",
+    "rulesUrl": "chaupar/variants/standard/index.html",
     "status": "rendered",
     "players": "4"
   },
@@ -186,7 +186,7 @@
     "variantTitle": "Absorption Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/absorption-board.svg",
-    "rulesUrl": "dist/chess/variants/absorption/index.html",
+    "rulesUrl": "chess/variants/absorption/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -197,7 +197,7 @@
     "variantTitle": "Alice Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/alice-board.svg",
-    "rulesUrl": "dist/chess/variants/alice/index.html",
+    "rulesUrl": "chess/variants/alice/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -208,7 +208,7 @@
     "variantTitle": "Almost Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/almost-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/almost-chess/index.html",
+    "rulesUrl": "chess/variants/almost-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -219,7 +219,7 @@
     "variantTitle": "Amazon Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/amazon-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/amazon-chess/index.html",
+    "rulesUrl": "chess/variants/amazon-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -230,7 +230,7 @@
     "variantTitle": "Andernach Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/andernach-board.svg",
-    "rulesUrl": "dist/chess/variants/andernach/index.html",
+    "rulesUrl": "chess/variants/andernach/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -241,7 +241,7 @@
     "variantTitle": "Anti-King Chess II",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/anti-king-chess-2-board.svg",
-    "rulesUrl": "dist/chess/variants/anti-king-chess-2/index.html",
+    "rulesUrl": "chess/variants/anti-king-chess-2/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -252,7 +252,7 @@
     "variantTitle": "Antichess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/antichess-board.svg",
-    "rulesUrl": "dist/chess/variants/antichess/index.html",
+    "rulesUrl": "chess/variants/antichess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -263,7 +263,7 @@
     "variantTitle": "Archchess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/archchess-board.svg",
-    "rulesUrl": "dist/chess/variants/archchess/index.html",
+    "rulesUrl": "chess/variants/archchess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -274,7 +274,7 @@
     "variantTitle": "ASEAN Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/asean-board.svg",
-    "rulesUrl": "dist/chess/variants/asean/index.html",
+    "rulesUrl": "chess/variants/asean/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -285,7 +285,7 @@
     "variantTitle": "Atomic Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/atomic-board.svg",
-    "rulesUrl": "dist/chess/variants/atomic/index.html",
+    "rulesUrl": "chess/variants/atomic/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -296,7 +296,7 @@
     "variantTitle": "Avalanche Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/avalanche-board.svg",
-    "rulesUrl": "dist/chess/variants/avalanche/index.html",
+    "rulesUrl": "chess/variants/avalanche/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -307,7 +307,7 @@
     "variantTitle": "Balbo's Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/balbos-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/balbos-chess/index.html",
+    "rulesUrl": "chess/variants/balbos-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -318,7 +318,7 @@
     "variantTitle": "Benedict Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/benedict-board.svg",
-    "rulesUrl": "dist/chess/variants/benedict/index.html",
+    "rulesUrl": "chess/variants/benedict/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -329,7 +329,7 @@
     "variantTitle": "Berolina Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/berolina-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/berolina-chess/index.html",
+    "rulesUrl": "chess/variants/berolina-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -340,7 +340,7 @@
     "variantTitle": "Berserk Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/berserk-board.svg",
-    "rulesUrl": "dist/chess/variants/berserk/index.html",
+    "rulesUrl": "chess/variants/berserk/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -351,7 +351,7 @@
     "variantTitle": "Bird's Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/birds-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/birds-chess/index.html",
+    "rulesUrl": "chess/variants/birds-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -362,7 +362,7 @@
     "variantTitle": "Blind Chess (Banqi)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/blind-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/blind-chess/index.html",
+    "rulesUrl": "chess/variants/blind-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -373,7 +373,7 @@
     "variantTitle": "Breakthrough",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/breakthrough-board.svg",
-    "rulesUrl": "dist/chess/variants/breakthrough/index.html",
+    "rulesUrl": "chess/variants/breakthrough/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -384,7 +384,7 @@
     "variantTitle": "Brusky's Hexagonal Chess",
     "topology": "hex",
     "svg": "games/chess/diagrams/svg/brusky-board.svg",
-    "rulesUrl": "dist/chess/variants/brusky/index.html",
+    "rulesUrl": "chess/variants/brusky/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -395,7 +395,7 @@
     "variantTitle": "Byzantine Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/byzantine-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/byzantine-chess/index.html",
+    "rulesUrl": "chess/variants/byzantine-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -406,7 +406,7 @@
     "variantTitle": "Capablanca Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/capablanca-board.svg",
-    "rulesUrl": "dist/chess/variants/capablanca/index.html",
+    "rulesUrl": "chess/variants/capablanca/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -417,7 +417,7 @@
     "variantTitle": "Carrera's Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/carrera-board.svg",
-    "rulesUrl": "dist/chess/variants/carrera/index.html",
+    "rulesUrl": "chess/variants/carrera/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -428,7 +428,7 @@
     "variantTitle": "Centennial Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/centennial-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/centennial-chess/index.html",
+    "rulesUrl": "chess/variants/centennial-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -439,7 +439,7 @@
     "variantTitle": "Chak",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/chak-board.svg",
-    "rulesUrl": "dist/chess/variants/chak/index.html",
+    "rulesUrl": "chess/variants/chak/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -450,7 +450,7 @@
     "variantTitle": "Chancellor Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/chancellor-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/chancellor-chess/index.html",
+    "rulesUrl": "chess/variants/chancellor-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -461,7 +461,7 @@
     "variantTitle": "Chaturanga",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/chaturanga-board.svg",
-    "rulesUrl": "dist/chess/variants/chaturanga/index.html",
+    "rulesUrl": "chess/variants/chaturanga/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -472,7 +472,7 @@
     "variantTitle": "Checkless Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/checkless-board.svg",
-    "rulesUrl": "dist/chess/variants/checkless/index.html",
+    "rulesUrl": "chess/variants/checkless/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -483,7 +483,7 @@
     "variantTitle": "Chennis",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/chennis-board.svg",
-    "rulesUrl": "dist/chess/variants/chennis/index.html",
+    "rulesUrl": "chess/variants/chennis/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -494,7 +494,7 @@
     "variantTitle": "Chigorin",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/chigorin-board.svg",
-    "rulesUrl": "dist/chess/variants/chigorin/index.html",
+    "rulesUrl": "chess/variants/chigorin/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -505,7 +505,7 @@
     "variantTitle": "Circular Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/circular-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/circular-chess/index.html",
+    "rulesUrl": "chess/variants/circular-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -516,7 +516,7 @@
     "variantTitle": "Citadel Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/citadel-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/citadel-chess/index.html",
+    "rulesUrl": "chess/variants/citadel-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -527,7 +527,7 @@
     "variantTitle": "Codrus",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/codrus-board.svg",
-    "rulesUrl": "dist/chess/variants/codrus/index.html",
+    "rulesUrl": "chess/variants/codrus/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -538,7 +538,7 @@
     "variantTitle": "Congo",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/congo-board.svg",
-    "rulesUrl": "dist/chess/variants/congo/index.html",
+    "rulesUrl": "chess/variants/congo/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -549,7 +549,7 @@
     "variantTitle": "Courier Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/courier-board.svg",
-    "rulesUrl": "dist/chess/variants/courier/index.html",
+    "rulesUrl": "chess/variants/courier/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -560,7 +560,7 @@
     "variantTitle": "Crazy 38's",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/crazy-38s-board.svg",
-    "rulesUrl": "dist/chess/variants/crazy-38s/index.html",
+    "rulesUrl": "chess/variants/crazy-38s/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -571,7 +571,7 @@
     "variantTitle": "Crazyhouse",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/crazyhouse-board.svg",
-    "rulesUrl": "dist/chess/variants/crazyhouse/index.html",
+    "rulesUrl": "chess/variants/crazyhouse/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -582,7 +582,7 @@
     "variantTitle": "Cylinder Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/cylinder-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/cylinder-chess/index.html",
+    "rulesUrl": "chess/variants/cylinder-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -593,7 +593,7 @@
     "variantTitle": "Cylindrical Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/cylindrical-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/cylindrical-chess/index.html",
+    "rulesUrl": "chess/variants/cylindrical-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -604,7 +604,7 @@
     "variantTitle": "Dark Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/dark-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/dark-chess/index.html",
+    "rulesUrl": "chess/variants/dark-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -615,7 +615,7 @@
     "variantTitle": "De Vasa's Hexagonal Chess",
     "topology": "hex",
     "svg": "games/chess/diagrams/svg/de-vasa-board.svg",
-    "rulesUrl": "dist/chess/variants/de-vasa/index.html",
+    "rulesUrl": "chess/variants/de-vasa/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -626,7 +626,7 @@
     "variantTitle": "Delirious Bughouse",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/delirious-bughouse-board.svg",
-    "rulesUrl": "dist/chess/variants/delirious-bughouse/index.html",
+    "rulesUrl": "chess/variants/delirious-bughouse/index.html",
     "status": "rendered",
     "players": "4 (2 teams of 2)"
   },
@@ -637,7 +637,7 @@
     "variantTitle": "Diana Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/diana-board.svg",
-    "rulesUrl": "dist/chess/variants/diana/index.html",
+    "rulesUrl": "chess/variants/diana/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -648,7 +648,7 @@
     "variantTitle": "Dice Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/dice-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/dice-chess/index.html",
+    "rulesUrl": "chess/variants/dice-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -659,7 +659,7 @@
     "variantTitle": "Displacement Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/displacement-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/displacement-chess/index.html",
+    "rulesUrl": "chess/variants/displacement-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -670,7 +670,7 @@
     "variantTitle": "Djambi",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/djambi-board.svg",
-    "rulesUrl": "dist/chess/variants/djambi/index.html",
+    "rulesUrl": "chess/variants/djambi/index.html",
     "status": "rendered",
     "players": "4"
   },
@@ -681,7 +681,7 @@
     "variantTitle": "Dragon Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/dragon-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/dragon-chess/index.html",
+    "rulesUrl": "chess/variants/dragon-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -692,7 +692,7 @@
     "variantTitle": "Duck Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/duck-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/duck-chess/index.html",
+    "rulesUrl": "chess/variants/duck-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -703,7 +703,7 @@
     "variantTitle": "Einstein Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/einstein-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/einstein-chess/index.html",
+    "rulesUrl": "chess/variants/einstein-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -714,7 +714,7 @@
     "variantTitle": "Empire Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/empire-board.svg",
-    "rulesUrl": "dist/chess/variants/empire/index.html",
+    "rulesUrl": "chess/variants/empire/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -725,7 +725,7 @@
     "variantTitle": "Endgame Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/endgame-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/endgame-chess/index.html",
+    "rulesUrl": "chess/variants/endgame-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -736,7 +736,7 @@
     "variantTitle": "Extinction Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/extinction-board.svg",
-    "rulesUrl": "dist/chess/variants/extinction/index.html",
+    "rulesUrl": "chess/variants/extinction/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -747,7 +747,7 @@
     "variantTitle": "Fanorona Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/fanorona-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/fanorona-chess/index.html",
+    "rulesUrl": "chess/variants/fanorona-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -758,7 +758,7 @@
     "variantTitle": "Fischer Random (Chess960)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/fischer-random-board.svg",
-    "rulesUrl": "dist/chess/variants/fischer-random/index.html",
+    "rulesUrl": "chess/variants/fischer-random/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -769,7 +769,7 @@
     "variantTitle": "Five-Check",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/five-check-board.svg",
-    "rulesUrl": "dist/chess/variants/five-check/index.html",
+    "rulesUrl": "chess/variants/five-check/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -780,7 +780,7 @@
     "variantTitle": "Flip Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/flip-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/flip-chess/index.html",
+    "rulesUrl": "chess/variants/flip-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -791,7 +791,7 @@
     "variantTitle": "Fog of War Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/fog-of-war-board.svg",
-    "rulesUrl": "dist/chess/variants/fog-of-war/index.html",
+    "rulesUrl": "chess/variants/fog-of-war/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -802,7 +802,7 @@
     "variantTitle": "Four-Handed Chess (Chaturaji)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/four-handed-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/four-handed-chess/index.html",
+    "rulesUrl": "chess/variants/four-handed-chess/index.html",
     "status": "rendered",
     "players": 4
   },
@@ -813,7 +813,7 @@
     "variantTitle": "Giveaway",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/giveaway-board.svg",
-    "rulesUrl": "dist/chess/variants/giveaway/index.html",
+    "rulesUrl": "chess/variants/giveaway/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -824,7 +824,7 @@
     "variantTitle": "Glinski's Hexagonal Chess",
     "topology": "hex",
     "svg": "games/chess/diagrams/svg/glinski-board.svg",
-    "rulesUrl": "dist/chess/variants/glinski/index.html",
+    "rulesUrl": "chess/variants/glinski/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -835,7 +835,7 @@
     "variantTitle": "Grand Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/grand-board.svg",
-    "rulesUrl": "dist/chess/variants/grand/index.html",
+    "rulesUrl": "chess/variants/grand/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -846,7 +846,7 @@
     "variantTitle": "Grande Acedrex",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/grande-acedrex-board.svg",
-    "rulesUrl": "dist/chess/variants/grande-acedrex/index.html",
+    "rulesUrl": "chess/variants/grande-acedrex/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -857,7 +857,7 @@
     "variantTitle": "Standard Grasshopper Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/grasshopper-board.svg",
-    "rulesUrl": "dist/chess/variants/grasshopper/index.html",
+    "rulesUrl": "chess/variants/grasshopper/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -868,7 +868,7 @@
     "variantTitle": "Grid Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/grid-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/grid-chess/index.html",
+    "rulesUrl": "chess/variants/grid-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -879,7 +879,7 @@
     "variantTitle": "Gustav III's Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/gustav-iii-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/gustav-iii-chess/index.html",
+    "rulesUrl": "chess/variants/gustav-iii-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -890,7 +890,7 @@
     "variantTitle": "Gygax Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/gygax-board.svg",
-    "rulesUrl": "dist/chess/variants/gygax/index.html",
+    "rulesUrl": "chess/variants/gygax/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -901,7 +901,7 @@
     "variantTitle": "Half Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/half-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/half-chess/index.html",
+    "rulesUrl": "chess/variants/half-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -912,7 +912,7 @@
     "variantTitle": "Hexapawn",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/hexapawn-board.svg",
-    "rulesUrl": "dist/chess/variants/hexapawn/index.html",
+    "rulesUrl": "chess/variants/hexapawn/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -923,7 +923,7 @@
     "variantTitle": "Hole Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/hole-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/hole-chess/index.html",
+    "rulesUrl": "chess/variants/hole-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -934,7 +934,7 @@
     "variantTitle": "Hoppel-Poppel",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/hoppel-poppel-board.svg",
-    "rulesUrl": "dist/chess/variants/hoppel-poppel/index.html",
+    "rulesUrl": "chess/variants/hoppel-poppel/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -945,7 +945,7 @@
     "variantTitle": "Horde Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/horde-board.svg",
-    "rulesUrl": "dist/chess/variants/horde/index.html",
+    "rulesUrl": "chess/variants/horde/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -956,7 +956,7 @@
     "variantTitle": "Hostage Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/hostage-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/hostage-chess/index.html",
+    "rulesUrl": "chess/variants/hostage-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -967,7 +967,7 @@
     "variantTitle": "Immunization Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/immunization-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/immunization-chess/index.html",
+    "rulesUrl": "chess/variants/immunization-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -978,7 +978,7 @@
     "variantTitle": "Janus Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/janus-board.svg",
-    "rulesUrl": "dist/chess/variants/janus/index.html",
+    "rulesUrl": "chess/variants/janus/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -989,7 +989,7 @@
     "variantTitle": "Khan's Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/khans-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/khans-chess/index.html",
+    "rulesUrl": "chess/variants/khans-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1000,7 +1000,7 @@
     "variantTitle": "King of the Hill",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/king-of-the-hill-board.svg",
-    "rulesUrl": "dist/chess/variants/king-of-the-hill/index.html",
+    "rulesUrl": "chess/variants/king-of-the-hill/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1011,7 +1011,7 @@
     "variantTitle": "Klein Bottle Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/klein-bottle-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/klein-bottle-chess/index.html",
+    "rulesUrl": "chess/variants/klein-bottle-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1022,7 +1022,7 @@
     "variantTitle": "Knightmate",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/knightmate-board.svg",
-    "rulesUrl": "dist/chess/variants/knightmate/index.html",
+    "rulesUrl": "chess/variants/knightmate/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1033,7 +1033,7 @@
     "variantTitle": "Kriegspiel",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/kriegspiel-board.svg",
-    "rulesUrl": "dist/chess/variants/kriegspiel/index.html",
+    "rulesUrl": "chess/variants/kriegspiel/index.html",
     "status": "rendered",
     "players": "2 + referee"
   },
@@ -1044,7 +1044,7 @@
     "variantTitle": "Legan Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/legan-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/legan-chess/index.html",
+    "rulesUrl": "chess/variants/legan-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1055,7 +1055,7 @@
     "variantTitle": "Los Alamos",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/los-alamos-board.svg",
-    "rulesUrl": "dist/chess/variants/los-alamos/index.html",
+    "rulesUrl": "chess/variants/los-alamos/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1066,7 +1066,7 @@
     "variantTitle": "Los Alamos Vierschach",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/los-alamos-vierschach-board.svg",
-    "rulesUrl": "dist/chess/variants/los-alamos-vierschach/index.html",
+    "rulesUrl": "chess/variants/los-alamos-vierschach/index.html",
     "status": "rendered",
     "players": "4 (2 teams of 2)"
   },
@@ -1077,7 +1077,7 @@
     "variantTitle": "Madrasi Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/madrasi-board.svg",
-    "rulesUrl": "dist/chess/variants/madrasi/index.html",
+    "rulesUrl": "chess/variants/madrasi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1088,7 +1088,7 @@
     "variantTitle": "Maharaja & Sepoys",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/maharaja-board.svg",
-    "rulesUrl": "dist/chess/variants/maharaja/index.html",
+    "rulesUrl": "chess/variants/maharaja/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1099,7 +1099,7 @@
     "variantTitle": "Makpong",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/makpong-board.svg",
-    "rulesUrl": "dist/chess/variants/makpong/index.html",
+    "rulesUrl": "chess/variants/makpong/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1110,7 +1110,7 @@
     "variantTitle": "Makruk",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/makruk-board.svg",
-    "rulesUrl": "dist/chess/variants/makruk/index.html",
+    "rulesUrl": "chess/variants/makruk/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1121,7 +1121,7 @@
     "variantTitle": "Mansindam (Pantheon Tale)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/mansindam-board.svg",
-    "rulesUrl": "dist/chess/variants/mansindam/index.html",
+    "rulesUrl": "chess/variants/mansindam/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1132,7 +1132,7 @@
     "variantTitle": "Marseillais Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/marseillais-board.svg",
-    "rulesUrl": "dist/chess/variants/marseillais/index.html",
+    "rulesUrl": "chess/variants/marseillais/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1143,7 +1143,7 @@
     "variantTitle": "McCooey's Hexagonal Chess",
     "topology": "hex",
     "svg": "games/chess/diagrams/svg/mccooey-board.svg",
-    "rulesUrl": "dist/chess/variants/mccooey/index.html",
+    "rulesUrl": "chess/variants/mccooey/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1154,7 +1154,7 @@
     "variantTitle": "Medusa Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/medusa-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/medusa-chess/index.html",
+    "rulesUrl": "chess/variants/medusa-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1165,7 +1165,7 @@
     "variantTitle": "Metamachy",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/metamachy-board.svg",
-    "rulesUrl": "dist/chess/variants/metamachy/index.html",
+    "rulesUrl": "chess/variants/metamachy/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1176,7 +1176,7 @@
     "variantTitle": "Mini Hexchess",
     "topology": "hex",
     "svg": "games/chess/diagrams/svg/mini-hexchess-board.svg",
-    "rulesUrl": "dist/chess/variants/mini-hexchess/index.html",
+    "rulesUrl": "chess/variants/mini-hexchess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1187,7 +1187,7 @@
     "variantTitle": "Minichess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/minichess-board.svg",
-    "rulesUrl": "dist/chess/variants/minichess/index.html",
+    "rulesUrl": "chess/variants/minichess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1198,7 +1198,7 @@
     "variantTitle": "Möbius Strip Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/mobius-strip-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/mobius-strip-chess/index.html",
+    "rulesUrl": "chess/variants/mobius-strip-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1209,7 +1209,7 @@
     "variantTitle": "Monster Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/monster-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/monster-chess/index.html",
+    "rulesUrl": "chess/variants/monster-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1220,7 +1220,7 @@
     "variantTitle": "Standard Nightrider Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/nightrider-board.svg",
-    "rulesUrl": "dist/chess/variants/nightrider/index.html",
+    "rulesUrl": "chess/variants/nightrider/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1231,7 +1231,7 @@
     "variantTitle": "No Castling Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/no-castling-board.svg",
-    "rulesUrl": "dist/chess/variants/no-castling/index.html",
+    "rulesUrl": "chess/variants/no-castling/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1242,7 +1242,7 @@
     "variantTitle": "No Retreat",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/no-retreat-board.svg",
-    "rulesUrl": "dist/chess/variants/no-retreat/index.html",
+    "rulesUrl": "chess/variants/no-retreat/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1253,7 +1253,7 @@
     "variantTitle": "Oblong Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/oblong-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/oblong-chess/index.html",
+    "rulesUrl": "chess/variants/oblong-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1264,7 +1264,7 @@
     "variantTitle": "Omega Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/omega-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/omega-chess/index.html",
+    "rulesUrl": "chess/variants/omega-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1275,7 +1275,7 @@
     "variantTitle": "Omnicide",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/omnicide-board.svg",
-    "rulesUrl": "dist/chess/variants/omnicide/index.html",
+    "rulesUrl": "chess/variants/omnicide/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1286,7 +1286,7 @@
     "variantTitle": "Orda Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/orda-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/orda-chess/index.html",
+    "rulesUrl": "chess/variants/orda-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1297,7 +1297,7 @@
     "variantTitle": "Orda Mirror",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/orda-mirror-board.svg",
-    "rulesUrl": "dist/chess/variants/orda-mirror/index.html",
+    "rulesUrl": "chess/variants/orda-mirror/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1308,7 +1308,7 @@
     "variantTitle": "Ouk Chaktrang (Cambodian Chess)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/ouk-chaktrang-board.svg",
-    "rulesUrl": "dist/chess/variants/ouk-chaktrang/index.html",
+    "rulesUrl": "chess/variants/ouk-chaktrang/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1319,7 +1319,7 @@
     "variantTitle": "Patrol Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/patrol-board.svg",
-    "rulesUrl": "dist/chess/variants/patrol/index.html",
+    "rulesUrl": "chess/variants/patrol/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1330,7 +1330,7 @@
     "variantTitle": "Pawns Only",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/pawns-only-board.svg",
-    "rulesUrl": "dist/chess/variants/pawns-only/index.html",
+    "rulesUrl": "chess/variants/pawns-only/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1341,7 +1341,7 @@
     "variantTitle": "Peasants' Revolt",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/peasants-revolt-board.svg",
-    "rulesUrl": "dist/chess/variants/peasants-revolt/index.html",
+    "rulesUrl": "chess/variants/peasants-revolt/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1352,7 +1352,7 @@
     "variantTitle": "Petty Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/petty-board.svg",
-    "rulesUrl": "dist/chess/variants/petty/index.html",
+    "rulesUrl": "chess/variants/petty/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1363,7 +1363,7 @@
     "variantTitle": "Placement Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/placement-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/placement-chess/index.html",
+    "rulesUrl": "chess/variants/placement-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1374,7 +1374,7 @@
     "variantTitle": "Pocket Knight Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/pocket-knight-board.svg",
-    "rulesUrl": "dist/chess/variants/pocket-knight/index.html",
+    "rulesUrl": "chess/variants/pocket-knight/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1385,7 +1385,7 @@
     "variantTitle": "Poison Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/poison-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/poison-chess/index.html",
+    "rulesUrl": "chess/variants/poison-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1396,7 +1396,7 @@
     "variantTitle": "Progressive",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/progressive-board.svg",
-    "rulesUrl": "dist/chess/variants/progressive/index.html",
+    "rulesUrl": "chess/variants/progressive/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1407,7 +1407,7 @@
     "variantTitle": "Progressive Italian",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/progressive-italian-board.svg",
-    "rulesUrl": "dist/chess/variants/progressive-italian/index.html",
+    "rulesUrl": "chess/variants/progressive-italian/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1418,7 +1418,7 @@
     "variantTitle": "Racing Kings",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/racing-kings-board.svg",
-    "rulesUrl": "dist/chess/variants/racing-kings/index.html",
+    "rulesUrl": "chess/variants/racing-kings/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1429,7 +1429,7 @@
     "variantTitle": "Raumschach",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/raumschach-board.svg",
-    "rulesUrl": "dist/chess/variants/raumschach/index.html",
+    "rulesUrl": "chess/variants/raumschach/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1440,7 +1440,7 @@
     "variantTitle": "Recruitment Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/recruitment-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/recruitment-chess/index.html",
+    "rulesUrl": "chess/variants/recruitment-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1451,7 +1451,7 @@
     "variantTitle": "Rifle Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/rifle-board.svg",
-    "rulesUrl": "dist/chess/variants/rifle/index.html",
+    "rulesUrl": "chess/variants/rifle/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1462,7 +1462,7 @@
     "variantTitle": "Rollerball",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/rollerball-board.svg",
-    "rulesUrl": "dist/chess/variants/rollerball/index.html",
+    "rulesUrl": "chess/variants/rollerball/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1473,7 +1473,7 @@
     "variantTitle": "Romanchenko's Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/romanchenkos-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/romanchenkos-chess/index.html",
+    "rulesUrl": "chess/variants/romanchenkos-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1484,7 +1484,7 @@
     "variantTitle": "S-Chess (Seirawan Chess)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/s-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/s-chess/index.html",
+    "rulesUrl": "chess/variants/s-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1495,7 +1495,7 @@
     "variantTitle": "Senterej",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/senterej-board.svg",
-    "rulesUrl": "dist/chess/variants/senterej/index.html",
+    "rulesUrl": "chess/variants/senterej/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1506,7 +1506,7 @@
     "variantTitle": "Shafran's Hexagonal Chess",
     "topology": "hex",
     "svg": "games/chess/diagrams/svg/shafran-board.svg",
-    "rulesUrl": "dist/chess/variants/shafran/index.html",
+    "rulesUrl": "chess/variants/shafran/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1517,7 +1517,7 @@
     "variantTitle": "Shako",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/shako-board.svg",
-    "rulesUrl": "dist/chess/variants/shako/index.html",
+    "rulesUrl": "chess/variants/shako/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1528,7 +1528,7 @@
     "variantTitle": "Shatar",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/shatar-board.svg",
-    "rulesUrl": "dist/chess/variants/shatar/index.html",
+    "rulesUrl": "chess/variants/shatar/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1539,7 +1539,7 @@
     "variantTitle": "Shatranj",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/shatranj-board.svg",
-    "rulesUrl": "dist/chess/variants/shatranj/index.html",
+    "rulesUrl": "chess/variants/shatranj/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1550,7 +1550,7 @@
     "variantTitle": "Shatranj Kamil",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/shatranj-kamil-board.svg",
-    "rulesUrl": "dist/chess/variants/shatranj-kamil/index.html",
+    "rulesUrl": "chess/variants/shatranj-kamil/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1561,7 +1561,7 @@
     "variantTitle": "Shinobi Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/shinobi-board.svg",
-    "rulesUrl": "dist/chess/variants/shinobi/index.html",
+    "rulesUrl": "chess/variants/shinobi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1572,7 +1572,7 @@
     "variantTitle": "Shinobi+",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/shinobiplus-board.svg",
-    "rulesUrl": "dist/chess/variants/shinobiplus/index.html",
+    "rulesUrl": "chess/variants/shinobiplus/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1583,7 +1583,7 @@
     "variantTitle": "Shogun Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/shogun-board.svg",
-    "rulesUrl": "dist/chess/variants/shogun/index.html",
+    "rulesUrl": "chess/variants/shogun/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1594,7 +1594,7 @@
     "variantTitle": "Single-Check",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/single-check-board.svg",
-    "rulesUrl": "dist/chess/variants/single-check/index.html",
+    "rulesUrl": "chess/variants/single-check/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1605,7 +1605,7 @@
     "variantTitle": "Sittuyin",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/sittuyin-board.svg",
-    "rulesUrl": "dist/chess/variants/sittuyin/index.html",
+    "rulesUrl": "chess/variants/sittuyin/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1616,7 +1616,7 @@
     "variantTitle": "Spartan Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/spartan-board.svg",
-    "rulesUrl": "dist/chess/variants/spartan/index.html",
+    "rulesUrl": "chess/variants/spartan/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1627,7 +1627,7 @@
     "variantTitle": "Spherical Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/spherical-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/spherical-chess/index.html",
+    "rulesUrl": "chess/variants/spherical-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1638,7 +1638,7 @@
     "variantTitle": "Stalemate Wins",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/stalemate-wins-board.svg",
-    "rulesUrl": "dist/chess/variants/stalemate-wins/index.html",
+    "rulesUrl": "chess/variants/stalemate-wins/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1649,7 +1649,7 @@
     "variantTitle": "Standard Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/chess/variants/standard/index.html",
+    "rulesUrl": "chess/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1660,7 +1660,7 @@
     "variantTitle": "Stupidhouse",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/stupidhouse-board.svg",
-    "rulesUrl": "dist/chess/variants/stupidhouse/index.html",
+    "rulesUrl": "chess/variants/stupidhouse/index.html",
     "status": "rendered",
     "players": "4 (2 teams of 2)"
   },
@@ -1671,7 +1671,7 @@
     "variantTitle": "Suicide Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/suicide-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/suicide-chess/index.html",
+    "rulesUrl": "chess/variants/suicide-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1682,7 +1682,7 @@
     "variantTitle": "Synochess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/synochess-board.svg",
-    "rulesUrl": "dist/chess/variants/synochess/index.html",
+    "rulesUrl": "chess/variants/synochess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1693,7 +1693,7 @@
     "variantTitle": "Tamerlane Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/tamerlane-board.svg",
-    "rulesUrl": "dist/chess/variants/tamerlane/index.html",
+    "rulesUrl": "chess/variants/tamerlane/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1704,7 +1704,7 @@
     "variantTitle": "Tandem Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/tandem-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/tandem-chess/index.html",
+    "rulesUrl": "chess/variants/tandem-chess/index.html",
     "status": "rendered",
     "players": "4 (2 teams of 2)"
   },
@@ -1715,7 +1715,7 @@
     "variantTitle": "Teleportation Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/teleport-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/teleport-chess/index.html",
+    "rulesUrl": "chess/variants/teleport-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1726,7 +1726,7 @@
     "variantTitle": "Three-Check",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/three-check-board.svg",
-    "rulesUrl": "dist/chess/variants/three-check/index.html",
+    "rulesUrl": "chess/variants/three-check/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1737,7 +1737,7 @@
     "variantTitle": "Toroidal Byzantine Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/toroidal-byzantine-board.svg",
-    "rulesUrl": "dist/chess/variants/toroidal-byzantine/index.html",
+    "rulesUrl": "chess/variants/toroidal-byzantine/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1748,7 +1748,7 @@
     "variantTitle": "Gadsden's Toroidal Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/toroidal-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/toroidal-chess/index.html",
+    "rulesUrl": "chess/variants/toroidal-chess/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1759,7 +1759,7 @@
     "variantTitle": "Torpedo Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/torpedo-board.svg",
-    "rulesUrl": "dist/chess/variants/torpedo/index.html",
+    "rulesUrl": "chess/variants/torpedo/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1770,7 +1770,7 @@
     "variantTitle": "Turkish Great Chess II (Atranj)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/turkish-great-chess-ii-board.svg",
-    "rulesUrl": "dist/chess/variants/turkish-great-chess-ii/index.html",
+    "rulesUrl": "chess/variants/turkish-great-chess-ii/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1781,7 +1781,7 @@
     "variantTitle": "Turkish Great Chess III",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/turkish-great-chess-iii-board.svg",
-    "rulesUrl": "dist/chess/variants/turkish-great-chess-iii/index.html",
+    "rulesUrl": "chess/variants/turkish-great-chess-iii/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1792,7 +1792,7 @@
     "variantTitle": "Turkish Great Chess IV",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/turkish-great-chess-iv-board.svg",
-    "rulesUrl": "dist/chess/variants/turkish-great-chess-iv/index.html",
+    "rulesUrl": "chess/variants/turkish-great-chess-iv/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1803,7 +1803,7 @@
     "variantTitle": "Ultima (Baroque Chess)",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/ultima-board.svg",
-    "rulesUrl": "dist/chess/variants/ultima/index.html",
+    "rulesUrl": "chess/variants/ultima/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1814,7 +1814,7 @@
     "variantTitle": "Upside-Down",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/upside-down-board.svg",
-    "rulesUrl": "dist/chess/variants/upside-down/index.html",
+    "rulesUrl": "chess/variants/upside-down/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1825,7 +1825,7 @@
     "variantTitle": "Vierschach",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/vierschach-board.svg",
-    "rulesUrl": "dist/chess/variants/vierschach/index.html",
+    "rulesUrl": "chess/variants/vierschach/index.html",
     "status": "rendered",
     "players": "4"
   },
@@ -1836,7 +1836,7 @@
     "variantTitle": "Weak!",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/weak-board.svg",
-    "rulesUrl": "dist/chess/variants/weak/index.html",
+    "rulesUrl": "chess/variants/weak/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1847,7 +1847,7 @@
     "variantTitle": "Standard Wildebeest Chess",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/wildebeest-board.svg",
-    "rulesUrl": "dist/chess/variants/wildebeest/index.html",
+    "rulesUrl": "chess/variants/wildebeest/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1858,7 +1858,7 @@
     "variantTitle": "Xiang Fu",
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/xiang-fu-board.svg",
-    "rulesUrl": "dist/chess/variants/xiang-fu/index.html",
+    "rulesUrl": "chess/variants/xiang-fu/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1869,7 +1869,7 @@
     "variantTitle": "Yalta Chess",
     "topology": "hexagonal-trisection",
     "svg": "games/chess/diagrams/svg/yalta-chess-board.svg",
-    "rulesUrl": "dist/chess/variants/yalta-chess/index.html",
+    "rulesUrl": "chess/variants/yalta-chess/index.html",
     "status": "rendered",
     "players": 3
   },
@@ -1880,7 +1880,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/dnd-5e/diagrams/svg/dnd-5e-character-sheet-page-1.svg",
-    "rulesUrl": "dist/dnd-5e/rules/character-sheet/index.html",
+    "rulesUrl": "dnd-5e/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -1891,7 +1891,7 @@
     "variantTitle": "Dou Shou Qi (Standard)",
     "topology": "grid",
     "svg": "games/dou-shou-qi/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/dou-shou-qi/variants/standard/index.html",
+    "rulesUrl": "dou-shou-qi/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1902,7 +1902,7 @@
     "variantTitle": "All Fives",
     "topology": "tableau",
     "svg": "games/double-six-dominoes/diagrams/svg/all-fives-board.svg",
-    "rulesUrl": "dist/double-six-dominoes/games/all-fives/index.html",
+    "rulesUrl": "double-six-dominoes/games/all-fives/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
@@ -1915,7 +1915,7 @@
     "variantTitle": "Block Dominoes",
     "topology": "tableau",
     "svg": "games/double-six-dominoes/diagrams/svg/block-board.svg",
-    "rulesUrl": "dist/double-six-dominoes/games/block/index.html",
+    "rulesUrl": "double-six-dominoes/games/block/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
@@ -1928,7 +1928,7 @@
     "variantTitle": "Chickenfoot",
     "topology": "tableau",
     "svg": "games/double-six-dominoes/diagrams/svg/chickenfoot-board.svg",
-    "rulesUrl": "dist/double-six-dominoes/games/chickenfoot/index.html",
+    "rulesUrl": "double-six-dominoes/games/chickenfoot/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
@@ -1941,7 +1941,7 @@
     "variantTitle": "Mexican Train",
     "topology": "tableau",
     "svg": "games/double-six-dominoes/diagrams/svg/mexican-train-board.svg",
-    "rulesUrl": "dist/double-six-dominoes/games/mexican-train/index.html",
+    "rulesUrl": "double-six-dominoes/games/mexican-train/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "dominoes-28",
@@ -1954,7 +1954,7 @@
     "variantTitle": "Alquerque",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/alquerque-board.svg",
-    "rulesUrl": "dist/draughts/variants/alquerque/index.html",
+    "rulesUrl": "draughts/variants/alquerque/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1965,7 +1965,7 @@
     "variantTitle": "Bashni",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/bashni-board.svg",
-    "rulesUrl": "dist/draughts/variants/bashni/index.html",
+    "rulesUrl": "draughts/variants/bashni/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1976,7 +1976,7 @@
     "variantTitle": "Brazilian Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/brazilian-board.svg",
-    "rulesUrl": "dist/draughts/variants/brazilian/index.html",
+    "rulesUrl": "draughts/variants/brazilian/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1987,7 +1987,7 @@
     "variantTitle": "Canadian Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/canadian-board.svg",
-    "rulesUrl": "dist/draughts/variants/canadian/index.html",
+    "rulesUrl": "draughts/variants/canadian/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -1998,7 +1998,7 @@
     "variantTitle": "Czech Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/czech-board.svg",
-    "rulesUrl": "dist/draughts/variants/czech/index.html",
+    "rulesUrl": "draughts/variants/czech/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2009,7 +2009,7 @@
     "variantTitle": "Dameo",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/dameo-board.svg",
-    "rulesUrl": "dist/draughts/variants/dameo/index.html",
+    "rulesUrl": "draughts/variants/dameo/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2020,7 +2020,7 @@
     "variantTitle": "Diagonal Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/diagonal-board.svg",
-    "rulesUrl": "dist/draughts/variants/diagonal/index.html",
+    "rulesUrl": "draughts/variants/diagonal/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2031,7 +2031,7 @@
     "variantTitle": "English Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/english-board.svg",
-    "rulesUrl": "dist/draughts/variants/english/index.html",
+    "rulesUrl": "draughts/variants/english/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2042,7 +2042,7 @@
     "variantTitle": "Frisian Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/frisian-board.svg",
-    "rulesUrl": "dist/draughts/variants/frisian/index.html",
+    "rulesUrl": "draughts/variants/frisian/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2053,7 +2053,7 @@
     "variantTitle": "German Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/german-board.svg",
-    "rulesUrl": "dist/draughts/variants/german/index.html",
+    "rulesUrl": "draughts/variants/german/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2064,7 +2064,7 @@
     "variantTitle": "Ghanaian Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/ghanaian-board.svg",
-    "rulesUrl": "dist/draughts/variants/ghanaian/index.html",
+    "rulesUrl": "draughts/variants/ghanaian/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2075,7 +2075,7 @@
     "variantTitle": "International Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/international-board.svg",
-    "rulesUrl": "dist/draughts/variants/international/index.html",
+    "rulesUrl": "draughts/variants/international/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2086,7 +2086,7 @@
     "variantTitle": "Italian Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/italian-board.svg",
-    "rulesUrl": "dist/draughts/variants/italian/index.html",
+    "rulesUrl": "draughts/variants/italian/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2097,7 +2097,7 @@
     "variantTitle": "Lasca",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/lasca-board.svg",
-    "rulesUrl": "dist/draughts/variants/lasca/index.html",
+    "rulesUrl": "draughts/variants/lasca/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2108,7 +2108,7 @@
     "variantTitle": "Pool Checkers",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/pool-board.svg",
-    "rulesUrl": "dist/draughts/variants/pool/index.html",
+    "rulesUrl": "draughts/variants/pool/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2119,7 +2119,7 @@
     "variantTitle": "Russian Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/russian-board.svg",
-    "rulesUrl": "dist/draughts/variants/russian/index.html",
+    "rulesUrl": "draughts/variants/russian/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2130,7 +2130,7 @@
     "variantTitle": "Spanish Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/spanish-board.svg",
-    "rulesUrl": "dist/draughts/variants/spanish/index.html",
+    "rulesUrl": "draughts/variants/spanish/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2141,7 +2141,7 @@
     "variantTitle": "Spantsiretti",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/spantsiretti-board.svg",
-    "rulesUrl": "dist/draughts/variants/spantsiretti/index.html",
+    "rulesUrl": "draughts/variants/spantsiretti/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2152,7 +2152,7 @@
     "variantTitle": "Thai Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/thai-board.svg",
-    "rulesUrl": "dist/draughts/variants/thai/index.html",
+    "rulesUrl": "draughts/variants/thai/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2163,7 +2163,7 @@
     "variantTitle": "Turkish Draughts",
     "topology": "grid",
     "svg": "games/draughts/diagrams/svg/turkish-draughts-board.svg",
-    "rulesUrl": "dist/draughts/variants/turkish-draughts/index.html",
+    "rulesUrl": "draughts/variants/turkish-draughts/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2174,7 +2174,7 @@
     "variantTitle": "Dungeon Chess (Compact Skirmish (10×10))",
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/compact-board.svg",
-    "rulesUrl": "dist/dungeon-chess/variants/compact/index.html",
+    "rulesUrl": "dungeon-chess/variants/compact/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2185,7 +2185,7 @@
     "variantTitle": "Dungeon Chess (Four Player (20×20))",
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/four-player-board.svg",
-    "rulesUrl": "dist/dungeon-chess/variants/four-player/index.html",
+    "rulesUrl": "dungeon-chess/variants/four-player/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2196,7 +2196,7 @@
     "variantTitle": "Dungeon Chess (Two Player (20×8))",
     "topology": "grid",
     "svg": "games/dungeon-chess/diagrams/svg/two-player-board.svg",
-    "rulesUrl": "dist/dungeon-chess/variants/two-player/index.html",
+    "rulesUrl": "dungeon-chess/variants/two-player/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2207,7 +2207,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/dungeon-world/diagrams/svg/dungeon-world-character-sheet.svg",
-    "rulesUrl": "dist/dungeon-world/rules/character-sheet/index.html",
+    "rulesUrl": "dungeon-world/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -2218,7 +2218,7 @@
     "variantTitle": "Econopoly (Standard)",
     "topology": "track",
     "svg": "games/econopoly/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/econopoly/variants/standard/index.html",
+    "rulesUrl": "econopoly/variants/standard/index.html",
     "status": "rendered",
     "players": "2-6"
   },
@@ -2229,7 +2229,7 @@
     "variantTitle": "Fanorona (Standard)",
     "topology": "grid",
     "svg": "games/fanorona/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/fanorona/variants/standard/index.html",
+    "rulesUrl": "fanorona/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2240,7 +2240,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/fate-core/diagrams/svg/fate-core-character-sheet.svg",
-    "rulesUrl": "dist/fate-core/rules/character-sheet/index.html",
+    "rulesUrl": "fate-core/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -2251,7 +2251,7 @@
     "variantTitle": "Go-Stop",
     "topology": "tableau",
     "svg": "games/flower-48/diagrams/svg/go-stop-board.svg",
-    "rulesUrl": "dist/flower-48/games/go-stop/index.html",
+    "rulesUrl": "flower-48/games/go-stop/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "hanafuda-48",
@@ -2264,7 +2264,7 @@
     "variantTitle": "Hana-Awase",
     "topology": "tableau",
     "svg": "games/flower-48/diagrams/svg/hana-awase-board.svg",
-    "rulesUrl": "dist/flower-48/games/hana-awase/index.html",
+    "rulesUrl": "flower-48/games/hana-awase/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "hanafuda-48",
@@ -2277,7 +2277,7 @@
     "variantTitle": "Koi-Koi",
     "topology": "tableau",
     "svg": "games/flower-48/diagrams/svg/koi-koi-board.svg",
-    "rulesUrl": "dist/flower-48/games/koi-koi/index.html",
+    "rulesUrl": "flower-48/games/koi-koi/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "hanafuda-48",
@@ -2290,7 +2290,7 @@
     "variantTitle": "Oicho-Kabu",
     "topology": "tableau",
     "svg": "games/flower-48/diagrams/svg/oicho-kabu-board.svg",
-    "rulesUrl": "dist/flower-48/games/oicho-kabu/index.html",
+    "rulesUrl": "flower-48/games/oicho-kabu/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "hanafuda-48",
@@ -2303,7 +2303,7 @@
     "variantTitle": "13×13 Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/13x13-board.svg",
-    "rulesUrl": "dist/go/variants/13x13/index.html",
+    "rulesUrl": "go/variants/13x13/index.html",
     "status": "rendered",
     "handicaps": {
       "range": [
@@ -2329,7 +2329,7 @@
     "variantTitle": "9×9 Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/9x9-board.svg",
-    "rulesUrl": "dist/go/variants/9x9/index.html",
+    "rulesUrl": "go/variants/9x9/index.html",
     "status": "rendered",
     "handicaps": {
       "range": [
@@ -2355,7 +2355,7 @@
     "variantTitle": "Capture Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/capture-go-board.svg",
-    "rulesUrl": "dist/go/variants/capture-go/index.html",
+    "rulesUrl": "go/variants/capture-go/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2366,7 +2366,7 @@
     "variantTitle": "Gomoku",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/gomoku-board.svg",
-    "rulesUrl": "dist/go/variants/gomoku/index.html",
+    "rulesUrl": "go/variants/gomoku/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2377,7 +2377,7 @@
     "variantTitle": "Ninuki-Renju",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/ninuki-renju-board.svg",
-    "rulesUrl": "dist/go/variants/ninuki-renju/index.html",
+    "rulesUrl": "go/variants/ninuki-renju/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2388,7 +2388,7 @@
     "variantTitle": "One-Colour Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/one-colour-board.svg",
-    "rulesUrl": "dist/go/variants/one-colour/index.html",
+    "rulesUrl": "go/variants/one-colour/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2399,7 +2399,7 @@
     "variantTitle": "Phantom Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/phantom-go-board.svg",
-    "rulesUrl": "dist/go/variants/phantom-go/index.html",
+    "rulesUrl": "go/variants/phantom-go/index.html",
     "status": "rendered",
     "players": "2 + referee"
   },
@@ -2410,7 +2410,7 @@
     "variantTitle": "Rengo",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/rengo-board.svg",
-    "rulesUrl": "dist/go/variants/rengo/index.html",
+    "rulesUrl": "go/variants/rengo/index.html",
     "status": "rendered",
     "players": "4–6"
   },
@@ -2421,7 +2421,7 @@
     "variantTitle": "Renju",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/renju-board.svg",
-    "rulesUrl": "dist/go/variants/renju/index.html",
+    "rulesUrl": "go/variants/renju/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2432,7 +2432,7 @@
     "variantTitle": "Standard Go (19×19)",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/go/variants/standard/index.html",
+    "rulesUrl": "go/variants/standard/index.html",
     "status": "rendered",
     "handicaps": {
       "range": [
@@ -2466,7 +2466,7 @@
     "variantTitle": "Stoical Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/stoical-board.svg",
-    "rulesUrl": "dist/go/variants/stoical/index.html",
+    "rulesUrl": "go/variants/stoical/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2477,7 +2477,7 @@
     "variantTitle": "Sunjang Baduk",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/sunjang-board.svg",
-    "rulesUrl": "dist/go/variants/sunjang/index.html",
+    "rulesUrl": "go/variants/sunjang/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2488,7 +2488,7 @@
     "variantTitle": "Tibetan Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/tibetan-board.svg",
-    "rulesUrl": "dist/go/variants/tibetan/index.html",
+    "rulesUrl": "go/variants/tibetan/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2499,7 +2499,7 @@
     "variantTitle": "Toroidal Go",
     "topology": "grid",
     "svg": "games/go/diagrams/svg/toroidal-go-board.svg",
-    "rulesUrl": "dist/go/variants/toroidal-go/index.html",
+    "rulesUrl": "go/variants/toroidal-go/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2510,7 +2510,7 @@
     "variantTitle": "Standard 2-Player Halma",
     "topology": "grid",
     "svg": "games/halma/diagrams/svg/standard-2p-board.svg",
-    "rulesUrl": "dist/halma/variants/standard-2p/index.html",
+    "rulesUrl": "halma/variants/standard-2p/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2521,7 +2521,7 @@
     "variantTitle": "Standard 4-Player Halma",
     "topology": "grid",
     "svg": "games/halma/diagrams/svg/standard-4p-board.svg",
-    "rulesUrl": "dist/halma/variants/standard-4p/index.html",
+    "rulesUrl": "halma/variants/standard-4p/index.html",
     "status": "rendered",
     "players": "4"
   },
@@ -2532,7 +2532,7 @@
     "variantTitle": "Hex (13×13)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/13x13-board.svg",
-    "rulesUrl": "dist/hex/variants/13x13/index.html",
+    "rulesUrl": "hex/variants/13x13/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2543,7 +2543,7 @@
     "variantTitle": "Hex (14×14)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/14x14-board.svg",
-    "rulesUrl": "dist/hex/variants/14x14/index.html",
+    "rulesUrl": "hex/variants/14x14/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2554,7 +2554,7 @@
     "variantTitle": "Hex (19×19)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/19x19-board.svg",
-    "rulesUrl": "dist/hex/variants/19x19/index.html",
+    "rulesUrl": "hex/variants/19x19/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2565,7 +2565,7 @@
     "variantTitle": "Hex (9×9)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/9x9-board.svg",
-    "rulesUrl": "dist/hex/variants/9x9/index.html",
+    "rulesUrl": "hex/variants/9x9/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2576,7 +2576,7 @@
     "variantTitle": "Hex (11×11)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/hex/variants/standard/index.html",
+    "rulesUrl": "hex/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2587,7 +2587,7 @@
     "variantTitle": "Y",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-game-board.svg",
-    "rulesUrl": "dist/hex/variants/y-game/index.html",
+    "rulesUrl": "hex/variants/y-game/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2598,7 +2598,7 @@
     "variantTitle": "Y (Large — 15)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-large-board.svg",
-    "rulesUrl": "dist/hex/variants/y-large/index.html",
+    "rulesUrl": "hex/variants/y-large/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2609,7 +2609,7 @@
     "variantTitle": "Y (Small — 9)",
     "topology": "hex",
     "svg": "games/hex/diagrams/svg/y-small-board.svg",
-    "rulesUrl": "dist/hex/variants/y-small/index.html",
+    "rulesUrl": "hex/variants/y-small/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2620,7 +2620,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/ironsworn/diagrams/svg/ironsworn-character-sheet-page-1.svg",
-    "rulesUrl": "dist/ironsworn/rules/character-sheet/index.html",
+    "rulesUrl": "ironsworn/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -2631,7 +2631,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/knave/diagrams/svg/knave-character-sheet.svg",
-    "rulesUrl": "dist/knave/rules/character-sheet/index.html",
+    "rulesUrl": "knave/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -2642,7 +2642,7 @@
     "variantTitle": "1904 Original",
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/1904-original-board.svg",
-    "rulesUrl": "dist/landlords-game/variants/1904-original/index.html",
+    "rulesUrl": "landlords-game/variants/1904-original/index.html",
     "status": "rendered",
     "players": "2–6"
   },
@@ -2653,7 +2653,7 @@
     "variantTitle": "1906 Commercial Edition",
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/1906-commercial-board.svg",
-    "rulesUrl": "dist/landlords-game/variants/1906-commercial/index.html",
+    "rulesUrl": "landlords-game/variants/1906-commercial/index.html",
     "status": "rendered",
     "players": "2–4"
   },
@@ -2664,7 +2664,7 @@
     "variantTitle": "Monarch of the World",
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/monarch-of-the-world-board.svg",
-    "rulesUrl": "dist/landlords-game/variants/monarch-of-the-world/index.html",
+    "rulesUrl": "landlords-game/variants/monarch-of-the-world/index.html",
     "status": "rendered",
     "players": "2–6"
   },
@@ -2675,7 +2675,7 @@
     "variantTitle": "Prosperity",
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/prosperity-board.svg",
-    "rulesUrl": "dist/landlords-game/variants/prosperity/index.html",
+    "rulesUrl": "landlords-game/variants/prosperity/index.html",
     "status": "rendered",
     "players": "2–4"
   },
@@ -2686,7 +2686,7 @@
     "variantTitle": "Single Tax",
     "topology": "track",
     "svg": "games/landlords-game/diagrams/svg/single-tax-board.svg",
-    "rulesUrl": "dist/landlords-game/variants/single-tax/index.html",
+    "rulesUrl": "landlords-game/variants/single-tax/index.html",
     "status": "rendered",
     "players": "2–4"
   },
@@ -2697,7 +2697,7 @@
     "variantTitle": "Aviation",
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/aviation-board.svg",
-    "rulesUrl": "dist/lattaque/variants/aviation/index.html",
+    "rulesUrl": "lattaque/variants/aviation/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2708,7 +2708,7 @@
     "variantTitle": "Dover Patrol",
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/dover-patrol-board.svg",
-    "rulesUrl": "dist/lattaque/variants/dover-patrol/index.html",
+    "rulesUrl": "lattaque/variants/dover-patrol/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2719,7 +2719,7 @@
     "variantTitle": "L'Attaque (Standard)",
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/lattaque/variants/standard/index.html",
+    "rulesUrl": "lattaque/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2730,7 +2730,7 @@
     "variantTitle": "Tri-Tactics",
     "topology": "grid",
     "svg": "games/lattaque/diagrams/svg/tri-tactics-board.svg",
-    "rulesUrl": "dist/lattaque/variants/tri-tactics/index.html",
+    "rulesUrl": "lattaque/variants/tri-tactics/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2741,7 +2741,7 @@
     "variantTitle": "American Mahjong (Classic)",
     "topology": "tableau",
     "svg": "games/mahjong/diagrams/svg/american-classic-board.svg",
-    "rulesUrl": "dist/mahjong/games/american-classic/index.html",
+    "rulesUrl": "mahjong/games/american-classic/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "mahjong-136",
@@ -2754,7 +2754,7 @@
     "variantTitle": "Hong Kong Mahjong",
     "topology": "tableau",
     "svg": "games/mahjong/diagrams/svg/hong-kong-board.svg",
-    "rulesUrl": "dist/mahjong/games/hong-kong/index.html",
+    "rulesUrl": "mahjong/games/hong-kong/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "mahjong-136",
@@ -2767,7 +2767,7 @@
     "variantTitle": "Riichi Mahjong",
     "topology": "tableau",
     "svg": "games/mahjong/diagrams/svg/riichi-board.svg",
-    "rulesUrl": "dist/mahjong/games/riichi/index.html",
+    "rulesUrl": "mahjong/games/riichi/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "mahjong-136",
@@ -2780,7 +2780,7 @@
     "variantTitle": "Taiwanese 16-Tile Mahjong",
     "topology": "tableau",
     "svg": "games/mahjong/diagrams/svg/taiwanese-board.svg",
-    "rulesUrl": "dist/mahjong/games/taiwanese/index.html",
+    "rulesUrl": "mahjong/games/taiwanese/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "mahjong-136",
@@ -2793,7 +2793,7 @@
     "variantTitle": "Zung Jung",
     "topology": "tableau",
     "svg": "games/mahjong/diagrams/svg/zung-jung-board.svg",
-    "rulesUrl": "dist/mahjong/games/zung-jung/index.html",
+    "rulesUrl": "mahjong/games/zung-jung/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "mahjong-136",
@@ -2806,7 +2806,7 @@
     "variantTitle": "Ayo",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/ayo-board.svg",
-    "rulesUrl": "dist/mancala/variants/ayo/index.html",
+    "rulesUrl": "mancala/variants/ayo/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2817,7 +2817,7 @@
     "variantTitle": "Bao",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/bao-board.svg",
-    "rulesUrl": "dist/mancala/variants/bao/index.html",
+    "rulesUrl": "mancala/variants/bao/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2828,7 +2828,7 @@
     "variantTitle": "Congkak",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/congkak-board.svg",
-    "rulesUrl": "dist/mancala/variants/congkak/index.html",
+    "rulesUrl": "mancala/variants/congkak/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2839,7 +2839,7 @@
     "variantTitle": "Kalah",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/kalah-board.svg",
-    "rulesUrl": "dist/mancala/variants/kalah/index.html",
+    "rulesUrl": "mancala/variants/kalah/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2850,7 +2850,7 @@
     "variantTitle": "Oware",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/oware-board.svg",
-    "rulesUrl": "dist/mancala/variants/oware/index.html",
+    "rulesUrl": "mancala/variants/oware/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2861,7 +2861,7 @@
     "variantTitle": "Pallanguzhi",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/pallanguzhi-board.svg",
-    "rulesUrl": "dist/mancala/variants/pallanguzhi/index.html",
+    "rulesUrl": "mancala/variants/pallanguzhi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2872,7 +2872,7 @@
     "variantTitle": "Sungka",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/sungka-board.svg",
-    "rulesUrl": "dist/mancala/variants/sungka/index.html",
+    "rulesUrl": "mancala/variants/sungka/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2883,7 +2883,7 @@
     "variantTitle": "Toguz Korgool",
     "topology": "pit",
     "svg": "games/mancala/diagrams/svg/toguz-korgool-board.svg",
-    "rulesUrl": "dist/mancala/variants/toguz-korgool/index.html",
+    "rulesUrl": "mancala/variants/toguz-korgool/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2894,7 +2894,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/maze-rats/diagrams/svg/maze-rats-character-sheet.svg",
-    "rulesUrl": "dist/maze-rats/rules/character-sheet/index.html",
+    "rulesUrl": "maze-rats/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -2905,7 +2905,7 @@
     "variantTitle": "Lasker Morris",
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/lasker-morris-board.svg",
-    "rulesUrl": "dist/morris/variants/lasker-morris/index.html",
+    "rulesUrl": "morris/variants/lasker-morris/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2916,7 +2916,7 @@
     "variantTitle": "Morabaraba",
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/morabaraba-board.svg",
-    "rulesUrl": "dist/morris/variants/morabaraba/index.html",
+    "rulesUrl": "morris/variants/morabaraba/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2927,7 +2927,7 @@
     "variantTitle": "Nine Men's Morris",
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/nine-mens-morris-board.svg",
-    "rulesUrl": "dist/morris/variants/nine-mens-morris/index.html",
+    "rulesUrl": "morris/variants/nine-mens-morris/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2938,7 +2938,7 @@
     "variantTitle": "Shax",
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/shax-board.svg",
-    "rulesUrl": "dist/morris/variants/shax/index.html",
+    "rulesUrl": "morris/variants/shax/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2949,7 +2949,7 @@
     "variantTitle": "Six Men's Morris",
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/six-mens-morris-board.svg",
-    "rulesUrl": "dist/morris/variants/six-mens-morris/index.html",
+    "rulesUrl": "morris/variants/six-mens-morris/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2960,7 +2960,7 @@
     "variantTitle": "Three Men's Morris",
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/three-mens-morris-board.svg",
-    "rulesUrl": "dist/morris/variants/three-mens-morris/index.html",
+    "rulesUrl": "morris/variants/three-mens-morris/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2971,7 +2971,7 @@
     "variantTitle": "Twelve Men's Morris",
     "topology": "graph",
     "svg": "games/morris/diagrams/svg/twelve-mens-morris-board.svg",
-    "rulesUrl": "dist/morris/variants/twelve-mens-morris/index.html",
+    "rulesUrl": "morris/variants/twelve-mens-morris/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -2982,7 +2982,7 @@
     "variantTitle": "Nukes: Asymmetric Powers",
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/asymmetric-powers-board.svg",
-    "rulesUrl": "dist/nukes/variants/asymmetric-powers/index.html",
+    "rulesUrl": "nukes/variants/asymmetric-powers/index.html",
     "status": "rendered",
     "players": "2–3"
   },
@@ -2993,7 +2993,7 @@
     "variantTitle": "Nukes: Fallout",
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/fallout-board.svg",
-    "rulesUrl": "dist/nukes/variants/fallout/index.html",
+    "rulesUrl": "nukes/variants/fallout/index.html",
     "status": "rendered",
     "players": "2–3"
   },
@@ -3004,7 +3004,7 @@
     "variantTitle": "Nukes: Siege",
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/siege-board.svg",
-    "rulesUrl": "dist/nukes/variants/siege/index.html",
+    "rulesUrl": "nukes/variants/siege/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3015,7 +3015,7 @@
     "variantTitle": "Nyout (Standard)",
     "topology": "graph",
     "svg": "games/nyout/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/nyout/variants/standard/index.html",
+    "rulesUrl": "nyout/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3026,7 +3026,7 @@
     "variantTitle": "Seven-Shell Pachisi",
     "topology": "grid",
     "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
-    "rulesUrl": "dist/pachisi/variants/seven-shell/index.html",
+    "rulesUrl": "pachisi/variants/seven-shell/index.html",
     "status": "rendered",
     "players": "2–4"
   },
@@ -3037,7 +3037,7 @@
     "variantTitle": "Pachisi (Standard)",
     "topology": "grid",
     "svg": "games/pachisi/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/pachisi/variants/standard/index.html",
+    "rulesUrl": "pachisi/variants/standard/index.html",
     "status": "rendered",
     "players": "4"
   },
@@ -3048,7 +3048,7 @@
     "variantTitle": "2-Player Pachisi",
     "topology": "grid",
     "svg": "games/pachisi/diagrams/svg/two-player-board.svg",
-    "rulesUrl": "dist/pachisi/variants/two-player/index.html",
+    "rulesUrl": "pachisi/variants/two-player/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3059,7 +3059,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/pathfinder-1e/diagrams/svg/pathfinder-1e-character-sheet-page-1.svg",
-    "rulesUrl": "dist/pathfinder-1e/rules/character-sheet/index.html",
+    "rulesUrl": "pathfinder-1e/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -3070,7 +3070,7 @@
     "variantTitle": "Anti-Reversi",
     "topology": "grid",
     "svg": "games/reversi/diagrams/svg/anti-reversi-board.svg",
-    "rulesUrl": "dist/reversi/variants/anti-reversi/index.html",
+    "rulesUrl": "reversi/variants/anti-reversi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3081,7 +3081,7 @@
     "variantTitle": "Six-by-Six Reversi",
     "topology": "grid",
     "svg": "games/reversi/diagrams/svg/six-by-six-board.svg",
-    "rulesUrl": "dist/reversi/variants/six-by-six/index.html",
+    "rulesUrl": "reversi/variants/six-by-six/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3092,7 +3092,7 @@
     "variantTitle": "Standard Reversi",
     "topology": "grid",
     "svg": "games/reversi/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/reversi/variants/standard/index.html",
+    "rulesUrl": "reversi/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3103,7 +3103,7 @@
     "variantTitle": "Royal Game of Ur (Standard)",
     "topology": "grid",
     "svg": "games/royal-ur/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/royal-ur/variants/standard/index.html",
+    "rulesUrl": "royal-ur/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3114,7 +3114,7 @@
     "variantTitle": "Senet (Kendall Reconstruction)",
     "topology": "grid",
     "svg": "games/senet/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/senet/variants/standard/index.html",
+    "rulesUrl": "senet/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3125,7 +3125,7 @@
     "variantTitle": "Annan Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/annan-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/annan-shogi/index.html",
+    "rulesUrl": "shogi/variants/annan-shogi/index.html",
     "status": "rendered",
     "players": 2
   },
@@ -3136,7 +3136,7 @@
     "variantTitle": "Cannon Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/cannon-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/cannon-shogi/index.html",
+    "rulesUrl": "shogi/variants/cannon-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3147,7 +3147,7 @@
     "variantTitle": "Chu Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/chu-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/chu-shogi/index.html",
+    "rulesUrl": "shogi/variants/chu-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3158,7 +3158,7 @@
     "variantTitle": "Dai Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/dai-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/dai-shogi/index.html",
+    "rulesUrl": "shogi/variants/dai-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3169,7 +3169,7 @@
     "variantTitle": "Dobutsu Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/dobutsu-board.svg",
-    "rulesUrl": "dist/shogi/variants/dobutsu/index.html",
+    "rulesUrl": "shogi/variants/dobutsu/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3180,7 +3180,7 @@
     "variantTitle": "Four Player Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/four-player-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/four-player-shogi/index.html",
+    "rulesUrl": "shogi/variants/four-player-shogi/index.html",
     "status": "rendered",
     "players": "4"
   },
@@ -3191,7 +3191,7 @@
     "variantTitle": "Gorogoro+",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/gorogoro-plus-board.svg",
-    "rulesUrl": "dist/shogi/variants/gorogoro-plus/index.html",
+    "rulesUrl": "shogi/variants/gorogoro-plus/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3202,7 +3202,7 @@
     "variantTitle": "Hasami Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/hasami-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/hasami-shogi/index.html",
+    "rulesUrl": "shogi/variants/hasami-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3213,7 +3213,7 @@
     "variantTitle": "Heian Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/heian-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/heian-shogi/index.html",
+    "rulesUrl": "shogi/variants/heian-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3224,7 +3224,7 @@
     "variantTitle": "Hex Shogi 91",
     "topology": "hex",
     "svg": "games/shogi/diagrams/svg/hex-shogi-91-board.svg",
-    "rulesUrl": "dist/shogi/variants/hex-shogi-91/index.html",
+    "rulesUrl": "shogi/variants/hex-shogi-91/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3235,7 +3235,7 @@
     "variantTitle": "Judkins' Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/judkins-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/judkins-shogi/index.html",
+    "rulesUrl": "shogi/variants/judkins-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3246,7 +3246,7 @@
     "variantTitle": "Kyoto Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/kyoto-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/kyoto-shogi/index.html",
+    "rulesUrl": "shogi/variants/kyoto-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3257,7 +3257,7 @@
     "variantTitle": "Maka-Dai-Dai Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/maka-dai-dai-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/maka-dai-dai-shogi/index.html",
+    "rulesUrl": "shogi/variants/maka-dai-dai-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3268,7 +3268,7 @@
     "variantTitle": "Minishogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/minishogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/minishogi/index.html",
+    "rulesUrl": "shogi/variants/minishogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3279,7 +3279,7 @@
     "variantTitle": "Mortal Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/mortal-shogi/index.html",
+    "rulesUrl": "shogi/variants/mortal-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3290,7 +3290,7 @@
     "variantTitle": "Sankaku Shogi",
     "topology": "triangular",
     "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/sankaku-shogi/index.html",
+    "rulesUrl": "shogi/variants/sankaku-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3301,7 +3301,7 @@
     "variantTitle": "Sho Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/sho-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/sho-shogi/index.html",
+    "rulesUrl": "shogi/variants/sho-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3312,7 +3312,7 @@
     "variantTitle": "Standard Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/shogi/variants/standard/index.html",
+    "rulesUrl": "shogi/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3323,7 +3323,7 @@
     "variantTitle": "Tai Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/tai-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/tai-shogi/index.html",
+    "rulesUrl": "shogi/variants/tai-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3334,7 +3334,7 @@
     "variantTitle": "Taikyoku Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/taikyoku-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/taikyoku-shogi/index.html",
+    "rulesUrl": "shogi/variants/taikyoku-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3345,7 +3345,7 @@
     "variantTitle": "Tenjiku Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/tenjiku-shogi/index.html",
+    "rulesUrl": "shogi/variants/tenjiku-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3356,7 +3356,7 @@
     "variantTitle": "Tori Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/tori-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/tori-shogi/index.html",
+    "rulesUrl": "shogi/variants/tori-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3367,7 +3367,7 @@
     "variantTitle": "Wa Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/wa-shogi/index.html",
+    "rulesUrl": "shogi/variants/wa-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3378,7 +3378,7 @@
     "variantTitle": "Yari Shogi",
     "topology": "grid",
     "svg": "games/shogi/diagrams/svg/yari-shogi-board.svg",
-    "rulesUrl": "dist/shogi/variants/yari-shogi/index.html",
+    "rulesUrl": "shogi/variants/yari-shogi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3389,7 +3389,7 @@
     "variantTitle": "Big 2",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/big2-board.svg",
-    "rulesUrl": "dist/standard-52/games/big2/index.html",
+    "rulesUrl": "standard-52/games/big2/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3402,7 +3402,7 @@
     "variantTitle": "Blackjack (Twenty-One)",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/blackjack-board.svg",
-    "rulesUrl": "dist/standard-52/games/blackjack/index.html",
+    "rulesUrl": "standard-52/games/blackjack/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3415,7 +3415,7 @@
     "variantTitle": "Rubber Bridge",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/bridge-board.svg",
-    "rulesUrl": "dist/standard-52/games/bridge/index.html",
+    "rulesUrl": "standard-52/games/bridge/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3428,7 +3428,7 @@
     "variantTitle": "Canasta (Classic)",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/canasta-board.svg",
-    "rulesUrl": "dist/standard-52/games/canasta/index.html",
+    "rulesUrl": "standard-52/games/canasta/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3441,7 +3441,7 @@
     "variantTitle": "Crazy Eights",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/crazy-eights-board.svg",
-    "rulesUrl": "dist/standard-52/games/crazy-eights/index.html",
+    "rulesUrl": "standard-52/games/crazy-eights/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3454,7 +3454,7 @@
     "variantTitle": "Cribbage",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/cribbage-board.svg",
-    "rulesUrl": "dist/standard-52/games/cribbage/index.html",
+    "rulesUrl": "standard-52/games/cribbage/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3487,7 +3487,7 @@
     "variantTitle": "Euchre",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/euchre-board.svg",
-    "rulesUrl": "dist/standard-52/games/euchre/index.html",
+    "rulesUrl": "standard-52/games/euchre/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3500,7 +3500,7 @@
     "variantTitle": "FreeCell",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/freecell-board.svg",
-    "rulesUrl": "dist/standard-52/games/freecell/index.html",
+    "rulesUrl": "standard-52/games/freecell/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3513,7 +3513,7 @@
     "variantTitle": "Gin Rummy",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/gin-rummy-board.svg",
-    "rulesUrl": "dist/standard-52/games/gin-rummy/index.html",
+    "rulesUrl": "standard-52/games/gin-rummy/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3526,7 +3526,7 @@
     "variantTitle": "Hearts",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/hearts-board.svg",
-    "rulesUrl": "dist/standard-52/games/hearts/index.html",
+    "rulesUrl": "standard-52/games/hearts/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3539,7 +3539,7 @@
     "variantTitle": "Klondike Solitaire",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/klondike-board.svg",
-    "rulesUrl": "dist/standard-52/games/klondike/index.html",
+    "rulesUrl": "standard-52/games/klondike/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3552,7 +3552,7 @@
     "variantTitle": "Texas Hold'em Poker",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/poker-board.svg",
-    "rulesUrl": "dist/standard-52/games/poker/index.html",
+    "rulesUrl": "standard-52/games/poker/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3565,7 +3565,7 @@
     "variantTitle": "President",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/president-board.svg",
-    "rulesUrl": "dist/standard-52/games/president/index.html",
+    "rulesUrl": "standard-52/games/president/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3578,7 +3578,7 @@
     "variantTitle": "Rummy",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/rummy-board.svg",
-    "rulesUrl": "dist/standard-52/games/rummy/index.html",
+    "rulesUrl": "standard-52/games/rummy/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3591,7 +3591,7 @@
     "variantTitle": "Spades",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/spades-board.svg",
-    "rulesUrl": "dist/standard-52/games/spades/index.html",
+    "rulesUrl": "standard-52/games/spades/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3604,7 +3604,7 @@
     "variantTitle": "Spider Solitaire",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/spider-solitaire-board.svg",
-    "rulesUrl": "dist/standard-52/games/spider-solitaire/index.html",
+    "rulesUrl": "standard-52/games/spider-solitaire/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3617,7 +3617,7 @@
     "variantTitle": "War",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/war-board.svg",
-    "rulesUrl": "dist/standard-52/games/war/index.html",
+    "rulesUrl": "standard-52/games/war/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3630,7 +3630,7 @@
     "variantTitle": "Whist",
     "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/whist-board.svg",
-    "rulesUrl": "dist/standard-52/games/whist/index.html",
+    "rulesUrl": "standard-52/games/whist/index.html",
     "status": "rendered",
     "reason": "component-game",
     "deckType": "standard-52",
@@ -3643,7 +3643,7 @@
     "variantTitle": "Bunco",
     "topology": "tableau",
     "svg": "games/standard-dice/diagrams/svg/bunco-board.svg",
-    "rulesUrl": "dist/standard-dice/games/bunco/index.html",
+    "rulesUrl": "standard-dice/games/bunco/index.html",
     "status": "rendered",
     "reason": "component-game",
     "players": "12 (or multiples of 4)"
@@ -3655,7 +3655,7 @@
     "variantTitle": "Craps",
     "topology": "tableau",
     "svg": "games/standard-dice/diagrams/svg/craps-board.svg",
-    "rulesUrl": "dist/standard-dice/games/craps/index.html",
+    "rulesUrl": "standard-dice/games/craps/index.html",
     "status": "rendered",
     "reason": "component-game",
     "players": "1 or more"
@@ -3667,7 +3667,7 @@
     "variantTitle": "Farkle",
     "topology": "tableau",
     "svg": "games/standard-dice/diagrams/svg/farkle-board.svg",
-    "rulesUrl": "dist/standard-dice/games/farkle/index.html",
+    "rulesUrl": "standard-dice/games/farkle/index.html",
     "status": "rendered",
     "reason": "component-game",
     "players": "2–6"
@@ -3679,7 +3679,7 @@
     "variantTitle": "Liar's Dice",
     "topology": "tableau",
     "svg": "games/standard-dice/diagrams/svg/liars-dice-board.svg",
-    "rulesUrl": "dist/standard-dice/games/liars-dice/index.html",
+    "rulesUrl": "standard-dice/games/liars-dice/index.html",
     "status": "rendered",
     "reason": "component-game",
     "players": "2–6"
@@ -3691,7 +3691,7 @@
     "variantTitle": "Yahtzee",
     "topology": "tableau",
     "svg": "games/standard-dice/diagrams/svg/yahtzee-board.svg",
-    "rulesUrl": "dist/standard-dice/games/yahtzee/index.html",
+    "rulesUrl": "standard-dice/games/yahtzee/index.html",
     "status": "rendered",
     "reason": "component-game",
     "players": "1–4"
@@ -3703,7 +3703,7 @@
     "variantTitle": "Character Sheet",
     "topology": "rpg",
     "svg": "games/starforged/diagrams/svg/starforged-character-sheet-page-1.svg",
-    "rulesUrl": "dist/starforged/rules/character-sheet/index.html",
+    "rulesUrl": "starforged/rules/character-sheet/index.html",
     "status": "rendered",
     "reason": "rpg-chargen"
   },
@@ -3714,7 +3714,7 @@
     "variantTitle": "Standard 2-Player Stern-Halma",
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-2p-board.svg",
-    "rulesUrl": "dist/stern-halma/variants/standard-2p/index.html",
+    "rulesUrl": "stern-halma/variants/standard-2p/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3725,7 +3725,7 @@
     "variantTitle": "Standard 3-Player Stern-Halma",
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-3p-board.svg",
-    "rulesUrl": "dist/stern-halma/variants/standard-3p/index.html",
+    "rulesUrl": "stern-halma/variants/standard-3p/index.html",
     "status": "rendered",
     "players": "3"
   },
@@ -3736,7 +3736,7 @@
     "variantTitle": "Standard 4-Player Stern-Halma",
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-4p-board.svg",
-    "rulesUrl": "dist/stern-halma/variants/standard-4p/index.html",
+    "rulesUrl": "stern-halma/variants/standard-4p/index.html",
     "status": "rendered",
     "players": "4"
   },
@@ -3747,7 +3747,7 @@
     "variantTitle": "Standard 6-Player Stern-Halma",
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/standard-6p-board.svg",
-    "rulesUrl": "dist/stern-halma/variants/standard-6p/index.html",
+    "rulesUrl": "stern-halma/variants/standard-6p/index.html",
     "status": "rendered",
     "players": "6"
   },
@@ -3758,7 +3758,7 @@
     "variantTitle": "Super Chinese Checkers",
     "topology": "graph",
     "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
-    "rulesUrl": "dist/stern-halma/variants/super-chinese-checkers/index.html",
+    "rulesUrl": "stern-halma/variants/super-chinese-checkers/index.html",
     "status": "rendered",
     "players": "2–6"
   },
@@ -3769,7 +3769,7 @@
     "variantTitle": "Surakarta (Standard)",
     "topology": "grid",
     "svg": "games/surakarta/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/surakarta/variants/standard/index.html",
+    "rulesUrl": "surakarta/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3780,7 +3780,7 @@
     "variantTitle": "Brandubh",
     "topology": "grid",
     "svg": "games/tafl/diagrams/svg/brandubh-board.svg",
-    "rulesUrl": "dist/tafl/variants/brandubh/index.html",
+    "rulesUrl": "tafl/variants/brandubh/index.html",
     "status": "rendered"
   },
   {
@@ -3790,7 +3790,7 @@
     "variantTitle": "Hnefatafl",
     "topology": "grid",
     "svg": "games/tafl/diagrams/svg/hnefatafl-board.svg",
-    "rulesUrl": "dist/tafl/variants/hnefatafl/index.html",
+    "rulesUrl": "tafl/variants/hnefatafl/index.html",
     "status": "rendered"
   },
   {
@@ -3800,7 +3800,7 @@
     "variantTitle": "Tablut",
     "topology": "grid",
     "svg": "games/tafl/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/tafl/variants/standard/index.html",
+    "rulesUrl": "tafl/variants/standard/index.html",
     "status": "rendered"
   },
   {
@@ -3810,7 +3810,7 @@
     "variantTitle": "Tawlbwrdd",
     "topology": "grid",
     "svg": "games/tafl/diagrams/svg/tawlbwrdd-board.svg",
-    "rulesUrl": "dist/tafl/variants/tawlbwrdd/index.html",
+    "rulesUrl": "tafl/variants/tawlbwrdd/index.html",
     "status": "rendered"
   },
   {
@@ -3820,7 +3820,7 @@
     "variantTitle": "Janggi",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/janggi-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/janggi/index.html",
+    "rulesUrl": "xiangqi/variants/janggi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3831,7 +3831,7 @@
     "variantTitle": "Jieqi",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/jieqi-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/jieqi/index.html",
+    "rulesUrl": "xiangqi/variants/jieqi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3842,7 +3842,7 @@
     "variantTitle": "Manchu+",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/manchu-plus-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/manchu-plus/index.html",
+    "rulesUrl": "xiangqi/variants/manchu-plus/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3853,7 +3853,7 @@
     "variantTitle": "Minixiangqi",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/minixiangqi-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/minixiangqi/index.html",
+    "rulesUrl": "xiangqi/variants/minixiangqi/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3864,7 +3864,7 @@
     "variantTitle": "Quang Trung Chess",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/quang-trung-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/quang-trung/index.html",
+    "rulesUrl": "xiangqi/variants/quang-trung/index.html",
     "status": "rendered",
     "players": 2
   },
@@ -3875,7 +3875,7 @@
     "variantTitle": "San-kwo-k'i",
     "topology": "hexagonal-trisection",
     "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/san-kwo-ki/index.html",
+    "rulesUrl": "xiangqi/variants/san-kwo-ki/index.html",
     "status": "rendered",
     "players": 3
   },
@@ -3886,7 +3886,7 @@
     "variantTitle": "Standard Xiangqi",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/standard/index.html",
+    "rulesUrl": "xiangqi/variants/standard/index.html",
     "status": "rendered",
     "players": "2"
   },
@@ -3897,7 +3897,7 @@
     "variantTitle": "Xiangqi 42",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/xiangqi-42-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/xiangqi-42/index.html",
+    "rulesUrl": "xiangqi/variants/xiangqi-42/index.html",
     "status": "rendered",
     "players": 2
   },
@@ -3908,7 +3908,7 @@
     "variantTitle": "Yáng Qí",
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
-    "rulesUrl": "dist/xiangqi/variants/yang-qi/index.html",
+    "rulesUrl": "xiangqi/variants/yang-qi/index.html",
     "status": "rendered",
     "players": 2
   },
@@ -3919,7 +3919,7 @@
     "variantTitle": "Basic Roleplaying",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/brp/index.html",
+    "rulesUrl": "brp/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -3930,7 +3930,7 @@
     "variantTitle": "Cairn",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/cairn/index.html",
+    "rulesUrl": "cairn/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -3941,7 +3941,7 @@
     "variantTitle": "Dungeons & Dragons 5th Edition SRD",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/dnd-5e/index.html",
+    "rulesUrl": "dnd-5e/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -3952,7 +3952,7 @@
     "variantTitle": "Dungeon World",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/dungeon-world/index.html",
+    "rulesUrl": "dungeon-world/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -3963,7 +3963,7 @@
     "variantTitle": "Endless Skies",
     "topology": "hex",
     "svg": null,
-    "rulesUrl": "dist/endless-skies/index.html",
+    "rulesUrl": "endless-skies/index.html",
     "status": "generator",
     "reason": "hex-generator",
     "generator": "endless"
@@ -3975,7 +3975,7 @@
     "variantTitle": "Fate Core",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/fate-core/index.html",
+    "rulesUrl": "fate-core/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -3986,7 +3986,7 @@
     "variantTitle": "Ironsworn",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/ironsworn/index.html",
+    "rulesUrl": "ironsworn/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -3997,7 +3997,7 @@
     "variantTitle": "Knave",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/knave/index.html",
+    "rulesUrl": "knave/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -4008,7 +4008,7 @@
     "variantTitle": "Maze Rats",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/maze-rats/index.html",
+    "rulesUrl": "maze-rats/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -4019,7 +4019,7 @@
     "variantTitle": "Planet Mongo",
     "topology": "hex",
     "svg": null,
-    "rulesUrl": "dist/mongo/index.html",
+    "rulesUrl": "mongo/index.html",
     "status": "generator",
     "reason": "hex-generator",
     "generator": "mongo"
@@ -4031,7 +4031,7 @@
     "variantTitle": "Nukes: Standard",
     "topology": "hex",
     "svg": "games/nukes/diagrams/svg/standard-board.svg",
-    "rulesUrl": "dist/nukes/variants/standard/index.html",
+    "rulesUrl": "nukes/variants/standard/index.html",
     "status": "generator",
     "reason": "hex-generator",
     "generator": "nukes",
@@ -4045,7 +4045,7 @@
     "variantTitle": "Pathfinder 1st Edition (PFSRD)",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/pathfinder-1e/index.html",
+    "rulesUrl": "pathfinder-1e/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -4056,7 +4056,7 @@
     "variantTitle": "Starforged",
     "topology": "rpg",
     "svg": null,
-    "rulesUrl": "dist/starforged/index.html",
+    "rulesUrl": "starforged/index.html",
     "status": "generator",
     "reason": "rpg-provider"
   },
@@ -4067,7 +4067,7 @@
     "variantTitle": "Talisman Worlds",
     "topology": "hex",
     "svg": null,
-    "rulesUrl": "dist/talisman-worlds/index.html",
+    "rulesUrl": "talisman-worlds/index.html",
     "status": "generator",
     "reason": "hex-generator",
     "generator": "talisman"

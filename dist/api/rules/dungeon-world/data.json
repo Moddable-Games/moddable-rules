@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/dungeon-world/diagrams/svg/dungeon-world-character-sheet.svg",
-        "rulesUrl": "dist/dungeon-world/rules/character-sheet/index.html",
+        "rulesUrl": "dungeon-world/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Dungeon World",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/dungeon-world/index.html",
+        "rulesUrl": "dungeon-world/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

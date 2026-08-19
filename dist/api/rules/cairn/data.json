@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/cairn/diagrams/svg/cairn-character-sheet.svg",
-        "rulesUrl": "dist/cairn/rules/character-sheet/index.html",
+        "rulesUrl": "cairn/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Cairn",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/cairn/index.html",
+        "rulesUrl": "cairn/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

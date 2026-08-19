@@ -173,7 +173,7 @@ for (const slug of allSlugs) {
         content: raw,
         anchor,
         variant: vslug,
-        variantUrl: `dist/${slug}/variants/${vslug}/`
+        variantUrl: `${slug}/variants/${vslug}/`
       });
     }
 
@@ -262,7 +262,7 @@ for (const slug of allSlugs) {
           content: raw,
           anchor,
           variant: gslug,
-          variantUrl: `dist/${slug}/games/${gslug}/`
+          variantUrl: `${slug}/games/${gslug}/`
         });
       }
 
@@ -309,7 +309,7 @@ for (const slug of readdirSync(GAMES_DIR, { withFileTypes: true }).filter(d => d
 
         const anchor = item.index || name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
         const variantUrl = cat.linkPath
-          ? `dist/${slug}/${resolveLinkPath(cat.linkPath, item)}`
+          ? `${slug}/${resolveLinkPath(cat.linkPath, item)}`
           : null;
 
         index.push({

@@ -212,7 +212,7 @@
         "variantTitle": "Nukes: Asymmetric Powers",
         "topology": "hex",
         "svg": "games/nukes/diagrams/svg/asymmetric-powers-board.svg",
-        "rulesUrl": "dist/nukes/variants/asymmetric-powers/index.html",
+        "rulesUrl": "nukes/variants/asymmetric-powers/index.html",
         "status": "rendered",
         "players": "2–3"
       },
@@ -223,7 +223,7 @@
         "variantTitle": "Nukes: Fallout",
         "topology": "hex",
         "svg": "games/nukes/diagrams/svg/fallout-board.svg",
-        "rulesUrl": "dist/nukes/variants/fallout/index.html",
+        "rulesUrl": "nukes/variants/fallout/index.html",
         "status": "rendered",
         "players": "2–3"
       },
@@ -234,7 +234,7 @@
         "variantTitle": "Nukes: Siege",
         "topology": "hex",
         "svg": "games/nukes/diagrams/svg/siege-board.svg",
-        "rulesUrl": "dist/nukes/variants/siege/index.html",
+        "rulesUrl": "nukes/variants/siege/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -245,7 +245,7 @@
         "variantTitle": "Nukes: Standard",
         "topology": "hex",
         "svg": "games/nukes/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/nukes/variants/standard/index.html",
+        "rulesUrl": "nukes/variants/standard/index.html",
         "status": "generator",
         "reason": "hex-generator",
         "generator": "nukes",

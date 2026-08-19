@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/maze-rats/diagrams/svg/maze-rats-character-sheet.svg",
-        "rulesUrl": "dist/maze-rats/rules/character-sheet/index.html",
+        "rulesUrl": "maze-rats/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Maze Rats",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/maze-rats/index.html",
+        "rulesUrl": "maze-rats/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

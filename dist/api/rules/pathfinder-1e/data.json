@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/pathfinder-1e/diagrams/svg/pathfinder-1e-character-sheet-page-1.svg",
-        "rulesUrl": "dist/pathfinder-1e/rules/character-sheet/index.html",
+        "rulesUrl": "pathfinder-1e/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Pathfinder 1st Edition (PFSRD)",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/pathfinder-1e/index.html",
+        "rulesUrl": "pathfinder-1e/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

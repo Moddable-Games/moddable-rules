@@ -639,7 +639,7 @@
         "variantTitle": "Janggi",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/janggi-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/janggi/index.html",
+        "rulesUrl": "xiangqi/variants/janggi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -650,7 +650,7 @@
         "variantTitle": "Jieqi",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/jieqi-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/jieqi/index.html",
+        "rulesUrl": "xiangqi/variants/jieqi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -661,7 +661,7 @@
         "variantTitle": "Manchu+",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/manchu-plus-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/manchu-plus/index.html",
+        "rulesUrl": "xiangqi/variants/manchu-plus/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -672,7 +672,7 @@
         "variantTitle": "Minixiangqi",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/minixiangqi-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/minixiangqi/index.html",
+        "rulesUrl": "xiangqi/variants/minixiangqi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -683,7 +683,7 @@
         "variantTitle": "Quang Trung Chess",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/quang-trung-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/quang-trung/index.html",
+        "rulesUrl": "xiangqi/variants/quang-trung/index.html",
         "status": "rendered",
         "players": 2
       },
@@ -694,7 +694,7 @@
         "variantTitle": "San-kwo-k'i",
         "topology": "hexagonal-trisection",
         "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/san-kwo-ki/index.html",
+        "rulesUrl": "xiangqi/variants/san-kwo-ki/index.html",
         "status": "rendered",
         "players": 3
       },
@@ -705,7 +705,7 @@
         "variantTitle": "Standard Xiangqi",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/standard/index.html",
+        "rulesUrl": "xiangqi/variants/standard/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -716,7 +716,7 @@
         "variantTitle": "Xiangqi 42",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/xiangqi-42-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/xiangqi-42/index.html",
+        "rulesUrl": "xiangqi/variants/xiangqi-42/index.html",
         "status": "rendered",
         "players": 2
       },
@@ -727,7 +727,7 @@
         "variantTitle": "Yáng Qí",
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
-        "rulesUrl": "dist/xiangqi/variants/yang-qi/index.html",
+        "rulesUrl": "xiangqi/variants/yang-qi/index.html",
         "status": "rendered",
         "players": 2
       }

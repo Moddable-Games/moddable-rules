@@ -305,7 +305,7 @@
         "variantTitle": "Royal Garrison",
         "topology": "graph",
         "svg": "games/asalto/diagrams/svg/royal-garrison-board.svg",
-        "rulesUrl": "dist/asalto/variants/royal-garrison/index.html",
+        "rulesUrl": "asalto/variants/royal-garrison/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -316,7 +316,7 @@
         "variantTitle": "Asalto (Standard)",
         "topology": "graph",
         "svg": "games/asalto/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/asalto/variants/standard/index.html",
+        "rulesUrl": "asalto/variants/standard/index.html",
         "status": "rendered",
         "players": "2"
       }

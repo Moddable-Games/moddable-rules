@@ -134,7 +134,7 @@
         "variantTitle": "Standard 2-Player Halma",
         "topology": "grid",
         "svg": "games/halma/diagrams/svg/standard-2p-board.svg",
-        "rulesUrl": "dist/halma/variants/standard-2p/index.html",
+        "rulesUrl": "halma/variants/standard-2p/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -145,7 +145,7 @@
         "variantTitle": "Standard 4-Player Halma",
         "topology": "grid",
         "svg": "games/halma/diagrams/svg/standard-4p-board.svg",
-        "rulesUrl": "dist/halma/variants/standard-4p/index.html",
+        "rulesUrl": "halma/variants/standard-4p/index.html",
         "status": "rendered",
         "players": "4"
       }

@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/fate-core/diagrams/svg/fate-core-character-sheet.svg",
-        "rulesUrl": "dist/fate-core/rules/character-sheet/index.html",
+        "rulesUrl": "fate-core/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Fate Core",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/fate-core/index.html",
+        "rulesUrl": "fate-core/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

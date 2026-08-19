@@ -592,7 +592,7 @@
         "variantTitle": "Brandubh",
         "topology": "grid",
         "svg": "games/tafl/diagrams/svg/brandubh-board.svg",
-        "rulesUrl": "dist/tafl/variants/brandubh/index.html",
+        "rulesUrl": "tafl/variants/brandubh/index.html",
         "status": "rendered"
       },
       {
@@ -602,7 +602,7 @@
         "variantTitle": "Hnefatafl",
         "topology": "grid",
         "svg": "games/tafl/diagrams/svg/hnefatafl-board.svg",
-        "rulesUrl": "dist/tafl/variants/hnefatafl/index.html",
+        "rulesUrl": "tafl/variants/hnefatafl/index.html",
         "status": "rendered"
       },
       {
@@ -612,7 +612,7 @@
         "variantTitle": "Tablut",
         "topology": "grid",
         "svg": "games/tafl/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/tafl/variants/standard/index.html",
+        "rulesUrl": "tafl/variants/standard/index.html",
         "status": "rendered"
       },
       {
@@ -622,7 +622,7 @@
         "variantTitle": "Tawlbwrdd",
         "topology": "grid",
         "svg": "games/tafl/diagrams/svg/tawlbwrdd-board.svg",
-        "rulesUrl": "dist/tafl/variants/tawlbwrdd/index.html",
+        "rulesUrl": "tafl/variants/tawlbwrdd/index.html",
         "status": "rendered"
       }
     ]

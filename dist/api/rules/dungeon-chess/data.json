@@ -2022,7 +2022,7 @@
         "variantTitle": "Dungeon Chess (Compact Skirmish (10×10))",
         "topology": "grid",
         "svg": "games/dungeon-chess/diagrams/svg/compact-board.svg",
-        "rulesUrl": "dist/dungeon-chess/variants/compact/index.html",
+        "rulesUrl": "dungeon-chess/variants/compact/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -2033,7 +2033,7 @@
         "variantTitle": "Dungeon Chess (Four Player (20×20))",
         "topology": "grid",
         "svg": "games/dungeon-chess/diagrams/svg/four-player-board.svg",
-        "rulesUrl": "dist/dungeon-chess/variants/four-player/index.html",
+        "rulesUrl": "dungeon-chess/variants/four-player/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -2044,7 +2044,7 @@
         "variantTitle": "Dungeon Chess (Two Player (20×8))",
         "topology": "grid",
         "svg": "games/dungeon-chess/diagrams/svg/two-player-board.svg",
-        "rulesUrl": "dist/dungeon-chess/variants/two-player/index.html",
+        "rulesUrl": "dungeon-chess/variants/two-player/index.html",
         "status": "rendered",
         "players": "2"
       }

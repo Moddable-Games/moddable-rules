@@ -555,15 +555,15 @@ const sitemapUrls = [
   `${sitemapBase}/.well-known/agent-skills/index.json`,
 ];
 for (const g of catalogue) {
-  sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/`);
+  sitemapUrls.push(`${sitemapBase}/${g.slug}/`);
   for (const v of g.variants) {
-    sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/variants/${v.slug}/`);
+    sitemapUrls.push(`${sitemapBase}/${g.slug}/variants/${v.slug}/`);
   }
   for (const game of g.games) {
-    sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/games/${game.slug}/`);
+    sitemapUrls.push(`${sitemapBase}/${g.slug}/games/${game.slug}/`);
   }
   for (const p of g.pages) {
-    sitemapUrls.push(`${sitemapBase}/dist/${g.slug}/${p.section}/${p.slug}/`);
+    sitemapUrls.push(`${sitemapBase}/${g.slug}/${p.section}/${p.slug}/`);
   }
 }
 

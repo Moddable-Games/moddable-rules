@@ -1068,7 +1068,7 @@
         "variantTitle": "Aviation",
         "topology": "grid",
         "svg": "games/lattaque/diagrams/svg/aviation-board.svg",
-        "rulesUrl": "dist/lattaque/variants/aviation/index.html",
+        "rulesUrl": "lattaque/variants/aviation/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -1079,7 +1079,7 @@
         "variantTitle": "Dover Patrol",
         "topology": "grid",
         "svg": "games/lattaque/diagrams/svg/dover-patrol-board.svg",
-        "rulesUrl": "dist/lattaque/variants/dover-patrol/index.html",
+        "rulesUrl": "lattaque/variants/dover-patrol/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -1090,7 +1090,7 @@
         "variantTitle": "L'Attaque (Standard)",
         "topology": "grid",
         "svg": "games/lattaque/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/lattaque/variants/standard/index.html",
+        "rulesUrl": "lattaque/variants/standard/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -1101,7 +1101,7 @@
         "variantTitle": "Tri-Tactics",
         "topology": "grid",
         "svg": "games/lattaque/diagrams/svg/tri-tactics-board.svg",
-        "rulesUrl": "dist/lattaque/variants/tri-tactics/index.html",
+        "rulesUrl": "lattaque/variants/tri-tactics/index.html",
         "status": "rendered",
         "players": "2"
       }

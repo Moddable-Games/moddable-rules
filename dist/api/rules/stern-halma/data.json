@@ -305,7 +305,7 @@
         "variantTitle": "Standard 2-Player Stern-Halma",
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-2p-board.svg",
-        "rulesUrl": "dist/stern-halma/variants/standard-2p/index.html",
+        "rulesUrl": "stern-halma/variants/standard-2p/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -316,7 +316,7 @@
         "variantTitle": "Standard 3-Player Stern-Halma",
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-3p-board.svg",
-        "rulesUrl": "dist/stern-halma/variants/standard-3p/index.html",
+        "rulesUrl": "stern-halma/variants/standard-3p/index.html",
         "status": "rendered",
         "players": "3"
       },
@@ -327,7 +327,7 @@
         "variantTitle": "Standard 4-Player Stern-Halma",
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-4p-board.svg",
-        "rulesUrl": "dist/stern-halma/variants/standard-4p/index.html",
+        "rulesUrl": "stern-halma/variants/standard-4p/index.html",
         "status": "rendered",
         "players": "4"
       },
@@ -338,7 +338,7 @@
         "variantTitle": "Standard 6-Player Stern-Halma",
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-6p-board.svg",
-        "rulesUrl": "dist/stern-halma/variants/standard-6p/index.html",
+        "rulesUrl": "stern-halma/variants/standard-6p/index.html",
         "status": "rendered",
         "players": "6"
       },
@@ -349,7 +349,7 @@
         "variantTitle": "Super Chinese Checkers",
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
-        "rulesUrl": "dist/stern-halma/variants/super-chinese-checkers/index.html",
+        "rulesUrl": "stern-halma/variants/super-chinese-checkers/index.html",
         "status": "rendered",
         "players": "2–6"
       }

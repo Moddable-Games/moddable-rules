@@ -2226,9 +2226,9 @@
           "layout": "cells"
         },
         "players": [
+          "green",
           "red",
           "yellow",
-          "green",
           "blue"
         ],
         "pieces": {
@@ -2237,65 +2237,65 @@
         "vocabulary": {
           "king": {
             "symbols": {
-              "0": "rK",
-              "1": "yK",
-              "2": "gK",
+              "0": "gK",
+              "1": "rK",
+              "2": "yK",
               "3": "bK"
             }
           },
           "gold": {
             "symbols": {
-              "0": "rG",
-              "1": "yG",
-              "2": "gG",
+              "0": "gG",
+              "1": "rG",
+              "2": "yG",
               "3": "bG"
             }
           },
           "silver": {
             "symbols": {
-              "0": "rS",
-              "1": "yS",
-              "2": "gS",
+              "0": "gS",
+              "1": "rS",
+              "2": "yS",
               "3": "bS"
             }
           },
           "knight": {
             "symbols": {
-              "0": "rN",
-              "1": "yN",
-              "2": "gN",
+              "0": "gN",
+              "1": "rN",
+              "2": "yN",
               "3": "bN"
             }
           },
           "lance": {
             "symbols": {
-              "0": "rL",
-              "1": "yL",
-              "2": "gL",
+              "0": "gL",
+              "1": "rL",
+              "2": "yL",
               "3": "bL"
             }
           },
           "rook": {
             "symbols": {
-              "0": "rR",
-              "1": "yR",
-              "2": "gR",
+              "0": "gR",
+              "1": "rR",
+              "2": "yR",
               "3": "bR"
             }
           },
           "bishop": {
             "symbols": {
-              "0": "rB",
-              "1": "yB",
-              "2": "gB",
+              "0": "gB",
+              "1": "rB",
+              "2": "yB",
               "3": "bB"
             }
           },
           "pawn": {
             "symbols": {
-              "0": "rP",
-              "1": "yP",
-              "2": "gP",
+              "0": "gP",
+              "1": "rP",
+              "2": "yP",
               "3": "bP"
             }
           }
@@ -2482,15 +2482,15 @@
             "drops": true,
             "advancement": {
               "0": [
+                -1,
+                0
+              ],
+              "1": [
                 0,
                 1
               ],
-              "1": [
-                1,
-                0
-              ],
               "2": [
-                -1,
+                1,
                 0
               ],
               "3": [
@@ -3382,7 +3382,7 @@
         "variantTitle": "Annan Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/annan-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/annan-shogi/index.html",
+        "rulesUrl": "shogi/variants/annan-shogi/index.html",
         "status": "rendered",
         "players": 2
       },
@@ -3393,7 +3393,7 @@
         "variantTitle": "Cannon Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/cannon-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/cannon-shogi/index.html",
+        "rulesUrl": "shogi/variants/cannon-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3404,7 +3404,7 @@
         "variantTitle": "Chu Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/chu-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/chu-shogi/index.html",
+        "rulesUrl": "shogi/variants/chu-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3415,7 +3415,7 @@
         "variantTitle": "Dai Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/dai-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/dai-shogi/index.html",
+        "rulesUrl": "shogi/variants/dai-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3426,7 +3426,7 @@
         "variantTitle": "Dobutsu Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/dobutsu-board.svg",
-        "rulesUrl": "dist/shogi/variants/dobutsu/index.html",
+        "rulesUrl": "shogi/variants/dobutsu/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3437,7 +3437,7 @@
         "variantTitle": "Four Player Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/four-player-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/four-player-shogi/index.html",
+        "rulesUrl": "shogi/variants/four-player-shogi/index.html",
         "status": "rendered",
         "players": "4"
       },
@@ -3448,7 +3448,7 @@
         "variantTitle": "Gorogoro+",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/gorogoro-plus-board.svg",
-        "rulesUrl": "dist/shogi/variants/gorogoro-plus/index.html",
+        "rulesUrl": "shogi/variants/gorogoro-plus/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3459,7 +3459,7 @@
         "variantTitle": "Hasami Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/hasami-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/hasami-shogi/index.html",
+        "rulesUrl": "shogi/variants/hasami-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3470,7 +3470,7 @@
         "variantTitle": "Heian Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/heian-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/heian-shogi/index.html",
+        "rulesUrl": "shogi/variants/heian-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3481,7 +3481,7 @@
         "variantTitle": "Hex Shogi 91",
         "topology": "hex",
         "svg": "games/shogi/diagrams/svg/hex-shogi-91-board.svg",
-        "rulesUrl": "dist/shogi/variants/hex-shogi-91/index.html",
+        "rulesUrl": "shogi/variants/hex-shogi-91/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3492,7 +3492,7 @@
         "variantTitle": "Judkins' Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/judkins-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/judkins-shogi/index.html",
+        "rulesUrl": "shogi/variants/judkins-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3503,7 +3503,7 @@
         "variantTitle": "Kyoto Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/kyoto-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/kyoto-shogi/index.html",
+        "rulesUrl": "shogi/variants/kyoto-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3514,7 +3514,7 @@
         "variantTitle": "Maka-Dai-Dai Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/maka-dai-dai-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/maka-dai-dai-shogi/index.html",
+        "rulesUrl": "shogi/variants/maka-dai-dai-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3525,7 +3525,7 @@
         "variantTitle": "Minishogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/minishogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/minishogi/index.html",
+        "rulesUrl": "shogi/variants/minishogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3536,7 +3536,7 @@
         "variantTitle": "Mortal Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/mortal-shogi/index.html",
+        "rulesUrl": "shogi/variants/mortal-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3547,7 +3547,7 @@
         "variantTitle": "Sankaku Shogi",
         "topology": "triangular",
         "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/sankaku-shogi/index.html",
+        "rulesUrl": "shogi/variants/sankaku-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3558,7 +3558,7 @@
         "variantTitle": "Sho Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/sho-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/sho-shogi/index.html",
+        "rulesUrl": "shogi/variants/sho-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3569,7 +3569,7 @@
         "variantTitle": "Standard Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/shogi/variants/standard/index.html",
+        "rulesUrl": "shogi/variants/standard/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3580,7 +3580,7 @@
         "variantTitle": "Tai Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/tai-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/tai-shogi/index.html",
+        "rulesUrl": "shogi/variants/tai-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3591,7 +3591,7 @@
         "variantTitle": "Taikyoku Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/taikyoku-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/taikyoku-shogi/index.html",
+        "rulesUrl": "shogi/variants/taikyoku-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3602,7 +3602,7 @@
         "variantTitle": "Tenjiku Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/tenjiku-shogi/index.html",
+        "rulesUrl": "shogi/variants/tenjiku-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3613,7 +3613,7 @@
         "variantTitle": "Tori Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/tori-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/tori-shogi/index.html",
+        "rulesUrl": "shogi/variants/tori-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3624,7 +3624,7 @@
         "variantTitle": "Wa Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/wa-shogi/index.html",
+        "rulesUrl": "shogi/variants/wa-shogi/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -3635,7 +3635,7 @@
         "variantTitle": "Yari Shogi",
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/yari-shogi-board.svg",
-        "rulesUrl": "dist/shogi/variants/yari-shogi/index.html",
+        "rulesUrl": "shogi/variants/yari-shogi/index.html",
         "status": "rendered",
         "players": "2"
       }

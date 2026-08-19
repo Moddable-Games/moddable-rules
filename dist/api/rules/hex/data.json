@@ -372,7 +372,7 @@
         "variantTitle": "Hex (13×13)",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/13x13-board.svg",
-        "rulesUrl": "dist/hex/variants/13x13/index.html",
+        "rulesUrl": "hex/variants/13x13/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -383,7 +383,7 @@
         "variantTitle": "Hex (14×14)",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/14x14-board.svg",
-        "rulesUrl": "dist/hex/variants/14x14/index.html",
+        "rulesUrl": "hex/variants/14x14/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -394,7 +394,7 @@
         "variantTitle": "Hex (19×19)",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/19x19-board.svg",
-        "rulesUrl": "dist/hex/variants/19x19/index.html",
+        "rulesUrl": "hex/variants/19x19/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -405,7 +405,7 @@
         "variantTitle": "Hex (9×9)",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/9x9-board.svg",
-        "rulesUrl": "dist/hex/variants/9x9/index.html",
+        "rulesUrl": "hex/variants/9x9/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -416,7 +416,7 @@
         "variantTitle": "Hex (11×11)",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/hex/variants/standard/index.html",
+        "rulesUrl": "hex/variants/standard/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -427,7 +427,7 @@
         "variantTitle": "Y",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/y-game-board.svg",
-        "rulesUrl": "dist/hex/variants/y-game/index.html",
+        "rulesUrl": "hex/variants/y-game/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -438,7 +438,7 @@
         "variantTitle": "Y (Large — 15)",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/y-large-board.svg",
-        "rulesUrl": "dist/hex/variants/y-large/index.html",
+        "rulesUrl": "hex/variants/y-large/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -449,7 +449,7 @@
         "variantTitle": "Y (Small — 9)",
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/y-small-board.svg",
-        "rulesUrl": "dist/hex/variants/y-small/index.html",
+        "rulesUrl": "hex/variants/y-small/index.html",
         "status": "rendered",
         "players": "2"
       }

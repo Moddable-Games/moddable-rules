@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/dnd-5e/diagrams/svg/dnd-5e-character-sheet-page-1.svg",
-        "rulesUrl": "dist/dnd-5e/rules/character-sheet/index.html",
+        "rulesUrl": "dnd-5e/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Dungeons & Dragons 5th Edition SRD",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/dnd-5e/index.html",
+        "rulesUrl": "dnd-5e/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

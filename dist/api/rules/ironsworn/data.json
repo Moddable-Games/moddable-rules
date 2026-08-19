@@ -39,7 +39,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/ironsworn/diagrams/svg/ironsworn-character-sheet-page-1.svg",
-        "rulesUrl": "dist/ironsworn/rules/character-sheet/index.html",
+        "rulesUrl": "ironsworn/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -50,7 +50,7 @@
         "variantTitle": "Ironsworn",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/ironsworn/index.html",
+        "rulesUrl": "ironsworn/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/brp/diagrams/svg/brp-character-sheet.svg",
-        "rulesUrl": "dist/brp/rules/character-sheet/index.html",
+        "rulesUrl": "brp/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Basic Roleplaying",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/brp/index.html",
+        "rulesUrl": "brp/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

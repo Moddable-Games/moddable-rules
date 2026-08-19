@@ -37,7 +37,7 @@
         "variantTitle": "Character Sheet",
         "topology": "rpg",
         "svg": "games/starforged/diagrams/svg/starforged-character-sheet-page-1.svg",
-        "rulesUrl": "dist/starforged/rules/character-sheet/index.html",
+        "rulesUrl": "starforged/rules/character-sheet/index.html",
         "status": "rendered",
         "reason": "rpg-chargen"
       },
@@ -48,7 +48,7 @@
         "variantTitle": "Starforged",
         "topology": "rpg",
         "svg": null,
-        "rulesUrl": "dist/starforged/index.html",
+        "rulesUrl": "starforged/index.html",
         "status": "generator",
         "reason": "rpg-provider"
       }

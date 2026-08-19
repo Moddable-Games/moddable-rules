@@ -296,7 +296,7 @@
         "variantTitle": "Seven-Shell Pachisi",
         "topology": "grid",
         "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
-        "rulesUrl": "dist/pachisi/variants/seven-shell/index.html",
+        "rulesUrl": "pachisi/variants/seven-shell/index.html",
         "status": "rendered",
         "players": "2–4"
       },
@@ -307,7 +307,7 @@
         "variantTitle": "Pachisi (Standard)",
         "topology": "grid",
         "svg": "games/pachisi/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/pachisi/variants/standard/index.html",
+        "rulesUrl": "pachisi/variants/standard/index.html",
         "status": "rendered",
         "players": "4"
       },
@@ -318,7 +318,7 @@
         "variantTitle": "2-Player Pachisi",
         "topology": "grid",
         "svg": "games/pachisi/diagrams/svg/two-player-board.svg",
-        "rulesUrl": "dist/pachisi/variants/two-player/index.html",
+        "rulesUrl": "pachisi/variants/two-player/index.html",
         "status": "rendered",
         "players": "2"
       }

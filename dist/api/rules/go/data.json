@@ -39,7 +39,7 @@
       "cellSize": 20,
       "labels": true,
       "inset": 15,
-      "idStyle": "go",
+      "idStyle": "intersection",
       "ops": [
         {
           "op": "rect",
@@ -792,7 +792,7 @@
         "variantTitle": "13×13 Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/13x13-board.svg",
-        "rulesUrl": "dist/go/variants/13x13/index.html",
+        "rulesUrl": "go/variants/13x13/index.html",
         "status": "rendered",
         "handicaps": {
           "range": [
@@ -818,7 +818,7 @@
         "variantTitle": "9×9 Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/9x9-board.svg",
-        "rulesUrl": "dist/go/variants/9x9/index.html",
+        "rulesUrl": "go/variants/9x9/index.html",
         "status": "rendered",
         "handicaps": {
           "range": [
@@ -844,7 +844,7 @@
         "variantTitle": "Capture Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/capture-go-board.svg",
-        "rulesUrl": "dist/go/variants/capture-go/index.html",
+        "rulesUrl": "go/variants/capture-go/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -855,7 +855,7 @@
         "variantTitle": "Gomoku",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/gomoku-board.svg",
-        "rulesUrl": "dist/go/variants/gomoku/index.html",
+        "rulesUrl": "go/variants/gomoku/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -866,7 +866,7 @@
         "variantTitle": "Ninuki-Renju",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/ninuki-renju-board.svg",
-        "rulesUrl": "dist/go/variants/ninuki-renju/index.html",
+        "rulesUrl": "go/variants/ninuki-renju/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -877,7 +877,7 @@
         "variantTitle": "One-Colour Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/one-colour-board.svg",
-        "rulesUrl": "dist/go/variants/one-colour/index.html",
+        "rulesUrl": "go/variants/one-colour/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -888,7 +888,7 @@
         "variantTitle": "Phantom Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/phantom-go-board.svg",
-        "rulesUrl": "dist/go/variants/phantom-go/index.html",
+        "rulesUrl": "go/variants/phantom-go/index.html",
         "status": "rendered",
         "players": "2 + referee"
       },
@@ -899,7 +899,7 @@
         "variantTitle": "Rengo",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/rengo-board.svg",
-        "rulesUrl": "dist/go/variants/rengo/index.html",
+        "rulesUrl": "go/variants/rengo/index.html",
         "status": "rendered",
         "players": "4–6"
       },
@@ -910,7 +910,7 @@
         "variantTitle": "Renju",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/renju-board.svg",
-        "rulesUrl": "dist/go/variants/renju/index.html",
+        "rulesUrl": "go/variants/renju/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -921,7 +921,7 @@
         "variantTitle": "Standard Go (19×19)",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/standard-board.svg",
-        "rulesUrl": "dist/go/variants/standard/index.html",
+        "rulesUrl": "go/variants/standard/index.html",
         "status": "rendered",
         "handicaps": {
           "range": [
@@ -955,7 +955,7 @@
         "variantTitle": "Stoical Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/stoical-board.svg",
-        "rulesUrl": "dist/go/variants/stoical/index.html",
+        "rulesUrl": "go/variants/stoical/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -966,7 +966,7 @@
         "variantTitle": "Sunjang Baduk",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/sunjang-board.svg",
-        "rulesUrl": "dist/go/variants/sunjang/index.html",
+        "rulesUrl": "go/variants/sunjang/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -977,7 +977,7 @@
         "variantTitle": "Tibetan Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/tibetan-board.svg",
-        "rulesUrl": "dist/go/variants/tibetan/index.html",
+        "rulesUrl": "go/variants/tibetan/index.html",
         "status": "rendered",
         "players": "2"
       },
@@ -988,7 +988,7 @@
         "variantTitle": "Toroidal Go",
         "topology": "grid",
         "svg": "games/go/diagrams/svg/toroidal-go-board.svg",
-        "rulesUrl": "dist/go/variants/toroidal-go/index.html",
+        "rulesUrl": "go/variants/toroidal-go/index.html",
         "status": "rendered",
         "players": "2"
       }

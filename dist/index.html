@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moddable Rules — Game Rulebooks</title>
+<meta name="description" content="Official rulebooks for games published by Moddable Games.">
+<meta property="og:title" content="Moddable Rules — Game Rulebooks">
+<meta property="og:description" content="Official rulebooks for games published by Moddable Games.">
+<meta property="og:image" content="https://rules.moddable.games/shared/og-image.png?v=1.3.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Moddable Rules — Game Rulebooks">
+<meta name="twitter:description" content="Official rulebooks for games published by Moddable Games.">
+<meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=1.3.1">
+<link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
+<link rel="api-catalog" href="/.well-known/api-catalog">
+<link rel="mcp-server" href="/.well-known/mcp.json">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM context">
+<link rel="stylesheet" href="css/landing.css?v=1.3.1">
+<script defer src="shared/js/analytics.js"></script>
+</head>
+<body>
+
+<div class="landing">
+
+  <header class="landing-header">
+    <a href="https://moddable.games" target="_blank" rel="noopener"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
+    <button class="surface-toggle" aria-label="Toggle light/dark mode" type="button">◐</button>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero-title">Game Rulebooks</h1>
+    <p class="hero-desc">Open rulebooks for original games, creative mods of published titles, and encyclopaedic coverage of public domain classics. Every rule documented, every variant preserved.</p>
+    <div class="hero-stats" id="hero-stats">
+      <span class="hero-stat"><strong id="stat-games">46</strong> games</span>
+      <span class="hero-stat"><strong id="stat-variants">334</strong> variants</span>
+    </div>
+    <div class="hero-actions">
+      <a href="diagrams/" class="hero-link">Diagrams</a>
+      <a href="api/" class="hero-link">API</a>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="filter-bar">
+      <button class="filter-pill filter-pill--all active" data-filter="all">All</button>
+      <button class="filter-pill filter-pill--game" data-filter="game">Games</button>
+      <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
+      <button class="filter-pill filter-pill--platform" data-filter="platform">Platforms</button>
+      <button class="filter-pill filter-pill--classic" data-filter="classic">Classics</button>
+      <button class="filter-pill filter-pill--component" data-filter="component">Components</button>
+      <button class="filter-pill filter-pill--rpg" data-filter="rpg">RPGs</button>
+    </div>
+    <div class="search-bar">
+      <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd"/></svg>
+      <input type="search" class="search-input" placeholder="Search games..." aria-label="Search games">
+    </div>
+  </div>
+
+  <div class="game-grid">
+
+    <a href="chess/index.html" class="game-card" data-type="platform">
+      <span class="badge badge--alpha">Alpha</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/chess/logos/chess-logo.svg" alt="">
+        <p class="card-desc">Every chess variant, one engine</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Chess</span><span class="card-version">v0.6.1</span></div>
+        
+        <div class="card-meta"><span>2-6 players</span><span class="sep">/</span><span>10-120 min</span></div>
+      </div>
+    </a>
+
+    <a href="draughts/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/draughts/logos/draughts-logo.svg" alt="">
+        <p class="card-desc">The world's oldest family of capture games</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Draughts</span><span class="card-version">v0.3.1</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="talisman-worlds/index.html" class="game-card" data-type="mod">
+      <span class="badge badge--playtest">Playtest</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/talisman-worlds/logos/talisman-worlds-logo.png" alt="">
+        <p class="card-desc">A new hex board every game of Talisman</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Talisman Worlds</span><span class="card-version">v0.4.0</span></div>
+        <span class="card-base">Mod of Talisman 4e</span>
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>90 min</span></div>
+      </div>
+    </a>
+
+    <a href="brp/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/brp/logos/brp-logo.svg" alt="">
+        <p class="card-desc">The percentile-skill engine behind Call of Cthulhu, RuneQuest, and Pendragon</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Basic Roleplaying</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>60–240 min</span></div>
+      </div>
+    </a>
+
+    <a href="cairn/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/cairn/logos/cairn-logo.svg" alt="">
+        <p class="card-desc">A classless OSR adventure game about exploring a dark and mysterious Wood</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Cairn</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>1–6 players</span><span class="sep">/</span><span>60–240 min</span></div>
+      </div>
+    </a>
+
+    <a href="dungeon-world/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/dungeon-world/logos/dungeon-world-logo.svg" alt="">
+        <p class="card-desc">Powered by the Apocalypse fantasy dungeon-crawling, fiction-first play</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Dungeon World</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2-5 players</span><span class="sep">/</span><span>varies</span></div>
+      </div>
+    </a>
+
+    <a href="fate-core/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/fate-core/logos/fate-core-logo.svg" alt="">
+        <p class="card-desc">A flexible, narrative-first tabletop RPG built on aspects, fate points, and the four actions</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Fate Core</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>3-5 players</span><span class="sep">/</span><span>varies</span></div>
+      </div>
+    </a>
+
+    <a href="knave/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/knave/logos/knave-logo.svg" alt="">
+        <p class="card-desc">A classless OSR rules toolkit for running old-school fantasy adventures</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Knave</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–5 players</span><span class="sep">/</span><span>60–240 min</span></div>
+      </div>
+    </a>
+
+    <a href="bavarian-32/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/bavarian-32/logos/bavarian-32-logo.svg" alt="">
+        <p class="card-desc">Trick-taking games for the 32-card Skat deck</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Bavarian 32</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>3 players</span><span class="sep">/</span><span>30–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="double-six-dominoes/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/double-six-dominoes/logos/double-six-dominoes-logo.svg" alt="">
+        <p class="card-desc">Match the pips, build the chain, score the ends</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">D6 Dominoes</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>2–8 players</span><span class="sep">/</span><span>15–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="flower-48/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/flower-48/logos/flower-48-logo.svg" alt="">
+        <p class="card-desc">Japanese flower cards: 12 monthly suits, 48 cards</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">48 Flowers</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>2–4 players</span><span class="sep">/</span><span>15–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="mahjong/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/mahjong/logos/mahjong-logo.svg" alt="">
+        <p class="card-desc">A tile-matching game of skill, strategy, and fortune</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Mahjong</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>4 players</span><span class="sep">/</span><span>30–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="maze-rats/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/maze-rats/logos/maze-rats-logo.svg" alt="">
+        <p class="card-desc">A minimalist toolkit for old-school-style sandbox adventuring</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Maze Rats</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–5 players</span><span class="sep">/</span><span>60–180 min</span></div>
+      </div>
+    </a>
+
+    <a href="pathfinder-1e/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/pathfinder-1e/logos/pathfinder-1e-logo.svg" alt="">
+        <p class="card-desc">Paizo's fork of D&D 3.5, the most complete open ruleset in existence</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Pathfinder 1e</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–7 players</span><span class="sep">/</span><span>varies</span></div>
+      </div>
+    </a>
+
+    <a href="senet/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/senet/logos/senet-logo.svg" alt="">
+        <p class="card-desc">Ancient Egyptian race game (c. 3500 BCE), reconstructed from archaeological evidence</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Senet</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–30 min</span></div>
+      </div>
+    </a>
+
+    <a href="standard-52/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/standard-52/logos/standard-52-logo.svg" alt="">
+        <p class="card-desc">Every game a standard deck of cards can play</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">52 Cards</span><span class="card-version">v0.2.1</span></div>
+        
+        <div class="card-meta"><span>1–8 players</span><span class="sep">/</span><span>10–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="standard-dice/index.html" class="game-card" data-type="component">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/standard-dice/logos/standard-dice-logo.svg" alt="">
+        <p class="card-desc">Games built on standard six-sided dice</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Standard Dice</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>1–8 players</span><span class="sep">/</span><span>10–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="starforged/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/starforged/logos/starforged-logo.svg" alt="">
+        <p class="card-desc">A perilous journey through the Forge, guided by moves and oracle tables</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Starforged</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>1–4 players</span><span class="sep">/</span><span>60–240 min</span></div>
+      </div>
+    </a>
+
+    <a href="xiangqi/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/xiangqi/logos/xiangqi-logo.svg" alt="">
+        <p class="card-desc">Ancient Chinese chess: cannon fire, palace tactics, and the river divide</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Xiangqi</span><span class="card-version">v1.2.1</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–45 min</span></div>
+      </div>
+    </a>
+
+    <a href="baristasaurus/index.html" class="game-card" data-type="game">
+      <span class="badge badge--alpha">Alpha</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/baristasaurus/logos/baristasaurus-logo.png" alt="">
+        <p class="card-desc">A prehistoric card game about fulfilling coffeeshop orders</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Baristasaurus</span><span class="card-version">v0.1.2</span></div>
+        
+        <div class="card-meta"><span>2–5 players</span><span class="sep">/</span><span>~20 min</span></div>
+      </div>
+    </a>
+
+    <a href="lattaque/index.html" class="game-card" data-type="hub">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/lattaque/logos/lattaque-logo.svg" alt="">
+        <p class="card-desc">Hidden-rank warfare — the original family that spawned Stratego</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">L'Attaque</span><span class="card-version">v0.4.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>20–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="shogi/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/shogi/logos/shogi-logo.svg" alt="">
+        <p class="card-desc">Japan's classic strategy game where captured pieces change sides</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Shogi</span><span class="card-version">v1.2.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>30–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="agon/index.html" class="game-card" data-type="standalone">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/agon/logos/agon-logo.svg" alt="">
+        <p class="card-desc">Guide your Queen to the centre of a 91-hex board</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Agon</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>20–40 min</span></div>
+      </div>
+    </a>
+
+    <a href="asalto/index.html" class="game-card" data-type="hub">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/asalto/logos/asalto-logo.svg" alt="">
+        <p class="card-desc">Officers defend a fortress against a siege of soldiers</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Asalto</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–30 min</span></div>
+      </div>
+    </a>
+
+    <a href="dou-shou-qi/index.html" class="game-card" data-type="standalone">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/dou-shou-qi/logos/dou-shou-qi-logo.svg" alt="">
+        <p class="card-desc">Animals battle across rivers and traps to reach the enemy den</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Jungle</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>20–40 min</span></div>
+      </div>
+    </a>
+
+    <a href="nyout/index.html" class="game-card" data-type="standalone">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/nyout/logos/nyout-logo.svg" alt="">
+        <p class="card-desc">Korean stick-throwing race across a circular track</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Nyout</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–4 players</span><span class="sep">/</span><span>20–40 min</span></div>
+      </div>
+    </a>
+
+    <a href="dnd-5e/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/dnd-5e/logos/dnd-5e-logo.svg" alt="">
+        <p class="card-desc">The open core rules for the world's most popular roleplaying game</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">D&D</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–8 players</span><span class="sep">/</span><span>varies</span></div>
+      </div>
+    </a>
+
+    <a href="hex/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/hex/logos/hex-logo.svg" alt="">
+        <p class="card-desc">Connect your two edges across a diamond of hexagons</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Hex</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–45 min</span></div>
+      </div>
+    </a>
+
+    <a href="ironsworn/index.html" class="game-card" data-type="rpg">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/ironsworn/logos/ironsworn-logo.svg" alt="">
+        <p class="card-desc">A perilous quest through the Ironlands, guided by vows and oracle tables</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Ironsworn</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>1–4 players</span><span class="sep">/</span><span>60–240 min</span></div>
+      </div>
+    </a>
+
+    <a href="landlords-game/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/landlords-game/logos/landlords-game-logo.svg" alt="">
+        <p class="card-desc">Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">The Landlord's Game</span><span class="card-version">v0.2.0</span></div>
+        
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>60–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="stern-halma/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/stern-halma/logos/stern-halma-logo.svg" alt="">
+        <p class="card-desc">Race across the star board to claim the opposite point</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Stern-Halma</span><span class="card-version">v0.2.0</span></div>
+        
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>20–45 min</span></div>
+      </div>
+    </a>
+
+    <a href="nukes/index.html" class="game-card" data-type="game">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/nukes/logos/nukes-logo.png" alt="">
+        <p class="card-desc">Cold-war territory control on a hex map with nuclear brinkmanship</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Nukes</span><span class="card-version">v0.9.8</span></div>
+        
+        <div class="card-meta"><span>2–3 players</span><span class="sep">/</span><span>45+ min</span></div>
+      </div>
+    </a>
+
+    <a href="tafl/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/tafl/logos/tafl-logo.svg" alt="">
+        <p class="card-desc">King against the horde: asymmetric Norse strategy games of the Viking Age</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Tafl</span><span class="card-version">v1.0.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>10–45 min</span></div>
+      </div>
+    </a>
+
+    <a href="fanorona/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/fanorona/logos/fanorona-logo.svg" alt="">
+        <p class="card-desc">The national game of Madagascar: capture by approach and withdrawal</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Fanorona</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>20–40 min</span></div>
+      </div>
+    </a>
+
+    <a href="surakarta/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/surakarta/logos/surakarta-logo.svg" alt="">
+        <p class="card-desc">The loop-capture game of Java: capture through the corner arcs</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Surakarta</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>10–30 min</span></div>
+      </div>
+    </a>
+
+    <a href="go/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/go/logos/go-logo.svg" alt="">
+        <p class="card-desc">Four thousand years of emergent complexity from one rule</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Go</span><span class="card-version">v0.3.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–180 min</span></div>
+      </div>
+    </a>
+
+    <a href="harvesters/index.html" class="game-card" data-type="original">
+      <span class="badge badge--dev">draft</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/harvesters/logos/harvesters-logo.svg" alt="">
+        <p class="card-desc">A hex farming strategy game playable with a standard Catan box</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Harvesters</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>3–6 players</span><span class="sep">/</span><span>75–90 min</span></div>
+      </div>
+    </a>
+
+    <a href="econopoly/index.html" class="game-card" data-type="mod">
+      <span class="badge badge--playtest">Playtest</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/econopoly/logos/econopoly-logo.png" alt="">
+        <p class="card-desc">Euro-style resource management meets Monopoly</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Econopoly</span><span class="card-version">v0.2.0</span></div>
+        <span class="card-base">Mod of Monopoly</span>
+        <div class="card-meta"><span>2–6 players</span><span class="sep">/</span><span>60 min</span></div>
+      </div>
+    </a>
+
+    <a href="halma/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/halma/logos/halma-logo.svg" alt="">
+        <p class="card-desc">Race your pieces across the board before your opponent</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Halma</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–4 players</span><span class="sep">/</span><span>15–45 min</span></div>
+      </div>
+    </a>
+
+    <a href="hyper-imperium/index.html" class="game-card" data-type="mod">
+      <span class="badge badge--playtest">Playtest</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/hyper-imperium/logos/hyper-imperium-logo.png" alt="">
+        <p class="card-desc">3D exploration and mercenary factions for Twilight Imperium</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Hyper Imperium</span><span class="card-version">v0.7.0</span></div>
+        <span class="card-base">Mod of Twilight Imperium 4e</span>
+        <div class="card-meta"><span>4–6 players</span><span class="sep">/</span><span>4–6 hr</span></div>
+      </div>
+    </a>
+
+    <a href="reversi/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/reversi/logos/reversi-logo.svg" alt="">
+        <p class="card-desc">Flip your opponent's discs to claim the board</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Reversi</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>10–30 min</span></div>
+      </div>
+    </a>
+
+    <a href="chaupar/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/chaupar/logos/chaupar-logo.svg" alt="">
+        <p class="card-desc">The ancient Indian game of the Mahabharata — three long dice, super-pieces, and split throws</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Chaupar</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>4 players</span><span class="sep">/</span><span>45–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="pachisi/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/pachisi/logos/pachisi-logo.svg" alt="">
+        <p class="card-desc">The ancient Indian race game behind Ludo, Sorry!, and Trouble</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Pachisi</span><span class="card-version">v0.1.0</span></div>
+        
+        <div class="card-meta"><span>2–4 players</span><span class="sep">/</span><span>30–90 min</span></div>
+      </div>
+    </a>
+
+    <a href="backgammon/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/backgammon/logos/backgammon-logo.svg" alt="">
+        <p class="card-desc">Five thousand years of race, risk, and probability</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Backgammon</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–60 min</span></div>
+      </div>
+    </a>
+
+    <a href="mancala/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/mancala/logos/mancala-logo.svg" alt="">
+        <p class="card-desc">The world's most-played family of count-and-capture games</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Mancala</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>5–30 min</span></div>
+      </div>
+    </a>
+
+    <a href="morris/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/morris/logos/morris-logo.svg" alt="">
+        <p class="card-desc">The ancient mill game, played on stone, cloth, and wood across five continents</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Nine Men's Morris</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>15–45 min</span></div>
+      </div>
+    </a>
+
+    <a href="royal-ur/index.html" class="game-card" data-type="classic">
+      <span class="badge badge--live">Live</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/royal-ur/logos/royal-ur-logo.svg" alt="">
+        <p class="card-desc">The oldest known board game: reconstructed from 4,500-year-old clay tablets</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Royal Game of Ur</span><span class="card-version">v0.1.1</span></div>
+        
+        <div class="card-meta"><span>2 players</span><span class="sep">/</span><span>10–20 min</span></div>
+      </div>
+    </a>
+
+    <a href="dungeon-chess/index.html" class="game-card" data-type="mod">
+      <span class="badge badge--alpha">Alpha</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/dungeon-chess/logos/dungeon-chess-logo.png" alt="">
+        <p class="card-desc">Asymmetric fantasy strategy on modular dungeon boards</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Dungeon Chess</span><span class="card-version">v0.2.2</span></div>
+        <span class="card-base">Mod of Chess</span>
+        <div class="card-meta"><span>2–4 players</span><span class="sep">/</span><span>30–120 min</span></div>
+      </div>
+    </a>
+
+    <a href="endless-skies/index.html" class="game-card" data-type="game">
+      <span class="badge badge--dev">In Dev</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/endless-skies/logos/endless-skies-logo.png" alt="">
+        <p class="card-desc">4X space exploration with worker placement and fleet management</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Endless Skies</span><span class="card-version">v0.4.0</span></div>
+        
+        <div class="card-meta"><span>2–8 players</span><span class="sep">/</span><span>TBD</span></div>
+      </div>
+    </a>
+
+    <a href="mongo/index.html" class="game-card" data-type="game">
+      <span class="badge badge--dev">In Dev</span>
+      <div class="card-logo-wrap">
+        <img class="card-logo" src="games/mongo/logos/mongo-logo.png" alt="">
+        <p class="card-desc">Hex-based territory control in the Flash Gordon universe</p>
+      </div>
+      <div class="card-body">
+        <div class="card-header"><span class="card-title">Planet Mongo</span><span class="card-version">v0.9.2</span></div>
+        
+        <div class="card-meta"><span>2–8 players</span><span class="sep">/</span><span>120+ min</span></div>
+      </div>
+    </a>
+
+  </div>
+
+  <footer class="landing-footer">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4 class="footer-heading">Moddable Games</h4>
+        <a href="https://moddable.games" target="_blank" rel="noopener">Homepage</a>
+        <a href="https://moddable.games/about/" target="_blank" rel="noopener">About</a>
+        <a href="https://moddable.games/news/" target="_blank" rel="noopener">News</a>
+        <a href="https://moddable.games/about/roadmap/" target="_blank" rel="noopener">Roadmap</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Play</h4>
+        <a href="https://moddable.games/games/" target="_blank" rel="noopener">Games</a>
+        <a href="https://moddable.games/engines/" target="_blank" rel="noopener">Engines</a>
+        <a href="https://tools.moddable.games" target="_blank" rel="noopener">Tools</a>
+        <a href="https://moddable.games/developers/" target="_blank" rel="noopener">Developers</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Community</h4>
+        <a href="https://moddable.games/community/" target="_blank" rel="noopener">Community</a>
+        <a href="https://discord.gg/VhsVGNq6Za" target="_blank" rel="noopener">Discord</a>
+        <a href="https://github.com/Moddable-Games" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://moddable.games/submit/" target="_blank" rel="noopener">Submit a Mod</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2012&ndash;2026 Moddable Games. All Rights Reserved.</span>
+      <span class="footer-version">v1.3.1</span>
+    </div>
+  </footer>
+
+</div>
+
+<script defer src="js/landing.js?v=1.3.1"></script>
+<script defer src="shared/js/surface-toggle.js"></script>
+</body>
+</html>
