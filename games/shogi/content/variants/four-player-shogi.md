@@ -65,10 +65,10 @@ engine:
       playerCount: 4
       drops: true
       advancement:
-        0: [-1, 0]   # green, south wing, advances up the board
-        1: [0, 1]    # red, west wing, advances right
-        2: [1, 0]    # yellow, north wing, advances down
-        3: [0, -1]   # blue, east wing, advances left
+        0: [-1, 0]
+        1: [0, 1]
+        2: [1, 0]
+        3: [0, -1]
       promotionZone: 3
   notation: shogi
 published: true
