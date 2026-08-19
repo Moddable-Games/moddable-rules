@@ -14,26 +14,29 @@ engine:
     cols: 15
     voids: [[0,0],[0,1],[0,2],[0,12],[0,13],[0,14],[1,0],[1,1],[1,2],[1,12],[1,13],[1,14],[2,0],[2,1],[2,2],[2,12],[2,13],[2,14],[12,0],[12,1],[12,2],[12,12],[12,13],[12,14],[13,0],[13,1],[13,2],[13,12],[13,13],[13,14],[14,0],[14,1],[14,2],[14,12],[14,13],[14,14]]
     layout: cells
-  players: [red, yellow, green, blue]
+  # Seat 0 is green, the army at the bottom of the rendered board, so an embed
+  # seats the human at the near edge and the human moves first. The cycle is the
+  # documented N -> E -> S -> W rotation read starting from South.
+  players: [green, red, yellow, blue]
   pieces:
     set: mce-4player-shogi
   vocabulary:
     king:
-      symbols: { 0: rK, 1: yK, 2: gK, 3: bK }
+      symbols: { 0: gK, 1: rK, 2: yK, 3: bK }
     gold:
-      symbols: { 0: rG, 1: yG, 2: gG, 3: bG }
+      symbols: { 0: gG, 1: rG, 2: yG, 3: bG }
     silver:
-      symbols: { 0: rS, 1: yS, 2: gS, 3: bS }
+      symbols: { 0: gS, 1: rS, 2: yS, 3: bS }
     knight:
-      symbols: { 0: rN, 1: yN, 2: gN, 3: bN }
+      symbols: { 0: gN, 1: rN, 2: yN, 3: bN }
     lance:
-      symbols: { 0: rL, 1: yL, 2: gL, 3: bL }
+      symbols: { 0: gL, 1: rL, 2: yL, 3: bL }
     rook:
-      symbols: { 0: rR, 1: yR, 2: gR, 3: bR }
+      symbols: { 0: gR, 1: rR, 2: yR, 3: bR }
     bishop:
-      symbols: { 0: rB, 1: yB, 2: gB, 3: bB }
+      symbols: { 0: gB, 1: rB, 2: yB, 3: bB }
     pawn:
-      symbols: { 0: rP, 1: yP, 2: gP, 3: bP }
+      symbols: { 0: gP, 1: rP, 2: yP, 3: bP }
   setup: "3,yL,yN,yS,yG,yK,yG,yS,yN,yL,3/3,1,yB,5,yR,1,3/3,yP,yP,yP,yP,yP,yP,yP,yP,yP,3/rL,1,rP,9,bP,1,bL/rN,rR,rP,9,bP,bB,bN/rS,1,rP,9,bP,1,bS/rG,1,rP,9,bP,1,bG/rK,1,rP,9,bP,1,bK/rG,1,rP,9,bP,1,bG/rS,1,rP,9,bP,1,bS/rN,rB,rP,9,bP,bR,bN/rL,1,rP,9,bP,1,bL/3,gP,gP,gP,gP,gP,gP,gP,gP,gP,3/3,1,gR,5,gB,1,3/3,gL,gN,gS,gG,gK,gG,gS,gN,gL,3"
   render:
     cellSize: 22
@@ -62,10 +65,10 @@ engine:
       playerCount: 4
       drops: true
       advancement:
-        0: [0, 1]
-        1: [1, 0]
-        2: [-1, 0]
-        3: [0, -1]
+        0: [-1, 0]   # green, south wing, advances up the board
+        1: [0, 1]    # red, west wing, advances right
+        2: [1, 0]    # yellow, north wing, advances down
+        3: [0, -1]   # blue, east wing, advances left
       promotionZone: 3
   notation: shogi
 published: true
