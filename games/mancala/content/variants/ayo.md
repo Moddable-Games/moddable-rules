@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Ayo
 slug: ayo
 board: "2×6 pits"
@@ -15,6 +16,16 @@ engine:
   players: [south, north]
   render:
     cellSize: 24
+  plugins:
+    mancala:
+      # Ayo is the Yoruba game and shares Oware's capture and grand-slam rules.
+      sowIntoOwnStore: false
+      skipOriginOnWrap: true
+      captureRule: countInEnemy
+      captureCounts: [2, 3]
+      captureChainBackwards: true
+      grandSlamProhibited: true
+      feedingObligation: true
   setup: "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
 ---
 

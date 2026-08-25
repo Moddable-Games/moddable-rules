@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Oware
 slug: oware
 board: "2×6 pits"
@@ -15,6 +16,19 @@ engine:
   players: [south, north]
   render:
     cellSize: 24
+  plugins:
+    mancala:
+      # Oware: no store on the board, captured seeds are held by the player.
+      # The last seed making 2 or 3 in an enemy pit captures it, then chains
+      # backwards while the count holds. A move that would strip the opponent
+      # bare is illegal, and feeding them when they are bare is compulsory.
+      sowIntoOwnStore: false
+      skipOriginOnWrap: true
+      captureRule: countInEnemy
+      captureCounts: [2, 3]
+      captureChainBackwards: true
+      grandSlamProhibited: true
+      feedingObligation: true
   setup: "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
 ---
 

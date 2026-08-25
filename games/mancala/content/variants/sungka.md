@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Sungka
 slug: sungka
 board: "2×7 pits + 2 heads"
@@ -25,6 +26,14 @@ engine:
     boardShape: ellipse
     storeSize: [20, 38]
     pitCurve: 4
+  plugins:
+    mancala:
+      # Sungka: relay sowing. Landing in an occupied pit lifts it and sows again;
+      # the turn ends on an empty pit or your own head. Landing in an empty pit
+      # of your own takes the facing pit, but not the sowing seed.
+      sowIntoOwnStore: true
+      relay: nonEmpty
+      captureRule: oppositeOnEmptyOwn
   setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 

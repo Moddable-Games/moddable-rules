@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Toguz Korgool
 slug: toguz-korgool
 board: "2×9 pits + 2 kazans"
@@ -14,6 +15,16 @@ engine:
   players: [south, north]
   render:
     cellSize: 20
+  plugins:
+    mancala:
+      # Toguz korgool: seeds are never sown into either kazan. The last seed
+      # making an even count in an enemy pit takes that pit.
+      #
+      # Not modelled: the tuzduk, the pit a player marks as their own inside the
+      # opponent's row. It changes where seeds accumulate for the rest of the
+      # game and needs per-player board state this plugin does not carry yet.
+      sowIntoOwnStore: false
+      captureRule: evenInEnemy
   setup: "9,9,9,9,9,9,9,9,9;0;9,9,9,9,9,9,9,9,9;0"
 ---
 

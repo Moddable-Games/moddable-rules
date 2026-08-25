@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Kalah
 slug: kalah
 board: "2×6 pits + 2 stores"
@@ -11,6 +12,14 @@ engine:
   topology:
     type: pit
   players: [south, north]
+  plugins:
+    mancala:
+      # Kalah: sow into your own store, skip the opponent's, bonus turn when the
+      # last seed lands in your store, and capture the facing pit when the last
+      # seed lands in an empty pit of your own.
+      sowIntoOwnStore: true
+      bonusTurnOnStore: true
+      captureRule: oppositeOnEmptyOwn
   setup: "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
 ---
 

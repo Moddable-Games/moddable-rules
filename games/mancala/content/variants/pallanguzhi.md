@@ -7,6 +7,7 @@ parent: mancala
 order: 6
 win: Capture all 168 seeds (opponent cannot fill pits to play)
 special: "Multi-lap sowing: the last seed always triggers pickup of the next pit, creating long relay chains."
+unsupported: "The skip-one relay capture (skip an empty pit, take the pit beyond it) is not expressible in the current mancala plugin configuration."
 engine:
   topology:
     type: pit

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Congkak
 slug: congkak
 board: "2×7 pits + 2 houses"
@@ -17,6 +18,17 @@ engine:
     boardShape: ellipse
     storeSize: [20, 38]
     pitCurve: 4
+  plugins:
+    mancala:
+      # Congkak plays as Sungka does: relay sowing, capture the facing pit when
+      # the last seed lands in an empty pit of your own.
+      #
+      # Not modelled: the simultaneous opening, where both players sow at once
+      # until their hands meet. It has no turn structure to express here.
+      sowIntoOwnStore: true
+      relay: nonEmpty
+      bonusTurnOnStore: true
+      captureRule: oppositeOnEmptyOwn
   setup: "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
 ---
 

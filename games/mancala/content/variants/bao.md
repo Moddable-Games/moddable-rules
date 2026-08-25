@@ -7,6 +7,7 @@ parent: mancala
 order: 3
 win: Reduce opponent to no seeds in their inner row, or leave them with no legal move
 special: "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing."
+unsupported: "Four rows and a separate stocking phase. The board shape and turn structure differ from every other variant here, so the engine does not model it rather than approximating it."
 engine:
   topology:
     type: pit
