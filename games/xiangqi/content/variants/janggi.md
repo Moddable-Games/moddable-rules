@@ -12,6 +12,8 @@ engine:
     rows: 10
     cols: 9
   players: [red, black]
+  render:
+    river: false
   setup: "rhea1aehr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RHEA1AEHR"
 ---
 

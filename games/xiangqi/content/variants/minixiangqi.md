@@ -15,6 +15,8 @@ engine:
   players: [red, black]
   setup: "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR"
   render:
+    # a 7x7 board with no river.
+    river: false
     cellSize: 40
     ops:
       - op: cells

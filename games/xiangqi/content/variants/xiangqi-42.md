@@ -15,6 +15,8 @@ engine:
   players: [red, black]
   setup: "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR"
   render:
+    # a 7x6 board is too small for a river; the frontmatter already says so in prose.
+    river: false
     cellSize: 40
     ops:
       - op: cells
