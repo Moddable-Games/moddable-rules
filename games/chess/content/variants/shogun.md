@@ -15,9 +15,8 @@ engine:
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
-  hand: true
   drops: true
-  promotion_zone: [6, 7, 8]
+  promotionZone: [0, 1, 2]
 published: true
 ---
 

@@ -13,7 +13,6 @@ engine:
     rows: 8
     cols: 8
   players: [white, gold]
-  asymmetric: true
   setup: "lhatkahl/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR"
   castling:
     0: true

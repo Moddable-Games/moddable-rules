@@ -10,7 +10,7 @@ special: "Three Kingdoms 3-player Xiangqi on a hexagonal trisected board. Elimin
 engine:
   topology:
     type: hexagonal-trisection
-  players: 3
+  players: [wei, shu, wu]
 ---
 
 ## Overview

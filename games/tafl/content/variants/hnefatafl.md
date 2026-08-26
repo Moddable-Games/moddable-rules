@@ -1,7 +1,7 @@
 ---
 title: "Hnefatafl"
 slug: "hnefatafl"
-variant_of: "tafl"
+parent: tafl
 engine:
   topology:
     type: grid

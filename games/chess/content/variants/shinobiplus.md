@@ -14,8 +14,6 @@ engine:
     cols: 8
   players: [kingdom, clan]
   notation: algebraic
-  asymmetric: true
-  hand: true
   drops: true
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/4K3"
 published: true

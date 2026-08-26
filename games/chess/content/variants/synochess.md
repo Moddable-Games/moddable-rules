@@ -15,8 +15,6 @@ engine:
   players: [white, black]
   setup: "rheacehr/2o2o2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
-  asymmetric: true
-  hand: true
   drops: true
   faceoff: true
   vocabulary:

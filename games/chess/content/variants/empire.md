@@ -15,7 +15,6 @@ engine:
   players: [white, black]
   setup: "scdtedcs/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
-  asymmetric: true
   castling:
     0: true
     1: false
