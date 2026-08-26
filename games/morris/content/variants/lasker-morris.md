@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Lasker Morris
 slug: lasker-morris
 board: Three concentric squares (24 intersections)
@@ -15,6 +16,12 @@ engine:
       rings: 3
       midpoints: true
   players: [white, black]
+  plugins:
+    morris:
+      # Lasker removed the phases: every turn is either a placement from
+      # reserve or a move, until the reserve runs out.
+      piecesPerPlayer: 10
+      interleavedPlacement: true
   setup: ""
 ---
 

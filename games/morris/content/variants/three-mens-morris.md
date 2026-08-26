@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Three Men's Morris"
 slug: three-mens-morris
 board: "3×3 grid (9 intersections)"
@@ -17,6 +18,14 @@ engine:
   render:
     canvasSize: 200
   players: [white, black]
+  plugins:
+    morris:
+      # Three pieces on a 3x3 grid. A piece moves to any empty point rather
+      # than along a line, and a line wins outright instead of removing.
+      piecesPerPlayer: 3
+      movement: anywhere
+      winOnMill: true
+      flying: false
 ---
 
 ## Three Men's Morris

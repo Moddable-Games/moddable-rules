@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Six Men's Morris"
 slug: six-mens-morris
 board: Two concentric squares (16 intersections)
@@ -17,6 +18,10 @@ engine:
   render:
     canvasSize: 260
   players: [white, black]
+  plugins:
+    morris:
+      # Two rings and no spoke mills, so eight mills rather than sixteen.
+      piecesPerPlayer: 6
 ---
 
 ## Six Men's Morris

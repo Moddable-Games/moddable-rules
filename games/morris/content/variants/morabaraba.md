@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Morabaraba
 slug: morabaraba
 board: Three concentric squares (24 intersections)
@@ -16,6 +17,11 @@ engine:
       midpoints: true
       diagonals: true
   players: [white, black]
+  plugins:
+    morris:
+      # Twelve cows a side on the diagonal board, and the three-cow endgame
+      # is the flying rule.
+      piecesPerPlayer: 12
   setup: ""
 ---
 
