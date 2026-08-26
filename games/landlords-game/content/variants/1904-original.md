@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "1904 Original"
 slug: "1904-original"
 board: Circular 40-space track
@@ -33,6 +34,15 @@ engine:
       corner: "#e8d8b8"
   render:
     overflow: visible
+  plugins:
+    landlords-game:
+      # US Patent 748,626, the ruleset with no card decks: two dice, $100 wages
+      # for reaching or passing MOTHER EARTH, and a rule per space type. The
+      # game ends when every player has been round five times, and the richest
+      # in lots, cash and luxuries wins.
+      startingCash: 500
+      wages: 100
+      circuits: 5
   content:
     source: landlords-game-boards.json
     board: 1904-patent
