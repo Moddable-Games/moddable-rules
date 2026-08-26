@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Cylindrical Chess"
 slug: cylindrical-chess
 board: "8×8 (cylindrical)"
