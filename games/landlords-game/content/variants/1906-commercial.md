@@ -7,6 +7,7 @@ parent: landlords-game
 order: 2
 win: Most wealth at end of game — every Title Deed card and every house counts 100
 special: The first published edition. Adds houses, Chance cards, auctions, Speculation space, railroad monopoly pricing, and section rent doubling.
+unsupported: "The 1906 rules are published (landlordsgame.info/games/lg-1906/lg-1906_egc-rules.html) and complete apart from one thing: the two CHANCE spaces draw from a red pack whose card texts are not transcribed anywhere found. Everything else - $50 franchises at $5 a visit, $75 luxuries counting 100, the $50 jail fine or a double, five wage collections ending the game - is known and could be modelled once the deck is."
 engine:
   topology:
     type: track

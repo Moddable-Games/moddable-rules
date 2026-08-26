@@ -7,6 +7,7 @@ players: "2"
 parent: chess
 win: Capture opponent King
 special: "All seven piece types use entirely different capture mechanics. No check: win by physically capturing the opponent's King. Designed by Robert Abbott, 1962."
+unsupported: "All seven piece types are declared as `{ type: rider, dirs: all }`, so every piece moves like a queen and none of the seven distinct capture mechanics - coordinator, longleaper, withdrawer, immobiliser, chameleon - exists."
 engine:
   topology:
     type: grid

@@ -5,8 +5,9 @@ board: "Circular 36-space track (dual-game board)"
 players: "2–4"
 parent: landlords-game
 order: 4
-win: "First player to accumulate $3,000 in cash"
+win: "Two rulesets in one box. Under Landlord's Game rules, the first player to accumulate $2,000 is the Big Landlord. Under Prosperity rules, all players win together when the player with the LEAST money reaches $7,000, double their starting capital."
 special: "Magie's 1932 patent. Chance cube on doubles, No Trespassing signs, Idle Land speculation, railroad jumps, improvement tags. A complete standalone game, not a variant of 1906."
+unsupported: "The 1932 rules are published and complete (landlordsgame.info/games/lgp-1932/lgp-1932_rules.pdf) but need two rulesets, bidding at the Real Estate Offices, a wages table keyed to the dice throw, and 34 title-deed cards across four colours. None of that is modelled yet, and the board data carries a price for only two of its twenty lots."
 engine:
   topology:
     type: track

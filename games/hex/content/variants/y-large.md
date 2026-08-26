@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Y (Large — 15)"
 slug: y-large
 board: "triangular hex (side 15)"
@@ -15,6 +16,9 @@ engine:
     cellSize: 14
     frame: triangle
   players: [black, white]
+  plugins:
+    hex:
+      # Y on the 15-row board.
   setup: ""
 ---
 

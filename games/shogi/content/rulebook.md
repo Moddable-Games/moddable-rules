@@ -94,7 +94,6 @@ unsupported:
   hasami-shogi: "custodial capture with one piece type, no drops and no promotion"
   hex-shogi-91: "hexagonal board"
   sankaku-shogi: "triangular board"
-  four-player-shogi: "cross-shaped board with four armies"
 ---
 
 <div class="section variant-hub">

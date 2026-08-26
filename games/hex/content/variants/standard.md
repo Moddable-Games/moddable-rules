@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Hex (11×11)"
 slug: standard
 board: "11×11 rhombus"
@@ -16,6 +17,9 @@ engine:
   render:
     cellSize: 20
   players: [black, white]
+  plugins:
+    hex:
+      # Hex on the 11x11 board Piet Hein and John Nash settled on.
   setup: ""
 ---
 

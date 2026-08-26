@@ -7,6 +7,7 @@ parent: go
 order: 8
 win: Most territory (standard scoring)
 special: Fog of war. Players cannot see opponent stones. A referee mediates all moves.
+unsupported: "Fog of war is not modelled: both players see every stone."
 engine:
   topology:
     type: grid

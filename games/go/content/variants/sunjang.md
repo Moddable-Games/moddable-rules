@@ -7,6 +7,7 @@ parent: go
 order: 12
 win: Most territory at game end
 special: Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi.
+unsupported: "The sixteen pre-placed stones are not applied - the board starts empty - and prisoners-ignored scoring is not modelled."
 engine:
   topology:
     type: grid

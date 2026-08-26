@@ -7,6 +7,7 @@ parent: go
 order: 9
 win: Most territory at game end (team)
 special: Team Go. Partners alternate turns. No consultation. 2v2 or 3v3.
+unsupported: "Team play with partners alternating turns is not modelled; it plays as an ordinary two-player game."
 engine:
   topology:
     type: grid

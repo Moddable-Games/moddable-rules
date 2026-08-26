@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: Hasami Shogi
 slug: hasami-shogi
 board: "9×9"

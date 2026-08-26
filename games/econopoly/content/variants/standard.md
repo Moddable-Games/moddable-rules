@@ -5,6 +5,7 @@ slug: standard
 board: "perimeter track"
 players: "2-6"
 parent: econopoly
+unsupported: "Uses the 1932 Prosperity board. Its rules are published and complete, but need two rulesets, bidding at the Real Estate Offices, a wages table keyed to the dice throw, and 34 title-deed cards. The cards are deeds rather than a draw deck, so this is buildable once someone transcribes them."
 engine:
   topology:
     type: track

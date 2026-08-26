@@ -7,6 +7,7 @@ parent: go
 order: 13
 win: Cosmological scoring (territory + captures + bonus)
 special: "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system."
+unsupported: "The twelve pre-placed stones are not applied, and delayed captures and the variant's scoring are not modelled."
 engine:
   topology:
     type: grid

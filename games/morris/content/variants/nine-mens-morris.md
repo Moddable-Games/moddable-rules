@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Nine Men's Morris"
 slug: nine-mens-morris
 board: Three concentric squares (24 intersections)
@@ -15,6 +16,12 @@ engine:
       rings: 3
       midpoints: true
   players: [white, black]
+  plugins:
+    morris:
+      # Nine pieces each. Placement, then movement along the lines, with
+      # flying once a player is down to three. A piece in a mill is safe while
+      # its owner still has a piece that is not.
+      piecesPerPlayer: 9
   setup: ""
 ---
 

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Y"
 slug: y-game
 board: "triangular hex"
@@ -15,6 +16,10 @@ engine:
     cellSize: 18
     frame: triangle
   players: [black, white]
+  plugins:
+    hex:
+      # Y on the 12-row board, the size Craige Schensted and Charles Titus
+      # published.
   setup: ""
 ---
 

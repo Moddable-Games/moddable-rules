@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Twelve Men's Morris"
 slug: twelve-mens-morris
 board: Three concentric squares with diagonals (24 intersections)
@@ -16,6 +17,12 @@ engine:
       midpoints: true
       diagonals: true
   players: [white, black]
+  plugins:
+    morris:
+      # The corner diagonals add four mills. No flying, which is what makes
+      # the larger army decisive rather than merely slower.
+      piecesPerPlayer: 12
+      flying: false
   setup: ""
 ---
 

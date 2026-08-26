@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Shax
 slug: shax
 board: Three concentric squares (24 intersections)
@@ -15,6 +16,17 @@ engine:
       rings: 3
       midpoints: true
   players: [white, black]
+  plugins:
+    morris:
+      # Somali rules. Placement is peaceful - a mill formed while placing
+      # takes nothing - and once movement starts a mill may take any piece,
+      # including one standing in a mill of its own.
+      piecesPerPlayer: 12
+      millRemovesDuringPlacement: false
+      millProtection: false
+      # 24 pieces on 24 points, so placement fills the board. The player who
+      # placed last then gives up that piece and movement begins.
+      fullBoardRemovesLast: true
   setup: ""
 ---
 
