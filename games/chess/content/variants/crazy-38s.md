@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: "Checkmate the opponent's King OR move your King to the opponent's Home Square"
 special: "38-square chess variant by Ben Good, entered in the 1998 38 Squares Contest. Uses Shogi-style drops. Unique piece set: King, Rook, Bishop, Knight, Silver General, Gold General, and 4 Pawns per side — with movements distinct from standard Shogi. The board has a built-in loop connection that Rooks can exploit. Pawns promote to Queen only on the opponent's Home Square; captured Queens revert to Pawns before being dropped. Dual win condition: checkmate OR King reaches opponent's Home Square."
+unsupported: "The 38-square board is declared with `missing_squares`, a key the engine reads nowhere, so it is played on a full rectangle instead of the shaped board the variant is named for."
 engine:
   topology:
     type: grid

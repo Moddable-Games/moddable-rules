@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Standard FIDE chess pieces and rules on a board with 'broken columns' — certain file columns are displaced or interrupted at specific ranks, breaking the standard 8×8 grid alignment and preventing rote pattern memorization. Designed by Soviet chess trainer V. Romanchenko as a pedagogical tool: players must reason from first principles rather than imitate memorized openings. Jocly implementation on chessvariants.com."
+unsupported: "The broken columns are declared as `voids` but are not honoured in play: six pieces start on void squares and moves are generated into them."
 engine:
   topology:
     type: grid

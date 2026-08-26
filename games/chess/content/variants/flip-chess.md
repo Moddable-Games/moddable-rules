@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: Bare King loses
 special: "Chess variant on a 38-square board with an unusual shape. 'Bare king loses' — a player whose King is the only piece remaining loses immediately, regardless of whether they are in check. No initial double Pawn moves. Companion to Crazy 38's (both are 38-square chess variants by John William Brown). Acclaimed 38-square variant; Java applet implementation by Ed Friedlander on chessvariants.com. Created 1999."
+unsupported: "The 38-square board is declared with `missing_squares`, a key the engine reads nowhere, so it is played on a full rectangle."
 engine:
   topology:
     type: grid

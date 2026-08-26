@@ -6,6 +6,7 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Chess on a Möbius strip: an 8x14 board (double-height Cylindrical Chess) where files a and h wrap normally, and the rank-11/12 seam joins with a half-twist that mirrors file position. Each side has 16 pawns across two ranks, advancing from both ends of the strip toward the middle and toward the twisted seam. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound. Invented by Alberto Monteiro."
+unsupported: "The twist is on the wrong axis. The variant says files wrap normally and the rank seam carries the half-twist; the topology gives a twisted file wrap and no rank wrap at all, so the feature it is named for is absent."
 engine:
   topology:
     type: grid

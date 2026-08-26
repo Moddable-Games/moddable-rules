@@ -8,6 +8,7 @@ playable: false
 order: 90
 win: Last chief standing
 special: "Captured pieces become corpses that stay on the board and block movement. Killing a chief transfers that player's surviving pieces to the killer."
+unsupported: "The assassin, reporter, necromobile, diplomat, the maze and control transfer are not modelled (engine#131)."
 engine:
   topology:
     type: grid

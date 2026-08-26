@@ -7,6 +7,7 @@ players: "2"
 parent: chess
 win: Duple Checkmate, or capture one Champion then checkmate the remaining one
 special: "Xiangqi/chess hybrid by Eventlesstew for the PyChess Variant Design Contest. 9×9 board, dual Champions (royal), Crossbow (diagonal Cannon), piece drops within first two ranks, captures go to hand."
+unsupported: "Declares no `drops` key, so the piece drops within the first two ranks and the captures-to-hand rule never happen. The pieces themselves are fully declared and correct."
 engine:
   topology:
     type: grid
