@@ -6,7 +6,7 @@
   "board": "13×13 rhombus",
   "win": "Connect opposite edges",
   "special": "Large board. 169 cells. Deep strategic play.",
-  "playable": false,
+  "playable": true,
   "order": 3,
   "designer": null,
   "category": null,
@@ -24,6 +24,9 @@
       "black",
       "white"
     ],
+    "plugins": {
+      "hex": null
+    },
     "setup": ""
   },
   "diagram": {

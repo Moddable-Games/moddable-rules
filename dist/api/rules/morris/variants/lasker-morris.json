@@ -6,7 +6,7 @@
   "board": "Three concentric squares (24 intersections)",
   "win": "Reduce opponent to 2 pieces or block all their moves",
   "special": "Each turn: either place a new piece OR move an existing piece. No sequential placement phase.",
-  "playable": false,
+  "playable": true,
   "order": 5,
   "designer": null,
   "category": null,
@@ -23,6 +23,12 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "morris": {
+        "piecesPerPlayer": 10,
+        "interleavedPlacement": true
+      }
+    },
     "setup": ""
   },
   "diagram": {

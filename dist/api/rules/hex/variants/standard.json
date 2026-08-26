@@ -6,7 +6,7 @@
   "board": "11×11 rhombus",
   "win": "Connect opposite edges",
   "special": "Standard tournament size. 121 cells. First player advantage offset by swap rule.",
-  "playable": false,
+  "playable": true,
   "order": 1,
   "designer": null,
   "category": null,
@@ -24,6 +24,9 @@
       "black",
       "white"
     ],
+    "plugins": {
+      "hex": null
+    },
     "setup": ""
   },
   "diagram": {

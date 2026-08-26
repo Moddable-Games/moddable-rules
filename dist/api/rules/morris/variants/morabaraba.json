@@ -6,7 +6,7 @@
   "board": "Three concentric squares (24 intersections)",
   "win": "Reduce opponent to 2 cows or block all their moves",
   "special": "South African national game. Cows instead of men. Special rules for the three-cow endgame.",
-  "playable": false,
+  "playable": true,
   "order": 6,
   "designer": null,
   "category": null,
@@ -24,6 +24,11 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "morris": {
+        "piecesPerPlayer": 12
+      }
+    },
     "setup": ""
   },
   "diagram": {

@@ -6,7 +6,7 @@
   "board": "Three concentric squares with diagonals (24 intersections)",
   "win": "Reduce opponent to 2 pieces or block all their moves",
   "special": "Identical board to Nine Men's Morris but with corner diagonal connections. 12 pieces per side. No flying rule.",
-  "playable": false,
+  "playable": true,
   "order": 4,
   "designer": null,
   "category": null,
@@ -24,6 +24,12 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "morris": {
+        "piecesPerPlayer": 12,
+        "flying": false
+      }
+    },
     "setup": ""
   },
   "diagram": {

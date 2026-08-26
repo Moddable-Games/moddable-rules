@@ -6,7 +6,7 @@
   "board": "Three concentric squares (24 intersections)",
   "win": "Reduce opponent to 2 pieces or block all their moves",
   "special": "Somali variant: during placement, mills do not remove opponent pieces — instead, pieces are captured only during the movement phase.",
-  "playable": false,
+  "playable": true,
   "order": 7,
   "designer": null,
   "category": null,
@@ -23,6 +23,14 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "morris": {
+        "piecesPerPlayer": 12,
+        "millRemovesDuringPlacement": false,
+        "millProtection": false,
+        "fullBoardRemovesLast": true
+      }
+    },
     "setup": ""
   },
   "diagram": {
