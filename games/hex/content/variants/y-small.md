@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Y (Small — 9)"
 slug: y-small
 board: "triangular hex (side 9)"
@@ -15,6 +16,10 @@ engine:
     cellSize: 22
     frame: triangle
   players: [black, white]
+  plugins:
+    hex:
+      # Y: connect all three sides of the triangle rather than one
+      # opposing pair. The apex belongs to both slanted sides at once.
   setup: ""
 ---
 
