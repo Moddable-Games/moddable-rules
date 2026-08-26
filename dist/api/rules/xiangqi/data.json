@@ -222,6 +222,9 @@
           "red",
           "black"
         ],
+        "render": {
+          "river": false
+        },
         "setup": "rhea1aehr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RHEA1AEHR"
       },
       "diagram": {
@@ -345,6 +348,7 @@
         ],
         "setup": "rchkhcr/p1ppp1p/7/7/7/P1PPP1P/RCHKHCR",
         "render": {
+          "river": false,
           "cellSize": 40,
           "ops": [
             {
@@ -505,6 +509,7 @@
         ],
         "setup": "rhakahr/1c3c1/p2p2p/P2P2P/1C3C1/RHAKAHR",
         "render": {
+          "river": false,
           "cellSize": 40,
           "ops": [
             {

@@ -6,7 +6,7 @@
   "board": "2×6 pits",
   "win": "Capture more than 24 seeds",
   "special": "Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition.",
-  "playable": false,
+  "playable": true,
   "order": 7,
   "designer": null,
   "category": null,
@@ -22,6 +22,20 @@
     ],
     "render": {
       "cellSize": 24
+    },
+    "plugins": {
+      "mancala": {
+        "sowIntoOwnStore": false,
+        "skipOriginOnWrap": true,
+        "captureRule": "countInEnemy",
+        "captureCounts": [
+          2,
+          3
+        ],
+        "captureChainBackwards": true,
+        "grandSlamProhibited": true,
+        "feedingObligation": true
+      }
     },
     "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
   },

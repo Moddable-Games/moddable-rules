@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-08-26",
   "families": {
     "agon": {
       "title": "Agon",
@@ -1333,7 +1333,7 @@
       "complexity": "simple",
       "stats": {
         "variantCount": 8,
-        "playable": 0,
+        "playable": 6,
         "withDiagram": 8,
         "topologies": [
           "pit"
@@ -2601,7 +2601,7 @@
   "stats": {
     "totalFamilies": 46,
     "totalVariants": 296,
-    "totalPlayable": 176,
+    "totalPlayable": 182,
     "totalDiagrams": 346,
     "topologies": {
       "hex": 23,
