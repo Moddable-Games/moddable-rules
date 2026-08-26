@@ -4,11 +4,14 @@ slug: djambi
 parent: chess
 board: "9×9"
 players: "4"
-playable: false
+playable: true
 order: 90
 win: Last chief standing
 special: "Captured pieces become corpses that stay on the board and block movement. Killing a chief transfers that player's surviving pieces to the killer."
-unsupported: "The assassin, reporter, necromobile, diplomat, the maze and control transfer are not modelled (engine#131)."
+approximations:
+  - rule: "A non-chief that strikes the chief in the centre cell"
+    sources: "Neither fr.wikipedia.org/wiki/Djambi nor chessvariants.com says how the attacker is required to leave the cell afterwards."
+    engine: "The attacker is left standing on the centre until it moves again."
 engine:
   topology:
     type: grid
