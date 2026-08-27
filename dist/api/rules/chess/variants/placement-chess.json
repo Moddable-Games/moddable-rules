@@ -22,7 +22,31 @@
     ],
     "setup": "8/pppppppp/8/8/8/8/PPPPPPPP/8",
     "notation": "algebraic",
-    "setup_phase": true
+    "placementPieces": [
+      [
+        "rook",
+        "knight",
+        "bishop",
+        "queen",
+        "king",
+        "bishop",
+        "knight",
+        "rook"
+      ],
+      [
+        "rook",
+        "knight",
+        "bishop",
+        "queen",
+        "king",
+        "bishop",
+        "knight",
+        "rook"
+      ]
+    ],
+    "placementDistinctColor": [
+      "bishop"
+    ]
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/placement-chess-board.svg",

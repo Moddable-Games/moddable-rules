@@ -187,7 +187,11 @@
         "topology": {
           "type": "hexagonal-trisection"
         },
-        "players": 3
+        "players": [
+          "wei",
+          "shu",
+          "wu"
+        ]
       },
       "diagram": {
         "svg": "games/xiangqi/diagrams/svg/san-kwo-ki-board.svg",

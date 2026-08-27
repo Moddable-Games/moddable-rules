@@ -21,8 +21,12 @@
       "black"
     ],
     "setup": "scdtedcs/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "royalType": [
+      "king",
+      "emperor"
+    ],
+    "faceoff": true,
     "notation": "algebraic",
-    "asymmetric": true,
     "castling": {
       "0": true,
       "1": false
