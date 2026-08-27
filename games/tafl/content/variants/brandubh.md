@@ -1,7 +1,7 @@
 ---
 title: "Brandubh"
 slug: "brandubh"
-variant_of: "tafl"
+parent: tafl
 engine:
   topology:
     type: grid

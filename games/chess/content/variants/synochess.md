@@ -15,9 +15,11 @@ engine:
   players: [white, black]
   setup: "rheacehr/2o2o2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
-  asymmetric: true
-  hand: true
   drops: true
+  # The Western royal is the King, the Eastern royal the Chancellor. With a
+  # single royalType the Eastern side had no royal at all: it could not be
+  # checked, could not be mated, and the faceoff rule never fired.
+  royalType: [king, chancellor]
   faceoff: true
   vocabulary:
     horse:

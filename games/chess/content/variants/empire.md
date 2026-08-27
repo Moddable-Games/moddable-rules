@@ -14,8 +14,12 @@ engine:
     cols: 8
   players: [white, black]
   setup: "scdtedcs/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  # King against Emperor: the two sides do not share a royal piece. The
+  # faceoff rule was a hand-written winCondition in empire.js that hardcoded
+  # both names and an 8-wide board; it is a declared rule now.
+  royalType: [king, emperor]
+  faceoff: true
   notation: algebraic
-  asymmetric: true
   castling:
     0: true
     1: false

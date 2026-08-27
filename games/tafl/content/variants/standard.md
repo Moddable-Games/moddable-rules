@@ -1,7 +1,7 @@
 ---
 title: "Tablut"
 slug: "standard"
-variant_of: "tafl"
+parent: tafl
 order: 1
 engine:
   topology:

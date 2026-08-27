@@ -15,7 +15,13 @@ engine:
   players: [white, black]
   setup: "8/pppppppp/8/8/8/8/PPPPPPPP/8"
   notation: algebraic
-  setup_phase: true
+  # Both back ranks start empty; each player places these eight pieces before
+  # ordinary play begins. `placementPieces` is the key the engine reads.
+  placementPieces:
+    - [rook, knight, bishop, queen, king, bishop, knight, rook]
+    - [rook, knight, bishop, queen, king, bishop, knight, rook]
+  # Bronstein's rule: a player's two bishops stand on opposite colours.
+  placementDistinctColor: [bishop]
 published: true
 ---
 

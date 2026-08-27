@@ -15,10 +15,8 @@ engine:
   players: [white, black]
   setup: "cmujumc1/2pppp2/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
-  asymmetric: true
-  hand: true
   drops: true
-  promotion_zone: [6, 7, 8]
+  promotionZone: [0, 1, 2]
   vocabulary:
     chunin:
       symbols:

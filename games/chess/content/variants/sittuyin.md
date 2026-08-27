@@ -13,7 +13,7 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup: "8/8/4pppp/pppp4/4PPPP/PPPP4/8/8"
   plugins:
     chess:
       castling: false
@@ -50,6 +50,9 @@ engine:
       placementPieces:
         - [rook, rook, knight, knight, khon, khon, ferz, king]
         - [rook, rook, knight, knight, khon, khon, ferz, king]
+      placementZone:
+        default: [0, 1, 2]
+        rook: [0]
 ---
 
 ## Sittuyin (Burmese Chess)

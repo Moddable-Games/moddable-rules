@@ -15,8 +15,6 @@ engine:
   players: [white, black]
   setup: "lwgkkgwl/hhhhhhhh/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
-  asymmetric: true
-  dual_king: true
   vocabulary:
     lieutenant:
       symbols:

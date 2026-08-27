@@ -1,5 +1,5 @@
 ---
-playable: true
+playable: false
 title: S-Chess (Seirawan Chess)
 slug: s-chess
 board: "8×8"
@@ -7,6 +7,7 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Two new compound pieces — Hawk and Elephant — enter the board via a gating mechanic when back-rank pieces leave their starting squares. Designed by Yasser Seirawan and Bruce Harper, 2007."
+unsupported: "Gating is not modelled: the Hawk and Elephant should enter the board when a back-rank piece first leaves its square. The variant declares `hand` and `gating`, and the engine reads neither - `hand` is only ever a by-product of `drops`, which this variant does not use."
 engine:
   topology:
     type: grid

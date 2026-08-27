@@ -7,7 +7,7 @@ parent: landlords-game
 order: 5
 win: Demonstration only — the landlord inevitably wins
 special: "One player gets all land, others get all other advantages and $100 each. The landlord receives no wages. Proves Magie's thesis: the land monopolist is monarch of the world."
-unsupported: "Uses the 1906 board, so it needs the same red CHANCE pack whose card texts are not transcribed."
+unsupported: "Uses the 1906 board, so it needs the same red CHANCE pack whose card texts are not transcribed. It stays unsupported until the missing text is found, or until a substitute is written for play and documented in this file as fabricated rather than sourced."
 engine:
   topology:
     type: track

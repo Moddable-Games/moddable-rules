@@ -9,7 +9,7 @@ special: "3-player chess on a hexagonal board divided into three Y-shaped sector
 engine:
   topology:
     type: hexagonal-trisection
-  players: 3
+  players: [red, green, blue]
   render:
     cellSize: 24
   setup_status: "back-rank order and player colours confirmed against the primary source's starting-position diagram (credited to David Howe) 2026-07. Exact per-square coordinates still not encoded — no standard coordinate system exists yet for a hex-trisection board; that is in scope for moddable-engine#26."
