@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-08-28",
   "families": {
     "agon": {
       "title": "Agon",
@@ -342,7 +342,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 154,
-        "playable": 134,
+        "playable": 135,
         "withDiagram": 154,
         "topologies": [
           "grid",
@@ -1015,7 +1015,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 8,
-        "playable": 0,
+        "playable": 8,
         "withDiagram": 8,
         "topologies": [
           "hex"
@@ -1162,7 +1162,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 5,
-        "playable": 0,
+        "playable": 1,
         "withDiagram": 5,
         "topologies": [
           "track"
@@ -1333,7 +1333,7 @@
       "complexity": "simple",
       "stats": {
         "variantCount": 8,
-        "playable": 0,
+        "playable": 6,
         "withDiagram": 8,
         "topologies": [
           "pit"
@@ -1417,7 +1417,7 @@
       "complexity": "simple",
       "stats": {
         "variantCount": 7,
-        "playable": 0,
+        "playable": 7,
         "withDiagram": 7,
         "topologies": [
           "graph"
@@ -1970,7 +1970,7 @@
       "complexity": "complex",
       "stats": {
         "variantCount": 24,
-        "playable": 13,
+        "playable": 12,
         "withDiagram": 24,
         "topologies": [
           "grid",
@@ -2601,7 +2601,7 @@
   "stats": {
     "totalFamilies": 46,
     "totalVariants": 296,
-    "totalPlayable": 176,
+    "totalPlayable": 198,
     "totalDiagrams": 346,
     "topologies": {
       "hex": 23,

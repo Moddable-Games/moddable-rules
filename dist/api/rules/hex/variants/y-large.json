@@ -6,7 +6,7 @@
   "board": "triangular hex (side 15)",
   "win": "Connect all 3 edges",
   "special": "Large Y board. Deep strategic play.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -24,6 +24,9 @@
       "black",
       "white"
     ],
+    "plugins": {
+      "hex": null
+    },
     "setup": ""
   },
   "diagram": {

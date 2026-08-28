@@ -6,7 +6,7 @@
   "board": "Two concentric squares (16 intersections)",
   "win": "Reduce opponent to 2 pieces or block all their moves",
   "special": "Two concentric squares with connecting lines. The medieval European standard form before Nine Men's Morris predominated.",
-  "playable": false,
+  "playable": true,
   "order": 2,
   "designer": null,
   "category": null,
@@ -25,7 +25,12 @@
     "players": [
       "white",
       "black"
-    ]
+    ],
+    "plugins": {
+      "morris": {
+        "piecesPerPlayer": 6
+      }
+    }
   },
   "diagram": {
     "svg": "games/morris/diagrams/svg/six-mens-morris-board.svg",

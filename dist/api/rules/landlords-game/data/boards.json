@@ -14,12 +14,24 @@
       "direction": "counter-clockwise",
       "totalSpaces": 40,
       "corners": 4,
-      "cornerOrder": [0, 1, 2, 3],
+      "cornerOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
       "categories": {
-        "lot": "Land In Use", "necessity": "Absolute Necessity", "taxes": "Personal Property",
-        "railroad": "Interstate Public Utility", "franchise": "Local Public Utility",
-        "broker": "Real Estate", "luxury": "Luxury", "jail": "Jail",
-        "go-to-jail": "No Trespassing", "chance": "Chance", "special": "Speculation",
+        "lot": "Land In Use",
+        "necessity": "Absolute Necessity",
+        "taxes": "Personal Property",
+        "railroad": "Interstate Public Utility",
+        "franchise": "Local Public Utility",
+        "broker": "Real Estate",
+        "luxury": "Luxury",
+        "jail": "Jail",
+        "go-to-jail": "No Trespassing",
+        "chance": "Chance",
+        "special": "Speculation",
         "legacy": "Legacy"
       },
       "spaces": [
@@ -254,7 +266,8 @@
           "name": "NO TRESPASSING",
           "type": "corner",
           "side": "corner",
-          "notes": "Go to Jail corner"
+          "notes": "Go to Jail corner",
+          "role": "go-to-jail"
         },
         {
           "pos": 32,
@@ -336,12 +349,24 @@
       "direction": "counter-clockwise",
       "totalSpaces": 40,
       "corners": 4,
-      "cornerOrder": [3, 0, 1, 2],
+      "cornerOrder": [
+        3,
+        0,
+        1,
+        2
+      ],
       "categories": {
-        "lot": "Land In Use", "necessity": "Absolute Necessity", "taxes": "Personal Property",
-        "railroad": "Interstate Public Utility", "franchise": "Local Public Utility",
-        "broker": "Real Estate", "luxury": "Luxury", "jail": "Jail",
-        "go-to-jail": "No Trespassing", "chance": "Chance", "special": "Speculation",
+        "lot": "Land In Use",
+        "necessity": "Absolute Necessity",
+        "taxes": "Personal Property",
+        "railroad": "Interstate Public Utility",
+        "franchise": "Local Public Utility",
+        "broker": "Real Estate",
+        "luxury": "Luxury",
+        "jail": "Jail",
+        "go-to-jail": "No Trespassing",
+        "chance": "Chance",
+        "special": "Speculation",
         "legacy": "Legacy"
       },
       "spaces": [
@@ -585,7 +610,8 @@
           "name": "NO TRESPASSING",
           "type": "corner",
           "side": "corner",
-          "notes": "Lord Blueblood's Estate / Go to Jail"
+          "notes": "Lord Blueblood's Estate / Go to Jail",
+          "role": "go-to-jail"
         },
         {
           "pos": 31,
@@ -712,12 +738,24 @@
       "direction": "clockwise",
       "totalSpaces": 36,
       "corners": 4,
-      "cornerOrder": [1, 2, 3, 0],
+      "cornerOrder": [
+        1,
+        2,
+        3,
+        0
+      ],
       "categories": {
-        "lot": "Land In Use", "necessity": "Absolute Necessity", "taxes": "Personal Property",
-        "railroad": "Interstate Public Utility", "franchise": "Local Public Utility",
-        "broker": "Real Estate", "luxury": "Luxury", "jail": "Jail",
-        "go-to-jail": "No Trespassing", "chance": "Chance", "special": "Speculation",
+        "lot": "Land In Use",
+        "necessity": "Absolute Necessity",
+        "taxes": "Personal Property",
+        "railroad": "Interstate Public Utility",
+        "franchise": "Local Public Utility",
+        "broker": "Real Estate",
+        "luxury": "Luxury",
+        "jail": "Jail",
+        "go-to-jail": "No Trespassing",
+        "chance": "Chance",
+        "special": "Speculation",
         "legacy": "Legacy"
       },
       "spaces": [

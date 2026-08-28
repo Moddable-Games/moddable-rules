@@ -6,7 +6,7 @@
   "board": "8×8 (cylindrical)",
   "win": "Checkmate",
   "special": "The board is treated as a cylinder: file a connects directly to file h. Pieces can move and attack across the edge. Bishops and queens are significantly stronger than in standard chess.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,

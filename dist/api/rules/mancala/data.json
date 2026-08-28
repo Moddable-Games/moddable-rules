@@ -52,7 +52,7 @@
       "board": "2×6 pits + 2 stores",
       "win": "Capture more than 36 seeds (majority of 72)",
       "special": "Landing in your own store grants a bonus turn. Opponent's store is skipped during sowing.",
-      "playable": false,
+      "playable": true,
       "order": 1,
       "designer": null,
       "category": null,
@@ -64,6 +64,13 @@
           "south",
           "north"
         ],
+        "plugins": {
+          "mancala": {
+            "sowIntoOwnStore": true,
+            "bonusTurnOnStore": true,
+            "captureRule": "oppositeOnEmptyOwn"
+          }
+        },
         "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
       },
       "diagram": {
@@ -85,7 +92,7 @@
       "board": "2×6 pits",
       "win": "Capture more than 24 seeds",
       "special": "Grand slam rule prevents a player from clearing all opponent seeds in a single turn.",
-      "playable": false,
+      "playable": true,
       "order": 2,
       "designer": null,
       "category": null,
@@ -101,6 +108,20 @@
         ],
         "render": {
           "cellSize": 24
+        },
+        "plugins": {
+          "mancala": {
+            "sowIntoOwnStore": false,
+            "skipOriginOnWrap": true,
+            "captureRule": "countInEnemy",
+            "captureCounts": [
+              2,
+              3
+            ],
+            "captureChainBackwards": true,
+            "grandSlamProhibited": true,
+            "feedingObligation": true
+          }
         },
         "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
       },
@@ -162,7 +183,7 @@
       "board": "2×7 pits + 2 houses",
       "win": "Have more seeds in your house than the opponent at game end",
       "special": "Sow into your own house but skip the opponent's house. Dead pits must be bought back.",
-      "playable": false,
+      "playable": true,
       "order": 4,
       "designer": null,
       "category": null,
@@ -183,6 +204,14 @@
             38
           ],
           "pitCurve": 4
+        },
+        "plugins": {
+          "mancala": {
+            "sowIntoOwnStore": true,
+            "relay": "nonEmpty",
+            "bonusTurnOnStore": true,
+            "captureRule": "oppositeOnEmptyOwn"
+          }
         },
         "setup": "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
       },
@@ -205,7 +234,7 @@
       "board": "2×9 pits + 2 kazans",
       "win": "Capture 82 or more seeds (majority of 162)",
       "special": "The tuzduk rule: landing the 3rd seed in an opponent's odd-numbered pit locks it as your permanent scoring pit.",
-      "playable": false,
+      "playable": true,
       "order": 5,
       "designer": null,
       "category": null,
@@ -220,6 +249,12 @@
         ],
         "render": {
           "cellSize": 20
+        },
+        "plugins": {
+          "mancala": {
+            "sowIntoOwnStore": false,
+            "captureRule": "evenInEnemy"
+          }
         },
         "setup": "9,9,9,9,9,9,9,9,9;0;9,9,9,9,9,9,9,9,9;0"
       },
@@ -280,7 +315,7 @@
       "board": "2×6 pits",
       "win": "Capture more than 24 seeds",
       "special": "Functionally identical to Oware; grand slam rule applies. Culturally distinct Yoruba tradition.",
-      "playable": false,
+      "playable": true,
       "order": 7,
       "designer": null,
       "category": null,
@@ -296,6 +331,20 @@
         ],
         "render": {
           "cellSize": 24
+        },
+        "plugins": {
+          "mancala": {
+            "sowIntoOwnStore": false,
+            "skipOriginOnWrap": true,
+            "captureRule": "countInEnemy",
+            "captureCounts": [
+              2,
+              3
+            ],
+            "captureChainBackwards": true,
+            "grandSlamProhibited": true,
+            "feedingObligation": true
+          }
         },
         "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
       },
@@ -318,7 +367,7 @@
       "board": "2×7 pits + 2 heads",
       "win": "Have more seeds in your head at game end",
       "special": "Simultaneous start; sow only into your own head, never the opponent's.",
-      "playable": false,
+      "playable": true,
       "order": 8,
       "designer": null,
       "category": null,
@@ -349,6 +398,13 @@
             38
           ],
           "pitCurve": 4
+        },
+        "plugins": {
+          "mancala": {
+            "sowIntoOwnStore": true,
+            "relay": "nonEmpty",
+            "captureRule": "oppositeOnEmptyOwn"
+          }
         },
         "setup": "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
       },
@@ -461,7 +517,7 @@
   },
   "stats": {
     "variantCount": 8,
-    "playable": 0,
+    "playable": 6,
     "withDiagram": 8,
     "topologies": [
       "pit"

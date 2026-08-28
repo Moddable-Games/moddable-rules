@@ -6,7 +6,7 @@
   "board": "9×9",
   "win": "Last chief standing",
   "special": "Captured pieces become corpses that stay on the board and block movement. Killing a chief transfers that player's surviving pieces to the killer.",
-  "playable": false,
+  "playable": true,
   "order": 90,
   "designer": null,
   "category": null,

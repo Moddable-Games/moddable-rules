@@ -14,7 +14,11 @@
     "topology": {
       "type": "hexagonal-trisection"
     },
-    "players": 3,
+    "players": [
+      "red",
+      "green",
+      "blue"
+    ],
     "render": {
       "cellSize": 24
     },

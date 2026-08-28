@@ -6,7 +6,7 @@
   "board": "3×3 grid (9 intersections)",
   "win": "Form a three-in-a-row with all three of your pieces",
   "special": "No movement phase; pieces jump to any empty square. Smallest member of the Mill family.",
-  "playable": false,
+  "playable": true,
   "order": 1,
   "designer": null,
   "category": null,
@@ -25,7 +25,15 @@
     "players": [
       "white",
       "black"
-    ]
+    ],
+    "plugins": {
+      "morris": {
+        "piecesPerPlayer": 3,
+        "movement": "anywhere",
+        "winOnMill": true,
+        "flying": false
+      }
+    }
   },
   "diagram": {
     "svg": "games/morris/diagrams/svg/three-mens-morris-board.svg",

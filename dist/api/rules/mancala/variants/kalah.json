@@ -6,7 +6,7 @@
   "board": "2×6 pits + 2 stores",
   "win": "Capture more than 36 seeds (majority of 72)",
   "special": "Landing in your own store grants a bonus turn. Opponent's store is skipped during sowing.",
-  "playable": false,
+  "playable": true,
   "order": 1,
   "designer": null,
   "category": null,
@@ -18,6 +18,13 @@
       "south",
       "north"
     ],
+    "plugins": {
+      "mancala": {
+        "sowIntoOwnStore": true,
+        "bonusTurnOnStore": true,
+        "captureRule": "oppositeOnEmptyOwn"
+      }
+    },
     "setup": "4,4,4,4,4,4;0;4,4,4,4,4,4;0"
   },
   "diagram": {

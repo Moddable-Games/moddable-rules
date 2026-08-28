@@ -6,7 +6,7 @@
   "board": "2×7 pits + 2 heads",
   "win": "Have more seeds in your head at game end",
   "special": "Simultaneous start; sow only into your own head, never the opponent's.",
-  "playable": false,
+  "playable": true,
   "order": 8,
   "designer": null,
   "category": null,
@@ -37,6 +37,13 @@
         38
       ],
       "pitCurve": 4
+    },
+    "plugins": {
+      "mancala": {
+        "sowIntoOwnStore": true,
+        "relay": "nonEmpty",
+        "captureRule": "oppositeOnEmptyOwn"
+      }
     },
     "setup": "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
   },

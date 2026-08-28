@@ -6,7 +6,7 @@
   "board": "9×9 rhombus",
   "win": "Connect opposite edges",
   "special": "Compact board. 81 cells. Quick tactical games.",
-  "playable": false,
+  "playable": true,
   "order": 2,
   "designer": null,
   "category": null,
@@ -24,6 +24,9 @@
       "black",
       "white"
     ],
+    "plugins": {
+      "hex": null
+    },
     "setup": ""
   },
   "diagram": {

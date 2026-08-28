@@ -6,7 +6,7 @@
   "board": "19×19 rhombus",
   "win": "Connect opposite edges",
   "special": "Maximum standard size. 361 cells. Marathon-length games.",
-  "playable": false,
+  "playable": true,
   "order": 5,
   "designer": null,
   "category": null,
@@ -24,6 +24,9 @@
       "black",
       "white"
     ],
+    "plugins": {
+      "hex": null
+    },
     "setup": ""
   },
   "diagram": {

@@ -454,7 +454,7 @@
       "board": "9×9",
       "win": "Last chief standing",
       "special": "Captured pieces become corpses that stay on the board and block movement. Killing a chief transfers that player's surviving pieces to the killer.",
-      "playable": false,
+      "playable": true,
       "order": 90,
       "designer": null,
       "category": null,
@@ -3986,7 +3986,7 @@
       "board": "8×8 (cylindrical)",
       "win": "Checkmate",
       "special": "The board is treated as a cylinder: file a connects directly to file h. Pieces can move and attack across the edge. Bishops and queens are significantly stronger than in standard chess.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -4474,8 +4474,12 @@
           "black"
         ],
         "setup": "scdtedcs/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+        "royalType": [
+          "king",
+          "emperor"
+        ],
+        "faceoff": true,
         "notation": "algebraic",
-        "asymmetric": true,
         "castling": {
           "0": true,
           "1": false
@@ -6520,7 +6524,6 @@
           "white",
           "gold"
         ],
-        "asymmetric": true,
         "setup": "lhatkahl/ssssssss/8/8/8/8/PPPPPPPP/RNBQKBNR",
         "castling": {
           "0": true,
@@ -9436,7 +9439,31 @@
         ],
         "setup": "8/pppppppp/8/8/8/8/PPPPPPPP/8",
         "notation": "algebraic",
-        "setup_phase": true
+        "placementPieces": [
+          [
+            "rook",
+            "knight",
+            "bishop",
+            "queen",
+            "king",
+            "bishop",
+            "knight",
+            "rook"
+          ],
+          [
+            "rook",
+            "knight",
+            "bishop",
+            "queen",
+            "king",
+            "bishop",
+            "knight",
+            "rook"
+          ]
+        ],
+        "placementDistinctColor": [
+          "bishop"
+        ]
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/placement-chess-board.svg",
@@ -10058,7 +10085,7 @@
       "board": "8×8",
       "win": "Checkmate",
       "special": "Two new compound pieces — Hawk and Elephant — enter the board via a gating mechanic when back-rank pieces leave their starting squares. Designed by Yasser Seirawan and Bruce Harper, 2007.",
-      "playable": true,
+      "playable": false,
       "order": 99,
       "designer": null,
       "category": null,
@@ -10801,13 +10828,11 @@
         ],
         "setup": "cmujumc1/2pppp2/8/8/8/8/PPPPPPPP/RNBQKBNR",
         "notation": "algebraic",
-        "asymmetric": true,
-        "hand": true,
         "drops": true,
-        "promotion_zone": [
-          6,
-          7,
-          8
+        "promotionZone": [
+          0,
+          1,
+          2
         ],
         "vocabulary": {
           "chunin": {
@@ -10899,8 +10924,6 @@
           "clan"
         ],
         "notation": "algebraic",
-        "asymmetric": true,
-        "hand": true,
         "drops": true,
         "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/4K3"
       },
@@ -10939,12 +10962,11 @@
         ],
         "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
         "notation": "algebraic",
-        "hand": true,
         "drops": true,
-        "promotion_zone": [
-          6,
-          7,
-          8
+        "promotionZone": [
+          0,
+          1,
+          2
         ]
       },
       "diagram": {
@@ -11020,7 +11042,7 @@
           "white",
           "black"
         ],
-        "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+        "setup": "8/8/4pppp/pppp4/4PPPP/PPPP4/8/8",
         "plugins": {
           "chess": {
             "castling": false,
@@ -11113,7 +11135,17 @@
                 "ferz",
                 "king"
               ]
-            ]
+            ],
+            "placementZone": {
+              "default": [
+                0,
+                1,
+                2
+              ],
+              "rook": [
+                0
+              ]
+            }
           }
         }
       },
@@ -11152,8 +11184,6 @@
         ],
         "setup": "lwgkkgwl/hhhhhhhh/8/8/8/8/PPPPPPPP/RNBQKBNR",
         "notation": "algebraic",
-        "asymmetric": true,
-        "dual_king": true,
         "vocabulary": {
           "lieutenant": {
             "symbols": {
@@ -11456,9 +11486,11 @@
         ],
         "setup": "rheacehr/2o2o2/8/8/8/8/PPPPPPPP/RNBQKBNR",
         "notation": "algebraic",
-        "asymmetric": true,
-        "hand": true,
         "drops": true,
+        "royalType": [
+          "king",
+          "chancellor"
+        ],
         "faceoff": true,
         "vocabulary": {
           "horse": {
@@ -13408,7 +13440,11 @@
         "topology": {
           "type": "hexagonal-trisection"
         },
-        "players": 3,
+        "players": [
+          "red",
+          "green",
+          "blue"
+        ],
         "render": {
           "cellSize": 24
         },
@@ -15129,7 +15165,7 @@
   },
   "stats": {
     "variantCount": 154,
-    "playable": 134,
+    "playable": 135,
     "withDiagram": 154,
     "topologies": [
       "grid",

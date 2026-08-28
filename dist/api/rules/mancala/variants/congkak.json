@@ -6,7 +6,7 @@
   "board": "2×7 pits + 2 houses",
   "win": "Have more seeds in your house than the opponent at game end",
   "special": "Sow into your own house but skip the opponent's house. Dead pits must be bought back.",
-  "playable": false,
+  "playable": true,
   "order": 4,
   "designer": null,
   "category": null,
@@ -27,6 +27,14 @@
         38
       ],
       "pitCurve": 4
+    },
+    "plugins": {
+      "mancala": {
+        "sowIntoOwnStore": true,
+        "relay": "nonEmpty",
+        "bonusTurnOnStore": true,
+        "captureRule": "oppositeOnEmptyOwn"
+      }
     },
     "setup": "7,7,7,7,7,7,7;0;7,7,7,7,7,7,7;0"
   },

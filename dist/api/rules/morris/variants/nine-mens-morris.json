@@ -6,7 +6,7 @@
   "board": "Three concentric squares (24 intersections)",
   "win": "Reduce opponent to 2 pieces or block all their moves",
   "special": "Three concentric squares joined at midpoints. Flying allowed when reduced to 3 pieces.",
-  "playable": false,
+  "playable": true,
   "order": 3,
   "designer": null,
   "category": null,
@@ -23,6 +23,11 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "morris": {
+        "piecesPerPlayer": 9
+      }
+    },
     "setup": ""
   },
   "diagram": {

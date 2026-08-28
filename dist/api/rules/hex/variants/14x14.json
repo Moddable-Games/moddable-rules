@@ -6,7 +6,7 @@
   "board": "14×14 rhombus",
   "win": "Connect opposite edges",
   "special": "196 cells. Used in some tournament formats.",
-  "playable": false,
+  "playable": true,
   "order": 4,
   "designer": null,
   "category": null,
@@ -24,6 +24,9 @@
       "black",
       "white"
     ],
+    "plugins": {
+      "hex": null
+    },
     "setup": ""
   },
   "diagram": {
