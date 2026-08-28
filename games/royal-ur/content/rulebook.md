@@ -43,6 +43,9 @@ related:
   - pachisi
   - backgammon
   - nyout
+unsupported:
+  _family: "No rules plugin. The Royal Game of Ur runs an L-shaped route with a shared central lane where pieces can be sent home, four binary dice, and rosette squares that grant an extra roll and immunity. The engine can draw the 3x8 grid but has no track laid over it and nothing to roll."
+  standard: "Blocked on the plugin alone."
 ---
 
 <div class="section">

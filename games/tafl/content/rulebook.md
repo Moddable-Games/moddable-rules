@@ -65,6 +65,12 @@ related:
   - agon
   - fanorona
   - morris
+unsupported:
+  _family: "No rules plugin. The board, throne, corners and pieces render; nothing moves them. Tafl is asymmetric in a way the engine has never modelled: the two seats have different piece counts, different objectives and different win conditions - the king escapes to a corner, the attackers surround him on four sides - and custodial capture between two pieces applies to everyone except the king."
+  brandubh: "Brandubh is the 7x7 form; blocked on the plugin alone."
+  hnefatafl: "Hnefatafl is the 11x11 form; blocked on the plugin alone."
+  standard: "Tablut is the 9x9 form with a 16-attacker ring; it is blocked on the plugin alone."
+  tawlbwrdd: "Tawlbwrdd is the 11x11 Welsh form; blocked on the plugin alone."
 ---
 
 <div class="section variant-hub">

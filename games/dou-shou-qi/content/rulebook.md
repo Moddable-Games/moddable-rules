@@ -46,6 +46,9 @@ engine:
   pieces:
     set: mce-jungle
   players: [white, black]
+unsupported:
+  _family: "No rules plugin. Dou Shou Qi ranks eight animals, lets the Rat swim and the Rat alone attack the Elephant, drowns other pieces that enter water, weakens a piece standing in the opponent's trap, and is won by reaching the opponent's den. Terrain that changes a piece's strength and legality is not modelled anywhere."
+  standard: "Blocked on the plugin alone."
 ---
 
 ## Dou Shou Qi (斗兽棋 / Jungle)

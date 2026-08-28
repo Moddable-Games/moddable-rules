@@ -51,6 +51,9 @@ related:
   - pachisi
   - royal-ur
   - backgammon
+unsupported:
+  _family: "No rules plugin. Nyout is a circuit race with four throwing sticks and shortcut paths across the circle, so a piece's route depends on where it entered the diameter. Branching tracks are not modelled - the engine has no track topology at all beyond a straight line."
+  standard: "Blocked on the plugin alone."
 ---
 
 ## Nyout (Yut Nori / 유놓이)

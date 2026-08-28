@@ -72,6 +72,11 @@ related:
   - nyout
   - chaupar
   - backgammon
+unsupported:
+  _family: "No rules plugin. Pachisi is a cross-and-circle race and needs a track the engine does not build: four arms joined into one circuit, each seat entering and leaving at a different point, with castle squares that grant safety and a piece sent home when landed on."
+  seven-shell: "Seven shells with named throw values, so the same non-uniform generator with a different table."
+  standard: "Randomisation is six cowrie shells rather than dice, with grace rolls on 0, 1 or 6 mouths up - a non-uniform generator that has to be declared rather than assumed to be a d6."
+  two-player: "Each player runs two opposite arms, so one seat owns two entry points and two home paths."
 ---
 
 <div class="section variant-hub">

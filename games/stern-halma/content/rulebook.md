@@ -53,6 +53,13 @@ related:
   - halma
   - draughts
   - go
+unsupported:
+  _family: "No rules plugin. The star board and pegs render; nothing steps, chains hops through a corridor of pieces, or recognises a filled destination arm as a win."
+  standard-2p: "Two players use opposite arms."
+  standard-3p: "Three players use alternating arms, each aiming at the arm opposite."
+  standard-4p: "Four players use the diagonal arms, leaving north and south empty. Four seats also need per-seat goal zones, which nothing declares."
+  standard-6p: "All six arms are occupied, so six seats need six goal zones."
+  super-chinese-checkers: "Super Chinese Checkers additionally allows a hop over any distance - any number of empty cells before the hurdle and the same number after - so the hop is a ray scan rather than a fixed two-cell step."
 ---
 
 <div class="section">

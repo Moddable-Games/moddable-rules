@@ -67,6 +67,9 @@ related:
   - go
   - agon
   - morris
+unsupported:
+  _family: "No rules plugin. Surakarta captures by travelling around one of the eight loop arcs at the board's edge and striking the first piece met on the way back in - so a capture is a path along a rail rather than a move to a cell. Nothing in the topology models the arcs, which today are drawn and nothing more."
+  standard: "Blocked on the plugin alone."
 ---
 
 <div class="section">

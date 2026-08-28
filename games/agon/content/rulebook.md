@@ -35,6 +35,9 @@ engine:
   pieces:
     set: playstrategy-go-classic
   players: [white, black]
+unsupported:
+  _family: "No rules plugin. Agon is won by moving the Queen to the centre hex and surrounding her with all six Guards - a win condition about a specific cell and its neighbourhood, not about capture or material. It also has the rule that a piece moved to the outermost ring must move toward the centre next turn, which needs per-piece obligation state."
+  standard: "Blocked on the plugin alone."
 ---
 
 ## Agon

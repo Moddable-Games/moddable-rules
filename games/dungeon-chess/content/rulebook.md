@@ -44,6 +44,11 @@ engine:
   pieces:
     set: mce-chess
   players: [white, black]
+unsupported:
+  _family: "No rules plugin in moddable-engine. Dungeon Chess is developed in its own repository (Moddable-Games/dungeon-chess) and its rulebook is published here ahead of the engine plugin, so the board renders and nothing moves."
+  compact: "The 10x10 skirmish form."
+  four-player: "The 20x20 four-seat form, which additionally needs four seats with per-seat objectives."
+  two-player: "The 20x8 corridor form."
 ---
 
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Overview</span><span class="eyebrow-line"></span></div>

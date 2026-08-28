@@ -49,6 +49,12 @@ engine:
       grass: "#8BC34A"
       sand: "#FFC107"
       base: "#F44336"
+unsupported:
+  _family: "No rules plugin. Nukes is an original design and needs almost all of itself built: hex territory control, supply, recruiting and the nuclear strike that gives it its name. None of it exists."
+  asymmetric-powers: "It additionally deals one Power Card per player at setup, so seats need private asymmetric state, which no seat has."
+  fallout: "It additionally spreads biohazard tiles one per round, so the board mutates between turns - the topology is fixed once built and cannot shrink."
+  siege: "It additionally replaces hostages with recruiting from a player's own supply, which needs the supply pool the standard game has not got yet."
+  standard: "The seeded terrain generation it declares also has no generator - the engine builds boards from a declared layout, not from a seed."
 ---
 
 <div class="section">

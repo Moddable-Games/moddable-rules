@@ -55,6 +55,9 @@ engine:
   pieces:
     set: playstrategy-draughts-plain
   players: [yellow, green, red, blue]
+unsupported:
+  _family: "No rules plugin. Chaupar shares Pachisi's cross-and-circle track and is blocked on the same missing track model."
+  standard: "Its own additions are three long dice rather than cowries, no grace rolls, no castle squares, and super-pieces immune to capture by smaller groups - which needs a stack size per cell that no cell records."
 ---
 
 <div class="section">

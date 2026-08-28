@@ -37,6 +37,10 @@ engine:
   pieces:
     set: playstrategy-go-classic
   players: [officers, soldiers]
+unsupported:
+  _family: "No rules plugin, and the asymmetry is total: Officers jump to capture as in draughts, Soldiers advance without jumping and never capture at all, and the two sides win differently - Soldiers by immobilising the Officers, Officers by reducing the Soldiers below a threshold. Two seats with two different move generators and two different win conditions is a shape the engine has no plugin for."
+  royal-garrison: "Three Officers against 50 Soldiers on the larger fortress; identical mechanics at greater scale, so it is blocked on exactly what standard is blocked on."
+  standard: "Two Officers against 24 Soldiers on the cross-shaped board."
 ---
 
 # Asalto

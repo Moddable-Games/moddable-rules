@@ -54,6 +54,9 @@ related:
   - royal-ur
   - pachisi
   - backgammon
+unsupported:
+  _family: "No rules plugin. Senet needs throwing sticks, a boustrophedon track across three rows, swapping with a landed-on piece rather than capturing it, and the special squares in the last row that send a piece back to the House of Rebirth. None of the track exists."
+  standard: "The Kendall reconstruction is the ruleset this would implement; it is blocked on the plugin alone."
 ---
 
 <div class="section">

@@ -44,6 +44,12 @@ engine:
   pieces:
     set: mce-lattaque
   players: [blue, red]
+unsupported:
+  _family: "No rules plugin, and the mechanic it is missing is the one the engine has least of: hidden identity. Every piece has a rank known only to its owner, and combat is resolved by comparing ranks on contact. The engine has no per-seat view of state - both players read the same slice - so there is nothing to hide a rank in."
+  aviation: "Aviation additionally has ten unnumbered auxiliaries and a two-stage reveal - a Searchlight exposes a hidden piece before an anti-aircraft gun may engage it - so revelation is a move type of its own, not a consequence of contact."
+  dover-patrol: "Dover Patrol additionally is capture-the-flag rather than elimination: a separate Flag piece must be seized and carried back to the player's own base, which needs a carried-piece state and a positional win condition."
+  standard: "Beyond that it needs the rank table itself, with Mines beaten only by Sappers and the Spy beating the Commander-in-Chief only when the Spy attacks."
+  tri-tactics: "Tri-Tactics additionally runs three services on one board with terrain that restricts which service may enter which cell, so movement legality depends on a terrain map as well as the piece."
 ---
 
 # L'Attaque

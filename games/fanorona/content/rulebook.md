@@ -60,6 +60,9 @@ engine:
       b: bS
       w: wS
   players: [white, black]
+unsupported:
+  _family: "No rules plugin. Fanorona captures by approach or withdrawal - moving toward a line of enemy pieces or away from one removes the whole line - and a capturing player must continue capturing while able, without repeating a direction or revisiting a cell. Chained capture with per-chain history is not modelled."
+  standard: "Blocked on the plugin alone."
 ---
 
 <div class="section">
