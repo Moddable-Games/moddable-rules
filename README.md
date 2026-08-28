@@ -222,6 +222,11 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-27
+- Declared 11 unsupported chess variants with specific failure modes and missing capabilities (refs engine#109)
+- Corrected blind-chess identification (Banqi, not blindfold chess)
+- Identified centennial-chess and grande-acedrex as vocabulary gaps, not capability gaps
+
 #### 2026-08-19
 - Removed `dist/` from all public-facing URLs — game pages now serve from root (e.g. `/chess/variants/standard/`)
 - Coordinated URL migration across moddable-rules, moddable-engine, moddable-tools, moddable-web
