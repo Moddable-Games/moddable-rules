@@ -222,6 +222,10 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-28
+- Declared 43 unsupported variants across 17 families with _family shared reasons (refs engine#109)
+- Silent gap is now zero: every unplayable variant says why, ratcheted by CI
+
 #### 2026-08-27
 - Declared 11 unsupported chess variants with specific failure modes and missing capabilities (refs engine#109)
 - Corrected blind-chess identification (Banqi, not blindfold chess)
