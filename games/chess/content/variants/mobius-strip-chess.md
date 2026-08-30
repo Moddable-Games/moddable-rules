@@ -1,12 +1,12 @@
 ---
+playable: true
 title: "Möbius Strip Chess"
 slug: mobius-strip-chess
 board: "8×14 Möbius strip"
 players: "2"
 parent: chess
 win: Checkmate
-special: "Chess on a Möbius strip: an 8x14 board (double-height Cylindrical Chess) where files a and h wrap normally, and the rank-11/12 seam joins with a half-twist that mirrors file position. Each side has 16 pawns across two ranks, advancing from both ends of the strip toward the middle and toward the twisted seam. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound. Invented by Alberto Monteiro."
-unsupported: "The twist is on the wrong axis. The variant says files wrap normally and the rank seam carries the half-twist; the topology gives a twisted file wrap and no rank wrap at all, so the feature it is named for is absent."
+special: "Chess on a Möbius strip: an 8x14 board (double-height Cylindrical Chess) where the a and h files are ordinary board edges, and the rank-11/12 seam is the single join, made with a half-twist that mirrors file position: chessvariants.com/shape.dir/x_moeb.html states that 'a11 would join h12, b11 would join g12, and so on'. A Moebius strip has one boundary, which is what distinguishes it from Klein Bottle Chess, where the files ARE joined. Each side has 16 pawns across two ranks, advancing from both ends of the strip toward the middle and toward the twisted seam. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound. Invented by Alberto Monteiro."
 engine:
   topology:
     type: grid

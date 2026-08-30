@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Romanchenko's Chess"
 slug: romanchenkos-chess
 board: "Modified 8×8 (broken columns)"
@@ -6,7 +7,6 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Standard FIDE chess pieces and rules on a board with 'broken columns' — certain file columns are displaced or interrupted at specific ranks, breaking the standard 8×8 grid alignment and preventing rote pattern memorization. Designed by Soviet chess trainer V. Romanchenko as a pedagogical tool: players must reason from first principles rather than imitate memorized openings. Jocly implementation on chessvariants.com."
-unsupported: "The broken columns are declared as `voids` but are not honoured in play: six pieces start on void squares and moves are generated into them."
 engine:
   topology:
     type: grid
@@ -14,7 +14,7 @@ engine:
     cols: 10
     voids: [[0,0],[0,1],[1,0],[1,1],[2,0],[2,1],[3,0],[3,1],[4,8],[4,9],[5,8],[5,9],[6,8],[6,9],[7,8],[7,9]]
   players: [white, black]
-  setup: "rnbqkbnr2/pppppppp2/10/10/10/10/2PPPPPPPP/2RNBQKBNR"
+  setup: "2rnbqkbnr/2pppppppp/10/10/10/10/PPPPPPPP2/RNBQKBNR2"
   render:
     zones:
       voids: [[0,0],[0,1],[1,0],[1,1],[2,0],[2,1],[3,0],[3,1],[4,8],[4,9],[5,8],[5,9],[6,8],[6,9],[7,8],[7,9]]

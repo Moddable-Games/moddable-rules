@@ -6,7 +6,7 @@ players: "2"
 parent: chess
 win: "Checkmate the opponent's King OR move your King to the opponent's Home Square"
 special: "38-square chess variant by Ben Good, entered in the 1998 38 Squares Contest. Uses Shogi-style drops. Unique piece set: King, Rook, Bishop, Knight, Silver General, Gold General, and 4 Pawns per side — with movements distinct from standard Shogi. The board has a built-in loop connection that Rooks can exploit. Pawns promote to Queen only on the opponent's Home Square; captured Queens revert to Pawns before being dropped. Dual win condition: checkmate OR King reaches opponent's Home Square."
-unsupported: "The 38-square board is declared with `missing_squares`, a key the engine reads nowhere, so it is played on a full rectangle instead of the shaped board the variant is named for."
+unsupported: "The 38-square shape is not in this file at all. `missing_squares: true` is a boolean, not a list of cells, and `setup` is the standard 64-square opening FEN, so the variant loads as ordinary 8x8 chess: 64 cells, 32 pieces, 20 opening moves, measured. It is not an unread key - `voids` is the supported way to declare a shaped board and is honoured in play, as romanchenkos-chess now demonstrates. What is missing is the content: which 26 of the 64 squares are absent, the loop connection between files, the seven-piece set with its own movements, and the Home Square win condition. None of it can be inferred from what is here."
 engine:
   topology:
     type: grid

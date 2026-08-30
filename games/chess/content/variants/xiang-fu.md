@@ -7,7 +7,7 @@ players: "2"
 parent: chess
 win: Duple Checkmate, or capture one Champion then checkmate the remaining one
 special: "Xiangqi/chess hybrid by Eventlesstew for the PyChess Variant Design Contest. 9×9 board, dual Champions (royal), Crossbow (diagonal Cannon), piece drops within first two ranks, captures go to hand."
-unsupported: "Declares no `drops` key, so the piece drops within the first two ranks and the captures-to-hand rule never happen. The pieces themselves are fully declared and correct."
+unsupported: "Drops now work: `drops` and `dropZone: [0, 1]` restrict a drop to the owner's own first two ranks, verified as rows 0-1 for black and 7-8 for red. What is still missing is the demotion: a captured Champion should enter the hand as a Pupil, which is not royal, and instead returns as a Champion. So a player can drop a second royal piece."
 engine:
   topology:
     type: grid
@@ -15,6 +15,8 @@ engine:
     cols: 9
     layout: intersections
   players: [red, black]
+  drops: true
+  dropZone: [0, 1]
   pieces:
     set: mce-xiangqi-fairy
   render:

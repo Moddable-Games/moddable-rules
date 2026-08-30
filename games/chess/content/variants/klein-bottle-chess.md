@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Klein Bottle Chess
 slug: klein-bottle-chess
 board: "8×14 Klein bottle"
@@ -6,7 +7,6 @@ players: "2"
 parent: chess
 win: Checkmate
 special: "Chess on a Klein bottle: an 8x14 board (double-height Cylindrical Chess) where files a and h are joined (as in Cylindrical Chess), AND the rank-11/12 seam is joined with a half-twist that mirrors file position. Each side has 16 pawns across two ranks. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound but can reach only 3/8 of the board in one move. Invented by Alberto Monteiro."
-unsupported: "The rank seam joins correctly with its half-twist, but the file wrap also carries a row mirror it should not have: the variant says files join as in Cylindrical Chess, plainly."
 engine:
   topology:
     type: grid
