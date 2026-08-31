@@ -49,7 +49,15 @@ function extractVocabularySymbols(yaml) {
     if (indent === -1) continue
     if (indent <= baseIndent) break
 
-    if (line.includes('symbols:')) { inSymbols = true; continue }
+    if (line.includes('symbols:')) {
+      inSymbols = true
+      // An inline entry carries its symbols on the same line as `symbols:`,
+      // so skipping the line skipped the declaration.
+      for (const m of line.matchAll(/["']?\d["']?\s*:\s*["']?([A-Za-z])["']?/g)) {
+        symbols.add(m[1])
+      }
+      continue
+    }
 
     if (inSymbols) {
       const symMatch = line.match(/["']?\d["']?\s*:\s*["']?([A-Za-z])["']?/)
@@ -79,8 +87,19 @@ function extractAllVocabSymbols(yaml) {
     }
     if (inVocab && indent <= vocabIndent) { inVocab = false; vocabIndent = -1 }
     if (inVocab) {
-      const m = line.match(/["']?\d["']?\s*:\s*["']?([A-Za-z])["']?/)
-      if (m) symbols.add(m[1])
+      // matchAll, not match. The corpus writes vocabulary two ways and the
+      // inline flow form puts both owners on one line:
+      //
+      //   coordinator: { symbols: { 0: C, 1: c } }
+      //
+      // A non-global match returns only the first, so every inline entry
+      // registered its white symbol and dropped its black one. That is the
+      // whole of ultima's reported failure - c, h, i, l, w, the lowercase half
+      // of five pieces that are correctly declared - and it was masking the two
+      // variants that genuinely declare no vocabulary at all.
+      for (const m of line.matchAll(/["']?\d["']?\s*:\s*["']?([A-Za-z])["']?/g)) {
+        symbols.add(m[1])
+      }
     }
   }
   return symbols

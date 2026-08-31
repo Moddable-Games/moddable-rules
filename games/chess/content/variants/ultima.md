@@ -7,14 +7,14 @@ players: "2"
 parent: chess
 win: Capture opponent King
 special: "All seven piece types use entirely different capture mechanics. No check: win by physically capturing the opponent's King. Designed by Robert Abbott, 1962."
-unsupported: "All seven piece types are declared as `{ type: rider, dirs: all }`, so every piece moves like a queen and none of the seven distinct capture mechanics - coordinator, longleaper, withdrawer, immobiliser, chameleon - exists."
+unsupported: "Movement is now right and capture is not. Checked against chessvariants.com/other.dir/ultima.html and en.wikipedia.org/wiki/Baroque_chess: the five noble pieces do all move as queens, so those declarations were correct, and only the Pincer Pawn was wrong - it moves as a rook and is now declared that way. What is absent is the premise of the game, that every piece captures differently: withdrawal, coordinate capture against the King, leap capture, immobilisation, mimicry, and the pawn custodial pinch. None of the six exists, so every piece currently captures by displacement and the game plays as queens-and-rooks with a bare-king win. Also needs no check, no checkmate and no stalemate: the King is taken outright."
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "chlwklic/pppppppp/8/8/8/8/PPPPPPPP/CILWKLHC"
+  setup: "clhwkhli/pppppppp/8/8/8/8/PPPPPPPP/ILHKWHLC"
   vocabulary:
     coordinator: { symbols: { 0: C, 1: c } }
     immobilizer: { symbols: { 0: I, 1: i } }
@@ -30,7 +30,7 @@ engine:
         longLeaper:  { type: rider, dirs: all }
         withdrawer:  { type: rider, dirs: all }
         chameleon:   { type: rider, dirs: all }
-        pawn:        { type: rider, dirs: all }
+        pawn:        { type: rider, dirs: orthogonal }
   notation: algebraic
 published: true
 ---
@@ -47,12 +47,12 @@ All pieces except the King slide like the Queen — any number of squares in any
 
 | Piece | Starting Squares | Movement | Capture Method |
 |---|---|---|---|
-| **King** | e1 / e8 | 1 step, any direction | Displacement: physically move onto the opponent King’s square. Win by capturing the opponent King. |
-| **Withdrawer** | d1 / d8 | Queen slide | **Withdrawal:** if the Withdrawer moves directly away from an adjacent opponent piece (along the same line it occupied when adjacent), that piece is captured. Moving toward an adjacent piece, or along any other line, captures nothing. |
-| **Coordinator** | a1, h1 / a8, h8 | Queen slide | **Coordinate capture:** when the Coordinator moves to square X, any opponent piece that occupies the same rank as your King and the same file as X is captured; and any opponent piece that occupies the same file as your King and the same rank as X is also captured. Multiple captures possible per move. |
-| **Long Leaper** | c1, f1 / c8, f8 | Queen slide | **Leap capture:** the Long Leaper may jump over one opponent piece along a rank, file, or diagonal, landing on the next empty square beyond it; the jumped piece is captured. Multiple leaps in one move are permitted, each over a separate opponent piece on the same or different lines. |
-| **Immobilizer** | g1 / g8 | Queen slide | **Immobilization:** the Immobilizer does not capture. Instead, any opponent piece that is orthogonally or diagonally adjacent to the Immobilizer at the end of its move is frozen and may not move until the Immobilizer moves away. An Immobilizer adjacent to an opponent Immobilizer is itself immobilized. |
-| **Chameleon** | b1 / b8 | Queen slide | **Mimicry:** the Chameleon captures using the capture method of whichever type of piece it is targeting. To capture a Withdrawer, it withdraws from it. To capture a Long Leaper, it leaps over it. To capture a Coordinator, it coordinates with your King against it. To capture an Immobilizer, it immobilizes it (both are immobilized). To capture a Pincer Pawn, it flanks it. Cannot capture a King by displacement (Chameleon has no displacement method). |
+| **King** | d1 / e8 | 1 step, any direction | Displacement: physically move onto the opponent King’s square. Win by capturing the opponent King. |
+| **Withdrawer** | e1 / d8 | Queen slide | **Withdrawal:** if the Withdrawer moves directly away from an adjacent opponent piece (along the same line it occupied when adjacent), that piece is captured. Moving toward an adjacent piece, or along any other line, captures nothing. |
+| **Coordinator** | h1 / a8 | Queen slide | **Coordinate capture:** when the Coordinator moves to square X, any opponent piece that occupies the same rank as your King and the same file as X is captured; and any opponent piece that occupies the same file as your King and the same rank as X is also captured. Multiple captures possible per move. |
+| **Long Leaper** | b1, g1 / b8, g8 | Queen slide | **Leap capture:** the Long Leaper may jump over one opponent piece along a rank, file, or diagonal, landing on the next empty square beyond it; the jumped piece is captured. Multiple leaps in one move are permitted, each over a separate opponent piece on the same or different lines. |
+| **Immobilizer** | a1 / h8 | Queen slide | **Immobilization:** the Immobilizer does not capture. Instead, any opponent piece that is orthogonally or diagonally adjacent to the Immobilizer at the end of its move is frozen and may not move until the Immobilizer moves away. An Immobilizer adjacent to an opponent Immobilizer is itself immobilized. |
+| **Chameleon** | c1, f1 / c8, f8 | Queen slide | **Mimicry:** the Chameleon captures using the capture method of whichever type of piece it is targeting. To capture a Withdrawer, it withdraws from it. To capture a Long Leaper, it leaps over it. To capture a Coordinator, it coordinates with your King against it. To capture an Immobilizer, it immobilizes it (both are immobilized). To capture a Pincer Pawn, it flanks it. Cannot capture a King by displacement (Chameleon has no displacement method). |
 | **Pincer Pawn** | a2–h2 / a7–h7 | Queen slide | **Custodian (flank) capture:** when the Pincer Pawn moves, any opponent piece now sandwiched between the Pincer and another friendly piece along the same rank or file is captured. Multiple custodian captures are possible from one move. |
 
 ### Starting Position
