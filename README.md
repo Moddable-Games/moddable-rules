@@ -223,6 +223,8 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-08-31
+- thai declares `kingLandsBehindCapture`, the rule the variant exists for: its king flies to reach a capture but rests on the square immediately beyond it (refs engine#161)
+- diagonal was a stale unplayable entry, not a gap: its anti-diagonal setup was already declared and correct
 - romanchenkos-chess: corrected the setup FEN, which had its offset empty files on the wrong rows, so eight pieces began on squares that do not exist
 - xiang-fu, klein-bottle-chess, mobius-strip-chess declare the capabilities they need (`dropZone`, wrap seams) and are now playable
 - ultima: starting position corrected against chessvariants.com, and pincer pawns move as rooks rather than queens
