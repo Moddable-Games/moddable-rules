@@ -222,6 +222,14 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-08-31
+- romanchenkos-chess: corrected the setup FEN, which had its offset empty files on the wrong rows, so eight pieces began on squares that do not exist
+- xiang-fu, klein-bottle-chess, mobius-strip-chess declare the capabilities they need (`dropZone`, wrap seams) and are now playable
+- ultima: starting position corrected against chessvariants.com, and pincer pawns move as rooks rather than queens
+- `check-fen-vocabulary.mjs` matched only the first symbol of each inline vocabulary block, reporting five false unmapped symbols on ultima
+- flip-chess attributed to John William Brown and crazy-38s to Ben Good, with the flip mechanic the variant is named for added
+- crazy-38s and flip-chess remain content-blocked: their 38-square shapes exist only as diagram images
+
 #### 2026-08-28
 - Declared 43 unsupported variants across 17 families with _family shared reasons (refs engine#109)
 - Silent gap is now zero: every unplayable variant says why, ratcheted by CI
