@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Thai Draughts
 slug: thai
 board: "8×8"
@@ -14,6 +15,10 @@ engine:
     cols: 8
   players: [white, black]
   setup: "b1b1b1b1/1b1b1b1b/8/8/8/8/w1w1w1w1/1w1w1w1w"
+  plugins:
+    draughts:
+      flyingKings: true
+      kingLandsBehindCapture: true
 ---
 
 ## Thai Draughts

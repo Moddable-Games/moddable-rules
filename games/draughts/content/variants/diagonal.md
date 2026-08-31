@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Diagonal Draughts
 slug: diagonal
 board: "10×10"
