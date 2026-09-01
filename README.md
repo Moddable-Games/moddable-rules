@@ -223,6 +223,9 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-01
+- Every PDF was last built 2026-08-07 while thirteen families changed their variants underneath, so 665 of them described a corpus that had moved on: the Dai Shogi PDF still showed the superseded starting position after the web page had been corrected. All variant PDFs rebuilt
+- `check-pdf-freshness.mjs` hashes each variant file against the PDF built from it and runs in CI, so a content change without a rebuild now fails rather than shipping silently
+- Dai Shogi's piece list said the Go-Betweens were at e5/k5 while its own starting position said e6/k6
 - The six large shogi boards drew both camps in the other camp's pieces: a bracketed setup took a fourth position parser that called an uppercase symbol gote, when uppercase is sente. Chu Shogi uses single-character symbols, took a different parser, and was right all along, which is why the same piece set produced opposite results
 - Dai Shogi's setup held 63 pieces a side while the same file said 65, from 2026-07-10 until now: the two go-betweens sat inside the pawn rank displacing two pawns, instead of standing on their own rank in front of them, and the position now matches the source exactly
 - `check-piece-counts.mjs` compares every setup against the piece count its own file states, and runs in CI. It is the check that was missing: nothing compared the two statements, so every diagram, PDF and board rendered the wrong position faithfully for eight weeks

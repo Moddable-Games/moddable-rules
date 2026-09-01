@@ -38,7 +38,7 @@ Most pieces are directional sliders or steppers with ranges of infinite, 2, or 1
 
 **Drunk Elephant (h2):** Steps in all directions except straight backward (FfsW). Promotes to Crown Prince.
 
-**Go-Between (e5, k5):** Steps vertically only (vW). Promotes to Drunk Elephant.
+**Go-Between (e6, k6):** Steps vertically only (vW). Promotes to Drunk Elephant.
 
 **Flying Dragon (b4, n4):** Leaps to the second diagonal square in any direction (F2).
 

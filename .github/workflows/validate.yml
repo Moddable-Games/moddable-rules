@@ -38,3 +38,9 @@ jobs:
 
       - name: Check diagram freshness
         run: node scripts/check-diagram-freshness.mjs
+
+      # Every PDF was last built 2026-08-07 while thirteen families changed
+      # their variants underneath, so 666 of them described a corpus that had
+      # moved on. Nothing regenerated them and nothing checked them.
+      - name: Check PDF freshness
+        run: node scripts/check-pdf-freshness.mjs

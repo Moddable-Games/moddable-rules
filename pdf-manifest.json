@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-12",
+  "generated": "2026-09-01",
   "total": 665,
-  "totalPages": 9739,
+  "totalPages": 9765,
   "families": 50,
   "byType": {
     "rulebook": 100,
@@ -676,7 +676,7 @@
       "path": "chess/pdf/variants/djambi.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 5
+      "pages": 2
     },
     {
       "path": "chess/pdf/variants/dragon-chess.pdf",
@@ -754,7 +754,7 @@
       "path": "chess/pdf/variants/giveaway.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/glinski.pdf",
@@ -1006,7 +1006,7 @@
       "path": "chess/pdf/variants/omnicide.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/orda-chess.pdf",
@@ -1222,7 +1222,7 @@
       "path": "chess/pdf/variants/suicide-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/synochess.pdf",
@@ -1744,7 +1744,7 @@
       "path": "draughts/pdf/variants/alquerque.pdf",
       "family": "draughts",
       "type": "variant",
-      "pages": 4
+      "pages": 3
     },
     {
       "path": "draughts/pdf/variants/bashni.pdf",
@@ -1774,7 +1774,7 @@
       "path": "draughts/pdf/variants/dameo.pdf",
       "family": "draughts",
       "type": "variant",
-      "pages": 4
+      "pages": 3
     },
     {
       "path": "draughts/pdf/variants/diagonal.pdf",
@@ -1792,7 +1792,7 @@
       "path": "draughts/pdf/variants/frisian.pdf",
       "family": "draughts",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "draughts/pdf/variants/german.pdf",
@@ -1822,7 +1822,7 @@
       "path": "draughts/pdf/variants/lasca.pdf",
       "family": "draughts",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "draughts/pdf/variants/pool.pdf",
@@ -2884,19 +2884,19 @@
       "path": "morris/pdf/morris-variant-library-v0.1.1.pdf",
       "family": "morris",
       "type": "library",
-      "pages": 25
+      "pages": 27
     },
     {
       "path": "morris/pdf/morris-variant-library.pdf",
       "family": "morris",
       "type": "library",
-      "pages": 25
+      "pages": 27
     },
     {
       "path": "morris/pdf/variants/lasker-morris.pdf",
       "family": "morris",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "morris/pdf/variants/morabaraba.pdf",
@@ -2932,7 +2932,7 @@
       "path": "morris/pdf/variants/twelve-mens-morris.pdf",
       "family": "morris",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "nukes/pdf/nukes-rulebook-v0.9.8.pdf",
@@ -2962,7 +2962,7 @@
       "path": "nukes/pdf/variants/siege.pdf",
       "family": "nukes",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "nukes/pdf/variants/standard.pdf",
@@ -3352,25 +3352,25 @@
       "path": "shogi/pdf/shogi-rulebook-v1.2.0.pdf",
       "family": "shogi",
       "type": "rulebook",
-      "pages": 4
+      "pages": 5
     },
     {
       "path": "shogi/pdf/shogi-rulebook.pdf",
       "family": "shogi",
       "type": "rulebook",
-      "pages": 4
+      "pages": 5
     },
     {
       "path": "shogi/pdf/shogi-variant-library-v1.2.0.pdf",
       "family": "shogi",
       "type": "library",
-      "pages": 106
+      "pages": 112
     },
     {
       "path": "shogi/pdf/shogi-variant-library.pdf",
       "family": "shogi",
       "type": "library",
-      "pages": 106
+      "pages": 112
     },
     {
       "path": "shogi/pdf/variants/annan-shogi.pdf",
@@ -3394,7 +3394,7 @@
       "path": "shogi/pdf/variants/dai-shogi.pdf",
       "family": "shogi",
       "type": "variant",
-      "pages": 4
+      "pages": 6
     },
     {
       "path": "shogi/pdf/variants/dobutsu.pdf",
@@ -3448,7 +3448,7 @@
       "path": "shogi/pdf/variants/maka-dai-dai-shogi.pdf",
       "family": "shogi",
       "type": "variant",
-      "pages": 6
+      "pages": 7
     },
     {
       "path": "shogi/pdf/variants/minishogi.pdf",
@@ -3496,7 +3496,7 @@
       "path": "shogi/pdf/variants/tenjiku-shogi.pdf",
       "family": "shogi",
       "type": "variant",
-      "pages": 4
+      "pages": 6
     },
     {
       "path": "shogi/pdf/variants/tori-shogi.pdf",
