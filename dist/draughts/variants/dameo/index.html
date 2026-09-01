@@ -54,7 +54,7 @@
 <div class="section">
 
 <h2 id="dameo">Dameo</h2>
-<p>Invented by Christian Freeling in 2000. Dameo introduces two innovations to the draughts family: the phalanx, which lets a line of friendly pieces slide forward together as a unit, and a purely orthogonal capture system where all jumps go along ranks and files, never diagonally. The result is a game that rewards formation-building over the individual-piece tactics of most draughts variants.</p>
+<p>Christian Freeling’s 2000 redesign of draughts, built to remove the drawishness of the classical game. Two mechanics do the work: men move in <strong>phalanxes</strong>, so a wall of men can advance as a unit, and capture is <strong>orthogonal</strong> while movement is not.</p>
 <div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 368" width="368" height="368">
 <defs>
 <symbol id="piece-playstrategy-dameo-fabirovsky-bM" viewBox="0 0 100 100"><style><![CDATA[.B{fill-rule:evenodd}]]></style><defs><clipPath id="A"><path d="M0 0h100v100H0z"/></clipPath></defs><g clip-path="url(#A)"><circle vector-effect="non-scaling-stroke" cx="50" cy="50" r="40" fill="#191919"/><linearGradient id="B" x1="50" y1="25" x2="50" y2="74.923" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 25c-13.807 0-25 11.193-25 25s11.193 25 25 25 25-11.193 25-25-11.193-25-25-25zm0 5c11.046 0 20 8.954 20 20s-8.954 20-20 20-20-8.954-20-20 8.954-20 20-20z" fill="url(#B)" class="B"/><linearGradient id="C" x1="50" y1="70.078" x2="50" y2="30" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 30c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 5c8.284 0 15 6.716 15 15s-6.716 15-15 15-15-6.716-15-15 6.716-15 15-15z" fill="url(#C)" class="B"/><linearGradient id="D" x1="50" y1="60.303" x2="50" y2="40" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 40a10 10 0 1 0 0 20 10 10 0 1 0 0-20h0zm0 5a5 5 0 1 1 0 10 5 5 0 1 1 0-10h0z" fill="url(#D)" class="B"/><linearGradient id="E" x1="50" y1="10" x2="49.735" y2="90" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 10c-10.61 0-20.783 4.214-28.284 11.716S10 39.39 10 50s4.214 20.783 11.716 28.284S39.39 90 50 90s20.783-4.214 28.284-11.716S90 60.61 90 50s-4.214-20.783-11.716-28.284S60.61 10 50 10h0zm0 5c19.33 0 35 15.67 35 35S69.33 85 50 85 15 69.33 15 50s15.67-35 35-35z" fill="url(#E)" class="B"/><linearGradient id="F" x1="50" y1="84.77" x2="50" y2="15" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 15c-19.33 0-35 15.67-35 35s15.67 35 35 35 35-15.67 35-35-15.67-35-35-35zm0 10c6.63 0 12.99 2.634 17.678 7.322S75 43.37 75 50s-2.634 12.99-7.322 17.678S56.63 75 50 75s-12.99-2.634-17.678-7.322S25 56.63 25 50s2.634-12.99 7.322-17.678S43.37 25 50 25h0z" fill="url(#F)" class="B"/><linearGradient id="G" x1="50" y1="44.933" x2="50" y2="53.754" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><circle vector-effect="non-scaling-stroke" cx="50" cy="50" r="5" fill="url(#G)"/><linearGradient id="H" x1="50" y1="35" x2="50" y2="64.594" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 35a15 15 0 0 0-15 15 15 15 0 0 0 15 15 15 15 0 0 0 15-15 15 15 0 0 0-15-15h0zm0 5a10 10 0 1 1 0 20 10 10 0 1 1 0-20h0z" fill="url(#H)" class="B"/></g></symbol>
@@ -66,46 +66,28 @@
 </svg>
 <p class="diagram-caption">Dameo — starting position</p></div>
 <h3 id="setup">Setup</h3>
-<p><strong>Board:</strong> 8×8 board. Unlike most draughts variants, Dameo is played on <strong>all 64 squares</strong>, not just the dark ones.</p>
-<p><strong>Pieces:</strong> 18 men per player, arranged in a trapezoidal formation:</p>
-<ul class="rules">
-<li><strong>Row 1 (closest row):</strong> all 8 squares occupied</li>
-<li><strong>Row 2:</strong> the 6 inner squares occupied (b2–g2)</li>
-<li><strong>Row 3:</strong> the 4 innermost squares occupied (c3–f3)</li>
-</ul>
-<p>White occupies rows 1–3. Black occupies rows 6–8 (mirror image).</p>
-<p><strong>First move:</strong> White moves first.</p>
-<h3 id="rules">Rules</h3>
-<p><strong>Men movement:</strong></p>
-<p>Men move <strong>forward only</strong>, either straight ahead (orthogonally) or diagonally forward. They cannot move sideways or backward.</p>
-<p>In addition to single-step moves, a man may perform a <strong>linear move</strong>: if one or more friendly men are lined up directly behind it in a straight line (along a rank, file, or diagonal), the entire line slides forward by one square, provided the square at the front of the line is empty. A man cannot use a linear move to push into an occupied square.</p>
-<p><strong>King movement:</strong></p>
-<p>Kings move like queens in chess: any number of squares in any of the eight directions (orthogonal or diagonal), as long as the path is clear.</p>
+<p>8×8 board, <strong>all 64 squares in play</strong>. Eighteen men per side in a trapezoid: the full back row a1–h1, six men on b2–g2, four on c3–f3.</p>
+<h3 id="movement">Movement</h3>
+<p><strong>A single man</strong> moves one square forward — straight ahead or diagonally forward. Never sideways, never backwards.</p>
+<p><strong>A line of men</strong> moves as one. A straight unbroken line of men of the same colour may slide <strong>one square forward along the axis it occupies</strong>, provided the square in front of the head of the line is vacant.</p>
+<p>The net effect on the board is easier to see than the description: the <strong>rearmost man of the line relocates to the empty square just beyond the head</strong>. Wikipedia describes the same rule the other way round — a man jumping over one or more adjacent friendly men in a straight line — and the two produce identical positions.</p>
+<p>Because the move must be both along the line’s own axis and forward, a <strong>horizontal</strong> line cannot make a linear move.</p>
+<p><strong>A king</strong> moves like a chess queen: any distance, any of the eight directions, unobstructed.</p>
 <h3 id="capture">Capture</h3>
-<p><strong>All captures in Dameo are orthogonal only</strong>, along ranks and files, never diagonally.</p>
+<p>Capture is compulsory, and it is <strong>orthogonal for everything</strong>.</p>
 <ul class="rules">
-<li>A man (or king) captures an adjacent opponent piece by jumping over it to the empty square directly beyond, along a rank or file.</li>
-<li>Kings capture from any distance: the king jumps over a single opponent piece that lies any number of empty squares away along a rank or file, landing on any empty square beyond the captured piece on the same line.</li>
-<li><strong>Mandatory capture:</strong> If a capture is available, it must be taken.</li>
-<li><strong>Majority rule:</strong> When multiple capture sequences are available, the piece that can make the maximum number of captures must be used, and the longest sequence must be completed.</li>
-<li><strong>Delayed removal:</strong> Captured pieces are removed at the <strong>end of the entire multi-capture sequence</strong>, not after each individual jump. A piece that has been jumped but not yet removed still physically blocks the line and cannot be jumped again in the same sequence.</li>
+<li><strong>A man captures</strong> an adjacent enemy piece forwards, backwards or sideways, jumping to the empty square directly beyond. <strong>Not diagonally.</strong></li>
+<li><strong>A king captures rookwise</strong> — along a rank or file only, at any distance, jumping a single enemy piece to any empty square beyond.</li>
 </ul>
-<h3 id="king-promotion">King Promotion</h3>
-<p>When a man reaches the opponent’s back row (row 8 for White, row 1 for Black), it is promoted to a king at the end of its turn.</p>
-<ul class="rules">
-<li>If a man reaches the back row during a multi-capture sequence without stopping there, it is not promoted until it ends its turn on the back row.</li>
-</ul>
+<p>So men move diagonally but cannot capture diagonally, and kings move queenwise but capture rookwise. This inversion is the most commonly mis-implemented part of the game.</p>
+<p><strong>Majority capture takes precedence:</strong> where a player has a choice of captures, the one taking the largest number of pieces must be played. Unlike Frisian Draughts, this is a <strong>plain count</strong> — kings and men are worth the same.</p>
+<p><strong>Captured pieces are removed at the end of the turn</strong>, not during the sequence. During a multi-jump they remain on the board.</p>
+<h3 id="promotion">Promotion</h3>
+<p>A man reaching the opponent’s back row is crowned king.</p>
 <h3 id="winning">Winning</h3>
-<p>A player wins when their opponent has no legal move: either all pieces have been captured, or all remaining pieces are blocked.</p>
-<h3 id="draws">Draws</h3>
-<p>The game is drawn when:</p>
-<ul class="rules">
-<li>Both players agree.</li>
-<li>The same position occurs three times with the same player to move (not necessarily consecutive).</li>
-<li>Neither player can force a win.</li>
-</ul>
+<p>A player with no legal move loses — whether through having no pieces left, or through every piece being blocked.</p>
 <h3 id="attribution">Attribution</h3>
-<p>Dameo. Invented by Christian Freeling (2000). Rules in the public domain; game rules are not subject to copyright. Source: Wikipedia — Dameo article (CC-BY-SA 4.0).</p>
+<p>Christian Freeling, 2000. Rules published at mindsports.nl by the inventor.</p>
 
 </div>
 </main>
@@ -117,12 +99,12 @@
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.1</span>
+  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.3</span>
 </footer>
 
 </div>
 
-<script defer src="../../../../js/toc.js?v=1.4.1"></script>
+<script defer src="../../../../js/toc.js?v=1.4.3"></script>
 <script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

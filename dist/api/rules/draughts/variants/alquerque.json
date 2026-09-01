@@ -5,7 +5,7 @@
   "players": "2",
   "board": "5×5",
   "win": "Capture or block all opponent pieces",
-  "special": "The common ancestor. Movement along lines (orthogonal and diagonal). No promotion.",
+  "special": "A 25-point line board where not every point carries diagonals. Movement and capture both run along the drawn lines, so this is a graph, not a grid. There is no authoritative historical ruleset: the 13th-century source gives no rules.",
   "playable": false,
   "order": 6,
   "designer": null,

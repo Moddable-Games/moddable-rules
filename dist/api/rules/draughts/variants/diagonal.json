@@ -6,7 +6,7 @@
   "board": "10×10",
   "win": "Capture or block all opponent pieces",
   "special": "Pieces start along the diagonal. The long diagonal of the board is empty at setup.",
-  "playable": false,
+  "playable": true,
   "order": 17,
   "designer": null,
   "category": null,

@@ -1,38 +1,50 @@
 ## Lasca
 
-Emanuel Lasker's 1911 column checkers. Captured pieces stack beneath the captor instead of leaving the board. All 22 pieces stay in play for the entire game. Ownership shifts as columns change hands.
+Emanuel Lasker's column game, published in 1911 and named after him. He took draughts, shrank the board to 7×7, and made captures imprison rather than remove — so material is never destroyed, only buried.
 
 {{svg:lasca-board.svg "Lasca — starting position"}}
 
 ### Setup
 
-**Board:** 7x7 board using only the 25 diagonal squares (like draughts).
+7×7 board, play on 25 of the 49 squares. Eleven pieces per player on the three rows nearest them; the middle row is empty.
 
-**Pieces:** Each player starts with 11 pieces. White occupies all 11 squares on rows 1, 2, and 3. Black occupies all 11 squares on rows 5, 6, and 7. The three middle-row squares (row 4) start empty.
+Pieces are **soldiers** until they reach the far rank, when they become **officers**.
 
-**First move:** White moves first.
+### Columns
 
-### Rules
+Identical in structure to Bashni:
 
-- **Soldiers:** Unpromoted pieces (soldiers) move and capture diagonally forward only, one square at a time.
-- **Officers:** When a soldier reaches the opponent's back row, it is promoted to an officer. Officers move and capture diagonally in any direction, one square at a time.
-- **Column formation:** When a piece jumps an opponent's piece, the captured piece is placed underneath the capturing piece, forming a column. A column is controlled by the player whose piece is on top.
-- **Column movement:** A column moves according to its top piece's rank: a soldier-led column moves forward only; an officer-led column moves in any direction.
-- **Capturing a column:** When you jump over a column, you take only the top piece. That top piece goes under your jumping piece or column. The remaining column stays in place, now controlled by whatever piece is next from the top. Capturing an opponent's column can liberate your own buried pieces.
-- **Multi-jump:** Multi-jumps are mandatory if available. If multiple capture sequences exist, the player has free choice (no majority rule). A piece may not jump the same column twice in one sequence.
-- **Promotion during multi-jump:** If a soldier reaches the back row during a multi-jump, the sequence ends there and the soldier is promoted. If an officer-led column passes through the promotion row, the sequence continues.
-- **The 22-piece invariant:** Pieces are never removed from the game. All 22 pieces remain on the board at all times, either individually or stacked within columns.
-- **Officer retention:** Officers retain their rank permanently, even when buried inside a column. When liberated, they immediately function as officers again.
-- **Mandatory capture:** Capturing is compulsory. If a capture is available, it must be taken.
+- **A column is controlled by the player whose piece is on top**, and moves according to that piece.
+- **A captured piece is placed below the capturing column**, at the bottom.
+- **Only the top piece of a captured column is taken.** What remains stays on the square, under new command.
+- **In a multiple capture, prisoners are placed at the bottom in the order taken.**
 
-### Win Condition
+### Where Lasca differs from Bashni
 
-A player wins when their opponent cannot make any legal move: either all opponent pieces are buried inside columns controlled by the other player, or all opponent-controlled pieces are blocked.
+Both games stack identically. Everything else differs, because Lasca is built on English Draughts and Bashni on Russian:
 
-### Strategy
+| | Lasca | Bashni |
+|---|---|---|
+| Board | 7×7, 25 squares | 8×8, 32 squares |
+| Pieces per side | 11 | 12 |
+| Soldiers capture backwards | **No** | Yes |
+| Kings fly | **No** — officers step one square | Yes |
+| Promotion mid-capture | **Ends the turn** | Continues (see Bashni) |
 
-Because pieces are never eliminated, the game is about control rather than attrition. Building tall columns creates power but also concentrates risk. Liberating buried officers can swing the game dramatically.
+A column whose top piece is a soldier cannot capture backwards, so a player whose top man is taken cannot immediately take back — unless the piece uncovered beneath is an officer.
+
+### Capture
+
+Compulsory. If a further capture is available with the same piece after one is made, it must also be taken — except where promotion has ended the turn.
+
+### Promotion
+
+A soldier reaching the last row is crowned officer, and **the move ends there**, even if more captures appear to be available. Only the top piece of a column is crowned.
+
+### Winning
+
+A player wins when the opponent has no legal move, has no pieces left in play, or resigns.
 
 ### Attribution
 
-Invented by Emanuel Lasker (World Chess Champion), 1911. Public domain. Source: Wikipedia + Lasker 1911 (CC-BY-SA).
+Emanuel Lasker, 1911. Derived from Bashni. Public domain.

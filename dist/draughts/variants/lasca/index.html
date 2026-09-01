@@ -54,7 +54,7 @@
 <div class="section">
 
 <h2 id="lasca">Lasca</h2>
-<p>Emanuel Lasker’s 1911 column checkers. Captured pieces stack beneath the captor instead of leaving the board. All 22 pieces stay in play for the entire game. Ownership shifts as columns change hands.</p>
+<p>Emanuel Lasker’s column game, published in 1911 and named after him. He took draughts, shrank the board to 7×7, and made captures imprison rather than remove — so material is never destroyed, only buried.</p>
 <div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 328" width="328" height="328">
 <defs>
 <symbol id="piece-playstrategy-dameo-fabirovsky-bM" viewBox="0 0 100 100"><style><![CDATA[.B{fill-rule:evenodd}]]></style><defs><clipPath id="A"><path d="M0 0h100v100H0z"/></clipPath></defs><g clip-path="url(#A)"><circle vector-effect="non-scaling-stroke" cx="50" cy="50" r="40" fill="#191919"/><linearGradient id="B" x1="50" y1="25" x2="50" y2="74.923" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 25c-13.807 0-25 11.193-25 25s11.193 25 25 25 25-11.193 25-25-11.193-25-25-25zm0 5c11.046 0 20 8.954 20 20s-8.954 20-20 20-20-8.954-20-20 8.954-20 20-20z" fill="url(#B)" class="B"/><linearGradient id="C" x1="50" y1="70.078" x2="50" y2="30" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 30c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 5c8.284 0 15 6.716 15 15s-6.716 15-15 15-15-6.716-15-15 6.716-15 15-15z" fill="url(#C)" class="B"/><linearGradient id="D" x1="50" y1="60.303" x2="50" y2="40" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 40a10 10 0 1 0 0 20 10 10 0 1 0 0-20h0zm0 5a5 5 0 1 1 0 10 5 5 0 1 1 0-10h0z" fill="url(#D)" class="B"/><linearGradient id="E" x1="50" y1="10" x2="49.735" y2="90" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 10c-10.61 0-20.783 4.214-28.284 11.716S10 39.39 10 50s4.214 20.783 11.716 28.284S39.39 90 50 90s20.783-4.214 28.284-11.716S90 60.61 90 50s-4.214-20.783-11.716-28.284S60.61 10 50 10h0zm0 5c19.33 0 35 15.67 35 35S69.33 85 50 85 15 69.33 15 50s15.67-35 35-35z" fill="url(#E)" class="B"/><linearGradient id="F" x1="50" y1="84.77" x2="50" y2="15" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 15c-19.33 0-35 15.67-35 35s15.67 35 35 35 35-15.67 35-35-15.67-35-35-35zm0 10c6.63 0 12.99 2.634 17.678 7.322S75 43.37 75 50s-2.634 12.99-7.322 17.678S56.63 75 50 75s-12.99-2.634-17.678-7.322S25 56.63 25 50s2.634-12.99 7.322-17.678S43.37 25 50 25h0z" fill="url(#F)" class="B"/><linearGradient id="G" x1="50" y1="44.933" x2="50" y2="53.754" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><circle vector-effect="non-scaling-stroke" cx="50" cy="50" r="5" fill="url(#G)"/><linearGradient id="H" x1="50" y1="35" x2="50" y2="64.594" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 35a15 15 0 0 0-15 15 15 15 0 0 0 15 15 15 15 0 0 0 15-15 15 15 0 0 0-15-15h0zm0 5a10 10 0 1 1 0 20 10 10 0 1 1 0-20h0z" fill="url(#H)" class="B"/></g></symbol>
@@ -66,28 +66,63 @@
 </svg>
 <p class="diagram-caption">Lasca — starting position</p></div>
 <h3 id="setup">Setup</h3>
-<p><strong>Board:</strong> 7x7 board using only the 25 diagonal squares (like draughts).</p>
-<p><strong>Pieces:</strong> Each player starts with 11 pieces. White occupies all 11 squares on rows 1, 2, and 3. Black occupies all 11 squares on rows 5, 6, and 7. The three middle-row squares (row 4) start empty.</p>
-<p><strong>First move:</strong> White moves first.</p>
-<h3 id="rules">Rules</h3>
+<p>7×7 board, play on 25 of the 49 squares. Eleven pieces per player on the three rows nearest them; the middle row is empty.</p>
+<p>Pieces are <strong>soldiers</strong> until they reach the far rank, when they become <strong>officers</strong>.</p>
+<h3 id="columns">Columns</h3>
+<p>Identical in structure to Bashni:</p>
 <ul class="rules">
-<li><strong>Soldiers:</strong> Unpromoted pieces (soldiers) move and capture diagonally forward only, one square at a time.</li>
-<li><strong>Officers:</strong> When a soldier reaches the opponent’s back row, it is promoted to an officer. Officers move and capture diagonally in any direction, one square at a time.</li>
-<li><strong>Column formation:</strong> When a piece jumps an opponent’s piece, the captured piece is placed underneath the capturing piece, forming a column. A column is controlled by the player whose piece is on top.</li>
-<li><strong>Column movement:</strong> A column moves according to its top piece’s rank: a soldier-led column moves forward only; an officer-led column moves in any direction.</li>
-<li><strong>Capturing a column:</strong> When you jump over a column, you take only the top piece. That top piece goes under your jumping piece or column. The remaining column stays in place, now controlled by whatever piece is next from the top. Capturing an opponent’s column can liberate your own buried pieces.</li>
-<li><strong>Multi-jump:</strong> Multi-jumps are mandatory if available. If multiple capture sequences exist, the player has free choice (no majority rule). A piece may not jump the same column twice in one sequence.</li>
-<li><strong>Promotion during multi-jump:</strong> If a soldier reaches the back row during a multi-jump, the sequence ends there and the soldier is promoted. If an officer-led column passes through the promotion row, the sequence continues.</li>
-<li><strong>The 22-piece invariant:</strong> Pieces are never removed from the game. All 22 pieces remain on the board at all times, either individually or stacked within columns.</li>
-<li><strong>Officer retention:</strong> Officers retain their rank permanently, even when buried inside a column. When liberated, they immediately function as officers again.</li>
-<li><strong>Mandatory capture:</strong> Capturing is compulsory. If a capture is available, it must be taken.</li>
+<li><strong>A column is controlled by the player whose piece is on top</strong>, and moves according to that piece.</li>
+<li><strong>A captured piece is placed below the capturing column</strong>, at the bottom.</li>
+<li><strong>Only the top piece of a captured column is taken.</strong> What remains stays on the square, under new command.</li>
+<li><strong>In a multiple capture, prisoners are placed at the bottom in the order taken.</strong></li>
 </ul>
-<h3 id="win-condition">Win Condition</h3>
-<p>A player wins when their opponent cannot make any legal move: either all opponent pieces are buried inside columns controlled by the other player, or all opponent-controlled pieces are blocked.</p>
-<h3 id="strategy">Strategy</h3>
-<p>Because pieces are never eliminated, the game is about control rather than attrition. Building tall columns creates power but also concentrates risk. Liberating buried officers can swing the game dramatically.</p>
+<h3 id="where-lasca-differs-from-bashni">Where Lasca differs from Bashni</h3>
+<p>Both games stack identically. Everything else differs, because Lasca is built on English Draughts and Bashni on Russian:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th></th>
+<th>Lasca</th>
+<th>Bashni</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Board</td>
+<td>7×7, 25 squares</td>
+<td>8×8, 32 squares</td>
+</tr>
+<tr>
+<td>Pieces per side</td>
+<td>11</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Soldiers capture backwards</td>
+<td><strong>No</strong></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Kings fly</td>
+<td><strong>No</strong> — officers step one square</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Promotion mid-capture</td>
+<td><strong>Ends the turn</strong></td>
+<td>Continues (see Bashni)</td>
+</tr>
+</tbody>
+</table></div>
+<p>A column whose top piece is a soldier cannot capture backwards, so a player whose top man is taken cannot immediately take back — unless the piece uncovered beneath is an officer.</p>
+<h3 id="capture">Capture</h3>
+<p>Compulsory. If a further capture is available with the same piece after one is made, it must also be taken — except where promotion has ended the turn.</p>
+<h3 id="promotion">Promotion</h3>
+<p>A soldier reaching the last row is crowned officer, and <strong>the move ends there</strong>, even if more captures appear to be available. Only the top piece of a column is crowned.</p>
+<h3 id="winning">Winning</h3>
+<p>A player wins when the opponent has no legal move, has no pieces left in play, or resigns.</p>
 <h3 id="attribution">Attribution</h3>
-<p>Invented by Emanuel Lasker (World Chess Champion), 1911. Public domain. Source: Wikipedia + Lasker 1911 (CC-BY-SA).</p>
+<p>Emanuel Lasker, 1911. Derived from Bashni. Public domain.</p>
 
 </div>
 </main>
@@ -99,12 +134,12 @@
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.1</span>
+  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.3</span>
 </footer>
 
 </div>
 
-<script defer src="../../../../js/toc.js?v=1.4.1"></script>
+<script defer src="../../../../js/toc.js?v=1.4.3"></script>
 <script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

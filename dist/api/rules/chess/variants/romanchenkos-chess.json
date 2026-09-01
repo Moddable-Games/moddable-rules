@@ -6,7 +6,7 @@
   "board": "Modified 8×8 (broken columns)",
   "win": "Checkmate",
   "special": "Standard FIDE chess pieces and rules on a board with 'broken columns' — certain file columns are displaced or interrupted at specific ranks, breaking the standard 8×8 grid alignment and preventing rote pattern memorization. Designed by Soviet chess trainer V. Romanchenko as a pedagogical tool: players must reason from first principles rather than imitate memorized openings. Jocly implementation on chessvariants.com.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -86,7 +86,7 @@
       "white",
       "black"
     ],
-    "setup": "rnbqkbnr2/pppppppp2/10/10/10/10/2PPPPPPPP/2RNBQKBNR",
+    "setup": "2rnbqkbnr/2pppppppp/10/10/10/10/PPPPPPPP2/RNBQKBNR2",
     "render": {
       "zones": {
         "voids": [

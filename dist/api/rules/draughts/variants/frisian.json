@@ -5,7 +5,7 @@
   "players": "2",
   "board": "10×10",
   "win": "Capture or block all opponent pieces",
-  "special": "Captures in all 8 directions. 3-move king limit. King preference on equal chains.",
+  "special": "Movement is diagonal only; capture is in all 8 directions. Maximal capture is weighted, not counted: a king is worth more than a man but less than two men. A king may make at most 3 consecutive non-capturing moves while its owner still has a man.",
   "playable": false,
   "order": 4,
   "designer": null,

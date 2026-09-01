@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-09-01",
   "families": {
     "agon": {
       "title": "Agon",
@@ -342,7 +342,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 154,
-        "playable": 135,
+        "playable": 138,
         "withDiagram": 154,
         "topologies": [
           "grid",
@@ -531,7 +531,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 20,
-        "playable": 13,
+        "playable": 15,
         "withDiagram": 20,
         "topologies": [
           "grid"
@@ -571,16 +571,7 @@
         "players": [
           "white",
           "black"
-        ],
-        "unsupported": {
-          "bashni": "column stacking: captured pieces are carried beneath the capturer rather than removed",
-          "lasca": "column stacking on a 7×7 board",
-          "dameo": "linear movement of whole rows of pieces",
-          "alquerque": "5×5 point-and-line board rather than a square grid",
-          "frisian": "mixed orthogonal and diagonal capture with a three-move king limit",
-          "thai": "flying kings constrained to stop immediately behind the captured piece",
-          "diagonal": "pieces set up along the anti-diagonal rather than in ranks"
-        }
+        ]
       }
     },
     "dungeon-chess": {
@@ -2601,7 +2592,7 @@
   "stats": {
     "totalFamilies": 46,
     "totalVariants": 296,
-    "totalPlayable": 198,
+    "totalPlayable": 203,
     "totalDiagrams": 346,
     "topologies": {
       "hex": 23,

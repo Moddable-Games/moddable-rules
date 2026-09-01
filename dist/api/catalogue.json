@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-09-01",
   "stats": {
     "totalGames": 46,
     "totalVariants": 296,
@@ -1068,7 +1068,7 @@
           "players": "2",
           "board": "38 squares (unusual shape)",
           "win": "Bare King loses",
-          "special": "Chess variant on a 38-square board with an unusual shape. 'Bare king loses' — a player whose King is the only piece remaining loses immediately, regardless of whether they are in check. No initial double Pawn moves. Companion to Crazy 38's (both are 38-square chess variants by John William Brown). Acclaimed 38-square variant; Java applet implementation by Ed Friedlander on chessvariants.com. Created 1999."
+          "special": "Chess variant on a 38-square board with an unusual shape, created by John William Brown, author of Meta-Chess, as an entry in Hans Bodlaender's 38-challenge (chessvariants.com/38.dir/flip.html, page created 1998-01-05). The mechanic it is named for: a non-King piece may transform into the corresponding piece of the other side at the end of its move. Pawns promote to Princes on the final rank, not Queens. 'Bare king loses' - a player whose King is the only piece remaining loses immediately, whether or not they are in check. A companion Flip Shogi adds drops of captured pieces."
         },
         {
           "slug": "fog-of-war",
@@ -1356,7 +1356,7 @@
           "players": "2",
           "board": "8×14 Möbius strip",
           "win": "Checkmate",
-          "special": "Chess on a Möbius strip: an 8x14 board (double-height Cylindrical Chess) where files a and h wrap normally, and the rank-11/12 seam joins with a half-twist that mirrors file position. Each side has 16 pawns across two ranks, advancing from both ends of the strip toward the middle and toward the twisted seam. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound. Invented by Alberto Monteiro."
+          "special": "Chess on a Möbius strip: an 8x14 board (double-height Cylindrical Chess) where the a and h files are ordinary board edges, and the rank-11/12 seam is the single join, made with a half-twist that mirrors file position: chessvariants.com/shape.dir/x_moeb.html states that 'a11 would join h12, b11 would join g12, and so on'. A Moebius strip has one boundary, which is what distinguishes it from Klein Bottle Chess, where the files ARE joined. Each side has 16 pawns across two ranks, advancing from both ends of the strip toward the middle and toward the twisted seam. Kings face the opponent's Queen, not the opponent's King. Bishops are not colour-bound. Invented by Alberto Monteiro."
         },
         {
           "slug": "monster-chess",
@@ -2006,15 +2006,15 @@
           "players": "2",
           "board": "10×10",
           "win": "Capture or block all opponent pieces",
-          "special": "Captures in all 8 directions. 3-move king limit. King preference on equal chains."
+          "special": "Movement is diagonal only; capture is in all 8 directions. Maximal capture is weighted, not counted: a king is worth more than a man but less than two men. A king may make at most 3 consecutive non-capturing moves while its owner still has a man."
         },
         {
           "slug": "lasca",
           "title": "Lasca",
           "players": "2",
           "board": "7×7",
-          "win": "Block or bury all opponent pieces",
-          "special": "Column stacking. Captured pieces go underneath the captor. All 22 pieces stay in play forever."
+          "win": "Leave the opponent with no legal move",
+          "special": "Emanuel Lasker's column game. Same stacking as Bashni but built on ENGLISH draughts: soldiers do not capture backwards, officers do not fly, and promotion ends the turn."
         },
         {
           "slug": "alquerque",
@@ -2022,7 +2022,7 @@
           "players": "2",
           "board": "5×5",
           "win": "Capture or block all opponent pieces",
-          "special": "The common ancestor. Movement along lines (orthogonal and diagonal). No promotion."
+          "special": "A 25-point line board where not every point carries diagonals. Movement and capture both run along the drawn lines, so this is a graph, not a grid. There is no authoritative historical ruleset: the 13th-century source gives no rules."
         },
         {
           "slug": "russian",
@@ -2093,8 +2093,8 @@
           "title": "Bashni",
           "players": "2",
           "board": "8×8",
-          "win": "Capture or block all opponent commanders",
-          "special": "Column stacking on 8×8. Russian movement rules. Captured pieces form towers. Predecessor to Lasca."
+          "win": "Leave the opponent with no legal move",
+          "special": "Russian Draughts with towers. A captured piece is not removed: it goes to the BOTTOM of the capturing column. Only the top piece of a column is ever captured, and whoever is on top owns and commands the column."
         },
         {
           "slug": "dameo",
@@ -2102,7 +2102,7 @@
           "players": "2",
           "board": "8×8",
           "win": "Opponent has no legal move",
-          "special": "Phalanx movement: lines of men slide together. Orthogonal captures only. 18 pieces per side."
+          "special": "Phalanx movement: an unbroken line of men slides one square forward along its own axis. Men move diagonally and orthogonally forward but capture ORTHOGONALLY ONLY; kings move queenwise but capture rookwise. 18 pieces per side on all 64 squares."
         },
         {
           "slug": "diagonal",

@@ -222,6 +222,16 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-01
+- New `verified:` frontmatter key recording date, sources, decisions and what remains unverified, because nothing in the corpus distinguished "checked against a source" from "written from memory"
+- Draughts: alquerque, bashni, dameo, frisian and lasca rewritten from named sources
+- frisian carried a rule that produces the wrong game: Frisian weighs captures rather than counting them, and the federation's scale is non-linear above one king (2n - 1/2). Wikipedia and playstrategy disagree with it and with each other; the federation is followed and the conflict recorded
+- dameo kings move queenwise but capture rookwise, which Wikipedia does not state, so a Wikipedia-only reading builds it backwards
+- alquerque has no authoritative ruleset: the 1283 source shows the board and gives no rules. Compulsory capture and the huff are adopted as a Moddable decision; Bell's reconstruction rules are explicitly not
+- Shogi: twelve variants carry sourced reasons, with three hard blockers named: wa-shogi's movements exist only as diagram images, mortal-shogi's demotion chain is unverified and the circulating one belongs to a different variant, and hex-shogi-91 is Duniho's 91-cell game, not Wikipedia's 85-cell Hexshogi
+- taikyoku-shogi has no complete published rules, so promotion is configurable rather than chosen
+- Unsupported reasons moved out of the rulebooks' shared blocks into the variants they describe
+
 #### 2026-08-31
 - thai declares `kingLandsBehindCapture`, the rule the variant exists for: its king flies to reach a capture but rests on the square immediately beyond it (refs engine#161)
 - diagonal was a stale unplayable entry, not a gap: its anti-diagonal setup was already declared and correct

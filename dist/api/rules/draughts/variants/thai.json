@@ -6,7 +6,7 @@
   "board": "8×8",
   "win": "Capture or block all opponent pieces",
   "special": "Only 8 pieces per side. Flying kings must stop immediately behind captured piece. Forward-only men.",
-  "playable": false,
+  "playable": true,
   "order": 14,
   "designer": null,
   "category": null,
@@ -20,7 +20,13 @@
       "white",
       "black"
     ],
-    "setup": "b1b1b1b1/1b1b1b1b/8/8/8/8/w1w1w1w1/1w1w1w1w"
+    "setup": "b1b1b1b1/1b1b1b1b/8/8/8/8/w1w1w1w1/1w1w1w1w",
+    "plugins": {
+      "draughts": {
+        "flyingKings": true,
+        "kingLandsBehindCapture": true
+      }
+    }
   },
   "diagram": {
     "svg": "games/draughts/diagrams/svg/thai-board.svg",

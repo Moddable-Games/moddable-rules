@@ -20,7 +20,7 @@
       "white",
       "black"
     ],
-    "setup": "chlwklic/pppppppp/8/8/8/8/PPPPPPPP/CILWKLHC",
+    "setup": "clhwkhli/pppppppp/8/8/8/8/PPPPPPPP/ILHKWHLC",
     "vocabulary": {
       "coordinator": {
         "symbols": {
@@ -79,7 +79,7 @@
           },
           "pawn": {
             "type": "rider",
-            "dirs": "all"
+            "dirs": "orthogonal"
           }
         }
       }

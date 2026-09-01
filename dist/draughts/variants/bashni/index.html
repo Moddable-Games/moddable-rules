@@ -54,7 +54,7 @@
 <div class="section">
 
 <h2 id="bashni">Bashni</h2>
-<p>Russian column draughts, the predecessor to Lasca. Captured pieces stack beneath the captor instead of leaving the board. Uses Russian Draughts movement rules (men capture backwards, mid-jump promotion) on a standard 8×8 board with 12 pieces per side. The name means “towers” in Russian.</p>
+<p>Russian Draughts played with towers. Nothing is ever taken off the board: a captured piece is imprisoned beneath the piece that took it, and can be freed again if the jailer is itself captured. Bashni (башни, “towers”) is the predecessor of Lasca.</p>
 <div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 368" width="368" height="368">
 <defs>
 <symbol id="piece-playstrategy-dameo-fabirovsky-bM" viewBox="0 0 100 100"><style><![CDATA[.B{fill-rule:evenodd}]]></style><defs><clipPath id="A"><path d="M0 0h100v100H0z"/></clipPath></defs><g clip-path="url(#A)"><circle vector-effect="non-scaling-stroke" cx="50" cy="50" r="40" fill="#191919"/><linearGradient id="B" x1="50" y1="25" x2="50" y2="74.923" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 25c-13.807 0-25 11.193-25 25s11.193 25 25 25 25-11.193 25-25-11.193-25-25-25zm0 5c11.046 0 20 8.954 20 20s-8.954 20-20 20-20-8.954-20-20 8.954-20 20-20z" fill="url(#B)" class="B"/><linearGradient id="C" x1="50" y1="70.078" x2="50" y2="30" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 30c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20zm0 5c8.284 0 15 6.716 15 15s-6.716 15-15 15-15-6.716-15-15 6.716-15 15-15z" fill="url(#C)" class="B"/><linearGradient id="D" x1="50" y1="60.303" x2="50" y2="40" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 40a10 10 0 1 0 0 20 10 10 0 1 0 0-20h0zm0 5a5 5 0 1 1 0 10 5 5 0 1 1 0-10h0z" fill="url(#D)" class="B"/><linearGradient id="E" x1="50" y1="10" x2="49.735" y2="90" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 10c-10.61 0-20.783 4.214-28.284 11.716S10 39.39 10 50s4.214 20.783 11.716 28.284S39.39 90 50 90s20.783-4.214 28.284-11.716S90 60.61 90 50s-4.214-20.783-11.716-28.284S60.61 10 50 10h0zm0 5c19.33 0 35 15.67 35 35S69.33 85 50 85 15 69.33 15 50s15.67-35 35-35z" fill="url(#E)" class="B"/><linearGradient id="F" x1="50" y1="84.77" x2="50" y2="15" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 15c-19.33 0-35 15.67-35 35s15.67 35 35 35 35-15.67 35-35-15.67-35-35-35zm0 10c6.63 0 12.99 2.634 17.678 7.322S75 43.37 75 50s-2.634 12.99-7.322 17.678S56.63 75 50 75s-12.99-2.634-17.678-7.322S25 56.63 25 50s2.634-12.99 7.322-17.678S43.37 25 50 25h0z" fill="url(#F)" class="B"/><linearGradient id="G" x1="50" y1="44.933" x2="50" y2="53.754" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><circle vector-effect="non-scaling-stroke" cx="50" cy="50" r="5" fill="url(#G)"/><linearGradient id="H" x1="50" y1="35" x2="50" y2="64.594" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity=".2" stop-color="#fff"/><stop offset="100%" stop-opacity=".098" stop-color="#000"/></linearGradient><path d="M50 35a15 15 0 0 0-15 15 15 15 0 0 0 15 15 15 15 0 0 0 15-15 15 15 0 0 0-15-15h0zm0 5a10 10 0 1 1 0 20 10 10 0 1 1 0-20h0z" fill="url(#H)" class="B"/></g></symbol>
@@ -66,33 +66,34 @@
 </svg>
 <p class="diagram-caption">Bashni — starting position</p></div>
 <h3 id="setup">Setup</h3>
-<p><strong>Board:</strong> 8×8 checkered board, dark squares only. Same as English/Russian Draughts.</p>
-<p><strong>Pieces:</strong> 12 men per player on dark squares of the three nearest rows.</p>
-<p><strong>First move:</strong> White moves first.</p>
-<h3 id="rules">Rules</h3>
+<p>Ordinary 64-square board, play on the dark squares. Twelve pieces per player on the three rows nearest them. White moves first.</p>
+<h3 id="columns">Columns</h3>
+<p>A <strong>column</strong> is a stack of one or more pieces on a single square.</p>
 <ul class="rules">
-<li><strong>Men movement:</strong> Men move diagonally forward only, one square at a time.</li>
-<li><strong>Men capture:</strong> Men capture by jumping diagonally over an adjacent opponent piece. Men can capture both forwards and backwards (Russian rules).</li>
-<li><strong>Column formation:</strong> When a piece jumps an opponent, the captured piece is placed underneath the capturing piece, forming a column (tower). A column is controlled by whoever’s piece is on top (the “commander”).</li>
-<li><strong>Column movement:</strong> A column moves as a single unit according to its commander: a man-led column moves forward only; a king-led column moves in any direction.</li>
-<li><strong>Capturing a column:</strong> When you jump a column, you take only the top piece (the commander). That piece goes under your jumping piece/column. The remaining stack stays in place, now controlled by the next piece down.</li>
-<li><strong>Liberating buried pieces:</strong> Capturing an opponent’s column can free your own buried pieces. When the enemy commander is taken, your piece (if next from top) regains control.</li>
-<li><strong>Mandatory capture:</strong> Captures are compulsory.</li>
-<li><strong>Free choice:</strong> No majority rule. Player freely chooses between available captures.</li>
-<li><strong>Mid-jump promotion:</strong> If a man (or man-led column) reaches the back row during a multi-jump, it is promoted immediately and continues as a king.</li>
-<li><strong>No re-jumping:</strong> A piece/column cannot be jumped twice in the same sequence.</li>
+<li><strong>The column belongs to the player whose piece is on top.</strong> Ownership changes the moment the top piece changes.</li>
+<li><strong>The column moves as its top piece moves</strong> — as a man if a man is on top, as a king if a king is on top.</li>
+<li><strong>A column always moves as one unit.</strong> The pieces beneath travel with it.</li>
 </ul>
-<h3 id="king-promotion">King Promotion</h3>
+<h3 id="movement">Movement</h3>
 <ul class="rules">
-<li><strong>Flying kings:</strong> Kings (and king-led columns) move any number of squares diagonally in any direction.</li>
-<li><strong>King capture:</strong> Kings jump at distance along diagonals, landing on any open square beyond.</li>
+<li>A man moves one square diagonally forward.</li>
+<li>A king moves diagonally, forwards or backwards, any distance across unoccupied squares. Kings fly.</li>
 </ul>
+<h3 id="capture">Capture</h3>
+<p>Capture is compulsory. Men capture both forwards and backwards; kings jump in both directions and may come to rest on any empty square beyond.</p>
+<p>The stacking rules are the whole game:</p>
+<ul class="rules">
+<li><strong>A captured piece is not removed.</strong> It is placed <strong>below the capturing column</strong>, at the bottom.</li>
+<li><strong>Only the topmost piece of a captured column is taken.</strong> The rest of that column stays where it is, and is now commanded by whoever has been uncovered.</li>
+<li><strong>In a multiple capture, prisoners are placed at the bottom in the order they were taken.</strong></li>
+</ul>
+<p>So a capture never reduces the number of pieces in play. It transfers one piece from the top of one column to the bottom of another, and may hand control of the remainder to the other player.</p>
+<h3 id="promotion">Promotion</h3>
+<p>A man that reaches the far rank is crowned — <strong>but only if it is the top piece of its column.</strong> Pieces buried in a column are not promoted by the column reaching the back rank.</p>
 <h3 id="winning">Winning</h3>
-<p>A player wins when their opponent controls no columns and has no individual pieces remaining (all are buried beneath the winner’s columns) or when all opponent-controlled pieces are blocked.</p>
-<h3 id="strategy">Strategy</h3>
-<p>Unlike standard draughts where captured material is permanently lost, in Bashni every capture creates a potential future liability. Tall towers are powerful but a single capture strips the commander and potentially frees multiple enemy pieces at once. The decision between building tall columns (concentrated power) versus maintaining multiple independent pieces (distributed control) is the central strategic tension.</p>
+<p>A player with no legal move loses. Because pieces are never removed, this is reached by burial and blockade rather than by elimination.</p>
 <h3 id="attribution">Attribution</h3>
-<p>Traditional Russian variant. Public domain. Pre-dates Lasca (1911). Source: Wikipedia (CC-BY-SA).</p>
+<p>Traditional Russian variant, public domain. Ancestor of Emanuel Lasker’s Lasca.</p>
 
 </div>
 </main>
@@ -104,12 +105,12 @@
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.1</span>
+  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.3</span>
 </footer>
 
 </div>
 
-<script defer src="../../../../js/toc.js?v=1.4.1"></script>
+<script defer src="../../../../js/toc.js?v=1.4.3"></script>
 <script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

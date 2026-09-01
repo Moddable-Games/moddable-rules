@@ -54,7 +54,8 @@
 <div class="section">
 
 <h2 id="alquerque">Alquerque</h2>
-<p>The common ancestor of all draughts variants. First documented by Abu al-Faraj al-Isfahani in the 10th century, with detailed rules recorded in Alfonso X’s Libro de los Juegos (1283, Spain). Played on a 5×5 grid of intersecting lines rather than on squares, with movement along the connections.</p>
+<p>The common ancestor of the draughts family, recorded in Alfonso X’s <em>Libro de los Juegos</em> in 1283. It is the oldest game in this hub and the least certainly known: the medieval source shows the board and names the game but <strong>does not give the rules</strong>, most likely because they were common knowledge at the time.</p>
+<p>Everything below beyond “move along a line, capture by jumping” is modern reconstruction, and the sources disagree with one another. Where they do, the choice this project has made is recorded in the frontmatter rather than hidden in the prose.</p>
 <div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 288" width="288" height="288">
 <defs>
 <symbol id="piece-playstrategy-go-classic-bS" viewBox="0 0 114.66667 114.66667"><defs />
@@ -209,27 +210,27 @@ kKxvz04VsK7LUojvX+mShAaoSeK9K1P/ZJT+eRKvdTJKRpANAFYgG6W5czi6oQ8fqoMY2dJFKt3K
 <text x="48" y="279.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">a</text><text x="96" y="279.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">b</text><text x="144" y="279.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">c</text><text x="192" y="279.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">d</text><text x="240" y="279.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">e</text><text x="12" y="52.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">5</text><text x="12" y="100.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">4</text><text x="12" y="148.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">3</text><text x="12" y="196.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">2</text><text x="12" y="244.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">1</text>
 </svg>
 <p class="diagram-caption">Alquerque — starting position</p></div>
+<h3 id="the-board">The board</h3>
+<p>Twenty-five points, and <strong>the lines matter more than the points</strong>. The board is drawn by:</p>
+<ol>
+<li>a 5×5 orthogonal grid,</li>
+<li>both long diagonals, corner to corner,</li>
+<li>four more diagonals joining the midpoints of the four sides.</li>
+</ol>
+<p>The result is that <strong>not every point has diagonal connections</strong>. Points alternate: some carry eight lines, some only four. A piece may move only along a line that is actually drawn, so this board is a <strong>graph</strong>, not a grid with a direction offset.</p>
 <h3 id="setup">Setup</h3>
-<p><strong>Board:</strong> 5×5 grid of 25 intersection points, connected by orthogonal lines (horizontal and vertical) and diagonal lines on alternating 2×2 squares. Not all points have diagonal connections: some intersections have 8 lines leading from them, others only 4.</p>
-<p><strong>Pieces:</strong> 12 per player (24 total on a 25-point board). Each player occupies their two nearest rows (10 pieces) plus the two points on their side of the middle row. The centre point starts empty.</p>
-<p><strong>First move:</strong> Players agree or draw lots.</p>
-<h3 id="rules">Rules</h3>
-<ul class="rules">
-<li><strong>Movement:</strong> Pieces move one point along any connected line (orthogonal or diagonal) to an adjacent empty point. Movement is allowed in any direction, including backwards.</li>
-<li><strong>Capture:</strong> A piece captures by jumping over an adjacent opponent piece along a connected line to the empty point directly beyond. The captured piece is removed.</li>
-<li><strong>Mandatory capture:</strong> Captures are compulsory. If a capture is available, it must be taken.</li>
-<li><strong>Multiple captures:</strong> If after a jump another capture is immediately available along any connected line, the piece must continue jumping. A multi-capture sequence must be completed in full.</li>
-<li><strong>No promotion:</strong> There is no king or officer rank. All pieces move identically throughout the game.</li>
-<li><strong>Line constraint:</strong> Movement and capture can only occur along lines drawn on the board. A diagonal move is only legal at intersections connected by a diagonal line.</li>
-</ul>
+<p>Twelve pieces each. Each player fills the two rows nearest them plus the two rightmost points of the middle row, as that player looks at the board. <strong>The centre point is the only empty one</strong>, and the position has 180° rotational symmetry.</p>
+<h3 id="movement">Movement</h3>
+<p>A piece moves from its point to any empty adjacent point connected by a drawn line.</p>
+<h3 id="capture">Capture</h3>
+<p>A piece captures by jumping an adjacent enemy piece along a drawn line to the empty point directly beyond. <strong>Multiple jumps may be chained</strong>, and need not continue in the same direction.</p>
+<p><strong>Capture is compulsory.</strong> A player who fails to capture when able may have the offending piece removed by the opponent before the next move — the <strong>huff</strong>. <em>(See the frontmatter: this is the modern convention and a Moddable decision, not a historical fact.)</em></p>
+<h3 id="promotion">Promotion</h3>
+<p>None. There are no kings in Alquerque.</p>
 <h3 id="winning">Winning</h3>
-<p>A player wins when their opponent has no legal move: all pieces captured or all remaining pieces blocked.</p>
-<h3 id="historical-note">Historical Note</h3>
-<p>The rules above follow the Alfonso X source (1283). R.C. Bell’s widely cited modern reconstruction (1960s) adds restrictions: no backward movement for men, and no revisiting a previously occupied point in the same turn. Both versions are historically attested. The unrestricted version better represents the original game from which draughts evolved.</p>
-<h3 id="strategy">Strategy</h3>
-<p>With no promotion and symmetric piece capabilities, position is everything. The centre point controls the most lines and is the strongest position on the board. Force your opponent into corners where their pieces have fewer connections and fewer escape routes.</p>
+<p>A player wins by capturing all the opponent’s pieces, or by leaving the opponent unable to move.</p>
 <h3 id="attribution">Attribution</h3>
-<p>Traditional game. Public domain. Documented in Libro de los Juegos (Alfonso X, 1283). Source: Wikipedia (CC-BY-SA), Murray’s A History of Board Games Other Than Chess (1952).</p>
+<p>Traditional, recorded in the <em>Libro de los Juegos</em> commissioned by Alfonso X of Castile, 1283. Public domain. The playable ruleset is a modern reconstruction, R. C. Bell’s being the best known.</p>
 
 </div>
 </main>
@@ -241,12 +242,12 @@ kKxvz04VsK7LUojvX+mShAaoSeK9K1P/ZJT+eRKvdTJKRpANAFYgG6W5czi6oQ8fqoMY2dJFKt3K
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.1</span>
+  <span class="ftr-copy">Draughts · Published by Moddable Games · v1.4.3</span>
 </footer>
 
 </div>
 
-<script defer src="../../../../js/toc.js?v=1.4.1"></script>
+<script defer src="../../../../js/toc.js?v=1.4.3"></script>
 <script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>
