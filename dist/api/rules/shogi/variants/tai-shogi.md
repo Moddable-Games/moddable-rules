@@ -37,14 +37,15 @@ Tai Shogi includes all pieces found in Maka-Dai-Dai Shogi (19×19) plus many add
 - **King** — royal; does not promote
 - **Crown Prince** (promoted Drunk Elephant) — royal once promoted
 
-Win: capture both the opponent's King and Crown Prince (or the King alone if the Drunk Elephant has not promoted).
+Win: capture the opponent's sole remaining Emperor or Prince. Because the Drunken Elephant also promotes to Prince, as many as three royal pieces may need capturing. While a player holds more than one royal there is no check obligation; royals are simply capturable.
 
 ### Promotion
 
-- Pieces promote upon entering the opponent's promotion zone (the opponent's ranks, approximately the last 10 ranks from their perspective)
+- There are **no promotion zones**. Promotion is compulsory, at the end of a piece's first capturing move
+- This needs a per-piece "has captured" flag persisting across turns, since the trigger is the piece's first capture rather than anything readable from the position
+- Promotion resolves at **end of turn**, not at the moment of capture. A Lion capturing twice makes both captures unpromoted and promotes once, afterwards. An engine promoting mid-move gets this wrong
 - No drops — captured pieces are permanently removed from play
 - Each piece has a fixed promoted form
-- Promotion on capture applies to contagious pieces (Teaching King, Buddhist Spirit)
 
 ### General Movement Categories
 
@@ -55,7 +56,7 @@ Pieces in Tai Shogi fall into these broad movement categories:
 - **Lion-power pieces:** take two moves per turn; may capture twice; may pass
 - **Lion Dog class:** up to 3 steps along any ray
 - **Ultra-powerful sliders:** can turn corners in their path (Hook Mover, Capricorn)
-- **Universal leaper** (Emperor): can jump to any square on the board
+- **Universal leaper** (Emperor): jumps to any empty square, may jump to and capture any non-royal piece anywhere, and may capture a royal only if that royal is unprotected. The `(U)` in the source is a page-local shorthand for this, not a Betza atom
 
 ### Historical Context
 

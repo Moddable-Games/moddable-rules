@@ -11,6 +11,12 @@ verified:
   method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
   sources:
     - "https://en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+  confidence: "Lower than the Dai and Tenjiku tables, and deliberately recorded as such. The raw wikitext was unreachable for this variant, so the piece table below came through a summarising fetcher already shown to return contradictory notation. Every field was extracted twice with independently worded prompts and only agreeing values kept. One arithmetic check passed and is the strongest evidence available: the 50 counts sum to 96, the article's own stated per-side total. Treat as good but unconfirmed, and re-verify against raw wikitext before building."
+  unverified:
+    - "Free wolf's movement. The article prints no notation for it. It must NOT be inferred from evil wolf plus free."
+    - "The starting position, which the article gives only as a diagram image."
+    - "ENGINE-CRITICAL. 'Pieces on the 4th, 5th, and 6th ranks which promote... promote to Gold' can mean either which piece TYPES promote to gold, identified by where they stand in the initial setup, or a positional trigger fired by promoting while standing on ranks 4 to 6. Context favours the first reading. It is not confirmed, and the two readings give completely different promotion tables. Resolve against a second source before encoding."
+    - "Whether a piece that declines promotion keeps the option on a later capture. The phrasing does not say 'first', which suggests no persistent flag is needed, but this could not be confirmed."
 unsupported: "19x19, 96 pieces a side across 50 types, no drops. There are NO promotion zones: promotion is by capture, with pieces on the 4th, 5th and 6th ranks promoting to Gold. Needs lion multi-capture, igui, and hook movers that run orthogonally then turn 90 degrees and continue. The Emperor jumps to any empty square on the board. The strangest rule is contagious promotion: capturing a deva promotes the CAPTURER to Teaching King, and capturing a dark spirit promotes it to Buddhist Spirit - so the promotion target depends on what was taken, not on what took it. Win by capturing the last king, emperor or prince. Piece table on Wikipedia is text plus diagrams."
 engine:
   topology:
@@ -149,6 +155,80 @@ Only Sente's side is given; Gote's setup is Sente's rotated 180°.
 **Hook Mover:** A Rook that may make one 90° turn anywhere in its path (but is not required to turn). Like a Rook, it stops at the point of capture.
 
 **Capricorn:** A Bishop that may make one 90° turn anywhere in its path.
+
+---
+
+### Piece Table
+
+Movement is in extended Betza notation — see Reading the Piece Tables in the
+Shogi rulebook. Read the confidence note in this variant's `verified` block
+before relying on these values.
+
+| Piece | Count | Movement | Promotes to |
+|---|---|---|---|
+| King | 1 | `K` | Emperor |
+| Hook mover | 1 | `RmaR` | Gold general |
+| Capricorn | 1 | `BmaB` | Gold general |
+| Queen | 1 | `Q` | none |
+| Dragon king | 2 | `FR` | none |
+| Dragon horse | 2 | `WB` | none |
+| Rook | 2 | `R` | Gold general |
+| Bishop | 2 | `B` | Gold general |
+| Side flier | 2 | `rlRF` | Gold general |
+| Lion | 1 | `NADaK` | Furious fiend |
+| Lion dog | 1 | `KavKafavK` | Gold general |
+| She-devil | 1 | `R5B2` | Gold general |
+| Wrestler | 1 | `B3rlW` | Gold general |
+| Guardian of the Gods | 1 | `R3fF` | Gold general |
+| Buddhist devil | 1 | `fB3rlbW` | Gold general |
+| Violent ox | 2 | `R2` | Gold general |
+| Flying dragon | 2 | `B2` | Gold general |
+| Old rat | 2 | `fB2bR2` | Bat |
+| Right chariot | 1 | `fR[fr][bl]BbW` | Gold general |
+| Left chariot | 1 | `fR[fl][br]BbW` | Gold general |
+| Vertical mover | 2 | `fbRW` | Gold general |
+| Side mover | 2 | `rlRW` | Gold general |
+| Phoenix | 1 | `WA` | Golden bird |
+| Kirin | 1 | `FD` | Great dragon |
+| Donkey | 2 | `WfbD` | Gold general |
+| Knight | 2 | `ffN` | Gold general |
+| Drunken elephant | 1 | `FfrlW` | Prince |
+| Blind tiger | 2 | `FrlbW` | Free tiger |
+| Ferocious leopard | 2 | `FfbW` | Free leopard |
+| Reclining dragon | 1 | `WbF` | Free dragon |
+| Gold general | 2 | `WfF` | Free gold |
+| Silver general | 2 | `FfW` | Free silver |
+| Copper general | 2 | `fbWfF` | Free copper |
+| Tile general | 2 | `fFbW` | Free tile |
+| Evil wolf | 2 | `frlK` | Free wolf |
+| Iron general | 2 | `fK` | Free iron |
+| Stone general | 2 | `fF` | Free stone |
+| Reverse chariot | 2 | `fbR` | Gold general |
+| Lance | 2 | `fR` | Gold general |
+| Earth general | 2 | `fbW` | Free earth |
+| Go-between | 2 | `fbW` | Free goer |
+| Blind bear | 2 | `FbR` | Free bear |
+| Chinese cock | 1 | `rlbWfF` | Wizard stork |
+| Old monkey | 1 | `FbW` | Mountain witch |
+| Angry boar | 2 | `W` | Free boar |
+| Cat sword | 2 | `F` | Free cat |
+| Coiled serpent | 1 | `fbWbF` | Free serpent |
+| Dark spirit | 1 | `f[bl]FrW` | Buddhist spirit |
+| Deva | 1 | `f[br]FlW` | Teaching king |
+| Pawn | 19 | `fW` | Gold general |
+
+Promoted-only forms: Emperor (teleport, described above) · Prince `K` ·
+Teaching king `QavKafavK` · Buddhist spirit `QNADaK` · Furious fiend
+`NADaKafavK` · Golden bird `fbRrlR2B3` · Great dragon `rlRfbR2B3` · Bat `fRbB` ·
+Mountain witch `BbRfW` · Wizard stork `BfRbW` · Free gold `RfB` · Free silver
+`BfR` · Free copper `fbRfB` · Free iron `fQ` · Free tile `fBbR` · Free stone
+`fB` · Free earth `fbR` · Free goer `fbR` · Free tiger `BrlbR` · Free leopard
+`BfbR` · Free serpent `fbRbB` · Free dragon `RbB` · Free cat `B` · Free bear
+`BrlR` · Free boar `BrlR` · Free wolf, for which the article prints no notation.
+
+The Emperor's `(U)` in the source is a page-local shorthand for its teleport, not
+a Betza atom: it jumps to any empty square, may jump to and capture any non-royal
+piece anywhere, and may capture a royal only if that royal is unprotected.
 
 ---
 

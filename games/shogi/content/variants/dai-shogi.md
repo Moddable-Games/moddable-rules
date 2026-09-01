@@ -11,6 +11,10 @@ verified:
   method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
   sources:
     - "https://en.wikipedia.org/wiki/Dai_shogi"
+    - "https://en.wikipedia.org/w/index.php?title=Dai_shogi&action=raw (raw wikitext, 2026-09-01, source of the piece table)"
+  unverified:
+    - "Whether the knight gets a second chance to promote on reaching the far rank."
+    - "The finer JCSA repetition deviation rules, which the source marks as presumed rather than attested."
 unsupported: "15x15, 65 pieces a side across 29 types, no drops. The complete piece table is on Wikipedia with Betza notation alongside each diagram, so it is transcribable text rather than images. Two mechanics beyond scale: the Lion, which jumps anywhere within two squares, may capture twice in a turn, and may return to its own square to capture without moving (igui) - and note chu shogi's lion-capture restrictions explicitly do NOT apply here; and the Drunk Elephant, which promotes to a Prince and gives its owner a SECOND royal piece, so the win condition is capturing the last remaining king or prince. Promotion zone is the far five ranks and is optional."
 engine:
   topology:
@@ -33,7 +37,7 @@ Dai Shogi (大将棋, "Large Chess") is a historical Japanese chess variant play
 
 ### Starting Position
 
-Pieces occupy ranks 1–5 (Sente) and ranks 11–15 (Gote), mirrored.
+Pieces occupy ranks 1–5 (Sente) and ranks 11–15 (Gote). The opposing camp is a 180-degree rotation rather than a mirror: where the bottom player has Kirin · Lion · Phoenix, the top player has Phoenix · Lion · Kirin.
 
 **Rank 1 (left to right, files a–o):**
 Lance · Knight · Stone General · Iron General · Copper General · Silver General · Gold General · King · Gold General · Silver General · Copper General · Iron General · Stone General · Knight · Lance
@@ -70,6 +74,56 @@ Most pieces are directional sliders or steppers with ranges of infinite, 2, or 1
 
 **Blind Tiger (g2, i2):** Steps diagonally or sideways-backward (FbsW).
 
+### Piece Table
+
+All 29 types carry a notation in the source; none is diagram-only. Movement is in
+extended Betza notation — see Reading the Piece Tables in the Shogi rulebook.
+
+| Piece | Romaji | Count | Movement | Promotes to |
+|---|---|---|---|---|
+| King | osho / gyokusho | 1 | `K` | none |
+| Queen (free king) | honno | 1 | `Q` | none |
+| Lion | shishi | 1 | `KNADcaKmcabK` | none |
+| Dragon king | ryuo | 2 | `RF` | soaring eagle |
+| Dragon horse | ryuma | 2 | `BW` | horned falcon |
+| Rook | hisha | 2 | `R` | dragon king |
+| Bishop | kakugyo | 2 | `B` | dragon horse |
+| Kirin | kirin | 1 | `FD` | lion |
+| Phoenix | hoo | 1 | `WA` | queen |
+| Violent ox | mogyu | 2 | `R2` | gold general |
+| Flying dragon | hiryu | 2 | `B2` | gold general |
+| Drunk elephant | suizo | 1 | `FfrlW` | prince |
+| Blind tiger | moko | 2 | `FrlbW` | flying stag |
+| Ferocious leopard | mohyo | 2 | `FfbW` | bishop |
+| Gold general | kinsho | 2 | `WfF` | rook |
+| Silver general | ginsho | 2 | `FfW` | vertical mover |
+| Copper general | dosho | 2 | `fKbW` | side mover |
+| Angry boar | shincho | 2 | `W` | gold general |
+| Cat sword | myojin | 2 | `F` | gold general |
+| Vertical mover | shugyo | 2 | `WfbR` | flying ox |
+| Side mover | ogyo | 2 | `WrlR` | free boar |
+| Reverse chariot | hensha | 2 | `fbR` | whale |
+| Lance | kyosha | 2 | `fR` | white horse |
+| Knight | keima | 2 | `ffN` | gold general |
+| Evil wolf | akuro | 2 | `frlK` | gold general |
+| Iron general | tessho | 2 | `fK` | gold general |
+| Stone general | sekisho | 2 | `fF` | gold general |
+| Go-between | chunin | 2 | `fbW` | drunk elephant |
+| Pawn | fuhyo | 15 | `fW` | gold general |
+
+Promoted-only forms:
+
+| Piece | Romaji | Movement | Promotes from |
+|---|---|---|---|
+| Prince | taishi | `K` | drunk elephant (counts as a second king) |
+| Soaring eagle | hiju | `RbBf[avF]fA` | dragon king |
+| Horned falcon | kakuo | `BrlbRf[avW]fD` | dragon horse |
+| Flying stag | hiroku | `fbRK` | blind tiger |
+| Flying ox | higyu | `BfbR` | vertical mover |
+| Free boar | honcho | `BrlR` | side mover |
+| Whale | keigei | `fRbQ` | reverse chariot |
+| White horse | hakku | `fQbR` | lance |
+
 ### Promotion
 
 Pieces may promote upon entering the promotion zone (opponent's last 5 ranks, ranks 11–15 for Sente). Promotion is optional unless the piece would have no legal moves in unpromoted form. Each piece promotes at most once, to a predefined form:
@@ -87,6 +141,8 @@ King, Lion, and Free King do not promote.
 **No Check:** There is no prohibition against moving into or remaining in check. Stalemate (by convention) is a win for the stalemating player.
 
 **No Drops:** Captured pieces are permanently removed from the game.
+
+**Declining Promotion:** A piece that declines promotion on entering the zone may afterwards promote only by capturing, and that restriction resets when it leaves the zone and re-enters. This is per-piece state and cannot be derived from the position alone.
 
 **Repetition:** Repetition of position is forbidden. A player delivering perpetual check must deviate. A player perpetually chasing (opponent is always evading, not threatening) must also deviate. Purely positional repetitions with neither side attacking are draws.
 

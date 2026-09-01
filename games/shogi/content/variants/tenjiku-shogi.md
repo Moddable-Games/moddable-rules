@@ -11,10 +11,14 @@ verified:
   method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
   sources:
     - "https://en.wikipedia.org/wiki/Tenjiku_shogi"
+    - "https://en.wikipedia.org/w/index.php?title=Tenjiku_shogi&action=raw (raw wikitext, 2026-09-01, source of the piece table)"
   decisions:
     - "Where a fire demon moves next to another fire demon, sources differ on whether other adjacent pieces also burn. The Tenjiku Shogi Association rules specify that only the moving fire demon is immolated, and that reading is the one recorded here."
   unverified:
     - "Lion-capture and lion-trading restrictions, and Tenjiku's relationship to chu shogi's lion rules."
+    - "The fire demon's orthogonal range. The source contradicts itself: its disputed-moves section labels the move `BvR` while describing it as along the rank, and under standard Betza `v` is vertical. The main table's `BrlR` matches the prose and is what the table below records."
+    - "What happens when both kings perish in one move, where a king captures another standing beside a friendly fire demon. The historical rules do not resolve it."
+    - "Whether the free eagle sits anywhere in the jump-rank hierarchy. The source flags its absence without settling it."
 unsupported: "16x16, 78 pieces a side across 36 types, no drops. The Wikipedia piece table is in Betza notation and is directly machine-readable. Three mechanics: FIRE DEMON BURNING - wherever a fire demon stops, every adjacent enemy piece except another fire demon is removed, and any piece that stops next to an enemy fire demon is removed after making its capture, so this is a post-move board pass that also destroys the mover's own pieces; JUMPING GENERALS - when capturing, a great general may jump any number of LOWER-RANKING pieces, which needs a piece-rank comparison table in move generation; and AREA MOVES - the vice general and fire demon may step up to three times in one turn, stopping on capture. No per-piece persistent state is needed: burning is positional, not a status effect."
 engine:
   topology:
@@ -76,6 +80,70 @@ A general may jump over only those with rank lower than itself, but may capture 
 
 **Soaring Eagle / Horned Falcon:** Slide as Queen, but in certain directions have a stinging move: can move to or jump to the second square, jump to the second while annihilating the first, or annihilate the first without moving. Soaring Eagle does this diagonally forward; Horned Falcon straight forward.
 
+### Piece Table
+
+All 44 types (36 starting and 8 promoted-only) carry a notation in the source.
+Movement is in extended Betza notation — see Reading the Piece Tables in the
+Shogi rulebook. The source carries a standing caveat that Tenjiku's historical
+rules are unclear and that sources differ; what follows is its reconstruction
+from chu shogi.
+
+| Piece | Romaji | Count | Movement | Promotes to |
+|---|---|---|---|---|
+| King | osho / gyokusho | 1 | `K` | none |
+| Great general | taisho | 1 | `QcppQ` + restrictions | none |
+| Vice general | fukusho | 1 | `BcppB[mKa3K]` + restrictions | none |
+| Rook general | hisho | 2 | `RcppR` + restrictions | great general |
+| Bishop general | kakusho | 2 | `BcppB` + restrictions | vice general |
+| Free eagle | honju | 1 | `QDA[aF]` | none |
+| Queen | honno | 1 | `Q` | free eagle |
+| Soaring eagle | hiju | 2 | `RbBf[avF]fA` | rook general |
+| Horned falcon | kakuo | 2 | `BrlbRf[avW]fD` | bishop general |
+| Water buffalo | suigyu | 2 | `BrlRfbR2` | fire demon |
+| Chariot soldier | shahei | 4 | `BfbRrlR2` | heavenly tetrarch |
+| Fire demon | kaki | 2 | `BrlR[mKa3K]` + immediate `xK` | none |
+| Lion hawk | shio | 1 | `BNAD[aK]` | none |
+| Lion | shishi | 1 | `NAD[aK]` | lion hawk |
+| Dragon king | ryuo | 2 | `FR` | soaring eagle |
+| Dragon horse | ryume | 2 | `WB` | horned falcon |
+| Rook | hisha | 2 | `R` | dragon king |
+| Bishop | kakugyo | 2 | `B` | dragon horse |
+| Kirin | kirin | 1 | `FD` | lion |
+| Phoenix | hoo | 1 | `WA` | queen |
+| Drunk elephant | suizo | 1 | `FfrlW` | prince |
+| Blind tiger | moko | 2 | `FrlbW` | flying stag |
+| Ferocious leopard | mohyo | 2 | `FfbW` | bishop |
+| Gold general | kinsho | 2 | `WfF` | rook |
+| Silver general | ginsho | 2 | `FfW` | vertical mover |
+| Copper general | dosho | 2 | `fKbW` | side mover |
+| Vertical mover | shugyo | 2 | `WfbR` | flying ox |
+| Side mover | ogyo | 2 | `WrlR` | free boar |
+| Reverse chariot | hensha | 2 | `fbR` | whale |
+| Vertical soldier | shuhei | 2 | `WfRrlR2` | chariot soldier |
+| Side soldier | ohei | 2 | `WfR2rlR` | water buffalo |
+| Lance | kyosha | 2 | `fR` | white horse |
+| Knight | keima | 2 | `ffN` | side soldier |
+| Iron general | tessho | 2 | `fK` | vertical soldier |
+| Dog | inu | 2 | `fWbF` | multi general |
+| Pawn | fuhyo | 16 | `fW` | gold general |
+
+Promoted-only forms:
+
+| Piece | Romaji | Movement |
+|---|---|---|
+| Prince | taishi | `K` |
+| Heavenly tetrarch | shitenno | `B(>=2)fbR(>=2)rlR(2<=n<=3)cxK` |
+| Flying ox | higyu | `BfbR` |
+| Flying stag | hiroku | `fbRK` |
+| Free boar | honcho | `BrlR` |
+| Multi general | suisho | `fRbB` |
+| Whale | keigei | `fRbQ` |
+| White horse | hakku | `fQbR` |
+
+The two camps are deliberately asymmetric: Gold General and Vice General, Lion
+Hawk and Free Eagle, and King and Drunk Elephant each swap sides between them,
+while Phoenix, Queen, Lion and Kirin mirror.
+
 ### Promotion
 
 The last 5 ranks form the promotion zone. Pieces promote optionally when entering the zone or moving within it to make a capture. Each piece promotes at most once:
@@ -89,6 +157,8 @@ King, Fire Demon, Great General, Vice General, Lion Hawk, and Free Eagle do not 
 **Win:** Capture all opponent royal pieces. Royals are the King and Crown Prince (Drunk Elephant's promoted form). A player with both survives losing one; they lose only when the last royal is captured or burned.
 
 **No Drops:** Captured pieces are permanently removed.
+
+**Promotion Trigger:** A move qualifies when it starts outside the zone and ends inside it, or is a capture starting inside. Igui does not qualify, since the piece begins and ends outside. As in Dai Shogi, a piece that declines promotion may afterwards promote only by capturing, and that restriction resets when it leaves the zone and re-enters — per-piece state that cannot be derived from the position.
 
 **No Check Rule:** No prohibition against moving into or remaining in check. Stalemate cannot occur in practical play.
 

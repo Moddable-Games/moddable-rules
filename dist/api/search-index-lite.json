@@ -3153,6 +3153,16 @@
     "game": "shogi",
     "gameTitle": "Shogi",
     "type": "section",
+    "sectionType": "general",
+    "section": "Variant Library",
+    "heading": "Reading the Piece Tables",
+    "content": "The large variants Dai, Tenjiku, Maka-Dai-Dai, Tai give each piece's movement in the extended Betza notation those sources use. The extensions matter, because several of them read as their opposite if",
+    "anchor": "reading-the-piece-tables"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "section",
     "sectionType": "attribution",
     "section": "Variant Library",
     "heading": "Attribution",
@@ -25614,7 +25624,7 @@
     "sectionType": "setup",
     "section": "Dai Shogi",
     "heading": "Starting Position",
-    "content": "Pieces occupy ranks 1–5 Sente and ranks 11–15 Gote, mirrored. Rank 1 left to right, files a–o: Lance · Knight · Stone General · Iron General · Copper General · Silver General · Gold General · King · G",
+    "content": "Pieces occupy ranks 1–5 Sente and ranks 11–15 Gote. The opposing camp is a 180-degree rotation rather than a mirror: where the bottom player has Kirin · Lion · Phoenix, the top player has Phoenix · Li",
     "anchor": "starting-position",
     "variant": "dai-shogi",
     "variantUrl": "shogi/variants/dai-shogi/"
@@ -25628,6 +25638,18 @@
     "heading": "Pieces",
     "content": "Most pieces are directional sliders or steppers with ranges of infinite, 2, or 1 step. Key unique pieces: Lion h3: Double-mover. Makes up to 2 King steps per turn, changing direction freely, including",
     "anchor": "pieces",
+    "variant": "dai-shogi",
+    "variantUrl": "shogi/variants/dai-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "variant",
+    "sectionType": "general",
+    "section": "Dai Shogi",
+    "heading": "Piece Table",
+    "content": "All 29 types carry a notation in the source; none is diagram-only. Movement is in extended Betza notation — see Reading the Piece Tables in the Shogi rulebook. Promoted-only forms:\nPiece — Romaji — Co",
+    "anchor": "piece-table",
     "variant": "dai-shogi",
     "variantUrl": "shogi/variants/dai-shogi/"
   },
@@ -26307,6 +26329,18 @@
     "game": "shogi",
     "gameTitle": "Shogi",
     "type": "variant",
+    "sectionType": "general",
+    "section": "Maka-Dai-Dai Shogi",
+    "heading": "Piece Table",
+    "content": "Movement is in extended Betza notation — see Reading the Piece Tables in the Shogi rulebook. Read the confidence note in this variant's verified block before relying on these values. Promoted-only for",
+    "anchor": "piece-table",
+    "variant": "maka-dai-dai-shogi",
+    "variantUrl": "shogi/variants/maka-dai-dai-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "variant",
     "sectionType": "special",
     "section": "Maka-Dai-Dai Shogi",
     "heading": "Promotion",
@@ -26850,7 +26884,7 @@
     "sectionType": "general",
     "section": "Tai Shogi",
     "heading": "Royals",
-    "content": "- King — royal; does not promote - Crown Prince promoted Drunk Elephant — royal once promoted Win: capture both the opponent's King and Crown Prince or the King alone if the Drunk Elephant has not pro",
+    "content": "- King — royal; does not promote - Crown Prince promoted Drunk Elephant — royal once promoted Win: capture the opponent's sole remaining Emperor or Prince. Because the Drunken Elephant also promotes t",
     "anchor": "royals",
     "variant": "tai-shogi",
     "variantUrl": "shogi/variants/tai-shogi/"
@@ -26862,7 +26896,7 @@
     "sectionType": "special",
     "section": "Tai Shogi",
     "heading": "Promotion",
-    "content": "- Pieces promote upon entering the opponent's promotion zone the opponent's ranks, approximately the last 10 ranks from their perspective - No drops — captured pieces are permanently removed from play",
+    "content": "- There are no promotion zones. Promotion is compulsory, at the end of a piece's first capturing move - This needs a per-piece \"has captured\" flag persisting across turns, since the trigger is the pie",
     "anchor": "promotion",
     "variant": "tai-shogi",
     "variantUrl": "shogi/variants/tai-shogi/"
@@ -27044,6 +27078,18 @@
     "heading": "Key Pieces",
     "content": "Fire Demon g3, j3: The most powerful piece. After moving, burns removes all enemy pieces on any of the 8 squares adjacent to its destination. Additionally, any enemy piece that moves adjacent to a sta",
     "anchor": "key-pieces",
+    "variant": "tenjiku-shogi",
+    "variantUrl": "shogi/variants/tenjiku-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "variant",
+    "sectionType": "general",
+    "section": "Tenjiku Shogi",
+    "heading": "Piece Table",
+    "content": "All 44 types 36 starting and 8 promoted-only carry a notation in the source. Movement is in extended Betza notation — see Reading the Piece Tables in the Shogi rulebook. The source carries a standing ",
+    "anchor": "piece-table",
     "variant": "tenjiku-shogi",
     "variantUrl": "shogi/variants/tenjiku-shogi/"
   },

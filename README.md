@@ -223,6 +223,11 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-01
+- Piece tables for the large shogi variants folded into the variants they describe, following the convention grande-acedrex already used, rather than a separate content directory that published five standalone pages
+- Betza notation key added once to the shogi rulebook, cited by each table
+- Dai Shogi: the opposing camp is a 180-degree rotation, not a mirror, so the top player's Phoenix, Lion and Kirin sit opposite the bottom player's Kirin, Lion and Phoenix
+- Tai Shogi has no promotion zone: promotion is compulsory at the end of a piece's first capturing move and resolves at end of turn, so a Lion capturing twice promotes once, afterwards
+- Maka-Dai-Dai and Tai tables carry a `confidence` note recording that they came through an unreliable fetcher and must be re-verified against raw wikitext before use
 - New `verified:` frontmatter key recording date, sources, decisions and what remains unverified, because nothing in the corpus distinguished "checked against a source" from "written from memory"
 - Draughts: alquerque, bashni, dameo, frisian and lasca rewritten from named sources
 - frisian carried a rule that produces the wrong game: Frisian weighs captures rather than counting them, and the federation's scale is non-linear above one king (2n - 1/2). Wikipedia and playstrategy disagree with it and with each other; the federation is followed and the conflict recorded

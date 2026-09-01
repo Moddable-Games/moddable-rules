@@ -286,13 +286,14 @@
 <li><strong>King</strong> — royal; does not promote</li>
 <li><strong>Crown Prince</strong> (promoted Drunk Elephant) — royal once promoted</li>
 </ul>
-<p>Win: capture both the opponent’s King and Crown Prince (or the King alone if the Drunk Elephant has not promoted).</p>
+<p>Win: capture the opponent’s sole remaining Emperor or Prince. Because the Drunken Elephant also promotes to Prince, as many as three royal pieces may need capturing. While a player holds more than one royal there is no check obligation; royals are simply capturable.</p>
 <h3 id="promotion">Promotion</h3>
 <ul class="rules">
-<li>Pieces promote upon entering the opponent’s promotion zone (the opponent’s ranks, approximately the last 10 ranks from their perspective)</li>
+<li>There are <strong>no promotion zones</strong>. Promotion is compulsory, at the end of a piece’s first capturing move</li>
+<li>This needs a per-piece “has captured” flag persisting across turns, since the trigger is the piece’s first capture rather than anything readable from the position</li>
+<li>Promotion resolves at <strong>end of turn</strong>, not at the moment of capture. A Lion capturing twice makes both captures unpromoted and promotes once, afterwards. An engine promoting mid-move gets this wrong</li>
 <li>No drops — captured pieces are permanently removed from play</li>
 <li>Each piece has a fixed promoted form</li>
-<li>Promotion on capture applies to contagious pieces (Teaching King, Buddhist Spirit)</li>
 </ul>
 <h3 id="general-movement-categories">General Movement Categories</h3>
 <p>Pieces in Tai Shogi fall into these broad movement categories:</p>
@@ -303,7 +304,7 @@
 <li><strong>Lion-power pieces:</strong> take two moves per turn; may capture twice; may pass</li>
 <li><strong>Lion Dog class:</strong> up to 3 steps along any ray</li>
 <li><strong>Ultra-powerful sliders:</strong> can turn corners in their path (Hook Mover, Capricorn)</li>
-<li><strong>Universal leaper</strong> (Emperor): can jump to any square on the board</li>
+<li><strong>Universal leaper</strong> (Emperor): jumps to any empty square, may jump to and capture any non-royal piece anywhere, and may capture a royal only if that royal is unprotected. The <code>(U)</code> in the source is a page-local shorthand for this, not a Betza atom</li>
 </ul>
 <h3 id="historical-context">Historical Context</h3>
 <p>Tai Shogi is documented in historical Japanese manuscripts alongside the other large Shogi variants. The chessvariants.com entry for Tai Shogi links only to an external Japanese-language source (the shogi.net documentation). Murray’s <em>A History of Chess</em> covers the Shogi variant family including large games in this scale range.</p>

@@ -3153,6 +3153,16 @@
     "game": "shogi",
     "gameTitle": "Shogi",
     "type": "section",
+    "sectionType": "general",
+    "section": "Variant Library",
+    "heading": "Reading the Piece Tables",
+    "content": "The large variants Dai, Tenjiku, Maka-Dai-Dai, Tai give each piece's movement in the extended Betza notation those sources use. The extensions matter, because several of them read as their opposite if skipped: - xxxaK is an xxxK move optionally followed by a yyyK move, not necessarily in the same direction - a3K is up to three king steps - v restricts a continuation leg to a single line - Default leg modality is move-and-capture, so mKa3K is up to three king steps that must stop on first capture - Square brackets group what a chains: DaK is not DaK - R2<=n<=4 is a rook limited to between two and four squares - pn jumps at most n pieces, and pp is p with no limit - x is shooting: xK captures an adjacent enemy without moving Where a table says DIAGRAM ONLY, the source gives that piece's movement as an image and no notation exists in text. Where it says NONE PRINTED, the source omits it. Neither may be filled in from the piece's name.",
+    "anchor": "reading-the-piece-tables"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "section",
     "sectionType": "attribution",
     "section": "Variant Library",
     "heading": "Attribution",
@@ -25614,7 +25624,7 @@
     "sectionType": "setup",
     "section": "Dai Shogi",
     "heading": "Starting Position",
-    "content": "Pieces occupy ranks 1–5 Sente and ranks 11–15 Gote, mirrored. Rank 1 left to right, files a–o: Lance · Knight · Stone General · Iron General · Copper General · Silver General · Gold General · King · Gold General · Silver General · Copper General · Iron General · Stone General · Knight · Lance Rank 2: Reverse Chariot a2, o2 · Cat Sword c2, m2 · Ferocious Leopard e2, k2 · Blind Tiger g2, i2 · Drunk Elephant h2 Rank 3: Violent Ox b3, n3 · Angry Boar d3, l3 · Evil Wolf f3, j3 · Kirin g3 · Lion h3 · Phoenix i3 Rank 4: Rook a4, o4 · Flying Dragon b4, n4 · Side Mover c4, m4 · Vertical Mover d4, l4 · Bishop e4, k4 · Dragon Horse f4, j4 · Dragon King g4, i4 · Free King h4 Rank 5 Pawn rank: Go-Betweens at e5 and k5; Pawns on all other 13 files of rank 5.",
+    "content": "Pieces occupy ranks 1–5 Sente and ranks 11–15 Gote. The opposing camp is a 180-degree rotation rather than a mirror: where the bottom player has Kirin · Lion · Phoenix, the top player has Phoenix · Lion · Kirin. Rank 1 left to right, files a–o: Lance · Knight · Stone General · Iron General · Copper General · Silver General · Gold General · King · Gold General · Silver General · Copper General · Iron General · Stone General · Knight · Lance Rank 2: Reverse Chariot a2, o2 · Cat Sword c2, m2 · Ferocious Leopard e2, k2 · Blind Tiger g2, i2 · Drunk Elephant h2 Rank 3: Violent Ox b3, n3 · Angry Boar d3, l3 · Evil Wolf f3, j3 · Kirin g3 · Lion h3 · Phoenix i3 Rank 4: Rook a4, o4 · Flying Dragon b4, n4 · Side Mover c4, m4 · Vertical Mover d4, l4 · Bishop e4, k4 · Dragon Horse f4, j4 · Dragon King g4, i4 · Free King h4 Rank 5 Pawn rank: Go-Betweens at e5 and k5; Pawns on all other 13 files of rank 5.",
     "anchor": "starting-position",
     "variant": "dai-shogi",
     "variantUrl": "shogi/variants/dai-shogi/"
@@ -25628,6 +25638,18 @@
     "heading": "Pieces",
     "content": "Most pieces are directional sliders or steppers with ranges of infinite, 2, or 1 step. Key unique pieces: Lion h3: Double-mover. Makes up to 2 King steps per turn, changing direction freely, including returning to the starting square. Can jump on the first step. May annihilate an adjacent enemy step there and step back without moving, make a hit-and-run annihilate and continue to an adjacent empty square, or make a double capture. Kirin g3: Leaps to the first diagonal square or the second orthogonal square FD. Phoenix i3: Leaps to the first orthogonal square or the second diagonal square WA. Drunk Elephant h2: Steps in all directions except straight backward FfsW. Promotes to Crown Prince. Go-Between e5, k5: Steps vertically only vW. Promotes to Drunk Elephant. Flying Dragon b4, n4: Leaps to the second diagonal square in any direction F2. Ferocious Leopard e2, k2: Steps diagonally or vertically FvW. Blind Tiger g2, i2: Steps diagonally or sideways-backward FbsW.",
     "anchor": "pieces",
+    "variant": "dai-shogi",
+    "variantUrl": "shogi/variants/dai-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "variant",
+    "sectionType": "general",
+    "section": "Dai Shogi",
+    "heading": "Piece Table",
+    "content": "All 29 types carry a notation in the source; none is diagram-only. Movement is in extended Betza notation — see Reading the Piece Tables in the Shogi rulebook. Promoted-only forms:\nPiece — Romaji — Count — Movement — Promotes to\nKing — osho / gyokusho — 1 — `K` — none\nQueen (free king) — honno — 1 — `Q` — none\nLion — shishi — 1 — `KNADcaKmcabK` — none\nDragon king — ryuo — 2 — `RF` — soaring eagle\nDragon horse — ryuma — 2 — `BW` — horned falcon\nRook — hisha — 2 — `R` — dragon king\nBishop — kakugyo — 2 — `B` — dragon horse\nKirin — kirin — 1 — `FD` — lion\nPhoenix — hoo — 1 — `WA` — queen\nViolent ox — mogyu — 2 — `R2` — gold general\nFlying dragon — hiryu — 2 — `B2` — gold general\nDrunk elephant — suizo — 1 — `FfrlW` — prince\nBlind tiger — moko — 2 — `FrlbW` — flying stag\nFerocious leopard — mohyo — 2 — `FfbW` — bishop\nGold general — kinsho — 2 — `WfF` — rook\nSilver general — ginsho — 2 — `FfW` — vertical mover\nCopper general — dosho — 2 — `fKbW` — side mover\nAngry boar — shincho — 2 — `W` — gold general\nCat sword — myojin — 2 — `F` — gold general\nVertical mover — shugyo — 2 — `WfbR` — flying ox\nSide mover — ogyo — 2 — `WrlR` — free boar\nReverse chariot — hensha — 2 — `fbR` — whale\nLance — kyosha — 2 — `fR` — white horse\nKnight — keima — 2 — `ffN` — gold general\nEvil wolf — akuro — 2 — `frlK` — gold general\nIron general — tessho — 2 — `fK` — gold general\nStone general — sekisho — 2 — `fF` — gold general\nGo-between — chunin — 2 — `fbW` — drunk elephant\nPawn — fuhyo — 15 — `fW` — gold general\nPiece — Romaji — Movement — Promotes from\nPrince — taishi — `K` — drunk elephant (counts as a second king)\nSoaring eagle — hiju — `RbBf[avF]fA` — dragon king\nHorned falcon — kakuo — `BrlbRf[avW]fD` — dragon horse\nFlying stag — hiroku — `fbRK` — blind tiger\nFlying ox — higyu — `BfbR` — vertical mover\nFree boar — honcho — `BrlR` — side mover\nWhale — keigei — `fRbQ` — reverse chariot\nWhite horse — hakku — `fQbR` — lance",
+    "anchor": "piece-table",
     "variant": "dai-shogi",
     "variantUrl": "shogi/variants/dai-shogi/"
   },
@@ -25650,7 +25672,7 @@
     "sectionType": "overview",
     "section": "Dai Shogi",
     "heading": "Rules",
-    "content": "Win: Capture all opponent royal pieces. A player loses only when their last royal King or Crown Prince is captured. Crown Prince / Extinction Royalty: The Drunk Elephant promotes to Crown Prince, a second royal King. A player with both King and Crown Prince can afford to lose one — they only lose when the last royal is taken. No Check: There is no prohibition against moving into or remaining in check. Stalemate by convention is a win for the stalemating player. No Drops: Captured pieces are permanently removed from the game. Repetition: Repetition of position is forbidden. A player delivering perpetual check must deviate. A player perpetually chasing opponent is always evading, not threatening must also deviate. Purely positional repetitions with neither side attacking are draws.",
+    "content": "Win: Capture all opponent royal pieces. A player loses only when their last royal King or Crown Prince is captured. Crown Prince / Extinction Royalty: The Drunk Elephant promotes to Crown Prince, a second royal King. A player with both King and Crown Prince can afford to lose one — they only lose when the last royal is taken. No Check: There is no prohibition against moving into or remaining in check. Stalemate by convention is a win for the stalemating player. No Drops: Captured pieces are permanently removed from the game. Declining Promotion: A piece that declines promotion on entering the zone may afterwards promote only by capturing, and that restriction resets when it leaves the zone and re-enters. This is per-piece state and cannot be derived from the position alone. Repetition: Repetition of position is forbidden. A player delivering perpetual check must deviate. A player perpetually chasing opponent is always evading, not threatening must also deviate. Purely positional repetitions with neither side attacking are draws.",
     "anchor": "rules",
     "variant": "dai-shogi",
     "variantUrl": "shogi/variants/dai-shogi/"
@@ -26307,6 +26329,18 @@
     "game": "shogi",
     "gameTitle": "Shogi",
     "type": "variant",
+    "sectionType": "general",
+    "section": "Maka-Dai-Dai Shogi",
+    "heading": "Piece Table",
+    "content": "Movement is in extended Betza notation — see Reading the Piece Tables in the Shogi rulebook. Read the confidence note in this variant's verified block before relying on these values. Promoted-only forms: Emperor teleport, described above · Prince K · Teaching king QavKafavK · Buddhist spirit QNADaK · Furious fiend NADaKafavK · Golden bird fbRrlR2B3 · Great dragon rlRfbR2B3 · Bat fRbB · Mountain witch BbRfW · Wizard stork BfRbW · Free gold RfB · Free silver BfR · Free copper fbRfB · Free iron fQ · Free tile fBbR · Free stone fB · Free earth fbR · Free goer fbR · Free tiger BrlbR · Free leopard BfbR · Free serpent fbRbB · Free dragon RbB · Free cat B · Free bear BrlR · Free boar BrlR · Free wolf, for which the article prints no notation. The Emperor's U in the source is a page-local shorthand for its teleport, not a Betza atom: it jumps to any empty square, may jump to and capture any non-royal piece anywhere, and may capture a royal only if that royal is unprotected. ---\nPiece — Count — Movement — Promotes to\nKing — 1 — `K` — Emperor\nHook mover — 1 — `RmaR` — Gold general\nCapricorn — 1 — `BmaB` — Gold general\nQueen — 1 — `Q` — none\nDragon king — 2 — `FR` — none\nDragon horse — 2 — `WB` — none\nRook — 2 — `R` — Gold general\nBishop — 2 — `B` — Gold general\nSide flier — 2 — `rlRF` — Gold general\nLion — 1 — `NADaK` — Furious fiend\nLion dog — 1 — `KavKafavK` — Gold general\nShe-devil — 1 — `R5B2` — Gold general\nWrestler — 1 — `B3rlW` — Gold general\nGuardian of the Gods — 1 — `R3fF` — Gold general\nBuddhist devil — 1 — `fB3rlbW` — Gold general\nViolent ox — 2 — `R2` — Gold general\nFlying dragon — 2 — `B2` — Gold general\nOld rat — 2 — `fB2bR2` — Bat\nRight chariot — 1 — `fR[fr][bl]BbW` — Gold general\nLeft chariot — 1 — `fR[fl][br]BbW` — Gold general\nVertical mover — 2 — `fbRW` — Gold general\nSide mover — 2 — `rlRW` — Gold general\nPhoenix — 1 — `WA` — Golden bird\nKirin — 1 — `FD` — Great dragon\nDonkey — 2 — `WfbD` — Gold general\nKnight — 2 — `ffN` — Gold general\nDrunken elephant — 1 — `FfrlW` — Prince\nBlind tiger — 2 — `FrlbW` — Free tiger\nFerocious leopard — 2 — `FfbW` — Free leopard\nReclining dragon — 1 — `WbF` — Free dragon\nGold general — 2 — `WfF` — Free gold\nSilver general — 2 — `FfW` — Free silver\nCopper general — 2 — `fbWfF` — Free copper\nTile general — 2 — `fFbW` — Free tile\nEvil wolf — 2 — `frlK` — Free wolf\nIron general — 2 — `fK` — Free iron\nStone general — 2 — `fF` — Free stone\nReverse chariot — 2 — `fbR` — Gold general\nLance — 2 — `fR` — Gold general\nEarth general — 2 — `fbW` — Free earth\nGo-between — 2 — `fbW` — Free goer\nBlind bear — 2 — `FbR` — Free bear\nChinese cock — 1 — `rlbWfF` — Wizard stork\nOld monkey — 1 — `FbW` — Mountain witch\nAngry boar — 2 — `W` — Free boar\nCat sword — 2 — `F` — Free cat\nCoiled serpent — 1 — `fbWbF` — Free serpent\nDark spirit — 1 — `f[bl]FrW` — Buddhist spirit\nDeva — 1 — `f[br]FlW` — Teaching king\nPawn — 19 — `fW` — Gold general",
+    "anchor": "piece-table",
+    "variant": "maka-dai-dai-shogi",
+    "variantUrl": "shogi/variants/maka-dai-dai-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "variant",
     "sectionType": "special",
     "section": "Maka-Dai-Dai Shogi",
     "heading": "Promotion",
@@ -26850,7 +26884,7 @@
     "sectionType": "general",
     "section": "Tai Shogi",
     "heading": "Royals",
-    "content": "- King — royal; does not promote - Crown Prince promoted Drunk Elephant — royal once promoted Win: capture both the opponent's King and Crown Prince or the King alone if the Drunk Elephant has not promoted.",
+    "content": "- King — royal; does not promote - Crown Prince promoted Drunk Elephant — royal once promoted Win: capture the opponent's sole remaining Emperor or Prince. Because the Drunken Elephant also promotes to Prince, as many as three royal pieces may need capturing. While a player holds more than one royal there is no check obligation; royals are simply capturable.",
     "anchor": "royals",
     "variant": "tai-shogi",
     "variantUrl": "shogi/variants/tai-shogi/"
@@ -26862,7 +26896,7 @@
     "sectionType": "special",
     "section": "Tai Shogi",
     "heading": "Promotion",
-    "content": "- Pieces promote upon entering the opponent's promotion zone the opponent's ranks, approximately the last 10 ranks from their perspective - No drops — captured pieces are permanently removed from play - Each piece has a fixed promoted form - Promotion on capture applies to contagious pieces Teaching King, Buddhist Spirit",
+    "content": "- There are no promotion zones. Promotion is compulsory, at the end of a piece's first capturing move - This needs a per-piece \"has captured\" flag persisting across turns, since the trigger is the piece's first capture rather than anything readable from the position - Promotion resolves at end of turn, not at the moment of capture. A Lion capturing twice makes both captures unpromoted and promotes once, afterwards. An engine promoting mid-move gets this wrong - No drops — captured pieces are permanently removed from play - Each piece has a fixed promoted form",
     "anchor": "promotion",
     "variant": "tai-shogi",
     "variantUrl": "shogi/variants/tai-shogi/"
@@ -26874,7 +26908,7 @@
     "sectionType": "general",
     "section": "Tai Shogi",
     "heading": "General Movement Categories",
-    "content": "Pieces in Tai Shogi fall into these broad movement categories: - Generals: steppers that move 1 square in limited directions Gold, Silver, Copper, Iron, Stone, Tile, Elephant, Earth generals - Riders: unlimited sliders Rook, Bishop, Lance, Reverse Chariot, Side Mover, Vertical Mover - Hoppers: leap over intervening pieces Knight, Kirin, Phoenix - Lion-power pieces: take two moves per turn; may capture twice; may pass - Lion Dog class: up to 3 steps along any ray - Ultra-powerful sliders: can turn corners in their path Hook Mover, Capricorn - Universal leaper Emperor: can jump to any square on the board",
+    "content": "Pieces in Tai Shogi fall into these broad movement categories: - Generals: steppers that move 1 square in limited directions Gold, Silver, Copper, Iron, Stone, Tile, Elephant, Earth generals - Riders: unlimited sliders Rook, Bishop, Lance, Reverse Chariot, Side Mover, Vertical Mover - Hoppers: leap over intervening pieces Knight, Kirin, Phoenix - Lion-power pieces: take two moves per turn; may capture twice; may pass - Lion Dog class: up to 3 steps along any ray - Ultra-powerful sliders: can turn corners in their path Hook Mover, Capricorn - Universal leaper Emperor: jumps to any empty square, may jump to and capture any non-royal piece anywhere, and may capture a royal only if that royal is unprotected. The U in the source is a page-local shorthand for this, not a Betza atom",
     "anchor": "general-movement-categories",
     "variant": "tai-shogi",
     "variantUrl": "shogi/variants/tai-shogi/"
@@ -27051,6 +27085,18 @@
     "game": "shogi",
     "gameTitle": "Shogi",
     "type": "variant",
+    "sectionType": "general",
+    "section": "Tenjiku Shogi",
+    "heading": "Piece Table",
+    "content": "All 44 types 36 starting and 8 promoted-only carry a notation in the source. Movement is in extended Betza notation — see Reading the Piece Tables in the Shogi rulebook. The source carries a standing caveat that Tenjiku's historical rules are unclear and that sources differ; what follows is its reconstruction from chu shogi. Promoted-only forms: The two camps are deliberately asymmetric: Gold General and Vice General, Lion Hawk and Free Eagle, and King and Drunk Elephant each swap sides between them, while Phoenix, Queen, Lion and Kirin mirror.\nPiece — Romaji — Count — Movement — Promotes to\nKing — osho / gyokusho — 1 — `K` — none\nGreat general — taisho — 1 — `QcppQ` + restrictions — none\nVice general — fukusho — 1 — `BcppB[mKa3K]` + restrictions — none\nRook general — hisho — 2 — `RcppR` + restrictions — great general\nBishop general — kakusho — 2 — `BcppB` + restrictions — vice general\nFree eagle — honju — 1 — `QDA[aF]` — none\nQueen — honno — 1 — `Q` — free eagle\nSoaring eagle — hiju — 2 — `RbBf[avF]fA` — rook general\nHorned falcon — kakuo — 2 — `BrlbRf[avW]fD` — bishop general\nWater buffalo — suigyu — 2 — `BrlRfbR2` — fire demon\nChariot soldier — shahei — 4 — `BfbRrlR2` — heavenly tetrarch\nFire demon — kaki — 2 — `BrlR[mKa3K]` + immediate `xK` — none\nLion hawk — shio — 1 — `BNAD[aK]` — none\nLion — shishi — 1 — `NAD[aK]` — lion hawk\nDragon king — ryuo — 2 — `FR` — soaring eagle\nDragon horse — ryume — 2 — `WB` — horned falcon\nRook — hisha — 2 — `R` — dragon king\nBishop — kakugyo — 2 — `B` — dragon horse\nKirin — kirin — 1 — `FD` — lion\nPhoenix — hoo — 1 — `WA` — queen\nDrunk elephant — suizo — 1 — `FfrlW` — prince\nBlind tiger — moko — 2 — `FrlbW` — flying stag\nFerocious leopard — mohyo — 2 — `FfbW` — bishop\nGold general — kinsho — 2 — `WfF` — rook\nSilver general — ginsho — 2 — `FfW` — vertical mover\nCopper general — dosho — 2 — `fKbW` — side mover\nVertical mover — shugyo — 2 — `WfbR` — flying ox\nSide mover — ogyo — 2 — `WrlR` — free boar\nReverse chariot — hensha — 2 — `fbR` — whale\nVertical soldier — shuhei — 2 — `WfRrlR2` — chariot soldier\nSide soldier — ohei — 2 — `WfR2rlR` — water buffalo\nLance — kyosha — 2 — `fR` — white horse\nKnight — keima — 2 — `ffN` — side soldier\nIron general — tessho — 2 — `fK` — vertical soldier\nDog — inu — 2 — `fWbF` — multi general\nPawn — fuhyo — 16 — `fW` — gold general\nPiece — Romaji — Movement\nPrince — taishi — `K`\nHeavenly tetrarch — shitenno — `B(>=2)fbR(>=2)rlR(2<=n<=3)cxK`\nFlying ox — higyu — `BfbR`\nFlying stag — hiroku — `fbRK`\nFree boar — honcho — `BrlR`\nMulti general — suisho — `fRbB`\nWhale — keigei — `fRbQ`\nWhite horse — hakku — `fQbR`",
+    "anchor": "piece-table",
+    "variant": "tenjiku-shogi",
+    "variantUrl": "shogi/variants/tenjiku-shogi/"
+  },
+  {
+    "game": "shogi",
+    "gameTitle": "Shogi",
+    "type": "variant",
     "sectionType": "special",
     "section": "Tenjiku Shogi",
     "heading": "Promotion",
@@ -27066,7 +27112,7 @@
     "sectionType": "overview",
     "section": "Tenjiku Shogi",
     "heading": "Rules",
-    "content": "Win: Capture all opponent royal pieces. Royals are the King and Crown Prince Drunk Elephant's promoted form. A player with both survives losing one; they lose only when the last royal is captured or burned. No Drops: Captured pieces are permanently removed. No Check Rule: No prohibition against moving into or remaining in check. Stalemate cannot occur in practical play. Repetition: Perpetual check is forbidden — the checker must deviate. Perpetual chasing also requires the chaser to deviate. Pure positional repetitions neither side attacking are draws.",
+    "content": "Win: Capture all opponent royal pieces. Royals are the King and Crown Prince Drunk Elephant's promoted form. A player with both survives losing one; they lose only when the last royal is captured or burned. No Drops: Captured pieces are permanently removed. Promotion Trigger: A move qualifies when it starts outside the zone and ends inside it, or is a capture starting inside. Igui does not qualify, since the piece begins and ends outside. As in Dai Shogi, a piece that declines promotion may afterwards promote only by capturing, and that restriction resets when it leaves the zone and re-enters — per-piece state that cannot be derived from the position. No Check Rule: No prohibition against moving into or remaining in check. Stalemate cannot occur in practical play. Repetition: Perpetual check is forbidden — the checker must deviate. Perpetual chasing also requires the chaser to deviate. Pure positional repetitions neither side attacking are draws.",
     "anchor": "rules",
     "variant": "tenjiku-shogi",
     "variantUrl": "shogi/variants/tenjiku-shogi/"

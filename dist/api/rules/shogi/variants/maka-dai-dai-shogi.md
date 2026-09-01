@@ -125,6 +125,80 @@ Only Sente's side is given; Gote's setup is Sente's rotated 180°.
 
 ---
 
+### Piece Table
+
+Movement is in extended Betza notation — see Reading the Piece Tables in the
+Shogi rulebook. Read the confidence note in this variant's `verified` block
+before relying on these values.
+
+| Piece | Count | Movement | Promotes to |
+|---|---|---|---|
+| King | 1 | `K` | Emperor |
+| Hook mover | 1 | `RmaR` | Gold general |
+| Capricorn | 1 | `BmaB` | Gold general |
+| Queen | 1 | `Q` | none |
+| Dragon king | 2 | `FR` | none |
+| Dragon horse | 2 | `WB` | none |
+| Rook | 2 | `R` | Gold general |
+| Bishop | 2 | `B` | Gold general |
+| Side flier | 2 | `rlRF` | Gold general |
+| Lion | 1 | `NADaK` | Furious fiend |
+| Lion dog | 1 | `KavKafavK` | Gold general |
+| She-devil | 1 | `R5B2` | Gold general |
+| Wrestler | 1 | `B3rlW` | Gold general |
+| Guardian of the Gods | 1 | `R3fF` | Gold general |
+| Buddhist devil | 1 | `fB3rlbW` | Gold general |
+| Violent ox | 2 | `R2` | Gold general |
+| Flying dragon | 2 | `B2` | Gold general |
+| Old rat | 2 | `fB2bR2` | Bat |
+| Right chariot | 1 | `fR[fr][bl]BbW` | Gold general |
+| Left chariot | 1 | `fR[fl][br]BbW` | Gold general |
+| Vertical mover | 2 | `fbRW` | Gold general |
+| Side mover | 2 | `rlRW` | Gold general |
+| Phoenix | 1 | `WA` | Golden bird |
+| Kirin | 1 | `FD` | Great dragon |
+| Donkey | 2 | `WfbD` | Gold general |
+| Knight | 2 | `ffN` | Gold general |
+| Drunken elephant | 1 | `FfrlW` | Prince |
+| Blind tiger | 2 | `FrlbW` | Free tiger |
+| Ferocious leopard | 2 | `FfbW` | Free leopard |
+| Reclining dragon | 1 | `WbF` | Free dragon |
+| Gold general | 2 | `WfF` | Free gold |
+| Silver general | 2 | `FfW` | Free silver |
+| Copper general | 2 | `fbWfF` | Free copper |
+| Tile general | 2 | `fFbW` | Free tile |
+| Evil wolf | 2 | `frlK` | Free wolf |
+| Iron general | 2 | `fK` | Free iron |
+| Stone general | 2 | `fF` | Free stone |
+| Reverse chariot | 2 | `fbR` | Gold general |
+| Lance | 2 | `fR` | Gold general |
+| Earth general | 2 | `fbW` | Free earth |
+| Go-between | 2 | `fbW` | Free goer |
+| Blind bear | 2 | `FbR` | Free bear |
+| Chinese cock | 1 | `rlbWfF` | Wizard stork |
+| Old monkey | 1 | `FbW` | Mountain witch |
+| Angry boar | 2 | `W` | Free boar |
+| Cat sword | 2 | `F` | Free cat |
+| Coiled serpent | 1 | `fbWbF` | Free serpent |
+| Dark spirit | 1 | `f[bl]FrW` | Buddhist spirit |
+| Deva | 1 | `f[br]FlW` | Teaching king |
+| Pawn | 19 | `fW` | Gold general |
+
+Promoted-only forms: Emperor (teleport, described above) · Prince `K` ·
+Teaching king `QavKafavK` · Buddhist spirit `QNADaK` · Furious fiend
+`NADaKafavK` · Golden bird `fbRrlR2B3` · Great dragon `rlRfbR2B3` · Bat `fRbB` ·
+Mountain witch `BbRfW` · Wizard stork `BfRbW` · Free gold `RfB` · Free silver
+`BfR` · Free copper `fbRfB` · Free iron `fQ` · Free tile `fBbR` · Free stone
+`fB` · Free earth `fbR` · Free goer `fbR` · Free tiger `BrlbR` · Free leopard
+`BfbR` · Free serpent `fbRbB` · Free dragon `RbB` · Free cat `B` · Free bear
+`BrlR` · Free boar `BrlR` · Free wolf, for which the article prints no notation.
+
+The Emperor's `(U)` in the source is a page-local shorthand for its teleport, not
+a Betza atom: it jumps to any empty square, may jump to and capture any non-royal
+piece anywhere, and may capture a royal only if that royal is unprotected.
+
+---
+
 ### Promotion
 
 - Promotion may occur **anywhere on the board**, triggered by **making a capture** (not by entering a zone)

@@ -11,6 +11,13 @@ verified:
   method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
   sources:
     - "https://en.wikipedia.org/wiki/Tai_shogi"
+  confidence: "Lower than the Dai and Tenjiku tables, and deliberately recorded as such. The raw wikitext was unreachable, so what was gathered came through a summarising fetcher already shown to return contradictory notation. Fields were extracted twice with independently worded prompts and only agreeing values kept. Two arithmetic checks passed and are the strongest evidence available: the 93 counts sum to 177, the article's own stated per-side total, and the promotions partition cleanly as 14 gold-promoters, 45 non-promoters and 34 special. Treat as good but unconfirmed, and re-verify against raw wikitext before building."
+  unverified:
+    - "The 93-row piece table itself, which has NOT been transcribed. It was extracted and sum-verified but not recorded, so the movement of every piece remains to be gathered from raw wikitext."
+    - "Vermillion sparrow (suzaku) and Turtle-snake (genbu), whose movement the article gives only as diagram images."
+    - "Great elephant, the promoted lion dog, for which no notation is printed. Two passes returned two non-equivalent prose readings, so it must not be encoded."
+    - "The long-nosed goblin's promotion target, which is contested. Treat as unstated."
+    - "The starting position, which the article gives only as a diagram image."
 unsupported: "25x25, 177 pieces a side across 93 types, no drops. No promotion zones - promotion is compulsory on capture, which means a per-piece 'has captured' flag persisting across turns. Needs lion multi-capture, igui, and hook moves. The Emperor jumps to any empty square. Win by capturing the emperor and prince. The Wikipedia piece table is primarily Betza notation and is machine-readable."
 engine:
   topology:
@@ -64,14 +71,15 @@ Tai Shogi includes all pieces found in Maka-Dai-Dai Shogi (19×19) plus many add
 - **King** — royal; does not promote
 - **Crown Prince** (promoted Drunk Elephant) — royal once promoted
 
-Win: capture both the opponent's King and Crown Prince (or the King alone if the Drunk Elephant has not promoted).
+Win: capture the opponent's sole remaining Emperor or Prince. Because the Drunken Elephant also promotes to Prince, as many as three royal pieces may need capturing. While a player holds more than one royal there is no check obligation; royals are simply capturable.
 
 ### Promotion
 
-- Pieces promote upon entering the opponent's promotion zone (the opponent's ranks, approximately the last 10 ranks from their perspective)
+- There are **no promotion zones**. Promotion is compulsory, at the end of a piece's first capturing move
+- This needs a per-piece "has captured" flag persisting across turns, since the trigger is the piece's first capture rather than anything readable from the position
+- Promotion resolves at **end of turn**, not at the moment of capture. A Lion capturing twice makes both captures unpromoted and promotes once, afterwards. An engine promoting mid-move gets this wrong
 - No drops — captured pieces are permanently removed from play
 - Each piece has a fixed promoted form
-- Promotion on capture applies to contagious pieces (Teaching King, Buddhist Spirit)
 
 ### General Movement Categories
 
@@ -82,7 +90,7 @@ Pieces in Tai Shogi fall into these broad movement categories:
 - **Lion-power pieces:** take two moves per turn; may capture twice; may pass
 - **Lion Dog class:** up to 3 steps along any ray
 - **Ultra-powerful sliders:** can turn corners in their path (Hook Mover, Capricorn)
-- **Universal leaper** (Emperor): can jump to any square on the board
+- **Universal leaper** (Emperor): jumps to any empty square, may jump to and capture any non-royal piece anywhere, and may capture a royal only if that royal is unprotected. The `(U)` in the source is a page-local shorthand for this, not a Betza atom
 
 ### Historical Context
 

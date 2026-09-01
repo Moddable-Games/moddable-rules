@@ -121,7 +121,7 @@
 <p class="diagram-caption">Dai Shogi — starting position</p></div>
 <p>Dai Shogi (大将棋, “Large Chess”) is a historical Japanese chess variant played on a 15×15 board with 65 pieces per side. It is the direct predecessor of Chu Shogi and was played in Japan during the medieval period. Compared to Chu Shogi, Dai Shogi has 16 extra piece types (all promoting to Gold General) and plays significantly longer due to the larger board and slower steppers.</p>
 <h3 id="starting-position">Starting Position</h3>
-<p>Pieces occupy ranks 1–5 (Sente) and ranks 11–15 (Gote), mirrored.</p>
+<p>Pieces occupy ranks 1–5 (Sente) and ranks 11–15 (Gote). The opposing camp is a 180-degree rotation rather than a mirror: where the bottom player has Kirin · Lion · Phoenix, the top player has Phoenix · Lion · Kirin.</p>
 <p><strong>Rank 1 (left to right, files a–o):</strong>
 Lance · Knight · Stone General · Iron General · Copper General · Silver General · Gold General · King · Gold General · Silver General · Copper General · Iron General · Stone General · Knight · Lance</p>
 <p><strong>Rank 2:</strong>
@@ -142,6 +142,286 @@ Go-Betweens at e5 and k5; Pawns on all other 13 files of rank 5.</p>
 <p><strong>Flying Dragon (b4, n4):</strong> Leaps to the second diagonal square in any direction (F2).</p>
 <p><strong>Ferocious Leopard (e2, k2):</strong> Steps diagonally or vertically (FvW).</p>
 <p><strong>Blind Tiger (g2, i2):</strong> Steps diagonally or sideways-backward (FbsW).</p>
+<h3 id="piece-table">Piece Table</h3>
+<p>All 29 types carry a notation in the source; none is diagram-only. Movement is in
+extended Betza notation — see Reading the Piece Tables in the Shogi rulebook.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Romaji</th>
+<th>Count</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>osho / gyokusho</td>
+<td>1</td>
+<td><code>K</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Queen (free king)</td>
+<td>honno</td>
+<td>1</td>
+<td><code>Q</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Lion</td>
+<td>shishi</td>
+<td>1</td>
+<td><code>KNADcaKmcabK</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Dragon king</td>
+<td>ryuo</td>
+<td>2</td>
+<td><code>RF</code></td>
+<td>soaring eagle</td>
+</tr>
+<tr>
+<td>Dragon horse</td>
+<td>ryuma</td>
+<td>2</td>
+<td><code>BW</code></td>
+<td>horned falcon</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>hisha</td>
+<td>2</td>
+<td><code>R</code></td>
+<td>dragon king</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>kakugyo</td>
+<td>2</td>
+<td><code>B</code></td>
+<td>dragon horse</td>
+</tr>
+<tr>
+<td>Kirin</td>
+<td>kirin</td>
+<td>1</td>
+<td><code>FD</code></td>
+<td>lion</td>
+</tr>
+<tr>
+<td>Phoenix</td>
+<td>hoo</td>
+<td>1</td>
+<td><code>WA</code></td>
+<td>queen</td>
+</tr>
+<tr>
+<td>Violent ox</td>
+<td>mogyu</td>
+<td>2</td>
+<td><code>R2</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Flying dragon</td>
+<td>hiryu</td>
+<td>2</td>
+<td><code>B2</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Drunk elephant</td>
+<td>suizo</td>
+<td>1</td>
+<td><code>FfrlW</code></td>
+<td>prince</td>
+</tr>
+<tr>
+<td>Blind tiger</td>
+<td>moko</td>
+<td>2</td>
+<td><code>FrlbW</code></td>
+<td>flying stag</td>
+</tr>
+<tr>
+<td>Ferocious leopard</td>
+<td>mohyo</td>
+<td>2</td>
+<td><code>FfbW</code></td>
+<td>bishop</td>
+</tr>
+<tr>
+<td>Gold general</td>
+<td>kinsho</td>
+<td>2</td>
+<td><code>WfF</code></td>
+<td>rook</td>
+</tr>
+<tr>
+<td>Silver general</td>
+<td>ginsho</td>
+<td>2</td>
+<td><code>FfW</code></td>
+<td>vertical mover</td>
+</tr>
+<tr>
+<td>Copper general</td>
+<td>dosho</td>
+<td>2</td>
+<td><code>fKbW</code></td>
+<td>side mover</td>
+</tr>
+<tr>
+<td>Angry boar</td>
+<td>shincho</td>
+<td>2</td>
+<td><code>W</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Cat sword</td>
+<td>myojin</td>
+<td>2</td>
+<td><code>F</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Vertical mover</td>
+<td>shugyo</td>
+<td>2</td>
+<td><code>WfbR</code></td>
+<td>flying ox</td>
+</tr>
+<tr>
+<td>Side mover</td>
+<td>ogyo</td>
+<td>2</td>
+<td><code>WrlR</code></td>
+<td>free boar</td>
+</tr>
+<tr>
+<td>Reverse chariot</td>
+<td>hensha</td>
+<td>2</td>
+<td><code>fbR</code></td>
+<td>whale</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>kyosha</td>
+<td>2</td>
+<td><code>fR</code></td>
+<td>white horse</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>keima</td>
+<td>2</td>
+<td><code>ffN</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Evil wolf</td>
+<td>akuro</td>
+<td>2</td>
+<td><code>frlK</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Iron general</td>
+<td>tessho</td>
+<td>2</td>
+<td><code>fK</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Stone general</td>
+<td>sekisho</td>
+<td>2</td>
+<td><code>fF</code></td>
+<td>gold general</td>
+</tr>
+<tr>
+<td>Go-between</td>
+<td>chunin</td>
+<td>2</td>
+<td><code>fbW</code></td>
+<td>drunk elephant</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>fuhyo</td>
+<td>15</td>
+<td><code>fW</code></td>
+<td>gold general</td>
+</tr>
+</tbody>
+</table></div>
+<p>Promoted-only forms:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Romaji</th>
+<th>Movement</th>
+<th>Promotes from</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prince</td>
+<td>taishi</td>
+<td><code>K</code></td>
+<td>drunk elephant (counts as a second king)</td>
+</tr>
+<tr>
+<td>Soaring eagle</td>
+<td>hiju</td>
+<td><code>RbBf[avF]fA</code></td>
+<td>dragon king</td>
+</tr>
+<tr>
+<td>Horned falcon</td>
+<td>kakuo</td>
+<td><code>BrlbRf[avW]fD</code></td>
+<td>dragon horse</td>
+</tr>
+<tr>
+<td>Flying stag</td>
+<td>hiroku</td>
+<td><code>fbRK</code></td>
+<td>blind tiger</td>
+</tr>
+<tr>
+<td>Flying ox</td>
+<td>higyu</td>
+<td><code>BfbR</code></td>
+<td>vertical mover</td>
+</tr>
+<tr>
+<td>Free boar</td>
+<td>honcho</td>
+<td><code>BrlR</code></td>
+<td>side mover</td>
+</tr>
+<tr>
+<td>Whale</td>
+<td>keigei</td>
+<td><code>fRbQ</code></td>
+<td>reverse chariot</td>
+</tr>
+<tr>
+<td>White horse</td>
+<td>hakku</td>
+<td><code>fQbR</code></td>
+<td>lance</td>
+</tr>
+</tbody>
+</table></div>
 <h3 id="promotion">Promotion</h3>
 <p>Pieces may promote upon entering the promotion zone (opponent’s last 5 ranks, ranks 11–15 for Sente). Promotion is optional unless the piece would have no legal moves in unpromoted form. Each piece promotes at most once, to a predefined form:</p>
 <p>Kirin → Lion · Phoenix → Free King · Dragon King → Soaring Eagle · Rook → Dragon King · Gold General → Rook · Pawn → Gold General · Dragon Horse → Horned Falcon · Bishop → Dragon Horse · Ferocious Leopard → Bishop · Vertical Mover → Flying Ox (BvR) · Silver General → Vertical Mover · Lance → White Horse (vRfB) · Reverse Chariot → Whale (vRbB) · Blind Tiger → Flying Stag (vRFsW) · Drunk Elephant → Crown Prince · Go Between → Drunk Elephant · Side Mover → Free Boar (BsR) · Copper General → Side Mover · Stone General → Gold General · Iron General → Gold General · Knight → Gold General · Angry Boar → Gold General · Cat Sword → Gold General · Evil Wolf → Gold General · Violent Ox → Gold General · Flying Dragon → Gold General</p>
@@ -151,6 +431,7 @@ Go-Betweens at e5 and k5; Pawns on all other 13 files of rank 5.</p>
 <p><strong>Crown Prince / Extinction Royalty:</strong> The Drunk Elephant promotes to Crown Prince, a second royal King. A player with both King and Crown Prince can afford to lose one — they only lose when the last royal is taken.</p>
 <p><strong>No Check:</strong> There is no prohibition against moving into or remaining in check. Stalemate (by convention) is a win for the stalemating player.</p>
 <p><strong>No Drops:</strong> Captured pieces are permanently removed from the game.</p>
+<p><strong>Declining Promotion:</strong> A piece that declines promotion on entering the zone may afterwards promote only by capturing, and that restriction resets when it leaves the zone and re-enters. This is per-piece state and cannot be derived from the position alone.</p>
 <p><strong>Repetition:</strong> Repetition of position is forbidden. A player delivering perpetual check must deviate. A player perpetually chasing (opponent is always evading, not threatening) must also deviate. Purely positional repetitions with neither side attacking are draws.</p>
 <h3 id="attribution">Attribution</h3>
 <p>Historical Japanese game, medieval period. Rules documented from chessvariants.com/rules/dai-shogi (H. G. Muller, 2015).</p>

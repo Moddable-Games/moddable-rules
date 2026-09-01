@@ -128,6 +128,23 @@
 </ul>
 </div>
 </div>
+<h3 id="reading-the-piece-tables">Reading the Piece Tables</h3>
+<p>The large variants (Dai, Tenjiku, Maka-Dai-Dai, Tai) give each piece’s movement
+in the extended Betza notation those sources use. The extensions matter, because
+several of them read as their opposite if skipped:</p>
+<ul class="rules">
+<li><code>xxxaK</code> is an <code>xxxK</code> move optionally followed by a <code>yyyK</code> move, not necessarily in the same direction</li>
+<li><code>a3K</code> is up to three king steps</li>
+<li><code>v</code> restricts a continuation leg to a single line</li>
+<li>Default leg modality is move-and-capture, so <code>mKa3K</code> is up to three king steps that must stop on first capture</li>
+<li>Square brackets group what <code>a</code> chains: <code>DaK</code> is not <code>D[aK]</code></li>
+<li><code>R(2&lt;=n&lt;=4)</code> is a rook limited to between two and four squares</li>
+<li><code>pn</code> jumps at most n pieces, and <code>pp</code> is <code>p</code> with no limit</li>
+<li><code>x</code> is shooting: <code>xK</code> captures an adjacent enemy without moving</li>
+</ul>
+<p>Where a table says DIAGRAM ONLY, the source gives that piece’s movement as an
+image and no notation exists in text. Where it says NONE PRINTED, the source
+omits it. Neither may be filled in from the piece’s name.</p>
 <h3 id="attribution">Attribution</h3>
 <p>Shogi. Modern rules are those of the Japan Shogi Association (www.shogi.or.jp). Historical development and the large historical variants are documented in Murray, <em>A History of Chess</em> (1913), and at chessvariants.com and pychess.org. Public domain.</p>
 

@@ -159,6 +159,332 @@ Side Mover (a4, p4) · Vertical Mover (b4, o4) · Rook (c4, n4) · Horned Falcon
 <p><strong>Lion Hawk (h3):</strong> Lion double-move combined with Bishop slide.</p>
 <p><strong>Free Eagle (i3):</strong> Queen slide combined with diagonal double-move (Lion-style restricted to diagonal directions). Can annihilate diagonally adjacent enemies without moving.</p>
 <p><strong>Soaring Eagle / Horned Falcon:</strong> Slide as Queen, but in certain directions have a stinging move: can move to or jump to the second square, jump to the second while annihilating the first, or annihilate the first without moving. Soaring Eagle does this diagonally forward; Horned Falcon straight forward.</p>
+<h3 id="piece-table">Piece Table</h3>
+<p>All 44 types (36 starting and 8 promoted-only) carry a notation in the source.
+Movement is in extended Betza notation — see Reading the Piece Tables in the
+Shogi rulebook. The source carries a standing caveat that Tenjiku’s historical
+rules are unclear and that sources differ; what follows is its reconstruction
+from chu shogi.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Romaji</th>
+<th>Count</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>osho / gyokusho</td>
+<td>1</td>
+<td><code>K</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Great general</td>
+<td>taisho</td>
+<td>1</td>
+<td><code>QcppQ</code> + restrictions</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Vice general</td>
+<td>fukusho</td>
+<td>1</td>
+<td><code>BcppB[mKa3K]</code> + restrictions</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Rook general</td>
+<td>hisho</td>
+<td>2</td>
+<td><code>RcppR</code> + restrictions</td>
+<td>great general</td>
+</tr>
+<tr>
+<td>Bishop general</td>
+<td>kakusho</td>
+<td>2</td>
+<td><code>BcppB</code> + restrictions</td>
+<td>vice general</td>
+</tr>
+<tr>
+<td>Free eagle</td>
+<td>honju</td>
+<td>1</td>
+<td><code>QDA[aF]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Queen</td>
+<td>honno</td>
+<td>1</td>
+<td><code>Q</code></td>
+<td>free eagle</td>
+</tr>
+<tr>
+<td>Soaring eagle</td>
+<td>hiju</td>
+<td>2</td>
+<td><code>RbBf[avF]fA</code></td>
+<td>rook general</td>
+</tr>
+<tr>
+<td>Horned falcon</td>
+<td>kakuo</td>
+<td>2</td>
+<td><code>BrlbRf[avW]fD</code></td>
+<td>bishop general</td>
+</tr>
+<tr>
+<td>Water buffalo</td>
+<td>suigyu</td>
+<td>2</td>
+<td><code>BrlRfbR2</code></td>
+<td>fire demon</td>
+</tr>
+<tr>
+<td>Chariot soldier</td>
+<td>shahei</td>
+<td>4</td>
+<td><code>BfbRrlR2</code></td>
+<td>heavenly tetrarch</td>
+</tr>
+<tr>
+<td>Fire demon</td>
+<td>kaki</td>
+<td>2</td>
+<td><code>BrlR[mKa3K]</code> + immediate <code>xK</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Lion hawk</td>
+<td>shio</td>
+<td>1</td>
+<td><code>BNAD[aK]</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Lion</td>
+<td>shishi</td>
+<td>1</td>
+<td><code>NAD[aK]</code></td>
+<td>lion hawk</td>
+</tr>
+<tr>
+<td>Dragon king</td>
+<td>ryuo</td>
+<td>2</td>
+<td><code>FR</code></td>
+<td>soaring eagle</td>
+</tr>
+<tr>
+<td>Dragon horse</td>
+<td>ryume</td>
+<td>2</td>
+<td><code>WB</code></td>
+<td>horned falcon</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>hisha</td>
+<td>2</td>
+<td><code>R</code></td>
+<td>dragon king</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>kakugyo</td>
+<td>2</td>
+<td><code>B</code></td>
+<td>dragon horse</td>
+</tr>
+<tr>
+<td>Kirin</td>
+<td>kirin</td>
+<td>1</td>
+<td><code>FD</code></td>
+<td>lion</td>
+</tr>
+<tr>
+<td>Phoenix</td>
+<td>hoo</td>
+<td>1</td>
+<td><code>WA</code></td>
+<td>queen</td>
+</tr>
+<tr>
+<td>Drunk elephant</td>
+<td>suizo</td>
+<td>1</td>
+<td><code>FfrlW</code></td>
+<td>prince</td>
+</tr>
+<tr>
+<td>Blind tiger</td>
+<td>moko</td>
+<td>2</td>
+<td><code>FrlbW</code></td>
+<td>flying stag</td>
+</tr>
+<tr>
+<td>Ferocious leopard</td>
+<td>mohyo</td>
+<td>2</td>
+<td><code>FfbW</code></td>
+<td>bishop</td>
+</tr>
+<tr>
+<td>Gold general</td>
+<td>kinsho</td>
+<td>2</td>
+<td><code>WfF</code></td>
+<td>rook</td>
+</tr>
+<tr>
+<td>Silver general</td>
+<td>ginsho</td>
+<td>2</td>
+<td><code>FfW</code></td>
+<td>vertical mover</td>
+</tr>
+<tr>
+<td>Copper general</td>
+<td>dosho</td>
+<td>2</td>
+<td><code>fKbW</code></td>
+<td>side mover</td>
+</tr>
+<tr>
+<td>Vertical mover</td>
+<td>shugyo</td>
+<td>2</td>
+<td><code>WfbR</code></td>
+<td>flying ox</td>
+</tr>
+<tr>
+<td>Side mover</td>
+<td>ogyo</td>
+<td>2</td>
+<td><code>WrlR</code></td>
+<td>free boar</td>
+</tr>
+<tr>
+<td>Reverse chariot</td>
+<td>hensha</td>
+<td>2</td>
+<td><code>fbR</code></td>
+<td>whale</td>
+</tr>
+<tr>
+<td>Vertical soldier</td>
+<td>shuhei</td>
+<td>2</td>
+<td><code>WfRrlR2</code></td>
+<td>chariot soldier</td>
+</tr>
+<tr>
+<td>Side soldier</td>
+<td>ohei</td>
+<td>2</td>
+<td><code>WfR2rlR</code></td>
+<td>water buffalo</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>kyosha</td>
+<td>2</td>
+<td><code>fR</code></td>
+<td>white horse</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>keima</td>
+<td>2</td>
+<td><code>ffN</code></td>
+<td>side soldier</td>
+</tr>
+<tr>
+<td>Iron general</td>
+<td>tessho</td>
+<td>2</td>
+<td><code>fK</code></td>
+<td>vertical soldier</td>
+</tr>
+<tr>
+<td>Dog</td>
+<td>inu</td>
+<td>2</td>
+<td><code>fWbF</code></td>
+<td>multi general</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>fuhyo</td>
+<td>16</td>
+<td><code>fW</code></td>
+<td>gold general</td>
+</tr>
+</tbody>
+</table></div>
+<p>Promoted-only forms:</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Romaji</th>
+<th>Movement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prince</td>
+<td>taishi</td>
+<td><code>K</code></td>
+</tr>
+<tr>
+<td>Heavenly tetrarch</td>
+<td>shitenno</td>
+<td><code>B(&gt;=2)fbR(&gt;=2)rlR(2&lt;=n&lt;=3)cxK</code></td>
+</tr>
+<tr>
+<td>Flying ox</td>
+<td>higyu</td>
+<td><code>BfbR</code></td>
+</tr>
+<tr>
+<td>Flying stag</td>
+<td>hiroku</td>
+<td><code>fbRK</code></td>
+</tr>
+<tr>
+<td>Free boar</td>
+<td>honcho</td>
+<td><code>BrlR</code></td>
+</tr>
+<tr>
+<td>Multi general</td>
+<td>suisho</td>
+<td><code>fRbB</code></td>
+</tr>
+<tr>
+<td>Whale</td>
+<td>keigei</td>
+<td><code>fRbQ</code></td>
+</tr>
+<tr>
+<td>White horse</td>
+<td>hakku</td>
+<td><code>fQbR</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>The two camps are deliberately asymmetric: Gold General and Vice General, Lion
+Hawk and Free Eagle, and King and Drunk Elephant each swap sides between them,
+while Phoenix, Queen, Lion and Kirin mirror.</p>
 <h3 id="promotion">Promotion</h3>
 <p>The last 5 ranks form the promotion zone. Pieces promote optionally when entering the zone or moving within it to make a capture. Each piece promotes at most once:</p>
 <p>Water Buffalo → Fire Demon · Vertical Soldier → Water Buffalo · Iron General → Vertical Soldier · Lion → Lion Hawk · Kirin → Lion · Free King → Free Eagle · Phoenix → Free King · Rook General → Great General · Soaring Eagle → Rook General · Dragon King → Soaring Eagle · Rook → Dragon King · Gold General → Rook · Pawn → Gold General · Dog → Multi-General (fRbB) · Reverse Chariot → Whale (vRbB) · Bishop General → Vice General · Horned Falcon → Bishop General · Dragon Horse → Horned Falcon · Bishop → Dragon Horse · Ferocious Leopard → Bishop · Chariot Soldier → Heavenly Tetrarchs · Side Soldier → Chariot Soldier · Knight → Side Soldier · Vertical Mover → Flying Ox (BvR) · Silver General → Vertical Mover · Lance → White Horse (vRfB) · Blind Tiger → Flying Stag (vRFsW) · Drunk Elephant → Crown Prince · Side Mover → Free Boar (BsR) · Copper General → Side Mover</p>
@@ -166,6 +492,7 @@ Side Mover (a4, p4) · Vertical Mover (b4, o4) · Rook (c4, n4) · Horned Falcon
 <h3 id="rules">Rules</h3>
 <p><strong>Win:</strong> Capture all opponent royal pieces. Royals are the King and Crown Prince (Drunk Elephant’s promoted form). A player with both survives losing one; they lose only when the last royal is captured or burned.</p>
 <p><strong>No Drops:</strong> Captured pieces are permanently removed.</p>
+<p><strong>Promotion Trigger:</strong> A move qualifies when it starts outside the zone and ends inside it, or is a capture starting inside. Igui does not qualify, since the piece begins and ends outside. As in Dai Shogi, a piece that declines promotion may afterwards promote only by capturing, and that restriction resets when it leaves the zone and re-enters — per-piece state that cannot be derived from the position.</p>
 <p><strong>No Check Rule:</strong> No prohibition against moving into or remaining in check. Stalemate cannot occur in practical play.</p>
 <p><strong>Repetition:</strong> Perpetual check is forbidden — the checker must deviate. Perpetual chasing also requires the chaser to deviate. Pure positional repetitions (neither side attacking) are draws.</p>
 <h3 id="attribution">Attribution</h3>

@@ -557,6 +557,334 @@
 <p><strong>Hook Mover:</strong> A Rook that may make one 90° turn anywhere in its path (but is not required to turn). Like a Rook, it stops at the point of capture.</p>
 <p><strong>Capricorn:</strong> A Bishop that may make one 90° turn anywhere in its path.</p>
 <hr>
+<h3 id="piece-table">Piece Table</h3>
+<p>Movement is in extended Betza notation — see Reading the Piece Tables in the
+Shogi rulebook. Read the confidence note in this variant’s <code>verified</code> block
+before relying on these values.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Count</th>
+<th>Movement</th>
+<th>Promotes to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>King</td>
+<td>1</td>
+<td><code>K</code></td>
+<td>Emperor</td>
+</tr>
+<tr>
+<td>Hook mover</td>
+<td>1</td>
+<td><code>RmaR</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Capricorn</td>
+<td>1</td>
+<td><code>BmaB</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Queen</td>
+<td>1</td>
+<td><code>Q</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Dragon king</td>
+<td>2</td>
+<td><code>FR</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Dragon horse</td>
+<td>2</td>
+<td><code>WB</code></td>
+<td>none</td>
+</tr>
+<tr>
+<td>Rook</td>
+<td>2</td>
+<td><code>R</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Bishop</td>
+<td>2</td>
+<td><code>B</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Side flier</td>
+<td>2</td>
+<td><code>rlRF</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Lion</td>
+<td>1</td>
+<td><code>NADaK</code></td>
+<td>Furious fiend</td>
+</tr>
+<tr>
+<td>Lion dog</td>
+<td>1</td>
+<td><code>KavKafavK</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>She-devil</td>
+<td>1</td>
+<td><code>R5B2</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Wrestler</td>
+<td>1</td>
+<td><code>B3rlW</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Guardian of the Gods</td>
+<td>1</td>
+<td><code>R3fF</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Buddhist devil</td>
+<td>1</td>
+<td><code>fB3rlbW</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Violent ox</td>
+<td>2</td>
+<td><code>R2</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Flying dragon</td>
+<td>2</td>
+<td><code>B2</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Old rat</td>
+<td>2</td>
+<td><code>fB2bR2</code></td>
+<td>Bat</td>
+</tr>
+<tr>
+<td>Right chariot</td>
+<td>1</td>
+<td><code>fR[fr][bl]BbW</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Left chariot</td>
+<td>1</td>
+<td><code>fR[fl][br]BbW</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Vertical mover</td>
+<td>2</td>
+<td><code>fbRW</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Side mover</td>
+<td>2</td>
+<td><code>rlRW</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Phoenix</td>
+<td>1</td>
+<td><code>WA</code></td>
+<td>Golden bird</td>
+</tr>
+<tr>
+<td>Kirin</td>
+<td>1</td>
+<td><code>FD</code></td>
+<td>Great dragon</td>
+</tr>
+<tr>
+<td>Donkey</td>
+<td>2</td>
+<td><code>WfbD</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Knight</td>
+<td>2</td>
+<td><code>ffN</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Drunken elephant</td>
+<td>1</td>
+<td><code>FfrlW</code></td>
+<td>Prince</td>
+</tr>
+<tr>
+<td>Blind tiger</td>
+<td>2</td>
+<td><code>FrlbW</code></td>
+<td>Free tiger</td>
+</tr>
+<tr>
+<td>Ferocious leopard</td>
+<td>2</td>
+<td><code>FfbW</code></td>
+<td>Free leopard</td>
+</tr>
+<tr>
+<td>Reclining dragon</td>
+<td>1</td>
+<td><code>WbF</code></td>
+<td>Free dragon</td>
+</tr>
+<tr>
+<td>Gold general</td>
+<td>2</td>
+<td><code>WfF</code></td>
+<td>Free gold</td>
+</tr>
+<tr>
+<td>Silver general</td>
+<td>2</td>
+<td><code>FfW</code></td>
+<td>Free silver</td>
+</tr>
+<tr>
+<td>Copper general</td>
+<td>2</td>
+<td><code>fbWfF</code></td>
+<td>Free copper</td>
+</tr>
+<tr>
+<td>Tile general</td>
+<td>2</td>
+<td><code>fFbW</code></td>
+<td>Free tile</td>
+</tr>
+<tr>
+<td>Evil wolf</td>
+<td>2</td>
+<td><code>frlK</code></td>
+<td>Free wolf</td>
+</tr>
+<tr>
+<td>Iron general</td>
+<td>2</td>
+<td><code>fK</code></td>
+<td>Free iron</td>
+</tr>
+<tr>
+<td>Stone general</td>
+<td>2</td>
+<td><code>fF</code></td>
+<td>Free stone</td>
+</tr>
+<tr>
+<td>Reverse chariot</td>
+<td>2</td>
+<td><code>fbR</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Lance</td>
+<td>2</td>
+<td><code>fR</code></td>
+<td>Gold general</td>
+</tr>
+<tr>
+<td>Earth general</td>
+<td>2</td>
+<td><code>fbW</code></td>
+<td>Free earth</td>
+</tr>
+<tr>
+<td>Go-between</td>
+<td>2</td>
+<td><code>fbW</code></td>
+<td>Free goer</td>
+</tr>
+<tr>
+<td>Blind bear</td>
+<td>2</td>
+<td><code>FbR</code></td>
+<td>Free bear</td>
+</tr>
+<tr>
+<td>Chinese cock</td>
+<td>1</td>
+<td><code>rlbWfF</code></td>
+<td>Wizard stork</td>
+</tr>
+<tr>
+<td>Old monkey</td>
+<td>1</td>
+<td><code>FbW</code></td>
+<td>Mountain witch</td>
+</tr>
+<tr>
+<td>Angry boar</td>
+<td>2</td>
+<td><code>W</code></td>
+<td>Free boar</td>
+</tr>
+<tr>
+<td>Cat sword</td>
+<td>2</td>
+<td><code>F</code></td>
+<td>Free cat</td>
+</tr>
+<tr>
+<td>Coiled serpent</td>
+<td>1</td>
+<td><code>fbWbF</code></td>
+<td>Free serpent</td>
+</tr>
+<tr>
+<td>Dark spirit</td>
+<td>1</td>
+<td><code>f[bl]FrW</code></td>
+<td>Buddhist spirit</td>
+</tr>
+<tr>
+<td>Deva</td>
+<td>1</td>
+<td><code>f[br]FlW</code></td>
+<td>Teaching king</td>
+</tr>
+<tr>
+<td>Pawn</td>
+<td>19</td>
+<td><code>fW</code></td>
+<td>Gold general</td>
+</tr>
+</tbody>
+</table></div>
+<p>Promoted-only forms: Emperor (teleport, described above) · Prince <code>K</code> ·
+Teaching king <code>QavKafavK</code> · Buddhist spirit <code>QNADaK</code> · Furious fiend
+<code>NADaKafavK</code> · Golden bird <code>fbRrlR2B3</code> · Great dragon <code>rlRfbR2B3</code> · Bat <code>fRbB</code> ·
+Mountain witch <code>BbRfW</code> · Wizard stork <code>BfRbW</code> · Free gold <code>RfB</code> · Free silver
+<code>BfR</code> · Free copper <code>fbRfB</code> · Free iron <code>fQ</code> · Free tile <code>fBbR</code> · Free stone
+<code>fB</code> · Free earth <code>fbR</code> · Free goer <code>fbR</code> · Free tiger <code>BrlbR</code> · Free leopard
+<code>BfbR</code> · Free serpent <code>fbRbB</code> · Free dragon <code>RbB</code> · Free cat <code>B</code> · Free bear
+<code>BrlR</code> · Free boar <code>BrlR</code> · Free wolf, for which the article prints no notation.</p>
+<p>The Emperor’s <code>(U)</code> in the source is a page-local shorthand for its teleport, not
+a Betza atom: it jumps to any empty square, may jump to and capture any non-royal
+piece anywhere, and may capture a royal only if that royal is unprotected.</p>
+<hr>
 <h3 id="promotion">Promotion</h3>
 <ul class="rules">
 <li>Promotion may occur <strong>anywhere on the board</strong>, triggered by <strong>making a capture</strong> (not by entering a zone)</li>
