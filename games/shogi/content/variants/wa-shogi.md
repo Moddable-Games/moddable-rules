@@ -6,6 +6,17 @@ players: "2"
 parent: shogi
 win: "Capture the opponent's Crane King"
 special: "Played on an 11×11 board with 23 pieces of 14 different types per side. All non-Pawn pieces are unique. Played historically without drops; modern play often adds drops. Promotion zone is the last 3 ranks; each piece has a fixed promoted form."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Wa_shogi"
+  unverified:
+    - "THE MOVEMENT OF ALL 17 PIECE TYPES. Wikipedia gives them only as diagram images and there is no text description in the article; the chessvariants page returned 403. This is a hard blocker: nobody can implement Wa Shogi without a human reading the diagrams. Further web searching will not resolve it."
+    - "Running Rabbit's promotion target."
+    - "Whether the drop version uses standard shogi drop restrictions."
+    - "Whether the crane king is subject to check, or only to bare capture."
+unsupported: "Blocked on content, not capability. 11x11, 27 pieces a side across 17 types, and the full starting layout and promotion list ARE documented and recorded below - but every piece's movement exists only as an image. It is played either with or without drops, so it is two rulesets over one piece set; the drop version implies demotion on capture. Won by capturing the opponent's Crane King, not by checkmate. Promotion zone is the far three ranks and is optional."
 engine:
   topology:
     type: grid

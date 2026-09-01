@@ -6,6 +6,17 @@ players: "2"
 parent: shogi
 win: Capture the opponent's Emperor
 special: "Modern Shogi variant on a 44-cell triangular board. 13 pieces per side: Emperor (leaps to any cell), Chariot (slides orthogonally, runs down Soldiers), Cavalry (leaps to second orthogonal), General (steps to any adjacent cell), and Soldiers. Captured pieces are removed permanently. Soldiers and Cavalry promote to General upon any capture."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://www.chessvariants.com/44.dir/sankaku-shogi.html"
+  unverified:
+    - "The exact row-by-row board shape and triangle orientations. The total of 44 cells is stated twice; a per-row breakdown obtained once summed to 23 and is not trusted."
+    - "The true neighbour count per triangular cell under each relation."
+    - "What 'the second orthogonal' means on a triangular grid - two edge-steps in a line, and how a line is defined at all. This is geometrically non-obvious and the engine cannot be written without it."
+    - "Whether the Chariot's 'run down' can take several Soldiers in one slide."
+unsupported: "A triangular tiling with TWO different adjacency relations that different pieces use - edge-sharing only for 'orthogonal', edge-or-vertex for 'adjacent'. Also needs a rock-paper-scissors capture immunity (Soldiers cannot capture Chariots; Chariots capture Soldiers and continue sliding), promotion triggered by CAPTURE rather than by zone, and an Emperor that leaps to any cell but may not capture a defended enemy Emperor, which requires evaluating defendedness. No drops: captures leave play permanently."
 engine:
   topology:
     type: triangular

@@ -6,6 +6,22 @@ players: "2"
 parent: shogi
 win: Checkmate the King
 special: "2-player Shogi variant on a 91-hexagon board (same shape as Glinski's Hexagonal Chess, differently oriented). All Shogi pieces adapted to hexagonal movement. Drops apply with hex-specific Pawn rules: no two-Pawn-per-file restriction (left out); Pawn drop may not check the King (stricter than Shogi). Promotion zone is 4 ranks. Fergus Duniho."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://www.chessvariants.com/hexagonal.dir/hexshogi/index.html"
+    - "https://boardgamegeek.com/boardgame/224619/hex-shogi-91"
+    - "https://en.wikipedia.org/wiki/Hexshogi"
+  decisions:
+    - "This is Fergus Duniho's Hex Shogi 91 - a hexagon 6 cells to a side, 91 cells. It is NOT Wikipedia's 'Hexshogi', which is a different game by George R. Dekle Sr. (1986) on 85 cells. Any implementation that reconciles against the Wikipedia article will build the wrong game."
+  unverified:
+    - "The starting setup. Not obtained at all."
+    - "Per-piece hex movement for pawn, lance, knight, silver, gold, bishop, rook and king."
+    - "Hex orientation as an explicit statement (inferable from the clock mapping, not stated)."
+    - "The specific pawn-drop restrictions, and the two-player promotion zone."
+    - "The variant's own page, chessvariants.com/hexagonal.dir/hexshogi/hexshogi91.html, returned HTTP 403 on every attempt and needs fetching from an ordinary browser."
+unsupported: "Non-rectangular topology: a hexagon of 91 cells with TWELVE directions per cell - six orthogonal and six diagonal - so pieces need a hex coordinate system and a per-player forward cone rather than a single forward vector. The hex topology already plays in this engine, so the provider is not the blocker; the setup and per-piece movement are, and both are currently unobtainable from the web."
 engine:
   topology:
     type: hex

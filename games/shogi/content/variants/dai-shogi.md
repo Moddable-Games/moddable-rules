@@ -6,6 +6,12 @@ players: "2"
 parent: shogi
 win: Capture all opponent royal pieces
 special: "Historical Japanese 15×15 large Shogi variant; precursor to Chu Shogi. 65 pieces per side including Lion (double-mover), Kirin, Phoenix, and Drunk Elephant (promotes to Crown Prince, a second royal). No drops. Extinction royalty: player loses only when their last royal is captured."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Dai_shogi"
+unsupported: "15x15, 65 pieces a side across 29 types, no drops. The complete piece table is on Wikipedia with Betza notation alongside each diagram, so it is transcribable text rather than images. Two mechanics beyond scale: the Lion, which jumps anywhere within two squares, may capture twice in a turn, and may return to its own square to capture without moving (igui) - and note chu shogi's lion-capture restrictions explicitly do NOT apply here; and the Drunk Elephant, which promotes to a Prince and gives its owner a SECOND royal piece, so the win condition is capturing the last remaining king or prince. Promotion zone is the far five ranks and is optional."
 engine:
   topology:
     type: grid

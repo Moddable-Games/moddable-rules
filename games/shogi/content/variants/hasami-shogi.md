@@ -7,6 +7,18 @@ players: "2"
 parent: shogi
 win: Reduce opponent to one remaining piece
 special: Custodial sandwich capture. No drops, no promotion. All pieces are identical.
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Hasami_shogi"
+  decisions:
+    - "Wikipedia documents TWO distinct published versions with different boards, piece counts, movement and win conditions. This file must commit to one before implementation; neither has been chosen yet."
+  unverified:
+    - "Whether diagonal sandwiches or a diagonal five-in-a-row ever count. Both versions specify 'horizontally or vertically' and neither positively excludes diagonals."
+    - "The exact starting arrangement for version 2 beyond 'their two nearest ranks'."
+    - "Whether version 2's jump can chain."
+unsupported: "Capture is never by displacement, so the engine's 'capture = move onto the square' assumption has to be removed rather than extended. Custodial capture is evaluated only for the MOVER - a player may safely move a piece INTO a gap between two enemies without being taken - so it is a move effect, not a board scan. Corners are captured by occupying the two orthogonally surrounding cells. Version 2 additionally needs a five-in-a-row win test with a positional exclusion zone (the line must lie outside that player's own starting two rows)."
 engine:
   topology:
     type: grid

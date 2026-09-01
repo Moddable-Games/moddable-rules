@@ -6,6 +6,16 @@ players: "2"
 parent: shogi
 win: "Checkmate the opponent's King"
 special: Every piece except the King flips to its alternate face after each move
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Kyoto_shogi"
+    - "https://ja.wikipedia.org/wiki/京都将棋"
+  unverified:
+    - "An explicit statement of the win condition. Neither the English nor the Japanese article gives one."
+    - "Text (non-image) movement definitions per face from an English source. The English piece table is diagrams only; the claim that each face moves as its standard-shogi namesake rests on one Japanese sentence."
+unsupported: "5x5, five pieces a side, and every piece except the king MUST flip to its other face after every move, regardless of where it started or landed. There is no promotion zone at all. The pairs are tokin/lance, silver/bishop, gold/knight and pawn/rook. A captured piece may be dropped with EITHER face up, and drop restrictions are absent - two pawns on a file are legal. Face has to become part of a move's result rather than a property of a promotion square."
 engine:
   topology:
     type: grid

@@ -6,6 +6,21 @@ players: 2
 parent: shogi
 win: Checkmate the opponent's King
 special: "Each piece borrows the movement of the friendly piece directly behind it. A Pawn backed by a Rook moves like a Rook."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Annan_shogi"
+    - "https://lishogi.org/variant/annanshogi"
+    - "https://ja.wikipedia.org/wiki/安南将棋"
+  unverified:
+    - "Which direction 'behind' is, per player. Japanese Wikipedia confirms the pieces must be VERTICALLY adjacent and that the rear piece governs the front one, but no source states whether 'behind' means toward the owner's home rank. This is the single most load-bearing unverified fact here and must NOT be filled in from intuition."
+    - "What happens when no allied piece is behind. Not stated anywhere; the natural reading is 'moves normally', which is inference."
+    - "Whether borrowed movement applies to captures as well as quiet moves."
+    - "Chaining: whether a rear piece that is itself borrowing a move confers its borrowed move or its native move. Undocumented in every source, and a real engine decision."
+    - "Whether the King is affected, and whether promotion keys off the piece's own identity or its borrowed move."
+    - "The explicit win condition."
+unsupported: "Move generation becomes context-dependent: a piece's move set is a function of whatever allied piece stands directly behind it, recomputed every position, which defeats any cached per-piece move table. lishogi documents a consequence that also breaks legality testing - capturing the ENABLER behind a checking piece is a legal way out of check, so the usual 'capture or block the checker' evasion set is incomplete. Setup also differs from standard shogi: the rook's and bishop's pawns start one step toward the centre. Do not implement until the 'behind' direction is settled."
 engine:
   topology:
     type: grid

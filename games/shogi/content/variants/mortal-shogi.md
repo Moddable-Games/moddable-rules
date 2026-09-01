@@ -6,6 +6,19 @@ players: "2"
 parent: shogi
 win: Checkmate the King
 special: "Modern 9×9 Shogi variant by Roberto Lavieri and Fergus Duniho. Captured pieces demote one step in a fixed ranking chain (Dragon King → Dragon Horse → Rook → Bishop → Gold General → Silver General → Lance → Knight → removed) rather than returning to their original form. Promotes of sub-Gold pieces are flexible: any higher piece up to Gold General."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://www.chessvariants.com/shogivariants.dir/kamikazeshogi.html"
+    - "https://www.chessvariants.com/difftaking.dir/mortalchessgi.html"
+  decisions:
+    - "The demotion chain quoted in some places online is KAMIKAZE Mortal Shogi's, a different variant by the same author, and it terminates in a 'Kamikaze' piece that does not exist here. It must not be used as this variant's chain."
+  unverified:
+    - "Mortal Shogi's own demotion chain - the central rule. Its page, chessvariants.com/shogivariants.dir/mortalshogi.html, returned HTTP 403 on every attempt from this environment and needs fetching from an ordinary browser."
+    - "Board size, whether drops are used, promotion rules and win condition for Mortal Shogi itself."
+    - "Whether promoted pieces demote to their unpromoted face or one rung down the chain."
+unsupported: "Capture is not identity-preserving: the captured piece changes TYPE on the way into hand, one rung down a fixed ranking, with the bottom rung removed from play, which makes material a decaying resource rather than a conserved one. The pattern is confirmed from the ancestor game Mortal Chessgi (queen to rook to bishop to knight to pawn to removed) but this variant's own chain is unverified - see verified.unverified. Do not implement from the Kamikaze chain."
 engine:
   topology:
     type: grid

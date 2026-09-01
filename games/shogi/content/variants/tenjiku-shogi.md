@@ -6,6 +6,16 @@ players: "2"
 parent: shogi
 win: Capture all opponent royal pieces
 special: "Medieval Japanese 16×16 Shogi variant derived from Chu Shogi. Introduces Fire Demons (burn all adjacent enemies after moving; passively burn enemies that move adjacent to them), hierarchical jumping generals, and Lion Hawk / Free Eagle double-movers. No drops. Extinction royalty."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Tenjiku_shogi"
+  decisions:
+    - "Where a fire demon moves next to another fire demon, sources differ on whether other adjacent pieces also burn. The Tenjiku Shogi Association rules specify that only the moving fire demon is immolated, and that reading is the one recorded here."
+  unverified:
+    - "Lion-capture and lion-trading restrictions, and Tenjiku's relationship to chu shogi's lion rules."
+unsupported: "16x16, 78 pieces a side across 36 types, no drops. The Wikipedia piece table is in Betza notation and is directly machine-readable. Three mechanics: FIRE DEMON BURNING - wherever a fire demon stops, every adjacent enemy piece except another fire demon is removed, and any piece that stops next to an enemy fire demon is removed after making its capture, so this is a post-move board pass that also destroys the mover's own pieces; JUMPING GENERALS - when capturing, a great general may jump any number of LOWER-RANKING pieces, which needs a piece-rank comparison table in move generation; and AREA MOVES - the vice general and fire demon may step up to three times in one turn, stopping on capture. No per-piece persistent state is needed: burning is positional, not a status effect."
 engine:
   topology:
     type: grid

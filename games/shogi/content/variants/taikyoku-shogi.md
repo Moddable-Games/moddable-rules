@@ -6,6 +6,16 @@ players: "2"
 parent: shogi
 win: Capture the King and Crown Prince
 special: "36×36 historical Japanese Shogi variant meaning 'Ultimate Chess.' The largest chess variant ever documented. 402 pieces per side (804 total on 1,296 squares). Whether it was ever played to completion is disputed — a single game is estimated to require 10,000+ moves. Documented in a single known Japanese manuscript. L. Lynn Smith transcription; source: chessvariants.com."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Taikyoku_shogi"
+  decisions:
+    - "Promotion must be made configurable. Wikipedia states plainly that complete rules have not been found and that sources vary: either a piece promotes on its first capture, or a player must promote on entering the far 11 ranks. There is no single correct answer available, and the choice has an engine cost - the first reading requires a per-piece has-captured flag persisting across turns and the second does not."
+  unverified:
+    - "The complete rules. The game was rediscovered after centuries of obscurity and Wikipedia warns it is difficult to say exactly what all the rules were."
+unsupported: "36x36, 402 pieces a side across 207 types, no drops - by a wide margin the largest thing in this corpus. The Wikipedia piece table is Betza notation per piece and is the most directly parseable of the five large variants. Needs hook moves (run in a line, turn 90 degrees once mid-route, continue), area moves for the lion and lion hawk, and range-capturing pieces that jump any number of pieces. Win by capturing the last king or crown prince."
 engine:
   topology:
     type: grid

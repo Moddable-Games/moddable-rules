@@ -6,6 +6,12 @@ players: "2"
 parent: shogi
 win: Capture the King (and Crown Prince if present)
 special: "25×25 historical Japanese Shogi variant. Name means 'Grand Chess.' Approximately 177 piece types per side (354 pieces total) — the largest documented chess variant with complete, verified piece movements for every piece. No drops; captured pieces removed from play. Intermediate in scale between Maka-Dai-Dai Shogi (19×19) and Taikyoku Shogi (36×36). Documented in historical Japanese manuscripts."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Tai_shogi"
+unsupported: "25x25, 177 pieces a side across 93 types, no drops. No promotion zones - promotion is compulsory on capture, which means a per-piece 'has captured' flag persisting across turns. Needs lion multi-capture, igui, and hook moves. The Emperor jumps to any empty square. Win by capturing the emperor and prince. The Wikipedia piece table is primarily Betza notation and is machine-readable."
 engine:
   topology:
     type: grid

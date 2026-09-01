@@ -6,6 +6,12 @@ players: "2"
 parent: shogi
 win: Capture the last royal piece
 special: "19×19 historical Japanese Shogi variant meaning 'Great Dai-Dai Chess.' One of the largest chess-family games in recorded history. 96 pieces of 50 types per side (192 pieces total). No drops; captures remove permanently. Features Lion-power pieces, Hook Movers, the Emperor (universal leaper), and contagious promotion through the Teaching King and Buddhist Spirit. Promotion triggers on any capture. Historical; source: H. G. Muller (chessvariants.com)."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
+  sources:
+    - "https://en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+unsupported: "19x19, 96 pieces a side across 50 types, no drops. There are NO promotion zones: promotion is by capture, with pieces on the 4th, 5th and 6th ranks promoting to Gold. Needs lion multi-capture, igui, and hook movers that run orthogonally then turn 90 degrees and continue. The Emperor jumps to any empty square on the board. The strangest rule is contagious promotion: capturing a deva promotes the CAPTURER to Teaching King, and capturing a dark spirit promotes it to Buddhist Spirit - so the promotion target depends on what was taken, not on what took it. Win by capturing the last king, emperor or prince. Piece table on Wikipedia is text plus diagrams."
 engine:
   topology:
     type: grid
