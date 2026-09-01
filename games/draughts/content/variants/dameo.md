@@ -6,7 +6,26 @@ players: "2"
 parent: draughts
 order: 16
 win: Opponent has no legal move
-special: "Phalanx movement: lines of men slide together. Orthogonal captures only. 18 pieces per side."
+playable: false
+special: "Phalanx movement: an unbroken line of men slides one square forward along its own axis. Men move diagonally and orthogonally forward but capture ORTHOGONALLY ONLY; kings move queenwise but capture rookwise. 18 pieces per side on all 64 squares."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research against the sources below; every rule statement in this file is traceable to one of them."
+  sources:
+    - "https://www.mindsports.nl/index.php/on-the-evolution-of-draughts-variants/draughts-variants/509-dameo (Christian Freeling, the inventor)"
+    - "https://mindsports.nl/index.php/arena/dameo/65-rules (Freeling)"
+    - "https://en.wikipedia.org/wiki/Dameo"
+    - "http://mrraow.com/uploads/AiAiReports/Dameo/Dameo.html"
+  decisions:
+    - "King capture is ORTHOGONAL ONLY, per Freeling's own page: kings move queenwise but capture rookwise. Wikipedia describes king movement as all eight directions and does not state the capture restriction, so a Wikipedia-only reading gives eight-directional king capture. Freeling is the inventor and is followed."
+    - "A horizontal line of men cannot make a linear move. This follows from combining two sourced rules - the line moves along its own axis, and that direction must be forward - but no source states it in those words."
+  unverified:
+    - "Maximum phalanx length. No source states one; presumably up to 8."
+    - "Whether a sub-run of a longer line may move, leaving a gap. No source addresses it."
+    - "Whether a phalanx may capture as a unit. Every source describes linear movement under movement only, and capture always as a single piece jumping."
+    - "Whether a man promoting mid-capture continues the chain as a king."
+    - "Whether all 64 squares are used. Strongly implied by the a1-h1 starting row spanning both colours and by orthogonal capture, but never stated."
+unsupported: "The phalanx move is a new move type: one move relocates a man from the rear of an unbroken forward line to the empty square beyond its head, so move generation must walk each of the three forward axes collecting same-colour runs. Separately, the engine must not reuse a diagonal capture generator here - men capture orthogonally while moving diagonally, and kings move queenwise while capturing rookwise. Majority capture is a plain count, unlike Frisian."
 engine:
   topology:
     type: grid
@@ -18,64 +37,47 @@ engine:
 
 ## Dameo
 
-Invented by Christian Freeling in 2000. Dameo introduces two innovations to the draughts family: the phalanx, which lets a line of friendly pieces slide forward together as a unit, and a purely orthogonal capture system where all jumps go along ranks and files, never diagonally. The result is a game that rewards formation-building over the individual-piece tactics of most draughts variants.
+Christian Freeling's 2000 redesign of draughts, built to remove the drawishness of the classical game. Two mechanics do the work: men move in **phalanxes**, so a wall of men can advance as a unit, and capture is **orthogonal** while movement is not.
 
 {{svg:dameo-board.svg "Dameo — starting position"}}
 
 ### Setup
 
-**Board:** 8×8 board. Unlike most draughts variants, Dameo is played on **all 64 squares**, not just the dark ones.
+8×8 board, **all 64 squares in play**. Eighteen men per side in a trapezoid: the full back row a1–h1, six men on b2–g2, four on c3–f3.
 
-**Pieces:** 18 men per player, arranged in a trapezoidal formation:
+### Movement
 
-- **Row 1 (closest row):** all 8 squares occupied
-- **Row 2:** the 6 inner squares occupied (b2–g2)
-- **Row 3:** the 4 innermost squares occupied (c3–f3)
+**A single man** moves one square forward — straight ahead or diagonally forward. Never sideways, never backwards.
 
-White occupies rows 1–3. Black occupies rows 6–8 (mirror image).
+**A line of men** moves as one. A straight unbroken line of men of the same colour may slide **one square forward along the axis it occupies**, provided the square in front of the head of the line is vacant.
 
-**First move:** White moves first.
+The net effect on the board is easier to see than the description: the **rearmost man of the line relocates to the empty square just beyond the head**. Wikipedia describes the same rule the other way round — a man jumping over one or more adjacent friendly men in a straight line — and the two produce identical positions.
 
-### Rules
+Because the move must be both along the line's own axis and forward, a **horizontal** line cannot make a linear move.
 
-**Men movement:**
-
-Men move **forward only**, either straight ahead (orthogonally) or diagonally forward. They cannot move sideways or backward.
-
-In addition to single-step moves, a man may perform a **linear move**: if one or more friendly men are lined up directly behind it in a straight line (along a rank, file, or diagonal), the entire line slides forward by one square, provided the square at the front of the line is empty. A man cannot use a linear move to push into an occupied square.
-
-**King movement:**
-
-Kings move like queens in chess: any number of squares in any of the eight directions (orthogonal or diagonal), as long as the path is clear.
+**A king** moves like a chess queen: any distance, any of the eight directions, unobstructed.
 
 ### Capture
 
-**All captures in Dameo are orthogonal only**, along ranks and files, never diagonally.
+Capture is compulsory, and it is **orthogonal for everything**.
 
-- A man (or king) captures an adjacent opponent piece by jumping over it to the empty square directly beyond, along a rank or file.
-- Kings capture from any distance: the king jumps over a single opponent piece that lies any number of empty squares away along a rank or file, landing on any empty square beyond the captured piece on the same line.
-- **Mandatory capture:** If a capture is available, it must be taken.
-- **Majority rule:** When multiple capture sequences are available, the piece that can make the maximum number of captures must be used, and the longest sequence must be completed.
-- **Delayed removal:** Captured pieces are removed at the **end of the entire multi-capture sequence**, not after each individual jump. A piece that has been jumped but not yet removed still physically blocks the line and cannot be jumped again in the same sequence.
+- **A man captures** an adjacent enemy piece forwards, backwards or sideways, jumping to the empty square directly beyond. **Not diagonally.**
+- **A king captures rookwise** — along a rank or file only, at any distance, jumping a single enemy piece to any empty square beyond.
 
-### King Promotion
+So men move diagonally but cannot capture diagonally, and kings move queenwise but capture rookwise. This inversion is the most commonly mis-implemented part of the game.
 
-When a man reaches the opponent's back row (row 8 for White, row 1 for Black), it is promoted to a king at the end of its turn.
+**Majority capture takes precedence:** where a player has a choice of captures, the one taking the largest number of pieces must be played. Unlike Frisian Draughts, this is a **plain count** — kings and men are worth the same.
 
-- If a man reaches the back row during a multi-capture sequence without stopping there, it is not promoted until it ends its turn on the back row.
+**Captured pieces are removed at the end of the turn**, not during the sequence. During a multi-jump they remain on the board.
+
+### Promotion
+
+A man reaching the opponent's back row is crowned king.
 
 ### Winning
 
-A player wins when their opponent has no legal move: either all pieces have been captured, or all remaining pieces are blocked.
-
-### Draws
-
-The game is drawn when:
-
-- Both players agree.
-- The same position occurs three times with the same player to move (not necessarily consecutive).
-- Neither player can force a win.
+A player with no legal move loses — whether through having no pieces left, or through every piece being blocked.
 
 ### Attribution
 
-Dameo. Invented by Christian Freeling (2000). Rules in the public domain; game rules are not subject to copyright. Source: Wikipedia — Dameo article (CC-BY-SA 4.0).
+Christian Freeling, 2000. Rules published at mindsports.nl by the inventor.

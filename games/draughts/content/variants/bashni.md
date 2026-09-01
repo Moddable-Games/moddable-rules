@@ -1,12 +1,28 @@
 ---
+playable: false
 title: Bashni
 slug: bashni
 board: "8×8"
 players: "2"
 parent: draughts
 order: 15
-win: Capture or block all opponent commanders
-special: Column stacking on 8×8. Russian movement rules. Captured pieces form towers. Predecessor to Lasca.
+win: Leave the opponent with no legal move
+special: "Russian Draughts with towers. A captured piece is not removed: it goes to the BOTTOM of the capturing column. Only the top piece of a column is ever captured, and whoever is on top owns and commands the column."
+verified:
+  date: "2026-08-31"
+  method: "Desktop web research against the sources below; every rule statement in this file is traceable to one of them."
+  sources:
+    - "https://en.wikipedia.org/wiki/Bashni"
+    - "https://draughts.github.io/bashni.html"
+    - "https://www.iggamecenter.com/en/rules/bashni"
+    - "https://www.zpag.net/Jeux/Dame/Bashni_Towers_draughts.pdf"
+    - "https://mindsports.nl/index.php/on-the-evolution-of-draughts-variants/116-column-checkers"
+  unverified:
+    - "Maximum column height. No source states any limit; the theoretical maximum is 24. Do not assume a cap."
+    - "Whether prisoners join the capturing column after each hop of a multi-jump, or all at once at the end. This changes the resulting column ORDER and is unresolved by every source consulted."
+    - "Whether the same enemy column may be jumped more than once in one sequence. Russian Draughts forbids re-jumping a piece, but here the victim's top piece changes after each jump, so the rule's application is genuinely unclear."
+    - "Whether a man promoting mid-sequence continues as a king. iggamecenter says promotion works 'exactly the same way as in Russian Checkers', which implies yes, but no source states it for Bashni."
+    - "Whether maximal capture is required. Russian Draughts does not require it, and no source addresses it for Bashni."
 engine:
   topology:
     type: grid
@@ -14,48 +30,52 @@ engine:
     cols: 8
   players: [white, black]
   setup: "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1"
+unsupported: "A square must hold an ORDERED STACK of pieces rather than one piece, and nothing is ever removed from the board. Capture moves the victim's top piece to the bottom of the capturer's column; ownership, move type and promotion all read the column's top piece. Material evaluation counts tops of columns, not pieces, because a buried man is still on the board and can be freed later."
 ---
 
 ## Bashni
 
-Russian column draughts, the predecessor to Lasca. Captured pieces stack beneath the captor instead of leaving the board. Uses Russian Draughts movement rules (men capture backwards, mid-jump promotion) on a standard 8×8 board with 12 pieces per side. The name means "towers" in Russian.
+Russian Draughts played with towers. Nothing is ever taken off the board: a captured piece is imprisoned beneath the piece that took it, and can be freed again if the jailer is itself captured. Bashni (башни, "towers") is the predecessor of Lasca.
 
 {{svg:english-board.svg "Bashni — starting position"}}
 
 ### Setup
 
-**Board:** 8×8 checkered board, dark squares only. Same as English/Russian Draughts.
+Ordinary 64-square board, play on the dark squares. Twelve pieces per player on the three rows nearest them. White moves first.
 
-**Pieces:** 12 men per player on dark squares of the three nearest rows.
+### Columns
 
-**First move:** White moves first.
+A **column** is a stack of one or more pieces on a single square.
 
-### Rules
+- **The column belongs to the player whose piece is on top.** Ownership changes the moment the top piece changes.
+- **The column moves as its top piece moves** — as a man if a man is on top, as a king if a king is on top.
+- **A column always moves as one unit.** The pieces beneath travel with it.
 
-- **Men movement:** Men move diagonally forward only, one square at a time.
-- **Men capture:** Men capture by jumping diagonally over an adjacent opponent piece. Men can capture both forwards and backwards (Russian rules).
-- **Column formation:** When a piece jumps an opponent, the captured piece is placed underneath the capturing piece, forming a column (tower). A column is controlled by whoever's piece is on top (the "commander").
-- **Column movement:** A column moves as a single unit according to its commander: a man-led column moves forward only; a king-led column moves in any direction.
-- **Capturing a column:** When you jump a column, you take only the top piece (the commander). That piece goes under your jumping piece/column. The remaining stack stays in place, now controlled by the next piece down.
-- **Liberating buried pieces:** Capturing an opponent's column can free your own buried pieces. When the enemy commander is taken, your piece (if next from top) regains control.
-- **Mandatory capture:** Captures are compulsory.
-- **Free choice:** No majority rule. Player freely chooses between available captures.
-- **Mid-jump promotion:** If a man (or man-led column) reaches the back row during a multi-jump, it is promoted immediately and continues as a king.
-- **No re-jumping:** A piece/column cannot be jumped twice in the same sequence.
+### Movement
 
-### King Promotion
+- A man moves one square diagonally forward.
+- A king moves diagonally, forwards or backwards, any distance across unoccupied squares. Kings fly.
 
-- **Flying kings:** Kings (and king-led columns) move any number of squares diagonally in any direction.
-- **King capture:** Kings jump at distance along diagonals, landing on any open square beyond.
+### Capture
+
+Capture is compulsory. Men capture both forwards and backwards; kings jump in both directions and may come to rest on any empty square beyond.
+
+The stacking rules are the whole game:
+
+- **A captured piece is not removed.** It is placed **below the capturing column**, at the bottom.
+- **Only the topmost piece of a captured column is taken.** The rest of that column stays where it is, and is now commanded by whoever has been uncovered.
+- **In a multiple capture, prisoners are placed at the bottom in the order they were taken.**
+
+So a capture never reduces the number of pieces in play. It transfers one piece from the top of one column to the bottom of another, and may hand control of the remainder to the other player.
+
+### Promotion
+
+A man that reaches the far rank is crowned — **but only if it is the top piece of its column.** Pieces buried in a column are not promoted by the column reaching the back rank.
 
 ### Winning
 
-A player wins when their opponent controls no columns and has no individual pieces remaining (all are buried beneath the winner's columns) or when all opponent-controlled pieces are blocked.
-
-### Strategy
-
-Unlike standard draughts where captured material is permanently lost, in Bashni every capture creates a potential future liability. Tall towers are powerful but a single capture strips the commander and potentially frees multiple enemy pieces at once. The decision between building tall columns (concentrated power) versus maintaining multiple independent pieces (distributed control) is the central strategic tension.
+A player with no legal move loses. Because pieces are never removed, this is reached by burial and blockade rather than by elimination.
 
 ### Attribution
 
-Traditional Russian variant. Public domain. Pre-dates Lasca (1911). Source: Wikipedia (CC-BY-SA).
+Traditional Russian variant, public domain. Ancestor of Emanuel Lasker's Lasca.

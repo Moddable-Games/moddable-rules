@@ -47,12 +47,6 @@ engine:
       B: bK
       W: wK
   players: [white, black]
-  unsupported:
-    bashni: "column stacking: captured pieces are carried beneath the capturer rather than removed"
-    lasca: "column stacking on a 7×7 board"
-    dameo: "linear movement of whole rows of pieces"
-    alquerque: "5×5 point-and-line board rather than a square grid"
-    frisian: "mixed orthogonal and diagonal capture with a three-move king limit"
 ---
 
 <div class="section variant-hub">
