@@ -1,5 +1,6 @@
 ---
 title: Dai Shogi
+playable: true
 slug: dai-shogi
 board: "15×15"
 players: "2"
@@ -15,16 +16,240 @@ verified:
   unverified:
     - "Whether the knight gets a second chance to promote on reaching the far rank."
     - "The finer JCSA repetition deviation rules, which the source marks as presumed rather than attested."
-unsupported: "15x15, 65 pieces a side across 29 types, no drops. The complete piece table is on Wikipedia with Betza notation alongside each diagram, so it is transcribable text rather than images. Two mechanics beyond scale: the Lion, which jumps anywhere within two squares, may capture twice in a turn, and may return to its own square to capture without moving (igui) - and note chu shogi's lion-capture restrictions explicitly do NOT apply here; and the Drunk Elephant, which promotes to a Prince and gives its owner a SECOND royal piece, so the win condition is capturing the last remaining king or prince. Promotion zone is the far five ranks and is optional."
 engine:
   topology:
     type: grid
     rows: 15
     cols: 15
   players: [sente, gote]
-  setup: "[ln][kn][st][ig][cg][sg][gg][ki][gg][sg][cg][ig][st][kn][ln]/[rc]1[ct]1[fl]1[bt][de][bt]1[fl]1[ct]1[rc]/1[vo]1[ab]1[ew][ph][li][kr][ew]1[ab]1[vo]1/[rk][fy][sm][vm][bi][dh][dk][fk][dk][dh][bi][vm][sm][fy][rk]/[pw][pw][pw][pw][gb][pw][pw][pw][pw][pw][gb][pw][pw][pw][pw]/15/15/15/15/15/[PW][PW][PW][PW][GB][PW][PW][PW][PW][PW][GB][PW][PW][PW][PW]/[RK][FY][SM][VM][BI][DH][DK][FK][DK][DH][BI][VM][SM][FY][RK]/1[VO]1[AB]1[EW][KR][LI][PH][EW]1[AB]1[VO]1/[RC]1[CT]1[FL]1[BT][DE][BT]1[FL]1[CT]1[RC]/[LN][KN][ST][IG][CG][SG][GG][KI][GG][SG][CG][IG][ST][KN][LN]"
+  setup: "[ln][kn][st][ig][cg][sg][gg][ki][gg][sg][cg][ig][st][kn][ln]/[rc]1[ct]1[fl]1[bt][de][bt]1[fl]1[ct]1[rc]/1[vo]1[ab]1[ew][ph][li][kr][ew]1[ab]1[vo]1/[rk][fy][sm][vm][bi][dh][dk][fk][dk][dh][bi][vm][sm][fy][rk]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/4[gb]5[gb]4/15/15/15/4[GB]5[GB]4/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[RK][FY][SM][VM][BI][DH][DK][FK][DK][DH][BI][VM][SM][FY][RK]/1[VO]1[AB]1[EW][KR][LI][PH][EW]1[AB]1[VO]1/[RC]1[CT]1[FL]1[BT][DE][BT]1[FL]1[CT]1[RC]/[LN][KN][ST][IG][CG][SG][GG][KI][GG][SG][CG][IG][ST][KN][LN]"
   render:
     cellSize: 22
+  vocabulary:
+    king: { symbols: { "0": KI, "1": ki } }
+    gold: { symbols: { "0": GG, "1": gg } }
+    silver: { symbols: { "0": SG, "1": sg } }
+    copper: { symbols: { "0": CG, "1": cg } }
+    iron_general: { symbols: { "0": IG, "1": ig } }
+    stone_general: { symbols: { "0": ST, "1": st } }
+    lance: { symbols: { "0": LN, "1": ln } }
+    knight: { symbols: { "0": KN, "1": kn } }
+    reverse_chariot: { symbols: { "0": RC, "1": rc } }
+    cat_sword: { symbols: { "0": CT, "1": ct } }
+    leopard: { symbols: { "0": FL, "1": fl } }
+    blind_tiger: { symbols: { "0": BT, "1": bt } }
+    elephant: { symbols: { "0": DE, "1": de } }
+    violent_ox: { symbols: { "0": VO, "1": vo } }
+    angry_boar: { symbols: { "0": AB, "1": ab } }
+    evil_wolf: { symbols: { "0": EW, "1": ew } }
+    phoenix: { symbols: { "0": PH, "1": ph } }
+    lion: { symbols: { "0": LI, "1": li } }
+    kirin: { symbols: { "0": KR, "1": kr } }
+    rook: { symbols: { "0": RK, "1": rk } }
+    flying_dragon: { symbols: { "0": FY, "1": fy } }
+    side_mover: { symbols: { "0": SM, "1": sm } }
+    vertical_mover: { symbols: { "0": VM, "1": vm } }
+    bishop: { symbols: { "0": BI, "1": bi } }
+    dragon_horse: { symbols: { "0": DH, "1": dh } }
+    dragon_king: { symbols: { "0": DK, "1": dk } }
+    queen: { symbols: { "0": FK, "1": fk } }
+    pawn: { symbols: { "0": PW, "1": pw } }
+    go_between: { symbols: { "0": GB, "1": gb } }
+  plugins:
+    shogi:
+      drops: false
+      promotionZone: 5
+      promotionMap:
+        pawn: gold
+        knight: gold
+        angry_boar: gold
+        cat_sword: gold
+        evil_wolf: gold
+        iron_general: gold
+        stone_general: gold
+        violent_ox: gold
+        flying_dragon: gold
+        kirin: lion
+        phoenix: queen
+        rook: dragon_king
+        bishop: dragon_horse
+        gold: rook
+        silver: vertical_mover
+        copper: side_mover
+        leopard: bishop
+        lance: white_horse
+        reverse_chariot: whale
+        blind_tiger: flying_stag
+        vertical_mover: flying_ox
+        side_mover: free_boar
+        dragon_king: soaring_eagle
+        dragon_horse: horned_falcon
+        elephant: prince
+        go_between: elephant
+      pieceMoves:
+        copper:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[1,0]]
+          directional: true
+        iron_general:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1]]
+          directional: true
+        stone_general:
+          type: leaper
+          offsets: [[-1,-1],[-1,1]]
+          directional: true
+        cat_sword:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+        angry_boar:
+          type: leaper
+          offsets: [[-1,0],[1,0],[0,-1],[0,1]]
+        evil_wolf:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1]]
+          directional: true
+        leopard:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[-1,0],[1,0]]
+        blind_tiger:
+          type: leaper
+          offsets: [[-1,-1],[-1,1],[1,-1],[1,1],[0,-1],[0,1],[1,0]]
+          directional: true
+        elephant:
+          type: leaper
+          offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,-1],[1,1]]
+          directional: true
+        go_between:
+          type: leaper
+          offsets: [[-1,0],[1,0]]
+        reverse_chariot:
+          type: rider
+          dirs: [[-1,0],[1,0]]
+        violent_ox:
+          type: rider
+          dirs: orthogonal
+          maxSteps: 2
+        flying_dragon:
+          type: rider
+          dirs: diagonal
+          maxSteps: 2
+        kirin:
+          type: compose
+          parts:
+            - type: leaper
+              offsets: [[-1,-1],[-1,1],[1,-1],[1,1]]
+            - type: leaper
+              offsets: [[-2,0],[2,0],[0,-2],[0,2]]
+        phoenix:
+          type: compose
+          parts:
+            - type: leaper
+              offsets: [[-1,0],[1,0],[0,-1],[0,1]]
+            - type: leaper
+              offsets: [[-2,-2],[-2,2],[2,-2],[2,2]]
+        side_mover:
+          type: compose
+          parts:
+            - type: rider
+              dirs: [[0,-1],[0,1]]
+            - type: leaper
+              offsets: [[-1,0],[1,0]]
+        vertical_mover:
+          type: compose
+          parts:
+            - type: rider
+              dirs: [[-1,0],[1,0]]
+            - type: leaper
+              offsets: [[0,-1],[0,1]]
+        dragon_horse:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+            - type: rider
+              dirs: orthogonal
+              maxSteps: 1
+        dragon_king:
+          type: compose
+          parts:
+            - type: rider
+              dirs: orthogonal
+            - type: rider
+              dirs: diagonal
+              maxSteps: 1
+        queen:
+          type: rider
+          dirs: all
+        lion:
+          type: leaper
+          offsets: [[-2,-2],[-2,-1],[-2,0],[-2,1],[-2,2],[-1,-2],[-1,-1],[-1,0],[-1,1],[-1,2],[0,-2],[0,-1],[0,1],[0,2],[1,-2],[1,-1],[1,0],[1,1],[1,2],[2,-2],[2,-1],[2,0],[2,1],[2,2]]
+        prince:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        flying_stag:
+          type: compose
+          parts:
+            - type: rider
+              dirs: [[-1,0],[1,0]]
+            - type: rider
+              dirs: all
+              maxSteps: 1
+        flying_ox:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+            - type: rider
+              dirs: [[-1,0],[1,0]]
+        free_boar:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+            - type: rider
+              dirs: [[0,-1],[0,1]]
+        whale:
+          type: compose
+          parts:
+            - type: rider
+              dirs: [[-1,0]]
+              directional: true
+            - type: rider
+              dirs: [[1,0],[1,-1],[1,1]]
+              directional: true
+        white_horse:
+          type: compose
+          parts:
+            - type: rider
+              dirs: [[-1,0],[-1,-1],[-1,1]]
+              directional: true
+            - type: rider
+              dirs: [[1,0]]
+              directional: true
+        soaring_eagle:
+          type: compose
+          parts:
+            - type: rider
+              dirs: orthogonal
+            - type: rider
+              dirs: [[1,-1],[1,1]]
+              directional: true
+            - type: leaper
+              offsets: [[-1,-1],[-1,1],[-2,-2],[-2,2]]
+              directional: true
+        horned_falcon:
+          type: compose
+          parts:
+            - type: rider
+              dirs: diagonal
+            - type: rider
+              dirs: [[0,-1],[0,1],[1,0]]
+              directional: true
+            - type: leaper
+              offsets: [[-1,0],[-2,0]]
+              directional: true
   pieces:
     set: mce-shogi-fairy
 ---
@@ -52,7 +277,10 @@ Violent Ox (b3, n3) · Angry Boar (d3, l3) · Evil Wolf (f3, j3) · Kirin (g3) �
 Rook (a4, o4) · Flying Dragon (b4, n4) · Side Mover (c4, m4) · Vertical Mover (d4, l4) · Bishop (e4, k4) · Dragon Horse (f4, j4) · Dragon King (g4, i4) · Free King (h4)
 
 **Rank 5 (Pawn rank):**
-Go-Betweens at e5 and k5; Pawns on all other 13 files of rank 5.
+Pawns on all 15 files.
+
+**Rank 6:**
+Go-Betweens at e6 and k6, on their own rank ahead of the pawns, as in Chu Shogi.
 
 ### Pieces
 
@@ -110,6 +338,13 @@ extended Betza notation — see Reading the Piece Tables in the Shogi rulebook.
 | Stone general | sekisho | 2 | `fF` | gold general |
 | Go-between | chunin | 2 | `fbW` | drunk elephant |
 | Pawn | fuhyo | 15 | `fW` | gold general |
+
+Two pieces are approximated by the engine, and both are the same class of gap
+Chu Shogi already ships with. The Lion is modelled as a leaper reaching all 24
+squares within two steps, which is the right reach, but its double move is not
+modelled, so it cannot capture twice in a turn, make a hit-and-run, or return to
+its own square. The Soaring Eagle and Horned Falcon are given their slides plus
+the forward squares they reach, without the area-move continuation.
 
 Promoted-only forms:
 

@@ -21,7 +21,10 @@ Violent Ox (b3, n3) · Angry Boar (d3, l3) · Evil Wolf (f3, j3) · Kirin (g3) �
 Rook (a4, o4) · Flying Dragon (b4, n4) · Side Mover (c4, m4) · Vertical Mover (d4, l4) · Bishop (e4, k4) · Dragon Horse (f4, j4) · Dragon King (g4, i4) · Free King (h4)
 
 **Rank 5 (Pawn rank):**
-Go-Betweens at e5 and k5; Pawns on all other 13 files of rank 5.
+Pawns on all 15 files.
+
+**Rank 6:**
+Go-Betweens at e6 and k6, on their own rank ahead of the pawns, as in Chu Shogi.
 
 ### Pieces
 
@@ -79,6 +82,13 @@ extended Betza notation — see Reading the Piece Tables in the Shogi rulebook.
 | Stone general | sekisho | 2 | `fF` | gold general |
 | Go-between | chunin | 2 | `fbW` | drunk elephant |
 | Pawn | fuhyo | 15 | `fW` | gold general |
+
+Two pieces are approximated by the engine, and both are the same class of gap
+Chu Shogi already ships with. The Lion is modelled as a leaper reaching all 24
+squares within two steps, which is the right reach, but its double move is not
+modelled, so it cannot capture twice in a turn, make a hit-and-run, or return to
+its own square. The Soaring Eagle and Horned Falcon are given their slides plus
+the forward squares they reach, without the area-move continuation.
 
 Promoted-only forms:
 

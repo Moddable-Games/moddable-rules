@@ -44,7 +44,7 @@ Pieces are listed by file (a–k from left to right, White’s perspective) and 
 | h3 | Running Rabbit | FfRbW (diag step; fwd Rook; bwd step) |
 | d4, h4 | Sparrow Pawn | fW (fwd step) |
 
-*Total: 23 pieces per side (1 King, 2 special, 9 back-rank, 3 rank-2, 8 pawns).*
+*Total: 27 pieces per side (11 back-rank, 3 on rank 2, 11 on rank 3 including the Treacherous Fox and Running Rabbit, 2 on rank 4).*
 
 ## Promotion
 

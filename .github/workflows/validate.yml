@@ -22,6 +22,12 @@ jobs:
       - name: Check attribution
         run: node scripts/check-attribution.mjs
 
+      # A count is the cheapest fact about a starting position. Dai Shogi's
+      # file stated 65 pieces per side while its setup held 63, four lines
+      # apart, for eight weeks.
+      - name: Check setup piece counts
+        run: node scripts/check-piece-counts.mjs
+
       - run: npm ci --ignore-scripts
 
       - name: Build (for stats check)

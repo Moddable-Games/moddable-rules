@@ -223,6 +223,10 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-01
+- Dai Shogi's setup held 63 pieces a side while the same file said 65, from 2026-07-10 until now: the two go-betweens sat inside the pawn rank displacing two pawns, instead of standing on their own rank in front of them, and the position now matches the source exactly
+- `check-piece-counts.mjs` compares every setup against the piece count its own file states, and runs in CI. It is the check that was missing: nothing compared the two statements, so every diagram, PDF and board rendered the wrong position faithfully for eight weeks
+- Dai Shogi is playable: 29 piece types declared with movement, an explicit promotion map, and a corrected starting position
+- wa-shogi stated both 23 and 27 pieces per side in the same file; the setup holds 27 and the total is corrected
 - Piece tables for the large shogi variants folded into the variants they describe, following the convention grande-acedrex already used, rather than a separate content directory that published five standalone pages
 - Betza notation key added once to the shogi rulebook, cited by each table
 - Dai Shogi: the opposing camp is a 180-degree rotation, not a mirror, so the top player's Phoenix, Lion and Kirin sit opposite the bottom player's Kirin, Lion and Phoenix
