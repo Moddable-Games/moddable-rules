@@ -1,0 +1,60 @@
+# Rebuild the variant PDFs and publish them to the `pdfs` release, on every
+# push to main that changes the content they are built from.
+#
+# This exists because the PDFs were built by hand on one laptop. They were last
+# generated on 2026-08-07 and nobody noticed for four weeks, while thirteen
+# families changed their variants underneath. The Dai Shogi PDF showed a
+# starting position the web page beside it had already corrected, and the only
+# way anyone found out was a human downloading it and comparing.
+#
+# The PDFs are gitignored and served from a GitHub Release, so promoting dev to
+# main never touched them: there was no branch to get them into. Getting one
+# corrected PDF in front of a reader took three sessions. It should take a push.
+name: Publish PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/*/content/**'
+      - 'games/*/diagrams/**'
+      - 'shared/**'
+      - 'js/pdf.mjs'
+      - 'scripts/upload-pdfs.sh'
+  workflow_dispatch:
+
+concurrency:
+  group: publish-pdfs
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # required to write release assets
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      - name: Build site (PDFs render from dist)
+        run: npm run build
+
+      - name: Generate PDFs
+        run: node js/pdf.mjs && node scripts/gen-pdf-manifest.mjs
+
+      # The freshness hashes are what CI checks on dev. Regenerating them here
+      # and failing on a difference would mean main disagreed with dev; instead
+      # this asserts the PDFs just built match the hashes already committed, so
+      # a stale stamp is caught rather than silently overwritten.
+      - name: Verify the built PDFs match the committed hashes
+        run: node scripts/check-pdf-freshness.mjs
+
+      - name: Upload to the pdfs release
+        run: bash scripts/upload-pdfs.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
