@@ -1,5 +1,6 @@
 ---
 playable: false
+unsupported: "The demotion is now modelled: `demotionMap: {champion: pupil}` sends a captured Champion into hand as a non-royal Pupil, so a side can no longer drop a third royal piece onto a board that starts with two, verified over 400 plies from three seeds. What blocks it now is artwork, not rules. `mce-xiangqi-fairy` carries no glyph for the Mahout, the Crossbow or the Champion, so eight of the sixteen pieces render as empty squares - measured: 8 images for 16 occupied cells. It stays unplayable until those three characters exist in the set."
 title: Xiang Fu
 slug: xiang-fu
 board: "9×9"
@@ -7,7 +8,6 @@ players: "2"
 parent: chess
 win: Duple Checkmate, or capture one Champion then checkmate the remaining one
 special: "Xiangqi/chess hybrid by Eventlesstew for the PyChess Variant Design Contest. 9×9 board, dual Champions (royal), Crossbow (diagonal Cannon), piece drops within first two ranks, captures go to hand."
-unsupported: "Drops now work: `drops` and `dropZone: [0, 1]` restrict a drop to the owner's own first two ranks, verified as rows 0-1 for black and 7-8 for red. What is still missing is the demotion: a captured Champion should enter the hand as a Pupil, which is not royal, and instead returns as a Champion. So a player can drop a second royal piece."
 engine:
   topology:
     type: grid
@@ -77,8 +77,14 @@ engine:
       symbols:
         0: G
         1: g
+    pupil:
+      symbols:
+        0: U
+        1: u
   plugins:
     chess:
+      demotionMap:
+        champion: pupil
       pieces:
         mahout:
           type: rider
@@ -103,6 +109,10 @@ engine:
               dirs: diagonal
               captureSlide: true
         champion:
+          type: rider
+          dirs: all
+          maxSteps: 1
+        pupil:
           type: rider
           dirs: all
           maxSteps: 1
