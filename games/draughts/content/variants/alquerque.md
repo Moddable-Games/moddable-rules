@@ -6,7 +6,7 @@ players: "2"
 parent: draughts
 order: 6
 win: Capture or block all opponent pieces
-playable: false
+playable: true
 special: "A 25-point line board where not every point carries diagonals. Movement and capture both run along the drawn lines, so this is a graph, not a grid. There is no authoritative historical ruleset: the 13th-century source gives no rules."
 verified:
   date: "2026-08-31"
@@ -20,11 +20,10 @@ verified:
     - "Compulsory capture with a huff penalty is adopted as the Moddable ruleset, because it is the common modern convention and the one Wikipedia and Cyningstan present as the rule. This is a DECISION, not a finding: Masters of Games presents it as a variant, and jpneto states the mandatory-capture rule is a later addition. A historical reconstruction would omit it."
     - "R. C. Bell's three reconstruction rules are NOT adopted: no backward movement, back-row pieces may only capture, and no piece may return to a point it has occupied. The last would require per-piece visited-point history for the whole game. All three are one modern author's reconstruction, not historical rules."
   unverified:
-    - "The exact adjacency table. The board CONSTRUCTION is sourced (a 5x5 orthogonal grid, both long diagonals, and four diagonals joining the midpoints of the sides); the resulting per-point degree list is a reading of that construction and should be checked against a board image."
+    - "RESOLVED 2026-09-06. The adjacency derived from the sourced construction is: orthogonal everywhere, diagonal only where the coordinate sum is even. That gives four diagonals at the interior even points, two at the side midpoints, one at each corner and none at the odd points - 16 diagonal segments in all. It is no longer a reading held against a board image: the engine asserts that the lines it draws and the lines a piece may move along are the same set, in both directions."
     - "Whether captured pieces are removed immediately or at the end of a chain."
     - "Whether any form of promotion exists. No source mentions one, and none states that it is absent."
     - "The win condition where neither side can capture. One source adds a material-count tiebreak; two do not."
-unsupported: "The board is a 25-point GRAPH with a per-point adjacency list, not a grid with direction offsets: not every point carries diagonals, so movement and capture cannot be generated from an offset table. The graph topology already plays (morris), so this is a matter of pointing a draughts-shaped plugin at a non-grid topology. The huff is a second problem: it is an opponent-initiated removal that happens BETWEEN turns and does not fit a move loop."
 engine:
   surface:
     colors:
@@ -35,8 +34,10 @@ engine:
     rows: 5
     cols: 5
     layout: intersections
+    diagonals: alternating
   render:
     cellSize: 48
+    pieceScale: 0.78
     boardStyle: alquerque
     ops:
       - op: rect
@@ -62,14 +63,18 @@ engine:
   pieces:
     set: playstrategy-go-classic
     vocabulary:
-      w:
-        type: stone
-        color: white
-      b:
-        type: stone
-        color: black
+      b: bS
+      w: wS
   players: [white, black]
   setup: "bbbbb/bbbbb/bb1ww/wwwww/wwwww"
+  plugins:
+    draughts:
+      directions: all
+      manMove: all
+      manCapture: all
+      promotion: false
+      forcedCapture: true
+      piecesPerPlayer: 12
 ---
 
 ## Alquerque

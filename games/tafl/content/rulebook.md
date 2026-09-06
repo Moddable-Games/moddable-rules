@@ -44,15 +44,8 @@ engine:
   pieces:
     set: playstrategy-go-classic
     vocabulary:
-      K:
-        type: king
-        color: white
-      w:
-        type: stone
-        color: white
-      b:
-        type: stone
-        color: black
+      b: bS
+      w: wS
   players: [attackers, defenders]
 how_to_play: "Asymmetric Norse board game family. Defenders protect a King trying to reach safety. Attackers control a larger force trying to capture the King. Capture by surrounding enemy pieces on two opposite sides. Variants differ in board size, escape goals, and special rules."
 mechanics:

@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Hasami Shogi
 slug: hasami-shogi
 board: "9×9"
@@ -13,12 +13,11 @@ verified:
   sources:
     - "https://en.wikipedia.org/wiki/Hasami_shogi"
   decisions:
-    - "Wikipedia documents TWO distinct published versions with different boards, piece counts, movement and win conditions. This file must commit to one before implementation; neither has been chosen yet."
+    - "Wikipedia documents TWO distinct published versions with different boards, piece counts, movement and win conditions. This file implements version 1: nine identical pieces a side on the outer ranks, rook-range orthogonal movement, custodial capture, and a win by reducing the opponent to one piece. Version 2 and its five-in-a-row win test are not implemented here."
   unverified:
     - "Whether diagonal sandwiches or a diagonal five-in-a-row ever count. Both versions specify 'horizontally or vertically' and neither positively excludes diagonals."
     - "The exact starting arrangement for version 2 beyond 'their two nearest ranks'."
     - "Whether version 2's jump can chain."
-unsupported: "Capture is never by displacement, so the engine's 'capture = move onto the square' assumption has to be removed rather than extended. Custodial capture is evaluated only for the MOVER - a player may safely move a piece INTO a gap between two enemies without being taken - so it is a move effect, not a board scan. Corners are captured by occupying the two orthogonally surrounding cells. Version 2 additionally needs a five-in-a-row win test with a positional exclusion zone (the line must lie outside that player's own starting two rows)."
 engine:
   topology:
     type: grid

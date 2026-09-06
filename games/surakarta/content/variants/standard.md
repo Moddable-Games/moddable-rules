@@ -12,6 +12,7 @@ engine:
     layout: intersections
   render:
     cellSize: 50
+    pieceScale: 0.78
     cellColor: uniform
     decorations:
       - type: arcs
@@ -21,13 +22,6 @@ engine:
       stroke: "#8b7355"
   pieces:
     set: playstrategy-go-classic
-    vocabulary:
-      w:
-        type: stone
-        color: white
-      b:
-        type: stone
-        color: black
   players: [white, black]
   setup: "bbbbbb/bbbbbb/6/6/wwwwww/wwwwww"
 ---
