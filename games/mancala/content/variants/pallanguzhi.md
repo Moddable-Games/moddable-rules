@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Pallanguzhi
 slug: pallanguzhi
 board: "2×7 pits"
@@ -7,7 +8,6 @@ parent: mancala
 order: 6
 win: Capture all 168 seeds (opponent cannot fill pits to play)
 special: "Multi-lap sowing: the last seed always triggers pickup of the next pit, creating long relay chains."
-unsupported: "The skip-one relay capture (skip an empty pit, take the pit beyond it) is not expressible in the current mancala plugin configuration."
 engine:
   topology:
     type: pit
@@ -16,12 +16,21 @@ engine:
   players: [south, north]
   render:
     cellSize: 18
+  plugins:
+    mancala:
+      # Pallanguzhi relays from the pit AFTER the last seed rather than the pit
+      # the last seed fell into, and the sow ends when that pit is empty. The
+      # capture is measured from the empty pit: skip it, take the one beyond,
+      # then check again from there.
+      sowIntoOwnStore: false
+      relay: next
+      captureRule: skipOneBeyond
   setup: "12,12,12,12,12,12,12;0;12,12,12,12,12,12,12;0"
 ---
 
 ## Pallanguzhi
 
-A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: *pallam* (pit) and *kuzhi* (hole). Pallanguzhi uses 14 seeds per pit — significantly more than other Mancala variants — and features a continuous relay mechanic that creates long, unbroken sowing chains.
+A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: *pallam* (pit) and *kuzhi* (hole). Pallanguzhi uses 12 seeds per pit — significantly more than other Mancala variants — and features a continuous relay mechanic that creates long, unbroken sowing chains.
 
 
 {{svg:pallanguzhi-board.svg "Pallanguzhi — starting position"}}
@@ -30,7 +39,7 @@ A traditional South Indian Mancala game played predominantly in Tamil Nadu and K
 | Item | Qty | Notes |
 |------|-----|-------|
 | **Board** | 1 | 2 rows of 7 pits |
-| **Seeds** | 146 | Traditionally cowrie shells or tamarind seeds; 14 per pit at start (not counting the initial relay) |
+| **Seeds** | 168 | Traditionally cowrie shells or tamarind seeds; 12 per pit at start, 14 pits |
 
 ### Setup
 
