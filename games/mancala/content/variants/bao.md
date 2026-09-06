@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Bao
 slug: bao
 board: "4×8 pits (2 rows per player)"
@@ -7,7 +8,6 @@ parent: mancala
 order: 3
 win: Reduce opponent to no seeds in their inner row, or leave them with no legal move
 special: "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing."
-unsupported: "Four rows and a separate stocking phase. The board shape and turn structure differ from every other variant here, so the engine does not model it rather than approximating it."
 engine:
   topology:
     type: pit
@@ -17,7 +17,20 @@ engine:
   players: [south, north]
   render:
     cellSize: 20
-  setup: "0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2;0;2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0;0"
+  plugins:
+    mancala:
+      # A sow never leaves the sower's own half, so the circuit is that player's
+      # own sixteen: along the inner row and back along the outer.
+      rowsPerSide: 2
+      cols: 8
+      chooseDirection: true
+      captureRule: oppositeInnerRow
+      # 32 seeds a side: ten on the board, twenty-two introduced one a turn
+      # during namua.
+      namuaReserve: 22
+  # Inner row first, then outer. Six in the nyumba (the fourth pit from the
+  # right of the inner row) and two in each of the two pits to its right.
+  setup: "0,0,0,0,6,2,2,0,0,0,0,0,0,0,0,0;0;0,0,0,0,6,2,2,0,0,0,0,0,0,0,0,0;0"
 ---
 
 ## Bao
@@ -31,11 +44,11 @@ The most strategically complex Mancala game in the world, played in Tanzania, Ke
 | Item | Qty | Notes |
 |------|-----|-------|
 | **Board** | 1 | 4 rows of 8 pits: 2 rows per player (inner + outer) |
-| **Seeds** | 64 | 2 seeds in each of the 32 pits |
+| **Seeds** | 64 | 32 a side: ten on the board at the start, twenty-two in hand for namua |
 
 ### Setup
 
-The board is oriented with both players' inner rows facing each other. Each pit starts with 2 seeds. The four centre pits of each inner row (positions 4 and 5 from each end) are called kimbi — they will be significant in the opening.
+The board is oriented with both players' inner rows facing each other. Each player starts with six seeds in the **nyumba** — the fourth pit from the right of their inner row — and two in each of the two pits to its right, holding the other twenty-two in hand. The four centre pits of each inner row (positions 4 and 5 from each end) are called kimbi — they will be significant in the opening.
 
 Each player controls their two rows: the **inner row** (facing the centre) and the **outer row** (behind it).
 
