@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Manchu+"
 slug: manchu-plus
 board: "9×10"
@@ -17,7 +18,25 @@ engine:
       Z: wZ
       z: bZ
   players: [red, black]
-  setup: "r1eakae1z/9/p1p1p1p1p/9/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
+  vocabulary:
+    general: { symbols: { 0: K, 1: k } }
+    advisor: { symbols: { 0: A, 1: a } }
+    elephant: { symbols: { 0: E, 1: e } }
+    horse: { symbols: { 0: H, 1: h } }
+    chariot: { symbols: { 0: R, 1: r } }
+    cannon: { symbols: { 0: C, 1: c } }
+    soldier: { symbols: { 0: P, 1: p } }
+    banner: { symbols: { 0: Z, 1: z } }
+  plugins:
+    xiangqi:
+      pieceMoves:
+        banner:
+          type: compose
+          parts:
+            - { type: rider, dirs: orthogonal }
+            - { type: hopper, dirs: orthogonal, captureSlide: true }
+            - { type: leaper, offsets: knight, lame: orthogonal }
+  setup: "r1eakae1z/9/9/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
 ---
 
 ## Manchu+
