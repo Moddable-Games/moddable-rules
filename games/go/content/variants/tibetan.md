@@ -7,7 +7,7 @@ parent: go
 order: 13
 win: Cosmological scoring (territory + captures + bonus)
 special: "17×17 board. 12 pre-placed stones. Delayed captures. Unique scoring system."
-unsupported: "The twelve pre-placed stones are not applied, and delayed captures and the variant's scoring are not modelled."
+unsupported: "The engine can now open from a declared position - `setup` is parsed by the topology and the stones are on the board before the first move, verified on a 9x9 fixture (engine#162) - so what remains is the position itself, which this file does not carry and no source consulted on 2026-09-06 gave as coordinates. Delayed captures and the cosmological scoring are also not modelled, and both are rules rather than content."
 engine:
   topology:
     type: grid

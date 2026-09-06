@@ -7,7 +7,7 @@ parent: go
 order: 12
 win: Most territory at game end
 special: Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi.
-unsupported: "The sixteen pre-placed stones are not applied - the board starts empty - and prisoners-ignored scoring is not modelled."
+unsupported: "The engine can now open from a declared position - `setup` is parsed by the topology and the stones are on the board before the first move, verified on a 9x9 fixture (engine#162) - so what remains is the position itself, and that is content the sources do not carry as text. Checked 2026-09-06: senseis.xmp.net/?SunjangBaduk returns 403; gambiter.com/go/variants/Sunjang_baduk.html and handwiki.org/wiki/Software:Sunjang_baduk both say only that the board carries 17 marked points, that the first 16 stones go on a preset pattern of them and that Black opens on tengen, and both carry the placement as a diagram image with no coordinate list. Which eight points are Black and which eight are White could not be recovered, so no stones are declared rather than the wrong ones. Prisoners-ignored scoring is also not modelled."
 engine:
   topology:
     type: grid
