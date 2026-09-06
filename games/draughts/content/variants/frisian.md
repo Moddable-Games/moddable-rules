@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Frisian Draughts
 slug: frisian
 board: "10×10"
@@ -30,8 +30,25 @@ engine:
     rows: 10
     cols: 10
   players: [white, black]
+  plugins:
+    draughts:
+      # Movement stays on the diagonals; capture runs in all eight directions,
+      # for men and kings alike. The two direction sets are the whole variant.
+      directions: diagonal
+      captureDirections: all
+      manCapture: all
+      flyingKings: true
+      forcedCapture: true
+      # A king is worth more than a man and less than two: 2n - 0.5 for n kings,
+      # added to the men. Two men and a king beats three men.
+      maximalCapture: weighted
+      majorityPrefersKing: true
+      removeImmediately: false
+      piecesPerPlayer: 20
+      # The same king may not make a fourth consecutive non-capturing move while
+      # its owner still has a man.
+      kingMoveLimit: 3
   setup: "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
-unsupported: "Three rules are missing and each is load-bearing. Capture in all eight directions, for both men and kings, where movement stays diagonal. The weighted maximal-capture rule, which is a value sum rather than a piece count and uses a non-linear king term. And the three-move king limit, which needs a per-king counter of consecutive non-capturing moves that survives across turns. `majorityPrefersKing` already exists in the plugin and covers the equal-value tie-break, so that quarter of the variant is declarable today."
 ---
 
 ## Frisian Draughts
