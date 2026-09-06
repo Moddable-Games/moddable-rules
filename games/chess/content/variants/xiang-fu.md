@@ -1,6 +1,5 @@
 ---
-playable: false
-unsupported: "The demotion is now modelled: `demotionMap: {champion: pupil}` sends a captured Champion into hand as a non-royal Pupil, so a side can no longer drop a third royal piece onto a board that starts with two, verified over 400 plies from three seeds. What blocks it now is artwork, not rules. `mce-xiangqi-fairy` carries no glyph for the Mahout, the Crossbow or the Champion, so eight of the sixteen pieces render as empty squares - measured: 8 images for 16 occupied cells. It stays unplayable until those three characters exist in the set."
+playable: true
 title: Xiang Fu
 slug: xiang-fu
 board: "9×9"
@@ -79,8 +78,8 @@ engine:
         1: g
     pupil:
       symbols:
-        0: U
-        1: u
+        0: T
+        1: t
   plugins:
     chess:
       demotionMap:
