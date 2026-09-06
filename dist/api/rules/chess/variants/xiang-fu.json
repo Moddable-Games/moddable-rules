@@ -462,10 +462,19 @@
           "0": "G",
           "1": "g"
         }
+      },
+      "pupil": {
+        "symbols": {
+          "0": "U",
+          "1": "u"
+        }
       }
     },
     "plugins": {
       "chess": {
+        "demotionMap": {
+          "champion": "pupil"
+        },
         "pieces": {
           "mahout": {
             "type": "rider",
@@ -499,6 +508,11 @@
             }
           },
           "champion": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1
+          },
+          "pupil": {
             "type": "rider",
             "dirs": "all",
             "maxSteps": 1
