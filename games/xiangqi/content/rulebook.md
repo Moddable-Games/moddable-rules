@@ -97,7 +97,7 @@ related:
   - chess
   - go
 unsupported:
-  quang-trung: "pawn promotion as an alternate win condition is not modelled"
+  quang-trung: "None of its seven piece types is modelled, so it currently plays as ordinary Xiangqi on a 10x10 checkered board: measured 100 cells, 36 pieces, no terminal in 120 random plies. The earlier entry named only the win condition and badly understated it. Every piece is the designer's own or adapted: the General moves one diagonal step then one orthogonal step in that order; the Counsellor jumps exactly (3,0) or (2,2) over anything; the Cannon is a FIDE Bishop with no screen; the Elephant is a (2,1) bent jump over anything; the Chariot slides orthogonally but CAPTURES by jumping over the target onto the empty square beyond; the Pawn moves and captures one square diagonally forward with a straight double step first move. On top of those: the General and all Pawns are confined to files c-h at all times, there is no promotion, and a Pawn reaching the last rank uncapturable wins outright. The Chariot's jump-capture and the file confinement are the two that need engine support rather than declaration."
   janggi: "palace diagonals, the Korean elephant move and the bikjang rule are not modelled"
   yang-qi: "substitutes FIDE pieces and extends the cannon to diagonals"
   jieqi: "hidden information: pieces start face down and reveal on first move"

@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Ultima (Baroque Chess)
 slug: ultima
 board: "8×8"
@@ -7,7 +7,6 @@ players: "2"
 parent: chess
 win: Capture opponent King
 special: "All seven piece types use entirely different capture mechanics. No check: win by physically capturing the opponent's King. Designed by Robert Abbott, 1962."
-unsupported: "Movement is now right and capture is not. Checked against chessvariants.com/other.dir/ultima.html and en.wikipedia.org/wiki/Baroque_chess: the five noble pieces do all move as queens, so those declarations were correct, and only the Pincer Pawn was wrong - it moves as a rook and is now declared that way. What is absent is the premise of the game, that every piece captures differently: withdrawal, coordinate capture against the King, leap capture, immobilisation, mimicry, and the pawn custodial pinch. None of the six exists, so every piece currently captures by displacement and the game plays as queens-and-rooks with a bare-king win. Also needs no check, no checkmate and no stalemate: the King is taken outright."
 engine:
   topology:
     type: grid
@@ -53,7 +52,7 @@ All pieces except the King slide like the Queen — any number of squares in any
 | **Long Leaper** | b1, g1 / b8, g8 | Queen slide | **Leap capture:** the Long Leaper may jump over one opponent piece along a rank, file, or diagonal, landing on the next empty square beyond it; the jumped piece is captured. Multiple leaps in one move are permitted, each over a separate opponent piece on the same or different lines. |
 | **Immobilizer** | a1 / h8 | Queen slide | **Immobilization:** the Immobilizer does not capture. Instead, any opponent piece that is orthogonally or diagonally adjacent to the Immobilizer at the end of its move is frozen and may not move until the Immobilizer moves away. An Immobilizer adjacent to an opponent Immobilizer is itself immobilized. |
 | **Chameleon** | c1, f1 / c8, f8 | Queen slide | **Mimicry:** the Chameleon captures using the capture method of whichever type of piece it is targeting. To capture a Withdrawer, it withdraws from it. To capture a Long Leaper, it leaps over it. To capture a Coordinator, it coordinates with your King against it. To capture an Immobilizer, it immobilizes it (both are immobilized). To capture a Pincer Pawn, it flanks it. Cannot capture a King by displacement (Chameleon has no displacement method). |
-| **Pincer Pawn** | a2–h2 / a7–h7 | Queen slide | **Custodian (flank) capture:** when the Pincer Pawn moves, any opponent piece now sandwiched between the Pincer and another friendly piece along the same rank or file is captured. Multiple custodian captures are possible from one move. |
+| **Pincer Pawn** | a2–h2 / a7–h7 | Rook slide (orthogonal only) | **Custodian (flank) capture:** when the Pincer Pawn moves, any opponent piece now sandwiched between the Pincer and another friendly piece along the same rank or file is captured. Multiple custodian captures are possible from one move. |
 
 ### Starting Position
 
