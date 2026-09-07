@@ -1086,6 +1086,11 @@ function buildBoards() {
         topology: topo,
         svg: `games/${family}/diagrams/svg/${svgFile}`,
         rulesUrl,
+        // Whether the engine can actually play this, which is what decides
+        // whether the gallery offers a Play link. The variant's own frontmatter
+        // is the source: the engine derives its playability manifest from the
+        // same flag.
+        playable: vm.playable === true,
         status: vm.engine?.generator ? 'generator' : 'rendered',
       };
       if (vm.engine?.generator) {
@@ -1227,6 +1232,18 @@ function buildBoards() {
 
   const rendered = index.filter(b => b.status === 'rendered').length;
   const missing = index.filter(b => b.status === 'missing').length;
+  // A single-variant game gets one page at <family>/index.html rather than a
+  // page per variant, so twelve entries named a variant page that is never
+  // written - and their Rules links 404ed in production as well as locally.
+  // Checked against the pages this build just wrote rather than re-derived from
+  // the rule that decides to write them.
+  for (const entry of index) {
+    if (!entry.rulesUrl) continue;
+    if (existsSync(resolve(DIST_DIR, entry.rulesUrl))) continue;
+    const familyPage = `${entry.family}/index.html`;
+    entry.rulesUrl = existsSync(resolve(DIST_DIR, familyPage)) ? familyPage : '';
+  }
+
   writeFileSync(resolve(ROOT, 'diagrams-manifest.json'), JSON.stringify(index, null, 2));
   console.log(`  Built diagrams-manifest.json (${rendered} rendered, ${missing} pending — ${index.length} total)`);
 }

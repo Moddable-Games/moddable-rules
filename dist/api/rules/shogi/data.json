@@ -4484,6 +4484,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/annan-shogi-board.svg",
         "rulesUrl": "shogi/variants/annan-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": 2
       },
@@ -4495,6 +4496,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/cannon-shogi-board.svg",
         "rulesUrl": "shogi/variants/cannon-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4506,6 +4508,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/chu-shogi-board.svg",
         "rulesUrl": "shogi/variants/chu-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4517,6 +4520,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/dai-shogi-board.svg",
         "rulesUrl": "shogi/variants/dai-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4528,6 +4532,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/dobutsu-board.svg",
         "rulesUrl": "shogi/variants/dobutsu/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4539,6 +4544,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/four-player-shogi-board.svg",
         "rulesUrl": "shogi/variants/four-player-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "4"
       },
@@ -4550,6 +4556,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/gorogoro-plus-board.svg",
         "rulesUrl": "shogi/variants/gorogoro-plus/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4561,6 +4568,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/hasami-shogi-board.svg",
         "rulesUrl": "shogi/variants/hasami-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4572,6 +4580,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/heian-shogi-board.svg",
         "rulesUrl": "shogi/variants/heian-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4583,6 +4592,7 @@
         "topology": "hex",
         "svg": "games/shogi/diagrams/svg/hex-shogi-91-board.svg",
         "rulesUrl": "shogi/variants/hex-shogi-91/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4594,6 +4604,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/judkins-shogi-board.svg",
         "rulesUrl": "shogi/variants/judkins-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4605,6 +4616,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/kyoto-shogi-board.svg",
         "rulesUrl": "shogi/variants/kyoto-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4616,6 +4628,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/maka-dai-dai-shogi-board.svg",
         "rulesUrl": "shogi/variants/maka-dai-dai-shogi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4627,6 +4640,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/minishogi-board.svg",
         "rulesUrl": "shogi/variants/minishogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4638,6 +4652,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
         "rulesUrl": "shogi/variants/mortal-shogi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4649,6 +4664,7 @@
         "topology": "triangular",
         "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
         "rulesUrl": "shogi/variants/sankaku-shogi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4660,6 +4676,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/sho-shogi-board.svg",
         "rulesUrl": "shogi/variants/sho-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4671,6 +4688,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/standard-board.svg",
         "rulesUrl": "shogi/variants/standard/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4682,6 +4700,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/tai-shogi-board.svg",
         "rulesUrl": "shogi/variants/tai-shogi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4693,6 +4712,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/taikyoku-shogi-board.svg",
         "rulesUrl": "shogi/variants/taikyoku-shogi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4704,6 +4724,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
         "rulesUrl": "shogi/variants/tenjiku-shogi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4715,6 +4736,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/tori-shogi-board.svg",
         "rulesUrl": "shogi/variants/tori-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -4726,6 +4748,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
         "rulesUrl": "shogi/variants/wa-shogi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -4737,6 +4760,7 @@
         "topology": "grid",
         "svg": "games/shogi/diagrams/svg/yari-shogi-board.svg",
         "rulesUrl": "shogi/variants/yari-shogi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       }

@@ -139,7 +139,8 @@
         "variantTitle": "Surakarta (Standard)",
         "topology": "grid",
         "svg": "games/surakarta/diagrams/svg/standard-board.svg",
-        "rulesUrl": "surakarta/variants/standard/index.html",
+        "rulesUrl": "surakarta/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       }

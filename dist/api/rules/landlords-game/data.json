@@ -366,6 +366,7 @@
         "topology": "track",
         "svg": "games/landlords-game/diagrams/svg/1904-original-board.svg",
         "rulesUrl": "landlords-game/variants/1904-original/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2–6"
       },
@@ -377,6 +378,7 @@
         "topology": "track",
         "svg": "games/landlords-game/diagrams/svg/1906-commercial-board.svg",
         "rulesUrl": "landlords-game/variants/1906-commercial/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2–4"
       },
@@ -388,6 +390,7 @@
         "topology": "track",
         "svg": "games/landlords-game/diagrams/svg/monarch-of-the-world-board.svg",
         "rulesUrl": "landlords-game/variants/monarch-of-the-world/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2–6"
       },
@@ -399,6 +402,7 @@
         "topology": "track",
         "svg": "games/landlords-game/diagrams/svg/prosperity-board.svg",
         "rulesUrl": "landlords-game/variants/prosperity/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2–4"
       },
@@ -410,6 +414,7 @@
         "topology": "track",
         "svg": "games/landlords-game/diagrams/svg/single-tax-board.svg",
         "rulesUrl": "landlords-game/variants/single-tax/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2–4"
       }

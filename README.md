@@ -222,6 +222,16 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-07
+- The diagrams gallery links out: a Rules link on every entry, and a Play link to the engine on the 220 variants it can start
+- Twelve of those Rules links pointed at pages that were never built. A single-variant game has no `family/variants/slug/` page, only `family/index.html`, so each URL is now resolved against the site the build actually produced before it is written to the manifest
+- Locally the gallery probes for the root that answers - a checkout serves its pages under `dist/`, the deploy tree flattens them to the root - because the same link cannot be correct in both without asking
+- `scripts/assemble-site.sh` builds the deploy tree, and the workflow calls it instead of carrying its own copy inline. `npm run site` and `npm run serve` reproduce the published layout locally; that layout was the thing no one could test
+- `npm run check:pdf-release` compares each local PDF's hash against the digest of the asset published in the `pdfs` release, and names what is behind, unpublished, or orphaned. All 582 PDFs in the release match the corpus
+
+#### 2026-09-06
+- Diagrams, dist pages and PDFs rebuilt for the eighteen variants the engine gained this session, so the published rules describe the games that are now playable rather than the ones that were
+
 #### 2026-09-01
 - Every PDF was last built 2026-08-07 while thirteen families changed their variants underneath, so 665 of them described a corpus that had moved on: the Dai Shogi PDF still showed the superseded starting position after the web page had been corrected. All variant PDFs rebuilt
 - `check-pdf-freshness.mjs` hashes each variant file against the PDF built from it and runs in CI, so a content change without a rebuild now fails rather than shipping silently

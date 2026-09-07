@@ -297,6 +297,7 @@
         "topology": "grid",
         "svg": "games/pachisi/diagrams/svg/seven-shell-board.svg",
         "rulesUrl": "pachisi/variants/seven-shell/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2–4"
       },
@@ -308,6 +309,7 @@
         "topology": "grid",
         "svg": "games/pachisi/diagrams/svg/standard-board.svg",
         "rulesUrl": "pachisi/variants/standard/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "4"
       },
@@ -319,6 +321,7 @@
         "topology": "grid",
         "svg": "games/pachisi/diagrams/svg/two-player-board.svg",
         "rulesUrl": "pachisi/variants/two-player/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       }

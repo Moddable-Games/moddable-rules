@@ -397,6 +397,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/13x13-board.svg",
         "rulesUrl": "hex/variants/13x13/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -408,6 +409,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/14x14-board.svg",
         "rulesUrl": "hex/variants/14x14/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -419,6 +421,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/19x19-board.svg",
         "rulesUrl": "hex/variants/19x19/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -430,6 +433,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/9x9-board.svg",
         "rulesUrl": "hex/variants/9x9/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -441,6 +445,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/standard-board.svg",
         "rulesUrl": "hex/variants/standard/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -452,6 +457,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/y-game-board.svg",
         "rulesUrl": "hex/variants/y-game/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -463,6 +469,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/y-large-board.svg",
         "rulesUrl": "hex/variants/y-large/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -474,6 +481,7 @@
         "topology": "hex",
         "svg": "games/hex/diagrams/svg/y-small-board.svg",
         "rulesUrl": "hex/variants/y-small/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       }

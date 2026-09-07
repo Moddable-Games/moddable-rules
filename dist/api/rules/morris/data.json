@@ -375,6 +375,7 @@
         "topology": "graph",
         "svg": "games/morris/diagrams/svg/lasker-morris-board.svg",
         "rulesUrl": "morris/variants/lasker-morris/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -386,6 +387,7 @@
         "topology": "graph",
         "svg": "games/morris/diagrams/svg/morabaraba-board.svg",
         "rulesUrl": "morris/variants/morabaraba/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -397,6 +399,7 @@
         "topology": "graph",
         "svg": "games/morris/diagrams/svg/nine-mens-morris-board.svg",
         "rulesUrl": "morris/variants/nine-mens-morris/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -408,6 +411,7 @@
         "topology": "graph",
         "svg": "games/morris/diagrams/svg/shax-board.svg",
         "rulesUrl": "morris/variants/shax/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -419,6 +423,7 @@
         "topology": "graph",
         "svg": "games/morris/diagrams/svg/six-mens-morris-board.svg",
         "rulesUrl": "morris/variants/six-mens-morris/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -430,6 +435,7 @@
         "topology": "graph",
         "svg": "games/morris/diagrams/svg/three-mens-morris-board.svg",
         "rulesUrl": "morris/variants/three-mens-morris/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -441,6 +447,7 @@
         "topology": "graph",
         "svg": "games/morris/diagrams/svg/twelve-mens-morris-board.svg",
         "rulesUrl": "morris/variants/twelve-mens-morris/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       }

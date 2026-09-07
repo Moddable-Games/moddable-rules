@@ -15,7 +15,9 @@
     "sync:boards": "./scripts/sync-boards.sh",
     "sync:chargen": "./scripts/sync-chargen.sh",
     "og": "python3 build/gen-og.py",
-    "check:pdf-release": "node scripts/check-pdf-release.mjs"
+    "check:pdf-release": "node scripts/check-pdf-release.mjs",
+    "site": "npm run build && ./scripts/assemble-site.sh",
+    "serve": "npm run site && npx --yes serve _site"
   },
   "dependencies": {},
   "devDependencies": {

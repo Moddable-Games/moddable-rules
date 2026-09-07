@@ -13582,6 +13582,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/absorption-board.svg",
         "rulesUrl": "chess/variants/absorption/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13593,6 +13594,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/alice-board.svg",
         "rulesUrl": "chess/variants/alice/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -13604,6 +13606,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/almost-chess-board.svg",
         "rulesUrl": "chess/variants/almost-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13615,6 +13618,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/amazon-chess-board.svg",
         "rulesUrl": "chess/variants/amazon-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13626,6 +13630,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/andernach-board.svg",
         "rulesUrl": "chess/variants/andernach/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13637,6 +13642,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/anti-king-chess-2-board.svg",
         "rulesUrl": "chess/variants/anti-king-chess-2/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13648,6 +13654,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/antichess-board.svg",
         "rulesUrl": "chess/variants/antichess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13659,6 +13666,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/archchess-board.svg",
         "rulesUrl": "chess/variants/archchess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13670,6 +13678,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/asean-board.svg",
         "rulesUrl": "chess/variants/asean/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13681,6 +13690,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/atomic-board.svg",
         "rulesUrl": "chess/variants/atomic/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13692,6 +13702,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/avalanche-board.svg",
         "rulesUrl": "chess/variants/avalanche/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13703,6 +13714,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/balbos-chess-board.svg",
         "rulesUrl": "chess/variants/balbos-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13714,6 +13726,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/benedict-board.svg",
         "rulesUrl": "chess/variants/benedict/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13725,6 +13738,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/berolina-chess-board.svg",
         "rulesUrl": "chess/variants/berolina-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13736,6 +13750,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/berserk-board.svg",
         "rulesUrl": "chess/variants/berserk/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13747,6 +13762,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/birds-chess-board.svg",
         "rulesUrl": "chess/variants/birds-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13758,6 +13774,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/blind-chess-board.svg",
         "rulesUrl": "chess/variants/blind-chess/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -13769,6 +13786,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/breakthrough-board.svg",
         "rulesUrl": "chess/variants/breakthrough/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13780,6 +13798,7 @@
         "topology": "hex",
         "svg": "games/chess/diagrams/svg/brusky-board.svg",
         "rulesUrl": "chess/variants/brusky/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13791,6 +13810,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/byzantine-chess-board.svg",
         "rulesUrl": "chess/variants/byzantine-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13802,6 +13822,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/capablanca-board.svg",
         "rulesUrl": "chess/variants/capablanca/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13813,6 +13834,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/carrera-board.svg",
         "rulesUrl": "chess/variants/carrera/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13824,6 +13846,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/centennial-chess-board.svg",
         "rulesUrl": "chess/variants/centennial-chess/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -13835,6 +13858,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/chak-board.svg",
         "rulesUrl": "chess/variants/chak/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13846,6 +13870,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/chancellor-chess-board.svg",
         "rulesUrl": "chess/variants/chancellor-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13857,6 +13882,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/chaturanga-board.svg",
         "rulesUrl": "chess/variants/chaturanga/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13868,6 +13894,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/checkless-board.svg",
         "rulesUrl": "chess/variants/checkless/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13879,6 +13906,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/chennis-board.svg",
         "rulesUrl": "chess/variants/chennis/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13890,6 +13918,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/chigorin-board.svg",
         "rulesUrl": "chess/variants/chigorin/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13901,6 +13930,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/circular-chess-board.svg",
         "rulesUrl": "chess/variants/circular-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13912,6 +13942,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/citadel-chess-board.svg",
         "rulesUrl": "chess/variants/citadel-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13923,6 +13954,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/codrus-board.svg",
         "rulesUrl": "chess/variants/codrus/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13934,6 +13966,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/congo-board.svg",
         "rulesUrl": "chess/variants/congo/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13945,6 +13978,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/courier-board.svg",
         "rulesUrl": "chess/variants/courier/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13956,6 +13990,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/crazy-38s-board.svg",
         "rulesUrl": "chess/variants/crazy-38s/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -13967,6 +14002,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/crazyhouse-board.svg",
         "rulesUrl": "chess/variants/crazyhouse/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13978,6 +14014,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/cylinder-chess-board.svg",
         "rulesUrl": "chess/variants/cylinder-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -13989,6 +14026,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/cylindrical-chess-board.svg",
         "rulesUrl": "chess/variants/cylindrical-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14000,6 +14038,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/dark-chess-board.svg",
         "rulesUrl": "chess/variants/dark-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14011,6 +14050,7 @@
         "topology": "hex",
         "svg": "games/chess/diagrams/svg/de-vasa-board.svg",
         "rulesUrl": "chess/variants/de-vasa/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14022,6 +14062,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/delirious-bughouse-board.svg",
         "rulesUrl": "chess/variants/delirious-bughouse/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "4 (2 teams of 2)"
       },
@@ -14033,6 +14074,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/diana-board.svg",
         "rulesUrl": "chess/variants/diana/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14044,6 +14086,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/dice-chess-board.svg",
         "rulesUrl": "chess/variants/dice-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14055,6 +14098,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/displacement-chess-board.svg",
         "rulesUrl": "chess/variants/displacement-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14066,6 +14110,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/djambi-board.svg",
         "rulesUrl": "chess/variants/djambi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "4"
       },
@@ -14077,6 +14122,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/dragon-chess-board.svg",
         "rulesUrl": "chess/variants/dragon-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14088,6 +14134,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/duck-chess-board.svg",
         "rulesUrl": "chess/variants/duck-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14099,6 +14146,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/einstein-chess-board.svg",
         "rulesUrl": "chess/variants/einstein-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14110,6 +14158,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/empire-board.svg",
         "rulesUrl": "chess/variants/empire/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14121,6 +14170,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/endgame-chess-board.svg",
         "rulesUrl": "chess/variants/endgame-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14132,6 +14182,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/extinction-board.svg",
         "rulesUrl": "chess/variants/extinction/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14143,6 +14194,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/fanorona-chess-board.svg",
         "rulesUrl": "chess/variants/fanorona-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14154,6 +14206,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/fischer-random-board.svg",
         "rulesUrl": "chess/variants/fischer-random/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14165,6 +14218,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/five-check-board.svg",
         "rulesUrl": "chess/variants/five-check/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14176,6 +14230,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/flip-chess-board.svg",
         "rulesUrl": "chess/variants/flip-chess/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -14187,6 +14242,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/fog-of-war-board.svg",
         "rulesUrl": "chess/variants/fog-of-war/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14198,6 +14254,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/four-handed-chess-board.svg",
         "rulesUrl": "chess/variants/four-handed-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": 4
       },
@@ -14209,6 +14266,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/giveaway-board.svg",
         "rulesUrl": "chess/variants/giveaway/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14220,6 +14278,7 @@
         "topology": "hex",
         "svg": "games/chess/diagrams/svg/glinski-board.svg",
         "rulesUrl": "chess/variants/glinski/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14231,6 +14290,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/grand-board.svg",
         "rulesUrl": "chess/variants/grand/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14242,6 +14302,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/grande-acedrex-board.svg",
         "rulesUrl": "chess/variants/grande-acedrex/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -14253,6 +14314,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/grasshopper-board.svg",
         "rulesUrl": "chess/variants/grasshopper/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14264,6 +14326,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/grid-chess-board.svg",
         "rulesUrl": "chess/variants/grid-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14275,6 +14338,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/gustav-iii-chess-board.svg",
         "rulesUrl": "chess/variants/gustav-iii-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14286,6 +14350,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/gygax-board.svg",
         "rulesUrl": "chess/variants/gygax/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -14297,6 +14362,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/half-chess-board.svg",
         "rulesUrl": "chess/variants/half-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14308,6 +14374,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/hexapawn-board.svg",
         "rulesUrl": "chess/variants/hexapawn/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14319,6 +14386,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/hole-chess-board.svg",
         "rulesUrl": "chess/variants/hole-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14330,6 +14398,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/hoppel-poppel-board.svg",
         "rulesUrl": "chess/variants/hoppel-poppel/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14341,6 +14410,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/horde-board.svg",
         "rulesUrl": "chess/variants/horde/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14352,6 +14422,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/hostage-chess-board.svg",
         "rulesUrl": "chess/variants/hostage-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14363,6 +14434,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/immunization-chess-board.svg",
         "rulesUrl": "chess/variants/immunization-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14374,6 +14446,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/janus-board.svg",
         "rulesUrl": "chess/variants/janus/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14385,6 +14458,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/khans-chess-board.svg",
         "rulesUrl": "chess/variants/khans-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14396,6 +14470,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/king-of-the-hill-board.svg",
         "rulesUrl": "chess/variants/king-of-the-hill/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14407,6 +14482,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/klein-bottle-chess-board.svg",
         "rulesUrl": "chess/variants/klein-bottle-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14418,6 +14494,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/knightmate-board.svg",
         "rulesUrl": "chess/variants/knightmate/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14429,6 +14506,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/kriegspiel-board.svg",
         "rulesUrl": "chess/variants/kriegspiel/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2 + referee"
       },
@@ -14440,6 +14518,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/legan-chess-board.svg",
         "rulesUrl": "chess/variants/legan-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14451,6 +14530,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/los-alamos-board.svg",
         "rulesUrl": "chess/variants/los-alamos/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14462,6 +14542,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/los-alamos-vierschach-board.svg",
         "rulesUrl": "chess/variants/los-alamos-vierschach/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "4 (2 teams of 2)"
       },
@@ -14473,6 +14554,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/madrasi-board.svg",
         "rulesUrl": "chess/variants/madrasi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14484,6 +14566,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/maharaja-board.svg",
         "rulesUrl": "chess/variants/maharaja/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14495,6 +14578,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/makpong-board.svg",
         "rulesUrl": "chess/variants/makpong/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14506,6 +14590,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/makruk-board.svg",
         "rulesUrl": "chess/variants/makruk/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14517,6 +14602,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/mansindam-board.svg",
         "rulesUrl": "chess/variants/mansindam/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14528,6 +14614,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/marseillais-board.svg",
         "rulesUrl": "chess/variants/marseillais/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14539,6 +14626,7 @@
         "topology": "hex",
         "svg": "games/chess/diagrams/svg/mccooey-board.svg",
         "rulesUrl": "chess/variants/mccooey/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14550,6 +14638,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/medusa-chess-board.svg",
         "rulesUrl": "chess/variants/medusa-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14561,6 +14650,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/metamachy-board.svg",
         "rulesUrl": "chess/variants/metamachy/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14572,6 +14662,7 @@
         "topology": "hex",
         "svg": "games/chess/diagrams/svg/mini-hexchess-board.svg",
         "rulesUrl": "chess/variants/mini-hexchess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14583,6 +14674,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/minichess-board.svg",
         "rulesUrl": "chess/variants/minichess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14594,6 +14686,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/mobius-strip-chess-board.svg",
         "rulesUrl": "chess/variants/mobius-strip-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14605,6 +14698,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/monster-chess-board.svg",
         "rulesUrl": "chess/variants/monster-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14616,6 +14710,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/nightrider-board.svg",
         "rulesUrl": "chess/variants/nightrider/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14627,6 +14722,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/no-castling-board.svg",
         "rulesUrl": "chess/variants/no-castling/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14638,6 +14734,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/no-retreat-board.svg",
         "rulesUrl": "chess/variants/no-retreat/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14649,6 +14746,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/oblong-chess-board.svg",
         "rulesUrl": "chess/variants/oblong-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14660,6 +14758,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/omega-chess-board.svg",
         "rulesUrl": "chess/variants/omega-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14671,6 +14770,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/omnicide-board.svg",
         "rulesUrl": "chess/variants/omnicide/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14682,6 +14782,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/orda-chess-board.svg",
         "rulesUrl": "chess/variants/orda-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14693,6 +14794,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/orda-mirror-board.svg",
         "rulesUrl": "chess/variants/orda-mirror/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14704,6 +14806,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/ouk-chaktrang-board.svg",
         "rulesUrl": "chess/variants/ouk-chaktrang/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14715,6 +14818,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/patrol-board.svg",
         "rulesUrl": "chess/variants/patrol/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14726,6 +14830,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/pawns-only-board.svg",
         "rulesUrl": "chess/variants/pawns-only/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14737,6 +14842,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/peasants-revolt-board.svg",
         "rulesUrl": "chess/variants/peasants-revolt/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14748,6 +14854,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/petty-board.svg",
         "rulesUrl": "chess/variants/petty/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14759,6 +14866,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/placement-chess-board.svg",
         "rulesUrl": "chess/variants/placement-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14770,6 +14878,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/pocket-knight-board.svg",
         "rulesUrl": "chess/variants/pocket-knight/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14781,6 +14890,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/poison-chess-board.svg",
         "rulesUrl": "chess/variants/poison-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14792,6 +14902,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/progressive-board.svg",
         "rulesUrl": "chess/variants/progressive/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14803,6 +14914,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/progressive-italian-board.svg",
         "rulesUrl": "chess/variants/progressive-italian/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14814,6 +14926,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/racing-kings-board.svg",
         "rulesUrl": "chess/variants/racing-kings/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14825,6 +14938,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/raumschach-board.svg",
         "rulesUrl": "chess/variants/raumschach/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -14836,6 +14950,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/recruitment-chess-board.svg",
         "rulesUrl": "chess/variants/recruitment-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14847,6 +14962,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/rifle-board.svg",
         "rulesUrl": "chess/variants/rifle/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14858,6 +14974,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/rollerball-board.svg",
         "rulesUrl": "chess/variants/rollerball/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14869,6 +14986,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/romanchenkos-chess-board.svg",
         "rulesUrl": "chess/variants/romanchenkos-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14880,6 +14998,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/s-chess-board.svg",
         "rulesUrl": "chess/variants/s-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14891,6 +15010,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/senterej-board.svg",
         "rulesUrl": "chess/variants/senterej/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14902,6 +15022,7 @@
         "topology": "hex",
         "svg": "games/chess/diagrams/svg/shafran-board.svg",
         "rulesUrl": "chess/variants/shafran/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14913,6 +15034,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/shako-board.svg",
         "rulesUrl": "chess/variants/shako/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14924,6 +15046,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/shatar-board.svg",
         "rulesUrl": "chess/variants/shatar/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14935,6 +15058,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/shatranj-board.svg",
         "rulesUrl": "chess/variants/shatranj/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14946,6 +15070,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/shatranj-kamil-board.svg",
         "rulesUrl": "chess/variants/shatranj-kamil/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14957,6 +15082,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/shinobi-board.svg",
         "rulesUrl": "chess/variants/shinobi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14968,6 +15094,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/shinobiplus-board.svg",
         "rulesUrl": "chess/variants/shinobiplus/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14979,6 +15106,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/shogun-board.svg",
         "rulesUrl": "chess/variants/shogun/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -14990,6 +15118,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/single-check-board.svg",
         "rulesUrl": "chess/variants/single-check/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15001,6 +15130,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/sittuyin-board.svg",
         "rulesUrl": "chess/variants/sittuyin/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15012,6 +15142,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/spartan-board.svg",
         "rulesUrl": "chess/variants/spartan/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15023,6 +15154,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/spherical-chess-board.svg",
         "rulesUrl": "chess/variants/spherical-chess/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -15034,6 +15166,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/stalemate-wins-board.svg",
         "rulesUrl": "chess/variants/stalemate-wins/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15045,6 +15178,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/standard-board.svg",
         "rulesUrl": "chess/variants/standard/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15056,6 +15190,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/stupidhouse-board.svg",
         "rulesUrl": "chess/variants/stupidhouse/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "4 (2 teams of 2)"
       },
@@ -15067,6 +15202,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/suicide-chess-board.svg",
         "rulesUrl": "chess/variants/suicide-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15078,6 +15214,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/synochess-board.svg",
         "rulesUrl": "chess/variants/synochess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15089,6 +15226,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/tamerlane-board.svg",
         "rulesUrl": "chess/variants/tamerlane/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15100,6 +15238,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/tandem-chess-board.svg",
         "rulesUrl": "chess/variants/tandem-chess/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "4 (2 teams of 2)"
       },
@@ -15111,6 +15250,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/teleport-chess-board.svg",
         "rulesUrl": "chess/variants/teleport-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15122,6 +15262,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/three-check-board.svg",
         "rulesUrl": "chess/variants/three-check/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15133,6 +15274,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/toroidal-byzantine-board.svg",
         "rulesUrl": "chess/variants/toroidal-byzantine/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15144,6 +15286,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/toroidal-chess-board.svg",
         "rulesUrl": "chess/variants/toroidal-chess/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15155,6 +15298,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/torpedo-board.svg",
         "rulesUrl": "chess/variants/torpedo/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15166,6 +15310,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/turkish-great-chess-ii-board.svg",
         "rulesUrl": "chess/variants/turkish-great-chess-ii/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15177,6 +15322,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/turkish-great-chess-iii-board.svg",
         "rulesUrl": "chess/variants/turkish-great-chess-iii/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15188,6 +15334,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/turkish-great-chess-iv-board.svg",
         "rulesUrl": "chess/variants/turkish-great-chess-iv/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15199,6 +15346,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/ultima-board.svg",
         "rulesUrl": "chess/variants/ultima/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15210,6 +15358,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/upside-down-board.svg",
         "rulesUrl": "chess/variants/upside-down/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15221,6 +15370,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/vierschach-board.svg",
         "rulesUrl": "chess/variants/vierschach/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "4"
       },
@@ -15232,6 +15382,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/weak-board.svg",
         "rulesUrl": "chess/variants/weak/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15243,6 +15394,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/wildebeest-board.svg",
         "rulesUrl": "chess/variants/wildebeest/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15254,6 +15406,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/xiang-fu-board.svg",
         "rulesUrl": "chess/variants/xiang-fu/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15265,6 +15418,7 @@
         "topology": "hexagonal-trisection",
         "svg": "games/chess/diagrams/svg/yalta-chess-board.svg",
         "rulesUrl": "chess/variants/yalta-chess/index.html",
+        "playable": false,
         "status": "rendered",
         "players": 3
       }

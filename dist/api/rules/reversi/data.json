@@ -199,6 +199,7 @@
         "topology": "grid",
         "svg": "games/reversi/diagrams/svg/anti-reversi-board.svg",
         "rulesUrl": "reversi/variants/anti-reversi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -210,6 +211,7 @@
         "topology": "grid",
         "svg": "games/reversi/diagrams/svg/six-by-six-board.svg",
         "rulesUrl": "reversi/variants/six-by-six/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -221,6 +223,7 @@
         "topology": "grid",
         "svg": "games/reversi/diagrams/svg/standard-board.svg",
         "rulesUrl": "reversi/variants/standard/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       }

@@ -306,6 +306,7 @@
         "topology": "graph",
         "svg": "games/asalto/diagrams/svg/royal-garrison-board.svg",
         "rulesUrl": "asalto/variants/royal-garrison/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -317,6 +318,7 @@
         "topology": "graph",
         "svg": "games/asalto/diagrams/svg/standard-board.svg",
         "rulesUrl": "asalto/variants/standard/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       }

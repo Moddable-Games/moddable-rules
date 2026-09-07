@@ -135,6 +135,7 @@
         "topology": "grid",
         "svg": "games/halma/diagrams/svg/standard-2p-board.svg",
         "rulesUrl": "halma/variants/standard-2p/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -146,6 +147,7 @@
         "topology": "grid",
         "svg": "games/halma/diagrams/svg/standard-4p-board.svg",
         "rulesUrl": "halma/variants/standard-4p/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "4"
       }

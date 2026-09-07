@@ -526,7 +526,8 @@
         "variantTitle": "Senet (Kendall Reconstruction)",
         "topology": "grid",
         "svg": "games/senet/diagrams/svg/standard-board.svg",
-        "rulesUrl": "senet/variants/standard/index.html",
+        "rulesUrl": "senet/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       }

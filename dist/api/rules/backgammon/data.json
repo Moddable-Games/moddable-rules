@@ -328,6 +328,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/acey-deucey-board.svg",
         "rulesUrl": "backgammon/variants/acey-deucey/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -339,6 +340,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
         "rulesUrl": "backgammon/variants/chouette/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "3–6"
       },
@@ -350,6 +352,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/fevga-board.svg",
         "rulesUrl": "backgammon/variants/fevga/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -361,6 +364,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/hypergammon-board.svg",
         "rulesUrl": "backgammon/variants/hypergammon/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -372,6 +376,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/nackgammon-board.svg",
         "rulesUrl": "backgammon/variants/nackgammon/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -383,6 +388,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
         "rulesUrl": "backgammon/variants/nardi/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -394,6 +400,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/plakoto-board.svg",
         "rulesUrl": "backgammon/variants/plakoto/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -405,6 +412,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/standard-board.svg",
         "rulesUrl": "backgammon/variants/standard/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       }

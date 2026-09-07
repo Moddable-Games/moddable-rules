@@ -449,6 +449,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/ayo-board.svg",
         "rulesUrl": "mancala/variants/ayo/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -460,6 +461,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/bao-board.svg",
         "rulesUrl": "mancala/variants/bao/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -471,6 +473,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/congkak-board.svg",
         "rulesUrl": "mancala/variants/congkak/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -482,6 +485,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/kalah-board.svg",
         "rulesUrl": "mancala/variants/kalah/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -493,6 +497,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/oware-board.svg",
         "rulesUrl": "mancala/variants/oware/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -504,6 +509,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/pallanguzhi-board.svg",
         "rulesUrl": "mancala/variants/pallanguzhi/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -515,6 +521,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/sungka-board.svg",
         "rulesUrl": "mancala/variants/sungka/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -526,6 +533,7 @@
         "topology": "pit",
         "svg": "games/mancala/diagrams/svg/toguz-korgool-board.svg",
         "rulesUrl": "mancala/variants/toguz-korgool/index.html",
+        "playable": true,
         "status": "rendered",
         "players": "2"
       }

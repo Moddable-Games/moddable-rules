@@ -347,7 +347,8 @@
         "variantTitle": "Royal Game of Ur (Standard)",
         "topology": "grid",
         "svg": "games/royal-ur/diagrams/svg/standard-board.svg",
-        "rulesUrl": "royal-ur/variants/standard/index.html",
+        "rulesUrl": "royal-ur/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       }

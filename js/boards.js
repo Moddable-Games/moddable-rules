@@ -1,9 +1,39 @@
 let BOARDS = []
 let state = { search: '', family: 'all', topology: 'all', status: 'all', size: '240' }
 
+// Where the built rules pages sit, relative to this gallery.
+//
+// The deploy copies `diagrams/` and `dist/*` into the same root, so a card's
+// `../chess/variants/alice/` resolves in production. Serving the repo itself -
+// which is how anyone works on it - puts the built pages under `dist/`, so the
+// same link 404s locally and works deployed, which reads as a broken link
+// rather than as two different trees.
+//
+// Asked rather than assumed: one HEAD request at load decides it, because the
+// page cannot know which tree it is being served from and guessing gets it
+// wrong half the time.
+let RULES_PREFIX = '../'
+
+async function resolveRulesPrefix(boards) {
+  // Several samples, not one: a single entry naming a page that does not exist
+  // would otherwise decide the prefix for the whole gallery, and pick wrong.
+  const samples = boards.filter(b => b.rulesUrl).slice(0, 5)
+  if (!samples.length) return '../'
+  for (const prefix of ['../', '../dist/']) {
+    for (const sample of samples) {
+      try {
+        const res = await fetch(prefix + sample.rulesUrl, { method: 'HEAD' })
+        if (res.ok) return prefix
+      } catch { /* try the next sample */ }
+    }
+  }
+  return '../'
+}
+
 async function init() {
   const res = await fetch('../diagrams-manifest.json')
   BOARDS = await res.json()
+  RULES_PREFIX = await resolveRulesPrefix(BOARDS)
   renderIntro()
   populateFilters()
   render()
@@ -81,11 +111,20 @@ function render() {
   const cards = filtered.map(b => {
     const title = b.variantTitle || b.variant
     const family = b.familyTitle || b.family
-    const isMissing = b.status === 'missing'
+  // The engine plays the variants this corpus describes, at engine.moddable.games.
+// A board that is only a diagram gets no Play link, because following one would
+// land on a page that cannot start a game.
+const PLAY_BASE = 'https://engine.moddable.games/play/'
+const playHref = (b) => `${PLAY_BASE}?family=${encodeURIComponent(b.family)}&variant=${encodeURIComponent(b.variant)}`
+const playLinkFor = (b) => (b.playable
+  ? `<a href="${playHref(b)}" class="board-card-link" title="Play this variant" target="_blank" rel="noopener">Play</a>`
+  : '')
+
+  const isMissing = b.status === 'missing'
 
     if (isMissing) {
       const reason = REASON_LABELS[b.reason] || b.reason || 'Pending'
-      const rulesLink = b.rulesUrl ? `<a href="../${b.rulesUrl}" class="board-card-link" title="View rules">Rules</a>` : ''
+      const rulesLink = b.rulesUrl ? `<a href="${RULES_PREFIX}${b.rulesUrl}" class="board-card-link" title="View rules">Rules</a>` : ''
       return `<div class="board-card board-card--missing" data-family="${b.family}" data-variant="${b.variant}">
       <div class="board-card-preview board-card-preview--missing">
         <div class="missing-badge">${reason}</div>
@@ -96,13 +135,13 @@ function render() {
         <span class="board-card-topo">${b.topology}</span>
       </div>
       <div class="board-card-actions">
-        ${rulesLink}
+        ${rulesLink}${playLinkFor(b)}
       </div>
     </div>`
     }
 
     const svgSrc = '../' + b.svg
-    const rulesLink = b.rulesUrl ? `<a href="../${b.rulesUrl}" class="board-card-link" title="View rules">Rules</a>` : ''
+    const rulesLink = b.rulesUrl ? `<a href="${RULES_PREFIX}${b.rulesUrl}" class="board-card-link" title="View rules">Rules</a>` : ''
     return `<div class="board-card" data-family="${b.family}" data-variant="${b.variant}">
       <div class="board-card-preview">
         <img src="${svgSrc}" alt="${family} — ${title}" loading="lazy">
@@ -115,7 +154,7 @@ function render() {
       <div class="board-card-actions">
         <button class="btn-icon" data-action="svg" title="Download SVG">SVG</button>
         <button class="btn-icon" data-action="png" title="Download PNG">PNG</button>
-        ${rulesLink}
+        ${rulesLink}${playLinkFor(b)}
       </div>
     </div>`
   })

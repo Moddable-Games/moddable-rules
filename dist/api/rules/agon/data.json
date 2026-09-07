@@ -101,7 +101,8 @@
         "variantTitle": "Agon (Standard)",
         "topology": "hex",
         "svg": "games/agon/diagrams/svg/standard-board.svg",
-        "rulesUrl": "agon/variants/standard/index.html",
+        "rulesUrl": "agon/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       }

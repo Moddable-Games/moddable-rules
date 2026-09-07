@@ -306,6 +306,7 @@
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-2p-board.svg",
         "rulesUrl": "stern-halma/variants/standard-2p/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2"
       },
@@ -317,6 +318,7 @@
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-3p-board.svg",
         "rulesUrl": "stern-halma/variants/standard-3p/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "3"
       },
@@ -328,6 +330,7 @@
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-4p-board.svg",
         "rulesUrl": "stern-halma/variants/standard-4p/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "4"
       },
@@ -339,6 +342,7 @@
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/standard-6p-board.svg",
         "rulesUrl": "stern-halma/variants/standard-6p/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "6"
       },
@@ -350,6 +354,7 @@
         "topology": "graph",
         "svg": "games/stern-halma/diagrams/svg/super-chinese-checkers-board.svg",
         "rulesUrl": "stern-halma/variants/super-chinese-checkers/index.html",
+        "playable": false,
         "status": "rendered",
         "players": "2–6"
       }
