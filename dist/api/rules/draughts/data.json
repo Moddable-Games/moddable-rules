@@ -198,7 +198,7 @@
       "board": "10×10",
       "win": "Capture or block all opponent pieces",
       "special": "Movement is diagonal only; capture is in all 8 directions. Maximal capture is weighted, not counted: a king is worth more than a man but less than two men. A king may make at most 3 consecutive non-capturing moves while its owner still has a man.",
-      "playable": false,
+      "playable": true,
       "order": 4,
       "designer": null,
       "category": null,
@@ -212,6 +212,20 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "draughts": {
+            "directions": "diagonal",
+            "captureDirections": "all",
+            "manCapture": "all",
+            "flyingKings": true,
+            "forcedCapture": true,
+            "maximalCapture": "weighted",
+            "majorityPrefersKing": true,
+            "removeImmediately": false,
+            "piecesPerPlayer": 20,
+            "kingMoveLimit": 3
+          }
+        },
         "setup": "1b1b1b1b1b/b1b1b1b1b1/1b1b1b1b1b/b1b1b1b1b1/10/10/1w1w1w1w1w/w1w1w1w1w1/1w1w1w1w1w/w1w1w1w1w1"
       },
       "diagram": {
@@ -268,7 +282,7 @@
       "board": "5×5",
       "win": "Capture or block all opponent pieces",
       "special": "A 25-point line board where not every point carries diagonals. Movement and capture both run along the drawn lines, so this is a graph, not a grid. There is no authoritative historical ruleset: the 13th-century source gives no rules.",
-      "playable": false,
+      "playable": true,
       "order": 6,
       "designer": null,
       "category": null,
@@ -283,10 +297,12 @@
           "type": "grid",
           "rows": 5,
           "cols": 5,
-          "layout": "intersections"
+          "layout": "intersections",
+          "diagonals": "alternating"
         },
         "render": {
           "cellSize": 48,
+          "pieceScale": 0.78,
           "boardStyle": "alquerque",
           "ops": [
             {
@@ -323,21 +339,25 @@
         "pieces": {
           "set": "playstrategy-go-classic",
           "vocabulary": {
-            "w": {
-              "type": "stone",
-              "color": "white"
-            },
-            "b": {
-              "type": "stone",
-              "color": "black"
-            }
+            "b": "bS",
+            "w": "wS"
           }
         },
         "players": [
           "white",
           "black"
         ],
-        "setup": "bbbbb/bbbbb/bb1ww/wwwww/wwwww"
+        "setup": "bbbbb/bbbbb/bb1ww/wwwww/wwwww",
+        "plugins": {
+          "draughts": {
+            "directions": "all",
+            "manMove": "all",
+            "manCapture": "all",
+            "promotion": false,
+            "forcedCapture": true,
+            "piecesPerPlayer": 12
+          }
+        }
       },
       "diagram": {
         "svg": "games/draughts/diagrams/svg/alquerque-board.svg",
@@ -1169,7 +1189,7 @@
   },
   "stats": {
     "variantCount": 20,
-    "playable": 15,
+    "playable": 17,
     "withDiagram": 20,
     "topologies": [
       "grid"

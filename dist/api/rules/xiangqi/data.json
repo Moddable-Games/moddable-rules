@@ -294,7 +294,7 @@
       "board": "9×10",
       "win": "Checkmate the General",
       "special": "Asymmetric Xiangqi variant from the Qing Dynasty. The Manchu side loses its Horses, second Chariot, and both Cannons, gaining a single Banner piece that combines Chariot, Cannon, and Horse movement.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -315,7 +315,82 @@
           "red",
           "black"
         ],
-        "setup": "r1eakae1z/9/p1p1p1p1p/9/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
+        "vocabulary": {
+          "general": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "advisor": {
+            "symbols": {
+              "0": "A",
+              "1": "a"
+            }
+          },
+          "elephant": {
+            "symbols": {
+              "0": "E",
+              "1": "e"
+            }
+          },
+          "horse": {
+            "symbols": {
+              "0": "H",
+              "1": "h"
+            }
+          },
+          "chariot": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "cannon": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "soldier": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          },
+          "banner": {
+            "symbols": {
+              "0": "Z",
+              "1": "z"
+            }
+          }
+        },
+        "plugins": {
+          "xiangqi": {
+            "pieceMoves": {
+              "banner": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "orthogonal"
+                  },
+                  {
+                    "type": "hopper",
+                    "dirs": "orthogonal",
+                    "captureSlide": true
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": "knight",
+                    "lame": "orthogonal"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "setup": "r1eakae1z/9/9/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
       },
       "diagram": {
         "svg": "games/xiangqi/diagrams/svg/manchu-plus-board.svg",
@@ -744,7 +819,7 @@
   },
   "stats": {
     "variantCount": 9,
-    "playable": 3,
+    "playable": 4,
     "withDiagram": 9,
     "topologies": [
       "grid",

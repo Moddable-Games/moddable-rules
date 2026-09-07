@@ -3502,7 +3502,7 @@
       "board": "9×9",
       "win": "Reduce opponent to one remaining piece",
       "special": "Custodial sandwich capture. No drops, no promotion. All pieces are identical.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -4623,7 +4623,7 @@
   },
   "stats": {
     "variantCount": 24,
-    "playable": 13,
+    "playable": 14,
     "withDiagram": 24,
     "topologies": [
       "grid",

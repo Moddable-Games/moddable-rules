@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06",
+  "generated": "2026-09-07",
   "families": {
     "agon": {
       "title": "Agon",
@@ -342,7 +342,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 154,
-        "playable": 138,
+        "playable": 141,
         "withDiagram": 154,
         "topologies": [
           "grid",
@@ -531,7 +531,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 20,
-        "playable": 15,
+        "playable": 17,
         "withDiagram": 20,
         "topologies": [
           "grid"
@@ -1324,7 +1324,7 @@
       "complexity": "simple",
       "stats": {
         "variantCount": 8,
-        "playable": 6,
+        "playable": 8,
         "withDiagram": 8,
         "topologies": [
           "pit"
@@ -1961,7 +1961,7 @@
       "complexity": "complex",
       "stats": {
         "variantCount": 24,
-        "playable": 13,
+        "playable": 14,
         "withDiagram": 24,
         "topologies": [
           "grid",
@@ -2403,18 +2403,8 @@
         "pieces": {
           "set": "playstrategy-go-classic",
           "vocabulary": {
-            "K": {
-              "type": "king",
-              "color": "white"
-            },
-            "w": {
-              "type": "stone",
-              "color": "white"
-            },
-            "b": {
-              "type": "stone",
-              "color": "black"
-            }
+            "b": "bS",
+            "w": "wS"
           }
         },
         "players": [
@@ -2465,7 +2455,7 @@
       "complexity": "complex",
       "stats": {
         "variantCount": 9,
-        "playable": 3,
+        "playable": 4,
         "withDiagram": 9,
         "topologies": [
           "grid",
@@ -2592,7 +2582,7 @@
   "stats": {
     "totalFamilies": 46,
     "totalVariants": 296,
-    "totalPlayable": 204,
+    "totalPlayable": 213,
     "totalDiagrams": 346,
     "topologies": {
       "hex": 23,

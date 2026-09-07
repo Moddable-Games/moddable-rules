@@ -6,7 +6,7 @@
   "board": "9×9",
   "win": "Duple Checkmate, or capture one Champion then checkmate the remaining one",
   "special": "Xiangqi/chess hybrid by Eventlesstew for the PyChess Variant Design Contest. 9×9 board, dual Champions (royal), Crossbow (diagonal Cannon), piece drops within first two ranks, captures go to hand.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -465,8 +465,8 @@
       },
       "pupil": {
         "symbols": {
-          "0": "U",
-          "1": "u"
+          "0": "T",
+          "1": "t"
         }
       }
     },

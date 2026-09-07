@@ -9,11 +9,11 @@ The most strategically complex Mancala game in the world, played in Tanzania, Ke
 | Item | Qty | Notes |
 |------|-----|-------|
 | **Board** | 1 | 4 rows of 8 pits: 2 rows per player (inner + outer) |
-| **Seeds** | 64 | 2 seeds in each of the 32 pits |
+| **Seeds** | 64 | 32 a side: ten on the board at the start, twenty-two in hand for namua |
 
 ### Setup
 
-The board is oriented with both players' inner rows facing each other. Each pit starts with 2 seeds. The four centre pits of each inner row (positions 4 and 5 from each end) are called kimbi — they will be significant in the opening.
+The board is oriented with both players' inner rows facing each other. Each player starts with six seeds in the **nyumba** — the fourth pit from the right of their inner row — and two in each of the two pits to its right, holding the other twenty-two in hand. The four centre pits of each inner row (positions 4 and 5 from each end) are called kimbi — they will be significant in the opening.
 
 Each player controls their two rows: the **inner row** (facing the centre) and the **outer row** (behind it).
 

@@ -19,6 +19,7 @@
     },
     "render": {
       "cellSize": 40,
+      "pieceScale": 0.78,
       "cellColor": "uniform",
       "decorations": [
         {
@@ -34,17 +35,7 @@
       }
     },
     "pieces": {
-      "set": "playstrategy-go-classic",
-      "vocabulary": {
-        "w": {
-          "type": "stone",
-          "color": "white"
-        },
-        "b": {
-          "type": "stone",
-          "color": "black"
-        }
-      }
+      "set": "playstrategy-go-classic"
     },
     "players": [
       "white",
