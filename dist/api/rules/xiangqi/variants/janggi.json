@@ -6,7 +6,7 @@
   "board": "9×10",
   "win": "Checkmate the opponent's General",
   "special": "Cannon must jump to both move and capture. No river. Bikjang draw rule. Passing always legal.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -22,6 +22,59 @@
     ],
     "render": {
       "river": false
+    },
+    "plugins": {
+      "xiangqi": {
+        "hasRiver": false,
+        "cannonJumpToMove": true,
+        "palaceDiagonals": true,
+        "flyingGeneralRule": false,
+        "passAllowed": true,
+        "bikjangDraw": true,
+        "pieceMoves": {
+          "general": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1,
+            "constraint": "palace"
+          },
+          "advisor": {
+            "type": "rider",
+            "dirs": "all",
+            "maxSteps": 1,
+            "constraint": "palace"
+          },
+          "elephant": {
+            "type": "bent",
+            "first": "orthogonal",
+            "firstSteps": 1,
+            "second": "diagonal",
+            "secondSteps": 2
+          },
+          "chariot": {
+            "type": "rider",
+            "dirs": "all"
+          },
+          "soldier": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "directional": true
+          }
+        }
+      }
     },
     "setup": "rhea1aehr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RHEA1AEHR"
   },

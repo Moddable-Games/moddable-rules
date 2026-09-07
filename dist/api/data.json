@@ -531,7 +531,7 @@
       "complexity": "moderate",
       "stats": {
         "variantCount": 20,
-        "playable": 17,
+        "playable": 20,
         "withDiagram": 20,
         "topologies": [
           "grid"
@@ -1961,7 +1961,7 @@
       "complexity": "complex",
       "stats": {
         "variantCount": 24,
-        "playable": 14,
+        "playable": 16,
         "withDiagram": 24,
         "topologies": [
           "grid",
@@ -2455,7 +2455,7 @@
       "complexity": "complex",
       "stats": {
         "variantCount": 9,
-        "playable": 4,
+        "playable": 6,
         "withDiagram": 9,
         "topologies": [
           "grid",
@@ -2582,7 +2582,7 @@
   "stats": {
     "totalFamilies": 46,
     "totalVariants": 296,
-    "totalPlayable": 213,
+    "totalPlayable": 220,
     "totalDiagrams": 346,
     "topologies": {
       "hex": 23,

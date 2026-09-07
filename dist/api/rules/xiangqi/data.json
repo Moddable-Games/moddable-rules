@@ -212,7 +212,7 @@
       "board": "9×10",
       "win": "Checkmate the opponent's General",
       "special": "Cannon must jump to both move and capture. No river. Bikjang draw rule. Passing always legal.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -228,6 +228,59 @@
         ],
         "render": {
           "river": false
+        },
+        "plugins": {
+          "xiangqi": {
+            "hasRiver": false,
+            "cannonJumpToMove": true,
+            "palaceDiagonals": true,
+            "flyingGeneralRule": false,
+            "passAllowed": true,
+            "bikjangDraw": true,
+            "pieceMoves": {
+              "general": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1,
+                "constraint": "palace"
+              },
+              "advisor": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1,
+                "constraint": "palace"
+              },
+              "elephant": {
+                "type": "bent",
+                "first": "orthogonal",
+                "firstSteps": 1,
+                "second": "diagonal",
+                "secondSteps": 2
+              },
+              "chariot": {
+                "type": "rider",
+                "dirs": "all"
+              },
+              "soldier": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "directional": true
+              }
+            }
+          }
         },
         "setup": "rhea1aehr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RHEA1AEHR"
       },
@@ -516,7 +569,7 @@
       "board": "10×10",
       "win": "Checkmate the General, or advance a Pawn to the last rank where it cannot be immediately captured",
       "special": "Vietnamese 10×10 variant with novel piece types. Pawns and General restricted to central files; advancing a Pawn to the last rank wins.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -531,6 +584,168 @@
           "red",
           "black"
         ],
+        "vocabulary": {
+          "general": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "counsellor": {
+            "symbols": {
+              "0": "A",
+              "1": "a"
+            }
+          },
+          "elephant": {
+            "symbols": {
+              "0": "E",
+              "1": "e"
+            }
+          },
+          "horse": {
+            "symbols": {
+              "0": "H",
+              "1": "h"
+            }
+          },
+          "chariot": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "cannon": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "soldier": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          }
+        },
+        "plugins": {
+          "xiangqi": {
+            "hasRiver": false,
+            "flyingGeneralRule": false,
+            "firstMoveRows": [
+              7,
+              2
+            ],
+            "pawnAdvanceWin": "soldier",
+            "pieceMoves": {
+              "general": {
+                "type": "bent",
+                "first": "diagonal",
+                "firstSteps": 1,
+                "secondSteps": 1,
+                "constraint": {
+                  "cols": [
+                    2,
+                    7
+                  ]
+                }
+              },
+              "counsellor": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -3,
+                    0
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    0,
+                    -3
+                  ],
+                  [
+                    0,
+                    3
+                  ],
+                  [
+                    -2,
+                    -2
+                  ],
+                  [
+                    -2,
+                    2
+                  ],
+                  [
+                    2,
+                    -2
+                  ],
+                  [
+                    2,
+                    2
+                  ]
+                ]
+              },
+              "elephant": {
+                "type": "leaper",
+                "offsets": "camel"
+              },
+              "horse": {
+                "type": "leaper",
+                "offsets": "knight",
+                "lame": "orthogonal"
+              },
+              "cannon": {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              "chariot": {
+                "divergent": {
+                  "move": {
+                    "type": "rider",
+                    "dirs": "orthogonal"
+                  },
+                  "capture": {
+                    "type": "locust",
+                    "dirs": "orthogonal"
+                  }
+                }
+              },
+              "soldier": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ]
+                ],
+                "directional": true,
+                "constraint": {
+                  "cols": [
+                    2,
+                    7
+                  ]
+                },
+                "firstMove": {
+                  "type": "rider",
+                  "dirs": [
+                    [
+                      -1,
+                      0
+                    ]
+                  ],
+                  "maxSteps": 2,
+                  "minSteps": 2
+                }
+              }
+            }
+          }
+        },
         "setup": "rheaakaehr/10/1c6c1/p1p1pp1p1p/10/10/P1P1PP1P1P/1C6C1/10/RHEAAKAEHR",
         "surface": {
           "colors": {
@@ -819,7 +1034,7 @@
   },
   "stats": {
     "variantCount": 9,
-    "playable": 4,
+    "playable": 6,
     "withDiagram": 9,
     "topologies": [
       "grid",

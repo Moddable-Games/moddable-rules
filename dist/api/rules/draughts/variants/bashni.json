@@ -6,7 +6,7 @@
   "board": "8×8",
   "win": "Leave the opponent with no legal move",
   "special": "Russian Draughts with towers. A captured piece is not removed: it goes to the BOTTOM of the capturing column. Only the top piece of a column is ever captured, and whoever is on top owns and commands the column.",
-  "playable": false,
+  "playable": true,
   "order": 15,
   "designer": null,
   "category": null,
@@ -20,6 +20,17 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "draughts": {
+        "columns": true,
+        "directions": "diagonal",
+        "manCapture": "all",
+        "flyingKings": true,
+        "forcedCapture": true,
+        "removeImmediately": false,
+        "piecesPerPlayer": 12
+      }
+    },
     "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1"
   },
   "diagram": {

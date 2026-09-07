@@ -6,7 +6,7 @@
   "board": "7×7",
   "win": "Leave the opponent with no legal move",
   "special": "Emanuel Lasker's column game. Same stacking as Bashni but built on ENGLISH draughts: soldiers do not capture backwards, officers do not fly, and promotion ends the turn.",
-  "playable": false,
+  "playable": true,
   "order": 5,
   "designer": null,
   "category": null,
@@ -20,7 +20,18 @@
       "white",
       "black"
     ],
-    "setup": "1b1b1b1/b1b1b1b/1b1b1b1/7/1w1w1w1/w1w1w1w/1w1w1w1"
+    "plugins": {
+      "draughts": {
+        "columns": true,
+        "directions": "diagonal",
+        "manCapture": "forward",
+        "flyingKings": false,
+        "forcedCapture": true,
+        "removeImmediately": false,
+        "piecesPerPlayer": 11
+      }
+    },
+    "setup": "b1b1b1b/1b1b1b1/b1b1b1b/7/w1w1w1w/1w1w1w1/w1w1w1w"
   },
   "diagram": {
     "svg": "games/draughts/diagrams/svg/lasca-board.svg",

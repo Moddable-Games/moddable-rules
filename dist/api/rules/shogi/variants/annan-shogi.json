@@ -6,7 +6,7 @@
   "board": "9×9",
   "win": "Checkmate the opponent's King",
   "special": "Each piece borrows the movement of the friendly piece directly behind it. A Pawn backed by a Rook moves like a Rook.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -20,6 +20,13 @@
       "sente",
       "gote"
     ],
+    "plugins": {
+      "shogi": {
+        "borrowFromBehind": true,
+        "noDropLastRank": [],
+        "noDropSecondRank": []
+      }
+    },
     "setup": "lnsgkgsnl/1r5b1/p1ppppp1p/1p5p1/9/1P5P1/P1PPPPP1P/1B5R1/LNSGKGSNL"
   },
   "diagram": {

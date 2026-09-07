@@ -6,7 +6,7 @@
   "board": "5×5",
   "win": "Checkmate the opponent's King",
   "special": "Every piece except the King flips to its alternate face after each move",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -20,7 +20,121 @@
       "sente",
       "gote"
     ],
-    "setup": "pgskl/5/5/5/LKSGP",
+    "vocabulary": {
+      "king": {
+        "symbols": {
+          "0": "K",
+          "1": "k"
+        }
+      },
+      "tokin": {
+        "symbols": {
+          "0": "T",
+          "1": "t"
+        }
+      },
+      "lance": {
+        "symbols": {
+          "0": "L",
+          "1": "l"
+        }
+      },
+      "silver": {
+        "symbols": {
+          "0": "S",
+          "1": "s"
+        }
+      },
+      "bishop": {
+        "symbols": {
+          "0": "B",
+          "1": "b"
+        }
+      },
+      "gold": {
+        "symbols": {
+          "0": "G",
+          "1": "g"
+        }
+      },
+      "knight": {
+        "symbols": {
+          "0": "N",
+          "1": "n"
+        }
+      },
+      "pawn": {
+        "symbols": {
+          "0": "P",
+          "1": "p"
+        }
+      },
+      "rook": {
+        "symbols": {
+          "0": "R",
+          "1": "r"
+        }
+      }
+    },
+    "pieces": {
+      "set": "kahu-shogi-kanji-red-wood",
+      "directional": true,
+      "vocabulary": {
+        "T": "w+P",
+        "t": "b+P"
+      }
+    },
+    "plugins": {
+      "shogi": {
+        "promotionZone": 0,
+        "flipMap": {
+          "tokin": "lance",
+          "lance": "tokin",
+          "silver": "bishop",
+          "bishop": "silver",
+          "gold": "knight",
+          "knight": "gold",
+          "pawn": "rook",
+          "rook": "pawn"
+        },
+        "dropPawnFileLimit": false,
+        "noDropLastRank": [],
+        "noDropSecondRank": [],
+        "pieceMoves": {
+          "tokin": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "directional": true
+          }
+        }
+      }
+    },
+    "setup": "pgkst/5/5/5/TSKGP",
     "render": {
       "cellSize": 40
     }

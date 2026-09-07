@@ -247,7 +247,7 @@
       "board": "7×7",
       "win": "Leave the opponent with no legal move",
       "special": "Emanuel Lasker's column game. Same stacking as Bashni but built on ENGLISH draughts: soldiers do not capture backwards, officers do not fly, and promotion ends the turn.",
-      "playable": false,
+      "playable": true,
       "order": 5,
       "designer": null,
       "category": null,
@@ -261,7 +261,18 @@
           "white",
           "black"
         ],
-        "setup": "1b1b1b1/b1b1b1b/1b1b1b1/7/1w1w1w1/w1w1w1w/1w1w1w1"
+        "plugins": {
+          "draughts": {
+            "columns": true,
+            "directions": "diagonal",
+            "manCapture": "forward",
+            "flyingKings": false,
+            "forcedCapture": true,
+            "removeImmediately": false,
+            "piecesPerPlayer": 11
+          }
+        },
+        "setup": "b1b1b1b/1b1b1b1/b1b1b1b/7/w1w1w1w/1w1w1w1/w1w1w1w"
       },
       "diagram": {
         "svg": "games/draughts/diagrams/svg/lasca-board.svg",
@@ -731,7 +742,7 @@
       "board": "8×8",
       "win": "Leave the opponent with no legal move",
       "special": "Russian Draughts with towers. A captured piece is not removed: it goes to the BOTTOM of the capturing column. Only the top piece of a column is ever captured, and whoever is on top owns and commands the column.",
-      "playable": false,
+      "playable": true,
       "order": 15,
       "designer": null,
       "category": null,
@@ -745,6 +756,17 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "draughts": {
+            "columns": true,
+            "directions": "diagonal",
+            "manCapture": "all",
+            "flyingKings": true,
+            "forcedCapture": true,
+            "removeImmediately": false,
+            "piecesPerPlayer": 12
+          }
+        },
         "setup": "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1"
       },
       "diagram": {
@@ -766,7 +788,7 @@
       "board": "8×8",
       "win": "Opponent has no legal move",
       "special": "Phalanx movement: an unbroken line of men slides one square forward along its own axis. Men move diagonally and orthogonally forward but capture ORTHOGONALLY ONLY; kings move queenwise but capture rookwise. 18 pieces per side on all 64 squares.",
-      "playable": false,
+      "playable": true,
       "order": 16,
       "designer": null,
       "category": null,
@@ -780,6 +802,19 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "draughts": {
+            "directions": "all",
+            "captureDirections": "orthogonal",
+            "manCapture": "all",
+            "flyingKings": true,
+            "forcedCapture": true,
+            "maximalCapture": true,
+            "removeImmediately": false,
+            "phalanx": true,
+            "piecesPerPlayer": 18
+          }
+        },
         "setup": "bbbbbbbb/1bbbbbb1/2bbbb2/8/8/2wwww2/1wwwwww1/wwwwwwww"
       },
       "diagram": {
@@ -1189,7 +1224,7 @@
   },
   "stats": {
     "variantCount": 20,
-    "playable": 17,
+    "playable": 20,
     "withDiagram": 20,
     "topologies": [
       "grid"

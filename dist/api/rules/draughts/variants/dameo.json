@@ -6,7 +6,7 @@
   "board": "8×8",
   "win": "Opponent has no legal move",
   "special": "Phalanx movement: an unbroken line of men slides one square forward along its own axis. Men move diagonally and orthogonally forward but capture ORTHOGONALLY ONLY; kings move queenwise but capture rookwise. 18 pieces per side on all 64 squares.",
-  "playable": false,
+  "playable": true,
   "order": 16,
   "designer": null,
   "category": null,
@@ -20,6 +20,19 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "draughts": {
+        "directions": "all",
+        "captureDirections": "orthogonal",
+        "manCapture": "all",
+        "flyingKings": true,
+        "forcedCapture": true,
+        "maximalCapture": true,
+        "removeImmediately": false,
+        "phalanx": true,
+        "piecesPerPlayer": 18
+      }
+    },
     "setup": "bbbbbbbb/1bbbbbb1/2bbbb2/8/8/2wwww2/1wwwwww1/wwwwwwww"
   },
   "diagram": {
