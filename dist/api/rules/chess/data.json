@@ -3632,6 +3632,17 @@
         },
         "plugins": {
           "chess": {
+            "terrain": {
+              "drown": {
+                "rows": [
+                  3,
+                  3
+                ],
+                "immune": [
+                  "crocodile"
+                ]
+              }
+            },
             "pieces": {
               "giraffe": {
                 "divergent": {

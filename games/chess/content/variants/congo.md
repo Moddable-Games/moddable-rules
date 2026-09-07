@@ -8,10 +8,6 @@ parent: chess
 win: Capture the Lion
 special: "7×7 chess variant by Demian Freeling (1982, age 7). Six unique piece types: Lion (King, confined to castle), Zebra (Knight), Giraffe (2-step jump + king move), Elephant (1–2 step ortho leaper), Crocodile (king move + rook toward/in river), Monkey (capturing draughts-leaper). River rank in the centre. Drowning rule: non-Crocodile pieces left in the river for a full turn are removed. No check or checkmate — capture the Lion to win."
 approximations:
-  - feature: "The river"
-    source: "Rank 4 is a river. A non-Crocodile piece that moves into it drowns and is removed unless it is moved out again on its owner's very next turn."
-    engine: "Not implemented. Rank 4 is ordinary board and nothing ever drowns."
-    blocker: "A grid in tile mode has no terrain: it can mark a cell absent, but not present and different. Drowning additionally needs a per-piece countdown that survives a turn."
   - feature: "Crocodile river movement"
     source: "King move, plus a rook slide along its file toward the river, and a rook slide within the river rank once in it."
     engine: "Plain king step."
@@ -23,11 +19,11 @@ approximations:
   - feature: "Pawn retreat across the river"
     source: "A pawn that has crossed the river may move one or two squares straight backward, without capturing or jumping."
     engine: "Not implemented. Pawns never move backward."
-    blocker: "Depends on the river, which is not modelled."
+    blocker: "The river exists now, as terrain a piece can drown in, but a pawn's movement still cannot be conditioned on which side of it the pawn stands."
   - feature: "Superpawn promotion"
     source: "A pawn reaching the last rank becomes a Superpawn, gaining sideways movement and a one-or-two-square diagonal retreat."
     engine: "Not implemented. No promotion occurs."
-    blocker: "The variant declares no promotion map and no Superpawn, and the retreat depends on the river."
+    blocker: "The variant declares no promotion map and no Superpawn, and the retreat needs the same river-relative movement the pawn retreat does."
 engine:
   topology:
     type: grid
@@ -77,6 +73,12 @@ engine:
         1: z
   plugins:
     chess:
+      # Rank 4 is the river (row 3 counting from the top). A piece that moves
+      # into it has one turn to get out again; the Crocodile is at home there.
+      terrain:
+        drown:
+          rows: [3, 3]
+          immune: [crocodile]
       pieces:
         giraffe:
           divergent:
