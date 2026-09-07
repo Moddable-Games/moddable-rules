@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Annan Shogi
 slug: annan-shogi
 board: 9×9
@@ -20,13 +21,20 @@ verified:
     - "Chaining: whether a rear piece that is itself borrowing a move confers its borrowed move or its native move. Undocumented in every source, and a real engine decision."
     - "Whether the King is affected, and whether promotion keys off the piece's own identity or its borrowed move."
     - "The explicit win condition."
-unsupported: "Move generation becomes context-dependent: a piece's move set is a function of whatever allied piece stands directly behind it, recomputed every position, which defeats any cached per-piece move table. lishogi documents a consequence that also breaks legality testing - capturing the ENABLER behind a checking piece is a legal way out of check, so the usual 'capture or block the checker' evasion set is incomplete. Setup also differs from standard shogi: the rook's and bishop's pawns start one step toward the centre. Do not implement until the 'behind' direction is settled."
 engine:
   topology:
     type: grid
     rows: 9
     cols: 9
   players: [sente, gote]
+  plugins:
+    shogi:
+      # Each piece borrows the move of the friendly piece directly behind it.
+      borrowFromBehind: true
+      # "Pawns, Knights, and Lances may be dropped onto any rank", because
+      # borrowed movement can always provide an escape.
+      noDropLastRank: []
+      noDropSecondRank: []
   setup: "lnsgkgsnl/1r5b1/p1ppppp1p/1p5p1/9/1P5P1/P1PPPPP1P/1B5R1/LNSGKGSNL"
 ---
 
