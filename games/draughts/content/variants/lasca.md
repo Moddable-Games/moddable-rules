@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Lasca
 slug: lasca
 board: "7×7"
@@ -18,7 +18,7 @@ verified:
     - "https://draughts.github.io/lasca.html"
     - "https://mindsports.nl/index.php/on-the-evolution-of-draughts-variants/116-column-checkers"
   decisions:
-    - "The square-by-square starting layout is derived, not quoted. On a 7x7 with 25 playable squares the rows alternate 4/3/4/3/4/3/4, so three rows nearest each player is 4+3+4 = 11 pieces, matching the sourced count, and the middle row of 3 is empty."
+    - "RESOLVED 2026-09-07. The square-by-square starting layout is derived, not quoted. On a 7x7 with 25 playable squares the rows alternate 4/3/4/3/4/3/4, so three rows nearest each player is 4+3+4 = 11 pieces, matching the sourced count, and the middle row of 3 is empty. The setup string carried the opposite parity - 3/4/3, ten pieces - and now matches this derivation at eleven."
   unverified:
     - "Maximum column height. No source states one. lasca.org, which most likely carries Lasker's original rules, is blocked by robots.txt."
     - "Whether maximal capture is required when several captures are available. English Draughts does not require it and no source addresses it for Lasca."
@@ -29,8 +29,18 @@ engine:
     rows: 7
     cols: 7
   players: [white, black]
-  setup: "1b1b1b1/b1b1b1b/1b1b1b1/7/1w1w1w1/w1w1w1w/1w1w1w1"
-unsupported: "The same ordered-stack board as Bashni, but with an English Draughts move generator over it: soldiers do not capture backwards, officers step one square rather than flying, and promotion ends the turn immediately even if further captures appear available."
+  plugins:
+    draughts:
+      # The same column board with an English Draughts move generator over it:
+      # soldiers do not capture backwards and officers step rather than fly.
+      columns: true
+      directions: diagonal
+      manCapture: forward
+      flyingKings: false
+      forcedCapture: true
+      removeImmediately: false
+      piecesPerPlayer: 11
+  setup: "b1b1b1b/1b1b1b1/b1b1b1b/7/w1w1w1w/1w1w1w1/w1w1w1w"
 ---
 
 ## Lasca

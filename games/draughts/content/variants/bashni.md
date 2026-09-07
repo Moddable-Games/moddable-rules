@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Bashni
 slug: bashni
 board: "8×8"
@@ -29,8 +29,17 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
+  plugins:
+    draughts:
+      # Russian Draughts over a column board: men capture both ways, kings fly.
+      columns: true
+      directions: diagonal
+      manCapture: all
+      flyingKings: true
+      forcedCapture: true
+      removeImmediately: false
+      piecesPerPlayer: 12
   setup: "1b1b1b1b/b1b1b1b1/1b1b1b1b/8/8/w1w1w1w1/1w1w1w1w/w1w1w1w1"
-unsupported: "A square must hold an ORDERED STACK of pieces rather than one piece, and nothing is ever removed from the board. Capture moves the victim's top piece to the bottom of the capturer's column; ownership, move type and promotion all read the column's top piece. Material evaluation counts tops of columns, not pieces, because a buried man is still on the board and can be freed later."
 ---
 
 ## Bashni

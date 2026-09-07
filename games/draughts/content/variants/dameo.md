@@ -6,7 +6,7 @@ players: "2"
 parent: draughts
 order: 16
 win: Opponent has no legal move
-playable: false
+playable: true
 special: "Phalanx movement: an unbroken line of men slides one square forward along its own axis. Men move diagonally and orthogonally forward but capture ORTHOGONALLY ONLY; kings move queenwise but capture rookwise. 18 pieces per side on all 64 squares."
 verified:
   date: "2026-08-31"
@@ -25,13 +25,26 @@ verified:
     - "Whether a phalanx may capture as a unit. Every source describes linear movement under movement only, and capture always as a single piece jumping."
     - "Whether a man promoting mid-capture continues the chain as a king."
     - "Whether all 64 squares are used. Strongly implied by the a1-h1 starting row spanning both colours and by orthogonal capture, but never stated."
-unsupported: "The phalanx move is a new move type: one move relocates a man from the rear of an unbroken forward line to the empty square beyond its head, so move generation must walk each of the three forward axes collecting same-colour runs. Separately, the engine must not reuse a diagonal capture generator here - men capture orthogonally while moving diagonally, and kings move queenwise while capturing rookwise. Majority capture is a plain count, unlike Frisian."
 engine:
   topology:
     type: grid
     rows: 8
     cols: 8
   players: [white, black]
+  plugins:
+    draughts:
+      # Men move forward - straight or diagonally - and capture orthogonally;
+      # kings move queenwise and capture rookwise. The two direction sets are
+      # the inversion the variant is built on.
+      directions: all
+      captureDirections: orthogonal
+      manCapture: all
+      flyingKings: true
+      forcedCapture: true
+      maximalCapture: true
+      removeImmediately: false
+      phalanx: true
+      piecesPerPlayer: 18
   setup: "bbbbbbbb/1bbbbbb1/2bbbb2/8/8/2wwww2/1wwwwww1/wwwwwwww"
 ---
 
