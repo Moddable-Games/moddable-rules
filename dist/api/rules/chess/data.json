@@ -3632,6 +3632,115 @@
         },
         "plugins": {
           "chess": {
+            "regions": {
+              "river": {
+                "rows": [
+                  3,
+                  3
+                ]
+              },
+              "castle": {
+                "rows": [
+                  [
+                    4,
+                    6
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "cols": [
+                  2,
+                  4
+                ]
+              },
+              "northBank": {
+                "rows": [
+                  0,
+                  2
+                ]
+              },
+              "southBank": {
+                "rows": [
+                  4,
+                  6
+                ]
+              },
+              "riverAndNorth": {
+                "rows": [
+                  0,
+                  3
+                ]
+              },
+              "riverAndSouth": {
+                "rows": [
+                  3,
+                  6
+                ]
+              }
+            },
+            "doubleStep": false,
+            "pawnMoveDirections": {
+              "0": [
+                [
+                  -1,
+                  0
+                ],
+                [
+                  -1,
+                  -1
+                ],
+                [
+                  -1,
+                  1
+                ]
+              ],
+              "1": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  -1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            },
+            "pawnCaptureDirections": {
+              "0": [
+                [
+                  -1,
+                  0
+                ],
+                [
+                  -1,
+                  -1
+                ],
+                [
+                  -1,
+                  1
+                ]
+              ],
+              "1": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  -1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            },
             "terrain": {
               "drown": {
                 "rows": [
@@ -3693,9 +3802,81 @@
                 }
               },
               "crocodile": {
-                "type": "rider",
-                "dirs": "all",
-                "maxSteps": 1
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "river",
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "type": "rider",
+                          "dirs": "all",
+                          "maxSteps": 1
+                        },
+                        {
+                          "type": "rider",
+                          "dirs": [
+                            [
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              1
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "in": "northBank",
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "type": "rider",
+                          "dirs": "all",
+                          "maxSteps": 1
+                        },
+                        {
+                          "type": "rider",
+                          "dirs": [
+                            [
+                              1,
+                              0
+                            ]
+                          ],
+                          "confine": "riverAndNorth"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "in": "southBank",
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "type": "rider",
+                          "dirs": "all",
+                          "maxSteps": 1
+                        },
+                        {
+                          "type": "rider",
+                          "dirs": [
+                            [
+                              -1,
+                              0
+                            ]
+                          ],
+                          "confine": "riverAndSouth"
+                        }
+                      ]
+                    }
+                  }
+                ]
               },
               "elephant": {
                 "type": "compose",
@@ -3715,22 +3896,7 @@
                 "type": "rider",
                 "dirs": "all",
                 "maxSteps": 1,
-                "confine": {
-                  "rows": [
-                    [
-                      4,
-                      6
-                    ],
-                    [
-                      0,
-                      2
-                    ]
-                  ],
-                  "cols": [
-                    2,
-                    4
-                  ]
-                }
+                "confine": "castle"
               },
               "zebra": {
                 "type": "leaper",
