@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Janggi
 slug: janggi
 board: "9×10"
@@ -14,6 +15,27 @@ engine:
   players: [red, black]
   render:
     river: false
+  plugins:
+    xiangqi:
+      hasRiver: false
+      # The Cannon must jump a screen to move as well as to capture.
+      cannonJumpToMove: true
+      # Each palace is drawn with an X, and a piece may only move diagonally
+      # along a line that is drawn: between the palace centre and its corners.
+      palaceDiagonals: true
+      flyingGeneralRule: false
+      passAllowed: true
+      bikjangDraw: true
+      pieceMoves:
+        general: { type: rider, dirs: all, maxSteps: 1, constraint: palace }
+        advisor: { type: rider, dirs: all, maxSteps: 1, constraint: palace }
+        # One step orthogonally, then two diagonally outward. Blocked by
+        # anything on either square it passes over.
+        elephant: { type: bent, first: orthogonal, firstSteps: 1, second: diagonal, secondSteps: 2 }
+        chariot: { type: rider, dirs: all }
+        # One step forward or sideways, from the very start: there is no river
+        # to cross and so no promotion.
+        soldier: { type: leaper, offsets: [[-1, 0], [0, -1], [0, 1]], directional: true }
   setup: "rhea1aehr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RHEA1AEHR"
 ---
 
