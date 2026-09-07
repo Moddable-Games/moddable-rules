@@ -165,68 +165,31 @@
               3,
               6
             ]
+          },
+          "acrossRiver": {
+            "rows": [
+              [
+                0,
+                2
+              ],
+              [
+                4,
+                6
+              ]
+            ]
+          },
+          "lastRank": {
+            "rows": [
+              [
+                0,
+                0
+              ],
+              [
+                6,
+                6
+              ]
+            ]
           }
-        },
-        "doubleStep": false,
-        "pawnMoveDirections": {
-          "0": [
-            [
-              -1,
-              0
-            ],
-            [
-              -1,
-              -1
-            ],
-            [
-              -1,
-              1
-            ]
-          ],
-          "1": [
-            [
-              1,
-              0
-            ],
-            [
-              1,
-              -1
-            ],
-            [
-              1,
-              1
-            ]
-          ]
-        },
-        "pawnCaptureDirections": {
-          "0": [
-            [
-              -1,
-              0
-            ],
-            [
-              -1,
-              -1
-            ],
-            [
-              -1,
-              1
-            ]
-          ],
-          "1": [
-            [
-              1,
-              0
-            ],
-            [
-              1,
-              -1
-            ],
-            [
-              1,
-              1
-            ]
-          ]
         },
         "terrain": {
           "drown": {
@@ -239,10 +202,97 @@
             ]
           }
         },
-        "promotionChoices": [
-          "superpawn"
+        "promotion": [
+          {
+            "piece": "pawn",
+            "in": "lastRank",
+            "to": [
+              "superpawn"
+            ]
+          }
         ],
         "pieces": {
+          "pawn": {
+            "directional": true,
+            "type": "positional",
+            "cases": [
+              {
+                "in": "acrossRiver",
+                "move": {
+                  "divergent": {
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              0
+                            ],
+                            [
+                              -1,
+                              -1
+                            ],
+                            [
+                              -1,
+                              1
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "rider",
+                          "dirs": [
+                            [
+                              1,
+                              0
+                            ]
+                          ],
+                          "maxSteps": 2
+                        }
+                      ]
+                    },
+                    "capture": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ]
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      0
+                    ],
+                    [
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
           "superpawn": {
             "directional": true,
             "divergent": {
