@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Quang Trung Chess
 slug: quang-trung
 board: 10×10
@@ -13,6 +14,45 @@ engine:
     cols: 10
     layout: cells
   players: [red, black]
+  vocabulary:
+    general: { symbols: { 0: K, 1: k } }
+    counsellor: { symbols: { 0: A, 1: a } }
+    elephant: { symbols: { 0: E, 1: e } }
+    horse: { symbols: { 0: H, 1: h } }
+    chariot: { symbols: { 0: R, 1: r } }
+    cannon: { symbols: { 0: C, 1: c } }
+    soldier: { symbols: { 0: P, 1: p } }
+  plugins:
+    xiangqi:
+      hasRiver: false
+      flyingGeneralRule: false
+      # The General and all Pawns stay in files c-h at all times.
+      firstMoveRows: [7, 2]
+      pawnAdvanceWin: soldier
+      pieceMoves:
+        # One diagonal step, then one orthogonal step, in that order.
+        general: { type: bent, first: diagonal, firstSteps: 1, secondSteps: 1, constraint: { cols: [2, 7] } }
+        # Exactly three squares orthogonally or two diagonally, over anything.
+        counsellor: { type: leaper, offsets: [[-3, 0], [3, 0], [0, -3], [0, 3], [-2, -2], [-2, 2], [2, -2], [2, 2]] }
+        # A Camel: two orthogonally then one diagonally outward, over anything.
+        elephant: { type: leaper, offsets: camel }
+        horse: { type: leaper, offsets: knight, lame: orthogonal }
+        # A FIDE Bishop, with none of the Chinese Cannon's screen.
+        cannon: { type: rider, dirs: diagonal }
+        # Slides orthogonally to move; to capture it jumps the target and lands
+        # on the vacant square beyond.
+        chariot:
+          divergent:
+            move: { type: rider, dirs: orthogonal }
+            capture: { type: locust, dirs: orthogonal }
+        # Moves and captures one square diagonally forward; on its first move
+        # only, two squares straight ahead.
+        soldier:
+          type: leaper
+          offsets: [[-1, -1], [-1, 1]]
+          directional: true
+          constraint: { cols: [2, 7] }
+          firstMove: { type: rider, dirs: [[-1, 0]], maxSteps: 2, minSteps: 2 }
   setup: "rheaakaehr/10/1c6c1/p1p1pp1p1p/10/10/P1P1PP1P1P/1C6C1/10/RHEAAKAEHR"
   surface:
     colors:
