@@ -14,7 +14,8 @@
     "sync": "node js/sync.mjs",
     "sync:boards": "./scripts/sync-boards.sh",
     "sync:chargen": "./scripts/sync-chargen.sh",
-    "og": "python3 build/gen-og.py"
+    "og": "python3 build/gen-og.py",
+    "check:pdf-release": "node scripts/check-pdf-release.mjs"
   },
   "dependencies": {},
   "devDependencies": {

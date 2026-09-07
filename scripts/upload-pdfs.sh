@@ -24,23 +24,20 @@ if ! gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
     --latest=false
 fi
 
-# Stage files with flattened names
+# Stage files with flattened names.
+#
+# The naming rule lives in scripts/lib/pdf-assets.mjs, which check-pdf-release
+# also reads. It used to live here alone, so anything else that wanted to reason
+# about the published PDFs had to re-derive it - and the check that tells you
+# the release is stale must agree with the uploader about which file is which,
+# or it reports drift that is only a difference of opinion about names.
 rm -rf "$STAGING" && mkdir -p "$STAGING"
 count=0
-for pdf in games/*/pdf/**/*.pdf games/*/pdf/*.pdf; do
+while IFS=$'\t' read -r pdf asset_name; do
   [ -f "$pdf" ] || continue
-  slug=$(echo "$pdf" | cut -d/ -f2)
-  rest=$(echo "$pdf" | sed "s|games/${slug}/pdf/||")
-  # Skip versioned archives
-  case "$rest" in
-    *-v[0-9]*) continue ;;
-  esac
-  # Flatten: variants/standard.pdf -> standard.pdf, rules/combat.pdf -> rules--combat.pdf
-  flat=$(echo "$rest" | sed 's|/|--|g')
-  asset_name="${slug}--${flat}"
   cp "$pdf" "$STAGING/$asset_name"
   count=$((count + 1))
-done
+done < <(node "$RULES_ROOT/scripts/lib/pdf-assets.mjs")
 
 echo "Staged $count PDFs for upload"
 
