@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Kyoto Shogi
 slug: kyoto-shogi
 board: "5×5"
@@ -15,14 +16,50 @@ verified:
   unverified:
     - "An explicit statement of the win condition. Neither the English nor the Japanese article gives one."
     - "Text (non-image) movement definitions per face from an English source. The English piece table is diagrams only; the claim that each face moves as its standard-shogi namesake rests on one Japanese sentence."
-unsupported: "5x5, five pieces a side, and every piece except the king MUST flip to its other face after every move, regardless of where it started or landed. There is no promotion zone at all. The pairs are tokin/lance, silver/bishop, gold/knight and pawn/rook. A captured piece may be dropped with EITHER face up, and drop restrictions are absent - two pawns on a file are legal. Face has to become part of a move's result rather than a property of a promotion square."
 engine:
   topology:
     type: grid
     rows: 5
     cols: 5
   players: [sente, gote]
-  setup: "pgskl/5/5/5/LKSGP"
+  vocabulary:
+    king: { symbols: { 0: K, 1: k } }
+    tokin: { symbols: { 0: T, 1: t } }
+    lance: { symbols: { 0: L, 1: l } }
+    silver: { symbols: { 0: S, 1: s } }
+    bishop: { symbols: { 0: B, 1: b } }
+    gold: { symbols: { 0: G, 1: g } }
+    knight: { symbols: { 0: N, 1: n } }
+    pawn: { symbols: { 0: P, 1: p } }
+    rook: { symbols: { 0: R, 1: r } }
+  pieces:
+    set: kahu-shogi-kanji-red-wood
+    directional: true
+    vocabulary:
+      T: "w+P"
+      t: "b+P"
+  plugins:
+    shogi:
+      # Every piece but the King flips to its other face after every move, so
+      # there is no promotion zone at all and no choice to offer.
+      promotionZone: 0
+      flipMap:
+        tokin: lance
+        lance: tokin
+        silver: bishop
+        bishop: silver
+        gold: knight
+        knight: gold
+        pawn: rook
+        rook: pawn
+      # "There are no restrictions on where pieces can be dropped, other than
+      # that the square must be empty."
+      dropPawnFileLimit: false
+      noDropLastRank: []
+      noDropSecondRank: []
+      pieceMoves:
+        tokin: { type: leaper, offsets: [[-1, -1], [-1, 0], [-1, 1], [0, -1], [0, 1], [1, 0]], directional: true }
+  setup: "pgkst/5/5/5/TSKGP"
   render:
     cellSize: 40
 ---
