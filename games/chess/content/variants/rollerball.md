@@ -8,10 +8,10 @@ parent: chess
 win: Checkmate the King, OR King clockwise-reaches opponent's King starting square
 special: "Chess variant on a 40-square ring board (7×7 grid with 3×3 centre removed). Two concentric rings: outer (24 squares) and inner (16 squares). Each side has only 6 pieces: King, Bishop, 2 Rooks, 2 Pawns. Pieces move clockwise-dominant (most cannot slide backward). Jean-Louis Cazaux, 1999, 40-squares contest."
 approximations:
-  - feature: "The Rook's and Bishop's rebound"
-    source: "On the external ring the Rook has one rebound allowed on the corners of the board, and the Bishop one rebound on the sides, external and internal. A Rook on g1 therefore sweeps the whole of rank 1, turns at a1 and continues up the entire a-file."
-    engine: "Not modelled. A slide stops at the edge."
-    blocker: "A ray that turns when it reaches the edge of the board is a new kind of ray. Every primitive walks a fixed direction until something stops it."
+  - feature: "The Bishop's rebound"
+    source: "The Bishop has one rebound allowed on the sides of the board, external and internal."
+    engine: "Not modelled. A diagonal slide stops when it reaches a side."
+    blocker: "The Rook's rebound is a quarter turn at a corner, and that is implemented. The Bishop's is a reflection off a wall, which needs to know WHICH wall was hit in order to flip the right component of the direction - a different question from the one a turn asks."
   - feature: "Pawn promotion"
     source: "When reaching the starting square of opposite Pawns a pawn promotes to either a Rook or a Bishop."
     engine: "Not implemented. A pawn that reaches those squares stays a pawn."
@@ -50,6 +50,9 @@ engine:
         east: { cells: [[0, 6], [1, 5], [1, 6], [2, 5], [2, 6], [3, 5], [3, 6], [4, 5], [4, 6], [5, 5], [5, 6], [6, 6]] }
         south: { cells: [[5, 2], [5, 3], [5, 4], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5]] }
         west: { cells: [[0, 0], [1, 0], [1, 1], [2, 0], [2, 1], [3, 0], [3, 1], [4, 0], [4, 1], [5, 0], [5, 1], [6, 0]] }
+        # The four corners of the board, where a Rook's slide may turn once and
+        # carry on. A slide that merely reaches an edge stops there.
+        corners: { cells: [[0, 0], [0, 6], [6, 0], [6, 6]] }
       pieces:
         # "Rook: slides any number of squares forward or sideways along the row
         # or column. Also, it can move 1 square only orthogonally backward. It
@@ -62,29 +65,29 @@ engine:
               move:
                 type: compose
                 parts:
-                  - { type: rider, dirs: [[0, 1]] }
-                  - { type: rider, dirs: [[-1, 0], [1, 0]] }
+                  - { type: rebound, dirs: [[0, 1]], turn: cw, at: corners }
+                  - { type: rebound, dirs: [[-1, 0], [1, 0]], turn: cw, at: corners }
                   - { type: leaper, offsets: [[0, -1]] }
             - in: east
               move:
                 type: compose
                 parts:
-                  - { type: rider, dirs: [[1, 0]] }
-                  - { type: rider, dirs: [[0, -1], [0, 1]] }
+                  - { type: rebound, dirs: [[1, 0]], turn: cw, at: corners }
+                  - { type: rebound, dirs: [[0, -1], [0, 1]], turn: cw, at: corners }
                   - { type: leaper, offsets: [[-1, 0]] }
             - in: south
               move:
                 type: compose
                 parts:
-                  - { type: rider, dirs: [[0, -1]] }
-                  - { type: rider, dirs: [[-1, 0], [1, 0]] }
+                  - { type: rebound, dirs: [[0, -1]], turn: cw, at: corners }
+                  - { type: rebound, dirs: [[-1, 0], [1, 0]], turn: cw, at: corners }
                   - { type: leaper, offsets: [[0, 1]] }
             - in: west
               move:
                 type: compose
                 parts:
-                  - { type: rider, dirs: [[-1, 0]] }
-                  - { type: rider, dirs: [[0, -1], [0, 1]] }
+                  - { type: rebound, dirs: [[-1, 0]], turn: cw, at: corners }
+                  - { type: rebound, dirs: [[0, -1], [0, 1]], turn: cw, at: corners }
                   - { type: leaper, offsets: [[1, 0]] }
         # "Bishop: slides diagonally forward any number of squares... Also, it
         # can move 1 square diagonally backward. It never slides diagonally

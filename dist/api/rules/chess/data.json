@@ -10268,6 +10268,26 @@
                     0
                   ]
                 ]
+              },
+              "corners": {
+                "cells": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    6
+                  ],
+                  [
+                    6,
+                    0
+                  ],
+                  [
+                    6,
+                    6
+                  ]
+                ]
               }
             },
             "pieces": {
@@ -10280,16 +10300,18 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               0,
                               1
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               -1,
@@ -10299,7 +10321,9 @@
                               1,
                               0
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
                           "type": "leaper",
@@ -10319,16 +10343,18 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               1,
                               0
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               0,
@@ -10338,7 +10364,9 @@
                               0,
                               1
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
                           "type": "leaper",
@@ -10358,16 +10386,18 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               0,
                               -1
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               -1,
@@ -10377,7 +10407,9 @@
                               1,
                               0
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
                           "type": "leaper",
@@ -10397,16 +10429,18 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               -1,
                               0
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               0,
@@ -10416,7 +10450,9 @@
                               0,
                               1
                             ]
-                          ]
+                          ],
+                          "turn": "cw",
+                          "at": "corners"
                         },
                         {
                           "type": "leaper",
