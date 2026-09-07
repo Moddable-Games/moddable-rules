@@ -16,10 +16,6 @@ approximations:
     source: "King move, plus a rook slide along its file toward the river, and a rook slide within the river rank once in it."
     engine: "Plain king step."
     blocker: "Movement cannot be conditioned on where the piece stands relative to a zone."
-  - feature: "Lion confined to its castle"
-    source: "The Lion moves as a king but may never leave its own 3x3 castle - c1-e3 for White, c5-e7 for Black - except to take a facing Lion."
-    engine: "Plain king step, anywhere on the board."
-    blocker: "No zone confinement primitive. `constraint` restricts a piece to a range of files; a castle is a range of files and ranks together."
   - feature: "Facing Lions capture"
     source: "Lions aligned on a file or diagonal with nothing between may jump the distance and capture."
     engine: "Not implemented."
@@ -126,6 +122,11 @@ engine:
           type: rider
           dirs: all
           maxSteps: 1
+          # The Lion may never leave its own castle. White's is c1-e3, Black's
+          # is c5-e7: the same files, opposite ends, so rows are given per seat.
+          confine:
+            rows: [[4, 6], [0, 2]]
+            cols: [2, 4]
         zebra:
           type: leaper
           offsets: knight

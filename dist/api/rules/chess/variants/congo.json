@@ -184,7 +184,23 @@
           "lion": {
             "type": "rider",
             "dirs": "all",
-            "maxSteps": 1
+            "maxSteps": 1,
+            "confine": {
+              "rows": [
+                [
+                  4,
+                  6
+                ],
+                [
+                  0,
+                  2
+                ]
+              ],
+              "cols": [
+                2,
+                4
+              ]
+            }
           },
           "zebra": {
             "type": "leaper",
