@@ -10621,7 +10621,7 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               -1,
@@ -10631,7 +10631,8 @@
                               1,
                               1
                             ]
-                          ]
+                          ],
+                          "turn": "reflect"
                         },
                         {
                           "type": "leaper",
@@ -10655,7 +10656,7 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               1,
@@ -10665,7 +10666,8 @@
                               1,
                               1
                             ]
-                          ]
+                          ],
+                          "turn": "reflect"
                         },
                         {
                           "type": "leaper",
@@ -10689,7 +10691,7 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               -1,
@@ -10699,7 +10701,8 @@
                               1,
                               -1
                             ]
-                          ]
+                          ],
+                          "turn": "reflect"
                         },
                         {
                           "type": "leaper",
@@ -10723,7 +10726,7 @@
                       "type": "compose",
                       "parts": [
                         {
-                          "type": "rider",
+                          "type": "rebound",
                           "dirs": [
                             [
                               -1,
@@ -10733,7 +10736,8 @@
                               -1,
                               1
                             ]
-                          ]
+                          ],
+                          "turn": "reflect"
                         },
                         {
                           "type": "leaper",
