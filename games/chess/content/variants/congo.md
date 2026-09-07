@@ -7,22 +7,53 @@ players: "2"
 parent: chess
 win: Capture the Lion
 special: "7×7 chess variant by Demian Freeling (1982, age 7). Six unique piece types: Lion (King, confined to castle), Zebra (Knight), Giraffe (2-step jump + king move), Elephant (1–2 step ortho leaper), Crocodile (king move + rook toward/in river), Monkey (capturing draughts-leaper). River rank in the centre. Drowning rule: non-Crocodile pieces left in the river for a full turn are removed. No check or checkmate — capture the Lion to win."
+approximations:
+  - feature: "The river"
+    source: "Rank 4 is a river. A non-Crocodile piece that moves into it drowns and is removed unless it is moved out again on its owner's very next turn."
+    engine: "Not implemented. Rank 4 is ordinary board and nothing ever drowns."
+    blocker: "A grid in tile mode has no terrain: it can mark a cell absent, but not present and different. Drowning additionally needs a per-piece countdown that survives a turn."
+  - feature: "Crocodile river movement"
+    source: "King move, plus a rook slide along its file toward the river, and a rook slide within the river rank once in it."
+    engine: "Plain king step."
+    blocker: "Movement cannot be conditioned on where the piece stands relative to a zone."
+  - feature: "Lion confined to its castle"
+    source: "The Lion moves as a king but may never leave its own 3x3 castle - c1-e3 for White, c5-e7 for Black - except to take a facing Lion."
+    engine: "Plain king step, anywhere on the board."
+    blocker: "No zone confinement primitive. `constraint` restricts a piece to a range of files; a castle is a range of files and ranks together."
+  - feature: "Facing Lions capture"
+    source: "Lions aligned on a file or diagonal with nothing between may jump the distance and capture."
+    engine: "Not implemented."
+    blocker: "The generals-facing rule in xiangqi forbids the alignment; this one rewards it, and no rule turns an alignment into a capture."
+  - feature: "Pawn retreat across the river"
+    source: "A pawn that has crossed the river may move one or two squares straight backward, without capturing or jumping."
+    engine: "Not implemented. Pawns never move backward."
+    blocker: "Depends on the river, which is not modelled."
+  - feature: "Superpawn promotion"
+    source: "A pawn reaching the last rank becomes a Superpawn, gaining sideways movement and a one-or-two-square diagonal retreat."
+    engine: "Not implemented. No promotion occurs."
+    blocker: "The variant declares no promotion map and no Superpawn, and the retreat depends on the river."
 engine:
   topology:
     type: grid
     rows: 7
     cols: 7
+  render:
+    zones:
+      cells:
+        # Rank 4 is the river. Two types rather than one so the band keeps the
+        # board's checkering, as the source diagram does.
+        - type: river-light
+          at: [[3,1],[3,3],[3,5]]
+        - type: river-dark
+          at: [[3,0],[3,2],[3,4],[3,6]]
+  surface:
+    colors:
+      river-light: "#7ab4dd"
+      river-light-stroke: "#5590b8"
+      river-dark: "#4a90c8"
+      river-dark-stroke: "#2a6a9a"
   players: [white, black]
   setup: "gmelecz/ppppppp/7/7/7/PPPPPPP/GMELECZ"
-  approximations:
-    - piece: crocodile
-      rules: "king move, plus rook movement toward and within the river rank"
-      engine: "plain king step"
-      blocker: "no river-relative or conditional movement"
-    - piece: lion
-      rules: "king move, confined to 3x3 castle; facing-lions long capture"
-      engine: "plain king step without zone confinement"
-      blocker: "no zone confinement primitive"
   vocabulary:
     giraffe:
       symbols:

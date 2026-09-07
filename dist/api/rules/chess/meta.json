@@ -202,14 +202,6 @@
       "special": "1874 variant on a 10×8 board. Adds Guard (Rook+Knight) and Equerry (Bishop+Knight). A predecessor to Capablanca’s Chess. Castling: King moves three squares, Rook jumps over to the adjacent square."
     },
     {
-      "slug": "blind-chess",
-      "title": "Blind Chess (Banqi)",
-      "players": "2",
-      "board": "4×8",
-      "win": "Capture all opponent's face-up pieces (opponent with no legal moves loses)",
-      "special": "Chinese hidden-piece game (Banqi, 暗棋) played on a 4×8 board (half a Xiangqi board). All 32 pieces placed face-down randomly. Each turn: flip a piece, move a piece, or capture. Piece ranks are unknown until revealed. Capture hierarchy: General defeats all except Soldier; Soldier defeats General. Cannon captures by jumping over exactly one screen (Taiwanese rules)."
-    },
-    {
       "slug": "breakthrough",
       "title": "Breakthrough",
       "players": "2",

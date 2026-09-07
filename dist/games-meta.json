@@ -268,10 +268,6 @@
         "title": "Bird's Chess"
       },
       {
-        "slug": "blind-chess",
-        "title": "Blind Chess (Banqi)"
-      },
-      {
         "slug": "breakthrough",
         "title": "Breakthrough"
       },
@@ -2204,6 +2200,10 @@
     "updated": "2026-07-16",
     "variantHub": true,
     "variants": [
+      {
+        "slug": "banqi",
+        "title": "Banqi (Half Chess)"
+      },
       {
         "slug": "janggi",
         "title": "Janggi"

@@ -9,9 +9,10 @@ order: 90
 win: Last chief standing
 special: "Captured pieces become corpses that stay on the board and block movement. Killing a chief transfers that player's surviving pieces to the killer."
 approximations:
-  - rule: "A non-chief that strikes the chief in the centre cell"
-    sources: "Neither fr.wikipedia.org/wiki/Djambi nor chessvariants.com says how the attacker is required to leave the cell afterwards."
+  - feature: "Leaving the centre cell after a strike"
+    source: "A non-chief that strikes the chief in the centre cell must leave afterwards, but neither fr.wikipedia.org/wiki/Djambi nor chessvariants.com says how it is required to do so."
     engine: "The attacker is left standing on the centre until it moves again."
+    blocker: "The sources do not agree on the rule, so there is nothing to implement against."
 engine:
   topology:
     type: grid

@@ -28,6 +28,16 @@ jobs:
       - name: Check setup piece counts
         run: node scripts/check-piece-counts.mjs
 
+      # Congo documented a river, two castles, a drowning rule, a pawn retreat
+      # and a promotion, played without any of them, and drew a plain
+      # chessboard. Blind Chess described a board rotated ninety degrees from
+      # the one it drew. Nothing compared what a variant says with what it does.
+      - name: Check terrain is drawn
+        run: node scripts/check-terrain-drawn.mjs
+
+      - name: Check gap declarations
+        run: node scripts/check-gap-declarations.mjs
+
       - run: npm ci --ignore-scripts
 
       - name: Build (for stats check)

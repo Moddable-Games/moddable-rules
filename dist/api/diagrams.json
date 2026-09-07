@@ -406,18 +406,6 @@
     {
       "family": "chess",
       "familyTitle": "Chess",
-      "variant": "blind-chess",
-      "variantTitle": "Blind Chess (Banqi)",
-      "topology": "grid",
-      "svg": "games/chess/diagrams/svg/blind-chess-board.svg",
-      "rulesUrl": "chess/variants/blind-chess/index.html",
-      "playable": false,
-      "status": "rendered",
-      "players": "2"
-    },
-    {
-      "family": "chess",
-      "familyTitle": "Chess",
       "variant": "breakthrough",
       "variantTitle": "Breakthrough",
       "topology": "grid",
@@ -4156,6 +4144,18 @@
       "rulesUrl": "tafl/variants/tawlbwrdd/index.html",
       "playable": false,
       "status": "rendered"
+    },
+    {
+      "family": "xiangqi",
+      "familyTitle": "Xiangqi",
+      "variant": "banqi",
+      "variantTitle": "Banqi (Half Chess)",
+      "topology": "grid",
+      "svg": "games/xiangqi/diagrams/svg/banqi-board.svg",
+      "rulesUrl": "xiangqi/variants/banqi/index.html",
+      "playable": false,
+      "status": "rendered",
+      "players": "2"
     },
     {
       "family": "xiangqi",

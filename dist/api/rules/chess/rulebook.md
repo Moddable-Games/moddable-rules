@@ -263,7 +263,6 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 <div class="variant-grid">
 
-- [Blind Chess (Banqi)](variants/blind-chess/) -- Chinese hidden-piece game on 4x8 board; all pieces start face-down
 - [Kriegspiel](variants/kriegspiel/) -- Fog-of-war chess; referee announces partial information about moves
 
 </div>

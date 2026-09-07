@@ -222,6 +222,18 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-07 (later)
+- Blind Chess was a Xiangqi game filed under chess, on a board rotated ninety degrees from the real one. Banqi is played with a Xiangqi set on half a Xiangqi board, 8 files by 4 ranks; our entry declared 4 files by 8 ranks and said so in its prose. It is `xiangqi/variants/banqi` now, the right way round, and the old URL redirects
+- Its 32 pieces were rendering as 32 copies of one black chess piece, because the setup wrote `?` for a face-down piece and no schema knows that token, so every one of them fell through to a fallback glyph. The set has a face-down disc now - a blank back, which is what the game is about - and the board shows 32 of them
+- Banqi is not playable and now says why. Its sibling Jieqi, the same hidden-piece mechanic on the full board, was already recorded correctly under Xiangqi
+- Congo's rules described a river on rank 4 and a 3x3 castle at each end. Its diagram was a plain 7x7 chessboard. The river is drawn now, as a band across the middle rank that keeps the board's checkering, the way the source diagram does
+- Congo declared two of its six gaps. It is marked playable, and the river, the drowning rule, the pawn's retreat across the river and the Superpawn promotion were all absent from the engine and absent from the file. All six are written down
+- `scripts/check-terrain-drawn.mjs`: a grid board whose prose gives a river, palace, den, trap, lake or moat a heading or a bold label must draw it, or say in `approximations` that it does not. The batch that added Congo handled boards whose cells are *absent* correctly, because a missing cell makes the board the wrong shape; cells that are *present but different* were silent
+- `scripts/check-gap-declarations.mjs`: three shapes for declaring a gap existed and nothing read any of them. There is one shape now - the family rulebook's `unsupported:` map for what cannot be played, a variant's top-level `approximations:` for what plays differently - and it is checked both ways. It immediately found six Shogi variants still listed as unsupported months after becoming playable, and nineteen unplayable variants with no reason recorded anywhere
+- Twelve of those nineteen now carry the reason. Seven are held in a shrink-only backlog rather than given a reason invented for them
+- Chak names a river between ranks 5 and 6 and draws none. Unlike Congo's, it is a line between two ranks rather than a rank of its own, which a board played inside its squares cannot draw at all, so it is declared instead
+- `redirects.json`: a variant that changes family or slug leaves its old URL published, because the build writes pages and never deletes them. The build now writes a redirecting stub at the old path
+
 #### 2026-09-07
 - The diagrams gallery links out: a Rules link on every entry, and a Play link to the engine on the 220 variants it can start
 - Twelve of those Rules links pointed at pages that were never built. A single-variant game has no `family/variants/slug/` page, only `family/index.html`, so each URL is now resolved against the site the build actually produced before it is written to the manifest

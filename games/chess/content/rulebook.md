@@ -60,7 +60,6 @@ unsupported:
   tandem-chess: "Two simultaneous boards, four players in two teams, captured pieces passed to a partner to drop on the other board. Neither the second board nor passing between them is modelled."
   delirious-bughouse: "Tandem chess plus relay capture, dice and a worst-move rule. Blocked on the same two boards as tandem-chess before any of its own mechanics matter."
   stupidhouse: "Tandem chess where a received piece lands on a random empty square rather than a chosen one. Blocked on the same two boards as tandem-chess."
-  blind-chess: "Banqi, on half a xiangqi board with all 32 pieces face down. The setup declares `?` for a face-down piece and the engine has no state for a piece whose identity is unknown to one side, so it throws on the symbol rather than dealing the game."
   centennial-chess: "The Steward, Camel, Murray Lion and Rotating Spearman are named in the setup and declared nowhere: the variant carries a setup string and no `vocabulary`, so it throws on the first unmapped symbol. The Spearman additionally needs a persistent per-piece heading, which no piece has."
   grande-acedrex: "The Griffion, Unicorn, Lion, Giraffe, Crocodile and Rhinoceros are named in the setup and declared nowhere: no `vocabulary` block, so it throws on the first unmapped symbol. The Unicorn additionally moves as a knight on its first move and a bishop thereafter, which needs move-count state."
   yalta-chess: "Three players on a hexagonal board cut into three Y-shaped sectors meeting at a centre. The trisected renderer is engine issue #26; without it `parsePosition` has no position to parse and the variant throws."
@@ -331,7 +330,6 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 
 <div class="variant-grid">
 
-- [Blind Chess (Banqi)](variants/blind-chess/) -- Chinese hidden-piece game on 4x8 board; all pieces start face-down
 - [Kriegspiel](variants/kriegspiel/) -- Fog-of-war chess; referee announces partial information about moves
 
 </div>

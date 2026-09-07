@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-surface="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banqi (Half Chess) — Xiangqi</title>
+<meta name="description" content="Complete rules for Banqi (Half Chess).">
+<meta property="og:title" content="Banqi (Half Chess) — Xiangqi">
+<meta property="og:description" content="Complete rules for Banqi (Half Chess).">
+<meta property="og:image" content="https://rules.moddable.games/games/xiangqi/og-variants/banqi.png?v=1.2.1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/dist/xiangqi/variants/banqi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Banqi (Half Chess) — Xiangqi">
+<meta name="twitter:description" content="Complete rules for Banqi (Half Chess).">
+<meta name="twitter:image" content="https://rules.moddable.games/games/xiangqi/og-variants/banqi.png?v=1.2.1">
+<link rel="icon" type="image/svg+xml" href="../../../../shared/logos/favicon.svg">
+<link rel="api-catalog" href="/.well-known/api-catalog">
+<link rel="mcp-server" href="/.well-known/mcp.json">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM context">
+<link rel="stylesheet" href="../../../../shared/css/fonts.css?v=1.2.1">
+<link rel="stylesheet" href="../../../../shared/css/tokens.css?v=1.2.1">
+<link rel="stylesheet" href="../../../../shared/css/base.css?v=1.2.1">
+<link rel="stylesheet" href="../../../../shared/css/components.css?v=1.2.1">
+<link rel="stylesheet" href="../../theme.css?v=1.2.1">
+<link rel="stylesheet" href="../../../../shared/css/variant-page.css?v=1.2.1">
+<script defer src="../../../../shared/js/analytics.js"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
+  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a><a href="../../../../games/xiangqi/content/variants/banqi.md" class="hdr-link">Markdown</a><a href="https://github.com/Moddable-Games/moddable-rules/releases/download/pdfs/xiangqi--variants--banqi.pdf" class="hdr-link" target="_blank" rel="noopener">PDF</a></div>
+  <span class="hdr-meta">Banqi (Half Chess) · Xiangqi</span>
+</header>
+
+<div class="variant-cover">
+  <div class="variant-cover-inner">
+    <span class="variant-cover-label">Xiangqi · Variant 3 of 10</span>
+    <h1 class="variant-cover-title">Banqi (Half Chess)</h1>
+    <div class="variant-cover-stats"><span class="variant-stat"><span class="variant-stat-val">8×4</span><span class="variant-stat-lbl">Board</span></span>
+      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span></div>
+  </div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+<div class="section">
+
+<h2 id="banqi-half-chess">Banqi (Half Chess)</h2>
+<div class="diagram-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 224" width="400" height="224">
+<defs>
+<symbol id="piece-mce-xiangqi-trad-facedown" viewBox="0 0 100 100"><g transform="translate(50,50)"><circle r="48.5" stroke-width="3" stroke="#000" fill="#fda"/><circle r="43.5" stroke-width="3" stroke="#c9ab7c" fill="none"/><circle r="30" stroke-width="2" stroke="#dcc296" fill="none"/></g></symbol>
+</defs>
+<rect x="24" y="24" width="44" height="44" fill="#f5deb3" data-sq="a4" class="board-cell" pointer-events="all"/><rect x="68" y="24" width="44" height="44" fill="#f5deb3" data-sq="b4" class="board-cell" pointer-events="all"/><rect x="112" y="24" width="44" height="44" fill="#f5deb3" data-sq="c4" class="board-cell" pointer-events="all"/><rect x="156" y="24" width="44" height="44" fill="#f5deb3" data-sq="d4" class="board-cell" pointer-events="all"/><rect x="200" y="24" width="44" height="44" fill="#f5deb3" data-sq="e4" class="board-cell" pointer-events="all"/><rect x="244" y="24" width="44" height="44" fill="#f5deb3" data-sq="f4" class="board-cell" pointer-events="all"/><rect x="288" y="24" width="44" height="44" fill="#f5deb3" data-sq="g4" class="board-cell" pointer-events="all"/><rect x="332" y="24" width="44" height="44" fill="#f5deb3" data-sq="h4" class="board-cell" pointer-events="all"/><rect x="24" y="68" width="44" height="44" fill="#f5deb3" data-sq="a3" class="board-cell" pointer-events="all"/><rect x="68" y="68" width="44" height="44" fill="#f5deb3" data-sq="b3" class="board-cell" pointer-events="all"/><rect x="112" y="68" width="44" height="44" fill="#f5deb3" data-sq="c3" class="board-cell" pointer-events="all"/><rect x="156" y="68" width="44" height="44" fill="#f5deb3" data-sq="d3" class="board-cell" pointer-events="all"/><rect x="200" y="68" width="44" height="44" fill="#f5deb3" data-sq="e3" class="board-cell" pointer-events="all"/><rect x="244" y="68" width="44" height="44" fill="#f5deb3" data-sq="f3" class="board-cell" pointer-events="all"/><rect x="288" y="68" width="44" height="44" fill="#f5deb3" data-sq="g3" class="board-cell" pointer-events="all"/><rect x="332" y="68" width="44" height="44" fill="#f5deb3" data-sq="h3" class="board-cell" pointer-events="all"/><rect x="24" y="112" width="44" height="44" fill="#f5deb3" data-sq="a2" class="board-cell" pointer-events="all"/><rect x="68" y="112" width="44" height="44" fill="#f5deb3" data-sq="b2" class="board-cell" pointer-events="all"/><rect x="112" y="112" width="44" height="44" fill="#f5deb3" data-sq="c2" class="board-cell" pointer-events="all"/><rect x="156" y="112" width="44" height="44" fill="#f5deb3" data-sq="d2" class="board-cell" pointer-events="all"/><rect x="200" y="112" width="44" height="44" fill="#f5deb3" data-sq="e2" class="board-cell" pointer-events="all"/><rect x="244" y="112" width="44" height="44" fill="#f5deb3" data-sq="f2" class="board-cell" pointer-events="all"/><rect x="288" y="112" width="44" height="44" fill="#f5deb3" data-sq="g2" class="board-cell" pointer-events="all"/><rect x="332" y="112" width="44" height="44" fill="#f5deb3" data-sq="h2" class="board-cell" pointer-events="all"/><rect x="24" y="156" width="44" height="44" fill="#f5deb3" data-sq="a1" class="board-cell" pointer-events="all"/><rect x="68" y="156" width="44" height="44" fill="#f5deb3" data-sq="b1" class="board-cell" pointer-events="all"/><rect x="112" y="156" width="44" height="44" fill="#f5deb3" data-sq="c1" class="board-cell" pointer-events="all"/><rect x="156" y="156" width="44" height="44" fill="#f5deb3" data-sq="d1" class="board-cell" pointer-events="all"/><rect x="200" y="156" width="44" height="44" fill="#f5deb3" data-sq="e1" class="board-cell" pointer-events="all"/><rect x="244" y="156" width="44" height="44" fill="#f5deb3" data-sq="f1" class="board-cell" pointer-events="all"/><rect x="288" y="156" width="44" height="44" fill="#f5deb3" data-sq="g1" class="board-cell" pointer-events="all"/><rect x="332" y="156" width="44" height="44" fill="#f5deb3" data-sq="h1" class="board-cell" pointer-events="all"/><line x1="24" y1="24" x2="376" y2="24" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="24" y1="68" x2="376" y2="68" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="24" y1="112" x2="376" y2="112" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="24" y1="156" x2="376" y2="156" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="24" y1="200" x2="376" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="24" y1="24" x2="24" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="68" y1="24" x2="68" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="112" y1="24" x2="112" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="156" y1="24" x2="156" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="200" y1="24" x2="200" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="244" y1="24" x2="244" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="288" y1="24" x2="288" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="332" y1="24" x2="332" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/><line x1="376" y1="24" x2="376" y2="200" pointer-events="none" stroke="#4a3520" stroke-width="1"/>
+<g pointer-events="none"><use href="#piece-mce-xiangqi-trad-facedown" x="27.080000000000002" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="71.08" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="115.08" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="159.08" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="203.08" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="247.08" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="291.08" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="335.08" y="27.080000000000002" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="27.080000000000002" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="71.08" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="115.08" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="159.08" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="203.08" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="247.08" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="291.08" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="335.08" y="71.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="27.080000000000002" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="71.08" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="115.08" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="159.08" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="203.08" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="247.08" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="291.08" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="335.08" y="115.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="27.080000000000002" y="159.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="71.08" y="159.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="115.08" y="159.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="159.08" y="159.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="203.08" y="159.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="247.08" y="159.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="291.08" y="159.08" width="37.839999999999996" height="37.839999999999996"/><use href="#piece-mce-xiangqi-trad-facedown" x="335.08" y="159.08" width="37.839999999999996" height="37.839999999999996"/></g>
+<text x="46" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">a</text><text x="90" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">b</text><text x="134" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">c</text><text x="178" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">d</text><text x="222" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">e</text><text x="266" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">f</text><text x="310" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">g</text><text x="354" y="215.6" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">h</text><text x="12" y="50.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">4</text><text x="12" y="94.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">3</text><text x="12" y="138.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">2</text><text x="12" y="182.55" text-anchor="middle" font-size="13" fill="#5c3a1e" font-family="monospace" pointer-events="none">1</text>
+</svg>
+<p class="diagram-caption">Banqi — all 32 pieces face-down at the start</p></div>
+<p>Banqi (半棋, bànqí, “Half Chess”), also called Dark Chess (暗棋) or Blind Chess (盲棋), is a two-player Chinese game played with a Xiangqi set on half a Xiangqi board. It is a social game, usually played for fun rather than serious competition, and a game normally lasts between ten and twenty minutes.</p>
+<p>The rules recorded here follow the Taiwanese version, which is widely played.</p>
+<h3 id="the-board">The Board</h3>
+<p>The board is <strong>8 files wide and 4 ranks deep</strong> — 32 squares. It is one half of the Xiangqi board, taking the side on one bank of the river.</p>
+<p>Unlike Xiangqi, the pieces stand <strong>inside the squares</strong> rather than on the intersections. Boards made specifically for Banqi exist, but it is common to simply use one half of a Xiangqi board.</p>
+<h3 id="pieces">Pieces</h3>
+<p>Banqi uses a standard Xiangqi set: 16 Red and 16 Black, 32 in total.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th>Piece</th>
+<th>Red</th>
+<th>Black</th>
+<th>Count per side</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General</td>
+<td>帥</td>
+<td>將</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Advisor</td>
+<td>仕</td>
+<td>士</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Elephant</td>
+<td>相</td>
+<td>象</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Chariot</td>
+<td>俥</td>
+<td>車</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Horse</td>
+<td>傌</td>
+<td>馬</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Cannon</td>
+<td>炮</td>
+<td>砲</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Soldier</td>
+<td>兵</td>
+<td>卒</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td></td>
+<td><strong>16</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The backs of the pieces must be indistinguishable from one another, so that a piece cannot be identified while it is face-down. Sets with international symbols printed on the back are unsuitable for this reason.</p>
+<h3 id="setup">Setup</h3>
+<p>All 32 pieces are shuffled and placed face-down, one per square, filling the board. Neither player knows what is where, and neither player has a colour yet.</p>
+<h3 id="turns">Turns</h3>
+<p>On each turn a player does exactly one of:</p>
+<ol>
+<li><strong>Flip</strong> a face-down piece, turning it face-up. The piece belongs to whichever colour it shows, regardless of who turned it over.</li>
+<li><strong>Move</strong> one of their own face-up pieces one square orthogonally to an empty adjacent square.</li>
+<li><strong>Capture</strong> an opponent’s face-up piece, subject to the rules below.</li>
+</ol>
+<p>The <strong>first flip of the game decides the colours</strong>: the player who makes it commands the colour of the piece revealed, and the opponent commands the other.</p>
+<p>A face-down piece cannot be captured or moved. It can only be flipped.</p>
+<h3 id="movement">Movement</h3>
+<p>Every piece moves the same way: <strong>one square up, down, left or right</strong>. There is no piece-specific movement in Banqi — the General, the Soldier and everything between all move alike. The Cannon’s capture is the only departure from this.</p>
+<h3 id="capture">Capture</h3>
+<p>Pieces are ranked, and a piece may capture an opponent’s piece of <strong>equal or lower rank</strong>.</p>
+<p><strong>Rank, highest to lowest:</strong> General → Advisor → Elephant → Chariot → Horse → Soldier</p>
+<p>Two rules stand outside that order:</p>
+<ul class="rules">
+<li><strong>The Soldier takes the General.</strong> Despite being the lowest rank, a Soldier may capture the General, and the General may not capture a Soldier.</li>
+<li><strong>The Cannon is not ranked.</strong> It captures a piece of any rank, but only by jumping over exactly one intervening piece — the screen. The screen may be friendly, enemy, or still face-down, and any number of empty squares may lie on either side of it. A Cannon therefore cannot capture a piece standing next to it, because there would be nothing to jump.</li>
+</ul>
+<h3 id="win-condition">Win Condition</h3>
+<p>A player who has no legal move <strong>loses</strong>. In practice this happens when all of their pieces have been captured.</p>
+<h3 id="repetition">Repetition</h3>
+<p>If a player repeatedly chases an enemy piece that cannot be taken, producing an endless cycle, convention decides the outcome. Under Chinese Chess conventions the player doing the chasing must vary; casual play more often settles it as a draw, or requires one side to give up a piece to break the cycle.</p>
+<h3 id="relationship-to-other-games">Relationship to Other Games</h3>
+<p>A more formal version of Banqi is held to have influenced <strong>Jungle</strong> (Dou Shou Qi) and the modern game <strong>Luzhanqi</strong>.</p>
+<h3 id="what-the-engine-does-not-do">What the Engine Does Not Do</h3>
+<p>Banqi is not playable here, and the reason is the game’s premise rather than any
+detail of it. Every position the engine can hold is fully known to both seats, so
+a piece whose identity is hidden cannot be represented, and a flip cannot be a
+move. Two further rules rest on that one: colours are settled by the first flip,
+where the engine binds a seat to its colour when the game is created, and capture
+compares the ranks of the two pieces involved, where the engine decides capture
+by how a piece moves. The board and the pieces above are correct; the play is not
+available. The same blocker holds Jieqi, which is this game on the full board.</p>
+<h3 id="attribution">Attribution</h3>
+<p>Banqi is a traditional Chinese game with no known author and no rights holder. Rules transcribed from en.wikipedia.org/wiki/Banqi.</p>
+
+</div>
+</main>
+
+<nav class="variant-pager" aria-label="Variant navigation">
+  <a href="../san-kwo-ki/" class="variant-pager-prev">← San-kwo-k'i</a>
+  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
+  <a href="../janggi/" class="variant-pager-next">Janggi →</a>
+</nav>
+
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">Xiangqi · Published by Moddable Games · v1.4.7</span>
+</footer>
+
+</div>
+
+<script defer src="../../../../js/toc.js?v=1.4.7"></script>
+<script defer src="../../../../shared/js/surface-toggle.js"></script>
+</body>
+</html>

@@ -76,12 +76,14 @@ related:
   - chess
   - go
 unsupported:
-  sho-shogi: "the Drunken Elephant, which promotes to a second royal piece"
-  chu-shogi: "12x12 with 46 pieces a side including the Lion"
-  tori-shogi: "bird-themed piece set with its own movement"
-  yari-shogi: "spear-themed pieces replacing lance, knight and pawn"
-  dobutsu: "a 3x4 children's game with its own piece set"
-  cannon-shogi: "four cannon types drawn from xiangqi and janggi"
+  hex-shogi-91: "Duniho's 91-cell game on a hexagonal board. The variant file describes the 91-cell game, not Wikipedia's 85-cell Hexshogi, and the two are not interchangeable; the hexagonal shogi board is not modelled."
+  maka-dai-dai-shogi: "17x17. The piece table in the variant file is marked for re-verification against the raw wikitext and has not been checked, so the movement it declares is not yet trustworthy."
+  tai-shogi: "25x25 with 93 piece codes. Same unverified piece table as maka-dai-dai."
+  taikyoku-shogi: "36x36 with 208 piece types. The movement table has never been transcribed."
+  tenjiku-shogi: "16x16. Carries a complete Betza table in the variant file and is the next of the large boards to be made playable."
+  wa-shogi: "Blocked on content, not capability: the movement of its pieces exists only as diagram images in every source checked, and has not been transcribed."
+  mortal-shogi: "The demotion chain - which piece a captured piece returns as - is unverified in the sources checked."
+  sankaku-shogi: "A triangular board. Triangular cell geometry is not modelled."
 ---
 
 <div class="section variant-hub">

@@ -1,0 +1,129 @@
+#!/usr/bin/env node
+/**
+ * A variant that cannot be played, or that plays differently from its own
+ * rules, must say so somewhere a reader will find it.
+ *
+ * Three shapes for this existed before today and nothing read any of them: an
+ * `unsupported:` map in each family rulebook, a top-level `approximations:`
+ * list on one variant, and an `approximations:` list nested inside `engine:` on
+ * another. Congo documented a river, two castles, a drowning rule, a pawn
+ * retreat and a promotion in prose, declared two of those gaps, and played
+ * without any of them. Rollerball declared nothing at all and could not move a
+ * pawn. Blind Chess described a game on a board rotated ninety degrees from the
+ * one it drew.
+ *
+ * So this fixes the shapes and checks them:
+ *
+ *   - a family rulebook's `unsupported:` map is the register of variants that
+ *     cannot be played. Every slug in it must exist and be `playable: false`,
+ *     and every `playable: false` variant must appear in its family's map.
+ *   - a variant's top-level `approximations:` list is for a variant that IS
+ *     played, but differently. Each entry needs `feature`, `source` and
+ *     `engine`; `blocker` is optional. It may not sit inside `engine:`, where
+ *     it would be handed to the plugin as configuration.
+ */
+
+import { readFileSync, readdirSync, existsSync } from 'fs';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
+import matter from 'gray-matter';
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const GAMES = resolve(ROOT, 'games');
+const errors = [];
+
+const families = readdirSync(GAMES).filter(f =>
+  existsSync(resolve(GAMES, f, 'content', 'rulebook.md')));
+
+for (const family of families) {
+  const rulebook = matter(readFileSync(resolve(GAMES, family, 'content', 'rulebook.md'), 'utf8')).data;
+  const unsupported = rulebook.unsupported || {};
+
+  const dir = resolve(GAMES, family, 'content', 'variants');
+  if (!existsSync(dir)) continue;
+  const variants = new Map();
+  for (const file of readdirSync(dir).filter(f => f.endsWith('.md'))) {
+    const slug = file.replace(/\.md$/, '');
+    variants.set(slug, matter(readFileSync(resolve(dir, file), 'utf8')).data);
+  }
+
+  for (const [slug, reason] of Object.entries(unsupported)) {
+    // `_family` and friends are notes about the family itself, not a variant.
+    if (slug.startsWith('_')) continue;
+    if (!variants.has(slug)) {
+      errors.push(`${family}: rulebook lists "${slug}" as unsupported, but no such variant exists`);
+      continue;
+    }
+    if (variants.get(slug).playable === true) {
+      errors.push(`${family}/${slug}: listed as unsupported but declares playable: true`);
+    }
+    if (typeof reason !== 'string' || reason.trim().length < 20) {
+      errors.push(`${family}/${slug}: unsupported entry needs a reason saying what is missing`);
+    }
+  }
+
+  for (const [slug, meta] of variants) {
+    if (meta.playable !== true && !(slug in unsupported)) {
+      errors.push(`${family}/${slug}: not playable and not in the family's unsupported map - say why`);
+    }
+    const approx = meta.approximations;
+    if (approx === undefined) continue;
+    if (meta.playable !== true) {
+      errors.push(`${family}/${slug}: has approximations but is not playable - an unplayable variant belongs in the family's unsupported map`);
+    }
+    if (!Array.isArray(approx)) {
+      errors.push(`${family}/${slug}: approximations must be a list`);
+      continue;
+    }
+    approx.forEach((entry, i) => {
+      const minimum = { feature: 3, source: 20, engine: 10 };
+      for (const key of ['feature', 'source', 'engine']) {
+        if (!entry[key] || String(entry[key]).trim().length < minimum[key]) {
+          errors.push(`${family}/${slug}: approximations[${i}] needs a "${key}" that says something`);
+        }
+      }
+    });
+    if (meta.engine && meta.engine.approximations) {
+      errors.push(`${family}/${slug}: approximations must be top-level, not inside engine: (the plugin receives everything under engine: as configuration)`);
+    }
+  }
+}
+
+// Seven variants are unplayable with no reason recorded, and writing a reason
+// means finding out why rather than guessing. They are a shrink-only ratchet:
+// the backlog stays visible, cannot grow, and every one that gets a reason
+// lowers the number for good. Anything that is not that class fails outright.
+const BACKLOG = new Set([
+  'chess/crazy-38s',
+  'chess/flip-chess',
+  'econopoly/standard',
+  'landlords-game/1906-commercial',
+  'landlords-game/monarch-of-the-world',
+  'landlords-game/prosperity',
+  'landlords-game/single-tax',
+]);
+const UNDECLARED = /^(\S+): not playable and not in the family's unsupported map/;
+
+const known = [];
+const fresh = [];
+for (const e of errors) {
+  const m = e.match(UNDECLARED);
+  if (m && BACKLOG.has(m[1])) known.push(m[1]);
+  else fresh.push(e);
+}
+
+if (fresh.length) {
+  console.error(`Gap declarations: ${fresh.length} problem(s)\n`);
+  for (const e of fresh) console.error(`  ${e}`);
+  if (known.length) console.error(`\n(${known.length} known undeclared variants ignored - see BACKLOG)`);
+  process.exit(1);
+}
+
+const gone = [...BACKLOG].filter(k => !known.includes(k));
+if (gone.length) {
+  console.error(`These variants now declare a reason. Remove them from BACKLOG in ${'scripts/check-gap-declarations.mjs'}:\n`);
+  for (const k of gone) console.error(`  ${k}`);
+  process.exit(1);
+}
+
+console.log(`✓ Gap declarations are complete and well-formed (${known.length} undeclared variants held in the backlog)`);

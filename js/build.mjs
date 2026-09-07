@@ -1248,6 +1248,44 @@ function buildBoards() {
   console.log(`  Built diagrams-manifest.json (${rendered} rendered, ${missing} pending — ${index.length} total)`);
 }
 
+// --- Redirects ---
+//
+// A variant that changes family or slug leaves its old URL published: the build
+// writes pages, it does not delete them, and a link that once worked would
+// otherwise 404 or, worse, keep serving a page the corpus no longer describes.
+// Blind Chess moved to xiangqi/variants/banqi and left both behind.
+function buildRedirects() {
+  const path = resolve(ROOT, 'redirects.json');
+  if (!existsSync(path)) return;
+  const map = JSON.parse(readFileSync(path, 'utf8'));
+  let written = 0;
+  for (const [from, to] of Object.entries(map)) {
+    if (from.startsWith('_')) continue;
+    const dir = resolve(DIST_DIR, from);
+    mkdirSync(dir, { recursive: true });
+    const depth = from.split('/').length;
+    const back = '../'.repeat(depth);
+    const target = `${back}${to}/`;
+    writeFileSync(resolve(dir, 'index.html'), `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moved</title>
+<link rel="canonical" href="https://rules.moddable.games/${to}/">
+<meta http-equiv="refresh" content="0; url=${target}">
+<meta name="robots" content="noindex">
+</head>
+<body>
+<p>This page has moved to <a href="${target}">${to}</a>.</p>
+</body>
+</html>
+`);
+    written++;
+  }
+  console.log(`  Built ${written} redirect(s)`);
+}
+
+
 // --- Main ---
 console.log(`Building ${gameSlugs.length} game(s): ${gameSlugs.join(', ')}`);
 
@@ -1260,6 +1298,7 @@ for (const slug of gameSlugs) {
 
 buildLanding();
 buildBoards();
+buildRedirects();
 buildSearchIndex();
 
 // API generation runs after search index is built (it copies rules-index.json)

@@ -7,6 +7,15 @@ players: "2"
 parent: chess
 win: Checkmate or Temple Capture
 special: "Mesoamerican-themed chess on a 9×9 board. Win by mating the Ajaw or landing your promoted Ajaw on the opponent's temple square. Pieces promote when crossing the river. Designed by Couch Tomato, 2021."
+approximations:
+  - feature: "The river"
+    source: "A river runs between ranks 5 and 6, dividing the board in two. Pieces gain power by crossing it: the Ajaw, Shaman, Vulture, Serpent and Jaguar all promote on the crossing."
+    engine: "Not drawn, and not modelled. The board is an ordinary 9x9 and nothing promotes on crossing."
+    blocker: "This river is a line between two ranks rather than a rank of its own, and a grid in tile mode can only colour whole cells. Only the intersection layout can draw a divider, and Chak is played inside the squares."
+  - feature: "The temple squares"
+    source: "Each player's temple is the centre square of their back rank, e1 and e9. Landing a promoted Ajaw on the opponent's temple and holding it for a full round wins the game."
+    engine: "Not drawn, and not a win condition."
+    blocker: "Depends on the promotion the river drives, which is not modelled."
 engine:
   topology:
     type: grid
