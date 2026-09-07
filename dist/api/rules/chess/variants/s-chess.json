@@ -6,7 +6,7 @@
   "board": "8×8",
   "win": "Checkmate",
   "special": "Two new compound pieces — Hawk and Elephant — enter the board via a gating mechanic when back-rank pieces leave their starting squares. Designed by Yasser Seirawan and Bruce Harper, 2007.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -22,8 +22,96 @@
     ],
     "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
     "notation": "algebraic",
-    "hand": true,
-    "gating": true
+    "vocabulary": {
+      "hawk": {
+        "symbols": {
+          "0": "H",
+          "1": "h"
+        }
+      },
+      "elephant": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "gating": true,
+        "initialHands": [
+          [
+            "hawk",
+            "elephant"
+          ],
+          [
+            "hawk",
+            "elephant"
+          ]
+        ],
+        "pieces": {
+          "hawk": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    2,
+                    2
+                  ],
+                  [
+                    2,
+                    -2
+                  ],
+                  [
+                    -2,
+                    2
+                  ],
+                  [
+                    -2,
+                    -2
+                  ]
+                ]
+              },
+              {
+                "type": "leaper",
+                "offsets": "knight"
+              }
+            ]
+          },
+          "elephant": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": "orthogonal"
+              },
+              {
+                "type": "leaper",
+                "offsets": "knight"
+              }
+            ]
+          }
+        }
+      }
+    }
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/s-chess-board.svg",

@@ -18220,7 +18220,7 @@
     "sectionType": "general",
     "section": "Ultima (Baroque Chess)",
     "heading": "Piece Movement and Capture",
-    "content": "All pieces except the King slide like the Queen — any number of squares in any of the eight directions — to reach their destination. They slide without capturing en route; the capture occurs as a result of where they land or what they leave behind. The King moves one step in any direction. Capture methods are entirely independent of movement methods.\nPiece — Starting Squares — Movement — Capture Method\n**King** — d1 / e8 — 1 step, any direction — Displacement: physically move onto the opponent King’s square. Win by capturing the opponent King.\n**Withdrawer** — e1 / d8 — Queen slide — **Withdrawal:** if the Withdrawer moves directly away from an adjacent opponent piece (along the same line it occupied when adjacent), that piece is captured. Moving toward an adjacent piece, or along any other line, captures nothing.\n**Coordinator** — h1 / a8 — Queen slide — **Coordinate capture:** when the Coordinator moves to square X, any opponent piece that occupies the same rank as your King and the same file as X is captured; and any opponent piece that occupies the same file as your King and the same rank as X is also captured. Multiple captures possible per move.\n**Long Leaper** — b1, g1 / b8, g8 — Queen slide — **Leap capture:** the Long Leaper may jump over one opponent piece along a rank, file, or diagonal, landing on the next empty square beyond it; the jumped piece is captured. Multiple leaps in one move are permitted, each over a separate opponent piece on the same or different lines.\n**Immobilizer** — a1 / h8 — Queen slide — **Immobilization:** the Immobilizer does not capture. Instead, any opponent piece that is orthogonally or diagonally adjacent to the Immobilizer at the end of its move is frozen and may not move until the Immobilizer moves away. An Immobilizer adjacent to an opponent Immobilizer is itself immobilized.\n**Chameleon** — c1, f1 / c8, f8 — Queen slide — **Mimicry:** the Chameleon captures using the capture method of whichever type of piece it is targeting. To capture a Withdrawer, it withdraws from it. To capture a Long Leaper, it leaps over it. To capture a Coordinator, it coordinates with your King against it. To capture an Immobilizer, it immobilizes it (both are immobilized). To capture a Pincer Pawn, it flanks it. Cannot capture a King by displacement (Chameleon has no displacement method).\n**Pincer Pawn** — a2–h2 / a7–h7 — Queen slide — **Custodian (flank) capture:** when the Pincer Pawn moves, any opponent piece now sandwiched between the Pincer and another friendly piece along the same rank or file is captured. Multiple custodian captures are possible from one move.",
+    "content": "All pieces except the King slide like the Queen — any number of squares in any of the eight directions — to reach their destination. They slide without capturing en route; the capture occurs as a result of where they land or what they leave behind. The King moves one step in any direction. Capture methods are entirely independent of movement methods.\nPiece — Starting Squares — Movement — Capture Method\n**King** — d1 / e8 — 1 step, any direction — Displacement: physically move onto the opponent King’s square. Win by capturing the opponent King.\n**Withdrawer** — e1 / d8 — Queen slide — **Withdrawal:** if the Withdrawer moves directly away from an adjacent opponent piece (along the same line it occupied when adjacent), that piece is captured. Moving toward an adjacent piece, or along any other line, captures nothing.\n**Coordinator** — h1 / a8 — Queen slide — **Coordinate capture:** when the Coordinator moves to square X, any opponent piece that occupies the same rank as your King and the same file as X is captured; and any opponent piece that occupies the same file as your King and the same rank as X is also captured. Multiple captures possible per move.\n**Long Leaper** — b1, g1 / b8, g8 — Queen slide — **Leap capture:** the Long Leaper may jump over one opponent piece along a rank, file, or diagonal, landing on the next empty square beyond it; the jumped piece is captured. Multiple leaps in one move are permitted, each over a separate opponent piece on the same or different lines.\n**Immobilizer** — a1 / h8 — Queen slide — **Immobilization:** the Immobilizer does not capture. Instead, any opponent piece that is orthogonally or diagonally adjacent to the Immobilizer at the end of its move is frozen and may not move until the Immobilizer moves away. An Immobilizer adjacent to an opponent Immobilizer is itself immobilized.\n**Chameleon** — c1, f1 / c8, f8 — Queen slide — **Mimicry:** the Chameleon captures using the capture method of whichever type of piece it is targeting. To capture a Withdrawer, it withdraws from it. To capture a Long Leaper, it leaps over it. To capture a Coordinator, it coordinates with your King against it. To capture an Immobilizer, it immobilizes it (both are immobilized). To capture a Pincer Pawn, it flanks it. Cannot capture a King by displacement (Chameleon has no displacement method).\n**Pincer Pawn** — a2–h2 / a7–h7 — Rook slide (orthogonal only) — **Custodian (flank) capture:** when the Pincer Pawn moves, any opponent piece now sandwiched between the Pincer and another friendly piece along the same rank or file is captured. Multiple custodian captures are possible from one move.",
     "anchor": "piece-movement-and-capture",
     "variant": "ultima",
     "variantUrl": "chess/variants/ultima/"
@@ -23200,7 +23200,7 @@
     "sectionType": "board",
     "section": "Bao",
     "heading": "Components",
-    "content": "\nItem — Qty — Notes\n**Board** — 1 — 4 rows of 8 pits: 2 rows per player (inner + outer)\n**Seeds** — 64 — 2 seeds in each of the 32 pits",
+    "content": "\nItem — Qty — Notes\n**Board** — 1 — 4 rows of 8 pits: 2 rows per player (inner + outer)\n**Seeds** — 64 — 32 a side: ten on the board at the start, twenty-two in hand for namua",
     "anchor": "components",
     "variant": "bao",
     "variantUrl": "mancala/variants/bao/"
@@ -23212,7 +23212,7 @@
     "sectionType": "setup",
     "section": "Bao",
     "heading": "Setup",
-    "content": "The board is oriented with both players' inner rows facing each other. Each pit starts with 2 seeds. The four centre pits of each inner row positions 4 and 5 from each end are called kimbi — they will be significant in the opening. Each player controls their two rows: the inner row facing the centre and the outer row behind it.",
+    "content": "The board is oriented with both players' inner rows facing each other. Each player starts with six seeds in the nyumba — the fourth pit from the right of their inner row — and two in each of the two pits to its right, holding the other twenty-two in hand. The four centre pits of each inner row positions 4 and 5 from each end are called kimbi — they will be significant in the opening. Each player controls their two rows: the inner row facing the centre and the outer row behind it.",
     "anchor": "setup",
     "variant": "bao",
     "variantUrl": "mancala/variants/bao/"
@@ -23536,7 +23536,7 @@
     "sectionType": "general",
     "section": "Pallanguzhi",
     "heading": "Pallanguzhi",
-    "content": "A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: pallam pit and kuzhi hole. Pallanguzhi uses 14 seeds per pit — significantly more than other Mancala variants — and features a continuous relay mechanic that creates long, unbroken sowing chains.",
+    "content": "A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: pallam pit and kuzhi hole. Pallanguzhi uses 12 seeds per pit — significantly more than other Mancala variants — and features a continuous relay mechanic that creates long, unbroken sowing chains.",
     "anchor": "pallanguzhi",
     "variant": "pallanguzhi",
     "variantUrl": "mancala/variants/pallanguzhi/"
@@ -23548,7 +23548,7 @@
     "sectionType": "board",
     "section": "Pallanguzhi",
     "heading": "Components",
-    "content": "\nItem — Qty — Notes\n**Board** — 1 — 2 rows of 7 pits\n**Seeds** — 146 — Traditionally cowrie shells or tamarind seeds; 14 per pit at start (not counting the initial relay)",
+    "content": "\nItem — Qty — Notes\n**Board** — 1 — 2 rows of 7 pits\n**Seeds** — 168 — Traditionally cowrie shells or tamarind seeds; 12 per pit at start, 14 pits",
     "anchor": "components",
     "variant": "pallanguzhi",
     "variantUrl": "mancala/variants/pallanguzhi/"

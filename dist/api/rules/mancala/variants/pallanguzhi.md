@@ -1,6 +1,6 @@
 ## Pallanguzhi
 
-A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: *pallam* (pit) and *kuzhi* (hole). Pallanguzhi uses 14 seeds per pit — significantly more than other Mancala variants — and features a continuous relay mechanic that creates long, unbroken sowing chains.
+A traditional South Indian Mancala game played predominantly in Tamil Nadu and Kerala, as well as among Tamil-speaking communities in Sri Lanka, Singapore, and Malaysia. The name comes from Tamil: *pallam* (pit) and *kuzhi* (hole). Pallanguzhi uses 12 seeds per pit — significantly more than other Mancala variants — and features a continuous relay mechanic that creates long, unbroken sowing chains.
 
 
 {{svg:pallanguzhi-board.svg "Pallanguzhi — starting position"}}
@@ -9,7 +9,7 @@ A traditional South Indian Mancala game played predominantly in Tamil Nadu and K
 | Item | Qty | Notes |
 |------|-----|-------|
 | **Board** | 1 | 2 rows of 7 pits |
-| **Seeds** | 146 | Traditionally cowrie shells or tamarind seeds; 14 per pit at start (not counting the initial relay) |
+| **Seeds** | 168 | Traditionally cowrie shells or tamarind seeds; 12 per pit at start, 14 pits |
 
 ### Setup
 

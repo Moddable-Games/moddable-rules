@@ -10085,7 +10085,7 @@
       "board": "8×8",
       "win": "Checkmate",
       "special": "Two new compound pieces — Hawk and Elephant — enter the board via a gating mechanic when back-rank pieces leave their starting squares. Designed by Yasser Seirawan and Bruce Harper, 2007.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -10101,8 +10101,96 @@
         ],
         "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
         "notation": "algebraic",
-        "hand": true,
-        "gating": true
+        "vocabulary": {
+          "hawk": {
+            "symbols": {
+              "0": "H",
+              "1": "h"
+            }
+          },
+          "elephant": {
+            "symbols": {
+              "0": "E",
+              "1": "e"
+            }
+          }
+        },
+        "plugins": {
+          "chess": {
+            "gating": true,
+            "initialHands": [
+              [
+                "hawk",
+                "elephant"
+              ],
+              [
+                "hawk",
+                "elephant"
+              ]
+            ],
+            "pieces": {
+              "hawk": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        1,
+                        1
+                      ],
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        2,
+                        2
+                      ],
+                      [
+                        2,
+                        -2
+                      ],
+                      [
+                        -2,
+                        2
+                      ],
+                      [
+                        -2,
+                        -2
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": "knight"
+                  }
+                ]
+              },
+              "elephant": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "orthogonal"
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": "knight"
+                  }
+                ]
+              }
+            }
+          }
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/s-chess-board.svg",
@@ -12356,7 +12444,7 @@
       "board": "8×8",
       "win": "Capture opponent King",
       "special": "All seven piece types use entirely different capture mechanics. No check: win by physically capturing the opponent's King. Designed by Robert Abbott, 1962.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -12917,7 +13005,7 @@
       "board": "9×9",
       "win": "Duple Checkmate, or capture one Champion then checkmate the remaining one",
       "special": "Xiangqi/chess hybrid by Eventlesstew for the PyChess Variant Design Contest. 9×9 board, dual Champions (royal), Crossbow (diagonal Cannon), piece drops within first two ranks, captures go to hand.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -13376,8 +13464,8 @@
           },
           "pupil": {
             "symbols": {
-              "0": "U",
-              "1": "u"
+              "0": "T",
+              "1": "t"
             }
           }
         },
@@ -15184,7 +15272,7 @@
   },
   "stats": {
     "variantCount": 154,
-    "playable": 138,
+    "playable": 141,
     "withDiagram": 154,
     "topologies": [
       "grid",

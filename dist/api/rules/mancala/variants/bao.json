@@ -6,7 +6,7 @@
   "board": "4×8 pits (2 rows per player)",
   "win": "Reduce opponent to no seeds in their inner row, or leave them with no legal move",
   "special": "Two-phase game: namua (seeding phase) then mtaji (capture phase). Multi-lap relay sowing.",
-  "playable": false,
+  "playable": true,
   "order": 3,
   "designer": null,
   "category": null,
@@ -24,7 +24,16 @@
     "render": {
       "cellSize": 20
     },
-    "setup": "0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2;0;2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0;0"
+    "plugins": {
+      "mancala": {
+        "rowsPerSide": 2,
+        "cols": 8,
+        "chooseDirection": true,
+        "captureRule": "oppositeInnerRow",
+        "namuaReserve": 22
+      }
+    },
+    "setup": "0,0,0,0,6,2,2,0,0,0,0,0,0,0,0,0;0;0,0,0,0,6,2,2,0,0,0,0,0,0,0,0,0;0"
   },
   "diagram": {
     "svg": "games/mancala/diagrams/svg/bao-board.svg",

@@ -6,7 +6,7 @@
   "board": "8×8",
   "win": "Capture opponent King",
   "special": "All seven piece types use entirely different capture mechanics. No check: win by physically capturing the opponent's King. Designed by Robert Abbott, 1962.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,

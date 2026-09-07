@@ -71,18 +71,8 @@
     "pieces": {
       "set": "playstrategy-go-classic",
       "vocabulary": {
-        "K": {
-          "type": "king",
-          "color": "white"
-        },
-        "w": {
-          "type": "stone",
-          "color": "white"
-        },
-        "b": {
-          "type": "stone",
-          "color": "black"
-        }
+        "b": "bS",
+        "w": "wS"
       }
     },
     "players": [
