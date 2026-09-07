@@ -4001,10 +4001,46 @@
                 ]
               },
               "lion": {
-                "type": "rider",
-                "dirs": "all",
-                "maxSteps": 1,
-                "confine": "castle"
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": "all",
+                    "maxSteps": 1,
+                    "confine": "castle"
+                  },
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ],
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "captureOnly": true,
+                    "targetType": "lion"
+                  }
+                ]
               },
               "zebra": {
                 "type": "leaper",

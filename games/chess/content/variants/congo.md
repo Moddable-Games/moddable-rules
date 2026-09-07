@@ -8,10 +8,6 @@ parent: chess
 win: Capture the Lion
 special: "7×7 chess variant by Demian Freeling (1982, age 7). Six unique piece types: Lion (King, confined to castle), Zebra (Knight), Giraffe (2-step jump + king move), Elephant (1–2 step ortho leaper), Crocodile (king move + rook toward/in river), Monkey (capturing draughts-leaper). River rank in the centre. Drowning rule: non-Crocodile pieces left in the river for a full turn are removed. No check or checkmate — capture the Lion to win."
 approximations:
-  - feature: "Facing Lions capture"
-    source: "Lions aligned on a file or diagonal with nothing between may jump the distance and capture."
-    engine: "Not implemented."
-    blocker: "The generals-facing rule in xiangqi forbids the alignment; this one rewards it, and no rule turns an alignment into a capture."
   - feature: "Pawn retreat across the river"
     source: "A pawn that has crossed the river may move one or two squares straight backward, without capturing or jumping."
     engine: "Not implemented. Pawns never move backward."
@@ -180,11 +176,19 @@ engine:
             - type: leaper
               offsets: dabbaba
         lion:
-          type: rider
-          dirs: all
-          maxSteps: 1
-          # The Lion may never leave its own castle.
-          confine: castle
+          # A king step inside its own castle, and one thing besides: "if there
+          # is a vertical or diagonal line with no pieces between the two lions,
+          # the lion may jump to the other lion and capture it". The rider stops
+          # at the first piece it meets, so the clear-line condition comes free;
+          # it may only take that piece when it is the other Lion, and this move
+          # is not confined - it lands in the opponent's castle.
+          type: compose
+          parts:
+            - { type: rider, dirs: all, maxSteps: 1, confine: castle }
+            - type: rider
+              dirs: [[-1, 0], [1, 0], [-1, -1], [-1, 1], [1, -1], [1, 1]]
+              captureOnly: true
+              targetType: lion
         zebra:
           type: leaper
           offsets: knight
