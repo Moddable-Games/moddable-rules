@@ -10432,8 +10432,42 @@
                     6
                   ]
                 ]
+              },
+              "promotionZone": {
+                "cells": [
+                  [
+                    [
+                      1,
+                      4
+                    ],
+                    [
+                      0,
+                      4
+                    ]
+                  ],
+                  [
+                    [
+                      6,
+                      2
+                    ],
+                    [
+                      5,
+                      2
+                    ]
+                  ]
+                ]
               }
             },
+            "promotion": [
+              {
+                "piece": "pawn",
+                "in": "promotionZone",
+                "to": [
+                  "rook",
+                  "bishop"
+                ]
+              }
+            ],
             "pieces": {
               "rook": {
                 "type": "positional",
