@@ -17,13 +17,29 @@ verified:
     - "Four things this repo previously stated are wrong and are corrected here. Black did not move first - White begins. The ko rule is not the standard one. The stones are on the third line, not the fourth, and are not star points. And the position bonus is 20 points for all four 1-1 points plus 5 for tengen, not an unspecified award for 'eyes and living groups in some traditions'."
   unverified:
     - "What 'delayed captures' means in play, and how the rest of the scoring settles. The bonus is documented; the base count is not."
-unsupported: "No longer blocked on the opening position - the twelve stones are recorded and declared in `setup`, and the board, the opening player and the ko rule are sourced. What remains is scoring: the 20-point bonus for the corners and 5 for tengen, and the delayed captures, are not modelled."
+unsupported: "The opening, the ko rule and the position bonus are all in. What is left is the delayed captures, which the source names and does not explain, and the base count they sit on."
 engine:
   topology:
     type: grid
     rows: 17
     cols: 17
     layout: intersections
+  plugins:
+    go:
+      # "May not play a stone on an intersection where the opponent has just
+      # removed a stone" - broader than the ordinary ko rule, and the reason
+      # snapback is illegal here.
+      koRule: any-removed
+      komi: 0
+      # "20 bonus points for controlling all the 1-1 points, and a further 5 for
+      # controlling tengen also."
+      positionBonus:
+        - name: corners
+          points: corners
+          award: 20
+        - name: tengen
+          points: centre
+          award: 5
   players: [black, white]
   setup: "17/17/2b3w3b3w2/17/17/17/2w11b2/17/17/17/2b11w2/17/17/17/2w3b3w3b2/17/17"
 ---

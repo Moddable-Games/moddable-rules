@@ -17,6 +17,12 @@
       "cols": 19,
       "layout": "intersections"
     },
+    "plugins": {
+      "go": {
+        "prisoners": false,
+        "komi": 0
+      }
+    },
     "players": [
       "black",
       "white"

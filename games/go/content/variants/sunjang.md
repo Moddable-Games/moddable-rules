@@ -18,13 +18,20 @@ verified:
     - "The earlier record said the stones sit on 'the star points and key approach points'. They do not: eight of the sixteen are not star points at all, and the centre star point carries no stone."
   unverified:
     - "The prisoners-ignored scoring, which is the other half of what this variant needs and is not a placement question."
-unsupported: "No longer blocked on the opening position - the sixteen stones are recorded and declared in `setup`. What remains is the scoring: Sunjang ignores prisoners and removes stones inside friendly territory before counting, and neither is modelled."
+unsupported: "The scoring is nearly complete: territory is counted and prisoners are ignored, as Sunjang requires. What is left is the clearing step - stones standing inside their own territory, and irrelevant to defining its boundary, are taken off before counting. Which stones those are is a judgement about the position and the source does not define it."
 engine:
   topology:
     type: grid
     rows: 19
     cols: 19
     layout: intersections
+  plugins:
+    go:
+      # "At the end of the game, stones inside friendly territory... are removed
+      # before counting territory" - Sunjang counts territory and ignores
+      # prisoners entirely, which is a different sum rather than a komi tweak.
+      prisoners: false
+      komi: 0
   players: [black, white]
   setup: "19/19/19/3w2b2w2b2b3/19/19/3w11w3/19/19/3b11b3/19/19/3w11w3/19/19/3b2b2w2b2w3/19/19/19"
 ---

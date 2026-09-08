@@ -679,6 +679,12 @@
           "cols": 19,
           "layout": "intersections"
         },
+        "plugins": {
+          "go": {
+            "prisoners": false,
+            "komi": 0
+          }
+        },
         "players": [
           "black",
           "white"
@@ -714,6 +720,24 @@
           "rows": 17,
           "cols": 17,
           "layout": "intersections"
+        },
+        "plugins": {
+          "go": {
+            "koRule": "any-removed",
+            "komi": 0,
+            "positionBonus": [
+              {
+                "name": "corners",
+                "points": "corners",
+                "award": 20
+              },
+              {
+                "name": "tengen",
+                "points": "centre",
+                "award": 5
+              }
+            ]
+          }
         },
         "players": [
           "black",
