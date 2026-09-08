@@ -545,7 +545,7 @@
       "board": "19×19",
       "win": "Most territory at game end (team)",
       "special": "Team Go. Partners alternate turns. No consultation. 2v2 or 3v3.",
-      "playable": false,
+      "playable": true,
       "order": 9,
       "designer": null,
       "category": null,
@@ -557,6 +557,14 @@
           "layout": "intersections"
         },
         "players": [
+          "black1",
+          "white1",
+          "black2",
+          "white2"
+        ],
+        "playerColours": [
+          "black",
+          "white",
           "black",
           "white"
         ],
@@ -743,6 +751,7 @@
           "black",
           "white"
         ],
+        "firstPlayer": "white",
         "setup": "17/17/2b3w3b3w2/17/17/17/2w11b2/17/17/17/2b11w2/17/17/17/2w3b3w3b2/17/17"
       },
       "diagram": {
@@ -931,7 +940,7 @@
         "topology": "grid",
         "svg": "games/go/diagrams/svg/rengo-board.svg",
         "rulesUrl": "go/variants/rengo/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "4–6"
       },
@@ -1034,7 +1043,7 @@
   },
   "stats": {
     "variantCount": 14,
-    "playable": 10,
+    "playable": 11,
     "withDiagram": 14,
     "topologies": [
       "grid"

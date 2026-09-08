@@ -6,7 +6,7 @@
   "board": "19×19",
   "win": "Most territory at game end (team)",
   "special": "Team Go. Partners alternate turns. No consultation. 2v2 or 3v3.",
-  "playable": false,
+  "playable": true,
   "order": 9,
   "designer": null,
   "category": null,
@@ -18,6 +18,14 @@
       "layout": "intersections"
     },
     "players": [
+      "black1",
+      "white1",
+      "black2",
+      "white2"
+    ],
+    "playerColours": [
+      "black",
+      "white",
       "black",
       "white"
     ],

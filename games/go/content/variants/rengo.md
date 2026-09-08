@@ -4,17 +4,21 @@ slug: rengo
 board: "19×19"
 players: "4–6"
 parent: go
+playable: true
 order: 9
 win: Most territory at game end (team)
 special: Team Go. Partners alternate turns. No consultation. 2v2 or 3v3.
-unsupported: "Team play with partners alternating turns is not modelled; it plays as an ordinary two-player game."
 engine:
   topology:
     type: grid
     rows: 19
     cols: 19
     layout: intersections
-  players: [black, white]
+  # Four seats, two sides, partners alternating. A stone belongs to a colour
+  # rather than to whoever placed it, so the pair share their stones by sharing
+  # a colour - which is what a team is here.
+  players: [black1, white1, black2, white2]
+  playerColours: [black, white, black, white]
   setup: ""
 ---
 
