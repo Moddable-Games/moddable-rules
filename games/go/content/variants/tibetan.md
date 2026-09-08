@@ -41,6 +41,8 @@ engine:
           points: centre
           award: 5
   players: [black, white]
+  # "White begins play."
+  firstPlayer: white
   setup: "17/17/2b3w3b3w2/17/17/17/2w11b2/17/17/17/2b11w2/17/17/17/2w3b3w3b2/17/17"
 ---
 
