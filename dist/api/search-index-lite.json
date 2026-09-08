@@ -21568,7 +21568,7 @@
     "sectionType": "setup",
     "section": "Tibetan Go",
     "heading": "Setup",
-    "content": "Board: 17×17 grid 289 intersections. Pre-placed stones: Before play begins, 6 white stones and 6 black stones are placed in fixed positions on the 4th-line star points similar to handicap placement. T",
+    "content": "Board: 17×17 grid 289 intersections. Pre-placed stones: six black and six white, in a fixed pattern on the third line - not the fourth, and not on star points. Each colour's six points map onto themse",
     "anchor": "setup",
     "variant": "tibetan",
     "variantUrl": "go/variants/tibetan/"
@@ -21592,7 +21592,7 @@
     "sectionType": "winning",
     "section": "Tibetan Go",
     "heading": "Scoring",
-    "content": "Tibetan Go uses a unique additive scoring system: - Territory: Empty intersections surrounded by your stones. - Prisoners: Each captured stone scores points. - Position bonus: Specific board patterns ",
+    "content": "Tibetan Go uses a unique additive scoring system: - Territory: Empty intersections surrounded by your stones. - Prisoners: Each captured stone scores points. - Position bonus: 20 points for controllin",
     "anchor": "scoring",
     "variant": "tibetan",
     "variantUrl": "go/variants/tibetan/"

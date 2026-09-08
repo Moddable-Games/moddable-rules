@@ -1,12 +1,12 @@
 {
   "generated": "2026-09-08",
-  "total": 667,
+  "total": 665,
   "totalPages": 9765,
   "families": 50,
   "byType": {
     "rulebook": 100,
     "library": 34,
-    "variant": 286,
+    "variant": 284,
     "complete": 32,
     "componentGame": 38,
     "subPage": 177
@@ -407,18 +407,6 @@
       "family": "chess",
       "type": "library",
       "pages": 561
-    },
-    {
-      "path": "chess/pdf/variants/_standard_content.pdf",
-      "family": "chess",
-      "type": "variant",
-      "pages": 0
-    },
-    {
-      "path": "chess/pdf/variants/_standard_cover.pdf",
-      "family": "chess",
-      "type": "variant",
-      "pages": 0
     },
     {
       "path": "chess/pdf/variants/absorption.pdf",

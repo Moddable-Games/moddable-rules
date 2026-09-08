@@ -62,14 +62,37 @@
 <p class="diagram-caption">Tibetan Go — played on 17×17 (shown on 19×19)</p></div>
 <h3 id="setup">Setup</h3>
 <p><strong>Board:</strong> 17×17 grid (289 intersections).</p>
-<p><strong>Pre-placed stones:</strong> Before play begins, 6 white stones and 6 black stones are placed in fixed positions on the 4th-line star points (similar to handicap placement). The specific positions vary by tradition.</p>
-<p><strong>First move:</strong> Black plays first.</p>
+<p><strong>Pre-placed stones:</strong> six black and six white, in a fixed pattern on the third
+line - not the fourth, and not on star points.</p>
+<div class="table-wrap"><table class="t">
+<thead>
+<tr>
+<th></th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Black</td>
+<td>C15, L15, P11, C7, G3, P3</td>
+</tr>
+<tr>
+<td>White</td>
+<td>G15, P15, C11, P7, C3, L3</td>
+</tr>
+</tbody>
+</table></div>
+<p>Each colour’s six points map onto themselves when the board is turned through
+180 degrees. The specific positions vary by tradition.</p>
+<p><strong>First move:</strong> White begins play.</p>
 <h3 id="rules">Rules</h3>
 <ul class="rules">
 <li><strong>Placement:</strong> Standard — one stone per turn on any empty intersection.</li>
 <li><strong>Liberties:</strong> Same as standard Go — adjacent empty intersections.</li>
 <li><strong>Delayed capture:</strong> When a group loses its last liberty, it is NOT immediately removed. The opponent must play one more move to confirm the capture. If the surrounded group can connect to safety or gain a liberty before the confirming move, it survives. This gives the defender one extra chance.</li>
-<li><strong>Ko:</strong> Standard ko rule applies.</li>
+<li><strong>Ko:</strong> not the standard rule. A stone may not be played on an intersection
+where the opponent has just removed a stone. This makes snapback illegal and
+renders suicide useless as a ko threat.</li>
 <li><strong>Suicide:</strong> Forbidden.</li>
 </ul>
 <h3 id="scoring">Scoring</h3>
@@ -77,7 +100,8 @@
 <ul class="rules">
 <li><strong>Territory:</strong> Empty intersections surrounded by your stones.</li>
 <li><strong>Prisoners:</strong> Each captured stone scores points.</li>
-<li><strong>Position bonus:</strong> Specific board patterns (eyes, living groups in corners) award additional points in some traditions.</li>
+<li><strong>Position bonus:</strong> 20 points for controlling all four 1-1 points (the board’s
+corners), and a further 5 for also controlling tengen.</li>
 </ul>
 <p>The exact scoring weights vary by regional tradition. White receives compensation (equivalent to komi) for moving second.</p>
 <h3 id="strategy">Strategy</h3>
