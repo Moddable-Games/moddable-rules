@@ -10,7 +10,7 @@
     "index": "node js/build-index.mjs",
     "api": "node js/build-api.mjs",
     "pdf": "node js/pdf.mjs && node scripts/gen-pdf-manifest.mjs",
-    "pdf:game": "node js/pdf.mjs --game && node scripts/gen-pdf-manifest.mjs",
+    "pdf:game": "node scripts/pdf-game.mjs",
     "sync": "node js/sync.mjs",
     "sync:boards": "./scripts/sync-boards.sh",
     "sync:chargen": "./scripts/sync-chargen.sh",

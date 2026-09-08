@@ -17,7 +17,15 @@ const PAGINATE_JS = buildPaginateScript(PAGE_H_MM, PAD_MM);
 const args = process.argv.slice(2);
 let targetSlug = null;
 const gameIdx = args.indexOf('--game');
-if (gameIdx !== -1 && args[gameIdx + 1]) {
+if (gameIdx !== -1) {
+  // `--game` with nothing after it used to fall through to "every game", so a
+  // command that asked for one rulebook quietly rebuilt all 582 PDFs and took
+  // twenty minutes doing it. Asking for a game and not naming one is a mistake,
+  // not a request for everything.
+  if (!args[gameIdx + 1] || args[gameIdx + 1].startsWith('--')) {
+    console.error('--game needs a game slug: node js/pdf.mjs --game chess');
+    process.exit(1);
+  }
   targetSlug = args[gameIdx + 1];
 }
 
