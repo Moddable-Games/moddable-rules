@@ -27,6 +27,8 @@ engine:
       river-light-stroke: "#5590b8"
       river-dark: "#4a90c8"
       river-dark-stroke: "#2a6a9a"
+  pieces:
+    set: mce-congo
   players: [white, black]
   setup: "gmelecz/ppppppp/7/7/7/PPPPPPP/GMELECZ"
   vocabulary:
