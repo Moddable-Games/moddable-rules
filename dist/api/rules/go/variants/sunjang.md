@@ -8,9 +8,21 @@ Korea's historical form of Go (순장바둑), the dominant version played in Kor
 
 **Board:** Standard 19×19 grid.
 
-**Pre-placed stones:** 8 black stones and 8 white stones are placed before play begins, in fixed positions on the star points (4-4 intersections) and key approach points. The standard placement creates a diagonal symmetry.
+**Pre-placed stones:** eight black and eight white, placed before play begins.
+Half of them stand on star points and half do not, so the arrangement cannot be
+described as "the star points" - it is a fixed pattern of its own.
 
-**First move:** Black plays first. No komi (the pre-placed stones are considered balanced).
+| | Points |
+|---|---|
+| Black | D4, G4, N4, D10, Q10, G16, N16, Q16 |
+| White | K4, Q4, D7, Q7, D13, Q13, D16, K16 |
+
+Each colour's eight points map onto themselves under a 180 degree rotation of
+the board, which is what makes the opening balanced without komi. The standard placement creates a diagonal symmetry.
+
+**First move:** Black plays first, and the move is prescribed: the centre point
+K10 is empty in the opening and Black must play there. No komi - the pre-placed
+stones are what balances the game.
 
 ### Rules
 

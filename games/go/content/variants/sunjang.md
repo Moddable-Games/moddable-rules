@@ -7,7 +7,18 @@ parent: go
 order: 12
 win: Most territory at game end
 special: Korean historical Go. 16 pre-placed stones. Prisoners ignored. No komi.
-unsupported: "The engine can now open from a declared position - `setup` is parsed by the topology and the stones are on the board before the first move, verified on a 9x9 fixture (engine#162) - so what remains is the position itself, and that is content the sources do not carry as text. Checked 2026-09-06: senseis.xmp.net/?SunjangBaduk returns 403; gambiter.com/go/variants/Sunjang_baduk.html and handwiki.org/wiki/Software:Sunjang_baduk both say only that the board carries 17 marked points, that the first 16 stones go on a preset pattern of them and that Black opens on tengen, and both carry the placement as a diagram image with no coordinate list. Which eight points are Black and which eight are White could not be recovered, so no stones are declared rather than the wrong ones. Prisoners-ignored scoring is also not modelled."
+verified:
+  date: "2026-09-08"
+  method: "The sixteen points were read out of the diagram programmatically, not by eye: the board image was decoded, the 19x19 grid located from its own lines, and every intersection sampled and classified by luminance. The result is trimodal and unambiguous - eight dark, eight light, 343 empty - and each colour's eight points map onto themselves under a 180 degree rotation, which is independent confirmation rather than a second look at the same picture."
+  sources:
+    - "https://en.wikipedia.org/wiki/Go_variants#Sunjang_baduk - states the rule: 16 stones, 8 black and 8 white, and Black's first move prescribed at the centre"
+    - "https://upload.wikimedia.org/wikipedia/commons/3/32/Sunjang_Baduk_starting_position.png - the diagram the points were read from"
+  decisions:
+    - "Rows are numbered from 1 at the bottom, the ordinary Go convention and the one the diagram's own labels use. It matters: the position is not symmetric under a vertical flip, so the other convention would give a mirrored and wrong position."
+    - "The earlier record said the stones sit on 'the star points and key approach points'. They do not: eight of the sixteen are not star points at all, and the centre star point carries no stone."
+  unverified:
+    - "The prisoners-ignored scoring, which is the other half of what this variant needs and is not a placement question."
+unsupported: "No longer blocked on the opening position - the sixteen stones are recorded and declared in `setup`. What remains is the scoring: Sunjang ignores prisoners and removes stones inside friendly territory before counting, and neither is modelled."
 engine:
   topology:
     type: grid
@@ -15,7 +26,7 @@ engine:
     cols: 19
     layout: intersections
   players: [black, white]
-  setup: ""
+  setup: "19/19/19/3w2b2w2b2b3/19/19/3w11w3/19/19/3b11b3/19/19/3w11w3/19/19/3b2b2w2b2w3/19/19/19"
 ---
 
 ## Sunjang Baduk
@@ -28,9 +39,21 @@ Korea's historical form of Go (순장바둑), the dominant version played in Kor
 
 **Board:** Standard 19×19 grid.
 
-**Pre-placed stones:** 8 black stones and 8 white stones are placed before play begins, in fixed positions on the star points (4-4 intersections) and key approach points. The standard placement creates a diagonal symmetry.
+**Pre-placed stones:** eight black and eight white, placed before play begins.
+Half of them stand on star points and half do not, so the arrangement cannot be
+described as "the star points" - it is a fixed pattern of its own.
 
-**First move:** Black plays first. No komi (the pre-placed stones are considered balanced).
+| | Points |
+|---|---|
+| Black | D4, G4, N4, D10, Q10, G16, N16, Q16 |
+| White | K4, Q4, D7, Q7, D13, Q13, D16, K16 |
+
+Each colour's eight points map onto themselves under a 180 degree rotation of
+the board, which is what makes the opening balanced without komi. The standard placement creates a diagonal symmetry.
+
+**First move:** Black plays first, and the move is prescribed: the centre point
+K10 is empty in the opening and Black must play there. No komi - the pre-placed
+stones are what balances the game.
 
 ### Rules
 
