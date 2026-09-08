@@ -1,7 +1,14 @@
 #!/bin/bash
-# Upload all generated PDFs to the 'pdfs' GitHub Release.
-# Creates the release if it doesn't exist, replaces all assets if it does.
+# Upload generated PDFs to the 'pdfs' GitHub Release.
+# Creates the release if it doesn't exist, replaces the assets it uploads.
 # Run after npm run pdf to upload the generated files.
+#
+#   ./scripts/upload-pdfs.sh              every game
+#   ./scripts/upload-pdfs.sh chess        one game
+#   ./scripts/upload-pdfs.sh chess shogi  several
+#
+# A release asset is replaced individually, so re-publishing one changed
+# rulebook does not need all 582 files and 168MB to go up with it.
 #
 # Asset naming: {slug}--{filename} (flattened from games/{slug}/pdf/{path}/{file}.pdf)
 # Example: games/chess/pdf/variants/standard.pdf -> chess--standard.pdf
@@ -37,9 +44,15 @@ while IFS=$'\t' read -r pdf asset_name; do
   [ -f "$pdf" ] || continue
   cp "$pdf" "$STAGING/$asset_name"
   count=$((count + 1))
-done < <(node "$RULES_ROOT/scripts/lib/pdf-assets.mjs")
+done < <(node "$RULES_ROOT/scripts/lib/pdf-assets.mjs" "$@")
 
-echo "Staged $count PDFs for upload"
+if [ "$count" -eq 0 ]; then
+  echo "No PDFs matched${*:+ for: $*}. Nothing uploaded."
+  rm -rf "$STAGING"
+  exit 0
+fi
+
+echo "Staged $count PDFs for upload${*:+ (games: $*)}"
 
 # Upload all at once (gh release upload accepts multiple files)
 # Split into batches of 50 to avoid argument length limits

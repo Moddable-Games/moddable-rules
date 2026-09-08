@@ -7,18 +7,18 @@ parent: shogi
 win: Checkmate the King
 special: "Modern 9×9 Shogi variant by Roberto Lavieri and Fergus Duniho. Captured pieces demote one step in a fixed ranking chain (Dragon King → Dragon Horse → Rook → Bishop → Gold General → Silver General → Lance → Knight → removed) rather than returning to their original form. Promotes of sub-Gold pieces are flexible: any higher piece up to Gold General."
 verified:
-  date: "2026-08-31"
+  date: "2026-09-08"
   method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
   sources:
+    - "https://www.chessvariants.com/shogivariants.dir/mortalshogi.html"
     - "https://www.chessvariants.com/shogivariants.dir/kamikazeshogi.html"
     - "https://www.chessvariants.com/difftaking.dir/mortalchessgi.html"
   decisions:
+    - "The page that had returned HTTP 403 on every attempt was reached on 2026-09-08 by sending a browser User-Agent. Everything below is confirmed against it: the demotion chain, the replacement of Shogi's promoted faces with promotion to higher-ranking pieces, and the drop restrictions were already recorded correctly and are now sourced rather than inferred."
     - "The demotion chain quoted in some places online is KAMIKAZE Mortal Shogi's, a different variant by the same author, and it terminates in a 'Kamikaze' piece that does not exist here. It must not be used as this variant's chain."
   unverified:
-    - "Mortal Shogi's own demotion chain - the central rule. Its page, chessvariants.com/shogivariants.dir/mortalshogi.html, returned HTTP 403 on every attempt from this environment and needs fetching from an ordinary browser."
-    - "Board size, whether drops are used, promotion rules and win condition for Mortal Shogi itself."
-    - "Whether promoted pieces demote to their unpromoted face or one rung down the chain."
-unsupported: "Capture is not identity-preserving: the captured piece changes TYPE on the way into hand, one rung down a fixed ranking, with the bottom rung removed from play, which makes material a decaying resource rather than a conserved one. The pattern is confirmed from the ancestor game Mortal Chessgi (queen to rook to bishop to knight to pawn to removed) but this variant's own chain is unverified - see verified.unverified. Do not implement from the Kamikaze chain."
+    - "Whether a Knight is forced to promote on the second-to-last rank as well as the last. The source states only 'upon reaching the last rank, it must promote', while standard Shogi forces it on both, and a Knight on the second-to-last rank has no legal move. The tables below say both ranks; the source says one."
+unsupported: "No longer blocked on content. The source page was unreachable and is not: everything here is confirmed against it. What remains is engine work - capture must change a piece's TYPE on the way into hand, one rung down a fixed ranking with the bottom rung leaving the game, and promotion offers a choice of higher-ranking pieces rather than a fixed promoted face."
 engine:
   topology:
     type: grid

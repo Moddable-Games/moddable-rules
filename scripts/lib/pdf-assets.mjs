@@ -46,8 +46,37 @@ export function pdfAssets(root = ROOT) {
   return out
 }
 
-// `node scripts/lib/pdf-assets.mjs` prints "localPath<TAB>assetName" per line,
-// which is what the shell uploader consumes.
+// `node scripts/lib/pdf-assets.mjs [game ...]` prints "localPath<TAB>assetName"
+// per line, which is what the shell uploader consumes. Naming games narrows it
+// to those games: a release asset is replaced individually, so re-publishing one
+// changed rulebook never needed all 582 files and 168MB to go up with it.
 if (process.argv[1] && process.argv[1].endsWith('pdf-assets.mjs')) {
-  for (const { path, asset } of pdfAssets()) console.log(`${path}\t${asset}`)
+  // A name matches a game or any part of an asset's path, so both `chess` and
+  // `congo` narrow to something useful.
+  //
+  // Whatever matches, that game's own rulebook and consolidated library go up
+  // with it. A variant is bound into its family's library PDF, so publishing a
+  // changed variant on its own would leave the book that contains it showing
+  // the old page - a stale asset nothing would report, because the check
+  // compares hashes and the library's hash would legitimately differ from
+  // whatever was last uploaded.
+  const only = new Set(process.argv.slice(2))
+  const all = pdfAssets()
+  const isHub = (asset) => asset.replace(/\.pdf$/, '').split('--').length === 2
+  const games = new Set()
+  if (only.size) {
+    for (const { asset } of all) {
+      const parts = asset.replace(/\.pdf$/, '').split('--')
+      if (parts.some(part => only.has(part))) games.add(parts[0])
+    }
+  }
+  for (const { path, asset } of all) {
+    if (only.size) {
+      const parts = asset.replace(/\.pdf$/, '').split('--')
+      const named = parts.some(part => only.has(part))
+      const carriesIt = isHub(asset) && games.has(parts[0])
+      if (!named && !carriesIt) continue
+    }
+    console.log(`${path}\t${asset}`)
+  }
 }

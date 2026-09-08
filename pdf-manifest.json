@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-07",
-  "total": 665,
+  "generated": "2026-09-08",
+  "total": 667,
   "totalPages": 9765,
   "families": 50,
   "byType": {
     "rulebook": 100,
     "library": 34,
-    "variant": 284,
+    "variant": 286,
     "complete": 32,
     "componentGame": 38,
     "subPage": 177
@@ -400,13 +400,25 @@
       "path": "chess/pdf/chess-variant-library-v0.6.1.pdf",
       "family": "chess",
       "type": "library",
-      "pages": 565
+      "pages": 561
     },
     {
       "path": "chess/pdf/chess-variant-library.pdf",
       "family": "chess",
       "type": "library",
-      "pages": 565
+      "pages": 561
+    },
+    {
+      "path": "chess/pdf/variants/_standard_content.pdf",
+      "family": "chess",
+      "type": "variant",
+      "pages": 0
+    },
+    {
+      "path": "chess/pdf/variants/_standard_cover.pdf",
+      "family": "chess",
+      "type": "variant",
+      "pages": 0
     },
     {
       "path": "chess/pdf/variants/absorption.pdf",
@@ -500,12 +512,6 @@
     },
     {
       "path": "chess/pdf/variants/birds-chess.pdf",
-      "family": "chess",
-      "type": "variant",
-      "pages": 4
-    },
-    {
-      "path": "chess/pdf/variants/blind-chess.pdf",
       "family": "chess",
       "type": "variant",
       "pages": 4
@@ -3925,6 +3931,12 @@
       "pages": 11
     },
     {
+      "path": "xiangqi/pdf/variants/banqi.pdf",
+      "family": "xiangqi",
+      "type": "variant",
+      "pages": 4
+    },
+    {
       "path": "xiangqi/pdf/variants/janggi.pdf",
       "family": "xiangqi",
       "type": "variant",
@@ -3994,13 +4006,13 @@
       "path": "xiangqi/pdf/xiangqi-variant-library-v1.2.1.pdf",
       "family": "xiangqi",
       "type": "library",
-      "pages": 41
+      "pages": 45
     },
     {
       "path": "xiangqi/pdf/xiangqi-variant-library.pdf",
       "family": "xiangqi",
       "type": "library",
-      "pages": 41
+      "pages": 45
     }
   ]
 }
