@@ -76,7 +76,6 @@ related:
   - chess
   - go
 unsupported:
-  hex-shogi-91: "Duniho's 91-cell game on a hexagonal board. The variant file describes the 91-cell game, not Wikipedia's 85-cell Hexshogi, and the two are not interchangeable; the hexagonal shogi board is not modelled."
   maka-dai-dai-shogi: "17x17. The piece table in the variant file is marked for re-verification against the raw wikitext and has not been checked, so the movement it declares is not yet trustworthy."
   tai-shogi: "25x25 with 93 piece codes. Same unverified piece table as maka-dai-dai."
   taikyoku-shogi: "36x36 with 208 piece types. The movement table has never been transcribed."

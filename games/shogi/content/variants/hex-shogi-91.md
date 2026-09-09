@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Hex Shogi 91
 slug: hex-shogi-91
 board: "91-cell hexagonal"
@@ -13,21 +14,90 @@ verified:
     - "https://www.chessvariants.com/hexagonal.dir/hexshogi/index.html"
     - "https://boardgamegeek.com/boardgame/224619/hex-shogi-91"
     - "https://en.wikipedia.org/wiki/Hexshogi"
+    - "https://www.chessvariants.com/hexagonal.dir/hexshogi/index.html and .../hexshogi91.html reached on 2026-09-09 with a browser User-Agent. Both pages carry the full rules in text: the twelve directions and which are forward, every piece's movement, the drop restrictions, and the four-rank promotion zone. The starting array is an image, hex_shogi_91.png, which was read directly."
   decisions:
     - "This is Fergus Duniho's Hex Shogi 91 - a hexagon 6 cells to a side, 91 cells. It is NOT Wikipedia's 'Hexshogi', which is a different game by George R. Dekle Sr. (1986) on 85 cells. Any implementation that reconciles against the Wikipedia article will build the wrong game."
   unverified:
-    - "The starting setup. Not obtained at all."
-    - "Per-piece hex movement for pawn, lance, knight, silver, gold, bishop, rook and king."
-    - "Hex orientation as an explicit statement (inferable from the clock mapping, not stated)."
-    - "The specific pawn-drop restrictions, and the two-player promotion zone."
+    - "Hex orientation as an explicit statement. The source says every board is made of hexagons that stand on a corner and gives the directions as clock hours, which fixes it, but never names the orientation."
+  decisions_2026_09_09:
+    - "The array is MIRRORED across the ranks, not half-turned. Shogi's is a half turn - black's rook is at 2h and white's at 8b, on opposite sides of the diagram - and this file assumed the same. The published image shows both rooks at the same horizontal position and both bishops likewise, so the second player's rook and bishop were the wrong way round and are swapped here."
     - "The variant's own page, chessvariants.com/hexagonal.dir/hexshogi/hexshogi91.html, returned HTTP 403 on every attempt and needs fetching from an ordinary browser."
-unsupported: "Non-rectangular topology: a hexagon of 91 cells with TWELVE directions per cell - six orthogonal and six diagonal - so pieces need a hex coordinate system and a per-player forward cone rather than a single forward vector. The hex topology already plays in this engine, so the provider is not the blocker; the setup and per-piece movement are, and both are currently unobtainable from the web."
 engine:
   topology:
     type: hex
     shape: hexagonal
     radius: 5
     orientation: pointy
+  plugins:
+    shogi:
+      # "A player's piece may promote when it moves through, from, or into any
+      # of the first four ranks on the opponent's side of the board."
+      promotionZone: 4
+      royalType: king
+      promotionMap:
+        pawn: gold
+        lance: gold
+        knight: gold
+        silver: gold
+        rook: dragon_king
+        bishop: dragon_horse
+      pieceMoves:
+        # "The King can move to any adjacent hexagon, whether orthogonally or
+        # diagonally adjacent. This gives it up to 12 spaces."
+        king: { type: rider, dirs: all, maxSteps: 1 }
+        # "The Rook slides in a straight line across orthogonally adjacent
+        # hexagons ... left, right, left forward, right forward, left backward,
+        # and right backward."
+        rook: { type: rider, dirs: orthogonal }
+        # "The Bishop slides in a straight line across diagonally adjacent
+        # squares ... it may move up or down in addition to the four directions
+        # a Bishop can move in Chess or Shogi."
+        bishop: { type: rider, dirs: diagonal }
+        # "The Dragon King is a promoted Rook. It can move one space diagonally
+        # or move as a Rook."
+        dragon_king:
+          type: compose
+          parts:
+            - { type: rider, dirs: orthogonal }
+            - { type: rider, dirs: diagonal, maxSteps: 1 }
+        # "A Dragon Horse is a promoted Bishop. It can move one space
+        # orthogonally or move as a Bishop."
+        dragon_horse:
+          type: compose
+          parts:
+            - { type: rider, dirs: diagonal }
+            - { type: rider, dirs: orthogonal, maxSteps: 1 }
+        # "one space in any orthogonal direction or one space in any diagonally
+        # forward direction ... up to nine spaces".
+        gold:
+          type: leaper
+          offsets: [{ q: 1, r: 0 }, { q: 1, r: -1 }, { q: 0, r: -1 }, { q: -1, r: 0 }, { q: -1, r: 1 }, { q: 0, r: 1 }, { q: 2, r: -1 }, { q: 1, r: -2 }, { q: -1, r: -1 }]
+          directional: true
+        # "one space in any diagonal direction or one space in any orthogonally
+        # forward direction ... up to eight spaces".
+        silver:
+          type: leaper
+          offsets: [{ q: 2, r: -1 }, { q: 1, r: -2 }, { q: -1, r: -1 }, { q: -2, r: 1 }, { q: -1, r: 2 }, { q: 1, r: 1 }, { q: 1, r: -1 }, { q: 0, r: -1 }]
+          directional: true
+        # "The Lance slides in a straight line orthogonally forward ... this
+        # gives a Lance two directions it can move in."
+        lance:
+          type: rider
+          dirs: [{ q: 1, r: -1 }, { q: 0, r: -1 }]
+          directional: true
+        # "it moves two spaces in the same orthogonally forward direction then
+        # turns 60 degrees left or right and moves one more space ... a Knight
+        # can cover up to four different spaces."
+        knight:
+          type: leaper
+          offsets: [{ q: 3, r: -2 }, { q: 2, r: -3 }, { q: 1, r: -3 }, { q: -1, r: -2 }]
+          directional: true
+        # "A Pawn moves and captures one space orthogonally forward ... this
+        # gives it two different spaces it can move to."
+        pawn:
+          type: leaper
+          offsets: [{ q: 1, r: -1 }, { q: 0, r: -1 }]
+          directional: true
   render:
     cellSize: 22
     cellColor: tricolor
@@ -42,7 +112,7 @@ engine:
   pieces:
     set: kahu-shogi-international
   players: [sente, gote]
-  setup: "-5,5:L,-4,5:N,-3,5:G,-2,5:G,-1,5:N,0,5:L,-4,4:R,-3,4:S,-2,4:K,-1,4:S,0,4:B,-5,2:P,-4,2:P,-3,2:P,-2,2:P,-1,2:P,0,2:P,1,2:P,2,2:P,3,2:P,5,-5:l,4,-5:n,3,-5:g,2,-5:g,1,-5:n,0,-5:l,4,-4:r,3,-4:s,2,-4:k,1,-4:s,0,-4:b,5,-2:p,4,-2:p,3,-2:p,2,-2:p,1,-2:p,0,-2:p,-1,-2:p,-2,-2:p,-3,-2:p"
+  setup: "-5,5:L,-4,5:N,-3,5:G,-2,5:G,-1,5:N,0,5:L,-4,4:R,-3,4:S,-2,4:K,-1,4:S,0,4:B,-5,2:P,-4,2:P,-3,2:P,-2,2:P,-1,2:P,0,2:P,1,2:P,2,2:P,3,2:P,5,-5:l,4,-5:n,3,-5:g,2,-5:g,1,-5:n,0,-5:l,4,-4:b,3,-4:s,2,-4:k,1,-4:s,0,-4:r,5,-2:p,4,-2:p,3,-2:p,2,-2:p,1,-2:p,0,-2:p,-1,-2:p,-2,-2:p,-3,-2:p"
 published: true
 ---
 
