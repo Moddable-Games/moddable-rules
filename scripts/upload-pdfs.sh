@@ -108,5 +108,10 @@ fi
 cd "$STAGING"
 find . -name "*.pdf" -print0 | xargs -0 -n 50 gh release upload "$TAG" --repo "$REPO" --clobber
 
+# The record goes up with them, and separately: it is not a .pdf, so the find
+# above never saw it and the release carried a source record that no ordinary
+# upload ever refreshed.
+gh release upload "$TAG" --repo "$REPO" --clobber "$STAGING/release-manifest.json"
+
 rm -rf "$STAGING"
 echo "Done: $count PDFs uploaded to https://github.com/$REPO/releases/tag/$TAG"

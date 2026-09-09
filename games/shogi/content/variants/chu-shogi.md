@@ -7,6 +7,11 @@ parent: shogi
 win: "Capture all opponent royal pieces (King and any Prince)"
 special: "Historical Japanese chess, dominant for centuries before modern Shogi. 46 pieces of 21 types per side on a 12×12 board. No drops. Features the powerful Lion (double-move, can capture twice) with special trading restrictions. Optional promotion to predetermined promoted forms in the far 4 ranks."
 playable: true
+approximations:
+  - feature: "Lion-trading immunity"
+    source: "Wikipedia gives two rules restricting the capture of a Lion: a Lion may not capture a non-adjacent enemy Lion when it could then be recaptured, unless it takes something substantial alongside it; and a non-Lion may not capture a Lion when a Lion was captured by a non-Lion on another square in the immediately preceding move."
+    engine: "Lions may be captured under the ordinary rules. All three of the Lion's own powers - the jump, the two-step double capture, and igui and jitto - are played."
+    blocker: "Both rules ask whether a capture could be answered, which needs recapture analysis one ply beyond legality, and the second needs the previous move retained as game state. Neither exists yet."
 engine:
   topology:
     type: grid
@@ -130,9 +135,18 @@ engine:
             - type: rider
               dirs: diagonal
               maxSteps: 1
+        # "NAD[aK]" - Wikipedia's own notation for it. The jump and the area
+        # move are different powers, not two spellings of one: the Lion "can
+        # jump anywhere that it could step to on an empty board", bypassing
+        # whatever stands between, OR "take a step in any direction up to twice
+        # per turn ... continue after a capture on the first step, potentially
+        # capturing two pieces". Returning on the second step gives igui, a
+        # capture without moving, and jitto, a pass.
+        #
+        # It was a flat 24-square leaper until 2026-09-09, which had the right
+        # reach and none of the rest.
         lion:
-          type: leaper
-          offsets: [[-2,-2],[-2,-1],[-2,0],[-2,1],[-2,2],[-1,-2],[-1,-1],[-1,0],[-1,1],[-1,2],[0,-2],[0,-1],[0,1],[0,2],[1,-2],[1,-1],[1,0],[1,1],[1,2],[2,-2],[2,-1],[2,0],[2,1],[2,2]]
+          betza: NAD[aK]
         queen:
           type: rider
           dirs: all

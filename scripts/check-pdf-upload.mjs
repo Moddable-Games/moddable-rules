@@ -25,9 +25,11 @@ const listed = execFileSync('node', [resolve(ROOT, 'scripts/lib/pdf-assets.mjs')
   .trim().split('\n').filter(Boolean).length
 
 let staged = 0
+let recorded = false
 try {
   const out = execFileSync(resolve(ROOT, 'scripts/upload-pdfs.sh'), ['--dry-run', GAME], { encoding: 'utf8' })
   staged = Number((out.match(/Staged (\d+) PDFs/) || [])[1] || 0)
+  recorded = /Release manifest:/.test(out)
 } catch (err) {
   console.error(`upload-pdfs.sh --dry-run ${GAME} failed:\n${err.stdout || ''}${err.stderr || ''}`)
   process.exit(1)
@@ -35,6 +37,14 @@ try {
 
 if (listed === 0) {
   console.error(`pdf-assets.mjs lists no PDFs for ${GAME} — run npm run pdf first`)
+  process.exit(1)
+}
+// The record of what content the PDFs were built from goes up beside them. It
+// is not a .pdf, so the uploader's `find . -name "*.pdf"` did not see it, and
+// the release carried a source record that no ordinary upload ever refreshed.
+if (!recorded) {
+  console.error('The uploader staged no release-manifest.json, so the published PDFs')
+  console.error('would carry no record of the content they were built from.')
   process.exit(1)
 }
 if (staged !== listed) {
