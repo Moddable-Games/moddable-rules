@@ -54,6 +54,12 @@ jobs:
       - name: Verify the built PDFs match the committed hashes
         run: node scripts/check-pdf-freshness.mjs
 
+      # The uploader spent two days staging nothing and exiting 0, and this
+      # job reported success on every run. Ask it what it would stage before
+      # letting it talk to the release.
+      - name: Verify the uploader still stages files
+        run: node scripts/check-pdf-upload.mjs
+
       - name: Upload to the pdfs release
         run: bash scripts/upload-pdfs.sh
         env:
