@@ -7,6 +7,7 @@
 #   ./scripts/upload-pdfs.sh chess        one game
 #   ./scripts/upload-pdfs.sh chess shogi  several
 #   ./scripts/upload-pdfs.sh --dry-run go  stage and report, upload nothing
+#   ./scripts/upload-pdfs.sh --record      write the source record only, no PDFs
 #
 # A release asset is replaced individually, so re-publishing one changed
 # rulebook does not need all 582 files and 168MB to go up with it.
@@ -29,9 +30,14 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 # check-pdf-upload.mjs uses it to prove the staging loop still reads anything
 # at all.
 DRY_RUN=0
+RECORD_ONLY=0
 ARGS=()
 for arg in "$@"; do
-  if [ "$arg" = "--dry-run" ]; then DRY_RUN=1; else ARGS+=("$arg"); fi
+  case "$arg" in
+    --dry-run) DRY_RUN=1 ;;
+    --record)  RECORD_ONLY=1 ;;
+    *)         ARGS+=("$arg") ;;
+  esac
 done
 set -- ${ARGS[@]+"${ARGS[@]}"}
 
@@ -57,6 +63,17 @@ fi
 # the release is stale must agree with the uploader about which file is which,
 # or it reports drift that is only a difference of opinion about names.
 rm -rf "$STAGING" && mkdir -p "$STAGING"
+
+# --record republishes only the source record, for when the PDFs on the release
+# have been verified as current but predate the record itself.
+if [ "$RECORD_ONLY" -eq 1 ]; then
+  node "$ROOT/scripts/build-release-manifest.mjs" "$STAGING/release-manifest.json" "$@"
+  gh release upload "$TAG" --repo "$REPO" --clobber "$STAGING/release-manifest.json"
+  rm -rf "$STAGING"
+  echo "Done: source record updated on https://github.com/$REPO/releases/tag/$TAG"
+  exit 0
+fi
+
 count=0
 while IFS=$'\t' read -r pdf asset_name; do
   [ -f "$pdf" ] || continue
@@ -71,6 +88,12 @@ if [ "$count" -eq 0 ]; then
   rm -rf "$STAGING"
   exit 1
 fi
+
+# Beside the PDFs goes the record of what content they were built from. Two
+# producers now build these - this machine and the runner - and their bytes
+# differ for identical text, so the release check asks whether the published
+# PDF came from the current source rather than whether it matches local bytes.
+node "$ROOT/scripts/build-release-manifest.mjs" "$STAGING/release-manifest.json" "$@"
 
 echo "Staged $count PDFs for upload${*:+ (games: $*)}"
 
