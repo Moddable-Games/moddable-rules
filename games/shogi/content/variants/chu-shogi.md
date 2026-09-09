@@ -157,20 +157,12 @@ engine:
           type: leaper
           offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,-1],[1,1]]
           directional: true
+        # promotes to the side mover: WrlR
         promoted_copper:
-          type: compose
-          parts:
-            - type: rider
-              dirs: diagonal
-            - type: rider
-              dirs: [[0,-1],[0,1]]
+          betza: WrlR
+        # promotes to the bishop: B
         promoted_leopard:
-          type: compose
-          parts:
-            - type: rider
-              dirs: diagonal
-            - type: rider
-              dirs: [[-1,0],[1,0]]
+          betza: B
         promoted_lance:
           type: compose
           parts:
@@ -187,38 +179,36 @@ engine:
             - type: rider
               dirs: [[1,-1],[1,1]]
               directional: true
+        # promotes to the flying stag: fbRK
         promoted_blind_tiger:
-          type: rider
-          dirs: all
-          maxSteps: 1
+          betza: fbRK
+        # The soaring eagle and horned falcon were absent, so the dragon
+        # king and dragon horse promoted to nothing. Both carry a limited
+        # lion power forward, which is what the bracketed leg says: two
+        # squares along one line, capturing on each.
+        promoted_dragon_king:
+          betza: RbBf[avF]fA
+        promoted_dragon_horse:
+          betza: BrlbRf[avW]fD
+        # promotes to the lion: NAD[aK]
         promoted_kirin:
-          type: rider
-          dirs: all
+          betza: NAD[aK]
         promoted_phoenix:
           type: rider
           dirs: all
+        # promotes to the free boar: BrlR
         promoted_side_mover:
-          type: compose
-          parts:
-            - type: rider
-              dirs: diagonal
-            - type: rider
-              dirs: [[-1,0],[1,0]]
+          betza: BrlR
+        # promotes to the flying ox: BfbR
         promoted_vertical_mover:
-          type: compose
-          parts:
-            - type: rider
-              dirs: diagonal
-            - type: rider
-              dirs: [[0,-1],[0,1]]
+          betza: BfbR
         promoted_pawn:
           type: leaper
           offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,0]]
           directional: true
+        # promotes to the drunk elephant: FfrlW
         promoted_go_between:
-          type: leaper
-          offsets: [[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,0]]
-          directional: true
+          betza: FfrlW
         promoted_elephant:
           type: rider
           dirs: all
@@ -309,17 +299,17 @@ King, Lion, and Queen do not promote.
 | Pawn | Gold General | WfF |
 | Gold General | Rook | R |
 | Rook | Dragon King | RF |
-| Dragon King | Soaring Eagle | RbBfFfA + limited Lion power fwd |
+| Dragon King | Soaring Eagle | RbBf[avF]fA |
 | Silver General | Vertical Mover | vRsW |
 | Vertical Mover | Flying Ox | BvR |
 | Copper General | Side Mover | sRvW |
 | Side Mover | Free Boar | BsR |
 | Ferocious Leopard | Bishop | B |
 | Bishop | Dragon Horse | BW |
-| Dragon Horse | Horned Falcon | BbsRfWfD + limited Lion power fwd |
+| Dragon Horse | Horned Falcon | BrlbRf[avW]fD |
 | Lance | White Horse | vRfB |
 | Reverse Chariot | Whale | vRbB |
-| Blind Tiger | Flying Stag | FbWfsW |
+| Blind Tiger | Flying Stag | fbRK |
 | Drunk Elephant | **Prince** (royal) | K |
 | Go Between | Elephant (= Drunk Elephant) | FfsW |
 | Phoenix | Queen | Q |
