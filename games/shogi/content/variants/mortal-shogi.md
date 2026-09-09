@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Mortal Shogi
 slug: mortal-shogi
 board: "9×9"
@@ -18,7 +19,6 @@ verified:
     - "The demotion chain quoted in some places online is KAMIKAZE Mortal Shogi's, a different variant by the same author, and it terminates in a 'Kamikaze' piece that does not exist here. It must not be used as this variant's chain."
   unverified:
     - "Whether a Knight is forced to promote on the second-to-last rank as well as the last. The source states only 'upon reaching the last rank, it must promote', while standard Shogi forces it on both, and a Knight on the second-to-last rank has no legal move. The tables below say both ranks; the source says one."
-unsupported: "No longer blocked on content. The source page was unreachable and is not: everything here is confirmed against it. What remains is engine work - capture must change a piece's TYPE on the way into hand, one rung down a fixed ranking with the bottom rung leaving the game, and promotion offers a choice of higher-ranking pieces rather than a fixed promoted face."
 engine:
   topology:
     type: grid
@@ -26,6 +26,33 @@ engine:
     cols: 9
   players: [sente, gote]
   setup: "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL"
+  plugins:
+    shogi:
+      promotionZone: 3
+      # "The standard Shogi promoted forms for Pawn, Knight, Lance, and Silver
+      # (Tokin, etc.) are not used"; a piece promotes to a higher-ranking piece
+      # instead, and where the source lists several the mover chooses.
+      promotionMap:
+        pawn: [knight, lance, silver, gold]
+        knight: [lance, silver, gold]
+        lance: [silver, gold]
+        silver: [gold]
+        bishop: [dragon_horse]
+        rook: [dragon_king]
+      # The ranking every captured piece descends by one rung, whichever face it
+      # was wearing. This is not the inverse of the promotion table above: a
+      # captured bishop becomes a gold general, which it could never promote
+      # from. The pawn is "removed from the game permanently".
+      demotionMap:
+        dragon_king: dragon_horse
+        dragon_horse: rook
+        rook: bishop
+        bishop: gold
+        gold: silver
+        silver: lance
+        lance: knight
+        knight: pawn
+        pawn: removed
 ---
 
 ## Mortal Shogi
