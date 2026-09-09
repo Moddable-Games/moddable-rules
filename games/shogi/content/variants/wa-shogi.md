@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Wa Shogi"
 slug: wa-shogi
 board: "11×11"
@@ -11,12 +12,10 @@ verified:
   method: "Desktop web research. Statements here are traceable to the sources below; anything that could not be confirmed is listed under unverified and must not be filled in from memory."
   sources:
     - "https://en.wikipedia.org/wiki/Wa_shogi"
+    - "https://en.wikipedia.org/w/index.php?title=Wa_shogi&action=raw - the article gives every piece's movement as prose AND a parenthesised Betza string, e.g. the running rabbit's (fRFbW). The claim that it was diagram-only was wrong; each of the seventeen types below was compared against it on 2026-09-09 and every one agrees, allowing for Betza's redundant spellings - the source writes the tenacious falcon fbRBW where this table writes BvRsW, and the W steps it adds forward and backward are already covered by the fbR."
   unverified:
-    - "THE MOVEMENT OF ALL 17 PIECE TYPES. Wikipedia gives them only as diagram images and there is no text description in the article; the chessvariants page returned 403. This is a hard blocker: nobody can implement Wa Shogi without a human reading the diagrams. Further web searching will not resolve it."
-    - "Running Rabbit's promotion target."
-    - "Whether the drop version uses standard shogi drop restrictions."
-    - "Whether the crane king is subject to check, or only to bare capture."
-unsupported: "Blocked on content, not capability. 11x11, 27 pieces a side across 17 types, and the full starting layout and promotion list ARE documented and recorded below - but every piece's movement exists only as an image. It is played either with or without drops, so it is two rulesets over one piece set; the drop version implies demotion on capture. Won by capturing the opponent's Crane King, not by checkmate. Promotion zone is the far three ranks and is optional."
+    - "Whether the drop version uses standard shogi drop restrictions. The engine plays the historical drop-free form."
+    - "Whether the crane king is subject to check, or only to bare capture. The engine treats it as bare capture, which is what the article states."
 engine:
   topology:
     type: grid
@@ -26,6 +25,79 @@ engine:
   setup: "[lh][cm][so][fc][vs][ck][vw][fg][sc][bd][oc]/1[ce]3[sw]3[ff]1/[sp][sp][sp][rr][sp][sp][sp][tf][sp][sp][sp]/3[sp]3[sp]3/11/11/11/3[SP]3[SP]3/[SP][SP][SP][TF][SP][SP][SP][RR][SP][SP][SP]/1[FF]3[SW]3[CE]1/[OC][BD][SC][FG][VW][CK][VS][FC][SO][CM][LH]"
   render:
     cellSize: 30
+  vocabulary:
+    liberated_horse: { symbols: { "0": LH, "1": lh } }
+    climbing_monkey: { symbols: { "0": CM, "1": cm } }
+    swooping_owl: { symbols: { "0": SO, "1": so } }
+    flying_cock: { symbols: { "0": FC, "1": fc } }
+    violent_stag: { symbols: { "0": VS, "1": vs } }
+    crane_king: { symbols: { "0": CK, "1": ck } }
+    violent_wolf: { symbols: { "0": VW, "1": vw } }
+    flying_goose: { symbols: { "0": FG, "1": fg } }
+    strutting_crow: { symbols: { "0": SC, "1": sc } }
+    blind_dog: { symbols: { "0": BD, "1": bd } }
+    oxcart: { symbols: { "0": OC, "1": oc } }
+    cloud_eagle: { symbols: { "0": CE, "1": ce } }
+    swallows_wings: { symbols: { "0": SW, "1": sw } }
+    flying_falcon: { symbols: { "0": FF, "1": ff } }
+    sparrow_pawn: { symbols: { "0": SP, "1": sp } }
+    running_rabbit: { symbols: { "0": RR, "1": rr } }
+    treacherous_fox: { symbols: { "0": TF, "1": tf } }
+    golden_bird: { symbols: { "0": GB, "1": gb } }
+    tenacious_falcon: { symbols: { "0": TN, "1": tn } }
+    gliding_swallow: { symbols: { "0": GS, "1": gs } }
+    bears_eyes: { symbols: { "0": BE, "1": be } }
+    roaming_boar: { symbols: { "0": RB, "1": rb } }
+    raiding_falcon: { symbols: { "0": RF, "1": rf } }
+    heavenly_horse: { symbols: { "0": HH, "1": hh } }
+    plodding_ox: { symbols: { "0": PO, "1": po } }
+  plugins:
+    shogi:
+      drops: false
+      promotionZone: 3
+      royalType: crane_king
+      winCondition: capture
+      promotionMap:
+        sparrow_pawn: golden_bird
+        running_rabbit: treacherous_fox
+        flying_falcon: tenacious_falcon
+        swallows_wings: gliding_swallow
+        violent_wolf: bears_eyes
+        violent_stag: roaming_boar
+        flying_goose: swallows_wings
+        climbing_monkey: violent_stag
+        blind_dog: violent_wolf
+        flying_cock: raiding_falcon
+        liberated_horse: heavenly_horse
+        oxcart: plodding_ox
+        strutting_crow: flying_falcon
+        swooping_owl: cloud_eagle
+      pieceMoves:
+        liberated_horse: { betza: fRbW2 }
+        climbing_monkey: { betza: fFvW }
+        swooping_owl: { betza: fWbF }
+        flying_cock: { betza: fFsW }
+        violent_stag: { betza: FfW }
+        crane_king: { betza: K }
+        violent_wolf: { betza: WfF }
+        flying_goose: { betza: fFvW }
+        strutting_crow: { betza: fWbF }
+        blind_dog: { betza: fFbsW }
+        oxcart: { betza: fR }
+        cloud_eagle: { betza: vRsWfF3bF }
+        swallows_wings: { betza: sRvW }
+        flying_falcon: { betza: BfW }
+        sparrow_pawn: { betza: fW }
+        running_rabbit: { betza: FfRbW }
+        treacherous_fox: { betza: FAvWvD }
+        golden_bird: { betza: WfF }
+        tenacious_falcon: { betza: BvRsW }
+        gliding_swallow: { betza: R }
+        bears_eyes: { betza: K }
+        roaming_boar: { betza: FfsW }
+        raiding_falcon: { betza: vRfFsW }
+        heavenly_horse: { betza: vN }
+        plodding_ox: { betza: K }
   pieces:
     set: mce-shogi-fairy
 ---
