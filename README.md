@@ -222,6 +222,11 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-09
+- The PDF uploader had been publishing nothing for two days. It read its file listing from `$RULES_ROOT`, which nothing sets; under `set -u` that failed inside a process substitution, so it killed only the subshell, the loop read no lines, and the script printed "Nothing uploaded" and exited 0. The publish-on-push workflow reported success on every run while the release stood still. It derives the repo root from its own location now, and staging nothing is an error rather than a quiet success
+- `check-pdf-upload.mjs` asks the uploader, in a new `--dry-run` mode, whether it still stages what `pdf-assets.mjs` lists. It fails when the old bug is put back
+- Rengo and Yang Qi PDFs rebuilt after both variants became playable, and the go and xiangqi library PDFs that bind them; 28 assets replaced on the release rather than all 582
+
 #### 2026-09-07 (later)
 - Blind Chess was a Xiangqi game filed under chess, on a board rotated ninety degrees from the real one. Banqi is played with a Xiangqi set on half a Xiangqi board, 8 files by 4 ranks; our entry declared 4 files by 8 ranks and said so in its prose. It is `xiangqi/variants/banqi` now, the right way round, and the old URL redirects
 - Its 32 pieces were rendering as 32 copies of one black chess piece, because the setup wrote `?` for a face-down piece and no schema knows that token, so every one of them fell through to a fallback glyph. The set has a face-down disc now - a blank back, which is what the game is about - and the board shows 32 of them

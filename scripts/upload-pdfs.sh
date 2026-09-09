@@ -6,6 +6,7 @@
 #   ./scripts/upload-pdfs.sh              every game
 #   ./scripts/upload-pdfs.sh chess        one game
 #   ./scripts/upload-pdfs.sh chess shogi  several
+#   ./scripts/upload-pdfs.sh --dry-run go  stage and report, upload nothing
 #
 # A release asset is replaced individually, so re-publishing one changed
 # rulebook does not need all 582 files and 168MB to go up with it.
@@ -17,6 +18,23 @@
 
 set -euo pipefail
 
+# Where the repo is, asked of this script's own location rather than an
+# environment variable. $RULES_ROOT was never set by anything, and because the
+# failure happened inside a process substitution it killed only that subshell:
+# the loop read nothing, count stayed 0, and the script exited 0 saying
+# "nothing uploaded". A no-op that reports success is how a release drifts.
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+# --dry-run stages the files and prints the count, but talks to no release.
+# check-pdf-upload.mjs uses it to prove the staging loop still reads anything
+# at all.
+DRY_RUN=0
+ARGS=()
+for arg in "$@"; do
+  if [ "$arg" = "--dry-run" ]; then DRY_RUN=1; else ARGS+=("$arg"); fi
+done
+set -- ${ARGS[@]+"${ARGS[@]}"}
+
 TAG="pdfs"
 REPO="Moddable-Games/moddable-rules"
 STAGING="/tmp/pdf-upload-staging"
@@ -24,7 +42,7 @@ STAGING="/tmp/pdf-upload-staging"
 echo "Uploading PDFs to release: $TAG"
 
 # Create release if it doesn't exist
-if ! gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
+if [ "$DRY_RUN" -eq 0 ] && ! gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
   echo "Creating release $TAG..."
   gh release create "$TAG" --repo "$REPO" --title "PDF Downloads" \
     --notes "Automatically updated PDF downloads for all rulebooks, variants, and sub-pages. Links from the live site point here." \
@@ -44,15 +62,23 @@ while IFS=$'\t' read -r pdf asset_name; do
   [ -f "$pdf" ] || continue
   cp "$pdf" "$STAGING/$asset_name"
   count=$((count + 1))
-done < <(node "$RULES_ROOT/scripts/lib/pdf-assets.mjs" "$@")
+done < <(node "$ROOT/scripts/lib/pdf-assets.mjs" "$@")
 
+# Nothing staged is a failure, not a quiet success. Either the names given
+# match no game, or the listing itself broke - both need saying out loud.
 if [ "$count" -eq 0 ]; then
-  echo "No PDFs matched${*:+ for: $*}. Nothing uploaded."
+  echo "No PDFs matched${*:+ for: $*}. Nothing uploaded." >&2
   rm -rf "$STAGING"
-  exit 0
+  exit 1
 fi
 
 echo "Staged $count PDFs for upload${*:+ (games: $*)}"
+
+if [ "$DRY_RUN" -eq 1 ]; then
+  rm -rf "$STAGING"
+  echo "Dry run: nothing uploaded."
+  exit 0
+fi
 
 # Upload all at once (gh release upload accepts multiple files)
 # Split into batches of 50 to avoid argument length limits
