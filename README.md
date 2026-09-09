@@ -225,6 +225,7 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 #### 2026-09-09
 - The PDF uploader had been publishing nothing for two days. It read its file listing from `$RULES_ROOT`, which nothing sets; under `set -u` that failed inside a process substitution, so it killed only the subshell, the loop read no lines, and the script printed "Nothing uploaded" and exited 0. The publish-on-push workflow reported success on every run while the release stood still. It derives the repo root from its own location now, and staging nothing is an error rather than a quiet success
 - `check-pdf-upload.mjs` asks the uploader, in a new `--dry-run` mode, whether it still stages what `pdf-assets.mjs` lists. It fails when the old bug is put back
+- The same workflow had never rendered a page either: `js/pdf.mjs` launched Chrome from one hardcoded macOS path, so it died on the Linux runner every time. It looks through the usual locations now, honours `CHROME_PATH`, and says where it looked when it finds nothing
 - Rengo and Yang Qi PDFs rebuilt after both variants became playable, and the go and xiangqi library PDFs that bind them; 28 assets replaced on the release rather than all 582
 
 #### 2026-09-07 (later)

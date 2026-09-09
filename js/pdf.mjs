@@ -176,8 +176,40 @@ function getSections(slug, meta, gameDir) {
 }
 
 // --- Main ---
+
+// Where Chrome is. This was one hardcoded macOS path, which meant the
+// publish-on-push workflow died on the Linux runner before it rendered a
+// single page - the automated PDF publish had never once succeeded. Ask the
+// filesystem instead, and let CHROME_PATH override for anything unusual.
+function findChrome() {
+  const candidates = [
+    process.env.CHROME_PATH,
+    process.env.PUPPETEER_EXECUTABLE_PATH,
+    '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+    '/Applications/Chromium.app/Contents/MacOS/Chromium',
+    '/usr/bin/google-chrome',
+    '/usr/bin/google-chrome-stable',
+    '/usr/bin/chromium',
+    '/usr/bin/chromium-browser',
+  ].filter(Boolean);
+
+  for (const path of candidates) {
+    if (existsSync(path)) return path;
+  }
+  // Last resort: the browser puppeteer downloaded for itself, if it did.
+  try {
+    const bundled = puppeteer.executablePath();
+    if (bundled && existsSync(bundled)) return bundled;
+  } catch { /* puppeteer-core has none, which is the normal case here */ }
+  throw new Error(
+    `No Chrome found. Looked in:\n  ${candidates.join('\n  ')}\n` +
+    `Set CHROME_PATH to the browser to render with.`
+  );
+}
+
 const browser = await puppeteer.launch({
-  executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+  executablePath: findChrome(),
+  args: ['--no-sandbox', '--disable-dev-shm-usage'],
 });
 
 const slugs = getGameSlugs();
