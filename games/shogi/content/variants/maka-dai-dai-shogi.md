@@ -91,12 +91,21 @@ Only Sente's side is given; Gote's setup is Sente's rotated 180°.
 | Position | Piece | Movement | Promotes to |
 |---|---|---|---|
 | b3, r3 | Old Rat | Leaps 2 forward diagonally or 2 backward orthogonally | Bat (fRbB) |
-| d3, p3 | Angry Boar | Steps 1 sideways | Free Boar (BsR) |
+| d3, p3 | Angry Boar | Steps 1 in any of the four orthogonal directions (W) | Free Boar (BrlR) |
 | f3, n3 | Blind Bear | Steps 1 diagonally; slides backward orthogonally | Free Bear |
 | h3, l3 | Evil Wolf | Steps 1 forward diagonally or 1 forward orthogonally sideways | Free |
 | i3 | Kirin | Steps 1 diagonally; leaps 2 orthogonally | Great Dragon (sRvW²F³) |
 | j3 | Lion | Lion power (up to 2 King moves per turn; may capture twice; may pass) | Furious Fiend (Lion + Lion Dog) |
 | k3 | Phoenix | Steps 1 orthogonally; leaps 2 diagonally | Golden Bird (vRsW²F³) |
+
+*The Angry Boar was recorded here as "Steps 1 sideways". The source is explicit:
+"The angry boar can move one square in one of the four orthogonal directions. (W)".
+Corrected 2026-09-09 by cross-checking this table against Wikipedia's, which
+agreed on every other comparable piece.*
+
+*The Free Boar differs between manuscripts: the SZ and SSZ give it the diagonals
+plus orthogonally sideways (BrlR), while the SRZ gives it ranging moves forward,
+orthogonal and diagonal (fQ). BrlR is recorded above.*
 
 **Rank 4:**
 
