@@ -80,7 +80,6 @@ unsupported:
   maka-dai-dai-shogi: "17x17. The piece table in the variant file is marked for re-verification against the raw wikitext and has not been checked, so the movement it declares is not yet trustworthy."
   tai-shogi: "25x25 with 93 piece codes. Same unverified piece table as maka-dai-dai."
   taikyoku-shogi: "36x36 with 208 piece types. The movement table has never been transcribed."
-  tenjiku-shogi: "16x16. Carries a complete Betza table in the variant file and is the next of the large boards to be made playable."
   sankaku-shogi: "A triangular board. Triangular cell geometry is not modelled."
 ---
 
