@@ -4,8 +4,22 @@ slug: yang-qi
 board: 9×10
 players: 2
 parent: xiangqi
+playable: true
 win: Checkmate the opponent's King
 special: "Western-influenced Xiangqi redesign with FIDE-style pieces plus Vaos (diagonal screen-capture). King may swap with adjacent pieces."
+approximations:
+  - feature: "En passant"
+    source: "En passant applies when a rank-3 Pawn double-advances past a square adjacent to an enemy Pawn on rank 5."
+    engine: "Not implemented. A pawn that runs past an enemy pawn cannot be taken for it."
+    blocker: "Needs the square a pawn skipped over to be remembered until the next move, which this family has no state for."
+  - feature: "Promotion"
+    source: "A Pawn reaching the opponent's last rank promotes to any one of the player's currently captured pieces. If none are available the Pawn cannot advance to the last rank."
+    engine: "Not implemented. A pawn reaching the last rank stays a pawn."
+    blocker: "The choice is what you have LOST, not a fixed list, so it needs captured pieces tracked per player - and the rule that a pawn with nothing to become may not advance at all has no analogue anywhere."
+  - feature: "The King swap"
+    source: "When not in check, the King may swap places with any adjacent friendly piece except a Pawn. This counts as the entire turn."
+    engine: "Not implemented."
+    blocker: "A move that relocates two pieces and belongs to neither of them is an action rather than a move, and this family has no action registry."
 engine:
   topology:
     type: grid
@@ -16,8 +30,49 @@ engine:
     vocabulary:
       V: wV
       v: bV
+  vocabulary:
+    chariot: { symbols: { 0: R, 1: r } }
+    horse: { symbols: { 0: N, 1: n } }
+    elephant: { symbols: { 0: B, 1: b } }
+    general: { symbols: { 0: K, 1: k } }
+    cannon: { symbols: { 0: C, 1: c } }
+    vao: { symbols: { 0: V, 1: v } }
+    soldier: { symbols: { 0: P, 1: p } }
+  plugins:
+    xiangqi:
+      # Yang Qi removes the river and the fortress: no piece is confined and
+      # nothing is blocked by crossing the middle.
+      hasRiver: false
+      flyingGeneralRule: false
+      # Pawns start on two ranks and only the rank-3 ones may advance two.
+      firstMoveRows: [7, 2]
+      pieceMoves:
+        chariot: { type: rider, dirs: orthogonal }
+        # A leaping knight, not the Xiangqi horse that a neighbour can block.
+        horse: { type: leaper, offsets: knight }
+        # The FIDE bishop, not the Xiangqi elephant.
+        elephant: { type: rider, dirs: diagonal }
+        general: { type: rider, dirs: all, maxSteps: 1 }
+        # Pao: slides orthogonally, captures by jumping one screen.
+        cannon:
+          divergent:
+            move: { type: rider, dirs: orthogonal }
+            capture: { type: hopper, dirs: orthogonal, captureSlide: true }
+        # Vao: the same mechanic on the diagonals.
+        vao:
+          divergent:
+            move: { type: rider, dirs: diagonal }
+            capture: { type: hopper, dirs: diagonal, captureSlide: true }
+        # Moves one square forward, captures one square diagonally forward, and
+        # advances two from its starting rank. A FIDE pawn, in other words.
+        soldier:
+          directional: true
+          divergent:
+            move: { type: rider, dirs: [[-1, 0]], maxSteps: 1 }
+            capture: { type: leaper, offsets: [[-1, -1], [-1, 1]] }
+          firstMove: { type: rider, dirs: [[-1, 0]], minSteps: 2, maxSteps: 2 }
   players: [red, black]
-  setup: "rhvakavhr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RHVAKAVHR"
+  setup: "rnbvkvbnr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RNBVKVBNR"
 ---
 
 ## Overview

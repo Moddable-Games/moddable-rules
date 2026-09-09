@@ -968,7 +968,7 @@
       "board": "9×10",
       "win": "Checkmate the opponent's King",
       "special": "Western-influenced Xiangqi redesign with FIDE-style pieces plus Vaos (diagonal screen-capture). King may swap with adjacent pieces.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -985,11 +985,149 @@
             "v": "bV"
           }
         },
+        "vocabulary": {
+          "chariot": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "horse": {
+            "symbols": {
+              "0": "N",
+              "1": "n"
+            }
+          },
+          "elephant": {
+            "symbols": {
+              "0": "B",
+              "1": "b"
+            }
+          },
+          "general": {
+            "symbols": {
+              "0": "K",
+              "1": "k"
+            }
+          },
+          "cannon": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "vao": {
+            "symbols": {
+              "0": "V",
+              "1": "v"
+            }
+          },
+          "soldier": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          }
+        },
+        "plugins": {
+          "xiangqi": {
+            "hasRiver": false,
+            "flyingGeneralRule": false,
+            "firstMoveRows": [
+              7,
+              2
+            ],
+            "pieceMoves": {
+              "chariot": {
+                "type": "rider",
+                "dirs": "orthogonal"
+              },
+              "horse": {
+                "type": "leaper",
+                "offsets": "knight"
+              },
+              "elephant": {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              "general": {
+                "type": "rider",
+                "dirs": "all",
+                "maxSteps": 1
+              },
+              "cannon": {
+                "divergent": {
+                  "move": {
+                    "type": "rider",
+                    "dirs": "orthogonal"
+                  },
+                  "capture": {
+                    "type": "hopper",
+                    "dirs": "orthogonal",
+                    "captureSlide": true
+                  }
+                }
+              },
+              "vao": {
+                "divergent": {
+                  "move": {
+                    "type": "rider",
+                    "dirs": "diagonal"
+                  },
+                  "capture": {
+                    "type": "hopper",
+                    "dirs": "diagonal",
+                    "captureSlide": true
+                  }
+                }
+              },
+              "soldier": {
+                "directional": true,
+                "divergent": {
+                  "move": {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        0
+                      ]
+                    ],
+                    "maxSteps": 1
+                  },
+                  "capture": {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ]
+                    ]
+                  }
+                },
+                "firstMove": {
+                  "type": "rider",
+                  "dirs": [
+                    [
+                      -1,
+                      0
+                    ]
+                  ],
+                  "minSteps": 2,
+                  "maxSteps": 2
+                }
+              }
+            }
+          }
+        },
         "players": [
           "red",
           "black"
         ],
-        "setup": "rhvakavhr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RHVAKAVHR"
+        "setup": "rnbvkvbnr/1c5c1/p1p1p1p1p/1p1p1p1p1/9/9/1P1P1P1P1/P1P1P1P1P/1C5C1/RNBVKVBNR"
       },
       "diagram": {
         "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
@@ -1124,7 +1262,7 @@
         "topology": "grid",
         "svg": "games/xiangqi/diagrams/svg/yang-qi-board.svg",
         "rulesUrl": "xiangqi/variants/yang-qi/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": 2
       }
@@ -1132,7 +1270,7 @@
   },
   "stats": {
     "variantCount": 10,
-    "playable": 6,
+    "playable": 7,
     "withDiagram": 10,
     "topologies": [
       "grid",
