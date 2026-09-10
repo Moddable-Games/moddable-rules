@@ -53,7 +53,6 @@ engine:
     set: mce-fairy-complete
   players: [white, black]
 unsupported:
-  alice: "Plays, but only one of its two boards is drawn. The rules are built: the topology gives the two boards one cell space with a layer coordinate and keeps every ray inside its own plane, and the transfer rule moves a piece to the matching square on the other board after each move and refuses the move when that square is occupied. What is missing is the render - the pieces on the second board are not drawn, so half the position is invisible."
   gygax: "Three stacked 12x8 boards with movement between realms. Multi-board play is not modelled."
   raumschach: "Five stacked 5x5 boards and a Unicorn that slides triagonally. Three-dimensional movement is not modelled."
   spherical-chess: "Ranks and files meet at poles, so the board has no edges and no corners. `wrapCoords` handles cylinder and torus wrapping; a sphere's poles are a different join and are not modelled."

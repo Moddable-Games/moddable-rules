@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Alice Chess
 slug: alice
 board: "Two 8×8 boards (Board A and Board B)"
