@@ -76,7 +76,6 @@ related:
   - chess
   - go
 unsupported:
-  tai-shogi: "25x25 with 93 piece codes. Same unverified piece table as maka-dai-dai."
   taikyoku-shogi: "36x36 with 208 piece types. The movement table has never been transcribed."
   sankaku-shogi: "A triangular board. Triangular cell geometry is not modelled."
 ---

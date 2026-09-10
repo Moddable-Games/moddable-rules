@@ -223,6 +223,9 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-10
+- Tai Shogi plays. 25x25, 177 pieces a side, 93 piece types
+- Its array is now verified against the published one rather than trusted. Joining this file's setup string to Wikipedia's setup table positionally maps 92 codes with **zero occupancy mismatches** - the two agree exactly on which squares hold pieces
+- That comparison found a collision this corpus had made itself: `rc` named both the Reverse Chariot and the Right Chariot, two different pieces with different movement that would have rendered and played as one. The Reverse Chariot is `rv` now
 - Maka-Dai-Dai Shogi plays. 19x19, 96 pieces a side, 50 types on the board and 26 more reachable by promotion
 - Its Edo-era manuscripts disagree about **twenty-two** pieces, and all of it is now written down. A new `disputed:` block records every reading with the manuscript that gives it, what the engine plays, and why. These rulebooks are meant to be the authority someone else can build on, so recording only the reading we chose would make the next person repeat the research
 - The decision rule is stated once rather than argued per piece: where the Edo-era manuscripts disagree, this corpus follows the reading two of the three share, which is also the one the source prints in its main table. Every dissenting reading is kept in full
