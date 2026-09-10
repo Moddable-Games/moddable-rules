@@ -22,6 +22,12 @@ engine:
     - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
     - "8/8/8/8/8/8/8/8"
   notation: alice-algebraic
+  plugins:
+    chess:
+      # "After moving, the piece is transferred to the corresponding square on
+      # the other board. A move is only legal if that square is vacant."
+      transfer:
+        between: layers
 published: true
 ---
 

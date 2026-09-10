@@ -223,6 +223,8 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-10
+- Alice Chess plays, though only one of its two boards is drawn yet. The two boards are one cell space with a layer coordinate, and the topology keeps every ray inside its own plane, so a piece can only move on the board it stands on; crossing is a rule, not geometry. After each move the piece transfers to the matching square on the other board, and the move is refused when that square is occupied
+- A file past the twenty-sixth needs two letters, and the play page was indexing a 26-character alphabet and reading one character back. On Taikyoku Shogi, 36 files wide, every column past `z` was labelled "undefined" and hovering `aa11` reported an empty square while the board plainly drew a piece there
 - Taikyoku Shogi plays. 36x36, 402 pieces a side, 209 piece types - the largest board game in the corpus, and the last shogi variant bar the one needing a triangular topology
 - Its pieces could not be named from the English article, which gives no legend for the abbreviations in its own setup table and whose setup SVG is drawn paths rather than text. The Japanese article carries the whole array in kanji, position by position: joining it to this file's setup maps all 209 codes with **zero occupancy mismatches**, and the English piece tables turn those kanji into names
 - That comparison found two more collisions of our own making: both mountain eagles were `[me]` though the source gives them mirror-opposite moves, and the two howling dogs shared a name. Each pair would have played as a single piece
