@@ -223,6 +223,9 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-10
+- Taikyoku Shogi plays. 36x36, 402 pieces a side, 209 piece types - the largest board game in the corpus, and the last shogi variant bar the one needing a triangular topology
+- Its pieces could not be named from the English article, which gives no legend for the abbreviations in its own setup table and whose setup SVG is drawn paths rather than text. The Japanese article carries the whole array in kanji, position by position: joining it to this file's setup maps all 209 codes with **zero occupancy mismatches**, and the English piece tables turn those kanji into names
+- That comparison found two more collisions of our own making: both mountain eagles were `[me]` though the source gives them mirror-opposite moves, and the two howling dogs shared a name. Each pair would have played as a single piece
 - Tai Shogi plays. 25x25, 177 pieces a side, 93 piece types
 - Its array is now verified against the published one rather than trusted. Joining this file's setup string to Wikipedia's setup table positionally maps 92 codes with **zero occupancy mismatches** - the two agree exactly on which squares hold pieces
 - That comparison found a collision this corpus had made itself: `rc` named both the Reverse Chariot and the Right Chariot, two different pieces with different movement that would have rendered and played as one. The Reverse Chariot is `rv` now

@@ -76,7 +76,6 @@ related:
   - chess
   - go
 unsupported:
-  taikyoku-shogi: "36x36 with 208 piece types. The movement table has never been transcribed."
   sankaku-shogi: "A triangular board. Triangular cell geometry is not modelled."
 ---
 
