@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Maka-Dai-Dai Shogi
 slug: maka-dai-dai-shogi
 board: "19×19"
@@ -17,7 +18,240 @@ verified:
     - "The starting position, which the article gives only as a diagram image."
     - "ENGINE-CRITICAL. 'Pieces on the 4th, 5th, and 6th ranks which promote... promote to Gold' can mean either which piece TYPES promote to gold, identified by where they stand in the initial setup, or a positional trigger fired by promoting while standing on ranks 4 to 6. Context favours the first reading. It is not confirmed, and the two readings give completely different promotion tables. Resolve against a second source before encoding."
     - "Whether a piece that declines promotion keeps the option on a later capture. The phrasing does not say 'first', which suggests no persistent flag is needed, but this could not be confirmed."
-unsupported: "19x19, 96 pieces a side across 50 types, no drops. There are NO promotion zones: promotion is by capture, with pieces on the 4th, 5th and 6th ranks promoting to Gold. Needs lion multi-capture, igui, and hook movers that run orthogonally then turn 90 degrees and continue. The Emperor jumps to any empty square on the board. The strangest rule is contagious promotion: capturing a deva promotes the CAPTURER to Teaching King, and capturing a dark spirit promotes it to Buddhist Spirit - so the promotion target depends on what was taken, not on what took it. Win by capturing the last king, emperor or prince. Piece table on Wikipedia is text plus diagrams."
+disputed:
+  - feature: "Deva"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "f[br]FlW"
+        describes: "It can move one square diagonally backward to the right. (f[br]FlW)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the deva found in the SSZ. However, the SZ has the backward diagonal to the left rather than to the right (f[bl]FlW), while the SRZ shows a step in all four orthogonals and the two left-hand diagonals (W"
+    engine: "f[br]FlW"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Teaching King"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "as described in prose"
+        describes: "The teaching king can move as either a lion dog or as a queen."
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "In the SZ and SSZ, the power of the teaching king is described as 狛犬と奔王をあわせた動き 'the combined movement of a lion-dog and a queen'. Western descriptions claim this, or various variations of this, such as the power of a lion and a vi"
+    engine: "as described in prose"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Dark Spirit"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "f[bl]FrW"
+        describes: "It can move one square diagonally backward to the left. (f[bl]FrW)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the dark spirit in the SSZ. However, the SZ has the backward diagonal to the right rather than to the left (f[br]FrW), and the SRZ has it step in all four orthogonals and the two right-hand diagonals (Wr"
+    engine: "f[bl]FrW"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Buddhist Spirit"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "as described in prose"
+        describes: "The Buddhist spirit can move as a lion or as a queen."
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "In the SZ and SSZ, the power of the Buddhist spirit is described as 獅子と奔王をあわせた動き 'the combined movement of a lion and a queen'."
+    engine: "as described in prose"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Coiled Serpent"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "fbWbF"
+        describes: "The coiled serpent can move one square orthogonally forward or backward; or diagonally backward. (fbWbF)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the coiled serpent in the SZ and SSZ. However, the SRZ omits the backward orthogonal. (fWbF) This may be a copying error, as the free serpent moves directly backward in all three sources."
+    engine: "fbWbF"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Reclining Dragon"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "WbF"
+        describes: "The reclining dragon can move one square in one of the four orthogonal directions or diagonally backward. (WbF)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the reclining dragon found in the SZ and SSZ. However, the SRZ describes it as moving like a silver general (FfW)."
+    engine: "WbF"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Free Dragon"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "RbB"
+        describes: "The free dragon can move any number of squares in any of the four orthogonal directions, or diagonally backward. (RbB)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "In the SZ and SSZ, the free dragon is described as ranging forward and stepping backward, in both cases either orthogonally or diagonally (fQbK); this move was adopted by the TSA. In the SRZ it is described as ranging orthogonally"
+    engine: "RbB"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Old Monkey"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "FbW"
+        describes: "Step: The old monkey can move one square in one of the four diagonal directions or orthogonally backward. (FbW)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the old monkey in the SZ and SSZ. However, the SRZ has the reverse, describing it as moving like a silver general. (FfW)"
+    engine: "FbW"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Mountain Witch"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "BbRfW"
+        describes: "It can step one square directly forward. (BbRfW)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description in the SZ and SSZ. However, the SRZ describes the mountain witch as moving like a bishop (B)."
+    engine: "BbRfW"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Chinese Cock"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "rlbWfF"
+        describes: "The Chinese cock can move one square orthogonally sideways or backward; or diagonally forward. (rlbWfF)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the Chinese cock found in the SZ and SSZ. However, the SRZ describes it moving in any diagonal or directly backwards, but not to the sides. (FbW)"
+    engine: "rlbWfF"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Furious Fiend"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "NADaKafavK"
+        describes: "The furious fiend can move as a lion or as a lion dog. (NADaKafavK)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "獅子に白犬の動きを兼ねたもの」 per the SZ and SSZ. The only advantage this confers is moving to a third square in any one direction. Western sources have it range three squares in addition to the lion's move, but this is based on the same misund"
+    engine: "NADaKafavK"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Free Wolf"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "as described in prose"
+        describes: "The free wolf can move any number of squares orthogonally sideways or forward; or diagonally forward."
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "The SZ says it can move any number of squares in any direction but orthogonally sideways, where it is restricted to move (not jump) up to five squares (BfbRrlR5); the SSZ says that it can move up to five squares orthogonally sidew"
+    engine: "as described in prose"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Blind Bear"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "FbR"
+        describes: "It can move one square in one of the four diagonal directions. (FbR)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the blind bear in the SZ and SSZ. However, the SRZ has a move of one square in all directions (K)."
+    engine: "FbR"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Free Bear"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "BrlR"
+        describes: "The free bear can move any number of free squares in the four diagonal directions or orthogonally sideways. (BrlR)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "The SZ and SSZ also allow a jump to the second square diagonally (BrlRfA), but this is not mentioned in the SRZ, and is quite unusual for a shogi variant. In that case it is not clear if the free bear can clear two pieces (BpBp2Br"
+    engine: "BrlR"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Free Boar"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "BrlR"
+        describes: "The free boar can move any number of free squares in the four diagonal directions or orthogonally sideways. (BrlR)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the free boar in the SZ and SSZ. However, in the SRZ it instead has ranging moves in the forward directions, orthogonal and diagonal. (fQ)"
+    engine: "BrlR"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Old Rat"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "fB2bR2"
+        describes: "The old rat may move one or two squares diagonally forward or orthogonally backward. (fB2bR2)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "The movement of the old rat is not described in SZ or SSZ. The movement given here is its power in dai dai shogi."
+    engine: "fB2bR2"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Lion Dog"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "KavKafavK"
+        describes: "It is not required to take all three steps. (KavKafavK)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "Western sources only let the lion dog range three squares in any direction (Q3), but that makes the teaching king's move (lion dog plus queen) pleonastic."
+    engine: "KavKafavK"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Wrestler"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "B3rlW"
+        describes: "It can move one square orthogonally sideways. (B3rlW)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description in the SZ and SSZ. However, the SRZ says the wrestler may move up to three squares diagonally or one square orthogonally, without restricting the latter to the sides (B3W)."
+    engine: "B3rlW"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "She-Devil"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "R5B2"
+        describes: "It can move up to five squares in one of the four orthogonal directions. (R5B2)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the she-devil in the SZ and SSZ. However, the SRZ does not mention the orthogonal move, only the one-to-two-step diagonal move (B2)."
+    engine: "R5B2"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Donkey"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "WfbD"
+        describes: "It can jump to the second square orthogonally forward or backward. (WfbD)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the donkey in the SZ and SSZ, while the SRZ says 「上下踊り二目、踊らざれば一目、猛牛のごとし」, suggesting that it can jump to the second square 'above or under', otherwise it can move like violent ox does, but only for one s"
+    engine: "WfbD"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Capricorn"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "BmaB"
+        describes: "It may only capture once, and cannot continue after capturing. (BmaB)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "The Edo-era rules appear to say only that the capricorn and hook mover move two times as a bishop (aB) or rook (aR), implying that they may capture twice. There also appears to be no mention of needing to capture in order to move,"
+    engine: "BmaB"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+  - feature: "Side Flier"
+    readings:
+      - source: "Shogi Zushiki and Sho Shogi Zushiki (SZ, SSZ) as reported by en.wikipedia.org/wiki/Maka_dai_dai_shogi"
+        says: "rlRF"
+        describes: "It can move one square in one of the four diagonal directions. (rlRF)"
+      - source: "The other manuscript or Western sources, as reported by the same article"
+        says: "see describes"
+        describes: "This is the description of the side flier found in the SZ and SSZ. However, the SRZ describes the diagonal step only in the forward directions (rlRfF)."
+    engine: "rlRF"
+    because: "Where the Edo-era manuscripts disagree this corpus follows the reading two of the three share, which is also the one the article prints in its main table. The dissenting reading is recorded above in full so that anyone building from these rules can choose it instead."
+approximations:
+  - feature: "Promotion by capture, and promotion to Gold from the middle ranks"
+    source: "There are no promotion zones. A piece promotes when it makes a capture, and pieces standing on the 4th, 5th and 6th ranks promote to Gold General."
+    engine: "No promotion at all: promotionZone is 0, so every piece keeps the movement it starts with. All the promoted forms are declared and reachable the moment the rule is built."
+    blocker: "The plugin offers promotion by zone. Promotion triggered by the act of capturing, and a promotion target that depends on which rank the piece stands on rather than which piece it is, are both new."
+  - feature: "Contagious promotion"
+    source: "Capturing a Deva promotes the CAPTURER to Teaching King, and capturing a Dark Spirit promotes it to Buddhist Spirit - so the promotion target depends on what was taken, not on what took it."
+    engine: "Not played. A captured Deva or Dark Spirit is an ordinary capture."
+    blocker: "Every promotion rule in the plugin is a property of the moving piece. This one is a property of the victim, which nothing expresses yet."
+  - feature: "The Emperor's jump"
+    source: "The emperor can jump to any empty square on the board."
+    engine: "Played, as a universal leaper that may not capture. Its own restrictions - whether it may jump into check, and how the win condition treats it alongside the king and prince - are not separately modelled."
+    blocker: "The article does not state them."
 engine:
   topology:
     type: grid
@@ -27,6 +261,164 @@ engine:
   setup: "[ln][eg][st][tg][ig][cg][sg][gg][ds][ki][dv][gg][sg][cg][ig][tg][st][eg][ln]/[rc]1[ct]1[bm]1[rd][fl][bt][de][bt][fl][co]1[cc]1[ct]1[rc]/1[or]1[ab]1[bb]1[ew][ph][li][kr][ew]1[bb]1[ab]1[or]1/[dy][kn]1[vo]1[fy]1[sd][gd][ld][wr][bv][fy]1[vo]1[kn]1[dy]/[rk][rt][sm][sf][vm][bi][dh][dk][hm][fk][cp][dk][dh][bi][vm][sf][sm][lc][rk]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/5[gb]7[gb]5/19/19/19/19/19/5[GB]7[GB]5/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[RK][LC][SM][SF][VM][BI][DH][DK][CP][FK][HM][DK][DH][BI][VM][SF][SM][RT][RK]/[DY]1[KN]1[VO]1[FY][BV][WR][LD][GD][SD]1[FY]1[VO]1[KN][DY]/1[OR]1[AB]1[BB]1[EW][KR][LI][PH][EW]1[BB]1[AB]1[OR]1/[RC]1[CT]1[CC]1[CO][FL][BT][DE][BT][FL][RD]1[BM]1[CT]1[RC]/[LN][EG][ST][TG][IG][CG][SG][GG][DV][KI][DS][GG][SG][CG][IG][TG][ST][EG][LN]"
   render:
     cellSize: 18
+  vocabulary:
+    lance: { symbols: { "0": LN, "1": ln } }
+    earth_general: { symbols: { "0": EG, "1": eg } }
+    stone_general: { symbols: { "0": ST, "1": st } }
+    tile_general: { symbols: { "0": TG, "1": tg } }
+    iron_general: { symbols: { "0": IG, "1": ig } }
+    copper_general: { symbols: { "0": CG, "1": cg } }
+    silver_general: { symbols: { "0": SG, "1": sg } }
+    gold_general: { symbols: { "0": GG, "1": gg } }
+    deva: { symbols: { "0": DV, "1": dv } }
+    king: { symbols: { "0": KI, "1": ki } }
+    dark_spirit: { symbols: { "0": DS, "1": ds } }
+    reverse_chariot: { symbols: { "0": RC, "1": rc } }
+    cat_sword: { symbols: { "0": CT, "1": ct } }
+    chinese_cock: { symbols: { "0": CC, "1": cc } }
+    coiled_serpent: { symbols: { "0": CO, "1": co } }
+    ferocious_leopard: { symbols: { "0": FL, "1": fl } }
+    blind_tiger: { symbols: { "0": BT, "1": bt } }
+    drunk_elephant: { symbols: { "0": DE, "1": de } }
+    reclining_dragon: { symbols: { "0": RD, "1": rd } }
+    blind_monkey: { symbols: { "0": BM, "1": bm } }
+    old_rat: { symbols: { "0": OR, "1": or } }
+    angry_boar: { symbols: { "0": AB, "1": ab } }
+    blind_bear: { symbols: { "0": BB, "1": bb } }
+    evil_wolf: { symbols: { "0": EW, "1": ew } }
+    kirin: { symbols: { "0": KR, "1": kr } }
+    lion: { symbols: { "0": LI, "1": li } }
+    phoenix: { symbols: { "0": PH, "1": ph } }
+    donkey: { symbols: { "0": DY, "1": dy } }
+    knight: { symbols: { "0": KN, "1": kn } }
+    violent_ox: { symbols: { "0": VO, "1": vo } }
+    flying_dragon: { symbols: { "0": FY, "1": fy } }
+    buddhist_devil: { symbols: { "0": BV, "1": bv } }
+    wrestler: { symbols: { "0": WR, "1": wr } }
+    lion_dog: { symbols: { "0": LD, "1": ld } }
+    guardian_of_the_gods: { symbols: { "0": GD, "1": gd } }
+    she_devil: { symbols: { "0": SD, "1": sd } }
+    rook: { symbols: { "0": RK, "1": rk } }
+    left_chariot: { symbols: { "0": LC, "1": lc } }
+    side_mover: { symbols: { "0": SM, "1": sm } }
+    side_flyer: { symbols: { "0": SF, "1": sf } }
+    vertical_mover: { symbols: { "0": VM, "1": vm } }
+    bishop: { symbols: { "0": BI, "1": bi } }
+    dragon_horse: { symbols: { "0": DH, "1": dh } }
+    dragon_king: { symbols: { "0": DK, "1": dk } }
+    capricorn: { symbols: { "0": CP, "1": cp } }
+    queen: { symbols: { "0": FK, "1": fk } }
+    hook_mover: { symbols: { "0": HM, "1": hm } }
+    right_chariot: { symbols: { "0": RT, "1": rt } }
+    pawn: { symbols: { "0": PW, "1": pw } }
+    go_between: { symbols: { "0": GB, "1": gb } }
+  plugins:
+    shogi:
+      drops: false
+      promotionZone: 0
+      royalType: king
+      promotionMap:
+        king: emperor
+        deva: teaching_king
+        dark_spirit: buddhist_spirit
+        gold_general: free_gold
+        silver_general: free_silver
+        copper_general: free_copper
+        iron_general: free_iron
+        tile_general: free_tile
+        stone_general: free_stone
+        earth_general: free_earth
+        blind_tiger: free_tiger
+        ferocious_leopard: free_leopard
+        coiled_serpent: free_serpent
+        reclining_dragon: free_dragon
+        chinese_cock: wizard_stork
+        cat_sword: free_cat
+        lion: furious_fiend
+        kirin: great_dragon
+        phoenix: golden_bird
+        evil_wolf: free_wolf
+        blind_bear: free_bear
+        angry_boar: free_boar
+        old_rat: bat
+        go_between: free_goer
+      pieceMoves:
+        lance: { betza: "fR" }
+        earth_general: { betza: "fbW" }
+        stone_general: { betza: "fF" }
+        tile_general: { betza: "fFbW" }
+        iron_general: { betza: "fK" }
+        copper_general: { betza: "fbWfF" }
+        silver_general: { betza: "FfW" }
+        gold_general: { betza: "WfF" }
+        deva: { type: leaper, offsets: [[0,-1],[1,1]], directional: true }
+        king: { betza: "K" }
+        dark_spirit: { type: leaper, offsets: [[0,1],[1,-1]], directional: true }
+        reverse_chariot: { betza: "fbR" }
+        cat_sword: { betza: "F" }
+        chinese_cock: { betza: "rlbWfF" }
+        coiled_serpent: { betza: "fbWbF" }
+        ferocious_leopard: { betza: "FfbW" }
+        blind_tiger: { betza: "FrlbW" }
+        drunk_elephant: { betza: "FfrlW" }
+        reclining_dragon: { betza: "WbF" }
+        blind_monkey: { betza: "FbW" }
+        old_rat: { betza: "fB2bR2" }
+        angry_boar: { betza: "W" }
+        blind_bear: { betza: "FbR" }
+        evil_wolf: { betza: "frlK" }
+        kirin: { betza: "FD" }
+        lion: { betza: "NAD[aK]" }
+        phoenix: { betza: "WA" }
+        donkey: { betza: "WfbD" }
+        knight: { betza: "ffN" }
+        violent_ox: { betza: "R2" }
+        flying_dragon: { betza: "B2" }
+        buddhist_devil: { betza: "fB3rlbW" }
+        wrestler: { betza: "B3rlW" }
+        lion_dog: { type: area, dirs: all, steps: 3, sameLine: true }
+        guardian_of_the_gods: { betza: "R3fF" }
+        she_devil: { betza: "R5B2" }
+        rook: { betza: "R" }
+        left_chariot: { betza: "fR[fl][br]BbW" }
+        side_mover: { betza: "rlRW" }
+        side_flyer: { betza: "rlRF" }
+        vertical_mover: { betza: "fbRW" }
+        bishop: { betza: "B" }
+        dragon_horse: { betza: "WB" }
+        dragon_king: { betza: "FR" }
+        capricorn: { betza: "BmaB" }
+        queen: { betza: "Q" }
+        hook_mover: { betza: "RmaR" }
+        right_chariot: { betza: "fR[fr][bl]BbW" }
+        pawn: { betza: "fW" }
+        go_between: { betza: "fbW" }
+        emperor: { type: universal, quiet: true }
+        teaching_king: [{ type: area, dirs: all, steps: 3, sameLine: true }, { type: rider, dirs: all }]
+        buddhist_spirit: [{ betza: "NAD[aK]" }, { type: rider, dirs: all }]
+        free_gold: { betza: "RfB" }
+        free_silver: { betza: "BfR" }
+        free_copper: { betza: "fbRfB" }
+        free_iron: { betza: "fQ" }
+        free_tile: { betza: "fBbR" }
+        free_stone: { betza: "fB" }
+        free_earth: { betza: "fbR" }
+        prince: { betza: "K" }
+        free_tiger: { betza: "BrlbR" }
+        free_leopard: { betza: "BfbR" }
+        free_serpent: { betza: "fbRbB" }
+        free_dragon: { betza: "RbB" }
+        wizard_stork: { betza: "BfRbW" }
+        mountain_witch: { betza: "BbRfW" }
+        free_cat: { betza: "B" }
+        furious_fiend: [{ betza: "NAD[aK]" }, { type: area, dirs: all, steps: 3, sameLine: true }]
+        great_dragon: { betza: "rlRfbR2B3" }
+        golden_bird: { betza: "fbRrlR2B3" }
+        free_wolf: { betza: "BfbRrlR5" }
+        free_bear: { betza: "BrlR" }
+        free_boar: { betza: "BrlR" }
+        bat: { betza: "fRbB" }
+        free_goer: { betza: "fbR" }
   pieces:
     set: mce-shogi-fairy
 ---

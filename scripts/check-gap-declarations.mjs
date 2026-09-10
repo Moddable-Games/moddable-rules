@@ -87,6 +87,65 @@ for (const family of families) {
       errors.push(`${family}/${slug}: approximations must be top-level, not inside engine: (the plugin receives everything under engine: as configuration)`);
     }
   }
+
+  // `disputed:` is for a rule the SOURCES disagree about, as opposed to
+  // `approximations:`, which is for a rule the sources agree about and the
+  // engine plays differently. Maka-Dai-Dai's free boar is BrlR in two Edo-era
+  // manuscripts and fQ in a third; Tenjiku's fire demon burns differently
+  // depending on whose rules you read.
+  //
+  // These rulebooks are meant to be the authority someone else can rely on, so
+  // recording only the reading we play makes the next person repeat the
+  // research. Every reading is written down with the source that gives it, the
+  // engine takes one, and the reason is stated.
+  //
+  // The check that matters is the last one: what the engine plays must be one
+  // of the readings recorded. That is what makes it impossible to quietly play
+  // a rule no source describes - which is how Chu Shogi ended up with six
+  // pieces moving as the wrong piece.
+  for (const [slug, meta] of variants) {
+    const disputed = meta.disputed;
+    if (disputed === undefined) continue;
+    if (!Array.isArray(disputed)) {
+      errors.push(`${family}/${slug}: disputed must be a list`);
+      continue;
+    }
+    if (meta.engine && meta.engine.disputed) {
+      errors.push(`${family}/${slug}: disputed must be top-level, not inside engine: (the plugin receives everything under engine: as configuration)`);
+    }
+    disputed.forEach((entry, i) => {
+      const where = `${family}/${slug}: disputed[${i}]`;
+      for (const [key, min] of [['feature', 3], ['engine', 2], ['because', 20]]) {
+        if (!entry[key] || String(entry[key]).trim().length < min) {
+          errors.push(`${where} needs a "${key}" that says something`);
+        }
+      }
+      const readings = entry.readings;
+      if (!Array.isArray(readings) || readings.length < 2) {
+        errors.push(`${where} needs at least two "readings" - one reading is not a dispute`);
+        return;
+      }
+      readings.forEach((r, j) => {
+        if (!r.source || String(r.source).trim().length < 10) {
+          errors.push(`${where}.readings[${j}] needs a "source" naming who says it`);
+        }
+        if (!r.says || String(r.says).trim().length < 2) {
+          errors.push(`${where}.readings[${j}] needs a "says" - what that source states`);
+        }
+      });
+      // The engine's choice must be one of the readings, or explicitly neither
+      // with the reason carrying the weight.
+      const said = readings.map(r => String(r.says).trim());
+      const chosen = String(entry.engine).trim();
+      if (chosen !== 'neither' && !said.includes(chosen)) {
+        errors.push(
+          `${where}: engine plays "${chosen}", which is not among the readings recorded ` +
+          `(${said.map(x => `"${x}"`).join(', ')}). Record it as a reading, pick one of them, ` +
+          `or say "neither" and explain in "because".`
+        );
+      }
+    });
+  }
 }
 
 // Seven variants are unplayable with no reason recorded, and writing a reason

@@ -222,6 +222,12 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-10
+- Maka-Dai-Dai Shogi plays. 19x19, 96 pieces a side, 50 types on the board and 26 more reachable by promotion
+- Its Edo-era manuscripts disagree about **twenty-two** pieces, and all of it is now written down. A new `disputed:` block records every reading with the manuscript that gives it, what the engine plays, and why. These rulebooks are meant to be the authority someone else can build on, so recording only the reading we chose would make the next person repeat the research
+- The decision rule is stated once rather than argued per piece: where the Edo-era manuscripts disagree, this corpus follows the reading two of the three share, which is also the one the source prints in its main table. Every dissenting reading is kept in full
+- `check-gap-declarations` enforces the shape, and one check in particular: what the engine plays must be one of the readings recorded. It is now impossible to quietly play a rule no source describes
+
 #### 2026-09-09
 - Maka-Dai-Dai Shogi's Angry Boar was recorded as stepping sideways. Its source says "the angry boar can move one square in one of the four orthogonal directions", which is twice the piece. Found by cross-checking this file's own table against Wikipedia's: the two agree on the promotion target of 22 of the 23 pieces named in both, and on the movement shape of 25 of 26, so the one that disagreed was worth looking at
 - Hex Shogi 91 plays. Its record said the starting setup had never been obtained and that per-piece hex movement was unverified; the chessvariants pages carry the full rules in text and answer to a browser User-Agent, and the array is a published image that was read directly. The second player's rook and bishop were the wrong way round: Shogi half-turns its array, so the two rooks sit on opposite sides of a diagram, but this game mirrors across the ranks and the image shows both rooks at the same horizontal position
