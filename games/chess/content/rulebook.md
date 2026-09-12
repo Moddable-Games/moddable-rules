@@ -55,7 +55,7 @@ engine:
 unsupported:
   gygax: "Three stacked 12x8 boards with movement between realms. Multi-board play is not modelled."
   raumschach: "Five stacked 5x5 boards and a Unicorn that slides triagonally. Three-dimensional movement is not modelled."
-  spherical-chess: "Ranks and files meet at poles, so the board has no edges and no corners. `wrapCoords` handles cylinder and torus wrapping; a sphere's poles are a different join and are not modelled."
+  spherical-chess: "The poles are modelled wrongly rather than not at all, which is worse. `wrap: spherical` wraps ranks like a torus and shifts the file by four, so a Rook moving off rank 1 on the a-file arrives at e8 - the far edge - where every source says e1. A pole is a reflection, not a wrap: crossing it keeps the rank and reverses the direction of travel, and `ray` advances by a fixed `dr` that nothing can reverse. The rider limit compounds it, capping a file at 8 squares when a great circle through one holds 16. The transpolar Bishop is separately disputed across four published versions and needs a `disputed:` block before it can be played at all."
   tandem-chess: "Two simultaneous boards, four players in two teams, captured pieces passed to a partner to drop on the other board. Neither the second board nor passing between them is modelled."
   delirious-bughouse: "Tandem chess plus relay capture, dice and a worst-move rule. Blocked on the same two boards as tandem-chess before any of its own mechanics matter."
   stupidhouse: "Tandem chess where a received piece lands on a random empty square rather than a chosen one. Blocked on the same two boards as tandem-chess."
