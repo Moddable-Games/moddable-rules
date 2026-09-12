@@ -1,4 +1,5 @@
 ---
+playable: false
 title: 3-Player Cribbage
 slug: three-player-cribbage
 board: none

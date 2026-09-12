@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Euchre
 slug: euchre
 board: "none"

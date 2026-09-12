@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Block Dominoes
 slug: block
 board: "none"

@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Riichi Mahjong
 slug: riichi
 board: "none"

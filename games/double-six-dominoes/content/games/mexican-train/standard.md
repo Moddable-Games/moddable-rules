@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Mexican Train
 slug: mexican-train
 board: "none"

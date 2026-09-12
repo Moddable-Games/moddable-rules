@@ -36,6 +36,12 @@ engine:
     layout:
       type: fan
   players: [south, north]
+unsupported:
+  _family: "No rules plugin. The 48-card hanafuda deck and the table layout render, and no game is played on them."
+  go-stop: "No plugin. Needs month matching plus the go/stop decision and the conditions that make it a gambling game - shaking, bombs, and scores multiplied against one named opponent."
+  hana-awase: "No plugin. Needs month matching and yaku scoring over captured sets, across a fixed twelve-round structure."
+  koi-koi: "No plugin. Needs matching by month between hand, field and deck, yaku scoring over captured sets, and the koi-koi call itself - continuing a hand to raise the stakes, which is a decision to not end a turn."
+  oicho-kabu: "No plugin. Needs the modulo-ten hand value, a banker seat that passes between players, and wagering against it."
 ---
 
 <div class="section">

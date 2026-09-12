@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Hana-Awase
 slug: hana-awase
 board: "none"

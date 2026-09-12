@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Liar's Dice
 slug: liars-dice
 board: "none"

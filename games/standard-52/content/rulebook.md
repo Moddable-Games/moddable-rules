@@ -43,6 +43,28 @@ related:
   - flower-48
   - mahjong
   - standard-dice
+unsupported:
+  _family: "No rules plugin. Each game declares its deck, table layout and deal in full and nothing consumes any of it: `deal:` is read in one place, produce-layout.js, and only for layout. Every game here also needs private per-seat state (moddable-engine#155) before a hand can be held rather than shown."
+  big2: "No plugin. It declares `plugins: big2` and no such plugin exists - the only big2 in moddable-engine is a fixture defined inside core's own proof test, so one of SPEC's seven proof games is proven by code that exists nowhere else. Needs climbing combinations and poker-hand comparison on top of private hands."
+  blackjack: "No plugin. The dealer is declared as a seat but is not a participant in the sense the player system means - it follows a fixed house rule and makes no choices, the same shape problem as the Kriegspiel referee in moddable-engine#155. Also needs bets, the six-deck continuous shoe it declares, and splitting a hand in two."
+  bridge: "No plugin. Three phases the engine has no model for: a bidding auction that sets a contract, fixed partnerships scoring jointly, and a dummy hand that becomes public and is played by its partner."
+  canasta: "No plugin. Needs melds owned by a partnership, wild cards that substitute within a meld, and a discard pile that freezes and is taken whole - a shared pile with state of its own rather than a stack of cards."
+  crazy-eights: "No plugin. Needs a wild rank whose player names the suit in play, so the legal-move test depends on a declaration made alongside the move rather than on the cards alone."
+  cribbage: "No plugin. Scoring is the game, it happens on a separate peg track, and it runs in three distinct phases: the discard to the crib, the pegging count to 31, and the show. The crib is a fourth hand belonging to the dealer, which is neither a seat's hand nor a community pile."
+  euchre: "No plugin. Needs a trump-making auction over the turned card, and trump that re-ranks the deck as it is named: the Jack of trump and the Jack of the same colour outrank the Ace, so card order is a function of the contract rather than of the deck."
+  four-player-cribbage: "No plugin, and blocked on everything standard Cribbage is. Adds fixed partnerships pegging a combined score on one track."
+  freecell: "No plugin. One seat and nothing hidden from an opponent, so it is blocked on the plugin alone - it needs free cells, ordered stacking on the tableau, and the supermove limit that follows from how many cells are empty."
+  gin-rummy: "No plugin. Needs melds, deadwood counted against the holder, and knocking - ending a hand on a threshold rather than on a terminal position."
+  hearts: "No plugin. Needs trick-taking with a led suit, penalty scoring that inverts the usual goal, the pass between hands, and shooting the moon, which reverses the score for everyone at once."
+  klondike: "No plugin. One seat and no opponent, but the stock, the waste and the face-down tableau cards are hidden from the player - the same per-seat visibility problem seen from one side."
+  poker: "No plugin. Betting is the game: rounds of wagering, a pot, chip stacks and side pots, none of which is a card operation. Hand ranking over two hole cards and five community cards is declared in `deal:` and read by nothing."
+  president: "No plugin. Declares the same missing big2 plugin, and adds the card exchange between the highest and lowest finishers at the start of each hand - a between-hands phase nothing models."
+  rummy: "No plugin. Needs melds laid to the table, laying off onto another player's meld, and a discard pile that can be drawn from."
+  spades: "No plugin. Needs a bid in tricks per seat, partnership scoring against the combined bid, bags accumulating across hands, and the nil bid that scores by taking nothing."
+  spider-solitaire: "No plugin. Declares two decks and ten columns; needs same-suit ordered sequences that lift as a unit, eight foundations that clear a completed suit, and dealing one card to every column at once."
+  three-player-cribbage: "No plugin, and blocked on everything standard Cribbage is. Adds a crib that receives a card dealt straight from the deck, and rotates each hand."
+  war: "No plugin. The only card game here with no decision in it at all, which makes it the cheapest possible proof that the deal, the turn order and the terminal test work - and nothing runs it."
+  whist: "No plugin. Needs trick-taking with a trump suit turned from the deck, and fixed partnerships scoring over the odd tricks."
 ---
 
 <div class="section">

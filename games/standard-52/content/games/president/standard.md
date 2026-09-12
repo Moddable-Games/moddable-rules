@@ -1,4 +1,5 @@
 ---
+playable: false
 title: President
 slug: president
 board: "none"

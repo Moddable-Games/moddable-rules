@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Gin Rummy
 slug: gin-rummy
 board: "none"

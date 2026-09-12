@@ -222,6 +222,11 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-12
+- The gap check walked `content/variants/` only, and component games live in `content/games/<slug>/<variant>.md`. Six families took the `if (!existsSync(dir)) continue` whole, so forty games could neither be reported as unplayable nor be required to declare themselves playable. They were the only games in the corpus outside the check, and they were outside it silently
+- All forty now declare `playable: false` and carry a reason in their family's `unsupported:` map. The reasons say what each game specifically needs rather than repeating one sentence forty times: Skat needs seats made asymmetric by an auction, Schafkopf a partnership nobody may name until the called Ace is played, Riichi the ura-dora nobody sees until the end, Chickenfoot a tableau that changes shape as it is played
+- The identity in both shapes is the frontmatter `slug:`, not the filename. Cribbage is one directory holding three games that call themselves `cribbage`, `three-player-cribbage` and `four-player-cribbage`
+
 #### 2026-09-10
 - Alice Chess plays, though only one of its two boards is drawn yet. The two boards are one cell space with a layer coordinate, and the topology keeps every ray inside its own plane, so a piece can only move on the board it stands on; crossing is a rule, not geometry. After each move the piece transfers to the matching square on the other board, and the move is refused when that square is occupied
 - A file past the twenty-sixth needs two letters, and the play page was indexing a 26-character alphabet and reading one character back. On Taikyoku Shogi, 36 files wide, every column past `z` was labelled "undefined" and hovering `aa11` reported an empty square while the board plainly drew a piece there

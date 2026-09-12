@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Texas Hold'em Poker
 slug: poker
 board: "none"

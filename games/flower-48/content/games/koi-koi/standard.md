@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Koi-Koi
 slug: koi-koi
 board: "none"

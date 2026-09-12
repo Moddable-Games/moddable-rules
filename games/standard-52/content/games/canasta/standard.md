@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Canasta (Classic)
 slug: canasta
 board: "none"

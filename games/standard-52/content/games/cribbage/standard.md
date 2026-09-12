@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Cribbage
 slug: cribbage
 board: "none"

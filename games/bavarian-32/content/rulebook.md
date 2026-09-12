@@ -35,6 +35,10 @@ engine:
     layout:
       type: fan
   players: [south, north, east, west]
+unsupported:
+  _family: "No rules plugin. The 32-card Bavarian deck is declared and shipped, and nothing plays either game on it."
+  schafkopf: "No plugin. The partnership is secret: the seat holding the called Ace is a partner nobody may name, and it becomes public only when that card is played. That is hidden information about who is on whose side, not about which cards are held."
+  skat: "No plugin. Three seats where one plays alone against the other two, decided by an auction in game values, with a two-card skat picked up and discarded. Seats made asymmetric at run time by bidding is a shape nothing models."
 ---
 
 # Bavarian 32-Card Games

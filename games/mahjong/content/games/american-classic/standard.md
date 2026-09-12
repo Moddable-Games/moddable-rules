@@ -1,4 +1,5 @@
 ---
+playable: false
 title: American Mahjong (Classic)
 slug: american-classic
 board: none

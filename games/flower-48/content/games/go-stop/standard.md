@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Go-Stop
 slug: go-stop
 board: none

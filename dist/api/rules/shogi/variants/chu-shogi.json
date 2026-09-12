@@ -471,105 +471,7 @@
             ]
           },
           "lion": {
-            "type": "leaper",
-            "offsets": [
-              [
-                -2,
-                -2
-              ],
-              [
-                -2,
-                -1
-              ],
-              [
-                -2,
-                0
-              ],
-              [
-                -2,
-                1
-              ],
-              [
-                -2,
-                2
-              ],
-              [
-                -1,
-                -2
-              ],
-              [
-                -1,
-                -1
-              ],
-              [
-                -1,
-                0
-              ],
-              [
-                -1,
-                1
-              ],
-              [
-                -1,
-                2
-              ],
-              [
-                0,
-                -2
-              ],
-              [
-                0,
-                -1
-              ],
-              [
-                0,
-                1
-              ],
-              [
-                0,
-                2
-              ],
-              [
-                1,
-                -2
-              ],
-              [
-                1,
-                -1
-              ],
-              [
-                1,
-                0
-              ],
-              [
-                1,
-                1
-              ],
-              [
-                1,
-                2
-              ],
-              [
-                2,
-                -2
-              ],
-              [
-                2,
-                -1
-              ],
-              [
-                2,
-                0
-              ],
-              [
-                2,
-                1
-              ],
-              [
-                2,
-                2
-              ]
-            ]
+            "betza": "NAD[aK]"
           },
           "queen": {
             "type": "rider",
@@ -623,48 +525,10 @@
             "directional": true
           },
           "promoted_copper": {
-            "type": "compose",
-            "parts": [
-              {
-                "type": "rider",
-                "dirs": "diagonal"
-              },
-              {
-                "type": "rider",
-                "dirs": [
-                  [
-                    0,
-                    -1
-                  ],
-                  [
-                    0,
-                    1
-                  ]
-                ]
-              }
-            ]
+            "betza": "WrlR"
           },
           "promoted_leopard": {
-            "type": "compose",
-            "parts": [
-              {
-                "type": "rider",
-                "dirs": "diagonal"
-              },
-              {
-                "type": "rider",
-                "dirs": [
-                  [
-                    -1,
-                    0
-                  ],
-                  [
-                    1,
-                    0
-                  ]
-                ]
-              }
-            ]
+            "betza": "B"
           },
           "promoted_lance": {
             "type": "compose",
@@ -731,61 +595,26 @@
             ]
           },
           "promoted_blind_tiger": {
-            "type": "rider",
-            "dirs": "all",
-            "maxSteps": 1
+            "betza": "fbRK"
+          },
+          "promoted_dragon_king": {
+            "betza": "RbBf[avF]fA"
+          },
+          "promoted_dragon_horse": {
+            "betza": "BrlbRf[avW]fD"
           },
           "promoted_kirin": {
-            "type": "rider",
-            "dirs": "all"
+            "betza": "NAD[aK]"
           },
           "promoted_phoenix": {
             "type": "rider",
             "dirs": "all"
           },
           "promoted_side_mover": {
-            "type": "compose",
-            "parts": [
-              {
-                "type": "rider",
-                "dirs": "diagonal"
-              },
-              {
-                "type": "rider",
-                "dirs": [
-                  [
-                    -1,
-                    0
-                  ],
-                  [
-                    1,
-                    0
-                  ]
-                ]
-              }
-            ]
+            "betza": "BrlR"
           },
           "promoted_vertical_mover": {
-            "type": "compose",
-            "parts": [
-              {
-                "type": "rider",
-                "dirs": "diagonal"
-              },
-              {
-                "type": "rider",
-                "dirs": [
-                  [
-                    0,
-                    -1
-                  ],
-                  [
-                    0,
-                    1
-                  ]
-                ]
-              }
-            ]
+            "betza": "BfbR"
           },
           "promoted_pawn": {
             "type": "leaper",
@@ -818,34 +647,7 @@
             "directional": true
           },
           "promoted_go_between": {
-            "type": "leaper",
-            "offsets": [
-              [
-                -1,
-                -1
-              ],
-              [
-                -1,
-                0
-              ],
-              [
-                -1,
-                1
-              ],
-              [
-                0,
-                -1
-              ],
-              [
-                0,
-                1
-              ],
-              [
-                1,
-                0
-              ]
-            ],
-            "directional": true
+            "betza": "FfrlW"
           },
           "promoted_elephant": {
             "type": "rider",

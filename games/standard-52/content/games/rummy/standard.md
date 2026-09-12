@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Rummy
 slug: rummy
 board: none

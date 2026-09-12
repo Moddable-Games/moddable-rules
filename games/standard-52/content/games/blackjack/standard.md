@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Blackjack (Twenty-One)
 slug: blackjack
 board: "none"

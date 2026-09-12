@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Craps
 slug: craps
 board: none

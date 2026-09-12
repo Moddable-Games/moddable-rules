@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Crazy Eights
 slug: crazy-eights
 board: none

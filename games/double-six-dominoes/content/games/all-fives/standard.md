@@ -1,4 +1,5 @@
 ---
+playable: false
 title: All Fives
 slug: all-fives
 board: "none"

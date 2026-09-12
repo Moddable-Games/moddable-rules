@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Yahtzee
 slug: yahtzee
 board: "none"

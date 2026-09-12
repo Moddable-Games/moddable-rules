@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Whist
 slug: whist
 board: none

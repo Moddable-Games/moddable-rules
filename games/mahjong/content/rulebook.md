@@ -35,6 +35,13 @@ engine:
     layout:
       type: wall
   players: [east, south, west, north]
+unsupported:
+  _family: "No rules plugin. The 136-tile set and the table layout are declared, and nothing builds a wall, draws, melds or scores. All four games have four seats with concealed hands and need private per-seat state (moddable-engine#155)."
+  american-classic: "No plugin, and blocked on content as well as code: hands are set by a published card that changes annually and must be matched exactly. Also needs jokers and the Charleston passing phase."
+  hong-kong: "No plugin. Needs a wall with dead-wall replacement for flowers, claiming a discard out of turn for pung, kong or chow, and faan scoring with a payment table."
+  riichi: "No plugin. More scoring machinery than anything else in the corpus: the riichi declaration and its stick, dora indicators including the ura-dora nobody sees until the end, furiten locking a player out of a win, and han and fu counted together."
+  taiwanese: "No plugin. Sixteen-tile hands rather than thirteen, with its own tai scoring and flower replacement."
+  zung-jung: "No plugin. A scoring system built to be exhaustive and non-overlapping across about seventy patterns. That system is the whole of what distinguishes the game, and none of it is modelled."
 ---
 
 <div class="section variant-hub">

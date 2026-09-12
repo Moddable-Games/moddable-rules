@@ -1,4 +1,5 @@
 ---
+playable: false
 title: FreeCell
 slug: freecell
 board: none

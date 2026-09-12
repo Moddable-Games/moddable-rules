@@ -45,6 +45,13 @@ related:
   - standard-52
   - double-six-dominoes
   - backgammon
+unsupported:
+  _family: "No rules plugin. Unlike the card families the component is complete - component-dice rolls, detects doubles, parses expressions and computes odds. What is missing in every game here is the turn structure and the scoring built on top of a roll."
+  bunco: "No plugin. Needs six rounds with a target number that changes each round, table rotation between rounds, and scoring across a group rather than a seat."
+  craps: "No plugin. The dice are the least of it: needs a bet table, a point that persists across rolls, and wagers that resolve over different numbers of rolls."
+  farkle: "No plugin. Needs the push-your-luck loop: re-roll what is left or bank, and lose the whole turn's score on a roll that scores nothing."
+  liars-dice: "No plugin. Every seat's dice are concealed and the entire game is bidding over them, so it is blocked on private per-seat state (moddable-engine#155) more completely than any card game here."
+  yahtzee: "No plugin. Needs three rolls per turn with a held subset carried between them, and a scorecard of thirteen categories each usable once, including the choice to take a zero."
 ---
 
 <div class="section">

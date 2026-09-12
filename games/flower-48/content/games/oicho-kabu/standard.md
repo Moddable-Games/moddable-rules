@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Oicho-Kabu
 slug: oicho-kabu
 board: "none"

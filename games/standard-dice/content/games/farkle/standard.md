@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Farkle
 slug: farkle
 board: "none"

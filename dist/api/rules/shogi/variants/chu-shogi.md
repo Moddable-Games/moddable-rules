@@ -82,17 +82,17 @@ King, Lion, and Queen do not promote.
 | Pawn | Gold General | WfF |
 | Gold General | Rook | R |
 | Rook | Dragon King | RF |
-| Dragon King | Soaring Eagle | RbBfFfA + limited Lion power fwd |
+| Dragon King | Soaring Eagle | RbBf[avF]fA |
 | Silver General | Vertical Mover | vRsW |
 | Vertical Mover | Flying Ox | BvR |
 | Copper General | Side Mover | sRvW |
 | Side Mover | Free Boar | BsR |
 | Ferocious Leopard | Bishop | B |
 | Bishop | Dragon Horse | BW |
-| Dragon Horse | Horned Falcon | BbsRfWfD + limited Lion power fwd |
+| Dragon Horse | Horned Falcon | BrlbRf[avW]fD |
 | Lance | White Horse | vRfB |
 | Reverse Chariot | Whale | vRbB |
-| Blind Tiger | Flying Stag | FbWfsW |
+| Blind Tiger | Flying Stag | fbRK |
 | Drunk Elephant | **Prince** (royal) | K |
 | Go Between | Elephant (= Drunk Elephant) | FfsW |
 | Phoenix | Queen | Q |

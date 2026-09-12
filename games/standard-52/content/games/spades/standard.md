@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Spades
 slug: spades
 board: "none"

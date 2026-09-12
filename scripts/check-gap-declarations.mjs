@@ -32,6 +32,53 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const GAMES = resolve(ROOT, 'games');
 const errors = [];
 
+// A family's playable things live in one of two shapes, and for two years this
+// script only knew the first.
+//
+//   content/variants/<slug>.md            board families
+//   content/games/<slug>/<variant>.md     component families - the six that are
+//                                         a deck, a set of dice, dominoes or
+//                                         mahjong tiles rather than a board
+//
+// The old `if (!existsSync(variantsDir)) continue` meant all six component
+// families were skipped whole, so forty games could neither be reported as
+// unplayable nor be required to say they were playable. They were the only
+// games in the corpus outside this check, and they were outside it silently.
+// engine#176.
+//
+// The frontmatter `slug:` is the identity in both shapes, not the filename:
+// cribbage is one directory holding three games that call themselves
+// `cribbage`, `three-player-cribbage` and `four-player-cribbage`, and those are
+// the names the site and the unsupported map use.
+function collectVariants(family) {
+  const found = new Map();
+  let any = false;
+
+  const boardDir = resolve(GAMES, family, 'content', 'variants');
+  if (existsSync(boardDir)) {
+    any = true;
+    for (const file of readdirSync(boardDir).filter(f => f.endsWith('.md'))) {
+      const data = matter(readFileSync(resolve(boardDir, file), 'utf8')).data;
+      found.set(data.slug || file.replace(/\.md$/, ''), data);
+    }
+  }
+
+  const gamesDir = resolve(GAMES, family, 'content', 'games');
+  if (existsSync(gamesDir)) {
+    any = true;
+    for (const entry of readdirSync(gamesDir, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const sub = resolve(gamesDir, entry.name);
+      for (const file of readdirSync(sub).filter(f => f.endsWith('.md'))) {
+        const data = matter(readFileSync(resolve(sub, file), 'utf8')).data;
+        found.set(data.slug || `${entry.name}/${file.replace(/\.md$/, '')}`, data);
+      }
+    }
+  }
+
+  return any ? found : null;
+}
+
 const families = readdirSync(GAMES).filter(f =>
   existsSync(resolve(GAMES, f, 'content', 'rulebook.md')));
 
@@ -39,13 +86,8 @@ for (const family of families) {
   const rulebook = matter(readFileSync(resolve(GAMES, family, 'content', 'rulebook.md'), 'utf8')).data;
   const unsupported = rulebook.unsupported || {};
 
-  const dir = resolve(GAMES, family, 'content', 'variants');
-  if (!existsSync(dir)) continue;
-  const variants = new Map();
-  for (const file of readdirSync(dir).filter(f => f.endsWith('.md'))) {
-    const slug = file.replace(/\.md$/, '');
-    variants.set(slug, matter(readFileSync(resolve(dir, file), 'utf8')).data);
-  }
+  const variants = collectVariants(family);
+  if (variants === null) continue;
 
   for (const [slug, reason] of Object.entries(unsupported)) {
     // `_family` and friends are notes about the family itself, not a variant.

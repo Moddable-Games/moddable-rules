@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Zung Jung
 slug: zung-jung
 board: "none"

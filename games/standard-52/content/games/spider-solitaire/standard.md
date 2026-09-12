@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Spider Solitaire
 slug: spider-solitaire
 board: none

@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Skat
 slug: skat
 board: "none"

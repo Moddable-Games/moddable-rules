@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Hearts
 slug: hearts
 board: "none"

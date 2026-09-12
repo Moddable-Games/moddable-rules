@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Big 2
 slug: big2
 board: "none"

@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Schafkopf
 slug: schafkopf
 board: none

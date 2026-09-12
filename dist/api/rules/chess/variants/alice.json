@@ -6,7 +6,7 @@
   "board": "Two 8×8 boards (Board A and Board B)",
   "win": "Checkmate",
   "special": "After every move, the moving piece transfers to the corresponding square on the other board. A move is only legal if the transfer square is vacant. Invented V. R. Parton, 1953.",
-  "playable": false,
+  "playable": true,
   "order": 1,
   "designer": null,
   "category": null,
@@ -33,7 +33,14 @@
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
       "8/8/8/8/8/8/8/8"
     ],
-    "notation": "alice-algebraic"
+    "notation": "alice-algebraic",
+    "plugins": {
+      "chess": {
+        "transfer": {
+          "between": "layers"
+        }
+      }
+    }
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/alice-board.svg",

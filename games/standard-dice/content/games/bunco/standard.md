@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Bunco
 slug: bunco
 board: none

@@ -36,6 +36,12 @@ engine:
     layout:
       type: fan
   players: [south, north]
+unsupported:
+  _family: "No rules plugin. The 28-tile set renders, and nothing draws from the boneyard, matches an end or scores."
+  all-fives: "No plugin. Block plus scoring whenever the open ends total a multiple of five, so the score is a function of the shape of the line rather than of the move that was just made."
+  block: "No plugin. Needs a line of play with two open ends, matching pips to an end, and the blocked game where nobody can play and the lowest remaining pip count wins."
+  chickenfoot: "No plugin. Needs the branching layout a double creates: three arms that must all be filled before play continues anywhere else, so the tableau changes shape as it is played."
+  mexican-train: "No plugin. Needs a train per player plus a public train, trains that open to everyone when their owner cannot play, and the doubles rule that forces the next play - per-seat structures on a shared table."
 ---
 
 <div class="section">

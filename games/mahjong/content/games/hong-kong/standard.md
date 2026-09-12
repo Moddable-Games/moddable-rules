@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Hong Kong Mahjong
 slug: hong-kong
 board: "none"

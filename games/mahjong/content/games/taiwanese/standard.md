@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Taiwanese 16-Tile Mahjong
 slug: taiwanese
 board: "none"

@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Rubber Bridge
 slug: bridge
 board: "none"

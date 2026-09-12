@@ -1,4 +1,5 @@
 ---
+playable: false
 title: Klondike Solitaire
 slug: klondike
 board: "none"

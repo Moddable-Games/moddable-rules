@@ -1,4 +1,5 @@
 ---
+playable: false
 title: 4-Player Cribbage (Partnership)
 slug: four-player-cribbage
 board: none

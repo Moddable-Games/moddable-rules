@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09",
+  "generated": "2026-09-12",
   "total": 359,
   "rendered": 346,
   "missing": 13,
@@ -231,7 +231,7 @@
       "topology": "grid",
       "svg": "games/chess/diagrams/svg/alice-board.svg",
       "rulesUrl": "chess/variants/alice/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -3507,7 +3507,7 @@
       "topology": "hex",
       "svg": "games/shogi/diagrams/svg/hex-shogi-91-board.svg",
       "rulesUrl": "shogi/variants/hex-shogi-91/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -3543,7 +3543,7 @@
       "topology": "grid",
       "svg": "games/shogi/diagrams/svg/maka-dai-dai-shogi-board.svg",
       "rulesUrl": "shogi/variants/maka-dai-dai-shogi/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -3567,7 +3567,7 @@
       "topology": "grid",
       "svg": "games/shogi/diagrams/svg/mortal-shogi-board.svg",
       "rulesUrl": "shogi/variants/mortal-shogi/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -3615,7 +3615,7 @@
       "topology": "grid",
       "svg": "games/shogi/diagrams/svg/tai-shogi-board.svg",
       "rulesUrl": "shogi/variants/tai-shogi/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -3627,7 +3627,7 @@
       "topology": "grid",
       "svg": "games/shogi/diagrams/svg/taikyoku-shogi-board.svg",
       "rulesUrl": "shogi/variants/taikyoku-shogi/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -3639,7 +3639,7 @@
       "topology": "grid",
       "svg": "games/shogi/diagrams/svg/tenjiku-shogi-board.svg",
       "rulesUrl": "shogi/variants/tenjiku-shogi/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -3663,7 +3663,7 @@
       "topology": "grid",
       "svg": "games/shogi/diagrams/svg/wa-shogi-board.svg",
       "rulesUrl": "shogi/variants/wa-shogi/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
