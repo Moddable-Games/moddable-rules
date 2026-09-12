@@ -74,7 +74,7 @@ engine:
 unsupported:
   sunjang: "The 16 pre-placed stones sit on a preset pattern that every source checked shows only as a diagram image; which eight are Black and which eight are White was not recovered, and the positions must not be invented."
   tibetan: "The twelve pre-placed stones have no coordinate source in anything checked."
-  phantom-go: "Hidden information: neither player sees the opponent's stones, and the engine holds one position that both seats read in full."
+  phantom-go: "Neither player sees the opponent's stones. The engine can hold a position that each seat reads differently now - a plugin declares a projection and the store withholds - so what is left is the Go plugin declaring one, and the referee. A referee is central here rather than incidental: it rules on legality without saying why, the player retries and keeps the turn, and it announces captures and atari to both seats. That is a third participant who is neither seat, which is moddable-engine#155 decision 4, the same thing Kriegspiel waits on."
 ---
 
 <div class="section variant-hub">
