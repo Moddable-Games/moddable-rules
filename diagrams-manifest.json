@@ -2596,7 +2596,7 @@
     "topology": "grid",
     "svg": "games/go/diagrams/svg/phantom-go-board.svg",
     "rulesUrl": "go/variants/phantom-go/index.html",
-    "playable": false,
+    "playable": true,
     "status": "rendered",
     "players": "2 + referee"
   },
@@ -4135,7 +4135,7 @@
     "topology": "grid",
     "svg": "games/xiangqi/diagrams/svg/banqi-board.svg",
     "rulesUrl": "xiangqi/variants/banqi/index.html",
-    "playable": false,
+    "playable": true,
     "status": "rendered",
     "players": "2"
   },

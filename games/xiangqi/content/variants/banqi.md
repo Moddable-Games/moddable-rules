@@ -6,7 +6,7 @@ players: "2"
 parent: xiangqi
 win: Opponent has no legal move (usually because every piece has been captured)
 special: "Xiangqi pieces on half a Xiangqi board, played inside the squares rather than on the intersections. All 32 pieces start face-down and are revealed one at a time, so neither player knows what stands where. The first piece flipped decides which colour that player commands. Also known as Dark Chess (暗棋), Blind Chess (盲棋) or Half Chess (半棋)."
-playable: false
+playable: true
 engine:
   topology:
     type: grid
@@ -47,7 +47,70 @@ engine:
     set: mce-xiangqi-trad
     fenMap:
       x: facedown
+  # A face-down piece belongs to nobody: owner -1, the same convention Duck
+  # Chess uses for its blocker. It gains a colour when it is turned over.
+  vocabulary:
+    general: { symbols: { 0: K, 1: k } }
+    advisor: { symbols: { 0: A, 1: a } }
+    elephant: { symbols: { 0: E, 1: e } }
+    chariot: { symbols: { 0: R, 1: r } }
+    horse: { symbols: { 0: H, 1: h } }
+    cannon: { symbols: { 0: C, 1: c } }
+    soldier: { symbols: { 0: P, 1: p } }
+    covered: { symbols: { "-1": x } }
   setup: "xxxxxxxx/xxxxxxxx/xxxxxxxx/xxxxxxxx"
+  plugins:
+    xiangqi:
+      # Nothing is royal. Losing the General loses a piece, not the game, so
+      # there is no check and the only way to lose is to have no move.
+      royal: false
+      winCondition: no-moves
+      covered:
+        type: covered
+        ownerless: true
+        flip: true
+        # "A face-down piece cannot be captured or moved. It can only be
+        # flipped." Jieqi is the opposite - a covered piece there is captured
+        # in the normal way - so neither is assumed.
+        capturable: false
+        colourFromFirstFlip: true
+        # There are no home squares in Banqi, so there is no array to deal
+        # from: all 32 pieces are shuffled across the whole board, and nothing
+        # about a square tells you what stands on it.
+        pool:
+          general: 1
+          advisor: 2
+          elephant: 2
+          chariot: 2
+          horse: 2
+          cannon: 2
+          soldier: 5
+      # Every piece moves one square orthogonally - the General, the Soldier
+      # and everything between move alike. The Cannon is the only departure:
+      # it moves like the rest and captures by jumping exactly one screen.
+      pieceMoves:
+        general: { type: rider, dirs: orthogonal, maxSteps: 1 }
+        advisor: { type: rider, dirs: orthogonal, maxSteps: 1 }
+        elephant: { type: rider, dirs: orthogonal, maxSteps: 1 }
+        chariot: { type: rider, dirs: orthogonal, maxSteps: 1 }
+        horse: { type: rider, dirs: orthogonal, maxSteps: 1 }
+        soldier: { type: rider, dirs: orthogonal, maxSteps: 1 }
+        cannon:
+          divergent:
+            move: { type: rider, dirs: orthogonal, maxSteps: 1 }
+            # Any number of empty squares may lie on either side of the
+            # screen, so the capture slides past it rather than landing
+            # on the square immediately beyond.
+            capture: { type: hopper, dirs: orthogonal, captureSlide: true }
+      # Capture compares the two pieces rather than asking how the attacker
+      # moves. A piece takes an equal or lower rank, with two rules standing
+      # outside the order and the unranked Cannon outside it entirely.
+      capture:
+        by: rank
+        order: [general, advisor, elephant, chariot, horse, soldier]
+        allow: [[soldier, general]]
+        deny: [[general, soldier]]
+        unranked: [cannon]
 published: true
 ---
 
@@ -124,17 +187,6 @@ If a player repeatedly chases an enemy piece that cannot be taken, producing an 
 ### Relationship to Other Games
 
 A more formal version of Banqi is held to have influenced **Jungle** (Dou Shou Qi) and the modern game **Luzhanqi**.
-
-### What the Engine Does Not Do
-
-Banqi is not playable here, and the reason is the game's premise rather than any
-detail of it. Every position the engine can hold is fully known to both seats, so
-a piece whose identity is hidden cannot be represented, and a flip cannot be a
-move. Two further rules rest on that one: colours are settled by the first flip,
-where the engine binds a seat to its colour when the game is created, and capture
-compares the ranks of the two pieces involved, where the engine decides capture
-by how a piece moves. The board and the pieces above are correct; the play is not
-available. The same blocker holds Jieqi, which is this game on the full board.
 
 ### Attribution
 

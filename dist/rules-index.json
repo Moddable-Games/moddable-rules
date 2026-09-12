@@ -28201,18 +28201,6 @@
     "game": "xiangqi",
     "gameTitle": "Xiangqi",
     "type": "variant",
-    "sectionType": "general",
-    "section": "Banqi (Half Chess)",
-    "heading": "What the Engine Does Not Do",
-    "content": "Banqi is not playable here, and the reason is the game's premise rather than any detail of it. Every position the engine can hold is fully known to both seats, so a piece whose identity is hidden cannot be represented, and a flip cannot be a move. Two further rules rest on that one: colours are settled by the first flip, where the engine binds a seat to its colour when the game is created, and capture compares the ranks of the two pieces involved, where the engine decides capture by how a piece moves. The board and the pieces above are correct; the play is not available. The same blocker holds Jieqi, which is this game on the full board.",
-    "anchor": "what-the-engine-does-not-do",
-    "variant": "banqi",
-    "variantUrl": "xiangqi/variants/banqi/"
-  },
-  {
-    "game": "xiangqi",
-    "gameTitle": "Xiangqi",
-    "type": "variant",
     "sectionType": "attribution",
     "section": "Banqi (Half Chess)",
     "heading": "Attribution",

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Phantom Go
 slug: phantom-go
 board: "9×9 or 13×13"
@@ -7,7 +8,11 @@ parent: go
 order: 8
 win: Most territory (standard scoring)
 special: Fog of war. Players cannot see opponent stones. A referee mediates all moves.
-unsupported: "Fog of war is not modelled: both players see every stone."
+approximations:
+  - feature: "the referee's other announcements"
+    source: "The rulebook's Announcements section: the referee says only \"Illegal move\" without stating why and the player keeps the turn and tries again; and announces atari, but only when the stones were not already in atari, and without saying which stones."
+    engine: "Captures are announced to both seats, with the exact stones, and the announcement log lives in the slice so a player who reconnects hears it again. An illegal move is refused, which is the referee's ruling, but the opponent is not told an attempt was made - both players hearing it needs a session with two connections rather than one board. Atari is not announced at all."
+    blocker: "An announcement addressed to both players by a participant who is neither of them. moddable-engine#155 decision 4, and the broadcast half is moddable-tools#37."
 engine:
   topology:
     type: grid
@@ -16,6 +21,17 @@ engine:
     layout: intersections
   players: [black, white]
   setup: ""
+  plugins:
+    go:
+      # Players sit back to back and see only their own stones. An empty point
+      # and a hidden stone are indistinguishable, which is the game - so there
+      # is nothing to draw where an opponent's stone stands.
+      hidden:
+        stones: own
+        # "When a capture occurs, the referee announces that a player has
+        # captured the following stones, and points out exactly which stones
+        # were captured to both players."
+        announce: [capture]
 ---
 
 ## Phantom Go

@@ -6,7 +6,7 @@
   "board": "8×4",
   "win": "Opponent has no legal move (usually because every piece has been captured)",
   "special": "Xiangqi pieces on half a Xiangqi board, played inside the squares rather than on the intersections. All 32 pieces start face-down and are revealed one at a time, so neither player knows what stands where. The first piece flipped decides which colour that player commands. Also known as Dark Chess (暗棋), Blind Chess (盲棋) or Half Chess (半棋).",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -62,7 +62,150 @@
         "x": "facedown"
       }
     },
-    "setup": "xxxxxxxx/xxxxxxxx/xxxxxxxx/xxxxxxxx"
+    "vocabulary": {
+      "general": {
+        "symbols": {
+          "0": "K",
+          "1": "k"
+        }
+      },
+      "advisor": {
+        "symbols": {
+          "0": "A",
+          "1": "a"
+        }
+      },
+      "elephant": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      },
+      "chariot": {
+        "symbols": {
+          "0": "R",
+          "1": "r"
+        }
+      },
+      "horse": {
+        "symbols": {
+          "0": "H",
+          "1": "h"
+        }
+      },
+      "cannon": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      },
+      "soldier": {
+        "symbols": {
+          "0": "P",
+          "1": "p"
+        }
+      },
+      "covered": {
+        "symbols": {
+          "-1": "x"
+        }
+      }
+    },
+    "setup": "xxxxxxxx/xxxxxxxx/xxxxxxxx/xxxxxxxx",
+    "plugins": {
+      "xiangqi": {
+        "royal": false,
+        "winCondition": "no-moves",
+        "covered": {
+          "type": "covered",
+          "ownerless": true,
+          "flip": true,
+          "capturable": false,
+          "colourFromFirstFlip": true,
+          "pool": {
+            "general": 1,
+            "advisor": 2,
+            "elephant": 2,
+            "chariot": 2,
+            "horse": 2,
+            "cannon": 2,
+            "soldier": 5
+          }
+        },
+        "pieceMoves": {
+          "general": {
+            "type": "rider",
+            "dirs": "orthogonal",
+            "maxSteps": 1
+          },
+          "advisor": {
+            "type": "rider",
+            "dirs": "orthogonal",
+            "maxSteps": 1
+          },
+          "elephant": {
+            "type": "rider",
+            "dirs": "orthogonal",
+            "maxSteps": 1
+          },
+          "chariot": {
+            "type": "rider",
+            "dirs": "orthogonal",
+            "maxSteps": 1
+          },
+          "horse": {
+            "type": "rider",
+            "dirs": "orthogonal",
+            "maxSteps": 1
+          },
+          "soldier": {
+            "type": "rider",
+            "dirs": "orthogonal",
+            "maxSteps": 1
+          },
+          "cannon": {
+            "divergent": {
+              "move": {
+                "type": "rider",
+                "dirs": "orthogonal",
+                "maxSteps": 1
+              },
+              "capture": {
+                "type": "hopper",
+                "dirs": "orthogonal",
+                "captureSlide": true
+              }
+            }
+          }
+        },
+        "capture": {
+          "by": "rank",
+          "order": [
+            "general",
+            "advisor",
+            "elephant",
+            "chariot",
+            "horse",
+            "soldier"
+          ],
+          "allow": [
+            [
+              "soldier",
+              "general"
+            ]
+          ],
+          "deny": [
+            [
+              "general",
+              "soldier"
+            ]
+          ],
+          "unranked": [
+            "cannon"
+          ]
+        }
+      }
+    }
   },
   "diagram": {
     "svg": "games/xiangqi/diagrams/svg/banqi-board.svg",

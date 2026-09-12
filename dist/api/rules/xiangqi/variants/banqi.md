@@ -72,17 +72,6 @@ If a player repeatedly chases an enemy piece that cannot be taken, producing an 
 
 A more formal version of Banqi is held to have influenced **Jungle** (Dou Shou Qi) and the modern game **Luzhanqi**.
 
-### What the Engine Does Not Do
-
-Banqi is not playable here, and the reason is the game's premise rather than any
-detail of it. Every position the engine can hold is fully known to both seats, so
-a piece whose identity is hidden cannot be represented, and a flip cannot be a
-move. Two further rules rest on that one: colours are settled by the first flip,
-where the engine binds a seat to its colour when the game is created, and capture
-compares the ranks of the two pieces involved, where the engine decides capture
-by how a piece moves. The board and the pieces above are correct; the play is not
-available. The same blocker holds Jieqi, which is this game on the full board.
-
 ### Attribution
 
 Banqi is a traditional Chinese game with no known author and no rights holder. Rules transcribed from en.wikipedia.org/wiki/Banqi.

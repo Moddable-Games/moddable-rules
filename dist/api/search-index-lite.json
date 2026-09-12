@@ -28201,18 +28201,6 @@
     "game": "xiangqi",
     "gameTitle": "Xiangqi",
     "type": "variant",
-    "sectionType": "general",
-    "section": "Banqi (Half Chess)",
-    "heading": "What the Engine Does Not Do",
-    "content": "Banqi is not playable here, and the reason is the game's premise rather than any detail of it. Every position the engine can hold is fully known to both seats, so a piece whose identity is hidden cann",
-    "anchor": "what-the-engine-does-not-do",
-    "variant": "banqi",
-    "variantUrl": "xiangqi/variants/banqi/"
-  },
-  {
-    "game": "xiangqi",
-    "gameTitle": "Xiangqi",
-    "type": "variant",
     "sectionType": "attribution",
     "section": "Banqi (Half Chess)",
     "heading": "Attribution",

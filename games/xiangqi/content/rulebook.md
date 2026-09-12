@@ -97,7 +97,6 @@ related:
   - chess
   - go
 unsupported:
-  banqi: "the same hidden information as jieqi, on half the board: all 32 pieces start face down and have neither colour nor rank until flipped, the first flip decides who commands which colour, and capture compares the ranks of the two pieces rather than asking how one of them moves"
   san-kwo-ki: "three-player hexagonal trisected board (see engine issue #26)"
 ---
 

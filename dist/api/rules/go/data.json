@@ -464,7 +464,7 @@
       "board": "9×9 or 13×13",
       "win": "Most territory (standard scoring)",
       "special": "Fog of war. Players cannot see opponent stones. A referee mediates all moves.",
-      "playable": false,
+      "playable": true,
       "order": 8,
       "designer": null,
       "category": null,
@@ -479,7 +479,17 @@
           "black",
           "white"
         ],
-        "setup": ""
+        "setup": "",
+        "plugins": {
+          "go": {
+            "hidden": {
+              "stones": "own",
+              "announce": [
+                "capture"
+              ]
+            }
+          }
+        }
       },
       "diagram": {
         "svg": "games/go/diagrams/svg/phantom-go-board.svg",
@@ -928,7 +938,7 @@
         "topology": "grid",
         "svg": "games/go/diagrams/svg/phantom-go-board.svg",
         "rulesUrl": "go/variants/phantom-go/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2 + referee"
       },
@@ -1043,7 +1053,7 @@
   },
   "stats": {
     "variantCount": 14,
-    "playable": 11,
+    "playable": 12,
     "withDiagram": 14,
     "topologies": [
       "grid"
