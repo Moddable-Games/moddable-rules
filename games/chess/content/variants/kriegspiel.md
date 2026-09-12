@@ -7,6 +7,11 @@ players: "2 + referee"
 parent: chess
 win: "Checkmate"
 special: "Fog-of-war chess. Each player sees only their own pieces. A referee manages a master board and announces partial information: legality of attempted moves, check direction, capture location, and pawn-capture availability."
+approximations:
+  - feature: "referee announcements"
+    source: "The rulebook's own Rules section, following the standard description: a referee arbitrates on a master board and both players hear every announcement - that a move was illegal, that a capture happened and on which square, the direction of a check (rank, file, small diagonal, large diagonal), and whether a pawn try is available."
+    engine: "Visibility is modelled - each player sees only their own pieces, and the engine refusing an illegal move is the referee's ruling on that move. None of the announcements are made, so neither player learns anything from the opponent's attempts, captures or checks. Deduction, which is the skill the variant is played for, has less to work with."
+    blocker: "A referee is a third participant that is neither seat, and nothing in the engine has that shape. moddable-engine#155 decision 4."
 engine:
   topology:
     type: grid
