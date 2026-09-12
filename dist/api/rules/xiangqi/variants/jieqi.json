@@ -6,7 +6,7 @@
   "board": "9×10",
   "win": "Checkmate the General",
   "special": "Xiangqi with hidden information: all pieces except the General start face-down and are revealed when they first move. A growing competitive variant in China and Vietnam. Also known as Dark Chess or Cờ Úhp.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -29,7 +29,69 @@
         "k": "bK"
       }
     },
-    "setup": "ffffkffff/9/1f5f1/f1f1f1f1f/9/9/F1F1F1F1F/1F5F1/9/FFFFKFFFF"
+    "vocabulary": {
+      "general": {
+        "symbols": {
+          "0": "K",
+          "1": "k"
+        }
+      },
+      "advisor": {
+        "symbols": {
+          "0": "A",
+          "1": "a"
+        }
+      },
+      "elephant": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      },
+      "horse": {
+        "symbols": {
+          "0": "H",
+          "1": "h"
+        }
+      },
+      "chariot": {
+        "symbols": {
+          "0": "R",
+          "1": "r"
+        }
+      },
+      "cannon": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      },
+      "soldier": {
+        "symbols": {
+          "0": "P",
+          "1": "p"
+        }
+      },
+      "covered": {
+        "symbols": {
+          "0": "F",
+          "1": "f"
+        }
+      }
+    },
+    "setup": "ffffkffff/9/1f5f1/f1f1f1f1f/9/9/F1F1F1F1F/1F5F1/9/FFFFKFFFF",
+    "plugins": {
+      "xiangqi": {
+        "covered": {
+          "type": "covered",
+          "homeSetup": "rheakaehr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR",
+          "unconstrainedWhenRevealed": [
+            "advisor",
+            "elephant"
+          ]
+        }
+      }
+    }
   },
   "diagram": {
     "svg": "games/xiangqi/diagrams/svg/jieqi-board.svg",

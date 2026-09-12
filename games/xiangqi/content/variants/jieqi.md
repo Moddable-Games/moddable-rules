@@ -6,6 +6,7 @@ players: "2"
 parent: xiangqi
 win: Checkmate the General
 special: "Xiangqi with hidden information: all pieces except the General start face-down and are revealed when they first move. A growing competitive variant in China and Vietnam. Also known as Dark Chess or Cờ Úhp."
+playable: true
 engine:
   topology:
     type: grid
@@ -19,7 +20,30 @@ engine:
       f: bFD
       K: wK
       k: bK
+  # The engine vocabulary, as distinct from the sprite map above: a revealed
+  # piece is an ordinary Xiangqi piece and has to serialise as one.
+  vocabulary:
+    general: { symbols: { 0: K, 1: k } }
+    advisor: { symbols: { 0: A, 1: a } }
+    elephant: { symbols: { 0: E, 1: e } }
+    horse: { symbols: { 0: H, 1: h } }
+    chariot: { symbols: { 0: R, 1: r } }
+    cannon: { symbols: { 0: C, 1: c } }
+    soldier: { symbols: { 0: P, 1: p } }
+    covered: { symbols: { 0: F, 1: f } }
   setup: "ffffkffff/9/1f5f1/f1f1f1f1f/9/9/F1F1F1F1F/1F5F1/9/FFFFKFFFF"
+  plugins:
+    xiangqi:
+      covered:
+        type: covered
+        # `setup` above says which squares are face down. This says what
+        # normally stands on each of them, which is what a face-down piece
+        # must move as until it is turned over. Both are read.
+        homeSetup: "rheakaehr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RHEAKAEHR"
+        # The single rule relaxation the variant makes, and only once a piece
+        # has been revealed: a covered piece on an Advisor square is a "fake
+        # Advisor" and is confined to the palace like one.
+        unconstrainedWhenRevealed: [advisor, elephant]
 ---
 
 ## Jieqi
@@ -30,11 +54,9 @@ Jieqi (揭棋, “unveiling chess”) is a Xiangqi variant with hidden informati
 
 ### Setup
 
-The board, palace, river, and starting positions are identical to standard Xiangqi. However, at the start of the game **all pieces except the General are placed face-down** — covered so that their identity is not visible to either player. Covered pieces are placed randomly on the positions their piece type normally occupies:
+The board, palace, river, and starting positions are identical to standard Xiangqi. However, at the start of the game **all pieces except the General are placed face-down** — covered so that their identity is not visible to either player, including the player who owns them.
 
-- Each player’s 2 Advisors are randomly placed face-down on the Advisor squares.
-- Each player’s 2 Elephants are randomly placed face-down on the Elephant squares.
-- And so on for Horses, Chariots, Cannons, and Soldiers.
+Each player’s 15 covered pieces (2 Advisors, 2 Elephants, 2 Horses, 2 Chariots, 2 Cannons, 5 Soldiers) are **shuffled together and dealt at random across the 15 squares those pieces normally occupy**. A covered piece therefore usually does not match the square it stands on, and that mismatch is the whole game: pychess.org/variants/jieqi states the pieces are “randomly put on original positions.”
 
 The **General begins face-up** in its normal starting square and is visible to both players at all times.
 

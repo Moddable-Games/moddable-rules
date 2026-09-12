@@ -6,11 +6,9 @@ Jieqi (揭棋, “unveiling chess”) is a Xiangqi variant with hidden informati
 
 ### Setup
 
-The board, palace, river, and starting positions are identical to standard Xiangqi. However, at the start of the game **all pieces except the General are placed face-down** — covered so that their identity is not visible to either player. Covered pieces are placed randomly on the positions their piece type normally occupies:
+The board, palace, river, and starting positions are identical to standard Xiangqi. However, at the start of the game **all pieces except the General are placed face-down** — covered so that their identity is not visible to either player, including the player who owns them.
 
-- Each player’s 2 Advisors are randomly placed face-down on the Advisor squares.
-- Each player’s 2 Elephants are randomly placed face-down on the Elephant squares.
-- And so on for Horses, Chariots, Cannons, and Soldiers.
+Each player’s 15 covered pieces (2 Advisors, 2 Elephants, 2 Horses, 2 Chariots, 2 Cannons, 5 Soldiers) are **shuffled together and dealt at random across the 15 squares those pieces normally occupy**. A covered piece therefore usually does not match the square it stands on, and that mismatch is the whole game: pychess.org/variants/jieqi states the pieces are “randomly put on original positions.”
 
 The **General begins face-up** in its normal starting square and is visible to both players at all times.
 
