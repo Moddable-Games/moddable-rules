@@ -222,6 +222,9 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-13
+- Taikyoku's board diagram draws the left and right Mountain Eagles as themselves. Both pairs had been drawn as a gote Silver General, so sente's eagles faced the wrong way
+
 #### 2026-09-12
 - Banqi plays, and its rulebook stops saying it cannot. The section describing what the engine could not do is gone: all 32 pieces are dealt face down, the first flip decides the colours, and capture compares the two pieces' ranks
 - Phantom Go plays. Each player sees only their own stones and the referee announces captures to both, with the stones named. What it still cannot announce is recorded rather than left to be discovered: an illegal attempt is refused but the opponent is not told one was made, and atari is not announced at all
