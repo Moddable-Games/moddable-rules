@@ -21,6 +21,11 @@ engine:
     # moves. A direction is [row, column, level] and a positive level step is
     # downward, from the sky towards the underworld.
     layerAdjacency: stacked
+  # Richard Ryley's icons, one for each of the fifteen pieces:
+  # boardgamegeek.com/filepage/229556. Gold and Scarlet, as the sides are
+  # named; `ryley-gygax` has the same pieces in all four colours.
+  pieces:
+    set: ryley-gygax-gold-scarlet
   players: [gold, scarlet]
   setup:
     - "2g3r3g1/s1s1s1s1s1s1/12/12/12/12/S1S1S1S1S1S1/2G3R3G1"
