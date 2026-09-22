@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Spherical Chess
 slug: spherical-chess
 board: "8×8 (played on flat board, spherical topology)"
@@ -15,6 +16,69 @@ engine:
   players: [white, black]
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
+disputed:
+  - feature: "Bishop crossing a pole"
+    readings:
+      - source: "Grayber (1950s) and Miller (1965), via Pritchard and Dickins as quoted by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "two files back, keeping its file direction"
+        describes: "The trans-polar move of a B forms a loop, its path re-crossing the 2nd/7th rank square (Bh3-a2-b1-h1-a2-b3)."
+      - source: "Yapsan (1971), Boholy (1987), Welman Global Chess (1989-1997) and Chao (2008-2014), as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "straight across the pole, then fully reversed"
+        describes: "a diagonal move crosses the pole vertically to a space of the same color, which is four spaces away in the same rank, then continues in the opposite direction it was going in. If it was going north west, it would go south east after crossing the pole."
+      - source: "Nadvorney (1975), as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "three files back, changing colour"
+        describes: "Unlike the Bishop in Miller's version, the Bishop in this version changes color when it makes a trans-polar move ... moving three spaces back along the rank, changing latitudinal direction, and continuing in the same longitudinal direction."
+    engine: "straight across the pole, then fully reversed"
+    because: "Four of the seven versions surveyed share it, and it is the only colourbound reading. The survey calls it the most popular diagonal move and plays it in its own recommended version."
+  - feature: "Knight beside a pole"
+    readings:
+      - source: "Grayber (1950s), via Pritchard as quoted by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "six moves on the two ranks by a pole"
+        describes: "Ng2: a1,a3,h4,f4,e3,e1 Ng1: a2,b2,h3,f3,e2,d2."
+      - source: "Miller (1965), via Pritchard as quoted by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "six on the end rank, eight on the next"
+        describes: "a Knight on g1 can move to a2, b2, h3, f3, e2 or d2. In another example, a Knight can move from g2 to a1, a3, h4, f4, e3, e1, b1 or d1."
+      - source: "Yapsan (1971), Nadvorney (1975), the original Global Chess rules card and Chao, as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "eight from every square"
+        describes: "The knight moves one space in a circumpolar (radial) direction and two spaces in a radial (circumpolar) direction, or vice versa, always in the same general direction. The knight can move even when the intervening spaces are occupied."
+      - source: "Boholy, Globe Chess optimal version, as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "six, counting the pole as a space"
+        describes: "a Knight may move to h3, a2, b1, d1, e2, and f3 ... because Boholy is counting the pole as one of the spaces the Knight leaps over."
+    engine: "eight from every square"
+    because: "The most common reading, and the one on the rules card Global Chess shipped with. From g1 that is a1, a2, b2, d2, e1, e2, f3 and h3: the card's diagram includes the two squares two files along the same rank, which the survey notes the later web rules dropped."
+  - feature: "Castling"
+    readings:
+      - source: "Yapsan (1971), Nadvorney (1975) and Chao, as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "also towards a Rook from its far side"
+        describes: "White has a King on e1 and a Rook on h1, but castles by moving to c1 and the Rook from h1 moving to d1."
+      - source: "Grayber, Miller, Welman and Boholy, as summarised by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "as in Chess"
+        describes: "For castling, the most popular option seems to be to castle as in Chess without any extra option of castling with a Rook on its other side."
+    engine: "as in Chess"
+    because: "The majority reading, and the one the original Global Chess card plays. The survey itself prefers the extra castling, which is recorded above for a table that wants it."
+  - feature: "A move that returns to its own square"
+    readings:
+      - source: "Yapsan (1971), as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "legal"
+        describes: "When a Bishop, Rook, or Queen can make a move completely around the board that is able to return to its original space, Yapsan counts such a move as legal."
+      - source: "Nadvorney (1975) and Chao, as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "forbidden"
+        describes: "A piece cannot move into a square which is the very same square it comes from by walking a loop, because such movement leads to no change."
+    engine: "forbidden"
+    because: "Only Yapsan allows it, two versions forbid it outright, and the survey reads the silence of the rest as not allowing it: a move that changes nothing is not a move."
+  - feature: "King crossing a pole"
+    readings:
+      - source: "Grayber, Miller, Yapsan, Nadvorney, Global Chess and Chao, as summarised by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "freely"
+        describes: "the pole is just an intersection between spaces, and the King may move across the pole as freely as it may move across a diagonal that is controlled by the opponent."
+      - source: "Boholy, Globe Chess, as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "only when the pole is not attacked"
+        describes: "Because the poles are treated as neutral spaces, a King may pass over a pole only if it is not attacked by an enemy piece."
+      - source: "Welman, Sphere Chess (2009), as reported by Fergus Duniho, chessvariants.com/boardrules.dir/spherical.html (last modified 29 July 2021)"
+        says: "never"
+        describes: "The King is now as immobile as the Chess King. It cannot cross the pole or the a/h divide."
+    engine: "freely"
+    because: "Six of the eight versions surveyed let the King cross a pole like any other line."
 published: true
 ---
 

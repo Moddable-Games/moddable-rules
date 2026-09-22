@@ -6,7 +6,7 @@
   "board": "12×8 (three levels)",
   "win": "Checkmate",
   "special": "Three stacked 12×8 boards. 42 pieces per side across 15 piece types. Air, Land, and Subterranean realms. Gary Gygax, Dragon Magazine No. 100, 1985.",
-  "playable": false,
+  "playable": true,
   "order": 1,
   "designer": null,
   "category": null,
@@ -17,19 +17,20 @@
       "cols": 12,
       "layers": 3,
       "layer_labels": [
-        "Subterranean",
+        "Air",
         "Land",
-        "Air"
-      ]
+        "Subterranean"
+      ],
+      "layerAdjacency": "stacked"
     },
     "players": [
       "gold",
       "scarlet"
     ],
     "setup": [
-      "2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1",
-      "OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo",
-      "2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1"
+      "2g3r3g1/s1s1s1s1s1s1/12/12/12/12/S1S1S1S1S1S1/2G3R3G1",
+      "ouhtcmkpthuo/wwwwwwwwwwww/12/12/12/12/WWWWWWWWWWWW/OUHTCMKPTHUO",
+      "2b3e3b1/1d1d1d1d1d1d/12/12/12/12/1D1D1D1D1D1D/2B3E3B1"
     ],
     "render": {
       "cellSize": 24,
@@ -47,6 +48,1444 @@
           "cell-dark": "#a06848"
         }
       ]
+    },
+    "castling": false,
+    "enPassant": false,
+    "doubleStep": false,
+    "pawnType": "warrior",
+    "promotionChoices": [
+      "hero"
+    ],
+    "freeze": [
+      {
+        "by": "basilisk",
+        "at": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "regions": {
+      "air": {
+        "layers": [
+          0,
+          0
+        ]
+      },
+      "land": {
+        "layers": [
+          1,
+          1
+        ]
+      },
+      "below": {
+        "layers": [
+          2,
+          2
+        ]
+      },
+      "sylphHome": {
+        "layers": [
+          0,
+          0
+        ],
+        "cells": [
+          [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              10
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        ]
+      }
+    },
+    "vocabulary": {
+      "rook": {
+        "symbols": {}
+      },
+      "bishop": {
+        "symbols": {}
+      },
+      "pawn": {
+        "symbols": {}
+      },
+      "sylph": {
+        "symbols": {
+          "0": "S",
+          "1": "s"
+        }
+      },
+      "griffon": {
+        "symbols": {
+          "0": "G",
+          "1": "g"
+        }
+      },
+      "dragon": {
+        "symbols": {
+          "0": "R",
+          "1": "r"
+        }
+      },
+      "warrior": {
+        "symbols": {
+          "0": "W",
+          "1": "w"
+        }
+      },
+      "oliphant": {
+        "symbols": {
+          "0": "O",
+          "1": "o"
+        }
+      },
+      "unicorn": {
+        "symbols": {
+          "0": "U",
+          "1": "u"
+        }
+      },
+      "hero": {
+        "symbols": {
+          "0": "H",
+          "1": "h"
+        }
+      },
+      "thief": {
+        "symbols": {
+          "0": "T",
+          "1": "t"
+        }
+      },
+      "cleric": {
+        "symbols": {
+          "0": "C",
+          "1": "c"
+        }
+      },
+      "mage": {
+        "symbols": {
+          "0": "M",
+          "1": "m"
+        }
+      },
+      "paladin": {
+        "symbols": {
+          "0": "P",
+          "1": "p"
+        }
+      },
+      "basilisk": {
+        "symbols": {
+          "0": "B",
+          "1": "b"
+        }
+      },
+      "elemental": {
+        "symbols": {
+          "0": "E",
+          "1": "e"
+        }
+      },
+      "dwarf": {
+        "symbols": {
+          "0": "D",
+          "1": "d"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "warrior": {
+            "movement": "pawn"
+          },
+          "sylph": {
+            "directional": true,
+            "type": "positional",
+            "cases": [
+              {
+                "in": "air",
+                "move": {
+                  "divergent": {
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ]
+                      ]
+                    },
+                    "capture": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          0,
+                          0,
+                          1
+                        ]
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "in": "land",
+                "move": {
+                  "type": "compose",
+                  "parts": [
+                    {
+                      "divergent": {
+                        "move": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              0,
+                              0,
+                              -1
+                            ]
+                          ]
+                        },
+                        "capture": {
+                          "type": "leaper",
+                          "offsets": []
+                        }
+                      }
+                    },
+                    {
+                      "type": "warp",
+                      "to": "sylphHome"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "griffon": {
+            "type": "positional",
+            "cases": [
+              {
+                "in": "air",
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -3,
+                      -2
+                    ],
+                    [
+                      -3,
+                      2
+                    ],
+                    [
+                      -2,
+                      -3
+                    ],
+                    [
+                      -2,
+                      3
+                    ],
+                    [
+                      2,
+                      -3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      -2
+                    ],
+                    [
+                      3,
+                      2
+                    ],
+                    [
+                      -1,
+                      -1,
+                      1
+                    ],
+                    [
+                      -1,
+                      1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "in": "land",
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      -1,
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      -1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1,
+                      -1
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+          "dragon": {
+            "type": "compose",
+            "parts": [
+              {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              {
+                "type": "shoot",
+                "dirs": [
+                  [
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    -1,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "oliphant": {
+            "type": "rider",
+            "dirs": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          "unicorn": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -2,
+                -1
+              ],
+              [
+                -2,
+                1
+              ],
+              [
+                -1,
+                -2
+              ],
+              [
+                -1,
+                2
+              ],
+              [
+                1,
+                -2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                -1
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          "thief": {
+            "type": "rider",
+            "dirs": [
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "hero": {
+            "type": "positional",
+            "cases": [
+              {
+                "in": "land",
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      -2,
+                      -2
+                    ],
+                    [
+                      -2,
+                      2
+                    ],
+                    [
+                      2,
+                      -2
+                    ],
+                    [
+                      2,
+                      2
+                    ],
+                    [
+                      -1,
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      -1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      -1,
+                      1
+                    ],
+                    [
+                      -1,
+                      1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      -1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      -1,
+                      1
+                    ],
+                    [
+                      -1,
+                      1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+          "cleric": {
+            "type": "leaper",
+            "offsets": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          },
+          "mage": {
+            "type": "positional",
+            "cases": [
+              {
+                "in": "land",
+                "move": {
+                  "type": "compose",
+                  "parts": [
+                    {
+                      "type": "rider",
+                      "dirs": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          0,
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          0,
+                          1
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "move": {
+                  "type": "compose",
+                  "parts": [
+                    {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "rider",
+                      "dirs": [
+                        [
+                          0,
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          0,
+                          1
+                        ]
+                      ],
+                      "maxSteps": 2
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "king": {
+            "royal": true,
+            "type": "positional",
+            "cases": [
+              {
+                "in": "land",
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      -1
+                    ],
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      0,
+                      -1
+                    ],
+                    [
+                      0,
+                      0,
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      0,
+                      0,
+                      -1
+                    ],
+                    [
+                      0,
+                      0,
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+          "paladin": {
+            "type": "positional",
+            "cases": [
+              {
+                "in": "land",
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      -1
+                    ],
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      -2,
+                      -1
+                    ],
+                    [
+                      -2,
+                      1
+                    ],
+                    [
+                      -1,
+                      -2
+                    ],
+                    [
+                      -1,
+                      2
+                    ],
+                    [
+                      1,
+                      -2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      -1
+                    ],
+                    [
+                      2,
+                      1
+                    ],
+                    [
+                      -2,
+                      0,
+                      -1
+                    ],
+                    [
+                      2,
+                      0,
+                      -1
+                    ],
+                    [
+                      0,
+                      -2,
+                      -1
+                    ],
+                    [
+                      0,
+                      2,
+                      -1
+                    ],
+                    [
+                      -2,
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      -2,
+                      1
+                    ],
+                    [
+                      0,
+                      2,
+                      1
+                    ],
+                    [
+                      -1,
+                      0,
+                      -2
+                    ],
+                    [
+                      1,
+                      0,
+                      -2
+                    ],
+                    [
+                      0,
+                      -1,
+                      -2
+                    ],
+                    [
+                      0,
+                      1,
+                      -2
+                    ],
+                    [
+                      -1,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      0,
+                      2
+                    ],
+                    [
+                      0,
+                      -1,
+                      2
+                    ],
+                    [
+                      0,
+                      1,
+                      2
+                    ]
+                  ]
+                }
+              },
+              {
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      -1
+                    ],
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      -1,
+                      -1
+                    ],
+                    [
+                      -1,
+                      1
+                    ],
+                    [
+                      1,
+                      -1
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      -2,
+                      0,
+                      -1
+                    ],
+                    [
+                      2,
+                      0,
+                      -1
+                    ],
+                    [
+                      0,
+                      -2,
+                      -1
+                    ],
+                    [
+                      0,
+                      2,
+                      -1
+                    ],
+                    [
+                      -2,
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      -2,
+                      1
+                    ],
+                    [
+                      0,
+                      2,
+                      1
+                    ],
+                    [
+                      -1,
+                      0,
+                      -2
+                    ],
+                    [
+                      1,
+                      0,
+                      -2
+                    ],
+                    [
+                      0,
+                      -1,
+                      -2
+                    ],
+                    [
+                      0,
+                      1,
+                      -2
+                    ],
+                    [
+                      -1,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      0,
+                      2
+                    ],
+                    [
+                      0,
+                      -1,
+                      2
+                    ],
+                    [
+                      0,
+                      1,
+                      2
+                    ]
+                  ]
+                }
+              }
+            ]
+          },
+          "dwarf": {
+            "directional": true,
+            "type": "positional",
+            "cases": [
+              {
+                "in": "below",
+                "move": {
+                  "divergent": {
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ]
+                      ]
+                    },
+                    "capture": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ],
+                        [
+                          0,
+                          0,
+                          -1
+                        ]
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "in": "land",
+                "move": {
+                  "divergent": {
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          0,
+                          1
+                        ]
+                      ]
+                    },
+                    "capture": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "basilisk": {
+            "directional": true,
+            "type": "divergent",
+            "divergent": {
+              "move": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ]
+              },
+              "capture": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ]
+                ]
+              }
+            }
+          },
+          "elemental": {
+            "type": "positional",
+            "cases": [
+              {
+                "in": "below",
+                "move": {
+                  "type": "compose",
+                  "parts": [
+                    {
+                      "type": "rider",
+                      "dirs": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ]
+                      ],
+                      "maxSteps": 2
+                    },
+                    {
+                      "divergent": {
+                        "move": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              -1
+                            ],
+                            [
+                              -1,
+                              1
+                            ],
+                            [
+                              1,
+                              -1
+                            ],
+                            [
+                              1,
+                              1
+                            ]
+                          ]
+                        },
+                        "capture": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              0,
+                              -1
+                            ],
+                            [
+                              1,
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              -1,
+                              -1
+                            ],
+                            [
+                              0,
+                              1,
+                              -1
+                            ]
+                          ],
+                          "lame": "plane"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "in": "land",
+                "move": {
+                  "type": "leaper",
+                  "offsets": [
+                    [
+                      -1,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      -1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1
+                    ]
+                  ],
+                  "lame": "layer"
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "diagram": {

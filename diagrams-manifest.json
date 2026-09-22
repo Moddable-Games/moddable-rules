@@ -957,7 +957,7 @@
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/gygax-board.svg",
     "rulesUrl": "chess/variants/gygax/index.html",
-    "playable": false,
+    "playable": true,
     "status": "rendered",
     "players": "2"
   },
@@ -1545,7 +1545,7 @@
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/raumschach-board.svg",
     "rulesUrl": "chess/variants/raumschach/index.html",
-    "playable": false,
+    "playable": true,
     "status": "rendered",
     "players": "2"
   },
@@ -1761,7 +1761,7 @@
     "topology": "grid",
     "svg": "games/chess/diagrams/svg/spherical-chess-board.svg",
     "rulesUrl": "chess/variants/spherical-chess/index.html",
-    "playable": false,
+    "playable": true,
     "status": "rendered",
     "players": "2"
   },

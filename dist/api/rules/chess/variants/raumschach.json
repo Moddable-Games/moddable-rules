@@ -6,7 +6,7 @@
   "board": "5×5×5 (3D)",
   "win": "Checkmate",
   "special": "Three-dimensional chess on five stacked 5×5 boards. Adds the Unicorn (triagonal slider). Pawns move forward or upward; capture diagonally. No castling, no en passant, no double push.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": "expanded-boards",
@@ -22,7 +22,8 @@
         "C",
         "D",
         "E"
-      ]
+      ],
+      "layerAdjacency": "stacked"
     },
     "players": [
       "white",
@@ -39,7 +40,128 @@
       "cellSize": 24
     },
     "notation": "level-file-rank",
-    "rendering_note": "This layered setup uses the same engine.topology pattern already live for Gygax Chess (grid + layers, one FEN string per layer) and should render the static starting-position diagram now, the same way Gygax's is rendered. This does NOT solve piece movement/play: Raumschach's Rook, Bishop, and Unicorn slide arbitrary distances along the level axis and combinations of axes, which Gygax's per-piece single-step cross-level moves do not support. Play/move-generation remains a separate, larger engine task -- this frontmatter change only unblocks the rulebook diagram."
+    "castling": false,
+    "enPassant": false,
+    "doubleStep": false,
+    "pawnMoveDirections": {
+      "0": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "1": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    "pawnCaptureDirections": {
+      "0": [
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "1": [
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          1,
+          -1
+        ]
+      ]
+    },
+    "promotionRegion": {
+      "rows": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "layers": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "promotionChoices": [
+      "queen",
+      "rook",
+      "bishop",
+      "knight",
+      "unicorn"
+    ],
+    "vocabulary": {
+      "unicorn": {
+        "symbols": {
+          "0": "U",
+          "1": "u"
+        }
+      }
+    },
+    "plugins": {
+      "chess": {
+        "pieces": {
+          "unicorn": {
+            "type": "rider",
+            "dirs": "triagonal"
+          }
+        }
+      }
+    }
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/raumschach-board.svg",

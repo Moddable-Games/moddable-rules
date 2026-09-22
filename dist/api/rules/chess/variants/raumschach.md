@@ -56,7 +56,7 @@ The Unicorn is colour-bound within the 3D lattice: on a 5×5×5 board, triagonal
 
 ### Queen
 
-Combines the Rook and Bishop (orthogonal and two-axis diagonal slides). Does **not** include the Unicorn's triagonal move. Cannot jump over pieces.
+Combines the Rook, Bishop and Unicorn: any number of squares through a face, an edge or a corner of the cell, 26 directions in all. Cannot jump over pieces.
 
 ### Knight
 
@@ -75,8 +75,10 @@ White Pawns move toward Black's starting area (increasing rank and/or increasing
 - **Straight-upward:** advance one level at the same file and rank (e.g., Aa2 → Ba2)
 
 **Capturing moves (White):**
-- **Diagonally-forward:** advance one rank while also moving one step in file (same level, e.g., Aa2 → Ab3)
-- **Diagonally-forward-upward:** advance one rank and one level simultaneously (e.g., Aa2 → Bb3)
+- **Diagonally-forward:** advance one rank while also moving one step in file (same level, e.g., Ac2 → Ab3, Ad3)
+- **Diagonally-upward:** rise one level while also moving one step in file (same rank, e.g., Ac2 → Bb2, Bd2)
+
+Some players also allow the forward-upward capture (Ac2 → Bc3). The sources disagree; see the recorded readings.
 
 Black Pawns move in the opposite direction (decreasing rank and/or decreasing level), with equivalent capture directions.
 

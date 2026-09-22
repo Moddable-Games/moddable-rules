@@ -87,7 +87,7 @@
 <p>The Unicorn slides any number of squares along a <strong>triagonal</strong> — moving simultaneously one step in all three axes with each step. Cannot jump over pieces. In 3D space the Unicorn has 8 triagonal directions (all 8 combinations of ±rank, ±file, ±level).</p>
 <p>The Unicorn is colour-bound within the 3D lattice: on a 5×5×5 board, triagonals partition squares into two disjoint sets. A Unicorn can never change its triagonal colour.</p>
 <h3 id="queen">Queen</h3>
-<p>Combines the Rook and Bishop (orthogonal and two-axis diagonal slides). Does <strong>not</strong> include the Unicorn’s triagonal move. Cannot jump over pieces.</p>
+<p>Combines the Rook, Bishop and Unicorn: any number of squares through a face, an edge or a corner of the cell, 26 directions in all. Cannot jump over pieces.</p>
 <h3 id="knight">Knight</h3>
 <p>Leaps to any square exactly <strong>2 steps in one axis and 1 step in another</strong> (the standard chess knight jump, extended to 3D). This gives up to 24 destinations from a central square. Always jumps over intervening pieces.</p>
 <h3 id="king">King</h3>
@@ -101,9 +101,10 @@
 </ul>
 <p><strong>Capturing moves (White):</strong></p>
 <ul class="rules">
-<li><strong>Diagonally-forward:</strong> advance one rank while also moving one step in file (same level, e.g., Aa2 → Ab3)</li>
-<li><strong>Diagonally-forward-upward:</strong> advance one rank and one level simultaneously (e.g., Aa2 → Bb3)</li>
+<li><strong>Diagonally-forward:</strong> advance one rank while also moving one step in file (same level, e.g., Ac2 → Ab3, Ad3)</li>
+<li><strong>Diagonally-upward:</strong> rise one level while also moving one step in file (same rank, e.g., Ac2 → Bb2, Bd2)</li>
 </ul>
+<p>Some players also allow the forward-upward capture (Ac2 → Bc3). The sources disagree; see the recorded readings.</p>
 <p>Black Pawns move in the opposite direction (decreasing rank and/or decreasing level), with equivalent capture directions.</p>
 <p><strong>Pawn rules:</strong></p>
 <ul class="rules">
@@ -139,12 +140,12 @@
 </nav>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Chess · Published by Moddable Games · v1.4.10</span>
+  <span class="ftr-copy">Chess · Published by Moddable Games · v1.4.11</span>
 </footer>
 
 </div>
 
-<script defer src="../../../../js/toc.js?v=1.4.10"></script>
+<script defer src="../../../../js/toc.js?v=1.4.11"></script>
 <script defer src="../../../../shared/js/surface-toggle.js"></script>
 </body>
 </html>

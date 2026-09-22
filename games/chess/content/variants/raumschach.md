@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Raumschach"
 slug: raumschach
 board: "5×5×5 (3D)"
@@ -13,6 +14,10 @@ engine:
     cols: 5
     layers: 5
     layer_labels: ["A", "B", "C", "D", "E"]
+    # The five levels are one volume, not five boards: a Rook slides up a
+    # column exactly as it slides along a file. Setup lists level A first, so
+    # a positive layer step is upward.
+    layerAdjacency: stacked
   players: [white, black]
   setup:
     - "5/5/5/PPPPP/RNKNR"
@@ -23,7 +28,65 @@ engine:
   render:
     cellSize: 24
   notation: level-file-rank
-  rendering_note: "This layered setup uses the same engine.topology pattern already live for Gygax Chess (grid + layers, one FEN string per layer) and should render the static starting-position diagram now, the same way Gygax's is rendered. This does NOT solve piece movement/play: Raumschach's Rook, Bishop, and Unicorn slide arbitrary distances along the level axis and combinations of axes, which Gygax's per-piece single-step cross-level moves do not support. Play/move-generation remains a separate, larger engine task -- this frontmatter change only unblocks the rulebook diagram."
+  castling: false
+  enPassant: false
+  doubleStep: false
+  # "The Pawn's move is a little more complicated than in 2-D chess ... a
+  # White Pawn at Ac2 can move to Ac3 (as in 2-D chess) or Bc2 and capture at
+  # Ab3, Ad3 (as in 2-D chess), or at Bb2, Bd2" (chessvariants.com). A
+  # direction is [row, column, level]; White moves toward row 0 and up.
+  pawnMoveDirections:
+    0: [[-1, 0, 0], [0, 0, 1]]
+    1: [[1, 0, 0], [0, 0, -1]]
+  pawnCaptureDirections:
+    0: [[-1, -1, 0], [-1, 1, 0], [0, -1, 1], [0, 1, 1]]
+    1: [[1, -1, 0], [1, 1, 0], [0, -1, -1], [0, 1, -1]]
+  # "Pawns promote on the last (or fifth) rank, which is the far side of
+  # level A and level B for White, and the far side of level D and level E
+  # for Black."
+  promotionRegion:
+    rows: [[0, 0], [4, 4]]
+    layers: [[0, 1], [3, 4]]
+  promotionChoices: [queen, rook, bishop, knight, unicorn]
+  vocabulary:
+    unicorn:
+      symbols:
+        0: U
+        1: u
+  plugins:
+    chess:
+      # Rook, Bishop, Queen, King and Knight need nothing declared: on a
+      # stacked board "orthogonal" is the 6 face directions, "diagonal" the 12
+      # edge directions, "all" all 26, and the Knight's leap is (0,1,2). The
+      # Unicorn is the one piece that exists only in a volume.
+      pieces:
+        unicorn:
+          type: rider
+          dirs: triagonal
+disputed:
+  - feature: "Pawn capture upward"
+    readings:
+      - source: "chessvariants.com/3d.dir/3d5.html (Balden, edited Bodlaender and Brown, last modified 2002)"
+        says: "sideways-upward only"
+        describes: "a White Pawn at Ac2 can ... capture at Ab3, Ad3 (as in 2-D chess), or at Bb2, Bd2, and (according to some) at Bc3, although I personally do not like this variant."
+      - source: "Anthony Dickins, A Guide to Fairy Chess (Dover), pp 16-18, as reported by chessvariants.com/3d.dir/3d5.html"
+        says: "sideways-upward and forward-upward"
+        describes: "Please note that Anthony Dickens supports the Bc3 move in A Guide to Fairy Chess."
+      - source: "Maack, Raumschach: Einfuehrung in die Spielpraxis (1919), pp 40-41, as reported by en.wikipedia.org/wiki/Three-dimensional_chess"
+        says: "four move sets, A to D"
+        describes: "Maack and the Hamburg space chess club played with four different move sets for the pawns ... Movement A ... Movement B ... Movement C, the new movement: This move is similar to B, but also allows capturing sideways upward ... Movement D ... pawns cannot promote."
+    engine: "sideways-upward only"
+    because: "This rulebook cites chessvariants.com, and that page names Bb2 and Bd2 and declines Bc3. Maack himself published four pawn move sets and called the question the liveliest controversy among space-chess players, so no single reading is the original. The others are recorded so a table can choose one."
+  - feature: "Where a pawn promotes"
+    readings:
+      - source: "chessvariants.com/3d.dir/3d5.html (Balden, edited Bodlaender and Brown, last modified 2002)"
+        says: "far rank of the two home levels"
+        describes: "Pawns promote on the last (or fifth) rank, which is the far side of level A and level B for White, and the far side of level D and level E for Black."
+      - source: "Maack (1919) as reported by en.wikipedia.org/wiki/Three-dimensional_chess, Movement B"
+        says: "far rank of the far level"
+        describes: "pawns only move and capture toward the promotion rank (rank E5 for White, rank A1 for Black)."
+    engine: "far rank of the two home levels"
+    because: "The rulebook's cited source says levels A and B for White. Under it a White pawn that climbs to level C or above can never promote, which is a real consequence rather than a transcription slip, so it is played as written and the other reading kept beside it."
 published: true
 status: draft
 updated: 2026-07-16
@@ -94,7 +157,7 @@ The Unicorn is colour-bound within the 3D lattice: on a 5×5×5 board, triagonal
 
 ### Queen
 
-Combines the Rook and Bishop (orthogonal and two-axis diagonal slides). Does **not** include the Unicorn's triagonal move. Cannot jump over pieces.
+Combines the Rook, Bishop and Unicorn: any number of squares through a face, an edge or a corner of the cell, 26 directions in all. Cannot jump over pieces.
 
 ### Knight
 
@@ -113,8 +176,10 @@ White Pawns move toward Black's starting area (increasing rank and/or increasing
 - **Straight-upward:** advance one level at the same file and rank (e.g., Aa2 → Ba2)
 
 **Capturing moves (White):**
-- **Diagonally-forward:** advance one rank while also moving one step in file (same level, e.g., Aa2 → Ab3)
-- **Diagonally-forward-upward:** advance one rank and one level simultaneously (e.g., Aa2 → Bb3)
+- **Diagonally-forward:** advance one rank while also moving one step in file (same level, e.g., Ac2 → Ab3, Ad3)
+- **Diagonally-upward:** rise one level while also moving one step in file (same rank, e.g., Ac2 → Bb2, Bd2)
+
+Some players also allow the forward-upward capture (Ac2 → Bc3). The sources disagree; see the recorded readings.
 
 Black Pawns move in the opposite direction (decreasing rank and/or decreasing level), with equivalent capture directions.
 
