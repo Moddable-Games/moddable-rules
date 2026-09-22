@@ -223,6 +223,7 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-22
+- Delirious Bughouse is rewritten from Monteiro's own page and plays. The rulebook ran its later stages together as if they were one game and contradicted itself on how it ends; the source gives the base game's two rules and says the first checkmate decides it. Dice Chess, Worst Move and the fairy stages are described as the separate games they are
 - Stupidhouse is rewritten from its source and plays. The rulebook said a received piece lands on a random square, which no source says. The source (Bodlaender, after John Beasley in Variant Chess, 1999) has partners play the same colour, so the partner must place a captured enemy piece on their own board instead of moving
 - Tandem Chess plays. Its rulebook had the teams wrong: it paired the two White players, where the source has each partnership play one White and one Black, on different boards. Two things the engine plays differently from the live game are recorded: seats take turns in the source's own e-mail order rather than playing both boards at once, and a Rook dropped on its home square does not bring back castling
 - Raumschach, Gygax Chess and Spherical Chess play, and their rulebooks were checked against the sources they cite on the way

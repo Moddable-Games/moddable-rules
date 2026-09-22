@@ -53,7 +53,6 @@ engine:
     set: mce-fairy-complete
   players: [white, black]
 unsupported:
-  delirious-bughouse: "Tandem chess plus relay capture, dice and a worst-move rule. Blocked on everything tandem-chess is (engine#179) before any of its own mechanics matter."
   centennial-chess: "The Steward, Camel, Murray Lion and Rotating Spearman are named in the setup and declared nowhere: the variant carries a setup string and no `vocabulary`, so it throws on the first unmapped symbol. The Spearman additionally needs a persistent per-piece heading, which no piece has."
   grande-acedrex: "The Griffion, Unicorn, Lion, Giraffe, Crocodile and Rhinoceros are named in the setup and declared nowhere: no `vocabulary` block, so it throws on the first unmapped symbol. The Unicorn additionally moves as a knight on its first move and a bishop thereafter, which needs move-count state."
   yalta-chess: "Three players on a hexagonal board cut into three Y-shaped sectors meeting at a centre. The trisected renderer is engine issue #26; without it `parsePosition` has no position to parse and the variant throws."
