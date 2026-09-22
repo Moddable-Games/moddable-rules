@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Tandem Chess
 slug: tandem-chess
 board: "8×8 (two boards)"
@@ -11,14 +12,54 @@ engine:
     type: grid
     rows: 8
     cols: 8
-    boards: 2
+    layers: 2
+    layer_labels: ["Board A", "Board B"]
+    # Each board is played by its own two seats, and each is written as an
+    # ordinary FEN: White and Black on Board B are seats 2 and 3.
+    layerSeats: [[0, 1], [2, 3]]
   players: [white1, black1, white2, black2]
+  # The turn-based order the source gives for playing by e-mail: "South begins
+  # by moving a white piece. North replies by moving a black piece followed by
+  # a white piece. South replies by moving a white piece followed by a black
+  # piece." South is White on Board A and Black on Board B; North the other two.
+  turnOrder:
+    opening: [0]
+    cycle: [1, 2, 0, 3]
   render:
     cellSize: 34
   setup:
     - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
     - "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   notation: algebraic
+  plugins:
+    chess:
+      playerCount: 4
+      advancement: { 0: -1, 1: 1, 2: -1, 3: 1 }
+      # "For each team, one player plays with white pieces and the other plays
+      # with black." Partners sit on different boards.
+      teams: [[0, 3], [1, 2]]
+      # "All captured pieces are given to ones partner. Once received they
+      # become ... pieces that may be dropped onto an empty square on the board
+      # to be used as ones own."
+      drops: true
+      capturesTo: partner
+      dropRegion:
+        layers: [[0, 0], [0, 0], [1, 1], [1, 1]]
+      # "One is not allowed to give check or mate with a dropped piece."
+      dropMayNotCheck: true
+      # "The match continues until both games are completed."
+      matchEnds: all
+approximations:
+  - feature: "A Rook dropped on its home square"
+    source: "chessvariants.com/multiplayer.dir/tandem.html"
+    says: "A Rook dropped onto either Rook home square is considered not to have moved; so one may castle with such a Rook."
+    engine: "A dropped Rook never restores a castling right."
+    because: "Castling rights are kept per side and lost for good when the King or that side's Rook moves or is taken. Whether the King itself has moved is not recorded separately, so the engine cannot tell when a dropped Rook should bring a right back."
+  - feature: "Simultaneous play"
+    source: "chessvariants.com/multiplayer.dir/tandem.html"
+    says: "Bughouse is best played with clocks and with little time per player."
+    engine: "The turn-based order the same source gives for e-mail play."
+    because: "The live game runs both boards at once against clocks. Real-time sessions are engine#177; until then the published turn-based order keeps each board alternating White and Black."
 published: true
 ---
 
@@ -34,7 +75,7 @@ Two standard 8×8 boards:
 - **Board A:** White1 (Team A) vs Black1 (Team B)
 - **Board B:** White2 (Team A) vs Black2 (Team B)
 
-Teams: White1 + White2 vs Black1 + Black2. Partners sit on the same side of the table. On each board, one team member plays White and the other plays Black.
+Teams: White1 + Black2 vs Black1 + White2. Partners sit on the same side of the table, on different boards: for each team, one partner plays White and the other plays Black, so a piece captured from one colour arrives as the partner's own.
 
 ### The Relay Mechanic
 

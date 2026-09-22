@@ -53,7 +53,6 @@ engine:
     set: mce-fairy-complete
   players: [white, black]
 unsupported:
-  tandem-chess: "Two games live at once, four players in two teams, and a piece captured on one board passed to the partner to drop on the other. The two boards are not the obstacle - a stack of boards is one board with a layer coordinate, which Alice and Raumschach play on. What nothing models is two turn orders running side by side, a team that wins or loses together, and a hand that belongs to another game. Waits on the session model (engine#177); scoped in engine#179."
   delirious-bughouse: "Tandem chess plus relay capture, dice and a worst-move rule. Blocked on everything tandem-chess is (engine#179) before any of its own mechanics matter."
   stupidhouse: "Tandem chess where a received piece lands on a random empty square rather than a chosen one. Blocked on everything tandem-chess is (engine#179); the random square itself is only the seeded RNG."
   centennial-chess: "The Steward, Camel, Murray Lion and Rotating Spearman are named in the setup and declared nowhere: the variant carries a setup string and no `vocabulary`, so it throws on the first unmapped symbol. The Spearman additionally needs a persistent per-piece heading, which no piece has."

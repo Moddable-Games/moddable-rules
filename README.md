@@ -223,6 +223,7 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-22
+- Tandem Chess plays. Its rulebook had the teams wrong: it paired the two White players, where the source has each partnership play one White and one Black, on different boards. Two things the engine plays differently from the live game are recorded: seats take turns in the source's own e-mail order rather than playing both boards at once, and a Rook dropped on its home square does not bring back castling
 - Raumschach, Gygax Chess and Spherical Chess play, and their rulebooks were checked against the sources they cite on the way
 - Raumschach's Queen moves as Rook, Bishop and Unicorn together; the rulebook had left out the Unicorn. Its pawn captures upward by changing file, Bb2 and Bd2 from Ac2, where the rulebook had it changing file and rank at once. Maack published four pawn move sets himself, so the pawn and its promotion rank are recorded as disputes with each reading
 - Gygax Chess's setup was upside down against the source: Gold starts on ranks 1 and 2. The rulebook also numbered the boards the opposite way to the source, so "3g1" named the Dragon where the source has the Elemental, and it gave a Sylph on the middle board only its home squares to return to, not the square directly above. The board diagram is redrawn
