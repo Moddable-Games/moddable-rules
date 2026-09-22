@@ -82,7 +82,7 @@ engine:
     chess:
       # Every direction is listed in full. On a stacked board the named sets
       # ("orthogonal", "all", "knight") are those of a volume, and almost
-      # every Dragonchess piece moves on its own board only.
+      # every Gygax Chess piece moves on its own board only.
       pieces:
         warrior:
           movement: pawn
