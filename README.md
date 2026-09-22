@@ -223,6 +223,7 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-22
+- Stupidhouse is rewritten from its source and plays. The rulebook said a received piece lands on a random square, which no source says. The source (Bodlaender, after John Beasley in Variant Chess, 1999) has partners play the same colour, so the partner must place a captured enemy piece on their own board instead of moving
 - Tandem Chess plays. Its rulebook had the teams wrong: it paired the two White players, where the source has each partnership play one White and one Black, on different boards. Two things the engine plays differently from the live game are recorded: seats take turns in the source's own e-mail order rather than playing both boards at once, and a Rook dropped on its home square does not bring back castling
 - Raumschach, Gygax Chess and Spherical Chess play, and their rulebooks were checked against the sources they cite on the way
 - Raumschach's Queen moves as Rook, Bishop and Unicorn together; the rulebook had left out the Unicorn. Its pawn captures upward by changing file, Bb2 and Bd2 from Ac2, where the rulebook had it changing file and rank at once. Maack published four pawn move sets himself, so the pawn and its promotion rank are recorded as disputes with each reading
