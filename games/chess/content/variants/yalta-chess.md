@@ -4,15 +4,55 @@ slug: yalta-chess
 board: Hexagonal Y-trisection
 players: 3
 parent: chess
+playable: true
 win: Be the last player with a King remaining
 special: "3-player chess on a hexagonal board divided into three Y-shaped sectors, one per player (Red, Green, Blue), meeting at a central junction. Checkmating a player captures their army. Alliances encouraged."
+approximations:
+  - feature: "When a checkmate is judged"
+    source: "'When a player is in check, they must resolve it on their turn... The player to their left may attempt to help them by interposing a piece or capturing the checker on that player's own turn.'"
+    engine: "A mate is judged when the mated player's turn comes, not when the check is given, so the player who moves in between may still break it. The credit goes to whoever gave the check first, per the source's rule for two checks at once."
+  - feature: "The captured army's colour"
+    source: "'The player who delivered the checkmate takes control of all the checkmated player's remaining pieces and may use them immediately.'"
+    engine: "The pieces change to the new commander's colour. Each remembers the seat it came from, so a captured pawn keeps advancing the way it always did and promotes on a back rank that is not its original owner's."
+  - feature: "A King that can be taken"
+    source: "The page does not say what happens when a player's King is left where another can capture it, which three players make possible: a third player's move can uncover an attack before the King's owner moves."
+    engine: "The King is taken and the army passes to the player who took it, as it would on a mate."
+  - feature: "Stalemate"
+    source: "Not addressed by the source."
+    engine: "A player to move with no legal move who is not in check ends the game drawn, as between two players."
+  - feature: "The Knight at the centre"
+    source: "'Knights always land on a square of the opposite color to their starting square, even when crossing sectors. Their path near the junction may appear unusual.'"
+    engine: "A Knight's leap is two squares straight and one to the side, walked along the lines of the board in either order; near the centre the two orders can end on different squares and both are allowed. Every such square is of the opposite colour."
 engine:
   topology:
     type: hexagonal-trisection
   players: [red, green, blue]
+  # One block per player in turn order, each written as that player would
+  # write its own half: the rank nearest the centre first, its back rank last.
+  # Squares are named by sector as well as file and rank - Red's e2 is Ae2,
+  # Green's Be2, Blue's Ce2.
+  setup: "8/8/[rP][rP][rP][rP][rP][rP][rP][rP]/[rR][rN][rB][rQ][rK][rB][rN][rR]/8/8/[gP][gP][gP][gP][gP][gP][gP][gP]/[gR][gN][gB][gQ][gK][gB][gN][gR]/8/8/[bP][bP][bP][bP][bP][bP][bP][bP]/[bR][bN][bB][bQ][bK][bB][bN][bR]"
+  vocabulary:
+    king:
+      symbols: { 0: rK, 1: gK, 2: bK }
+    queen:
+      symbols: { 0: rQ, 1: gQ, 2: bQ }
+    rook:
+      symbols: { 0: rR, 1: gR, 2: bR }
+    bishop:
+      symbols: { 0: rB, 1: gB, 2: bB }
+    knight:
+      symbols: { 0: rN, 1: gN, 2: bN }
+    pawn:
+      symbols: { 0: rP, 1: gP, 2: bP }
+  pieces:
+    set: mce-4player
+  plugins:
+    chess:
+      playerCount: 3
+      matedArmy: mater
   render:
     cellSize: 24
-  setup_status: "back-rank order and player colours confirmed against the primary source's starting-position diagram (credited to David Howe) 2026-07. Exact per-square coordinates still not encoded — no standard coordinate system exists yet for a hex-trisection board; that is in scope for moddable-engine#26."
 ---
 
 ## Overview
@@ -23,7 +63,7 @@ Yalta Chess is a 3-player chess variant played on a hexagonal board divided into
 
 ## Board
 
-The board is a **hexagon**, divided by three lines running from the centre to alternating corners into three equal Y-shaped (parallelogram/rhombus) sectors, one per player. Each sector contains a standard 8×8-equivalent chess playing area, checkered in the ordinary alternating pattern, with each player's back rank at the outer hexagon edge and pieces fanning inward toward the central junction. Pieces move using standard FIDE movement within their sector; the central junction, where all three sectors meet, is the area where a piece moving from one sector toward another has a choice of path.
+The board is a **hexagon** of 96 quadrilateral squares — "three boards of 32 cells, one for each player" (chessvariants.com). Lines from the centre to the midpoint of every side cut it into six four-by-four quarters, each wrapped round one corner, and each player's half is two neighbouring quarters: four ranks of eight files, the ordinary half of a chessboard, with its back rank along one side of the hexagon. The squares are checkered in the ordinary alternating pattern. The three halves meet at the centre, where six squares touch at a point instead of four; this is the junction where a piece passing from one half to another may have a choice of path.
 
 This matches the board graphic on the primary source page (chessvariants.com/multiplayer.dir/yalta.html, graphic by Daniel Lindström) — a hexagon, not a circle or rings. The variant is **not** circular/annular in structure, unlike Byzantine Chess or Circular Chess. It shares its fundamental hex-trisection shape with San-kwo-k'i (xiangqi hub) — see that file for a note on a possible shared renderer (moddable-engine#26).
 
@@ -39,7 +79,9 @@ Each player sets up a complete standard FIDE army (8 pieces + 8 pawns) in their 
 
 This places the **Queen immediately to the left of the King**, matching the documented rule (queen placement was deliberately chosen "for the sake of symmetry" across the three sectors). Pawns occupy the rank immediately in front of the back rank, toward the central junction.
 
-Exact per-square coordinates are not yet encoded — there is no standardised coordinate system for a hex-trisection board yet (moddable-engine#26 covers designing one, shared with San-kwo-k'i). A secondary, independently-built implementation exists at yalta-chess.com (documented at smlep.github.io/jekyll/update/2020/12/26/yaltachess.html) using a 96-square-total board (32 per player) with its own coordinate system, but that page explicitly notes its rules "differed depending on the articles" it drew from — treat it as a cross-reference for board shape only, not as an authoritative source for exact starting squares or total square count, which may differ from the original Lindström book.
+The board has 96 squares: each player's half is four ranks of eight files, and the three halves meet at the centre. It is the board of the independently built implementation at yalta-chess.com (documented at smlep.github.io/jekyll/update/2020/12/26/yaltachess.html), which uses "a 96-square-total board (32 per player)", and of a second at github.com/LordBaryhobal/yalta, which divides the hexagon into six four-by-four quadrilaterals round its corners, two to a player. That page also notes its rules "differed depending on the articles" it drew from, so it is the board's shape that is taken from it, not its rules.
+
+A player's files run along its own side of the hexagon; the a-file and the h-file run up the two neighbouring sides. Crossing the centre, a player's files a–d lead into the half of the player on its left and files e–h into the half of the player on its right, each counting back down toward that player's back rank. Squares are named by sector: Red's e2 is Ae2, Green's is Be2, Blue's Ce2.
 
 ## Rules
 
