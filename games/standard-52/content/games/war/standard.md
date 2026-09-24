@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: War
 slug: war
 board: none
@@ -9,6 +9,7 @@ win: Collect all 52 cards
 special: "2-player game of pure chance. The deck is split equally (26 cards each). Each player simultaneously reveals their top card — the higher rank wins both. On a tie, War occurs: each player plays 3 face-down then 1 face-up; higher face-up card wins all 10. No decisions required."
 published: true
 engine:
+  players: [player1, player2]
   components:
     deck:
       type: standard-52
@@ -23,6 +24,11 @@ engine:
     defaultPlayers: 2
     perPlayer: all
     community: 0
+  plugins:
+    standard-52:
+      game: war
+      rankOrder: [2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A]
+      warFaceDown: 3
 ---
 
 ## War

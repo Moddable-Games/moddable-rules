@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Crazy Eights
 slug: crazy-eights
 board: none
@@ -8,6 +8,16 @@ parent: standard-52
 win: First to empty their hand
 special: "Shedding card game. Players match the top discard by suit or rank. Eights are wild — playing an 8 lets you name the next suit. The direct ancestor of Uno. 2–5 players, fast and accessible."
 published: true
+approximations:
+  - feature: "Players and the deal"
+    source: "'2–5 players.' '2: 7 each; 3–5: 5 each.'"
+    engine: "Four players, five cards each."
+  - feature: "Scoring across hands"
+    source: "'Scoring (optional): The winner scores points equal to the cards remaining in opponents' hands ... Play to 100 or 200 points across multiple hands.'"
+    engine: "One hand, won by the first player out. The page marks the scoring optional."
+  - feature: "A blocked game"
+    source: "'If the stock is exhausted and they still cannot play, they pass.' The page does not say what happens when every player passes."
+    engine: "When every player passes in turn with the stock empty, the hand ends and the player holding the fewest cards wins; a tie for fewest is a draw."
 engine:
   components:
     deck:
@@ -24,6 +34,11 @@ engine:
     perPlayer: 5
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: shedding
+      wild: 8
+      starterSkips: 8
 ---
 
 ## Crazy Eights

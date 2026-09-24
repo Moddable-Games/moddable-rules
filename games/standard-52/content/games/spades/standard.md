@@ -1,14 +1,21 @@
 ---
-playable: false
+playable: true
 title: Spades
 slug: spades
 board: "none"
 players: "4"
 parent: standard-52
-win: "First partnership to 500 points (or lowest score if both reach 500 on the same hand)"
+win: "First partnership to 500 points (the higher score if both reach 500 on the same hand)"
 special: "Partnership trick-taking. Spades are always trump. Players bid their predicted tricks; tricks below bid incur a penalty. Nil bid (zero tricks) earns a large bonus if made."
+approximations:
+  - feature: "Optional rules"
+    source: "'Blind Nil (optional)', 'Joker Variant'"
+    engine: "Not played. Nil is bid as 0, after the bidder has seen their cards."
+  - feature: "Tricks taken by a nil bidder"
+    source: "The page scores a nil bid on its own and does not say what the nil bidder's tricks count for."
+    engine: "They do not count towards the partner's bid and are counted as bags, as Pagat gives it."
 engine:
-  players: [north, south, east, west]
+  players: [north, east, south, west]
   components:
     deck:
       type: standard-52
@@ -24,6 +31,23 @@ engine:
     perPlayer: 13
     community: 0
   partnerships: [[north, south], [east, west]]
+  plugins:
+    standard-52:
+      game: trick-taking
+      rankOrder: [2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A]
+      trump: spades
+      breaking: spades
+      bidding:
+        min: 0
+        max: 13
+        nil: true
+      scoring:
+        type: contract
+        perTrick: 10
+        bagLimit: 10
+        bagPenalty: 100
+        nil: 100
+      target: 500
 published: true
 ---
 

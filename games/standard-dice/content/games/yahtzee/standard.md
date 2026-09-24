@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Yahtzee
 slug: yahtzee
 board: "none"
@@ -8,7 +8,15 @@ parent: standard-dice
 win: "Highest total score after 13 rounds"
 order: 1
 special: "Five dice, 13 scoring categories, one shot at a Yahtzee. Fill every box across three rolls per turn."
+approximations:
+  - feature: "Players"
+    source: "'A dice game for 1–4 players'"
+    engine: "Two players."
+  - feature: "Joker rules without the bonus"
+    source: "'If you scored 0 in the Yahtzee box, you do not receive the bonus.' The page gives the joker rules only with the bonus."
+    engine: "The joker rules apply only when the bonus does: a Yahtzee rolled after a zero in the Yahtzee box scores as ordinary dice."
 engine:
+  players: [player-1, player-2]
   components:
     dice: 5
     die_type: d6
@@ -22,6 +30,28 @@ engine:
     defaultPlayers: 2
     perPlayer: 0
     community: 5
+  plugins:
+    standard-dice:
+      game: scorecard
+      dice: 5
+      rolls: 3
+      categories:
+        aces: { count: 1 }
+        twos: { count: 2 }
+        threes: { count: 3 }
+        fours: { count: 4 }
+        fives: { count: 5 }
+        sixes: { count: 6 }
+        three-of-a-kind: { ofAKind: 3, score: total }
+        four-of-a-kind: { ofAKind: 4, score: total }
+        full-house: { pattern: [3, 2], score: 25 }
+        small-straight: { straight: 4, score: 30 }
+        large-straight: { straight: 5, score: 40 }
+        yahtzee: { ofAKind: 5, score: 50 }
+        chance: { score: total }
+      bonuses:
+        - { categories: [aces, twos, threes, fours, fives, sixes], atLeast: 63, score: 35 }
+      repeat: { category: yahtzee, bonus: 100 }
 published: true
 ---
 

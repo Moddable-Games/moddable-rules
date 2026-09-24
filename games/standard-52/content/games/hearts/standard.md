@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Hearts
 slug: hearts
 board: "none"
@@ -7,6 +7,16 @@ players: "4"
 parent: standard-52
 win: "Lowest score when any player reaches 100 points"
 special: "Trick-avoidance game. Hearts and the Queen of Spades are penalty cards. Shooting the Moon scores all 26 points against your opponents."
+approximations:
+  - feature: "Penalty cards on the first trick"
+    source: "'No penalty cards (Hearts or Queen of Spades) may be played on the first trick, unless the player has no Clubs.'"
+    engine: "A player who cannot follow the first trick may not discard a Heart or the Queen of Spades while holding any other card, as Pagat gives it. Read literally the page's exception covers everyone who cannot follow a Club lead, which would leave the rule nothing to forbid."
+  - feature: "The shooter's choice"
+    source: "'the shooter may choose: Add 26 points to each opponent's score (shooter scores 0), OR Subtract 26 points from their own score.'"
+    engine: "Chosen for the shooter: 26 to each opponent, unless that would end the game with the shooter not alone in the lowest score, when 26 comes off their own score instead."
+  - feature: "Optional rules"
+    source: "'Shooting the Sun (optional)', 'Omnibus Hearts', '3-Player Hearts', '5-Player Hearts'"
+    engine: "Not played. Four players, standard scoring."
 engine:
   players: [player1, player2, player3, player4]
   components:
@@ -23,6 +33,22 @@ engine:
     defaultPlayers: 4
     perPlayer: all
     community: 0
+  plugins:
+    standard-52:
+      game: trick-taking
+      rankOrder: [2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A]
+      trump: none
+      leadsWith: 2-clubs
+      breaking: hearts
+      firstTrickForbids: [hearts, Q-spades]
+      passing:
+        count: 3
+        cycle: [left, right, across, none]
+      scoring:
+        type: penalty
+        points: { hearts: 1, Q-spades: 13 }
+        moon: 26
+      target: 100
 published: true
 ---
 

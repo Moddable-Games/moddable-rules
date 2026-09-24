@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Whist
 slug: whist
 board: none
@@ -8,7 +8,15 @@ parent: standard-52
 win: First partnership to win a rubber (best of 3 games) or reach 5 points in Short Whist
 special: "Classic 4-player partnership trick-taking game and direct ancestor of Bridge. No bidding — trump is determined by the last card dealt. 13 tricks per hand; 1 point per trick above 6. Dominant card game in Europe and North America from 1750 to ~1900."
 published: true
+approximations:
+  - feature: "Game and rubber"
+    source: "'Short Whist: First partnership to 5 points wins the game.' 'A rubber is the best of three games.'"
+    engine: "One game of Short Whist, to 5 points. The rubber, three games of it, is not kept."
+  - feature: "Honours"
+    source: "'Honors (optional): The four highest trumps ... A partnership holding 3 of the 4 honors scores 2 points'"
+    engine: "Not scored. The page marks the rule optional, and only tricks above the book count."
 engine:
+  players: [north, east, south, west]
   components:
     deck:
       type: standard-52
@@ -23,6 +31,16 @@ engine:
     defaultPlayers: 4
     perPlayer: 13
     community: 0
+  plugins:
+    standard-52:
+      game: trick-taking
+      rankOrder: [2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A]
+      trump: last-card
+      partnerships: [[north, south], [east, west]]
+      scoring:
+        type: over-book
+        book: 6
+      target: 5
 ---
 
 ## Whist

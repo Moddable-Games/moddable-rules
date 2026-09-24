@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: All Fives
 slug: all-fives
 board: "none"
@@ -7,6 +7,16 @@ players: "2–4"
 parent: double-six-dominoes
 win: "First to reach 61 or 121 points"
 special: "Score points as you play — whenever the open ends of the chain total a multiple of 5, score that many. Doubles branch in four directions."
+approximations:
+  - feature: "Players and the deal"
+    source: "'2 players: draw 7 tiles each; remainder = boneyard. 3–4 players: draw 5 tiles each.'"
+    engine: "Two players, seven tiles each, the rest the boneyard."
+  - feature: "Counting the spinner"
+    source: "'A double placed as the first tile (the spinner) has four open ends until all four branches are started; once all four branches have at least one tile, the double contributes 0.'"
+    engine: "As Pagat counts it: the spinner counts both its halves until both of its sides have been played on, and its other two sides open only then. The page's wording would count a lone 5-5 as twenty."
+  - feature: "The short game"
+    source: "'First player to reach 61 points (or 121 in the long game) wins.'"
+    engine: "The short game, to 61."
 engine:
   components:
     tiles: double6
@@ -22,6 +32,17 @@ engine:
     perPlayer: 7
     community: 0
     remainder: boneyard
+  plugins:
+    double-six-dominoes:
+      game: dominoes
+      draw: true
+      spinner: true
+      scoreFives: true
+      scoring:
+        out: opponents
+        blocked: others
+        roundTo: 5
+      target: 61
 published: true
 ---
 
