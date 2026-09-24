@@ -14,6 +14,12 @@ engine:
     cols: 16
     wrap: files
   players: [white, black]
+  # Drawn as the rings its source draws: row 1 of the setup is the outer ring,
+  # the last row the inner (engine#27). Turned half round so that White, whose
+  # army straddles the seam between files p and a, sits at the bottom.
+  render:
+    mode: annular
+    rotation: 180
   setup: "KP4pqkp4PQ/BP4pbbp4PB/NP4pnnp4PN/RP4prrp4PR"
   castling: false
   enPassant: false
