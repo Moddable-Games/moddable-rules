@@ -16,7 +16,14 @@ engine:
   setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
   plugins:
     chess:
+      # Two Dragons each in reserve, entering only on the player's own first
+      # rank. Captures never feed the reserve.
       drops: true
+      capturesTo: none
+      dropZone: [0]
+      initialHands:
+        - [dragon, dragon]
+        - [dragon, dragon]
       pieces:
         dragon:
           type: compose

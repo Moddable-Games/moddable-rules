@@ -13,10 +13,9 @@ engine:
     rows: 8
     cols: 8
   players: [white, black]
-  setup: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+  setup: "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR"
   plugins:
     chess:
-      setup: "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR"
       castling: false
       enPassant: false
       doubleStep: false
@@ -79,12 +78,12 @@ A Thai chess (Makruk) variant where the King cannot move out of check. When in c
 
 **Board:** Standard 8×8.
 
-**Setup:** Standard chess starting position.
+**Setup:** The Makruk starting position. Pawns start on the third rank, and the pieces are Makruk's: Khon, Met, Rua, Ma.
 
-**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+**FEN:** `rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR w - - 0 1`
 ### Rules
 
-All standard chess rules apply, except:
+All Makruk rules apply, except:
 - When in check, the King CANNOT move. You must resolve the check by:
   - Capturing the checking piece (with any piece other than the King), OR
   - Blocking the check (interposing a piece between the King and the attacker).

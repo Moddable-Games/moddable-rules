@@ -222,6 +222,10 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-24
+- Makpong starts from the Makruk position with Makruk's pieces, as pychess gives the game ("Pieces, win conditions, and other rules are the same as Makruk"). The page and its engine block declared the chess starting position while its plugin block declared Makruk's, so the diagram and every engine path except the play page started it from the chess position
+- Dragon Chess holds its two Dragons in reserve and enters them on its own first rank through the shared drop rule. Captured pieces no longer go into the reserve: "If a Dragon on the board is captured, it is gone permanently"
+
 #### 2026-09-22
 - Delirious Bughouse is rewritten from Monteiro's own page and plays. The rulebook ran its later stages together as if they were one game and contradicted itself on how it ends; the source gives the base game's two rules and says the first checkmate decides it. Dice Chess, Worst Move and the fairy stages are described as the separate games they are
 - Stupidhouse is rewritten from its source and plays. The rulebook said a received piece lands on a random square, which no source says. The source (Bodlaender, after John Beasley in Variant Chess, 1999) has partners play the same colour, so the partner must place a captured enemy piece on their own board instead of moving
