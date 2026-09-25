@@ -222,6 +222,10 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-09-25
+- Circular, Byzantine and Toroidal Byzantine Chess show their ring boards on their pages and in their PDFs. The diagrams existed and nothing included them
+- The PDFs are current again, including Yalta Chess, Sankaku Shogi and the ring boards. Publishing had failed since 13 September because the PDFs and their hashes had not been rebuilt, so the release still carried the older versions
+
 #### 2026-09-24
 - Makpong starts from the Makruk position with Makruk's pieces, as pychess gives the game ("Pieces, win conditions, and other rules are the same as Makruk"). The page and its engine block declared the chess starting position while its plugin block declared Makruk's, so the diagram and every engine path except the play page started it from the chess position
 - Dragon Chess holds its two Dragons in reserve and enters them on its own first rank through the shared drop rule. Captured pieces no longer go into the reserve: "If a Dragon on the board is captured, it is gone permanently"
