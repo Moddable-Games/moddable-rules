@@ -55,7 +55,6 @@ engine:
 unsupported:
   centennial-chess: "The Steward, Camel, Murray Lion and Rotating Spearman are named in the setup and declared nowhere: the variant carries a setup string and no `vocabulary`, so it throws on the first unmapped symbol. The Spearman additionally needs a persistent per-piece heading, which no piece has."
   grande-acedrex: "The Griffion, Unicorn, Lion, Giraffe, Crocodile and Rhinoceros are named in the setup and declared nowhere: no `vocabulary` block, so it throws on the first unmapped symbol. The Unicorn additionally moves as a knight on its first move and a bishop thereafter, which needs move-count state."
-  yalta-chess: "Three players on a hexagonal board cut into three Y-shaped sectors meeting at a centre. The trisected renderer is engine issue #26; without it `parsePosition` has no position to parse and the variant throws."
 ---
 
 <div class="section variant-hub">
@@ -315,7 +314,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [San-kwo-k'i](variants/san-kwo-ki/) -- Three-player Chinese chess representing the Three Kingdoms (220-280 CE)
 - [Tandem Chess](variants/tandem-chess/) -- Two boards, 4 players; captured pieces passed to partner for drops
 - [Vierschach](variants/vierschach/) -- German 4-player chess (Lutze); 160-square cross board; allied teams
-- [Yalta Chess](variants/yalta-chess/) -- 3-player on a circular Y-trisection board; captured armies absorbed
+- [Yalta Chess](variants/yalta-chess/) -- 3-player on a hexagonal board of three half-boards; captured armies absorbed
 
 </div>
 

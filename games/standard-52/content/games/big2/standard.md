@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Big 2
 slug: big2
 board: "none"
@@ -7,6 +7,16 @@ players: "4"
 parent: standard-52
 win: "First to empty hand"
 special: "Climbing card game where 2 is the highest rank. Play singles, pairs, triples, or five-card poker hands."
+approximations:
+  - feature: "Comparing five-card hands of one kind"
+    source: "'Five-card hand: By poker hand type, then by highest card.'"
+    engine: "By kind in the order straight, flush, full house, four of a kind, straight flush; then a straight or flush by its highest card (rank, then suit), a full house by its triple and four of a kind by its four, as Pagat gives it. The royal flush is the highest straight flush rather than a kind of its own."
+  - feature: "Which five cards make a straight"
+    source: "The page names straights and does not say where the 2 may stand in one."
+    engine: "Five ranks in a row in the game's own order, 3 up to 2, without wrapping round: J-Q-K-A-2 is a straight and A-2-3-4-5 is not."
+  - feature: "The opening lead"
+    source: "'Player with the 3 of Diamonds leads the first round.'"
+    engine: "That player leads anything; the 3 of Diamonds need not be in it. The game is a single hand, won by the first player out."
 engine:
   players: [player1, player2, player3, player4]
   components:
@@ -23,9 +33,13 @@ engine:
     perPlayer: all
     community: 0
   plugins:
-    big2:
-      variant: standard
-      suitRank: [diamonds, clubs, hearts, spades]
+    standard-52:
+      game: climbing
+      rankOrder: [3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A, 2]
+      suitOrder: [diamonds, clubs, hearts, spades]
+      combinations: [single, pair, triple, five-card]
+      fiveCardHands: [straight, flush, full-house, four-of-a-kind, straight-flush]
+      firstLead: 3-diamonds
 published: true
 ---
 

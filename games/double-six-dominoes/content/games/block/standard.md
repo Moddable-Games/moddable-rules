@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Block Dominoes
 slug: block
 board: "none"
@@ -8,6 +8,13 @@ parent: double-six-dominoes
 win: "First to empty hand, or lowest pip count if game blocks"
 order: 1
 special: "The foundational domino game — match ends, no boneyard draws. If no one can play, the player with lowest pip count wins."
+approximations:
+  - feature: "Players and the deal"
+    source: "'2 players: draw 7 tiles each; 3–4 players: draw 5 tiles each.'"
+    engine: "Two players, seven tiles each."
+  - feature: "Doubles"
+    source: "'Doubles are placed perpendicular to the chain (crosswise) and both ends remain open.'"
+    engine: "A double played on an end leaves that end showing its number, as a crosswise double does. The line has two ends; a double does not open more."
 engine:
   components:
     tiles: double6
@@ -22,6 +29,13 @@ engine:
     perPlayer: 7
     community: 0
     remainder: boneyard
+  plugins:
+    double-six-dominoes:
+      game: dominoes
+      draw: false
+      scoring:
+        out: opponents
+        blocked: others-minus-own
 published: true
 ---
 

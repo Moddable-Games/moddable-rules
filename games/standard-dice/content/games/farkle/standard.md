@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Farkle
 slug: farkle
 board: "none"
@@ -7,7 +7,21 @@ players: "2–6"
 parent: standard-dice
 win: "First to reach 10,000 points; opponents each get one final turn"
 special: "Roll 6 dice, bank scoring combinations, press your luck. Roll nothing that scores and lose your entire turn's points."
+approximations:
+  - feature: "Players"
+    source: "'A press-your-luck dice game for 2–6 players.'"
+    engine: "Four players."
+  - feature: "A tie at the end"
+    source: "'Ties are broken by a sudden-death roll-off.'"
+    engine: "A tie for the highest score is a draw. The roll-off's own rules are not given."
+  - feature: "Six of a kind"
+    source: "'Six of a kind: 4× three-of-a-kind value (or 3,000)'"
+    engine: "Four times the three of a kind."
+  - feature: "The straight"
+    source: "'Straight (1–2–3–4–5–6): 1,500 (house rule variant: 3,000)'"
+    engine: "1,500, the standard value."
 engine:
+  players: [player-1, player-2, player-3, player-4]
   components:
     dice: 6
     die_type: d6
@@ -22,6 +36,18 @@ engine:
     defaultPlayers: 4
     perPlayer: 0
     community: 6
+  plugins:
+    standard-dice:
+      game: press-your-luck
+      dice: 6
+      singles: { 1: 100, 5: 50 }
+      triples: { 1: 1000, 2: 200, 3: 300, 4: 400, 5: 500, 6: 600 }
+      multiples: { 4: 2, 5: 3, 6: 4 }
+      straight: 1500
+      threePairs: 1500
+      opening: 500
+      target: 10000
+      finalRound: true
 published: true
 ---
 

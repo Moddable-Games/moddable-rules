@@ -14,6 +14,10 @@ engine:
     cols: 16
     wrap: files
   players: [white, black]
+  # Drawn as the rings its source draws: row 1 of the setup is the outer ring,
+  # the last row the inner (engine#27).
+  render:
+    mode: annular
   setup: "rp4PRRP4pr/np4PNNP4pn/bp4PBBP4pb/qp4PKQP4pk"
   castling: false
   enPassant: false

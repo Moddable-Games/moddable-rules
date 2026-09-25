@@ -97,7 +97,7 @@ related:
   - chess
   - go
 unsupported:
-  san-kwo-ki: "three-player hexagonal trisected board (see engine issue #26)"
+  san-kwo-ki: "Three players on the trisected hexagon. The engine has the board in both forms (engine#26) - squares for Yalta Chess, points for this - but a board of points is drawn only once its size is declared, and the sources do not give it: the diagrams show a nine-point back row, a river and a centre whose lines 'are not straight throughout', and not how many ranks lie between. The three-player Xiangqi rules (the Banner, Fire and Wind pieces, a captured army passing to the victor) are also unmodelled."
 ---
 
 <div class="section variant-hub">

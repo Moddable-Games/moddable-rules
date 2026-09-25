@@ -76,7 +76,6 @@ related:
   - chess
   - go
 unsupported:
-  sankaku-shogi: "A triangular board. Triangular cell geometry is not modelled."
 ---
 
 <div class="section variant-hub">

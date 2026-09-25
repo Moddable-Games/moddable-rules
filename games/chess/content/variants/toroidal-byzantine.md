@@ -13,6 +13,13 @@ engine:
     cols: 16
     wrap: torus
   players: [white, black]
+  # Drawn as the rings of the Byzantine board it is built on: row 1 of the
+  # setup is the outer ring, the last row the inner (engine#27). The radial
+  # join between the inner and outer rings is a rule, not drawn. Turned a
+  # quarter so that White, on files c-f, sits at the bottom.
+  render:
+    mode: annular
+    rotation: 270
   setup: "2PKQP4pkqp2/2PBBP4pbbp2/2PNNP4pnnp2/2PRRP4prrp2"
   notation: ring-position
   castling: false
@@ -67,8 +74,8 @@ Note: the source's own overview text loosely refers to a modern circular-board r
 
 In Toroidal Byzantine Chess, the **radial edges** also wrap:
 
-- A piece sliding inward from ring 4 (the innermost ring) emerges from ring 1 (the outermost ring) at the same angular position
-- A piece sliding outward from ring 1 emerges from ring 4 at the same angular position
+- A piece sliding inward past ring 1 (the innermost ring) emerges from ring 4 (the outermost ring) at the same angular position
+- A piece sliding outward past ring 4 emerges from ring 1 at the same angular position
 - Diagonal movement that crosses the radial boundary does so with the corresponding offset
 
 This means there are truly no edges on the board — every ring is adjacent to two rings on both radial sides (ring 1 is adjacent to rings 2 and 4; ring 4 is adjacent to rings 3 and 1).
