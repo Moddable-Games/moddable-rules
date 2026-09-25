@@ -21,6 +21,10 @@
       "white",
       "black"
     ],
+    "render": {
+      "mode": "annular",
+      "rotation": 180
+    },
     "setup": "KP4pqkp4PQ/BP4pbbp4PB/NP4pnnp4PN/RP4prrp4PR",
     "castling": false,
     "enPassant": false,

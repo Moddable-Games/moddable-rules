@@ -6,7 +6,7 @@
   "board": "Hexagonal Y-trisection",
   "win": "Be the last player with a King remaining",
   "special": "3-player chess on a hexagonal board divided into three Y-shaped sectors, one per player (Red, Green, Blue), meeting at a central junction. Checkmating a player captures their army. Alliances encouraged.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -19,10 +19,63 @@
       "green",
       "blue"
     ],
+    "setup": "8/8/[rP][rP][rP][rP][rP][rP][rP][rP]/[rR][rN][rB][rQ][rK][rB][rN][rR]/8/8/[gP][gP][gP][gP][gP][gP][gP][gP]/[gR][gN][gB][gQ][gK][gB][gN][gR]/8/8/[bP][bP][bP][bP][bP][bP][bP][bP]/[bR][bN][bB][bQ][bK][bB][bN][bR]",
+    "vocabulary": {
+      "king": {
+        "symbols": {
+          "0": "rK",
+          "1": "gK",
+          "2": "bK"
+        }
+      },
+      "queen": {
+        "symbols": {
+          "0": "rQ",
+          "1": "gQ",
+          "2": "bQ"
+        }
+      },
+      "rook": {
+        "symbols": {
+          "0": "rR",
+          "1": "gR",
+          "2": "bR"
+        }
+      },
+      "bishop": {
+        "symbols": {
+          "0": "rB",
+          "1": "gB",
+          "2": "bB"
+        }
+      },
+      "knight": {
+        "symbols": {
+          "0": "rN",
+          "1": "gN",
+          "2": "bN"
+        }
+      },
+      "pawn": {
+        "symbols": {
+          "0": "rP",
+          "1": "gP",
+          "2": "bP"
+        }
+      }
+    },
+    "pieces": {
+      "set": "mce-4player"
+    },
+    "plugins": {
+      "chess": {
+        "playerCount": 3,
+        "matedArmy": "mater"
+      }
+    },
     "render": {
       "cellSize": 24
-    },
-    "setup_status": "back-rank order and player colours confirmed against the primary source's starting-position diagram (credited to David Howe) 2026-07. Exact per-square coordinates still not encoded — no standard coordinate system exists yet for a hex-trisection board; that is in scope for moddable-engine#26."
+    }
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/yalta-chess-board.svg",

@@ -10,7 +10,7 @@ Two standard 8×8 boards:
 - **Board A:** White1 (Team A) vs Black1 (Team B)
 - **Board B:** White2 (Team A) vs Black2 (Team B)
 
-Teams: White1 + White2 vs Black1 + Black2. Partners sit on the same side of the table. On each board, one team member plays White and the other plays Black.
+Teams: White1 + Black2 vs Black1 + White2. Partners sit on the same side of the table, on different boards: for each team, one partner plays White and the other plays Black, so a piece captured from one colour arrives as the partner's own.
 
 ### The Relay Mechanic
 

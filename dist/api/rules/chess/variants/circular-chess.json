@@ -21,6 +21,9 @@
       "white",
       "black"
     ],
+    "render": {
+      "mode": "annular"
+    },
     "setup": "rp4PRRP4pr/np4PNNP4pn/bp4PBBP4pb/qp4PKQP4pk",
     "castling": false,
     "enPassant": false

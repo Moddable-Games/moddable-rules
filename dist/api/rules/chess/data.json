@@ -156,7 +156,7 @@
       "board": "12×8 (three levels)",
       "win": "Checkmate",
       "special": "Three stacked 12×8 boards. 42 pieces per side across 15 piece types. Air, Land, and Subterranean realms. Gary Gygax, Dragon Magazine No. 100, 1985.",
-      "playable": false,
+      "playable": true,
       "order": 1,
       "designer": null,
       "category": null,
@@ -167,19 +167,23 @@
           "cols": 12,
           "layers": 3,
           "layer_labels": [
-            "Subterranean",
+            "Air",
             "Land",
-            "Air"
-          ]
+            "Subterranean"
+          ],
+          "layerAdjacency": "stacked"
+        },
+        "pieces": {
+          "set": "ryley-gygax-gold-scarlet"
         },
         "players": [
           "gold",
           "scarlet"
         ],
         "setup": [
-          "2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1",
-          "OUHTCMKPTHUO/WWWWWWWWWWWW/12/12/12/12/wwwwwwwwwwww/ouhtcmkpthuo",
-          "2B3E3B1/1D1D1D1D1D1D/12/12/12/12/1d1d1d1d1d1d/2b3e3b1"
+          "2g3r3g1/s1s1s1s1s1s1/12/12/12/12/S1S1S1S1S1S1/2G3R3G1",
+          "ouhtcmkpthuo/wwwwwwwwwwww/12/12/12/12/WWWWWWWWWWWW/OUHTCMKPTHUO",
+          "2b3e3b1/1d1d1d1d1d1d/12/12/12/12/1D1D1D1D1D1D/2B3E3B1"
         ],
         "render": {
           "cellSize": 24,
@@ -197,6 +201,1444 @@
               "cell-dark": "#a06848"
             }
           ]
+        },
+        "castling": false,
+        "enPassant": false,
+        "doubleStep": false,
+        "pawnType": "warrior",
+        "promotionChoices": [
+          "hero"
+        ],
+        "freeze": [
+          {
+            "by": "basilisk",
+            "at": [
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "regions": {
+          "air": {
+            "layers": [
+              0,
+              0
+            ]
+          },
+          "land": {
+            "layers": [
+              1,
+              1
+            ]
+          },
+          "below": {
+            "layers": [
+              2,
+              2
+            ]
+          },
+          "sylphHome": {
+            "layers": [
+              0,
+              0
+            ],
+            "cells": [
+              [
+                [
+                  6,
+                  0
+                ],
+                [
+                  6,
+                  2
+                ],
+                [
+                  6,
+                  4
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  8
+                ],
+                [
+                  6,
+                  10
+                ]
+              ],
+              [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  1,
+                  8
+                ],
+                [
+                  1,
+                  10
+                ]
+              ]
+            ]
+          }
+        },
+        "vocabulary": {
+          "rook": {
+            "symbols": {}
+          },
+          "bishop": {
+            "symbols": {}
+          },
+          "pawn": {
+            "symbols": {}
+          },
+          "sylph": {
+            "symbols": {
+              "0": "S",
+              "1": "s"
+            }
+          },
+          "griffon": {
+            "symbols": {
+              "0": "G",
+              "1": "g"
+            }
+          },
+          "dragon": {
+            "symbols": {
+              "0": "R",
+              "1": "r"
+            }
+          },
+          "warrior": {
+            "symbols": {
+              "0": "W",
+              "1": "w"
+            }
+          },
+          "oliphant": {
+            "symbols": {
+              "0": "O",
+              "1": "o"
+            }
+          },
+          "unicorn": {
+            "symbols": {
+              "0": "U",
+              "1": "u"
+            }
+          },
+          "hero": {
+            "symbols": {
+              "0": "H",
+              "1": "h"
+            }
+          },
+          "thief": {
+            "symbols": {
+              "0": "T",
+              "1": "t"
+            }
+          },
+          "cleric": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "mage": {
+            "symbols": {
+              "0": "M",
+              "1": "m"
+            }
+          },
+          "paladin": {
+            "symbols": {
+              "0": "P",
+              "1": "p"
+            }
+          },
+          "basilisk": {
+            "symbols": {
+              "0": "B",
+              "1": "b"
+            }
+          },
+          "elemental": {
+            "symbols": {
+              "0": "E",
+              "1": "e"
+            }
+          },
+          "dwarf": {
+            "symbols": {
+              "0": "D",
+              "1": "d"
+            }
+          }
+        },
+        "plugins": {
+          "chess": {
+            "pieces": {
+              "warrior": {
+                "movement": "pawn"
+              },
+              "sylph": {
+                "directional": true,
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "air",
+                    "move": {
+                      "divergent": {
+                        "move": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              -1
+                            ],
+                            [
+                              -1,
+                              1
+                            ]
+                          ]
+                        },
+                        "capture": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              0
+                            ],
+                            [
+                              0,
+                              0,
+                              1
+                            ]
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "in": "land",
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "divergent": {
+                            "move": {
+                              "type": "leaper",
+                              "offsets": [
+                                [
+                                  0,
+                                  0,
+                                  -1
+                                ]
+                              ]
+                            },
+                            "capture": {
+                              "type": "leaper",
+                              "offsets": []
+                            }
+                          }
+                        },
+                        {
+                          "type": "warp",
+                          "to": "sylphHome"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "griffon": {
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "air",
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -3,
+                          -2
+                        ],
+                        [
+                          -3,
+                          2
+                        ],
+                        [
+                          -2,
+                          -3
+                        ],
+                        [
+                          -2,
+                          3
+                        ],
+                        [
+                          2,
+                          -3
+                        ],
+                        [
+                          2,
+                          3
+                        ],
+                        [
+                          3,
+                          -2
+                        ],
+                        [
+                          3,
+                          2
+                        ],
+                        [
+                          -1,
+                          -1,
+                          1
+                        ],
+                        [
+                          -1,
+                          1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "in": "land",
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1
+                        ],
+                        [
+                          -1,
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          -1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1,
+                          -1
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              },
+              "dragon": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "rider",
+                    "dirs": [
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        -1
+                      ],
+                      [
+                        0,
+                        1
+                      ],
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        1,
+                        -1
+                      ],
+                      [
+                        1,
+                        1
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "shoot",
+                    "dirs": [
+                      [
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        -1,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        -1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1
+                      ]
+                    ]
+                  }
+                ]
+              },
+              "oliphant": {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ]
+              },
+              "unicorn": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -2,
+                    -1
+                  ],
+                  [
+                    -2,
+                    1
+                  ],
+                  [
+                    -1,
+                    -2
+                  ],
+                  [
+                    -1,
+                    2
+                  ],
+                  [
+                    1,
+                    -2
+                  ],
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    2,
+                    1
+                  ]
+                ]
+              },
+              "thief": {
+                "type": "rider",
+                "dirs": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ]
+              },
+              "hero": {
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "land",
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1
+                        ],
+                        [
+                          -2,
+                          -2
+                        ],
+                        [
+                          -2,
+                          2
+                        ],
+                        [
+                          2,
+                          -2
+                        ],
+                        [
+                          2,
+                          2
+                        ],
+                        [
+                          -1,
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          -1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          -1,
+                          1
+                        ],
+                        [
+                          -1,
+                          1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          -1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          -1,
+                          1
+                        ],
+                        [
+                          -1,
+                          1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              },
+              "cleric": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    -1,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    0,
+                    -1
+                  ],
+                  [
+                    0,
+                    0,
+                    1
+                  ]
+                ]
+              },
+              "mage": {
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "land",
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "type": "rider",
+                          "dirs": [
+                            [
+                              -1,
+                              0
+                            ],
+                            [
+                              1,
+                              0
+                            ],
+                            [
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              1
+                            ],
+                            [
+                              -1,
+                              -1
+                            ],
+                            [
+                              -1,
+                              1
+                            ],
+                            [
+                              1,
+                              -1
+                            ],
+                            [
+                              1,
+                              1
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              0,
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              0,
+                              1
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              0
+                            ],
+                            [
+                              1,
+                              0
+                            ],
+                            [
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              1
+                            ]
+                          ]
+                        },
+                        {
+                          "type": "rider",
+                          "dirs": [
+                            [
+                              0,
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              0,
+                              1
+                            ]
+                          ],
+                          "maxSteps": 2
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "king": {
+                "royal": true,
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "land",
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          0,
+                          1
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          0,
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          0,
+                          1
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              },
+              "paladin": {
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "land",
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1
+                        ],
+                        [
+                          -2,
+                          -1
+                        ],
+                        [
+                          -2,
+                          1
+                        ],
+                        [
+                          -1,
+                          -2
+                        ],
+                        [
+                          -1,
+                          2
+                        ],
+                        [
+                          1,
+                          -2
+                        ],
+                        [
+                          1,
+                          2
+                        ],
+                        [
+                          2,
+                          -1
+                        ],
+                        [
+                          2,
+                          1
+                        ],
+                        [
+                          -2,
+                          0,
+                          -1
+                        ],
+                        [
+                          2,
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          -2,
+                          -1
+                        ],
+                        [
+                          0,
+                          2,
+                          -1
+                        ],
+                        [
+                          -2,
+                          0,
+                          1
+                        ],
+                        [
+                          2,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          -2,
+                          1
+                        ],
+                        [
+                          0,
+                          2,
+                          1
+                        ],
+                        [
+                          -1,
+                          0,
+                          -2
+                        ],
+                        [
+                          1,
+                          0,
+                          -2
+                        ],
+                        [
+                          0,
+                          -1,
+                          -2
+                        ],
+                        [
+                          0,
+                          1,
+                          -2
+                        ],
+                        [
+                          -1,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          0,
+                          2
+                        ],
+                        [
+                          0,
+                          -1,
+                          2
+                        ],
+                        [
+                          0,
+                          1,
+                          2
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          -1,
+                          -1
+                        ],
+                        [
+                          -1,
+                          1
+                        ],
+                        [
+                          1,
+                          -1
+                        ],
+                        [
+                          1,
+                          1
+                        ],
+                        [
+                          -2,
+                          0,
+                          -1
+                        ],
+                        [
+                          2,
+                          0,
+                          -1
+                        ],
+                        [
+                          0,
+                          -2,
+                          -1
+                        ],
+                        [
+                          0,
+                          2,
+                          -1
+                        ],
+                        [
+                          -2,
+                          0,
+                          1
+                        ],
+                        [
+                          2,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          -2,
+                          1
+                        ],
+                        [
+                          0,
+                          2,
+                          1
+                        ],
+                        [
+                          -1,
+                          0,
+                          -2
+                        ],
+                        [
+                          1,
+                          0,
+                          -2
+                        ],
+                        [
+                          0,
+                          -1,
+                          -2
+                        ],
+                        [
+                          0,
+                          1,
+                          -2
+                        ],
+                        [
+                          -1,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          0,
+                          2
+                        ],
+                        [
+                          0,
+                          -1,
+                          2
+                        ],
+                        [
+                          0,
+                          1,
+                          2
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              },
+              "dwarf": {
+                "directional": true,
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "below",
+                    "move": {
+                      "divergent": {
+                        "move": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              0
+                            ],
+                            [
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              1
+                            ]
+                          ]
+                        },
+                        "capture": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              -1
+                            ],
+                            [
+                              -1,
+                              1
+                            ],
+                            [
+                              0,
+                              0,
+                              -1
+                            ]
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "in": "land",
+                    "move": {
+                      "divergent": {
+                        "move": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              0
+                            ],
+                            [
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              1
+                            ],
+                            [
+                              0,
+                              0,
+                              1
+                            ]
+                          ]
+                        },
+                        "capture": {
+                          "type": "leaper",
+                          "offsets": [
+                            [
+                              -1,
+                              -1
+                            ],
+                            [
+                              -1,
+                              1
+                            ]
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "basilisk": {
+                "directional": true,
+                "type": "divergent",
+                "divergent": {
+                  "move": {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ],
+                      [
+                        1,
+                        0
+                      ]
+                    ]
+                  },
+                  "capture": {
+                    "type": "leaper",
+                    "offsets": [
+                      [
+                        -1,
+                        0
+                      ],
+                      [
+                        -1,
+                        -1
+                      ],
+                      [
+                        -1,
+                        1
+                      ]
+                    ]
+                  }
+                }
+              },
+              "elemental": {
+                "type": "positional",
+                "cases": [
+                  {
+                    "in": "below",
+                    "move": {
+                      "type": "compose",
+                      "parts": [
+                        {
+                          "type": "rider",
+                          "dirs": [
+                            [
+                              -1,
+                              0
+                            ],
+                            [
+                              1,
+                              0
+                            ],
+                            [
+                              0,
+                              -1
+                            ],
+                            [
+                              0,
+                              1
+                            ]
+                          ],
+                          "maxSteps": 2
+                        },
+                        {
+                          "divergent": {
+                            "move": {
+                              "type": "leaper",
+                              "offsets": [
+                                [
+                                  -1,
+                                  -1
+                                ],
+                                [
+                                  -1,
+                                  1
+                                ],
+                                [
+                                  1,
+                                  -1
+                                ],
+                                [
+                                  1,
+                                  1
+                                ]
+                              ]
+                            },
+                            "capture": {
+                              "type": "leaper",
+                              "offsets": [
+                                [
+                                  -1,
+                                  0,
+                                  -1
+                                ],
+                                [
+                                  1,
+                                  0,
+                                  -1
+                                ],
+                                [
+                                  0,
+                                  -1,
+                                  -1
+                                ],
+                                [
+                                  0,
+                                  1,
+                                  -1
+                                ]
+                              ],
+                              "lame": "plane"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "in": "land",
+                    "move": {
+                      "type": "leaper",
+                      "offsets": [
+                        [
+                          -1,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          -1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1
+                        ]
+                      ],
+                      "lame": "layer"
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       },
       "diagram": {
@@ -2369,6 +3811,10 @@
           "white",
           "black"
         ],
+        "render": {
+          "mode": "annular",
+          "rotation": 180
+        },
         "setup": "KP4pqkp4PQ/BP4pbbp4PB/NP4pnnp4PN/RP4prrp4PR",
         "castling": false,
         "enPassant": false,
@@ -3062,6 +4508,9 @@
           "white",
           "black"
         ],
+        "render": {
+          "mode": "annular"
+        },
         "setup": "rp4PRRP4pr/np4PNNP4pn/bp4PBBP4pb/qp4PKQP4pk",
         "castling": false,
         "enPassant": false
@@ -4555,9 +6004,9 @@
       "title": "Delirious Bughouse",
       "players": "4 (2 teams of 2)",
       "board": "8×8 (two boards)",
-      "win": "Capture an opposing King (team loses if either ally's King is captured)",
-      "special": "Bughouse variant by Alberto Monteiro (c.1984) combining relay capture, dice, and a worst-move mechanic. Two boards, 4 players, 2 allied teams. Key Bughouse modifications: Pawns drop only on ranks 2–6 (not rank 7); promoted Pawns when captured stay promoted (the promoting player recovers the original Pawn, permanently increasing piece count). Add-on layers: Dice Chess (die each turn — 1=Pawn, 2=Knight, 3=Bishop, 4=Rook, 5=Queen, 6=any); Worst Move (second die determines whether the player or opponent chooses the move); fairy pieces (Camel, Giraffe, Zebra, Cylindrical pieces, Pyramid, Atomic Bomb). Final full form adds Structures, Events, and Magic Items.",
-      "playable": false,
+      "win": "Checkmate either opposing King: if either ally is checkmated, the other loses",
+      "special": "Bughouse by Alberto Monteiro and Carlos Seiblitz (c.1984) with two changes: pawns may only be placed on the 2nd to 6th ranks, and a captured promoted piece stays promoted while the player who promoted it gets the pawn back, so every promotion adds a piece to the game. The same page goes on to Dice Chess, Worst Move and fairy stages, which are separate games.",
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -4566,7 +6015,21 @@
           "type": "grid",
           "rows": 8,
           "cols": 8,
-          "boards": 2
+          "layers": 2,
+          "layer_labels": [
+            "Board 1",
+            "Board 2"
+          ],
+          "layerSeats": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
         },
         "players": [
           "white1",
@@ -4581,7 +6044,56 @@
           "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
           "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
         ],
-        "notation": "algebraic"
+        "notation": "algebraic",
+        "plugins": {
+          "chess": {
+            "playerCount": 4,
+            "advancement": {
+              "0": -1,
+              "1": 1,
+              "2": -1,
+              "3": 1
+            },
+            "teams": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "drops": true,
+            "capturesTo": "partner",
+            "dropRegion": {
+              "layers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            },
+            "pawnDropRanks": [
+              2,
+              6
+            ],
+            "promotionsKept": true,
+            "matchEnds": "first"
+          }
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/delirious-bughouse-board.svg",
@@ -4727,6 +6239,20 @@
         "plugins": {
           "chess": {
             "drops": true,
+            "capturesTo": "none",
+            "dropZone": [
+              0
+            ],
+            "initialHands": [
+              [
+                "dragon",
+                "dragon"
+              ],
+              [
+                "dragon",
+                "dragon"
+              ]
+            ],
             "pieces": {
               "dragon": {
                 "type": "compose",
@@ -7726,10 +9252,9 @@
           "white",
           "black"
         ],
-        "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+        "setup": "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR",
         "plugins": {
           "chess": {
-            "setup": "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR",
             "castling": false,
             "enPassant": false,
             "doubleStep": false,
@@ -10074,7 +11599,7 @@
       "board": "5×5×5 (3D)",
       "win": "Checkmate",
       "special": "Three-dimensional chess on five stacked 5×5 boards. Adds the Unicorn (triagonal slider). Pawns move forward or upward; capture diagonally. No castling, no en passant, no double push.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": "expanded-boards",
@@ -10090,7 +11615,8 @@
             "C",
             "D",
             "E"
-          ]
+          ],
+          "layerAdjacency": "stacked"
         },
         "players": [
           "white",
@@ -10107,7 +11633,128 @@
           "cellSize": 24
         },
         "notation": "level-file-rank",
-        "rendering_note": "This layered setup uses the same engine.topology pattern already live for Gygax Chess (grid + layers, one FEN string per layer) and should render the static starting-position diagram now, the same way Gygax's is rendered. This does NOT solve piece movement/play: Raumschach's Rook, Bishop, and Unicorn slide arbitrary distances along the level axis and combinations of axes, which Gygax's per-piece single-step cross-level moves do not support. Play/move-generation remains a separate, larger engine task -- this frontmatter change only unblocks the rulebook diagram."
+        "castling": false,
+        "enPassant": false,
+        "doubleStep": false,
+        "pawnMoveDirections": {
+          "0": [
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "1": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ]
+        },
+        "pawnCaptureDirections": {
+          "0": [
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "1": [
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              1,
+              -1
+            ]
+          ]
+        },
+        "promotionRegion": {
+          "rows": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "layers": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "promotionChoices": [
+          "queen",
+          "rook",
+          "bishop",
+          "knight",
+          "unicorn"
+        ],
+        "vocabulary": {
+          "unicorn": {
+            "symbols": {
+              "0": "U",
+              "1": "u"
+            }
+          }
+        },
+        "plugins": {
+          "chess": {
+            "pieces": {
+              "unicorn": {
+                "type": "rider",
+                "dirs": "triagonal"
+              }
+            }
+          }
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/raumschach-board.svg",
@@ -12466,7 +14113,7 @@
       "board": "8×8 (played on flat board, spherical topology)",
       "win": "Checkmate",
       "special": "Chess on a sphere — a surface with no edges and no corners, where ranks and files meet at poles. The standard 8×8 board is played with two wrapping rules: ranks wrap horizontally (left-right, as in Cylindrical Chess), and files meet at polar singularities where a piece crossing the pole continues four files away. Multiple documented versions from 1950–2014; this file documents the family and the most widely agreed rules. Bishops are colourbound. Knights have 8 possible moves from any position.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -12538,8 +14185,8 @@
       "players": "4 (2 teams of 2)",
       "board": "2× 8×8",
       "win": "Checkmate either opposing King",
-      "special": "Bughouse chess variant where received pieces are placed on a randomly selected empty square rather than a player-chosen square. When a player captures a piece, it passes to their partner — but when the partner uses it, it lands on a random legal empty square instead of a chosen one. Removes strategic drop placement and replaces it with chaos.",
-      "playable": false,
+      "special": "Double Bughouse where partners play the same colour. A captured piece is handed to the partner, who must place it on their own board instead of making a normal move - and since partners share a colour, the piece they must place belongs to their opponent. Described by John Beasley from a variants weekend in Geneva, 1999.",
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -12548,7 +14195,21 @@
           "type": "grid",
           "rows": 8,
           "cols": 8,
-          "boards": 2
+          "layers": 2,
+          "layer_labels": [
+            "Board A",
+            "Board B"
+          ],
+          "layerSeats": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
         },
         "players": [
           "white1",
@@ -12556,6 +14217,17 @@
           "white2",
           "black2"
         ],
+        "turnOrder": {
+          "opening": [
+            0
+          ],
+          "cycle": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
         "render": {
           "cellSize": 34
         },
@@ -12563,7 +14235,53 @@
           "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
           "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
         ],
-        "notation": "algebraic"
+        "notation": "algebraic",
+        "plugins": {
+          "chess": {
+            "playerCount": 4,
+            "advancement": {
+              "0": -1,
+              "1": 1,
+              "2": -1,
+              "3": 1
+            },
+            "teams": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "drops": true,
+            "capturesTo": "partner",
+            "dropRegion": {
+              "layers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            },
+            "dropsFor": "opponent",
+            "dropsCompulsory": true,
+            "matchEnds": "first"
+          }
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/stupidhouse-board.svg",
@@ -13013,7 +14731,7 @@
       "board": "8×8 (two boards)",
       "win": "Checkmate either opposing King across both boards",
       "special": "Team chess variant for 2×2 players on two simultaneous boards. Captured pieces are passed to the partner for dropping on the partner's board. Also known as Siamese Chess. Key differences from Bughouse: (1) no check or checkmate by drop; (2) match continues until both games complete. Invented ~1960s.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -13022,7 +14740,21 @@
           "type": "grid",
           "rows": 8,
           "cols": 8,
-          "boards": 2
+          "layers": 2,
+          "layer_labels": [
+            "Board A",
+            "Board B"
+          ],
+          "layerSeats": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
         },
         "players": [
           "white1",
@@ -13030,6 +14762,17 @@
           "white2",
           "black2"
         ],
+        "turnOrder": {
+          "opening": [
+            0
+          ],
+          "cycle": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
         "render": {
           "cellSize": 34
         },
@@ -13037,7 +14780,52 @@
           "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
           "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
         ],
-        "notation": "algebraic"
+        "notation": "algebraic",
+        "plugins": {
+          "chess": {
+            "playerCount": 4,
+            "advancement": {
+              "0": -1,
+              "1": 1,
+              "2": -1,
+              "3": 1
+            },
+            "teams": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "drops": true,
+            "capturesTo": "partner",
+            "dropRegion": {
+              "layers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            },
+            "dropMayNotCheck": true,
+            "matchEnds": "all"
+          }
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/tandem-chess-board.svg",
@@ -13160,6 +14948,10 @@
           "white",
           "black"
         ],
+        "render": {
+          "mode": "annular",
+          "rotation": 270
+        },
         "setup": "2PKQP4pkqp2/2PBBP4pbbp2/2PNNP4pnnp2/2PRRP4prrp2",
         "notation": "ring-position",
         "castling": false,
@@ -14606,7 +16398,7 @@
       "board": "Hexagonal Y-trisection",
       "win": "Be the last player with a King remaining",
       "special": "3-player chess on a hexagonal board divided into three Y-shaped sectors, one per player (Red, Green, Blue), meeting at a central junction. Checkmating a player captures their army. Alliances encouraged.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
@@ -14619,10 +16411,63 @@
           "green",
           "blue"
         ],
+        "setup": "8/8/[rP][rP][rP][rP][rP][rP][rP][rP]/[rR][rN][rB][rQ][rK][rB][rN][rR]/8/8/[gP][gP][gP][gP][gP][gP][gP][gP]/[gR][gN][gB][gQ][gK][gB][gN][gR]/8/8/[bP][bP][bP][bP][bP][bP][bP][bP]/[bR][bN][bB][bQ][bK][bB][bN][bR]",
+        "vocabulary": {
+          "king": {
+            "symbols": {
+              "0": "rK",
+              "1": "gK",
+              "2": "bK"
+            }
+          },
+          "queen": {
+            "symbols": {
+              "0": "rQ",
+              "1": "gQ",
+              "2": "bQ"
+            }
+          },
+          "rook": {
+            "symbols": {
+              "0": "rR",
+              "1": "gR",
+              "2": "bR"
+            }
+          },
+          "bishop": {
+            "symbols": {
+              "0": "rB",
+              "1": "gB",
+              "2": "bB"
+            }
+          },
+          "knight": {
+            "symbols": {
+              "0": "rN",
+              "1": "gN",
+              "2": "bN"
+            }
+          },
+          "pawn": {
+            "symbols": {
+              "0": "rP",
+              "1": "gP",
+              "2": "bP"
+            }
+          }
+        },
+        "pieces": {
+          "set": "mce-4player"
+        },
+        "plugins": {
+          "chess": {
+            "playerCount": 3,
+            "matedArmy": "mater"
+          }
+        },
         "render": {
           "cellSize": 24
-        },
-        "setup_status": "back-rank order and player colours confirmed against the primary source's starting-position diagram (credited to David Howe) 2026-07. Exact per-square coordinates still not encoded — no standard coordinate system exists yet for a hex-trisection board; that is in scope for moddable-engine#26."
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/yalta-chess-board.svg",
@@ -15117,7 +16962,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/delirious-bughouse-board.svg",
         "rulesUrl": "chess/variants/delirious-bughouse/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "4 (2 teams of 2)"
       },
@@ -15405,7 +17250,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/gygax-board.svg",
         "rulesUrl": "chess/variants/gygax/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15993,7 +17838,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/raumschach-board.svg",
         "rulesUrl": "chess/variants/raumschach/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -16209,7 +18054,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/spherical-chess-board.svg",
         "rulesUrl": "chess/variants/spherical-chess/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -16245,7 +18090,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/stupidhouse-board.svg",
         "rulesUrl": "chess/variants/stupidhouse/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "4 (2 teams of 2)"
       },
@@ -16293,7 +18138,7 @@
         "topology": "grid",
         "svg": "games/chess/diagrams/svg/tandem-chess-board.svg",
         "rulesUrl": "chess/variants/tandem-chess/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "4 (2 teams of 2)"
       },
@@ -16473,7 +18318,7 @@
         "topology": "hexagonal-trisection",
         "svg": "games/chess/diagrams/svg/yalta-chess-board.svg",
         "rulesUrl": "chess/variants/yalta-chess/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": 3
       }
@@ -16481,7 +18326,7 @@
   },
   "stats": {
     "variantCount": 153,
-    "playable": 142,
+    "playable": 149,
     "withDiagram": 153,
     "topologies": [
       "grid",

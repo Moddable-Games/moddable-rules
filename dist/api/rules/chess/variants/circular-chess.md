@@ -4,6 +4,8 @@
 
 ## Overview
 
+{{svg:circular-chess-board.svg "Circular Chess — starting position"}}
+
 Circular Chess is a modern variant inspired by the ancient Byzantine (round) chess boards depicted in historical sources. It is played on a circular board of 4 concentric rings, each containing 16 squares (64 squares total). The topology is equivalent to a cylinder: the 16 files wrap around, so file 16 is adjacent to file 1. White and Black set up on opposite sides of the circle.
 
 The Circular Chess Society has held an annual World Championship since 1996.

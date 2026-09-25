@@ -35,6 +35,8 @@ Byzantine Chess itself descends from Shatranj (the form of chess that reached Eu
 
 ### Starting Position
 
+{{svg:toroidal-byzantine-board.svg "Toroidal Byzantine Chess — starting position"}}
+
 The source states piece rules are "the same as in Byzantine Chess," but the **setup differs** from plain Byzantine Chess. In ordinary Byzantine Chess, each army straddles the seam where file p meets file a; on the toroidal board that arrangement would put both Kings in mutual check immediately (the radial wrap removes the inner/outer edges that normally shield them). Instead, each army is placed in a contiguous 4-file block, positioned so that **only pawns are attacked** from the starting position.
 
 Using the rectangular "unrolled" development of the ring board (4 rings as ranks 1–4, 16 positions as files a–p — the same convention as plain Byzantine Chess), confirmed against the source's interactive diagram:

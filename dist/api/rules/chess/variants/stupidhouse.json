@@ -5,8 +5,8 @@
   "players": "4 (2 teams of 2)",
   "board": "2× 8×8",
   "win": "Checkmate either opposing King",
-  "special": "Bughouse chess variant where received pieces are placed on a randomly selected empty square rather than a player-chosen square. When a player captures a piece, it passes to their partner — but when the partner uses it, it lands on a random legal empty square instead of a chosen one. Removes strategic drop placement and replaces it with chaos.",
-  "playable": false,
+  "special": "Double Bughouse where partners play the same colour. A captured piece is handed to the partner, who must place it on their own board instead of making a normal move - and since partners share a colour, the piece they must place belongs to their opponent. Described by John Beasley from a variants weekend in Geneva, 1999.",
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -15,7 +15,21 @@
       "type": "grid",
       "rows": 8,
       "cols": 8,
-      "boards": 2
+      "layers": 2,
+      "layer_labels": [
+        "Board A",
+        "Board B"
+      ],
+      "layerSeats": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
     },
     "players": [
       "white1",
@@ -23,6 +37,17 @@
       "white2",
       "black2"
     ],
+    "turnOrder": {
+      "opening": [
+        0
+      ],
+      "cycle": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
     "render": {
       "cellSize": 34
     },
@@ -30,7 +55,53 @@
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
     ],
-    "notation": "algebraic"
+    "notation": "algebraic",
+    "plugins": {
+      "chess": {
+        "playerCount": 4,
+        "advancement": {
+          "0": -1,
+          "1": 1,
+          "2": -1,
+          "3": 1
+        },
+        "teams": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "drops": true,
+        "capturesTo": "partner",
+        "dropRegion": {
+          "layers": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "dropsFor": "opponent",
+        "dropsCompulsory": true,
+        "matchEnds": "first"
+      }
+    }
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/stupidhouse-board.svg",

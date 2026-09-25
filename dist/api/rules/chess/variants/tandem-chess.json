@@ -6,7 +6,7 @@
   "board": "8×8 (two boards)",
   "win": "Checkmate either opposing King across both boards",
   "special": "Team chess variant for 2×2 players on two simultaneous boards. Captured pieces are passed to the partner for dropping on the partner's board. Also known as Siamese Chess. Key differences from Bughouse: (1) no check or checkmate by drop; (2) match continues until both games complete. Invented ~1960s.",
-  "playable": false,
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -15,7 +15,21 @@
       "type": "grid",
       "rows": 8,
       "cols": 8,
-      "boards": 2
+      "layers": 2,
+      "layer_labels": [
+        "Board A",
+        "Board B"
+      ],
+      "layerSeats": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
     },
     "players": [
       "white1",
@@ -23,6 +37,17 @@
       "white2",
       "black2"
     ],
+    "turnOrder": {
+      "opening": [
+        0
+      ],
+      "cycle": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
     "render": {
       "cellSize": 34
     },
@@ -30,7 +55,52 @@
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
     ],
-    "notation": "algebraic"
+    "notation": "algebraic",
+    "plugins": {
+      "chess": {
+        "playerCount": 4,
+        "advancement": {
+          "0": -1,
+          "1": 1,
+          "2": -1,
+          "3": 1
+        },
+        "teams": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "drops": true,
+        "capturesTo": "partner",
+        "dropRegion": {
+          "layers": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "dropMayNotCheck": true,
+        "matchEnds": "all"
+      }
+    }
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/tandem-chess-board.svg",

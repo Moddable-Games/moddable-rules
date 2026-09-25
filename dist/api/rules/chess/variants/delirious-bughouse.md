@@ -2,82 +2,37 @@
 
 {{svg:delirious-bughouse-board.svg "Delirious Bughouse — starting position"}}
 
-Delirious Bughouse is a complex Bughouse chess variant developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho around 1984. It evolves through several layers from standard Bughouse, adding dice, worst-move mechanics, and eventually a full set of fairy pieces, structures, events, and magic items.
+Delirious Bughouse was developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho, with earlier help from Oscar Luiz Vieira Ferreira and Carlos Vieira Ferreira. Its final step was reached around 1984.
 
 ### Teams and Boards
 
-Two standard 8×8 boards. Four players in two allied teams: White1 and Black4 are allies; Black2 and White3 are allies. White1 plays against Black2 on one board; White3 plays against Black4 on the other. Play proceeds simultaneously on both boards.
+Two standard 8×8 boards. White1 plays against Black2, and White3 plays against Black4. **White1 and Black4 are allies, as are Black2 and White3**: if either ally is checkmated, the other loses.
 
-### Base Bughouse Rules
+### Rules
 
-Standard Bughouse (Tandem Chess) with two modifications:
+Bughouse, with two exceptions:
 
-1. **Pawn drop restriction:** Pawns received from a partner may only be dropped on ranks 2–6. They may not be dropped on rank 7 (unlike standard Bughouse).
-2. **Promoted Pawn capture:** When a promoted Pawn is captured, it does not revert to a Pawn — the capturing player keeps the promoted piece. However, the player who originally promoted the Pawn recovers the original Pawn for future use. This means piece count on the board grows over time: promotion permanently adds one piece to the total.
+1. **Pawns may be placed only on the 2nd to 6th ranks.** In Bughouse they may also be placed on the 7th.
+2. **Promoted pieces keep their rank.** When a promoted pawn is captured it does not turn back into a pawn: it passes to the capturer's ally as the piece it became, and the player who promoted it gets the pawn back to place again. Every promotion therefore adds a piece to the game, and it is theoretically possible for all 128 squares of the two boards to fill.
 
-All other standard Bughouse rules apply: players play simultaneously; captured pieces pass to the partner; a player may spend their turn dropping a received piece onto any legal square; pawns may not be dropped to checkmate.
+Everything else is Bughouse: each piece captured on one board goes to the ally, who may spend a move placing it on any empty square of their own board.
 
-### Dice Chess Layer
-
-Before each move, the player rolls one die to determine which type of piece must be moved:
-- 1 = Pawn
-- 2 = Knight
-- 3 = Bishop
-- 4 = Rook
-- 5 = Queen
-- 6 = Any piece
-
-If no legal move exists with the rolled piece type, the player may choose any legal move.
-
-### Worst Move Layer
-
-Two dice are rolled each turn instead of one. The second die determines whether the player plays the best or worst possible move:
-- If "best": the player chooses their move freely (within the piece-type constraint)
-- If "worst": the **opponent** chooses which move the player makes, subject to the piece-type constraint — selecting the worst possible option
-
-### Bughouse Worst Move
-
-Combining all three elements: two boards with Bughouse relay and pawn rules, plus the two-dice Dice Chess + Worst Move system applied each turn.
-
-### Fairy Pieces
-
-When a King is captured, the capturing player is rewarded with one or more fairy pieces from an agreed set, which may subsequently be dropped. Core fairy piece set:
-
-| Piece | Movement |
-|---|---|
-| Camel | Extended Knight: leaps [3,1] |
-| Giraffe | Leaps [4,1] |
-| Zebra | Leaps [3,2] |
-| Taxi | Modified Pawn: moves backwards; from rank 2 can leap to rank 5; capturable en passant in two ways |
-| Pyramid | Drops onto any square; once placed, blocks all entry to that square permanently |
-| Atomic Bomb | Drops onto any square; destroys all pieces in a 3×3 area; Kings are immune |
-| Cylindrical Rook (Rc) | Rook that views the board as a cylinder — the a-file and h-file are adjacent |
-| Cylindrical Knight (Nc) | Knight with cylindrical wrap |
-| Cylindrical Bishop (Bc) | Bishop with cylindrical wrap |
-| Cylindrical Queen (Qc) | Queen with cylindrical wrap |
-
-**Intelligent pieces (marked "i"):** Never play the worst move — if the opponent selects "worst" for an intelligent piece, the owning player chooses the move instead.
-
-### Structures, Events, and Magic Items (Full Delirious Bughouse)
-
-The extended form adds:
-
-- **Structures:** Board modifications that may occur mid-game (e.g. the board becomes cylindrical; an extra row is added)
-- **Events:** Random occurrences affecting the board state (e.g. empty squares filled by bacteria that evolve like Conway's Life; the board rotates 90 degrees)
-- **Magic Items:** Attachable to pieces (e.g. ring of invisibility — opponent does not know where the piece moved until it captures or checks; cloak of double strength — piece requires a double attack to be captured)
+Example from the source: if White1 vs Black2 goes 1. e4 d5 2. exd5 while White3 vs Black4 goes 1. Nf3, Black4 may now place a pawn on e5.
 
 ### Win Condition
 
-Victory = capturing an opposing King. Teams: if either ally's King is captured, both team members lose.
+Checkmate either opposing King. The first checkmate decides the match.
 
-### Scoring (Match Play)
+### Later stages
 
-When scoring matches:
-- +1 for each victory
-- +1 if the final check was given by a moving (not dropped) piece
-- +1 if the checkmate uses a non-FIDE piece
-- +1 if the checkmating move uses a non-attacking piece (e.g. Atomic Bomb drop)
+The same page describes how the game kept growing. Each stage is a separate game built on this one, and none is played here:
+
+- **Dice Chess:** before every move the player throws a die: 1 = Pawn, 2 = Knight, 3 = Bishop, 4 = Rook, 5 = Queen, 6 = any piece. If no move with that piece is possible, any move may be played.
+- **Worst Move:** two dice, one as above and one deciding whether the player is entitled to the best move or the worst. On "worst", the opponent chooses the move.
+- **Bughouse Worst Move:** both boards and both dice together.
+- **Fairy pieces:** capturing a King earns a fairy piece, such as a Camel, Giraffe, Zebra, Taxi, Pyramid or Atomic Bomb.
+- **Structures, events and magic items:** an open-ended set the authors kept to themselves.
 
 ### Attribution
 
-Delirious Bughouse was developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho, with earlier assistance from Oscar Luiz Vieira Ferreira and Carlos Vieira Ferreira. Final form achieved around 1984. Source: chessvariants.com/multiplayer.dir/delbug.html
+Rules from chessvariants.com/multiplayer.dir/delbug.html, written by Alberto Monteiro.

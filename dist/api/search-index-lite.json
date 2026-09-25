@@ -8380,7 +8380,7 @@
     "sectionType": "general",
     "section": "Delirious Bughouse",
     "heading": "Delirious Bughouse",
-    "content": "Delirious Bughouse is a complex Bughouse chess variant developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho around 1984. It evolves through several layers from standa",
+    "content": "Delirious Bughouse was developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho, with earlier help from Oscar Luiz Vieira Ferreira and Carlos Vieira Ferreira. Its final s",
     "anchor": "delirious-bughouse",
     "variant": "delirious-bughouse",
     "variantUrl": "chess/variants/delirious-bughouse/"
@@ -8392,7 +8392,7 @@
     "sectionType": "general",
     "section": "Delirious Bughouse",
     "heading": "Teams and Boards",
-    "content": "Two standard 8×8 boards. Four players in two allied teams: White1 and Black4 are allies; Black2 and White3 are allies. White1 plays against Black2 on one board; White3 plays against Black4 on the othe",
+    "content": "Two standard 8×8 boards. White1 plays against Black2, and White3 plays against Black4. White1 and Black4 are allies, as are Black2 and White3: if either ally is checkmated, the other loses.",
     "anchor": "teams-and-boards",
     "variant": "delirious-bughouse",
     "variantUrl": "chess/variants/delirious-bughouse/"
@@ -8401,71 +8401,11 @@
     "game": "chess",
     "gameTitle": "Chess",
     "type": "variant",
-    "sectionType": "general",
+    "sectionType": "overview",
     "section": "Delirious Bughouse",
-    "heading": "Base Bughouse Rules",
-    "content": "Standard Bughouse Tandem Chess with two modifications: 1. Pawn drop restriction: Pawns received from a partner may only be dropped on ranks 2–6. They may not be dropped on rank 7 unlike standard Bugho",
-    "anchor": "base-bughouse-rules",
-    "variant": "delirious-bughouse",
-    "variantUrl": "chess/variants/delirious-bughouse/"
-  },
-  {
-    "game": "chess",
-    "gameTitle": "Chess",
-    "type": "variant",
-    "sectionType": "general",
-    "section": "Delirious Bughouse",
-    "heading": "Dice Chess Layer",
-    "content": "Before each move, the player rolls one die to determine which type of piece must be moved: - 1 = Pawn - 2 = Knight - 3 = Bishop - 4 = Rook - 5 = Queen - 6 = Any piece If no legal move exists with the ",
-    "anchor": "dice-chess-layer",
-    "variant": "delirious-bughouse",
-    "variantUrl": "chess/variants/delirious-bughouse/"
-  },
-  {
-    "game": "chess",
-    "gameTitle": "Chess",
-    "type": "variant",
-    "sectionType": "general",
-    "section": "Delirious Bughouse",
-    "heading": "Worst Move Layer",
-    "content": "Two dice are rolled each turn instead of one. The second die determines whether the player plays the best or worst possible move: - If \"best\": the player chooses their move freely within the piece-typ",
-    "anchor": "worst-move-layer",
-    "variant": "delirious-bughouse",
-    "variantUrl": "chess/variants/delirious-bughouse/"
-  },
-  {
-    "game": "chess",
-    "gameTitle": "Chess",
-    "type": "variant",
-    "sectionType": "general",
-    "section": "Delirious Bughouse",
-    "heading": "Bughouse Worst Move",
-    "content": "Combining all three elements: two boards with Bughouse relay and pawn rules, plus the two-dice Dice Chess + Worst Move system applied each turn.",
-    "anchor": "bughouse-worst-move",
-    "variant": "delirious-bughouse",
-    "variantUrl": "chess/variants/delirious-bughouse/"
-  },
-  {
-    "game": "chess",
-    "gameTitle": "Chess",
-    "type": "variant",
-    "sectionType": "general",
-    "section": "Delirious Bughouse",
-    "heading": "Fairy Pieces",
-    "content": "When a King is captured, the capturing player is rewarded with one or more fairy pieces from an agreed set, which may subsequently be dropped. Core fairy piece set: Intelligent pieces marked \"i\": Neve",
-    "anchor": "fairy-pieces",
-    "variant": "delirious-bughouse",
-    "variantUrl": "chess/variants/delirious-bughouse/"
-  },
-  {
-    "game": "chess",
-    "gameTitle": "Chess",
-    "type": "variant",
-    "sectionType": "general",
-    "section": "Delirious Bughouse",
-    "heading": "Structures, Events, and Magic Items (Full Delirious Bughouse)",
-    "content": "The extended form adds: - Structures: Board modifications that may occur mid-game e.g. the board becomes cylindrical; an extra row is added - Events: Random occurrences affecting the board state e.g. ",
-    "anchor": "structures-events-and-magic-items-full-delirious-bughouse",
+    "heading": "Rules",
+    "content": "Bughouse, with two exceptions: 1. Pawns may be placed only on the 2nd to 6th ranks. In Bughouse they may also be placed on the 7th. 2. Promoted pieces keep their rank. When a promoted pawn is captured",
+    "anchor": "rules",
     "variant": "delirious-bughouse",
     "variantUrl": "chess/variants/delirious-bughouse/"
   },
@@ -8476,7 +8416,7 @@
     "sectionType": "winning",
     "section": "Delirious Bughouse",
     "heading": "Win Condition",
-    "content": "Victory = capturing an opposing King. Teams: if either ally's King is captured, both team members lose.",
+    "content": "Checkmate either opposing King. The first checkmate decides the match.",
     "anchor": "win-condition",
     "variant": "delirious-bughouse",
     "variantUrl": "chess/variants/delirious-bughouse/"
@@ -8487,9 +8427,9 @@
     "type": "variant",
     "sectionType": "general",
     "section": "Delirious Bughouse",
-    "heading": "Scoring (Match Play)",
-    "content": "When scoring matches: - +1 for each victory - +1 if the final check was given by a moving not dropped piece - +1 if the checkmate uses a non-FIDE piece - +1 if the checkmating move uses a non-attackin",
-    "anchor": "scoring-match-play",
+    "heading": "Later stages",
+    "content": "The same page describes how the game kept growing. Each stage is a separate game built on this one, and none is played here: - Dice Chess: before every move the player throws a die: 1 = Pawn, 2 = Knig",
+    "anchor": "later-stages",
     "variant": "delirious-bughouse",
     "variantUrl": "chess/variants/delirious-bughouse/"
   },
@@ -8500,7 +8440,7 @@
     "sectionType": "attribution",
     "section": "Delirious Bughouse",
     "heading": "Attribution",
-    "content": "Delirious Bughouse was developed by Alberto Vieira Ferreira Monteiro and Carlos Eugenio Lossio Seiblitz Filho, with earlier assistance from Oscar Luiz Vieira Ferreira and Carlos Vieira Ferreira. Final",
+    "content": "Rules from chessvariants.com/multiplayer.dir/delbug.html, written by Alberto Monteiro.",
     "anchor": "attribution",
     "variant": "delirious-bughouse",
     "variantUrl": "chess/variants/delirious-bughouse/"
@@ -10252,7 +10192,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "The Three Boards",
-    "content": "The boards are stacked vertically and share the same 12 files a through l and 8 ranks. Gold occupies ranks 1 and 2 on each board; Scarlet occupies ranks 7 and 8.\nLevel — Name — Theme — Piece types\n3 —",
+    "content": "The boards are stacked vertically and share the same 12 files a through l and 8 ranks. Gold occupies ranks 1 and 2 on each board; Scarlet occupies ranks 7 and 8.\nLevel — Name — Theme — Piece types\n1 —",
     "anchor": "the-three-boards",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10264,7 +10204,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Notation",
-    "content": "Each square is identified by its level number, file letter, and rank number. Level 3 is the Air board upper, Level 2 is Land middle, Level 1 is Subterranean lower. Examples: 3g1 is Gold's Dragon start",
+    "content": "Each square is identified by its level number, file letter, and rank number. Level 1 is the Air board upper, Level 2 is Land middle, Level 3 is Subterranean lower. Examples: 1g1 is Gold's Dragon start",
     "anchor": "notation",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10276,7 +10216,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Starting Positions",
-    "content": "Level 3 — Air 2G3R3G1/S1S1S1S1S1S1/12/12/12/12/s1s1s1s1s1s1/2g3r3g1 Gold rank 1: Griffons at 3c1 and 3k1; Dragon at 3g1. Gold rank 2: Sylphs at 3a2, 3c2, 3e2, 3g2, 3i2, 3k2. Level 2 — Land OUHTCMKPTHU",
+    "content": "Level 1 — Air 2g3r3g1/s1s1s1s1s1s1/12/12/12/12/S1S1S1S1S1S1/2G3R3G1 Gold rank 1: Griffons at 1c1 and 1k1; Dragon at 1g1. Gold rank 2: Sylphs at 1a2, 1c2, 1e2, 1g2, 1i2, 1k2. Level 2 — Land ouhtcmkpthu",
     "anchor": "starting-positions",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10324,7 +10264,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Griffon (G)",
-    "content": "On Level 3, the Griffon makes an unblockable 3,2 leap: three squares in one orthogonal direction and two squares perpendicularly, or two squares in one direction and three perpendicularly. The Griffon",
+    "content": "On Level 1, the Griffon makes an unblockable 3,2 leap: three squares in one orthogonal direction and two squares perpendicularly, or two squares in one direction and three perpendicularly. The Griffon",
     "anchor": "griffon-g",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10336,7 +10276,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Dragon (R)",
-    "content": "The Dragon never leaves Level 3. On its own board it moves and captures as a dragon horse: any number of squares diagonally like a bishop, or exactly one square orthogonally. Remote capture: without m",
+    "content": "The Dragon never leaves Level 1. On its own board it moves and captures as a dragon horse: any number of squares diagonally like a bishop, or exactly one square orthogonally. Remote capture: without m",
     "anchor": "dragon-r",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10396,7 +10336,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Hero (H)",
-    "content": "On Level 2, the Hero moves or captures one or two squares diagonally, leaping over any intervening piece unblockable. It may also cross to Level 1 or Level 3 via a space diagonal: one diagonal step on",
+    "content": "On Level 2, the Hero moves or captures one or two squares diagonally, leaping over any intervening piece unblockable. It may also cross to Level 3 or Level 1 via a space diagonal: one diagonal step on",
     "anchor": "hero-h",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10432,7 +10372,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Mage (M)",
-    "content": "On Level 2, the Mage moves and captures as a chess Queen: any number of squares orthogonally or diagonally. It may also step directly to the square above it Level 3 or below it Level 1. On Level 1 or ",
+    "content": "On Level 2, the Mage moves and captures as a chess Queen: any number of squares orthogonally or diagonally. It may also step directly to the square above it Level 1 or below it Level 3. On Level 3 or ",
     "anchor": "mage-m",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10444,7 +10384,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "King (K)",
-    "content": "On Level 2, the King moves and captures one square in any direction and may also step to the square directly above it Level 3 or directly below it Level 1. The King is in check whenever it could be ca",
+    "content": "On Level 2, the King moves and captures one square in any direction and may also step to the square directly above it Level 1 or directly below it Level 3. The King is in check whenever it could be ca",
     "anchor": "king-k",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10456,7 +10396,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Paladin (P)",
-    "content": "On Level 2, the Paladin moves and captures as a chess King one step in any direction or a chess Knight an unblockable 1,2 leap. On Level 1 or Level 3, the Paladin moves and captures as a chess King on",
+    "content": "On Level 2, the Paladin moves and captures as a chess King one step in any direction or a chess Knight an unblockable 1,2 leap. On Level 3 or Level 1, the Paladin moves and captures as a chess King on",
     "anchor": "paladin-p",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10468,7 +10408,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Dwarf (D)",
-    "content": "On Level 1 or Level 2, the Dwarf moves without capturing one square straight forward or one square sideways. It captures one square diagonally forward. It cannot move backward. Cross-level: the Dwarf ",
+    "content": "On Level 3 or Level 2, the Dwarf moves without capturing one square straight forward or one square sideways. It captures one square diagonally forward. It cannot move backward. Cross-level: the Dwarf ",
     "anchor": "dwarf-d",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10480,7 +10420,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Basilisk (B)",
-    "content": "Restricted to Level 1. The Basilisk moves or captures one square diagonally forward or one square straight forward. It may move but not capture one square straight backward. Freeze: any enemy piece oc",
+    "content": "Restricted to Level 3. The Basilisk moves or captures one square diagonally forward or one square straight forward. It may move but not capture one square straight backward. Freeze: any enemy piece oc",
     "anchor": "basilisk-b",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -10492,7 +10432,7 @@
     "sectionType": "general",
     "section": "Gygax Chess",
     "heading": "Elemental (E)",
-    "content": "On Level 1, the Elemental moves or captures one or two squares orthogonally. It cannot leap over an occupied square when moving two squares. It may also move one square diagonally without capturing. C",
+    "content": "On Level 3, the Elemental moves or captures one or two squares orthogonally. It cannot leap over an occupied square when moving two squares. It may also move one square diagonally without capturing. C",
     "anchor": "elemental-e",
     "variant": "gygax",
     "variantUrl": "chess/variants/gygax/"
@@ -12124,7 +12064,7 @@
     "sectionType": "setup",
     "section": "Makpong",
     "heading": "Setup",
-    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "content": "Board: Standard 8×8. Setup: The Makruk starting position. Pawns start on the third rank, and the pieces are Makruk's: Khon, Met, Rua, Ma. FEN: rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR w - - 0 1",
     "anchor": "setup",
     "variant": "makpong",
     "variantUrl": "chess/variants/makpong/"
@@ -12136,7 +12076,7 @@
     "sectionType": "overview",
     "section": "Makpong",
     "heading": "Rules",
-    "content": "All standard chess rules apply, except: - When in check, the King CANNOT move. You must resolve the check by: - Capturing the checking piece with any piece other than the King, OR - Blocking the check",
+    "content": "All Makruk rules apply, except: - When in check, the King CANNOT move. You must resolve the check by: - Capturing the checking piece with any piece other than the King, OR - Blocking the check interpo",
     "anchor": "rules",
     "variant": "makpong",
     "variantUrl": "chess/variants/makpong/"
@@ -14980,7 +14920,7 @@
     "sectionType": "general",
     "section": "Raumschach",
     "heading": "Queen",
-    "content": "Combines the Rook and Bishop orthogonal and two-axis diagonal slides. Does not include the Unicorn's triagonal move. Cannot jump over pieces.",
+    "content": "Combines the Rook, Bishop and Unicorn: any number of squares through a face, an edge or a corner of the cell, 26 directions in all. Cannot jump over pieces.",
     "anchor": "queen",
     "variant": "raumschach",
     "variantUrl": "chess/variants/raumschach/"
@@ -16864,7 +16804,7 @@
     "sectionType": "general",
     "section": "Stupidhouse",
     "heading": "Stupidhouse",
-    "content": "Stupidhouse is a Bughouse chess variant that modifies the drop mechanic: when a player uses a received piece, it is placed on a randomly selected legal empty square rather than on a square of the play",
+    "content": "Stupidhouse is a Double Bughouse variant described by John Beasley in the Autumn 1999 issue of Variant Chess, from a weekend in Geneva organised by Fabrice Liardet where eighteen players took part in ",
     "anchor": "stupidhouse",
     "variant": "stupidhouse",
     "variantUrl": "chess/variants/stupidhouse/"
@@ -16876,7 +16816,7 @@
     "sectionType": "general",
     "section": "Stupidhouse",
     "heading": "Setup and Teams",
-    "content": "Identical to Bughouse / Tandem Chess: - Two standard 8×8 boards - Four players in two teams: Team A White on Board 1, Black on Board 2 vs Team B Black on Board 1, White on Board 2 - Partners play on d",
+    "content": "Two standard 8×8 boards and four players in two teams. Unlike Bughouse, the players of a team have pieces of the same colour: both White players are partners, and both Black players are partners.",
     "anchor": "setup-and-teams",
     "variant": "stupidhouse",
     "variantUrl": "chess/variants/stupidhouse/"
@@ -16888,7 +16828,7 @@
     "sectionType": "general",
     "section": "Stupidhouse",
     "heading": "Play",
-    "content": "As in Bughouse: 1. Games run simultaneously 2. On your turn you may make a normal chess move, or drop a received piece onto the board 3. When you capture an enemy piece, it passes face-down to your pa",
+    "content": "The rules of Double Bughouse are followed, with one difference. When a player captures one of their opponent's pieces, they give it to their partner, who must place it on their own board instead of ma",
     "anchor": "play",
     "variant": "stupidhouse",
     "variantUrl": "chess/variants/stupidhouse/"
@@ -16900,8 +16840,20 @@
     "sectionType": "winning",
     "section": "Stupidhouse",
     "heading": "Win Condition",
-    "content": "Checkmate either opposing King. The first team to checkmate an opposing King wins.",
+    "content": "Checkmate either opposing King. The first checkmate decides the match.",
     "anchor": "win-condition",
+    "variant": "stupidhouse",
+    "variantUrl": "chess/variants/stupidhouse/"
+  },
+  {
+    "game": "chess",
+    "gameTitle": "Chess",
+    "type": "variant",
+    "sectionType": "general",
+    "section": "Stupidhouse",
+    "heading": "Comment",
+    "content": "Beasley writes: \"This is a really stupid game, and panic-stricken instructions to partners not to do so-and-so could be heard echoing round the room.\"",
+    "anchor": "comment",
     "variant": "stupidhouse",
     "variantUrl": "chess/variants/stupidhouse/"
   },
@@ -16912,7 +16864,7 @@
     "sectionType": "attribution",
     "section": "Stupidhouse",
     "heading": "Attribution",
-    "content": "Stupidhouse is a Bughouse variant documented on chessvariants.com.",
+    "content": "Rules from chessvariants.com/multiplayer.dir/stupidhouse.html Hans Bodlaender, 1999, after John Beasley, Variant Chess, Autumn 1999.",
     "anchor": "attribution",
     "variant": "stupidhouse",
     "variantUrl": "chess/variants/stupidhouse/"
@@ -17392,7 +17344,7 @@
     "sectionType": "setup",
     "section": "Tandem Chess",
     "heading": "Setup",
-    "content": "Two standard 8×8 boards: - Board A: White1 Team A vs Black1 Team B - Board B: White2 Team A vs Black2 Team B Teams: White1 + White2 vs Black1 + Black2. Partners sit on the same side of the table. On e",
+    "content": "Two standard 8×8 boards: - Board A: White1 Team A vs Black1 Team B - Board B: White2 Team A vs Black2 Team B Teams: White1 + Black2 vs Black1 + White2. Partners sit on the same side of the table, on d",
     "anchor": "setup",
     "variant": "tandem-chess",
     "variantUrl": "chess/variants/tandem-chess/"
@@ -17644,7 +17596,7 @@
     "sectionType": "general",
     "section": "Toroidal Byzantine Chess",
     "heading": "Toroidal Addition",
-    "content": "In Toroidal Byzantine Chess, the radial edges also wrap: - A piece sliding inward from ring 4 the innermost ring emerges from ring 1 the outermost ring at the same angular position - A piece sliding o",
+    "content": "In Toroidal Byzantine Chess, the radial edges also wrap: - A piece sliding inward past ring 1 the innermost ring emerges from ring 4 the outermost ring at the same angular position - A piece sliding o",
     "anchor": "toroidal-addition",
     "variant": "toroidal-byzantine",
     "variantUrl": "chess/variants/toroidal-byzantine/"
@@ -18652,7 +18604,7 @@
     "sectionType": "board",
     "section": "Yalta Chess",
     "heading": "Board",
-    "content": "The board is a hexagon, divided by three lines running from the centre to alternating corners into three equal Y-shaped parallelogram/rhombus sectors, one per player. Each sector contains a standard 8",
+    "content": "The board is a hexagon of 96 quadrilateral squares — \"three boards of 32 cells, one for each player\" chessvariants.com. Lines from the centre to the midpoint of every side cut it into six four-by-four",
     "anchor": "board",
     "variant": "yalta-chess",
     "variantUrl": "chess/variants/yalta-chess/"
@@ -26476,7 +26428,7 @@
     "sectionType": "board",
     "section": "Sankaku Shogi",
     "heading": "Board",
-    "content": "The playing field consists of 44 triangular cells in a diamond pattern with the four extreme corners removed to reduce choke points. Files are labeled a–g; ranks 1–8. The field is narrowest at ranks 1",
+    "content": "The playing field is 44 triangular cells on files a–g and ranks 1–8. It began as a diamond: \"the two far cells were removed to limit 'choke' points and create a form of first rank for each player\", an",
     "anchor": "board",
     "variant": "sankaku-shogi",
     "variantUrl": "shogi/variants/sankaku-shogi/"

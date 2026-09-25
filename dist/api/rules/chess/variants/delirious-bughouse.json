@@ -4,9 +4,9 @@
   "title": "Delirious Bughouse",
   "players": "4 (2 teams of 2)",
   "board": "8×8 (two boards)",
-  "win": "Capture an opposing King (team loses if either ally's King is captured)",
-  "special": "Bughouse variant by Alberto Monteiro (c.1984) combining relay capture, dice, and a worst-move mechanic. Two boards, 4 players, 2 allied teams. Key Bughouse modifications: Pawns drop only on ranks 2–6 (not rank 7); promoted Pawns when captured stay promoted (the promoting player recovers the original Pawn, permanently increasing piece count). Add-on layers: Dice Chess (die each turn — 1=Pawn, 2=Knight, 3=Bishop, 4=Rook, 5=Queen, 6=any); Worst Move (second die determines whether the player or opponent chooses the move); fairy pieces (Camel, Giraffe, Zebra, Cylindrical pieces, Pyramid, Atomic Bomb). Final full form adds Structures, Events, and Magic Items.",
-  "playable": false,
+  "win": "Checkmate either opposing King: if either ally is checkmated, the other loses",
+  "special": "Bughouse by Alberto Monteiro and Carlos Seiblitz (c.1984) with two changes: pawns may only be placed on the 2nd to 6th ranks, and a captured promoted piece stays promoted while the player who promoted it gets the pawn back, so every promotion adds a piece to the game. The same page goes on to Dice Chess, Worst Move and fairy stages, which are separate games.",
+  "playable": true,
   "order": 99,
   "designer": null,
   "category": null,
@@ -15,7 +15,21 @@
       "type": "grid",
       "rows": 8,
       "cols": 8,
-      "boards": 2
+      "layers": 2,
+      "layer_labels": [
+        "Board 1",
+        "Board 2"
+      ],
+      "layerSeats": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
     },
     "players": [
       "white1",
@@ -30,7 +44,56 @@
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
       "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
     ],
-    "notation": "algebraic"
+    "notation": "algebraic",
+    "plugins": {
+      "chess": {
+        "playerCount": 4,
+        "advancement": {
+          "0": -1,
+          "1": 1,
+          "2": -1,
+          "3": 1
+        },
+        "teams": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "drops": true,
+        "capturesTo": "partner",
+        "dropRegion": {
+          "layers": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "pawnDropRanks": [
+          2,
+          6
+        ],
+        "promotionsKept": true,
+        "matchEnds": "first"
+      }
+    }
   },
   "diagram": {
     "svg": "games/chess/diagrams/svg/delirious-bughouse-board.svg",

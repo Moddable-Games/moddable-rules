@@ -255,7 +255,7 @@ Moddable Chess includes {{variant_count}} playable variants spanning classic rul
 - [San-kwo-k'i](variants/san-kwo-ki/) -- Three-player Chinese chess representing the Three Kingdoms (220-280 CE)
 - [Tandem Chess](variants/tandem-chess/) -- Two boards, 4 players; captured pieces passed to partner for drops
 - [Vierschach](variants/vierschach/) -- German 4-player chess (Lutze); 160-square cross board; allied teams
-- [Yalta Chess](variants/yalta-chess/) -- 3-player on a circular Y-trisection board; captured armies absorbed
+- [Yalta Chess](variants/yalta-chess/) -- 3-player on a hexagonal board of three half-boards; captured armies absorbed
 
 </div>
 

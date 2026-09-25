@@ -4623,21 +4623,133 @@
       "board": "44-cell triangular",
       "win": "Capture the opponent's Emperor",
       "special": "Modern Shogi variant on a 44-cell triangular board. 13 pieces per side: Emperor (leaps to any cell), Chariot (slides orthogonally, runs down Soldiers), Cavalry (leaps to second orthogonal), General (steps to any adjacent cell), and Soldiers. Captured pieces are removed permanently. Soldiers and Cavalry promote to General upon any capture.",
-      "playable": false,
+      "playable": true,
       "order": 99,
       "designer": null,
       "category": null,
       "engine": {
         "topology": {
           "type": "triangular",
-          "cells": 44
+          "cells": 44,
+          "shape": [
+            "..AVA..",
+            ".AVAVA.",
+            "AVAVAVA",
+            "VAVAVAV",
+            "AVAVAVA",
+            "VAVAVAV",
+            ".VAVAV.",
+            "..VAV.."
+          ]
         },
         "players": [
           "black",
           "white"
         ],
         "notation": "algebraic",
-        "drops": false
+        "setup": "2[cs][ep][cs]2/1[hn][hn][gj][hn][hn]1/1[sl][sl][sl][sl][sl]1/7/7/1[SL][SL][SL][SL][SL]1/1[HN][HN][GJ][HN][HN]1/2[CS][EP][CS]2",
+        "vocabulary": {
+          "emperor": {
+            "symbols": {
+              "0": "EP",
+              "1": "ep"
+            }
+          },
+          "chariot": {
+            "symbols": {
+              "0": "CS",
+              "1": "cs"
+            }
+          },
+          "cavalry": {
+            "symbols": {
+              "0": "HN",
+              "1": "hn"
+            }
+          },
+          "general": {
+            "symbols": {
+              "0": "GJ",
+              "1": "gj"
+            }
+          },
+          "soldier": {
+            "symbols": {
+              "0": "SL",
+              "1": "sl"
+            }
+          }
+        },
+        "pieces": {
+          "set": "mce-shogi-fairy"
+        },
+        "render": {
+          "cellSize": 44,
+          "labels": true
+        },
+        "plugins": {
+          "shogi": {
+            "royalType": "emperor",
+            "noCheck": true,
+            "drops": false,
+            "promotionZone": 0,
+            "pieceMoves": {
+              "emperor": {
+                "type": "universal"
+              },
+              "chariot": {
+                "type": "rider",
+                "dirs": "orthogonal",
+                "runDown": {
+                  "types": [
+                    "soldier"
+                  ]
+                }
+              },
+              "cavalry": {
+                "type": "leaper",
+                "offsets": "second-orthogonal",
+                "relay": true
+              },
+              "general": {
+                "type": "leaper",
+                "offsets": "adjacent"
+              },
+              "soldier": [
+                {
+                  "type": "rider",
+                  "dirs": "orthogonal",
+                  "maxSteps": 1
+                },
+                {
+                  "divergent": {
+                    "capture": {
+                      "type": "rider",
+                      "dirs": "orthogonal",
+                      "minSteps": 2,
+                      "maxSteps": 2
+                    }
+                  }
+                }
+              ]
+            },
+            "promoteOnCapture": {
+              "soldier": "general",
+              "cavalry": "general"
+            },
+            "captureImmunity": [
+              {
+                "by": "soldier",
+                "target": "chariot"
+              },
+              {
+                "by": "emperor",
+                "target": "emperor",
+                "when": "defended"
+              }
+            ]
+          }
+        }
       },
       "diagram": {
         "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
@@ -15604,7 +15716,7 @@
         "topology": "triangular",
         "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
         "rulesUrl": "shogi/variants/sankaku-shogi/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -15708,7 +15820,7 @@
   },
   "stats": {
     "variantCount": 24,
-    "playable": 23,
+    "playable": 24,
     "withDiagram": 24,
     "topologies": [
       "grid",

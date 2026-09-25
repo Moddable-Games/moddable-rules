@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-25",
   "total": 665,
-  "totalPages": 9765,
+  "totalPages": 9768,
   "families": 50,
   "byType": {
     "rulebook": 100,
@@ -520,7 +520,7 @@
       "path": "chess/pdf/variants/byzantine-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/capablanca.pdf",
@@ -580,7 +580,7 @@
       "path": "chess/pdf/variants/circular-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/citadel-chess.pdf",
@@ -646,7 +646,7 @@
       "path": "chess/pdf/variants/delirious-bughouse.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 5
+      "pages": 3
     },
     {
       "path": "chess/pdf/variants/diana.pdf",
@@ -3358,13 +3358,13 @@
       "path": "shogi/pdf/shogi-variant-library-v1.2.0.pdf",
       "family": "shogi",
       "type": "library",
-      "pages": 112
+      "pages": 113
     },
     {
       "path": "shogi/pdf/shogi-variant-library.pdf",
       "family": "shogi",
       "type": "library",
-      "pages": 112
+      "pages": 113
     },
     {
       "path": "shogi/pdf/variants/annan-shogi.pdf",
@@ -3442,7 +3442,7 @@
       "path": "shogi/pdf/variants/maka-dai-dai-shogi.pdf",
       "family": "shogi",
       "type": "variant",
-      "pages": 7
+      "pages": 8
     },
     {
       "path": "shogi/pdf/variants/minishogi.pdf",

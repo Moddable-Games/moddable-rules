@@ -20,10 +20,9 @@
       "white",
       "black"
     ],
-    "setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+    "setup": "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR",
     "plugins": {
       "chess": {
-        "setup": "rngkfgnr/8/pppppppp/8/8/PPPPPPPP/8/RNGKFGNR",
         "castling": false,
         "enPassant": false,
         "doubleStep": false,

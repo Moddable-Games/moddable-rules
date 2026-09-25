@@ -6,6 +6,8 @@ Byzantine Chess itself descends from Shatranj (the form of chess that reached Eu
 
 ### Starting Position
 
+{{svg:toroidal-byzantine-board.svg "Toroidal Byzantine Chess — starting position"}}
+
 The source states piece rules are "the same as in Byzantine Chess," but the **setup differs** from plain Byzantine Chess. In ordinary Byzantine Chess, each army straddles the seam where file p meets file a; on the toroidal board that arrangement would put both Kings in mutual check immediately (the radial wrap removes the inner/outer edges that normally shield them). Instead, each army is placed in a contiguous 4-file block, positioned so that **only pawns are attacked** from the starting position.
 
 Using the rectangular "unrolled" development of the ring board (4 rings as ranks 1–4, 16 positions as files a–p — the same convention as plain Byzantine Chess), confirmed against the source's interactive diagram:
@@ -45,8 +47,8 @@ Note: the source's own overview text loosely refers to a modern circular-board r
 
 In Toroidal Byzantine Chess, the **radial edges** also wrap:
 
-- A piece sliding inward from ring 4 (the innermost ring) emerges from ring 1 (the outermost ring) at the same angular position
-- A piece sliding outward from ring 1 emerges from ring 4 at the same angular position
+- A piece sliding inward past ring 1 (the innermost ring) emerges from ring 4 (the outermost ring) at the same angular position
+- A piece sliding outward past ring 4 emerges from ring 1 at the same angular position
 - Diagonal movement that crosses the radial boundary does so with the corresponding offset
 
 This means there are truly no edges on the board — every ring is adjacent to two rings on both radial sides (ring 1 is adjacent to rings 2 and 4; ring 4 is adjacent to rings 3 and 1).

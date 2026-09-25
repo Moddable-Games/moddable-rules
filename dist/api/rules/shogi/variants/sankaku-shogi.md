@@ -6,9 +6,11 @@ Sankaku Shogi (三角将棋, "Triangle Shogi") is a modern Shogi-inspired varian
 
 ### Board
 
-The playing field consists of 44 triangular cells in a diamond pattern with the four extreme corners removed to reduce choke points. Files are labeled a–g; ranks 1–8. The field is narrowest at ranks 1 and 8 (2 cells wide) and widest at ranks 4 and 5 (4 cells wide).
+The playing field is 44 triangular cells on files a–g and ranks 1–8. It began as a diamond: "the two far cells were removed to limit 'choke' points and create a form of first rank for each player", and "the two cells on each side were removed to prevent direct lines of attack on the initial position of the Emperors". From rank 8 down to rank 1 the ranks hold 3, 5, 7, 7, 7, 7, 5 and 3 cells. Along a rank the triangles alternate apex up and apex down, so neighbouring files share a slanted side.
 
-Orthogonal movement is through shared sides (each step from one cell to the next sharing a complete side). Adjacent movement includes cells connected by either side or point — giving each interior cell up to 5 neighbours.
+**Orthogonal** movement is "through the above patterns of triangles", the three strips the source draws: one along a rank and one along each slant, "with each step being from one cell to another which shares a complete side". A cell has at most three orthogonal neighbours and six orthogonal directions, two along each strip. The **second orthogonal** is two steps along one strip.
+
+**Adjacent** movement is "the translation from one cell to another which connected either by side or point": every cell touching it at a side or a corner, up to twelve. The source illustrates it with the six triangles round one corner, any of which "could adjacently move to any of the other five cells".
 
 ### Starting Position
 
@@ -32,7 +34,7 @@ Orthogonal movement is through shared sides (each step from one cell to the next
 
 **Chariot:** Slides orthogonally any number of cells. Cannot be captured by Soldiers. Can "run down" a Soldier: captures the Soldier and continues sliding to end on a vacant cell or capture another piece.
 
-**General:** Steps to any adjacent cell (connected by side or point — up to 5 cells).
+**General:** Steps to any adjacent cell (connected by side or point — up to 12 cells).
 
 **Cavalry:** Leaps to the second orthogonal cell. If that cell is occupied by a friendly piece, the Cavalry makes one additional leap in any direction (not returning to start). The second leap must land on a vacant or enemy-occupied cell.
 

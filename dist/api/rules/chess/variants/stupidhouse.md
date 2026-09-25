@@ -2,28 +2,26 @@
 
 {{svg:stupidhouse-board.svg "Stupidhouse — starting position"}}
 
-Stupidhouse is a Bughouse chess variant that modifies the drop mechanic: when a player uses a received piece, it is placed on a **randomly selected legal empty square** rather than on a square of the player's choosing. This removes the strategic core of Bughouse — targeted drops — and replaces it with unpredictable chaos.
+Stupidhouse is a Double Bughouse variant described by John Beasley in the Autumn 1999 issue of *Variant Chess*, from a weekend in Geneva organised by Fabrice Liardet where eighteen players took part in several chess variants, including a Double Bughouse tournament.
 
 ### Setup and Teams
 
-Identical to Bughouse / Tandem Chess:
-- Two standard 8×8 boards
-- Four players in two teams: Team A (White on Board 1, Black on Board 2) vs Team B (Black on Board 1, White on Board 2)
-- Partners play on different boards with opposite colours
+Two standard 8×8 boards and four players in two teams. Unlike Bughouse, **the players of a team have pieces of the same colour**: both White players are partners, and both Black players are partners.
 
 ### Play
 
-As in Bughouse:
-1. Games run simultaneously
-2. On your turn you may make a normal chess move, or drop a received piece onto the board
-3. When you capture an enemy piece, it passes face-down to your partner
+The rules of Double Bughouse are followed, with one difference. When a player captures one of their opponent's pieces, they give it to their partner, who **must place it on their own board instead of making a normal move**.
 
-**The Stupidhouse twist:** When a player drops a received piece, they do not choose the square. The piece lands on a randomly determined empty square from all legal drop squares. (Standard drop restrictions apply: no Pawn on the 1st or 8th rank, no dropping into check.)
+Because partners share a colour, the captured piece belongs to the partner's opponent. Every capture you make forces your partner to put an enemy piece onto their board. A piece may not be placed where it would leave the placer's own King in check, and a pawn may not be placed on the first or eighth rank.
 
 ### Win Condition
 
-Checkmate either opposing King. The first team to checkmate an opposing King wins.
+Checkmate either opposing King. The first checkmate decides the match.
+
+### Comment
+
+Beasley writes: "This is a really stupid game, and panic-stricken instructions to partners not to do so-and-so could be heard echoing round the room."
 
 ### Attribution
 
-Stupidhouse is a Bughouse variant documented on chessvariants.com.
+Rules from chessvariants.com/multiplayer.dir/stupidhouse.html (Hans Bodlaender, 1999), after John Beasley, *Variant Chess*, Autumn 1999.

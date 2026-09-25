@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12",
+  "generated": "2026-09-25",
   "total": 359,
   "rendered": 346,
   "missing": 13,
@@ -687,7 +687,7 @@
       "topology": "grid",
       "svg": "games/chess/diagrams/svg/delirious-bughouse-board.svg",
       "rulesUrl": "chess/variants/delirious-bughouse/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "4 (2 teams of 2)"
     },
@@ -975,7 +975,7 @@
       "topology": "grid",
       "svg": "games/chess/diagrams/svg/gygax-board.svg",
       "rulesUrl": "chess/variants/gygax/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -1563,7 +1563,7 @@
       "topology": "grid",
       "svg": "games/chess/diagrams/svg/raumschach-board.svg",
       "rulesUrl": "chess/variants/raumschach/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -1779,7 +1779,7 @@
       "topology": "grid",
       "svg": "games/chess/diagrams/svg/spherical-chess-board.svg",
       "rulesUrl": "chess/variants/spherical-chess/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },
@@ -1815,7 +1815,7 @@
       "topology": "grid",
       "svg": "games/chess/diagrams/svg/stupidhouse-board.svg",
       "rulesUrl": "chess/variants/stupidhouse/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "4 (2 teams of 2)"
     },
@@ -1863,7 +1863,7 @@
       "topology": "grid",
       "svg": "games/chess/diagrams/svg/tandem-chess-board.svg",
       "rulesUrl": "chess/variants/tandem-chess/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "4 (2 teams of 2)"
     },
@@ -2043,7 +2043,7 @@
       "topology": "hexagonal-trisection",
       "svg": "games/chess/diagrams/svg/yalta-chess-board.svg",
       "rulesUrl": "chess/variants/yalta-chess/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": 3
     },
@@ -3579,7 +3579,7 @@
       "topology": "triangular",
       "svg": "games/shogi/diagrams/svg/sankaku-shogi-board.svg",
       "rulesUrl": "shogi/variants/sankaku-shogi/index.html",
-      "playable": false,
+      "playable": true,
       "status": "rendered",
       "players": "2"
     },

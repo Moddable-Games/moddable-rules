@@ -42,6 +42,8 @@ engine:
 
 ## Overview
 
+{{svg:byzantine-chess-board.svg "Byzantine Chess — starting position"}}
+
 Byzantine Chess is a Shatranj variant popular in 10th-century Byzantium (present-day Istanbul). It is played on a circular board of four concentric rings, each containing 16 squares, for 64 squares in total. The circular topology means file 16 (p) connects directly back to file 1 (a) around the ring.
 
 ## Board

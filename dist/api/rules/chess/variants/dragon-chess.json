@@ -24,6 +24,20 @@
     "plugins": {
       "chess": {
         "drops": true,
+        "capturesTo": "none",
+        "dropZone": [
+          0
+        ],
+        "initialHands": [
+          [
+            "dragon",
+            "dragon"
+          ],
+          [
+            "dragon",
+            "dragon"
+          ]
+        ],
         "pieces": {
           "dragon": {
             "type": "compose",
