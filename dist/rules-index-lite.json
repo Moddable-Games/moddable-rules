@@ -30208,7 +30208,7 @@
     "sectionType": "general",
     "section": "Hong Kong Mahjong",
     "heading": "Faan Scoring",
-    "content": "Each winning hand is valued by adding up the faan from completed patterns. Common patterns: Minimum to win: 3 faan. A hand below 3 faan cannot be declared.\nPattern — Faan\nSelf-draw win (Zimo) — 1\nFull",
+    "content": "A winning hand's faan is the total of every pattern it makes, to a limit of 13. A hand must be worth at least 3 faan to be declared.\nPattern — Faan\nCommon Hand (all sequences) — 1\nAll in Triplets — 3\n",
     "anchor": "faan-scoring",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"
@@ -30220,7 +30220,7 @@
     "sectionType": "general",
     "section": "Hong Kong Mahjong",
     "heading": "Limit Hands",
-    "content": "Certain exceptional hands pay the maximum regardless of calculated faan. Examples: Thirteen Orphans, Four Concealed Pongs, All Kongs. When a limit hand is declared, each opponent pays the maximum limi",
+    "content": "\nHand — Faan\nAll Honour Tiles — 10\nSelf Triplets (four concealed pongs) — 10\nOrphans (all terminals) — 10\nGreat Winds (four wind pongs) — 13\nAll Kongs — 13\nThirteen Orphans — 13",
     "anchor": "limit-hands",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"
@@ -30232,7 +30232,7 @@
     "sectionType": "general",
     "section": "Hong Kong Mahjong",
     "heading": "Payment",
-    "content": "Payment is in points chips or tallies. The East player dealer pays and receives double. - Win on discard: discarder pays full hand value; others pay nothing. - Win on wall: all three opponents each pa",
+    "content": "Points double with every faan: 3 faan is 8 points, 4 is 16, and so on to 13 faan, 8,192. - Win on a discard: the discarder pays the winner the full points. - Win on a self-drawn tile: each other playe",
     "anchor": "payment",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"
@@ -30244,7 +30244,7 @@
     "sectionType": "attribution",
     "section": "Hong Kong Mahjong",
     "heading": "Attribution",
-    "content": "Hong Kong / Cantonese Mahjong. Traditional game originating in China. Rules in the public domain. Primary source: Wikipedia Mahjong, Hong Kong ruleset section.",
+    "content": "Hong Kong / Cantonese Mahjong. Traditional game originating in China. Scoring written from Wikipedia, Hong Kong mahjong scoring rules, which is the source for the faan table, the limit hands and the p",
     "anchor": "attribution",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"

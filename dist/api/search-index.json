@@ -30184,7 +30184,7 @@
     "sectionType": "general",
     "section": "Hong Kong Mahjong",
     "heading": "Winning Hand",
-    "content": "A standard winning hand consists of 4 melds + 1 pair = 14 tiles. Alternate winning hands: Seven Pairs 7 different pairs, and certain limit hands defined by the scoring table. To declare a win, the hand must be worth a minimum of 3 faan. Win on wall Zimo: you draw the winning tile from the wall. All three opponents each pay the full hand value. Win on discard Ron: another player discards your winning tile. Only the discarder pays the full hand value.",
+    "content": "A standard winning hand consists of 4 melds + 1 pair = 14 tiles. Alternate winning hands: Seven Pairs 7 different pairs, and certain limit hands defined by the scoring table. To declare a win, the hand must be worth a minimum of 3 faan, and one of Thirteen Orphans or the standard forms. Win on wall Zimo: you draw the winning tile from the wall. All three opponents each pay the full hand value. Win on discard Ron: another player discards your winning tile. Only the discarder pays the full hand value.",
     "anchor": "winning-hand",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"
@@ -30208,7 +30208,7 @@
     "sectionType": "general",
     "section": "Hong Kong Mahjong",
     "heading": "Faan Scoring",
-    "content": "Each winning hand is valued by adding up the faan from completed patterns. Common patterns: Minimum to win: 3 faan. A hand below 3 faan cannot be declared.\nPattern — Faan\nSelf-draw win (Zimo) — 1\nFully concealed hand — 1\nAll Pongs — 3\nHalf Flush (one suit + honours) — 3\nFull Flush (one suit only) — 6\nMixed Terminals and Honours — 1\nAll Terminals and Honours — 5\nSeven Pairs — 3\nWinning on a supplement tile (after Kong) — 1\nWinning on last tile of the wall — 1\nRobbing a Kong — 1",
+    "content": "A winning hand's faan is the total of every pattern it makes, to a limit of 13. A hand must be worth at least 3 faan to be declared.\nPattern — Faan\nCommon Hand (all sequences) — 1\nAll in Triplets — 3\nMixed One Suit (one suit and honours) — 3\nAll One Suit — 7\nMixed Orphans (terminals and honours only) — 1\nSeven Pairs — 4\nSmall Dragons (two dragon pongs and a dragon pair) — 5\nGreat Dragons (three dragon pongs) — 8\nSmall Winds (three wind pongs and a wind pair) — 6\nEach pong of dragons — 1\nPong of the seat wind; pong of the prevailing wind — 1 each\nNo flowers or seasons — 1\nFlower or season of the seat's own number — 1 each\nAll four flowers; all four seasons — 2 each\nSelf-Pick (winning tile drawn from the wall) — 1\nWin from Wall (fully concealed hand) — 1\nRobbing a Kong — 1\nWin by Last Catch (last tile of the wall) — 1\nWin by Kong (on a supplement tile) — 1",
     "anchor": "faan-scoring",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"
@@ -30220,7 +30220,7 @@
     "sectionType": "general",
     "section": "Hong Kong Mahjong",
     "heading": "Limit Hands",
-    "content": "Certain exceptional hands pay the maximum regardless of calculated faan. Examples: Thirteen Orphans, Four Concealed Pongs, All Kongs. When a limit hand is declared, each opponent pays the maximum limit amount.",
+    "content": "\nHand — Faan\nAll Honour Tiles — 10\nSelf Triplets (four concealed pongs) — 10\nOrphans (all terminals) — 10\nGreat Winds (four wind pongs) — 13\nAll Kongs — 13\nThirteen Orphans — 13",
     "anchor": "limit-hands",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"
@@ -30232,7 +30232,7 @@
     "sectionType": "general",
     "section": "Hong Kong Mahjong",
     "heading": "Payment",
-    "content": "Payment is in points chips or tallies. The East player dealer pays and receives double. - Win on discard: discarder pays full hand value; others pay nothing. - Win on wall: all three opponents each pay full hand value. - Dealer wins or loses: dealer pays or receives double the usual amount. The dealer role passes to the left South becomes dealer when the dealer does not win the hand. The dealer retains their seat if they win.",
+    "content": "Points double with every faan: 3 faan is 8 points, 4 is 16, and so on to 13 faan, 8,192. - Win on a discard: the discarder pays the winner the full points. - Win on a self-drawn tile: each other player pays one and a half times the points. The dealer keeps the deal after winning, or after a hand in which the wall runs out; otherwise the deal passes to the right. The prevailing wind moves on once every player has dealt.",
     "anchor": "payment",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"
@@ -30244,7 +30244,7 @@
     "sectionType": "attribution",
     "section": "Hong Kong Mahjong",
     "heading": "Attribution",
-    "content": "Hong Kong / Cantonese Mahjong. Traditional game originating in China. Rules in the public domain. Primary source: Wikipedia Mahjong, Hong Kong ruleset section.",
+    "content": "Hong Kong / Cantonese Mahjong. Traditional game originating in China. Scoring written from Wikipedia, Hong Kong mahjong scoring rules, which is the source for the faan table, the limit hands and the payment above.",
     "anchor": "attribution",
     "variant": "hong-kong",
     "variantUrl": "mahjong/games/hong-kong/"

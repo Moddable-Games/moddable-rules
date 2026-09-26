@@ -77,7 +77,7 @@ A standard winning hand consists of **4 melds + 1 pair = 14 tiles**.
 
 Alternate winning hands: Seven Pairs (7 different pairs), and certain limit hands defined by the scoring table.
 
-To declare a win, the hand must be worth a **minimum of 3 faan**.
+To declare a win, the hand must be worth a **minimum of 3 faan**, and one of Thirteen Orphans or the standard forms.
 
 **Win on wall (Zimo):** you draw the winning tile from the wall. All three opponents each pay the full hand value.
 
@@ -96,38 +96,50 @@ Bonus tiles are set aside when drawn and are not part of the winning hand struct
 
 ### Faan Scoring
 
-Each winning hand is valued by adding up the faan from completed patterns. Common patterns:
+A winning hand's faan is the total of every pattern it makes, to a limit of **13**. A hand must be worth at least **3 faan** to be declared.
 
 | Pattern | Faan |
-|---------|------|
-| Self-draw win (Zimo) | 1 |
-| Fully concealed hand | 1 |
-| All Pongs | 3 |
-| Half Flush (one suit + honours) | 3 |
-| Full Flush (one suit only) | 6 |
-| Mixed Terminals and Honours | 1 |
-| All Terminals and Honours | 5 |
-| Seven Pairs | 3 |
-| Winning on a supplement tile (after Kong) | 1 |
-| Winning on last tile of the wall | 1 |
+|---|---|
+| Common Hand (all sequences) | 1 |
+| All in Triplets | 3 |
+| Mixed One Suit (one suit and honours) | 3 |
+| All One Suit | 7 |
+| Mixed Orphans (terminals and honours only) | 1 |
+| Seven Pairs | 4 |
+| Small Dragons (two dragon pongs and a dragon pair) | 5 |
+| Great Dragons (three dragon pongs) | 8 |
+| Small Winds (three wind pongs and a wind pair) | 6 |
+| Each pong of dragons | 1 |
+| Pong of the seat wind; pong of the prevailing wind | 1 each |
+| No flowers or seasons | 1 |
+| Flower or season of the seat's own number | 1 each |
+| All four flowers; all four seasons | 2 each |
+| Self-Pick (winning tile drawn from the wall) | 1 |
+| Win from Wall (fully concealed hand) | 1 |
 | Robbing a Kong | 1 |
-
-Minimum to win: **3 faan**. A hand below 3 faan cannot be declared.
+| Win by Last Catch (last tile of the wall) | 1 |
+| Win by Kong (on a supplement tile) | 1 |
 
 ### Limit Hands
 
-Certain exceptional hands pay the maximum regardless of calculated faan. Examples: Thirteen Orphans, Four Concealed Pongs, All Kongs. When a limit hand is declared, each opponent pays the maximum limit amount.
+| Hand | Faan |
+|---|---|
+| All Honour Tiles | 10 |
+| Self Triplets (four concealed pongs) | 10 |
+| Orphans (all terminals) | 10 |
+| Great Winds (four wind pongs) | 13 |
+| All Kongs | 13 |
+| Thirteen Orphans | 13 |
 
 ### Payment
 
-Payment is in points (chips or tallies). The East player (dealer) pays and receives double.
+Points double with every faan: 3 faan is 8 points, 4 is 16, and so on to 13 faan, 8,192.
 
-- Win on discard: discarder pays full hand value; others pay nothing.
-- Win on wall: all three opponents each pay full hand value.
-- Dealer wins or loses: dealer pays or receives double the usual amount.
+- Win on a discard: the discarder pays the winner the full points.
+- Win on a self-drawn tile: each other player pays one and a half times the points.
 
-The dealer role passes to the left (South becomes dealer) when the dealer does not win the hand. The dealer retains their seat if they win.
+The dealer keeps the deal after winning, or after a hand in which the wall runs out; otherwise the deal passes to the right. The prevailing wind moves on once every player has dealt.
 
 ### Attribution
 
-Hong Kong / Cantonese Mahjong. Traditional game originating in China. Rules in the public domain. Primary source: Wikipedia *(Mahjong)*, Hong Kong ruleset section.
+Hong Kong / Cantonese Mahjong. Traditional game originating in China. Scoring written from Wikipedia, *Hong Kong mahjong scoring rules*, which is the source for the faan table, the limit hands and the payment above.
