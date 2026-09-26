@@ -12,7 +12,7 @@ status: "live"
 updated: "2026-07-21"
 published: true
 hub_type: component
-how_to_play: "The double-6 domino set (28 tiles) supports 4 games: Block, All Fives, Mexican Train, and Chickenfoot. All involve matching pip values and extending a chain."
+how_to_play: "Four games of matching pips: Block and All Fives on the double-6 set (28 tiles), Chickenfoot on the double-9 (55) and Mexican Train on the double-12 (91)."
 mechanics: [tile-placement, pattern, set-collection, hand-management]
 complexity: simple
 related: [standard-52, mahjong, standard-dice]
@@ -37,9 +37,7 @@ engine:
       type: fan
   players: [south, north]
 unsupported:
-  _family: "The tableau plugin (moddable-engine#176) plays Block and All Fives from their frontmatter (`game: dominoes`): matching ends, the boneyard, the spinner and scoring on fives. The games below need layouts or rules the dominoes shape does not have."
-  chickenfoot: "No plugin. Needs the branching layout a double creates: three arms that must all be filled before play continues anywhere else, so the tableau changes shape as it is played."
-  mexican-train: "No plugin. Needs a train per player plus a public train, trains that open to everyone when their owner cannot play, and the doubles rule that forces the next play - per-seat structures on a shared table."
+  _family: "The tableau plugin (moddable-engine#176) plays all four from their frontmatter: Block and All Fives as one line with a spinner (`game: dominoes`), Mexican Train as a train per player and a public train (`game: trains`), and Chickenfoot as a layout that branches at every double (`game: branching`)."
 ---
 
 <div class="section">

@@ -1,18 +1,30 @@
 ---
-playable: false
+playable: true
 title: Mexican Train
 slug: mexican-train
 board: "none"
 players: "2–8"
 parent: double-six-dominoes
-win: "First to empty hand across rounds; lowest cumulative pip count wins the match"
+win: "Lowest total of pips left in hand over thirteen hands"
 special: "Hub-and-spokes layout. Each player builds their own train from the central double. The shared Mexican Train is always available to play on."
+approximations:
+  - feature: "When nobody holds the starting double"
+    source: "Pagat: 'If no one has the double required to start, players draw equally from the boneyard until it is found.'"
+    engine: "Each player in turn draws one tile until the double turns up, and whoever draws it puts it down."
+  - feature: "Doubles on a first turn"
+    source: "Pagat: 'From your second turn onwards, whenever you play a double you must play an extra domino.'"
+    engine: "A double played as part of a first-turn train is simply part of the train: it earns no extra tile and does not have to be satisfied."
+  - feature: "A blocked hand"
+    source: "Pagat: the hand ends 'when the layout becomes blocked so that no one can play.'"
+    engine: "The hand is blocked once every player in a row has passed with nothing left to draw."
 engine:
+  players: [player1, player2, player3, player4]
   components:
-    tiles: double12
-    hub: true
-    personal_trains: true
-    mexican_train: true
+    deck:
+      type: dominoes-28
+      maxPips: 12
+  pieces:
+    set: mce-dominoes-double12
   topology:
     type: tableau
     layout: radial
@@ -20,74 +32,68 @@ engine:
     minPlayers: 2
     maxPlayers: 8
     defaultPlayers: 4
-    perPlayer: 10
+    perPlayer: 15
     community: 0
     remainder: boneyard
+  plugins:
+    double-six-dominoes:
+      game: trains
+      publicTrain: true
+      afterStart: holder
+      tilesPerPlayer: { 2: 15, 3: 15, 4: 15, 5: 12, 6: 12, 7: 10, 8: 10 }
 published: true
 ---
 
 ## Mexican Train
 
-A domino game for 2–8 players using a **double-12 set** (91 tiles). All trains radiate from a central double (the **hub**). Each player builds their own personal train; a shared **Mexican Train** is always open for anyone to play on. A match consists of 13 rounds (starting from double-12 down to double-0).
+A domino game for 2–8 players using a **double-12 set** (91 tiles). All trains radiate from a central double, the **engine**. Each player builds their own train from it, and a shared **Mexican Train** is open to everyone. A full game is thirteen hands, the first started with the 12-12, then the 11-11, and so on down to the 0-0.
 
 {{svg:mexican-train-board.svg "Mexican Train — table layout"}}
 
 ### Components
 
-- **Double-12 set:** 91 tiles (pips 0–12 per half)
-- **Hub:** a central station piece (or an empty tile slot) where trains begin
-- **Train markers:** one per player (coins or tokens) to mark an open personal train
-
-*Double-9 (55 tiles, 10 rounds) is a common alternative for smaller groups.*
+- **Double-12 set:** 91 tiles (pips 0–12 on each half)
+- **Train markers:** one per player (coins or tokens) to show that a train is open to others
 
 ### Setup
 
-1. Place the **hub** in the centre.
-2. The starting double for the round (double-12 in round 1, double-11 in round 2, etc.) is placed on the hub. If no player holds it, draw from the boneyard until found.
-3. Deal tiles to each player:
+Deal tiles face down to each player:
 
-| Players | Tiles per player |
-|---------|-----------------|
-| 2–3 | 16 |
-| 4 | 15 |
-| 5 | 14 |
-| 6 | 12 |
+| Players | Tiles each |
+|---------|-----------|
+| 2–4 | 15 |
+| 5–6 | 12 |
 | 7–8 | 10 |
 
-Remaining tiles form the **boneyard** (face-down draw pile).
+The rest form the **boneyard**. Whoever holds the starting double for the hand puts it in the centre. If nobody holds it, players take turns drawing from the boneyard until it turns up.
 
-### Starting Trains
+### First Turn
 
-In the first phase, starting with the player left of the dealer and proceeding clockwise, each player lays down as many tiles as they can to start their **personal train** from the hub. The train must begin with a tile whose pip matches the hub double.
-
-If a player cannot start their train, they draw one tile and play it if possible, or place a train marker on their train space.
+Starting with the player who put the double down and going clockwise, each player starts their own train. On this first turn only, a player may lay as many tiles as they like, as long as they make a valid chain from the engine. A player who cannot start a train draws one tile and plays it if they can; otherwise they pass and put a marker on their train.
 
 ### Turn Structure
 
-On your turn you **must** play at least one tile. You may play on:
-- **Your own personal train** (always, if open or marked)
-- **The Mexican Train** (always open to everyone)
-- **Another player’s train** only if it has a **train marker** on it (it is open)
+After the first turn, a player plays **one** tile per turn, either:
+- on **their own train**,
+- on the **Mexican Train**, which anyone may start from the engine and anyone may extend, or
+- on **another player's train**, if it carries a marker.
 
-**If you cannot play** on any available train:
-1. Draw one tile from the boneyard.
-2. If it can be played, play it.
-3. If not, place your **train marker** on your personal train (marking it open for others).
-
-**Removing your marker:** when you successfully play on your own marked train, remove the marker. Your train becomes private again.
+**If you cannot play:** draw one tile from the boneyard and play it if you can. If you still cannot, pass and put your marker on your own train, which opens it to everyone. Playing on your own marked train later takes the marker off.
 
 ### Doubles
 
-Playing a double on any train **immediately requires** the player who placed it to play another tile on that same double before their turn ends. If they cannot (no matching tile in hand, nothing drawable that matches), they draw once; if still unable, place a marker and the double remains open — **all players must satisfy the open double** before playing anywhere else on their turn.
+From the second turn on, a player who plays a double must play one more tile, anywhere they are allowed to. If that tile is a double too, they play another, and so on.
 
-### End of Round
+A train left ending in a double must be **satisfied**: the next tile added to the layout has to go on that double. The duty falls first on the next player. If they cannot satisfy it from their hand, they draw one tile; if that does not fit either, they pass and mark their own train, and the duty moves on to the following player. A player whose last tile is a double may go out with it.
 
-A round ends when a player plays their last tile (**goes out**) or no player can play (blocked). Each player counts the pip total of their remaining tiles. Record scores. The player who went out scores 0.
+### End of a Hand
 
-### Match
+A hand ends when a player plays their last tile, or when nobody can play. Every player then adds up the pips on the tiles they still hold and adds them to their total. The player who went out adds nothing.
 
-13 rounds (double-12 through double-0). After all rounds, the player with the **lowest cumulative pip total** wins.
+### Winning
+
+After the thirteenth hand, the player with the **lowest** total wins.
 
 ### Attribution
 
-Mexican Train. Origin disputed; popularised in the United States in the 1990s. Rules in the public domain. Source: Pagat.com *(Mexican Train)*; Wikipedia *(Mexican Train)*.
+Mexican Train. Origin disputed; popularised in the United States in the 1990s. Rules written from Pagat.com, *Mexican Train* (John McLeod, © 1997–2016), which is the source for the deal, the doubles and the scoring above; also Wikipedia, *Mexican Train*.

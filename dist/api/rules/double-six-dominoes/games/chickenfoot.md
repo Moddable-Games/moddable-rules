@@ -1,34 +1,43 @@
 ## Chickenfoot
 
-Chickenfoot is a dominoes variant where doubles create a three-pronged branch called a **chickenfoot** — named for its resemblance to a chicken's foot. All three prongs must be filled before play can continue on any other open end of the layout.
+Chickenfoot is a domino game in which every double opens a three-pronged branch, the **chicken foot**. All three prongs must be filled before play can go on anywhere else. It is usually played with a **double-nine set** (55 tiles), one hand for each double from 9-9 down to 0-0, so a full game is ten hands.
 
 {{svg:chickenfoot-board.svg "Chickenfoot — table layout"}}
 
 ### Setup
 
-Use a standard double-six set (28 tiles). Each player draws tiles:
+Deal tiles face down to each player:
 
-| Players | Tiles drawn |
+| Players | Tiles each |
 |---|---|
-| 2–3 | 15 each |
-| 4 | 12 each |
-| 5–6 | 10 each |
-| 7–8 | 7 each |
+| 2 | 20 |
+| 3 | 14 |
+| 4 | 11 |
+| 5 | 9 |
+| 6 | 7 |
 
-Remaining tiles form the **boneyard**.
+The rest form the boneyard, called the chicken yard.
 
-### Starting the Round
+### Starting a Hand
 
-The player holding the **double-six** plays it to start the layout. If no player holds it, players draw from the boneyard until one does. On subsequent rounds, use double-five, double-four, down to double-zero.
+The player holding the **9-9** leads it in the first hand, the 8-8 in the second, and so on down to the 0-0. If nobody holds the double needed, every player draws one more tile, and this is repeated until someone draws it.
 
-### The Chickenfoot Rule
+### The Opening Double
 
-When any player plays a **double** tile onto the layout, play pauses. That double becomes a chickenfoot junction with **3 open ends**. All three ends must be filled — each with a tile matching the double's number — before any player may play on any other open end. During a chickenfoot phase, only tiles matching the double value may be played.
+The first double has **four** arms. A tile must be played on each of the four before any arm is extended by a second tile.
+
+### The Chicken Foot
+
+When any later double is played, it becomes a chicken foot with **three** toes. All three must be filled, each with a tile matching the double's number, before anyone may play elsewhere in the layout.
 
 ### Normal Play
 
-When no chickenfoot is active, the current player may play a tile matching **any open end** of the layout. If unable to play, the player draws from the boneyard until they can play or the boneyard is exhausted (then they pass).
+When no chicken foot is waiting to be filled, a player may play a tile on any open end of the layout, one tile per turn. A player who cannot play draws one tile from the chicken yard as their turn and may play it at once if it fits. With nothing left to draw, a player who cannot play misses their turn.
 
 ### Scoring
 
-The round ends when one player plays their last tile, or when no player can play. The player with the **lowest pip total** remaining in hand wins the round and scores the total pips held by all other players. Play a round for each double (double-six through double-zero). Lowest cumulative score after all rounds wins.
+A hand ends when one player plays their last tile, or when the chicken yard is empty and nobody can play. Each player adds the pips left in their hand to their total, the **0-0 counting 50**. After the hand started with the 0-0, the player with the **lowest** total wins.
+
+### Attribution
+
+Chickenfoot. Rules written from Pagat.com, *Chicken Foot* (Joe Celko and John McLeod, © 2001–2009), which is the source for the set, the deal, the opening double, the chicken foot and the scoring above.
