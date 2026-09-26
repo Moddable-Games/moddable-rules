@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Craps
 slug: craps
 board: none
@@ -8,7 +8,18 @@ parent: standard-dice
 win: Shooters win by rolling 7 or 11 on the come-out, or making their point before rolling 7
 special: "The definitive casino dice game. Two dice. Come-out roll: 7 or 11 wins (Pass), 2/3/12 loses (craps), any other number becomes the Point. Point phase: match the Point before rolling 7 to win; roll 7 first (seven-out) to lose. Pass and Don't Pass are the core bets; the Odds bet behind them carries no house edge."
 published: true
+approximations:
+  - feature: "Chips"
+    source: "The page describes casino betting."
+    engine: "Play chips only: every player starts with 100, and bets 1, 2, 5, 10 or 25."
+  - feature: "Which bets"
+    source: "The page's core bets are Pass Line, Don't Pass, Come and Don't Come, and Odds; its other bets it advises avoiding."
+    engine: "Pass Line and Don't Pass, with Odds on the Pass Line up to the size of the line bet. Come, Don't Come, laying odds on Don't Pass and the proposition bets are not offered."
+  - feature: "How long a game is"
+    source: "The page does not say."
+    engine: "Each player shoots twice, the dice passing on a seven-out; the player with the most chips then wins."
 engine:
+  players: [player1, player2]
   components:
     dice:
       type: standard
@@ -23,6 +34,15 @@ engine:
     defaultPlayers: 2
     perPlayer: 0
     community: 2
+  plugins:
+    standard-dice:
+      game: shooting
+      chips: { start: 100, bets: [1, 2, 5, 10, 25] }
+      shooters: 2
+      options:
+        shooters:
+          label: Turns to shoot
+          values: [1, 2, 3]
 ---
 
 ## Craps

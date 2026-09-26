@@ -44,9 +44,7 @@ related:
   - mahjong
   - standard-dice
 unsupported:
-  _family: "The tableau plugin (moddable-engine#176) plays a game whose frontmatter names its shape under `plugins.standard-52.game`: climbing (Big 2, and President played to a full finishing order), war, trick-taking (Whist, Hearts, Spades, and with an auction Euchre and Bridge), shedding (Crazy Eights) patience (Klondike, FreeCell, Spider), laying (Rummy), knocking (Gin Rummy), partnership melds (Canasta) and pegging (Cribbage for two, three and four). A seat holds its hand privately and sees only the backs of the others. The games below need a shape of play that has not been written."
-  blackjack: "No plugin. The dealer is declared as a seat but is not a participant in the sense the player system means - it follows a fixed house rule and makes no choices, the same shape problem as the Kriegspiel referee in moddable-engine#155. Also needs bets, the six-deck continuous shoe it declares, and splitting a hand in two."
-  poker: "No plugin. Betting is the game: rounds of wagering, a pot, chip stacks and side pots, none of which is a card operation. Hand ranking over two hole cards and five community cards is declared in `deal:` and read by nothing."
+  _family: "The tableau plugin (moddable-engine#176) plays a game whose frontmatter names its shape under `plugins.standard-52.game`: climbing (Big 2, and President played to a full finishing order), war, trick-taking (Whist, Hearts, Spades, and with an auction Euchre and Bridge), shedding (Crazy Eights) patience (Klondike, FreeCell, Spider), laying (Rummy), knocking (Gin Rummy), partnership melds (Canasta) pegging (Cribbage for two, three and four), and for play chips house (Blackjack) and holdem (Texas Hold'em). A seat holds its hand privately and sees only the backs of the others. The games below need a shape of play that has not been written."
 ---
 
 <div class="section">

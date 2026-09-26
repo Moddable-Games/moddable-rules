@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Texas Hold'em Poker
 slug: poker
 board: "none"
@@ -7,6 +7,16 @@ players: "2-10"
 parent: standard-52
 win: "Best five-card hand or last player with chips"
 special: "Community card poker. Each player holds two private cards; five community cards are dealt face-up to share. Four betting rounds: preflop, flop, turn, river."
+approximations:
+  - feature: "Format"
+    source: "The page gives No-Limit, Pot-Limit and Fixed-Limit, No-Limit being 'standard for tournaments', and cash games and tournaments."
+    engine: "A No-Limit tournament for play chips: every player starts with 1,000, and the last player with chips wins."
+  - feature: "The blind schedule"
+    source: "'Tournament: Players start with equal chip stacks. Blinds increase on a schedule.' The schedule is not given."
+    engine: "Blinds of 10 and 20, doubling every ten hands."
+  - feature: "Two players"
+    source: "The page describes the blinds for a full table."
+    engine: "Heads up, the button posts the small blind and acts first before the flop, as is usual."
 engine:
   players: [player1, player2, player3, player4, player5, player6, player7, player8, player9, player10]
   components:
@@ -24,6 +34,11 @@ engine:
     perPlayer: 2
     community: 5
     remainder: draw
+  plugins:
+    standard-52:
+      game: holdem
+      chips: { start: 1000 }
+      blinds: { small: 10, big: 20, doubleEvery: 10 }
 published: true
 ---
 

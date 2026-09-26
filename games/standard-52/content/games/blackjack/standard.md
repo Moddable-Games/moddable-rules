@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Blackjack (Twenty-One)
 slug: blackjack
 board: "none"
@@ -7,6 +7,22 @@ players: "2-7"
 parent: standard-52
 win: "Beat the dealer: reach 21 or closer to 21 without busting"
 special: "Players compete individually against the dealer, not each other. Blackjack (natural 21) pays 3:2. Players may double down, split pairs, and take insurance."
+approximations:
+  - feature: "Chips"
+    source: "'Each player places a bet before cards are dealt.'"
+    engine: "Play chips only: every player starts with 100, and bets 1, 2, 5, 10 or 25 a round."
+  - feature: "Soft 17"
+    source: "'Some rules require the dealer to hit on soft 17 ... Others require a stand. The rule in use should be stated.'"
+    engine: "The house stands on soft 17."
+  - feature: "When the house looks at its hole card"
+    source: "The page pays a player's Blackjack 'unless the dealer also has Blackjack', and does not say when the house's Blackjack is found."
+    engine: "With an Ace or a ten showing, the house looks at its hole card after insurance, and a Blackjack there settles the round before anyone plays: players with Blackjack push and the rest lose their bets."
+  - feature: "Splitting and doubling"
+    source: "'Double Down ... Only allowed on the initial two-card hand.' 'Split: If the first two cards are of equal value ... Aces may only be split once and receive one card each.'"
+    engine: "A hand is split once, into two; neither half may be split or doubled again, and split Aces take one card each."
+  - feature: "How long a session is"
+    source: "The page does not say."
+    engine: "The players choose the number of rounds, ten by default; the player with the most chips then wins."
 engine:
   players: [dealer, player1, player2, player3, player4, player5, player6]
   components:
@@ -25,6 +41,16 @@ engine:
     perPlayer: 2
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: house
+      chips: { start: 100, bets: [1, 2, 5, 10, 25] }
+      hitSoft17: false
+      rounds: 10
+      options:
+        rounds:
+          label: Rounds
+          values: [5, 10, 20]
 published: true
 ---
 
