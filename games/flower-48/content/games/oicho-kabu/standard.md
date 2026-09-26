@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Oicho-Kabu
 slug: oicho-kabu
 board: "none"
@@ -7,12 +7,25 @@ players: "2–8"
 parent: flower-48
 win: "Closest hand value to 9 beats the banker"
 special: "A betting game using Hanafuda’s month numbers, not suit imagery. Closest to 9 wins. Similar to Baccarat."
+approximations:
+  - feature: "Ties"
+    source: "English Wikipedia: 'If both the dealer and player have the same value, it is a draw, but there is a rule that states the dealer wins.' Japanese Wikipedia: ties are usually split, with some rules favouring the dealer."
+    engine: "A tie goes to the dealer, as the page says."
+  - feature: "The second card"
+    source: "Japanese Wikipedia: the dealer gives each bettor a second card (打ち札)."
+    engine: "The second card is dealt face up to its tableau, where every player sees it."
+  - feature: "Kuppin against Shippin"
+    source: "Kuppin (9 and 1) wins for the dealer and Shippin (4 and 1) for a player; neither source says which wins when both are dealt."
+    engine: "Kuppin wins against every tableau, Shippin's included."
+  - feature: "Chips and the dealer"
+    source: "English Wikipedia: the dealer changes after a set number of deals, on going bankrupt, or on certain results."
+    engine: "Play chips only: every player starts with 100 and bets 1, 2, 5 or 10 on a tableau. The deal passes to the next player every round, and after the chosen number of rounds the player with the most chips wins."
 engine:
-  players: [banker, player1, player2, player3]
+  players: [player1, player2, player3, player4]
   components:
-    cards:
-      deck: hanafuda-48
-      values: month-numeric
+    deck:
+      type: hanafuda-48
+      months: [January, February, March, April, May, June, July, August, September, October]
   topology:
     type: tableau
     layout: radial
@@ -23,73 +36,56 @@ engine:
     perPlayer: 2
     community: 0
     remainder: draw
+  plugins:
+    flower-48:
+      game: tableaus
+      chips: { start: 100, bets: [1, 2, 5, 10] }
+      rounds: 8
+      options:
+        rounds:
+          label: Deals
+          values: [4, 8, 12]
 published: true
 ---
 
 ## Oicho-Kabu
 
-A Japanese betting and gambling card game played with Hanafuda (or dedicated Kabufuda) cards. Unlike the matching games, Oicho-Kabu uses the cards’ **month numbers as numeric values**, not their suit imagery. The goal is to hold cards whose values sum to as close to **9** as possible — the word *Kabu* (カブ) means 9.
+A Japanese banking card game played with Hanafuda (or dedicated Kabufuda) cards. It uses the cards’ **month numbers as values**, not their suit imagery. The goal is a hand whose last digit is as close to **9** as possible: *kabu* (カブ) means 9, and *oicho* (オイチョ) 8, both from Portuguese.
 
-The game is structurally similar to Baccarat and is the origin of the word *Yakuza* (literally “8-9-3,” a losing hand).
+{{svg:oicho-kabu-board.svg "Oicho-Kabu — table layout"}}
 
-{{svg:oicho-kabu-board.svg “Oicho-Kabu — table layout”}}
+### The Cards
 
-### Card Values
+Forty cards: the Hanafuda pack without November and December, or a Kabufuda pack. Each card is worth its month, January 1 to October 10, and a hand is worth the **last digit** of its total: 15 counts as 5, and 10 or 20 as 0.
 
-Each card’s value is the numeric value of its month:
+### The Deal
 
-| Month | Value |
-|-------|-------|
-| January | 1 |
-| February | 2 |
-| March | 3 |
-| April | 4 |
-| May | 5 |
-| June | 6 |
-| July | 7 |
-| August | 8 |
-| September | 9 |
-| October | 10 → 0 |
-| November | 11 → 0 |
-| December | 12 → 0 |
+The dealer lays **four cards face up** in a row, the four tableaus, and takes one card face down. Each player then bets on a tableau. Several players may back the same tableau.
 
-All four cards in a suit share the same value. October, November, and December count as zero.
+### Third Cards
 
-Hand value = sum of all card values **mod 10**. Only the final digit matters.
+Each tableau with a bet on it is dealt a second card. Then:
 
-### Setup
+- a total of **3 or less** must take a third card;
+- a total of **7 or more** may not, except a tableau of two 9s;
+- a total of **4 to 6** takes a third card or stands, as the tableau's first bettor decides.
 
-One player is the **banker** (parent / oya). All other players are punters (ko). Players place bets against the banker before cards are dealt.
+The dealer then turns up their card, takes a second, and draws a third by the same rules.
 
-Shuffle all 48 cards. Deal **two cards face-down** to each player and the banker.
+### Winning
 
-### Play
+Each tableau is compared with the dealer's hand: the one closer to 9 wins, and **a tie goes to the dealer**. A winning tableau's bettors are paid their bet by the dealer; a losing tableau's bettors pay theirs to the dealer.
 
-1. Players look at their two cards privately and calculate their hand value (sum mod 10).
-2. Each player may request a **third card** (face-up) to improve their hand, or stand.
-3. The banker also has the option to draw a third card.
-4. All hands are revealed. The player closest to **9** beats the banker.
-5. An exact tie goes to the banker.
+### Special Hands
 
-### Special Hands (Yaku)
+| Hand | Cards | Effect |
+|---|---|---|
+| **Kuppin** (クッピン) | The dealer's first two cards, 9 and 1 | The dealer wins every tableau, paid double |
+| **Shippin** (シッピン) | A tableau's first two cards, 4 and 1 | The tableau wins, paid double, and takes no third card |
+| **Arashi** (嵐) | Three cards of one value | Paid triple |
 
-Certain hand combinations pay out at a bonus multiplier:
-
-| Yaku | Condition | Payout |
-|------|-----------|--------|
-| Kabu ・カブ | Hand = 9 (two cards) | 2× |
-| Oicho ・おいちょ | Hand = 8 (two cards) | 2× |
-| Shichisan ・七三 | Two cards totaling 7 and 3 (i.e. one 7-value + one 3-value) | varies |
-| Arashi ・嵐 (Storm) | Three cards of the same value (triplet) | 3× |
-| Shippin ・四アイテン | Hand = 4 | varies |
-| Yakuza ・ヤクザ | Hand = 8-9-3 specific combo (original meaning) | loses |
-
-*Exact payout rules and yaku lists vary significantly by house rules. The above represents the most commonly documented version.*
-
-### Settlement
-
-All players who beat the banker receive their bet back plus an equal amount from the banker. Players who tie or lose pay their bet to the banker. Special hands pay at the applicable multiplier.
+Many other special hands are played regionally.
 
 ### Attribution
 
-Oicho-Kabu ・おいちょかぶ. Traditional Japanese card game. Public domain. Sources: Wikipedia *(Oicho-Kabu)*; Pagat.com *(Hanafuda)*. Note: detailed payout tables and regional yaku variations require a Japan-specific primary source for full accuracy.
+Oicho-Kabu ・おいちょかぶ. Traditional Japanese card game. Rules written from Wikipedia, *Oicho-Kabu*, and Japanese Wikipedia, *おいちょかぶ*, which agree on the tableaus, the third-card rules and the special hands; Pagat.com confirms that it is played with 40 of the cards.

@@ -37,8 +37,7 @@ engine:
       type: fan
   players: [south, north]
 unsupported:
-  _family: "The tableau plugin (moddable-engine#184) plays Koi-Koi, Hana-Awase and Go-Stop from their frontmatter (`game: fishing`): capturing by month, and yaku, card points or Go-Stop scoring for chips."
-  oicho-kabu: "The page's rules are not sourced and disagree with the sources checked. It deals two cards to each player from all 48 cards; Pagat says Kabu is played with 40 of the cards, and Wikipedia describes four face-up tableaus that players bet on, compulsory draws below 4, and Kuppin and Shippin as hands that win outright. The page's own note says its payouts need a Japan-specific primary source. It needs rewriting from a primary source before it can be played (moddable-engine#184)."
+  _family: "The tableau plugin (moddable-engine#184) plays Koi-Koi, Hana-Awase and Go-Stop from their frontmatter (`game: fishing`): capturing by month, and yaku, card points or Go-Stop scoring for chips; and Oicho-Kabu (`game: tableaus`) for play chips."
 ---
 
 <div class="section">
@@ -83,7 +82,7 @@ A Japanese 48-card deck divided into 12 suits, one for each month of the year. E
 - [Go-Stop](games/go-stop/) — Korean hanafuda (Hwatu deck). Most popular card game in South Korea. Go/Stop decision: press on for bigger rewards or bank winnings. 2–3 players.
 - [Hana-Awase](games/hana-awase/) — The base matching game. Collect cards by suit, highest point value wins.
 - [Koi-Koi](games/koi-koi/) — Two-player matching game. Complete a yaku (scoring pattern), then choose: stop and score, or call "koi-koi" to continue for higher stakes.
-- [Oicho-Kabu](games/oicho-kabu/) — Betting game using month values (mod 10). Closest to 9 wins. Origin of the word "Yakuza."
+- [Oicho-Kabu](games/oicho-kabu/) — Banking game on four tableaus, month values counted by their last digit. Closest to 9 wins.
 
 ## Attribution
 

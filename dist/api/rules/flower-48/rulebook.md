@@ -40,7 +40,7 @@ A Japanese 48-card deck divided into 12 suits, one for each month of the year. E
 - [Go-Stop](games/go-stop/) — Korean hanafuda (Hwatu deck). Most popular card game in South Korea. Go/Stop decision: press on for bigger rewards or bank winnings. 2–3 players.
 - [Hana-Awase](games/hana-awase/) — The base matching game. Collect cards by suit, highest point value wins.
 - [Koi-Koi](games/koi-koi/) — Two-player matching game. Complete a yaku (scoring pattern), then choose: stop and score, or call "koi-koi" to continue for higher stakes.
-- [Oicho-Kabu](games/oicho-kabu/) — Betting game using month values (mod 10). Closest to 9 wins. Origin of the word "Yakuza."
+- [Oicho-Kabu](games/oicho-kabu/) — Banking game on four tableaus, month values counted by their last digit. Closest to 9 wins.
 
 ## Attribution
 
