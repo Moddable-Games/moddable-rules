@@ -69,4 +69,4 @@ Final score = game points + box bonuses + shutout bonus (if applicable). The pla
 
 ### Attribution
 
-Gin Rummy. Created by Elwood T. Baker and C. Graham Baker, 1909. Public domain. Standard rules confirmed from Pagat.com.
+Gin Rummy. Created by Elwood T. Baker and C. Graham Baker, 1909. Rules checked against Pagat.com, *Gin Rummy* (John McLeod, © 1996–2024), and Wikipedia, *Gin rummy*. The two give different bonus values, and the ones used here are recorded with both readings.

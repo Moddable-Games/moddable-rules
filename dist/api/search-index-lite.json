@@ -31672,7 +31672,7 @@
     "sectionType": "attribution",
     "section": "Gin Rummy",
     "heading": "Attribution",
-    "content": "Gin Rummy. Created by Elwood T. Baker and C. Graham Baker, 1909. Public domain. Standard rules confirmed from Pagat.com.",
+    "content": "Gin Rummy. Created by Elwood T. Baker and C. Graham Baker, 1909. Rules checked against Pagat.com, Gin Rummy John McLeod, © 1996–2024, and Wikipedia, Gin rummy. The two give different bonus values, and",
     "anchor": "attribution",
     "variant": "gin-rummy",
     "variantUrl": "standard-52/games/gin-rummy/"
@@ -32164,7 +32164,7 @@
     "sectionType": "general",
     "section": "Rummy",
     "heading": "Players and Cards",
-    "content": "2–6 players. Standard 52-card deck. Aces may be high or low agree before play. Face cards = 10 points; numbered cards = face value.",
+    "content": "2–6 players. Standard 52-card deck. Aces are low: A-2-3 is a run, Q-K-A is not. Aces count 1, court cards 10, and number cards their face value.",
     "anchor": "players-and-cards",
     "variant": "rummy",
     "variantUrl": "standard-52/games/rummy/"
@@ -32176,7 +32176,7 @@
     "sectionType": "general",
     "section": "Rummy",
     "heading": "The Deal",
-    "content": "Remaining cards form the stock face-down. Top card is turned up to start the discard pile.\nPlayers — Cards dealt\n2 — 10 each\n3–4 — 7 each\n5–6 — 6 each",
+    "content": "The rest of the pack is the stock, face down. Its top card is turned up to start the discard pile.\nPlayers — Cards dealt\n2 — 10 each\n3–4 — 7 each\n5–6 — 6 each",
     "anchor": "the-deal",
     "variant": "rummy",
     "variantUrl": "standard-52/games/rummy/"
@@ -32200,7 +32200,7 @@
     "sectionType": "general",
     "section": "Rummy",
     "heading": "The Turn",
-    "content": "On each turn a player must: 1. Draw — take the top card of the stock OR the top card of the discard pile 2. Meld optional — lay one or more melds face-up on the table 3. Lay off optional — add cards t",
+    "content": "On each turn a player: 1. Draws the top card of the stock or the top card of the discard pile 2. Melds, if they wish, laying one or more melds face up on the table 3. Lays off, if they wish, adding ca",
     "anchor": "the-turn",
     "variant": "rummy",
     "variantUrl": "standard-52/games/rummy/"
@@ -32212,20 +32212,8 @@
     "sectionType": "general",
     "section": "Rummy",
     "heading": "Going Out",
-    "content": "A player goes out by melding or laying off all cards in their hand, ending their turn with an empty hand.",
+    "content": "A player goes out when they have no cards left, by melding, laying off or discarding their last card.",
     "anchor": "going-out",
-    "variant": "rummy",
-    "variantUrl": "standard-52/games/rummy/"
-  },
-  {
-    "game": "standard-52",
-    "gameTitle": "Standard 52-Card Deck",
-    "type": "game",
-    "sectionType": "general",
-    "section": "Rummy",
-    "heading": "Going Rummy",
-    "content": "If a player goes out in a single turn without having previously melded or laid off anything during the game, they \"go Rummy.\" All opponents score double penalty points for their unmelded cards.",
-    "anchor": "going-rummy",
     "variant": "rummy",
     "variantUrl": "standard-52/games/rummy/"
   },
@@ -32236,8 +32224,20 @@
     "sectionType": "winning",
     "section": "Rummy",
     "heading": "Scoring",
-    "content": "When a player goes out, all other players count the face value of unmelded cards in their hands as penalty points. Scores accumulate across hands. The player who first reaches a target total e.g., 100",
+    "content": "When a player goes out, the cards left in everyone else's hands are counted, and the total is added to the winner's score. A player who goes out in a single turn, without having melded or laid off any",
     "anchor": "scoring",
+    "variant": "rummy",
+    "variantUrl": "standard-52/games/rummy/"
+  },
+  {
+    "game": "standard-52",
+    "gameTitle": "Standard 52-Card Deck",
+    "type": "game",
+    "sectionType": "attribution",
+    "section": "Rummy",
+    "heading": "Attribution",
+    "content": "Rummy. Rules written from Pagat.com, Rummy John McLeod, © 2003–2012, which is the source for the deal, the turn, going rummy and the scoring above.",
+    "anchor": "attribution",
     "variant": "rummy",
     "variantUrl": "standard-52/games/rummy/"
   },

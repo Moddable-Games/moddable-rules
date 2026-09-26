@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Gin Rummy
 slug: gin-rummy
 board: "none"
@@ -7,6 +7,37 @@ players: "2"
 parent: standard-52
 win: "First player to 100 points"
 special: "Draw-and-discard melding game. Knock when deadwood is 10 or less. Going Gin (zero deadwood) earns a bonus. Undercut if the knocker's deadwood doesn't beat the opponent's."
+disputed:
+  - feature: "Bonus values"
+    readings:
+      - source: "Pagat.com, Gin Rummy (John McLeod, © 1996–2024)"
+        says: "gin 20, undercut 10, box 20"
+        describes: "'A player who goes gin scores a bonus 20 points'; 'the knocker's opponent scores the difference between the counts plus a 10 point bonus'; 'each player adds a further 20 points for each hand they won.' It adds: 'Some play that the bonus for an undercut, the bonus for going gin, and the box bonus for each game won are all 25 points.'"
+      - source: "Wikipedia, Gin rummy"
+        says: "gin 25, undercut 25, big gin 31, box 25"
+        describes: "'a bonus of 25 points plus the entire count of deadwood'; 'an undercut bonus of 25 points'; Big Gin '31 points plus entire count of deadwood'; 'For every hand a player won during the game, 25 points is added.'"
+    engine: "gin 25, undercut 25, big gin 31, box 25"
+    because: "These are the values this page gives, and Pagat itself lists 25 for all three as a common way to play. Big Gin is not in Pagat's main rules."
+  - feature: "The shutout"
+    readings:
+      - source: "Pagat.com, Gin Rummy (John McLeod, © 1996–2024)"
+        says: "the game bonus becomes 200"
+        describes: "'If the loser failed to score anything at all during the game, then the winner's bonus is 200 points.'"
+      - source: "Wikipedia, Gin rummy"
+        says: "the hand points are doubled"
+        describes: "'the points for each hand are doubled before adding the line bonus' if one player wins every hand."
+    engine: "the game bonus becomes 200"
+    because: "This page gives an additional 100 for a shutout, making the game bonus 200, which is Pagat's rule."
+  - feature: "Who deals the next hand"
+    readings:
+      - source: "Pagat.com, Gin Rummy (John McLeod, © 1996–2024)"
+        says: "the winner deals"
+        describes: "'the dealer is the winner of the previous hand' but 'Some books give the rule that the loser of each hand deals the next.'"
+      - source: "Wikipedia, Gin rummy"
+        says: "the deal alternates"
+        describes: "'Dealership alternates from round to round.'"
+    engine: "the winner deals"
+    because: "This page does not say; the engine follows Pagat's main rule. After a drawn hand the same dealer deals again, as all sources agree."
 engine:
   players: [player1, player2]
   components:
@@ -24,6 +55,13 @@ engine:
     perPlayer: 10
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: knocking
+      knock: 10
+      stockFloor: 2
+      target: 100
+      bonuses: { gin: 25, bigGin: 31, undercut: 25, game: 100, box: 25, shutout: 100 }
 published: true
 ---
 
@@ -98,4 +136,4 @@ Final score = game points + box bonuses + shutout bonus (if applicable). The pla
 
 ### Attribution
 
-Gin Rummy. Created by Elwood T. Baker and C. Graham Baker, 1909. Public domain. Standard rules confirmed from Pagat.com.
+Gin Rummy. Created by Elwood T. Baker and C. Graham Baker, 1909. Rules checked against Pagat.com, *Gin Rummy* (John McLeod, © 1996–2024), and Wikipedia, *Gin rummy*. The two give different bonus values, and the ones used here are recorded with both readings.
