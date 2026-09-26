@@ -44,7 +44,7 @@ related:
   - mahjong
   - standard-dice
 unsupported:
-  _family: "The tableau plugin (moddable-engine#176) plays a game whose frontmatter names its shape under `plugins.standard-52.game`: climbing (Big 2), war, trick-taking (Whist, Hearts, Spades) and shedding (Crazy Eights). A seat holds its hand privately and sees only the backs of the others. The games below need a shape of play that has not been written."
+  _family: "The tableau plugin (moddable-engine#176) plays a game whose frontmatter names its shape under `plugins.standard-52.game`: climbing (Big 2, and President played to a full finishing order), war, trick-taking (Whist, Hearts, Spades) and shedding (Crazy Eights). A seat holds its hand privately and sees only the backs of the others. The games below need a shape of play that has not been written."
   blackjack: "No plugin. The dealer is declared as a seat but is not a participant in the sense the player system means - it follows a fixed house rule and makes no choices, the same shape problem as the Kriegspiel referee in moddable-engine#155. Also needs bets, the six-deck continuous shoe it declares, and splitting a hand in two."
   bridge: "No plugin. Three phases the engine has no model for: a bidding auction that sets a contract, fixed partnerships scoring jointly, and a dummy hand that becomes public and is played by its partner."
   canasta: "No plugin. Needs melds owned by a partnership, wild cards that substitute within a meld, and a discard pile that freezes and is taken whole - a shared pile with state of its own rather than a stack of cards."
@@ -55,7 +55,6 @@ unsupported:
   gin-rummy: "No plugin. Needs melds, deadwood counted against the holder, and knocking - ending a hand on a threshold rather than on a terminal position."
   klondike: "No plugin. One seat and no opponent, but the stock, the waste and the face-down tableau cards are hidden from the player - the same per-seat visibility problem seen from one side."
   poker: "No plugin. Betting is the game: rounds of wagering, a pot, chip stacks and side pots, none of which is a card operation. Hand ranking over two hole cards and five community cards is declared in `deal:` and read by nothing."
-  president: "The climbing shape Big 2 uses plays one hand to the first player out. President plays on to a full finishing order, turns it into roles, and exchanges cards between them before the next hand, none of which the shape keeps. Its own frontmatter also still names a `big2` plugin block, and the page leaves the end open: \"a set number of rounds or until a player accumulates enough President wins\"."
   rummy: "No plugin. Needs melds laid to the table, laying off onto another player's meld, and a discard pile that can be drawn from."
   spider-solitaire: "No plugin. Declares two decks and ten columns; needs same-suit ordered sequences that lift as a unit, eight foundations that clear a completed suit, and dealing one card to every column at once."
   three-player-cribbage: "No plugin, and blocked on everything standard Cribbage is. Adds a crib that receives a card dealt straight from the deck, and rotates each hand."

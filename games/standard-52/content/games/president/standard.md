@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: President
 slug: president
 board: "none"
@@ -7,6 +7,22 @@ players: "4–8"
 parent: standard-52
 win: "Finish first (across rounds)"
 special: "Role-based climbing game with card trading between rounds. Positions persist. Tests multi-round state and asymmetric deals."
+approximations:
+  - feature: "How many rounds, and who wins"
+    source: "'Game continues for a set number of rounds or until a player accumulates enough \"President\" wins.' Neither number is given."
+    engine: "The players choose the number of rounds before the game, or leave it open and play on. After the last round, whoever finished first most often wins, and a tie plays another round. Playing to a number of President wins is not offered, because the page gives no number."
+  - feature: "What the higher role gives back"
+    source: "The roles table says the President 'receives 2 best cards from Scum' and the Vice President 'receives 1 best card from Vice Scum'; the page calls the trade a 'forced exchange based on roles' without saying what goes back."
+    engine: "The lower role's best cards are taken automatically. The higher role then gives back as many cards of their own choosing, so each exchange is two-way and hand sizes stay even."
+  - feature: "What a sequence is"
+    source: "'Lead player plays any valid combination (single, pair, triple, or sequence).' Its length and suits are not given."
+    engine: "Three or more cards of consecutive ranks in the game's order (3 up to 2, without wrapping round), one of each, in any suits. A sequence beats one of the same length with a higher top card."
+  - feature: "Cards left over from the deal"
+    source: "'Dealt evenly (discard remainders or give to President).'"
+    engine: "Remainders are discarded, so everyone holds the same number of cards. If the 3 of Clubs is among them in the first round, the first seat leads."
+  - feature: "Equal ranks"
+    source: "'Each subsequent player must play the same combination type but higher value, or pass.'"
+    engine: "Suits are not ranked, so a combination must be of a higher rank to beat one; an equal rank does not."
 engine:
   players: [player1, player2, player3, player4]
   components:
@@ -23,12 +39,36 @@ engine:
     perPlayer: all
     community: 0
   plugins:
-    big2:
-      variant: president
-      rounds: multi
-      roles: true
-      trading: true
-      passReset: true
+    standard-52:
+      game: climbing
+      rankOrder: [3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A, 2]
+      combinations: [single, pair, triple, sequence]
+      sequence:
+        min: 3
+      firstLead: 3-clubs
+      playTo: finishing-order
+      roles:
+        - place: 1
+          title: President
+        - place: 2
+          title: Vice President
+        - place: -2
+          title: Vice Scum
+        - place: -1
+          title: Scum
+      exchange:
+        - from: -1
+          to: 1
+          count: 2
+        - from: -2
+          to: 2
+          count: 1
+      laterLead: -1
+      rounds: open
+      options:
+        rounds:
+          label: Rounds
+          values: [open, 3, 5, 10]
 ---
 
 ## President
