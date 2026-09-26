@@ -11,7 +11,7 @@ Shuffle the 48-card deck. Deal:
 - 8 cards face-up to the centre (field/table)
 - Remaining 24 cards face-down as the draw pile
 
-If either player is dealt a dealt yaku (Teshi or Kuttsuki, see below), they may declare it immediately for an automatic win.
+The dealer (oya) plays first. If either player is dealt a Teshi or Kuttsuki (see below), they win the hand at once. If four cards of one month are dealt to the table, the deal is void and dealt again.
 
 ### Turn Structure
 
@@ -32,7 +32,7 @@ Players alternate. On your turn:
 
 If you said Koi-Koi and the opponent completes a yaku before the round ends, the opponent scores **double** for that round.
 
-A round also ends when both players exhaust their hands and the draw pile. If neither player declared a win, the round is a draw (no points scored).
+A round also ends when both players have played out their hands. If nobody has stopped, the dealer scores one point and deals again (Oya-Ken, the dealer's privilege).
 
 ### Yaku (Scoring Patterns)
 
@@ -76,7 +76,7 @@ A round also ends when both players exhaust their hands and the draw pile. If ne
 |------|---------------|--------|
 | Kasu ・カス (Plains) | Any 10 Plains | 1 (+1 per additional) |
 
-*The Sake Cup (Sep-Animal) counts as both an Animal and a Plain in some house rules.*
+*The Sake Cup (Sep-Animal) counts as both an Animal and a Plain.*
 
 ### Dealt Yaku
 
@@ -91,14 +91,12 @@ If a dealt yaku occurs, the round is redealt or scored immediately per house rul
 
 ### Scoring and Rounds
 
-A standard game is **12 rounds**, one for each month. The player who dealt first in round 1 switches each round, or the previous round’s winner deals.
+A standard game is **12 rounds**, one for each month, though players may agree on fewer. The first dealer is the player who draws the earliest month; after that, the winner of each hand deals.
 
-If you declared Koi-Koi and won the round, your score is **doubled**.
+A hand worth **7 or more** points scores double. If the opponent had called Koi-Koi, the winner's score is doubled again, and the player who called scores nothing.
 
-If you said Koi-Koi and the opponent wins the round, the opponent’s score is doubled.
-
-A target score (e.g. 50 or 100 points over 12 rounds) determines the match winner, or simply the highest total after 12 rounds.
+The highest total after the last round wins.
 
 ### Attribution
 
-Koi-Koi ・こいこい. Traditional Japanese card game. Rules in the public domain. Primary source: Wikipedia *(Koi-Koi)*; secondary: Pagat.com *(Hanafuda)*.
+Koi-Koi ・こいこい. Traditional Japanese card game. Rules checked against Wikipedia, *Koi-Koi*, which is the source for the doubling at seven points, Oya-Ken, the Sake Cup counting twice, the dealer, and the void deal.

@@ -29620,7 +29620,7 @@
     "sectionType": "general",
     "section": "Go-Stop",
     "heading": "Scoring Combinations",
-    "content": "Brights: - 3 non-Rain Brights = 3 pts - 3 Brights including Rain November = 2 pts - 4 Brights = 4 pts - 5 Brights = 15 pts Animals: - 5 animals = 1 pt; +1 pt per additional animal - Godori 고도리: Cuckoo",
+    "content": "Brights: - 3 non-Rain Brights = 3 pts - 3 Brights including Rain November = 2 pts - 4 Brights = 4 pts - 5 Brights = 15 pts Animals: - 5 animals = 1 pt; +1 pt per additional animal - Godori 고도리: Bush W",
     "anchor": "scoring-combinations",
     "variant": "go-stop",
     "variantUrl": "flower-48/games/go-stop/"
@@ -29632,7 +29632,7 @@
     "sectionType": "general",
     "section": "Go-Stop",
     "heading": "The Go/Stop Decision",
-    "content": "When a player reaches 3 points or the agreed threshold, they must announce: - \"Stop\" 스톱: collect winnings. Other players pay the stopping player. Round ends. - \"Go\" 고: continue. Scoring accumulates. A",
+    "content": "When a player reaches the threshold, 7 points with two players or 3 points with three, they must announce: - \"Stop\" 스톱: collect winnings. Other players pay the stopping player. Round ends. - \"Go\" 고: c",
     "anchor": "the-gostop-decision",
     "variant": "go-stop",
     "variantUrl": "flower-48/games/go-stop/"
@@ -29658,6 +29658,18 @@
     "heading": "2-Player Go-Stop",
     "content": "Each player receives 10 cards; 8 cards are placed on the field. Otherwise identical to 3-player.",
     "anchor": "2-player-go-stop",
+    "variant": "go-stop",
+    "variantUrl": "flower-48/games/go-stop/"
+  },
+  {
+    "game": "flower-48",
+    "gameTitle": "Flower 48",
+    "type": "game",
+    "sectionType": "attribution",
+    "section": "Go-Stop",
+    "heading": "Attribution",
+    "content": "Go-Stop 고스톱. Traditional Korean card game. Rules checked against Wikipedia, Go-Stop, which is the source for the threshold, the Go bonuses, the penalties, the grass ribbons and nagari.",
+    "anchor": "attribution",
     "variant": "go-stop",
     "variantUrl": "flower-48/games/go-stop/"
   },
@@ -29740,7 +29752,7 @@
     "sectionType": "setup",
     "section": "Koi-Koi",
     "heading": "Setup",
-    "content": "Shuffle the 48-card deck. Deal: - 8 cards face-down to each player hand - 8 cards face-up to the centre field/table - Remaining 24 cards face-down as the draw pile If either player is dealt a dealt ya",
+    "content": "Shuffle the 48-card deck. Deal: - 8 cards face-down to each player hand - 8 cards face-up to the centre field/table - Remaining 24 cards face-down as the draw pile The dealer oya plays first. If eithe",
     "anchor": "setup",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"
@@ -29812,7 +29824,7 @@
     "sectionType": "general",
     "section": "Koi-Koi",
     "heading": "Plain Yaku",
-    "content": "The Sake Cup Sep-Animal counts as both an Animal and a Plain in some house rules.\nYaku — Cards Required — Points\nKasu ・カス (Plains) — Any 10 Plains — 1 (+1 per additional)",
+    "content": "The Sake Cup Sep-Animal counts as both an Animal and a Plain.\nYaku — Cards Required — Points\nKasu ・カス (Plains) — Any 10 Plains — 1 (+1 per additional)",
     "anchor": "plain-yaku",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"
@@ -29836,7 +29848,7 @@
     "sectionType": "general",
     "section": "Koi-Koi",
     "heading": "Scoring and Rounds",
-    "content": "A standard game is 12 rounds, one for each month. The player who dealt first in round 1 switches each round, or the previous round’s winner deals. If you declared Koi-Koi and won the round, your score",
+    "content": "A standard game is 12 rounds, one for each month, though players may agree on fewer. The first dealer is the player who draws the earliest month; after that, the winner of each hand deals. A hand wort",
     "anchor": "scoring-and-rounds",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"
@@ -29848,7 +29860,7 @@
     "sectionType": "attribution",
     "section": "Koi-Koi",
     "heading": "Attribution",
-    "content": "Koi-Koi ・こいこい. Traditional Japanese card game. Rules in the public domain. Primary source: Wikipedia Koi-Koi; secondary: Pagat.com Hanafuda.",
+    "content": "Koi-Koi ・こいこい. Traditional Japanese card game. Rules checked against Wikipedia, Koi-Koi, which is the source for the doubling at seven points, Oya-Ken, the Sake Cup counting twice, the dealer, and the",
     "anchor": "attribution",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"

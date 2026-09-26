@@ -37,10 +37,7 @@ engine:
       type: fan
   players: [south, north]
 unsupported:
-  _family: "No rules plugin. The 48-card hanafuda deck and the table layout render, and no game is played on them."
-  go-stop: "No plugin. Needs month matching plus the go/stop decision and the conditions that make it a gambling game - shaking, bombs, and scores multiplied against one named opponent."
-  hana-awase: "No plugin. Needs month matching and yaku scoring over captured sets, across a fixed twelve-round structure."
-  koi-koi: "No plugin. Needs matching by month between hand, field and deck, yaku scoring over captured sets, and the koi-koi call itself - continuing a hand to raise the stakes, which is a decision to not end a turn."
+  _family: "The tableau plugin (moddable-engine#184) plays Koi-Koi, Hana-Awase and Go-Stop from their frontmatter (`game: fishing`): capturing by month, and yaku, card points or Go-Stop scoring for chips."
   oicho-kabu: "The page's rules are not sourced and disagree with the sources checked. It deals two cards to each player from all 48 cards; Pagat says Kabu is played with 40 of the cards, and Wikipedia describes four face-up tableaus that players bet on, compulsory draws below 4, and Kuppin and Shippin as hands that win outright. The page's own note says its payouts need a Japan-specific primary source. It needs rewriting from a primary source before it can be played (moddable-engine#184)."
 ---
 

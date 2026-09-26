@@ -29620,7 +29620,7 @@
     "sectionType": "general",
     "section": "Go-Stop",
     "heading": "Scoring Combinations",
-    "content": "Brights: - 3 non-Rain Brights = 3 pts - 3 Brights including Rain November = 2 pts - 4 Brights = 4 pts - 5 Brights = 15 pts Animals: - 5 animals = 1 pt; +1 pt per additional animal - Godori 고도리: Cuckoo February + Bush Warbler April + Geese August = 5 pts Ribbons: - 5 ribbons = 1 pt; +1 pt per additional ribbon - Red Poetry ribbons Jan + Feb + Mar = 3 pts - Blue ribbons Jun + Sep + Oct = 3 pts Junk: - 10 junk cards = 1 pt; +1 pt per additional junk - Double-junk cards count as 2",
+    "content": "Brights: - 3 non-Rain Brights = 3 pts - 3 Brights including Rain November = 2 pts - 4 Brights = 4 pts - 5 Brights = 15 pts Animals: - 5 animals = 1 pt; +1 pt per additional animal - Godori 고도리: Bush Warbler February + Cuckoo April + Geese August = 5 pts Ribbons: - 5 ribbons = 1 pt; +1 pt per additional ribbon - Red Poetry ribbons Jan + Feb + Mar = 3 pts - Blue ribbons Jun + Sep + Oct = 3 pts - Grass ribbons Apr + May + Jul = 3 pts Junk: - 10 junk cards = 1 pt; +1 pt per additional junk - Double-junk cards count as 2",
     "anchor": "scoring-combinations",
     "variant": "go-stop",
     "variantUrl": "flower-48/games/go-stop/"
@@ -29632,7 +29632,7 @@
     "sectionType": "general",
     "section": "Go-Stop",
     "heading": "The Go/Stop Decision",
-    "content": "When a player reaches 3 points or the agreed threshold, they must announce: - \"Stop\" 스톱: collect winnings. Other players pay the stopping player. Round ends. - \"Go\" 고: continue. Scoring accumulates. A player who has said \"Go\" cannot later collect fewer points than accrued. Risk of \"Go\": If another player stops first, or the draw pile is exhausted before the Go-player stops, the player who said \"Go\" pays double penalties to the winner. Each additional \"Go\" declaration multiplies the payout by 2. If the \"Go\" player successfully stops later without another player stopping first, they collect at a multiplied rate.",
+    "content": "When a player reaches the threshold, 7 points with two players or 3 points with three, they must announce: - \"Stop\" 스톱: collect winnings. Other players pay the stopping player. Round ends. - \"Go\" 고: continue. Scoring accumulates. A player who has said \"Go\" cannot later collect fewer points than accrued. Risk of \"Go\": If another player stops first, or the draw pile is exhausted before the Go-player stops, the player who said \"Go\" pays double penalties to the winner. Each additional \"Go\" declaration multiplies the payout by 2. If the \"Go\" player successfully stops later without another player stopping first, they collect at a multiplied rate.",
     "anchor": "the-gostop-decision",
     "variant": "go-stop",
     "variantUrl": "flower-48/games/go-stop/"
@@ -29658,6 +29658,18 @@
     "heading": "2-Player Go-Stop",
     "content": "Each player receives 10 cards; 8 cards are placed on the field. Otherwise identical to 3-player.",
     "anchor": "2-player-go-stop",
+    "variant": "go-stop",
+    "variantUrl": "flower-48/games/go-stop/"
+  },
+  {
+    "game": "flower-48",
+    "gameTitle": "Flower 48",
+    "type": "game",
+    "sectionType": "attribution",
+    "section": "Go-Stop",
+    "heading": "Attribution",
+    "content": "Go-Stop 고스톱. Traditional Korean card game. Rules checked against Wikipedia, Go-Stop, which is the source for the threshold, the Go bonuses, the penalties, the grass ribbons and nagari.",
+    "anchor": "attribution",
     "variant": "go-stop",
     "variantUrl": "flower-48/games/go-stop/"
   },
@@ -29740,7 +29752,7 @@
     "sectionType": "setup",
     "section": "Koi-Koi",
     "heading": "Setup",
-    "content": "Shuffle the 48-card deck. Deal: - 8 cards face-down to each player hand - 8 cards face-up to the centre field/table - Remaining 24 cards face-down as the draw pile If either player is dealt a dealt yaku Teshi or Kuttsuki, see below, they may declare it immediately for an automatic win.",
+    "content": "Shuffle the 48-card deck. Deal: - 8 cards face-down to each player hand - 8 cards face-up to the centre field/table - Remaining 24 cards face-down as the draw pile The dealer oya plays first. If either player is dealt a Teshi or Kuttsuki see below, they win the hand at once. If four cards of one month are dealt to the table, the deal is void and dealt again.",
     "anchor": "setup",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"
@@ -29752,7 +29764,7 @@
     "sectionType": "movement",
     "section": "Koi-Koi",
     "heading": "Turn Structure",
-    "content": "Players alternate. On your turn: 1. Play from hand: choose one card from your hand and place it face-up. - If it matches a field card by suit month, take both and add to your capture pile. - If two field cards match, you choose which to capture; if three match, you capture all three. - If no match, the card remains in the field. 2. Draw from pile: flip the top card of the draw pile. - Apply the same matching rules. - If it matches a field card, capture it. If not, it stays in the field. 3. Check for yaku: if your captures now complete one or more yaku, you must choose: - Declare win: the round ends; you score your yaku points. - Say Koi-Koi: play continues. If you later complete additional yaku, your total score grows. If you said Koi-Koi and the opponent completes a yaku before the round ends, the opponent scores double for that round. A round also ends when both players exhaust their hands and the draw pile. If neither player declared a win, the round is a draw no points scored.",
+    "content": "Players alternate. On your turn: 1. Play from hand: choose one card from your hand and place it face-up. - If it matches a field card by suit month, take both and add to your capture pile. - If two field cards match, you choose which to capture; if three match, you capture all three. - If no match, the card remains in the field. 2. Draw from pile: flip the top card of the draw pile. - Apply the same matching rules. - If it matches a field card, capture it. If not, it stays in the field. 3. Check for yaku: if your captures now complete one or more yaku, you must choose: - Declare win: the round ends; you score your yaku points. - Say Koi-Koi: play continues. If you later complete additional yaku, your total score grows. If you said Koi-Koi and the opponent completes a yaku before the round ends, the opponent scores double for that round. A round also ends when both players have played out their hands. If nobody has stopped, the dealer scores one point and deals again Oya-Ken, the dealer's privilege.",
     "anchor": "turn-structure",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"
@@ -29812,7 +29824,7 @@
     "sectionType": "general",
     "section": "Koi-Koi",
     "heading": "Plain Yaku",
-    "content": "The Sake Cup Sep-Animal counts as both an Animal and a Plain in some house rules.\nYaku — Cards Required — Points\nKasu ・カス (Plains) — Any 10 Plains — 1 (+1 per additional)",
+    "content": "The Sake Cup Sep-Animal counts as both an Animal and a Plain.\nYaku — Cards Required — Points\nKasu ・カス (Plains) — Any 10 Plains — 1 (+1 per additional)",
     "anchor": "plain-yaku",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"
@@ -29836,7 +29848,7 @@
     "sectionType": "general",
     "section": "Koi-Koi",
     "heading": "Scoring and Rounds",
-    "content": "A standard game is 12 rounds, one for each month. The player who dealt first in round 1 switches each round, or the previous round’s winner deals. If you declared Koi-Koi and won the round, your score is doubled. If you said Koi-Koi and the opponent wins the round, the opponent’s score is doubled. A target score e.g. 50 or 100 points over 12 rounds determines the match winner, or simply the highest total after 12 rounds.",
+    "content": "A standard game is 12 rounds, one for each month, though players may agree on fewer. The first dealer is the player who draws the earliest month; after that, the winner of each hand deals. A hand worth 7 or more points scores double. If the opponent had called Koi-Koi, the winner's score is doubled again, and the player who called scores nothing. The highest total after the last round wins.",
     "anchor": "scoring-and-rounds",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"
@@ -29848,7 +29860,7 @@
     "sectionType": "attribution",
     "section": "Koi-Koi",
     "heading": "Attribution",
-    "content": "Koi-Koi ・こいこい. Traditional Japanese card game. Rules in the public domain. Primary source: Wikipedia Koi-Koi; secondary: Pagat.com Hanafuda.",
+    "content": "Koi-Koi ・こいこい. Traditional Japanese card game. Rules checked against Wikipedia, Koi-Koi, which is the source for the doubling at seven points, Oya-Ken, the Sake Cup counting twice, the dealer, and the void deal.",
     "anchor": "attribution",
     "variant": "koi-koi",
     "variantUrl": "flower-48/games/koi-koi/"

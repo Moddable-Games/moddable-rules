@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Hana-Awase
 slug: hana-awase
 board: "none"
@@ -7,11 +7,18 @@ players: "2–4"
 parent: flower-48
 win: "Highest captured value after all cards are played"
 special: "The base Hanafuda matching game. No yaku — card values only. Simplest entry point to the deck."
+approximations:
+  - feature: "The source"
+    source: "The page cites Pagat.com (Hanafuda)."
+    engine: "That page could not be reached on 2026-09-26, and Wikipedia does not describe the game, so the engine plays this page as written: capture by month, and the card values summed at the end."
+  - feature: "Who deals and how long a game is"
+    source: "The page scores one round."
+    engine: "One round; the highest total of card points wins, partners adding theirs together in the four-player game."
 engine:
-  players: [player1, player2]
+  players: [player1, player2, player3]
   components:
-    cards:
-      deck: hanafuda-48
+    deck:
+      type: hanafuda-48
   topology:
     type: tableau
     layout: radial
@@ -22,6 +29,15 @@ engine:
     perPlayer: 7
     community: 6
     remainder: draw
+  plugins:
+    flower-48:
+      game: fishing
+      scoring: points
+      cardsEach: { 2: 8, 3: 7, 4: 5 }
+      field: { 2: 8, 3: 6, 4: 8 }
+      cardValues: { hikari: 20, tane: 10, tanzaku: 5, kasu: 1 }
+      partnerships: [[player1, player3], [player2, player4]]
+      rounds: 1
 published: true
 ---
 

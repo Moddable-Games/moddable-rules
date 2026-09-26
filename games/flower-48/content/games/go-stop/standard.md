@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Go-Stop
 slug: go-stop
 board: none
@@ -8,10 +8,33 @@ parent: flower-48
 win: First player to reach an agreed point total (typically 3 or 7 points) and declare Stop
 special: "Korean hanafuda variant played with the Hwatu deck. The most popular card game in South Korea. Match cards from hand to field by month; collect scoring combinations. Core mechanic: after reaching the threshold, declare 'Stop' to collect winnings or 'Go' to press on for bigger rewards at the risk of penalty if another player stops first."
 published: true
+approximations:
+  - feature: "Chips"
+    source: "Players pay the winner 'chips based on the winner's total points'."
+    engine: "Play chips only: every player starts with 100, and a point is one chip."
+  - feature: "The Go/Stop threshold"
+    source: "The page: 'When a player reaches 3 points (or the agreed threshold)'. Wikipedia: 'Two players: Threshold is 7 points. Three players: Threshold is 3 points.'"
+    engine: "As Wikipedia: 7 with two players, 3 with three."
+  - feature: "Go bonuses and penalties"
+    source: "Wikipedia: 'First Go: +1 point; Second Go: +2 points; Third Go: Score doubles', with go-bak, gwang-bak and pi-bak each doubling a loser's payment."
+    engine: "The first two Gos add a point each and each Go from the third doubles; go-bak, gwang-bak (no bright against a winner scoring brights) and pi-bak (fewer than six junk against a winner scoring junk) each double a payment. Meong-bak is not played; Wikipedia does not describe it."
+  - feature: "Five brights and double junk"
+    source: "Wikipedia gives five brights as '15-50 points (varies by house rules)', and 'Double junk cards: count as two each' without naming them."
+    engine: "Five brights score 15, as this page says. The willow's lightning and one paulownia plain count as double junk."
+  - feature: "Grass ribbons"
+    source: "Wikipedia: 'Grass ribbons (chodan): 3 points.' The page does not list them."
+    engine: "As Wikipedia: the April, May and July ribbons score 3."
+  - feature: "Nagari"
+    source: "Wikipedia: 'If no player stops ..., the dealer remains same and loser pays winner double.'"
+    engine: "Nobody scores, the same dealer deals again, and the next hand's payments are doubled."
+  - feature: "How long a game is"
+    source: "The page does not say."
+    engine: "The players choose the number of hands, six by default; the player with the most chips then wins."
 engine:
+  players: [player1, player2]
   components:
-    cards:
-      deck: hanafuda-48
+    deck:
+      type: hanafuda-48
   topology:
     type: tableau
     layout: radial
@@ -22,6 +45,19 @@ engine:
     perPlayer: 7
     community: 6
     remainder: draw
+  plugins:
+    flower-48:
+      game: fishing
+      scoring: go-stop
+      cardsEach: { 2: 10, 3: 7 }
+      field: { 2: 8, 3: 6 }
+      goThreshold: { 2: 7, 3: 3 }
+      chips: { start: 100 }
+      rounds: 6
+      options:
+        rounds:
+          label: Hands
+          values: [3, 6, 12]
 ---
 
 ## Go-Stop
@@ -64,12 +100,13 @@ Each player is dealt **7 cards**. **6 cards** are placed face-up on the field. R
 
 **Animals:**
 - 5 animals = 1 pt; +1 pt per additional animal
-- Godori (고도리): Cuckoo (February) + Bush Warbler (April) + Geese (August) = 5 pts
+- Godori (고도리): Bush Warbler (February) + Cuckoo (April) + Geese (August) = 5 pts
 
 **Ribbons:**
 - 5 ribbons = 1 pt; +1 pt per additional ribbon
 - Red Poetry ribbons (Jan + Feb + Mar) = 3 pts
 - Blue ribbons (Jun + Sep + Oct) = 3 pts
+- Grass ribbons (Apr + May + Jul) = 3 pts
 
 **Junk:**
 - 10 junk cards = 1 pt; +1 pt per additional junk
@@ -77,7 +114,7 @@ Each player is dealt **7 cards**. **6 cards** are placed face-up on the field. R
 
 ### The Go/Stop Decision
 
-When a player reaches **3 points** (or the agreed threshold), they must announce:
+When a player reaches the threshold, **7 points** with two players or **3 points** with three, they must announce:
 - **"Stop" (스톱):** collect winnings. Other players pay the stopping player. Round ends.
 - **"Go" (고):** continue. Scoring accumulates. A player who has said "Go" cannot later collect fewer points than accrued.
 
@@ -92,3 +129,7 @@ Other players pay the winner chips based on the winner's total points. Bonus pay
 ### 2-Player Go-Stop
 
 Each player receives **10 cards**; 8 cards are placed on the field. Otherwise identical to 3-player.
+
+### Attribution
+
+Go-Stop (고스톱). Traditional Korean card game. Rules checked against Wikipedia, *Go-Stop*, which is the source for the threshold, the Go bonuses, the penalties, the grass ribbons and nagari.

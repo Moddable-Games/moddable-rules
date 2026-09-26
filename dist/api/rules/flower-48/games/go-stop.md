@@ -38,12 +38,13 @@ Each player is dealt **7 cards**. **6 cards** are placed face-up on the field. R
 
 **Animals:**
 - 5 animals = 1 pt; +1 pt per additional animal
-- Godori (고도리): Cuckoo (February) + Bush Warbler (April) + Geese (August) = 5 pts
+- Godori (고도리): Bush Warbler (February) + Cuckoo (April) + Geese (August) = 5 pts
 
 **Ribbons:**
 - 5 ribbons = 1 pt; +1 pt per additional ribbon
 - Red Poetry ribbons (Jan + Feb + Mar) = 3 pts
 - Blue ribbons (Jun + Sep + Oct) = 3 pts
+- Grass ribbons (Apr + May + Jul) = 3 pts
 
 **Junk:**
 - 10 junk cards = 1 pt; +1 pt per additional junk
@@ -51,7 +52,7 @@ Each player is dealt **7 cards**. **6 cards** are placed face-up on the field. R
 
 ### The Go/Stop Decision
 
-When a player reaches **3 points** (or the agreed threshold), they must announce:
+When a player reaches the threshold, **7 points** with two players or **3 points** with three, they must announce:
 - **"Stop" (스톱):** collect winnings. Other players pay the stopping player. Round ends.
 - **"Go" (고):** continue. Scoring accumulates. A player who has said "Go" cannot later collect fewer points than accrued.
 
@@ -66,3 +67,7 @@ Other players pay the winner chips based on the winner's total points. Bonus pay
 ### 2-Player Go-Stop
 
 Each player receives **10 cards**; 8 cards are placed on the field. Otherwise identical to 3-player.
+
+### Attribution
+
+Go-Stop (고스톱). Traditional Korean card game. Rules checked against Wikipedia, *Go-Stop*, which is the source for the threshold, the Go bonuses, the penalties, the grass ribbons and nagari.
