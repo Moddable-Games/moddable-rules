@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Spider Solitaire
 slug: spider-solitaire
 board: none
@@ -7,8 +7,13 @@ players: "1"
 parent: standard-52
 win: Complete all 8 sequences (King down to Ace in the same suit)
 special: "Two-deck solitaire with 10 tableau columns. Complete in-suit sequences of 13 cards (King to Ace) are automatically removed. Three difficulty levels: 1-suit (easy), 2-suit (medium), 4-suit (hard). The 4-suit version is highly challenging. One of the most popular computer solitaire games."
+approximations:
+  - feature: "The one- and two-suit games"
+    source: "'1-suit (easy): only rank matters; suit is ignored for all rules. 2-suit (medium): two suits in play.' The page does not name the suits."
+    engine: "The player chooses four, two or one suits before the game. Fewer suits keep all 104 cards: two suits are four copies of spades and hearts, one suit eight copies of spades, so every card of the one-suit game is the same suit and suit never stops a run."
 published: true
 engine:
+  players: [player1]
   components:
     deck:
       type: standard-52
@@ -18,7 +23,7 @@ engine:
     type: tableau
     layout: tableau
     columns: 10
-    cascade: [6, 5, 5, 6, 5, 5, 6, 5, 5, 6]
+    cascade: [6, 6, 6, 6, 5, 5, 5, 5, 5, 5]
     foundations: 8
   deal:
     minPlayers: 1
@@ -27,6 +32,21 @@ engine:
     perPlayer: 0
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: patience
+      columns: [6, 6, 6, 6, 5, 5, 5, 5, 5, 5]
+      faceUp: top
+      build: any-suit
+      lift: same-suit
+      emptyColumn: any
+      completeRuns: 8
+      stock: columns
+      suitsInPlay: 4
+      options:
+        suitsInPlay:
+          label: Suits
+          values: [4, 2, 1]
 ---
 
 ## Spider Solitaire

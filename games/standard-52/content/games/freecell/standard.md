@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: FreeCell
 slug: freecell
 board: none
@@ -7,8 +7,16 @@ players: "1"
 parent: standard-52
 win: Move all 52 cards to the four foundation piles (Ace through King by suit)
 special: "Solitaire variant where all 52 cards are visible from the start — no hidden cards. Four free cells provide temporary storage. Nearly all deals are solvable with correct play, making FreeCell a game of planning and skill rather than luck."
+approximations:
+  - feature: "Supermove into an empty column"
+    source: "'Maximum cards movable as a unit = (free cells available + 1) × 2^(empty tableau columns).'"
+    engine: "The same formula, except that an empty column a run is moving into does not count among the empty columns, since it cannot hold cards while it receives them."
+  - feature: "Which deal"
+    source: "The page does not number its deals."
+    engine: "A shuffled deal, not one of the numbered deals some programs use."
 published: true
 engine:
+  players: [player1]
   components:
     deck:
       type: standard-52
@@ -27,6 +35,17 @@ engine:
     perPlayer: 0
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: patience
+      columns: [7, 7, 7, 7, 6, 6, 6, 6]
+      faceUp: all
+      build: alternate-colour
+      lift: one
+      supermove: true
+      emptyColumn: any
+      foundations: 4
+      freeCells: 4
 ---
 
 ## FreeCell

@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Klondike Solitaire
 slug: klondike
 board: "none"
@@ -7,6 +7,16 @@ players: "1"
 parent: standard-52
 win: "Move all 52 cards to the four foundations, sorted by suit from Ace to King"
 special: "Classic patience game. Seven tableau columns; cards dealt face-down with top card revealed. Draw 1 or Draw 3 from stock. Build tableau in descending rank, alternating colors."
+approximations:
+  - feature: "Draw 1 or Draw 3"
+    source: "The page gives both: 'Draw 1: Flip one card at a time' and 'Draw 3: Flip three cards at a time ... This is the traditional rule.'"
+    engine: "The player chooses before the game; Draw 1 unless they pick Draw 3. With Draw 3 only the top card of the waste can be played."
+  - feature: "Recycling the stock"
+    source: "'In classic Klondike, the stock may be recycled an unlimited number of times (infinite pass) — though many competitive versions limit redeals.'"
+    engine: "Unlimited, as in classic Klondike."
+  - feature: "Scoring"
+    source: "The page lists Microsoft and Vegas scoring as used by 'many digital implementations'."
+    engine: "Not scored. The game is won when every card is on a foundation."
 engine:
   players: [player1]
   components:
@@ -27,6 +37,22 @@ engine:
     perPlayer: 0
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: patience
+      columns: [1, 2, 3, 4, 5, 6, 7]
+      faceUp: top
+      build: alternate-colour
+      lift: alternate-colour
+      emptyColumn: K
+      foundations: 4
+      stock: waste
+      drawCount: 1
+      foundationToTableau: true
+      options:
+        drawCount:
+          label: Cards drawn
+          values: [1, 3]
 published: true
 ---
 
