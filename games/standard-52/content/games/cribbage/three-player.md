@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: 3-Player Cribbage
 slug: three-player-cribbage
 board: none
@@ -7,8 +7,15 @@ players: "3"
 parent: standard-52
 win: First to 121 points
 special: "Cribbage for three players. Each player receives 5 cards and discards 1 to the crib; 1 additional card is dealt from the deck directly to the crib. The crib rotates clockwise each hand. Scoring is identical to standard Cribbage."
-published: true
+approximations:
+  - feature: "Muggins"
+    source: "'Muggins (Optional): If a player fails to peg points they earned, the opponent may call Muggins and claim those points.'"
+    engine: "Not played: every score is counted for the player who earned it."
+  - feature: "Skunks"
+    source: "'Skunk Rule (optional): A player not yet past 90 points when the winner reaches 121 is skunked (loses double).'"
+    engine: "Not scored: the first to 121 wins."
 engine:
+  players: [player1, player2, player3]
   components:
     deck:
       type: standard-52
@@ -24,6 +31,14 @@ engine:
     perPlayer: 5
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: pegging
+      cardsEach: 5
+      toCrib: 1
+      cribFromDeck: 1
+      target: 121
+published: true
 ---
 
 ## 3-Player Cribbage

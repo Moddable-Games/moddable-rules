@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: 4-Player Cribbage (Partnership)
 slug: four-player-cribbage
 board: none
@@ -7,8 +7,12 @@ players: "4"
 parent: standard-52
 win: First partnership to 121 points
 special: "Partnership Cribbage for 4 players in 2 teams of 2. Partners sit opposite each other. Each player receives 5 cards and discards 1 to the crib. Partners' scores are combined on a single peg track. The crib rotates clockwise."
-published: true
+approximations:
+  - feature: "Muggins"
+    source: "'Muggins (Optional): If a player fails to peg points they earned, the opponent may call Muggins and claim those points.'"
+    engine: "Not played: every score is counted for the player who earned it."
 engine:
+  players: [player1, player2, player3, player4]
   components:
     deck:
       type: standard-52
@@ -24,6 +28,15 @@ engine:
     perPlayer: 5
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: pegging
+      cardsEach: 5
+      toCrib: 1
+      cribFromDeck: 0
+      partnerships: [[player1, player3], [player2, player4]]
+      target: 121
+published: true
 ---
 
 ## 4-Player Cribbage (Partnership)

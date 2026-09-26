@@ -44,12 +44,9 @@ related:
   - mahjong
   - standard-dice
 unsupported:
-  _family: "The tableau plugin (moddable-engine#176) plays a game whose frontmatter names its shape under `plugins.standard-52.game`: climbing (Big 2, and President played to a full finishing order), war, trick-taking (Whist, Hearts, Spades, and with an auction Euchre and Bridge), shedding (Crazy Eights) patience (Klondike, FreeCell, Spider), laying (Rummy), knocking (Gin Rummy) and partnership melds (Canasta). A seat holds its hand privately and sees only the backs of the others. The games below need a shape of play that has not been written."
+  _family: "The tableau plugin (moddable-engine#176) plays a game whose frontmatter names its shape under `plugins.standard-52.game`: climbing (Big 2, and President played to a full finishing order), war, trick-taking (Whist, Hearts, Spades, and with an auction Euchre and Bridge), shedding (Crazy Eights) patience (Klondike, FreeCell, Spider), laying (Rummy), knocking (Gin Rummy), partnership melds (Canasta) and pegging (Cribbage for two, three and four). A seat holds its hand privately and sees only the backs of the others. The games below need a shape of play that has not been written."
   blackjack: "No plugin. The dealer is declared as a seat but is not a participant in the sense the player system means - it follows a fixed house rule and makes no choices, the same shape problem as the Kriegspiel referee in moddable-engine#155. Also needs bets, the six-deck continuous shoe it declares, and splitting a hand in two."
-  cribbage: "No plugin. Scoring is the game, it happens on a separate peg track, and it runs in three distinct phases: the discard to the crib, the pegging count to 31, and the show. The crib is a fourth hand belonging to the dealer, which is neither a seat's hand nor a community pile."
-  four-player-cribbage: "No plugin, and blocked on everything standard Cribbage is. Adds fixed partnerships pegging a combined score on one track."
   poker: "No plugin. Betting is the game: rounds of wagering, a pot, chip stacks and side pots, none of which is a card operation. Hand ranking over two hole cards and five community cards is declared in `deal:` and read by nothing."
-  three-player-cribbage: "No plugin, and blocked on everything standard Cribbage is. Adds a crib that receives a card dealt straight from the deck, and rotates each hand."
 ---
 
 <div class="section">

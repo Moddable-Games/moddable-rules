@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Cribbage
 slug: cribbage
 board: "none"
@@ -7,6 +7,10 @@ players: "2"
 parent: standard-52
 win: "First player to peg 121 points"
 special: "Pegging game scored on a cribbage board. Features a crib (extra hand), pegging phase, and the show (hand scoring using a starter card)."
+approximations:
+  - feature: "Muggins"
+    source: "'Muggins (Optional): If a player fails to peg points they earned, the opponent may call Muggins and claim those points.'"
+    engine: "Not played: every score is counted for the player who earned it."
 engine:
   players: [player1, player2]
   components:
@@ -27,6 +31,13 @@ engine:
     perPlayer: 6
     community: 0
     remainder: draw
+  plugins:
+    standard-52:
+      game: pegging
+      cardsEach: 6
+      toCrib: 2
+      cribFromDeck: 0
+      target: 121
 published: true
 ---
 
