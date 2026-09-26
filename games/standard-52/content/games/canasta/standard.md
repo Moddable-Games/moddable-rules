@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Canasta (Classic)
 slug: canasta
 board: "none"
@@ -7,13 +7,23 @@ players: "4"
 parent: standard-52
 win: "First partnership to 5000 points"
 special: "Partnership melding game using two standard decks plus jokers (108 cards). Melds of 7+ cards form canastas. Wild cards (jokers and 2s) may substitute. Black 3s block the discard pile."
+approximations:
+  - feature: "Asking a partner before going out"
+    source: "'A player may ask their partner Can I go out? ... This optional courtesy prevents surprise endings.'"
+    engine: "Not asked: a player who can go out may simply do so."
+  - feature: "Which cards take the pile"
+    source: "Pagat: the pile is taken with 'two natural cards of the same rank as the top discard, or one such natural card and one wild card', or when 'the top discard matches the rank of one of your partnership's existing melds.'"
+    engine: "The engine picks which of the player's cards go with the top card: two naturals if the player holds them, otherwise the partnership's meld of that rank, otherwise a natural and a wild."
+  - feature: "Laying down the first melds"
+    source: "The first melds 'must meet a minimum point value' together."
+    engine: "The first melds are laid one at a time and can be taken back until they reach the minimum. They become the partnership's melds once they reach it, or when the player discards having laid enough."
 engine:
   players: [player1, player2, player3, player4]
   components:
     deck:
       type: standard-52
       count: 2
-      jokers: 4
+      jokers: 2
   topology:
     type: tableau
     layout: radial
@@ -25,6 +35,22 @@ engine:
     community: 0
     remainder: draw
   partnerships: [[player1, player3], [player2, player4]]
+  plugins:
+    standard-52:
+      game: partnership-melds
+      partnerships: [[player1, player3], [player2, player4]]
+      initialMeld:
+        - below: 0
+          min: 15
+        - below: 1500
+          min: 50
+        - below: 3000
+          min: 90
+        - min: 120
+      canasta: { size: 7, natural: 500, mixed: 300 }
+      redThree: { each: 100, all: 800 }
+      goingOut: { bonus: 100, concealed: 100 }
+      target: 5000
 published: true
 ---
 
@@ -52,12 +78,13 @@ Canasta originated in Uruguay in the 1940s and became internationally popular in
 **Wild cards:** All four Jokers and all eight 2s (Deuces) are wild. Wild cards may substitute for any natural card in a meld.
 
 **Rules for wild cards in melds:**
-- A meld may contain at most 3 wild cards.
-- A meld must always contain more natural cards than wild cards (e.g., 2 natural + 1 wild is fine; 2 natural + 2 wild is the maximum and only legal if there are 3 natural cards total).
+- A meld must contain at least two natural cards.
+- A meld may contain at most 3 wild cards, so a canasta always has at least four natural cards.
+- A meld made only of wild cards is not allowed.
 
 ### Special Cards
 
-**Red 3s:** When drawn or dealt, a Red 3 must be placed face-up on the table immediately and replaced by drawing from the stock. Red 3s score a bonus at the end of the game (100 each; 800 for all four held by one partnership). Red 3s count for the partnership only if they have at least one canasta; otherwise they count against.
+**Red 3s:** When drawn or dealt, a Red 3 must be placed face-up on the table immediately and replaced by drawing from the stock. Red 3s score a bonus at the end of the game (100 each; 800 for all four held by one partnership). Red 3s count for the partnership only if it has melded; a partnership that has not melded at all scores each red 3 as minus 100.
 
 **Black 3s:** May not be melded during play (except as the final card in a hand, see Going Out). Black 3s may be discarded to freeze the pile for one turn against the next player (a one-turn block). Cannot be used as wild cards.
 
@@ -67,8 +94,8 @@ Canasta originated in Uruguay in the 1940s and became internationally popular in
 - Shuffle both decks together with all 4 Jokers for a 108-card deck.
 - Deal 11 cards each (44 total). Place the remaining cards as the stock.
 - Turn over the top card to begin the discard pile (the pack).
-- If the initial upcard is a Joker, 2, or Red 3: bury it in the stock and turn another.
-- If the initial upcard is a Black 3: the first player may not pick up the pack on their first turn; the Black 3 remains.
+- If the initial upcard is a Joker, 2, or Red 3, turn another card on top of it, and continue until the top card is neither. A wild card turned up this way freezes the pack.
+- If the initial upcard is a Black 3, the first player may not pick up the pack; the Black 3 remains.
 
 ### Taking a Turn
 
@@ -79,12 +106,11 @@ Each turn consists of:
 
 ### Taking the Pack (Discard Pile)
 
-A player may take the entire discard pile if:
-- The top card of the pile is a natural card (not wild, not Black 3).
-- The player holds at least two natural cards of the same rank as the top card and can immediately use them to meld with the top card.
-- The partnership has already made its initial meld (see Initial Meld Requirement).
+The top card of the pile must be a natural card (not wild, not a Black 3). A player may then take the entire pile if either:
+- they meld the top card at once with two natural cards of the same rank from their hand, or with one such natural card and one wild card, or
+- the top card matches the rank of one of their partnership's existing melds, and they add it to that meld.
 
-**Frozen Pack:** The discard pile is frozen when a wild card or Red 3 has been placed on it. To take a frozen pack, the player must hold two natural cards matching the top card (not just one plus a wild) and the rules above still apply. The pile unfreezes when picked up.
+**Frozen Pack:** The pack is frozen when it contains a wild card, and it is frozen against a partnership that has not yet melded. To take a frozen pack, the player must hold two natural cards matching the top card; a natural and a wild will not do. A partnership taking the pack for its first meld counts the top card toward the minimum, and the rest of the pile joins the hand after the meld is made. The pack unfreezes when it is picked up.
 
 ### Initial Meld Requirement
 
@@ -141,4 +167,4 @@ The first partnership to accumulate 5000 or more points at the end of a hand win
 
 ### Attribution
 
-Canasta. Originated in Montevideo, Uruguay, approximately 1939. Popularized internationally in the 1950s. Standard North American rules confirmed from Pagat.com and Hoyle’s Rules of Games. Public domain rule set.
+Canasta. Originated in Montevideo, Uruguay, approximately 1939. Popularized internationally in the 1950s. Rules checked against Pagat.com, *Canasta* (John McLeod, © 1995–2016), which is the source for taking and freezing the pack, the first up-card, wild cards in melds and red threes as given above.

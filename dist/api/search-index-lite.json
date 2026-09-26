@@ -30856,7 +30856,7 @@
     "sectionType": "general",
     "section": "Canasta (Classic)",
     "heading": "Wild Cards",
-    "content": "Wild cards: All four Jokers and all eight 2s Deuces are wild. Wild cards may substitute for any natural card in a meld. Rules for wild cards in melds: - A meld may contain at most 3 wild cards. - A me",
+    "content": "Wild cards: All four Jokers and all eight 2s Deuces are wild. Wild cards may substitute for any natural card in a meld. Rules for wild cards in melds: - A meld must contain at least two natural cards.",
     "anchor": "wild-cards",
     "variant": "canasta",
     "variantUrl": "standard-52/games/canasta/"
@@ -30904,7 +30904,7 @@
     "sectionType": "general",
     "section": "Canasta (Classic)",
     "heading": "Taking the Pack (Discard Pile)",
-    "content": "A player may take the entire discard pile if: - The top card of the pile is a natural card not wild, not Black 3. - The player holds at least two natural cards of the same rank as the top card and can",
+    "content": "The top card of the pile must be a natural card not wild, not a Black 3. A player may then take the entire pile if either: - they meld the top card at once with two natural cards of the same rank from",
     "anchor": "taking-the-pack-discard-pile",
     "variant": "canasta",
     "variantUrl": "standard-52/games/canasta/"
@@ -30988,7 +30988,7 @@
     "sectionType": "attribution",
     "section": "Canasta (Classic)",
     "heading": "Attribution",
-    "content": "Canasta. Originated in Montevideo, Uruguay, approximately 1939. Popularized internationally in the 1950s. Standard North American rules confirmed from Pagat.com and Hoyle’s Rules of Games. Public doma",
+    "content": "Canasta. Originated in Montevideo, Uruguay, approximately 1939. Popularized internationally in the 1950s. Rules checked against Pagat.com, Canasta John McLeod, © 1995–2016, which is the source for tak",
     "anchor": "attribution",
     "variant": "canasta",
     "variantUrl": "standard-52/games/canasta/"

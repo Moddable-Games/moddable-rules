@@ -112,11 +112,12 @@
 <p><strong>Wild cards:</strong> All four Jokers and all eight 2s (Deuces) are wild. Wild cards may substitute for any natural card in a meld.</p>
 <p><strong>Rules for wild cards in melds:</strong></p>
 <ul class="rules">
-<li>A meld may contain at most 3 wild cards.</li>
-<li>A meld must always contain more natural cards than wild cards (e.g., 2 natural + 1 wild is fine; 2 natural + 2 wild is the maximum and only legal if there are 3 natural cards total).</li>
+<li>A meld must contain at least two natural cards.</li>
+<li>A meld may contain at most 3 wild cards, so a canasta always has at least four natural cards.</li>
+<li>A meld made only of wild cards is not allowed.</li>
 </ul>
 <h3 id="special-cards">Special Cards</h3>
-<p><strong>Red 3s:</strong> When drawn or dealt, a Red 3 must be placed face-up on the table immediately and replaced by drawing from the stock. Red 3s score a bonus at the end of the game (100 each; 800 for all four held by one partnership). Red 3s count for the partnership only if they have at least one canasta; otherwise they count against.</p>
+<p><strong>Red 3s:</strong> When drawn or dealt, a Red 3 must be placed face-up on the table immediately and replaced by drawing from the stock. Red 3s score a bonus at the end of the game (100 each; 800 for all four held by one partnership). Red 3s count for the partnership only if it has melded; a partnership that has not melded at all scores each red 3 as minus 100.</p>
 <p><strong>Black 3s:</strong> May not be melded during play (except as the final card in a hand, see Going Out). Black 3s may be discarded to freeze the pile for one turn against the next player (a one-turn block). Cannot be used as wild cards.</p>
 <h3 id="setup">Setup</h3>
 <ul class="rules">
@@ -124,8 +125,8 @@
 <li>Shuffle both decks together with all 4 Jokers for a 108-card deck.</li>
 <li>Deal 11 cards each (44 total). Place the remaining cards as the stock.</li>
 <li>Turn over the top card to begin the discard pile (the pack).</li>
-<li>If the initial upcard is a Joker, 2, or Red 3: bury it in the stock and turn another.</li>
-<li>If the initial upcard is a Black 3: the first player may not pick up the pack on their first turn; the Black 3 remains.</li>
+<li>If the initial upcard is a Joker, 2, or Red 3, turn another card on top of it, and continue until the top card is neither. A wild card turned up this way freezes the pack.</li>
+<li>If the initial upcard is a Black 3, the first player may not pick up the pack; the Black 3 remains.</li>
 </ul>
 <h3 id="taking-a-turn">Taking a Turn</h3>
 <p>Each turn consists of:</p>
@@ -135,13 +136,12 @@
 <li><strong>Discard:</strong> Place one card face-up onto the discard pile. (Exception: do not discard when going out by melding all cards.)</li>
 </ol>
 <h3 id="taking-the-pack-discard-pile">Taking the Pack (Discard Pile)</h3>
-<p>A player may take the entire discard pile if:</p>
+<p>The top card of the pile must be a natural card (not wild, not a Black 3). A player may then take the entire pile if either:</p>
 <ul class="rules">
-<li>The top card of the pile is a natural card (not wild, not Black 3).</li>
-<li>The player holds at least two natural cards of the same rank as the top card and can immediately use them to meld with the top card.</li>
-<li>The partnership has already made its initial meld (see Initial Meld Requirement).</li>
+<li>they meld the top card at once with two natural cards of the same rank from their hand, or with one such natural card and one wild card, or</li>
+<li>the top card matches the rank of one of their partnership’s existing melds, and they add it to that meld.</li>
 </ul>
-<p><strong>Frozen Pack:</strong> The discard pile is frozen when a wild card or Red 3 has been placed on it. To take a frozen pack, the player must hold two natural cards matching the top card (not just one plus a wild) and the rules above still apply. The pile unfreezes when picked up.</p>
+<p><strong>Frozen Pack:</strong> The pack is frozen when it contains a wild card, and it is frozen against a partnership that has not yet melded. To take a frozen pack, the player must hold two natural cards matching the top card; a natural and a wild will not do. A partnership taking the pack for its first meld counts the top card toward the minimum, and the rest of the pile joins the hand after the meld is made. The pack unfreezes when it is picked up.</p>
 <h3 id="initial-meld-requirement">Initial Meld Requirement</h3>
 <p>A partnership’s first meld(s) of the game must meet a minimum point value based on their current score:</p>
 <div class="table-wrap"><table class="t">
@@ -202,7 +202,7 @@
 <h3 id="end-of-game">End of Game</h3>
 <p>The first partnership to accumulate 5000 or more points at the end of a hand wins.</p>
 <h3 id="attribution">Attribution</h3>
-<p>Canasta. Originated in Montevideo, Uruguay, approximately 1939. Popularized internationally in the 1950s. Standard North American rules confirmed from Pagat.com and Hoyle’s Rules of Games. Public domain rule set.</p>
+<p>Canasta. Originated in Montevideo, Uruguay, approximately 1939. Popularized internationally in the 1950s. Rules checked against Pagat.com, <em>Canasta</em> (John McLeod, © 1995–2016), which is the source for taking and freezing the pack, the first up-card, wild cards in melds and red threes as given above.</p>
 
 </div>
 </main>
