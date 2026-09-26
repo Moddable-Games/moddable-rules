@@ -129,6 +129,7 @@ All three players play all 10 tricks. The declarer plays alone; the two defender
 - Declarer loses if defenders score 60+ (or 61+ in some regional rules).
 
 **Null games:**
+- There are no trumps, and the jacks belong to their suits. Each suit ranks A, K, Q, J, 10, 9, 8, 7.
 - Declarer wins if they win **zero tricks**.
 - Declarer loses immediately upon winning any trick (play ends; game scored as lost).
 

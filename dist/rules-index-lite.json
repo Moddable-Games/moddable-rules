@@ -28912,7 +28912,7 @@
     "sectionType": "general",
     "section": "Schafkopf",
     "heading": "Schafkopf",
-    "content": "Schafkopf pronounced SHAHF-kopf, meaning \"Sheepshead\" is the defining card game of Bavaria, Germany. Played seriously in clubs, tournaments, and casual settings throughout southern Germany, it is one ",
+    "content": "Schafkopf pronounced SHAHF-kopf, meaning \"Sheepshead\" is the defining card game of Bavaria, played in clubs, tournaments and at home throughout southern Germany. The American game Sheepshead comes fro",
     "anchor": "schafkopf",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"
@@ -28924,7 +28924,7 @@
     "sectionType": "general",
     "section": "Schafkopf",
     "heading": "The Deck",
-    "content": "32-card Bavarian pattern deck: 4 suits × 8 ranks. The suits are Acorns, Leaves, Hearts, and Bells equivalent to Clubs, Spades, Hearts, and Diamonds in French-suited decks. The ranks in each suit: Ace ",
+    "content": "The 32-card Bavarian pack: four suits, Acorns, Leaves, Hearts and Bells, each with the Ace Sau, King, Ober, Unter, 10, 9, 8 and 7. The pack holds 120 card points.\nCard — Points\nAce — 11\n10 — 10\nKing —",
     "anchor": "the-deck",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"
@@ -28936,7 +28936,7 @@
     "sectionType": "general",
     "section": "Schafkopf",
     "heading": "Dealing",
-    "content": "All 32 cards are dealt to the 4 players — 8 cards each. No cards are set aside. Deal rotates clockwise each hand.",
+    "content": "Four players each receive eight cards, dealt four at a time in two rounds, starting with forehand, the player to the dealer's left. The deal passes clockwise.",
     "anchor": "dealing",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"
@@ -28947,9 +28947,9 @@
     "type": "game",
     "sectionType": "general",
     "section": "Schafkopf",
-    "heading": "Permanent Trump Hierarchy",
-    "content": "Unlike Skat, the top 8 trumps are always fixed regardless of the declared suit or game type: 1. Ober of Acorns highest trump 2. Ober of Leaves 3. Ober of Hearts 4. Ober of Bells 5. Unter of Acorns 6. ",
-    "anchor": "permanent-trump-hierarchy",
+    "heading": "Choosing the Game",
+    "content": "Forehand speaks first. Each player in turn passes or names a game, and a game must outrank the one already named: a Rufer is lowest, then a Wenz, then a Solo. Between equal games, the player who spoke",
+    "anchor": "choosing-the-game",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"
   },
@@ -28959,9 +28959,21 @@
     "type": "game",
     "sectionType": "general",
     "section": "Schafkopf",
-    "heading": "Game Types",
-    "content": "Rufspiel Partner Game — most common: The declarer calls an Ace of a non-Heart suit e.g., \"I call the Ober of Leaves\" or \"I call the Ace of Bells\". The player holding that Ace is the secret partner. Th",
-    "anchor": "game-types",
+    "heading": "The Games",
+    "content": "Rufer calling an ace. The declarer calls the Ace of a suit other than Hearts, in which they hold at least one card other than an Ober or Unter, and may not call an Ace they hold. Whoever holds the cal",
+    "anchor": "the-games",
+    "variant": "schafkopf",
+    "variantUrl": "bavarian-32/games/schafkopf/"
+  },
+  {
+    "game": "bavarian-32",
+    "gameTitle": "Bavarian 32-Card Games",
+    "type": "game",
+    "sectionType": "general",
+    "section": "Schafkopf",
+    "heading": "Trumps",
+    "content": "In a Rufer or Solo, from highest: the Obers of Acorns, Leaves, Hearts and Bells; the Unters in the same order; then the trump suit, Ace, 10, King, 9, 8, 7. That is 14 trumps. In a Wenz, the four Unter",
+    "anchor": "trumps",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"
   },
@@ -28972,7 +28984,7 @@
     "sectionType": "general",
     "section": "Schafkopf",
     "heading": "Play",
-    "content": "The player to the dealer's left leads the first trick. Players must follow suit if possible; if unable, they may play any card. The highest trump wins a trump trick; the highest card of the led suit w",
+    "content": "Forehand leads to the first trick. Players must follow suit if they can, and trumps count as one suit; a player who cannot follow may play anything. The highest trump wins, or the highest card of the ",
     "anchor": "play",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"
@@ -28984,7 +28996,7 @@
     "sectionType": "winning",
     "section": "Schafkopf",
     "heading": "Scoring",
-    "content": "After 8 tricks, the declaring side's total card points determine the result: Game points are settled per player at the table losers pay winners. A running score is kept across hands.\nCard points — Res",
+    "content": "The declaring side, the declarer and partner in a Rufer or the declarer alone, needs 61 card points to win. A losing side with 30 card points or fewer is schneider; one that takes no trick is schwarz.",
     "anchor": "scoring",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"
@@ -28996,7 +29008,7 @@
     "sectionType": "attribution",
     "section": "Schafkopf",
     "heading": "Attribution",
-    "content": "Traditional Bavarian card game. Rules documented per the Bayerischer Schafkopf-Verein Bavarian Schafkopf Association standard ruleset.",
+    "content": "Traditional Bavarian card game. Rules written from Pagat.com, Bavarian Schafkopf Paul Eaton and John McLeod, © 2023, which is the source for the auction, calling the Ace, running away, the trumps, and",
     "anchor": "attribution",
     "variant": "schafkopf",
     "variantUrl": "bavarian-32/games/schafkopf/"

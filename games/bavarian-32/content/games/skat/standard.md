@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Skat
 slug: skat
 board: "none"
@@ -7,8 +7,30 @@ players: "3"
 parent: bavarian-32
 win: "Declarer makes their bid; or defenders prevent it"
 special: "Germany's national card game. One player bids to become declarer and play alone against two defenders. The four Jacks are always the top trumps. Declarer picks up the Skat (2-card blind) and declares a game type before play begins."
+approximations:
+  - feature: "The cards"
+    source: "The page names French suits and ranks: Clubs, Spades, Hearts, Diamonds; Jack, Queen."
+    engine: "Played with the Bavarian pack: Acorns for Clubs, Leaves for Spades, Hearts, Bells for Diamonds, the Unter for the Jack and the Ober for the Queen."
+  - feature: "When all three pass"
+    source: "The page: 'the cards are redealt or Forehand must play Ramsch'. Pagat: 'If both M and R pass without having bid, then F can either be declarer at the lowest bid (18), or can throw in the cards without play.'"
+    engine: "As Pagat: forehand may play at 18 or throw the cards in. Ramsch is not played."
+  - feature: "Matadors"
+    source: "The page's table counts 'With/Without 1' to 'With/Without 4'."
+    engine: "The jacks alone are counted, one to four, as the page's table does."
+  - feature: "The Null games' card order"
+    source: "The page does not give it. Pagat: 'There are no trumps. The eight cards of each suit rank from high to low: A - K - Q - J - 10 - 9 - 8 - 7.'"
+    engine: "As Pagat: A, K, Q, J, 10, 9, 8, 7 in every suit, and no trumps."
+  - feature: "A lost game and a lost Null"
+    source: "The page: 'typically doubled', and for Null 'doubled ... in some scoring systems'. Pagat: 'twice the value of the game is subtracted.'"
+    engine: "Every lost game costs twice its value."
+  - feature: "Kontra and Rekontra"
+    source: "Listed by the page as a variant."
+    engine: "Not played."
+  - feature: "How long a session is"
+    source: "'a session typically ends when all players have dealt an equal number of times.'"
+    engine: "The players choose how many times each deals, once by default; the highest score then wins."
 engine:
-  players: [forehand, middlehand, rearhand]
+  players: [player1, player2, player3]
   components:
     deck:
       type: bavarian-32
@@ -24,6 +46,22 @@ engine:
     perPlayer: 10
     community: 2
     remainder: draw
+  plugins:
+    bavarian-32:
+      game: lone-declarer
+      jack: U
+      jackOrder: [acorns, leaves, hearts, bells]
+      suitBase: { acorns: 12, leaves: 11, hearts: 10, bells: 9 }
+      grandBase: 24
+      nullValues: { plain: 23, hand: 35, ouvert: 46, handOuvert: 59 }
+      rankOrder: [7, 8, 9, O, K, 10, A]
+      nullOrder: [7, 8, 9, 10, U, O, K, A]
+      cardPoints: { A: 11, 10: 10, K: 4, O: 3, U: 2 }
+      rounds: 1
+      options:
+        rounds:
+          label: Deals each
+          values: [1, 2, 3, 4]
 published: true
 ---
 
@@ -158,6 +196,7 @@ All three players play all 10 tricks. The declarer plays alone; the two defender
 - Declarer loses if defenders score 60+ (or 61+ in some regional rules).
 
 **Null games:**
+- There are no trumps, and the jacks belong to their suits. Each suit ranks A, K, Q, J, 10, 9, 8, 7.
 - Declarer wins if they win **zero tricks**.
 - Declarer loses immediately upon winning any trick (play ends; game scored as lost).
 

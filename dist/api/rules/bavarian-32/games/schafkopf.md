@@ -1,76 +1,68 @@
 ## Schafkopf
 
-Schafkopf (pronounced SHAHF-kopf, meaning "Sheepshead") is the defining card game of Bavaria, Germany. Played seriously in clubs, tournaments, and casual settings throughout southern Germany, it is one of the most culturally embedded regional card games in Europe. The American game **Sheepshead** is derived from Schafkopf brought by German immigrants.
+Schafkopf (pronounced SHAHF-kopf, meaning "Sheepshead") is the defining card game of Bavaria, played in clubs, tournaments and at home throughout southern Germany. The American game **Sheepshead** comes from it, brought by German immigrants.
 
 {{svg:schafkopf-board.svg "Schafkopf — table layout"}}
 
 ### The Deck
 
-32-card Bavarian pattern deck: 4 suits × 8 ranks. The suits are Acorns, Leaves, Hearts, and Bells (equivalent to Clubs, Spades, Hearts, and Diamonds in French-suited decks). The ranks in each suit: Ace (Sau), King, Ober, Unter, 10, 9, 8, 7.
-
-Card point values:
+The 32-card Bavarian pack: four suits, Acorns, Leaves, Hearts and Bells, each with the Ace (Sau), King, Ober, Unter, 10, 9, 8 and 7.
 
 | Card | Points |
 |---|---|
-| Ace (Sau) | 11 |
+| Ace | 11 |
 | 10 | 10 |
 | King | 4 |
 | Ober | 3 |
 | Unter | 2 |
 | 9, 8, 7 | 0 |
 
-Total card points in the deck: **120**.
+The pack holds **120** card points.
 
 ### Dealing
 
-All 32 cards are dealt to the 4 players — **8 cards each**. No cards are set aside. Deal rotates clockwise each hand.
+Four players each receive **eight cards**, dealt four at a time in two rounds, starting with forehand, the player to the dealer's left. The deal passes clockwise.
 
-### Permanent Trump Hierarchy
+### Choosing the Game
 
-Unlike Skat, the top 8 trumps are always fixed regardless of the declared suit or game type:
+Forehand speaks first. Each player in turn passes or names a game, and a game must outrank the one already named: a **Rufer** is lowest, then a **Wenz**, then a **Solo**. Between equal games, the player who spoke first keeps it. The player who names the highest game is the declarer. If everyone passes, the cards are thrown in and the next dealer deals.
 
-1. Ober of Acorns (highest trump)
-2. Ober of Leaves
-3. Ober of Hearts
-4. Ober of Bells
-5. Unter of Acorns
-6. Unter of Leaves
-7. Unter of Hearts
-8. Unter of Bells (lowest of the 8 Matadors)
+### The Games
 
-Below the Matadors, the **Heart suit** (or the solo-declared suit) forms the remaining trumps: Ace, 10, King, 9, 8, 7.
+**Rufer (calling an ace).** The declarer calls the Ace of a suit other than Hearts, in which they hold at least one card other than an Ober or Unter, and may not call an Ace they hold. Whoever holds the called Ace is the declarer's partner, but says nothing: the partnership shows only when the Ace is played. Trumps are the four Obers, then the four Unters, then the Hearts.
 
-**Total trumps in a normal Rufspiel:** 8 Matadors + 6 Hearts = **14 trumps**.
+**Solo.** The declarer plays alone against the other three, naming the suit that takes the place of Hearts among the trumps.
 
-### Game Types
+**Wenz.** The declarer plays alone, and only the four Unters are trumps. The Obers rank in their suits between the King and the 9.
 
-**Rufspiel (Partner Game) — most common:** The declarer calls an Ace of a non-Heart suit (e.g., "I call the Ober of Leaves" or "I call the Ace of Bells"). The player holding that Ace is the secret partner. The declarer and partner work together to score 61+ card points, without revealing their partnership. The called Ace must be played if that suit is led, unless the holder plays a trump instead. Worth 2 game points per opponent.
+### Trumps
 
-**Solo:** One player against three, with a named trump suit replacing Hearts as the lower trumps. The 8 Matadors remain fixed. Worth 3 game points per opponent.
-
-**Wenz (Wenzel):** Only the four Unters are trump — no Obers, no suit trumps. Solo play. Worth 5 game points per opponent.
-
-**Farbsolo (Colour Solo):** Solo with a named non-Heart trump suit. Worth 3 game points.
+In a Rufer or Solo, from highest: the Obers of Acorns, Leaves, Hearts and Bells; the Unters in the same order; then the trump suit, Ace, 10, King, 9, 8, 7. That is **14 trumps**. In a Wenz, the four Unters alone. Plain suits rank Ace, 10, King, 9, 8, 7, with the Ober between King and 9 in a Wenz.
 
 ### Play
 
-The player to the dealer's left leads the first trick. Players must **follow suit** if possible; if unable, they may play any card. The highest trump wins a trump trick; the highest card of the led suit wins a plain-suit trick. The winner of each trick leads the next.
+Forehand leads to the first trick. Players must follow suit if they can, and trumps count as one suit; a player who cannot follow may play anything. The highest trump wins, or the highest card of the suit led. The winner of a trick leads the next.
+
+**The called Ace** must be played to the first trick in which its suit is led, even if that trick is already trumped. Its holder may not throw it away on another suit before then, except in the last trick. A holder with four or more cards of the called suit may instead **run away**: lead a lower card of the suit, after which the Ace is free.
 
 ### Scoring
 
-After 8 tricks, the declaring side's total card points determine the result:
+The declaring side, the declarer and partner in a Rufer or the declarer alone, needs **61** card points to win. A losing side with 30 card points or fewer is **schneider**; one that takes no trick is **schwarz**.
 
-| Card points | Result |
+A game's value, in points:
+
+| | Points |
 |---|---|
-| 61–90 | Normal win for declarers |
-| 91–119 | **Schneider** — declarers win double |
-| 120 | **Schwarz** — declarers win triple (all tricks taken) |
-| 30–60 | Schneider — defenders win double |
-| 0–29 | Schwarz — defenders win triple |
-| 31–60 | Normal win for defenders |
+| Rufer | 1 |
+| Solo or Wenz | 5 |
+| Schneider | +1 |
+| Schwarz | +2 |
+| Each Laufende | +1 |
 
-Game points are settled per player at the table (losers pay winners). A running score is kept across hands.
+**Laufende** are the top trumps held in an unbroken run by one side, counted from the highest. They add to the value once there are three, or two in a Wenz.
+
+In a Rufer, each loser pays the value to one of the winners. In a Solo or Wenz, the declarer collects the value from each defender, or pays it to each. A running score is kept across hands.
 
 ### Attribution
 
-Traditional Bavarian card game. Rules documented per the Bayerischer Schafkopf-Verein (Bavarian Schafkopf Association) standard ruleset.
+Traditional Bavarian card game. Rules written from Pagat.com, *Bavarian Schafkopf* (Paul Eaton and John McLeod, © 2023), which is the source for the auction, calling the Ace, running away, the trumps, and the tariff given here in points rather than cents.
