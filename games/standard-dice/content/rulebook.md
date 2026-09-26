@@ -46,10 +46,8 @@ related:
   - double-six-dominoes
   - backgammon
 unsupported:
-  _family: "The tableau plugin (moddable-engine#176) plays Yahtzee (`game: scorecard`, its categories declared as rules over the dice) and Farkle (`game: press-your-luck`, its scoring combinations declared). The games below need a turn structure neither shape has."
-  bunco: "No plugin. Needs six rounds with a target number that changes each round, table rotation between rounds, and scoring across a group rather than a seat."
+  _family: "The tableau plugin (moddable-engine#176) plays Yahtzee (`game: scorecard`, its categories declared as rules over the dice) and Farkle (`game: press-your-luck`, its scoring combinations declared). Liar's Dice is `game: bluffing` and Bunco `game: rolling-rounds`."
   craps: "No plugin. The dice are the least of it: needs a bet table, a point that persists across rolls, and wagers that resolve over different numbers of rolls."
-  liars-dice: "No plugin. Every seat's dice are concealed and the entire game is bidding over them, so it is blocked on private per-seat state (moddable-engine#155) more completely than any card game here."
 ---
 
 <div class="section">

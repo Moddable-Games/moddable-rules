@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Liar's Dice
 slug: liars-dice
 board: "none"
@@ -7,11 +7,20 @@ players: "2–6"
 parent: standard-dice
 win: "Last player with dice remaining"
 special: "Hidden dice under cups. Bid on what the combined dice show. Call liar to challenge — and risk a die of your own."
+approximations:
+  - feature: "Aces wild"
+    source: "'In the Perudo variant, 1s (aces) are wild ... This variant is optional; standard Liar's Dice uses no wild faces.'"
+    engine: "Standard Liar's Dice: no face is wild."
+  - feature: "Who bids first"
+    source: "'The starting player makes a bid.'"
+    engine: "The first seat opens the first round; after that, the player who lost a die, or the next player still in if they are out."
 engine:
+  players: [player1, player2, player3, player4]
   components:
-    dice_per_player: 5
-    die_type: d6
-    cup_per_player: true
+    dice:
+      type: standard
+      count: 5
+      sides: 6
   topology:
     type: tableau
     layout: radial
@@ -21,6 +30,11 @@ engine:
     defaultPlayers: 4
     perPlayer: 5
     community: 0
+  plugins:
+    standard-dice:
+      game: bluffing
+      dicePerPlayer: 5
+      faces: 6
 published: true
 ---
 

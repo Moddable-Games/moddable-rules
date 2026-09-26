@@ -32655,9 +32655,9 @@
     "type": "game",
     "sectionType": "general",
     "section": "Bunco",
-    "heading": "A Set (Sub-Round)",
-    "content": "Within each round, teams alternate rolling all 3 dice. Each die showing the target number scores 1 point for the rolling team. The rolling team continues rolling as long as they score at least 1 point",
-    "anchor": "a-set-sub-round",
+    "heading": "Rolling",
+    "content": "Players take turns rolling the 3 dice, and each roll scores for the roller's team. Each die showing the target number scores 1 point. Three of a kind of any other number scores 5 points. A player who ",
+    "anchor": "rolling",
     "variant": "bunco",
     "variantUrl": "standard-dice/games/bunco/"
   },
@@ -32668,7 +32668,7 @@
     "sectionType": "general",
     "section": "Bunco",
     "heading": "Winning a Round",
-    "content": "The team with more set wins at the end of the round wins that round. At the Head Table, the winning team stays; the losing team moves down. At other tables, the winning team moves up and the losing te",
+    "content": "The round ends when a team at the Head Table reaches 21 points. At every table, the team with more points at that moment wins the round. At the Head Table, the winning team stays; the losing team move",
     "anchor": "winning-a-round",
     "variant": "bunco",
     "variantUrl": "standard-dice/games/bunco/"
@@ -32682,6 +32682,30 @@
     "heading": "Scoring",
     "content": "After all 6 rounds, each player totals: - Number of round wins - Number of round losses - Number of Buncos Typical prizes: most wins, most Buncos, and a booby prize for most losses.",
     "anchor": "scoring",
+    "variant": "bunco",
+    "variantUrl": "standard-dice/games/bunco/"
+  },
+  {
+    "game": "standard-dice",
+    "gameTitle": "Standard Dice",
+    "type": "game",
+    "sectionType": "general",
+    "section": "Bunco",
+    "heading": "Winning the Game",
+    "content": "The player who won the most rounds wins the game; a tie is broken by the most points scored.",
+    "anchor": "winning-the-game",
+    "variant": "bunco",
+    "variantUrl": "standard-dice/games/bunco/"
+  },
+  {
+    "game": "standard-dice",
+    "gameTitle": "Standard Dice",
+    "type": "game",
+    "sectionType": "attribution",
+    "section": "Bunco",
+    "heading": "Attribution",
+    "content": "Bunco. A traditional parlour dice game, popular in North America. Rules checked against Wikipedia, Bunco, which is the source for three of a kind, the end of a round and the winner.",
+    "anchor": "attribution",
     "variant": "bunco",
     "variantUrl": "standard-dice/games/bunco/"
   },
