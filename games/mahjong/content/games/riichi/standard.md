@@ -52,6 +52,7 @@ engine:
       liability: true
       lastDiscard: win
       kongAfterClaim: false
+      maxKongs: 4
       multipleWinners: true
       options:
         rounds:

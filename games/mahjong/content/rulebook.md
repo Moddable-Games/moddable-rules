@@ -36,8 +36,7 @@ engine:
       type: wall
   players: [east, south, west, north]
 unsupported:
-  _family: "The tableau plugin (moddable-engine#184) plays Hong Kong, Riichi and Zung Jung mahjong from their frontmatter (`game: wall`): the wall, claiming discards out of turn, kongs and robbing them, flowers and faan scoring, for Riichi the dead wall, dora, the riichi declaration, furiten, and han and fu, and for Zung Jung its 44 patterns and same-round immunity. The games below need scoring of their own on the same wall."
-  american-classic: "No plugin, and blocked on content as well as code: hands are set by a published card that changes annually and must be matched exactly. Also needs jokers and the Charleston passing phase."
+  _family: "The tableau plugin (moddable-engine#184) plays Hong Kong, Riichi, Zung Jung and American Classic mahjong from their frontmatter (`game: wall`): the wall, claiming discards out of turn, kongs and robbing them, flowers and faan scoring, for Riichi the dead wall, dora, the riichi declaration, furiten, and han and fu, for Zung Jung its 44 patterns and same-round immunity, and for American Classic the Red Book's scoring of every hand. The game below needs scoring of its own on the same wall."
   taiwanese: "The engine plays the game: sixteen tiles, five sets and a pair, several winners on one discard, and the dealer paying and receiving double, with the tai for each pattern read from this variant's frontmatter. Three values are missing. The source (Rack It! Mahjong's 16-tile guide, 2025) says a dragon or own-wind pung, All Pungs and All Chows earn tai without giving numbers; English Wikipedia has no article, and Chinese Wikipedia has no table. Until those three are set in `tai:`, those hands would score only the base tai, so it is not offered (moddable-engine#184)."
 ---
 
@@ -53,7 +52,7 @@ A tile game originating in China and played worldwide in many regional forms. Pl
 - [Riichi (Japanese)](games/riichi/) — 136 tiles, no bonus tiles. Yaku requirement, Riichi declaration, Furiten rule, han and fu scoring with named limits.
 - [Taiwanese 16-Tile](games/taiwanese/) — 144 tiles, 16-tile hands requiring five melds and one pair. Multiple winners from a single discard are possible.
 - [Zung Jung](games/zung-jung/) — 136 tiles. Alan Kwan's competition system. 44 named patterns, additive scoring, 320-point limit.
-- [American Mahjong (Classic)](games/american-classic/) — The Babcock-era form (1920–1935). 152 tiles with 8 jokers and the Charleston passing ritual. Fixed classical winning hand patterns; pre-dates the annual NMJL card system.
+- [American Mahjong (Classic)](games/american-classic/) — Babcock's Red Book of Rules (1923), packed with the first American sets. 136 tiles, every hand scored, the losers settling among themselves; no Charleston, jokers or card.
 
 </div>
 

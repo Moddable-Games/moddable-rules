@@ -1,154 +1,73 @@
 ## American Mahjong (Classic)
 
-American Mahjong is the distinctly American adaptation of Chinese Mahjong, shaped by a specific chain of people and events between 1920 and 1937. Joseph Park Babcock, a Standard Oil representative in Shanghai, began importing Mahjong sets to the United States in large numbers around 1920 and wrote simplified English rules — the **Red Book** — to make the game accessible to American players.
+Joseph Park Babcock, a Standard Oil representative in Shanghai, brought mahjong to America around 1920 and wrote the rules that went into the box with the sets: *Babcock's Rules for Mah-Jongg*, the **Red Book**. This page plays its second edition (1923), which is in the public domain. It is the game Americans learned in the 1920s craze, before the National Mah Jongg League's yearly card of winning hands.
 
-The 1920s saw a nationwide Mahjong craze. By the mid-1920s, so many regional variations had developed that the **1924 Standardization Committee** consolidated the *American Official Laws of Mah-Jongg*. The National Mah Jongg League published its own *Official American Rules* in 1935. Both sources form the basis of this Classic variant.
-
-In 1937, the NMJL introduced its annually-changing scorecard of winning hands, which has defined modern American Mahjong ever since. **American Mahjong (Classic)** preserves the pre-card-era game: the same 152-tile set, the same Charleston, the same joker rules — but with fixed classical hand patterns rather than a subscription card.
+The Red Book game has no Charleston and no jokers. Modern American mahjong uses both, along with the card; none of them appear in these rules.
 
 {{svg:american-classic-board.svg "American Classic Mahjong — table layout"}}
 
----
+### The Set
 
-### The Tile Set (152 tiles)
+136 tiles: three suits, bamboo, dots and characters, each numbered 1 to 9; four winds; and red, green and white dragons. There are four of each tile. The Red Book mentions the eight season tiles found in some sets but says "they are not recommended for play", and the standard game leaves them out. Each player starts with 2,000 points in counters.
 
-| Category | Tiles | Detail |
-|---|---|---|
-| Dots (Circles) | 36 | Ranks 1–9, 4 tiles each |
-| Bamboo (Bams) | 36 | Ranks 1–9, 4 tiles each; the 1-Bam tile traditionally shows a crane |
-| Characters (Craks) | 36 | Ranks 1–9, 4 tiles each |
-| Winds | 16 | East/South/West/North, 4 each |
-| Dragons | 12 | Red (中), Green (發), White (白/Soap), 4 each |
-| Flowers | 4 | Plum, Orchid, Chrysanthemum, Bamboo (numbered 1–4) |
-| Seasons | 4 | Spring, Summer, Autumn, Winter (numbered 1–4) |
-| Jokers | 8 | Wild; may substitute for any tile in a meld |
-| **Total** | **152** | |
+### The Deal
 
-American Mahjong sets are identified by Arabic numerals on all tiles and English letters for wind direction (E/S/W/N).
+The tiles are shuffled face down and built into a wall. The dice choose East, who deals and plays first; South sits to East's right, West opposite, North to the left. East takes fourteen tiles and the others thirteen. The last fourteen tiles of the wall, including the loose tiles, are the **dead portion** and are never drawn.
 
----
+### Play
 
-### Melds and Tile Groups
+East discards first. Play then passes to the right: East, South, West, North. On a turn a player draws from the wall and discards.
 
-| Group | Tiles | Notes |
-|---|---|---|
-| Pair | 2 identical | Cannot include a joker |
-| Pung | 3 identical | May include jokers |
-| Kong | 4 identical | May include jokers |
-| Quint | 5 identical | Requires jokers |
-| Sextet | 6 identical | Requires jokers |
-| Sequence | 3+ consecutive, same suit | May include jokers |
+- **Pung:** any player holding a pair may take the last discard to make three of a kind, out of turn, and discards. Players in between lose their turn. A player holding three may pung the fourth for four of a kind.
+- **Chow:** only the next player may take the last discard to complete a run. A pung comes before a chow.
+- **Mah-Jongg:** any player may take the last discard to complete the hand, even to finish the pair. This beats any pung or chow. If two or three players could win on it, the one next in turn after the discarder takes it.
 
----
+Taken tiles are laid face up as exposed combinations. Only the last discard can be taken; the rest are dead.
 
-### Jokers
+**Four of a kind** is declared in the player's own turn after drawing (never straight after a pung or chow) and laid on the table, with one tile turned down if it was drawn rather than punged. The player then draws a **loose tile** and discards. A fourth tile drawn to go with an exposed pung may be added to it. Another player who needs that very tile may take it to win: **stealing the fourth**. No four of a kind may be declared once the last tile of the live wall has been drawn.
 
-Jokers are wild and may substitute for any tile within a pung, kong, quint, sextet, or sequence. Restrictions:
-- A joker **cannot** be used in a pair
-- A joker **cannot** be passed during the Charleston
-- Any player on their own turn may **exchange** a real matching tile for a joker in an exposed meld, taking the joker into their hand
+A complete hand is four combinations (three or four of a kind, or runs of three in one suit) and a pair.
 
----
+### A Drawn Game
 
-### Setup
-
-1. Shuffle all 152 tiles face-down. Each player builds a row of **19 tiles stacked two high** (38 tiles per wall section, 152 total forming a square wall)
-2. Roll dice to determine **East** (dealer). East rolls again to find the **break point** in the wall
-3. Deal clockwise from the break point: each player draws **13 tiles**; East draws **14**
-4. Tiles are held upright on a rack, hidden from opponents
-
----
-
-### The Charleston
-
-The Charleston is the defining pre-game ritual of American Mahjong, conducted before the first discard. It does not exist in any Asian Mahjong variant.
-
-**First Charleston:**
-
-| Pass | Direction | Notes |
-|---|---|---|
-| 1st | Right | Each player passes 3 unwanted tiles face-down to the right |
-| 2nd | Across | Each player passes 3 unwanted tiles face-down to the player opposite |
-| 3rd | Left | Each player passes 3 unwanted tiles face-down to the left; blind pass permitted |
-
-**Blind pass:** On the third pass of each Charleston, a player may take 1, 2, or 3 of the tiles just received and pass them on without looking at them.
-
-**Second Charleston (optional):** If all four players agree, a second Charleston proceeds in reverse: Left → Across → Right. The same blind pass rule applies to the last pass.
-
-**Courtesy Pass (optional):** After the Charleston(s), players may agree to exchange 0–3 tiles with the player across. Both must agree on the number before passing. No blind tiles.
-
----
-
-### Gameplay
-
-East discards a tile face-up to start play. Thereafter play proceeds clockwise.
-
-**On your turn:**
-1. **Draw** the top tile from the wall
-2. **Discard** one tile from your hand face-up to the centre, or declare **Mahjong** if your hand is complete
-
-**Claiming a discard:** Any player may claim the most recent discard (before the next player draws) to complete a meld or declare Mahjong. Announce the claim, take the tile, expose the completed meld on the rack, and discard. Mahjong claim takes priority over all other claims.
-
-Discards may only be claimed to complete an exposed meld or declare Mahjong — not to draw ahead in sequence.
-
----
-
-### Flowers and Seasons
-
-Flowers and Seasons are bonus tiles. When drawn, place the tile face-up on the rack and draw a replacement from the **dead wall** (the reserved end tiles). They score bonus points and are not part of the hand structure.
-
----
-
-### Winning
-
-A player wins by declaring Mahjong with a complete valid hand.
-
-**Standard hand:** 4 melds + 1 pair = 14 tiles (plus any declared kongs).
-
-**Classic Special Hands:**
-
-| Hand | Description |
-|---|---|
-| All Pungs | Four pungs + one pair; no sequences |
-| All Sequences | Four sequences + one pair; no pungs |
-| All One Suit | Entire hand (excluding honours) in a single suit |
-| Honour Hand | Hand composed entirely of winds and dragons |
-| Mixed Honour | One suit plus winds and/or dragons |
-| All Green | 2, 3, 4, 6, 8 Bamboo and Green Dragon only |
-| Nine Gates | 1-1-1-2-3-4-5-6-7-8-9-9-9 in one suit + any tile of that suit |
-
----
+If nobody has gone Mah-Jongg when only the dead fourteen tiles are left, the hand is a draw. No scores count, and East deals again.
 
 ### Scoring
 
-The winning player collects from all three opponents. The player whose discard completes a winning hand pays double.
+Every hand is scored, the losers' as well as the winner's. Runs score nothing.
 
-| Element | Points |
+| Combination | Exposed | Concealed |
+|---|---|---|
+| Three of a kind, 2 to 8 | 2 | 4 |
+| Three ones or nines, winds or dragons | 4 | 8 |
+| Four of a kind, 2 to 8 | 8 | 16 |
+| Four ones or nines, winds or dragons | 16 | 32 |
+| A pair of dragons or of the player's own wind | 2 | 2 |
+
+A combination completed by a punged or chowed tile is exposed; one completed by a drawn tile is concealed. **The winner only** adds, before doubling:
+
+| Bonus | Points |
 |---|---|
-| Winning (base) | 20 |
-| Self-draw win | +10 |
-| Each pung of simples (2–8) | +2 |
-| Each pung of terminals/honours | +4 |
-| Each kong (exposed) | ×2 on pung value |
-| Each kong (concealed) | ×4 on pung value |
-| Matching flower/season | +4 |
-| All Pungs hand | ×2 multiplier |
-| All One Suit hand | ×4 multiplier |
-| Fully concealed hand | ×2 multiplier |
+| Mah-Jongg | 20 |
+| Winning tile drawn | 2 |
+| Winning on a loose tile after four of a kind | 8 more, 10 in all |
+| Filling the only possible place to win (one tile alone would complete the hand) | 2 |
+| No runs, concealed or exposed | 10 |
+| Stealing the fourth to win | 10 |
+| Mah-Jongg on the last tile drawn | 10 |
+| No score at all other than Mah-Jongg | 10 |
 
-Minimum to win: **25 points**.
 
----
+**Doubles, for every hand:** once for each set of dragons, once for a set of the own wind, once for one suit with honours; three times for one suit only or honours only.
 
-### End of Hand
+A losing hand counts its exposed combinations and its concealed tiles grouped as well as they can be: three or more of a kind as a concealed three (four scores only when declared), and a pair of dragons or own wind as a pair.
 
-If all wall tiles are drawn without a Mahjong declaration, the hand is a **draw** (goulash) — no points are exchanged. East retains the deal on a draw; otherwise the deal passes left.
+**The limit is 300 points** for any hand. The **Hand from Heaven** (East's first fourteen tiles complete) scores the limit; the **Hand from Earth** (another player winning on East's first discard with the first thirteen) half of it.
 
----
+### Settling
+
+Each loser pays the winner the winner's whole score; the three losers then pay each loser with a higher score the difference. East pays and receives double in every settlement (only the stakes, not East's score). While East wins, East deals again; otherwise the deal passes to the right.
 
 ### Attribution
 
-Sources (all public domain):
-- Joseph Park Babcock, *Babcock's Rules for Mah-Jongg: The Red Book of Rules* (1920, revised 1923)
-- 1924 Standardization Committee, *American Official Laws of Mah-Jongg*
-- NMJL, *Official American Rules* (1935, pre-card era)
+J. P. Babcock, *Babcock's Rules for Mah-Jongg: The Red Book of Rules*, second edition (1923). Public domain; scanned at the Internet Archive (babcock_202209).

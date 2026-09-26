@@ -10,7 +10,7 @@ A tile game originating in China and played worldwide in many regional forms. Pl
 - [Riichi (Japanese)](games/riichi/) — 136 tiles, no bonus tiles. Yaku requirement, Riichi declaration, Furiten rule, han and fu scoring with named limits.
 - [Taiwanese 16-Tile](games/taiwanese/) — 144 tiles, 16-tile hands requiring five melds and one pair. Multiple winners from a single discard are possible.
 - [Zung Jung](games/zung-jung/) — 136 tiles. Alan Kwan's competition system. 44 named patterns, additive scoring, 320-point limit.
-- [American Mahjong (Classic)](games/american-classic/) — The Babcock-era form (1920–1935). 152 tiles with 8 jokers and the Charleston passing ritual. Fixed classical winning hand patterns; pre-dates the annual NMJL card system.
+- [American Mahjong (Classic)](games/american-classic/) — Babcock's Red Book of Rules (1923), packed with the first American sets. 136 tiles, every hand scored, the losers settling among themselves; no Charleston, jokers or card.
 
 </div>
 
