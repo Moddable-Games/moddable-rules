@@ -1,5 +1,5 @@
 ---
-playable: false
+playable: true
 title: Rubber Bridge
 slug: bridge
 board: "none"
@@ -7,8 +7,15 @@ players: "4"
 parent: standard-52
 win: "First partnership to win two games (a rubber)"
 special: "Partnership trick-taking with bidding, contract, and vulnerability. Scoring covers trick points, bonuses, and penalties."
+approximations:
+  - feature: "Honours"
+    source: "'Honours (Optional): If one player holds 4 of the 5 top honours ... scores 100 above the line.'"
+    engine: "Not scored."
+  - feature: "Choosing the first dealer"
+    source: "'Determine the first dealer by drawing a card; high card deals.'"
+    engine: "North deals first, and the deal passes clockwise."
 engine:
-  players: [north, south, east, west]
+  players: [north, east, south, west]
   components:
     deck:
       type: standard-52
@@ -24,6 +31,13 @@ engine:
     perPlayer: 13
     community: 0
   partnerships: [[north, south], [east, west]]
+  plugins:
+    standard-52:
+      game: trick-taking
+      rankOrder: [2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A]
+      partnerships: [[north, south], [east, west]]
+      auction: contract
+      scoring: { type: rubber }
 published: true
 ---
 
@@ -85,7 +99,7 @@ Scoring is cumulative on a scorecard divided into “below the line” (trick po
 
 **Vulnerable:** A partnership that has won one game in the current rubber is “vulnerable.” Bonuses and penalties are higher when vulnerable.
 
-**Doubled and redoubled contracts:** A doubled contract that is made scores trick points ×2 (below the line). Redoubled: ×4. A “Insult bonus” of 50 above the line also applies for making a doubled or redoubled contract.
+**Doubled and redoubled contracts:** A doubled contract that is made scores trick points ×2 (below the line). Redoubled: ×4. An “insult” bonus above the line also applies for making the contract: 50 if doubled, 100 if redoubled.
 
 **Bonuses (above the line):**
 
@@ -111,12 +125,12 @@ Scoring is cumulative on a scorecard divided into “below the line” (trick po
 
 **Undertricks (penalties, above the line against the declaring partnership):**
 
-| Tricks short | Undoubled | Doubled NV | Doubled V | Redoubled NV | Redoubled V |
-|---|---|---|---|---|---|
-| 1 | 50 | 100 | 200 | 200 | 400 |
-| 2 | 100 | 300 | 500 | 600 | 1000 |
-| 3 | 150 | 500 | 800 | 1000 | 1600 |
-| Each additional | +50 | +300 NV / +300 V | same | +600 | +600 |
+| Tricks short | Undoubled NV | Undoubled V | Doubled NV | Doubled V | Redoubled NV | Redoubled V |
+|---|---|---|---|---|---|---|
+| 1 | 50 | 100 | 100 | 200 | 200 | 400 |
+| 2 | 100 | 200 | 300 | 500 | 600 | 1000 |
+| 3 | 150 | 300 | 500 | 800 | 1000 | 1600 |
+| Each additional | +50 | +100 | +300 | +300 | +600 | +600 |
 
 ### Rubber
 
@@ -128,4 +142,4 @@ If one player holds 4 of the 5 top honours (A, K, Q, J, 10) in the trump suit, t
 
 ### Attribution
 
-Contract Bridge. Formalized by Harold Vanderbilt, 1925–1926. Rubber Bridge scoring codified by the World Bridge Federation. Public domain rule set.
+Contract Bridge. Formalized by Harold Vanderbilt, 1925–1926. Rubber Bridge scoring codified by the World Bridge Federation. Scoring checked against Pagat.com, *Contract Bridge* (John McLeod, © 1995–2015), the source for the vulnerable undoubled undertricks and the redoubled insult bonus above.

@@ -56,7 +56,7 @@ The winner of each trick leads the next.
 
 ### Going Alone
 
-When a player orders up or names trump, they may declare “Going Alone” before the first lead. Their partner sits out the hand (discards hand face-down). The lone player competes against both opponents.
+When a player orders up or names trump, they may declare “Going Alone” before the first lead. Their partner sits out the hand (discards hand face-down). The lone player competes against both opponents, and the player to the lone player's left leads the first trick. If the dealer's partner orders up the upcard, they must play alone, and the dealer sits out.
 
 If a lone player wins all 5 tricks, they score 4 points. Winning 3–4 tricks: 1 point. Losing: opponents score 2 points.
 
@@ -84,4 +84,4 @@ The first partnership to reach 10 points wins the game. Scoring is tracked with 
 
 ### Attribution
 
-Euchre. Traditional card game, likely descended from the Alsatian game Juckerspiel. Widely played in North America since the 19th century. Public domain rule set confirmed from Pagat.com.
+Euchre. Traditional card game, likely descended from the Alsatian game Juckerspiel. Widely played in North America since the 19th century. Rules checked against Pagat.com, *Euchre* (John McLeod, © 1996–2025), which is the source for the lone hand's lead and the dealer's partner; this page plays Stick the Dealer, which Pagat gives as the North American variation.
