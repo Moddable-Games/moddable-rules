@@ -12,12 +12,9 @@ engine:
   pieces:
     set: mahjong-planar
   components:
-    tiles:
+    deck:
       type: mahjong-136
-      suits: [characters, bamboo, circles]
-      honours: [winds, dragons]
-      bonus: [flowers, seasons]
-      total: 144
+      flowers: 8
   topology:
     type: tableau
     layout: wall
@@ -29,6 +26,16 @@ engine:
     community: 0
     remainder: wall
     flowers: 8
+  plugins:
+    mahjong:
+      game: wall
+      scoring: taiwanese
+      handSize: 16
+      multipleWinners: true
+      minimum: 1
+      tai:
+        base: 1
+        bonusTile: 1
 published: true
 ---
 
@@ -66,8 +73,15 @@ All 8 bonus tiles in hand is an automatic win. Seat-matching bonus tiles and par
 
 ### Scoring
 
-Faan-based scoring, similar to Hong Kong Mahjong but calibrated for five-meld hands. Full scoring tables are specific to the regional variant; the content builder should source from a Taiwanese-specific rulebook. The fundamental faan system (minimum threshold, limit hands) applies.
+Scoring is in **tai** (台), and a tai's value is usually agreed before play. What the source below states:
+
+- A winning hand with no special patterns earns at least **1 tai**.
+- Each flower or season in the winning hand adds **1 tai**.
+- A pung of dragons, or of your own wind, earns tai; All Pungs (碰碰胡, five pungs and a pair) earns significant tai; All Chows (平胡, five chows and a pair) also earns points. The source gives no numbers for these three.
+- **Self-draw:** all three other players pay. **Win on a discard:** only the discarder pays.
+- **The dealer:** a dealer who wins receives double from each player; a dealer who discards the winning tile pays double.
+- **Dealer's streak:** a dealer who keeps winning keeps the deal and earns a bonus that grows with each consecutive win.
 
 ### Attribution
 
-Taiwanese 16-Tile Mahjong. Traditional game. Source: Wikipedia *(Mahjong)*, Taiwanese variant section. Note: full scoring tables for this variant require a dedicated Taiwanese-specific source for complete accuracy.
+Taiwanese 16-Tile Mahjong. Traditional game. Scoring from Jesse Hagy, *How to Play Taiwanese Mahjong: Your Comprehensive Guide to the 16-Tile Hand* (Rack It! Mahjong, 22 August 2025). English Wikipedia has no Taiwanese mahjong article, and the Chinese one (台灣麻將) gives no table of patterns.
