@@ -222,7 +222,15 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
-#### 2026-09-25
+#### 2026-09-27
+- Taiwanese mahjong is playable, its rules and scoring restated from Mahjong Time. Where the Rack It! guide differs (dealer doubling, which honour pungs score, the base value, the dealer's streak) both readings are recorded. No mahjong game is unsupported any more
+
+#### 2026-09-26
+- Riichi mahjong is rewritten from the European Mahjong Association's Riichi Competition Rules (2016): the dead wall and dora, riichi and furiten, the yaku with open and closed values, fu, the limits, counters and noten payments
+- Zung Jung is rewritten from Alan Kwan's v3.3 rules. The old page had most values wrong: All Pongs 6 (30), Half Flush 6 (40), Full Flush 24 (80), Seven Pairs 4 (30)
+- American Classic is rewritten from Babcock's Red Book (1923), the book packed with the first American sets: 136 tiles, every hand scored, the losers settling among themselves. The jokers, Charleston and 152-tile set it described are not in the Red Book
+- Chickenfoot, Mexican Train, Rummy, Gin Rummy, Canasta, Euchre, Bridge, Skat, Schafkopf, Bunco, Koi-Koi, Go-Stop and Oicho-Kabu pages are corrected from Pagat and Wikipedia; Schafkopf and Oicho-Kabu are rewritten, and Gin Rummy's bonus values are recorded as disputed
+- A table taller than a PDF page lost its tail rows in the PDF; Zung Jung's pattern table is split in two
 - Circular, Byzantine and Toroidal Byzantine Chess show their ring boards on their pages and in their PDFs. The diagrams existed and nothing included them
 - The PDFs are current again, including Yalta Chess, Sankaku Shogi and the ring boards. Publishing had failed since 13 September because the PDFs and their hashes had not been rebuilt, so the release still carried the older versions
 
