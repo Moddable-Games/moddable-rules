@@ -1,6 +1,6 @@
 ---
 title: "Econopoly — Official Rulebook"
-version: "0.2.0"
+version: "0.2.1"
 slug: "econopoly"
 players: "2–6"
 duration: "60 min"
@@ -9,7 +9,7 @@ tagline: "Euro-style resource management meets Monopoly"
 type: "mod"
 base_game: "Monopoly"
 status: "playtest"
-updated: "2026-06-19"
+updated: "2026-09-27"
 first_published: "January 2025"
 published: true
 logo_has_title: true

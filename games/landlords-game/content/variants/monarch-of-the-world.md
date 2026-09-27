@@ -7,7 +7,7 @@ parent: landlords-game
 order: 5
 win: Demonstration only — the landlord inevitably wins
 special: "One player gets all land, others get all other advantages and $100 each. The landlord receives no wages. Proves Magie's thesis: the land monopolist is monarch of the world."
-unsupported: "Uses the 1906 board, so it needs the same red CHANCE pack whose card texts are not transcribed. It stays unsupported until the missing text is found, or until a substitute is written for play and documented in this file as fabricated rather than sourced."
+unsupported: "Plays on the 1906 board and needs the same red CHANCE pack as 1906 Commercial. The two CHANCE spaces draw from a red pack whose card texts are lost as far as searched (2026-09-27): the published 1906 rules (landlordsgame.info/games/lg-1906/lg-1906_egc-rules.html, Rule 11) say only that the card is followed and returned, the edition's page there carries no card list, and Wikipedia (after Ketcham 2012) records only that the cards bore quotes attributed to Jefferson, Ruskin and Carnegie. It stays unsupported unless an original pack or a transcription of one turns up; a substitute written for play would have to be documented here as invented, not sourced."
 engine:
   topology:
     type: track

@@ -7,7 +7,7 @@ parent: landlords-game
 order: 3
 win: Collective — all players win when public ownership is complete and wages are maximised
 special: "Magie's intended lesson: play mid-game by vote. Land rents fund public acquisition of utilities, railroads, and colleges. Wages rise progressively."
-unsupported: "The Single Tax ruleset is a different game: all players win together, and the Public Treasury buys out utilities and railroads in a fixed sequence as it fills, then raises wages. The collective win condition and the acquisition sequence are not modelled."
+unsupported: "Fully described, and blocked on engine capability rather than content (moddable-engine#186): all players win together, which no win condition models, and the Public Treasury buys out the utilities and railroads in a fixed sequence as its fund fills, then raises wages, which needs a treasury that acts on its own."
 engine:
   topology:
     type: track

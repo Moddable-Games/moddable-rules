@@ -7,7 +7,7 @@ parent: landlords-game
 order: 4
 win: "Two rulesets in one box. Under Landlord's Game rules, the first player to accumulate $2,000 is the Big Landlord. Under Prosperity rules, all players win together when the player with the LEAST money reaches $7,000, double their starting capital."
 special: "Magie's 1932 patent. Chance cube on doubles, No Trespassing signs, Idle Land speculation, railroad jumps, improvement tags. A complete standalone game, not a variant of 1906."
-unsupported: "The 1932 rules are published and complete (landlordsgame.info/games/lgp-1932/lgp-1932_rules.pdf) but need two rulesets, bidding at the Real Estate Offices, a wages table keyed to the dice throw, and 34 title-deed cards across four colours. None of that is modelled yet, and the board data carries a price for only two of its twenty lots. It stays unsupported until the missing text is found, or until a substitute is written for play and documented in this file as fabricated rather than sourced."
+unsupported: "The 1932 rules (landlordsgame.info/games/lgp-1932/lgp-1932_rules.pdf) are complete as rules but give no lot prices or rents: those are printed on the board and the 34 hand cards (20 green title deeds, 8 idle-land deeds, 3 local and 3 interstate franchises), so they have to be read from images of the board and cards, and only two of the twenty lots are priced in the data so far. The engine also lacks what the rules need beyond Monopoly-style play: the two rulesets (Landlord's Game and Prosperity) on one board, bidding at the Real Estate Offices, a wages table keyed to the dice, and the Prosperity fund buying out utilities (moddable-engine#186)."
 engine:
   topology:
     type: track

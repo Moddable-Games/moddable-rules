@@ -5,7 +5,7 @@ slug: standard
 board: "perimeter track"
 players: "2-6"
 parent: econopoly
-unsupported: "Uses the 1932 Prosperity board. Its rules are published and complete, but need two rulesets, bidding at the Real Estate Offices, a wages table keyed to the dice throw, and 34 title-deed cards. The cards are deeds rather than a draw deck, so this is buildable once someone transcribes them."
+unsupported: "Uses the 1932 Prosperity board, so it shares landlords-game/prosperity's blockers. The 1932 rules (landlordsgame.info/games/lgp-1932/lgp-1932_rules.pdf) are complete as rules but give no lot prices or rents: those are printed on the board and the 34 hand cards (20 green title deeds, 8 idle-land deeds, 3 local and 3 interstate franchises), so they have to be read from images of the board and cards, and only two of the twenty lots are priced in the data so far. The engine also lacks what the rules need beyond Monopoly-style play: the two rulesets (Landlord's Game and Prosperity) on one board, bidding at the Real Estate Offices, a wages table keyed to the dice, and the Prosperity fund buying out utilities (moddable-engine#186)."
 engine:
   topology:
     type: track

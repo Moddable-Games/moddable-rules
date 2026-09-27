@@ -1,6 +1,6 @@
 ---
 title: "The Landlord's Game — Official Rulebook"
-version: "0.2.0"
+version: "0.2.1"
 slug: "landlords-game"
 players: "2–6"
 duration: "60–120 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Elizabeth Magie's 1904 economic satire — five variants spanning the game's full history from patent to Prosperity"
 type: "classic"
 status: "live"
-updated: "2026-07-04"
+updated: "2026-09-27"
 published: true
 variants: true
 how_to_play: "Roll dice and move around a 40-space board, buying properties and charging rent. Five historical variants from austere patent rules to the collective-win Prosperity mode where the poorest player must double their wealth."
