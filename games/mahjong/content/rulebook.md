@@ -35,9 +35,6 @@ engine:
     layout:
       type: wall
   players: [east, south, west, north]
-unsupported:
-  _family: "The tableau plugin (moddable-engine#184) plays Hong Kong, Riichi, Zung Jung and American Classic mahjong from their frontmatter (`game: wall`): the wall, claiming discards out of turn, kongs and robbing them, flowers and faan scoring, for Riichi the dead wall, dora, the riichi declaration, furiten, and han and fu, for Zung Jung its 44 patterns and same-round immunity, and for American Classic the Red Book's scoring of every hand. The game below needs scoring of its own on the same wall."
-  taiwanese: "The engine plays the game: sixteen tiles, five sets and a pair, several winners on one discard, and the dealer paying and receiving double, with the tai for each pattern read from this variant's frontmatter. Three values are missing. The source (Rack It! Mahjong's 16-tile guide, 2025) says a dragon or own-wind pung, All Pungs and All Chows earn tai without giving numbers; English Wikipedia has no article, and Chinese Wikipedia has no table. Until those three are set in `tai:`, those hands would score only the base tai, so it is not offered (moddable-engine#184)."
 ---
 
 <div class="section variant-hub">

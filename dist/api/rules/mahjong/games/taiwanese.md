@@ -1,46 +1,95 @@
 ## Taiwanese 16-Tile Mahjong
 
-The dominant Mahjong form in Taiwan. Played with 144 tiles. Each player holds 16 tiles and forms five melds plus one pair, rather than the four melds plus one pair of Hong Kong Mahjong.
+The mahjong played in Taiwan. It uses all 144 tiles, flowers and seasons included. Each player holds 16 tiles and goes out with five sets and a pair, one set more than in Hong Kong mahjong. Scoring is in **tai**, and a hand is worth the sum of its patterns.
+
+These rules and values follow Mahjong Time's *Taiwanese Mahjong Rules* and *Taiwanese Mahjong Scoring*. Where another source differs, both readings are recorded.
 
 {{svg:taiwanese-board.svg "Taiwanese Mahjong — table layout"}}
 
-### Key Differences from Hong Kong
+### The Deal
 
-| Rule | Hong Kong | Taiwanese 16-Tile |
-|------|-----------|-------------------|
-| Tiles in hand | 13 (14 to win) | 16 (17 to win) |
-| Hand structure | 4 melds + 1 pair | 5 melds + 1 pair |
-| Multiple winners | No | Yes (multiple players can claim a single discard to win) |
-| All 8 bonus tiles | 5+5 faan | Automatic win |
-| Dealing | 13 tiles each + dealer draws first | 16 tiles each |
+A game is ordinarily 16 hands: each player deals at least once in each of the four wind rounds. The dealer keeps the deal after winning and after a drawn hand, so a game may run longer.
 
-### Dealing
+The last 16 tiles of the wall are the **dead wall**. Replacement tiles for kongs, flowers and seasons come from it, and it is kept at 16 by taking tiles from the end of the live wall. Each player is dealt 16 tiles and the dealer 17. Flowers and seasons are laid face up as they come and replaced at once.
 
-Each player draws 16 tiles at the start. Bonus tiles are set aside immediately and replacements drawn. East begins with 17 tiles effectively (or draws first to reach 17).
+### Play and Claims
 
-### Hand Structure
+The dealer discards first; play passes to the right. A discard may be claimed:
 
-A winning hand consists of **5 melds + 1 pair = 17 tiles** (16 in hand + the winning tile).
+- **to win**, by any player. If several can win on it, **they all win**.
+- **for a kong or a pung**, by any player.
+- **for a chow**, only by the next player in turn.
 
-### Multiple Winners
+A win beats a kong, a kong beats a pung, and a pung beats a chow. If the live wall runs out, the hand is drawn.
 
-When a tile is discarded, multiple players may declare a win on that tile simultaneously. All winning declarations are honoured; the discarder pays each winner. Turn order does not restrict who can win.
+A winning hand is five sets (chows, pungs or kongs) and a pair, 17 tiles, or the irregular **seven pairs and a triplet**: seven pairs (identical pairs allowed) and a triplet not melded before going out.
 
-### Bonus Tiles
-
-All 8 bonus tiles in hand is an automatic win. Seat-matching bonus tiles and partial sets score faan per Hong Kong rules.
+**Ready on the original hand.** A player whose dealt 16 tiles already wait may declare it with their first discard, throwing the tile just drawn (the dealer may throw any tile). The hand is then locked, and winning with it scores 15 tai.
 
 ### Scoring
 
-Scoring is in **tai** (台), and a tai's value is usually agreed before play. What the source below states:
+The winner scores the total of these patterns. Where patterns are graded (for example two, three, four or five concealed triplets), only the highest counts. A pattern that implies another includes it.
 
-- A winning hand with no special patterns earns at least **1 tai**.
-- Each flower or season in the winning hand adds **1 tai**.
-- A pung of dragons, or of your own wind, earns tai; All Pungs (碰碰胡, five pungs and a pair) earns significant tai; All Chows (平胡, five chows and a pair) also earns points. The source gives no numbers for these three.
-- **Self-draw:** all three other players pay. **Win on a discard:** only the discarder pays.
-- **The dealer:** a dealer who wins receives double from each player; a dealer who discards the winning tile pays double.
-- **Dealer's streak:** a dealer who keeps winning keeps the deal and earns a bonus that grows with each consecutive win.
+| Flowers and seasons | Tai |
+|---|---|
+| Each flower or season | 1 |
+| No flowers or seasons | 1 |
+| All eight flowers and seasons: a winning hand by itself | 30 |
+| Seven flowers and seasons, robbing the eighth when another player draws it: a winning hand by itself | 20 |
+
+| The hand | Tai |
+|---|---|
+| Pung or kong of honours (dragons or any wind), each | 1 |
+| Melded kong, each | 1 |
+| Concealed kong, each | 2 |
+| 1-2-3, 4-5-6 and 7-8-9 of one suit (10 if all concealed) | 5 |
+| Two / three / four / five concealed triplets (concealed kongs count) | 2 / 5 / 15 / 40 |
+| Little three dragons (two dragon sets and a dragon pair) | 15 |
+| Little three winds (two wind sets and a wind pair) | 5 |
+| Big three winds (three wind sets) | 15 |
+| Exposed hand: every set melded, out on the pair | 10 |
+| Concealed hand, won on a discard | 1 |
+| Fully concealed hand, self-drawn | 3 |
+| Chow hand (no pungs or kongs) | 3 |
+| Chow hand with no honours and no flowers | 10 |
+| Pung hand (no chows) | 10 |
+| No honours | 1 |
+| No flowers and no honours | 3 |
+| One suit and honours | 10 |
+| One suit only | 40 |
+
+| Going out | Tai |
+|---|---|
+| Winning | 2 |
+| Self-drawn last tile | 1 |
+| Out on a one-chance chow (an edge or middle wait) | 1 |
+| Out on a pair | 1 |
+| Out on the last tile of the wall | 1 |
+| Out by robbing a kong (counts as a discard) | 1 |
+| Out on the last discard | 1 |
+| Early winning, 6 to 9 discards made | 5 |
+| Early winning, 5 or fewer discards made | 10 |
+| Ready on the original hand | 15 |
+
+| Limit hands, added to the rest | Tai |
+|---|---|
+| Three Great Scholars (big three dragons) | 30 |
+| Little four winds | 30 |
+| Big four winds | 40 |
+| Seven pairs and a triplet | 30 |
+| Heavenly Hand: the dealer wins on the dealt hand | 40 |
+| Earthly Hand: another player wins on the dealer's first discard | 40 |
+
+There is normally no limit. Players may agree on one, such as 40 tai.
+
+### Paying
+
+- **Self-drawn:** each of the other three pays the winner the hand's tai.
+- **On a discard:** the discarder alone pays, just for themself. Each winner on the same discard is paid in full.
+- Losers do not pay each other.
+
+Two optional bonuses may be agreed before play. A **dealer's bonus**: extra tai on any hand the dealer wins, which the dealer pays when discarding the winning tile. A **continued-deal bonus**: 2 tai for the dealer's first continued deal, 4 for the second, 6 for the third, paid the same way.
 
 ### Attribution
 
-Taiwanese 16-Tile Mahjong. Traditional game. Scoring from Jesse Hagy, *How to Play Taiwanese Mahjong: Your Comprehensive Guide to the 16-Tile Hand* (Rack It! Mahjong, 22 August 2025). English Wikipedia has no Taiwanese mahjong article, and the Chinese one (台灣麻將) gives no table of patterns.
+Rules and scoring from Mahjong Time, *Taiwanese Mahjong Rules* and *Taiwanese Mahjong Scoring* (mahjongtime.com, © Mahjong Time), restated here in our own words. Rack It! Mahjong, Jesse Hagy, *How to Play Taiwanese Mahjong: Your Comprehensive Guide to the 16-Tile Hand* (22 August 2025), is recorded where it differs.
