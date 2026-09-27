@@ -32,7 +32,7 @@ engine:
 
 The dominant form of draughts across Russia and the former Soviet states. Distinguished by three features that create a more tactical game than English Draughts: men can capture backwards, promotion happens mid-sequence, and players freely choose between available captures.
 
-{{svg:english-board.svg "Russian Draughts — starting position"}}
+{{svg:russian-board.svg "Russian Draughts — starting position"}}
 
 ### Setup
 

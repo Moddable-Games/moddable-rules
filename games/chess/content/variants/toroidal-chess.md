@@ -35,6 +35,8 @@ A standard 8×8 board plus an extra set of 16 pawns (32 pawns total, 16 per side
 
 ### Starting Position
 
+{{svg:toroidal-chess-board.svg "Toroidal Chess — starting position"}}
+
 Each side occupies three ranks at their end of the board:
 
 | Rank | White | Black |

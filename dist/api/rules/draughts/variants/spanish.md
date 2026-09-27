@@ -2,7 +2,7 @@
 
 Spain's national variant combining flying kings with the majority capture rule and a preference for capturing kings over men when chains are equal. Notable for its board orientation: the white square is at each player's bottom-right (opposite to English Draughts).
 
-{{svg:english-board.svg "Spanish Draughts — starting position"}}
+{{svg:spanish-board.svg "Spanish Draughts — starting position"}}
 
 ### Setup
 

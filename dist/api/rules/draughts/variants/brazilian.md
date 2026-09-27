@@ -2,7 +2,7 @@
 
 International Draughts rules applied to an 8×8 board. Combines the smaller board's faster gameplay with the tactical depth of flying kings, mandatory longest-chain capture, and delayed removal. The standard competitive game in Brazil.
 
-{{svg:english-board.svg "Brazilian Draughts — starting position"}}
+{{svg:brazilian-board.svg "Brazilian Draughts — starting position"}}
 
 ### Setup
 

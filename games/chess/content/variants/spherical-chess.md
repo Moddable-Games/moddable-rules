@@ -88,6 +88,8 @@ Spherical Chess is a family of chess variants adapted to spherical topology — 
 
 ### The Board and Topology
 
+{{svg:spherical-chess-board.svg "Spherical Chess — starting position"}}
+
 Spherical Chess is played on a standard **8×8 board**, but the board is conceived as a sphere:
 
 **Horizontal wrap (as in Cylindrical Chess):** Ranks loop back into themselves. The a-file connects to the h-file — a Rook moving right off the h-file reappears on the a-file at the same rank.

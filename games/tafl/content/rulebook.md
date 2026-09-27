@@ -1,6 +1,6 @@
 ---
 title: "Tafl"
-version: "1.0.0"
+version: "1.0.1"
 slug: "tafl"
 players: "2"
 duration: "10–45 min"
@@ -8,7 +8,7 @@ age: "8+"
 tagline: "King against the horde: asymmetric Norse strategy games of the Viking Age"
 type: "classic"
 status: "live"
-updated: "2026-06-26"
+updated: "2026-09-27"
 published: true
 variants: true
 theme:

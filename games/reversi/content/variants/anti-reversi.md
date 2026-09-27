@@ -27,7 +27,7 @@ engine:
 
 Anti-Reversi, also known as Reversed Reversi, is a variant where the player wins who has fewer own-coloured discs at the end of the game. To put a disc on the board, the same rules apply as in normal Reversi. Draw is also a possible result.
 
-{{svg:starting-position-8x8.svg "Anti-Reversi — starting position"}}
+{{svg:anti-reversi-board.svg "Anti-Reversi — starting position"}}
 
 ### Setup
 

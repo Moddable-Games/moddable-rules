@@ -2,7 +2,7 @@
 
 The Czech and Slovak national variant with a distinctive rule: if a king can capture, it must — even if a man has a longer available chain. This creates a unique dynamic where king positioning is both an asset and a liability, since your king can be forced into unfavourable captures.
 
-{{svg:english-board.svg "Czech Draughts — starting position"}}
+{{svg:czech-board.svg "Czech Draughts — starting position"}}
 
 ### Setup
 

@@ -6,6 +6,8 @@ This eliminates early-turn checking as a tactic and forces longer-range planning
 
 ### Setup
 
+{{svg:progressive-italian-board.svg "Progressive Italian — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

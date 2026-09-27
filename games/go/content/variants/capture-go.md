@@ -29,7 +29,7 @@ engine:
 
 The first player to capture any opponent stone wins immediately. No territory counting, no endgame, no passing. Also known as Atari Go. The universal introduction to Go for beginners, teaching the fundamental mechanics of liberties and capture without the complexity of territory evaluation.
 
-{{svg:9x9-board.svg "Capture Go — typically played on 9×9"}}
+{{svg:capture-go-board.svg "Capture Go — 9×9 board"}}
 
 ### Setup
 

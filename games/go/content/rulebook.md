@@ -1,6 +1,6 @@
 ---
 title: "Go — Official Rulebook"
-version: "0.3.0"
+version: "0.3.1"
 slug: "go"
 players: "2"
 duration: "15–180 min"
@@ -8,7 +8,7 @@ age: "8+"
 tagline: "Four thousand years of emergent complexity from one rule"
 type: "classic"
 status: "live"
-updated: "2026-06-22"
+updated: "2026-09-27"
 published: true
 variants: true
 how_to_play: "Place stones on grid intersections to surround territory and capture opponent groups by filling their liberties. From one fundamental rule emerges extraordinary strategic depth."

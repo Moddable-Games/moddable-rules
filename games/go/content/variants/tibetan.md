@@ -50,7 +50,7 @@ engine:
 
 Known as Mig Mang (མིག་མང, "many eyes"), this is Tibet's indigenous Go variant with rules significantly different from Chinese Weiqi. Played on a 17×17 board with pre-placed stones, delayed captures, and a cosmological scoring system that awards points for territory, captures, and specific board positions.
 
-{{svg:standard-board.svg "Tibetan Go — played on 17×17 (shown on 19×19)"}}
+{{svg:tibetan-board.svg "Tibetan Go — 17×17 board with its twelve pre-placed stones"}}
 
 ### Setup
 

@@ -26,7 +26,7 @@ engine:
 
 Team Go where two or three players per side alternate turns without consulting each other. Partners must infer each other's strategy purely from the stones played. Creates emergent cooperation and occasional hilarious miscommunication.
 
-{{svg:standard-board.svg "Rengo — standard board"}}
+{{svg:rengo-board.svg "Rengo — standard board"}}
 
 ### Setup
 

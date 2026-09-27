@@ -1,6 +1,6 @@
 ---
 title: "Reversi — Official Rulebook"
-version: "0.1.0"
+version: "0.1.1"
 slug: "reversi"
 players: "2"
 duration: "10–30 min"
@@ -8,7 +8,7 @@ age: "7+"
 tagline: "Flip your opponent's discs to claim the board"
 type: "classic"
 status: "live"
-updated: "2026-06-19"
+updated: "2026-09-27"
 published: true
 variants: true
 theme:

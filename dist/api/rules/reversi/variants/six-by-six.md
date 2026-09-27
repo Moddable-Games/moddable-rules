@@ -2,7 +2,7 @@
 
 Boards of other sizes are used for simplified games; in particular, a 6×6 board is a common simplification for beginners or for solving the game by computer. All placement, flipping, passing, and winning rules are identical to the standard 8×8 game.
 
-{{svg:starting-position-6x6.svg "Reversi — 6×6 starting position"}}
+{{svg:six-by-six-board.svg "Reversi — 6×6 starting position"}}
 
 ### Setup
 

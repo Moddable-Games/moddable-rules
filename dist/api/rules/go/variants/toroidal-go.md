@@ -2,7 +2,7 @@
 
 Standard Go played on a board where edges wrap around horizontally and vertically. No corners, no edges, no joseki. Every group floats. Active tournament community since 2012 with 1,400+ recorded games.
 
-{{svg:standard-board.svg "Toroidal Go — edges wrap (shown flat)"}}
+{{svg:toroidal-go-board.svg "Toroidal Go — 11×11, edges wrap (shown flat)"}}
 
 ### Setup
 

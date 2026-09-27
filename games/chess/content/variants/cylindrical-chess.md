@@ -25,6 +25,8 @@ Cylindrical Chess is played on a standard 8×8 board, but the board is treated a
 
 ## Setup
 
+{{svg:cylindrical-chess-board.svg "Cylindrical Chess — starting position"}}
+
 Standard FIDE starting position.
 
 ```

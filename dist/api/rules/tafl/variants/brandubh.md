@@ -1,4 +1,4 @@
-{{svg:board-brandubh.svg "Brandubh — starting position"}}
+{{svg:brandubh-board.svg "Brandubh — starting position"}}
 
 ## Overview
 

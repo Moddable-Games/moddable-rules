@@ -40,6 +40,11 @@ jobs:
       - name: Check gap declarations
         run: node scripts/check-gap-declarations.mjs
 
+      # A synced board diagram is only on the page if someone writes the
+      # {{svg:...}} line; 31 variants had one that nothing showed.
+      - name: Check board diagrams are shown
+        run: node scripts/check-board-shown.mjs
+
       - name: Build (for stats check)
         run: npm run build
 

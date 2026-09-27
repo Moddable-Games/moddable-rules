@@ -13,6 +13,8 @@ The board has four natural zones: **South** (White's starting side), **North** (
 
 ### Starting Position
 
+{{svg:rollerball-board.svg "Rollerball — starting position"}}
+
 Each side starts with 6 pieces occupying two ranks at their home zone, arranged point-symmetrically (180° rotation) rather than mirrored — White's arrangement is Black's arrangement rotated, not reflected. Transcribed from the starting-position diagram at chessvariants.com/40.dir/rollerball/index.html:
 
 | Square | Piece |

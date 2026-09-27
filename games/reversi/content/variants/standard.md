@@ -29,7 +29,7 @@ Reversi is a game purportedly invented in the early nineteenth century by either
 
 Reversi was invented by Lewis Waterman and John Mollett in England around 1883. World Reversi Championships have been held annually since 1977.
 
-{{svg:starting-position-8x8.svg "Reversi — starting position"}}
+{{svg:standard-board.svg "Reversi — starting position"}}
 
 ### Setup
 

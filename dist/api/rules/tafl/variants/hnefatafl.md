@@ -1,4 +1,4 @@
-{{svg:board-hnefatafl.svg "Hnefatafl — starting position"}}
+{{svg:hnefatafl-board.svg "Hnefatafl — starting position"}}
 
 ## Overview
 

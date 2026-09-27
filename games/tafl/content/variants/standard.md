@@ -37,7 +37,7 @@ engine:
 published: true
 ---
 
-{{svg:board.svg "Tablut — starting position"}}
+{{svg:standard-board.svg "Tablut — starting position"}}
 
 ## Overview
 

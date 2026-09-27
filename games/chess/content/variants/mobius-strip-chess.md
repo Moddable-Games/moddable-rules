@@ -25,6 +25,8 @@ Möbius Strip Chess is chess played on a **Möbius strip** — a surface with a 
 
 ### The Board and Starting Position
 
+{{svg:mobius-strip-chess-board.svg "Möbius Strip Chess — starting position"}}
+
 ```
         Black
     a   b   c   d   e   f   g   h

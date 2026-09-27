@@ -1,5 +1,7 @@
 ## Djambi
 
+{{svg:djambi-board.svg "Djambi — starting position"}}
+
 Djambi, also called Machiavelli, is a four-player game of shifting alliances on
 a 9×9 board. Each player commands a chief, an assassin, a reporter, a diplomat,
 a necromobile and four militants.

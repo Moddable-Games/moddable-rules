@@ -8,6 +8,8 @@ Klein Bottle Chess is not a small twist on a normal 8×8 board — it is built f
 
 ### The Board and Starting Position
 
+{{svg:klein-bottle-chess-board.svg "Klein Bottle Chess — starting position"}}
+
 ```
         Black
     a   b   c   d   e   f   g   h

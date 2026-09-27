@@ -2,7 +2,7 @@
 
 Italy's national draughts variant with unique restrictions that protect kings and create a strict capture hierarchy. Men cannot capture kings at all, and when multiple captures are available, a complex priority system determines which must be taken. Governed by the Federazione Italiana Dama.
 
-{{svg:english-board.svg "Italian Draughts — starting position"}}
+{{svg:italian-board.svg "Italian Draughts — starting position"}}
 
 ### Setup
 

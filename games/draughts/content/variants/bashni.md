@@ -46,7 +46,7 @@ engine:
 
 Russian Draughts played with towers. Nothing is ever taken off the board: a captured piece is imprisoned beneath the piece that took it, and can be freed again if the jailer is itself captured. Bashni (башни, "towers") is the predecessor of Lasca.
 
-{{svg:english-board.svg "Bashni — starting position"}}
+{{svg:bashni-board.svg "Bashni — starting position"}}
 
 ### Setup
 

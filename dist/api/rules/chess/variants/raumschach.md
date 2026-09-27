@@ -12,6 +12,8 @@ White's pieces occupy levels A and B at the start; Black's occupy levels D and E
 
 ## Starting Position
 
+{{svg:raumschach-board.svg "Raumschach — starting position"}}
+
 ### White (ranks 1–2 of levels A and B)
 
 **Level A, Rank 1:** Rook(a), Knight(b), King(c), Knight(d), Rook(e)

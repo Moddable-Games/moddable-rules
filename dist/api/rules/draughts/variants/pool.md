@@ -2,7 +2,7 @@
 
 The American tournament variant, governed by the American Pool Checkers Association since 1966. Combines backward captures for men, flying kings, and mid-jump promotion with free choice between captures (no majority rule). More aggressive than English Draughts due to backward capture, more forgiving than International due to free choice.
 
-{{svg:english-board.svg "Pool Checkers — starting position"}}
+{{svg:pool-board.svg "Pool Checkers — starting position"}}
 
 ### Setup
 

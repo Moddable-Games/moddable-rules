@@ -44,7 +44,7 @@ engine:
 published: true
 ---
 
-{{svg:board-tawlbwrdd.svg "Tawlbwrdd — starting position"}}
+{{svg:tawlbwrdd-board.svg "Tawlbwrdd — starting position"}}
 
 ## Overview
 
