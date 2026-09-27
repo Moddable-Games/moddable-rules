@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Surakarta (Standard)
 slug: standard
 board: "6×6"
