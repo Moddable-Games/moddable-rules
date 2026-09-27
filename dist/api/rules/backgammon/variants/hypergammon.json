@@ -6,7 +6,7 @@
   "board": "24-point board",
   "win": "Bear off all 3 pieces before your opponent",
   "special": "3 pieces per side placed on the last three points. Games last 10–15 minutes. Fully solved by computer.",
-  "playable": false,
+  "playable": true,
   "order": 6,
   "designer": null,
   "category": null,
@@ -19,6 +19,11 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "backgammon": {
+        "doublingCube": true
+      }
+    },
     "setup": "0:1W,1:1W,2:1W,21:1B,22:1B,23:1B"
   },
   "diagram": {

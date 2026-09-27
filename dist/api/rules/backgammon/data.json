@@ -50,7 +50,7 @@
       "board": "24-point board",
       "win": "Bear off all 15 pieces before your opponent",
       "special": "Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar.",
-      "playable": false,
+      "playable": true,
       "order": 1,
       "designer": null,
       "category": null,
@@ -63,6 +63,11 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "backgammon": {
+            "doublingCube": true
+          }
+        },
         "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
       },
       "diagram": {
@@ -84,7 +89,7 @@
       "board": "24-point board",
       "win": "Bear off all 15 pieces before your opponent",
       "special": "No hitting. Both players move in the same direction. No doubling cube.",
-      "playable": false,
+      "playable": true,
       "order": 2,
       "designer": null,
       "category": null,
@@ -97,7 +102,21 @@
           "white",
           "black"
         ],
-        "setup": "0:15W,23:15B"
+        "plugins": {
+          "backgammon": {
+            "movement": "same",
+            "contact": "block",
+            "headLimit": 1,
+            "headDoubles": [
+              3,
+              4,
+              6
+            ],
+            "primeLimit": 6,
+            "backgammons": false
+          }
+        },
+        "setup": "0:15W,12:15B"
       },
       "diagram": {
         "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
@@ -118,7 +137,7 @@
       "board": "24-point board",
       "win": "Bear off all 15 pieces before your opponent",
       "special": "Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time.",
-      "playable": false,
+      "playable": true,
       "order": 3,
       "designer": null,
       "category": null,
@@ -131,6 +150,12 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "backgammon": {
+            "aceyDeucey": true,
+            "gammons": false
+          }
+        },
         "setup": "home:15W,home:15B"
       },
       "diagram": {
@@ -152,7 +177,7 @@
       "board": "24-point board",
       "win": "Bear off all 15 pieces before your opponent",
       "special": "Pin instead of hit: landing on a blot traps it under your piece. Trapped pieces cannot move until released.",
-      "playable": false,
+      "playable": true,
       "order": 4,
       "designer": null,
       "category": null,
@@ -165,6 +190,17 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "backgammon": {
+            "start": [
+              23,
+              0
+            ],
+            "contact": "pin",
+            "pinStartWins": true,
+            "gammons": false
+          }
+        },
         "setup": "0:15B,23:15W"
       },
       "diagram": {
@@ -186,7 +222,7 @@
       "board": "24-point board",
       "win": "Bear off all 15 pieces before your opponent",
       "special": "No blots allowed: a point with one of your pieces is immediately blocked to the opponent. No hitting.",
-      "playable": false,
+      "playable": true,
       "order": 5,
       "designer": null,
       "category": null,
@@ -199,6 +235,18 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "backgammon": {
+            "movement": "same",
+            "start": [
+              12,
+              0
+            ],
+            "contact": "block",
+            "firstPast": true,
+            "gammons": false
+          }
+        },
         "setup": "0:15B,12:15W"
       },
       "diagram": {
@@ -220,7 +268,7 @@
       "board": "24-point board",
       "win": "Bear off all 3 pieces before your opponent",
       "special": "3 pieces per side placed on the last three points. Games last 10–15 minutes. Fully solved by computer.",
-      "playable": false,
+      "playable": true,
       "order": 6,
       "designer": null,
       "category": null,
@@ -233,6 +281,11 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "backgammon": {
+            "doublingCube": true
+          }
+        },
         "setup": "0:1W,1:1W,2:1W,21:1B,22:1B,23:1B"
       },
       "diagram": {
@@ -254,7 +307,7 @@
       "board": "24-point board",
       "win": "Bear off all 15 pieces before your opponent",
       "special": "2 extra checkers placed on the 23-point create a slower, more complex opening than standard Backgammon.",
-      "playable": false,
+      "playable": true,
       "order": 7,
       "designer": null,
       "category": null,
@@ -267,6 +320,11 @@
           "white",
           "black"
         ],
+        "plugins": {
+          "backgammon": {
+            "doublingCube": true
+          }
+        },
         "setup": "0:2W,1:2W,5:3B,7:3B,11:5W,12:5B,16:3W,18:3W,22:2B,23:2B"
       },
       "diagram": {
@@ -288,7 +346,7 @@
       "board": "24-point board",
       "win": "Accumulate the most points across multiple games as the box, or advance to become the box",
       "special": "Multiplayer format: one player (the box) faces a team. The box rotates when they lose. Consultation rules vary.",
-      "playable": false,
+      "playable": true,
       "order": 8,
       "designer": null,
       "category": null,
@@ -298,9 +356,33 @@
           "positions": 24
         },
         "players": [
-          "white",
-          "black"
+          "player1",
+          "player2",
+          "player3"
         ],
+        "deal": {
+          "minPlayers": 3,
+          "maxPlayers": 6,
+          "defaultPlayers": 3
+        },
+        "plugins": {
+          "backgammon": {
+            "doublingCube": true,
+            "cubeOwner": "box",
+            "games": 5,
+            "options": {
+              "games": {
+                "label": "Games",
+                "values": [
+                  5,
+                  3,
+                  7,
+                  11
+                ]
+              }
+            }
+          }
+        },
         "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
       },
       "diagram": {
@@ -328,7 +410,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/acey-deucey-board.svg",
         "rulesUrl": "backgammon/variants/acey-deucey/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -340,7 +422,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/chouette-board.svg",
         "rulesUrl": "backgammon/variants/chouette/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "3–6"
       },
@@ -352,7 +434,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/fevga-board.svg",
         "rulesUrl": "backgammon/variants/fevga/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -364,7 +446,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/hypergammon-board.svg",
         "rulesUrl": "backgammon/variants/hypergammon/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -376,7 +458,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/nackgammon-board.svg",
         "rulesUrl": "backgammon/variants/nackgammon/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -388,7 +470,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/nardi-board.svg",
         "rulesUrl": "backgammon/variants/nardi/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -400,7 +482,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/plakoto-board.svg",
         "rulesUrl": "backgammon/variants/plakoto/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       },
@@ -412,7 +494,7 @@
         "topology": "track",
         "svg": "games/backgammon/diagrams/svg/standard-board.svg",
         "rulesUrl": "backgammon/variants/standard/index.html",
-        "playable": false,
+        "playable": true,
         "status": "rendered",
         "players": "2"
       }
@@ -420,7 +502,7 @@
   },
   "stats": {
     "variantCount": 8,
-    "playable": 0,
+    "playable": 8,
     "withDiagram": 8,
     "topologies": [
       "track"

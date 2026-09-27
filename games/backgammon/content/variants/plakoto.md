@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Plakoto
 slug: plakoto
 board: "24-point board"
@@ -12,6 +13,13 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  plugins:
+    backgammon:
+      # White starts on point 24 of the track, Black on point 1: opposite ways round.
+      start: [23, 0]
+      contact: pin
+      pinStartWins: true
+      gammons: false
   setup: "0:15B,23:15W"
 ---
 
@@ -31,7 +39,7 @@ A Greek Backgammon variant in which landing on a lone opponent piece does not se
 
 ### Setup
 
-Both players start with all 15 checkers on point 24 (from each player's perspective). Both players move in the same direction: counter-clockwise, from point 24 to point 1.
+Both players start with all 15 checkers on their own 24-point, the opponent's 1-point. As in standard Backgammon, the two sides move in opposite directions, each from its 24-point to its 1-point.
 
 ### Movement
 
