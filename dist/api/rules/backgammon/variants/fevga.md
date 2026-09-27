@@ -14,7 +14,7 @@ A Greek Backgammon variant in which a point occupied by even a single piece is c
 
 ### Setup
 
-Both players start with all 15 checkers on their own 24-point (opposite starting positions, same as standard Backgammon). Players move in opposite directions.
+Both players start with all 15 checkers on their own 24-point, in diagonally opposite corners of the board. Both move the same way round, counter-clockwise, so each travels through the opponent's starting quarter to reach home.
 
 ### Movement
 
@@ -24,7 +24,7 @@ Roll two dice each turn and move forward (toward your 1-point).
 
 **Blocking:** Since any single piece closes a point, one-piece blockades are powerful from the start of the game.
 
-**First-piece restriction:** You cannot move any checker until your first checker has cleared the opponent's starting point (their 24-point, which is your 1-point). In practice, you must get at least one checker past the opponent's home board before advancing others fully.
+**First-piece restriction:** Before a second checker may leave your starting point, your first checker must travel past the opponent's starting point.
 
 ### Bearing Off
 

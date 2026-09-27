@@ -1,6 +1,6 @@
 ---
 title: "Backgammon — Official Rulebook"
-version: "0.1.1"
+version: "0.1.2"
 slug: "backgammon"
 players: "2"
 duration: "15–60 min"
@@ -8,7 +8,7 @@ age: "8+"
 tagline: "Five thousand years of race, risk, and probability"
 type: "classic"
 status: "live"
-updated: "2026-06-15"
+updated: "2026-09-27"
 published: true
 variants: true
 how_to_play: "Roll dice and race your 15 pieces around the board, bearing them off before your opponent. Combine racing, blocking, hitting, and probability management with the doubling cube for betting."
@@ -39,16 +39,6 @@ engine:
   pieces:
     set: playstrategy-draughts-plain
   players: [white, black]
-unsupported:
-  _family: "No rules plugin. The board, points and checkers render; nothing rolls dice, moves along the track, hits a blot to the bar or bears off."
-  acey-deucey: "Acey-deucey additionally needs a player choice inside a dice result: rolling 1-2 grants a doublet of the player's choosing plus another roll."
-  chouette: "Chouette additionally is a match format rather than a game - one player against a rotating team, scored across games. The engine models one game at a time and has no concept of a session above it."
-  fevga: "Fevga additionally blocks a point with a single checker and never hits, so the blot rule it removes has to exist before it can be removed."
-  hypergammon: "Three checkers a side is the only difference from standard; it is blocked on the missing plugin alone."
-  nackgammon: "The opening layout is the only difference from standard; it is blocked on the missing plugin alone."
-  nardi: "Nardi additionally moves both players in the same direction and never hits."
-  plakoto: "Plakoto additionally pins rather than hits: a checker landed on is trapped beneath the arriving one until it leaves. A cell has to hold two checkers belonging to different players, which no cell does."
-  standard: "The doubling cube has no state either."
 ---
 
 <div class="section variant-hub">

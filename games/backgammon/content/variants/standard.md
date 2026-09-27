@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard Backgammon
 slug: standard
 board: "24-point board"
@@ -12,6 +13,10 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  plugins:
+    backgammon:
+      # Hits send a lone checker to the bar; the cube doubles the stake.
+      doublingCube: true
   setup: "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
 ---
 

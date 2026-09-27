@@ -6,7 +6,7 @@
   "board": "24-point board",
   "win": "Accumulate the most points across multiple games as the box, or advance to become the box",
   "special": "Multiplayer format: one player (the box) faces a team. The box rotates when they lose. Consultation rules vary.",
-  "playable": false,
+  "playable": true,
   "order": 8,
   "designer": null,
   "category": null,
@@ -16,9 +16,33 @@
       "positions": 24
     },
     "players": [
-      "white",
-      "black"
+      "player1",
+      "player2",
+      "player3"
     ],
+    "deal": {
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "defaultPlayers": 3
+    },
+    "plugins": {
+      "backgammon": {
+        "doublingCube": true,
+        "cubeOwner": "box",
+        "games": 5,
+        "options": {
+          "games": {
+            "label": "Games",
+            "values": [
+              5,
+              3,
+              7,
+              11
+            ]
+          }
+        }
+      }
+    },
     "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
   },
   "diagram": {

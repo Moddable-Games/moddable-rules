@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Chouette
 slug: chouette
 board: "24-point board"
@@ -11,7 +12,21 @@ engine:
   topology:
     type: track
     positions: 24
-  players: [white, black]
+  players: [player1, player2, player3]
+  deal:
+    minPlayers: 3
+    maxPlayers: 6
+    defaultPlayers: 3
+  plugins:
+    backgammon:
+      # Seat 1 opens as the box and seat 2 as its captain; the rest queue behind.
+      # The casual single-cube form: the box starts with the cube, the captain
+      # answers for the team, and each game settles every player against the box.
+      doublingCube: true
+      cubeOwner: box
+      games: 5
+      options:
+        games: { label: Games, values: [5, 3, 7, 11] }
   setup: "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
 ---
 

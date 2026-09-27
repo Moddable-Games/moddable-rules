@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Hypergammon
 slug: hypergammon
 board: "24-point board"
@@ -12,6 +13,10 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  plugins:
+    backgammon:
+      # Three checkers a side, counted from the setup.
+      doublingCube: true
   setup: "0:1W,1:1W,2:1W,21:1B,22:1B,23:1B"
 ---
 

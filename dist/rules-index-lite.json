@@ -4204,7 +4204,7 @@
     "sectionType": "setup",
     "section": "Fevga",
     "heading": "Setup",
-    "content": "Both players start with all 15 checkers on their own 24-point opposite starting positions, same as standard Backgammon. Players move in opposite directions.",
+    "content": "Both players start with all 15 checkers on their own 24-point, in diagonally opposite corners of the board. Both move the same way round, counter-clockwise, so each travels through the opponent's star",
     "anchor": "setup",
     "variant": "fevga",
     "variantUrl": "backgammon/variants/fevga/"
@@ -4468,7 +4468,7 @@
     "sectionType": "setup",
     "section": "Nardi",
     "heading": "Setup",
-    "content": "Both players start with all 15 checkers on point 24 from each player's perspective. Checkers move in the same direction: counter-clockwise, from point 24 to point 1 for both players. This means both p",
+    "content": "Both players start with all 15 checkers on their own point 24, the head, in diagonally opposite corners of the board. Checkers move in the same direction: counter-clockwise, from point 24 to point 1 f",
     "anchor": "setup",
     "variant": "nardi",
     "variantUrl": "backgammon/variants/nardi/"
@@ -4492,7 +4492,7 @@
     "sectionType": "general",
     "section": "Nardi",
     "heading": "Prime Strategy",
-    "content": "Building a contiguous block of 6 points a prime is the primary strategic concept. A prime traps opponent checkers behind it — they cannot advance until the prime is broken.",
+    "content": "Building a contiguous block of points is the primary strategic concept: blocked checkers cannot advance until the block is broken. A block of 6 points is allowed only while at least one opposing check",
     "anchor": "prime-strategy",
     "variant": "nardi",
     "variantUrl": "backgammon/variants/nardi/"
@@ -4564,7 +4564,7 @@
     "sectionType": "setup",
     "section": "Plakoto",
     "heading": "Setup",
-    "content": "Both players start with all 15 checkers on point 24 from each player's perspective. Both players move in the same direction: counter-clockwise, from point 24 to point 1.",
+    "content": "Both players start with all 15 checkers on their own 24-point, the opponent's 1-point. As in standard Backgammon, the two sides move in opposite directions, each from its 24-point to its 1-point.",
     "anchor": "setup",
     "variant": "plakoto",
     "variantUrl": "backgammon/variants/plakoto/"

@@ -6,7 +6,7 @@
   "board": "24-point board",
   "win": "Bear off all 15 pieces before your opponent",
   "special": "2 extra checkers placed on the 23-point create a slower, more complex opening than standard Backgammon.",
-  "playable": false,
+  "playable": true,
   "order": 7,
   "designer": null,
   "category": null,
@@ -19,6 +19,11 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "backgammon": {
+        "doublingCube": true
+      }
+    },
     "setup": "0:2W,1:2W,5:3B,7:3B,11:5W,12:5B,16:3W,18:3W,22:2B,23:2B"
   },
   "diagram": {

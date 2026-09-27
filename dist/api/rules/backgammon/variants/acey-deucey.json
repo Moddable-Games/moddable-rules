@@ -6,7 +6,7 @@
   "board": "24-point board",
   "win": "Bear off all 15 pieces before your opponent",
   "special": "Rolling 1-2 grants any doublet of your choice plus another roll. Pieces enter from the bar one at a time.",
-  "playable": false,
+  "playable": true,
   "order": 3,
   "designer": null,
   "category": null,
@@ -19,6 +19,12 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "backgammon": {
+        "aceyDeucey": true,
+        "gammons": false
+      }
+    },
     "setup": "home:15W,home:15B"
   },
   "diagram": {

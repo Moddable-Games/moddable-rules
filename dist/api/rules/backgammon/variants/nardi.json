@@ -6,7 +6,7 @@
   "board": "24-point board",
   "win": "Bear off all 15 pieces before your opponent",
   "special": "No hitting. Both players move in the same direction. No doubling cube.",
-  "playable": false,
+  "playable": true,
   "order": 2,
   "designer": null,
   "category": null,
@@ -19,7 +19,21 @@
       "white",
       "black"
     ],
-    "setup": "0:15W,23:15B"
+    "plugins": {
+      "backgammon": {
+        "movement": "same",
+        "contact": "block",
+        "headLimit": 1,
+        "headDoubles": [
+          3,
+          4,
+          6
+        ],
+        "primeLimit": 6,
+        "backgammons": false
+      }
+    },
+    "setup": "0:15W,12:15B"
   },
   "diagram": {
     "svg": "games/backgammon/diagrams/svg/nardi-board.svg",

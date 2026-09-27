@@ -6,7 +6,7 @@
   "board": "24-point board",
   "win": "Bear off all 15 pieces before your opponent",
   "special": "No blots allowed: a point with one of your pieces is immediately blocked to the opponent. No hitting.",
-  "playable": false,
+  "playable": true,
   "order": 5,
   "designer": null,
   "category": null,
@@ -19,6 +19,18 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "backgammon": {
+        "movement": "same",
+        "start": [
+          12,
+          0
+        ],
+        "contact": "block",
+        "firstPast": true,
+        "gammons": false
+      }
+    },
     "setup": "0:15B,12:15W"
   },
   "diagram": {

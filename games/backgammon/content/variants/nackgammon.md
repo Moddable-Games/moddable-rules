@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Nackgammon
 slug: nackgammon
 board: "24-point board"
@@ -12,6 +13,9 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  plugins:
+    backgammon:
+      doublingCube: true
   setup: "0:2W,1:2W,5:3B,7:3B,11:5W,12:5B,16:3W,18:3W,22:2B,23:2B"
 ---
 

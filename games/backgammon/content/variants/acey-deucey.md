@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Acey-Deucey
 slug: acey-deucey
 board: "24-point board"
@@ -12,6 +13,11 @@ engine:
     type: track
     positions: 24
   players: [white, black]
+  plugins:
+    backgammon:
+      # Every checker starts off the board and enters as a hit one does.
+      aceyDeucey: true
+      gammons: false
   setup: "home:15W,home:15B"
 ---
 

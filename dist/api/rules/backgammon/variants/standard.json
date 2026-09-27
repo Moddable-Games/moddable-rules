@@ -6,7 +6,7 @@
   "board": "24-point board",
   "win": "Bear off all 15 pieces before your opponent",
   "special": "Doubling cube allows stakes to be raised during play. Hit pieces are sent to the bar.",
-  "playable": false,
+  "playable": true,
   "order": 1,
   "designer": null,
   "category": null,
@@ -19,6 +19,11 @@
       "white",
       "black"
     ],
+    "plugins": {
+      "backgammon": {
+        "doublingCube": true
+      }
+    },
     "setup": "0:2W,5:5B,7:3B,11:5W,12:5B,16:3W,18:5W,23:2B"
   },
   "diagram": {
