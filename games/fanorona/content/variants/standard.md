@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Fanorona (Standard)
 slug: standard
 board: "5×9"
