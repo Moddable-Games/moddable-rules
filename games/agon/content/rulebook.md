@@ -35,16 +35,71 @@ engine:
   pieces:
     set: playstrategy-go-classic
   players: [white, black]
-unsupported:
-  _family: "No rules plugin. Agon is won by moving the Queen to the centre hex and surrounding her with all six Guards - a win condition about a specific cell and its neighbourhood, not about capture or material. It also has the rule that a piece moved to the outermost ring must move toward the centre next turn, which needs per-piece obligation state."
-  standard: "Blocked on the plugin alone."
+  # A queen and six guards stepping on a hex board, played by the chess plugin
+  # with the declarations below.
+  plugin: chess
+  plugins:
+    agon:
+      castling: false
+      enPassant: false
+      noCheck: true
+      regions:
+        throne: { ring: [0, 0] }
+        outerRing: { ring: [5, 5] }
+        notThrone: { not: [throne] }
+      vocabulary:
+        pawn: { symbols: {} }
+        queen: { symbols: { 0: Q, 1: q } }
+        guard: { symbols: { 0: P, 1: p } }
+      pieces:
+        # "Pieces move one step at a time to an adjacent cell, either sideways
+        # in the same ring, or towards the throne to the next ring. The cell
+        # moved to must be vacant. Only the queen may move to the throne."
+        queen: { type: rider, dirs: orthogonal, maxSteps: 1, inward: true }
+        guard: { type: rider, dirs: orthogonal, maxSteps: 1, inward: true, confine: notThrone }
+      custodial: { dirs: orthogonal, displacement: false }
+      # A captured piece goes back to its owner, who must return it on their
+      # next turn: a guard to the outer ring, the queen anywhere, queen first.
+      drops: true
+      capturesTo: owner
+      dropsCompulsory: true
+      dropFirst: [queen]
+      dropRegions:
+        guard: outerRing
+      goal: { piece: queen, in: throne, escort: guard }
+verified:
+  date: "2026-09-27"
+  sources:
+    - "https://en.wikipedia.org/wiki/Agon_(game)"
+    - "https://www.bead.game/games/traditional/agon"
+    - "https://www.mastersofgames.com/cat/board/agon-hexagon-game.htm (search summary only)"
+  decisions:
+    - "Movement, capture and the return of captured pieces are corrected from all three sources, which agree: pieces move sideways or inward and never outward, only the Queen enters the throne, capture is custodial, and a captured piece is put back by its owner on their next turn (a Guard on the outer ring, the Queen anywhere). The earlier text had capture by displacement and the capturer returning the piece."
+    - "No source found for a rule that a piece moved to the outermost ring must move toward the centre on its next turn. It is not played."
+disputed:
+  - feature: "Moving between two enemy pieces"
+    readings:
+      - source: "https://en.wikipedia.org/wiki/Agon_(game), checked 2026-09-27"
+        says: "Not forbidden"
+        describes: "A piece is captured when two enemy pieces are on adjacent sides of it, in a straight line."
+      - source: "https://www.bead.game/games/traditional/agon, checked 2026-09-27"
+        says: "Forbidden"
+        describes: "Pieces cannot move between two opponent beads."
+    engine: "Not forbidden, and the piece is not captured"
+    because: "Wikipedia and this rulebook both allow it, and custodial capture is made by the move that completes the line."
+approximations:
+  - feature: "A drawn game"
+    source: "This rulebook, Draw"
+    says: "Players may agree to a draw. No mandatory draw rule exists in the classic rules."
+    engine: "A hundred plies without a capture is a draw."
+    because: "The engine cannot ask two players to agree."
 ---
 
 ## Agon
 
 {{svg:standard-board.svg "Agon — hexagonal board with 91 cells"}}
 
-Amon is one of the oldest abstract strategy games with fully recorded rules, documented in France in 1842. It is played on a hexagonal board of 91 hexagons and won by being the first player to maneuver their Queen into the center hexagon surrounded by all six Guards.
+Agon is one of the oldest abstract strategy games with fully recorded rules, documented in France in 1842. It is played on a hexagonal board of 91 hexagons and won by being the first player to maneuver their Queen into the center hexagon surrounded by all six Guards.
 
 ### Board
 
@@ -59,7 +114,7 @@ The board is a regular hexagon composed of 91 smaller hexagons, arranged in 6 co
 
 Total: 91 hexes.
 
-The **center hex** (ring 0) is the goal. The **outer ring** (ring 5) is the perimeter — it is where pieces enter play and where captured pieces return.
+The **center hex** (ring 0) is the goal. The **outer ring** (ring 5) is the perimeter, where the pieces start and where a captured Guard returns.
 
 ### Pieces
 
@@ -77,27 +132,25 @@ Both players’ Queens start on the outer ring, on opposite sides of the board. 
 
 ### Movement
 
-On each turn, a player moves one of their pieces to an adjacent hex. A piece may move to any of the up to 6 hexes surrounding its current position, provided that hex is either empty or occupied by an opponent’s piece (to capture).
+On each turn, a player moves one of their pieces one step to an adjacent vacant hex, either sideways within the same ring or inward to the next ring. A piece never moves outward, and never onto an occupied hex.
 
-There is no jumping, no sliding beyond 1 hex. Both Queens and Guards move identically: 1 step to any adjacent hex.
-
-**Restriction:** A player’s own pieces may not move onto a hex occupied by another of their own pieces.
+Only a Queen may enter the centre hex (the throne).
 
 ### Capture
 
-Capture in Agon is by **custodianship**: a piece is captured when, as a result of the moving player’s move, it is flanked on two opposite sides along one of the three hex axes by two enemy pieces.
+Capture in Agon is by **custodianship**: a piece is captured when two enemy pieces stand on either side of it in a straight line.
 
-- The captured piece must be between two enemy pieces along a straight hex line (one of the six straight-line directions of the hex grid).
-- The capture is triggered by the flanking player moving one of their pieces into position — an already-flanked piece is not captured until an enemy actively completes the flank.
-- A player may move a piece between two enemy pieces without being captured — custodian capture only occurs when an enemy piece moves to create the flank, not when the surrounded piece moves into the flank.
-
-**Multiple captures:** If one move simultaneously creates custodian captures on multiple opponent pieces (across different axes), all captured pieces are removed.
+- The capture is made by the move that completes the line. A player may move a piece between two enemy pieces without it being captured.
+- If one move completes lines on more than one side, every piece so flanked is captured.
 
 ### Returning to Play
 
-A captured piece does not leave the game permanently. On the capturing player’s subsequent turn, instead of moving a piece already on the board, the capturing player must **return the captured piece to any empty square on the outer ring** (ring 5). (If multiple pieces have been captured and not yet returned, one is returned per turn in place of a normal move.)
+A captured piece does not leave the game. On their next turn, instead of moving a piece, its **owner** must put it back:
 
-The returning piece is under the control of its original owner from the moment it re-enters the board.
+- a captured **Guard** goes on any vacant hex of the outer ring;
+- a captured **Queen** goes on any vacant hex of the board.
+
+If more than one piece was captured, the owner returns one per turn, and the Queen first.
 
 ### Win Condition
 

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Agon (Standard)
 slug: standard
 board: "hex radius 5"
@@ -22,7 +23,7 @@ engine:
       background: "#2a1a0a"
       border: "#6b4226"
   pieces:
-    set: mce-chess
+    set: mce-agon
   players: [white, black]
   setup: "-5,0:Q,5,0:q,4,-5:P,5,-2:P,3,2:P,-1,5:P,-5,4:P,-1,-4:P,1,-5:p,5,-4:p,1,4:p,-4,5:p,-5,2:p,-3,-2:p"
 ---
