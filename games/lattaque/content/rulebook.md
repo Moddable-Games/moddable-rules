@@ -1,6 +1,6 @@
 ---
 title: "L'Attaque"
-version: "0.4.0"
+version: "0.4.1"
 slug: "lattaque"
 players: "2"
 duration: "20–60 min"
@@ -8,7 +8,7 @@ age: "10+"
 tagline: "Hidden-rank warfare — the original family that spawned Stratego"
 type: "hub"
 status: "live"
-updated: "2026-07-08"
+updated: "2026-09-27"
 published: true
 variants: true
 how_to_play: "Hidden-information strategy where pieces have hidden ranks. Higher rank defeats lower when pieces meet. Win conditions vary by variant: capture the Flag, land on the Aerodrome, or get Flags to your Base."
@@ -41,8 +41,6 @@ engine:
       floor-stroke: "#3d6b28"
       lake: "#4a7ab5"
       lake-stroke: "#2a5a8a"
-  pieces:
-    set: mce-lattaque
   players: [blue, red]
 unsupported:
   _family: "No rules plugin, and the mechanic it is missing is the one the engine has least of: hidden identity. Every piece has a rank known only to its owner, and combat is resolved by comparing ranks on contact. The engine has no per-seat view of state - both players read the same slice - so there is nothing to hide a rank in."
