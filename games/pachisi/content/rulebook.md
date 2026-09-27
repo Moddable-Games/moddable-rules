@@ -58,8 +58,43 @@ engine:
       home: "#8b1a1a"
       home-stroke: "#6a1212"
   pieces:
-    set: playstrategy-draughts-plain
+    set: mce-cross-race
   players: [yellow, green, red, blue]
+  # A race round the cross, played by the race plugin.
+  plugin: race
+  plugins:
+    pachisi:
+      # Each arm's route: down its own middle column from the Charkoni,
+      # anticlockwise round the outer columns of the board (turning each
+      # corner of the Charkoni diagonally), and back up the middle column.
+      # 83 squares; the tip of the arm before home is 25 from the Charkoni.
+      routes:
+        south: [[11,9],[12,9],[13,9],[14,9],[15,9],[16,9],[17,9],[18,9],[18,10],[17,10],[16,10],[15,10],[14,10],[13,10],[12,10],[11,10],[10,11],[10,12],[10,13],[10,14],[10,15],[10,16],[10,17],[10,18],[9,18],[8,18],[8,17],[8,16],[8,15],[8,14],[8,13],[8,12],[8,11],[7,10],[6,10],[5,10],[4,10],[3,10],[2,10],[1,10],[0,10],[0,9],[0,8],[1,8],[2,8],[3,8],[4,8],[5,8],[6,8],[7,8],[8,7],[8,6],[8,5],[8,4],[8,3],[8,2],[8,1],[8,0],[9,0],[10,0],[10,1],[10,2],[10,3],[10,4],[10,5],[10,6],[10,7],[11,8],[12,8],[13,8],[14,8],[15,8],[16,8],[17,8],[18,8],[18,9],[17,9],[16,9],[15,9],[14,9],[13,9],[12,9],[11,9]]
+        west: [[9,7],[9,6],[9,5],[9,4],[9,3],[9,2],[9,1],[9,0],[10,0],[10,1],[10,2],[10,3],[10,4],[10,5],[10,6],[10,7],[11,8],[12,8],[13,8],[14,8],[15,8],[16,8],[17,8],[18,8],[18,9],[18,10],[17,10],[16,10],[15,10],[14,10],[13,10],[12,10],[11,10],[10,11],[10,12],[10,13],[10,14],[10,15],[10,16],[10,17],[10,18],[9,18],[8,18],[8,17],[8,16],[8,15],[8,14],[8,13],[8,12],[8,11],[7,10],[6,10],[5,10],[4,10],[3,10],[2,10],[1,10],[0,10],[0,9],[0,8],[1,8],[2,8],[3,8],[4,8],[5,8],[6,8],[7,8],[8,7],[8,6],[8,5],[8,4],[8,3],[8,2],[8,1],[8,0],[9,0],[9,1],[9,2],[9,3],[9,4],[9,5],[9,6],[9,7]]
+        north: [[7,9],[6,9],[5,9],[4,9],[3,9],[2,9],[1,9],[0,9],[0,8],[1,8],[2,8],[3,8],[4,8],[5,8],[6,8],[7,8],[8,7],[8,6],[8,5],[8,4],[8,3],[8,2],[8,1],[8,0],[9,0],[10,0],[10,1],[10,2],[10,3],[10,4],[10,5],[10,6],[10,7],[11,8],[12,8],[13,8],[14,8],[15,8],[16,8],[17,8],[18,8],[18,9],[18,10],[17,10],[16,10],[15,10],[14,10],[13,10],[12,10],[11,10],[10,11],[10,12],[10,13],[10,14],[10,15],[10,16],[10,17],[10,18],[9,18],[8,18],[8,17],[8,16],[8,15],[8,14],[8,13],[8,12],[8,11],[7,10],[6,10],[5,10],[4,10],[3,10],[2,10],[1,10],[0,10],[0,9],[1,9],[2,9],[3,9],[4,9],[5,9],[6,9],[7,9]]
+        east: [[9,11],[9,12],[9,13],[9,14],[9,15],[9,16],[9,17],[9,18],[8,18],[8,17],[8,16],[8,15],[8,14],[8,13],[8,12],[8,11],[7,10],[6,10],[5,10],[4,10],[3,10],[2,10],[1,10],[0,10],[0,9],[0,8],[1,8],[2,8],[3,8],[4,8],[5,8],[6,8],[7,8],[8,7],[8,6],[8,5],[8,4],[8,3],[8,2],[8,1],[8,0],[9,0],[10,0],[10,1],[10,2],[10,3],[10,4],[10,5],[10,6],[10,7],[11,8],[12,8],[13,8],[14,8],[15,8],[16,8],[17,8],[18,8],[18,9],[18,10],[17,10],[16,10],[15,10],[14,10],[13,10],[12,10],[11,10],[10,11],[10,12],[10,13],[10,14],[10,15],[10,16],[10,17],[10,18],[9,18],[9,17],[9,16],[9,15],[9,14],[9,13],[9,12],[9,11]]
+      vocabulary: { piece: { symbols: { 0: rM, 1: yM, 2: gM, 3: bM } } }
+      seatRoutes: [south, west, north, east]
+      pieces: 4
+      # "A piece can only return to the Charkoni by a direct throw."
+      bearOff: exact
+      # "One piece per player starts active": on the first square of its arm.
+      start: [[[11,9]], [[9,7]], [[7,9]], [[9,11]]]
+      # Six cowries: the mouths up, 0 counting 25 and 1 counting 10. A grace
+      # (25, 10 or 6) throws again after moving, and only a grace brings a
+      # piece out of the Charkoni, onto the first square of its arm.
+      throw: { lots: 6, scores: { 0: 25, 1: 10 }, again: [25, 10, 6] }
+      enterWith: [25, 10, 6]
+      enterAt: first
+      # A piece landed on goes back to the Charkoni, except on a castle, and
+      # the capturer throws again. A side's pieces may share a square.
+      contact: capture
+      safe: [[0,9],[3,8],[3,10],[8,3],[8,15],[9,0],[9,18],[10,3],[10,15],[15,8],[15,10],[18,9]]
+      captureRethrow: true
+      stack: share
+      # "A player may refuse to move any counter on his or her turn after
+      # their throw." (Board and Pieces, Pachisi)
+      mayDecline: true
 how_to_play: "Race four pieces around a cross-shaped board from your home to the opposite side. Throw cowrie shells for movement, land on castle squares for safety, and capture opponent pieces to send them home. Direct ancestor of Ludo, Sorry!, and Trouble."
 mechanics:
   - race
@@ -72,11 +107,6 @@ related:
   - nyout
   - chaupar
   - backgammon
-unsupported:
-  _family: "No rules plugin. Pachisi is a cross-and-circle race and needs a track the engine does not build: four arms joined into one circuit, each seat entering and leaving at a different point, with castle squares that grant safety and a piece sent home when landed on."
-  seven-shell: "Seven shells with named throw values, so the same non-uniform generator with a different table."
-  standard: "Randomisation is six cowrie shells rather than dice, with grace rolls on 0, 1 or 6 mouths up - a non-uniform generator that has to be declared rather than assumed to be a d6."
-  two-player: "Each player runs two opposite arms, so one seat owns two entry points and two home paths."
 ---
 
 <div class="section variant-hub">

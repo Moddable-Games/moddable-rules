@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "2-Player Pachisi"
 slug: two-player
 board: Cross-shaped cloth board
@@ -13,7 +14,15 @@ engine:
     rows: 19
     cols: 19
   players: [red, yellow]
-  setup: "home:4Y,home:4G"
+  # Two sides, drawn light and dark.
+  pieces:
+    set: playstrategy-draughts-plain
+  plugins:
+    pachisi:
+      vocabulary: { piece: { symbols: { 0: M, 1: m } } }
+      # Each player runs two opposite arms, one piece of each starting active.
+      seatRoutes: [[south, north], [west, east]]
+      start: [[[11,9],[7,9]], [[9,7],[9,11]]]
 ---
 
 ## 2-Player Pachisi
