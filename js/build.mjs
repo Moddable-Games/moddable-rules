@@ -676,11 +676,7 @@ function buildLanding() {
     if (existsSync(varDir)) {
       totalVariants += readdirSync(varDir).filter(f => f.endsWith('.md')).length;
     }
-    const compDir = resolve(GAMES_DIR, slug, 'content/games');
-    if (existsSync(compDir)) {
-      totalVariants += readdirSync(compDir, { withFileTypes: true })
-        .filter(d => d.isDirectory()).length;
-    }
+    totalVariants += listComponentGames(resolve(GAMES_DIR, slug, 'content/games')).length;
   }
 
   const cards = visible.map(g => {

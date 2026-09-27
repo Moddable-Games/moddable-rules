@@ -49,11 +49,11 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 ---
 
-## Component Hubs (6 hubs, 38 games)
+## Component Hubs (6 hubs, 40 games)
 
 | Hub | Games | Status |
 |-----|-------|--------|
-| **Standard 52-Card Deck** | 18 | Live |
+| **Standard 52-Card Deck** | 20 | Live |
 | **Standard Dice** | 5 | Live |
 | **Double-Six Dominoes** | 4 | Live |
 | **Flower 48** | 4 | Live |
@@ -223,6 +223,13 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-09-27
+- All eight Backgammon variants are playable. Fevga, Plakoto and Nardi contradicted their own setups on which way each side travels and are corrected; Nardi states its head and six-block rules
+- Cribbage for three and for four players have pages of their own, linked from the hub and from their boards. A component game directory may now hold several games, and every build step reads them from one list
+- 31 variants show their own board. Most had shown another variant's: every draughts variant here showed the English board, and Tibetan Go showed 19×19. Nine chess variants showed none. A CI check now fails when a synced board is not shown
+- A PDF page no longer loses content past its foot. Tables split at row boundaries with the header repeated, long lists split between items, boards taller than a page are scaled to fit, and a heading is no longer held together with more than a page. Every generated page is measured; a clipped page not on the known list fails the run
+- Centennial Chess and Grande Acedrex declare their pieces, checked against their sources. Centennial's Murray Lion and Steward were described wrongly and are corrected from the author's own page
+- The Landlord's Game's unplayable variants now say exactly what is missing and where it was looked for. The 1906 red CHANCE pack is not transcribed anywhere found; the 1932 lot prices exist only on the board and cards
+- A board sync refuses to write a board whose piece set or artwork is missing, and fails rather than recording it as fresh. L'Attaque named a piece set that never existed
 - Taiwanese mahjong is playable, its rules and scoring restated from Mahjong Time. Where the Rack It! guide differs (dealer doubling, which honour pungs score, the base value, the dealer's streak) both readings are recorded. No mahjong game is unsupported any more
 
 #### 2026-09-26
