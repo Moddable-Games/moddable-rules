@@ -16,6 +16,56 @@ engine:
   render:
     cellSize: 30
   setup: "rcblkqlbcr/1tn1ss1nt1/pppppppppp/10/10/10/10/PPPPPPPPPP/1TN1SS1NT1/RCBLKQLBCR"
+  vocabulary:
+    camel:
+      symbols:
+        0: C
+        1: c
+    murrayLion:
+      symbols:
+        0: L
+        1: l
+    steward:
+      symbols:
+        0: S
+        1: s
+    # Named so the board can draw it. It has no move below: which way it
+    # travels depends on a heading it keeps between turns, and no piece has one.
+    rotatingSpearman:
+      symbols:
+        0: T
+        1: t
+  plugins:
+    chess:
+      enPassant: false
+      pieces:
+        camel:
+          type: leaper
+          offsets: camel
+        # Leaps to the second square orthogonally or diagonally (DA), and steps
+        # one square in any direction only to capture (cK).
+        murrayLion:
+          type: compose
+          parts:
+            - type: leaper
+              offsets: dabbaba
+            - type: leaper
+              offsets: elephant
+            - divergent:
+                capture:
+                  type: leaper
+                  offsets: king
+        # A pawn facing all four ways: steps orthogonally, captures diagonally.
+        # Its first-move double step forward is not expressed here.
+        steward:
+          divergent:
+            move:
+              type: rider
+              dirs: orthogonal
+              maxSteps: 1
+            capture:
+              type: leaper
+              offsets: bishop
 ---
 
 ## Centennial Chess
@@ -26,11 +76,11 @@ Centennial Chess is a 10×10 chess variant with 100 squares — one for each yea
 
 ### New Pieces
 
-**Steward:** A *quadra-pawn* — moves as a Pawn in all four orthogonal directions (forward, backward, left, right). Can also move two squares in any direction on its first move. Two Stewards in mutual coverage form a strong barrier.
+**Steward:** A *quadra-pawn*: moves as a Pawn in all four directions. It steps one square orthogonally (forward, backward, left or right) without capturing, and captures one square diagonally in any of the four diagonal directions. Like a Pawn, it may advance two squares forward on its first move. Two Stewards in mutual coverage form a strong barrier.
 
 **Camel:** Leaps two squares orthogonally then one square diagonally (a 2+1 oblique leaper, never blocked by intervening pieces). Longer stride than a Knight but colorbound — always remains on the same board-colour.
 
-**Murray Lion:** Leaps to any square in the 5×5 area centered on itself (i.e. up to 2 squares orthogonally or diagonally), or moves one square in any direction only to capture. Named for chess historian H.J.R. Murray, who erred in describing the Chu Shogi Lion in his 1931 book.
+**Murray Lion:** Leaps to the second square orthogonally or diagonally, jumping any piece in between, or moves one square in any direction only to capture, as a King. Named for chess historian H.J.R. Murray, who erred in describing the Chu Shogi Lion in his 1931 book.
 
 **Rotating Spearman:** Slides any number of squares forward (when upright) or along the forward diagonal it faces (when rotated). At the end of its move, it may rotate to any of three headings — forward-upright, left-diagonal, or right-diagonal. It may also rotate in place without moving. It cannot rotate before moving. Captures only on the advance direction, not on retreat.
 

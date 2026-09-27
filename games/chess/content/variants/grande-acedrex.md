@@ -16,6 +16,67 @@ engine:
   render:
     cellSize: 26
   setup: "rlugckfcgulr/12/12/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/12/12/RLUGCKFCGULR"
+  vocabulary:
+    lion:
+      symbols:
+        0: L
+        1: l
+    unicorn:
+      symbols:
+        0: U
+        1: u
+    giraffe:
+      symbols:
+        0: G
+        1: g
+    crocodile:
+      symbols:
+        0: C
+        1: c
+    griffion:
+      symbols:
+        0: F
+        1: f
+  plugins:
+    chess:
+      castling: false
+      enPassant: false
+      doubleStep: false
+      stalemateMeaning: "win"
+      pieces:
+        # Jumps exactly three squares orthogonally.
+        lion:
+          type: leaper
+          offsets:
+            - [-3, 0]
+            - [3, 0]
+            - [0, -3]
+            - [0, 3]
+        # One square diagonally and three on, jumping: a (1,4) leap.
+        giraffe:
+          type: leaper
+          offsets:
+            - [-4, -1]
+            - [-4, 1]
+            - [-1, -4]
+            - [-1, 4]
+            - [1, -4]
+            - [1, 4]
+            - [4, -1]
+            - [4, 1]
+        # One step diagonally, may stop there, then slides outward orthogonally.
+        griffion:
+          type: bent
+          first: diagonal
+          firstSteps: 1
+        crocodile:
+          type: rider
+          dirs: diagonal
+        # Its move after the first. The first move, a non-capturing knight's
+        # leap, needs move-count state: see the rulebook's unsupported reason.
+        unicorn:
+          type: rider
+          dirs: diagonal
 ---
 
 ## Grande Acedrex

@@ -4067,7 +4067,78 @@
         "render": {
           "cellSize": 30
         },
-        "setup": "rcblkqlbcr/1tn1ss1nt1/pppppppppp/10/10/10/10/PPPPPPPPPP/1TN1SS1NT1/RCBLKQLBCR"
+        "setup": "rcblkqlbcr/1tn1ss1nt1/pppppppppp/10/10/10/10/PPPPPPPPPP/1TN1SS1NT1/RCBLKQLBCR",
+        "vocabulary": {
+          "camel": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "murrayLion": {
+            "symbols": {
+              "0": "L",
+              "1": "l"
+            }
+          },
+          "steward": {
+            "symbols": {
+              "0": "S",
+              "1": "s"
+            }
+          },
+          "rotatingSpearman": {
+            "symbols": {
+              "0": "T",
+              "1": "t"
+            }
+          }
+        },
+        "plugins": {
+          "chess": {
+            "enPassant": false,
+            "pieces": {
+              "camel": {
+                "type": "leaper",
+                "offsets": "camel"
+              },
+              "murrayLion": {
+                "type": "compose",
+                "parts": [
+                  {
+                    "type": "leaper",
+                    "offsets": "dabbaba"
+                  },
+                  {
+                    "type": "leaper",
+                    "offsets": "elephant"
+                  },
+                  {
+                    "divergent": {
+                      "capture": {
+                        "type": "leaper",
+                        "offsets": "king"
+                      }
+                    }
+                  }
+                ]
+              },
+              "steward": {
+                "divergent": {
+                  "move": {
+                    "type": "rider",
+                    "dirs": "orthogonal",
+                    "maxSteps": 1
+                  },
+                  "capture": {
+                    "type": "leaper",
+                    "offsets": "bishop"
+                  }
+                }
+              }
+            }
+          }
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/centennial-chess-board.svg",
@@ -7466,7 +7537,120 @@
         "render": {
           "cellSize": 26
         },
-        "setup": "rlugckfcgulr/12/12/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/12/12/RLUGCKFCGULR"
+        "setup": "rlugckfcgulr/12/12/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/12/12/RLUGCKFCGULR",
+        "vocabulary": {
+          "lion": {
+            "symbols": {
+              "0": "L",
+              "1": "l"
+            }
+          },
+          "unicorn": {
+            "symbols": {
+              "0": "U",
+              "1": "u"
+            }
+          },
+          "giraffe": {
+            "symbols": {
+              "0": "G",
+              "1": "g"
+            }
+          },
+          "crocodile": {
+            "symbols": {
+              "0": "C",
+              "1": "c"
+            }
+          },
+          "griffion": {
+            "symbols": {
+              "0": "F",
+              "1": "f"
+            }
+          }
+        },
+        "plugins": {
+          "chess": {
+            "castling": false,
+            "enPassant": false,
+            "doubleStep": false,
+            "stalemateMeaning": "win",
+            "pieces": {
+              "lion": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -3,
+                    0
+                  ],
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    0,
+                    -3
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ]
+              },
+              "giraffe": {
+                "type": "leaper",
+                "offsets": [
+                  [
+                    -4,
+                    -1
+                  ],
+                  [
+                    -4,
+                    1
+                  ],
+                  [
+                    -1,
+                    -4
+                  ],
+                  [
+                    -1,
+                    4
+                  ],
+                  [
+                    1,
+                    -4
+                  ],
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    4,
+                    -1
+                  ],
+                  [
+                    4,
+                    1
+                  ]
+                ]
+              },
+              "griffion": {
+                "type": "bent",
+                "first": "diagonal",
+                "firstSteps": 1
+              },
+              "crocodile": {
+                "type": "rider",
+                "dirs": "diagonal"
+              },
+              "unicorn": {
+                "type": "rider",
+                "dirs": "diagonal"
+              }
+            }
+          }
+        }
       },
       "diagram": {
         "svg": "games/chess/diagrams/svg/grande-acedrex-board.svg",

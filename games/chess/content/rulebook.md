@@ -53,8 +53,8 @@ engine:
     set: mce-fairy-complete
   players: [white, black]
 unsupported:
-  centennial-chess: "The Steward, Camel, Murray Lion and Rotating Spearman are named in the setup and declared nowhere: the variant carries a setup string and no `vocabulary`, so it throws on the first unmapped symbol. The Spearman additionally needs a persistent per-piece heading, which no piece has."
-  grande-acedrex: "The Griffion, Unicorn, Lion, Giraffe, Crocodile and Rhinoceros are named in the setup and declared nowhere: no `vocabulary` block, so it throws on the first unmapped symbol. The Unicorn additionally moves as a knight on its first move and a bishop thereafter, which needs move-count state."
+  centennial-chess: "Its Camel, Murray Lion and Steward are declared and compose from primitives. Three things remain, all engine state: the Rotating Spearman travels along a heading it keeps between turns and may turn at the end of a move, which no piece has; each side moves twice per turn until its first capture and once per turn after, which is per-player turn state; and the Steward's first-move double step forward is a pawn rule the engine gives only to pawns. Castling also needs its own squares (King to the vacated Bishop's square, Rook to the Lion's). Source checked: John William Brown's page at chessvariants.com/large.dir/contest/cenchess.html, whose interactive diagram gives the moves in Betza notation."
+  grande-acedrex: "Its Lion, Giraffe, Griffion and Crocodile are declared and compose from primitives, and the Unicorn's bishop move is declared. What remains is state the engine does not keep: the Unicorn's first move is a non-capturing knight's leap, and the King may leap two squares on its first move (only Ouk Chaktrang has a King leap, as code of its own). Promotion is to the piece that began on the file the pawn reaches (Griffion on the King's file), and baring the King wins unless the opponent can bare back at once. Source checked: Bodlaender, chessvariants.com/historic.dir/acedrex.html, which notes the Unicorn, Giraffe and Lion are reconstructions."
 ---
 
 <div class="section variant-hub">
