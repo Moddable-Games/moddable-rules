@@ -1,7 +1,7 @@
 ---
 title: "Standard 52-Card Deck"
 short_title: "52 Cards"
-version: "0.2.1"
+version: "0.2.2"
 slug: "standard-52"
 players: "1–8"
 duration: "10–120 min"
@@ -9,7 +9,7 @@ age: "6+"
 tagline: "Every game a standard deck of cards can play"
 type: "component"
 status: "live"
-updated: "2026-07-21"
+updated: "2026-09-27"
 published: true
 hub_type: component
 theme:
@@ -95,6 +95,8 @@ Games played with the standard French-suited 52-card deck. Four suits (Spades, H
 ### Pegging / Counting
 
 - [Cribbage](games/cribbage/) — Two-player pegging game scored on a cribbage board. Features the crib, pegging phase, and the show. First to peg 121 points wins.
+- [3-Player Cribbage](games/three-player-cribbage/) — Cribbage for three. Five cards each, one discarded to the crib and one dealt to it from the deck. Scoring is unchanged.
+- [4-Player Cribbage](games/four-player-cribbage/) — Partnership Cribbage for two teams of two, partners sitting opposite and pegging together.
 
 ### Banking / Casino
 

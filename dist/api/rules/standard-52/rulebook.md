@@ -46,6 +46,8 @@ Games played with the standard French-suited 52-card deck. Four suits (Spades, H
 ### Pegging / Counting
 
 - [Cribbage](games/cribbage/) — Two-player pegging game scored on a cribbage board. Features the crib, pegging phase, and the show. First to peg 121 points wins.
+- [3-Player Cribbage](games/three-player-cribbage/) — Cribbage for three. Five cards each, one discarded to the crib and one dealt to it from the deck. Scoring is unchanged.
+- [4-Player Cribbage](games/four-player-cribbage/) — Partnership Cribbage for two teams of two, partners sitting opposite and pegging together.
 
 ### Banking / Casino
 

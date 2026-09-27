@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSy
 import { resolve, basename } from 'path';
 import matter from 'gray-matter';
 import markdownIt from 'markdown-it';
+import { listComponentGames } from './component-games.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const GAMES_DIR = resolve(ROOT, 'games');
@@ -834,18 +835,7 @@ function buildComponentGames(slug) {
 
   const md = createMarkdownRenderer();
 
-  const gameDirs = readdirSync(gamesDir, { withFileTypes: true })
-    .filter(d => d.isDirectory())
-    .map(d => d.name);
-
-  const games = [];
-  for (const gameSlug of gameDirs) {
-    const standardPath = resolve(gamesDir, gameSlug, 'standard.md');
-    if (!existsSync(standardPath)) continue;
-    const src = readFileSync(standardPath, 'utf8');
-    const { data: meta, content } = matter(src);
-    games.push({ meta, content, slug: meta.slug || gameSlug });
-  }
+  const games = listComponentGames(gamesDir);
 
   games.sort((a, b) => {
     const ao = a.meta.order ?? Infinity;
@@ -855,7 +845,7 @@ function buildComponentGames(slug) {
   });
 
   for (let i = 0; i < games.length; i++) {
-    const { meta, content, slug: gameSlug } = games[i];
+    const { meta, content, slug: gameSlug, dir: gameDirName, file: gameFile } = games[i];
 
     const withSvgs = content.replace(
       /\{\{svg:([^\s"]+)\s*"([^"]*)"\}\}/g,
@@ -901,7 +891,7 @@ function buildComponentGames(slug) {
     output = output.replace(/\{\{game_nav_title\}\}/g, parentMeta.short_title || gameTitle);
     output = output.replace(/\{\{slug\}\}/g, slug);
     output = output.replace(/\{\{hub_label\}\}/g, 'All Games');
-    output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/games/${gameSlug}/standard.md`);
+    output = output.replace(/\{\{markdown_path\}\}/g, `games/${slug}/content/games/${gameDirName}/${gameFile}`);
     output = output.replace(/\{\{pdf_path\}\}/g, `${PDF_BASE}/${slug}--games--${gameSlug}.pdf`);
     output = output.replace('{{PREV_LINK}}', prevLink);
     output = output.replace('{{NEXT_LINK}}', nextLink);
@@ -1054,15 +1044,10 @@ function buildBoards() {
 
     // Collect component hub games
     const compDir = resolve(GAMES_DIR, family, 'content/games');
+    // Keyed the way their boards are named; each carries its page slug.
     const compGames = {};
-    if (existsSync(compDir)) {
-      for (const g of readdirSync(compDir, { withFileTypes: true }).filter(d => d.isDirectory())) {
-        const stdPath = resolve(compDir, g.name, 'standard.md');
-        if (existsSync(stdPath)) {
-          const { data } = matter(readFileSync(stdPath, 'utf8'));
-          compGames[g.name] = data;
-        }
-      }
+    for (const g of listComponentGames(compDir)) {
+      compGames[g.key] = { ...g.meta, pageSlug: g.slug };
     }
 
     // Entries for SVGs that exist
@@ -1101,7 +1086,7 @@ function buildBoards() {
       }
       if (gm) {
         svgEntry.reason = 'component-game';
-        svgEntry.rulesUrl = `${family}/games/${varSlug}/index.html`;
+        svgEntry.rulesUrl = `${family}/games/${gm.pageSlug}/index.html`;
         const deckType = rbMeta.engine?.components?.deck?.type || null;
         if (deckType) svgEntry.deckType = deckType;
       }
@@ -1150,7 +1135,7 @@ function buildBoards() {
         variantTitle: varTitle,
         topology: componentType,
         svg: null,
-        rulesUrl: `${family}/games/${slug}/index.html`,
+        rulesUrl: `${family}/games/${gm.pageSlug}/index.html`,
         status: 'missing',
         reason: 'component-game',
       };

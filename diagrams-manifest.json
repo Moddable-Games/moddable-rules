@@ -3749,23 +3749,29 @@
     "family": "standard-52",
     "familyTitle": "Standard 52-Card Deck",
     "variant": "cribbage-four-player",
-    "variantTitle": "Cribbage Four Player",
-    "topology": "none",
+    "variantTitle": "4-Player Cribbage (Partnership)",
+    "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/cribbage-four-player-board.svg",
-    "rulesUrl": "",
+    "rulesUrl": "standard-52/games/four-player-cribbage/index.html",
     "playable": false,
-    "status": "rendered"
+    "status": "rendered",
+    "reason": "component-game",
+    "deckType": "standard-52",
+    "players": "4"
   },
   {
     "family": "standard-52",
     "familyTitle": "Standard 52-Card Deck",
     "variant": "cribbage-three-player",
-    "variantTitle": "Cribbage Three Player",
-    "topology": "none",
+    "variantTitle": "3-Player Cribbage",
+    "topology": "tableau",
     "svg": "games/standard-52/diagrams/svg/cribbage-three-player-board.svg",
-    "rulesUrl": "",
+    "rulesUrl": "standard-52/games/three-player-cribbage/index.html",
     "playable": false,
-    "status": "rendered"
+    "status": "rendered",
+    "reason": "component-game",
+    "deckType": "standard-52",
+    "players": "3"
   },
   {
     "family": "standard-52",

@@ -4,6 +4,7 @@ import { execSync } from 'child_process';
 import puppeteer from 'puppeteer';
 import matter from 'gray-matter';
 import { buildPaginateScript } from './pdf-paginate.mjs';
+import { listComponentGames } from './component-games.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const GAMES_DIR = resolve(ROOT, 'games');
@@ -418,16 +419,14 @@ for (const slug of slugs) {
   const gamesDir = resolve(gameDir, 'content/games');
   if (!existsSync(gamesDir)) continue;
 
-  const gameDirs = readdirSync(gamesDir, { withFileTypes: true })
-    .filter(d => d.isDirectory())
-    .map(d => d.name);
+  const gameSlugs = listComponentGames(gamesDir).map(g => g.slug);
 
   const gamePdfDir = resolve(gameDir, 'pdf/games');
   mkdirSync(gamePdfDir, { recursive: true });
 
-  console.log(`  Generating ${gameDirs.length} game PDFs for component hub ${slug}...`);
+  console.log(`  Generating ${gameSlugs.length} game PDFs for component hub ${slug}...`);
 
-  for (const gameSlug of gameDirs) {
+  for (const gameSlug of gameSlugs) {
     const htmlPath = resolve(DIST_DIR, slug, 'games', gameSlug, 'index.html');
     if (!existsSync(htmlPath)) {
       console.warn(`    Skipping game ${gameSlug} — no built HTML`);

@@ -1431,7 +1431,7 @@
     "tagline": "Hidden-rank warfare — the original family that spawned Stratego",
     "type": "hub",
     "status": "live",
-    "updated": "2026-07-08",
+    "updated": "2026-09-27",
     "variantHub": false,
     "variants": [
       {
@@ -1923,7 +1923,7 @@
     "tagline": "Every game a standard deck of cards can play",
     "type": "component",
     "status": "live",
-    "updated": "2026-07-21",
+    "updated": "2026-09-27",
     "variantHub": false,
     "variants": [
       {
@@ -1949,6 +1949,14 @@
       {
         "slug": "cribbage",
         "title": "Cribbage"
+      },
+      {
+        "slug": "four-player-cribbage",
+        "title": "4-Player Cribbage (Partnership)"
+      },
+      {
+        "slug": "three-player-cribbage",
+        "title": "3-Player Cribbage"
       },
       {
         "slug": "euchre",

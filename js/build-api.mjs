@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, copyFileSync } from 'fs';
 import { resolve } from 'path';
 import matter from 'gray-matter';
+import { listComponentGames } from './component-games.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const GAMES_DIR = resolve(ROOT, 'games');
@@ -123,26 +124,16 @@ for (const slug of allSlugs) {
   const hubGamesDir = resolve(GAMES_DIR, slug, 'content/games');
   const games = [];
   if (existsSync(hubGamesDir)) {
-    const gameDirs = readdirSync(hubGamesDir, { withFileTypes: true })
-      .filter(d => d.isDirectory()).map(d => d.name);
-    for (const gd of gameDirs) {
-      const gdPath = resolve(hubGamesDir, gd);
-      const mdFiles = readdirSync(gdPath).filter(f => f.endsWith('.md'));
-      const standardFile = mdFiles.find(f => f === 'standard.md') || mdFiles[0];
-      if (!standardFile) continue;
-
-      const graw = readFileSync(resolve(gdPath, standardFile), 'utf8');
-      const { data: gmeta } = matter(graw);
-      const gslug = gmeta.slug || gd;
+    for (const g of listComponentGames(hubGamesDir)) {
       games.push({
-        slug: gslug,
-        title: gmeta.title || gd,
-        players: gmeta.players || null,
+        slug: g.slug,
+        title: g.meta.title || g.slug,
+        players: g.meta.players || null,
       });
 
       const gamesApiDir = resolve(gameApiDir, 'games');
       mkdirSync(gamesApiDir, { recursive: true });
-      writeMd(resolve(gamesApiDir, `${gslug}.md`), stripFrontmatter(graw));
+      writeMd(resolve(gamesApiDir, `${g.slug}.md`), stripFrontmatter(g.raw));
     }
 
     if (games.length > 0) {

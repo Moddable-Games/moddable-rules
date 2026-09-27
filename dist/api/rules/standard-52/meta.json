@@ -7,8 +7,8 @@
   "tagline": "Every game a standard deck of cards can play",
   "type": "component",
   "status": "live",
-  "updated": "2026-07-21",
-  "version": "0.2.1",
+  "updated": "2026-09-27",
+  "version": "0.2.2",
   "mechanics": [
     "trick-taking",
     "melding",
@@ -55,6 +55,16 @@
       "slug": "cribbage",
       "title": "Cribbage",
       "players": "2"
+    },
+    {
+      "slug": "four-player-cribbage",
+      "title": "4-Player Cribbage (Partnership)",
+      "players": "4"
+    },
+    {
+      "slug": "three-player-cribbage",
+      "title": "3-Player Cribbage",
+      "players": "3"
     },
     {
       "slug": "euchre",

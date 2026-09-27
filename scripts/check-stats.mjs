@@ -60,8 +60,10 @@ for (const slug of slugs) {
   if (existsSync(gamesDir)) {
     for (const g of readdirSync(gamesDir, { withFileTypes: true })) {
       if (g.isDirectory()) {
+        // Every file is a game with its own page: cribbage/ holds the
+        // two-, three- and four-player games.
         const mdFiles = readdirSync(resolve(gamesDir, g.name)).filter(f => f.endsWith('.md'));
-        if (mdFiles.length > 0) actualComponentGames++;
+        if (mdFiles.includes('standard.md')) actualComponentGames += mdFiles.length;
       }
     }
   }

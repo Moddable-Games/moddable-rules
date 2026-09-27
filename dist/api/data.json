@@ -1255,9 +1255,6 @@
             "lake-stroke": "#2a5a8a"
           }
         },
-        "pieces": {
-          "set": "mce-lattaque"
-        },
         "players": [
           "blue",
           "red"
@@ -2588,13 +2585,12 @@
       "hex": 23,
       "graph": 15,
       "track": 14,
-      "tableau": 38,
+      "tableau": 40,
       "rpg": 20,
       "grid": 236,
       "hexagonal-trisection": 2,
       "pit": 8,
-      "triangular": 1,
-      "none": 2
+      "triangular": 1
     },
     "byType": {
       "standalone": 3,

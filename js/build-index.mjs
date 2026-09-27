@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
 import { resolve } from 'path';
 import matter from 'gray-matter';
+import { listComponentGames } from './component-games.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const GAMES_DIR = resolve(ROOT, 'games');
@@ -444,17 +445,10 @@ for (const slug of allSlugs) {
     }
   }
   if (existsSync(hubGamesDir)) {
-    const gameDirs = readdirSync(hubGamesDir, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name);
-    for (const gd of gameDirs) {
-      const standardFile = resolve(hubGamesDir, gd, 'standard.md');
-      const firstFile = resolve(hubGamesDir, gd, readdirSync(resolve(hubGamesDir, gd)).filter(f => f.endsWith('.md'))[0] || 'standard.md');
-      const gf = existsSync(standardFile) ? standardFile : firstFile;
-      if (!existsSync(gf)) continue;
-      const gsrc = readFileSync(gf, 'utf8');
-      const { data: gmeta } = matter(gsrc);
+    for (const g of listComponentGames(hubGamesDir)) {
       variants.push({
-        slug: gmeta.slug || gd,
-        title: gmeta.title || gd,
+        slug: g.slug,
+        title: g.meta.title || g.slug,
       });
     }
   }

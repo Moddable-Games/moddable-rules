@@ -43,6 +43,8 @@ published: true
 
 4-Player Cribbage is a partnership game for two teams of two. Partners sit across from each other and combine their scores throughout the game.
 
+{{svg:cribbage-four-player-board.svg "4-Player Cribbage — table layout"}}
+
 ### The Deal
 
 Each player is dealt **5 cards** and discards **1 card** to the crib, giving each player a 4-card hand and a full 4-card crib.
