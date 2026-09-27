@@ -13,7 +13,7 @@
   if (statsRes.ok) {
     const stats = await statsRes.json();
     document.getElementById('stat-games').textContent = stats.games.total;
-    document.getElementById('stat-variants').textContent = stats.content.variants + stats.content.componentGames;
+    document.getElementById('stat-variants').textContent = stats.content.variantsAndGames;
     document.getElementById('stat-oracles').textContent = stats.data.oracleTables;
     document.getElementById('stat-entities').textContent = stats.data.entities;
     document.getElementById('stat-endpoints').textContent = stats.site.apiEndpoints;

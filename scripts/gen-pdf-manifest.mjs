@@ -5,7 +5,7 @@
  * The manifest is committed to the repo so CI can report accurate stats
  * even though the PDFs themselves are gitignored.
  */
-import { readdirSync, existsSync, writeFileSync } from 'fs';
+import { readdirSync, readFileSync, existsSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { execSync } from 'child_process';
 
@@ -23,6 +23,28 @@ const walk = (dir) => {
   }
 };
 walk(GAMES_DIR);
+
+// A rulebook bump writes new `-vX.Y.Z` files and leaves the old ones on disk,
+// and this reads whatever is on disk: the manifest counted 686 PDFs on
+// 2026-09-27 when there were 667, and stats.json, checked only against this
+// file, agreed. A versioned file counts only at its family's current version.
+const currentVersion = {};
+function isSuperseded(pdf) {
+  const m = pdf.match(/-v(\d+\.\d+\.\d+)\.pdf$/);
+  if (!m) return false;
+  const family = pdf.replace(GAMES_DIR + '/', '').split('/')[0];
+  if (!(family in currentVersion)) {
+    const rb = resolve(GAMES_DIR, family, 'content/rulebook.md');
+    const vm = existsSync(rb) && readFileSync(rb, 'utf8').match(/^version:\s*["']?([^"'\n]+)/m);
+    currentVersion[family] = vm ? vm[1].trim() : null;
+  }
+  return currentVersion[family] !== null && m[1] !== currentVersion[family];
+}
+const superseded = pdfs.filter(isSuperseded);
+if (superseded.length) {
+  console.log(`Skipping ${superseded.length} superseded versioned PDF(s), e.g. ${superseded[0].replace(ROOT + '/', '')}`);
+}
+pdfs.splice(0, pdfs.length, ...pdfs.filter(p => !superseded.includes(p)));
 
 let totalPages = 0;
 const entries = [];

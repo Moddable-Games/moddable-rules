@@ -1,13 +1,13 @@
 {
   "generated": "2026-09-27",
-  "total": 686,
-  "totalPages": 11085,
+  "total": 667,
+  "totalPages": 10153,
   "families": 50,
   "byType": {
-    "rulebook": 110,
-    "library": 42,
+    "rulebook": 100,
+    "library": 34,
     "variant": 284,
-    "complete": 33,
+    "complete": 32,
     "componentGame": 40,
     "subPage": 177
   },
@@ -61,12 +61,6 @@
       "pages": 4
     },
     {
-      "path": "backgammon/pdf/backgammon-rulebook-v0.1.1.pdf",
-      "family": "backgammon",
-      "type": "rulebook",
-      "pages": 3
-    },
-    {
       "path": "backgammon/pdf/backgammon-rulebook-v0.1.2.pdf",
       "family": "backgammon",
       "type": "rulebook",
@@ -77,12 +71,6 @@
       "family": "backgammon",
       "type": "rulebook",
       "pages": 3
-    },
-    {
-      "path": "backgammon/pdf/backgammon-variant-library-v0.1.1.pdf",
-      "family": "backgammon",
-      "type": "library",
-      "pages": 29
     },
     {
       "path": "backgammon/pdf/backgammon-variant-library-v0.1.2.pdf",
@@ -397,12 +385,6 @@
       "pages": 7
     },
     {
-      "path": "chess/pdf/chess-rulebook-v0.6.1.pdf",
-      "family": "chess",
-      "type": "rulebook",
-      "pages": 9
-    },
-    {
       "path": "chess/pdf/chess-rulebook-v0.6.2.pdf",
       "family": "chess",
       "type": "rulebook",
@@ -413,12 +395,6 @@
       "family": "chess",
       "type": "rulebook",
       "pages": 9
-    },
-    {
-      "path": "chess/pdf/chess-variant-library-v0.6.1.pdf",
-      "family": "chess",
-      "type": "library",
-      "pages": 561
     },
     {
       "path": "chess/pdf/chess-variant-library-v0.6.2.pdf",
@@ -1735,12 +1711,6 @@
       "pages": 4
     },
     {
-      "path": "draughts/pdf/draughts-rulebook-v0.3.1.pdf",
-      "family": "draughts",
-      "type": "rulebook",
-      "pages": 4
-    },
-    {
       "path": "draughts/pdf/draughts-rulebook-v0.3.2.pdf",
       "family": "draughts",
       "type": "rulebook",
@@ -1751,12 +1721,6 @@
       "family": "draughts",
       "type": "rulebook",
       "pages": 4
-    },
-    {
-      "path": "draughts/pdf/draughts-variant-library-v0.3.1.pdf",
-      "family": "draughts",
-      "type": "library",
-      "pages": 78
     },
     {
       "path": "draughts/pdf/draughts-variant-library-v0.3.2.pdf",
@@ -2077,12 +2041,6 @@
       "pages": 6
     },
     {
-      "path": "econopoly/pdf/econopoly-rulebook-v0.2.0.pdf",
-      "family": "econopoly",
-      "type": "rulebook",
-      "pages": 10
-    },
-    {
       "path": "econopoly/pdf/econopoly-rulebook-v0.2.1.pdf",
       "family": "econopoly",
       "type": "rulebook",
@@ -2269,12 +2227,6 @@
       "pages": 3
     },
     {
-      "path": "go/pdf/go-rulebook-v0.3.0.pdf",
-      "family": "go",
-      "type": "rulebook",
-      "pages": 4
-    },
-    {
       "path": "go/pdf/go-rulebook-v0.3.1.pdf",
       "family": "go",
       "type": "rulebook",
@@ -2285,12 +2237,6 @@
       "family": "go",
       "type": "rulebook",
       "pages": 4
-    },
-    {
-      "path": "go/pdf/go-variant-library-v0.3.0.pdf",
-      "family": "go",
-      "type": "library",
-      "pages": 48
     },
     {
       "path": "go/pdf/go-variant-library-v0.3.1.pdf",
@@ -2635,12 +2581,6 @@
       "pages": 4
     },
     {
-      "path": "landlords-game/pdf/landlords-game-rulebook-v0.2.0.pdf",
-      "family": "landlords-game",
-      "type": "rulebook",
-      "pages": 7
-    },
-    {
       "path": "landlords-game/pdf/landlords-game-rulebook-v0.2.1.pdf",
       "family": "landlords-game",
       "type": "rulebook",
@@ -2651,12 +2591,6 @@
       "family": "landlords-game",
       "type": "rulebook",
       "pages": 8
-    },
-    {
-      "path": "landlords-game/pdf/landlords-game-variant-library-v0.2.0.pdf",
-      "family": "landlords-game",
-      "type": "library",
-      "pages": 27
     },
     {
       "path": "landlords-game/pdf/landlords-game-variant-library-v0.2.1.pdf",
@@ -2701,12 +2635,6 @@
       "pages": 4
     },
     {
-      "path": "lattaque/pdf/lattaque-rulebook-v0.4.0.pdf",
-      "family": "lattaque",
-      "type": "rulebook",
-      "pages": 3
-    },
-    {
       "path": "lattaque/pdf/lattaque-rulebook-v0.4.1.pdf",
       "family": "lattaque",
       "type": "rulebook",
@@ -2717,12 +2645,6 @@
       "family": "lattaque",
       "type": "rulebook",
       "pages": 3
-    },
-    {
-      "path": "lattaque/pdf/lattaque-variant-library-v0.4.0.pdf",
-      "family": "lattaque",
-      "type": "library",
-      "pages": 29
     },
     {
       "path": "lattaque/pdf/lattaque-variant-library-v0.4.1.pdf",
@@ -3355,12 +3277,6 @@
       "pages": 13
     },
     {
-      "path": "reversi/pdf/reversi-rulebook-v0.1.0.pdf",
-      "family": "reversi",
-      "type": "rulebook",
-      "pages": 3
-    },
-    {
       "path": "reversi/pdf/reversi-rulebook-v0.1.1.pdf",
       "family": "reversi",
       "type": "rulebook",
@@ -3371,12 +3287,6 @@
       "family": "reversi",
       "type": "rulebook",
       "pages": 3
-    },
-    {
-      "path": "reversi/pdf/reversi-variant-library-v0.1.0.pdf",
-      "family": "reversi",
-      "type": "library",
-      "pages": 13
     },
     {
       "path": "reversi/pdf/reversi-variant-library-v0.1.1.pdf",
@@ -3721,12 +3631,6 @@
       "pages": 3
     },
     {
-      "path": "standard-52/pdf/standard-52-complete-v0.2.1.pdf",
-      "family": "standard-52",
-      "type": "complete",
-      "pages": 77
-    },
-    {
       "path": "standard-52/pdf/standard-52-complete-v0.2.2.pdf",
       "family": "standard-52",
       "type": "complete",
@@ -3737,12 +3641,6 @@
       "family": "standard-52",
       "type": "complete",
       "pages": 84
-    },
-    {
-      "path": "standard-52/pdf/standard-52-rulebook-v0.2.1.pdf",
-      "family": "standard-52",
-      "type": "rulebook",
-      "pages": 5
     },
     {
       "path": "standard-52/pdf/standard-52-rulebook-v0.2.2.pdf",
@@ -3973,12 +3871,6 @@
       "pages": 6
     },
     {
-      "path": "tafl/pdf/tafl-rulebook-v1.0.0.pdf",
-      "family": "tafl",
-      "type": "rulebook",
-      "pages": 3
-    },
-    {
       "path": "tafl/pdf/tafl-rulebook-v1.0.1.pdf",
       "family": "tafl",
       "type": "rulebook",
@@ -3989,12 +3881,6 @@
       "family": "tafl",
       "type": "rulebook",
       "pages": 3
-    },
-    {
-      "path": "tafl/pdf/tafl-variant-library-v1.0.0.pdf",
-      "family": "tafl",
-      "type": "library",
-      "pages": 19
     },
     {
       "path": "tafl/pdf/tafl-variant-library-v1.0.1.pdf",

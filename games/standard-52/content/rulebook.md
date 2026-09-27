@@ -31,7 +31,7 @@ engine:
     layout:
       type: fan
   players: [south, north, east, west]
-how_to_play: "A standard French-suited deck supports 18 games spanning climbing, trick-taking, draw-and-discard, poker, pegging, banking, and solitaire families. Four suits (Spades, Hearts, Diamonds, Clubs), thirteen ranks per suit."
+how_to_play: "A standard French-suited deck supports games spanning climbing, trick-taking, draw-and-discard, poker, pegging, banking, and solitaire families. Four suits (Spades, Hearts, Diamonds, Clubs), thirteen ranks per suit."
 mechanics:
   - trick-taking
   - melding

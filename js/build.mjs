@@ -669,16 +669,6 @@ function buildLanding() {
     return `games/${slug}/logos/${logo}`;
   }
 
-  // Count total variants and component games across all games
-  let totalVariants = 0;
-  for (const slug of allSlugs) {
-    const varDir = resolve(GAMES_DIR, slug, 'content/variants');
-    if (existsSync(varDir)) {
-      totalVariants += readdirSync(varDir).filter(f => f.endsWith('.md')).length;
-    }
-    totalVariants += listComponentGames(resolve(GAMES_DIR, slug, 'content/games')).length;
-  }
-
   const cards = visible.map(g => {
     const logo = logoPath(g.slug);
     const logoImg = logo ? `<img class="card-logo" src="${logo}" alt="">` : '';
@@ -739,8 +729,8 @@ function buildLanding() {
     <h1 class="hero-title">Game Rulebooks</h1>
     <p class="hero-desc">Open rulebooks for original games, creative mods of published titles, and encyclopaedic coverage of public domain classics. Every rule documented, every variant preserved.</p>
     <div class="hero-stats" id="hero-stats">
-      <span class="hero-stat"><strong id="stat-games">${published.length}</strong> games</span>
-      <span class="hero-stat"><strong id="stat-variants">${totalVariants}</strong> variants</span>
+      <span class="hero-stat"><strong id="stat-games">{{stat_games}}</strong> games</span>
+      <span class="hero-stat"><strong id="stat-variants">{{stat_variants}}</strong> variants</span>
     </div>
     <div class="hero-actions">
       <a href="diagrams/" class="hero-link">Diagrams</a>
@@ -1285,5 +1275,20 @@ buildSearchIndex();
 // API generation runs after search index is built (it copies rules-index.json)
 import { execSync } from 'child_process';
 execSync('node js/build-api.mjs', { cwd: ROOT, stdio: 'inherit' });
+
+// The homepage's numbers come from stats.json, which only exists once the API
+// step has run. The landing page used to count for itself, and a third copy of
+// the sum lived in the API page: three derivations of one number, and the
+// homepage showed 334 while stats.json said 336.
+function applyLandingStats() {
+  const stats = JSON.parse(readFileSync(resolve(DIST_DIR, 'api', 'stats.json'), 'utf8'));
+  for (const file of [resolve(ROOT, 'index.html'), resolve(DIST_DIR, 'index.html')]) {
+    const html = readFileSync(file, 'utf8')
+      .replace('{{stat_games}}', String(stats.games.total))
+      .replace('{{stat_variants}}', String(stats.content.variantsAndGames));
+    writeFileSync(file, html);
+  }
+}
+applyLandingStats();
 
 console.log('Build complete.');

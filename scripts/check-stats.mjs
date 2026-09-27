@@ -85,6 +85,23 @@ if (stats.content.subPages !== actualSubPages) {
   errors.push(`content.subPages: stats=${stats.content.subPages}, actual=${actualSubPages}`);
 }
 
+if (stats.content.variantsAndGames !== actualVariants + actualComponentGames) {
+  errors.push(`content.variantsAndGames: stats=${stats.content.variantsAndGames}, actual=${actualVariants + actualComponentGames}`);
+}
+
+// The homepage shows two of these numbers. They are filled from stats.json at
+// build time, and must still say what stats.json says.
+for (const page of ['index.html', 'dist/index.html']) {
+  const html = readFileSync(resolve(ROOT, page), 'utf8');
+  const shown = id => (html.match(new RegExp(`id="${id}">([^<]*)<`)) || [])[1];
+  if (shown('stat-games') !== String(stats.games.total)) {
+    errors.push(`${page} stat-games: page=${shown('stat-games')}, stats=${stats.games.total}`);
+  }
+  if (shown('stat-variants') !== String(stats.content.variantsAndGames)) {
+    errors.push(`${page} stat-variants: page=${shown('stat-variants')}, stats=${stats.content.variantsAndGames}`);
+  }
+}
+
 const pdfManifestPath = resolve(ROOT, 'pdf-manifest.json');
 if (existsSync(pdfManifestPath)) {
   const pm = JSON.parse(readFileSync(pdfManifestPath, 'utf8'));

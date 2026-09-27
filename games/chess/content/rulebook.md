@@ -61,7 +61,7 @@ unsupported:
 
 ## Variant Library
 
-Moddable Chess includes {{variant_count}} playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.
+Moddable Chess includes {{variant_count}} variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.
 
 ### Standard Board (8x8)
 

@@ -604,6 +604,8 @@ const stats = {
   content: {
     variants: catalogueStats.totalVariants,
     componentGames: catalogueStats.totalComponentGames,
+    // What the homepage calls "variants": every variant and component game.
+    variantsAndGames: catalogueStats.totalVariants + catalogueStats.totalComponentGames,
     subPages: catalogueStats.totalPages,
     totalRulePages: catalogueStats.totalVariants + catalogueStats.totalComponentGames + catalogueStats.totalPages,
   },
