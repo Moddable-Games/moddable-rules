@@ -69,13 +69,12 @@ The table below describes in general terms how likely it is that a given square 
 
 ##### Category of Forest
 
-| Category of Forest   
----|---  
-Sparse| Medium| Dense  
-Typical trees| 50%| 70%| 80%  
-Massive trees| --| 10%| 20%  
-Light undergrowth| 50%| 70%| 50%  
-Heavy undergrowth| --| 20%| 50%
+|  | Sparse | Medium | Dense |
+|---|---|---|---|
+| Typical trees | 50% | 70% | 80% |
+| Massive trees | -- | 10% | 20% |
+| Light undergrowth | 50% | 70% | 50% |
+| Heavy undergrowth | -- | 20% | 50% |
 
 ##### Trees
 
@@ -131,13 +130,12 @@ Two categories of marsh exist: relatively dry moors and watery swamps. Both are 
 
 ##### Marsh Category
 
-| Marsh Category  
----|---  
-Moor| Swamp  
-Shallow bog| 20%| 40%  
-Deep bog| 5%| 20%  
-Light undergrowth| 30%| 20%  
-Heavy undergrowth| 10%| 20%
+|  | Moor | Swamp |
+|---|---|---|
+| Shallow bog | 20% | 40% |
+| Deep bog | 5% | 20% |
+| Light undergrowth | 30% | 20% |
+| Heavy undergrowth | 10% | 20% |
 
 ##### Bogs
 
@@ -189,13 +187,12 @@ A hill can exist in most other types of terrain, but hills can also dominate the
 
 ##### Hills Category
 
-| Hills Category  
----|---  
-Gentle Hills| Rugged Hills  
-Gradual slope| 75%| 40%  
-Steep slope| 20%| 50%  
-Cliff| 5%| 10%  
-Light undergrowth| 15%| 15%
+|  | Gentle Hills | Rugged Hills |
+|---|---|---|
+| Gradual slope | 75% | 40% |
+| Steep slope | 20% | 50% |
+| Cliff | 5% | 10% |
+| Light undergrowth | 15% | 15% |
 
 ##### Gradual Slope
 
@@ -231,16 +228,15 @@ Mountains have an important terrain element, the rock wall, that is marked on th
 
 ##### Mountain Category
 
-| Mountain Category  
----|---  
-Alpine Meadow| Rugged| Forbidding  
-Gradual slope| 50%| 25%| 15%  
-Steep slope| 40%| 55%| 55%  
-Cliff| 10%| 15%| 20%  
-Chasm| --| 5%| 10%  
-Light undergrowth| 20%| 10%| --  
-Scree| --| 20%| 30%  
-Dense rubble| --| 20%| 30%
+|  | Alpine Meadow | Rugged | Forbidding |
+|---|---|---|---|
+| Gradual slope | 50% | 25% | 15% |
+| Steep slope | 40% | 55% | 55% |
+| Cliff | 10% | 15% | 20% |
+| Chasm | -- | 5% | 10% |
+| Light undergrowth | 20% | 10% | -- |
+| Scree | -- | 20% | 30% |
+| Dense rubble | -- | 20% | 30% |
 
 ##### Gradual and Steep Slopes
 
@@ -332,14 +328,13 @@ The table below describes terrain elements found in each of the three desert cat
 
 ##### Desert Category
 
-| Desert Category  
----|---  
-Tundra| Rocky| Sandy  
-Light undergrowth| 15%| 5%| 5%  
-Ice sheet| 25%| --| --  
-Light rubble| 5%| 30%| 10%  
-Dense rubble| --| 30%| 5%  
-Sand dunes| --| --| 50%
+|  | Tundra | Rocky | Sandy |
+|---|---|---|---|
+| Light undergrowth | 15% | 5% | 5% |
+| Ice sheet | 25% | -- | -- |
+| Light rubble | 5% | 30% | 10% |
+| Dense rubble | -- | 30% | 5% |
+| Sand dunes | -- | -- | 50% |
 
 ##### Light Undergrowth
 
@@ -383,14 +378,13 @@ The terrain elements in the table below are mutually exclusive.
 
 ##### Plains Category
 
-| Plains Category  
----|---  
-Farm| Grassland| Battlefield  
-Light undergrowth| 40%| 20%| 10%  
-Heavy undergrowth| --| 10%| --  
-Light rubble| --| --| 10%  
-Trench| 5%| --| 5%  
-Berm| --| --| 5%
+|  | Farm | Grassland | Battlefield |
+|---|---|---|---|
+| Light undergrowth | 40% | 20% | 10% |
+| Heavy undergrowth | -- | 10% | -- |
+| Light rubble | -- | -- | 10% |
+| Trench | 5% | -- | 5% |
+| Berm | -- | -- | 5% |
 
 ##### Undergrowth
 

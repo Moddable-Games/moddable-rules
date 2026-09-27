@@ -143,6 +143,17 @@ export function buildPaginateScript(pageHMm, padMm) {
     return h <= CONTENT_H;
   }
 
+  // A short paragraph that is nothing but bold or italic text is a label for
+  // what follows it, as a heading is: Pathfinder's "Tools and Skill Kits" sat
+  // at a page foot with its table overleaf.
+  function isLabel(el) {
+    if (el.tagName !== 'P' || el.children.length !== 1) return false;
+    const only = el.children[0];
+    if (!/^(STRONG|EM|B|I)$/.test(only.tagName)) return false;
+    const text = el.textContent.trim();
+    return text.length > 0 && text.length <= 80 && text === only.textContent.trim();
+  }
+
   let groups = [];
   let i = 0;
   while (i < children.length) {
@@ -169,6 +180,10 @@ export function buildPaginateScript(pageHMm, padMm) {
       }
       groups.push({ els: grp, newPage: false });
       i += grp.length;
+    } else if (isLabel(el) && i + 1 < children.length && fitsWith([el], children[i + 1])) {
+      // A label paragraph stays with what it names
+      groups.push({ els: [el, children[i + 1]], newPage: false });
+      i += 2;
     } else if (el.tagName === 'DIV' && /box|highlight|meltdown/.test(el.className)) {
       // Callout boxes: attach to preceding group if possible
       if (groups.length > 0 && !groups[groups.length - 1].newPage) {

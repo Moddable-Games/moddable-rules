@@ -2,7 +2,7 @@
 title: "Pathfinder 1st Edition (PFSRD)"
 short_title: "Pathfinder 1e"
 display_title: "Pathfinder<br>1st Edition"
-version: "0.1.0"
+version: "0.1.1"
 slug: "pathfinder-1e"
 players: "2–7"
 duration: "varies"
@@ -10,7 +10,7 @@ age: "13+"
 tagline: "Paizo's fork of D&D 3.5, the most complete open ruleset in existence"
 type: "rpg"
 status: "live"
-updated: "2026-07-21"
+updated: "2026-09-27"
 published: true
 variants: false
 theme:

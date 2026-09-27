@@ -41,11 +41,11 @@ Someone who is neutral with respect to law and chaos has some respect for author
 
 Occasionally the rules refer to "steps" when dealing with alignment. In this case, "steps" refers to the number of alignment shifts between the two alignments, as shown on the following diagram. Note that diagonal "steps" count as two steps. For example, a lawful neutral character is one step away from a lawful good alignment, and three steps away from a chaotic evil alignment. A cleric's alignment must be within one step of the alignment of her deity.
 
-| **Lawful**| **Neutral**| **Chaotic**  
----|---|---|---  
-Good| Lawful Good| Neutral Good| Chaotic Good  
-Neutral| Lawful Neutral| Neutral| Chaotic Neutral  
-Evil| Lawful Evil| Neutral Evil| Chaotic Evil
+|  | **Lawful** | **Neutral** | **Chaotic** |
+|---|---|---|---|
+| Good | Lawful Good | Neutral Good | Chaotic Good |
+| Neutral | Lawful Neutral | Neutral | Chaotic Neutral |
+| Evil | Lawful Evil | Neutral Evil | Chaotic Evil |
 
 #### The Nine Alignments
 

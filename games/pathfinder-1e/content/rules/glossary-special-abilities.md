@@ -25,12 +25,12 @@ Supernatural abilities are magical but not spell-like. Supernatural abilities ar
 
 #### Table: Special Ability Types
 
-| Extraordinary| Spell-Like| Supernatural  
----|---|---|---  
-Dispel| No| Yes| No  
-Spell resistance| No| Yes| No  
-Antimagic field| No| Yes| Yes  
-Attack of opportunity| No| Yes| No  
+|  | Extraordinary | Spell-Like | Supernatural |
+|---|---|---|---|
+| Dispel | No | Yes | No |
+| Spell resistance | No | Yes | No |
+| Antimagic field | No | Yes | Yes |
+| Attack of opportunity | No | Yes | No |
  _Dispel_ : Can _dispel magic_ and similar spells dispel the effects of abilities of that type?  
 _Spell Resistance_ : Does spell resistance protect a creature from these abilities?  
 _Antimagic Field_ : Does an _antimagic field_ or similar magic suppress the ability?  

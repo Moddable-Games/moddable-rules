@@ -53,6 +53,11 @@ jobs:
       - name: Build (for stats check)
         run: npm run build
 
+      # A table markdown-it rejects renders as a paragraph of pipe text, and
+      # nothing fails: nine Pathfinder tables did this (#285).
+      - name: Check tables render as tables
+        run: node scripts/check-pipe-tables.mjs
+
       - name: Check stats freshness
         run: node scripts/check-stats.mjs
 
