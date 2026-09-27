@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Royal Game of Ur (Standard)
 slug: standard
 board: "3×8 with voids"

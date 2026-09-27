@@ -39,6 +39,40 @@ engine:
   pieces:
     set: playstrategy-go-classic
   players: [white, black]
+  # A race round the circle, played by the race plugin. Stations are the
+  # board's nodes: n1 is Start, n2-n20 run round the outside, n6, n11 and n16
+  # are the corners after it, and n21 is the centre.
+  plugin: race
+  plugins:
+    nyout:
+      vocabulary: { piece: { symbols: { 0: S, 1: s } } }
+      pieces: 4
+      routes:
+        outer: [n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20]
+        # From the first corner through the centre to the far corner, then on
+        # round the outside.
+        first: [n6, n29, n28, n21, n27, n26, n16, n17, n18, n19, n20]
+        # From the second corner through the centre to Start.
+        second: [n11, n22, n23, n21, n24, n25]
+        # From the centre, the short way home.
+        centre: [n21, n24, n25]
+      seatRoutes: outer
+      # "If a token lands on one of the corner positions, it may take a
+      # shortcut through the center on subsequent moves."
+      shortcuts:
+        - { at: n6, take: first }
+        - { at: n11, take: second }
+        - { at: n21, take: centre }
+      # Four sticks: the flat sides up, and none counts 5 (Mo). Yut and Mo
+      # throw again at once, and the throws are played afterwards.
+      throw: { lots: 4, scores: { 0: 5 }, again: [4, 5], bank: true }
+      # "A token that passes or lands on Start exits the board."
+      bearOff: over
+      # A token landed on goes back to start, and the capturer throws again.
+      contact: capture
+      captureRethrow: true
+      # Tokens that meet on one station move on together as a horse.
+      stack: true
 how_to_play: "Throw four sticks to generate movement values. Race tokens around a circular track with shortcut branches. Capture opponent tokens to send them back to start. Stack tokens for combined movement but risk losing multiple at once. First team to move all tokens home wins."
 mechanics:
   - dice-throwing
@@ -51,9 +85,6 @@ related:
   - pachisi
   - royal-ur
   - backgammon
-unsupported:
-  _family: "No rules plugin. Nyout is a circuit race with four throwing sticks and shortcut paths across the circle, so a piece's route depends on where it entered the diameter. Branching tracks are not modelled - the engine has no track topology at all beyond a straight line."
-  standard: "Blocked on the plugin alone."
 ---
 
 ## Nyout (Yut Nori / 유놓이)

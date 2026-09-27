@@ -27,21 +27,39 @@ engine:
     type: grid
     rows: 3
     cols: 10
-    path: boustrophedon
   players: [cone, spool]
-  pieces:
-    cone: 5
-    spool: 5
-  setup:
-    cone: [1, 3, 5, 7, 9]
-    spool: [2, 4, 6, 8, 10]
-  special:
-    15: { name: "House of Rebirth", effect: "rebirth-target" }
-    26: { name: "House of Happiness", effect: "mandatory-stop" }
-    27: { name: "House of Water", effect: "send-to-15" }
-    28: { name: "House of Three Truths", effect: "exit-on-3", protected: true }
-    29: { name: "House of Re-Atoum", effect: "exit-on-2", protected: true }
-    30: { name: "House of Horus", effect: "exit-on-1" }
+  # A race along the thirty squares, played by the race plugin.
+  plugin: race
+  plugins:
+    senet:
+      vocabulary: { piece: { symbols: { 0: M, 1: m } } }
+      pieces: 5
+      # Squares 1-10 left to right along the top row, 11-20 back along the
+      # middle row, 21-30 left to right along the bottom.
+      routes:
+        path: [[0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[0,9],[1,9],[1,8],[1,7],[1,6],[1,5],[1,4],[1,3],[1,2],[1,1],[1,0],[2,0],[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[2,9]]
+      seatRoutes: path
+      # "Cone on 1, Spool on 2, Cone on 3, Spool on 4, and so on."
+      start:
+        - [[0,0],[0,2],[0,4],[0,6],[0,8]]
+        - [[0,1],[0,3],[0,5],[0,7],[0,9]]
+      # Four sticks: the light sides up, and all dark counts 5. A 1, 4 or 5
+      # throws again after moving.
+      throw: { lots: 4, scores: { 0: 5 }, again: [1, 4, 5] }
+      # Landing on an opponent swaps the two.
+      contact: swap
+      # 28 and 29 are protected, and so is a pair of one side's pieces.
+      safe: [[2,7],[2,8]]
+      pairsSafe: true
+      blockade: 3
+      # Every piece lands on 26, the House of Happiness, before going on.
+      mustStop: [[2,5]]
+      # The House of Water sends a piece back to the House of Rebirth.
+      sendBack: { from: [2,6], to: [1,5] }
+      # Off from 28 with a 3, 29 with a 2 and 30 with a 1: one past the end.
+      bearOff: exact
+      bearOffFrom: [[2,7],[2,8],[2,9]]
+      whenBlocked: backward
 how_to_play: "Race five pieces along a 30-square winding path. Throw four sticks for movement. Capture opponent pieces by swapping positions. Special squares grant protection, send pieces backward, or require exact throws to bear off. Blockades of three or more pieces cannot be passed."
 mechanics:
   - race
@@ -54,9 +72,12 @@ related:
   - royal-ur
   - pachisi
   - backgammon
-unsupported:
-  _family: "No rules plugin. Senet needs throwing sticks, a boustrophedon track across three rows, swapping with a landed-on piece rather than capturing it, and the special squares in the last row that send a piece back to the House of Rebirth. None of the track exists."
-  standard: "The Kendall reconstruction is the ruleset this would implement; it is blocked on the plugin alone."
+approximations:
+  - feature: "Forced backward movement"
+    source: "This rulebook, Forced Backward Movement"
+    says: "If your only legal move would land on a square occupied by your own piece, you must instead move one of your pieces backward to the nearest empty square."
+    engine: "When no piece can move forward with the throw, a piece moves back to the nearest empty square behind it; with no such square either, the turn is forfeited."
+    because: "A move onto your own piece is not a legal move, so the rule is read as applying when no forward move is left."
 ---
 
 <div class="section">
