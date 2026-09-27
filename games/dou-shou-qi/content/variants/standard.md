@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Dou Shou Qi (Standard)
 slug: standard
 board: "9×7"

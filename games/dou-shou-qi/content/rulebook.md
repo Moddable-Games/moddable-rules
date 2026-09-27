@@ -46,9 +46,86 @@ engine:
   pieces:
     set: mce-jungle
   players: [white, black]
-unsupported:
-  _family: "No rules plugin. Dou Shou Qi ranks eight animals, lets the Rat swim and the Rat alone attack the Elephant, drowns other pieces that enter water, weakens a piece standing in the opponent's trap, and is won by reaching the opponent's den. Terrain that changes a piece's strength and legality is not modelled anywhere."
-  standard: "Blocked on the plugin alone."
+  # Ranked pieces on terrain are what the chess plugin already reads, so it
+  # plays this game with the declarations below.
+  plugin: chess
+  plugins:
+    dou-shou-qi:
+      castling: false
+      enPassant: false
+      noCheck: true
+      # "An alternative way to win is to capture all the opponent's pieces":
+      # a side with nothing left to move has lost.
+      stalemateMeaning: loss
+      # Row 0 is Black's back rank. Per-seat lists are White's, then Black's.
+      regions:
+        water: { cells: [[3,1],[3,2],[3,4],[3,5],[4,1],[4,2],[4,4],[4,5],[5,1],[5,2],[5,4],[5,5]] }
+        ownDen: { cells: [[[8,3]], [[0,3]]] }
+        enemyDen: { cells: [[[0,3]], [[8,3]]] }
+        enemyTraps: { cells: [[[0,2],[0,4],[1,3]], [[8,2],[8,4],[7,3]]] }
+        # "A piece may not move into its own den", and only the Rat swims.
+        land: { not: [water, ownDen] }
+        notOwnDen: { not: [ownDen] }
+      goal:
+        in: enemyDen
+      ranks:
+        order: { rat: 1, cat: 2, dog: 3, wolf: 4, leopard: 5, tiger: 6, lion: 7, elephant: 8 }
+        # "The rat can kill an elephant"; the elephant cannot kill the rat.
+        also:
+          - { piece: rat, takes: elephant }
+        never:
+          - { piece: elephant, takes: rat }
+      terrain:
+        # A piece in an opponent's trap is reduced to rank 0.
+        weaken:
+          - { in: enemyTraps, rank: 0 }
+        # "A rat in the water is invulnerable to capture by any piece on land",
+        # and kills an elephant "only from a land square".
+        noCaptureAcross: [water]
+      vocabulary:
+        # R and P are the Rat and the Leopard here.
+        rook: { symbols: {} }
+        pawn: { symbols: {} }
+        elephant: { symbols: { 0: E, 1: e } }
+        lion: { symbols: { 0: L, 1: l } }
+        tiger: { symbols: { 0: T, 1: t } }
+        leopard: { symbols: { 0: P, 1: p } }
+        wolf: { symbols: { 0: W, 1: w } }
+        dog: { symbols: { 0: D, 1: d } }
+        cat: { symbols: { 0: C, 1: c } }
+        rat: { symbols: { 0: R, 1: r } }
+      pieces:
+        # Every animal steps one square orthogonally over land.
+        elephant: { type: rider, dirs: orthogonal, maxSteps: 1, confine: land }
+        leopard: { type: rider, dirs: orthogonal, maxSteps: 1, confine: land }
+        wolf: { type: rider, dirs: orthogonal, maxSteps: 1, confine: land }
+        dog: { type: rider, dirs: orthogonal, maxSteps: 1, confine: land }
+        cat: { type: rider, dirs: orthogonal, maxSteps: 1, confine: land }
+        # The Rat alone may enter the water.
+        rat: { type: rider, dirs: orthogonal, maxSteps: 1, confine: notOwnDen }
+        # The Lion and Tiger also leap the river to the next land square, and a
+        # Rat of either colour in the water on the way blocks the leap.
+        lion:
+          type: compose
+          parts:
+            - { type: rider, dirs: orthogonal, maxSteps: 1, confine: land }
+            - { type: cross, dirs: orthogonal, over: water }
+        tiger:
+          type: compose
+          parts:
+            - { type: rider, dirs: orthogonal, maxSteps: 1, confine: land }
+            - { type: cross, dirs: orthogonal, over: water }
+disputed:
+  - feature: "Whether a piece may enter its own traps"
+    readings:
+      - source: "en.wikipedia.org/wiki/Jungle_(board_game), Rules, checked 2026-09-27"
+        says: "Either side may enter any trap"
+        describes: "Animals of either side can move into and out of any trap square."
+      - source: "This rulebook, Traps, before 2026-09-27"
+        says: "A piece may not enter its own traps"
+        describes: "Pieces cannot enter their own trap squares (they are only dangerous to the opponent)."
+    engine: "Either side may enter any trap"
+    because: "The rulebook names Wikipedia as its source, and Wikipedia says the opposite. A trap weakens only an opponent's piece, so entering your own does nothing either way."
 ---
 
 ## Dou Shou Qi (斗兽棋 / Jungle)
@@ -128,7 +205,7 @@ A piece captures by moving onto an opponent’s piece’s square:
 When an animal enters an opponent’s trap square, it loses all rank advantages:
 - A trapped piece may be captured by any opponent’s piece, regardless of rank.
 - A trapped piece regains its rank if it moves off the trap square.
-- Pieces cannot enter their own trap squares (they are only dangerous to the opponent).
+- Either side may move into and out of any trap square; a trap weakens only an opponent's piece.
 
 ### Win Conditions
 
