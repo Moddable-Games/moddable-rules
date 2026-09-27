@@ -1,14 +1,14 @@
 {
   "generated": "2026-09-27",
-  "total": 665,
-  "totalPages": 9777,
+  "total": 686,
+  "totalPages": 11085,
   "families": 50,
   "byType": {
-    "rulebook": 100,
-    "library": 34,
+    "rulebook": 110,
+    "library": 42,
     "variant": 284,
-    "complete": 32,
-    "componentGame": 38,
+    "complete": 33,
+    "componentGame": 40,
     "subPage": 177
   },
   "files": [
@@ -67,6 +67,12 @@
       "pages": 3
     },
     {
+      "path": "backgammon/pdf/backgammon-rulebook-v0.1.2.pdf",
+      "family": "backgammon",
+      "type": "rulebook",
+      "pages": 3
+    },
+    {
       "path": "backgammon/pdf/backgammon-rulebook.pdf",
       "family": "backgammon",
       "type": "rulebook",
@@ -74,6 +80,12 @@
     },
     {
       "path": "backgammon/pdf/backgammon-variant-library-v0.1.1.pdf",
+      "family": "backgammon",
+      "type": "library",
+      "pages": 29
+    },
+    {
+      "path": "backgammon/pdf/backgammon-variant-library-v0.1.2.pdf",
       "family": "backgammon",
       "type": "library",
       "pages": 29
@@ -184,13 +196,13 @@
       "path": "brp/pdf/brp-complete-v0.1.0.pdf",
       "family": "brp",
       "type": "complete",
-      "pages": 32
+      "pages": 33
     },
     {
       "path": "brp/pdf/brp-complete.pdf",
       "family": "brp",
       "type": "complete",
-      "pages": 32
+      "pages": 33
     },
     {
       "path": "brp/pdf/brp-rulebook-v0.1.0.pdf",
@@ -214,7 +226,7 @@
       "path": "brp/pdf/rules/character-sheet.pdf",
       "family": "brp",
       "type": "subPage",
-      "pages": 1
+      "pages": 2
     },
     {
       "path": "brp/pdf/rules/combat.pdf",
@@ -256,13 +268,13 @@
       "path": "cairn/pdf/cairn-complete-v0.1.0.pdf",
       "family": "cairn",
       "type": "complete",
-      "pages": 111
+      "pages": 114
     },
     {
       "path": "cairn/pdf/cairn-complete.pdf",
       "family": "cairn",
       "type": "complete",
-      "pages": 111
+      "pages": 114
     },
     {
       "path": "cairn/pdf/cairn-rulebook-v0.1.0.pdf",
@@ -292,7 +304,7 @@
       "path": "cairn/pdf/rules/character-sheet.pdf",
       "family": "cairn",
       "type": "subPage",
-      "pages": 1
+      "pages": 2
     },
     {
       "path": "cairn/pdf/rules/combat-and-difficulty.pdf",
@@ -340,7 +352,7 @@
       "path": "cairn/pdf/rules/marketplace.pdf",
       "family": "cairn",
       "type": "subPage",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "cairn/pdf/rules/naming-procedures.pdf",
@@ -358,7 +370,7 @@
       "path": "cairn/pdf/rules/procedures.pdf",
       "family": "cairn",
       "type": "subPage",
-      "pages": 10
+      "pages": 11
     },
     {
       "path": "cairn/pdf/rules/saves-and-perception.pdf",
@@ -391,6 +403,12 @@
       "pages": 9
     },
     {
+      "path": "chess/pdf/chess-rulebook-v0.6.2.pdf",
+      "family": "chess",
+      "type": "rulebook",
+      "pages": 9
+    },
+    {
       "path": "chess/pdf/chess-rulebook.pdf",
       "family": "chess",
       "type": "rulebook",
@@ -403,10 +421,16 @@
       "pages": 561
     },
     {
+      "path": "chess/pdf/chess-variant-library-v0.6.2.pdf",
+      "family": "chess",
+      "type": "library",
+      "pages": 580
+    },
+    {
       "path": "chess/pdf/chess-variant-library.pdf",
       "family": "chess",
       "type": "library",
-      "pages": 561
+      "pages": 580
     },
     {
       "path": "chess/pdf/variants/absorption.pdf",
@@ -628,13 +652,13 @@
       "path": "chess/pdf/variants/cylindrical-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 5
     },
     {
       "path": "chess/pdf/variants/dark-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/de-vasa.pdf",
@@ -856,7 +880,7 @@
       "path": "chess/pdf/variants/klein-bottle-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 5
     },
     {
       "path": "chess/pdf/variants/knightmate.pdf",
@@ -916,7 +940,7 @@
       "path": "chess/pdf/variants/mansindam.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 7
+      "pages": 8
     },
     {
       "path": "chess/pdf/variants/marseillais.pdf",
@@ -928,7 +952,7 @@
       "path": "chess/pdf/variants/mccooey.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/medusa-chess.pdf",
@@ -946,7 +970,7 @@
       "path": "chess/pdf/variants/mini-hexchess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/minichess.pdf",
@@ -958,7 +982,7 @@
       "path": "chess/pdf/variants/mobius-strip-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 5
     },
     {
       "path": "chess/pdf/variants/monster-chess.pdf",
@@ -1066,7 +1090,7 @@
       "path": "chess/pdf/variants/progressive-italian.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 2
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/progressive.pdf",
@@ -1084,7 +1108,7 @@
       "path": "chess/pdf/variants/raumschach.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 5
+      "pages": 6
     },
     {
       "path": "chess/pdf/variants/recruitment-chess.pdf",
@@ -1102,7 +1126,7 @@
       "path": "chess/pdf/variants/rollerball.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 4
+      "pages": 5
     },
     {
       "path": "chess/pdf/variants/romanchenkos-chess.pdf",
@@ -1180,7 +1204,7 @@
       "path": "chess/pdf/variants/sittuyin.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 4
+      "pages": 5
     },
     {
       "path": "chess/pdf/variants/spartan.pdf",
@@ -1192,7 +1216,7 @@
       "path": "chess/pdf/variants/spherical-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 5
     },
     {
       "path": "chess/pdf/variants/stalemate-wins.pdf",
@@ -1252,13 +1276,13 @@
       "path": "chess/pdf/variants/toroidal-byzantine.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 4
+      "pages": 5
     },
     {
       "path": "chess/pdf/variants/toroidal-chess.pdf",
       "family": "chess",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "chess/pdf/variants/torpedo.pdf",
@@ -1336,7 +1360,7 @@
       "path": "dnd-5e/pdf/classes/bard.pdf",
       "family": "dnd-5e",
       "type": "subPage",
-      "pages": 6
+      "pages": 7
     },
     {
       "path": "dnd-5e/pdf/classes/cleric.pdf",
@@ -1402,13 +1426,13 @@
       "path": "dnd-5e/pdf/dnd-5e-complete-v0.1.0.pdf",
       "family": "dnd-5e",
       "type": "complete",
-      "pages": 734
+      "pages": 744
     },
     {
       "path": "dnd-5e/pdf/dnd-5e-complete.pdf",
       "family": "dnd-5e",
       "type": "complete",
-      "pages": 734
+      "pages": 744
     },
     {
       "path": "dnd-5e/pdf/dnd-5e-rulebook-v0.1.0.pdf",
@@ -1450,13 +1474,13 @@
       "path": "dnd-5e/pdf/magic-items/m-o.pdf",
       "family": "dnd-5e",
       "type": "subPage",
-      "pages": 6
+      "pages": 7
     },
     {
       "path": "dnd-5e/pdf/magic-items/p-r.pdf",
       "family": "dnd-5e",
       "type": "subPage",
-      "pages": 19
+      "pages": 20
     },
     {
       "path": "dnd-5e/pdf/magic-items/s-u.pdf",
@@ -1546,7 +1570,7 @@
       "path": "dnd-5e/pdf/rules/combat.pdf",
       "family": "dnd-5e",
       "type": "subPage",
-      "pages": 17
+      "pages": 18
     },
     {
       "path": "dnd-5e/pdf/rules/conditions.pdf",
@@ -1558,7 +1582,7 @@
       "path": "dnd-5e/pdf/rules/equipment.pdf",
       "family": "dnd-5e",
       "type": "subPage",
-      "pages": 21
+      "pages": 26
     },
     {
       "path": "dnd-5e/pdf/rules/feats.pdf",
@@ -1582,7 +1606,7 @@
       "path": "dnd-5e/pdf/spells/cantrips.pdf",
       "family": "dnd-5e",
       "type": "subPage",
-      "pages": 9
+      "pages": 10
     },
     {
       "path": "dnd-5e/pdf/spells/level-1.pdf",
@@ -1666,13 +1690,13 @@
       "path": "double-six-dominoes/pdf/double-six-dominoes-complete-v0.1.1.pdf",
       "family": "double-six-dominoes",
       "type": "complete",
-      "pages": 16
+      "pages": 17
     },
     {
       "path": "double-six-dominoes/pdf/double-six-dominoes-complete.pdf",
       "family": "double-six-dominoes",
       "type": "complete",
-      "pages": 16
+      "pages": 17
     },
     {
       "path": "double-six-dominoes/pdf/double-six-dominoes-rulebook-v0.1.1.pdf",
@@ -1702,7 +1726,7 @@
       "path": "double-six-dominoes/pdf/games/chickenfoot.pdf",
       "family": "double-six-dominoes",
       "type": "componentGame",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "double-six-dominoes/pdf/games/mexican-train.pdf",
@@ -1712,6 +1736,12 @@
     },
     {
       "path": "draughts/pdf/draughts-rulebook-v0.3.1.pdf",
+      "family": "draughts",
+      "type": "rulebook",
+      "pages": 4
+    },
+    {
+      "path": "draughts/pdf/draughts-rulebook-v0.3.2.pdf",
       "family": "draughts",
       "type": "rulebook",
       "pages": 4
@@ -1729,10 +1759,16 @@
       "pages": 78
     },
     {
+      "path": "draughts/pdf/draughts-variant-library-v0.3.2.pdf",
+      "family": "draughts",
+      "type": "library",
+      "pages": 79
+    },
+    {
       "path": "draughts/pdf/draughts-variant-library.pdf",
       "family": "draughts",
       "type": "library",
-      "pages": 78
+      "pages": 79
     },
     {
       "path": "draughts/pdf/variants/alquerque.pdf",
@@ -1846,7 +1882,7 @@
       "path": "draughts/pdf/variants/thai.pdf",
       "family": "draughts",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "draughts/pdf/variants/turkish-draughts.pdf",
@@ -1870,13 +1906,13 @@
       "path": "dungeon-world/pdf/dungeon-world-complete-v0.1.0.pdf",
       "family": "dungeon-world",
       "type": "complete",
-      "pages": 114
+      "pages": 126
     },
     {
       "path": "dungeon-world/pdf/dungeon-world-complete.pdf",
       "family": "dungeon-world",
       "type": "complete",
-      "pages": 114
+      "pages": 126
     },
     {
       "path": "dungeon-world/pdf/dungeon-world-rulebook-v0.1.0.pdf",
@@ -1936,7 +1972,7 @@
       "path": "dungeon-world/pdf/rules/druid.pdf",
       "family": "dungeon-world",
       "type": "subPage",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "dungeon-world/pdf/rules/equipment.pdf",
@@ -1972,7 +2008,7 @@
       "path": "dungeon-world/pdf/rules/instant-npcs.pdf",
       "family": "dungeon-world",
       "type": "subPage",
-      "pages": 3
+      "pages": 13
     },
     {
       "path": "dungeon-world/pdf/rules/introduction.pdf",
@@ -2020,7 +2056,7 @@
       "path": "dungeon-world/pdf/rules/the-gm.pdf",
       "family": "dungeon-world",
       "type": "subPage",
-      "pages": 5
+      "pages": 6
     },
     {
       "path": "dungeon-world/pdf/rules/the-world.pdf",
@@ -2042,6 +2078,12 @@
     },
     {
       "path": "econopoly/pdf/econopoly-rulebook-v0.2.0.pdf",
+      "family": "econopoly",
+      "type": "rulebook",
+      "pages": 10
+    },
+    {
+      "path": "econopoly/pdf/econopoly-rulebook-v0.2.1.pdf",
       "family": "econopoly",
       "type": "rulebook",
       "pages": 10
@@ -2080,13 +2122,13 @@
       "path": "fate-core/pdf/fate-core-complete-v0.1.0.pdf",
       "family": "fate-core",
       "type": "complete",
-      "pages": 97
+      "pages": 98
     },
     {
       "path": "fate-core/pdf/fate-core-complete.pdf",
       "family": "fate-core",
       "type": "complete",
-      "pages": 97
+      "pages": 98
     },
     {
       "path": "fate-core/pdf/fate-core-rulebook-v0.1.0.pdf",
@@ -2134,7 +2176,7 @@
       "path": "fate-core/pdf/rules/character-sheet.pdf",
       "family": "fate-core",
       "type": "subPage",
-      "pages": 1
+      "pages": 2
     },
     {
       "path": "fate-core/pdf/rules/cheat-sheet-and-veterans-guide.pdf",
@@ -2233,6 +2275,12 @@
       "pages": 4
     },
     {
+      "path": "go/pdf/go-rulebook-v0.3.1.pdf",
+      "family": "go",
+      "type": "rulebook",
+      "pages": 4
+    },
+    {
       "path": "go/pdf/go-rulebook.pdf",
       "family": "go",
       "type": "rulebook",
@@ -2240,6 +2288,12 @@
     },
     {
       "path": "go/pdf/go-variant-library-v0.3.0.pdf",
+      "family": "go",
+      "type": "library",
+      "pages": 48
+    },
+    {
+      "path": "go/pdf/go-variant-library-v0.3.1.pdf",
       "family": "go",
       "type": "library",
       "pages": 48
@@ -2350,25 +2404,25 @@
       "path": "halma/pdf/halma-variant-library-v0.1.0.pdf",
       "family": "halma",
       "type": "library",
-      "pages": 9
+      "pages": 11
     },
     {
       "path": "halma/pdf/halma-variant-library.pdf",
       "family": "halma",
       "type": "library",
-      "pages": 9
+      "pages": 11
     },
     {
       "path": "halma/pdf/variants/standard-2p.pdf",
       "family": "halma",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "halma/pdf/variants/standard-4p.pdf",
       "family": "halma",
       "type": "variant",
-      "pages": 3
+      "pages": 4
     },
     {
       "path": "harvesters/pdf/harvesters-rulebook-v0.1.0.pdf",
@@ -2530,13 +2584,13 @@
       "path": "knave/pdf/knave-complete-v0.1.0.pdf",
       "family": "knave",
       "type": "complete",
-      "pages": 17
+      "pages": 19
     },
     {
       "path": "knave/pdf/knave-complete.pdf",
       "family": "knave",
       "type": "complete",
-      "pages": 17
+      "pages": 19
     },
     {
       "path": "knave/pdf/knave-rulebook-v0.1.0.pdf",
@@ -2566,7 +2620,7 @@
       "path": "knave/pdf/rules/equipment.pdf",
       "family": "knave",
       "type": "subPage",
-      "pages": 6
+      "pages": 8
     },
     {
       "path": "knave/pdf/rules/magic.pdf",
@@ -2587,10 +2641,16 @@
       "pages": 7
     },
     {
+      "path": "landlords-game/pdf/landlords-game-rulebook-v0.2.1.pdf",
+      "family": "landlords-game",
+      "type": "rulebook",
+      "pages": 8
+    },
+    {
       "path": "landlords-game/pdf/landlords-game-rulebook.pdf",
       "family": "landlords-game",
       "type": "rulebook",
-      "pages": 7
+      "pages": 8
     },
     {
       "path": "landlords-game/pdf/landlords-game-variant-library-v0.2.0.pdf",
@@ -2599,10 +2659,16 @@
       "pages": 27
     },
     {
+      "path": "landlords-game/pdf/landlords-game-variant-library-v0.2.1.pdf",
+      "family": "landlords-game",
+      "type": "library",
+      "pages": 28
+    },
+    {
       "path": "landlords-game/pdf/landlords-game-variant-library.pdf",
       "family": "landlords-game",
       "type": "library",
-      "pages": 27
+      "pages": 28
     },
     {
       "path": "landlords-game/pdf/variants/1904-original.pdf",
@@ -2641,6 +2707,12 @@
       "pages": 3
     },
     {
+      "path": "lattaque/pdf/lattaque-rulebook-v0.4.1.pdf",
+      "family": "lattaque",
+      "type": "rulebook",
+      "pages": 3
+    },
+    {
       "path": "lattaque/pdf/lattaque-rulebook.pdf",
       "family": "lattaque",
       "type": "rulebook",
@@ -2648,6 +2720,12 @@
     },
     {
       "path": "lattaque/pdf/lattaque-variant-library-v0.4.0.pdf",
+      "family": "lattaque",
+      "type": "library",
+      "pages": 29
+    },
+    {
+      "path": "lattaque/pdf/lattaque-variant-library-v0.4.1.pdf",
       "family": "lattaque",
       "type": "library",
       "pages": 29
@@ -2686,7 +2764,7 @@
       "path": "mahjong/pdf/games/american-classic.pdf",
       "family": "mahjong",
       "type": "componentGame",
-      "pages": 4
+      "pages": 5
     },
     {
       "path": "mahjong/pdf/games/hong-kong.pdf",
@@ -2710,19 +2788,19 @@
       "path": "mahjong/pdf/games/zung-jung.pdf",
       "family": "mahjong",
       "type": "componentGame",
-      "pages": 5
+      "pages": 6
     },
     {
       "path": "mahjong/pdf/mahjong-complete-v0.1.1.pdf",
       "family": "mahjong",
       "type": "complete",
-      "pages": 29
+      "pages": 31
     },
     {
       "path": "mahjong/pdf/mahjong-complete.pdf",
       "family": "mahjong",
       "type": "complete",
-      "pages": 29
+      "pages": 31
     },
     {
       "path": "mahjong/pdf/mahjong-rulebook-v0.1.1.pdf",
@@ -2812,13 +2890,13 @@
       "path": "maze-rats/pdf/maze-rats-complete-v0.1.0.pdf",
       "family": "maze-rats",
       "type": "complete",
-      "pages": 12
+      "pages": 13
     },
     {
       "path": "maze-rats/pdf/maze-rats-complete.pdf",
       "family": "maze-rats",
       "type": "complete",
-      "pages": 12
+      "pages": 13
     },
     {
       "path": "maze-rats/pdf/maze-rats-rulebook-v0.1.0.pdf",
@@ -2842,7 +2920,7 @@
       "path": "maze-rats/pdf/rules/character-sheet.pdf",
       "family": "maze-rats",
       "type": "subPage",
-      "pages": 1
+      "pages": 2
     },
     {
       "path": "maze-rats/pdf/rules/core-rules.pdf",
@@ -2854,13 +2932,13 @@
       "path": "mongo/pdf/mongo-rulebook-v0.9.2.pdf",
       "family": "mongo",
       "type": "rulebook",
-      "pages": 29
+      "pages": 30
     },
     {
       "path": "mongo/pdf/mongo-rulebook.pdf",
       "family": "mongo",
       "type": "rulebook",
-      "pages": 29
+      "pages": 30
     },
     {
       "path": "morris/pdf/morris-rulebook-v0.1.1.pdf",
@@ -2932,13 +3010,13 @@
       "path": "nukes/pdf/nukes-rulebook-v0.9.8.pdf",
       "family": "nukes",
       "type": "rulebook",
-      "pages": 21
+      "pages": 22
     },
     {
       "path": "nukes/pdf/nukes-rulebook.pdf",
       "family": "nukes",
       "type": "rulebook",
-      "pages": 21
+      "pages": 22
     },
     {
       "path": "nukes/pdf/variants/asymmetric-powers.pdf",
@@ -3022,13 +3100,13 @@
       "path": "pathfinder-1e/pdf/pathfinder-1e-complete-v0.1.0.pdf",
       "family": "pathfinder-1e",
       "type": "complete",
-      "pages": 507
+      "pages": 556
     },
     {
       "path": "pathfinder-1e/pdf/pathfinder-1e-complete.pdf",
       "family": "pathfinder-1e",
       "type": "complete",
-      "pages": 507
+      "pages": 556
     },
     {
       "path": "pathfinder-1e/pdf/pathfinder-1e-rulebook-v0.1.0.pdf",
@@ -3046,7 +3124,7 @@
       "path": "pathfinder-1e/pdf/rules/additional-rules.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 19
+      "pages": 20
     },
     {
       "path": "pathfinder-1e/pdf/rules/barbarian.pdf",
@@ -3064,7 +3142,7 @@
       "path": "pathfinder-1e/pdf/rules/bestiary.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 1
+      "pages": 13
     },
     {
       "path": "pathfinder-1e/pdf/rules/character-sheet.pdf",
@@ -3088,7 +3166,7 @@
       "path": "pathfinder-1e/pdf/rules/combat-actions.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 14
+      "pages": 16
     },
     {
       "path": "pathfinder-1e/pdf/rules/combat-maneuvers.pdf",
@@ -3112,13 +3190,13 @@
       "path": "pathfinder-1e/pdf/rules/environment-dungeons.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 22
+      "pages": 23
     },
     {
       "path": "pathfinder-1e/pdf/rules/environment-weather-planes.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 15
+      "pages": 16
     },
     {
       "path": "pathfinder-1e/pdf/rules/environment-wilderness.pdf",
@@ -3130,13 +3208,13 @@
       "path": "pathfinder-1e/pdf/rules/equipment-armor.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 10
+      "pages": 11
     },
     {
       "path": "pathfinder-1e/pdf/rules/equipment-goods-1.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 13
+      "pages": 14
     },
     {
       "path": "pathfinder-1e/pdf/rules/equipment-goods-2.pdf",
@@ -3154,7 +3232,7 @@
       "path": "pathfinder-1e/pdf/rules/equipment-weapons.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 18
+      "pages": 21
     },
     {
       "path": "pathfinder-1e/pdf/rules/feats-combat.pdf",
@@ -3184,7 +3262,7 @@
       "path": "pathfinder-1e/pdf/rules/gamemastering.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 17
+      "pages": 18
     },
     {
       "path": "pathfinder-1e/pdf/rules/getting-started.pdf",
@@ -3250,7 +3328,7 @@
       "path": "pathfinder-1e/pdf/rules/skills-2.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 20
+      "pages": 21
     },
     {
       "path": "pathfinder-1e/pdf/rules/skills.pdf",
@@ -3268,7 +3346,7 @@
       "path": "pathfinder-1e/pdf/rules/spells.pdf",
       "family": "pathfinder-1e",
       "type": "subPage",
-      "pages": 10
+      "pages": 35
     },
     {
       "path": "pathfinder-1e/pdf/rules/wizard.pdf",
@@ -3283,6 +3361,12 @@
       "pages": 3
     },
     {
+      "path": "reversi/pdf/reversi-rulebook-v0.1.1.pdf",
+      "family": "reversi",
+      "type": "rulebook",
+      "pages": 3
+    },
+    {
       "path": "reversi/pdf/reversi-rulebook.pdf",
       "family": "reversi",
       "type": "rulebook",
@@ -3290,6 +3374,12 @@
     },
     {
       "path": "reversi/pdf/reversi-variant-library-v0.1.0.pdf",
+      "family": "reversi",
+      "type": "library",
+      "pages": 13
+    },
+    {
+      "path": "reversi/pdf/reversi-variant-library-v0.1.1.pdf",
       "family": "reversi",
       "type": "library",
       "pages": 13
@@ -3358,13 +3448,13 @@
       "path": "shogi/pdf/shogi-variant-library-v1.2.0.pdf",
       "family": "shogi",
       "type": "library",
-      "pages": 113
+      "pages": 122
     },
     {
       "path": "shogi/pdf/shogi-variant-library.pdf",
       "family": "shogi",
       "type": "library",
-      "pages": 113
+      "pages": 122
     },
     {
       "path": "shogi/pdf/variants/annan-shogi.pdf",
@@ -3442,7 +3532,7 @@
       "path": "shogi/pdf/variants/maka-dai-dai-shogi.pdf",
       "family": "shogi",
       "type": "variant",
-      "pages": 8
+      "pages": 9
     },
     {
       "path": "shogi/pdf/variants/minishogi.pdf",
@@ -3484,7 +3574,7 @@
       "path": "shogi/pdf/variants/taikyoku-shogi.pdf",
       "family": "shogi",
       "type": "variant",
-      "pages": 5
+      "pages": 12
     },
     {
       "path": "shogi/pdf/variants/tenjiku-shogi.pdf",
@@ -3508,7 +3598,7 @@
       "path": "shogi/pdf/variants/yari-shogi.pdf",
       "family": "shogi",
       "type": "variant",
-      "pages": 4
+      "pages": 5
     },
     {
       "path": "standard-52/pdf/games/big2.pdf",
@@ -3551,6 +3641,12 @@
       "family": "standard-52",
       "type": "componentGame",
       "pages": 5
+    },
+    {
+      "path": "standard-52/pdf/games/four-player-cribbage.pdf",
+      "family": "standard-52",
+      "type": "componentGame",
+      "pages": 3
     },
     {
       "path": "standard-52/pdf/games/freecell.pdf",
@@ -3604,6 +3700,12 @@
       "path": "standard-52/pdf/games/spider-solitaire.pdf",
       "family": "standard-52",
       "type": "componentGame",
+      "pages": 4
+    },
+    {
+      "path": "standard-52/pdf/games/three-player-cribbage.pdf",
+      "family": "standard-52",
+      "type": "componentGame",
       "pages": 3
     },
     {
@@ -3625,13 +3727,25 @@
       "pages": 77
     },
     {
+      "path": "standard-52/pdf/standard-52-complete-v0.2.2.pdf",
+      "family": "standard-52",
+      "type": "complete",
+      "pages": 84
+    },
+    {
       "path": "standard-52/pdf/standard-52-complete.pdf",
       "family": "standard-52",
       "type": "complete",
-      "pages": 77
+      "pages": 84
     },
     {
       "path": "standard-52/pdf/standard-52-rulebook-v0.2.1.pdf",
+      "family": "standard-52",
+      "type": "rulebook",
+      "pages": 5
+    },
+    {
+      "path": "standard-52/pdf/standard-52-rulebook-v0.2.2.pdf",
       "family": "standard-52",
       "type": "rulebook",
       "pages": 5
@@ -3748,7 +3862,7 @@
       "path": "starforged/pdf/rules/encounters.pdf",
       "family": "starforged",
       "type": "subPage",
-      "pages": 14
+      "pages": 15
     },
     {
       "path": "starforged/pdf/rules/moves.pdf",
@@ -3760,7 +3874,7 @@
       "path": "starforged/pdf/rules/oracles.pdf",
       "family": "starforged",
       "type": "subPage",
-      "pages": 2
+      "pages": 3
     },
     {
       "path": "starforged/pdf/rules/truths.pdf",
@@ -3772,13 +3886,13 @@
       "path": "starforged/pdf/starforged-complete-v0.1.0.pdf",
       "family": "starforged",
       "type": "complete",
-      "pages": 107
+      "pages": 109
     },
     {
       "path": "starforged/pdf/starforged-complete.pdf",
       "family": "starforged",
       "type": "complete",
-      "pages": 107
+      "pages": 109
     },
     {
       "path": "starforged/pdf/starforged-rulebook-v0.1.0.pdf",
@@ -3850,16 +3964,22 @@
       "path": "surakarta/pdf/surakarta-rulebook-v0.1.0.pdf",
       "family": "surakarta",
       "type": "rulebook",
-      "pages": 5
+      "pages": 6
     },
     {
       "path": "surakarta/pdf/surakarta-rulebook.pdf",
       "family": "surakarta",
       "type": "rulebook",
-      "pages": 5
+      "pages": 6
     },
     {
       "path": "tafl/pdf/tafl-rulebook-v1.0.0.pdf",
+      "family": "tafl",
+      "type": "rulebook",
+      "pages": 3
+    },
+    {
+      "path": "tafl/pdf/tafl-rulebook-v1.0.1.pdf",
       "family": "tafl",
       "type": "rulebook",
       "pages": 3
@@ -3872,6 +3992,12 @@
     },
     {
       "path": "tafl/pdf/tafl-variant-library-v1.0.0.pdf",
+      "family": "tafl",
+      "type": "library",
+      "pages": 19
+    },
+    {
+      "path": "tafl/pdf/tafl-variant-library-v1.0.1.pdf",
       "family": "tafl",
       "type": "library",
       "pages": 19

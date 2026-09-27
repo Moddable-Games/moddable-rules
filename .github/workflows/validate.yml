@@ -42,6 +42,11 @@ jobs:
 
       # A synced board diagram is only on the page if someone writes the
       # {{svg:...}} line; 31 variants had one that nothing showed.
+      # Every fairy symbol in a chess setup must be declared; an undeclared one
+      # throws in the engine on first use.
+      - name: Check FEN vocabulary
+        run: node scripts/check-fen-vocabulary.mjs
+
       - name: Check board diagrams are shown
         run: node scripts/check-board-shown.mjs
 

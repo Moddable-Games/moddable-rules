@@ -14,6 +14,20 @@ const PAGE_H_MM = 297;
 const PAD_MM = 20;
 const PAGINATE_JS = buildPaginateScript(PAGE_H_MM, PAD_MM);
 
+// Pages whose content the paginator had to clip. Each is reported as it
+// happens and the run exits non-zero at the end: a PDF missing part of its
+// page is otherwise indistinguishable from a complete one.
+const clipped = [];
+
+async function paginate(page, label) {
+  await page.evaluate(PAGINATE_JS);
+  const overflow = await page.evaluate(() => window.__pdfOverflow || []);
+  for (const o of overflow) {
+    clipped.push({ label, ...o });
+    console.warn(`    CLIPPED ${label} page ${o.page}: ${o.overflowPx}px lost after "${o.lastText}"`);
+  }
+}
+
 // --- Parse CLI arguments ---
 const args = process.argv.slice(2);
 let targetSlug = null;
@@ -138,7 +152,7 @@ async function generateMultiPage(browser, htmlPath, sectionSel, opts) {
     ${opts.css || ''}
   `});
 
-  await page.evaluate(PAGINATE_JS);
+  await paginate(page, htmlPath.replace(DIST_DIR + '/', ''));
 
   const pdfPath = opts.outPath;
   await page.pdf({
@@ -371,7 +385,7 @@ for (const slug of slugs) {
       svg { max-width: 100%; height: auto; margin: 16px 0; padding: 16px; background: #fff; border: 1px solid #ddd; border-radius: 4px; }
     `});
 
-    await contentPage.evaluate(PAGINATE_JS);
+    await paginate(contentPage, `${slug}/variants/${v.slug}`);
 
     const contentPath = resolve(variantPdfDir, `_${v.slug}_content.pdf`);
     await contentPage.pdf({
@@ -578,4 +592,26 @@ for (const slug of slugs) {
 }
 
 await browser.close();
+// Pages known to clip are listed in pdf-clip-baseline.json with the reason.
+// They are reported but do not fail the run; any other clipped page does. A
+// listed page that no longer clips is reported so the list only ever shrinks.
+// A single-game run (--game) only judges the pages it generated.
+const BASELINE_PATH = resolve(ROOT, 'pdf-clip-baseline.json');
+const baseline = existsSync(BASELINE_PATH) ? JSON.parse(readFileSync(BASELINE_PATH, 'utf8')) : {};
+const clippedLabels = new Set(clipped.map(c => c.label));
+const unexpected = clipped.filter(c => !baseline[c.label]);
+if (clipped.length) {
+  console.error(`\n${clipped.length} page(s) clipped: content was lost from these PDFs.`);
+  for (const c of clipped) {
+    const known = baseline[c.label] ? ' (baselined)' : '';
+    console.error(`  ${c.label} page ${c.page} (${c.overflowPx}px)${known}`);
+  }
+}
+const cleared = Object.keys(baseline).filter(label =>
+  !clippedLabels.has(label) && (!targetSlug || label.startsWith(`${targetSlug}/`)));
+if (cleared.length) {
+  console.log(`\nNo longer clipped; remove from pdf-clip-baseline.json:`);
+  for (const label of cleared) console.log(`  ${label}`);
+}
+if (unexpected.length) process.exitCode = 1;
 console.log('PDF generation complete.');
