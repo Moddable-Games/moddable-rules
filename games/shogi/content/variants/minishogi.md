@@ -15,8 +15,17 @@ engine:
   players: [sente, gote]
   setup: "rbsgk/4p/5/P4/KGSBR"
   render:
-    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
-    decorations: []
+    # No hoshi: the board's squares are unmarked (Wikipedia, checked 2026-09-28).
+    # The tints show the promotion zone, 1 rank a side from its promotionZone.
+    decorations:
+      - type: tint
+        region:
+          rows: [0, 0]
+        color: promotion-zone
+      - type: tint
+        region:
+          rows: [4, 4]
+        color: promotion-zone
     cellSize: 40
   plugins:
     shogi:

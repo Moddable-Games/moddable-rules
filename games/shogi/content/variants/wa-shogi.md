@@ -24,8 +24,17 @@ engine:
   players: [sente, gote]
   setup: "[lh][cm][so][fc][vs][ck][vw][fg][sc][bd][oc]/1[ce]3[sw]3[ff]1/[sp][sp][sp][rr][sp][sp][sp][tf][sp][sp][sp]/3[sp]3[sp]3/11/11/11/3[SP]3[SP]3/[SP][SP][SP][TF][SP][SP][SP][RR][SP][SP][SP]/1[FF]3[SW]3[CE]1/[OC][BD][SC][FG][VW][CK][VS][FC][SO][CM][LH]"
   render:
-    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
-    decorations: []
+    # No hoshi: the board's squares are unmarked (Wikipedia, checked 2026-09-28).
+    # The tints show the promotion zone, 3 ranks a side from its promotionZone.
+    decorations:
+      - type: tint
+        region:
+          rows: [0, 2]
+        color: promotion-zone
+      - type: tint
+        region:
+          rows: [8, 10]
+        color: promotion-zone
     cellSize: 30
   vocabulary:
     liberated_horse: { symbols: { "0": LH, "1": lh } }

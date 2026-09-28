@@ -37,8 +37,17 @@ engine:
   players: [sente, gote]
   setup: "[ln][kn][fl][ig][cg][sg][gg][de][ki][gg][sg][cg][ig][fl][kn][ln]/[rc]1[cs][cs]1[bt][ph][fk][li][kr][bt]1[cs][cs]1[rc]/[ss][vt][bi][dh][dk][wb][fd][fe][lw][fd][wb][dk][dh][bi][vt][ss]/[sm][vm][rk][hf][se][bg][rg][vg][gr][rg][bg][se][hf][rk][vm][sm]/[pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw][pw]/4[dg]6[dg]4/16/16/16/16/4[DG]6[DG]4/[PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW][PW]/[SM][VM][RK][HF][SE][BG][RG][GR][VG][RG][BG][SE][HF][RK][VM][SM]/[SS][VT][BI][DH][DK][WB][FD][LW][FE][FD][WB][DK][DH][BI][VT][SS]/[RC]1[CS][CS]1[BT][KR][LI][FK][PH][BT]1[CS][CS]1[RC]/[LN][KN][FL][IG][CG][SG][GG][KI][DE][GG][SG][CG][IG][FL][KN][LN]"
   render:
-    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
-    decorations: []
+    # No hoshi: the board's squares are unmarked (Wikipedia, checked 2026-09-28).
+    # The tints show the promotion zone, 5 ranks a side from its promotionZone.
+    decorations:
+      - type: tint
+        region:
+          rows: [0, 4]
+        color: promotion-zone
+      - type: tint
+        region:
+          rows: [11, 15]
+        color: promotion-zone
     cellSize: 20
   vocabulary:
     lance: { symbols: { "0": LN, "1": ln } }

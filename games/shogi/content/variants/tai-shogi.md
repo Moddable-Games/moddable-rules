@@ -243,7 +243,8 @@ engine:
         western_barbarian: { betza: "rlR2fbWfF" }
         white_tiger: { betza: "fbR[fl]BrlR2fF" }
   render:
-    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    # No hoshi and no promotion tint: no marking is sourced for this board, and
+    # promotion here is not a zone of ranks (promotionZone: 0).
     decorations: []
     cellSize: 14
   pieces:

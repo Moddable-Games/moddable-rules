@@ -23,8 +23,17 @@ engine:
       F: wtF
       f: btF
   render:
-    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
-    decorations: []
+    # No hoshi: the board's squares are unmarked (Wikipedia, checked 2026-09-28).
+    # The tints show the promotion zone, 2 ranks a side from its promotionZone.
+    decorations:
+      - type: tint
+        region:
+          rows: [0, 1]
+        color: promotion-zone
+      - type: tint
+        region:
+          rows: [5, 6]
+        color: promotion-zone
     cellSize: 40
   vocabulary:
     phoenix:

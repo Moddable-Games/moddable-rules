@@ -17,8 +17,17 @@ engine:
   pieces:
     set: mce-shogi-fairy
   render:
-    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
-    decorations: []
+    # No hoshi: the board's squares are unmarked (Wikipedia, checked 2026-09-28).
+    # The tints show the promotion zone, 3 ranks a side from the plugin's default promotionZone of 3, as played.
+    decorations:
+      - type: tint
+        region:
+          rows: [0, 2]
+        color: promotion-zone
+      - type: tint
+        region:
+          rows: [6, 8]
+        color: promotion-zone
     cellSize: 36
   vocabulary:
     general:
