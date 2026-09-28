@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Tawlbwrdd"
 slug: "tawlbwrdd"
 parent: tafl
@@ -41,6 +42,21 @@ engine:
           throne: throne-stroke
           corner: corner-stroke
   setup: "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
+  plugins:
+    tafl:
+      regions:
+        throne: { cells: [[5,5]] }
+        interior: { rows: [1, 9], cols: [1, 9] }
+        edge: { not: [interior] }
+      pieces:
+        attacker: { type: rider, dirs: orthogonal }
+        defender: { type: rider, dirs: orthogonal }
+        king: { type: rider, dirs: orthogonal }
+      custodial:
+        dirs: orthogonal
+        displacement: false
+        line: 3
+      goal: { piece: king, in: edge }
 published: true
 ---
 

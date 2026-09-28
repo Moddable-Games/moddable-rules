@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Asalto (Standard)
 slug: standard
 board: "asalto-standard"
@@ -14,9 +15,18 @@ engine:
     params:
       rows: [[2,3,4],[2,3,4],[0,1,2,3,4,5,6],[0,1,2,3,4,5,6],[0,1,2,3,4,5,6],[2,3,4],[2,3,4]]
       fortressRows: 2
+      fortressExtraRow: 2
+      fortressCols: [2,3,4]
       diagonals: true
   players: [officers, soldiers]
-  setup: "n4:O,n6:O,n7:S,n8:S,n12:S,n13:S,n14:S,n15:S,n16:S,n17:S,n18:S,n19:S,n20:S,n21:S,n22:S,n23:S,n24:S,n25:S,n26:S,n27:S,n28:S,n29:S,n30:S,n31:S,n32:S,n33:S"
+  setup: "n4:w,n6:w,n7:b,n8:b,n12:b,n13:b,n14:b,n15:b,n16:b,n17:b,n18:b,n19:b,n20:b,n21:b,n22:b,n23:b,n24:b,n25:b,n26:b,n27:b,n28:b,n29:b,n30:b,n31:b,n32:b,n33:b"
+  plugins:
+    asalto:
+      # The fortress: the Soldiers' goal, and its size is how many they need.
+      goals:
+        - []
+        - [n1, n2, n3, n4, n5, n6, n9, n10, n11]
+      fewerThan: [0, 9]
 ---
 
 ## Asalto (Standard)
@@ -58,6 +68,8 @@ Total positions: approximately 33 (varies slightly by edition).
 **Officers win** when they have captured enough Soldiers that the remaining Soldiers cannot simultaneously surround and immobilize both Officers. In practice, this is when fewer than ~16 Soldiers remain (the exact number depends on board position).
 
 **Soldiers win** when both Officers are simultaneously immobilized — neither Officer has any legal move (every adjacent position is occupied by a Soldier, and no jump is available).
+
+**Soldiers also win** by occupying every point of the fortress (Wikipedia, *Asalto*). The Officers therefore win once fewer Soldiers remain than the fortress has points.
 
 ### Strategy
 

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Hnefatafl"
 slug: "hnefatafl"
 parent: tafl
@@ -41,6 +42,22 @@ engine:
           throne: throne-stroke
           corner: corner-stroke
   setup: "3bbbbb3/5b5/11/b4w4b/b3www3b/bb1wwKww1bb/b3www3b/b4w4b/11/5b5/3bbbbb3"
+  plugins:
+    tafl:
+      regions:
+        throne: { cells: [[5,5]] }
+        corners: { cells: [[0,0],[0,10],[10,0],[10,10]] }
+        common: { not: [throne, corners] }
+      pieces:
+        attacker: { type: rider, dirs: orthogonal, confine: common }
+        defender: { type: rider, dirs: orthogonal, confine: common }
+        king: { type: rider, dirs: orthogonal }
+      custodial:
+        dirs: orthogonal
+        displacement: false
+        hostile: [throne, corners]
+        enclose: { piece: king, near: throne }
+      goal: { piece: king, in: corners }
 published: true
 ---
 

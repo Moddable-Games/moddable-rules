@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Tablut"
 slug: "standard"
 parent: tafl
@@ -34,6 +35,24 @@ engine:
           floor: floor-stroke
           throne: throne-stroke
           corner: corner-stroke
+  plugins:
+    tafl:
+      regions:
+        throne: { cells: [[4,4]] }
+        interior: { rows: [1, 7], cols: [1, 7] }
+        edge: { not: [interior] }
+        common: { not: [throne] }
+        royal: { not: [throne] }
+      pieces:
+        attacker: { type: rider, dirs: orthogonal, confine: common }
+        defender: { type: rider, dirs: orthogonal, confine: common }
+        king: { type: rider, dirs: orthogonal, confine: royal }
+      custodial:
+        dirs: orthogonal
+        displacement: false
+        hostile: [throne]
+        enclose: { piece: king }
+      goal: { piece: king, in: edge }
 published: true
 ---
 

@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Royal Garrison
 slug: royal-garrison
 board: "asalto-royal"
@@ -29,7 +30,14 @@ engine:
   render:
     canvasSize: 380
   players: [officers, soldiers]
-  setup: "n13:O,n15:O,n17:O,n11:S,n12:S,n18:S,n19:S,n20:S,n21:S,n22:S,n23:S,n24:S,n25:S,n26:S,n27:S,n28:S,n29:S,n30:S,n31:S,n32:S,n33:S,n34:S,n35:S,n36:S,n37:S,n38:S,n39:S,n40:S,n41:S,n42:S,n43:S,n44:S,n45:S,n46:S,n47:S,n48:S,n49:S,n50:S,n51:S,n52:S,n53:S,n54:S,n55:S,n56:S,n57:S,n58:S,n59:S,n60:S,n61:S,n62:S,n63:S,n64:S,n65:S"
+  setup: "n13:w,n15:w,n17:w,n11:b,n12:b,n18:b,n19:b,n20:b,n21:b,n22:b,n23:b,n24:b,n25:b,n26:b,n27:b,n28:b,n29:b,n30:b,n31:b,n32:b,n33:b,n34:b,n35:b,n36:b,n37:b,n38:b,n39:b,n40:b,n41:b,n42:b,n43:b,n44:b,n45:b,n46:b,n47:b,n48:b,n49:b,n50:b,n51:b,n52:b,n53:b,n54:b,n55:b,n56:b,n57:b,n58:b,n59:b,n60:b,n61:b,n62:b,n63:b,n64:b,n65:b"
+  plugins:
+    asalto:
+      # The fortress: the Soldiers' goal, and its size is how many they need.
+      goals:
+        - []
+        - [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n13, n14, n15, n16, n17, n66, n67]
+      fewerThan: [0, 17]
 ---
 
 ## Royal Garrison
