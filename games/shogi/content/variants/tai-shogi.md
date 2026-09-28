@@ -243,6 +243,8 @@ engine:
         western_barbarian: { betza: "rlR2fbWfF" }
         white_tiger: { betza: "fbR[fl]BrlR2fF" }
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 14
   pieces:
     set: mce-shogi-fairy

@@ -61,6 +61,8 @@ engine:
         tokin: { type: leaper, offsets: [[-1, -1], [-1, 0], [-1, 1], [0, -1], [0, 1], [1, 0]], directional: true }
   setup: "pgkst/5/5/5/TSKGP"
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 40
 ---
 

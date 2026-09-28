@@ -476,6 +476,8 @@ engine:
         white_tiger: [{"type":"rider","dirs":[[0,-1],[0,1]],"directional":true},{"type":"rider","dirs":[[-1,0],[1,0]],"maxSteps":2,"directional":true}]
         woodland_demon: [{"type":"rider","dirs":[[0,-1],[0,1]],"maxSteps":2,"directional":true},{"type":"rider","dirs":[[1,-1],[1,1]],"maxSteps":2,"directional":true},{"type":"rider","dirs":[[-1,0]],"directional":true},{"type":"rider","dirs":[[-1,-1],[-1,1]],"directional":true}]
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 10
   pieces:
     set: mce-shogi-fairy

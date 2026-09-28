@@ -23,6 +23,8 @@ engine:
       F: wtF
       f: btF
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 40
   vocabulary:
     phoenix:

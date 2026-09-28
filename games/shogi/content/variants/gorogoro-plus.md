@@ -16,6 +16,8 @@ engine:
   players: [sente, gote]
   setup: "sgkgs/5/1ppp1/1PPP1/5/SGKGS"
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 40
   plugins:
     shogi:

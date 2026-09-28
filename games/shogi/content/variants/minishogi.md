@@ -15,6 +15,8 @@ engine:
   players: [sente, gote]
   setup: "rbsgk/4p/5/P4/KGSBR"
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 40
   plugins:
     shogi:

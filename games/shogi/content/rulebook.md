@@ -23,7 +23,6 @@ engine:
     type: grid
     rows: 9
     cols: 9
-    layout: intersections
   surface:
     colors:
       cell-light: "#e8c97a"
@@ -48,7 +47,7 @@ engine:
         grouped: false
     decorations:
       - type: markers
-        at: [[2,2],[2,6],[6,2],[6,6]]
+        at: [[2.5,2.5],[2.5,5.5],[5.5,2.5],[5.5,5.5]]
         fill: hoshi
         size: 3
       - type: tint
