@@ -42,6 +42,16 @@ engine:
   pieces:
     set: fluent-emoji
   players: [red, blue, green, black, purple, brown]
+  # A race of hops, played by the hop plugin on the star's own lattice: a
+  # step to any of the six neighbours, or a chain of hops over single pieces.
+  plugin: hop
+  plugins:
+    stern-halma:
+      # Holes are h1-h121, row by row from the north tip. Each arm's ten:
+      #   N  h1-h10, NW h11-14 24-26 36-37 47, NE h20-23 33-35 45-46 56,
+      #   SW h66 76-77 87-89 99-102, SE h75 85-86 96-98 108-111, S h112-h121
+      # Once in the destination arm, a piece stays there.
+      campLock: true
 how_to_play: "Race ten pieces from one arm of a six-pointed star to the opposite arm. Move one step or jump over adjacent pieces (yours or opponents') to reach empty spaces beyond. Chain multiple jumps in one move. First player to fill the opposite arm wins."
 mechanics:
   - race
@@ -53,13 +63,6 @@ related:
   - halma
   - draughts
   - go
-unsupported:
-  _family: "No rules plugin. The star board and pegs render; nothing steps, chains hops through a corridor of pieces, or recognises a filled destination arm as a win."
-  standard-2p: "Two players use opposite arms."
-  standard-3p: "Three players use alternating arms, each aiming at the arm opposite."
-  standard-4p: "Four players use the diagonal arms, leaving north and south empty. Four seats also need per-seat goal zones, which nothing declares."
-  standard-6p: "All six arms are occupied, so six seats need six goal zones."
-  super-chinese-checkers: "Super Chinese Checkers additionally allows a hop over any distance - any number of empty cells before the hurdle and the same number after - so the hop is a ray scan rather than a fixed two-cell step."
 ---
 
 <div class="section">

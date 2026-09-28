@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard 4-Player Halma
 slug: standard-4p
 board: "16×16"
@@ -12,8 +13,25 @@ engine:
     type: grid
     rows: 16
     cols: 16
-  players: [white, black]
-  setup: "bbbb8bbbb/bbbb8bbbb/bbb10bbb/bb12bb/16/16/16/16/16/16/16/16/ww12ww/www10www/wwww8wwww/wwww8wwww"
+  players: [red, yellow, green, blue]
+  pieces:
+    set: mce-cross-race
+  setup: "gM,gM,gM,gM,8,bM,bM,bM,bM/gM,gM,gM,gM,8,bM,bM,bM,bM/gM,gM,gM,10,bM,bM,bM/gM,gM,12,bM,bM/16/16/16/16/16/16/16/16/yM,yM,12,rM,rM/yM,yM,yM,10,rM,rM,rM/yM,yM,yM,yM,8,rM,rM,rM,rM/yM,yM,yM,yM,8,rM,rM,rM,rM"
+  plugins:
+    halma:
+      vocabulary: { piece: { symbols: { 0: rM, 1: yM, 2: gM, 3: bM } } }
+      # One camp in each corner, clockwise from the bottom right; each player
+      # races to the diagonally opposite corner.
+      start:
+        - [[15,15],[15,14],[15,13],[15,12],[14,15],[14,14],[14,13],[14,12],[13,15],[13,14],[13,13],[12,15],[12,14]]
+        - [[15,0],[15,1],[15,2],[15,3],[14,0],[14,1],[14,2],[14,3],[13,0],[13,1],[13,2],[12,0],[12,1]]
+        - [[0,0],[0,1],[0,2],[0,3],[1,0],[1,1],[1,2],[1,3],[2,0],[2,1],[2,2],[3,0],[3,1]]
+        - [[0,15],[0,14],[0,13],[0,12],[1,15],[1,14],[1,13],[1,12],[2,15],[2,14],[2,13],[3,15],[3,14]]
+      goals:
+        - [[0,0],[0,1],[0,2],[0,3],[1,0],[1,1],[1,2],[1,3],[2,0],[2,1],[2,2],[3,0],[3,1]]
+        - [[0,15],[0,14],[0,13],[0,12],[1,15],[1,14],[1,13],[1,12],[2,15],[2,14],[2,13],[3,15],[3,14]]
+        - [[15,15],[15,14],[15,13],[15,12],[14,15],[14,14],[14,13],[14,12],[13,15],[13,14],[13,13],[12,15],[12,14]]
+        - [[15,0],[15,1],[15,2],[15,3],[14,0],[14,1],[14,2],[14,3],[13,0],[13,1],[13,2],[12,0],[12,1]]
 ---
 
 ## Standard 4-Player Halma
