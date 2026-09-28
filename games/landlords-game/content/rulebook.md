@@ -30,6 +30,8 @@ engine:
   surface: parchment
   render:
     trackStyle: perimeter
+  pieces:
+    set: mce-player-tokens
   players: [player1, player2, player3, player4, player5, player6]
 ---
 
