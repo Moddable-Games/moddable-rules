@@ -46,23 +46,29 @@ engine:
     cellSize: 50
     cellColor: uniform
     boardStyle: surakarta
+    # The loops reach two points beyond the board, so the board is drawn
+    # with that much room round it.
+    insetFactor: 2.3
+    # The board, its lines and a point at every intersection to click, as
+    # Fanorona draws its own. The loops are drawn from the topology's arcs.
     ops:
-      - op: cells
-        pattern: uniform
-        fill: "#d9c5a0"
-        stroke: "#8b7355"
-        interactive: true
+      - op: rect
+        fill: cell-light
+        scope: board
+        rx: 4
       - op: grid-lines
-        color: "#8b7355"
+        color: stroke
         width: 2
         grouped: false
+      - op: markers
+        allCells: true
+        radius: 3.5
+        fill: stroke
+        hits:
+          radiusFactor: 0.4
+          idStyle: algebraic
     decorations:
       - type: arcs
-        rings: 2
-        cornerOffset: 2
-      - type: markers
-        auto: all-cells
-        size: 3.5
   pieces:
     set: playstrategy-go-classic
     vocabulary:
