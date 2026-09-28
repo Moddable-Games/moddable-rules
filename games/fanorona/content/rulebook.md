@@ -28,6 +28,9 @@ engine:
     rows: 5
     cols: 9
     layout: intersections
+    # Strong and weak points alternate: a diagonal is drawn, and may be
+    # travelled, only through the points whose coordinate sum is even.
+    diagonals: alternating
   surface: parchment
   render:
     cellSize: 40
@@ -60,9 +63,28 @@ engine:
       b: bS
       w: wS
   players: [white, black]
-unsupported:
-  _family: "No rules plugin. Fanorona captures by approach or withdrawal - moving toward a line of enemy pieces or away from one removes the whole line - and a capturing player must continue capturing while able, without repeating a direction or revisiting a cell. Chained capture with per-chain history is not modelled."
-  standard: "Blocked on the plugin alone."
+  # Fanorona is Alquerque's board with a different capture, so the draughts
+  # plugin plays it with the keys below.
+  plugin: draughts
+  plugins:
+    fanorona:
+      directions: all
+      manMove: all
+      manCapture: all
+      promotion: false
+      # "Capturing is mandatory: if any capture is available anywhere on the
+      # board, the player must make one."
+      forcedCapture: true
+      piecesPerPlayer: 22
+      captureMethods: [approach, withdrawal]
+      # "Continuation is optional: the player may stop after any capture. The
+      # piece may not land on an intersection it has already visited during
+      # the same turn. The piece may not move in the same direction as its
+      # immediately preceding step."
+      chain:
+        optional: true
+        revisit: false
+        repeatDirection: false
 ---
 
 <div class="section">
