@@ -36,11 +36,46 @@ engine:
     cellSize: 24
   pieces:
     set: playstrategy-go-classic
+    # Officers light (w), Soldiers dark (b).
+    vocabulary:
+      w: wS
+      b: bS
   players: [officers, soldiers]
-unsupported:
-  _family: "No rules plugin, and the asymmetry is total: Officers jump to capture as in draughts, Soldiers advance without jumping and never capture at all, and the two sides win differently - Soldiers by immobilising the Officers, Officers by reducing the Soldiers below a threshold. Two seats with two different move generators and two different win conditions is a shape the engine has no plugin for."
-  royal-garrison: "Three Officers against 50 Soldiers on the larger fortress; identical mechanics at greater scale, so it is blocked on exactly what standard is blocked on."
-  standard: "Two Officers against 24 Soldiers on the cross-shaped board."
+  # Played by the hop plugin, with each side's pieces declared separately:
+  # Officers step along any line and jump Soldiers to take them, a chain of
+  # jumps stopping where it likes; Soldiers step forward or sideways and never
+  # jump. The Soldiers win by filling the fortress or leaving the Officers no
+  # move; the Officers by leaving too few Soldiers to fill it.
+  plugin: hop
+  plugins:
+    asalto:
+      vocabulary: { piece: { symbols: { 0: w, 1: b } } }
+      seats:
+        - { steps: all, hops: capture }
+        - { steps: { rows: [-1, 0] }, hops: none }
+      noMovesLoses: true
+disputed:
+  - feature: "Which way a Soldier may step"
+    readings:
+      - source: "This rulebook, Asalto (Standard), Movement"
+        says: "Forward or sideways"
+        describes: "Move 1 step along a line forward or sideways only (toward the fortress, or horizontally)."
+      - source: "https://en.wikipedia.org/wiki/Asalto, checked 2026-09-28"
+        says: "Only towards the fortress"
+        describes: "Rebel pieces may move one space along any line on the board, but only in the direction of the fortress."
+    engine: "Forward or sideways"
+    because: "The rulebook states it outright and Wikipedia's wording can be read as excluding only retreat."
+approximations:
+  - feature: "When the Officers have won"
+    source: "This rulebook, Win Conditions"
+    says: "Officers win when they have captured enough Soldiers that the remaining Soldiers cannot simultaneously surround and immobilize both Officers. In practice, this is when fewer than ~16 Soldiers remain (the exact number depends on board position)."
+    engine: "The Officers win when fewer Soldiers remain than there are fortress points, so the Soldiers can no longer fill it."
+    because: "The rulebook gives no exact number. Wikipedia says the Officers win by capturing enough rebels to make the rebels' goals impossible; filling the fortress is the goal that has an exact count."
+  - feature: "Huffing"
+    source: "https://en.wikipedia.org/wiki/Asalto"
+    says: "Rebels ... cannot capture directly but may do so through huffing."
+    engine: "Not played: an Officer who passes up a capture is not removed."
+    because: "Neither this rulebook nor Wikipedia says how huffing works."
 ---
 
 # Asalto

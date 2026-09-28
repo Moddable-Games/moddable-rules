@@ -1,4 +1,5 @@
 ---
+playable: true
 title: "Brandubh"
 slug: "brandubh"
 parent: tafl
@@ -41,6 +42,23 @@ engine:
           throne: throne-stroke
           corner: corner-stroke
   setup: "3b3/3b3/3w3/bbwKwbb/3w3/3b3/3b3"
+  plugins:
+    tafl:
+      regions:
+        throne: { cells: [[3,3]] }
+        corners: { cells: [[0,0],[0,6],[6,0],[6,6]] }
+        common: { not: [throne, corners] }
+        royal: { not: [throne] }
+      pieces:
+        attacker: { type: rider, dirs: orthogonal, confine: common }
+        defender: { type: rider, dirs: orthogonal, confine: common }
+        king: { type: rider, dirs: orthogonal, confine: royal }
+      custodial:
+        dirs: orthogonal
+        displacement: false
+        hostile: [throne, corners]
+        enclose: { piece: king, near: throne }
+      goal: { piece: king, in: corners }
 published: true
 ---
 
