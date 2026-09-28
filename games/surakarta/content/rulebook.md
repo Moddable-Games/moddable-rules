@@ -24,6 +24,18 @@ engine:
     rows: 6
     cols: 6
     layout: intersections
+    # The eight loops, each joining two edge points around a corner: the
+    # inner loops through the second line from each edge, the outer through
+    # the third. Row 0 is the top.
+    arcs:
+      - [[0, 1], [1, 0]]
+      - [[0, 2], [2, 0]]
+      - [[0, 4], [1, 5]]
+      - [[0, 3], [2, 5]]
+      - [[5, 1], [4, 0]]
+      - [[5, 2], [3, 0]]
+      - [[5, 4], [4, 5]]
+      - [[5, 3], [3, 5]]
   surface:
     colors:
       cell-light: "#d9c5a0"
@@ -57,6 +69,29 @@ engine:
       b: bS
       w: wS
   players: [white, black]
+  # One kind of piece that steps like a king and captures only along the
+  # loops, which the chess plugin plays with the declarations below.
+  plugin: chess
+  plugins:
+    surakarta:
+      castling: false
+      enPassant: false
+      noCheck: true
+      # "The player who captures all 12 of the opponent's pieces wins."
+      stalemateMeaning: loss
+      quietLimit: { plies: 100, decide: material }
+      vocabulary:
+        bishop: { symbols: {} }
+        stone: { symbols: { 0: w, 1: b } }
+      pieces:
+        stone:
+          divergent:
+            # "Move one piece one step to any adjacent empty intersection",
+            # in all eight directions.
+            move: { type: rider, dirs: all, maxSteps: 1 }
+            # "A capturing move must pass through at least one corner loop
+            # arc", along the lines, to "the first opponent piece it reaches".
+            capture: { type: rail, dirs: orthogonal, minArcs: 1 }
 how_to_play: "Move pieces one step in any direction. Capture by routing your path through one or more of the eight corner loop arcs that extend outside the grid boundary. First player to capture all twelve opponent pieces wins."
 mechanics:
   - grid-movement
@@ -67,9 +102,12 @@ related:
   - go
   - agon
   - morris
-unsupported:
-  _family: "No rules plugin. Surakarta captures by travelling around one of the eight loop arcs at the board's edge and striking the first piece met on the way back in - so a capture is a path along a rail rather than a move to a cell. Nothing in the topology models the arcs, which today are drawn and nothing more."
-  standard: "Blocked on the plugin alone."
+approximations:
+  - feature: "Ending a game that has stopped making progress"
+    source: "This rulebook, Winning"
+    says: "If no further progress can be made, the game ends by mutual agreement. The player with more pieces remaining wins. If both players have equal pieces, the game is a draw."
+    engine: "A hundred plies without a capture end the game, and the side with more pieces wins; equal is a draw."
+    because: "The engine cannot ask two players to agree, so a fixed quiet stretch stands in for the agreement. The count that decides it is the rulebook's."
 ---
 
 <div class="section">
