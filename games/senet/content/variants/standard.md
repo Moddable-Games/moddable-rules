@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Senet (Kendall Reconstruction)
 slug: standard
 board: "3×10"

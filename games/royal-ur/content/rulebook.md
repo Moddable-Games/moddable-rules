@@ -31,6 +31,30 @@ engine:
   pieces:
     set: playstrategy-draughts-plain
   players: [white, black]
+  # A race: throw, move one piece along a route over the board's cells, and
+  # something happens where it lands. Played by the race plugin.
+  plugin: race
+  plugins:
+    royal-ur:
+      vocabulary: { piece: { symbols: { 0: M, 1: m } } }
+      pieces: 7
+      # Each side runs up its own lane to the rosette, along the shared middle
+      # row, and back into its own lane to the last rosette: fourteen squares,
+      # then off. Row 2 is White's lane, row 0 Black's.
+      routes:
+        white: [[2,3],[2,2],[2,1],[2,0],[1,0],[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[2,7],[2,6]]
+        black: [[0,3],[0,2],[0,1],[0,0],[1,0],[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[0,7],[0,6]]
+      seatRoutes: [white, black]
+      # Four binary dice: the number showing a marked corner, 0 to 4. A 0
+      # moves nothing.
+      throw: { lots: 4 }
+      # "The die result must be exactly sufficient to bear off a piece."
+      bearOff: exact
+      # A piece landed on goes back to reserve, except on a rosette, which is
+      # safe and gives another throw.
+      contact: capture
+      safe: [[0,0],[2,0],[1,3],[0,6],[2,6]]
+      rethrow: [[0,0],[2,0],[1,3],[0,6],[2,6]]
 how_to_play: "Roll four tetrahedral dice to move pieces along an L-shaped track. Rosette squares grant extra rolls and safety from capture. Landing on opponent pieces sends them back to start. Bear off all seven pieces to win. Rules reconstructed from 4,500-year-old clay tablets."
 mechanics:
   - race
@@ -43,9 +67,6 @@ related:
   - pachisi
   - backgammon
   - nyout
-unsupported:
-  _family: "No rules plugin. The Royal Game of Ur runs an L-shaped route with a shared central lane where pieces can be sent home, four binary dice, and rosette squares that grant an extra roll and immunity. The engine can draw the 3x8 grid but has no track laid over it and nothing to roll."
-  standard: "Blocked on the plugin alone."
 ---
 
 <div class="section">

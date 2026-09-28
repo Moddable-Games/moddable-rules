@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Nyout (Standard)
 slug: standard
 board: "perimeter cross"
