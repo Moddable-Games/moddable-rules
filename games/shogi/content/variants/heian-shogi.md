@@ -15,6 +15,8 @@ engine:
   players: [sente, gote]
   setup: "lnsgkgsnl/9/ppppppppp/9/9/PPPPPPPPP/9/LNSGKGSNL"
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 36
   plugins:
     shogi:

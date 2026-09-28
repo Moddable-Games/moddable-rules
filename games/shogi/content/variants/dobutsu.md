@@ -28,6 +28,17 @@ engine:
       c: Dobutsu_Chess_Pawn
   render:
     cellSize: 50
+    # Its own board, not shogi's: no hoshi on a 4x3 grid, and one promotion
+    # rank a side (promotionZone: 1) where shogi's decorations tint three.
+    decorations:
+      - type: tint
+        region:
+          rows: [0, 0]
+        color: promotion-zone
+      - type: tint
+        region:
+          rows: [3, 3]
+        color: promotion-zone
   vocabulary:
     lion:
       symbols:

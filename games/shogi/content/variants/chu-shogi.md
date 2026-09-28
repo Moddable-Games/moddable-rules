@@ -49,6 +49,8 @@ engine:
       X: wKI
       x: bKI
   render:
+    # Not the family's 9x9 hoshi and three-rank tints: none are sourced for this board yet.
+    decorations: []
     cellSize: 28
   vocabulary:
     king: { symbols: { "0": K, "1": k } }
