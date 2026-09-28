@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Super Chinese Checkers
 slug: super-chinese-checkers
 board: "6-pointed star (121 holes)"
@@ -15,9 +16,19 @@ engine:
     params:
       armSize: 4
       spacing: 24
-  players: [red, blue, green, black, purple, brown]
-  setup:
-    arms: [N, S]
+  players: [red, black]
+  setup: "h1:red-circle,h2:red-circle,h3:red-circle,h4:red-circle,h5:red-circle,h6:red-circle,h7:red-circle,h8:red-circle,h9:red-circle,h10:red-circle,h112:black-circle,h113:black-circle,h114:black-circle,h115:black-circle,h116:black-circle,h117:black-circle,h118:black-circle,h119:black-circle,h120:black-circle,h121:black-circle"
+  plugins:
+    stern-halma:
+      # A hop may clear any run of empty holes before the hurdle and lands as
+      # far beyond it.
+      hop: long
+      vocabulary: { piece: { symbols: { 0: red-circle, 1: black-circle } } }
+      # Each side starts in its arm (the setup above) and races to the arm
+      # opposite.
+      goals:
+        - [h112, h113, h114, h115, h116, h117, h118, h119, h120, h121]
+        - [h1, h2, h3, h4, h5, h6, h7, h8, h9, h10]
 ---
 
 ## Super Chinese Checkers

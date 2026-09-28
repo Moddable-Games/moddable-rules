@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Standard 3-Player Stern-Halma
 slug: standard-3p
 board: "6-pointed star (121 holes)"
@@ -15,9 +16,17 @@ engine:
     params:
       armSize: 4
       spacing: 24
-  players: [red, blue, green, black, purple, brown]
-  setup:
-    arms: [N, SE, SW]
+  players: [red, green, purple]
+  setup: "h1:red-circle,h2:red-circle,h3:red-circle,h4:red-circle,h5:red-circle,h6:red-circle,h7:red-circle,h8:red-circle,h9:red-circle,h10:red-circle,h75:green-circle,h85:green-circle,h86:green-circle,h96:green-circle,h97:green-circle,h98:green-circle,h108:green-circle,h109:green-circle,h110:green-circle,h111:green-circle,h66:purple-circle,h76:purple-circle,h77:purple-circle,h87:purple-circle,h88:purple-circle,h89:purple-circle,h99:purple-circle,h100:purple-circle,h101:purple-circle,h102:purple-circle"
+  plugins:
+    stern-halma:
+      vocabulary: { piece: { symbols: { 0: red-circle, 1: green-circle, 2: purple-circle } } }
+      # Each side starts in its arm (the setup above) and races to the arm
+      # opposite.
+      goals:
+        - [h112, h113, h114, h115, h116, h117, h118, h119, h120, h121]
+        - [h11, h12, h13, h14, h24, h25, h26, h36, h37, h47]
+        - [h20, h21, h22, h23, h33, h34, h35, h45, h46, h56]
 ---
 
 ## Standard 3-Player Stern-Halma

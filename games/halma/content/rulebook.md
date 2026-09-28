@@ -46,10 +46,14 @@ engine:
       b: bM
       w: wM
   players: [white, black]
-unsupported:
-  _family: "No rules plugin. The 16x16 board and pieces render; nothing steps, chain-hops in any of the eight directions, or recognises the opposite camp as filled."
-  standard-2p: "It additionally needs the rule that a piece which has entered the opponent's camp may not leave it, which is per-piece history no piece carries."
-  standard-4p: "Four seats need four camps and four goal camps, and the optional diagonal-partner team scoring needs a concept of teams the engine does not have."
+  # A race of hops, played by the hop plugin: a step to any of the eight
+  # neighbours, or a chain of hops over single pieces, never capturing.
+  plugin: hop
+  plugins:
+    halma:
+      directions: all
+      # "Once a piece has entered the destination camp, it may not leave."
+      campLock: true
 ---
 
 <div class="section variant-hub">
