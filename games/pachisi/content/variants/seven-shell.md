@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Seven-Shell Pachisi
 slug: seven-shell
 board: Cross-shaped cloth board
@@ -13,7 +14,12 @@ engine:
     rows: 19
     cols: 19
   players: [red, yellow, green, blue]
-  setup: "home:4Y,home:4G,home:4R,home:4B"
+  plugins:
+    pachisi:
+      # Seven cowries, each count with its own value; a grace on 0, 1, 5, 6
+      # or 7 mouths up.
+      throw: { lots: 7, scores: { 0: 7, 1: 10, 5: 25, 6: 35, 7: 14 }, again: [7, 10, 25, 35, 14] }
+      enterWith: [7, 10, 25, 35, 14]
 ---
 
 ## Seven-Shell Pachisi

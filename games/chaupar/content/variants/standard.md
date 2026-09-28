@@ -1,4 +1,5 @@
 ---
+playable: true
 title: Chaupar (Standard)
 slug: standard
 board: Cross-shaped cloth board
@@ -13,7 +14,6 @@ engine:
     rows: 19
     cols: 19
   players: [red, yellow, green, blue]
-  setup: "home:4Y,home:4G,home:4R,home:4B"
 ---
 
 ## Chaupar (Standard)
